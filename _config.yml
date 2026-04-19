@@ -1,0 +1,89 @@
+# Site wide configuration
+
+title:            Martin Paul Eve
+locale:           en_US
+url:              https://eve.gd
+
+
+# Jekyll configuration
+
+safe: false
+redirects: true
+permalink:   /:year/:month/:day/:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+plugins:
+  - jekyll-feed
+
+feed:
+  path: /feed/feed.atom
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      author: "Martin Paul Eve"
+
+
+# Site owner
+owner:
+  name: "Martin Paul Eve"
+  avatar: "MPETT.png"
+  job: "Professor of Literature, Technology and Publishing"
+  university: "Birkbeck, University of London"
+  university_wiki_url: "http://en.wikipedia.org/wiki/Birkbeck,_University_of_London"
+  university_url: "http://www.bbk.ac.uk"
+  job_msu: "Technical Lead"
+  msu: "MESH Research, Michigan State University"
+  bio: "Professor of Literature, Technology and Publishing. Birkbeck, University of London and Technical Lead at Knowledge Commons."
+  email: martin.eve@bbk.ac.uk
+  email_msu: eve@msu.edu
+  email_kings: martin.paul_eve@kcl.ac.uk
+  email_personal: martin@eve.gd
+  disqus-shortname: 
+  twitter: "martin_eve"
+  bluesky: "eve.gd"
+  facebook: #username
+  wikipedia: "https://en.wikipedia.org/wiki/Martin_Paul_Eve"
+  google:
+    plus: "martin_eve"
+    analytics:
+    verify: 
+    ad-client: 
+    ad-slot: 
+  bing-verify: 
+  github: "MartinPaulEve"
+  stackoverflow: 349003/martin-eve
+  linkedin: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  books: /books
+  hypothesis: https://hypothes.is/stream?q=user:MartinPaulEve
+  academia: https://works.hcommons.org/search?q=metadata.creators.person_or_org.name%3A%22Eve%2C%20Martin%20Paul%22&l=list&p=1&s=10&sort=bestmatch
+  repository: http://eprints.bbk.ac.uk/view/people/Eve=3AMartin_Paul=3A=3A.html
+  orcid: 0000-0002-5589-8511
+
+include: [".htaccess", "ttr"]
+exclude: ["lib", "config.rb", "Capfile", "_config.yml", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "*.sh"]

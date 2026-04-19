@@ -1,0 +1,30 @@
+---
+layout: post
+status: publish
+published: true
+title: ! 'Publication: ''The Botnet: Webs of Hegemony/Zombies Who Publish'', in Zombies
+  in the Academy (Bristol: Intellect, 2013)'
+wordpress_id: 2713
+wordpress_url: https://www.martineve.com/?p=2713
+date: !binary |-
+  MjAxMy0wNi0wMiAxODoxNToyMCArMDIwMA==
+date_gmt: !binary |-
+  MjAxMy0wNi0wMiAxNzoxNToyMCArMDIwMA==
+categories:
+- Publications
+- Output
+tags:
+- Open Access
+- Zombies
+comments: []
+doi: "https://doi.org/10.59348/cama3-wj520"
+archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/06/02/publication-the-botnet-webs-of-hegemonyzombies-who-publish-in-zombies-in-the-academy-bristol-intellect-2013"
+---
+<p>This book chapter was written in 2010, but is finally out! Eve, Martin Paul, ‘The Botnet: Webs of Hegemony/Zombies Who Publish’, in Zombies in the Academy, ed. by Andrew Wheelan, Chris Moore, and Ruth Walker (Bristol: Intellect Press, 2013), pp. 103–117</p>
+<p>The scholarly communication structure at present bears a strong resemblance to a malware system called a botnet. This piece explores this metaphor and proposes ways in which the library can become a bi-directional information hub called the Research Output Team as a potential antidote.</p>
+<p>You can <a href="https://www.martineve.com/wp-content/uploads/2013/06/Martin-Paul-Eve-Zombies-in-the-Academy.pdf">download the pre-print</a>, or visit my <a href="/profile">research profile</a> and get the file from my institutional repository.</p>
+
+
+
+
+

@@ -1,0 +1,44 @@
+---
+layout: post
+image: 
+    feature: geek.png
+status: publish
+published: true
+title: Crossword Helper for Android
+wordpress_id: 990
+wordpress_url: https://www.martineve.com/?p=990
+date: !binary |-
+  MjAxMS0wNC0yMSAxODowODo0NCArMDIwMA==
+date_gmt: !binary |-
+  MjAxMS0wNC0yMSAxODowODo0NCArMDIwMA==
+categories:
+- Technology
+- Android
+tags:
+- Technology
+- Android
+- Crosswords
+comments: []
+doi: "https://doi.org/10.59348/rsqkw-pc148"
+archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/04/21/crossword-helper-for-android"
+---
+<p>A quick plug for my latest Android application, which is now available in the Android Market: <a href="https://market.android.com/details?id=com.martineve.crossword&feature=search_result">Crossword Helper</a>. This is, fairly obviously, an application designed to help you finish crosswords when you are stuck.</p>
+<p>You can get the app by scanning this QR code on your device:</p>
+<div><a href="https://market.android.com/details?id=com.martineve.crossword&amp;feature=search_result"><img src="https://www.martineve.com/wp-content/uploads/2011/04/crossword_qr.png" alt="Crossword Solver QR Code" title="Crossword Solver QR Code" width="376" height="376" class="alignnone size-full wp-image-991" /></a></div>
+<div>
+<p>The application has a built-in dictionary of approximately 300,000 words against which you can match your existing grid and/or an anagram.</p>
+</div>
+<p>Example uses:</p>
+<p>Blanks<br />
+Enter "t?s?" for "test"</p>
+<p>Anagrams<br />
+Enter "elvis" to get "lives"</p>
+<p>Blanks and Anagrams<br />
+Enter "orchestra" for anagram and "c???-h????" to get "cart-horse"</p>
+<p>It's also my first experiment at selling something on the Android Market. In theory, I do not approve of this practice and prefer software to be free. For that reason, the similar service at <a href="http://ana.grammatic.org">http://ana.grammatic.org</a> will remain online and free to access. However, I am craving some extra revenue at the moment, so if you want offline support on your Android device, please give this your consideration.</p>
+<p>Logo based, in part, on a work by <a href="http://www.flickr.com/photos/crosswordman/">CrosswordMan</a> originally released under a CC-BY license.</p>
+
+
+
+
+

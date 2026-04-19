@@ -1,0 +1,66 @@
+/**
+ * sidebar.css
+ *
+ * Copyright (c) 2003-2008 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * Site-wide shared elements for pages including sidebar(s).
+ *
+ * $Id: sidebar.css,v 1.3 2008/06/11 18:55:17 asmecher Exp $
+ */
+
+/**
+ * Sidebar
+ */
+@media screen {
+#developedBy {
+	text-transform: uppercase;
+	font-size: 0.95em;
+}
+
+#sidebar div.block {
+	font-size: 1em;
+	padding-bottom: 1.5em;
+}
+
+#sidebar h5 strong {font-size: 1.8em; padding-bottom: 0.3em; display:block;}
+#sidebar div.block span.blockTitle,
+#sidebar h5 {
+	display: block;
+	padding: 0.5em 0 0.1em 0;
+margin: 0 0 0.6em 0;
+	font-size: 1.2em;
+	font-family: Arial;
+color:#971a28;
+	text-transform: uppercase;
+	font-weight:bold;
+border-bottom:2px solid #ccc;
+}
+
+
+#sidebar form table  {background:#fff;}
+
+#sidebar h6 {
+	font-family: Arial;
+font-size: 1.2em;
+color:#971a28;
+}
+
+#sidebar div.block span.blockSubtitle {
+	display: block;
+	padding: 0;
+}
+
+#sidebar input.textField, #sidebar select.selectMenu, #sidebar input.button {
+	font-size: 1em;
+}
+
+#sidebar .rtSeparator {border: none; border-top: 1px solid #ccc;margin: 0.4em 0}
+#sidebar .rtSeparatorThin {border:none; border-top: 1px solid #ccc;;margin: 0.4em 0}
+#sidebar p {font-size: 1.1em}
+#sidebar h6,
+#sidebar p,
+#sidebar ul {margin:0}
+#sidebar p a.rtAction {text-decoration: underline}
+
+}

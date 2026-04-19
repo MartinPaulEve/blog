@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include _head.html %}
+    <link rel="stylesheet" href="/assets/css/blog-post.css">
+</head>
+<body>
+<!-- Header -->
+<header class="header">
+    <div class="container header-content">
+        {% include _navigation.html %}
+    </div>
+</header>
+
+<main>
+    <!-- Breadcrumb -->
+    <div class="breadcrumb-section">
+        <div class="container">
+            <a href="/">Home</a>
+            <span>/</span>
+            <a href="/posts/">Blog</a>
+            <span>/</span>
+            <span>{{ page.title }}</span>
+        </div>
+    </div>
+
+    <!-- Blog Post Header -->
+    <article class="blog-post">
+        <div class="post-header">
+            <div class="container">
+                <h1 class="post-title">{{ page.title }}</h1>
+                <div class="post-author">
+                    <img src="/images/mpe.png" alt="Martin Paul Eve" class="author-avatar">
+                    <div class="author-info">
+                        <div class="author-name">Martin Paul Eve</div>
+                        <div class="author-title">Professor of Literature, Technology and Publishing</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Post Content -->
+        <div class="post-content">
+            <div class="container">
+                <div class="post-body">
+                    {{ content }}
+                    {% if page.image.credit %}
+                    <div class="featured-image">
+                        <div class="image-attribution">
+                            Image: <a href="{{ page.image.creditlink }}" target="_blank">{{ page.image.title }}</a> ({{ page.image.credit }})
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+
+                <!-- Post Sidebar -->
+                <aside class="post-sidebar">
+                    <div class="sidebar-widget">
+                        <h3>Share This Post</h3>
+                        <div class="share-buttons">
+                            <a href="https://bsky.app/intent/compose?text={{ page.title | url_param_escape | replace: ' ', '+' }}+{{ site.url | url_param_escape }}{{ page.url | url_param_escape }}" class="share-btn share-bluesky" title="Share on Bluesky">
+                                <i class="fa-brands fa-square-bluesky" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url | url_param_escape }}{{ page.url | url_param_escape }}" class="share-btn share-facebook" title="Share on LinkedIn">
+                                <i class="fa-brands fa-square-facebook" aria-hidden="true"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </article>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+    {% include _footer.html %}
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script>
+    // Initialize syntax highlighting
+    document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightElement(block);
+    });
+</script>
+<script src="/assets/js/script.js"></script>
+</body>
+</html>

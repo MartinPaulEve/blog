@@ -1,0 +1,33 @@
+---
+layout: post
+status: publish
+published: true
+title: ! 'Adorno terminology: τοδε τι'
+wordpress_id: 1829
+wordpress_url: https://www.martineve.com/2012/01/13/adorno-terminology-%cf%84%ce%bf%ce%b4%ce%b5-%cf%84%ce%b9/
+date: !binary |-
+  MjAxMi0wMS0xMyAxMzoyMzoyOSArMDEwMA==
+date_gmt: !binary |-
+  MjAxMi0wMS0xMyAxMzoyMzoyOSArMDEwMA==
+categories:
+- Academia
+- Philosophy
+- Theodor Adorno
+tags:
+- Adorno
+- definition
+- greek
+comments: []
+doi: "https://doi.org/10.59348/baehg-yff73"
+archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/01/13/adorno-terminology-cf-84-ce-bf-ce-b4-ce-b5-cf-84-ce-b9"
+---
+<p>"that expressionism was more powerful as an idea than in its works perhaps has its origins in the fact that its utopia of the pure τοδε τι is itself a fragment of false consciousness." (Adorno, Theodor W. Aesthetic Theory. Edited by Gretel Adorno and Rolf Tiedemann. Translated by Robert Hullot-Kentor. London: Continuum, 2004. p. 239.)</p>
+<p>τοδε τι = "a this", “some this”, "a something"; a separate individuated substance. From Aristotle.  (Mary Louise Gill, "Commentary on Modrak" in "Proceedings of the Boston Area Colloquium in Ancient Philosophy", ed. by John J. Cleary and Gary M. Gurtler (Boston: BRILL, 2007), pp. 146-142, p. 141. See also: <a href="http://plato.stanford.edu/entries/aristotle-metaphysics/#SubMatSub">Stanford Encyclopaedia of Philosophy</a>.)</p>
+<p>Other references:</p>
+<p>"For its own realization, expressionism must accept aspects that reach beyond the τοδε τι, and this in turn compromises its realization". (Adorno, Theodor W. Aesthetic Theory. Edited by Gretel Adorno and Rolf Tiedemann. Translated by Robert Hullot-Kentor. London: Continuum, 2004. p. 272.)</p>
+<p><i>Featured image by <a href="http://www.flickr.com/photos/peroshenka/">Пероша</a> under a CC-BY-NC license.</i></p>
+
+
+
+
+

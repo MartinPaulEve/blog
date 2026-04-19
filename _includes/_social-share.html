@@ -1,0 +1,14 @@
+<div class="social-share">
+  <h4>Share on</h4>
+  <ul>
+    <li>
+      <a target="_blank" 
+        title="Share on Bluesky" 
+        href="https://bsky.app/intent/compose?text={{ page.title | url_param_escape | replace: ' ', '+' }}+{{ site.url | url_param_escape }}{{ page.url | url_param_escape }}" class="twitter" title="Share on Bluesky"><i class="fab fa-bluesky"></i><span> Bluesky</span></a>
+
+    </li>
+    <li>
+      <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url | url_param_escape }}{{ page.url | url_param_escape }}" class="facebook" title="Share on Facebook"><i class="fab fa-facebook"></i><span> Facebook</span></a>
+    </li>
+  </ul>
+</div><!-- /.social-share -->

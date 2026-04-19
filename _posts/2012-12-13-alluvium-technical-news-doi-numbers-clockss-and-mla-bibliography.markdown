@@ -1,0 +1,39 @@
+---
+layout: post
+image: 
+    feature: geek.png
+status: publish
+published: true
+title: ! 'Alluvium technical news: DOI numbers, CLOCKSS and MLA Bibliography'
+wordpress_id: 2526
+wordpress_url: https://www.martineve.com/?p=2526
+date: !binary |-
+  MjAxMi0xMi0xMyAxMTowMTo1MiArMDEwMA==
+date_gmt: !binary |-
+  MjAxMi0xMi0xMyAxMTowMTo1MiArMDEwMA==
+categories:
+- Technology
+- Open Access
+- Academia
+tags:
+- Technology
+- Archive
+- DOI
+- CLOCKSS
+- Alluvium
+comments: []
+doi: "https://doi.org/10.59348/jy4py-v4g81"
+archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/12/13/alluvium-technical-news-doi-numbers-clockss-and-mla-bibliography"
+---
+<p>Several exciting goings-on at <a href="http://www.alluvium-journal.org"><i>Alluvium</i></a> merit a quick post here to give a rundown of the new features available, which are mostly behind-the-scenes, but definitely do a lot for <i>Alluvium</i> as a publishing destination.</p>
+<p>Firstly, I've been working with Caroline to ensure that our image use is totally compliant with UK and international copyright law. This involves, for the most part, ensuring that we opt first and foremost for images released under Creative Commons licenses. If an article directly discusses a particular image, however, it seems probable that this falls under fair dealing provisions and we will use these images as they are the sole representatives of themselves. However, as noted by our new statement on <a href="http://www.alluvium-journal.org/about-alluvium/copyright-position/">copyright position</a>, as a non-profit, zero-revenue enterprise, we will not attempt to defend lawsuits and will, upon request, take the image down.</p>
+<p>Secondly, the <a href="http://www.clockss.org/">CLOCKSS archival service</a> is writing a plugin for their system so that the contents of the journal will be digitally preserved. CLOCKSS is a sustainable, geographically distributed dark archive that hordes content away as it's published. This content is stored across multiple institutions, on multiple machines worldwide, thus militating against local disaster. This substantially increases the safety of publishing with <i>Alluvium</i>. Regardless of whether I get hit by a bus tomorrow, or not (hoping for the latter), the articles in the journal will remain safe and, if the site goes down, CLOCKSS will kick in to make the content available.</p>
+<p>Thirdly, in conjunction with the CLOCKSS system, all our articles are now assigned <a href="https://en.wikipedia.org/wiki/Digital_object_identifier">DOI numbers</a>. These work, along with an archival service, to give a permanent address for an article that will never change. For example, our initial editorial preface can now be found at <a href="http://dx.doi.org/10.7766/alluvium.v1.1.01">http://dx.doi.org/10.7766/alluvium.v1.1.01</a>, which will redirect you to the <i>Alluvium</i> site. Hypothesising again that, for some reason, the site went down permanently, CLOCKSS has permission to change the address to which http://dx.doi.org/10.7766/alluvium.v1.1.01 points to their own system, meaning that this address will remain permanently in use and is safe to cite even in immutable media such as print. Please use the DOI addresses for citation!</p>
+<p>Finally, we're very pleased to announce that the MLA International Bibliography is to index <i>Alluvium</i>, adding to our general discoverability and scholarly recognition.</p>
+<p>Oh yes, Christmas has definitely come early on the <i>Alluvium</i>-tech front.</p>
+<p><i>Featured image by <a href="https://secure.flickr.com/photos/dolescum/">dolescum</a> under a <a href="https://secure.flickr.com/photos/dolescum/3568499590/sizes/l/in/photostream/">CC-BY-NC-SA</a> license.</i></p>
+
+
+
+
+

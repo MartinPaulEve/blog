@@ -1,0 +1,33 @@
+---
+layout: post
+status: publish
+published: true
+title: ! 'UK Pynchon Network: Site Up and Programme Announced'
+wordpress_id: 848
+wordpress_url: https://www.martineve.com/?p=848
+date: !binary |-
+  MjAxMS0wMy0xMSAxMjoxOTozOSArMDEwMA==
+date_gmt: !binary |-
+  MjAxMS0wMy0xMSAxMjoxOTozOSArMDEwMA==
+categories:
+- Literature
+- Thomas Pynchon
+- Academia
+tags:
+- Conference
+- UKPN
+comments: []
+doi: "https://doi.org/10.59348/e8hej-yrz26"
+archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/03/11/uk-pynchon-network-site-up-and-programme-announced"
+---
+<p><img src="https://www.martineve.com/wp-content/uploads/2011/03/header.jpg" alt="Gravity&#039;s Rainbow Epigraph" title="Gravity&#039;s Rainbow Epigraph" style="width:750px;" class="alignnone size-full wp-image-849" /></p>
+<p>I am very please to announce that the conference website for the <a href="https://www.martineve.com/ukpn/">UK Pynchon Network</a> (and our first conference) is now online! The address is: <a href="https://www.martineve.com/ukpn/">https://www.martineve.com/ukpn/</a></p>
+<p>We have an <a href="https://www.martineve.com/ukpn/index.php/pn/ukpn1/schedConf/program">exciting programme of speakers</a> lined up for the day, which is scheduled to kick off at 10am in the <a href="http://www.dur.ac.uk/english.studies/">Durham University English Department's main seminar room</a>.</p>
+<p>Attendance is free but, as such, you'll have to buy your own lunch! If you are planning to attend, please <a href="https://www.martineve.com/ukpn/index.php/pn/ukpn1/schedConf/registration">register</a> so that we know how many people to expect.</p>
+<p>Finally here's <a href="https://www.martineve.com/wp-content/uploads/2011/03/Poster.pdf">a poster</a> [PDF] that can be distributed as far and as wide as possible.</p>
+<p>Looking forward to seeing you all there.</p>
+
+
+
+
+

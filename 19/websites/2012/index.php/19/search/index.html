@@ -1,0 +1,417 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Search</title>
+	<meta name="description" content="Journal dedicated to interdisciplinary research in the long nineteenth-century" />
+	<meta name="keywords" content="Nineteenth-century studies" />
+	<meta name="generator" content="Open Journal Systems 2.2.2.0" />
+	
+
+	<link rel="stylesheet" href="http://www.19.bbk.ac.uk/styles/common.css" type="text/css" />
+
+	
+	
+	<link rel="stylesheet" href="http://www.19.bbk.ac.uk/styles/sidebar.css" type="text/css" />		<link rel="stylesheet" href="http://www.19.bbk.ac.uk/styles/rightSidebar.css" type="text/css" />		<script type="text/javascript" src="http://www.19.bbk.ac.uk/js/general.js"></script>
+
+<!-- ## ADDED ## -->
+<script type="text/javascript" src="http://www.19.bbk.ac.uk/js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="http://www.19.bbk.ac.uk/js/cufon.min.js"></script>
+<script type="text/javascript" src="http://www.19.bbk.ac.uk/js/friz.js"></script>
+<script type="text/javascript" src="http://www.19.bbk.ac.uk/js/jquery.galleriffic.js"></script>
+<script type="text/javascript" src="http://www.19.bbk.ac.uk/js/c.js"></script>
+<link rel="stylesheet" href="http://www.19.bbk.ac.uk/styles/galleriffic.css" type="text/css" />
+<!-- ## END ## -->
+
+	
+	<!-- Add javascript required for font sizer -->
+	<script type="text/javascript" src="http://www.19.bbk.ac.uk/js/sizer.js" ></script>
+
+	<!-- Add stylesheets for the font sizer -->
+	<link rel="alternate stylesheet" title="Small" href="http://www.19.bbk.ac.uk/styles/fontSmall.css" type="text/css" />
+	<link rel="stylesheet" title="Medium" href="http://www.19.bbk.ac.uk/styles/fontMedium.css" type="text/css" />
+	<link rel="alternate stylesheet" title="Large" href="http://www.19.bbk.ac.uk/styles/fontLarge.css" type="text/css" />
+</head>
+<body>
+<div id="container">
+
+<div id="header">
+<div id="headerTitle">
+<!-- ### added bbk link ### -->
+<a class="gfx" href="http://www.birkbeck.ac.uk/" target="_blank">Birkbeck College, University of London</a>
+<div class="issn">ISSN 1755-1560</div>
+<!-- ### -->
+<h1>
+/*
+	19
+*/
+	19
+</h1>
+
+</div>
+</div>
+
+<div id="body">
+
+<div id="navbar">
+	<ul class="menu">
+		<li><a href="http://www.19.bbk.ac.uk/index.php/19/index">Home</a></li>
+		<li><a href="http://www.19.bbk.ac.uk/index.php/19/about">About</a></li>
+
+					<li><a href="http://www.19.bbk.ac.uk/index.php/19/login">Log In</a></li>
+			<li><a href="http://www.19.bbk.ac.uk/index.php/19/user/register">Register</a></li>
+				<li><a href="http://www.19.bbk.ac.uk/index.php/19/search">Search</a></li>
+
+					<li><a href="http://www.19.bbk.ac.uk/index.php/19/issue/current">Current</a></li>
+			<li><a href="http://www.19.bbk.ac.uk/index.php/19/issue/archive">Archives</a></li>
+							<li><a href="http://www.19.bbk.ac.uk/index.php/19/announcement">Announcements</a></li>
+				
+
+									<li><a href="/index.php/19/pages/view/educational-resources">Educational Resources</a></li>
+						</ul>
+</div>
+
+	<div id="sidebar">
+							<div id="rightSidebar">
+				<div class="block" id="sidebarHelp">
+	<a class="blockTitle" href="javascript:openHelp('http://www.19.bbk.ac.uk/index.php/19/help/view/user/topic/000005')">Journal Help</a>
+</div><div class="block" id="sidebarUser">
+			<span class="blockTitle">User</span>
+		
+						<form method="post" action="http://www.19.bbk.ac.uk/index.php/19/login/signIn">
+				<table>
+					<tr>
+						<td><label for="sidebar-username">Username</label></td>
+						<td><input type="text" id="sidebar-username" name="username" value="" size="12" maxlength="32" class="textField" /></td>
+					</tr>
+					<tr>
+						<td><label for="sidebar-password">Password</label></td>
+						<td><input type="password" id="sidebar-password" name="password" value="" size="12" maxlength="32" class="textField" /></td>
+					</tr>
+					<tr>
+						<td colspan="2"><input type="checkbox" id="remember" name="remember" value="1" /> <label for="remember">Remember me</label></td>
+					</tr>
+					<tr>
+						<td colspan="2"><input type="submit" value="Log In" class="button" /></td>
+					</tr>
+				</table>
+			</form>
+			</div><div class="block" id="sidebarLanguageToggle">
+	<span class="blockTitle">Language</span>
+	<form action="#">
+		<select size="1" name="locale" onchange="location.href=('http://www.19.bbk.ac.uk/index.php/19/user/setLocale/NEW_LOCALE?source=%2Findex.php%2F19%2Fsearch'.replace('NEW_LOCALE', this.options[this.selectedIndex].value))" class="selectMenu"><option label="Deutsch (Deutschland)" value="de_DE">Deutsch (Deutschland)</option>
+<option label="English" value="en_US" selected="selected">English</option>
+<option label="Français (Canada)" value="fr_CA">Français (Canada)</option>
+<option label="Italiano" value="it_IT">Italiano</option>
+</select>
+	</form>
+</div>
+<div class="block" id="sidebarNavigation">
+	<span class="blockTitle">Journal Content</span>
+	
+	<span class="blockSubtitle">Search</span>
+	<form method="post" action="http://www.19.bbk.ac.uk/index.php/19/search/results">
+	<table>
+	<tr>
+		<td><input type="text" id="query" name="query" size="15" maxlength="255" value="" class="textField" /></td>
+	</tr>
+	<tr>
+		<td><select name="searchField" size="1" class="selectMenu">
+			<option label="All" value="">All</option>
+<option label="Authors" value="1">Authors</option>
+<option label="Title" value="2">Title</option>
+<option label="Abstract" value="4">Abstract</option>
+<option label="Index terms" value="120">Index terms</option>
+<option label="Full Text" value="128">Full Text</option>
+
+		</select></td>
+	</tr>
+	<tr>
+		<td><input type="submit" value="Search" class="button" /></td>
+	</tr>
+	</table>
+	</form>
+	
+	<br />
+	
+		<span class="blockSubtitle">Browse</span>
+	<ul>
+		<li><a href="http://www.19.bbk.ac.uk/index.php/19/issue/archive">By Issue</a></li>
+		<li><a href="http://www.19.bbk.ac.uk/index.php/19/search/authors">By Author</a></li>
+		<li><a href="http://www.19.bbk.ac.uk/index.php/19/search/titles">By Title</a></li>
+			</ul>
+	</div><div class="block" id="sidebarFontSize">
+	<span class="blockTitle">Font Size</span>
+	<a href="#" onclick="setFontSize('Small');" class="icon"><img src="http://www.19.bbk.ac.uk/templates/images/icons/font_small.gif" alt="Small" /></a>&nbsp;
+	<a href="#" onclick="setFontSize('Medium');" class="icon"><img src="http://www.19.bbk.ac.uk/templates/images/icons/font_medium.gif" alt="Medium" /></a>&nbsp;
+	<a href="#" onclick="setFontSize('Large');" class="icon"><img src="http://www.19.bbk.ac.uk/templates/images/icons/font_large.gif" alt="Large" /></a>
+</div>
+			</div>
+			</div>
+
+<div id="main">
+
+<div id="breadcrumb">
+	<a href="http://www.19.bbk.ac.uk/index.php/19/index">Home</a> &gt;
+		<a href="http://www.19.bbk.ac.uk/index.php/19/search" class="current">Search</a>
+</div>
+
+<h2>Search</h2>
+
+
+<div id="content">
+<script type="text/javascript">
+
+<!--
+function ensureKeyword() {
+	var allBlank = document.search.query.value == '';
+
+	if (allBlank) {allBlank = document.search.author.value == '';}
+	if (allBlank) {allBlank = document.search.title.value == '';}
+	if (allBlank) {allBlank = document.search.discipline.value == '';}
+	if (allBlank) {allBlank = document.search.subject.value == '';}
+	if (allBlank) {allBlank = document.search.type.value == '';}
+	if (allBlank) {allBlank = document.search.coverage.value == '';}
+	if (allBlank) {allBlank = document.search.supplementaryFiles.value == '';}
+	if (allBlank) {allBlank = document.search.fullText.value == '';}
+
+	if (allBlank) {
+		alert('You must enter at least one search keyword.');
+		return false;
+	}
+	document.search.submit();
+	return true;
+}
+// -->
+
+</script>
+
+
+
+<form method="post" name="search" action="http://www.19.bbk.ac.uk/index.php/19/search/advancedResults">
+
+<table class="data" width="100%">
+<tr valign="top">
+	<td width="25%" class="label"><label for="advancedQuery">Search all categories for</label></td>
+	<td width="75%" class="value"><input type="text" id="advancedQuery" name="query" size="40" maxlength="255" value="" class="textField" /></td>
+</tr>
+<tr valign="top">
+	<td class="label"><h4>Search categories</h4></td>
+	<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+	<td class="label"><label for="author">Authors</label></td>
+	<td class="value"><input type="text" name="author" id="author" size="40" maxlength="255" value="" class="textField" /></td>
+</tr>
+<tr valign="top">
+	<td class="label"><label for="title">Title</label></td>
+	<td class="value"><input type="text" id="title" name="title" size="40" maxlength="255" value="" class="textField" /></td>
+</tr>
+<tr valign="top">
+	<td class="label"><label for="fullText">Full Text</label></td>
+	<td class="value"><input type="text" id="fullText" name="fullText" size="40" maxlength="255" value="" class="textField" /></td>
+</tr>
+<tr valign="top">
+	<td class="label"><label for="supplementaryFiles">Supplementary File(s)</label></td>
+	<td class="value"><input type="text" id="supplementaryFiles" name="supplementaryFiles" size="40" maxlength="255" value="" class="textField" /></td>
+</tr>
+<tr valign="top">
+	<td class="formSubLabel"><h4>Date</h4></td>
+	<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+	<td class="label">From</td>
+	<td class="value"><select name="dateFromMonth" class="selectMenu">
+<option label="" value="" selected="selected"></option>
+<option label="January" value="01">January</option>
+<option label="February" value="02">February</option>
+<option label="March" value="03">March</option>
+<option label="April" value="04">April</option>
+<option label="May" value="05">May</option>
+<option label="June" value="06">June</option>
+<option label="July" value="07">July</option>
+<option label="August" value="08">August</option>
+<option label="September" value="09">September</option>
+<option label="October" value="10">October</option>
+<option label="November" value="11">November</option>
+<option label="December" value="12">December</option>
+</select>
+<select name="dateFromDay" class="selectMenu">
+<option label="" value="" selected="selected"></option>
+<option label="01" value="1">01</option>
+<option label="02" value="2">02</option>
+<option label="03" value="3">03</option>
+<option label="04" value="4">04</option>
+<option label="05" value="5">05</option>
+<option label="06" value="6">06</option>
+<option label="07" value="7">07</option>
+<option label="08" value="8">08</option>
+<option label="09" value="9">09</option>
+<option label="10" value="10">10</option>
+<option label="11" value="11">11</option>
+<option label="12" value="12">12</option>
+<option label="13" value="13">13</option>
+<option label="14" value="14">14</option>
+<option label="15" value="15">15</option>
+<option label="16" value="16">16</option>
+<option label="17" value="17">17</option>
+<option label="18" value="18">18</option>
+<option label="19" value="19">19</option>
+<option label="20" value="20">20</option>
+<option label="21" value="21">21</option>
+<option label="22" value="22">22</option>
+<option label="23" value="23">23</option>
+<option label="24" value="24">24</option>
+<option label="25" value="25">25</option>
+<option label="26" value="26">26</option>
+<option label="27" value="27">27</option>
+<option label="28" value="28">28</option>
+<option label="29" value="29">29</option>
+<option label="30" value="30">30</option>
+<option label="31" value="31">31</option>
+</select>
+<select name="dateFromYear" class="selectMenu">
+<option label="" value="" selected="selected"></option>
+<option label="2006" value="2006">2006</option>
+<option label="2007" value="2007">2007</option>
+<option label="2008" value="2008">2008</option>
+<option label="2009" value="2009">2009</option>
+<option label="2010" value="2010">2010</option>
+<option label="2011" value="2011">2011</option>
+<option label="2012" value="2012">2012</option>
+</select></td>
+</tr>
+<tr valign="top">
+	<td class="label">Until</td>
+	<td class="value">
+		<select name="dateToMonth" class="selectMenu">
+<option label="" value="" selected="selected"></option>
+<option label="January" value="01">January</option>
+<option label="February" value="02">February</option>
+<option label="March" value="03">March</option>
+<option label="April" value="04">April</option>
+<option label="May" value="05">May</option>
+<option label="June" value="06">June</option>
+<option label="July" value="07">July</option>
+<option label="August" value="08">August</option>
+<option label="September" value="09">September</option>
+<option label="October" value="10">October</option>
+<option label="November" value="11">November</option>
+<option label="December" value="12">December</option>
+</select>
+<select name="dateToDay" class="selectMenu">
+<option label="" value="" selected="selected"></option>
+<option label="01" value="1">01</option>
+<option label="02" value="2">02</option>
+<option label="03" value="3">03</option>
+<option label="04" value="4">04</option>
+<option label="05" value="5">05</option>
+<option label="06" value="6">06</option>
+<option label="07" value="7">07</option>
+<option label="08" value="8">08</option>
+<option label="09" value="9">09</option>
+<option label="10" value="10">10</option>
+<option label="11" value="11">11</option>
+<option label="12" value="12">12</option>
+<option label="13" value="13">13</option>
+<option label="14" value="14">14</option>
+<option label="15" value="15">15</option>
+<option label="16" value="16">16</option>
+<option label="17" value="17">17</option>
+<option label="18" value="18">18</option>
+<option label="19" value="19">19</option>
+<option label="20" value="20">20</option>
+<option label="21" value="21">21</option>
+<option label="22" value="22">22</option>
+<option label="23" value="23">23</option>
+<option label="24" value="24">24</option>
+<option label="25" value="25">25</option>
+<option label="26" value="26">26</option>
+<option label="27" value="27">27</option>
+<option label="28" value="28">28</option>
+<option label="29" value="29">29</option>
+<option label="30" value="30">30</option>
+<option label="31" value="31">31</option>
+</select>
+<select name="dateToYear" class="selectMenu">
+<option label="" value="" selected="selected"></option>
+<option label="2006" value="2006">2006</option>
+<option label="2007" value="2007">2007</option>
+<option label="2008" value="2008">2008</option>
+<option label="2009" value="2009">2009</option>
+<option label="2010" value="2010">2010</option>
+<option label="2011" value="2011">2011</option>
+<option label="2012" value="2012">2012</option>
+</select>
+		<input type="hidden" name="dateToHour" value="23" />
+		<input type="hidden" name="dateToMinute" value="59" />
+		<input type="hidden" name="dateToSecond" value="59" />
+	</td>
+</tr>
+<tr valign="top">
+	<td class="label"><h4>Index terms</h4></td>
+	<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+	<td class="label"><label for="discipline">Discipline(s)</label></td>
+	<td class="value"><input type="text" name="discipline" id="discipline" size="40" maxlength="255" value="" class="textField" /></td>
+</tr>
+<tr valign="top">
+	<td class="label"><label for="subject">Keyword(s)</label></td>
+	<td class="value"><input type="text" name="subject" id="subject" size="40" maxlength="255" value="" class="textField" /></td>
+</tr>
+<tr valign="top">
+	<td class="label"><label for="type">Type (method/approach)</label></td>
+	<td class="value"><input type="text" name="type" id="type" size="40" maxlength="255" value="" class="textField" /></td>
+</tr>
+<tr valign="top">
+	<td class="label"><label for="coverage">Coverage</label></td>
+	<td class="value"><input type="text" name="coverage" id="coverage" size="40" maxlength="255" value="" class="textField" /></td>
+</tr>
+</table>
+
+<p><input type="button" onclick="ensureKeyword();" value="Search" class="button defaultButton" /></p>
+
+<script type="text/javascript">
+<!--
+	document.search.query.focus();
+// -->
+</script>
+</form>
+
+Search tips: <ul>
+<li>Search terms are case-insensitive</li>
+<li>Common words are ignored</li>
+<li>By default only articles containing <em>all</em> terms in the query are returned (i.e., <em>AND</em> is implied)</li>
+<li>Combine multiple words with <em>OR</em> to find articles containing either term; e.g., <em>education OR research</em></li>
+<li>Use parentheses to create more complex queries; e.g., <em>archive ((journal OR conference) NOT theses)</em></li>
+<li>Search for an exact phrase by putting it in quotes; e.g., <em>"open access publishing"</em></li>
+<li>Exclude a word by prefixing it with <strong>-</strong> or <em>NOT</em>; e.g. <em>online -politics</em> or <em>online NOT politics</em></li>
+<li>Use <strong>*</strong> in a term as a wildcard to match any sequence of characters; e.g., <em>soci* morality</em> would match documents containing "sociological" or "societal"</li>
+</ul>
+
+<br /><br />
+<div style="font-size:80%; border-top:1px dotted #ccc;padding:10px 0 0 0;margin:10px 0 0 0"><p>Copyright © by the contributing authors. All material on this collaboration platform is the property of the contributing authors.</p><p>Design, development and hosting: <a href="http://www.kcl.ac.uk/cch" target="_blank">Centre for Computing in the Humanities, King's College London</a></p></div>
+<!-- Google Analytics -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-16982246-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+<!-- /Google Analytics -->
+
+</div><!-- content -->
+</div><!-- main -->
+</div><!-- body -->
+
+
+
+</div><!-- container -->
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include _head.html %}
+    <link rel="stylesheet" href="/assets/css/blog-post.css">
+</head>
+<body>
+<!-- Header -->
+<header class="header">
+    <div class="container header-content">
+        {% include _navigation.html %}
+    </div>
+</header>
+
+<main>
+    <!-- Breadcrumb -->
+    <div class="breadcrumb-section">
+        <div class="container">
+            <a href="/">Home</a>
+            <span>/</span>
+            <a href="/posts/">Blog</a>
+            <span>/</span>
+            <span>{{ page.title }}</span>
+        </div>
+    </div>
+
+    <!-- Blog Post Header -->
+    <article class="blog-post">
+        <div class="post-header">
+            <div class="container">
+                <div class="post-meta-top">
+                    <span class="post-date">{{ page.date| date: "%-d %B %Y" }}</span>
+                </div>
+                <h1 class="post-title">{{ page.title }}</h1>
+                <p class="post-description"><strong>Cite as:</strong> Martin Paul Eve, "{{ page.title }}", <i>https://eve.gd</i>, <time itemprop="datePublished {% if page.modified %}{% else %}dateModified{% endif %}" datetime="{{ page.date |  date: "%B %d, %Y"  }}">{{ page.date | date: "%B %d, %Y" }}</time>, <a href="{{ page.doi }}">{{ page.doi }}</a>.</p>
+                <div class="post-author">
+                    <img src="/images/mpe.png" alt="Martin Paul Eve" class="author-avatar">
+                    <div class="author-info">
+                        <div class="author-name">Martin Paul Eve</div>
+                        <div class="author-title">Professor of Literature, Technology and Publishing</div>
+                    </div>
+                </div>
+
+                {% if page.backlink %}<div class="post-author"><p class="post-description">This post follows-on from: {% for link in page.backlink %}“{% post_link {{link}} %}”{% if forloop.last != true %},{% endif %}{% endfor %}</p></div>{% endif %}
+
+                {% if page.forwardlink %}<div class="post-author"><p class="post-description">This post has (a) follow-up post(s): {% for link in page.forwardlink %}“{% post_link {{link}} %}”{% if forloop.last != true %},{% endif %}{% endfor %}</p></div>{% endif %}
+            </div>
+        </div>
+
+        <!-- Post Content -->
+        <div class="post-content">
+            <div class="container">
+                <div class="post-body">
+                    {{ content }}
+                    {% if page.image.credit %}
+                    <div class="featured-image">
+                        <div class="image-attribution">
+                            Image: <a href="{{ page.image.creditlink }}" target="_blank">{{ page.image.title }}</a> ({{ page.image.credit }})
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+
+                <!-- Post Sidebar -->
+                <aside class="post-sidebar">
+                    <div class="sidebar-widget">
+                        <h3>Share This Post</h3>
+                        <div class="share-buttons">
+                            <a href="https://bsky.app/intent/compose?text={{ page.title | url_param_escape | replace: ' ', '+' }}+{{ site.url | url_param_escape }}{{ page.url | url_param_escape }}" class="share-btn share-bluesky" title="Share on Bluesky">
+                                <i class="fa-brands fa-square-bluesky" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url | url_param_escape }}{{ page.url | url_param_escape }}" class="share-btn share-facebook" title="Share on LinkedIn">
+                                <i class="fa-brands fa-square-facebook" aria-hidden="true"></i>
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <div class="sidebar-widget">
+                        <h3>Related Posts</h3>
+                        <ul class="related-posts">
+                            {% for post in site.related_posts limit:3 %}
+                            <li>
+                                <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                                <span class="related-date">{{ post.date| date: "%-d %B %Y" }}</span>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </article>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+    {% include _footer.html %}
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script>
+    // Initialize syntax highlighting
+    document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightElement(block);
+    });
+</script>
+<script src="/assets/js/script.js"></script>
+</body>
+</html>

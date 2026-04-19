@@ -1,0 +1,27 @@
+---
+title: Birkbeck updates draft REF code of practice to specify that it will not submit anyone on compulsory redundancy, despite not having any such redundancies anyway
+layout: post
+image:
+  feature: ref.png
+doi: "https://doi.org/10.59348/rxmt6-mr696"
+archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2019/01/31/BBK-ref"
+---
+Today, Research England released its final guidance for REF2021 submissions in the UK.
+
+One of the worst parts of this was that they have changed the guidance so that universities can submit staff who have been made compulsorily redundant. That is, universities can make their staff compulsorily redundant and then submit their work to the REF.
+
+Why would Research England do this? That previous guidance sounded good. The answer is the problematic situation of HR confidentiality. In order for REF managers to decide whom to exclude, the previous guidance would have meant that HR would have to disclose the situation under which someone left a university. Some don’t buy such an explanation, but I’ll take it at face value.
+
+What can be done about this?
+
+I emailed our Head of Research Strategy Support at my institution, Birkbeck, to raise this and she has proposed that Birkbeck’s code of practice be amended as follows (paraphrased).
+
+Despite Birkbeck having neither compulsory academic redundancies nor any plans for any such scheme, the draft Code of Practice is being updated to say that we will not submit staff members who have been made redundant in this way to the REF. HR will have the final say on the submission of any staff member who has left the College and can exclude any staff member in line with the Code of Practice without divulging the reason for that to anyone who should not have such information.
+
+This still has to be signed off by various committees and this is not an official communication from the College, although I have sanction to write about it in public, but this seems a workable solution and I would urge others to suggest that their institutions commit to similar changes.
+
+Edit 2019-02-01: we are still discussing what to do in terms of those on fixed-term contracts who produce research at the College. The above refers to conditions where a staff member on a permanent contract had been made compulsorily redundant.
+
+
+
+

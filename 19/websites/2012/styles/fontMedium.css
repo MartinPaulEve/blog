@@ -1,0 +1,24 @@
+/**
+ * fontMedium.css
+ *
+ * Copyright (c) 2003-2008 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * Site-wide shared stylesheet for medium-sized fonts.
+ *
+ * $Id: fontMedium.css,v 1.1 2008/06/19 21:58:28 michael Exp $
+ */
+
+body {
+	font-size: 1.1em;
+}
+
+ul.menu a {
+	font-size: 0.8em;
+}
+
+ul.menu li {
+	margin: 0;
+	padding: 0;
+	padding: 0.1em 0.45em 0.25em 0.45em;
+}

@@ -1,0 +1,33 @@
+---
+layout: post
+status: publish
+published: true
+title: The Viva
+wordpress_id: 2400
+wordpress_url: https://www.martineve.com/?p=2400
+date: !binary |-
+  MjAxMi0wOS0xMSAxMDoxMToyMSArMDIwMA==
+date_gmt: !binary |-
+  MjAxMi0wOS0xMSAwOToxMToyMSArMDIwMA==
+categories:
+- Literature
+- Personal
+- Academia
+tags:
+- academia
+- PhDchat
+comments: []
+doi: "https://doi.org/10.59348/s5b0x-vd124"
+archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/09/11/the-viva"
+---
+<p>Yesterday, the 10th September 2012, I passed my Ph.D. Viva, straight-out, no corrections. It was an amazing experience. I'd been incredibly nervous for the preceding two weeks; lack of sleep, tension headaches and the rest. As the day approached this only got worse. Everybody had told me that I'd enjoy the viva and it wasn't that I disbelieved them, but just that I thought it impossible for this advice to make any difference in the lead-up to the event. After about 5 minutes in the room, I really did enjoy the viva!</p>
+<p>The format was fairly standard, from the accounts that I've read. My examiners opened the viva by telling me that I'd passed (although they didn't specify whether this was with corrections or not) before proceeding to a generic “how did this project come about” question, to which I responded with a mixture of the personal and the academic. Because of the theoretical nature of my work, I was next asked a broader question about how I saw the interaction between literature and philosophy, a question that I supplemented and problematized with additional queries about aestheticized philosophy and the differing stances on what philosophy is: my project included Wittgenstein, Foucault and Adorno, all of whom have very different answers to this question, but are also very “literary” philosophers, in the sense of those favoured by literature departments rather than philosophy departments.</p>
+<p>After this initial kick-off, which got me talking, we moved sequentially through the thesis. The level of detail of the querying was excellent: sometimes on the use of a single word (“humanist”) but often more broadly. I had spent the past week revising by reading a selection of critical works to refresh my knowledge. This really paid off. I was asked to describe how I saw ethics in Pynchon lining up with ethics in Wittgenstein and being able to quickly blast off a summary of different readings of ethics in Wittgenstein really signed, sealed and delivered it. One of my examiners said she now wants me to write an “introduction to Wittgenstein”-type book(!)</p>
+<p>We also discussed publication strategies. I was somewhat ahead of the game on this, but both my examiners gave helpful advice on the modifications I should make and where to send proposals, including an offer to read the proposal.</p>
+<p>Finally, having been told that I wouldn't need to make any corrections – and having been complemented on the presentation: “after a while, I simply stopped looking for typos; there weren't any” – we went to the pub. Not to boast (well, perhaps a little, but I'm allowed to on the day after), but my external remarked that it was one of the most enjoyable viva examinations he'd ever conducted.</p>
+<p>Overall, the viva was an excellent and enjoyable event. I still think, however, that it is pointless to advise people to “enjoy it”, but rather to say that they will enjoy it, once they're in. Until that point, it will be horrendous.</p>
+
+
+
+
+

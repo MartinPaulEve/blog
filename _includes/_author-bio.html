@@ -1,0 +1,51 @@
+{% if page.author %}
+  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
+{% endif %}
+
+{% assign author = site.owner %}
+
+<div itemscope itemtype="http://schema.org/Person" id="https://www.martineve.com">
+
+{% if author.avatar contains 'http' %}
+	<img src="{{ author.avatar }}" class="bio-photo" itemprop="image" alt="{{ author.name }} bio photo">
+{% else %}
+	<img src="/images/{{ author.avatar }}" itemprop="image" class="bio-photo" alt="{{ author.name }} bio photo">
+{% endif %}
+
+  <h3 itemprop="name">{{ author.name }}</h3>
+
+  {% if author.job %}
+    <p class="author_bio"><span itemprop="jobTitle">{{ author.job }}</span> at <span itemprop="worksFor" itemscope itemtype="http://schema.org/CollegeOrUniversity"><span itemprop="name">{{ author.university }}</span><link itemprop="sameAs" href="{{ author.university_wiki_url }}"/><link itemprop="sameAs" href="{{ author.university_url }}"/></span> and <span itemprop="jobTitle">{{ author.job_msu }}</span> of Knowledge Commons at <span itemprop="worksFor" itemscope itemtype="http://schema.org/CollegeOrUniversity"><span itemprop="name">{{ author.msu }}</span></span></p>
+  {% else %}
+    <p class="author_bio">{{ author.bio }}</p>
+  {% endif %}
+
+  {% if author.email %}<a href="mailto:{{ author.email }}" itemprop="email" class="author-social"><i class="fa fa-fw fa-envelope-square"></i>Email (BBK)</a>{% endif %}
+  {% if author.email_msu %}<a href="mailto:{{ author.email_msu }}" itemprop="email" class="author-social"><i class="fa fa-fw fa-envelope-square"></i>Email (MSU)</a>{% endif %}
+  {% if author.email_kings %}<a href="mailto:{{ author.email_kings }}" itemprop="email" class="author-social"><i class="fa fa-fw fa-envelope-square"></i>Email (KCL)</a>{% endif %}
+  {% if author.email_personal %}<a href="mailto:{{ author.email_personal }}" itemprop="email" class="author-social"><i class="fa fa-fw fa-envelope-square"></i>Email (Personal)</a>{% endif %}
+  {% if author.books %}<a href="{{ author.books }}" class="author-social"><i class="fa fa-fw fa-book"></i>Books</a>{% endif %}
+  {% if author.bluesky %}<a href="https://bsky.app/profile/{{ author.bluesky }}" class="author-social" itemprop="sameAs"><i class="fa-brands fa-square-bluesky"></i> Bluesky</a>{% endif %}
+  {% if author.facebook %}<a href="http://facebook.com/{{ author.facebook }}" class="author-social"><i class="fa fa-fw fa-facebook-square"></i> Facebook</a>{% endif %}
+  {% if author.linkedin %}<a href="http://linkedin.com/in/{{ author.linkedin }}" class="author-social"><i class="fa fa-fw fa-linkedin-square"></i> LinkedIn</a>{% endif %}
+  {% if author.instagram %}<a href="http://instagram.com/{{ author.instagram }}" class="author-social"><i class="fa fa-fw fa-instagram"></i> Instagram</a>{% endif %}
+  {% if author.tumblr %}<a href="http://{{ author.tumblr }}.tumblr.com" class="author-social"><i class="fa fa-fw fa-tumblr-square"></i> Tumblr</a>{% endif %}
+  {% if author.github %}<a href="http://github.com/{{ author.github }}" class="author-social" itemprop="sameAs"><i class="fab fa-fw fa-github"></i> Github</a>{% endif %}
+  {% if author.stackoverflow %}<a href="http://stackoverflow.com/users/{{ author.stackoverflow }}" class="author-social" itemprop="sameAs"><i class="fab fa-fw fa-stack-overflow"></i> Stackoverflow</a>{% endif %}
+  {% if author.lastfm %}<a href="http://lastfm.com/user/{{ author.lastfm }}" class="author-social"><i class="fa fa-fw fa-music"></i> Last.fm</a>{% endif %}
+  {% if author.dribbble %}<a href="http://dribbble.com/{{ author.dribbble }}" class="author-social"><i class="fa fa-fw fa-dribbble"></i> Dribbble</a>{% endif %}
+  {% if author.pinterest %}<a href="http://www.pinterest.com/{{ author.pinterest }}" class="author-social"><i class="fa fa-fw fa-pinterest"></i> Pinterest</a>{% endif %}
+  {% if author.foursquare %}<a href="http://foursquare.com/{{ author.foursquare }}" class="author-social"><i class="fa fa-fw fa-foursquare"></i> Foursquare</a>{% endif %}
+  {% if author.steam %}<a href="http://steamcommunity.com/id/{{ author.steam }}" class="author-social"><i class="fa fa-fw fa-steam-square"></i> Steam</a>{% endif %}
+  {% if author.youtube %}<a href="https://youtube.com/user/{{ author.youtube }}" class="author-social"><i class="fa fa-fw fa-youtube-square"></i> Youtube</a>{% endif %}
+  {% if author.soundcloud %}<a href="http://soundcloud.com/{{ author.soundcloud }}" class="author-social"><i class="fa fa-fw fa-soundcloud"></i> Soundcloud</a>{% endif %}
+  {% if author.weibo %}<a href="http://www.weibo.com/{{ author.weibo }}" class="author-social"><i class="fa fa-fw fa-weibo"></i> Weibo</a>{% endif %}
+  {% if author.flickr %}<a href="http://www.flickr.com/{{ author.flickr }}" class="author-social"><i class="fa fa-fw fa-flickr"></i> Flickr</a>{% endif %}
+  {% if author.academia %}<a href="{{ author.academia }}" class="author-social"><i class="fa fa-fw fa-university"></i>KC Works</a>{% endif %}
+  {% if author.repository %}<a href="{{ author.repository }}" class="author-social"><i class="fa fa-fw fa-file-text"></i>Institutional Repo</a>{% endif %}
+  {% if author.hypothesis %}<a href="{{ author.hypothesis }}" class="author-social"><i class="fa fa-fw fa-pencil-square"></i>Hypothes.is</a>{% endif %}
+  {% if author.orcid %}<a href="http://orcid.org/{{ author.orcid }}" class="author-social" itemprop="sameAs"><img src="/images/orcid.png" alt="ORCID ID"/>&nbsp;&nbsp;ORCID iD</a>{% endif %}
+  {% if author.wikipedia %}<a href="{{ author.wikipedia }}" class="author-social"><i class="fab fa-fw fa-wikipedia-w"></i> Wikipedia</a>{% endif %}
+  <a href="/pictures/" class="author-social"><i class="fas fa-fw fa-images"></i> Pictures for Re-Use</a>
+</div>
+

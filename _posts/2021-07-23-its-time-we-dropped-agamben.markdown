@@ -1,0 +1,30 @@
+---
+title: "It's time we dropped Agamben"
+layout: post
+image: 
+    feature: header_mask.png
+doi: "https://doi.org/10.59348/a42a3-apj23"
+archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2021/07/23/its-time-we-dropped-agamben"
+---
+Giorgio Agamben gets around a lot on literature syllabi. His "What is the Contemporary?" is a staple of theoretical courses, his concept of "bare life" is used to think through the structures of contemporary biopower, and his thinking around "states of exception" and "states of emergency" find a fruitful home in many places.
+
+Here's the problem, though: Agamben has just shown us the logical outcome of his thinking and it's not good. In fact, it's so bad it makes me seriously question whether this is someone we should hold up as a high-quality thinker.
+
+In [a recent piece] entitled "Cittadini di seconda classe", Agamben writes the following:
+
+"Come avviene ogni volta che si istaura un regime dispotico di emergenza e le garanzie costituzionali vengono sospese, il risultato è, come è avvenuto per gli ebrei sotto il fascismo, la discriminazione di una categoria di uomini, che diventano automaticamente cittadini di seconda classe. [...] coloro che si attengono alla propria libera e fondata convinzione e rifiutano di vaccinarsi verranno esclusi dalla vita sociale. [...] La 'tessera verde' costituisce coloro che ne sono privi in portatori di una stella gialla virtuale."
+
+In English: "As happens every time a despotic emergency regime is established and constitutional guarantees are suspended, the result is, as happened with the Jews under fascism, the discrimination of a category of men, who automatically become second-class citizens. [...] those who stick to their free and well-founded conviction and refuse to get vaccinated will be excluded from social life. [...] The "green card" [the system in Italy for proving vaccination] constitutes those who do not have it in bearers of a virtual yellow star."
+
+First of all, let me address a core matter. Agamben writes that "Che si tratti di una discriminazione secondo le convinzioni personali e non di una certezza scientifica oggettiva è provato dal fatto che in ambito scientifico il dibattito è tuttora in corso sulla sicurezza e sull’efficacia dei vaccini" ["That it is a discrimination based on personal beliefs and not an objective scientific certainty is proven by the fact that in the scientific field the debate is still ongoing on the safety and efficacy of vaccines"]. This is not true. Agamben appears to be a vaccine conspiracy theorist. There [is no mainstream scientific "debate" about the safety or efficacy of the vaccines](https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/is-the-covid19-vaccine-safe) -- any "debate" is about risk profile against benefit in particular groups. Hence, when Agamben goes on to talk about people's "fondata convinzione" (well-founded conviction)... there is no such thing.
+
+Second, just how offensive can you be here? Apparently, if you voluntarily spurn the vaccine, this is equivalent to being a Jewish person, in the Second World War, being sent to your death in the gas chambers by the Nazis. Wow. And here I was thinking it would just mean you couldn't go to a nightclub. Seriously, though: this is an outrageous parallel and it shows, to me, someone who has totally lost all sense of proportion. It is hard to think of a more disrespectful parallel: public health measures (designed to _protect_ the most vulnerable in society, even!) vs. the largest-scale intentional genocide ever. It is similar to the "White Rose" anti-lockdown/anti-vaccination group, who appropriated the name of anti-Nazi freedom fighters (including teenagers executed by the Nazi state), for their right to go to the pub. It's a disgusting analogy.
+
+Third, and perhaps most significantly, this all reflects Agamben's philosophical perspectives on state power. It's not separate from them. Agamben's thought is premised on Foucault's and this is clear in his earlier comments on the virus, where he refers to a "[techno-medical despotism](https://www.nytimes.com/2020/08/21/opinion/sunday/giorgio-agamben-philosophy-coronavirus.html)". As [Samuel Clowes Huneke points out](https://thepointmag.com/politics/do-not-ask-me-who-i-am/), what is problematic here is that Agamben's thought is "unable to distinguish between justified and abusive exercises of coercive power". Are there civil liberty implications from Covid that we should consider? Of course there are. Are they entwined with medico-judicial and technocratic discourses? Also, yes. Are we seeing an exercise of state control over populations that is larger than anything in the past 60 years? Probably yes. Is that _a bad thing_? Agamben seems unable to answer anything except "yes" to this, whereas it should be abundantly clear that measures designed to stop disabled people dying, for example, might be positive, even if they involve some restrictions on others. A basic fact: without mass vaccination, my life is totally curtailed and unsafe. But because, apparently, this harm is not caused by state action, Agamben seems untroubled by it. It seems to me that the logical outcome of Agamben's thinking, if implemented, would be a world of mass casualty, death, impairment, and despair. Follow this philosophy during our pandemic and we'd have another black death -- but "at least" we wouldn't have an overreach of state power [end of sarcasm].
+
+This is hardly deep philosophical stuff. It's basic logic and argument and compassion. But to have Agamben on our syllabi, with his conspiratorial rejection of basic scientific discourse, with his offensive Holocaust relativism (in which _every_ emergency regime is the same as "the Jews under fascism"), and with his inability to discern any exercise of state power as beneficial, is embarrassing. It's time we dropped Agamben.
+
+
+
+
+

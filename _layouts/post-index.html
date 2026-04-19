@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include _head.html %}
+    <link rel="stylesheet" href="/assets/css/blog-post.css">
+</head>
+<body>
+<!-- Header -->
+<header class="header">
+    <div class="container header-content">
+        {% include _navigation.html %}
+    </div>
+</header>
+
+<main>
+    <!-- Breadcrumb -->
+    <div class="breadcrumb-section">
+        <div class="container">
+            <a href="/">Home</a>
+            <span>/</span>
+            <a href="/posts/">Blog</a>
+            <span>/</span>
+            <span>{{ page.title }}</span>
+        </div>
+    </div>
+
+    <!-- Blog Post Header -->
+    <article class="blog-post-list">
+        <div class="post-header">
+            <div class="container">
+                <h1 class="post-title">{{ page.title }}</h1>
+                <div class="post-author">
+                    <img src="/images/mpe.png" alt="Martin Paul Eve" class="author-avatar">
+                    <div class="author-info">
+                        <div class="author-name">Martin Paul Eve</div>
+                        <div class="author-title">Professor of Literature, Technology and Publishing</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Post Content -->
+        <div class="post-content">
+            <div class="container">
+                <div class="post-body">
+                    {% for post in site.posts %}
+                    {% unless post.next %}
+                    <h3>{{ post.date | date: '%Y' }}</h3>
+                    {% else %}
+                    {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+                    {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+                    {% if year != nyear %}
+                    <h3>{{ post.date | date: '%Y' }}</h3>
+                    {% endif %}
+                    {% endunless %}
+                    <article>
+                        {% if post.link %}
+                        <h2><a href="{{ post.link }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+                        <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+                        {% else %}
+                        <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+                        <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+                        {% endif %}
+                    </article>
+                    {% endfor %}
+                </div>
+
+            </div>
+        </div>
+    </article>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+    {% include _footer.html %}
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script>
+    // Initialize syntax highlighting
+    document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightElement(block);
+    });
+</script>
+<script src="/assets/js/script.js"></script>
+</body>
+</html>

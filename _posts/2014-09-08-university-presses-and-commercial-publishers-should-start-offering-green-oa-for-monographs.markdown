@@ -1,0 +1,37 @@
+---
+layout: post
+image: 
+    feature: oa.png
+status: publish
+published: true
+title: University Presses and Commercial Publishers should start offering green OA
+  for monographs
+wordpress_id: 3222
+wordpress_url: https://www.martineve.com/?p=3222
+date: !binary |-
+  MjAxNC0wOS0wOCAwODoyNjozMCArMDIwMA==
+date_gmt: !binary |-
+  MjAxNC0wOS0wOCAwNzoyNjozMCArMDIwMA==
+categories:
+- Technology
+- Open Access
+tags:
+- Open Access
+- monographs
+comments: []
+doi: "https://doi.org/10.59348/s41wn-j4j40"
+archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/09/08/university-presses-and-commercial-publishers-should-start-offering-green-oa-for-monographs"
+---
+<p>Green open access refers to making academic, peer-reviewed research that has been published elsewhere (even subscription/sales venues) available for anyone to read freely on the internet by depositing the work in an institutional or subject repository. <a href="http://www.sherpa.ac.uk/romeo/">A large number of journal publishers allow this</a>. Ideally, this is done without embargo. To protect revenue, however, often a publisher imposes a delay. That said, in over 90% of journal submissions to the UK's 2013 Research Excellence Framework, the publisher <a href="http://blogs.lse.ac.uk/impactofsocialsciences/2014/04/01/hefce-open-access-ref-gamechanger/">would have allowed the researcher to make a version available online</a> within a period acceptable to HEFCE for its next REF exercise (why not, at this point, go back and check that all of <i>your</i> existing publications are available for anyone to read if allowed?).</p>
+<p>The same cannot be said, however, for books, which is a shame. My optimism comes from the fact that I believe in the humanities and university education. I currently feel, however, that by restricting our research to often-unaffordable venues and modes of dissemination, we lock out the general, wider audience from the benefits of the institution. With a large swathe of the population now educated to university level, over time, were material available, we might see a shift in culture. We also make research and teaching a far harder proposition for independent scholars and those at less-wealthy institutions through the paywall setup. Green open access could address these problems. Instances of green deposit for books have been confined to sporadic one-off cases, though, or instances where a gold open access version was also deposited. I'd like to suggest that researchers/universities should begin to ask for this (perhaps via the <a href="http://www.sparc.arl.org/resources/authors/addendum">SPARC addendum</a>) and that publishers should begin to tentatively consider allowing it for books. Some reasoning:</p>
+<ol>
+<li><b>Academic books have a long tail</b>. The majority of books are bought by academic libraries within the early period of a book's release. Imposing a suitable embargo (which could be longer for books) could mitigate any risk of losing a huge number of sales. For my first book, I proposed an embargo of five years to the publisher for a green OA version. They would not accept this, which was extremely frustrating given the niche interest for the book and the unlikely situation that in five years time it would remain a runaway best seller. Even though humanities disciplines have a longer citation half life, the <i>purchase</i> phase is not spread evenly across that half life (hence the BIS committee in the UK's parliamentary inquiry rejected the half-life argument for massive embargoes). Of course, if this happened <i>en masse</i>, the results could be less predictable. That said, if publishers were to begin quietly experimenting, it is unlikely that there would be a high financial risk in this strategy on most books. Furthermore, there would then be an evidence base available to argue the case either way (provided publishers attempt revenue forecasting in advance, as they already do).</li>
+<li><b>There is no evidence (<a href="http://bit.ly/oa-book">Suber 2012</a>) in the journal sphere that green open access causes subscription cancellations</b>. This could change, of course. It is also true that the majority of this evidence comes from high-energy physics, rather than humanities disciplines. It could also be different for monograph sales. If it suddenly became ultra-viable to read PDFs of 80,000 words on-screen for everything instead of the codex, it might also be a different proposition. At the moment, though, the most recent "ALPSP Survey of Librarians on Factors in Journal Cancellation" showed that price is a far more important factor in cancellation/non-purchase than a green OA version being available. If we rely solely on the caveats that things <i>might</i> change in future, then it will be <i>impossible</i> to ever collect the evidence to know. Instead, it would be far better to begin trials on a small-scale basis to actually <i>see</i> what happens.</li>
+<li><b>Green OA drives traffic to publishers' websites and could therefore increase sales</b>. "The €4 million EU funded PEER (Publishing and the Ecology of European Research) project (2012) showed that traffic to journal websites increased when articles were made available through a publicly accessible repository, possibly because interest grew as articles were disseminated more widely" (<a href="http://www.publications.parliament.uk/pa/cm201314/cmselect/cmbis/99/99.pdf">BIS 2013</a>). By depositing books in a green repository, publishers might see their long-tail sales period extended. If the version is green, then publishers don't even have to acknowledge this on their website; they can just sell. Green could be a good sustainability prospect while also widening access.</li>
+<li><b>Brand is especially important to monograph publishers, so the version to be deposited should be the version of record</b>. In the journal sphere, authors are often only allowed to deposit the typescript of the manuscript that they submitted, rather than the final typeset PDF. This is supposed to be because the value added by typesetting should be chargeable. This could work for books. However, in conjunction with the above point, if green OA were to raise awareness of the work that a Press does (and drive sales) it would make more sense for a high-quality version to be showcased after an embargo. By showing the services that the Press can provide, publishers would endear themselves to scholars who might, in turn, submit their high-quality material to the Press. By contrast, if only a typescript is available then, yes, this is better than nothing for wider access, but it does not show the services that the Press provides; it doesn't show what value the publisher added; and it doesn't contribute towards a positive perception of the Press's services.</li>
+</ol>
+
+
+
+
+

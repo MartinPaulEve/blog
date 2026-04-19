@@ -1,0 +1,47 @@
+---
+title: "The latest Ithaka S+R draft report is hugely regressive"
+layout: post
+image: 
+    feature: oa.png
+doi: "https://doi.org/10.59348/jwd2p-kmf24"
+archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2023/07/20/the-latest-ithaka-sr-draft-report-is-hugely-regressive"
+---
+I have read, with some dismay, the draft of [Ithaka S+R’s most recent report](https://sr.ithaka.org/blog/draft-report-for-community-input/). I offer here some critical remarks that I hope will allow for revision of the work, which I believe offers an insular, digital-nationalist, exclusionary vision for the future of scholarly communications. The views herein are my personal take, not those of any organization for which I work.
+
+First, structurally, the report is subheaded “Strategic Context and Shared Infrastructure”. It actually takes about 15 pages to get to anything that I would even vaguely deem to be “infrastructure”. But hey. But that’s not all. The report tells us that they interviewed 49 “infrastructure service providers, publishers, librarians, advocates, analysts, funders, and policy makers”. This is most admirable. The only problem is that, already, [interviewees are publicly stating](https://twitter.com/kaythaney/status/1681474626994487297?s=20) that they cannot find the contents of their interviews reflected in the report. Hmm.
+
+OK, so then we wade through several pages of generic corporate speak about business models, which conveniently omits to mention the recent realisation by many publishers that APCs are not the future. But we then hit the first really problematic aspect: AI. But what do you think the future of scholarly communication might hold in this space? Perhaps cures for cancer? Perhaps an erasure of discrimination against non-English speakers, who now can write in entirely correct scientific English? Nope: “This has led to questions among publishers about how to monetize their publications as training data for commercial AI services”.
+
+Clearly, not all interviewees were happy with this stance: “Some interviewees were highly critical of capitalism and/or commercial organizations, at least with respect to scholarly communication and its infrastructure. Several are concerned about the profitability of commercial providers and worry that commercial interests diverge from those of the academy, of researchers, or of science.” But this only gets a relatively brief outing as a concept.
+
+Depressing as this ongoing cash grab is, it’s not all that’s horrible about the way AI is framed in the paper. We are told that “maleficent actors using generative AI will introduce a new set of challenges”. Why would this challenge pose a difficulty compared to maleficent actors, previously, writing up fraudulent findings? Well, presumably it’s because it is well written and thus cannot be discounted on the use of the quality of English used to express the science. The (bad) proxy of whether you can write well in English is eroded by this technology.
+
+Lest you think I am making this up, the next section of the report turns to the claim that the “era of globalization has been winding down for several years”. This is the segue that the report uses to claim that “there are several different ‘geographies’ for scholarly communication” that seem to remain separate. But what is the real problem here? In a telling last sentence, the report states that “ultimately, at least some observers believe that there is a real tension between, on the one hand, providing a validated and trustworthy scholarly record and, on the other hand, providing an open system in which anyone globally can participate”.
+
+“Some observers” believe that allowing anyone “globally” to participate will result in the degradation of trust in the scholarly record? Isn’t this basically an almost-racist nationalist view, using the idea of “digital sovereignty” as an exclusionary paradigm? Providing an “open system” is the source of trust degradation?
+
+OK, but let’s move on. Page 15 gives us the first real analysis of anything infrastructural, turning its focus to persistent identifiers and DOIs. There are some real problems here. First, consider this statement: “Today, there is widespread agreement about the need for an identifier for research organizations, but no single model has achieved consensus. A well-developed commercial provider was acquired by the Copyright Clearance Center, while other actors are developing standards that are promoted as being more open, but any long-term convergence remains unclear.”
+
+Urgh. The “standards that are promoted as being more open” are… ROR (the Research Organization Registry). But this goes totally unnamed, while the Copyright Clearance Center gets a direct shout out. It’s not, also, that they are “promoted as being more open” – they ARE more open and they are community governed.
+
+The paper then goes on to make some questionable and uncited assertions about Crossref and Datacite (disclosure: I work for Crossref). It claims, somewhat boldly, that the purpose of these organizations is “to avoid interfering with current or future business directions of key sector players” and that “baked into their early history is that they are more than just neutral stewards of PIDs but rather enabled or constrained with a strategic purpose.” This is part of a longstanding arc that tries to make these organziations appear to be controlled by Big Publishers. I don’t think it’s true. Crossref’s board, for instance, is populated by open-access publishers. Most new Crossref members are smaller, younger entities. But this myth persists.
+
+This line continues with the questioning: “For example, if members pay widely divergent fees, should each receive the same weight in voting?” This line can be interpreted in two ways, depending on your assumptions. If you assume that’s a bad thing that would pervert democracy, then you might get the impression that this is what organizations like Crossref are considering. It is not. Crossref has always been: one member, one vote. If you assume that this would be a good development, then the fact that Crossref does not do it seems terrible, as you can’t just buy votes.
+
+However, what I think it’s really about is revealed in the next paragraph, where it is stated that: “Some large publishers express concern about ‘losing control’ of governance for organizations that they had originally established, when their developing strategic needs are, as they see it, insufficiently prioritized by these organizations”. Ah yes. Now we get to it. The real problem with shared infrastructure, when properly governed by democratic community organizations, is that you can’t control it! Argh!
+
+This all comes back, again, to issues of trust and exclusion. We are told that “publishing house representatives expressed that identifier organizations should provide services that advance research integrity, for example a trusted digital identity for researchers” and that “the issue that we identified as the biggest gap today is the perceived need for a secure digital identity for legitimate scholars”.
+
+This determination of “legitimacy” within a PID context is deeply problematic; it’s a Musk-like Blue Tick for researchers. Of course publishers would love to have a service in which the computer can tell you, outright, whether a scholar is “legitimate” or not. But it doesn’t work like this, unless you resort to deeply flawed proxies of value, such as nationality or language use. Furthermore, the use of the word “trusted” is a definite tell. “Trusted” is distinct from “trustworthy”, the latter of which implies that there is a record of behaviour that leads to trust.
+
+Basically, I am disturbed by the calls for trust to be established by any kind of standardised stamp of a PID, especially when the paper has already claimed that trust is being eroded by global participation. For me, this sounds like a prejudicial system that is the opposite of what we have worked for, for so many years: an equitable, open system of participation in science and scholarship, worldwide.
+
+It would be nice to believe that social progress moves forward; the arc of moral justice bending towards justice. These days, I am not so sure. The UK feels positively Dickensian and previously ingrained rights for refugees, disabled people, gay people, those of different races, protestors, and other protected characteristics feel, well, less protected. Public services in our country look like a bomb has hit them. UK universities are being lined up for conversions back to polytechnics (because it’s always better for someone else’s children not to go to university – it just wouldn’t be right, for _them_ – and _they_ would be better off training for their station in life.)
+
+Yet one of the areas where I thought we had made progress that would not be rolled back, in my own little corner of the world, was in open access, open science, and global equitable contribution to the scholarly record. Thanks to [Ithaka S+R’s most recent draft report](https://sr.ithaka.org/blog/draft-report-for-community-input/), commissioned by STM, I have been proved wrong and there is, sadly, an ongoing need, it seems, to defend our open practices.
+
+
+
+
+
+

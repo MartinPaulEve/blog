@@ -1,0 +1,70 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% if page.title %}
+<title>{{ page.title }} - Martin Paul Eve</title>
+{% else %}
+<title>Martin Paul Eve</title>
+{% endif %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/8417040572.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-light.min.css">
+<link rel="stylesheet" href="/assets/css/styles.css">
+<link rel="icon" type="image/png" href="/images/favicon.png">
+
+{% if page.doi %}
+<meta name="DC.Identifier.DOI" content="{{ page.doi }}"/>
+<meta name="citation_doi" content="{{ page.doi }}"/>
+{% endif %}
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "BlogPosting",
+        "headline": "{{ page.title }}",
+        "author": {
+            "@type": "Person",
+            "name": "Martin Paul Eve"
+        },
+        "datePublished": "{{ page.date }}",
+        "dateCreated": "{{ page.date }}",
+        "url": "{{ site.url }}{{ page.url }}",
+        "inLanguage ": "en-GB",
+        "image": "{{ page.image.feature }}"
+    }
+</script>
+
+<!-- Open Graph Meta Tags for Social Media Preview -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:description" content="{{ page.excerpt | strip_html | truncate: 160 }}">
+{% if page.image.feature %}
+<meta property="og:image" content="https://eve.gd/images/{{ page.image.feature }}">
+{% else %}
+<meta property="og:image" content="https://eve.gd/images/mpe.png">
+{% endif %}
+<meta property="og:url" content="{{ page.url }}">
+<meta property="og:site_name" content="Martin Paul Eve">
+<meta property="og:type" content="article" />
+<meta property="og:locale" content="en_GB" />
+<meta property="og:image:type" content="image/png">
+
+<!-- Twitter Card Meta Tags (Optional but Recommended ) -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.title }}">
+<meta name="twitter:description" content="{{ page.excerpt | strip_html }}">
+{% if page.image.feature %}
+<meta name="twitter:image" content="https://eve.gd/images/{{ page.image.feature }}">
+{% else %}
+<meta name="twitter:image" content="https://eve.gd/images/mpe.png">
+{% endif %}
+
+<meta name="twitter:creator" content="@martin_eve">
+
+<!-- Additional Useful Meta Tags -->
+<meta name="description" content="{{ page.excerpt | strip_html }}">
+<meta property="article:published_time" content="{{ page.date }}">
+<meta property="article:author" content="Martin Paul Eve">
+
+<link href="https://eve.gd/feed/feed.atom" type="application/atom+xml" rel="alternate" title="Martin Paul Eve Feed">

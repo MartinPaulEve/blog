@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include _head.html %}
+</head>
+<body>
+<!-- Header -->
+<header class="header">
+    <div class="container header-content">
+        {% include _navigation.html %}
+    </div>
+</header>
+
+<main>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+
+        <div class="container hero-content">
+            <div class="hero-text">
+                <div class="tagline">Literature • Publishing • Technology</div>
+                <h1 class="hero-title">Martin Paul <span class="accent">Eve</span></h1>
+                <p class="hero-subtitle">
+                    Professor of Literature, Technology and Publishing at <strong>Birkbeck, University of London</strong>. <br/>
+                    Technical Lead for Knowledge Commons at <strong>Michigan State University</strong>.
+                </p>
+                <div class="hero-buttons">
+                    <a href="/about/" class="btn btn-primary">View Publications</a>
+                    <a href="mailto:martin@eve.gd" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+
+            <div class="hero-image-container">
+                <div class="profile-circle">
+                    <div class="profile-glow"></div>
+                    <img src="/images/mpe.png" alt="Martin Paul Eve" class="profile-image">
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">↓</div>
+    </section>
+
+    <!-- Areas of Focus Section -->
+    <section class="focus-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Areas of Focus</h2>
+                <p>Bridging the gap between computational technology and literary studies.</p>
+            </div>
+
+            <div class="focus-grid">
+                <div class="focus-card">
+                    <div class="focus-icon focus-icon-blue">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="12 3 20 7.5 20 16.5 12 21 4 16.5 4 7.5 12 3"></polyline>
+                            <line x1="12" y1="12" x2="20" y2="7.5"></line>
+                            <line x1="12" y1="12" x2="12" y2="21"></line>
+                            <line x1="12" y1="12" x2="4" y2="7.5"></line>
+                        </svg>
+                    </div>
+                    <h3>Open Access</h3>
+                    <p>Researching, advocating for, and building open-access publishing models and technology in the humanities.</p>
+                </div>
+
+                <div class="focus-card">
+                    <div class="focus-icon focus-icon-teal">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="12 3 20 7.5 20 16.5 12 21 4 16.5 4 7.5 12 3"></polyline>
+                            <line x1="12" y1="12" x2="20" y2="7.5"></line>
+                            <line x1="12" y1="12" x2="12" y2="21"></line>
+                            <line x1="12" y1="12" x2="4" y2="7.5"></line>
+                        </svg>
+                    </div>
+                    <h3>Digital Humanities</h3>
+                    <p>Developing computational tools for the analysis of literature.</p>
+                </div>
+
+                <div class="focus-card">
+                    <div class="focus-icon focus-icon-purple">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="12 3 20 7.5 20 16.5 12 21 4 16.5 4 7.5 12 3"></polyline>
+                            <line x1="12" y1="12" x2="20" y2="7.5"></line>
+                            <line x1="12" y1="12" x2="12" y2="21"></line>
+                            <line x1="12" y1="12" x2="4" y2="7.5"></line>
+                        </svg>
+                    </div>
+                    <h3>Contemporary Fiction &amp; Culture</h3>
+                    <p>Researching contemporary American fiction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Writings Section -->
+    <section class="writings-section">
+        <div class="container">
+            <div class="section-header-with-button">
+                <div>
+                    <h2>Recent Writings</h2>
+                    <p>Thoughts on technology, publishing, and academic life.</p>
+                </div>
+                <a href="/posts/" class="btn btn-secondary">View All Posts →</a>
+            </div>
+
+            <div class="posts-grid">
+                {% for post in site.posts limit:6 %}
+                <article class="post-card">
+                    <div class="post-meta">
+                        <span class="post-date">{{ post.date| date: "%-d %B %Y" }}</span>
+                    </div>
+                    {% if post.link %}
+                        <a href="{{ post.link }}"><h3 class="post-title">{{ post.title }}</h3></a>
+                    {% else %}
+                        <a href="{{ post.url }}"><h3 class="post-title">{{ post.title }}</h3></a>
+                    {% endif %}
+                    <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</p>
+                    {% if post.link %}
+                        <a href="{{ post.link }}" class="post-link">Read Article →</a>
+                    {% else %}
+                        <a href="{{ post.url }}" class="post-link">Read Article →</a>
+                    {% endif %}
+                </article>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Book Section -->
+    <section class="book-section">
+        <div class="container">
+            <div class="book-container">
+                <div class="book-image">
+                    <img class="img-book-image" src="/books/31744" alt="Book Cover">
+                </div>
+
+                <div class="book-content">
+                    <div class="book-label">Latest Book</div>
+                    <h2>Theses on the Metaphors of Digital-Textual History</h2>
+                    <p>An exploration of how digital technologies are reshaping the way we write, publish, and read in the 21st century. This book argues for a radical rethinking of scholarly communication.</p>
+                    <div class="book-buttons">
+                        <a href="https://www.sup.org/openebook/9781503639393" class="btn btn-primary">Read Open Access</a>
+                        <a href="https://www.sup.org/books/media-studies/theses-metaphors-digital-textual-history" class="btn btn-secondary">Buy Print Copy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+    {% include _footer.html %}
+</footer>
+
+<script src="/assets/js/script.js"></script>
+</body>
+</html>

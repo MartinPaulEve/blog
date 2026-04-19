@@ -1,0 +1,25 @@
+# Site navigation links
+
+- title: Home
+  url: /
+
+- title: About
+  url: /c-v/
+
+- title: CV
+  url: /c-v/Eve-CV.pdf
+
+- title: Staff Profile
+  url: /profile
+
+- title: Web Writings
+  url: /posts/
+
+- title: Books
+  url: /books/
+
+- title: Music
+  url: /music/
+
+- title: Open Access
+  url: /OA/
