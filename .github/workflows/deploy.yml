@@ -57,5 +57,5 @@ jobs:
             --itemize-changes \
             --stats \
             -e "ssh -vvv -o StrictHostKeyChecking=yes -i ~/.ssh/deploy_key" \
-            ./public/ \
+            ./_site/ \
             "evegd@68.183.194.201:/home/evegd/www/"
