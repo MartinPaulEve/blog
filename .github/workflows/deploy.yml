@@ -51,11 +51,19 @@ jobs:
       - name: Deploy _site to server
         run: |
           set -euxo pipefail
-          rsync \
-            -av \
-            --delete \
-            --itemize-changes \
-            --stats \
-            -e "ssh -o StrictHostKeyChecking=yes -i ~/.ssh/deploy_key" \
-            ./_site/ \
-            "evegd@68.183.194.201:/home/evegd/www/"
+          SSH='ssh -o StrictHostKeyChecking=yes -i ~/.ssh/deploy_key'
+          DEST='evegd@68.183.194.201:/home/evegd/www/'
+          # Sync top-level files only
+          rsync -av \
+            --include='/*' \
+            --exclude='/**' \
+            -e "$SSH" \
+            ./_site/ "$DEST"
+          # Sync each top-level directory separately
+          find ./_site -mindepth 1 -maxdepth 1 -type d -print0 |
+            while IFS= read -r -d '' dir; do
+              name="$(basename "$dir")"
+              rsync -av --delete \
+                -e "$SSH" \
+                "$dir/" "${DEST}${name}/"
+            done
