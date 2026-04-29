@@ -55,7 +55,6 @@ jobs:
             -av \
             --delete \
             --itemize-changes \
-            --inc-recursive
             --stats \
             -e "ssh -o StrictHostKeyChecking=yes -i ~/.ssh/deploy_key" \
             ./_site/ \
