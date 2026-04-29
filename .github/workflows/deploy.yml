@@ -58,4 +58,4 @@ jobs:
             --stats \
             -e "ssh -vvv -o StrictHostKeyChecking=no" \
             ./public/ \
-            "$evegd@68.183.194.201:/home/evegd/www/"
+            "evegd@68.183.194.201:/home/evegd/www/"
