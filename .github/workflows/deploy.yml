@@ -51,7 +51,6 @@ jobs:
       - name: Deploy _site to server
         run: |
           set -euxo pipefail
-
           rsync \
             -avz \
             --delete \
