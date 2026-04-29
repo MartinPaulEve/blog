@@ -52,10 +52,11 @@ jobs:
         run: |
           set -euxo pipefail
           rsync \
-            -avz \
+            -av \
             --delete \
             --itemize-changes \
+            --inc-recursive
             --stats \
-            -e "ssh -vvv -o StrictHostKeyChecking=yes -i ~/.ssh/deploy_key" \
+            -e "ssh -o StrictHostKeyChecking=yes -i ~/.ssh/deploy_key" \
             ./_site/ \
             "evegd@68.183.194.201:/home/evegd/www/"
