@@ -1,5 +1,5 @@
 ---
-title: Things I have made (Lower Decks conference and quote in ResearchProfessional)
+title: Things I have made (KC IDMS in place, Lower Decks conference, and quote in ResearchProfessional)
 layout: post
 doi: "https://doi.org/10.59348/2thwp-wm553"
 image:
@@ -7,7 +7,7 @@ image:
   credit: israel palacio on Unsplash
   creditlink: "https://unsplash.com/@othentikisra?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
   title: "An image of a microphone"
-archive: "https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2026/04/19/the-necessary-pain-involved-in-blogging-if-you-want-your-work-to-be-preserved-beyond-your-lifespan"
+archive: "https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2026/05/21/things-i-have-made-kc-idms-in-place-lower-decks-conference-and-quote-in-researchprofessional"
 ---
 Some days I look at the things I've done and think: when I am gone there will be no trace of me, and all that I have worked upon will over time turn to dust. This may well still be true, but there are other days, like today, when I feel pretty good about the world and the things that I am working to make within it.
 
