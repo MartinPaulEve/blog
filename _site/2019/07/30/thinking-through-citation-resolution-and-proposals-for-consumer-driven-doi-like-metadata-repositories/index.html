@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Thinking through citation resolution and proposals for consumer-driven, DOI-like metadata repositories - Martin Paul Eve</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/8417040572.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-light.min.css">
+<link rel="stylesheet" href="/assets/css/styles.css">
+<link rel="icon" type="image/png" href="/images/favicon.png">
+
+
+<meta name="DC.Identifier.DOI" content="https://doi.org/10.59348/bqppk-hpf49"/>
+<meta name="citation_doi" content="https://doi.org/10.59348/bqppk-hpf49"/>
+
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "BlogPosting",
+        "headline": "Thinking through citation resolution and proposals for consumer-driven, DOI-like metadata repositories",
+        "author": {
+            "@type": "Person",
+            "name": "Martin Paul Eve"
+        },
+        "datePublished": "2019-07-30 00:00:00 +0100",
+        "dateCreated": "2019-07-30 00:00:00 +0100",
+        "url": "https://eve.gd/2019/07/30/thinking-through-citation-resolution-and-proposals-for-consumer-driven-doi-like-metadata-repositories/",
+        "inLanguage ": "en-GB",
+        "image": "oa.png"
+    }
+</script>
+
+<!-- Open Graph Meta Tags for Social Media Preview -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Thinking through citation resolution and proposals for consumer-driven, DOI-like metadata repositories">
+<meta property="og:description" content="One of the major challenges that we face in the Jisc Open Monographs Metrics Experiment is in aligning the linguistic expression of a citation with its under...">
+
+<meta property="og:image" content="https://eve.gd/images/oa.png">
+
+<meta property="og:url" content="/2019/07/30/thinking-through-citation-resolution-and-proposals-for-consumer-driven-doi-like-metadata-repositories/">
+<meta property="og:site_name" content="Martin Paul Eve">
+<meta property="og:type" content="article" />
+<meta property="og:locale" content="en_GB" />
+<meta property="og:image:type" content="image/png">
+
+<!-- Twitter Card Meta Tags (Optional but Recommended ) -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Thinking through citation resolution and proposals for consumer-driven, DOI-like metadata repositories">
+<meta name="twitter:description" content="One of the major challenges that we face in the Jisc Open Monographs Metrics Experiment is in aligning the linguistic expression of a citation with its underlying canonical citation object. That is, “M. Foucault, Discipline and Punish” refers, despite the different linguistic expression, to the same object as “Michel Foucault, Discipline and Punish: The Birth of the Prison (London: Penguin, 1992)”. This problem is greatly eased when the artefact in question has a DOI. However, the fact that the current Document Object Identifier (DOI) system is a supplier-side, push mechanism means that it will never be possible or likely for all cited objects to have a DOI. Consumers of citation data from DOI registries, therefore, are at the mercy of content creators to register their metadata. In addition, this comes with preservation and access requirements – the PILA agreement in the case of Crossref – that are not necessarily suitable or realistic for all types of content, given that scholarly work can cite arbitrary grey literature.
+">
+
+<meta name="twitter:image" content="https://eve.gd/images/oa.png">
+
+
+<meta name="twitter:creator" content="@martin_eve">
+
+<!-- Additional Useful Meta Tags -->
+<meta name="description" content="One of the major challenges that we face in the Jisc Open Monographs Metrics Experiment is in aligning the linguistic expression of a citation with its underlying canonical citation object. That is, “M. Foucault, Discipline and Punish” refers, despite the different linguistic expression, to the same object as “Michel Foucault, Discipline and Punish: The Birth of the Prison (London: Penguin, 1992)”. This problem is greatly eased when the artefact in question has a DOI. However, the fact that the current Document Object Identifier (DOI) system is a supplier-side, push mechanism means that it will never be possible or likely for all cited objects to have a DOI. Consumers of citation data from DOI registries, therefore, are at the mercy of content creators to register their metadata. In addition, this comes with preservation and access requirements – the PILA agreement in the case of Crossref – that are not necessarily suitable or realistic for all types of content, given that scholarly work can cite arbitrary grey literature.
+">
+<meta property="article:published_time" content="2019-07-30 00:00:00 +0100">
+<meta property="article:author" content="Martin Paul Eve">
+
+<link href="https://eve.gd/feed/feed.atom" type="application/atom+xml" rel="alternate" title="Martin Paul Eve Feed">
+
+    <link rel="stylesheet" href="/assets/css/blog-post.css">
+</head>
+<body>
+<!-- Header -->
+<header class="header">
+    <div class="container header-content">
+        <a href="/" class="logo">Martin Paul Eve</a>
+<nav class="nav-desktop">
+    <a href="/" class="nav-link">Home</a>
+    <a href="/about/" class="nav-link">About</a>
+    <a href="/c-v/Eve-CV.pdf" class="nav-link">CV</a>
+    <a href="/posts/" class="nav-link">Web Writings</a>
+    <a href="/books/" class="nav-link">Books</a>
+    <a href="/music/" class="nav-link">Music</a>
+    <a href="mailto:martin@eve.gd" class="btn btn-primary nomob">Contact</a>
+</nav>
+<button class="menu-toggle" aria-label="Toggle menu">
+    <span></span>
+    <span></span>
+    <span></span>
+</button>
+    </div>
+</header>
+
+<main>
+    <!-- Breadcrumb -->
+    <div class="breadcrumb-section">
+        <div class="container">
+            <a href="/">Home</a>
+            <span>/</span>
+            <a href="/posts/">Blog</a>
+            <span>/</span>
+            <span>Thinking through citation resolution and proposals for consumer-driven, DOI-like metadata repositories</span>
+        </div>
+    </div>
+
+    <!-- Blog Post Header -->
+    <article class="blog-post">
+        <div class="post-header">
+            <div class="container">
+                <div class="post-meta-top">
+                    <span class="post-date">30 July 2019</span>
+                </div>
+                <h1 class="post-title">Thinking through citation resolution and proposals for consumer-driven, DOI-like metadata repositories</h1>
+                <p class="post-description"><strong>Cite as:</strong> Martin Paul Eve, "Thinking through citation resolution and proposals for consumer-driven, DOI-like metadata repositories", <i>https://eve.gd</i>, <time itemprop="datePublished dateModified" datetime="July 30, 2019">July 30, 2019</time>, <a href="https://doi.org/10.59348/bqppk-hpf49">https://doi.org/10.59348/bqppk-hpf49</a>.</p>
+                <div class="post-author">
+                    <img src="/images/mpe.png" alt="Martin Paul Eve" class="author-avatar">
+                    <div class="author-info">
+                        <div class="author-name">Martin Paul Eve</div>
+                        <div class="author-title">Professor of Literature, Technology and Publishing</div>
+                    </div>
+                </div>
+
+                
+
+                
+            </div>
+        </div>
+
+        <!-- Post Content -->
+        <div class="post-content">
+            <div class="container">
+                <div class="post-body">
+                    <p>One of the major challenges that we face in the Jisc Open Monographs Metrics Experiment is in aligning the linguistic expression of a citation with its underlying canonical citation object. That is, “M. Foucault, Discipline and Punish” refers, despite the different linguistic expression, to the same object as “Michel Foucault, Discipline and Punish: The Birth of the Prison (London: Penguin, 1992)”. This problem is greatly eased when the artefact in question has a DOI. However, the fact that the current Document Object Identifier (DOI) system is a supplier-side, push mechanism means that it will never be possible or likely for all cited objects to have a DOI. Consumers of citation data from DOI registries, therefore, are at the mercy of content creators to register their metadata. In addition, this comes with preservation and access requirements – the PILA agreement in the case of Crossref – that are not necessarily suitable or realistic for all types of content, given that scholarly work can cite arbitrary grey literature.</p>
+
+<p>One solution that could be envisaged is a crowdsourced independent metadata repository that can be linked to DOIs but that provides canonical metadata resolution functionality for cited artefacts. Good examples of such services, in another domain, are the MetaBrainz services, such as MusicBrainz. These provide “consumer”-controlled – crowdsourced – metadata records for music releases. These are queryable via an API and addressable via a canonical URL. One could imagine the same for cited objects, although an infinitely extensible open metadata schema for any kind of object (remember, data=stuff) is ambitious (impossible), to say the least. This could be linked to and defer to a DOI if one were subsequently issued.</p>
+
+<p>The challenge, though, is that this mistakes the DOI architecture for a technical lookup service. The DOI architecture provides this functionality, for sure, on a producer-side push basis. But what Crossref and other registries do with DOIs are actually more social than technical. DOIs are a contract between the content producer and the registry to keep the work available and preserved and to keep the DOI resolving, even in the event of organisational failure. In the imagined environment above, there is no compact to hold the metadata to standard, no body who would have any responsibility to maintain a set of canonical identifiers that could permanently find their way into the scholarly record. In other words, it reinvents the function of DOIs as a technical, rather than social, matter, and neglects the compact.</p>
+
+<p>There is also the issue of sustainability. Crossref and other DOI registries have to maintain a vast computational infrastructure that processes enormous quantities of data, on both a deposit and query basis. Breaking the system, even for a few minutes, is out of the question and can have dire consequences. This requires an onboard staff of highly competent technicians and astute critical thinkers, often converging in the same person (see: Geoff Bilder). To sustain an organisation like this requires a business model. Crossref’s business model is membership based; an annual tiered membership fee based on size of organisational turnover from publishing and a (very small) fee per DOI deposit.</p>
+
+<p>In the case of the envisaged repository mentioned above, who would the members be? Certainly one could envisage a coalition of libraries supporting such infrastructural provision through initiatives such as SCOSS (the global Sustainability Coalition for Open Science Services). But, there is consensus in the DOI model among publisher members that DOIs are useful and that the system should receive ongoing infrastructural support. The same cannot be said for a new consumer-controlled central metadata service.</p>
+
+<p>All in all, then, the recommendation on this front from our experiment is not that such a consumer-controlled metadata service should be created – it is likely impossible to get this to work robustly in a useful way that has consensus – but to echo other recommendations from elsewhere: assign DOIs to granular scholarly objects (books, book chapters etc.) and ensure that whenever an artefact is cited, the DOI is included. This means that publisher processes for finding and inserting DOIs need to be robust; authors are incredibly unlikely to change their practices to include DOIs across the board. Given that typesetting (PDF, XML etc.) is often outsourced, this can be a tricky quality-assurance issue. Further to this, other identifier systems could be integrated into citations. ORCID IDs, for instance, could be included alongside author names to allow for robust lookup. (If it is undesirable to have such identifiers in the version for human display, then at least some form of structured representation that includes this would be helpful.) Other databases, such as GRID, could be used to indicate institutions where these exist (University Presses, for example). These all come with additional cost overheads.</p>
+
+
+                    
+                </div>
+
+                <!-- Post Sidebar -->
+                <aside class="post-sidebar">
+                    <div class="sidebar-widget">
+                        <h3>Share This Post</h3>
+                        <div class="share-buttons">
+                            <a href="https://bsky.app/intent/compose?text=Thinking+through+citation+resolution+and+proposals+for+consumer-driven,+DOI-like+metadata+repositories+https://eve.gd/2019/07/30/thinking-through-citation-resolution-and-proposals-for-consumer-driven-doi-like-metadata-repositories/" class="share-btn share-bluesky" title="Share on Bluesky">
+                                <i class="fa-brands fa-square-bluesky" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/2019/07/30/thinking-through-citation-resolution-and-proposals-for-consumer-driven-doi-like-metadata-repositories/" class="share-btn share-facebook" title="Share on LinkedIn">
+                                <i class="fa-brands fa-square-facebook" aria-hidden="true"></i>
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <div class="sidebar-widget">
+                        <h3>Related Posts</h3>
+                        <ul class="related-posts">
+                            
+                            <li>
+                                <a href="/2026/06/03/what-is-actually-licensed-in-printdigital-dual-licensed-books/" title="What is actually licensed in print/digital dual-licensed books?">What is actually licensed in print/digital dual-licensed books?</a>
+                                <span class="related-date">3 June 2026</span>
+                            </li>
+                            
+                            <li>
+                                <a href="/2026/05/21/things-i-have-made-lower-decks-conference-and-quote-in-researchprofessional/" title="Things I have made (KC IDMS in place, Lower Decks conference, and quote in ResearchProfessional)">Things I have made (KC IDMS in place, Lower Decks conference, and quote in ResearchProfessional)</a>
+                                <span class="related-date">21 May 2026</span>
+                            </li>
+                            
+                            <li>
+                                <a href="/2026/04/19/the-necessary-pain-involved-in-blogging-if-you-want-your-work-to-be-preserved-beyond-your-lifespan/" title="The Necessary Pain Involved in Blogging (if you want your work to be preserved beyond your lifespan)">The Necessary Pain Involved in Blogging (if you want your work to be preserved beyond your lifespan)</a>
+                                <span class="related-date">19 April 2026</span>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </article>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+    <div class="footer-grid">
+        <div class="footer-section footer-about">
+            <h3>Martin Paul Eve</h3>
+            <p>Professor of Literature, Technology and Publishing at Birkbeck, University of London. Technical Lead of Knowledge Commons at MESH Research, Michigan State University.</p>
+            <div class="social-links">
+                <a href="https://bsky.app/profile/eve.gd" aria-label="Bluesky" class="social-icon">
+                    <i class="fa-brands fa-square-bluesky" aria-hidden="true"></i>
+                </a>
+                <a href="https://github.com/MartinPaulEve" aria-label="GitHub" class="social-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path>
+                    </svg>
+                </a>
+                <a aria-label="Wikipedia" class="social-icon" href="https://en.wikipedia.org/wiki/Martin_Paul_Eve"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i></a>
+            </div>
+            <div class="social-links row-two">
+                <a href="https://orcid.org/0000-0002-5589-8511" aria-label="ORCID" class="social-icon">
+                    <img src="/images/orcid.png" alt="ORCID ID">
+                </a>
+                <a href="/pictures/" aria-label="Pictures for Re-Use" class="social-icon">
+                    <i class="fas fa-fw fa-images" aria-hidden="true"></i>
+                </a>
+                <a href="https://works.hcommons.org/search?q=metadata.creators.person_or_org.name%3A%22Eve%2C%20Martin%20Paul%22&amp;l=list&amp;p=1&amp;s=10&amp;sort=bestmatch" class="social-icon">
+                    <i class="fa fa-fw fa-university" aria-hidden="true"></i>
+                </a>
+                <a href="http://eprints.bbk.ac.uk/view/people/Eve=3AMartin_Paul=3A=3A.html" class="social-icon"><i class="fa fa-fw fa-file-text" aria-hidden="true"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="/about/">About Me</a></li>
+                <li><a href="/c-v/Eve-CV.pdf">Curriculum Vitae</a></li>
+                <li><a href="/posts/">Web Writings</a></li>
+                <li><a href="/books/">Books</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h4>Contact</h4>
+            <ul>
+                <li><a href="mailto:martin@eve.gd">Personal Email</a></li>
+                <li><a href="mailto:martin.eve@bbk.ac.uk">Birkbeck, University of London</a></li>
+                <li><a href="mailto:eve@msu.edu">Michigan State University</a></li>
+                <li><a href="mailto:martin.paul_eve@kcl.ac.uk">King's College London</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2025 Martin Paul Eve. CC BY 4.0 License.</p>
+        <div class="footer-links">
+        </div>
+    </div>
+</div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script>
+    // Initialize syntax highlighting
+    document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightElement(block);
+    });
+</script>
+<script src="/assets/js/script.js"></script>
+</body>
+</html>

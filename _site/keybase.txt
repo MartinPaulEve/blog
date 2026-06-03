@@ -1,0 +1,76 @@
+==================================================================
+https://keybase.io/eve
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://martineve.com
+  * I am eve (https://keybase.io/eve) on keybase.
+  * I have a public key with fingerprint 6DA4 7ECE E3CE 1084 941B  466F E797 9B80 08F7 A539
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.5"
+        },
+        "key": {
+            "fingerprint": "6da47ecee3ce1084941b466fe7979b8008f7a539",
+            "host": "keybase.io",
+            "key_id": "E7979B8008F7A539",
+            "uid": "85262adf74518bbb70c7cb94cd615919",
+            "username": "eve"
+        },
+        "merkle_root": {
+            "ctime": 1423926228,
+            "hash": "673a8b62d27bd6251074a6f7dcf7be8755df382b9d39474327db245dfe48e547bf3e897aad4a28001d07b9d4974f7233d9c51b94833e0bf437223f475718e22e",
+            "seqno": 155662
+        },
+        "service": {
+            "hostname": "martineve.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1423926263,
+    "expire_in": 157680000,
+    "prev": "b218afad8c6eb56c6c7c97adbb920dda1d22b2ff4518c8a49058e669cb89c020",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFdkltsFUUYx88piCjXWBO5NmUTwaT1ZHd2rgVi1OILDakGlGrgOLftWdrunu5u
+W8rFEPXBBi8NxDQ+iEEqJMCDRIJBieiJwQQEkfjgJdASAo1EGwOiIdjITK0BfZuZ
+7zf/7/+fb/pnTMpV5cdqDoZg8ExT/tTPIrd6SP652RGx6nUaNjuyPdRRZlcR79BO
+g9OmewVPdSGMa6NY6cKGtHaCqXe6dZKGcWQot0AKyNlab3F7OQijVp2Uk9BqOVhx
+SLTU2pfacylk0BMQ40ATRpigrksDwpHPjGQpTrP/dHXGNYuhMqcrLP+E5Z8ij//D
+d40XKAIYcBUQiDwqhCCuJFIwKBX2EPPGwVQnE5F0t7ZWO3TS1q6LSRyP55VZaKse
+BD4zaoAaMzwtWfvE51RgoAARCgPkuQRyHBAlAyI0JQipwKdAMOUzSKAPiBIAmkMN
+qUaQiMDXlBHOFeTAuPeUSwwMGYEBAb6vmESecUt9X7sigD4BwA8gQcSjGgBt3Ke6
+M4qNOYQwBlvtPukOpba+7YtNBOvgSRZGJl5Bxh3mVjmJs1jG7aZUyrJy2mBjZ71l
+y/ZoUTQq+61MUYSRMhO7e6SeQf/3JNivd/TGcpjoYmgJRLBJ47q2ke42mgJ4lAdc
+UYm1QFhiMwWTWwnBgKsU9xQAAgSBnZKkHDIXUY0xk4Iy6QL3TlDTKeOtRjINWyOe
+dSVmYn35BZNz+arclHuq7J/N3X/f7H8/cmXVvWMLLnx5Ud2c3rT+w8ZPZl6dQ78b
+mbFsw6GL375W+uXr5X2Xp54sTjq7EMrnT58or1i0Z4D0dz24cWnv3Lqx19V2dInt
+XLalbeCHbYXSe5VH8bvPVuaPPnRlcO4Di0Y+G+h8/1xwfsfnByotq66/vHJo7dHG
+bzYdK8ffT3vl4ZMjf8DG5tV1+4tfRbsuLJx2fPSZXQOnPnVunE5bfnpj++5rb51f
+/MGUL/LvHL5es3JpY8/HNZv+evvHyo6WY/Nf6lz/YhPvmbduJ/mb9B8ZvsYHn55T
+2dv36+9XTyx59bj7yAvNtx5bu++jbdWXdp/FY8O1R5tvJE+umT7rnJvOHJpd/eat
+30bVc1km1tUN76nem9wG
+=5Gy/
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/eve
+
+==================================================================

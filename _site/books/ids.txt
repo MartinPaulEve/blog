@@ -1,0 +1,11 @@
+31744:eve.gd/images/placeholder_SUP.png:eprints.bbk.ac.uk/31744/
+26645:eve.gd/images/placeholder_OUP.png:eprints.bbk.ac.uk/26645/
+30956:eve.gd/images/placeholder_punctum.png:eprints.bbk.ac.uk/30956/
+27709:eve.gd/images/placeholder_CUP.png:eprints.bbk.ac.uk/27709/
+21102:eve.gd/books/21102:doi.org/10.7551/mitpress/11885.001.0001
+20716:www.sup.org/img/covers/med_large/pid_30253.jpg:doi.org/10.21627/9781503609372
+20574:image.kyobobook.co.kr/images/book/large/021/l9791196166021.jpg:www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9791196166021&orderClick=JAj
+15945:www.openbookpublishers.com/shopimages/products/cover/530.jpg:doi.org/10.11647/OBP.0102
+12131:media.bloomsbury.com/rep/bj/9781501314889.jpg:www.bloomsbury.com/uk/password-9781501314889/
+11765:assets.cambridge.org/97811074/84016/cover/9781107484016.jpg:www.cambridge.org/core/books/open-access-and-the-humanities/02BD7DB4A5172A864C432DBFD86E5FB4
+12189:images-na.ssl-images-amazon.com/images/I/41NePRMdgpL._SX319_BO1,204,203,200_.jpg:www.palgrave.com/gb/book/9781137405494

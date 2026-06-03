@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Getting external access to BuddyPress's notifications (for Knowledge Commons) - Martin Paul Eve</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/8417040572.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-light.min.css">
+<link rel="stylesheet" href="/assets/css/styles.css">
+<link rel="icon" type="image/png" href="/images/favicon.png">
+
+
+<meta name="DC.Identifier.DOI" content="https://doi.org/10.59348/gpbaz-kx09"/>
+<meta name="citation_doi" content="https://doi.org/10.59348/gpbaz-kx09"/>
+
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "BlogPosting",
+        "headline": "Getting external access to BuddyPress's notifications (for Knowledge Commons)",
+        "author": {
+            "@type": "Person",
+            "name": "Martin Paul Eve"
+        },
+        "datePublished": "2025-02-18 00:00:00 +0000",
+        "dateCreated": "2025-02-18 00:00:00 +0000",
+        "url": "https://eve.gd/2025/02/18/getting-external-access-to-buddypresss-notifications-for-knowledge-commons/",
+        "inLanguage ": "en-GB",
+        "image": "header_fistbump.png"
+    }
+</script>
+
+<!-- Open Graph Meta Tags for Social Media Preview -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Getting external access to BuddyPress's notifications (for Knowledge Commons)">
+<meta property="og:description" content="As part of my work on Knowledge Commons, I want to make more of our development process open, welcoming, and transparent, by using blogging. So I will be wri...">
+
+<meta property="og:image" content="https://eve.gd/images/header_fistbump.png">
+
+<meta property="og:url" content="/2025/02/18/getting-external-access-to-buddypresss-notifications-for-knowledge-commons/">
+<meta property="og:site_name" content="Martin Paul Eve">
+<meta property="og:type" content="article" />
+<meta property="og:locale" content="en_GB" />
+<meta property="og:image:type" content="image/png">
+
+<!-- Twitter Card Meta Tags (Optional but Recommended ) -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Getting external access to BuddyPress's notifications (for Knowledge Commons)">
+<meta name="twitter:description" content="As part of my work on Knowledge Commons, I want to make more of our development process open, welcoming, and transparent, by using blogging. So I will be writing some technical posts on what I’m doing there and how I’ve overcome various technical challenges. In this post, I want to set out how I got BuddyPress notifications into a separate application (our new “Profiles” app).
+">
+
+<meta name="twitter:image" content="https://eve.gd/images/header_fistbump.png">
+
+
+<meta name="twitter:creator" content="@martin_eve">
+
+<!-- Additional Useful Meta Tags -->
+<meta name="description" content="As part of my work on Knowledge Commons, I want to make more of our development process open, welcoming, and transparent, by using blogging. So I will be writing some technical posts on what I’m doing there and how I’ve overcome various technical challenges. In this post, I want to set out how I got BuddyPress notifications into a separate application (our new “Profiles” app).
+">
+<meta property="article:published_time" content="2025-02-18 00:00:00 +0000">
+<meta property="article:author" content="Martin Paul Eve">
+
+<link href="https://eve.gd/feed/feed.atom" type="application/atom+xml" rel="alternate" title="Martin Paul Eve Feed">
+
+    <link rel="stylesheet" href="/assets/css/blog-post.css">
+</head>
+<body>
+<!-- Header -->
+<header class="header">
+    <div class="container header-content">
+        <a href="/" class="logo">Martin Paul Eve</a>
+<nav class="nav-desktop">
+    <a href="/" class="nav-link">Home</a>
+    <a href="/about/" class="nav-link">About</a>
+    <a href="/c-v/Eve-CV.pdf" class="nav-link">CV</a>
+    <a href="/posts/" class="nav-link">Web Writings</a>
+    <a href="/books/" class="nav-link">Books</a>
+    <a href="/music/" class="nav-link">Music</a>
+    <a href="mailto:martin@eve.gd" class="btn btn-primary nomob">Contact</a>
+</nav>
+<button class="menu-toggle" aria-label="Toggle menu">
+    <span></span>
+    <span></span>
+    <span></span>
+</button>
+    </div>
+</header>
+
+<main>
+    <!-- Breadcrumb -->
+    <div class="breadcrumb-section">
+        <div class="container">
+            <a href="/">Home</a>
+            <span>/</span>
+            <a href="/posts/">Blog</a>
+            <span>/</span>
+            <span>Getting external access to BuddyPress's notifications (for Knowledge Commons)</span>
+        </div>
+    </div>
+
+    <!-- Blog Post Header -->
+    <article class="blog-post">
+        <div class="post-header">
+            <div class="container">
+                <div class="post-meta-top">
+                    <span class="post-date">18 February 2025</span>
+                </div>
+                <h1 class="post-title">Getting external access to BuddyPress's notifications (for Knowledge Commons)</h1>
+                <p class="post-description"><strong>Cite as:</strong> Martin Paul Eve, "Getting external access to BuddyPress's notifications (for Knowledge Commons)", <i>https://eve.gd</i>, <time itemprop="datePublished dateModified" datetime="February 18, 2025">February 18, 2025</time>, <a href="https://doi.org/10.59348/gpbaz-kx09">https://doi.org/10.59348/gpbaz-kx09</a>.</p>
+                <div class="post-author">
+                    <img src="/images/mpe.png" alt="Martin Paul Eve" class="author-avatar">
+                    <div class="author-info">
+                        <div class="author-name">Martin Paul Eve</div>
+                        <div class="author-title">Professor of Literature, Technology and Publishing</div>
+                    </div>
+                </div>
+
+                
+
+                
+            </div>
+        </div>
+
+        <!-- Post Content -->
+        <div class="post-content">
+            <div class="container">
+                <div class="post-body">
+                    <p>As part of my work on <a href="https://hcommons.org">Knowledge Commons</a>, I want to make more of our development process open, welcoming, and transparent, by using blogging. So I will be writing some technical posts on what I’m doing there and how I’ve overcome various technical challenges. In this post, I want to set out how I got BuddyPress notifications into a separate application (our new “Profiles” app).</p>
+
+<p>First: why am I doing this? We currently have a monolithic WordPress stack and it’s pretty unwieldy. It isn’t easy to make swift changes if we want to add a new profile field or display things differently. We really need to modularise the system so that it’s manageable, scalable, and secure. This means moving away from the massive WordPress-does-everything model. We already have this in part with our new repository system, <a href="https://works.hcommons.org/">KCWorks</a>, which runs on Invenio.</p>
+
+<p>However, we are NOT going to be able to move everything at once. We need to lift and shift components one-by-one and leave the core of the application still functioning. This means that while we will move some data OUT of WordPress, other portions will need to remain inside WordPress (and managed by it and its database) until they are too are ported. This poses significant difficulties for external applications. For instance, in the case that this blog post is going to address, we have “notifications” of “activity” inside WordPress. But when a user views someone else’s profile page, we want a dropdown telling the logged-in user if they have any notifications. To do this, we have to wire our new application up to the WordPress database and figure out how to read BuddyPress’s notifications.</p>
+
+<p>How to do this?</p>
+
+<p>Well, Django, the framework we are using for the new Profiles application, supports multiple named databases. So, for example, we have these:</p>
+
+<pre><code>DATABASES = {
+    "default": {
+        "ENGINE": "django.db.backends.postgresql_psycopg2",
+        "NAME": "django",
+        "USER": "django",
+        "PASSWORD": "django",
+        "HOST": "postgres.database.host",
+        "PORT": "5432",
+        "OPTIONS": {
+            "connect_timeout": 5,
+        },
+    },
+    "wordpress": {
+        "ENGINE": "django.db.backends.mysql",
+        "NAME": "mysql",
+        "USER": "mysql",
+        "PASSWORD": "mysql",
+        "HOST": "mysql.database.host",
+        "PORT": "3306",
+        "OPTIONS": {
+            "connect_timeout": 5,
+        },
+    },
+}
+</code></pre>
+
+<p>This gives us two databases. However, we need to be very careful. We do <em>not</em> want to accidentally write to the MySql/WordPress database; we want it to be read only. We also want to make sure that only specific models are fetched and displayed from the WordPress database – and the rest come from our Postgres install (to modularise the data).</p>
+
+<p>How do we do that? We write a database router.</p>
+
+<pre><code>class ReadWriteRouter:
+    """
+    A router to control all database operations on models in the WordPress
+    DB
+    """
+    def db_for_read(self, model, **hints):
+        """
+        Controls which database should be used for read operations for a given
+        model.
+        """
+        return (
+            "wordpress"
+            if model.__name__.lower().startswith("wp")
+            else "default"
+        )
+    def db_for_write(self, model, **hints):
+        """
+        Controls which database should be used for writes for a given model.
+        """
+        return None if model.__name__.lower().startswith("wp") else "default"
+    def allow_migrate(self, db, app_label, model_name=None, **hints):
+        """
+        Controls if a model should be allowed to migrate on the given database.
+        """
+        return db == "default"
+</code></pre>
+
+<p>Then in settings.py:</p>
+
+<pre><code>DATABASE_ROUTERS = ["newprofile.wordpress_router.ReadWriteRouter"]
+</code></pre>
+
+<p>Essentially, this says: any model with a name that starts with “wp” should be routed to the “wordpress” database for reads and should return NO writing capacity if it’s a request to write.</p>
+
+<p>So we now have a way of connecting to the WordPress database. How, though, does BuddyPress store its notifications? They’re in a table called wp_bp_notifications. So I created a Django model that reflects this table:</p>
+
+<pre><code>class WpBpNotification(models.Model):
+    """
+    A model for a WordPress notification
+    """
+    id = models.BigAutoField(primary_key=True)
+    user = models.ForeignKey(
+        "WpUser", on_delete=models.CASCADE, db_column="user_id"
+    )
+    item_id = models.BigIntegerField()
+    secondary_item_id = models.BigIntegerField(null=True)
+    component_name = models.CharField(max_length=75)
+    component_action = models.CharField(max_length=75)
+    date_notified = models.DateTimeField()
+    is_new = models.BooleanField(default=False)
+    class Meta:
+        """
+        Metadata for the WpBpNotification model
+        """
+        db_table = "wp_bp_notifications"
+        managed = False
+        indexes = [
+            models.Index(fields=["item_id"]),
+            models.Index(fields=["secondary_item_id"]),
+            models.Index(fields=["is_new"]),
+            models.Index(fields=["component_name"]),
+            models.Index(fields=["component_action"]),
+            models.Index(fields=["user", "is_new"], name="useritem"),
+        ]
+</code></pre>
+
+<p>So, pretty obviously, the way to select new notifications is to pull out items where the user is the logged-in user and the is_new field is True. In this case, <a href="https://github.com/MESH-Research/knowledge-commons-profiles/blob/main/newprofile/models.py">I have also linked the user_id to a model that represents the WordPress user (WpUser)</a>.</p>
+
+<p>So far so good. But how does BuddyPress change what we get here (a load of item_id, secondary_item_id, component_name, component_action columns) into a nice formatted message: “You have 8 new followers”? The answer is, with some distributed trickery.</p>
+
+<p>BuddyPress records the “component_name” and “component_action” in the database and then, when it comes to getting a message for this, it asks all registered components whether or not they can handle a particular notification type. This means that the code for different types of notification is spread over many different files and they all handle messages in a distributed fashion. So, for example, in buddypress/bp-friends/bp-friends-notifications.php you have this block of code:</p>
+
+<pre><code>case 'friendship_request':
+		$link = bp_loggedin_user_domain() . bp_get_friends_slug() . '/requests/?new';
+		$action = 'request';
+		// Set up the string and the filter.
+		if ( (int) $total_items &gt; 1 ) {
+			/* translators: %d: the number of pending requests */
+			$text = sprintf( __( 'You have %d pending friendship requests', 'buddypress' ), (int) $total_items );
+			$amount = 'multiple';
+		} else {
+			/* translators: %s: friend name */
+			$text = sprintf( __( 'You have a friendship request from %s', 'buddypress' ), bp_core_get_user_displayname( $item_id ) );
+			$amount = 'single';
+		}
+		break;
+</code></pre>
+
+<p>So how do we handle this in an external application? Well, the way I did it was to work out what the possible values were from the database by doing a distinct select:</p>
+
+<p>Possible values:</p>
+
+<pre><code>comment_reply -- deprecated?: rarely used
+deposit_published -- deprecated: from CORE
+deposit_review -- deprecated: from CORE
+friendship_accepted -- deprecated?: rarely used
+friendship_request -- deprecated?: rarely used
+group_invite -- unsure if used
+join_mla_forum -- unsure if used
+membership_request_accepted -- possibly used
+membership_request_rejected -- possibly (but rarely) used
+member_promoted_to_admin -- possibly used
+member_promoted_to_mod -- possibly (but rarely) used
+newsletter_opt_out -- possibly (but rarely) used
+new_at_mention -- possibly (but rarely) used
+new_follow -- used a lot
+new_group_site_member -- used a lot
+new_membership_request -- used a lot
+new_message -- possibly (but rarely) used
+new_user_email_settings -- used a lot
+update_reply -- possibly (but rarely) used
+</code></pre>
+
+<p>I then did counts on these to determine whether we are actually using them and which ones seem the most important. It was then a matter of grepping through our codebase to find which of these were custom, which were built-in, and writing handlers for them.</p>
+
+<p>There are also (as per that friendship request example) some special cases where instead of displaying 25 different messages (“X is following you”, “Y is following you”, “Z is following you”), we want to say “3 new users followed you”. In such cases we have to count the number of unread follows and return that message instead – and then stop processing new follow messages.</p>
+
+<p>The eventual result for how I did this is in the <a href="https://github.com/MESH-Research/knowledge-commons-profiles/blob/main/newprofile/notifications.py">notifications.py</a> file in my newprofiles app. The above code snippets also come from <a href="https://github.com/MESH-Research/knowledge-commons-profiles/blob/main/newprofile/models.py">models.py</a> and <a href="https://github.com/MESH-Research/knowledge-commons-profiles/blob/main/newprofile/notifications.py">wordpress_router.py</a>. Calls to the notification system are made from <a href="https://github.com/MESH-Research/knowledge-commons-profiles/blob/main/newprofile/api.py">api.py</a> and are used in <a href="https://github.com/MESH-Research/knowledge-commons-profiles/blob/main/templates/base.html">the base template</a>.</p>
+
+<p>Overall: modularisation is hard. At the moment, this application is pretty tightly coupled to WordPress (although there is the option in the code to disable all WordPress database access, so we can always do a quick test to judge how dependent we are on the WordPress core). Over time, though, this will enable us to rewrite parts of the code so they are not locked to one central technology and so that we can share aspects like notifications across a dispersed ecosystem.</p>
+
+                    
+                </div>
+
+                <!-- Post Sidebar -->
+                <aside class="post-sidebar">
+                    <div class="sidebar-widget">
+                        <h3>Share This Post</h3>
+                        <div class="share-buttons">
+                            <a href="https://bsky.app/intent/compose?text=Getting+external+access+to+BuddyPress's+notifications+(for+Knowledge+Commons)+https://eve.gd/2025/02/18/getting-external-access-to-buddypresss-notifications-for-knowledge-commons/" class="share-btn share-bluesky" title="Share on Bluesky">
+                                <i class="fa-brands fa-square-bluesky" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/2025/02/18/getting-external-access-to-buddypresss-notifications-for-knowledge-commons/" class="share-btn share-facebook" title="Share on LinkedIn">
+                                <i class="fa-brands fa-square-facebook" aria-hidden="true"></i>
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <div class="sidebar-widget">
+                        <h3>Related Posts</h3>
+                        <ul class="related-posts">
+                            
+                            <li>
+                                <a href="/2026/06/03/what-is-actually-licensed-in-printdigital-dual-licensed-books/" title="What is actually licensed in print/digital dual-licensed books?">What is actually licensed in print/digital dual-licensed books?</a>
+                                <span class="related-date">3 June 2026</span>
+                            </li>
+                            
+                            <li>
+                                <a href="/2026/05/21/things-i-have-made-lower-decks-conference-and-quote-in-researchprofessional/" title="Things I have made (KC IDMS in place, Lower Decks conference, and quote in ResearchProfessional)">Things I have made (KC IDMS in place, Lower Decks conference, and quote in ResearchProfessional)</a>
+                                <span class="related-date">21 May 2026</span>
+                            </li>
+                            
+                            <li>
+                                <a href="/2026/04/19/the-necessary-pain-involved-in-blogging-if-you-want-your-work-to-be-preserved-beyond-your-lifespan/" title="The Necessary Pain Involved in Blogging (if you want your work to be preserved beyond your lifespan)">The Necessary Pain Involved in Blogging (if you want your work to be preserved beyond your lifespan)</a>
+                                <span class="related-date">19 April 2026</span>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </article>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+    <div class="footer-grid">
+        <div class="footer-section footer-about">
+            <h3>Martin Paul Eve</h3>
+            <p>Professor of Literature, Technology and Publishing at Birkbeck, University of London. Technical Lead of Knowledge Commons at MESH Research, Michigan State University.</p>
+            <div class="social-links">
+                <a href="https://bsky.app/profile/eve.gd" aria-label="Bluesky" class="social-icon">
+                    <i class="fa-brands fa-square-bluesky" aria-hidden="true"></i>
+                </a>
+                <a href="https://github.com/MartinPaulEve" aria-label="GitHub" class="social-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path>
+                    </svg>
+                </a>
+                <a aria-label="Wikipedia" class="social-icon" href="https://en.wikipedia.org/wiki/Martin_Paul_Eve"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i></a>
+            </div>
+            <div class="social-links row-two">
+                <a href="https://orcid.org/0000-0002-5589-8511" aria-label="ORCID" class="social-icon">
+                    <img src="/images/orcid.png" alt="ORCID ID">
+                </a>
+                <a href="/pictures/" aria-label="Pictures for Re-Use" class="social-icon">
+                    <i class="fas fa-fw fa-images" aria-hidden="true"></i>
+                </a>
+                <a href="https://works.hcommons.org/search?q=metadata.creators.person_or_org.name%3A%22Eve%2C%20Martin%20Paul%22&amp;l=list&amp;p=1&amp;s=10&amp;sort=bestmatch" class="social-icon">
+                    <i class="fa fa-fw fa-university" aria-hidden="true"></i>
+                </a>
+                <a href="http://eprints.bbk.ac.uk/view/people/Eve=3AMartin_Paul=3A=3A.html" class="social-icon"><i class="fa fa-fw fa-file-text" aria-hidden="true"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="/about/">About Me</a></li>
+                <li><a href="/c-v/Eve-CV.pdf">Curriculum Vitae</a></li>
+                <li><a href="/posts/">Web Writings</a></li>
+                <li><a href="/books/">Books</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h4>Contact</h4>
+            <ul>
+                <li><a href="mailto:martin@eve.gd">Personal Email</a></li>
+                <li><a href="mailto:martin.eve@bbk.ac.uk">Birkbeck, University of London</a></li>
+                <li><a href="mailto:eve@msu.edu">Michigan State University</a></li>
+                <li><a href="mailto:martin.paul_eve@kcl.ac.uk">King's College London</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2025 Martin Paul Eve. CC BY 4.0 License.</p>
+        <div class="footer-links">
+        </div>
+    </div>
+</div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script>
+    // Initialize syntax highlighting
+    document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightElement(block);
+    });
+</script>
+<script src="/assets/js/script.js"></script>
+</body>
+</html>

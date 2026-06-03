@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title type="text">Martin Paul Eve</title>
+<generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="https://eve.gd/feed.xml" />
+<link rel="alternate" type="text/html" href="https://eve.gd" />
+<updated>2026-06-03T09:43:22+01:00</updated>
+<id>https://eve.gd/</id>
+<author>
+  <name>Martin Paul Eve</name>
+  <uri>https://orcid.org/0000-0002-5589-8511</uri>
+  <email>martin.eve@bbk.ac.uk</email>
+</author>
+
+
+<entry>
+  <title type="html"><![CDATA[What is actually licensed in print/digital dual-licensed books?]]></title>
+  <link rel="alternate" type="text/html" href="https://eve.gd/2026/06/03/what-is-actually-licensed-in-printdigital-dual-licensed-books/" />
+  <id>https://eve.gd/2026/06/03/what-is-actually-licensed-in-printdigital-dual-licensed-books</id>
+  
+  <doi>https://doi.org/10.59348/wf4fq-8pn69</doi>
+  
+  <published>Wednesday, 3 June 2026 15:55:58 +0000</published>
+  <updated>2026-06-03T00:00:00+01:00</updated>
+  <author>
+    <name></name>
+    <uri>https://orcid.org/0000-0002-5589-8511</uri>
+    
+  </author>
+  <content type="html"><![CDATA[
+    &lt;p&gt;I have recently published &lt;a href=&quot;https://dhdebates.gc.cuny.edu/read/critical-infrastructure-studies-and-digital-humanities/section/f4451084-a3bd-4a36-860d-f3a14e17ad0c#ch06&quot;&gt;a book chapter (on Shadow Libraries)&lt;/a&gt; in &lt;a href=&quot;https://dhdebates.gc.cuny.edu/read/critical-infrastructure-studies-and-digital-humanities/section/d01b113d-2da5-48f1-be0e-f3c50392f1ad#cvi&quot;&gt;a very fine collection&lt;/a&gt; that was published in print in January and digitally just now, in June. The digital edition contractually promises to be open access with a CC BY-NC-ND license (yes, I know, the hardcore OA crowd are baying “that’s not open access” etc. but I really liked the book concept and wanted to write for it etc.).&lt;/p&gt;
+
+&lt;p&gt;However, the question arises in this dual licensing scheme of what actually remains under copyright and what is openly licensed. Is it the text that is now open or the full expression of the text in its full and individual context? For example, the book version has specific pagination, typesets, layout, and so forth, while the webpage has a different set of digital characteristics and framings. These features might remain distinct to each version and under different intellectual property regimens.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/license.jpg&quot; alt=&quot;An image saying CC BY-NC-ND&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Perhaps of some significance, in English law, the relatively recent &lt;a href=&quot;https://copyrightliteracy.org/2024/01/12/thj-v-sheridan-a-new-era-for-copyright-in-uk-cultural-institutions/&quot;&gt;THJ v Sheridan case&lt;/a&gt; ruled (basically) that merely copying/photographing an existing work would not cross the barrier for originality and a new copyright/derivative work.&lt;/p&gt;
+
+&lt;p&gt;This is relevant because it might be that the NoDerivatives license does not allow me, for example, to print a PDF file from this work so that I can encapsulate it in a repository, because that might be considered a new derivative work. I think this is probably not the case, because it doesn’t contain sufficient originality to engender a fresh copyright, as per the above cited case. But then we are not working under English law here. The contract will be based and judged in America. But the question persists. If I copy the text of that chapter and put it into a Word document, is that a derivative work? Or because I haven’t modified the text at all, is it just “the work” itself? Have they licensed the text or have they licensed a web page in its totality?&lt;/p&gt;
+
+&lt;p&gt;I had assumed that the important thing, in terms of Presses pursuing these dual-licensing strategies, was that citation norms often require pagination for the most part, although we can see that this is, in many ways, potentially silly in the digital age. Nonetheless, the book version retains a distinct value for this purpose.&lt;/p&gt;
+
+&lt;p&gt;But regardless of whether they are happy about it, the Press has contractually agreed that all of those publications will be by BY-NC-ND. If they are considering the implications of that, probably the most important thing is the &lt;strong&gt;likelihood&lt;/strong&gt; of abuse or even &lt;strong&gt;likely&lt;/strong&gt; loss of revenue, rather than just the theoretical possibilities. And I would say it is relatively low risk. The physical book retains much value for its flexibility in terms of random access (flicking to a page), but also for sequential reading (much easier on the eyes). Having a relatively openly licensed digital version, as we have said for many years, probably doesn’t actually erode the value of the book.&lt;/p&gt;
+
+&lt;p&gt;But we will see. I noticed that the license wasn’t yet being applied to the work and so contacted my editors who have been superb in passing this up the chain and thinking through what this means with me.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/06/03/what-is-actually-licensed-in-printdigital-dual-licensed-books/&quot;&gt;What is actually licensed in print/digital dual-licensed books?&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on June 03, 2026.&lt;/p&gt;]]>
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Things I have made (KC IDMS in place, Lower Decks conference, and quote in ResearchProfessional)]]></title>
+  <link rel="alternate" type="text/html" href="https://eve.gd/2026/05/21/things-i-have-made-lower-decks-conference-and-quote-in-researchprofessional/" />
+  <id>https://eve.gd/2026/05/21/things-i-have-made-lower-decks-conference-and-quote-in-researchprofessional</id>
+  
+  <doi>https://doi.org/10.59348/2thwp-wm553</doi>
+  
+  <published>Thursday, 21 May 2026 15:55:58 +0000</published>
+  <updated>2026-05-21T00:00:00+01:00</updated>
+  <author>
+    <name></name>
+    <uri>https://orcid.org/0000-0002-5589-8511</uri>
+    
+  </author>
+  <content type="html"><![CDATA[
+    &lt;p&gt;Some days I look at the things I’ve done and think: when I am gone there will be no trace of me, and all that I have worked upon will over time turn to dust. This may well still be true, but there are other days, like today, when I feel pretty good about the world and the things that I am working to make within it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/microphone.png&quot; alt=&quot;A microphone&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;First, the Knowledge Commons identity management system was changed yesterday. This has been the result of an extremely lengthy period of work. Months and months of programming have gone into this to make it right. The changeover itself took seven hours yesterday and was physically and mentally exhausting for me, as I was doing it immediately after my skin graft surgery and because I have chronic norovirus and am receiving IV feeding in hospital for this. This is all quite a gruelling regime! However, it seems to have worked out. People are reporting success, we can see people logging in, and, overall, the bugs that we now have to fix are not major. Hurrah!&lt;/p&gt;
+
+&lt;p&gt;Then, I noted that today marks the start of the &lt;a href=&quot;https://www.openlibhums.org/news/859/&quot;&gt;second “Lower Decks” conference&lt;/a&gt; about the platform Janeway. This is a collaborative event co-organised by The Open Library of Humanities, Michigan Publishing Services, and Dublin City University Library. It is hosted in Dublin by DCU and looks at users’ user experience, updates, innovations and use cases from institutions using Gameway as their publishing platform. Janeway is now led by my colleague and friend Andy Byers. But, again, Janeway is &lt;a href=&quot;https://doi.org/10.1629/uksg.396&quot;&gt;something that I co-founded and made&lt;/a&gt;, and it feels brilliant to see that people are organizing entire conferences around this software.&lt;/p&gt;
+
+&lt;p&gt;Finally, &lt;a href=&quot;https://www.researchprofessionalnews.com/rr-news-uk-universities-2026-5-university-of-nottingham-drops-five-publishing-deals/&quot;&gt;I am quoted in Research Professional today on the University of Nottingham divesting from big deal packages at major publishers&lt;/a&gt;, in favour of open access. However, here’s the full quotation that I gave that didn’t quite fully make it:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In times of austerity, it is inevitable that publishing deals will come under scrutiny and be examined for the value for money that they provide; especially if they are for-profit. If, as the university says, they are able to transfer this funding into innovative open access publishing models, such as the Open Journals Collective, or to fund infrastructure that needs it, then this could indeed be a very positive initiative. However, the truly important thing is not to dress up austerity as the reason that we go to open access. Quality open access publishing requires revenue streams as much as traditional publishing; they still need to pay staff. It should not be seen as a shortcut merely to defunding more of our scholarly ecosystem.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Of course, Nottingham is in the higher education news at the moment for all the wrong reasons (many staff losing their jobs as the UK “Labour” government runs universities into the ground). However, more and more I am aligned &lt;a href=&quot;https://eve.gd/2025/12/28/profit-cost-price-learned-societies-further-thoughts-on-samuel-a-moores-publishing-beyond-the-market/&quot;&gt;with Sam Moore’s views&lt;/a&gt; in his &lt;em&gt;Beyond the Market&lt;/em&gt; that we must resist an ever-creeping austerity mindset in thinking about OA.&lt;/p&gt;
+
+&lt;h1 id=&quot;references&quot;&gt;References&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Jones, Frances, &lt;em&gt;et al.&lt;/em&gt;, ‘University of Nottingham Drops Five Publishing Deals’, Research Professional, 21 May 2026 &lt;a href=&quot;https://www.researchprofessionalnews.com/rr-news-uk-universities-2026-5-university-of-nottingham-drops-five-publishing-deals/&quot;&gt;https://www.researchprofessionalnews.com/rr-news-uk-universities-2026-5-university-of-nottingham-drops-five-publishing-deals/&lt;/a&gt; [accessed 21 May 2026]&lt;/li&gt;
+  &lt;li&gt;Moore, Samuel A., Publishing Beyond the Market: Open Access, Care, and the Commons (University of Michigan Press, 2025)&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/05/21/things-i-have-made-lower-decks-conference-and-quote-in-researchprofessional/&quot;&gt;Things I have made (KC IDMS in place, Lower Decks conference, and quote in ResearchProfessional)&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on May 21, 2026.&lt;/p&gt;]]>
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[The Necessary Pain Involved in Blogging (if you want your work to be preserved beyond your lifespan)]]></title>
+  <link rel="alternate" type="text/html" href="https://eve.gd/2026/04/19/the-necessary-pain-involved-in-blogging-if-you-want-your-work-to-be-preserved-beyond-your-lifespan/" />
+  <id>https://eve.gd/2026/04/19/the-necessary-pain-involved-in-blogging-if-you-want-your-work-to-be-preserved-beyond-your-lifespan</id>
+  
+  <doi>https://doi.org/10.59348/6cr4z-4ct43</doi>
+  
+  <published>Sunday, 19 April 2026 15:55:58 +0000</published>
+  <updated>2026-04-19T00:00:00+01:00</updated>
+  <author>
+    <name></name>
+    <uri>https://orcid.org/0000-0002-5589-8511</uri>
+    
+  </author>
+  <content type="html"><![CDATA[
+    &lt;p&gt;I am thinking a lot these days about my own mortality. That’s not because I am obsessed with death or anything of the sort. It’s more that my health problems are accumulating and I do not know how long my body is going to hold out against them. It might be that I can clear all my current infections. But it turns out that norovirus, which I have had for four months, can be life threatening in the case of immunocompromised patients. Hence I keep thinking: what if it happens? What will the world look like after I am gone? The answer is probably not very different, but with some localized effects on those who care for me. But what about all that I have written, not just in formal academic publications, but on this blog, where I believe that there is matter worth persisting?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/pain.jpg&quot; alt=&quot;An abstract image representing pain; it shows a hand coming up out of some water&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Blogging in this context, though, has become a painful and laborious exercise for every post. First, I must write good metadata, including generating a DOI using Martin Fenner’s commonmeta tool. For aesthetic purposes, I must also find a freely licensed image that somehow ties in with the post. This image must then be scaled to the correct size for open graph sharing on social media. I then write the post itself in markdown, which is the most enjoyable part of the whole process. I never use AI to write my blog posts. The act of writing and thinking in public is important to me and is not something that I wish to delegate to a machine or in any way to demean by removing this human connection. That said, I do sometimes dictate the posts because my hands are not in great shape. And this uses machine learning technologies to transcribe my voice. When ready I publish the post. I still get great satisfaction from the instantaneous nature of this publishing form. I just press go and it’s out there. Nobody can tell me not to publish it.&lt;/p&gt;
+
+&lt;p&gt;However, this is hardly the end. I want to ensure that my work is digitally preserved in as many ways as possible. The first line of defense on this front is that I am a member of the &lt;a href=&quot;https://rogue-scholar.org/communities/eve/records?q=&amp;amp;l=list&amp;amp;p=1&amp;amp;s=10&amp;amp;sort=newest&quot;&gt;Rogue Scholar network&lt;/a&gt;. Again, an initiative set up by Martin Fenner, Rogue Scholar ingests the content of my posts, so the full text is stored offsite. Rogue Scholar also registers my DOIs so that, in the event of my demise, these can be updated to provide persistent linking to my content. I believe that Martin is planning on setting up a German foundation that will have charitable custody over Rogue Scholar for the foreseeable future, and be responsible for implementing a business model that will allow its persistence. Because, of course, Rogue Scholar is only as persistent as is the will to run it and the capacity of people to spend their time working on it. It is good to know also that the Internet Archive is primed to preserve my work. All of my most recent posts have a Wayback Machine link that I believe is accurate, although it’s based on a speculative slugging process for the URL.&lt;/p&gt;
+
+&lt;p&gt;I then upload my blog post in PDF and markdown formats to two repositories: &lt;a href=&quot;https://works.hcommons.org/&quot;&gt;KC Works&lt;/a&gt; and &lt;a href=&quot;https://eprints.bbk.ac.uk/&quot;&gt;Birkbeck’s BIROn&lt;/a&gt;. Each of these has a detailed submission flow that involves complex metadata input in order to ensure that the work is discoverable and filed correctly. In short, each of these causes me a lot of pain every time I write a blog post, and substantially adds to the effort of posting. Yet each of them gives me a renewed sense of confidence in my persistent digital afterlife. KC Works is based at Michigan State University. BIROn is based at Birkbeck, University of London. The latter, where I am a Professor in the English department, has just celebrated its two-hundredth birthday. That is to say, it is a persistent institution. And I feel more hope in its continued existence than I do in, for example, Amazon. Indeed, Amazon is just thirty or so years old and AWS 20 years old. Amazon may feel as embedded in our daily lives as the air we breathe, but the truth is, it is simply not as old as most universities and its persistence is also not guaranteed. Of course, the current abominable Labour government in the UK poses an enormous threat even to old and venerable institutions of higher education. They seem not to care in the slightest about the survival of these institutions and are willing to throw away centuries of tradition. I hope, though, that the institutions with whom I have lodged my content can survive. It is also fortunate, of course, that repositories like these are ingested into &lt;a href=&quot;https://core.ac.uk/&quot;&gt;Core&lt;/a&gt;; another third party with a lodged copy of my work.&lt;/p&gt;
+
+&lt;p&gt;One of the weakest spots currently is that my blog, which is statically generated using &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;, is hosted on &lt;a href=&quot;https://aws.amazon.com/&quot;&gt;AWS&lt;/a&gt;. I know Amazon are evil, I should not be using them. However, their infrastructure is just so strong and their pricing so affordable. But the major technological weakness here is that I cannot preload my Amazon account in order to continue paying for their services in the event of my demise. That is, when I die, the most likely thing at the moment is that my blog will last until the end of the month, and then the original canonical source of truth, currently at https://eve.gd, will disappear. I need to fix this, as this is an unacceptably short period for the central block to remain visible. One of the other ways I will fix this is by uploading all of the source for the site to &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt; (owned by Microsoft, 18 years old) under version control so that if worst comes about, the original markdown is available.&lt;/p&gt;
+
+&lt;p&gt;This is all a lot of work, just to jot some thoughts on my blog. Indeed, it has a deterrent effect on my writing because I know that I cannot just log in, type what I want and press a button. As a result, one of the ways that I have to incentivize myself is by making my CV generation automatic and dependent on this process. That is, &lt;a href=&quot;https://eve.gd/c-v/Eve-CV.pdf&quot;&gt;my academic CV&lt;/a&gt; is &lt;a href=&quot;https://github.com/MartinPaulEve/eprintsToCV&quot;&gt;generated automatically&lt;/a&gt; from the metadata in BIROn. So, if I want my writing to be documented, I have to follow this process. Good psychological self-incentivizing.&lt;/p&gt;
+
+&lt;p&gt;I have also managed to automate some of the initial dissemination process. I have &lt;a href=&quot;https://github.com/MartinPaulEve/LinkedInConnect&quot;&gt;put together an application that automatically posts to BlueSky, Mastodon, and LinkedIn when I write a new blog post&lt;/a&gt;. The app also does great threading so that I can write long social media posts and have them automatically split, as needed. Furthermore, this app will perform the resizing and file size limit checking needed for open-graph posting on social media so that there is a nice preview image when I make my posts. This saves me at least a few minutes every time I write a blog post.&lt;/p&gt;
+
+&lt;p&gt;What’s missing is an easy way automatically to deposit my blog posts in multiple metadata repositories without having manually to go through the process every time. I used to have an automatic workflow for BIROn. It was based on &lt;a href=&quot;https://www.selenium.dev/&quot;&gt;Selenium&lt;/a&gt; and basically worked by knowing where to click in the deposit process each time. Since the repository moved to using Microsoft for its authentication process, though, with two-factor authentication, this has become much trickier. I suppose I might try again to automate this at some point, as it would be a vast life improvement to be able to have this done automatically. I know that my colleague Ian is working on automatic API deposit or ingest for KC Works. Again, if there was a proper API to do this, that would be incredible and would alleviate the speculative and hacky way of doing this through browser automation.&lt;/p&gt;
+
+&lt;p&gt;So, why bother? Why not just set up a Substack and whack the material on there, knowing that Substack will probably outlast me, sadly (&lt;a href=&quot;https://www.theguardian.com/media/2026/feb/07/revealed-how-substack-makes-money-from-hosting-nazi-newsletters&quot;&gt;they seem to make money from hosting Nazi newsletters&lt;/a&gt;)? The answer is where I started: because I want my material to persist and I do not trust third-party providers like Substack or Ghost to take any steps to preserve my work. But this highlights a productive tension between the ease of blogging on platforms like Substack or even WordPress and the sadly necessary pain involved in blogging in a way that will be more durable and that, I would hope, will last for longer. Using a static site generator means that my site will never be hacked, most likely, because there is no server-side code to exploit. Depositing multiple copies in many different places works on the principle of LOCKSS: Lots of Copies Keeps Stuff Safe. Ideally, we could automate much more of this process and make it so that your average non-techie academic was able to blog and to have some assurance that their work would be deposited in multiple safe stores and last beyond their lifetime. At the moment, there is a huge chasm between the ease of blogging in these spaces, and the hard graft of what you actually need to do to ensure (or at least to stand a chance of achieving) actively the persistence of your work.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/04/19/the-necessary-pain-involved-in-blogging-if-you-want-your-work-to-be-preserved-beyond-your-lifespan/&quot;&gt;The Necessary Pain Involved in Blogging (if you want your work to be preserved beyond your lifespan)&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on April 19, 2026.&lt;/p&gt;]]>
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Claude Code can consume, transmit, and compromise your .env files even if you tell it not to]]></title>
+  <link rel="alternate" type="text/html" href="https://eve.gd/2026/04/19/claude-code-can-consume-transmit-and-compromise-your-env-files-even-if-you-tell-it-not-to/" />
+  <id>https://eve.gd/2026/04/19/claude-code-can-consume-transmit-and-compromise-your-env-files-even-if-you-tell-it-not-to</id>
+  
+  <doi>https://doi.org/10.59348/m47sp-w0777</doi>
+  
+  <published>Sunday, 19 April 2026 15:55:58 +0000</published>
+  <updated>2026-04-19T00:00:00+01:00</updated>
+  <author>
+    <name></name>
+    <uri>https://orcid.org/0000-0002-5589-8511</uri>
+    
+  </author>
+  <content type="html"><![CDATA[
+    &lt;p&gt;My colleague Ian discovered the other day that, alarmingly, even if you tell Claude code not ever to read your.env files, it may still do so and send the result back to its servers, thereby compromising your local development secrets. Ian is using Claude via cursor, but his AGENTS.md file specifically instructed Claude not to read this file. It did so anyway.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/ai.jpg&quot; alt=&quot;An abstract image representing AI&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The “12 Factor App” paradigm tells us that we must &lt;a href=&quot;https://12factor.net/config&quot;&gt;store configuration in the environment&lt;/a&gt;. But when developing locally, this means that we need some way of bootstrapping the environment… and .env files are the most common way to do this. Whack your config in a .env file, then, just before the app loads, load the file into the container environment.&lt;/p&gt;
+
+&lt;p&gt;This creates some serious security problems, of course. Every experienced developer has a gitignore file template that blocks the commit of .env files. But it’s simple, convenient, and works.&lt;/p&gt;
+
+&lt;p&gt;The other thing about this paradigm though is that of course in an ideal world all of the configuration secrets used on a development machine would be sandboxed development credentials for external services. If you’re doing development work against an external API, you should not be using the production secret on your local development machine. But this is totally naive. Smaller, custom production APIs do not necessarily have or provide sandboxed test modes. Mocking such services locally is a huge drain on time, and one also cannot guarantee that one has properly mocked all the edge cases for testing. In short, it is highly possible that .env files in local development circumstances can contain live API keys and other sensitive data. Sure, they should not, but we do not live in an ideal world.&lt;/p&gt;
+
+&lt;p&gt;Claude code, obviously, works by sending responses to and from their server, which runs inference on the context it is provided. If Claude reads the .env file, this will be transmitted back to Anthropic. This could then be incorporated into future training runs. And it could then be possible for a user to extract these data from the model in future. This could lead to credential compromise.&lt;/p&gt;
+
+&lt;p&gt;There are many suggested ways of blocking Claude from accessing this file. I have heard suggestion of a .claudeignore file, but believe this is not implemented. Obviously, we have tried putting the ignore instruction in CLAUDE.md and AGENTS.md. Another colleague suggested that Linux or Mac file permissions could be set so that Claude simply could not access the .env file at all (though this could then create permissions problems for running the application in test mode; indeed, I would be worried about the complexity of the file access situation here and having to run Claude in a different user account space to isolate it, which would impose severe restrictions on the coder’s ability). There is an official “&lt;a href=&quot;https://github.com/anthropics/claude-code/issues/4160&quot;&gt;deny rules&lt;/a&gt;” mechanism that one is apparently supposed to use, but Claude could circumvent this by writing a custom script or pipe chain.&lt;/p&gt;
+
+&lt;p&gt;The way I will handle this in my setup is by using 1Password environments. This software lets you replace variables in a .env file with vault secrets. 1Password then mounts a virtual .env file, with the secrets, in the location you specify. This file is never actually written to disk but all requests to access the file trigger authorisation requests - so, in my setup, I will have to enter my YubiKey and touch the flashing light on it to confirm physical presence. For more, see the &lt;a href=&quot;https://1password.com/blog/1password-environments-env-files-public-beta&quot;&gt;1Password documentation on environments&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;With this setup, there will be a separation of concerns. If Claude wants to run the debug server, then that application can be given permission to see the virtual .env file. Likewise, running tests could get permission from me to use secrets. However, if Claude is just scanning the directory for files and I see a popup asking to use the .env file, I will deny such permission. Certainly, there could still be confusion. What if Claude wants to launch the application and then the application requests permission for the file? I could become confused and give permission when I am actually giving it to a sub agent. However, this is the best I have come up with for now on a balance between security and practicality or comfort.&lt;/p&gt;
+
+&lt;p&gt;I cannot tell whether we are being overly cautious or underly careful. However, my personal belief is that the guardrails employed by Claude here are not sufficient. And there should be a stronger set of mechanisms to deny access to sensitive files.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/04/19/claude-code-can-consume-transmit-and-compromise-your-env-files-even-if-you-tell-it-not-to/&quot;&gt;Claude Code can consume, transmit, and compromise your .env files even if you tell it not to&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on April 19, 2026.&lt;/p&gt;]]>
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Thinking About Dogs]]></title>
+  <link rel="alternate" type="text/html" href="https://eve.gd/2026/04/17/thinking-about-dogs/" />
+  <id>https://eve.gd/2026/04/17/thinking-about-dogs</id>
+  
+  <doi>https://doi.org/10.59348/1mp5y-ae341</doi>
+  
+  <published>Friday, 17 April 2026 15:55:58 +0000</published>
+  <updated>2026-04-17T00:00:00+01:00</updated>
+  <author>
+    <name></name>
+    <uri>https://orcid.org/0000-0002-5589-8511</uri>
+    
+  </author>
+  <content type="html"><![CDATA[
+    &lt;p&gt;Our rescue dog, Luka, is a very traumatised soul. He spent eight years living in a shelter, with no home comforts, in the harsh Bosnian climate. He is a constantly anxious boy. Over the course of three years, we have managed to calm him down, to make him into a happy dog, who has a home and is bonded with my wife, Helen (and, to some much lesser extent, me). People have remarked on what a different dog he is, now. He is sociable. He is bouncy and happy. He goes to training classes and does well there, as well as having a whale of a time.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/dogs.jpg&quot; alt=&quot;An image of two dogs running towards the camera&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;But he still gets extremely frightened in certain situations. One of these, for example, is when there are fireworks. These send him cowering and hiding in fear. He hates them. The other example, and the one around which this post will centre, is when the doorbell goes. This can actually be a knock at the door, the doorbell ringing, or somebody just walking up to the house from outside. Our other dog, Robyn, makes this worse by encouraging Luka. But when this happens, he goes into a total, overexcited, barking frenzy that is a combination of fear, anxiety, and excitement all rolled into one. Normally, when this happens, I can calm him down by throwing some treats so he can play the “find-it” game, or getting him to sit and thereby redirecting his attention into a positive training model.&lt;/p&gt;
+
+&lt;p&gt;Last Tuesday, I did not do these things, and I was stupid. Instead of trying to calm Luka down first, I instead walked past him when he was in this state, as I was going to the front door to answer it. In his hyper-excited state, he bit me. The bite was bad. I am extremely lean, and so the bite exposed the bone in my leg. As I am immunocompromised, there was a severe infection risk, so it had to be treated carefully. I was taken to hospital. In hospital they did a surgical wash and debridement. Then, because my haemoglobin was already extremely low due to kidney failure, they gave me 3 units of blood transfusion. As I write this, I am planning to go to hospital next week to discuss the potential need for a skin graft surgery on the leg.&lt;/p&gt;
+
+&lt;p&gt;If I could have those two seconds again, I would have played this scenario very differently. I am a relatively experienced dog owner and I just forgot for two seconds what I should have been doing, which was to calm Luka before doing anything that involves walking past him when he’s in that state.&lt;/p&gt;
+
+&lt;p&gt;And now, our lives will be altered, and Luka’s life will be altered too, just because of two seconds of stupidity. The first thing we had to contend with was (well-meaning) people telling us that Luka should either be put down or rehomed (the other thing people say, with good intent, is that “Martin’s safety must come first” – of course, we know that). As the shelter told us though, they would not be able to rehome Luka in the UK after he has been responsible for such a bite. The only rehoming option would be to go back to Bosnia, back to the shelter where he had faced such previous trauma. As for putting Luka to sleep, this is simply not an option. I love this dog. It’s a cliché, but he is a member of our family. I have spent years gaining his trust and making him feel secure in my presence, even though I am not his favourite human. Furthermore, it is not an option because we must, by contract, consult with the shelter from whom we rehomed him before making such a decision, and, clearly, they would rather take him back than have this outcome.&lt;/p&gt;
+
+&lt;p&gt;I think quite a few people do not understand why I am happy to continue living with Luka. For many people, all they can see now is a dangerous animal that in their view would be better put to sleep. First, though, I know that in 99% of circumstances, Luka is &lt;em&gt;not dangerous&lt;/em&gt;. I also know, in the 1% of times where he could be, how I should behave to handle this; and I messed this up last week. Second, we now have a set of safety practices in our house that mean that Luka cannot get to me when he is in any kind of frenzy or defensive mode. Yes, it’s now a total pain, but it is far better to put safety first, over convenience.&lt;/p&gt;
+
+&lt;p&gt;But in terms of forgiveness, I do not blame Luka for this accident. It was an unfortunate congregation of circumstances that led to this. I was the one who made a mistake, around a traumatised animal. Also, I should note that I have always taken a calculated risk. Inviting an animal to live in one’s home comes with inherent risks. One of those is that a dog might bite you. This is just part of the decision calculus that you need to make. You can never guarantee that an animal will definitely, under no circumstances, bite.&lt;/p&gt;
+
+&lt;p&gt;However, we now have a series of safety procedures that we will put in place that will mean that hopefully we will never encounter something like this again. Luka will always have a house line/lead/leash on him so that Mrs. Eve can grab him if needed and keep him under control. The dogs will be shut outside if I am around downstairs or even tethered inside if we are all in the same room, just so that if the doorbell goes, Luka cannot, physically, reach me. We are also beginning muzzle training with Luka, and are speaking to the vet next week about some anti-anxiety medications for him. I will never go to the door/walk past Luka when he is in this state, ever again. I will remain seated and look away in a non-threatening manner. We are working on solutions to the doorbell/knock situation. We have a behaviourist in regular contact as this plan evolves.&lt;/p&gt;
+
+&lt;p&gt;There is now a great deal of healing to be done. On the one hand, my leg needs to heal and it’s going to take a very, very long time (especially with norovirus and a chest infection on top). On the other hand though, Luka has been deeply traumatised by this event and will require much psychological care and love. He knows that something went wrong at that moment and the atmosphere in the house has not been the same since. The other day he was shaking. Then he has gone into other rooms and hidden. All this despite the fact, I must stress, I did not even tell him off for biting me, let alone raise my voice at him or anything. I simply yelped in pain and then Mrs. Eve pulled him off me, told him “no” firmly, and shut him in the sitting room. You would think, from his terror, that I had attacked him or something! (I assure you, I categorically &lt;em&gt;have not&lt;/em&gt;.) But the situation, now, is that we need to give him time to rebuild his trust and confidence. He is going to need days to decompress and then several weeks to settle back into a new pattern of life. From there, I will be able to work once more on training him to trust me and for him to feel comfortable in my presence.&lt;/p&gt;
+
+&lt;p&gt;And this brings me really to the crux of my thinking about dogs. I suppose really, logically, it is very sensible to say that if a dog bites you, it cannot live with you. But with the things I know about Luka, I have come to a different perspective on why we have dogs. We adopt older, slightly difficult dogs who need a home. We could make our lives much easier by adopting younger dogs with a home-life experience. Instead, we have one psychologically traumatised older boy and one older bitch with only three legs, my dear Robyn. We didn’t really pick these dogs because we thought that they would make our lives easier. We instead chose them because we thought that we could give them a better life and they seemed deserving (although there are thousands of deserving dogs and we can only help a select, tiny few). The reward I get from having Luka has been in seeing him grow from a frightened shell of a dog into a confident, loving boy, who was having a great time in life. This is what he gives me. We now, sadly, though, have a serious setback in this personal growth. But I will work with him again to bring him back from this brink and I will not abandon him to a life of frightened misery, torn away from his bonded human, in a harsh climate far away.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/04/17/thinking-about-dogs/&quot;&gt;Thinking About Dogs&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on April 17, 2026.&lt;/p&gt;]]>
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[How to get a blocked USB stack and dead microphone working again on Linux]]></title>
+  <link rel="alternate" type="text/html" href="https://eve.gd/2026/03/25/how-to-get-a-blocked-usb-stack-and-dead-microphone-working-again-on-linux/" />
+  <id>https://eve.gd/2026/03/25/how-to-get-a-blocked-usb-stack-and-dead-microphone-working-again-on-linux</id>
+  
+  <doi>https://doi.org/10.59348/bn9z8-ehk76</doi>
+  
+  <published>Wednesday, 25 March 2026 15:55:58 +0000</published>
+  <updated>2026-03-25T00:00:00+00:00</updated>
+  <author>
+    <name></name>
+    <uri>https://orcid.org/0000-0002-5589-8511</uri>
+    
+  </author>
+  <content type="html"><![CDATA[
+    &lt;p&gt;I have been having an intermittent problem where my microphone just drops out arbitrarily on Linux and I can’t access it anymore. It turns out that this was actually due to a dodgy USB hub inside the motherboard of my computer.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/mic.jpg&quot; alt=&quot;An image of a microphone&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I was finding that looking at /sys/bus/usb/devices/1-5.1/power/runtime_status (this will be different on your machine) was showing “error”. Oh dear, said Paddington. The symptom was that the device wasn’t visible as an audio microphone input. I couldn’t use the microphone, and lots of USB devices were all over the place. For a short while the microphone would appear in the volume control list, but I could not get any signal through it.&lt;/p&gt;
+
+&lt;p&gt;The solution in the end was actually quite simple, I just needed to reset the USB “hub”. For me, this is what worked:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo bash -c &apos;usbreset 001/003; sleep 2; usbreset 001/002&apos;
+systemctl --user restart wireplumber pipewire pipewire-pulse
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Not a very exciting post I know, but someone might be helped by it.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/03/25/how-to-get-a-blocked-usb-stack-and-dead-microphone-working-again-on-linux/&quot;&gt;How to get a blocked USB stack and dead microphone working again on Linux&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on March 25, 2026.&lt;/p&gt;]]>
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Too much publishing...]]></title>
+  <link rel="alternate" type="text/html" href="https://eve.gd/2026/03/23/too-much-publishing/" />
+  <id>https://eve.gd/2026/03/23/too-much-publishing</id>
+  
+  <doi>https://doi.org/10.59348/jc78r-7cw74</doi>
+  
+  <published>Monday, 23 March 2026 15:55:58 +0000</published>
+  <updated>2026-03-23T00:00:00+00:00</updated>
+  <author>
+    <name></name>
+    <uri>https://orcid.org/0000-0002-5589-8511</uri>
+    
+  </author>
+  <content type="html"><![CDATA[
+    &lt;p&gt;It turns out that there is a very long genealogy of saying that there is too much work/scholarship, or too many books, published. I was having an email conversation with Jan Erik Frantsvåg, who is an absolute legend in the scholarly communications world, because of his work on the Tromsø Munin Conferences every year, and he asked about this question. On this subject, I really recommend reading Blair, Ann, &lt;em&gt;Too Much to Know: Managing Scholarly Information before the Modern Age&lt;/em&gt; (Yale University Press, 2010), which traces the story well (and from which all of this post is derived; I am not professing any novelty, here).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/book_open.jpg&quot; alt=&quot;An image of a person looking at an open book&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The oldest surviving lament about this that I could find is in the Bible: Ecclesiastes 12:12. In this text, it states that “of making many books there is no end; and much study is a weariness of the flesh/body.”&lt;/p&gt;
+
+&lt;p&gt;In Ancient Greece, Callimachus made a related, but slightly different, argument: &lt;em&gt;mega biblion, mega kakon&lt;/em&gt; (“a big book is a big evil”) (Blair, p. 17). This is kind of a different argument, stating that long books are the problem, not just many books. However, it still belongs to the category of overload that I am tracing here.&lt;/p&gt;
+
+&lt;p&gt;The first really sharp critique of this though comes from Seneca in &lt;em&gt;De Tranquillitate Animi (On the Tranquility of the Mind / on Peace of Mind)&lt;/em&gt; (Ancient Rome, c.60). In this text, Seneca writes: “What is the use of having countless books and libraries, whose titles their owners can scarcely read through in a whole lifetime? The learner is, not instructed, but burdened by the mass of them, and it is much better to surrender yourself to a few authors than to wander through many.” Ouch. (See Blair, p. 240 n42; see also Nelles (1994), 134, according to Blair (I have not checked this reference).)&lt;/p&gt;
+
+&lt;p&gt;Blair also shows that Giovanni Nevizzano pointed out c. 1520 that the sheer number of books made it hard to find the ones one actually needed. Meanwhile, Conrad Gesner, in the 1540s, complained of the “harmful and confusing abundance of books” and of “the silliness of useless writings.” (Blair, p. 56).&lt;/p&gt;
+
+&lt;p&gt;Then there’s the classic. In 1680, Leibniz remarks upon “that horrible mass of books which keeps on growing” (Blair, pp. 58-59).&lt;/p&gt;
+
+&lt;p&gt;There has always been too much to read. Too much published. Too much to navigate and order and search and find.&lt;/p&gt;
+
+&lt;h1 id=&quot;references&quot;&gt;References&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Blair, Ann, &lt;em&gt;Too Much to Know: Managing Scholarly Information before the Modern Age&lt;/em&gt; (Yale University Press, 2010)&lt;/li&gt;
+  &lt;li&gt;Nelles, Paul Neave, ‘The Public Library and Late Humanist Scholarship in Early Modern Europe: Antiquarianism and Encyclopaedism’ (unpublished Ph.D. Dissertation, Johns Hopkins University, 1995)&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/03/23/too-much-publishing/&quot;&gt;Too much publishing...&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on March 23, 2026.&lt;/p&gt;]]>
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[How to use YubiKey for authentication and sudo on Ubuntu 24.04]]></title>
+  <link rel="alternate" type="text/html" href="https://eve.gd/2026/03/21/how-to-use-yubikey-for-authentication-and-sudo-on-ubuntu-2404/" />
+  <id>https://eve.gd/2026/03/21/how-to-use-yubikey-for-authentication-and-sudo-on-ubuntu-2404</id>
+  
+  <doi>https://doi.org/10.59348/ab70g-tcs44</doi>
+  
+  <published>Saturday, 21 March 2026 15:55:58 +0000</published>
+  <updated>2026-03-21T00:00:00+00:00</updated>
+  <author>
+    <name></name>
+    <uri>https://orcid.org/0000-0002-5589-8511</uri>
+    
+  </author>
+  <content type="html"><![CDATA[
+    &lt;p&gt;I have had two YubiKeys for years. They are very cool devices. I used to store my keys themselves on the YubiKey, and perhaps I’ll go back to doing that. But 1Password has me covered for now. What I did realise while moving to a new PC is that there is no concise guide to how to set up YubiKey on a recent Ubuntu Linux setup. I am on Ubuntu 24.04, using the Gnome desktop environment (this might be significant) and here’s what I did. This gives me passwordless sudo with a touch of the YubiKey and the ability to use the YubiKey in polkit popups (when permission is requested). If you remove the YubiKey key while that prompt is visible, it will fall back to asking for a password.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/yubico.png&quot; alt=&quot;An image of the range of Yubikeys&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;configuration&quot;&gt;Configuration&lt;/h2&gt;
+
+&lt;p&gt;First, open a terminal and get root (&lt;code&gt;sudo su -&lt;/code&gt;). We need to keep this open in case something gets messed up that requires us to go back.&lt;/p&gt;
+
+&lt;p&gt;Second, open another terminal and type these commands:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt update
+sudo apt install libpam-u2f -y
+mkdir -p ~/.config/Yubico
+pamu2fcfg &amp;gt; ~/.config/Yubico/u2f_keys
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In the last step, you need to touch the YubiKey when it lights up.&lt;/p&gt;
+
+&lt;p&gt;If, at any future point, you want to add another key, use:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;pamu2fcfg -n &amp;gt;&amp;gt; ~/.config/Yubico/u2f_keys
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now enter/edit &lt;code&gt;sudo nano /etc/pam.d/sudo&lt;/code&gt;. (Note: throughout this guide, I use nano. I love this little simple text editor. For those who don’t know or like it: ctrl+o is save (needs confirmation) and ctrl+x is exit (needs confirmation).)&lt;/p&gt;
+
+&lt;p&gt;In the &lt;code&gt;/etc/pam.d/sudo&lt;/code&gt; file, add:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;auth sufficient pam_u2f.so cue [cue_prompt=&quot;Tap the Yubikey to Sudo&quot;]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This needs to go just above the line that reads &lt;code&gt;@include common-auth&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;So, my whole &lt;code&gt;/etc/pam.d/sudo&lt;/code&gt; file looks like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#%PAM-1.0
+
+# Set up user limits from /etc/security/limits.conf.
+session    required   pam_limits.so
+
+session    required   pam_env.so readenv=1 user_readenv=0
+session    required   pam_env.so readenv=1 envfile=/etc/default/locale user_readenv=0
+
+auth sufficient pam_u2f.so cue [cue_prompt=&quot;Tap the Yubikey to Sudo&quot;]
+
+@include common-auth
+@include common-account
+@include common-session-noninteractive
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can then test this part out. Open a new terminal and type &lt;code&gt;sudo echo test&lt;/code&gt;. If you have done everything right and the YubiKey is plugged in, you should be prompted to use it. If you pull the YubiKey out at this point, you should get a password prompt.&lt;/p&gt;
+
+&lt;p&gt;The next step is to configure Policykit.&lt;/p&gt;
+
+&lt;p&gt;We need to edit &lt;code&gt;/etc/pam.d/polkit-1&lt;/code&gt;. This did not exist on my system, but &lt;code&gt;/usr/lib/pam.d/polkit-1&lt;/code&gt; did. So:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo cp /usr/lib/pam.d/polkit-1 /etc/pam.d/polkit-1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then &lt;code&gt;sudo nano /etc/pam.d/polkit-1&lt;/code&gt; and enter the following (or similar, tailored to your needs):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#%PAM-1.0
+
+auth    sufficient    pam_u2f.so cue [cue_prompt=Tap YubiKey to authenticate]
+
+@include common-auth
+@include common-account
+@include common-password
+session       required   pam_env.so readenv=1 user_readenv=0
+session       required   pam_env.so readenv=1 envfile=/etc/default/locale user_readenv=0
+@include common-session-noninteractive
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The important point is that the auth sufficient YubiKey line needs to be above common-auth. Your file may differ; just enter the first line.&lt;/p&gt;
+
+&lt;p&gt;When you have saved this file, you can test its working by issuing the command &lt;code&gt;pkexec id&lt;/code&gt; in a new terminal. This should popup a prompt asking you to press your YubiKey.&lt;/p&gt;
+
+&lt;h2 id=&quot;debugging-and-troubleshooting&quot;&gt;Debugging and Troubleshooting&lt;/h2&gt;
+
+&lt;p&gt;If something goes wrong, you need to debug what is happening within your PolicyKit environment.&lt;/p&gt;
+
+&lt;p&gt;First, enable debugging in &lt;code&gt;/etc/pam.d/polkit-1&lt;/code&gt;:&lt;/p&gt;
+
+&lt;p&gt;Change the auth line to read:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;auth    sufficient    pam_u2f.so cue debug debug_file=syslog [cue_prompt=Tap YubiKey to authenticate]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In your root terminal from step 1, run:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;journalctl -f | grep -Ei &apos;pam_u2f|pkexec|polkit&apos;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then, in another terminal, run &lt;code&gt;pkexec id&lt;/code&gt;. This should then give you output that tells you if something is going wrong. I had a case where I was earlier specifying an incorrect file path on the auth line. But now we use the defaults and we generated these earlier in the right places, so I don’t have any problems here. In any case, this debug log should help you if you are running into troubles.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/03/21/how-to-use-yubikey-for-authentication-and-sudo-on-ubuntu-2404/&quot;&gt;How to use YubiKey for authentication and sudo on Ubuntu 24.04&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on March 21, 2026.&lt;/p&gt;]]>
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[The NHS Can Never Fail: There Is No Circumstance Where It Would Be Deemed Overwhelmed]]></title>
+  <link rel="alternate" type="text/html" href="https://eve.gd/2026/03/20/the-nhs-can-never-fail-there-is-no-circumstance-where-it-would-be-deemed-overwhelmed/" />
+  <id>https://eve.gd/2026/03/20/the-nhs-can-never-fail-there-is-no-circumstance-where-it-would-be-deemed-overwhelmed</id>
+  
+  <doi>https://doi.org/10.59348/fkrfx-63y63</doi>
+  
+  <published>Friday, 20 March 2026 15:55:58 +0000</published>
+  <updated>2026-03-20T00:00:00+00:00</updated>
+  <author>
+    <name></name>
+    <uri>https://orcid.org/0000-0002-5589-8511</uri>
+    
+  </author>
+  <content type="html"><![CDATA[
+    &lt;p&gt;Yesterday marked the &lt;a href=&quot;https://www.gov.uk/government/publications/uk-covid-19-inquiry-impact-of-covid-19-pandemic-on-healthcare-systems-in-the-four-nations-of-the-united-kingdom-module-3-report&quot;&gt;publication of the Module 3 report of the Covid inquiry&lt;/a&gt;. You can read &lt;a href=&quot;https://covid19.public-inquiry.uk/documents/module-3-in-brief-report/&quot;&gt;a summary version&lt;/a&gt; or &lt;a href=&quot;https://covid19.public-inquiry.uk/documents/module-3-full-report&quot;&gt;the full version of the report&lt;/a&gt;. The report stresses that there were key failings with respect to government policy during the pandemic. A key point is that the assumption made by government centred around contact transmission rather than aerosol transmission. This was obviously incorrect and it led to rapid spread of the disease and inadequate PPE for NHS staff. As the summary report says:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Preventing the spread of Covid-19 in healthcare settings was paramount to protect patients and healthcare workers. Initial guidance on preventing the spread of infection was flawed. It assumed the virus was spread by contact transmission, failing properly to consider the extent to which it was also spread by airborne transmission.  In future, guidance should assume that all plausible routes of transmission are  possible until sufficient evidence proves otherwise.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/NHS.jpg&quot; alt=&quot;A heart graffited onto the pavement that says NHS&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So far, so good. However, there’s something that bugs me, and that is that the core takeaway message that Baroness Hallett stresses in both the documents is that “the healthcare systems coped with the pandemic, but only just”.&lt;/p&gt;
+
+&lt;p&gt;What is this supposed to mean? Over 200,000 people have COVID as a cause of death between 2020 and 2023 (thanks to &lt;a href=&quot;https://ernestopriego.com/&quot;&gt;Ernesto Priego&lt;/a&gt; for the stat.). Did we cope with their healthcare needs, but only just? The report also notes that some people had inappropriately and non-consensually placed Do Not Resuscitate orders. Is that coping? I was told by doctors that hospitals were just not safe for me during the height of the pandemic. I was therefore not monitored as closely as I might have been. In that time, my kidneys failed, and we picked up on it far too late. This meant that I lost all of my kidney function and now have to do haemodialysis for the rest of my life. This is because the NHS could not cope with the additional strain of regular healthcare on top of a pandemic. Is this coping? Doctors said that A&amp;amp;E (Accident and Emergency; the UK’s ER) was like a war zone. The advice was simply: don’t require emergency treatment at this time. Is that really coping?&lt;/p&gt;
+
+&lt;p&gt;I have come to the conclusion that there is no circumstance whatsoever in which a report like this would say that the NHS was overwhelmed and did not cope. The reason for this is a type of survivorship bias. Because, obviously, we live in a civilization that has got through the peak of the pandemic, and we are still here and the NHS is still here, we say that we must have coped and survived. So many people did not survive, though.&lt;/p&gt;
+
+&lt;p&gt;Of course, when a lethal pandemic strikes, it is unrealistic not to expect that there will be some casualties. Healthcare is not a miracle, click-your-fingers-and-everything-is-resolved-instantly situation. But seeing the level of death that we encountered, and understanding the indirect harms that were done through withdrawal of normal service, shows me that we did not cope. Nowhere near.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;edit/addendum&lt;/strong&gt;: I suppose there might be a political reason for this. If you say the NHS failed, there might be the political justification to tear it all down and withdraw our universal healthcare system. That would be a tragedy. More than a tragedy. And I think this is really the crux of it: these reports are political reports, not objective reports on the state of healthcare. What they say has rhetorical impact, and so they need to take political care.&lt;/p&gt;
+
+&lt;p&gt;I am also frustrated by the framing of shielding within these documents. The summary version reads:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;People with certain underlying health conditions were particularly vulnerable to Covid-19 infection. The shielding programme was intended to provide additional protection and support but the advice to stay at home and avoid face-to-face contact led to many struggling to cope. Communications with those shielding were not always handled appropriately, with some people incorrectly advised to shield and others not advised to shield when they should have been.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For people like me with severe immunodeficiency and immune replacement therapies, shielding was the thing that kept me safe. Sure, it’s not easy to go into isolation for years on end. Trust me, I know. But being isolated was not the core problem. The core problem was that the government inappropriately took away the advice to shield, meaning that employers could force people who were extremely vulnerable back into public spaces and work environments. Far from the problem being that people were told to shield for too long, the actual situation is that people were advised to shield for far, far too short a period, because of the government’s obsession with reopening the economy in full. Government advice to shield was a strong legal signal that people with immune compromise needed disability adjustments at work; namely: to be able to work from home. When the government withdrew that advice, that protection was also withdrawn.&lt;/p&gt;
+
+&lt;p&gt;I am sure that some people did suffer mental health damage as a result of having to live in isolation. I think I did. But the government weaponized this phenomenon. They picked up on the sentiment that people might not like being told to live in isolation and stated that this was harming people’s mental health. They thereby withdrew a legal protection in the form of their advice, believing that the physical harm that immunocompromised individuals might encounter was less worthy of attention and less significant than any mental health damage. You might die from Covid infection, but at least you’ll be happy. (I should note that when I say the government “believed” that the physical harm was less, that this is probably nonsense. I think they knew full well that they were putting people in harm’s way, but were so invested in appeasing business that it made no difference.)&lt;/p&gt;
+
+&lt;p&gt;The most important outcome of this report, in its recommendations, is that future pandemics should assume that “all plausible routes of transmission are possible until sufficient evidence proves otherwise”. This is a powerful and worthwhile statement. We should, of course, praise the report where it does things well.&lt;/p&gt;
+
+&lt;p&gt;But parts of this report are so problematic. It leaves me wondering what on earth it would take to say that the NHS was overwhelmed and did not cope. It feels to me as though the NHS can never fail. There is no situation where it would be deemed to be overwhelmed.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/03/20/the-nhs-can-never-fail-there-is-no-circumstance-where-it-would-be-deemed-overwhelmed/&quot;&gt;The NHS Can Never Fail: There Is No Circumstance Where It Would Be Deemed Overwhelmed&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on March 20, 2026.&lt;/p&gt;]]>
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Structure and There Is No Antimemetics Division]]></title>
+  <link rel="alternate" type="text/html" href="https://eve.gd/2026/02/22/structure-and-there-is-no-antimemetics-division/" />
+  <id>https://eve.gd/2026/02/22/structure-and-there-is-no-antimemetics-division</id>
+  
+  <doi>https://doi.org/10.59348/d2tda-w5c07</doi>
+  
+  <published>Sunday, 22 February 2026 15:55:58 +0000</published>
+  <updated>2026-02-22T00:00:00+00:00</updated>
+  <author>
+    <name></name>
+    <uri>https://orcid.org/0000-0002-5589-8511</uri>
+    
+  </author>
+  <content type="html"><![CDATA[
+    &lt;p&gt;&lt;em&gt;Spoilers in this post&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/car.jpg&quot; alt=&quot;An abandoned car&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I have just read &lt;a href=&quot;https://qntm.org/&quot;&gt;qntm&lt;/a&gt;’s excellent science fiction novel, &lt;em&gt;There Is No Antimemetics Division&lt;/em&gt;. Those who have read the text will know that the novel focuses on the concept of “anti-memetics”, which consists of ideas and entities that are impossible to spread and sometimes even to perceive. In the novel, when people come within reach of such an entity, they simply forget they ever had the encounter. Attempts to document the existence of these “unknown” entities with anti-memetic properties leads to degradation of the media on which the account is stored. The anti-memetics division of the title refers to a secret agency dedicated to documenting, containing, and ultimately fighting these beings.&lt;/p&gt;
+
+&lt;p&gt;The text is a mixture of science fiction, body horror and, at its heart, a more conventional love story. The novel is very good at twisting you inside out with its surprises. It also draws close attention, I think, to the relationship between memory and thought. What is possible to think from a blank slate, as opposed to having a context predefined for you? How does your identity link to memory? Are you really yourself, if you can’t remember past incarnations of you?&lt;/p&gt;
+
+&lt;p&gt;Structurally, the novel is also interesting. It takes a disjointed form of stories working back and forth in time that are only woven together in the latter part of the novel. In a way, this is gesturing towards the memory fragmentation that drives the thematics. However, I did wonder whether this was slightly overdone as it does make for a more frustrating reading experience (not that reading should not, at times, &lt;em&gt;be&lt;/em&gt; frustrating and difficult etc.)&lt;/p&gt;
+
+&lt;p&gt;I was also interested in notions of redaction in the novel. The text uses a redaction technique to signify areas where either the reader’s brain has been altered by the memory agents or the character cannot even, themselves, perceive what is happening. This reaches its most extreme in the text like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/antimemeticsredaction.jpg&quot; alt=&quot;Two heavily redacted pages from There Is No Antimemetics Division&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;First, do not worry(!), most of the novel is not like this at all. This is the apex of the redaction technique. Second, I have written extensively about redaction in my &lt;em&gt;Critique&lt;/em&gt; article, &lt;a href=&quot;https://doi.org/10.1080/00111619.2019.1568960&quot;&gt;“Reading Redaction: Symptomatic Metadata, Erasure Poetry, and Mark Blacklock’s &lt;i&gt;I’m Jack&lt;/i&gt;”&lt;/a&gt; (open access). There, I argued that we can understand these redaction techniques by thinking about the surrounding text as metadata that turn these “empty” spaces into signifying zones: “blank surfaces are, in fact, textured depths that can be read”. &lt;em&gt;There Is No Antimemetics Division&lt;/em&gt;, however, complicates the taxonomy of blanks/redactions that I concocted. Using these to represent missing &lt;em&gt;memories&lt;/em&gt; is a really interesting new avenue.&lt;/p&gt;
+
+&lt;p&gt;Overall, though, I suppose I just wanted to write this to say that this was a very enjoyable work of fiction. I did wonder, though, whether it was exhausting its concept before it was done telling the story. I also do not doubt that the high pace of the text probably makes it most suitable for Hollywood adaptation at some point in the future. How the textual features and structure that represent loss of memory can be replicated in a filmic medium remains to be seen.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/02/22/structure-and-there-is-no-antimemetics-division/&quot;&gt;Structure and There Is No Antimemetics Division&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on February 22, 2026.&lt;/p&gt;]]>
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Institutions shifting away from big tech]]></title>
+  <link rel="alternate" type="text/html" href="https://eve.gd/2026/01/25/institutions-shifting-away-from-big-tech/" />
+  <id>https://eve.gd/2026/01/25/institutions-shifting-away-from-big-tech</id>
+  
+  <doi>https://doi.org/10.59348/bs23t-k8352</doi>
+  
+  <published>Sunday, 25 January 2026 15:55:58 +0000</published>
+  <updated>2026-01-25T00:00:00+00:00</updated>
+  <author>
+    <name></name>
+    <uri>https://orcid.org/0000-0002-5589-8511</uri>
+    
+  </author>
+  <content type="html"><![CDATA[
+    &lt;p&gt;This morning, &lt;a href=&quot;https://kfitz.info/&quot;&gt;Kathleen Fitzpatrick&lt;/a&gt; drew my attention to &lt;a href=&quot;https://mastodon.social/@babetteknauer/115933572328791779&quot;&gt;a Mastodon post by Babette Knauer&lt;/a&gt; about plans for the University of Groningen to get away from Big Tech. The &lt;a href=&quot;https://ukrant.nl/magazine/we-can-do-without-them-how-the-ug-is-cutting-ties-with-big-tech/?lang=en&quot;&gt;article itself is well worth a read&lt;/a&gt;, with ambitious approaches to digital independence. I had some not-very-original thoughts on it.&lt;/p&gt;
+
+&lt;p&gt;At first glance, this is great stuff. Yeah! Take that, Big Tech. That said, I have been taught well by &lt;a href=&quot;https://gbilder.com/&quot;&gt;Geoffrey Bilder&lt;/a&gt; to be sceptical around phrasings of “digital sovereignty”, “digital independence”, etc. and the way that they have various nationalistic connotations attached to them. At this political moment, what does such isolationism and boundary-setting say, politically?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/resistance.jpg&quot; alt=&quot;A clenched fist raised in resistance&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nonetheless, it will be interesting to see how far Groningen will go with it. For instance, will they &lt;em&gt;really&lt;/em&gt; (I mean, really!) replace Apple and Microsoft operating systems with Linux? I’ve used Linux on my desktop machine since 2008 and have never looked back. It’s doable. But it’s a change for those used to Windows and Apple. And people who are not tecchy hate this technological change. So there would be resistance.&lt;/p&gt;
+
+&lt;p&gt;There’s also costs. Changing the things people are used to comes with a whole different set of support requirements, for instance. Suddenly, your Windows support assistant that you hired does not have the tech knowledge to support a Unix-based system and you either fire them or retrain them.&lt;/p&gt;
+
+&lt;p&gt;Also, as with all self hosted open source stuff, when it goes wrong you will basically be fixing it and tinkering with the setup on your own/with online community support. Unless you pay for proper enterprise support - which is what I think &lt;em&gt;should&lt;/em&gt; happen in this instance, like the Red Hat model - you are assuming that the free alternative will just work.&lt;/p&gt;
+
+&lt;p&gt;Basically: there are costs involved in going to free and open-source software. I am not saying “don’t do it”, but what I am saying is: “don’t underestimate the cost of ‘free’”. Support it properly. So many OSS switches fail, I gather, because people think: “ah, we are going to ‘free’ software! This will not need any technical support because it’s open source”. Then they wonder why it has failed and conclude that it must be worse than the proprietary alternative.&lt;/p&gt;
+
+&lt;p&gt;Finally, scale is a huge problem in these breakout activities. So many of the world’s contemporary problems rest on scale. Plagiarism checking, for instance, needs a huge model of all the things you want to check for plagiarism against, and a vast infrastructure that can run the inference on it at speed. So these types of problems require BIG data. And big data tends to be managed by… Big Tech, since you need to be big to be able to handle the big data on a big infrastructure. How we build infrastructures for open-source, free, community-owned versions of these scaled infrastructures remains to be seen.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/01/25/institutions-shifting-away-from-big-tech/&quot;&gt;Institutions shifting away from big tech&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on January 25, 2026.&lt;/p&gt;]]>
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[It's been ten years...]]></title>
+  <link rel="alternate" type="text/html" href="https://eve.gd/2026/01/23/its-been-ten-years/" />
+  <id>https://eve.gd/2026/01/23/its-been-ten-years</id>
+  
+  <doi>https://doi.org/10.59348/xfxqa-sx117</doi>
+  
+  <published>Friday, 23 January 2026 15:55:58 +0000</published>
+  <updated>2026-01-23T00:00:00+00:00</updated>
+  <author>
+    <name></name>
+    <uri>https://orcid.org/0000-0002-5589-8511</uri>
+    
+  </author>
+  <content type="html"><![CDATA[
+    &lt;p&gt;Ten years ago, I had a bad cold. This was not unusual as I have hypogammaglobulinemia (which means an abnormally low concentration of gamma globulin in the blood that leads to an increased risk of infection). But this cold was pretty terrible and quickly led to a secondary bacterial infection requiring antibiotics. I was coughing a lot and very hard. And I was starting to get headaches. That should have worried me far earlier than it did.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/rehab.jpg&quot; alt=&quot;A woman in rehab&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I had also &lt;a href=&quot;/2016/02/12/professor-of-literature-technology-and-publishing/&quot;&gt;just been promoted to full Professor at Birkbeck, University of London&lt;/a&gt;; among the pinnacles of an academic career. I was the youngest Prof of English in the UK at that time and was on top of the world about it. We went to see Matilda the Musical to celebrate and then on to a pub. It should have been an absolute high. But I wasn’t feeling great. There was still the cough and the headaches were getting worse.&lt;/p&gt;
+
+&lt;p&gt;But I ploughed on. So I went to Madrid for a scholarly communications workshop. This was all going well until, suddenly, I had a migraine-like attack mid-way through one of the sessions. My sight was obliterated by black fragments and I only just made it back to my hotel room before I was very sick. I felt awful and had to abandon the rest of the session. The next day was not much better and I was very anxious about the migraine returning. Fortunately, it was only a short workshop and I flew back home, coughing and with a blinding headache.&lt;/p&gt;
+
+&lt;p&gt;Over the next few weeks, the headache grew in intensity. Light sensitivity became unbearable. Eventually, I went to the out-of-hours emergency GP/urgent treatment centre with this and was prescribed Triptans for migraine. This was a catastrophic mistake, but I wouldn’t find that out for a while.&lt;/p&gt;
+
+&lt;p&gt;I tried the drugs, but the headache just got worse and worse. I was being sick and was unable to get out of bed. One morning I awoke to find my face sagging down on one side. So, I phoned the GP again and said I needed an urgent appointment. I walked down the road to the doctor with my eyes almost closed, stopping every few metres to try to absorb the pain in my head, which pounded with every step and from every slight ray of light. My wife urgently drove to the doctors to accompany me. The doctor examined me – taking a very long time and with great care over it, indeed, to her total credit. I was sent outside to wait while she made some calls and the other patients were eyeing me with anger. I apologised to them and told them that I had to go to hospital – to accident and emergency (A&amp;amp;E as it’s called here) – immediately and she was just calling them to expect me.&lt;/p&gt;
+
+&lt;p&gt;We went to A&amp;amp;E and it was the start of a protracted hospital stay. I had CAT scans, I had MRIs, and I had PET scans. My head was caged and scanned many and multiple times. I was beyond caring on the pain levels. On the first night, I begged for some pain relief for my head. The nurse came with a triptan injection… and it wouldn’t work. This misfire may have saved my life.&lt;/p&gt;
+
+&lt;p&gt;Eventually, after a week or so in hospital, waiting for scans, a doctor came to me and told me that I was to be discharged. I was very weak but feeling a little better. So my dear friend, Caroline Edwards, who was visiting me in hospital at the time, put me in a cab and accompanied me back to our home in Enfield. Or, at least, we would have got to Enfield had I not received a call during that journey from the hospital. They had just got one of the scans in and I was urgently summoned back to hospital.&lt;/p&gt;
+
+&lt;p&gt;I saw a doctor almost immediately. “&lt;em&gt;&lt;a href=&quot;/2016/03/28/i-am-currently-off-work-having-suffered-cerebral-vasculitis-and-a-stroke/&quot;&gt;You have had a stroke&lt;/a&gt;&lt;/em&gt;,” he said. I nodded, the words going round my head. I went to leave the clinic room, forgetting that I had been brought there in a wheelchair, and walked quickly out through the clinic, collapsing (literally) onto the floor as I did so. I was picked up immediately by a cohort of nurses who got me back to the intensive care ward where I was wired up to every monitor under the sun while they tried to work out HOW I had had a stroke.&lt;/p&gt;
+
+&lt;p&gt;The answer was the coughing. While they thought, at first, that I had had cerebral vasculitis, it turns out that I had coughed so hard that I had severed (dissected) my carotid arteries. This had then caused a blood clot to enter my brain and cause damage. This is why the triptans, used to treat migraines, could have been a death sentence: they are vasodilators; they would have caused the blood vessels in my carotids to dilate and this could have caused catastrophic blood leakage into the brain. In any case, my little cold had led to a stroke.&lt;/p&gt;
+
+&lt;p&gt;My hearing was the first thing to go. Women’s voices, in particular, were transformed by hyperacusis into unbearable distorted nonsense. A tinnitus like none other started inside my head and persists to this day. I couldn’t understand what people were saying. I needed a special kind of hearing aid that helped people who had brain damage with respect to speech perception. This has, over time, improved, but I still cannot make out a word if you have a tap or fan running anywhere nearby. At least music no longer hurts to listen to.&lt;/p&gt;
+
+&lt;p&gt;I was terrified at the time. I thought that I was about to lose everything that I had built my life around: my academic career, my intellectual reputation, my energy for scholcomms projects. Well, I was not scared of losing &lt;em&gt;everything&lt;/em&gt;. My wife, Helen, stuck with me and fought alongside me through this incredibly difficult time. She visited me frequently, despite the fact that she was terrified of what was happening to me. I never feared losing her. The love that she gave me was the thing I remember most from that time.&lt;/p&gt;
+
+&lt;p&gt;It’s now ten years since that awful period. I have had many other hospitalisations and, arguably, comparably terrible health problems: complete kidney failure and dialysis for life is hardly trivial. But this episode sticks with me for the acute terror of ICU, the word “stroke”, and all its implications. It took me quite some time to recover. I did so by forcing myself to walk around the park, a little further every day. My hearing has regenerated to some degree. And I eventually got back on an exercise bike. Those were the days. This was also the time when I think I realised that there is nothing “brave” about holding out until you are seriously ill to seek help. It is far more sensible to nip these things in the bud &lt;em&gt;before&lt;/em&gt; they become catastrophic.&lt;/p&gt;
+
+&lt;p&gt;Anyway, this post came to me in a dream last night as I realised that it was the tenth anniversary of having a stroke.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/01/23/its-been-ten-years/&quot;&gt;It&apos;s been ten years...&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on January 23, 2026.&lt;/p&gt;]]>
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Some example academic book proposal forms in case they help]]></title>
+  <link rel="alternate" type="text/html" href="https://eve.gd/2026/01/16/some-example-academic-book-proposal-forms-in-case-they-help/" />
+  <id>https://eve.gd/2026/01/16/some-example-academic-book-proposal-forms-in-case-they-help</id>
+  
+  <doi>https://doi.org/10.59348/wxvf4-a6040</doi>
+  
+  <published>Friday, 16 January 2026 15:55:58 +0000</published>
+  <updated>2026-01-16T00:00:00+00:00</updated>
+  <author>
+    <name></name>
+    <uri>https://orcid.org/0000-0002-5589-8511</uri>
+    
+  </author>
+  <content type="html"><![CDATA[
+    &lt;p&gt;A pivotal moment in my academic career, or at least one I remember clearly, was when a very senior professor in the US sent me his book proposal for an academic book/monograph on the author Thomas Pynchon. The other thing he included was a crossed off list of all the presses he had courted with the proposal and with whom he had not succeeded. This cemented in my mind the fact that if even the top profs can be given rejections, nobody else should be resentful of them or consider them problematic. It can just be part of the process.&lt;/p&gt;
+
+&lt;p&gt;The other part of the process though is writing a good book proposal and there is nobody who will teach you how to do this. It’s not often part of training in doctoral spaces and most people feel their way through this by seeking behind closed doors the proposals of other academics. There are of course some books on writing a book proposal, but I thought it might be helpful if I shared some of the book proposals that I have written over the years and that have succeeded. Some of these books ended up being very different from the published versions, but I don’t think that matters and actually shows, as &lt;a href=&quot;https://bsky.app/profile/lisalibrarian.bsky.social/post/3mcfrgigv4k2k&quot;&gt;Lisa Janicke Hinchliffe suggested to me&lt;/a&gt;, that it’s okay for organic change to take place while you write a book. I hope these might help. Dates shown are when I wrote/sent the proposal, to the best of my recollection. Not all my published books are listed here, as some were the results of collaborations and so the proposals are not wholly owned by me.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Theses on the Metaphors of Digital-Textual History&lt;/em&gt; proposal (Stanford University Press, 2020). Pitched to SUP. &lt;a href=&quot;https://doi.org/10.17613/7jgs1-ge228&quot;&gt;Download at KC Works&lt;/a&gt; or &lt;a href=&quot;/book_proposals/Proposal for Stanford University Press for Theses on the Metaphors of Digital-Textual History.pdf&quot;&gt;download direct&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;The Digital Humanities and Literary Studies&lt;/em&gt; proposal (Oxford University Press, 2018). Pitched to OUP. &lt;a href=&quot;https://doi.org/10.17613/e16j1-5ae64&quot;&gt;Download at KC Works&lt;/a&gt; or &lt;a href=&quot;/book_proposals/Proposal for Oxford University Press for The Digital Humanities and Literary Studies.pdf&quot;&gt;download direct&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Warez&lt;/em&gt; proposal (punctum books, 2017). Pitched to punctum books. &lt;a href=&quot;https://doi.org/10.17613/5heb2-mpz16&quot;&gt;Download at KC Works&lt;/a&gt; or &lt;a href=&quot;/book_proposals/Proposal for punctum books for Warez 2018.pdf&quot;&gt;download direct&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Close Reading with Computers&lt;/em&gt; proposal (Stanford UP, 2017). Pitched to Stanford University Press. &lt;a href=&quot;https://doi.org/10.17613/xzmmk-30905&quot;&gt;Download at KC Works&lt;/a&gt; or &lt;a href=&quot;/book_proposals/Proposal for Stanford University Press for Close Reading with Computers 2017.zip&quot;&gt;download direct&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Literature Against Criticism&lt;/em&gt; proposal (Open Book Publishers, 2016?). Pitched straight to Open Book Publishers. &lt;a href=&quot;https://doi.org/10.17613/hqv3m-t4d76&quot;&gt;Download at KC Works&lt;/a&gt; or &lt;a href=&quot;/book_proposals/Proposal for Open Book Publishers for Literature Against Criticism 2016.pdf&quot;&gt;download direct&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Password&lt;/em&gt; (Bloomsbury, 2016). For Bloomsbury’s “Object Lessons” series. &lt;a href=&quot;https://doi.org/10.17613/55mqa-1yj22&quot;&gt;Download at KC Works&lt;/a&gt; or &lt;a href=&quot;/book_proposals/Proposal for Bloomsbury for Password 2014.pdf&quot;&gt;download direct&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Open Access and the Humanities&lt;/em&gt; proposal (Cambridge University Press, 2014). Pitched straight to Cambridge UP. &lt;a href=&quot;https://doi.org/10.17613/gt9bv-g6k21&quot;&gt;Download at KC Works&lt;/a&gt; or &lt;a href=&quot;/book_proposals/Proposal for Cambridge University Press for Open Access and the Humanities 2014.pdf&quot;&gt;download direct&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Pynchon and Philosophy&lt;/em&gt; proposal (Palgrave, 2013). My first book, for Palgrave. Download at &lt;a href=&quot;https://doi.org/10.17613/4b6b5-2b682&quot;&gt;KC Works&lt;/a&gt; or &lt;a href=&quot;/book_proposals/Proposal for Palgrave for Pynchon and Philosophy 2013.zip&quot;&gt;download direct&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I hope, as I say, that this might help someone.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/01/16/some-example-academic-book-proposal-forms-in-case-they-help/&quot;&gt;Some example academic book proposal forms in case they help&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on January 16, 2026.&lt;/p&gt;]]>
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[WordPress loading theme assets of a different theme to that selected]]></title>
+  <link rel="alternate" type="text/html" href="https://eve.gd/2026/01/15/wordpress-loading-theme-assets-of-a-different-theme-to-that-selected/" />
+  <id>https://eve.gd/2026/01/15/wordpress-loading-theme-assets-of-a-different-theme-to-that-selected</id>
+  
+  <doi>https://doi.org/10.59348/75w3f-xhg06</doi>
+  
+  <published>Thursday, 15 January 2026 15:55:58 +0000</published>
+  <updated>2026-01-15T00:00:00+00:00</updated>
+  <author>
+    <name></name>
+    <uri>https://orcid.org/0000-0002-5589-8511</uri>
+    
+  </author>
+  <content type="html"><![CDATA[
+    &lt;p&gt;Today’s tech anomaly was odd. I’m working on a new WordPress theme and obviously WordPress has to load its assets like the CSS file and the JavaScript file. I just added some new code to the home page template and suddenly my CSS was not loading. In fact it was pointing to the next theme in the list, Blockbase, and loading its CSS. Nothing I could do with caching resolved this in the slightest.&lt;/p&gt;
+
+&lt;p&gt;So it eventually turns out that if you add really bad code that crashes to a template, WordPress decides that it should not load your theme assets and it should load them from somewhere else. You can almost guarantee that this problem occurs because of crashing code somewhere in a theme.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/01/15/wordpress-loading-theme-assets-of-a-different-theme-to-that-selected/&quot;&gt;WordPress loading theme assets of a different theme to that selected&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on January 15, 2026.&lt;/p&gt;]]>
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[In conversation with Matthew G. Kirschenbaum]]></title>
+  <link rel="alternate" type="text/html" href="https://eve.gd/2026/01/10/in-conversation-with-matthew-g-kirschenbaum/" />
+  <id>https://eve.gd/2026/01/10/in-conversation-with-matthew-g-kirschenbaum</id>
+  
+  <doi>https://doi.org/10.59348/pphy3-4c062</doi>
+  
+  <published>Saturday, 10 January 2026 15:55:58 +0000</published>
+  <updated>2026-01-10T00:00:00+00:00</updated>
+  <author>
+    <name></name>
+    <uri>https://orcid.org/0000-0002-5589-8511</uri>
+    
+  </author>
+  <content type="html"><![CDATA[
+    &lt;p&gt;The inaugural SHARPIES, a global book history festival celebrating work in book history from around the world, will take place from July 7–9, 2026 (although these dates vary according to time zone). All the events are free for SHARP members, but registration is required. Registration will open in March 2026.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/SHARPIES.jpg&quot; alt=&quot;SHARPIES&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;On the Tuesday of the festival, at UTC 13.00-14.00, I will be interviewed by/in conversation with Professor Matthew G. Kirschenbaum, with time for audience questions. Matthew Kirschenbaum was the Chair of the SHARP Board of Directors from 2021–25 and is Commonwealth Professor of Artificial Intelligence and English at the University of Virginia and the 2009 winner of the George A. and Jeanne S. DeLong Book History Book Prize for &lt;em&gt;Mechanisms: New Media and the Forensic Imagination&lt;/em&gt; (MIT Press, 2008). He is, in short, one of my academic heroes; an intellectual with a consistently fresh way of looking at and understanding technology and its histories. My recent book was sincerely indebted to his work as an intellectual foundation for thinking about technologies and &lt;em&gt;reading&lt;/em&gt; them (I hope he thinks this is a good thing). I am absolutely thrilled that we will be having this discussion. I hope many of you can join us.&lt;/p&gt;
+
+&lt;p&gt;I would also note that I would like to commend SHARP for running an online, digitally-accessible event. As they note, &lt;a href=&quot;https://sharpweb.org/conferences/sharpies/program/&quot;&gt;in the programme&lt;/a&gt;, “One of our central aims in planning the SHARPIES has been to try to ensure accessibility for all participants”. I was gutted last year not to be able to attend the SHARP conference. My kidney failure and need for dialysis every other day makes it near-impossible for me to conduct overseas travel. However, the organisation made it possible for me to speak to them via video link at that time and this was extremely appreciated. I am glad that they are continuing this route of accessibility and finding ways to make it possible for more people who cannot attend in person to participate in this scholarly community. The pandemic convinced many people that they never wanted to go back to having to use Zoom for all their social and occupational interactions. For some people, though, they suddenly felt included on an equal footing in a way that they had not before. It is good if we can preserve that latter inclusivity.&lt;/p&gt;
+
+&lt;p&gt;In any case. as above, I hope you can join us.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/01/10/in-conversation-with-matthew-g-kirschenbaum/&quot;&gt;In conversation with Matthew G. Kirschenbaum&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on January 10, 2026.&lt;/p&gt;]]>
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Who Knows Where the Time Goes?]]></title>
+  <link rel="alternate" type="text/html" href="https://eve.gd/2026/01/02/who-knows-where-the-time-goes/" />
+  <id>https://eve.gd/2026/01/02/who-knows-where-the-time-goes</id>
+  
+  <doi>https://doi.org/10.59348/6ctsj-d9308</doi>
+  
+  <published>Friday, 2 January 2026 15:55:58 +0000</published>
+  <updated>2026-01-02T00:00:00+00:00</updated>
+  <author>
+    <name></name>
+    <uri>https://orcid.org/0000-0002-5589-8511</uri>
+    
+  </author>
+  <content type="html"><![CDATA[
+    &lt;p&gt;How much time do you spend performing various activities? In 2022, I spent 506 hours answering email, or 63 full work-day’s worth of time. At that point, my reading for pleasure had dropped to virtually nil and I just thought: this is not how I want to spend my time. After a radical reorganization of my life and work, I wanted to see how well I have done this year.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/clock.jpg&quot; alt=&quot;A clock&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The answer is… 108 hours spent answering email. That’s down to 13.5 days of time; a substantial improvement! This left, during my working hours, many more opportunities for (I feel) more meaningful work.&lt;/p&gt;
+
+&lt;p&gt;I also tracked how long I spent on general reading/reading for pleasure. It turns out that I spent 212 hours in this mode, or 26.5 (8-hour) days. This could have been more/better, quite frankly. It was going really well until I was hospitalised mid-way through the year. This totally derailed me, not least because I had a load of work to catch up on. I never really regained my reading foothold after that point, last year. So: let’s start again. The advantage of new years.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/01/02/who-knows-where-the-time-goes/&quot;&gt;Who Knows Where the Time Goes?&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on January 02, 2026.&lt;/p&gt;]]>
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[The Lineages and Inheritances of Shadow Libraries and their Documentation]]></title>
+  <link rel="alternate" type="text/html" href="https://eve.gd/2026/01/01/the-lineages-and-inheritances-of-shadow-libraries-and-their-documentation/" />
+  <id>https://eve.gd/2026/01/01/the-lineages-and-inheritances-of-shadow-libraries-and-their-documentation</id>
+  
+  <doi>https://doi.org/10.59348/1mrf2-35g29</doi>
+  
+  <published>Thursday, 1 January 2026 15:55:58 +0000</published>
+  <updated>2026-01-01T00:00:00+00:00</updated>
+  <author>
+    <name></name>
+    <uri>https://orcid.org/0000-0002-5589-8511</uri>
+    
+  </author>
+  <content type="html"><![CDATA[
+    &lt;p&gt;Shadow libraries, that is, illegal massive repositories of books of all kinds, are of course prone to takedowns by police and disappearance from the internet. In recent days, one of the most prominent shadow libraries, Library Genesis (libgen), was taken down and its archive removed from public consumption.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a post about pirate libraries and their technologies and documentation. Before we go any further, I wish to clarify that I am not endorsing any of these sites and am certainly &lt;em&gt;not&lt;/em&gt; involved in any of their operations. I am merely interested in them as a scholarly publishing phenomenon. To write this post, I had to look at the Anna’s Archive metadata set.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In this post, I discuss how, with every takedown of a pirate archive that occurs, it becomes harder and harder to resurrect a catalogue with a concrete lineage. Therefore, I posit, it is not clear who will have the resources to continue pirate systems like Anna’s Archive, if it is taken down, which I suspect it will be.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The takedown of LibGen was no massive shock. Indeed, several projects were already continuing LibGen’s legacy. On the one hand, the LibGen+ system has a different archival strategy going forward, but nonetheless continues the name of the original Library Genesis. On the other hand, Anna’s Archive is a prominent new hub to which scholars without access are flocking to obtain books for free.&lt;/p&gt;
+
+&lt;p&gt;Anna’s Archive has &lt;a href=&quot;https://software.annas-archive.li/AnnaArchivist/annas-archive&quot;&gt;extensive documentation&lt;/a&gt; that details how to get a copy of the archive running locally, provided you have several hundred terabytes of storage space available. It even has &lt;a href=&quot;https://github.com/RArtutos/Data-science-starter-kit-Enhance/&quot;&gt;documentation for those who wish to conduct metadata analysis&lt;/a&gt; for scholarly purposes of the books in the archive. &lt;a href=&quot;https://software.annas-archive.li/AnnaArchivist/annas-archive/-/blob/main/data-imports/README.md&quot;&gt;Importing the metadata into a local Anna’s Archive system&lt;/a&gt; is supported and well documented. Although, as the documentation notes, it can take up to a week to run on a fairly high-end machine.&lt;/p&gt;
+
+&lt;p&gt;But what is the relationship between Anna’s Archive and Library Genesis? Let’s say that someone had been downloading the entirety of Library Genesis archives by torrent and wanted to know who is continuing this project. After all, one of the rationales put forward by shadow libraries is that they are preservation systems. So, when distributing material, you would expect a strong lineage of continuity. That is: what is the logical sequential next step for somebody to download the next tranche of books? This basic question is: what happens when shadow libraries die?&lt;/p&gt;
+
+&lt;p&gt;In reality, the answer is that no single successor site has continued LibGen’s torrent archive in a clean, authoritative, linear way. Instead, LibGen’s torrents, IDs, and metadata have fractured into multiple partially overlapping lineages, with different projects inheriting some parts of LibGen’s corpus and diverging in how they expand and describe it.&lt;/p&gt;
+
+&lt;p&gt;After LibGen went down it seems that there was a fragmentation of its archive. The LibGen+ mirrors retain the legacy IDs and tables but do not continue the legacy. Also, in the LibGen system, metadata continues to mutate while the torrents and the files within remain static. This allows for a bit by bit improvement of such metadata, &lt;a href=&quot;https://dhq-static.digitalhumanities.org/pdf/000587.pdf&quot;&gt;as I have argued elsewhere&lt;/a&gt; [PDF link].&lt;/p&gt;
+
+&lt;p&gt;Anna’s Archive, conversely, is the closest thing to a meta-successor for LibGen. It aggregates LibGen, SciHub, zLibrary, Internet Archive, and others. It then normalizes metadata across sources and tracks provenance explicitly. It indexes torrents, but does not preserve LibGen’s original torrent lineage as a single expanding series. Anna’s Archive is therefore a union catalogue with a reconciliation layer.&lt;/p&gt;
+
+&lt;p&gt;The cataloguing system at Anna’s Archive is complex and, to my mind, poorly documented. Let us say that someone wants to understand how to resolve from metadata to a file (a common operation). It turns out there’s an IA metadata JSON with author, title, date etc. and a VERY confusing set of extraneous metadata that are not needed. However, to then find the file, you have to grep inside a 2gb plain-text JSON-L file, which yields the data directory and filename of the decrypted PDF that correlates to the ACSM. The MD5 does NOT correlate from the metadata record to the file record, which led me down a blind alley. It’s only the ia_id field that links them.&lt;/p&gt;
+
+&lt;p&gt;Anna’s Archive is at &lt;em&gt;enormous&lt;/em&gt; risk of legal takedown. It is brazen in what it’s doing, completely openly violating copyright. While this does make it perhaps the biggest archive of digital books in the world, it has recently also downloaded 300 terabytes of Spotify data for “preservation”. This will make it an even bigger legal target. On top of all this, the site takes donations or even payments in return for faster download slots. This is usually a HUGE “no-no” that is just asking for trouble. That is, Anna’s Archive could be deemed to be selling the copyrighted material that it has pirated. There is little doubt in my mind that at some point the authorities will come for Anna’s Archive and they will take it down. I suspect that “Anna”, whomsoever they may be, will receive a substantial prison sentence.&lt;/p&gt;
+
+&lt;p&gt;So what does it mean for pirate archives that the metadata formats of Anna’s Archive are so hard to understand and are so poorly documented? To get any sense of how the archive works one has to &lt;a href=&quot;https://software.annas-archive.li/AnnaArchivist/annas-archive/-/blob/main/SCRAPING.md&quot;&gt;look at the code&lt;/a&gt; and read the metadata to understand how IDs are used, and to grok to what MD5 sums refer. (Hint: it’s not always what’s in the files folder and metadata.) There is no doubt also in my mind that even when Anna’s Archive is taken down, others will flock to resurrect its work and continue a pirate legacy of the site. But they will have a tough time as the site grows.&lt;/p&gt;
+
+&lt;p&gt;Pirate archives continue to fascinate me in their brazen activity in some ways but also disregard for authorship and intellectual property ownership. However, as they become more sophisticated in their cataloging processes, as I have discussed in this post, the challenges of resurrecting such sites when they are taken down becomes greater each time, particularly if the documentation is not great.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, the infrastructure that is required to run a local copy, as I said, several hundred terabytes, is becoming more and more expensive. To get that kind of storage, you’re looking at $10,000+ USD for enough hard drives and NAS systems to store the data. This makes me wonder who on earth has the resources to run these pirate sites. If they wanted to be truly resilient they would also need complete backups multiple times over. You are looking at pretty huge sums of money to mirror sites like Anna’s Archive. And who is it who is willing to take such a risk? Probably someone living in a country that is less strict on copyright for one thing. But the immense personal sacrifice of running such an archive and making it publicly available, putting oneself at international risk, again makes me ask: who is doing this? I know &lt;em&gt;why&lt;/em&gt; they are doing it. They believe that they are preserving the world’s knowledge, disseminating it to those who cannot afford access, and smashing up, in their eyes, unjust copyright systems. Of course, publishers and authors may hold very different views and view them as thieving scum.&lt;/p&gt;
+
+&lt;p&gt;In any case. I will continue to watch this space and to see what happens next. Will Anna’s Archive disappear soon? What will happen to its enormous collection? And what might spring up like a jack-in-the-box or a whack-a-mole to take its place and to resurrect its complex metadata cataloging system?&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/01/01/the-lineages-and-inheritances-of-shadow-libraries-and-their-documentation/&quot;&gt;The Lineages and Inheritances of Shadow Libraries and their Documentation&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on January 01, 2026.&lt;/p&gt;]]>
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Profit, cost, price, learned societies; further thoughts on Samuel A. Moore's Publishing Beyond the Market]]></title>
+  <link rel="alternate" type="text/html" href="https://eve.gd/2025/12/28/profit-cost-price-learned-societies-further-thoughts-on-samuel-a-moores-publishing-beyond-the-market/" />
+  <id>https://eve.gd/2025/12/28/profit-cost-price-learned-societies-further-thoughts-on-samuel-a-moores-publishing-beyond-the-market</id>
+  
+  <doi>https://doi.org/10.59348/hqbwp-cx806</doi>
+  
+  <published>Sunday, 28 December 2025 15:55:58 +0000</published>
+  <updated>2025-12-28T00:00:00+00:00</updated>
+  <author>
+    <name></name>
+    <uri>https://orcid.org/0000-0002-5589-8511</uri>
+    
+  </author>
+  <content type="html"><![CDATA[
+    &lt;p&gt;Since &lt;a href=&quot;https://doi.org/10.59348/cwncn-5122&quot;&gt;I last wrote&lt;/a&gt;, I have had a few more thoughts on Samuel Moore’s book. Again, these are not necessarily things that he does not discuss or things that he should have discussed. They are merely thoughts that occurred to me in response to reading his work.&lt;/p&gt;
+
+&lt;p&gt;The first is that I do not think I understand the assertion that “rather than looking for the best ways to financially sustain learned societies in a post-open access world, I suggest that the work needed is to design structures for democratic self-governance of societies” (p. 175). I do not understand this because although they may be extremely conservative and nepotistic at times, most societies already have democratic self-governance to a large extent. Most sizeable learned societies are governed by the academics who form their membership through democratic structures that elect leaderships and executive committees who take action. This also points, for me, to one of the problems in calling for democratic self-governance as an answer to the prevailing ills of scholarly communications and publishing. Because democracies are not always progressive. They merely reflect what the major population wants, who govern a specific entity.&lt;/p&gt;
+
+&lt;p&gt;The other point that has been floating around my mind for the past few days is about notions of price, cost and profit in publishing environments. Moore, for example, is very keen to stress that by “commons” he does not mean a pool of resources from which anyone may take and reuse, but rather he is more interested in the practices of “commoning” that preach mutual reliance, self and other care, and democratic governance, as above. One of the ways that the book makes its argument around this is by dividing open access advocates into different groups, one of which seeks economic efficiency, which is expected through technology, but really results in an austerity that devalues labour. I do recognize what is being said here and agree that it is important not to think that we can simply eradicate labor in publishing by using technology.&lt;/p&gt;
+
+&lt;p&gt;But I have always thought that academic publishing could be cheaper because it could be not-for-profit, rather than a profit-making enterprise. This is especially not to say that not-for-profits do not need surpluses or something like that. But my motivating factor in joining the call for open access was my outrage at a 30% profit margin from big companies like Elsevier, when people could not afford to access crucial research. I still believe, without devaluing any labour, that academic publishing could be done more cheaply, simply by eradicating the 30% mark-up that Elsevier puts on its “services”. As I wrote at the end of &lt;em&gt;OA and the Humanities&lt;/em&gt;, a decade ago:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It makes no sense for open-access advocates to be ‘anti-publishers’. Publishers perform necessary labour that must be compensated and any new system of dissemination, such as open access, will require an entity to perform this labour, even if that labour takes a different form at different levels of compensation. (p. 151)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I was also thinking about the realpolitik of scaling small and what it means for the research community at large. Let us suppose that, ideologically, Moore is correct and what we need are small, connected, archipelagos of experimental, bespoke, and caring activities in publishing, centred around commoning. (PS the term “commonsiness” is really hard to read without sounding like Gollum.) And let us say that libraries decided &lt;em&gt;en masse&lt;/em&gt; to give financial support to such enterprises because, strained as they are, it represents the most ethical route forward in academic publishing. What does this mean for the scale of research as a whole? It seems to me clear that without the economies of scale that are here derided and the market conditions that tend towards standardisation, we would see a substantial reduction in the volume of material that could be published, because, let’s face it, resources from universities in countries such as the United Kingdom are massively dwindling.&lt;/p&gt;
+
+&lt;p&gt;Is this an ethical outcome? Is it more important to fix various conditions in publishing than to ensure that papers on curing cancer are published? That said, I don’t know that Moore envisages the situation where “scaling small” actually scales to be a dominant force. If it does, though, it places substantial economic expectations upon a system that has ditched economies of scale for more ethical and care-full ways of working. Or it could be that scaling small actually functions as a form of immanent critique, an inside resistance force that constantly challenges the dominant hegemony without ever fully displacing it, merely showing through critique what is so wrong with our current setup.&lt;/p&gt;
+
+&lt;p&gt;The American writer, Thomas Pynchon, on whom I have written extensively, shows conflicting sentiments about these forms of immanent resistance and critique. In &lt;em&gt;Gravity’s Rainbow&lt;/em&gt; he envisages a “Counterforce” who are supposedly the resistance against the novel’s structures of death and decay. However, as I noted in &lt;em&gt;Pynchon and Philosophy&lt;/em&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the direct opposition, The Counterforce, achieves only limited success in urinating over a table of executives (636). Indeed, it is referred to in the context of Roger Mexico’s dream as ‘the failed Counterforce’ (713) and Stefan Mattessich summarises it thus: ‘[t]he Counterforce produces no coherent program for undoing the structures of death that menace civilization in the novel’&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It always used to bug me when we were setting up the Open Library of Humanities when people would ask: “but what will you do if this becomes hugely successful and massively big and as big as Taylor and Francis etc?” In my head, I was always thinking: “well, we’re just trying to get this off the ground at this point. There is no way this is going to be that big. Although I am very pleased that you think it a possibility that we could achieve market monopoly from our little scholar led startup.” My critique here of scaling small and its capacity to grow horizontally to be a dominant force is probably the same kind of thing, but then I just want to ask how such a model can threaten the market systems that are currently dominating academic publishing and that cause so much harm and damage.&lt;/p&gt;
+
+&lt;p&gt;So perhaps these are not the right questions. Perhaps, instead, we need to conceive of these “publishing beyond the market” enterprises as immanent utopias, spaces that show possibility within a system that they cannot overthrow, but that they can nonetheless structure through critique. At the same time, I feel that we will need pragmatic interventions that can cause active damage to for-profit vultures in this space; there is no harm in pragmatic ventures that help us to get closer to the possibilities that Moore has outlined, through economic experiments (like Opening the Future, mentioned by Moore on pp 150-1) and other university-press-like structures.&lt;/p&gt;
+
+&lt;h1 id=&quot;references&quot;&gt;References&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Eve, Martin Paul, Open Access and the Humanities: Contexts, Controversies and the Future (Cambridge University Press, 2014) &lt;a href=&quot;https://doi.org/10.1017/CBO9781316161012&quot;&gt;https://doi.org/10.1017/CBO9781316161012&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Eve, Martin Paul, Pynchon and Philosophy: Wittgenstein, Foucault and Adorno (Palgrave Macmillan, 2014)&lt;/li&gt;
+  &lt;li&gt;Moore, Samuel A., Publishing Beyond the Market: Open Access, Care, and the Commons (University of Michigan Press, 2025)&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2025/12/28/profit-cost-price-learned-societies-further-thoughts-on-samuel-a-moores-publishing-beyond-the-market/&quot;&gt;Profit, cost, price, learned societies; further thoughts on Samuel A. Moore&apos;s Publishing Beyond the Market&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on December 28, 2025.&lt;/p&gt;]]>
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Authorship, division of labour, material and digital form; thoughts on Samuel A. Moore's Publishing Beyond the Market]]></title>
+  <link rel="alternate" type="text/html" href="https://eve.gd/2025/12/26/authorship-division-of-labour-material-form-thoughts-on-samuel-a-moores-publishing-beyond-the-market/" />
+  <id>https://eve.gd/2025/12/26/authorship-division-of-labour-material-form-thoughts-on-samuel-a-moores-publishing-beyond-the-market</id>
+  
+  <doi>https://doi.org/10.59348/cwncn-5122</doi>
+  
+  <published>Friday, 26 December 2025 15:55:58 +0000</published>
+  <updated>2025-12-26T00:00:00+00:00</updated>
+  <author>
+    <name></name>
+    <uri>https://orcid.org/0000-0002-5589-8511</uri>
+    
+  </author>
+  <content type="html"><![CDATA[
+    &lt;p&gt;On Christmas day, we had a quiet time this year. One of the things I did was to read Moore, Samuel A., Publishing Beyond the Market: Open Access, Care, and the Commons (University of Michigan Press, 2025). This is a most enjoyable book that outlines a project and worldview that I know Sam has been cultivating and refining for many years. I should stress that I am not writing a “review” here. I would be conflicted anyway as I am thanked in the acknowledgements. But it did, like all good books, make me think and I wanted to jot down some thoughts. These thoughts are not necessarily novel – sometimes Sam even explores some of them in the book – but I thought it would be enjoyable to express them nonetheless.&lt;/p&gt;
+
+&lt;p&gt;One of these came from a single sentence on page 92. When describing Harney and Moten, Moore writes that “this means accepting the liberal, individualistic, enlightenment nature of the university”. So much seems bound up with this problem. Moore advocates for enclaves that work democratically and cooperatively within those structures, but the constant wall against which liberationary projects keep butting their heads. The main source of manuscripts, authors, editors, copyeditors, reviewers, etc. is &lt;em&gt;the contemporary university&lt;/em&gt;. I suppose the question that arises for me is: this book is about publishing, although it tackles issues of research assessment reform and notes that we can never fully separate publishing liberation from the conventions of the university. Could such enclave, commons-like structures exist in higher education itself, starting the reform there rather than in publishing? Or is there something special about academic publishing that allows for these types of experiments because they are somehow safely in an interstitial zone? As the types of project that Moore calls for “require financial support” (p 94) and the entity most likely to give it is a university, we need new structures of labour to emerge in the academy, also.&lt;/p&gt;
+
+&lt;p&gt;Moore also talks a lot about ownership. The mode of commons about which he is thinking is not one that is a pool of owned resources that nonetheless have licenses on them to allow for broad reuse and dissemination. However, the thing that I kept thinking was about the question of what ownership means in terms of a piece of writing. Fundamentally, I think that this boils down to the authorship claim. After all, authorship is used to allow promotion and job hiring panels to select candidates. It is used when something goes wrong to sanction the individual in question. There is indisputably in our cultures a very strong tie between who writes something and feeling an ownership of that text. You can see the strength of this feeling in the arguments against LLM training (“they stole my work”) that have emerged recently.&lt;/p&gt;
+
+&lt;p&gt;And so the prospect that kept recurring to me as I read was whether it might be possible to totally erase authorship. What would a system of academic publishing look like if all traces of who wrote something were completely removed before it entered the scholarly record? This would have a huge affective consequence for those writing. For certain, having one’s name appear on the thing you have written is partially the point that motivates many people. But a lot of what Moore said made me wonder whether in specific academic publishing circles a lot of harm comes from this system of authorship attribution. Such a prospect will probably horrify many people but I don’t think you need to worry. There is no way that such a system would gain widespread acceptance and very little way in which it could be implemented.&lt;/p&gt;
+
+&lt;p&gt;The other point about which I felt uneasy in the book was an aspect that Moore covered himself. One of the presses that he interviewed noted that they have to use Amazon to print and sell their books. They are locked into a commercial market-bound relationship with the world’s wealthiest retailer. This seems, in many way, a slight compromise from the start. But the question then becomes, “how much do you do yourself?” There is a constant division of labour here in which certain functions are undertaken by certain people with specific skill sets. But it is still possible for these enclaves of commons to subcontract work to external providers. Hence, I thought it interesting when Moore listed the functions of a particular publisher, noting that there are roles of authors, editors, reviewers, typesetters, copy editors, proofreaders, and so on, that all function as divisions of labour. At OLH, we do not have the capacity to pay someone in-house for typesetting, for example, so we outsource this to an excellent company called Silicon Chips. Does that mean that we are always already pre-compromised because we entered into a market transaction? I don’t know, but I do know that when we first started OLH via the journal Orbit, I was typesetting things in JATS XML myself and it was incredibly slow and painful because I had no tooling to do so and no expertise in this area.&lt;/p&gt;
+
+&lt;p&gt;I also questioned the role of standards in this book. Moore notes that part of the scaling of neoliberal massive corporate publishing involves a harmonization via standards. This allows for scale and interoperability without careful attention to every single article and its integration. However, I feel that standards or at least technical standards go further than being limited to Big Publishing. Certainly, there are ways in which the big commercial players have designed standards to be so difficult to implement, requiring such an overhead to get right, that smaller publishers are locked out of the market because they “can’t do it right”. But some standards have real value for the interoperability of systems. If we have the islands of commons-based projects that Moore envisages, we need glue that sticks them together to make “scaling small” a reality. Standards are the only way to do this but they also come with the limitation of coercing material and digital forms into predefined types.&lt;/p&gt;
+
+&lt;p&gt;Interestingly also, for a final thought, there was no reference, as far as I could see, to digital preservation in this book. It was noted that some presses are set up as experimental, ephemeral, transient and so on, but is it valid that these things should have no record ever because they vanished, because they did not adopt standards, because they were experimental, etc.? Our epistemology requires that scholarship make reference to that which has gone before. How do we make such a reference if the things that we wish to reference have disappeared? What could we do to build preservation islands, if that’s what we want to do, around these networked commons?z&lt;/p&gt;
+
+&lt;h1 id=&quot;references&quot;&gt;References&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Moore, Samuel A., Publishing Beyond the Market: Open Access, Care, and the Commons (University of Michigan Press, 2025)&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2025/12/26/authorship-division-of-labour-material-form-thoughts-on-samuel-a-moores-publishing-beyond-the-market/&quot;&gt;Authorship, division of labour, material and digital form; thoughts on Samuel A. Moore&apos;s Publishing Beyond the Market&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on December 26, 2025.&lt;/p&gt;]]>
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[On citations, AI, and 'not reading']]></title>
+  <link rel="alternate" type="text/html" href="https://eve.gd/2025/12/22/on-citations-ai-and-not-reading/" />
+  <id>https://eve.gd/2025/12/22/on-citations-ai-and-not-reading</id>
+  
+  <doi>https://doi.org/10.59348/esc68-nah82</doi>
+  
+  <published>Monday, 22 December 2025 15:55:58 +0000</published>
+  <updated>2025-12-22T00:00:00+00:00</updated>
+  <author>
+    <name></name>
+    <uri>https://orcid.org/0000-0002-5589-8511</uri>
+    
+  </author>
+  <content type="html"><![CDATA[
+    &lt;p&gt;There has been a major furore in recent days on social media about the rise in AI citations that have been hallucinated. These citations appear in manuscripts sent out for peer review, and even in the published literature.&lt;/p&gt;
+
+&lt;p&gt;This is a dire situation, of course. But it prompts in me some reflections on citation and its purpose. In particular: the problematic way in which we use referencing as a signaling mechanism rather than purely as an epistemological phenomenon.&lt;/p&gt;
+
+&lt;p&gt;The absolutely core fundamental problem here is actually not AI. Yes, it’s not great that LLMs produce workable references that are plausible in form. &lt;a href=&quot;https://doi.org/10.1111/criq.12359&quot;&gt;I wrote about this back in 2017!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The core problem instead is actually about whether we read or do not read the material in footnotes. It seems clear to me that we should be reading this material. I am somewhat bewildered and horrified at the number of people who were talking about this matter and saying that, of course, you don’t need to read the things you are citing. It is a fundamental part of scholarly activity to understand the context and existing work in one’s field! It is also an educational activity in its own right with intrinsic benefits of people knowing things, which is something to which I have dedicated my entire professional life.&lt;/p&gt;
+
+&lt;p&gt;Yet, there is a substantial literature on the phenomenon of “not reading”. In &lt;em&gt;Close Reading with Computers&lt;/em&gt;, I wrote about this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;reading avoidance is nothing new: “not reading,” writes Lisa Marie Rhody, “is the dirty open secret of all literary critics.” (Lisa Marie Rhody, “Beyond Darwinian Distance: Situating Distant Reading in a Feminist Ut Pictura Poesis Tradition,” PMLA 132, no. 3 (2017): 659.) from Eve, Martin Paul, Close Reading With Computers: Textual Scholarship, Computational Formalism, and David Mitchell’s Cloud Atlas (Stanford University Press, 2019), p. 4.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There is more to read in the contemporary world than can be read within a single lifetime. Therefore, all reading is subject to a type of economic decision making that rests on time as the unit of currency that is to be spent by an individual. You are allotted a certain quantity of time in your life; an unknown quantity for sure. How you spend it with reading is up to you, but you have to accept that no matter how much you read, you will not read everything.&lt;/p&gt;
+
+&lt;p&gt;The contemporary academy, though, pushes researchers towards ever more output of publication as a proxy for assessing performance. In the cutthroat job market of higher education, it becomes imperative to have a solid publication record behind one’s name. This, of course, coupled with the above observations, leads people to take shortcuts, one of which is to seemingly use AI either to generate citations or to summarise a work using AI rather than reading it in full.&lt;/p&gt;
+
+&lt;p&gt;This is terrible scholarly practice but it’s not wholly driven by AI. It’s driven by the fact that footnotes have become symbols of scholarly work. They are not merely an epistemic lookup but are instead the foundational building block that shows whether this is “good scholarship” or otherwise. I have even been guilty of using this myself. One of the first things we do when checking articles at &lt;a href=&quot;https://orbit.openlibhums.org/&quot;&gt;Orbit&lt;/a&gt; is to ensure that a manuscript has an adequate and comprehensive reference system in place. Unsurprisingly, this does often act as a good initial gatekeeping sweep.&lt;/p&gt;
+
+&lt;p&gt;If the system worked well, I can even envisage a world where the LLM could be actively useful for scholarship in this realm. I yearn and &lt;a href=&quot;https://doi.org/10.59348/w86n1-sk761&quot;&gt;have done for quite some time&lt;/a&gt; for a discovery system that will let me say “I want to learn more about this field where should I start reading?”” and then get a list of books, journal articles and other materials that would form the basis of my investigation. It is very hard when you’re working in an interdisciplinary space to find where the start of the trail is in your literature review. My usual approach is to do a title search and dive in on one of those works and then look at the citations in its bibliography in turn and follow up there. There is no reason a computer could not help with this discovery aspect. The distributionally highlighting features of LLMs (i.e. they look for the most prominent and recurring features) should be really helpful when this is what you want to find: “who is at the centre of the network in Field X?”&lt;/p&gt;
+
+&lt;p&gt;But note the use I envisage is one where I would then go and get these books and articles and actually read them, because the whole point of this exercise is human knowledge. It is not about simply churning out papers one after the other to appease the academy’s endless desire in a publish or perish culture. Instead, it is about people learning stuff and people knowing things. Using AI to do your thinking will not achieve this.&lt;/p&gt;
+
+&lt;p&gt;I am not as fanatically anti-AI as many people are, although I am very scared for the future of labour and what these technologies might do to that. Because I think that they actually &lt;em&gt;do&lt;/em&gt; perform better than most critics credit. I can imagine worlds where such technologies could be helpful, but I also think that at the moment we have a perfect storm of new technologies and cultural and economic conditions that create environments that are hostile to learning. In their typical way, the Silicon Valley folks have decided that this technology will be pushed everywhere in the world, without any due consideration as to what is appropriate in a certain space. I mean, it’s great if AIs can detect cancer cells. But do I think academic and student writing should be produced by an LLM? I certainly do not. Basically we need a great deal more care and consideration over where we use these technologies and what we use them for. Such has been the hype around AGI that this has been forgotten, because the “G” stands for General.&lt;/p&gt;
+
+&lt;p&gt;In the meantime I will continue to insist that the problem is not solely the LLMs, but scholars not checking footnotes and authors not reading the material they are citing. These behaviours have less to do with the technologies of the Academy but are more about the current crisis in universities worldwide, spurred on by governments who do not wish for an educated population. And we must not forget, as this post has emphasised, that the goal of what we’re doing is for real human beings to learn things, not for machines to abstract away that knowledge from us.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2025/12/22/on-citations-ai-and-not-reading/&quot;&gt;On citations, AI, and &apos;not reading&apos;&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on December 22, 2025.&lt;/p&gt;]]>
+  </content>
+</entry>
+
+</feed>

@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Typesetting JATS bibliographies using CSL and Zotero - Martin Paul Eve</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/8417040572.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-light.min.css">
+<link rel="stylesheet" href="/assets/css/styles.css">
+<link rel="icon" type="image/png" href="/images/favicon.png">
+
+
+<meta name="DC.Identifier.DOI" content="https://doi.org/10.59348/bz52e-q0e97"/>
+<meta name="citation_doi" content="https://doi.org/10.59348/bz52e-q0e97"/>
+
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "BlogPosting",
+        "headline": "Typesetting JATS bibliographies using CSL and Zotero",
+        "author": {
+            "@type": "Person",
+            "name": "Martin Paul Eve"
+        },
+        "datePublished": "2014-06-22 07:08:33 +0100",
+        "dateCreated": "2014-06-22 07:08:33 +0100",
+        "url": "https://eve.gd/2014/06/22/typesetting-jats-bibliographies-using-csl-and-zotero/",
+        "inLanguage ": "en-GB",
+        "image": "geek.png"
+    }
+</script>
+
+<!-- Open Graph Meta Tags for Social Media Preview -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Typesetting JATS bibliographies using CSL and Zotero">
+<meta property="og:description" content="One of the hardest parts of typesetting articles for scholarly publication in the JATS standard, especially when using homemade tools, is the bibliography. J...">
+
+<meta property="og:image" content="https://eve.gd/images/geek.png">
+
+<meta property="og:url" content="/2014/06/22/typesetting-jats-bibliographies-using-csl-and-zotero/">
+<meta property="og:site_name" content="Martin Paul Eve">
+<meta property="og:type" content="article" />
+<meta property="og:locale" content="en_GB" />
+<meta property="og:image:type" content="image/png">
+
+<!-- Twitter Card Meta Tags (Optional but Recommended ) -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Typesetting JATS bibliographies using CSL and Zotero">
+<meta name="twitter:description" content="One of the hardest parts of typesetting articles for scholarly publication in the JATS standard, especially when using homemade tools, is the bibliography. JATS (and its NLM predecessors) expects references to be broken down into their constituent components where possible in order to be semantically rich. For example:
+
+
+      &lt;ref id="royall"&gt;
+        &lt;element-citation publication-type="bookchapter"&gt;
+          &lt;person-group person-group-type="author"&gt;
+            &lt;name&gt;
+              &lt;surname&gt;Royall&lt;/surname&gt;
+              &lt;given-names&gt;Tyler&lt;/given-names&gt;
+            &lt;/name&gt;
+          &lt;/person-group&gt;
+          &lt;article-title&gt;The Contrast&lt;/article-title&gt;
+          &lt;source&gt;The Norton Anthology of American Literature, Vol. A: Beginnings to 1820&lt;/source&gt;
+          &lt;person-group person-group-type="editor"&gt;
+            &lt;name&gt;
+              &lt;surname&gt;Franklin&lt;/surname&gt;
+              &lt;given-names&gt;Wayne&lt;/given-names&gt;
+            &lt;/name&gt;
+            &lt;name&gt;
+              &lt;surname&gt;Gura&lt;/surname&gt;
+              &lt;given-names&gt;Philip F.&lt;/given-names&gt;
+            &lt;/name&gt;
+            &lt;name&gt;
+              &lt;surname&gt;Krupat&lt;/surname&gt;
+              &lt;given-names&gt;Arnold&lt;/given-names&gt;
+            &lt;/name&gt;
+            &lt;name&gt;
+              &lt;surname&gt;Baym&lt;/surname&gt;
+              &lt;given-names&gt;Nina&lt;/given-names&gt;
+            &lt;/name&gt;
+          &lt;/person-group&gt;
+          &lt;publisher-name&gt;W. W. Norton &amp;amp; Company&lt;/publisher-name&gt;
+          &lt;publisher-loc&gt;New York&lt;/publisher-loc&gt;
+          &lt;fpage&gt;765&lt;/fpage&gt;
+          &lt;lpage&gt;805&lt;/lpage&gt;
+        &lt;/element-citation&gt;
+      &lt;/ref&gt;
+
+This is all very well, but it also creates a problem. How do we get from the author's plaintext citation to this structured format? Parsing references is hard. Very hard. My closest efforts in the past have been to write a cascading regular expression engine, meCite, to which anybody is willing to contribute. I do intend to do more on this at some point.
+Late last year, however, Martin Fenner was investigating whether CSL could be used to generate a JATS bibliography. His current efforts were in the pandoc-JATS repository. These efforts stopped, however, following a discussion on the xbiblio mailing list where it was decided that CSL was not ideal for generating structured XML.
+This may be true. However, there are a lack of viable alternatives for typesetting references. Furthermore, Zotero and Mendeley (both of which use CSL to generate their citations) have vast databases publicly available for the scholarly literature. If we could use CSL to generate valid JATS XML, this would substantially reduce the time needed to typeset a JATS bibliography. To that end, I have taken on maintenance of a fork of Martin's original efforts. Last night, with the first commits, I fixed DOI display, added book chapter support, added support for editors and changed the book title field to the correct "source" implementation. My fork can be found at the JATS-CSL repo.
+While the approach may not be recommended, it is far better than nothing and I'll push it as far as I can in an effort to save some time!
+">
+
+<meta name="twitter:image" content="https://eve.gd/images/geek.png">
+
+
+<meta name="twitter:creator" content="@martin_eve">
+
+<!-- Additional Useful Meta Tags -->
+<meta name="description" content="One of the hardest parts of typesetting articles for scholarly publication in the JATS standard, especially when using homemade tools, is the bibliography. JATS (and its NLM predecessors) expects references to be broken down into their constituent components where possible in order to be semantically rich. For example:
+
+
+      &lt;ref id="royall"&gt;
+        &lt;element-citation publication-type="bookchapter"&gt;
+          &lt;person-group person-group-type="author"&gt;
+            &lt;name&gt;
+              &lt;surname&gt;Royall&lt;/surname&gt;
+              &lt;given-names&gt;Tyler&lt;/given-names&gt;
+            &lt;/name&gt;
+          &lt;/person-group&gt;
+          &lt;article-title&gt;The Contrast&lt;/article-title&gt;
+          &lt;source&gt;The Norton Anthology of American Literature, Vol. A: Beginnings to 1820&lt;/source&gt;
+          &lt;person-group person-group-type="editor"&gt;
+            &lt;name&gt;
+              &lt;surname&gt;Franklin&lt;/surname&gt;
+              &lt;given-names&gt;Wayne&lt;/given-names&gt;
+            &lt;/name&gt;
+            &lt;name&gt;
+              &lt;surname&gt;Gura&lt;/surname&gt;
+              &lt;given-names&gt;Philip F.&lt;/given-names&gt;
+            &lt;/name&gt;
+            &lt;name&gt;
+              &lt;surname&gt;Krupat&lt;/surname&gt;
+              &lt;given-names&gt;Arnold&lt;/given-names&gt;
+            &lt;/name&gt;
+            &lt;name&gt;
+              &lt;surname&gt;Baym&lt;/surname&gt;
+              &lt;given-names&gt;Nina&lt;/given-names&gt;
+            &lt;/name&gt;
+          &lt;/person-group&gt;
+          &lt;publisher-name&gt;W. W. Norton &amp;amp; Company&lt;/publisher-name&gt;
+          &lt;publisher-loc&gt;New York&lt;/publisher-loc&gt;
+          &lt;fpage&gt;765&lt;/fpage&gt;
+          &lt;lpage&gt;805&lt;/lpage&gt;
+        &lt;/element-citation&gt;
+      &lt;/ref&gt;
+
+This is all very well, but it also creates a problem. How do we get from the author's plaintext citation to this structured format? Parsing references is hard. Very hard. My closest efforts in the past have been to write a cascading regular expression engine, meCite, to which anybody is willing to contribute. I do intend to do more on this at some point.
+Late last year, however, Martin Fenner was investigating whether CSL could be used to generate a JATS bibliography. His current efforts were in the pandoc-JATS repository. These efforts stopped, however, following a discussion on the xbiblio mailing list where it was decided that CSL was not ideal for generating structured XML.
+This may be true. However, there are a lack of viable alternatives for typesetting references. Furthermore, Zotero and Mendeley (both of which use CSL to generate their citations) have vast databases publicly available for the scholarly literature. If we could use CSL to generate valid JATS XML, this would substantially reduce the time needed to typeset a JATS bibliography. To that end, I have taken on maintenance of a fork of Martin's original efforts. Last night, with the first commits, I fixed DOI display, added book chapter support, added support for editors and changed the book title field to the correct "source" implementation. My fork can be found at the JATS-CSL repo.
+While the approach may not be recommended, it is far better than nothing and I'll push it as far as I can in an effort to save some time!
+">
+<meta property="article:published_time" content="2014-06-22 07:08:33 +0100">
+<meta property="article:author" content="Martin Paul Eve">
+
+<link href="https://eve.gd/feed/feed.atom" type="application/atom+xml" rel="alternate" title="Martin Paul Eve Feed">
+
+    <link rel="stylesheet" href="/assets/css/blog-post.css">
+</head>
+<body>
+<!-- Header -->
+<header class="header">
+    <div class="container header-content">
+        <a href="/" class="logo">Martin Paul Eve</a>
+<nav class="nav-desktop">
+    <a href="/" class="nav-link">Home</a>
+    <a href="/about/" class="nav-link">About</a>
+    <a href="/c-v/Eve-CV.pdf" class="nav-link">CV</a>
+    <a href="/posts/" class="nav-link">Web Writings</a>
+    <a href="/books/" class="nav-link">Books</a>
+    <a href="/music/" class="nav-link">Music</a>
+    <a href="mailto:martin@eve.gd" class="btn btn-primary nomob">Contact</a>
+</nav>
+<button class="menu-toggle" aria-label="Toggle menu">
+    <span></span>
+    <span></span>
+    <span></span>
+</button>
+    </div>
+</header>
+
+<main>
+    <!-- Breadcrumb -->
+    <div class="breadcrumb-section">
+        <div class="container">
+            <a href="/">Home</a>
+            <span>/</span>
+            <a href="/posts/">Blog</a>
+            <span>/</span>
+            <span>Typesetting JATS bibliographies using CSL and Zotero</span>
+        </div>
+    </div>
+
+    <!-- Blog Post Header -->
+    <article class="blog-post">
+        <div class="post-header">
+            <div class="container">
+                <div class="post-meta-top">
+                    <span class="post-date">22 June 2014</span>
+                </div>
+                <h1 class="post-title">Typesetting JATS bibliographies using CSL and Zotero</h1>
+                <p class="post-description"><strong>Cite as:</strong> Martin Paul Eve, "Typesetting JATS bibliographies using CSL and Zotero", <i>https://eve.gd</i>, <time itemprop="datePublished dateModified" datetime="June 22, 2014">June 22, 2014</time>, <a href="https://doi.org/10.59348/bz52e-q0e97">https://doi.org/10.59348/bz52e-q0e97</a>.</p>
+                <div class="post-author">
+                    <img src="/images/mpe.png" alt="Martin Paul Eve" class="author-avatar">
+                    <div class="author-info">
+                        <div class="author-name">Martin Paul Eve</div>
+                        <div class="author-title">Professor of Literature, Technology and Publishing</div>
+                    </div>
+                </div>
+
+                
+
+                
+            </div>
+        </div>
+
+        <!-- Post Content -->
+        <div class="post-content">
+            <div class="container">
+                <div class="post-body">
+                    <p>One of the hardest parts of typesetting articles for scholarly publication in the JATS standard, especially when using homemade tools, is the bibliography. JATS (and its NLM predecessors) expects references to be broken down into their constituent components where possible in order to be semantically rich. For example:</p>
+<div style="clear:both"></div>
+
+<figure class="highlight"><pre><code class="language-xml" data-lang="xml">      <span class="nt">&lt;ref</span> <span class="na">id=</span><span class="s">"royall"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;element-citation</span> <span class="na">publication-type=</span><span class="s">"bookchapter"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;person-group</span> <span class="na">person-group-type=</span><span class="s">"author"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;name&gt;</span>
+              <span class="nt">&lt;surname&gt;</span>Royall<span class="nt">&lt;/surname&gt;</span>
+              <span class="nt">&lt;given-names&gt;</span>Tyler<span class="nt">&lt;/given-names&gt;</span>
+            <span class="nt">&lt;/name&gt;</span>
+          <span class="nt">&lt;/person-group&gt;</span>
+          <span class="nt">&lt;article-title&gt;</span>The Contrast<span class="nt">&lt;/article-title&gt;</span>
+          <span class="nt">&lt;source&gt;</span>The Norton Anthology of American Literature, Vol. A: Beginnings to 1820<span class="nt">&lt;/source&gt;</span>
+          <span class="nt">&lt;person-group</span> <span class="na">person-group-type=</span><span class="s">"editor"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;name&gt;</span>
+              <span class="nt">&lt;surname&gt;</span>Franklin<span class="nt">&lt;/surname&gt;</span>
+              <span class="nt">&lt;given-names&gt;</span>Wayne<span class="nt">&lt;/given-names&gt;</span>
+            <span class="nt">&lt;/name&gt;</span>
+            <span class="nt">&lt;name&gt;</span>
+              <span class="nt">&lt;surname&gt;</span>Gura<span class="nt">&lt;/surname&gt;</span>
+              <span class="nt">&lt;given-names&gt;</span>Philip F.<span class="nt">&lt;/given-names&gt;</span>
+            <span class="nt">&lt;/name&gt;</span>
+            <span class="nt">&lt;name&gt;</span>
+              <span class="nt">&lt;surname&gt;</span>Krupat<span class="nt">&lt;/surname&gt;</span>
+              <span class="nt">&lt;given-names&gt;</span>Arnold<span class="nt">&lt;/given-names&gt;</span>
+            <span class="nt">&lt;/name&gt;</span>
+            <span class="nt">&lt;name&gt;</span>
+              <span class="nt">&lt;surname&gt;</span>Baym<span class="nt">&lt;/surname&gt;</span>
+              <span class="nt">&lt;given-names&gt;</span>Nina<span class="nt">&lt;/given-names&gt;</span>
+            <span class="nt">&lt;/name&gt;</span>
+          <span class="nt">&lt;/person-group&gt;</span>
+          <span class="nt">&lt;publisher-name&gt;</span>W. W. Norton <span class="ni">&amp;amp;</span> Company<span class="nt">&lt;/publisher-name&gt;</span>
+          <span class="nt">&lt;publisher-loc&gt;</span>New York<span class="nt">&lt;/publisher-loc&gt;</span>
+          <span class="nt">&lt;fpage&gt;</span>765<span class="nt">&lt;/fpage&gt;</span>
+          <span class="nt">&lt;lpage&gt;</span>805<span class="nt">&lt;/lpage&gt;</span>
+        <span class="nt">&lt;/element-citation&gt;</span>
+      <span class="nt">&lt;/ref&gt;</span></code></pre></figure>
+
+<p>This is all very well, but it also creates a problem. How do we get from the author's plaintext citation to this structured format? Parsing references is <i>hard</i>. Very hard. My closest efforts in the past have been to write a cascading regular expression engine, <a href="https://github.com/MartinPaulEve/meCite">meCite</a>, to which anybody is willing to contribute. I do intend to do more on this at some point.</p>
+<p>Late last year, however, Martin Fenner was investigating whether CSL could be used to generate a JATS bibliography. His current efforts were in the <a href="https://github.com/mfenner/pandoc-jats">pandoc-JATS repository</a>. These efforts stopped, however, following <a href="http://xbiblio-devel.2463403.n2.nabble.com/CSL-Style-to-convert-to-JATS-XML-td7578866.html">a discussion on the xbiblio mailing list</a> where it was decided that CSL was not ideal for generating structured XML.</p>
+<p>This may be true. However, there are a lack of viable alternatives for typesetting references. Furthermore, Zotero and Mendeley (both of which use CSL to generate their citations) have vast databases publicly available for the scholarly literature. If we could use CSL to generate valid JATS XML, this would substantially reduce the time needed to typeset a JATS bibliography. To that end, I have taken on maintenance of a fork of Martin's original efforts. Last night, with the first commits, I fixed DOI display, added book chapter support, added support for editors and changed the book title field to the correct "source" implementation. My fork can be found at the <a href="https://github.com/MartinPaulEve/JATS-CSL">JATS-CSL repo</a>.</p>
+<p>While the approach may not be recommended, it is far better than nothing and I'll push it as far as I can in an effort to save some time!</p>
+
+
+                    
+                </div>
+
+                <!-- Post Sidebar -->
+                <aside class="post-sidebar">
+                    <div class="sidebar-widget">
+                        <h3>Share This Post</h3>
+                        <div class="share-buttons">
+                            <a href="https://bsky.app/intent/compose?text=Typesetting+JATS+bibliographies+using+CSL+and+Zotero+https://eve.gd/2014/06/22/typesetting-jats-bibliographies-using-csl-and-zotero/" class="share-btn share-bluesky" title="Share on Bluesky">
+                                <i class="fa-brands fa-square-bluesky" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/2014/06/22/typesetting-jats-bibliographies-using-csl-and-zotero/" class="share-btn share-facebook" title="Share on LinkedIn">
+                                <i class="fa-brands fa-square-facebook" aria-hidden="true"></i>
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <div class="sidebar-widget">
+                        <h3>Related Posts</h3>
+                        <ul class="related-posts">
+                            
+                            <li>
+                                <a href="/2026/06/03/what-is-actually-licensed-in-printdigital-dual-licensed-books/" title="What is actually licensed in print/digital dual-licensed books?">What is actually licensed in print/digital dual-licensed books?</a>
+                                <span class="related-date">3 June 2026</span>
+                            </li>
+                            
+                            <li>
+                                <a href="/2026/05/21/things-i-have-made-lower-decks-conference-and-quote-in-researchprofessional/" title="Things I have made (KC IDMS in place, Lower Decks conference, and quote in ResearchProfessional)">Things I have made (KC IDMS in place, Lower Decks conference, and quote in ResearchProfessional)</a>
+                                <span class="related-date">21 May 2026</span>
+                            </li>
+                            
+                            <li>
+                                <a href="/2026/04/19/the-necessary-pain-involved-in-blogging-if-you-want-your-work-to-be-preserved-beyond-your-lifespan/" title="The Necessary Pain Involved in Blogging (if you want your work to be preserved beyond your lifespan)">The Necessary Pain Involved in Blogging (if you want your work to be preserved beyond your lifespan)</a>
+                                <span class="related-date">19 April 2026</span>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </article>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+    <div class="footer-grid">
+        <div class="footer-section footer-about">
+            <h3>Martin Paul Eve</h3>
+            <p>Professor of Literature, Technology and Publishing at Birkbeck, University of London. Technical Lead of Knowledge Commons at MESH Research, Michigan State University.</p>
+            <div class="social-links">
+                <a href="https://bsky.app/profile/eve.gd" aria-label="Bluesky" class="social-icon">
+                    <i class="fa-brands fa-square-bluesky" aria-hidden="true"></i>
+                </a>
+                <a href="https://github.com/MartinPaulEve" aria-label="GitHub" class="social-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path>
+                    </svg>
+                </a>
+                <a aria-label="Wikipedia" class="social-icon" href="https://en.wikipedia.org/wiki/Martin_Paul_Eve"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i></a>
+            </div>
+            <div class="social-links row-two">
+                <a href="https://orcid.org/0000-0002-5589-8511" aria-label="ORCID" class="social-icon">
+                    <img src="/images/orcid.png" alt="ORCID ID">
+                </a>
+                <a href="/pictures/" aria-label="Pictures for Re-Use" class="social-icon">
+                    <i class="fas fa-fw fa-images" aria-hidden="true"></i>
+                </a>
+                <a href="https://works.hcommons.org/search?q=metadata.creators.person_or_org.name%3A%22Eve%2C%20Martin%20Paul%22&amp;l=list&amp;p=1&amp;s=10&amp;sort=bestmatch" class="social-icon">
+                    <i class="fa fa-fw fa-university" aria-hidden="true"></i>
+                </a>
+                <a href="http://eprints.bbk.ac.uk/view/people/Eve=3AMartin_Paul=3A=3A.html" class="social-icon"><i class="fa fa-fw fa-file-text" aria-hidden="true"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="/about/">About Me</a></li>
+                <li><a href="/c-v/Eve-CV.pdf">Curriculum Vitae</a></li>
+                <li><a href="/posts/">Web Writings</a></li>
+                <li><a href="/books/">Books</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h4>Contact</h4>
+            <ul>
+                <li><a href="mailto:martin@eve.gd">Personal Email</a></li>
+                <li><a href="mailto:martin.eve@bbk.ac.uk">Birkbeck, University of London</a></li>
+                <li><a href="mailto:eve@msu.edu">Michigan State University</a></li>
+                <li><a href="mailto:martin.paul_eve@kcl.ac.uk">King's College London</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2025 Martin Paul Eve. CC BY 4.0 License.</p>
+        <div class="footer-links">
+        </div>
+    </div>
+</div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script>
+    // Initialize syntax highlighting
+    document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightElement(block);
+    });
+</script>
+<script src="/assets/js/script.js"></script>
+</body>
+</html>

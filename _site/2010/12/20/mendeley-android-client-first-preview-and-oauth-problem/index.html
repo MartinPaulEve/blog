@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mendeley Android client; first preview and OAuth problem - Martin Paul Eve</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/8417040572.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-light.min.css">
+<link rel="stylesheet" href="/assets/css/styles.css">
+<link rel="icon" type="image/png" href="/images/favicon.png">
+
+
+<meta name="DC.Identifier.DOI" content="https://doi.org/10.59348/q61ec-bg742"/>
+<meta name="citation_doi" content="https://doi.org/10.59348/q61ec-bg742"/>
+
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "BlogPosting",
+        "headline": "Mendeley Android client; first preview and OAuth problem",
+        "author": {
+            "@type": "Person",
+            "name": "Martin Paul Eve"
+        },
+        "datePublished": "2010-12-20 21:00:47 +0000",
+        "dateCreated": "2010-12-20 21:00:47 +0000",
+        "url": "https://eve.gd/2010/12/20/mendeley-android-client-first-preview-and-oauth-problem/",
+        "inLanguage ": "en-GB",
+        "image": "geek.png"
+    }
+</script>
+
+<!-- Open Graph Meta Tags for Social Media Preview -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Mendeley Android client; first preview and OAuth problem">
+<meta property="og:description" content="In the last day before I head off for a bit of a Christmas break, I decided to take up a recent proposition to start work on an Android client for Mendeley. ...">
+
+<meta property="og:image" content="https://eve.gd/images/geek.png">
+
+<meta property="og:url" content="/2010/12/20/mendeley-android-client-first-preview-and-oauth-problem/">
+<meta property="og:site_name" content="Martin Paul Eve">
+<meta property="og:type" content="article" />
+<meta property="og:locale" content="en_GB" />
+<meta property="og:image:type" content="image/png">
+
+<!-- Twitter Card Meta Tags (Optional but Recommended ) -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Mendeley Android client; first preview and OAuth problem">
+<meta name="twitter:description" content="In the last day before I head off for a bit of a Christmas break, I decided to take up a recent proposition to start work on an Android client for Mendeley. So far, in a couple of hours, I've got as far as implementing the OAuth provider, so you can start the application, log in to Mendeley and it will ask you to authorize the application to access your Mendeley account.
+
+Well, that's the theory... there's a problem, though. Currently the OAuth system will not work with the Android browser. I took the same URL and request token, accessing the auth URL in one instance with a desktop client and one instance with an android phone (tried on device -- HTC Wildfire -- and emulator). The desktop PC can get an access code, the Android device cannot.
+&lt;/param&gt;&lt;/param&gt;&lt;/param&gt;&lt;/embed&gt;
+Apologies for the quality of that YouTube video, but it does demonstrate the point. As an additional debug procedure, I also ran the working desktop URL to the phone via Chrome to Phone. Same result.
+Is Mendeley's API doing something strange based on user agent? Also: does Mendeley's API support a callback URL? (this is kinda crucial for an Android app!)
+To try and get some feedback, here's the code it's running for login at present. This code is GPL v3 licensed and I have removed my own keys.
+">
+
+<meta name="twitter:image" content="https://eve.gd/images/geek.png">
+
+
+<meta name="twitter:creator" content="@martin_eve">
+
+<!-- Additional Useful Meta Tags -->
+<meta name="description" content="In the last day before I head off for a bit of a Christmas break, I decided to take up a recent proposition to start work on an Android client for Mendeley. So far, in a couple of hours, I've got as far as implementing the OAuth provider, so you can start the application, log in to Mendeley and it will ask you to authorize the application to access your Mendeley account.
+
+Well, that's the theory... there's a problem, though. Currently the OAuth system will not work with the Android browser. I took the same URL and request token, accessing the auth URL in one instance with a desktop client and one instance with an android phone (tried on device -- HTC Wildfire -- and emulator). The desktop PC can get an access code, the Android device cannot.
+&lt;/param&gt;&lt;/param&gt;&lt;/param&gt;&lt;/embed&gt;
+Apologies for the quality of that YouTube video, but it does demonstrate the point. As an additional debug procedure, I also ran the working desktop URL to the phone via Chrome to Phone. Same result.
+Is Mendeley's API doing something strange based on user agent? Also: does Mendeley's API support a callback URL? (this is kinda crucial for an Android app!)
+To try and get some feedback, here's the code it's running for login at present. This code is GPL v3 licensed and I have removed my own keys.
+">
+<meta property="article:published_time" content="2010-12-20 21:00:47 +0000">
+<meta property="article:author" content="Martin Paul Eve">
+
+<link href="https://eve.gd/feed/feed.atom" type="application/atom+xml" rel="alternate" title="Martin Paul Eve Feed">
+
+    <link rel="stylesheet" href="/assets/css/blog-post.css">
+</head>
+<body>
+<!-- Header -->
+<header class="header">
+    <div class="container header-content">
+        <a href="/" class="logo">Martin Paul Eve</a>
+<nav class="nav-desktop">
+    <a href="/" class="nav-link">Home</a>
+    <a href="/about/" class="nav-link">About</a>
+    <a href="/c-v/Eve-CV.pdf" class="nav-link">CV</a>
+    <a href="/posts/" class="nav-link">Web Writings</a>
+    <a href="/books/" class="nav-link">Books</a>
+    <a href="/music/" class="nav-link">Music</a>
+    <a href="mailto:martin@eve.gd" class="btn btn-primary nomob">Contact</a>
+</nav>
+<button class="menu-toggle" aria-label="Toggle menu">
+    <span></span>
+    <span></span>
+    <span></span>
+</button>
+    </div>
+</header>
+
+<main>
+    <!-- Breadcrumb -->
+    <div class="breadcrumb-section">
+        <div class="container">
+            <a href="/">Home</a>
+            <span>/</span>
+            <a href="/posts/">Blog</a>
+            <span>/</span>
+            <span>Mendeley Android client; first preview and OAuth problem</span>
+        </div>
+    </div>
+
+    <!-- Blog Post Header -->
+    <article class="blog-post">
+        <div class="post-header">
+            <div class="container">
+                <div class="post-meta-top">
+                    <span class="post-date">20 December 2010</span>
+                </div>
+                <h1 class="post-title">Mendeley Android client; first preview and OAuth problem</h1>
+                <p class="post-description"><strong>Cite as:</strong> Martin Paul Eve, "Mendeley Android client; first preview and OAuth problem", <i>https://eve.gd</i>, <time itemprop="datePublished dateModified" datetime="December 20, 2010">December 20, 2010</time>, <a href="https://doi.org/10.59348/q61ec-bg742">https://doi.org/10.59348/q61ec-bg742</a>.</p>
+                <div class="post-author">
+                    <img src="/images/mpe.png" alt="Martin Paul Eve" class="author-avatar">
+                    <div class="author-info">
+                        <div class="author-name">Martin Paul Eve</div>
+                        <div class="author-title">Professor of Literature, Technology and Publishing</div>
+                    </div>
+                </div>
+
+                
+
+                
+            </div>
+        </div>
+
+        <!-- Post Content -->
+        <div class="post-content">
+            <div class="container">
+                <div class="post-body">
+                    <p>In the last day before I head off for a bit of a Christmas break, I decided to take up a recent proposition to start work on an Android client for Mendeley. So far, in a couple of hours, I've got as far as implementing the OAuth provider, so you can start the application, log in to Mendeley and it will ask you to authorize the application to access your Mendeley account.</p>
+<p><a href="http://www.martineve.com/2010/12/20/mendeley-android-client-first-preview-and-oauth-problem/mendroid-first-problem/" rel="attachment wp-att-491"><img src="http://www.martineve.com/wp-content/uploads/2010/12/mendroid-first-problem.png" alt="Mendroid screenshot" title="Mendroid" width="327" height="484" class="alignnone size-full wp-image-491" /></a></p>
+<p>Well, that's the theory... there's a problem, though. Currently the OAuth system will <strong>not</strong> work with the Android browser. I took the same URL and request token, accessing the auth URL in one instance with a desktop client and one instance with an android phone (tried on device -- HTC Wildfire -- and emulator). The desktop PC can get an access code, the Android device cannot.</p>
+<p><object width="480" height="385"><param name="movie" value="http://www.youtube-nocookie.com/v/KJshIJOdf5Y?fs=1&amp;hl=en_GB&amp;color1=0x5d1719&amp;color2=0xcd311b" />&lt;/param&gt;<param name="allowFullScreen" value="true" />&lt;/param&gt;<param name="allowscriptaccess" value="always" />&lt;/param&gt;<embed src="http://www.youtube-nocookie.com/v/KJshIJOdf5Y?fs=1&amp;hl=en_GB&amp;color1=0x5d1719&amp;color2=0xcd311b" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385" />&lt;/embed&gt;</object></p>
+<p>Apologies for the quality of that YouTube video, but it does demonstrate the point. As an additional debug procedure, I also ran the working desktop URL to the phone via Chrome to Phone. Same result.</p>
+<p>Is Mendeley's API doing something strange based on user agent? Also: does Mendeley's API support a callback URL? (this is kinda crucial for an Android app!)</p>
+<p>To try and get some feedback, here's the code it's running for login at present. This code is GPL v3 licensed and I have removed my own keys.</p>
+
+<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="cm">/*
+    mendroid: An Android Mendeley client
+    Copyright 2010 Martin Paul Eve
+
+    This file is part of Mendroid.
+
+    Mendroid is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+    
+    Mendroid is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+    
+    You should have received a copy of the GNU General Public License
+    along with Mendroid.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+
+*/</span>
+<span class="kn">package</span> <span class="nn">com.martineve.mendroid</span><span class="o">;</span>
+
+<span class="kn">import</span> <span class="nn">java.io.IOException</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">java.net.URISyntaxException</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">java.util.ArrayList</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">java.util.Map</span><span class="o">;</span>
+
+<span class="kn">import</span> <span class="nn">net.oauth.OAuth</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">net.oauth.OAuthAccessor</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">net.oauth.OAuthConsumer</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">net.oauth.OAuthException</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">net.oauth.OAuthMessage</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">net.oauth.OAuthServiceProvider</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">net.oauth.client.OAuthClient</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">net.oauth.client.httpclient4.HttpClient4</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">android.app.Activity</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">android.app.ProgressDialog</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">android.content.Intent</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">android.net.Uri</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">android.os.Bundle</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">android.text.Html</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">android.text.method.LinkMovementMethod</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">android.view.View</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">android.view.View.OnClickListener</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">android.widget.Button</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">android.widget.TextView</span><span class="o">;</span>
+
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">MendeleyDroidLogin</span> <span class="kd">extends</span> <span class="nc">Activity</span> <span class="kd">implements</span> <span class="nc">OnClickListener</span> <span class="o">{</span>
+	
+	<span class="nc">OAuthAccessor</span> <span class="n">client</span><span class="o">;</span>
+	<span class="nc">String</span> <span class="n">access_token</span><span class="o">;</span>
+	<span class="nc">String</span> <span class="n">request_token</span><span class="o">;</span>
+	
+    <span class="cm">/** Called when the activity is first created. */</span>
+    <span class="nd">@Override</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">onCreate</span><span class="o">(</span><span class="nc">Bundle</span> <span class="n">savedInstanceState</span><span class="o">)</span> <span class="o">{</span>
+        <span class="kd">super</span><span class="o">.</span><span class="na">onCreate</span><span class="o">(</span><span class="n">savedInstanceState</span><span class="o">);</span>
+        <span class="n">setContentView</span><span class="o">(</span><span class="no">R</span><span class="o">.</span><span class="na">layout</span><span class="o">.</span><span class="na">main</span><span class="o">);</span>
+        
+        <span class="nc">Button</span> <span class="n">login_button</span> <span class="o">=</span> <span class="o">(</span><span class="nc">Button</span><span class="o">)</span> <span class="n">findViewById</span><span class="o">(</span><span class="no">R</span><span class="o">.</span><span class="na">id</span><span class="o">.</span><span class="na">login_button</span><span class="o">);</span>
+        <span class="n">login_button</span><span class="o">.</span><span class="na">setOnClickListener</span><span class="o">(</span><span class="k">this</span><span class="o">);</span>
+        
+        <span class="c1">// setup the link in the credits box ;)</span>
+        <span class="nc">TextView</span> <span class="n">credits</span> <span class="o">=</span> <span class="o">(</span><span class="nc">TextView</span><span class="o">)</span> <span class="n">findViewById</span><span class="o">(</span><span class="no">R</span><span class="o">.</span><span class="na">id</span><span class="o">.</span><span class="na">login_page_credits</span><span class="o">);</span>
+        <span class="n">credits</span><span class="o">.</span><span class="na">setText</span><span class="o">(</span><span class="nc">Html</span><span class="o">.</span><span class="na">fromHtml</span><span class="o">(</span><span class="s">"Copyright &lt;a href=\"http://www.martineve.com\"&gt;Martin Paul Eve&lt;/a&gt;, 2011"</span><span class="o">));</span>
+        <span class="n">credits</span><span class="o">.</span><span class="na">setMovementMethod</span><span class="o">(</span><span class="nc">LinkMovementMethod</span><span class="o">.</span><span class="na">getInstance</span><span class="o">());</span>
+    <span class="o">}</span>
+    
+    <span class="kd">protected</span> <span class="kt">void</span> <span class="nf">onResume</span><span class="o">()</span> <span class="o">{</span>
+    	<span class="c1">// extract the OAUTH access token if it exists</span>
+	    <span class="nc">Uri</span> <span class="n">uri</span> <span class="o">=</span> <span class="k">this</span><span class="o">.</span><span class="na">getIntent</span><span class="o">().</span><span class="na">getData</span><span class="o">();</span>
+	    <span class="k">if</span><span class="o">(</span><span class="n">uri</span> <span class="o">!=</span> <span class="kc">null</span><span class="o">)</span> <span class="o">{</span>
+	    	<span class="nc">ProgressDialog</span> <span class="n">dialog</span> <span class="o">=</span> <span class="nc">ProgressDialog</span><span class="o">.</span><span class="na">show</span><span class="o">(</span><span class="k">this</span><span class="o">,</span> <span class="s">""</span><span class="o">,</span> 
+	                <span class="s">"Logging in to Mendeley, please wait..."</span><span class="o">,</span> <span class="kc">true</span><span class="o">);</span>
+	      <span class="n">access_token</span> <span class="o">=</span> <span class="n">uri</span><span class="o">.</span><span class="na">getQueryParameter</span><span class="o">(</span><span class="s">"oauth_token"</span><span class="o">);</span>
+	      <span class="n">access_token</span> <span class="o">=</span> <span class="n">convertToAccessToken</span><span class="o">(</span><span class="n">client</span><span class="o">.</span><span class="na">requestToken</span><span class="o">);</span>
+	      <span class="c1">// setDefaultAccessToken(access_token, this); // keep this in the database</span>
+	      <span class="n">dialog</span><span class="o">.</span><span class="na">cancel</span><span class="o">();</span>
+	    <span class="o">}</span>
+	    
+	    <span class="kd">super</span><span class="o">.</span><span class="na">onResume</span><span class="o">();</span>
+	<span class="o">}</span>  
+	    
+    <span class="kd">public</span> <span class="nc">String</span> <span class="nf">convertToAccessToken</span><span class="o">(</span><span class="nc">String</span> <span class="n">request_token</span><span class="o">)</span> <span class="o">{</span>
+	    <span class="nc">ArrayList</span><span class="o">&lt;</span><span class="nc">Map</span><span class="o">.</span><span class="na">Entry</span><span class="o">&lt;</span><span class="nc">String</span><span class="o">,</span> <span class="nc">String</span><span class="o">&gt;&gt;</span> <span class="n">params</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">ArrayList</span><span class="o">&lt;</span><span class="nc">Map</span><span class="o">.</span><span class="na">Entry</span><span class="o">&lt;</span><span class="nc">String</span><span class="o">,</span> <span class="nc">String</span><span class="o">&gt;&gt;();</span>
+	    <span class="nc">OAuthClient</span> <span class="n">oclient</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">OAuthClient</span><span class="o">(</span><span class="k">new</span> <span class="nc">HttpClient4</span><span class="o">());</span>
+	    <span class="nc">OAuthAccessor</span> <span class="n">accessor</span> <span class="o">=</span> <span class="n">client</span><span class="o">;</span>
+	    <span class="n">params</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="k">new</span> <span class="nc">OAuth</span><span class="o">.</span><span class="na">Parameter</span><span class="o">(</span><span class="s">"oauth_token"</span><span class="o">,</span> <span class="n">request_token</span><span class="o">));</span>
+	    <span class="k">try</span> <span class="o">{</span>
+	    <span class="nc">OAuthMessage</span> <span class="n">omessage</span> <span class="o">=</span> <span class="n">oclient</span><span class="o">.</span><span class="na">invoke</span><span class="o">(</span><span class="n">accessor</span><span class="o">,</span> <span class="s">"POST"</span><span class="o">,</span> <span class="n">accessor</span><span class="o">.</span><span class="na">consumer</span><span class="o">.</span><span class="na">serviceProvider</span><span class="o">.</span><span class="na">accessTokenURL</span><span class="o">,</span> <span class="n">params</span><span class="o">);</span>
+	    <span class="k">return</span> <span class="n">omessage</span><span class="o">.</span><span class="na">getParameter</span><span class="o">(</span><span class="s">"oauth_token"</span><span class="o">);</span>
+	    <span class="o">}</span> <span class="k">catch</span> <span class="o">(</span><span class="nc">Exception</span> <span class="n">ioe</span><span class="o">)</span> <span class="o">{</span>
+	    	<span class="k">return</span> <span class="s">""</span><span class="o">;</span>
+	    <span class="o">}</span>
+    <span class="o">}</span>
+    
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">onClick</span><span class="o">(</span><span class="nc">View</span> <span class="n">v</span><span class="o">)</span> <span class="o">{</span>
+    	<span class="c1">// get the request token</span>
+    	<span class="nc">ProgressDialog</span> <span class="n">dialog</span> <span class="o">=</span> <span class="nc">ProgressDialog</span><span class="o">.</span><span class="na">show</span><span class="o">(</span><span class="k">this</span><span class="o">,</span> <span class="s">""</span><span class="o">,</span> 
+               <span class="s">"Communicating with Mendeley, please wait..."</span><span class="o">,</span> <span class="kc">true</span><span class="o">);</span>
+    	<span class="n">client</span> <span class="o">=</span> <span class="n">defaultClient</span><span class="o">();</span>
+    	
+    	<span class="n">dialog</span><span class="o">.</span><span class="na">cancel</span><span class="o">();</span>
+    	
+    	<span class="nc">Intent</span> <span class="n">i</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Intent</span><span class="o">(</span><span class="nc">Intent</span><span class="o">.</span><span class="na">ACTION_VIEW</span><span class="o">);</span>
+    	<span class="n">i</span><span class="o">.</span><span class="na">setData</span><span class="o">(</span><span class="nc">Uri</span><span class="o">.</span><span class="na">parse</span><span class="o">(</span><span class="n">client</span><span class="o">.</span><span class="na">consumer</span><span class="o">.</span><span class="na">serviceProvider</span><span class="o">.</span><span class="na">userAuthorizationURL</span> <span class="o">+</span>
+    	                                  <span class="s">"?oauth_token="</span> <span class="o">+</span> <span class="n">client</span><span class="o">.</span><span class="na">requestToken</span> <span class="o">+</span>
+    	                                  <span class="s">"&amp;oauth_callback="</span> <span class="o">+</span> <span class="n">client</span><span class="o">.</span><span class="na">consumer</span><span class="o">.</span><span class="na">callbackURL</span><span class="o">));</span>
+    	<span class="n">startActivity</span><span class="o">(</span><span class="n">i</span><span class="o">);</span>
+    	                             
+    <span class="o">}</span>
+    
+    <span class="nc">OAuthServiceProvider</span> <span class="nf">defaultProvider</span><span class="o">()</span> <span class="o">{</span>
+	    <span class="k">return</span> <span class="k">new</span> <span class="nf">OAuthServiceProvider</span><span class="o">(</span><span class="s">"http://www.mendeley.com/oauth/request_token/"</span><span class="o">,</span> <span class="s">"http://www.mendeley.com/oauth/authorize/"</span><span class="o">,</span> <span class="s">"http://www.mendeley.com/oauth/access_token/"</span><span class="o">);</span>
+	<span class="o">}</span>
+
+	<span class="nc">OAuthAccessor</span> <span class="nf">defaultClient</span><span class="o">()</span> <span class="o">{</span>
+	    <span class="nc">String</span> <span class="n">callbackUrl</span> <span class="o">=</span> <span class="s">"martineve-mendroid:///"</span><span class="o">;</span>
+	    <span class="nc">OAuthServiceProvider</span> <span class="n">provider</span> <span class="o">=</span>  <span class="n">defaultProvider</span><span class="o">();</span>
+	    
+	    <span class="nc">String</span> <span class="n">consumerKey</span> <span class="o">=</span> <span class="s">"CONSUMER_KEY_HERE"</span><span class="o">;</span>
+    	<span class="nc">String</span> <span class="n">consumerSecret</span> <span class="o">=</span> <span class="s">"CONSUMER_SECRET_HERE"</span><span class="o">;</span>
+	    <span class="nc">OAuthConsumer</span> <span class="n">consumer</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">OAuthConsumer</span><span class="o">(</span><span class="n">callbackUrl</span><span class="o">,</span> <span class="n">consumerKey</span><span class="o">,</span>
+	                                    <span class="n">consumerSecret</span><span class="o">,</span> <span class="n">provider</span><span class="o">);</span>
+	    <span class="nc">OAuthAccessor</span> <span class="n">accessor</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">OAuthAccessor</span><span class="o">(</span><span class="n">consumer</span><span class="o">);</span>
+	    
+    	<span class="nc">OAuthClient</span> <span class="n">oaclient</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">OAuthClient</span><span class="o">(</span><span class="k">new</span> <span class="nc">HttpClient4</span><span class="o">());</span>
+    	
+    	<span class="k">try</span> <span class="o">{</span>
+			<span class="n">oaclient</span><span class="o">.</span><span class="na">getRequestToken</span><span class="o">(</span><span class="n">accessor</span><span class="o">);</span>
+			<span class="n">request_token</span> <span class="o">=</span> <span class="n">accessor</span><span class="o">.</span><span class="na">requestToken</span><span class="o">;</span>
+		<span class="o">}</span> <span class="k">catch</span> <span class="o">(</span><span class="nc">IOException</span> <span class="n">e</span><span class="o">)</span> <span class="o">{</span>
+			<span class="c1">// TODO Auto-generated catch block</span>
+			<span class="n">e</span><span class="o">.</span><span class="na">printStackTrace</span><span class="o">();</span>
+		<span class="o">}</span> <span class="k">catch</span> <span class="o">(</span><span class="nc">OAuthException</span> <span class="n">e</span><span class="o">)</span> <span class="o">{</span>
+			<span class="c1">// TODO Auto-generated catch block</span>
+			<span class="n">e</span><span class="o">.</span><span class="na">printStackTrace</span><span class="o">();</span>
+		<span class="o">}</span> <span class="k">catch</span> <span class="o">(</span><span class="nc">URISyntaxException</span> <span class="n">e</span><span class="o">)</span> <span class="o">{</span>
+			<span class="c1">// TODO Auto-generated catch block</span>
+			<span class="n">e</span><span class="o">.</span><span class="na">printStackTrace</span><span class="o">();</span>
+		<span class="o">}</span>
+	    
+	    <span class="k">return</span> <span class="n">accessor</span><span class="o">;</span>
+	<span class="o">}</span>
+
+<span class="o">}</span></code></pre></figure>
+
+<p>For now, I'm off on holiday, but if anyone had any thoughts, I'd love to hear them. Merry Christmas all!</p>
+
+
+                    
+                </div>
+
+                <!-- Post Sidebar -->
+                <aside class="post-sidebar">
+                    <div class="sidebar-widget">
+                        <h3>Share This Post</h3>
+                        <div class="share-buttons">
+                            <a href="https://bsky.app/intent/compose?text=Mendeley+Android+client;+first+preview+and+OAuth+problem+https://eve.gd/2010/12/20/mendeley-android-client-first-preview-and-oauth-problem/" class="share-btn share-bluesky" title="Share on Bluesky">
+                                <i class="fa-brands fa-square-bluesky" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/2010/12/20/mendeley-android-client-first-preview-and-oauth-problem/" class="share-btn share-facebook" title="Share on LinkedIn">
+                                <i class="fa-brands fa-square-facebook" aria-hidden="true"></i>
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <div class="sidebar-widget">
+                        <h3>Related Posts</h3>
+                        <ul class="related-posts">
+                            
+                            <li>
+                                <a href="/2026/06/03/what-is-actually-licensed-in-printdigital-dual-licensed-books/" title="What is actually licensed in print/digital dual-licensed books?">What is actually licensed in print/digital dual-licensed books?</a>
+                                <span class="related-date">3 June 2026</span>
+                            </li>
+                            
+                            <li>
+                                <a href="/2026/05/21/things-i-have-made-lower-decks-conference-and-quote-in-researchprofessional/" title="Things I have made (KC IDMS in place, Lower Decks conference, and quote in ResearchProfessional)">Things I have made (KC IDMS in place, Lower Decks conference, and quote in ResearchProfessional)</a>
+                                <span class="related-date">21 May 2026</span>
+                            </li>
+                            
+                            <li>
+                                <a href="/2026/04/19/the-necessary-pain-involved-in-blogging-if-you-want-your-work-to-be-preserved-beyond-your-lifespan/" title="The Necessary Pain Involved in Blogging (if you want your work to be preserved beyond your lifespan)">The Necessary Pain Involved in Blogging (if you want your work to be preserved beyond your lifespan)</a>
+                                <span class="related-date">19 April 2026</span>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </article>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+    <div class="footer-grid">
+        <div class="footer-section footer-about">
+            <h3>Martin Paul Eve</h3>
+            <p>Professor of Literature, Technology and Publishing at Birkbeck, University of London. Technical Lead of Knowledge Commons at MESH Research, Michigan State University.</p>
+            <div class="social-links">
+                <a href="https://bsky.app/profile/eve.gd" aria-label="Bluesky" class="social-icon">
+                    <i class="fa-brands fa-square-bluesky" aria-hidden="true"></i>
+                </a>
+                <a href="https://github.com/MartinPaulEve" aria-label="GitHub" class="social-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path>
+                    </svg>
+                </a>
+                <a aria-label="Wikipedia" class="social-icon" href="https://en.wikipedia.org/wiki/Martin_Paul_Eve"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i></a>
+            </div>
+            <div class="social-links row-two">
+                <a href="https://orcid.org/0000-0002-5589-8511" aria-label="ORCID" class="social-icon">
+                    <img src="/images/orcid.png" alt="ORCID ID">
+                </a>
+                <a href="/pictures/" aria-label="Pictures for Re-Use" class="social-icon">
+                    <i class="fas fa-fw fa-images" aria-hidden="true"></i>
+                </a>
+                <a href="https://works.hcommons.org/search?q=metadata.creators.person_or_org.name%3A%22Eve%2C%20Martin%20Paul%22&amp;l=list&amp;p=1&amp;s=10&amp;sort=bestmatch" class="social-icon">
+                    <i class="fa fa-fw fa-university" aria-hidden="true"></i>
+                </a>
+                <a href="http://eprints.bbk.ac.uk/view/people/Eve=3AMartin_Paul=3A=3A.html" class="social-icon"><i class="fa fa-fw fa-file-text" aria-hidden="true"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="/about/">About Me</a></li>
+                <li><a href="/c-v/Eve-CV.pdf">Curriculum Vitae</a></li>
+                <li><a href="/posts/">Web Writings</a></li>
+                <li><a href="/books/">Books</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h4>Contact</h4>
+            <ul>
+                <li><a href="mailto:martin@eve.gd">Personal Email</a></li>
+                <li><a href="mailto:martin.eve@bbk.ac.uk">Birkbeck, University of London</a></li>
+                <li><a href="mailto:eve@msu.edu">Michigan State University</a></li>
+                <li><a href="mailto:martin.paul_eve@kcl.ac.uk">King's College London</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2025 Martin Paul Eve. CC BY 4.0 License.</p>
+        <div class="footer-links">
+        </div>
+    </div>
+</div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script>
+    // Initialize syntax highlighting
+    document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightElement(block);
+    });
+</script>
+<script src="/assets/js/script.js"></script>
+</body>
+</html>

