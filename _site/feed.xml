@@ -4,13 +4,51 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="https://eve.gd/feed.xml" />
 <link rel="alternate" type="text/html" href="https://eve.gd" />
-<updated>2026-06-03T09:43:22+01:00</updated>
+<updated>2026-06-04T12:13:15+01:00</updated>
 <id>https://eve.gd/</id>
 <author>
   <name>Martin Paul Eve</name>
   <uri>https://orcid.org/0000-0002-5589-8511</uri>
   <email>martin.eve@bbk.ac.uk</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[More on dual-licensing of digital OA books]]></title>
+  <link rel="alternate" type="text/html" href="https://eve.gd/2026/06/04/more-on-dual-licensing-of-digital-oa-books/" />
+  <id>https://eve.gd/2026/06/04/more-on-dual-licensing-of-digital-oa-books</id>
+  
+  <doi>https://doi.org/10.59348/pyncb-wyx70</doi>
+  
+  <published>Thursday, 4 June 2026 15:55:58 +0000</published>
+  <updated>2026-06-04T00:00:00+01:00</updated>
+  <author>
+    <name></name>
+    <uri>https://orcid.org/0000-0002-5589-8511</uri>
+    
+  </author>
+  <content type="html"><![CDATA[
+    &lt;p&gt;Following up on &lt;a href=&quot;/2026/06/03/what-is-actually-licensed-in-printdigital-dual-licensed-books/&quot;&gt;yesterday’s post&lt;/a&gt;, I received an email this morning from Andrew Johnson, who is the Scholarly Communications Librarian (Copyright &amp;amp; Licensing) at Sheffield University in the UK and so seems to know his stuff on this turf. With his permission, for which I am extremely grateful, I reproduce that message, as it answers some of the questions I posed:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;So what is licensed? Well, not what a lot of people expect, because technically what is licensed are the restricted acts of reproduction and distribution. The work is protected by copyright, and the BY-NC-ND licence applies - assuming the University publisher applies it to the original work you submitted and transferred to them, in exchange for a contractual agreement to publish. That licence applies to “the work”, but really it is reproduction and distribution rights that are licensed. Off topic, the application of CC licences to “works” rather than “copies” is to me arguably the biggest interpretational difference between CC and open software licences.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;You rightly point out US law applies to your contract, but local law determines how the CC licence applies. So in the US, reproduction and distribution rights cover - in CC licence legal code terms - what is spread over three rights in the UK, as we have the right of communication here. So in UK use, three restricted acts are licensed.  CC licences apply to copyright-relevant acts in the territory where the act occurs. In the UK those three restricted acts are licensed as they apply to the work you created. Any copying that doesn’t alter the original intellectual creation you supplied in making it is permitted by the licence, all formats and media. So format shifting from website to pdf to any other text document, or copying long-hand to paper, or photocopying from a print copy of the book - all licensed, as they are the same restricted acts with the same work.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/copyright-claim.jpg&quot; alt=&quot;An image of a typewriter printing the words Copyright Claim&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://dhdebates.gc.cuny.edu/read/critical-infrastructure-studies-and-digital-humanities/section/f4451084-a3bd-4a36-860d-f3a14e17ad0c#ch06&quot;&gt;Your chapter&lt;/a&gt; discusses how sharing e.g. medical articles could have direct health benefit to life and be used by pirates as justification for shadow library copying, and that rhymed for me with how copyright protects such works more “thinly” than some works in the humanities and arts, where more creative or expressive creation has stronger protection against substantially similar copying - even where it is appreciation or critique. From a rights justification view it is interesting that there is on one hand a value judgement around how essential such works are in the hierarchy of needs, but in legal terms they are the most protected due to being deemed the most essential to promote future creativity for the benefit of all (albeit less so in personality-rights cultural traditions maybe).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So, a huge thanks to Andrew for writing on this. It’s lovely to hear from people who are working in this space and even better when they are truly knowledgeable and willing to engage.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/06/04/more-on-dual-licensing-of-digital-oa-books/&quot;&gt;More on dual-licensing of digital OA books&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on June 04, 2026.&lt;/p&gt;]]>
+  </content>
+</entry>
 
 
 <entry>
@@ -842,54 +880,6 @@ session       required   pam_env.so readenv=1 envfile=/etc/default/locale user_r
 &lt;/ul&gt;
 
     &lt;p&gt;&lt;a href=&quot;https://eve.gd/2025/12/26/authorship-division-of-labour-material-form-thoughts-on-samuel-a-moores-publishing-beyond-the-market/&quot;&gt;Authorship, division of labour, material and digital form; thoughts on Samuel A. Moore&apos;s Publishing Beyond the Market&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on December 26, 2025.&lt;/p&gt;]]>
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[On citations, AI, and 'not reading']]></title>
-  <link rel="alternate" type="text/html" href="https://eve.gd/2025/12/22/on-citations-ai-and-not-reading/" />
-  <id>https://eve.gd/2025/12/22/on-citations-ai-and-not-reading</id>
-  
-  <doi>https://doi.org/10.59348/esc68-nah82</doi>
-  
-  <published>Monday, 22 December 2025 15:55:58 +0000</published>
-  <updated>2025-12-22T00:00:00+00:00</updated>
-  <author>
-    <name></name>
-    <uri>https://orcid.org/0000-0002-5589-8511</uri>
-    
-  </author>
-  <content type="html"><![CDATA[
-    &lt;p&gt;There has been a major furore in recent days on social media about the rise in AI citations that have been hallucinated. These citations appear in manuscripts sent out for peer review, and even in the published literature.&lt;/p&gt;
-
-&lt;p&gt;This is a dire situation, of course. But it prompts in me some reflections on citation and its purpose. In particular: the problematic way in which we use referencing as a signaling mechanism rather than purely as an epistemological phenomenon.&lt;/p&gt;
-
-&lt;p&gt;The absolutely core fundamental problem here is actually not AI. Yes, it’s not great that LLMs produce workable references that are plausible in form. &lt;a href=&quot;https://doi.org/10.1111/criq.12359&quot;&gt;I wrote about this back in 2017!&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The core problem instead is actually about whether we read or do not read the material in footnotes. It seems clear to me that we should be reading this material. I am somewhat bewildered and horrified at the number of people who were talking about this matter and saying that, of course, you don’t need to read the things you are citing. It is a fundamental part of scholarly activity to understand the context and existing work in one’s field! It is also an educational activity in its own right with intrinsic benefits of people knowing things, which is something to which I have dedicated my entire professional life.&lt;/p&gt;
-
-&lt;p&gt;Yet, there is a substantial literature on the phenomenon of “not reading”. In &lt;em&gt;Close Reading with Computers&lt;/em&gt;, I wrote about this:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;reading avoidance is nothing new: “not reading,” writes Lisa Marie Rhody, “is the dirty open secret of all literary critics.” (Lisa Marie Rhody, “Beyond Darwinian Distance: Situating Distant Reading in a Feminist Ut Pictura Poesis Tradition,” PMLA 132, no. 3 (2017): 659.) from Eve, Martin Paul, Close Reading With Computers: Textual Scholarship, Computational Formalism, and David Mitchell’s Cloud Atlas (Stanford University Press, 2019), p. 4.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;There is more to read in the contemporary world than can be read within a single lifetime. Therefore, all reading is subject to a type of economic decision making that rests on time as the unit of currency that is to be spent by an individual. You are allotted a certain quantity of time in your life; an unknown quantity for sure. How you spend it with reading is up to you, but you have to accept that no matter how much you read, you will not read everything.&lt;/p&gt;
-
-&lt;p&gt;The contemporary academy, though, pushes researchers towards ever more output of publication as a proxy for assessing performance. In the cutthroat job market of higher education, it becomes imperative to have a solid publication record behind one’s name. This, of course, coupled with the above observations, leads people to take shortcuts, one of which is to seemingly use AI either to generate citations or to summarise a work using AI rather than reading it in full.&lt;/p&gt;
-
-&lt;p&gt;This is terrible scholarly practice but it’s not wholly driven by AI. It’s driven by the fact that footnotes have become symbols of scholarly work. They are not merely an epistemic lookup but are instead the foundational building block that shows whether this is “good scholarship” or otherwise. I have even been guilty of using this myself. One of the first things we do when checking articles at &lt;a href=&quot;https://orbit.openlibhums.org/&quot;&gt;Orbit&lt;/a&gt; is to ensure that a manuscript has an adequate and comprehensive reference system in place. Unsurprisingly, this does often act as a good initial gatekeeping sweep.&lt;/p&gt;
-
-&lt;p&gt;If the system worked well, I can even envisage a world where the LLM could be actively useful for scholarship in this realm. I yearn and &lt;a href=&quot;https://doi.org/10.59348/w86n1-sk761&quot;&gt;have done for quite some time&lt;/a&gt; for a discovery system that will let me say “I want to learn more about this field where should I start reading?”” and then get a list of books, journal articles and other materials that would form the basis of my investigation. It is very hard when you’re working in an interdisciplinary space to find where the start of the trail is in your literature review. My usual approach is to do a title search and dive in on one of those works and then look at the citations in its bibliography in turn and follow up there. There is no reason a computer could not help with this discovery aspect. The distributionally highlighting features of LLMs (i.e. they look for the most prominent and recurring features) should be really helpful when this is what you want to find: “who is at the centre of the network in Field X?”&lt;/p&gt;
-
-&lt;p&gt;But note the use I envisage is one where I would then go and get these books and articles and actually read them, because the whole point of this exercise is human knowledge. It is not about simply churning out papers one after the other to appease the academy’s endless desire in a publish or perish culture. Instead, it is about people learning stuff and people knowing things. Using AI to do your thinking will not achieve this.&lt;/p&gt;
-
-&lt;p&gt;I am not as fanatically anti-AI as many people are, although I am very scared for the future of labour and what these technologies might do to that. Because I think that they actually &lt;em&gt;do&lt;/em&gt; perform better than most critics credit. I can imagine worlds where such technologies could be helpful, but I also think that at the moment we have a perfect storm of new technologies and cultural and economic conditions that create environments that are hostile to learning. In their typical way, the Silicon Valley folks have decided that this technology will be pushed everywhere in the world, without any due consideration as to what is appropriate in a certain space. I mean, it’s great if AIs can detect cancer cells. But do I think academic and student writing should be produced by an LLM? I certainly do not. Basically we need a great deal more care and consideration over where we use these technologies and what we use them for. Such has been the hype around AGI that this has been forgotten, because the “G” stands for General.&lt;/p&gt;
-
-&lt;p&gt;In the meantime I will continue to insist that the problem is not solely the LLMs, but scholars not checking footnotes and authors not reading the material they are citing. These behaviours have less to do with the technologies of the Academy but are more about the current crisis in universities worldwide, spurred on by governments who do not wish for an educated population. And we must not forget, as this post has emphasised, that the goal of what we’re doing is for real human beings to learn things, not for machines to abstract away that knowledge from us.&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2025/12/22/on-citations-ai-and-not-reading/&quot;&gt;On citations, AI, and &apos;not reading&apos;&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on December 22, 2025.&lt;/p&gt;]]>
   </content>
 </entry>
 

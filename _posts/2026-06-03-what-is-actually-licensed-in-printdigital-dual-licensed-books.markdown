@@ -8,6 +8,7 @@ image:
   creditlink: "https://unsplash.com/@umby?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
   title: "An image saying CC BY-NC-ND"
 archive: "https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2026/06/03/what-is-actually-licensed-in-printdigital-dual-licensed-books"
+forwardlink: ["2026-06-04-more-on-dual-licensing-of-digital-oa-books"]
 ---
 I have recently published [a book chapter (on Shadow Libraries)](https://dhdebates.gc.cuny.edu/read/critical-infrastructure-studies-and-digital-humanities/section/f4451084-a3bd-4a36-860d-f3a14e17ad0c#ch06) in [a very fine collection](https://dhdebates.gc.cuny.edu/read/critical-infrastructure-studies-and-digital-humanities/section/d01b113d-2da5-48f1-be0e-f3c50392f1ad#cvi) that was published in print in January and digitally just now, in June. The digital edition contractually promises to be open access with a CC BY-NC-ND license (yes, I know, the hardcore OA crowd are baying "that's not open access" etc. but I really liked the book concept and wanted to write for it etc.).
 
