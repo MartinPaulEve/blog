@@ -43,6 +43,40 @@
         <div class="scroll-indicator">↓</div>
     </section>
 
+    <!-- Recent Writings Section -->
+    <section class="writings-section">
+        <div class="container">
+            <div class="section-header-with-button">
+                <div>
+                    <h2>Recent Writings</h2>
+                    <p>Thoughts on technology, publishing, and academic life.</p>
+                </div>
+                <a href="/posts/" class="btn btn-secondary">View All Posts →</a>
+            </div>
+
+            <div class="posts-grid">
+                {% for post in site.posts limit:6 %}
+                <article class="post-card">
+                    <div class="post-meta">
+                        <span class="post-date">{{ post.date| date: "%-d %B %Y" }}</span>
+                    </div>
+                    {% if post.link %}
+                        <a href="{{ post.link }}"><h3 class="post-title">{{ post.title }}</h3></a>
+                    {% else %}
+                        <a href="{{ post.url }}"><h3 class="post-title">{{ post.title }}</h3></a>
+                    {% endif %}
+                    <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</p>
+                    {% if post.link %}
+                        <a href="{{ post.link }}" class="post-link">Read Article →</a>
+                    {% else %}
+                        <a href="{{ post.url }}" class="post-link">Read Article →</a>
+                    {% endif %}
+                </article>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
     <!-- Areas of Focus Section -->
     <section class="focus-section">
         <div class="container">
@@ -90,40 +124,6 @@
                     <h3>Contemporary Fiction &amp; Culture</h3>
                     <p>Researching contemporary American fiction.</p>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Recent Writings Section -->
-    <section class="writings-section">
-        <div class="container">
-            <div class="section-header-with-button">
-                <div>
-                    <h2>Recent Writings</h2>
-                    <p>Thoughts on technology, publishing, and academic life.</p>
-                </div>
-                <a href="/posts/" class="btn btn-secondary">View All Posts →</a>
-            </div>
-
-            <div class="posts-grid">
-                {% for post in site.posts limit:6 %}
-                <article class="post-card">
-                    <div class="post-meta">
-                        <span class="post-date">{{ post.date| date: "%-d %B %Y" }}</span>
-                    </div>
-                    {% if post.link %}
-                        <a href="{{ post.link }}"><h3 class="post-title">{{ post.title }}</h3></a>
-                    {% else %}
-                        <a href="{{ post.url }}"><h3 class="post-title">{{ post.title }}</h3></a>
-                    {% endif %}
-                    <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</p>
-                    {% if post.link %}
-                        <a href="{{ post.link }}" class="post-link">Read Article →</a>
-                    {% else %}
-                        <a href="{{ post.url }}" class="post-link">Read Article →</a>
-                    {% endif %}
-                </article>
-                {% endfor %}
             </div>
         </div>
     </section>
