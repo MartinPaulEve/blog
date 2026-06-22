@@ -20,7 +20,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=IBM+Plex+Mono:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/8417040572.js" crossorigin="anonymous"></script>
 <link id="hljs-theme" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-light.min.css">
 <link rel="stylesheet" href="/assets/css/styles.css">
@@ -76,7 +76,7 @@
 <link href="https://eve.gd/feed/feed.atom" type="application/atom+xml" rel="alternate" title="Martin Paul Eve Feed">
 
 </head>
-<body>
+<body class="home-page">
 <!-- Header -->
 <header class="header">
     <div class="container header-content">
@@ -103,147 +103,135 @@
 </header>
 
 <main>
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-background">
-            <div class="hero-overlay"></div>
-        </div>
-
-        <div class="container hero-content">
-            <div class="hero-text">
-                <div class="tagline">Literature • Publishing • Technology</div>
-                <h1 class="hero-title">Martin Paul <span class="accent">Eve</span></h1>
-                <p class="hero-subtitle">
-                    Professor of Literature, Technology and Publishing at <strong>Birkbeck, University of London</strong>. <br/>
-                    Technical Lead for Knowledge Commons at <strong>Michigan State University</strong>.
-                </p>
-                <div class="hero-buttons">
-                    <a href="/about/" class="btn btn-primary">View Publications</a>
-                    <a href="mailto:martin@eve.gd" class="btn btn-secondary">Contact Me</a>
+    <!-- Masthead -->
+    <section class="masthead">
+        <div class="container masthead-inner">
+            <div class="masthead-text">
+                <span class="eyebrow">Literature &times; Technology &times; Publishing</span>
+                <h1 class="masthead-name">Martin Paul <span class="lastname">Eve</span></h1>
+                <p class="masthead-role">Professor of Literature, Technology and Publishing at <strong>Birkbeck, University of London</strong>, and Technical Lead for Knowledge Commons at <strong>Michigan State University</strong>.</p>
+                <div class="masthead-actions">
+                    <a href="/about/" class="btn-bold">Publications</a>
+                    <a href="/posts/" class="btn-ghost">Writing</a>
                 </div>
             </div>
-
-            <div class="hero-image-container">
-                <div class="profile-circle">
-                    <div class="profile-glow"></div>
-                    <img src="/images/mpe.png" alt="Martin Paul Eve" class="profile-image">
-                </div>
+            <div class="masthead-portrait">
+                <img src="/images/mpe.png" alt="Martin Paul Eve">
             </div>
         </div>
-
     </section>
 
-    <!-- Recent Writings Section -->
-    <section class="writings-section">
+    <!-- Recent writing -->
+    <section class="stories">
         <div class="container">
-            <div class="section-header-with-button">
+            <div class="stories-head">
                 <div>
-                    <h2>Recent Writings</h2>
-                    <p>Thoughts on technology, publishing, and academic life.</p>
+                    <span class="stories-kicker">From the blog</span>
+                    <h2 class="stories-title">Recent writing</h2>
                 </div>
-                <a href="/posts/" class="btn btn-secondary">View All Posts →</a>
+                <a href="/posts/" class="stories-link">All posts &rarr;</a>
             </div>
 
-            <div class="posts-grid">
+            
+            <a class="story-lead" href="/2026/06/04/more-on-dual-licensing-of-digital-oa-books/">
+                <img src="/images/copyright-claim.jpg" alt="">
+                <span class="story-pill">04.06.26</span>
+                <span class="story-lead-body">
+                    <span class="story-lead-title">More on dual-licensing of digital OA books</span>
+                </span>
+            </a>
+
+            <div class="story-grid">
                 
-                <article class="post-card">
-                    <div class="post-meta">
-                        <span class="post-date">4 June 2026</span>
-                    </div>
-                    
-                        <a href="/2026/06/04/more-on-dual-licensing-of-digital-oa-books/"><h3 class="post-title">More on dual-licensing of digital OA books</h3></a>
-                    
-                    <p class="post-excerpt">Following up on yesterday’s post, I received an email this morning from Andrew Johnson, who is the Scholarly Communications Librarian (Copyright &amp; Licens...</p>
-                    
-                        <a href="/2026/06/04/more-on-dual-licensing-of-digital-oa-books/" class="post-link">Read Article →</a>
-                    
+                
+                <article class="story">
+                    <a class="story-media" href="/2026/06/03/what-is-actually-licensed-in-printdigital-dual-licensed-books/">
+                        
+                        <img src="/images/license.jpg" alt="" loading="lazy">
+                        
+                        <span class="story-pill">03.06.26</span>
+                    </a>
+                    <h3 class="story-title"><a href="/2026/06/03/what-is-actually-licensed-in-printdigital-dual-licensed-books/">What is actually licensed in print/digital dual-licensed books?</a></h3>
+                    <p class="story-excerpt">I have recently published a book chapter (on Shadow Libraries) in a very fine collection that was published in print ...</p>
                 </article>
                 
-                <article class="post-card">
-                    <div class="post-meta">
-                        <span class="post-date">3 June 2026</span>
-                    </div>
-                    
-                        <a href="/2026/06/03/what-is-actually-licensed-in-printdigital-dual-licensed-books/"><h3 class="post-title">What is actually licensed in print/digital dual-licensed books?</h3></a>
-                    
-                    <p class="post-excerpt">I have recently published a book chapter (on Shadow Libraries) in a very fine collection that was published in print in January and digitally just now, in Ju...</p>
-                    
-                        <a href="/2026/06/03/what-is-actually-licensed-in-printdigital-dual-licensed-books/" class="post-link">Read Article →</a>
-                    
+                
+                <article class="story">
+                    <a class="story-media" href="/2026/05/21/things-i-have-made-lower-decks-conference-and-quote-in-researchprofessional/">
+                        
+                        <img src="/images/microphone.png" alt="" loading="lazy">
+                        
+                        <span class="story-pill">21.05.26</span>
+                    </a>
+                    <h3 class="story-title"><a href="/2026/05/21/things-i-have-made-lower-decks-conference-and-quote-in-researchprofessional/">Things I have made (KC IDMS in place, Lower Decks conference, and quote in ResearchProfessional)</a></h3>
+                    <p class="story-excerpt">Some days I look at the things I’ve done and think: when I am gone there will be no trace of me, and all that I have ...</p>
                 </article>
                 
-                <article class="post-card">
-                    <div class="post-meta">
-                        <span class="post-date">21 May 2026</span>
-                    </div>
-                    
-                        <a href="/2026/05/21/things-i-have-made-lower-decks-conference-and-quote-in-researchprofessional/"><h3 class="post-title">Things I have made (KC IDMS in place, Lower Decks conference, and quote in ResearchProfessional)</h3></a>
-                    
-                    <p class="post-excerpt">Some days I look at the things I’ve done and think: when I am gone there will be no trace of me, and all that I have worked upon will over time turn to dust....</p>
-                    
-                        <a href="/2026/05/21/things-i-have-made-lower-decks-conference-and-quote-in-researchprofessional/" class="post-link">Read Article →</a>
-                    
+                
+                <article class="story">
+                    <a class="story-media" href="/2026/04/19/the-necessary-pain-involved-in-blogging-if-you-want-your-work-to-be-preserved-beyond-your-lifespan/">
+                        
+                        <img src="/images/pain.jpg" alt="" loading="lazy">
+                        
+                        <span class="story-pill">19.04.26</span>
+                    </a>
+                    <h3 class="story-title"><a href="/2026/04/19/the-necessary-pain-involved-in-blogging-if-you-want-your-work-to-be-preserved-beyond-your-lifespan/">The Necessary Pain Involved in Blogging (if you want your work to be preserved beyond your lifespan)</a></h3>
+                    <p class="story-excerpt">I am thinking a lot these days about my own mortality. That’s not because I am obsessed with death or anything of the...</p>
                 </article>
                 
-                <article class="post-card">
-                    <div class="post-meta">
-                        <span class="post-date">19 April 2026</span>
-                    </div>
-                    
-                        <a href="/2026/04/19/the-necessary-pain-involved-in-blogging-if-you-want-your-work-to-be-preserved-beyond-your-lifespan/"><h3 class="post-title">The Necessary Pain Involved in Blogging (if you want your work to be preserved beyond your lifespan)</h3></a>
-                    
-                    <p class="post-excerpt">I am thinking a lot these days about my own mortality. That’s not because I am obsessed with death or anything of the sort. It’s more that my health problems...</p>
-                    
-                        <a href="/2026/04/19/the-necessary-pain-involved-in-blogging-if-you-want-your-work-to-be-preserved-beyond-your-lifespan/" class="post-link">Read Article →</a>
-                    
+                
+                <article class="story">
+                    <a class="story-media" href="/2026/04/19/claude-code-can-consume-transmit-and-compromise-your-env-files-even-if-you-tell-it-not-to/">
+                        
+                        <img src="/images/ai.jpg" alt="" loading="lazy">
+                        
+                        <span class="story-pill">19.04.26</span>
+                    </a>
+                    <h3 class="story-title"><a href="/2026/04/19/claude-code-can-consume-transmit-and-compromise-your-env-files-even-if-you-tell-it-not-to/">Claude Code can consume, transmit, and compromise your .env files even if you tell it not to</a></h3>
+                    <p class="story-excerpt">My colleague Ian discovered the other day that, alarmingly, even if you tell Claude code not ever to read your.env fi...</p>
                 </article>
                 
-                <article class="post-card">
-                    <div class="post-meta">
-                        <span class="post-date">19 April 2026</span>
-                    </div>
-                    
-                        <a href="/2026/04/19/claude-code-can-consume-transmit-and-compromise-your-env-files-even-if-you-tell-it-not-to/"><h3 class="post-title">Claude Code can consume, transmit, and compromise your .env files even if you tell it not to</h3></a>
-                    
-                    <p class="post-excerpt">My colleague Ian discovered the other day that, alarmingly, even if you tell Claude code not ever to read your.env files, it may still do so and send the res...</p>
-                    
-                        <a href="/2026/04/19/claude-code-can-consume-transmit-and-compromise-your-env-files-even-if-you-tell-it-not-to/" class="post-link">Read Article →</a>
-                    
+                
+                <article class="story">
+                    <a class="story-media" href="/2026/04/17/thinking-about-dogs/">
+                        
+                        <img src="/images/dogs.jpg" alt="" loading="lazy">
+                        
+                        <span class="story-pill">17.04.26</span>
+                    </a>
+                    <h3 class="story-title"><a href="/2026/04/17/thinking-about-dogs/">Thinking About Dogs</a></h3>
+                    <p class="story-excerpt">Our rescue dog, Luka, is a very traumatised soul. He spent eight years living in a shelter, with no home comforts, in...</p>
                 </article>
                 
-                <article class="post-card">
-                    <div class="post-meta">
-                        <span class="post-date">17 April 2026</span>
-                    </div>
-                    
-                        <a href="/2026/04/17/thinking-about-dogs/"><h3 class="post-title">Thinking About Dogs</h3></a>
-                    
-                    <p class="post-excerpt">Our rescue dog, Luka, is a very traumatised soul. He spent eight years living in a shelter, with no home comforts, in the harsh Bosnian climate. He is a cons...</p>
-                    
-                        <a href="/2026/04/17/thinking-about-dogs/" class="post-link">Read Article →</a>
-                    
+                
+                <article class="story">
+                    <a class="story-media" href="/2026/03/25/how-to-get-a-blocked-usb-stack-and-dead-microphone-working-again-on-linux/">
+                        
+                        <img src="/images/mic.jpg" alt="" loading="lazy">
+                        
+                        <span class="story-pill">25.03.26</span>
+                    </a>
+                    <h3 class="story-title"><a href="/2026/03/25/how-to-get-a-blocked-usb-stack-and-dead-microphone-working-again-on-linux/">How to get a blocked USB stack and dead microphone working again on Linux</a></h3>
+                    <p class="story-excerpt">I have been having an intermittent problem where my microphone just drops out arbitrarily on Linux and I can’t access...</p>
                 </article>
                 
             </div>
         </div>
     </section>
 
-    <!-- Featured Book Section -->
-    <section class="book-section">
-        <div class="container">
-            <div class="book-container">
-                <div class="book-image">
-                    <img class="img-book-image" src="/books/31744" alt="Book Cover">
-                </div>
-
-                <div class="book-content">
-                    <div class="book-label">Latest Book</div>
-                    <h2>Theses on the Metaphors of Digital-Textual History</h2>
-                    <p>An exploration of how digital technologies are reshaping the way we write, publish, and read in the 21st century. This book argues for a radical rethinking of scholarly communication.</p>
-                    <div class="book-buttons">
-                        <a href="https://www.sup.org/openebook/9781503639393" class="btn btn-primary">Read Open Access</a>
-                        <a href="https://www.sup.org/books/media-studies/theses-metaphors-digital-textual-history" class="btn btn-secondary">Buy Print Copy</a>
-                    </div>
+    <!-- Latest book -->
+    <section class="feature-book">
+        <div class="container feature-book-inner">
+            <div class="fb-cover">
+                <img class="img-book-image" src="/books/31744" alt="Theses on the Metaphors of Digital-Textual History">
+            </div>
+            <div class="fb-content">
+                <span class="fb-kicker">Latest book</span>
+                <h2 class="fb-title">Theses on the Metaphors of Digital-Textual History</h2>
+                <p class="fb-text">How digital technologies reshape the way we write, publish, and read &mdash; and a case for rethinking scholarly communication for the twenty-first century.</p>
+                <div class="fb-actions">
+                    <a href="https://www.sup.org/openebook/9781503639393" class="btn-bold">Read open access</a>
+                    <a href="https://www.sup.org/books/media-studies/theses-metaphors-digital-textual-history" class="btn-ghost">Buy print</a>
                 </div>
             </div>
         </div>
