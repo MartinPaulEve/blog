@@ -1,0 +1,896 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+<Limit GET POST>
+order deny,allow
+deny from all
+allow from all
+</Limit>
+<Limit PUT DELETE>
+order deny,allow
+deny from all
+</Limit>
+AuthName meve.io
+
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$
+RewriteRule ^$ "https://eve.gd/books/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^articles.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^articles.eve.gd$
+RewriteRule ^$ "https://eve.gd/c-v/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^cv.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^cv.eve.gd$
+RewriteRule ^$ "https://eve.gd/c-v/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^profile$ "http://www.bbk.ac.uk/our-staff/profile/8727147/martin-paul-eve" [R=302,L]
+RewriteRule ^profile/(.*)$ "http://www.bbk.ac.uk/our-staff/profile/8727147/martin-paul-eve" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^pynchonphil$ "http://www.palgrave.com/products/title.aspx?pid=753605" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^pynchonphilo$ "http://www.palgrave.com/products/title.aspx?pid=753605" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^oahums$ "http://www.cambridge.org/9781107484016" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^password$ "http://www.bloomsbury.com/us/password-9781501314872/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^litagainstcrit$ "http://www.openbookpublishers.com/product/530/literature-against-criticism--university-english-and-contemporary-fiction-in-conflict/edc2056a3e23c0ceca93cd7f3fa83e38" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^closereading$ "https://www.sup.org/books/title/?id=30253" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^reassembling$ "https://doi.org/10.7551/mitpress/11885.001.0001" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^KU2015$ "https://www.martineve.com/presentations/2015-KU/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^UCL2015$ "https://www.martineve.com/presentations/2015-UCL/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Brunel2015$ "https://www.martineve.com/presentations/2015-Brunel/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Groningen2015$ "https://www.martineve.com/presentations/2015-Groningen/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Finland2015$ "https://www.martineve.com/presentations/2015-Finland/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^FinlandWorkshop2015$ "https://www.martineve.com/presentations/2015-FinlandWorkshop/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Sussex2015$ "https://www.martineve.com/presentations/2015-Sussex/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^OpenCon2015$ "https://www.martineve.com/presentations/2015-OpenCon/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^CrossRefWorkshop2015$ "https://www.martineve.com/presentations/2015-CrossRefWorkshop/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^CrossRef2015$ "https://www.martineve.com/presentations/2015-CrossRef/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Amsterdam2015$ "https://www.martineve.com/presentations/2015-Amsterdam/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Aber2015$ "https://www.martineve.com/presentations/2015-Aber/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^SCONUL2015$ "https://www.martineve.com/presentations/2015-SCONUL/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Canon2015$ "https://www.martineve.com/presentations/2015-Canon/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^UE2015$ "https://www.martineve.com/presentations/2015-UniversityEnglish/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^QMUL2015$ "https://www.martineve.com/presentations/2015-QMUL/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^TECHNE2016$ "https://www.martineve.com/presentations/2016-TECHNE/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^QMPassword2016$ "https://www.martineve.com/presentations/2016-QMPassword/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^IDS2016$ "https://www.martineve.com/presentations/2016-BL/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^KCL2016$ "https://www.martineve.com/presentations/2016-KCL/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^UEA2016$ "https://www.martineve.com/presentations/2016-UEA/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^WIP2016$ "https://www.martineve.com/presentations/2016-WIP/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Brighton2016$ "https://www.martineve.com/presentations/2016-Brighton/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^BrightonCritical2016$ "https://www.martineve.com/presentations/2016-BrightonCritical/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^WHN2016$ "https://www.martineve.com/presentations/2016-WHN/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Kings2016$ "https://www.martineve.com/presentations/2016-Kings/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^DARTS2016$ "https://www.martineve.com/presentations/2016-DARTS/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Festival2016$ "https://www.martineve.com/presentations/2016-Festival/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Pratt2016$ "https://www.martineve.com/presentations/2016-Pratt/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^LitNets2016$ "https://www.martineve.com/presentations/2016-LiteraryNetworks/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^BBKLaw2016$ "https://www.martineve.com/presentations/2016-Law/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Brussels2016$ "https://www.martineve.com/presentations/2016-Brussels/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^OAWeek2016$ "https://www.martineve.com/presentations/2016-OAWeek/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^CityOAWeek2016$ "https://www.martineve.com/presentations/2016-OAWeekCity/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Portugal2016$ "https://www.martineve.com/presentations/2016-Portugal/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Courtauld2016$ "https://www.martineve.com/presentations/2016-Courtauld/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^CHASE2017$ "https://www.martineve.com/presentations/2017-CHASE/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^UWE2017$ "https://www.martineve.com/presentations/2017-UWE/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Emerald2017$ "https://www.martineve.com/presentations/2017-Emerald/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Kings2017$ "https://www.martineve.com/presentations/2017-Kings/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Manchester2017$ "https://www.martineve.com/presentations/2017-Manchester/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Regex2017$ "https://www.martineve.com/presentations/2017-Regex/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^REF2017$ "https://www.martineve.com/presentations/2017-REF/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^SAS2017$ "https://www.martineve.com/presentations/2017-SAS/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^SCL2017$ "https://www.martineve.com/presentations/2017-SCL/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^City2017$ "https://www.martineve.com/presentations/2017-City/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Reading2017$ "https://www.martineve.com/presentations/2017-Reading/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^HTML2017$ "https://www.martineve.com/presentations/2017-HTML/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^NCUP2017$ "https://www.martineve.com/presentations/2017-NCUP/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Utrecht2017$ "https://www.martineve.com/presentations/2017-Utrecht/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Leiden2017$ "https://www.martineve.com/presentations/2017-Leiden/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^ArtsWeek2017$ "https://www.martineve.com/presentations/2017-ArtsWeek/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^BIDA2017$ "https://www.martineve.com/presentations/2017-BIDA/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Bucks2017$ "https://www.martineve.com/presentations/2017-Bucks/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^DM2017$ "https://www.martineve.com/presentations/2017-DM/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^IPW2017$ "https://www.martineve.com/presentations/2017-IPW/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^DigitalText2017$ "https://www.martineve.com/presentations/2017-DigitalText/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^ESF12017$ "https://www.martineve.com/presentations/2017-ESF1/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^ESF22017$ "https://www.martineve.com/presentations/2017-ESF2/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Athens2017$ "https://www.martineve.com/presentations/2017-Athens/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Dresden2017$ "https://www.martineve.com/presentations/2017-Dresden/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Dresden22017$ "https://www.martineve.com/presentations/2017-Dresden2/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Regensburg2017$ "https://www.martineve.com/presentations/2017-Regensburg/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^BL2017$ "https://www.martineve.com/presentations/2017-BL/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Norway2017$ "https://www.martineve.com/presentations/2017-Norway/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Norway22017$ "https://www.martineve.com/presentations/2017-Norway2/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^CTP2017$ "https://www.martineve.com/presentations/2017-CTP/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^BBKCTP2018$ "https://www.martineve.com/presentations/2018-BBKCTP/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Lincoln2018$ "https://www.martineve.com/presentations/2018-Lincoln/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Leuven2018$ "https://www.martineve.com/presentations/2018-Leuven/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^CRDH2018$ "https://www.martineve.com/presentations/2018-CRDH/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^BooksDotFiles2018$ "https://www.martineve.com/presentations/2018-BooksDotFiles/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Leuven20182$ "https://www.martineve.com/presentations/2018-Leuven2/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Oxford2018$ "https://www.martineve.com/presentations/2018-Oxford/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Jisc2018$ "https://www.martineve.com/presentations/2018-Jisc/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Government2018$ "https://www.martineve.com/presentations/2018-Government/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^BACLS2018$ "https://www.martineve.com/presentations/2018-BACLS/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Inaugural2018$ "https://www.martineve.com/presentations/2018-Inaugural/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^ISMTE2018$ "https://www.martineve.com/presentations/2018-ISMTE/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^BBKOAWeek2018$ "https://www.martineve.com/presentations/2018-BBKOAWeek/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^UEL2018$ "https://www.martineve.com/presentations/2018-UEL/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Lincoln20182$ "https://www.martineve.com/presentations/2018-Lincoln2/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^CNI2018$ "https://www.martineve.com/presentations/2018-CNI/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^TECHNE2019$ "https://www.martineve.com/presentations/2019-TECHNE/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Belfast2019$ "https://www.martineve.com/presentations/2019-Belfast/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^BBKPub2019$ "https://www.martineve.com/presentations/2019-BBKPub/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Mediated2019$ "https://www.martineve.com/presentations/2019-Mediated/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^UKSG2019$ "https://www.martineve.com/presentations/2019-UKSG/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^UKSG2019$ "https://www.martineve.com/presentations/2019-UKSG/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^sacred$ "http://eprints.bbk.ac.uk/id/eprint/27525" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^DigitalLibraryFutures2019$ "https://www.martineve.com/presentations/2019-DigitalLibraryFutures/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Fordham2019$ "https://www.martineve.com/presentations/2019-Fordham/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^NERL2019$ "https://www.martineve.com/presentations/2019-Northeastern/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^CamMonographs2019$ "https://www.martineve.com/presentations/2019-CamMonographs/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Jisc2019$ "https://www.martineve.com/presentations/2019-Jisc/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^DHLondon2019$ "https://www.martineve.com/presentations/2019-DHLondon/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Challenges2019$ "https://www.martineve.com/presentations/2019-Europa/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^QUB2019$ "https://www.martineve.com/presentations/2019-QUB/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^Pomo2020$ "https://www.martineve.com/presentations/2020-Pomo/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^BeyondAPCs2020$ "https://www.martineve.com/presentations/2020-BeyondAPCs/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^meve.io$ [OR]
+RewriteCond %{HTTP_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^books.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^pres.eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^$ "https://www.martineve.com" [R=302,L]
+

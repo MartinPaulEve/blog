@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge Commons – Open access, open source, open to all</title>
+    <!-- Basic Meta Tags -->
+    <meta name="description" content="Knowledge Commons hosts a growing coalition of open knowledge creators across the disciplines and around the world. Discover, connect, and share in a community that believes knowledge should be free.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="title" content="Knowledge Commons">
+
+    <link rel="icon" href="images/main-logo.png">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hcommons.org/">
+    <meta property="og:title" content="Knowledge Commons – Open access, open source, open to all">
+    <meta property="og:description" content="Join a growing coalition of open knowledge creators. Discover, connect, and share in a community that believes knowledge should be free.">
+    <meta property="og:image" content="https://eve.gd/hcommons-static/images/main-logo.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://hcommons.org/">
+    <meta name="twitter:title" content="Knowledge Commons – Open access, open source, open to all">
+    <meta name="twitter:description" content="Join a growing coalition of open knowledge creators. Discover, connect, and share in a community that believes knowledge should be free.">
+    <meta name="twitter:image" content="https://eve.gd/hcommons-static/images/main-logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Header -->
+<header class="header">
+    <div class="header-container">
+        <a href="/" class="logo">
+            <img src="images/logo-icon.png" alt="K" class="logo-icon">
+            <span class="logo-text">Knowledge Commons</span>
+        </a>
+
+        <nav class="nav-desktop">
+            <a href="/activity/" class="nav-link">News Feed</a>
+            <a href="/members/" class="nav-link">Members</a>
+            <a href="/groups/" class="nav-link">Groups</a>
+            <a href="https://works.hcommons.org" class="nav-link">Works</a>
+            <a href="https://sustaining.hcommons.org" class="nav-link">About</a>
+        </nav>
+
+        <div class="header-actions">
+            <a href="/wp-login.php"  class="btn-text">Log In</a>
+            <a href="/membership/" class="btn-primary-sm">Register</a>
+        </div>
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn"
+                aria-label="Toggle menu">
+            <span class="hamburger-icon">☰</span>
+            <span class="close-icon" style="display: none;">✕</span>
+        </button>
+    </div>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+
+    <!-- Mobile Menu -->
+    <nav class="mobile-menu" id="mobileMenu">
+        <a href="/activity/" class="mobile-nav-link">News Feed</a>
+        <a href="/members/" class="mobile-nav-link">Members</a>
+        <a href="/groups/" class="mobile-nav-link">Groups</a>
+        <a href="https://works.hcommons.org" class="mobile-nav-link">Works</a>
+        <a href="https://sustaining.hcommons.org/" class="mobile-nav-link">About</a>
+        <div class="mobile-actions">
+            <a href="/wp-login.php" class="btn-outline-pill">Log In</a>
+            <a href="/membership/" class="btn-primary-pill">Register</a>
+        </div>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-bg">
+        <img src="images/hero-bg.png" alt="" class="hero-bg-img">
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-row">
+            <div class="hero-content">
+                <div class="hero-box">
+                    <div class="hero-badge">
+                        <svg width="16" height="16" viewBox="0 0 24 24"
+                             fill="none" stroke="currentColor"
+                             stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="2" y1="12" x2="22" y2="12"></line>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                        </svg>
+                        Open access, open source, open to all
+                    </div>
+
+                    <h1 class="hero-title">
+                        <span class="hero-line">
+                            <span class="text-teal">Resist</span>
+                            <span class="text-gold">enclosure.</span>
+                        </span>
+                        <span class="hero-line bold">
+                            <span class="text-teal">Join the</span>
+                            <span class="text-gold">Commons.</span>
+                        </span>
+                    </h1>
+                </div>
+
+                <div class="hero-description">
+                    Knowledge Commons hosts a growing coalition of open
+                    knowledge creators
+                    across the disciplines and around the world. Discover,
+                    connect, and share
+                    in a community that believes knowledge should be free.
+                    <div class="hero-buttons">
+                        <a href="https://hcommons.org/membership/" class="btn-primary">
+                            Create an Account
+                            <svg width="20" height="20" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor"
+                                 stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                        <a href="https://works.hcommons.org" class="btn-primary">Explore Works
+                            <svg width="20" height="20" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor"
+                                 stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right side: fundraising box -->
+            <div class="fundraising-box">
+                <h2 class="fundraising-title">Support the Commons</h2>
+                <p class="fundraising-text">
+                    Help us keep scholarly resources free and accessible to
+                    everyone.
+                    Your contribution sustains a community-owned platform that
+                    resists
+                    commercialization of academic work.
+                </p>
+                <a href="https://givingto.msu.edu/causes-to-support/crowdpower/knowledge-commons" class="btn-donate">
+                    Contribute Now
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="2">
+                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+</section>
+
+<!-- Partners and Blog Section -->
+<section class="partners-blog">
+    <div class="container">
+        <!-- Partners -->
+        <div class="partners">
+            <div class="section-header-center">
+                <span class="section-label green">As Used By</span>
+                <h2 class="section-title">Our Partner Organizations</h2>
+            </div>
+
+            <div class="partners-grid">
+                <div class="partner-badge"
+                     data-tooltip="Association for Jewish Studies">AJS
+                </div>
+                <div class="partner-badge"
+                     data-tooltip="Association for Slavic, East European, and Eurasian Studies">
+                    ASEEES
+                </div>
+                <div class="partner-badge"
+                     data-tooltip="Humanities, Arts, Science, and Technology Alliance">
+                    HASTAC
+                </div>
+                <div class="partner-badge"
+                     data-tooltip="Modern Language Association">MLA
+                </div>
+                <div class="partner-badge"
+                     data-tooltip="Michigan State University">MSU
+                </div>
+                <div class="partner-badge"
+                     data-tooltip="Association of University Presses">UP
+                </div>
+            </div>
+        </div>
+
+        <!-- Divider -->
+        <div class="section-divider"></div>
+
+        <!-- Blog Posts -->
+        <div class="blog-section">
+            <div class="section-header-row">
+                <div>
+                    <span class="section-label gold">From the Blog</span>
+                    <h2 class="section-title">Latest Updates</h2>
+                </div>
+                <button class="btn-outline-sm">
+                    View All Posts
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="2">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <time class="blog-date">January 10, 2026</time>
+                    <h3 class="blog-title">Building Open Infrastructure for the
+                        Humanities</h3>
+                    <p class="blog-excerpt">How Knowledge Commons is creating
+                        sustainable, community-owned platforms for scholarly
+                        communication.</p>
+                    <a href="#" class="blog-link">Read more →</a>
+                </article>
+
+                <article class="blog-card">
+                    <time class="blog-date">January 5, 2026</time>
+                    <h3 class="blog-title">New Features: Enhanced Group
+                        Collaboration</h3>
+                    <p class="blog-excerpt">Discover the latest tools for
+                        working together on research projects and sharing
+                        resources.</p>
+                    <a href="#" class="blog-link">Read more →</a>
+                </article>
+
+                <article class="blog-card">
+                    <time class="blog-date">December 28, 2025</time>
+                    <h3 class="blog-title">Join Us at the Annual Commons
+                        Conference</h3>
+                    <p class="blog-excerpt">Register now for our virtual
+                        gathering of scholars, librarians, and open access
+                        advocates.</p>
+                    <a href="#" class="blog-link">Read more →</a>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Wave Divider -->
+<div class="wave-divider">
+    <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg"
+         preserveAspectRatio="none">
+        <path d="M0 120L48 110C96 100 192 80 288 70C384 60 480 60 576 65C672 70 768 80 864 85C960 90 1056 90 1152 85C1248 80 1344 70 1392 65L1440 60V120H1392C1344 120 1248 120 1152 120C1056 120 960 120 864 120C768 120 672 120 576 120C480 120 384 120 288 120C192 120 96 120 48 120H0Z"
+              fill="#faf8f5"/>
+        <path d="M0 120L48 115C96 110 192 100 288 95C384 90 480 90 576 92C672 94 768 98 864 100C960 102 1056 102 1152 98C1248 94 1344 86 1392 82L1440 78V120H1392C1344 120 1248 120 1152 120C1056 120 960 120 864 120C768 120 672 120 576 120C480 120 384 120 288 120C192 120 96 120 48 120H0Z"
+              fill="#a8c5a8" fill-opacity="0.3"/>
+    </svg>
+</div>
+
+<!-- Features Section -->
+<section class="features">
+    <div class="container">
+        <div class="features-header">
+            <h2 class="features-title">A Living Ecosystem of Knowledge</h2>
+            <p class="features-subtitle">Our commons
+                grows stronger with every contribution. Join thousands of
+                scholars, researchers, and creators in building something
+                extraordinary.</p>
+        </div>
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon teal">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="2">
+                        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                        <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                    </svg>
+                </div>
+                <div class="feature-content">
+                    <h3 class="feature-title">Discover <span
+                            class="feature-subtitle">Open Works</span></h3>
+                    <p class="feature-description">Explore our open repository
+                        to find materials relevant to your work and interests.
+                        From journal content to multimedia to datasets and
+                        more, the collection grows daily.</p>
+                    <div class="feature-stats">
+                        <span class="stat-badge">39,000+ Works</span>
+                        <span class="stat-badge">Growing Daily</span>
+                    </div>
+                    <a class="btn-text-arrow" href="https://works.hcommons.org">Learn more →</a>
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon green">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="2">
+                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="9" cy="7" r="4"></circle>
+                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    </svg>
+                </div>
+                <div class="feature-content">
+                    <h3 class="feature-title">Connect <span
+                            class="feature-subtitle">With Others</span></h3>
+                    <p class="feature-description">Connect with others who
+                        share your interests, build community and explore new
+                        wocollaborations. Our work is richer and more fulfilling
+                        when part of a collective.</p>
+                    <div class="feature-stats">
+                        <span class="stat-badge">75,000+ Members</span>
+                        <span class="stat-badge">1,500+ Groups</span>
+                    </div>
+                    <a href="/groups/" class="btn-text-arrow">Learn more →</a>
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon gold">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="2">
+                        <circle cx="18" cy="5" r="3"></circle>
+                        <circle cx="6" cy="12" r="3"></circle>
+                        <circle cx="18" cy="19" r="3"></circle>
+                        <line x1="8.59" y1="13.51" x2="15.42"
+                              y2="17.49"></line>
+                        <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+                    </svg>
+                </div>
+                <div class="feature-content">
+                    <h3 class="feature-title">Share <span
+                            class="feature-subtitle">Your Work</span></h3>
+                    <p class="feature-description">Find the right audience for
+                        your work by sharing it in our open repository, on your
+                        professional profile, or via an easy to use WordPress
+                        site that you control.</p>
+                    <div class="feature-stats">
+                        <span class="stat-badge">Open Repository</span>
+                        <span class="stat-badge">WordPress Sites</span>
+                    </div>
+                    <a href="/sites/" class="btn-text-arrow">Learn more →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Community Section -->
+<section class="community">
+    <div class="container">
+        <div class="community-grid">
+            <div class="community-content">
+                <span class="community-badge">Join the Fediverse</span>
+                <h2 class="community-title">Looking for your place in the
+                    Fediverse?</h2>
+                <p class="community-description">Connect with the Knowledge
+                    Commons community on Mastodon. Share ideas, discuss
+                    research, and be part of a decentralized social network
+                    that values openness and academic freedom.</p>
+                <a href="https://hcommons.social" class="btn-primary"
+                   target="_blank" rel="noopener">
+                    Check out hcommons.social
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="2">
+                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                        <polyline points="15 3 21 3 21 9"></polyline>
+                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                </a>
+            </div>
+
+            <div class="community-card">
+                <div class="mastodon-icon">
+                    <svg width="48" height="48" viewBox="0 0 24 24"
+                         fill="currentColor">
+                        <path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 0 0 .023-.043v-1.809a.052.052 0 0 0-.02-.041.053.053 0 0 0-.046-.01 20.282 20.282 0 0 1-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 0 1-.319-1.433.053.053 0 0 1 .066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.668 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"/>
+                    </svg>
+                </div>
+                <h3 class="mastodon-title">hcommons.social</h3>
+                <p class="mastodon-subtitle">Your academic home in the
+                    Fediverse</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta">
+    <div class="container">
+        <div class="cta-content">
+            <h2 class="cta-title">Ready to Join the Commons?</h2>
+            <p class="cta-description">Create your free account today and
+                become part of a global community dedicated to open knowledge
+                and collaborative scholarship.</p>
+            <div class="cta-buttons">
+                <a href="/membership/" class="btn-white">
+                    Create an Account
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="2">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                </a>
+                <a href="https://sustaining.hcommons.org" class="btn-outline-white">Learn More</a>
+            </div>
+        </div>
+
+        <div class="newsletter">
+            <h3 class="newsletter-title">Subscribe to Our Newsletter</h3>
+            <p class="newsletter-description">Stay updated with the latest
+                news, features, and community highlights.</p>
+            <form action="https://hcommons.us9.list-manage.com/subscribe/post?u=db7b80b27372be53e3cc37dfb&amp;id=ab124b16b0&amp;f_id=003611e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate newsletter-form" target="_self" novalidate="">
+                <input class="newsletter-input" type="email" name="EMAIL" id="mce-EMAIL" required="" value="" placeholder="Enter your email address" />
+                <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn-gold" value="Subscribe" />
+                <div hidden=""><input type="hidden" name="tags" value="12758209"></div>
+                <div id="mce-responses" class="clear">
+                    <div class="response" id="mce-error-response" style="display: none;"></div>
+                    <div class="response" id="mce-success-response" style="display: none;"></div>
+                    <p></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="/" class="logo">
+                    <img src="images/logo-icon.png" alt="K" class="logo-icon">
+                    <span class="logo-text-light">Knowledge Commons</span>
+                </a>
+                <p class="footer-tagline">Open access, open source, open to
+                    all.</p>
+                <div class="social-links">
+                    <a href="https://bsky.app/profile/kcommons.bsky.social" class="social-link" aria-label="Bluesky">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/MESH-Research" class="social-link" aria-label="GitHub">
+                        <svg width="20" height="20" viewBox="0 0 24 24"
+                             fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </a>
+                    <a href="https://hcommons.social" class="social-link"
+                       aria-label="Mastodon">
+                        <svg width="20" height="20" viewBox="0 0 24 24"
+                             fill="currentColor">
+                            <path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 0 0 .023-.043v-1.809a.052.052 0 0 0-.02-.041.053.053 0 0 0-.046-.01 20.282 20.282 0 0 1-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 0 1-.319-1.433.053.053 0 0 1 .066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.668 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"/>
+                        </svg>
+                    </a>
+                    <a href="mailto:hello@hcommons.org" class="social-link" aria-label="Email">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4 class="footer-heading">Resources</h4>
+                    <a href="https://support.hcommons.org/" class="footer-link">Help & Support</a>
+                    <a href="https://team.hcommons.org/" class="footer-link">Team Blog</a>
+                    <a href="https://sustaining.hcommons.org/policies/guidelines/" class="footer-link">Guidelines</a>
+                    <a href="https://about.hcommons.org/terms-of-service/" class="footer-link">Terms of Service</a>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-heading">Community</h4>
+                    <a href="/activity/" class="footer-link">News Feed</a>
+                    <a href="/members/" class="footer-link">Members</a>
+                    <a href="/groups/" class="footer-link">Groups</a>
+                    <a href="/sites/" class="footer-link">Sites</a>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-heading">About</h4>
+                    <a href="https://sustaining.hcommons.org/" class="footer-link">About</a>
+                    <a href="/societies/" class="footer-link">KC Organizations</a>
+                    <a href="https://givingto.msu.edu/causes-to-support/crowdpower/knowledge-commons" class="footer-link">Donate</a>
+                    <a href="mailto:hello@hcommons.org" class="footer-link">Contact</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p class="copyright">© 2026 Knowledge Commons. All rights
+                reserved.</p>
+            <div class="footer-legal">
+                <a href="https://sustaining.hcommons.org/policies/privacy/" class="footer-legal-link">Privacy Policy</a>
+                <a href="https://about.hcommons.org/terms-of-service/" class="footer-legal-link">Terms of Service</a>
+                <a href="http://commonsinabox.org/" class="footer-legal-link">Commons in a Box</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

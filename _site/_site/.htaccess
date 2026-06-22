@@ -1,0 +1,61 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+<Limit GET POST>
+order deny,allow
+deny from all
+allow from all
+</Limit>
+<Limit PUT DELETE>
+order deny,allow
+deny from all
+</Limit>
+AuthName martineve.com
+
+RewriteCond %{HTTP_HOST} ^martineve.com$ [OR]
+RewriteCond %{HTTP_HOST} ^eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.martineve.com$
+RewriteRule ^profile$ "http://www.bbk.ac.uk/english/our-staff/full-time-academic-staff/martin-eve/martin-eve" [R=302,L]
+RewriteRule ^profile/(.*)$ "http://www.bbk.ac.uk/english/our-staff/full-time-academic-staff/martin-eve/martin-eve" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^martineve.com$ [OR]
+RewriteCond %{HTTP_HOST} ^eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.martineve.com$
+RewriteRule ^2018/02/06/who-was-responsible-for-the-toby-jones-ofs-debacle$ "https://www.martineve.com/2018/02/06/who-was-responsible-for-the-toby-young-ofs-debacle/" [R=302,L]
+RewriteRule ^2018/02/06/who-was-responsible-for-the-toby-jones-ofs-debacle/$ "https://www.martineve.com/2018/02/06/who-was-responsible-for-the-toby-young-ofs-debacle/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^eve.gd$ [OR]
+RewriteCond %{HTTPS_HOST} ^eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.meve.io$
+RewriteRule ^sacred$ "http://eprints.bbk.ac.uk/id/eprint/27525" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^martineve.com$ [OR]
+RewriteCond %{HTTP_HOST} ^eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.martineve.com$
+RewriteRule ^pynchonphil$ "http://www.palgrave.com/products/title.aspx?pid=753605" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^martineve.com$ [OR]
+RewriteCond %{HTTP_HOST} ^eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.martineve.com$
+RewriteRule ^oahums$ "http://www.cambridge.org/9781107484016" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^martineve.com$ [OR]
+RewriteCond %{HTTP_HOST} ^eve.gd$ [OR]
+RewriteCond %{HTTP_HOST} ^www.martineve.com$
+RewriteRule ^password$ "http://objectsobjectsobjects.com/password/" [R=302,L]
+
+RewriteRule ^wp-content/(.*)$ /images/$1 [R=301,NC,L]
+
+RewriteRule ^feed$ /feed.xml [R=301,NC,L]
+RewriteRule ^feed/(.*)$ /feed.xml [R=301,NC,L]
+
+RewriteCond %{HTTP_HOST} ^martineve\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.martineve\.com$
+RewriteRule ^(.*)$ https://eve.gd/$1 [R=301,L]
+
+RewriteCond %{HTTPS_HOST} ^martineve\.com$ [OR]
+RewriteCond %{HTTPS_HOST} ^www\.martineve\.com$
+RewriteRule ^(.*)$ https://eve.gd/$1 [R=301,L]
+
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [NC,R=301,L]
