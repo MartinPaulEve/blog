@@ -1,33 +1,68 @@
 /* ========================================
-   Soft Minimalism Design System
+   Editorial Red Design System
    ======================================== */
 
-/* CSS Variables - Color Palette */
+/* CSS Variables - Color Palette (light mode, default) */
 :root {
     /* Primary Colors */
-    --bg-primary: #fafaf9;
+    --bg-primary: #faf8f5;
     --bg-white: #ffffff;
-    --text-primary: #2c3e50;
-    --text-secondary: #7f8c8d;
-    --text-muted: #a0aec0;
-    
+    --text-primary: #1a1a1a;
+    --text-secondary: #5c5853;
+    --text-muted: #8a857d;
+
     /* Accent Colors */
-    --accent-primary: #2dd4bf;
-    --accent-secondary: #6c5ce7;
-    --accent-light: #e0f2f1;
-    
+    --accent-primary: #b3122a;
+    --accent-secondary: #8c0d20;
+    --accent-light: #f7e9eb;
+    --accent-soft: rgba(179, 18, 42, 0.08);
+    --accent-soft-strong: rgba(179, 18, 42, 0.14);
+
     /* Borders & Dividers */
-    --border-color: #e8eaed;
-    --border-light: #f0f0f0;
-    
+    --border-color: #e7e1d7;
+    --border-light: #f0ece4;
+
+    /* Surfaces */
+    --code-bg: #f4f1ec;
+    --code-inline: #b3122a;
+
     /* Shadows */
-    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
-    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.12);
-    --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.15);
-    
+    --shadow-sm: 0 2px 8px rgba(40, 30, 20, 0.05);
+    --shadow-md: 0 8px 24px rgba(40, 30, 20, 0.10);
+    --shadow-lg: 0 12px 32px rgba(40, 30, 20, 0.14);
+
     /* Typography */
-    --font-serif: 'Playfair Display', serif;
-    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-serif: 'Fraunces', Georgia, 'Times New Roman', serif;
+    --font-sans: 'Newsreader', Georgia, 'Times New Roman', serif;
+}
+
+/* Dark mode — striking black + red */
+[data-theme="dark"] {
+    --bg-primary: #0d0d0d;
+    --bg-white: #161616;
+    --text-primary: #f2efe9;
+    --text-secondary: #b3ada3;
+    --text-muted: #7d7870;
+
+    --accent-primary: #e63946;
+    --accent-secondary: #ff5a5a;
+    --accent-light: #2a1416;
+    --accent-soft: rgba(230, 57, 70, 0.12);
+    --accent-soft-strong: rgba(230, 57, 70, 0.20);
+
+    --border-color: #282828;
+    --border-light: #1f1f1f;
+
+    --code-bg: #1c1c1c;
+    --code-inline: #ff7b86;
+
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.45);
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.55);
+    --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.65);
+}
+
+html {
+    background-color: var(--bg-primary);
 }
 
 /* ========================================
@@ -49,8 +84,10 @@ body {
     background-color: var(--bg-primary);
     color: var(--text-primary);
     line-height: 1.6;
+    font-size: 1.0625rem;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .container {
@@ -137,26 +174,24 @@ strong {
 
 .btn-primary {
     background-color: var(--accent-primary);
-    color: white;
-    box-shadow: 0 4px 12px rgba(45, 212, 191, 0.3);
+    color: #fff;
+    box-shadow: 0 4px 12px var(--accent-soft-strong);
 }
 
 .btn-primary:hover {
-    background-color: #1db8a4;
-    box-shadow: 0 6px 20px rgba(45, 212, 191, 0.4);
+    background-color: var(--accent-secondary);
+    box-shadow: 0 6px 20px var(--accent-soft-strong);
     transform: translateY(-2px);
 }
 
 .btn-secondary {
-    background-color: transparent;
     color: var(--text-primary);
     border: 2px solid var(--border-color);
-    background-color: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(10px);
+    background-color: var(--bg-white);
 }
 
 .btn-secondary:hover {
-    background-color: white;
+    background-color: var(--bg-white);
     border-color: var(--accent-primary);
     color: var(--accent-primary);
 }
@@ -177,8 +212,8 @@ strong {
 }
 
 .header.scrolled {
-    background-color: rgba(255, 255, 255, 0.8);
-    backdrop-filter: blur(10px);
+    background-color: var(--bg-primary);
+    border-bottom: 1px solid var(--border-color);
     box-shadow: var(--shadow-sm);
     padding: 0.75rem 0;
 }
@@ -266,6 +301,55 @@ strong {
     transition: all 0.3s ease;
 }
 
+/* Theme toggle */
+.theme-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.25rem;
+    height: 2.25rem;
+    border: 1px solid var(--border-color);
+    border-radius: 50%;
+    background-color: transparent;
+    color: var(--text-secondary);
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.theme-toggle:hover {
+    color: var(--accent-primary);
+    border-color: var(--accent-primary);
+}
+
+/* Show the moon in light mode (click for dark), the sun in dark mode. */
+.theme-toggle .theme-icon-light {
+    display: none;
+}
+
+.theme-toggle .theme-icon-dark {
+    display: inline-block;
+}
+
+[data-theme="dark"] .theme-toggle .theme-icon-light {
+    display: inline-block;
+}
+
+[data-theme="dark"] .theme-toggle .theme-icon-dark {
+    display: none;
+}
+
+/* On mobile the nav collapses; keep the toggle reachable next to the menu button. */
+@media (max-width: 767px) {
+    .nav-desktop .theme-toggle {
+        display: none;
+    }
+
+    .nav-desktop.active .theme-toggle {
+        display: inline-flex;
+    }
+}
+
 /* ========================================
    Hero Section
    ======================================== */
@@ -296,7 +380,7 @@ strong {
 .hero-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4), var(--bg-primary));
+    background: radial-gradient(60% 60% at 70% 30%, var(--accent-soft), transparent 70%);
     z-index: 1;
 }
 
@@ -323,11 +407,13 @@ strong {
     display: inline-block;
     padding: 0.5rem 1rem;
     border-radius: 2rem;
-    background-color: rgba(45, 212, 191, 0.1);
+    background-color: var(--accent-soft);
     color: var(--accent-primary);
-    font-size: 0.875rem;
+    font-size: 0.8125rem;
     font-weight: 500;
-    border: 1px solid rgba(45, 212, 191, 0.2);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    border: 1px solid var(--accent-soft-strong);
     margin-bottom: 1.5rem;
 }
 
@@ -396,11 +482,9 @@ strong {
 
 .profile-glow {
     position: absolute;
-    inset: 0;
+    inset: -0.75rem;
     border-radius: 50%;
-    background: radial-gradient(circle, rgba(45, 212, 191, 0.2), rgba(108, 92, 231, 0.2));
-    filter: blur(3rem);
-    animation: pulse 3s ease-in-out infinite;
+    border: 1px solid var(--accent-soft-strong);
 }
 
 .profile-image {
@@ -408,7 +492,7 @@ strong {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    border: 4px solid white;
+    border: 4px solid var(--bg-white);
     box-shadow: var(--shadow-lg);
     object-fit: cover;
 }
@@ -430,7 +514,7 @@ strong {
 
 .focus-section {
     padding: 6rem 0;
-    background-color: white;
+    background-color: var(--bg-white);
     position: relative;
 }
 
@@ -489,19 +573,12 @@ strong {
     transform: scale(1.1);
 }
 
-.focus-icon-blue {
-    background-color: #dbeafe;
-    color: #0369a1;
-}
-
-.focus-icon-teal {
-    background-color: #ccfbf1;
-    color: #0d9488;
-}
-
+.focus-icon-blue,
+.focus-icon-teal,
 .focus-icon-purple {
-    background-color: #e9d5ff;
-    color: #7c3aed;
+    background-color: var(--accent-soft);
+    color: var(--accent-primary);
+    border: 1px solid var(--accent-soft-strong);
 }
 
 .focus-card h3 {
@@ -519,7 +596,7 @@ strong {
 
 .writings-section {
     padding: 6rem 0;
-    background-color: rgba(250, 250, 249, 0.5);
+    background-color: var(--bg-primary);
 }
 
 .section-header-with-button {
@@ -557,7 +634,7 @@ strong {
 }
 
 .post-card {
-    background-color: white;
+    background-color: var(--bg-white);
     border: 1px solid var(--border-color);
     border-radius: 1rem;
     padding: 2rem;
@@ -580,7 +657,7 @@ strong {
 
 .post-date {
     display: inline-block;
-    background-color: rgba(45, 212, 191, 0.1);
+    background-color: var(--accent-soft);
     color: var(--text-secondary);
     padding: 0.25rem 0.75rem;
     border-radius: 0.375rem;
@@ -589,7 +666,7 @@ strong {
 
 .post-category {
     display: inline-block;
-    background-color: rgba(45, 212, 191, 0.1);
+    background-color: var(--accent-soft);
     color: var(--accent-primary);
     padding: 0.25rem 0.75rem;
     border-radius: 0.375rem;
@@ -634,12 +711,12 @@ strong {
 
 .book-section {
     padding: 6rem 0;
-    background-color: white;
+    background-color: var(--bg-white);
 }
 
 .book-container {
-    background: linear-gradient(135deg, rgba(45, 212, 191, 0.05), rgba(108, 92, 231, 0.05));
-    border: 1px solid rgba(45, 212, 191, 0.1);
+    background: linear-gradient(135deg, var(--accent-soft), transparent);
+    border: 1px solid var(--accent-soft-strong);
     border-radius: 2rem;
     padding: 2rem;
     display: grid;
@@ -677,7 +754,7 @@ strong {
     display: inline-block;
     padding: 0.5rem 1rem;
     border-radius: 2rem;
-    background-color: white;
+    background-color: var(--bg-white);
     color: var(--accent-primary);
     font-size: 0.875rem;
     font-weight: 500;
@@ -707,7 +784,7 @@ strong {
    ======================================== */
 
 .footer {
-    background-color: rgba(250, 250, 249, 0.5);
+    background-color: var(--bg-white);
     border-top: 1px solid var(--border-color);
     padding: 4rem 0 2rem;
 }
@@ -769,7 +846,8 @@ strong {
     justify-content: center;
     width: 2.5rem;
     height: 2.5rem;
-    background-color: white;
+    background-color: var(--bg-primary);
+    border: 1px solid var(--border-color);
     border-radius: 50%;
     box-shadow: var(--shadow-sm);
     color: var(--text-secondary);
@@ -946,22 +1024,33 @@ div p span.bibitem {
     width: 75%;
 }
 
+/* Publications: green = green-OA, goldenrod = gold-OA. These inline-coloured
+   links carry meaning, so keep them in both themes but brighten for legibility
+   against the dark background. Light mode is left exactly as authored. */
+[data-theme="dark"] [style*="color:green"] {
+    color: #5fd07a !important;
+}
+
+[data-theme="dark"] [style*="color:goldenrod"] {
+    color: #e3b341 !important;
+}
+
 .social-links.row-two {
     margin-top: 1.5rem;
 }
 
 .image-attribution {
     font-size: 0.85em;
-    color: #666;
+    color: var(--text-secondary);
     margin-top: 8px;
     padding: 10px;
-    background-color: #f5f5f5;
-    border-left: 3px solid #ddd;
+    background-color: var(--code-bg);
+    border-left: 3px solid var(--border-color);
     border-radius: 4px;
 }
 
 .image-attribution a {
-    color: #0066cc;
+    color: var(--accent-primary);
     text-decoration: none;
 }
 
