@@ -68,9 +68,9 @@
     --surface-alt: #1b1b1d;
 
     /* Elevated card surfaces give dark mode real depth/contrast. */
-    --card-bg: #1c1c1f;
+    --card-bg: #202024;
     --card-border: #2e2e30;
-    --stories-bg: #121214;
+    --stories-bg: #16161a;
 
     --border-color: #282828;
     --border-light: #1f1f1f;
@@ -222,6 +222,7 @@ strong {
    Header
    ======================================== */
 
+/* Global black nav for continuity across every page. */
 .header {
     position: fixed;
     top: 0;
@@ -229,14 +230,14 @@ strong {
     right: 0;
     z-index: 1000;
     transition: all 0.3s ease;
-    background-color: var(--bg-white);
-    border-bottom: 1px solid var(--border-color);
+    background-color: #0b0b0b;
+    border-bottom: 1px solid #222;
     padding: 0.6rem 0;
 }
 
 .header.scrolled {
-    background-color: var(--bg-white);
-    box-shadow: var(--shadow-sm);
+    background-color: #0b0b0b;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.5);
     padding: 0.6rem 0;
 }
 
@@ -250,7 +251,7 @@ strong {
     font-family: var(--font-serif);
     font-size: 1.5rem;
     font-weight: 700;
-    color: var(--text-primary);
+    color: #fff;
     text-decoration: none;
     transition: opacity 0.2s ease;
 }
@@ -290,14 +291,14 @@ strong {
 .nav-link {
     font-size: 0.875rem;
     font-weight: 500;
-    color: var(--text-secondary);
+    color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
     transition: color 0.2s ease;
 }
 
 .nav-link:hover,
 .nav-link.active {
-    color: var(--accent-primary);
+    color: #fff;
 }
 
 .menu-toggle {
@@ -319,7 +320,7 @@ strong {
 .menu-toggle span {
     width: 24px;
     height: 2px;
-    background-color: var(--text-primary);
+    background-color: #fff;
     transition: all 0.3s ease;
 }
 
@@ -330,18 +331,18 @@ strong {
     justify-content: center;
     width: 2.25rem;
     height: 2.25rem;
-    border: 1px solid var(--border-color);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 50%;
     background-color: transparent;
-    color: var(--text-secondary);
+    color: rgba(255, 255, 255, 0.85);
     cursor: pointer;
     font-size: 0.95rem;
     transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
 }
 
 .theme-toggle:hover {
-    color: var(--accent-primary);
-    border-color: var(--accent-primary);
+    color: #fff;
+    border-color: #fff;
 }
 
 /* Show the moon in light mode (click for dark), the sun in dark mode. */
@@ -376,48 +377,8 @@ strong {
    Homepage — Literature × Technology
    ======================================== */
 
-/* Homepage nav: transparent over the dark masthead, light text */
-.home-page .header {
-    background-color: transparent;
-    border-bottom: none;
-}
-
-.home-page .header:not(.scrolled) .logo,
-.home-page .header:not(.scrolled) .nav-link {
-    color: rgba(255, 255, 255, 0.85);
-}
-
-.home-page .header:not(.scrolled) .nav-link:hover {
-    color: #fff;
-}
-
-.home-page .header:not(.scrolled) .theme-toggle {
-    color: rgba(255, 255, 255, 0.85);
-    border-color: rgba(255, 255, 255, 0.3);
-}
-
-.home-page .header:not(.scrolled) .menu-toggle span {
-    background-color: #fff;
-}
-
-.home-page .header.scrolled {
-    background-color: #0b0b0b;
-    border-bottom: 1px solid #222;
-}
-
-.home-page .header.scrolled .logo,
-.home-page .header.scrolled .nav-link {
-    color: rgba(255, 255, 255, 0.85);
-}
-
-.home-page .header.scrolled .nav-link:hover {
-    color: #fff;
-}
-
-.home-page .header.scrolled .theme-toggle {
-    color: #fff;
-    border-color: rgba(255, 255, 255, 0.3);
-}
+/* The global nav is already black, so on the homepage it merges seamlessly
+   into the dark masthead — no page-specific override needed. */
 
 /* Shared eyebrow */
 .eyebrow {
@@ -429,12 +390,19 @@ strong {
 }
 
 /* --- Masthead: dramatic, always dark in both themes --- */
+/* --slope-v: vertical drop of the diagonal across the full viewport width.
+   --slope-p: the SAME ~4deg angle expressed over the 22rem portrait width
+   (22rem * tan(4deg) ≈ 1.54rem) so the two tapers stay parallel. */
 .masthead {
+    --slope-v: 7vw;
+    --slope-p: 1.54rem;
     background-color: #0b0b0b;
     color: #f4f1ec;
-    padding: 9rem 0 4.5rem;
+    padding: 8rem 0 calc(4rem + var(--slope-v));
     overflow: hidden;
     position: relative;
+    z-index: 2;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - var(--slope-v)));
 }
 
 .masthead::after {
@@ -553,6 +521,8 @@ strong {
     inset: 1.25rem -1.25rem -1.25rem 1.25rem;
     background-color: var(--accent-primary);
     z-index: 0;
+    /* Same taper angle as the masthead, so photo + block + band rhyme. */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - var(--slope-p)));
 }
 
 .masthead-portrait img {
@@ -564,6 +534,7 @@ strong {
     object-fit: cover;
     filter: grayscale(1) contrast(1.08);
     transition: filter 0.4s ease;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - var(--slope-p)));
 }
 
 .masthead-portrait:hover img {
@@ -571,9 +542,13 @@ strong {
 }
 
 /* --- Stories: image-led story grid --- */
+/* Slides up under the masthead so its diagonal cleanly reveals this section. */
 .stories {
     background-color: var(--stories-bg);
-    padding: 5rem 0 6rem;
+    position: relative;
+    z-index: 1;
+    margin-top: -7vw;
+    padding: calc(5rem + 7vw) 0 6rem;
 }
 
 .stories-head {
