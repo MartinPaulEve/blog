@@ -3,7 +3,7 @@
 <head>
     {% include _head.html %}
 </head>
-<body>
+<body class="home-page">
 <!-- Header -->
 <header class="header">
     <div class="container header-content">
@@ -12,86 +12,77 @@
 </header>
 
 <main>
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-background">
-            <div class="hero-overlay"></div>
-        </div>
-
-        <div class="container hero-content">
-            <div class="hero-text">
-                <div class="tagline">Literature • Publishing • Technology</div>
-                <h1 class="hero-title">Martin Paul <span class="accent">Eve</span></h1>
-                <p class="hero-subtitle">
-                    Professor of Literature, Technology and Publishing at <strong>Birkbeck, University of London</strong>. <br/>
-                    Technical Lead for Knowledge Commons at <strong>Michigan State University</strong>.
-                </p>
-                <div class="hero-buttons">
-                    <a href="/about/" class="btn btn-primary">View Publications</a>
-                    <a href="mailto:martin@eve.gd" class="btn btn-secondary">Contact Me</a>
+    <!-- Masthead -->
+    <section class="masthead">
+        <div class="container masthead-inner">
+            <div class="masthead-text">
+                <span class="eyebrow">Literature &times; Technology &times; Publishing</span>
+                <h1 class="masthead-name">Martin Paul <span class="lastname">Eve</span></h1>
+                <p class="masthead-role">Professor of Literature, Technology and Publishing at <strong>Birkbeck, University of London</strong>, and Technical Lead for Knowledge Commons at <strong>Michigan State University</strong>.</p>
+                <div class="masthead-actions">
+                    <a href="/about/" class="btn-bold">Publications</a>
+                    <a href="/posts/" class="btn-ghost">Writing</a>
                 </div>
             </div>
-
-            <div class="hero-image-container">
-                <div class="profile-circle">
-                    <div class="profile-glow"></div>
-                    <img src="/images/mpe.png" alt="Martin Paul Eve" class="profile-image">
-                </div>
+            <div class="masthead-portrait">
+                <img src="/images/mpe.png" alt="Martin Paul Eve">
             </div>
         </div>
-
     </section>
 
-    <!-- Recent Writings Section -->
-    <section class="writings-section">
+    <!-- Recent writing -->
+    <section class="stories">
         <div class="container">
-            <div class="section-header-with-button">
+            <div class="stories-head">
                 <div>
-                    <h2>Recent Writings</h2>
-                    <p>Thoughts on technology, publishing, and academic life.</p>
+                    <span class="stories-kicker">From the blog</span>
+                    <h2 class="stories-title">Recent writing</h2>
                 </div>
-                <a href="/posts/" class="btn btn-secondary">View All Posts →</a>
+                <a href="/posts/" class="stories-link">All posts &rarr;</a>
             </div>
 
-            <div class="posts-grid">
-                {% for post in site.posts limit:6 %}
-                <article class="post-card">
-                    <div class="post-meta">
-                        <span class="post-date">{{ post.date| date: "%-d %B %Y" }}</span>
-                    </div>
-                    {% if post.link %}
-                        <a href="{{ post.link }}"><h3 class="post-title">{{ post.title }}</h3></a>
-                    {% else %}
-                        <a href="{{ post.url }}"><h3 class="post-title">{{ post.title }}</h3></a>
-                    {% endif %}
-                    <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</p>
-                    {% if post.link %}
-                        <a href="{{ post.link }}" class="post-link">Read Article →</a>
-                    {% else %}
-                        <a href="{{ post.url }}" class="post-link">Read Article →</a>
-                    {% endif %}
+            {% assign lead = site.posts | first %}
+            <a class="story-lead" href="{% if lead.link %}{{ lead.link }}{% else %}{{ lead.url }}{% endif %}">
+                {% if lead.image.feature %}<img src="/images/{{ lead.image.feature }}" alt="">{% endif %}
+                <span class="story-pill">{{ lead.date | date: "%d.%m.%y" }}</span>
+                <span class="story-lead-body">
+                    <span class="story-lead-title">{{ lead.title }}</span>
+                </span>
+            </a>
+
+            <div class="story-grid">
+                {% for post in site.posts offset:1 limit:6 %}
+                {% if post.link %}{% assign href = post.link %}{% else %}{% assign href = post.url %}{% endif %}
+                <article class="story">
+                    <a class="story-media" href="{{ href }}">
+                        {% if post.image.feature %}
+                        <img src="/images/{{ post.image.feature }}" alt="" loading="lazy">
+                        {% else %}
+                        <span class="story-media-fallback">{{ post.title | strip_html | slice: 0 }}</span>
+                        {% endif %}
+                        <span class="story-pill">{{ post.date | date: "%d.%m.%y" }}</span>
+                    </a>
+                    <h3 class="story-title"><a href="{{ href }}">{{ post.title }}</a></h3>
+                    <p class="story-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
                 </article>
                 {% endfor %}
             </div>
         </div>
     </section>
 
-    <!-- Featured Book Section -->
-    <section class="book-section">
-        <div class="container">
-            <div class="book-container">
-                <div class="book-image">
-                    <img class="img-book-image" src="/books/31744" alt="Book Cover">
-                </div>
-
-                <div class="book-content">
-                    <div class="book-label">Latest Book</div>
-                    <h2>Theses on the Metaphors of Digital-Textual History</h2>
-                    <p>An exploration of how digital technologies are reshaping the way we write, publish, and read in the 21st century. This book argues for a radical rethinking of scholarly communication.</p>
-                    <div class="book-buttons">
-                        <a href="https://www.sup.org/openebook/9781503639393" class="btn btn-primary">Read Open Access</a>
-                        <a href="https://www.sup.org/books/media-studies/theses-metaphors-digital-textual-history" class="btn btn-secondary">Buy Print Copy</a>
-                    </div>
+    <!-- Latest book -->
+    <section class="feature-book">
+        <div class="container feature-book-inner">
+            <div class="fb-cover">
+                <img class="img-book-image" src="/books/31744" alt="Theses on the Metaphors of Digital-Textual History">
+            </div>
+            <div class="fb-content">
+                <span class="fb-kicker">Latest book</span>
+                <h2 class="fb-title">Theses on the Metaphors of Digital-Textual History</h2>
+                <p class="fb-text">How digital technologies reshape the way we write, publish, and read &mdash; and a case for rethinking scholarly communication for the twenty-first century.</p>
+                <div class="fb-actions">
+                    <a href="https://www.sup.org/openebook/9781503639393" class="btn-bold">Read open access</a>
+                    <a href="https://www.sup.org/books/media-studies/theses-metaphors-digital-textual-history" class="btn-ghost">Buy print</a>
                 </div>
             </div>
         </div>
