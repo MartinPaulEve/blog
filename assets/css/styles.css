@@ -31,6 +31,12 @@
     --card-border: #e7e1d7;
     --stories-bg: #ffffff;
 
+    /* Diagonal taper. --slope-v: drop across the full viewport width;
+       --slope-p: the SAME ~4deg angle over the 22rem portrait width. */
+    --slope-v: 7vw;
+    --slope-p: 1.54rem;
+    --hairline: #e63946;
+
     /* Borders & Dividers */
     --border-color: #e7e1d7;
     --border-light: #f0ece4;
@@ -390,19 +396,24 @@ strong {
 }
 
 /* --- Masthead: dramatic, always dark in both themes --- */
-/* --slope-v: vertical drop of the diagonal across the full viewport width.
-   --slope-p: the SAME ~4deg angle expressed over the 22rem portrait width
-   (22rem * tan(4deg) ≈ 1.54rem) so the two tapers stay parallel. */
+/* Red base + a black fill raised 1.5px leaves a thin red hairline along the
+   diagonal (clip-path would clip a drop-shadow, so we layer instead). */
 .masthead {
-    --slope-v: 7vw;
-    --slope-p: 1.54rem;
-    background-color: #0b0b0b;
+    background-color: var(--hairline);
     color: #f4f1ec;
     padding: 8rem 0 calc(4rem + var(--slope-v));
-    overflow: hidden;
     position: relative;
     z-index: 2;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - var(--slope-v)));
+}
+
+.masthead::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background-color: #0b0b0b;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 1.5px), 0 calc(100% - var(--slope-v) - 1.5px));
 }
 
 .masthead::after {
@@ -412,13 +423,14 @@ strong {
     right: -10%;
     width: 50vw;
     height: 50vw;
+    z-index: 1;
     background: radial-gradient(circle, rgba(230, 57, 70, 0.30), transparent 65%);
     pointer-events: none;
 }
 
 .masthead-inner {
     position: relative;
-    z-index: 1;
+    z-index: 2;
     display: grid;
     grid-template-columns: 1fr;
     gap: 3rem;
@@ -542,13 +554,14 @@ strong {
 }
 
 /* --- Stories: image-led story grid --- */
-/* Slides up under the masthead so its diagonal cleanly reveals this section. */
+/* Slides up under the masthead (top) and under the book band (bottom) so both
+   diagonals cleanly reveal this section. */
 .stories {
     background-color: var(--stories-bg);
     position: relative;
     z-index: 1;
-    margin-top: -7vw;
-    padding: calc(5rem + 7vw) 0 6rem;
+    margin-top: calc(-1 * var(--slope-v));
+    padding: calc(5rem + var(--slope-v)) 0 calc(6rem + var(--slope-v));
 }
 
 .stories-head {
@@ -748,13 +761,24 @@ strong {
     line-height: 1.55;
 }
 
-/* --- Feature book: second dark band --- */
+/* --- Feature book: second dark band, diagonal top to echo the masthead --- */
 .feature-book {
-    background-color: #0b0b0b;
+    background-color: var(--hairline);
     color: #f4f1ec;
-    padding: 5.5rem 0;
+    padding: calc(5.5rem + var(--slope-v)) 0 5.5rem;
     position: relative;
-    overflow: hidden;
+    z-index: 2;
+    margin-top: calc(-1 * var(--slope-v));
+    clip-path: polygon(0 0, 100% var(--slope-v), 100% 100%, 0 100%);
+}
+
+.feature-book::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background-color: #0b0b0b;
+    clip-path: polygon(0 1.5px, 100% calc(var(--slope-v) + 1.5px), 100% 100%, 0 100%);
 }
 
 .feature-book::after {
@@ -764,13 +788,14 @@ strong {
     left: -10%;
     width: 45vw;
     height: 45vw;
+    z-index: 1;
     background: radial-gradient(circle, rgba(230, 57, 70, 0.22), transparent 65%);
     pointer-events: none;
 }
 
 .feature-book-inner {
     position: relative;
-    z-index: 1;
+    z-index: 2;
     display: grid;
     grid-template-columns: 1fr;
     gap: 3rem;

@@ -2,40 +2,6 @@
    Blog Post Page Styles
    ======================================== */
 
-/* Breadcrumb Navigation */
-.breadcrumb-section {
-    background-color: var(--bg-white);
-    border-bottom: 1px solid var(--border-color);
-    padding: 1rem 0;
-    margin-top: 3.5rem;
-}
-
-.breadcrumb-section .container {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    font-size: 0.875rem;
-}
-
-.breadcrumb-section a {
-    color: var(--accent-primary);
-    text-decoration: none;
-    transition: color 0.2s ease;
-}
-
-.breadcrumb-section a:hover {
-    color: var(--accent-secondary);
-}
-
-.breadcrumb-section span {
-    color: var(--text-muted);
-}
-
-.breadcrumb-section span:last-child {
-    color: var(--text-secondary);
-    font-weight: 500;
-}
-
 /* Blog Post Header */
 .blog-post {
     background-color: var(--bg-white);
@@ -45,10 +11,11 @@
     background-color: var(--bg-white);
 }
 
+/* Top padding clears the fixed black nav (breadcrumb used to do this). */
 .post-header {
     background-color: var(--bg-white);
     border-bottom: 1px solid var(--border-color);
-    padding: 2rem 0 1.75rem;
+    padding: 5rem 0 1.75rem;
 }
 
 .post-header .container {
