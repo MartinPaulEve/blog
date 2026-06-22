@@ -22,6 +22,53 @@
     max-width: 1200px;
 }
 
+/* Striking black + red post header with the homepage's diagonal taper.
+   Red base + black overlay raised 2.5px leaves the red hairline; the clipped
+   triangle reveals the white article background below. */
+.post-header--hero {
+    position: relative;
+    background-color: var(--hairline);
+    border-bottom: none;
+    padding: 5rem 0 calc(2rem + var(--slope-v));
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - var(--slope-v)));
+}
+
+.post-header--hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background-color: #0b0b0b;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 2.5px), 0 calc(100% - var(--slope-v) - 2.5px));
+}
+
+.post-header--hero .container {
+    position: relative;
+    z-index: 1;
+}
+
+.post-header--hero .post-title {
+    color: #fff;
+}
+
+.post-header--hero .post-description {
+    color: #b8b2a9;
+}
+
+.post-header--hero .post-description strong {
+    color: #fff;
+}
+
+.post-header--hero a {
+    color: var(--name-red);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.post-header--hero a:hover {
+    color: #fff;
+}
+
 .post-meta-top {
     display: flex;
     gap: 1rem;

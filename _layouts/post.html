@@ -15,7 +15,7 @@
 <main>
     <!-- Blog Post Header -->
     <article class="blog-post">
-        <div class="post-header">
+        <div class="post-header post-header--hero">
             <div class="container">
                 <h1 class="post-title">{{ page.title }}</h1>
                 <p class="post-description"><strong>Cite as:</strong> Martin Paul Eve, "{{ page.title }}", <i>https://eve.gd</i>, <time itemprop="datePublished {% if page.modified %}{% else %}dateModified{% endif %}" datetime="{{ page.date |  date: "%B %d, %Y"  }}">{{ page.date | date: "%B %d, %Y" }}</time>, <a href="{{ page.doi }}">{{ page.doi }}</a>.</p>
