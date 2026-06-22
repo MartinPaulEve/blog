@@ -32,6 +32,22 @@
     }
 })();
 
+// Mastodon share: Mastodon has no central share URL, so ask for the user's
+// instance (remembered) and open its /share composer.
+document.querySelectorAll('[data-share-mastodon]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+        let instance;
+        try { instance = localStorage.getItem('mastodon-instance') || ''; } catch (e) { instance = ''; }
+        instance = window.prompt('Enter your Mastodon instance (e.g. mastodon.social):', instance);
+        if (!instance) return;
+        instance = instance.trim().replace(/^https?:\/\//, '').replace(/\/+$/, '');
+        if (!instance) return;
+        try { localStorage.setItem('mastodon-instance', instance); } catch (e) {}
+        const text = (btn.dataset.title || '') + ' ' + (btn.dataset.url || '');
+        window.open('https://' + instance + '/share?text=' + encodeURIComponent(text), '_blank', 'noopener');
+    });
+});
+
 // Header scroll effect
 const header = document.querySelector('.header');
 const menuToggle = document.querySelector('.menu-toggle');
