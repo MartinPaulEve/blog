@@ -422,6 +422,7 @@ strong {
     padding: 8rem 0 calc(4rem + var(--slope-v));
     position: relative;
     z-index: 2;
+    overflow: hidden;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - var(--slope-v)));
 }
 
@@ -787,6 +788,7 @@ strong {
     position: relative;
     z-index: 2;
     margin-top: calc(-1 * var(--slope-v));
+    overflow: hidden;
     clip-path: polygon(0 0, 100% var(--slope-v), 100% 100%, 0 100%);
 }
 
