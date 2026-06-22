@@ -21,6 +21,10 @@
     /* Hero / header backdrop: plain in light, a red glow only in dark. */
     --hero-glow: transparent;
 
+    /* Neutral alternate surface (sections, blockquotes) — deliberately not
+       warm/cream and not red/pink. */
+    --surface-alt: #ebebee;
+
     /* Borders & Dividers */
     --border-color: #e7e1d7;
     --border-light: #f0ece4;
@@ -54,6 +58,8 @@
     --accent-soft-strong: rgba(230, 57, 70, 0.20);
 
     --hero-glow: radial-gradient(60% 60% at 70% 30%, rgba(230, 57, 70, 0.22), transparent 70%);
+
+    --surface-alt: #1b1b1d;
 
     --border-color: #282828;
     --border-light: #1f1f1f;
@@ -414,13 +420,13 @@ strong {
     display: inline-block;
     padding: 0.5rem 1rem;
     border-radius: 2rem;
-    background-color: var(--accent-soft);
+    background-color: var(--surface-alt);
     color: var(--accent-primary);
     font-size: 0.8125rem;
     font-weight: 500;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    border: 1px solid var(--accent-soft-strong);
+    border: 1px solid var(--border-color);
     margin-bottom: 1.5rem;
 }
 
@@ -510,7 +516,7 @@ strong {
 
 .writings-section {
     padding: 6rem 0;
-    background-color: var(--bg-primary);
+    background-color: var(--surface-alt);
 }
 
 .section-header-with-button {
@@ -571,7 +577,7 @@ strong {
 
 .post-date {
     display: inline-block;
-    background-color: var(--accent-soft);
+    background-color: var(--surface-alt);
     color: var(--text-secondary);
     padding: 0.25rem 0.75rem;
     border-radius: 0.375rem;
@@ -580,7 +586,7 @@ strong {
 
 .post-category {
     display: inline-block;
-    background-color: var(--accent-soft);
+    background-color: var(--surface-alt);
     color: var(--accent-primary);
     padding: 0.25rem 0.75rem;
     border-radius: 0.375rem;
@@ -629,8 +635,8 @@ strong {
 }
 
 .book-container {
-    background: linear-gradient(135deg, var(--accent-soft), transparent);
-    border: 1px solid var(--accent-soft-strong);
+    background: var(--surface-alt);
+    border: 1px solid var(--border-color);
     border-radius: 2rem;
     padding: 2rem;
     display: grid;
