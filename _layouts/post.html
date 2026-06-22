@@ -17,23 +17,12 @@
     <article class="blog-post">
         <div class="post-header">
             <div class="container">
-                <div class="post-meta-top">
-                    <span class="post-date">{{ page.date| date: "%-d %B %Y" }}</span>
-                </div>
                 <h1 class="post-title">{{ page.title }}</h1>
                 <p class="post-description"><strong>Cite as:</strong> Martin Paul Eve, "{{ page.title }}", <i>https://eve.gd</i>, <time itemprop="datePublished {% if page.modified %}{% else %}dateModified{% endif %}" datetime="{{ page.date |  date: "%B %d, %Y"  }}">{{ page.date | date: "%B %d, %Y" }}</time>, <a href="{{ page.doi }}">{{ page.doi }}</a>.</p>
 
                 {% if page.backlink %}<p class="post-description post-related">This post <strong>follows-on from</strong>: {% for link in page.backlink %}“{% post_link {{link}} %}”{% if forloop.last != true %},{% endif %}{% endfor %}</p>{% endif %}
 
                 {% if page.forwardlink %}<p class="post-description post-related">This post has (a) <strong>follow-up</strong> post(s): {% for link in page.forwardlink %}“{% post_link {{link}} %}”{% if forloop.last != true %},{% endif %}{% endfor %}</p>{% endif %}
-
-                <div class="post-author">
-                    <img src="/images/mpe.png" alt="Martin Paul Eve" class="author-avatar">
-                    <div class="author-info">
-                        <div class="author-name">Martin Paul Eve</div>
-                        <div class="author-title">Professor of Literature, Technology and Publishing</div>
-                    </div>
-                </div>
             </div>
         </div>
 
@@ -53,16 +42,22 @@
 
                 <!-- Post Sidebar -->
                 <aside class="post-sidebar">
+                    <div class="sidebar-widget sidebar-author">
+                        <img src="/images/mpe.png" alt="Martin Paul Eve" class="sidebar-author-avatar">
+                        <div class="sidebar-author-name">Martin Paul Eve</div>
+                        <div class="sidebar-author-title">Professor of Literature, Technology and Publishing</div>
+                    </div>
+
                     <div class="sidebar-widget">
                         <h3>Share This Post</h3>
                         <div class="share-buttons">
-                            <a href="https://bsky.app/intent/compose?text={{ page.title | url_param_escape | replace: ' ', '+' }}+{{ site.url | url_param_escape }}{{ page.url | url_param_escape }}" class="share-btn share-bluesky" title="Share on Bluesky">
+                            <a href="https://bsky.app/intent/compose?text={{ page.title | url_param_escape | replace: ' ', '+' }}+{{ site.url | url_param_escape }}{{ page.url | url_param_escape }}" class="share-btn share-bluesky" aria-label="Share on Bluesky" title="Share on Bluesky">
                                 <i class="fa-brands fa-square-bluesky" aria-hidden="true"></i>
                             </a>
-                            <button type="button" class="share-btn share-mastodon" data-share-mastodon data-title="{{ page.title | escape }}" data-url="{{ site.url }}{{ page.url }}" title="Share on Mastodon">
+                            <button type="button" class="share-btn share-mastodon" data-share-mastodon data-title="{{ page.title | escape }}" data-url="{{ site.url }}{{ page.url }}" aria-label="Share on Mastodon" title="Share on Mastodon">
                                 <i class="fa-brands fa-mastodon" aria-hidden="true"></i>
                             </button>
-                            <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url | url_param_escape }}{{ page.url | url_param_escape }}" class="share-btn share-facebook" title="Share on Facebook">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url | url_param_escape }}{{ page.url | url_param_escape }}" class="share-btn share-facebook" aria-label="Share on Facebook" title="Share on Facebook">
                                 <i class="fa-brands fa-square-facebook" aria-hidden="true"></i>
                             </a>
 

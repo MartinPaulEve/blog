@@ -9,7 +9,9 @@
     --bg-white: #ffffff;
     --text-primary: #1a1a1a;
     --text-secondary: #5c5853;
-    --text-muted: #8a857d;
+    --text-muted: #6f6a60;
+    /* Kicker red that meets AA on the stories surface in each theme. */
+    --kicker-red: #b3122a;
 
     /* Accent Colors */
     --accent-primary: #b3122a;
@@ -63,7 +65,8 @@
     --bg-white: #161616;
     --text-primary: #f2efe9;
     --text-secondary: #b3ada3;
-    --text-muted: #7d7870;
+    --text-muted: #8f8a80;
+    --kicker-red: #f23044;
 
     --accent-primary: #e63946;
     --accent-secondary: #ff5a5a;
@@ -179,6 +182,18 @@ a {
 
 a:hover {
     color: var(--accent-secondary);
+}
+
+/* Visible keyboard focus indicator (WCAG 2.4.7), works on light and dark. */
+a:focus-visible,
+button:focus-visible,
+.btn:focus-visible,
+.theme-toggle:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+    outline: 2px solid var(--name-red);
+    outline-offset: 2px;
+    border-radius: 2px;
 }
 
 strong {
@@ -389,13 +404,13 @@ strong {
 /* The global nav is already black, so on the homepage it merges seamlessly
    into the dark masthead — no page-specific override needed. */
 
-/* Shared eyebrow */
+/* Shared eyebrow (sits on the always-black masthead band) */
 .eyebrow {
     font-family: var(--font-mono);
     font-size: 0.75rem;
     letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: var(--accent-primary);
+    color: var(--name-red);
 }
 
 /* --- Masthead: dramatic, always dark in both themes --- */
@@ -581,7 +596,7 @@ strong {
     font-size: 0.75rem;
     letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: var(--accent-primary);
+    color: var(--kicker-red);
     display: block;
     margin-bottom: 0.5rem;
 }
@@ -829,7 +844,7 @@ strong {
     font-size: 0.75rem;
     letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: var(--accent-primary);
+    color: var(--name-red);
     display: block;
     margin-bottom: 1rem;
 }
