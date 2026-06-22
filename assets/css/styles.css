@@ -486,7 +486,7 @@ strong {
     font-family: var(--font-sans);
     font-size: 1.1rem;
     line-height: 1.6;
-    color: #b8b2a9;
+    color: #ffffff;
     max-width: 34rem;
     margin-bottom: 2.5rem;
 }
@@ -859,7 +859,7 @@ strong {
 
 .fb-text {
     font-family: var(--font-sans);
-    color: #b8b2a9;
+    color: #ffffff;
     font-size: 1.05rem;
     line-height: 1.6;
     max-width: 36rem;
