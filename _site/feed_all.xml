@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="https://eve.gd/feed.xml" />
 <link rel="alternate" type="text/html" href="https://eve.gd" />
-<updated>2026-06-23T10:41:02+01:00</updated>
+<updated>2026-06-23T11:01:10+01:00</updated>
 <id>https://eve.gd/</id>
 <author>
   <name>Martin Paul Eve</name>
@@ -29,13 +29,10 @@
   <content type="html"><![CDATA[
     &lt;p&gt;This is a quick “how-to” post because I learned something about Zotero. I want the posts on this site to be easily citeable. The name of the site that I would like in citations is “eve.gd: Martin Paul Eve”. But here’s the problem: when you put that as a Blog Title (or Website Title) and then go to cite it in a document, the CSL reformats it to the ugly “Eve.Gd: Martin Paul Eve”. Anyway, I found how to fix this! You simply encode it thus:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&quot;&amp;lt;span class=&quot;nocase&quot;&amp;gt;eve.gd&amp;lt;/span&amp;gt;: Martin Paul Eve&quot;. 
+&lt;pre&gt;&lt;code&gt;&amp;lt;span class=&quot;nocase&quot;&amp;gt;eve.gd&amp;lt;/span&amp;gt;: Martin Paul Eve 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Then the CSL will preserve your original case.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;span class=&quot;nocase&quot;&amp;gt;bell hooks&amp;lt;/span&amp;gt; might have found this useful, as might &amp;lt;span class=&quot;nocase&quot;&amp;gt;andré carrington&amp;lt;/span&amp;gt;.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then the CSL will preserve your original case. &lt;code&gt;&amp;lt;span class=&quot;nocase&quot;&amp;gt;bell hooks&amp;lt;/span&amp;gt;&lt;/code&gt; might have found this useful, as might &lt;code&gt;&amp;lt;span class=&quot;nocase&quot;&amp;gt;andré carrington&amp;lt;/span&amp;gt;&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;Mind you, those two are jokes only, as Zotero automatically preserves the casing of author names.&lt;/p&gt;
 

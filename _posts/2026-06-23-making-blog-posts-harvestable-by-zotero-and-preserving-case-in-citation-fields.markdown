@@ -11,11 +11,9 @@ archive: "https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/202
 ---
 This is a quick "how-to" post because I learned something about Zotero. I want the posts on this site to be easily citeable. The name of the site that I would like in citations is "eve.gd: Martin Paul Eve". But here's the problem: when you put that as a Blog Title (or Website Title) and then go to cite it in a document, the CSL reformats it to the ugly "Eve.Gd: Martin Paul Eve". Anyway, I found how to fix this! You simply encode it thus: 
 
-    "<span class="nocase">eve.gd</span>: Martin Paul Eve". 
+    <span class="nocase">eve.gd</span>: Martin Paul Eve 
 
-Then the CSL will preserve your original case.
-
-    <span class="nocase">bell hooks</span> might have found this useful, as might <span class="nocase">andré carrington</span>.
+Then the CSL will preserve your original case. `<span class="nocase">bell hooks</span>` might have found this useful, as might `<span class="nocase">andré carrington</span>`.
 
 Mind you, those two are jokes only, as Zotero automatically preserves the casing of author names.
 
