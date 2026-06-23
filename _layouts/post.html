@@ -6,26 +6,24 @@
 
     {% comment %}
       Bibliographic metadata for one-click reference managers (Zotero's
-      "Embedded Metadata" translator reads the Highwire citation_* tags; the
-      Dublin Core tags broaden compatibility).
+      "Embedded Metadata" translator). We deliberately OMIT citation_title and
+      citation_journal_title: per the translator, citation_journal_title forces
+      the "journalArticle" type and citation_title guesses it. Without them the
+      item imports as a "Web Page", taking its title from og:title and its
+      website title from og:site_name. citation_doi still populates the DOI
+      field (valid on web pages), and the other citation_* tags fill author,
+      date, URL and language. Dublin Core repeats the basics for other tools.
     {% endcomment %}
-    <meta name="citation_title" content="{{ page.title | escape }}">
     <meta name="citation_author" content="Eve, Martin Paul">
     <meta name="citation_publication_date" content="{{ page.date | date: '%Y/%m/%d' }}">
-    <meta name="citation_online_date" content="{{ page.date | date: '%Y/%m/%d' }}">
-    <meta name="citation_journal_title" content="eve.gd: Martin Paul Eve">
-    <meta name="citation_publisher" content="Martin Paul Eve">
-    <meta name="citation_language" content="en">
     <meta name="citation_public_url" content="{{ site.url }}{{ page.url }}">
+    <meta name="citation_language" content="en">
     {% if page.doi %}<meta name="citation_doi" content="{{ page.doi | remove: 'https://doi.org/' | remove: 'http://doi.org/' | remove: 'https://dx.doi.org/' }}">{% endif %}
 
     <meta name="dc.title" content="{{ page.title | escape }}">
     <meta name="dc.creator" content="Eve, Martin Paul">
     <meta name="dc.date" content="{{ page.date | date: '%Y-%m-%d' }}">
-    <meta name="dc.publisher" content="eve.gd: Martin Paul Eve">
     <meta name="dc.language" content="en">
-    <meta name="dc.type" content="Text">
-    {% if page.doi %}<meta name="dc.identifier" content="{{ page.doi }}">{% endif %}
 </head>
 <body>
 <!-- Header -->
