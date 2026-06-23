@@ -4,13 +4,34 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="https://eve.gd/feed.xml" />
 <link rel="alternate" type="text/html" href="https://eve.gd" />
-<updated>2026-06-23T10:23:18+01:00</updated>
+<updated>2026-06-23T10:28:50+01:00</updated>
 <id>https://eve.gd/</id>
 <author>
   <name>Martin Paul Eve</name>
   <uri>https://orcid.org/0000-0002-5589-8511</uri>
   <email>martin.eve@bbk.ac.uk</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Making blog posts harvestable by Zotero and preserving case in citation fields]]></title>
+  <link rel="alternate" type="text/html" href="https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/" />
+  
+  <id>https://doi.org/10.59348/vrt01-f3b49</id>
+  
+  <published>Tuesday, 23 June 2026 15:55:58 +0``000</published>
+  <updated>2026-06-23T00:00:00+01:00</updated>
+  <author>
+    <name>Martin Paul Eve</name>
+    <uri>https://orcid.org/0000-0002-5589-8511</uri>
+    
+  </author>
+  <content type="html"><![CDATA[
+    &lt;p&gt;This is a quick “how-to” post because I learned something about Zotero. I want the posts on this site to be easily citeable. The name of the site that I would like in citations is “eve.gd: Martin Paul Eve”&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/&quot;&gt;Making blog posts harvestable by Zotero and preserving case in citation fields&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on June 23, 2026.&lt;/p&gt;]]>
+  </content>
+</entry>
 
 
 <entry>

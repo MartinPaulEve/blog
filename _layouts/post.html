@@ -49,7 +49,7 @@
         <div class="post-header post-header--hero">
             <div class="container">
                 <h1 class="post-title">{{ page.title }}</h1>
-                <p class="post-description"><strong>Cite as:</strong> Martin Paul Eve, "{{ page.title }}", <i>https://eve.gd</i>, <time itemprop="datePublished {% if page.modified %}{% else %}dateModified{% endif %}" datetime="{{ page.date |  date: "%B %d, %Y"  }}">{{ page.date | date: "%B %d, %Y" }}</time>, <a href="{{ page.doi }}">{{ page.doi }}</a>.</p>
+                <p class="post-description"><strong>Cite as:</strong> Martin Paul Eve, "{{ page.title }}", <i>eve.gd: Martin Paul Eve</i>, <time itemprop="datePublished {% if page.modified %}{% else %}dateModified{% endif %}" datetime="{{ page.date |  date: "%B %d, %Y"  }}">{{ page.date | date: "%B %d, %Y" }}</time>, <a href="{{ page.doi }}">{{ page.doi }}</a>.</p>
 
                 {% if page.backlink %}<p class="post-description post-related">This post <strong>follows-on from</strong>: {% for link in page.backlink %}“{% post_link {{link}} %}”{% if forloop.last != true %},{% endif %}{% endfor %}</p>{% endif %}
 
