@@ -4,7 +4,7 @@ excerpt: "Martin Paul Eve, Professor of Literature, Technology and Publishing, B
 tags: [Martin Paul Eve, Thomas Pynchon, Open Access, American Literature]
 regenerate: true
 image:
-  feature: https://eve.gd/images/og.png
+  feature: og.png
   #credit: WeGraphics
   #creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
