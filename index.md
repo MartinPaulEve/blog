@@ -1,6 +1,6 @@
 ---
 layout: home
-excerpt: "Prof. of Literature, Technology & Publishing @ Birkbeck, University of London / Tech. Lead, Knowledge Commons, MSU."
+excerpt: "Professor of Literature, Technology & Publishing, Birkbeck, University of London / Tech. Lead, Knowledge Commons, MSU."
 tags: [Martin Paul Eve, Open Access, American Literature]
 regenerate: true
 image:
