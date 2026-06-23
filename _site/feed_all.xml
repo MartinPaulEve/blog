@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="https://eve.gd/feed.xml" />
 <link rel="alternate" type="text/html" href="https://eve.gd" />
-<updated>2026-06-23T10:28:50+01:00</updated>
+<updated>2026-06-23T10:41:02+01:00</updated>
 <id>https://eve.gd/</id>
 <author>
   <name>Martin Paul Eve</name>
@@ -27,7 +27,153 @@
     
   </author>
   <content type="html"><![CDATA[
-    &lt;p&gt;This is a quick “how-to” post because I learned something about Zotero. I want the posts on this site to be easily citeable. The name of the site that I would like in citations is “eve.gd: Martin Paul Eve”&lt;/p&gt;
+    &lt;p&gt;This is a quick “how-to” post because I learned something about Zotero. I want the posts on this site to be easily citeable. The name of the site that I would like in citations is “eve.gd: Martin Paul Eve”. But here’s the problem: when you put that as a Blog Title (or Website Title) and then go to cite it in a document, the CSL reformats it to the ugly “Eve.Gd: Martin Paul Eve”. Anyway, I found how to fix this! You simply encode it thus:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&quot;&amp;lt;span class=&quot;nocase&quot;&amp;gt;eve.gd&amp;lt;/span&amp;gt;: Martin Paul Eve&quot;. 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then the CSL will preserve your original case.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;span class=&quot;nocase&quot;&amp;gt;bell hooks&amp;lt;/span&amp;gt; might have found this useful, as might &amp;lt;span class=&quot;nocase&quot;&amp;gt;andré carrington&amp;lt;/span&amp;gt;.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Mind you, those two are jokes only, as Zotero automatically preserves the casing of author names.&lt;/p&gt;
+
+&lt;p&gt;The next challenge that I faced was: how do you get an item into Zotero with the “Blog Post” type when you are running a static-site generator? Well, obviously, you have to embed meta tags, but which ones?&lt;/p&gt;
+
+&lt;h2 id=&quot;required--recommended-tags&quot;&gt;Required / recommended tags&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Meta tag&lt;/th&gt;
+      &lt;th&gt;Example value&lt;/th&gt;
+      &lt;th&gt;Zotero result&lt;/th&gt;
+      &lt;th&gt;Why&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code&gt;prism.genre&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;blogentry&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Item type → Blog Post&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;RDF.js&lt;/code&gt; maps the &lt;code&gt;blogentry&lt;/code&gt; genre to &lt;code&gt;blogPost&lt;/code&gt;; this wins over the OpenGraph &lt;code&gt;webpage&lt;/code&gt; default.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code&gt;prism.publicationName&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;&amp;lt;span class=&quot;nocase&quot;&amp;gt;eve.gd&amp;lt;/span&amp;gt;: Martin Paul Eve&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Blog Title&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Read into &lt;code&gt;publicationTitle&lt;/code&gt; &lt;em&gt;before&lt;/em&gt; &lt;code&gt;og:site_name&lt;/code&gt; and is type-neutral. The &lt;code&gt;&amp;lt;span class=&quot;nocase&quot;&amp;gt;&lt;/code&gt; is CSL markup that stops styles title-casing &lt;code&gt;eve.gd&lt;/code&gt; into &lt;code&gt;Eve.Gd&lt;/code&gt;.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code&gt;og:title&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;What is &apos;the scholarly record&apos;?&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Title&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Use OpenGraph (or &lt;code&gt;dc.title&lt;/code&gt;) for the title — &lt;strong&gt;not&lt;/strong&gt; &lt;code&gt;citation_title&lt;/code&gt; (see below).&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code&gt;og:site_name&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;eve.gd: Martin Paul Eve&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Blog Title fallback&lt;/td&gt;
+      &lt;td&gt;Only used if &lt;code&gt;prism.publicationName&lt;/code&gt; is absent. Kept clean (no markup) because it also drives social-card previews.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code&gt;og:type&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;article&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;helps type detection&lt;/td&gt;
+      &lt;td&gt;Presence of OpenGraph tags makes the translator take its RDF path (which defaults unknown types to &lt;code&gt;webpage&lt;/code&gt;, then &lt;code&gt;prism.genre&lt;/code&gt; upgrades to &lt;code&gt;blogPost&lt;/code&gt;).&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code&gt;citation_author&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;Eve, Martin Paul&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Author&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;Last, First&lt;/code&gt; is parsed unambiguously. Repeat the tag for multiple authors.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code&gt;citation_publication_date&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;2022/07/26&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Date&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;YYYY/MM/DD&lt;/code&gt; (or &lt;code&gt;YYYY-MM-DD&lt;/code&gt;).&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code&gt;citation_doi&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;10.59348/kv1zh-wn208&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;DOI&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Bare DOI, not a URL. Valid field on Blog Post; if a type lacks a DOI field the translator moves it to &lt;em&gt;Extra&lt;/em&gt; automatically.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code&gt;citation_public_url&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;https://eve.gd/2022/07/26/.../&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;URL&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Absolute URL.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code&gt;citation_language&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;en&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Language&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;belt-and-braces-dublin-core-for-other-tools&quot;&gt;Belt-and-braces (Dublin Core, for other tools)&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Meta tag&lt;/th&gt;
+      &lt;th&gt;Maps to&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code&gt;dc.title&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Title&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code&gt;dc.creator&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Author&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code&gt;dc.date&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Date&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code&gt;dc.language&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Language&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;tags-to-avoid-for-a-blog-post&quot;&gt;Tags to AVOID for a blog post&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Meta tag&lt;/th&gt;
+      &lt;th&gt;Problem&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code&gt;citation_title&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;The translator &lt;em&gt;guesses&lt;/em&gt; &lt;code&gt;journalArticle&lt;/code&gt; whenever it is present (&lt;code&gt;Embedded Metadata.js&lt;/code&gt;). Supply the title via &lt;code&gt;og:title&lt;/code&gt; / &lt;code&gt;dc.title&lt;/code&gt; instead.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code&gt;citation_journal_title&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;em&gt;Forces&lt;/em&gt; the &lt;code&gt;journalArticle&lt;/code&gt; type outright.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;notes&quot;&gt;Notes&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;At least one OpenGraph or Dublin Core tag must be present so the translator runs its RDF path; without it &lt;code&gt;prism.genre&lt;/code&gt; is not consulted.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;&amp;lt;span class=&quot;nocase&quot;&amp;gt;…&amp;lt;/span&amp;gt;&lt;/code&gt; is one of Zotero’s allowed rich-text tags, so it survives import; styles render the protected text verbatim. Zotero’s item pane may show the raw &lt;code&gt;&amp;lt;span …&amp;gt;&lt;/code&gt; markup in the field even though citations are correct.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So this should now work!&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/&quot;&gt;Making blog posts harvestable by Zotero and preserving case in citation fields&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on June 23, 2026.&lt;/p&gt;]]>
   </content>
