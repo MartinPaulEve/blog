@@ -252,6 +252,43 @@
     margin: 0;
 }
 
+/* Tables.
+   Header row uses a fixed near-black band in both themes to match the site's
+   signature black bands; body cells follow the theme variables. */
+.post-body table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.75rem 0 2rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.post-body th {
+    background-color: #0b0b0b;
+    color: #fff;
+    text-align: left;
+    font-weight: 600;
+    padding: 0.55rem 0.85rem;
+    border: 1px solid var(--border-color);
+    vertical-align: top;
+}
+
+.post-body td {
+    background-color: var(--bg-white);
+    color: var(--text-primary);
+    text-align: left;
+    vertical-align: top;
+    padding: 0.55rem 0.85rem;
+    border: 1px solid var(--border-color);
+}
+
+/* Keep inline code legible on the black header row (red-on-black is unreadable);
+   body-cell code keeps the site's red styling inherited from .post-body code. */
+.post-body th code {
+    background-color: rgba(255, 255, 255, 0.14);
+    color: #fff;
+}
+
 /* Post Sidebar */
 .post-sidebar {
     display: flex;
