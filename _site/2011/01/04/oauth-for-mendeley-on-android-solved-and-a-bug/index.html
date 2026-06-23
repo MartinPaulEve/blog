@@ -95,7 +95,7 @@
 <!-- Open Graph Meta Tags for Social Media Preview -->
 <meta property="og:type" content="article">
 <meta property="og:title" content="OAuth for Mendeley on Android: solved and a bug">
-<meta property="og:description" content="Thanks to Clemens' comment on my last post, I have managed to track down the problems that I was having with OAuth for Mendeley on Android; it's all callback...">
+<meta property="og:description" content="Thanks to Clemens&#39; comment on my last post, I have managed to track down the problems that I was having with OAuth for Mendeley on Android; it&#39;s all callback...">
 
 <meta property="og:image" content="https://eve.gd/images/geek.png">
 
@@ -108,16 +108,16 @@
 <!-- Twitter Card Meta Tags (Optional but Recommended ) -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="OAuth for Mendeley on Android: solved and a bug">
-<meta name="twitter:description" content="Thanks to Clemens' comment on my last post, I have managed to track down the problems that I was having with OAuth for Mendeley on Android; it's all callback related.
-It seems that callbacks to any protocol except "http" are prohibited.
+<meta name="twitter:description" content="Thanks to Clemens&#39; comment on my last post, I have managed to track down the problems that I was having with OAuth for Mendeley on Android; it&#39;s all callback related.
+It seems that callbacks to any protocol except &quot;http&quot; are prohibited.
 For instance:
-A callback request to "http://www.martineve.com" will work.
-A null callback request ("out of bound"/"OOB") will work and display PIN.
-A callback request to "martineve-mendroid:///" will fail.
-The failure message varies between "consumer key not found" and a pretty "Something went wrong" page.
-I have also tested with addresses that look like URLs from a regex point of view: "eeee://www.test.com". This also fails, so it must be the prefix.
+A callback request to &quot;http://www.martineve.com&quot; will work.
+A null callback request (&quot;out of bound&quot;/&quot;OOB&quot;) will work and display PIN.
+A callback request to &quot;martineve-mendroid:///&quot; will fail.
+The failure message varies between &quot;consumer key not found&quot; and a pretty &quot;Something went wrong&quot; page.
+I have also tested with addresses that look like URLs from a regex point of view: &quot;eeee://www.test.com&quot;. This also fails, so it must be the prefix.
 The reason that this feature is required is that Android allows the hooking of URLs to specific Intents, so the web browser can pass the code directly back to the non-web browser application.
-In the meantime, I have a workaround for this that should allow me to get on with writing the application. Thanks to Clemens for his original source and here's to hoping the Mendeley devs can come up with a fix, at which point I will make a post detailing how to do this.
+In the meantime, I have a workaround for this that should allow me to get on with writing the application. Thanks to Clemens for his original source and here&#39;s to hoping the Mendeley devs can come up with a fix, at which point I will make a post detailing how to do this.
 ">
 
 <meta name="twitter:image" content="https://eve.gd/images/geek.png">
@@ -126,16 +126,16 @@ In the meantime, I have a workaround for this that should allow me to get on wit
 <meta name="twitter:creator" content="@martin_eve">
 
 <!-- Additional Useful Meta Tags -->
-<meta name="description" content="Thanks to Clemens' comment on my last post, I have managed to track down the problems that I was having with OAuth for Mendeley on Android; it's all callback related.
-It seems that callbacks to any protocol except "http" are prohibited.
+<meta name="description" content="Thanks to Clemens&#39; comment on my last post, I have managed to track down the problems that I was having with OAuth for Mendeley on Android; it&#39;s all callback related.
+It seems that callbacks to any protocol except &quot;http&quot; are prohibited.
 For instance:
-A callback request to "http://www.martineve.com" will work.
-A null callback request ("out of bound"/"OOB") will work and display PIN.
-A callback request to "martineve-mendroid:///" will fail.
-The failure message varies between "consumer key not found" and a pretty "Something went wrong" page.
-I have also tested with addresses that look like URLs from a regex point of view: "eeee://www.test.com". This also fails, so it must be the prefix.
+A callback request to &quot;http://www.martineve.com&quot; will work.
+A null callback request (&quot;out of bound&quot;/&quot;OOB&quot;) will work and display PIN.
+A callback request to &quot;martineve-mendroid:///&quot; will fail.
+The failure message varies between &quot;consumer key not found&quot; and a pretty &quot;Something went wrong&quot; page.
+I have also tested with addresses that look like URLs from a regex point of view: &quot;eeee://www.test.com&quot;. This also fails, so it must be the prefix.
 The reason that this feature is required is that Android allows the hooking of URLs to specific Intents, so the web browser can pass the code directly back to the non-web browser application.
-In the meantime, I have a workaround for this that should allow me to get on with writing the application. Thanks to Clemens for his original source and here's to hoping the Mendeley devs can come up with a fix, at which point I will make a post detailing how to do this.
+In the meantime, I have a workaround for this that should allow me to get on with writing the application. Thanks to Clemens for his original source and here&#39;s to hoping the Mendeley devs can come up with a fix, at which point I will make a post detailing how to do this.
 ">
 <meta property="article:published_time" content="2011-01-04 05:31:44 +0000">
 <meta property="article:author" content="Martin Paul Eve">

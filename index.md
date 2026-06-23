@@ -1,6 +1,6 @@
 ---
 layout: home
-excerpt: "Professor of Literature, Technology and Publishing, Birkbeck, University of London & Technical Lead, MESH, Michigan State University."
+excerpt: "Professor of Literature, Technology & Publishing, Birkbeck, University of London and Technical Lead, MESH, Michigan State University."
 tags: [Martin Paul Eve, Open Access, American Literature]
 regenerate: true
 image:

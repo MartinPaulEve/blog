@@ -111,11 +111,11 @@ It is not worth trying to restore a Windows partition using dd unless you restor
 <meta name="twitter:title" content="Tech things I have learned in the last 12 hours">
 <meta name="twitter:description" content="
 It is not worth trying to restore a Windows partition using dd unless you restore it to *exactly* the same offset on the new drive. Even then it might not work. No amount of dicking around with bootrec fixmbr rebuildbcd etc. will solve this.
-A fresh Windows install that complains that it is missing the "cd/dvd driver" actually means that there's a problem reading the DVD you've booted from. Do this by USB instead.
-There's a cool piece of software called WinUSB that will create a Windows installation USB stick for you from inside Linux. You need to download the install media for this, but they're easy to find (and legally distributed).
-Windows' partitioner isn't as aggressive as I'd feared, but it will overwrite grub and you need to go back in and use the chroot method to reinstall it.
-Bumblebee is great, but hardly works "out of the box"
-The "discard" flag has to be added to both fstab and crypttab to enable TRIM on a luks device.
+A fresh Windows install that complains that it is missing the &quot;cd/dvd driver&quot; actually means that there&#39;s a problem reading the DVD you&#39;ve booted from. Do this by USB instead.
+There&#39;s a cool piece of software called WinUSB that will create a Windows installation USB stick for you from inside Linux. You need to download the install media for this, but they&#39;re easy to find (and legally distributed).
+Windows&#39; partitioner isn&#39;t as aggressive as I&#39;d feared, but it will overwrite grub and you need to go back in and use the chroot method to reinstall it.
+Bumblebee is great, but hardly works &quot;out of the box&quot;
+The &quot;discard&quot; flag has to be added to both fstab and crypttab to enable TRIM on a luks device.
 
 ">
 
@@ -127,11 +127,11 @@ The "discard" flag has to be added to both fstab and crypttab to enable TRIM on 
 <!-- Additional Useful Meta Tags -->
 <meta name="description" content="
 It is not worth trying to restore a Windows partition using dd unless you restore it to *exactly* the same offset on the new drive. Even then it might not work. No amount of dicking around with bootrec fixmbr rebuildbcd etc. will solve this.
-A fresh Windows install that complains that it is missing the "cd/dvd driver" actually means that there's a problem reading the DVD you've booted from. Do this by USB instead.
-There's a cool piece of software called WinUSB that will create a Windows installation USB stick for you from inside Linux. You need to download the install media for this, but they're easy to find (and legally distributed).
-Windows' partitioner isn't as aggressive as I'd feared, but it will overwrite grub and you need to go back in and use the chroot method to reinstall it.
-Bumblebee is great, but hardly works "out of the box"
-The "discard" flag has to be added to both fstab and crypttab to enable TRIM on a luks device.
+A fresh Windows install that complains that it is missing the &quot;cd/dvd driver&quot; actually means that there&#39;s a problem reading the DVD you&#39;ve booted from. Do this by USB instead.
+There&#39;s a cool piece of software called WinUSB that will create a Windows installation USB stick for you from inside Linux. You need to download the install media for this, but they&#39;re easy to find (and legally distributed).
+Windows&#39; partitioner isn&#39;t as aggressive as I&#39;d feared, but it will overwrite grub and you need to go back in and use the chroot method to reinstall it.
+Bumblebee is great, but hardly works &quot;out of the box&quot;
+The &quot;discard&quot; flag has to be added to both fstab and crypttab to enable TRIM on a luks device.
 
 ">
 <meta property="article:published_time" content="2012-12-30 13:10:52 +0000">

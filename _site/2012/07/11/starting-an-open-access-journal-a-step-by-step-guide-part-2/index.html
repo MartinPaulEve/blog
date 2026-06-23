@@ -95,7 +95,7 @@
 <!-- Open Graph Meta Tags for Social Media Preview -->
 <meta property="og:type" content="article">
 <meta property="og:title" content="Starting an Open Access Journal: a step-by-step guide part 2">
-<meta property="og:description" content="Following on from Part 1, let's begin to talk about the technological side of starting an OA journal.
+<meta property="og:description" content="Following on from Part 1, let&#39;s begin to talk about the technological side of starting an OA journal.
 
 There are several components to the system that all ne...">
 
@@ -110,9 +110,9 @@ There are several components to the system that all ne...">
 <!-- Twitter Card Meta Tags (Optional but Recommended ) -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Starting an Open Access Journal: a step-by-step guide part 2">
-<meta name="twitter:description" content="Following on from Part 1, let's begin to talk about the technological side of starting an OA journal.
+<meta name="twitter:description" content="Following on from Part 1, let&#39;s begin to talk about the technological side of starting an OA journal.
 
-There are several components to the system that all need to come together. The timescales for ensuring this happens are different, but here's some descriptions and estimates on the different components.
+There are several components to the system that all need to come together. The timescales for ensuring this happens are different, but here&#39;s some descriptions and estimates on the different components.
 Open Journal Systems
 OJS is a free, open source platform developed by the Public Knowledge Project that is designed to get you off the ground quickly. Pre-requistites are:
 
@@ -121,31 +121,31 @@ PHP support on said server
 MySQL database support (or another supported DB)
 Permission for web applications to write to the filesystem on the server
 
-The document you need to read, and understand, to fully get OJS is their Userguide. For this specific part of the installation, you'll want to follow their installation instructions. I can get an OJS box up and running in 45 minutes or so. For a first time user with moderate technical competence, budget in a fair few hours.
+The document you need to read, and understand, to fully get OJS is their Userguide. For this specific part of the installation, you&#39;ll want to follow their installation instructions. I can get an OJS box up and running in 45 minutes or so. For a first time user with moderate technical competence, budget in a fair few hours.
 ISSN number
 To get an ISSN number, which is crucial for your journal (and is also free of charge!), you need to apply to the relevant ISSN provider for your country. In the UK, this is the British Library. The turnaround time on this varies, but is often quicker than the two months they stipulate.
 DOI numbers
-Right, this is where it can get a bit complicated. DOI (Document Object Identification/Identifier) numbers are part of a system that ensures that articles are permanently active. Let's take an example. The following is a DOI resolver URL:
+Right, this is where it can get a bit complicated. DOI (Document Object Identification/Identifier) numbers are part of a system that ensures that articles are permanently active. Let&#39;s take an example. The following is a DOI resolver URL:
 http://dx.doi.org/10.7766/orbit.v1.1.38
-The number is composed of a prefix (10.7766), which is my publisher prefix, and a suffix (orbit.v1.1.38). Together these form a unique string that identify the article Eve, Martin, Samuel Thomas, Doug Haynes, &amp; Simon de Bourcier. "Preface." Orbit: Writing Around Pynchon [Online], 1.1 (2012): n. pag. Web. 10 Jul. 2012.
-So, when you visit the DOI resolver URL above, it points you over to https://www.pynchon.net/owap/article/view/38, which is the journal hosted on my server. Let us assume that something happens to me or my finances. For example, I can no longer pay for my server, or I get run over by a bus (I'm hoping to postpone both of these occurrences). The archival service for the journal will notice a "trigger event" that authorises them to release, forever, the material on the journal. The DOI number can then be updated to point to the archives copy and, tada, the material has then been preserved even in the case of catastrophe or fold. I hope it's clear, from this, the important role that DOI numbers play.
+The number is composed of a prefix (10.7766), which is my publisher prefix, and a suffix (orbit.v1.1.38). Together these form a unique string that identify the article Eve, Martin, Samuel Thomas, Doug Haynes, &amp;amp; Simon de Bourcier. &quot;Preface.&quot; Orbit: Writing Around Pynchon [Online], 1.1 (2012): n. pag. Web. 10 Jul. 2012.
+So, when you visit the DOI resolver URL above, it points you over to https://www.pynchon.net/owap/article/view/38, which is the journal hosted on my server. Let us assume that something happens to me or my finances. For example, I can no longer pay for my server, or I get run over by a bus (I&#39;m hoping to postpone both of these occurrences). The archival service for the journal will notice a &quot;trigger event&quot; that authorises them to release, forever, the material on the journal. The DOI number can then be updated to point to the archives copy and, tada, the material has then been preserved even in the case of catastrophe or fold. I hope it&#39;s clear, from this, the important role that DOI numbers play.
 As a member of CrossRef, assigning DOIs, you have legal obligations in the contract. You must:
 
 Assign DOIs to all your articles
 Ensure you never assign the same DOI more than once
 Ensure that DOIs always resolve to the correct article
 Ensure that, if you move hosts/addresses, you update the metadata so that the DOI resolves
-Give the DOI link of any article that has a DOI number assigned in an article's citations
+Give the DOI link of any article that has a DOI number assigned in an article&#39;s citations
 Deposit metadata and DOI information in a timely fashion to CrossRef
 
 This is all easily doable via OJS built-in mechanisms, but it is a legal contract, so not to be taken lightly or ignored.
 CrossRef, the registration organisation for DOIs on scholarly or research material, have various levels of fees. The reason for this is, once again, that they need ways to force publishers to keep their links up-to-date and to deposit material. Financial sanctions have proved the most effective way of doing this.
-However, for the journal that is attempting to evade the fee-paying structures of commercial OA enterprises, this is little consolation. Never fear. The Open Access Scholarly Publishers Association has a deal with CrossRef for scholar-publisher members (that's you, as an individual) that means that the OASPA will allow you to get a DOI prefix and assign up to 50 DOIs inclusive of their membership fee, which is a much more reasonable 75 euros. In my case, because I hadn't started the journal at that point, I was signed up as a non-voting member of OASPA, but this certainly helped.
+However, for the journal that is attempting to evade the fee-paying structures of commercial OA enterprises, this is little consolation. Never fear. The Open Access Scholarly Publishers Association has a deal with CrossRef for scholar-publisher members (that&#39;s you, as an individual) that means that the OASPA will allow you to get a DOI prefix and assign up to 50 DOIs inclusive of their membership fee, which is a much more reasonable 75 euros. In my case, because I hadn&#39;t started the journal at that point, I was signed up as a non-voting member of OASPA, but this certainly helped.
 Timescale-wise, my application to OASPA took much longer than usual (I am told) because CrossRef were in the process of updating their member agreement. I signed up on the 16th April and was ready to go by the 7th July. So budget in three months.
 CLOCKSS
-CLOCKSS is the archival service that I have chosen to use for my journal. Based upon the LOCKSS system, CLOCKSS stands for Controlled Lots of Copies Keeps Stuff Safe. The principle here is that your articles are stored on multiple servers, spread across the globe. In the event of a trigger, CLOCKSS will release the material. Again, there's a fee ($200/year). I am unable to comment on timescales as I have yet to be fully set up here, but as I only applied three days ago, this doesn't seem so surprising so far.
-Again, I'm going to stop writing here so that I can get on with some other work, but in the next section I'll begin to detail some of the options available in OJS and how the process works.
-Part 3 &gt;&gt;
+CLOCKSS is the archival service that I have chosen to use for my journal. Based upon the LOCKSS system, CLOCKSS stands for Controlled Lots of Copies Keeps Stuff Safe. The principle here is that your articles are stored on multiple servers, spread across the globe. In the event of a trigger, CLOCKSS will release the material. Again, there&#39;s a fee ($200/year). I am unable to comment on timescales as I have yet to be fully set up here, but as I only applied three days ago, this doesn&#39;t seem so surprising so far.
+Again, I&#39;m going to stop writing here so that I can get on with some other work, but in the next section I&#39;ll begin to detail some of the options available in OJS and how the process works.
+Part 3 &amp;gt;&amp;gt;
 ">
 
 <meta name="twitter:image" content="https://eve.gd/images/oa.png">
@@ -154,9 +154,9 @@ Part 3 &gt;&gt;
 <meta name="twitter:creator" content="@martin_eve">
 
 <!-- Additional Useful Meta Tags -->
-<meta name="description" content="Following on from Part 1, let's begin to talk about the technological side of starting an OA journal.
+<meta name="description" content="Following on from Part 1, let&#39;s begin to talk about the technological side of starting an OA journal.
 
-There are several components to the system that all need to come together. The timescales for ensuring this happens are different, but here's some descriptions and estimates on the different components.
+There are several components to the system that all need to come together. The timescales for ensuring this happens are different, but here&#39;s some descriptions and estimates on the different components.
 Open Journal Systems
 OJS is a free, open source platform developed by the Public Knowledge Project that is designed to get you off the ground quickly. Pre-requistites are:
 
@@ -165,31 +165,31 @@ PHP support on said server
 MySQL database support (or another supported DB)
 Permission for web applications to write to the filesystem on the server
 
-The document you need to read, and understand, to fully get OJS is their Userguide. For this specific part of the installation, you'll want to follow their installation instructions. I can get an OJS box up and running in 45 minutes or so. For a first time user with moderate technical competence, budget in a fair few hours.
+The document you need to read, and understand, to fully get OJS is their Userguide. For this specific part of the installation, you&#39;ll want to follow their installation instructions. I can get an OJS box up and running in 45 minutes or so. For a first time user with moderate technical competence, budget in a fair few hours.
 ISSN number
 To get an ISSN number, which is crucial for your journal (and is also free of charge!), you need to apply to the relevant ISSN provider for your country. In the UK, this is the British Library. The turnaround time on this varies, but is often quicker than the two months they stipulate.
 DOI numbers
-Right, this is where it can get a bit complicated. DOI (Document Object Identification/Identifier) numbers are part of a system that ensures that articles are permanently active. Let's take an example. The following is a DOI resolver URL:
+Right, this is where it can get a bit complicated. DOI (Document Object Identification/Identifier) numbers are part of a system that ensures that articles are permanently active. Let&#39;s take an example. The following is a DOI resolver URL:
 http://dx.doi.org/10.7766/orbit.v1.1.38
-The number is composed of a prefix (10.7766), which is my publisher prefix, and a suffix (orbit.v1.1.38). Together these form a unique string that identify the article Eve, Martin, Samuel Thomas, Doug Haynes, &amp; Simon de Bourcier. "Preface." Orbit: Writing Around Pynchon [Online], 1.1 (2012): n. pag. Web. 10 Jul. 2012.
-So, when you visit the DOI resolver URL above, it points you over to https://www.pynchon.net/owap/article/view/38, which is the journal hosted on my server. Let us assume that something happens to me or my finances. For example, I can no longer pay for my server, or I get run over by a bus (I'm hoping to postpone both of these occurrences). The archival service for the journal will notice a "trigger event" that authorises them to release, forever, the material on the journal. The DOI number can then be updated to point to the archives copy and, tada, the material has then been preserved even in the case of catastrophe or fold. I hope it's clear, from this, the important role that DOI numbers play.
+The number is composed of a prefix (10.7766), which is my publisher prefix, and a suffix (orbit.v1.1.38). Together these form a unique string that identify the article Eve, Martin, Samuel Thomas, Doug Haynes, &amp;amp; Simon de Bourcier. &quot;Preface.&quot; Orbit: Writing Around Pynchon [Online], 1.1 (2012): n. pag. Web. 10 Jul. 2012.
+So, when you visit the DOI resolver URL above, it points you over to https://www.pynchon.net/owap/article/view/38, which is the journal hosted on my server. Let us assume that something happens to me or my finances. For example, I can no longer pay for my server, or I get run over by a bus (I&#39;m hoping to postpone both of these occurrences). The archival service for the journal will notice a &quot;trigger event&quot; that authorises them to release, forever, the material on the journal. The DOI number can then be updated to point to the archives copy and, tada, the material has then been preserved even in the case of catastrophe or fold. I hope it&#39;s clear, from this, the important role that DOI numbers play.
 As a member of CrossRef, assigning DOIs, you have legal obligations in the contract. You must:
 
 Assign DOIs to all your articles
 Ensure you never assign the same DOI more than once
 Ensure that DOIs always resolve to the correct article
 Ensure that, if you move hosts/addresses, you update the metadata so that the DOI resolves
-Give the DOI link of any article that has a DOI number assigned in an article's citations
+Give the DOI link of any article that has a DOI number assigned in an article&#39;s citations
 Deposit metadata and DOI information in a timely fashion to CrossRef
 
 This is all easily doable via OJS built-in mechanisms, but it is a legal contract, so not to be taken lightly or ignored.
 CrossRef, the registration organisation for DOIs on scholarly or research material, have various levels of fees. The reason for this is, once again, that they need ways to force publishers to keep their links up-to-date and to deposit material. Financial sanctions have proved the most effective way of doing this.
-However, for the journal that is attempting to evade the fee-paying structures of commercial OA enterprises, this is little consolation. Never fear. The Open Access Scholarly Publishers Association has a deal with CrossRef for scholar-publisher members (that's you, as an individual) that means that the OASPA will allow you to get a DOI prefix and assign up to 50 DOIs inclusive of their membership fee, which is a much more reasonable 75 euros. In my case, because I hadn't started the journal at that point, I was signed up as a non-voting member of OASPA, but this certainly helped.
+However, for the journal that is attempting to evade the fee-paying structures of commercial OA enterprises, this is little consolation. Never fear. The Open Access Scholarly Publishers Association has a deal with CrossRef for scholar-publisher members (that&#39;s you, as an individual) that means that the OASPA will allow you to get a DOI prefix and assign up to 50 DOIs inclusive of their membership fee, which is a much more reasonable 75 euros. In my case, because I hadn&#39;t started the journal at that point, I was signed up as a non-voting member of OASPA, but this certainly helped.
 Timescale-wise, my application to OASPA took much longer than usual (I am told) because CrossRef were in the process of updating their member agreement. I signed up on the 16th April and was ready to go by the 7th July. So budget in three months.
 CLOCKSS
-CLOCKSS is the archival service that I have chosen to use for my journal. Based upon the LOCKSS system, CLOCKSS stands for Controlled Lots of Copies Keeps Stuff Safe. The principle here is that your articles are stored on multiple servers, spread across the globe. In the event of a trigger, CLOCKSS will release the material. Again, there's a fee ($200/year). I am unable to comment on timescales as I have yet to be fully set up here, but as I only applied three days ago, this doesn't seem so surprising so far.
-Again, I'm going to stop writing here so that I can get on with some other work, but in the next section I'll begin to detail some of the options available in OJS and how the process works.
-Part 3 &gt;&gt;
+CLOCKSS is the archival service that I have chosen to use for my journal. Based upon the LOCKSS system, CLOCKSS stands for Controlled Lots of Copies Keeps Stuff Safe. The principle here is that your articles are stored on multiple servers, spread across the globe. In the event of a trigger, CLOCKSS will release the material. Again, there&#39;s a fee ($200/year). I am unable to comment on timescales as I have yet to be fully set up here, but as I only applied three days ago, this doesn&#39;t seem so surprising so far.
+Again, I&#39;m going to stop writing here so that I can get on with some other work, but in the next section I&#39;ll begin to detail some of the options available in OJS and how the process works.
+Part 3 &amp;gt;&amp;gt;
 ">
 <meta property="article:published_time" content="2012-07-11 08:21:11 +0100">
 <meta property="article:author" content="Martin Paul Eve">

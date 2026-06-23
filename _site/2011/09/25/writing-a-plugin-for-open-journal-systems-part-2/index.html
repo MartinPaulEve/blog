@@ -95,7 +95,7 @@
 <!-- Open Graph Meta Tags for Social Media Preview -->
 <meta property="og:type" content="article">
 <meta property="og:title" content="Writing a plugin for Open Journal Systems: Part 2">
-<meta property="og:description" content="The quest to build a system that allows publishing in PDF and XHTML from a single XML galley within OJS continues and I've made quite substantial progress.
+<meta property="og:description" content="The quest to build a system that allows publishing in PDF and XHTML from a single XML galley within OJS continues and I&#39;ve made quite substantial progress.
 A...">
 
 <meta property="og:image" content="https://eve.gd/images/geek.png">
@@ -109,10 +109,10 @@ A...">
 <!-- Twitter Card Meta Tags (Optional but Recommended ) -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Writing a plugin for Open Journal Systems: Part 2">
-<meta name="twitter:description" content="The quest to build a system that allows publishing in PDF and XHTML from a single XML galley within OJS continues and I've made quite substantial progress.
+<meta name="twitter:description" content="The quest to build a system that allows publishing in PDF and XHTML from a single XML galley within OJS continues and I&#39;ve made quite substantial progress.
 As before, the code for this article is available on my GitHub.
-Instead of working from the very basic stub, I instead used the existing xmlGalley template, reading and tracing through the code to work out what it does. The easiest way to understand the plugin, if you don't have a working installation running under Eclipse, is to whack some error_log statements inside each method. The way this plugin works is that, on the call to display a galley file, it checks if there is an associated entry in the xml_galleys table. If there is, it works off that instead. It then asks if the cache has an already extant entry for the XSLT transform. If not, it performs the transform.
-My plan to rework this, and get around the bug, was to first modify the hook method when a galley is inserted. In this case, if the galley inserted is an XML file, I copy the entry to a new file, named "PDF". Poor form, perhaps, but I'm using the name "PDF" to determine that the galley should be transformed to a PDF file.
+Instead of working from the very basic stub, I instead used the existing xmlGalley template, reading and tracing through the code to work out what it does. The easiest way to understand the plugin, if you don&#39;t have a working installation running under Eclipse, is to whack some error_log statements inside each method. The way this plugin works is that, on the call to display a galley file, it checks if there is an associated entry in the xml_galleys table. If there is, it works off that instead. It then asks if the cache has an already extant entry for the XSLT transform. If not, it performs the transform.
+My plan to rework this, and get around the bug, was to first modify the hook method when a galley is inserted. In this case, if the galley inserted is an XML file, I copy the entry to a new file, named &quot;PDF&quot;. Poor form, perhaps, but I&#39;m using the name &quot;PDF&quot; to determine that the galley should be transformed to a PDF file.
 The way that I performed this copy was to modify the insertXMLGalleys function in ArticleXMLDao.inc.php:
 ">
 
@@ -122,10 +122,10 @@ The way that I performed this copy was to modify the insertXMLGalleys function i
 <meta name="twitter:creator" content="@martin_eve">
 
 <!-- Additional Useful Meta Tags -->
-<meta name="description" content="The quest to build a system that allows publishing in PDF and XHTML from a single XML galley within OJS continues and I've made quite substantial progress.
+<meta name="description" content="The quest to build a system that allows publishing in PDF and XHTML from a single XML galley within OJS continues and I&#39;ve made quite substantial progress.
 As before, the code for this article is available on my GitHub.
-Instead of working from the very basic stub, I instead used the existing xmlGalley template, reading and tracing through the code to work out what it does. The easiest way to understand the plugin, if you don't have a working installation running under Eclipse, is to whack some error_log statements inside each method. The way this plugin works is that, on the call to display a galley file, it checks if there is an associated entry in the xml_galleys table. If there is, it works off that instead. It then asks if the cache has an already extant entry for the XSLT transform. If not, it performs the transform.
-My plan to rework this, and get around the bug, was to first modify the hook method when a galley is inserted. In this case, if the galley inserted is an XML file, I copy the entry to a new file, named "PDF". Poor form, perhaps, but I'm using the name "PDF" to determine that the galley should be transformed to a PDF file.
+Instead of working from the very basic stub, I instead used the existing xmlGalley template, reading and tracing through the code to work out what it does. The easiest way to understand the plugin, if you don&#39;t have a working installation running under Eclipse, is to whack some error_log statements inside each method. The way this plugin works is that, on the call to display a galley file, it checks if there is an associated entry in the xml_galleys table. If there is, it works off that instead. It then asks if the cache has an already extant entry for the XSLT transform. If not, it performs the transform.
+My plan to rework this, and get around the bug, was to first modify the hook method when a galley is inserted. In this case, if the galley inserted is an XML file, I copy the entry to a new file, named &quot;PDF&quot;. Poor form, perhaps, but I&#39;m using the name &quot;PDF&quot; to determine that the galley should be transformed to a PDF file.
 The way that I performed this copy was to modify the insertXMLGalleys function in ArticleXMLDao.inc.php:
 ">
 <meta property="article:published_time" content="2011-09-25 14:53:54 +0100">

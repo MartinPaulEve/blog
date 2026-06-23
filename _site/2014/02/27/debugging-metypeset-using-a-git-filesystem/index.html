@@ -114,7 +114,7 @@ meTypeset is, in essence, a transcoder for text. While “transcode” is usuall
 <meta name="twitter:description" content="
 
 Debugging a text-based transcoder
-meTypeset is, in essence, a transcoder for text. While “transcode” is usually used in a multimedia context, we are transcoding from one XML specification (Microsoft's OOXML) to another (JATS XML). This involves several stages of action:
+meTypeset is, in essence, a transcoder for text. While “transcode” is usually used in a multimedia context, we are transcoding from one XML specification (Microsoft&#39;s OOXML) to another (JATS XML). This involves several stages of action:
 
 Unzip the document
 Perform XSLT transforms to an intermediate format
@@ -123,11 +123,11 @@ Transform to NLM/JATS
 
 There is potential for unexpected results at every stage of this process.
 Enter git debug filesystem
-While it is possible, when developing, to step through most of the processes, because we have multiple portions of the transform handled by different technologies, it is often difficult to pinpoint the stage at which something went wrong. For instance: if the NLM isn't right, was the TEI right? If the TEI isn't right, was it right before we put it through python (and which module messed it up?)
+While it is possible, when developing, to step through most of the processes, because we have multiple portions of the transform handled by different technologies, it is often difficult to pinpoint the stage at which something went wrong. For instance: if the NLM isn&#39;t right, was the TEI right? If the TEI isn&#39;t right, was it right before we put it through python (and which module messed it up?)
 To solve this, when meTypeset is passed the debug flag (“-d” or “--debug”) it will now initialize all of its output directories as git repositories and regularly commit after each module has performed its transforms, thereby providing an easy way of logging in any environment (and cloning the output to another machine). As a self-contained filesystem, git is ideal for this kind of work. It adds very little overhead (either in terms of space or processing time) and makes life a lot easier in this kind of debug work. You can see the implementation of this in GitPython in the dev branch of the project.
 Cite this article
 Please include the DOI in your citation: http://dx.doi.org/10.6084/m9.figshare.946260
-You can view this post's XML with lens.
+You can view this post&#39;s XML with lens.
 ">
 
 <meta name="twitter:image" content="https://eve.gd/images/geek.png">
@@ -139,7 +139,7 @@ You can view this post's XML with lens.
 <meta name="description" content="
 
 Debugging a text-based transcoder
-meTypeset is, in essence, a transcoder for text. While “transcode” is usually used in a multimedia context, we are transcoding from one XML specification (Microsoft's OOXML) to another (JATS XML). This involves several stages of action:
+meTypeset is, in essence, a transcoder for text. While “transcode” is usually used in a multimedia context, we are transcoding from one XML specification (Microsoft&#39;s OOXML) to another (JATS XML). This involves several stages of action:
 
 Unzip the document
 Perform XSLT transforms to an intermediate format
@@ -148,11 +148,11 @@ Transform to NLM/JATS
 
 There is potential for unexpected results at every stage of this process.
 Enter git debug filesystem
-While it is possible, when developing, to step through most of the processes, because we have multiple portions of the transform handled by different technologies, it is often difficult to pinpoint the stage at which something went wrong. For instance: if the NLM isn't right, was the TEI right? If the TEI isn't right, was it right before we put it through python (and which module messed it up?)
+While it is possible, when developing, to step through most of the processes, because we have multiple portions of the transform handled by different technologies, it is often difficult to pinpoint the stage at which something went wrong. For instance: if the NLM isn&#39;t right, was the TEI right? If the TEI isn&#39;t right, was it right before we put it through python (and which module messed it up?)
 To solve this, when meTypeset is passed the debug flag (“-d” or “--debug”) it will now initialize all of its output directories as git repositories and regularly commit after each module has performed its transforms, thereby providing an easy way of logging in any environment (and cloning the output to another machine). As a self-contained filesystem, git is ideal for this kind of work. It adds very little overhead (either in terms of space or processing time) and makes life a lot easier in this kind of debug work. You can see the implementation of this in GitPython in the dev branch of the project.
 Cite this article
 Please include the DOI in your citation: http://dx.doi.org/10.6084/m9.figshare.946260
-You can view this post's XML with lens.
+You can view this post&#39;s XML with lens.
 ">
 <meta property="article:published_time" content="2014-02-27 14:55:52 +0000">
 <meta property="article:author" content="Martin Paul Eve">

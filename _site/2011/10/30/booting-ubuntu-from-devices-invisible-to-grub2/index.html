@@ -95,7 +95,7 @@
 <!-- Open Graph Meta Tags for Social Media Preview -->
 <meta property="og:type" content="article">
 <meta property="og:title" content="Booting Ubuntu from devices invisible to GRUB2">
-<meta property="og:description" content="...slightly misleading title; obviously, that doesn't work.
+<meta property="og:description" content="...slightly misleading title; obviously, that doesn&#39;t work.
 I have an OCZ RevoDrive SSD which, although very fast, has some serious problems with my BIOS. Th...">
 
 <meta property="og:image" content="https://eve.gd/images/geek.png">
@@ -109,9 +109,9 @@ I have an OCZ RevoDrive SSD which, although very fast, has some serious problems
 <!-- Twitter Card Meta Tags (Optional but Recommended ) -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Booting Ubuntu from devices invisible to GRUB2">
-<meta name="twitter:description" content="...slightly misleading title; obviously, that doesn't work.
+<meta name="twitter:description" content="...slightly misleading title; obviously, that doesn&#39;t work.
 I have an OCZ RevoDrive SSD which, although very fast, has some serious problems with my BIOS. The consequence is that GRUB cannot see the device (well, it can, but only after a 15 minute de-power cycle), but Linux can. This causes some headaches.
-The way I worked around this was to put /boot on a separate partition and have the root filesystem on the SSD. This was all well and good, except that Ubuntu's GRUB2 scripts generate an unbootable grub.cfg. This is owing to the fact that, even if it gets the hdd params right, it puts in a "search" line for a device that GRUB can't see, hence the fail. I'm going to assume that, if you understood the above, you're capable of using the grub recovery prompt to find your ubuntu installation and manually boot. When you're in, the way to fix this is fairly easy:
+The way I worked around this was to put /boot on a separate partition and have the root filesystem on the SSD. This was all well and good, except that Ubuntu&#39;s GRUB2 scripts generate an unbootable grub.cfg. This is owing to the fact that, even if it gets the hdd params right, it puts in a &quot;search&quot; line for a device that GRUB can&#39;t see, hence the fail. I&#39;m going to assume that, if you understood the above, you&#39;re capable of using the grub recovery prompt to find your ubuntu installation and manually boot. When you&#39;re in, the way to fix this is fairly easy:
 edit /usr/lib/grub/grub-mkconfig_lib
 Comment out these lines:
 ">
@@ -122,9 +122,9 @@ Comment out these lines:
 <meta name="twitter:creator" content="@martin_eve">
 
 <!-- Additional Useful Meta Tags -->
-<meta name="description" content="...slightly misleading title; obviously, that doesn't work.
+<meta name="description" content="...slightly misleading title; obviously, that doesn&#39;t work.
 I have an OCZ RevoDrive SSD which, although very fast, has some serious problems with my BIOS. The consequence is that GRUB cannot see the device (well, it can, but only after a 15 minute de-power cycle), but Linux can. This causes some headaches.
-The way I worked around this was to put /boot on a separate partition and have the root filesystem on the SSD. This was all well and good, except that Ubuntu's GRUB2 scripts generate an unbootable grub.cfg. This is owing to the fact that, even if it gets the hdd params right, it puts in a "search" line for a device that GRUB can't see, hence the fail. I'm going to assume that, if you understood the above, you're capable of using the grub recovery prompt to find your ubuntu installation and manually boot. When you're in, the way to fix this is fairly easy:
+The way I worked around this was to put /boot on a separate partition and have the root filesystem on the SSD. This was all well and good, except that Ubuntu&#39;s GRUB2 scripts generate an unbootable grub.cfg. This is owing to the fact that, even if it gets the hdd params right, it puts in a &quot;search&quot; line for a device that GRUB can&#39;t see, hence the fail. I&#39;m going to assume that, if you understood the above, you&#39;re capable of using the grub recovery prompt to find your ubuntu installation and manually boot. When you&#39;re in, the way to fix this is fairly easy:
 edit /usr/lib/grub/grub-mkconfig_lib
 Comment out these lines:
 ">

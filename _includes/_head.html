@@ -94,7 +94,7 @@
 <!-- Open Graph Meta Tags for Social Media Preview -->
 <meta property="og:type" content="article">
 <meta property="og:title" content="{{ page.title }}">
-<meta property="og:description" content="{{ page.excerpt | strip_html | truncate: 160 }}">
+<meta property="og:description" content="{{ page.excerpt | strip_html | truncate: 160 | escape }}">
 {% if page.image.feature %}
 <meta property="og:image" content="https://eve.gd/images/{{ page.image.feature }}">
 {% else %}
@@ -109,7 +109,7 @@
 <!-- Twitter Card Meta Tags (Optional but Recommended ) -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ page.title }}">
-<meta name="twitter:description" content="{{ page.excerpt | strip_html }}">
+<meta name="twitter:description" content="{{ page.excerpt | strip_html | escape }}">
 {% if page.image.feature %}
 <meta name="twitter:image" content="https://eve.gd/images/{{ page.image.feature }}">
 {% else %}
@@ -119,7 +119,7 @@
 <meta name="twitter:creator" content="@martin_eve">
 
 <!-- Additional Useful Meta Tags -->
-<meta name="description" content="{{ page.excerpt | strip_html }}">
+<meta name="description" content="{{ page.excerpt | strip_html | escape }}">
 <meta property="article:published_time" content="{{ page.date }}">
 <meta property="article:author" content="Martin Paul Eve">
 

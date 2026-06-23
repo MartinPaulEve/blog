@@ -108,11 +108,11 @@
 <!-- Twitter Card Meta Tags (Optional but Recommended ) -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Using Elliptical Curve Cryptography in OpenSSH">
-<meta name="twitter:description" content="Having read two great posts on OpenSSH best practices, I decided today that I wanted to upgrade my SSH key architecture to use Elliptical Curve Cryptography. There were several gotchas involved that I thought it would be worth sharing here. There are, at the time of writing, no packages for Fedora 15 or Debian stable that I could find, so I've worked from source.
-Getting ECC working on some systems can be a bit of a pain. Fedora, in particular, has decided, due to patent encumbrance, to remove the header include files for OpenSSL's ECC implementation. To get around this, I therefore recommend reinstalling OpenSSL from source from their site. You will be able to tell whether your distro will have this problem because, in the ./configure output of OpenSSH you will encounter:
+<meta name="twitter:description" content="Having read two great posts on OpenSSH best practices, I decided today that I wanted to upgrade my SSH key architecture to use Elliptical Curve Cryptography. There were several gotchas involved that I thought it would be worth sharing here. There are, at the time of writing, no packages for Fedora 15 or Debian stable that I could find, so I&#39;ve worked from source.
+Getting ECC working on some systems can be a bit of a pain. Fedora, in particular, has decided, due to patent encumbrance, to remove the header include files for OpenSSL&#39;s ECC implementation. To get around this, I therefore recommend reinstalling OpenSSL from source from their site. You will be able to tell whether your distro will have this problem because, in the ./configure output of OpenSSH you will encounter:
 checking whether OpenSSL has complete ECC support... no
 An easy way to check is to look for the presence of /usr/include/openssl/ecdsa.h
-So, once you've got the latest and greatest OpenSSL installed, download the latest OpenSSH portable tar.gz. Then, you'll want to run the following.
+So, once you&#39;ve got the latest and greatest OpenSSL installed, download the latest OpenSSH portable tar.gz. Then, you&#39;ll want to run the following.
 On Fedora 15 (after installing OpenSSL from source; last command in this list needs to be root):
 ">
 
@@ -122,11 +122,11 @@ On Fedora 15 (after installing OpenSSL from source; last command in this list ne
 <meta name="twitter:creator" content="@martin_eve">
 
 <!-- Additional Useful Meta Tags -->
-<meta name="description" content="Having read two great posts on OpenSSH best practices, I decided today that I wanted to upgrade my SSH key architecture to use Elliptical Curve Cryptography. There were several gotchas involved that I thought it would be worth sharing here. There are, at the time of writing, no packages for Fedora 15 or Debian stable that I could find, so I've worked from source.
-Getting ECC working on some systems can be a bit of a pain. Fedora, in particular, has decided, due to patent encumbrance, to remove the header include files for OpenSSL's ECC implementation. To get around this, I therefore recommend reinstalling OpenSSL from source from their site. You will be able to tell whether your distro will have this problem because, in the ./configure output of OpenSSH you will encounter:
+<meta name="description" content="Having read two great posts on OpenSSH best practices, I decided today that I wanted to upgrade my SSH key architecture to use Elliptical Curve Cryptography. There were several gotchas involved that I thought it would be worth sharing here. There are, at the time of writing, no packages for Fedora 15 or Debian stable that I could find, so I&#39;ve worked from source.
+Getting ECC working on some systems can be a bit of a pain. Fedora, in particular, has decided, due to patent encumbrance, to remove the header include files for OpenSSL&#39;s ECC implementation. To get around this, I therefore recommend reinstalling OpenSSL from source from their site. You will be able to tell whether your distro will have this problem because, in the ./configure output of OpenSSH you will encounter:
 checking whether OpenSSL has complete ECC support... no
 An easy way to check is to look for the presence of /usr/include/openssl/ecdsa.h
-So, once you've got the latest and greatest OpenSSL installed, download the latest OpenSSH portable tar.gz. Then, you'll want to run the following.
+So, once you&#39;ve got the latest and greatest OpenSSL installed, download the latest OpenSSH portable tar.gz. Then, you&#39;ll want to run the following.
 On Fedora 15 (after installing OpenSSL from source; last command in this list needs to be root):
 ">
 <meta property="article:published_time" content="2011-07-22 14:49:15 +0100">

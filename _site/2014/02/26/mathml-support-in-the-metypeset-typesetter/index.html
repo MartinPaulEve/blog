@@ -113,14 +113,14 @@ One of the big challenges that we face in designing an open source scholarly typ
 One of the big challenges that we face in designing an open source scholarly typesetter is ensuring that a diverse range of papers can accurately be parsed by the system. I come from a humanities background and know what articles from those disciplines look like. I do not necessarily know the structure and format of an article from the biomedical sciences.
 However, one of the core differences between the disciplines that I have been handling today is our implementation of MathML. MathML is a markup language (ML) that handles mathematical equations. It provides a way to represent, within a linear format, the complex graphical symbols used in formulae by scientists, mathematicians and some philosophers of logic. The JATS (Journal Article Tag Suite) standard includes support for MathML meaning that it is possible to encode mml:math blocks inside paragraphs in an NLM/JATS document that can be rendered by any compatible galley production unit.
 The two cultures
-There is a problem however. Our assumed most common input format is Microsoft Word's docx format, which is a compressed collection of XML documents. However, rather than opting for MathML, Microsoft decided to invent their own standard: OMML (see ‘Do Your Math - OOXML and OMML (Updated 2008-02-12)’ 2008). This allows them greater flexibility for their formatting implementation, but critics would note that such plurality goes against the concept of a “standard” and fragments the field. It also creates a painful problem for our typesetter.
+There is a problem however. Our assumed most common input format is Microsoft Word&#39;s docx format, which is a compressed collection of XML documents. However, rather than opting for MathML, Microsoft decided to invent their own standard: OMML (see ‘Do Your Math - OOXML and OMML (Updated 2008-02-12)’ 2008). This allows them greater flexibility for their formatting implementation, but critics would note that such plurality goes against the concept of a “standard” and fragments the field. It also creates a painful problem for our typesetter.
 Our input documents, therefore, are in OMML. Our output format needs to be standard MML. What is to be done?
 The answer, it turns out, was surprisingly simple. The OxGarage stack, which sits beneath meTypeset as its core engine (in a modified format), has a beta transform procedure for OMML to MML. We also, though, have a fully fledged implementation from Microsoft. However, this is not something we can distribute and would only be of personal use if one had a Microsoft Office license.
 So, what we have done is this: by default used the OxGarage beta transform stack. If the user passes the “-p” flag (“--proprietary”) then we invoke our wrapper that will use the fuller Microsoft transform.
-A couple of lines added to the XML transform for the TEI to JATS phase and we're there. I also added a few lines to make sure that other parts of the transform stack don't try to alter MathML code.
+A couple of lines added to the XML transform for the TEI to JATS phase and we&#39;re there. I also added a few lines to make sure that other parts of the transform stack don&#39;t try to alter MathML code.
 Cite this article
 Please include the DOI in your citation: http://dx.doi.org/10.6084/m9.figshare.944613
-You can view this post's XML with lens.
+You can view this post&#39;s XML with lens.
 ">
 
 <meta name="twitter:image" content="https://eve.gd/images/geek.png">
@@ -133,14 +133,14 @@ You can view this post's XML with lens.
 One of the big challenges that we face in designing an open source scholarly typesetter is ensuring that a diverse range of papers can accurately be parsed by the system. I come from a humanities background and know what articles from those disciplines look like. I do not necessarily know the structure and format of an article from the biomedical sciences.
 However, one of the core differences between the disciplines that I have been handling today is our implementation of MathML. MathML is a markup language (ML) that handles mathematical equations. It provides a way to represent, within a linear format, the complex graphical symbols used in formulae by scientists, mathematicians and some philosophers of logic. The JATS (Journal Article Tag Suite) standard includes support for MathML meaning that it is possible to encode mml:math blocks inside paragraphs in an NLM/JATS document that can be rendered by any compatible galley production unit.
 The two cultures
-There is a problem however. Our assumed most common input format is Microsoft Word's docx format, which is a compressed collection of XML documents. However, rather than opting for MathML, Microsoft decided to invent their own standard: OMML (see ‘Do Your Math - OOXML and OMML (Updated 2008-02-12)’ 2008). This allows them greater flexibility for their formatting implementation, but critics would note that such plurality goes against the concept of a “standard” and fragments the field. It also creates a painful problem for our typesetter.
+There is a problem however. Our assumed most common input format is Microsoft Word&#39;s docx format, which is a compressed collection of XML documents. However, rather than opting for MathML, Microsoft decided to invent their own standard: OMML (see ‘Do Your Math - OOXML and OMML (Updated 2008-02-12)’ 2008). This allows them greater flexibility for their formatting implementation, but critics would note that such plurality goes against the concept of a “standard” and fragments the field. It also creates a painful problem for our typesetter.
 Our input documents, therefore, are in OMML. Our output format needs to be standard MML. What is to be done?
 The answer, it turns out, was surprisingly simple. The OxGarage stack, which sits beneath meTypeset as its core engine (in a modified format), has a beta transform procedure for OMML to MML. We also, though, have a fully fledged implementation from Microsoft. However, this is not something we can distribute and would only be of personal use if one had a Microsoft Office license.
 So, what we have done is this: by default used the OxGarage beta transform stack. If the user passes the “-p” flag (“--proprietary”) then we invoke our wrapper that will use the fuller Microsoft transform.
-A couple of lines added to the XML transform for the TEI to JATS phase and we're there. I also added a few lines to make sure that other parts of the transform stack don't try to alter MathML code.
+A couple of lines added to the XML transform for the TEI to JATS phase and we&#39;re there. I also added a few lines to make sure that other parts of the transform stack don&#39;t try to alter MathML code.
 Cite this article
 Please include the DOI in your citation: http://dx.doi.org/10.6084/m9.figshare.944613
-You can view this post's XML with lens.
+You can view this post&#39;s XML with lens.
 ">
 <meta property="article:published_time" content="2014-02-26 19:17:17 +0000">
 <meta property="article:author" content="Martin Paul Eve">

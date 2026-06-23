@@ -108,7 +108,7 @@
 <!-- Twitter Card Meta Tags (Optional but Recommended ) -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Wireless when housesitting (airmon-ng)">
-<meta name="twitter:description" content="This weekend I was house- (and dog-) sitting for a friend and had been told that I could use the internet while at their place. Sadly, however, the way this was configured was a guest account added my friend's laptop and she had not left the WEP key for their router. I was unable to obtain the WEP key as Windows 7 encrypts this data and the guest account cannot decrypt it. As I had permission (and really wanted wireless on my own laptop for ssh etc.), I decided to crack the WEP key and wanted to share my experience.
+<meta name="twitter:description" content="This weekend I was house- (and dog-) sitting for a friend and had been told that I could use the internet while at their place. Sadly, however, the way this was configured was a guest account added my friend&#39;s laptop and she had not left the WEP key for their router. I was unable to obtain the WEP key as Windows 7 encrypts this data and the guest account cannot decrypt it. As I had permission (and really wanted wireless on my own laptop for ssh etc.), I decided to crack the WEP key and wanted to share my experience.
 For this to work you need to have at least one other computer that can connect to the router.
 My hardware setup is a Toshiba Satellite laptop and the first thing I did was to install the requisite packages:
 sudo apt-get install aircrack-ng
@@ -123,21 +123,21 @@ wlan0     IEEE 802.11bg  ESSID:off/any
           Retry  long limit:7   RTS thr:off   Fragment thr:off
           Power Management:off
 In this case, the adapter is called wlan0.
-Now, if on standard Ubuntu 10.10, the next step is to disable wireless from network manager. Right click the network manager icon at the top right of the screen and deselect "Enable Wireless".
+Now, if on standard Ubuntu 10.10, the next step is to disable wireless from network manager. Right click the network manager icon at the top right of the screen and deselect &quot;Enable Wireless&quot;.
 After that, you need to put the adapter into monitor mode and start airmon-ng:
 sudo iwconfig wlan0 mode monitor
 sudo airmon-ng start wlan0
-When that's up and running, you can do your initial reconnaissance work with:
+When that&#39;s up and running, you can do your initial reconnaissance work with:
 airodump-ng wlan0
 From here, note down the BSSID, Channel of the router you want to crack. Then, from the bottom, note the MAC address of the station that can connect to the router.
 At this stage, we want to start collecting data:
- airodump-ng --channel &lt;channel&gt; --bssid &lt;bssid of accesspoint&gt; -w ~/dump wlan0
-The "data" column should start filling up (slowly) -- it needs to be at about 20,000 (preferably higher) before the key can be cracked. There are two ways to speed up this process. The first is to stge an ARP relay attack:
-aireplay-ng --arpreplay -b &lt;bssid of accesspoint&gt; -h &lt;MAC address of client&gt; wlan0
-although, note, I wasn't able to get this working.
+ airodump-ng --channel &amp;lt;channel&amp;gt; --bssid &amp;lt;bssid of accesspoint&amp;gt; -w ~/dump wlan0
+The &quot;data&quot; column should start filling up (slowly) -- it needs to be at about 20,000 (preferably higher) before the key can be cracked. There are two ways to speed up this process. The first is to stge an ARP relay attack:
+aireplay-ng --arpreplay -b &amp;lt;bssid of accesspoint&amp;gt; -h &amp;lt;MAC address of client&amp;gt; wlan0
+although, note, I wasn&#39;t able to get this working.
 The easier way, if you have access to the machine that can connect, is to just download a large (100mb+) file.
-Once you've got 20,000 (or more) data values, you can use (in a separate terminal):
-aircrack-ng -z -b &lt;bssid of the accesspoint&gt; ~/dump*.cap
+Once you&#39;ve got 20,000 (or more) data values, you can use (in a separate terminal):
+aircrack-ng -z -b &amp;lt;bssid of the accesspoint&amp;gt; ~/dump*.cap
 to obtain the key. If it fails, collect more data and retry. Total time: 10 mins.
 My original source for this howto was: http://www.brighthub.com/computing/smb-security/articles/17866.aspx
 ">
@@ -148,7 +148,7 @@ My original source for this howto was: http://www.brighthub.com/computing/smb-se
 <meta name="twitter:creator" content="@martin_eve">
 
 <!-- Additional Useful Meta Tags -->
-<meta name="description" content="This weekend I was house- (and dog-) sitting for a friend and had been told that I could use the internet while at their place. Sadly, however, the way this was configured was a guest account added my friend's laptop and she had not left the WEP key for their router. I was unable to obtain the WEP key as Windows 7 encrypts this data and the guest account cannot decrypt it. As I had permission (and really wanted wireless on my own laptop for ssh etc.), I decided to crack the WEP key and wanted to share my experience.
+<meta name="description" content="This weekend I was house- (and dog-) sitting for a friend and had been told that I could use the internet while at their place. Sadly, however, the way this was configured was a guest account added my friend&#39;s laptop and she had not left the WEP key for their router. I was unable to obtain the WEP key as Windows 7 encrypts this data and the guest account cannot decrypt it. As I had permission (and really wanted wireless on my own laptop for ssh etc.), I decided to crack the WEP key and wanted to share my experience.
 For this to work you need to have at least one other computer that can connect to the router.
 My hardware setup is a Toshiba Satellite laptop and the first thing I did was to install the requisite packages:
 sudo apt-get install aircrack-ng
@@ -163,21 +163,21 @@ wlan0     IEEE 802.11bg  ESSID:off/any
           Retry  long limit:7   RTS thr:off   Fragment thr:off
           Power Management:off
 In this case, the adapter is called wlan0.
-Now, if on standard Ubuntu 10.10, the next step is to disable wireless from network manager. Right click the network manager icon at the top right of the screen and deselect "Enable Wireless".
+Now, if on standard Ubuntu 10.10, the next step is to disable wireless from network manager. Right click the network manager icon at the top right of the screen and deselect &quot;Enable Wireless&quot;.
 After that, you need to put the adapter into monitor mode and start airmon-ng:
 sudo iwconfig wlan0 mode monitor
 sudo airmon-ng start wlan0
-When that's up and running, you can do your initial reconnaissance work with:
+When that&#39;s up and running, you can do your initial reconnaissance work with:
 airodump-ng wlan0
 From here, note down the BSSID, Channel of the router you want to crack. Then, from the bottom, note the MAC address of the station that can connect to the router.
 At this stage, we want to start collecting data:
- airodump-ng --channel &lt;channel&gt; --bssid &lt;bssid of accesspoint&gt; -w ~/dump wlan0
-The "data" column should start filling up (slowly) -- it needs to be at about 20,000 (preferably higher) before the key can be cracked. There are two ways to speed up this process. The first is to stge an ARP relay attack:
-aireplay-ng --arpreplay -b &lt;bssid of accesspoint&gt; -h &lt;MAC address of client&gt; wlan0
-although, note, I wasn't able to get this working.
+ airodump-ng --channel &amp;lt;channel&amp;gt; --bssid &amp;lt;bssid of accesspoint&amp;gt; -w ~/dump wlan0
+The &quot;data&quot; column should start filling up (slowly) -- it needs to be at about 20,000 (preferably higher) before the key can be cracked. There are two ways to speed up this process. The first is to stge an ARP relay attack:
+aireplay-ng --arpreplay -b &amp;lt;bssid of accesspoint&amp;gt; -h &amp;lt;MAC address of client&amp;gt; wlan0
+although, note, I wasn&#39;t able to get this working.
 The easier way, if you have access to the machine that can connect, is to just download a large (100mb+) file.
-Once you've got 20,000 (or more) data values, you can use (in a separate terminal):
-aircrack-ng -z -b &lt;bssid of the accesspoint&gt; ~/dump*.cap
+Once you&#39;ve got 20,000 (or more) data values, you can use (in a separate terminal):
+aircrack-ng -z -b &amp;lt;bssid of the accesspoint&amp;gt; ~/dump*.cap
 to obtain the key. If it fails, collect more data and retry. Total time: 10 mins.
 My original source for this howto was: http://www.brighthub.com/computing/smb-security/articles/17866.aspx
 ">

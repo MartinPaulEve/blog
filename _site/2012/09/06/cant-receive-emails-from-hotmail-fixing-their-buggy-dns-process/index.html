@@ -109,11 +109,11 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Can't receive emails from Hotmail: fixing their buggy DNS process">
 <meta name="twitter:description" content="I run Google Apps for Domains to handle my email. Recently, a friend was having trouble emailing me. I asked her to send me the source of the message. In there, I found this:
-Diagnostic-Code: smtp;554 5.7.1 &lt;martin@martineve.com&gt;: Relay access denied
+Diagnostic-Code: smtp;554 5.7.1 &amp;lt;martin@martineve.com&amp;gt;: Relay access denied
 My A records point to my server.
 My MX records point to Google Apps.
-I know that the Google Apps servers wouldn't refuse that request, so what's going on?
-It turns out that Hotmail, in its infinite wisdom, decides that it would be better to query the A record and see if there's an SMTP server running on Port 25 there. If there is, it ignores the MX records and tries to relay through that server. So that'll be complete disregard for RFCs 974 and 2821 then. Humph.
+I know that the Google Apps servers wouldn&#39;t refuse that request, so what&#39;s going on?
+It turns out that Hotmail, in its infinite wisdom, decides that it would be better to query the A record and see if there&#39;s an SMTP server running on Port 25 there. If there is, it ignores the MX records and tries to relay through that server. So that&#39;ll be complete disregard for RFCs 974 and 2821 then. Humph.
 So, the solution is either to use iptables to drop packets from Hotmail servers or, as I have now done (and meant to do from the start(!)), to move postfix to listen only on localhost.
 inet_interfaces = localhost
 That ought to do it.
@@ -126,11 +126,11 @@ That ought to do it.
 
 <!-- Additional Useful Meta Tags -->
 <meta name="description" content="I run Google Apps for Domains to handle my email. Recently, a friend was having trouble emailing me. I asked her to send me the source of the message. In there, I found this:
-Diagnostic-Code: smtp;554 5.7.1 &lt;martin@martineve.com&gt;: Relay access denied
+Diagnostic-Code: smtp;554 5.7.1 &amp;lt;martin@martineve.com&amp;gt;: Relay access denied
 My A records point to my server.
 My MX records point to Google Apps.
-I know that the Google Apps servers wouldn't refuse that request, so what's going on?
-It turns out that Hotmail, in its infinite wisdom, decides that it would be better to query the A record and see if there's an SMTP server running on Port 25 there. If there is, it ignores the MX records and tries to relay through that server. So that'll be complete disregard for RFCs 974 and 2821 then. Humph.
+I know that the Google Apps servers wouldn&#39;t refuse that request, so what&#39;s going on?
+It turns out that Hotmail, in its infinite wisdom, decides that it would be better to query the A record and see if there&#39;s an SMTP server running on Port 25 there. If there is, it ignores the MX records and tries to relay through that server. So that&#39;ll be complete disregard for RFCs 974 and 2821 then. Humph.
 So, the solution is either to use iptables to drop packets from Hotmail servers or, as I have now done (and meant to do from the start(!)), to move postfix to listen only on localhost.
 inet_interfaces = localhost
 That ought to do it.

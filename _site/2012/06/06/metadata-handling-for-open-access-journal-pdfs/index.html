@@ -95,7 +95,7 @@
 <!-- Open Graph Meta Tags for Social Media Preview -->
 <meta property="og:type" content="article">
 <meta property="og:title" content="Metadata handling for Open Access Journal PDFs">
-<meta property="og:description" content="As I count down to the launch of Orbit: Writing around Pynchon, I've been thinking carefully about the mechanisms through which the articles will be consumed...">
+<meta property="og:description" content="As I count down to the launch of Orbit: Writing around Pynchon, I&#39;ve been thinking carefully about the mechanisms through which the articles will be consumed...">
 
 <meta property="og:image" content="https://eve.gd/images/oa.png">
 
@@ -108,9 +108,9 @@
 <!-- Twitter Card Meta Tags (Optional but Recommended ) -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Metadata handling for Open Access Journal PDFs">
-<meta name="twitter:description" content="As I count down to the launch of Orbit: Writing around Pynchon, I've been thinking carefully about the mechanisms through which the articles will be consumed. In short: what metadata should be in the PDFs and where should it be.
-Obviously, I want the metadata to be visible to the human eye, but what about embedding this within the PDF's proper metadata mechanism? Apache FOP, which I'm using to the transforms, has the facility to do this. However, do other journals bother?
-Here's a metadata dump using pdftk on a top-rank Taylor and Francis journal in English literature:
+<meta name="twitter:description" content="As I count down to the launch of Orbit: Writing around Pynchon, I&#39;ve been thinking carefully about the mechanisms through which the articles will be consumed. In short: what metadata should be in the PDFs and where should it be.
+Obviously, I want the metadata to be visible to the human eye, but what about embedding this within the PDF&#39;s proper metadata mechanism? Apache FOP, which I&#39;m using to the transforms, has the facility to do this. However, do other journals bother?
+Here&#39;s a metadata dump using pdftk on a top-rank Taylor and Francis journal in English literature:
 InfoKey: Producer
 InfoValue: iText 2.1.4 (by lowagie.com)
 InfoKey: ModDate
@@ -120,10 +120,10 @@ InfoValue: D:20101227134204Z
 PdfID0: da625abeee725c7372c85bab42a58ff9
 PdfID1: a738f6173b5722dbf66507c0289aa1
 NumberOfPages: 17
-That's not especially descriptive!
+That&#39;s not especially descriptive!
 By contrast, my XSL transform is producing the following:
 InfoKey: Creator
-InfoValue: meXml: Martin Eve's XML Generator. https://www.martineve.com/
+InfoValue: meXml: Martin Eve&#39;s XML Generator. https://www.martineve.com/
 InfoKey: Title
 InfoValue: Generating PDFs from OJS
 InfoKey: Producer
@@ -133,7 +133,7 @@ InfoValue: Martin Paul Eve
 InfoKey: Subject
 InfoValue: It has long been desirable to create PDF files from a standard XML base. This plugin allows that to happen using a combination of OJS, Saxon and FOP.
 InfoKey: CreationDate
-InfoValue: D:20120605175241+01'00'
+InfoValue: D:20120605175241+01&#39;00&#39;
 PdfID0: f2e62132fce56dea2a80dccf6703b95
 PdfID1: f2e62132fce56dea2a80dccf6703b95
 NumberOfPages: 4
@@ -155,10 +155,10 @@ PageLabelPrefix: 3
 PageLabelNumStyle: NoNumber
 However, interestingly, the Taylor and Francis journal can be perfectly detected by Zotero. So where is it getting its info?
 The great JISC document on PDF metadata extraction mechanisms has the following for Zotero:
-Zotero uses "Google Scholar Results as well as DOIs on the first page to get metadata and that works in a large majority of cases". This implies that metadata extraction relies on converting the PDF to text at the client, using Regular Expressions to detect the DOI string, and submitting that string to Google Scholar or doi.org to retrieve the matching record.
+Zotero uses &quot;Google Scholar Results as well as DOIs on the first page to get metadata and that works in a large majority of cases&quot;. This implies that metadata extraction relies on converting the PDF to text at the client, using Regular Expressions to detect the DOI string, and submitting that string to Google Scholar or doi.org to retrieve the matching record.
 All sounds good. So, as a test, I changed the DOI in my test document to reflect an article that I know worked. I changed the author, Title and DOI to all match the second article. I even put in a URL pointer to dx.doi.org/.....
-However, Zotero still wouldn't pick it up; it completely mis-identifies it. So I decided to dive into the mechanics.
-Zotero's main PDF functionality resides in recognizePDF.js. Here's the first part of that function:
+However, Zotero still wouldn&#39;t pick it up; it completely mis-identifies it. So I decided to dive into the mechanics.
+Zotero&#39;s main PDF functionality resides in recognizePDF.js. Here&#39;s the first part of that function:
 ">
 
 <meta name="twitter:image" content="https://eve.gd/images/oa.png">
@@ -167,9 +167,9 @@ Zotero's main PDF functionality resides in recognizePDF.js. Here's the first par
 <meta name="twitter:creator" content="@martin_eve">
 
 <!-- Additional Useful Meta Tags -->
-<meta name="description" content="As I count down to the launch of Orbit: Writing around Pynchon, I've been thinking carefully about the mechanisms through which the articles will be consumed. In short: what metadata should be in the PDFs and where should it be.
-Obviously, I want the metadata to be visible to the human eye, but what about embedding this within the PDF's proper metadata mechanism? Apache FOP, which I'm using to the transforms, has the facility to do this. However, do other journals bother?
-Here's a metadata dump using pdftk on a top-rank Taylor and Francis journal in English literature:
+<meta name="description" content="As I count down to the launch of Orbit: Writing around Pynchon, I&#39;ve been thinking carefully about the mechanisms through which the articles will be consumed. In short: what metadata should be in the PDFs and where should it be.
+Obviously, I want the metadata to be visible to the human eye, but what about embedding this within the PDF&#39;s proper metadata mechanism? Apache FOP, which I&#39;m using to the transforms, has the facility to do this. However, do other journals bother?
+Here&#39;s a metadata dump using pdftk on a top-rank Taylor and Francis journal in English literature:
 InfoKey: Producer
 InfoValue: iText 2.1.4 (by lowagie.com)
 InfoKey: ModDate
@@ -179,10 +179,10 @@ InfoValue: D:20101227134204Z
 PdfID0: da625abeee725c7372c85bab42a58ff9
 PdfID1: a738f6173b5722dbf66507c0289aa1
 NumberOfPages: 17
-That's not especially descriptive!
+That&#39;s not especially descriptive!
 By contrast, my XSL transform is producing the following:
 InfoKey: Creator
-InfoValue: meXml: Martin Eve's XML Generator. https://www.martineve.com/
+InfoValue: meXml: Martin Eve&#39;s XML Generator. https://www.martineve.com/
 InfoKey: Title
 InfoValue: Generating PDFs from OJS
 InfoKey: Producer
@@ -192,7 +192,7 @@ InfoValue: Martin Paul Eve
 InfoKey: Subject
 InfoValue: It has long been desirable to create PDF files from a standard XML base. This plugin allows that to happen using a combination of OJS, Saxon and FOP.
 InfoKey: CreationDate
-InfoValue: D:20120605175241+01'00'
+InfoValue: D:20120605175241+01&#39;00&#39;
 PdfID0: f2e62132fce56dea2a80dccf6703b95
 PdfID1: f2e62132fce56dea2a80dccf6703b95
 NumberOfPages: 4
@@ -214,10 +214,10 @@ PageLabelPrefix: 3
 PageLabelNumStyle: NoNumber
 However, interestingly, the Taylor and Francis journal can be perfectly detected by Zotero. So where is it getting its info?
 The great JISC document on PDF metadata extraction mechanisms has the following for Zotero:
-Zotero uses "Google Scholar Results as well as DOIs on the first page to get metadata and that works in a large majority of cases". This implies that metadata extraction relies on converting the PDF to text at the client, using Regular Expressions to detect the DOI string, and submitting that string to Google Scholar or doi.org to retrieve the matching record.
+Zotero uses &quot;Google Scholar Results as well as DOIs on the first page to get metadata and that works in a large majority of cases&quot;. This implies that metadata extraction relies on converting the PDF to text at the client, using Regular Expressions to detect the DOI string, and submitting that string to Google Scholar or doi.org to retrieve the matching record.
 All sounds good. So, as a test, I changed the DOI in my test document to reflect an article that I know worked. I changed the author, Title and DOI to all match the second article. I even put in a URL pointer to dx.doi.org/.....
-However, Zotero still wouldn't pick it up; it completely mis-identifies it. So I decided to dive into the mechanics.
-Zotero's main PDF functionality resides in recognizePDF.js. Here's the first part of that function:
+However, Zotero still wouldn&#39;t pick it up; it completely mis-identifies it. So I decided to dive into the mechanics.
+Zotero&#39;s main PDF functionality resides in recognizePDF.js. Here&#39;s the first part of that function:
 ">
 <meta property="article:published_time" content="2012-06-06 07:59:17 +0100">
 <meta property="article:author" content="Martin Paul Eve">

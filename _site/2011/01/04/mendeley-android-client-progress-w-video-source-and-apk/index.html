@@ -95,7 +95,7 @@
 <!-- Open Graph Meta Tags for Social Media Preview -->
 <meta property="og:type" content="article">
 <meta property="og:title" content="Mendeley Android Client Progress (w/ Video, Source and APK!)">
-<meta property="og:description" content="Before anybody non-techie gets excited by the heading there, I'm not claiming this is anywhere near production-ready. In fact, it's not even functional. Howe...">
+<meta property="og:description" content="Before anybody non-techie gets excited by the heading there, I&#39;m not claiming this is anywhere near production-ready. In fact, it&#39;s not even functional. Howe...">
 
 <meta property="og:image" content="https://eve.gd/images/geek.png">
 
@@ -108,15 +108,15 @@
 <!-- Twitter Card Meta Tags (Optional but Recommended ) -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Mendeley Android Client Progress (w/ Video, Source and APK!)">
-<meta name="twitter:description" content="Before anybody non-techie gets excited by the heading there, I'm not claiming this is anywhere near production-ready. In fact, it's not even functional. However, from a technical perspective, my Android Mendeley client has reached a milestone of succesful OAuth login. In this post I will give some samples of the application as it stands, including an APK download, source and video, and also detail the measures I undertook to get OAuth working using Signpost under Java for Android.
-First up, there's now a Google Code project, which also includes GPL v3 licensed source code of my initial commit.
-Secondly, here's a video of the client "in action" (running on the emulator):
-&lt;/param&gt;&lt;/param&gt;&lt;/param&gt;&lt;/embed&gt;
-Thirdly, if you felt the need to try out this "awesomeness" (read: currently useless fail) on your own device, you can download the apk and install it as an untrusted application.
+<meta name="twitter:description" content="Before anybody non-techie gets excited by the heading there, I&#39;m not claiming this is anywhere near production-ready. In fact, it&#39;s not even functional. However, from a technical perspective, my Android Mendeley client has reached a milestone of succesful OAuth login. In this post I will give some samples of the application as it stands, including an APK download, source and video, and also detail the measures I undertook to get OAuth working using Signpost under Java for Android.
+First up, there&#39;s now a Google Code project, which also includes GPL v3 licensed source code of my initial commit.
+Secondly, here&#39;s a video of the client &quot;in action&quot; (running on the emulator):
+&amp;lt;/param&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/embed&amp;gt;
+Thirdly, if you felt the need to try out this &quot;awesomeness&quot; (read: currently useless fail) on your own device, you can download the apk and install it as an untrusted application.
 As you can see, it successfully authenticates, but the API is throwing status 500 Internal Server errors on every API call at the moment. Whether this is a problem at their end, or mine, is unclear for now.
 The Seriously Techie Bit
-Finally, here's the technical explanation of things I tried, failed and then failed better at:
-The first thing to note is that the latest version of signpost (1.2.1.1) will NOT work with Mendeley on Android. You'll certainly need 1.2. If you ignore this advice, you requests will all fail at provider.retrieveAccessToken.
+Finally, here&#39;s the technical explanation of things I tried, failed and then failed better at:
+The first thing to note is that the latest version of signpost (1.2.1.1) will NOT work with Mendeley on Android. You&#39;ll certainly need 1.2. If you ignore this advice, you requests will all fail at provider.retrieveAccessToken.
 Secondly, before calling provider.retrieveAccessToken you need to specify provider.setOAuth10a(true), or you will end up with a response telling you that there was no consumer key provided. Even though there was.
 From MendeleyConnector.java:
 ">
@@ -127,15 +127,15 @@ From MendeleyConnector.java:
 <meta name="twitter:creator" content="@martin_eve">
 
 <!-- Additional Useful Meta Tags -->
-<meta name="description" content="Before anybody non-techie gets excited by the heading there, I'm not claiming this is anywhere near production-ready. In fact, it's not even functional. However, from a technical perspective, my Android Mendeley client has reached a milestone of succesful OAuth login. In this post I will give some samples of the application as it stands, including an APK download, source and video, and also detail the measures I undertook to get OAuth working using Signpost under Java for Android.
-First up, there's now a Google Code project, which also includes GPL v3 licensed source code of my initial commit.
-Secondly, here's a video of the client "in action" (running on the emulator):
-&lt;/param&gt;&lt;/param&gt;&lt;/param&gt;&lt;/embed&gt;
-Thirdly, if you felt the need to try out this "awesomeness" (read: currently useless fail) on your own device, you can download the apk and install it as an untrusted application.
+<meta name="description" content="Before anybody non-techie gets excited by the heading there, I&#39;m not claiming this is anywhere near production-ready. In fact, it&#39;s not even functional. However, from a technical perspective, my Android Mendeley client has reached a milestone of succesful OAuth login. In this post I will give some samples of the application as it stands, including an APK download, source and video, and also detail the measures I undertook to get OAuth working using Signpost under Java for Android.
+First up, there&#39;s now a Google Code project, which also includes GPL v3 licensed source code of my initial commit.
+Secondly, here&#39;s a video of the client &quot;in action&quot; (running on the emulator):
+&amp;lt;/param&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/embed&amp;gt;
+Thirdly, if you felt the need to try out this &quot;awesomeness&quot; (read: currently useless fail) on your own device, you can download the apk and install it as an untrusted application.
 As you can see, it successfully authenticates, but the API is throwing status 500 Internal Server errors on every API call at the moment. Whether this is a problem at their end, or mine, is unclear for now.
 The Seriously Techie Bit
-Finally, here's the technical explanation of things I tried, failed and then failed better at:
-The first thing to note is that the latest version of signpost (1.2.1.1) will NOT work with Mendeley on Android. You'll certainly need 1.2. If you ignore this advice, you requests will all fail at provider.retrieveAccessToken.
+Finally, here&#39;s the technical explanation of things I tried, failed and then failed better at:
+The first thing to note is that the latest version of signpost (1.2.1.1) will NOT work with Mendeley on Android. You&#39;ll certainly need 1.2. If you ignore this advice, you requests will all fail at provider.retrieveAccessToken.
 Secondly, before calling provider.retrieveAccessToken you need to specify provider.setOAuth10a(true), or you will end up with a response telling you that there was no consumer key provided. Even though there was.
 From MendeleyConnector.java:
 ">

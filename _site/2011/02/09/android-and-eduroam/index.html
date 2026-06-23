@@ -97,7 +97,7 @@
 <meta property="og:title" content="Android and Eduroam">
 <meta property="og:description" content="
 Image credit: Copyright Eduroam, used here as fair use to indicate the network in question.
-It seems there's a few bugs in various Android variants that pre...">
+It seems there&#39;s a few bugs in various Android variants that pre...">
 
 <meta property="og:image" content="https://eve.gd/images/geek.png">
 
@@ -112,8 +112,8 @@ It seems there's a few bugs in various Android variants that pre...">
 <meta name="twitter:title" content="Android and Eduroam">
 <meta name="twitter:description" content="
 Image credit: Copyright Eduroam, used here as fair use to indicate the network in question.
-It seems there's a few bugs in various Android variants that prevent a valid routing table being setup when connecting to an institutional eduroam network. The problem, which I have seen people reporting on XDA, occurs when you can get onto the wifi network, but still no resources are available.
-You'll need a rooted device to fix this, and it's a clumsy workaround, but here's what I did on the University of Sussex campus.
+It seems there&#39;s a few bugs in various Android variants that prevent a valid routing table being setup when connecting to an institutional eduroam network. The problem, which I have seen people reporting on XDA, occurs when you can get onto the wifi network, but still no resources are available.
+You&#39;ll need a rooted device to fix this, and it&#39;s a clumsy workaround, but here&#39;s what I did on the University of Sussex campus.
 1.) Dump a valid routing table from a device that works:
 
 sudo route
@@ -129,7 +129,7 @@ route
 Kernel IP routing table
 Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
 
-What a surprise, it's empty.
+What a surprise, it&#39;s empty.
 3.) Add a route to your gateway and then a default route using the gateway
 
 route add 10.0.8.5 dev eth0
@@ -140,7 +140,7 @@ Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
 10.0.8.5        *               255.255.255.255 UH    0      0        0 eth0
 default         10.0.8.5        0.0.0.0         UG    0      0        0 eth0
 
-Hurrah! You are now connected. It's probably worth putting this in a script which you can automatically run with Script Kitty or the such like.
+Hurrah! You are now connected. It&#39;s probably worth putting this in a script which you can automatically run with Script Kitty or the such like.
 4.) Test connectivity
 
 ping google.com
@@ -157,8 +157,8 @@ PING google.com (74.125.230.116) 56(84) bytes of data.
 <!-- Additional Useful Meta Tags -->
 <meta name="description" content="
 Image credit: Copyright Eduroam, used here as fair use to indicate the network in question.
-It seems there's a few bugs in various Android variants that prevent a valid routing table being setup when connecting to an institutional eduroam network. The problem, which I have seen people reporting on XDA, occurs when you can get onto the wifi network, but still no resources are available.
-You'll need a rooted device to fix this, and it's a clumsy workaround, but here's what I did on the University of Sussex campus.
+It seems there&#39;s a few bugs in various Android variants that prevent a valid routing table being setup when connecting to an institutional eduroam network. The problem, which I have seen people reporting on XDA, occurs when you can get onto the wifi network, but still no resources are available.
+You&#39;ll need a rooted device to fix this, and it&#39;s a clumsy workaround, but here&#39;s what I did on the University of Sussex campus.
 1.) Dump a valid routing table from a device that works:
 
 sudo route
@@ -174,7 +174,7 @@ route
 Kernel IP routing table
 Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
 
-What a surprise, it's empty.
+What a surprise, it&#39;s empty.
 3.) Add a route to your gateway and then a default route using the gateway
 
 route add 10.0.8.5 dev eth0
@@ -185,7 +185,7 @@ Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
 10.0.8.5        *               255.255.255.255 UH    0      0        0 eth0
 default         10.0.8.5        0.0.0.0         UG    0      0        0 eth0
 
-Hurrah! You are now connected. It's probably worth putting this in a script which you can automatically run with Script Kitty or the such like.
+Hurrah! You are now connected. It&#39;s probably worth putting this in a script which you can automatically run with Script Kitty or the such like.
 4.) Test connectivity
 
 ping google.com

@@ -110,23 +110,23 @@
 <meta name="twitter:title" content="Userspace responsiveness .bashrc alternative (Ubuntu 10.10: Working)">
 <meta name="twitter:description" content="Recent discussion on the lkm has lead to Linus giving the go-ahead to a large kernel patch that massively increases responsiveness when multi-tasking on Linux desktop. A slashdot article today also points out that the same result can be achieved by modifications userspace and that this is, indeed, how the patch was tested.
 The original instructions can be found at webupd8, but, for Ubuntu systems, they are incomplete.
-Here's the correct information.
+Here&#39;s the correct information.
 /etc/rc.local should contain:
 mkdir -p /dev/cgroup/cpu
 mount -t cgroup cgroup /dev/cgroup/cpu -o cpu
 mkdir -m 0777 /dev/cgroup/cpu/user
-echo "/usr/local/sbin/cgroup_clean" &gt; /dev/cgroup/cpu/release_agent
+echo &quot;/usr/local/sbin/cgroup_clean&quot; &amp;gt; /dev/cgroup/cpu/release_agent
 and should be executable (sudo chmod +x /etc/rc.local).
 Your ~/.bashrc should contain:
-if [ "$PS1" ] ; then
-   mkdir -p -m 0700 /dev/cgroup/cpu/user/$$ &gt; /dev/null 2&gt;&amp;1
-   echo $$ &gt; /dev/cgroup/cpu/user/$$/tasks
-   echo "1" &gt; /dev/cgroup/cpu/user/$$/notify_on_release
+if [ &quot;$PS1&quot; ] ; then
+   mkdir -p -m 0700 /dev/cgroup/cpu/user/$$ &amp;gt; /dev/null 2&amp;gt;&amp;amp;1
+   echo $$ &amp;gt; /dev/cgroup/cpu/user/$$/tasks
+   echo &quot;1&quot; &amp;gt; /dev/cgroup/cpu/user/$$/notify_on_release
 fi
 directly at the top.
 Finally (and this is where the original instructions were incomplete), /usr/local/sbin/cgroup_clean should contain:
 #!/bin/sh
-if [ "$1" != "/user" ]; then
+if [ &quot;$1&quot; != &quot;/user&quot; ]; then
 rmdir /dev/cgroup/cpu/$1
 fi 
 as suggested by an anonymous comment on the original. Finally, ensure the cgroup cleanup script is executable: sudo chmod +x /usr/local/sbin/cgroup_clean
@@ -141,23 +141,23 @@ Reboot your system and you too can have an ultra-responsive desktop!
 <!-- Additional Useful Meta Tags -->
 <meta name="description" content="Recent discussion on the lkm has lead to Linus giving the go-ahead to a large kernel patch that massively increases responsiveness when multi-tasking on Linux desktop. A slashdot article today also points out that the same result can be achieved by modifications userspace and that this is, indeed, how the patch was tested.
 The original instructions can be found at webupd8, but, for Ubuntu systems, they are incomplete.
-Here's the correct information.
+Here&#39;s the correct information.
 /etc/rc.local should contain:
 mkdir -p /dev/cgroup/cpu
 mount -t cgroup cgroup /dev/cgroup/cpu -o cpu
 mkdir -m 0777 /dev/cgroup/cpu/user
-echo "/usr/local/sbin/cgroup_clean" &gt; /dev/cgroup/cpu/release_agent
+echo &quot;/usr/local/sbin/cgroup_clean&quot; &amp;gt; /dev/cgroup/cpu/release_agent
 and should be executable (sudo chmod +x /etc/rc.local).
 Your ~/.bashrc should contain:
-if [ "$PS1" ] ; then
-   mkdir -p -m 0700 /dev/cgroup/cpu/user/$$ &gt; /dev/null 2&gt;&amp;1
-   echo $$ &gt; /dev/cgroup/cpu/user/$$/tasks
-   echo "1" &gt; /dev/cgroup/cpu/user/$$/notify_on_release
+if [ &quot;$PS1&quot; ] ; then
+   mkdir -p -m 0700 /dev/cgroup/cpu/user/$$ &amp;gt; /dev/null 2&amp;gt;&amp;amp;1
+   echo $$ &amp;gt; /dev/cgroup/cpu/user/$$/tasks
+   echo &quot;1&quot; &amp;gt; /dev/cgroup/cpu/user/$$/notify_on_release
 fi
 directly at the top.
 Finally (and this is where the original instructions were incomplete), /usr/local/sbin/cgroup_clean should contain:
 #!/bin/sh
-if [ "$1" != "/user" ]; then
+if [ &quot;$1&quot; != &quot;/user&quot; ]; then
 rmdir /dev/cgroup/cpu/$1
 fi 
 as suggested by an anonymous comment on the original. Finally, ensure the cgroup cleanup script is executable: sudo chmod +x /usr/local/sbin/cgroup_clean

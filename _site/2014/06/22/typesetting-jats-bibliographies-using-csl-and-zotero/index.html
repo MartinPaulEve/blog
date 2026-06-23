@@ -111,45 +111,45 @@
 <meta name="twitter:description" content="One of the hardest parts of typesetting articles for scholarly publication in the JATS standard, especially when using homemade tools, is the bibliography. JATS (and its NLM predecessors) expects references to be broken down into their constituent components where possible in order to be semantically rich. For example:
 
 
-      &lt;ref id="royall"&gt;
-        &lt;element-citation publication-type="bookchapter"&gt;
-          &lt;person-group person-group-type="author"&gt;
-            &lt;name&gt;
-              &lt;surname&gt;Royall&lt;/surname&gt;
-              &lt;given-names&gt;Tyler&lt;/given-names&gt;
-            &lt;/name&gt;
-          &lt;/person-group&gt;
-          &lt;article-title&gt;The Contrast&lt;/article-title&gt;
-          &lt;source&gt;The Norton Anthology of American Literature, Vol. A: Beginnings to 1820&lt;/source&gt;
-          &lt;person-group person-group-type="editor"&gt;
-            &lt;name&gt;
-              &lt;surname&gt;Franklin&lt;/surname&gt;
-              &lt;given-names&gt;Wayne&lt;/given-names&gt;
-            &lt;/name&gt;
-            &lt;name&gt;
-              &lt;surname&gt;Gura&lt;/surname&gt;
-              &lt;given-names&gt;Philip F.&lt;/given-names&gt;
-            &lt;/name&gt;
-            &lt;name&gt;
-              &lt;surname&gt;Krupat&lt;/surname&gt;
-              &lt;given-names&gt;Arnold&lt;/given-names&gt;
-            &lt;/name&gt;
-            &lt;name&gt;
-              &lt;surname&gt;Baym&lt;/surname&gt;
-              &lt;given-names&gt;Nina&lt;/given-names&gt;
-            &lt;/name&gt;
-          &lt;/person-group&gt;
-          &lt;publisher-name&gt;W. W. Norton &amp;amp; Company&lt;/publisher-name&gt;
-          &lt;publisher-loc&gt;New York&lt;/publisher-loc&gt;
-          &lt;fpage&gt;765&lt;/fpage&gt;
-          &lt;lpage&gt;805&lt;/lpage&gt;
-        &lt;/element-citation&gt;
-      &lt;/ref&gt;
+      &amp;lt;ref id=&quot;royall&quot;&amp;gt;
+        &amp;lt;element-citation publication-type=&quot;bookchapter&quot;&amp;gt;
+          &amp;lt;person-group person-group-type=&quot;author&quot;&amp;gt;
+            &amp;lt;name&amp;gt;
+              &amp;lt;surname&amp;gt;Royall&amp;lt;/surname&amp;gt;
+              &amp;lt;given-names&amp;gt;Tyler&amp;lt;/given-names&amp;gt;
+            &amp;lt;/name&amp;gt;
+          &amp;lt;/person-group&amp;gt;
+          &amp;lt;article-title&amp;gt;The Contrast&amp;lt;/article-title&amp;gt;
+          &amp;lt;source&amp;gt;The Norton Anthology of American Literature, Vol. A: Beginnings to 1820&amp;lt;/source&amp;gt;
+          &amp;lt;person-group person-group-type=&quot;editor&quot;&amp;gt;
+            &amp;lt;name&amp;gt;
+              &amp;lt;surname&amp;gt;Franklin&amp;lt;/surname&amp;gt;
+              &amp;lt;given-names&amp;gt;Wayne&amp;lt;/given-names&amp;gt;
+            &amp;lt;/name&amp;gt;
+            &amp;lt;name&amp;gt;
+              &amp;lt;surname&amp;gt;Gura&amp;lt;/surname&amp;gt;
+              &amp;lt;given-names&amp;gt;Philip F.&amp;lt;/given-names&amp;gt;
+            &amp;lt;/name&amp;gt;
+            &amp;lt;name&amp;gt;
+              &amp;lt;surname&amp;gt;Krupat&amp;lt;/surname&amp;gt;
+              &amp;lt;given-names&amp;gt;Arnold&amp;lt;/given-names&amp;gt;
+            &amp;lt;/name&amp;gt;
+            &amp;lt;name&amp;gt;
+              &amp;lt;surname&amp;gt;Baym&amp;lt;/surname&amp;gt;
+              &amp;lt;given-names&amp;gt;Nina&amp;lt;/given-names&amp;gt;
+            &amp;lt;/name&amp;gt;
+          &amp;lt;/person-group&amp;gt;
+          &amp;lt;publisher-name&amp;gt;W. W. Norton &amp;amp;amp; Company&amp;lt;/publisher-name&amp;gt;
+          &amp;lt;publisher-loc&amp;gt;New York&amp;lt;/publisher-loc&amp;gt;
+          &amp;lt;fpage&amp;gt;765&amp;lt;/fpage&amp;gt;
+          &amp;lt;lpage&amp;gt;805&amp;lt;/lpage&amp;gt;
+        &amp;lt;/element-citation&amp;gt;
+      &amp;lt;/ref&amp;gt;
 
-This is all very well, but it also creates a problem. How do we get from the author's plaintext citation to this structured format? Parsing references is hard. Very hard. My closest efforts in the past have been to write a cascading regular expression engine, meCite, to which anybody is willing to contribute. I do intend to do more on this at some point.
+This is all very well, but it also creates a problem. How do we get from the author&#39;s plaintext citation to this structured format? Parsing references is hard. Very hard. My closest efforts in the past have been to write a cascading regular expression engine, meCite, to which anybody is willing to contribute. I do intend to do more on this at some point.
 Late last year, however, Martin Fenner was investigating whether CSL could be used to generate a JATS bibliography. His current efforts were in the pandoc-JATS repository. These efforts stopped, however, following a discussion on the xbiblio mailing list where it was decided that CSL was not ideal for generating structured XML.
-This may be true. However, there are a lack of viable alternatives for typesetting references. Furthermore, Zotero and Mendeley (both of which use CSL to generate their citations) have vast databases publicly available for the scholarly literature. If we could use CSL to generate valid JATS XML, this would substantially reduce the time needed to typeset a JATS bibliography. To that end, I have taken on maintenance of a fork of Martin's original efforts. Last night, with the first commits, I fixed DOI display, added book chapter support, added support for editors and changed the book title field to the correct "source" implementation. My fork can be found at the JATS-CSL repo.
-While the approach may not be recommended, it is far better than nothing and I'll push it as far as I can in an effort to save some time!
+This may be true. However, there are a lack of viable alternatives for typesetting references. Furthermore, Zotero and Mendeley (both of which use CSL to generate their citations) have vast databases publicly available for the scholarly literature. If we could use CSL to generate valid JATS XML, this would substantially reduce the time needed to typeset a JATS bibliography. To that end, I have taken on maintenance of a fork of Martin&#39;s original efforts. Last night, with the first commits, I fixed DOI display, added book chapter support, added support for editors and changed the book title field to the correct &quot;source&quot; implementation. My fork can be found at the JATS-CSL repo.
+While the approach may not be recommended, it is far better than nothing and I&#39;ll push it as far as I can in an effort to save some time!
 ">
 
 <meta name="twitter:image" content="https://eve.gd/images/geek.png">
@@ -161,45 +161,45 @@ While the approach may not be recommended, it is far better than nothing and I'l
 <meta name="description" content="One of the hardest parts of typesetting articles for scholarly publication in the JATS standard, especially when using homemade tools, is the bibliography. JATS (and its NLM predecessors) expects references to be broken down into their constituent components where possible in order to be semantically rich. For example:
 
 
-      &lt;ref id="royall"&gt;
-        &lt;element-citation publication-type="bookchapter"&gt;
-          &lt;person-group person-group-type="author"&gt;
-            &lt;name&gt;
-              &lt;surname&gt;Royall&lt;/surname&gt;
-              &lt;given-names&gt;Tyler&lt;/given-names&gt;
-            &lt;/name&gt;
-          &lt;/person-group&gt;
-          &lt;article-title&gt;The Contrast&lt;/article-title&gt;
-          &lt;source&gt;The Norton Anthology of American Literature, Vol. A: Beginnings to 1820&lt;/source&gt;
-          &lt;person-group person-group-type="editor"&gt;
-            &lt;name&gt;
-              &lt;surname&gt;Franklin&lt;/surname&gt;
-              &lt;given-names&gt;Wayne&lt;/given-names&gt;
-            &lt;/name&gt;
-            &lt;name&gt;
-              &lt;surname&gt;Gura&lt;/surname&gt;
-              &lt;given-names&gt;Philip F.&lt;/given-names&gt;
-            &lt;/name&gt;
-            &lt;name&gt;
-              &lt;surname&gt;Krupat&lt;/surname&gt;
-              &lt;given-names&gt;Arnold&lt;/given-names&gt;
-            &lt;/name&gt;
-            &lt;name&gt;
-              &lt;surname&gt;Baym&lt;/surname&gt;
-              &lt;given-names&gt;Nina&lt;/given-names&gt;
-            &lt;/name&gt;
-          &lt;/person-group&gt;
-          &lt;publisher-name&gt;W. W. Norton &amp;amp; Company&lt;/publisher-name&gt;
-          &lt;publisher-loc&gt;New York&lt;/publisher-loc&gt;
-          &lt;fpage&gt;765&lt;/fpage&gt;
-          &lt;lpage&gt;805&lt;/lpage&gt;
-        &lt;/element-citation&gt;
-      &lt;/ref&gt;
+      &amp;lt;ref id=&quot;royall&quot;&amp;gt;
+        &amp;lt;element-citation publication-type=&quot;bookchapter&quot;&amp;gt;
+          &amp;lt;person-group person-group-type=&quot;author&quot;&amp;gt;
+            &amp;lt;name&amp;gt;
+              &amp;lt;surname&amp;gt;Royall&amp;lt;/surname&amp;gt;
+              &amp;lt;given-names&amp;gt;Tyler&amp;lt;/given-names&amp;gt;
+            &amp;lt;/name&amp;gt;
+          &amp;lt;/person-group&amp;gt;
+          &amp;lt;article-title&amp;gt;The Contrast&amp;lt;/article-title&amp;gt;
+          &amp;lt;source&amp;gt;The Norton Anthology of American Literature, Vol. A: Beginnings to 1820&amp;lt;/source&amp;gt;
+          &amp;lt;person-group person-group-type=&quot;editor&quot;&amp;gt;
+            &amp;lt;name&amp;gt;
+              &amp;lt;surname&amp;gt;Franklin&amp;lt;/surname&amp;gt;
+              &amp;lt;given-names&amp;gt;Wayne&amp;lt;/given-names&amp;gt;
+            &amp;lt;/name&amp;gt;
+            &amp;lt;name&amp;gt;
+              &amp;lt;surname&amp;gt;Gura&amp;lt;/surname&amp;gt;
+              &amp;lt;given-names&amp;gt;Philip F.&amp;lt;/given-names&amp;gt;
+            &amp;lt;/name&amp;gt;
+            &amp;lt;name&amp;gt;
+              &amp;lt;surname&amp;gt;Krupat&amp;lt;/surname&amp;gt;
+              &amp;lt;given-names&amp;gt;Arnold&amp;lt;/given-names&amp;gt;
+            &amp;lt;/name&amp;gt;
+            &amp;lt;name&amp;gt;
+              &amp;lt;surname&amp;gt;Baym&amp;lt;/surname&amp;gt;
+              &amp;lt;given-names&amp;gt;Nina&amp;lt;/given-names&amp;gt;
+            &amp;lt;/name&amp;gt;
+          &amp;lt;/person-group&amp;gt;
+          &amp;lt;publisher-name&amp;gt;W. W. Norton &amp;amp;amp; Company&amp;lt;/publisher-name&amp;gt;
+          &amp;lt;publisher-loc&amp;gt;New York&amp;lt;/publisher-loc&amp;gt;
+          &amp;lt;fpage&amp;gt;765&amp;lt;/fpage&amp;gt;
+          &amp;lt;lpage&amp;gt;805&amp;lt;/lpage&amp;gt;
+        &amp;lt;/element-citation&amp;gt;
+      &amp;lt;/ref&amp;gt;
 
-This is all very well, but it also creates a problem. How do we get from the author's plaintext citation to this structured format? Parsing references is hard. Very hard. My closest efforts in the past have been to write a cascading regular expression engine, meCite, to which anybody is willing to contribute. I do intend to do more on this at some point.
+This is all very well, but it also creates a problem. How do we get from the author&#39;s plaintext citation to this structured format? Parsing references is hard. Very hard. My closest efforts in the past have been to write a cascading regular expression engine, meCite, to which anybody is willing to contribute. I do intend to do more on this at some point.
 Late last year, however, Martin Fenner was investigating whether CSL could be used to generate a JATS bibliography. His current efforts were in the pandoc-JATS repository. These efforts stopped, however, following a discussion on the xbiblio mailing list where it was decided that CSL was not ideal for generating structured XML.
-This may be true. However, there are a lack of viable alternatives for typesetting references. Furthermore, Zotero and Mendeley (both of which use CSL to generate their citations) have vast databases publicly available for the scholarly literature. If we could use CSL to generate valid JATS XML, this would substantially reduce the time needed to typeset a JATS bibliography. To that end, I have taken on maintenance of a fork of Martin's original efforts. Last night, with the first commits, I fixed DOI display, added book chapter support, added support for editors and changed the book title field to the correct "source" implementation. My fork can be found at the JATS-CSL repo.
-While the approach may not be recommended, it is far better than nothing and I'll push it as far as I can in an effort to save some time!
+This may be true. However, there are a lack of viable alternatives for typesetting references. Furthermore, Zotero and Mendeley (both of which use CSL to generate their citations) have vast databases publicly available for the scholarly literature. If we could use CSL to generate valid JATS XML, this would substantially reduce the time needed to typeset a JATS bibliography. To that end, I have taken on maintenance of a fork of Martin&#39;s original efforts. Last night, with the first commits, I fixed DOI display, added book chapter support, added support for editors and changed the book title field to the correct &quot;source&quot; implementation. My fork can be found at the JATS-CSL repo.
+While the approach may not be recommended, it is far better than nothing and I&#39;ll push it as far as I can in an effort to save some time!
 ">
 <meta property="article:published_time" content="2014-06-22 07:08:33 +0100">
 <meta property="article:author" content="Martin Paul Eve">
