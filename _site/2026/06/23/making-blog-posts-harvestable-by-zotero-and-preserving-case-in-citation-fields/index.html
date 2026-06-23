@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# zotero: http://www.zotero.org/namespaces/export#">
 <head>
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -135,6 +135,7 @@
     <meta name="dc.language" content="en">
 
     
+    <meta property="zotero:itemType" content="blogPost">
     <meta name="prism.genre" content="blogentry">
     <meta name="prism.publicationName" content="&lt;span class=&quot;nocase&quot;&gt;eve.gd&lt;/span&gt;: Martin Paul Eve">
 </head>
@@ -193,106 +194,105 @@
 
 <p>The next challenge that I faced was: how do you get an item into Zotero with the “Blog Post” type when you are running a static-site generator? Well, obviously, you have to embed meta tags, but which ones?</p>
 
-<h2 id="required--recommended-tags">Required / recommended tags</h2>
+<h2 id="the-key-force-the-item-type-with-zoteroitemtype">The key: force the item type with <code>zotero:itemType</code></h2>
+
+<p>Genre/OpenGraph hints alone are unreliable — <code>prism.genre=blogentry</code> is <em>supposed</em> to map to Blog Post, but in practice Zotero kept importing posts as <strong>Web Page</strong> (the OpenGraph default won). The dependable fix is Zotero’s own RDFa override, <code>zotero:itemType</code>, which is read <strong>first</strong> in the translator’s type precedence (<code>t.zotero || t.bib || t.prism || … || t.og || …</code> in <code>RDF.js</code>) and beats everything else.</p>
+
+<p>Two parts are required, because <code>zotero</code> is <strong>not</strong> a built-in prefix in the translator (only the short <code>z</code> is), so it must be declared:</p>
+
+<ol>
+  <li>
+    <p>Declare the prefix on the <code>&lt;html&gt;</code> element (the translator’s <code>getPrefixes</code> reads the <code>prefix</code> attribute of <code>&lt;html&gt;</code> and <code>&lt;head&gt;</code>):</p>
+
+    <pre><code class="language-html">&lt;html lang="en" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# zotero: http://www.zotero.org/namespaces/export#"&gt;
+</code></pre>
+  </li>
+  <li>
+    <p>Emit the override (note <code>property=</code>, not <code>name=</code>):</p>
+
+    <pre><code class="language-html">&lt;meta property="zotero:itemType" content="blogPost"&gt;
+</code></pre>
+  </li>
+</ol>
+
+<p>The <code>prefix</code> value is RDFa syntax: <code>prefix: uri</code> pairs separated by spaces (a space <strong>after</strong> each colon is required by the parser’s <code>(\w+):\s+(\S+)</code> regex).</p>
+
+<h2 id="required-tags">Required tags</h2>
 
 <table>
   <thead>
     <tr>
-      <th>Meta tag</th>
-      <th>Example value</th>
-      <th>Zotero result</th>
-      <th>Why</th>
+      <th>Tag</th>
+      <th>Value</th>
+      <th>Effect</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><code>prism.genre</code></td>
-      <td><code>blogentry</code></td>
-      <td><strong>Item type → Blog Post</strong></td>
-      <td><code>RDF.js</code> maps the <code>blogentry</code> genre to <code>blogPost</code>; this wins over the OpenGraph <code>webpage</code> default.</td>
+      <td><code>&lt;html prefix="…zotero: http://www.zotero.org/namespaces/export#"&gt;</code></td>
+      <td>(declaration)</td>
+      <td>Registers the <code>zotero</code> prefix so the next tag is understood.</td>
+    </tr>
+    <tr>
+      <td><code>zotero:itemType</code> <em>(property)</em></td>
+      <td><code>blogPost</code></td>
+      <td><strong>Forces item type → Blog Post.</strong> Highest-priority signal.</td>
     </tr>
     <tr>
       <td><code>prism.publicationName</code></td>
       <td><code>&lt;span class="nocase"&gt;eve.gd&lt;/span&gt;: Martin Paul Eve</code></td>
-      <td><strong>Blog Title</strong></td>
-      <td>Read into <code>publicationTitle</code> <em>before</em> <code>og:site_name</code> and is type-neutral. The <code>&lt;span class="nocase"&gt;</code> is CSL markup that stops styles title-casing <code>eve.gd</code> into <code>Eve.Gd</code>.</td>
+      <td><strong>Blog Title.</strong> Read before <code>og:site_name</code>. The <code>&lt;span class="nocase"&gt;</code> is CSL markup so styles don’t title-case <code>eve.gd</code> into <code>Eve.Gd</code>.</td>
     </tr>
     <tr>
       <td><code>og:title</code></td>
-      <td><code>What is 'the scholarly record'?</code></td>
-      <td><strong>Title</strong></td>
-      <td>Use OpenGraph (or <code>dc.title</code>) for the title — <strong>not</strong> <code>citation_title</code> (see below).</td>
-    </tr>
-    <tr>
-      <td><code>og:site_name</code></td>
-      <td><code>eve.gd: Martin Paul Eve</code></td>
-      <td>Blog Title fallback</td>
-      <td>Only used if <code>prism.publicationName</code> is absent. Kept clean (no markup) because it also drives social-card previews.</td>
-    </tr>
-    <tr>
-      <td><code>og:type</code></td>
-      <td><code>article</code></td>
-      <td>helps type detection</td>
-      <td>Presence of OpenGraph tags makes the translator take its RDF path (which defaults unknown types to <code>webpage</code>, then <code>prism.genre</code> upgrades to <code>blogPost</code>).</td>
+      <td>post title</td>
+      <td><strong>Title.</strong> Use OpenGraph/<code>dc.title</code>, <strong>not</strong> <code>citation_title</code> (see below).</td>
     </tr>
     <tr>
       <td><code>citation_author</code></td>
       <td><code>Eve, Martin Paul</code></td>
-      <td><strong>Author</strong></td>
-      <td><code>Last, First</code> is parsed unambiguously. Repeat the tag for multiple authors.</td>
+      <td><strong>Author</strong> (<code>Last, First</code>; repeat for multiple).</td>
     </tr>
     <tr>
       <td><code>citation_publication_date</code></td>
       <td><code>2022/07/26</code></td>
-      <td><strong>Date</strong></td>
-      <td><code>YYYY/MM/DD</code> (or <code>YYYY-MM-DD</code>).</td>
+      <td><strong>Date</strong> (<code>YYYY/MM/DD</code>).</td>
     </tr>
     <tr>
       <td><code>citation_doi</code></td>
       <td><code>10.59348/kv1zh-wn208</code></td>
-      <td><strong>DOI</strong></td>
-      <td>Bare DOI, not a URL. Valid field on Blog Post; if a type lacks a DOI field the translator moves it to <em>Extra</em> automatically.</td>
+      <td><strong>DOI</strong> (bare, not a URL).</td>
     </tr>
     <tr>
       <td><code>citation_public_url</code></td>
       <td><code>https://eve.gd/2022/07/26/.../</code></td>
-      <td><strong>URL</strong></td>
-      <td>Absolute URL.</td>
+      <td><strong>URL</strong> (absolute).</td>
     </tr>
     <tr>
       <td><code>citation_language</code></td>
       <td><code>en</code></td>
-      <td><strong>Language</strong></td>
-      <td>—</td>
+      <td><strong>Language.</strong></td>
     </tr>
   </tbody>
 </table>
 
-<h2 id="belt-and-braces-dublin-core-for-other-tools">Belt-and-braces (Dublin Core, for other tools)</h2>
+<h2 id="secondary--belt-and-braces">Secondary / belt-and-braces</h2>
 
 <table>
   <thead>
     <tr>
-      <th>Meta tag</th>
-      <th>Maps to</th>
+      <th>Tag</th>
+      <th>Purpose</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><code>dc.title</code></td>
-      <td>Title</td>
+      <td><code>prism.genre</code> = <code>blogentry</code></td>
+      <td>Secondary type hint (kept in case <code>zotero:itemType</code> is ever ignored).</td>
     </tr>
     <tr>
-      <td><code>dc.creator</code></td>
-      <td>Author</td>
-    </tr>
-    <tr>
-      <td><code>dc.date</code></td>
-      <td>Date</td>
-    </tr>
-    <tr>
-      <td><code>dc.language</code></td>
-      <td>Language</td>
+      <td><code>dc.title</code> / <code>dc.creator</code> / <code>dc.date</code> / <code>dc.language</code></td>
+      <td>Dublin Core fallbacks for other reference tools.</td>
     </tr>
   </tbody>
 </table>
@@ -302,18 +302,18 @@
 <table>
   <thead>
     <tr>
-      <th>Meta tag</th>
+      <th>Tag</th>
       <th>Problem</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><code>citation_title</code></td>
-      <td>The translator <em>guesses</em> <code>journalArticle</code> whenever it is present (<code>Embedded Metadata.js</code>). Supply the title via <code>og:title</code> / <code>dc.title</code> instead.</td>
+      <td><code>citation_journal_title</code></td>
+      <td><strong>Forces</strong> the <code>journalArticle</code> type.</td>
     </tr>
     <tr>
-      <td><code>citation_journal_title</code></td>
-      <td><em>Forces</em> the <code>journalArticle</code> type outright.</td>
+      <td><code>citation_title</code></td>
+      <td>Makes the translator <strong>guess</strong> <code>journalArticle</code>. Supply the title via <code>og:title</code> / <code>dc.title</code> instead.</td>
     </tr>
   </tbody>
 </table>
@@ -321,8 +321,9 @@
 <h2 id="notes">Notes</h2>
 
 <ul>
-  <li>At least one OpenGraph or Dublin Core tag must be present so the translator runs its RDF path; without it <code>prism.genre</code> is not consulted.</li>
-  <li><code>&lt;span class="nocase"&gt;…&lt;/span&gt;</code> is one of Zotero’s allowed rich-text tags, so it survives import; styles render the protected text verbatim. Zotero’s item pane may show the raw <code>&lt;span …&gt;</code> markup in the field even though citations are correct.</li>
+  <li><code>og:site_name</code> stays clean (<code>eve.gd: Martin Paul Eve</code>, no markup) because it also drives social-card previews; the case-protected title rides in <code>prism.publicationName</code>, which Zotero reads first.</li>
+  <li><code>&lt;span class="nocase"&gt;…&lt;/span&gt;</code> is one of Zotero’s allowed rich-text tags, so it survives import; Zotero’s item pane may show the raw markup in the field even though citations render correctly.</li>
+  <li>After changing these tags, <strong>Reset Translators</strong> in Zotero (Preferences → Advanced) and test on the deployed page, since the connector caches translators.</li>
 </ul>
 
 <p>So this should now work!</p>

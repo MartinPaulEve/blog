@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="https://eve.gd/feed.xml" />
 <link rel="alternate" type="text/html" href="https://eve.gd" />
-<updated>2026-06-23T11:01:10+01:00</updated>
+<updated>2026-06-23T11:24:40+01:00</updated>
 <id>https://eve.gd/</id>
 <author>
   <name>Martin Paul Eve</name>
@@ -38,106 +38,105 @@
 
 &lt;p&gt;The next challenge that I faced was: how do you get an item into Zotero with the “Blog Post” type when you are running a static-site generator? Well, obviously, you have to embed meta tags, but which ones?&lt;/p&gt;
 
-&lt;h2 id=&quot;required--recommended-tags&quot;&gt;Required / recommended tags&lt;/h2&gt;
+&lt;h2 id=&quot;the-key-force-the-item-type-with-zoteroitemtype&quot;&gt;The key: force the item type with &lt;code&gt;zotero:itemType&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;Genre/OpenGraph hints alone are unreliable — &lt;code&gt;prism.genre=blogentry&lt;/code&gt; is &lt;em&gt;supposed&lt;/em&gt; to map to Blog Post, but in practice Zotero kept importing posts as &lt;strong&gt;Web Page&lt;/strong&gt; (the OpenGraph default won). The dependable fix is Zotero’s own RDFa override, &lt;code&gt;zotero:itemType&lt;/code&gt;, which is read &lt;strong&gt;first&lt;/strong&gt; in the translator’s type precedence (&lt;code&gt;t.zotero || t.bib || t.prism || … || t.og || …&lt;/code&gt; in &lt;code&gt;RDF.js&lt;/code&gt;) and beats everything else.&lt;/p&gt;
+
+&lt;p&gt;Two parts are required, because &lt;code&gt;zotero&lt;/code&gt; is &lt;strong&gt;not&lt;/strong&gt; a built-in prefix in the translator (only the short &lt;code&gt;z&lt;/code&gt; is), so it must be declared:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Declare the prefix on the &lt;code&gt;&amp;lt;html&amp;gt;&lt;/code&gt; element (the translator’s &lt;code&gt;getPrefixes&lt;/code&gt; reads the &lt;code&gt;prefix&lt;/code&gt; attribute of &lt;code&gt;&amp;lt;html&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt;):&lt;/p&gt;
+
+    &lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;html lang=&quot;en&quot; prefix=&quot;og: http://ogp.me/ns# article: http://ogp.me/ns/article# zotero: http://www.zotero.org/namespaces/export#&quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Emit the override (note &lt;code&gt;property=&lt;/code&gt;, not &lt;code&gt;name=&lt;/code&gt;):&lt;/p&gt;
+
+    &lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;meta property=&quot;zotero:itemType&quot; content=&quot;blogPost&quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The &lt;code&gt;prefix&lt;/code&gt; value is RDFa syntax: &lt;code&gt;prefix: uri&lt;/code&gt; pairs separated by spaces (a space &lt;strong&gt;after&lt;/strong&gt; each colon is required by the parser’s &lt;code&gt;(\w+):\s+(\S+)&lt;/code&gt; regex).&lt;/p&gt;
+
+&lt;h2 id=&quot;required-tags&quot;&gt;Required tags&lt;/h2&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th&gt;Meta tag&lt;/th&gt;
-      &lt;th&gt;Example value&lt;/th&gt;
-      &lt;th&gt;Zotero result&lt;/th&gt;
-      &lt;th&gt;Why&lt;/th&gt;
+      &lt;th&gt;Tag&lt;/th&gt;
+      &lt;th&gt;Value&lt;/th&gt;
+      &lt;th&gt;Effect&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;code&gt;prism.genre&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code&gt;blogentry&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Item type → Blog Post&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code&gt;RDF.js&lt;/code&gt; maps the &lt;code&gt;blogentry&lt;/code&gt; genre to &lt;code&gt;blogPost&lt;/code&gt;; this wins over the OpenGraph &lt;code&gt;webpage&lt;/code&gt; default.&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;&amp;lt;html prefix=&quot;…zotero: http://www.zotero.org/namespaces/export#&quot;&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;(declaration)&lt;/td&gt;
+      &lt;td&gt;Registers the &lt;code&gt;zotero&lt;/code&gt; prefix so the next tag is understood.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code&gt;zotero:itemType&lt;/code&gt; &lt;em&gt;(property)&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;blogPost&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Forces item type → Blog Post.&lt;/strong&gt; Highest-priority signal.&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;code&gt;prism.publicationName&lt;/code&gt;&lt;/td&gt;
       &lt;td&gt;&lt;code&gt;&amp;lt;span class=&quot;nocase&quot;&amp;gt;eve.gd&amp;lt;/span&amp;gt;: Martin Paul Eve&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Blog Title&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Read into &lt;code&gt;publicationTitle&lt;/code&gt; &lt;em&gt;before&lt;/em&gt; &lt;code&gt;og:site_name&lt;/code&gt; and is type-neutral. The &lt;code&gt;&amp;lt;span class=&quot;nocase&quot;&amp;gt;&lt;/code&gt; is CSL markup that stops styles title-casing &lt;code&gt;eve.gd&lt;/code&gt; into &lt;code&gt;Eve.Gd&lt;/code&gt;.&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Blog Title.&lt;/strong&gt; Read before &lt;code&gt;og:site_name&lt;/code&gt;. The &lt;code&gt;&amp;lt;span class=&quot;nocase&quot;&amp;gt;&lt;/code&gt; is CSL markup so styles don’t title-case &lt;code&gt;eve.gd&lt;/code&gt; into &lt;code&gt;Eve.Gd&lt;/code&gt;.&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;code&gt;og:title&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code&gt;What is &apos;the scholarly record&apos;?&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Title&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Use OpenGraph (or &lt;code&gt;dc.title&lt;/code&gt;) for the title — &lt;strong&gt;not&lt;/strong&gt; &lt;code&gt;citation_title&lt;/code&gt; (see below).&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;code&gt;og:site_name&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code&gt;eve.gd: Martin Paul Eve&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;Blog Title fallback&lt;/td&gt;
-      &lt;td&gt;Only used if &lt;code&gt;prism.publicationName&lt;/code&gt; is absent. Kept clean (no markup) because it also drives social-card previews.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;code&gt;og:type&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code&gt;article&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;helps type detection&lt;/td&gt;
-      &lt;td&gt;Presence of OpenGraph tags makes the translator take its RDF path (which defaults unknown types to &lt;code&gt;webpage&lt;/code&gt;, then &lt;code&gt;prism.genre&lt;/code&gt; upgrades to &lt;code&gt;blogPost&lt;/code&gt;).&lt;/td&gt;
+      &lt;td&gt;post title&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Title.&lt;/strong&gt; Use OpenGraph/&lt;code&gt;dc.title&lt;/code&gt;, &lt;strong&gt;not&lt;/strong&gt; &lt;code&gt;citation_title&lt;/code&gt; (see below).&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;code&gt;citation_author&lt;/code&gt;&lt;/td&gt;
       &lt;td&gt;&lt;code&gt;Eve, Martin Paul&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Author&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code&gt;Last, First&lt;/code&gt; is parsed unambiguously. Repeat the tag for multiple authors.&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Author&lt;/strong&gt; (&lt;code&gt;Last, First&lt;/code&gt;; repeat for multiple).&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;code&gt;citation_publication_date&lt;/code&gt;&lt;/td&gt;
       &lt;td&gt;&lt;code&gt;2022/07/26&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Date&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code&gt;YYYY/MM/DD&lt;/code&gt; (or &lt;code&gt;YYYY-MM-DD&lt;/code&gt;).&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Date&lt;/strong&gt; (&lt;code&gt;YYYY/MM/DD&lt;/code&gt;).&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;code&gt;citation_doi&lt;/code&gt;&lt;/td&gt;
       &lt;td&gt;&lt;code&gt;10.59348/kv1zh-wn208&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;DOI&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Bare DOI, not a URL. Valid field on Blog Post; if a type lacks a DOI field the translator moves it to &lt;em&gt;Extra&lt;/em&gt; automatically.&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;DOI&lt;/strong&gt; (bare, not a URL).&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;code&gt;citation_public_url&lt;/code&gt;&lt;/td&gt;
       &lt;td&gt;&lt;code&gt;https://eve.gd/2022/07/26/.../&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;URL&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Absolute URL.&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;URL&lt;/strong&gt; (absolute).&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;code&gt;citation_language&lt;/code&gt;&lt;/td&gt;
       &lt;td&gt;&lt;code&gt;en&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Language&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;—&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Language.&lt;/strong&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h2 id=&quot;belt-and-braces-dublin-core-for-other-tools&quot;&gt;Belt-and-braces (Dublin Core, for other tools)&lt;/h2&gt;
+&lt;h2 id=&quot;secondary--belt-and-braces&quot;&gt;Secondary / belt-and-braces&lt;/h2&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th&gt;Meta tag&lt;/th&gt;
-      &lt;th&gt;Maps to&lt;/th&gt;
+      &lt;th&gt;Tag&lt;/th&gt;
+      &lt;th&gt;Purpose&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;code&gt;dc.title&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;Title&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;prism.genre&lt;/code&gt; = &lt;code&gt;blogentry&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Secondary type hint (kept in case &lt;code&gt;zotero:itemType&lt;/code&gt; is ever ignored).&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;code&gt;dc.creator&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;Author&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;code&gt;dc.date&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;Date&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;code&gt;dc.language&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;Language&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;dc.title&lt;/code&gt; / &lt;code&gt;dc.creator&lt;/code&gt; / &lt;code&gt;dc.date&lt;/code&gt; / &lt;code&gt;dc.language&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Dublin Core fallbacks for other reference tools.&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -147,18 +146,18 @@
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th&gt;Meta tag&lt;/th&gt;
+      &lt;th&gt;Tag&lt;/th&gt;
       &lt;th&gt;Problem&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;code&gt;citation_title&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;The translator &lt;em&gt;guesses&lt;/em&gt; &lt;code&gt;journalArticle&lt;/code&gt; whenever it is present (&lt;code&gt;Embedded Metadata.js&lt;/code&gt;). Supply the title via &lt;code&gt;og:title&lt;/code&gt; / &lt;code&gt;dc.title&lt;/code&gt; instead.&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;citation_journal_title&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Forces&lt;/strong&gt; the &lt;code&gt;journalArticle&lt;/code&gt; type.&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;code&gt;citation_journal_title&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;em&gt;Forces&lt;/em&gt; the &lt;code&gt;journalArticle&lt;/code&gt; type outright.&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;citation_title&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Makes the translator &lt;strong&gt;guess&lt;/strong&gt; &lt;code&gt;journalArticle&lt;/code&gt;. Supply the title via &lt;code&gt;og:title&lt;/code&gt; / &lt;code&gt;dc.title&lt;/code&gt; instead.&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -166,8 +165,9 @@
 &lt;h2 id=&quot;notes&quot;&gt;Notes&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;At least one OpenGraph or Dublin Core tag must be present so the translator runs its RDF path; without it &lt;code&gt;prism.genre&lt;/code&gt; is not consulted.&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;&amp;lt;span class=&quot;nocase&quot;&amp;gt;…&amp;lt;/span&amp;gt;&lt;/code&gt; is one of Zotero’s allowed rich-text tags, so it survives import; styles render the protected text verbatim. Zotero’s item pane may show the raw &lt;code&gt;&amp;lt;span …&amp;gt;&lt;/code&gt; markup in the field even though citations are correct.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;og:site_name&lt;/code&gt; stays clean (&lt;code&gt;eve.gd: Martin Paul Eve&lt;/code&gt;, no markup) because it also drives social-card previews; the case-protected title rides in &lt;code&gt;prism.publicationName&lt;/code&gt;, which Zotero reads first.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;&amp;lt;span class=&quot;nocase&quot;&amp;gt;…&amp;lt;/span&amp;gt;&lt;/code&gt; is one of Zotero’s allowed rich-text tags, so it survives import; Zotero’s item pane may show the raw markup in the field even though citations render correctly.&lt;/li&gt;
+  &lt;li&gt;After changing these tags, &lt;strong&gt;Reset Translators&lt;/strong&gt; in Zotero (Preferences → Advanced) and test on the deployed page, since the connector caches translators.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;So this should now work!&lt;/p&gt;

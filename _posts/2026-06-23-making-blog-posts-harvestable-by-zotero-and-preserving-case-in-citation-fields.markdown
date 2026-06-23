@@ -19,40 +19,58 @@ Mind you, those two are jokes only, as Zotero automatically preserves the casing
 
 The next challenge that I faced was: how do you get an item into Zotero with the "Blog Post" type when you are running a static-site generator? Well, obviously, you have to embed meta tags, but which ones?
 
-## Required / recommended tags
+## The key: force the item type with `zotero:itemType`
 
-| Meta tag | Example value | Zotero result | Why |
-|---|---|---|---|
-| `prism.genre` | `blogentry` | **Item type → Blog Post** | `RDF.js` maps the `blogentry` genre to `blogPost`; this wins over the OpenGraph `webpage` default. |
-| `prism.publicationName` | `<span class="nocase">eve.gd</span>: Martin Paul Eve` | **Blog Title** | Read into `publicationTitle` *before* `og:site_name` and is type-neutral. The `<span class="nocase">` is CSL markup that stops styles title-casing `eve.gd` into `Eve.Gd`. |
-| `og:title` | `What is 'the scholarly record'?` | **Title** | Use OpenGraph (or `dc.title`) for the title — **not** `citation_title` (see below). |
-| `og:site_name` | `eve.gd: Martin Paul Eve` | Blog Title fallback | Only used if `prism.publicationName` is absent. Kept clean (no markup) because it also drives social-card previews. |
-| `og:type` | `article` | helps type detection | Presence of OpenGraph tags makes the translator take its RDF path (which defaults unknown types to `webpage`, then `prism.genre` upgrades to `blogPost`). |
-| `citation_author` | `Eve, Martin Paul` | **Author** | `Last, First` is parsed unambiguously. Repeat the tag for multiple authors. |
-| `citation_publication_date` | `2022/07/26` | **Date** | `YYYY/MM/DD` (or `YYYY-MM-DD`). |
-| `citation_doi` | `10.59348/kv1zh-wn208` | **DOI** | Bare DOI, not a URL. Valid field on Blog Post; if a type lacks a DOI field the translator moves it to *Extra* automatically. |
-| `citation_public_url` | `https://eve.gd/2022/07/26/.../` | **URL** | Absolute URL. |
-| `citation_language` | `en` | **Language** | — |
+Genre/OpenGraph hints alone are unreliable — `prism.genre=blogentry` is *supposed* to map to Blog Post, but in practice Zotero kept importing posts as **Web Page** (the OpenGraph default won). The dependable fix is Zotero's own RDFa override, `zotero:itemType`, which is read **first** in the translator's type precedence (`t.zotero || t.bib || t.prism || … || t.og || …` in `RDF.js`) and beats everything else.
 
-## Belt-and-braces (Dublin Core, for other tools)
+Two parts are required, because `zotero` is **not** a built-in prefix in the translator (only the short `z` is), so it must be declared:
 
-| Meta tag | Maps to |
+1. Declare the prefix on the `<html>` element (the translator's `getPrefixes` reads the `prefix` attribute of `<html>` and `<head>`):
+
+   ```html
+   <html lang="en" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# zotero: http://www.zotero.org/namespaces/export#">
+   ```
+
+2. Emit the override (note `property=`, not `name=`):
+
+   ```html
+   <meta property="zotero:itemType" content="blogPost">
+   ```
+
+The `prefix` value is RDFa syntax: `prefix: uri` pairs separated by spaces (a space **after** each colon is required by the parser's `(\w+):\s+(\S+)` regex).
+
+## Required tags
+
+| Tag | Value | Effect |
+|---|---|---|
+| `<html prefix="…zotero: http://www.zotero.org/namespaces/export#">` | (declaration) | Registers the `zotero` prefix so the next tag is understood. |
+| `zotero:itemType` *(property)* | `blogPost` | **Forces item type → Blog Post.** Highest-priority signal. |
+| `prism.publicationName` | `<span class="nocase">eve.gd</span>: Martin Paul Eve` | **Blog Title.** Read before `og:site_name`. The `<span class="nocase">` is CSL markup so styles don't title-case `eve.gd` into `Eve.Gd`. |
+| `og:title` | post title | **Title.** Use OpenGraph/`dc.title`, **not** `citation_title` (see below). |
+| `citation_author` | `Eve, Martin Paul` | **Author** (`Last, First`; repeat for multiple). |
+| `citation_publication_date` | `2022/07/26` | **Date** (`YYYY/MM/DD`). |
+| `citation_doi` | `10.59348/kv1zh-wn208` | **DOI** (bare, not a URL). |
+| `citation_public_url` | `https://eve.gd/2022/07/26/.../` | **URL** (absolute). |
+| `citation_language` | `en` | **Language.** |
+
+## Secondary / belt-and-braces
+
+| Tag | Purpose |
 |---|---|
-| `dc.title` | Title |
-| `dc.creator` | Author |
-| `dc.date` | Date |
-| `dc.language` | Language |
+| `prism.genre` = `blogentry` | Secondary type hint (kept in case `zotero:itemType` is ever ignored). |
+| `dc.title` / `dc.creator` / `dc.date` / `dc.language` | Dublin Core fallbacks for other reference tools. |
 
 ## Tags to AVOID for a blog post
 
-| Meta tag | Problem |
+| Tag | Problem |
 |---|---|
-| `citation_title` | The translator *guesses* `journalArticle` whenever it is present (`Embedded Metadata.js`). Supply the title via `og:title` / `dc.title` instead. |
-| `citation_journal_title` | *Forces* the `journalArticle` type outright. |
+| `citation_journal_title` | **Forces** the `journalArticle` type. |
+| `citation_title` | Makes the translator **guess** `journalArticle`. Supply the title via `og:title` / `dc.title` instead. |
 
 ## Notes
 
-- At least one OpenGraph or Dublin Core tag must be present so the translator runs its RDF path; without it `prism.genre` is not consulted.
-- ```<span class="nocase">…</span>``` is one of Zotero's allowed rich-text tags, so it survives import; styles render the protected text verbatim. Zotero's item pane may show the raw ```<span …>``` markup in the field even though citations are correct.
+- `og:site_name` stays clean (`eve.gd: Martin Paul Eve`, no markup) because it also drives social-card previews; the case-protected title rides in `prism.publicationName`, which Zotero reads first.
+- `<span class="nocase">…</span>` is one of Zotero's allowed rich-text tags, so it survives import; Zotero's item pane may show the raw markup in the field even though citations render correctly.
+- After changing these tags, **Reset Translators** in Zotero (Preferences → Advanced) and test on the deployed page, since the connector caches translators.
 
 So this should now work!
