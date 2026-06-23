@@ -74,3 +74,5 @@ The `prefix` value is RDFa syntax: `prefix: uri` pairs separated by spaces (a sp
 - After changing these tags, **Reset Translators** in Zotero (Preferences → Advanced) and test on the deployed page, since the connector caches translators.
 
 So this should now work!
+
+I must also add my thanks to Tom Elliott, whose [own blog post on this subject](https://paregorios.org/posts/2018/05/zotero_nikola_harmony/) gave me the information I needed to get the Blog Post type working. It is a shame that he stopped posting on his blog in 2020. I hope all is OK with him, but there are lots of interesting digital humanities posts on his site, on eclectic topics.
