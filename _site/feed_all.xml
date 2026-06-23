@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="https://eve.gd/feed.xml" />
 <link rel="alternate" type="text/html" href="https://eve.gd" />
-<updated>2026-06-23T11:24:40+01:00</updated>
+<updated>2026-06-23T12:37:31+01:00</updated>
 <id>https://eve.gd/</id>
 <author>
   <name>Martin Paul Eve</name>
@@ -171,6 +171,8 @@
 &lt;/ul&gt;
 
 &lt;p&gt;So this should now work!&lt;/p&gt;
+
+&lt;p&gt;I must also add my thanks to Tom Elliott, whose &lt;a href=&quot;https://paregorios.org/posts/2018/05/zotero_nikola_harmony/&quot;&gt;own blog post on this subject&lt;/a&gt; gave me the information I needed to get the Blog Post type working. It is a shame that he stopped posting on his blog in 2020. I hope all is OK with him, but there are lots of interesting digital humanities posts on his site, on eclectic topics.&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/&quot;&gt;Making blog posts harvestable by Zotero and preserving case in citation fields&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on June 23, 2026.&lt;/p&gt;]]>
   </content>
