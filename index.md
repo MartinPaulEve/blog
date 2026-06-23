@@ -1,7 +1,7 @@
 ---
 layout: home
-excerpt: "Martin Paul Eve, Professor of Literature, Technology and Publishing, Birkbeck, University of London."
-tags: [Martin Paul Eve, Thomas Pynchon, Open Access, American Literature]
+excerpt: "Professor of Literature, Technology and Publishing, Birkbeck, University of London & Technical Lead, MESH, Michigan State University."
+tags: [Martin Paul Eve, Open Access, American Literature]
 regenerate: true
 image:
   feature: og.png
