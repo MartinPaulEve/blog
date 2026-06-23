@@ -6,6 +6,8 @@ bundle exec jekyll build --incremental
 git add --all .
 git commit -m "$(date +'%-m.%-e.%Y')"
 
+git push
+
 ssh evegd@reclaim -i ~/.ssh/id_ed25519_waldorf.pub /home/evegd/build_site.sh
 
 cd -
