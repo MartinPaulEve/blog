@@ -1,0 +1,8 @@
+{% comment %}
+  FAIR Signposting (https://signposting.org/FAIR/) Level 1 fallback.
+  The typed <link> relations mirror the Level 2 HTTP Link header set in each
+  page's generated .htaccess. Both are produced by _plugins/signposting.rb;
+  page.signposting_links is populated there at build time.
+{% endcomment %}{% if page.signposting_links %}
+    {{ page.signposting_links }}
+{% endif %}
