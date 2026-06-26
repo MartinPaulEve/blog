@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "BlogPosting",
+  "name": "On the overhead of 'business models'",
+  "headline": "On the overhead of 'business models'",
+  "url": "https://eve.gd/2020/05/29/on-the-overhead-of-business-models/",
+  "inLanguage": "en-GB",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "author": {
+    "@type": "Person",
+    "name": "Martin Paul Eve",
+    "url": "https://eve.gd",
+    "identifier": "https://orcid.org/0000-0002-5589-8511"
+  },
+  "datePublished": "2020-05-29",
+  "identifier": "https://doi.org/10.59348/w598w-phe09"
+}

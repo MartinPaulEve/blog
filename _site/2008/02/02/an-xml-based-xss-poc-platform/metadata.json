@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "BlogPosting",
+  "name": "An XML based XSS PoC platform",
+  "headline": "An XML based XSS PoC platform",
+  "url": "https://eve.gd/2008/02/02/an-xml-based-xss-poc-platform/",
+  "inLanguage": "en-GB",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "author": {
+    "@type": "Person",
+    "name": "Martin Paul Eve",
+    "url": "https://eve.gd",
+    "identifier": "https://orcid.org/0000-0002-5589-8511"
+  },
+  "datePublished": "2008-02-02",
+  "identifier": "https://doi.org/10.59348/nhjwb-ywd61"
+}

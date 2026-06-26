@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "BlogPosting",
+  "name": "An introduction to the poetry of Emily Dickinson",
+  "headline": "An introduction to the poetry of Emily Dickinson",
+  "url": "https://eve.gd/2025/02/06/an-introduction-to-the-poetry-of-emily-dickinson/",
+  "inLanguage": "en-GB",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "author": {
+    "@type": "Person",
+    "name": "Martin Paul Eve",
+    "url": "https://eve.gd",
+    "identifier": "https://orcid.org/0000-0002-5589-8511"
+  },
+  "datePublished": "2025-02-06",
+  "identifier": "https://doi.org/10.59348/y97r7-9sk53"
+}

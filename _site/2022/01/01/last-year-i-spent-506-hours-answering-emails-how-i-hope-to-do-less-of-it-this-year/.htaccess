@@ -1,0 +1,6 @@
+<Files "index.html">
+Header set Link "<https://orcid.org/0000-0002-5589-8511>; rel=\"author\", <https://doi.org/10.59348/hyfz7-pkm08>; rel=\"cite-as\", <https://schema.org/BlogPosting>; rel=\"type\", <https://schema.org/AboutPage>; rel=\"type\", <https://creativecommons.org/licenses/by/4.0/>; rel=\"license\", <https://eve.gd/2022/01/01/last-year-i-spent-506-hours-answering-emails-how-i-hope-to-do-less-of-it-this-year/metadata.json>; rel=\"describedby\"; type=\"application/ld+json\"; profile=\"https://schema.org/\""
+</Files>
+<Files "metadata.json">
+ForceType application/ld+json
+</Files>

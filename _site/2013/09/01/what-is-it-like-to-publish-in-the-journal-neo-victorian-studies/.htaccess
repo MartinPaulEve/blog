@@ -1,0 +1,6 @@
+<Files "index.html">
+Header set Link "<https://orcid.org/0000-0002-5589-8511>; rel=\"author\", <https://doi.org/10.59348/9pesc-hbw37>; rel=\"cite-as\", <https://schema.org/BlogPosting>; rel=\"type\", <https://schema.org/AboutPage>; rel=\"type\", <https://creativecommons.org/licenses/by/4.0/>; rel=\"license\", <https://eve.gd/2013/09/01/what-is-it-like-to-publish-in-the-journal-neo-victorian-studies/metadata.json>; rel=\"describedby\"; type=\"application/ld+json\"; profile=\"https://schema.org/\""
+</Files>
+<Files "metadata.json">
+ForceType application/ld+json
+</Files>

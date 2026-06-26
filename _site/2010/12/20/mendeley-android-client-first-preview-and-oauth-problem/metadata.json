@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "BlogPosting",
+  "name": "Mendeley Android client; first preview and OAuth problem",
+  "headline": "Mendeley Android client; first preview and OAuth problem",
+  "url": "https://eve.gd/2010/12/20/mendeley-android-client-first-preview-and-oauth-problem/",
+  "inLanguage": "en-GB",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "author": {
+    "@type": "Person",
+    "name": "Martin Paul Eve",
+    "url": "https://eve.gd",
+    "identifier": "https://orcid.org/0000-0002-5589-8511"
+  },
+  "datePublished": "2010-12-20",
+  "identifier": "https://doi.org/10.59348/q61ec-bg742"
+}

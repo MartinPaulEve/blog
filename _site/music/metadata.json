@@ -1,0 +1,15 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "WebPage",
+  "name": "Music",
+  "headline": "Music",
+  "url": "https://eve.gd/music/",
+  "inLanguage": "en-GB",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "author": {
+    "@type": "Person",
+    "name": "Martin Paul Eve",
+    "url": "https://eve.gd",
+    "identifier": "https://orcid.org/0000-0002-5589-8511"
+  }
+}

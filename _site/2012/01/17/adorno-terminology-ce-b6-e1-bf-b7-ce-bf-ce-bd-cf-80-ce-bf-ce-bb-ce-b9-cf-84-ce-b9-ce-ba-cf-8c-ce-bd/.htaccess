@@ -1,0 +1,6 @@
+<Files "index.html">
+Header set Link "<https://orcid.org/0000-0002-5589-8511>; rel=\"author\", <https://doi.org/10.59348/xm8sq-85079>; rel=\"cite-as\", <https://schema.org/BlogPosting>; rel=\"type\", <https://schema.org/AboutPage>; rel=\"type\", <https://creativecommons.org/licenses/by/4.0/>; rel=\"license\", <https://eve.gd/2012/01/17/adorno-terminology-ce-b6-e1-bf-b7-ce-bf-ce-bd-cf-80-ce-bf-ce-bb-ce-b9-cf-84-ce-b9-ce-ba-cf-8c-ce-bd/metadata.json>; rel=\"describedby\"; type=\"application/ld+json\"; profile=\"https://schema.org/\""
+</Files>
+<Files "metadata.json">
+ForceType application/ld+json
+</Files>

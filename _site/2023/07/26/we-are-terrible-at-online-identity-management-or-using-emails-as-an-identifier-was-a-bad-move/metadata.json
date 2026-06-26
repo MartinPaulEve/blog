@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "BlogPosting",
+  "name": "We Are Terrible at Online Identity Management (or: Using Emails as An Identifier Was a Bad Move)",
+  "headline": "We Are Terrible at Online Identity Management (or: Using Emails as An Identifier Was a Bad Move)",
+  "url": "https://eve.gd/2023/07/26/we-are-terrible-at-online-identity-management-or-using-emails-as-an-identifier-was-a-bad-move/",
+  "inLanguage": "en-GB",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "author": {
+    "@type": "Person",
+    "name": "Martin Paul Eve",
+    "url": "https://eve.gd",
+    "identifier": "https://orcid.org/0000-0002-5589-8511"
+  },
+  "datePublished": "2023-07-26",
+  "identifier": "https://doi.org/10.59348/p3qjk-zak81"
+}

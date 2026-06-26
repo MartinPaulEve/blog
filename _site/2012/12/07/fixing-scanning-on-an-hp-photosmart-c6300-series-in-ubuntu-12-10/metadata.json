@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "BlogPosting",
+  "name": "Fixing scanning on an HP Photosmart C6300 series in Ubuntu 12.10",
+  "headline": "Fixing scanning on an HP Photosmart C6300 series in Ubuntu 12.10",
+  "url": "https://eve.gd/2012/12/07/fixing-scanning-on-an-hp-photosmart-c6300-series-in-ubuntu-12-10/",
+  "inLanguage": "en-GB",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "author": {
+    "@type": "Person",
+    "name": "Martin Paul Eve",
+    "url": "https://eve.gd",
+    "identifier": "https://orcid.org/0000-0002-5589-8511"
+  },
+  "datePublished": "2012-12-07",
+  "identifier": "https://doi.org/10.59348/srhv6-07434"
+}

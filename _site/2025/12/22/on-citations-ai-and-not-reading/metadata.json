@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "BlogPosting",
+  "name": "On citations, AI, and 'not reading'",
+  "headline": "On citations, AI, and 'not reading'",
+  "url": "https://eve.gd/2025/12/22/on-citations-ai-and-not-reading/",
+  "inLanguage": "en-GB",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "author": {
+    "@type": "Person",
+    "name": "Martin Paul Eve",
+    "url": "https://eve.gd",
+    "identifier": "https://orcid.org/0000-0002-5589-8511"
+  },
+  "datePublished": "2025-12-22",
+  "identifier": "https://doi.org/10.59348/esc68-nah82"
+}

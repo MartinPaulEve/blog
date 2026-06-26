@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "BlogPosting",
+  "name": "Typesetting JATS bibliographies using CSL and Zotero",
+  "headline": "Typesetting JATS bibliographies using CSL and Zotero",
+  "url": "https://eve.gd/2014/06/22/typesetting-jats-bibliographies-using-csl-and-zotero/",
+  "inLanguage": "en-GB",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "author": {
+    "@type": "Person",
+    "name": "Martin Paul Eve",
+    "url": "https://eve.gd",
+    "identifier": "https://orcid.org/0000-0002-5589-8511"
+  },
+  "datePublished": "2014-06-22",
+  "identifier": "https://doi.org/10.59348/bz52e-q0e97"
+}

@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "BlogPosting",
+  "name": "Dual Stage SQL Injection Attacks",
+  "headline": "Dual Stage SQL Injection Attacks",
+  "url": "https://eve.gd/2009/01/27/dual-stage-sql-injection-attacks/",
+  "inLanguage": "en-GB",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "author": {
+    "@type": "Person",
+    "name": "Martin Paul Eve",
+    "url": "https://eve.gd",
+    "identifier": "https://orcid.org/0000-0002-5589-8511"
+  },
+  "datePublished": "2009-01-27",
+  "identifier": "https://doi.org/10.59348/nx1wx-fcx72"
+}

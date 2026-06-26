@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "BlogPosting",
+  "name": "From Mars and Back to Close Reading with Computers",
+  "headline": "From Mars and Back to Close Reading with Computers",
+  "url": "https://eve.gd/2019/06/11/from-mars-and-back-to-close-reading-with-computers/",
+  "inLanguage": "en-GB",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "author": {
+    "@type": "Person",
+    "name": "Martin Paul Eve",
+    "url": "https://eve.gd",
+    "identifier": "https://orcid.org/0000-0002-5589-8511"
+  },
+  "datePublished": "2019-06-11",
+  "identifier": "https://doi.org/10.59348/at6et-yd694"
+}

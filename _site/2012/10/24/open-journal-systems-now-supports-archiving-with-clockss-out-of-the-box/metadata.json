@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "BlogPosting",
+  "name": "Open Journal Systems now supports archiving with CLOCKSS out of the box",
+  "headline": "Open Journal Systems now supports archiving with CLOCKSS out of the box",
+  "url": "https://eve.gd/2012/10/24/open-journal-systems-now-supports-archiving-with-clockss-out-of-the-box/",
+  "inLanguage": "en-GB",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "author": {
+    "@type": "Person",
+    "name": "Martin Paul Eve",
+    "url": "https://eve.gd",
+    "identifier": "https://orcid.org/0000-0002-5589-8511"
+  },
+  "datePublished": "2012-10-24",
+  "identifier": "https://doi.org/10.59348/8jxav-6n827"
+}

@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "BlogPosting",
+  "name": "Donne it wrong: Holy Sonnet numbering confusion",
+  "headline": "Donne it wrong: Holy Sonnet numbering confusion",
+  "url": "https://eve.gd/2011/10/17/donne-it-wrong-holy-sonnet-numbering-confusion/",
+  "inLanguage": "en-GB",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "author": {
+    "@type": "Person",
+    "name": "Martin Paul Eve",
+    "url": "https://eve.gd",
+    "identifier": "https://orcid.org/0000-0002-5589-8511"
+  },
+  "datePublished": "2011-10-17",
+  "identifier": "https://doi.org/10.59348/p3psf-1dx07"
+}

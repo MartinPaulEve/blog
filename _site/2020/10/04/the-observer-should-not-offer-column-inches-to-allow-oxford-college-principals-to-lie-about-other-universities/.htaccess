@@ -1,0 +1,6 @@
+<Files "index.html">
+Header set Link "<https://orcid.org/0000-0002-5589-8511>; rel=\"author\", <https://doi.org/10.59348/z0y3c-bg226>; rel=\"cite-as\", <https://schema.org/BlogPosting>; rel=\"type\", <https://schema.org/AboutPage>; rel=\"type\", <https://creativecommons.org/licenses/by/4.0/>; rel=\"license\", <https://eve.gd/2020/10/04/the-observer-should-not-offer-column-inches-to-allow-oxford-college-principals-to-lie-about-other-universities/metadata.json>; rel=\"describedby\"; type=\"application/ld+json\"; profile=\"https://schema.org/\""
+</Files>
+<Files "metadata.json">
+ForceType application/ld+json
+</Files>

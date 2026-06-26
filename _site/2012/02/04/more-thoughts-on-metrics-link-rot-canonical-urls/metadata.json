@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "BlogPosting",
+  "name": "More thoughts on metrics, link-rot, canonical URLs",
+  "headline": "More thoughts on metrics, link-rot, canonical URLs",
+  "url": "https://eve.gd/2012/02/04/more-thoughts-on-metrics-link-rot-canonical-urls/",
+  "inLanguage": "en-GB",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "author": {
+    "@type": "Person",
+    "name": "Martin Paul Eve",
+    "url": "https://eve.gd",
+    "identifier": "https://orcid.org/0000-0002-5589-8511"
+  },
+  "datePublished": "2012-02-04",
+  "identifier": "https://doi.org/10.59348/g1dhf-05144"
+}

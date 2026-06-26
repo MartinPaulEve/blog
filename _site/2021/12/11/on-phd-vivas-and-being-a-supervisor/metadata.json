@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "BlogPosting",
+  "name": "On PhD vivas and being a supervisor",
+  "headline": "On PhD vivas and being a supervisor",
+  "url": "https://eve.gd/2021/12/11/on-phd-vivas-and-being-a-supervisor/",
+  "inLanguage": "en-GB",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "author": {
+    "@type": "Person",
+    "name": "Martin Paul Eve",
+    "url": "https://eve.gd",
+    "identifier": "https://orcid.org/0000-0002-5589-8511"
+  },
+  "datePublished": "2021-12-11",
+  "identifier": "https://doi.org/10.59348/3tcch-3x365"
+}

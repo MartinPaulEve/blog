@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "BlogPosting",
+  "name": "Getting a custom Sync Service and Adapter to show up under \"Data and Synchronization\" on Android",
+  "headline": "Getting a custom Sync Service and Adapter to show up under \"Data and Synchronization\" on Android",
+  "url": "https://eve.gd/2011/01/14/getting-a-custom-sync-service-and-adapter-to-show-up-under-data-and-synchronization-on-android/",
+  "inLanguage": "en-GB",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "author": {
+    "@type": "Person",
+    "name": "Martin Paul Eve",
+    "url": "https://eve.gd",
+    "identifier": "https://orcid.org/0000-0002-5589-8511"
+  },
+  "datePublished": "2011-01-14",
+  "identifier": "https://doi.org/10.59348/9jxvd-6t191"
+}

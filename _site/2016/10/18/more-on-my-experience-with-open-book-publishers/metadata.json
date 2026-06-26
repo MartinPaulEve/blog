@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "BlogPosting",
+  "name": "More on my experience with Open Book Publishers",
+  "headline": "More on my experience with Open Book Publishers",
+  "url": "https://eve.gd/2016/10/18/more-on-my-experience-with-open-book-publishers/",
+  "inLanguage": "en-GB",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "author": {
+    "@type": "Person",
+    "name": "Martin Paul Eve",
+    "url": "https://eve.gd",
+    "identifier": "https://orcid.org/0000-0002-5589-8511"
+  },
+  "datePublished": "2016-10-18",
+  "identifier": "https://doi.org/10.59348/rvpcw-mh690"
+}

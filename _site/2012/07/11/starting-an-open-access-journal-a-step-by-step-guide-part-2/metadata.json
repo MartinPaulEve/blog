@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "BlogPosting",
+  "name": "Starting an Open Access Journal: a step-by-step guide part 2",
+  "headline": "Starting an Open Access Journal: a step-by-step guide part 2",
+  "url": "https://eve.gd/2012/07/11/starting-an-open-access-journal-a-step-by-step-guide-part-2/",
+  "inLanguage": "en-GB",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "author": {
+    "@type": "Person",
+    "name": "Martin Paul Eve",
+    "url": "https://eve.gd",
+    "identifier": "https://orcid.org/0000-0002-5589-8511"
+  },
+  "datePublished": "2012-07-11",
+  "identifier": "https://doi.org/10.59348/y45ka-p7z83"
+}
