@@ -13,7 +13,7 @@ references:
     url: "https://signposting.org/FAIR/"
     title: "FAIR Signposting"
     date: 2023-10-02
-    author: ["Herbert Van de Sompel", "Martin Klein", "Shawn Jones", "Michael L. Nelson", "Simeon Warner", "Anusuriya Devaraju", "Robert Huber", "Wilko Steinhoff", "Vyacheslav Tykhonov", "Luc Boruta", "Enno Meijers", "Stian Soiland-Reyes", "Mark Wilkinson"
+    author: ["Herbert Van de Sompel", "Martin Klein", "Shawn Jones", "Michael L. Nelson", "Simeon Warner", "Anusuriya Devaraju", "Robert Huber", "Wilko Steinhoff", "Vyacheslav Tykhonov", "Luc Boruta", "Enno Meijers", "Stian Soiland-Reyes", "Mark Wilkinson"]
 ---
 After my [previous post about Zotero ingest](/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/), I wondered what else I might be able to do to make this scholarly (and personal) blog more accessible, navigable, harvestable, and ingestable. One thing that occurred to me, that I had not implemented, is that I might make this blog `FAIR`. That is: [Findable, Accessible, Interoperable, and Reusable](https://www.go-fair.org/fair-principles/).
 

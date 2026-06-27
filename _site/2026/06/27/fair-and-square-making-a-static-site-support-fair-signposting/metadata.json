@@ -1,0 +1,80 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "BlogPosting",
+  "name": "FAIR and Square: making a static site support FAIR signposting",
+  "headline": "FAIR and Square: making a static site support FAIR signposting",
+  "url": "https://eve.gd/2026/06/27/fair-and-square-making-a-static-site-support-fair-signposting/",
+  "inLanguage": "en-GB",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "author": {
+    "@type": "Person",
+    "name": "Martin Paul Eve",
+    "url": "https://eve.gd",
+    "identifier": "https://orcid.org/0000-0002-5589-8511"
+  },
+  "datePublished": "2026-06-27",
+  "identifier": "https://doi.org/10.59348/2zdfp-egq38",
+  "citation": [
+    {
+      "@type": "TechArticle",
+      "@id": "https://signposting.org/FAIR/",
+      "name": "FAIR Signposting",
+      "url": "https://signposting.org/FAIR/",
+      "datePublished": "2023-10-02",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Herbert Van de Sompel"
+        },
+        {
+          "@type": "Person",
+          "name": "Martin Klein"
+        },
+        {
+          "@type": "Person",
+          "name": "Shawn Jones"
+        },
+        {
+          "@type": "Person",
+          "name": "Michael L. Nelson"
+        },
+        {
+          "@type": "Person",
+          "name": "Simeon Warner"
+        },
+        {
+          "@type": "Person",
+          "name": "Anusuriya Devaraju"
+        },
+        {
+          "@type": "Person",
+          "name": "Robert Huber"
+        },
+        {
+          "@type": "Person",
+          "name": "Wilko Steinhoff"
+        },
+        {
+          "@type": "Person",
+          "name": "Vyacheslav Tykhonov"
+        },
+        {
+          "@type": "Person",
+          "name": "Luc Boruta"
+        },
+        {
+          "@type": "Person",
+          "name": "Enno Meijers"
+        },
+        {
+          "@type": "Person",
+          "name": "Stian Soiland-Reyes"
+        },
+        {
+          "@type": "Person",
+          "name": "Mark Wilkinson"
+        }
+      ]
+    }
+  ]
+}
