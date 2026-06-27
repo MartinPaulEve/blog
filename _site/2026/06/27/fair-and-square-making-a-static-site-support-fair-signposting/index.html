@@ -23,7 +23,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=IBM+Plex+Mono:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/8417040572.js" crossorigin="anonymous"></script>
 <link id="hljs-theme" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-light.min.css">
-<link rel="stylesheet" href="/assets/css/styles.css?v=1782558235">
+<link rel="stylesheet" href="/assets/css/styles.css?v=1782558654">
 <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
 <link rel="icon" type="image/png" href="/images/favicon.png">
 <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
@@ -120,7 +120,7 @@
 
 <link href="https://eve.gd/feed/feed.atom" type="application/atom+xml" rel="alternate" title="Martin Paul Eve Feed">
 
-    <link rel="stylesheet" href="/assets/css/blog-post.css?v=1782558235">
+    <link rel="stylesheet" href="/assets/css/blog-post.css?v=1782558654">
 
     
     <meta name="citation_author" content="Eve, Martin Paul">
@@ -340,11 +340,36 @@ ForceType application/ld+json
   <li>https://doi.org/10.31274/jlsc.16288</li>
 </ul>
 
-<p>and it will produce</p>
+<p>and it will produce, in the <code>(metadata.json)[https://eve.gd/2026/06/27/fair-and-square-making-a-static-site-support-fair-signposting/metadata.json]</code>:</p>
+
+<pre><code class="language-json">{
+  "@type": "ScholarlyArticle",
+  "@id": "https://doi.org/10.31274/jlsc.16288",
+  "name": "Digital Scholarly Journals Are Poorly Preserved: A Study of 7 Million Articles",
+  "url": "https://doi.org/10.31274/jlsc.16288",
+  "author": {
+    "@type": "Person",
+    "name": "Martin Paul Eve",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Crossref and Birkbeck, University of London"
+    }
+  },
+  "datePublished": "2024-01-24",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Iowa State University"
+  },
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "Journal of Librarianship and Scholarly Communication"
+  }
+}
+</code></pre>
 
 <p>I will continue to improve the infrastructure of my blog in this way; it adds credence to the site, as well as helping with <a href="/2026/04/19/the-necessary-pain-involved-in-blogging-if-you-want-your-work-to-be-preserved-beyond-your-lifespan/">the preservation effort I detailed before</a>.</p>
 
-<p>Finally, in <a href="https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/">the Zotero post</a>, I made reference to Tom Elliott’s blog being defunct. Which it does seem to be. But he continues to have an online presence, on <a href="https://hcommons.social/@paregorios">Mastodon</a>, <a href="https://bsky.app/profile/paregorios.bsky.social">Bluesky</a>, and the <a href="https://pleiades.stoa.org/">web itself</a>. We had a nice brief correspondence on Bluesky.</p>
+<p>Finally, in <a href="https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/">the Zotero post</a>, I made reference to Tom Elliott’s blog being defunct. Which it does seem to be. But he continues to have an online presence, on <a href="https://hcommons.social/@paregorios">Mastodon</a>, <a href="https://bsky.app/profile/paregorios.bsky.social">Bluesky</a>, and the <a href="https://pleiades.stoa.org/">web itself</a>. We had a nice brief correspondence on Bluesky. I also spoke a bit with <a href="https://bsky.app/profile/adjb.co">Adam DJ Brett</a>, who wanted to do a similar metadata enhancement to his blogs (so they could be Zotero cited). He <a href="https://www.adamdjbrett.com/blog/zotero-harvestable-blog-posts/">wrote up his adventures implementing Zotero pickup for blog posts</a> on his own site.</p>
 
 
                     

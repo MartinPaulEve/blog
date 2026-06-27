@@ -26,6 +26,19 @@ references:
   - https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/
   - https://eve.gd/2026/04/19/the-necessary-pain-involved-in-blogging-if-you-want-your-work-to-be-preserved-beyond-your-lifespan/
   - https://doi.org/10.31274/jlsc.16288 # Digital Scholarly Journals Are Poorly Preserved: A Study of 7 Million Articles  
+  - type: BlogPosting
+    title: "Making Blogs Easier to Cite with Zotero"
+    url: "https://www.adamdjbrett.com/blog/zotero-harvestable-blog-posts/"
+    author:
+      name: Adam DJ Brett
+      orcid: "https://orcid.org/0009-0004-6725-8425"
+    date: 2026-06-26
+    language: en
+    license: "https://creativecommons.org/licenses/by-nc/4.0/"
+    isPartOf:
+      type: Blog
+      name: adamdjbrett.com
+      url: "https://www.adamdjbrett.com/blog/"
 ---
 After my [previous post about Zotero ingest](/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/), I wondered what else I might be able to do to make this scholarly (and personal) blog more accessible, navigable, harvestable, and ingestable. One thing that occurred to me, that I had not implemented, is that I might make this blog `FAIR`. That is: [Findable, Accessible, Interoperable, and Reusable](https://www.go-fair.org/fair-principles/).
 
@@ -176,9 +189,35 @@ I can also do this for DOIs. Say I want to cite an academic article (I will [use
 
 - https://doi.org/10.31274/jlsc.16288
 
-and it will produce 
+and it will produce, in the `(metadata.json)[https://eve.gd/2026/06/27/fair-and-square-making-a-static-site-support-fair-signposting/metadata.json]`:
+
+```json
+{
+  "@type": "ScholarlyArticle",
+  "@id": "https://doi.org/10.31274/jlsc.16288",
+  "name": "Digital Scholarly Journals Are Poorly Preserved: A Study of 7 Million Articles",
+  "url": "https://doi.org/10.31274/jlsc.16288",
+  "author": {
+    "@type": "Person",
+    "name": "Martin Paul Eve",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Crossref and Birkbeck, University of London"
+    }
+  },
+  "datePublished": "2024-01-24",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Iowa State University"
+  },
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "Journal of Librarianship and Scholarly Communication"
+  }
+}
+```
 
 I will continue to improve the infrastructure of my blog in this way; it adds credence to the site, as well as helping with [the preservation effort I detailed before](/2026/04/19/the-necessary-pain-involved-in-blogging-if-you-want-your-work-to-be-preserved-beyond-your-lifespan/).
 
-Finally, in [the Zotero post](https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/), I made reference to Tom Elliott's blog being defunct. Which it does seem to be. But he continues to have an online presence, on [Mastodon](https://hcommons.social/@paregorios), [Bluesky](https://bsky.app/profile/paregorios.bsky.social), and the [web itself](https://pleiades.stoa.org/). We had a nice brief correspondence on Bluesky.
+Finally, in [the Zotero post](https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/), I made reference to Tom Elliott's blog being defunct. Which it does seem to be. But he continues to have an online presence, on [Mastodon](https://hcommons.social/@paregorios), [Bluesky](https://bsky.app/profile/paregorios.bsky.social), and the [web itself](https://pleiades.stoa.org/). We had a nice brief correspondence on Bluesky. I also spoke a bit with [Adam DJ Brett](https://bsky.app/profile/adjb.co), who wanted to do a similar metadata enhancement to his blogs (so they could be Zotero cited). He [wrote up his adventures implementing Zotero pickup for blog posts](https://www.adamdjbrett.com/blog/zotero-harvestable-blog-posts/) on his own site.
 

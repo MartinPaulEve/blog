@@ -159,6 +159,26 @@
         "@type": "Periodical",
         "name": "Journal of Librarianship and Scholarly Communication"
       }
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.adamdjbrett.com/blog/zotero-harvestable-blog-posts/",
+      "name": "Making Blogs Easier to Cite with Zotero",
+      "url": "https://www.adamdjbrett.com/blog/zotero-harvestable-blog-posts/",
+      "datePublished": "2026-06-26",
+      "inLanguage": "en",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "author": {
+        "@type": "Person",
+        "name": "Adam DJ Brett",
+        "@id": "https://orcid.org/0009-0004-6725-8425",
+        "identifier": "https://orcid.org/0009-0004-6725-8425"
+      },
+      "isPartOf": {
+        "@type": "Blog",
+        "name": "adamdjbrett.com",
+        "url": "https://www.adamdjbrett.com/blog/"
+      }
     }
   ]
 }
