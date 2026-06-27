@@ -8,6 +8,20 @@ image:
   creditlink: "https://www.zotero.org/"
   title: "An image of the Zotero logo."
 archive: "https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields"
+references:
+  - type: BlogPosting
+      title: "Zotero-Nikola Harmony (One Simple Trick)"
+      url: https://paregorios.org/posts/2018/05/zotero_nikola_harmony/
+      author:
+        name: Tom Elliott
+        orcid: https://orcid.org/0000-0002-4114-6677
+      date: 2018-05-08
+      language: en
+      license: https://creativecommons.org/licenses/by/4.0/
+      isPartOf:
+        type: Blog
+        name: paregorios.org
+        url: https://paregorios.org/
 ---
 This is a quick "how-to" post because I learned something about Zotero. I want the posts on this site to be easily citeable. The name of the site that I would like in citations is "eve.gd: Martin Paul Eve". But here's the problem: when you put that as a Blog Title (or Website Title) and then go to cite it in a document, the CSL reformats it to the ugly "Eve.Gd: Martin Paul Eve". Anyway, I found how to fix this! You simply encode it thus: 
 

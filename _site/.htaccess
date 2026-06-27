@@ -59,3 +59,10 @@ RewriteRule ^(.*)$ https://eve.gd/$1 [R=301,L]
 
 RewriteCond %{HTTPS} !=on
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [NC,R=301,L]
+
+<Files "index.html">
+Header set Link "<https://orcid.org/0000-0002-5589-8511>; rel=\"author\", <https://schema.org/CollectionPage>; rel=\"type\", <https://creativecommons.org/licenses/by/4.0/>; rel=\"license\", <https://eve.gd/metadata.json>; rel=\"describedby\"; type=\"application/ld+json\"; profile=\"https://schema.org/\""
+</Files>
+<Files "metadata.json">
+ForceType application/ld+json
+</Files>

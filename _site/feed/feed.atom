@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://eve.gd/feed/feed.atom" rel="self" type="application/atom+xml" /><link href="https://eve.gd/" rel="alternate" type="text/html" /><updated>2026-06-26T23:19:37+01:00</updated><id>https://eve.gd/feed/feed.atom</id><title type="html">Martin Paul Eve</title><entry><title type="html">Making blog posts harvestable by Zotero and preserving case in citation fields</title><link href="https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/" rel="alternate" type="text/html" title="Making blog posts harvestable by Zotero and preserving case in citation fields" /><published>2026-06-23T00:00:00+01:00</published><updated>2026-06-23T00:00:00+01:00</updated><id>https://doi.org/10.59348/vrt01-f3b49</id><content type="html" xml:base="https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/"><![CDATA[<p>This is a quick “how-to” post because I learned something about Zotero. I want the posts on this site to be easily citeable. The name of the site that I would like in citations is “eve.gd: Martin Paul Eve”. But here’s the problem: when you put that as a Blog Title (or Website Title) and then go to cite it in a document, the CSL reformats it to the ugly “Eve.Gd: Martin Paul Eve”. Anyway, I found how to fix this! You simply encode it thus:</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://eve.gd/feed/feed.atom" rel="self" type="application/atom+xml" /><link href="https://eve.gd/" rel="alternate" type="text/html" /><updated>2026-06-27T10:17:14+01:00</updated><id>https://eve.gd/feed/feed.atom</id><title type="html">Martin Paul Eve</title><entry><title type="html"></title><link href="https://eve.gd/2026/06/27/2026-06-23-making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/" rel="alternate" type="text/html" title="" /><published>2026-06-27T10:17:14+01:00</published><updated>2026-06-27T10:17:14+01:00</updated><id>https://eve.gd/2026/06/27/2026-06-23-making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields</id><content type="html" xml:base="https://eve.gd/2026/06/27/2026-06-23-making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/"><![CDATA[<p>This is a quick “how-to” post because I learned something about Zotero. I want the posts on this site to be easily citeable. The name of the site that I would like in citations is “eve.gd: Martin Paul Eve”. But here’s the problem: when you put that as a Blog Title (or Website Title) and then go to cite it in a document, the CSL reformats it to the ugly “Eve.Gd: Martin Paul Eve”. Anyway, I found how to fix this! You simply encode it thus:</p>
 
 <pre><code>&lt;span class="nocase"&gt;eve.gd&lt;/span&gt;: Martin Paul Eve 
 </code></pre>
@@ -143,7 +143,62 @@
 
 <p>So this should now work!</p>
 
-<p>I must also add my thanks to Tom Elliott, whose <a href="https://paregorios.org/posts/2018/05/zotero_nikola_harmony/">own blog post on this subject</a> gave me the information I needed to get the Blog Post type working. It is a shame that he stopped posting on his blog in 2020. I hope all is OK with him, but there are lots of interesting digital humanities posts on his site, on eclectic topics.</p>]]></content><author><name>Martin Paul Eve</name></author><summary type="html"><![CDATA[This is a quick “how-to” post because I learned something about Zotero. I want the posts on this site to be easily citeable. The name of the site that I would like in citations is “eve.gd: Martin Paul Eve”. But here’s the problem: when you put that as a Blog Title (or Website Title) and then go to cite it in a document, the CSL reformats it to the ugly “Eve.Gd: Martin Paul Eve”. Anyway, I found how to fix this! You simply encode it thus:]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://eve.gd/images/zotero.png" /><media:content medium="image" url="https://eve.gd/images/zotero.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">More on dual-licensing of digital OA books</title><link href="https://eve.gd/2026/06/04/more-on-dual-licensing-of-digital-oa-books/" rel="alternate" type="text/html" title="More on dual-licensing of digital OA books" /><published>2026-06-04T00:00:00+01:00</published><updated>2026-06-04T00:00:00+01:00</updated><id>https://doi.org/10.59348/pyncb-wyx70</id><content type="html" xml:base="https://eve.gd/2026/06/04/more-on-dual-licensing-of-digital-oa-books/"><![CDATA[<p>Following up on <a href="/2026/06/03/what-is-actually-licensed-in-printdigital-dual-licensed-books/">yesterday’s post</a>, I received an email this morning from Andrew Johnson, who is the Scholarly Communications Librarian (Copyright &amp; Licensing) at Sheffield University in the UK and so seems to know his stuff on this turf. With his permission, for which I am extremely grateful, I reproduce that message, as it answers some of the questions I posed:</p>
+<p>I must also add my thanks to Tom Elliott, whose <a href="https://paregorios.org/posts/2018/05/zotero_nikola_harmony/">own blog post on this subject</a> gave me the information I needed to get the Blog Post type working. It is a shame that he stopped posting on his blog in 2020. I hope all is OK with him, but there are lots of interesting digital humanities posts on his site, on eclectic topics.</p>]]></content><author><name>Martin Paul Eve</name></author></entry><entry><title type="html"></title><link href="https://eve.gd/2026/06/27/2026-06-27-fair-and-square-making-a-static-site-support-fair-signposting/" rel="alternate" type="text/html" title="" /><published>2026-06-27T10:17:14+01:00</published><updated>2026-06-27T10:17:14+01:00</updated><id>https://eve.gd/2026/06/27/2026-06-27-fair-and-square-making-a-static-site-support-fair-signposting</id><content type="html" xml:base="https://eve.gd/2026/06/27/2026-06-27-fair-and-square-making-a-static-site-support-fair-signposting/"><![CDATA[<p>After my <a href="/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/">previous post about Zotero ingest</a>, I wondered what else I might be able to do to make this scholarly (and personal) blog more accessible, navigable, harvestable, and ingestable. One thing that occurred to me, that I had not implemented, is that I might make this blog <code>FAIR</code>. That is: <a href="https://www.go-fair.org/fair-principles/">Findable, Accessible, Interoperable, and Reusable</a>.</p>
+
+<p>One of the ways one can work towards this is by implementing the <a href="https://signposting.org/FAIR/">FAIR Signposting Profile</a>. This is a series of in-document metadata elements, but also a linkset in the HTTP header returned by the blog. I am hosting with <a href="https://www.reclaimhosting.com/">Reclaim Hosting</a>, who are using an Apache webserver to serve my static files. Normally I would curse this. Who’s running Apache in this day and age? We have many more sophisticated technologies for serving websites. Even nginx would have been better, I would exclaim.</p>
+
+<p>However, this is actually very useful in this circumstance. The Apache web server allows us to put <code>.htaccess</code> files in every directory. And directories are how my posts are structured. There is a directory with an index.html file inside it, so you don’t have to see that it’s a directory, it just looks like a path on the website. When you load <code>https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/</code> the webserver looks in the blog folder on my server at <code>/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/</code> and serves you the <code>index.html</code> file. So you are getting <code>/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/index.html</code>. But it doesn’t look like that to the user. However, really, all of these posts are in their own directories. And Apache can take directives from any one of them.</p>
+
+<p>I made a plugin for my static site generator that creates a <code>.htaccess</code> file for every post that look like this:</p>
+
+<pre><code>	&lt;Files "index.html"&gt;
+	Header set Link "&lt;https://orcid.org/0000-0002-5589-8511&gt;; rel=\"author\", &lt;https://doi.org/10.59348/vrt01-f3b49&gt;; rel=\"cite-as\", &lt;https://schema.org/BlogPosting&gt;; rel=\"type\", &lt;https://schema.org/AboutPage&gt;; rel=\"type\", &lt;https://creativecommons.org/licenses/by/4.0/&gt;; rel=\"license\", &lt;https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/metadata.json&gt;; rel=\"describedby\"; type=\"application/ld+json\"; profile=\"https://schema.org/\""
+	&lt;/Files&gt;
+	&lt;Files "metadata.json"&gt;
+	ForceType application/ld+json
+	&lt;/Files&gt;
+</code></pre>
+
+<p>When the user’s browser – or a machine agent – requests the page, it now gets the following HTTP headers:</p>
+
+<blockquote>
+  <p>HTTP/2 200 
+last-modified: Fri, 26 Jun 2026 22:19:49 GMT
+accept-ranges: bytes
+content-length: 25244
+content-security-policy: upgrade-insecure-requests
+strict-transport-security: max-age=31536000; includeSubDomains
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+referrer-policy: strict-origin-when-cross-origin
+link: <a href="https://orcid.org/0000-0002-5589-8511">https://orcid.org/0000-0002-5589-8511</a>; rel=”author”, <a href="https://doi.org/10.59348/vrt01-f3b49">https://doi.org/10.59348/vrt01-f3b49</a>; rel=”cite-as”, <a href="https://schema.org/BlogPosting">https://schema.org/BlogPosting</a>; rel=”type”, <a href="https://schema.org/AboutPage">https://schema.org/AboutPage</a>; rel=”type”, <a href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a>; rel=”license”, <a href="https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/metadata.json">https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/metadata.json</a>; rel=”describedby”; type=”application/ld+json”; profile=”https://schema.org/”
+content-type: text/html; charset=UTF-8
+date: Sat, 27 Jun 2026 09:00:06 GMT</p>
+</blockquote>
+
+<p>You can see that this allows us to get information about the page without even loading its full HTML content. Useful for machine access and discovery.</p>
+
+<p>My Jekyll plugin also adds a <code>metadata.json</code> to every post directory. Here’s an example of how that looks:</p>
+
+<pre><code class="language-json">{
+  "@context": "https://schema.org/",
+  "@type": "BlogPosting",
+  "name": "Making blog posts harvestable by Zotero and preserving case in citation fields",
+  "headline": "Making blog posts harvestable by Zotero and preserving case in citation fields",
+  "url": "https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/",
+  "inLanguage": "en-GB",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "author": {
+    "@type": "Person",
+    "name": "Martin Paul Eve",
+    "url": "https://eve.gd",
+    "identifier": "https://orcid.org/0000-0002-5589-8511"
+  },
+  "datePublished": "2026-06-23",
+  "identifier": "https://doi.org/10.59348/vrt01-f3b49"
+}
+</code></pre>]]></content><author><name>Martin Paul Eve</name></author></entry><entry><title type="html">More on dual-licensing of digital OA books</title><link href="https://eve.gd/2026/06/04/more-on-dual-licensing-of-digital-oa-books/" rel="alternate" type="text/html" title="More on dual-licensing of digital OA books" /><published>2026-06-04T00:00:00+01:00</published><updated>2026-06-04T00:00:00+01:00</updated><id>https://doi.org/10.59348/pyncb-wyx70</id><content type="html" xml:base="https://eve.gd/2026/06/04/more-on-dual-licensing-of-digital-oa-books/"><![CDATA[<p>Following up on <a href="/2026/06/03/what-is-actually-licensed-in-printdigital-dual-licensed-books/">yesterday’s post</a>, I received an email this morning from Andrew Johnson, who is the Scholarly Communications Librarian (Copyright &amp; Licensing) at Sheffield University in the UK and so seems to know his stuff on this turf. With his permission, for which I am extremely grateful, I reproduce that message, as it answers some of the questions I posed:</p>
 
 <blockquote>
   <p>So what is licensed? Well, not what a lot of people expect, because technically what is licensed are the restricted acts of reproduction and distribution. The work is protected by copyright, and the BY-NC-ND licence applies - assuming the University publisher applies it to the original work you submitted and transferred to them, in exchange for a contractual agreement to publish. That licence applies to “the work”, but really it is reproduction and distribution rights that are licensed. Off topic, the application of CC licences to “works” rather than “copies” is to me arguably the biggest interpretational difference between CC and open software licences.</p>
@@ -283,96 +338,4 @@ systemctl --user restart wireplumber pipewire pipewire-pulse
 <ul>
   <li>Blair, Ann, <em>Too Much to Know: Managing Scholarly Information before the Modern Age</em> (Yale University Press, 2010)</li>
   <li>Nelles, Paul Neave, ‘The Public Library and Late Humanist Scholarship in Early Modern Europe: Antiquarianism and Encyclopaedism’ (unpublished Ph.D. Dissertation, Johns Hopkins University, 1995)</li>
-</ul>]]></content><author><name>Martin Paul Eve</name></author><summary type="html"><![CDATA[It turns out that there is a very long genealogy of saying that there is too much work/scholarship, or too many books, published. I was having an email conversation with Jan Erik Frantsvåg, who is an absolute legend in the scholarly communications world, because of his work on the Tromsø Munin Conferences every year, and he asked about this question. On this subject, I really recommend reading Blair, Ann, Too Much to Know: Managing Scholarly Information before the Modern Age (Yale University Press, 2010), which traces the story well (and from which all of this post is derived; I am not professing any novelty, here).]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://eve.gd/images/book_open.jpg" /><media:content medium="image" url="https://eve.gd/images/book_open.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How to use YubiKey for authentication and sudo on Ubuntu 24.04</title><link href="https://eve.gd/2026/03/21/how-to-use-yubikey-for-authentication-and-sudo-on-ubuntu-2404/" rel="alternate" type="text/html" title="How to use YubiKey for authentication and sudo on Ubuntu 24.04" /><published>2026-03-21T00:00:00+00:00</published><updated>2026-03-21T00:00:00+00:00</updated><id>https://doi.org/10.59348/ab70g-tcs44</id><content type="html" xml:base="https://eve.gd/2026/03/21/how-to-use-yubikey-for-authentication-and-sudo-on-ubuntu-2404/"><![CDATA[<p>I have had two YubiKeys for years. They are very cool devices. I used to store my keys themselves on the YubiKey, and perhaps I’ll go back to doing that. But 1Password has me covered for now. What I did realise while moving to a new PC is that there is no concise guide to how to set up YubiKey on a recent Ubuntu Linux setup. I am on Ubuntu 24.04, using the Gnome desktop environment (this might be significant) and here’s what I did. This gives me passwordless sudo with a touch of the YubiKey and the ability to use the YubiKey in polkit popups (when permission is requested). If you remove the YubiKey key while that prompt is visible, it will fall back to asking for a password.</p>
-
-<p><img src="/images/yubico.png" alt="An image of the range of Yubikeys" style="width: 100%;" /></p>
-
-<h2 id="configuration">Configuration</h2>
-
-<p>First, open a terminal and get root (<code>sudo su -</code>). We need to keep this open in case something gets messed up that requires us to go back.</p>
-
-<p>Second, open another terminal and type these commands:</p>
-
-<pre><code>sudo apt update
-sudo apt install libpam-u2f -y
-mkdir -p ~/.config/Yubico
-pamu2fcfg &gt; ~/.config/Yubico/u2f_keys
-</code></pre>
-
-<p>In the last step, you need to touch the YubiKey when it lights up.</p>
-
-<p>If, at any future point, you want to add another key, use:</p>
-
-<pre><code>pamu2fcfg -n &gt;&gt; ~/.config/Yubico/u2f_keys
-</code></pre>
-
-<p>Now enter/edit <code>sudo nano /etc/pam.d/sudo</code>. (Note: throughout this guide, I use nano. I love this little simple text editor. For those who don’t know or like it: ctrl+o is save (needs confirmation) and ctrl+x is exit (needs confirmation).)</p>
-
-<p>In the <code>/etc/pam.d/sudo</code> file, add:</p>
-
-<pre><code>auth sufficient pam_u2f.so cue [cue_prompt="Tap the Yubikey to Sudo"]
-</code></pre>
-
-<p>This needs to go just above the line that reads <code>@include common-auth</code>.</p>
-
-<p>So, my whole <code>/etc/pam.d/sudo</code> file looks like this:</p>
-
-<pre><code>#%PAM-1.0
-
-# Set up user limits from /etc/security/limits.conf.
-session    required   pam_limits.so
-
-session    required   pam_env.so readenv=1 user_readenv=0
-session    required   pam_env.so readenv=1 envfile=/etc/default/locale user_readenv=0
-
-auth sufficient pam_u2f.so cue [cue_prompt="Tap the Yubikey to Sudo"]
-
-@include common-auth
-@include common-account
-@include common-session-noninteractive
-</code></pre>
-
-<p>You can then test this part out. Open a new terminal and type <code>sudo echo test</code>. If you have done everything right and the YubiKey is plugged in, you should be prompted to use it. If you pull the YubiKey out at this point, you should get a password prompt.</p>
-
-<p>The next step is to configure Policykit.</p>
-
-<p>We need to edit <code>/etc/pam.d/polkit-1</code>. This did not exist on my system, but <code>/usr/lib/pam.d/polkit-1</code> did. So:</p>
-
-<pre><code>sudo cp /usr/lib/pam.d/polkit-1 /etc/pam.d/polkit-1
-</code></pre>
-
-<p>Then <code>sudo nano /etc/pam.d/polkit-1</code> and enter the following (or similar, tailored to your needs):</p>
-
-<pre><code>#%PAM-1.0
-
-auth    sufficient    pam_u2f.so cue [cue_prompt=Tap YubiKey to authenticate]
-
-@include common-auth
-@include common-account
-@include common-password
-session       required   pam_env.so readenv=1 user_readenv=0
-session       required   pam_env.so readenv=1 envfile=/etc/default/locale user_readenv=0
-@include common-session-noninteractive
-</code></pre>
-
-<p>The important point is that the auth sufficient YubiKey line needs to be above common-auth. Your file may differ; just enter the first line.</p>
-
-<p>When you have saved this file, you can test its working by issuing the command <code>pkexec id</code> in a new terminal. This should popup a prompt asking you to press your YubiKey.</p>
-
-<h2 id="debugging-and-troubleshooting">Debugging and Troubleshooting</h2>
-
-<p>If something goes wrong, you need to debug what is happening within your PolicyKit environment.</p>
-
-<p>First, enable debugging in <code>/etc/pam.d/polkit-1</code>:</p>
-
-<p>Change the auth line to read:</p>
-
-<pre><code>auth    sufficient    pam_u2f.so cue debug debug_file=syslog [cue_prompt=Tap YubiKey to authenticate]
-</code></pre>
-
-<p>In your root terminal from step 1, run:</p>
-
-<pre><code>journalctl -f | grep -Ei 'pam_u2f|pkexec|polkit'
-</code></pre>
-
-<p>Then, in another terminal, run <code>pkexec id</code>. This should then give you output that tells you if something is going wrong. I had a case where I was earlier specifying an incorrect file path on the auth line. But now we use the defaults and we generated these earlier in the right places, so I don’t have any problems here. In any case, this debug log should help you if you are running into troubles.</p>]]></content><author><name>Martin Paul Eve</name></author><summary type="html"><![CDATA[I have had two YubiKeys for years. They are very cool devices. I used to store my keys themselves on the YubiKey, and perhaps I’ll go back to doing that. But 1Password has me covered for now. What I did realise while moving to a new PC is that there is no concise guide to how to set up YubiKey on a recent Ubuntu Linux setup. I am on Ubuntu 24.04, using the Gnome desktop environment (this might be significant) and here’s what I did. This gives me passwordless sudo with a touch of the YubiKey and the ability to use the YubiKey in polkit popups (when permission is requested). If you remove the YubiKey key while that prompt is visible, it will fall back to asking for a password.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://eve.gd/images/yubico.png" /><media:content medium="image" url="https://eve.gd/images/yubico.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+</ul>]]></content><author><name>Martin Paul Eve</name></author><summary type="html"><![CDATA[It turns out that there is a very long genealogy of saying that there is too much work/scholarship, or too many books, published. I was having an email conversation with Jan Erik Frantsvåg, who is an absolute legend in the scholarly communications world, because of his work on the Tromsø Munin Conferences every year, and he asked about this question. On this subject, I really recommend reading Blair, Ann, Too Much to Know: Managing Scholarly Information before the Modern Age (Yale University Press, 2010), which traces the story well (and from which all of this post is derived; I am not professing any novelty, here).]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://eve.gd/images/book_open.jpg" /><media:content medium="image" url="https://eve.gd/images/book_open.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

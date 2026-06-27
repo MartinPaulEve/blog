@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="https://eve.gd/feed.xml" />
 <link rel="alternate" type="text/html" href="https://eve.gd" />
-<updated>2026-06-25T19:32:59+01:00</updated>
+<updated>2026-06-27T10:17:14+01:00</updated>
 <id>https://eve.gd/</id>
 <author>
   <name>Martin Paul Eve</name>
@@ -14,13 +14,90 @@
 
 
 <entry>
-  <title type="html"><![CDATA[Making blog posts harvestable by Zotero and preserving case in citation fields]]></title>
-  <link rel="alternate" type="text/html" href="https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/" />
+  <title type="html"><![CDATA[]]></title>
+  <link rel="alternate" type="text/html" href="https://eve.gd/2026/06/27/2026-06-27-fair-and-square-making-a-static-site-support-fair-signposting/" />
   
-  <id>https://doi.org/10.59348/vrt01-f3b49</id>
+  <id>https://eve.gd/2026/06/27/2026-06-27-fair-and-square-making-a-static-site-support-fair-signposting</id>
   
-  <published>Tuesday, 23 June 2026 15:55:58 +0``000</published>
-  <updated>2026-06-23T00:00:00+01:00</updated>
+  <published>Saturday, 27 June 2026 15:55:58 +0``000</published>
+  <updated>2026-06-27T10:17:14+01:00</updated>
+  <author>
+    <name>Martin Paul Eve</name>
+    <uri>https://orcid.org/0000-0002-5589-8511</uri>
+    
+  </author>
+  <content type="html"><![CDATA[
+    &lt;p&gt;After my &lt;a href=&quot;/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/&quot;&gt;previous post about Zotero ingest&lt;/a&gt;, I wondered what else I might be able to do to make this scholarly (and personal) blog more accessible, navigable, harvestable, and ingestable. One thing that occurred to me, that I had not implemented, is that I might make this blog &lt;code&gt;FAIR&lt;/code&gt;. That is: &lt;a href=&quot;https://www.go-fair.org/fair-principles/&quot;&gt;Findable, Accessible, Interoperable, and Reusable&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;One of the ways one can work towards this is by implementing the &lt;a href=&quot;https://signposting.org/FAIR/&quot;&gt;FAIR Signposting Profile&lt;/a&gt;. This is a series of in-document metadata elements, but also a linkset in the HTTP header returned by the blog. I am hosting with &lt;a href=&quot;https://www.reclaimhosting.com/&quot;&gt;Reclaim Hosting&lt;/a&gt;, who are using an Apache webserver to serve my static files. Normally I would curse this. Who’s running Apache in this day and age? We have many more sophisticated technologies for serving websites. Even nginx would have been better, I would exclaim.&lt;/p&gt;
+
+&lt;p&gt;However, this is actually very useful in this circumstance. The Apache web server allows us to put &lt;code&gt;.htaccess&lt;/code&gt; files in every directory. And directories are how my posts are structured. There is a directory with an index.html file inside it, so you don’t have to see that it’s a directory, it just looks like a path on the website. When you load &lt;code&gt;https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/&lt;/code&gt; the webserver looks in the blog folder on my server at &lt;code&gt;/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/&lt;/code&gt; and serves you the &lt;code&gt;index.html&lt;/code&gt; file. So you are getting &lt;code&gt;/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/index.html&lt;/code&gt;. But it doesn’t look like that to the user. However, really, all of these posts are in their own directories. And Apache can take directives from any one of them.&lt;/p&gt;
+
+&lt;p&gt;I made a plugin for my static site generator that creates a &lt;code&gt;.htaccess&lt;/code&gt; file for every post that look like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;	&amp;lt;Files &quot;index.html&quot;&amp;gt;
+	Header set Link &quot;&amp;lt;https://orcid.org/0000-0002-5589-8511&amp;gt;; rel=\&quot;author\&quot;, &amp;lt;https://doi.org/10.59348/vrt01-f3b49&amp;gt;; rel=\&quot;cite-as\&quot;, &amp;lt;https://schema.org/BlogPosting&amp;gt;; rel=\&quot;type\&quot;, &amp;lt;https://schema.org/AboutPage&amp;gt;; rel=\&quot;type\&quot;, &amp;lt;https://creativecommons.org/licenses/by/4.0/&amp;gt;; rel=\&quot;license\&quot;, &amp;lt;https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/metadata.json&amp;gt;; rel=\&quot;describedby\&quot;; type=\&quot;application/ld+json\&quot;; profile=\&quot;https://schema.org/\&quot;&quot;
+	&amp;lt;/Files&amp;gt;
+	&amp;lt;Files &quot;metadata.json&quot;&amp;gt;
+	ForceType application/ld+json
+	&amp;lt;/Files&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;When the user’s browser – or a machine agent – requests the page, it now gets the following HTTP headers:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;HTTP/2 200 
+last-modified: Fri, 26 Jun 2026 22:19:49 GMT
+accept-ranges: bytes
+content-length: 25244
+content-security-policy: upgrade-insecure-requests
+strict-transport-security: max-age=31536000; includeSubDomains
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+referrer-policy: strict-origin-when-cross-origin
+link: &lt;a href=&quot;https://orcid.org/0000-0002-5589-8511&quot;&gt;https://orcid.org/0000-0002-5589-8511&lt;/a&gt;; rel=”author”, &lt;a href=&quot;https://doi.org/10.59348/vrt01-f3b49&quot;&gt;https://doi.org/10.59348/vrt01-f3b49&lt;/a&gt;; rel=”cite-as”, &lt;a href=&quot;https://schema.org/BlogPosting&quot;&gt;https://schema.org/BlogPosting&lt;/a&gt;; rel=”type”, &lt;a href=&quot;https://schema.org/AboutPage&quot;&gt;https://schema.org/AboutPage&lt;/a&gt;; rel=”type”, &lt;a href=&quot;https://creativecommons.org/licenses/by/4.0/&quot;&gt;https://creativecommons.org/licenses/by/4.0/&lt;/a&gt;; rel=”license”, &lt;a href=&quot;https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/metadata.json&quot;&gt;https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/metadata.json&lt;/a&gt;; rel=”describedby”; type=”application/ld+json”; profile=”https://schema.org/”
+content-type: text/html; charset=UTF-8
+date: Sat, 27 Jun 2026 09:00:06 GMT&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You can see that this allows us to get information about the page without even loading its full HTML content. Useful for machine access and discovery.&lt;/p&gt;
+
+&lt;p&gt;My Jekyll plugin also adds a &lt;code&gt;metadata.json&lt;/code&gt; to every post directory. Here’s an example of how that looks:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-json&quot;&gt;{
+  &quot;@context&quot;: &quot;https://schema.org/&quot;,
+  &quot;@type&quot;: &quot;BlogPosting&quot;,
+  &quot;name&quot;: &quot;Making blog posts harvestable by Zotero and preserving case in citation fields&quot;,
+  &quot;headline&quot;: &quot;Making blog posts harvestable by Zotero and preserving case in citation fields&quot;,
+  &quot;url&quot;: &quot;https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/&quot;,
+  &quot;inLanguage&quot;: &quot;en-GB&quot;,
+  &quot;license&quot;: &quot;https://creativecommons.org/licenses/by/4.0/&quot;,
+  &quot;author&quot;: {
+    &quot;@type&quot;: &quot;Person&quot;,
+    &quot;name&quot;: &quot;Martin Paul Eve&quot;,
+    &quot;url&quot;: &quot;https://eve.gd&quot;,
+    &quot;identifier&quot;: &quot;https://orcid.org/0000-0002-5589-8511&quot;
+  },
+  &quot;datePublished&quot;: &quot;2026-06-23&quot;,
+  &quot;identifier&quot;: &quot;https://doi.org/10.59348/vrt01-f3b49&quot;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/06/27/2026-06-27-fair-and-square-making-a-static-site-support-fair-signposting/&quot;&gt;&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on June 27, 2026.&lt;/p&gt;]]>
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[]]></title>
+  <link rel="alternate" type="text/html" href="https://eve.gd/2026/06/27/2026-06-23-making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/" />
+  
+  <id>https://eve.gd/2026/06/27/2026-06-23-making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields</id>
+  
+  <published>Saturday, 27 June 2026 15:55:58 +0``000</published>
+  <updated>2026-06-27T10:17:14+01:00</updated>
   <author>
     <name>Martin Paul Eve</name>
     <uri>https://orcid.org/0000-0002-5589-8511</uri>
@@ -174,7 +251,7 @@
 
 &lt;p&gt;I must also add my thanks to Tom Elliott, whose &lt;a href=&quot;https://paregorios.org/posts/2018/05/zotero_nikola_harmony/&quot;&gt;own blog post on this subject&lt;/a&gt; gave me the information I needed to get the Blog Post type working. It is a shame that he stopped posting on his blog in 2020. I hope all is OK with him, but there are lots of interesting digital humanities posts on his site, on eclectic topics.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/&quot;&gt;Making blog posts harvestable by Zotero and preserving case in citation fields&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on June 23, 2026.&lt;/p&gt;]]>
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/06/27/2026-06-23-making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/&quot;&gt;&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on June 27, 2026.&lt;/p&gt;]]>
   </content>
 </entry>
 
