@@ -188,10 +188,10 @@ That automatically generates the citation block:
 I can also do this for DOIs. Say I want to cite an academic article (I will [use one of mine for now](https://doi.org/10.31274/jlsc.16288)) I can just use:
 
 ```yaml
-- https://doi.org/10.31274/jlsc.16288
+- https://doi.org/10.31274/jlsc.16288 # preservation article
 ```
 
-and it will produce, in the (`metadata.json`)[https://eve.gd/2026/06/27/fair-and-square-making-a-static-site-support-fair-signposting/metadata.json]:
+and it will produce, in the [`metadata.json`](https://eve.gd/2026/06/27/fair-and-square-making-a-static-site-support-fair-signposting/metadata.json):
 
 ```json
 {
