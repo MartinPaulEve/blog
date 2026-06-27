@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# zotero: http://www.zotero.org/namespaces/export#">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+<!-- Set theme before paint to avoid a flash of the wrong theme. Defaults to light. -->
+<script>
+    (function () {
+        try {
+            var stored = localStorage.getItem('theme');
+            if (stored === 'dark') {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            }
+        } catch (e) {}
+    })();
+</script>
+
+<title>Making blog posts harvestable by Zotero and preserving case in citation fields - Martin Paul Eve</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=IBM+Plex+Mono:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/8417040572.js" crossorigin="anonymous"></script>
+<link id="hljs-theme" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-light.min.css">
+<link rel="stylesheet" href="/assets/css/styles.css?v=1782552150">
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+<link rel="icon" type="image/png" href="/images/favicon.png">
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "BlogPosting",
+        "headline": "Making blog posts harvestable by Zotero and preserving case in citation fields",
+        "author": {
+            "@type": "Person",
+            "name": "Martin Paul Eve",
+            "url": "https://eve.gd"
+        },
+        "datePublished": "2026-06-23 00:00:00 +0100",
+        "dateCreated": "2026-06-23 00:00:00 +0100",
+        "url": "https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/",
+        "inLanguage ": "en-GB",
+        "image": "zotero.png"
+    }
+</script>
+
+<!-- Structured data describing the site's author -->
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Martin Paul Eve",
+        "givenName": "Martin Paul",
+        "familyName": "Eve",
+        "jobTitle": "Professor of Literature, Technology and Publishing",
+        "description": "Professor of Literature, Technology and Publishing at Birkbeck, University of London, and Technical Lead for Knowledge Commons at MESH Research, Michigan State University.",
+        "url": "https://eve.gd",
+        "image": "https://eve.gd/images/mpe.png",
+        "email": "mailto:martin@eve.gd",
+        "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "ORCID",
+            "value": "0000-0002-5589-8511"
+        },
+        "affiliation": [
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Birkbeck, University of London",
+                "url": "https://www.bbk.ac.uk"
+            },
+            {
+                "@type": "Organization",
+                "name": "Knowledge Commons, MESH Research, Michigan State University",
+                "url": "https://meshresearch.commons.msu.edu/"
+            }
+        ],
+        "knowsAbout": ["Open access", "Scholarly communication", "Digital humanities", "Contemporary literature", "Publishing technology"],
+        "sameAs": [
+            "https://en.wikipedia.org/wiki/Martin_Paul_Eve",
+            "https://orcid.org/0000-0002-5589-8511",
+            "https://github.com/MartinPaulEve",
+            "https://bsky.app/profile/eve.gd",
+            "https://works.hcommons.org/search?q=metadata.creators.person_or_org.name%3A%22Eve%2C%20Martin%20Paul%22"
+        ]
+    }
+</script>
+
+<!-- Open Graph Meta Tags for Social Media Preview -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Making blog posts harvestable by Zotero and preserving case in citation fields">
+<meta property="og:description" content="This is a quick “how-to” post because I learned something about Zotero. I want the posts on this site to be easily citeable. The name of the site that I woul...">
+
+<meta property="og:image" content="https://eve.gd/images/zotero.png">
+
+<meta property="og:url" content="/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/">
+<meta property="og:site_name" content="eve.gd: Martin Paul Eve">
+<meta property="og:type" content="article" />
+<meta property="og:locale" content="en_GB" />
+<meta property="og:image:type" content="image/png">
+
+<!-- Twitter Card Meta Tags (Optional but Recommended ) -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Making blog posts harvestable by Zotero and preserving case in citation fields">
+<meta name="twitter:description" content="This is a quick “how-to” post because I learned something about Zotero. I want the posts on this site to be easily citeable. The name of the site that I would like in citations is “eve.gd: Martin Paul Eve”. But here’s the problem: when you put that as a Blog Title (or Website Title) and then go to cite it in a document, the CSL reformats it to the ugly “Eve.Gd: Martin Paul Eve”. Anyway, I found how to fix this! You simply encode it thus:
+">
+
+<meta name="twitter:image" content="https://eve.gd/images/zotero.png">
+
+
+<meta name="twitter:creator" content="@martin_eve">
+
+<!-- Additional Useful Meta Tags -->
+<meta name="description" content="This is a quick “how-to” post because I learned something about Zotero. I want the posts on this site to be easily citeable. The name of the site that I would like in citations is “eve.gd: Martin Paul Eve”. But here’s the problem: when you put that as a Blog Title (or Website Title) and then go to cite it in a document, the CSL reformats it to the ugly “Eve.Gd: Martin Paul Eve”. Anyway, I found how to fix this! You simply encode it thus:
+">
+<meta property="article:published_time" content="2026-06-23 00:00:00 +0100">
+<meta property="article:author" content="Martin Paul Eve">
+
+<link href="https://eve.gd/feed/feed.atom" type="application/atom+xml" rel="alternate" title="Martin Paul Eve Feed">
+
+    <link rel="stylesheet" href="/assets/css/blog-post.css?v=1782552150">
+
+    
+    <meta name="citation_author" content="Eve, Martin Paul">
+    <meta name="citation_publication_date" content="2026/06/23">
+    <meta name="citation_public_url" content="https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/">
+    <meta name="citation_language" content="en">
+    <meta name="citation_doi" content="10.59348/vrt01-f3b49">
+
+    <meta name="dc.title" content="Making blog posts harvestable by Zotero and preserving case in citation fields">
+    <meta name="dc.creator" content="Eve, Martin Paul">
+    <meta name="dc.date" content="2026-06-23">
+    <meta name="dc.language" content="en">
+
+    
+    <meta property="zotero:itemType" content="blogPost">
+    <meta name="prism.genre" content="blogentry">
+    <meta name="prism.publicationName" content="&lt;span class=&quot;nocase&quot;&gt;eve.gd&lt;/span&gt;: Martin Paul Eve">
+    
+    <link rel="author" href="https://orcid.org/0000-0002-5589-8511">
+    <link rel="cite-as" href="https://doi.org/10.59348/vrt01-f3b49">
+    <link rel="type" href="https://schema.org/BlogPosting">
+    <link rel="type" href="https://schema.org/AboutPage">
+    <link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+    <link rel="describedby" href="https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/metadata.json" type="application/ld+json">
+
+
+</head>
+<body>
+<!-- Header -->
+<header class="header">
+    <div class="container header-content">
+        <a href="/" class="logo">Martin Paul Eve</a>
+<nav class="nav-desktop">
+    <a href="/" class="nav-link">Home</a>
+    <a href="/about/" class="nav-link">About</a>
+    <a href="/c-v/Eve-CV.pdf" class="nav-link">CV</a>
+    <a href="/posts/" class="nav-link">Web Writings</a>
+    <a href="/books/" class="nav-link">Books</a>
+    <a href="/music/" class="nav-link">Music</a>
+    <a href="mailto:martin@eve.gd" class="btn btn-primary nomob">Contact</a>
+    <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <i class="fa-solid fa-moon theme-icon-dark" aria-hidden="true"></i>
+        <i class="fa-solid fa-sun theme-icon-light" aria-hidden="true"></i>
+    </button>
+</nav>
+<button class="menu-toggle" aria-label="Toggle menu">
+    <span></span>
+    <span></span>
+    <span></span>
+</button>
+    </div>
+</header>
+
+<main>
+    <!-- Blog Post Header -->
+    <article class="blog-post">
+        <div class="post-header post-header--hero">
+            <div class="container">
+                <h1 class="post-title">Making blog posts harvestable by Zotero and preserving case in citation fields</h1>
+                <p class="post-description"><strong>Cite as:</strong> Martin Paul Eve, "Making blog posts harvestable by Zotero and preserving case in citation fields", <i>eve.gd: Martin Paul Eve</i>, <time itemprop="datePublished dateModified" datetime="June 23, 2026">June 23, 2026</time>, <a href="https://doi.org/10.59348/vrt01-f3b49">https://doi.org/10.59348/vrt01-f3b49</a>.</p>
+
+                
+
+                
+            </div>
+        </div>
+
+        <!-- Post Content -->
+        <div class="post-content">
+            <div class="container">
+                <div class="post-body">
+                    <p>This is a quick “how-to” post because I learned something about Zotero. I want the posts on this site to be easily citeable. The name of the site that I would like in citations is “eve.gd: Martin Paul Eve”. But here’s the problem: when you put that as a Blog Title (or Website Title) and then go to cite it in a document, the CSL reformats it to the ugly “Eve.Gd: Martin Paul Eve”. Anyway, I found how to fix this! You simply encode it thus:</p>
+
+<pre><code>&lt;span class="nocase"&gt;eve.gd&lt;/span&gt;: Martin Paul Eve 
+</code></pre>
+
+<p>Then the CSL will preserve your original case. <code>&lt;span class="nocase"&gt;bell hooks&lt;/span&gt;</code> might have found this useful, as might <code>&lt;span class="nocase"&gt;andré carrington&lt;/span&gt;</code>.</p>
+
+<p>Mind you, those two are jokes only, as Zotero automatically preserves the casing of author names.</p>
+
+<p>The next challenge that I faced was: how do you get an item into Zotero with the “Blog Post” type when you are running a static-site generator? Well, obviously, you have to embed meta tags, but which ones?</p>
+
+<h2 id="the-key-force-the-item-type-with-zoteroitemtype">The key: force the item type with <code>zotero:itemType</code></h2>
+
+<p>Genre/OpenGraph hints alone are unreliable — <code>prism.genre=blogentry</code> is <em>supposed</em> to map to Blog Post, but in practice Zotero kept importing posts as <strong>Web Page</strong> (the OpenGraph default won). The dependable fix is Zotero’s own RDFa override, <code>zotero:itemType</code>, which is read <strong>first</strong> in the translator’s type precedence (<code>t.zotero || t.bib || t.prism || … || t.og || …</code> in <code>RDF.js</code>) and beats everything else.</p>
+
+<p>Two parts are required, because <code>zotero</code> is <strong>not</strong> a built-in prefix in the translator (only the short <code>z</code> is), so it must be declared:</p>
+
+<ol>
+  <li>
+    <p>Declare the prefix on the <code>&lt;html&gt;</code> element (the translator’s <code>getPrefixes</code> reads the <code>prefix</code> attribute of <code>&lt;html&gt;</code> and <code>&lt;head&gt;</code>):</p>
+
+    <pre><code class="language-html">&lt;html lang="en" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# zotero: http://www.zotero.org/namespaces/export#"&gt;
+</code></pre>
+  </li>
+  <li>
+    <p>Emit the override (note <code>property=</code>, not <code>name=</code>):</p>
+
+    <pre><code class="language-html">&lt;meta property="zotero:itemType" content="blogPost"&gt;
+</code></pre>
+  </li>
+</ol>
+
+<p>The <code>prefix</code> value is RDFa syntax: <code>prefix: uri</code> pairs separated by spaces (a space <strong>after</strong> each colon is required by the parser’s <code>(\w+):\s+(\S+)</code> regex).</p>
+
+<h2 id="required-tags">Required tags</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tag</th>
+      <th>Value</th>
+      <th>Effect</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>&lt;html prefix="…zotero: http://www.zotero.org/namespaces/export#"&gt;</code></td>
+      <td>(declaration)</td>
+      <td>Registers the <code>zotero</code> prefix so the next tag is understood.</td>
+    </tr>
+    <tr>
+      <td><code>zotero:itemType</code> <em>(property)</em></td>
+      <td><code>blogPost</code></td>
+      <td><strong>Forces item type → Blog Post.</strong> Highest-priority signal.</td>
+    </tr>
+    <tr>
+      <td><code>prism.publicationName</code></td>
+      <td><code>&lt;span class="nocase"&gt;eve.gd&lt;/span&gt;: Martin Paul Eve</code></td>
+      <td><strong>Blog Title.</strong> Read before <code>og:site_name</code>. The <code>&lt;span class="nocase"&gt;</code> is CSL markup so styles don’t title-case <code>eve.gd</code> into <code>Eve.Gd</code>.</td>
+    </tr>
+    <tr>
+      <td><code>og:title</code></td>
+      <td>post title</td>
+      <td><strong>Title.</strong> Use OpenGraph/<code>dc.title</code>, <strong>not</strong> <code>citation_title</code> (see below).</td>
+    </tr>
+    <tr>
+      <td><code>citation_author</code></td>
+      <td><code>Eve, Martin Paul</code></td>
+      <td><strong>Author</strong> (<code>Last, First</code>; repeat for multiple).</td>
+    </tr>
+    <tr>
+      <td><code>citation_publication_date</code></td>
+      <td><code>2022/07/26</code></td>
+      <td><strong>Date</strong> (<code>YYYY/MM/DD</code>).</td>
+    </tr>
+    <tr>
+      <td><code>citation_doi</code></td>
+      <td><code>10.59348/kv1zh-wn208</code></td>
+      <td><strong>DOI</strong> (bare, not a URL).</td>
+    </tr>
+    <tr>
+      <td><code>citation_public_url</code></td>
+      <td><code>https://eve.gd/2022/07/26/.../</code></td>
+      <td><strong>URL</strong> (absolute).</td>
+    </tr>
+    <tr>
+      <td><code>citation_language</code></td>
+      <td><code>en</code></td>
+      <td><strong>Language.</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="secondary--belt-and-braces">Secondary / belt-and-braces</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tag</th>
+      <th>Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>prism.genre</code> = <code>blogentry</code></td>
+      <td>Secondary type hint (kept in case <code>zotero:itemType</code> is ever ignored).</td>
+    </tr>
+    <tr>
+      <td><code>dc.title</code> / <code>dc.creator</code> / <code>dc.date</code> / <code>dc.language</code></td>
+      <td>Dublin Core fallbacks for other reference tools.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="tags-to-avoid-for-a-blog-post">Tags to AVOID for a blog post</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tag</th>
+      <th>Problem</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>citation_journal_title</code></td>
+      <td><strong>Forces</strong> the <code>journalArticle</code> type.</td>
+    </tr>
+    <tr>
+      <td><code>citation_title</code></td>
+      <td>Makes the translator <strong>guess</strong> <code>journalArticle</code>. Supply the title via <code>og:title</code> / <code>dc.title</code> instead.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="notes">Notes</h2>
+
+<ul>
+  <li><code>og:site_name</code> stays clean (<code>eve.gd: Martin Paul Eve</code>, no markup) because it also drives social-card previews; the case-protected title rides in <code>prism.publicationName</code>, which Zotero reads first.</li>
+  <li><code>&lt;span class="nocase"&gt;…&lt;/span&gt;</code> is one of Zotero’s allowed rich-text tags, so it survives import; Zotero’s item pane may show the raw markup in the field even though citations render correctly.</li>
+  <li>After changing these tags, <strong>Reset Translators</strong> in Zotero (Preferences → Advanced) and test on the deployed page, since the connector caches translators.</li>
+</ul>
+
+<p>So this should now work!</p>
+
+<p>I must also add my thanks to Tom Elliott, whose <a href="https://paregorios.org/posts/2018/05/zotero_nikola_harmony/">own blog post on this subject</a> gave me the information I needed to get the Blog Post type working. It is a shame that he stopped posting on his blog in 2020. I hope all is OK with him, but there are lots of interesting digital humanities posts on his site, on eclectic topics.</p>
+
+                    
+                    <div class="featured-image">
+                        <div class="image-attribution">
+                            Image: <a href="https://www.zotero.org/" target="_blank">An image of the Zotero logo.</a> (Zotero)
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <!-- Post Sidebar -->
+                <aside class="post-sidebar">
+                    <div class="sidebar-widget sidebar-author">
+                        <img src="/images/mpe.png" alt="Martin Paul Eve" class="sidebar-author-avatar">
+                        <div class="sidebar-author-name">Martin Paul Eve</div>
+                        <div class="sidebar-author-title">Professor of Literature, Technology and Publishing</div>
+                    </div>
+
+                    <div class="sidebar-widget">
+                        <h3>Share This Post</h3>
+                        <div class="share-buttons">
+                            <a href="https://bsky.app/intent/compose?text=Making+blog+posts+harvestable+by+Zotero+and+preserving+case+in+citation+fields+https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/" class="share-btn share-bluesky" aria-label="Share on Bluesky" title="Share on Bluesky">
+                                <i class="fa-brands fa-square-bluesky" aria-hidden="true"></i>
+                            </a>
+                            <button type="button" class="share-btn share-mastodon" data-share-mastodon data-title="Making blog posts harvestable by Zotero and preserving case in citation fields" data-url="https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/" aria-label="Share on Mastodon" title="Share on Mastodon">
+                                <i class="fa-brands fa-mastodon" aria-hidden="true"></i>
+                            </button>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/" class="share-btn share-facebook" aria-label="Share on Facebook" title="Share on Facebook">
+                                <i class="fa-brands fa-square-facebook" aria-hidden="true"></i>
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <div class="sidebar-widget">
+                        <h3>Related Posts</h3>
+                        <ul class="related-posts">
+                            
+                            <li>
+                                <a href="/2026/06/27/2026-06-27-fair-and-square-making-a-static-site-support-fair-signposting/" title=""></a>
+                                <span class="related-date">27 June 2026</span>
+                            </li>
+                            
+                            <li>
+                                <a href="/2026/06/04/more-on-dual-licensing-of-digital-oa-books/" title="More on dual-licensing of digital OA books">More on dual-licensing of digital OA books</a>
+                                <span class="related-date">4 June 2026</span>
+                            </li>
+                            
+                            <li>
+                                <a href="/2026/06/03/what-is-actually-licensed-in-printdigital-dual-licensed-books/" title="What is actually licensed in print/digital dual-licensed books?">What is actually licensed in print/digital dual-licensed books?</a>
+                                <span class="related-date">3 June 2026</span>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </article>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+    <div class="footer-grid">
+        <div class="footer-section footer-about">
+            <h3>Martin Paul Eve</h3>
+            <p>Professor of Literature, Technology and Publishing at Birkbeck, University of London. Technical Lead of Knowledge Commons at MESH Research, Michigan State University.</p>
+            <div class="social-links">
+                <a href="https://bsky.app/profile/eve.gd" aria-label="Bluesky" class="social-icon">
+                    <i class="fa-brands fa-square-bluesky" aria-hidden="true"></i>
+                </a>
+                <a href="https://github.com/MartinPaulEve" aria-label="GitHub" class="social-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path>
+                    </svg>
+                </a>
+                <a aria-label="Wikipedia" class="social-icon" href="https://en.wikipedia.org/wiki/Martin_Paul_Eve"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i></a>
+            </div>
+            <div class="social-links row-two">
+                <a href="https://orcid.org/0000-0002-5589-8511" aria-label="ORCID" class="social-icon">
+                    <img src="/images/orcid.png" alt="ORCID ID">
+                </a>
+                <a href="/pictures/" aria-label="Pictures for Re-Use" class="social-icon">
+                    <i class="fas fa-fw fa-images" aria-hidden="true"></i>
+                </a>
+                <a href="https://works.hcommons.org/search?q=metadata.creators.person_or_org.name%3A%22Eve%2C%20Martin%20Paul%22&amp;l=list&amp;p=1&amp;s=10&amp;sort=bestmatch" class="social-icon">
+                    <i class="fa fa-fw fa-university" aria-hidden="true"></i>
+                </a>
+                <a href="http://eprints.bbk.ac.uk/view/people/Eve=3AMartin_Paul=3A=3A.html" class="social-icon"><i class="fa fa-fw fa-file-text" aria-hidden="true"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="/about/">About Me</a></li>
+                <li><a href="/c-v/Eve-CV.pdf">Curriculum Vitae</a></li>
+                <li><a href="/posts/">Web Writings</a></li>
+                <li><a href="/books/">Books</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h4>Contact</h4>
+            <ul>
+                <li><a href="mailto:martin@eve.gd">Personal Email</a></li>
+                <li><a href="mailto:martin.eve@bbk.ac.uk">Birkbeck, University of London</a></li>
+                <li><a href="mailto:eve@msu.edu">Michigan State University</a></li>
+                <li><a href="mailto:martin.paul_eve@kcl.ac.uk">King's College London</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2025 Martin Paul Eve. CC BY 4.0 License.</p>
+        <div class="footer-links">
+        </div>
+    </div>
+</div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script>
+    // Initialize syntax highlighting
+    document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightElement(block);
+    });
+</script>
+<script src="/assets/js/script.js"></script>
+</body>
+</html>
