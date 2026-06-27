@@ -10,7 +10,7 @@ image:
 archive: "https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2026/06/27/fair-and-square-making-a-static-site-support-fair-signposting"
 references:
   - type: TechArticle
-    url: https://signposting.org/FAIR/
+    url: "https://signposting.org/FAIR/"
     title: "FAIR Signposting"
     date: 2023-10-02
     author: ["Herbert Van de Sompel", "Martin Klein", "Shawn Jones", "Michael L. Nelson", "Simeon Warner", "Anusuriya Devaraju", "Robert Huber", "Wilko Steinhoff", "Vyacheslav Tykhonov", "Luc Boruta", "Enno Meijers", "Stian Soiland-Reyes", "Mark Wilkinson"
