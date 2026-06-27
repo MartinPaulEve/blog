@@ -96,6 +96,158 @@ module Signposting
       "<link #{attrs.join(' ')}>"
     end
   end
+
+  # --- DOI helpers ---------------------------------------------------------
+  #
+  # References given as a DOI (bare, or as a doi.org/dx.doi.org URL, or `doi:`)
+  # are resolved against the registration agency's CSL-JSON content negotiation
+  # and mapped to a schema.org citation node. The lookup/caching lives in the
+  # generator; the pure helpers below are unit-testable without network access.
+
+  DOI_PATTERN = %r{10\.\d{4,9}/[^\s"<>]+}
+
+  # Strip any resolver prefix (https://doi.org/, dx.doi.org, doi:) so a DOI has
+  # one canonical cache key regardless of how it was written.
+  def self.normalize_doi(text)
+    text.to_s.strip
+        .sub(%r{\Ahttps?://(dx\.)?doi\.org/}i, "")
+        .sub(%r{\Adoi:}i, "")
+  end
+
+  # True when the (possibly prefixed) string is a DOI.
+  def self.doi?(text)
+    normalize_doi(text).match?(/\A#{DOI_PATTERN}\z/)
+  end
+
+  # CSL-JSON `type` -> schema.org @type for the work itself.
+  CSL_SCHEMA_TYPE = {
+    "journal-article"     => "ScholarlyArticle",
+    "article-journal"     => "ScholarlyArticle",
+    "article"             => "Article",
+    "proceedings-article" => "ScholarlyArticle",
+    "paper-conference"    => "ScholarlyArticle",
+    "posted-content"      => "ScholarlyArticle",
+    "book"                => "Book",
+    "monograph"           => "Book",
+    "reference-book"      => "Book",
+    "edited-book"         => "Book",
+    "book-chapter"        => "Chapter",
+    "chapter"             => "Chapter",
+    "dataset"             => "Dataset",
+    "report"              => "Report",
+    "thesis"              => "Thesis",
+    "dissertation"        => "Thesis",
+    "webpage"             => "WebPage",
+    "post-weblog"         => "BlogPosting",
+  }.freeze
+
+  def self.csl_schema_type(csl_type)
+    CSL_SCHEMA_TYPE[csl_type] || "CreativeWork"
+  end
+
+  # Map a CSL-JSON metadata hash to a schema.org citation node.
+  def self.csl_to_citation(csl, doi = nil)
+    doi = normalize_doi(doi || csl["DOI"])
+    node = { "@type" => csl_schema_type(csl["type"]) }
+    node["@id"] = "https://doi.org/#{doi}" unless doi.empty?
+    if (name = Array(csl["title"]).first) && !name.to_s.empty?
+      node["name"] = name
+    end
+    node["url"] = "https://doi.org/#{doi}" unless doi.empty?
+    if (authors = csl_authors(csl["author"]))
+      node["author"] = authors
+    end
+    if (date = csl_date(csl["issued"] || csl["published"]))
+      node["datePublished"] = date
+    end
+    node["inLanguage"] = csl["language"] if csl["language"]
+    if (publisher = csl["publisher"]) && !publisher.to_s.empty?
+      node["publisher"] = { "@type" => "Organization", "name" => publisher }
+    end
+    if (container = Array(csl["container-title"]).first) && !container.to_s.empty?
+      node["isPartOf"] = { "@type" => csl_container_type(csl["type"]), "name" => container }
+    end
+    node
+  end
+
+  def self.csl_container_type(csl_type)
+    case csl_type
+    when "book-chapter", "chapter" then "Book"
+    when "dataset" then "DataCatalog"
+    else "Periodical"
+    end
+  end
+
+  # CSL `issued` date-parts -> an ISO date string of the available precision.
+  def self.csl_date(issued)
+    parts = issued && issued["date-parts"] && issued["date-parts"].first
+    return nil unless parts && parts.first
+
+    year, month, day = parts
+    out = format("%04d", year.to_i)
+    out += format("-%02d", month.to_i) if month
+    out += format("-%02d", day.to_i) if month && day
+    out
+  end
+
+  # CSL authors -> one schema.org Person, or a list when there are several.
+  def self.csl_authors(authors)
+    nodes = Array(authors).map { |a| csl_person(a) }.compact
+    return nil if nodes.empty?
+
+    nodes.length == 1 ? nodes.first : nodes
+  end
+
+  def self.csl_person(author)
+    name = author["literal"] || [author["given"], author["family"]].compact.join(" ").strip
+    return nil if name.empty?
+
+    node = { "@type" => "Person", "name" => name }
+    if (orcid = author["ORCID"])
+      node["@id"] = orcid
+      node["identifier"] = orcid
+    end
+    if (affiliation = Array(author["affiliation"]).first) && affiliation["name"]
+      node["affiliation"] = { "@type" => "Organization", "name" => affiliation["name"] }
+    end
+    node
+  end
+
+  CSL_ACCEPT = "application/vnd.citationstyles.csl+json".freeze
+  USER_AGENT = "eve.gd-signposting (https://eve.gd; mailto:martin@eve.gd)".freeze
+
+  # Fetch CSL-JSON for a DOI via doi.org content negotiation (works for both
+  # Crossref- and DataCite-registered DOIs). Follows redirects to the agency.
+  # Returns a parsed hash, or nil on any failure -- a missing reference must
+  # never break the build.
+  def self.fetch_doi_csl(doi, limit = 6)
+    require "net/http"
+    require "uri"
+
+    uri = URI("https://doi.org/#{normalize_doi(doi)}")
+    limit.times do
+      req = Net::HTTP::Get.new(uri)
+      req["Accept"] = CSL_ACCEPT
+      req["User-Agent"] = USER_AGENT
+      res = Net::HTTP.start(uri.hostname, uri.port, use_ssl: uri.scheme == "https") do |http|
+        http.open_timeout = 15
+        http.read_timeout = 30
+        http.request(req)
+      end
+
+      case res
+      when Net::HTTPSuccess
+        return JSON.parse(res.body)
+      when Net::HTTPRedirection
+        uri = URI(res["location"])
+      else
+        return nil
+      end
+    end
+    nil
+  rescue StandardError, Timeout::Error
+    nil
+  end
 end
 
 require "json"
@@ -117,10 +269,20 @@ module Jekyll
     DESCRIBEDBY_FILE = "metadata.json".freeze
     DESCRIBEDBY_TYPE = "application/ld+json".freeze
     SCHEMA_PROFILE   = "https://schema.org/".freeze
+    DOI_CACHE_FILE   = ".doi_cache.json".freeze
+
+    # Injectable so tests resolve DOIs without network access; defaults to live
+    # doi.org content negotiation.
+    attr_writer :doi_fetcher
+
+    def doi_fetcher
+      @doi_fetcher ||= ->(doi) { Signposting.fetch_doi_csl(doi) }
+    end
 
     def generate(site)
       @site = site
       base_url = site.config["url"].to_s
+      @doi_cache = DoiCache.new(doi_cache_path, doi_fetcher)
 
       (site.posts.docs + site.pages).each do |doc|
         next unless html_output?(doc)
@@ -151,9 +313,19 @@ module Jekyll
                                           json_file: DESCRIBEDBY_FILE))
         end
       end
+
+      @doi_cache.flush
     end
 
     private
+
+    # Where the persistent DOI metadata cache lives (in the source tree, so it
+    # is committed and re-used across builds); nil when there is no source.
+    def doi_cache_path
+      return nil unless @site.respond_to?(:source) && @site.source
+
+      File.join(@site.source, @site.config["doi_cache"] || DOI_CACHE_FILE)
+    end
 
     # Emit the apex (root) signposting: write metadata.json at the site root and
     # append the Link-header directives to the existing redirects .htaccess,
@@ -266,6 +438,9 @@ module Jekyll
 
     def citation_node(entry)
       if entry.is_a?(Hash)
+        if (doi = mapping_doi(entry))
+          return doi_citation(doi, entry)
+        end
         if (doc = internal_doc(entry["url"], entry["type"]))
           return deduced_citation(doc, entry)
         end
@@ -275,17 +450,41 @@ module Jekyll
       text = entry.to_s.strip
       return nil if text.empty?
 
-      # A bare internal URL (absolute or site-relative) resolves to the site's
-      # own document; otherwise every reference is modelled as a proper
-      # schema.org CreativeWork: an external URL is a dereferenceable node, free
-      # text becomes its `name`.
-      if (doc = internal_doc(text))
+      # A DOI (bare or as a doi.org URL) is fetched and modelled from its
+      # registration metadata; a bare internal URL resolves to the site's own
+      # document; otherwise every reference is a proper schema.org CreativeWork:
+      # an external URL is a dereferenceable node, free text becomes its `name`.
+      if Signposting.doi?(text)
+        doi_citation(text, {})
+      elsif (doc = internal_doc(text))
         deduced_citation(doc, {})
       elsif url?(text)
         { "@type" => "CreativeWork", "@id" => text, "url" => text }
       else
         { "@type" => "CreativeWork", "name" => text }
       end
+    end
+
+    # A mapping is auto-resolved only when it carries an explicit `doi:` key;
+    # a hand-written mapping that merely links to doi.org keeps its own metadata.
+    def mapping_doi(entry)
+      entry["doi"]
+    end
+
+    # Resolve a DOI to a citation node via the cache (fetching once on a miss),
+    # then apply any explicitly-given reference keys on top. A DOI that cannot
+    # be resolved still yields a minimal, dereferenceable node.
+    def doi_citation(doi_text, overrides)
+      doi = Signposting.normalize_doi(doi_text)
+      csl = @doi_cache.csl(doi)
+      node = if csl
+               Signposting.csl_to_citation(csl, doi)
+             else
+               { "@type" => "CreativeWork",
+                 "@id" => "https://doi.org/#{doi}",
+                 "url" => "https://doi.org/#{doi}" }
+             end
+      apply_reference_overrides(node, overrides)
     end
 
     INTERNAL_MARKERS = %w[internal self].freeze
@@ -473,6 +672,46 @@ module Jekyll
 
     def write(_dest)
       true
+    end
+  end
+
+  # A persistent, on-disk cache of DOI CSL-JSON metadata so each DOI is fetched
+  # at most once. Successful lookups are stored; failures are not cached, so a
+  # transient network error is retried on the next build rather than poisoning
+  # the cache.
+  class DoiCache
+    def initialize(path, fetcher)
+      @path = path
+      @fetcher = fetcher
+      @store = load_store
+      @dirty = false
+    end
+
+    def csl(doi)
+      return @store[doi] if @store.key?(doi)
+
+      data = @fetcher.call(doi)
+      if data
+        @store[doi] = data
+        @dirty = true
+      end
+      data
+    end
+
+    def flush
+      return unless @path && @dirty
+
+      File.write(@path, JSON.pretty_generate(@store) + "\n")
+    end
+
+    private
+
+    def load_store
+      return {} unless @path && File.exist?(@path)
+
+      JSON.parse(File.read(@path))
+    rescue JSON::ParserError
+      {}
     end
   end
 end

@@ -109,4 +109,96 @@ class TestSignposting < Minitest::Test
     assert_includes joined, '<link rel="cite-as" href="https://doi.org/10.59348/vrt01-f3b49">'
     assert_includes joined, '<link rel="describedby" href="https://eve.gd/p/metadata.json" type="application/ld+json">'
   end
+
+  # --- DOI detection / normalisation ---------------------------------------
+
+  def test_normalize_doi_strips_resolver_prefixes
+    assert_equal "10.31274/jlsc.16288", Signposting.normalize_doi("10.31274/jlsc.16288")
+    assert_equal "10.31274/jlsc.16288", Signposting.normalize_doi("https://doi.org/10.31274/jlsc.16288")
+    assert_equal "10.31274/jlsc.16288", Signposting.normalize_doi("http://dx.doi.org/10.31274/jlsc.16288")
+    assert_equal "10.31274/jlsc.16288", Signposting.normalize_doi("doi:10.31274/jlsc.16288")
+  end
+
+  def test_doi_predicate
+    assert Signposting.doi?("10.31274/jlsc.16288")
+    assert Signposting.doi?("https://doi.org/10.31274/jlsc.16288")
+    refute Signposting.doi?("https://paregorios.org/posts/2018/05/zotero_nikola_harmony/")
+    refute Signposting.doi?("just some text")
+  end
+
+  # --- CSL-JSON -> schema.org citation --------------------------------------
+
+  def jlsc_csl
+    {
+      "type" => "journal-article",
+      "title" => "Digital Scholarly Journals Are Poorly Preserved: A Study of 7 Million Articles",
+      "container-title" => "Journal of Librarianship and Scholarly Communication",
+      "publisher" => "Iowa State University",
+      "DOI" => "10.31274/jlsc.16288",
+      "issued" => { "date-parts" => [[2024, 1, 24]] },
+      "author" => [{ "given" => "Martin Paul", "family" => "Eve",
+                     "affiliation" => [{ "name" => "Birkbeck, University of London" }] }],
+    }
+  end
+
+  def test_csl_journal_article_maps_to_scholarly_article
+    node = Signposting.csl_to_citation(jlsc_csl)
+    assert_equal "ScholarlyArticle", node["@type"]
+    assert_equal "https://doi.org/10.31274/jlsc.16288", node["@id"]
+    assert_equal "Digital Scholarly Journals Are Poorly Preserved: A Study of 7 Million Articles", node["name"]
+    assert_equal "2024-01-24", node["datePublished"]
+    assert_equal "Iowa State University", node["publisher"]["name"]
+    assert_equal "Periodical", node["isPartOf"]["@type"]
+    assert_equal "Journal of Librarianship and Scholarly Communication", node["isPartOf"]["name"]
+    assert_equal "Martin Paul Eve", node["author"]["name"]
+    assert_equal "Birkbeck, University of London", node["author"]["affiliation"]["name"]
+  end
+
+  def test_csl_book_maps_to_book
+    node = Signposting.csl_to_citation({ "type" => "book", "title" => "A Book",
+                                         "DOI" => "10.5555/book" })
+    assert_equal "Book", node["@type"]
+  end
+
+  def test_csl_chapter_is_part_of_a_book
+    node = Signposting.csl_to_citation({ "type" => "book-chapter", "title" => "A Chapter",
+                                         "container-title" => "The Whole Book", "DOI" => "10.5555/ch" })
+    assert_equal "Chapter", node["@type"]
+    assert_equal "Book", node["isPartOf"]["@type"]
+    assert_equal "The Whole Book", node["isPartOf"]["name"]
+  end
+
+  def test_csl_dataset_maps_to_dataset
+    node = Signposting.csl_to_citation({ "type" => "dataset", "title" => "Some Data",
+                                         "DOI" => "10.5555/data" })
+    assert_equal "Dataset", node["@type"]
+  end
+
+  def test_csl_unknown_type_falls_back_to_creativework
+    node = Signposting.csl_to_citation({ "type" => "weird-thing", "title" => "X", "DOI" => "10.5555/x" })
+    assert_equal "CreativeWork", node["@type"]
+  end
+
+  def test_csl_author_orcid_becomes_identifier
+    csl = { "type" => "journal-article", "title" => "X", "DOI" => "10.5555/x",
+            "author" => [{ "given" => "Ada", "family" => "Lovelace",
+                           "ORCID" => "https://orcid.org/0000-0000-0000-0001" }] }
+    author = Signposting.csl_to_citation(csl)["author"]
+    assert_equal "https://orcid.org/0000-0000-0000-0001", author["identifier"]
+  end
+
+  def test_csl_multiple_authors_become_a_list
+    csl = { "type" => "journal-article", "title" => "X", "DOI" => "10.5555/x",
+            "author" => [{ "given" => "A", "family" => "One" },
+                         { "given" => "B", "family" => "Two" }] }
+    authors = Signposting.csl_to_citation(csl)["author"]
+    assert_equal 2, authors.length
+    assert_equal "A One", authors[0]["name"]
+  end
+
+  def test_csl_year_only_date
+    node = Signposting.csl_to_citation({ "type" => "book", "title" => "X", "DOI" => "10.5555/x",
+                                         "issued" => { "date-parts" => [[1999]] } })
+    assert_equal "1999", node["datePublished"]
+  end
 end

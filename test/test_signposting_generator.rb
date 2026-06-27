@@ -68,10 +68,12 @@ class TestSignpostingGenerator < Minitest::Test
     FileUtils.remove_entry(@dir)
   end
 
-  def run_generator(posts: [], pages: [], source: nil, static_files: [])
+  def run_generator(posts: [], pages: [], source: nil, static_files: [], doi_fetcher: nil)
     site = FakeSite.new(dest: @dir, posts: posts, pages: pages,
                         source: source, static_files: static_files)
-    Jekyll::SignpostingGenerator.new.generate(site)
+    gen = Jekyll::SignpostingGenerator.new
+    gen.doi_fetcher = doi_fetcher if doi_fetcher
+    gen.generate(site)
     site
   end
 
@@ -133,7 +135,9 @@ class TestSignpostingGenerator < Minitest::Test
   end
 
   def citation_for(refs)
-    run_generator(posts: [referencing_post(refs)])
+    # These cases must never reach the network; a fetch here is a test bug.
+    no_fetch = ->(doi) { raise "unexpected DOI fetch: #{doi}" }
+    run_generator(posts: [referencing_post(refs)], doi_fetcher: no_fetch)
     json = JSON.parse(
       File.read(File.join(@dir, "2026/06/23/making-blog-harvestable", "metadata.json"))
     )
@@ -188,13 +192,6 @@ class TestSignpostingGenerator < Minitest::Test
     assert_equal "Blog", node["isPartOf"]["@type"]
     assert_equal "paregorios.org", node["isPartOf"]["name"]
     assert_equal "https://paregorios.org/", node["isPartOf"]["url"]
-  end
-
-  def test_doi_reference_prefers_doi_as_id
-    node = citation_for([{ "title" => "X", "url" => "https://eg.org/x",
-                           "doi" => "https://doi.org/10.5555/x" }]).first
-    assert_equal "https://doi.org/10.5555/x", node["@id"]
-    assert_equal "https://eg.org/x", node["url"]
   end
 
   def test_multiple_authors_become_a_list
@@ -284,6 +281,97 @@ class TestSignpostingGenerator < Minitest::Test
     node = internal_citation(["https://paregorios.org/posts/2018/05/zotero_nikola_harmony/"])
     assert_equal "CreativeWork", node["@type"]
     assert_equal "https://paregorios.org/posts/2018/05/zotero_nikola_harmony/", node["@id"]
+  end
+
+  # --- DOI references (fetched + cached) -----------------------------------
+
+  JLSC_CSL = {
+    "type" => "journal-article",
+    "title" => "Digital Scholarly Journals Are Poorly Preserved: A Study of 7 Million Articles",
+    "container-title" => "Journal of Librarianship and Scholarly Communication",
+    "publisher" => "Iowa State University",
+    "DOI" => "10.31274/jlsc.16288",
+    "issued" => { "date-parts" => [[2024, 1, 24]] },
+    "author" => [{ "given" => "Martin Paul", "family" => "Eve" }],
+  }.freeze
+
+  # A fetcher that records the DOIs it was asked for and returns canned CSL.
+  def counting_fetcher(csl = JLSC_CSL)
+    calls = []
+    fetcher = ->(doi) { calls << doi; csl }
+    [fetcher, calls]
+  end
+
+  def doi_citation(refs, fetcher)
+    run_generator(posts: [referencing_post(refs)], doi_fetcher: fetcher)
+    json = JSON.parse(File.read(File.join(@dir, "2026/06/23/making-blog-harvestable", "metadata.json")))
+    json["citation"].first
+  end
+
+  def test_bare_doi_reference_is_fetched_and_modelled
+    fetcher, calls = counting_fetcher
+    node = doi_citation(["10.31274/jlsc.16288"], fetcher)
+    assert_equal ["10.31274/jlsc.16288"], calls
+    assert_equal "ScholarlyArticle", node["@type"]
+    assert_equal "https://doi.org/10.31274/jlsc.16288", node["@id"]
+    assert_equal "Martin Paul Eve", node["author"]["name"]
+    assert_equal "2024-01-24", node["datePublished"]
+  end
+
+  def test_doi_org_url_reference_normalises_to_same_key
+    fetcher, calls = counting_fetcher
+    node = doi_citation(["https://doi.org/10.31274/jlsc.16288"], fetcher)
+    assert_equal ["10.31274/jlsc.16288"], calls
+    assert_equal "ScholarlyArticle", node["@type"]
+  end
+
+  def test_same_doi_is_fetched_only_once_within_a_build
+    fetcher, calls = counting_fetcher
+    run_generator(
+      posts: [referencing_post(["10.31274/jlsc.16288",
+                                "https://doi.org/10.31274/jlsc.16288"])],
+      doi_fetcher: fetcher,
+    )
+    assert_equal 1, calls.length, "the DOI should be fetched once and reused"
+  end
+
+  def test_doi_metadata_is_cached_to_disk_and_reused_across_builds
+    src = Dir.mktmpdir
+    begin
+      fetcher, calls = counting_fetcher
+      run_generator(posts: [referencing_post(["10.31274/jlsc.16288"])],
+                    source: src, doi_fetcher: fetcher)
+      assert_equal 1, calls.length
+      assert File.exist?(File.join(src, ".doi_cache.json")), "cache file should be written"
+
+      # A second build with a fetcher that explodes must still resolve the DOI
+      # from the on-disk cache.
+      boom = ->(_doi) { raise "must not fetch -- should be cached" }
+      node = doi_citation_in(src, ["10.31274/jlsc.16288"], boom)
+      assert_equal "ScholarlyArticle", node["@type"]
+    ensure
+      FileUtils.remove_entry(src)
+    end
+  end
+
+  def doi_citation_in(src, refs, fetcher)
+    run_generator(posts: [referencing_post(refs)], source: src, doi_fetcher: fetcher)
+    json = JSON.parse(File.read(File.join(@dir, "2026/06/23/making-blog-harvestable", "metadata.json")))
+    json["citation"].first
+  end
+
+  def test_doi_mapping_allows_field_override
+    fetcher, = counting_fetcher
+    node = doi_citation([{ "doi" => "10.31274/jlsc.16288", "title" => "Short title" }], fetcher)
+    assert_equal "Short title", node["name"]            # overridden
+    assert_equal "ScholarlyArticle", node["@type"]      # still from CSL
+  end
+
+  def test_unresolved_doi_falls_back_to_dereferenceable_node
+    boom = ->(_doi) { nil }
+    node = doi_citation(["10.31274/jlsc.16288"], boom)
+    assert_equal "CreativeWork", node["@type"]
+    assert_equal "https://doi.org/10.31274/jlsc.16288", node["@id"]
   end
 
   def test_post_without_references_omits_citation_key
