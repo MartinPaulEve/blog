@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://eve.gd/feed/feed.atom" rel="self" type="application/atom+xml" /><link href="https://eve.gd/" rel="alternate" type="text/html" /><updated>2026-06-27T10:22:44+01:00</updated><id>https://eve.gd/feed/feed.atom</id><title type="html">Martin Paul Eve</title><entry><title type="html">FAIR and Square: making a static site support FAIR signposting</title><link href="https://eve.gd/2026/06/27/fair-and-square-making-a-static-site-support-fair-signposting/" rel="alternate" type="text/html" title="FAIR and Square: making a static site support FAIR signposting" /><published>2026-06-27T00:00:00+01:00</published><updated>2026-06-27T00:00:00+01:00</updated><id>https://doi.org/10.59348/2zdfp-egq38</id><content type="html" xml:base="https://eve.gd/2026/06/27/fair-and-square-making-a-static-site-support-fair-signposting/"><![CDATA[<p>After my <a href="/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/">previous post about Zotero ingest</a>, I wondered what else I might be able to do to make this scholarly (and personal) blog more accessible, navigable, harvestable, and ingestable. One thing that occurred to me, that I had not implemented, is that I might make this blog <code>FAIR</code>. That is: <a href="https://www.go-fair.org/fair-principles/">Findable, Accessible, Interoperable, and Reusable</a>.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://eve.gd/feed/feed.atom" rel="self" type="application/atom+xml" /><link href="https://eve.gd/" rel="alternate" type="text/html" /><updated>2026-06-27T10:41:42+01:00</updated><id>https://eve.gd/feed/feed.atom</id><title type="html">Martin Paul Eve</title><entry><title type="html">FAIR and Square: making a static site support FAIR signposting</title><link href="https://eve.gd/2026/06/27/fair-and-square-making-a-static-site-support-fair-signposting/" rel="alternate" type="text/html" title="FAIR and Square: making a static site support FAIR signposting" /><published>2026-06-27T00:00:00+01:00</published><updated>2026-06-27T00:00:00+01:00</updated><id>https://doi.org/10.59348/2zdfp-egq38</id><content type="html" xml:base="https://eve.gd/2026/06/27/fair-and-square-making-a-static-site-support-fair-signposting/"><![CDATA[<p>After my <a href="/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/">previous post about Zotero ingest</a>, I wondered what else I might be able to do to make this scholarly (and personal) blog more accessible, navigable, harvestable, and ingestable. One thing that occurred to me, that I had not implemented, is that I might make this blog <code>FAIR</code>. That is: <a href="https://www.go-fair.org/fair-principles/">Findable, Accessible, Interoperable, and Reusable</a>.</p>
 
 <p>One of the ways one can work towards this is by implementing the <a href="https://signposting.org/FAIR/">FAIR Signposting Profile</a>. This is a series of in-document metadata elements, but also a linkset in the HTTP header returned by the blog. I am hosting with <a href="https://www.reclaimhosting.com/">Reclaim Hosting</a>, who are using an Apache webserver to serve my static files. Normally I would curse this. Who’s running Apache in this day and age? We have many more sophisticated technologies for serving websites. Even nginx would have been better, I would exclaim.</p>
 
@@ -51,9 +51,57 @@ date: Sat, 27 Jun 2026 09:00:06 GMT</p>
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2026-06-23",
-  "identifier": "https://doi.org/10.59348/vrt01-f3b49"
+  "identifier": "https://doi.org/10.59348/vrt01-f3b49",
+  "citation": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://paregorios.org/posts/2018/05/zotero_nikola_harmony/",
+      "name": "Zotero-Nikola Harmony (One Simple Trick)",
+      "url": "https://paregorios.org/posts/2018/05/zotero_nikola_harmony/",
+      "datePublished": "2018-05-08",
+      "inLanguage": "en",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "author": {
+        "@type": "Person",
+        "name": "Tom Elliott",
+        "@id": "https://orcid.org/0000-0002-4114-6677",
+        "identifier": "https://orcid.org/0000-0002-4114-6677"
+      },
+      "isPartOf": {
+        "@type": "Blog",
+        "name": "paregorios.org",
+        "url": "https://paregorios.org/"
+      }
+    }
+  ]
 }
-</code></pre>]]></content><author><name>Martin Paul Eve</name></author><summary type="html"><![CDATA[After my previous post about Zotero ingest, I wondered what else I might be able to do to make this scholarly (and personal) blog more accessible, navigable, harvestable, and ingestable. One thing that occurred to me, that I had not implemented, is that I might make this blog FAIR. That is: Findable, Accessible, Interoperable, and Reusable.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://eve.gd/images/gavel.jpg" /><media:content medium="image" url="https://eve.gd/images/gavel.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Making blog posts harvestable by Zotero and preserving case in citation fields</title><link href="https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/" rel="alternate" type="text/html" title="Making blog posts harvestable by Zotero and preserving case in citation fields" /><published>2026-06-23T00:00:00+01:00</published><updated>2026-06-23T00:00:00+01:00</updated><id>https://doi.org/10.59348/vrt01-f3b49</id><content type="html" xml:base="https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/"><![CDATA[<p>This is a quick “how-to” post because I learned something about Zotero. I want the posts on this site to be easily citeable. The name of the site that I would like in citations is “eve.gd: Martin Paul Eve”. But here’s the problem: when you put that as a Blog Title (or Website Title) and then go to cite it in a document, the CSL reformats it to the ugly “Eve.Gd: Martin Paul Eve”. Anyway, I found how to fix this! You simply encode it thus:</p>
+</code></pre>
+
+<p>There’s descriptive metadata here, including license information, but also, cooly, we have citation information for pages that I cite. I have to enter these citation details manually, but it’s good to be contributing to that ole citation network! To generate this, I add:</p>
+
+<pre><code class="language-yaml">	references:
+  	- type: BlogPosting
+    	title: "Zotero-Nikola Harmony (One Simple Trick)"
+    	url: "https://paregorios.org/posts/2018/05/zotero_nikola_harmony/"
+    	author:
+      	name: Tom Elliott
+      	orcid: "https://orcid.org/0000-0002-4114-6677"
+    	date: 2018-05-08
+    	language: en
+    	license: "https://creativecommons.org/licenses/by/4.0/"
+    	isPartOf:
+      	type: Blog
+      	name: paregorios.org
+      	url: "https://paregorios.org/"
+</code></pre>
+
+<p>If you want, then, to verify that it’s working, there’s quite a good tool called <a href="https://chromewebstore.google.com/detail/signposting-sniffing/pahanegeimljfcnjogglnamnlcgipmbc">Signposting Sniffing</a>, that plugs-into the Chrome browser and will show you whether your FAIR Signposts are working correctly. Here’s my result so far and what it looks like:</p>
+
+<p><img src="/images/fair.jpg" width="100%" alt="A wide golden-yellow notification panel with six lines of dark brown text and orange-red hyperlinks, each followed by a small copy-to-clipboard icon. A small blue circular arrow icon appears at the left of the third line. The text reads: &quot;Signposting.org metadata: this page is authored by https://orcid.org/0000-0002-5589-8511. Signposting.org metadata: this page should be cited as https://doi.org/10.59348/vrl01-53h49. Signposting.org metadata: this page is of the type described at https://schema.org/BlogPosting. Signposting.org metadata: this page is of the type described at https://schema.org/AboutPage. Signposting.org metadata: this page is licensed according to https://creativecommons.org/licenses/by/4.0/. Signposting.org metadata: this page is described by https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/metadata.json (application/ld+json) with a profile at https://schema.org/.&quot;" /></p>
+
+<p>I will continue to improve the infrastructure of my blog in this way; it adds credence to the site, as well as helping with <a href="/2026/04/19/the-necessary-pain-involved-in-blogging-if-you-want-your-work-to-be-preserved-beyond-your-lifespan/">the preservation effort I detailed before</a>.</p>
+
+<p>Finally, in <a href="https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/">the Zotero post</a>, I made reference to Tom Elliott’s blog being defunct. Which it does seem to be. But he continues to have an online presence, on <a href="https://hcommons.social/@paregorios">Mastodon</a>, <a href="https://bsky.app/profile/paregorios.bsky.social">Bluesky</a>, and the <a href="https://pleiades.stoa.org/">web itself</a>. We had a nice brief correspondence on Bluesky.</p>]]></content><author><name>Martin Paul Eve</name></author><summary type="html"><![CDATA[After my previous post about Zotero ingest, I wondered what else I might be able to do to make this scholarly (and personal) blog more accessible, navigable, harvestable, and ingestable. One thing that occurred to me, that I had not implemented, is that I might make this blog FAIR. That is: Findable, Accessible, Interoperable, and Reusable.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://eve.gd/images/gavel.jpg" /><media:content medium="image" url="https://eve.gd/images/gavel.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Making blog posts harvestable by Zotero and preserving case in citation fields</title><link href="https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/" rel="alternate" type="text/html" title="Making blog posts harvestable by Zotero and preserving case in citation fields" /><published>2026-06-23T00:00:00+01:00</published><updated>2026-06-23T00:00:00+01:00</updated><id>https://doi.org/10.59348/vrt01-f3b49</id><content type="html" xml:base="https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/"><![CDATA[<p>This is a quick “how-to” post because I learned something about Zotero. I want the posts on this site to be easily citeable. The name of the site that I would like in citations is “eve.gd: Martin Paul Eve”. But here’s the problem: when you put that as a Blog Title (or Website Title) and then go to cite it in a document, the CSL reformats it to the ugly “Eve.Gd: Martin Paul Eve”. Anyway, I found how to fix this! You simply encode it thus:</p>
 
 <pre><code>&lt;span class="nocase"&gt;eve.gd&lt;/span&gt;: Martin Paul Eve 
 </code></pre>

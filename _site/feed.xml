@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="https://eve.gd/feed.xml" />
 <link rel="alternate" type="text/html" href="https://eve.gd" />
-<updated>2026-06-27T10:17:14+01:00</updated>
+<updated>2026-06-27T10:41:42+01:00</updated>
 <id>https://eve.gd/</id>
 <author>
   <name>Martin Paul Eve</name>
@@ -14,12 +14,14 @@
 
 
 <entry>
-  <title type="html"><![CDATA[]]></title>
-  <link rel="alternate" type="text/html" href="https://eve.gd/2026/06/27/2026-06-27-fair-and-square-making-a-static-site-support-fair-signposting/" />
-  <id>https://eve.gd/2026/06/27/2026-06-27-fair-and-square-making-a-static-site-support-fair-signposting</id>
+  <title type="html"><![CDATA[FAIR and Square: making a static site support FAIR signposting]]></title>
+  <link rel="alternate" type="text/html" href="https://eve.gd/2026/06/27/fair-and-square-making-a-static-site-support-fair-signposting/" />
+  <id>https://eve.gd/2026/06/27/fair-and-square-making-a-static-site-support-fair-signposting</id>
+  
+  <doi>https://doi.org/10.59348/2zdfp-egq38</doi>
   
   <published>Saturday, 27 June 2026 15:55:58 +0000</published>
-  <updated>2026-06-27T10:17:14+01:00</updated>
+  <updated>2026-06-27T00:00:00+01:00</updated>
   <author>
     <name></name>
     <uri>https://orcid.org/0000-0002-5589-8511</uri>
@@ -79,23 +81,73 @@ date: Sat, 27 Jun 2026 09:00:06 GMT&lt;/p&gt;
     &quot;identifier&quot;: &quot;https://orcid.org/0000-0002-5589-8511&quot;
   },
   &quot;datePublished&quot;: &quot;2026-06-23&quot;,
-  &quot;identifier&quot;: &quot;https://doi.org/10.59348/vrt01-f3b49&quot;
+  &quot;identifier&quot;: &quot;https://doi.org/10.59348/vrt01-f3b49&quot;,
+  &quot;citation&quot;: [
+    {
+      &quot;@type&quot;: &quot;BlogPosting&quot;,
+      &quot;@id&quot;: &quot;https://paregorios.org/posts/2018/05/zotero_nikola_harmony/&quot;,
+      &quot;name&quot;: &quot;Zotero-Nikola Harmony (One Simple Trick)&quot;,
+      &quot;url&quot;: &quot;https://paregorios.org/posts/2018/05/zotero_nikola_harmony/&quot;,
+      &quot;datePublished&quot;: &quot;2018-05-08&quot;,
+      &quot;inLanguage&quot;: &quot;en&quot;,
+      &quot;license&quot;: &quot;https://creativecommons.org/licenses/by/4.0/&quot;,
+      &quot;author&quot;: {
+        &quot;@type&quot;: &quot;Person&quot;,
+        &quot;name&quot;: &quot;Tom Elliott&quot;,
+        &quot;@id&quot;: &quot;https://orcid.org/0000-0002-4114-6677&quot;,
+        &quot;identifier&quot;: &quot;https://orcid.org/0000-0002-4114-6677&quot;
+      },
+      &quot;isPartOf&quot;: {
+        &quot;@type&quot;: &quot;Blog&quot;,
+        &quot;name&quot;: &quot;paregorios.org&quot;,
+        &quot;url&quot;: &quot;https://paregorios.org/&quot;
+      }
+    }
+  ]
 }
 &lt;/code&gt;&lt;/pre&gt;
 
+&lt;p&gt;There’s descriptive metadata here, including license information, but also, cooly, we have citation information for pages that I cite. I have to enter these citation details manually, but it’s good to be contributing to that ole citation network! To generate this, I add:&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/06/27/2026-06-27-fair-and-square-making-a-static-site-support-fair-signposting/&quot;&gt;&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on June 27, 2026.&lt;/p&gt;]]>
+&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;	references:
+  	- type: BlogPosting
+    	title: &quot;Zotero-Nikola Harmony (One Simple Trick)&quot;
+    	url: &quot;https://paregorios.org/posts/2018/05/zotero_nikola_harmony/&quot;
+    	author:
+      	name: Tom Elliott
+      	orcid: &quot;https://orcid.org/0000-0002-4114-6677&quot;
+    	date: 2018-05-08
+    	language: en
+    	license: &quot;https://creativecommons.org/licenses/by/4.0/&quot;
+    	isPartOf:
+      	type: Blog
+      	name: paregorios.org
+      	url: &quot;https://paregorios.org/&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you want, then, to verify that it’s working, there’s quite a good tool called &lt;a href=&quot;https://chromewebstore.google.com/detail/signposting-sniffing/pahanegeimljfcnjogglnamnlcgipmbc&quot;&gt;Signposting Sniffing&lt;/a&gt;, that plugs-into the Chrome browser and will show you whether your FAIR Signposts are working correctly. Here’s my result so far and what it looks like:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/fair.jpg&quot; width=&quot;100%&quot; alt=&quot;A wide golden-yellow notification panel with six lines of dark brown text and orange-red hyperlinks, each followed by a small copy-to-clipboard icon. A small blue circular arrow icon appears at the left of the third line. The text reads: &amp;quot;Signposting.org metadata: this page is authored by https://orcid.org/0000-0002-5589-8511. Signposting.org metadata: this page should be cited as https://doi.org/10.59348/vrl01-53h49. Signposting.org metadata: this page is of the type described at https://schema.org/BlogPosting. Signposting.org metadata: this page is of the type described at https://schema.org/AboutPage. Signposting.org metadata: this page is licensed according to https://creativecommons.org/licenses/by/4.0/. Signposting.org metadata: this page is described by https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/metadata.json (application/ld+json) with a profile at https://schema.org/.&amp;quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I will continue to improve the infrastructure of my blog in this way; it adds credence to the site, as well as helping with &lt;a href=&quot;/2026/04/19/the-necessary-pain-involved-in-blogging-if-you-want-your-work-to-be-preserved-beyond-your-lifespan/&quot;&gt;the preservation effort I detailed before&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Finally, in &lt;a href=&quot;https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/&quot;&gt;the Zotero post&lt;/a&gt;, I made reference to Tom Elliott’s blog being defunct. Which it does seem to be. But he continues to have an online presence, on &lt;a href=&quot;https://hcommons.social/@paregorios&quot;&gt;Mastodon&lt;/a&gt;, &lt;a href=&quot;https://bsky.app/profile/paregorios.bsky.social&quot;&gt;Bluesky&lt;/a&gt;, and the &lt;a href=&quot;https://pleiades.stoa.org/&quot;&gt;web itself&lt;/a&gt;. We had a nice brief correspondence on Bluesky.&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/06/27/fair-and-square-making-a-static-site-support-fair-signposting/&quot;&gt;FAIR and Square: making a static site support FAIR signposting&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on June 27, 2026.&lt;/p&gt;]]>
   </content>
 </entry>
 
 
 <entry>
-  <title type="html"><![CDATA[]]></title>
-  <link rel="alternate" type="text/html" href="https://eve.gd/2026/06/27/2026-06-23-making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/" />
-  <id>https://eve.gd/2026/06/27/2026-06-23-making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields</id>
+  <title type="html"><![CDATA[Making blog posts harvestable by Zotero and preserving case in citation fields]]></title>
+  <link rel="alternate" type="text/html" href="https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/" />
+  <id>https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields</id>
   
-  <published>Saturday, 27 June 2026 15:55:58 +0000</published>
-  <updated>2026-06-27T10:17:14+01:00</updated>
+  <doi>https://doi.org/10.59348/vrt01-f3b49</doi>
+  
+  <published>Tuesday, 23 June 2026 15:55:58 +0000</published>
+  <updated>2026-06-23T00:00:00+01:00</updated>
   <author>
     <name></name>
     <uri>https://orcid.org/0000-0002-5589-8511</uri>
@@ -249,7 +301,7 @@ date: Sat, 27 Jun 2026 09:00:06 GMT&lt;/p&gt;
 
 &lt;p&gt;I must also add my thanks to Tom Elliott, whose &lt;a href=&quot;https://paregorios.org/posts/2018/05/zotero_nikola_harmony/&quot;&gt;own blog post on this subject&lt;/a&gt; gave me the information I needed to get the Blog Post type working. It is a shame that he stopped posting on his blog in 2020. I hope all is OK with him, but there are lots of interesting digital humanities posts on his site, on eclectic topics.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/06/27/2026-06-23-making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/&quot;&gt;&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on June 27, 2026.&lt;/p&gt;]]>
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/&quot;&gt;Making blog posts harvestable by Zotero and preserving case in citation fields&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on June 23, 2026.&lt;/p&gt;]]>
   </content>
 </entry>
 
