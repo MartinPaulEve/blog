@@ -280,14 +280,55 @@ module Jekyll
     end
 
     def mapping_citation(entry)
-      url = entry["url"]
       node = { "@type" => entry["type"] || "CreativeWork" }
-      node["@id"] = entry["doi"] || url if entry["doi"] || url
+      identifier = entry["doi"] || entry["url"]
+      node["@id"] = identifier if identifier
       node["name"] = entry["title"] if entry["title"]
-      node["url"] = url if url
-      if (author = entry["author"])
-        node["author"] = { "@type" => "Person", "name" => author }
+      node["url"] = entry["url"] if entry["url"]
+      node["datePublished"] = entry["date"].to_s if entry["date"]
+      node["inLanguage"] = entry["language"] if entry["language"]
+      node["license"] = entry["license"] if entry["license"]
+      node["author"] = author_nodes(entry["author"]) if entry["author"]
+      if (publisher = entry["publisher"])
+        node["publisher"] = { "@type" => "Organization", "name" => publisher }
       end
+      if (part = entry["isPartOf"] || entry["container"])
+        node["isPartOf"] = part_of_node(part)
+      end
+      node
+    end
+
+    # One Person node, or a list when several authors are given.
+    def author_nodes(authors)
+      list = authors.is_a?(Array) ? authors : [authors]
+      nodes = list.map { |a| person_node(a) }.compact
+      nodes.length == 1 ? nodes.first : nodes
+    end
+
+    def person_node(author)
+      if author.is_a?(Hash)
+        name = author["name"]
+        return nil unless name
+        node = { "@type" => "Person", "name" => name }
+        if (orcid = author["orcid"])
+          node["@id"] = orcid
+          node["identifier"] = orcid
+        end
+        node["url"] = author["url"] if author["url"]
+        node
+      else
+        text = author.to_s.strip
+        text.empty? ? nil : { "@type" => "Person", "name" => text }
+      end
+    end
+
+    # The work a reference belongs to (e.g. the blog a post appeared in).
+    def part_of_node(part)
+      return { "@type" => "CreativeWork", "name" => part.to_s } unless part.is_a?(Hash)
+
+      node = { "@type" => part["type"] || "CreativeWork" }
+      node["name"] = part["name"] if part["name"]
+      node["url"] = part["url"] if part["url"]
       node
     end
 

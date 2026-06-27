@@ -163,6 +163,51 @@ class TestSignpostingGenerator < Minitest::Test
     assert_equal "Herbert Van de Sompel", node["author"]["name"]
   end
 
+  def test_rich_mapping_reference_models_full_creativework
+    citation = citation_for([{
+      "type" => "BlogPosting",
+      "title" => "Zotero-Nikola Harmony (One Simple Trick)",
+      "url" => "https://paregorios.org/posts/2018/05/zotero_nikola_harmony/",
+      "author" => { "name" => "Tom Elliott",
+                    "orcid" => "https://orcid.org/0000-0002-4114-6677" },
+      "date" => "2018-05-08",
+      "language" => "en",
+      "license" => "https://creativecommons.org/licenses/by/4.0/",
+      "isPartOf" => { "type" => "Blog", "name" => "paregorios.org",
+                      "url" => "https://paregorios.org/" },
+    }])
+    node = citation.first
+    assert_equal "BlogPosting", node["@type"]
+    assert_equal "https://paregorios.org/posts/2018/05/zotero_nikola_harmony/", node["@id"]
+    assert_equal "Zotero-Nikola Harmony (One Simple Trick)", node["name"]
+    assert_equal "2018-05-08", node["datePublished"]
+    assert_equal "en", node["inLanguage"]
+    assert_equal "https://creativecommons.org/licenses/by/4.0/", node["license"]
+    assert_equal "Tom Elliott", node["author"]["name"]
+    assert_equal "https://orcid.org/0000-0002-4114-6677", node["author"]["identifier"]
+    assert_equal "Blog", node["isPartOf"]["@type"]
+    assert_equal "paregorios.org", node["isPartOf"]["name"]
+    assert_equal "https://paregorios.org/", node["isPartOf"]["url"]
+  end
+
+  def test_doi_reference_prefers_doi_as_id
+    node = citation_for([{ "title" => "X", "url" => "https://eg.org/x",
+                           "doi" => "https://doi.org/10.5555/x" }]).first
+    assert_equal "https://doi.org/10.5555/x", node["@id"]
+    assert_equal "https://eg.org/x", node["url"]
+  end
+
+  def test_multiple_authors_become_a_list
+    authors = citation_for([{
+      "title" => "Co-authored",
+      "author" => ["Ada Lovelace",
+                   { "name" => "Alan Turing", "orcid" => "https://orcid.org/0000-0001-0000-0000" }],
+    }]).first["author"]
+    assert_equal 2, authors.length
+    assert_equal "Ada Lovelace", authors[0]["name"]
+    assert_equal "https://orcid.org/0000-0001-0000-0000", authors[1]["@id"]
+  end
+
   def test_free_text_reference_becomes_named_creativework
     citation = citation_for(["Elliott, T. (2018). Zotero, Nikola, and Harmony. Blog post."])
     assert_equal 1, citation.length
