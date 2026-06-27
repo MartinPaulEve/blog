@@ -217,6 +217,75 @@ class TestSignpostingGenerator < Minitest::Test
     refute node.key?("url"), "a text-only reference has no url"
   end
 
+  # --- internal references (auto-resolved from the site) -------------------
+
+  def target_post
+    FakeDoc.new(
+      url: "/2026/06/23/harvestable/",
+      data: { "layout" => "post", "title" => "Making blog posts harvestable",
+              "doi" => "https://doi.org/10.59348/vrt01-f3b49" },
+      date: Time.new(2026, 6, 23),
+    )
+  end
+
+  def citing_post(refs)
+    FakeDoc.new(
+      url: "/2026/07/01/citing/",
+      data: { "layout" => "post", "title" => "Citing", "references" => refs },
+      date: Time.new(2026, 7, 1),
+    )
+  end
+
+  def internal_citation(refs)
+    run_generator(posts: [target_post, citing_post(refs)])
+    json = JSON.parse(File.read(File.join(@dir, "2026/07/01/citing", "metadata.json")))
+    json["citation"].first
+  end
+
+  def test_internal_absolute_url_is_resolved_from_the_site
+    node = internal_citation(["https://eve.gd/2026/06/23/harvestable/"])
+    assert_equal "BlogPosting", node["@type"]
+    assert_equal "https://doi.org/10.59348/vrt01-f3b49", node["@id"] # DOI preferred
+    assert_equal "Making blog posts harvestable", node["name"]
+    assert_equal "https://eve.gd/2026/06/23/harvestable/", node["url"]
+    assert_equal "2026-06-23", node["datePublished"]
+    assert_equal "Martin Paul Eve", node["author"]["name"]
+    assert_equal Signposting::AUTHOR_ORCID, node["author"]["identifier"]
+    assert_equal "Blog", node["isPartOf"]["@type"]
+    assert_equal "Martin Paul Eve", node["isPartOf"]["name"]
+  end
+
+  def test_internal_relative_path_is_resolved
+    node = internal_citation(["/2026/06/23/harvestable/"])
+    assert_equal "BlogPosting", node["@type"]
+    assert_equal "Making blog posts harvestable", node["name"]
+  end
+
+  def test_internal_marker_type_does_not_leak_as_schema_type
+    node = internal_citation([{ "type" => "Internal",
+                                "url" => "https://eve.gd/2026/06/23/harvestable/" }])
+    assert_equal "BlogPosting", node["@type"]
+  end
+
+  def test_internal_reference_allows_explicit_field_override
+    node = internal_citation([{ "url" => "/2026/06/23/harvestable/",
+                                "title" => "A Better Title" }])
+    assert_equal "A Better Title", node["name"]      # overridden
+    assert_equal "2026-06-23", node["datePublished"] # still deduced
+  end
+
+  def test_unresolved_internal_link_falls_back_to_plain_node
+    node = internal_citation(["https://eve.gd/2026/06/23/does-not-exist/"])
+    assert_equal "CreativeWork", node["@type"]
+    assert_equal "https://eve.gd/2026/06/23/does-not-exist/", node["url"]
+  end
+
+  def test_external_reference_is_not_auto_resolved
+    node = internal_citation(["https://paregorios.org/posts/2018/05/zotero_nikola_harmony/"])
+    assert_equal "CreativeWork", node["@type"]
+    assert_equal "https://paregorios.org/posts/2018/05/zotero_nikola_harmony/", node["@id"]
+  end
+
   def test_post_without_references_omits_citation_key
     run_generator(posts: [post_doc])
     json = JSON.parse(

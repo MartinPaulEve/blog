@@ -265,18 +265,112 @@ module Jekyll
     end
 
     def citation_node(entry)
-      return mapping_citation(entry) if entry.is_a?(Hash)
+      if entry.is_a?(Hash)
+        if (doc = internal_doc(entry["url"], entry["type"]))
+          return deduced_citation(doc, entry)
+        end
+        return mapping_citation(entry)
+      end
 
       text = entry.to_s.strip
       return nil if text.empty?
 
-      # Every reference is modelled as a proper schema.org CreativeWork: a bare
-      # URL is a dereferenceable node; free text becomes its `name`.
-      if url?(text)
+      # A bare internal URL (absolute or site-relative) resolves to the site's
+      # own document; otherwise every reference is modelled as a proper
+      # schema.org CreativeWork: an external URL is a dereferenceable node, free
+      # text becomes its `name`.
+      if (doc = internal_doc(text))
+        deduced_citation(doc, {})
+      elsif url?(text)
         { "@type" => "CreativeWork", "@id" => text, "url" => text }
       else
         { "@type" => "CreativeWork", "name" => text }
       end
+    end
+
+    INTERNAL_MARKERS = %w[internal self].freeze
+
+    # Resolve an internal reference (a URL on this site, or one flagged with
+    # `type: Internal`) to the Jekyll document it points at, or nil.
+    def internal_doc(url, type = nil)
+      return nil unless url
+      return nil unless internal_url?(url) || INTERNAL_MARKERS.include?(type.to_s.downcase)
+
+      doc = doc_index[canonical_path(url)]
+      if doc.nil? && defined?(Jekyll) && Jekyll.respond_to?(:logger)
+        Jekyll.logger.warn "Signposting:", "unresolved internal reference #{url}"
+      end
+      doc
+    end
+
+    # A reference is internal when it is site-relative or sits under site.url.
+    def internal_url?(url)
+      return true if url.start_with?("/")
+
+      base = @site.config["url"].to_s
+      return false if base.empty?
+      url == base || url.start_with?("#{base}/")
+    end
+
+    # Index of every rendered document keyed by a host/slash-insensitive path,
+    # so an absolute or relative reference resolves to the same entry.
+    def doc_index
+      @doc_index ||= (@site.posts.docs + @site.pages).each_with_object({}) do |doc, idx|
+        idx[canonical_path(doc.url)] = doc if html_output?(doc)
+      end
+    end
+
+    def canonical_path(url)
+      url.sub(%r{\Ahttps?://[^/]+}, "")
+         .sub(%r{index\.html\z}, "")
+         .sub(%r{\A/}, "")
+         .sub(%r{/\z}, "")
+    end
+
+    # Build a citation node from a resolved site document: schema.org type,
+    # title, canonical URL, DOI/identifier, date, language, licence, the site
+    # author (with ORCID), and the blog it belongs to. Any keys set explicitly
+    # in the reference mapping override the deduced values.
+    def deduced_citation(doc, overrides)
+      page_url = File.join(@site.config["url"].to_s, doc.url)
+      node = { "@type" => schema_types(doc).first.sub("https://schema.org/", "") }
+      node["@id"] = doc.data["doi"] || page_url
+      node["name"] = doc.data["title"] if doc.data["title"]
+      node["url"] = page_url
+      if doc.respond_to?(:date) && doc.date
+        node["datePublished"] = doc.date.strftime("%Y-%m-%d")
+      end
+      node["inLanguage"] = "en-GB"
+      node["license"] = Signposting::LICENSE_URL
+      node["author"] = {
+        "@type" => "Person",
+        "name" => "Martin Paul Eve",
+        "@id" => Signposting::AUTHOR_ORCID,
+        "identifier" => Signposting::AUTHOR_ORCID,
+      }
+      node["isPartOf"] = {
+        "@type" => "Blog",
+        "name" => @site.config["title"],
+        "url" => @site.config["url"],
+      }
+      apply_reference_overrides(node, overrides)
+    end
+
+    # Let explicit reference keys override deduced values. The `type: Internal`
+    # resolver flag is consumed here, never emitted as a schema.org @type.
+    def apply_reference_overrides(node, entry)
+      type = entry["type"]
+      node["@type"] = type if type && !INTERNAL_MARKERS.include?(type.to_s.downcase)
+      node["@id"] = entry["doi"] if entry["doi"]
+      node["name"] = entry["title"] if entry["title"]
+      node["datePublished"] = entry["date"].to_s if entry["date"]
+      node["inLanguage"] = entry["language"] if entry["language"]
+      node["license"] = entry["license"] if entry["license"]
+      node["author"] = author_nodes(entry["author"]) if entry["author"]
+      if (part = entry["isPartOf"] || entry["container"])
+        node["isPartOf"] = part_of_node(part)
+      end
+      node
     end
 
     def mapping_citation(entry)
