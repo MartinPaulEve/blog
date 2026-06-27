@@ -123,6 +123,70 @@ class TestSignpostingGenerator < Minitest::Test
     assert_equal "2026-06-23", json["datePublished"]
   end
 
+  def referencing_post(refs)
+    FakeDoc.new(
+      url: "/2026/06/23/making-blog-harvestable/",
+      data: { "layout" => "post", "title" => "Making blog harvestable",
+              "references" => refs },
+      date: Time.new(2026, 6, 23),
+    )
+  end
+
+  def citation_for(refs)
+    run_generator(posts: [referencing_post(refs)])
+    json = JSON.parse(
+      File.read(File.join(@dir, "2026/06/23/making-blog-harvestable", "metadata.json"))
+    )
+    json["citation"]
+  end
+
+  def test_bare_url_reference_becomes_dereferenceable_creativework
+    citation = citation_for(["https://paregorios.org/posts/2018/05/zotero_nikola_harmony/"])
+    assert_equal 1, citation.length
+    node = citation.first
+    assert_equal "CreativeWork", node["@type"]
+    assert_equal "https://paregorios.org/posts/2018/05/zotero_nikola_harmony/", node["@id"]
+    assert_equal "https://paregorios.org/posts/2018/05/zotero_nikola_harmony/", node["url"]
+  end
+
+  def test_mapping_reference_becomes_typed_node_with_author
+    citation = citation_for([{
+      "url" => "https://doi.org/10.1045/january2016-vandesompel",
+      "title" => "A Perspective on Resource Synchronization",
+      "author" => "Herbert Van de Sompel",
+      "type" => "ScholarlyArticle",
+    }])
+    node = citation.first
+    assert_equal "ScholarlyArticle", node["@type"]
+    assert_equal "https://doi.org/10.1045/january2016-vandesompel", node["@id"]
+    assert_equal "A Perspective on Resource Synchronization", node["name"]
+    assert_equal "Herbert Van de Sompel", node["author"]["name"]
+  end
+
+  def test_free_text_reference_becomes_named_creativework
+    citation = citation_for(["Elliott, T. (2018). Zotero, Nikola, and Harmony. Blog post."])
+    assert_equal 1, citation.length
+    node = citation.first
+    assert_equal "CreativeWork", node["@type"]
+    assert_equal "Elliott, T. (2018). Zotero, Nikola, and Harmony. Blog post.", node["name"]
+    refute node.key?("url"), "a text-only reference has no url"
+  end
+
+  def test_post_without_references_omits_citation_key
+    run_generator(posts: [post_doc])
+    json = JSON.parse(
+      File.read(File.join(@dir, "2026/06/23/making-blog-harvestable", "metadata.json"))
+    )
+    refute json.key?("citation"), "must not emit an empty citation key"
+  end
+
+  def test_references_do_not_leak_into_link_header_or_level1
+    site = run_generator(posts: [referencing_post(["https://example.org/x"])])
+    ht = File.read(File.join(@dir, "2026/06/23/making-blog-harvestable", ".htaccess"))
+    refute_includes ht, "example.org"
+    refute_includes site.posts.docs.first.data["signposting_links"], "example.org"
+  end
+
   def test_sets_level1_links_on_document
     site = run_generator(posts: [post_doc])
     links = site.posts.docs.first.data["signposting_links"]

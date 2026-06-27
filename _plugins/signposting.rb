@@ -255,6 +255,46 @@ module Jekyll
       end
     end
 
+    # schema.org `citation` nodes for outbound references declared in front
+    # matter as `references:` (a list). Each entry may be a bare URL, a free-text
+    # citation, or a mapping ({ url:, title:, author:, type: }). References live
+    # only in the descriptive metadata -- never in the Signposting Link header or
+    # <link> elements.
+    def citations_for(doc)
+      Array(doc.data["references"]).map { |entry| citation_node(entry) }.compact
+    end
+
+    def citation_node(entry)
+      return mapping_citation(entry) if entry.is_a?(Hash)
+
+      text = entry.to_s.strip
+      return nil if text.empty?
+
+      # Every reference is modelled as a proper schema.org CreativeWork: a bare
+      # URL is a dereferenceable node; free text becomes its `name`.
+      if url?(text)
+        { "@type" => "CreativeWork", "@id" => text, "url" => text }
+      else
+        { "@type" => "CreativeWork", "name" => text }
+      end
+    end
+
+    def mapping_citation(entry)
+      url = entry["url"]
+      node = { "@type" => entry["type"] || "CreativeWork" }
+      node["@id"] = entry["doi"] || url if entry["doi"] || url
+      node["name"] = entry["title"] if entry["title"]
+      node["url"] = url if url
+      if (author = entry["author"])
+        node["author"] = { "@type" => "Person", "name" => author }
+      end
+      node
+    end
+
+    def url?(value)
+      value.start_with?("http://", "https://")
+    end
+
     def json_metadata(doc, page_url)
       title = doc.data["title"] || @site.config["title"]
       data = {
@@ -276,6 +316,8 @@ module Jekyll
         data["datePublished"] = doc.date.strftime("%Y-%m-%d")
       end
       data["identifier"] = doc.data["doi"] if doc.data["doi"]
+      citations = citations_for(doc)
+      data["citation"] = citations unless citations.empty?
       JSON.pretty_generate(data) + "\n"
     end
 
