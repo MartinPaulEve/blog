@@ -36,28 +36,40 @@ However, this is actually very useful in this circumstance. The Apache web serve
 I made a plugin for my static site generator that creates a `.htaccess` file for every post that look like this:
 
 ```
-	<Files "index.html">
-	Header set Link "<https://orcid.org/0000-0002-5589-8511>; rel=\"author\", <https://doi.org/10.59348/vrt01-f3b49>; rel=\"cite-as\", <https://schema.org/BlogPosting>; rel=\"type\", <https://schema.org/AboutPage>; rel=\"type\", <https://creativecommons.org/licenses/by/4.0/>; rel=\"license\", <https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/metadata.json>; rel=\"describedby\"; type=\"application/ld+json\"; profile=\"https://schema.org/\""
-	</Files>
-	<Files "metadata.json">
-	ForceType application/ld+json
-	</Files>
+<Files "index.html">
+Header set Link "<https://orcid.org/0000-0002-5589-8511>; rel=\"author\", <https://doi.org/10.59348/vrt01-f3b49>; rel=\"cite-as\", <https://schema.org/BlogPosting>; rel=\"type\", <https://schema.org/AboutPage>; rel=\"type\", <https://creativecommons.org/licenses/by/4.0/>; rel=\"license\", <https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/metadata.json>; rel=\"describedby\"; type=\"application/ld+json\"; profile=\"https://schema.org/\""
+</Files>
+<Files "metadata.json">
+ForceType application/ld+json
+</Files>
 ```
 
 When the user's browser -- or a machine agent -- requests the page, it now gets the following HTTP headers:
 
 > HTTP/2 200 
+> 
 > last-modified: Fri, 26 Jun 2026 22:19:49 GMT
+> 
 > accept-ranges: bytes
+> 
 > content-length: 25244
+> 
 > content-security-policy: upgrade-insecure-requests
+> 
 > strict-transport-security: max-age=31536000; includeSubDomains
+> 
 > x-xss-protection: 1; mode=block
+> 
 > x-frame-options: SAMEORIGIN
+> 
 > x-content-type-options: nosniff
+> 
 > referrer-policy: strict-origin-when-cross-origin
+> 
 > link: <https://orcid.org/0000-0002-5589-8511>; rel="author", <https://doi.org/10.59348/vrt01-f3b49>; rel="cite-as", <https://schema.org/BlogPosting>; rel="type", <https://schema.org/AboutPage>; rel="type", <https://creativecommons.org/licenses/by/4.0/>; rel="license", <https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/metadata.json>; rel="describedby"; type="application/ld+json"; profile="https://schema.org/"
+> 
 > content-type: text/html; charset=UTF-8
+> 
 > date: Sat, 27 Jun 2026 09:00:06 GMT
 
 You can see that this allows us to get information about the page without even loading its full HTML content. Useful for machine access and discovery.

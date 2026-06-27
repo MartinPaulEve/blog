@@ -23,7 +23,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=IBM+Plex+Mono:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/8417040572.js" crossorigin="anonymous"></script>
 <link id="hljs-theme" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-light.min.css">
-<link rel="stylesheet" href="/assets/css/styles.css?v=1782553302">
+<link rel="stylesheet" href="/assets/css/styles.css?v=1782553369">
 <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
 <link rel="icon" type="image/png" href="/images/favicon.png">
 <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
@@ -120,7 +120,7 @@
 
 <link href="https://eve.gd/feed/feed.atom" type="application/atom+xml" rel="alternate" title="Martin Paul Eve Feed">
 
-    <link rel="stylesheet" href="/assets/css/blog-post.css?v=1782553302">
+    <link rel="stylesheet" href="/assets/css/blog-post.css?v=1782553369">
 
     
     <meta name="citation_author" content="Eve, Martin Paul">
@@ -200,30 +200,42 @@
 
 <p>I made a plugin for my static site generator that creates a <code>.htaccess</code> file for every post that look like this:</p>
 
-<pre><code>	&lt;Files "index.html"&gt;
-	Header set Link "&lt;https://orcid.org/0000-0002-5589-8511&gt;; rel=\"author\", &lt;https://doi.org/10.59348/vrt01-f3b49&gt;; rel=\"cite-as\", &lt;https://schema.org/BlogPosting&gt;; rel=\"type\", &lt;https://schema.org/AboutPage&gt;; rel=\"type\", &lt;https://creativecommons.org/licenses/by/4.0/&gt;; rel=\"license\", &lt;https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/metadata.json&gt;; rel=\"describedby\"; type=\"application/ld+json\"; profile=\"https://schema.org/\""
-	&lt;/Files&gt;
-	&lt;Files "metadata.json"&gt;
-	ForceType application/ld+json
-	&lt;/Files&gt;
+<pre><code>&lt;Files "index.html"&gt;
+Header set Link "&lt;https://orcid.org/0000-0002-5589-8511&gt;; rel=\"author\", &lt;https://doi.org/10.59348/vrt01-f3b49&gt;; rel=\"cite-as\", &lt;https://schema.org/BlogPosting&gt;; rel=\"type\", &lt;https://schema.org/AboutPage&gt;; rel=\"type\", &lt;https://creativecommons.org/licenses/by/4.0/&gt;; rel=\"license\", &lt;https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/metadata.json&gt;; rel=\"describedby\"; type=\"application/ld+json\"; profile=\"https://schema.org/\""
+&lt;/Files&gt;
+&lt;Files "metadata.json"&gt;
+ForceType application/ld+json
+&lt;/Files&gt;
 </code></pre>
 
 <p>When the user’s browser – or a machine agent – requests the page, it now gets the following HTTP headers:</p>
 
 <blockquote>
-  <p>HTTP/2 200 
-last-modified: Fri, 26 Jun 2026 22:19:49 GMT
-accept-ranges: bytes
-content-length: 25244
-content-security-policy: upgrade-insecure-requests
-strict-transport-security: max-age=31536000; includeSubDomains
-x-xss-protection: 1; mode=block
-x-frame-options: SAMEORIGIN
-x-content-type-options: nosniff
-referrer-policy: strict-origin-when-cross-origin
-link: <a href="https://orcid.org/0000-0002-5589-8511">https://orcid.org/0000-0002-5589-8511</a>; rel=”author”, <a href="https://doi.org/10.59348/vrt01-f3b49">https://doi.org/10.59348/vrt01-f3b49</a>; rel=”cite-as”, <a href="https://schema.org/BlogPosting">https://schema.org/BlogPosting</a>; rel=”type”, <a href="https://schema.org/AboutPage">https://schema.org/AboutPage</a>; rel=”type”, <a href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a>; rel=”license”, <a href="https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/metadata.json">https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/metadata.json</a>; rel=”describedby”; type=”application/ld+json”; profile=”https://schema.org/”
-content-type: text/html; charset=UTF-8
-date: Sat, 27 Jun 2026 09:00:06 GMT</p>
+  <p>HTTP/2 200</p>
+
+  <p>last-modified: Fri, 26 Jun 2026 22:19:49 GMT</p>
+
+  <p>accept-ranges: bytes</p>
+
+  <p>content-length: 25244</p>
+
+  <p>content-security-policy: upgrade-insecure-requests</p>
+
+  <p>strict-transport-security: max-age=31536000; includeSubDomains</p>
+
+  <p>x-xss-protection: 1; mode=block</p>
+
+  <p>x-frame-options: SAMEORIGIN</p>
+
+  <p>x-content-type-options: nosniff</p>
+
+  <p>referrer-policy: strict-origin-when-cross-origin</p>
+
+  <p>link: <a href="https://orcid.org/0000-0002-5589-8511">https://orcid.org/0000-0002-5589-8511</a>; rel=”author”, <a href="https://doi.org/10.59348/vrt01-f3b49">https://doi.org/10.59348/vrt01-f3b49</a>; rel=”cite-as”, <a href="https://schema.org/BlogPosting">https://schema.org/BlogPosting</a>; rel=”type”, <a href="https://schema.org/AboutPage">https://schema.org/AboutPage</a>; rel=”type”, <a href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a>; rel=”license”, <a href="https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/metadata.json">https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/metadata.json</a>; rel=”describedby”; type=”application/ld+json”; profile=”https://schema.org/”</p>
+
+  <p>content-type: text/html; charset=UTF-8</p>
+
+  <p>date: Sat, 27 Jun 2026 09:00:06 GMT</p>
 </blockquote>
 
 <p>You can see that this allows us to get information about the page without even loading its full HTML content. Useful for machine access and discovery.</p>
