@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-<title type="text">Martin Paul Eve</title>
+<title type="text">eve.gd:Martin Paul Eve</title>
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="https://eve.gd/feed.xml" />
 <link rel="alternate" type="text/html" href="https://eve.gd" />
-<updated>2026-06-27T10:41:42+01:00</updated>
+<updated>2026-06-27T12:03:55+01:00</updated>
 <id>https://eve.gd/</id>
 <author>
   <name>Martin Paul Eve</name>
@@ -36,30 +36,42 @@
 
 &lt;p&gt;I made a plugin for my static site generator that creates a &lt;code&gt;.htaccess&lt;/code&gt; file for every post that look like this:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;	&amp;lt;Files &quot;index.html&quot;&amp;gt;
-	Header set Link &quot;&amp;lt;https://orcid.org/0000-0002-5589-8511&amp;gt;; rel=\&quot;author\&quot;, &amp;lt;https://doi.org/10.59348/vrt01-f3b49&amp;gt;; rel=\&quot;cite-as\&quot;, &amp;lt;https://schema.org/BlogPosting&amp;gt;; rel=\&quot;type\&quot;, &amp;lt;https://schema.org/AboutPage&amp;gt;; rel=\&quot;type\&quot;, &amp;lt;https://creativecommons.org/licenses/by/4.0/&amp;gt;; rel=\&quot;license\&quot;, &amp;lt;https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/metadata.json&amp;gt;; rel=\&quot;describedby\&quot;; type=\&quot;application/ld+json\&quot;; profile=\&quot;https://schema.org/\&quot;&quot;
-	&amp;lt;/Files&amp;gt;
-	&amp;lt;Files &quot;metadata.json&quot;&amp;gt;
-	ForceType application/ld+json
-	&amp;lt;/Files&amp;gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;Files &quot;index.html&quot;&amp;gt;
+Header set Link &quot;&amp;lt;https://orcid.org/0000-0002-5589-8511&amp;gt;; rel=\&quot;author\&quot;, &amp;lt;https://doi.org/10.59348/vrt01-f3b49&amp;gt;; rel=\&quot;cite-as\&quot;, &amp;lt;https://schema.org/BlogPosting&amp;gt;; rel=\&quot;type\&quot;, &amp;lt;https://schema.org/AboutPage&amp;gt;; rel=\&quot;type\&quot;, &amp;lt;https://creativecommons.org/licenses/by/4.0/&amp;gt;; rel=\&quot;license\&quot;, &amp;lt;https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/metadata.json&amp;gt;; rel=\&quot;describedby\&quot;; type=\&quot;application/ld+json\&quot;; profile=\&quot;https://schema.org/\&quot;&quot;
+&amp;lt;/Files&amp;gt;
+&amp;lt;Files &quot;metadata.json&quot;&amp;gt;
+ForceType application/ld+json
+&amp;lt;/Files&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;When the user’s browser – or a machine agent – requests the page, it now gets the following HTTP headers:&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;HTTP/2 200 
-last-modified: Fri, 26 Jun 2026 22:19:49 GMT
-accept-ranges: bytes
-content-length: 25244
-content-security-policy: upgrade-insecure-requests
-strict-transport-security: max-age=31536000; includeSubDomains
-x-xss-protection: 1; mode=block
-x-frame-options: SAMEORIGIN
-x-content-type-options: nosniff
-referrer-policy: strict-origin-when-cross-origin
-link: &lt;a href=&quot;https://orcid.org/0000-0002-5589-8511&quot;&gt;https://orcid.org/0000-0002-5589-8511&lt;/a&gt;; rel=”author”, &lt;a href=&quot;https://doi.org/10.59348/vrt01-f3b49&quot;&gt;https://doi.org/10.59348/vrt01-f3b49&lt;/a&gt;; rel=”cite-as”, &lt;a href=&quot;https://schema.org/BlogPosting&quot;&gt;https://schema.org/BlogPosting&lt;/a&gt;; rel=”type”, &lt;a href=&quot;https://schema.org/AboutPage&quot;&gt;https://schema.org/AboutPage&lt;/a&gt;; rel=”type”, &lt;a href=&quot;https://creativecommons.org/licenses/by/4.0/&quot;&gt;https://creativecommons.org/licenses/by/4.0/&lt;/a&gt;; rel=”license”, &lt;a href=&quot;https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/metadata.json&quot;&gt;https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/metadata.json&lt;/a&gt;; rel=”describedby”; type=”application/ld+json”; profile=”https://schema.org/”
-content-type: text/html; charset=UTF-8
-date: Sat, 27 Jun 2026 09:00:06 GMT&lt;/p&gt;
+  &lt;p&gt;HTTP/2 200&lt;/p&gt;
+
+  &lt;p&gt;last-modified: Fri, 26 Jun 2026 22:19:49 GMT&lt;/p&gt;
+
+  &lt;p&gt;accept-ranges: bytes&lt;/p&gt;
+
+  &lt;p&gt;content-length: 25244&lt;/p&gt;
+
+  &lt;p&gt;content-security-policy: upgrade-insecure-requests&lt;/p&gt;
+
+  &lt;p&gt;strict-transport-security: max-age=31536000; includeSubDomains&lt;/p&gt;
+
+  &lt;p&gt;x-xss-protection: 1; mode=block&lt;/p&gt;
+
+  &lt;p&gt;x-frame-options: SAMEORIGIN&lt;/p&gt;
+
+  &lt;p&gt;x-content-type-options: nosniff&lt;/p&gt;
+
+  &lt;p&gt;referrer-policy: strict-origin-when-cross-origin&lt;/p&gt;
+
+  &lt;p&gt;link: &lt;a href=&quot;https://orcid.org/0000-0002-5589-8511&quot;&gt;https://orcid.org/0000-0002-5589-8511&lt;/a&gt;; rel=”author”, &lt;a href=&quot;https://doi.org/10.59348/vrt01-f3b49&quot;&gt;https://doi.org/10.59348/vrt01-f3b49&lt;/a&gt;; rel=”cite-as”, &lt;a href=&quot;https://schema.org/BlogPosting&quot;&gt;https://schema.org/BlogPosting&lt;/a&gt;; rel=”type”, &lt;a href=&quot;https://schema.org/AboutPage&quot;&gt;https://schema.org/AboutPage&lt;/a&gt;; rel=”type”, &lt;a href=&quot;https://creativecommons.org/licenses/by/4.0/&quot;&gt;https://creativecommons.org/licenses/by/4.0/&lt;/a&gt;; rel=”license”, &lt;a href=&quot;https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/metadata.json&quot;&gt;https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/metadata.json&lt;/a&gt;; rel=”describedby”; type=”application/ld+json”; profile=”https://schema.org/”&lt;/p&gt;
+
+  &lt;p&gt;content-type: text/html; charset=UTF-8&lt;/p&gt;
+
+  &lt;p&gt;date: Sat, 27 Jun 2026 09:00:06 GMT&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;You can see that this allows us to get information about the page without even loading its full HTML content. Useful for machine access and discovery.&lt;/p&gt;
@@ -109,32 +121,69 @@ date: Sat, 27 Jun 2026 09:00:06 GMT&lt;/p&gt;
 
 &lt;p&gt;There’s descriptive metadata here, including license information, but also, cooly, we have citation information for pages that I cite. I have to enter these citation details manually, but it’s good to be contributing to that ole citation network! To generate this, I add:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;	references:
-  	- type: BlogPosting
-    	title: &quot;Zotero-Nikola Harmony (One Simple Trick)&quot;
-    	url: &quot;https://paregorios.org/posts/2018/05/zotero_nikola_harmony/&quot;
-    	author:
-      	name: Tom Elliott
-      	orcid: &quot;https://orcid.org/0000-0002-4114-6677&quot;
-    	date: 2018-05-08
-    	language: en
-    	license: &quot;https://creativecommons.org/licenses/by/4.0/&quot;
-    	isPartOf:
-      	type: Blog
-      	name: paregorios.org
-      	url: &quot;https://paregorios.org/&quot;
+&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;references:
+	- type: BlogPosting
+	title: &quot;Zotero-Nikola Harmony (One Simple Trick)&quot;
+	url: &quot;https://paregorios.org/posts/2018/05/zotero_nikola_harmony/&quot;
+	author:
+  	name: Tom Elliott
+  	orcid: &quot;https://orcid.org/0000-0002-4114-6677&quot;
+	date: 2018-05-08
+	language: en
+	license: &quot;https://creativecommons.org/licenses/by/4.0/&quot;
+	isPartOf:
+  	type: Blog
+  	name: paregorios.org
+  	url: &quot;https://paregorios.org/&quot;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;If you want, then, to verify that it’s working, there’s quite a good tool called &lt;a href=&quot;https://chromewebstore.google.com/detail/signposting-sniffing/pahanegeimljfcnjogglnamnlcgipmbc&quot;&gt;Signposting Sniffing&lt;/a&gt;, that plugs-into the Chrome browser and will show you whether your FAIR Signposts are working correctly. Here’s my result so far and what it looks like:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/fair.jpg&quot; width=&quot;100%&quot; alt=&quot;A wide golden-yellow notification panel with six lines of dark brown text and orange-red hyperlinks, each followed by a small copy-to-clipboard icon. A small blue circular arrow icon appears at the left of the third line. The text reads: &amp;quot;Signposting.org metadata: this page is authored by https://orcid.org/0000-0002-5589-8511. Signposting.org metadata: this page should be cited as https://doi.org/10.59348/vrl01-53h49. Signposting.org metadata: this page is of the type described at https://schema.org/BlogPosting. Signposting.org metadata: this page is of the type described at https://schema.org/AboutPage. Signposting.org metadata: this page is licensed according to https://creativecommons.org/licenses/by/4.0/. Signposting.org metadata: this page is described by https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/metadata.json (application/ld+json) with a profile at https://schema.org/.&amp;quot;&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;I also have a cool shortcut for self-citation. If I put this as a single line in the references section:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;- https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That automatically generates the citation block:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-json&quot;&gt;{
+  &quot;@type&quot;: &quot;BlogPosting&quot;,
+  &quot;@id&quot;: &quot;https://doi.org/10.59348/6cr4z-4ct43&quot;,
+  &quot;name&quot;: &quot;The Necessary Pain Involved in Blogging (if you want your work to be preserved beyond your lifespan)&quot;,
+  &quot;url&quot;: &quot;https://eve.gd/2026/04/19/the-necessary-pain-involved-in-blogging-if-you-want-your-work-to-be-preserved-beyond-your-lifespan/&quot;,
+  &quot;datePublished&quot;: &quot;2026-04-19&quot;,
+  &quot;inLanguage&quot;: &quot;en-GB&quot;,
+  &quot;license&quot;: &quot;https://creativecommons.org/licenses/by/4.0/&quot;,
+  &quot;author&quot;: {
+    &quot;@type&quot;: &quot;Person&quot;,
+    &quot;name&quot;: &quot;Martin Paul Eve&quot;,
+    &quot;@id&quot;: &quot;https://orcid.org/0000-0002-5589-8511&quot;,
+    &quot;identifier&quot;: &quot;https://orcid.org/0000-0002-5589-8511&quot;
+  },
+  &quot;isPartOf&quot;: {
+    &quot;@type&quot;: &quot;Blog&quot;,
+    &quot;name&quot;: &quot;eve.gd: Martin Paul Eve&quot;,
+    &quot;url&quot;: &quot;https://eve.gd&quot;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I can also do this for DOIs. Say I want to cite an academic article (I will &lt;a href=&quot;https://doi.org/10.31274/jlsc.16288&quot;&gt;use one of mine for now&lt;/a&gt;) I can just use:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://doi.org/10.31274/jlsc.16288&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;and it will produce&lt;/p&gt;
+
 &lt;p&gt;I will continue to improve the infrastructure of my blog in this way; it adds credence to the site, as well as helping with &lt;a href=&quot;/2026/04/19/the-necessary-pain-involved-in-blogging-if-you-want-your-work-to-be-preserved-beyond-your-lifespan/&quot;&gt;the preservation effort I detailed before&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Finally, in &lt;a href=&quot;https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/&quot;&gt;the Zotero post&lt;/a&gt;, I made reference to Tom Elliott’s blog being defunct. Which it does seem to be. But he continues to have an online presence, on &lt;a href=&quot;https://hcommons.social/@paregorios&quot;&gt;Mastodon&lt;/a&gt;, &lt;a href=&quot;https://bsky.app/profile/paregorios.bsky.social&quot;&gt;Bluesky&lt;/a&gt;, and the &lt;a href=&quot;https://pleiades.stoa.org/&quot;&gt;web itself&lt;/a&gt;. We had a nice brief correspondence on Bluesky.&lt;/p&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/06/27/fair-and-square-making-a-static-site-support-fair-signposting/&quot;&gt;FAIR and Square: making a static site support FAIR signposting&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on June 27, 2026.&lt;/p&gt;]]>
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/06/27/fair-and-square-making-a-static-site-support-fair-signposting/&quot;&gt;FAIR and Square: making a static site support FAIR signposting&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;eve.gd:Martin Paul Eve&lt;/a&gt; on June 27, 2026.&lt;/p&gt;]]>
   </content>
 </entry>
 
@@ -301,7 +350,7 @@ date: Sat, 27 Jun 2026 09:00:06 GMT&lt;/p&gt;
 
 &lt;p&gt;I must also add my thanks to Tom Elliott, whose &lt;a href=&quot;https://paregorios.org/posts/2018/05/zotero_nikola_harmony/&quot;&gt;own blog post on this subject&lt;/a&gt; gave me the information I needed to get the Blog Post type working. It is a shame that he stopped posting on his blog in 2020. I hope all is OK with him, but there are lots of interesting digital humanities posts on his site, on eclectic topics.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/&quot;&gt;Making blog posts harvestable by Zotero and preserving case in citation fields&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on June 23, 2026.&lt;/p&gt;]]>
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/&quot;&gt;Making blog posts harvestable by Zotero and preserving case in citation fields&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;eve.gd:Martin Paul Eve&lt;/a&gt; on June 23, 2026.&lt;/p&gt;]]>
   </content>
 </entry>
 
@@ -339,7 +388,7 @@ date: Sat, 27 Jun 2026 09:00:06 GMT&lt;/p&gt;
 
 &lt;p&gt;So, a huge thanks to Andrew for writing on this. It’s lovely to hear from people who are working in this space and even better when they are truly knowledgeable and willing to engage.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/06/04/more-on-dual-licensing-of-digital-oa-books/&quot;&gt;More on dual-licensing of digital OA books&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on June 04, 2026.&lt;/p&gt;]]>
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/06/04/more-on-dual-licensing-of-digital-oa-books/&quot;&gt;More on dual-licensing of digital OA books&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;eve.gd:Martin Paul Eve&lt;/a&gt; on June 04, 2026.&lt;/p&gt;]]>
   </content>
 </entry>
 
@@ -375,7 +424,7 @@ date: Sat, 27 Jun 2026 09:00:06 GMT&lt;/p&gt;
 
 &lt;p&gt;But we will see. I noticed that the license wasn’t yet being applied to the work and so contacted my editors who have been superb in passing this up the chain and thinking through what this means with me.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/06/03/what-is-actually-licensed-in-printdigital-dual-licensed-books/&quot;&gt;What is actually licensed in print/digital dual-licensed books?&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on June 03, 2026.&lt;/p&gt;]]>
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/06/03/what-is-actually-licensed-in-printdigital-dual-licensed-books/&quot;&gt;What is actually licensed in print/digital dual-licensed books?&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;eve.gd:Martin Paul Eve&lt;/a&gt; on June 03, 2026.&lt;/p&gt;]]>
   </content>
 </entry>
 
@@ -418,7 +467,7 @@ date: Sat, 27 Jun 2026 09:00:06 GMT&lt;/p&gt;
   &lt;li&gt;Moore, Samuel A., Publishing Beyond the Market: Open Access, Care, and the Commons (University of Michigan Press, 2025)&lt;/li&gt;
 &lt;/ul&gt;
 
-    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/05/21/things-i-have-made-lower-decks-conference-and-quote-in-researchprofessional/&quot;&gt;Things I have made (KC IDMS in place, Lower Decks conference, and quote in ResearchProfessional)&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on May 21, 2026.&lt;/p&gt;]]>
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/05/21/things-i-have-made-lower-decks-conference-and-quote-in-researchprofessional/&quot;&gt;Things I have made (KC IDMS in place, Lower Decks conference, and quote in ResearchProfessional)&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;eve.gd:Martin Paul Eve&lt;/a&gt; on May 21, 2026.&lt;/p&gt;]]>
   </content>
 </entry>
 
@@ -458,7 +507,7 @@ date: Sat, 27 Jun 2026 09:00:06 GMT&lt;/p&gt;
 
 &lt;p&gt;So, why bother? Why not just set up a Substack and whack the material on there, knowing that Substack will probably outlast me, sadly (&lt;a href=&quot;https://www.theguardian.com/media/2026/feb/07/revealed-how-substack-makes-money-from-hosting-nazi-newsletters&quot;&gt;they seem to make money from hosting Nazi newsletters&lt;/a&gt;)? The answer is where I started: because I want my material to persist and I do not trust third-party providers like Substack or Ghost to take any steps to preserve my work. But this highlights a productive tension between the ease of blogging on platforms like Substack or even WordPress and the sadly necessary pain involved in blogging in a way that will be more durable and that, I would hope, will last for longer. Using a static site generator means that my site will never be hacked, most likely, because there is no server-side code to exploit. Depositing multiple copies in many different places works on the principle of LOCKSS: Lots of Copies Keeps Stuff Safe. Ideally, we could automate much more of this process and make it so that your average non-techie academic was able to blog and to have some assurance that their work would be deposited in multiple safe stores and last beyond their lifetime. At the moment, there is a huge chasm between the ease of blogging in these spaces, and the hard graft of what you actually need to do to ensure (or at least to stand a chance of achieving) actively the persistence of your work.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/04/19/the-necessary-pain-involved-in-blogging-if-you-want-your-work-to-be-preserved-beyond-your-lifespan/&quot;&gt;The Necessary Pain Involved in Blogging (if you want your work to be preserved beyond your lifespan)&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on April 19, 2026.&lt;/p&gt;]]>
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/04/19/the-necessary-pain-involved-in-blogging-if-you-want-your-work-to-be-preserved-beyond-your-lifespan/&quot;&gt;The Necessary Pain Involved in Blogging (if you want your work to be preserved beyond your lifespan)&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;eve.gd:Martin Paul Eve&lt;/a&gt; on April 19, 2026.&lt;/p&gt;]]>
   </content>
 </entry>
 
@@ -498,7 +547,7 @@ date: Sat, 27 Jun 2026 09:00:06 GMT&lt;/p&gt;
 
 &lt;p&gt;I cannot tell whether we are being overly cautious or underly careful. However, my personal belief is that the guardrails employed by Claude here are not sufficient. And there should be a stronger set of mechanisms to deny access to sensitive files.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/04/19/claude-code-can-consume-transmit-and-compromise-your-env-files-even-if-you-tell-it-not-to/&quot;&gt;Claude Code can consume, transmit, and compromise your .env files even if you tell it not to&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on April 19, 2026.&lt;/p&gt;]]>
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/04/19/claude-code-can-consume-transmit-and-compromise-your-env-files-even-if-you-tell-it-not-to/&quot;&gt;Claude Code can consume, transmit, and compromise your .env files even if you tell it not to&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;eve.gd:Martin Paul Eve&lt;/a&gt; on April 19, 2026.&lt;/p&gt;]]>
   </content>
 </entry>
 
@@ -540,7 +589,7 @@ date: Sat, 27 Jun 2026 09:00:06 GMT&lt;/p&gt;
 
 &lt;p&gt;And this brings me really to the crux of my thinking about dogs. I suppose really, logically, it is very sensible to say that if a dog bites you, it cannot live with you. But with the things I know about Luka, I have come to a different perspective on why we have dogs. We adopt older, slightly difficult dogs who need a home. We could make our lives much easier by adopting younger dogs with a home-life experience. Instead, we have one psychologically traumatised older boy and one older bitch with only three legs, my dear Robyn. We didn’t really pick these dogs because we thought that they would make our lives easier. We instead chose them because we thought that we could give them a better life and they seemed deserving (although there are thousands of deserving dogs and we can only help a select, tiny few). The reward I get from having Luka has been in seeing him grow from a frightened shell of a dog into a confident, loving boy, who was having a great time in life. This is what he gives me. We now, sadly, though, have a serious setback in this personal growth. But I will work with him again to bring him back from this brink and I will not abandon him to a life of frightened misery, torn away from his bonded human, in a harsh climate far away.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/04/17/thinking-about-dogs/&quot;&gt;Thinking About Dogs&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on April 17, 2026.&lt;/p&gt;]]>
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/04/17/thinking-about-dogs/&quot;&gt;Thinking About Dogs&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;eve.gd:Martin Paul Eve&lt;/a&gt; on April 17, 2026.&lt;/p&gt;]]>
   </content>
 </entry>
 
@@ -574,7 +623,7 @@ systemctl --user restart wireplumber pipewire pipewire-pulse
 
 &lt;p&gt;Not a very exciting post I know, but someone might be helped by it.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/03/25/how-to-get-a-blocked-usb-stack-and-dead-microphone-working-again-on-linux/&quot;&gt;How to get a blocked USB stack and dead microphone working again on Linux&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on March 25, 2026.&lt;/p&gt;]]>
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/03/25/how-to-get-a-blocked-usb-stack-and-dead-microphone-working-again-on-linux/&quot;&gt;How to get a blocked USB stack and dead microphone working again on Linux&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;eve.gd:Martin Paul Eve&lt;/a&gt; on March 25, 2026.&lt;/p&gt;]]>
   </content>
 </entry>
 
@@ -617,7 +666,7 @@ systemctl --user restart wireplumber pipewire pipewire-pulse
   &lt;li&gt;Nelles, Paul Neave, ‘The Public Library and Late Humanist Scholarship in Early Modern Europe: Antiquarianism and Encyclopaedism’ (unpublished Ph.D. Dissertation, Johns Hopkins University, 1995)&lt;/li&gt;
 &lt;/ul&gt;
 
-    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/03/23/too-much-publishing/&quot;&gt;Too much publishing...&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on March 23, 2026.&lt;/p&gt;]]>
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/03/23/too-much-publishing/&quot;&gt;Too much publishing...&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;eve.gd:Martin Paul Eve&lt;/a&gt; on March 23, 2026.&lt;/p&gt;]]>
   </content>
 </entry>
 
@@ -731,7 +780,7 @@ session       required   pam_env.so readenv=1 envfile=/etc/default/locale user_r
 
 &lt;p&gt;Then, in another terminal, run &lt;code&gt;pkexec id&lt;/code&gt;. This should then give you output that tells you if something is going wrong. I had a case where I was earlier specifying an incorrect file path on the auth line. But now we use the defaults and we generated these earlier in the right places, so I don’t have any problems here. In any case, this debug log should help you if you are running into troubles.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/03/21/how-to-use-yubikey-for-authentication-and-sudo-on-ubuntu-2404/&quot;&gt;How to use YubiKey for authentication and sudo on Ubuntu 24.04&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on March 21, 2026.&lt;/p&gt;]]>
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/03/21/how-to-use-yubikey-for-authentication-and-sudo-on-ubuntu-2404/&quot;&gt;How to use YubiKey for authentication and sudo on Ubuntu 24.04&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;eve.gd:Martin Paul Eve&lt;/a&gt; on March 21, 2026.&lt;/p&gt;]]>
   </content>
 </entry>
 
@@ -783,7 +832,7 @@ session       required   pam_env.so readenv=1 envfile=/etc/default/locale user_r
 
 &lt;p&gt;But parts of this report are so problematic. It leaves me wondering what on earth it would take to say that the NHS was overwhelmed and did not cope. It feels to me as though the NHS can never fail. There is no situation where it would be deemed to be overwhelmed.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/03/20/the-nhs-can-never-fail-there-is-no-circumstance-where-it-would-be-deemed-overwhelmed/&quot;&gt;The NHS Can Never Fail: There Is No Circumstance Where It Would Be Deemed Overwhelmed&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on March 20, 2026.&lt;/p&gt;]]>
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/03/20/the-nhs-can-never-fail-there-is-no-circumstance-where-it-would-be-deemed-overwhelmed/&quot;&gt;The NHS Can Never Fail: There Is No Circumstance Where It Would Be Deemed Overwhelmed&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;eve.gd:Martin Paul Eve&lt;/a&gt; on March 20, 2026.&lt;/p&gt;]]>
   </content>
 </entry>
 
@@ -821,7 +870,7 @@ session       required   pam_env.so readenv=1 envfile=/etc/default/locale user_r
 
 &lt;p&gt;Overall, though, I suppose I just wanted to write this to say that this was a very enjoyable work of fiction. I did wonder, though, whether it was exhausting its concept before it was done telling the story. I also do not doubt that the high pace of the text probably makes it most suitable for Hollywood adaptation at some point in the future. How the textual features and structure that represent loss of memory can be replicated in a filmic medium remains to be seen.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/02/22/structure-and-there-is-no-antimemetics-division/&quot;&gt;Structure and There Is No Antimemetics Division&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on February 22, 2026.&lt;/p&gt;]]>
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/02/22/structure-and-there-is-no-antimemetics-division/&quot;&gt;Structure and There Is No Antimemetics Division&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;eve.gd:Martin Paul Eve&lt;/a&gt; on February 22, 2026.&lt;/p&gt;]]>
   </content>
 </entry>
 
@@ -857,7 +906,7 @@ session       required   pam_env.so readenv=1 envfile=/etc/default/locale user_r
 
 &lt;p&gt;Finally, scale is a huge problem in these breakout activities. So many of the world’s contemporary problems rest on scale. Plagiarism checking, for instance, needs a huge model of all the things you want to check for plagiarism against, and a vast infrastructure that can run the inference on it at speed. So these types of problems require BIG data. And big data tends to be managed by… Big Tech, since you need to be big to be able to handle the big data on a big infrastructure. How we build infrastructures for open-source, free, community-owned versions of these scaled infrastructures remains to be seen.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/01/25/institutions-shifting-away-from-big-tech/&quot;&gt;Institutions shifting away from big tech&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on January 25, 2026.&lt;/p&gt;]]>
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/01/25/institutions-shifting-away-from-big-tech/&quot;&gt;Institutions shifting away from big tech&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;eve.gd:Martin Paul Eve&lt;/a&gt; on January 25, 2026.&lt;/p&gt;]]>
   </content>
 </entry>
 
@@ -905,7 +954,7 @@ session       required   pam_env.so readenv=1 envfile=/etc/default/locale user_r
 
 &lt;p&gt;Anyway, this post came to me in a dream last night as I realised that it was the tenth anniversary of having a stroke.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/01/23/its-been-ten-years/&quot;&gt;It&apos;s been ten years...&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on January 23, 2026.&lt;/p&gt;]]>
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/01/23/its-been-ten-years/&quot;&gt;It&apos;s been ten years...&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;eve.gd:Martin Paul Eve&lt;/a&gt; on January 23, 2026.&lt;/p&gt;]]>
   </content>
 </entry>
 
@@ -942,7 +991,7 @@ session       required   pam_env.so readenv=1 envfile=/etc/default/locale user_r
 
 &lt;p&gt;I hope, as I say, that this might help someone.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/01/16/some-example-academic-book-proposal-forms-in-case-they-help/&quot;&gt;Some example academic book proposal forms in case they help&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on January 16, 2026.&lt;/p&gt;]]>
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/01/16/some-example-academic-book-proposal-forms-in-case-they-help/&quot;&gt;Some example academic book proposal forms in case they help&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;eve.gd:Martin Paul Eve&lt;/a&gt; on January 16, 2026.&lt;/p&gt;]]>
   </content>
 </entry>
 
@@ -966,7 +1015,7 @@ session       required   pam_env.so readenv=1 envfile=/etc/default/locale user_r
 
 &lt;p&gt;So it eventually turns out that if you add really bad code that crashes to a template, WordPress decides that it should not load your theme assets and it should load them from somewhere else. You can almost guarantee that this problem occurs because of crashing code somewhere in a theme.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/01/15/wordpress-loading-theme-assets-of-a-different-theme-to-that-selected/&quot;&gt;WordPress loading theme assets of a different theme to that selected&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on January 15, 2026.&lt;/p&gt;]]>
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/01/15/wordpress-loading-theme-assets-of-a-different-theme-to-that-selected/&quot;&gt;WordPress loading theme assets of a different theme to that selected&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;eve.gd:Martin Paul Eve&lt;/a&gt; on January 15, 2026.&lt;/p&gt;]]>
   </content>
 </entry>
 
@@ -996,7 +1045,7 @@ session       required   pam_env.so readenv=1 envfile=/etc/default/locale user_r
 
 &lt;p&gt;In any case. as above, I hope you can join us.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/01/10/in-conversation-with-matthew-g-kirschenbaum/&quot;&gt;In conversation with Matthew G. Kirschenbaum&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on January 10, 2026.&lt;/p&gt;]]>
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/01/10/in-conversation-with-matthew-g-kirschenbaum/&quot;&gt;In conversation with Matthew G. Kirschenbaum&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;eve.gd:Martin Paul Eve&lt;/a&gt; on January 10, 2026.&lt;/p&gt;]]>
   </content>
 </entry>
 
@@ -1024,7 +1073,7 @@ session       required   pam_env.so readenv=1 envfile=/etc/default/locale user_r
 
 &lt;p&gt;I also tracked how long I spent on general reading/reading for pleasure. It turns out that I spent 212 hours in this mode, or 26.5 (8-hour) days. This could have been more/better, quite frankly. It was going really well until I was hospitalised mid-way through the year. This totally derailed me, not least because I had a load of work to catch up on. I never really regained my reading foothold after that point, last year. So: let’s start again. The advantage of new years.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/01/02/who-knows-where-the-time-goes/&quot;&gt;Who Knows Where the Time Goes?&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on January 02, 2026.&lt;/p&gt;]]>
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/01/02/who-knows-where-the-time-goes/&quot;&gt;Who Knows Where the Time Goes?&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;eve.gd:Martin Paul Eve&lt;/a&gt; on January 02, 2026.&lt;/p&gt;]]>
   </content>
 </entry>
 
@@ -1078,7 +1127,7 @@ session       required   pam_env.so readenv=1 envfile=/etc/default/locale user_r
 
 &lt;p&gt;In any case. I will continue to watch this space and to see what happens next. Will Anna’s Archive disappear soon? What will happen to its enormous collection? And what might spring up like a jack-in-the-box or a whack-a-mole to take its place and to resurrect its complex metadata cataloging system?&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/01/01/the-lineages-and-inheritances-of-shadow-libraries-and-their-documentation/&quot;&gt;The Lineages and Inheritances of Shadow Libraries and their Documentation&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;Martin Paul Eve&lt;/a&gt; on January 01, 2026.&lt;/p&gt;]]>
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/01/01/the-lineages-and-inheritances-of-shadow-libraries-and-their-documentation/&quot;&gt;The Lineages and Inheritances of Shadow Libraries and their Documentation&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;eve.gd:Martin Paul Eve&lt;/a&gt; on January 01, 2026.&lt;/p&gt;]]>
   </content>
 </entry>
 

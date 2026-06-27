@@ -113,7 +113,7 @@
       },
       "isPartOf": {
         "@type": "Blog",
-        "name": "Martin Paul Eve",
+        "name": "eve.gd:Martin Paul Eve",
         "url": "https://eve.gd"
       }
     },
@@ -133,8 +133,31 @@
       },
       "isPartOf": {
         "@type": "Blog",
-        "name": "Martin Paul Eve",
+        "name": "eve.gd:Martin Paul Eve",
         "url": "https://eve.gd"
+      }
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.31274/jlsc.16288",
+      "name": "Digital Scholarly Journals Are Poorly Preserved: A Study of 7 Million Articles",
+      "url": "https://doi.org/10.31274/jlsc.16288",
+      "author": {
+        "@type": "Person",
+        "name": "Martin Paul Eve",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Crossref and Birkbeck, University of London"
+        }
+      },
+      "datePublished": "2024-01-24",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Iowa State University"
+      },
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "Journal of Librarianship and Scholarly Communication"
       }
     }
   ]
