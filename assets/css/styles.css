@@ -1077,6 +1077,45 @@ strong {
     .section-header-with-button .btn {
         width: 100%;
     }
+
+    /* Lead post: on mobile the text-over-image hero is unreadable, so drop the
+       overlay and stack it like the grid stories (image on top, dark title
+       below). Desktop keeps the hero treatment. */
+    .story-lead {
+        aspect-ratio: auto;
+        overflow: visible;
+        border-radius: 0;
+        background: none;
+    }
+
+    .story-lead img {
+        position: relative;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 3 / 2;
+        border-radius: 6px;
+        margin-bottom: 1rem;
+    }
+
+    .story-lead::after {
+        display: none;
+    }
+
+    .story-lead-body {
+        position: static;
+        padding: 0;
+    }
+
+    .story-lead-title {
+        color: var(--text-primary);
+        font-size: 1.4rem;
+        line-height: 1.2;
+    }
+
+    .story-lead .story-pill {
+        top: 1rem;
+        left: 1rem;
+    }
 }
 
 /* ========================================
