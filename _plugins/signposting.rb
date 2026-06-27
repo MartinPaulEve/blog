@@ -126,29 +126,71 @@ module Jekyll
         next unless html_output?(doc)
 
         dir, target_file = location(doc)
+        root_index = dir == "/" && target_file == "index.html"
         own_directory = target_file == "index.html" && dir != "/"
 
         page_url = File.join(base_url, dir)
-        meta = metadata_for(doc, page_url, own_directory)
+        meta = metadata_for(doc, page_url, own_directory || root_index)
         relations = Signposting.relations(meta)
 
         # Level 1 fallback -- rendered in <head> by the include.
         doc.data["signposting_links"] = Signposting.link_elements(relations).join("\n    ")
 
-        # Level 2 + describedby are only emitted for documents that own their
-        # output directory, so we never clobber a shared/root .htaccess (e.g.
-        # the site-wide redirects file).
-        next unless own_directory
-
-        write_file(dir, DESCRIBEDBY_FILE, json_metadata(doc, page_url))
-        write_file(dir, ".htaccess",
-                   Signposting.htaccess(relations,
-                                        target_file: target_file,
-                                        json_file: DESCRIBEDBY_FILE))
+        if root_index
+          # The apex shares its directory with the site-wide redirects
+          # .htaccess, so the signposting directives are appended to that file
+          # rather than written fresh (which would drop the redirects).
+          emit_root_signposting(dir, target_file, relations, doc, page_url)
+        elsif own_directory
+          # Documents that own their output directory get their own .htaccess
+          # (Level 2 Link header) and metadata.json describedby target.
+          write_file(dir, DESCRIBEDBY_FILE, json_metadata(doc, page_url))
+          write_file(dir, ".htaccess",
+                     Signposting.htaccess(relations,
+                                          target_file: target_file,
+                                          json_file: DESCRIBEDBY_FILE))
+        end
       end
     end
 
     private
+
+    # Emit the apex (root) signposting: write metadata.json at the site root and
+    # append the Link-header directives to the existing redirects .htaccess,
+    # preserving the redirects. The source-copied .htaccess StaticFile is dropped
+    # so site.write cannot overwrite the combined file we emit here.
+    def emit_root_signposting(dir, target_file, relations, doc, page_url)
+      write_file(dir, DESCRIBEDBY_FILE, json_metadata(doc, page_url))
+
+      block = Signposting.htaccess(relations,
+                                   target_file: target_file,
+                                   json_file: DESCRIBEDBY_FILE)
+      base = existing_root_htaccess
+      combined = base.empty? ? block : "#{base.rstrip}\n\n#{block}"
+
+      @site.static_files.reject! { |f| !f.is_a?(SignpostingFile) && root_htaccess?(f) }
+      write_file(dir, ".htaccess", combined)
+    end
+
+    # The committed root .htaccess content (the redirects file), or "" if absent.
+    def existing_root_htaccess
+      return "" unless @site.respond_to?(:source) && @site.source
+
+      path = File.join(@site.source, ".htaccess")
+      File.exist?(path) ? File.read(path) : ""
+    end
+
+    # True for the site-root .htaccess static file (relative path ".htaccess").
+    def root_htaccess?(file)
+      rel = if file.respond_to?(:relative_path) && file.relative_path
+              file.relative_path
+            elsif file.respond_to?(:dir) && file.respond_to?(:name)
+              File.join(file.dir.to_s, file.name.to_s)
+            else
+              ""
+            end
+      rel.sub(%r{\A/}, "") == ".htaccess"
+    end
 
     def html_output?(doc)
       ext = doc.respond_to?(:output_ext) ? doc.output_ext : File.extname(doc.url)
@@ -214,11 +256,12 @@ module Jekyll
     end
 
     def json_metadata(doc, page_url)
+      title = doc.data["title"] || @site.config["title"]
       data = {
         "@context" => "https://schema.org/",
         "@type" => schema_types(doc).first.sub("https://schema.org/", ""),
-        "name" => doc.data["title"],
-        "headline" => doc.data["title"],
+        "name" => title,
+        "headline" => title,
         "url" => page_url,
         "inLanguage" => "en-GB",
         "license" => Signposting::LICENSE_URL,

@@ -44,11 +44,12 @@ class FakePosts
 end
 
 class FakeSite
-  attr_reader :dest, :config, :static_files, :pages
-  def initialize(dest:, posts: [], pages: [])
+  attr_reader :dest, :config, :static_files, :pages, :source
+  def initialize(dest:, posts: [], pages: [], source: nil, static_files: [])
     @dest = dest
-    @config = { "url" => "https://eve.gd" }
-    @static_files = []
+    @source = source
+    @config = { "url" => "https://eve.gd", "title" => "Martin Paul Eve" }
+    @static_files = static_files
     @posts = FakePosts.new(posts)
     @pages = pages
   end
@@ -67,10 +68,27 @@ class TestSignpostingGenerator < Minitest::Test
     FileUtils.remove_entry(@dir)
   end
 
-  def run_generator(posts: [], pages: [])
-    site = FakeSite.new(dest: @dir, posts: posts, pages: pages)
+  def run_generator(posts: [], pages: [], source: nil, static_files: [])
+    site = FakeSite.new(dest: @dir, posts: posts, pages: pages,
+                        source: source, static_files: static_files)
     Jekyll::SignpostingGenerator.new.generate(site)
     site
+  end
+
+  def home_doc
+    FakeDoc.new(url: "/", data: { "layout" => "home", "title" => "Martin Paul Eve" })
+  end
+
+  # A source tree containing the site-wide redirects .htaccess, plus the
+  # StaticFile entry Jekyll would have created for it during `read`.
+  def with_root_htaccess
+    src = Dir.mktmpdir
+    File.write(File.join(src, ".htaccess"),
+               "RewriteEngine On\nRewriteRule ^feed$ /feed.xml [R=301,L]\n")
+    original = Jekyll::StaticFile.new(nil, src, "/", ".htaccess")
+    yield(src, original)
+  ensure
+    FileUtils.remove_entry(src) if src
   end
 
   def post_doc
@@ -129,12 +147,66 @@ class TestSignpostingGenerator < Minitest::Test
     assert_includes site.pages.first.data["signposting_links"], '<link rel="author"'
   end
 
-  def test_root_level_file_is_not_given_an_htaccess
-    home = FakeDoc.new(url: "/index.html", data: { "layout" => "home", "title" => "Home" })
-    site = run_generator(pages: [home])
-    refute File.exist?(File.join(@dir, ".htaccess")),
-           "must not write a root .htaccess (would clobber the redirects file)"
-    # Level 1 fallback is still provided.
-    assert_includes site.pages.first.data["signposting_links"], "<link rel="
+  def test_root_index_appends_signposting_to_existing_htaccess
+    with_root_htaccess do |src, original|
+      run_generator(pages: [home_doc], source: src, static_files: [original])
+      ht = File.read(File.join(@dir, ".htaccess"))
+      # The site-wide redirects must be preserved...
+      assert_includes ht, "RewriteRule ^feed$ /feed.xml [R=301,L]"
+      # ...and the signposting directives appended.
+      assert_includes ht, '<Files "index.html">'
+      assert_includes ht, "Header set Link"
+      assert_includes ht, 'rel=\"author\"'
+      assert_includes ht, 'rel=\"describedby\"'
+      assert_includes ht, '<Files "metadata.json">'
+    end
+  end
+
+  def test_root_index_writes_jsonld_metadata
+    site = run_generator(pages: [home_doc])
+    path = File.join(@dir, "metadata.json")
+    assert File.exist?(path), "expected apex metadata.json to be written"
+    json = JSON.parse(File.read(path))
+    assert_equal "CollectionPage", json["@type"]
+    assert_equal "https://eve.gd/", json["url"]
+  end
+
+  def test_root_index_drops_source_htaccess_so_it_is_not_reclobbered
+    with_root_htaccess do |src, original|
+      site = run_generator(pages: [home_doc], source: src, static_files: [original])
+      # The source-copied root .htaccess StaticFile must be removed so that
+      # site.write cannot overwrite the combined file we emitted...
+      refute_includes site.static_files, original
+      # ...while a replacement root .htaccess is registered to survive cleanup.
+      root = site.static_files.select { |f| f.name == ".htaccess" && f.dir == "/" }
+      assert_equal 1, root.length
+    end
+  end
+
+  def test_root_handling_keeps_nested_post_htaccess
+    with_root_htaccess do |src, original|
+      site = run_generator(posts: [post_doc], pages: [home_doc],
+                           source: src, static_files: [original])
+      assert File.exist?(
+        File.join(@dir, "2026/06/23/making-blog-harvestable", ".htaccess")
+      ), "nested post .htaccess must still be written"
+      nested = site.static_files.select { |f| f.name == ".htaccess" }
+      assert_operator nested.length, :>=, 2,
+                      "both the nested and the apex .htaccess should be registered"
+    end
+  end
+
+  def test_metadata_falls_back_to_site_title_when_doc_has_no_title
+    titleless = FakeDoc.new(url: "/", data: { "layout" => "home" })
+    run_generator(pages: [titleless])
+    json = JSON.parse(File.read(File.join(@dir, "metadata.json")))
+    assert_equal "Martin Paul Eve", json["name"]
+    assert_equal "Martin Paul Eve", json["headline"]
+  end
+
+  def test_root_index_still_sets_level1_links
+    site = run_generator(pages: [home_doc])
+    assert_includes site.pages.first.data["signposting_links"],
+                    '<link rel="author"'
   end
 end
