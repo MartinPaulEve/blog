@@ -33,7 +33,7 @@ class FakeSite
   attr_reader :dest, :source, :config, :static_files, :pages
   def initialize(dest:, source:, posts: [], pages: [])
     @dest = dest; @source = source
-    @config = { "url" => "https://eve.gd", "title" => "Martin Paul Eve" }
+    @config = { "url" => "https://eve.gd", "title" => "Martin Paul Eve", "owner" => { "job" => "Test Job Title" } }
     @static_files = []; @posts = FakePosts.new(posts); @pages = pages
   end
   def posts; @posts; end
@@ -164,6 +164,23 @@ class TestOgImageGenerator < Minitest::Test
     html = File.read(File.join(@source, ".og_cache", "2026-06-23-harvestable.png"))
     assert_includes html, "data:image/png;base64,"
     assert_includes html, 'class="right"'
+  end
+
+  def test_home_snippet_uses_owner_job
+    home = FakeDoc.new(url: "/", data: { "layout" => "home", "title" => "Home" })
+    run_generator(pages: [home])
+    html = File.read(File.join(@source, ".og_cache", "index.png"))
+    assert_includes html, "Test Job Title"
+  end
+
+  def test_portrait_card_image_uses_taller_frame
+    FileUtils.mkdir_p(File.join(@source, "images"))
+    File.binwrite(File.join(@source, "images", "cover.png"), png_bytes(640, 1024))
+    p = post(data: { "layout" => "post", "title" => "Cover", "excerpt" => "x",
+                     "og_card_image" => "cover.png" })
+    run_generator(posts: [p])
+    html = File.read(File.join(@source, ".og_cache", "2026-06-23-harvestable.png"))
+    assert_includes html, "height:534px"
   end
 
   def test_page_snippet_falls_back_to_content

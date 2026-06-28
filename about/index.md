@@ -1,5 +1,6 @@
 ---
 layout: page
+og_card_image: mpe.png
 title: About Martin Eve
 tags: [about, Martin Eve]
 modified: 2015-02-04T20:53:07.573882-04:00

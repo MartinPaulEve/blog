@@ -156,6 +156,18 @@ class TestOgImage < Minitest::Test
     assert_includes html, "og-full"                   # full-width modifier
   end
 
+  def test_render_html_portrait_image_uses_taller_card
+    html = OgImage.render_html(pill: "p", title: "t", snippet: "s", button: "b",
+                               image_uri: "data:image/jpeg;base64,XXX", image_aspect: 0.625, fonts: {})
+    assert_includes html, "height:534px"
+  end
+
+  def test_render_html_landscape_image_uses_standard_card
+    html = OgImage.render_html(pill: "p", title: "t", snippet: "s", button: "b",
+                               image_uri: "data:image/jpeg;base64,XXX", image_aspect: 1.5, fonts: {})
+    assert_includes html, "height:454px"
+  end
+
   def test_render_html_embeds_fonts_when_provided
     html = render(fonts: { fraunces: "data:font/ttf;base64,FFF",
                            mono_regular: "data:font/ttf;base64,MMM",

@@ -47,7 +47,7 @@ module OgImage
 
   # Plain-text snippet: strip tags/entities, collapse whitespace, truncate on a
   # word boundary with an ellipsis.
-  def self.excerpt_text(raw, limit = 160)
+  def self.excerpt_text(raw, limit = 240)
     text = raw.to_s.gsub(/<[^>]+>/, " ").gsub(/&[#a-zA-Z0-9]+;/, " ").gsub(/\s+/, " ").strip
     return "" if text.empty?
     return text if text.length <= limit
@@ -111,7 +111,7 @@ module OgImage
   end
 
   # Assemble the 1200x630 card HTML. image_uri nil => full-width text layout.
-  def self.render_html(pill:, title:, snippet:, button:, image_uri:, fonts:)
+  def self.render_html(pill:, title:, snippet:, button:, image_uri:, image_aspect: nil, fonts:)
     faces = +""
     if fonts[:fraunces]
       faces << "@font-face{font-family:'Fraunces';font-weight:100 900;" \
@@ -128,10 +128,15 @@ module OgImage
 
     has_image = !image_uri.nil? && !image_uri.empty?
     full = has_image ? "" : " og-full"
+    # A portrait image gets a taller card sized to its own aspect ratio so the
+    # whole image shows (no crop, no letterbox); landscape/square keep the
+    # standard landscape card.
+    portrait = has_image && image_aspect && image_aspect < 0.9
+    card_style = portrait ? "width:#{(534 * image_aspect).round}px;height:534px" : "width:100%;height:454px"
     snippet_html = snippet.to_s.empty? ? "" :
       %(<p class="snippet">#{html_escape(snippet)}</p>)
     right_html = has_image ?
-      %(<div class="right"><div class="imgcard"><img src="#{image_uri}" alt=""></div></div>) : ""
+      %(<div class="right"><div class="imgcard" style="#{card_style}"><img src="#{image_uri}" alt=""></div></div>) : ""
 
     <<~HTML
       <!doctype html><html><head><meta charset="utf-8"><style>
@@ -156,13 +161,13 @@ module OgImage
       .title{font-family:'Fraunces',Georgia,serif;font-weight:600;color:#fff;
         font-size:60px;line-height:1.07;margin:30px 0 20px;
         display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-      .snippet{color:#e8e5df;font-size:24px;line-height:1.45;max-width:94%;
-        display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+      .snippet{color:#f6f4f0;font-size:20px;line-height:1.4;max-width:94%;
+        display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
       .btn{align-self:flex-start;margin-top:36px;background:#b3122a;color:#fff;
         font-weight:600;font-size:22px;padding:16px 32px;border-radius:10px}
       .right{width:50%;position:relative;display:flex;align-items:center;
         justify-content:center;padding:48px 56px 48px 0}
-      .imgcard{width:100%;height:454px;border-radius:24px;overflow:hidden;
+      .imgcard{border-radius:24px;overflow:hidden;
         box-shadow:0 28px 60px rgba(0,0,0,.55);background:#1a1a1a}
       .imgcard img{width:100%;height:100%;object-fit:cover;display:block}
       </style></head>
@@ -269,28 +274,45 @@ module Jekyll
     end
 
     def build_html(doc, is_post)
+      image_uri, image_aspect = feature_image(doc)
       OgImage.render_html(
         pill: OgImage::SITE_AUTHOR,
         title: OgImage.title_for(doc.data["title"], @site.config["title"]),
         snippet: OgImage.excerpt_text(snippet_source(doc)),
         button: OgImage.button_label(is_post),
-        image_uri: feature_uri(doc),
+        image_uri: image_uri,
+        image_aspect: image_aspect,
         fonts: @fonts,
       )
     end
 
     # Posts have an auto-excerpt; pages do not, so fall back to their content.
     def snippet_source(doc)
+      if doc.data["layout"] == "home" && (owner = @site.config["owner"]).is_a?(Hash) && owner["job"]
+        return owner["job"]
+      end
+
       excerpt = doc.data["excerpt"].to_s
       return excerpt unless excerpt.strip.empty?
 
       doc.respond_to?(:content) ? doc.content.to_s : ""
     end
 
-    def feature_uri(doc)
+    # [data_uri, aspect] for the card image, or [nil, nil] for full-width text.
+    def feature_image(doc)
+      path = feature_path(doc)
+      return [nil, nil] unless path
+
+      dims = OgImage.image_dimensions(path)
+      aspect = dims && dims[1].to_i.positive? ? dims[0].to_f / dims[1] : nil
+      [OgImage.data_uri(path), aspect]
+    end
+
+    # Absolute path of the image to embed, or nil for the full-width layout.
+    def feature_path(doc)
       override = doc.data["og_card_image"]
       if override.is_a?(String) && !override.empty? && !override.include?("http")
-        return OgImage.data_uri(File.join(@site.source, "images", override))
+        return File.join(@site.source, "images", override)
       end
 
       feature = doc.data["image"] && doc.data["image"]["feature"]
@@ -300,7 +322,7 @@ module Jekyll
       path = File.join(@site.source, "images", feature)
       return nil if OgImage.wide_banner?(path) # banners suit the full-width layout
 
-      OgImage.data_uri(path)
+      path
     end
 
     def load_fonts
