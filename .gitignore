@@ -8,3 +8,6 @@ _asset_bundler_cache
 .jekyll-metadata
 .jekyll-cache/
 .idea/workspace.xml
+
+# Generated Open Graph image cache (regenerated locally; served copies live in _site)
+.og_cache/
