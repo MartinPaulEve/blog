@@ -1,5 +1,6 @@
 ---
 layout: page
+og_card_image: mpe.png
 title: What I do to make OA a reality
 categories: []
 tags: []

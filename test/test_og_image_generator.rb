@@ -173,6 +173,14 @@ class TestOgImageGenerator < Minitest::Test
     assert_includes html, "Test Job Title"
   end
 
+  def test_og_card_snippet_job_sentinel_uses_owner_job
+    page = FakeDoc.new(url: "/about/",
+                       data: { "layout" => "page", "title" => "About", "og_card_snippet" => "job" })
+    run_generator(pages: [page])
+    html = File.read(File.join(@source, ".og_cache", "about.png"))
+    assert_includes html, "Test Job Title"
+  end
+
   def test_portrait_card_image_uses_taller_frame
     FileUtils.mkdir_p(File.join(@source, "images"))
     File.binwrite(File.join(@source, "images", "cover.png"), png_bytes(640, 1024))

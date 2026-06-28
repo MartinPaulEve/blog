@@ -286,11 +286,17 @@ module Jekyll
       )
     end
 
-    # Posts have an auto-excerpt; pages do not, so fall back to their content.
+    # The snippet text. The home page, and any document whose front matter sets
+    # `og_card_snippet: job`, use the site owner's job title; `og_card_snippet`
+    # may also be any literal string. Otherwise posts use their auto-excerpt and
+    # pages fall back to their content.
     def snippet_source(doc)
-      if doc.data["layout"] == "home" && (owner = @site.config["owner"]).is_a?(Hash) && owner["job"]
-        return owner["job"]
+      custom = doc.data["og_card_snippet"]
+      if custom == "job" || doc.data["layout"] == "home"
+        owner = @site.config["owner"]
+        return owner["job"] if owner.is_a?(Hash) && owner["job"]
       end
+      return custom if custom.is_a?(String) && custom != "job" && !custom.strip.empty?
 
       excerpt = doc.data["excerpt"].to_s
       return excerpt unless excerpt.strip.empty?
