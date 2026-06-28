@@ -44,4 +44,43 @@ class TestOgImage < Minitest::Test
     assert_equal "https://eve.gd/images/og/about.twitter.png",
                  OgImage.asset_url("https://eve.gd", "about", twitter: true)
   end
+
+  def test_excerpt_strips_html_and_collapses_whitespace
+    raw = "<p>Hello   <strong>there</strong>\n\nworld</p>"
+    assert_equal "Hello there world", OgImage.excerpt_text(raw)
+  end
+
+  def test_excerpt_truncates_on_word_boundary_with_ellipsis
+    raw = "one two three four five six seven eight nine ten eleven twelve"
+    out = OgImage.excerpt_text(raw, 20)
+    assert out.length <= 21, "truncated to ~limit plus ellipsis"
+    assert out.end_with?("…")
+    refute_includes out, "  "
+  end
+
+  def test_excerpt_blank
+    assert_equal "", OgImage.excerpt_text(nil)
+    assert_equal "", OgImage.excerpt_text("   ")
+  end
+
+  def test_data_uri_from_png_fixture
+    require "tmpdir"
+    Dir.mktmpdir do |d|
+      path = File.join(d, "x.png")
+      File.binwrite(path, "\x89PNG\r\n\x1a\nDATA")
+      uri = OgImage.data_uri(path)
+      assert uri.start_with?("data:image/png;base64,")
+      assert_equal "\x89PNG\r\n\x1a\nDATA".b,
+                   Base64.decode64(uri.sub("data:image/png;base64,", "")).b
+    end
+  end
+
+  def test_data_uri_missing_file_is_nil
+    assert_nil OgImage.data_uri("/no/such/file.png")
+    assert_nil OgImage.data_uri(nil)
+  end
+
+  def test_html_escape
+    assert_equal "a &amp; b &lt;c&gt; &quot;d&quot;", OgImage.html_escape('a & b <c> "d"')
+  end
 end

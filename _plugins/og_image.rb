@@ -39,6 +39,33 @@ module OgImage
     name = twitter ? "#{slug}.twitter.png" : "#{slug}.png"
     File.join(base_url.to_s, "images", "og", name)
   end
+
+  IMAGE_MIME = {
+    ".png" => "image/png", ".jpg" => "image/jpeg", ".jpeg" => "image/jpeg",
+    ".gif" => "image/gif", ".webp" => "image/webp", ".svg" => "image/svg+xml"
+  }.freeze
+
+  # Plain-text snippet: strip tags/entities, collapse whitespace, truncate on a
+  # word boundary with an ellipsis.
+  def self.excerpt_text(raw, limit = 160)
+    text = raw.to_s.gsub(/<[^>]+>/, " ").gsub(/&[#a-zA-Z0-9]+;/, " ").gsub(/\s+/, " ").strip
+    return "" if text.empty?
+    return text if text.length <= limit
+
+    text[0, limit].sub(/\s+\S*\z/, "").rstrip + "…"
+  end
+
+  # base64 data URI for a local file, or nil when absent.
+  def self.data_uri(path, mime = nil)
+    return nil unless path && File.exist?(path)
+
+    mime ||= IMAGE_MIME[File.extname(path).downcase] || "application/octet-stream"
+    "data:#{mime};base64,#{Base64.strict_encode64(File.binread(path))}"
+  end
+
+  def self.html_escape(text)
+    text.to_s.gsub("&", "&amp;").gsub("<", "&lt;").gsub(">", "&gt;").gsub('"', "&quot;")
+  end
 end
 
 require "json"
