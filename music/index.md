@@ -1,5 +1,6 @@
 ---
 layout: page
+og_card_image: losingit.png
 title: Music
 tags: [music, Martin Eve]
 modified: 2018-05-08T20:53:07.573882-04:00

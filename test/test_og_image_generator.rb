@@ -154,6 +154,18 @@ class TestOgImageGenerator < Minitest::Test
     refute_includes html, "data:image/png;base64,"
   end
 
+  def test_og_card_image_override_is_used_and_bypasses_banner_check
+    FileUtils.mkdir_p(File.join(@source, "images"))
+    # a wide banner that would normally be dropped, but an explicit override wins
+    File.binwrite(File.join(@source, "images", "wide.png"), png_bytes(1902, 353))
+    p = post(data: { "layout" => "post", "title" => "Override", "excerpt" => "x",
+                     "og_card_image" => "wide.png" })
+    run_generator(posts: [p])
+    html = File.read(File.join(@source, ".og_cache", "2026-06-23-harvestable.png"))
+    assert_includes html, "data:image/png;base64,"
+    assert_includes html, 'class="right"'
+  end
+
   def test_page_snippet_falls_back_to_content
     page = FakeDoc.new(url: "/about/", data: { "layout" => "page", "title" => "About" },
                        content: "<p>Bio body text.</p>")

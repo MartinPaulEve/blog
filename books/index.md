@@ -1,5 +1,6 @@
 ---
 layout: page
+og_card_image: warezcover.jpg
 title: Books
 tags: [books, Martin Eve]
 modified: 2017-02-01T20:53:07.573882-04:00
