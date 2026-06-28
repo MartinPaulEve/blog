@@ -83,4 +83,41 @@ class TestOgImage < Minitest::Test
   def test_html_escape
     assert_equal "a &amp; b &lt;c&gt; &quot;d&quot;", OgImage.html_escape('a & b <c> "d"')
   end
+
+  def render(image_uri: "data:image/png;base64,AAA", fonts: {})
+    OgImage.render_html(pill: OgImage::SITE_AUTHOR, title: "My <Post>",
+                        snippet: "A snippet & more", button: "Read post",
+                        image_uri: image_uri, fonts: fonts)
+  end
+
+  def test_render_html_contains_core_content_escaped
+    html = render
+    assert_includes html, "eve.gd: Martin Paul Eve"
+    assert_includes html, "My &lt;Post&gt;"          # title escaped
+    assert_includes html, "A snippet &amp; more"      # snippet escaped
+    assert_includes html, "Read post"
+    assert_includes html, "1200px"
+    assert_includes html, "#b3122a"
+  end
+
+  def test_render_html_includes_image_card_when_image_present
+    html = render(image_uri: "data:image/png;base64,ZZZ")
+    assert_includes html, "data:image/png;base64,ZZZ"
+    assert_includes html, 'class="right"'
+  end
+
+  def test_render_html_omits_image_card_when_absent
+    html = render(image_uri: nil)
+    refute_includes html, 'class="right"'
+    assert_includes html, "og-full"                   # full-width modifier
+  end
+
+  def test_render_html_embeds_fonts_when_provided
+    html = render(fonts: { fraunces: "data:font/ttf;base64,FFF",
+                           mono_regular: "data:font/ttf;base64,MMM",
+                           mono_semibold: "data:font/ttf;base64,SSS" })
+    assert_includes html, "@font-face"
+    assert_includes html, "data:font/ttf;base64,FFF"
+    assert_includes html, "Fraunces"
+  end
 end
