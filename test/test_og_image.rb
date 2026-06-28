@@ -84,6 +84,50 @@ class TestOgImage < Minitest::Test
     assert_equal "a &amp; b &lt;c&gt; &quot;d&quot;", OgImage.html_escape('a & b <c> "d"')
   end
 
+  def png_bytes(w, h)
+    "\x89PNG\r\n\x1a\n".b + [13].pack("N") + "IHDR".b + [w].pack("N") + [h].pack("N") + ("\x00" * 5).b
+  end
+
+  def jpeg_bytes(w, h)
+    "\xFF\xD8".b + "\xFF\xC0".b + [17].pack("n") + "\x08".b + [h].pack("n") + [w].pack("n") + ("\x00" * 10).b
+  end
+
+  def test_image_dimensions_png
+    require "tmpdir"
+    Dir.mktmpdir do |d|
+      p = File.join(d, "b.png"); File.binwrite(p, png_bytes(1902, 353))
+      assert_equal [1902, 353], OgImage.image_dimensions(p)
+    end
+  end
+
+  def test_image_dimensions_jpeg
+    require "tmpdir"
+    Dir.mktmpdir do |d|
+      p = File.join(d, "a.jpg"); File.binwrite(p, jpeg_bytes(945, 630))
+      assert_equal [945, 630], OgImage.image_dimensions(p)
+    end
+  end
+
+  def test_image_dimensions_unknown_is_nil
+    require "tmpdir"
+    Dir.mktmpdir do |d|
+      p = File.join(d, "x.bin"); File.binwrite(p, "not an image")
+      assert_nil OgImage.image_dimensions(p)
+    end
+    assert_nil OgImage.image_dimensions("/no/such/file")
+  end
+
+  def test_wide_banner_detection
+    require "tmpdir"
+    Dir.mktmpdir do |d|
+      wide = File.join(d, "w.png"); File.binwrite(wide, png_bytes(1902, 353))
+      ok = File.join(d, "o.png"); File.binwrite(ok, png_bytes(945, 630))
+      assert OgImage.wide_banner?(wide)
+      refute OgImage.wide_banner?(ok)
+      refute OgImage.wide_banner?("/no/file.png") # unknown => not treated as banner
+    end
+  end
+
   def render(image_uri: "data:image/png;base64,AAA", fonts: {})
     OgImage.render_html(pill: OgImage::SITE_AUTHOR, title: "My <Post>",
                         snippet: "A snippet & more", button: "Read post",

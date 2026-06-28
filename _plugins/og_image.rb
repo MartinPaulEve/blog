@@ -67,6 +67,49 @@ module OgImage
     text.to_s.gsub("&", "&amp;").gsub("<", "&lt;").gsub(">", "&gt;").gsub('"', "&quot;")
   end
 
+  # [width, height] for a PNG/JPEG/GIF file, parsed from its header, or nil.
+  def self.image_dimensions(path)
+    return nil unless path && File.exist?(path)
+
+    data = File.binread(path)
+    if data[0, 8] == "\x89PNG\r\n\x1a\n".b
+      [data[16, 4].unpack1("N"), data[20, 4].unpack1("N")]
+    elsif data[0, 6] == "GIF87a".b || data[0, 6] == "GIF89a".b
+      [data[6, 2].unpack1("v"), data[8, 2].unpack1("v")]
+    elsif data[0, 2] == "\xFF\xD8".b
+      jpeg_dimensions(data)
+    end
+  end
+
+  def self.jpeg_dimensions(data)
+    i = 2
+    while i < data.bytesize - 8
+      return nil unless data.getbyte(i) == 0xFF
+
+      marker = data.getbyte(i + 1)
+      if marker >= 0xC0 && marker <= 0xCF && ![0xC4, 0xC8, 0xCC].include?(marker)
+        return [data[i + 7, 2].unpack1("n"), data[i + 5, 2].unpack1("n")]
+      end
+
+      seg_len = data[i + 2, 2].unpack1("n")
+      break unless seg_len
+
+      i += 2 + seg_len
+    end
+    nil
+  end
+
+  # A wide hero banner (aspect >= max_aspect) does not suit the portrait card
+  # slot, so it is dropped in favour of the full-width text layout. Unknown
+  # dimensions => not a banner (show the image).
+  def self.wide_banner?(path, max_aspect = 2.0)
+    dims = image_dimensions(path)
+    return false unless dims
+
+    w, h = dims
+    h.to_i.positive? && (w.to_f / h) >= max_aspect
+  end
+
   # Assemble the 1200x630 card HTML. image_uri nil => full-width text layout.
   def self.render_html(pill:, title:, snippet:, button:, image_uri:, fonts:)
     faces = +""
@@ -229,11 +272,19 @@ module Jekyll
       OgImage.render_html(
         pill: OgImage::SITE_AUTHOR,
         title: OgImage.title_for(doc.data["title"], @site.config["title"]),
-        snippet: OgImage.excerpt_text(doc.data["excerpt"].to_s),
+        snippet: OgImage.excerpt_text(snippet_source(doc)),
         button: OgImage.button_label(is_post),
         image_uri: feature_uri(doc),
         fonts: @fonts,
       )
+    end
+
+    # Posts have an auto-excerpt; pages do not, so fall back to their content.
+    def snippet_source(doc)
+      excerpt = doc.data["excerpt"].to_s
+      return excerpt unless excerpt.strip.empty?
+
+      doc.respond_to?(:content) ? doc.content.to_s : ""
     end
 
     def feature_uri(doc)
@@ -241,7 +292,10 @@ module Jekyll
       return nil unless feature.is_a?(String) && !feature.empty?
       return nil if feature.include?("http") # only embed local files
 
-      OgImage.data_uri(File.join(@site.source, "images", feature))
+      path = File.join(@site.source, "images", feature)
+      return nil if OgImage.wide_banner?(path) # banners suit the full-width layout
+
+      OgImage.data_uri(path)
     end
 
     def load_fonts

@@ -19,8 +19,8 @@ end
 require_relative "../_plugins/og_image"
 
 class FakeDoc
-  attr_reader :url, :data
-  def initialize(url:, data:); @url = url; @data = data; end
+  attr_reader :url, :data, :content
+  def initialize(url:, data:, content: nil); @url = url; @data = data; @content = content; end
   def output_ext; @url.end_with?("/") ? ".html" : File.extname(@url); end
 end
 
@@ -137,5 +137,28 @@ class TestOgImageGenerator < Minitest::Test
     html = File.read(File.join(@source, ".og_cache", "2026-06-23-harvestable.png"))
     assert_includes html, "data:image/jpeg;base64,"
     assert_includes html, 'class="right"'
+  end
+
+  def png_bytes(w, h)
+    "\x89PNG\r\n\x1a\n".b + [13].pack("N") + "IHDR".b + [w].pack("N") + [h].pack("N") + ("\x00" * 5).b
+  end
+
+  def test_wide_banner_feature_falls_back_to_full_width
+    FileUtils.mkdir_p(File.join(@source, "images"))
+    File.binwrite(File.join(@source, "images", "banner.png"), png_bytes(1902, 353))
+    p = post(data: { "layout" => "post", "title" => "Banner", "excerpt" => "x",
+                     "image" => { "feature" => "banner.png" } })
+    run_generator(posts: [p])
+    html = File.read(File.join(@source, ".og_cache", "2026-06-23-harvestable.png"))
+    assert_includes html, "og-full"
+    refute_includes html, "data:image/png;base64,"
+  end
+
+  def test_page_snippet_falls_back_to_content
+    page = FakeDoc.new(url: "/about/", data: { "layout" => "page", "title" => "About" },
+                       content: "<p>Bio body text.</p>")
+    run_generator(pages: [page])
+    html = File.read(File.join(@source, ".og_cache", "about.png"))
+    assert_includes html, "Bio body text."
   end
 end
