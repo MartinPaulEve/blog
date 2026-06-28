@@ -5,17 +5,19 @@
 
 ## Overview
 
-Replace the current behaviour — using a post's raw `image.feature` as its
-social-preview image — with a build-time **generated** card per post: a
-designed 1200×630 composition in the site's red/black visual language, cached
-on disk so it is produced once per post and re-used on every subsequent build.
-The same artwork is used for Open Graph and (at the Twitter-specific size) for
-the Twitter/X card.
+Replace the current behaviour — using a document's raw `image.feature` as its
+social-preview image — with a build-time **generated** card per post and per
+main content page (the apex landing page, `/about/`, `/books/`, `/music/`,
+`/posts/`, category listings): a designed 1200×630 composition in the site's
+red/black visual language, cached on disk so it is produced once per document and
+re-used on every subsequent build. The same artwork is used for Open Graph and
+(at the Twitter-specific size) for the Twitter/X card.
 
 ## Goals
 
-- One designed preview image per `layout: post`, matching the site's brand
-  (near-black background, brand-red diagonal, Fraunces serif + IBM Plex Mono).
+- One designed preview image per post and per main content page, matching the
+  site's brand (near-black background, brand-red diagonal, Fraunces serif +
+  IBM Plex Mono).
 - Generated once and cached **outside `_site`**; deleting a cached file is the
   only action required to force regeneration.
 - Drive `og:image` and `twitter:image` from the generated artwork.
@@ -24,8 +26,9 @@ the Twitter/X card.
 
 ## Non-goals
 
-- Generating cards for pages other than posts (apex, /about/, etc.). Out of
-  scope; can be added later.
+- Generating cards for non-content pages: redirect/alias stubs, the 404 page,
+  feeds, and the preserved archival microsites are excluded (see the scope rule
+  in Architecture).
 - Auto-invalidating the cache when a post's title/excerpt/image changes. By
   design the cache key is the slug only; regeneration is manual (delete file).
 - Redesigning the on-page post hero or the site CSS.
@@ -58,12 +61,22 @@ A new Ruby Jekyll plugin, `_plugins/og_image.rb`, mirroring the structure of
 - A `Jekyll::OgImageGenerator < Generator` (priority `:low`, `safe false`) that
   wires the module into the build.
 
-### Per-post flow (generator)
+### Scope rule (which documents get a card)
 
-For each `site.posts.docs` document with `layout: post`:
+Process `site.posts.docs` plus the `site.pages` whose `layout` is one of
+`home`, `page`, `post-index`, `category`. This covers the apex landing page,
+`/about/`, `/books/`, `/music/`, `/posts/`, and category listings, while
+excluding redirect/alias stubs, the 404 page, feeds, and archival microsites
+(which use other or no layouts). Only HTML output is considered.
 
-1. Compute `slug` from the post's output path; cache file = `.og_cache/<slug>.png`
-   and `.og_cache/<slug>.twitter.png`.
+### Per-document flow (generator)
+
+For each in-scope document:
+
+1. Compute `slug` from the document's output path (e.g. `2026/06/23/harvestable`
+   → a filesystem-safe `2026-06-23-harvestable`; `/about/` → `about`; the apex
+   `/` → `index`). Cache files = `.og_cache/<slug>.png` and
+   `.og_cache/<slug>.twitter.png`.
 2. On a cache miss:
    a. Assemble an HTML document (template + post data + embedded feature image +
       `@font-face` from local TTFs).
@@ -105,7 +118,7 @@ an implementation detail, finalised during the build.
   re-rendering on the local build machine (this site builds and deploys from one
   machine via `deploy.sh`), which satisfies "don't regenerate each time". A fresh
   clone would regenerate the cache on first build.
-- Cache key: the post **slug** only. Two files per post (`<slug>.png`,
+- Cache key: the document **slug** only. Two files per document (`<slug>.png`,
   `<slug>.twitter.png`).
 - **Regeneration:** delete the file(s) in `.og_cache/`; the next build rebuilds
   just those.
@@ -119,10 +132,12 @@ an implementation detail, finalised during the build.
   - **Kicker pill:** rounded-full, fill `#b3122a`, text white, IBM Plex Mono,
     content **"eve.gd: Martin Paul Eve"**.
   - **Title:** white `#ffffff`, **Fraunces** ~600 weight, ~60px, clamped to 3
-    lines with ellipsis.
-  - **Snippet:** muted `#b3ada3`, ~24px, post excerpt — HTML-stripped, collapsed
-    whitespace, truncated to ~160 chars / 2–3 lines with ellipsis.
-  - **Button:** fill `#b3122a`, white IBM Plex Mono text **"Read post"**.
+    lines with ellipsis. Pages without their own `title` (the apex) fall back to
+    the site title, "Martin Paul Eve".
+  - **Snippet:** muted `#b3ada3`, ~24px, the document excerpt — HTML-stripped,
+    collapsed whitespace, truncated to ~160 chars / 2–3 lines with ellipsis.
+  - **Button:** fill `#b3122a`, white IBM Plex Mono text — **"Read post"** for
+    posts, **"Read more"** for pages.
   - The demo's "Your Startup Logo" element is omitted.
 - **Right column (~38%):** the post's resolved feature image in a rounded
   (~24px) shadowed card, `object-fit: cover`, layered above the diagonal.
@@ -169,7 +184,12 @@ any document without a generated image.
 
 Pure `OgImage` helpers (no Chrome, no network), red/green:
 
-- slug/cache-path derivation from a post URL.
+- slug/cache-path derivation: a post URL, `/about/` → `about`, the apex `/` →
+  `index`.
+- scope rule: posts and `home`/`page`/`post-index`/`category` pages are in;
+  other layouts are out.
+- title fallback to the site title when a document has none; button label
+  ("Read post" for posts vs "Read more" for pages).
 - excerpt extraction: HTML strip, whitespace collapse, truncation + ellipsis.
 - feature-image resolution (relative vs absolute) and data-URI embedding from a
   temp fixture image.
@@ -193,9 +213,10 @@ the head tags point at them.
 
 ## Performance
 
-First full build renders up to 994 posts via Chrome (one Chrome invocation each;
-the Twitter variant is a cheap ImageMagick crop) — a one-time cost of roughly
-15–30 minutes — after which everything is cache-fast. Documented and accepted.
+First full build renders up to 994 posts plus a handful of content pages via
+Chrome (one Chrome invocation each; the Twitter variant is a cheap ImageMagick
+crop) — a one-time cost of roughly 15–30 minutes — after which everything is
+cache-fast. Documented and accepted.
 (A future optimisation could throttle per build, but is out of scope here.)
 
 ## Risks
