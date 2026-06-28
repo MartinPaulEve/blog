@@ -143,6 +143,8 @@ end
 require "json"
 require "base64"
 require "fileutils"
+require "open3"
+require "tmpdir"
 
 if defined?(Jekyll::Generator)
 module Jekyll
@@ -258,6 +260,37 @@ module Jekyll
       FileUtils.mkdir_p(dest_dir)
       FileUtils.cp(src, File.join(dest_dir, name))
       @site.static_files << OgImageFile.new(@site, @site.dest, OG_DEST_DIR, name)
+    end
+
+    CHROME_BINS = %w[google-chrome google-chrome-stable chromium chromium-browser].freeze
+
+    def chrome_render(html, width, height, out_path)
+      bin = CHROME_BINS.find { |b| system("command -v #{b} >/dev/null 2>&1") }
+      raise "no Chrome binary found (tried: #{CHROME_BINS.join(', ')})" unless bin
+
+      Dir.mktmpdir("og") do |tmp|
+        html_path = File.join(tmp, "card.html")
+        File.write(html_path, html)
+        cmd = [bin, "--headless=new", "--disable-gpu", "--no-sandbox",
+               "--hide-scrollbars", "--force-device-scale-factor=1",
+               "--default-background-color=00000000",
+               "--window-size=#{width},#{height}",
+               "--screenshot=#{out_path}", "file://#{html_path}"]
+        _out, err, status = Open3.capture3(*cmd)
+        unless status.success? && File.exist?(out_path)
+          Jekyll.logger.warn "OgImage:", "render failed for #{out_path}: #{err.lines.last}"
+        end
+      end
+    end
+
+    def imagemagick_crop(src_path, out_path, width, height)
+      cmd = ["convert", src_path, "-gravity", "center",
+             "-crop", "#{width}x#{height}+0+0", "+repage", out_path]
+      _out, err, status = Open3.capture3(*cmd)
+      unless status.success? && File.exist?(out_path)
+        Jekyll.logger.warn "OgImage:", "crop failed for #{out_path}: #{err.lines.last}"
+        FileUtils.cp(src_path, out_path) # fall back to the uncropped image
+      end
     end
   end
 
