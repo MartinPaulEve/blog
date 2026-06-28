@@ -143,3 +143,127 @@ end
 require "json"
 require "base64"
 require "fileutils"
+
+if defined?(Jekyll::Generator)
+module Jekyll
+  # Renders one social card per in-scope document, caches it outside _site, and
+  # serves a copy from <dest>/images/og/. The renderer (headless Chrome) and
+  # cropper (ImageMagick) are injectable so the wiring tests run without them.
+  class OgImageGenerator < Generator
+    safe false
+    priority :low
+
+    OG_DEST_DIR = "images/og".freeze
+    CACHE_DIR   = ".og_cache".freeze
+
+    attr_writer :renderer, :cropper
+
+    def renderer
+      @renderer ||= method(:chrome_render)
+    end
+
+    def cropper
+      @cropper ||= method(:imagemagick_crop)
+    end
+
+    def generate(site)
+      @site = site
+      @fonts = load_fonts
+      base_url = site.config["url"].to_s
+
+      documents(site).each do |doc, is_post|
+        next unless html_output?(doc)
+
+        slug = OgImage.slug(doc.url)
+        og_cache = cache_path("#{slug}.png")
+        tw_cache = cache_path("#{slug}.twitter.png")
+        next unless og_cache && tw_cache
+
+        ensure_cached(doc, is_post, og_cache, tw_cache)
+        next unless File.exist?(og_cache)
+
+        copy_to_dest(og_cache, "#{slug}.png")
+        copy_to_dest(tw_cache, "#{slug}.twitter.png") if File.exist?(tw_cache)
+
+        doc.data["og_image"] = OgImage.asset_url(base_url, slug)
+        doc.data["og_image_twitter"] = OgImage.asset_url(base_url, slug, twitter: true)
+      end
+    end
+
+    private
+
+    # [doc, is_post] for every post and in-scope page.
+    def documents(site)
+      pairs = site.posts.docs.map { |d| [d, true] }
+      site.pages.each do |p|
+        pairs << [p, false] if OgImage.scope_layout?(p.data["layout"])
+      end
+      pairs
+    end
+
+    def html_output?(doc)
+      ext = doc.respond_to?(:output_ext) ? doc.output_ext : File.extname(doc.url)
+      ext == ".html" || ext == ".htm"
+    end
+
+    def cache_path(name)
+      return nil unless @site.respond_to?(:source) && @site.source
+
+      File.join(@site.source, CACHE_DIR, name)
+    end
+
+    def ensure_cached(doc, is_post, og_cache, tw_cache)
+      unless File.exist?(og_cache)
+        html = build_html(doc, is_post)
+        FileUtils.mkdir_p(File.dirname(og_cache))
+        renderer.call(html, OgImage::CARD_W, OgImage::CARD_H, og_cache)
+      end
+      return unless File.exist?(og_cache) && !File.exist?(tw_cache)
+
+      cropper.call(og_cache, tw_cache, OgImage::TW_W, OgImage::TW_H)
+    end
+
+    def build_html(doc, is_post)
+      OgImage.render_html(
+        pill: OgImage::SITE_AUTHOR,
+        title: OgImage.title_for(doc.data["title"], @site.config["title"]),
+        snippet: OgImage.excerpt_text(doc.data["excerpt"].to_s),
+        button: OgImage.button_label(is_post),
+        image_uri: feature_uri(doc),
+        fonts: @fonts,
+      )
+    end
+
+    def feature_uri(doc)
+      feature = doc.data["image"] && doc.data["image"]["feature"]
+      return nil unless feature.is_a?(String) && !feature.empty?
+      return nil if feature.include?("http") # only embed local files
+
+      OgImage.data_uri(File.join(@site.source, "images", feature))
+    end
+
+    def load_fonts
+      return {} unless @site.respond_to?(:source) && @site.source
+
+      dir = File.join(@site.source, "_og", "fonts")
+      {
+        fraunces: OgImage.data_uri(File.join(dir, "Fraunces.ttf"), "font/ttf"),
+        mono_regular: OgImage.data_uri(File.join(dir, "IBMPlexMono-Regular.ttf"), "font/ttf"),
+        mono_semibold: OgImage.data_uri(File.join(dir, "IBMPlexMono-SemiBold.ttf"), "font/ttf"),
+      }
+    end
+
+    def copy_to_dest(src, name)
+      dest_dir = File.join(@site.dest, OG_DEST_DIR)
+      FileUtils.mkdir_p(dest_dir)
+      FileUtils.cp(src, File.join(dest_dir, name))
+      @site.static_files << OgImageFile.new(@site, @site.dest, OG_DEST_DIR, name)
+    end
+  end
+
+  class OgImageFile < StaticFile
+    def modified?; false; end
+    def write(_dest); true; end
+  end
+end
+end
