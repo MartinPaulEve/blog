@@ -1,14 +1,22 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/05/04/scalability-sustainability-and-market-responsiveness-in-oa
+categories:
+- open access
+- books
+date: 2015-05-04
+doi: https://doi.org/10.59348/g3xv9-wnb29
+image:
+  feature: oa.png
 layout: post
-image: 
-    feature: oa.png
-title: "Scalability, Sustainability, Market Responsiveness and Mandates in OA"
-categories: [open access, books]
-tags: [books, monographs, open access]
-published: True
-doi: "https://doi.org/10.59348/g3xv9-wnb29"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/05/04/scalability-sustainability-and-market-responsiveness-in-oa"
+ogImage: oa.png
+published: true
+tags:
+- books
+- monographs
+- open access
+title: Scalability, Sustainability, Market Responsiveness and Mandates in OA
 ---
+
 Academic publishers come in all shapes and sizes. Some are commercial, some are mission-driven, some are not-for-profit. This creates an interesting dynamic for a market. Not-for-profit publishers see themselves as partners of the academy, working alongside their academic colleagues to disseminate material. Indeed, some university presses are departments of universities. At the same time, though, commercial publishers talk in terms of market conditions. They are often unhappy about claimed [market interference from research funders](http://www.researchinformation.info/features/feature.php?feature_id=146). The upshot of this is that these publishers want it both ways. They claim themselves as stakeholders who must be present at consultations among academics and libraries for the future of academic publishing while then claiming that these entities should not interfere in their market.
 
 This post, which represents early-stage thinking and is far from complete, begins to consider the ways in which academic publishing can be considered in market terms and the rationale for why, even under such neo-classical predicates, market interference might be justified. It does so primarily in terms of an emerging desire for open-access books.
@@ -88,7 +96,3 @@ But funders have two additional needs:
 It is, therefore, in the interests of existing entities to claim that the disruption of new mandates, before models have been developed, would be catastrophic. Furthermore, it pays for such entities to foster national division: "don't strike out alone", they say, "because your national interests will be damaged". However, unless the demand for non-open-access publication looks likely to dry up, there is no incentive, under such a market system, for new models to develop.
 
 And so, we come to the nub of it: what do publishers want? If publishers want to be our partners, mission-driven and not-for-profit, then they should expect to be part of the discussions, but they should also expect the needs of the academy to change over time and see their role to adapt. If publishers want to be part of a competitive market system, then they should expect to fulfil customer demand or be obliterated from the sphere of competition. They also shouldn't expect to be invited to the table where the academy decides what it wants. In the weird world of academe, though, the market hardly functions as it "should"; customers and suppliers are mixed in strange economic configurations. Funders, who truly control the flow of cash, though, hold the power. Far from being interference, if the market is not responding to their needs and if publishers want to play the hardball market game, funder mandates, signaled well in advance, are the starting pistol for a new set of needs to be filled.
-
-
-
-

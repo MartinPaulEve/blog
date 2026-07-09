@@ -1,11 +1,18 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/10/he-green-paper-response-to-question-23
+categories:
+- HE
+- green paper
+- politics
+date: 2015-11-10
+doi: https://doi.org/10.59348/5w52q-84h03
 layout: post
-title: "HE Green Paper: response to question 23"
-categories: [HE, green paper, politics]
-tags: [HE, green paper, politics]
-published: True
-doi: "https://doi.org/10.59348/5w52q-84h03"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/10/he-green-paper-response-to-question-23"
+published: true
+tags:
+- HE
+- green paper
+- politics
+title: 'HE Green Paper: response to question 23'
 ---
 
 This post is part of an [ongoing series](https://martineve.com/GreenPaper/) where I intend to develop my full _personal_ (_not_ institutional) response to the HE Green Paper. Comments are welcome to refine this.
@@ -67,7 +74,3 @@ There are four problems with the specific proposal to remove Higher Education in
 Finally, the green paper maintains a commitment to multiple streams of direct public funding: the teaching grant (subject to priority determination), QR funding, and research council funding. Claiming that the requirement to be a public body should be removed because the income of such institutions is "no longer principally from direct grant" funding would require the government to set an arbitrary cap on the amount of funding that can be received (how much is "principally"?) and still not be classified as a public body. This could be open to serious abuse and non-accountable expenditure of public funds. For instance, if simply taking "principal" to mean that the largest source of income can be non-public, then so long as an entity receives substantial funding from elsewhere, it will never be classified as a public body and never be held accountable for the way that it spends public money, regardless of how much public funding it received. HESA statistics from 2015 indicate that £13.7bn (44.5%) of revenue came from tuition fees and £6.1bn (19.8%) came from funding bodies. 19.8% may not be "principal" but it is not negligible.
 
 While the current system is an "uneven playing field", the proposed logic is the wrong way around. Institutions must be accountable for the public subsidy that they receive -- either directly in terms of teaching grant or dual-stream research funding or indirectly through the RAB charge -- and this must apply to new providers as well as old. While it is good that the government is considering ways to reduce the burden on institutions (although the introduction of many other centralised systems of oversight, such as the proposed TEF, seem to contradict this), a fundamental and important element of transparency will be lost if the government commits to underwriting unaccountable institutions. Strengthening the FOI requirement to all providers is the way to fix this, not by removing it from existing providers.
-
-
-
-

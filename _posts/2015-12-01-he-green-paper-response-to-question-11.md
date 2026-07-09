@@ -1,11 +1,18 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/12/01/he-green-paper-response-to-question-11
+categories:
+- HE
+- green paper
+- politics
+date: 2015-12-01
+doi: https://doi.org/10.59348/b32g1-yw057
 layout: post
-title: "HE Green Paper: response to question 11"
-categories: [HE, green paper, politics]
-tags: [HE, green paper, politics]
-published: True
-doi: "https://doi.org/10.59348/b32g1-yw057"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/12/01/he-green-paper-response-to-question-11"
+published: true
+tags:
+- HE
+- green paper
+- politics
+title: 'HE Green Paper: response to question 11'
 ---
 
 This post is part of an [ongoing series](https://martineve.com/GreenPaper/) where I intend to develop my full _personal_ (_not_ institutional) response to the HE Green Paper. Comments are welcome to refine this.
@@ -41,8 +48,3 @@ The proposed extension metrics are extremely vague and also problematic in some 
 3. "Teaching intensity – measures might include time spent studying, as measured in the UK Engagement Surveys, proportion of total staff time spent on teaching". This is a very difficult thing to measure. TRAC and the Time Allocation Survey (TAS) will yield a crude proxy, but in some disciplines the time spent preparing for teaching is different to actual time spent on teaching. Writing lectures, or reading four novels per week in preparation for a literature seminar, for example, are hard to quantify in adequate ways for this proxy measure to work well.
 
 While, then, these metrics are deeply flawed, the call for additional evidence is also problematic. For one, as per my response to other questions, it is _expensive_ to write case studies and present narrative, contextual evidence. For another, it is unclear how these will be made comparable in a fair and transparent way between institutions. This portion of the proposed TEF will be _very_ expensive to administer and run at the institutional level.
-
-
-
-
-

@@ -1,11 +1,18 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/12/06/he-green-paper-response-to-question-15
+categories:
+- HE
+- green paper
+- politics
+date: 2015-12-06
+doi: https://doi.org/10.59348/37qx5-s2t17
 layout: post
-title: "HE Green Paper: response to question 15"
-categories: [HE, green paper, politics]
-tags: [HE, green paper, politics]
-published: True
-doi: "https://doi.org/10.59348/37qx5-s2t17"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/12/06/he-green-paper-response-to-question-15"
+published: true
+tags:
+- HE
+- green paper
+- politics
+title: 'HE Green Paper: response to question 15'
 ---
 
 This post is part of an [ongoing series](https://martineve.com/GreenPaper/) where I intend to develop my full _personal_ (_not_ institutional) response to the HE Green Paper. Comments are welcome to refine this.
@@ -37,7 +44,3 @@ With respect to the specific options:
 2. "With new legislation, Government could give DAPs to non-teaching bodies, with no incumbency interest, in order to widen options for validation". This goes against the very principles of higher education based on a link between teaching and research. Without expert peer guidance, such non-teaching bodies will be merely standardised tests and will demean the title of HE. It will, instead, be just a continuation of school.
 
 3. "With or without legislation, Government could approve, endorse or even contract existing bodies with their own DAPs to operate as central validating bodies, on condition that they sign up to a validation approach which explicitly promotes competition, diversity and innovation". This last clause notwithstanding, this carries substantial risks of empowering a subset of institutions to act as kingmakers.
-
-
-
-

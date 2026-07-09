@@ -1,11 +1,18 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/22/he-green-paper-response-to-question-5
+categories:
+- HE
+- green paper
+- politics
+date: 2015-11-22
+doi: https://doi.org/10.59348/wrkxg-mev63
 layout: post
-title: "HE Green Paper: response to question 5"
-categories: [HE, green paper, politics]
-tags: [HE, green paper, politics]
-published: True
-doi: "https://doi.org/10.59348/wrkxg-mev63"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/22/he-green-paper-response-to-question-5"
+published: true
+tags:
+- HE
+- green paper
+- politics
+title: 'HE Green Paper: response to question 5'
 ---
 
 This post is part of an [ongoing series](https://martineve.com/GreenPaper/) where I intend to develop my full _personal_ (_not_ institutional) response to the HE Green Paper. Comments are welcome to refine this.
@@ -45,7 +52,3 @@ It is virtually impossible to answer this question adequately at the moment. The
 Furthermore, in answering this question the Green Paper asks institutions to be willing guinea pigs for untested teaching metric procedures. The Green Paper states that "The criteria and metrics used for TEF will develop over time; the TEF will evolve as more metrics are integrated, as we learn from previous years and as greater evidence and understanding of what constitutes excellent teaching develops". The phrase "as we learn from previous years" is _extremely_ worrying. Why should institutions suffer in the present while a regulatory framework finds its feet at their expense? We have evidence of this type of problem occurring in the past. In a November 2015 speech at the Political Affairs in Higher Education conference, the unintended damage to part-time student numbers was described by David Willetts as the greatest regret of his tenure. The speed at which TEF is being implemented, on untested grounds, gives rise to the same potentials for unforeseen consequences.
 
 The government should, therefore, move much more carefully and slowly on this. Designing a set of measures that carry the confidence of the sector (across a range of providers) will minimise the potential damage from moving so quickly to differentiated awards. Furthermore, the government should outline what measures will be used so that institutions can give informed consent about their participation. Otherwise, this exercise seems to sit entirely divorced from other rhetorics in the Green Paper: it will be a top-down, regulatory-heavy framework that unfairly penalises institutions through arbitrary government decision making. I am sure that this is not what the government wants and urge this to be reconsidered as a matter of urgency.
-
-
-
-

@@ -1,12 +1,18 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/07/16/the-politics-of-style-on-styleguides-in-scholarly-communications
+categories:
+- open access
+- style
+date: 2015-07-16
+doi: https://doi.org/10.59348/re45s-jhg72
 layout: post
-title: "The politics of style: on styleguides in scholarly communications"
-categories: [open access, style]
-tags: [style, scholarly communications]
-published: True
-doi: "https://doi.org/10.59348/re45s-jhg72"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/07/16/the-politics-of-style-on-styleguides-in-scholarly-communications"
+published: true
+tags:
+- style
+- scholarly communications
+title: 'The politics of style: on styleguides in scholarly communications'
 ---
+
 In the past couple of weeks I've had a number of emails about the styleguide for the [Open Library of Humanities](https://www.openlibhums.org). Queries range from "my discipline does things differently, is that OK?" to "why bother maintaining your own style guide, why not just refer to a named style like Chicago?" Both good points. My own thinking actually goes further, though.
 
 Firstly, the most important thing that I'd like to flag up is that we have the following clause in our submission guidelines: "This journal recommends, but does not require, the Harvard system of references; see below for examples of how to format. Authors not submitting in Harvard style must ensure their references are internally consistent within the manuscript." When running a journal that spans many different disciplines, it is impracticable to enforce a single style of writing and reference. This is why we also say that "Research articles should be of an appropriate length for the discipline. While we recommend 8,000 words, this is flexible."
@@ -28,7 +34,3 @@ Then there are some exceptions and questions:
 
 1. We may wish to continue insisting on unity of style when work is curated into special issues. Certainly one way of achieving this for references is through XSLT rendering of JATS element-citations in a unified style.
 2. Do I feel differently about this for book chapters in edited collections? Probably, as per point #1 on special issues, above, which I consider to be akin to edited collections. The materiality of the codex object seems to have some bearing on my thought here.
-
-
-
-

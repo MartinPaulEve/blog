@@ -1,11 +1,18 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/29/he-green-paper-response-to-question-9
+categories:
+- HE
+- green paper
+- politics
+date: 2015-11-29
+doi: https://doi.org/10.59348/wgffj-7hn20
 layout: post
-title: "HE Green Paper: response to question 9"
-categories: [HE, green paper, politics]
-tags: [HE, green paper, politics]
-published: True
-doi: "https://doi.org/10.59348/wgffj-7hn20"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/29/he-green-paper-response-to-question-9"
+published: true
+tags:
+- HE
+- green paper
+- politics
+title: 'HE Green Paper: response to question 9'
 ---
 
 This post is part of an [ongoing series](https://martineve.com/GreenPaper/) where I intend to develop my full _personal_ (_not_ institutional) response to the HE Green Paper. Comments are welcome to refine this.
@@ -37,7 +44,3 @@ If this is really about incentivizing good teaching and not simply about a gover
 4. Constructive _help_ to raise the standard of teaching should be provided _before_ de-funding institutions, which will only make it harder/impossible for them to improve. This could take the form of a suitable _warning period_ in which institutions are allowed to maintain a stable financial base for a TEF cycle. This seems especially important in any launch period when institutions have no idea what they are being judged on and how the process will run. The Green Paper, please remember, gives no details of process or metrics for actually measuring teaching and institutions are being given insufficient time to prepare.
 
 5. The government should also be wary of lawsuits if metrics are badly deployed. As Professor Tom Ward, pro vice-chancellor (education) at Durham University, told a Westminster Higher Education Forum event in November 2015, the threat of negative reputational consequence is likely to lead institutions to sue if the metrics are not 100% robust and if they are penalised. Furthermore, if the process is not entirely transparent, the risk of lawsuits will be substantially increased.
-
-
-
-

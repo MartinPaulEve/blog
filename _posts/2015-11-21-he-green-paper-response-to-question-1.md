@@ -1,11 +1,18 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/21/he-green-paper-response-to-question-1
+categories:
+- HE
+- green paper
+- politics
+date: 2015-11-21
+doi: https://doi.org/10.59348/gv694-hws92
 layout: post
-title: "HE Green Paper: response to question 1"
-categories: [HE, green paper, politics]
-tags: [HE, green paper, politics]
-published: True
-doi: "https://doi.org/10.59348/gv694-hws92"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/21/he-green-paper-response-to-question-1"
+published: true
+tags:
+- HE
+- green paper
+- politics
+title: 'HE Green Paper: response to question 1'
 ---
 
 This post is part of an [ongoing series](https://martineve.com/GreenPaper/) where I intend to develop my full _personal_ (_not_ institutional) response to the HE Green Paper. Comments are welcome to refine this.
@@ -41,8 +48,3 @@ In the first instance, the Green Paper is very bad at implying that all students
 Furthermore, given that the Green Paper places such a high emphasis on universities serving the needs of "employers" (42 references in the document), it makes no sense that there is such poor support for mature and part-time students. Surely, if the Paper believes that there is a societal training element at work here in university-level study then people must be able to re-train at any point. If there is to be "no artificial limit on aspiration" then why should age or the existence of a previous qualification be a barrier to self-reinvention? However, this neglect is only the latest in a long series of policy decisions that have damaged this demographic. The withdrawal of teaching funding for equivalent or lower qualifications (ELQs) in 2008-2009 was the worst instance of this. This was followed by the inability of ELQ and part-time students to have equal access to student loans. If the government is serious about increasing diversity, this demographic _cannot_ be ignored. It is also clear that although the Green Paper makes many statements about students being able to attend courses in the manner that best suits them, the fact that ELQ students cannot access student loans (and that the loan system is inflexible for part-time students) makes a mockery of this. Mature and part-time learners must be empowered to attend degree courses. This must include equal access to loans regardless of ELQs and mode of study. While parts of these problems were addressed in the spending review, the Green Paper should also reflect this.
 
 Secondly, the Green Paper makes no reference to the diversity of staff at institutions. A [recent study](http://www.independent.co.uk/student/news/uk-study-finds-just-17-black-female-professors-10019201.html) found that there are only 17 black female professors in the whole of the UK. This is shocking and it is a result of the fact that access to postgraduate study and then progression through academic career pathways is far harder for certain demographics, be it for socio-economic reasons, biased gender expectations (parental responsibility still primarily falling on women) or on grounds of ethnic backgrounds. This is intensified among intersectional demographics. There are also inequalities of pay in this respect. Diversity in Higher Education should not just extend to undergraduate student bodies, but also to postgraduate levels and to staff. The final policy should extend its thinking into access to postgraduate courses and then into institutional staffing and career progression.
-
-
-
-
-

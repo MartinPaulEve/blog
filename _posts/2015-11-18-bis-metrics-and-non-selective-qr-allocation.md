@@ -1,11 +1,20 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/18/bis-metrics-and-non-selective-qr-allocation
+categories:
+- metrics
+- REF
+- QR
+- green paper
+date: 2015-11-18
+doi: https://doi.org/10.59348/4c2wz-tjq35
 layout: post
+published: true
+tags:
+- metrics
+- REF
+- QR
+- green paper
 title: BIS, metrics and non-selective QR-allocation
-categories: [metrics, REF, QR, green paper]
-tags: [metrics, REF, QR, green paper]
-published: True
-doi: "https://doi.org/10.59348/4c2wz-tjq35"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/18/bis-metrics-and-non-selective-qr-allocation"
 ---
 
 This post originally appeared in an [edited form on Wonkhe](http://wonkhe.com/blogs/bis-metrics-and-non-selective-qr-allocation/).
@@ -37,7 +46,3 @@ So, what's going on? It's not worth being overly conspiratorial about it; it mig
 Indeed, eliminating selection from REF would yield some of the savings that BIS would like. Given wider political agendas around teaching, scientific selectivity, and research concentration, one might also infer that the devastation might be deemed acceptable if it left Cambridge, Oxford, Imperial and/or UCL unaffected. If Manchester can do a bit better, that's probably OK as well. If they can find a way to use citation metrics to produce this kind of result (probably through some kind of skewed banding procedure that maintains the grip of the elite research-intensive universities on the bulk of research funding), while shaking up some of the other institutions, that might fly. But it would be awful for actual research quality. I also think that it would be extremely politically damaging to pursue such a route and would probably be contentious at various levels within the Conservative party itself.
 
 It will all just depend upon how confident the government is that it can allocate funding in a way that does not need to carry the confidence of the HE sector, when all evidence suggests that universities are only likely to intensify their gaming and strategising behaviours alongside the introduction of more metrics. It's also clear that a metrics-based approach won't get rid of costs at HEIs; we'll all just end up paying Elsevier and Thomson Reuters for the data and analytics. It will also depend on how confident the government is that it can survive the backlash of going against a well-received, recent, comprehensive report that said that a purely metrics-based approach would be irresponsible, highly damaging, and invalid (although the government may be operating from a different premise). So if they go down this route, they're working themselves up for a big fight. On the other hand, they've already signalled that REF is too expensive in the Green Paper in their eyes. So if they don't change something, then they will be embarrassed. Hence, I suspect, the need to run the numbers now while everyone is distracted by the mess of TEF.
-
-
-
-

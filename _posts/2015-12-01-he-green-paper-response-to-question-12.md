@@ -1,11 +1,18 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/12/01/he-green-paper-response-to-question-12
+categories:
+- HE
+- green paper
+- politics
+date: 2015-12-01
+doi: https://doi.org/10.59348/5drmk-d6y21
 layout: post
-title: "HE Green Paper: response to question 12"
-categories: [HE, green paper, politics]
-tags: [HE, green paper, politics]
-published: True
-doi: "https://doi.org/10.59348/5drmk-d6y21"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/12/01/he-green-paper-response-to-question-12"
+published: true
+tags:
+- HE
+- green paper
+- politics
+title: 'HE Green Paper: response to question 12'
 ---
 
 This post is part of an [ongoing series](https://martineve.com/GreenPaper/) where I intend to develop my full _personal_ (_not_ institutional) response to the HE Green Paper. Comments are welcome to refine this.
@@ -25,7 +32,3 @@ a.) I think, in general, that the proposals to further improve access are laudab
 b.) There is potential benefit in allowing the proposed Office for Students to set targets. However, any such targets would have to closely examine the different stages at which there may be problems. For instance, is the problem of access a result of lower applications? In this case, what is happening with the institution's recruitment strategy? Is there a predominantly local demographic intake, for instance, in a geographical region of low ethnic diversity? If the problem is at the continuation stage, is the sample size of a cohort statistically significant after intake?
 
 c.) The government should carefully consider part-time and mature students, who are given far too little time in the Green Paper but who represent a group who often struggle to access higher education.
-
-
-
-

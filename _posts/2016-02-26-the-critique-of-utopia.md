@@ -1,0 +1,32 @@
+---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/02/26/the-critique-of-utopia
+categories:
+- scholarly communications
+date: 2016-02-26
+doi: https://doi.org/10.59348/69qqf-ney50
+layout: post
+published: true
+tags:
+- scholarly communications
+title: The critique of utopia
+---
+
+Today, at the FORCE11 workshop that I am attending in Madrid our facilitators spoke of utopian thinking and then of attempting to realize that utopia in the realm of scholarly communications. (The other thing that happened is that I had a migraine, which resulted in an awful OpenCon reunion photo where I look terrible -- and apologies also if I was brusque with anyone!)
+
+In any case, this use of the term utopia came with some stern rebukes from a couple of participants, who pointed to More's original text and how grim his utopia is. Indeed, _Utopia_ is a _boring_ book depicting a _boring_ world. But it is also one that is reflexively playful through a series of Latinized Greek homophonic puns. For Hythloday, the name of the narrator, means "peddler of nonsense" and "utopia" itself means both "the best place" and "no place" through the ambiguity of how we can pronounce the "U". _Utopia_ the book is profoundly ambivalent about the creation of idealized states.
+
+But this rebuke was followed by a suggestion that we should not attempt to pursue utopia, I think at one point crystallized by the notion that we should "do the opposite", to which I quipped that "we usually call this _dystopia_". This quip was both right and wrong.
+
+It was right, in my view, because to give up on pursuing a better world _is_ dystopian and the way in which the term "utopia" was being used here was partially in this tradition: decide on your ideal and work out how to implement it. If this were not a worthwhile goal, then we may as well give up, even if we don't have consensus on what that ideal might be (who gets to define the "ideal" is a profoundly ideological problem, though, and the struggle to implement multiple potential worlds is fought through politics in its many forms). Without an imagined better world, though, can any of us, individually or collectively, act with any sense of ethical and meaningful purpose? (I suppose negative critique might be the inverted drive here, but it tends towards less political forms.)
+
+The quip was wrong, I think, though (although I still think this holds up as a reason to cling to utopia as a worthwhile concept), because dystopia is not actually the opposite of utopia if thinking of a utopian function _as critical_. Tom Moylan writes, in an oft-quoted passage from _Demand the Impossible_ (1986), that
+
+>"A central concern in the critical utopia is the awareness of the limitations of the utopian tradition, so that these texts reject utopia as a blueprint while preserving it as a dream. Furthermore, the novels dwell on the conflict between the originary world and the utopian society opposed to it so that the process of social change is more directly articulated. Finally, the novels focus on the continuing presence of difference and imperfection within the utopian society itself and thus render more recognizable and dynamic alternatives."
+
+In such a model, in addition to exhibiting internal incoherence, utopian _and_ dystopian worlds aim to expose a rift between what could be (realms of subjunctive possibility) and what merely is and, therefore, the preconditions of its possibility; critique. In both cases, this is a matter of perspective. Dystopia takes the elements of the present that look most threatening and dangerous and amplifies them in a projected future. Utopia, on the other hand, takes those elements that loom large (such as politics) in our world and makes them seem petty by resolving their debates in an instantiated but dislocated space.
+
+The best text for observing this function is Swift's _Gulliver's Travels_ (1726/1735) in which Gulliver's perspective is changed between the different worlds that he visits. In Brobdingnag, he is small amid a land of giants and the ugliness of the world is (misogynistically here) amplified, shown in his disgust at seeing the pores in the skin of the women lifting him up. The small cracks in the world are made large. In Lilliput, though, the Big and Little Endians fight their war over which end of a boiled egg should face upwards -- and here, Gulliver is a giant who views such politics as literally petty. More's work also sits in this tradition, though, for _Utopia_ is a political text that can be mapped back on the England of More's time. It is also critical.
+
+These are just two paradigms within which we can understand "utopia" that are more interesting, I think, than pointing out that More's text is ambivalent about their creation (a critique _of_ [meaning: aimed at] utopia). There's nothing particularly radical about what I'm saying here and it's been done to death elsewhere, I'm simply bringing it to this context. There are also other paradigms. Louis Marin's _Utopics_ (1984, of all years) is one in which he posits that acts of interpretation and the creation of critical discourses have an anti-utopian function as "[t]he benefits of pleasure the textual word play triggered were capitalized into analyses and theses. An authoritative power settled at the very spot of what is not capable of interpretation […] It may simply be impossible to write and speak about utopia".
+
+Yet, on at least two fronts, I think we can continue to seek utopian modes without fear in scholarly communications and in other spaces. Firstly, we may not want More's utopia, but in every sense in which we might seek to improve the world we need some kind of endpoint towards which we might aim. It may end up being an unrealisable "no-place" but the _process_ of working towards it may remain a valuable act and could be said to be necessary for any ethical action that has a coherence of _theoria_/_praxis_. Secondly, utopian thinking lets us see both the dangers and pettiness of our present, acting critically to re-orientate (through dislocated spatial and temporal settings) our perspective on ourselves. The critique _of_ (meaning: belonging as a property of) utopia. This latter mode also requires the imagination of instantiation, even if it goes no further. But the critique does imply, as someone famous once wrote, that the point may be to change the world, not just to interpret it.

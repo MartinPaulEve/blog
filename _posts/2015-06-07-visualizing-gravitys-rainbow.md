@@ -1,14 +1,21 @@
 ---
-layout: post
-title: Visualizing Gravity's Rainbow
-categories: [Pynchon, DH]
-tags: [textplot, Pynchon]
-published: True
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/06/07/visualizing-gravitys-rainbow
+categories:
+- Pynchon
+- DH
+date: 2015-06-07
+doi: https://doi.org/10.59348/y831w-1h790
 image:
   feature: post_images/GR2.jpg
-doi: "https://doi.org/10.59348/y831w-1h790"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/06/07/visualizing-gravitys-rainbow"
+layout: post
+ogImage: post_images/GR2.jpg
+published: true
+tags:
+- textplot
+- Pynchon
+title: Visualizing Gravity's Rainbow
 ---
+
 At this year's _Canadian Congress of Humanities and Social Sciences_ I had the pleasure of attending a talk by David McClure in the digital humanities strand on his visualization tool, _TextPlot_.
 
 I won't go into the technical details of what TextPlot does, because David has done so adeptly in a [series of posts on his blog](http://dclure.org/tag/textplot/). Essentially, though, the tool allows for the creation of a force-directed graph of the top n terms in a text after computing a probability density function (using kernel density estimation) filtered by Bray-Curtis dissimilarity. This results in a map of clustered and connected terms within a specific distance; which terms occur "together" within a specified distance and are, therefore, most closely connected.
@@ -54,7 +61,3 @@ _Gravity's Rainbow_ has been assessed by many readers as a text that works to ge
 An initial plot of the text in this way allows us to start to consider whether the text constructs particular linguistic and semantic fields around particular parts of the text. Specific terms clearly occur in isolated contexts. The octopus rarely returns; most of Roger's narrative is centred around his pairing and unpairing with Jessica; Byron the Bulb is far out in his own diegetic layer with distinct terms that rarely recur.
 
 Other terms, though, seem scattered across the Zone of the text. As an initial hypothesis that I need to explore much more: it could be that many of the isolated action segments of the text, to which critics have turned their thematic and historical attentions, may share common linguistic cores (semantic fields) with many other parts of the text. This might begin to contribute to their ultimate connectedness within the novel.
-
-
-
-

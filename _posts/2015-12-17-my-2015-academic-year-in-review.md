@@ -1,11 +1,16 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/12/17/my-2015-academic-year-in-review
+categories:
+- personal
+- academia
+date: 2015-12-17
+doi: https://doi.org/10.59348/bfkc9-09w61
 layout: post
+published: true
+tags:
+- personal
+- academia
 title: My 2015 academic year in review
-categories: [personal, academia]
-tags: [personal, academia]
-published: True
-doi: "https://doi.org/10.59348/bfkc9-09w61"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/12/17/my-2015-academic-year-in-review"
 ---
 
 This year was a good year for me in terms of academia. I started my job as a Senior Lecturer at Birkbeck, I launched the Open Library of Humanities with a substantial Mellon grant, and I finished writing two books that I hope will be published next year (_Password_ and _The Anxiety of Academia_). I also began supervising some really great Ph.D. students, including Stuart Lawson on the politics of open access. Here's a breakdown of what came out this year. Obviously, given publishing timescales, this is less a reflection on what I did (apart from conferences) and more the fact that it just came out. I still derive some satisfaction from seeing it written down, though!
@@ -90,7 +95,3 @@ Merry Christmas, all!
 <li>Eve, Martin Paul, Fitzpatrick, K., Gold, M.K., Marden, C., and Norberg, L., &ldquo;<a href="http://eprints.bbk.ac.uk/id/eprint/12146">Innovation in digital publishing in the humanities</a>&rdquo;, <i>American Historical Association</i>, New York, U.S., 2015</li>
 <li>Eve, Martin Paul, &ldquo;<a href="http://eprints.bbk.ac.uk/id/eprint/12145">Metrics, Open Access and publishing</a>&rdquo;, <i>Metrics and the assessment of research quality and impact in the Arts and Humanities</i>, University of Warwick, UK, 2015</li>
 </ul>
-
-
-
-

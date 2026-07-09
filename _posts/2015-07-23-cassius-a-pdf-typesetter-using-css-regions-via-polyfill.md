@@ -1,13 +1,21 @@
 ---
-layout: post
-title: "CaSSius: a PDF typesetter using CSS regions (via polyfill)"
-categories: [PDF, typesetting, XML]
-tags: [typesetter, PDF, OLH]
-published: True
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/07/23/cassius-a-pdf-typesetter-using-css-regions-via-polyfill
+categories:
+- PDF
+- typesetting
+- XML
+date: 2015-07-23
+doi: https://doi.org/10.59348/ny4q3-hpt21
 image:
   feature: CaSSius.png
-doi: "https://doi.org/10.59348/ny4q3-hpt21"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/07/23/cassius-a-pdf-typesetter-using-css-regions-via-polyfill"
+layout: post
+ogImage: CaSSius.png
+published: true
+tags:
+- typesetter
+- PDF
+- OLH
+title: 'CaSSius: a PDF typesetter using CSS regions (via polyfill)'
 ---
 
 ![CaSSiuS](/images/CaSSius.png)
@@ -130,7 +138,3 @@ CaSSius makes use of several other open-source/free-software projects, including
 * The CaSSius logo is a derivative of a work by [Lil Squid from the Noun Project](https://thenounproject.com/search/?q=type&i=150037), licensed under the Creative Commons Attribution License.
 * Parts of the cassius-import library contain materials from the National Library of Medicine, specifically [adaptations of their XSLT suite and entity resolution files, which are public domain](http://dtd.nlm.nih.gov/tools/tools.html).
 * The cassius-import library links to the Saxon XSLT and XQuery Processor from Saxonica Limited <http://www.saxonica.com/> which is dual-licensed under the GNU GPL and the Mozilla Public License <http://www.mozilla.org/MPL/>. This dual-licensing applies ONLY to the file saxon9.jar.
-
-
-
-

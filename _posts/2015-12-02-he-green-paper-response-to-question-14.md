@@ -1,11 +1,18 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/12/02/he-green-paper-response-to-question-14
+categories:
+- HE
+- green paper
+- politics
+date: 2015-12-02
+doi: https://doi.org/10.59348/9ev00-31n78
 layout: post
-title: "HE Green Paper: response to question 14"
-categories: [HE, green paper, politics]
-tags: [HE, green paper, politics]
-published: True
-doi: "https://doi.org/10.59348/9ev00-31n78"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/12/02/he-green-paper-response-to-question-14"
+published: true
+tags:
+- HE
+- green paper
+- politics
+title: 'HE Green Paper: response to question 14'
 ---
 
 This post is part of an [ongoing series](https://martineve.com/GreenPaper/) where I intend to develop my full _personal_ (_not_ institutional) response to the HE Green Paper. Comments are welcome to refine this.
@@ -40,7 +47,3 @@ It is unclear, therefore, how these aspects will meet the government's aims:
 Given that the claimed goal with these changes is to "level the playing field", it is also not right that on page 46 Pearson should have a specific privileged position in approving model 2b providers. This appears to give an unfair advantage to this entity. Furthermore, I believe that Pearson has shown itself to be an [ineffectual regulator in the past](https://www.timeshighereducation.com/features/uncontrolled-expansion-how-private-colleges-grew/2016579.article). At Regent College, on its validated HND, "of the 145 full-time students from the January 2013 enrolment, only two students passed the four compulsory modules that comprised their HND study programme for the first semester". Yet Pearson was, to quote the linked article, "satisfied that no further action was needed".
 
 Far from representing "a very significant step in creating truly competitive provision for higher education in England" these measures are likely to lead to substantial international reputational damage and suspicion about the quality of English HE.
-
-
-
-

@@ -1,13 +1,21 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/04/24/gearing-up-for-olh-in-the-uk-and-the-resolution-to-the-vat-question
+categories:
+- open access
+- OLH
+date: 2015-04-24
+doi: https://doi.org/10.59348/8pysd-7tw43
+image:
+  feature: oa.png
 layout: post
-image: 
-    feature: oa.png
+ogImage: oa.png
+published: true
+tags:
+- open access
+- VAT
+- tax
+- OLH
 title: Gearing up for OLH in the UK and the resolution to the VAT question
-categories: [open access, OLH]
-tags: [open access, VAT, tax, OLH]
-published: True
-doi: "https://doi.org/10.59348/8pysd-7tw43"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/04/24/gearing-up-for-olh-in-the-uk-and-the-resolution-to-the-vat-question"
 ---
 
 A while ago, I wrote of the <a href="/2015/01/20/being-called-to-account-tax-considerations-for-uk-based-collectively-funded-open-access-publishers/">tricky situation potentially faced by UK OA publishers operating on a cost-pool basis/consortial basis</a>. After our accountants gave a report on this about a month or so ago, I sought confirmation from HMRC that it was, indeed, the case that these models do not count as a direct supply of a service. Models that provide enormous and efficient sector-wide benefits, like open access, may not, in such scenarios, constitute a "direct and immediate" supply to the organizations that pay, because everyone can read the material.
@@ -29,7 +37,3 @@ This is because, as per the OLH membership agreement:
 > 4.1.2 members should be aware that they are not paying for their own authors to publish, nor for a subscription, but rather to build and sustain and govern a collectively-funded platform that returns extremely good value and that could not exist without such investment.
 
 In any case, this allows us to now open in the UK and there should be more on this very soon!
-
-
-
-

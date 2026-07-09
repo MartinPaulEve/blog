@@ -1,11 +1,18 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/12/10/he-green-paper-response-to-question-18
+categories:
+- HE
+- green paper
+- politics
+date: 2015-12-10
+doi: https://doi.org/10.59348/w6z0n-s3m66
 layout: post
-title: "HE Green Paper: response to question 18"
-categories: [HE, green paper, politics]
-tags: [HE, green paper, politics]
-published: True
-doi: "https://doi.org/10.59348/w6z0n-s3m66"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/12/10/he-green-paper-response-to-question-18"
+published: true
+tags:
+- HE
+- green paper
+- politics
+title: 'HE Green Paper: response to question 18'
 ---
 
 This post is part of an [ongoing series](https://martineve.com/GreenPaper/) where I intend to develop my full _personal_ (_not_ institutional) response to the HE Green Paper. Comments are welcome to refine this.
@@ -41,7 +48,3 @@ No response.
 d.)
 
 I am not convinced that the provision for prioritizing teaching grant is sufficiently arms-length, at present. Although there are nods to institutional autonomy, if a limited number of players are working in a field, then realistically Ministers will be able to directly channel funds to preferred spaces.
-
-
-
-

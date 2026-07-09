@@ -1,14 +1,24 @@
 ---
-layout: post
-title: "'He doesn’t talk politics any more': Politics and Postmodernism; Morality and Metafiction; Nihilism and the Novel?"
-categories: [literature, ethics, talks]
-tags: [literature, postmodernism, ethics]
-published: True
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/07/04/he-doesnt-talk-politics-any-more-politics-and-postmodernism-morality-and-metafiction-nihilism-and-the-novel
+categories:
+- literature
+- ethics
+- talks
+date: 2015-07-04
+doi: https://doi.org/10.59348/51j4e-2pf27
 image:
   feature: post_images/ActionWriting/Politics-N-Gram1.png
-doi: "https://doi.org/10.59348/51j4e-2pf27"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/07/04/he-doesnt-talk-politics-any-more-politics-and-postmodernism-morality-and-metafiction-nihilism-and-the-novel"
+layout: post
+ogImage: post_images/ActionWriting/Politics-N-Gram1.png
+published: true
+tags:
+- literature
+- postmodernism
+- ethics
+title: '''He doesn’t talk politics any more'': Politics and Postmodernism; Morality
+  and Metafiction; Nihilism and the Novel?'
 ---
+
 The following is the slightly revised text of my keynote at the _Action Writing: The Politics of US Literature, 1960-Present_, held at Birkbeck College, University of London on the 3rd July 2015, organized by Catherine Flay and Pippa Eldridge.
 
 
@@ -85,7 +95,3 @@ The following is the slightly revised text of my keynote at the _Action Writing:
     <p>But despite all this, despite my pessimism, despite the problems of liberal humanist critical thinking and so forth, I am not sure it's true that &#8220;He doesn't talk politics any more&#8221;. As I'm sure today is going to show, most of us have some investment in continuing to read politics out of the fiction we study while many authors profess to have infused their works with political views and aspects. It may just be that the scope of politics and literature, though, to effect change is shifting below our feet, part of a matrix of culture and politics that we cannot accurately measure because there are too many interrelated factors. I'll leave, therefore, the final words to Pynchon's Brigadier Pudding: &#8220;It occurred to him to focus his hobby on the European balance of power, because of whose long pathology he had once labored, deeply, all hope of waking lost, in the nightmare of Flanders. He started in on a mammoth work entitled Things That Can Happen in European Politics. Begin, of course, with England. &#8220;First,&#8221; he wrote, &#8220;Bereshith, as it were: Ramsay MacDonald can die.&#8221; By the time he went through resulting party alignments and possible permutations of cabinet posts, Ramsay MacDonald had died. &#8220;Never make it,&#8221; he found himself muttering at the beginning of each day&#8217;s work&#8212;&#8221;it&#8217;s changing out from under me. Oh, dodgy&#8212;very dodgy.&#8221;&#8221;</p>
   </li>
 </ol>
-
-
-
-

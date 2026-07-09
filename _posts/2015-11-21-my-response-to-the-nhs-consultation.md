@@ -1,11 +1,16 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/21/my-response-to-the-nhs-consultation
+categories:
+- politics
+- NHS
+date: 2015-11-21
+doi: https://doi.org/10.59348/vny6q-77e25
 layout: post
+published: true
+tags:
+- politics
+- NHS
 title: My response to the NHS consultation
-categories: [politics, NHS]
-tags: [politics, NHS]
-published: True
-doi: "https://doi.org/10.59348/vny6q-77e25"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/21/my-response-to-the-nhs-consultation"
 ---
 
 > Q2: Is there anything else we should be considering in producing the mandate to NHS England?
@@ -31,7 +36,3 @@ Yet it is clear that the NHS is being systematically starved and that this ambit
 The mandate should also have a stronger emphasis on retaining good staff. People are crucial to the NHS and the government is losing the confidence of the medical sector and public opinion; especially in light of the junior doctors' strike, being called on an extremely strong mandate. That this is not a priority is troubling.
 
 The removal of the duty to provide comprehensive care is likewise problematic. Coupled with the financial aspects above, it is likely that hospitals will prioritise patients from whom the maximum income (“maximising income”) can be extracted. This is at odds with the aim of a health service and the mandate should be changed to ensure this does not happen.
-
-
-
-

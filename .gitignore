@@ -11,3 +11,5 @@ _asset_bundler_cache
 
 # Generated Open Graph image cache (regenerated locally; served copies live in _site)
 .og_cache/
+
+.sequoia-state.json

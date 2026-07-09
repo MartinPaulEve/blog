@@ -1,14 +1,23 @@
 ---
-layout: post
-title: "Building a real XML-first (XML-in) workflow for scholarly typesetting"
-categories: [meTypeset, typesetting, JATS]
-tags: [meTypeset, typesetting, JATS]
-published: True
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/07/20/building-a-real-xml-first-workflow-for-scholarly-typesetting
+categories:
+- meTypeset
+- typesetting
+- JATS
+date: 2015-07-20
+doi: https://doi.org/10.59348/w78n5-he827
 image:
   feature: post_images/meTypesetProcess.png
-doi: "https://doi.org/10.59348/w78n5-he827"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/07/20/building-a-real-xml-first-workflow-for-scholarly-typesetting"
+layout: post
+ogImage: post_images/meTypesetProcess.png
+published: true
+tags:
+- meTypeset
+- typesetting
+- JATS
+title: Building a real XML-first (XML-in) workflow for scholarly typesetting
 ---
+
 For some time now, I've worked to build an open-source JATS XML typesetter. It's called [meTypeset](https://github.com/MartinPaulEve/meTypeset). It's not by any means perfect and the approach it takes is unlikely to ever yield 100% good markup from Word input. It does, though, get it right a lot of the time in "basic" (in terms of underlying XML semantic complexity) rich-text documents, which is [what most academics](https://www.martineve.com/2015/04/15/in-the-beginning-was-the-word/) (especially in the humanities) are writing. It also plugs into Zotero and will produce nice element-citation blocks for you.
 
 Part of the work on the [Mellon grant that Birkbeck has been awarded](http://www.bbk.ac.uk/news/birkbeck-awarded-741-000-grant-for-new-humanities-open-access-model-of-publishing) consists of making a user-friendly interface to meTypeset and a self-diagnostic mode. This will include a "triage" mode; the software will tell you whether or not it is capable or parsing the input document. This should result in a workflow where, at least if meTypeset can't handle it in-house, we can pay for the labour of doing the typesetting the old, hard way (eXtyles etc.).
@@ -53,7 +62,3 @@ While, obviously, much more of the mechanics will be revealed when we start rele
 Then, when this event fires in the modifyFlow function, we can use document.getNamedFlows()[0].firstEmptyRegionIndex to ascertain if there are remaining empty pages or if they are all full. If document.getNamedFlows()[0].firstEmptyRegionIndex is -1 when that fires, then it needs more pages added, and I do so in increments of 10. If the value of that property isn't -1, then I remove empty pages down to the last filled region. It's far quicker to initially over-populate pages than to under-populate and then add, but this does stack up on the CPU time when you go > 50 pages, so I compromised there.
 
 All content on this page licensed under a CC BY-SA license.
-
-
-
-

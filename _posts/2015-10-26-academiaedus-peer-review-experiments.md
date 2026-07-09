@@ -1,11 +1,16 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/10/26/academiaedus-peer-review-experiments
+categories:
+- open access
+- peer review
+date: 2015-10-26
+doi: https://doi.org/10.59348/b7q5a-7bw22
 layout: post
-title: "Academia.edu’s peer-review experiments"
-categories: [open access, peer review]
-tags: [open access, peer review]
-published: True
-doi: "https://doi.org/10.59348/b7q5a-7bw22"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/10/26/academiaedus-peer-review-experiments"
+published: true
+tags:
+- open access
+- peer review
+title: Academia.edu’s peer-review experiments
 ---
 
 I've been sitting on the below piece for a while, but have [written about academia.edu before](https://www.martineve.com/2014/09/05/things-academia-edu-academia-should-do-hint-work-with-green-oa/). In recent days, though, [Gary Hall](http://www.garyhall.info/journal/2015/10/18/does-academiaedu-mean-open-access-is-becoming-irrelevant.html) and [Kathleen Fitzpatrick](http://www.plannedobsolescence.net/academia-not-edu/) have both written critiques of the site and so I thought it also worth adding this specific angle rather than just letting it sit on my hard drive.
@@ -19,8 +24,3 @@ Specifically, I believe that in an academic environment: 1.) any such system sho
 I am unsure that the current approach of Academia.edu is addressing these matters. I also worry that an uncareful implementation may cause an academic backlash against the potential benefits in transforming peer review/adding social discoverability/curational approaches.
 
 Finally, Academia.edu is a useful site, but it is another private company operating in the academic space (funded by Khosla Ventures, True Ventures, Spark Ventures, Spark Capital and Rupert Pennant-Rea). As with other private networking sites, such as Facebook, or as with any of the private academic publisher platforms, the action of “liking” or “recommending” is part of a data-collection exercise that profiles user behaviour. While this does not have to be malign, recent reports have called for the use of “[responsible metrics](http://www.hefce.ac.uk/pubs/rereports/Year/2015/metrictide/Title,104463,en.html)”. I do not yet know what Academia.edu wishes to do with this data and so cannot evaluate whether its use will be responsible or otherwise. It is also the case, here, that academics will be freely giving labour to another for-profit entity, a trend seen increasingly in the research-publication space. I would prefer for the evolution of peer review to be in the hands of organizations whose motivations are not divided between the good of scholarship and venture capital exit strategies.
-
-
-
-
-

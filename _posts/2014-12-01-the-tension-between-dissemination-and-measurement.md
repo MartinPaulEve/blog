@@ -1,0 +1,20 @@
+---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/12/01/the-tension-between-dissemination-and-measurement
+categories:
+- Technology
+- Open Access
+- Academia
+comments: []
+date: 2014-12-01
+doi: https://doi.org/10.59348/bgpjy-8zn44
+layout: post
+published: true
+status: publish
+tags: []
+title: The tension between dissemination and measurement
+---
+
+<p>I <a href="http://ebooks.cambridge.org/chapter.jsf?bid=CBO9781316161012&cid=CBO9781316161012A011&tabName=Chapter">remain firmly convinced</a> that many (but not all) of the economic problems of scholarly communication are linked to the fact that academic outputs are both vessels of communication and objects of measurement. This is most manifest in the way in which publications are used as measures of worth in hiring procedures, often through proxy measures that give financial power to commercial entities. In this case, there is a labour shortage in the academy (we can't read all of the material that we'd need to in order to fairly assess candidates), so we delegate to the proxy measure (journal brand or publisher name) to denote quality. This increases competition to publish in specific venues, making it necessary for libraries to subscribe. The competition mirrors the labour shortage and has economic knock-on effects. Of course, this isn't the only driver of economic trouble: if replication and the reporting of negative results in certain scientific disciplines is to be taken seriously as an activity, for example, then it is probably necessary to publish more, thus pushing up labour time and commensurate costs. When this is coupled with the desire to measure scholarly outputs, though, the economic damage is amplified.</p>
+<p>This week, I have encountered another interesting conflict between dissemination and measurement. It's a very specific case that will probably only happen at one particular point in the digital transition for scholarship. The case is for <a href="https://www.martineve.com/2014/11/27/book-open-access-and-the-humanities/">my book</a> (itself about open access and published open access) and the tension is between the broadest dissemination and measuring use/finance on the project. From my perspective as an author and not speaking on behalf of Cambridge University Press (but also someone with an interest in OA), I am torn. On the one hand, I want to plaster the PDF copy absolutely everywhere I can in the hope that as many people as possible can read the book (if they so wish). I (and others) are certainly entitled to under the terms of the CC BY-SA license that I chose for the project.</p>
+<p>On the other hand, though, the book has been taken on by the Press at a time when they are experimenting with open access and want to gather as much data as possible on what OA books might do for/to their financial models. If OA books are to become a reality through more conventional publishing channels, then these entities will want to gather data on what OA does to sales etc. I want to help them gather than information because my hypothesis is that these books will continue to sell. However, if they/we are to accurately measure downloads (itself a flawed measure, of course -- we could go for altmetrics tracking a DOI/URL or similar), we need centralization so that we can track user behaviour. Thus, broader dissemination comes into conflict with measurement again, albeit in a niche case.</p>
+<p>In this case, I suspect that it will be impossible to control the spread of the document (and I don't really want to, beyond wanting the Press to get valuable data that I <i>hope</i> will prove encouraging for future open access books -- in fact, the license allows derivatives, so if you want to improve the book, do have a go). Certainly, <i><a href="http://historymanifesto.cambridge.org/">The History Manifesto</a></i> has spread all over the internet. Yet, the official site remains the top result (at least within my own filter bubble). In any case, it will be interesting to see how my book spreads, what uses people might put it to and, at the end, what the returned data might look like.</p>

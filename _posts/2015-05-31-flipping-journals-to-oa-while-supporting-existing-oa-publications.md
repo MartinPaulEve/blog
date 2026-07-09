@@ -1,14 +1,20 @@
 ---
-layout: post
-title: Flipping journals to OA while supporting existing OA publications
-categories: [OA]
-tags: [OA, OLH]
-published: True
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/05/31/flipping-journals-to-oa-while-supporting-existing-oa-publications
+categories:
+- OA
+date: 2015-05-31
+doi: https://doi.org/10.59348/f7pr6-8wr39
 image:
   feature: post_images/JBIIP-1024x499.png
-doi: "https://doi.org/10.59348/f7pr6-8wr39"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/05/31/flipping-journals-to-oa-while-supporting-existing-oa-publications"
+layout: post
+ogImage: post_images/JBIIP-1024x499.png
+published: true
+tags:
+- OA
+- OLH
+title: Flipping journals to OA while supporting existing OA publications
 ---
+
 It was with great pleasure that we announced, on Friday, that the OLH now has its first journal joining that has [moved away from a subscription model to a pure gold OA basis](https://www.openlibhums.org/2015/05/29/announcing-the-first-subscription-journal-to-flip-to-open-access-through-the-open-library-of-humanities/). This makes me very happy. The _Journal of British and Irish Innovative Poetry_ is a niche publication in the humanities that holds great value to its target audience. While it was never the most expensive journal for institutions to purchase (small steps at first), to begin to offset the amount paid into the OLH by subscriptions that will no longer be needed forms part of our transition model.
 
 In the lead-up to our launch later this year, though, we've had to give a great deal of thought to the types of journal that we'd like to join the platform. I wanted, here, to offer a few thoughts on the relative merits of admitting each of the following kinds of journal:
@@ -30,7 +36,3 @@ Finally, I think it is worth pursuing the professionalisation, discoverability, 
 
 ## Selection and Pre-Filtering
 While we'll have more announcements soon about journals joining the platform, I thought it was worth sharing this set of rationales for the balance that we aim to pursue as the platform grows after launch. It's also important to work out exactly who is selecting publications and on what basis. I have increasingly come to distrust our ability to accurately pre-select high-quality material for publication, which means that there must be an element of risk in acquisitions. In an OA world and through mechanisms like our joint academic and library selection procedures, we don't fix these problems, but we are at least aiming to be transparent about the way in which we have selected.
-
-
-
-

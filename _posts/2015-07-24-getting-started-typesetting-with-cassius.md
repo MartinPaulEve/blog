@@ -1,13 +1,21 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/07/24/getting-started-typesetting-with-cassius
+categories:
+- typesetting
+- PDF
+- HTML
+date: 2015-07-24
+doi: https://doi.org/10.59348/9vcxf-95h70
+image:
+  feature: geek.png
 layout: post
-image: 
-    feature: geek.png
+ogImage: geek.png
+published: true
+tags:
+- typesetting
+- PDF
+- HTML
 title: Getting started typesetting with CaSSius
-categories: [typesetting, PDF, HTML]
-tags: [typesetting, PDF, HTML]
-published: True
-doi: "https://doi.org/10.59348/9vcxf-95h70"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/07/24/getting-started-typesetting-with-cassius"
 ---
 
 Over the past week I've done some of the initial development work on [CaSSius](https://github.com/MartinPaulEve/CaSSius), the portion of the typesetter for the [Open Library of Humanities](https://www.openlibhums.org) that produces PDF output. The idea here is that, as a publisher, you want to produce one document and then create HTML and PDF from that single source. CaSSius provides two ways to achieve this. The first is to create your HTML using CaSSius's structure and to apply CSS styles when you want web output and to use CaSSius to create a PDF from this. The second is to create Journal Article Tag Suite XML and use CaSSius's importer to create the XML for you.
@@ -354,7 +362,3 @@ This requires you to have a copy of Twigg.xml also inside the directory, which y
     </article>
 
 And there you have it.
-
-
-
-

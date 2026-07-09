@@ -1,11 +1,18 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/22/he-green-paper-response-to-question-4
+categories:
+- HE
+- green paper
+- politics
+date: 2015-11-22
+doi: https://doi.org/10.59348/csgma-7ev04
 layout: post
-title: "HE Green Paper: response to question 4"
-categories: [HE, green paper, politics]
-tags: [HE, green paper, politics]
-published: True
-doi: "https://doi.org/10.59348/csgma-7ev04"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/22/he-green-paper-response-to-question-4"
+published: true
+tags:
+- HE
+- green paper
+- politics
+title: 'HE Green Paper: response to question 4'
 ---
 
 This post is part of an [ongoing series](https://martineve.com/GreenPaper/) where I intend to develop my full _personal_ (_not_ institutional) response to the HE Green Paper. Comments are welcome to refine this.
@@ -27,7 +34,3 @@ Yet, younger, less-well-established providers are most likely to be hit the hard
 There is another potential point of backfire here that should be considered. In prioritising continuation as a measure of how well an institution supports its students, institutions may be likely to attempt to recruit students with other background characteristics that make continuation more likely. Put otherwise: institutions that can be extremely selective, for whatever reasons, may look as though they are achieving success through supporting students. The reality may be that, in fact, they are simply recruiting students from disadvantaged demographics but only those who also intersect with a higher-outcome background. Care should be taken to avoid this type of gaming by examining intake demographics across a multi-dimensional dataset.
 
 Finally, "employment" is an _extremely_ bad measure of teaching quality. Although it is clear that social mobility is a desirable outcome of HE access practices, it is more likely that employment outcomes will be better at institutions where employers tend to use the institutional brand names as a proxy for the quality of applicants. But high-quality teaching can be found at every institution, although it may vary on aggregate at different levels across whole institutions. There is also the problem of intake demographic. If a university has a large number of part-time, mature students already in employment, then this type of measure will yield a warped outcome. It is also the case that forming connections with people in business can have a substantial effect on the chances of employment. This, though, is nothing to do with subject teaching at institutions. TEF is, after all, billed as a potential _teaching_ framework, not an _employability and networking_ framework. In short: there are complex geographical, institutional, and historical factors that determine employability outcomes that are nothing to do with teaching. To include such measures in a _teaching_ framework would considerably damage the credibility of the exercise. Employment outcomes should not be used as a teaching metric.
-
-
-
-

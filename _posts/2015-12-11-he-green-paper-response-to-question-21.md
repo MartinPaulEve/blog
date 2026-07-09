@@ -1,11 +1,18 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/12/11/he-green-paper-response-to-question-21
+categories:
+- HE
+- green paper
+- politics
+date: 2015-12-11
+doi: https://doi.org/10.59348/5z483-w9q12
 layout: post
-title: "HE Green Paper: response to question 21"
-categories: [HE, green paper, politics]
-tags: [HE, green paper, politics]
-published: True
-doi: "https://doi.org/10.59348/5z483-w9q12"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/12/11/he-green-paper-response-to-question-21"
+published: true
+tags:
+- HE
+- green paper
+- politics
+title: 'HE Green Paper: response to question 21'
 ---
 
 This post is part of an [ongoing series](https://martineve.com/GreenPaper/) where I intend to develop my full _personal_ (_not_ institutional) response to the HE Green Paper. Comments are welcome to refine this.
@@ -34,7 +41,3 @@ The "power, potentially, to validate providers’ courses" is extremely alarming
 b.)
 
 The primary rationale given for the regulatory framework is to protect "students, employers and tax payers". As there is no direct benefit to institutions -- and as question 23 seems to wish to totally declassify institutions as public entities -- it is unclear on what logical basis this proposal for a subscription funding model might stand.
-
-
-
-

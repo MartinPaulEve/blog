@@ -1,13 +1,15 @@
 ---
-layout: post
-image: 
-    feature: geek.png
-title: Some lessons in writing Python web scrapers
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/05/18/some-lessons-in-writing-python-web-scrapers
 categories: []
+date: 2015-05-18
+doi: https://doi.org/10.59348/d06dw-jwx30
+image:
+  feature: geek.png
+layout: post
+ogImage: geek.png
+published: true
 tags: []
-published: True
-doi: "https://doi.org/10.59348/d06dw-jwx30"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/05/18/some-lessons-in-writing-python-web-scrapers"
+title: Some lessons in writing Python web scrapers
 ---
 
 Last weekend I wanted a break from my usual activities, so I decided to write myself some tools to automate a few tasks. One of these is to pull down QIF data from my bank so that I can import it into money management software (I know, I know: I go wild at weekends). I did [a little bit](https://github.com/MartinPaulEve/lloyds_tsb_scrape) on this a while back but I needed to refresh my memory.
@@ -32,9 +34,3 @@ I have found that Selenium is not always as robust as Scrapy. If you start multi
 self.display = Display(visible=0, size=(800, 600))
 self.display.start()
 {% endhighlight %}
-
-
-
-
-
-

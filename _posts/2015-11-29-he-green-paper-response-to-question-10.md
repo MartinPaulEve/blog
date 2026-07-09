@@ -1,11 +1,18 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/29/he-green-paper-response-to-question-10
+categories:
+- HE
+- green paper
+- politics
+date: 2015-11-29
+doi: https://doi.org/10.59348/8gh0f-ey847
 layout: post
-title: "HE Green Paper: response to question 10"
-categories: [HE, green paper, politics]
-tags: [HE, green paper, politics]
-published: True
-doi: "https://doi.org/10.59348/8gh0f-ey847"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/29/he-green-paper-response-to-question-10"
+published: true
+tags:
+- HE
+- green paper
+- politics
+title: 'HE Green Paper: response to question 10'
 ---
 
 This post is part of an [ongoing series](https://martineve.com/GreenPaper/) where I intend to develop my full _personal_ (_not_ institutional) response to the HE Green Paper. Comments are welcome to refine this.
@@ -28,7 +35,3 @@ On "Learning environment": many of these proposed criteria are attacking straw f
 between teaching and research careers, and explicit career path and other rewards". This already happens. See, for example, the promotion criteria at the University of London that permit Professorial status on the basis of "excellent teaching" alongside acceptable performance in research. That said, I was very pleased to see a focus on "The relationship and mutual benefits between teaching, scholarship and research". If this is lost, then HE is in trouble. It is _vital_ that research and teaching not be tracked into different areas at institutions.
 
 On "Student outcomes and learning gain": I am unclear what the proposed items of measurement include here. For example: "students get added value from their studies". What does this mean beyond the specific areas identified? There is also insufficient focus here on the social benefits of an educated population in favour of short-term thinking on skills: "Students’ knowledge, skills and career readiness are enhanced by their education". While there is a passing mention of "educational [...] goals" it is not clear that these should always and in every case be linked to and measured by employment. It is clear that we need people to know about history and literature for the good of society. Yet this seems to be elided here in favour of crass metrics of whether degrees provide training in the present. There should be more acknowledgement that universities are not simply "skilling" engines for business, even though universities have long recognised that they have a duty to help students prepare for future careers. It is also worth noting that many mature and/or part-time students do not (re-)enter HE for any kind of employment gain, but rather because they are _interested_. The motivations of students from diverse backgrounds must be factored in to any measurement of outcomes, since without knowing this one is making unfounded assumptions about what students want.
-
-
-
-

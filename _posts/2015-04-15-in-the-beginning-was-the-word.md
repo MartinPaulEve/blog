@@ -1,11 +1,12 @@
 ---
-layout: post
-title: In the beginning was the Word
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/04/15/in-the-beginning-was-the-word
 categories: []
+date: 2015-04-15
+doi: https://doi.org/10.59348/3faq7-3r117
+layout: post
+published: true
 tags: []
-published: True
-doi: "https://doi.org/10.59348/3faq7-3r117"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/04/15/in-the-beginning-was-the-word"
+title: In the beginning was the Word
 ---
 
 There is no single cause of the problems with the economics of scholarly communications. The expectation that we can publish more and more research on the same, or lesser, budgets is one factor. The rise of profiteering commercial publishers is another. There is also a group of smaller other aspects, though, one of which I will discuss here.
@@ -25,8 +26,3 @@ The costs of typesetting per article are not necessarily huge. But they are a co
 The other approach by more optimistic types is to build better tools. Word is abysmal at collaboration, for example. Could we build online tools that produce friendly output that do this better than Word? Of course, Microsoft will also be aware of its limitations of functionality and will work to improve them, even while it is unlikely that it will improve the underlying output format for scholarly communication purposes.
 
 There are no totally easy answers here. Author awareness will only arise with price sensitivity. At the moment, most aren't aware and don't care about this process. On the other hand, if it becomes truly possible to out-feature the giants, then author behaviour might also change. In the meantime, the grail quest for automatic conversion remains.
-
-
-
-
-

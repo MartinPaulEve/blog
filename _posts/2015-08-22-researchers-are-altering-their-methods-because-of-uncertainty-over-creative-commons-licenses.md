@@ -1,14 +1,20 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/08/22/researchers-are-altering-their-methods-because-of-uncertainty-over-creative-commons-licenses
+categories:
+- open access
+date: 2015-08-22
+doi: https://doi.org/10.59348/3s9kt-z3m64
+image:
+  feature: oa.png
 layout: post
-image: 
-    feature: oa.png
-title: Researchers are altering their methods because of uncertainty over Creative Commons licenses
-categories: [open access]
-tags: [open access]
-published: True
-doi: "https://doi.org/10.59348/3s9kt-z3m64"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/08/22/researchers-are-altering-their-methods-because-of-uncertainty-over-creative-commons-licenses"
+ogImage: oa.png
+published: true
+tags:
+- open access
+title: Researchers are altering their methods because of uncertainty over Creative
+  Commons licenses
 ---
+
 First of all, let me say that I found the piece of work I'm about to discuss really interesting in its own right. I know one of the co-authors and I'm an avid Soundcloud user (for electronic music, no-less!) so I thought this would be right up my street. The work in question is Allington, Daniel, Byron Dueck, and Anna Jordanous, ‘Networks of Value in Electronic Music: SoundCloud, London, and the Importance of Place’, Cultural Trends, 24 (2015), 211–22 <[http://dx.doi.org/10.1080/09548963.2015.1066073](http://dx.doi.org/10.1080/09548963.2015.1066073)>. It's open access because RCUK policy demands it must be. This is great because my university doesn't subscribe to "Cultural Trends" and I am interested in the topic. It's also great that it's openly licensed, since I can save you the hassle of visiting the publisher's site by [posting a copy here](/images/allingtonetal.pdf).
 
 So far so good. However, as I was reading the work I noticed that quotations were a little strangely distributed throughout, with some participants named, others not. I then read footnote number four:
@@ -60,7 +66,3 @@ So, let's say my words appear in a CC BY article and someone mis-uses them:
 Daniel Allington has previously been [extremely critical](http://www.danielallington.net/2014/08/choices-open-access-creative-commons-funded-unfunded-research/) of CC licenses without an ND clause. He has asked: "But what does it mean to ‘remix’ an academic paper?" (I'd say it means extensive quotation beyond fair use into a new derivative work (say a paper that did a line-by-line commentary on another)) and he has asked: "What if the marketing department of one of those social media sites decides to ‘manipulate’ what I have written by deleting all the negatives and exaggerating all the positives?" (my answer: they are violating the license since they are implying that you endorsed their wrong use of your words and because this could be prejudicial to your reputation and you therefore have legal redress, as you would in a piece that was not openly licensed, which they would also probably quote).
 
 In conclusion, I would genuinely like to know whether a lawyer peer-reviewed this article, its footnote and approved (it would be really worthwhile to see the feedback). If not, then it's just one non-lawyer (me) versus others but it _is_ resulting in _actual change_ on the ground. I also have quoted the relevant portions of the license above that I feel render this paper's view a mis-reading of the CC BY license. I remain of the belief that more liberal licenses could have benefits for the academy and beyond. Others disagree. It would be helpful, though, if RCUK, Creative Commons or similar bodies could issue statements from lawyers and/or case-law histories on these types of question, as they are resulting in changing research practice (and possibly less-rich outputs) based on what I feel is a misconstrual of the RC's intents and the licenses' wording.
-
-
-
-

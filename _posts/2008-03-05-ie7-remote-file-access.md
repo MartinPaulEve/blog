@@ -1,0 +1,25 @@
+---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2008/03/05/ie7-remote-file-access
+categories:
+- Technology
+- InfoSec
+comments: []
+date: 2008-03-05 08:41:57 +0100
+date_gmt: 2008-03-05 08:41:57 +0100
+doi: https://doi.org/10.59348/hg838-dqx47
+image:
+  feature: geek.png
+layout: post
+ogImage: geek.png
+published: true
+status: publish
+tags:
+- information security
+- IE7
+title: IE7 Remote File Access
+wordpress_id: 255
+wordpress_url: http://pro.grammatic.org/post-ie7-remote-file-access-46.aspx
+---
+
+<p>Just a quick post to draw attention to Ronald's excellent article at <a href="http://www.0x000000.com/?i=525">http://www.0x000000.com/?i=525</a> where he has pulled off a very interesting remote file access in IE7. The attack works by including an invalid DTD on an XML file which then streams the content of the requested file in its error message.</p>
+<p>Use IE7? Be afraid.</p>

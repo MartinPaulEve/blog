@@ -1,14 +1,17 @@
 ---
-layout: post
-image: 
-    feature: oa.png
-title: What does the academic monograph market look like for a new open-access publisher?
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/04/23/what-does-the-academic-monograph-market-look-like-for-a-new-open-access-publisher
 categories: []
+date: 2015-04-23
+doi: https://doi.org/10.59348/w6nzn-yax73
+image:
+  feature: oa.png
+layout: post
+ogImage: oa.png
+published: true
 tags: []
-published: True
-doi: "https://doi.org/10.59348/w6nzn-yax73"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/04/23/what-does-the-academic-monograph-market-look-like-for-a-new-open-access-publisher"
+title: What does the academic monograph market look like for a new open-access publisher?
 ---
+
 I tell people, repeatedly, that publisher brand fuels a strange economic environment for scholarly communications. I also note that symbolic capital (reputation) has a direct conversion to material capital (money). Finally, I point out that the economics of books are harder than journals for new OA publishers for reasons of scale in both material and symbolic economics. I'm often searching for new ways to show this, so here's a quick, simple and, of course, reductive demonstration that occurred to me today.
 
 Researcher A is at a career stage where a good book publication will lead to his or her promotion, perhaps with a £15,000 per year salary increase. Researcher A is not philosophically opposed to OA (indeed, supports it) but has extremely limited recourse to publication funds.
@@ -36,7 +39,3 @@ Researcher A is at a career stage where a good book publication will lead to his
 </table>
 
 Authors don't think of it in these terms ("life of the mind" and all that) but the consequence of using publisher brand to assess publications can be to make organisations with identical peer review procedures (which are heralded as the all-important standard) give different material and symbolic returns to authors. Not only do new OA publishers have to compete with "free" if they have a book processing charge, they may also have to compete with financial and reputational returns _to authors_ from publishers in a subscription mechanism. And all because their name is not yet a viable shorthand for committees to value as a proxy measure of quality. That's a very tough market.
-
-
-
-

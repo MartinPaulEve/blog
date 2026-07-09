@@ -1,23 +1,25 @@
 ---
-layout: post
-image: 
-    feature: oa.png
-status: publish
-published: true
-title: 'Applications now open for OpenCon 2015'
-link: http://opencon2015.org/blog/opencon-2015-applications-are-open
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/06/01/applications-open-for-opencon-2015
 categories:
 - Technology
 - Open Access
 - Politics
 - Academia
+date: 2015-06-01
+doi: https://doi.org/10.59348/mw910-jms95
+image:
+  feature: oa.png
+layout: post
+link: http://opencon2015.org/blog/opencon-2015-applications-are-open
+ogImage: oa.png
+published: true
+status: publish
 tags:
 - Technology
 - Open Access
 - Internet
 - rights
-doi: "https://doi.org/10.59348/mw910-jms95"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/06/01/applications-open-for-opencon-2015"
+title: Applications now open for OpenCon 2015
 ---
 
 Applications to attend OpenCon 2015 on November 14-16 in Brussels, Belgium are now open! The application is available on the OpenCon website at opencon2015.org/attend and includes the opportunity to apply for a travel scholarship to cover the cost of travel and accommodations. Applications will close on June 22nd at 11:59pm PDT.
@@ -41,8 +43,3 @@ The third day will take advantage of the location in Brussels by providing a hal
 OpenCon 2015 builds on the success of the first-ever OpenCon meeting last year which convened 115 students and early career academic professionals from 39 countries in Washington, DC.  
 
 Speakers at OpenCon 2014 included the Deputy Assistant to the President of the United States for Legislative Affairs, the Chief Commons Officer of Sage Bionetworks, the Associate Director for Data Science for the U.S. National Institutes of Health, and more than 15 students and early career academic professionals leading successful initiatives. OpenCon 2015 will again feature leading experts, and the program will be announced in the coming months.
-
-
-
-
-

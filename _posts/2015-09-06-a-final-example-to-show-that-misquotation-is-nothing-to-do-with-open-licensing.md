@@ -1,13 +1,15 @@
 ---
-layout: post
-image: 
-    feature: oa.png
-title: A final example to show that misquotation is nothing to do with open licensing
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/09/06/a-final-example-to-show-that-misquotation-is-nothing-to-do-with-open-licensing
 categories: []
+date: 2015-09-06
+doi: https://doi.org/10.59348/qjgwh-txt77
+image:
+  feature: oa.png
+layout: post
+ogImage: oa.png
+published: true
 tags: []
-published: True
-doi: "https://doi.org/10.59348/qjgwh-txt77"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/09/06/a-final-example-to-show-that-misquotation-is-nothing-to-do-with-open-licensing"
+title: A final example to show that misquotation is nothing to do with open licensing
 ---
 
 In [a previous piece](/2015/08/22/researchers-are-altering-their-methods-because-of-uncertainty-over-creative-commons-licenses/), I noted in defence of Creative Commons licenses that "Whether a work is openly licensed or not does not affect whether people can or will write things that are not true". In that piece, I focused on the fact that legal redress seems to remain available under a CC BY license. Here, I want to briefly cover the other side: work that isn't openly licensed but that still gets misquoted.
@@ -23,7 +25,3 @@ But no, Corbyn was misquoted in the press. And it's exactly the type of misquoti
 >Only by decontextualising these words entirely were the Mail, the Express, the Telegraph and the actual genuine leader of the Liberal Democrats, Tim Farron, able to misrepresent Corbyn so absurdly.
 
 This happens all the time and you're hardly afforded any extra protection with open speech and the press than if you write an article and it's openly licensed.
-
-
-
-

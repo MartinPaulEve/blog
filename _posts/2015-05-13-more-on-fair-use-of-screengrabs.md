@@ -1,11 +1,16 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/05/13/more-on-fair-use-of-screengrabs
+categories:
+- copyright
+- publishing
+date: 2015-05-13
+doi: https://doi.org/10.59348/ar5nw-m1h97
 layout: post
+published: true
+tags:
+- copyright
+- fair use
 title: More on fair-use of screengrabs
-categories: [copyright, publishing]
-tags: [copyright, fair use]
-published: True
-doi: "https://doi.org/10.59348/ar5nw-m1h97"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/05/13/more-on-fair-use-of-screengrabs"
 ---
 
 I wrote yesterday, in a grumpy state, about the [restrictiveness of copyright and licensing of screenshots in academic material](https://www.martineve.com/2015/05/12/another-copyright-absurdity-using-film-screenshots/). Today brings happier news.
@@ -21,7 +26,3 @@ The ever-excellent [Laura Quilter](http://www.library.umass.edu/services/scholar
 >*I'm talking about US fair use, but UK is not that different on my understanding. Section 30(1) for criticism and review should cover it. Section 29(1) for research & study has not previously covered films (not sure if it was changed in the recent revisions) so that might have given rise to confusion. http://www.legislation.gov.uk/ukpga/1988/48/section/30 : "Fair dealing with a work for the purpose of criticism or review, of that or another work or of a performance of a work, does not infringe any copyright in the work provided that it is accompanied by a sufficient acknowledgement [F1 and provided that the work has been made available to the public]." It's hard to be clearer than that. 
 
 Contrary to my expectation -- and contrary to the pessimism of many of my film scholar friends -- my publisher agreed! Use of screengrabs should be deemed fair use.
-
-
-
-

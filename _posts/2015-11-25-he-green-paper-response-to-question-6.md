@@ -1,11 +1,18 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/25/he-green-paper-response-to-question-6
+categories:
+- HE
+- green paper
+- politics
+date: 2015-11-25
+doi: https://doi.org/10.59348/rhb15-fb404
 layout: post
-title: "HE Green Paper: response to question 6"
-categories: [HE, green paper, politics]
-tags: [HE, green paper, politics]
-published: True
-doi: "https://doi.org/10.59348/rhb15-fb404"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/25/he-green-paper-response-to-question-6"
+published: true
+tags:
+- HE
+- green paper
+- politics
+title: 'HE Green Paper: response to question 6'
 ---
 
 This post is part of an [ongoing series](https://martineve.com/GreenPaper/) where I intend to develop my full _personal_ (_not_ institutional) response to the HE Green Paper. Comments are welcome to refine this.
@@ -29,7 +36,3 @@ Given the focus on student choice and competitiveness driving down costs, it is 
 With respect to the panel process, I have some significant concerns. The inclusion of "employer/professional representatives" is curious because why should employers or professional representatives know anything about _teaching_? The only rationale for their inclusion can be to ensure that industry can have a say in university teaching. But why should "employers" have more of a say than anyone else who pays taxes? What about interested laypeople? This is clearly a politically motivated decision that renders the assertion that "TEF assessments will be independent from Government" meaningless.
 
 I am also unclear on the proposed timings of the convening of panels. The Paper states that "In time, it is envisaged that panels will be convened for each discipline". Is it the case, then, that subject-specific panels will _not_ be implemented early on in the process? Again, this leads me to believe that the whole process is far too rushed. How could a physics expert appraise teaching in drama?
-
-
-
-

@@ -1,12 +1,18 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/10/11/quasi-objects
+categories:
+- writing
+- philosophy
+date: 2015-10-11
+doi: https://doi.org/10.59348/zk15h-tcr70
 layout: post
+published: true
+tags:
+- writing
+- philosophy
 title: Quasi-Objects
-categories: [writing, philosophy]
-tags: [writing, philosophy]
-published: True
-doi: "https://doi.org/10.59348/zk15h-tcr70"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/10/11/quasi-objects"
 ---
+
 An off-cut from writing.
 
 In his seminal work, _We Have Never Been Modern_, Bruno Latour highlights (and criticises) two opposed strains of social-scientific thought. The first school to come under fire from Latour is the social constructivists. This mode of thought is one wherein most aspects of objective reality can be shown as determined by social convention. The classic example of this is gender. Western cultures have traditionally assumed that there are two genders that are constituted by possession of specific sexual organs. Yet we also know that a range of secondary sexual characteristics (and even primary sexual characteristics) are possible. The determination of gender categorisation into binaries is, therefore, a social choice made for various socio-legal and economic reasons (childbearing, for example). For Latour, however, the social constructivists falsely claim that they have privileged insight and are the sole class of people who can see through this social construction. Latour puts it that one strain of social scientists think that:
@@ -25,7 +31,3 @@ In other words, on one side of this type of thinking lies the assertion that hum
 <p><a href="#intext1" id="note1">1</a> Ian Walker, ‘Drivers Overtaking Bicyclists: Objective Data on the Effects of Riding Position, Helmet Use, Vehicle Type and Apparent Gender’, <i>Accident Analysis &amp; Prevention</i> 39, no. 2 (March 2007): 417–25, doi:<a href="http://dx.doi.org/10.1016/j.aap.2006.08.010">10.1016/j.aap.2006.08.010</a>; These findings were extensively queried by Jake Olivier and Scott R. Walter, ‘Bicycle Helmet Wearing Is Not Associated with Close Motor Vehicle Passing: A Re-Analysis of Walker, 2007’, <italic>PLoS ONE</italic> 8, no. 9 (25 September 2013): e75424, doi:<a href="http://dx.doi.org/10.1371/journal.pone.0075424">10.1371/journal.pone.0075424</a>, although do read the comments on this second article to see how contested this is in the scientific community.</p>
 
 <p><a href="#intext2" id="note2">2</a> Bruno Latour, <i>We Have Never Been Modern</i> (Cambridge, Mass.: Harvard University Press, 1993), 51–53.</p>
-
-
-
-

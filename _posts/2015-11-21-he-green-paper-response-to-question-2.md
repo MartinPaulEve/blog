@@ -1,11 +1,18 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/21/he-green-paper-response-to-question-2
+categories:
+- HE
+- green paper
+- politics
+date: 2015-11-21
+doi: https://doi.org/10.59348/j6kqc-t7k64
 layout: post
-title: "HE Green Paper: response to question 2"
-categories: [HE, green paper, politics]
-tags: [HE, green paper, politics]
-published: True
-doi: "https://doi.org/10.59348/j6kqc-t7k64"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/21/he-green-paper-response-to-question-2"
+published: true
+tags:
+- HE
+- green paper
+- politics
+title: 'HE Green Paper: response to question 2'
 ---
 
 This post is part of an [ongoing series](https://martineve.com/GreenPaper/) where I intend to develop my full _personal_ (_not_ institutional) response to the HE Green Paper. Comments are welcome to refine this.
@@ -28,7 +35,3 @@ The problem of which the Green Paper currently complains is that existing mechan
 This aside, though, my final point is that UK HE exists within a global context. It is clear that other countries are _not_ following the same recommendations here. By measuring UK institutions by measures that are not globally adopted, such as those in TEF, the output will produce a non-comparable dataset to international institutions. This will damage the competitiveness of UK HE by adding to student confusion over different measures, particularly for foreign students. If TEF information is to meaningfully inform student and employer decision making then it must be viewed as an _internationally accepted and valid measure_. The timescales on which TEF is being introduced make it unlikely that this will be the case as no international consultation has taken place.
 
 In summary: while it may be possible to present TEF information in a clear way to students and employers, it is likely to be a highly reductive quantification of complex social processes that are not fundamentally reducible to such numbers. Spreading this across a multi-dimensional dataset will make the narratives that emerge from such quantification subject to gaming and spin. Insufficient information has been given at this stage about the measures that will be used, and so this question is hard to answer. The arguments about the need for comparability sit in contrast to the Minister's rejection of recognised best practices of peer review. Only inter-institutional validation will provide this comparability in an HE context. International HE league tables, sometimes predicated on research, will continue to act as more powerful brand signals than any TEF result, meaning that TEF will be less likely to influence student and employer behaviour. TEF is not sufficiently aware of the global challenge for the competitiveness of UK HE and seeks to impose a framework that will not be internationally recognised, thereby making UK insitutions both behave and report in ways that will be unfamiliar to those outside of a UK context.
-
-
-
-

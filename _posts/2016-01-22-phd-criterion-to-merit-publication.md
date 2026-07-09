@@ -1,11 +1,20 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/01/22/phd-criterion-to-merit-publication
+categories:
+- PhD
+- exams
+- publication
+- peer review
+date: 2016-01-22
+doi: https://doi.org/10.59348/bye5m-3jx47
 layout: post
-title: "Ph.D. criterion: to 'merit publication'"
-categories: [PhD, exams, publication, peer review]
-tags: [PhD, exams, publication, peer review]
-published: True
-doi: "https://doi.org/10.59348/bye5m-3jx47"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/01/22/phd-criterion-to-merit-publication"
+published: true
+tags:
+- PhD
+- exams
+- publication
+- peer review
+title: 'Ph.D. criterion: to ''merit publication'''
 ---
 
 Yesterday, I attended my university's official training course for Ph.D. examiners. It was an extremely useful day to familiarize myself with the regulations at the University of London and to hear about incoming procedures for independent viva chairs.
@@ -21,7 +30,3 @@ In short, the question that came out of this for me was what "meriting publicati
 It also struck me as a fairly subjective criterion but one that was double-edged. If a candidate had not published anything before arriving at a viva, then the examiners can choose the imagined peer group against which the work should be measured. If, however, the candidate can say that parts of the work have been published, then not only has the candidate pre-determined the peer group/venue against which it is valid to benchmark the work, but he or she has also pre-demonstrated the fulfillment of this criterion, at least for that part of the thesis.
 
 In any case, as questions about peer-review practice continue to surface (and I think of Kathleen Fitzpatrick's notion of "peer-to-peer review"), this aspect of Ph.D. assessment will become more and more tricky. I suggest that, already, it is too vague a criterion and more specific guidance should be given.
-
-
-
-

@@ -1,12 +1,19 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/05/10/some-thoughts-on-repealing-the-human-rights-act
+categories:
+- politics
+- personal
+date: 2015-05-10
+doi: https://doi.org/10.59348/6bg5y-49p31
 layout: post
+published: true
+tags:
+- politics
+- Conservatives
+- Human Rights
 title: Some thoughts on repealing the Human Rights Act
-categories: [politics, personal]
-tags: [politics, Conservatives, Human Rights]
-published: True
-doi: "https://doi.org/10.59348/6bg5y-49p31"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/05/10/some-thoughts-on-repealing-the-human-rights-act"
 ---
+
 The new Conservative government in the United Kingdom has promised to scrap the Human Rights Act. The [rationale that they give for this](https://www.conservatives.com/~/media/files/downloadable%20Files/human_rights.pdf) centres around originalism (claiming that the HRA has been interpreted beyond its original scope) and national self-determination (the EU telling the UK government what laws it can pass).
 
 I remain worried about this. The Human Rights Act sets out a series of principles that seem, to me, to be fairly uncomplicated:
@@ -40,7 +47,3 @@ The UK government wants to replace the HRA with a "UK bill of rights". Will this
 However, whether or not they could actually pass such matters is different to fringe individuals wanting to. Without the HRA, though, it makes it much easier to do so.
 
 What this boils down to for me, though, is whether rights are deemed to be inviolable and what international oversight can do to make sure that this is the case. I would like to see national sovereignty and self-determination (at a national level) restricted in the case of human rights. If they are rights, they should be inviolable and with some binding permanence. This requires a way to make it harder to violate such rights through binding permanence. Slowing down the process of undoing such binding permanence is the best that international law can do and this was the value of the HRA within relatively short-terms of parliament. Interestingly, however, the Conservative party now seems to advocate a moral relativism (which should be against their principles). They seem to object to an overriding, immutable set of inviolable principles in favour of locally determining what is right and wrong. In the case of the principles in question, I feel doubtful about whether this is a great idea.
-
-
-
-

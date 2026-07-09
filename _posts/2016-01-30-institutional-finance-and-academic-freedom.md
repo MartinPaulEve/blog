@@ -1,11 +1,20 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/01/30/institutional-finance-and-academic-freedom
+categories:
+- HE
+- politics
+- academic freedom
+- green paper
+date: 2016-01-30
+doi: https://doi.org/10.59348/e6j5p-78x56
 layout: post
+published: true
+tags:
+- HE
+- politics
+- academic freedom
+- green paper
 title: Institutional Finance and Academic Freedom
-categories: [HE, politics, academic freedom, green paper]
-tags: [HE, politics, academic freedom, green paper]
-published: True
-doi: "https://doi.org/10.59348/e6j5p-78x56"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/01/30/institutional-finance-and-academic-freedom"
 ---
 
 An [article in the Times Higher Education yesterday](https://www.timeshighereducation.com/news/several-london-post-92s-see-falls-battle-students) got me thinking about institutional stability, finance, and the ongoing "reforms" to UK higher education. For those who don't know the background: until recently, universities who wanted their students to be able to get the government-underwritten income-contingent repayment loans could only recruit a specific number of students. This is referred to as the "numbers cap" or "recruitment cap". In 2013, the government announced that it was to remove the cap, a move implemented in 2015. The government's thinking behind this is about marketisaton of the HE sector. As far as they are concerned, the numbers cap represented an artificial barrier on student choice/mobility and also gave too much financial stability to incumbent entities (thereby, in their logic, giving no incentive to "innovate").
@@ -98,7 +107,3 @@ In any case, in the UK, via the Education Reform Act of 1988, academic freedom i
 While this sounds straightforward, if one is _already_ "in jeopardy of losing [one's] job", because one is not on a permanent contract, then it is not possible to have academic freedom, since any link to dismissal or non-renewal of contract to the expression of an unpopular opinion cannot be proved. In all cases like this, the institution can simply claim a financial prerogative and is under no obligation to re-hire contingent faculty.
 
 The more financial pressure that the government puts on institutions through their systemic marketisation of universities, the more that institutions will seek flexibility in their expenditure, and we will see ever-more faculty on non-permanent contracts. Strangely, the government recognises this as in its recent Green Paper it suggested that a measure of an institution's commitment to teaching in its awful TEF proposal "[might include proportion of staff on permanent contracts](https://www.martineve.com/2015/12/01/he-green-paper-response-to-question-11/)". Yet, at the same time, it is the government's financial engineering of the sector that is leading to this very behavioural situation which they then seek to correct. It would be better to cure this ill at the cause, rather than to discipline the symptoms by beating with medicative sticks.
-
-
-
-

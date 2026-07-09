@@ -1,13 +1,19 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/08/19/additional-contexts-for-reading-the-emergence-of-new-UK-university-presses
+categories:
+- OA
+- publishing
+date: 2015-08-19
+doi: https://doi.org/10.59348/kd8wp-9v970
+image:
+  feature: oa.png
 layout: post
-image: 
-    feature: oa.png
+ogImage: oa.png
+published: true
+tags:
+- OA
+- publishing
 title: Additional contexts for reading the emergence of new UK university presses
-categories: [OA, publishing]
-tags: [OA, publishing]
-published: True
-doi: "https://doi.org/10.59348/kd8wp-9v970"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/08/19/additional-contexts-for-reading-the-emergence-of-new-UK-university-presses"
 ---
 
 In a recent [piece for The Bookseller](http://www.thebookseller.com/blogs/anthony-cond-309360), Anthony Cond (for whom I have a huge deal of respect), writes approvingly, if cautiously, of the births of new university presses. Indeed, there is much to celebrate in the idea of the university taking back the means of its research production on a not-for-profit basis. I am wholly in support of such a mission.
@@ -33,8 +39,3 @@ My second concern for the context in which we might read the emergence of new OA
 The [Crossick Report](http://www.hefce.ac.uk/pubs/rereports/year/2015/monographs/) called for experimentation. It noted that there is no one single established business model for monograph publication and that it's early days. But I still see unscalable Book Processing Charges in each of these cases. Certainly, the presses are aware of this. UCL covers its own researchers internally (which might, I feel, be wrongly construed by researchers elsewhere), while [Goldsmiths Press](http://www.gold.ac.uk/goldsmiths-press/) seeks to "combine green open access with a fair and varied pricing model in order to avoid the exploitation of authors as well as readers, creators as well as users". In both instances, high-profile institutional insiders (Lisa Jardine and Les Back) have pledged (or, now, even published) books with the presses. But could they do so if it were to cost £5,000+? I certainly couldn't.
 
 Obviously, I don't have the one single magic answer that can fix all of this. Because there isn't one. I'm trying a different economic model for journals, though, elsewhere. But in this rush to new university presses, of which I am broadly in favour, all I really want to add is that we should be careful of the environment in which they are born and we should also work with such partners to find ways to make OA affordable, across all disciplines, through a variety of business models.
-
-
-
-
-

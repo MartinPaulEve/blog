@@ -1,11 +1,18 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/12/31/he-green-paper-response-to-question-26
+categories:
+- HE
+- green paper
+- politics
+date: 2015-12-31
+doi: https://doi.org/10.59348/8dfja-g5f47
 layout: post
-title: "HE Green Paper: response to question 26"
-categories: [HE, green paper, politics]
-tags: [HE, green paper, politics]
-published: True
-doi: "https://doi.org/10.59348/8dfja-g5f47"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/12/31/he-green-paper-response-to-question-26"
+published: true
+tags:
+- HE
+- green paper
+- politics
+title: 'HE Green Paper: response to question 26'
 ---
 
 This post is part of an [ongoing series](https://martineve.com/GreenPaper/) where I intend to develop my full _personal_ (_not_ institutional) response to the HE Green Paper. Comments are welcome to refine this.
@@ -27,7 +34,3 @@ Thirdly, the REF has the advantage of being relatively cost effective. While the
 >The REF assessed the outputs and impact of HEI research supported by many types of funders. In the context of £27bn total research income from public sources in the UK over a six-year period, the £246M total cost for REF 2014 is less than 1%. In the context of dual support, the total cost amounts to roughly 2.4% of the £10.2 billion in research funds expected to be distributed by the UK’s funding bodies in the six years, 2015-16 to 2020-21. This compares with an estimate of the annual cost to the UK HE community for peer review of grant applications of around £196M or around 6% of the funds distributed by the Research Councils.
 
 As above, there are problems with REF; discouraging gaming by universities and attempting to alleviate the pressure put on researchers (via their institutions conducting expensive simulation REF exercises) should be seriously considered. But by contrast to other approaches, given that there is no prospect of unaccountable funding, REF has many benefits.
-
-
-
-

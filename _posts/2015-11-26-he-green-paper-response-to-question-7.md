@@ -1,11 +1,18 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/26/he-green-paper-response-to-question-7
+categories:
+- HE
+- green paper
+- politics
+date: 2015-11-26
+doi: https://doi.org/10.59348/86sxc-07w64
 layout: post
-title: "HE Green Paper: response to question 7"
-categories: [HE, green paper, politics]
-tags: [HE, green paper, politics]
-published: True
-doi: "https://doi.org/10.59348/86sxc-07w64"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/26/he-green-paper-response-to-question-7"
+published: true
+tags:
+- HE
+- green paper
+- politics
+title: 'HE Green Paper: response to question 7'
 ---
 
 This post is part of an [ongoing series](https://martineve.com/GreenPaper/) where I intend to develop my full _personal_ (_not_ institutional) response to the HE Green Paper. Comments are welcome to refine this.
@@ -23,7 +30,3 @@ By way of evidence, consider the following. Firstly, the Green Paper states that
 By contrast, using a purely metricised system would certainly reduce administrative burdens and costs for institutions. But it would also be perverse, damaging and unacceptable. The Green Paper itself acknowledges that there are "issues around how robust" such metrics are and to pursue this would be entirely detrimental to the reputation of the UK's HE sector. Furthermore, the recent independent review of the use of metrics in research, chaired by James Wilsdon, demonstrated just how large these "issues" loom in research. They will be equally, if not more, problematic in measuring teaching since the outward facing elements of practice here are not "on the record" as they are for research.
 
 In short: to measure teaching quality requires narrative evidence to be presented alongside quantitative data. Neither will suffice on its own. To coordinate this type of portfolio in a high-stakes audit exercise underpinned by financial and reputational motivation will incentivize institutions to take on substantial administrative burdens and staffing costs (which some institutions can afford, while other new institutions cannot). I see no evidence that this will cost less to institutions than REF, which was estimated at £232 million for the sector over a five year period (£46.4m per year). The proposed Teaching Excellence Framework is a big-State intervention that will massively increase red tape, administrative overhead and will waste precious resources at a time of scarcity. It is surprising that a Conservative government would pursue such strategies when deregulation is such a core part of other areas of the Green Paper.
-
-
-
-

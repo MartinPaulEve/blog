@@ -1,11 +1,16 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/03/new-review-published-of-joanna-freer-thomas-pynchon-and-the-american-counterculture
+categories:
+- review
+- publication
+date: 2015-11-03
+doi: https://doi.org/10.59348/wjc7j-4kn48
 layout: post
-title: "New review published of Joanna Freer, Thomas Pynchon and the American Counterculture"
-categories: [review, publication]
-tags: [review, publication]
-published: True
-doi: "https://doi.org/10.59348/wjc7j-4kn48"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/03/new-review-published-of-joanna-freer-thomas-pynchon-and-the-american-counterculture"
+published: true
+tags:
+- review
+- publication
+title: New review published of Joanna Freer, Thomas Pynchon and the American Counterculture
 ---
 
 #About
@@ -57,8 +62,3 @@ Lévy, Clément, Territoires Postmodernes: _Géocritique de Calvino, Echenoz, Py
 
 #Download
 [Martin Paul Eve, Review of Joanna Freer, _Thomas Pynchon and the American Counterculture_, (Cambridge: Cambridge University Press, 2014, £60. Pp 165; 978-1-107-07605-1.)](/images/Freer.pdf)
-
-
-
-
-

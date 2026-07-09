@@ -1,14 +1,21 @@
 ---
-layout: post
-title: APCs and Uneven Distribution
-categories: [APCs, Open Access]
-tags: [APCs, Open Access]
-published: True
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/06/17/apcs-and-uneven-distribution
+categories:
+- APCs
+- Open Access
+date: 2015-06-17
+doi: https://doi.org/10.59348/8092n-a8678
 image:
   feature: post_images/APCGraph.png
-doi: "https://doi.org/10.59348/8092n-a8678"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/06/17/apcs-and-uneven-distribution"
+layout: post
+ogImage: post_images/APCGraph.png
+published: true
+tags:
+- APCs
+- Open Access
+title: APCs and Uneven Distribution
 ---
+
 The things that concern me about article processing charges (APCs) for open access are not those surrounding quality control, "predatory publishers" or so forth. Given that we want the services of publishers, their labour costs must be met. If we want to have open access and then the material can't be sold, an author-side payment mechanism looks the most obvious.
 
 [As I've pointed out elsewhere](http://dx.doi.org/10.7710/2162-3309.1131), the problem that most concerns me is how uneven distribution and availability of library funding causes cost concentration. Today I was playing around with some sample numbers to see what this problem might actually look like. Consider three example institutions:
@@ -81,7 +88,3 @@ Other savings in this type of constricted environment where APCs are priced equa
 These figures are extremely rough. They're just supposed to start showing how we might model these types of costs and the challenges faced specifically in the humanities disciplines. Even if you think my figures are low (they certainly aren't for the smaller department, I promise), it still takes a substantial ramping up for APCs to be cheaper. And this is assuming that all subscription payments have been eliminated, which simply can't happen.
 
 it may well be, at a national and global level, that we could invert the system immediately and end up paying the same but get OA. In the messy transition period, though, the uneven distribution of budgetary funds with the desire for universal open access makes this a very tricky proposition, hence the prevalence of green but also the need for experiments in business models for gold that act against this uneven distribution, instead of locally concentrating costs through APCs.
-
-
-
-

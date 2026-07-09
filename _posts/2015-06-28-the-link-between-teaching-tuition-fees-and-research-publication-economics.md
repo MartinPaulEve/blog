@@ -1,13 +1,18 @@
 ---
-layout: post
-title: "The link between teaching, tuition fees and research publication economics"
-categories: [OA, publication]
-tags: [OA]
-published: True
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/06/28/the-link-between-teaching-tuition-fees-and-research-publication-economics
+categories:
+- OA
+- publication
+date: 2015-06-28
+doi: https://doi.org/10.59348/64v3a-qms65
 image:
   feature: post_images/SymbolicEconomy.png
-doi: "https://doi.org/10.59348/64v3a-qms65"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/06/28/the-link-between-teaching-tuition-fees-and-research-publication-economics"
+layout: post
+ogImage: post_images/SymbolicEconomy.png
+published: true
+tags:
+- OA
+title: The link between teaching, tuition fees and research publication economics
 ---
 
 If you think carefully about research publication and its economics, a strange (but also obvious) point becomes clear. In university ecosystems where we have tuition fees (and probably in those without) we determine how much material can be published through the frame of reference of teaching.
@@ -23,7 +28,3 @@ In this curious overlap lies the rub. If we want a system for hiring and promoti
 Of course, this proxy is not the be-all and end-all and the mathematical calculation is not precise. This is why we have shortlisting and interview processes. But the proxy measure is frequently used to whittle down the longlist. But, for this proxy to be effective, it is not mirroring an environment where the number of jobs is determined by research excellence, but by how many students one can recruit. A department can't operate, in a tuition-fees environment, without having students to contribute to its finances (sadly -- what a tragic line to be able to write).
 
 And so, when I hear calls for us to "publish less", I think: yes, that's all very well, but how are we to exclude work? Many many people think that the quality controls should be tighter and that less should be published (I speak from a humanities perspective here and throughout). They do not usually think it is their work that will be unpublished, though! I also wonder whether such calls are coming primarily because the contraction in the academic job market -- which is, remember conditioned by tuition fees -- is simply making the proxy less effective. In this latter instance, if true, we are seeing calls to restrict the volume of research material (and its corresponding economic field) on the basis of a job-market structured around student recruitment. It's a far cry from the noble goals of research dissemination and it's why I continue to think the dual function of research as dissemination and assessment is intensely problematic.
-
-
-
-

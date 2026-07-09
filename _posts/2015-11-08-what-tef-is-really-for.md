@@ -1,11 +1,16 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/08/what-tef-is-really-for
+categories:
+- TEF
+- green paper
+date: 2015-11-08
+doi: https://doi.org/10.59348/e5h49-82354
 layout: post
+published: true
+tags:
+- TEF
+- Higher Education
 title: What TEF is really for
-categories: [TEF, green paper]
-tags: [TEF, Higher Education]
-published: True
-doi: "https://doi.org/10.59348/e5h49-82354"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/08/what-tef-is-really-for"
 ---
 
 In today's [_Research Professional_](https://www.researchprofessional.com/services/mailing.html?uuid=1ecd16f5-8164-4d45-81fe-464cff593150) (paywalled) Martin McQuillan asks:
@@ -31,7 +36,3 @@ This contradiction will not sit well with many Conservatives. And it should not.
 TEF and Johnson's other proposals will also be hugely expensive to the government. Johnson points to the costs of REF as a reason for <strike>renaming</strike> destroying HEFCE (even though the REF is much cheaper than RCUK at allocating funding) but then proposes _another_ central exercise in bureaucracy that will run on a continuous basis. How can this be a policy of a Conservative government, who time and time again promise us less oversight, more deregulation and a more economically efficient system? Is it not remarkable that Johnson's version of the HE market is so heavily reliant on a massive government subsidy and investment? How can we afford this?
 
 Furthermore, much of the Conservative press has viewed the post-92 universities with suspicion. Pejorative phrases like "Mickey Mouse degrees" have been sounded, however unfair and inaccurate they may be. But the new system proposes to do away with most regulatory oversight with respect to degree-awarding entities. How will this result in more of the rigorous institutions that the Conservatives want? Won't this just mean a flooding of the space with rogue degree providers, devaluing the name and continuing a trend that has already come under attack from Conservative quarters? If we want to think about national competitiveness, then this is a surefire way to make the UK's Higher Education provision go down the pan.
-
-
-
-

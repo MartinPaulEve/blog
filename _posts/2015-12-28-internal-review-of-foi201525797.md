@@ -1,11 +1,18 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/12/28/internal-review-of-foi201525797
+categories:
+- FOI
+- HE
+- Green Paper
+date: 2015-12-28
+doi: https://doi.org/10.59348/jep6x-ys523
 layout: post
-title: "Internal review of FOI2015/25797"
-categories: [FOI, HE, Green Paper]
-tags: [FOI, HE, Green Paper]
-published: True
-doi: "https://doi.org/10.59348/jep6x-ys523"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/12/28/internal-review-of-foi201525797"
+published: true
+tags:
+- FOI
+- HE
+- Green Paper
+title: Internal review of FOI2015/25797
 ---
 
 Dear Sir/Madam,
@@ -27,7 +34,3 @@ As a reminder: even if the interests of Elsevier are likely to be prejudiced, th
 Best wishes,
 
 Martin Eve
-
-
-
-

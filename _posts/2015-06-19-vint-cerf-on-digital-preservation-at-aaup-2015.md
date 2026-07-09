@@ -1,13 +1,16 @@
 ---
-layout: post
-title: Vint Cerf on Digital Preservation at AAUP 2015
-categories: [digital preservation]
-tags: []
-published: True
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/06/19/vint-cerf-on-digital-preservation-at-aaup-2015
+categories:
+- digital preservation
+date: 2015-06-19
+doi: https://doi.org/10.59348/6nsg9-qk387
 image:
   feature: post_images/Cerf.jpg
-doi: "https://doi.org/10.59348/6nsg9-qk387"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/06/19/vint-cerf-on-digital-preservation-at-aaup-2015"
+layout: post
+ogImage: post_images/Cerf.jpg
+published: true
+tags: []
+title: Vint Cerf on Digital Preservation at AAUP 2015
 ---
 
 Vint Cerf is one of the few people in the world who can viably use the phrase "my internet" in a talk and it be true. Tim Berners-Lee developed the Hypertext Transfer Protocol (HTTP) which underlies the transfer of hyperlinked documents on the World Wide Web. This is an Application protocol, meaning that it sits at the highest level of the internet. In the [OSI Model](https://en.wikipedia.org/wiki/OSI_model), Cerf and his colleagues developed the TCP/IP protocols which are the Network and Transport layers that sit as the fundamental backbone of how packet switched networks communicate. "My internet" indeed.
@@ -24,7 +27,3 @@ Cerf's reply was great and, briefly distilled, consisted of two parts (any error
 2. We may need to preserve _errors_.
 
 That latter point hadn't really occurred to me. Say, in the present, we use a piece of software to interpret a series of bits and it has a mistake in it. If you publish the perfect reference implementation description and somewhat codes new software to handle it, then perhaps it will not "accurately" recover the file because it does not include the errors in the original software.
-
-
-
-

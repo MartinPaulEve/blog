@@ -1,11 +1,18 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/12/06/he-green-paper-response-to-question-16
+categories:
+- HE
+- green paper
+- politics
+date: 2015-12-06
+doi: https://doi.org/10.59348/8amjz-66a40
 layout: post
-title: "HE Green Paper: response to question 16"
-categories: [HE, green paper, politics]
-tags: [HE, green paper, politics]
-published: True
-doi: "https://doi.org/10.59348/8amjz-66a40"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/12/06/he-green-paper-response-to-question-16"
+published: true
+tags:
+- HE
+- green paper
+- politics
+title: 'HE Green Paper: response to question 16'
 ---
 
 This post is part of an [ongoing series](https://martineve.com/GreenPaper/) where I intend to develop my full _personal_ (_not_ institutional) response to the HE Green Paper. Comments are welcome to refine this.
@@ -29,7 +36,3 @@ To address each of the measures in turn:
 6. Furthermore, again on multi-year designation, the claimed "disadvantages" are uneven. "They cannot plan ahead with any degree of certainty, which holds back investment". The proposed TEF, however, plans to introduce such uncertainty for traditional institutions. "It means that they cannot advertise their courses as eligible to receive student support until much later in the year compared to traditional higher education providers, making it harder to recruit the best students". This demonstrates a misunderstanding of the prestige economy at work. It is not that the "best students" would suddenly flock from Oxbridge to alternative providers if student support were available. It is, rather, that such safeguards are necessary before access to public money is granted via the student support system. However, I do agree that moving the annual re-designation process to an earlier point in the year may be beneficial here. "Monetary and time costs are imposed on all APs on an annual basis – this does not happen for other providers". Again, the proposed TEF asks existing institutions to take on the costs of presenting evidence, so in the future proposed exercise, this statement is untrue. It is also, again, incumbent on new entrants to prove themselves.
 
 7. With respect to number controls: the government has previously been burnt badly on this front. The 100% proposed increase for small providers and the annual 20%-30% rise for other providers is extremely fast. I appreciate that government must operate on short-term political cycles, but considering that it takes up to 15 years in total to become a doctor in the UK (5 years for a degree, 2 years for a post-graduate foundation course, and then 3 to 8 years in specialist training), the longer-term view is necessary here. The rush to accelerate market entrance here carries long-term risks for students, employers and society.
-
-
-
-

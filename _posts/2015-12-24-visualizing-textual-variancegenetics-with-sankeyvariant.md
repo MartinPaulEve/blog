@@ -1,13 +1,19 @@
 ---
-layout: post
-title: Visualizing textual variance/genetics with SankeyVariant
-categories: [software, digital humanities]
-tags: [software, digital humanities]
-published: True
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/12/24/visualizing-textual-variancegenetics-with-sankeyvariant
+categories:
+- software
+- digital humanities
+date: 2015-12-24
+doi: https://doi.org/10.59348/qfy1q-82t83
 image:
   feature: post_images/2015-12-Sankey.png
-doi: "https://doi.org/10.59348/qfy1q-82t83"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/12/24/visualizing-textual-variancegenetics-with-sankeyvariant"
+layout: post
+ogImage: post_images/2015-12-Sankey.png
+published: true
+tags:
+- software
+- digital humanities
+title: Visualizing textual variance/genetics with SankeyVariant
 ---
 
 Over the holiday period I wanted to visualize the differences between two editions of a text that I had found to be very different (more on this in the new year). I couldn't find a ready-made solution, so I put together a small piece of software to achieve this: [SankeyVariant](https://github.com/MartinPaulEve/SankeyTextualVariant).
@@ -204,7 +210,3 @@ The main modifications that I made to the standard d3.js sankey diagram implemen
 I can think of many exciting uses for this, and I know that some others are also interested in working this up into a larger project. For now, though, I'll just say that I hope my first paper that uses this output will be coming out next year.
 
 Merry Christmas all!
-
-
-
-

@@ -1,13 +1,19 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/05/clarifying-a-few-facts-for-elsevier-and-their-response-to-lingua
+categories:
+- Elsevier
+- OA
+date: 2015-11-05
+doi: https://doi.org/10.59348/gmv5p-h4y73
+image:
+  feature: oa.png
 layout: post
-image: 
-    feature: oa.png
+ogImage: oa.png
+published: true
+tags:
+- Elsevier
+- OA
 title: Clarifying a few facts for Elsevier and their response to Lingua
-categories: [Elsevier, OA]
-tags: [Elsevier, OA]
-published: True
-doi: "https://doi.org/10.59348/gmv5p-h4y73"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/05/clarifying-a-few-facts-for-elsevier-and-their-response-to-lingua"
 ---
 
 Elsevier has just published [a response](https://www.elsevier.com/connect/addressing-the-resignation-of-the-lingua-editorial-board) of sorts to the [resignation of the _Lingua_ editors and editorial board](https://www.insidehighered.com/quicktakes/2015/11/03/land-grant-backing-protest-elsevier-pricing). The company there claims that:
@@ -44,7 +50,3 @@ In short:
 
 ##Conflicting Interests Statement
 I run the Open Library of Humanities, which will play host to the new journal to be run by the previous editors of _Lingua_, _Glossa_.
-
-
-
-

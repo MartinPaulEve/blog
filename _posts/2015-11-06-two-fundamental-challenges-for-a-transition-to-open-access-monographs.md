@@ -1,13 +1,19 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/06/two-fundamental-challenges-for-a-transition-to-open-access-monographs
+categories:
+- OA
+- books
+date: 2015-11-06
+doi: https://doi.org/10.59348/dxf15-wfc37
+image:
+  feature: oa.png
 layout: post
-image: 
-    feature: oa.png
+ogImage: oa.png
+published: true
+tags:
+- OA
+- books
 title: Two fundamental challenges for a transition to open-access monographs
-categories: [OA, books]
-tags: [OA, books]
-published: True
-doi: "https://doi.org/10.59348/dxf15-wfc37"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/06/two-fundamental-challenges-for-a-transition-to-open-access-monographs"
 ---
 
 In [my recent book](http://meve.io/oahums) I set out some of the benefits but also the challenges of transitioning to a world of open-access monographs. I've also written previously about some of the discourse of [double dipping in the monograph space](/2015/01/31/on-open-access-books-and-double-dipping/). In the past few weeks I've had cause to think some more about this and have come up with two additional areas of difficulty that present a challenge for OA books: sites of risk/selection and offsetting. Not all of this is hugely new or shocking, but I thought it worth articulating it up-front in this way.
@@ -25,7 +31,3 @@ A crucial part of the dialogue around a transition to open access in the journal
 But let's assume that we go with the discourse of double dipping and offsetting. What would this look like for books? With journals there may be a fixed number of articles and issues per year (a legacy of print culture). So offsetting is easy. Get a price per article and for every article that is pre-paid OA, subtract this from subscription fees. (Again, more complex in practice, but this is the simplified narrative.) What does this look like for books? Presses don't have fixed numbers of titles. Everyone wants their book to be published because there is career pressure to publish (or perish). So if we pay a publisher for an OA book, they can simply use the guaranteed income to underwrite more of the risk in the sales paradigm and take on more titles. In other words, there is no offsetting mechanism at present for books that wouldn't constrain a publishers output.
 
 There are similar problems in the journal world. Starting new journals is the surefire way to monetise a disciplinary space by removing the pivot point for offsetting. But these two interlinked above problems of sites of risk/selection and offsetting seem to me to present far higher hurdles in the book world than they do in the journal space, mostly as a result of the historical assumptions we have about funding these modes of scholarly communication.
-
-
-
-

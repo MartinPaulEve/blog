@@ -1,11 +1,18 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/01/02/he-green-paper-response-to-question-27
+categories:
+- HE
+- green paper
+- politics
+date: 2016-01-02
+doi: https://doi.org/10.59348/rp42g-wwx13
 layout: post
-title: "HE Green Paper: response to question 27"
-categories: [HE, green paper, politics]
-tags: [HE, green paper, politics]
-published: True
-doi: "https://doi.org/10.59348/rp42g-wwx13"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/01/02/he-green-paper-response-to-question-27"
+published: true
+tags:
+- HE
+- green paper
+- politics
+title: 'HE Green Paper: response to question 27'
 ---
 
 This post is part of an [ongoing series](https://martineve.com/GreenPaper/) where I intend to develop my full _personal_ (_not_ institutional) response to the HE Green Paper. Comments are welcome to refine this.
@@ -37,7 +44,3 @@ Under certain circumstances, I feel more optimistic about eliminating a burden t
 I wish also to reiterate here that the peer-review process cannot be replaced by metrics. Attempting this will be devastating for the quality evaluation of UK research. It will also incentivize institutions and researchers into new perverse behavioural patterns, such as citation rings, purchasing metrics packages (from Elsevier or Thomson Reuters), and encouraging researchers to publish only in places (and material which) will fare well by the numbers. I am also wary of removing the impact component; this is a public good.
 
 Again, to reiterate in closing, I would urge any future REF design to focus on the ways in which institutional gaming can be removed so that pressure is lessened _at the individual staff level_. Researchers go into their fields because they want to do good in the world. They are usually joyful at the prospect. Institutional bullying, in order to attempt to second guess REF, can suck this joy our of their work, which is not good for the production of research (which is best motivated by joyful obsession). This is the burden that should be removed.
-
-
-
-

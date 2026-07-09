@@ -1,13 +1,17 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/05/25/thoughts-in-response-to-michael-chibniks-editorial-on-oa-and-american-anthropologist
+categories:
+- OA
+- societies
+date: 2015-05-25
+doi: https://doi.org/10.59348/cvkcj-9zt96
+image:
+  feature: oa.png
 layout: post
-image: 
-    feature: oa.png
-title: Thoughts in response to Michael Chibnik's editorial on OA and American Anthropologist
-categories: [OA, societies]
+ogImage: oa.png
+published: true
 tags: []
-published: True
-doi: "https://doi.org/10.59348/cvkcj-9zt96"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/05/25/thoughts-in-response-to-michael-chibniks-editorial-on-oa-and-american-anthropologist"
+title: Thoughts in response to Michael Chibnik's editorial on OA and American Anthropologist
 ---
 
 In February of this year Michael Chibnik published an [editorial piece in _American Anthropologist_](http://dx.doi.org/10.1111/aman.12231) arguing that while he supported the idea of open access to the publication he also now thinks "that gold open access publication is unlikely to be feasible in the near future for AA". This is a regrettable situation since, from the editorial, it does not appear that many options have been considered to achieve open access, despite the citation in this piece of the previous editor [calling for the Society](http://dx.doi.org/10.1111%2Fj.1548-1433.2012.01440.x) to "work creatively" to achieve OA. I here offer a few thoughts of my own on what was said and left unsaid in Chibnik's editorial.
@@ -69,7 +73,3 @@ I also think that point #4 is too readily dismissed here. The funding route that
 If, then, _AA_ members' institutions did not have to pay $644 per year to get access, but instead gave a contribution on top of their faculty members' dues of, say, $400, might this not cover the costs?
 
 I'm really loathe to sound like I'm just berating Chibnik here but I was not persuaded by this editorial that the journal editors and the society seriously wants to do OA. "I cannot disagree with the rhetoric of those advocating open access for American Anthropologist.", the editorial notes, "It would be obviously a good thing if the journal were freely available to readers rich and poor all over the globe". Alas, it seems impossible given the limited number of options that they have explored, the editorial continues, so we'll go back to business as usual. Societies want OA to be easy. But it isn't easy to reconfigure economic models. It requires hard work, thinking, negotiation and activism. It might turn out to be very hard indeed. But when we write that we support things that are "obviously a good idea" that seem core to the mission of our disciplines and society, is it enough to then say that it seems impossible based on a limited amount of theoretical discussion? I think not.
-
-
-
-

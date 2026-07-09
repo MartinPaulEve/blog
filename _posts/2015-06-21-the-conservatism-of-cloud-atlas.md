@@ -1,12 +1,15 @@
 ---
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/06/21/the-conservatism-of-cloud-atlas
+categories:
+- David Mitchell
+date: 2015-06-21
+doi: https://doi.org/10.59348/aamv0-ken19
 layout: post
-title: The Conservatism of Cloud Atlas
-categories: [David Mitchell]
+published: true
 tags: []
-published: True
-doi: "https://doi.org/10.59348/aamv0-ken19"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/06/21/the-conservatism-of-cloud-atlas"
+title: The Conservatism of Cloud Atlas
 ---
+
 Some thoughts...
 
 What can it mean to think of David Mitchell's _Cloud Atlas_ as a conservative text? Its author, certainly, does not come across as a political Conservative and is more likely to grace the pages of the _Guardian_ than the _Daily Mail_. Mitchell is also no backwards-looking Luddite; like his Stateside contemporary, Jennifer Egan, he has published short fiction through Twitter and is frequently called 'experimental', even if he rejects such a label himself (Mitchell 2014b; Jeffries 2013). Furthermore, the novel in question is polyvocal and structurally playful, it is knowingly metafictional, it is often concerned with eco-critical issues and it also amplifies the tragedy of the Moriori genocide, a catastrophe much overlooked in the global North/West. These are distinctive tropes of the types of aesthetically experimental and ethically progressive fiction that the academy favours, particularly given the continued rise of postcolonial studies, for instance, under whose jurisdiction the last of these listed elements of Mitchell's novel could fall.
@@ -276,7 +279,3 @@ Su, J.J., 2009. _Ethics and Nostalgia in the Contemporary Novel_, Cambridge: Cam
 Taylor, C., 1989. _Sources of the Self: The Making of the Modern Identity_, Cambridge: Cambridge University Press.
 
 Wallace, D.F., 1993. E Unibus Pluram: Television and U.S. Fiction. _Review of Contemporary Fiction_, 13(2), pp.151–198.
-
-
-
-

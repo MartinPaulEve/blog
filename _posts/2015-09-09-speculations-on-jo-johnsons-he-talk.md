@@ -1,13 +1,17 @@
 ---
-layout: post
-title: "TEF, REF, QR, deregulation: thoughts on Jo Johnson's HE talk"
-categories: [policy]
-tags: [policy]
-published: True
+archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/09/09/speculations-on-jo-johnsons-he-talk
+categories:
+- policy
+date: 2015-09-09
+doi: https://doi.org/10.59348/4y66h-h3q39
 image:
   feature: post_images/johnson.jpg
-doi: "https://doi.org/10.59348/4y66h-h3q39"
-archive: "https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/09/09/speculations-on-jo-johnsons-he-talk"
+layout: post
+ogImage: post_images/johnson.jpg
+published: true
+tags:
+- policy
+title: 'TEF, REF, QR, deregulation: thoughts on Jo Johnson''s HE talk'
 ---
 
 I feel fairly drained today reading [the speech given by the minister for Higher Education](https://www.gov.uk/government/speeches/higher-education-fulfilling-our-potential), Jo Johnson. 
@@ -69,7 +73,3 @@ Johnson said, in his speech, that he has "no target for the 'right' size of the 
 None of this is new, of course. I haven't here, also, gone into liberal humanist defences of the university, of which we will surely see many in the light of this talk. I find myself supportive of the goal to get a more diverse student body -- I can't argue with that, just the methods by which it might be achieved. For instance, while there are talks of supporting those who don't go through a "traditional route" to HE, the government's recent policies on funding led to a [period of severe financial difficulties for institutions like Birkbeck](http://www.bbk.ac.uk/about-us/bbk/downloads/2014-articles/bbk33-6-7-future-of-he.pdf) that cater exclusively for those non-traditional students. So, again, the rhetoric is confused.
 
 But now we have it from the Minister and I suspect we will see action on the ground very soon.
-
-
-
-
