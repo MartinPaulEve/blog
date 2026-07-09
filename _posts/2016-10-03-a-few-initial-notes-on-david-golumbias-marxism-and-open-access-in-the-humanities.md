@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/78x39-e3d70
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 title: A few initial notes on David Golumbia's 'Marxism and Open Access in the Humanities'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mazg7r22h"
 ---
 
 I don't know David Golumbia, but I suspect I agree with him on many matters, actually. In particular, the centrality of an understanding of labour within a digital environment (that can too often mask its presence) has formed a core part of the 100+ keynotes that I have given on the topic of open access in the past two years (which is why OLH runs a model that requires universities to pay: we aren't relying on volunteerism etc. we are remunerating labour).

@@ -67,6 +67,7 @@ tags: []
 title: 'In Dubio Contra Reum: a definition'
 wordpress_id: 810
 wordpress_url: https://www.martineve.com/?p=810
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkkb26h2i"
 ---
 
 <p><i>Featured image by <a href="http://www.flickr.com/photos/peroshenka/">Пероша</a> under a CC-BY-NC license.</i></p>

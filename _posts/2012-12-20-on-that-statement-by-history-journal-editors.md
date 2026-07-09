@@ -11,7 +11,7 @@ doi: https://doi.org/10.59348/100k7-cvp27
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -20,6 +20,7 @@ tags:
 title: On /That/ Statement by History Journal Editors
 wordpress_id: 2531
 wordpress_url: https://www.martineve.com/?p=2531
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhfc3lt2h"
 ---
 
 <p>I'm quoted with a few choice words this week in the <i>Times Higher Education</i> for <a href="http://www.timeshighereducation.co.uk/story.asp?sectioncode=26&storycode=422188&c=1">their piece on the already infamous statement</a> by a coalition of editors of history journals, who <a href="http://www.history.ac.uk/news/2012-12-10/statement-position-relation-open-access">equate CC-BY with plagiarism</a>. Here's the quotation:</p>

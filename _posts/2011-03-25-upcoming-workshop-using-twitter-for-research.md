@@ -11,7 +11,7 @@ doi: https://doi.org/10.59348/wpkmc-08224
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -22,6 +22,7 @@ tags:
 title: 'Upcoming workshop: "Using Twitter for Research"'
 wordpress_id: 911
 wordpress_url: https://www.martineve.com/?p=911
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkij47h2r"
 ---
 
 <p><i>Featured image credit: <a href="http://www.flickr.com/photos/utopianlee/">leezfield</a> under a CC-BY-NC-SA license.</i></p>

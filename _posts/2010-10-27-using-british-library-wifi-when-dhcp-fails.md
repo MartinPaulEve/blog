@@ -19,7 +19,7 @@ doi: https://doi.org/10.59348/r7pf6-7g138
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -28,6 +28,7 @@ tags:
 title: Using British Library wifi when DHCP fails
 wordpress_id: 207
 wordpress_url: http://www.martineve.com/?p=207
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlqbos72i"
 ---
 
 <p>Sometimes, the free wireless service at the British Library goes pear shaped and, if you are accustomed to using it, this can make research quite hard. Occasionally, however the fault is not with the central mechanism but rather with DHCP -- the mechanism that gives your computer an address on their system.</p>

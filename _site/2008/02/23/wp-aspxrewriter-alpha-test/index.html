@@ -25,7 +25,7 @@
 <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
 <link rel="stylesheet" href="/assets/fontawesome/css/v4-shims.min.css">
 <link id="hljs-theme" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-light.min.css">
-<link rel="stylesheet" href="/assets/css/styles.css?v=1783502114">
+<link rel="stylesheet" href="/assets/css/styles.css?v=1783599666">
 <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
 <link rel="icon" type="image/png" href="/images/favicon.png">
 <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
@@ -131,7 +131,12 @@ Now I *think* that with IIS7&#39;s new pipeline functions it might be possible t
 
 <link href="https://eve.gd/feed/feed.atom" type="application/atom+xml" rel="alternate" title="Martin Paul Eve Feed">
 
-    <link rel="stylesheet" href="/assets/css/blog-post.css?v=1783502114">
+
+<!-- ATProto link to site.standard.document -->            
+<link rel="site.standard.document" href="at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mn5qsdy2f">
+
+
+    <link rel="stylesheet" href="/assets/css/blog-post.css?v=1783599666">
 
     
     <meta name="citation_author" content="Eve, Martin Paul">
@@ -208,7 +213,6 @@ Now I *think* that with IIS7&#39;s new pipeline functions it might be possible t
 <p>The current mechanism is grim. A request to a non-existent .aspx page invokes the handler. The handler looks through its regex collection and if a match is found it submits an *http request* to the matching url (impersonating all aspects of the user - just like SSImp) and then filters this back to the client. In short, it is a transparent proxy.</p>
 <p>Now I *think* that with IIS7's new pipeline functions it might be possible to force a Server.TransferRequest to a .php file and have IIS handle it properly (ie. select a  new handler, be that ISAPI or CGI/FastCGI), but I still need to test this. In the meantime, I have applied for Wordpress hosting for the plugin and am awaiting some response from them. I furthermore would love it if people would browse around on Recourse for Discourse and let me know if anything looks broken.</p>
 
-
                     
                 </div>
 
@@ -241,6 +245,11 @@ Now I *think* that with IIS7&#39;s new pipeline functions it might be possible t
                         <ul class="related-posts">
                             
                             <li>
+                                <a href="/2026/07/09/2010-10-09-where-to-start-with-thomas-pynchon/" title=""></a>
+                                <span class="related-date">9 July 2026</span>
+                            </li>
+                            
+                            <li>
                                 <a href="/2026/06/27/fair-and-square-making-a-static-site-support-fair-signposting/" title="FAIR and Square: making a static site support FAIR signposting">FAIR and Square: making a static site support FAIR signposting</a>
                                 <span class="related-date">27 June 2026</span>
                             </li>
@@ -248,11 +257,6 @@ Now I *think* that with IIS7&#39;s new pipeline functions it might be possible t
                             <li>
                                 <a href="/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/" title="Making blog posts harvestable by Zotero and preserving case in citation fields">Making blog posts harvestable by Zotero and preserving case in citation fields</a>
                                 <span class="related-date">23 June 2026</span>
-                            </li>
-                            
-                            <li>
-                                <a href="/2026/06/04/more-on-dual-licensing-of-digital-oa-books/" title="More on dual-licensing of digital OA books">More on dual-licensing of digital OA books</a>
-                                <span class="related-date">4 June 2026</span>
                             </li>
                             
                         </ul>

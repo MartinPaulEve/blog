@@ -8,7 +8,7 @@ doi: https://doi.org/10.59348/8pysd-7tw43
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 tags:
 - open access
@@ -16,6 +16,7 @@ tags:
 - tax
 - OLH
 title: Gearing up for OLH in the UK and the resolution to the VAT question
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcusq642h"
 ---
 
 A while ago, I wrote of the <a href="/2015/01/20/being-called-to-account-tax-considerations-for-uk-based-collectively-funded-open-access-publishers/">tricky situation potentially faced by UK OA publishers operating on a cost-pool basis/consortial basis</a>. After our accountants gave a report on this about a month or so ago, I sought confirmation from HMRC that it was, indeed, the case that these models do not count as a direct supply of a service. Models that provide enormous and efficient sector-wide benefits, like open access, may not, in such scenarios, constitute a "direct and immediate" supply to the organizations that pay, because everyone can read the material.

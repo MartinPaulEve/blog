@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/nmns0-t2n34
 image:
   feature: header_book.png
 layout: post
-ogImage: header_book.png
+ogImage: images/header_book.png
 title: The Edited Collection and its Discontents
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m64xi6v2s"
 ---
 
 I have just finished editing a book collection in which Robin de Mourat, Donato Ricci, and Bruno Latour ask: how does a format make a public? It has been a somewhat painful process of editing, but the questions in that chapter as well as the very process of editing itself prompted me to turn back to Peter Webster’s short book (I refuse to call it an ‘Element’ as does the publisher) _The Edited Collection: Pasts, Present and Futures_ (Cambridge: Cambridge University Press, 2020) <[https://doi.org/10.1017/9781108683647](https://doi.org/10.1017/9781108683647)>. The book has just been published and is free to download until the end of April, so it's worth snaffling a copy now. I had read the work in draft form, but in light of my recent experience I went back to it. I also noted, on this read through, that the book is cheekily named after one of the collections that Webster details, _The Established Church: Past, Present and Future_. So, is the edited collection an established church?

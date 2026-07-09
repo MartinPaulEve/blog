@@ -14,6 +14,7 @@ tags:
 title: The Gaz Pearce Award
 wordpress_id: 835
 wordpress_url: https://www.martineve.com/?p=835
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkjwzp22i"
 ---
 
 <p>Bit of an in-joke, but I think my career has reached a new high with Gaz's recent award bestowed upon me:</p>

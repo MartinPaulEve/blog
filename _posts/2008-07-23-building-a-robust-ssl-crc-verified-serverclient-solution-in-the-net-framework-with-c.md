@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/3r18y-49604
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -21,6 +21,7 @@ title: Building a robust, SSL, CRC-Verified server/client solution in the .NET F
   with C#
 wordpress_id: 252
 wordpress_url: http://pro.grammatic.org/post-building-a-robust-ssl-crcverified-serverclient-solution-in-the-net-framework-with-c-50.aspx
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmqmk222a"
 ---
 
 <p>Quite a lengthy post here with a lot of code in the hope that my experience of building an integrity-checking SSL (text-only for now) communication system will be of use to somebody else.</p>

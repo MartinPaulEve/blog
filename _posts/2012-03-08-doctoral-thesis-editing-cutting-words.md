@@ -26,6 +26,7 @@ tags:
 title: 'Doctoral Thesis Editing: Cutting Words'
 wordpress_id: 1947
 wordpress_url: https://www.martineve.com/2012/03/08/doctoral-thesis-editing-cutting-words/
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miqgt6o2p"
 ---
 
 <p>A quick tip that I think it's worth raising, as it's just come to the fore in my life(!), is that the citation style you employ can have a large impact on the number of words over the course of an 80,000 word thesis.</p>

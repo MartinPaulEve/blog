@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/yzwjw-6h263
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 title: What is the relationship between legal form, governance, and ethics?
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2bwmjl2i"
 ---
 
 In the world of OA publishing, there have been further (not-so)shock waves reverberating this week as Knowledge Unlatched was sold to Wiley. One of the questions this raises is: how was it possible for this sale to go through and what could have been done to prevent it?

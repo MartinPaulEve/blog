@@ -13,7 +13,7 @@ doi: https://doi.org/10.59348/10460-qqn64
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -23,6 +23,7 @@ tags:
 title: 'Video of my #uksglive presentation on the future of academic publishing'
 wordpress_id: 2043
 wordpress_url: https://www.martineve.com/?p=2043
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mihjo6t2h"
 ---
 
 <p>Here's the video of my talk to the UKSG Conference in Glasgow in June 2012.</p>

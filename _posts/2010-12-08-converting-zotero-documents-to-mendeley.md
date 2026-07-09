@@ -158,7 +158,7 @@ doi: https://doi.org/10.59348/m0c3j-atd18
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -170,6 +170,7 @@ tags:
 title: Converting Zotero Documents to Mendeley
 wordpress_id: 462
 wordpress_url: http://www.martineve.com/?p=462
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mljgrqm2i"
 ---
 
 <p>One of the best things about Mendeley is that, the second you mention their name on Twitter, a horde of helpful and informative community liaison team members descend upon you. This means that, if you have a query, you can be sure that someone knowledgeable is never far away.</p>

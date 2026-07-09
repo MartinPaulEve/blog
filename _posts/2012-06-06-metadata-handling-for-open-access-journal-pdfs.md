@@ -12,7 +12,7 @@ doi: https://doi.org/10.59348/2gt43-gq719
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -22,6 +22,7 @@ tags:
 title: Metadata handling for Open Access Journal PDFs
 wordpress_id: 2114
 wordpress_url: https://www.martineve.com/?p=2114
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mievxgs2s"
 ---
 
 <p>As I count down to the launch of <a href="https://www.pynchon.net">Orbit: Writing around Pynchon</a>, I've been thinking carefully about the mechanisms through which the articles will be consumed. In short: what metadata should be in the PDFs and where should it be.</p>

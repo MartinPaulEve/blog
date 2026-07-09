@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/bw3a9-cm163
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 title: Lastpass CLI can't login using master password
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lyufbys2r"
 ---
 
 If you can't login using the Lastpass CLI tool and it just says "unknown" when you enter your password, there's [a simple fix](https://github.com/lastpass/lastpass-cli/issues/604).

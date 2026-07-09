@@ -5,9 +5,10 @@ doi: https://doi.org/10.59348/3359a-7w851
 image:
   feature: header_warez.png
 layout: post
-ogImage: header_warez.png
+ogImage: images/header_warez.png
 title: 'An update on my Warez book: a book about the artforms of the high-level piracy
   scene'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m4tay3r2a"
 ---
 
 I am, at present, working on a book currently entitled _Warez: The Economic Artforms and Illicit Crafts of the Topsite Scene_, under contract with punctum books. The title has changed since it went under contract in order to better reflect the content -- and it might well change again. However, I today wrote some paragraphs that cut to the core of my argument in this book and that I thought I would share as an update of my understanding the Warez Scene and its illicit subcultures.

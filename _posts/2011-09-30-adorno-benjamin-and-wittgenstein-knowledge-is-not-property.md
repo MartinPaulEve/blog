@@ -32,6 +32,7 @@ tags:
 title: 'Adorno, Benjamin and Wittgenstein (!): knowledge is not property'
 wordpress_id: 1519
 wordpress_url: https://www.martineve.com/?p=1519
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjtqy752a"
 ---
 
 <p>Increasingly in the course of my academic work, I come to appreciate the fact that thought leads many people, independently, down the same path. For instance, my work flow commonly takes the form of blasting down a paragraph or more, then spending an extensive period of time reading all the associated literature because I know that somebody else will have had most of these thoughts before and it is a prerequisite of academic work that I know my antecedents.</p>

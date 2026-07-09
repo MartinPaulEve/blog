@@ -5,9 +5,10 @@ doi: https://doi.org/10.59348/vjn38-wa229
 image:
   feature: ref.png
 layout: post
-ogImage: ref.png
+ogImage: images/ref.png
 title: Points from my first reading of the Consultation on the Second Research Excellence
   Framework
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7masnffo2s"
 ---
 
 HEFCE has today released its [Consultation on the Second Research Excellence Framework](http://www.hefce.ac.uk/pubs/year/2016/201636/) after a year of delays in light of the Stern Review and now modified from the [previous internal draft](https://www.martineve.com/2016/02/18/REF-consultation/). In true "hot-take" style up-to-the-minute policy reading, I've done a quick first read through of the document and wanted to note some aspects. Note that these are mostly all open to revision in light of feedback to the consultation. The below notes are just the bits that interested/jumped out at me.

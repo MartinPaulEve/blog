@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/mf107-ynv72
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 title: Librarian Evaluation of Non-APC OA Models in the Age of Open Access
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7maevja62s"
 ---
 
 One of the things we have to contend with at the Open Library of Humanities is the fact that libraries will evaluate our performance and decide whether or not to renew their subscriptions/memberships. This makes sense and is only to be expected.

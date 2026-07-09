@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/nsh00-ych18
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -18,6 +18,7 @@ tags:
 title: Evaluating the security of the JSONRequest object
 wordpress_id: 292
 wordpress_url: http://pro.grammatic.org/post-evaluating-the-security-of-the-jsonrequest-object-6.aspx
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7moa5g3a2f"
 ---
 
 <p>A <a href="http://json.org/JSONRequest.html">proposed extension</a> to the currently supported set of ...Request objects is JSONRequest, interesting from a security point of view because the proponents of the project wish to allow JSONRequest to violate the Same Origin Policy. This post will give a brief overview of the security features toted by JSONRequest and of how they potentially could allow an attacker to compromise a site more effectively.</p>

@@ -92,7 +92,7 @@ doi: https://doi.org/10.59348/tz8rw-80w60
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -101,6 +101,7 @@ tags:
 title: Mendeley for Android Update
 wordpress_id: 801
 wordpress_url: https://www.martineve.com/?p=801
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkkz6no2a"
 ---
 
 <p>A few weeks ago, I tweeted that the first beta of Android for Mendeley was almost ready. This post is an update on that status. I'm afraid to say that, about ten minutes after I posted that status, I ran a test on the oAuth code only to find that it was not working. This was strange as I had made no changes and it was previously working. I immediately got in touch with the Mendeley API team (particularly the extremely helpful @phpeach) who promised to have a look.</p>

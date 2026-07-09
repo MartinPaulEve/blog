@@ -18,6 +18,7 @@ tags:
 title: 'Teaching Post-Millennial Literature: A HEA and University of Brighton Symposium'
 wordpress_id: 2057
 wordpress_url: https://www.martineve.com/2012/04/23/teaching-post-millennial-literature-a-hea-and-university-of-brighton-symposium/
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mih3i4p2f"
 ---
 
 <p>2nd Jul 2012<br />

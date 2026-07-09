@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/ajrhh-f4r08
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 title: Zotero and auto-downloading open access books
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m67yern2s"
 ---
 
 This bank holiday, I wanted to spend some time playing around with Zotero's automatic ingest of open access books. There are some problems with this.

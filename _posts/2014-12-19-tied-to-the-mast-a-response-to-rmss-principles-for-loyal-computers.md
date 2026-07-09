@@ -9,12 +9,13 @@ doi: https://doi.org/10.59348/erzpp-y8227
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
 - software
 title: Tied to the mast? A response to RMS's principles for loyal computers
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdjgljj2u"
 ---
 
 <p>In a recent essay, Richard M. Stallman, pioneer of the free software movement, asked “<a href="http://www.gnu.org/philosophy/loyal-computers.html">what does it mean for a computer to be loyal?</a>” The "tentative definition" that Stallman outlines consists of: Neutrality towards software; Neutrality towards protocols; Neutrality towards implementations; Neutrality towards data communicated; Debugability; Documentation; and Completeness. I won't, here, reproduce the whole essay as you can read it on the GNU site. What I want to do instead is to point out a few ambiguities and potential sticking points that I identified in the definition here, mostly surrounding the principle of remote attestation.</p>

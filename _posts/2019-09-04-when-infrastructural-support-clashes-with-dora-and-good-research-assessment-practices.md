@@ -5,9 +5,10 @@ doi: https://doi.org/10.59348/ym3wx-d9807
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 title: When infrastructural support clashes with DORA and good research assessment
   practices
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6qa3oi2h"
 ---
 
 Here's an interesting one for me. The article processing charge (APC) model for open access is [attracting a lot of flack](https://items.ssrc.org/parameters/the-library-solution-how-academic-libraries-could-end-the-apc-scourge/). It's being called the "scourge" of the scholarly communications world and is criticized for perpetuating global epistemic inequality. I think this is right in many ways. It's why I co-founded the Open Library of Humanities, to show that other models are possible and more equitable. After all, the subscription system did one thing well: it distributed costs to where money was available, whereas APCs concentrate costs to areas where, often, it is not. In other words, APCs are an anti-distributional economic system. This is bad.

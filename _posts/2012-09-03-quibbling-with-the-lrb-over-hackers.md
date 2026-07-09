@@ -18,6 +18,7 @@ tags:
 title: Quibbling with the LRB over "Hackers"
 wordpress_id: 2351
 wordpress_url: https://www.martineve.com/?p=2351
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhu265i2o"
 ---
 
 <p>In <a href="http://www.mattathiasschwartz.com/not-just-the-money-london-review-of-books/">a recent piece for the LRB</a>, Mattathias Schwartz gives an inside look at the truly scary world of carding, the practice of stealing credit card information, through a review of Mischa Glenny's new book <i>DataMarket: How Hackers Became the New Mafia</i>.</p>

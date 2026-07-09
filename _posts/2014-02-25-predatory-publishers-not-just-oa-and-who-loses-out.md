@@ -9,7 +9,7 @@ doi: https://doi.org/10.59348/dfajw-smx53
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -17,6 +17,7 @@ tags:
 title: 'Predatory Publishers: Not Just OA (and who loses out?)'
 wordpress_id: 3038
 wordpress_url: https://www.martineve.com/?p=3038
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfndxes2u"
 ---
 
 <h1>The Critics of OA and Acknowledging &#8220;Predation&#8221;</h1>

@@ -10,12 +10,13 @@ doi: https://doi.org/10.59348/7s3qd-5tt14
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
 - Open Access
 title: Financing for fee-driven gold open access
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdbbtro2a"
 ---
 
 The most well-known, although neither the most common nor the only, way of providing gold open access to research material is through article or book processing charges (APCs/BPCs). These are problematic in some disciplines where most research work is unfunded (hint: the social sciences and the humanities). It also tends to <a href="https://www.martineve.com/2014/12/10/gold-open-access-and-article-processing-charges/">concentrate costs/risk</a>. To clarify: it is not, in these instances, about paying to bypass quality control. It is paying for the labour of publishing as a service to the author so that research material can be made openly available to read and re-use.

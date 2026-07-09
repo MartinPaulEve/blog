@@ -8,12 +8,13 @@ doi: https://doi.org/10.59348/y831w-1h790
 image:
   feature: post_images/GR2.jpg
 layout: post
-ogImage: post_images/GR2.jpg
+ogImage: images/post_images/GR2.jpg
 published: true
 tags:
 - textplot
 - Pynchon
 title: Visualizing Gravity's Rainbow
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcpnpz72s"
 ---
 
 At this year's _Canadian Congress of Humanities and Social Sciences_ I had the pleasure of attending a talk by David McClure in the digital humanities strand on his visualization tool, _TextPlot_.

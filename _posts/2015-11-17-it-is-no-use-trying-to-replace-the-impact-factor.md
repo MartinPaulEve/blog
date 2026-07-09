@@ -11,6 +11,7 @@ tags:
 - open access
 - impact factor
 title: It is no use trying to replace the Impact Factor
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc52h7n2e"
 ---
 
 At a session at OpenCon last weekend we discussed how to replace the impact factor. While the actual title of the session was "Taking on the Impact Factor", the subtitle was "how do we reform research assessment?" This gets to the heart of the matter and I wanted to jot a few notes.

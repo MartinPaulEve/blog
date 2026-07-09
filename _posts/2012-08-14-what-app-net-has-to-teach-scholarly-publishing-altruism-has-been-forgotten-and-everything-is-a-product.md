@@ -11,7 +11,7 @@ doi: https://doi.org/10.59348/sx7y4-b0m02
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -21,6 +21,7 @@ title: 'What app.net has to teach scholarly publishing: altruism has been forgot
   and everything is a "product"'
 wordpress_id: 2286
 wordpress_url: https://www.martineve.com/?p=2286
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhvpsup2f"
 ---
 
 <p>I've been mightily impressed by the role of crowdfunding solutions in recent days. I think it's great that these projects allow initiatives to get off the ground via people who like what's being proposed. I was particularly interested, though, in app.net's approach.</p>

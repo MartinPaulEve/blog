@@ -9,7 +9,7 @@ doi: https://doi.org/10.59348/ktgcq-3xp11
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -20,6 +20,7 @@ title: 'Academic Libraries and Non-Disclosure Clauses: institutions should inter
   mandate against them'
 wordpress_id: 3240
 wordpress_url: https://www.martineve.com/?p=3240
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7medrn2w2a"
 ---
 
 <p>As <a href="https://www.martineve.com/2013/11/26/gov-and-rcuk-responses-to-open-access-inquiry-eradicating-non-disclosure-clauses/">I've said before</a>, including in my oral evidence to the UK House of Commons BIS Select Committee Inquiry into Open Access in 2013, non-disclosure agreements in academic publishing contracts are awful. They make a potentially monopolistic enterprise (because every article/book is unique and because brand is such a strong driver of academic behaviour, there is little competition) into one that exploits that monopolistic position in terms of pricing.</p>

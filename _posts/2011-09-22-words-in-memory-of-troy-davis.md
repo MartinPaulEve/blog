@@ -15,6 +15,7 @@ tags:
 title: Words in memory of Troy Davis
 wordpress_id: 1493
 wordpress_url: https://www.martineve.com/?p=1493
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjvnawh2q"
 ---
 
 <p>It is with a heavy and despairing heart that I write this post. It is not particularly well-structured owing to the emotive nature of the content. The state of Georgia have now executed Troy Davis, a black man whose life didn't turn out the way America promised. In 1991, Davis was convicted of murder and sentenced him to death on the testimony of nine eyewitnesses. Seven of those eyewitnesses later retracted their statements citing police coercion. The eighth was the other suspect, deemed to be the trigger man by other witnesses. This leaves one man. Members of the jury said they would not have convicted Davis if they knew then what they know now. Troy Davis was strapped down, had a needle inserted into his arm and poisoned to death on the say-so of one man. Life. Liberty. And the pursuit of happiness.</p>

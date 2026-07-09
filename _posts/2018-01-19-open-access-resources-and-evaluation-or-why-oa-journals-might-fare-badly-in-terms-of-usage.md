@@ -5,9 +5,10 @@ doi: https://doi.org/10.59348/fyw60-dha26
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 title: 'Open Access Resources and Evaluation; or: why OA journals might fare badly
   in terms of conventional usage'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7z5e5n2e"
 ---
 
 I am frequently asked, by libraries, to provide usage statistics for their institutions at the Open Library of Humanities. I usually resist this, since there are a number of ways in which the metrics are not usually a fair comparison to subscription resources. A few notes on this.

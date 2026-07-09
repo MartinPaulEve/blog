@@ -16,6 +16,7 @@ tags:
 title: 'Jake Wilson: "All''s Well". Website and Music up!'
 wordpress_id: 1954
 wordpress_url: https://www.martineve.com/2012/03/10/jake-wilson-alls-well-website-and-music-up/
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miqaabp2r"
 ---
 
 <p>My incredibly talented friend, <a href="http://www.jakewilsonmusic.com">Jake Wilson</a>, has composed a series of Folk-Rock songs based on the diary entries of Robert Scott on his ill-fated expedition to the Pole.</p>

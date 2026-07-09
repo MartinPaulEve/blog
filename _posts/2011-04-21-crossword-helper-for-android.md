@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/rsqkw-pc148
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -20,6 +20,7 @@ tags:
 title: Crossword Helper for Android
 wordpress_id: 990
 wordpress_url: https://www.martineve.com/?p=990
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkeqgou2h"
 ---
 
 <p>A quick plug for my latest Android application, which is now available in the Android Market: <a href="https://market.android.com/details?id=com.martineve.crossword&feature=search_result">Crossword Helper</a>. This is, fairly obviously, an application designed to help you finish crosswords when you are stuck.</p>

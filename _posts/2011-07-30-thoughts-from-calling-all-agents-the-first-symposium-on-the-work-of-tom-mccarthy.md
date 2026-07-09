@@ -49,6 +49,7 @@ title: 'Thoughts from "Calling All Agents": The first symposium on the work of T
   McCarthy'
 wordpress_id: 1334
 wordpress_url: https://www.martineve.com/?p=1334
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk3pqkr2e"
 ---
 
 <p>A quick roundup/review post from the "Calling All Agents: A Symposium on the work of Tom McCarthy" conference, held at Birkbeck and organised, superbly, by Dennis Duncan on zero budget. As might be expected, there's a slight (paranoiac?) Pynchon-bias in the reporting below, but I hope it proves useful. As always, I'm happy to correct any errors/omissions on authorial request.</p>

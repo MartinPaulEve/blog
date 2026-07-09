@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/q7vk1-3rj07
 image:
   feature: digital.png
 layout: post
-ogImage: digital.png
+ogImage: images/digital.png
 title: Text of Digital Library Futures keynote (Cambridge, 21st May 2019)
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6zagdw2o"
 ---
 
 <h4>The Sacred Unreadable Artefact: Digital Preservation, Computational Abundance, and Scarce Access</h4>

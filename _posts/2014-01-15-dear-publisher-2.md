@@ -16,6 +16,7 @@ tags:
 title: Dear Publisher (#2)
 wordpress_id: 2991
 wordpress_url: https://www.martineve.com/?p=2991
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfqmp3h2o"
 ---
 
 <p>10 month review process. Two week typesetting wait.</p>

@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/c3xc3-tb093
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -18,6 +18,7 @@ tags:
 title: 'Starting an Open Access Journal: a step-by-step guide part 5'
 wordpress_id: 2215
 wordpress_url: https://eve.gd/?p=2215
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mi72r3e2h"
 ---
 
 <p>Following on from <a href="https://eve.gd/2012/07/10/starting-an-open-access-journal-a-step-by-step-guide-part-1/">part 1</a>, <a href="https://eve.gd/2012/07/11/starting-an-open-access-journal-a-step-by-step-guide-part-2/">part 2</a>, <a href="https://eve.gd/2012/07/12/starting-an-open-access-journal-a-step-by-step-guide-part-3/">part 3</a> and <a href="https://eve.gd/2012/07/13/starting-an-open-access-journal-a-step-by-step-guide-part-4/">part 4</a>, this is the third in a series of posts designed to get a new journal off the ground.</p>

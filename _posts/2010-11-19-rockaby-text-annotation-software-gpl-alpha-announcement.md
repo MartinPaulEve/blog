@@ -21,7 +21,7 @@ doi: https://doi.org/10.59348/29p70-20216
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -31,6 +31,7 @@ tags:
 title: 'Rockaby: text annotation software [GPL, alpha, announcement]'
 wordpress_id: 415
 wordpress_url: http://www.martineve.com/?p=415
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlmku3c2a"
 ---
 
 <p><img class="alignright" src="http://www.martineve.com/images/logo.png" alt="Rockaby" /><br />

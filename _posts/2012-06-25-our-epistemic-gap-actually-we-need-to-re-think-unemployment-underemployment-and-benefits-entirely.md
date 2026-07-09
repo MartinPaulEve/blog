@@ -16,6 +16,7 @@ title: 'Our epistemic gap: actually, we need to re-think "unemployment", "undere
   and "benefits" entirely'
 wordpress_id: 2143
 wordpress_url: https://www.martineve.com/?p=2143
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mie4srw2p"
 ---
 
 <p>David Cameron has now launched the end of "compassionate Conservatism", pledging to end the "<a href="http://www.guardian.co.uk/politics/2012/jun/25/cameron-tories-slash-benefits">entitlement culture</a>" of benefits. Twitter has, predictably, exploded: the irony overload of being lectured on entitlement by somebody who <a href="http://www.guardian.co.uk/politics/2012/apr/20/cameron-family-tax-havens">inherited his own wealth from a tax haven</a> and went to an extremely privileged public school is, of course, unbelievable.</p>

@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/pf46q-8qv16
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -18,6 +18,7 @@ tags:
 title: Reports from the frontline of humanities OA in Japan
 wordpress_id: 2815
 wordpress_url: https://www.martineve.com/?p=2815
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgdwhcz2i"
 ---
 
 <p>This week I had the privilege of visiting Japan for the first time to speak with SPARC Japan (in Tokyo) about developments in open access for the humanities.</p>

@@ -8,9 +8,10 @@ image:
   feature: NHS.jpg
   title: A heart that says NHS
 layout: post
-ogImage: NHS.jpg
+ogImage: images/NHS.jpg
 title: 'The NHS Can Never Fail: There Is No Circumstance Where It Would Be Deemed
   Overwhelmed'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7luze3tb2t"
 ---
 
 Yesterday marked the [publication of the Module 3 report of the Covid inquiry](https://www.gov.uk/government/publications/uk-covid-19-inquiry-impact-of-covid-19-pandemic-on-healthcare-systems-in-the-four-nations-of-the-united-kingdom-module-3-report). You can read [a summary version](https://covid19.public-inquiry.uk/documents/module-3-in-brief-report/) or [the full version of the report](https://covid19.public-inquiry.uk/documents/module-3-full-report). The report stresses that there were key failings with respect to government policy during the pandemic. A key point is that the assumption made by government centred around contact transmission rather than aerosol transmission. This was obviously incorrect and it led to rapid spread of the disease and inadequate PPE for NHS staff. As the summary report says:

@@ -20,6 +20,7 @@ title: 'Publication: ''Review of Joe Moran, Interdisciplinarity 2nd edition'', R
   3, 1 (April 2011)'
 wordpress_id: 962
 wordpress_url: https://www.martineve.com/?p=962
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkf5tly2f"
 ---
 
 <div><img src="https://www.martineve.com/wp-content/uploads/2011/04/V3N1.jpg" alt="Rupkatha31" title="Rupkatha31" width="309" height="400" class="alignnone size-full wp-image-963" /><br />

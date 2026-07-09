@@ -9,7 +9,7 @@ doi: https://doi.org/10.59348/638fj-k9a75
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -17,6 +17,7 @@ tags:
 title: Is open access a "solution without a problem" for the humanities?
 wordpress_id: 3232
 wordpress_url: https://www.martineve.com/?p=3232
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7meiricc2u"
 ---
 
 <p>At a recent talk I gave, I was asked whether open access in the humanities is a "solution without a problem". Without wanting to disparage my questioner, I consider this to be a question born of institutional privilege and of conservatism. Firstly, I consider it a perspectivized take on the situation; just because one cannot see a problem does not mean that it doesn't exist, merely that it is invisible to that particular questioner. Secondly, just because we can distribute journals in print over the course of weeks on inter-library loan doesn't mean that there isn't a better way to do it that would be more efficient and make use of the astounding technological developments that are now at our disposal. Some of the below material, in which I look at these questions, comes from my forthcoming book, <a href="http://www.cambridge.org/eve"><i>Open Access and the Humanities: Contexts, Controversies and the Future</i></a>.</p>

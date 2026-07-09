@@ -13,6 +13,7 @@ tags:
 - education
 - politics
 title: Evolving notes on the political philosophy of David Willetts
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbqwutk2i"
 ---
 
 David Willetts is the politician responsible, above all others, in the United Kingdom for the £9,000 student fee level and its associated phenomena (including the privatization in all-but-name of UK universities). Yet he also writes extremely well of the essential unfairness and breaking of the intergenerational contract between the baby boomers and the millennials in which the latter bear a huge burden while the former group prosper. Why would the man who diagnoses this problem then impose a system that makes the younger generation take on massive debt upon themselves? These are my evolving (i.e. not static) notes on what I have been able to deduce from Willetts's writings to try to understand this (even while I may remain opposed to it). I have assumed, of course, that Willetts's political philosophy is coherent. It may not be.

@@ -12,6 +12,7 @@ tags:
 - patent
 - environment
 title: '"Because we care about our planet..."'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdw5ffr2n"
 ---
 
 <p>Same great sleeve, less waste. Because we care about our planet, this 85% post-consumer-fiber cup sleeve uses 34% less paper than our original. Intended for single use only. US #6863644.</p>

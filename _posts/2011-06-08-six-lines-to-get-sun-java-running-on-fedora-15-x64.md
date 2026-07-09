@@ -31,7 +31,7 @@ doi: https://doi.org/10.59348/nhy1y-n0y17
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -41,6 +41,7 @@ tags:
 title: Six lines to get Sun Java running on Fedora 15 x64
 wordpress_id: 1146
 wordpress_url: https://www.martineve.com/?p=1146
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkc5pf72p"
 ---
 
 <p>Here's a quick 'n' easy version of <a href="http://www.if-not-true-then-false.com/2010/install-sun-oracle-java-jdk-jre-7-on-fedora-centos-red-hat-rhel/">another post</a> that uses the rpm instead of the extracting to opt.</p>

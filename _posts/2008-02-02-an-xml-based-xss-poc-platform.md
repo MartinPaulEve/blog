@@ -20,7 +20,7 @@ doi: https://doi.org/10.59348/nhjwb-ywd61
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -31,6 +31,7 @@ tags:
 title: An XML based XSS PoC platform
 wordpress_id: 258
 wordpress_url: http://pro.grammatic.org/post-an-xml-based-xss-poc-platform-43.aspx
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mn6a4j42u"
 ---
 
 <p>Well, long time no post. Been in hospital. Been busy with college. Life gets in the way of hacking.</p>

@@ -17,6 +17,7 @@ tags:
 title: 'UK Pynchon Network: Site Up and Programme Announced'
 wordpress_id: 848
 wordpress_url: https://www.martineve.com/?p=848
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkjqc4q2f"
 ---
 
 <p><img src="https://www.martineve.com/wp-content/uploads/2011/03/header.jpg" alt="Gravity&#039;s Rainbow Epigraph" title="Gravity&#039;s Rainbow Epigraph" style="width:750px;" class="alignnone size-full wp-image-849" /></p>

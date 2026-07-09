@@ -5,9 +5,10 @@ doi: https://doi.org/10.59348/s2e01-4fy43
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 title: Continuing javascript execution after total DOM body replacement using DOM
   mutation observers
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbbbgxc2a"
 ---
 
 As part of the translation platform we're building, I needed to implement the following workflow:

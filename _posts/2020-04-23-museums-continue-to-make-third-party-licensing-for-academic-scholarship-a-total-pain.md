@@ -5,9 +5,10 @@ doi: https://doi.org/10.59348/12syn-nzx32
 image:
   feature: header_museum.png
 layout: post
-ogImage: header_museum.png
+ogImage: images/header_museum.png
 title: Museums continue to make third-party licensing for academic scholarship a total
   pain
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5vq3wp2h"
 ---
 
 Museums continue to make life miserable for academic scholars who wish to re-use their images in third-party publications. I am not against paying museums license fees for images they have digitized, although I believe that <a href="https://kclpure.kcl.ac.uk/portal/en/publications/reproduction-charging-models--rights-policy-for-digital-images-in-american-art-museums(95d04077-f8ec-4094-b8c1-d585c6b16d9b)/export.html">Simon Tanner has shown that the overheads of running a licensing department can outweight the actual revenue</a>, against footfall/exposure etc. But I do not understand why museums cannot drag their sorry licensing processes into the 21<sup>st</sup> century.

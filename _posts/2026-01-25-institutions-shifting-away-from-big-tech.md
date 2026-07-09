@@ -8,8 +8,9 @@ image:
   feature: resistance.jpg
   title: A clenched fist raised in resistance
 layout: post
-ogImage: resistance.jpg
+ogImage: images/resistance.jpg
 title: Institutions shifting away from big tech
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lv2tgfw2f"
 ---
 
 This morning, [Kathleen Fitzpatrick](https://kfitz.info/) drew my attention to [a Mastodon post by Babette Knauer](https://mastodon.social/@babetteknauer/115933572328791779) about plans for the University of Groningen to get away from Big Tech. The [article itself is well worth a read](https://ukrant.nl/magazine/we-can-do-without-them-how-the-ug-is-cutting-ties-with-big-tech/?lang=en), with ambitious approaches to digital independence. I had some not-very-original thoughts on it.

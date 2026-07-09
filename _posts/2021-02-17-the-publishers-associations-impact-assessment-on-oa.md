@@ -5,9 +5,10 @@ doi: https://doi.org/10.59348/9zh1b-99e05
 image:
   feature: header_glasses.png
 layout: post
-ogImage: header_glasses.png
+ogImage: images/header_glasses.png
 title: The Publisher's Association's impact assessment on OA is pretty much as you'd
   expect
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3sgzr32n"
 ---
 
 The Publisher's Association has [commissioned a report](https://www.publishers.org.uk/publications/economic-impact-assessment/) that seems to be their latest attempt at painting open access to research as economically damaging to the publishing sector. It shamelessly plays on the rhetoric of "UK PLC" in an attempt to appeal to government politicians but doesn't mention the benefits to society of having research openly available or the _savings_ to the public purse of publicly funded institutions of higher education _not_ paying billions of £s in subscriptions. However, the conclusions therein are, sadly, if predictably, extremely poor distortions of the real situation in my view.

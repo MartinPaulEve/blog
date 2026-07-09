@@ -153,7 +153,7 @@ doi: https://doi.org/10.59348/90kp2-e3k33
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -164,6 +164,7 @@ tags:
 title: The Problems of Copyleft, Twitter and Tweets
 wordpress_id: 218
 wordpress_url: http://www.martineve.com/?p=218
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlplks42s"
 ---
 
 <p>There has been a trend, in recent days, of moving towards providing tweets under various licenses; most prominently, Creative Commons Non-commercial Sharealike. While I thoroughly approve of strong copylefting, there were some issues that struck me as incredibly problematic with this stance and I would like, in this post, to briefly explore a few of these areas.</p>

@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/fggfg-qsy79
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 title: Replacing OpenVPN with Wireguard, including on Synology devices
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2hvgcv2o"
 ---
 
 This week, I decided that I should move my VPN system that I run on all my devices to use the new Wireguard protocol, replacing the OpenVPN setup.

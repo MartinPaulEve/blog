@@ -178,6 +178,7 @@ tags:
 title: 'A dissenting voice on #AcBoWriMo'
 wordpress_id: 1583
 wordpress_url: https://www.martineve.com/2011/11/02/a-dissenting-voice-on-acbowrimo/
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjgd2jj2o"
 ---
 
 <p>This is a bit of a spoilsport post, but I wanted to set down, in writing, some of the reasons that I am extremely wary of the #AcBoWriMo experiment that is currently underway on Twitter.</p>

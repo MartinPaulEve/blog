@@ -8,8 +8,9 @@ image:
   feature: car.jpg
   title: An abandoned car
 layout: post
-ogImage: car.jpg
+ogImage: images/car.jpg
 title: Structure and There Is No Antimemetics Division
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7luzvsar2o"
 ---
 
 *Spoilers in this post*

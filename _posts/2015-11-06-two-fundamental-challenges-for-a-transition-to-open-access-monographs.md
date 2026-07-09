@@ -8,12 +8,13 @@ doi: https://doi.org/10.59348/dxf15-wfc37
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 tags:
 - OA
 - books
 title: Two fundamental challenges for a transition to open-access monographs
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc5m4or2f"
 ---
 
 In [my recent book](http://meve.io/oahums) I set out some of the benefits but also the challenges of transitioning to a world of open-access monographs. I've also written previously about some of the discourse of [double dipping in the monograph space](/2015/01/31/on-open-access-books-and-double-dipping/). In the past few weeks I've had cause to think some more about this and have come up with two additional areas of difficulty that present a challenge for OA books: sites of risk/selection and offsetting. Not all of this is hugely new or shocking, but I thought it worth articulating it up-front in this way.

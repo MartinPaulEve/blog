@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/ntpff-9dw76
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -19,6 +19,7 @@ tags:
 title: Signing over copyright vs. licensing your journal articles
 wordpress_id: 2161
 wordpress_url: https://www.martineve.com/?p=2161
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mid7uyr2e"
 ---
 
 <p>I've just had through the request to sign a copyright form for a forthcoming article in a Taylor and Francis journal and duly read through their <a href="http://journalauthors.tandf.co.uk/preparation/copyright.asp">material on copyright</a>. Taylor and Francis explicitly state that:</p>

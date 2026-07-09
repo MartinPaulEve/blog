@@ -17,6 +17,7 @@ tags:
 title: More Pynchonalia
 wordpress_id: 1152
 wordpress_url: https://www.martineve.com/?p=1152
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkbo6c22a"
 ---
 
 <p>As seems to be becoming <a href="https://www.martineve.com/2010/06/22/my-navy-days-with-thomas-ruggles-pynchon/">a bit of a tradition</a>, my friend Duncan came up with a Pynchon themed T-Shirt, and <i>Against the Day</i> quoting card for my birthday. Here's the result!</p>

@@ -17,6 +17,7 @@ title: Global and historical reasons why it is utterly innapropriate, even to jo
   about killing trade unionists
 wordpress_id: 1664
 wordpress_url: https://www.martineve.com/?p=1664
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mje7q472q"
 ---
 
 <p>As surely everybody on Twitter now knows, a certain multi-million pound contractor to the BBC (therefore paid out of public funds) has shot his mouth off with a statement that those on strike should be "shot". It was, to provide context, supposed to be humorous. The jovial chap first gave his lighthearted take on the strike being convenient as nobody was on the roads before providing the "balance" he claims the BBC requires by suggesting that unionists should be taken out and killed in front of their families. I know Clarkson is a troll. I want to demonstrate here, though, why it is in NO WAY acceptable to joke about the murder of those protesting for labour rights.</p>

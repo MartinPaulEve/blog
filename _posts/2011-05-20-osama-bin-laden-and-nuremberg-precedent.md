@@ -18,6 +18,7 @@ tags:
 title: Osama Bin Laden and Nuremberg Precedent
 wordpress_id: 1071
 wordpress_url: https://www.martineve.com/?p=1071
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkdiq6m2h"
 ---
 
 <p>There has been much discussion of whether the US should have captured Osama Bin Laden alive and put him on trial, as per the Nuremberg precedent set in the apprehension and subsequent judicial sentencing of Nazi World War II war criminals. I felt it was worth making a slightly more critical evaluation than <a href="http://scripting.com/stories/2011/05/06/nurembergDoesNotApply.html">some of those views</a> already put out there about this.</p>

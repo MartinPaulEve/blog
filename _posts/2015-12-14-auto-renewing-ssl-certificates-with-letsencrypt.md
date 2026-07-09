@@ -8,12 +8,13 @@ doi: https://doi.org/10.59348/8gw4g-s2z59
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 tags:
 - tech
 - SSL
 title: Auto-renewing SSL Certificates with Let'sEncrypt
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbzilnv2e"
 ---
 
 [Let'sEncrypt](http://letsencrypt.org/) is a brilliant new service that aims to bring mass-scale SSL, free-of-charge to the wide web. It's in beta at the moment but it works pretty well. In fact, this site is secured with it!

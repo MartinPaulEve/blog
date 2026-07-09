@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/3e3vq-jf273
 image:
   feature: header_fish.png
 layout: post
-ogImage: header_fish.png
+ogImage: images/header_fish.png
 title: Swimming upstream
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lw4afg22h"
 ---
 
 Open source projects like InvenioRDM -- on which we rely for our repository software at Knowledge Commons -- thrive on community contributions. When initiatives like ours not only use these platforms but actively contribute improvements back to the original codebase, everyone benefits. This "upstreaming" process takes work, but it represents the collaborative spirit that makes open source software so powerful. My colleague, Ian, who is our repository developer has, in the past day, contributed a set of fixes back to Invenio, which should improve the software for everyone.

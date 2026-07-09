@@ -11,7 +11,7 @@ doi: https://doi.org/10.59348/jfvgg-5fz27
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -20,6 +20,7 @@ tags:
 title: 'Things academia.edu (@academia) should do (hint: work with green OA)'
 wordpress_id: 3214
 wordpress_url: https://www.martineve.com/?p=3214
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7meozymj2n"
 ---
 
 <p><a href="http://academia.edu">academia.edu</a> is a "social network" for academics. Their latest design mirrors Facebook with its blue header and notification schema. When I saw Ben Lund speak about this at SCONUL, he implied that the outfit wants, in some ways, to disintermediate academic publishers. I would say that they have a <i>long</i> way to go before that happens (peer review, digital preservation, discoverability etc.). That said, I quite like some of the things that they do. It's good to have <a href="https://ulincoln.academia.edu/MartinPaulEve">an aesthetically pleasing space where I can amplify my research profile</a>.</p>

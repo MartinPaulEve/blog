@@ -14,6 +14,7 @@ tags:
 title: Plagiarism by Semiotext(e) translations?
 wordpress_id: 9
 wordpress_url: http://new.martineve.com/?p=9
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlthllc2p"
 ---
 
 <p>    I have just read the disturbing case publicised by Arianna Bove in which, she alleges, Semiotext(e) essentially plagiarised her work on Foucault's translation of Kant's anthropology.

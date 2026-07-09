@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/mfe7d-wnx84
 image:
   feature: header_evebooks.png
 layout: post
-ogImage: header_evebooks.png
+ogImage: images/header_evebooks.png
 title: All ten of my books now are (or will be when published) open access
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2civnu2s"
 ---
 
 Today marks a significant milestone for me. All ten of my academic monographs are now – or will be when published – openly accessible and free to download. The books that are not yet out have advance contracts that stipulate open access.

@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/xnrh7-7px07
 image:
   feature: header_compare.png
 layout: post
-ogImage: header_compare.png
+ogImage: images/header_compare.png
 title: Evaluating Document Similarity Detection Approaches for Content Drift Detection
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwkiacw2e"
 ---
 
 “Content drift” is an important concept for digital preservation and web archiving. Scholarly readers expect to find immutable (“persisted”) content at the resolution endpoint of a DOI. It is a matter of research integrity that research articles should remain the same at the endpoint, as citations can refer to specific textual formulations.

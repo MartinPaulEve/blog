@@ -9,7 +9,7 @@ doi: https://doi.org/10.59348/5xhwv-n3h42
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -17,6 +17,7 @@ tags:
 title: Full response to Science-Metrix report on gold OA citation rates
 wordpress_id: 2832
 wordpress_url: https://www.martineve.com/?p=2832
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgd4hhs2a"
 ---
 
 <p>Last week, I was contacted by Elizabeth Gibney, who writes for the Times Higher, with a request for comment on the recent <a href="http://www.science-metrix.com/eng/news_13_08.htm">Science-Metrix report</a>, and particularly their findings that papers that were OA had higher citation rates, but gold was not as high as green. Elizabeth has very kindly included some of my response in <a href="http://www.timeshighereducation.co.uk/low-citation-gains-via-gold-open-access-study/2006847.article">her article</a>, but I wanted to share my full response below.</p>

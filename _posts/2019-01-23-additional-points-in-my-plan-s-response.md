@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/3za63-fa351
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 title: Additional points in my Plan S response
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7g6p322p"
 ---
 
 Further to my [other post earlier this week](https://eve.gd/2019/01/21/my-draft-plan-s-implementation-guidance-feedback/), I have added the additional points to my response letter to the Plan S implementation guidelines. These centre around monographs (9), REF involvement in Plan S (10), infrastructural support (11), the "time of publication" (12), clarification of the term "quality" (13), compliance of existing software with repository requirements (14), publisher deposition (15), and the ability to pursue defamation suits for wrongful attribution and reputational damage with the waiver of moral rights under CC BY 4.0 (16). If number 16 could be resolved, the open licensing landscape would be much clearer. [The full letter is now available](/images/Eve%20-%20Plan%20S%20Response.pdf).

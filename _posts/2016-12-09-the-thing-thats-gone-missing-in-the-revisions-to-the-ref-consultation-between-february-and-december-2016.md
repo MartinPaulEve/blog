@@ -5,9 +5,10 @@ doi: https://doi.org/10.59348/tyajh-t4349
 image:
   feature: ref.png
 layout: post
-ogImage: ref.png
+ogImage: images/ref.png
 title: 'The thing that''s gone missing in the revisions to the REF consultation between
   February and December 2016: the 5* category'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7marvev32p"
 ---
 
 The internal draft of the [Consultation on the Second Research Excellence Framework that was requested by FOI last February](https://www.martineve.com/2016/02/18/REF-consultation/) [contained the following clause](https://www.martineve.com/2016/02/18/REF-consultation/):

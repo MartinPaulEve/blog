@@ -11,7 +11,7 @@ doi: https://doi.org/10.59348/ftw1m-hbx08
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -19,6 +19,7 @@ tags:
 title: MathML support in the meTypeset typesetter
 wordpress_id: 3043
 wordpress_url: https://www.martineve.com/?p=3043
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfgpjfm2h"
 ---
 
 <h1>Diversity of material</h1>

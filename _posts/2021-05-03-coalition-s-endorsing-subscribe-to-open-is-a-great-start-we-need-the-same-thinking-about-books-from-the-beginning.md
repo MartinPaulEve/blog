@@ -5,9 +5,10 @@ doi: https://doi.org/10.59348/cjtmg-7vt30
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 title: cOAlition S endorsing Subscribe to Open is a great start. We need the same
   thinking about books from the beginning.
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3flr4t2i"
 ---
 
 This week, [cOAlition S endorsed the Subscribe to Open (S2O) business model](https://www.coalition-s.org/coalition-s-endorses-the-s2o-model-of-funding-oa/).

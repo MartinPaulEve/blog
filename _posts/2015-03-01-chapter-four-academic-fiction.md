@@ -8,10 +8,11 @@ doi: https://doi.org/10.59348/7xp8f-pe720
 image:
   feature: anxietyofacademia.png
 layout: post
-ogImage: anxietyofacademia.png
+ogImage: images/anxietyofacademia.png
 published: true
 status: publish
 title: 'Chapter Four: <s>Academic</s> Fiction'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7md5ws2r2f"
 ---
 
 A map, as of the 1st March 2015, of Chapter Four of [the book I am slowly working on](/2015/02/15/the-anxiety-of-academia-academics-legitimation-and-discipline-in-contemporary-metafiction/). This chapter primarily focuses on Percival Everett's <i>Erasure</i>.

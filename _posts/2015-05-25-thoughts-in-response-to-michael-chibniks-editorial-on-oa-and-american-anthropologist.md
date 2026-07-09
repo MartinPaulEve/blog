@@ -8,10 +8,11 @@ doi: https://doi.org/10.59348/cvkcj-9zt96
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 tags: []
 title: Thoughts in response to Michael Chibnik's editorial on OA and American Anthropologist
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcsax3x2s"
 ---
 
 In February of this year Michael Chibnik published an [editorial piece in _American Anthropologist_](http://dx.doi.org/10.1111/aman.12231) arguing that while he supported the idea of open access to the publication he also now thinks "that gold open access publication is unlikely to be feasible in the near future for AA". This is a regrettable situation since, from the editorial, it does not appear that many options have been considered to achieve open access, despite the citation in this piece of the previous editor [calling for the Society](http://dx.doi.org/10.1111%2Fj.1548-1433.2012.01440.x) to "work creatively" to achieve OA. I here offer a few thoughts of my own on what was said and left unsaid in Chibnik's editorial.

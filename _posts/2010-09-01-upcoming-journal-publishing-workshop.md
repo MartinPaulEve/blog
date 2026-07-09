@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/gyz84-35h98
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -21,6 +21,7 @@ tags:
 title: Upcoming journal publishing workshop
 wordpress_id: 7
 wordpress_url: http://new.martineve.com/?p=7
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlsh3it2u"
 ---
 
 <p>    <a href='/images/uploads/2010/09/Poster.jpg.scaled.1000.jpg'><img src="/images/uploads/2010/09/Poster.jpg.scaled.1000-212x300.jpg" width="500" height="707"/></a></p>

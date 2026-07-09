@@ -10,12 +10,13 @@ doi: https://doi.org/10.59348/dvj7h-04x29
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
 - Open Access
 title: Object Thinking, Systems Description Languages and the Future of the Book
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7md5ctdr2q"
 ---
 
 I am reading a most remarkable book.

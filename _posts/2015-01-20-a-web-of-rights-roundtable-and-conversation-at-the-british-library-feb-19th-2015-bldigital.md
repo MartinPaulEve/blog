@@ -18,6 +18,7 @@ tags:
 - rights
 title: '"A Web of Rights": Roundtable and Conversation at the British Library (Feb
   19th, 2015) #bldigital'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdcruw32p"
 ---
 
 <p>This event will debate how and in what ways the web has complicated, enhanced, and changed the rights of citizens for better or for worse.</p>

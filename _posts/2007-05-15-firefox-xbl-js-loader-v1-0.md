@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/2h3ng-xtv52
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -18,6 +18,7 @@ tags:
 title: Firefox XBL-JS Loader v1.0
 wordpress_id: 294
 wordpress_url: http://pro.grammatic.org/post-firefox-xbljs-loader-v10-4.aspx
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mocbqo72t"
 ---
 
 <p>Today I wrote a simple tool to illustrate the binding of a Javascript document to a page using Firefox's XBL support (-moz-binding) in an XSS context.</p>

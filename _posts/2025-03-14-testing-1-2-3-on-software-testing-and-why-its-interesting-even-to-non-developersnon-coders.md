@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/bnh0a-7cv52
 image:
   feature: header_test.png
 layout: post
-ogImage: header_test.png
+ogImage: images/header_test.png
 title: Testing 1, 2, 3 (on software testing and why it's interesting even to non-developers/non-coders)
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lw263eq2r"
 ---
 
 My days working at Knowledge Commons are highly varied. It's great. I get up in the morning and do some research work, writing my next book (OK, that isn't KC work, I know, but it's part of my day). The day itself will then involve some hands-on programming (we're re-writing the Profiles system), writing grant applications, giving talks about open practices, meeting with colleagues, debugging infrastructure, responding to user queries and feedback, communicating with the team, and even a bit of fun banter in the team channel along the way.

@@ -9,7 +9,7 @@ doi: https://doi.org/10.59348/11g2e-rhq12
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -18,6 +18,7 @@ tags:
 title: Funding for the Open Library of Humanities from the Andrew W. Mellon Foundation
 wordpress_id: 3070
 wordpress_url: https://www.martineve.com/?p=3070
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfdycj72a"
 ---
 
 <p>As detailed <a href="https://www.openlibhums.org/2014/04/07/funding-from-the-andrew-w-mellon-foundation/">over on the OLH site</a>, I am very pleased to be able to say that we have secured a grant from the Andrew W. Mellon Foundation to launch the Open Library of Humanities!</p>

@@ -67,6 +67,7 @@ tags:
 title: Pynchon's Friends in Gravity's Rainbow
 wordpress_id: 1561
 wordpress_url: https://www.martineve.com/?p=1561
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjin6jh2f"
 ---
 
 <p>On my latest, but numerically beyond-counting, read-through of <i>Gravity's Rainbow</i>, it suddenly struck me that the Fred and Phyllis referenced on page 711: "(who's that tapping and giggling at your door, Fred and Phyllis?)" are none other than Pynchon's long-standing friends Fred and (the late) Phyllis Gebauer.</p>

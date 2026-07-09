@@ -6,10 +6,11 @@ doi: https://doi.org/10.59348/w6nzn-yax73
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 tags: []
 title: What does the academic monograph market look like for a new open-access publisher?
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcvobbn2t"
 ---
 
 I tell people, repeatedly, that publisher brand fuels a strange economic environment for scholarly communications. I also note that symbolic capital (reputation) has a direct conversion to material capital (money). Finally, I point out that the economics of books are harder than journals for new OA publishers for reasons of scale in both material and symbolic economics. I'm often searching for new ways to show this, so here's a quick, simple and, of course, reductive demonstration that occurred to me today.

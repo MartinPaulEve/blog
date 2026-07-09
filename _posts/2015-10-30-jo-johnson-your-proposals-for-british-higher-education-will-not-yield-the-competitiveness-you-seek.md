@@ -12,6 +12,7 @@ tags:
 - policy
 title: 'Jo Johnson: your proposals for British higher education will not yield the
   competitiveness you seek'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc6jeco2o"
 ---
 
 Dear Mr. Johnson,

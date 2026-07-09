@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/g5rvx-tmr98
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -19,6 +19,7 @@ tags:
 title: Bypassing Same Origin Policy using Mash-Ups
 wordpress_id: 280
 wordpress_url: http://pro.grammatic.org/post-bypassing-same-origin-policy-using-mashups-19.aspx
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnp4lhu2h"
 ---
 
 <p><a href="http://www.gnucitizen.org" title="GNUZITIZEN's blog">GNUCITIZEN</a> has been going on about this for some time now, but the truly devastating impact of what he has been saying only actually hit me today when reading about his <a href="http://www.gnucitizen.org/ghdb/">JavaScript interface</a> to <a href="http://johnny.ihackstuff.com/ghdb.php" title="Johnny's Google Hacking Database">Johnny's Google Hacking Database</a>.</p>

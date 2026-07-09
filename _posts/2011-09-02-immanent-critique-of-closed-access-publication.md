@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/tbsaa-q3340
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -20,6 +20,7 @@ tags:
 title: Immanent critique of closed access publication
 wordpress_id: 1445
 wordpress_url: https://www.martineve.com/2011/09/02/immanent-critique-of-closed-access-publication/
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjza4yd2n"
 ---
 
 <p>As I ramp up my efforts to bring the critique of closed access journals to the fore I expect at some point to encounter the charge of hypocrisy; I publish in closed journals. Having just seen a post on twitter criticizing research on Open Access published in a closed destination, I wanted here to briefly outline a justification for this.</p>

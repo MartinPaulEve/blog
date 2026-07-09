@@ -9,7 +9,7 @@ doi: https://doi.org/10.59348/xrz0p-4p591
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -18,6 +18,7 @@ tags:
 title: I've gone to IPv6
 wordpress_id: 1864
 wordpress_url: https://www.martineve.com/2012/01/23/ive-gone-to-ipv6/
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miyfjoq2o"
 ---
 
 <p>2012 has been designated <a href="http://www.worldipv6launch.org/">the year of IPv6 launch</a> and, to do my part, I have tweaked my infrastructure to ensure full, and future-guaranteed, IPv6 connectivity.</p>

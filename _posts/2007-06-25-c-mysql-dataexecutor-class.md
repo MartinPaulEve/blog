@@ -21,13 +21,14 @@ doi: https://doi.org/10.59348/z8wg9-eqf54
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags: []
 title: C# MySql DataExecutor class
 wordpress_id: 269
 wordpress_url: http://pro.grammatic.org/post-c-mysql-dataexecutor-class-31.aspx
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnd56xa2f"
 ---
 
 <p>DataExecutor.cs:</p>

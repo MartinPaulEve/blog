@@ -13,7 +13,7 @@ doi: https://doi.org/10.59348/xew4c-b4w06
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -23,6 +23,7 @@ title: 'Publication: ''Before the law: open access, quality control and the futu
   of peer review'''
 wordpress_id: 2720
 wordpress_url: https://www.martineve.com/?p=2720
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgpv3nv2q"
 ---
 
 <div style="clear:both"></div>

@@ -44,7 +44,7 @@ doi: https://doi.org/10.59348/fqnpt-0e531
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -53,6 +53,7 @@ tags:
 title: Installing Zotero on Ubuntu Oneiric (11.10/Beta)
 wordpress_id: 1449
 wordpress_url: https://www.martineve.com/?p=1449
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjyu33j2o"
 ---
 
 <p>Following on from my previous <a href="https://www.martineve.com/2011/04/03/installing-zotero-on-ubuntu-natty-11-04beta/">guide to using Zotero in Ubuntu Natty</a>, I am pleased to present, here, the guide for Ubuntu 11.10: The Oneiric Ocelot. <s>The most crucial new addition is that, at the time of writing (September 2011), Zotero was unable to load in Firefox 7.0 beta.</s> Update: As of 9th of September, this is fixed. Zotero 2.1.10 will load in Firefox 7.</p>

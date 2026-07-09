@@ -12,7 +12,7 @@ doi: https://doi.org/10.59348/r7htg-rj511
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -21,6 +21,7 @@ tags:
 title: Digital Literatures; Digital Democracies; Digital Threats?
 wordpress_id: 2733
 wordpress_url: https://www.martineve.com/?p=2733
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgp6a6x2a"
 ---
 
 <p><iframe src="http://prezi.com/embed/3e5a285873f0c185adf6c7891df104ef07890d2f/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;features=undefined&amp;disabled_features=undefined" width="550" height="400" frameBorder="0"></iframe></p>

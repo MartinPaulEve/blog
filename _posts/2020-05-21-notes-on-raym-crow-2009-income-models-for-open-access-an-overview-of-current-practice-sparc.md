@@ -5,9 +5,10 @@ doi: https://doi.org/10.59348/6shg3-q0e43
 image:
   feature: header_business2.png
 layout: post
-ogImage: header_business2.png
+ogImage: images/header_business2.png
 title: 'Notes on Raym Crow. (2009). Income Models for Open Access: An Overview of
   Current Practice. SPARC.'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5pfcn22i"
 ---
 
 Some choice excerpts and comments on Raym Crow. (2009). Income Models for Open Access: An Overview of Current Practice. SPARC. [https://sparcopen.org/wp-content/uploads/2016/01/incomemodels_v1.pdf](https://sparcopen.org/wp-content/uploads/2016/01/incomemodels_v1.pdf). I am thinking about this in relation to the list of business models for OA books that we are building, even though it was written for journals over a decade ago.

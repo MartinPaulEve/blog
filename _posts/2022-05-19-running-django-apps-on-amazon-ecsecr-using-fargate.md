@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/k6z7j-a6z38
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 title: Running Django apps on AWS Fargate with a serverless RDS
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lz5lmqs2h"
 ---
 
 There are several tutorials out there on how to get Django apps dockerized and deployed onto AWS Fargate. None of them worked for me. So I have put together [a project demonstrating how to do this](https://github.com/MartinPaulEve/django-fargate). It's available [on Github](https://github.com/MartinPaulEve/django-fargate).

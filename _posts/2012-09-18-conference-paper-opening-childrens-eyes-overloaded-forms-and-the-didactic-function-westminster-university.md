@@ -21,6 +21,7 @@ title: 'Conference paper: ''Opening children''s eyes'': Overloaded Forms and the
   Function (Westminster University)'
 wordpress_id: 2411
 wordpress_url: https://www.martineve.com/?p=2411
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhrk3k32h"
 ---
 
 <p>Pleased to say that I'll be speaking at Westminster University on Wednesday 28 November, 4.00pm – 5.15pm in Wells Street, room 106. If you'd like to attend, please email <a href="mailto:C.Daley1@westminster.ac.uk">Christopher Daley</a>. The paper is entitled "'Opening children's eyes': Overloaded Forms and the Didactic Function". Please also see <a href='https://www.martineve.com/wp-content/uploads/2012/09/Schedule-Autumn-2012-Research-Seminars.pdf'>the programme for the rest of the series</a>.</p>

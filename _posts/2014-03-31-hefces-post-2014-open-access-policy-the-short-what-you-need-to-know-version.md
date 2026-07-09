@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/v6877-5aj35
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -18,6 +18,7 @@ tags:
 title: 'HEFCE''s Post-2014 Open Access Policy: the short "what you need to know" version'
 wordpress_id: 3060
 wordpress_url: https://www.martineve.com/?p=3060
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mff3icq2i"
 ---
 
 <p><strong>The Really Short Version:</strong></p>

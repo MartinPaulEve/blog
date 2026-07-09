@@ -20,6 +20,7 @@ title: 'Publication:  “You will see the logic of the design of this”: From H
   to Taxonomography  in the Contemporary Metafiction of Sarah Waters’s Affinity'
 wordpress_id: 2835
 wordpress_url: https://www.martineve.com/?p=2835
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgcom4c2a"
 ---
 
 <p>Although, in some ways, Sarah Waters’s <i>Affinity</i> looks akin to historiographic metafiction, M.-L. Kohlke has persuasively argued that the text is more accurately dubbed “new(meta)realism”, a mode that demonstrates the exhausted potential of the form. This article suggests that genre play and a meta-generic mode, dubbed taxonomography, might be a further helpful description for the mechanism through which Waters’s novel effects its twists and pre-empts the expectations of an academic discourse community. This reading exposes Waters’s continuing preoccupation with the academy but also situates her writing within a broader spectrum of fiction that foregrounds genre as a central concern. Ultimately, this article asks whether Waters’s novel can, itself, be considered as a text that disciplines its own academic study in the way that it suggests that the academy has become, once more, blind to class.</p>

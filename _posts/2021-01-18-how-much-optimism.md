@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/3sbaq-g3s66
 image:
   feature: header_medical.png
 layout: post
-ogImage: header_medical.png
+ogImage: images/header_medical.png
 title: How much optimism?
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3woipt2n"
 ---
 
 I am due up for vaccination in the very near future. This is good news. But it's tempered.

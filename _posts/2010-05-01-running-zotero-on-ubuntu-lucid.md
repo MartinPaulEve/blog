@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/ktbh3-ddn88
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -18,6 +18,7 @@ tags:
 title: Running Zotero on Ubuntu Lucid
 wordpress_id: 17
 wordpress_url: http://new.martineve.com/?p=17
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mm6vngt2e"
 ---
 
 <p>I have just upgraded my work machine (laptop) to Kubuntu Lucid Lynx (10.4) and have to say that I was mightily impressed with the ease of upgrade; 99% flawless.

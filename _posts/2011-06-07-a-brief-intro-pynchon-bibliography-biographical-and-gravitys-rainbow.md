@@ -18,6 +18,7 @@ tags:
 title: A Brief Intro Pynchon Bibliography (Biographical and Gravity's Rainbow)
 wordpress_id: 1141
 wordpress_url: https://www.martineve.com/?p=1141
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkcb4q32u"
 ---
 
 <p>I saw yesterday that Twitter user <a href="http://www.twitter.com/WhelanWrites">WhelanWrites</a> was asking for a basic rundown of some introductory Pynchon criticism. Rather than reply, I thought I'd put a few items up here so that they are better preserved for posterity.</p>

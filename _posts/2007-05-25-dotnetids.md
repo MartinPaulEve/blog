@@ -11,7 +11,7 @@ doi: https://doi.org/10.59348/ntd9h-gkf22
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -21,6 +21,7 @@ tags:
 title: dotnetids
 wordpress_id: 275
 wordpress_url: http://pro.grammatic.org/post-dotnetids-24.aspx
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mngur3c2q"
 ---
 
 <p>Just a quick note to announce the start of dotnetids, a port of phpids to the .NET Framework.</p>

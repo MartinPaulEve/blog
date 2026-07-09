@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/m0te2-e1152
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 title: Identifying 26GB of JSON Novel Data
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mberrip2i"
 ---
 
 For part of one of my current research projects I have a pretty large (26GB) corpus of digitized JSON novels. I'm interested in ingesting these and then performing various methods of authorship attribution to them using delta, nearest shrunken centroid and other techniques.

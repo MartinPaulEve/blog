@@ -16,6 +16,7 @@ tags:
 title: Happy 85th Birthday, Michel Foucault
 wordpress_id: 1532
 wordpress_url: https://www.martineve.com/?p=1532
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjj2wvw2p"
 ---
 
 <p>Although arguably a philosopher of his time, Michel Foucault is probably the thinker whose work has had the greatest impact upon me, academically. I first encountered his works in the third year of my undergraduate studies and his revolutionary thinking blew me away. From studies of madness, through the prison system to sexuality, his ability to take conventional wisdom and stand it on its head showed me the power of critical thought. He wasn't always right -- his embarrassing stance on the Iranian revolution didn't quite pan out -- and he isn't consistent, but then: </p>

@@ -18,6 +18,7 @@ tags:
 title: An update on Orbit 1.1
 wordpress_id: 2074
 wordpress_url: https://www.martineve.com/2012/05/02/an-update-on-orbit-1-1/
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7migpcfk2u"
 ---
 
 <p>I thought it was time for a brief "state of the issue" post for the, no doubt voluminous, hordes awaiting the launch of <a href="https://www.pynchon.net">Orbit: Writing Around Pynchon</a>.</p>

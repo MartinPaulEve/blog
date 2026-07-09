@@ -11,7 +11,7 @@ doi: https://doi.org/10.59348/1yb0q-ta766
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -21,6 +21,7 @@ tags:
 title: On Opposition to *any* APC model
 wordpress_id: 2586
 wordpress_url: https://www.martineve.com/?p=2586
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mh4xqb72o"
 ---
 
 <p>Just to share my response to a comment on the PLOHSS project from somebody who claimed that:</p>

@@ -9,6 +9,7 @@ published: true
 tags:
 - scholarly communications
 title: A world reimagined without the university
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbqtem42r"
 ---
 
 I'm at a workshop in Madrid organized by FORCE11. The first exercise was to imagine a world where universities did not exist, their hierarchies and power were abolished, but we still knew what we know. What would we build?

@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/4mr2f-ybq70
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -18,6 +18,7 @@ tags:
 title: Implementing COinS
 wordpress_id: 22
 wordpress_url: http://new.martineve.com/?p=22
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmbo4hm2s"
 ---
 
 <p><img src="/images/uploads/2010/03/Bookshelf_photo-300x228.jpg" width="500" height="380"/></p>

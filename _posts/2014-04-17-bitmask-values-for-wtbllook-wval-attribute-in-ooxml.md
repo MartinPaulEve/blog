@@ -9,7 +9,7 @@ doi: https://doi.org/10.59348/ymejq-efd49
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -17,6 +17,7 @@ tags:
 title: Bitmask values for w:tblLook w:val attribute in OOXML
 wordpress_id: 3096
 wordpress_url: https://www.martineve.com/?p=3096
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mf76b4r2n"
 ---
 
 <p>For my own reference:</p>

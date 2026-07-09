@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/a7vrn-97603
 image:
   feature: header_warez.png
 layout: post
-ogImage: header_warez.png
+ogImage: images/header_warez.png
 title: On the ethics of studying pirate cultures
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m4qbx432e"
 ---
 
 Studies such as [my Warez book](/2020/10/10/an-update-on-my-warez-book/) fall under the rubric of ‘netnographies’; work that attempt to examine ethnographically the principles and characteristics of various online cultures. A fundamental challenge of working in this space is the issue of ethics, though. Most of the documents and conversations that have been surfaced in the DeFacto2 archive were thought, by the conversation participants, to have been held in private. 

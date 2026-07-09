@@ -18,6 +18,7 @@ title: The Ontological Problems of Contemporary Fiction Studies are Actually its
   Prerequsites
 wordpress_id: 2089
 wordpress_url: https://www.martineve.com/2012/05/13/the-ontological-problems-of-contemporary-fiction-studies-are-actually-its-ontological-prerequsites/
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mifiyxe2t"
 ---
 
 <p>The second day of the 21st-Century British Fiction Conference at Birkbeck saw an opening keynote from Bob Eaglestone in which he provocatively challenged the unformed nature of the field. Citing the lack of intersubjective agreement on the temporal bounding of the discipline and warning that the field was not even at a stage capable of a Heideggerian reflexive crisis (I'm paraphrasing Bob's Heidegger -- I haven't read it, but this encapsulates the sense in which it was used), Eaglestone suggested that contemporary fiction studies would be relegated to the status of cataloguing and describing.</p>

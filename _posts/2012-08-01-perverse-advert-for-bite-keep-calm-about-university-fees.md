@@ -16,6 +16,7 @@ tags:
 title: 'Perverse advert for BITE: "Keep Calm About University Fees"'
 wordpress_id: 2260
 wordpress_url: https://www.martineve.com/?p=2260
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhwq3yp2i"
 ---
 
 <p>Walking down my usual route to the British Library today, I encountered one of the most flagrant attempts to normalize the commodification of Higher Education that I have yet seen. In a poster for <a href="http://bite.ac.uk/education/">The British Institute of Technology & E-commerce (BITE)</a>, invoking the set of enraging "Keep Calm and Carry On" gumph that has been spewed forth recently, advice is dispensed to students to "Keep Calm About University Fees".</p>

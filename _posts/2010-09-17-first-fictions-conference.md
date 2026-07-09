@@ -17,6 +17,7 @@ tags:
 title: First Fictions conference
 wordpress_id: 5
 wordpress_url: http://new.martineve.com/?p=5
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlrenx22a"
 ---
 
 <p>          <b>FIRST FICTIONS</b><br /> Festival and Academic Conference<br /> <b>Update: 2011-01-18</b> <s>9-12th June, 2011</s> <b>Please note the date of the festival has now changed to: 19-22 Jan 2012</b>

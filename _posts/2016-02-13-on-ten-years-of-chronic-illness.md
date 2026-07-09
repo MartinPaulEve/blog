@@ -9,6 +9,7 @@ published: true
 tags:
 - personal
 title: On ten years of chronic illness
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbsn5ce2t"
 ---
 
 I'm not one to mope or to seek any special sympathy but this month marks an ambivalent anniversary for me and I promised myself I'd write publicly about it. I want to do so because I know other people who have had a similar experience and someone else might find this blog and find it of interest.

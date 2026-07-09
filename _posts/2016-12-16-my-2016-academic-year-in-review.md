@@ -4,6 +4,7 @@ date: 2016-12-16
 doi: https://doi.org/10.59348/wwvmq-j3c31
 layout: post
 title: My 2016 academic year in review
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7maqd3mo2o"
 ---
 
 2016 was a year of mixed fortune for me. On the positive side, OLH continues to grow, I was made a (full) Professor, and I published two books. On the downside, I was seriously ill, suffering a stroke linked to vasculitis in March, from which I have made a near-full recovery. I've enjoyed working with my PhD students, though, and am looking forward to a less eventful 2017!

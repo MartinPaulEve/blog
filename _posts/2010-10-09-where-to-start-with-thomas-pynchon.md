@@ -45,7 +45,8 @@ comments:
   author_email: markekohut@yahoo.com
   author_url: http://markkohut.tumblr.com
   content: "I think it is very true that many who read and love Pynchon do love the
-    crossword puzzle-like aspect---i underrated him for years because of that...BUT,
+    crossword puzzle-like aspectatUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlqq6qi2f"
+---i underrated him for years because of that...BUT,
     finally wise enough with Against the Day (I hope), I FELT all that was not a puzzle
     in the vision from the beginning....\r\nLike a janeite, I am always rereading\r\nPynchon."
   date: 2011-01-29 11:48:44 +0100

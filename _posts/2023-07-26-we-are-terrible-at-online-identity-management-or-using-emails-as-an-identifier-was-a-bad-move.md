@@ -5,9 +5,10 @@ doi: https://doi.org/10.59348/p3qjk-zak81
 image:
   feature: header_identity.png
 layout: post
-ogImage: header_identity.png
+ogImage: images/header_identity.png
 title: 'We Are Terrible at Online Identity Management (or: Using Emails as An Identifier
   Was a Bad Move)'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7ly4vasi2n"
 ---
 
 As noted previously, I am [vacating my martineve.com domain](https://eve.gd/2023/07/24/sunsetting-martinevecom/). To do so has been a painful process that involves changing every account that uses martin@martineve.com to a new email address.

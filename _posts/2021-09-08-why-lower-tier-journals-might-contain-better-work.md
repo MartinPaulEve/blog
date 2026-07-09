@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/8v87c-hh469
 image:
   feature: header_pub.png
 layout: post
-ogImage: header_pub.png
+ogImage: images/header_pub.png
 title: Why 'Lower Tier' Journals Might Contain Better Work
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2epljn2o"
 ---
 
 I was reflecting this morning on the following propositions:

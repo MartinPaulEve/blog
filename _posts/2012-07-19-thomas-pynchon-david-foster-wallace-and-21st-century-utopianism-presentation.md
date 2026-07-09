@@ -20,6 +20,7 @@ tags:
 title: Thomas Pynchon, David Foster Wallace and 21st-Century Utopianism (presentation)
 wordpress_id: 2236
 wordpress_url: https://www.martineve.com/?p=2236
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mi5jumu2h"
 ---
 
 <p><img src="https://www.martineve.com/wp-content/uploads/2012/07/David_Foster_Wallace-1024x426.jpg" alt="David_Foster_Wallace" title="David_Foster_Wallace" style="width:750px;" class="alignnone size-large wp-image-2237" /></p>

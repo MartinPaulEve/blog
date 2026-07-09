@@ -5,9 +5,10 @@ doi: https://doi.org/10.59348/aevk7-0hs13
 image:
   feature: header_farina.png
 layout: post
-ogImage: header_farina.png
+ogImage: images/header_farina.png
 title: '‘Begin at the beginning, the King said, very gravely’: Serious Openings and
   Subversive Epigraphs in the Novels of Thomas Pynchon'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwwayxm2p"
 ---
 
 People often think that reading a novel is a very linear activity. You start at the start and proceed through the text. As in most media forms, though, the beginning of any novel is really not truly its beginning.

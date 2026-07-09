@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/sg322-d9048
 image:
   feature: pain.png
 layout: post
-ogImage: pain.png
+ogImage: images/pain.png
 title: On pain and subjectivity
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7ly6tmo22r"
 ---
 
 Pain is a great topic for philosophers. Wittgenstein uses the example of "owning" pain ("I cannot have your pains") in his _Philosophical Investigations_. Susan Sontag famously wrote about photographs of atrocities in _Regarding the Pain of Others_.

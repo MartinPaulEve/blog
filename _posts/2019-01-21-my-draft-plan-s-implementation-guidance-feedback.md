@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/w3h86-s6067
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 title: My Draft Plan S Implementation Guidance Feedback
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7gp5a52i"
 ---
 
 I write to provide feedback in an individual capacity on the Plan S implementation guidelines.

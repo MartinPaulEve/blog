@@ -11,6 +11,7 @@ tags:
 - education
 title: Trying to understand Ofqual's inter-subject comparability Rasch model tests
   for easy/hard subjects at GCSE and A-Level
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbs6v5b2q"
 ---
 
 Last night I spent almost three hours reading [the full Ofqual statistical paper on subject comparability at school level in the UK](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/486936/3-inter-subject-comparability-of-exam-standards-in-gcse-and-a-level.pdf). I am not a statistician (obviously) but I've set out below my working through of what they have presented and the underlying assumptions that they have made in case it's of interest to anyone. There could be some real errors in this, but it's the best I can do. I'd actually be really interested if a statistician wanted to have a look at this to let me know what I've got right. I'm currently re-building my basic statistical knowledge but I'm hardly there yet.

@@ -11,7 +11,7 @@ doi: https://doi.org/10.59348/jy4py-v4g81
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -23,6 +23,7 @@ tags:
 title: 'Alluvium technical news: DOI numbers, CLOCKSS and MLA Bibliography'
 wordpress_id: 2526
 wordpress_url: https://www.martineve.com/?p=2526
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhg6qge2h"
 ---
 
 <p>Several exciting goings-on at <a href="http://www.alluvium-journal.org"><i>Alluvium</i></a> merit a quick post here to give a rundown of the new features available, which are mostly behind-the-scenes, but definitely do a lot for <i>Alluvium</i> as a publishing destination.</p>

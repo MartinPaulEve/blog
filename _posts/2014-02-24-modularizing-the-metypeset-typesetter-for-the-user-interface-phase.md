@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/wped7-g2j17
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -19,6 +19,7 @@ tags:
 title: Modularizing the meTypeset typesetter for the user interface phase
 wordpress_id: 3033
 wordpress_url: https://www.martineve.com/?p=3033
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfobrk52r"
 ---
 
 <h1>Modularizing the Project</h1>

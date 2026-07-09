@@ -19,6 +19,7 @@ tags:
 title: '"Karl Marx, that sly old racist"'
 wordpress_id: 2368
 wordpress_url: https://www.martineve.com/?p=2368
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhtqams2a"
 ---
 
 <p>One of the references in Pynchon's <i>Gravity's Rainbow</i> that eludes me (in its specificity, not in its generality) is the following quotation:</p>

@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/y48wx-1fb70
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -23,6 +23,7 @@ title: 'Introducing eprintsCV: a python script to create an academic web CV from
   eprints record'
 wordpress_id: 2978
 wordpress_url: https://www.martineve.com/?p=2978
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfs5u7d2q"
 ---
 
 <p>This afternoon, after an intense day of writing, I decided that I was finally fed up with maintaining so many different copies of my publication record. I have my institutional repository, my OpenOffice CV document, my Academia.edu profile and, of course, the <a href="https://www.martineve.com/c-v/">version on my own site</a>. I decided to do something about this.</p>

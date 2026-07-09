@@ -9,7 +9,7 @@ doi: https://doi.org/10.59348/xecrq-8qk94
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -17,6 +17,7 @@ tags:
 title: Displaying EE mobile data usage in Conky
 wordpress_id: 2746
 wordpress_url: https://www.martineve.com/?p=2746
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgnw5tm2h"
 ---
 
 <p>OK, this is probably one of the most specific posts I've ever written, but...</p>

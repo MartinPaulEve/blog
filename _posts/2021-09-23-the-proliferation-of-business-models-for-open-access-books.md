@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/dxamk-j2124
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 title: The proliferation of business models for open-access books
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2e6wcl2t"
 ---
 
 We are at an exciting moment for open-access books. UKRI has announced a forthcoming funding mandate, kicking off in 2024. Plan S funders are deciding what to do about books. And much (if not all) of the dissent around the idea of OA monographs has gone quieter. It seems, at least to me, that more and more people are persuaded that OA books are a good concept… so long as the route by which we get there is equitable.

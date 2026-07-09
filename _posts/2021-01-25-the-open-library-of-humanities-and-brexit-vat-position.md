@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/ez1mk-szy68
 image:
   feature: header_olh.png
 layout: post
-ogImage: header_olh.png
+ogImage: images/header_olh.png
 title: 'The Open Library of Humanities and Brexit: VAT Position'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3v5mwu2s"
 ---
 
 This morning I had to have a call with our accountants that I was somewhat dreading: does Brexit have tax implications for the Open Library of Humanities, a company limited by guarantee with charitable objects (a UK charity)?

@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/1tta7-hnj71
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 title: 'Headless PDF printing in Chrome: when the standard timeout isn''t enough'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2dur2c2r"
 ---
 
 tl;dr: use the node.js module [html-pdf-chrome](https://www.npmjs.com/package/html-pdf-chrome) to print programmatically, not Chrome's built-in virtual-time-budget. See my [print.js file](https://github.com/MartinPaulEve/eprintsToCV/blob/master/print.js) for an example.

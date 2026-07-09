@@ -4,6 +4,7 @@ date: 2020-07-30
 doi: https://doi.org/10.59348/p45j7-fjr65
 layout: post
 title: davmail uses Java certificate store, not central ca-certificates
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m4y62bt2i"
 ---
 
 A note to self (and others) for when this problem happens again. My university today updated the certificate for their OWA webmail service, signed by a certificate authority that I did not have in my trust chain.

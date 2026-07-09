@@ -8,13 +8,14 @@ doi: https://doi.org/10.59348/yd9ap-s4406
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 tags:
 - tech
 - wordpress
 - security
 title: How to block distributed brute-force attacks against Wordpress using fail2ban
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcb5dso2o"
 ---
 
 In recent days my server has become prey to ever-more brute-force attacks against Wordpress instances. This is a total pain, although they're unlikely (touch wood) to succeed given the complexity of the passwords I tend to deploy and non-standard account names. That said, I got tired of this and wanted to figure out how to block them. The biggest problem I encountered is that some of these password-guessing attacks were coming from a botnet. In other words, in each case it was just one IP that attempted a login, then another IP would attempt the next password, then another for the next etc. This means that we can't rely on the usual approach: watch for X number of bad logins from an IP then ban for 12 hours or so.

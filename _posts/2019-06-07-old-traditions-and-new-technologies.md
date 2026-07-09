@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/96d4q-mqd24
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 title: Old Traditions and New Technologies
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6ujmdd2n"
 ---
 
 It has been a pretty epic editing process and one that I would not be in a hurry to repeat any time soon, but I am pleased to say that the volume that I am editing with Jonathan Gray is pretty much ready to go back to The MIT Press and should be done this month. Below is the chapter table of contents for _Old Traditions and New Technologies: The Pasts, Presents, and Futures of Open Scholarly Communications_. The book should be open access when it finally gets there.

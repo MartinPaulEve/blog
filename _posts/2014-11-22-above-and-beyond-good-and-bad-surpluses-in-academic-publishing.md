@@ -9,12 +9,13 @@ doi: https://doi.org/10.59348/9k802-9nk86
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
 - Open Access
 title: 'Above and beyond: “good” and “bad” surpluses in academic publishing'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdrtg6x2t"
 ---
 
 <p>In <a href="https://www.martineve.com/2014/11/02/were-a-small-learned-society-charging-25-what-are-we-doing-wrong-oa-for-small-society-journals/">a recent post</a>, I came up with a per-article costing figure, based on Ubiquity Press's economy of scale, for a learned society to go open access. I received two responses to the figure given. One said that it was extortionately high. The other queried whether it was perhaps unrealistically low. What are the real costs of scholarly communication?</p>

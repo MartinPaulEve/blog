@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/x565m-f7909
 image:
   feature: header_shoe.png
 layout: post
-ogImage: header_shoe.png
+ogImage: images/header_shoe.png
 title: 'Moving On: My Infrastructural Turn'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lypf3xk2a"
 ---
 
 The next few months mark a series of “10”s for me. On the 10th September, it will be 10 years since my Ph.D. viva. In November, it will be 10 years since I got my first lecturing position (TT Assistant Prof) at the University of Lincoln. It’s 10 years since I met Dr Caroline Edwards and we began publishing _Alluvium_ together. And it’s 10 years since we began planning the Open Library of Humanities.

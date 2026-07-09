@@ -44,6 +44,7 @@ tags:
 title: More thoughts on metrics, link-rot, canonical URLs
 wordpress_id: 1895
 wordpress_url: https://www.martineve.com/2012/02/04/more-thoughts-on-metrics-link-rot-canonical-urls/
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miwjpi22s"
 ---
 
 <p>In my <a href="https://www.martineve.com/2012/02/03/dois-what-you-need-to-know/">previous post</a>, I flagged up a conversation about DOIs that I had with Geoffrey Bilder on Twitter. It was enlightening in many ways; I hadn't appreciated that one of the main challenges faceed by Crossref is a carrot and stick approach to ensure that DOIs really do combat link rot.</p>

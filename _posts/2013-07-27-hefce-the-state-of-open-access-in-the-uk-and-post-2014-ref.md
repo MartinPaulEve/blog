@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/5eta7-g7138
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -18,6 +18,7 @@ tags:
 title: HEFCE, the State of Open Access in the UK and Post-2014 REF
 wordpress_id: 2769
 wordpress_url: https://www.martineve.com/?p=2769
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mglxwro2e"
 ---
 
 <p>Having returned from a glorious week away in Crotia and Bosnia (for Pynchon fans: it was "very nice, very nice, very nice indeed"), I have returned to an inbox that features the current state of play with HEFCE's thinking on open access mandates for a post-2014 REF. In order to ensure that I've got it straight in my own head, I thought I'd write a summary post for quick reference. I'm using <a href="http://www.hefce.ac.uk/media/hefce/content/pubs/2013/201316/Consultation%20on%20open%20access%20in%20the%20post-2014%20Research%20Excellence%20Framework.pdf">the PDF version</a> as my reference. This refers to the 16th July 2013 document.</p>

@@ -7,11 +7,12 @@ doi: https://doi.org/10.59348/4y66h-h3q39
 image:
   feature: post_images/johnson.jpg
 layout: post
-ogImage: post_images/johnson.jpg
+ogImage: images/post_images/johnson.jpg
 published: true
 tags:
 - policy
 title: 'TEF, REF, QR, deregulation: thoughts on Jo Johnson''s HE talk'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc7kitm2t"
 ---
 
 I feel fairly drained today reading [the speech given by the minister for Higher Education](https://www.gov.uk/government/speeches/higher-education-fulfilling-our-potential), Jo Johnson. 

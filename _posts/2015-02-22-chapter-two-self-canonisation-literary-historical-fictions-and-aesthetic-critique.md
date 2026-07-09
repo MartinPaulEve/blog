@@ -8,11 +8,12 @@ doi: https://doi.org/10.59348/ct0q8-cf277
 image:
   feature: anxietyofacademia.png
 layout: post
-ogImage: anxietyofacademia.png
+ogImage: images/anxietyofacademia.png
 published: true
 status: publish
 title: 'Chapter Two: Self-Canonisation, Literary-Historical Fictions and Aesthetic
   Critique'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7md7jafg2o"
 ---
 
 A map, as of the 22nd February 2015, of Chapter Two of <a href="/2015/02/15/the-anxiety-of-academia-academics-legitimation-and-discipline-in-contemporary-metafiction/">the book I am slowly working on</a>.

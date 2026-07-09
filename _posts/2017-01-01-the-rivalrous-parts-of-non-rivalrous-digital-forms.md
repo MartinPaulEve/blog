@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/mbpr1-1k347
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 title: The rivalrous parts of non-rivalrous digital forms
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mapzeyo2f"
 ---
 
 [Peter Suber has asked](http://legacy.earlham.edu/~peters/fos/newsletter/11-02-09.htm), following a long chain of thinking about knowledge as a non-rivalrous form that is inscribed, historically, within rivalrous forms:

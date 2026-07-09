@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/485d3-zd498
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -18,6 +18,7 @@ tags:
 title: Handling the absence of a (newline) break tag in JATS
 wordpress_id: 2985
 wordpress_url: https://www.martineve.com/?p=2985
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfrdx5l2f"
 ---
 
 <p>As I noted in a previous post, a lot of my work this term involves technical implementation of an open source JATS (previously NLM) typesetter for scholarly articles. What this means is that I am writing a system that takes imperfectly formatted Microsoft Word documents and transforms them into an XML format that we can use to produce HTML, PDFs, EPUBs you name it. I'm intending to write about my experience of developing this system as a way of ensuring my thoughts are clear but also as a way in for anybody else who might ever want to understand the meTypeset codebase.</p>

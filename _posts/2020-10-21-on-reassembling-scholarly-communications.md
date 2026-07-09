@@ -5,9 +5,10 @@ doi: https://doi.org/10.59348/d889f-yp249
 image:
   feature: header_rsc.png
 layout: post
-ogImage: header_rsc.png
+ogImage: images/header_rsc.png
 title: 'On Reassembling Scholarly Communications: A book about the ethics and egalitarianism
   of open access'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m4roxdd2i"
 ---
 
 <p>After a Herculean effort, coinciding with open access week 2020, our edited volume <i>Reassembling Scholarly Communications: Histories, Infrastructures, and Global Politics of Open Access</i> has now been published by The MIT Press. It's available both in print to purchase and as a CC BY open-access download.</p>

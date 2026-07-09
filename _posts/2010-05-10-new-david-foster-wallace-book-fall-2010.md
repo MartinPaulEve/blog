@@ -15,6 +15,7 @@ tags:
 title: New David Foster Wallace book Fall 2010
 wordpress_id: 16
 wordpress_url: http://new.martineve.com/?p=16
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlu4bou2h"
 ---
 
 <div class='downloadFlyout'>

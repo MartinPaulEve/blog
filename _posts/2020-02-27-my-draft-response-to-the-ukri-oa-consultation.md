@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/egjw6-x6v48
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 title: My draft response to the UKRI OA consultation
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6hpgzk2i"
 ---
 
 Some of my draft responses to the [UKRI OA consultation](https://www.ukri.org/files/funding/oa/open-access-review-consultation/).

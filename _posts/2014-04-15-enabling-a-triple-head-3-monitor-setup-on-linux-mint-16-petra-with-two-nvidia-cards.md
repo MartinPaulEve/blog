@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/djfyg-jmn80
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -19,6 +19,7 @@ title: Enabling a triple-head (3 monitor) setup on Linux Mint 16 ("Petra") with 
   Nvidia cards
 wordpress_id: 3078
 wordpress_url: https://www.martineve.com/?p=3078
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfdktxx2t"
 ---
 
 <p>OK, so this was utterly painful and I needed to share what finally worked for me. I have 2 x Nvidia GTX480 cards. I have 3 x monitors. I wanted to be able to run all three off the same box, using it as a single X Screen (i.e. so I can move windows between screens and it acts correctly). No matter what I tried, it wouldn't let me do so with the proprietary driver. I <a href="http://unix.stackexchange.com/questions/123862/how-can-i-get-xrandr-to-detect-both-nvidia-cards-2-x-gtx480-triple-head">asked on Stack Exchange</a> and got somewhere closer. Here's what worked:</p>

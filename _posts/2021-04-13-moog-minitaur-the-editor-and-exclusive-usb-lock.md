@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/ghsyh-2gc97
 image:
   feature: header_moog.png
 layout: post
-ogImage: header_moog.png
+ogImage: images/header_moog.png
 title: 'Moog Minitaur: the editor and exclusive USB lock'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3hbque2q"
 ---
 
 I love my Moog Minitaur synth. It's a great little bass station that packs a punch. However, I have been facing some issues using its full functionality.

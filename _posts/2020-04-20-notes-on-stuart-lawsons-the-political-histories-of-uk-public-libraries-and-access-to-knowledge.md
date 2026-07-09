@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/fy62v-v9342
 image:
   feature: header_library.png
 layout: post
-ogImage: header_library.png
+ogImage: images/header_library.png
 title: On ‘The Political Histories of UK Public Libraries and Access to Knowledge’
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m673uoh2a"
 ---
 
 This week for our [COPIM project](https://www.copim.ac.uk/) reading group we are turning to the forthcoming  Stuart Lawson, ‘The Political Histories of UK Public Libraries and Access to Knowledge’, in _Reassembling Scholarly Communications: Histories, Infrastructures, and Global Politics of Open Access_, ed. by Martin Paul Eve and Jonathan Gray (Cambridge, MA: The MIT Press, 2020), pp. 161–72. This work is not yet published but will be openly accessible when it is, [hopefully later this year](https://mitpress.mit.edu/books/reassembling-scholarly-communications). The work is also derived from Stuart's [Ph.D. thesis, which is openly accessible](https://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.774255).

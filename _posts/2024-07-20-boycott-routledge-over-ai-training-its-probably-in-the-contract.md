@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/xnwmv-fpe86
 image:
   feature: header_ai.png
 layout: post
-ogImage: header_ai.png
+ogImage: images/header_ai.png
 title: Boycott Routledge over AI training? It's probably in the contract...
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwry33m2i"
 ---
 
 There's a movement at the moment on social media where angry academic authors are gathering with the intent to boycott Routledge, who are apparently distributing academic works for training in AI.

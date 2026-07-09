@@ -11,7 +11,7 @@ doi: https://doi.org/10.59348/zddvq-4dj76
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -20,6 +20,7 @@ title: 'Publication: The Means of (Re-)Production: Expertise, Open Tools, Standa
   and Communication'
 wordpress_id: 3013
 wordpress_url: https://www.martineve.com/?p=3013
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfpe7352p"
 ---
 
 <p>Eve, Martin Paul. 2014. "The Means of (Re-)Production: Expertise, Open Tools, Standards and Communication." Publications 2, no. 1: 38-43.</p>

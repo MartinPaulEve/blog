@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/bf1js-jhp50
 image:
   feature: header_laptop.png
 layout: post
-ogImage: header_laptop.png
+ogImage: images/header_laptop.png
 title: 'How to install Ubuntu on the HP Dragonfly Elite (hint: disable Optane)'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m4pln3g2h"
 ---
 
 There's a prominent post at Ars Technica called [Linux on laptops: Ubuntu 19.10 on the HP Dragonfly Elite G1](https://arstechnica.com/gadgets/2020/01/linux-on-laptops-ubuntu-19-10-on-the-hp-dragonfly-elite-g1/) that implies that it is easy and straightforward to install Ubuntu on the HP Dragonfly Elite laptop. The post is correct that releases later than 19.10 have full kernel support for nearly all of the laptop's hardware, but there are some very important caveats to the install.

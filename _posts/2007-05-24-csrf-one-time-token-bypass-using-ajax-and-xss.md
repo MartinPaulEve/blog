@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/xk536-c7k02
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -20,6 +20,7 @@ tags:
 title: (C)SRF one-time token bypass using AJAX and XSS
 wordpress_id: 276
 wordpress_url: http://pro.grammatic.org/post-csrf-onetime-token-bypass-using-ajax-and-xss-23.aspx
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnhgt7e2e"
 ---
 
 <p>This morning I knocked up some proof of concept code to illustrate the retrieval of one-time authentication tokens. The situation in which this is handy is when a site follows best practices and implements a one-time authentication token, but is vulnerable to a XSS attack. A one-time authentication token is a hidden value implanted into either a link or form. For example, Digg's one-time token looks like this:</p>

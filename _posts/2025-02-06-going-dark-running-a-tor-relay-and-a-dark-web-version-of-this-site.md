@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/p54v6-ses57
 image:
   feature: header_tor.png
 layout: post
-ogImage: header_tor.png
+ogImage: images/header_tor.png
 title: 'Going Dark: Running a Tor relay and a dark web version of this site'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwbonkj2a"
 ---
 
 Dark times at the moment. Authoritarianism is on the rise everywhere and censorship regimes become ever more common. None of the material on my blog is particularly sensitive. Some two decades out-of-date information security stuff, posts about English literature, some posts about health, and posts about scholarly communication. It's not really the kind of stuff that will get me in trouble. Nonetheless, I am troubled by the rise of privacy invading regimes worldwide and I wanted to do something about this.

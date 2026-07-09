@@ -131,6 +131,7 @@ tags:
 title: Thomas Pynchon critical bibliography Zotero group
 wordpress_id: 33
 wordpress_url: http://new.martineve.com/?p=33
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmclhw42s"
 ---
 
 <p>    <img src="/images/uploads/2010/03/34-1-200x300.jpg" width="420" height="630"/></p>

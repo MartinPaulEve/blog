@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/az6ev-rvh24
 image:
   feature: header_pangolin.png
 layout: post
-ogImage: header_pangolin.png
+ogImage: images/header_pangolin.png
 title: Pangolin, Newt, Gerbil and custom ports
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvqzpul2p"
 ---
 
 I have been playing around with [Pangolin](https://github.com/fosrl/pangolin), a really nice management system for exposing internal services over HTTPS.

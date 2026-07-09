@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/zrcq8-6vn58
 image:
   feature: header_warez.png
 layout: post
-ogImage: header_warez.png
+ogImage: images/header_warez.png
 title: Citing Pirate Artifacts
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2dancc2h"
 ---
 
 By necessity, the bibliography to [my book on Warez](https://punctumbooks.com/titles/warez-the-infrastructure-and-aesthetics-of-piracy/) must cite a number of unconventional works that are not covered by standard style manuals. In particular, I need to make reference to NFO files that contain ASCII art and other iNFOrmation about the Warez Scene. As noted more extensively in the introduction, one of the primary sources upon which I draw is the _DeFacto2_ archive.

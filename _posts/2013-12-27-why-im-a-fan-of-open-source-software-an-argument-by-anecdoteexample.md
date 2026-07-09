@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/ad674-42658
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -19,6 +19,7 @@ tags:
 title: 'Why I''m a fan of open source software: An argument by anecdote/example'
 wordpress_id: 2967
 wordpress_url: https://www.martineve.com/?p=2967
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mftd6nh2t"
 ---
 
 <p>An argument by anecdote.</p>

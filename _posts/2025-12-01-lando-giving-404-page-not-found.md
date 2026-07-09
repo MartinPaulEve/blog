@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/6k713-x2m53
 image:
   feature: header_geek.png
 layout: post
-ogImage: header_geek.png
+ogImage: images/header_geek.png
 title: Lando giving '404 page not found'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvpxjaj2t"
 ---
 
 I spent the morning bashing my head against a brick wall, trying to sort out a problem with my Lando install. This worked on Friday, but by Monday was misbehaving. I hadn't touched the codebase, but every time I hit the primary URL, I got: "404 page not found".

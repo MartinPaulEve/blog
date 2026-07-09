@@ -9,13 +9,14 @@ doi: https://doi.org/10.59348/w3z9z-97p33
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 tags:
 - regex
 - programming
 - writing
 title: Fix some of your writing tics with a bit of technology
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mce7dpe2n"
 ---
 
 Everyone, when they are writing, can find themselves falling into bad habits. This is because, as my friend Liz Sage pointed out to me, when you are writing, you're trying to express thought. It's a writerly activity for you, the author, not thinking wholly of the reader. Examples of things that I do include repeating the same word in a sentence and using split infinitives. (I don't think there's actually much wrong with split infinitives in most cases. Academic editors probably will, though.)

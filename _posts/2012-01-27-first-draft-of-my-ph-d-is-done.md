@@ -32,6 +32,7 @@ tags:
 title: First draft of my Ph.D is done!
 wordpress_id: 1878
 wordpress_url: https://www.martineve.com/2012/01/27/first-draft-of-my-ph-d-is-done/
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mixkp6b2e"
 ---
 
 <p>Friday, 27th January 2012: 4pm. 2 years and four months into my efforts. The first draft of my Ph.D is now done! I have 81,000 words excluding introduction and conclusion, so some cutting needs to be done. Editing this is going to take at least a couple of months (some parts need beefing up, others paring down), by my estimates, but my last AHRC funding installment arrives in June, so I'm feeling confident. I will, of course, continue to read, amend, nuance and generally polish the work!</p>

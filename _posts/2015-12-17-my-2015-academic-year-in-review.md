@@ -11,6 +11,7 @@ tags:
 - personal
 - academia
 title: My 2015 academic year in review
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbyo6q72i"
 ---
 
 This year was a good year for me in terms of academia. I started my job as a Senior Lecturer at Birkbeck, I launched the Open Library of Humanities with a substantial Mellon grant, and I finished writing two books that I hope will be published next year (_Password_ and _The Anxiety of Academia_). I also began supervising some really great Ph.D. students, including Stuart Lawson on the politics of open access. Here's a breakdown of what came out this year. Obviously, given publishing timescales, this is less a reflection on what I did (apart from conferences) and more the fact that it just came out. I still derive some satisfaction from seeing it written down, though!

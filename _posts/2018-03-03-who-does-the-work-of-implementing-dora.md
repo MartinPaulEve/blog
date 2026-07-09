@@ -4,6 +4,7 @@ date: 2018-03-03
 doi: https://doi.org/10.59348/g5akr-zdy23
 layout: post
 title: Who does the work of implementing DORA?
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7y4s6a2h"
 ---
 
 Thinking aloud. The [San Francisco Declaration on Research Assessment (DORA)](https://sfdora.org/) is undoubtedly a good idea, in my view. The thrust of the declaration states that research should only be assessed at the unit level, rather than at the level of the journal/venue. Certainly, I wish DORA was better worded to include more strongly disciplines where the specific measure of Impact Factor isn't used (though it disavows "journal-based metrics" more widely). But nonetheless the spirit, if not quite the letter, of the declaration is sound. Good work can appear anywhere. Bad work can appear in top venues.

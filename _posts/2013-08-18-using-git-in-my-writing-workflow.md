@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/jm453-j8362
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -19,6 +19,7 @@ tags:
 title: Using git in my writing workflow
 wordpress_id: 2808
 wordpress_url: https://www.martineve.com/?p=2808
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mges67k2u"
 ---
 
 <p>My two spheres of interest -- difficult works of English literature and computer programming (OK, scholarly communications and publishing, also. OK, there are lots more spheres of interest) -- only intersect occasionally. However, in recent days I have been toying with the idea of using git to version control my writing. This isn't a new concept -- I've seen posts on the <a href="http://chronicle.com/blogs/profhacker/tag/git">Chronicle of HE about it</a> -- but I've yet to actually try it.</p>

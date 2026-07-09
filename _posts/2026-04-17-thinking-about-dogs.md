@@ -8,8 +8,9 @@ image:
   feature: dogs.jpg
   title: An image of two dogs running towards the camera
 layout: post
-ogImage: dogs.jpg
+ogImage: images/dogs.jpg
 title: Thinking About Dogs
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7luwbm5m2i"
 ---
 
 Our rescue dog, Luka, is a very traumatised soul. He spent eight years living in a shelter, with no home comforts, in the harsh Bosnian climate. He is a constantly anxious boy. Over the course of three years, we have managed to calm him down, to make him into a happy dog, who has a home and is bonded with my wife, Helen (and, to some much lesser extent, me). People have remarked on what a different dog he is, now. He is sociable. He is bouncy and happy. He goes to training classes and does well there, as well as having a whale of a time.

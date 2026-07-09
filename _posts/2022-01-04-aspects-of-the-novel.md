@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/fcf2b-sky06
 image:
   feature: header_enc.png
 layout: post
-ogImage: header_enc.png
+ogImage: images/header_enc.png
 title: Aspects of the Novel
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzw4k522f"
 ---
 
 As part of my 2021 research leave project, I am reading various encyclopaedias of the novel. As there is no way I could remember all that I have read, I have decided to make some notes in publicly accessible blog format. This post will serve as the coordinating index. The notes on these pages are much condensed and provide some indicative readings on the subject matter but by no means cover the full breadth of the encyclopaedias themselves. I recommend consulting Logan, Peter Melville, Olakunle George, Susan Hegeman, and Efraín Kristal, eds., _The Encyclopedia of the Novel_ (Malden, MA: Wiley-Blackwell, 2011) for a fuller account, as well as the secondary sources listed on each page.

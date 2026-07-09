@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/k1kqn-p5a05
 image:
   feature: header_software.png
 layout: post
-ogImage: header_software.png
+ogImage: images/header_software.png
 title: Subscriptions for software and commodity fetishism
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3im7k32n"
 ---
 
 I was thinking idly today -- and probably in a wildly unoriginal way -- about some of the disputes about subscriptions to software and the politics of this model.

@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/m680v-kvh23
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags: []
@@ -18,6 +18,7 @@ title: 'Forthcoming book: Open Access and the Humanities: Contexts, Controversie
   and the Future (Cambridge UP, 2014)'
 wordpress_id: 3185
 wordpress_url: https://www.martineve.com/?p=3185
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mew5cup2o"
 ---
 
 <p>I'm extremely pleased to be able to say that my next book is entitled <i>Open Access and the Humanities: Contexts, Controversies and the Future</i> and it will be published by Cambridge University Press in November 2014, with a preface by the esteemed <a href="http://cyber.law.harvard.edu/people/psuber">Peter Suber</a>. While print copies and versions for e-readers will be available for purchase, a PDF version of the book will be itself available open access under a CC BY-SA 4.0 license. Any royalties that I earn from sales of the book will go to <a href="http://www.arthritisresearchuk.org">Arthritis Research UK</a>.</p>

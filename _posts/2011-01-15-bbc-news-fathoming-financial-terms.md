@@ -16,6 +16,7 @@ tags:
 title: 'BBC News: fathoming financial terms'
 wordpress_id: 574
 wordpress_url: http://www.martineve.com/?p=574
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkvg4x62a"
 ---
 
 <p><a href="http://www.bbc.co.uk/news/business-12195319"><img src="http://www.martineve.com/wp-content/uploads/2011/01/mandj-300x167.png" alt="Martin Paul Eve and Jake Wilson at the British Library" title="BritishLibraryMartinandJake" width="300" height="167" class="alignnone size-medium wp-image-575" style="margin-top:0px;"/></a></p>

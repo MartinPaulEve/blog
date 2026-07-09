@@ -9,7 +9,7 @@ doi: https://doi.org/10.59348/xge2x-9qq66
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -17,6 +17,7 @@ tags:
 title: 'SXSW Panel: Vote to get Open Access on the agenda'
 wordpress_id: 2820
 wordpress_url: https://www.martineve.com/?p=2820
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgdkwa42h"
 ---
 
 <p>So, in conjunction with the amazing people at South End Press -- a group of people unsurpassed in my esteem -- I'm proud to be part of a proposal for the SXSW conference this year. However, we need you to <a href="http://panelpicker.sxsw.com/vote/23623">VOTE FOR OUR PANEL</a> at PanelPicker.</p>

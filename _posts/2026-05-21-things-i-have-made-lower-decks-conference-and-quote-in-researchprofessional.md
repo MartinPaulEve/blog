@@ -8,9 +8,10 @@ image:
   feature: microphone.png
   title: An image of a microphone
 layout: post
-ogImage: microphone.png
+ogImage: images/microphone.png
 title: Things I have made (KC IDMS in place, Lower Decks conference, and quote in
   ResearchProfessional)
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lutritx2u"
 ---
 
 Some days I look at the things I've done and think: when I am gone there will be no trace of me, and all that I have worked upon will over time turn to dust. This may well still be true, but there are other days, like today, when I feel pretty good about the world and the things that I am working to make within it.

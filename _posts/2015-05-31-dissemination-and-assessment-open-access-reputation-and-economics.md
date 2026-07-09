@@ -8,12 +8,13 @@ doi: https://doi.org/10.59348/fv8ch-rjm75
 image:
   feature: post_images/GrumpyCat.jpeg
 layout: post
-ogImage: post_images/GrumpyCat.jpeg
+ogImage: images/post_images/GrumpyCat.jpeg
 published: true
 tags:
 - talks
 - abstracts
 title: 'Dissemination and Assessment: Open Access, Reputation and Economics'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcrofa42h"
 ---
 
 The abstract for my talk at Congress 2015, in Ottawa:

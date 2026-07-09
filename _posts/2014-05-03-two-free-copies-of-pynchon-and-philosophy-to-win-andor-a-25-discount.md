@@ -17,6 +17,7 @@ tags:
 title: Two free copies of "Pynchon and Philosophy" to win and/or a 25% discount
 wordpress_id: 3114
 wordpress_url: https://www.martineve.com/?p=3114
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mf4xvtr2s"
 ---
 
 <p>OK, so, as I am <i>sure</i> you know, this coming Thursday is <a href="http://www.pynchoninpublic.com">Pynchon in Public Day</a>, when we celebrate the birthday of one of America's greatest (and most invisible) living novelists by reading his works in public and posting photos. In order to mark this event, my publisher, Palgrave Macmillan, has extremely kindly donated two copies of the book to be given away to the two entries posted to the #Pynchon2014 or #PynchonInPublic hashtags on Twitter that I deem most Pynchonian and/or amusing!</p>

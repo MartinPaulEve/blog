@@ -72,7 +72,7 @@ doi: https://doi.org/10.59348/q61ec-bg742
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -82,6 +82,7 @@ tags:
 title: Mendeley Android client; first preview and OAuth problem
 wordpress_id: 490
 wordpress_url: http://www.martineve.com/?p=490
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlgp3g62t"
 ---
 
 <p>In the last day before I head off for a bit of a Christmas break, I decided to take up a recent proposition to start work on an Android client for Mendeley. So far, in a couple of hours, I've got as far as implementing the OAuth provider, so you can start the application, log in to Mendeley and it will ask you to authorize the application to access your Mendeley account.</p>

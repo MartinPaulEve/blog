@@ -16,6 +16,7 @@ tags:
 title: The Future of Peer Review
 wordpress_id: 2628
 wordpress_url: https://www.martineve.com/?p=2628
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgwca5p2r"
 ---
 
 <p>Yesterday, Thursday the 14th of March 2013, I had the great pleasure of speaking at the University of Sussex to an entirely mixed audience of humanists, scientists, librarians, OA enthusiasts and OA sceptics on the topic of the Future of Peer Review. The advantage of being too busy to practice a talk was that I felt it would be wise to script it. That may not sound like an advantage, but it does mean that, in addition to the video recording that I believe is going up on the Sussex site and <a href="http://prezi.com/gvoijttzwepl/the-future-of-peer-review/?kw=view-gvoijttzwepl&rc=ref-1218260">the Prezi</a>, I am able to post a transcript of my thoughts here for those who wish to read them. This piece assumes current practice in the humanities to be double-blind review and... here it is:</p>

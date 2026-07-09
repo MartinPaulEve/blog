@@ -33,6 +33,7 @@ title: 'David Leigh and Luke Harding''s WikiLeaks: Inside Julian Assange''s War 
   Secrecy'
 wordpress_id: 739
 wordpress_url: https://www.martineve.com/?p=739
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkqpdrj2e"
 ---
 
 <p>For all the pains they take throughout to emphasise the vast quantity of editorial resources deployed in the redaction and publication of the most sensational scoops of 2010, the impression one gets reading David Leigh and Luke Harding's <i>WikiLeaks: Inside Julian Assange's War on Secrecy</i> is that some of those editors should have been deployed upon the book itself. It has, obviously from the timescale, been put together in a rush. The same quotations are trotted out to demonstrate the same points, although in some cases, such as the authors' threefold repetition of the embassy cable on Gadaffi's “luxuriant blonde nurse”, the purpose remains unclear. Furthermore, much of the book is preoccupied with triumphalist trumpet playing from the <i>Guardian</i> camp. It verges on libellous, at times. It demonstrates a clear weakness in the field of technical explication. The appendix is merely a reprint of a selection of already widely disseminated cables. Why, then, is it still such compelling reading?</p>

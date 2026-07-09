@@ -88,6 +88,7 @@ tags:
 title: Prisoner Rights, Overcriminalisation and Reform in Democracy
 wordpress_id: 795
 wordpress_url: https://www.martineve.com/?p=795
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkl4svd2h"
 ---
 
 <p><img src="https://www.martineve.com/wp-content/uploads/2011/02/46442359_cf7bc5c5d2_o.jpg" alt="Prison Cell" title="Prison Cell" style="width:750px" class="alignnone size-full wp-image-796" /><br />

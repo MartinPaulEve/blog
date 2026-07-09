@@ -15,6 +15,7 @@ tags:
 - books
 - double dipping
 title: On open-access books and “double dipping”
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdbfb6c2q"
 ---
 
 <p>In a hybrid open-access environment, “double dipping” refers to cases where a publisher sells their services to an author (author-pays open access) while simultaneously selling the end product to libraries (a subscription). Typically, in the journal world, this happens when an open-access article appears in a subscription journal (for which the author pays) but the publisher does not lower the cost of subscriptions to the journal. In other words, they receive the same amount of revenue from subscriptions while also charging authors. They are paid twice, hence the term “double dipping”.</p>

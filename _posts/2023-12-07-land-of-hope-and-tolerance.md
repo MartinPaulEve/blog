@@ -4,6 +4,7 @@ date: 2023-12-07
 doi: https://doi.org/10.59348/afx4t-pqv28
 layout: post
 title: Land of hope and tolerance
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lxgjmxj2h"
 ---
 
 A letter to the Editor of the _Guardian_, who declined to publish it.

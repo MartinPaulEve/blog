@@ -12,7 +12,7 @@ doi: https://doi.org/10.59348/ex3tn-g7q84
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -24,6 +24,7 @@ tags:
 title: Speaking of Open Access...
 wordpress_id: 165
 wordpress_url: http://www.martineve.com/?p=165
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlr3nyr2o"
 ---
 
 <p><a rel="attachment wp-att-177" href="http://www.martineve.com/2010/09/28/speaking-of-open-access/ioaw/"><img class="alignleft size-full wp-image-177" title="International Open Access Week" src="http://www.martineve.com/wp-content/uploads/2010/09/IOAW.jpg" alt="International Open Access Week" width="120" height="240" /></a>This is a quick post to point out that I will be speaking at the University of Sussex's contribution to <a href="http://www.openaccessweek.org">International Open Access Week</a> on the 20th of October 2010.</p>

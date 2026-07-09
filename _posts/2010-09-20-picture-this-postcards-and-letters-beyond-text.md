@@ -30,6 +30,7 @@ tags:
 title: 'Picture This: Postcards and Letters Beyond Text'
 wordpress_id: 157
 wordpress_url: http://www.martineve.com/?p=157
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlrb6nd2e"
 ---
 
 <p>Another post plugging a conference I am involved with, I'm afraid!</p>

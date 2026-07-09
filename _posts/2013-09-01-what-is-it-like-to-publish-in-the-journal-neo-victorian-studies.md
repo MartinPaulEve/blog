@@ -11,7 +11,7 @@ doi: https://doi.org/10.59348/9pesc-hbw37
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -20,6 +20,7 @@ tags:
 title: What is it like to publish in the journal 'Neo-Victorian Studies'?
 wordpress_id: 2840
 wordpress_url: https://www.martineve.com/?p=2840
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgcib472t"
 ---
 
 <p>Short answer: very good.</p>

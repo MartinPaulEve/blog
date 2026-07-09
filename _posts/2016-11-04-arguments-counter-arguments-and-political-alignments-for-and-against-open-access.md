@@ -5,9 +5,10 @@ doi: https://doi.org/10.59348/q1q60-tnn26
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 title: Some of the arguments, counter-arguments, and political alignments for and
   against open access
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7maw346f2e"
 ---
 
 As a result of a discussion today, I thought it worth writing out some of my observations/thoughts on a few of the arguments, counter-arguments, and political alignments for and against open access. What, in other words, is the scope of OA? Should it be for work for which authors cannot reasonably expect to make a remuneration by direct sales alone? Or should it be for all educational resources, since education is too valuable to have a price tag?

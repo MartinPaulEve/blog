@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/rv0f6-8n391
 image:
   feature: blacklock.png
 layout: post
-ogImage: blacklock.png
+ogImage: images/blacklock.png
 title: 'How to read a (blank) page: on redaction in contemporary fiction'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7dxcwe2r"
 ---
 
 I have a new article out in _Critique: Studies in Contemporary Fiction_ on [how to read redaction in contemporary fiction](https://doi.org/10.1080/00111619.2019.1568960).

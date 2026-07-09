@@ -30,7 +30,7 @@ doi: https://doi.org/10.59348/965j1-qbe72
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -39,6 +39,7 @@ tags:
 title: 'Mendeley for Android: screenshot of collection display'
 wordpress_id: 540
 wordpress_url: http://www.martineve.com/?p=540
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkwte772i"
 ---
 
 <p>Here's a screenshot of today's milestone on Mendeley for Android; collection display running in the emulator:</p>

@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/75sxs-sqj29
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -18,6 +18,7 @@ tags:
 title: HttpOnly cookies in .NET 2.0
 wordpress_id: 266
 wordpress_url: http://pro.grammatic.org/post-httponly-cookies-in-net-20-34.aspx
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnbkop32e"
 ---
 
 <p>This is a well known trick that I just wanted to share as it is so crucial in preventing effective XSS attacks in Internet Explorer (and hopefully soon FireFox).</p>

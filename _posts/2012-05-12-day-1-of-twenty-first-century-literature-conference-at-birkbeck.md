@@ -17,6 +17,7 @@ tags:
 title: Day 1 of Twenty-First-Century Literature Conference at Birkbeck
 wordpress_id: 2083
 wordpress_url: https://www.martineve.com/?p=2083
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mifmj5j2e"
 ---
 
 <p><script src="http://storify.com/martin_eve/day-1-of-twenty-first-century-literature-conferenc.js"></script><br />

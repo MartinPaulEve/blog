@@ -11,7 +11,7 @@ doi: https://doi.org/10.59348/gk3hk-ek144
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -22,6 +22,7 @@ tags:
 title: 'Upcoming Workshop: Inbox zero and tech-task lists: getting things done'
 wordpress_id: 1162
 wordpress_url: https://www.martineve.com/?p=1162
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkbkrxi2f"
 ---
 
 <p>Details of an upcoming researcher workshop I am running on the 28th of June, from 2-4pm at the University of Sussex:</p>

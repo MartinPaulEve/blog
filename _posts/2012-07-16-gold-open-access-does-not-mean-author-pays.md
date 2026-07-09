@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/5178y-47y78
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -18,6 +18,7 @@ tags:
 title: 'Gold Open Access does **NOT** mean: "author pays"'
 wordpress_id: 2225
 wordpress_url: https://www.martineve.com/?p=2225
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mi647oc2a"
 ---
 
 <p>I've had two people now come back to me on Twitter saying that Gold Open Access, "by definition", means that the author pays. It does not. Much of the terminology around Open Access was proposed by Peter Suber and <a href="http://www.earlham.edu/~peters/fos/overview.htm">here's what he has to say about it</a> (I've bolded the relevant portions):</p>

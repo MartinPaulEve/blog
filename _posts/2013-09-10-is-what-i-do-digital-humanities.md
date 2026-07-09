@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/wr3wm-hpk40
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -21,6 +21,7 @@ tags:
 title: Is what I do "digital humanities"?
 wordpress_id: 2891
 wordpress_url: https://www.martineve.com/?p=2891
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgbhvud2h"
 ---
 
 <p>As a scholar in a literature department, I end up doing some very odd things. Among these is the development of various pieces of software for the <a href="https://github.com/MartinPaulEve/meTypeset">typesetting and production of scholarly articles</a>. I'm also going to be co-supervising some <a href="http://www.lincoln.ac.uk/home/course/cmsresms/fundedplace/">computer science MSc places</a>. This digital inflection then leads me to wonder whether what I do should be termed "digital humanities". Does it matter?</p>

@@ -7,6 +7,7 @@ layout: post
 published: true
 tags: []
 title: In the beginning was the Word
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcvwfvz2q"
 ---
 
 There is no single cause of the problems with the economics of scholarly communications. The expectation that we can publish more and more research on the same, or lesser, budgets is one factor. The rise of profiteering commercial publishers is another. There is also a group of smaller other aspects, though, one of which I will discuss here.

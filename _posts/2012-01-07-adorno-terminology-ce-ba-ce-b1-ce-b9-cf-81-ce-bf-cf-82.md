@@ -18,6 +18,7 @@ tags:
 title: 'Adorno terminology: καιρος'
 wordpress_id: 1768
 wordpress_url: https://www.martineve.com/2012/01/07/adorno-terminology-%ce%ba%ce%b1%ce%b9%cf%81%ce%bf%cf%82/
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mj2ofh42h"
 ---
 
 <p>"His work is the extrapolation of a negative καιρος" (Adorno, Theodor W. Aesthetic Theory. Edited by Gretel Adorno and Rolf Tiedemann. Translated by Robert Hullot-Kentor. London: Continuum, 2004. p. 33.) -- in reference to Beckett</p>

@@ -8,12 +8,13 @@ doi: https://doi.org/10.59348/8092n-a8678
 image:
   feature: post_images/APCGraph.png
 layout: post
-ogImage: post_images/APCGraph.png
+ogImage: images/post_images/APCGraph.png
 published: true
 tags:
 - APCs
 - Open Access
 title: APCs and Uneven Distribution
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcof2d42r"
 ---
 
 The things that concern me about article processing charges (APCs) for open access are not those surrounding quality control, "predatory publishers" or so forth. Given that we want the services of publishers, their labour costs must be met. If we want to have open access and then the material can't be sold, an author-side payment mechanism looks the most obvious.

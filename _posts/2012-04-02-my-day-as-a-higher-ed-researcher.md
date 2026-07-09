@@ -36,6 +36,7 @@ tags:
 title: My day as a Higher Ed researcher
 wordpress_id: 2003
 wordpress_url: https://www.martineve.com/?p=2003
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mijbyx72r"
 ---
 
 <p>A growing criticism mounted by students/parents of students is the trite argument that there are too few contact hours. Anybody who works as a researcher/lecturer/tutor can demolish this argument in two seconds flat, but the problem now seems to be extending to HR managers, who apparently think that their staff only work about 1/2 the year (ie. when students are around). Let me point something out. One of the reasons that people teach in HE is because <i>they know stuff</i>. They know <i>a lot</i> of stuff. It may surprise you to know, though, that they weren't born knowing stuff; they had to invest quite a significant amount of time learning, as the Twitter hashtag that people are using today "#dayofhighered" shows. Today was one of my research days. Here's what I did. I'm also going to include Sunday (I worked Saturday too) as it was spillover from Monday's work:</p>

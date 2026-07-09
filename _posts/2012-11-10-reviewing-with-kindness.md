@@ -15,6 +15,7 @@ tags:
 title: Reviewing with Kindness
 wordpress_id: 2487
 wordpress_url: https://www.martineve.com/?p=2487
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhmy6lt2h"
 ---
 
 <p>In the past few weeks I've had several peer review requests and it has always struck me that it is far too easy to come across as a heartless bastard when blind reviewing work. That's why I have decided to always be kind in my reviews, even when offering the harshest of criticism.</p>

@@ -82,6 +82,7 @@ title: '2012: Year of the PhD Completion / Guardian Higher Education Top 10 post
   of 2011'
 wordpress_id: 1714
 wordpress_url: https://www.martineve.com/?p=1714
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjbujvp2f"
 ---
 
 <p>A quick, perhaps egotistic, documentary post to note that the Guardian have published their <a href="http://www.guardian.co.uk/higher-education-network/blog/2011/dec/28/top-higher-education-blogs-2011">top 10 posts of 2011</a> and the piece I wrote with <a href="http://jennifermjones.net/">Jennifer M. Jones</a> made the cut.</p>

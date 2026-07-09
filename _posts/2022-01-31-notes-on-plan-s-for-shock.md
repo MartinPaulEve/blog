@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/5pxzv-x1864
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 title: Notes on 'Plan S for Shock'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzcsdts2a"
 ---
 
 These are my notes on Smits, Robert-Jan, and Rachael Pells, _Plan S for Shock_ (London: Ubiquity Press, 2022) <https://doi.org/10.5334/bcq>, originally taken on Twitter. They just constitute thoughts I had while reading the book, as opposed to any form of structural review.

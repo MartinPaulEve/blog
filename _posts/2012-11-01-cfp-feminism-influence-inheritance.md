@@ -15,6 +15,7 @@ tags:
 title: 'CFP: Feminism;; Influence;; Inheritance  '
 wordpress_id: 2466
 wordpress_url: https://www.martineve.com/?p=2466
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhnjvx22a"
 ---
 
 <p>23rd March 2013</p>

@@ -32,6 +32,7 @@ tags:
 title: 'Angry Young Academics: The "Directors'' Cut"'
 wordpress_id: 1184
 wordpress_url: https://www.martineve.com/?p=1184
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mka5viz2o"
 ---
 
 <p>After the success of the piece that I co-wrote with <a href="http://jennifermjones.net/">Jennifer M. Jones</a> for <a href="http://www.guardian.co.uk/higher-education-network/blog/2011/jun/15/univeristies-radical-academics-jobs-training">The Guardian</a> last week, I have had several requests to read the original version from which the final published version was excerpted.</p>

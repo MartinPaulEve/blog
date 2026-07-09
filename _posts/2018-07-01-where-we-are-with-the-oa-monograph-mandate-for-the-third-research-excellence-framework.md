@@ -5,9 +5,10 @@ doi: https://doi.org/10.59348/mc8fj-8wc83
 image:
   feature: ref.png
 layout: post
-ogImage: ref.png
+ogImage: images/ref.png
 title: Where we are with the OA monograph mandate for the Third Research Excellence
   Framework
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7sc2l42e"
 ---
 
 HEFCE, the precursor to Research England, [announced in 2016](http://www.hefce.ac.uk/media/HEFCE,2014/Content/Pubs/2016/201636/HEFCE2016_36.pdf) that “we intend to move towards an open-access requirement for monographs in the exercise that follows the next REF (expected in the mid-2020s).” This was published in 2016 as, “[g]iven the length of time required to produce and publish monographs,” HEFCE wished “to give due notice to the sector” by “signalling this now”.

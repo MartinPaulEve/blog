@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/4672d-gag42
 image:
   feature: header_encres.png
 layout: post
-ogImage: header_encres.png
+ogImage: images/header_encres.png
 title: Some incomplete notes on Les Encres noires au Moyen Âge
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2uc2gc2h"
 ---
 
 Some very incomplete and casual-in-tone notes on Monique, Zerdoun Bat-Yehouda. 2003. Les Encres Noires au Moyen Age. Paris: CNRS EDITIONS. Originally <a href="https://twitter.com/martin_eve/status/1417838099128782852">a Twitter thread</a>.

@@ -13,7 +13,7 @@ doi: https://doi.org/10.59348/v8qy8-b8f57
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -23,6 +23,7 @@ title: 'Conference Paper: "Autosubversive Practices in Academic Publishing", UKS
   2012-03-26'
 wordpress_id: 1378
 wordpress_url: https://www.martineve.com/?p=1378
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk3f2ks2i"
 ---
 
 <p>I'm very pleased to announce that I will speaking in the opening plenary session at the <a href="http://www.uksg.org/events/annualconference">UK Scholarly Group conference</a> on March the 26th, 2012 at the University of Glasgow. My paper will focus on the many problems in academic publishing through a typology of computer malware, arguing for a deep infection within the system.</p>

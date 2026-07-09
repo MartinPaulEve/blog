@@ -18,6 +18,7 @@ tags:
 title: Delay to Report on First UKPN Meeting
 wordpress_id: 952
 wordpress_url: https://www.martineve.com/?p=952
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkfekek2s"
 ---
 
 <p>This is a quick post to give an update on the report from the first meeting of the UK Pynchon Network.</p>

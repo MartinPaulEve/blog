@@ -19,6 +19,7 @@ tags:
 title: 'Adorno terminology: χωρισμός / chorismos'
 wordpress_id: 1730
 wordpress_url: https://www.martineve.com/2012/01/06/adorno-terminology-%cf%87%cf%89%cf%81%ce%b9%cf%83%ce%bc%e1%bd%b9%cf%82-chorismos/
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjbnuwp2i"
 ---
 
 <p>A quick note as I had to look it up and might save somebody else some time.</p>

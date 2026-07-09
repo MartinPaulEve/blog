@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/3nt5m-0av66
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -19,6 +19,7 @@ tags:
 title: The part of the open access debate that is, irritatingly, ignored
 wordpress_id: 2150
 wordpress_url: https://www.martineve.com/?p=2150
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7midtdzc2s"
 ---
 
 <p>In the wake of the Finch report, the Times Higher published a story entitled "<a href="http://www.timeshighereducation.co.uk/story.asp?sectioncode=26&storycode=420392&c=1">Finch's open-access cure may be 'worse than the disease'</a>" which was a response from so-called elite universities bulking at the cost of Open Access publishing.</p>

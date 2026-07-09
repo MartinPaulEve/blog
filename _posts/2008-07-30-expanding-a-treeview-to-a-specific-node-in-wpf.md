@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/ewvkq-hcr13
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -19,6 +19,7 @@ tags:
 title: Expanding a treeview to a specific node in WPF
 wordpress_id: 251
 wordpress_url: http://pro.grammatic.org/post-expanding-a-treeview-to-a-specific-node-in-wpf-51.aspx
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmpxmax2t"
 ---
 
 <p>I've been exploring the dark alleyways of the Windows Presentation Foundation this week and found no way in my trawlings of the net to expand a treeview to a specific node.</p>

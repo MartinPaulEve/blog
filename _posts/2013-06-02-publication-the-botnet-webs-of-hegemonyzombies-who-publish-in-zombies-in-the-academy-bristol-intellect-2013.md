@@ -17,6 +17,7 @@ title: 'Publication: ''The Botnet: Webs of Hegemony/Zombies Who Publish'', in Zo
   in the Academy (Bristol: Intellect, 2013)'
 wordpress_id: 2713
 wordpress_url: https://www.martineve.com/?p=2713
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgpyk2p2f"
 ---
 
 <p>This book chapter was written in 2010, but is finally out! Eve, Martin Paul, ‘The Botnet: Webs of Hegemony/Zombies Who Publish’, in Zombies in the Academy, ed. by Andrew Wheelan, Chris Moore, and Ruth Walker (Bristol: Intellect Press, 2013), pp. 103–117</p>

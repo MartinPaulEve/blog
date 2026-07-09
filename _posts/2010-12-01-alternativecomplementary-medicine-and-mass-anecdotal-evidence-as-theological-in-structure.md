@@ -18,6 +18,7 @@ title: Alternative/Complementary Medicine and Mass Anecdotal Evidence as Theolog
   in Structure
 wordpress_id: 445
 wordpress_url: http://www.martineve.com/?p=445
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlkmk2w2t"
 ---
 
 <p>This post is probably only good and original in the sense (allegedly) <a href="http://www.samueljohnson.com/goodorig.html">framed by Samuel Johnson</a>. Nevertheless, it came out of a discussion I had the other night and I found it interesting. I myself am extremely sceptical of the value provided by alternative/complementary medicine except where they have undergone scientific testing (see, for instance, <a href="http://www.arthritisresearchuk.org/arthritis_information/complementary_therapy.aspx">Arthritis Research UK's page</a>). My friend is not so sceptical and she put it to me that, as science is a process by which we reach consensus based upon repetition and observation, it is ignoring vital evidence when it explains the consensus of a different group (who en-masse proclaim, anecdotally, that something works) in terms of the placebo effect.</p>

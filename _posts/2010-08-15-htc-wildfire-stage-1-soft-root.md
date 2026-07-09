@@ -259,7 +259,7 @@ doi: https://doi.org/10.59348/vvye0-qq070
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -270,6 +270,7 @@ tags:
 title: HTC Wildfire Stage 1 Soft-Root
 wordpress_id: 8
 wordpress_url: http://new.martineve.com/?p=8
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlte6aa2r"
 ---
 
 <p><img src="https://www.martineve.com/wp-content/uploads/2010/08/superuser_request-300x225.jpg" width="500" height="375"/><br />

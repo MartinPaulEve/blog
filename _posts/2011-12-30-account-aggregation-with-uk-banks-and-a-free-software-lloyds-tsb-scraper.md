@@ -17,6 +17,7 @@ tags:
 title: Account aggregation with UK banks and a free software Lloyds TSB scraper
 wordpress_id: 1705
 wordpress_url: https://www.martineve.com/?p=1705
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjbxtd72q"
 ---
 
 <p>I thought it would be a good idea (New Year's resolutions and all that) to make sure I was on top of my finances this coming year. For that purpose, I began to investigate options to aggregate my accounts in one place. There were several online options, but I really disliked the idea of giving an online service my banking credentials. In fact, while Lloyds TSB claim this is alright ("2.7 We will not treat you as breaking your security obligations just because you use an aggregation service we do not provide.  A typical aggregation service allows you to view information about your accounts with different banks on a single website." <a href="http://www.lloydstsb.com/ib/registration_termsconditions.asp">http://www.lloydstsb.com/ib/registration_termsconditions.asp</a>) I still remain unconvinced. Other banks seem to outright prohibit it.</p>

@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/hq8a2-czf86
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 title: The real ethics of AI are about the labour underpinning it
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7rhfyz2a"
 ---
 
 Even as worldwide militaries develop autonomous killer robots, when we think of the ethics of AI, we often turn to the Asimov principles:

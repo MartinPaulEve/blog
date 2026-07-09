@@ -8,12 +8,13 @@ doi: https://doi.org/10.59348/6b662-p4e06
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 tags:
 - OA
 - scholcomms
 title: 'An old tradition and a new technology: notes on why open access remains hard'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbtdwo42a"
 ---
 
 The Budapest Open Access Initiative statement begins: "An old tradition and a new technology have converged to make possible an unprecedented public good". The old tradition is the practice of scientists and scholars to publish their work without remuneration. The new technologies are the internet and the world wide web. It remains true that it is a conjunction of these elements that can make open access work in academia.

@@ -10,8 +10,9 @@ image:
   feature: license.jpg
   title: An image saying CC BY-NC-ND
 layout: post
-ogImage: license.jpg
+ogImage: images/license.jpg
 title: What is actually licensed in print/digital dual-licensed books?
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lusmv472t"
 ---
 
 I have recently published [a book chapter (on Shadow Libraries)](https://dhdebates.gc.cuny.edu/read/critical-infrastructure-studies-and-digital-humanities/section/f4451084-a3bd-4a36-860d-f3a14e17ad0c#ch06) in [a very fine collection](https://dhdebates.gc.cuny.edu/read/critical-infrastructure-studies-and-digital-humanities/section/d01b113d-2da5-48f1-be0e-f3c50392f1ad#cvi) that was published in print in January and digitally just now, in June. The digital edition contractually promises to be open access with a CC BY-NC-ND license (yes, I know, the hardcore OA crowd are baying "that's not open access" etc. but I really liked the book concept and wanted to write for it etc.).

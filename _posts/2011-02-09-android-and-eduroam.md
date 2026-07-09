@@ -246,7 +246,7 @@ doi: https://doi.org/10.59348/draft-rmd94
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -257,6 +257,7 @@ tags:
 title: Android and Eduroam
 wordpress_id: 763
 wordpress_url: https://www.martineve.com/?p=763
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkpzkrt2n"
 ---
 
 <div><img src="https://www.martineve.com/wp-content/uploads/2011/02/eduroam-logo.gif" alt="Eduroam" title="eduroam-logo" width="601" height="260" class="alignnone size-full wp-image-764" /></div>

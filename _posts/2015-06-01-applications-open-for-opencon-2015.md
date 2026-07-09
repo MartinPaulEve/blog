@@ -11,7 +11,7 @@ image:
   feature: oa.png
 layout: post
 link: http://opencon2015.org/blog/opencon-2015-applications-are-open
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -20,6 +20,7 @@ tags:
 - Internet
 - rights
 title: Applications now open for OpenCon 2015
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcqgsrt2p"
 ---
 
 Applications to attend OpenCon 2015 on November 14-16 in Brussels, Belgium are now open! The application is available on the OpenCon website at opencon2015.org/attend and includes the opportunity to apply for a travel scholarship to cover the cost of travel and accommodations. Applications will close on June 22nd at 11:59pm PDT.

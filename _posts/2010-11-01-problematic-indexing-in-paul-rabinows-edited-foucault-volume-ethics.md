@@ -20,6 +20,7 @@ tags:
 title: Problematic indexing in Paul Rabinow's edited Foucault volume, "Ethics"
 wordpress_id: 210
 wordpress_url: http://www.martineve.com/?p=210
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlpsbpa2r"
 ---
 
 <p>Just a brief scholarly note for the benefit of anybody reading Foucault's "What is Enlightenment", contained in Paul Rabinow's edited volume, "Ethics" (volume I). The index is incomplete and does not properly cover this article within the collection.</p>

@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/aqr47-ygx72
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 title: Questions about APC-free models
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mav2qyq2a"
 ---
 
 I'm here at the Kansas University conference on "Envisioning a world beyond Article/Book Processing Charges". One of the first things we were asked to do was a two-minute lightning talk on what we don't yet know about a world beyond APCs. I thought that I would share my questions here, for posterity:

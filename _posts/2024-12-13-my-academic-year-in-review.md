@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/esa9e-x0h81
 image:
   feature: header_2024.png
 layout: post
-ogImage: header_2024.png
+ogImage: images/header_2024.png
 title: My academic year in review
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwlx4e72f"
 ---
 
 Like most years, a mixed bag for me here. Kidney failure continues to be a truly challenging medical fiasco, with AV fistulas, overnight dialysis, hormone therapies, and much much more. I also continue to feel the severe difficulties of my rheumatoid arthritis, which required a hip replacement in April.

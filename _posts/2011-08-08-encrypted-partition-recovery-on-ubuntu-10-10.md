@@ -11,7 +11,7 @@ doi: https://doi.org/10.59348/4f2h4-t8865
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -22,6 +22,7 @@ tags:
 title: Encrypted Partition Recovery on Ubuntu 10.10
 wordpress_id: 1401
 wordpress_url: https://www.martineve.com/?p=1401
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk2w5do2t"
 ---
 
 <p>The other day I was installing Xubuntu 10.10 onto an old Mac G4 Powerbook and got the keyboard layout wrong. I had encrypted the entire disk and so, with the keyboard mapped entirely incorrectly ("j" was enter), I was unable to unlock the disk to continue.</p>

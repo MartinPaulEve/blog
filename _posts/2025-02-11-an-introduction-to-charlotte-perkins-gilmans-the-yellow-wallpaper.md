@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/132ez-7wz69
 image:
   feature: header_poetry.png
 layout: post
-ogImage: header_poetry.png
+ogImage: images/header_poetry.png
 title: An Introduction to Charlotte Perkins-Gilman's 'The Yellow Wallpaper'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwaizic2h"
 ---
 
 Among the works of fiction in the feminist canon, few are as celebrated as Charlotte Perkins-Gilman's “The Yellow Wallpaper”. This short story, or novella, depending on how you want to define those categories, details the abuse suffered by a woman in the supposed name of mental health, at the whim of her male “carers”. The story is now, as Catherine J. Golden notes, “among the most studied texts in the English-speaking world”. In this piece I aim to give you, firstly, a basic contextual background to Gilman, her life, her work and its interactions with various schools of feminism; secondly, a series of observations about the text that you can take forward for further discussion; and finally, an appreciation of the histories of madness that inform the story's backdrop.

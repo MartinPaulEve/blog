@@ -27,6 +27,7 @@ tags:
 title: 'The 8th Biennial Symbiosis Conference: Day 3'
 wordpress_id: 1216
 wordpress_url: https://www.martineve.com/?p=1216
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk7t3sj2o"
 ---
 
 <p>A quick roundup of goings on from the final day of the 8th Biennial Symbiosis Conference! Again, the summaries are potted and do great damage to the nuances of the originals, but are presented here for interest. Apologies to Elif Arrmbruster; my notes on your paper went walkies and so I felt unable to write up a review! Many thanks to Chris Gair for organizing this event, which was thoroughly enjoyable in every respect.</p>

@@ -72,6 +72,7 @@ tags:
 title: Judith Butler at Sussex on Arendt, Cohabitation, and the Dispersion of Sovereignty
 wordpress_id: 701
 wordpress_url: https://www.martineve.com/?p=701
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkqwbgo2a"
 ---
 
 <p><img src="https://www.martineve.com/wp-content/uploads/2011/02/IMAG0008-300x179.jpg" alt="Judith Butler at Sussex University" title="Judith Butler" width="300" height="179" class="alignnone size-medium wp-image-702" style="margin-top:0px;" /></p>

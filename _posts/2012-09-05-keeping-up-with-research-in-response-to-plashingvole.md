@@ -18,6 +18,7 @@ tags:
 title: Keeping up with Research (in response to @PlashingVole)
 wordpress_id: 2373
 wordpress_url: https://www.martineve.com/?p=2373
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhtmsdp2f"
 ---
 
 <p>Yesterday, the <a href="http://plashingvole.blogspot.co.uk/2012/09/a-stupid-question-for-super-researchers.html">Plashing Vole posted a request for tips on keeping up with research</a>. While I don't want to improperly place myself in the "super researchers" category, I thought I'd do a quick list of ways in which I keep abreast of new research.</p>

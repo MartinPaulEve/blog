@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/9rmf6-60g83
 image:
   feature: header_seance.png
 layout: post
-ogImage: header_seance.png
+ogImage: images/header_seance.png
 title: Creating a voice-activated AI responder in Python
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lxkbh342u"
 ---
 
 How do you solve a problem like a séance? With Python and GPT3, is my answer.

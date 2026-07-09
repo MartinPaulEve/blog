@@ -13,6 +13,7 @@ tags:
 - green paper
 - politics
 title: My response to the HE Green Paper
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbv3qwe2t"
 ---
 
 This post is the final in an [ongoing series](https://martineve.com/GreenPaper/) where I intend to develop my full _personal_ (_not_ institutional) response to the HE Green Paper. Comments are welcome to refine this.

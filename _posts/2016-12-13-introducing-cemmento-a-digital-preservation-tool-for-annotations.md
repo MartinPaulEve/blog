@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/arjxf-k7e88
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 title: 'Introducing Cemmento: A digital preservation tool for annotations'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7maqvjml2n"
 ---
 
 Annotation tools on the web are somewhat fragile. They depend upon complex XPath queries and other anchoring technologies to ensure that annotations are keyed to known positions.

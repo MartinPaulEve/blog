@@ -19,7 +19,7 @@ doi: https://doi.org/10.59348/7s19g-84e41
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -29,6 +29,7 @@ tags:
 title: String.fromCharCode Encoder
 wordpress_id: 279
 wordpress_url: http://pro.grammatic.org/post-stringfromcharcode-encoder-21.aspx
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mno7ewq2f"
 ---
 
 <p>Enter JavaScript in the box below and press "encode":<br/></p>

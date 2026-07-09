@@ -5,9 +5,10 @@ doi: https://doi.org/10.59348/cdms0-m6r33
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 title: 'A thought experiment: do we really care about the type of scholarly publishing
   entity?'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6oppsp2q"
 ---
 
 After last week's post on APCs, some further musings. Following Kathleen Fitzpatrick's [work on generous thinking](https://jhupbooks.press.jhu.edu/title/generous-thinking) and the importance of community for the academy, I was [advocating for the importance of the mission-driven nature of the publishers](/2019/09/19/the-problems-of-unit-costs-per-article/) that we choose infrastructurally to support.

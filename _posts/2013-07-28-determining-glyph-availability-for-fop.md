@@ -9,7 +9,7 @@ doi: https://doi.org/10.59348/6agph-pja34
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -18,6 +18,7 @@ tags:
 title: Determining glyph availability for FOP
 wordpress_id: 2782
 wordpress_url: https://www.martineve.com/?p=2782
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgggzox2f"
 ---
 
 <p>I've just spent the past hour grappling with getting FOP to render the Unicode glyph for a checkmark (U+2713) in PDF output from XSL:FO. I thought I'd share a few things I learnt along the way (that make me feel a bit silly for not knowing them already).</p>

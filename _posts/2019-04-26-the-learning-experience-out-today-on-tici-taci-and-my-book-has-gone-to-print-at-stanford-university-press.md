@@ -5,9 +5,10 @@ doi: https://doi.org/10.59348/f52m7-9xv73
 image:
   feature: TLE.png
 layout: post
-ogImage: TLE.png
+ogImage: images/TLE.png
 title: The Learning Experience out today on Tici Taci and my book has gone to print
   at Stanford University Press
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m72hl5p2q"
 ---
 
 I have a music release/EP out on Tici Taci records today, called _The Learning Experience_.

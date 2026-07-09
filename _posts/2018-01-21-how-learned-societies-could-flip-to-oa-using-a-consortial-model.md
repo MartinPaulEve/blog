@@ -5,9 +5,10 @@ doi: https://doi.org/10.59348/601p4-68d89
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 title: How Learned Societies Could Flip to Open Access, With No Author-Facing Charges,
   Using a Consortial Model
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7ypkk52i"
 ---
 
 Let's assume that we have a Learned Society that fulfills the following conditions:

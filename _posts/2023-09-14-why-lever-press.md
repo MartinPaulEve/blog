@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/v6fh6-3ex41
 image:
   feature: header_voyager.png
 layout: post
-ogImage: header_voyager.png
+ogImage: images/header_voyager.png
 title: Why Lever Press?
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lxmbpqu2h"
 ---
 
 My next book, tentatively titled _Star Trek: Voyager: Critical and Historical Approaches to Ethics, Politics, and the End of the 1990s_ is now under contract at Lever Press (title definitely needs some work). This, for me, is very exciting. An open-access press with an innovative funding model -- so there are no author-facing charges -- I am really pleased to be working with Lever.

@@ -5,9 +5,10 @@ doi: https://doi.org/10.59348/azkft-pdz07
 image:
   feature: Stemma.png
 layout: post
-ogImage: Stemma.png
+ogImage: images/Stemma.png
 title: Have you read David Mitchell's Cloud Atlas? If so, which of the two very different
   versions?
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mb4qbb72i"
 ---
 
 Today, my peer-reviewed journal article on the publishing history of the two substantially different versions of David Mitchell's _Cloud Atlas_ was published. You can <a href="http://doi.org/10.16995/olh.82">read the full article in all its open access glory at the <i>Open Library of Humanities</i></a>. There's also [a press release about the work](http://www.bbk.ac.uk/news/birkbeck-research-uncovers-publishing-problems-in-popular-contemporary-fiction) on Birkbeck's main site. The Guardian has also run [a great article with additional comments from David Mitchell](https://www.theguardian.com/books/2016/aug/10/cloud-atlas-astonishingly-different-in-us-and-uk-editions-study-finds).

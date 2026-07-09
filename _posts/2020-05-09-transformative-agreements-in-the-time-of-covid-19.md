@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/ms0nx-m3890
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 title: Transformative agreements in the time of COVID-19
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5qzmc32i"
 ---
 
 Transformative agreements for OA are all the rage at the moment. Plan S compliance beckons and early movers can make it sound as though they are really doing what’s needed.

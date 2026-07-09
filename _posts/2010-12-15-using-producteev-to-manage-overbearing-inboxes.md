@@ -66,7 +66,7 @@ doi: https://doi.org/10.59348/vpg5c-frf21
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -76,6 +76,7 @@ tags:
 title: Using Producteev to manage overbearing Inboxes
 wordpress_id: 480
 wordpress_url: http://www.martineve.com/?p=480
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlhqwcy2p"
 ---
 
 <p>I typically have (well, had) about 200 emails in my Inbox, which was just as a result of trying to keep on top of things that I needed to do at some point in the future. Predictably, the box kept growing. No matter how fast I swept away the other 200 or so emails that came in over a week, the original stash never went down. I also missed quite a few things due to not having a system. Today, however, my Inbox looks somewhat different. In fact, there's no privacy violation if I post a screenshot:</p>

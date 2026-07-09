@@ -131,7 +131,7 @@ doi: https://doi.org/10.59348/p3n5r-akq92
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -141,6 +141,7 @@ tags:
 title: 'Project idea/request for comment: OpenDOI'
 wordpress_id: 1881
 wordpress_url: https://www.martineve.com/?p=1881
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mixh23v2t"
 ---
 
 <p>Following a conversation (well, a complaint and a suggestion) with <a href="http://www.twitter.com/ernestopriego">@ernestopriego</a> on Twitter, the following came to light (and is certainly something I've experienced):</p>

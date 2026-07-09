@@ -16,6 +16,7 @@ tags:
 title: Some brief thoughts on Slavoj Žižek at LSE
 wordpress_id: 10
 wordpress_url: http://new.martineve.com/?p=10
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mltl3tu2s"
 ---
 
 <p>The following constitute a preliminary note-taking/synoptical exercise undertaken for my own benefit, but shared in case anybody finds them useful. I should probably highlight that I have not read all of Žižek's work and would in no way consider myself an expert.

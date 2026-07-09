@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/spywg-fx570
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 title: Aren't you just being driven by technology?
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mb3p3y62f"
 ---
 
 Somebody, and I can't remember who (so treat this as a straw argument if you want), argued with me a while back that there was a problem with open access because it was driven by technological possibility. That I wanted people to be able to read things without paying because technology made it possible was apparently a bad thing because, ya know, technology.

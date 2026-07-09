@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/cyd26-mtb75
 image:
   feature: header_politics.png
 layout: post
-ogImage: header_politics.png
+ogImage: images/header_politics.png
 title: The politics of peer review and preprints in the real world
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lylmyyz2i"
 ---
 
 This week has been one in which my personal and professional lives have aligned in interesting ways. As you may know, one strand of my work focuses on the study of academic publishing, including [peer review](https://www.cambridge.org/gb/academic/subjects/literature/printing-and-publishing-history/reading-peer-review-plos-one-and-institutional-change-academia?format=PB&isbn=9781108742702). This has featured discussions of the idea of "[excellence](https://doi.org/10.1057/palcomms.2016.105)" but also how preprints are viewed in the world.

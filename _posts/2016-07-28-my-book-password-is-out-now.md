@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/a3bk3-dx074
 image:
   feature: password.png
 layout: post
-ogImage: password.png
+ogImage: images/password.png
 title: My book, Password, is out now!
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mb77tds2a"
 ---
 
 My short book in the <a href="http://www.bloomsbury.com/us/series/object-lessons/">Object Lessons series</a>, <a href="http://meve.io/password"><i>Password</i></a>, is released today, published by Bloomsbury. It's available to buy in <a href="http://amzn.to/2abBhmD">all the usual places</a>. All author royalties will be donated to <a href="http://www.arthritisresearchuk.org/">Arthritis Research UK</a>.

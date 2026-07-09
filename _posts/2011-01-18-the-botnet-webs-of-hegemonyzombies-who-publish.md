@@ -11,7 +11,7 @@ doi: https://doi.org/10.59348/gfpgc-a8834
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -23,6 +23,7 @@ tags:
 title: 'The Botnet: Webs of Hegemony/Zombies Who Publish'
 wordpress_id: 591
 wordpress_url: http://www.martineve.com/?p=591
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkvcrlq2f"
 ---
 
 <div><img src="http://www.martineve.com/wp-content/uploads/2011/01/5252680113_575dfb803d_o-300x200.jpg" alt="A Zombie!" title="Zombie girl" width="300" height="200" class="alignnone size-medium wp-image-592" /><br />

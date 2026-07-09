@@ -55,6 +55,7 @@ tags:
 title: Guarding your academic ideas
 wordpress_id: 1061
 wordpress_url: https://www.martineve.com/?p=1061
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkdm7n32u"
 ---
 
 <p>There was a recent conversation on Twitter's excellent <a href="http://twitter.com/#!/search?q=%23phdchat">#phdchat hashtag</a> revealing the angst that can be involved in getting the balance right between holding an idea back (for formal academic publication) and putting it out there. I'd like, in this post, to enumerate the pros and cons of each side, both ideologically and pragmatically. This isn't to say that it hasn't been done <a href="http://www.philosophyetc.net/2009/03/academic-blogging-pros-and-cons.html">many times before</a> -- in fact, Vitae has <a href="http://vitae.ac.uk/researchers/346441-392041/Online-Publishing-and-Plagiarism-Keeping-Alert.html?utm_medium=Twitter&utm_campaign=What%27s+up+Doc&utm_source=Vitae">just run a piece on this very issue</a> -- but I'd like to put my take on the issue out there.</p>

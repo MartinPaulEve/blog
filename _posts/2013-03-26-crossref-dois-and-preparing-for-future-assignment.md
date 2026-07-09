@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/7tn6f-ewz33
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -18,6 +18,7 @@ tags:
 title: CrossRef, DOIs and Preparing for Future Assignment
 wordpress_id: 2642
 wordpress_url: https://www.martineve.com/?p=2642
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mguxor22u"
 ---
 
 <p>It is a fundamental part of the PILA agreement that is signed when a publisher joins CrossRef that they will link to other articles using their DOIs. So, for example, if I cite an article in a journal that has a DOI, I must ensure that I use that DOI. If it doesn't have a DOI, then I needn't link to the article using the DOI.</p>

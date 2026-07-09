@@ -19,6 +19,7 @@ tags:
 title: Britain or America for the PhD in English?
 wordpress_id: 1286
 wordpress_url: https://www.martineve.com/?p=1286
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk6dib32h"
 ---
 
 <h3>Britain or America for the PhD in English?</h3>

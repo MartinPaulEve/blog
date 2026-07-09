@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/sk9tm-01z04
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 title: The single largest challenge for information publishing in the digital age
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mavk66t2p"
 ---
 
 A fragment of thought:

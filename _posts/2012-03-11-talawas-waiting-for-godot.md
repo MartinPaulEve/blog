@@ -16,6 +16,7 @@ tags:
 title: Talawa's Waiting for Godot
 wordpress_id: 1961
 wordpress_url: https://www.martineve.com/2012/03/11/talawas-waiting-for-godot/
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miq4yqd2h"
 ---
 
 <p>Yesterday I had the extremely good fortune to see Talawa's production of Samuel Beckett's <i>Waiting for Godot</i> at the Albany Theatre in Deptford. It had been hyped in the media as the first British all-Black Godot. While the ethnicity of the performers is integral to the performance and the skills, speech patterns, accents and mannerisms that they bring, it didn't need this hype. This <i>Godot</i> stood, for me, as simply the best production I have seen full-stop and that includes the Ian McKellan/Patrick Stewart run in London 2009/2010.</p>

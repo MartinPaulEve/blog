@@ -16,6 +16,7 @@ tags:
 title: My short additional response to the HEFCE metrics consultation
 wordpress_id: 3136
 wordpress_url: https://www.martineve.com/?p=3136
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mf2j3ew2i"
 ---
 
 <p>The views below represent my own personal addendum to other responses to the <a href="http://www.hefce.ac.uk/whatwedo/rsrch/howfundr/metrics/">HEFCE metrics consultation</a> that I have valued and endorsed. They are not necessarily the views of my institution.</p>

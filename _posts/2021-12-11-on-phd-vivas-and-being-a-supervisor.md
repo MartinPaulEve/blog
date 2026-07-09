@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/3tcch-3x365
 image:
   feature: header_degree.png
 layout: post
-ogImage: header_degree.png
+ogImage: images/header_degree.png
 title: On PhD vivas and being a supervisor
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m26pivf2u"
 ---
 
 I mustn't say too much in public about this, for fear of being unprofessional. However, I wanted to jot down a few notes about "being a PhD supervisor" and what it means and what it's like.

@@ -5,9 +5,10 @@ doi: https://doi.org/10.59348/65tfk-v7p63
 image:
   feature: header_warez.png
 layout: post
-ogImage: header_warez.png
+ogImage: images/header_warez.png
 title: A critical bibliography about LibGen, the pirate site that Meta used for AI
   training
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvybnql2p"
 ---
 
 Yesterday, academic social media went into overdrive as many intellectuals discovered LibGen ("Library Genesis") for the first time, thanks to [an article and tool in _The Atlantic_](https://www.theatlantic.com/technology/archive/2025/03/search-libgen-data-set/682094/).

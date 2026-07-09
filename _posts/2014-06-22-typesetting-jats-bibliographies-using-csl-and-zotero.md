@@ -11,7 +11,7 @@ doi: https://doi.org/10.59348/bz52e-q0e97
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -21,6 +21,7 @@ tags:
 title: Typesetting JATS bibliographies using CSL and Zotero
 wordpress_id: 3139
 wordpress_url: https://www.martineve.com/?p=3139
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mf2f3ie2p"
 ---
 
 <p>One of the hardest parts of typesetting articles for scholarly publication in the JATS standard, especially when using homemade tools, is the bibliography. JATS (and its NLM predecessors) expects references to be broken down into their constituent components where possible in order to be semantically rich. For example:</p>

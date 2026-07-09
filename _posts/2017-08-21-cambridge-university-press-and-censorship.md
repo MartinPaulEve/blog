@@ -4,6 +4,7 @@ date: 2017-08-21
 doi: https://doi.org/10.59348/hm2mv-dmq59
 layout: post
 title: Cambridge University Press and Censorship
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7zyibw2s"
 ---
 
 The [recent self-censorship](https://www.insidehighered.com/news/2017/08/21/cambridge-university-press-blocks-access-300-plus-articles-request-chinese-censors) by Cambridge University Press in China is billed, by some, as an assault on academic freedom. It is certainly a worrying trend.

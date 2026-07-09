@@ -38,6 +38,7 @@ tags:
 title: Undergraduates in the British Library reading rooms
 wordpress_id: 23
 wordpress_url: http://new.martineve.com/?p=23
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmbrmrs2a"
 ---
 
 <p>          One of the long running debates regarding the British Library reading rooms has resurfaced this week.

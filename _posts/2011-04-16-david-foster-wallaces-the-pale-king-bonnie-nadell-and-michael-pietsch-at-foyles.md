@@ -19,6 +19,7 @@ title: 'David Foster Wallace''s The Pale King: Bonnie Nadell and Michael Pietsch
   Foyles'
 wordpress_id: 982
 wordpress_url: https://www.martineve.com/?p=982
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkett7l2u"
 ---
 
 <p>Last night I had the pleasure of attending <a href="http://www.foyles.co.uk/Public/Events/Detail.aspx?eventId=1192">an event</a> at Foyles bookstore in London featuring David Foster Wallace's Literary Agent Bonnie Nadell and Editor Michael Pietsch. The evening was in honour of the UK launch of Wallace's posthumous publication, <i>The Pale King</i> which is current receiving <a href="http://www.guardian.co.uk/books/2011/apr/16/pale-king-david-foster-wallace-review">rather favourable</a> reviews.</p>

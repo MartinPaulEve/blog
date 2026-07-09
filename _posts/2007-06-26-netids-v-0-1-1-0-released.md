@@ -11,7 +11,7 @@ doi: https://doi.org/10.59348/r4g1g-6s974
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -22,6 +22,7 @@ tags:
 title: .NETIDS v.0.1.1.0 released
 wordpress_id: 268
 wordpress_url: http://pro.grammatic.org/post-netids-v0110-released-32.aspx
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnco7hi2f"
 ---
 
 <p>Just a quick note to announce the release of .NETIDS v.0.1.1.0 - a small update that adds some valuable features:</p>

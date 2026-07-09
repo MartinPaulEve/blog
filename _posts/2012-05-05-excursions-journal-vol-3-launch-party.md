@@ -9,7 +9,7 @@ doi: https://doi.org/10.59348/dyz8v-rhw49
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -19,6 +19,7 @@ tags:
 title: 'Excursions Journal Vol 3: Launch Party'
 wordpress_id: 2077
 wordpress_url: https://www.martineve.com/2012/05/05/excursions-journal-vol-3-launch-party/
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miglu3g2p"
 ---
 
 <p><a href="https://www.martineve.com/wp-content/uploads/2012/05/Excursions-Launch.png"><img src="https://www.martineve.com/wp-content/uploads/2012/05/Excursions-Launch.png" alt="Excursions launch poster" title="Excursions-Launch" style="width:750px;" class="alignnone size-full wp-image-2078" /></a></p>

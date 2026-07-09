@@ -64,6 +64,7 @@ title: Reading the "My Marxist Feminist Dialectic Brings all the Boys to the Yar
   T-Shirt
 wordpress_id: 1551
 wordpress_url: https://www.martineve.com/2011/10/21/reading-the-my-marxist-feminist-dialectic-brings-all-the-boys-to-the-yard-t-shirt/
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjisk742h"
 ---
 
 <p>I had reservations about doing so, but I finally ordered the "My Marxist Feminist Dialectic Brings all the Boys to the Yard" T-Shirt from <a href="www.tshirthell.com/store/product.php?productid=1199">T-Shirt Hell</a>. I loved the shirt from day 1, but wanted to discuss the issues surrounding this.</p>

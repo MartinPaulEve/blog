@@ -8,6 +8,7 @@ layout: post
 published: true
 tags: []
 title: The Conservatism of Cloud Atlas
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcm6gih2u"
 ---
 
 Some thoughts...

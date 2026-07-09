@@ -9,7 +9,7 @@ doi: https://doi.org/10.59348/g9va4-vx923
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -18,6 +18,7 @@ tags:
 title: IE7 Javascript - modify the DOM without crashing the browser
 wordpress_id: 260
 wordpress_url: http://pro.grammatic.org/post-ie7-javascript--modify-the-dom-without-crashing-the-browser-40.aspx
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mn7hq422a"
 ---
 
 <p>One of the biggest problems faced when writing Javascript that modifies the DOM is the fact that the poorly written IE7 crashes because it hasn't finished loading the current element. This only seems to happen when the DOM is modified through a script loaded by an xx:expression binding in a style tag.</p>

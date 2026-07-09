@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/paybh-98d21
 image:
   feature: header_prestige.png
 layout: post
-ogImage: header_prestige.png
+ogImage: images/header_prestige.png
 title: What is a University Press?
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvsvf232q"
 ---
 
 I was having a pretty good week last week, until we got to the closing minutes of play. At that point, I learned that Amsterdam University Press (AUP) had been acquired by the for-profit corporate publishing behemoth Taylor & Francis. This is not really a surprise in some ways. AUP had been [transformed into a private, for-profit enterprise in 2019](http://www.guygeltner.net/blog/2582019unusual-business-a-university-press-goes-private-and-no-one-is-the-wiser).

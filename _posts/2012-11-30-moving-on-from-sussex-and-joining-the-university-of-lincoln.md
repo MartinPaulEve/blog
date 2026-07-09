@@ -17,6 +17,7 @@ tags:
 title: Moving on from Sussex and joining the University of Lincoln
 wordpress_id: 2511
 wordpress_url: https://www.martineve.com/?p=2511
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhma7te2h"
 ---
 
 <p>It is my pleasure to announce, with both great excitement and the inevitable slight sadness, that as of January 2013, I will be leaving the University of Sussex (the inevitable slight sadness) to take a permanent position as a Lecturer in Literature at the University of Lincoln (the great excitement!)</p>

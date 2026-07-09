@@ -27,6 +27,7 @@ tags:
 title: Designing a UK undergraduate English literature course
 wordpress_id: 854
 wordpress_url: https://www.martineve.com/?p=854
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkiyt2x2i"
 ---
 
 <p><i>Featured image by <a href="http://www.flickr.com/photos/23680544@N07/">Sarah Ross photography</a> under a CC-BY-NC license.</i></p>

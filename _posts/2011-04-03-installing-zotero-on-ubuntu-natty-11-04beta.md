@@ -64,7 +64,7 @@ doi: https://doi.org/10.59348/nznr5-3xc06
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -75,6 +75,7 @@ tags:
 title: Installing Zotero on Ubuntu Natty (11.04/Beta)
 wordpress_id: 924
 wordpress_url: https://www.martineve.com/?p=924
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkhkmlj2e"
 ---
 
 <div>I've been playing with the new setup of Unity on Ubuntu Natty 11.04 beta, which now comes preloaded with the forked LibreOffice. This has caused some problems for installation of Zotero, so I want to here give the walkthrough instructions that I used in a LiveCD environment to get everything working.</p>

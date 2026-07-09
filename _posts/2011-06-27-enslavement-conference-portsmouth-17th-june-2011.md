@@ -24,6 +24,7 @@ tags:
 title: Enslavement Conference, Portsmouth, 17th June 2011
 wordpress_id: 1222
 wordpress_url: https://www.martineve.com/?p=1222
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk7pjfs2a"
 ---
 
 <p>In the spirit of writing up my recent conference visits, I thought I would share a rundown of the conference entitled "Enslavement: Colonial Appropriations, Apparitions, Remembrances, 1750-present day" hosted by the Centre for Studies in Literature at the University of Portsmouth. This report is incomplete as my notes for the day were sporadic, this being so far from my usual field, but I'll put up what I can reconstruct.</p>

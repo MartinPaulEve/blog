@@ -15,6 +15,7 @@ tags:
 title: British Library usage made clear
 wordpress_id: 27
 wordpress_url: http://new.martineve.com/?p=27
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmcap722a"
 ---
 
 <p><a href='/images/uploads/2010/03/Photo0015.jpg.scaled.1000.jpg'><img src="/images/uploads/2010/03/Photo0015.jpg.scaled.1000-300x225.jpg" width="500" height="375"/></a></p>

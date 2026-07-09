@@ -15,6 +15,7 @@ tags:
 title: 'Brian Lobel: BALL and Other Funny Stories About Cancer'
 wordpress_id: 1588
 wordpress_url: https://www.martineve.com/2011/11/05/brian-lobel-ball-and-other-funny-stories-about-cancer/
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjg7nz62p"
 ---
 
 <p>On the 3rd November, 2011, I had the pleasure and privilege to attend Brian Lobel's performance, "BALL and Other Funny Stories About Cancer" on the 10th anniversary of his diagnosis with testicular cancer. The performance consisted of the three pieces, "BALL", "Funny Stories About Cancer" and "An Appreciation". I wanted here to briefly jot some thoughts about the experience.</p>

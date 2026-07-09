@@ -9,7 +9,7 @@ doi: https://doi.org/10.59348/51j4e-2pf27
 image:
   feature: post_images/ActionWriting/Politics-N-Gram1.png
 layout: post
-ogImage: post_images/ActionWriting/Politics-N-Gram1.png
+ogImage: images/post_images/ActionWriting/Politics-N-Gram1.png
 published: true
 tags:
 - literature
@@ -17,6 +17,7 @@ tags:
 - ethics
 title: '''He doesn’t talk politics any more'': Politics and Postmodernism; Morality
   and Metafiction; Nihilism and the Novel?'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mch42be2r"
 ---
 
 The following is the slightly revised text of my keynote at the _Action Writing: The Politics of US Literature, 1960-Present_, held at Birkbeck College, University of London on the 3rd July 2015, organized by Catherine Flay and Pippa Eldridge.

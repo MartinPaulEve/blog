@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/e431n-pfb44
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -19,6 +19,7 @@ tags:
 title: Exposing XML data for Orbit
 wordpress_id: 2654
 wordpress_url: https://www.martineve.com/?p=2654
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgu7ei32h"
 ---
 
 <p>Although, for now, this will be of limited interest/use to probably most readers of the journal, I today undertook the necessary work (by which I mean: cleaning up for compliance!) to expose the XML files that power the typesetting behind my journal of Pynchon studies, <a href="https://www.pynchon.net">Orbit: Writing Around Pynchon</a>.</p>

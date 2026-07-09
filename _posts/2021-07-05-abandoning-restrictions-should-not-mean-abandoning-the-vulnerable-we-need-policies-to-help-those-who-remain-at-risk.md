@@ -5,9 +5,10 @@ doi: https://doi.org/10.59348/95tjy-8qm19
 image:
   feature: header_ambulance.png
 layout: post
-ogImage: header_ambulance.png
+ogImage: images/header_ambulance.png
 title: Abandoning restrictions should not mean abandoning the vulnerable. We need
   policies to help those who remain at risk.
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m32exwc2f"
 ---
 
 The government has told us that we must “learn to live with the virus”. It is undoubtedly true that coronavirus is not going to disappear any time soon. However, a sizeable minority of people cannot learn to live with a virus that continues to pose a deadly risk.

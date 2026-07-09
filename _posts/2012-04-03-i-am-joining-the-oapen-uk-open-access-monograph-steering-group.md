@@ -11,7 +11,7 @@ doi: https://doi.org/10.59348/3tyk8-ts787
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -21,6 +21,7 @@ tags:
 title: I am joining the OAPEN-UK, Open Access Monograph, Steering Group
 wordpress_id: 2011
 wordpress_url: https://www.martineve.com/2012/04/03/i-am-joining-the-oapen-uk-open-access-monograph-steering-group/
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mij6nit2h"
 ---
 
 <p>I'm delighted to announce that I am joining the <a href="http://oapen-uk.jiscebooks.org/overview/steering-group/">OAPEN-UK Steering Group</a>, a great JISC project that is gathering evidence for the viability of Open Access monograph publication in the Humanities and Social Sciences. From their website:</p>

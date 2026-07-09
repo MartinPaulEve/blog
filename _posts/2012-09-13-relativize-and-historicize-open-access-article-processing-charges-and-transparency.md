@@ -11,7 +11,7 @@ doi: https://doi.org/10.59348/cvzag-jcc19
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -19,6 +19,7 @@ tags:
 title: 'Relativize and Historicize: Open Access, Article Processing Charges and Transparency'
 wordpress_id: 2404
 wordpress_url: https://www.martineve.com/?p=2404
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhrys7k2a"
 ---
 
 <p>The predominant intellectual trend of the past 200 years (or longer, actually) has been to relativize and historicize. Although it's possible to read this in a contradictory sense (historicizing is an anti-relativising move), these are also two sides of the same coin. In each case, the mask of universality is removed and that which seemed transcendental is shown as local and contingent; Marx, Freud, Einstein. In the move towards Open Access, some publishers seem to be forgetting that they are dealing with academics for whom this is the <i>modus operandi</i>.</p>

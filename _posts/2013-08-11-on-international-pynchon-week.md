@@ -17,6 +17,7 @@ tags:
 title: On International Pynchon Week
 wordpress_id: 2802
 wordpress_url: https://www.martineve.com/?p=2802
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgevpjt2h"
 ---
 
 <p>Last week saw the descent of some sixty Pynchon scholars upon the small northern city of Durham in the UK. The occasion was the International Pynchon Week conference, this year a co-sponsored event between the University of Durham and the University of Lincoln. The event was organised primarily by Samuel Thomas, of Durham, while I had assisted with various aspects of promotion, web design and suchlike.</p>

@@ -20,6 +20,7 @@ tags:
 title: 'The 8th Biennial Symbiosis Conference: Day 1'
 wordpress_id: 1199
 wordpress_url: https://www.martineve.com/?p=1199
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mka2h372r"
 ---
 
 <p>As with my previous posts on <a href="https://www.martineve.com/2010/06/11/international-pynchon-week-2010-day-3/">International Pynchon Week 2010</a>, I thought I would try to take a little time on each day of this conference to write a few words with some thoughts.</p>

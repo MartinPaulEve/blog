@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/fsvt7-4rm28
 image:
   feature: header_balance.png
 layout: post
-ogImage: header_balance.png
+ogImage: images/header_balance.png
 title: On the costs of scholarly communications and the discourse of 'fairness'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3x5yjd2a"
 ---
 
 A discourse of 'fairness' has emerged in open-access circles in recent years. It has come from a sense that big, for-profit publishers have not played 'fairly' with libraries over the past 30 years. It is unsurprising. These large publishers make margins of 35%+ on billions of dollars of revenue, even while library budgets stagnate. They hold much of the world's research output to hostage, even to the extent that, during the pandemic, it was due to acts of publisher _generosity_, surplus to their legal requirements, that they granted a temporary lowering of the paywall.

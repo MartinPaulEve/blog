@@ -10,13 +10,14 @@ doi: https://doi.org/10.59348/x8eh0-sh858
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
 - Open Access
 title: How can Elsevier claim that its OA revenue stream is separate from subscriptions
   in a hybrid environment?
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdaug4c2q"
 ---
 
 <p>For an open-access advocate, it's easy to pick on Elsevier. An enormous and immensely profitable publisher, it has been, in my personal view, obstructive towards the implementation of open access. Again, in my opinion, this seems to be because it fears for its revenue stream, rather than because it cares about science. The ElsevierValentines hashtag was puerile, but fun, and demonstrated this sentiment. But these are just my opinions.</p>

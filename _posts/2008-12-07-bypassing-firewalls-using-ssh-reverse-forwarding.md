@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/8e1wk-2wf36
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -20,6 +20,7 @@ tags:
 title: Bypassing firewalls using SSH Reverse Forwarding
 wordpress_id: 241
 wordpress_url: http://pro.grammatic.org/post-bypassing-firewalls-using-ssh-reverse-forwarding-61.aspx
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmmqx3z2o"
 ---
 
 <p>Sometimes you will find yourself on a machine that has no inbound connections allowed, which can make even the most basic task a complete pain. Never fear, if you can initiate an outbound connection to an SSH server of your choosing, it is no problem whatsoever to remap the ports by what is known as Reverse Forwarding.</p>

@@ -5,9 +5,10 @@ doi: https://doi.org/10.59348/grf3q-6fs44
 image:
   feature: header_ai.png
 layout: post
-ogImage: header_ai.png
+ogImage: images/header_ai.png
 title: 'AI and Open Cultural Licensing (remarks to be presented at the SHARP plenary
   roundtable: AI In the Communications Circuit)'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwujhmg2e"
 ---
 
 Some remarks that will be presented at the SHARP plenary roundtable: AI in the Communications Circuit.

@@ -128,3 +128,8 @@
 <meta property="article:author" content="Martin Paul Eve">
 
 <link href="https://eve.gd/feed/feed.atom" type="application/atom+xml" rel="alternate" title="Martin Paul Eve Feed">
+
+{% if page.atUri %}
+<!-- ATProto link to site.standard.document -->            
+<link rel="site.standard.document" href="{{ page.atUri | escape }}">
+{% endif %}

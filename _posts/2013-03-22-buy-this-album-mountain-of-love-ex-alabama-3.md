@@ -15,6 +15,7 @@ tags:
 title: 'Buy This Album: Mountain of Love (ex-Alabama 3)'
 wordpress_id: 2632
 wordpress_url: https://www.martineve.com/?p=2632
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgw6tox2a"
 ---
 
 <p>Deviating from my current series of posts on ScholComms, I wanted to interject to recommend a new, independent music project from two of the original members of the Alabama 3. The project is entitled Mountain of Love (the founder, Piers Marsh's, pseudonym) and the genre is "dubtronica", a fusion of dub and electronica, as the name suggests.</p>

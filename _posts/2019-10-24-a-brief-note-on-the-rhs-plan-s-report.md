@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/zq2jc-nda29
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 title: A brief note on the RHS Plan S report
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6m3jjg2f"
 ---
 
 The most recent [Royal Historical Society document on Plan S](https://royalhistsoc.org/policy/publication-open-access/plan-s-and-history-journals/) says the following about the Open Library of Humanities (OLH):

@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/5vnbp-c9c33
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -18,6 +18,7 @@ tags:
 title: Debugging meTypeset using a git filesystem
 wordpress_id: 3047
 wordpress_url: https://www.martineve.com/?p=3047
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfg7a2c2a"
 ---
 
 <div style="clear:both"/>

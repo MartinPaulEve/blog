@@ -22,7 +22,7 @@ doi: https://doi.org/10.59348/2569q-b1653
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -31,6 +31,7 @@ tags:
 title: The future of academic publishing Q&A
 wordpress_id: 2037
 wordpress_url: https://www.martineve.com/2012/04/09/the-future-of-academic-publishing-qa/
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mii66hx2f"
 ---
 
 <p>In which I look nervous and shifty.</p>

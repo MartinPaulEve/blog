@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/esj2r-7eb46
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 title: An expensive but possible way to do Society OA
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6o6ywl2n"
 ---
 
 A Learned Society spoke to me last week about what they could do to move to an open-access model. They currently receive about 100,000 EUR per year from their subscription/hybrid-OA publisher but were willing to jettison this (!) if they could go OA with no author fees.

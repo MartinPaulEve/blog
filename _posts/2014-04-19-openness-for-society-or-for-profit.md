@@ -9,7 +9,7 @@ doi: https://doi.org/10.59348/4bfa3-d6z27
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -18,6 +18,7 @@ tags:
 title: Openness for society or for profit?
 wordpress_id: 3104
 wordpress_url: https://www.martineve.com/?p=3104
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mf6dw3k2h"
 ---
 
 <p>A twitter conversation that I had with Michelle Brook this morning.</p>

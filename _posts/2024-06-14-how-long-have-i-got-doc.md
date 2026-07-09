@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/e7a1a-e3m72
 image:
   feature: header_ambulance.png
 layout: post
-ogImage: header_ambulance.png
+ogImage: images/header_ambulance.png
 title: How long have I got, doc?
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwvkstr2h"
 ---
 
 "End-stage renal disease is a terminal illness with a glomerular filtration rate of less than 15 mL/min." - [Hashmi et al.](https://www.ncbi.nlm.nih.gov/books/NBK499861/)

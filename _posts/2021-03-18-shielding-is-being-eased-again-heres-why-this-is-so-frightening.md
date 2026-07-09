@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/z8nqa-vdp34
 image:
   feature: header_medical.png
 layout: post
-ogImage: header_medical.png
+ogImage: images/header_medical.png
 title: Shielding is being eased again. Here's why this is so frightening.
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3l47rq2i"
 ---
 
 Non-vulnerable people perhaps don't understand why the government advice to shielders is so frightening. I think I can give a flavour though:

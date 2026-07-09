@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/426jt-15d79
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -19,6 +19,7 @@ tags:
 title: Fixing mpd segfault on Ubuntu 12.10 on ARM devices (Mele, Pandaboard etc)
 wordpress_id: 2708
 wordpress_url: https://www.martineve.com/?p=2708
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgqn37h2i"
 ---
 
 <p>If you are experiencing crashes when you update your mpd library on Ubuntu 12.10, <a href="https://bugs.launchpad.net/ubuntu/+source/libmad/+bug/989846">the fault is with libmad0</a>.</p>

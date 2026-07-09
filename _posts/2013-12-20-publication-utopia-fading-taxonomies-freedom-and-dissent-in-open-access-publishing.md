@@ -12,7 +12,7 @@ doi: https://doi.org/10.59348/qzpez-gp167
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -21,6 +21,7 @@ title: 'Publication: Utopia Fading: Taxonomies, Freedom and Dissent in Open Acce
   Publishing'
 wordpress_id: 2960
 wordpress_url: https://www.martineve.com/?p=2960
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mftodxl2q"
 ---
 
 <p>I was very pleased, late last year, to have been invited by <a href="http://jimmussell.com/">Jim Mussell</a> to contribute to a <a href="http://www.tandfonline.com/toc/rjvc20/18/4">Digital Forum in the Literature journal</a>, the <i>Journal of Victorian Culture</i>, on Open Access publishing.</p>

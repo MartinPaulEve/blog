@@ -9,7 +9,7 @@ doi: https://doi.org/10.59348/cwywr-1ax07
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -18,6 +18,7 @@ tags:
 title: Using tech to help with structure
 wordpress_id: 21
 wordpress_url: http://new.martineve.com/?p=21
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmaxopc2a"
 ---
 
 <p>    <a href='/images/uploads/2010/04/TableOfContents.png'><img src="/images/uploads/2010/04/TableOfContents-300x181.png" width="500" height="302"/></a></p>

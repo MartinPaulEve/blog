@@ -22,6 +22,7 @@ title: 'Publication: ''Thomas Pynchon, David Foster Wallace and the Problems of 
   Post-millennial Post-postmodernism?'''
 wordpress_id: 2549
 wordpress_url: https://www.martineve.com/?p=2549
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgxyy2x2e"
 ---
 
 <p>Martin Paul Eve, ‘Thomas Pynchon, David Foster Wallace and the Problems of “Metamodernism”: Post-Millennial Post-Postmodernism?’, C21 Literature: Journal of 21st-century Writings, 1 (2012), pp. 7-25.</p>

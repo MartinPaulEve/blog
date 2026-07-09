@@ -12,7 +12,7 @@ doi: https://doi.org/10.59348/2yc90-kk059
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags: []
@@ -20,6 +20,7 @@ title: 'Publication: All That Glisters: Investigating Collective Funding Mechani
   for Gold Open Access in Humanities Disciplines'
 wordpress_id: 3164
 wordpress_url: https://www.martineve.com/?p=3164
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mewrp542r"
 ---
 
 <p>New article out in the Journal of Librarianship and Scholarly Communication: Eve, Martin Paul, ‘All That Glisters: Investigating Collective Funding Mechanisms for Gold Open Access in Humanities Disciplines’, <i>Journal of Librarianship and Scholarly Communication</i>, 2 (2014) <a href="http://dx.doi.org/10.7710/2162-3309.1131">http://dx.doi.org/10.7710/2162-3309.1131</a></p>

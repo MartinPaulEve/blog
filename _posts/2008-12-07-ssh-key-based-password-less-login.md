@@ -20,7 +20,7 @@ doi: https://doi.org/10.59348/4s7eb-h5240
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -31,6 +31,7 @@ tags:
 title: SSH Key Based, Password Less Login
 wordpress_id: 242
 wordpress_url: http://pro.grammatic.org/post-ssh-key-based-password-less-login-60.aspx
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmnb4ly2r"
 ---
 
 <p>It can be very handy to be able to login to an SSH shell without supplying a password. Here's how.</p>

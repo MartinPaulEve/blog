@@ -16,6 +16,7 @@ tags:
 title: 'Symposium on David Mitchell: 9th May, London'
 wordpress_id: 3082
 wordpress_url: https://www.martineve.com/?p=3082
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfcplsd2q"
 ---
 
 <p>I'm very pleased to be able to say that I will be speaking at the symposium on David Mitchell, organised by Courtney Hopf and Wendy Knepper, on the 9th May at NYU London. Should anyone else wish to attend, you can <a href="https://www.surveymonkey.com/s/FCWWFNB">register interest online</a>.</p>

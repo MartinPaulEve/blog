@@ -16,6 +16,7 @@ tags:
 title: David Foster Wallace archive material
 wordpress_id: 25
 wordpress_url: http://new.martineve.com/?p=25
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmbyqdj2q"
 ---
 
 <p>          I've just, a few days belatedly, checked out the <a href="http://www.thehowlingfantods.com/dfw/">Howling Fantods</a> website and caught up with the news regarding the Harry Ransom Center aquiring the DFW archives.

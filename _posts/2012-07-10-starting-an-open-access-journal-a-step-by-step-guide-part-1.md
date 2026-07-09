@@ -11,7 +11,7 @@ doi: https://doi.org/10.59348/sr9mx-aat59
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -19,6 +19,7 @@ tags:
 title: 'Starting an Open Access Journal: a step-by-step guide part 1'
 wordpress_id: 2182
 wordpress_url: https://eve.gd/?p=2182
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mibwvi62p"
 ---
 
 <h3>Prefatory note (2016)</h3>

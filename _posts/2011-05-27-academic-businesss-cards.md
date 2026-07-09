@@ -26,6 +26,7 @@ tags:
 title: Academic Businesss Cards
 wordpress_id: 1107
 wordpress_url: https://www.martineve.com/?p=1107
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkcziys2s"
 ---
 
 <p>I had resisted the concept of having my own, academic, business cards for a long time. It seemed, and still does to an extent, an encroachment upon the sphere I love from the world of dehumanised business practice. However, networking is a fundamental part of academic conference attendance. I have several conferences coming up in June.</p>

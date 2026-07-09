@@ -17,6 +17,7 @@ tags:
 title: 'International Pynchon Week: Day 2'
 wordpress_id: 14
 wordpress_url: http://new.martineve.com/?p=14
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mltvmse2h"
 ---
 
 <p>          ... International Pynchon Week, Day 2 (continued from previous post).

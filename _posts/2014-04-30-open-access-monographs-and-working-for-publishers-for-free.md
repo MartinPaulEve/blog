@@ -9,7 +9,7 @@ doi: https://doi.org/10.59348/a631n-cjk52
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -18,6 +18,7 @@ tags:
 title: Open Access, Monographs and "working for publishers for free"
 wordpress_id: 3111
 wordpress_url: https://www.martineve.com/?p=3111
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mf5hqps2h"
 ---
 
 <p>The other day, I was sent a text message by a senior academic friend who has a healthily sceptical view of the open access work that I do. The question was: "re. Monographs, authors should be paid for their work, the publishing business model now allows for that as would online pay walls (not much but depends on book and who you are). How do you deal with that in mandatory OA, would we all be working for publishers for free?"</p>

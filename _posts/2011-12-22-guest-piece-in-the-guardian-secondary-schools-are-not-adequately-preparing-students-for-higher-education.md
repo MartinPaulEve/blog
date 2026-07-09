@@ -203,6 +203,7 @@ title: 'Guest piece in the Guardian: Secondary schools are not adequately prepar
   students for higher education'
 wordpress_id: 1698
 wordpress_url: https://www.martineve.com/?p=1698
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjc3doh2f"
 ---
 
 <p>A guest piece over at the Guardian Higher Education section:</p>

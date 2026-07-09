@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/pbszj-40621
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -21,6 +21,7 @@ tags:
 title: Creating an IRC front/back-end from a C# web application
 wordpress_id: 249
 wordpress_url: http://pro.grammatic.org/post-creating-an-irc-frontbackend-from-a-c-web-application-53.aspx
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmov5lk2a"
 ---
 
 <p>This lengthy howto will show you how to hook up C# to an eggdrop IRC bot. I've taken this approach because it avoids the overhead of managing a fully fledged IRC client in C# whilst still providing 2-way command functionality between IRC and the application.</p>

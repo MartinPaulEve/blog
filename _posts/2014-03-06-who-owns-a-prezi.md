@@ -14,6 +14,7 @@ tags:
 title: Who owns a Prezi?
 wordpress_id: 3052
 wordpress_url: https://www.martineve.com/?p=3052
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mffceag2e"
 ---
 
 <div style="clear:both"/>

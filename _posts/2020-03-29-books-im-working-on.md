@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/swfx0-zd664
 image:
   feature: closereading.png
 layout: post
-ogImage: closereading.png
+ogImage: images/closereading.png
 title: Academic books I'm writing
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6eloop2h"
 ---
 
 I have a series of book projects in train at the moment and wanted to write a little bit of this down so that I have a record of where I was in the projects at this stage:

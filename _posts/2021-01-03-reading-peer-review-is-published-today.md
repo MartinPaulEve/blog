@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/8cw1h-t1f60
 image:
   feature: header_PR.png
 layout: post
-ogImage: header_PR.png
+ogImage: images/header_PR.png
 title: Reading Peer Review is published today!
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3ywqw52u"
 ---
 
 On the same day as I [submitted my next book manuscript](https://eve.gd/2021/01/03/i-have-submitted-the-warez-book/), I am pleased to be able to say that [Reading Peer Review](https://www.cambridge.org/core/elements/reading-peer-review/42F027E4C67D246DD8C3AC440A68C7A7), my 7<sup>th</sup> academic book, has been published by Cambridge University Press. The book is open access and available at [CUP](https://www.cambridge.org/core/elements/reading-peer-review/42F027E4C67D246DD8C3AC440A68C7A7) or in [BIROn](https://eprints.bbk.ac.uk/id/eprint/27709/).

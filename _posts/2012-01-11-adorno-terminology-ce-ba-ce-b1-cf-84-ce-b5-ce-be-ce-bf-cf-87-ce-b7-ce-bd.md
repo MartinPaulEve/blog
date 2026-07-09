@@ -18,6 +18,7 @@ tags:
 title: 'Adorno terminology: κατ εξοχην'
 wordpress_id: 1808
 wordpress_url: https://www.martineve.com/2012/01/11/adorno-terminology-%ce%ba%ce%b1%cf%84-%ce%b5%ce%be%ce%bf%cf%87%ce%b7%ce%bd/
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mizyjgx2r"
 ---
 
 <p>"Fireworks are apparation κατ εξοχην: They appear empirically yet are liberated" (Adorno, Theodor W. Aesthetic Theory. Edited by Gretel Adorno and Rolf Tiedemann. Translated by Robert Hullot-Kentor. London: Continuum, 2004. p. 107.)</p>

@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/w598w-phe09
 image:
   feature: header_business.png
 layout: post
-ogImage: header_business.png
+ogImage: images/header_business.png
 title: On the overhead of 'business models'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5lpuuh2h"
 ---
 
 OLH, obviously, has a business model for its open-access publishing. We operate due to a membership model in which approximately 300 libraries pay an annual fee so that we can exist and publish all our work openly. It works pretty well and is able to sustain our activities -- so long as the pandemic doesn't truly scupper us. [Please do join!](https://openlibhums.org/plugins/supporters/signup/)

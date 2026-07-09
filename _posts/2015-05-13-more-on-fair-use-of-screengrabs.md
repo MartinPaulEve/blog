@@ -11,6 +11,7 @@ tags:
 - copyright
 - fair use
 title: More on fair-use of screengrabs
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mct7at72s"
 ---
 
 I wrote yesterday, in a grumpy state, about the [restrictiveness of copyright and licensing of screenshots in academic material](https://www.martineve.com/2015/05/12/another-copyright-absurdity-using-film-screenshots/). Today brings happier news.

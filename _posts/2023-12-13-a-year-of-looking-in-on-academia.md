@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/kd07y-z3g36
 image:
   feature: header_academia.png
 layout: post
-ogImage: header_academia.png
+ogImage: images/header_academia.png
 title: A year of looking in on academia
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lx77unt2h"
 ---
 
 As many of you know, I took secondment from my academic role this year to work on research and development at Crossref. A variety of factors inspired this, not least my health and wanting to be able to work from home. After a year, I have reflected on my experience of transferring to a very good employer outside of academia. If you did the same, your mileage might vary, because it all depends where you end up working and for whom. Crossref turns out to be a most excellent organisation to work for. YMMV. I should also say that I still remain a Professor at the University of London's Birkbeck College, and that is not planned to change. Rather, I will be moving onto a research-only contract for the longer term.

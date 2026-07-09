@@ -23,6 +23,9 @@ plugins:
 feed:
   path: /feed/feed.atom
 
+exclude:
+  - _site
+
 kramdown:
   auto_ids: true
   footnote_nr: 1

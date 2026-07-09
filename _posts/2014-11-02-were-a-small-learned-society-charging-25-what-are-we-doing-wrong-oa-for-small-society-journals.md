@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/g97j6-sdp39
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -20,6 +20,7 @@ title: 'We''re a small learned society charging £25. What are we doing wrong?: 
   for small society journals'
 wordpress_id: 3254
 wordpress_url: https://www.martineve.com/?p=3254
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mecmzaz2f"
 ---
 
 <p>This was a question that I received at a recent event where I spoke. Having set out the economic problems of the subscription model and the <a href="https://www.martineve.com/2014/10/04/pondering-a-solution-to-the-problem-of-learned-societies-and-the-transition-to-open-access/">difficulties of cross-subsidy for learned societies</a>, a questioner piped up:</p>

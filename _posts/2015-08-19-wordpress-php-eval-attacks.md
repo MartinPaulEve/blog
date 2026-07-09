@@ -7,11 +7,12 @@ doi: https://doi.org/10.59348/4wvv5-fe614
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 tags:
 - wordpress
 title: Wordpress php eval attacks
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mccvbrj2f"
 ---
 
 Sigh. More hacking attempts and seems someone did manage to inject a php eval attack into one of my Wordpress installs.

@@ -21,6 +21,7 @@ tags:
 title: 'Excursions, Vol. 2, Issue 1: Virus (2011)'
 wordpress_id: 1191
 wordpress_url: https://www.martineve.com/?p=1191
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkabdrp2r"
 ---
 
 <p>The <a href="http://www.excursions-journal.org.uk"><i>Excursions</i></a> editorial board are pleased to announce the launch of <i>Excursions</i>, Volume 2, Issue 1: Virus (2011).</p>

@@ -5,9 +5,10 @@ doi: https://doi.org/10.59348/e4n5b-4mh18
 image:
   feature: header_bright.png
 layout: post
-ogImage: header_bright.png
+ogImage: images/header_bright.png
 title: On the Chromoclasm, the absence of colour, and notes towards a translation
   of Michel Pastoureau's ‘L’incolore n’existe Pas’
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3cth5u2p"
 ---
 
 Throughout the works of Michel Pastoureau (at least in his books on Black and Green) are sketched ideas of the notion of a "chromoclasm".

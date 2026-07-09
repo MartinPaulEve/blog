@@ -17,6 +17,7 @@ tags:
 title: Pynchon reference in the Economist
 wordpress_id: 668
 wordpress_url: https://www.martineve.com/?p=668
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkrkgwl2u"
 ---
 
 <div><img src="https://www.martineve.com/wp-content/uploads/2011/01/20110129_ldd001.jpg" alt="The Economist refers to Alaska as &quot;Lot 49&quot;" title="Pynchon in the Economist" width="595" height="335" class="alignnone size-full wp-image-669" /></p>

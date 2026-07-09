@@ -19,6 +19,7 @@ title: 'New Orbit review: American Postmodernist Fiction and the Past, by Theoph
   Savvas'
 wordpress_id: 2444
 wordpress_url: https://www.martineve.com/?p=2444
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhpchnm2t"
 ---
 
 <p>A quick note to say that David Letzler has very kindly submitted <a href="http://dx.doi.org/10.7766/orbit.v1.2.40">a review of American Postmodernist Fiction and the Past, by Theophilus Savvas</a> that is now live in Orbit 1.2.</p>

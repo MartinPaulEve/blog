@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/3vw6g-fjn47
 image:
   feature: header_ambulance.png
 layout: post
-ogImage: header_ambulance.png
+ogImage: images/header_ambulance.png
 title: A glimmer of hope
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lytkjie2u"
 ---
 
 # Affect Theory

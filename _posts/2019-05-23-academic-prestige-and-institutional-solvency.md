@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/pc77r-zh693
 image:
   feature: prestige.png
 layout: post
-ogImage: prestige.png
+ogImage: images/prestige.png
 title: Thoughts on academic prestige and institutional solvency
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6y7ap72q"
 ---
 
 The [economy of prestige in academia](https://doi.org/10.1017/CBO9781316161012.004) is odd. We often like to think that the prestige of our institutions -- whether that be a university or a publisher -- is not made on the basis of a monetary or financial decision. But I think there are lots of things that give the lie to this.

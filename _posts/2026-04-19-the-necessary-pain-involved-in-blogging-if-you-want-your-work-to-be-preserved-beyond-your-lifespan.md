@@ -9,9 +9,10 @@ image:
   title: An abstract image representing pain; it shows a hand coming up out of some
     water
 layout: post
-ogImage: pain.jpg
+ogImage: images/pain.jpg
 title: The Necessary Pain Involved in Blogging (if you want your work to be preserved
   beyond your lifespan)
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7luujmdm2a"
 ---
 
 I am thinking a lot these days about my own mortality. That's not because I am obsessed with death or anything of the sort. It's more that my health problems are accumulating and I do not know how long my body is going to hold out against them. It might be that I can clear all my current infections. But it turns out that norovirus, which I have had for four months, can be life threatening in the case of immunocompromised patients. Hence I keep thinking: what if it happens? What will the world look like after I am gone? The answer is probably not very different, but with some localized effects on those who care for me. But what about all that I have written, not just in formal academic publications, but on this blog, where I believe that there is matter worth persisting?

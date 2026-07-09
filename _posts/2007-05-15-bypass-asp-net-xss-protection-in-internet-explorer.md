@@ -11,7 +11,7 @@ doi: https://doi.org/10.59348/2sw0m-svg07
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -20,6 +20,7 @@ tags:
 title: Bypass ASP.NET XSS Protection in Internet Explorer
 wordpress_id: 290
 wordpress_url: http://pro.grammatic.org/post-bypass-aspnet-xss-protection-in-internet-explorer-8.aspx
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnu3nll2n"
 ---
 
 <p>ASP.NET comes preloaded with some default XSS protection which is actually pretty nifty. However, it turns out that the system can be circumvented by a variety of methods, as illustrated by this test input:</p>

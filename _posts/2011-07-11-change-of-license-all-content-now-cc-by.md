@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/cxz52-g4186
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -20,6 +20,7 @@ tags:
 title: 'Change of license: all content now CC-BY'
 wordpress_id: 1302
 wordpress_url: https://www.martineve.com/?p=1302
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk677ip2i"
 ---
 
 <p>As from July 11th, 2011, all content on this site, except where noted, is now available under the more permissive Creative Commons Attribution 3.0 license, as specified in the footer.</p>

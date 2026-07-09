@@ -15,6 +15,7 @@ tags:
 title: 'Impossible Objects: Preservation and Extinction (on the First Folio)'
 wordpress_id: 2266
 wordpress_url: https://www.martineve.com/?p=2266
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhwlhln2q"
 ---
 
 <p>News of the Bodleian's plans to <a href="http://www.guardian.co.uk/culture/2012/aug/02/bodleian-shakespeare-first-folio-online">digitise the First Folio</a> are to be welcomed, but several passages in this article made me question the purpose of indefinite preservation of this object... especially once that digitisation is complete.</p>

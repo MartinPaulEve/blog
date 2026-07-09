@@ -17,6 +17,7 @@ tags:
 title: Obfuscated fun
 wordpress_id: 263
 wordpress_url: http://pro.grammatic.org/post-obfuscated-fun-37.aspx
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mna3hse2h"
 ---
 
 <p>Just thought I'd share the following script vector with you all that I came up with while stressing PHPIDS today:</p>

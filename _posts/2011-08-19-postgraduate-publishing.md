@@ -17,6 +17,7 @@ tags:
 title: Postgraduate Publishing
 wordpress_id: 1415
 wordpress_url: https://www.martineve.com/?p=1415
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk2dkiw2p"
 ---
 
 <p>This post comes as a therapeutic exercise after having spent longer than I'd hoped bogged down writing an academic journal piece. I wanted to write a little on the topic of getting published as a postgraduate, when to start and how to go about it. I did <a href="https://www.martineve.com/2011/03/11/getting-published-in-academia/">write on this before</a>, but this is an expansion and refresher, so you can have the topic again!</p>

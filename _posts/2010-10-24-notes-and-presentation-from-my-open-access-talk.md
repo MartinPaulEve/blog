@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/5h626-06e32
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -20,6 +20,7 @@ tags:
 title: Notes and Presentation from my Open Access talk
 wordpress_id: 195
 wordpress_url: http://www.martineve.com/?p=195
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlqmsci2p"
 ---
 
 <p>In the spirit of the event, I am hereby releasing my presentation materials for the talk I gave at the University of Sussex's Open Access Week on the 20th of October 2010 under a Creative Commons <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC-BY-NC-SA</a> license (you can share and alter the work, non-commercially as long as you give me attribution for the original and distribute it under the same terms).</p>

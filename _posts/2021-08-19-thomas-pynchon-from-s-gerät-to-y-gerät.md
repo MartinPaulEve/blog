@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/tk334-0th06
 image:
   feature: header_rocket.png
 layout: post
-ogImage: header_rocket.png
+ogImage: images/header_rocket.png
 title: Thomas Pynchon, from S-Gerät to Y-Gerät
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2na7zc2e"
 ---
 
 One of the core plot devices (in so far as there is a plot) in Thomas Pynchon's 1973 novel, _Gravity's Rainbow_, is the S-Gerät: the Schwarzgerät or "black device", made from the plastic Imipolex G.

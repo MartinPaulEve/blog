@@ -12,7 +12,7 @@ doi: https://doi.org/10.59348/nx1wx-fcx72
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -21,6 +21,7 @@ tags:
 title: Dual Stage SQL Injection Attacks
 wordpress_id: 237
 wordpress_url: http://pro.grammatic.org/post-dual-stage-sql-injection-attacks-65.aspx
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmlccvx2t"
 ---
 
 <p>I came across quite an interesting SQL Injection scenario today. The software in which the vulnerability resides will remain anonymous until fixed, but an abstracted version of the scenario can safely be outlined below.</p>

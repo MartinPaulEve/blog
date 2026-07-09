@@ -10,9 +10,10 @@ image:
   feature: book-open.jpg
   title: Book Open
 layout: post
-ogImage: book-open.jpg
+ogImage: images/book-open.jpg
 title: Authorship, division of labour, material and digital form; thoughts on Samuel
   A. Moore's Publishing Beyond the Market
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvlct6b2h"
 ---
 
 On Christmas day, we had a quiet time this year. One of the things I did was to read Moore, Samuel A., Publishing Beyond the Market: Open Access, Care, and the Commons (University of Michigan Press, 2025). This is a most enjoyable book that outlines a project and worldview that I know Sam has been cultivating and refining for many years. I should stress that I am not writing a "review" here. I would be conflicted anyway as I am thanked in the acknowledgements. But it did, like all good books, make me think and I wanted to jot down some thoughts. These thoughts are not necessarily novel -- sometimes Sam even explores some of them in the book -- but I thought it would be enjoyable to express them nonetheless.

@@ -12,6 +12,7 @@ tags:
 - Conservatives
 - Human Rights
 title: Some thoughts on repealing the Human Rights Act
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mctgam62o"
 ---
 
 The new Conservative government in the United Kingdom has promised to scrap the Human Rights Act. The [rationale that they give for this](https://www.conservatives.com/~/media/files/downloadable%20Files/human_rights.pdf) centres around originalism (claiming that the HRA has been interpreted beyond its original scope) and national self-determination (the EU telling the UK government what laws it can pass).

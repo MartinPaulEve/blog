@@ -11,6 +11,7 @@ tags:
 - style
 - scholarly communications
 title: 'The politics of style: on styleguides in scholarly communications'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcghwob2q"
 ---
 
 In the past couple of weeks I've had a number of emails about the styleguide for the [Open Library of Humanities](https://www.openlibhums.org). Queries range from "my discipline does things differently, is that OK?" to "why bother maintaining your own style guide, why not just refer to a named style like Chicago?" Both good points. My own thinking actually goes further, though.

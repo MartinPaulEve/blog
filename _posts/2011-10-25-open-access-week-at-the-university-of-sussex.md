@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/vvr8q-rvz66
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -20,6 +20,7 @@ tags:
 title: Open Access Week at the University of Sussex
 wordpress_id: 1567
 wordpress_url: https://www.martineve.com/2011/10/25/open-access-week-at-the-university-of-sussex/
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjijbh22u"
 ---
 
 <p>Today is international Open Access Week and, in celebration and to raise awareness, I gave a talk and workshop at the University of Sussex for a cross-discipline audience. I was pleasantly surprised this year at the acceptance of an open culture and intrinsic understanding of the benefits of openness, both in monetary and permissive terms.</p>

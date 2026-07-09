@@ -56,6 +56,7 @@ title: 'A minor correction to Anne Mangel''s "Maxwell''s Demon, Entropy, Informa
   The Crying of Lot 49"'
 wordpress_id: 1683
 wordpress_url: https://www.martineve.com/2011/12/13/a-minor-correction-to-anne-mangels-maxwells-demon-entropy-information-the-crying-of-lot-49/
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjdvrr32h"
 ---
 
 <p>This is a brief, and perhaps pedantic, post to bring attention to an essay of extreme prominence in Pynchon studies, Anne Mangel, "Maxwell's Demon, Entropy, Information: The Crying of Lot 49",  <i>Triquarterly</i> 20 (1971): 194-208. (Future reference will be to the reprinted version Mangel, Anne. “Maxwell’s Demon, Entropy, Information: The Crying of Lot 49.” In Mindful Pleasures: Essays on Thomas Pynchon, edited by George Levine and David Leverenz, 87-99. Boston: Little  Brown, 1976, pp. 87-99.)</p>

@@ -9,6 +9,7 @@ published: true
 tags:
 - academic freedom
 title: '''It''s not about stifling academic freedom'''
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc77age2r"
 ---
 
 David Cameron, the Prime Minister of the United Kingdom, has "[named and shamed](http://www.huffingtonpost.co.uk/2015/09/17/david-cameron-urges-universities-to-combat-campus-extremism_n_8151286.html?1442503290)" several top universities for allowing claimed "hate speech" on campus. Cameron said:

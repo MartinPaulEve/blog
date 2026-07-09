@@ -18,6 +18,7 @@ tags:
 title: 'Publication: Historicizing the Iraq War in Don DeLillo’s Point Omega'
 wordpress_id: 3170
 wordpress_url: https://www.martineve.com/?p=3170
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7meweecr2s"
 ---
 
 <p>Update from <a href="https://www.martineve.com/2014/07/02/historicizing-the-iraq-war-in-don-delillos-point-omega-preprint-forthcoming-in-journal-of-american-studies/">a previous post</a>, now with a final PDF.</p>

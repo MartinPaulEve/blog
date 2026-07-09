@@ -4,6 +4,7 @@ date: 2017-11-20
 doi: https://doi.org/10.59348/6cjy0-r6v48
 layout: post
 title: My autoimmune diseases are attacking my ears and I am losing my hearing
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7zkace2r"
 ---
 
 This is partly a therapeutic post to get this off my chest and partly a post to which I can point friends and colleagues to avoid re-explaining everything every time.

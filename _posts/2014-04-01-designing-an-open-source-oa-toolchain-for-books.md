@@ -10,7 +10,7 @@ image:
   feature: oa.png
 layout: post
 link: http://www.asia-europe.uni-heidelberg.de/en/newsevents/news/detail/m/open-access-martin-eve.html
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -18,6 +18,7 @@ tags:
 title: Designing an open source OA toolchain for books
 wordpress_id: 3067
 wordpress_url: https://www.martineve.com/?p=3067
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfecoop2o"
 ---
 
 <p>The Cluster and the University Library invited Dr. Martin Eve (Lincoln University) for a two day intensive workshop with Dulip Withanage and Dr. Andrea Hacker to develop and design a publication tool for Open Access books. The workshop took place March 27-28.</p>

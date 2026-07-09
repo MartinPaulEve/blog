@@ -19,6 +19,7 @@ tags:
 title: 'First Fictions launch weekend: 20-22 January, 2012'
 wordpress_id: 1653
 wordpress_url: https://www.martineve.com/2011/12/01/first-fictions-launch-weekend-20-22-january-2012/
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjegkvh2r"
 ---
 
 <p>At last, the First Fictions launch weekend, featuring Ian Rankin, Nicholas Royle, Bryan Talbot, Elleke Boehmer, Adam Roberts and many others is <a href="http://www.firstfictions.com/first-fictions-events">available for booking</a>!</p>

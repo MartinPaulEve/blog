@@ -20,6 +20,7 @@ title: 'Publication: Review of Humanities in the Twenty-First Century: Beyond Ut
   and Markets'
 wordpress_id: 2952
 wordpress_url: https://www.martineve.com/?p=2952
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfu6sck2u"
 ---
 
 <p>I have a new review of Belfiore, Eleonora, and Anna Upchurch, eds., Humanities in the Twenty-first Century: Beyond Utility and Markets (Basingstoke: Palgrave Macmillan, 2013) <a href="http://www.tandfonline.com/doi/abs/10.1080/0950236X.2013.860285">now published in <i>Textual Practice</i></a>. You can also <a href="https://www.martineve.com/wp-content/uploads/2013/12/Martin-Paul-Eve-Review-of-Belfiore.pdf">read the Author Submitted Manuscript version</a>, should you so wish.</p>

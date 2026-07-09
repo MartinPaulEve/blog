@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/gh1mh-br368
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 title: Reloading SQLite databases in Django when there have been external changes
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lywqztc2r"
 ---
 
 My backup application, django-caretaker, has to reload the SQLite database after it has run the import procedure. Basically, we're using an external tool to recreate (delete and replace) the original SQL file on disk. But Django won't always reload this.

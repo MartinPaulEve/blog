@@ -5,9 +5,10 @@ doi: https://doi.org/10.59348/z3vcd-8g483
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 title: 'The second OA liberated article from my Leverhulme Prize: Natural language
   generation and authorial labour'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6ldjux2a"
 ---
 
 Some time around 2016 I was invited by Kasia Boddy and David Winters to contribute to a <a href="https://onlinelibrary.wiley.com/toc/14678705/2017/59/3">special issue of <i>Critical Quarterly</i> that they were putting together</a>. The issue was centred on notions of authorship in the digital age. This came at an opportune time as I had been playing with training a recurrent neural network on the back corpus of the literary studies journal, <i>Textual Practice</i>, and had some promising results. I felt I could definitely turn this weekend hobbyist project into something of broader interest.

@@ -36,13 +36,14 @@ doi: https://doi.org/10.59348/tt2fs-1hp39
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags: []
 title: 'Open Hardware: the Netgear WNR3500L'
 wordpress_id: 791
 wordpress_url: https://www.martineve.com/?p=791
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkls2k22s"
 ---
 
 <p><i>Featured image copyright, and courtesy of, <a href="http://www.myopenrouter.com">My Open Router</a>.</i></p>

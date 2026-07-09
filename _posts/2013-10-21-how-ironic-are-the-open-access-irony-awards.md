@@ -11,7 +11,7 @@ doi: https://doi.org/10.59348/zg970-89g70
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -19,6 +19,7 @@ tags:
 title: How ironic are the open access irony awards?
 wordpress_id: 2912
 wordpress_url: https://www.martineve.com/?p=2912
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfz6tfh2i"
 ---
 
 <p>I saw, going around on Twitter today, a 2012 article on the <a href="http://duncan.hull.name/2012/02/15/open-irony/">Open Access Irony Awards</a>. This site is dedicated to the practice of humorously exposing articles/editorials that are pro-open access, but locked behind paywalls. As someone who has written in support of OA in closed venues, I wanted to quickly write to ask: what is so ironic about this practice?</p>

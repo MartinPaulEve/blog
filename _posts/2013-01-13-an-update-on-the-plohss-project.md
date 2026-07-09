@@ -11,7 +11,7 @@ doi: https://doi.org/10.59348/dfecj-drb95
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -21,6 +21,7 @@ tags:
 title: An update on the PLOHSS project
 wordpress_id: 2582
 wordpress_url: https://www.martineve.com/?p=2582
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mh5f7r22s"
 ---
 
 <p>An email that I just sent out to people who have expressed an interest. If you'd like to know more, visit <a href="http://www.plohss.org">http://www.plohss.org</a> or <a href="mailto:martin@martineve.com?subject=PLOHSS">email me</a> with "PLOHSS" in the topic.</p>

@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/qkbgp-w7b36
 image:
   feature: header_infrastructure.png
 layout: post
-ogImage: header_infrastructure.png
+ogImage: images/header_infrastructure.png
 title: 'The Emergence of Threat Infrastructures: Plan S and Behavioral Change'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5doof52p"
 ---
 
 # Defining Threat Infrastructures

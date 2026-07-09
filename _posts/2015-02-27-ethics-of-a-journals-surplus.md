@@ -9,10 +9,11 @@ doi: https://doi.org/10.59348/yj4jf-pmk95
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 title: Ethics of a Journal's Surplus
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7md75hej2f"
 ---
 
 I wrote the following letter in [this week's Times Higher Education](http://www.timeshighereducation.co.uk/comment/letters/ethics-of-journals-surplus/2018757.article). I post it here for those who can't get past the paywall.

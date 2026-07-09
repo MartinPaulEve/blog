@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/292sw-5rq74
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -19,6 +19,7 @@ tags:
 title: XSS Tutorial
 wordpress_id: 278
 wordpress_url: http://pro.grammatic.org/post-xss-tutorial-20.aspx
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnhx4nq2i"
 ---
 
 <p>This page is designed to give an overview of Cross Site Scripting attacks on web sites, how they come into being, how to exploit them and how to protect against them.</p>

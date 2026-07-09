@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/vm5qk-61t57
 image:
   feature: drip.png
 layout: post
-ogImage: drip.png
+ogImage: images/drip.png
 title: How do you describe this kind of illness?
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6wlqf62o"
 ---
 
 The autoimmune conditions from which I suffer are a total pain to describe under the general frameworks within which most people understand illness.

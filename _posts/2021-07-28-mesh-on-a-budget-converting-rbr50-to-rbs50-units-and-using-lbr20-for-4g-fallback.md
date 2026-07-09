@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/a0583-f5w04
 image:
   feature: header_4g.png
 layout: post
-ogImage: header_4g.png
+ogImage: images/header_4g.png
 title: 'Mesh on a budget: converting RBR50 to RBS50 units and using LBR20 for 4G fallback'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2vr3b32i"
 ---
 
 For quite some time, I've wanted to have an internet system that could fallback to a 4G connection if the primary internet connection failed. This would be helpful for when I need to work/go to online meetings and my Virgin Media connection dies.

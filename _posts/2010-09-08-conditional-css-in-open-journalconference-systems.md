@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/8erd9-1dk39
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -21,6 +21,7 @@ tags:
 title: Conditional CSS in Open Journal/Conference Systems
 wordpress_id: 6
 wordpress_url: http://new.martineve.com/?p=6
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlrxicm2i"
 ---
 
 <p>    One of the most tedious aspects of establishing a uniquely themed Open Journal or Open Conference Systems site is in getting the CSS to work as you would like. While there are varying schools of thought regarding best practice for implementing cross browser compatibility, my chosen methodology is to write compliant XHTML 1.0 Transitional markup, followed by valid CSS 2 that should do the job, followed by the moderate contamination of conditional comments to include style sheets for Internet Explorer 6 and 7 where compliance isn't achieved.

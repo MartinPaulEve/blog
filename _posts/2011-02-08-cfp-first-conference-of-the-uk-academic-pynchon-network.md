@@ -18,6 +18,7 @@ tags:
 title: 'CFP: First Conference of the UK Academic Pynchon Network'
 wordpress_id: 746
 wordpress_url: https://www.martineve.com/?p=746
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkqku762a"
 ---
 
 <p><img src="https://www.martineve.com/wp-content/uploads/2011/02/Pynchon_V.jpg" alt="Pynchon&#039;s V" title="Pynchon V" style="width:330px;" class="alignnone size-full wp-image-747" /><br />

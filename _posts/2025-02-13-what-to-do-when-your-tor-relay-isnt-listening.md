@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/td9j1-v3t48
 image:
   feature: header_tor.png
 layout: post
-ogImage: header_tor.png
+ogImage: images/header_tor.png
 title: What to do when your Tor relay isn't listening
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lw7gg3o2f"
 ---
 
 I had a problem with [my Tor relay](/2025/02/06/going-dark-running-a-tor-relay-and-a-dark-web-version-of-this-site/) last night. For some reason, the application (daemon) started but then after about 5 seconds it stopped listening. The Tor Metrics site was displaying a red button saying my node was unreachable and when I did "sudo ss -ltp" I got nothing. The application literally wasn't "listening" (in network socket terms).

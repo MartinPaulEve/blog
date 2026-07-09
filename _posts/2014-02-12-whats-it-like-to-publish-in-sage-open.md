@@ -11,7 +11,7 @@ doi: https://doi.org/10.59348/cs1ss-tzm19
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -20,6 +20,7 @@ tags:
 title: What's it like to publish in SAGE Open?
 wordpress_id: 2625
 wordpress_url: https://www.martineve.com/?p=2625
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfpq6vf2r"
 ---
 
 <p>An evaluation of the experience of publishing in the only current humanities mega-journal. The short version: it was good! Your mileage may vary as they have different editors for difference pieces but mine was efficient and tough but fair. The review process was rigorous. My editorial process was coordinated by <a href="http://internet2.trincoll.edu/facProfiles/Default.aspx?fid=1015934">Lucy Ferris</a> who teaches a course on <i>Cloud Atlas</i> (on which my article focused) at Trinity College, Hartford, Connecticut.</p>

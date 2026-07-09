@@ -11,7 +11,7 @@ doi: https://doi.org/10.59348/xc4fv-rgq48
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -21,6 +21,7 @@ tags:
 title: Rockaby refactoring and abstraction
 wordpress_id: 450
 wordpress_url: http://www.martineve.com/?p=450
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlk47iu2h"
 ---
 
 <p><img class="alignnone" title="Rockaby" src="http://www.martineve.com/images/logo.png" alt="Rockaby Project" width="300" height="150" /></p>

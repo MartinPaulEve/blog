@@ -9,13 +9,14 @@ doi: https://doi.org/10.59348/h9jdq-qsv12
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 tags:
 - OA
 - BPC
 - books
 title: Some numbers on book processing charge scalability
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc4wryo2u"
 ---
 
 Thinking more about how book processing charges concentrate costs.

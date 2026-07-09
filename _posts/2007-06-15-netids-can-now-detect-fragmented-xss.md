@@ -11,7 +11,7 @@ doi: https://doi.org/10.59348/p5r60-2gk97
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -22,6 +22,7 @@ tags:
 title: .NETIDS can now detect fragmented XSS
 wordpress_id: 272
 wordpress_url: http://pro.grammatic.org/post-netids-can-now-detect-fragmented-xss-27.aspx
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnfei532a"
 ---
 
 <p>Today I made some large commits to the <a href="http://code.google.com/p/dotnetids">.NETIDS project</a> to enable detection of fragmented XSS attacks.</p>

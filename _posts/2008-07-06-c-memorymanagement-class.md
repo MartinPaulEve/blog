@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/9m7s6-f3k18
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -21,6 +21,7 @@ tags:
 title: C# MemoryManagement Class
 wordpress_id: 253
 wordpress_url: http://pro.grammatic.org/post-c-memorymanagement-class-49.aspx
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmr5oyx2t"
 ---
 
 <p>Well, first off, this is the first post using the new blogging solution! Let's hope it works!</p>

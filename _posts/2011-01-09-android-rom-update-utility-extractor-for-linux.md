@@ -21,7 +21,7 @@ doi: https://doi.org/10.59348/wzhqv-xpg98
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -31,6 +31,7 @@ tags:
 title: Android Rom Update Utility extractor for Linux
 wordpress_id: 535
 wordpress_url: http://www.martineve.com/?p=535
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkxgfft2i"
 ---
 
 <p>As my hobby-geek phase draws to a close and I return well and truly to my PhD, I thought it worth sharing this python script I wrote a while back which will extract the update.zip file from an Android RUU.exe file on Linux. There are other items out there that do the same thing, but this is my effort.</p>

@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/1jy9v-2cc59
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -20,6 +20,7 @@ tags:
 title: 'Mythbusting: "A Proposed List — 60 Things Journal Publishers Do"'
 wordpress_id: 2250
 wordpress_url: https://www.martineve.com/?p=2250
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mi52yyj2i"
 ---
 
 <p>Kent Anderson recently wrote a post over at Scholarly Kitchen entitled "<a href="http://scholarlykitchen.sspnet.org/2012/07/18/a-proposed-list-60-things-journal-publishers-do/">A Proposed List — 60 Things Journal Publishers Do</a>". I think this list needs a little mythbusting: I agree with some of the points, think others need qualifying and that others are just hands-down false. So here's my rundown:</p>

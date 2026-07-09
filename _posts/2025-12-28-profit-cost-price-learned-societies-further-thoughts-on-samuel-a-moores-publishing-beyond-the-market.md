@@ -10,9 +10,10 @@ image:
   feature: book-open.jpg
   title: Book Open
 layout: post
-ogImage: book-open.jpg
+ogImage: images/book-open.jpg
 title: Profit, cost, price, learned societies; further thoughts on Samuel A. Moore's
   Publishing Beyond the Market
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvjqmoe2i"
 ---
 
 Since [I last wrote](https://doi.org/10.59348/cwncn-5122), I have had a few more thoughts on Samuel Moore's book. Again, these are not necessarily things that he does not discuss or things that he should have discussed. They are merely thoughts that occurred to me in response to reading his work.

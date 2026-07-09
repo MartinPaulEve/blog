@@ -13,6 +13,7 @@ tags: []
 title: Orbit 1.2 is now "open" and our "rolling format" is live
 wordpress_id: 2437
 wordpress_url: https://www.martineve.com/?p=2437
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhqrxve2h"
 ---
 
 <p>I'm pleased to announce that <a href="https://www.pynchon.net/owap/index"><i>Orbit: Writing Around Pynchon</i></a> today launched into its second issue.</p>

@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/h4kxf-y2560
 image:
   feature: header_medical.png
 layout: post
-ogImage: header_medical.png
+ogImage: images/header_medical.png
 title: 'The easing of shielding: the UK government''s abrogation of responsibility'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5kal7u2f"
 ---
 
 Anyone who has followed the UK government's attitude to the sick and disabled over the past few years will be unsurprised by the way they are relaxing shielding in the midst of the coronavirus pandemic.

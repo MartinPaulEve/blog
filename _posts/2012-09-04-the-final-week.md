@@ -16,6 +16,7 @@ tags:
 title: The Final Week
 wordpress_id: 2354
 wordpress_url: https://www.martineve.com/?p=2354
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhttj6h2r"
 ---
 
 <p>With less than a week until my Ph.D. viva, I've been taking everyone's advice to heart and not going completely nuts on the revision. After all, I do know this stuff pretty damn well. Anyway, just so I remember what I did this week, I wanted to make a public note of it (probably of more use if, after the event itself, I can say it worked...)</p>

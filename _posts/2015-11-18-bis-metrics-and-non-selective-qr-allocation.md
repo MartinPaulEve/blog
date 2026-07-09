@@ -15,6 +15,7 @@ tags:
 - QR
 - green paper
 title: BIS, metrics and non-selective QR-allocation
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc4keo42t"
 ---
 
 This post originally appeared in an [edited form on Wonkhe](http://wonkhe.com/blogs/bis-metrics-and-non-selective-qr-allocation/).

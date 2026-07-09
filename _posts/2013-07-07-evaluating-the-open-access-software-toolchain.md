@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/1qjzt-kfe68
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -19,6 +19,7 @@ tags:
 title: Evaluating the Open Access software toolchain
 wordpress_id: 2737
 wordpress_url: https://www.martineve.com/?p=2737
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgofozx2a"
 ---
 
 <p>I received an interesting email this week from <a href="https://github.com/NateWr">Nate Wright</a>, who posed the following questions:</p>

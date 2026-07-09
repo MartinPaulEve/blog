@@ -9,7 +9,7 @@ doi: https://doi.org/10.59348/fkj4k-hgr68
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -18,6 +18,7 @@ title: Why do some academic publishers think they should charge extra for more l
   licenses (CC BY)?
 wordpress_id: 3199
 wordpress_url: https://www.martineve.com/?p=3199
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mev4qqh2a"
 ---
 
 <p>In recent days, there has been a <a href="https://theconversation.com/top-scientific-publisher-chooses-not-to-advance-open-access-31248">surge of opposition</a> from some members of the scientific community over the new journal being launched by the American Association for the Advancement of Science. Aside from the high base-level charge from this publisher, which seems outside of the norm, one of the most controversial elements (also seen with some other publishers) is that the AAAS wants to charge more for a more liberal license. Why is this the case?</p>

@@ -27,6 +27,7 @@ tags:
 title: 'Book: Pynchon and Philosophy: Wittgenstein, Foucault and Adorno'
 wordpress_id: 3074
 wordpress_url: https://www.martineve.com/?p=3074
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfdobbu2r"
 ---
 
 <p>Martin Paul Eve, <a href="http://www.palgrave.com/products/title.aspx?pid=753605&utm_source=SilverpopMailing&utm_medium=email&utm_campaign=SRL0716%20-%20Literature%20Newsletter%20April%20UK%20Atlas%20%281%29&utm_content=&spMailingID=45581591&spUserID=ODg2NDk0OTY4MjYS1&spJobID=421057379&spReportId=NDIxMDU3Mzc5S0"><i>Pynchon and Philosophy</i></a> (Basingstoke: Palgrave Macmillan, 2014)</p>

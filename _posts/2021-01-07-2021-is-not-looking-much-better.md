@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/vy5rg-b1x08
 image:
   feature: header_2020.png
 layout: post
-ogImage: header_2020.png
+ogImage: images/header_2020.png
 title: Attempted realistic observations on 2021
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3y46hl2t"
 ---
 
 There was some research earlier this year that I thought was apt for the pandemic, showing that [realism is key to being happy](https://theconversation.com/why-realism-is-the-key-to-wellbeing-new-research-139717), not optimism or pessimism.

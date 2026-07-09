@@ -15,6 +15,7 @@ tags:
 - academic freedom
 - green paper
 title: Institutional Finance and Academic Freedom
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbuck6n2e"
 ---
 
 An [article in the Times Higher Education yesterday](https://www.timeshighereducation.com/news/several-london-post-92s-see-falls-battle-students) got me thinking about institutional stability, finance, and the ongoing "reforms" to UK higher education. For those who don't know the background: until recently, universities who wanted their students to be able to get the government-underwritten income-contingent repayment loans could only recruit a specific number of students. This is referred to as the "numbers cap" or "recruitment cap". In 2013, the government announced that it was to remove the cap, a move implemented in 2015. The government's thinking behind this is about marketisaton of the HE sector. As far as they are concerned, the numbers cap represented an artificial barrier on student choice/mobility and also gave too much financial stability to incumbent entities (thereby, in their logic, giving no incentive to "innovate").

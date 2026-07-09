@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/9x33x-1ky82
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 title: Static site hosting in the cloud should not be this hard in 2022
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lz6isj42h"
 ---
 
 Last weekend I converted my website hosting to an infrastructure-as-code solution. It's no big deal, I thought. It's just a static site so it must be really easy to provision this. Surely just some kind of AWS S3 bucket associated with a custom domain? I mean, generated static sites are great. They are fast, lightweight, and virtually un-hackable. Surely it must be easy to deploy this?

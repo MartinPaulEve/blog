@@ -9,13 +9,14 @@ doi: https://doi.org/10.59348/ny4q3-hpt21
 image:
   feature: CaSSius.png
 layout: post
-ogImage: CaSSius.png
+ogImage: images/CaSSius.png
 published: true
 tags:
 - typesetter
 - PDF
 - OLH
 title: 'CaSSius: a PDF typesetter using CSS regions (via polyfill)'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcfgfg22a"
 ---
 
 ![CaSSiuS](/images/CaSSius.png)

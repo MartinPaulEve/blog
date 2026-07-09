@@ -8,8 +8,9 @@ image:
   feature: book_open.jpg
   title: An image of someone reading a book
 layout: post
-ogImage: book_open.jpg
+ogImage: images/book_open.jpg
 title: Too much publishing...
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7luxhmyr2h"
 ---
 
 It turns out that there is a very long genealogy of saying that there is too much work/scholarship, or too many books, published. I was having an email conversation with Jan Erik Frantsvåg, who is an absolute legend in the scholarly communications world, because of his work on the Tromsø Munin Conferences every year, and he asked about this question. On this subject, I really recommend reading Blair, Ann, _Too Much to Know: Managing Scholarly Information before the Modern Age_ (Yale University Press, 2010), which traces the story well (and from which all of this post is derived; I am not professing any novelty, here).

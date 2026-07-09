@@ -22,6 +22,7 @@ tags: []
 title: The only known inscribed Pynchon book with a presentation letter
 wordpress_id: 1721
 wordpress_url: https://www.martineve.com/2012/01/03/the-only-known-inscribed-pynchon-book-with-a-presentation-letter/
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjbrae72i"
 ---
 
 <p>Pynchon <a href="http://www.top100classicliterature.com/2011/05/are-scanners-ruining-our-literature-or-whose-v-are-you-reading/">biography sleuth</a>, <a href="http://bookclubs.barnesandnoble.com/t5/Unabashedly-Bookish-The-BN/A-Note-for-Pynchon-Readers/ba-p/374573">Albert Rolls</a>, sent me information today of the only known inscribed Pynchon book complete with a presentation letter.</p>

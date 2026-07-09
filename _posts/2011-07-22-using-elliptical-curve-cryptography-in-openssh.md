@@ -75,7 +75,7 @@ doi: https://doi.org/10.59348/dz3dw-gxh20
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -86,6 +86,7 @@ tags:
 title: Using Elliptical Curve Cryptography in OpenSSH
 wordpress_id: 1329
 wordpress_url: https://www.martineve.com/?p=1329
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk4rvey2f"
 ---
 
 <p>Having read <a href="http://lackof.org/taggart/hacking/ssh/">two great posts</a> on <a href="http://pthree.org/?p=1930">OpenSSH best practices</a>, I decided today that I wanted to upgrade my SSH key architecture to use <a href="http://pthree.org/2011/02/17/elliptic-curve-cryptography-in-openssh/">Elliptical Curve Cryptography</a>. There were several gotchas involved that I thought it would be worth sharing here. There are, at the time of writing, no packages for Fedora 15 or Debian stable that I could find, so I've worked from source.</p>

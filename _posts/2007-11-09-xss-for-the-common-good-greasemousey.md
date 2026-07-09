@@ -19,7 +19,7 @@ doi: https://doi.org/10.59348/gd4hj-66c94
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -29,6 +29,7 @@ tags:
 title: XSS for the common good - GreaseMousey
 wordpress_id: 261
 wordpress_url: http://pro.grammatic.org/post-xss-for-the-common-good--greasemousey-39.aspx
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mn7y4la2f"
 ---
 
 <p>I know I haven't posted anything here for a good while, but that's because on top of uni work I have a surprise up my sleeve in the not so distant future. I also do intend to continue working on .NETIDS when I finally get some time!</p>

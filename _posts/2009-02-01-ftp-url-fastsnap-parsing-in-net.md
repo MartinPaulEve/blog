@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/11rxw-mwh37
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -21,6 +21,7 @@ tags:
 title: FTP URL FastSnap Parsing in .NET
 wordpress_id: 236
 wordpress_url: http://pro.grammatic.org/post-ftp-url-fastsnap-parsing-in-net-66.aspx
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmkriyl2n"
 ---
 
 <p>Sometimes, the built in functions of a framework are good enough for your purpose and there is no point in reinventing the wheel. Fine examples of this are to be found at <a href="http://thedailywtf.com">The Daily WTF</a>, one of my personal faves being <a href="http://thedailywtf.com/Articles/The-Backup-Snippet.aspx">The Backup Snippet</a>.</p>

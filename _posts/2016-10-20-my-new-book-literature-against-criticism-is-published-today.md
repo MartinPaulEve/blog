@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/mhhn8-37692
 image:
   feature: againstcrit.jpg
 layout: post
-ogImage: againstcrit.jpg
+ogImage: images/againstcrit.jpg
 title: My new book, Literature Against Criticism, is published today
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7maxebjk2i"
 ---
 
 I am extremely pleased to say that my latest peer-reviewed book, _Literature Against Criticism: University English and Contemporary Fiction in Conflict_ has today been published by Open Book Publishers!

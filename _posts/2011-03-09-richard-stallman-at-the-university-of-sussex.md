@@ -200,6 +200,7 @@ tags:
 title: Richard Stallman at the University of Sussex
 wordpress_id: 829
 wordpress_url: https://www.martineve.com/?p=829
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkk2gdq2f"
 ---
 
 <p><img src="https://www.martineve.com/wp-content/uploads/2011/03/IMAG0041-1024x612.jpg" alt="Richard Stallman at Sussex" title="Richard Stallman at Sussex" style="width:750px;" class="alignnone size-large wp-image-830" />Yesterday I had the pleasure of attending a talk by Richard Stallman, the pioneer of the CopyLeft movement, at the University of Sussex. Stallman was speaking on the need to reform a copyright system which has outgrown the historical circumstances of its creation and now serves the mega corporations, such as Disney, as opposed to the majority of the population.</p>

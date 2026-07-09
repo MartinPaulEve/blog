@@ -9,6 +9,7 @@ published: true
 tags:
 - copyright
 title: 'Another copyright absurdity: using film screenshots'
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mctcp6s2a"
 ---
 
 Just a little anger/despair at the state of our cultural industries.

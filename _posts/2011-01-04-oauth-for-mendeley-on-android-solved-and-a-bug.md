@@ -20,7 +20,7 @@ doi: https://doi.org/10.59348/2sbef-mtt65
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -30,6 +30,7 @@ tags:
 title: 'OAuth for Mendeley on Android: solved and a bug'
 wordpress_id: 515
 wordpress_url: http://www.martineve.com/?p=515
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7ml7i6nd2h"
 ---
 
 <p>Thanks to Clemens' comment on my last post, I have managed to track down the problems that I was having with OAuth for Mendeley on Android; it's all callback related.</p>

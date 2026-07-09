@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/t2y97-p9994
 image:
   feature: crumar.png
 layout: post
-ogImage: crumar.png
+ogImage: images/crumar.png
 title: How to fix a broken Crumar Bit99 synthesizer
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3jircj2a"
 ---
 
 A friend chucked me an old Crumar Bit99 synthesizer from the 1980s. It's a beast! Lovely bass sounds. Totally unusable interface. See figure A.

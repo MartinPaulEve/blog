@@ -11,7 +11,7 @@ doi: https://doi.org/10.59348/acgx8-4jy78
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -20,6 +20,7 @@ tags:
 title: Wikipedia Stats Visualized
 wordpress_id: 1977
 wordpress_url: https://www.martineve.com/2012/03/18/wikipedia-stats-visualized/
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mipw7wt2h"
 ---
 
 <p>I have been asked, by an EdTech researcher called Jen Rhee, to share this graphic, which comes courtesy of <a href="http://open-site.org/wikipedia/">Open-Site</a> under a CC-BY-ND license, in order to solicit further comments. Aside from the pedantic tic that I had when reading "amount of books", the graphic is pretty interesting. Wikipedia gets 4 times as many page views as libraries receive visits (US?). Considering how easy it is to visit Wikipedia, as opposed to going to a library, I'd say libraries are doing pretty well there.</p>

@@ -10,7 +10,7 @@ image:
   feature: oa.png
 layout: post
 link: http://www.theguardian.com/science/occams-corner/2014/jul/28/open-access-effective-measures-threat
-ogImage: oa.png
+ogImage: images/oa.png
 published: true
 status: publish
 tags:
@@ -19,6 +19,7 @@ tags:
 title: 'Open access: effective measures to put UK research online under threat?'
 wordpress_id: 3161
 wordpress_url: https://www.martineve.com/?p=3161
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mex7brx2o"
 ---
 
 <p>A great deal of water has passed under the bridge in the two years since the UK government reinvigorated its push towards open access – making publicly funded research papers freely available online. Although there is broad agreement on the policy, vociferous debates have raged over the details of implementation. Should the UK policy favour gold open access – making research papers freely available via the journal where they are published – or green open access, where the paper (usually the author’s final revision following peer review) is placed in a freely accessible university repository?</p>

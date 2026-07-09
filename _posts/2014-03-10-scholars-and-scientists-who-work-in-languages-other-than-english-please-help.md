@@ -15,6 +15,7 @@ tags:
 title: 'Scholars and scientists who work in languages other than English: please help'
 wordpress_id: 3056
 wordpress_url: https://www.martineve.com/?p=3056
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mff6xtl2q"
 ---
 
 <p>As you may, or may not, know, I am working on an open source tool for scholarly article typesetting. Whether you care about this or not (it's quite geeky in some ways, but I think important), if you speak a language other than English, then I need your help. One of the things this software has to do is to try to work out where in a document we might find a list of works cited by either a scientist or a scholar. We have various ways that we can do this structurally (looking for likely patterns, dates in consecutive lines in last paragraph etc.) but when those fail, we fall back to using linguistic cues.</p>

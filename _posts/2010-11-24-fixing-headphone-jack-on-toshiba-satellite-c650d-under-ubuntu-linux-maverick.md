@@ -89,13 +89,14 @@ doi: https://doi.org/10.59348/jakqz-9mm63
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags: []
 title: Fixing headphone jack on Toshiba Satellite C650D under Ubuntu Linux Maverick
 wordpress_id: 442
 wordpress_url: http://www.martineve.com/?p=442
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mllb36j2q"
 ---
 
 <p>There is an annoying bug on Toshiba Satellite Machines running Ubuntu Linux (seems variants up to Maverick) which means that plugging in to the headphone jack does not work and, also, that speakers continue to play sound.</p>

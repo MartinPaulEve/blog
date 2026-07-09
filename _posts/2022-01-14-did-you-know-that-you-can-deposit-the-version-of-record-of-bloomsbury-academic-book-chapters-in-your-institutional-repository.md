@@ -5,9 +5,10 @@ doi: https://doi.org/10.59348/k7q6d-h1824
 image:
   feature: oa.png
 layout: post
-ogImage: oa.png
+ogImage: images/oa.png
 title: Did you know that you can deposit the version of record of Bloomsbury Academic
   book chapters in your institutional repository?
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzgxuek2r"
 ---
 
 As part of my ongoing quest to try to ensure that as much of my work is as accessible as possible, I was negotiating a contract with Bloomsbury Academic, asking for permission to deposit.

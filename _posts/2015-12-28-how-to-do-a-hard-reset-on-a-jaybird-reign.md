@@ -7,11 +7,12 @@ doi: https://doi.org/10.59348/j88g8-25h13
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 tags:
 - tech
 title: How to do a hard reset on a Jaybird Reign
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbxhio22h"
 ---
 
 So, probably against my better thoughts with respect to quantified self stuff, I got a fitness tracker for Christmas: the Jaybird Reign. The trouble was, regardless of what I tried, it just wouldn't pair with my phone (I'd followed all the instructions). I grudgingly waited until the tech. support team was open and got in touch, thinking I'd have to RMA the unit.

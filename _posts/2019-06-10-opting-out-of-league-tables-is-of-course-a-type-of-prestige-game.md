@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/rr7wq-dfs38
 image:
   feature: post_images/Birkbeck.jpg
 layout: post
-ogImage: post_images/Birkbeck.jpg
+ogImage: images/post_images/Birkbeck.jpg
 title: Opting out of league tables is, of course, a type of prestige game
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6u6bqp2q"
 ---
 
 Birkbeck, University of London, my institution, has [pulled out of all national league tables](http://www.bbk.ac.uk/news/league-tables). I think this is a good move.

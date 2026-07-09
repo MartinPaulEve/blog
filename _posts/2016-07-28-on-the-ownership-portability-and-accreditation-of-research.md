@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/31v37-2yv15
 image:
   feature: ref.png
 layout: post
-ogImage: ref.png
+ogImage: images/ref.png
 title: On the ownership, portability and accreditation of research
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mb6qvtd2p"
 ---
 
 One of the aspects of the Stern review that has attracted the most attention from my Twitter stream is the non-portability of research outputs. What this means is that institutions cannot poach staff from elsewhere and use their outputs to return to REF.

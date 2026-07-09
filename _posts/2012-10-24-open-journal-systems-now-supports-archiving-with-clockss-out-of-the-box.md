@@ -12,7 +12,7 @@ doi: https://doi.org/10.59348/8jxav-6n827
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -21,6 +21,7 @@ tags:
 title: Open Journal Systems now supports archiving with CLOCKSS out of the box
 wordpress_id: 2453
 wordpress_url: https://www.martineve.com/?p=2453
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mholdlb2n"
 ---
 
 <p>I'm pleased to say that <a href="http://pkp.sfu.ca/bugzilla/show_bug.cgi?id=7958">my patch</a> to add a CLOCKSS manifest to OJS' LOCKSS page <a href="https://github.com/pkp/ojs/commit/b38d1e86c7f918cfcd76baa5bd47eb0bc36f6173">has been merged</a>!</p>

@@ -10,7 +10,7 @@ doi: https://doi.org/10.59348/rb4hr-3h831
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -18,6 +18,7 @@ tags:
 title: Fetching files via echo, FTP in a non interactive shell environment
 wordpress_id: 240
 wordpress_url: http://pro.grammatic.org/post-fetching-files-via-echo-ftp-in-a-non-interactive-shell-environment-62.aspx
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmm5e5h2t"
 ---
 
 <p>Once you have basic, non-interactive shell access to a Windows box, there are a limited number of ways in which you can transfer files to the remote host. This brief article will explicate the echo/ftp method.</p>

@@ -21,6 +21,7 @@ title: 'Conference Paper: "Floats Like a Butterfly, Stings Like a Finch: Adorno,
   and Open Access Publishing" (Lincoln University)'
 wordpress_id: 2594
 wordpress_url: https://www.martineve.com/?p=2594
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgyg4xn2q"
 ---
 
 <p>Co-presented with <a href="http://www.drcarolineedwards.com">Dr. Caroline Edwards</a>: "<a href="http://21cresearchgroup.blogs.lincoln.ac.uk/2013/01/16/upcoming-21st-century-research-group-meetings/">Floats Like a Butterfly, Stings Like a Finch: Adorno, Utopia and Open Access Publishing</a>", <i>Lincoln University</i>, 21st-Century Research Group, Weds 27th Feb 4.15-5.30, MC0024</p>

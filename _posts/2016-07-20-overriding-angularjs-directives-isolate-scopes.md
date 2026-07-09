@@ -5,8 +5,9 @@ doi: https://doi.org/10.59348/8kmyx-jg122
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 title: Overriding AngularJS directives' isolate scopes
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbanjao2u"
 ---
 
 We have a third-party Angular app and want to override the isolate scopes that are provided by its directives. We don't want to modify the original app. How can we do this? We use a decorator in our app controller to specify that only the code in the local app should be run. I'm pretty new to Angular, so there's probably some mistakes in the below terminology, but this works...

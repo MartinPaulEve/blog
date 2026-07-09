@@ -7,10 +7,11 @@ doi: https://doi.org/10.59348/6nsg9-qk387
 image:
   feature: post_images/Cerf.jpg
 layout: post
-ogImage: post_images/Cerf.jpg
+ogImage: images/post_images/Cerf.jpg
 published: true
 tags: []
 title: Vint Cerf on Digital Preservation at AAUP 2015
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcne5o62o"
 ---
 
 Vint Cerf is one of the few people in the world who can viably use the phrase "my internet" in a talk and it be true. Tim Berners-Lee developed the Hypertext Transfer Protocol (HTTP) which underlies the transfer of hyperlinked documents on the World Wide Web. This is an Application protocol, meaning that it sits at the highest level of the internet. In the [OSI Model](https://en.wikipedia.org/wiki/OSI_model), Cerf and his colleagues developed the TCP/IP protocols which are the Network and Transport layers that sit as the fundamental backbone of how packet switched networks communicate. "My internet" indeed.

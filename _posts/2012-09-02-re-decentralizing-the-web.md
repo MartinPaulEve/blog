@@ -9,7 +9,7 @@ doi: https://doi.org/10.59348/b3gep-znb42
 image:
   feature: geek.png
 layout: post
-ogImage: geek.png
+ogImage: images/geek.png
 published: true
 status: publish
 tags:
@@ -20,6 +20,7 @@ tags:
 title: Re-Decentralizing the Web
 wordpress_id: 2344
 wordpress_url: https://www.martineve.com/?p=2344
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhupnjr2e"
 ---
 
 <p>I have just seen, via <a href="https://maitzen.wordpress.com/">Rohan Maitzen</a> on Twitter, <a href="http://philosopherscocoon.typepad.com/blog/2012/08/making-the-first-day-not-the-worst-day.html">a useful page of suggestions</a> for the "first day of term", teaching-wise. This led me to re-think a few of the ways in which I think the web should work.</p>

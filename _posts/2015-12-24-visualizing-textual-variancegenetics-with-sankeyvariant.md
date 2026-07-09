@@ -8,19 +8,20 @@ doi: https://doi.org/10.59348/qfy1q-82t83
 image:
   feature: post_images/2015-12-Sankey.png
 layout: post
-ogImage: post_images/2015-12-Sankey.png
+ogImage: images/post_images/2015-12-Sankey.png
 published: true
 tags:
 - software
 - digital humanities
 title: Visualizing textual variance/genetics with SankeyVariant
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbxz46b2f"
 ---
 
 Over the holiday period I wanted to visualize the differences between two editions of a text that I had found to be very different (more on this in the new year). I couldn't find a ready-made solution, so I put together a small piece of software to achieve this: [SankeyVariant](https://github.com/MartinPaulEve/SankeyTextualVariant).
 
 The software is based on d3.js and the Sankey plugin and, with the modifications that I have introduced, it allows the production of diagrams like this:
 
-[![Sankey Diagram](/images/post_images/2015-12-Sankey.png)](/images/post_images/2015-12-Sankey.png)
+<img src="/images/post_images/2015-12-Sankey.png" style="width: 100%"/>
 
 The idea here is that, in this case, chunks of identifiable text in one edition (on the left) are mapped onto chunks in the corresponding edition (on the right). In this instance, I have numbered paragraphs but there is no reason that it couldn't be done with actual textual correlation. All that is needed is a way to produce the relevant JSON for your use case. In my use case, the JSON looks like this:
 
