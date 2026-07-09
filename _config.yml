@@ -88,5 +88,5 @@ owner:
   repository: http://eprints.bbk.ac.uk/view/people/Eve=3AMartin_Paul=3A=3A.html
   orcid: 0000-0002-5589-8511
 
-include: [".htaccess", "ttr"]
+include: [".htaccess", "ttr", ".well-known"]
 exclude: ["lib", "config.rb", "Capfile", "_config.yml", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "*.sh", "zotero.md"]
