@@ -10,5 +10,7 @@
     "publishDate": "date"
   },
   "publishContent": true,
-  "bluesky.maxAgeDays": 0
+  "bluesky.maxAgeDays": 0,
+  "pathTemplate": "/{yearUTC}/{monthUTC}/{dayUTC}/{slug}",
+  "stripDatePrefix": true
 }
