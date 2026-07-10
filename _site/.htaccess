@@ -10,7 +10,7 @@ allow from all
 order deny,allow
 deny from all
 </Limit>
-AuthName martineve.com
+AuthName eve.gd
 
 RewriteCond %{HTTP_HOST} ^martineve.com$ [OR]
 RewriteCond %{HTTP_HOST} ^eve.gd$ [OR]
@@ -47,7 +47,6 @@ RewriteRule ^password$ "http://objectsobjectsobjects.com/password/" [R=302,L]
 RewriteRule ^wp-content/(.*)$ /images/$1 [R=301,NC,L]
 
 RewriteRule ^feed$ /feed.xml [R=301,NC,L]
-RewriteRule ^feed/(.*)$ /feed.xml [R=301,NC,L]
 
 RewriteCond %{HTTP_HOST} ^martineve\.com$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.martineve\.com$
