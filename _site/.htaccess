@@ -47,7 +47,7 @@ RewriteRule ^password$ "http://objectsobjectsobjects.com/password/" [R=302,L]
 RewriteRule ^wp-content/(.*)$ /images/$1 [R=301,NC,L]
 
 RewriteRule ^feed$ /feed/feed.atom [R=301,NC,L]
-RewriteRule ^feed.xml$ /feed/feed.atom [R=301,NL,L]
+RewriteRule ^feed.xml$ /feed/feed.atom [R=301,NC,L]
 
 RewriteCond %{HTTP_HOST} ^martineve\.com$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.martineve\.com$
