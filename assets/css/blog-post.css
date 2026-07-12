@@ -171,6 +171,11 @@
 
 .post-body {
     max-width: 800px;
+    /* As the 1fr track of the post grid, this defaults to min-width:auto, which
+       refuses to shrink below its content's min-content — long unbreakable code
+       lines/URLs then force the grid (and sidebar) past the viewport. min-width:0
+       lets the track shrink so `.post-body pre { overflow-x:auto }` can scroll. */
+    min-width: 0;
 }
 
 /* Post Body Typography */
