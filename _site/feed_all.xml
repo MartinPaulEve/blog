@@ -4,13 +4,54 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="https://eve.gd/feed.xml" />
 <link rel="alternate" type="text/html" href="https://eve.gd" />
-<updated>2026-07-09T15:20:17+01:00</updated>
+<updated>2026-07-12T15:38:27+01:00</updated>
 <id>https://eve.gd/</id>
 <author>
   <name>Martin Paul Eve</name>
   <uri>https://orcid.org/0000-0002-5589-8511</uri>
   <email>martin.eve@bbk.ac.uk</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Investigating ATProto here and for Knowledge Commons]]></title>
+  <link rel="alternate" type="text/html" href="https://eve.gd/2026/07/10/investigating-atproto-here-and-for-knowledge-commons/" />
+  
+  <id>https://doi.org/10.59348/r3x69-k5d70</id>
+  
+  <published>Friday, 10 July 2026 15:55:58 +0``000</published>
+  <updated>2026-07-10T00:00:00+01:00</updated>
+  <author>
+    <name>Martin Paul Eve</name>
+    <uri>https://orcid.org/0000-0002-5589-8511</uri>
+    
+  </author>
+  <content type="html"><![CDATA[
+    &lt;p&gt;After a recent post by &lt;a href=&quot;https://brennan.day/publishing-my-eleventy-blog-to-the-atmosphere-with-standard-site/&quot;&gt;Brennan Kenneth Brown&lt;/a&gt;, I decided to investigate what it would take to get this site – and, then, Knowledge Commons – onto the ATmosphere, using ATProto. This was a pretty steep learning curve, as I did not, before, understand many of the key concepts in this space. After succeeding, though, in publishing this blog to the ATmosphere (I took Brennan’s excellent advice to proceed immediately to Sequoia) I am left pondering.&lt;/p&gt;
+
+&lt;p&gt;First, what is this ATmosphere thing? Well, it’s the protocol behind Bluesky and, basically, it provides a decentralized storage system for objects of any type. Bluesky posts have a type of “app.bsky.feed.post” while my blog posts are “site.standard.document”. Various new platforms are emerging that can read and write to the ATmosphere, so it gives a new discovery layer (see &lt;a href=&quot;https://pckt.blog/read?search=martin+eve+fair+square&quot;&gt;e.g. this search&lt;/a&gt;), but also, in theory, a decoupled presentation layer; so how the site appears will be in the hands of the receiver, rather than determined by the writer.&lt;/p&gt;
+
+&lt;p&gt;Now, though, let’s see what I have achieved… If you visit a recent post, you may notice that there are now two link tags in the document head:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;link rel=&quot;site.standard.document&quot; href=&quot;at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lupu73d2i&quot;&amp;gt;
+&amp;lt;link rel=&quot;site.standard.publication&quot; href=&quot;at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.publication/3mq4tnwmt3w2i&quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;These links tie the page to its ATmosphere equivalent. Now, you can’t just browse the ATmosphere in a web browser. The content has to have an interface written in front of it, that pulls the content in from this protocol and displays it. However, no fear, because there’s an experimental browser for it! So, if you &lt;a href=&quot;https://www.atproto-browser.dev/at/did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lupu73d2i&quot;&gt;visit the corresponding file&lt;/a&gt;, you can, indeed, confirm that I have been successful in getting my content in.&lt;/p&gt;
+
+&lt;p&gt;So, interestingly, there are no current standard.site or standard.document aggregators that display the document in their own interface (at least that I could see). Everywhere I tried linked back to the canonical web reference. But, interestingly, they WERE able to find the content and pull it into their aggregation streams.&lt;/p&gt;
+
+&lt;p&gt;Another advantage is that, if my current PDS (where the data is stored – a Personal Data Server – which is actually on Bluesky’s servers, as they run my current storage location) decides to shut down or move, and I no longer wish to be on their system, I can move the files and everything will apparently just be nicely migrated, without needing permission from the old PDS. Well, that sounds good, but I haven’t tried it.&lt;/p&gt;
+
+&lt;p&gt;However, the entire reason I did this experiment was to see whether this was something worth pursuing for &lt;a href=&quot;https://hcommons.org&quot;&gt;Knowledge Commons&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;… and, for now, I am not sure. At the scale that we operate over there, it would take some effort to make sure we were doing it right. I also think that we would need to run our own PDS. On my personal blog, I hit the daily rate limit when I tried to upload 994 blog posts and associated file blobs (cover images etc.)… and then tried to modify every single one of them. I was locked out of Bluesky’s PDS for 24hrs, which was annoying. However, KC has many, many more blog posts than this that would require initial loading. And if we ever had to do a full forced update of all content (say the canonical URL changed - gasp!), the process would need batching, it would be a pain, etc. But running our own PDS is also a pain. It’s a whole new infrastructure that needs tending, opening new security holes, exposing us to the outside world… and that could go wrong.&lt;/p&gt;
+
+&lt;p&gt;Hence, my conclusion is that, for now, I think we should watch and wait. If there is really substantial traction in this place – or if lots of people ask for it – I will certainly reconsider. But I would feel some trepidation about boldly going into this space, right now.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/07/10/investigating-atproto-here-and-for-knowledge-commons/&quot;&gt;Investigating ATProto here and for Knowledge Commons&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;eve.gd: Martin Paul Eve&lt;/a&gt; on July 10, 2026.&lt;/p&gt;]]>
+  </content>
+</entry>
 
 
 <entry>

@@ -171,6 +171,11 @@
 
 .post-body {
     max-width: 800px;
+    /* As the 1fr track of the post grid, this defaults to min-width:auto, which
+       refuses to shrink below its content's min-content — long unbreakable code
+       lines/URLs then force the grid (and sidebar) past the viewport. min-width:0
+       lets the track shrink so `.post-body pre { overflow-x:auto }` can scroll. */
+    min-width: 0;
 }
 
 /* Post Body Typography */
@@ -839,5 +844,84 @@ button.share-btn {
     .post-body li {
         orphans: 3;
         widows: 3;
+    }
+}
+
+/* ========================================
+   Featured-image banner
+   Sits between the hero and the post content. Small reused graphics
+   (oa.png, geek.png, …) render at natural size; only large photos are
+   capped at 900px so nothing is ever upscaled / pixelated.
+   ======================================== */
+.post-feature {
+    margin: 0;
+    padding: 2.5rem 0 0;
+}
+
+.post-feature img {
+    display: block;
+    max-width: min(100%, 900px);   /* photos cap at 900px */
+    width: auto;                   /* small graphics keep natural size */
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    box-shadow: var(--shadow-md);
+}
+
+.post-feature-caption {
+    max-width: 900px;
+    margin: 0.6rem auto 0;
+    text-align: right;
+    font-size: 0.85rem;
+    font-style: italic;
+    color: var(--text-secondary);
+}
+
+.post-feature-caption a {
+    color: var(--accent-primary);
+    text-decoration: none;
+}
+
+.post-feature-caption a:hover {
+    text-decoration: underline;
+}
+
+/* ========================================
+   Drop cap — first paragraph of the post body
+   Large red Fraunces cap on the first letter of the FIRST paragraph only.
+   `initial-letter` is the primary mechanism: it sinks the cap within the
+   paragraph box (no float) so it can never bleed into the next paragraph.
+   The float rule is a fallback for older browsers, contained by
+   overflow:hidden + a reserved min-height so a short opener can't leak; the
+   @supports block neutralises that fallback wherever initial-letter works.
+   ======================================== */
+.post-body > p:first-of-type {
+    min-height: 2.4em;   /* reserve height so a short opener can't let the fallback cap bleed down */
+    overflow: hidden;    /* contain the floated fallback cap within this paragraph */
+}
+
+.post-body > p:first-of-type::first-letter {
+    font-family: var(--font-serif);
+    font-weight: 600;
+    color: var(--accent-primary);
+    float: left;                    /* fallback path (older browsers) */
+    font-size: 3.1em;
+    line-height: 0.7;
+    padding: 0.02em 0.08em 0 0;
+    -webkit-initial-letter: 2 2;    /* primary: sinks within paragraph, no overflow */
+    initial-letter: 2 2;
+}
+
+@supports (initial-letter: 2) or (-webkit-initial-letter: 2) {
+    .post-body > p:first-of-type {
+        min-height: 0;
+        overflow: visible;
+    }
+
+    .post-body > p:first-of-type::first-letter {
+        float: none;
+        font-size: inherit;
+        line-height: inherit;
     }
 }

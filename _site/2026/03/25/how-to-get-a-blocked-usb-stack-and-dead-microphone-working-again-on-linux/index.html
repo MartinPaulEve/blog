@@ -25,7 +25,7 @@
 <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
 <link rel="stylesheet" href="/assets/fontawesome/css/v4-shims.min.css">
 <link id="hljs-theme" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-light.min.css">
-<link rel="stylesheet" href="/assets/css/styles.css?v=1783606817">
+<link rel="stylesheet" href="/assets/css/styles.css?v=1783867107">
 <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
 <link rel="icon" type="image/png" href="/images/favicon.png">
 <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
@@ -130,7 +130,7 @@
 
 <link rel="site.standard.publication" href="at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.publication/3mq4tnwmt3w2i" />
 
-    <link rel="stylesheet" href="/assets/css/blog-post.css?v=1783606817">
+    <link rel="stylesheet" href="/assets/css/blog-post.css?v=1783867107">
 
     
     <meta name="citation_author" content="Eve, Martin Paul">
@@ -198,13 +198,26 @@
             </div>
         </div>
 
+        
+        <figure class="post-feature">
+            <div class="container">
+                <img src="/images/mic.jpg" alt="An image of a microphone" loading="lazy">
+                
+                <figcaption class="post-feature-caption">
+                    Image: <a href="https://unsplash.com/@othentikisra" target="_blank" rel="noopener">An image of a microphone</a> (israel palacio on unsplash)
+                </figcaption>
+                
+            </div>
+        </figure>
+        
+
         <!-- Post Content -->
         <div class="post-content">
             <div class="container">
                 <div class="post-body">
                     <p>I have been having an intermittent problem where my microphone just drops out arbitrarily on Linux and I can’t access it anymore. It turns out that this was actually due to a dodgy USB hub inside the motherboard of my computer.</p>
 
-<p><img src="/images/mic.jpg" alt="An image of a microphone" style="width: 100%;" /></p>
+
 
 <p>I was finding that looking at /sys/bus/usb/devices/1-5.1/power/runtime_status (this will be different on your machine) was showing “error”. Oh dear, said Paddington. The symptom was that the device wasn’t visible as an audio microphone input. I couldn’t use the microphone, and lots of USB devices were all over the place. For a short while the microphone would appear in the volume control list, but I could not get any signal through it.</p>
 
@@ -216,13 +229,6 @@ systemctl --user restart wireplumber pipewire pipewire-pulse
 
 <p>Not a very exciting post I know, but someone might be helped by it.</p>
 
-                    
-                    <div class="featured-image">
-                        <div class="image-attribution">
-                            Image: <a href="https://unsplash.com/@othentikisra" target="_blank">An image of a microphone</a> (israel palacio on unsplash)
-                        </div>
-                    </div>
-                    
                 </div>
 
                 <!-- Post Sidebar -->
@@ -254,6 +260,11 @@ systemctl --user restart wireplumber pipewire pipewire-pulse
                         <ul class="related-posts">
                             
                             <li>
+                                <a href="/2026/07/10/investigating-atproto-here-and-for-knowledge-commons/" title="Investigating ATProto here and for Knowledge Commons">Investigating ATProto here and for Knowledge Commons</a>
+                                <span class="related-date">10 July 2026</span>
+                            </li>
+                            
+                            <li>
                                 <a href="/2026/06/27/fair-and-square-making-a-static-site-support-fair-signposting/" title="FAIR and Square: making a static site support FAIR signposting">FAIR and Square: making a static site support FAIR signposting</a>
                                 <span class="related-date">27 June 2026</span>
                             </li>
@@ -261,11 +272,6 @@ systemctl --user restart wireplumber pipewire pipewire-pulse
                             <li>
                                 <a href="/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/" title="Making blog posts harvestable by Zotero and preserving case in citation fields">Making blog posts harvestable by Zotero and preserving case in citation fields</a>
                                 <span class="related-date">23 June 2026</span>
-                            </li>
-                            
-                            <li>
-                                <a href="/2026/06/04/more-on-dual-licensing-of-digital-oa-books/" title="More on dual-licensing of digital OA books">More on dual-licensing of digital OA books</a>
-                                <span class="related-date">4 June 2026</span>
                             </li>
                             
                         </ul>

@@ -25,7 +25,7 @@
 <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
 <link rel="stylesheet" href="/assets/fontawesome/css/v4-shims.min.css">
 <link id="hljs-theme" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-light.min.css">
-<link rel="stylesheet" href="/assets/css/styles.css?v=1783606817">
+<link rel="stylesheet" href="/assets/css/styles.css?v=1783867107">
 <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
 <link rel="icon" type="image/png" href="/images/favicon.png">
 <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
@@ -130,7 +130,7 @@
 
 <link rel="site.standard.publication" href="at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.publication/3mq4tnwmt3w2i" />
 
-    <link rel="stylesheet" href="/assets/css/blog-post.css?v=1783606817">
+    <link rel="stylesheet" href="/assets/css/blog-post.css?v=1783867107">
 
     
     <meta name="citation_author" content="Eve, Martin Paul">
@@ -198,13 +198,26 @@
             </div>
         </div>
 
+        
+        <figure class="post-feature">
+            <div class="container">
+                <img src="/images/yubico.png" alt="An image of all the different YubiKeys" loading="lazy">
+                
+                <figcaption class="post-feature-caption">
+                    Image: <a href="https://www.yubico.com/authentication-standards/fido2/" target="_blank" rel="noopener">An image of all the different YubiKeys</a> (Yubico image used for promotion)
+                </figcaption>
+                
+            </div>
+        </figure>
+        
+
         <!-- Post Content -->
         <div class="post-content">
             <div class="container">
                 <div class="post-body">
                     <p>I have had two YubiKeys for years. They are very cool devices. I used to store my keys themselves on the YubiKey, and perhaps I’ll go back to doing that. But 1Password has me covered for now. What I did realise while moving to a new PC is that there is no concise guide to how to set up YubiKey on a recent Ubuntu Linux setup. I am on Ubuntu 24.04, using the Gnome desktop environment (this might be significant) and here’s what I did. This gives me passwordless sudo with a touch of the YubiKey and the ability to use the YubiKey in polkit popups (when permission is requested). If you remove the YubiKey key while that prompt is visible, it will fall back to asking for a password.</p>
 
-<p><img src="/images/yubico.png" alt="An image of the range of Yubikeys" style="width: 100%;" /></p>
+
 
 <h2 id="configuration">Configuration</h2>
 
@@ -296,13 +309,6 @@ session       required   pam_env.so readenv=1 envfile=/etc/default/locale user_r
 
 <p>Then, in another terminal, run <code>pkexec id</code>. This should then give you output that tells you if something is going wrong. I had a case where I was earlier specifying an incorrect file path on the auth line. But now we use the defaults and we generated these earlier in the right places, so I don’t have any problems here. In any case, this debug log should help you if you are running into troubles.</p>
 
-                    
-                    <div class="featured-image">
-                        <div class="image-attribution">
-                            Image: <a href="https://www.yubico.com/authentication-standards/fido2/" target="_blank">An image of all the different YubiKeys</a> (Yubico image used for promotion)
-                        </div>
-                    </div>
-                    
                 </div>
 
                 <!-- Post Sidebar -->
@@ -334,6 +340,11 @@ session       required   pam_env.so readenv=1 envfile=/etc/default/locale user_r
                         <ul class="related-posts">
                             
                             <li>
+                                <a href="/2026/07/10/investigating-atproto-here-and-for-knowledge-commons/" title="Investigating ATProto here and for Knowledge Commons">Investigating ATProto here and for Knowledge Commons</a>
+                                <span class="related-date">10 July 2026</span>
+                            </li>
+                            
+                            <li>
                                 <a href="/2026/06/27/fair-and-square-making-a-static-site-support-fair-signposting/" title="FAIR and Square: making a static site support FAIR signposting">FAIR and Square: making a static site support FAIR signposting</a>
                                 <span class="related-date">27 June 2026</span>
                             </li>
@@ -341,11 +352,6 @@ session       required   pam_env.so readenv=1 envfile=/etc/default/locale user_r
                             <li>
                                 <a href="/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/" title="Making blog posts harvestable by Zotero and preserving case in citation fields">Making blog posts harvestable by Zotero and preserving case in citation fields</a>
                                 <span class="related-date">23 June 2026</span>
-                            </li>
-                            
-                            <li>
-                                <a href="/2026/06/04/more-on-dual-licensing-of-digital-oa-books/" title="More on dual-licensing of digital OA books">More on dual-licensing of digital OA books</a>
-                                <span class="related-date">4 June 2026</span>
                             </li>
                             
                         </ul>
