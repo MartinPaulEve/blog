@@ -890,38 +890,24 @@ button.share-btn {
 /* ========================================
    Drop cap — first paragraph of the post body
    Large red Fraunces cap on the first letter of the FIRST paragraph only.
-   `initial-letter` is the primary mechanism: it sinks the cap within the
-   paragraph box (no float) so it can never bleed into the next paragraph.
-   The float rule is a fallback for older browsers, contained by
-   overflow:hidden + a reserved min-height so a short opener can't leak; the
-   @supports block neutralises that fallback wherever initial-letter works.
+   Implemented as a floated cap rather than `initial-letter`: the latter's
+   metric-based alignment rides high in Fraunces (cap top above the text,
+   gap below). The font-size / line-height / margin below are tuned so the
+   cap's top sits level with the top of the adjacent body-text glyphs and it
+   sinks ~2 lines. overflow:hidden + a reserved min-height keep the float
+   contained so it can never bleed into the next paragraph after a short opener.
    ======================================== */
 .post-body > p:first-of-type {
-    min-height: 2.4em;   /* reserve height so a short opener can't let the fallback cap bleed down */
-    overflow: hidden;    /* contain the floated fallback cap within this paragraph */
+    min-height: 3.6em;   /* reserve ~2 lines so a short opener can't clip/leak the cap */
+    overflow: hidden;    /* contain the floated cap within this paragraph */
 }
 
 .post-body > p:first-of-type::first-letter {
+    float: left;
     font-family: var(--font-serif);
     font-weight: 600;
     color: var(--accent-primary);
-    float: left;                    /* fallback path (older browsers) */
-    font-size: 3.1em;
-    line-height: 0.7;
-    padding: 0.02em 0.08em 0 0;
-    -webkit-initial-letter: 2 2;    /* primary: sinks within paragraph, no overflow */
-    initial-letter: 2 2;
-}
-
-@supports (initial-letter: 2) or (-webkit-initial-letter: 2) {
-    .post-body > p:first-of-type {
-        min-height: 0;
-        overflow: visible;
-    }
-
-    .post-body > p:first-of-type::first-letter {
-        float: none;
-        font-size: inherit;
-        line-height: inherit;
-    }
+    font-size: 5em;
+    line-height: 0.8;    /* with margin-top:0, aligns the cap top to the text cap-height */
+    margin: 0 0.08em 0 0;
 }
