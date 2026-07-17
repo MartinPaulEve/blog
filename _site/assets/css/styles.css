@@ -1184,9 +1184,65 @@ div p span.bibitem {
     text-decoration: underline;
 }
 
+/* ========================================
+   Mouse mark — subtle decorative logo (© Duncan Stringer)
+   A single SVG asset (/images/mouse.svg) drawn via mask-image so it
+   takes on currentColor and can be tinted/faded per context.
+   Native aspect ratio is 201:105 (~1.91:1).
+   ======================================== */
+
+.mouse-mark {
+    display: inline-block;
+    background-color: currentColor;
+    -webkit-mask: url("/images/mouse.svg") center / contain no-repeat;
+    mask: url("/images/mouse.svg") center / contain no-repeat;
+}
+
+/* Header: a faint white mouse a little beyond the theme toggle.
+   The header bar is dark in both themes, so the lines stay white. */
+.mouse-mark--nav {
+    width: 2rem;
+    height: 1.05rem;
+    margin-left: 0.6rem;
+    align-self: center;
+    color: #fff;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+/* A desktop flourish only; the mobile menu stays uncluttered. */
+.mouse-mark--nav {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .mouse-mark--nav {
+        display: inline-block;
+    }
+}
+
+/* Footer: a small mouse beside its attribution. currentColor here is the
+   footer's secondary text colour, so it adapts subtly to light/dark. */
+.mouse-credit {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    opacity: 0.8;
+}
+
+.mouse-mark--credit {
+    width: 1.5rem;
+    height: 0.78rem;
+    opacity: 0.5;
+    flex: 0 0 auto;
+    /* Optical nudge: the silhouette is top-heavy, so raise it slightly to
+       sit centrally against the cap height of the credit text. */
+    transform: translateY(-0.14em);
+}
+
 @media print
 {
-    .header, .breadcrumb-section, .post-sidebar, .footer, .post-date 
+    .header, .breadcrumb-section, .post-sidebar, .footer, .post-date
     {
     display: none !important;
     }
