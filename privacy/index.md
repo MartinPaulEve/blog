@@ -27,7 +27,7 @@ There is no cookie or consent banner on this site. That is a deliberate choice, 
 
 ## What is collected, and why
 
-Data collection is kept to the strict minimum needed to run and secure the site. In practice, this means only the standard access logs kept by the web server (Caddy). When you request a page, the server may record your IP address, the page requested, and your browser's user-agent string. This is ordinary server behaviour and is used solely for security and diagnostics, for example to spot abuse or fix faults. It is never used for advertising and is never shared with third parties.
+Data collection is kept to the strict minimum needed to run and secure the site. In practice, this means only the standard access logs kept by the web server (traefik). When you request a page, the server may record your IP address, the page requested, and your browser's user-agent string. This is ordinary server behaviour and is used solely for security and diagnostics, for example to spot abuse or fix faults. It is never used for advertising and is never shared with third parties.
 
 ## Data retention
 
