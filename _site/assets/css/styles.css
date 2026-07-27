@@ -903,7 +903,7 @@ strong {
 
 @media (min-width: 768px) {
     .footer-grid {
-        grid-template-columns: 2fr 1fr 1fr;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
     }
 }
 
@@ -1198,9 +1198,18 @@ div p span.bibitem {
     mask: url("/images/mouse.svg") center / contain no-repeat;
 }
 
-/* Header: a faint white mouse a little beyond the theme toggle.
-   The header bar is dark in both themes, so the lines stay white. */
+/* Keep the name and its logo together as one brand unit. */
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+}
+
+/* Header (desktop): a white mouse just beyond the theme toggle. The header
+   bar is dark in both themes, so the lines stay white. Hidden on mobile —
+   there the mouse moves next to the name instead (see .mouse-mark--logo). */
 .mouse-mark--nav {
+    display: none;
     width: 2rem;
     height: 1.05rem;
     margin-left: 0.6rem;
@@ -1210,14 +1219,42 @@ div p span.bibitem {
     transition: opacity 0.3s ease;
 }
 
-/* A desktop flourish only; the mobile menu stays uncluttered. */
-.mouse-mark--nav {
-    display: none;
-}
-
 @media (min-width: 768px) {
     .mouse-mark--nav {
         display: inline-block;
+    }
+}
+
+/* Header (mobile only): the white mouse sits next to the name. */
+.mouse-mark--logo {
+    display: none;
+    width: 1.85rem;
+    height: 0.97rem;
+    color: #fff;
+    flex: 0 0 auto;
+}
+
+@media (max-width: 767px) {
+    .mouse-mark--logo {
+        display: inline-block;
+    }
+}
+
+/* Home page (desktop): pull the nav's right edge in so the mouse lines up
+   with the masthead portrait below rather than protruding past it. The
+   portrait is max 22rem wide and centred in the right column of a
+   1.5fr / 1fr grid (4rem gap), so its right edge sits (column - 22rem)/2
+   inside the container's content box; we add that as extra right padding.
+   Two ranges because the container's own side padding changes at 1024px. */
+@media (min-width: 1024px) {
+    .home-page .header-content {
+        padding-right: calc(2rem + max(0px, ((min(100vw, 1280px) - 8rem) / 2.5 - 22rem) / 2));
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1023.98px) {
+    .home-page .header-content {
+        padding-right: calc(1.5rem + max(0px, ((100vw - 7rem) / 2.5 - 22rem) / 2));
     }
 }
 
@@ -1227,7 +1264,9 @@ div p span.bibitem {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    opacity: 0.8;
+    /* Full-strength secondary colour keeps the credit above WCAG AA (4.5:1);
+       an earlier opacity blend dropped it to 4.31:1. */
+    color: var(--text-secondary);
 }
 
 .mouse-mark--credit {
@@ -1246,4 +1285,21 @@ div p span.bibitem {
     {
     display: none !important;
     }
+}
+
+/* Skip-to-content link: visually hidden until keyboard focus (a11y bypass block) */
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    z-index: 1000;
+    padding: 0.6rem 1rem;
+    background: var(--accent-primary);
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 0 0 6px 0;
+}
+.skip-link:focus {
+    left: 0;
 }

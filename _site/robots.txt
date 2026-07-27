@@ -1,0 +1,51 @@
+# robots.txt for eve.gd
+
+# General crawlers: full access.
+User-agent: *
+Allow: /
+
+# --- AI / LLM crawlers -------------------------------------------------
+# These are referenced explicitly so the site's stance is unambiguous.
+# The default below ALLOWS them (consistent with this site's CC BY 4.0
+# licensing and open-access ethos). To opt a crawler OUT, change its
+# "Disallow:" line to "Disallow: /".
+
+User-agent: GPTBot
+Disallow:
+
+User-agent: OAI-SearchBot
+Disallow:
+
+User-agent: ChatGPT-User
+Disallow:
+
+User-agent: ClaudeBot
+Disallow:
+
+User-agent: Claude-Web
+Disallow:
+
+User-agent: anthropic-ai
+Disallow:
+
+User-agent: Google-Extended
+Disallow:
+
+User-agent: CCBot
+Disallow:
+
+User-agent: PerplexityBot
+Disallow:
+
+User-agent: Applebot-Extended
+Disallow:
+
+User-agent: Bytespider
+Disallow:
+
+User-agent: Meta-ExternalAgent
+Disallow:
+
+# ----------------------------------------------------------------------
+
+Sitemap: https://eve.gd/sitemap.xml

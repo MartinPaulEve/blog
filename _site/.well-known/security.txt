@@ -1,0 +1,6 @@
+# Security contact for eve.gd — see https://eve.gd/security/
+Contact: mailto:martin@eve.gd
+Expires: 2027-07-27T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://eve.gd/.well-known/security.txt
+Policy: https://eve.gd/security/

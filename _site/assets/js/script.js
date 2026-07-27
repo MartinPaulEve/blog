@@ -3,8 +3,8 @@
     const root = document.documentElement;
     const toggle = document.querySelector('.theme-toggle');
     const hljsTheme = document.getElementById('hljs-theme');
-    const LIGHT_HLJS = 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-light.min.css';
-    const DARK_HLJS = 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css';
+    const LIGHT_HLJS = '/assets/highlightjs/styles/atom-one-light.min.css';
+    const DARK_HLJS = '/assets/highlightjs/styles/atom-one-dark.min.css';
 
     function applyTheme(theme) {
         if (theme === 'dark') {
