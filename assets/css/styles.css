@@ -1264,7 +1264,9 @@ div p span.bibitem {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    opacity: 0.8;
+    /* Full-strength secondary colour keeps the credit above WCAG AA (4.5:1);
+       an earlier opacity blend dropped it to 4.31:1. */
+    color: var(--text-secondary);
 }
 
 .mouse-mark--credit {
@@ -1283,4 +1285,21 @@ div p span.bibitem {
     {
     display: none !important;
     }
+}
+
+/* Skip-to-content link: visually hidden until keyboard focus (a11y bypass block) */
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    z-index: 1000;
+    padding: 0.6rem 1rem;
+    background: var(--accent-primary);
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 0 0 6px 0;
+}
+.skip-link:focus {
+    left: 0;
 }
