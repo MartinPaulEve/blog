@@ -90,7 +90,7 @@
 
 <!-- Open Graph Meta Tags for Social Media Preview -->
 <meta property="og:type" content="article">
-<meta property="og:title" content="{{ page.title }}">
+<meta property="og:title" content="{{ page.title | default: site.title }}">
 <meta property="og:description" content="{{ page.excerpt | strip_html | truncate: 160 | escape }}">
 {% if page.og_image %}
 <meta property="og:image" content="{{ page.og_image }}">
@@ -101,15 +101,14 @@
 {% else %}
 <meta property="og:image" content="https://eve.gd/images/og.png">
 {% endif %}
-<meta property="og:url" content="{{ page.url }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
 <meta property="og:site_name" content="eve.gd: Martin Paul Eve">
-<meta property="og:type" content="article" />
 <meta property="og:locale" content="en_GB" />
 <meta property="og:image:type" content="image/png">
 
 <!-- Twitter Card Meta Tags (Optional but Recommended ) -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{{ page.title }}">
+<meta name="twitter:title" content="{{ page.title | default: site.title }}">
 <meta name="twitter:description" content="{{ page.excerpt | strip_html | escape }}">
 {% if page.og_image_twitter %}
 <meta name="twitter:image" content="{{ page.og_image_twitter }}">
