@@ -22,7 +22,7 @@ This is my personal academic site, which I maintain in my own time, so I cannot 
 
 I want to be honest about the areas where the site is not yet fully accessible:
 
-- The blog archive goes back to around 2011. Some older posts contain images whose alternative text is missing or imperfect.
+- The blog archive goes back to around 2008. Some older posts contain images whose alternative text is missing or imperfect. I was not thinking primarily about accessibility at this time (which is on me; I apologise). Going forward, I am trying to ensure that the site is fully accessible.
 - Some linked PDFs, including my CV and copies of academic papers, may not be fully tagged, so they may not read well in a screen reader.
 - Some older embedded media may not have captions or transcripts.
 
@@ -30,7 +30,7 @@ I am working through these as time allows, and newer content is written with acc
 
 ## Fixing problems
 
-I review the site's accessibility periodically, at least once a year. When someone reports a specific problem, I aim to address it within 30 working days. Where a fix is not straightforward, I will tell you what I plan to do and roughly when.
+I review the site's accessibility periodically, at least once a year. When someone reports a specific problem, I aim to address it within 30 working days. Where a fix is not straightforward or my personal circumstances require a longer window, I will tell you what I plan to do and roughly when.
 
 ## Giving feedback
 

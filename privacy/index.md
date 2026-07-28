@@ -9,7 +9,7 @@ I care about your privacy. This website is a personal, static site, and it is bu
 
 ## What this site does not do
 
-This site does not track you. There is:
+This site does not track you. There are/is:
 
 - No analytics of any kind.
 - No third-party tracking scripts.

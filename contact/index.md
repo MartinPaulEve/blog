@@ -22,7 +22,7 @@ Because this is a static website, there is no contact form to fill in. Instead, 
 
 ## Response times
 
-I read my own email and reply personally. I aim to reply within 10 working days of receiving your message. During periods of leave or heavy teaching this may occasionally take a little longer, but you can expect an acknowledgement within that window.
+I read my own email and reply personally. I aim to reply within 10 working days of receiving your message. During periods of leave or heavy teaching this may occasionally take a little longer, but you can expect an acknowledgement within that window. If you do not hear back from me within that window, it is possible that I have had a health emergency and am in hospital (I have kidney failure and severe immunodeficiency).
 
 ## Complaints and feedback
 
