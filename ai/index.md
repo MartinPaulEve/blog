@@ -13,13 +13,13 @@ The textual content on this site is 100% human-written. I write my blog posts, e
 
 I do use voice assistance tools (automated transcription), particularly when my rheumatoid arthritis makes typing too painful. These tools sometimes use AI systems for their transcription (such as the NVIDIA Parakeet nvidia/parakeet-tdt-0.6b-v2 model).
 
-There is one significant piece of automation on the site. My publications list is populated automatically from the Birkbeck Institutional Repository (BIROn) through an automated feed, rather than being typed out by hand. This is the main place where an automated process contributes to what you see.
+There is one significant piece of automation on the site. My publications list is populated automatically from the Birkbeck Institutional Repository (BIROn) through an automated feed, rather than being typed out by hand. The code that generates this feed and that interacts with the repository is called [eprintsToCV](https://github.com/MartinPaulEve/eprintsToCV) and the code is openly available under a GNU Affero General Public License 3.0 license. I wrote this code by hand (and it's not the neatest, but it does the job!). This is the main place where an automated process contributes to what you see.
 
 The Site & Policies pages listed in the footer (e.g. this page) were created from an amalgam of other policies on other sites around the web. AI may have been used on those pages.
 
 The HTML and CSS code for this site were partially coded by hand and partially coded with AI assistance (Anthropic Claude Opus 4.8).
 
-Where I use AI assistance for anything else published on the site, I disclose it. If I have not disclosed AI involvement on a given page, that page or post was written by me.
+If I use AI assistance for anything else published on the site, I will disclose it. I have no plans whatsoever to abandon writing by hand and brain. I strongly believe that we need to continue asserting human voices, amid the cacophony of "slop". If we stop writing and thinking for ourselves, then what is the point? So: if I have not disclosed AI involvement on a given page, that page or post was written by me.
 
 ## Scope, limitations, and safeguards
 
