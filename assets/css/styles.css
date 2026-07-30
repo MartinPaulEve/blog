@@ -294,6 +294,21 @@ strong {
     display: block;
 }
 
+/* Expanded mobile menu: keep the brand (name + mouse) and the hamburger on
+   one top row, and drop the nav onto its own full-width row below, instead
+   of letting the tall nav squeeze the brand and stretch it vertically. */
+@media (max-width: 767px) {
+    .header-content {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .nav-desktop.active {
+        flex-basis: 100%;
+        order: 3;
+    }
+}
+
 .nav-desktop.active a.nav-link {
     display: block;
 }
