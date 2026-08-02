@@ -13,3 +13,6 @@ _asset_bundler_cache
 .og_cache/
 
 .sequoia-state.json
+
+# Local accessibility worklist — deliberately never committed
+ACCESSIBILITY.md
