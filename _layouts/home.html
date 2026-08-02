@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div class="masthead-portrait">
-                <img src="/images/mpe.png" alt="Martin Paul Eve">
+                <img src="/images/mpe.png" alt="Portrait photograph of Martin Paul Eve">
             </div>
         </div>
     </section>
@@ -39,7 +39,7 @@
                     <span class="stories-kicker">From the blog</span>
                     <h2 class="stories-title">Recent writing</h2>
                 </div>
-                <a href="/posts/" class="stories-link">All posts &rarr;</a>
+                <a href="/posts/" class="stories-link">All posts <span aria-hidden="true">&rarr;</span></a>
             </div>
 
             {% assign lead = site.posts | first %}
@@ -55,7 +55,10 @@
                 {% for post in site.posts offset:1 limit:6 %}
                 {% if post.link %}{% assign href = post.link %}{% else %}{% assign href = post.url %}{% endif %}
                 <article class="story">
-                    <a class="story-media" href="{{ href }}">
+                    {% comment %} The image link duplicates the title link below, so it is
+                    hidden from assistive tech and skipped in the tab order; the date pill
+                    it carries is restated for screen readers inside the title link. {% endcomment %}
+                    <a class="story-media" href="{{ href }}" aria-hidden="true" tabindex="-1">
                         {% if post.image.feature %}
                         <img src="/images/{{ post.image.feature }}" alt="" loading="lazy">
                         {% else %}
@@ -63,7 +66,7 @@
                         {% endif %}
                         <span class="story-pill">{{ post.date | date: "%d.%m.%y" }}</span>
                     </a>
-                    <h3 class="story-title"><a href="{{ href }}">{{ post.title }}</a></h3>
+                    <h3 class="story-title"><a href="{{ href }}">{{ post.title }}<span class="sr-only"> ({{ post.date | date: "%-d %B %Y" }})</span></a></h3>
                     <p class="story-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
                 </article>
                 {% endfor %}

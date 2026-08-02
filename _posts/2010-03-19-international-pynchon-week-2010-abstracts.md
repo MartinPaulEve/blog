@@ -20,7 +20,7 @@ wordpress_url: http://new.martineve.com/?p=24
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmbuydh2t"
 ---
 
-<p>    <img src="/images/uploads/2010/03/IPW2010-269x300.gif" width="400" height="446"/></p>
+<p>    <img src="/images/uploads/2010/03/IPW2010-269x300.gif" alt="Logo for the International Pynchon Week 2010 conference" width="400" height="446"/></p>
 <p>      The <a href="http://amstud-lublin.edu.pl/pynchon/?page_id=278">abstracts</a> for <a href="http://amstud-lublin.edu.pl/pynchon/">International Pynchon Week 2010</a> are now online!
  Of course, I would thoroughly recommend <a href="http://amstud-lublin.edu.pl/pynchon/?page_id=394">my own paper</a>, which will focus on terrorism and the Cold War in Pynchon's <i>Against the Day</i> and Don DeLillo's <i>Underworld</i>. In the interests of blatant self-promotion, I cite the abstract here: </p>
 <p><blockquote>In his recent examination of <em>Against the Day</em>, Luc Herman finds a &#8217;social relevance&#8217; in what is surely one of the most obvious connections of the text: anarchism and contemporary terrorism.<a href="http://amstud-lublin.edu.pl/pynchon/?page_id=394#X"><sup>1</sup></a> However, through a parallel analysis of Don DeLillo&#8217;s <em>Underworld</em>, I would like to demonstrate how this connection runs far deeper than is to be expected and that the focal lens through which contemporary terrorism is actually viewed is the Cold War.</blockquote></p>

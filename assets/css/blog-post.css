@@ -240,15 +240,10 @@
 
 /* Blockquotes */
 .post-body blockquote {
-    border-left: 4px solid var(--accent-primary);
-    padding-left: 1.5rem;
     margin: 2rem 0;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
     background-color: var(--surface-alt);
     padding: 1.5rem;
-    padding-left: 1.5rem;
-    border-left: 4px solid var(--accent-primary);
+    border-left: 4px solid var(--accent-deco);
 }
 
 .post-body blockquote p {
@@ -359,6 +354,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
     width: 2.5rem;
     height: 2.5rem;
     background-color: var(--bg-white);
@@ -378,6 +374,13 @@ button.share-btn {
     border-color: transparent;
 }
 
+/* Invisible extension so each button's tap target is ≥44x44px (WCAG 2.5.5). */
+.share-btn::after {
+    content: "";
+    position: absolute;
+    inset: -2px;
+}
+
 .share-twitter:hover {
     background-color: #1da1f2;
 }
@@ -391,7 +394,7 @@ button.share-btn {
 }
 
 .share-email:hover {
-    background-color: var(--accent-primary);
+    background-color: var(--btn-bg);
 }
 
 /* Related Posts */
@@ -416,6 +419,9 @@ button.share-btn {
     font-weight: 500;
     margin-bottom: 0.5rem;
     transition: color 0.2s ease;
+    /* ≥44px hit area (WCAG 2.5.5); the list's 2rem item pitch absorbs it. */
+    padding: 0.65rem 0;
+    margin-top: -0.65rem;
 }
 
 .related-posts a:hover {
@@ -447,9 +453,9 @@ button.share-btn {
 }
 
 .tag:hover {
-    background-color: var(--accent-primary);
+    background-color: var(--btn-bg);
     color: #fff;
-    border-color: var(--accent-primary);
+    border-color: var(--btn-bg);
 }
 
 /* Post Navigation */
@@ -629,8 +635,9 @@ button.share-btn {
 
 .form-group input:focus,
 .form-group textarea:focus {
-    outline: none;
-    border-color: var(--accent-primary);
+    outline: 2px solid var(--focus-ring);
+    outline-offset: 1px;
+    border-color: var(--accent-deco);
     box-shadow: 0 0 0 3px var(--accent-soft);
 }
 
@@ -644,11 +651,161 @@ button.share-btn {
 }
 
 /* Syntax Highlighting.
-   Token colours come from the swappable highlight.js CDN theme
-   (atom-one-light / atom-one-dark). We only pin the code-block background
-   so it matches the page surface in both themes. */
+   Token colours start from the swappable highlight.js themes
+   (atom-one-light / atom-one-dark). We pin the code-block background to the
+   page surface, then re-tune every token colour that falls short of WCAG
+   AAA (7:1) against that surface. Hues stay in each theme's palette. */
 .hljs {
     background: var(--code-bg) !important;
+}
+
+.hljs-comment,
+.hljs-quote {
+    color: #494e55 !important;
+}
+
+.hljs-doctag,
+.hljs-keyword,
+.hljs-formula {
+    color: #7a1f78 !important;
+}
+
+.hljs-section,
+.hljs-name,
+.hljs-selector-tag,
+.hljs-deletion,
+.hljs-subst {
+    color: #8f2011 !important;
+}
+
+.hljs-literal {
+    color: #01547a !important;
+}
+
+.hljs-string,
+.hljs-regexp,
+.hljs-addition,
+.hljs-attribute,
+.hljs-meta .hljs-string {
+    color: #24581f !important;
+}
+
+.hljs-built_in,
+.hljs-class .hljs-title,
+.hljs-title.class_ {
+    color: #6b4600 !important;
+}
+
+.hljs-attr,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-type,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-number {
+    color: #6b4600 !important;
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link,
+.hljs-meta,
+.hljs-selector-id,
+.hljs-title {
+    color: #21439a !important;
+}
+
+[data-theme="dark"] .hljs-comment,
+[data-theme="dark"] .hljs-quote {
+    color: #a3abb8 !important;
+}
+
+[data-theme="dark"] .hljs-doctag,
+[data-theme="dark"] .hljs-keyword,
+[data-theme="dark"] .hljs-formula {
+    color: #d6a3e0 !important;
+}
+
+[data-theme="dark"] .hljs-section,
+[data-theme="dark"] .hljs-name,
+[data-theme="dark"] .hljs-selector-tag,
+[data-theme="dark"] .hljs-deletion,
+[data-theme="dark"] .hljs-subst {
+    color: #f0928c !important;
+}
+
+[data-theme="dark"] .hljs-literal {
+    color: #6fc6d4 !important;
+}
+
+[data-theme="dark"] .hljs-string,
+[data-theme="dark"] .hljs-regexp,
+[data-theme="dark"] .hljs-addition,
+[data-theme="dark"] .hljs-attribute,
+[data-theme="dark"] .hljs-meta .hljs-string {
+    color: #a2cf8e !important;
+}
+
+[data-theme="dark"] .hljs-built_in,
+[data-theme="dark"] .hljs-class .hljs-title,
+[data-theme="dark"] .hljs-title.class_ {
+    color: #ddc06a !important;
+}
+
+[data-theme="dark"] .hljs-attr,
+[data-theme="dark"] .hljs-variable,
+[data-theme="dark"] .hljs-template-variable,
+[data-theme="dark"] .hljs-type,
+[data-theme="dark"] .hljs-selector-class,
+[data-theme="dark"] .hljs-selector-attr,
+[data-theme="dark"] .hljs-selector-pseudo,
+[data-theme="dark"] .hljs-number {
+    color: #e0a35c !important;
+}
+
+[data-theme="dark"] .hljs-symbol,
+[data-theme="dark"] .hljs-bullet,
+[data-theme="dark"] .hljs-link,
+[data-theme="dark"] .hljs-meta,
+[data-theme="dark"] .hljs-selector-id,
+[data-theme="dark"] .hljs-title {
+    color: #7fb3f5 !important;
+}
+
+/* Post archive (post-index / category layouts).
+   Years are h2 and titles h3 for a correct heading outline; these classes
+   keep the original visual hierarchy (small year label, large title). */
+.post-body h2.archive-year {
+    font-size: 1.25rem;
+    margin-top: 1.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.post-body h3.archive-title {
+    font-size: 1.875rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.post-body h2.archive-item {
+    font-size: 1.25rem;
+    margin-top: 1.75rem;
+    margin-bottom: 0.75rem;
+}
+
+/* Standalone archive links get a ≥44px hit area (WCAG 2.5.5); the large
+   heading margins around them absorb the invisible padding. */
+.post-body .archive-title a {
+    display: inline-block;
+    padding: 0.3rem 0;
+    margin: -0.3rem 0;
+}
+
+.post-body .archive-item a {
+    display: inline-block;
+    padding: 0.65rem 0;
+    margin: -0.65rem 0;
 }
 
 /* Responsive */

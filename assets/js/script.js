@@ -61,14 +61,27 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Mobile menu toggle
-menuToggle.addEventListener('click', () => {
-    navDesktop.classList.toggle('active');
+// Mobile menu toggle. aria-expanded mirrors the open state for assistive tech.
+function setMenuOpen(open) {
+    navDesktop.classList.toggle('active', open);
+    menuToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
 
-    if (navDesktop.classList.contains('active')) {
+    if (open) {
         header.classList.add('scrolled');
     } else {
         header.classList.remove('scrolled');
+    }
+}
+
+menuToggle.addEventListener('click', () => {
+    setMenuOpen(!navDesktop.classList.contains('active'));
+});
+
+// Escape closes the open mobile menu and returns focus to the toggle.
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && navDesktop.classList.contains('active')) {
+        setMenuOpen(false);
+        menuToggle.focus();
     }
 });
 
@@ -76,17 +89,26 @@ menuToggle.addEventListener('click', () => {
 const navLinks = document.querySelectorAll('.nav-link');
 navLinks.forEach(link => {
     link.addEventListener('click', () => {
-        navDesktop.classList.remove('active');
+        setMenuOpen(false);
     });
 });
 
-// Smooth scroll for anchor links
+// In-page anchor links: honour reduced-motion preferences and move keyboard
+// focus to the target so skip links and TOC links work for keyboard and
+// screen-reader users, not just visually.
+const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        const target = document.querySelector(this.getAttribute('href'));
+        const hash = this.getAttribute('href');
+        if (hash.length < 2) return;
+        const target = document.querySelector(hash);
         if (target) {
-            target.scrollIntoView({ behavior: 'smooth' });
+            e.preventDefault();
+            target.scrollIntoView({ behavior: prefersReducedMotion.matches ? 'auto' : 'smooth' });
+            if (!target.hasAttribute('tabindex')) {
+                target.setAttribute('tabindex', '-1');
+            }
+            target.focus({ preventScroll: true });
         }
     });
 });

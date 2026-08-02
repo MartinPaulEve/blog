@@ -19,5 +19,5 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mj2e3em
 ---
 
 <p>While we wait for news on the <a href="http://www.vanityfair.com/online/oscars/2011/03/is-inherent-vice-pt-anderons-big-lebowski">Hollywood adaptation</a>, it seems that Jeff Hoyt <a href="http://www.candlelightstories.com/2012/01/07/opening-scene-film-adaptation-thomas-pynchons-inherent-vice-filmed-by-jeff-hoyt/">has taken matters into his own hands</a> and put together an adaptation of the first scene of Thomas Pynchon's <i>Inherent Vice</i> starring Orien Longo and Rachel Kadison. I'm sceptical about Pynchon ever making good movie material, but judge for yourselves.</p>
-<p><iframe width="640" height="480" src="https://www.youtube-nocookie.com/embed/MWQKmjMRyI8" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe width="640" height="480" src="https://www.youtube-nocookie.com/embed/MWQKmjMRyI8" title="YouTube video: Jeff Hoyt's fan adaptation of the opening scene of Thomas Pynchon's Inherent Vice" frameborder="0" allowfullscreen></iframe></p>
 <p><i>Featured image copyright <a href="http://www.youtube.com/watch?v=MWQKmjMRyI8&feature=youtu.be">Jeff Hoyt</a>, used here under fair use provisions to illustrate the piece in question.</i></p>

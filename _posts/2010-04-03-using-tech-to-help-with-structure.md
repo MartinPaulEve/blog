@@ -21,7 +21,7 @@ wordpress_url: http://new.martineve.com/?p=21
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmaxopc2a"
 ---
 
-<p>    <a href='/images/uploads/2010/04/TableOfContents.png'><img src="/images/uploads/2010/04/TableOfContents-300x181.png" width="500" height="302"/></a></p>
+<p>    <a href='/images/uploads/2010/04/TableOfContents.png'><img src="/images/uploads/2010/04/TableOfContents-300x181.png" alt="A word-processor table of contents giving a tab-indented outline of a document's headings" width="500" height="302"/></a></p>
 <p>      I wanted to write a blog post today containing a tip that I employ for structuring long pieces of academic prose.
  One of the main difficulties that people encounter is sticking to a structure, avoiding digression and spatialising their work. However, most word processors (MS Word and OpenOffice) include all the tools necessary to automate this process.
  How?

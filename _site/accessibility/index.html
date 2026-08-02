@@ -24,7 +24,7 @@
 <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
 <link rel="stylesheet" href="/assets/fontawesome/css/v4-shims.min.css">
 <link id="hljs-theme" rel="stylesheet" href="/assets/highlightjs/styles/atom-one-light.min.css">
-<link rel="stylesheet" href="/assets/css/styles.css?v=1785313032">
+<link rel="stylesheet" href="/assets/css/styles.css?v=1785659453">
 <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
 <link rel="icon" type="image/png" href="/images/favicon.png">
 <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
@@ -123,7 +123,7 @@
 
 <link rel="site.standard.publication" href="at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.publication/3mq4tnwmt3w2i" />
 
-    <link rel="stylesheet" href="/assets/css/blog-post.css?v=1785313032">
+    <link rel="stylesheet" href="/assets/css/blog-post.css?v=1785659453">
     
     <link rel="author" href="https://orcid.org/0000-0002-5589-8511">
     <link rel="type" href="https://schema.org/WebPage">
@@ -141,7 +141,7 @@
     <a href="/" class="logo">Martin Paul Eve</a>
     <span class="mouse-mark mouse-mark--logo" aria-hidden="true"></span>
 </div>
-<nav class="nav-desktop">
+<nav class="nav-desktop" id="site-nav" aria-label="Main">
     <a href="/" class="nav-link">Home</a>
     <a href="/about/" class="nav-link">About</a>
     <a href="/c-v/Eve-CV.pdf" class="nav-link">CV</a>
@@ -149,13 +149,13 @@
     <a href="/books/" class="nav-link">Books</a>
     <a href="/music/" class="nav-link">Music</a>
     <a href="mailto:martin@eve.gd" class="btn btn-primary nomob">Contact</a>
-    <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+    <button class="theme-toggle" type="button" aria-label="Dark mode" aria-pressed="false">
         <i class="fa-solid fa-moon theme-icon-dark" aria-hidden="true"></i>
         <i class="fa-solid fa-sun theme-icon-light" aria-hidden="true"></i>
     </button>
     <span class="mouse-mark mouse-mark--nav" aria-hidden="true"></span>
 </nav>
-<button class="menu-toggle" aria-label="Toggle menu">
+<button class="menu-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav">
     <span></span>
     <span></span>
     <span></span>
@@ -187,13 +187,16 @@
 
 <h2 id="what-i-aim-for">What I aim for</h2>
 
-<p>I aim to meet the <a href="https://www.w3.org/TR/WCAG21/">Web Content Accessibility Guidelines (WCAG) 2.1</a> at level AA. In practice, that means the site is built to:</p>
+<p>I aim to meet the <a href="https://www.w3.org/TR/WCAG22/">Web Content Accessibility Guidelines (WCAG) 2.2</a> at level AAA. In practice, that means the site is built to:</p>
 
 <ul>
-  <li>work with keyboard navigation, so you do not need a mouse;</li>
-  <li>offer a light and dark theme toggle, so you can choose a comfortable contrast;</li>
+  <li>work with keyboard navigation, so you do not need a mouse, with a visible focus indicator and a skip-to-content link;</li>
+  <li>offer a light and dark theme toggle, with text colours in both themes tuned to the enhanced (AAA, 7:1) contrast ratio;</li>
   <li>allow you to resize the text in your browser without content breaking or overlapping;</li>
-  <li>use semantic HTML, so screen readers and other assistive technologies can make sense of the structure.</li>
+  <li>use semantic HTML, so screen readers and other assistive technologies can make sense of the structure;</li>
+  <li>respect your operating system’s reduced-motion preference, disabling animations and smooth scrolling when you ask for that;</li>
+  <li>provide touch and click targets of at least 44×44 pixels for standalone controls;</li>
+  <li>describe images with alternative text, including in the older parts of the blog archive.</li>
 </ul>
 
 <p>This is my personal academic site, which I maintain in my own time, so I cannot promise the polish of a large institution. I do, though, take accessibility seriously and try to improve things steadily.</p>
@@ -203,9 +206,11 @@
 <p>I want to be honest about the areas where the site is not yet fully accessible:</p>
 
 <ul>
-  <li>The blog archive goes back to around 2008. Some older posts contain images whose alternative text is missing or imperfect. I was not thinking primarily about accessibility at this time (which is on me; I apologise). Going forward, I am trying to ensure that the site is fully accessible.</li>
-  <li>Some linked PDFs, including my CV and copies of academic papers, may not be fully tagged, so they may not read well in a screen reader.</li>
-  <li>Some older embedded media may not have captions or transcripts.</li>
+  <li>The blog archive goes back to around 2008. I have been back through the archive to add alternative text to images, but some descriptions of very old images are reconstructed from context and may be imperfect. If one misleads you, please tell me.</li>
+  <li>Some linked PDFs, particularly older copies of academic papers and documents from the 2010s, are not tagged, so they may not read well in a screen reader. (My CV, which is generated automatically, is a tagged PDF.)</li>
+  <li>Some older embedded media (videos and audio players from third-party services) do not yet have captions or transcripts. WCAG 2.2 at level AAA also asks for sign-language interpretation of pre-recorded audio content, which I am not currently able to provide.</li>
+  <li>A few directories preserve old conference micro-sites and project pages exactly as they were published, for the historical record. These archives pre-date the current site and are not remediated.</li>
+  <li>Third-party services that some pages link out to or embed (for example, video and audio players) have their own accessibility characteristics that I cannot control.</li>
 </ul>
 
 <p>I am working through these as time allows, and newer content is written with accessibility in mind from the start.</p>
@@ -230,10 +235,10 @@
                     <div class="sidebar-widget">
                         <h3>Share This Post</h3>
                         <div class="share-buttons">
-                            <a href="https://bsky.app/intent/compose?text=Accessibility+Statement+https://eve.gd/accessibility/" class="share-btn share-bluesky" title="Share on Bluesky">
+                            <a href="https://bsky.app/intent/compose?text=Accessibility+Statement+https://eve.gd/accessibility/" class="share-btn share-bluesky" aria-label="Share on Bluesky" title="Share on Bluesky">
                                 <i class="fa-brands fa-square-bluesky" aria-hidden="true"></i>
                             </a>
-                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/accessibility/" class="share-btn share-facebook" title="Share on LinkedIn">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/accessibility/" class="share-btn share-facebook" aria-label="Share on Facebook" title="Share on Facebook">
                                 <i class="fa-brands fa-square-facebook" aria-hidden="true"></i>
                             </a>
 
@@ -250,7 +255,7 @@
     <div class="container">
     <div class="footer-grid">
         <div class="footer-section footer-about">
-            <h3>Martin Paul Eve</h3>
+            <h2 class="footer-heading footer-heading--name">Martin Paul Eve</h2>
             <p>Professor of Literature, Technology and Publishing at Birkbeck, University of London. Associate Director for Platform Development of Knowledge Commons at MESH Research, Michigan State University.</p>
             <div class="social-links">
                 <a href="https://bsky.app/profile/eve.gd" aria-label="Bluesky" class="social-icon">
@@ -265,7 +270,7 @@
             </div>
             <div class="social-links row-two">
                 <a href="https://orcid.org/0000-0002-5589-8511" aria-label="ORCID" class="social-icon">
-                    <img src="/images/orcid.png" alt="ORCID ID">
+                    <img src="/images/orcid.png" alt="">
                 </a>
                 <a href="/pictures/" aria-label="Pictures for Re-Use" class="social-icon">
                     <i class="fas fa-fw fa-images" aria-hidden="true"></i>
@@ -278,7 +283,7 @@
         </div>
 
         <div class="footer-section">
-            <h4>Quick Links</h4>
+            <h2 class="footer-heading">Quick Links</h2>
             <ul>
                 <li><a href="/about/">About Me</a></li>
                 <li><a href="/c-v/Eve-CV.pdf">Curriculum Vitae</a></li>
@@ -288,7 +293,7 @@
         </div>
 
         <div class="footer-section">
-            <h4>Contact</h4>
+            <h2 class="footer-heading">Contact</h2>
             <ul>
                 <li><a href="mailto:martin@eve.gd">Personal Email</a></li>
                 <li><a href="mailto:martin.eve@bbk.ac.uk">Birkbeck, University of London</a></li>
@@ -298,7 +303,7 @@
         </div>
 
         <div class="footer-section">
-            <h4>Site &amp; policies</h4>
+            <h2 class="footer-heading">Site &amp; policies</h2>
             <ul>
                 <li><a href="/contact/">Contact &amp; feedback</a></li>
                 <li><a href="/accessibility/">Accessibility</a></li>

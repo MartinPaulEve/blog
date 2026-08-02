@@ -53,7 +53,7 @@
         <div class="post-header post-header--hero">
             <div class="container">
                 <h1 class="post-title">{{ page.title }}</h1>
-                <p class="post-description"><strong>Cite as:</strong> Martin Paul Eve, "{{ page.title }}", <i>eve.gd: Martin Paul Eve</i>, <time itemprop="datePublished {% if page.modified %}{% else %}dateModified{% endif %}" datetime="{{ page.date |  date: "%B %d, %Y"  }}">{{ page.date | date: "%B %d, %Y" }}</time>, <a href="{{ page.doi }}">{{ page.doi }}</a>.</p>
+                <p class="post-description"><strong>Cite as:</strong> Martin Paul Eve, "{{ page.title }}", <i>eve.gd: Martin Paul Eve</i>, <time itemprop="datePublished {% if page.modified %}{% else %}dateModified{% endif %}" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %d, %Y" }}</time>, <a href="{{ page.doi }}">{{ page.doi }}</a>.</p>
 
                 {% if page.backlink %}<p class="post-description post-related">This post <strong>follows-on from</strong>: {% for link in page.backlink %}“{% post_link {{link}} %}”{% if forloop.last != true %},{% endif %}{% endfor %}</p>{% endif %}
 
@@ -67,7 +67,7 @@
                 <img src="/images/{{ page.image.feature }}" alt="{{ page.image.title | default: page.title | escape }}" loading="lazy">
                 {% if page.image.credit %}
                 <figcaption class="post-feature-caption">
-                    Image: {% if page.image.creditlink %}<a href="{{ page.image.creditlink }}" target="_blank" rel="noopener">{{ page.image.title | default: page.image.credit }}</a>{% else %}{{ page.image.title }}{% endif %} ({{ page.image.credit }})
+                    Image: {% if page.image.creditlink %}<a href="{{ page.image.creditlink }}" target="_blank" rel="noopener">{{ page.image.title | default: page.image.credit }}<span class="sr-only"> (opens in new tab)</span></a>{% else %}{{ page.image.title }}{% endif %} ({{ page.image.credit }})
                 </figcaption>
                 {% endif %}
             </div>
@@ -95,7 +95,7 @@
                             <a href="https://bsky.app/intent/compose?text={{ page.title | url_param_escape | replace: ' ', '+' }}+{{ site.url | url_param_escape }}{{ page.url | url_param_escape }}" class="share-btn share-bluesky" aria-label="Share on Bluesky" title="Share on Bluesky">
                                 <i class="fa-brands fa-square-bluesky" aria-hidden="true"></i>
                             </a>
-                            <button type="button" class="share-btn share-mastodon" data-share-mastodon data-title="{{ page.title | escape }}" data-url="{{ site.url }}{{ page.url }}" aria-label="Share on Mastodon" title="Share on Mastodon">
+                            <button type="button" class="share-btn share-mastodon" data-share-mastodon data-title="{{ page.title | escape }}" data-url="{{ site.url }}{{ page.url }}" aria-label="Share on Mastodon (opens in new tab)" title="Share on Mastodon">
                                 <i class="fa-brands fa-mastodon" aria-hidden="true"></i>
                             </button>
                             <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url | url_param_escape }}{{ page.url | url_param_escape }}" class="share-btn share-facebook" aria-label="Share on Facebook" title="Share on Facebook">
@@ -110,7 +110,7 @@
                         <ul class="related-posts">
                             {% for post in site.related_posts limit:3 %}
                             <li>
-                                <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                                <a href="{{ post.url }}">{{ post.title }}</a>
                                 <span class="related-date">{{ post.date| date: "%-d %B %Y" }}</span>
                             </li>
                             {% endfor %}

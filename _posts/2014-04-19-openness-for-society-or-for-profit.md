@@ -23,7 +23,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mf6dw3k
 
 <p>A twitter conversation that I had with Michelle Brook this morning.</p>
 <div class="storify">
-<iframe src="//storify.com/martin_eve/openness-for-society-or-for-profit/embed?header=false&border=false" width="100%"></iframe>
+<iframe src="//storify.com/martin_eve/openness-for-society-or-for-profit/embed?header=false&border=false" title="Storify embed: archived Twitter conversation between Martin Eve and Michelle Brook on openness for society or for profit" width="100%"></iframe>
 <script src="//storify.com/martin_eve/openness-for-society-or-for-profit.js?header=false&border=false"></script>
 <noscript>[<a href="//storify.com/martin_eve/openness-for-society-or-for-profit" target="_blank">View the story "Openness for society or for profit?" on Storify</a>]</noscript>
 </div>

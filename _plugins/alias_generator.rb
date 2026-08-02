@@ -80,12 +80,16 @@ module Jekyll
     def alias_template(destination_path)
       <<-EOF
       <!DOCTYPE html>
-      <html>
+      <html lang="en">
       <head>
       <link rel="canonical" href="#{destination_path}"/>
       <meta http-equiv="content-type" content="text/html; charset=utf-8" />
       <meta http-equiv="refresh" content="0;url=#{destination_path}" />
+      <title>Redirecting to #{destination_path}</title>
       </head>
+      <body>
+      <p>This page has moved. If you are not redirected automatically, follow the link to <a href="#{destination_path}">#{destination_path}</a>.</p>
+      </body>
       </html>
       EOF
     end

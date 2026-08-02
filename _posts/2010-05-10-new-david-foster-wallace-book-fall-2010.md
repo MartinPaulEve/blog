@@ -19,7 +19,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlu4bou
 ---
 
 <div class='downloadFlyout'>
-<div class="downloadIcon"><a href='http://www.martineve.com/wp-content/uploads/2010/05/30575816-Columbia-University-P.pdf'><img src='http://posterous.com/images/filetypes/pdf.png' style='border: none;'/></a></div>
+<div class="downloadIcon"><a href='http://www.martineve.com/wp-content/uploads/2010/05/30575816-Columbia-University-P.pdf'><img src='http://posterous.com/images/filetypes/pdf.png' alt='Download PDF' style='border: none;'/></a></div>
 <p>       <b><a href='http://www.martineve.com/wp-content/uploads/2010/05/30575816-Columbia-University-P.pdf'>30575816-Columbia-University-Press-Catalog-Fall-2010.pdf</a></b> <span class="downloadSize">(6182 KB)</span><br />
        <br class="clearboth"/></div>
 <p>According to the Columbia University Press Fall Catalogue, there is a <br />nice treat on it's way for DFW fans!

@@ -273,7 +273,7 @@ wordpress_url: http://new.martineve.com/?p=8
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlte6aa2r"
 ---
 
-<p><img src="https://www.martineve.com/wp-content/uploads/2010/08/superuser_request-300x225.jpg" width="500" height="375"/><br />
+<p><img src="https://www.martineve.com/wp-content/uploads/2010/08/superuser_request-300x225.jpg" alt="An HTC Wildfire displaying an Android Superuser permission request, beside a handwritten note reading Martin Eve" width="500" height="375"/><br />
 <b>UPDATE 2013-06-30: I'm afraid that I've had to remove the below files as my host thinks they are a virus. Great. Anyway, this method has easily been surpassed by now.</b></p>
 <p>This is a break from my customary blog posts on Thomas Pynchon and my university research to present a sample of one my other research interests in the realm of computer science and information security.
 Google has, for a fair while now, been distributing their stripped down version of the Linux operating system -- Android -- on mobile devices. These devices are capable of running as fully fledged Linux distributions but for the fact that manufacturers lock down the phones and make it incredibly difficult to gain administrative priveleges on the devices.

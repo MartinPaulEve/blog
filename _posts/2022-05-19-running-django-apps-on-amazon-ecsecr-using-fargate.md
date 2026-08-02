@@ -14,7 +14,7 @@ There are several tutorials out there on how to get Django apps dockerized and d
 
 The scenario I wanted to create was something like this:
 
-![Infrastructure](/images/containerized_django_on_aws.png)
+![Diagram of containerized Django on AWS: DNS and load balancer feeding ECS services running Nginx and Django (Gunicorn) containers, with Aurora Postgres, Secrets Manager, CloudWatch alarms, and S3 log storage](/images/containerized_django_on_aws.png)
 
 I wanted the infrastructure to have:
 

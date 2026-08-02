@@ -1,0 +1,30 @@
+---
+title: "The extended interviews on <i>To the Journey: Looking Back at</i> Star Trek: Voyager"
+layout: post
+date: 2026-08-02
+doi: https://doi.org/10.59348/qygeq-6n059
+image:
+  credit: "screenrant.com"
+  creditlink: "https://static0.srcdn.com/wordpress/wp-content/uploads/2024/11/to-the-journey-logo-star-trek-voyager-s-cast.jpg"
+  feature: voyagerdoc.jpg
+  title: "To the Journey: Looking Back at Star Trek: Voyager. A documentary about Voyager."
+og_image: https://eve.gd/images/og/voyagerdoc-og.jpg
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3ms3ky36den23"
+---
+This morning, I made a last-minute incorporation of Kornbrodt, Joseph, and David Zappone, ‘Special Feature on _To the Journey: Looking Back at_ Star Trek: Voyager’, interview with Kate Mulgrew, 455 Films, 2026, Bluray into my _Voyager_ book. I had watched the documentary itself in a digital copy earlier in the year. It's OK. Nothing very new. You do get a VERY enthusiastic Garrett Wang shepherding the program along with a slightly strange foray into a zero-gravity plane dive. I am unsure this has anything to do with _Voyager_, but it was mildly entertaining. And it's Harry Kim! And he clearly loves it and the _Voyager_ fan community and all that goes with it. It's all quite heartwarming.
+
+But yesterday, the Bluray arrived and that has special features. And I really enjoyed the special feature interviews on this documentary! There was also some bad editing. Mulgrew's interview has a section that repeats itself and that is very frustrating as a viewer. However, I suppose that this is mostly b-reel footage. Also, the interviewer is not very good at moving her on beyond the "women still struggle to have it all" question (not that that isn't important).
+
+However, there is some great stuff in here!
+
+Just Mulgrew's work ethic. 3am starts, midnight finishes. Every part of her was invested in The Work. (In fact, so many of the interviewees talk with reverence about The Work. It's all there is, for them. A total dedication to it.) She talks of how she had to brace every part of her body's musculature in a specific way when playing Janeway. Her acting is a total body investment. She speaks of how playing Janeway for seven years meant that she was not there for her children, ever. She made a conscious choice to do this and, to this day, feels guilt. Her children have never seen her play Janeway. They have watched none of _Voyager_ because, she says, they consider it the reason they had a motherless childhood. This seems to have had very deep, lasting family psychological problems. This is, then, an incredible commitment. A life given over to the role, really.
+
+She also states that she does not believe that introducing Janeway would work now. She believes that “as a result of the digital age” audiences “are attracted to darkness” and, for Mulgrew, “Janeway was not dark. Janeway was light”. _Voyager_ was, for her, an optimistic Trek, not a dark, cynical Trek. This is such a crucial point for my book. It is also very heartening to hear Mulgrew talk of "the Janeway effect" that has encouraged women in STEM and space. She talks of how female fans come up to her at conventions and spill their souls about how they went into science because of her. My heart did sink a little, as a man. Because I would love (but am too shy) to meet her at a convention and tell her how inspirational _I_, even though I am a man, found her. I never questioned her authority or thought it out of place that she was in command. It was clear. Obvious. Just how it should be, I thought (although I was in my teenage years when the later series of _Voyager_ was airing for the first time.) So, Kate, if you ever read this, please know: men took inspiration from you, too. That's why [I named our software platform after you](https://janeway.systems/).
+
+There's also a lovely, if not terribly informative, interview with Jeri Taylor (RIP). I suppose there IS lots of interest here; especially about the open story submission process that they ran. They simply didn't have enough ideas and so invited anyone to pitch to them. She does say that this means she sat through a lot of VERY bad pitches! But the main thing I took away from her interview was a sense of sadness. She talked of the intense workload and non-stop need for fresh material. But, as closing remarks, she said she would never, ever write for fun now. The fun has been taken from her by decades of writing to a schedule. This was somewhat terrible, even though she said it half-jokingly.
+
+There are interviews with Michael Piller's son and wife as well on the disc that give an interesting background to his life. Although I just thought more about how Shawn Piller's life had been extraordinary. Being introduced to Gene Roddenberry! Writing stories/scripts for _Star Trek: The Next Generation_! All opportunities opened up through his father (although he had to prove himself, even though he had this leg-up.) An amazing life. Few have that experience.
+
+There's also a fun section on directing (with a lot of Armin Shimerman featured, who is GREAT and hilarious!) but I was disappointed not to hear, in this section, from Roxann Dawson, who is doubtless the most successful crossover actor/director from the _Voyager_ cast. But hey. I think the documentary had varying levels of commitment from the cast and was not high on their priority list, sadly. (Although they had lots of Mulgrew's time, which was generous of her.)
+
+Anyway, all in all, this was an informative and enjoyable set of interviews. It's probably only of great interest to dedicated fans. It can otherwise feel niche and repetitive. But for the hardcore fan, this is a worthwhile set of bonuses. I have still to watch the sections with the Paramount Executives. They're not generally liked! Mulgrew points out: the bottom line is always the money! But I suppose their executive position is worth knowing about. If there's anything significant, I will probably update this post.

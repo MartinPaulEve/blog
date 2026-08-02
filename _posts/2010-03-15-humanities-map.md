@@ -20,5 +20,5 @@ wordpress_url: http://new.martineve.com/?p=28
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmce2mk2a"
 ---
 
-<p>    <a href='/images/uploads/2010/03/Screen_shot_2010-03-15_at_15.3.png'><img src="/images/uploads/2010/03/Screen_shot_2010-03-15_at_15.3-300x194.png" width="500" height="324"/></a></p>
+<p>    <a href='/images/uploads/2010/03/Screen_shot_2010-03-15_at_15.3.png'><img src="/images/uploads/2010/03/Screen_shot_2010-03-15_at_15.3-300x194.png" alt="A map of humanities disciplines drawn up at Digital Researcher 2010" width="500" height="324"/></a></p>
 <p>The result of a humanities discipline map for Digital Researcher 2010 at the British Library!</p>

@@ -134,7 +134,7 @@ wordpress_url: http://new.martineve.com/?p=33
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmclhw42s"
 ---
 
-<p>    <img src="/images/uploads/2010/03/34-1-200x300.jpg" width="420" height="630"/></p>
+<p>    <img src="/images/uploads/2010/03/34-1-200x300.jpg" alt="Cover of a Thomas Pynchon novel" width="420" height="630"/></p>
 <p>In the spirit of social networking/research interaction, I have <br />established a Zotero group for researchers working in my field; the <br />novels of Thomas Pynchon.
 The site is here: <a href="http://www.zotero.org/groups/thomas_pynchon">http://www.zotero.org/groups/thomas_pynchon</a>
 If you haven't used Zotero before, it's the ultimate open-source, freely <br />available citation tool. It will do all the hard work of formatting your <br />citations and even share them across multiple computers. It works with <br />OpenOffice and MS Word, so you are well catered for.

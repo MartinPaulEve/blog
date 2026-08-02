@@ -25,7 +25,7 @@ Likewise, Bristow, Joseph, and Rebecca N. Mitchell, _Oscar Wilde’s Chatterton:
 
 I have also found evidence, in the Birkbeck archive, however, that Oscar Wilde lectured in the English department. Here, he writes to Mr (George Webb?) Appleton: "I lecture on Nov 4 at Birkbeck institution. - Oscar Wilde".
 
-![alt text](/images/oscar.jpg "Oscar Wilde at Birkbeck, University of London")
+![Handwritten letter from Oscar Wilde to Mr Appleton, reading in part 'I lecture on Nov 4 at Birkbeck institution'](/images/oscar.jpg "Oscar Wilde at Birkbeck, University of London")
 
 It is possible that the letter I have contains an error ("4" for "24"). However, if taken at face value, this may be referring to a different lecture.
 

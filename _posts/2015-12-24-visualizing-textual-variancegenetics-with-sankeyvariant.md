@@ -21,7 +21,7 @@ Over the holiday period I wanted to visualize the differences between two editio
 
 The software is based on d3.js and the Sankey plugin and, with the modifications that I have introduced, it allows the production of diagrams like this:
 
-<img src="/images/post_images/2015-12-Sankey.png" style="width: 100%"/>
+<img src="/images/post_images/2015-12-Sankey.png" alt="Sankey diagram linking numbered paragraph ranges in one edition of a text to their counterparts in a second edition, with grey flows showing correspondences" style="width: 100%"/>
 
 The idea here is that, in this case, chunks of identifiable text in one edition (on the left) are mapped onto chunks in the corresponding edition (on the right). In this instance, I have numbered paragraphs but there is no reason that it couldn't be done with actual textual correlation. All that is needed is a way to produce the relevant JSON for your use case. In my use case, the JSON looks like this:
 

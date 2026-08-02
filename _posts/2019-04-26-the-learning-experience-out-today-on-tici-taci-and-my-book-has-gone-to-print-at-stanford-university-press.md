@@ -13,7 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m72hl5p
 
 I have a music release/EP out on Tici Taci records today, called _The Learning Experience_.
 
-<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/746242008&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" title="SoundCloud audio player: Martin Eve - The Learning Experience EP (Tici Taci)" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/746242008&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
 Available for purchase at:
 

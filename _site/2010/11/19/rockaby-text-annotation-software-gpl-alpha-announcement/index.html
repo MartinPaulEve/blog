@@ -24,7 +24,7 @@
 <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
 <link rel="stylesheet" href="/assets/fontawesome/css/v4-shims.min.css">
 <link id="hljs-theme" rel="stylesheet" href="/assets/highlightjs/styles/atom-one-light.min.css">
-<link rel="stylesheet" href="/assets/css/styles.css?v=1785313032">
+<link rel="stylesheet" href="/assets/css/styles.css?v=1785659453">
 <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
 <link rel="icon" type="image/png" href="/images/favicon.png">
 <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
@@ -202,7 +202,7 @@ In addition to referencing one of my favourite plays, it also functions, from th
 
 <link rel="site.standard.publication" href="at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.publication/3mq4tnwmt3w2i" />
 
-    <link rel="stylesheet" href="/assets/css/blog-post.css?v=1785313032">
+    <link rel="stylesheet" href="/assets/css/blog-post.css?v=1785659453">
 
     
     <meta name="citation_author" content="Eve, Martin Paul">
@@ -239,7 +239,7 @@ In addition to referencing one of my favourite plays, it also functions, from th
     <a href="/" class="logo">Martin Paul Eve</a>
     <span class="mouse-mark mouse-mark--logo" aria-hidden="true"></span>
 </div>
-<nav class="nav-desktop">
+<nav class="nav-desktop" id="site-nav" aria-label="Main">
     <a href="/" class="nav-link">Home</a>
     <a href="/about/" class="nav-link">About</a>
     <a href="/c-v/Eve-CV.pdf" class="nav-link">CV</a>
@@ -247,13 +247,13 @@ In addition to referencing one of my favourite plays, it also functions, from th
     <a href="/books/" class="nav-link">Books</a>
     <a href="/music/" class="nav-link">Music</a>
     <a href="mailto:martin@eve.gd" class="btn btn-primary nomob">Contact</a>
-    <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+    <button class="theme-toggle" type="button" aria-label="Dark mode" aria-pressed="false">
         <i class="fa-solid fa-moon theme-icon-dark" aria-hidden="true"></i>
         <i class="fa-solid fa-sun theme-icon-light" aria-hidden="true"></i>
     </button>
     <span class="mouse-mark mouse-mark--nav" aria-hidden="true"></span>
 </nav>
-<button class="menu-toggle" aria-label="Toggle menu">
+<button class="menu-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav">
     <span></span>
     <span></span>
     <span></span>
@@ -267,7 +267,7 @@ In addition to referencing one of my favourite plays, it also functions, from th
         <div class="post-header post-header--hero">
             <div class="container">
                 <h1 class="post-title">Rockaby: text annotation software [GPL, alpha, announcement]</h1>
-                <p class="post-description"><strong>Cite as:</strong> Martin Paul Eve, "Rockaby: text annotation software [GPL, alpha, announcement]", <i>eve.gd: Martin Paul Eve</i>, <time itemprop="datePublished dateModified" datetime="November 19, 2010">November 19, 2010</time>, <a href="https://doi.org/10.59348/29p70-20216">https://doi.org/10.59348/29p70-20216</a>.</p>
+                <p class="post-description"><strong>Cite as:</strong> Martin Paul Eve, "Rockaby: text annotation software [GPL, alpha, announcement]", <i>eve.gd: Martin Paul Eve</i>, <time itemprop="datePublished dateModified" datetime="2010-11-19">November 19, 2010</time>, <a href="https://doi.org/10.59348/29p70-20216">https://doi.org/10.59348/29p70-20216</a>.</p>
 
                 
 
@@ -316,7 +316,7 @@ Rockaby was originally written in .NET, but I have just spent the last day or so
 <p>I, therefore, would be very interested to hear from any Django developers who would like to participate.</p>
 <p><strong>How is it licensed?</strong><br />
 The project is licensed under GPL v3.<br />
-<a rel="attachment wp-att-418" href="http://www.martineve.com/2010/11/19/rockaby-text-annotation-software-gpl-alpha-announcement/gplv3-127x51/"><img title="GPL v3" src="http://www.martineve.com/wp-content/uploads/2010/11/gplv3-127x51.png" alt="" width="127" height="51" /></a></p>
+<a rel="attachment wp-att-418" href="http://www.martineve.com/2010/11/19/rockaby-text-annotation-software-gpl-alpha-announcement/gplv3-127x51/"><img title="GPL v3" src="http://www.martineve.com/wp-content/uploads/2010/11/gplv3-127x51.png" alt="GPL v3 logo" width="127" height="51" /></a></p>
 <p><strong>How can I get the source?</strong><br />
 The source code is hosted at the <a href="http://code.google.com/p/rockaby/">Google Code repository</a>. If you have some improvements/patches, email me (or comment below) and, pending review, I can add you to the team.</p>
 <p><strong>Why the name?</strong><br />
@@ -338,7 +338,7 @@ In addition to referencing one of my favourite plays, it also functions, from th
                             <a href="https://bsky.app/intent/compose?text=Rockaby:+text+annotation+software+[GPL,+alpha,+announcement]+https://eve.gd/2010/11/19/rockaby-text-annotation-software-gpl-alpha-announcement/" class="share-btn share-bluesky" aria-label="Share on Bluesky" title="Share on Bluesky">
                                 <i class="fa-brands fa-square-bluesky" aria-hidden="true"></i>
                             </a>
-                            <button type="button" class="share-btn share-mastodon" data-share-mastodon data-title="Rockaby: text annotation software [GPL, alpha, announcement]" data-url="https://eve.gd/2010/11/19/rockaby-text-annotation-software-gpl-alpha-announcement/" aria-label="Share on Mastodon" title="Share on Mastodon">
+                            <button type="button" class="share-btn share-mastodon" data-share-mastodon data-title="Rockaby: text annotation software [GPL, alpha, announcement]" data-url="https://eve.gd/2010/11/19/rockaby-text-annotation-software-gpl-alpha-announcement/" aria-label="Share on Mastodon (opens in new tab)" title="Share on Mastodon">
                                 <i class="fa-brands fa-mastodon" aria-hidden="true"></i>
                             </button>
                             <a href="https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/2010/11/19/rockaby-text-annotation-software-gpl-alpha-announcement/" class="share-btn share-facebook" aria-label="Share on Facebook" title="Share on Facebook">
@@ -353,18 +353,18 @@ In addition to referencing one of my favourite plays, it also functions, from th
                         <ul class="related-posts">
                             
                             <li>
-                                <a href="/2026/07/10/investigating-atproto-here-and-for-knowledge-commons/" title="Investigating ATProto here and for Knowledge Commons">Investigating ATProto here and for Knowledge Commons</a>
+                                <a href="/2026/08/02/the-extended-interviews-on-ito-the-journey-looking-back-ati-star-trek-voyager/">The extended interviews on <i>To the Journey: Looking Back at</i> Star Trek: Voyager</a>
+                                <span class="related-date">2 August 2026</span>
+                            </li>
+                            
+                            <li>
+                                <a href="/2026/07/10/investigating-atproto-here-and-for-knowledge-commons/">Investigating ATProto here and for Knowledge Commons</a>
                                 <span class="related-date">10 July 2026</span>
                             </li>
                             
                             <li>
-                                <a href="/2026/06/27/fair-and-square-making-a-static-site-support-fair-signposting/" title="FAIR and Square: making a static site support FAIR signposting">FAIR and Square: making a static site support FAIR signposting</a>
+                                <a href="/2026/06/27/fair-and-square-making-a-static-site-support-fair-signposting/">FAIR and Square: making a static site support FAIR signposting</a>
                                 <span class="related-date">27 June 2026</span>
-                            </li>
-                            
-                            <li>
-                                <a href="/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/" title="Making blog posts harvestable by Zotero and preserving case in citation fields">Making blog posts harvestable by Zotero and preserving case in citation fields</a>
-                                <span class="related-date">23 June 2026</span>
                             </li>
                             
                         </ul>
@@ -380,7 +380,7 @@ In addition to referencing one of my favourite plays, it also functions, from th
     <div class="container">
     <div class="footer-grid">
         <div class="footer-section footer-about">
-            <h3>Martin Paul Eve</h3>
+            <h2 class="footer-heading footer-heading--name">Martin Paul Eve</h2>
             <p>Professor of Literature, Technology and Publishing at Birkbeck, University of London. Associate Director for Platform Development of Knowledge Commons at MESH Research, Michigan State University.</p>
             <div class="social-links">
                 <a href="https://bsky.app/profile/eve.gd" aria-label="Bluesky" class="social-icon">
@@ -395,7 +395,7 @@ In addition to referencing one of my favourite plays, it also functions, from th
             </div>
             <div class="social-links row-two">
                 <a href="https://orcid.org/0000-0002-5589-8511" aria-label="ORCID" class="social-icon">
-                    <img src="/images/orcid.png" alt="ORCID ID">
+                    <img src="/images/orcid.png" alt="">
                 </a>
                 <a href="/pictures/" aria-label="Pictures for Re-Use" class="social-icon">
                     <i class="fas fa-fw fa-images" aria-hidden="true"></i>
@@ -408,7 +408,7 @@ In addition to referencing one of my favourite plays, it also functions, from th
         </div>
 
         <div class="footer-section">
-            <h4>Quick Links</h4>
+            <h2 class="footer-heading">Quick Links</h2>
             <ul>
                 <li><a href="/about/">About Me</a></li>
                 <li><a href="/c-v/Eve-CV.pdf">Curriculum Vitae</a></li>
@@ -418,7 +418,7 @@ In addition to referencing one of my favourite plays, it also functions, from th
         </div>
 
         <div class="footer-section">
-            <h4>Contact</h4>
+            <h2 class="footer-heading">Contact</h2>
             <ul>
                 <li><a href="mailto:martin@eve.gd">Personal Email</a></li>
                 <li><a href="mailto:martin.eve@bbk.ac.uk">Birkbeck, University of London</a></li>
@@ -428,7 +428,7 @@ In addition to referencing one of my favourite plays, it also functions, from th
         </div>
 
         <div class="footer-section">
-            <h4>Site &amp; policies</h4>
+            <h2 class="footer-heading">Site &amp; policies</h2>
             <ul>
                 <li><a href="/contact/">Contact &amp; feedback</a></li>
                 <li><a href="/accessibility/">Accessibility</a></li>

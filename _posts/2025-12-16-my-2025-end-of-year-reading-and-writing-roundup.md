@@ -56,32 +56,32 @@ As 2025 draws to a close, I'm also taking a moment to reflect on the books that 
 
 | Cover | No. | Title/Author   |
 | :---: | :-: | :---- | :----- |
-| <img src="/images/2025-books/book_covers/book_covers_resized/cover_01.jpg" width="150"> | 1 | *Orbital*, Harvey, Samantha | 
-| <img src="/images/2025-books/book_covers/book_covers_resized/cover_02.jpg" width="150"> | 2 | *Averting the Digital Dark Age: How Archivists, Librarians, and Technologists Built the Web a Memory*, Milligan, Ian |
-| <img src="/images/2025-books/book_covers/book_covers_resized/cover_03.jpg" width="150"> | 3 | *The Proof of My Innocence*, Coe, Jonathan |
-| <img src="/images/2025-books/book_covers/book_covers_resized/cover_04.jpg" width="150"> | 4 | *Old Books, New Technologies: The Representation, Conservation and Transformation of Books since 1700*, McKitterick, David |
-| <img src="/images/2025-books/book_covers/book_covers_resized/cover_05.jpg" width="150"> | 5 | *Stories of Your Life and Others*, Chiang, Ted |
-| <img src="/images/2025-books/book_covers/book_covers_resized/cover_06.jpg" width="150"> | 6 | *Exhalation: Stories*, Chiang, Ted |
-| <img src="/images/2025-books/book_covers/book_covers_resized/cover_07.jpg" width="150"> | 7 | *The Happiness of Dogs: Why the Unexamined Life Is Most Worth Living*, Rowlands, Mark |
-| <img src="/images/2025-books/book_covers/book_covers_resized/cover_08.jpg" width="150"> | 8 | *The Poisonwood Bible*, Kingsolver, Barbara |
-| <img src="/images/2025-books/book_covers/book_covers_resized/cover_09.jpg" width="150"> | 9 | *Flight Behaviour*, Kingsolver, Barbara |
-| <img src="/images/2025-books/book_covers/book_covers_resized/cover_10.jpg" width="150"> | 10 | *Unsheltered*, Kingsolver, Barbara |
+| <img src="/images/2025-books/book_covers/book_covers_resized/cover_01.jpg" width="150" alt="Cover of Orbital by Samantha Harvey"> | 1 | *Orbital*, Harvey, Samantha | 
+| <img src="/images/2025-books/book_covers/book_covers_resized/cover_02.jpg" width="150" alt="Cover of Averting the Digital Dark Age by Ian Milligan, showing a vintage computer with static on its screen"> | 2 | *Averting the Digital Dark Age: How Archivists, Librarians, and Technologists Built the Web a Memory*, Milligan, Ian |
+| <img src="/images/2025-books/book_covers/book_covers_resized/cover_03.jpg" width="150" alt="Cover of The Proof of My Innocence by Jonathan Coe"> | 3 | *The Proof of My Innocence*, Coe, Jonathan |
+| <img src="/images/2025-books/book_covers/book_covers_resized/cover_04.jpg" width="150" alt="Cover of Old Books, New Technologies by David McKitterick"> | 4 | *Old Books, New Technologies: The Representation, Conservation and Transformation of Books since 1700*, McKitterick, David |
+| <img src="/images/2025-books/book_covers/book_covers_resized/cover_05.jpg" width="150" alt="Cover of Stories of Your Life and Others by Ted Chiang"> | 5 | *Stories of Your Life and Others*, Chiang, Ted |
+| <img src="/images/2025-books/book_covers/book_covers_resized/cover_06.jpg" width="150" alt="Cover of Exhalation by Ted Chiang"> | 6 | *Exhalation: Stories*, Chiang, Ted |
+| <img src="/images/2025-books/book_covers/book_covers_resized/cover_07.jpg" width="150" alt="Cover of The Happiness of Dogs by Mark Rowlands"> | 7 | *The Happiness of Dogs: Why the Unexamined Life Is Most Worth Living*, Rowlands, Mark |
+| <img src="/images/2025-books/book_covers/book_covers_resized/cover_08.jpg" width="150" alt="Cover of The Lacuna by Barbara Kingsolver"> | 8 | *The Poisonwood Bible*, Kingsolver, Barbara |
+| <img src="/images/2025-books/book_covers/book_covers_resized/cover_09.jpg" width="150" alt="Cover of Flight Behavior by Barbara Kingsolver"> | 9 | *Flight Behaviour*, Kingsolver, Barbara |
+| <img src="/images/2025-books/book_covers/book_covers_resized/cover_10.jpg" width="150" alt="Cover of Unsheltered by Barbara Kingsolver"> | 10 | *Unsheltered*, Kingsolver, Barbara |
 | | 11 | *Book manuscript for The MIT Press* | | |
-| <img src="/images/2025-books/book_covers/book_covers_resized/cover_08.jpg" width="150"> | 12 | *The Lacuna*, Kingsolver, Barbara |
+| <img src="/images/2025-books/book_covers/book_covers_resized/cover_08.jpg" width="150" alt="Cover of The Lacuna by Barbara Kingsolver"> | 12 | *The Lacuna*, Kingsolver, Barbara |
 | | 13 | *PhD thesis for examination at the University of Brighton* | | |
-| <img src="/images/2025-books/book_covers/book_covers_resized/cover_11.jpg" width="150"> | 14 | *Tor: From the Dark Web to the Future of Privacy*, Collier, Ben |
-| <img src="/images/2025-books/book_covers/book_covers_resized/cover_12.jpg" width="150"> | 15 | *The Frozen People*, Griffiths, Elly |
-| <img src="/images/2025-books/book_covers/book_covers_resized/cover_13.jpg" width="150"> | 16 | *Weaving the Dark Web: Legitimacy on FreeNet, Tor, and I2P*, Gehl, Robert W. |
-| <img src="/images/2025-books/book_covers/book_covers_resized/cover_14.jpg" width="150"> | 17 | *Eleanor Marx: A Life*, Holmes, Rachel |
-| <img src="/images/2025-books/book_covers/book_covers_resized/cover_15.jpg" width="150"> | 18 | *The Origin of the Family, Private Property and the State*, Engels, Friedrich |
+| <img src="/images/2025-books/book_covers/book_covers_resized/cover_11.jpg" width="150" alt="Cover of Tor: From the Dark Web to the Future of Privacy by Ben Collier"> | 14 | *Tor: From the Dark Web to the Future of Privacy*, Collier, Ben |
+| <img src="/images/2025-books/book_covers/book_covers_resized/cover_12.jpg" width="150" alt="Cover of The Frozen People by Elly Griffiths"> | 15 | *The Frozen People*, Griffiths, Elly |
+| <img src="/images/2025-books/book_covers/book_covers_resized/cover_13.jpg" width="150" alt="Cover of Weaving the Dark Web by Robert W. Gehl"> | 16 | *Weaving the Dark Web: Legitimacy on FreeNet, Tor, and I2P*, Gehl, Robert W. |
+| <img src="/images/2025-books/book_covers/book_covers_resized/cover_14.jpg" width="150" alt="Cover of Eleanor Marx: A Life by Rachel Holmes, with an oval portrait photograph of Eleanor Marx"> | 17 | *Eleanor Marx: A Life*, Holmes, Rachel |
+| <img src="/images/2025-books/book_covers/book_covers_resized/cover_15.jpg" width="150" alt="Penguin Classics cover of The Origin of the Family, Private Property and the State by Friedrich Engels"> | 18 | *The Origin of the Family, Private Property and the State*, Engels, Friedrich |
 | | 19 | *PhD thesis for student* |
-| <img src="/images/2025-books/book_covers/book_covers_resized/cover_18.jpg" width="150"> | 20 | *Binding Media. Hybrid Print-Digital Literatures from across the Americas*, Ortega, Elika |
+| <img src="/images/2025-books/book_covers/book_covers_resized/cover_18.jpg" width="150" alt="Cover of Binding Media by Élika Ortega, showing a pixelated cursor arrow in gradient colours"> | 20 | *Binding Media. Hybrid Print-Digital Literatures from across the Americas*, Ortega, Elika |
 | | 21 | *Book manuscript for review for Stanford UP* |
 | | 22 | *Book manuscript for review for University of London Press* |
 | | 23 | *Exploring Star Trek: Voyager: Critical Essays*, Lively, Robert L., ed. |
-| <img src="/images/2025-books/book_covers/book_covers_resized/cover_19.jpg" width="150"> | 24 | *The Life of Rachel Speght: A Forward Woman*, Stringer, Helen M. |
+| <img src="/images/2025-books/book_covers/book_covers_resized/cover_19.jpg" width="150" alt="Cover of The Life of Rachel Speght by Helen M. Stringer"> | 24 | *The Life of Rachel Speght: A Forward Woman*, Stringer, Helen M. |
 | | 25 | *Cambridge MPhil dissertations for adjudication* |
-| <img src="/images/2025-books/book_covers/book_covers_resized/cover_16.jpg" width="150"> | 26 | *The Dark Net*, Bartlett, Jamie |
-| <img src="/images/2025-books/book_covers/book_covers_resized/cover_17.jpg" width="150"> | 27 | *Shadow Ticket*, Pynchon, Thomas |
+| <img src="/images/2025-books/book_covers/book_covers_resized/cover_16.jpg" width="150" alt="Cover of The Dark Net by Jamie Bartlett"> | 26 | *The Dark Net*, Bartlett, Jamie |
+| <img src="/images/2025-books/book_covers/book_covers_resized/cover_17.jpg" width="150" alt="Cover of Shadow Ticket by Thomas Pynchon, with a night-time city street scene"> | 27 | *Shadow Ticket*, Pynchon, Thomas |
 
 So there, said the mayor, that's that.

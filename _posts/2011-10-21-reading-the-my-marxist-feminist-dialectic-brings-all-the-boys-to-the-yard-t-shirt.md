@@ -68,7 +68,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjisk74
 ---
 
 <p>I had reservations about doing so, but I finally ordered the "My Marxist Feminist Dialectic Brings all the Boys to the Yard" T-Shirt from <a href="www.tshirthell.com/store/product.php?productid=1199">T-Shirt Hell</a>. I loved the shirt from day 1, but wanted to discuss the issues surrounding this.</p>
-<p><img src="https://www.martineve.com/wp-content/uploads/2011/10/MFD-768x1024.jpg" alt="" title="MFD" style="width:750px;" class="alignnone size-large wp-image-1552" /></p>
+<p><img src="https://www.martineve.com/wp-content/uploads/2011/10/MFD-768x1024.jpg" alt="Black t-shirt with a Soviet propaganda-style print of raised fists and a woman before a red star, reading 'My Marxist feminist dialectic brings all the boys to the yard'" title="MFD" style="width:750px;" class="alignnone size-large wp-image-1552" /></p>
 <p><i>But you're male.</i> And? This is one of the strangest responses I've yet encountered. People are so absorbed in self interest that it seems impossible that someone would want something for others beside their dominant group. Yes, I'm male, but I would prefer it that women were given equal opportunities in society. Although I'm aware that the term is fragmented and in some definitions I cannot be a feminist, under the broad, succinct definition just given: it is possible to be a male feminist.</p>
 <p><i>What about the shirt's heteronormativity?</i><br />
 Well, being male and wearing it certainly helps to undermine that statement!</p>

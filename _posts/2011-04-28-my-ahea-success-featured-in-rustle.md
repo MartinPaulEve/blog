@@ -21,7 +21,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mke5bfu
 ---
 
 <p>Vanity post alert!</p>
-<div><a href="http://www.sussex.ac.uk/tldu/resources/rustle"><img src="https://www.martineve.com/wp-content/uploads/2011/04/RUSTLE.jpg" alt="" title="RUSTLE" width="500" height="120" class="alignnone size-full wp-image-1012" /></a></div>
+<div><a href="http://www.sussex.ac.uk/tldu/resources/rustle"><img src="https://www.martineve.com/wp-content/uploads/2011/04/RUSTLE.jpg" alt="RUSTLE logo: the word RUSTLE in multicoloured serif capitals" title="RUSTLE" width="500" height="120" class="alignnone size-full wp-image-1012" /></a></div>
 <div>
 <p>I have just been told that my achievement of Associate of the Higher Education Academy has been featured in Sussex's Teaching and Education department's publication, <a href="http://www.sussex.ac.uk/tldu/resources/rustle">RUSTLE</a> ("Really Useful Stuff on Teaching, Learning Etc."). This is, obviously, only the start along the long certificate-strewn pathway to full-time teaching in higher education, but it's certainly a good initial foray. I hope, at some point in the near future, to begin a PGCertHE and, eventually, to become a Fellow of the Higher Education Academy.</p>
 </div>

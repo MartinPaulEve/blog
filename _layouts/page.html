@@ -37,7 +37,7 @@
                     {% if page.image.credit %}
                     <div class="featured-image">
                         <div class="image-attribution">
-                            Image: <a href="{{ page.image.creditlink }}" target="_blank">{{ page.image.title }}</a> ({{ page.image.credit }})
+                            Image: <a href="{{ page.image.creditlink }}" target="_blank" rel="noopener">{{ page.image.title }}<span class="sr-only"> (opens in new tab)</span></a> ({{ page.image.credit }})
                         </div>
                     </div>
                     {% endif %}
@@ -48,10 +48,10 @@
                     <div class="sidebar-widget">
                         <h3>Share This Post</h3>
                         <div class="share-buttons">
-                            <a href="https://bsky.app/intent/compose?text={{ page.title | url_param_escape | replace: ' ', '+' }}+{{ site.url | url_param_escape }}{{ page.url | url_param_escape }}" class="share-btn share-bluesky" title="Share on Bluesky">
+                            <a href="https://bsky.app/intent/compose?text={{ page.title | url_param_escape | replace: ' ', '+' }}+{{ site.url | url_param_escape }}{{ page.url | url_param_escape }}" class="share-btn share-bluesky" aria-label="Share on Bluesky" title="Share on Bluesky">
                                 <i class="fa-brands fa-square-bluesky" aria-hidden="true"></i>
                             </a>
-                            <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url | url_param_escape }}{{ page.url | url_param_escape }}" class="share-btn share-facebook" title="Share on LinkedIn">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url | url_param_escape }}{{ page.url | url_param_escape }}" class="share-btn share-facebook" aria-label="Share on Facebook" title="Share on Facebook">
                                 <i class="fa-brands fa-square-facebook" aria-hidden="true"></i>
                             </a>
 

@@ -15,7 +15,7 @@ Today, my peer-reviewed journal article on the publishing history of the two sub
 
 What actually happened here, then? To cut to the chase: in 2003, David Mitchell’s editorial contact at the US branch of Random House moved from the publisher, leaving the American edition of _Cloud Atlas_ (2004) without an editor for approximately three months. Meanwhile, the UK edition of the manuscript was undergoing a series of editorial changes and rewrites that were never synchronised back into the US edition of the text. When the process was resumed at Random House under the editorial guidance of David Ebershoff, changes from New York were likewise not imported back into the UK edition. In the section entitled ‘An Orison of Sonmi~451’ these desynchronised rewritings are nearly total at the level of linguistic expression between UK and US paperbacks/electronic editions and there are a range of sub-episodes that only feature in one or other of the published editions. 
 
-[![Stemma](/images/Stemma.png)](http://doi.org/10.16995/olh.82)
+[![Stemma diagram: Mitchell's manuscript branches into the UK manuscript, leading to the P edition, and the US manuscript, leading to the E edition, French edition, and film](/images/Stemma.png)](http://doi.org/10.16995/olh.82)
 
 The full article is also available to download from [BIROn](http://eprints.bbk.ac.uk/id/eprint/15857) (the Birkbeck, University of London institutional repository) and [MLA CORE](https://commons.mla.org/deposits/item/mla:849/).
 

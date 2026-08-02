@@ -28,7 +28,7 @@ wordpress_url: http://www.martineve.com/?p=622
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mktopj62a"
 ---
 
-<div><img src="http://www.martineve.com/wp-content/uploads/2011/01/240942184_51684b707a_o-300x219.jpg" alt="" title="240942184_51684b707a_o" width="300" height="219" class="alignnone size-medium wp-image-624" /><br/>Image credit: <a href="http://www.flickr.com/photos/topsy/">grewlike</a> under a CC-BY-NC-SA license.</div>
+<div><img src="http://www.martineve.com/wp-content/uploads/2011/01/240942184_51684b707a_o-300x219.jpg" alt="Hand holding a bundle of well-travelled postcards and stamped envelopes tied together with string" title="240942184_51684b707a_o" width="300" height="219" class="alignnone size-medium wp-image-624" /><br/>Image credit: <a href="http://www.flickr.com/photos/topsy/">grewlike</a> under a CC-BY-NC-SA license.</div>
 <div style="margin-top:15px;">
 <p><b>Picture this: postcards and letters beyond text Postcards Competition – deadline extended!</b></p>
 </div>

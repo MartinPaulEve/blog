@@ -35,5 +35,5 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mii66hx
 ---
 
 <p>In which I look nervous and shifty.</p>
-<p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/J5NCGvGgVrM" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/J5NCGvGgVrM" title="YouTube video: Q&amp;A from the UKSG 2012 plenary session on the future of academic publishing, featuring Martin Paul Eve" frameborder="0" allowfullscreen></iframe></p>
 <p>Please note: this post's featured image is licensed and not shared under a CC license.</p>

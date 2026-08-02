@@ -24,7 +24,7 @@
 <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
 <link rel="stylesheet" href="/assets/fontawesome/css/v4-shims.min.css">
 <link id="hljs-theme" rel="stylesheet" href="/assets/highlightjs/styles/atom-one-light.min.css">
-<link rel="stylesheet" href="/assets/css/styles.css?v=1785481810">
+<link rel="stylesheet" href="/assets/css/styles.css?v=1785659453">
 <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
 <link rel="icon" type="image/png" href="/images/favicon.png">
 <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
@@ -140,21 +140,21 @@
     <a href="/" class="logo">Martin Paul Eve</a>
     <span class="mouse-mark mouse-mark--logo" aria-hidden="true"></span>
 </div>
-<nav class="nav-desktop">
-    <a href="/" class="nav-link">Home</a>
+<nav class="nav-desktop" id="site-nav" aria-label="Main">
+    <a href="/" class="nav-link" aria-current="page">Home</a>
     <a href="/about/" class="nav-link">About</a>
     <a href="/c-v/Eve-CV.pdf" class="nav-link">CV</a>
     <a href="/posts/" class="nav-link">Web Writings</a>
     <a href="/books/" class="nav-link">Books</a>
     <a href="/music/" class="nav-link">Music</a>
     <a href="mailto:martin@eve.gd" class="btn btn-primary nomob">Contact</a>
-    <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+    <button class="theme-toggle" type="button" aria-label="Dark mode" aria-pressed="false">
         <i class="fa-solid fa-moon theme-icon-dark" aria-hidden="true"></i>
         <i class="fa-solid fa-sun theme-icon-light" aria-hidden="true"></i>
     </button>
     <span class="mouse-mark mouse-mark--nav" aria-hidden="true"></span>
 </nav>
-<button class="menu-toggle" aria-label="Toggle menu">
+<button class="menu-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav">
     <span></span>
     <span></span>
     <span></span>
@@ -176,7 +176,7 @@
                 </div>
             </div>
             <div class="masthead-portrait">
-                <img src="/images/mpe.png" alt="Martin Paul Eve">
+                <img src="/images/mpe.png" alt="Portrait photograph of Martin Paul Eve">
             </div>
         </div>
     </section>
@@ -189,15 +189,15 @@
                     <span class="stories-kicker">From the blog</span>
                     <h2 class="stories-title">Recent writing</h2>
                 </div>
-                <a href="/posts/" class="stories-link">All posts &rarr;</a>
+                <a href="/posts/" class="stories-link">All posts <span aria-hidden="true">&rarr;</span></a>
             </div>
 
             
-            <a class="story-lead" href="/2026/07/10/investigating-atproto-here-and-for-knowledge-commons/">
-                <img src="/images/decentral.jpg" alt="">
-                <span class="story-pill">10.07.26</span>
+            <a class="story-lead" href="/2026/08/02/the-extended-interviews-on-ito-the-journey-looking-back-ati-star-trek-voyager/">
+                <img src="/images/voyagerdoc.jpg" alt="">
+                <span class="story-pill">02.08.26</span>
                 <span class="story-lead-body">
-                    <span class="story-lead-title">Investigating ATProto here and for Knowledge Commons</span>
+                    <span class="story-lead-title">The extended interviews on <i>To the Journey: Looking Back at</i> Star Trek: Voyager</span>
                 </span>
             </a>
 
@@ -205,74 +205,80 @@
                 
                 
                 <article class="story">
-                    <a class="story-media" href="/2026/06/27/fair-and-square-making-a-static-site-support-fair-signposting/">
+                    
+                    <a class="story-media" href="/2026/07/10/investigating-atproto-here-and-for-knowledge-commons/" aria-hidden="true" tabindex="-1">
+                        
+                        <img src="/images/decentral.jpg" alt="" loading="lazy">
+                        
+                        <span class="story-pill">10.07.26</span>
+                    </a>
+                    <h3 class="story-title"><a href="/2026/07/10/investigating-atproto-here-and-for-knowledge-commons/">Investigating ATProto here and for Knowledge Commons<span class="sr-only"> (10 July 2026)</span></a></h3>
+                    <p class="story-excerpt">After a recent post by Brennan Kenneth Brown, I decided to investigate what it would take to get this site – and, the...</p>
+                </article>
+                
+                
+                <article class="story">
+                    
+                    <a class="story-media" href="/2026/06/27/fair-and-square-making-a-static-site-support-fair-signposting/" aria-hidden="true" tabindex="-1">
                         
                         <img src="/images/gavel.jpg" alt="" loading="lazy">
                         
                         <span class="story-pill">27.06.26</span>
                     </a>
-                    <h3 class="story-title"><a href="/2026/06/27/fair-and-square-making-a-static-site-support-fair-signposting/">FAIR and Square: making a static site support FAIR signposting</a></h3>
+                    <h3 class="story-title"><a href="/2026/06/27/fair-and-square-making-a-static-site-support-fair-signposting/">FAIR and Square: making a static site support FAIR signposting<span class="sr-only"> (27 June 2026)</span></a></h3>
                     <p class="story-excerpt">After my previous post about Zotero ingest, I wondered what else I might be able to do to make this scholarly (and pe...</p>
                 </article>
                 
                 
                 <article class="story">
-                    <a class="story-media" href="/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/">
+                    
+                    <a class="story-media" href="/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/" aria-hidden="true" tabindex="-1">
                         
                         <img src="/images/zotero.png" alt="" loading="lazy">
                         
                         <span class="story-pill">23.06.26</span>
                     </a>
-                    <h3 class="story-title"><a href="/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/">Making blog posts harvestable by Zotero and preserving case in citation fields</a></h3>
+                    <h3 class="story-title"><a href="/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/">Making blog posts harvestable by Zotero and preserving case in citation fields<span class="sr-only"> (23 June 2026)</span></a></h3>
                     <p class="story-excerpt">This is a quick “how-to” post because I learned something about Zotero. I want the posts on this site to be easily ci...</p>
                 </article>
                 
                 
                 <article class="story">
-                    <a class="story-media" href="/2026/06/04/more-on-dual-licensing-of-digital-oa-books/">
+                    
+                    <a class="story-media" href="/2026/06/04/more-on-dual-licensing-of-digital-oa-books/" aria-hidden="true" tabindex="-1">
                         
                         <img src="/images/copyright-claim.jpg" alt="" loading="lazy">
                         
                         <span class="story-pill">04.06.26</span>
                     </a>
-                    <h3 class="story-title"><a href="/2026/06/04/more-on-dual-licensing-of-digital-oa-books/">More on dual-licensing of digital OA books</a></h3>
+                    <h3 class="story-title"><a href="/2026/06/04/more-on-dual-licensing-of-digital-oa-books/">More on dual-licensing of digital OA books<span class="sr-only"> (4 June 2026)</span></a></h3>
                     <p class="story-excerpt">Following up on yesterday’s post, I received an email this morning from Andrew Johnson, who is the Scholarly Communic...</p>
                 </article>
                 
                 
                 <article class="story">
-                    <a class="story-media" href="/2026/06/03/what-is-actually-licensed-in-printdigital-dual-licensed-books/">
+                    
+                    <a class="story-media" href="/2026/06/03/what-is-actually-licensed-in-printdigital-dual-licensed-books/" aria-hidden="true" tabindex="-1">
                         
                         <img src="/images/license.jpg" alt="" loading="lazy">
                         
                         <span class="story-pill">03.06.26</span>
                     </a>
-                    <h3 class="story-title"><a href="/2026/06/03/what-is-actually-licensed-in-printdigital-dual-licensed-books/">What is actually licensed in print/digital dual-licensed books?</a></h3>
+                    <h3 class="story-title"><a href="/2026/06/03/what-is-actually-licensed-in-printdigital-dual-licensed-books/">What is actually licensed in print/digital dual-licensed books?<span class="sr-only"> (3 June 2026)</span></a></h3>
                     <p class="story-excerpt">I have recently published a book chapter (on Shadow Libraries) in a very fine collection that was published in print ...</p>
                 </article>
                 
                 
                 <article class="story">
-                    <a class="story-media" href="/2026/05/21/things-i-have-made-lower-decks-conference-and-quote-in-researchprofessional/">
+                    
+                    <a class="story-media" href="/2026/05/21/things-i-have-made-lower-decks-conference-and-quote-in-researchprofessional/" aria-hidden="true" tabindex="-1">
                         
                         <img src="/images/microphone.png" alt="" loading="lazy">
                         
                         <span class="story-pill">21.05.26</span>
                     </a>
-                    <h3 class="story-title"><a href="/2026/05/21/things-i-have-made-lower-decks-conference-and-quote-in-researchprofessional/">Things I have made (KC IDMS in place, Lower Decks conference, and quote in ResearchProfessional)</a></h3>
+                    <h3 class="story-title"><a href="/2026/05/21/things-i-have-made-lower-decks-conference-and-quote-in-researchprofessional/">Things I have made (KC IDMS in place, Lower Decks conference, and quote in ResearchProfessional)<span class="sr-only"> (21 May 2026)</span></a></h3>
                     <p class="story-excerpt">Some days I look at the things I’ve done and think: when I am gone there will be no trace of me, and all that I have ...</p>
-                </article>
-                
-                
-                <article class="story">
-                    <a class="story-media" href="/2026/04/19/the-necessary-pain-involved-in-blogging-if-you-want-your-work-to-be-preserved-beyond-your-lifespan/">
-                        
-                        <img src="/images/pain.jpg" alt="" loading="lazy">
-                        
-                        <span class="story-pill">19.04.26</span>
-                    </a>
-                    <h3 class="story-title"><a href="/2026/04/19/the-necessary-pain-involved-in-blogging-if-you-want-your-work-to-be-preserved-beyond-your-lifespan/">The Necessary Pain Involved in Blogging (if you want your work to be preserved beyond your lifespan)</a></h3>
-                    <p class="story-excerpt">I am thinking a lot these days about my own mortality. That’s not because I am obsessed with death or anything of the...</p>
                 </article>
                 
             </div>
@@ -303,7 +309,7 @@
     <div class="container">
     <div class="footer-grid">
         <div class="footer-section footer-about">
-            <h3>Martin Paul Eve</h3>
+            <h2 class="footer-heading footer-heading--name">Martin Paul Eve</h2>
             <p>Professor of Literature, Technology and Publishing at Birkbeck, University of London. Associate Director for Platform Development of Knowledge Commons at MESH Research, Michigan State University.</p>
             <div class="social-links">
                 <a href="https://bsky.app/profile/eve.gd" aria-label="Bluesky" class="social-icon">
@@ -318,7 +324,7 @@
             </div>
             <div class="social-links row-two">
                 <a href="https://orcid.org/0000-0002-5589-8511" aria-label="ORCID" class="social-icon">
-                    <img src="/images/orcid.png" alt="ORCID ID">
+                    <img src="/images/orcid.png" alt="">
                 </a>
                 <a href="/pictures/" aria-label="Pictures for Re-Use" class="social-icon">
                     <i class="fas fa-fw fa-images" aria-hidden="true"></i>
@@ -331,7 +337,7 @@
         </div>
 
         <div class="footer-section">
-            <h4>Quick Links</h4>
+            <h2 class="footer-heading">Quick Links</h2>
             <ul>
                 <li><a href="/about/">About Me</a></li>
                 <li><a href="/c-v/Eve-CV.pdf">Curriculum Vitae</a></li>
@@ -341,7 +347,7 @@
         </div>
 
         <div class="footer-section">
-            <h4>Contact</h4>
+            <h2 class="footer-heading">Contact</h2>
             <ul>
                 <li><a href="mailto:martin@eve.gd">Personal Email</a></li>
                 <li><a href="mailto:martin.eve@bbk.ac.uk">Birkbeck, University of London</a></li>
@@ -351,7 +357,7 @@
         </div>
 
         <div class="footer-section">
-            <h4>Site &amp; policies</h4>
+            <h2 class="footer-heading">Site &amp; policies</h2>
             <ul>
                 <li><a href="/contact/">Contact &amp; feedback</a></li>
                 <li><a href="/accessibility/">Accessibility</a></li>

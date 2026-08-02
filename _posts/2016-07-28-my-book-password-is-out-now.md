@@ -12,7 +12,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mb77tds
 
 My short book in the <a href="http://www.bloomsbury.com/us/series/object-lessons/">Object Lessons series</a>, <a href="http://meve.io/password"><i>Password</i></a>, is released today, published by Bloomsbury. It's available to buy in <a href="http://amzn.to/2abBhmD">all the usual places</a>. All author royalties will be donated to <a href="http://www.arthritisresearchuk.org/">Arthritis Research UK</a>.
 
-[![Password](/images/password.png)](http://amzn.to/2abBhmD)
+[![Cover of Password by Martin Paul Eve in the Bloomsbury Object Lessons series, showing a password entry box filled with six masked dots](/images/password.png)](http://amzn.to/2abBhmD)
 
 
 When I first saw the Object Lessons series, I felt I wanted to write something for it. It wasn't, originally, going to be _Password_, though. I initially suggested "trade" as the subject. Then, when the editors thought that more appropriate for a short essay, I gave them a list of topics that interested me: rocket, crossword, password, light bulb, frame. They picked password!

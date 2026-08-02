@@ -62,7 +62,7 @@ Rockaby was originally written in .NET, but I have just spent the last day or so
 <p>I, therefore, would be very interested to hear from any Django developers who would like to participate.</p>
 <p><strong>How is it licensed?</strong><br />
 The project is licensed under GPL v3.<br />
-<a rel="attachment wp-att-418" href="http://www.martineve.com/2010/11/19/rockaby-text-annotation-software-gpl-alpha-announcement/gplv3-127x51/"><img title="GPL v3" src="http://www.martineve.com/wp-content/uploads/2010/11/gplv3-127x51.png" alt="" width="127" height="51" /></a></p>
+<a rel="attachment wp-att-418" href="http://www.martineve.com/2010/11/19/rockaby-text-annotation-software-gpl-alpha-announcement/gplv3-127x51/"><img title="GPL v3" src="http://www.martineve.com/wp-content/uploads/2010/11/gplv3-127x51.png" alt="GPL v3 logo" width="127" height="51" /></a></p>
 <p><strong>How can I get the source?</strong><br />
 The source code is hosted at the <a href="http://code.google.com/p/rockaby/">Google Code repository</a>. If you have some improvements/patches, email me (or comment below) and, pending review, I can add you to the team.</p>
 <p><strong>Why the name?</strong><br />

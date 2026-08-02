@@ -26,22 +26,24 @@
         <div class="post-content">
             <div class="container">
                 <div class="post-body">
+                    {% comment %} Years are h2 and post titles h3 so the heading outline
+                    nests correctly (year > posts); classes preserve the original sizes. {% endcomment %}
                     {% for post in site.posts %}
                     {% unless post.next %}
-                    <h3>{{ post.date | date: '%Y' }}</h3>
+                    <h2 class="archive-year">{{ post.date | date: '%Y' }}</h2>
                     {% else %}
                     {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
                     {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
                     {% if year != nyear %}
-                    <h3>{{ post.date | date: '%Y' }}</h3>
+                    <h2 class="archive-year">{{ post.date | date: '%Y' }}</h2>
                     {% endif %}
                     {% endunless %}
                     <article>
                         {% if post.link %}
-                        <h2><a href="{{ post.link }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+                        <h3 class="archive-title"><a href="{{ post.link }}">{{ post.title }}</a></h3>
                         <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
                         {% else %}
-                        <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+                        <h3 class="archive-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
                         <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
                         {% endif %}
                     </article>

@@ -61,7 +61,7 @@ wordpress_url: http://new.martineve.com/?p=32
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmchvot2e"
 ---
 
-<p><a href='/images/uploads/2010/03/twitter-down.png'><img src="/images/uploads/2010/03/twitter-down-300x76.png" width="500" height="127"/></a></p>
+<p><a href='/images/uploads/2010/03/twitter-down.png'><img src="/images/uploads/2010/03/twitter-down-300x76.png" alt="Twitter's error page shown during the outage, refusing access to the site" width="500" height="127"/></a></p>
 <p>Tomorrow I plan to attend the Digital Researcher seminar day at the British Library.</p>
 <p>It promises to be an excellent day providing insights on how researchers can best employ microblogging, social networking, social bookmarking/citations and many of the other nifty collaborative elements of the web that simply weren't there in the '90s.</p>
 <p>I post this, today because, obviously, in a practice-driven seminar, there is expected to be a great deal of hands-on work. For instance, the event has its own Twitter hashtag (#DR10) and all participants have been encouraged to register Twitter accounts.</p>

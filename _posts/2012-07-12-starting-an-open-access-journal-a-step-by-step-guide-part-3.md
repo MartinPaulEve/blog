@@ -59,7 +59,7 @@ Upload the document, on the “review” pane as above, into the “Upload a rev
 On the summary tab, click “Add Self” under “Editors”</p>
 <p><b>Step 5: Select the reviewer</b></p>
 <p>Click the “Select Reviewer” option on the “Review” pane:</p>
-<p><a href="https://eve.gd/wp-content/uploads/2012/07/review1.png"><img src="https://eve.gd/wp-content/uploads/2012/07/review1.png" alt="" title="review1" style="width:750px;" class="alignnone size-full wp-image-2198" /></a></p>
+<p><a href="https://eve.gd/wp-content/uploads/2012/07/review1.png"><img src="https://eve.gd/wp-content/uploads/2012/07/review1.png" alt="OJS submission review page with the cursor over the Select Reviewer link in the Peer Review section" title="review1" style="width:750px;" class="alignnone size-full wp-image-2198" /></a></p>
 <p>On the next page, select the desired reviewer (if the account doesn't exist, create an account for the reviewer) and click “Assign”:</p>
 <p><a href="https://eve.gd/wp-content/uploads/2012/07/review2.png"><img src="https://eve.gd/wp-content/uploads/2012/07/review2-1024x410.png" alt="Reviewing" title="Reviewing" style="width:750px;" class="alignnone size-large wp-image-2199" /></a></p>
 <p>Note when this is done that the “due” date is set to 10 weeks. If needs be, this can be altered by clicking on the date.</p>

@@ -17,7 +17,7 @@ There is one significant piece of automation on the site. My publications list i
 
 The Site & Policies pages listed in the footer (e.g. this page) were created from an amalgam of other policies on other sites around the web. AI may have been used on those pages.
 
-The HTML and CSS code for this site were partially coded by hand and partially coded with AI assistance (Anthropic Claude Opus 4.8).
+The HTML and CSS code for this site were partially coded by hand and partially coded with AI assistance (Anthropic Claude Opus 4.8 and Claude Fable 5.0). Metadata for posts and images (for accessibility) has been enriched using these same models and tools.
 
 If I use AI assistance for anything else published on the site, I will disclose it. I have no plans whatsoever to abandon writing by hand and brain. I strongly believe that we need to continue asserting human voices, amid the cacophony of "slop". If we stop writing and thinking for ourselves, then what is the point? So: if I have not disclosed AI involvement on a given page, that page or post was written by me.
 

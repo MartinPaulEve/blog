@@ -21,7 +21,7 @@ wordpress_url: http://new.martineve.com/?p=22
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmbo4hm2s"
 ---
 
-<p><img src="/images/uploads/2010/03/Bookshelf_photo-300x228.jpg" width="500" height="380"/></p>
+<p><img src="/images/uploads/2010/03/Bookshelf_photo-300x228.jpg" alt="Rows of books lined up on a bookshelf" width="500" height="380"/></p>
 <p>After the Vitae Digital Researcher workshop at the British Library, I decided to ramp up my web presence to a slightly more professional level than it had previously obtained.
  Having also decided that it would be nice to take a bit of a break this weekend, I went ahead and implemented COinS on my main web page. Although, at present, my publication list is somewhat insubstantial, as this grows it will be possible for anyone who visits to automatically import my conference papers and publications into social citation software such as Zotero, Mendeley and CiteULike.
  COinS works by embedding a span tag inside your document that describes the data being visually presented. The full specification is at <a href="http://ocoins.info/">http://ocoins.info/</a>

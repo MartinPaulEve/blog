@@ -19,7 +19,7 @@ wordpress_url: http://new.martineve.com/?p=26
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmc56wc2p"
 ---
 
-<p><img src="/images/uploads/2010/03/InfiniteJest-193x300.jpg" width="323" height="500"/></p>
+<p><img src="/images/uploads/2010/03/InfiniteJest-193x300.jpg" alt="Cover of David Foster Wallace's novel Infinite Jest" width="323" height="500"/></p>
 <p>The London Review of Books has just published a blog post entitled Wallace v. the Terrible Master. You can read the full article here: <a href="http://www.lrb.co.uk/blog/2010/03/16/alex-abramovich/wallace-v-the-terrible-master/" class="moz-txt-link-freetext">http://www.lrb.co.uk/blog/2010/03/16/alex-abramovich/wallace-v-the-terrible-master/</a>
  My concern is that, in every recent web publication on the author, the only aspect of his life in which people are interested, is his death. I have to admit that I was particularly incensed by this article which, having provided a citation from Wallace on postmodernism and the cliche therein, moves to state that "[i]n the event, Wallace chose another clich&eacute; for himself; nailed his belt to a patio rafter, stood on a lawn chair, and kicked." At what point did the deeply personal and troubled act of killing oneself become a cliche?
  Sarah Kane is another writer who springs to mind on this topic, her plays have, once more, been overshadowed by her death. Indeed, if there is one piece of academic writing on this author which I believe everyone should read it is: (2002) "The Mythology of Sarah Kane: How to avoid reading 4.48 Psychosis as a Suicide Note", <em>Anglo Files: Journal of English Teaching</em> (The Danish Association of Teachers of English), December, 35-42.
