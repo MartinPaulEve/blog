@@ -30,8 +30,10 @@ module OgImage
     is_post ? "Read post" : "Read more"
   end
 
+  # Titles may carry inline markup (e.g. <i>…</i> around a work's name);
+  # the card is plain text, so strip tags and collapse the whitespace.
   def self.title_for(doc_title, site_title)
-    t = doc_title.to_s.strip
+    t = doc_title.to_s.gsub(/<[^>]+>/, " ").gsub(/\s+/, " ").strip
     t.empty? ? site_title.to_s : t
   end
 
@@ -99,10 +101,12 @@ module OgImage
     nil
   end
 
-  # A wide hero banner (aspect >= max_aspect) does not suit the portrait card
-  # slot, so it is dropped in favour of the full-width text layout. Unknown
+  # A wide hero banner (aspect >= max_aspect) does not suit the card slot, so
+  # it is dropped in favour of the full-width text layout. The threshold sits
+  # above 2:1 because that is a normal photo ratio (object-fit crops it fine);
+  # the true header strips in this repo are ~4:1 and wider. Unknown
   # dimensions => not a banner (show the image).
-  def self.wide_banner?(path, max_aspect = 2.0)
+  def self.wide_banner?(path, max_aspect = 2.6)
     dims = image_dimensions(path)
     return false unless dims
 

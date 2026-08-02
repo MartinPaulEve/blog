@@ -38,6 +38,15 @@ class TestOgImage < Minitest::Test
     assert_equal "Martin Paul Eve", OgImage.title_for(nil, "Martin Paul Eve")
   end
 
+  def test_title_for_strips_html_tags
+    assert_equal "The extended interviews on To the Journey: Looking Back at Star Trek: Voyager",
+                 OgImage.title_for(
+                   "The extended interviews on <i>To the Journey: Looking Back at</i> Star Trek: Voyager",
+                   "Martin Paul Eve"
+                 )
+    assert_equal "Martin Paul Eve", OgImage.title_for("<i></i>", "Martin Paul Eve")
+  end
+
   def test_asset_url
     assert_equal "https://eve.gd/images/og/about.png",
                  OgImage.asset_url("https://eve.gd", "about")
@@ -125,6 +134,16 @@ class TestOgImage < Minitest::Test
       assert OgImage.wide_banner?(wide)
       refute OgImage.wide_banner?(ok)
       refute OgImage.wide_banner?("/no/file.png") # unknown => not treated as banner
+    end
+  end
+
+  def test_two_to_one_photo_is_not_a_banner
+    require "tmpdir"
+    Dir.mktmpdir do |d|
+      photo = File.join(d, "p.png"); File.binwrite(photo, png_bytes(2000, 1000))
+      banner = File.join(d, "b.png"); File.binwrite(banner, png_bytes(1600, 400))
+      refute OgImage.wide_banner?(photo), "a 2:1 photo should appear on the card"
+      assert OgImage.wide_banner?(banner), "a 4:1 header strip is still a banner"
     end
   end
 
