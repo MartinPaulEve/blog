@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-01-27",
-  "identifier": "https://doi.org/10.59348/7kzj9-y6y60"
+  "identifier": "https://doi.org/10.59348/7kzj9-y6y60",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-01-27-ssl-enabled.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-07-05",
-  "identifier": "https://doi.org/10.59348/cc52y-wv873"
+  "identifier": "https://doi.org/10.59348/cc52y-wv873",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-07-05-dropbox-youve-missed-the-real-problem.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

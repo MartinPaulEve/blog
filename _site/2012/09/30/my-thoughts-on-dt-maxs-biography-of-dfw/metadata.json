@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-09-30",
-  "identifier": "https://doi.org/10.59348/et79n-y9t85"
+  "identifier": "https://doi.org/10.59348/et79n-y9t85",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-09-30-my-thoughts-on-dt-maxs-biography-of-dfw.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

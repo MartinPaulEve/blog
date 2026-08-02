@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2016-02-26",
-  "identifier": "https://doi.org/10.59348/69qqf-ney50"
+  "identifier": "https://doi.org/10.59348/69qqf-ney50",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2016-02-26-the-critique-of-utopia.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2014-11-12",
-  "identifier": "https://doi.org/10.59348/pfmvz-jq567"
+  "identifier": "https://doi.org/10.59348/pfmvz-jq567",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2014-11-12-universities-dh-the-crowd-and-labour-that-looks-like-a-game.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

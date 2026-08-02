@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2021-04-13",
-  "identifier": "https://doi.org/10.59348/3dj2e-6mt66"
+  "identifier": "https://doi.org/10.59348/3dj2e-6mt66",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2021-04-13-questions-and-answers-from-uksg-on-opening-the-future.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

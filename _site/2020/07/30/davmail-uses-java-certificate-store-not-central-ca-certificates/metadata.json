@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2020-07-30",
-  "identifier": "https://doi.org/10.59348/p45j7-fjr65"
+  "identifier": "https://doi.org/10.59348/p45j7-fjr65",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2020-07-30-davmail-uses-java-certificate-store-not-central-ca-certificates.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

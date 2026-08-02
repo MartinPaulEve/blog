@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2008-09-17",
-  "identifier": "https://doi.org/10.59348/pbszj-40621"
+  "identifier": "https://doi.org/10.59348/pbszj-40621",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2008-09-17-creating-an-irc-frontback-end-from-a-c-web-application.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

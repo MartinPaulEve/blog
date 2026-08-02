@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2017-08-03",
-  "identifier": "https://doi.org/10.59348/kdct2-v9r48"
+  "identifier": "https://doi.org/10.59348/kdct2-v9r48",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2017-08-03-open-access-monographs-misrepresented.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

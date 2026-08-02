@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2018-03-03",
-  "identifier": "https://doi.org/10.59348/g5akr-zdy23"
+  "identifier": "https://doi.org/10.59348/g5akr-zdy23",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2018-03-03-who-does-the-work-of-implementing-dora.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

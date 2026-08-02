@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2014-05-03",
-  "identifier": "https://doi.org/10.59348/57g92-3vp57"
+  "identifier": "https://doi.org/10.59348/57g92-3vp57",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2014-05-03-two-free-copies-of-pynchon-and-philosophy-to-win-andor-a-25-discount.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

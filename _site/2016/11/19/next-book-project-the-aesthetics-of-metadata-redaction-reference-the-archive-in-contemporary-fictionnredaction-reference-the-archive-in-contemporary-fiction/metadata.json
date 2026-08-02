@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2016-11-19",
-  "identifier": "https://doi.org/10.59348/wyqh8-c1z63"
+  "identifier": "https://doi.org/10.59348/wyqh8-c1z63",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2016-11-19-next-book-project-the-aesthetics-of-metadata-redaction-reference-the-archive-in-contemporary-fictionnredaction-reference-the-archive-in-contemporary-fiction.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2010-12-15",
-  "identifier": "https://doi.org/10.59348/ghx6t-j6413"
+  "identifier": "https://doi.org/10.59348/ghx6t-j6413",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2010-12-15-the-net-was-never-free-from-commercial-interest-its-not-a-new-threat-to-democratic-speech.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2013-01-29",
-  "identifier": "https://doi.org/10.59348/n22tf-ekj02"
+  "identifier": "https://doi.org/10.59348/n22tf-ekj02",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2013-01-29-publication-thomas-pynchon-david-foster-wallace-and-the-problems-of-metamodernism-post-millennial-post-postmodernism.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

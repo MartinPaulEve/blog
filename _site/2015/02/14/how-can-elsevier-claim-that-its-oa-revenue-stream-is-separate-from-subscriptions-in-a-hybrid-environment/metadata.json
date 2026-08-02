@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2015-02-14",
-  "identifier": "https://doi.org/10.59348/x8eh0-sh858"
+  "identifier": "https://doi.org/10.59348/x8eh0-sh858",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2015-02-14-how-can-elsevier-claim-that-its-oa-revenue-stream-is-separate-from-subscriptions-in-a-hybrid-environment.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

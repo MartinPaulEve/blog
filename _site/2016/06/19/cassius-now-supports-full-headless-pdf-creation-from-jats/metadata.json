@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2016-06-19",
-  "identifier": "https://doi.org/10.59348/6rkea-5q639"
+  "identifier": "https://doi.org/10.59348/6rkea-5q639",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2016-06-19-cassius-now-supports-full-headless-pdf-creation-from-jats.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

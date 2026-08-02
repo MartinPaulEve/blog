@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2013-12-29",
-  "identifier": "https://doi.org/10.59348/qjkqs-ymr63"
+  "identifier": "https://doi.org/10.59348/qjkqs-ymr63",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2013-12-29-my-2013-academic-year-in-review.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

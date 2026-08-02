@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2007-06-26",
-  "identifier": "https://doi.org/10.59348/75sxs-sqj29"
+  "identifier": "https://doi.org/10.59348/75sxs-sqj29",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2007-06-26-httponly-cookies-in-net-2-0.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

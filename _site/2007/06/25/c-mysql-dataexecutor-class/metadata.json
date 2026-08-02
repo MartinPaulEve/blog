@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2007-06-25",
-  "identifier": "https://doi.org/10.59348/z8wg9-eqf54"
+  "identifier": "https://doi.org/10.59348/z8wg9-eqf54",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2007-06-25-c-mysql-dataexecutor-class.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

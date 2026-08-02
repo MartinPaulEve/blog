@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-04-11",
-  "identifier": "https://doi.org/10.59348/pg8jt-da988"
+  "identifier": "https://doi.org/10.59348/pg8jt-da988",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-04-11-starting-a-digital-humanities-project-epilog.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

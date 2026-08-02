@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2017-06-11",
-  "identifier": "https://doi.org/10.59348/834je-wsz88"
+  "identifier": "https://doi.org/10.59348/834je-wsz88",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2017-06-11-did-thomas-pynchon-write-cow-country-stylistic-affinities-and-divergences.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

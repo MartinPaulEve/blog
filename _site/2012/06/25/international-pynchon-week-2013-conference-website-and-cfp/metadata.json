@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-06-25",
-  "identifier": "https://doi.org/10.59348/wa87x-fc266"
+  "identifier": "https://doi.org/10.59348/wa87x-fc266",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-06-25-international-pynchon-week-2013-conference-website-and-cfp.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

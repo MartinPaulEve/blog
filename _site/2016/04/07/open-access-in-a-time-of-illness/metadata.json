@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2016-04-07",
-  "identifier": "https://doi.org/10.59348/a0bah-78106"
+  "identifier": "https://doi.org/10.59348/a0bah-78106",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2016-04-07-open-access-in-a-time-of-illness.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

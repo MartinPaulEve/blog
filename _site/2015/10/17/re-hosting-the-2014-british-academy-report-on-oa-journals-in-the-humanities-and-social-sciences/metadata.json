@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2015-10-17",
-  "identifier": "https://doi.org/10.59348/pn344-gfd74"
+  "identifier": "https://doi.org/10.59348/pn344-gfd74",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2015-10-17-re-hosting-the-2014-british-academy-report-on-oa-journals-in-the-humanities-and-social-sciences.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

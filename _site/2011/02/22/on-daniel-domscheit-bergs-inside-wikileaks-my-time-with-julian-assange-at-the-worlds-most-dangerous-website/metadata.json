@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-02-22",
-  "identifier": "https://doi.org/10.59348/zfrmj-vn016"
+  "identifier": "https://doi.org/10.59348/zfrmj-vn016",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-02-22-on-daniel-domscheit-bergs-inside-wikileaks-my-time-with-julian-assange-at-the-worlds-most-dangerous-website.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-10-21",
-  "identifier": "https://doi.org/10.59348/b72mw-mgz40"
+  "identifier": "https://doi.org/10.59348/b72mw-mgz40",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-10-21-new-orbit-review-american-postmodernist-fiction-and-the-past-by-theophilus-savvas.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

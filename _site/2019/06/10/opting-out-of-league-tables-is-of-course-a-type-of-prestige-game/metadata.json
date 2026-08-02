@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2019-06-10",
-  "identifier": "https://doi.org/10.59348/rr7wq-dfs38"
+  "identifier": "https://doi.org/10.59348/rr7wq-dfs38",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2019-06-10-opting-out-of-league-tables-is-of-course-a-type-of-prestige-game.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

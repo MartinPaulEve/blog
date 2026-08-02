@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2010-11-09",
-  "identifier": "https://doi.org/10.59348/6e681-23y94"
+  "identifier": "https://doi.org/10.59348/6e681-23y94",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2010-11-09-demo-2010.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

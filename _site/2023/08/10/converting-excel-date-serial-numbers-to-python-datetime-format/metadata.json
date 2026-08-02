@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2023-08-10",
-  "identifier": "https://doi.org/10.59348/dbrja-s7w36"
+  "identifier": "https://doi.org/10.59348/dbrja-s7w36",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2023-08-10-converting-excel-date-serial-numbers-to-python-datetime-format.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

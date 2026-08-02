@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-10-24",
-  "identifier": "https://doi.org/10.59348/8jxav-6n827"
+  "identifier": "https://doi.org/10.59348/8jxav-6n827",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-10-24-open-journal-systems-now-supports-archiving-with-clockss-out-of-the-box.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2026-05-21",
-  "identifier": "https://doi.org/10.59348/2thwp-wm553"
+  "identifier": "https://doi.org/10.59348/2thwp-wm553",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2026-05-21-things-i-have-made-lower-decks-conference-and-quote-in-researchprofessional.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

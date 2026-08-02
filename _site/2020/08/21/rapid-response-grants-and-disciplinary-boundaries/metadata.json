@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2020-08-21",
-  "identifier": "https://doi.org/10.59348/cj0f3-5cp68"
+  "identifier": "https://doi.org/10.59348/cj0f3-5cp68",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2020-08-21-rapid-response-grants-and-disciplinary-boundaries.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

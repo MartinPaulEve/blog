@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2016-12-08",
-  "identifier": "https://doi.org/10.59348/vjn38-wa229"
+  "identifier": "https://doi.org/10.59348/vjn38-wa229",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2016-12-08-points-from-my-first-reading-of-the-consultation-on-the-second-research-excellence-framework.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

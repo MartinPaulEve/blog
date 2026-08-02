@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2016-08-08",
-  "identifier": "https://doi.org/10.59348/3ra0p-6a823"
+  "identifier": "https://doi.org/10.59348/3ra0p-6a823",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2016-08-08-stern-and-ref-assessing-the-past-to-fund-the-future.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

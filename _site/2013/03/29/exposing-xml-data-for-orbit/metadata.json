@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2013-03-29",
-  "identifier": "https://doi.org/10.59348/e431n-pfb44"
+  "identifier": "https://doi.org/10.59348/e431n-pfb44",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2013-03-29-exposing-xml-data-for-orbit.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

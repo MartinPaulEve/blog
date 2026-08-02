@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2016-07-28",
-  "identifier": "https://doi.org/10.59348/a3bk3-dx074"
+  "identifier": "https://doi.org/10.59348/a3bk3-dx074",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2016-07-28-my-book-password-is-out-now.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

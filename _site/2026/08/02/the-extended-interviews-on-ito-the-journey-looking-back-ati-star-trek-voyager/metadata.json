@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2026-08-02",
-  "identifier": "https://doi.org/10.59348/qygeq-6n059"
+  "identifier": "https://doi.org/10.59348/qygeq-6n059",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2026-08-02-the-extended-interviews-on-ito-the-journey-looking-back-ati-star-trek-voyager.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

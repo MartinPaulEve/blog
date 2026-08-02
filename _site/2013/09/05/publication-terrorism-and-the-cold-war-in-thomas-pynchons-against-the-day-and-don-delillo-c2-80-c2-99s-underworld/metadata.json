@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2013-09-05",
-  "identifier": "https://doi.org/10.59348/dcyan-fmw16"
+  "identifier": "https://doi.org/10.59348/dcyan-fmw16",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2013-09-05-publication-terrorism-and-the-cold-war-in-thomas-pynchons-against-the-day-and-don-delillo-c2-80-c2-99s-underworld.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

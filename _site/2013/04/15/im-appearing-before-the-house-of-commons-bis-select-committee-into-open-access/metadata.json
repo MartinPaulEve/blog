@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2013-04-15",
-  "identifier": "https://doi.org/10.59348/fz59m-hbk37"
+  "identifier": "https://doi.org/10.59348/fz59m-hbk37",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2013-04-15-im-appearing-before-the-house-of-commons-bis-select-committee-into-open-access.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

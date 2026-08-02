@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2025-12-03",
-  "identifier": "https://doi.org/10.59348/1r757-mm685"
+  "identifier": "https://doi.org/10.59348/1r757-mm685",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2025-12-03-error-failed-to-build-failed-to-solve-failed-to-compute-cache-key-failed-to-calculate-checksum-of-ref-xxyyzz.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

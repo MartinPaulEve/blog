@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2015-12-28",
-  "identifier": "https://doi.org/10.59348/jep6x-ys523"
+  "identifier": "https://doi.org/10.59348/jep6x-ys523",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2015-12-28-internal-review-of-foi201525797.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

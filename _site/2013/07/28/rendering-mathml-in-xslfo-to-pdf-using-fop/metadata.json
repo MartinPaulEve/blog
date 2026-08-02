@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2013-07-28",
-  "identifier": "https://doi.org/10.59348/1p4y9-7f296"
+  "identifier": "https://doi.org/10.59348/1p4y9-7f296",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2013-07-28-rendering-mathml-in-xslfo-to-pdf-using-fop.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

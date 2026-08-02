@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-11-30",
-  "identifier": "https://doi.org/10.59348/qer9s-ka936"
+  "identifier": "https://doi.org/10.59348/qer9s-ka936",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-11-30-moving-on-from-sussex-and-joining-the-university-of-lincoln.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

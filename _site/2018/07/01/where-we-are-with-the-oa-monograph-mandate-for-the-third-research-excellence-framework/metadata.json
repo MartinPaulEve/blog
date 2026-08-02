@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2018-07-01",
-  "identifier": "https://doi.org/10.59348/mc8fj-8wc83"
+  "identifier": "https://doi.org/10.59348/mc8fj-8wc83",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2018-07-01-where-we-are-with-the-oa-monograph-mandate-for-the-third-research-excellence-framework.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

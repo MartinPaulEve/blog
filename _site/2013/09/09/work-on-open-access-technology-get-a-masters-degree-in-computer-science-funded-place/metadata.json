@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2013-09-09",
-  "identifier": "https://doi.org/10.59348/t5cqx-60325"
+  "identifier": "https://doi.org/10.59348/t5cqx-60325",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2013-09-09-work-on-open-access-technology-get-a-masters-degree-in-computer-science-funded-place.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

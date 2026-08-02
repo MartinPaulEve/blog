@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2022-03-25",
-  "identifier": "https://doi.org/10.59348/1993a-a0q31"
+  "identifier": "https://doi.org/10.59348/1993a-a0q31",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2022-03-25-good-computer-networking-kit.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

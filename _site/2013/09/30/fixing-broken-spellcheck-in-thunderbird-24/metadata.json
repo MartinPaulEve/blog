@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2013-09-30",
-  "identifier": "https://doi.org/10.59348/rr88h-fxy46"
+  "identifier": "https://doi.org/10.59348/rr88h-fxy46",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2013-09-30-fixing-broken-spellcheck-in-thunderbird-24.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2013-07-20",
-  "identifier": "https://doi.org/10.59348/pr7r7-05381"
+  "identifier": "https://doi.org/10.59348/pr7r7-05381",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2013-07-20-punchdrunks-the-drowned-man.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2016-05-04",
-  "identifier": "https://doi.org/10.59348/5e75p-raf71"
+  "identifier": "https://doi.org/10.59348/5e75p-raf71",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2016-05-04-what-elsevier-and-the-minister-for-higher-education-in-the-uk-jo-johnson-met-about.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

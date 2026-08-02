@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-06-26",
-  "identifier": "https://doi.org/10.59348/4p4ns-rwh84"
+  "identifier": "https://doi.org/10.59348/4p4ns-rwh84",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-06-26-the-8th-biennial-symbiosis-conference-day-3.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

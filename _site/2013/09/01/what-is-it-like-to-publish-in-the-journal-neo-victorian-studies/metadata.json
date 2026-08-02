@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2013-09-01",
-  "identifier": "https://doi.org/10.59348/9pesc-hbw37"
+  "identifier": "https://doi.org/10.59348/9pesc-hbw37",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2013-09-01-what-is-it-like-to-publish-in-the-journal-neo-victorian-studies.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

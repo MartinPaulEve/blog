@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2013-09-18",
-  "identifier": "https://doi.org/10.59348/5ks1f-v2n30"
+  "identifier": "https://doi.org/10.59348/5ks1f-v2n30",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2013-09-18-publication-gatekeepers-in-a-digital-wasteland-the-author.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

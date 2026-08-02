@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2019-03-29",
-  "identifier": "https://doi.org/10.59348/y59cr-bf542"
+  "identifier": "https://doi.org/10.59348/y59cr-bf542",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2019-03-29-on-music-tici-taci-and-a-new-release.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

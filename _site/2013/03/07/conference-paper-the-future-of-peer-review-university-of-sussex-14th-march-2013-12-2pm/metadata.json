@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2013-03-07",
-  "identifier": "https://doi.org/10.59348/kgxr0-x3t27"
+  "identifier": "https://doi.org/10.59348/kgxr0-x3t27",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2013-03-07-conference-paper-the-future-of-peer-review-university-of-sussex-14th-march-2013-12-2pm.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

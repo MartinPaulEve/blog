@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-06-20",
-  "identifier": "https://doi.org/10.59348/mczsf-x1z79"
+  "identifier": "https://doi.org/10.59348/mczsf-x1z79",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-06-20-cfp-excursions-journal-states-of-emergence-states-of-emergency.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

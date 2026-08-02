@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2019-06-04",
-  "identifier": "https://doi.org/10.59348/xhy25-7nd89"
+  "identifier": "https://doi.org/10.59348/xhy25-7nd89",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2019-06-04-close-reading-with-computers-is-published-today-and-next-projects.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

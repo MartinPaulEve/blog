@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2025-02-06",
-  "identifier": "https://doi.org/10.59348/y97r7-9sk53"
+  "identifier": "https://doi.org/10.59348/y97r7-9sk53",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2025-02-06-an-introduction-to-the-poetry-of-emily-dickinson.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

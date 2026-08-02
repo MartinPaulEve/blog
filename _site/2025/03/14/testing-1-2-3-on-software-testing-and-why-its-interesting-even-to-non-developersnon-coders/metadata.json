@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2025-03-14",
-  "identifier": "https://doi.org/10.59348/bnh0a-7cv52"
+  "identifier": "https://doi.org/10.59348/bnh0a-7cv52",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2025-03-14-testing-1-2-3-on-software-testing-and-why-its-interesting-even-to-non-developersnon-coders.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

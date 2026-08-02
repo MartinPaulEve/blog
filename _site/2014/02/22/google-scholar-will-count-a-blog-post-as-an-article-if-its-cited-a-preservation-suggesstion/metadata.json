@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2014-02-22",
-  "identifier": "https://doi.org/10.59348/hw7r7-sah89"
+  "identifier": "https://doi.org/10.59348/hw7r7-sah89",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2014-02-22-google-scholar-will-count-a-blog-post-as-an-article-if-its-cited-a-preservation-suggesstion.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

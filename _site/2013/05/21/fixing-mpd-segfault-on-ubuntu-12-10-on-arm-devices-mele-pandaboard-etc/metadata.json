@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2013-05-21",
-  "identifier": "https://doi.org/10.59348/426jt-15d79"
+  "identifier": "https://doi.org/10.59348/426jt-15d79",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2013-05-21-fixing-mpd-segfault-on-ubuntu-12-10-on-arm-devices-mele-pandaboard-etc.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

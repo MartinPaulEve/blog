@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2022-04-13",
-  "identifier": "https://doi.org/10.59348/4zgr8-exe20"
+  "identifier": "https://doi.org/10.59348/4zgr8-exe20",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2022-04-13-if-you-cannot-connect-to-a-deluged-daemon-remotely.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2016-10-03",
-  "identifier": "https://doi.org/10.59348/78x39-e3d70"
+  "identifier": "https://doi.org/10.59348/78x39-e3d70",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2016-10-03-a-few-initial-notes-on-david-golumbias-marxism-and-open-access-in-the-humanities.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

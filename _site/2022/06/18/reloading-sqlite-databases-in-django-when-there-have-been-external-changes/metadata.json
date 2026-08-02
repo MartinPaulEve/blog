@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2022-06-18",
-  "identifier": "https://doi.org/10.59348/gh1mh-br368"
+  "identifier": "https://doi.org/10.59348/gh1mh-br368",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2022-06-18-reloading-sqlite-databases-in-django-when-there-have-been-external-changes.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

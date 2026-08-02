@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-01-26",
-  "identifier": "https://doi.org/10.59348/1j5p6-xma98"
+  "identifier": "https://doi.org/10.59348/1j5p6-xma98",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-01-26-adorno-terminology-ce-b1-cf-81-cf-87-ce-b1-ce-af.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

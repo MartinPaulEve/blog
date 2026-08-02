@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2017-05-07",
-  "identifier": "https://doi.org/10.59348/dmq66-f5d26"
+  "identifier": "https://doi.org/10.59348/dmq66-f5d26",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2017-05-07-an-important-note-if-you-have-a-lenovo-g580.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

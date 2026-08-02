@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-04-09",
-  "identifier": "https://doi.org/10.59348/2569q-b1653"
+  "identifier": "https://doi.org/10.59348/2569q-b1653",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-04-09-the-future-of-academic-publishing-qa.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

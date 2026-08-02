@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2015-05-25",
-  "identifier": "https://doi.org/10.59348/cvkcj-9zt96"
+  "identifier": "https://doi.org/10.59348/cvkcj-9zt96",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2015-05-25-thoughts-in-response-to-michael-chibniks-editorial-on-oa-and-american-anthropologist.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

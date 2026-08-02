@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-01-07",
-  "identifier": "https://doi.org/10.59348/tekmf-hxv44"
+  "identifier": "https://doi.org/10.59348/tekmf-hxv44",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-01-07-adorno-terminology-ce-b8-ce-ad-cf-83-ce-b5-ce-b9.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

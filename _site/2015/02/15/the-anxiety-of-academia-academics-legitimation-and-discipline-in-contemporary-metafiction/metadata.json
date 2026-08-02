@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2015-02-15",
-  "identifier": "https://doi.org/10.59348/gs1s7-k5638"
+  "identifier": "https://doi.org/10.59348/gs1s7-k5638",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2015-02-15-the-anxiety-of-academia-academics-legitimation-and-discipline-in-contemporary-metafiction.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

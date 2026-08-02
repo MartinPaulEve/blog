@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2016-01-11",
-  "identifier": "https://doi.org/10.59348/84w5h-sec91"
+  "identifier": "https://doi.org/10.59348/84w5h-sec91",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2016-01-11-the-methodology-of-literary-taxonomy-harking-and-p-hacking.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

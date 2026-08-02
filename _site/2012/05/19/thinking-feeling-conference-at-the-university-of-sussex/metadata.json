@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-05-19",
-  "identifier": "https://doi.org/10.59348/ztte2-xp382"
+  "identifier": "https://doi.org/10.59348/ztte2-xp382",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-05-19-thinking-feeling-conference-at-the-university-of-sussex.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

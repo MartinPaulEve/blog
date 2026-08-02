@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2022-01-14",
-  "identifier": "https://doi.org/10.59348/k7q6d-h1824"
+  "identifier": "https://doi.org/10.59348/k7q6d-h1824",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2022-01-14-did-you-know-that-you-can-deposit-the-version-of-record-of-bloomsbury-academic-book-chapters-in-your-institutional-repository.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

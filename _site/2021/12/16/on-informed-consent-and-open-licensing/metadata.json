@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2021-12-16",
-  "identifier": "https://doi.org/10.59348/rh5xy-hkt44"
+  "identifier": "https://doi.org/10.59348/rh5xy-hkt44",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2021-12-16-on-informed-consent-and-open-licensing.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

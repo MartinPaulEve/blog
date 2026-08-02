@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2022-01-24",
-  "identifier": "https://doi.org/10.59348/pvsyt-hbv27"
+  "identifier": "https://doi.org/10.59348/pvsyt-hbv27",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2022-01-24-using-django-orm-click-and-rich-to-quickly-create-great-command-line-python-apps.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

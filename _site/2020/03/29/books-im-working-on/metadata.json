@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2020-03-29",
-  "identifier": "https://doi.org/10.59348/swfx0-zd664"
+  "identifier": "https://doi.org/10.59348/swfx0-zd664",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2020-03-29-books-im-working-on.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2020-04-22",
-  "identifier": "https://doi.org/10.59348/nmns0-t2n34"
+  "identifier": "https://doi.org/10.59348/nmns0-t2n34",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2020-04-22-the-edited-collection-and-its-discontents.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

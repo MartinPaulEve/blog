@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2013-08-02",
-  "identifier": "https://doi.org/10.59348/dhwq4-amn61"
+  "identifier": "https://doi.org/10.59348/dhwq4-amn61",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2013-08-02-has-the-licensing-battle-been-deferred-in-the-latest-hefce-document.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

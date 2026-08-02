@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2016-12-03",
-  "identifier": "https://doi.org/10.59348/h6y7v-4st03"
+  "identifier": "https://doi.org/10.59348/h6y7v-4st03",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2016-12-03-referring-elsevierrelx-to-the-competition-and-markets-authority.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

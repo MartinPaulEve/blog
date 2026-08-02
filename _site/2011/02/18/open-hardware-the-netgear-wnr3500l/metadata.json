@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-02-18",
-  "identifier": "https://doi.org/10.59348/tt2fs-1hp39"
+  "identifier": "https://doi.org/10.59348/tt2fs-1hp39",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-02-18-open-hardware-the-netgear-wnr3500l.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

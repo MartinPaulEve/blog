@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-02-02",
-  "identifier": "https://doi.org/10.59348/p3n5r-akq92"
+  "identifier": "https://doi.org/10.59348/p3n5r-akq92",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-02-02-project-idearequest-for-comment-opendoi.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

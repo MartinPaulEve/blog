@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2013-08-29",
-  "identifier": "https://doi.org/10.59348/5xhwv-n3h42"
+  "identifier": "https://doi.org/10.59348/5xhwv-n3h42",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2013-08-29-full-response-to-science-metrix-report-on-gold-oa-citation-rates.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

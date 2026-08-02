@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2015-08-19",
-  "identifier": "https://doi.org/10.59348/kd8wp-9v970"
+  "identifier": "https://doi.org/10.59348/kd8wp-9v970",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2015-08-19-additional-contexts-for-reading-the-emergence-of-new-UK-university-presses.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

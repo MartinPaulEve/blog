@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2008-12-07",
-  "identifier": "https://doi.org/10.59348/rb4hr-3h831"
+  "identifier": "https://doi.org/10.59348/rb4hr-3h831",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2008-12-07-fetching-files-via-echo-ftp-in-a-non-interactive-shell-environment.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

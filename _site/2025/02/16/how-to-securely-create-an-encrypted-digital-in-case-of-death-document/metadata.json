@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2025-02-16",
-  "identifier": "https://doi.org/10.59348/qjt3f-eg160"
+  "identifier": "https://doi.org/10.59348/qjt3f-eg160",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2025-02-16-how-to-securely-create-an-encrypted-digital-in-case-of-death-document.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2016-11-11",
-  "identifier": "https://doi.org/10.59348/sk9tm-01z04"
+  "identifier": "https://doi.org/10.59348/sk9tm-01z04",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2016-11-11-the-single-biggest-challenge-for-information-publishing-in-the-digital-age.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

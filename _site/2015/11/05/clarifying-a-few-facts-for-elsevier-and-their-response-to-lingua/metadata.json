@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2015-11-05",
-  "identifier": "https://doi.org/10.59348/gmv5p-h4y73"
+  "identifier": "https://doi.org/10.59348/gmv5p-h4y73",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2015-11-05-clarifying-a-few-facts-for-elsevier-and-their-response-to-lingua.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

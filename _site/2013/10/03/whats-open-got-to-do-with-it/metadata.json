@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2013-10-03",
-  "identifier": "https://doi.org/10.59348/a73jv-kka29"
+  "identifier": "https://doi.org/10.59348/a73jv-kka29",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2013-10-03-whats-open-got-to-do-with-it.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

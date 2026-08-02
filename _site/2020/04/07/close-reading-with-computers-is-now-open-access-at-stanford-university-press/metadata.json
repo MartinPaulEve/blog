@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2020-04-07",
-  "identifier": "https://doi.org/10.59348/5pgkm-pzh88"
+  "identifier": "https://doi.org/10.59348/5pgkm-pzh88",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2020-04-07-close-reading-with-computers-is-now-open-access-at-stanford-university-press.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-10-26",
-  "identifier": "https://doi.org/10.59348/27crn-8r719"
+  "identifier": "https://doi.org/10.59348/27crn-8r719",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-10-26-notes-on-adornos-the-essay-as-form.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

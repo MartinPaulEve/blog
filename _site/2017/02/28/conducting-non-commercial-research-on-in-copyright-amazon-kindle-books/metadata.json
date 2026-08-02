@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2017-02-28",
-  "identifier": "https://doi.org/10.59348/gwjf2-gc749"
+  "identifier": "https://doi.org/10.59348/gwjf2-gc749",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2017-02-28-conducting-non-commercial-research-on-in-copyright-amazon-kindle-books.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

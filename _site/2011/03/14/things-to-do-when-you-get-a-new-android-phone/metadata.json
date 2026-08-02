@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-03-14",
-  "identifier": "https://doi.org/10.59348/6n26s-ngk05"
+  "identifier": "https://doi.org/10.59348/6n26s-ngk05",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-03-14-things-to-do-when-you-get-a-new-android-phone.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

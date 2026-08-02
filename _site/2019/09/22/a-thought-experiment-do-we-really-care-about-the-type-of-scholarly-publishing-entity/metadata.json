@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2019-09-22",
-  "identifier": "https://doi.org/10.59348/cdms0-m6r33"
+  "identifier": "https://doi.org/10.59348/cdms0-m6r33",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2019-09-22-a-thought-experiment-do-we-really-care-about-the-type-of-scholarly-publishing-entity.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2021-08-20",
-  "identifier": "https://doi.org/10.59348/dg68r-g7e26"
+  "identifier": "https://doi.org/10.59348/dg68r-g7e26",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2021-08-20-a-bibliography-on-the-interestingim-interested-in.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2015-08-19",
-  "identifier": "https://doi.org/10.59348/4wvv5-fe614"
+  "identifier": "https://doi.org/10.59348/4wvv5-fe614",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2015-08-19-wordpress-php-eval-attacks.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

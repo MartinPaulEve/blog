@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2016-01-07",
-  "identifier": "https://doi.org/10.59348/9adgm-rr097"
+  "identifier": "https://doi.org/10.59348/9adgm-rr097",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2016-01-07-the-uk-copyright-exemption-for-text-and-data-mining-vs-the-dmca.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

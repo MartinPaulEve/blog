@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2007-11-17",
-  "identifier": "https://doi.org/10.59348/g9va4-vx923"
+  "identifier": "https://doi.org/10.59348/g9va4-vx923",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2007-11-17-ie7-javascript-modify-the-dom-without-crashing-the-browser.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

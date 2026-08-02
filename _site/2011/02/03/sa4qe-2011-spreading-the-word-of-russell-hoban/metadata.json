@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-02-03",
-  "identifier": "https://doi.org/10.59348/tbrme-fr329"
+  "identifier": "https://doi.org/10.59348/tbrme-fr329",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-02-03-sa4qe-2011-spreading-the-word-of-russell-hoban.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

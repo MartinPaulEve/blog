@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-04-24",
-  "identifier": "https://doi.org/10.59348/krqgb-era11"
+  "identifier": "https://doi.org/10.59348/krqgb-era11",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-04-24-romeo-castellucci-societas-raffaello-sanzios-on-the-concept-of-the-face-regarding-the-son-of-god.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

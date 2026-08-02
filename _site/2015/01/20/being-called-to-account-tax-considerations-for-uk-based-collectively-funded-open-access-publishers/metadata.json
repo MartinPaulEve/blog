@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2015-01-20",
-  "identifier": "https://doi.org/10.59348/8e9f6-tk129"
+  "identifier": "https://doi.org/10.59348/8e9f6-tk129",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2015-01-20-being-called-to-account-tax-considerations-for-uk-based-collectively-funded-open-access-publishers.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

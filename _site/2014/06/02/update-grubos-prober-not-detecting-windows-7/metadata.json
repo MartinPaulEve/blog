@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2014-06-02",
-  "identifier": "https://doi.org/10.59348/x5c96-yp709"
+  "identifier": "https://doi.org/10.59348/x5c96-yp709",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2014-06-02-update-grubos-prober-not-detecting-windows-7.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

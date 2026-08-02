@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-04-13",
-  "identifier": "https://doi.org/10.59348/5373m-jr082"
+  "identifier": "https://doi.org/10.59348/5373m-jr082",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-04-13-publication-review-of-joe-moran-interdisciplinarity-2nd-edition-rupkatha-3-1-april-2011.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

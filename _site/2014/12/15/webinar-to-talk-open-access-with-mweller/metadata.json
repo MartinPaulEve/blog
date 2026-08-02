@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2014-12-15",
-  "identifier": "https://doi.org/10.59348/9bbz0-nbq10"
+  "identifier": "https://doi.org/10.59348/9bbz0-nbq10",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2014-12-15-webinar-to-talk-open-access-with-mweller.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

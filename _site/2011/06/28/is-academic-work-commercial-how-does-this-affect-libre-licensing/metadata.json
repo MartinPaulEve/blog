@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-06-28",
-  "identifier": "https://doi.org/10.59348/f4d9z-59m53"
+  "identifier": "https://doi.org/10.59348/f4d9z-59m53",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-06-28-is-academic-work-commercial-how-does-this-affect-libre-licensing.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

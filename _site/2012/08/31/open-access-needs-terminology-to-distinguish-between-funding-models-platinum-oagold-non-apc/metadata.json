@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-08-31",
-  "identifier": "https://doi.org/10.59348/dps11-gva14"
+  "identifier": "https://doi.org/10.59348/dps11-gva14",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-08-31-open-access-needs-terminology-to-distinguish-between-funding-models-platinum-oagold-non-apc.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

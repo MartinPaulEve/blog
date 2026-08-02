@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-08-27",
-  "identifier": "https://doi.org/10.59348/1xkr5-0vw65"
+  "identifier": "https://doi.org/10.59348/1xkr5-0vw65",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-08-27-hefce-board-appointments-learning-through-argos.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

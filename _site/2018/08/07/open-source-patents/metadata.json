@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2018-08-07",
-  "identifier": "https://doi.org/10.59348/658d6-xmm51"
+  "identifier": "https://doi.org/10.59348/658d6-xmm51",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2018-08-07-open-source-patents.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

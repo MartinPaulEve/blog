@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2024-07-20",
-  "identifier": "https://doi.org/10.59348/xnwmv-fpe86"
+  "identifier": "https://doi.org/10.59348/xnwmv-fpe86",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2024-07-20-boycott-routledge-over-ai-training-its-probably-in-the-contract.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

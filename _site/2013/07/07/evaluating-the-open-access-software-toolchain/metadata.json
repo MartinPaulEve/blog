@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2013-07-07",
-  "identifier": "https://doi.org/10.59348/1qjzt-kfe68"
+  "identifier": "https://doi.org/10.59348/1qjzt-kfe68",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2013-07-07-evaluating-the-open-access-software-toolchain.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

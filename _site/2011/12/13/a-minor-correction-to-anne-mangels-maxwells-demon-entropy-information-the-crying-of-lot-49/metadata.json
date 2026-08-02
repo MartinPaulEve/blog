@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-12-13",
-  "identifier": "https://doi.org/10.59348/rdjsz-5s829"
+  "identifier": "https://doi.org/10.59348/rdjsz-5s829",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-12-13-a-minor-correction-to-anne-mangels-maxwells-demon-entropy-information-the-crying-of-lot-49.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

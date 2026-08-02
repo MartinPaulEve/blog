@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2014-08-27",
-  "identifier": "https://doi.org/10.59348/g00ve-b0c48"
+  "identifier": "https://doi.org/10.59348/g00ve-b0c48",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2014-08-27-the-ice-bucket-challenge-and-the-waste-of-water-critique.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-05-20",
-  "identifier": "https://doi.org/10.59348/ksen7-sp805"
+  "identifier": "https://doi.org/10.59348/ksen7-sp805",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-05-20-osama-bin-laden-and-nuremberg-precedent.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

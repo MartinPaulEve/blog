@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2014-11-27",
-  "identifier": "https://doi.org/10.59348/x1a1y-phg90"
+  "identifier": "https://doi.org/10.59348/x1a1y-phg90",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2014-11-27-book-open-access-and-the-humanities.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

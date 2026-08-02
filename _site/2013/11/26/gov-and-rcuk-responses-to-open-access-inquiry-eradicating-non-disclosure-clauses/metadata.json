@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2013-11-26",
-  "identifier": "https://doi.org/10.59348/qg3nb-2b552"
+  "identifier": "https://doi.org/10.59348/qg3nb-2b552",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2013-11-26-gov-and-rcuk-responses-to-open-access-inquiry-eradicating-non-disclosure-clauses.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

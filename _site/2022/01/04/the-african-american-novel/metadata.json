@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2022-01-04",
-  "identifier": "https://doi.org/10.59348/kxcfb-e3156"
+  "identifier": "https://doi.org/10.59348/kxcfb-e3156",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2022-01-04-the-african-american-novel.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2015-01-20",
-  "identifier": "https://doi.org/10.59348/q1zaq-vbt87"
+  "identifier": "https://doi.org/10.59348/q1zaq-vbt87",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2015-01-20-a-web-of-rights-roundtable-and-conversation-at-the-british-library-feb-19th-2015-bldigital.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

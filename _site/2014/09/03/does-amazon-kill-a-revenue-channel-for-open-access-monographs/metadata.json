@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2014-09-03",
-  "identifier": "https://doi.org/10.59348/cpzc8-yzv16"
+  "identifier": "https://doi.org/10.59348/cpzc8-yzv16",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2014-09-03-does-amazon-kill-a-revenue-channel-for-open-access-monographs.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

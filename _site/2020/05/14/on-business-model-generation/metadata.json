@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2020-05-14",
-  "identifier": "https://doi.org/10.59348/w5fmn-km758"
+  "identifier": "https://doi.org/10.59348/w5fmn-km758",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2020-05-14-on-business-model-generation.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

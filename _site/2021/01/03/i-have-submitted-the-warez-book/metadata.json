@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2021-01-03",
-  "identifier": "https://doi.org/10.59348/atptw-e5356"
+  "identifier": "https://doi.org/10.59348/atptw-e5356",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2021-01-03-i-have-submitted-the-warez-book.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

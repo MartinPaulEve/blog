@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-10-16",
-  "identifier": "https://doi.org/10.59348/jek81-ged11"
+  "identifier": "https://doi.org/10.59348/jek81-ged11",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-10-16-publication-thomas-pynchon-the-dark-passages-of-history-review-textual-practice-26-5.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

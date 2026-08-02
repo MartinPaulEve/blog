@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-05-12",
-  "identifier": "https://doi.org/10.59348/t74c3-cbq74"
+  "identifier": "https://doi.org/10.59348/t74c3-cbq74",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-05-12-day-1-of-twenty-first-century-literature-conference-at-birkbeck.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

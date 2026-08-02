@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-07-21",
-  "identifier": "https://doi.org/10.59348/c7spd-kyw35"
+  "identifier": "https://doi.org/10.59348/c7spd-kyw35",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-07-21-i-have-nothing-to-do-with-this-dissertation-writing-service.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

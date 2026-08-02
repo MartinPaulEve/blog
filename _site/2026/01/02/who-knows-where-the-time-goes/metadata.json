@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2026-01-02",
-  "identifier": "https://doi.org/10.59348/6ctsj-d9308"
+  "identifier": "https://doi.org/10.59348/6ctsj-d9308",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2026-01-02-who-knows-where-the-time-goes.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

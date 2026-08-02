@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2023-03-25",
-  "identifier": "https://doi.org/10.59348/sm61j-c6q60"
+  "identifier": "https://doi.org/10.59348/sm61j-c6q60",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2023-03-25-on-application-observability-in-serverless-cloud-contexts.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

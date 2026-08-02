@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2013-04-27",
-  "identifier": "https://doi.org/10.59348/8xrbr-knn75"
+  "identifier": "https://doi.org/10.59348/8xrbr-knn75",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2013-04-27-internationalisation-of-new-open-access-initiatives.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

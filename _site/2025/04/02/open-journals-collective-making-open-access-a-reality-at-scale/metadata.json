@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2025-04-02",
-  "identifier": "https://doi.org/10.59348/3d7cd-prc33"
+  "identifier": "https://doi.org/10.59348/3d7cd-prc33",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2025-04-02-open-journals-collective-making-open-access-a-reality-at-scale.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

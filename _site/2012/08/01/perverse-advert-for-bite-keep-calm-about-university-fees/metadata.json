@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-08-01",
-  "identifier": "https://doi.org/10.59348/crcwn-wht43"
+  "identifier": "https://doi.org/10.59348/crcwn-wht43",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-08-01-perverse-advert-for-bite-keep-calm-about-university-fees.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

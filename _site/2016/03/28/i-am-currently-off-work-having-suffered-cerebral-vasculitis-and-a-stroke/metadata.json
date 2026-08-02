@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2016-03-28",
-  "identifier": "https://doi.org/10.59348/5vmqt-z6571"
+  "identifier": "https://doi.org/10.59348/5vmqt-z6571",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2016-03-28-i-am-currently-off-work-having-suffered-cerebral-vasculitis-and-a-stroke.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

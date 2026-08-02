@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-04-05",
-  "identifier": "https://doi.org/10.59348/vhbbp-9kp21"
+  "identifier": "https://doi.org/10.59348/vhbbp-9kp21",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-04-05-new-york-times-writes-about-my-ph-d-thesis-work.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2025-03-22",
-  "identifier": "https://doi.org/10.59348/ebtbq-5jn10"
+  "identifier": "https://doi.org/10.59348/ebtbq-5jn10",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2025-03-22-a-few-critical-notes-on-elly-griffiths-the-frozen-people.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

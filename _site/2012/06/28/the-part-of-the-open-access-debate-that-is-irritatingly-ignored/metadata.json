@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-06-28",
-  "identifier": "https://doi.org/10.59348/3nt5m-0av66"
+  "identifier": "https://doi.org/10.59348/3nt5m-0av66",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-06-28-the-part-of-the-open-access-debate-that-is-irritatingly-ignored.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

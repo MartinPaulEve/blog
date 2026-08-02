@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2008-04-06",
-  "identifier": "https://doi.org/10.59348/e3wqh-p1b55"
+  "identifier": "https://doi.org/10.59348/e3wqh-p1b55",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2008-04-06-binding-to-radiobuttons-in-net-windows-forms.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

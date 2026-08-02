@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-08-05",
-  "identifier": "https://doi.org/10.59348/ccfta-e6a86"
+  "identifier": "https://doi.org/10.59348/ccfta-e6a86",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-08-05-e-books-copyright-infringement-theft-materiality-and-the-virtual.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

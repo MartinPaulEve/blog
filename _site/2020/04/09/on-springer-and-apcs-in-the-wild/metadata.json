@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2020-04-09",
-  "identifier": "https://doi.org/10.59348/q64c8-ya794"
+  "identifier": "https://doi.org/10.59348/q64c8-ya794",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2020-04-09-on-springer-and-apcs-in-the-wild.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2013-10-22",
-  "identifier": "https://doi.org/10.59348/ykcdt-9f655"
+  "identifier": "https://doi.org/10.59348/ykcdt-9f655",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2013-10-22-my-forthcoming-book-pynchon-and-philosophy-wittgenstein-foucault-and-adorno-palgrave-2014.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

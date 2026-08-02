@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2007-05-15",
-  "identifier": "https://doi.org/10.59348/yyyrg-ad033"
+  "identifier": "https://doi.org/10.59348/yyyrg-ad033",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2007-05-15-httponly-cookie-detection.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

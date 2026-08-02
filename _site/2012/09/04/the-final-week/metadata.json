@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-09-04",
-  "identifier": "https://doi.org/10.59348/zqks5-a9077"
+  "identifier": "https://doi.org/10.59348/zqks5-a9077",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-09-04-the-final-week.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2014-08-05",
-  "identifier": "https://doi.org/10.59348/2yc90-kk059"
+  "identifier": "https://doi.org/10.59348/2yc90-kk059",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2014-08-05-publication-all-that-glisters-investigating-collective-funding-mechanisms-for-gold-open-access-in-humanities-disciplines.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

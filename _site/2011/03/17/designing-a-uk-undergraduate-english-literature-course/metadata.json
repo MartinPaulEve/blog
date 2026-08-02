@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-03-17",
-  "identifier": "https://doi.org/10.59348/jyxvg-cny44"
+  "identifier": "https://doi.org/10.59348/jyxvg-cny44",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-03-17-designing-a-uk-undergraduate-english-literature-course.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

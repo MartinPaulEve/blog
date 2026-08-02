@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2013-11-20",
-  "identifier": "https://doi.org/10.59348/1w84r-tqx78"
+  "identifier": "https://doi.org/10.59348/1w84r-tqx78",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2013-11-20-first-meeting-of-hefce-expert-reference-group-on-open-access-monographs.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

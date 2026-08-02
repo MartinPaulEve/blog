@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-02-04",
-  "identifier": "https://doi.org/10.59348/g1dhf-05144"
+  "identifier": "https://doi.org/10.59348/g1dhf-05144",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-02-04-more-thoughts-on-metrics-link-rot-canonical-urls.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

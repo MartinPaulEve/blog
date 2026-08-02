@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-07-30",
-  "identifier": "https://doi.org/10.59348/h6ey0-mfp04"
+  "identifier": "https://doi.org/10.59348/h6ey0-mfp04",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-07-30-thoughts-from-calling-all-agents-the-first-symposium-on-the-work-of-tom-mccarthy.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

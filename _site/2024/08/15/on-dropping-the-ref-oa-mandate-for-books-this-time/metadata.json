@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2024-08-15",
-  "identifier": "https://doi.org/10.59348/8b50z-agm52"
+  "identifier": "https://doi.org/10.59348/8b50z-agm52",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2024-08-15-on-dropping-the-ref-oa-mandate-for-books-this-time.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

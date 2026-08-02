@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2007-06-26",
-  "identifier": "https://doi.org/10.59348/r4g1g-6s974"
+  "identifier": "https://doi.org/10.59348/r4g1g-6s974",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2007-06-26-netids-v-0-1-1-0-released.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2022-12-19",
-  "identifier": "https://doi.org/10.59348/jzdas-a2w79"
+  "identifier": "https://doi.org/10.59348/jzdas-a2w79",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2022-12-19-how-do-you-get-access-to-antivirals-on-the-nhs-cdmu-system-and-does-it-work.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

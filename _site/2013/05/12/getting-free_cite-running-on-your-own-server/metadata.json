@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2013-05-12",
-  "identifier": "https://doi.org/10.59348/j9t2j-x0n12"
+  "identifier": "https://doi.org/10.59348/j9t2j-x0n12",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2013-05-12-getting-free_cite-running-on-your-own-server.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

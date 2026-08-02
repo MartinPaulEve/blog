@@ -14,6 +14,11 @@
   },
   "datePublished": "2026-07-10",
   "identifier": "https://doi.org/10.59348/r3x69-k5d70",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2026-07-10-investigating-atproto-here-and-for-knowledge-commons.pdf",
+    "encodingFormat": "application/pdf"
+  },
   "citation": [
     {
       "@type": "BlogPosting",

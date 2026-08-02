@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2015-06-17",
-  "identifier": "https://doi.org/10.59348/8092n-a8678"
+  "identifier": "https://doi.org/10.59348/8092n-a8678",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2015-06-17-apcs-and-uneven-distribution.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

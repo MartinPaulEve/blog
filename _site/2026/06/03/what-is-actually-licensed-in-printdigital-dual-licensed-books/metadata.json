@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2026-06-03",
-  "identifier": "https://doi.org/10.59348/wf4fq-8pn69"
+  "identifier": "https://doi.org/10.59348/wf4fq-8pn69",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2026-06-03-what-is-actually-licensed-in-printdigital-dual-licensed-books.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2018-03-20",
-  "identifier": "https://doi.org/10.59348/6cekh-6be26"
+  "identifier": "https://doi.org/10.59348/6cekh-6be26",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2018-03-20-keith-mcmillen-k-mix-on-linux.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

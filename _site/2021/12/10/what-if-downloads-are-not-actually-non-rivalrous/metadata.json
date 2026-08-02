@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2021-12-10",
-  "identifier": "https://doi.org/10.59348/40zb1-ptn66"
+  "identifier": "https://doi.org/10.59348/40zb1-ptn66",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2021-12-10-what-if-downloads-are-not-actually-non-rivalrous.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2025-08-24",
-  "identifier": "https://doi.org/10.59348/az6ev-rvh24"
+  "identifier": "https://doi.org/10.59348/az6ev-rvh24",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2025-08-24-trying-out-the-nurosym-vagus-nerve-stimulator-for-a-couple-of-weeks.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2022-08-30",
-  "identifier": "https://doi.org/10.59348/nk12n-8wc68"
+  "identifier": "https://doi.org/10.59348/nk12n-8wc68",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2022-08-30-open-peer-review-and-its-rhythms.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

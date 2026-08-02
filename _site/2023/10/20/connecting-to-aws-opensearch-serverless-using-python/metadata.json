@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2023-10-20",
-  "identifier": "https://doi.org/10.59348/ay3y8-kk905"
+  "identifier": "https://doi.org/10.59348/ay3y8-kk905",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2023-10-20-connecting-to-aws-opensearch-serverless-using-python.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

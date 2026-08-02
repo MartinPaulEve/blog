@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-04-03",
-  "identifier": "https://doi.org/10.59348/3j7th-3fc49"
+  "identifier": "https://doi.org/10.59348/3j7th-3fc49",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-04-03-exactly-half-way-through-my-phd-timetable.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

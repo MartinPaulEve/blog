@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-05-21",
-  "identifier": "https://doi.org/10.59348/9m02s-15833"
+  "identifier": "https://doi.org/10.59348/9m02s-15833",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-05-21-beware-the-next-wave-of-academic-publishing-grimness-apps.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

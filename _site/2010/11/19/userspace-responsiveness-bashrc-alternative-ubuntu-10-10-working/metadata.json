@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2010-11-19",
-  "identifier": "https://doi.org/10.59348/ptgaz-f7v52"
+  "identifier": "https://doi.org/10.59348/ptgaz-f7v52",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2010-11-19-userspace-responsiveness-bashrc-alternative-ubuntu-10-10-working.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2017-02-16",
-  "identifier": "https://doi.org/10.59348/yrb26-55k47"
+  "identifier": "https://doi.org/10.59348/yrb26-55k47",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2017-02-16-judging-the-painting-research-without-the-frame-the-journal.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

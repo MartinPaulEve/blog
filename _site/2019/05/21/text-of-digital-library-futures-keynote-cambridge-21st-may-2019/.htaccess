@@ -1,5 +1,5 @@
 <Files "index.html">
-Header set Link "<https://orcid.org/0000-0002-5589-8511>; rel=\"author\", <https://doi.org/10.59348/q7vk1-3rj07>; rel=\"cite-as\", <https://schema.org/BlogPosting>; rel=\"type\", <https://schema.org/AboutPage>; rel=\"type\", <https://creativecommons.org/licenses/by/4.0/>; rel=\"license\", <https://eve.gd/2019/05/21/text-of-digital-library-futures-keynote-cambridge-21st-may-2019/metadata.json>; rel=\"describedby\"; type=\"application/ld+json\"; profile=\"https://schema.org/\""
+Header set Link "<https://orcid.org/0000-0002-5589-8511>; rel=\"author\", <https://doi.org/10.59348/q7vk1-3rj07>; rel=\"cite-as\", <https://schema.org/BlogPosting>; rel=\"type\", <https://schema.org/AboutPage>; rel=\"type\", <https://creativecommons.org/licenses/by/4.0/>; rel=\"license\", <https://eve.gd/2019/05/21/text-of-digital-library-futures-keynote-cambridge-21st-may-2019/metadata.json>; rel=\"describedby\"; type=\"application/ld+json\"; profile=\"https://schema.org/\", <https://eve.gd/PDF/2019-05-21-text-of-digital-library-futures-keynote-cambridge-21st-may-2019.pdf>; rel=\"item\"; type=\"application/pdf\""
 </Files>
 <Files "metadata.json">
 ForceType application/ld+json

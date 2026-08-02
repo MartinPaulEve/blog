@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2016-01-22",
-  "identifier": "https://doi.org/10.59348/bye5m-3jx47"
+  "identifier": "https://doi.org/10.59348/bye5m-3jx47",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2016-01-22-phd-criterion-to-merit-publication.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

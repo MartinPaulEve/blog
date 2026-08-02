@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-10-19",
-  "identifier": "https://doi.org/10.59348/yv499-yqq65"
+  "identifier": "https://doi.org/10.59348/yv499-yqq65",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-10-19-crude-but-helpful-typesetting-script-from-mexml.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

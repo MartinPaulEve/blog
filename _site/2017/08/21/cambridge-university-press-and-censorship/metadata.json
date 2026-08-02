@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2017-08-21",
-  "identifier": "https://doi.org/10.59348/hm2mv-dmq59"
+  "identifier": "https://doi.org/10.59348/hm2mv-dmq59",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2017-08-21-cambridge-university-press-and-censorship.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

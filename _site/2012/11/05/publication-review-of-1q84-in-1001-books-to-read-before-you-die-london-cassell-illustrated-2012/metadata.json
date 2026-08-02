@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-11-05",
-  "identifier": "https://doi.org/10.59348/jgmx4-pvq69"
+  "identifier": "https://doi.org/10.59348/jgmx4-pvq69",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-11-05-publication-review-of-1q84-in-1001-books-to-read-before-you-die-london-cassell-illustrated-2012.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2017-01-01",
-  "identifier": "https://doi.org/10.59348/mbpr1-1k347"
+  "identifier": "https://doi.org/10.59348/mbpr1-1k347",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2017-01-01-the-rivalrous-parts-of-non-rivalrous-digital-forms.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

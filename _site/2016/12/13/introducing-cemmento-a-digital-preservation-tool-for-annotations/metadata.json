@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2016-12-13",
-  "identifier": "https://doi.org/10.59348/arjxf-k7e88"
+  "identifier": "https://doi.org/10.59348/arjxf-k7e88",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2016-12-13-introducing-cemmento-a-digital-preservation-tool-for-annotations.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-07-13",
-  "identifier": "https://doi.org/10.59348/3vadh-txt21"
+  "identifier": "https://doi.org/10.59348/3vadh-txt21",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-07-13-starting-an-open-access-journal-a-step-by-step-guide-part-4.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

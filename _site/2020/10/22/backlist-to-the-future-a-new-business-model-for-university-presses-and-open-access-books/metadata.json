@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2020-10-22",
-  "identifier": "https://doi.org/10.59348/f8xr5-pw254"
+  "identifier": "https://doi.org/10.59348/f8xr5-pw254",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2020-10-22-backlist-to-the-future-a-new-business-model-for-university-presses-and-open-access-books.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

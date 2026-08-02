@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2020-11-13",
-  "identifier": "https://doi.org/10.59348/a7vrn-97603"
+  "identifier": "https://doi.org/10.59348/a7vrn-97603",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2020-11-13-on-the-ethics-of-studying-pirate-cultures.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2013-12-20",
-  "identifier": "https://doi.org/10.59348/n5n85-1gq42"
+  "identifier": "https://doi.org/10.59348/n5n85-1gq42",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2013-12-20-dear-top-journal-1-year-and-4-months-to-review-is-too-long.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

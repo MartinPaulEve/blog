@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-04-28",
-  "identifier": "https://doi.org/10.59348/pmxy6-vpf31"
+  "identifier": "https://doi.org/10.59348/pmxy6-vpf31",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-04-28-my-ahea-success-featured-in-rustle.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

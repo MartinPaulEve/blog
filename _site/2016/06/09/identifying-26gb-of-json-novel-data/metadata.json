@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2016-06-09",
-  "identifier": "https://doi.org/10.59348/m0te2-e1152"
+  "identifier": "https://doi.org/10.59348/m0te2-e1152",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2016-06-09-identifying-26gb-of-json-novel-data.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-12-02",
-  "identifier": "https://doi.org/10.59348/ateq3-yna92"
+  "identifier": "https://doi.org/10.59348/ateq3-yna92",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-12-02-global-and-historical-reasons-why-it-is-utterly-innapropriate-even-to-joke-about-killing-trade-unionists.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

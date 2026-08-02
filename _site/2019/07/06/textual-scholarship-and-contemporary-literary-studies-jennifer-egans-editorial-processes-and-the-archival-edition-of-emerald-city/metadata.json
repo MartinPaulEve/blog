@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2019-07-06",
-  "identifier": "https://doi.org/10.59348/ff1cw-qxp42"
+  "identifier": "https://doi.org/10.59348/ff1cw-qxp42",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2019-07-06-textual-scholarship-and-contemporary-literary-studies-jennifer-egans-editorial-processes-and-the-archival-edition-of-emerald-city.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2013-03-25",
-  "identifier": "https://doi.org/10.59348/8ca9g-rtf06"
+  "identifier": "https://doi.org/10.59348/8ca9g-rtf06",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2013-03-25-futurity-books-marx-labour.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

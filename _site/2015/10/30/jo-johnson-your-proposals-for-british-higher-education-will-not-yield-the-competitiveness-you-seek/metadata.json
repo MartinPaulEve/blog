@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2015-10-30",
-  "identifier": "https://doi.org/10.59348/ppgdq-nzy72"
+  "identifier": "https://doi.org/10.59348/ppgdq-nzy72",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2015-10-30-jo-johnson-your-proposals-for-british-higher-education-will-not-yield-the-competitiveness-you-seek.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

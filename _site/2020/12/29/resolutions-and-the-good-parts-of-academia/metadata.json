@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2020-12-29",
-  "identifier": "https://doi.org/10.59348/qxcch-1ps97"
+  "identifier": "https://doi.org/10.59348/qxcch-1ps97",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2020-12-29-resolutions-and-the-good-parts-of-academia.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

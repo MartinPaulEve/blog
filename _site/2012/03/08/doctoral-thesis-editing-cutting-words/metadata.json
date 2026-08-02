@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-03-08",
-  "identifier": "https://doi.org/10.59348/wjgmx-kk490"
+  "identifier": "https://doi.org/10.59348/wjgmx-kk490",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-03-08-doctoral-thesis-editing-cutting-words.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

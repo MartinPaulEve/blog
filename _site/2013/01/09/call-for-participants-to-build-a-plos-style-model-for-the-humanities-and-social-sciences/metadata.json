@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2013-01-09",
-  "identifier": "https://doi.org/10.59348/vqkz7-66v24"
+  "identifier": "https://doi.org/10.59348/vqkz7-66v24",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2013-01-09-call-for-participants-to-build-a-plos-style-model-for-the-humanities-and-social-sciences.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

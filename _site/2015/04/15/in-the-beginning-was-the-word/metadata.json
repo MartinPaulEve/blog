@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2015-04-15",
-  "identifier": "https://doi.org/10.59348/3faq7-3r117"
+  "identifier": "https://doi.org/10.59348/3faq7-3r117",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2015-04-15-in-the-beginning-was-the-word.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

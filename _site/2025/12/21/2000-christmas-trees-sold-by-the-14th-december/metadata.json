@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2025-12-21",
-  "identifier": "https://doi.org/10.59348/6ysny-73206"
+  "identifier": "https://doi.org/10.59348/6ysny-73206",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2025-12-21-2000-christmas-trees-sold-by-the-14th-december.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

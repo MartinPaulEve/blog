@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2026-01-01",
-  "identifier": "https://doi.org/10.59348/1mrf2-35g29"
+  "identifier": "https://doi.org/10.59348/1mrf2-35g29",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2026-01-01-the-lineages-and-inheritances-of-shadow-libraries-and-their-documentation.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

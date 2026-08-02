@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-03-23",
-  "identifier": "https://doi.org/10.59348/bnckv-q5505"
+  "identifier": "https://doi.org/10.59348/bnckv-q5505",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-03-23-picture-this-postcards-exhibition.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

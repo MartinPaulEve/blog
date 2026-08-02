@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-04-16",
-  "identifier": "https://doi.org/10.59348/ht0ys-tjm73"
+  "identifier": "https://doi.org/10.59348/ht0ys-tjm73",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-04-16-david-foster-wallaces-the-pale-king-bonnie-nadell-and-michael-pietsch-at-foyles.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

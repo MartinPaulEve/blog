@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2016-01-02",
-  "identifier": "https://doi.org/10.59348/rp42g-wwx13"
+  "identifier": "https://doi.org/10.59348/rp42g-wwx13",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2016-01-02-he-green-paper-response-to-question-27.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

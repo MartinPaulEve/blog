@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-01-09",
-  "identifier": "https://doi.org/10.59348/ambp3-zd546"
+  "identifier": "https://doi.org/10.59348/ambp3-zd546",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-01-09-its-not-p-t-anderson-but-someone-has-started-an-inherent-vice-adaptation.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

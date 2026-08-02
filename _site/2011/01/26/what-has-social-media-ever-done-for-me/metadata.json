@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-01-26",
-  "identifier": "https://doi.org/10.59348/hnm8w-5e339"
+  "identifier": "https://doi.org/10.59348/hnm8w-5e339",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-01-26-what-has-social-media-ever-done-for-me.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

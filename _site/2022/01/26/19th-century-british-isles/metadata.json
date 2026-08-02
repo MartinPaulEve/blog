@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2022-01-26",
-  "identifier": "https://doi.org/10.59348/ptx69-9kg31"
+  "identifier": "https://doi.org/10.59348/ptx69-9kg31",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2022-01-26-19th-century-british-isles.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-03-07",
-  "identifier": "https://doi.org/10.59348/sz7km-pk909"
+  "identifier": "https://doi.org/10.59348/sz7km-pk909",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-03-07-what-is-thomas-pynchons-gravitys-rainbow-about.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

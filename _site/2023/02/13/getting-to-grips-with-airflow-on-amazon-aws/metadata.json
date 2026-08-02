@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2023-02-13",
-  "identifier": "https://doi.org/10.59348/c41fh-cp382"
+  "identifier": "https://doi.org/10.59348/c41fh-cp382",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2023-02-13-getting-to-grips-with-airflow-on-amazon-aws.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-10-21",
-  "identifier": "https://doi.org/10.59348/5qb9h-ja558"
+  "identifier": "https://doi.org/10.59348/5qb9h-ja558",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-10-21-reading-the-my-marxist-feminist-dialectic-brings-all-the-boys-to-the-yard-t-shirt.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

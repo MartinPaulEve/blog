@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2016-01-08",
-  "identifier": "https://doi.org/10.59348/1dzy0-3fs78"
+  "identifier": "https://doi.org/10.59348/1dzy0-3fs78",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2016-01-08-these-games-we-play-in-scholcomms.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

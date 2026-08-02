@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2018-04-05",
-  "identifier": "https://doi.org/10.59348/t33yg-kqh29"
+  "identifier": "https://doi.org/10.59348/t33yg-kqh29",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2018-04-05-thoughts-on-the-UUK-offer.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

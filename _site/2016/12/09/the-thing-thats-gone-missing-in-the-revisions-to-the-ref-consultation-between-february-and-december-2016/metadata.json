@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2016-12-09",
-  "identifier": "https://doi.org/10.59348/tyajh-t4349"
+  "identifier": "https://doi.org/10.59348/tyajh-t4349",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2016-12-09-the-thing-thats-gone-missing-in-the-revisions-to-the-ref-consultation-between-february-and-december-2016.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2009-12-07",
-  "identifier": "https://doi.org/10.59348/za1mv-m3617"
+  "identifier": "https://doi.org/10.59348/za1mv-m3617",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2009-12-07-fixing-scp-completion-in-ubuntu-9-10.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2016-02-16",
-  "identifier": "https://doi.org/10.59348/6p2nq-2tc18"
+  "identifier": "https://doi.org/10.59348/6p2nq-2tc18",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2016-02-16-understanding-ofquals-inter-subject-comparability-rasch-model-tests-for-easyhard-subjects-at-gcse-and-a-level.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

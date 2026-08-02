@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-05-21",
-  "identifier": "https://doi.org/10.59348/rgq10-m1w80"
+  "identifier": "https://doi.org/10.59348/rgq10-m1w80",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-05-21-sussex-southampton-initiative-sushi-an-interdisciplinary-fusion.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-02-24",
-  "identifier": "https://doi.org/10.59348/vekqf-xrh44"
+  "identifier": "https://doi.org/10.59348/vekqf-xrh44",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-02-24-my-review-of-the-cambridge-companion-to-thomas-pynchon-at-berfrois.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

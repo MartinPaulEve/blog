@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-09-10",
-  "identifier": "https://doi.org/10.59348/vptxt-tzj76"
+  "identifier": "https://doi.org/10.59348/vptxt-tzj76",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-09-10-by-the-time-you-read-this-i-will-be.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

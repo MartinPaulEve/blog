@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2019-01-17",
-  "identifier": "https://doi.org/10.59348/xd6yh-6zb81"
+  "identifier": "https://doi.org/10.59348/xd6yh-6zb81",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2019-01-17-comments-on-the-interim-royal-historical-society-response-to-plan-s.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2021-02-17",
-  "identifier": "https://doi.org/10.59348/9zh1b-99e05"
+  "identifier": "https://doi.org/10.59348/9zh1b-99e05",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2021-02-17-the-publishers-associations-impact-assessment-on-oa.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

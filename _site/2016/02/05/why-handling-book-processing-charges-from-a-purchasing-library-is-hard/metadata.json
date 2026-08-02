@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2016-02-05",
-  "identifier": "https://doi.org/10.59348/cap89-ms158"
+  "identifier": "https://doi.org/10.59348/cap89-ms158",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2016-02-05-why-handling-book-processing-charges-from-a-purchasing-library-is-hard.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

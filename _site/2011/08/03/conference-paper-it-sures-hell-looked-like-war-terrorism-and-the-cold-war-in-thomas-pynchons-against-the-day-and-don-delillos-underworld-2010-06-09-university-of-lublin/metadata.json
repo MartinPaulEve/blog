@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-08-03",
-  "identifier": "https://doi.org/10.59348/8gzqt-vz461"
+  "identifier": "https://doi.org/10.59348/8gzqt-vz461",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-08-03-conference-paper-it-sures-hell-looked-like-war-terrorism-and-the-cold-war-in-thomas-pynchons-against-the-day-and-don-delillos-underworld-2010-06-09-university-of-lublin.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

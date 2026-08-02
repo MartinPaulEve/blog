@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2013-12-19",
-  "identifier": "https://doi.org/10.59348/taf6s-xbz10"
+  "identifier": "https://doi.org/10.59348/taf6s-xbz10",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2013-12-19-publication-review-of-humanities-in-the-twenty-first-century-beyond-utility-and-markets.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

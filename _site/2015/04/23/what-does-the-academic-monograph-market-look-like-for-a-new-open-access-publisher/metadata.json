@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2015-04-23",
-  "identifier": "https://doi.org/10.59348/w6nzn-yax73"
+  "identifier": "https://doi.org/10.59348/w6nzn-yax73",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2015-04-23-what-does-the-academic-monograph-market-look-like-for-a-new-open-access-publisher.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2014-06-19",
-  "identifier": "https://doi.org/10.59348/2t84w-0mm08"
+  "identifier": "https://doi.org/10.59348/2t84w-0mm08",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2014-06-19-my-short-additional-response-to-the-hefce-metrics-consultation.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

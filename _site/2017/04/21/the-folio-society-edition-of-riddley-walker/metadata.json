@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2017-04-21",
-  "identifier": "https://doi.org/10.59348/yxb99-4nk57"
+  "identifier": "https://doi.org/10.59348/yxb99-4nk57",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2017-04-21-the-folio-society-edition-of-riddley-walker.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

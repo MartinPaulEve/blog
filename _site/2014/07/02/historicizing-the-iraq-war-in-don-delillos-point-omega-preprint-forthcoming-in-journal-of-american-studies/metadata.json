@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2014-07-02",
-  "identifier": "https://doi.org/10.59348/dhs6q-68r62"
+  "identifier": "https://doi.org/10.59348/dhs6q-68r62",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2014-07-02-historicizing-the-iraq-war-in-don-delillos-point-omega-preprint-forthcoming-in-journal-of-american-studies.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

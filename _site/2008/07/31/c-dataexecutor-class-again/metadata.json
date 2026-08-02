@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2008-07-31",
-  "identifier": "https://doi.org/10.59348/ker7b-4sd65"
+  "identifier": "https://doi.org/10.59348/ker7b-4sd65",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2008-07-31-c-dataexecutor-class-again.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2015-03-02",
-  "identifier": "https://doi.org/10.59348/dvj7h-04x29"
+  "identifier": "https://doi.org/10.59348/dvj7h-04x29",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2015-03-02-object-thinking-systems-description-languages-and-the-future-of-the-book.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

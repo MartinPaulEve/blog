@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2013-02-10",
-  "identifier": "https://doi.org/10.59348/n2q24-s7r94"
+  "identifier": "https://doi.org/10.59348/n2q24-s7r94",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2013-02-10-conference-paper-too-many-goddamn-echoes-historicizing-the-iraq-war-in-don-delillos-point-omega-birkbeck.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

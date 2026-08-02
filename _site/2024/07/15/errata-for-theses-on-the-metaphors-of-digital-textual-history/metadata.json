@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2024-07-15",
-  "identifier": "https://doi.org/10.59348/9t5mg-9rg95"
+  "identifier": "https://doi.org/10.59348/9t5mg-9rg95",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2024-07-15-errata-for-theses-on-the-metaphors-of-digital-textual-history.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2024-06-05",
-  "identifier": "https://doi.org/10.59348/aevk7-0hs13"
+  "identifier": "https://doi.org/10.59348/aevk7-0hs13",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2024-06-05-begin-at-the-beginning-the-king-said-very-gravely-serious-openings-and-subversive-epigraphs-in-the-novels-of-thomas-pynchon.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

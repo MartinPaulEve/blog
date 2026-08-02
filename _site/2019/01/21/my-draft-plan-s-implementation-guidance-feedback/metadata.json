@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2019-01-21",
-  "identifier": "https://doi.org/10.59348/w3h86-s6067"
+  "identifier": "https://doi.org/10.59348/w3h86-s6067",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2019-01-21-my-draft-plan-s-implementation-guidance-feedback.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

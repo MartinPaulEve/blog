@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2021-08-20",
-  "identifier": "https://doi.org/10.59348/fggfg-qsy79"
+  "identifier": "https://doi.org/10.59348/fggfg-qsy79",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2021-08-20-replacing-openvpn-with-wireguard-including-on-synology-devices.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

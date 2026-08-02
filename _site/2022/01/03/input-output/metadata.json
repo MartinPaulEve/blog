@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2022-01-03",
-  "identifier": "https://doi.org/10.59348/fvecs-pcv64"
+  "identifier": "https://doi.org/10.59348/fvecs-pcv64",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2022-01-03-input-output.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

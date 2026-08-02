@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2019-12-12",
-  "identifier": "https://doi.org/10.59348/v31fh-95378"
+  "identifier": "https://doi.org/10.59348/v31fh-95378",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2019-12-12-the-new-ref-individual-circumstances-setup-the-good-and-the-bad.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

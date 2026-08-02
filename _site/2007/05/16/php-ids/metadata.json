@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2007-05-16",
-  "identifier": "https://doi.org/10.59348/9eapx-mqp60"
+  "identifier": "https://doi.org/10.59348/9eapx-mqp60",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2007-05-16-php-ids.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-04-28",
-  "identifier": "https://doi.org/10.59348/ryy3t-zjp06"
+  "identifier": "https://doi.org/10.59348/ryy3t-zjp06",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-04-28-contemporary-fiction-research-seminar-write-up-martin-amis-money-2012-04-28.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

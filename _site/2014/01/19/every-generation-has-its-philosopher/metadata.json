@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2014-01-19",
-  "identifier": "https://doi.org/10.59348/q23p2-apm89"
+  "identifier": "https://doi.org/10.59348/q23p2-apm89",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2014-01-19-every-generation-has-its-philosopher.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

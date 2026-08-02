@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2013-03-09",
-  "identifier": "https://doi.org/10.59348/v410m-rq724"
+  "identifier": "https://doi.org/10.59348/v410m-rq724",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2013-03-09-house-of-commons-bis-inquiry-on-open-access-evidence-published.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

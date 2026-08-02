@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-02-08",
-  "identifier": "https://doi.org/10.59348/9w8a7-ebx84"
+  "identifier": "https://doi.org/10.59348/9w8a7-ebx84",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-02-08-cfp-first-conference-of-the-uk-academic-pynchon-network.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

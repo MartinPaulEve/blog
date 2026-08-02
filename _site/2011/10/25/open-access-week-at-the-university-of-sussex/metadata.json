@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-10-25",
-  "identifier": "https://doi.org/10.59348/vvr8q-rvz66"
+  "identifier": "https://doi.org/10.59348/vvr8q-rvz66",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-10-25-open-access-week-at-the-university-of-sussex.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2018-12-14",
-  "identifier": "https://doi.org/10.59348/g9qfs-hs940"
+  "identifier": "https://doi.org/10.59348/g9qfs-hs940",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2018-12-14-my-2018-in-review.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

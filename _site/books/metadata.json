@@ -11,5 +11,10 @@
     "name": "Martin Paul Eve",
     "url": "https://eve.gd",
     "identifier": "https://orcid.org/0000-0002-5589-8511"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/books.pdf",
+    "encodingFormat": "application/pdf"
   }
 }

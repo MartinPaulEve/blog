@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2017-06-23",
-  "identifier": "https://doi.org/10.59348/qavet-4ha35"
+  "identifier": "https://doi.org/10.59348/qavet-4ha35",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2017-06-23-dear-walt.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

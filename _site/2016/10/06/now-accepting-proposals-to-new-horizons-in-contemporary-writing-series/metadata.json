@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2016-10-06",
-  "identifier": "https://doi.org/10.59348/446wz-tsc18"
+  "identifier": "https://doi.org/10.59348/446wz-tsc18",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2016-10-06-now-accepting-proposals-to-new-horizons-in-contemporary-writing-series.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2021-05-15",
-  "identifier": "https://doi.org/10.59348/4xgz6-a1f19"
+  "identifier": "https://doi.org/10.59348/4xgz6-a1f19",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2021-05-15-while-the-government-introduces-new-freedom-of-speech-rules-at-universities-the-biggest-threat-to-academic-freedom-remains-their-insistence-on-the-financial-destabilization-of-institutions.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

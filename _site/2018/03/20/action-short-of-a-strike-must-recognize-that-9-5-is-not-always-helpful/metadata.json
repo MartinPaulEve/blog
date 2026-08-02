@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2018-03-20",
-  "identifier": "https://doi.org/10.59348/e156j-3kr40"
+  "identifier": "https://doi.org/10.59348/e156j-3kr40",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2018-03-20-action-short-of-a-strike-must-recognize-that-9-5-is-not-always-helpful.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

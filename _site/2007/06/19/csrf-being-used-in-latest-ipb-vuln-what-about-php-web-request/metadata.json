@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2007-06-19",
-  "identifier": "https://doi.org/10.59348/jr7ny-stf90"
+  "identifier": "https://doi.org/10.59348/jr7ny-stf90",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2007-06-19-csrf-being-used-in-latest-ipb-vuln-what-about-php-web-request.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

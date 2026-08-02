@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2013-11-16",
-  "identifier": "https://doi.org/10.59348/w2x7g-shk71"
+  "identifier": "https://doi.org/10.59348/w2x7g-shk71",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2013-11-16-three-reasons-why-i-think-journal-prestige-is-a-broken-system.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

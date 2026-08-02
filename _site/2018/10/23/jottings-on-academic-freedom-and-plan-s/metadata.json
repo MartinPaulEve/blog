@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2018-10-23",
-  "identifier": "https://doi.org/10.59348/ch9fj-0k944"
+  "identifier": "https://doi.org/10.59348/ch9fj-0k944",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2018-10-23-jottings-on-academic-freedom-and-plan-s.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

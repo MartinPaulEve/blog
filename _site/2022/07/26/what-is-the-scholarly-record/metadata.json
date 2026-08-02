@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2022-07-26",
-  "identifier": "https://doi.org/10.59348/kv1zh-wn208"
+  "identifier": "https://doi.org/10.59348/kv1zh-wn208",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2022-07-26-what-is-the-scholarly-record.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

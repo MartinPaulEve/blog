@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2010-11-19",
-  "identifier": "https://doi.org/10.59348/29p70-20216"
+  "identifier": "https://doi.org/10.59348/29p70-20216",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2010-11-19-rockaby-text-annotation-software-gpl-alpha-announcement.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

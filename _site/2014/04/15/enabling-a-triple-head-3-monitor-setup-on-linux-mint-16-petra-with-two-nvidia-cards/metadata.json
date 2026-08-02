@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2014-04-15",
-  "identifier": "https://doi.org/10.59348/djfyg-jmn80"
+  "identifier": "https://doi.org/10.59348/djfyg-jmn80",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2014-04-15-enabling-a-triple-head-3-monitor-setup-on-linux-mint-16-petra-with-two-nvidia-cards.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

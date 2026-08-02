@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-02-10",
-  "identifier": "https://doi.org/10.59348/apcjm-d6179"
+  "identifier": "https://doi.org/10.59348/apcjm-d6179",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-02-10-conference-paper-thomas-pynchon-david-foster-wallace-and-twenty-first-century-utopianism-16-18-july-2012-university-of-lincoln.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2023-03-19",
-  "identifier": "https://doi.org/10.59348/jvnf9-ref68"
+  "identifier": "https://doi.org/10.59348/jvnf9-ref68",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2023-03-19-integration-testing-locally-and-on-gitlab-ci-using-localstack.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

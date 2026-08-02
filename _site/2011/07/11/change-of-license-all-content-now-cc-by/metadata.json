@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-07-11",
-  "identifier": "https://doi.org/10.59348/cxz52-g4186"
+  "identifier": "https://doi.org/10.59348/cxz52-g4186",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-07-11-change-of-license-all-content-now-cc-by.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

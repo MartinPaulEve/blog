@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-06-16",
-  "identifier": "https://doi.org/10.59348/nf4ah-9gm21"
+  "identifier": "https://doi.org/10.59348/nf4ah-9gm21",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-06-16-conference-paper-geo-specificity-of-enlightenment-in-mason-dixon-2011-06-24-university-of-glasgow.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

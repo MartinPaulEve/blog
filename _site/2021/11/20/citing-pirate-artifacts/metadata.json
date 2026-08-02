@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2021-11-20",
-  "identifier": "https://doi.org/10.59348/zrcq8-6vn58"
+  "identifier": "https://doi.org/10.59348/zrcq8-6vn58",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2021-11-20-citing-pirate-artifacts.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2013-03-22",
-  "identifier": "https://doi.org/10.59348/6v778-9tp62"
+  "identifier": "https://doi.org/10.59348/6v778-9tp62",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2013-03-22-buy-this-album-mountain-of-love-ex-alabama-3.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-01-24",
-  "identifier": "https://doi.org/10.59348/b1j0a-7kd50"
+  "identifier": "https://doi.org/10.59348/b1j0a-7kd50",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-01-24-first-fictions-festival-at-sussex.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

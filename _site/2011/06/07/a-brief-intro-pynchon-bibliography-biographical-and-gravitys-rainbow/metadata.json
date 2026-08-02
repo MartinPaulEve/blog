@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-06-07",
-  "identifier": "https://doi.org/10.59348/9h83c-1x094"
+  "identifier": "https://doi.org/10.59348/9h83c-1x094",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-06-07-a-brief-intro-pynchon-bibliography-biographical-and-gravitys-rainbow.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2014-04-30",
-  "identifier": "https://doi.org/10.59348/a631n-cjk52"
+  "identifier": "https://doi.org/10.59348/a631n-cjk52",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2014-04-30-open-access-monographs-and-working-for-publishers-for-free.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

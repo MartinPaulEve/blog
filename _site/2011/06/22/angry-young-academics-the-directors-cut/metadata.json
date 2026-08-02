@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-06-22",
-  "identifier": "https://doi.org/10.59348/3am10-zqp64"
+  "identifier": "https://doi.org/10.59348/3am10-zqp64",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-06-22-angry-young-academics-the-directors-cut.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2021-08-07",
-  "identifier": "https://doi.org/10.59348/z7e54-hkk77"
+  "identifier": "https://doi.org/10.59348/z7e54-hkk77",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2021-08-07-notes-on-nicholas-gaskills-chromographia-american-literature-and-the-modernization-of-color.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

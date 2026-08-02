@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2016-11-04",
-  "identifier": "https://doi.org/10.59348/q1q60-tnn26"
+  "identifier": "https://doi.org/10.59348/q1q60-tnn26",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2016-11-04-arguments-counter-arguments-and-political-alignments-for-and-against-open-access.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

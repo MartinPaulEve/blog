@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2023-09-14",
-  "identifier": "https://doi.org/10.59348/v6fh6-3ex41"
+  "identifier": "https://doi.org/10.59348/v6fh6-3ex41",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2023-09-14-why-lever-press.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

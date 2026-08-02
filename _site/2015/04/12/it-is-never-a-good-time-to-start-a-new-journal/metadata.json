@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2015-04-12",
-  "identifier": "https://doi.org/10.59348/8ebc4-03306"
+  "identifier": "https://doi.org/10.59348/8ebc4-03306",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2015-04-12-it-is-never-a-good-time-to-start-a-new-journal.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

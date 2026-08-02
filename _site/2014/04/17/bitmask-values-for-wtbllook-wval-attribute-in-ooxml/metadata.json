@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2014-04-17",
-  "identifier": "https://doi.org/10.59348/ymejq-efd49"
+  "identifier": "https://doi.org/10.59348/ymejq-efd49",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2014-04-17-bitmask-values-for-wtbllook-wval-attribute-in-ooxml.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

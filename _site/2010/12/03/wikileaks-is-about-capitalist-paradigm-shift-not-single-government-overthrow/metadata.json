@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2010-12-03",
-  "identifier": "https://doi.org/10.59348/qf26f-9e582"
+  "identifier": "https://doi.org/10.59348/qf26f-9e582",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2010-12-03-wikileaks-is-about-capitalist-paradigm-shift-not-single-government-overthrow.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

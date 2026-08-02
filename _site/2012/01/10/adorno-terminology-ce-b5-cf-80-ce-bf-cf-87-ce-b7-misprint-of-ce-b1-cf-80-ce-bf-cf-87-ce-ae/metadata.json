@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-01-10",
-  "identifier": "https://doi.org/10.59348/st6t6-shy35"
+  "identifier": "https://doi.org/10.59348/st6t6-shy35",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-01-10-adorno-terminology-ce-b5-cf-80-ce-bf-cf-87-ce-b7-misprint-of-ce-b1-cf-80-ce-bf-cf-87-ce-ae.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

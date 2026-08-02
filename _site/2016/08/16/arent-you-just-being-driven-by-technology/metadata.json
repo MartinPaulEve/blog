@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2016-08-16",
-  "identifier": "https://doi.org/10.59348/spywg-fx570"
+  "identifier": "https://doi.org/10.59348/spywg-fx570",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2016-08-16-arent-you-just-being-driven-by-technology.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

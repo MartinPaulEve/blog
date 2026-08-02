@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2016-06-10",
-  "identifier": "https://doi.org/10.59348/7g3wf-b5f60"
+  "identifier": "https://doi.org/10.59348/7g3wf-b5f60",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2016-06-10-initial-parsing-work-on-large-json-corpus.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

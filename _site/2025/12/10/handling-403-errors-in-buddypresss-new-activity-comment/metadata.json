@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2025-12-10",
-  "identifier": "https://doi.org/10.59348/qg8yz-7974"
+  "identifier": "https://doi.org/10.59348/qg8yz-7974",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2025-12-10-handling-403-errors-in-buddypresss-new-activity-comment.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

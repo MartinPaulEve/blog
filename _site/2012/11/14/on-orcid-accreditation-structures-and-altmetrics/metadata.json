@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-11-14",
-  "identifier": "https://doi.org/10.59348/sfbtn-www40"
+  "identifier": "https://doi.org/10.59348/sfbtn-www40",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-11-14-on-orcid-accreditation-structures-and-altmetrics.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

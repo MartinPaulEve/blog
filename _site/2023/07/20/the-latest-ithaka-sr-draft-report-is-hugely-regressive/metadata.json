@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2023-07-20",
-  "identifier": "https://doi.org/10.59348/jwd2p-kmf24"
+  "identifier": "https://doi.org/10.59348/jwd2p-kmf24",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2023-07-20-the-latest-ithaka-sr-draft-report-is-hugely-regressive.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

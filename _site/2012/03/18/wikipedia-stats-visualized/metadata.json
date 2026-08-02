@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-03-18",
-  "identifier": "https://doi.org/10.59348/acgx8-4jy78"
+  "identifier": "https://doi.org/10.59348/acgx8-4jy78",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-03-18-wikipedia-stats-visualized.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

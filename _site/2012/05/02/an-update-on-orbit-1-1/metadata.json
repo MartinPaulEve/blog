@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-05-02",
-  "identifier": "https://doi.org/10.59348/608dk-d6v22"
+  "identifier": "https://doi.org/10.59348/608dk-d6v22",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-05-02-an-update-on-orbit-1-1.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

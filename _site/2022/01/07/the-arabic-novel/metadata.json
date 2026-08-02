@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2022-01-07",
-  "identifier": "https://doi.org/10.59348/1wbkk-1gm37"
+  "identifier": "https://doi.org/10.59348/1wbkk-1gm37",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2022-01-07-the-arabic-novel.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

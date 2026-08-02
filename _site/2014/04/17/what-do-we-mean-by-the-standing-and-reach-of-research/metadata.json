@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2014-04-17",
-  "identifier": "https://doi.org/10.59348/q9dgj-gnc61"
+  "identifier": "https://doi.org/10.59348/q9dgj-gnc61",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2014-04-17-what-do-we-mean-by-the-standing-and-reach-of-research.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

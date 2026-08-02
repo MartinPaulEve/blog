@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-10-19",
-  "identifier": "https://doi.org/10.59348/8p479-t2663"
+  "identifier": "https://doi.org/10.59348/8p479-t2663",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-10-19-orbit-1-2-is-now-open-and-our-rolling-format-is-live.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

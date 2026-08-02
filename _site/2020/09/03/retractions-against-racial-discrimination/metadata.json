@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2020-09-03",
-  "identifier": "https://doi.org/10.59348/zzmzw-fn306"
+  "identifier": "https://doi.org/10.59348/zzmzw-fn306",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2020-09-03-retractions-against-racial-discrimination.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

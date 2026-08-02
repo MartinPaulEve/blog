@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2014-05-05",
-  "identifier": "https://doi.org/10.59348/n68ms-p5e59"
+  "identifier": "https://doi.org/10.59348/n68ms-p5e59",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2014-05-05-the-tax-his-land-meme-and-its-discontents-me.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

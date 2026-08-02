@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2018-02-06",
-  "identifier": "https://doi.org/10.59348/7x098-yef15"
+  "identifier": "https://doi.org/10.59348/7x098-yef15",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2018-02-06-who-was-responsible-for-the-toby-young-ofs-debacle.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

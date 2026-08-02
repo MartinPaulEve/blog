@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2017-11-20",
-  "identifier": "https://doi.org/10.59348/6cjy0-r6v48"
+  "identifier": "https://doi.org/10.59348/6cjy0-r6v48",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2017-11-20-my-autoimmune-diseases-are-attacking-my-ears-and-i-am-losing-my-hearing.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

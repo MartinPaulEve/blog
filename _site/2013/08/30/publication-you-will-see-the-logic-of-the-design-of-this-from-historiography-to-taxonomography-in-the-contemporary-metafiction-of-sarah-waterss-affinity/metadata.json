@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2013-08-30",
-  "identifier": "https://doi.org/10.59348/fkz3y-ns191"
+  "identifier": "https://doi.org/10.59348/fkz3y-ns191",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2013-08-30-publication-you-will-see-the-logic-of-the-design-of-this-from-historiography-to-taxonomography-in-the-contemporary-metafiction-of-sarah-waterss-affinity.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

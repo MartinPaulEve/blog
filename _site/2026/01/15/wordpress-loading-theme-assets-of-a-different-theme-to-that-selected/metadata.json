@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2026-01-15",
-  "identifier": "https://doi.org/10.59348/75w3f-xhg06"
+  "identifier": "https://doi.org/10.59348/75w3f-xhg06",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2026-01-15-wordpress-loading-theme-assets-of-a-different-theme-to-that-selected.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

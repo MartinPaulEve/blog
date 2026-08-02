@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2007-05-15",
-  "identifier": "https://doi.org/10.59348/29wts-5q506"
+  "identifier": "https://doi.org/10.59348/29wts-5q506",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2007-05-15-javascript-eval-string-fromcharcode-encoder.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

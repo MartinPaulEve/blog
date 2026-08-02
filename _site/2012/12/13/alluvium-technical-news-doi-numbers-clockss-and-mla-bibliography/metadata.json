@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-12-13",
-  "identifier": "https://doi.org/10.59348/jy4py-v4g81"
+  "identifier": "https://doi.org/10.59348/jy4py-v4g81",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-12-13-alluvium-technical-news-doi-numbers-clockss-and-mla-bibliography.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2024-09-12",
-  "identifier": "https://doi.org/10.59348/r7510-gjk64"
+  "identifier": "https://doi.org/10.59348/r7510-gjk64",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2024-09-12-rollercoaster-days.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

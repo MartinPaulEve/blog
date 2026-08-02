@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2016-02-13",
-  "identifier": "https://doi.org/10.59348/eynvc-2wj50"
+  "identifier": "https://doi.org/10.59348/eynvc-2wj50",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2016-02-13-on-ten-years-of-chronic-illness.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2007-05-16",
-  "identifier": "https://doi.org/10.59348/1ah7s-tea22"
+  "identifier": "https://doi.org/10.59348/1ah7s-tea22",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2007-05-16-heise-security-reports-backdoor-in-artmedic-cms.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

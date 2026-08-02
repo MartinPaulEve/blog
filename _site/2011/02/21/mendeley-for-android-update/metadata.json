@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-02-21",
-  "identifier": "https://doi.org/10.59348/tz8rw-80w60"
+  "identifier": "https://doi.org/10.59348/tz8rw-80w60",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-02-21-mendeley-for-android-update.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

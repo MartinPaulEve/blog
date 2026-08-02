@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2014-11-26",
-  "identifier": "https://doi.org/10.59348/h85na-phr29"
+  "identifier": "https://doi.org/10.59348/h85na-phr29",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2014-11-26-a-consumerist-rant-whats-wrong-with-banks.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

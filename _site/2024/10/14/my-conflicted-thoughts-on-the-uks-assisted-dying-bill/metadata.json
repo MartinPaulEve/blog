@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2024-10-14",
-  "identifier": "https://doi.org/10.59348/anyvs-bqv67"
+  "identifier": "https://doi.org/10.59348/anyvs-bqv67",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2024-10-14-my-conflicted-thoughts-on-the-uks-assisted-dying-bill.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

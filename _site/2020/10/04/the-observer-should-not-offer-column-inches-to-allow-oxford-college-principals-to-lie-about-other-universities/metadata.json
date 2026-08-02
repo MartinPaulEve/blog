@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2020-10-04",
-  "identifier": "https://doi.org/10.59348/z0y3c-bg226"
+  "identifier": "https://doi.org/10.59348/z0y3c-bg226",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2020-10-04-the-observer-should-not-offer-column-inches-to-allow-oxford-college-principals-to-lie-about-other-universities.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2025-04-17",
-  "identifier": "https://doi.org/10.59348/14x3a-hw13"
+  "identifier": "https://doi.org/10.59348/14x3a-hw13",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2025-04-17-hacking-the-full-site-editor-in-wordpress.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

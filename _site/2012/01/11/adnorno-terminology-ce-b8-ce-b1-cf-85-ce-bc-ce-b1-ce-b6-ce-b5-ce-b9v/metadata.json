@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-01-11",
-  "identifier": "https://doi.org/10.59348/n1wa9-vas25"
+  "identifier": "https://doi.org/10.59348/n1wa9-vas25",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-01-11-adnorno-terminology-ce-b8-ce-b1-cf-85-ce-bc-ce-b1-ce-b6-ce-b5-ce-b9v.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

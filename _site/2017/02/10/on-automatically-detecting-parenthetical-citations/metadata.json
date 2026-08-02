@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2017-02-10",
-  "identifier": "https://doi.org/10.59348/hqs21-cxk70"
+  "identifier": "https://doi.org/10.59348/hqs21-cxk70",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2017-02-10-on-automatically-detecting-parenthetical-citations.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

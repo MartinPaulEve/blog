@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2015-05-31",
-  "identifier": "https://doi.org/10.59348/f7pr6-8wr39"
+  "identifier": "https://doi.org/10.59348/f7pr6-8wr39",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2015-05-31-flipping-journals-to-oa-while-supporting-existing-oa-publications.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

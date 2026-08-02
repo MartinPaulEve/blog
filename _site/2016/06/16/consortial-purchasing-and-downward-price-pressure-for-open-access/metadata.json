@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2016-06-16",
-  "identifier": "https://doi.org/10.59348/e9d41-fds50"
+  "identifier": "https://doi.org/10.59348/e9d41-fds50",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2016-06-16-consortial-purchasing-and-downward-price-pressure-for-open-access.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

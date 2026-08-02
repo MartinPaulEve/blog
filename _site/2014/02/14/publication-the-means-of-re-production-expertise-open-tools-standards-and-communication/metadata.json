@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2014-02-14",
-  "identifier": "https://doi.org/10.59348/zddvq-4dj76"
+  "identifier": "https://doi.org/10.59348/zddvq-4dj76",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2014-02-14-publication-the-means-of-re-production-expertise-open-tools-standards-and-communication.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

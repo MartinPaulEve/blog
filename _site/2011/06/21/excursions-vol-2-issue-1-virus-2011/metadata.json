@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-06-21",
-  "identifier": "https://doi.org/10.59348/zwg1c-vrr85"
+  "identifier": "https://doi.org/10.59348/zwg1c-vrr85",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-06-21-excursions-vol-2-issue-1-virus-2011.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

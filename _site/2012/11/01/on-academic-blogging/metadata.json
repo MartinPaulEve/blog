@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-11-01",
-  "identifier": "https://doi.org/10.59348/yq7m7-ty315"
+  "identifier": "https://doi.org/10.59348/yq7m7-ty315",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-11-01-on-academic-blogging.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2014-02-24",
-  "identifier": "https://doi.org/10.59348/wped7-g2j17"
+  "identifier": "https://doi.org/10.59348/wped7-g2j17",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2014-02-24-modularizing-the-metypeset-typesetter-for-the-user-interface-phase.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

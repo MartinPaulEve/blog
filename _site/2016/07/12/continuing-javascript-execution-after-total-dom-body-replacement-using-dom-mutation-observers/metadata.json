@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2016-07-12",
-  "identifier": "https://doi.org/10.59348/s2e01-4fy43"
+  "identifier": "https://doi.org/10.59348/s2e01-4fy43",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2016-07-12-continuing-javascript-execution-after-total-dom-body-replacement-using-dom-mutation-observers.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

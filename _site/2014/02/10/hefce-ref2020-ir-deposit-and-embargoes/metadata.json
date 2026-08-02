@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2014-02-10",
-  "identifier": "https://doi.org/10.59348/a0yp5-a2e83"
+  "identifier": "https://doi.org/10.59348/a0yp5-a2e83",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2014-02-10-hefce-ref2020-ir-deposit-and-embargoes.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

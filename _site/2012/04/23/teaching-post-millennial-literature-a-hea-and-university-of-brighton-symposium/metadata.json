@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-04-23",
-  "identifier": "https://doi.org/10.59348/kvrat-fds32"
+  "identifier": "https://doi.org/10.59348/kvrat-fds32",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-04-23-teaching-post-millennial-literature-a-hea-and-university-of-brighton-symposium.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

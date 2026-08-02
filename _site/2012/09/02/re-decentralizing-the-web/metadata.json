@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-09-02",
-  "identifier": "https://doi.org/10.59348/b3gep-znb42"
+  "identifier": "https://doi.org/10.59348/b3gep-znb42",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-09-02-re-decentralizing-the-web.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

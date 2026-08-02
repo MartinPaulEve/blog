@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2018-05-21",
-  "identifier": "https://doi.org/10.59348/y95wv-v0784"
+  "identifier": "https://doi.org/10.59348/y95wv-v0784",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2018-05-21-books-in-series.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

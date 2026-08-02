@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-03-09",
-  "identifier": "https://doi.org/10.59348/5q1ve-82v88"
+  "identifier": "https://doi.org/10.59348/5q1ve-82v88",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-03-09-for-attn-david-cameron-and-andrew-lansley.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

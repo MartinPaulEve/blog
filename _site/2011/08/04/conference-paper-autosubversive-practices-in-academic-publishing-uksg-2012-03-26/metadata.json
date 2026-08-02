@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-08-04",
-  "identifier": "https://doi.org/10.59348/v8qy8-b8f57"
+  "identifier": "https://doi.org/10.59348/v8qy8-b8f57",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-08-04-conference-paper-autosubversive-practices-in-academic-publishing-uksg-2012-03-26.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

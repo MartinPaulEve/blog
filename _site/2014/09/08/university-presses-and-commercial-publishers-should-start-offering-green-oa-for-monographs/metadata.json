@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2014-09-08",
-  "identifier": "https://doi.org/10.59348/s41wn-j4j40"
+  "identifier": "https://doi.org/10.59348/s41wn-j4j40",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2014-09-08-university-presses-and-commercial-publishers-should-start-offering-green-oa-for-monographs.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

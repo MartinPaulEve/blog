@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2024-01-09",
-  "identifier": "https://doi.org/10.59348/5tkbp-dpa74"
+  "identifier": "https://doi.org/10.59348/5tkbp-dpa74",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2024-01-09-rusting-away-or-packing-the-entire-crossref-database-into-a-sqlite-file.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-06-27",
-  "identifier": "https://doi.org/10.59348/v0sta-ck450"
+  "identifier": "https://doi.org/10.59348/v0sta-ck450",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-06-27-enslavement-conference-portsmouth-17th-june-2011.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2017-07-13",
-  "identifier": "https://doi.org/10.59348/wsagg-py014"
+  "identifier": "https://doi.org/10.59348/wsagg-py014",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2017-07-13-mediating-forms-and-free-thinking-or-on-selecting-journals.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

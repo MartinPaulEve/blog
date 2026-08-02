@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2023-07-26",
-  "identifier": "https://doi.org/10.59348/smag6-td951"
+  "identifier": "https://doi.org/10.59348/smag6-td951",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2023-07-26-whats-the-point-of-having-open-scholarly-infrastructures-and-how-do-we-test-their-resilience.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2025-04-11",
-  "identifier": "https://doi.org/10.59348/8ey1q-hhx78"
+  "identifier": "https://doi.org/10.59348/8ey1q-hhx78",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2025-04-11-rage-against-the-machine-the-politics-of-open-access-large-language-models-and-the-reaction-against-open.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

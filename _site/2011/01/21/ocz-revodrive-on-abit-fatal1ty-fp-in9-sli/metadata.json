@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-01-21",
-  "identifier": "https://doi.org/10.59348/h42mj-02016"
+  "identifier": "https://doi.org/10.59348/h42mj-02016",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-01-21-ocz-revodrive-on-abit-fatal1ty-fp-in9-sli.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

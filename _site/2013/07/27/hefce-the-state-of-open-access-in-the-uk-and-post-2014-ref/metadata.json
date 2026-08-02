@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2013-07-27",
-  "identifier": "https://doi.org/10.59348/5eta7-g7138"
+  "identifier": "https://doi.org/10.59348/5eta7-g7138",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2013-07-27-hefce-the-state-of-open-access-in-the-uk-and-post-2014-ref.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2021-04-13",
-  "identifier": "https://doi.org/10.59348/ghsyh-2gc97"
+  "identifier": "https://doi.org/10.59348/ghsyh-2gc97",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2021-04-13-moog-minitaur-the-editor-and-exclusive-usb-lock.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

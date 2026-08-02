@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-09-16",
-  "identifier": "https://doi.org/10.59348/zt1b5-wen54"
+  "identifier": "https://doi.org/10.59348/zt1b5-wen54",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-09-16-weird-council-the-first-international-conference-on-the-works-of-china-mieville-mieville2012-storify.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

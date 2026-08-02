@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2013-06-02",
-  "identifier": "https://doi.org/10.59348/cama3-wj520"
+  "identifier": "https://doi.org/10.59348/cama3-wj520",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2013-06-02-publication-the-botnet-webs-of-hegemonyzombies-who-publish-in-zombies-in-the-academy-bristol-intellect-2013.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

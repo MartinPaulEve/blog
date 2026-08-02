@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2015-11-18",
-  "identifier": "https://doi.org/10.59348/4c2wz-tjq35"
+  "identifier": "https://doi.org/10.59348/4c2wz-tjq35",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2015-11-18-bis-metrics-and-non-selective-qr-allocation.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2023-07-24",
-  "identifier": "https://doi.org/10.59348/wk97r-7tb97"
+  "identifier": "https://doi.org/10.59348/wk97r-7tb97",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2023-07-24-sunsetting-martinevecom.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

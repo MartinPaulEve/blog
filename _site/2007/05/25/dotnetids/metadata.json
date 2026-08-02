@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2007-05-25",
-  "identifier": "https://doi.org/10.59348/ntd9h-gkf22"
+  "identifier": "https://doi.org/10.59348/ntd9h-gkf22",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2007-05-25-dotnetids.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

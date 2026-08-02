@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-04-03",
-  "identifier": "https://doi.org/10.59348/3tyk8-ts787"
+  "identifier": "https://doi.org/10.59348/3tyk8-ts787",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-04-03-i-am-joining-the-oapen-uk-open-access-monograph-steering-group.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

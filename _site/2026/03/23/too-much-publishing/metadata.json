@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2026-03-23",
-  "identifier": "https://doi.org/10.59348/jc78r-7cw74"
+  "identifier": "https://doi.org/10.59348/jc78r-7cw74",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2026-03-23-too-much-publishing.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2022-01-01",
-  "identifier": "https://doi.org/10.59348/hyfz7-pkm08"
+  "identifier": "https://doi.org/10.59348/hyfz7-pkm08",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2022-01-01-last-year-i-spent-506-hours-answering-emails-how-i-hope-to-do-less-of-it-this-year.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

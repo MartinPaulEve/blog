@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2008-07-23",
-  "identifier": "https://doi.org/10.59348/3r18y-49604"
+  "identifier": "https://doi.org/10.59348/3r18y-49604",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2008-07-23-building-a-robust-ssl-crc-verified-serverclient-solution-in-the-net-framework-with-c.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

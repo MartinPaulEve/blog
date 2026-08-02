@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-01-31",
-  "identifier": "https://doi.org/10.59348/sevqh-00b73"
+  "identifier": "https://doi.org/10.59348/sevqh-00b73",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-01-31-pynchon-reference-in-the-economist.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-01-05",
-  "identifier": "https://doi.org/10.59348/8tv89-42y78"
+  "identifier": "https://doi.org/10.59348/8tv89-42y78",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-01-05-mendley-android-client-now-implemented-as-a-user-account-with-sync.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2014-10-04",
-  "identifier": "https://doi.org/10.59348/c03cz-dhx85"
+  "identifier": "https://doi.org/10.59348/c03cz-dhx85",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2014-10-04-pondering-a-solution-to-the-problem-of-learned-societies-and-the-transition-to-open-access.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2014-02-12",
-  "identifier": "https://doi.org/10.59348/ncj05-6dc53"
+  "identifier": "https://doi.org/10.59348/ncj05-6dc53",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2014-02-12-publication-mitchell-hoban.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

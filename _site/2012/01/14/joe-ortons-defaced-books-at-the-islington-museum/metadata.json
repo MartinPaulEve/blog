@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-01-14",
-  "identifier": "https://doi.org/10.59348/nd6da-91a08"
+  "identifier": "https://doi.org/10.59348/nd6da-91a08",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-01-14-joe-ortons-defaced-books-at-the-islington-museum.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

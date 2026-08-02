@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-09-06",
-  "identifier": "https://doi.org/10.59348/t2n80-ene03"
+  "identifier": "https://doi.org/10.59348/t2n80-ene03",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-09-06-astrid-and-producteev.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

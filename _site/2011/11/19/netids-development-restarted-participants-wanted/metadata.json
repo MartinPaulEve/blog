@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-11-19",
-  "identifier": "https://doi.org/10.59348/3aem7-0fw16"
+  "identifier": "https://doi.org/10.59348/3aem7-0fw16",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-11-19-netids-development-restarted-participants-wanted.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

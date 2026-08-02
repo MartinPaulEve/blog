@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2023-07-26",
-  "identifier": "https://doi.org/10.59348/p3qjk-zak81"
+  "identifier": "https://doi.org/10.59348/p3qjk-zak81",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2023-07-26-we-are-terrible-at-online-identity-management-or-using-emails-as-an-identifier-was-a-bad-move.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-06-28",
-  "identifier": "https://doi.org/10.59348/mn3cs-5q693"
+  "identifier": "https://doi.org/10.59348/mn3cs-5q693",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-06-28-submitted-my-ph-d-in-memory-of-my-grandfather-john-gray-10021920-14062012.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

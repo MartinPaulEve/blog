@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2014-06-22",
-  "identifier": "https://doi.org/10.59348/bz52e-q0e97"
+  "identifier": "https://doi.org/10.59348/bz52e-q0e97",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2014-06-22-typesetting-jats-bibliographies-using-csl-and-zotero.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-04-05",
-  "identifier": "https://doi.org/10.59348/gacwz-5ts19"
+  "identifier": "https://doi.org/10.59348/gacwz-5ts19",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-04-05-conference-paper-e2-80-9cthe-drivers-whip-is-an-evil-thing-e2-80-9d-enlightenment-as-mass-enslavement-in-the-works-of-thomas-pynchon-2011-06-17-university-of-portsmouth.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

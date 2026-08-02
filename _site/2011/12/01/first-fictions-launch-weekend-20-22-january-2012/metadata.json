@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-12-01",
-  "identifier": "https://doi.org/10.59348/zfpn6-yvw35"
+  "identifier": "https://doi.org/10.59348/zfpn6-yvw35",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-12-01-first-fictions-launch-weekend-20-22-january-2012.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

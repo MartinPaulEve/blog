@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2022-10-10",
-  "identifier": "https://doi.org/10.59348/cyd26-mtb75"
+  "identifier": "https://doi.org/10.59348/cyd26-mtb75",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2022-10-10-the-politics-of-peer-review-and-preprints-in-the-real-world.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

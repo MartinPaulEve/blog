@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2014-09-01",
-  "identifier": "https://doi.org/10.59348/m680v-kvh23"
+  "identifier": "https://doi.org/10.59348/m680v-kvh23",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2014-09-01-forthcoming-book-open-access-and-the-humanities-contexts-controversies-and-the-future-cambridge-up-2014.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

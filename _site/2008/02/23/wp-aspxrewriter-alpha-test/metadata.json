@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2008-02-23",
-  "identifier": "https://doi.org/10.59348/ndrzq-c8c09"
+  "identifier": "https://doi.org/10.59348/ndrzq-c8c09",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2008-02-23-wp-aspxrewriter-alpha-test.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

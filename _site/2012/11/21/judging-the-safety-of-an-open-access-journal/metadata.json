@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-11-21",
-  "identifier": "https://doi.org/10.59348/f5tn4-ec552"
+  "identifier": "https://doi.org/10.59348/f5tn4-ec552",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-11-21-judging-the-safety-of-an-open-access-journal.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

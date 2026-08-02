@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2010-11-22",
-  "identifier": "https://doi.org/10.59348/necg2-rzg48"
+  "identifier": "https://doi.org/10.59348/necg2-rzg48",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2010-11-22-vince-cables-orwell-esque-doublethink.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

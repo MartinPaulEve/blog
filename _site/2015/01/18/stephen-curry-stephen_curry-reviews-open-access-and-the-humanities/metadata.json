@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2015-01-18",
-  "identifier": "https://doi.org/10.59348/xhd3c-2kc91"
+  "identifier": "https://doi.org/10.59348/xhd3c-2kc91",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2015-01-18-stephen-curry-stephen_curry-reviews-open-access-and-the-humanities.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2016-06-25",
-  "identifier": "https://doi.org/10.59348/bhaqf-e5560"
+  "identifier": "https://doi.org/10.59348/bhaqf-e5560",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2016-06-25-creating-a-generic-loader-for-annotatorjs-plugins-inside-a-hypothesis-extension-project.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

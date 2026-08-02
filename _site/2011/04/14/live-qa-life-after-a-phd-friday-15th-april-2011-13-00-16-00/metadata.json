@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-04-14",
-  "identifier": "https://doi.org/10.59348/2t8t0-s6r38"
+  "identifier": "https://doi.org/10.59348/2t8t0-s6r38",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-04-14-live-qa-life-after-a-phd-friday-15th-april-2011-13-00-16-00.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2021-02-22",
-  "identifier": "https://doi.org/10.59348/95tey-ydq97"
+  "identifier": "https://doi.org/10.59348/95tey-ydq97",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2021-02-22-the-social-network-of-the-london-review-of-books.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

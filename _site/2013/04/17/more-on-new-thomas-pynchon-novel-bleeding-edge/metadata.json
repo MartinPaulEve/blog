@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2013-04-17",
-  "identifier": "https://doi.org/10.59348/bqgdx-dzd20"
+  "identifier": "https://doi.org/10.59348/bqgdx-dzd20",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2013-04-17-more-on-new-thomas-pynchon-novel-bleeding-edge.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

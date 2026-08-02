@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2010-06-11",
-  "identifier": "https://doi.org/10.59348/r7ggn-ynz87"
+  "identifier": "https://doi.org/10.59348/r7ggn-ynz87",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2010-06-11-international-pynchon-week-day-2.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

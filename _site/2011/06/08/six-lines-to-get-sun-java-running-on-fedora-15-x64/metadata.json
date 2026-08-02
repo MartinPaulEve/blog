@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2011-06-08",
-  "identifier": "https://doi.org/10.59348/nhy1y-n0y17"
+  "identifier": "https://doi.org/10.59348/nhy1y-n0y17",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2011-06-08-six-lines-to-get-sun-java-running-on-fedora-15-x64.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

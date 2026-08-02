@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-03-30",
-  "identifier": "https://doi.org/10.59348/e2826-74m90"
+  "identifier": "https://doi.org/10.59348/e2826-74m90",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-03-30-the-problems-for-small-open-access-journals-in-terms-of-digital-preservation.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }

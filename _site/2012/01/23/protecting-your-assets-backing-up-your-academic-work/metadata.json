@@ -13,5 +13,10 @@
     "identifier": "https://orcid.org/0000-0002-5589-8511"
   },
   "datePublished": "2012-01-23",
-  "identifier": "https://doi.org/10.59348/kb0pp-6na29"
+  "identifier": "https://doi.org/10.59348/kb0pp-6na29",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://eve.gd/PDF/2012-01-23-protecting-your-assets-backing-up-your-academic-work.pdf",
+    "encodingFormat": "application/pdf"
+  }
 }
