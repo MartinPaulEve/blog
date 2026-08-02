@@ -409,9 +409,10 @@ module Jekyll
     end
 
     # Content resources distinct from the landing page, declared in front
-    # matter as `item:` / `pdf:` (a url/path or a list of them).
+    # matter as `item:` and/or `pdf:` (a url/path or a list of them); the
+    # pdf_pages generator appends the build's own PDF edition to `pdf`.
     def items_for(doc)
-      Array(doc.data["item"] || doc.data["pdf"]).map do |entry|
+      (Array(doc.data["item"]) + Array(doc.data["pdf"])).map do |entry|
         url = entry.is_a?(Hash) ? entry["url"] : entry
         next nil unless url
         type = entry.is_a?(Hash) ? entry["type"] : guess_type(url)
@@ -650,6 +651,13 @@ module Jekyll
         data["datePublished"] = doc.date.strftime("%Y-%m-%d")
       end
       data["identifier"] = doc.data["doi"] if doc.data["doi"]
+      if (pdf = doc.data["pdf_url"])
+        data["encoding"] = {
+          "@type" => "MediaObject",
+          "contentUrl" => pdf,
+          "encodingFormat" => "application/pdf",
+        }
+      end
       citations = citations_for(doc)
       data["citation"] = citations unless citations.empty?
       JSON.pretty_generate(data) + "\n"

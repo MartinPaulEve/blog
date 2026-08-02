@@ -16,3 +16,6 @@ _asset_bundler_cache
 
 # Local accessibility worklist — deliberately never committed
 ACCESSIBILITY.md
+
+# Build-time PDF edition cache (regenerated locally; served copies live in _site/PDF)
+.pdf_cache/

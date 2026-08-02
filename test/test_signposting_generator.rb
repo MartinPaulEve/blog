@@ -475,4 +475,41 @@ class TestSignpostingGenerator < Minitest::Test
     assert_includes site.pages.first.data["signposting_links"],
                     '<link rel="author"'
   end
+
+  # --- PDF versions (populated by the pdf_pages generator) ------------------
+
+  def pdf_post
+    FakeDoc.new(
+      url: "/2026/08/02/voyager/",
+      data: { "layout" => "post", "title" => "Voyager",
+              "pdf" => ["https://eve.gd/PDF/2026-08-02-voyager.pdf"],
+              "pdf_url" => "https://eve.gd/PDF/2026-08-02-voyager.pdf",
+              "item" => ["https://eve.gd/files/slides.key"] },
+      date: Time.new(2026, 8, 2),
+    )
+  end
+
+  def test_item_and_pdf_front_matter_both_become_item_links
+    site = run_generator(posts: [pdf_post])
+    links = site.posts.docs.first.data["signposting_links"]
+    assert_includes links,
+                    '<link rel="item" href="https://eve.gd/PDF/2026-08-02-voyager.pdf" type="application/pdf">'
+    assert_includes links, '<link rel="item" href="https://eve.gd/files/slides.key"'
+  end
+
+  def test_pdf_appears_in_link_header
+    run_generator(posts: [pdf_post])
+    ht = File.read(File.join(@dir, "2026/08/02/voyager", ".htaccess"))
+    assert_includes ht, "PDF/2026-08-02-voyager.pdf"
+    assert_includes ht, 'rel=\"item\"'
+  end
+
+  def test_pdf_encoding_node_in_describedby_metadata
+    run_generator(posts: [pdf_post])
+    json = JSON.parse(File.read(File.join(@dir, "2026/08/02/voyager", "metadata.json")))
+    enc = json["encoding"]
+    assert_equal "MediaObject", enc["@type"]
+    assert_equal "https://eve.gd/PDF/2026-08-02-voyager.pdf", enc["contentUrl"]
+    assert_equal "application/pdf", enc["encodingFormat"]
+  end
 end

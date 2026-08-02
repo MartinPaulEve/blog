@@ -43,9 +43,20 @@
         "dateCreated": "{{ page.date }}",
         "url": "{{ site.url }}{{ page.url }}",
         "inLanguage ": "en-GB",
-        "image": "{{ page.image.feature }}"
+        "image": "{{ page.image.feature }}"{% if page.pdf_url %},
+        "encoding": {
+            "@type": "MediaObject",
+            "contentUrl": "{{ page.pdf_url }}",
+            "encodingFormat": "application/pdf"
+        }{% endif %}
     }
 </script>
+
+{% if page.pdf_url %}
+<!-- PDF edition of this page (rendered at build time from the print layout) -->
+<link rel="alternate" type="application/pdf" href="{{ page.pdf_url }}" title="PDF version of this page">
+<meta name="citation_pdf_url" content="{{ page.pdf_url }}">
+{% endif %}
 
 <!-- Structured data describing the site's author -->
 <script type="application/ld+json">
