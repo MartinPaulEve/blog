@@ -22,11 +22,15 @@ cd "$(dirname "$0")"
 
 # --- preflight ---
 command -v sequoia >/dev/null || { echo "sequoia not found on PATH" >&2; exit 1; }
-node_major=$(node -p 'process.versions.node.split(".")[0]' 2>/dev/null || echo 0)
-if [ "$node_major" -lt 19 ]; then
-    echo "Node $(node -v 2>/dev/null || echo '?') detected; sequoia needs Node >= 19." >&2
-    echo "Switch first (e.g. 'nvm use 24'), then re-run." >&2
-    exit 1
+# The Nix-packaged sequoia wraps its own Node 24, so a PATH node is optional;
+# only enforce the minimum version if one is present (e.g. npm-installed sequoia).
+if command -v node >/dev/null; then
+    node_major=$(node -p 'process.versions.node.split(".")[0]' 2>/dev/null || echo 0)
+    if [ "$node_major" -lt 19 ]; then
+        echo "Node $(node -v 2>/dev/null || echo '?') detected; sequoia needs Node >= 19." >&2
+        echo "Switch to Node >= 19 first, then re-run." >&2
+        exit 1
+    fi
 fi
 
 # --- 1. resize oversized cover images (idempotent; skips ones already small) ---
@@ -56,7 +60,9 @@ sequoia publish
 
 # --- 5. build the site as usual. This comes later because we need the atProto links in the source ---
 echo "==> Building site"
-bundle exec jekyll build --incremental
+# Plain jekyll, not `bundle exec`: the Nix jekyll (full variant) carries its
+# own bundle incl. jekyll-feed; bundler would demand a local gem install.
+jekyll build --incremental
 
 # --- 6. commit (including .sequoia-state.json) + push ---
 echo "==> Committing and pushing"
