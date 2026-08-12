@@ -86,6 +86,6 @@ fi
 
 echo "==> Pulling on server."
 
-ssh evegd@reclaim -i ~/.ssh/id_ed25519_waldorf.pub /home/evegd/build_site.sh
+rsync -avz /home/martin/Documents/Programming/blog/_site/ evegd@reclaim:/home/evegd/blog/_site/
 
 echo "==> Done."
