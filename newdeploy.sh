@@ -58,13 +58,23 @@ esac
 echo "==> Publishing to ATProto"
 sequoia publish
 
-# --- 5. build the site as usual. This comes later because we need the atProto links in the source ---
+# --- 5. refresh CV files from eprintsToCV output (sibling repo) ---
+CV_SRC="../eprintsToCV/output"
+if [ -f "$CV_SRC/martin_paul_eve.pdf" ] && [ -f "$CV_SRC/martin_paul_eve.html" ]; then
+    echo "==> Refreshing CV from $CV_SRC"
+    cp "$CV_SRC/martin_paul_eve.pdf" c-v/Eve-CV.pdf
+    cp "$CV_SRC/martin_paul_eve.html" _includes/publications.html
+else
+    echo "WARNING: $CV_SRC/martin_paul_eve.{pdf,html} not found; keeping existing CV files." >&2
+fi
+
+# --- 6. build the site as usual. This comes later because we need the atProto links in the source ---
 echo "==> Building site"
 # Plain jekyll, not `bundle exec`: the Nix jekyll (full variant) carries its
 # own bundle incl. jekyll-feed; bundler would demand a local gem install.
 jekyll build --incremental
 
-# --- 6. commit (including .sequoia-state.json) + push ---
+# --- 7. commit (including .sequoia-state.json) + push ---
 echo "==> Committing and pushing"
 git add -A
 if git diff --cached --quiet; then

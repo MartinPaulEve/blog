@@ -1,0 +1,21 @@
+.sass-cache
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+codekit-config.json
+node_modules
+_asset_bundler_cache
+.jekyll-metadata
+.jekyll-cache/
+.idea/workspace.xml
+
+# Generated Open Graph image cache (regenerated locally; served copies live in _site)
+.og_cache/
+
+.sequoia-state.json
+
+# Local accessibility worklist — deliberately never committed
+ACCESSIBILITY.md
+
+# Build-time PDF edition cache (regenerated locally; served copies live in _site/PDF)
+.pdf_cache/
