@@ -3,8 +3,7 @@
 . /usr/local/bin/virtualenvwrapper.sh
 cd /home/martin/Documents/Programming/blog
 cd music
-workon musicBrainzPull
-python /home/martin/Documents/Programming/musicBrainzPull/listMusic.py ./ids.txt ./template ./index.md
+uv run --project /home/martin/Documents/Programming/musicBrainzPull /home/martin/Documents/Programming/musicBrainzPull/listMusic.py gen ./ids.txt ./template ./index.md
 cd ..
 cd books
 python /home/martin/Documents/Programming/bookPull/listBooks.py ids.txt template index.md eprints.bbk.ac.uk
