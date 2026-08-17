@@ -3,6 +3,8 @@ title: "Admission, meds, vascular access..."
 layout: post
 doi: https://doi.org/10.59348/kpp9c-4kp22
 date: 2026-08-11
+forwardlink:
+- 2026-08-17-feed-infection-control-fluid-overload
 image:
   credit: "Martha Dominguez de Gouveia on Unsplash"
   creditlink: "https://unsplash.com/photos/hospital-bed-near-couch-KF-h9HMxRKg"
