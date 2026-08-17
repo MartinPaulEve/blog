@@ -30,8 +30,6 @@ Well, okay, but that's still four hours, and I just don't think it's sensible to
 
 They have also forgotten to change the dressing on my new PICC line, which was supposed to be done after the first 24 hours. Well, it is going to be more like 48 by the time they get to it. Another great safety procedure. Everybody has told me about the high risk of infection on this procedure because you're putting glucose in and it can create a bacterial feeding ground around the input port. But then things like this slip by and I have to chase them, whereas a patient in a less capable state would not be able to.
 
-<img src="/images/EveHospital2026.jpg" alt="Martin Paul Eve in hospital, on a dialysis machine and an IV feed drip, with a PICC line in his arm and a central line in his chest" style="width:100%;" />
-
 I am also quite appalled by some of the infection control on the ward here.
 
 The infection control team came around and said that the tips of my PICC line should be changed with every infusion. They have not been for the whole week, until I insisted on it today. They also said that the open line should be capped when not in use. This has not been done and when I asked the nurse to do it, I was told that they "don't have the caps on the ward", so it's still open. 
