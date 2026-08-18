@@ -72,7 +72,9 @@ fi
 echo "==> Building site"
 # Plain jekyll, not `bundle exec`: the Nix jekyll (full variant) carries its
 # own bundle incl. jekyll-feed; bundler would demand a local gem install.
-jekyll build --incremental
+# No --incremental: it skips pages that iterate site.posts (feed.xml,
+# feed_all.xml), leaving them stale when a new post is added.
+jekyll build
 
 # --- 7. commit (including .sequoia-state.json) + push ---
 echo "==> Committing and pushing"
