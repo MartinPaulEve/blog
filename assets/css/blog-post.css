@@ -878,9 +878,13 @@ button.share-btn {
         color: #000;
     }
 
+    /* Links keep the imprint's black, but stay underlined: with colour ruled
+       out on a monochrome cover, the underline is the non-colour cue that
+       marks them as actionable (WCAG 1.4.1). */
     .print-cover a {
         color: #000 !important;
-        text-decoration: none;
+        text-decoration: underline;
+        text-underline-offset: 2pt;
     }
 
     .print-cover-masthead {
