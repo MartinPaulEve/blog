@@ -19,3 +19,6 @@ ACCESSIBILITY.md
 
 # Build-time PDF edition cache (regenerated locally; served copies live in _site/PDF)
 .pdf_cache/
+
+# Generated site output — rebuilt by newdeploy.sh, deployed via rsync
+_site/
