@@ -53,6 +53,39 @@ module PdfPages
     Digest::SHA256.hexdigest(normalize_html(html))
   end
 
+  # exiftool tag assignments carrying a page's bibliographic data into the
+  # PDF Info dictionary and XMP packet (Zotero, Calibre and citation managers
+  # read these). Absent fields (pages have no date or DOI) produce no tags.
+  def self.metadata_args(meta)
+    args = ["-Author=Martin Paul Eve",
+            "-XMP-dc:Creator=Eve, Martin Paul",
+            "-XMP-dc:Language=en",
+            "-XMP-dc:Publisher=eve.gd: Martin Paul Eve",
+            "-XMP-prism:PublicationName=eve.gd: Martin Paul Eve",
+            "-XMP-dc:Type=Text"]
+
+    title = meta[:title].to_s
+    args += ["-Title=#{title}", "-XMP-dc:Title=#{title}"] unless title.empty?
+
+    if (date = meta[:date])
+      args += ["-XMP-dc:Date=#{date.strftime('%Y-%m-%d')}",
+               "-CreateDate=#{date.strftime('%Y:%m:%d %H:%M:%S')}"]
+    end
+
+    doi = meta[:doi].to_s
+    unless doi.empty?
+      bare = doi.sub(%r{\Ahttps?://(dx\.)?doi\.org/}, "")
+      args += ["-XMP-prism:DOI=#{bare}", "-XMP-dc:Identifier=#{doi}"]
+    end
+
+    url = meta[:url].to_s
+    # prism:URL is a structured tag in PRISM 3.0 and fails to write; these
+    # simple-text tags carry the canonical web URL instead.
+    args += ["-XMP-dc:Source=#{url}", "-XMP-prism:Link=#{url}"] unless url.empty?
+
+    args
+  end
+
   # Renders a set of pages through an injectable renderer, keeping a PDF +
   # content-hash pair per slug in cache_dir and copying current PDFs into
   # dest_dir. A failed render leaves no hash behind, so it is retried on the
@@ -143,6 +176,8 @@ module Jekyll
       return unless site.respond_to?(:source) && site.source
 
       chrome = CHROME_BINS.find { |b| system("command -v #{b} >/dev/null 2>&1") }
+      exiftool = system("command -v exiftool >/dev/null 2>&1") ? "exiftool" : nil
+      Jekyll.logger.warn "PdfPages:", "exiftool not found; PDFs will lack embedded metadata" unless exiftool
       cache_dir = File.join(site.source, CACHE_DIR)
       dest_dir = File.join(site.dest, PdfPages::PDF_DIR)
 
@@ -154,7 +189,7 @@ module Jekyll
       end
 
       with_server(site.dest) do |port|
-        renderer = chrome_renderer(chrome, port)
+        renderer = chrome_renderer(chrome, port, exiftool)
         pool = ThreadPoolBatch.new(cache_dir: cache_dir, dest_dir: dest_dir,
                                    renderer: renderer, threads: THREADS)
         stats = pool.process(pages)
@@ -165,11 +200,14 @@ module Jekyll
     end
 
     def self.collect_pages(site)
+      base_url = site.config["url"].to_s
       PdfPagesScope.documents(site).map do |doc|
         path = File.join(site.dest, doc.url, "index.html")
         next nil unless File.exist?(path)
 
-        { slug: PdfPages.slug(doc.url), url: doc.url, html: File.read(path) }
+        { slug: PdfPages.slug(doc.url), url: doc.url, html: File.read(path),
+          meta: { title: doc.data["title"], date: doc.data["date"],
+                  doi: doc.data["doi"], url: base_url + doc.url } }
       end.compact
     end
 
@@ -207,7 +245,7 @@ module Jekyll
       raise "PDF server did not start on port #{port}"
     end
 
-    def self.chrome_renderer(chrome, port)
+    def self.chrome_renderer(chrome, port, exiftool = nil)
       require "open3"
       lambda do |page, out_path|
         cmd = [chrome, "--headless=new", "--disable-gpu", "--no-sandbox",
@@ -217,8 +255,19 @@ module Jekyll
         _out, err, status = Open3.capture3(*cmd)
         ok = status.success? && File.exist?(out_path)
         Jekyll.logger.warn "PdfPages:", "render failed for #{page[:slug]}: #{err.lines.last}" unless ok
+        embed_metadata(exiftool, page, out_path) if ok && exiftool && page[:meta]
         ok
       end
+    end
+
+    # Stamps the page's bibliographic data into the rendered PDF. A failure
+    # here keeps the (metadata-less) PDF rather than blocking the build.
+    def self.embed_metadata(exiftool, page, out_path)
+      args = PdfPages.metadata_args(page[:meta])
+      _out, err, status = Open3.capture3(exiftool, "-overwrite_original", "-q", *args, out_path)
+      return if status.success?
+
+      Jekyll.logger.warn "PdfPages:", "metadata failed for #{page[:slug]}: #{err.lines.last}"
     end
 
     # A Batch that fans page renders out over a small thread pool (Chrome
