@@ -1,0 +1,22 @@
+{% comment %}
+  Print-only title page for the PDF editions (hidden on screen; the print
+  stylesheet in blog-post.css lays it out as a full first page). Shared by the
+  post and page layouts; date/DOI/feature-image lines render only when the
+  document has them, so content pages get a plainer cover than posts.
+{% endcomment %}
+<div class="print-cover">
+    <p class="print-cover-masthead">eve.gd&#8202;: Martin Paul Eve</p>
+    <div class="print-cover-main">
+        <h1 class="print-cover-title">{{ page.title }}</h1>
+        <p class="print-cover-author">Martin Paul Eve</p>
+        <p class="print-cover-role">Professor of Literature, Technology and Publishing</p>
+        {% if page.date %}<p class="print-cover-date">{{ page.date | date: "%-d %B %Y" }}</p>{% endif %}
+        {% if page.image.feature %}<img class="print-cover-image" src="/images/{{ page.image.feature }}" alt="{{ page.image.title | default: page.title | escape }}">
+        {% if page.image.credit %}<p class="print-cover-credit">Image: {{ page.image.title | default: page.image.credit }} ({{ page.image.credit }})</p>{% endif %}{% endif %}
+    </div>
+    <div class="print-cover-imprint">
+        {% if page.doi %}<p>DOI: <a href="{{ page.doi }}">{{ page.doi }}</a></p>{% endif %}
+        <p>Available at: {{ site.url }}{{ page.url }}</p>
+        <p>PDF edition of the version of record published on the web.</p>
+    </div>
+</div>

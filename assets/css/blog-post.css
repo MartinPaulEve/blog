@@ -859,7 +859,103 @@ button.share-btn {
 /* ========================================
    Print / PDF (blog posts) — web view unchanged
    ======================================== */
+
+/* The PDF title page only exists on paper. */
+.print-cover {
+    display: none;
+}
+
 @media print {
+    /* --- Title page: full first page, then the article proper. The title,
+       author and date live here, so their on-screen duplicates in the header
+       are suppressed below (the "Cite as" line stays at the top of page 2). --- */
+    .print-cover {
+        display: flex;
+        flex-direction: column;
+        min-height: 92vh;
+        page-break-after: always;
+        text-align: center;
+        color: #000;
+    }
+
+    .print-cover a {
+        color: #000 !important;
+        text-decoration: none;
+    }
+
+    .print-cover-masthead {
+        font-family: var(--font-serif);
+        font-variant: small-caps;
+        letter-spacing: 0.14em;
+        font-size: 11pt;
+        margin: 0 0 6pt;
+        padding-bottom: 6pt;
+        border-bottom: 1px solid #000;
+    }
+
+    .print-cover-main {
+        margin: auto 0;   /* vertically centre between masthead and imprint */
+    }
+
+    .print-cover-title {
+        font-family: var(--font-serif);
+        font-weight: 600;
+        font-size: 28pt;
+        line-height: 1.15;
+        margin: 0 0 16pt;
+    }
+
+    .print-cover-author {
+        font-size: 13pt;
+        margin: 0 0 2pt;
+    }
+
+    .print-cover-role {
+        font-size: 10pt;
+        color: #333;
+        margin: 0 0 12pt;
+    }
+
+    .print-cover-date {
+        font-size: 11pt;
+        margin: 0;
+    }
+
+    .print-cover-image {
+        display: block;
+        max-width: 65%;
+        max-height: 32vh;
+        width: auto;
+        height: auto;
+        margin: 18pt auto 0;
+        border: 1px solid #000;
+    }
+
+    .print-cover-credit {
+        font-size: 8pt;
+        font-style: italic;
+        color: #333;
+        margin: 4pt 0 0;
+    }
+
+    .print-cover-imprint {
+        font-size: 9pt;
+        color: #333;
+        border-top: 1px solid #000;
+        padding-top: 6pt;
+    }
+
+    .print-cover-imprint p {
+        margin: 0 0 2pt;
+    }
+
+    /* Title, author card and feature image are on the cover now. */
+    .post-header .post-title,
+    .post-header .post-author,
+    .post-feature {
+        display: none !important;
+    }
+
     /* Always print on a light scheme, even if the reader is in dark mode.
        Everything else uses these tokens, so overriding them does most of the work. */
     :root,
