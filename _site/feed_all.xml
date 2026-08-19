@@ -4,13 +4,97 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="https://eve.gd/feed.xml" />
 <link rel="alternate" type="text/html" href="https://eve.gd" />
-<updated>2026-08-18T14:57:40+01:00</updated>
+<updated>2026-08-19T09:59:12+01:00</updated>
 <id>https://eve.gd/</id>
 <author>
   <name>Martin Paul Eve</name>
   <uri>https://orcid.org/0000-0002-5589-8511</uri>
   <email>martin.eve@bbk.ac.uk</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[How can you securely share a secret number with someone, totally in public? Elliptic Curves]]></title>
+  <link rel="alternate" type="text/html" href="https://eve.gd/2026/08/19/how-can-you-securely-share-a-secret-number-with-someone-totally-in-public/" />
+  
+  <id>https://doi.org/10.59348/zx6pm-4nd50</id>
+  
+  <published>Wednesday, 19 August 2026 15:55:58 +0``000</published>
+  <updated>2026-08-19T00:00:00+01:00</updated>
+  <author>
+    <name>Martin Paul Eve</name>
+    <uri>https://orcid.org/0000-0002-5589-8511</uri>
+    
+  </author>
+  <content type="html"><![CDATA[
+    &lt;p&gt;How do you totally securely share a secret number with someone, utterly in public, without anybody else being able to get it?&lt;/p&gt;
+
+&lt;p&gt;This morning, for my &lt;em&gt;Dark Web&lt;/em&gt; book, I have been writing about elliptic curve cryptography and how it works, which solves this precise problem (following in the footsteps of other methods like RSA). It turns out that some mathematical curves (yes, wavy wiggly lines on a grid) have some weird mathematical properties that make this possible.&lt;/p&gt;
+
+&lt;p&gt;So, to use this system, we first have to pick a “curve” that has these properties. A number are known, with catchy names such as “Curve25519”. These curves have a hard discrete-logarithm problem associated with them (I won’t go into that here, though).&lt;/p&gt;
+
+&lt;p&gt;Anyway, we then take a publicly defined base point on the pre-defined curve, called &lt;em&gt;G&lt;/em&gt;. Alice then chooses a very large number, &lt;em&gt;k&lt;/em&gt;, to act as her private key (not shared/private). Next, this &lt;em&gt;G&lt;/em&gt; point is “added” to itself &lt;em&gt;k&lt;/em&gt; times (elliptic-curve addition is slightly different from normal addition). This gives us another point on the curve, called &lt;em&gt;kG&lt;/em&gt;. This is Alice’s public key (shared/public).&lt;/p&gt;
+
+&lt;p&gt;Then, Bob chooses his own random ephemeral secret number, &lt;em&gt;r&lt;/em&gt; (not shared/private). Bob then creates his own ephemeral public point on the curve, by adding &lt;em&gt;G&lt;/em&gt; to itself &lt;em&gt;r&lt;/em&gt; times (shared/public). So everyone knows &lt;em&gt;G&lt;/em&gt;, &lt;em&gt;kG&lt;/em&gt;, and &lt;em&gt;rG&lt;/em&gt;. Only Alice knows &lt;em&gt;k&lt;/em&gt; and only Bob knows &lt;em&gt;r&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The mathematical magic is that &lt;em&gt;k&lt;/em&gt;(&lt;em&gt;rG&lt;/em&gt;) = &lt;em&gt;r&lt;/em&gt;(&lt;em&gt;kG&lt;/em&gt;) = &lt;em&gt;krG&lt;/em&gt;. Hence, using information only they respectively know (&lt;em&gt;k&lt;/em&gt; and &lt;em&gt;r&lt;/em&gt;) combined with public points (&lt;em&gt;kG&lt;/em&gt; and &lt;em&gt;rG&lt;/em&gt;), Alice and Bob can both independently calculate the same, shared secret point (&lt;em&gt;krG&lt;/em&gt;). They never transmit this &lt;em&gt;krG&lt;/em&gt; value to each other; it is calculated in private, but they will have the same point.&lt;/p&gt;
+
+&lt;p&gt;Importantly, it is computationally infeasible to derive &lt;em&gt;r&lt;/em&gt; and &lt;em&gt;k&lt;/em&gt; from &lt;em&gt;kG&lt;/em&gt; and &lt;em&gt;rG&lt;/em&gt;. This secret point, &lt;em&gt;krG&lt;/em&gt;, can then be used as part of a key-derivation function to create a key (Alice and Bob will get the same key) that can be used in a traditional symmetric encryption algorithm. This is called ECDH key agreement.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Variable&lt;/th&gt;
+      &lt;th&gt;What it is&lt;/th&gt;
+      &lt;th&gt;Privacy&lt;/th&gt;
+      &lt;th&gt;Which party&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$G$&lt;/td&gt;
+      &lt;td&gt;A publicly agreed base point on the curve.&lt;/td&gt;
+      &lt;td&gt;Public&lt;/td&gt;
+      &lt;td&gt;Alice, Bob&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$k$&lt;/td&gt;
+      &lt;td&gt;Alice’s private key. A large random number.&lt;/td&gt;
+      &lt;td&gt;Private&lt;/td&gt;
+      &lt;td&gt;Alice&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$kG$&lt;/td&gt;
+      &lt;td&gt;Alice’s public key. A public point on the curve. Equivalent to $G$ self-added $k$ times. A shared public value.&lt;/td&gt;
+      &lt;td&gt;Public&lt;/td&gt;
+      &lt;td&gt;Alice (producer), Bob (consumer)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$r$&lt;/td&gt;
+      &lt;td&gt;Bob’s temporary private key. A large, ephemeral random number.&lt;/td&gt;
+      &lt;td&gt;Private&lt;/td&gt;
+      &lt;td&gt;Bob&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$rG$&lt;/td&gt;
+      &lt;td&gt;Ephemeral public point on the curve. Equivalent to $G$ self-added $r$ times. A shared public value.&lt;/td&gt;
+      &lt;td&gt;Public&lt;/td&gt;
+      &lt;td&gt;Bob (producer), Alice (consumer)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$k(rG) = r(kG)$&lt;/td&gt;
+      &lt;td&gt;The final, calculated, shared secret point. Bob and Alice can calculate this independently of each other without transmitting it. Their respective secret numbers ($r$ and $k$), multiplied by either $rG$ or $kG$, are the same.&lt;/td&gt;
+      &lt;td&gt;Private&lt;/td&gt;
+      &lt;td&gt;Alice, Bob (calculated independently / individually)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;As with all asymmetric cryptography, this relies on a mathematical operation that is easy to perform in one direction, but extraordinarily difficult to reverse. In this case, it is easy for Alice to calculate &lt;em&gt;kG&lt;/em&gt;. But even if an attacker knows &lt;em&gt;G&lt;/em&gt; and &lt;em&gt;kG&lt;/em&gt;, it is totally infeasible to calculate &lt;em&gt;k&lt;/em&gt;. Going from the secret number to a public point is easy to calculate. But going back from the public point to a secret number is extraordinarily hard. That’s the basic trick of elliptic curve cryptography.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/08/19/how-can-you-securely-share-a-secret-number-with-someone-totally-in-public/&quot;&gt;How can you securely share a secret number with someone, totally in public? Elliptic Curves&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;eve.gd: Martin Paul Eve&lt;/a&gt; on August 19, 2026.&lt;/p&gt;]]>
+  </content>
+</entry>
 
 
 <entry>

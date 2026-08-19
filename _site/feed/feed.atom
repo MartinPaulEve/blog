@@ -1,4 +1,67 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://eve.gd/feed/feed.atom" rel="self" type="application/atom+xml" /><link href="https://eve.gd/" rel="alternate" type="text/html" /><updated>2026-08-18T14:57:40+01:00</updated><id>https://eve.gd/feed/feed.atom</id><title type="html">eve.gd: Martin Paul Eve</title><entry><title type="html">Feed, Infection Control, Fluid Overload</title><link href="https://eve.gd/2026/08/17/feed-infection-control-fluid-overload/" rel="alternate" type="text/html" title="Feed, Infection Control, Fluid Overload" /><published>2026-08-17T00:00:00+01:00</published><updated>2026-08-17T00:00:00+01:00</updated><id>https://doi.org/10.59348/pahpe-g7w52</id><content type="html" xml:base="https://eve.gd/2026/08/17/feed-infection-control-fluid-overload/"><![CDATA[<p>Another personal post, on being in hospital and suffering. And so, after a substantial wait, the IV feeding for which I had been waiting started. The feed itself looks like the worst kind of science fiction matrix food goop that you can imagine. Of course, the advantage is that I don’t need to eat it. It’s going straight to source.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://eve.gd/feed/feed.atom" rel="self" type="application/atom+xml" /><link href="https://eve.gd/" rel="alternate" type="text/html" /><updated>2026-08-19T09:59:12+01:00</updated><id>https://eve.gd/feed/feed.atom</id><title type="html">eve.gd: Martin Paul Eve</title><entry><title type="html">How can you securely share a secret number with someone, totally in public? Elliptic Curves</title><link href="https://eve.gd/2026/08/19/how-can-you-securely-share-a-secret-number-with-someone-totally-in-public/" rel="alternate" type="text/html" title="How can you securely share a secret number with someone, totally in public? Elliptic Curves" /><published>2026-08-19T00:00:00+01:00</published><updated>2026-08-19T00:00:00+01:00</updated><id>https://doi.org/10.59348/zx6pm-4nd50</id><content type="html" xml:base="https://eve.gd/2026/08/19/how-can-you-securely-share-a-secret-number-with-someone-totally-in-public/"><![CDATA[<p>How do you totally securely share a secret number with someone, utterly in public, without anybody else being able to get it?</p>
+
+<p>This morning, for my <em>Dark Web</em> book, I have been writing about elliptic curve cryptography and how it works, which solves this precise problem (following in the footsteps of other methods like RSA). It turns out that some mathematical curves (yes, wavy wiggly lines on a grid) have some weird mathematical properties that make this possible.</p>
+
+<p>So, to use this system, we first have to pick a “curve” that has these properties. A number are known, with catchy names such as “Curve25519”. These curves have a hard discrete-logarithm problem associated with them (I won’t go into that here, though).</p>
+
+<p>Anyway, we then take a publicly defined base point on the pre-defined curve, called <em>G</em>. Alice then chooses a very large number, <em>k</em>, to act as her private key (not shared/private). Next, this <em>G</em> point is “added” to itself <em>k</em> times (elliptic-curve addition is slightly different from normal addition). This gives us another point on the curve, called <em>kG</em>. This is Alice’s public key (shared/public).</p>
+
+<p>Then, Bob chooses his own random ephemeral secret number, <em>r</em> (not shared/private). Bob then creates his own ephemeral public point on the curve, by adding <em>G</em> to itself <em>r</em> times (shared/public). So everyone knows <em>G</em>, <em>kG</em>, and <em>rG</em>. Only Alice knows <em>k</em> and only Bob knows <em>r</em>.</p>
+
+<p>The mathematical magic is that <em>k</em>(<em>rG</em>) = <em>r</em>(<em>kG</em>) = <em>krG</em>. Hence, using information only they respectively know (<em>k</em> and <em>r</em>) combined with public points (<em>kG</em> and <em>rG</em>), Alice and Bob can both independently calculate the same, shared secret point (<em>krG</em>). They never transmit this <em>krG</em> value to each other; it is calculated in private, but they will have the same point.</p>
+
+<p>Importantly, it is computationally infeasible to derive <em>r</em> and <em>k</em> from <em>kG</em> and <em>rG</em>. This secret point, <em>krG</em>, can then be used as part of a key-derivation function to create a key (Alice and Bob will get the same key) that can be used in a traditional symmetric encryption algorithm. This is called ECDH key agreement.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Variable</th>
+      <th>What it is</th>
+      <th>Privacy</th>
+      <th>Which party</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>$G$</td>
+      <td>A publicly agreed base point on the curve.</td>
+      <td>Public</td>
+      <td>Alice, Bob</td>
+    </tr>
+    <tr>
+      <td>$k$</td>
+      <td>Alice’s private key. A large random number.</td>
+      <td>Private</td>
+      <td>Alice</td>
+    </tr>
+    <tr>
+      <td>$kG$</td>
+      <td>Alice’s public key. A public point on the curve. Equivalent to $G$ self-added $k$ times. A shared public value.</td>
+      <td>Public</td>
+      <td>Alice (producer), Bob (consumer)</td>
+    </tr>
+    <tr>
+      <td>$r$</td>
+      <td>Bob’s temporary private key. A large, ephemeral random number.</td>
+      <td>Private</td>
+      <td>Bob</td>
+    </tr>
+    <tr>
+      <td>$rG$</td>
+      <td>Ephemeral public point on the curve. Equivalent to $G$ self-added $r$ times. A shared public value.</td>
+      <td>Public</td>
+      <td>Bob (producer), Alice (consumer)</td>
+    </tr>
+    <tr>
+      <td>$k(rG) = r(kG)$</td>
+      <td>The final, calculated, shared secret point. Bob and Alice can calculate this independently of each other without transmitting it. Their respective secret numbers ($r$ and $k$), multiplied by either $rG$ or $kG$, are the same.</td>
+      <td>Private</td>
+      <td>Alice, Bob (calculated independently / individually)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>As with all asymmetric cryptography, this relies on a mathematical operation that is easy to perform in one direction, but extraordinarily difficult to reverse. In this case, it is easy for Alice to calculate <em>kG</em>. But even if an attacker knows <em>G</em> and <em>kG</em>, it is totally infeasible to calculate <em>k</em>. Going from the secret number to a public point is easy to calculate. But going back from the public point to a secret number is extraordinarily hard. That’s the basic trick of elliptic curve cryptography.</p>]]></content><author><name>Martin Paul Eve</name></author><summary type="html"><![CDATA[How do you totally securely share a secret number with someone, utterly in public, without anybody else being able to get it?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://eve.gd/images/elliptic.png" /><media:content medium="image" url="https://eve.gd/images/elliptic.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Feed, Infection Control, Fluid Overload</title><link href="https://eve.gd/2026/08/17/feed-infection-control-fluid-overload/" rel="alternate" type="text/html" title="Feed, Infection Control, Fluid Overload" /><published>2026-08-17T00:00:00+01:00</published><updated>2026-08-17T00:00:00+01:00</updated><id>https://doi.org/10.59348/pahpe-g7w52</id><content type="html" xml:base="https://eve.gd/2026/08/17/feed-infection-control-fluid-overload/"><![CDATA[<p>Another personal post, on being in hospital and suffering. And so, after a substantial wait, the IV feeding for which I had been waiting started. The feed itself looks like the worst kind of science fiction matrix food goop that you can imagine. Of course, the advantage is that I don’t need to eat it. It’s going straight to source.</p>
 
 <h1 id="the-feed">The Feed</h1>
 <p>On day three, though, they still didn’t have the vitamin component of the feed up and running, though. The reason for this is that the pharmacy did not supply the safety sheet that has the full administration instructions. Yes, the pharmacy told the nurse on the phone how to administer it. However, the nurse, fearing future negligence or litigation claims, refused for his own legal safety to administer it to me.</p>
@@ -504,22 +567,4 @@ ForceType application/ld+json
 <ul>
   <li>Jones, Frances, <em>et al.</em>, ‘University of Nottingham Drops Five Publishing Deals’, Research Professional, 21 May 2026 <a href="https://www.researchprofessionalnews.com/rr-news-uk-universities-2026-5-university-of-nottingham-drops-five-publishing-deals/">https://www.researchprofessionalnews.com/rr-news-uk-universities-2026-5-university-of-nottingham-drops-five-publishing-deals/</a> [accessed 21 May 2026]</li>
   <li>Moore, Samuel A., Publishing Beyond the Market: Open Access, Care, and the Commons (University of Michigan Press, 2025)</li>
-</ul>]]></content><author><name>Martin Paul Eve</name></author><summary type="html"><![CDATA[Some days I look at the things I’ve done and think: when I am gone there will be no trace of me, and all that I have worked upon will over time turn to dust. This may well still be true, but there are other days, like today, when I feel pretty good about the world and the things that I am working to make within it.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://eve.gd/images/microphone.png" /><media:content medium="image" url="https://eve.gd/images/microphone.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Claude Code can consume, transmit, and compromise your .env files even if you tell it not to</title><link href="https://eve.gd/2026/04/19/claude-code-can-consume-transmit-and-compromise-your-env-files-even-if-you-tell-it-not-to/" rel="alternate" type="text/html" title="Claude Code can consume, transmit, and compromise your .env files even if you tell it not to" /><published>2026-04-19T00:00:00+01:00</published><updated>2026-04-19T00:00:00+01:00</updated><id>https://doi.org/10.59348/m47sp-w0777</id><content type="html" xml:base="https://eve.gd/2026/04/19/claude-code-can-consume-transmit-and-compromise-your-env-files-even-if-you-tell-it-not-to/"><![CDATA[<p>My colleague Ian discovered the other day that, alarmingly, even if you tell Claude code not ever to read your.env files, it may still do so and send the result back to its servers, thereby compromising your local development secrets. Ian is using Claude via cursor, but his AGENTS.md file specifically instructed Claude not to read this file. It did so anyway.</p>
-
-<p><img src="/images/ai.jpg" alt="An abstract image representing AI" style="width: 100%;" /></p>
-
-<p>The “12 Factor App” paradigm tells us that we must <a href="https://12factor.net/config">store configuration in the environment</a>. But when developing locally, this means that we need some way of bootstrapping the environment… and .env files are the most common way to do this. Whack your config in a .env file, then, just before the app loads, load the file into the container environment.</p>
-
-<p>This creates some serious security problems, of course. Every experienced developer has a gitignore file template that blocks the commit of .env files. But it’s simple, convenient, and works.</p>
-
-<p>The other thing about this paradigm though is that of course in an ideal world all of the configuration secrets used on a development machine would be sandboxed development credentials for external services. If you’re doing development work against an external API, you should not be using the production secret on your local development machine. But this is totally naive. Smaller, custom production APIs do not necessarily have or provide sandboxed test modes. Mocking such services locally is a huge drain on time, and one also cannot guarantee that one has properly mocked all the edge cases for testing. In short, it is highly possible that .env files in local development circumstances can contain live API keys and other sensitive data. Sure, they should not, but we do not live in an ideal world.</p>
-
-<p>Claude code, obviously, works by sending responses to and from their server, which runs inference on the context it is provided. If Claude reads the .env file, this will be transmitted back to Anthropic. This could then be incorporated into future training runs. And it could then be possible for a user to extract these data from the model in future. This could lead to credential compromise.</p>
-
-<p>There are many suggested ways of blocking Claude from accessing this file. I have heard suggestion of a .claudeignore file, but believe this is not implemented. Obviously, we have tried putting the ignore instruction in CLAUDE.md and AGENTS.md. Another colleague suggested that Linux or Mac file permissions could be set so that Claude simply could not access the .env file at all (though this could then create permissions problems for running the application in test mode; indeed, I would be worried about the complexity of the file access situation here and having to run Claude in a different user account space to isolate it, which would impose severe restrictions on the coder’s ability). There is an official “<a href="https://github.com/anthropics/claude-code/issues/4160">deny rules</a>” mechanism that one is apparently supposed to use, but Claude could circumvent this by writing a custom script or pipe chain.</p>
-
-<p>The way I will handle this in my setup is by using 1Password environments. This software lets you replace variables in a .env file with vault secrets. 1Password then mounts a virtual .env file, with the secrets, in the location you specify. This file is never actually written to disk but all requests to access the file trigger authorisation requests - so, in my setup, I will have to enter my YubiKey and touch the flashing light on it to confirm physical presence. For more, see the <a href="https://1password.com/blog/1password-environments-env-files-public-beta">1Password documentation on environments</a>.</p>
-
-<p>With this setup, there will be a separation of concerns. If Claude wants to run the debug server, then that application can be given permission to see the virtual .env file. Likewise, running tests could get permission from me to use secrets. However, if Claude is just scanning the directory for files and I see a popup asking to use the .env file, I will deny such permission. Certainly, there could still be confusion. What if Claude wants to launch the application and then the application requests permission for the file? I could become confused and give permission when I am actually giving it to a sub agent. However, this is the best I have come up with for now on a balance between security and practicality or comfort.</p>
-
-<p>I cannot tell whether we are being overly cautious or underly careful. However, my personal belief is that the guardrails employed by Claude here are not sufficient. And there should be a stronger set of mechanisms to deny access to sensitive files.</p>]]></content><author><name>Martin Paul Eve</name></author><summary type="html"><![CDATA[My colleague Ian discovered the other day that, alarmingly, even if you tell Claude code not ever to read your.env files, it may still do so and send the result back to its servers, thereby compromising your local development secrets. Ian is using Claude via cursor, but his AGENTS.md file specifically instructed Claude not to read this file. It did so anyway.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://eve.gd/images/ai.jpg" /><media:content medium="image" url="https://eve.gd/images/ai.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+</ul>]]></content><author><name>Martin Paul Eve</name></author><summary type="html"><![CDATA[Some days I look at the things I’ve done and think: when I am gone there will be no trace of me, and all that I have worked upon will over time turn to dust. This may well still be true, but there are other days, like today, when I feel pretty good about the world and the things that I am working to make within it.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://eve.gd/images/microphone.png" /><media:content medium="image" url="https://eve.gd/images/microphone.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

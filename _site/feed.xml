@@ -4,13 +4,98 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="https://eve.gd/feed.xml" />
 <link rel="alternate" type="text/html" href="https://eve.gd" />
-<updated>2026-08-18T14:57:40+01:00</updated>
+<updated>2026-08-19T09:59:12+01:00</updated>
 <id>https://eve.gd/</id>
 <author>
   <name>Martin Paul Eve</name>
   <uri>https://orcid.org/0000-0002-5589-8511</uri>
   <email>martin.eve@bbk.ac.uk</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[How can you securely share a secret number with someone, totally in public? Elliptic Curves]]></title>
+  <link rel="alternate" type="text/html" href="https://eve.gd/2026/08/19/how-can-you-securely-share-a-secret-number-with-someone-totally-in-public/" />
+  <id>https://eve.gd/2026/08/19/how-can-you-securely-share-a-secret-number-with-someone-totally-in-public</id>
+  
+  <doi>https://doi.org/10.59348/zx6pm-4nd50</doi>
+  
+  <published>Wednesday, 19 August 2026 15:55:58 +0000</published>
+  <updated>2026-08-19T00:00:00+01:00</updated>
+  <author>
+    <name></name>
+    <uri>https://orcid.org/0000-0002-5589-8511</uri>
+    
+  </author>
+  <content type="html"><![CDATA[
+    &lt;p&gt;How do you totally securely share a secret number with someone, utterly in public, without anybody else being able to get it?&lt;/p&gt;
+
+&lt;p&gt;This morning, for my &lt;em&gt;Dark Web&lt;/em&gt; book, I have been writing about elliptic curve cryptography and how it works, which solves this precise problem (following in the footsteps of other methods like RSA). It turns out that some mathematical curves (yes, wavy wiggly lines on a grid) have some weird mathematical properties that make this possible.&lt;/p&gt;
+
+&lt;p&gt;So, to use this system, we first have to pick a “curve” that has these properties. A number are known, with catchy names such as “Curve25519”. These curves have a hard discrete-logarithm problem associated with them (I won’t go into that here, though).&lt;/p&gt;
+
+&lt;p&gt;Anyway, we then take a publicly defined base point on the pre-defined curve, called &lt;em&gt;G&lt;/em&gt;. Alice then chooses a very large number, &lt;em&gt;k&lt;/em&gt;, to act as her private key (not shared/private). Next, this &lt;em&gt;G&lt;/em&gt; point is “added” to itself &lt;em&gt;k&lt;/em&gt; times (elliptic-curve addition is slightly different from normal addition). This gives us another point on the curve, called &lt;em&gt;kG&lt;/em&gt;. This is Alice’s public key (shared/public).&lt;/p&gt;
+
+&lt;p&gt;Then, Bob chooses his own random ephemeral secret number, &lt;em&gt;r&lt;/em&gt; (not shared/private). Bob then creates his own ephemeral public point on the curve, by adding &lt;em&gt;G&lt;/em&gt; to itself &lt;em&gt;r&lt;/em&gt; times (shared/public). So everyone knows &lt;em&gt;G&lt;/em&gt;, &lt;em&gt;kG&lt;/em&gt;, and &lt;em&gt;rG&lt;/em&gt;. Only Alice knows &lt;em&gt;k&lt;/em&gt; and only Bob knows &lt;em&gt;r&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The mathematical magic is that &lt;em&gt;k&lt;/em&gt;(&lt;em&gt;rG&lt;/em&gt;) = &lt;em&gt;r&lt;/em&gt;(&lt;em&gt;kG&lt;/em&gt;) = &lt;em&gt;krG&lt;/em&gt;. Hence, using information only they respectively know (&lt;em&gt;k&lt;/em&gt; and &lt;em&gt;r&lt;/em&gt;) combined with public points (&lt;em&gt;kG&lt;/em&gt; and &lt;em&gt;rG&lt;/em&gt;), Alice and Bob can both independently calculate the same, shared secret point (&lt;em&gt;krG&lt;/em&gt;). They never transmit this &lt;em&gt;krG&lt;/em&gt; value to each other; it is calculated in private, but they will have the same point.&lt;/p&gt;
+
+&lt;p&gt;Importantly, it is computationally infeasible to derive &lt;em&gt;r&lt;/em&gt; and &lt;em&gt;k&lt;/em&gt; from &lt;em&gt;kG&lt;/em&gt; and &lt;em&gt;rG&lt;/em&gt;. This secret point, &lt;em&gt;krG&lt;/em&gt;, can then be used as part of a key-derivation function to create a key (Alice and Bob will get the same key) that can be used in a traditional symmetric encryption algorithm. This is called ECDH key agreement.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Variable&lt;/th&gt;
+      &lt;th&gt;What it is&lt;/th&gt;
+      &lt;th&gt;Privacy&lt;/th&gt;
+      &lt;th&gt;Which party&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$G$&lt;/td&gt;
+      &lt;td&gt;A publicly agreed base point on the curve.&lt;/td&gt;
+      &lt;td&gt;Public&lt;/td&gt;
+      &lt;td&gt;Alice, Bob&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$k$&lt;/td&gt;
+      &lt;td&gt;Alice’s private key. A large random number.&lt;/td&gt;
+      &lt;td&gt;Private&lt;/td&gt;
+      &lt;td&gt;Alice&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$kG$&lt;/td&gt;
+      &lt;td&gt;Alice’s public key. A public point on the curve. Equivalent to $G$ self-added $k$ times. A shared public value.&lt;/td&gt;
+      &lt;td&gt;Public&lt;/td&gt;
+      &lt;td&gt;Alice (producer), Bob (consumer)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$r$&lt;/td&gt;
+      &lt;td&gt;Bob’s temporary private key. A large, ephemeral random number.&lt;/td&gt;
+      &lt;td&gt;Private&lt;/td&gt;
+      &lt;td&gt;Bob&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$rG$&lt;/td&gt;
+      &lt;td&gt;Ephemeral public point on the curve. Equivalent to $G$ self-added $r$ times. A shared public value.&lt;/td&gt;
+      &lt;td&gt;Public&lt;/td&gt;
+      &lt;td&gt;Bob (producer), Alice (consumer)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$k(rG) = r(kG)$&lt;/td&gt;
+      &lt;td&gt;The final, calculated, shared secret point. Bob and Alice can calculate this independently of each other without transmitting it. Their respective secret numbers ($r$ and $k$), multiplied by either $rG$ or $kG$, are the same.&lt;/td&gt;
+      &lt;td&gt;Private&lt;/td&gt;
+      &lt;td&gt;Alice, Bob (calculated independently / individually)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;As with all asymmetric cryptography, this relies on a mathematical operation that is easy to perform in one direction, but extraordinarily difficult to reverse. In this case, it is easy for Alice to calculate &lt;em&gt;kG&lt;/em&gt;. But even if an attacker knows &lt;em&gt;G&lt;/em&gt; and &lt;em&gt;kG&lt;/em&gt;, it is totally infeasible to calculate &lt;em&gt;k&lt;/em&gt;. Going from the secret number to a public point is easy to calculate. But going back from the public point to a secret number is extraordinarily hard. That’s the basic trick of elliptic curve cryptography.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/08/19/how-can-you-securely-share-a-secret-number-with-someone-totally-in-public/&quot;&gt;How can you securely share a secret number with someone, totally in public? Elliptic Curves&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;eve.gd: Martin Paul Eve&lt;/a&gt; on August 19, 2026.&lt;/p&gt;]]>
+  </content>
+</entry>
 
 
 <entry>
@@ -1200,43 +1285,6 @@ session       required   pam_env.so readenv=1 envfile=/etc/default/locale user_r
 &lt;p&gt;Anyway, this post came to me in a dream last night as I realised that it was the tenth anniversary of having a stroke.&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/01/23/its-been-ten-years/&quot;&gt;It&apos;s been ten years...&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;eve.gd: Martin Paul Eve&lt;/a&gt; on January 23, 2026.&lt;/p&gt;]]>
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Some example academic book proposal forms in case they help]]></title>
-  <link rel="alternate" type="text/html" href="https://eve.gd/2026/01/16/some-example-academic-book-proposal-forms-in-case-they-help/" />
-  <id>https://eve.gd/2026/01/16/some-example-academic-book-proposal-forms-in-case-they-help</id>
-  
-  <doi>https://doi.org/10.59348/wxvf4-a6040</doi>
-  
-  <published>Friday, 16 January 2026 15:55:58 +0000</published>
-  <updated>2026-01-16T00:00:00+00:00</updated>
-  <author>
-    <name></name>
-    <uri>https://orcid.org/0000-0002-5589-8511</uri>
-    
-  </author>
-  <content type="html"><![CDATA[
-    &lt;p&gt;A pivotal moment in my academic career, or at least one I remember clearly, was when a very senior professor in the US sent me his book proposal for an academic book/monograph on the author Thomas Pynchon. The other thing he included was a crossed off list of all the presses he had courted with the proposal and with whom he had not succeeded. This cemented in my mind the fact that if even the top profs can be given rejections, nobody else should be resentful of them or consider them problematic. It can just be part of the process.&lt;/p&gt;
-
-&lt;p&gt;The other part of the process though is writing a good book proposal and there is nobody who will teach you how to do this. It’s not often part of training in doctoral spaces and most people feel their way through this by seeking behind closed doors the proposals of other academics. There are of course some books on writing a book proposal, but I thought it might be helpful if I shared some of the book proposals that I have written over the years and that have succeeded. Some of these books ended up being very different from the published versions, but I don’t think that matters and actually shows, as &lt;a href=&quot;https://bsky.app/profile/lisalibrarian.bsky.social/post/3mcfrgigv4k2k&quot;&gt;Lisa Janicke Hinchliffe suggested to me&lt;/a&gt;, that it’s okay for organic change to take place while you write a book. I hope these might help. Dates shown are when I wrote/sent the proposal, to the best of my recollection. Not all my published books are listed here, as some were the results of collaborations and so the proposals are not wholly owned by me.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;em&gt;Theses on the Metaphors of Digital-Textual History&lt;/em&gt; proposal (Stanford University Press, 2020). Pitched to SUP. &lt;a href=&quot;https://doi.org/10.17613/7jgs1-ge228&quot;&gt;Download at KC Works&lt;/a&gt; or &lt;a href=&quot;/book_proposals/Proposal for Stanford University Press for Theses on the Metaphors of Digital-Textual History.pdf&quot;&gt;download direct&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;The Digital Humanities and Literary Studies&lt;/em&gt; proposal (Oxford University Press, 2018). Pitched to OUP. &lt;a href=&quot;https://doi.org/10.17613/e16j1-5ae64&quot;&gt;Download at KC Works&lt;/a&gt; or &lt;a href=&quot;/book_proposals/Proposal for Oxford University Press for The Digital Humanities and Literary Studies.pdf&quot;&gt;download direct&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Warez&lt;/em&gt; proposal (punctum books, 2017). Pitched to punctum books. &lt;a href=&quot;https://doi.org/10.17613/5heb2-mpz16&quot;&gt;Download at KC Works&lt;/a&gt; or &lt;a href=&quot;/book_proposals/Proposal for punctum books for Warez 2018.pdf&quot;&gt;download direct&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Close Reading with Computers&lt;/em&gt; proposal (Stanford UP, 2017). Pitched to Stanford University Press. &lt;a href=&quot;https://doi.org/10.17613/xzmmk-30905&quot;&gt;Download at KC Works&lt;/a&gt; or &lt;a href=&quot;/book_proposals/Proposal for Stanford University Press for Close Reading with Computers 2017.zip&quot;&gt;download direct&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Literature Against Criticism&lt;/em&gt; proposal (Open Book Publishers, 2016?). Pitched straight to Open Book Publishers. &lt;a href=&quot;https://doi.org/10.17613/hqv3m-t4d76&quot;&gt;Download at KC Works&lt;/a&gt; or &lt;a href=&quot;/book_proposals/Proposal for Open Book Publishers for Literature Against Criticism 2016.pdf&quot;&gt;download direct&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Password&lt;/em&gt; (Bloomsbury, 2016). For Bloomsbury’s “Object Lessons” series. &lt;a href=&quot;https://doi.org/10.17613/55mqa-1yj22&quot;&gt;Download at KC Works&lt;/a&gt; or &lt;a href=&quot;/book_proposals/Proposal for Bloomsbury for Password 2014.pdf&quot;&gt;download direct&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Open Access and the Humanities&lt;/em&gt; proposal (Cambridge University Press, 2014). Pitched straight to Cambridge UP. &lt;a href=&quot;https://doi.org/10.17613/gt9bv-g6k21&quot;&gt;Download at KC Works&lt;/a&gt; or &lt;a href=&quot;/book_proposals/Proposal for Cambridge University Press for Open Access and the Humanities 2014.pdf&quot;&gt;download direct&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Pynchon and Philosophy&lt;/em&gt; proposal (Palgrave, 2013). My first book, for Palgrave. Download at &lt;a href=&quot;https://doi.org/10.17613/4b6b5-2b682&quot;&gt;KC Works&lt;/a&gt; or &lt;a href=&quot;/book_proposals/Proposal for Palgrave for Pynchon and Philosophy 2013.zip&quot;&gt;download direct&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I hope, as I say, that this might help someone.&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://eve.gd/2026/01/16/some-example-academic-book-proposal-forms-in-case-they-help/&quot;&gt;Some example academic book proposal forms in case they help&lt;/a&gt; was originally published by Martin Paul Eve at &lt;a href=&quot;https://eve.gd&quot;&gt;eve.gd: Martin Paul Eve&lt;/a&gt; on January 16, 2026.&lt;/p&gt;]]>
   </content>
 </entry>
 
