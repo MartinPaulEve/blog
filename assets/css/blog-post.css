@@ -866,6 +866,34 @@ button.share-btn {
 }
 
 @media print {
+    /* --- Page geometry and running page numbers. Regular pages get a
+       roomier, equal top/bottom margin with the page number top-right; the
+       cover keeps its tight frame and no number. The count starts after the
+       cover (the page counter is zeroed on .print-cover below). --- */
+    @page {
+        margin: 2.2cm 1cm;
+
+        @top-right {
+            content: counter(page);
+            font-family: 'Fraunces', Georgia, 'Times New Roman', serif;
+            font-size: 9.5pt;
+            color: #000;
+        }
+    }
+
+    @page :first {
+        margin: 1cm;
+        /* Zero the counter on the cover so the first text page is "1".
+           NB: this @page placement is the only page-counter manipulation
+           Chromium honours — counter-reset/counter-set on content elements
+           (e.g. .print-cover) are silently ignored. */
+        counter-reset: page 0;
+
+        @top-right {
+            content: none;
+        }
+    }
+
     /* --- Title page: full first page, then the article proper. The title,
        author and date live here, so their on-screen duplicates in the header
        are suppressed below (the "Cite as" line stays at the top of page 2). --- */
