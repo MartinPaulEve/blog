@@ -63,3 +63,27 @@ class PdfMetadataTest < Minitest::Test
     end
   end
 end
+
+# The render cache must be sensitive to the print stylesheet, not just the
+# page HTML: a print-CSS-only change alters the rendered PDF, so it has to
+# produce a different content hash or cached PDFs go silently stale.
+class PdfCacheKeyTest < Minitest::Test
+  HTML = "<html><body><p>post</p></body></html>"
+
+  def test_css_change_changes_the_hash
+    refute_equal PdfPages.content_hash(HTML, "a { color: red }"),
+                 PdfPages.content_hash(HTML, "a { color: blue }")
+  end
+
+  def test_same_html_and_css_hash_equal
+    assert_equal PdfPages.content_hash(HTML, "a { color: red }"),
+                 PdfPages.content_hash(HTML, "a { color: red }")
+  end
+
+  def test_build_noise_in_html_still_normalized_away
+    noisy = HTML.sub("<body>", "<body><link href=\"/assets/css/blog-post.css?v=123\">")
+    stable = HTML.sub("<body>", "<body><link href=\"/assets/css/blog-post.css?v=456\">")
+
+    assert_equal PdfPages.content_hash(noisy, "css"), PdfPages.content_hash(stable, "css")
+  end
+end

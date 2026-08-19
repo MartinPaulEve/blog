@@ -49,8 +49,10 @@ module PdfPages
         .gsub(%r{<aside class="post-sidebar">.*?</aside>}m, "")
   end
 
-  def self.content_hash(html)
-    Digest::SHA256.hexdigest(normalize_html(html))
+  # The stylesheets take part in the printed layout, so they join the page
+  # HTML in the cache key: a print-CSS-only change re-renders every PDF.
+  def self.content_hash(html, css = "")
+    Digest::SHA256.hexdigest(normalize_html(html) + css.to_s)
   end
 
   # exiftool tag assignments carrying a page's bibliographic data into the
@@ -104,7 +106,7 @@ module PdfPages
       pages.each do |page|
         pdf = File.join(@cache_dir, "#{page[:slug]}.pdf")
         hash_file = File.join(@cache_dir, "#{page[:slug]}.hash")
-        hash = PdfPages.content_hash(page[:html])
+        hash = PdfPages.content_hash(page[:html], page[:css].to_s)
 
         if fresh?(pdf, hash_file, hash)
           stats[:cached] += 1
@@ -199,13 +201,19 @@ module Jekyll
       end
     end
 
+    STYLESHEETS = %w[assets/css/blog-post.css assets/css/styles.css].freeze
+
     def self.collect_pages(site)
       base_url = site.config["url"].to_s
+      css = STYLESHEETS.map do |sheet|
+        path = File.join(site.dest, sheet)
+        File.exist?(path) ? File.read(path) : ""
+      end.join
       PdfPagesScope.documents(site).map do |doc|
         path = File.join(site.dest, doc.url, "index.html")
         next nil unless File.exist?(path)
 
-        { slug: PdfPages.slug(doc.url), url: doc.url, html: File.read(path),
+        { slug: PdfPages.slug(doc.url), url: doc.url, html: File.read(path), css: css,
           meta: { title: doc.data["title"], date: doc.data["date"],
                   doi: doc.data["doi"], url: base_url + doc.url } }
       end.compact
