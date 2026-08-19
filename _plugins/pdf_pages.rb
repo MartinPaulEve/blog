@@ -41,12 +41,14 @@ module PdfPages
 
   # Cache key for a rendered page, insensitive to build noise that cannot
   # affect the printed output: the ?v= asset cache-busters change every build,
-  # and the related-posts sidebar changes whenever any post is published (print
-  # CSS hides the sidebar).
+  # the related-posts sidebar changes whenever any post is published (print
+  # CSS hides the sidebar), and the on-screen "Download PDF" line sits in the
+  # header, which print CSS hides entirely.
   def self.normalize_html(html)
     html.to_s
         .gsub(/\?v=\d+/, "")
         .gsub(%r{<aside class="post-sidebar">.*?</aside>}m, "")
+        .gsub(%r{<p class="post-description post-pdf">.*?</p>}m, "")
   end
 
   # The stylesheets take part in the printed layout, so they join the page

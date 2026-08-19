@@ -86,4 +86,14 @@ class PdfCacheKeyTest < Minitest::Test
 
     assert_equal PdfPages.content_hash(noisy, "css"), PdfPages.content_hash(stable, "css")
   end
+
+  def test_screen_only_pdf_link_does_not_affect_the_hash
+    # The on-screen "Download PDF" line lives in the post header, which is
+    # display:none in print — it cannot change the rendered PDF, so it must
+    # not invalidate the cache.
+    with_link = HTML.sub("<p>post</p>",
+                         '<p class="post-description post-pdf"><a href="/PDF/x.pdf">PDF</a></p><p>post</p>')
+
+    assert_equal PdfPages.content_hash(with_link, "css"), PdfPages.content_hash(HTML, "css")
+  end
 end

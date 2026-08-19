@@ -128,6 +128,15 @@
     margin-bottom: 0.35rem;
 }
 
+.post-description.post-pdf {
+    font-size: 0.95rem;
+    margin: 1rem 0 0;
+}
+
+.post-description.post-pdf .fa-file-pdf {
+    margin-right: 0.4rem;
+}
+
 .post-author {
     display: flex;
     align-items: center;
