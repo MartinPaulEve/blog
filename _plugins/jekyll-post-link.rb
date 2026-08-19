@@ -44,9 +44,9 @@ module Jekyll
       def post_slug(other)
         path = other.name.split("/")[0...-1].join("/")
         if path.nil? || path == ""
-          other.slug
+          other.data["slug"]
         else
-          path + '/' + other.slug
+          path + '/' + other.data["slug"]
         end
       end
     end
@@ -66,8 +66,8 @@ module Jekyll
 
         site.posts.docs.each do |p|
                   
-          if p.slug == @post.slug
-            return "<a href=\"#{ p.doi }\">#{ p.title }</a>"
+          if p.data["slug"] == @post.slug
+            return "<a href=\"#{ p.data["doi"] }\">#{ p.data["title"] }</a>"
           end
         end
 
