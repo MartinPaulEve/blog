@@ -920,8 +920,11 @@ button.share-btn {
         font-variant: small-caps;
         letter-spacing: 0.14em;
         font-size: 11pt;
+        /* A roomy line box and a wide gap above the rule: with a tight box,
+           some PDF viewers clip the glyphs at the padding edge. */
+        line-height: 1.6;
         margin: 0 0 6pt;
-        padding-bottom: 6pt;
+        padding-bottom: 12pt;
         border-bottom: 1px solid #000;
     }
 
