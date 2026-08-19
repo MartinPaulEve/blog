@@ -913,6 +913,12 @@ button.share-btn {
     .print-cover-role {
         font-size: 10pt;
         color: #333;
+        margin: 0 0 2pt;
+    }
+
+    .print-cover-affiliation {
+        font-size: 10pt;
+        color: #333;
         margin: 0 0 12pt;
     }
 
@@ -949,9 +955,10 @@ button.share-btn {
         margin: 0 0 2pt;
     }
 
-    /* Title, author card and feature image are on the cover now. */
-    .post-header .post-title,
-    .post-header .post-author,
+    /* The whole header (title, cite-as, related-post links, author card) and
+       the feature image are reproduced on the cover, so the article proper
+       starts clean on page 2. */
+    .post-header,
     .post-feature {
         display: none !important;
     }
@@ -975,28 +982,6 @@ button.share-btn {
     .blog-post,
     .post-content {
         background: #fff !important;
-        color: #000 !important;
-    }
-
-    /* Drop the dramatic black band + diagonal taper: print the header as plain
-       black-on-white text, and remove the big taper gap before the body. */
-    .post-header--hero {
-        background: none !important;
-        color: #000 !important;
-        clip-path: none !important;
-        border-bottom: 1px solid #000;
-        padding: 2rem 0 0.75rem !important;
-        margin: 0 !important;
-    }
-
-    .post-header--hero::before {
-        display: none !important;
-    }
-
-    .post-header--hero .post-title,
-    .post-header--hero .post-description,
-    .post-header--hero .post-description strong,
-    .post-header--hero a {
         color: #000 !important;
     }
 

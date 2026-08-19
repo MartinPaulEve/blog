@@ -10,13 +10,18 @@
         <h1 class="print-cover-title">{{ page.title }}</h1>
         <p class="print-cover-author">Martin Paul Eve</p>
         <p class="print-cover-role">Professor of Literature, Technology and Publishing</p>
+        <p class="print-cover-affiliation">Birkbeck, University of London</p>
         {% if page.date %}<p class="print-cover-date">{{ page.date | date: "%-d %B %Y" }}</p>{% endif %}
         {% if page.image.feature %}<img class="print-cover-image" src="/images/{{ page.image.feature }}" alt="{{ page.image.title | default: page.title | escape }}">
         {% if page.image.credit %}<p class="print-cover-credit">Image: {{ page.image.title | default: page.image.credit }} ({{ page.image.credit }})</p>{% endif %}{% endif %}
     </div>
     <div class="print-cover-imprint">
+        {% if page.layout == "post" %}
+        <p class="print-cover-citation"><strong>Cite as:</strong> Martin Paul Eve, "{{ page.title }}", <i>eve.gd: Martin Paul Eve</i>, {{ page.date | date: "%B %d, %Y" }}, <a href="{{ page.doi }}">{{ page.doi }}</a>.</p>
+        {% if page.backlink %}<p>This post <strong>follows-on from</strong>: {% for link in page.backlink %}&ldquo;{% post_link {{link}} %}&rdquo;{% if forloop.last != true %},{% endif %}{% endfor %}</p>{% endif %}
+        {% if page.forwardlink %}<p>This post has (a) <strong>follow-up</strong> post(s): {% for link in page.forwardlink %}&ldquo;{% post_link {{link}} %}&rdquo;{% if forloop.last != true %},{% endif %}{% endfor %}</p>{% endif %}
+        {% endif %}
         {% if page.doi %}<p>DOI: <a href="{{ page.doi }}">{{ page.doi }}</a></p>{% endif %}
         <p>Available at: {{ site.url }}{{ page.url }}</p>
-        <p>PDF edition of the version of record published on the web.</p>
     </div>
 </div>
