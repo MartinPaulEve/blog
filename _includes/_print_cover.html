@@ -22,6 +22,6 @@
         {% if page.forwardlink %}<p>This post has (a) <strong>follow-up</strong> post(s): {% for link in page.forwardlink %}&ldquo;{% post_link {{link}} %}&rdquo;{% if forloop.last != true %},{% endif %}{% endfor %}</p>{% endif %}
         {% endif %}
         {% if page.doi %}<p>DOI: <a href="{{ page.doi }}">{{ page.doi }}</a></p>{% endif %}
-        <p>Available at: {{ site.url }}{{ page.url }}</p>
+        <p>Available at: <a href="{{ site.url }}{{ page.url }}">{{ site.url }}{{ page.url }}</a></p>
     </div>
 </div>
