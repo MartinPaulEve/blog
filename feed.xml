@@ -28,9 +28,9 @@ sitemap: false
   {% if post.doi %}
   <doi>{{ post.doi }}</doi>
   {% endif %}
-  {% if post.modified %}<updated>{{ post.modified | to_xmlschema }}T00:00:00-00:00</updated>
-  <published>{{ post.date | date: "%A, %-d %B %Y" }} 15:55:58 +0000</published>
-  {% else %}<published>{{ post.date | date: "%A, %-d %B %Y" }} 15:55:58 +0000</published>
+  {% if post.modified %}<updated>{{ post.modified | date_to_xmlschema }}</updated>
+  <published>{{ post.date | date_to_xmlschema }}</published>
+  {% else %}<published>{{ post.date | date_to_xmlschema }}</published>
   <updated>{{ post.date | date_to_xmlschema }}</updated>{% endif %}
   <author>
     <name>{{ author.name }}</name>

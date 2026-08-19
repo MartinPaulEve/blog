@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="https://eve.gd/feed.xml" />
 <link rel="alternate" type="text/html" href="https://eve.gd" />
-<updated>2026-08-19T10:02:01+01:00</updated>
+<updated>2026-08-19T10:37:18+01:00</updated>
 <id>https://eve.gd/</id>
 <author>
   <name>Martin Paul Eve</name>
@@ -20,7 +20,7 @@
   
   <doi>https://doi.org/10.59348/zx6pm-4nd50</doi>
   
-  <published>Wednesday, 19 August 2026 15:55:58 +0000</published>
+  <published>2026-08-19T00:00:00+01:00</published>
   <updated>2026-08-19T00:00:00+01:00</updated>
   <author>
     <name></name>
@@ -105,7 +105,7 @@
   
   <doi>https://doi.org/10.59348/pahpe-g7w52</doi>
   
-  <published>Monday, 17 August 2026 15:55:58 +0000</published>
+  <published>2026-08-17T00:00:00+01:00</published>
   <updated>2026-08-17T00:00:00+01:00</updated>
   <author>
     <name></name>
@@ -180,7 +180,7 @@
   
   <doi>https://doi.org/10.59348/kpp9c-4kp22</doi>
   
-  <published>Tuesday, 11 August 2026 15:55:58 +0000</published>
+  <published>2026-08-11T00:00:00+01:00</published>
   <updated>2026-08-11T00:00:00+01:00</updated>
   <author>
     <name></name>
@@ -247,7 +247,7 @@
   
   <doi>https://doi.org/10.59348/qygeq-6n059</doi>
   
-  <published>Sunday, 2 August 2026 15:55:58 +0000</published>
+  <published>2026-08-02T00:00:00+01:00</published>
   <updated>2026-08-02T00:00:00+01:00</updated>
   <author>
     <name></name>
@@ -285,7 +285,7 @@
   
   <doi>https://doi.org/10.59348/r3x69-k5d70</doi>
   
-  <published>Friday, 10 July 2026 15:55:58 +0000</published>
+  <published>2026-07-10T00:00:00+01:00</published>
   <updated>2026-07-10T00:00:00+01:00</updated>
   <author>
     <name></name>
@@ -327,7 +327,7 @@
   
   <doi>https://doi.org/10.59348/2zdfp-egq38</doi>
   
-  <published>Saturday, 27 June 2026 15:55:58 +0000</published>
+  <published>2026-06-27T00:00:00+01:00</published>
   <updated>2026-06-27T00:00:00+01:00</updated>
   <author>
     <name></name>
@@ -525,7 +525,7 @@ ForceType application/ld+json
   
   <doi>https://doi.org/10.59348/vrt01-f3b49</doi>
   
-  <published>Tuesday, 23 June 2026 15:55:58 +0000</published>
+  <published>2026-06-23T00:00:00+01:00</published>
   <updated>2026-06-23T00:00:00+01:00</updated>
   <author>
     <name></name>
@@ -692,7 +692,7 @@ ForceType application/ld+json
   
   <doi>https://doi.org/10.59348/pyncb-wyx70</doi>
   
-  <published>Thursday, 4 June 2026 15:55:58 +0000</published>
+  <published>2026-06-04T00:00:00+01:00</published>
   <updated>2026-06-04T00:00:00+01:00</updated>
   <author>
     <name></name>
@@ -730,7 +730,7 @@ ForceType application/ld+json
   
   <doi>https://doi.org/10.59348/wf4fq-8pn69</doi>
   
-  <published>Wednesday, 3 June 2026 15:55:58 +0000</published>
+  <published>2026-06-03T00:00:00+01:00</published>
   <updated>2026-06-03T00:00:00+01:00</updated>
   <author>
     <name></name>
@@ -766,7 +766,7 @@ ForceType application/ld+json
   
   <doi>https://doi.org/10.59348/2thwp-wm553</doi>
   
-  <published>Thursday, 21 May 2026 15:55:58 +0000</published>
+  <published>2026-05-21T00:00:00+01:00</published>
   <updated>2026-05-21T00:00:00+01:00</updated>
   <author>
     <name></name>
@@ -809,7 +809,7 @@ ForceType application/ld+json
   
   <doi>https://doi.org/10.59348/6cr4z-4ct43</doi>
   
-  <published>Sunday, 19 April 2026 15:55:58 +0000</published>
+  <published>2026-04-19T00:00:00+01:00</published>
   <updated>2026-04-19T00:00:00+01:00</updated>
   <author>
     <name></name>
@@ -849,7 +849,7 @@ ForceType application/ld+json
   
   <doi>https://doi.org/10.59348/m47sp-w0777</doi>
   
-  <published>Sunday, 19 April 2026 15:55:58 +0000</published>
+  <published>2026-04-19T00:00:00+01:00</published>
   <updated>2026-04-19T00:00:00+01:00</updated>
   <author>
     <name></name>
@@ -889,7 +889,7 @@ ForceType application/ld+json
   
   <doi>https://doi.org/10.59348/1mp5y-ae341</doi>
   
-  <published>Friday, 17 April 2026 15:55:58 +0000</published>
+  <published>2026-04-17T00:00:00+01:00</published>
   <updated>2026-04-17T00:00:00+01:00</updated>
   <author>
     <name></name>
@@ -931,7 +931,7 @@ ForceType application/ld+json
   
   <doi>https://doi.org/10.59348/bn9z8-ehk76</doi>
   
-  <published>Wednesday, 25 March 2026 15:55:58 +0000</published>
+  <published>2026-03-25T00:00:00+00:00</published>
   <updated>2026-03-25T00:00:00+00:00</updated>
   <author>
     <name></name>
@@ -965,7 +965,7 @@ systemctl --user restart wireplumber pipewire pipewire-pulse
   
   <doi>https://doi.org/10.59348/jc78r-7cw74</doi>
   
-  <published>Monday, 23 March 2026 15:55:58 +0000</published>
+  <published>2026-03-23T00:00:00+00:00</published>
   <updated>2026-03-23T00:00:00+00:00</updated>
   <author>
     <name></name>
@@ -1008,7 +1008,7 @@ systemctl --user restart wireplumber pipewire pipewire-pulse
   
   <doi>https://doi.org/10.59348/ab70g-tcs44</doi>
   
-  <published>Saturday, 21 March 2026 15:55:58 +0000</published>
+  <published>2026-03-21T00:00:00+00:00</published>
   <updated>2026-03-21T00:00:00+00:00</updated>
   <author>
     <name></name>
@@ -1122,7 +1122,7 @@ session       required   pam_env.so readenv=1 envfile=/etc/default/locale user_r
   
   <doi>https://doi.org/10.59348/fkrfx-63y63</doi>
   
-  <published>Friday, 20 March 2026 15:55:58 +0000</published>
+  <published>2026-03-20T00:00:00+00:00</published>
   <updated>2026-03-20T00:00:00+00:00</updated>
   <author>
     <name></name>
@@ -1174,7 +1174,7 @@ session       required   pam_env.so readenv=1 envfile=/etc/default/locale user_r
   
   <doi>https://doi.org/10.59348/d2tda-w5c07</doi>
   
-  <published>Sunday, 22 February 2026 15:55:58 +0000</published>
+  <published>2026-02-22T00:00:00+00:00</published>
   <updated>2026-02-22T00:00:00+00:00</updated>
   <author>
     <name></name>
@@ -1212,7 +1212,7 @@ session       required   pam_env.so readenv=1 envfile=/etc/default/locale user_r
   
   <doi>https://doi.org/10.59348/bs23t-k8352</doi>
   
-  <published>Sunday, 25 January 2026 15:55:58 +0000</published>
+  <published>2026-01-25T00:00:00+00:00</published>
   <updated>2026-01-25T00:00:00+00:00</updated>
   <author>
     <name></name>
@@ -1248,7 +1248,7 @@ session       required   pam_env.so readenv=1 envfile=/etc/default/locale user_r
   
   <doi>https://doi.org/10.59348/xfxqa-sx117</doi>
   
-  <published>Friday, 23 January 2026 15:55:58 +0000</published>
+  <published>2026-01-23T00:00:00+00:00</published>
   <updated>2026-01-23T00:00:00+00:00</updated>
   <author>
     <name></name>
