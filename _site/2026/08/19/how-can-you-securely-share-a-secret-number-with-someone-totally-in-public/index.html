@@ -24,7 +24,7 @@
 <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
 <link rel="stylesheet" href="/assets/fontawesome/css/v4-shims.min.css">
 <link id="hljs-theme" rel="stylesheet" href="/assets/highlightjs/styles/atom-one-light.min.css">
-<link rel="stylesheet" href="/assets/css/styles.css?v=1787129952">
+<link rel="stylesheet" href="/assets/css/styles.css?v=1787130121">
 <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
 <link rel="icon" type="image/png" href="/images/favicon.png">
 <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
@@ -140,7 +140,7 @@
 
 <link rel="site.standard.publication" href="at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.publication/3mq4tnwmt3w2i" />
 
-    <link rel="stylesheet" href="/assets/css/blog-post.css?v=1787129952">
+    <link rel="stylesheet" href="/assets/css/blog-post.css?v=1787130121">
 
     
     <meta name="citation_author" content="Eve, Martin Paul">
@@ -256,38 +256,38 @@
   </thead>
   <tbody>
     <tr>
-      <td>$G$</td>
+      <td><em>G</em></td>
       <td>A publicly agreed base point on the curve.</td>
       <td>Public</td>
       <td>Alice, Bob</td>
     </tr>
     <tr>
-      <td>$k$</td>
+      <td><em>k</em></td>
       <td>Alice’s private key. A large random number.</td>
       <td>Private</td>
       <td>Alice</td>
     </tr>
     <tr>
-      <td>$kG$</td>
-      <td>Alice’s public key. A public point on the curve. Equivalent to $G$ self-added $k$ times. A shared public value.</td>
+      <td><em>kG</em></td>
+      <td>Alice’s public key. A public point on the curve. Equivalent to <em>G</em> self-added <em>k</em> times. A shared public value.</td>
       <td>Public</td>
       <td>Alice (producer), Bob (consumer)</td>
     </tr>
     <tr>
-      <td>$r$</td>
+      <td><em>r</em></td>
       <td>Bob’s temporary private key. A large, ephemeral random number.</td>
       <td>Private</td>
       <td>Bob</td>
     </tr>
     <tr>
-      <td>$rG$</td>
-      <td>Ephemeral public point on the curve. Equivalent to $G$ self-added $r$ times. A shared public value.</td>
+      <td><em>rG</em></td>
+      <td>Ephemeral public point on the curve. Equivalent to <em>G</em> self-added <em>r</em> times. A shared public value.</td>
       <td>Public</td>
       <td>Bob (producer), Alice (consumer)</td>
     </tr>
     <tr>
-      <td>$k(rG) = r(kG)$</td>
-      <td>The final, calculated, shared secret point. Bob and Alice can calculate this independently of each other without transmitting it. Their respective secret numbers ($r$ and $k$), multiplied by either $rG$ or $kG$, are the same.</td>
+      <td><em>k(rG) = r(kG)</em></td>
+      <td>The final, calculated, shared secret point. Bob and Alice can calculate this independently of each other without transmitting it. Their respective secret numbers (<em>r</em> and <em>k</em>), multiplied by either <em>rG</em> or <em>kG</em>, are the same.</td>
       <td>Private</td>
       <td>Alice, Bob (calculated independently / individually)</td>
     </tr>

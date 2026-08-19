@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="https://eve.gd/feed.xml" />
 <link rel="alternate" type="text/html" href="https://eve.gd" />
-<updated>2026-08-19T09:59:12+01:00</updated>
+<updated>2026-08-19T10:02:01+01:00</updated>
 <id>https://eve.gd/</id>
 <author>
   <name>Martin Paul Eve</name>
@@ -52,38 +52,38 @@
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td&gt;$G$&lt;/td&gt;
+      &lt;td&gt;&lt;em&gt;G&lt;/em&gt;&lt;/td&gt;
       &lt;td&gt;A publicly agreed base point on the curve.&lt;/td&gt;
       &lt;td&gt;Public&lt;/td&gt;
       &lt;td&gt;Alice, Bob&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;$k$&lt;/td&gt;
+      &lt;td&gt;&lt;em&gt;k&lt;/em&gt;&lt;/td&gt;
       &lt;td&gt;Alice’s private key. A large random number.&lt;/td&gt;
       &lt;td&gt;Private&lt;/td&gt;
       &lt;td&gt;Alice&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;$kG$&lt;/td&gt;
-      &lt;td&gt;Alice’s public key. A public point on the curve. Equivalent to $G$ self-added $k$ times. A shared public value.&lt;/td&gt;
+      &lt;td&gt;&lt;em&gt;kG&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;Alice’s public key. A public point on the curve. Equivalent to &lt;em&gt;G&lt;/em&gt; self-added &lt;em&gt;k&lt;/em&gt; times. A shared public value.&lt;/td&gt;
       &lt;td&gt;Public&lt;/td&gt;
       &lt;td&gt;Alice (producer), Bob (consumer)&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;$r$&lt;/td&gt;
+      &lt;td&gt;&lt;em&gt;r&lt;/em&gt;&lt;/td&gt;
       &lt;td&gt;Bob’s temporary private key. A large, ephemeral random number.&lt;/td&gt;
       &lt;td&gt;Private&lt;/td&gt;
       &lt;td&gt;Bob&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;$rG$&lt;/td&gt;
-      &lt;td&gt;Ephemeral public point on the curve. Equivalent to $G$ self-added $r$ times. A shared public value.&lt;/td&gt;
+      &lt;td&gt;&lt;em&gt;rG&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;Ephemeral public point on the curve. Equivalent to &lt;em&gt;G&lt;/em&gt; self-added &lt;em&gt;r&lt;/em&gt; times. A shared public value.&lt;/td&gt;
       &lt;td&gt;Public&lt;/td&gt;
       &lt;td&gt;Bob (producer), Alice (consumer)&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;$k(rG) = r(kG)$&lt;/td&gt;
-      &lt;td&gt;The final, calculated, shared secret point. Bob and Alice can calculate this independently of each other without transmitting it. Their respective secret numbers ($r$ and $k$), multiplied by either $rG$ or $kG$, are the same.&lt;/td&gt;
+      &lt;td&gt;&lt;em&gt;k(rG) = r(kG)&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;The final, calculated, shared secret point. Bob and Alice can calculate this independently of each other without transmitting it. Their respective secret numbers (&lt;em&gt;r&lt;/em&gt; and &lt;em&gt;k&lt;/em&gt;), multiplied by either &lt;em&gt;rG&lt;/em&gt; or &lt;em&gt;kG&lt;/em&gt;, are the same.&lt;/td&gt;
       &lt;td&gt;Private&lt;/td&gt;
       &lt;td&gt;Alice, Bob (calculated independently / individually)&lt;/td&gt;
     &lt;/tr&gt;
