@@ -1,5 +1,4 @@
 ---
-alias: /2015/01/15/metrics-in-the-humanities
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/03/02/object-thinking-systems-description-languages-and-the-future-of-the-book
 categories:
 - Open Access
