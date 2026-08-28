@@ -213,6 +213,6 @@ Say you want to encourage people to move away from more traditional publishing s
 
 Or you exist chaotically, allowing a mixture of these types of descriptive format. It is perfectly possible to remain in a state of ontological ambiguity here and to use a repository for multiple purposes. The benefit in such a case is that people from both walks, the radical (publish-in-repo) and the more conservative (publish-elsewhere-with-publisher-and-deposit), can use the repository and become accustomed to its operation. It can serve multiple use cases. But the sacrifice you make in that case is the substantial loss of metadata accuracy/clarity. Your metadata will, confusingly, and with the same appearance, represent different objects in different ontological contexts.
 
-**Acknowledgements**: Thanks to Ian Scott for prompting (and participating in) the discussion that prompted this post.
+**Acknowledgements**: Thanks to Ian Scott for prompting (and participating in) the discussion that generated this post.
 
 _As a closing note, I would like to mark that this is my 1000th blog post on this site, since 2007._
