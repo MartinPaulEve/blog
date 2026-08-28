@@ -9,8 +9,16 @@
     <div class="print-cover-main">
         <h1 class="print-cover-title">{{ page.title }}</h1>
         <p class="print-cover-author">Martin Paul Eve</p>
-        <p class="print-cover-role">Professor of Literature, Technology and Publishing</p>
-        <p class="print-cover-affiliation">Birkbeck, University of London</p>
+        {% if page.affiliations and page.affiliations.size > 0 %}
+        <div class="print-cover-affiliations">
+            {% for affiliation in page.affiliations %}
+            <div class="print-cover-affiliation-block">
+                {% if affiliation.role %}<p class="print-cover-role">{{ affiliation.role }}</p>{% endif %}
+                <p class="print-cover-affiliation">{{ affiliation.institution }}</p>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
         {% if page.date %}<p class="print-cover-date">{{ page.date | date: "%-d %B %Y" }}</p>{% endif %}
         {% if page.image.feature %}<img class="print-cover-image" src="/images/{{ page.image.feature }}" alt="{{ page.image.title | default: page.title | escape }}">
         {% if page.image.credit %}<p class="print-cover-credit">Image: {{ page.image.title | default: page.image.credit }} ({{ page.image.credit }})</p>{% endif %}{% endif %}

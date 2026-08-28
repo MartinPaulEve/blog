@@ -954,6 +954,25 @@ button.share-btn {
         margin: 0 0 2pt;
     }
 
+    /* The affiliation(s) in force on the document's date: one centred block,
+       or two side by side, split by a vertical rule, when a period carries
+       dual affiliations — presented in parallel, neither subordinate. */
+    .print-cover-affiliations {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        margin: 0 0 12pt;
+    }
+
+    .print-cover-affiliation-block {
+        max-width: 38%;
+        padding: 0 14pt;
+    }
+
+    .print-cover-affiliation-block + .print-cover-affiliation-block {
+        border-left: 1px solid #000;
+    }
+
     .print-cover-role {
         font-size: 10pt;
         color: #333;
@@ -963,7 +982,7 @@ button.share-btn {
     .print-cover-affiliation {
         font-size: 10pt;
         color: #333;
-        margin: 0 0 12pt;
+        margin: 0;
     }
 
     .print-cover-date {
