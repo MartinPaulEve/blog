@@ -964,9 +964,14 @@ button.share-btn {
         margin: 0 0 12pt;
     }
 
+    /* Exact equal halves (border-box, so the padding stays inside the 50%):
+       the dividing rule between dual affiliations must sit precisely on the
+       page's centre line, aligned with the centred name, title and date. */
     .print-cover-affiliation-block {
-        max-width: 38%;
-        padding: 0 14pt;
+        box-sizing: border-box;
+        flex: 0 0 50%;
+        min-width: 0;
+        padding: 0 10pt;
     }
 
     .print-cover-affiliation-block + .print-cover-affiliation-block {
@@ -977,6 +982,7 @@ button.share-btn {
         font-size: 10pt;
         color: #333;
         margin: 0 0 2pt;
+        white-space: nowrap;   /* job titles never break across lines */
     }
 
     .print-cover-affiliation {
