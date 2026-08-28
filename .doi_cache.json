@@ -162,5 +162,948 @@
         ]
       ]
     }
+  },
+  "10.1002/bult.2007.1720330606": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2025-10-10T01:54:36Z",
+      "timestamp": 1760061276709,
+      "version": "build-2065373602"
+    },
+    "reference-count": 12,
+    "publisher": "Wiley",
+    "issue": "6",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2008,
+              10,
+              27
+            ]
+          ],
+          "date-time": "2008-10-27T00:00:00Z",
+          "timestamp": 1225065600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 453,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2007,
+          8
+        ]
+      ]
+    },
+    "DOI": "10.1002/bult.2007.1720330606",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2008,
+          11,
+          7
+        ]
+      ],
+      "date-time": "2008-11-07T11:07:23Z",
+      "timestamp": 1226056043000
+    },
+    "page": "17-23",
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": "Functional requirements for bibliographic records: From a conceptual model to application and system development",
+    "prefix": "10.1002",
+    "volume": "33",
+    "author": [
+      {
+        "given": "Athena",
+        "family": "Salaba",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Yin",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2008,
+          11,
+          7
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "volume-title": "Rules for a dictionary catalog",
+        "year": "1904",
+        "author": "Cutter C. A.",
+        "key": "e_1_2_5_2_2"
+      },
+      {
+        "key": "e_1_2_5_3_2",
+        "first-page": "231",
+        "volume-title": "Seymour Lubetzky: Writings on the classical art of cataloging",
+        "author": "Lubetzky S.",
+        "year": "2001"
+      },
+      {
+        "key": "e_1_2_5_4_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.6017/ital.v24i2.3368"
+      },
+      {
+        "key": "e_1_2_5_5_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1515/9783110962451"
+      },
+      {
+        "issue": "3",
+        "key": "e_1_2_5_6_2",
+        "first-page": "80",
+        "article-title": "User benefits from a new bibliographic model: Follow‐up of the IFLA Functional Requirements study",
+        "volume": "28",
+        "author": "Noerr P.",
+        "year": "1998",
+        "journal-title": "International Cataloguing and Bibliographic Control: Quarterly Bulletin of the IFLA UBCIM Programme"
+      },
+      {
+        "key": "e_1_2_5_7_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1108/00220410410522025"
+      },
+      {
+        "key": "e_1_2_5_8_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1045/october2005-crane"
+      },
+      {
+        "key": "e_1_2_5_9_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1300/J104v39n03_06"
+      },
+      {
+        "key": "e_1_2_5_10_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1300/J104v39n03_10"
+      },
+      {
+        "key": "e_1_2_5_11_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1300/J104v39n03_08"
+      },
+      {
+        "key": "e_1_2_5_12_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1300/J104v39n03_11"
+      },
+      {
+        "issue": "4",
+        "key": "e_1_2_5_13_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "238",
+        "DOI": "10.5860/lrts.48n4.8258",
+        "article-title": "Identifying the serial work as a bibliographic entity",
+        "volume": "48",
+        "author": "Antelman K.",
+        "year": "2004",
+        "journal-title": "Library Resources & Technical Services"
+      }
+    ],
+    "container-title": "Bulletin of the American Society for Information Science and Technology",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fbult.2007.1720330606",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://asistdl.onlinelibrary.wiley.com/doi/pdf/10.1002/bult.2007.1720330606",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          9
+        ]
+      ],
+      "date-time": "2025-10-09T22:13:52Z",
+      "timestamp": 1760048032000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://asistdl.onlinelibrary.wiley.com/doi/10.1002/bult.2007.1720330606"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2007,
+          8
+        ]
+      ]
+    },
+    "references-count": 12,
+    "journal-issue": {
+      "issue": "6",
+      "published-print": {
+        "date-parts": [
+          [
+            2007,
+            8
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/bult.2007.1720330606"
+    ],
+    "URL": "http://dx.doi.org/10.1002/bult.2007.1720330606",
+    "relation": {},
+    "ISSN": [
+      "0095-4403",
+      "1550-8366"
+    ],
+    "subject": [],
+    "container-title-short": "Bul. Am. Soc. Info. Sci. Tech.",
+    "published": {
+      "date-parts": [
+        [
+          2007,
+          8
+        ]
+      ]
+    }
+  },
+  "10.1080/0361526X.2016.1160308": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          4
+        ]
+      ],
+      "date-time": "2025-11-04T10:33:17Z",
+      "timestamp": 1762252397512
+    },
+    "reference-count": 0,
+    "publisher": "Informa UK Limited",
+    "issue": "1-4",
+    "content-domain": {
+      "domain": [
+        "www.tandfonline.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2016,
+          5,
+          18
+        ]
+      ]
+    },
+    "DOI": "10.1080/0361526x.2016.1160308",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2016,
+          6,
+          28
+        ]
+      ],
+      "date-time": "2016-06-28T01:28:43Z",
+      "timestamp": 1467077323000
+    },
+    "page": "247-259",
+    "update-policy": "http://dx.doi.org/10.1080/tandf_crossmark_01",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": "Representing Serials Metadata in Institutional Repositories",
+    "prefix": "10.1080",
+    "volume": "70",
+    "author": [
+      {
+        "given": "Lisa",
+        "family": "Gonzalez",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "301",
+    "published-online": {
+      "date-parts": [
+        [
+          2016,
+          6,
+          27
+        ]
+      ]
+    },
+    "container-title": "The Serials Librarian",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://www.tandfonline.com/doi/pdf/10.1080/0361526X.2016.1160308",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2016,
+          12,
+          18
+        ]
+      ],
+      "date-time": "2016-12-18T21:39:04Z",
+      "timestamp": 1482097144000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://www.tandfonline.com/doi/full/10.1080/0361526X.2016.1160308"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          5,
+          18
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "1-4",
+      "published-online": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            27
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2016,
+            5,
+            18
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1080/0361526X.2016.1160308"
+    ],
+    "URL": "http://dx.doi.org/10.1080/0361526X.2016.1160308",
+    "relation": {},
+    "ISSN": [
+      "0361-526X",
+      "1541-1095"
+    ],
+    "subject": [],
+    "container-title-short": "The Serials Librarian",
+    "published": {
+      "date-parts": [
+        [
+          2016,
+          5,
+          18
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "The publishing and review policy for this title is described in its Aims & Scope.",
+        "order": 1,
+        "name": "peerreview_statement",
+        "label": "Peer Review Statement"
+      },
+      {
+        "value": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=wser20",
+        "URL": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=wser20",
+        "order": 2,
+        "name": "aims_and_scope_url",
+        "label": "Aim & Scope"
+      }
+    ]
+  },
+  "10.1353/lib.0.0034": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          7
+        ]
+      ],
+      "date-time": "2025-11-07T18:57:13Z",
+      "timestamp": 1762541833415
+    },
+    "reference-count": 0,
+    "publisher": "Project MUSE",
+    "issue": "2",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2008,
+          9
+        ]
+      ]
+    },
+    "abstract": "<jats:p xml:lang=\"en\">\n\t  This article describes the development of the Scholarly Works Application Profile (SWAP)—a Dublin Core application profile for describing scholarly texts. This work provides an active illustration of the Dublin Core Metadata Initiative (DCMI) “Singapore Framework” for Application Profiles, presented at the DCMI Conference in 2007, by incorporating the various elements of Application Profile building as defined by this framework—functional requirements, domain model, description set profile, usage guidelines, and data format. These elements build on the foundations laid down by the Dublin Core Abstract Model and utilize a preexisting domain model (FR-BR—Functional Requirements for Bibliographic Records) in order to support the representation of complex data describing multiple entities and their relationships. The challenges of engaging community acceptance and implementation will be covered, along with other related initiatives to support the growing corpus of scholarly resource types, such as data objects, geographic data, multimedia, and images whose structure and metadata requirements introduce the need for new application profiles. Finally, looking to other initiatives, the article will comment on how Dublin Core relates to the broader scholarly information world, where projects like Object Re-use and Exchange are attempting to better equip repositories to exchange resources.\n\t</jats:p>",
+    "DOI": "10.1353/lib.0.0034",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2009,
+          3,
+          30
+        ]
+      ],
+      "date-time": "2009-03-30T18:37:47Z",
+      "timestamp": 1238438267000
+    },
+    "page": "221-243",
+    "source": "Crossref",
+    "is-referenced-by-count": 6,
+    "title": "Describing Scholarly Works with Dublin Core: A Functional Approach",
+    "prefix": "10.1353",
+    "volume": "57",
+    "author": [
+      {
+        "given": "Julie",
+        "family": "Allinson",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "147",
+    "container-title": "Library Trends",
+    "original-title": [],
+    "language": "en",
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          19
+        ]
+      ],
+      "date-time": "2024-01-19T22:21:32Z",
+      "timestamp": 1705702892000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://muse.jhu.edu/article/262034"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2008,
+          9
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "2",
+      "published-print": {
+        "date-parts": [
+          [
+            2008,
+            9
+          ]
+        ]
+      }
+    },
+    "URL": "http://dx.doi.org/10.1353/lib.0.0034",
+    "relation": {},
+    "ISSN": [
+      "1559-0682"
+    ],
+    "subject": [],
+    "container-title-short": "lib",
+    "published": {
+      "date-parts": [
+        [
+          2008,
+          9
+        ]
+      ]
+    }
+  },
+  "10.1590/2318-0889202032e190080": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          24
+        ]
+      ],
+      "date-time": "2025-12-24T02:46:06Z",
+      "timestamp": 1766544366012,
+      "version": "3.41.2"
+    },
+    "reference-count": 25,
+    "publisher": "FapUNIFESP (SciELO)",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2020-01-01T00:00:00Z",
+          "timestamp": 1577836800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2020-01-01T00:00:00Z",
+          "timestamp": 1577836800000
+        },
+        "content-version": "am",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2020-01-01T00:00:00Z",
+          "timestamp": 1577836800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "abstract": "<jats:p>Resumo Em função das transformações tecnológicas no campo da Catalogação Descritiva, em especial no domínio bibliográfico, com o desenvolvimento de modelos conceituais, como os Functional Requirements for Bibliographic Records (Requisitos Funcionais para Registros Bibliográficos) e a proposta das orientações Resource Description and Access (Descrição de Recursos e Acesso) para a descrição de recursos, faz-se necessário compreender de que maneira essas iniciativas se relacionam com os repositórios institucionais digitais. O objetivo desta pesquisa foi o estudo dos Functional Requirements for Bibliographic Records e das Resource Description and Access estabelecidos no domínio bibliográfico, a fim de identificar o estado da arte sobre as tendências do domínio bibliográfico e a possibilidade de aplicá-los a repositórios institucionais digitais. O aporte teórico e metodológico da Revisão Sistemática da Literatura propiciou o mapeamento e a identificação de elementos-chave para responder à questão de pesquisa. Foram analisados vinte e cinco documentos na Revisão Sistemática da Literatura, o que pode ser considerado um índice relativamente baixo sobre a produção científica condizente à proposta de pesquisa e à necessidade de estudos mais aprofundados acerca do tema. Foram identificadas tecnologias computacionais, casos de uso e aplicações específicas em ambientes bibliográficos, acadêmicos e na Web. Sublinha-se que o estado da arte construído se apresenta como um ponto de partida para o desenvolvimento de ferramentas e de aplicações que aproximem o domínio bibliográfico dos repositórios institucionais digitais.</jats:p>",
+    "DOI": "10.1590/2318-0889202032e190080",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          7
+        ]
+      ],
+      "date-time": "2020-09-07T21:05:41Z",
+      "timestamp": 1599512741000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": "Aplicações de metadados baseadas em FRBR e RDA em repositórios institucionais digitais: uma revisão sistemática da literatura",
+    "prefix": "10.1590",
+    "volume": "32",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-8450-3451",
+        "authenticated-orcid": false,
+        "given": "Natalia Gallo",
+        "family": "CERRAO",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Universidade Federal de São Carlos, Brasil"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8712-2654",
+        "authenticated-orcid": false,
+        "given": "Fabiano Ferreira de",
+        "family": "CASTRO",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Universidade Federal de São Carlos, Brasil"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "530",
+    "published-online": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "issue": "57",
+        "key": "ref1",
+        "doi-asserted-by": "crossref",
+        "first-page": "221",
+        "DOI": "10.1353/lib.0.0034",
+        "article-title": "Describing scholarly works with Dublin Core: a functional approach",
+        "author": "Allinson J.",
+        "year": "2008",
+        "journal-title": "Library Trends"
+      },
+      {
+        "key": "ref2",
+        "first-page": "95",
+        "author": "Alves R. C. V.",
+        "year": "2016",
+        "edition": "4"
+      },
+      {
+        "key": "ref3",
+        "first-page": "2231",
+        "article-title": "BIBFRAME: tendência para a representação bibliográfica na web",
+        "volume": "13",
+        "author": "Arakaki F. A.",
+        "year": "2017",
+        "journal-title": "Revista Brasileira de Biblioteconomia e Documentação"
+      },
+      {
+        "issue": "37",
+        "key": "ref4",
+        "doi-asserted-by": "crossref",
+        "first-page": "203",
+        "DOI": "10.5007/1518-2924.2013v18n37p203",
+        "article-title": "A utilização do Resource Description and Access (RDA) na criação de registros de autoridade para pessoas, famílias e entidades coletivas",
+        "volume": "18",
+        "author": "Assumpção F. S",
+        "year": "2013",
+        "journal-title": "Encontros Bibli"
+      },
+      {
+        "key": "ref5",
+        "series-title": "Handbook of evidence-based management: companies, classrooms, and research",
+        "first-page": "328",
+        "volume-title": "Systematic review and evidence synthesis as a practice and scholarship tool",
+        "author": "Briner R. B",
+        "year": "2012"
+      },
+      {
+        "edition": "24",
+        "year": "2011",
+        "author": "Castro F. F",
+        "key": "ref6"
+      },
+      {
+        "year": "2019",
+        "series-title": "Análise das aplicações de metadados baseada em FRBR e RDA em repositórios institucionais digitais: contribuições do domínio bibliográfico",
+        "author": "Cerrao N. G.",
+        "key": "ref7"
+      },
+      {
+        "issue": "10",
+        "key": "ref8",
+        "doi-asserted-by": "crossref",
+        "first-page": "10",
+        "DOI": "10.1108/LHTN-09-2013-0054",
+        "article-title": "Experimenting with implementing FRBR in a Chinese Koha system",
+        "volume": "30",
+        "author": "Chang N.",
+        "year": "2013",
+        "journal-title": "Library Hi Tech News"
+      },
+      {
+        "issue": "58",
+        "key": "ref9",
+        "article-title": "Assessing FRBR in Dublin Core application profiles",
+        "author": "Chaudhri T.",
+        "year": "2009",
+        "journal-title": "Ariadne"
+      },
+      {
+        "year": "2009",
+        "series-title": "Guidelines for Dublin Core Application Profiles",
+        "author": "Coyle K",
+        "key": "ref10"
+      },
+      {
+        "issue": "4",
+        "key": "ref11",
+        "doi-asserted-by": "crossref",
+        "first-page": "240",
+        "DOI": "10.1017/S1472669615000596",
+        "article-title": "FRBR, RDA and Law Libraries",
+        "volume": "15",
+        "author": "Doyle H.",
+        "year": "2015",
+        "journal-title": "Legal Information Management"
+      },
+      {
+        "issue": "2",
+        "key": "ref12",
+        "article-title": "Towards an internationalization of RDA management and development",
+        "volume": "7",
+        "author": "Dunsire G.",
+        "year": "2016",
+        "journal-title": "Italian Journal of Library, Archives, and Information Science"
+      },
+      {
+        "year": "2012",
+        "series-title": "RIMMF: RDA in Many Metadata Formats",
+        "author": "Fritz D",
+        "key": "ref13"
+      },
+      {
+        "year": "2009",
+        "series-title": "Functional Requirements for Bibliographic Records: final report",
+        "key": "ref14"
+      },
+      {
+        "year": "2016",
+        "series-title": "Statement of international cataloguing principles",
+        "key": "ref15"
+      },
+      {
+        "issue": "4",
+        "key": "ref16",
+        "article-title": "BIBFRAME transformation for enhanced discovery",
+        "volume": "60",
+        "author": "Jin Q",
+        "year": "2016",
+        "journal-title": "Association for Library Collections and Technical Services"
+      },
+      {
+        "year": "2012",
+        "series-title": "StArt: State of the Art through Systematic Review",
+        "key": "ref17"
+      },
+      {
+        "issue": "1",
+        "key": "ref18",
+        "article-title": "Requisitos Funcionais para Registros Bibliográficos (FRBR): uma apresentação",
+        "volume": "3",
+        "author": "Moreno F. P",
+        "year": "2005",
+        "journal-title": "Revista Digital de Biblioteconomia e Ciência da Informação"
+      },
+      {
+        "year": "2011",
+        "series-title": "Introdução à RDA: um guia básico",
+        "author": "Oliver C.",
+        "key": "ref19"
+      },
+      {
+        "issue": "4",
+        "key": "ref20",
+        "article-title": "Emerging information standards and technologies: cataloging and metadata professionals’ perspectives",
+        "volume": "34",
+        "author": "Park J. R",
+        "year": "2017",
+        "journal-title": "Library Hi Tech News"
+      },
+      {
+        "volume-title": "Frequently asked questions",
+        "year": "2018",
+        "series-title": "RDA Steering Committee",
+        "key": "ref21"
+      },
+      {
+        "issue": "3",
+        "key": "ref22",
+        "doi-asserted-by": "crossref",
+        "first-page": "131",
+        "DOI": "10.19132/1808-5245233.130-156",
+        "article-title": "O código RDA e a iniciativa BIBFRAME: tendências da representação da informação no domínio bibliográfico",
+        "volume": "23",
+        "author": "Silva L. C.",
+        "year": "2017",
+        "journal-title": "Em Questão"
+      },
+      {
+        "issue": "2",
+        "key": "ref23",
+        "article-title": "Metadata issues in digital libraries: key concepts and perspectives",
+        "volume": "2",
+        "author": "Solodovnik I.",
+        "year": "2011",
+        "journal-title": "Italian Journal of Library, Archives and Information Science"
+      },
+      {
+        "issue": "1",
+        "key": "ref24",
+        "doi-asserted-by": "crossref",
+        "first-page": "113",
+        "DOI": "10.19132/1808-5245221.113-136",
+        "article-title": "Descrição de recursos em uma estrutura de metadados pautada no modelo FRBR",
+        "volume": "22",
+        "author": "Souza E",
+        "year": "2016",
+        "journal-title": "Em Questão"
+      },
+      {
+        "year": "2004",
+        "series-title": "What is FRBR?: a conceptual model for the bibliographic universe",
+        "author": "Tillett B",
+        "key": "ref25"
+      }
+    ],
+    "container-title": "Transinformação",
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://www.scielo.br/pdf/tinf/v32/2318-0889-tinf-32-e190080.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          6
+        ]
+      ],
+      "date-time": "2023-10-06T23:30:52Z",
+      "timestamp": 1696635052000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0103-37862020000100900&tlng=pt"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "references-count": 25,
+    "alternative-id": [
+      "S0103-37862020000100900"
+    ],
+    "URL": "http://dx.doi.org/10.1590/2318-0889202032e190080",
+    "relation": {},
+    "ISSN": [
+      "2318-0889",
+      "0103-3786"
+    ],
+    "subject": [],
+    "container-title-short": "Transinformação",
+    "published": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "article-number": "e190080"
   }
 }
