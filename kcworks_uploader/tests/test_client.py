@@ -95,6 +95,34 @@ class TestUpdateDraft:
             client.update_draft("abc", {})
 
 
+class TestPublishDraft:
+    def test_returns_published_record_json(self):
+        published = {"id": "abc", "links": {"self_html": "..."}}
+        session = FakeSession(
+            {
+                (
+                    "POST",
+                    f"{BASE}/records/abc/draft/actions/publish",
+                ): FakeResponse(202, published)
+            }
+        )
+        client = KCWorksClient(BASE, "tok", session=session)
+        assert client.publish_draft("abc") == published
+
+    def test_server_rejection_raises_kcworks_error(self):
+        session = FakeSession(
+            {
+                (
+                    "POST",
+                    f"{BASE}/records/abc/draft/actions/publish",
+                ): FakeResponse(400, {"message": "cannot publish"})
+            }
+        )
+        client = KCWorksClient(BASE, "tok", session=session)
+        with pytest.raises(KCWorksError, match="cannot publish"):
+            client.publish_draft("abc")
+
+
 class TestUploadFiles:
     def test_returns_committed_file_keys(self, tmp_path):
         md = tmp_path / "post.md"

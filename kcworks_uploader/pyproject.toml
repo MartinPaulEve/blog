@@ -11,6 +11,7 @@ dependencies = [
 
 [project.scripts]
 kcworks-upload = "kcworks_uploader.cli:main"
+kcworks-publish = "kcworks_uploader.cli:publish_main"
 
 [dependency-groups]
 dev = [

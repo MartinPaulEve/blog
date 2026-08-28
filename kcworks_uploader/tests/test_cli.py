@@ -1,6 +1,14 @@
 import pytest
 
-from kcworks_uploader.cli import deposit_url, main, upload_post
+from kcworks_uploader import cli
+from kcworks_uploader.cli import (
+    api_base_from_url,
+    deposit_url,
+    draft_id_from_url,
+    main,
+    publish_main,
+    upload_post,
+)
 
 POST_TEXT = """---
 title: "A test post"
@@ -49,12 +57,51 @@ class FakeClient:
         self.updated_record = record
         return {"id": draft_id, "files": dict(record.get("files", {}))}
 
+    def publish_draft(self, draft_id):
+        self.calls.append("publish")
+        return {
+            "id": draft_id,
+            "links": {
+                "self_html": f"https://works.hcommons.org/records/{draft_id}"
+            },
+        }
+
 
 class TestDepositUrl:
     def test_derives_uploads_page_from_api_base(self):
         assert deposit_url("https://works.hcommons.org/api", "abc12") == (
             "https://works.hcommons.org/uploads/abc12"
         )
+
+
+class TestDraftIdFromUrl:
+    def test_extracts_id_from_uploads_url(self):
+        assert draft_id_from_url(
+            "https://works.hcommons.org/uploads/abc12-xyz34"
+        ) == "abc12-xyz34"
+
+    def test_tolerates_trailing_slash(self):
+        assert draft_id_from_url(
+            "https://works.hcommons.org/uploads/abc12-xyz34/"
+        ) == "abc12-xyz34"
+
+    def test_accepts_records_url(self):
+        assert draft_id_from_url(
+            "https://works.hcommons.org/records/abc12-xyz34"
+        ) == "abc12-xyz34"
+
+    def test_accepts_bare_id(self):
+        assert draft_id_from_url("abc12-xyz34") == "abc12-xyz34"
+
+
+class TestApiBaseFromUrl:
+    def test_derived_from_kc_works_url(self):
+        assert api_base_from_url(
+            "https://works.hcommons.org/uploads/abc12-xyz34"
+        ) == "https://works.hcommons.org/api"
+
+    def test_bare_id_gives_none(self):
+        assert api_base_from_url("abc12-xyz34") is None
 
 
 class TestUploadPost:
@@ -119,6 +166,67 @@ class TestUploadPost:
             upload_post(
                 repo / "_posts" / "2026-08-28-a-test-post.md", FakeClient()
             )
+
+
+class TestUploadPostLive:
+    def test_live_publishes_after_the_preview_update(self, repo):
+        client = FakeClient()
+        result = upload_post(
+            repo / "_posts" / "2026-08-28-a-test-post.md", client, live=True
+        )
+        assert client.calls == ["create", "upload", "update", "publish"]
+        assert result["published"] is True
+        assert result["live_url"] == (
+            "https://works.hcommons.org/records/abc12-xyz34"
+        )
+
+    def test_draft_remains_the_default(self, repo):
+        client = FakeClient()
+        result = upload_post(
+            repo / "_posts" / "2026-08-28-a-test-post.md", client
+        )
+        assert "publish" not in client.calls
+        assert result["published"] is False
+
+
+class TestPublishMain:
+    def test_publishes_draft_from_uploads_url(self, capsys, monkeypatch):
+        seen = {}
+
+        class FakePublishingClient:
+            def __init__(self, base_url, token):
+                seen["base_url"] = base_url
+                seen["token"] = token
+                self.base_url = base_url
+
+            def publish_draft(self, draft_id):
+                seen["draft_id"] = draft_id
+                return {
+                    "id": draft_id,
+                    "links": {
+                        "self_html": (
+                            "https://works.hcommons.org/records/" + draft_id
+                        )
+                    },
+                }
+
+        monkeypatch.setattr(cli, "KCWorksClient", FakePublishingClient)
+        rc = publish_main(
+            ["https://works.hcommons.org/uploads/abc12-xyz34", "--token", "t"]
+        )
+        assert rc == 0
+        assert seen["draft_id"] == "abc12-xyz34"
+        assert seen["base_url"] == "https://works.hcommons.org/api"
+        assert seen["token"] == "t"
+        assert "https://works.hcommons.org/records/abc12-xyz34" in (
+            capsys.readouterr().out
+        )
+
+    def test_missing_token_is_an_error(self, capsys, monkeypatch):
+        monkeypatch.delenv("KCWORKS_API_TOKEN", raising=False)
+        rc = publish_main(["abc12-xyz34"])
+        assert rc == 2
+        assert "token" in capsys.readouterr().err.lower()
 
 
 class TestMain:

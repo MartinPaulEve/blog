@@ -36,6 +36,14 @@ class KCWorksClient:
             )
         )
 
+    def publish_draft(self, draft_id: str) -> dict:
+        """POST the publish action for a draft; return the published record."""
+        return self._checked(
+            self._session.post(
+                f"{self.base_url}/records/{draft_id}/draft/actions/publish"
+            )
+        )
+
     def upload_files(self, draft_id: str, paths: list[Path]) -> list[str]:
         """Attach files to a draft: initiate, upload content, commit each.
 
@@ -62,7 +70,7 @@ class KCWorksClient:
 
     @staticmethod
     def _checked(response) -> dict:
-        if response.status_code not in (200, 201):
+        if response.status_code not in (200, 201, 202):
             try:
                 payload = response.json()
                 detail = str(payload.get("message") or payload)
