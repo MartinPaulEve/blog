@@ -22,3 +22,7 @@ ACCESSIBILITY.md
 
 # Generated site output — rebuilt by newdeploy.sh, deployed via rsync
 _site/
+
+# env files
+.env
+
