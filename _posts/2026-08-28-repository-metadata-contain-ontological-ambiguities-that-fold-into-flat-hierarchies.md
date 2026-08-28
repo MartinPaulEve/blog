@@ -102,7 +102,9 @@ So what's the bibliographic model used in repositories? The OAI-PMH spec ([Lagoz
 Here is how they separate out the components involved in a repository metadata record:
 
 > **resource** - A resource is the object or "stuff" that metadata is "about". The nature of a resource, whether it is physical or digital, or whether it is stored in the repository or is a constituent of another database, is outside the scope of the OAI-PMH.
+> 
 > **item** - An item is a constituent of a repository from which metadata about a resource can be disseminated. That metadata may be disseminated on-the-fly from the associated resource, cross-walked from some canonical form, actually stored in the repository, etc.
+> 
 > **record** - A record is metadata in a specific metadata format. A record is returned as an XML-encoded byte stream in response to a protocol request to disseminate a specific metadata format from a constituent item.
 
 So, we then have the following type of structure: repository **item** → metadata **record** → describes scholarly **resource**.
@@ -116,8 +118,11 @@ Under this system, you have **Work** → **Expression** → **Manifestation** �
 The current Library Reference Model ([Riva _et al._, 2017](https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf)) defines these as:
 
 > **Work**: The intellectual or artistic content of a distinct creation.
+> 
 > **Expression**: A distinct combination of signs conveying intellectual or artistic content.
+> 
 > **Manifestation**: A set of all carriers that are assumed to share the same characteristics as to intellectual or artistic content and aspects of physical form. That set is defined by both the overall content and the production plan for its carrier or carriers.
+> 
 > **Item**: An object or objects carrying signs intended to convey intellectual or artistic content.
 
 I am also laughing as I re-read this model and remember that the highest level entity specified is "_res_" (thing), defined as “Any entity in the universe of discourse”. Well that's cleared things up, then!
