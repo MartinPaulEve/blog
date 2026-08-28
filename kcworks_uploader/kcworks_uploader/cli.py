@@ -47,11 +47,14 @@ def upload_post(
 
     draft = client.create_draft(record)
     files = client.upload_files(draft["id"], [post_path, pdf])
+    # Re-assert files.default_preview now the PDF exists on the draft; the
+    # server ignores it during creation, when there are no files yet.
+    updated = client.update_draft(draft["id"], record)
     return {
         "id": draft["id"],
         "edit_url": deposit_url(client.base_url, draft["id"]),
         "files": files,
-        "record": draft,
+        "record": updated,
     }
 
 

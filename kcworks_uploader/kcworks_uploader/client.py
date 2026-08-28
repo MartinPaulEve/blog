@@ -23,6 +23,19 @@ class KCWorksClient:
             self._session.post(f"{self.base_url}/records", json=record)
         )
 
+    def update_draft(self, draft_id: str, record: dict) -> dict:
+        """PUT the record JSON to an existing draft; return the updated JSON.
+
+        Needed to set files.default_preview: the server drops it at
+        creation time because the file does not exist yet, so the draft
+        must be updated again once the uploads are committed.
+        """
+        return self._checked(
+            self._session.put(
+                f"{self.base_url}/records/{draft_id}/draft", json=record
+            )
+        )
+
     def upload_files(self, draft_id: str, paths: list[Path]) -> list[str]:
         """Attach files to a draft: initiate, upload content, commit each.
 

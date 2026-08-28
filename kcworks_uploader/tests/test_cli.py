@@ -31,14 +31,23 @@ class FakeClient:
         self.base_url = base_url
         self.record = None
         self.uploaded = None
+        self.updated_record = None
+        self.calls = []
 
     def create_draft(self, record):
+        self.calls.append("create")
         self.record = record
         return {"id": "abc12-xyz34", "links": {}}
 
     def upload_files(self, draft_id, paths):
+        self.calls.append("upload")
         self.uploaded = (draft_id, list(paths))
         return [p.name for p in paths]
+
+    def update_draft(self, draft_id, record):
+        self.calls.append("update")
+        self.updated_record = record
+        return {"id": draft_id, "files": dict(record.get("files", {}))}
 
 
 class TestDepositUrl:
@@ -76,6 +85,22 @@ class TestUploadPost:
         client = FakeClient()
         upload_post(repo / "_posts" / "2026-08-28-a-test-post.md", client)
         assert client.record["files"]["default_preview"] == (
+            "2026-08-28-a-test-post.pdf"
+        )
+
+    def test_default_preview_reasserted_after_files_exist(self, repo):
+        # InvenioRDM drops default_preview at creation time (the file does
+        # not exist yet), so the draft must be updated again after the
+        # uploads are committed for the Files tab to honour it.
+        client = FakeClient()
+        result = upload_post(
+            repo / "_posts" / "2026-08-28-a-test-post.md", client
+        )
+        assert client.calls == ["create", "upload", "update"]
+        assert client.updated_record["files"]["default_preview"] == (
+            "2026-08-28-a-test-post.pdf"
+        )
+        assert result["record"]["files"]["default_preview"] == (
             "2026-08-28-a-test-post.pdf"
         )
 

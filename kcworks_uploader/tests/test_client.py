@@ -73,6 +73,28 @@ class TestCreateDraft:
             client.create_draft({})
 
 
+class TestUpdateDraft:
+    def test_returns_updated_draft_json(self):
+        updated = {"id": "abc", "files": {"default_preview": "post.pdf"}}
+        session = FakeSession(
+            {("PUT", f"{BASE}/records/abc/draft"): FakeResponse(200, updated)}
+        )
+        client = KCWorksClient(BASE, "tok", session=session)
+        assert client.update_draft("abc", {"metadata": {}}) == updated
+
+    def test_server_rejection_raises_kcworks_error(self):
+        session = FakeSession(
+            {
+                ("PUT", f"{BASE}/records/abc/draft"): FakeResponse(
+                    400, {"message": "bad update"}
+                )
+            }
+        )
+        client = KCWorksClient(BASE, "tok", session=session)
+        with pytest.raises(KCWorksError, match="bad update"):
+            client.update_draft("abc", {})
+
+
 class TestUploadFiles:
     def test_returns_committed_file_keys(self, tmp_path):
         md = tmp_path / "post.md"
