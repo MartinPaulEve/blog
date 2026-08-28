@@ -1,4 +1,5 @@
 import pytest
+
 from kcworks_uploader.client import KCWorksClient, KCWorksError
 
 BASE = "https://works.example.org/api"

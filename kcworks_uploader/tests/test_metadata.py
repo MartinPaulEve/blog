@@ -1,6 +1,7 @@
 from pathlib import Path
 
 import pytest
+
 from kcworks_uploader.metadata import build_metadata
 from kcworks_uploader.posts import Post
 
@@ -37,7 +38,7 @@ class TestRecordShape:
 
     def test_publisher_and_language(self, post):
         md = build_metadata(post, URL)["metadata"]
-        assert md["publisher"] == "eve.gd: Martin Paul Eve"
+        assert md["publisher"] == "Martin Paul Eve"
         assert md["languages"] == [{"id": "eng"}]
 
     def test_cc_by_licence(self, post):
@@ -52,6 +53,43 @@ class TestRecordShape:
         record = build_metadata(post, URL)
         assert record["files"] == {"enabled": True}
         assert record["access"] == {"record": "public", "files": "public"}
+
+    def test_pdf_filename_becomes_default_preview(self, post):
+        record = build_metadata(post, URL, pdf_filename="post.pdf")
+        assert record["files"] == {
+            "enabled": True,
+            "default_preview": "post.pdf",
+        }
+
+
+class TestBlogDetails:
+    def test_blog_title(self, post):
+        custom = build_metadata(post, URL)["custom_fields"]
+        assert custom["journal:journal"] == {
+            "title": "eve.gd: Martin Paul Eve"
+        }
+
+    def test_blog_url(self, post):
+        custom = build_metadata(post, URL)["custom_fields"]
+        assert custom["kcr:publication_url"] == "https://eve.gd"
+
+    def test_blog_publisher_location(self, post):
+        custom = build_metadata(post, URL)["custom_fields"]
+        assert custom["imprint:imprint"] == {"place": "United Kingdom"}
+
+    def test_ai_contribution_declared(self, post):
+        custom = build_metadata(post, URL)["custom_fields"]
+        assert custom["kcr:ai_usage"] == {
+            "ai_used": True,
+            "ai_description": (
+                "All words written in this post were written by hand, by a "
+                "human (the author). No generative AI was used in the "
+                "production of the writing. The technical infrastructure "
+                "that builds the blog and PDFs was assisted by AI coding "
+                "from Claude. The full AI usage policy is available here: "
+                "https://eve.gd/ai/"
+            ),
+        }
 
 
 class TestCreator:
@@ -107,10 +145,12 @@ class TestDoiAndTags:
 
     def test_tags_become_user_defined_tags(self, post):
         record = build_metadata(post, URL)
-        assert record["custom_fields"] == {
-            "kcr:user_defined_tags": ["metadata", "repositories"]
-        }
+        assert record["custom_fields"]["kcr:user_defined_tags"] == [
+            "metadata",
+            "repositories",
+        ]
 
-    def test_no_tags_omits_custom_fields(self, post):
+    def test_no_tags_omits_user_defined_tags(self, post):
         post.tags = []
-        assert "custom_fields" not in build_metadata(post, URL)
+        custom = build_metadata(post, URL)["custom_fields"]
+        assert "kcr:user_defined_tags" not in custom

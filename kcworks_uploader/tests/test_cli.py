@@ -1,4 +1,5 @@
 import pytest
+
 from kcworks_uploader.cli import deposit_url, main, upload_post
 
 POST_TEXT = """---
@@ -70,6 +71,13 @@ class TestUploadPost:
             "identifier": "https://eve.gd/2026/08/28/a-test-post/",
             "scheme": "url",
         } in md["identifiers"]
+
+    def test_pdf_is_the_default_preview_file(self, repo):
+        client = FakeClient()
+        upload_post(repo / "_posts" / "2026-08-28-a-test-post.md", client)
+        assert client.record["files"]["default_preview"] == (
+            "2026-08-28-a-test-post.pdf"
+        )
 
     def test_include_doi_false_omits_pids(self, repo):
         client = FakeClient()

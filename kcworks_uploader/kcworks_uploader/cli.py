@@ -34,11 +34,16 @@ def upload_post(
     post_path = Path(post_path)
     post = parse_post(post_path)
     slug = post_slug(post_path)
-    record = build_metadata(post, canonical_url(slug), include_doi=include_doi)
     if pdf_path is not None:
         pdf = Path(pdf_path)
     else:
         pdf = find_pdf(post_path.parent.parent, slug)
+    record = build_metadata(
+        post,
+        canonical_url(slug),
+        include_doi=include_doi,
+        pdf_filename=pdf.name,
+    )
 
     draft = client.create_draft(record)
     files = client.upload_files(draft["id"], [post_path, pdf])
@@ -89,15 +94,20 @@ def main(argv=None) -> int:
     if args.dry_run:
         post = parse_post(args.post)
         slug = post_slug(args.post)
-        record = build_metadata(
-            post, canonical_url(slug), include_doi=not args.no_doi
-        )
-        print(json.dumps(record, indent=2))
         try:
             pdf = args.pdf or find_pdf(args.post.parent.parent, slug)
-            print(f"Would attach: {args.post.name}, {pdf}", file=sys.stderr)
+            pdf_note = f"Would attach: {args.post.name}, {pdf}"
         except FileNotFoundError as exc:
-            print(f"Warning: {exc}", file=sys.stderr)
+            pdf = Path(f"{slug}.pdf")
+            pdf_note = f"Warning: {exc}"
+        record = build_metadata(
+            post,
+            canonical_url(slug),
+            include_doi=not args.no_doi,
+            pdf_filename=pdf.name,
+        )
+        print(json.dumps(record, indent=2))
+        print(pdf_note, file=sys.stderr)
         return 0
 
     if not args.token:

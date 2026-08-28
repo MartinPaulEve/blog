@@ -1,6 +1,7 @@
 from pathlib import Path
 
 import pytest
+
 from kcworks_uploader.posts import (
     canonical_url,
     find_pdf,
