@@ -1,6 +1,12 @@
 Options +FollowSymLinks
 RewriteEngine On
 
+# WebFinger for the fediverse: identity lookups on the root domain answer
+# from the Mastodon instance on the social subdomain. mod_rewrite appends
+# the original query string (?resource=acct:...) to the target by default,
+# as WebFinger requires. Keep this above the canonicalisation catch-alls.
+RewriteRule ^\.well-known/webfinger$ https://social.eve.gd/.well-known/webfinger [R=302,L]
+
 <Limit GET POST>
 order deny,allow
 deny from all
