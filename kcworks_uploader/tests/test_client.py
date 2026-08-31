@@ -43,6 +43,9 @@ class FakeSession:
     def put(self, url, **kwargs):
         return self._handle("PUT", url, **kwargs)
 
+    def get(self, url, **kwargs):
+        return self._handle("GET", url, **kwargs)
+
 
 class TestCreateDraft:
     def test_returns_created_draft_json(self):
@@ -160,3 +163,81 @@ class TestUploadFiles:
         client = KCWorksClient(BASE, "tok", session=session)
         with pytest.raises(KCWorksError, match="boom"):
             client.upload_files("abc", [md])
+
+
+class TestCollections:
+    def test_add_to_collection_posts_the_community_id(self):
+        session = FakeSession(
+            {
+                ("POST", f"{BASE}/records/rec1/communities"): FakeResponse(
+                    200, {"processed": [{"request_id": "req1"}]}
+                )
+            }
+        )
+        client = KCWorksClient(BASE, "tok", session=session)
+        result = client.add_to_collection("rec1", "coll-uuid")
+        assert result == {"processed": [{"request_id": "req1"}]}
+        sent = session.sent[("POST", f"{BASE}/records/rec1/communities")]
+        assert sent["json"] == {"communities": [{"id": "coll-uuid"}]}
+
+    def test_accept_request_posts_the_accept_action(self):
+        session = FakeSession(
+            {
+                (
+                    "POST",
+                    f"{BASE}/requests/req1/actions/accept",
+                ): FakeResponse(200, {"status": "accepted"})
+            }
+        )
+        client = KCWorksClient(BASE, "tok", session=session)
+        assert client.accept_request("req1") == {"status": "accepted"}
+
+    def test_create_collection_posts_to_communities(self):
+        payload = {"slug": "s", "metadata": {"title": "T"}}
+        session = FakeSession(
+            {
+                ("POST", f"{BASE}/communities"): FakeResponse(
+                    201, {"id": "uuid-1", "slug": "s"}
+                )
+            }
+        )
+        client = KCWorksClient(BASE, "tok", session=session)
+        assert client.create_collection(payload) == {
+            "id": "uuid-1",
+            "slug": "s",
+        }
+        assert session.sent[("POST", f"{BASE}/communities")]["json"] == payload
+
+    def test_get_collection_by_slug(self):
+        session = FakeSession(
+            {
+                ("GET", f"{BASE}/communities/s"): FakeResponse(
+                    200, {"id": "uuid-1", "slug": "s"}
+                )
+            }
+        )
+        client = KCWorksClient(BASE, "tok", session=session)
+        assert client.get_collection("s")["id"] == "uuid-1"
+
+    def test_get_record_by_id(self):
+        session = FakeSession(
+            {
+                ("GET", f"{BASE}/records/rec1"): FakeResponse(
+                    200, {"id": "rec1", "parent": {}}
+                )
+            }
+        )
+        client = KCWorksClient(BASE, "tok", session=session)
+        assert client.get_record("rec1")["id"] == "rec1"
+
+    def test_error_status_raises(self):
+        session = FakeSession(
+            {
+                ("POST", f"{BASE}/records/rec1/communities"): FakeResponse(
+                    403, {"message": "Permission denied"}
+                )
+            }
+        )
+        client = KCWorksClient(BASE, "tok", session=session)
+        with pytest.raises(KCWorksError, match="403"):
+            client.add_to_collection("rec1", "c")

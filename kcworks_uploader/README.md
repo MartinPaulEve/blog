@@ -28,6 +28,25 @@ The signposting plugin emits this as `archivedAt` in the post's
 metadata.json (the KC Works record already points back through its
 canonical-URL identifier).
 
+## The blog collection
+
+`kcworks_collection` in the blog's `_config.yml` names the KC Works
+collection every published deposit is included in (at publish time, both
+for `deposit --live` and `publish`; drafts join on publishing). Override
+with `--collection SLUG` or skip with `--no-collection`. One-time setup
+and maintenance:
+
+```sh
+# Create the collection (slug from _config.yml)
+./kcworks.sh collection create --title "eve.gd: Martin Paul Eve's blog posts"
+
+# Include every post with a kcworks: front-matter deposit
+./kcworks.sh collection backfill
+```
+
+Both need `$KCWORKS_API_TOKEN`. Backfill is idempotent: records already
+in the collection report `already`.
+
 Or from this directory:
 
 ```sh

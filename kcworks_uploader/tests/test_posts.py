@@ -125,3 +125,78 @@ class TestFirstParagraph:
 
     def test_empty_body_gives_empty_string(self):
         assert first_paragraph("") == ""
+
+
+class TestFindBlogRoot:
+    def test_finds_config_in_start_dir(self, tmp_path):
+        from kcworks_uploader.posts import find_blog_root
+
+        (tmp_path / "_config.yml").write_text("title: t")
+        assert find_blog_root(tmp_path) == tmp_path
+
+    def test_walks_up_to_ancestor(self, tmp_path):
+        from kcworks_uploader.posts import find_blog_root
+
+        (tmp_path / "_config.yml").write_text("title: t")
+        nested = tmp_path / "_posts"
+        nested.mkdir()
+        assert find_blog_root(nested) == tmp_path
+
+    def test_none_when_no_config_anywhere(self, tmp_path):
+        from kcworks_uploader.posts import find_blog_root
+
+        assert find_blog_root(tmp_path / "nowhere") is None
+
+
+class TestBlogCollection:
+    def test_reads_the_configured_collection(self, tmp_path):
+        from kcworks_uploader.posts import blog_collection
+
+        (tmp_path / "_config.yml").write_text(
+            "title: t\nkcworks_collection: evegd-blog-posts\n"
+        )
+        assert blog_collection(tmp_path) == "evegd-blog-posts"
+
+    def test_none_when_key_absent(self, tmp_path):
+        from kcworks_uploader.posts import blog_collection
+
+        (tmp_path / "_config.yml").write_text("title: t\n")
+        assert blog_collection(tmp_path) is None
+
+    def test_none_when_config_missing(self, tmp_path):
+        from kcworks_uploader.posts import blog_collection
+
+        assert blog_collection(tmp_path) is None
+
+
+class TestDepositedRecords:
+    def test_lists_posts_with_kcworks_records_in_filename_order(
+        self, tmp_path
+    ):
+        from kcworks_uploader.posts import deposited_records
+
+        posts = tmp_path / "_posts"
+        posts.mkdir()
+        (posts / "2026-02-01-b.md").write_text(
+            "---\ntitle: B\nkcworks: https://works.hcommons.org/records/"
+            "bbb22-bbb22\n---\nBody\n"
+        )
+        (posts / "2026-01-01-a.md").write_text(
+            "---\ntitle: A\nkcworks: https://works.hcommons.org/records/"
+            "aaa11-aaa11\n---\nBody\n"
+        )
+        (posts / "2026-03-01-c.md").write_text(
+            "---\ntitle: C\n---\nNo deposit here\n"
+        )
+        records = deposited_records(posts)
+        assert [(p.name, r) for p, r in records] == [
+            ("2026-01-01-a.md", "aaa11-aaa11"),
+            ("2026-02-01-b.md", "bbb22-bbb22"),
+        ]
+
+    def test_empty_dir_gives_no_records(self, tmp_path):
+        from kcworks_uploader.posts import deposited_records
+
+        posts = tmp_path / "_posts"
+        posts.mkdir()
+        assert deposited_records(posts) == []

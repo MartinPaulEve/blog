@@ -8,6 +8,11 @@
 #   ./kcworks.sh deposit _posts/YYYY-MM-DD-slug.md    # draft (the default)
 #   ./kcworks.sh deposit --live _posts/YYYY-MM-DD-slug.md   # publish now
 #   ./kcworks.sh publish <uploads-url-or-record-id>   # publish a draft
+#   ./kcworks.sh collection create --title "..."      # one-time: make it
+#   ./kcworks.sh collection backfill                  # deposits -> collection
+#
+# Published records land in the collection named by kcworks_collection in
+# _config.yml (opt out per run with --no-collection).
 #
 # Other kcworks-upload flags (--no-doi, --pdf PATH, --base-url URL, --token)
 # pass straight through. deposit and publish need $KCWORKS_API_TOKEN (or
@@ -23,7 +28,7 @@
 cd "$(dirname "$0")"
 
 usage() {
-    sed -n 's/^#   //p' "$0"
+    sed -n 's/^#   \([^ ].*\)/\1/p' "$0"
     exit "${1:-2}"
 }
 
@@ -39,6 +44,9 @@ case "$cmd" in
         ;;
     publish)
         exec uv run --project kcworks_uploader kcworks-publish "$@"
+        ;;
+    collection)
+        exec uv run --project kcworks_uploader kcworks-collection "$@"
         ;;
     help | -h | --help | "")
         usage 0

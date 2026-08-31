@@ -127,3 +127,38 @@ def _bare_doi(value) -> str | None:
     if not value:
         return None
     return re.sub(r"\Ahttps?://(dx\.)?doi\.org/|\Adoi:", "", str(value).strip())
+
+
+def find_blog_root(start: Path) -> Path | None:
+    """The nearest ancestor (or start) holding a _config.yml, or None."""
+    start = Path(start).resolve()
+    for candidate in (start, *start.parents):
+        if (candidate / "_config.yml").is_file():
+            return candidate
+    return None
+
+
+def blog_collection(blog_root: Path) -> str | None:
+    """The blog-wide KC Works collection (`kcworks_collection` in
+    _config.yml), or None when unset."""
+    config = Path(blog_root) / "_config.yml"
+    if not config.is_file():
+        return None
+    value = (yaml.safe_load(config.read_text(encoding="utf-8")) or {}).get(
+        "kcworks_collection"
+    )
+    return str(value) if value else None
+
+
+def deposited_records(posts_dir: Path) -> list[tuple[Path, str]]:
+    """(post path, record id) for every post with a kcworks: front-matter
+    deposit URL, in filename order."""
+    records = []
+    for path in sorted(Path(posts_dir).glob("*.md")):
+        match = FRONT_MATTER_RE.match(path.read_text(encoding="utf-8"))
+        if not match:
+            continue
+        url = (yaml.safe_load(match.group(1)) or {}).get("kcworks")
+        if url:
+            records.append((path, str(url).rstrip("/").rsplit("/", 1)[-1]))
+    return records

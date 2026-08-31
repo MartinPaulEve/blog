@@ -85,3 +85,38 @@ class KCWorksClient:
             return response.json()
         except ValueError:
             return {}
+
+    def get_record(self, record_id: str) -> dict:
+        """GET a published record's JSON."""
+        return self._checked(
+            self._session.get(f"{self.base_url}/records/{record_id}")
+        )
+
+    def add_to_collection(self, record_id: str, collection_id: str) -> dict:
+        """Ask for a published record's inclusion in a collection."""
+        return self._checked(
+            self._session.post(
+                f"{self.base_url}/records/{record_id}/communities",
+                json={"communities": [{"id": collection_id}]},
+            )
+        )
+
+    def accept_request(self, request_id: str) -> dict:
+        """Accept a pending request (e.g. a collection inclusion)."""
+        return self._checked(
+            self._session.post(
+                f"{self.base_url}/requests/{request_id}/actions/accept"
+            )
+        )
+
+    def create_collection(self, payload: dict) -> dict:
+        """POST a new collection (community); return its JSON."""
+        return self._checked(
+            self._session.post(f"{self.base_url}/communities", json=payload)
+        )
+
+    def get_collection(self, slug: str) -> dict:
+        """GET a collection's JSON by slug or id."""
+        return self._checked(
+            self._session.get(f"{self.base_url}/communities/{slug}")
+        )

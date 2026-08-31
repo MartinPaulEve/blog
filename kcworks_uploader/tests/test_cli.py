@@ -190,7 +190,12 @@ class TestUploadPostLive:
 
 
 class TestPublishMain:
-    def test_publishes_draft_from_uploads_url(self, capsys, monkeypatch):
+    def test_publishes_draft_from_uploads_url(
+        self, capsys, monkeypatch, tmp_path
+    ):
+        # Run outside any blog checkout so no kcworks_collection config
+        # leaks in from the developer's real _config.yml.
+        monkeypatch.chdir(tmp_path)
         seen = {}
 
         class FakePublishingClient:
@@ -243,3 +248,252 @@ class TestMain:
         rc = main([str(repo / "_posts" / "2026-08-28-a-test-post.md")])
         assert rc == 2
         assert "token" in capsys.readouterr().err.lower()
+
+
+class FakeCollectionClient(FakeClient):
+    """FakeClient plus the collection surface, scriptable per scenario."""
+
+    def __init__(
+        self,
+        inclusion=None,
+        record_ids=("coll-uuid",),
+        accept_error=False,
+    ):
+        super().__init__()
+        self.inclusion = (
+            inclusion
+            if inclusion is not None
+            else {"processed": [{"request_id": "req1"}]}
+        )
+        self.record_ids = list(record_ids)
+        self.accept_error = accept_error
+        self.included = []
+        self.accepted = []
+        self.created = None
+
+    def get_collection(self, slug):
+        self.calls.append("get_collection")
+        return {"id": "coll-uuid", "slug": slug}
+
+    def add_to_collection(self, record_id, collection_id):
+        self.calls.append("include")
+        self.included.append((record_id, collection_id))
+        return self.inclusion
+
+    def accept_request(self, request_id):
+        self.calls.append("accept")
+        if self.accept_error:
+            raise cli.KCWorksError("KC Works returned HTTP 400: no accept")
+        self.accepted.append(request_id)
+        return {"status": "accepted"}
+
+    def get_record(self, record_id):
+        self.calls.append("get_record")
+        return {
+            "id": record_id,
+            "parent": {"communities": {"ids": self.record_ids}},
+        }
+
+    def create_collection(self, payload):
+        self.calls.append("create_collection")
+        self.created = payload
+        return {"id": "coll-uuid", "slug": payload["slug"]}
+
+
+class TestCollectionPayload:
+    def test_carries_slug_title_and_public_visibility(self):
+        payload = cli.collection_payload("evegd-blog-posts", "My Title")
+        assert payload["slug"] == "evegd-blog-posts"
+        assert payload["metadata"]["title"] == "My Title"
+        assert payload["access"]["visibility"] == "public"
+
+    def test_owner_can_publish_directly(self):
+        payload = cli.collection_payload("s", "T")
+        assert payload["access"]["review_policy"] == "open"
+
+    def test_description_included_when_given(self):
+        payload = cli.collection_payload("s", "T", description="About this")
+        assert payload["metadata"]["description"] == "About this"
+
+
+class TestIncludeInCollection:
+    def test_accepted_inclusion_reports_included(self):
+        client = FakeCollectionClient()
+        assert cli.include_in_collection(client, "rec1", "coll-uuid") == (
+            "included"
+        )
+        assert client.included == [("rec1", "coll-uuid")]
+        assert client.accepted == ["req1"]
+
+    def test_already_included_is_reported_without_error(self):
+        client = FakeCollectionClient(
+            inclusion={
+                "processed": [],
+                "errors": [
+                    {"message": "The record is already in this community."}
+                ],
+            }
+        )
+        assert cli.include_in_collection(client, "rec1", "coll-uuid") == (
+            "already"
+        )
+
+    def test_auto_accepted_request_still_counts_as_included(self):
+        client = FakeCollectionClient(accept_error=True)
+        assert cli.include_in_collection(client, "rec1", "coll-uuid") == (
+            "included"
+        )
+
+    def test_pending_review_reports_requested(self):
+        client = FakeCollectionClient(accept_error=True, record_ids=())
+        assert cli.include_in_collection(client, "rec1", "coll-uuid") == (
+            "requested"
+        )
+
+    def test_hard_failure_raises(self):
+        client = FakeCollectionClient(
+            inclusion={
+                "processed": [],
+                "errors": [{"message": "Permission denied"}],
+            }
+        )
+        with pytest.raises(cli.KCWorksError):
+            cli.include_in_collection(client, "rec1", "coll-uuid")
+
+
+class TestEffectiveCollection:
+    def test_override_wins(self, repo):
+        (repo / "_config.yml").write_text("kcworks_collection: from-config\n")
+        assert cli.effective_collection(repo, "explicit", False) == "explicit"
+
+    def test_falls_back_to_blog_config(self, repo):
+        (repo / "_config.yml").write_text("kcworks_collection: from-config\n")
+        assert cli.effective_collection(repo, None, False) == "from-config"
+
+    def test_disabled_gives_none(self, repo):
+        (repo / "_config.yml").write_text("kcworks_collection: from-config\n")
+        assert cli.effective_collection(repo, None, True) is None
+
+    def test_no_config_gives_none(self, repo):
+        assert cli.effective_collection(repo, None, False) is None
+
+
+class TestUploadPostCollection:
+    def test_live_upload_lands_in_the_collection(self, repo):
+        client = FakeCollectionClient()
+        result = upload_post(
+            repo / "_posts" / "2026-08-28-a-test-post.md",
+            client,
+            live=True,
+            collection="evegd-blog-posts",
+        )
+        assert result["collection"] == "included"
+        assert client.calls.index("publish") < client.calls.index("include")
+
+    def test_draft_upload_leaves_the_collection_for_publish_time(self, repo):
+        client = FakeCollectionClient()
+        result = upload_post(
+            repo / "_posts" / "2026-08-28-a-test-post.md",
+            client,
+            live=False,
+            collection="evegd-blog-posts",
+        )
+        assert "collection" not in result
+        assert "include" not in client.calls
+
+    def test_no_collection_means_no_inclusion(self, repo):
+        client = FakeCollectionClient()
+        result = upload_post(
+            repo / "_posts" / "2026-08-28-a-test-post.md",
+            client,
+            live=True,
+            collection=None,
+        )
+        assert "collection" not in result
+        assert "include" not in client.calls
+
+
+class TestPublishMainCollection:
+    def test_publish_includes_into_the_given_collection(
+        self, capsys, monkeypatch
+    ):
+        client = FakeCollectionClient()
+        monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
+        code = publish_main(
+            [
+                "https://works.hcommons.org/uploads/abc12-xyz34",
+                "--token",
+                "tok",
+                "--collection",
+                "evegd-blog-posts",
+            ]
+        )
+        assert code == 0
+        assert client.included == [("abc12-xyz34", "coll-uuid")]
+        assert "included" in capsys.readouterr().out
+
+    def test_no_collection_publishes_without_inclusion(
+        self, capsys, monkeypatch
+    ):
+        client = FakeCollectionClient()
+        monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
+        monkeypatch.chdir("/")
+        code = publish_main(
+            [
+                "https://works.hcommons.org/uploads/abc12-xyz34",
+                "--token",
+                "tok",
+            ]
+        )
+        assert code == 0
+        assert client.included == []
+
+
+class TestCollectionMain:
+    def test_create_posts_the_collection_and_prints_its_url(
+        self, repo, capsys, monkeypatch
+    ):
+        client = FakeCollectionClient()
+        monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
+        monkeypatch.chdir(repo)
+        (repo / "_config.yml").write_text(
+            "kcworks_collection: evegd-blog-posts\n"
+        )
+        code = cli.collection_main(
+            ["create", "--title", "eve.gd blog posts", "--token", "tok"]
+        )
+        assert code == 0
+        assert client.created["slug"] == "evegd-blog-posts"
+        assert client.created["metadata"]["title"] == "eve.gd blog posts"
+        assert "evegd-blog-posts" in capsys.readouterr().out
+
+    def test_backfill_includes_every_deposited_post(
+        self, repo, capsys, monkeypatch
+    ):
+        client = FakeCollectionClient()
+        monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
+        monkeypatch.chdir(repo)
+        (repo / "_config.yml").write_text(
+            "kcworks_collection: evegd-blog-posts\n"
+        )
+        post = repo / "_posts" / "2026-08-28-a-test-post.md"
+        post.write_text(
+            POST_TEXT.replace(
+                "---\nThe opening",
+                "kcworks: https://works.hcommons.org/records/abc12-xyz34\n"
+                "---\nThe opening",
+            )
+        )
+        (repo / "_posts" / "2026-08-29-undeposited.md").write_text(
+            "---\ntitle: No deposit\ndate: 2026-08-29\n---\nBody\n"
+        )
+        code = cli.collection_main(["backfill", "--token", "tok"])
+        assert code == 0
+        assert client.included == [("abc12-xyz34", "coll-uuid")]
+        out = capsys.readouterr().out
+        assert "abc12-xyz34" in out and "included" in out
+
+    def test_missing_token_is_an_error(self, repo, capsys, monkeypatch):
+        monkeypatch.chdir(repo)
+        monkeypatch.delenv("KCWORKS_API_TOKEN", raising=False)
+        assert cli.collection_main(["backfill"]) == 2
