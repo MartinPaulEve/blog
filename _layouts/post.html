@@ -60,7 +60,7 @@
 
                 {% if page.forwardlink %}<p class="post-description post-related">This post has (a) <strong>follow-up</strong> post(s): {% for link in page.forwardlink %}“{% post_link {{link}} %}”{% if forloop.last != true %},{% endif %}{% endfor %}</p>{% endif %}
 
-                {% if page.pdf_url %}<p class="post-description post-pdf"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i> <a href="{{ page.pdf_url | replace: site.url, '' }}">Download this post as a PDF</a>{% if page.kcworks %} | <a href="{{ page.kcworks }}">View this item on KC Works</a>{% endif %}</p>{% endif %}
+                {% if page.pdf_url %}<p class="post-description post-pdf"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i> <a href="{{ page.pdf_url | replace: site.url, '' }}">Download this post as a PDF</a>{% if page.kcworks %} &nbsp;|&nbsp; <a href="{{ page.kcworks }}">View this item on KC Works</a>{% endif %}</p>{% endif %}
             </div>
         </div>
 
