@@ -3,6 +3,7 @@ title: "On (not) using AI detectors"
 layout: post
 date: 2026-08-31
 doi: https://doi.org/10.59348/hxwam-6hk75
+kcworks: https://works.hcommons.org/records/j99vy-66m60
 image:
   credit: "Marcin Wilkowski / https://betterimagesofai.org / https://creativecommons.org/licenses/by/4.0/"
   creditlink: "https://betterimagesofai.org/images?artist=MarcinWilkowski&title=AIpapermills"
