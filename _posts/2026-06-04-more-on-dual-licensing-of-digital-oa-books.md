@@ -4,6 +4,7 @@ backlink:
 - 2026-06-03-what-is-actually-licensed-in-printdigital-dual-licensed-books
 date: 2026-06-04
 doi: https://doi.org/10.59348/pyncb-wyx70
+kcworks: https://works.hcommons.org/records/30kbc-hkt82
 image:
   credit: Markus Winkler on Unsplash
   creditlink: https://unsplash.com/@markuswinkler?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText

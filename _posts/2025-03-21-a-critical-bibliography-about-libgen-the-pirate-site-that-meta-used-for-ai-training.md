@@ -2,6 +2,7 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2025/03/21/a-critical-bibliography-about-libgen-the-pirate-site-that-meta-used-for-ai-training
 date: 2025-03-21
 doi: https://doi.org/10.59348/65tfk-v7p63
+kcworks: https://works.hcommons.org/records/rfee9-ve407
 image:
   feature: header_warez.png
 layout: post

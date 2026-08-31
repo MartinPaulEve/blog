@@ -2,6 +2,7 @@
 archive: https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields
 date: 2026-06-23
 doi: https://doi.org/10.59348/vrt01-f3b49
+kcworks: https://works.hcommons.org/records/8pgtg-6ta28
 image:
   credit: Zotero
   creditlink: https://www.zotero.org/

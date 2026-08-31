@@ -2,6 +2,7 @@
 archive: https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2025/12/22/on-citations-ai-and-not-reading/
 date: 2025-12-22
 doi: https://doi.org/10.59348/esc68-nah82
+kcworks: https://works.hcommons.org/records/eztn8-p8547
 image:
   credit: Blaz Photo on Unsplash
   creditlink: https://unsplash.com/@blazphoto

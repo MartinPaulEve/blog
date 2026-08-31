@@ -2,6 +2,7 @@
 title: "How can you securely share a secret number with someone, totally in public? Elliptic Curves"
 layout: post
 doi: https://doi.org/10.59348/zx6pm-4nd50
+kcworks: https://works.hcommons.org/records/p0qxm-zqd71
 date: 2026-08-19
 image:
   credit: "Martin Paul Eve"

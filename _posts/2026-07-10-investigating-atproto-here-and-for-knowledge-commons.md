@@ -2,6 +2,7 @@
 archive: 'https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2026/07/10/Investigating-atproto-here-and-for-knowledge-commons'
 date: '2026-07-10'
 doi: https://doi.org/10.59348/r3x69-k5d70
+kcworks: https://works.hcommons.org/records/a4vce-d3a56
 image:
   credit: GuerillaBuzz on Unsplash
   creditlink: https://unsplash.com/@guerrillabuzz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText

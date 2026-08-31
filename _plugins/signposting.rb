@@ -213,6 +213,16 @@ module Signposting
     node
   end
 
+  # The repository deposit URL(s) from a document's front-matter `kcworks:`
+  # value, ready for a schema.org archivedAt: nil when absent/blank, the
+  # single URL as a scalar, or the list when several were given.
+  def self.archived_at(value)
+    urls = Array(value).map { |v| v.to_s.strip }.reject(&:empty?)
+    return nil if urls.empty?
+
+    urls.length == 1 ? urls.first : urls
+  end
+
   CSL_ACCEPT = "application/vnd.citationstyles.csl+json".freeze
   USER_AGENT = "eve.gd-signposting (https://eve.gd; mailto:martin@eve.gd)".freeze
 
@@ -651,6 +661,11 @@ module Jekyll
         data["datePublished"] = doc.date.strftime("%Y-%m-%d")
       end
       data["identifier"] = doc.data["doi"] if doc.data["doi"]
+      # A repository deposit of this post (front-matter `kcworks:`), e.g. on
+      # KC Works, advertised as the place the post is archived.
+      if (archived = Signposting.archived_at(doc.data["kcworks"]))
+        data["archivedAt"] = archived
+      end
       if (pdf = doc.data["pdf_url"])
         data["encoding"] = {
           "@type" => "MediaObject",

@@ -2,6 +2,7 @@
 archive: https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2026/04/17/thinking-about-dogs
 date: 2026-04-17
 doi: https://doi.org/10.59348/1mp5y-ae341
+kcworks: https://works.hcommons.org/records/d2wby-92d36
 image:
   credit: Alvan Nee on Unsplash
   creditlink: https://unsplash.com/@alvannee

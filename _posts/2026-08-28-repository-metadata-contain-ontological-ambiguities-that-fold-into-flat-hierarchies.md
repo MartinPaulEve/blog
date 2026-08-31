@@ -3,6 +3,7 @@ title: "Repository metadata contain ontological ambiguities that fold into flat 
 layout: post
 date: 2026-08-28
 doi: https://doi.org/10.59348/mjvdw-w0051
+kcworks: https://works.hcommons.org/records/83n59-ana25
 image:
   credit: "Markus Winkler on Unsplash"
   creditlink: "https://unsplash.com/@markuswinkler"

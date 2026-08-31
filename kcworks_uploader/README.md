@@ -8,7 +8,27 @@ externally-managed identifier).
 
 ## Usage
 
-From this directory:
+From the blog root, via the driver script:
+
+```sh
+./kcworks.sh dry-run _posts/YYYY-MM-DD-slug.md    # record JSON, no network
+./kcworks.sh deposit _posts/YYYY-MM-DD-slug.md    # create a draft (default)
+./kcworks.sh deposit --live _posts/YYYY-MM-DD-slug.md   # publish immediately
+./kcworks.sh publish <uploads-url-or-record-id>   # publish a reviewed draft
+```
+
+Once a deposit is published, record it in the post's front matter so the
+blog and repository records stay linked:
+
+```yaml
+kcworks: https://works.hcommons.org/records/<id>
+```
+
+The signposting plugin emits this as `archivedAt` in the post's
+metadata.json (the KC Works record already points back through its
+canonical-URL identifier).
+
+Or from this directory:
 
 ```sh
 # Preview the record JSON without touching the network

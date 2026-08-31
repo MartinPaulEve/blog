@@ -2,6 +2,7 @@
 archive: https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2026/04/19/the-necessary-pain-involved-in-blogging-if-you-want-your-work-to-be-preserved-beyond-your-lifespan
 date: 2026-04-19
 doi: https://doi.org/10.59348/6cr4z-4ct43
+kcworks: https://works.hcommons.org/records/rcjt2-9wz61
 image:
   credit: nikko macaspac on Unsplash
   creditlink: https://unsplash.com/@nikkotations

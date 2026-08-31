@@ -4,6 +4,7 @@ backlink:
 - 2025-12-26-authorship-division-of-labour-material-form-thoughts-on-samuel-a-moores-publishing-beyond-the-market
 date: 2025-12-28
 doi: https://doi.org/10.59348/hqbwp-cx806
+kcworks: https://works.hcommons.org/records/75y0z-aja56
 image:
   credit: Jonas Jacobsson on Unsplash
   creditlink: https://unsplash.com/@jonasjacobsson

@@ -2,6 +2,7 @@
 archive: https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2026/02/22/structure-and-there-is-no-antimemetics-division
 date: 2026-02-22
 doi: https://doi.org/10.59348/d2tda-w5c07
+kcworks: https://works.hcommons.org/records/ej5cb-36646
 image:
   credit: Peter Pryharski on Unsplash
   creditlink: https://unsplash.com/@meteorphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText

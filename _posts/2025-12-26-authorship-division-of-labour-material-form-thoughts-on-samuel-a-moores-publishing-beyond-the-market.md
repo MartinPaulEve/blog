@@ -2,6 +2,7 @@
 archive: https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2025/12/26/authorship-division-of-labour-material-and-digital-form-thoughts-on-samuel-a-moores-publishing-beyond-the-market
 date: 2025-12-26
 doi: https://doi.org/10.59348/cwncn-5122
+kcworks: https://works.hcommons.org/records/g380e-3zx09
 forwardlink:
 - 2025-12-28-profit-cost-price-learned-societies-further-thoughts-on-samuel-a-moores-publishing-beyond-the-market
 image:

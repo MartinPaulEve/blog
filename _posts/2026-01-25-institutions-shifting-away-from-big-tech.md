@@ -2,6 +2,7 @@
 archive: https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2026/01/25/institutions-shifting-away-from-big-tech/
 date: 2026-01-25
 doi: https://doi.org/10.59348/bs23t-k8352
+kcworks: https://works.hcommons.org/records/dqjd9-bdb09
 image:
   credit: Towfiqu barbhuiya on Unsplash
   creditlink: https://unsplash.com/@towfiqu999999

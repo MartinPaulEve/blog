@@ -2,6 +2,7 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2025/03/22/a-few-critical-notes-on-elly-griffiths-the-frozen-people
 date: 2025-03-22
 doi: https://doi.org/10.59348/ebtbq-5jn10
+kcworks: https://works.hcommons.org/records/pqj0q-gdr59
 image:
   feature: header_frozen.png
 layout: post
