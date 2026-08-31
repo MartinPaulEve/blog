@@ -37,16 +37,16 @@ shift || true
 
 case "$cmd" in
     dry-run)
-        exec uv run --project kcworks_uploader kcworks-upload --dry-run "$@"
+        exec uv run --env-file .env --project kcworks_uploader kcworks-upload --dry-run "$@"
         ;;
     deposit)
-        exec uv run --project kcworks_uploader kcworks-upload "$@"
+        exec uv run --env-file .env --project kcworks_uploader kcworks-upload "$@"
         ;;
     publish)
-        exec uv run --project kcworks_uploader kcworks-publish "$@"
+        exec uv run --env-file .env --project kcworks_uploader kcworks-publish "$@"
         ;;
     collection)
-        exec uv run --project kcworks_uploader kcworks-collection "$@"
+        exec uv run --env-file .env --project kcworks_uploader kcworks-collection "$@"
         ;;
     help | -h | --help | "")
         usage 0

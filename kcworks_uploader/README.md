@@ -44,7 +44,8 @@ and maintenance:
 ./kcworks.sh collection backfill
 ```
 
-Both need `$KCWORKS_API_TOKEN`. Backfill is idempotent: records already
+The token comes from `.env` in the blog root (`KCWORKS_API_TOKEN=...`), which the
+driver script and the `--env-file` examples load automatically. Backfill is idempotent: records already
 in the collection report `already`.
 
 Or from this directory:
@@ -54,13 +55,13 @@ Or from this directory:
 uv run kcworks-upload ../_posts/2026-08-28-some-post.md --dry-run
 
 # Create the draft (review it in the browser before publishing)
-KCWORKS_API_TOKEN=... uv run kcworks-upload ../_posts/2026-08-28-some-post.md
+uv run --env-file ../.env kcworks-upload ../_posts/2026-08-28-some-post.md
 
 # Or skip the draft stage and publish immediately
-KCWORKS_API_TOKEN=... uv run kcworks-upload ../_posts/2026-08-28-some-post.md --live
+uv run --env-file ../.env kcworks-upload ../_posts/2026-08-28-some-post.md --live
 
 # Publish a previously created draft (takes the uploads URL or a bare id)
-KCWORKS_API_TOKEN=... uv run kcworks-publish https://works.hcommons.org/uploads/<id>
+uv run --env-file ../.env kcworks-publish https://works.hcommons.org/uploads/<id>
 ```
 
 The upload tool prints the draft's edit URL
