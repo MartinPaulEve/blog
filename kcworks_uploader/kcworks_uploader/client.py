@@ -120,3 +120,13 @@ class KCWorksClient:
         return self._checked(
             self._session.get(f"{self.base_url}/communities/{slug}")
         )
+
+    def upload_collection_logo(self, collection_id: str, path: Path) -> dict:
+        """PUT an image as a collection's logo."""
+        return self._checked(
+            self._session.put(
+                f"{self.base_url}/communities/{collection_id}/logo",
+                data=Path(path).read_bytes(),
+                headers={"Content-Type": "application/octet-stream"},
+            )
+        )

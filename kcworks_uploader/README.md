@@ -42,6 +42,9 @@ and maintenance:
 
 # Include every post with a kcworks: front-matter deposit
 ./kcworks.sh collection backfill
+
+# Set the collection icon (the stylised portrait lives in images/)
+./kcworks.sh collection logo images/kcworks-collection-icon.png
 ```
 
 The token comes from `.env` in the blog root (`KCWORKS_API_TOKEN=...`), which the

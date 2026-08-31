@@ -10,6 +10,7 @@
 #   ./kcworks.sh publish <uploads-url-or-record-id>   # publish a draft
 #   ./kcworks.sh collection create --title "..."      # one-time: make it
 #   ./kcworks.sh collection backfill                  # deposits -> collection
+#   ./kcworks.sh collection logo <image>              # set collection icon
 #
 # Published records land in the collection named by kcworks_collection in
 # _config.yml (opt out per run with --no-collection).

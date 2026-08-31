@@ -299,6 +299,11 @@ class FakeCollectionClient(FakeClient):
         self.created = payload
         return {"id": "coll-uuid", "slug": payload["slug"]}
 
+    def upload_collection_logo(self, collection_id, path):
+        self.calls.append("logo")
+        self.logo = (collection_id, path)
+        return {"size": path.stat().st_size}
+
 
 class TestCollectionPayload:
     def test_carries_slug_title_and_public_visibility(self):
@@ -497,3 +502,35 @@ class TestCollectionMain:
         monkeypatch.chdir(repo)
         monkeypatch.delenv("KCWORKS_API_TOKEN", raising=False)
         assert cli.collection_main(["backfill"]) == 2
+
+
+class TestCollectionMainLogo:
+    def test_uploads_the_logo_to_the_configured_collection(
+        self, repo, capsys, monkeypatch
+    ):
+        client = FakeCollectionClient()
+        monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
+        monkeypatch.chdir(repo)
+        (repo / "_config.yml").write_text(
+            "kcworks_collection: evegd-blog-posts\n"
+        )
+        icon = repo / "icon.png"
+        icon.write_bytes(b"\x89PNG bytes")
+        code = cli.collection_main(["logo", str(icon), "--token", "tok"])
+        assert code == 0
+        assert client.logo == ("coll-uuid", icon)
+        assert "logo" in capsys.readouterr().out.lower()
+
+    def test_missing_image_is_an_error(self, repo, capsys, monkeypatch):
+        monkeypatch.setattr(
+            cli, "KCWorksClient", lambda *a, **k: FakeCollectionClient()
+        )
+        monkeypatch.chdir(repo)
+        (repo / "_config.yml").write_text(
+            "kcworks_collection: evegd-blog-posts\n"
+        )
+        code = cli.collection_main(
+            ["logo", str(repo / "missing.png"), "--token", "tok"]
+        )
+        assert code == 1
+        assert "missing.png" in capsys.readouterr().err

@@ -241,3 +241,21 @@ class TestCollections:
         client = KCWorksClient(BASE, "tok", session=session)
         with pytest.raises(KCWorksError, match="403"):
             client.add_to_collection("rec1", "c")
+
+
+class TestUploadCollectionLogo:
+    def test_puts_the_image_bytes(self, tmp_path):
+        logo = tmp_path / "icon.png"
+        logo.write_bytes(b"\x89PNG fake image bytes")
+        session = FakeSession(
+            {
+                ("PUT", f"{BASE}/communities/uuid-1/logo"): FakeResponse(
+                    200, {"size": 21}
+                )
+            }
+        )
+        client = KCWorksClient(BASE, "tok", session=session)
+        assert client.upload_collection_logo("uuid-1", logo) == {"size": 21}
+        sent = session.sent[("PUT", f"{BASE}/communities/uuid-1/logo")]
+        assert sent["data"] == b"\x89PNG fake image bytes"
+        assert sent["headers"]["Content-Type"] == "application/octet-stream"

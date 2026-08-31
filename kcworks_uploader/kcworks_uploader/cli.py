@@ -226,7 +226,14 @@ def collection_main(argv=None) -> int:
         default=None,
         help="collection slug (default: kcworks_collection in _config.yml)",
     )
-    for command in (create, backfill):
+    logo = sub.add_parser("logo", help="set the collection's logo image")
+    logo.add_argument("image", type=Path, help="path to the logo image")
+    logo.add_argument(
+        "--collection",
+        default=None,
+        help="collection slug (default: kcworks_collection in _config.yml)",
+    )
+    for command in (create, backfill, logo):
         command.add_argument(
             "--token",
             default=os.environ.get(TOKEN_ENV_VAR),
@@ -280,6 +287,19 @@ def collection_main(argv=None) -> int:
     except KCWorksError as exc:
         print(f"Error: {exc}", file=sys.stderr)
         return 1
+
+    if args.command == "logo":
+        if not args.image.is_file():
+            print(f"No such image: {args.image}", file=sys.stderr)
+            return 1
+        try:
+            client.upload_collection_logo(collection_id, args.image)
+        except KCWorksError as exc:
+            print(f"Error: {exc}", file=sys.stderr)
+            return 1
+        print(f"Logo set for {collection} from {args.image}")
+        return 0
+
     failures = 0
     for path, record_id in deposited_records(args.posts_dir):
         try:
