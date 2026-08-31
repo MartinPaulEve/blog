@@ -66,6 +66,7 @@ references:
     name: Daily Nous
     type: Blog
     url: https://dailynous.com/
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mufm2bxodp24"
 ---
 A frequent discussion that I have had with an academic colleague, but also with various team members at Knowledge Commons and also with those at OLH, pertains to the use of "AI writing detectors" to unearth cheating students and/or dishonest academic researchers.
 
@@ -103,7 +104,7 @@ I have had the debate that such numbers can be used only as a guide, a sort of r
 
 I _would_ trust the watermarking system of the company that produced the AI model in the first place. But this means that you have to check with all the AI providers as to whether any of them generated it. And it is possible that local, specifically trained LLMs will not have such watermarking and cannot be detected.
 
-The [Committee on Publication Ethics (COPE) also solicited advice](https://publicationethics.org/guidance/case/handling-article-produced-ai?utm_source=chatgpt.com), last year, in 2025, on the use of these tools:
+The [Committee on Publication Ethics (COPE) also solicited advice](https://publicationethics.org/guidance/case/handling-article-produced-ai), last year, in 2025, on the use of these tools:
 
 > The current status of AI detection software means that it is not sensible to apply a threshold approach. Sometimes text written by a human can be flagged as produced by AI if it uses very specific language and phrases, and AI indicators are still inconsistent enough that their output cannot be relied upon; they can both under-predict and over-predict AI usage. Most policies on generative AI are based on how the tool is used, how the output is verified, how transparent the authors are, and the editorial assessment rather than a certain threshold of acceptability.
 
@@ -128,7 +129,7 @@ But anyway, here's where I end up on this:
 
 I do not have a better plan for detecting this stuff. It is a huge problem for academia. The optimism of the "design new assessments that are AI-proof" crowd does not warm my heart. Essay-writing was such a huge developmental part of my intellectual trajectory. For a generation or more to lose that because machines can produce plausible (but often not even great) facsimiles of argumentative reason and expression of "thought" is, in my view, an educational tragedy.
 
-I do not even like the idea of a return to closed-book or in-person examinations. I fared poorly in my school exams... _until I was allowed to type my answers on a computer_. I did not have internet or anything when writing, but the second I did not have to write by hand, my grades radically improved. Furthermore, actually doing research, as an undergraduate, towards an essay was the part of the training that I needed and wanted. Not my ability to sit in an exam room having magically learned in advance what I should have read to answer an argumentative/analytical question.
+I do not even like the idea of a return to closed-book or in-person examinations. I fared poorly in my school exams... _until I was allowed to type my answers on a computer_. I did not have internet or anything when writing, but the second I did not have to write by hand, my grades radically improved. Furthermore, actually doing research, as an undergraduate, working towards an essay, was the part of the training that I needed and wanted. Not my ability to sit in an exam room having magically learned in advance what I should have read to answer an argumentative/analytical question.
 
 ### Featured Image
 
