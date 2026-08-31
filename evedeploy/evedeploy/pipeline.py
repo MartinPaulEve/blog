@@ -18,6 +18,7 @@ from pathlib import Path
 RSYNC_TARGET = "evegd@reclaim:/home/evegd/blog/_site/"
 CV_SOURCE_DIR = Path("../eprintsToCV/output")
 MIN_NODE_MAJOR = 19
+PREVIEW_PORT = 8000
 
 
 class DeployError(RuntimeError):
@@ -164,7 +165,54 @@ def build_site(
     echo("==> Building site (PDF editions included)")
     jekyll_build(root, run=run)
     echo(f"==> Done. Site written to {root / '_site'}")
-    echo("    Preview with: python3 -m http.server -d _site 8000")
+
+
+def port_is_free(port: int) -> bool:
+    """True when nothing is listening on the port on localhost."""
+    import socket
+
+    with socket.socket() as sock:
+        try:
+            sock.bind(("127.0.0.1", port))
+            return True
+        except OSError:
+            return False
+
+
+def serve_site(root: Path, run=default_run, echo=print, port_free=None) -> None:
+    """Serve the built _site on localhost for preview; blocks until Ctrl+C.
+
+    A busy PREVIEW_PORT (a preview already running, say) falls over to the
+    next free port rather than crashing into Address-already-in-use.
+    check=False because stopping the server with Ctrl+C makes it exit
+    non-zero; that is the normal way out, not a failure.
+    """
+    root = Path(root)
+    free = port_free or port_is_free
+    candidates = range(PREVIEW_PORT, PREVIEW_PORT + 10)
+    port = next((p for p in candidates if free(p)), None)
+    if port is None:
+        raise DeployError(
+            f"no free preview port between {candidates[0]} and {candidates[-1]}"
+        )
+    echo(f"==> Serving preview at http://127.0.0.1:{port}/ (Ctrl+C to stop)")
+    try:
+        run(
+            [
+                "python3",
+                "-m",
+                "http.server",
+                "--bind",
+                "127.0.0.1",
+                "-d",
+                f"{root}/_site",
+                str(port),
+            ],
+            check=False,
+        )
+    except KeyboardInterrupt:
+        pass
+    echo("==> Preview server stopped.")
 
 
 def deploy(

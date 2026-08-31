@@ -12,6 +12,7 @@ from evedeploy.pipeline import (
     refresh_cv,
     resize_covers,
     rsync_site,
+    serve_site,
 )
 
 
@@ -192,6 +193,71 @@ class TestBuildSite:
         lines = []
         build_site(root, run=FakeRun(), echo=lines.append)
         assert any("_site" in line for line in lines)
+
+
+class TestServeSite:
+    def test_serves_the_site_dir_on_localhost(self, root):
+        run = FakeRun()
+        serve_site(
+            root,
+            run=run,
+            echo=lambda *a, **k: None,
+            port_free=lambda p: True,
+        )
+        assert run.calls[0]["cmd"] == [
+            "python3",
+            "-m",
+            "http.server",
+            "--bind",
+            "127.0.0.1",
+            "-d",
+            f"{root}/_site",
+            "8000",
+        ]
+
+    def test_tells_the_user_the_preview_url(self, root):
+        lines = []
+        serve_site(
+            root,
+            run=FakeRun(),
+            echo=lines.append,
+            port_free=lambda p: True,
+        )
+        assert any("http://127.0.0.1:8000" in line for line in lines)
+
+    def test_busy_port_falls_over_to_the_next_free_one(self, root):
+        run = FakeRun()
+        lines = []
+        serve_site(
+            root,
+            run=run,
+            echo=lines.append,
+            port_free=lambda p: p != 8000,
+        )
+        assert run.calls[0]["cmd"][-1] == "8001"
+        assert any("http://127.0.0.1:8001" in line for line in lines)
+
+    def test_no_free_port_at_all_is_a_deploy_error(self, root):
+        run = FakeRun()
+        with pytest.raises(DeployError, match="port"):
+            serve_site(
+                root,
+                run=run,
+                echo=lambda *a, **k: None,
+                port_free=lambda p: False,
+            )
+        assert run.calls == []
+
+    def test_ctrl_c_stops_the_server_cleanly(self, root):
+        def interrupted(cmd, cwd=None, check=True, capture=False):
+            raise KeyboardInterrupt
+
+        serve_site(
+            root,
+            run=interrupted,
+            echo=lambda *a, **k: None,
+            port_free=lambda p: True,
+        )
 
 
 class TestDeploy:

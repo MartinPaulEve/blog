@@ -20,20 +20,24 @@ uv run --project evedeploy evedeploy --no-resize ["commit message"]
 
 Or via the compatibility shim: `./newdeploy.sh ["commit message"]`.
 
-To build the site locally to `_site` for preview — PDF editions included,
-nothing published, committed or deployed:
+To build the site locally to `_site` and preview it — PDF editions
+included, nothing published, committed or deployed:
 
 ```sh
 uv run --project evedeploy evedeploy --build-only
-python3 -m http.server -d _site 8000   # then browse http://localhost:8000
 ```
+
+This serves the preview at http://127.0.0.1:8000/ (falling over to the
+next free port when 8000 is taken) until Ctrl+C. Pass `--no-server` to
+just build without serving.
 
 Options:
 
 - `MESSAGE` — the git commit message (default: `Publish YYYY-MM-DD HH:MM`).
-- `--build-only` — just resize covers and `jekyll build` to `_site` for
-  local preview (the pdf_pages plugin renders the PDF editions during the
-  build); skips sequoia, the CV refresh, git and rsync entirely.
+- `--build-only` — just resize covers and `jekyll build` to `_site`, then
+  serve the local preview (the pdf_pages plugin renders the PDF editions
+  during the build); skips sequoia, the CV refresh, git and rsync entirely.
+- `--no-server` — with `--build-only`: skip the preview server.
 - `--no-resize` — skip the cover-image resize step.
 - `--yes` — skip the interactive "Publish these to ATProto for real?" gate.
 - `--root PATH` — the blog root (default: found by walking up from the

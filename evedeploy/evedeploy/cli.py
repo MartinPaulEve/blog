@@ -8,7 +8,13 @@ from pathlib import Path
 import click
 
 from evedeploy.banner import print_banner
-from evedeploy.pipeline import DeployError, build_site, deploy
+from evedeploy.pipeline import (
+    PREVIEW_PORT,
+    DeployError,
+    build_site,
+    deploy,
+    serve_site,
+)
 
 
 def find_root(start: Path) -> Path:
@@ -42,7 +48,12 @@ def find_root(start: Path) -> Path:
     help="Just build the site (PDFs included) to _site for local preview; "
     "no publish, commit or deploy.",
 )
-def main(message, no_resize, yes, root, build_only):
+@click.option(
+    "--no-server",
+    is_flag=True,
+    help="With --build-only: skip the preview server after the build.",
+)
+def main(message, no_resize, yes, root, build_only, no_server):
     """Build, publish and deploy the eve.gd blog."""
     print_banner()
 
@@ -57,6 +68,13 @@ def main(message, no_resize, yes, root, build_only):
             build_site(root=root, resize=not no_resize, echo=click.echo)
         except DeployError as exc:
             raise click.ClickException(str(exc)) from exc
+        if no_server:
+            click.echo(
+                "    Preview with: python3 -m http.server -d "
+                f"{root}/_site {PREVIEW_PORT}"
+            )
+        else:
+            serve_site(root=root, echo=click.echo)
         return
 
     if message is None:

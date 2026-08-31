@@ -38,6 +38,17 @@ def build_spy(monkeypatch):
     return seen
 
 
+@pytest.fixture
+def serve_spy(monkeypatch):
+    seen = {}
+
+    def fake_serve(root, echo=None):
+        seen.update(root=root)
+
+    monkeypatch.setattr(cli, "serve_site", fake_serve, raising=False)
+    return seen
+
+
 class TestFindRoot:
     def test_finds_config_in_start_dir(self, blog_root):
         assert find_root(blog_root) == blog_root
@@ -100,7 +111,9 @@ class TestMain:
 
 
 class TestBuildOnly:
-    def test_builds_without_deploying(self, blog_root, deploy_spy, build_spy):
+    def test_builds_without_deploying(
+        self, blog_root, deploy_spy, build_spy, serve_spy
+    ):
         result = CliRunner().invoke(
             main, ["--root", str(blog_root), "--build-only"]
         )
@@ -108,14 +121,16 @@ class TestBuildOnly:
         assert Path(build_spy["root"]) == blog_root
         assert deploy_spy == {}
 
-    def test_no_resize_is_respected(self, blog_root, deploy_spy, build_spy):
+    def test_no_resize_is_respected(
+        self, blog_root, deploy_spy, build_spy, serve_spy
+    ):
         CliRunner().invoke(
             main, ["--root", str(blog_root), "--build-only", "--no-resize"]
         )
         assert build_spy["resize"] is False
 
     def test_needs_no_confirmation_or_message(
-        self, blog_root, deploy_spy, build_spy
+        self, blog_root, deploy_spy, build_spy, serve_spy
     ):
         # No --yes and no stdin: a local build must never prompt.
         result = CliRunner().invoke(
@@ -123,3 +138,36 @@ class TestBuildOnly:
         )
         assert result.exit_code == 0
         assert deploy_spy == {}
+
+    def test_serves_the_preview_by_default(
+        self, blog_root, deploy_spy, build_spy, serve_spy
+    ):
+        result = CliRunner().invoke(
+            main, ["--root", str(blog_root), "--build-only"]
+        )
+        assert result.exit_code == 0
+        assert Path(serve_spy["root"]) == blog_root
+
+    def test_no_server_skips_the_preview_server(
+        self, blog_root, deploy_spy, build_spy, serve_spy
+    ):
+        result = CliRunner().invoke(
+            main, ["--root", str(blog_root), "--build-only", "--no-server"]
+        )
+        assert result.exit_code == 0
+        assert serve_spy == {}
+        assert Path(build_spy["root"]) == blog_root
+
+    def test_server_launches_after_a_successful_build(
+        self, blog_root, deploy_spy, serve_spy, monkeypatch
+    ):
+        # A failed build must not leave a server running on a stale site.
+        def failing_build(root, resize=True, echo=None):
+            raise cli.DeployError("jekyll build failed")
+
+        monkeypatch.setattr(cli, "build_site", failing_build, raising=False)
+        result = CliRunner().invoke(
+            main, ["--root", str(blog_root), "--build-only"]
+        )
+        assert result.exit_code != 0
+        assert serve_spy == {}
