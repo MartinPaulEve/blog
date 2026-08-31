@@ -27,6 +27,17 @@ def deploy_spy(monkeypatch):
     return seen
 
 
+@pytest.fixture
+def build_spy(monkeypatch):
+    seen = {}
+
+    def fake_build(root, resize=True, echo=None):
+        seen.update(root=root, resize=resize)
+
+    monkeypatch.setattr(cli, "build_site", fake_build, raising=False)
+    return seen
+
+
 class TestFindRoot:
     def test_finds_config_in_start_dir(self, blog_root):
         assert find_root(blog_root) == blog_root
@@ -86,3 +97,29 @@ class TestMain:
         monkeypatch.chdir(blog_root)
         CliRunner().invoke(main, ["--yes"])
         assert Path(deploy_spy["root"]) == blog_root
+
+
+class TestBuildOnly:
+    def test_builds_without_deploying(self, blog_root, deploy_spy, build_spy):
+        result = CliRunner().invoke(
+            main, ["--root", str(blog_root), "--build-only"]
+        )
+        assert result.exit_code == 0
+        assert Path(build_spy["root"]) == blog_root
+        assert deploy_spy == {}
+
+    def test_no_resize_is_respected(self, blog_root, deploy_spy, build_spy):
+        CliRunner().invoke(
+            main, ["--root", str(blog_root), "--build-only", "--no-resize"]
+        )
+        assert build_spy["resize"] is False
+
+    def test_needs_no_confirmation_or_message(
+        self, blog_root, deploy_spy, build_spy
+    ):
+        # No --yes and no stdin: a local build must never prompt.
+        result = CliRunner().invoke(
+            main, ["--root", str(blog_root), "--build-only"]
+        )
+        assert result.exit_code == 0
+        assert deploy_spy == {}

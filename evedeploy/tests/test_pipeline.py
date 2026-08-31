@@ -4,6 +4,7 @@ import pytest
 
 from evedeploy.pipeline import (
     DeployError,
+    build_site,
     check_preflight,
     deploy,
     git_commit_push,
@@ -157,16 +158,54 @@ class TestBuildAndRsync:
         ]
 
 
+class TestBuildSite:
+    def test_resizes_covers_then_builds_and_nothing_else(self, root):
+        run = FakeRun()
+        build_site(root, run=run, echo=lambda *a, **k: None)
+        assert run.commands() == ["uv run", "jekyll build"]
+
+    def test_no_resize_runs_only_the_build(self, root):
+        run = FakeRun()
+        build_site(root, resize=False, run=run, echo=lambda *a, **k: None)
+        assert run.commands() == ["jekyll build"]
+
+    def test_never_publishes_commits_or_deploys(self, root):
+        run = FakeRun()
+        build_site(root, run=run, echo=lambda *a, **k: None)
+        commands = run.commands()
+        assert not any(c.startswith("sequoia") for c in commands)
+        assert not any(c.startswith("git") for c in commands)
+        assert not any(c.startswith("rsync") for c in commands)
+
+    def test_works_without_sequoia_on_path(self, root):
+        # No preflight: a local build must not demand the publish toolchain.
+        run = FakeRun()
+        build_site(root, run=run, echo=lambda *a, **k: None)
+        assert "jekyll build" in run.commands()
+
+    def test_build_failure_raises_deploy_error(self, root):
+        run = FakeRun({"jekyll build": 1})
+        with pytest.raises(DeployError, match="jekyll"):
+            build_site(root, run=run, echo=lambda *a, **k: None)
+
+    def test_tells_the_user_where_the_site_is(self, root):
+        lines = []
+        build_site(root, run=FakeRun(), echo=lines.append)
+        assert any("_site" in line for line in lines)
+
+
 class TestDeploy:
     def deploy_kwargs(self, root, run, confirm=lambda: True):
-        return dict(
-            root=root,
-            message="msg",
-            confirm=confirm,
-            run=run,
-            echo=lambda *a, **k: None,
-            which=lambda name: f"/bin/{name}" if name == "sequoia" else None,
-        )
+        return {
+            "root": root,
+            "message": "msg",
+            "confirm": confirm,
+            "run": run,
+            "echo": lambda *a, **k: None,
+            "which": lambda name: (
+                f"/bin/{name}" if name == "sequoia" else None
+            ),
+        }
 
     def test_declining_the_gate_aborts_before_any_publish(self, root):
         run = FakeRun()

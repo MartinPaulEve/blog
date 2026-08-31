@@ -8,7 +8,7 @@ from pathlib import Path
 import click
 
 from evedeploy.banner import print_banner
-from evedeploy.pipeline import DeployError, deploy
+from evedeploy.pipeline import DeployError, build_site, deploy
 
 
 def find_root(start: Path) -> Path:
@@ -36,7 +36,13 @@ def find_root(start: Path) -> Path:
     default=None,
     help="Blog root (default: found from the working directory).",
 )
-def main(message, no_resize, yes, root):
+@click.option(
+    "--build-only",
+    is_flag=True,
+    help="Just build the site (PDFs included) to _site for local preview; "
+    "no publish, commit or deploy.",
+)
+def main(message, no_resize, yes, root, build_only):
     """Build, publish and deploy the eve.gd blog."""
     print_banner()
 
@@ -45,8 +51,18 @@ def main(message, no_resize, yes, root):
             root = find_root(Path.cwd())
         except FileNotFoundError as exc:
             raise click.ClickException(str(exc)) from exc
+
+    if build_only:
+        try:
+            build_site(root=root, resize=not no_resize, echo=click.echo)
+        except DeployError as exc:
+            raise click.ClickException(str(exc)) from exc
+        return
+
     if message is None:
-        message = datetime.now().strftime("Publish %Y-%m-%d %H:%M")
+        message = datetime.now().astimezone().strftime(
+            "Publish %Y-%m-%d %H:%M"
+        )
 
     if yes:
         confirm = lambda: True

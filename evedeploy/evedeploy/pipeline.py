@@ -144,6 +144,29 @@ def rsync_site(root: Path, run=default_run) -> None:
     )
 
 
+def build_site(
+    root: Path,
+    resize: bool = True,
+    run=default_run,
+    echo=print,
+) -> None:
+    """Build the site locally to _site (PDF editions included); no publish.
+
+    The local-preview path: cover resize plus jekyll build, nothing else.
+    No sequoia preflight (the publish toolchain is not needed to build),
+    no CV refresh, no git, no rsync. The PDF editions are generated inside
+    `jekyll build` itself by the _plugins/pdf_pages.rb post_write hook.
+    """
+    root = Path(root)
+    echo("==> Checking cover image sizes")
+    if not resize_covers(root, run=run, enabled=resize):
+        echo("    (skipped)")
+    echo("==> Building site (PDF editions included)")
+    jekyll_build(root, run=run)
+    echo(f"==> Done. Site written to {root / '_site'}")
+    echo("    Preview with: python3 -m http.server -d _site 8000")
+
+
 def deploy(
     root: Path,
     message: str,
