@@ -9,6 +9,8 @@ ogImage: images/header_leicester.png
 title: My resignation as an external examiner at the University of Leicester in the
   wake of proposed cuts to English
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3ua7o32t"
+categories:
+- Higher Education
 ---
 
 Today I have written to the University of Leicester [tendering my resignation as an external examiner](/images/Resignation.pdf).

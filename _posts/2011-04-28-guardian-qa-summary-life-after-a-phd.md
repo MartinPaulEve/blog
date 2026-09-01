@@ -2,8 +2,6 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/04/28/guardian-qa-summary-life-after-a-phd
 categories:
 - Academia
-- Output
-- Public Engagement
 comments: []
 date: 2011-04-28 13:08:01 +0200
 date_gmt: 2011-04-28 13:08:01 +0200

@@ -1,10 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/12/15/the-net-was-never-free-from-commercial-interest-its-not-a-new-threat-to-democratic-speech
 categories:
-- Technology
-- InfoSec
-- Personal
 - Politics
+- Information Security
 comments: []
 date: 2010-12-15 15:30:12 +0100
 date_gmt: 2010-12-15 15:30:12 +0100

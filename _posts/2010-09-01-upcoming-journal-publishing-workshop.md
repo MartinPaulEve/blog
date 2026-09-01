@@ -1,8 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/09/01/upcoming-journal-publishing-workshop
 categories:
-- Technology
+- Conferences
 - Open Access
+- Publishing Technology
 comments: []
 date: 2010-09-01 11:01:52 +0200
 date_gmt: 2010-09-01 11:01:52 +0200

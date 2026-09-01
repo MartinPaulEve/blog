@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/01/06/adorno-terminology-cf-87-cf-89-cf-81-ce-b9-cf-83-ce-bc-e1-bd-b9-cf-82-chorismos
 categories:
-- Academia
 - Philosophy
-- Theodor Adorno
 comments: []
 date: 2012-01-06 10:44:44 +0100
 date_gmt: 2012-01-06 10:44:44 +0100

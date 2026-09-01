@@ -8,6 +8,9 @@ layout: post
 ogImage: images/header_theses.png
 title: Theses on the Metaphors of Digital-Textual History is out today!
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwspdzz2i"
+categories:
+- Publications
+- Digital Humanities
 ---
 
 I am very pleased to say that my book, _Theses on the Metaphors of Digital-Textual History_, is out today!

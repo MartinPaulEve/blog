@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/04/21/crossword-helper-for-android
 categories:
-- Technology
-- Android
+- Programming
 comments: []
 date: 2011-04-21 18:08:44 +0200
 date_gmt: 2011-04-21 18:08:44 +0200

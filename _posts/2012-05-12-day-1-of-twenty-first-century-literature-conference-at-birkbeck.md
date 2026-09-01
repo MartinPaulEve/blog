@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/05/12/day-1-of-twenty-first-century-literature-conference-at-birkbeck
 categories:
-- Literature
 - Conferences
-- Academia
+- Literature
 comments: []
 date: 2012-05-12 05:50:08 +0200
 date_gmt: 2012-05-12 05:50:08 +0200

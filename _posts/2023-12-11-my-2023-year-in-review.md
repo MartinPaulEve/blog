@@ -8,6 +8,9 @@ layout: post
 ogImage: images/header_2023.png
 title: My 2023 year in review
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lxa7t432q"
+categories:
+- Personal
+- Academia
 ---
 
 2023 continued to pose the all-important question: just how many health disasters can I endure? This year, I started haemodialysis as my kidneys entered the extremely worryingly named "end-stage renal failure". This turns out to be a very long-term prospect, as I can't have a transplant owing both to BK viremia (which caused the kidney damage in the first place) and a conflict with the immunosuppression that treats my rheumatoid arthritis. Without the latter under control, life is, quite seriously, unbearable.

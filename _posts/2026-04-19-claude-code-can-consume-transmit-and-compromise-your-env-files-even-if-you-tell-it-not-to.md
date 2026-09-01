@@ -13,6 +13,9 @@ ogImage: images/ai.jpg
 title: Claude Code can consume, transmit, and compromise your .env files even if you
   tell it not to
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7luvftpv2r"
+categories:
+- Artificial Intelligence
+- Information Security
 ---
 
 My colleague Ian discovered the other day that, alarmingly, even if you tell Claude code not ever to read your.env files, it may still do so and send the result back to its servers, thereby compromising your local development secrets. Ian is using Claude via cursor, but his AGENTS.md file specifically instructed Claude not to read this file. It did so anyway.

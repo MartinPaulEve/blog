@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/05/23/using-twitter-for-research
 categories:
-- Technology
+- Conferences
 - Academia
-- Teaching
 comments: []
 date: 2011-05-23 10:15:01 +0200
 date_gmt: 2011-05-23 10:15:01 +0200

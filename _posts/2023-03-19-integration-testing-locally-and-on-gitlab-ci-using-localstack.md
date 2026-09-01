@@ -8,6 +8,8 @@ layout: post
 ogImage: images/header_flow.png
 title: Integration testing locally and on GitLab CI using LocalStack
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lyfg57y2n"
+categories:
+- Programming
 ---
 
 LocalStack is a great cloud emulation layer. It lets you simulate interaction with AWS, which is great for writing integration tests.

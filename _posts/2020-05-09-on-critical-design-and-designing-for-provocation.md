@@ -8,6 +8,9 @@ layout: post
 ogImage: images/header_screwdriver.png
 title: On critical design and designing for provocation
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5rfii42t"
+categories:
+- Philosophy
+- Open Access
 ---
 
 This week for [COPIM](https://www.copim.ac.uk/) we are reading Bardzell, Shaowen, Jeffrey Bardzell, Jodi Forlizzi, John Zimmerman, and John Antanitis, ‘Critical Design and Critical Theory: The Challenge of Designing for Provocation’, in Proceedings of the Designing Interactive Systems Conference, DIS ’12 (Newcastle Upon Tyne, United Kingdom: Association for Computing Machinery, 2012), pp. 288–297 <[https://doi.org/10.1145/2317956.2318001](https://doi.org/10.1145/2317956.2318001)>. This paper is on the challenges of translating ‘critical theory’ into a design research practice.

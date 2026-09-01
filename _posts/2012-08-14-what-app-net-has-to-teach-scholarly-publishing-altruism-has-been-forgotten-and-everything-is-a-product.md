@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/08/14/what-app-net-has-to-teach-scholarly-publishing-altruism-has-been-forgotten-and-everything-is-a-product
 categories:
-- Technology
 - Open Access
-- Academia
+- Technology
 comments: []
 date: 2012-08-14 17:35:19 +0200
 date_gmt: 2012-08-14 17:35:19 +0200

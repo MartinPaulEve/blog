@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/05/31/dissemination-and-assessment-open-access-reputation-and-economics
 categories:
-- talks
-- abstracts
+- Conferences
+- Open Access
 date: 2015-05-31
 doi: https://doi.org/10.59348/fv8ch-rjm75
 image:

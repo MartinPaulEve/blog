@@ -8,6 +8,9 @@ layout: post
 ogImage: images/microscope.png
 title: (Digital) Ways of Looking
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7bns6z2h"
+categories:
+- Digital Humanities
+- Literature
 ---
 
 Those who are not invested in the digital humanities, on either side of an often nasty binary "for-or-against" style argument, may have missed the bust up in the past few days over Nan Z Da's "[The Computational Case Against Computational Literary Studies](https://doi.org/10.1086/702594)" in _Critical Inquiry_. It's probably rash of me to do so, but as I have just been discharged from hospital and am feeling better I thought I would jot a few notes down from my initial reading of the piece. These move from the section on my work through to broader remarks.

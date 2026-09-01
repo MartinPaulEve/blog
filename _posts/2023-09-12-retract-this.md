@@ -8,6 +8,8 @@ layout: post
 ogImage: images/header_crossref_labs.png
 title: Retract this!
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lxyg4h32q"
+categories:
+- Scholarly Communications
 ---
 
 Today's big news is that [Crossref has acquired the Retraction Watch database of expressions of concerns and retractions and has made it openly accessible to anyone who wants to use it](https://doi.org/10.13003/c23rw1d9). I'm waiting for full confirmation of the license or public domain dedication under which it will be released, but this is still a great commitment of Crossref to the POSI principles. The liberation of this database is good for science and scholarship in general. It means that Crossref now knows about approximately 50,000 retractions.

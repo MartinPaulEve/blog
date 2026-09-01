@@ -1,7 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/07/22/plagiarism-by-semiotexte-translations
 categories:
-- Literature
+- Academia
+- Copyright and Licensing
 comments: []
 date: 2010-07-22 14:23:03 +0200
 date_gmt: 2010-07-22 14:23:03 +0200

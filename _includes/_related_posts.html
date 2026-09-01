@@ -1,0 +1,45 @@
+{% comment %}
+Category-driven related posts. The candidate pool is the union of this post's
+category member lists (bounded work — never a full-site scan). Tier passes pick
+candidates sharing >= N categories, N counting down from all-shared to 1, so
+best overlap wins and recency breaks ties (the pool is date-sorted). Remaining
+slots — including the zero-category edge case — fill from the newest posts.
+{% endcomment %}
+{% assign pool = "" | split: "" %}
+{% for cat in page.categories %}
+  {% assign members = site.categories[cat] %}
+  {% if members %}{% assign pool = pool | concat: members %}{% endif %}
+{% endfor %}
+{% assign pool = pool | uniq | sort: "date" | reverse %}
+{% assign ncats = page.categories | size %}
+{% assign related = "" | split: "" %}
+{% for i in (1..ncats) %}
+  {% assign needed = ncats | minus: i | plus: 1 %}
+  {% for candidate in pool %}
+    {% if candidate.url == page.url %}{% continue %}{% endif %}
+    {% assign picked = related | map: "url" %}
+    {% if picked contains candidate.url %}{% continue %}{% endif %}
+    {% assign shared = 0 %}
+    {% for cat in page.categories %}
+      {% if candidate.categories contains cat %}{% assign shared = shared | plus: 1 %}{% endif %}
+    {% endfor %}
+    {% if shared >= needed %}{% assign related = related | push: candidate %}{% endif %}
+    {% if related.size >= 3 %}{% break %}{% endif %}
+  {% endfor %}
+  {% if related.size >= 3 %}{% break %}{% endif %}
+{% endfor %}
+{% if related.size < 3 %}
+  {% for post in site.posts %}
+    {% if post.url == page.url %}{% continue %}{% endif %}
+    {% assign picked = related | map: "url" %}
+    {% if picked contains post.url %}{% continue %}{% endif %}
+    {% assign related = related | push: post %}
+    {% if related.size >= 3 %}{% break %}{% endif %}
+  {% endfor %}
+{% endif %}
+{% for post in related %}
+<li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    <span class="related-date">{{ post.date | date: "%-d %B %Y" }}</span>
+</li>
+{% endfor %}

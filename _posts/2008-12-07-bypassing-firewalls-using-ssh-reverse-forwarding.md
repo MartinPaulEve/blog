@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2008/12/07/bypassing-firewalls-using-ssh-reverse-forwarding
 categories:
-- Technology
-- InfoSec
+- Information Security
 comments: []
 date: 2008-12-07 04:34:48 +0100
 date_gmt: 2008-12-07 04:34:48 +0100

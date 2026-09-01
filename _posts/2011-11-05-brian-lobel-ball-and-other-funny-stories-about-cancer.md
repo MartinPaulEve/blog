@@ -1,7 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/11/05/brian-lobel-ball-and-other-funny-stories-about-cancer
 categories:
-- Performance
+- Literature
 comments: []
 date: 2011-11-05 13:41:12 +0100
 date_gmt: 2011-11-05 13:41:12 +0100

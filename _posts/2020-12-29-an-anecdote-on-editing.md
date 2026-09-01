@@ -8,6 +8,8 @@ layout: post
 ogImage: images/header_edit.png
 title: An anecdote on editing
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m4mmp4v2a"
+categories:
+- Academia
 ---
 
 My Ph.D. supervisors were not particularly hands on. This was not slacking on their part -- it suited me just fine and they could see that I had the thesis project in hand.

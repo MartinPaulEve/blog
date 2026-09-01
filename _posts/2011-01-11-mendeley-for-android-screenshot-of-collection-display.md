@@ -1,10 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/01/11/mendeley-for-android-screenshot-of-collection-display
 categories:
-- Technology
-- Android
-- Academia
-- Mendeley
+- Programming
 comments:
 - author: Martin Paul Eve
   author_email: martin@martineve.com

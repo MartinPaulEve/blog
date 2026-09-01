@@ -8,6 +8,8 @@ layout: post
 ogImage: images/oa.png
 title: On the economics of flipping subscription journals
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mafa44p2q"
+categories:
+- Open Access
 ---
 
 One of the most pleasing, but also most difficult, parts of running the [Open Library of Humanities](https://www.openlibhums.org) is bringing new journals onto the platform.

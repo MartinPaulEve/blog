@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/01/07/adorno-greek-lexicon-project
 categories:
-- Academia
 - Philosophy
-- Theodor Adorno
 comments: []
 date: 2012-01-07 16:10:35 +0100
 date_gmt: 2012-01-07 16:10:35 +0100

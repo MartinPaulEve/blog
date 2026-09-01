@@ -1,15 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/06/16/conference-paper-geo-specificity-of-enlightenment-in-mason-dixon-2011-06-24-university-of-glasgow
 categories:
-- Literature
+- Conferences
 - Thomas Pynchon
-- Academia
 - Philosophy
-- Michel Foucault
-- Theodor Adorno
-- Max Horkheimer
-- Output
-- Conference Papers
 comments: []
 date: 2011-06-16 11:51:31 +0200
 date_gmt: 2011-06-16 11:51:31 +0200

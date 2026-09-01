@@ -2,7 +2,6 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/01/18/stephen-curry-stephen_curry-reviews-open-access-and-the-humanities
 categories:
 - Open Access
-- Academia
 comments: []
 date: 2015-01-18 11:36:16 +0100
 date_gmt: 2015-01-18 11:36:16 +0100

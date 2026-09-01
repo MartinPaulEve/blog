@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/03/29/exposing-xml-data-for-orbit
 categories:
-- Technology
-- Open Access
+- Publishing Technology
 comments: []
 date: 2013-03-29 19:59:51 +0100
 date_gmt: 2013-03-29 19:59:51 +0100

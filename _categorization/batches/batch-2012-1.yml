@@ -1,0 +1,141 @@
+prompt_version: 1
+batch: batch-2012-1
+posts:
+- file: 2012-01-03-the-only-known-inscribed-pynchon-book-with-a-presentation-letter.md
+  title: "The only known inscribed Pynchon book with a presentation letter"
+  old: [Literature, Thomas Pynchon, Academia]
+  new: [Thomas Pynchon]
+  needs_review: false
+  note: "Pure Pynchon bibliography news; dropped Literature and Academia hints per Pynchon co-occurrence rule."
+- file: 2012-01-06-adorno-terminology-ce-ac-ce-bb-ce-bb-ce-bf-ce-b3-ce-ad-ce-bd-ce-bf-cf-82.md
+  title: "Adorno terminology: άλλο γένος"
+  old: [Academia, Philosophy, Theodor Adorno]
+  new: [Philosophy]
+  needs_review: false
+  note: "Adorno Greek terminology series; per calibration these are Philosophy alone, Academia hint dropped."
+- file: 2012-01-06-adorno-terminology-cf-87-cf-89-cf-81-ce-b9-cf-83-ce-bc-e1-bd-b9-cf-82-chorismos.md
+  title: "Adorno terminology: χωρισμός / chorismos"
+  old: [Academia, Philosophy, Theodor Adorno]
+  new: [Philosophy]
+  needs_review: false
+  note: "Adorno Greek terminology series; per calibration these are Philosophy alone, Academia hint dropped."
+- file: 2012-01-07-adorno-greek-lexicon-project.md
+  title: "Adorno Greek Lexicon project"
+  old: [Academia, Philosophy, Theodor Adorno]
+  new: [Philosophy]
+  needs_review: false
+  note: "Announcement of the Adorno Greek terminology series itself; Philosophy alone per series calibration."
+- file: 2012-01-07-adorno-terminology-ce-b8-ce-ad-cf-83-ce-b5-ce-b9.md
+  title: "Adorno terminology: θέσει"
+  old: [Academia, Philosophy, Theodor Adorno]
+  new: [Philosophy]
+  needs_review: false
+  note: "Adorno Greek terminology series; per calibration these are Philosophy alone, Academia hint dropped."
+- file: 2012-01-07-adorno-terminology-ce-ba-ce-b1-ce-b9-cf-81-ce-bf-cf-82.md
+  title: "Adorno terminology: καιρος"
+  old: [Academia, Philosophy, Theodor Adorno]
+  new: [Philosophy]
+  needs_review: false
+  note: "Adorno Greek terminology series; per calibration these are Philosophy alone, Academia hint dropped."
+- file: 2012-01-09-adorno-terminology-ce-b7-ce-b4-ce-bf-ce-bd-ce-b7.md
+  title: "Adorno terminology: ηδονη"
+  old: [Academia, Philosophy, Theodor Adorno]
+  new: [Philosophy]
+  needs_review: false
+  note: "Adorno Greek terminology series; per calibration these are Philosophy alone, Academia hint dropped."
+- file: 2012-01-09-its-not-p-t-anderson-but-someone-has-started-an-inherent-vice-adaptation.md
+  title: "It's not P.T. Anderson, but someone has started an Inherent Vice adaptation"
+  old: [Literature, Thomas Pynchon]
+  new: [Thomas Pynchon]
+  needs_review: false
+  note: "Pynchon adaptation news only; dropped Literature hint per Pynchon co-occurrence rule."
+- file: 2012-01-09-pynchon-character-etymology-etienne-cherdlu.md
+  title: "Pynchon Character Etymology: Étienne Cherdlu"
+  old: [Literature, Thomas Pynchon, Academia]
+  new: [Thomas Pynchon]
+  needs_review: false
+  note: "Pynchon scholarship snippet; dropped Literature and Academia hints per Pynchon co-occurrence rule."
+- file: 2012-01-10-adorno-terminology-ce-b5-cf-80-ce-bf-cf-87-ce-b7-misprint-of-ce-b1-cf-80-ce-bf-cf-87-ce-ae.md
+  title: "Adorno terminology: εποχη [and lengthy textual note]"
+  old: [Academia, Philosophy, Theodor Adorno]
+  new: [Philosophy]
+  needs_review: false
+  note: "Adorno Greek terminology series; per calibration these are Philosophy alone, Academia hint dropped."
+- file: 2012-01-11-adnorno-terminology-ce-b8-ce-b1-cf-85-ce-bc-ce-b1-ce-b6-ce-b5-ce-b9v.md
+  title: "Adnorno terminology: θαυμαζειv"
+  old: [Academia, Philosophy, Theodor Adorno]
+  new: [Philosophy]
+  needs_review: false
+  note: "Adorno Greek terminology series; per calibration these are Philosophy alone, Academia hint dropped."
+- file: 2012-01-11-adorno-terminology-ce-ba-ce-b1-cf-84-ce-b5-ce-be-ce-bf-cf-87-ce-b7-ce-bd.md
+  title: "Adorno terminology: κατ εξοχην"
+  old: [Academia, Philosophy, Theodor Adorno]
+  new: [Philosophy]
+  needs_review: false
+  note: "Adorno Greek terminology series; per calibration these are Philosophy alone, Academia hint dropped."
+- file: 2012-01-11-adorno-terminology-e1-bc-80-ce-b3-cf-8e-ce-bd-agon.md
+  title: "Adorno terminology: ἀγών (agon)"
+  old: [Academia, Philosophy, Theodor Adorno]
+  new: [Philosophy]
+  needs_review: false
+  note: "Adorno Greek terminology series; per calibration these are Philosophy alone, Academia hint dropped."
+- file: 2012-01-13-adorno-terminology-cf-84-ce-ad-cf-87-ce-bd-ce-b7.md
+  title: "Adorno terminology: τέχνη"
+  old: [Academia, Philosophy, Theodor Adorno]
+  new: [Philosophy]
+  needs_review: false
+  note: "Gold calibration example for the series; Philosophy alone, Academia hint dropped."
+- file: 2012-01-13-adorno-terminology-cf-84-ce-bf-ce-b4-ce-b5-cf-84-ce-b9.md
+  title: "Adorno terminology: τοδε τι"
+  old: [Academia, Philosophy, Theodor Adorno]
+  new: [Philosophy]
+  needs_review: false
+  note: "Adorno Greek terminology series; per calibration these are Philosophy alone, Academia hint dropped."
+- file: 2012-01-14-joe-ortons-defaced-books-at-the-islington-museum.md
+  title: "Joe Orton's Defaced Books at the Islington Museum"
+  old: [Literature, Academia]
+  new: [Literature]
+  needs_review: false
+  note: "Exhibition visit report about playwright Joe Orton; literary interest, no academic-practice content, Academia hint dropped."
+- file: 2012-01-17-adorno-terminology-ce-b6-e1-bf-b7-ce-bf-ce-bd-cf-80-ce-bf-ce-bb-ce-b9-cf-84-ce-b9-ce-ba-cf-8c-ce-bd.md
+  title: "Adorno terminology: ζῷον πολιτικόν"
+  old: [Academia, Philosophy, Theodor Adorno]
+  new: [Philosophy]
+  needs_review: false
+  note: "Adorno Greek terminology series; per calibration these are Philosophy alone, Academia hint dropped."
+- file: 2012-01-18-a-complete-list-of-the-ancient-greek-terms-in-adornos-aesthetic-theory.md
+  title: "A Complete List of the Ancient Greek Terms in Adorno's Aesthetic Theory"
+  old: [Academia, Philosophy, Theodor Adorno]
+  new: [Philosophy]
+  needs_review: false
+  note: "Gold calibration example: Philosophy alone."
+- file: 2012-01-23-ive-gone-to-ipv6.md
+  title: "I've gone to IPv6"
+  old: [Technology]
+  new: [Technology]
+  needs_review: false
+  note: ""
+- file: 2012-01-23-protecting-your-assets-backing-up-your-academic-work.md
+  title: "Protecting Your Assets: Backing up your Academic Work"
+  old: [Technology, Academia, Teaching]
+  new: [Academia, Technology]
+  needs_review: false
+  note: "Scholarly working methods (backup plan for research work) plus general tech setup; the researcher-development workshop mention is not classroom pedagogy, so Teaching hint dropped."
+- file: 2012-01-24-first-fictions-festival-at-sussex.md
+  title: "First Fictions Festival at Sussex"
+  old: [Literature, Conferences, Academia]
+  new: [Conferences, Literature]
+  needs_review: false
+  note: "Event report on a literary festival: Conferences plus subject category; Academia hint dropped as redundant."
+- file: 2012-01-26-adorno-terminology-ce-b1-cf-81-cf-87-ce-b1-ce-af.md
+  title: "Adorno terminology: αρχαί"
+  old: [Academia, Philosophy, Theodor Adorno]
+  new: [Philosophy]
+  needs_review: false
+  note: "Adorno Greek terminology series; per calibration these are Philosophy alone, Academia hint dropped."
+- file: 2012-01-27-first-draft-of-my-ph-d-is-done.md
+  title: "First draft of my Ph.D is done!"
+  old: [Personal, Academia]
+  new: [Personal, Academia]
+  needs_review: false
+  note: ""

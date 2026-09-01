@@ -1,12 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/09/30/adorno-benjamin-and-wittgenstein-knowledge-is-not-property
 categories:
-- Technology
-- Open Access
-- Academia
 - Philosophy
-- Theodor Adorno
-- Ludwig Wittgenstein
+- Copyright and Licensing
+- Academia
 comments:
 - author: Philip
   author_email: zippy45@live.co.uk

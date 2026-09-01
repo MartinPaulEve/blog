@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/11/18/guest-post-on-google-scholar-citations
 categories:
-- Technology
 - Academia
+- Scholarly Communications
 comments: []
 date: 2011-11-18 20:45:54 +0100
 date_gmt: 2011-11-18 20:45:54 +0100

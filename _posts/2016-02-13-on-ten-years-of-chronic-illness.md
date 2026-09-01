@@ -1,7 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/02/13/on-ten-years-of-chronic-illness
 categories:
-- personal
+- Health
+- Personal
 date: 2016-02-13
 doi: https://doi.org/10.59348/eynvc-2wj50
 layout: post

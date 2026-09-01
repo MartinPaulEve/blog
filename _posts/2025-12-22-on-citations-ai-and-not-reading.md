@@ -12,6 +12,9 @@ layout: post
 ogImage: images/book.jpg
 title: On citations, AI, and 'not reading'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvlr4ed2p"
+categories:
+- Artificial Intelligence
+- Academia
 ---
 
 There has been a major furore in recent days on social media about the rise in AI citations that have been hallucinated. These citations appear in manuscripts sent out for peer review, and even in the published literature.

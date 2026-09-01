@@ -8,6 +8,9 @@ layout: post
 ogImage: images/oa.png
 title: I4OC open citations implementation in Janeway
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6h6dam2f"
+categories:
+- Publishing Technology
+- Scholarly Communications
 ---
 
 One of the strongly recommended criteria under Plan S is that journals provide "Openly accessible data on citations according to the standards by the Initiative for Open Citations (I4OC)". This means, essentially, depositing citation data with Crossref and then marking it as open.

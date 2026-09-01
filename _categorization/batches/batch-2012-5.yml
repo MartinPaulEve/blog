@@ -1,0 +1,141 @@
+prompt_version: 1
+batch: batch-2012-5
+posts:
+- file: 2012-09-02-publication-whose-line-is-it-anyway-enlightenment-revolution-and-ipseic-ethics-in-the-works-of-thomas-pynchon-textual-practice-26-5.md
+  title: "Publication: 'Whose line is it anyway?: enlightenment, revolution, and ipseic ethics in the works of Thomas Pynchon', Textual Practice, 26, 5"
+  old: [Literature, Thomas Pynchon, Academia, Publications, Output]
+  new: [Publications, Thomas Pynchon, Philosophy]
+  needs_review: false
+  note: "Publication announcement; Literature/Academia hints dropped per Pynchon rule. Philosophy added because the article substantively engages late Foucault and Kantian Enlightenment ethics."
+- file: 2012-09-02-re-decentralizing-the-web.md
+  title: "Re-Decentralizing the Web"
+  old: [Technology]
+  new: [Technology]
+  needs_review: false
+  note: ""
+- file: 2012-09-03-conference-on-china-mieville-weird-council.md
+  title: "Conference on China Miéville: Weird Council"
+  old: [Literature, Academia]
+  new: [Conferences, Literature]
+  needs_review: false
+  note: "Conference announcement, so Conferences plus subject category Literature; Academia hint dropped."
+- file: 2012-09-03-quibbling-with-the-lrb-over-hackers.md
+  title: "Quibbling with the LRB over \"Hackers\""
+  old: [Literature, Technology, InfoSec, Academia]
+  new: [Technology, Information Security]
+  needs_review: false
+  note: "Literature/Academia hints dropped: the post is tech-culture commentary on the term 'hacker' around a cybercrime book review, not literary criticism."
+- file: 2012-09-04-karl-marx-that-sly-old-racist.md
+  title: "\"Karl Marx, that sly old racist\""
+  old: [Literature, Thomas Pynchon, Academia]
+  new: [Thomas Pynchon, Philosophy]
+  needs_review: false
+  note: "Literature hint dropped per Pynchon rule; the substantive Marx/Hardt-and-Negri source-hunting warrants Philosophy."
+- file: 2012-09-04-the-final-week.md
+  title: "The Final Week"
+  old: [Academia]
+  new: [Academia]
+  needs_review: false
+  note: ""
+- file: 2012-09-05-keeping-up-with-research-in-response-to-plashingvole.md
+  title: "Keeping up with Research (in response to @PlashingVole)"
+  old: [Literature, Academia]
+  new: [Academia]
+  needs_review: false
+  note: "Literature hint dropped: content is research-method advice, not literary criticism."
+- file: 2012-09-06-astrid-and-producteev.md
+  title: "Astrid and Producteev"
+  old: [Technology]
+  new: [Technology]
+  needs_review: false
+  note: ""
+- file: 2012-09-06-cant-receive-emails-from-hotmail-fixing-their-buggy-dns-process.md
+  title: "Can't receive emails from Hotmail: fixing their buggy DNS process"
+  old: [Technology]
+  new: [Technology]
+  needs_review: false
+  note: ""
+- file: 2012-09-06-conference-panel-pynchon-now-contemporary-fiction-research-seminar.md
+  title: "Conference Panel: Pynchon Now (Contemporary Fiction Research Seminar)"
+  old: [Literature, Thomas Pynchon, Academia, Output, Conference Papers]
+  new: [Conferences, Thomas Pynchon]
+  needs_review: false
+  note: "Speaking announcement: Conferences plus subject category per rule; other hints dropped."
+- file: 2012-09-08-what-will-the-humanities-do-post-finch-or-where-are-the-oa-venues.md
+  title: "What will the Humanities do Post-Finch? (or: where are the OA venues?)"
+  old: [Literature, Academia]
+  new: [Open Access, Higher Education]
+  needs_review: false
+  note: "Literature/Academia hints overridden: the post is about post-Finch OA policy and humanities venues, with substantive REF/AHRC/RCUK policy concern (Higher Education)."
+- file: 2012-09-10-by-the-time-you-read-this-i-will-be.md
+  title: "By the time you read this, I will be..."
+  old: [Literature, Personal, Academia]
+  new: [Personal, Academia]
+  needs_review: false
+  note: "Literature hint dropped: Pynchon epigraphs only; a viva-day life-event note."
+- file: 2012-09-11-the-viva.md
+  title: "The Viva"
+  old: [Literature, Personal, Academia]
+  new: [Academia, Personal]
+  needs_review: false
+  note: "Literature hint dropped: viva account and advice, no literary criticism."
+- file: 2012-09-13-relativize-and-historicize-open-access-article-processing-charges-and-transparency.md
+  title: "Relativize and Historicize: Open Access, Article Processing Charges and Transparency"
+  old: [Technology, Open Access, Academia]
+  new: [Open Access]
+  needs_review: false
+  note: "Technology/Academia hints dropped: squarely OA/APC economics and transparency."
+- file: 2012-09-16-weird-council-the-first-international-conference-on-the-works-of-china-mieville-mieville2012-storify.md
+  title: "Weird Council: The first international conference on the works of China Miéville #mieville2012 (storify)"
+  old: [Literature, Academia]
+  new: [Conferences, Literature]
+  needs_review: false
+  note: "Storified conference report on the Miéville conference: Conferences plus subject Literature."
+- file: 2012-09-18-conference-paper-opening-childrens-eyes-overloaded-forms-and-the-didactic-function-westminster-university.md
+  title: "Conference paper: 'Opening children's eyes': Overloaded Forms and the Didactic Function (Westminster University)"
+  old: [Literature, Thomas Pynchon, Conferences, Academia, Output, Conference Papers]
+  new: [Conferences, Thomas Pynchon, Literature]
+  needs_review: false
+  note: "Paper treats Bolaño's 2666 substantively alongside Gravity's Rainbow, so Literature is retained per the Pynchon co-occurrence rule."
+- file: 2012-09-22-on-the-impurity-of-the-humanities-and-critical-university-studies.md
+  title: "On the Impurity of the Humanities and Critical University Studies"
+  old: [Technology, Open Access, Politics, Academia]
+  new: [Academia, Philosophy]
+  needs_review: true
+  note: "Hints (Technology, Open Access, Politics) are peripheral; the essay is a critical-theory reflection on humanities research practice and the university's complicity in capital. Chose Academia + Philosophy, but Higher Education (critical university studies as university politics) was arguable."
+- file: 2012-09-30-my-thoughts-on-dt-maxs-biography-of-dfw.md
+  title: "My thoughts on DT Max's biography of DFW"
+  old: [Literature, David Foster Wallace, Academia]
+  new: [Literature]
+  needs_review: false
+  note: "Book review of the DFW biography; Academia hint dropped."
+- file: 2012-10-13-jeffrey-archers-140-character-story-and-plagiarism.md
+  title: "Jeffrey Archer's 140-character story and plagiarism"
+  old: [Literature]
+  new: [Literature]
+  needs_review: false
+  note: ""
+- file: 2012-10-16-publication-thomas-pynchon-the-dark-passages-of-history-review-textual-practice-26-5.md
+  title: "Publication: 'Thomas Pynchon & the Dark Passages of History (review)', Textual Practice, 26, 5"
+  old: [Literature, Thomas Pynchon, Academia, Publications, Output]
+  new: [Publications, Thomas Pynchon]
+  needs_review: false
+  note: "Publication announcement of a Pynchon review: Publications plus subject category per rule; other hints dropped."
+- file: 2012-10-19-crude-but-helpful-typesetting-script-from-mexml.md
+  title: "Crude, but helpful, typesetting script from meXml"
+  old: [Technology, Open Access, Academia, Output]
+  new: [Publishing Technology, Open Access]
+  needs_review: false
+  note: "Typesetting tooling (meXml, NLM galleys) for scholar-run platinum OA journals: Publishing Technology first, Open Access second; Technology/Academia/Output hints dropped."
+- file: 2012-10-19-orbit-1-2-is-now-open-and-our-rolling-format-is-live.md
+  title: "Orbit 1.2 is now \"open\" and our \"rolling format\" is live"
+  old: [Academia]
+  new: [Thomas Pynchon]
+  needs_review: false
+  note: "Academia hint overridden: Orbit journal news falls under Thomas Pynchon per the taxonomy."
+- file: 2012-10-21-new-orbit-review-american-postmodernist-fiction-and-the-past-by-theophilus-savvas.md
+  title: "New Orbit review: American Postmodernist Fiction and the Past, by Theophilus Savvas"
+  old: [Literature, Thomas Pynchon, Academia]
+  new: [Thomas Pynchon]
+  needs_review: false
+  note: "One-line Orbit journal announcement; Literature/Academia hints dropped as there is no substantive non-Pynchon literary discussion in the post itself."

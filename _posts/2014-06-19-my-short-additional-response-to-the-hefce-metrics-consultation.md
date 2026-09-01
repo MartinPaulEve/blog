@@ -1,7 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/06/19/my-short-additional-response-to-the-hefce-metrics-consultation
 categories:
-- Politics
+- Higher Education
+- Open Access
 - Academia
 comments: []
 date: 2014-06-19 08:08:26 +0200

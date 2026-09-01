@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/07/21/joining-the-uk-national-monographs-strategy-expert-panel
 categories:
-- Technology
 - Open Access
 - Academia
 comments: []

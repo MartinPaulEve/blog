@@ -1,10 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/18/bis-metrics-and-non-selective-qr-allocation
 categories:
-- metrics
-- REF
-- QR
-- green paper
+- Higher Education
 date: 2015-11-18
 doi: https://doi.org/10.59348/4c2wz-tjq35
 layout: post

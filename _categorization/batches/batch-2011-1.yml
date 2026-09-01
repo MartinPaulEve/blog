@@ -1,0 +1,147 @@
+prompt_version: 1
+batch: batch-2011-1
+posts:
+- file: 2011-01-04-mendeley-android-client-progress-w-video-source-and-apk.md
+  title: "Mendeley Android Client Progress (w/ Video, Source and APK!)"
+  old: [Technology, Android, PHP]
+  new: [Programming, Technology]
+  needs_review: false
+  note: ""
+- file: 2011-01-04-oauth-for-mendeley-on-android-solved-and-a-bug.md
+  title: "OAuth for Mendeley on Android: solved and a bug"
+  old: [Technology, Android]
+  new: [Programming, Technology]
+  needs_review: false
+  note: "Development debugging notes for the author's own Android client, so Programming leads over the Technology hint."
+- file: 2011-01-05-mendley-android-client-now-implemented-as-a-user-account-with-sync.md
+  title: "Mendeley Android Client: now implemented as a user account with sync"
+  old: [Technology, Android, Linux]
+  new: [Programming, Technology]
+  needs_review: false
+  note: "Dropped the Linux hint: the post contains no Linux content at all; it is Android app development."
+- file: 2011-01-08-automated-cpanel-backups-with-scp.md
+  title: Automated CPanel Backups with SCP
+  old: [Technology, PHP]
+  new: [Programming, Technology]
+  needs_review: false
+  note: ""
+- file: 2011-01-09-android-rom-update-utility-extractor-for-linux.md
+  title: Android Rom Update Utility extractor for Linux
+  old: [Technology, Android, Linux]
+  new: [Programming, Technology, Linux]
+  needs_review: false
+  note: "The author's own Python script (Programming) for an Android task (Technology); Linux retained as the post is explicitly a Linux-hosted workflow (pyinotify watching the Wine temp directory)."
+- file: 2011-01-11-mendeley-for-android-screenshot-of-collection-display.md
+  title: "Mendeley for Android: screenshot of collection display"
+  old: [Technology, Android, Academia, Mendeley]
+  new: [Programming, Technology]
+  needs_review: false
+  note: "Dropped the Academia hint: this is purely a progress screenshot of the author's app, with no academic-practice content."
+- file: 2011-01-11-sussex-research-hive-seminars.md
+  title: Sussex Research Hive Seminars
+  old: [Technology, Open Access, Academia]
+  new: [Conferences, Academia]
+  needs_review: false
+  note: "Overrode Technology and Open Access hints: the post is an announcement of a seminar series about research life at Sussex, with no OA or tech content."
+- file: 2011-01-13-publication-e2-80-98local-transcendence-postmodern-historiography-and-the-database-by-alan-liu-e2-80-99-textual-practice-24-6-december-2010.md
+  title: "Publication: ‘Local Transcendence: Postmodern Historiography and the Database by Alan Liu’, Textual Practice, 24, 6 (December 2010)"
+  old: [Open Access, Academia, Publications]
+  new: [Publications, Literature]
+  needs_review: false
+  note: "Publication announcement of a book review in Textual Practice; subject is literary criticism, so Literature replaces the Open Access/Academia hints (the OA mention is only about clearing preprint permissions)."
+- file: 2011-01-14-getting-a-custom-sync-service-and-adapter-to-show-up-under-data-and-synchronization-on-android.md
+  title: Getting a custom Sync Service and Adapter to show up under "Data and Synchronization" on Android
+  old: [Technology, Android]
+  new: [Programming, Technology]
+  needs_review: false
+  note: ""
+- file: 2011-01-15-bbc-news-fathoming-financial-terms.md
+  title: "BBC News: fathoming financial terms"
+  old: [Personal]
+  new: [Personal]
+  needs_review: false
+  note: ""
+- file: 2011-01-18-the-botnet-webs-of-hegemonyzombies-who-publish.md
+  title: "The Botnet: Webs of Hegemony/Zombies Who Publish"
+  old: [Technology, Open Access, Academia]
+  new: [Open Access, Academia]
+  needs_review: false
+  note: "Chapter proposal accepted, not yet published, so no Publications; infosec is only a metaphor, so the Technology hint is dropped."
+- file: 2011-01-19-rockaby-mission-statement-and-implementation-plans.md
+  title: "Rockaby: Mission Statement and Implementation Plans"
+  old: [Technology, Academia, Django, Rockaby]
+  new: [Digital Humanities, Programming]
+  needs_review: false
+  note: "Rockaby is explicitly a Digital Humanities textual-analysis project built in Python/Django, so DH leads with Programming; Technology/Academia hints dropped."
+- file: 2011-01-21-ocz-revodrive-on-abit-fatal1ty-fp-in9-sli.md
+  title: OCZ RevoDrive on Abit Fatal1ty FP-IN9 SLI
+  old: [Technology, Linux]
+  new: [Technology, Linux]
+  needs_review: false
+  note: "Primarily hardware troubleshooting (SSD, motherboard, CMOS), so Technology leads; Linux kept second for the Ubuntu/grub bootloader workaround."
+- file: 2011-01-21-picture-this-postcards-competition.md
+  title: "Picture this: Postcards Competition"
+  old: [Open Access, Academia]
+  new: [Conferences, Literature]
+  needs_review: false
+  note: "Overrode both hints: this is a competition/conference announcement (Picture this: postcards and letters beyond text) about epistolary and literary-visual writing; nothing on OA."
+- file: 2011-01-24-mendeley-for-android-progress-update.md
+  title: "Mendeley for Android: Progress update"
+  old: [Technology, Android, Mendeley]
+  new: [Programming, Technology]
+  needs_review: false
+  note: ""
+- file: 2011-01-26-what-has-social-media-ever-done-for-me.md
+  title: What has social media ever done for me?
+  old: [Technology, Academia, EdTech]
+  new: [Academia, Technology]
+  needs_review: false
+  note: ""
+- file: 2011-01-27-ssl-enabled.md
+  title: SSL Enabled
+  old: [Technology, InfoSec, Personal]
+  new: [Information Security, Personal]
+  needs_review: false
+  note: ""
+- file: 2011-01-28-a-statistical-history-of-uk-pynchon-doctorates.md
+  title: A Statistical History of UK Pynchon Doctorates
+  old: [Thomas Pynchon, Academia]
+  new: [Thomas Pynchon, Academia]
+  needs_review: false
+  note: ""
+- file: 2011-01-31-pynchon-reference-in-the-economist.md
+  title: Pynchon reference in the Economist
+  old: [Thomas Pynchon, Academia]
+  new: [Thomas Pynchon]
+  needs_review: false
+  note: "Dropped the Academia hint: a short note on a Pynchon allusion in the Economist, with no academic-practice content."
+- file: 2011-02-02-on-phdchat-call-for-collaborationhistory-overview-themes-and-response.md
+  title: "On #PhDchat: Call for Collaboration/History, Overview, Themes and Response"
+  old: [Technology, Academia, EdTech]
+  new: [Academia, Technology]
+  needs_review: false
+  note: ""
+- file: 2011-02-03-sa4qe-2011-spreading-the-word-of-russell-hoban.md
+  title: "SA4QE 2011: Spreading the Word of Russell Hoban"
+  old: [Literature]
+  new: [Literature]
+  needs_review: false
+  note: ""
+- file: 2011-02-03-the-big-society-and-mythical-structure.md
+  title: The Big Society and Mythical Structure
+  old: [Politics, Academia, Philosophy, Theodor Adorno, Max Horkheimer]
+  new: [Politics, Philosophy]
+  needs_review: false
+  note: "Dropped the Academia hint: an Adorno/Horkheimer-framed critique of coalition policy, with nothing on academic life."
+- file: 2011-02-04-judith-butler-at-sussex-on-arendt-cohabitation-and-the-dispersion-of-sovereignty.md
+  title: Judith Butler at Sussex on Arendt, Cohabitation, and the Dispersion of Sovereignty
+  old: [Academia, Philosophy, Judith Butler]
+  new: [Philosophy, Conferences]
+  needs_review: false
+  note: "Event write-up of an attended lecture, so Conferences joins Philosophy; the Academia hint is dropped as the anti-academic-commentary framing is incidental."
+- file: 2011-02-05-sa4qe2011-the-drops.md
+  title: "SA4QE2011: The Drops"
+  old: [Literature]
+  new: [Literature]
+  needs_review: false
+  note: ""

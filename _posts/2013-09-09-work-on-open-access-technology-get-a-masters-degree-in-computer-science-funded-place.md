@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/09/09/work-on-open-access-technology-get-a-masters-degree-in-computer-science-funded-place
 categories:
-- Technology
+- Publishing Technology
 - Open Access
-- Academia
 comments: []
 date: 2013-09-09 15:25:33 +0200
 date_gmt: 2013-09-09 14:25:33 +0200

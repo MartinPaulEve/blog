@@ -8,6 +8,9 @@ layout: post
 ogImage: images/header_electric.png
 title: What if downloads are not actually non-rivalrous?
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2acnme2s"
+categories:
+- Philosophy
+- Technology
 ---
 
 One of the basic tenets of digital philosophy is that downloads are non-rivalrous. When I download something it remains accessible to other users to download. But what if this isn't actually true and what if there is a strong disutility premise at work?

@@ -1,9 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/06/14/upcoming-workshop-inbox-zero-and-tech-task-lists-getting-things-done
 categories:
-- Technology
+- Conferences
 - Academia
-- Teaching
+- Technology
 comments: []
 date: 2011-06-14 12:01:40 +0200
 date_gmt: 2011-06-14 12:01:40 +0200

@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/12/02/dialectic-of-enlightenment-2011
 categories:
-- Politics
 - Philosophy
-- Theodor Adorno
+- Politics
 comments: []
 date: 2011-12-02 12:13:07 +0100
 date_gmt: 2011-12-02 12:13:07 +0100

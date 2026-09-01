@@ -1,8 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/02/16/teaching-undergraduates-to-use-secondary-sources
 categories:
-- Literature
-- Academia
 - Teaching
 comments: []
 date: 2012-02-16 17:24:06 +0100

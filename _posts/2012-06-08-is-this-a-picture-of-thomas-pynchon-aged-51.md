@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/06/08/is-this-a-picture-of-thomas-pynchon-aged-51
 categories:
-- Literature
 - Thomas Pynchon
-- Academia
 comments: []
 date: 2012-06-08 09:56:30 +0200
 date_gmt: 2012-06-08 09:56:30 +0200

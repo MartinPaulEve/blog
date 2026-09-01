@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/02/12/whats-it-like-to-publish-in-sage-open
 categories:
-- Literature
-- Open Access
 - Academia
+- Open Access
 comments: []
 date: 2014-02-12 07:51:21 +0100
 date_gmt: 2014-02-12 07:51:21 +0100

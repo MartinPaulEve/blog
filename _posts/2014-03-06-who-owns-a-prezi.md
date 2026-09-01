@@ -1,7 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/03/06/who-owns-a-prezi
 categories:
-- Technology
+- Copyright and Licensing
 comments: []
 date: 2014-03-06 20:27:03 +0100
 date_gmt: 2014-03-06 20:27:03 +0100

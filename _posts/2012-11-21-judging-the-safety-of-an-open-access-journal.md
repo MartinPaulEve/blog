@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/11/21/judging-the-safety-of-an-open-access-journal
 categories:
-- Technology
 - Open Access
-- Academia
+- Digital Preservation
 comments: []
 date: 2012-11-21 10:04:54 +0100
 date_gmt: 2012-11-21 10:04:54 +0100

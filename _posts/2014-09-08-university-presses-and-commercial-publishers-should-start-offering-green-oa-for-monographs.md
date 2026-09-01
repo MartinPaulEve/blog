@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/09/08/university-presses-and-commercial-publishers-should-start-offering-green-oa-for-monographs
 categories:
-- Technology
 - Open Access
 comments: []
 date: 2014-09-08 08:26:30 +0200

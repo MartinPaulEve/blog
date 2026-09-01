@@ -8,6 +8,9 @@ layout: post
 ogImage: images/ref.png
 title: On ECRs, long-form-outputs, and the non-portability of outputs for REF
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7ma2z67t2p"
+categories:
+- Higher Education
+- Academia
 ---
 
 There has been a lot of angst about the newly proposed non-portability requirements for REF2021 and beyond, particularly from ECRs. I want to say upfront that I do not want to disparage such worries; I speak from a position of privilege, having a permanent position even though I am, by RCUK standards, myself an Early-Career Researcher. I do, though, want to set out why I think these fears are misplaced/over-blown.

@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/05/04/scalability-sustainability-and-market-responsiveness-in-oa
 categories:
-- open access
-- books
+- Open Access
 date: 2015-05-04
 doi: https://doi.org/10.59348/g3xv9-wnb29
 image:

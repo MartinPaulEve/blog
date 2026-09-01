@@ -1,9 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/07/03/teaching-post-millenial-fiction-conference-archive
 categories:
-- Literature
 - Conferences
-- Academia
+- Teaching
+- Literature
 comments: []
 date: 2012-07-03 16:58:36 +0200
 date_gmt: 2012-07-03 16:58:36 +0200

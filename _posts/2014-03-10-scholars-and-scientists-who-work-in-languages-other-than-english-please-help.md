@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/03/10/scholars-and-scientists-who-work-in-languages-other-than-english-please-help
 categories:
-- Technology
-- Academia
+- Publishing Technology
 comments: []
 date: 2014-03-10 15:24:06 +0100
 date_gmt: 2014-03-10 15:24:06 +0100

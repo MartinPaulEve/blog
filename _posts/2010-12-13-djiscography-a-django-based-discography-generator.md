@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/12/13/djiscography-a-django-based-discography-generator
 categories:
-- Technology
-- Open Access
-- Django
+- Programming
 comments: []
 date: 2010-12-13 09:57:32 +0100
 date_gmt: 2010-12-13 09:57:32 +0100

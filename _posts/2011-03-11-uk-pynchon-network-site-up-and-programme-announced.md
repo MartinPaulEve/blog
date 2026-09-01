@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/03/11/uk-pynchon-network-site-up-and-programme-announced
 categories:
-- Literature
+- Conferences
 - Thomas Pynchon
-- Academia
 comments: []
 date: 2011-03-11 12:19:39 +0100
 date_gmt: 2011-03-11 12:19:39 +0100

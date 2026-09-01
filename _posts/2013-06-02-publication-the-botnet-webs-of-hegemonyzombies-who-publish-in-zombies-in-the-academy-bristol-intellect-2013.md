@@ -2,7 +2,7 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/06/02/publication-the-botnet-webs-of-hegemonyzombies-who-publish-in-zombies-in-the-academy-bristol-intellect-2013
 categories:
 - Publications
-- Output
+- Scholarly Communications
 comments: []
 date: 2013-06-02 18:15:20 +0200
 date_gmt: 2013-06-02 17:15:20 +0200

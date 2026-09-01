@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2007/05/24/csrf-one-time-token-bypass-using-ajax-and-xss
 categories:
-- Technology
-- InfoSec
+- Information Security
 comments: []
 date: 2007-05-24 12:41:15 +0200
 date_gmt: 2007-05-24 12:41:15 +0200

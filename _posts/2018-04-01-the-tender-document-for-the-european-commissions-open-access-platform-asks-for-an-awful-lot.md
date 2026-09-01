@@ -9,6 +9,9 @@ ogImage: images/oa.png
 title: The Tender Document for the European Commission's Open Access Platform Asks
   for an Awful Lot for Not Very Much
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7tpkmu2e"
+categories:
+- Open Access
+- Publishing Technology
 ---
 
 I've just been reading the [EC’s tender document](https://etendering.ted.europa.eu/cft/cft-document.html?docId=37014) for their new open-access platform. Everyone thinks that it's a shoo-in for F1000. But quite frankly, good luck to whoever gets it. Some comments:

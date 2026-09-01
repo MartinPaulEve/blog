@@ -1,7 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/08/23/the-real-problem-with-this-mode-of-curbing-grade-inflation
 categories:
-- Literature
+- Higher Education
 - Politics
 comments: []
 date: 2012-08-23 08:12:20 +0200

@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/01/06/introducing-eprintscv-a-python-script-to-create-an-academic-web-cv-from-your-eprints-record
 categories:
-- Technology
-- Linux
+- Programming
 comments: []
 date: 2014-01-06 18:32:29 +0100
 date_gmt: 2014-01-06 18:32:29 +0100

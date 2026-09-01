@@ -68,6 +68,9 @@ references:
     type: Blog
     url: https://dailynous.com/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mufm2bxodp24"
+categories:
+- Artificial Intelligence
+- Academia
 ---
 A frequent discussion that I have had with an academic colleague, but also with various team members at Knowledge Commons and also with those at OLH, pertains to the use of "AI writing detectors" to unearth cheating students and/or dishonest academic researchers.
 

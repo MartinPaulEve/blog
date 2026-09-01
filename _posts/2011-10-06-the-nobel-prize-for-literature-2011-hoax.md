@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/10/06/the-nobel-prize-for-literature-2011-hoax
 categories:
+- Technology
 - Literature
 comments:
 - author: Profadamroberts

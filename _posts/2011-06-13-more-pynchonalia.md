@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/06/13/more-pynchonalia
 categories:
-- Literature
 - Thomas Pynchon
 - Personal
 comments: []

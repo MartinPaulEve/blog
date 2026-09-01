@@ -8,6 +8,8 @@ layout: post
 ogImage: images/header_kcw.png
 title: Hacking the full site editor in WordPress
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvtlk2w2r"
+categories:
+- Programming
 ---
 
 Today, I have been battling a frustrating bug. In the latest versions of Chrome and Edge, users cannot highlight text in Full Site Editor or Post/Page Editor in WordPress (at [Knowledge Commons](https://hcommons.org). This turned out to be a complete nightmare to fix.

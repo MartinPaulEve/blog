@@ -2,8 +2,6 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/09/30/my-thoughts-on-dt-maxs-biography-of-dfw
 categories:
 - Literature
-- David Foster Wallace
-- Academia
 comments: []
 date: 2012-09-30 16:13:24 +0200
 date_gmt: 2012-09-30 15:13:24 +0200

@@ -2,7 +2,6 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/03/14/dark-cloud-looming
 categories:
 - Technology
-- Open Access
 comments:
 - author: AJ Cann
   author_email: ''

@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/09/27/academia-edtech-blogging-and-twitter-enough-with-the-meta-already
 categories:
-- Technology
 - Academia
 comments:
 - author: ''

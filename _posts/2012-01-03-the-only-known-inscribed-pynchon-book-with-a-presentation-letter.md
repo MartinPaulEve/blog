@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/01/03/the-only-known-inscribed-pynchon-book-with-a-presentation-letter
 categories:
-- Literature
 - Thomas Pynchon
-- Academia
 comments:
 - author: Jim
   author_email: jffl62@gmail.com

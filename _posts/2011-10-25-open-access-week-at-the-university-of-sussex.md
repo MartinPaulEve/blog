@@ -2,7 +2,7 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/10/25/open-access-week-at-the-university-of-sussex
 categories:
 - Open Access
-- Academia
+- Conferences
 comments: []
 date: 2011-10-25 16:32:46 +0200
 date_gmt: 2011-10-25 16:32:46 +0200

@@ -1,7 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/09/18/its-not-about-stifling-academic-freedom
 categories:
-- academic freedom
+- Higher Education
+- Politics
 date: 2015-09-18
 doi: https://doi.org/10.59348/r4sba-d1336
 layout: post

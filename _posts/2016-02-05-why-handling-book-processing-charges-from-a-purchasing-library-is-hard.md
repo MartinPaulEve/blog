@@ -1,7 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/02/05/why-handling-book-processing-charges-from-a-purchasing-library-is-hard
 categories:
-- open access
+- Open Access
 date: 2016-02-05
 doi: https://doi.org/10.59348/cap89-ms158
 image:

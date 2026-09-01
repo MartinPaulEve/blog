@@ -8,6 +8,9 @@ layout: post
 ogImage: images/header_ambulance.png
 title: How YOU can help people still shielding
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lz732he2s"
+categories:
+- Politics
+- Health
 ---
 
 I don't normally do this kind of direct outreach, but the situation for people with serious immune system compromise at the moment in the UK is grim. We cannot produce responses to the covid vaccines and so remain shielding/in total isolation. There is a drug available and regulated, but [the UK government has not bought it](/2022/04/28/the-current-state-of-evusheld-tixagevimabcilgavimab-in-the-uk/). 

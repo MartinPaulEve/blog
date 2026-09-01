@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/06/22/angry-young-academics-the-directors-cut
 categories:
-- Personal
-- Politics
+- Higher Education
 - Academia
 comments:
 - author: Kat M. Dugger

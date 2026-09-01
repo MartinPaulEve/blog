@@ -8,6 +8,9 @@ layout: post
 ogImage: images/geek.png
 title: Initial parsing work on large JSON corpus
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbe6bos2h"
+categories:
+- Programming
+- Digital Humanities
 ---
 
 Yesterday, I wrote of a challenge that I faced in <a href="https://www.martineve.com/2016/06/09/identifying-26gb-of-json-novel-data/">working out which texts in a corpus have decent OCR and, then, which texts they actually are</a>. This morning, I put together a small script that has a first go at this. I enclose this below for anybody who is interested.

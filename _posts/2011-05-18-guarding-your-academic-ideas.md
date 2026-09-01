@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/05/18/guarding-your-academic-ideas
 categories:
-- Open Access
-- Politics
 - Academia
+- Open Access
 comments:
 - author: Ian Robson
   author_email: ian.developmentsupport@googlemail.com

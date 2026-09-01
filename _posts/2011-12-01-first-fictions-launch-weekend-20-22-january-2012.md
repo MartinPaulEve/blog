@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/12/01/first-fictions-launch-weekend-20-22-january-2012
 categories:
-- Literature
 - Conferences
-- Academia
+- Literature
 comments: []
 date: 2011-12-01 10:50:29 +0100
 date_gmt: 2011-12-01 10:50:29 +0100

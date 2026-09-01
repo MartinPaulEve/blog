@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2008/07/31/c-dataexecutor-class-again
 categories:
-- Technology
-- .NET
+- Programming
 comments: []
 date: 2008-07-31 07:33:04 +0200
 date_gmt: 2008-07-31 07:33:04 +0200

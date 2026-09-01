@@ -1,10 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/07/02/publication-guide-to-creative-commons-for-humanities-and-social-science-monograph-authors
 categories:
-- Open Access
-- Academia
 - Publications
-- Output
+- Copyright and Licensing
+- Open Access
 comments: []
 date: 2013-07-02 08:06:33 +0200
 date_gmt: 2013-07-02 07:06:33 +0200

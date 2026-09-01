@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/06/22/my-navy-days-with-thomas-ruggles-pynchon
 categories:
-- Literature
 - Thomas Pynchon
 - Personal
 comments: []

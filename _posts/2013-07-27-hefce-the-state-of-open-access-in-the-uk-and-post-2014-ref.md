@@ -2,7 +2,7 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/07/27/hefce-the-state-of-open-access-in-the-uk-and-post-2014-ref
 categories:
 - Open Access
-- Academia
+- Higher Education
 comments: []
 date: 2013-07-27 11:49:24 +0200
 date_gmt: 2013-07-27 10:49:24 +0200

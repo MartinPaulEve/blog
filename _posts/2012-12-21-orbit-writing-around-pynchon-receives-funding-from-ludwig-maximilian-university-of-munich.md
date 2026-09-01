@@ -1,10 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/12/21/orbit-writing-around-pynchon-receives-funding-from-ludwig-maximilian-university-of-munich
 categories:
-- Technology
 - Thomas Pynchon
 - Open Access
-- Academia
 comments: []
 date: 2012-12-21 15:01:04 +0100
 date_gmt: 2012-12-21 15:01:04 +0100

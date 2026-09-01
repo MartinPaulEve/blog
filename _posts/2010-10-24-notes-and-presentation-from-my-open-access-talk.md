@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/10/24/notes-and-presentation-from-my-open-access-talk
 categories:
-- Technology
 - Open Access
+- Conferences
 comments: []
 date: 2010-10-24 18:00:49 +0200
 date_gmt: 2010-10-24 18:00:49 +0200

@@ -2,6 +2,7 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/07/21/i-have-nothing-to-do-with-this-dissertation-writing-service
 categories:
 - Academia
+- Copyright and Licensing
 comments: []
 date: 2011-07-21 10:26:02 +0200
 date_gmt: 2011-07-21 10:26:02 +0200

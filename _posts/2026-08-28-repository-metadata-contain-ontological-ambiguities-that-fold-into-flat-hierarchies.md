@@ -79,6 +79,8 @@ references:
   type: WebSite
   url: https://works.hcommons.org/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mu56pop6m52k"
+categories:
+- Scholarly Communications
 ---
 Metadata are commonly referred to as “data about data”; they are considered as data that describe and refer to something else. Institutional repositories collect metadata about scholarly items that have been added to the repository. But to what do those metadata refer?
 

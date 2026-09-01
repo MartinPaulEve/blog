@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2007/06/26/c-dataexecutor-class-available
 categories:
-- Technology
-- .NET
+- Programming
 comments:
 - author: C# DataExecutor class again | Martin Paul Eve
   author_email: ''

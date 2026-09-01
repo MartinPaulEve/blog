@@ -26,3 +26,4 @@ _site/
 # env files
 .env
 
+__pycache__/

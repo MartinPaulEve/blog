@@ -2,6 +2,7 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/08/27/sxsw-panel-vote-to-get-open-access-on-the-agenda
 categories:
 - Open Access
+- Conferences
 comments: []
 date: 2013-08-27 19:24:53 +0200
 date_gmt: 2013-08-27 18:24:53 +0200

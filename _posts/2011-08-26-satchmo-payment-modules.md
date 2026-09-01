@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/08/26/satchmo-payment-modules
 categories:
-- Technology
-- Django
+- Programming
 comments: []
 date: 2011-08-26 13:50:13 +0200
 date_gmt: 2011-08-26 13:50:13 +0200

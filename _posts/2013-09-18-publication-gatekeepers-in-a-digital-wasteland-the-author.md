@@ -1,12 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/09/18/publication-gatekeepers-in-a-digital-wasteland-the-author
 categories:
-- Literature
-- Technology
-- Open Access
-- Academia
 - Publications
-- Output
+- Academia
 comments: []
 date: 2013-09-18 18:47:25 +0200
 date_gmt: 2013-09-18 17:47:25 +0200

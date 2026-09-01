@@ -5,6 +5,9 @@ doi: https://doi.org/10.59348/5vmqt-z6571
 layout: post
 title: I have suffered from an episode of cerebral vasculitis and a stroke
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbqjcl42n"
+categories:
+- Health
+- Personal
 ---
 
 A few weeks ago, at the beginning of March, I was feeling quite unwell with a chest and sinus infection, for which I'd had three courses of antibiotics from my GP. It was pretty unpleasant but compared to what I was about to experience, it now looks trivial. Around the 7th March, 2016 I started to go into a series of hemiplegic migraines in which I would lose feeling down the left side of my body accompanied by awful visual aura and a headache sensation afterwards that made me just want to hide and cry. It was extremely uncomfortable and given that I was also losing sensation in my arms, legs, and face, I decided to call 111; the intermediate emergency medical service in the UK. They sent out a paramedic on Monday the 7th who didn't think that I'd had a stroke at that time. On Wednesday the 9th March I had a recurrence again of this loss of sensation and my GP sent me for an emergency CT scan at Barnet Hospital. This did not show anything too alarming and I was told to rest for a few days and hopefully all would be resolved.

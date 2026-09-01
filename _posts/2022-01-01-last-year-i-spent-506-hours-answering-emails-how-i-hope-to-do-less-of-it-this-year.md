@@ -13,6 +13,9 @@ ogImage: images/header_email.png
 title: Last year I spent 506 hours answering emails. How I hope to do less of it this
   year.
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m24dobv2o"
+categories:
+- Academia
+- Personal
 ---
 
 In 2021 I spent 506 hours answering email. That's less than the 558 that I spent on the task in 2020, but it's still a full 72 days' worth of my time per year. (My nominal contract is seven hours per day, but for an eight-hour day, it's still 63 days.) It's less than some people and more than others. I would like to do less of this as it's not terribly rewarding, so yesterday I read Cal Newport's _A World Without Email_.

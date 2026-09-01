@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/10/21/new-orbit-review-american-postmodernist-fiction-and-the-past-by-theophilus-savvas
 categories:
-- Literature
 - Thomas Pynchon
-- Academia
 comments: []
 date: 2012-10-21 16:28:08 +0200
 date_gmt: 2012-10-21 15:28:08 +0200

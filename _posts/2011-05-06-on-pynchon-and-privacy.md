@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/05/06/on-pynchon-and-privacy
 categories:
-- Literature
 - Thomas Pynchon
-- Academia
 comments:
 - author: Jim Lawrence
   author_email: ''

@@ -8,6 +8,9 @@ layout: post
 ogImage: images/header_dice.png
 title: Betting against the future
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lx372oj2t"
+categories:
+- Health
+- Personal
 ---
 
 I am tired of medical decisions with a trade-off. On a regular basis I am presented with decisions that have deferred negative consequences in order to fix something in the present. The two examples that spring to mind are the BK virus nephropathy and hip replacement surgery.

@@ -1,0 +1,141 @@
+prompt_version: 1
+batch: batch-2022-1
+posts:
+- file: 2022-01-01-last-year-i-spent-506-hours-answering-emails-how-i-hope-to-do-less-of-it-this-year.md
+  title: "Last year I spent 506 hours answering emails. How I hope to do less of it this year."
+  old: []
+  new: [Academia, Personal]
+  needs_review: false
+  note: ""
+- file: 2022-01-02-aiming-for-downtime.md
+  title: "Aiming for downtime"
+  old: []
+  new: [Technology, Personal]
+  needs_review: false
+  note: ""
+- file: 2022-01-03-input-output.md
+  title: "Input-Output"
+  old: []
+  new: [Academia, Personal]
+  needs_review: false
+  note: ""
+- file: 2022-01-04-adaptation-and-appropriation.md
+  title: "Adaptation and Appropriation"
+  old: []
+  new: [Literature]
+  needs_review: false
+  note: ""
+- file: 2022-01-04-ancient-china.md
+  title: "Ancient China"
+  old: []
+  new: [Literature]
+  needs_review: false
+  note: ""
+- file: 2022-01-04-ancient-south-asia.md
+  title: "Ancient South Asia"
+  old: []
+  new: [Literature]
+  needs_review: false
+  note: ""
+- file: 2022-01-04-aspects-of-the-novel.md
+  title: "Aspects of the Novel"
+  old: []
+  new: [Literature]
+  needs_review: false
+  note: ""
+- file: 2022-01-04-the-african-american-novel.md
+  title: "The African-American Novel"
+  old: []
+  new: [Literature]
+  needs_review: false
+  note: ""
+- file: 2022-01-05-ancient-west.md
+  title: "Ancient West"
+  old: []
+  new: [Literature]
+  needs_review: false
+  note: ""
+- file: 2022-01-05-andean-novels.md
+  title: "Andean Novels"
+  old: []
+  new: [Literature]
+  needs_review: false
+  note: ""
+- file: 2022-01-06-anthropology-and-the-novel.md
+  title: "Anthropology and the Novel"
+  old: []
+  new: [Literature]
+  needs_review: false
+  note: ""
+- file: 2022-01-07-the-arabic-novel.md
+  title: "The Arabic Novel"
+  old: []
+  new: [Literature]
+  needs_review: false
+  note: ""
+- file: 2022-01-08-the-asian-american-novel.md
+  title: "The Asian-American Novel"
+  old: []
+  new: [Literature]
+  needs_review: false
+  note: ""
+- file: 2022-01-09-authorship.md
+  title: "Authorship"
+  old: []
+  new: [Literature, Philosophy]
+  needs_review: false
+  note: "Part of the novel-survey series, but the bulk substantively discusses Barthes, Foucault, and Althusser on authorship, so Philosophy is added as secondary."
+- file: 2022-01-12-the-baltic-states-and-the-novel.md
+  title: "The Baltic States and the Novel"
+  old: []
+  new: [Literature]
+  needs_review: false
+  note: ""
+- file: 2022-01-13-bildungsroman.md
+  title: "Bildungsroman"
+  old: []
+  new: [Literature]
+  needs_review: false
+  note: ""
+- file: 2022-01-13-open-access-is-building-a-one-time-shared-international-library-collection.md
+  title: "Open access is building a one-time, shared, international library collection"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2022-01-14-did-you-know-that-you-can-deposit-the-version-of-record-of-bloomsbury-academic-book-chapters-in-your-institutional-repository.md
+  title: "Did you know that you can deposit the version of record of Bloomsbury Academic book chapters in your institutional repository?"
+  old: []
+  new: [Open Access, Academia]
+  needs_review: false
+  note: ""
+- file: 2022-01-22-the-brazilian-novel.md
+  title: "The Brazilian Novel"
+  old: []
+  new: [Literature]
+  needs_review: false
+  note: ""
+- file: 2022-01-24-using-django-orm-click-and-rich-to-quickly-create-great-command-line-python-apps.md
+  title: "Using Django ORM, Click, and Rich to create useful command-line python apps"
+  old: []
+  new: [Programming]
+  needs_review: false
+  note: ""
+- file: 2022-01-25-18th-century-british-isles.md
+  title: "18th-Century British Isles"
+  old: []
+  new: [Literature]
+  needs_review: false
+  note: ""
+- file: 2022-01-26-19th-century-british-isles.md
+  title: "19th-Century British Isles"
+  old: []
+  new: [Literature]
+  needs_review: false
+  note: ""
+- file: 2022-01-27-20th-century-british-isles.md
+  title: "20th-Century British Isles"
+  old: []
+  new: [Literature]
+  needs_review: false
+  note: ""

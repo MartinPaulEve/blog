@@ -1,8 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/11/28/forthcoming-workshops-academic-websites-protecting-your-assets
 categories:
+- Conferences
 - Academia
-- Teaching
+- Technology
 comments: []
 date: 2011-11-28 11:02:36 +0100
 date_gmt: 2011-11-28 11:02:36 +0100

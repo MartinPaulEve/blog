@@ -1,10 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/12/30/2012-year-of-the-phd-completion-guardian-higher-education-top-10-posts-of-2011
 categories:
-- Politics
 - Academia
-- Output
-- Media
+- Personal
 comments:
 - author: ''
   author_email: claytonburns@gmail.com

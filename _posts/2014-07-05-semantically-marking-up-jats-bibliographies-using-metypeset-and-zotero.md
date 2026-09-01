@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/07/05/semantically-marking-up-jats-bibliographies-using-metypeset-and-zotero
 categories:
-- Technology
-- Open Access
+- Publishing Technology
+- Programming
 comments: []
 date: 2014-07-05 15:00:41 +0200
 date_gmt: 2014-07-05 14:00:41 +0200

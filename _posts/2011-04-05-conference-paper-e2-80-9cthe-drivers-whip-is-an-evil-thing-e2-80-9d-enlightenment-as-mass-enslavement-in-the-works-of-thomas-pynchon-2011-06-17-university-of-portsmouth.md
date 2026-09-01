@@ -1,15 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/04/05/conference-paper-e2-80-9cthe-drivers-whip-is-an-evil-thing-e2-80-9d-enlightenment-as-mass-enslavement-in-the-works-of-thomas-pynchon-2011-06-17-university-of-portsmouth
 categories:
-- Literature
+- Conferences
 - Thomas Pynchon
-- Academia
 - Philosophy
-- Michel Foucault
-- Theodor Adorno
-- Max Horkheimer
-- Output
-- Conference Papers
 comments: []
 date: 2011-04-05 09:46:38 +0200
 date_gmt: 2011-04-05 09:46:38 +0200

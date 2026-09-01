@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/02/24/my-review-of-the-cambridge-companion-to-thomas-pynchon-at-berfrois
 categories:
-- Literature
+- Publications
 - Thomas Pynchon
-- Academia
 comments:
 - author: Hal Espen
   author_email: ''

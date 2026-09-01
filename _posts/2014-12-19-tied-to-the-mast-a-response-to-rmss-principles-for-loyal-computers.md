@@ -2,7 +2,6 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/12/19/tied-to-the-mast-a-response-to-rmss-principles-for-loyal-computers
 categories:
 - Technology
-- Academia
 comments: []
 date: 2014-12-19
 doi: https://doi.org/10.59348/erzpp-y8227

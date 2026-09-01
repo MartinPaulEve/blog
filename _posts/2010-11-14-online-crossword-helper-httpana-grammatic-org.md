@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/11/14/online-crossword-helper-httpana-grammatic-org
 categories:
-- Technology
-- .NET
+- Programming
 comments: []
 date: 2010-11-14 08:22:04 +0100
 date_gmt: 2010-11-14 08:22:04 +0100

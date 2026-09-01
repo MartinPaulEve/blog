@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/12/30/using-bumblebee-for-opteron-graphics-on-ubuntu-12-10-on-a-samsung-chronos-7-series-laptop
 categories:
-- Technology
 - Linux
 comments: []
 date: 2012-12-30 13:20:41 +0100

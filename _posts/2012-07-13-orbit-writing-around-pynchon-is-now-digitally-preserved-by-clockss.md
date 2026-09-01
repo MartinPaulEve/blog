@@ -1,10 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/07/13/orbit-writing-around-pynchon-is-now-digitally-preserved-by-clockss
 categories:
-- Literature
+- Digital Preservation
 - Thomas Pynchon
 - Open Access
-- Academia
 comments: []
 date: 2012-07-13 10:02:26 +0200
 date_gmt: 2012-07-13 10:02:26 +0200

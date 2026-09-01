@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2008/09/17/creating-an-irc-frontback-end-from-a-c-web-application
 categories:
-- Technology
-- .NET
+- Programming
 comments: []
 date: 2008-09-17 13:03:20 +0200
 date_gmt: 2008-09-17 13:03:20 +0200

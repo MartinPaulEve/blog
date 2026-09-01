@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/01/10/adorno-terminology-ce-b5-cf-80-ce-bf-cf-87-ce-b7-misprint-of-ce-b1-cf-80-ce-bf-cf-87-ce-ae
 categories:
-- Academia
 - Philosophy
-- Theodor Adorno
 comments:
 - author: Adam Roberts
   author_email: profadamroberts@gmail.com

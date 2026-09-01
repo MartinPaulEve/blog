@@ -9,6 +9,8 @@ ogImage: images/header_geek.png
 title: 'ERROR: failed to build: failed to solve: failed to compute cache key: failed
   to calculate checksum of ref XXYYZZ'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvphq3z2h"
+categories:
+- Programming
 ---
 
 Another annoying error that you can get, during a docker build, that basically does not explain what's going on is something like:

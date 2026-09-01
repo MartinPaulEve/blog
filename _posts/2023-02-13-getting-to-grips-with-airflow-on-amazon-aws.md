@@ -5,6 +5,8 @@ doi: https://doi.org/10.59348/c41fh-cp382
 layout: post
 title: Getting to grips with Airflow on Amazon AWS
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lygoxlu2p"
+categories:
+- Programming
 ---
 
 I am currently conducting a research project at Crossref that requires me to build a database using large backend files (e.g. building a relational database from a 3GB XML file). We need to rebuild this monthly, so Apache Airflow seemed a good tool to run these periodic tasks.

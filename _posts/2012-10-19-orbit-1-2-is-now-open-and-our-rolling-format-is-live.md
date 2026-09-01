@@ -1,7 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/10/19/orbit-1-2-is-now-open-and-our-rolling-format-is-live
 categories:
-- Academia
+- Open Access
+- Thomas Pynchon
 comments: []
 date: 2012-10-19 15:50:22 +0200
 date_gmt: 2012-10-19 14:50:22 +0200

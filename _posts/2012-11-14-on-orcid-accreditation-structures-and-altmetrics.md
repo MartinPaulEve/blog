@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/11/14/on-orcid-accreditation-structures-and-altmetrics
 categories:
-- Technology
-- Open Access
+- Scholarly Communications
 - Academia
 comments: []
 date: 2012-11-14 18:00:11 +0100

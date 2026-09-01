@@ -1,10 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/10/24/open-journal-systems-now-supports-archiving-with-clockss-out-of-the-box
 categories:
-- Technology
-- Open Access
-- Academia
-- Output
+- Publishing Technology
+- Digital Preservation
 comments: []
 date: 2012-10-24 17:25:33 +0200
 date_gmt: 2012-10-24 16:25:33 +0200

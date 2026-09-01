@@ -1,7 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/01/19/every-generation-has-its-philosopher
 categories:
-- Open Access
+- Technology
 comments: []
 date: 2014-01-19 09:49:03 +0100
 date_gmt: 2014-01-19 09:49:03 +0100

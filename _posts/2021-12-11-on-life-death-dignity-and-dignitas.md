@@ -8,6 +8,9 @@ layout: post
 ogImage: images/header_warez.png
 title: On life, death, dignity, and Dignitas
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m27mctk2r"
+categories:
+- Personal
+- Health
 ---
 
 Some things we do in life happen once; the first time will be the only and last time. Our births and deaths, of course, are the two key ones.

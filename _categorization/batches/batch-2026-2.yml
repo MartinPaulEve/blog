@@ -1,0 +1,81 @@
+prompt_version: 1
+batch: batch-2026-2
+posts:
+- file: 2026-04-19-the-necessary-pain-involved-in-blogging-if-you-want-your-work-to-be-preserved-beyond-your-lifespan.md
+  title: "The Necessary Pain Involved in Blogging (if you want your work to be preserved beyond your lifespan)"
+  old: []
+  new: [Digital Preservation, Scholarly Communications, Personal]
+  needs_review: false
+  note: ""
+- file: 2026-05-21-things-i-have-made-lower-decks-conference-and-quote-in-researchprofessional.md
+  title: "Things I have made (KC IDMS in place, Lower Decks conference, and quote in ResearchProfessional)"
+  old: []
+  new: [Scholarly Communications, Open Access, Publishing Technology]
+  needs_review: false
+  note: ""
+- file: 2026-06-03-what-is-actually-licensed-in-printdigital-dual-licensed-books.md
+  title: "What is actually licensed in print/digital dual-licensed books?"
+  old: []
+  new: [Copyright and Licensing, Open Access]
+  needs_review: false
+  note: ""
+- file: 2026-06-04-more-on-dual-licensing-of-digital-oa-books.md
+  title: "More on dual-licensing of digital OA books"
+  old: []
+  new: [Copyright and Licensing, Open Access]
+  needs_review: false
+  note: ""
+- file: 2026-06-23-making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields.md
+  title: "Making blog posts harvestable by Zotero and preserving case in citation fields"
+  old: []
+  new: [Scholarly Communications]
+  needs_review: false
+  note: ""
+- file: 2026-06-27-fair-and-square-making-a-static-site-support-fair-signposting.md
+  title: "FAIR and Square: making a static site support FAIR signposting"
+  old: []
+  new: [Scholarly Communications]
+  needs_review: false
+  note: ""
+- file: 2026-07-10-investigating-atproto-here-and-for-knowledge-commons.md
+  title: "Investigating ATProto here and for Knowledge Commons"
+  old: []
+  new: [Scholarly Communications]
+  needs_review: false
+  note: ""
+- file: 2026-08-02-the-extended-interviews-on-ito-the-journey-looking-back-ati-star-trek-voyager.md
+  title: "The extended interviews on <i>To the Journey: Looking Back at</i> Star Trek: Voyager"
+  old: []
+  new: [Literature, Personal]
+  needs_review: true
+  note: "The taxonomy has no screen-media/TV category. This is a review of documentary interviews feeding the author's academic book on Star Trek Voyager; Literature (criticism and reviews of narrative works) is the nearest fit, with Personal for the fan reflection. Flagging in case a different home is preferred for screen media."
+- file: 2026-08-11-admission-meds-vascular-access.md
+  title: "Admission, meds, vascular access..."
+  old: []
+  new: [Health, Personal]
+  needs_review: false
+  note: ""
+- file: 2026-08-17-feed-infection-control-fluid-overload.md
+  title: "Feed, Infection Control, Fluid Overload"
+  old: []
+  new: [Health, Personal]
+  needs_review: false
+  note: ""
+- file: 2026-08-19-how-can-you-securely-share-a-secret-number-with-someone-totally-in-public.md
+  title: "How can you securely share a secret number with someone, totally in public? Elliptic Curves"
+  old: []
+  new: [Information Security]
+  needs_review: false
+  note: ""
+- file: 2026-08-28-repository-metadata-contain-ontological-ambiguities-that-fold-into-flat-hierarchies.md
+  title: "Repository metadata contain ontological ambiguities that fold into flat hierarchies"
+  old: []
+  new: [Scholarly Communications]
+  needs_review: false
+  note: ""
+- file: 2026-08-31-on-not-using-ai-detectors.md
+  title: "On (not) using AI detectors"
+  old: []
+  new: [Artificial Intelligence, Academia]
+  needs_review: false
+  note: ""

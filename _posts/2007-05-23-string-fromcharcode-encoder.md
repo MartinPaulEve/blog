@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2007/05/23/string-fromcharcode-encoder
 categories:
-- Technology
-- InfoSec
+- Information Security
 comments:
 - author: XSS Tutorial | Martin Paul Eve
   author_email: ''

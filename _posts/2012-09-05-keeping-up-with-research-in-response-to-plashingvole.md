@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/09/05/keeping-up-with-research-in-response-to-plashingvole
 categories:
-- Literature
 - Academia
 comments: []
 date: 2012-09-05 08:31:10 +0200

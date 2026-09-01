@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/09/06/adorno-terminology-intentio-recta-and-intention-obliqua
 categories:
-- Academia
 - Philosophy
-- Theodor Adorno
 comments:
 - author: Yuri
   author_email: yuricoutinho7@hotmail.com

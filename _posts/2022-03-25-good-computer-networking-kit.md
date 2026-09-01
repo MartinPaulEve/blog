@@ -8,6 +8,8 @@ layout: post
 ogImage: images/geek.png
 title: Good computer networking kit
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzcelg22a"
+categories:
+- Technology
 ---
 
 OK, this is different from my usual fare, but I've been thinking about upgrading my home LAN to 10GbE. My WAN connection is now more than 1Gbit and so I'm maxxing out the link. Finding kit that works on Linux (and even, shudder, FreeBSD), though, is somewhat tricky. Here's what I've found:

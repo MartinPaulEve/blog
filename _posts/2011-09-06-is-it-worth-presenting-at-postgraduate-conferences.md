@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/09/06/is-it-worth-presenting-at-postgraduate-conferences
 categories:
-- Conferences
 - Academia
 comments:
 - author: Andy Coverdale

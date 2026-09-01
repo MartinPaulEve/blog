@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/10/30/jo-johnson-your-proposals-for-british-higher-education-will-not-yield-the-competitiveness-you-seek
 categories:
-- HE
-- policy
+- Higher Education
 date: 2015-10-30
 doi: https://doi.org/10.59348/ppgdq-nzy72
 layout: post

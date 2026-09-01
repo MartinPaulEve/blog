@@ -2,14 +2,9 @@
 altmetric: 10.1057/9781137405500
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/04/10/book-pynchon-and-philosophy-wittgenstein-foucault-and-adorno
 categories:
-- Literature
-- Thomas Pynchon
-- Academia
-- Philosophy
-- Michel Foucault
 - Publications
-- Theodor Adorno
-- Ludwig Wittgenstein
+- Thomas Pynchon
+- Philosophy
 comments: []
 date: 2014-04-10 08:14:26 +0200
 date_gmt: 2014-04-10 07:14:26 +0200

@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/08/what-tef-is-really-for
 categories:
-- TEF
-- green paper
+- Higher Education
 date: 2015-11-08
 doi: https://doi.org/10.59348/e5h49-82354
 layout: post

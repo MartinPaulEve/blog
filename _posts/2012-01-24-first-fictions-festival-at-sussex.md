@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/01/24/first-fictions-festival-at-sussex
 categories:
-- Literature
 - Conferences
-- Academia
+- Literature
 comments: []
 date: 2012-01-24 20:39:42 +0100
 date_gmt: 2012-01-24 20:39:42 +0100

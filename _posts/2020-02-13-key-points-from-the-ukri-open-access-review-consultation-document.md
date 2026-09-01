@@ -8,6 +8,8 @@ layout: post
 ogImage: images/oa.png
 title: Key Points from The UKRI Open Access Review Consultation Document
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6it5n62p"
+categories:
+- Open Access
 ---
 
 These are my notes on [The UKRI Open Access Review Consultation Document](https://www.ukri.org/files/funding/oa/open-access-review-consultation/).

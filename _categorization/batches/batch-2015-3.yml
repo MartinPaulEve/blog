@@ -1,0 +1,147 @@
+prompt_version: 1
+batch: batch-2015-3
+posts:
+- file: 2015-09-06-a-final-example-to-show-that-misquotation-is-nothing-to-do-with-open-licensing.md
+  title: "A final example to show that misquotation is nothing to do with open licensing"
+  old: []
+  new: [Copyright and Licensing, Open Access]
+  needs_review: false
+  note: ""
+- file: 2015-09-09-speculations-on-jo-johnsons-he-talk.md
+  title: "TEF, REF, QR, deregulation: thoughts on Jo Johnson's HE talk"
+  old: [policy]
+  new: [Higher Education]
+  needs_review: false
+  note: ""
+- file: 2015-09-18-its-not-about-stifling-academic-freedom.md
+  title: "'It's not about stifling academic freedom'"
+  old: [academic freedom]
+  new: [Higher Education, Politics]
+  needs_review: false
+  note: ""
+- file: 2015-10-11-quasi-objects.md
+  title: "Quasi-Objects"
+  old: [writing, philosophy]
+  new: [Philosophy]
+  needs_review: false
+  note: "Dropped the writing->Academia hint: the post is purely an exposition of Latour's We Have Never Been Modern, not about academic writing practice."
+- file: 2015-10-17-re-hosting-the-2014-british-academy-report-on-oa-journals-in-the-humanities-and-social-sciences.md
+  title: "Re-hosting the 2014 British Academy report on OA Journals in the Humanities and Social Sciences"
+  old: [OA]
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2015-10-26-academiaedus-peer-review-experiments.md
+  title: "Academia.edu’s peer-review experiments"
+  old: [open access, peer review]
+  new: [Academia, Open Access]
+  needs_review: false
+  note: ""
+- file: 2015-10-30-jo-johnson-your-proposals-for-british-higher-education-will-not-yield-the-competitiveness-you-seek.md
+  title: "Jo Johnson: your proposals for British higher education will not yield the competitiveness you seek"
+  old: [HE, policy]
+  new: [Higher Education]
+  needs_review: false
+  note: ""
+- file: 2015-11-03-new-review-published-of-joanna-freer-thomas-pynchon-and-the-american-counterculture.md
+  title: "New review published of Joanna Freer, Thomas Pynchon and the American Counterculture"
+  old: [review, publication]
+  new: [Publications, Thomas Pynchon]
+  needs_review: false
+  note: ""
+- file: 2015-11-05-clarifying-a-few-facts-for-elsevier-and-their-response-to-lingua.md
+  title: "Clarifying a few facts for Elsevier and their response to Lingua"
+  old: [Elsevier, OA]
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2015-11-06-two-fundamental-challenges-for-a-transition-to-open-access-monographs.md
+  title: "Two fundamental challenges for a transition to open-access monographs"
+  old: [OA, books]
+  new: [Open Access]
+  needs_review: false
+  note: "Dropped the books->Publications hint: this is OA monograph business-model analysis, not an announcement of the author's published work."
+- file: 2015-11-08-what-tef-is-really-for.md
+  title: "What TEF is really for"
+  old: [TEF, green paper]
+  new: [Higher Education]
+  needs_review: false
+  note: ""
+- file: 2015-11-10-he-green-paper-response-to-question-23.md
+  title: "HE Green Paper: response to question 23"
+  old: [HE, green paper, politics]
+  new: [Higher Education]
+  needs_review: false
+  note: "Green Paper response series rule: Higher Education alone; politics hint dropped (FOI discussed only within HE policy context)."
+- file: 2015-11-17-it-is-no-use-trying-to-replace-the-impact-factor.md
+  title: "It is no use trying to replace the Impact Factor"
+  old: [open access, impact factor]
+  new: [Academia]
+  needs_review: false
+  note: "Dropped the open access hint: the post is about reforming research assessment and metrics culture, not OA models (OpenCon is only the occasion)."
+- file: 2015-11-17-some-numbers-on-book-processing-charge-scalability.md
+  title: "Some numbers on book processing charge scalability"
+  old: [OA, BPC, books]
+  new: [Open Access]
+  needs_review: false
+  note: "Dropped the books->Publications hint: BPC economics for OA monographs, not a publication announcement."
+- file: 2015-11-18-bis-metrics-and-non-selective-qr-allocation.md
+  title: "BIS, metrics and non-selective QR-allocation"
+  old: [metrics, REF, QR, green paper]
+  new: [Higher Education]
+  needs_review: false
+  note: "Dropped the metrics->Academia hint: metrics are discussed as REF/QR funding policy instruments, so this is squarely HE policy."
+- file: 2015-11-21-he-green-paper-response-to-question-1.md
+  title: "HE Green Paper: response to question 1"
+  old: [HE, green paper, politics]
+  new: [Higher Education]
+  needs_review: false
+  note: "Green Paper response series rule: Higher Education alone; politics hint dropped."
+- file: 2015-11-21-he-green-paper-response-to-question-2.md
+  title: "HE Green Paper: response to question 2"
+  old: [HE, green paper, politics]
+  new: [Higher Education]
+  needs_review: false
+  note: "Green Paper response series rule: Higher Education alone; politics hint dropped."
+- file: 2015-11-21-he-green-paper-response-to-question-3.md
+  title: "HE Green Paper: response to question 3"
+  old: [HE, green paper, politics]
+  new: [Higher Education]
+  needs_review: false
+  note: "Green Paper response series rule: Higher Education alone; politics hint dropped."
+- file: 2015-11-21-my-response-to-the-nhs-consultation.md
+  title: "My response to the NHS consultation"
+  old: [politics, NHS]
+  new: [Politics]
+  needs_review: false
+  note: ""
+- file: 2015-11-22-he-green-paper-response-to-question-4.md
+  title: "HE Green Paper: response to question 4"
+  old: [HE, green paper, politics]
+  new: [Higher Education]
+  needs_review: false
+  note: "Green Paper response series rule: Higher Education alone; politics hint dropped."
+- file: 2015-11-22-he-green-paper-response-to-question-5.md
+  title: "HE Green Paper: response to question 5"
+  old: [HE, green paper, politics]
+  new: [Higher Education]
+  needs_review: false
+  note: "Green Paper response series rule: Higher Education alone; politics hint dropped."
+- file: 2015-11-25-he-green-paper-response-to-question-6.md
+  title: "HE Green Paper: response to question 6"
+  old: [HE, green paper, politics]
+  new: [Higher Education]
+  needs_review: false
+  note: "Green Paper response series rule: Higher Education alone; politics hint dropped."
+- file: 2015-11-26-he-green-paper-response-to-question-7.md
+  title: "HE Green Paper: response to question 7"
+  old: [HE, green paper, politics]
+  new: [Higher Education]
+  needs_review: false
+  note: "Green Paper response series rule: Higher Education alone; politics hint dropped."
+- file: 2015-11-26-he-green-paper-response-to-question-8.md
+  title: "HE Green Paper: response to question 8"
+  old: [HE, green paper, politics]
+  new: [Higher Education]
+  needs_review: false
+  note: "Green Paper response series rule: Higher Education alone; politics hint dropped."

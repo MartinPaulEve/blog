@@ -8,6 +8,9 @@ layout: post
 ogImage: images/header_robot.png
 title: Aiming for downtime
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m23f4qn2o"
+categories:
+- Technology
+- Personal
 ---
 
 Lots about contemporary computation stresses availability and _uptime_. It is important, for instance, that the OLH servers for which I have ultimate responsibility stay online. Otherwise, the articles that we publish would not be readable. As a result, various tools, such as "[Uptime Robot](https://uptimerobot.com/)", have emerged that are designed to alert you when a server goes offline. There's definitely something to be said about this demand for computational high-availability and the expectation that people be contactable/available in our digital world.

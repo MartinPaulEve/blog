@@ -1,0 +1,123 @@
+prompt_version: 1
+batch: batch-2024-1
+posts:
+- file: 2024-01-09-rusting-away-or-packing-the-entire-crossref-database-into-a-sqlite-file.md
+  title: "Rusting Away (or: packing the entire Crossref database into a SQLite file)"
+  old: []
+  new: [Programming, Scholarly Communications]
+  needs_review: false
+  note: ""
+- file: 2024-01-14-on-rheumatoid-arthritis-and-the-things-most-people-dont-know-about-it.md
+  title: "On Rheumatoid Arthritis and the Things Most People Don't Know About It"
+  old: []
+  new: [Health, Personal]
+  needs_review: false
+  note: ""
+- file: 2024-02-21-betting-against-the-future.md
+  title: "Betting against the future"
+  old: []
+  new: [Health, Personal]
+  needs_review: false
+  note: ""
+- file: 2024-02-29-preservation-as-a-memento-mori-and-matter-of-ethics.md
+  title: "Preservation as a Memento Mori and Matter of Ethics"
+  old: []
+  new: [Digital Preservation, Academia]
+  needs_review: false
+  note: "Academia added for the postgraduate-training and scholarly-publication framing."
+- file: 2024-03-19-the-problem-for-ref-2029.md
+  title: "The problem for REF 2029"
+  old: []
+  new: [Higher Education]
+  needs_review: false
+  note: ""
+- file: 2024-06-05-begin-at-the-beginning-the-king-said-very-gravely-serious-openings-and-subversive-epigraphs-in-the-novels-of-thomas-pynchon.md
+  title: "‘Begin at the beginning, the King said, very gravely’: Serious Openings and Subversive Epigraphs in the Novels of Thomas Pynchon"
+  old: []
+  new: [Thomas Pynchon, Conferences]
+  needs_review: false
+  note: "Conference paper (delivered at Preface, Prelude, Prologue, Lewes, 2024); per the co-occurrence rules no Literature since non-Pynchon literature is only mentioned in passing."
+- file: 2024-06-14-how-long-have-i-got-doc.md
+  title: "How long have I got, doc?"
+  old: []
+  new: [Health, Personal]
+  needs_review: false
+  note: ""
+- file: 2024-06-21-a-few-notes-on-the-ref-oa-mandate-for-books.md
+  title: "Some personal notes on the REF OA mandate for books"
+  old: []
+  new: [Open Access, Higher Education]
+  needs_review: false
+  note: ""
+- file: 2024-06-30-ai-and-open-cultural-licensing-remarks-to-be-presented-at-the-sharp-plenary-roundtable-ai-in-the-communications-circuit.md
+  title: "AI and Open Cultural Licensing (remarks to be presented at the SHARP plenary roundtable: AI In the Communications Circuit)"
+  old: []
+  new: [Artificial Intelligence, Copyright and Licensing, Conferences]
+  needs_review: false
+  note: ""
+- file: 2024-07-15-errata-for-theses-on-the-metaphors-of-digital-textual-history.md
+  title: "Errata for Theses on the Metaphors of Digital-Textual History"
+  old: []
+  new: [Publications]
+  needs_review: false
+  note: "Errata notice for the author's published book; the corrections themselves (etymological details) are too slight to warrant a subject category."
+- file: 2024-07-16-theses-on-the-metaphors-of-digital-textual-history-is-out-today.md
+  title: "Theses on the Metaphors of Digital-Textual History is out today!"
+  old: []
+  new: [Publications, Digital Humanities]
+  needs_review: true
+  note: "Book launch announcement, so Publications plus the subject of the work. The book's field (book history / new media / material-textual studies) has no exact canonical home; Digital Humanities is the closest fit but Literature is arguable."
+- file: 2024-07-20-boycott-routledge-over-ai-training-its-probably-in-the-contract.md
+  title: "Boycott Routledge over AI training? It's probably in the contract..."
+  old: []
+  new: [Artificial Intelligence, Copyright and Licensing]
+  needs_review: false
+  note: ""
+- file: 2024-08-15-on-dropping-the-ref-oa-mandate-for-books-this-time.md
+  title: "On dropping the REF OA mandate for books (this time)"
+  old: []
+  new: [Open Access, Higher Education]
+  needs_review: false
+  note: ""
+- file: 2024-09-12-rollercoaster-days.md
+  title: "Rollercoaster days"
+  old: []
+  new: [Health, Personal]
+  needs_review: false
+  note: ""
+- file: 2024-09-24-are-metadata-facts.md
+  title: "Are metadata facts?"
+  old: []
+  new: [Scholarly Communications, Copyright and Licensing]
+  needs_review: false
+  note: ""
+- file: 2024-10-07-why-its-worth-avoiding-as-many-virusescommon-colds-as-possible-mine-led-to-permanent-disability.md
+  title: "Why it's worth avoiding as many viruses/common colds as possible: mine led to permanent disability"
+  old: []
+  new: [Health, Personal]
+  needs_review: false
+  note: ""
+- file: 2024-10-14-my-conflicted-thoughts-on-the-uks-assisted-dying-bill.md
+  title: "My conflicted thoughts on the UK's assisted dying bill"
+  old: []
+  new: [Politics, Health]
+  needs_review: false
+  note: "Assisted dying as policy commentary (Politics) grounded in the author's own terminal illness (Health); the rules allow co-occurrence when a post does both."
+- file: 2024-12-13-my-academic-year-in-review.md
+  title: "My academic year in review"
+  old: []
+  new: [Personal, Academia]
+  needs_review: false
+  note: "Year-in-review, and substantially a professional review (redundancy, publications, conferences), so Academia added per the rules."
+- file: 2024-12-21-evaluating-document-similarity-detection-approaches.md
+  title: "Evaluating Document Similarity Detection Approaches for Content Drift Detection"
+  old: []
+  new: [Digital Preservation, Programming, Scholarly Communications]
+  needs_review: false
+  note: ""
+- file: 2024-12-28-history-and-digital-preservation.md
+  title: "History and Digital Preservation"
+  old: []
+  new: [Digital Preservation]
+  needs_review: false
+  note: ""

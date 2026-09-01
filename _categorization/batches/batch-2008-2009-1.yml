@@ -1,0 +1,117 @@
+prompt_version: 1
+batch: batch-2008-2009-1
+posts:
+- file: 2008-02-02-an-xml-based-xss-poc-platform.md
+  title: "An XML based XSS PoC platform"
+  old: [Technology, InfoSec, .NET]
+  new: [Information Security, Programming]
+  needs_review: false
+  note: "XSS proof-of-concept framework (SSImp) with substantial C# source; security-primary, own software project secondary."
+- file: 2008-02-23-wp-aspxrewriter-alpha-test.md
+  title: "wp-aspxrewriter alpha test"
+  old: [Technology, .NET]
+  new: [Programming]
+  needs_review: false
+  note: "Author's own ASP.NET/WordPress software project; Programming is more specific than the Technology hint."
+- file: 2008-02-28-firefox-3-disallows-cross-site-xbl.md
+  title: "Firefox 3 disallows cross-site XBL"
+  old: [Technology, InfoSec]
+  new: [Information Security]
+  needs_review: false
+  note: ""
+- file: 2008-03-05-ie7-remote-file-access.md
+  title: "IE7 Remote File Access"
+  old: [Technology, InfoSec]
+  new: [Information Security]
+  needs_review: false
+  note: ""
+- file: 2008-04-06-binding-to-radiobuttons-in-net-windows-forms.md
+  title: "Binding to RadioButtons in .NET Windows Forms"
+  old: [Technology, .NET]
+  new: [Programming]
+  needs_review: false
+  note: "C#/.NET code how-to; author notes it is explicitly not security-related."
+- file: 2008-07-06-c-memorymanagement-class.md
+  title: "C# MemoryManagement Class"
+  old: [Technology, .NET]
+  new: [Programming]
+  needs_review: false
+  note: ""
+- file: 2008-07-23-building-a-robust-ssl-crc-verified-serverclient-solution-in-the-net-framework-with-c.md
+  title: "Building a robust, SSL, CRC-Verified server/client solution in the .NET Framework with C#"
+  old: [Technology, .NET]
+  new: [Programming, Information Security]
+  needs_review: false
+  note: "Calibration gold answer."
+- file: 2008-07-30-expanding-a-treeview-to-a-specific-node-in-wpf.md
+  title: "Expanding a treeview to a specific node in WPF"
+  old: [Technology, .NET]
+  new: [Programming]
+  needs_review: false
+  note: ""
+- file: 2008-07-31-c-dataexecutor-class-again.md
+  title: "C# DataExecutor class again"
+  old: [Technology, .NET]
+  new: [Programming]
+  needs_review: false
+  note: ""
+- file: 2008-09-17-creating-an-irc-frontback-end-from-a-c-web-application.md
+  title: "Creating an IRC front/back-end from a C# web application"
+  old: [Technology, .NET]
+  new: [Programming]
+  needs_review: false
+  note: ""
+- file: 2008-09-24-the-importance-of-weaponization-in-exploit-development.md
+  title: "The importance of weaponization in exploit development"
+  old: [Technology, InfoSec]
+  new: [Information Security]
+  needs_review: false
+  note: ""
+- file: 2008-10-03-convert-excel-to-serif-webplus-sdb-format.md
+  title: "Convert Excel to Serif Webplus SDB format"
+  old: [Technology]
+  new: [Technology]
+  needs_review: false
+  note: "General tech/file-format tip with no code written; Technology catch-all fits."
+- file: 2008-12-07-bypassing-firewalls-using-ssh-reverse-forwarding.md
+  title: "Bypassing firewalls using SSH Reverse Forwarding"
+  old: [Technology, InfoSec]
+  new: [Information Security]
+  needs_review: false
+  note: "OS-agnostic firewall-bypass/tunnelling technique; security-primary."
+- file: 2008-12-07-fetching-files-via-echo-ftp-in-a-non-interactive-shell-environment.md
+  title: "Fetching files via echo, FTP in a non interactive shell environment"
+  old: [Technology, InfoSec]
+  new: [Information Security]
+  needs_review: false
+  note: "Post-exploitation file-transfer technique."
+- file: 2008-12-07-ssh-key-based-password-less-login.md
+  title: "SSH Key Based, Password Less Login"
+  old: [Technology, InfoSec, Linux]
+  new: [Information Security, Linux]
+  needs_review: false
+  note: "Key-based auth how-to (cf. YubiKey taxonomy example under InfoSec) with concrete Linux server-side steps."
+- file: 2009-01-27-dual-stage-sql-injection-attacks.md
+  title: "Dual Stage SQL Injection Attacks"
+  old: [Technology, InfoSec, SQL, PHP]
+  new: [Information Security]
+  needs_review: false
+  note: "Attack-technique writeup analysing PHP/SQL; salience is the vulnerability, not teaching programming."
+- file: 2009-02-01-ftp-url-fastsnap-parsing-in-net.md
+  title: "FTP URL FastSnap Parsing in .NET"
+  old: [Technology, Mono]
+  new: [Programming]
+  needs_review: false
+  note: ""
+- file: 2009-06-23-installing-office-2007-on-wine-1-1-24.md
+  title: "Installing Office 2007 on wine 1.1.24"
+  old: [Technology, Linux]
+  new: [Linux]
+  needs_review: false
+  note: "Linux/Wine how-to; Linux alone per co-occurrence rule."
+- file: 2009-12-07-fixing-scp-completion-in-ubuntu-9-10.md
+  title: "Fixing scp completion in Ubuntu 9.10"
+  old: [Technology, Linux]
+  new: [Linux]
+  needs_review: false
+  note: "Linux fix-it post; Linux alone."

@@ -1,10 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/04/14/live-qa-life-after-a-phd-friday-15th-april-2011-13-00-16-00
 categories:
-- Conferences
 - Academia
-- Output
-- Public Engagement
+- Conferences
 comments:
 - author: SarahR-H
   author_email: sarah@gargoyle.eclipse.co.uk

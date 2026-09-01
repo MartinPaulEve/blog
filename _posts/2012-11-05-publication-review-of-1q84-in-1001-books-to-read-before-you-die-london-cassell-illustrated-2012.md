@@ -1,10 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/11/05/publication-review-of-1q84-in-1001-books-to-read-before-you-die-london-cassell-illustrated-2012
 categories:
-- Literature
-- Academia
 - Publications
-- Output
+- Literature
 comments: []
 date: 2012-11-05 09:42:58 +0100
 date_gmt: 2012-11-05 09:42:58 +0100

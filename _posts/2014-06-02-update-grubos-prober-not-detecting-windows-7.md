@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/06/02/update-grubos-prober-not-detecting-windows-7
 categories:
-- Technology
 - Linux
 comments: []
 date: 2014-06-02 13:37:23 +0200

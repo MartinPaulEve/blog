@@ -1,0 +1,141 @@
+prompt_version: 1
+batch: batch-2012-3
+posts:
+- file: 2012-04-11-starting-a-digital-humanities-project-epilog.md
+  title: "Starting a Digital Humanities Project: epiLog"
+  old: [Technology, Academia, Django]
+  new: [Digital Humanities, Programming]
+  needs_review: false
+  note: "Deviated from Technology/Academia hints: the post announces a DH annotation project and is dominated by Django/Python/Bootstrap implementation detail, so Digital Humanities plus Programming fit better than the generic hints."
+- file: 2012-04-11-video-of-my-uksglive-presentation-on-the-future-of-academic-publishing.md
+  title: "Video of my #uksglive presentation on the future of academic publishing"
+  old: [Technology, Open Access, Academia, Output, Conference Papers]
+  new: [Open Access, Conferences]
+  needs_review: false
+  note: "Conference talk on academic publishing/OA economics: Conferences plus subject category. Dropped Technology/Academia/Publications hints as the content is a talk video, not a publication announcement."
+- file: 2012-04-23-teaching-post-millennial-literature-a-hea-and-university-of-brighton-symposium.md
+  title: "Teaching Post-Millennial Literature: A HEA and University of Brighton Symposium"
+  old: [Literature, Conferences, Academia]
+  new: [Conferences, Teaching, Literature]
+  needs_review: false
+  note: "CFP/symposium announcement about teaching contemporary literature, so Conferences plus Teaching and Literature as subject categories."
+- file: 2012-04-28-contemporary-fiction-research-seminar-write-up-martin-amis-money-2012-04-28.md
+  title: "Contemporary Fiction Research Seminar Write-Up: Martin Amis' Money (2012-04-28)"
+  old: [Literature, Conferences, Academia]
+  new: [Literature, Conferences]
+  needs_review: false
+  note: ""
+- file: 2012-04-30-pynchon-in-public-day-2012-our-meetup-details.md
+  title: "Pynchon in Public Day 2012: our meetup details"
+  old: [Literature, Thomas Pynchon, Public Engagement]
+  new: [Thomas Pynchon]
+  needs_review: false
+  note: "Dropped Literature per the Pynchon co-occurrence rule; no non-Pynchon literature is discussed. Pynchon in Public Day is an explicit Thomas Pynchon example."
+- file: 2012-05-02-an-update-on-orbit-1-1.md
+  title: "An update on Orbit 1.1"
+  old: [Literature, Thomas Pynchon, Academia]
+  new: [Thomas Pynchon, Open Access]
+  needs_review: false
+  note: "Orbit journal status update; added Open Access for the OASPA membership and OA-journal operations content, dropped Literature per the Pynchon rule."
+- file: 2012-05-05-excursions-journal-vol-3-launch-party.md
+  title: "Excursions Journal Vol 3: Launch Party"
+  old: [Academia]
+  new: [Academia]
+  needs_review: false
+  note: "Two-line invitation to a postgraduate journal launch event; too thin for more than the Academia hint."
+- file: 2012-05-12-day-1-of-twenty-first-century-literature-conference-at-birkbeck.md
+  title: "Day 1 of Twenty-First-Century Literature Conference at Birkbeck"
+  old: [Literature, Conferences, Academia]
+  new: [Conferences, Literature]
+  needs_review: false
+  note: ""
+- file: 2012-05-13-the-ontological-problems-of-contemporary-fiction-studies-are-actually-its-ontological-prerequsites.md
+  title: "The Ontological Problems of Contemporary Fiction Studies are Actually its Ontological Prerequsites"
+  old: [Literature, Academia]
+  new: [Literature, Academia]
+  needs_review: false
+  note: ""
+- file: 2012-05-19-thinking-feeling-conference-at-the-university-of-sussex.md
+  title: "Thinking Feeling Conference at the University of Sussex"
+  old: [Literature, Conferences, Academia, Samuel Beckett]
+  new: [Conferences, Literature, Philosophy]
+  needs_review: false
+  note: "Conference report spanning Beckett/Nin readings and substantive Illouz/Foucault/Adorno discussion, hence Philosophy alongside Literature."
+- file: 2012-05-21-beware-the-next-wave-of-academic-publishing-grimness-apps.md
+  title: "Beware the next wave of academic publishing grimness: apps."
+  old: [Technology, Academia]
+  new: [Open Access, Technology]
+  needs_review: false
+  note: "Content is a critique of publisher apps/DRM locking down research, framed around open formats and OA; swapped Academia for Open Access accordingly."
+- file: 2012-05-21-day-2-of-twenty-first-century-literature-conference-at-birkbeck.md
+  title: "Day 2 of Twenty-First-Century Literature Conference at Birkbeck"
+  old: [Literature, Conferences, Academia]
+  new: [Conferences, Literature]
+  needs_review: false
+  note: ""
+- file: 2012-05-21-sussex-southampton-initiative-sushi-an-interdisciplinary-fusion.md
+  title: "Sussex-Southampton Initiative: SuShI. An interdisciplinary fusion."
+  old: [Technology, Conferences, Academia]
+  new: [Conferences, Academia]
+  needs_review: false
+  note: "Event report on an interdisciplinary humanities-business day; dropped the Technology hint since digital culture is the conference topic, not tech content by the author."
+- file: 2012-06-06-metadata-handling-for-open-access-journal-pdfs.md
+  title: "Metadata handling for Open Access Journal PDFs"
+  old: [Technology, Open Access, Academia, Mendeley]
+  new: [Publishing Technology, Scholarly Communications]
+  needs_review: false
+  note: "Deviated from hints: the post is about Apache FOP/XSL PDF production and embedding DOI metadata so Zotero can detect it, which is publishing tooling plus metadata/identifier infrastructure."
+- file: 2012-06-08-is-this-a-picture-of-thomas-pynchon-aged-51.md
+  title: "Is this a picture of Thomas Pynchon aged 51?"
+  old: [Literature, Thomas Pynchon, Academia]
+  new: [Thomas Pynchon]
+  needs_review: false
+  note: "Matches the taxonomy's own Thomas Pynchon example; Literature dropped per the Pynchon rule."
+- file: 2012-06-12-another-adorno-against-wittgenstein-moment.md
+  title: "Another Adorno-against-Wittgenstein moment"
+  old: [Academia, Philosophy, Theodor Adorno, Ludwig Wittgenstein]
+  new: [Philosophy]
+  needs_review: false
+  note: ""
+- file: 2012-06-24-another-great-source-for-free-images-to-use-in-blogging.md
+  title: "Another great source for free images to use in blogging"
+  old: [Technology]
+  new: [Technology]
+  needs_review: false
+  note: ""
+- file: 2012-06-25-international-pynchon-week-2013-conference-website-and-cfp.md
+  title: "International Pynchon Week 2013 Conference: Website and CFP"
+  old: [Literature, Thomas Pynchon, Academia]
+  new: [Thomas Pynchon, Conferences]
+  needs_review: false
+  note: "CFP for a Pynchon conference: Conferences plus subject; Literature dropped per the Pynchon rule."
+- file: 2012-06-25-our-epistemic-gap-actually-we-need-to-re-think-unemployment-underemployment-and-benefits-entirely.md
+  title: 'Our epistemic gap: actually, we need to re-think "unemployment", "underemployment" and "benefits" entirely'
+  old: [Politics]
+  new: [Politics]
+  needs_review: false
+  note: ""
+- file: 2012-06-28-submitted-my-ph-d-in-memory-of-my-grandfather-john-gray-10021920-14062012.md
+  title: "Submitted my Ph.D! (in memory of my grandfather, John Gray [10/02/1920 - 14/06/2012])"
+  old: [Literature, Thomas Pynchon, Personal, Academia, Philosophy, Michel Foucault, Theodor Adorno, Ludwig Wittgenstein]
+  new: [Personal, Academia]
+  needs_review: false
+  note: "Overrode the broad subject hints: the post is a life event (PhD submission and a memorial dedication to his grandfather), not a discussion of Pynchon or philosophy."
+- file: 2012-06-28-the-part-of-the-open-access-debate-that-is-irritatingly-ignored.md
+  title: "The part of the open access debate that is, irritatingly, ignored"
+  old: [Open Access, Academia]
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2012-07-03-teaching-post-millenial-fiction-conference-archive.md
+  title: "Teaching Post-Millenial Fiction Conference archive"
+  old: [Literature, Conferences, Academia]
+  new: [Conferences, Teaching, Literature]
+  needs_review: false
+  note: "Event archive of the teaching post-millennial fiction symposium: Conferences plus Teaching and Literature as subject categories."
+- file: 2012-07-05-signing-over-copyright-vs-licensing-your-journal-articles.md
+  title: "Signing over copyright vs. licensing your journal articles"
+  old: [Open Access, Academia]
+  new: [Copyright and Licensing, Academia]
+  needs_review: false
+  note: "This is the taxonomy's own Copyright and Licensing example; overrode the Open Access hint since the post is about author agreements and copyright retention, not OA models."

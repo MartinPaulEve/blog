@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/04/01/designing-an-open-source-oa-toolchain-for-books
 categories:
 - Open Access
+- Publishing Technology
+- Conferences
 comments: []
 date: 2014-04-01 17:16:14 +0200
 date_gmt: 2014-04-01 16:16:14 +0200

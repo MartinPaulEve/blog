@@ -1,7 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/05/31/here-by-the-sea-and-sand-a-symposium-on-quadrophenia
 categories:
-- Academia
+- Conferences
+- Music
 comments: []
 date: 2014-05-31 12:02:45 +0200
 date_gmt: 2014-05-31 11:02:45 +0200

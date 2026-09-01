@@ -1,0 +1,25 @@
+---
+layout: category
+title: Categories
+og_card_snippet: "Every post on eve.gd, browsable by category."
+---
+{% assign cats = site.categories | sort %}
+<p class="category-jump">
+    {%- for pair in cats -%}
+    <a href="#{{ pair[0] | slugify }}">{{ pair[0] }}&nbsp;({{ pair[1] | size }})</a>
+    {%- unless forloop.last %} | {% endunless -%}
+    {%- endfor -%}
+</p>
+
+{% for pair in cats %}
+<h2 class="archive-year category-section" id="{{ pair[0] | slugify }}">
+    <a href="/categories/{{ pair[0] | slugify }}/">{{ pair[0] }}</a>
+    <span class="category-count">({{ pair[1] | size }})</span>
+</h2>
+<ul class="category-post-list">
+    {% for post in pair[1] %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a>
+        <span class="related-date">{{ post.date | date: "%-d %B %Y" }}</span></li>
+    {% endfor %}
+</ul>
+{% endfor %}

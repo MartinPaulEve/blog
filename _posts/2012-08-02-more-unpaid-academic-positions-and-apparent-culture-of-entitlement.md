@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/08/02/more-unpaid-academic-positions-and-apparent-culture-of-entitlement
 categories:
-- Politics
 - Academia
+- Higher Education
 comments: []
 date: 2012-08-02 11:35:05 +0200
 date_gmt: 2012-08-02 11:35:05 +0200

@@ -8,6 +8,8 @@ layout: post
 ogImage: images/header_reader.png
 title: Getting the Gist of Reading
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5tuknx2h"
+categories:
+- Literature
 ---
 
 Today, I read Andrew Elfenbein’s _The Gist of Reading_ (Stanford, CA: Stanford University Press, 2018). By any account, this is a provocative and stimulating read that brings observations from cognitive psychology to bear on literary critical concerns. Predominantly concerned with nineteenth-century novels in his examples, Elfenbein nonetheless draws out a broad theoretical framework that I believe has far wider consequences. In examining the actual processes of how we _read_, Elfenbein wants to ‘get beyond the “implied reader” to describe how readers [actually] interact with literature’ (189).

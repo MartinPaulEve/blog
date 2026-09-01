@@ -1,12 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/03/17/conference-paper-the-f-word-2011-04-01-university-of-durham
 categories:
-- Literature
-- Thomas Pynchon
 - Conferences
-- Academia
-- Output
-- Conference Papers
+- Thomas Pynchon
+- Philosophy
 comments: []
 date: 2011-03-17 15:47:03 +0100
 date_gmt: 2011-03-17 15:47:03 +0100

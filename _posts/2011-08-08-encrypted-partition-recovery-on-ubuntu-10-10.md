@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/08/08/encrypted-partition-recovery-on-ubuntu-10-10
 categories:
-- Technology
-- InfoSec
 - Linux
+- Information Security
 comments: []
 date: 2011-08-08 07:26:56 +0200
 date_gmt: 2011-08-08 07:26:56 +0200

@@ -1,13 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/06/27/enslavement-conference-portsmouth-17th-june-2011
 categories:
-- Literature
-- Thomas Pynchon
 - Conferences
-- Academia
-- Philosophy
-- Output
-- Conference Papers
+- Literature
 comments: []
 date: 2011-06-27 10:00:56 +0200
 date_gmt: 2011-06-27 10:00:56 +0200

@@ -8,6 +8,9 @@ layout: post
 ogImage: images/ref.png
 title: 'The new REF individual circumstances setup: the good and the bad'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6ksoso2s"
+categories:
+- Higher Education
+- Health
 ---
 
 I am quoted in [today's Research Fortnight](https://www.researchprofessional.com/0/rr/news/uk/ref-2014/2019/12/REF-staff-circumstances-rules-criticised.html) on the new REF staff/individual circumstances under the heading 'REF staff circumstances rules criticised'. The quote used only gives a selection of the views that I supplied and omits the bits where I say why the new situation might be better (that's fine -- it's journalism and I was not quoted inaccurately). Here are my full remarks in context:

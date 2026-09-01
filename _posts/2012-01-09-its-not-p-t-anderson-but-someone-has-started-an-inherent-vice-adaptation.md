@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/01/09/its-not-p-t-anderson-but-someone-has-started-an-inherent-vice-adaptation
 categories:
-- Literature
 - Thomas Pynchon
 comments: []
 date: 2012-01-09 13:17:10 +0100

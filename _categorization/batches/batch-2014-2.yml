@@ -1,0 +1,147 @@
+prompt_version: 1
+batch: batch-2014-2
+posts:
+- file: 2014-04-16-alluvium-2nd-birthday-panel-event.md
+  title: "Alluvium 2nd Birthday Panel Event"
+  old: [Literature, Open Access, Academia]
+  new: [Conferences, Open Access, Literature]
+  needs_review: false
+  note: "Panel event announcement, so Conferences per the event rule; subject is OA journal publishing and contemporary literary criticism. Dropped the Academia hint."
+- file: 2014-04-17-bitmask-values-for-wtbllook-wval-attribute-in-ooxml.md
+  title: "Bitmask values for w:tblLook w:val attribute in OOXML"
+  old: [Technology]
+  new: [Publishing Technology]
+  needs_review: false
+  note: "Overrode Technology hint: these are OOXML-parsing notes from the meTypeset docx-to-JATS typesetting work (contemporaneous with the 2014 meTypeset posts), so Publishing Technology is the more specific fit."
+- file: 2014-04-17-what-do-we-mean-by-the-standing-and-reach-of-research.md
+  title: "What do we mean by the \"standing\" and \"reach\" of research?"
+  old: [Open Access, Academia, Media]
+  new: [Open Access, Academia]
+  needs_review: false
+  note: "Dropped the Media hint (remaps to Publications): this is an OA policy opinion piece reposted from the Guardian, not an announcement of a scholarly publication."
+- file: 2014-04-19-openness-for-society-or-for-profit.md
+  title: "Openness for society or for profit?"
+  old: [Open Access]
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2014-04-22-an-open-library-of-humanities-adeline-koh-interviews-me-at-the-chronicles-profhacker.md
+  title: "An Open Library of Humanities? Adeline Koh interviews me at the Chronicle's ProfHacker"
+  old: [Open Access]
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2014-04-30-open-access-monographs-and-working-for-publishers-for-free.md
+  title: "Open Access, Monographs and \"working for publishers for free\""
+  old: [Open Access]
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2014-05-03-two-free-copies-of-pynchon-and-philosophy-to-win-andor-a-25-discount.md
+  title: "Two free copies of \"Pynchon and Philosophy\" to win and/or a 25% discount"
+  old: [Literature, Thomas Pynchon, Academia]
+  new: [Thomas Pynchon, Publications]
+  needs_review: false
+  note: "Pynchon in Public Day giveaway promoting his own book. Dropped Literature per the Pynchon co-occurrence rule and dropped Academia; added Publications as the post is book promotion."
+- file: 2014-05-05-the-tax-his-land-meme-and-its-discontents-me.md
+  title: "The \"tax his land\" meme and its discontents (me)"
+  old: [Politics]
+  new: [Politics]
+  needs_review: false
+  note: ""
+- file: 2014-05-31-here-by-the-sea-and-sand-a-symposium-on-quadrophenia.md
+  title: "Here by the Sea and Sand: A Symposium on Quadrophenia"
+  old: [Academia]
+  new: [Conferences, Music]
+  needs_review: false
+  note: "Symposium announcement, so Conferences per the event rule; the subject is The Who's Quadrophenia, so Music. Overrode the Academia hint; the body is only sponsor details."
+- file: 2014-06-02-update-grubos-prober-not-detecting-windows-7.md
+  title: "update-grub/os-prober not detecting Windows 7"
+  old: [Technology, Linux]
+  new: [Linux]
+  needs_review: false
+  note: "Linux fix-it post, so Linux alone per the co-occurrence rule; Technology hint dropped."
+- file: 2014-06-03-a-research-tool-i-want-but-probably-wont-get-cross-referenceintersect-bibliographies-of-books-and-articles.md
+  title: "A research tool I want (but probably won't get): cross-reference/intersect bibliographies of books and articles"
+  old: [Technology, Open Access, Academia]
+  new: [Scholarly Communications, Open Access]
+  needs_review: false
+  note: "Chiefly about citation infrastructure, DOI coverage, and JATS-encoded references, so Scholarly Communications leads; OA framing (access to XML) retained. Technology and Academia hints dropped as less specific."
+- file: 2014-06-04-ann-wordsworth-critical-theory-faculty-contingency-and-the-university-in-ruins.md
+  title: "Ann Wordsworth, Critical Theory, Faculty Contingency and the University in Ruins"
+  old: [Academia]
+  new: [Academia, Higher Education]
+  needs_review: false
+  note: ""
+- file: 2014-06-19-my-short-additional-response-to-the-hefce-metrics-consultation.md
+  title: "My short additional response to the HEFCE metrics consultation"
+  old: [Politics, Academia]
+  new: [Higher Education, Open Access, Academia]
+  needs_review: false
+  note: "Overrode the Politics hint: a HEFCE research-metrics consultation response is HE policy, not general politics; the substance is largely about what OA means for metrics, with Academia for metrics/prestige."
+- file: 2014-06-22-typesetting-jats-bibliographies-using-csl-and-zotero.md
+  title: "Typesetting JATS bibliographies using CSL and Zotero"
+  old: [Technology, Open Access, Academia]
+  new: [Publishing Technology, Programming]
+  needs_review: false
+  note: "JATS typesetting tooling, so Publishing Technology per the rules; Programming for the fork he codes and maintains. Technology/OA/Academia hints dropped as this is tooling, not OA policy."
+- file: 2014-06-23-dumping-jats-from-zotero.md
+  title: "Dumping JATS from Zotero"
+  old: [Technology, Open Access, meTypeset]
+  new: [Publishing Technology, Programming]
+  needs_review: false
+  note: "Progress note on meTypeset's Zotero branch: publishing tooling plus his own code."
+- file: 2014-07-02-historicizing-the-iraq-war-in-don-delillos-point-omega-preprint-forthcoming-in-journal-of-american-studies.md
+  title: "Historicizing the Iraq War in Don DeLillo's Point Omega (preprint, forthcoming in Journal of American Studies)"
+  old: [Literature, Academia]
+  new: [Publications, Literature]
+  needs_review: false
+  note: "Preprint announcement of his own forthcoming article, so Publications plus the subject category (DeLillo criticism)."
+- file: 2014-07-03-my-personal-response-to-the-ttip-consultation.md
+  title: "My personal response to the TTIP consultation"
+  old: [Politics]
+  new: [Politics]
+  needs_review: false
+  note: ""
+- file: 2014-07-05-semantically-marking-up-jats-bibliographies-using-metypeset-and-zotero.md
+  title: "Semantically marking up JATS bibliographies using meTypeset and Zotero"
+  old: [Technology, Open Access]
+  new: [Publishing Technology, Programming]
+  needs_review: false
+  note: "meTypeset/JATS typesetting implementation work, so Publishing Technology and Programming; Technology/OA hints dropped as this is tooling, not OA policy."
+- file: 2014-07-28-open-access-effective-measures-to-put-uk-research-online-under-threat.md
+  title: "Open access: effective measures to put UK research online under threat?"
+  old: [Open Access]
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2014-08-05-publication-all-that-glisters-investigating-collective-funding-mechanisms-for-gold-open-access-in-humanities-disciplines.md
+  title: "Publication: All That Glisters: Investigating Collective Funding Mechanisms for Gold Open Access in Humanities Disciplines"
+  old: [Open Access, Academia, Publications, Output]
+  new: [Publications, Open Access]
+  needs_review: false
+  note: ""
+- file: 2014-08-14-publication-historicizing-the-iraq-war-in-don-delillos-point-omega.md
+  title: "Publication: Historicizing the Iraq War in Don DeLillo’s Point Omega"
+  old: [Literature, Academia, Publications, Output]
+  new: [Publications, Literature]
+  needs_review: false
+  note: ""
+- file: 2014-08-27-the-ice-bucket-challenge-and-the-waste-of-water-critique.md
+  title: "The Ice Bucket challenge and the \"waste of water\" critique"
+  old: [Politics]
+  new: [Politics]
+  needs_review: false
+  note: ""
+- file: 2014-09-01-forthcoming-book-open-access-and-the-humanities-contexts-controversies-and-the-future-cambridge-up-2014.md
+  title: "Forthcoming book: Open Access and the Humanities: Contexts, Controversies and the Future (Cambridge UP, 2014)"
+  old: [Open Access, Academia]
+  new: [Publications, Open Access]
+  needs_review: false
+  note: "Book announcement, so Publications plus the subject category per the rules; Academia hint dropped."
+- file: 2014-09-03-does-amazon-kill-a-revenue-channel-for-open-access-monographs.md
+  title: "Does Amazon kill a revenue channel for open access monographs?"
+  old: [Technology, Open Access]
+  new: [Open Access]
+  needs_review: false
+  note: "Dropped the Technology hint: the post is about OA monograph business models and Amazon's pricing policy as an economic threat, not about technology as such."

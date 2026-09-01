@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/06/07/a-brief-intro-pynchon-bibliography-biographical-and-gravitys-rainbow
 categories:
-- Literature
 - Thomas Pynchon
-- Academia
 comments: []
 date: 2011-06-07 18:09:55 +0200
 date_gmt: 2011-06-07 18:09:55 +0200

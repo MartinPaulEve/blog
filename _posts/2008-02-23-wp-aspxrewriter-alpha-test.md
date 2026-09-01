@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2008/02/23/wp-aspxrewriter-alpha-test
 categories:
-- Technology
-- .NET
+- Programming
 comments: []
 date: 2008-02-23 21:40:53 +0100
 date_gmt: 2008-02-23 21:40:53 +0100

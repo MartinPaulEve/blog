@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2009/12/07/fixing-scp-completion-in-ubuntu-9-10
 categories:
-- Technology
 - Linux
 comments: []
 date: 2009-12-07 12:41:39 +0100

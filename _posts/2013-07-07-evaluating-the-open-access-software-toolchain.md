@@ -1,7 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/07/07/evaluating-the-open-access-software-toolchain
 categories:
-- Technology
+- Publishing Technology
 - Open Access
 comments: []
 date: 2013-07-07 19:39:48 +0200

@@ -11,6 +11,9 @@ layout: post
 ogImage: images/yubico.png
 title: How to use YubiKey for authentication and sudo on Ubuntu 24.04
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7luygdk72u"
+categories:
+- Information Security
+- Linux
 ---
 
 I have had two YubiKeys for years. They are very cool devices. I used to store my keys themselves on the YubiKey, and perhaps I'll go back to doing that. But 1Password has me covered for now. What I did realise while moving to a new PC is that there is no concise guide to how to set up YubiKey on a recent Ubuntu Linux setup. I am on Ubuntu 24.04, using the Gnome desktop environment (this might be significant) and here's what I did. This gives me passwordless sudo with a touch of the YubiKey and the ability to use the YubiKey in polkit popups (when permission is requested). If you remove the YubiKey key while that prompt is visible, it will fall back to asking for a password.

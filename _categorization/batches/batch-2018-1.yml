@@ -1,0 +1,123 @@
+prompt_version: 1
+batch: batch-2018-1
+posts:
+- file: 2018-01-19-open-access-resources-and-evaluation-or-why-oa-journals-might-fare-badly-in-terms-of-usage.md
+  title: "Open Access Resources and Evaluation; or: why OA journals might fare badly in terms of conventional usage"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2018-01-21-how-learned-societies-could-flip-to-oa-using-a-consortial-model.md
+  title: "How Learned Societies Could Flip to Open Access, With No Author-Facing Charges, Using a Consortial Model"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2018-02-06-who-was-responsible-for-the-toby-young-ofs-debacle.md
+  title: "Who was actually responsible for the Toby Young OfS debacle?"
+  old: []
+  new: [Higher Education, Politics]
+  needs_review: false
+  note: ""
+- file: 2018-03-03-who-does-the-work-of-implementing-dora.md
+  title: "Who does the work of implementing DORA?"
+  old: []
+  new: [Academia]
+  needs_review: false
+  note: ""
+- file: 2018-03-20-action-short-of-a-strike-must-recognize-that-9-5-is-not-always-helpful.md
+  title: "Action Short of a Strike Must Recognize That 9-5 is Not Always Helpful"
+  old: []
+  new: [Higher Education]
+  needs_review: false
+  note: ""
+- file: 2018-03-20-keith-mcmillen-k-mix-on-linux.md
+  title: "Keith McMillen K-Mix on Linux"
+  old: []
+  new: [Linux, Music]
+  needs_review: false
+  note: "Pulseaudio configuration fix, so Linux leads, but the device is music-making gear."
+- file: 2018-04-01-the-tender-document-for-the-european-commissions-open-access-platform-asks-for-an-awful-lot.md
+  title: "The Tender Document for the European Commission's Open Access Platform Asks for an Awful Lot for Not Very Much"
+  old: []
+  new: [Open Access, Publishing Technology]
+  needs_review: false
+  note: ""
+- file: 2018-04-02-the-OA-mandate.md
+  title: "On the OA \"mandate\" for books in the Third REF and the worry over trade books"
+  old: []
+  new: [Open Access, Higher Education]
+  needs_review: false
+  note: ""
+- file: 2018-04-05-thoughts-on-the-UUK-offer.md
+  title: "Thoughts on the UUK offer and why I voted yes"
+  old: []
+  new: [Higher Education]
+  needs_review: false
+  note: ""
+- file: 2018-05-09-some-critiques-of-metamodernism.md
+  title: "My critique of metamodernism"
+  old: []
+  new: [Literature]
+  needs_review: false
+  note: ""
+- file: 2018-05-21-books-in-series.md
+  title: "Forthcoming Books in the New Horizons in Contemporary Writing Series"
+  old: []
+  new: [Literature, Publications]
+  needs_review: true
+  note: "Announcement of forthcoming titles in a Bloomsbury series the author edits, not his own authored work; Publications is a stretch of that category's criteria, so flagging. Subject matter is contemporary-writing scholarship, hence Literature first."
+- file: 2018-06-03-transparency-agendas-are-used-to-legislate-against-consortial-open-access-models.md
+  title: "Transparency agendas are being used to legislate against consortial open-access models even though it has good cost outcomes"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2018-07-01-where-we-are-with-the-oa-monograph-mandate-for-the-third-research-excellence-framework.md
+  title: "Where we are with the OA monograph mandate for the Third Research Excellence Framework"
+  old: []
+  new: [Open Access, Higher Education]
+  needs_review: false
+  note: ""
+- file: 2018-07-02-the-real-ethics-of-AI-are-about-the-labour-underpinning-it.md
+  title: "The real ethics of AI are about the labour underpinning it"
+  old: []
+  new: [Artificial Intelligence]
+  needs_review: false
+  note: ""
+- file: 2018-07-23-linux-cpu-frequency-scaling-on-the-intel-i9-7980xe.md
+  title: "Linux CPU Frequency Scaling on the Intel i9 7980XE"
+  old: []
+  new: [Linux]
+  needs_review: false
+  note: ""
+- file: 2018-08-07-open-source-patents.md
+  title: "Institutional Cultures, Patents, and Open-Source Software for Open Access"
+  old: []
+  new: [Copyright and Licensing, Publishing Technology]
+  needs_review: false
+  note: "Centrally about AGPL patent-grant/licensing terms for the Janeway publishing platform."
+- file: 2018-10-03-on-the-practical-implementation-of-plan-s.md
+  title: "On the practical implementation of Plan S"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2018-10-14-m-audio-trigger-finger-pro-synchronisation-problems.md
+  title: "M-Audio Trigger Finger Pro synchronisation problems"
+  old: []
+  new: [Music, Technology]
+  needs_review: false
+  note: ""
+- file: 2018-10-23-jottings-on-academic-freedom-and-plan-s.md
+  title: "Some jottings on academic freedom and Plan S/open access"
+  old: []
+  new: [Open Access, Higher Education]
+  needs_review: false
+  note: ""
+- file: 2018-12-14-my-2018-in-review.md
+  title: "My 2018 in review"
+  old: []
+  new: [Personal, Academia]
+  needs_review: false
+  note: "Year-in-review that is substantially a professional review (awards, grants, full publication and talks list), so Academia added per the co-occurrence rule."

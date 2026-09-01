@@ -1,7 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/06/20/disable-incoming-call-voice-announcement-on-the-nexus-6
 categories:
-- technology
+- Technology
 date: 2015-06-20
 doi: https://doi.org/10.59348/mebpy-kcr46
 image:

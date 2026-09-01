@@ -1,0 +1,135 @@
+prompt_version: 1
+batch: batch-2016-2
+posts:
+- file: 2016-04-07-open-access-in-a-time-of-illness.md
+  title: "Open access in a time of illness"
+  old: []
+  new: [Open Access, Health]
+  needs_review: false
+  note: ""
+- file: 2016-04-16-the-faber-finds-edition-of-rex-warners-the-professor.md
+  title: "The Faber Finds edition of Rex Warner's The Professor is very poorly formatted and proofed"
+  old: []
+  new: [Literature]
+  needs_review: false
+  note: ""
+- file: 2016-04-27-embargoing-metadata.md
+  title: "Embargoing metadata?"
+  old: []
+  new: [Open Access, Scholarly Communications]
+  needs_review: false
+  note: ""
+- file: 2016-05-03-overriding-hypothesiss-interface-the-right-way.md
+  title: "Overriding hypothesis's interface the right way"
+  old: []
+  new: [Programming]
+  needs_review: false
+  note: ""
+- file: 2016-05-04-on-neural-networks-and-health-data-privacy.md
+  title: "On neural networks and health data privacy"
+  old: []
+  new: [Politics, Artificial Intelligence]
+  needs_review: false
+  note: "Complaint letter about NHS patient data shared with Google DeepMind: chiefly data-protection/civil-liberties policy (Politics), with the AI-training-data ethics dimension foregrounded in the title, so Artificial Intelligence second. No lived-illness content, so Health omitted."
+- file: 2016-05-04-what-elsevier-and-the-minister-for-higher-education-in-the-uk-jo-johnson-met-about.md
+  title: "Transcript of meeting between Elsevier and the Minister for Higher Education in the UK, Jo Johnson"
+  old: []
+  new: [Higher Education, Politics]
+  needs_review: false
+  note: ""
+- file: 2016-05-11-hypothesis-v0814-error-oserror-errno-2-no-such-file-or-directory.md
+  title: "Hypothes.is v0.8.14 error: \"OSError: [Errno 2] No such file or directory\""
+  old: []
+  new: [Programming]
+  needs_review: false
+  note: ""
+- file: 2016-05-19-reading-potter-stewart.md
+  title: "Reading Potter Stewart on recognition"
+  old: []
+  new: [Philosophy]
+  needs_review: false
+  note: "Close reading of a legal opinion, but the analysis is epistemological (anti-foundationalism, a posteriori recognition), so Philosophy rather than Politics."
+- file: 2016-05-23-what-do-we-mean-when-we-call-scholarly-communications-platforms-sustainable.md
+  title: "What do we mean when we call scholarly communications platforms 'sustainable'?"
+  old: []
+  new: [Open Access, Scholarly Communications]
+  needs_review: false
+  note: ""
+- file: 2016-06-09-identifying-26gb-of-json-novel-data.md
+  title: "Identifying 26GB of JSON Novel Data"
+  old: []
+  new: [Digital Humanities, Programming]
+  needs_review: false
+  note: ""
+- file: 2016-06-10-initial-parsing-work-on-large-json-corpus.md
+  title: "Initial parsing work on large JSON corpus"
+  old: []
+  new: [Programming, Digital Humanities]
+  needs_review: false
+  note: ""
+- file: 2016-06-16-consortial-purchasing-and-downward-price-pressure-for-open-access.md
+  title: "Consortial funding and downward price pressure for open access"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2016-06-19-cassius-now-supports-full-headless-pdf-creation-from-jats.md
+  title: "CaSSius now supports full headless PDF creation from JATS XML"
+  old: []
+  new: [Publishing Technology, Programming]
+  needs_review: false
+  note: ""
+- file: 2016-06-25-creating-a-generic-loader-for-annotatorjs-plugins-inside-a-hypothesis-extension-project.md
+  title: "Creating a generic loader for Annotator.js plugins inside a hypothes.is extension project"
+  old: []
+  new: [Programming]
+  needs_review: false
+  note: ""
+- file: 2016-06-26-selecting-specified-text-ranges-in-a-browser-using-javascript-and-xpath.md
+  title: "Selecting specified text ranges in a browser using javascript and xpath"
+  old: []
+  new: [Programming]
+  needs_review: false
+  note: ""
+- file: 2016-07-12-continuing-javascript-execution-after-total-dom-body-replacement-using-dom-mutation-observers.md
+  title: "Continuing javascript execution after total DOM body replacement using DOM mutation observers"
+  old: []
+  new: [Programming]
+  needs_review: false
+  note: ""
+- file: 2016-07-20-overriding-angularjs-directives-isolate-scopes.md
+  title: "Overriding AngularJS directives' isolate scopes"
+  old: []
+  new: [Programming]
+  needs_review: false
+  note: ""
+- file: 2016-07-28-my-book-password-is-out-now.md
+  title: "My book, Password, is out now!"
+  old: []
+  new: [Publications, Information Security]
+  needs_review: false
+  note: "Book launch, so Publications; the work's subject (passwords, identity, authentication) makes Information Security the subject category."
+- file: 2016-07-28-on-the-ownership-portability-and-accreditation-of-research.md
+  title: "On the ownership, portability and accreditation of research"
+  old: []
+  new: [Higher Education]
+  needs_review: false
+  note: ""
+- file: 2016-07-28-the-stern-review-of-ref.md
+  title: "The Stern review of REF"
+  old: []
+  new: [Higher Education]
+  needs_review: false
+  note: ""
+- file: 2016-08-08-stern-and-ref-assessing-the-past-to-fund-the-future.md
+  title: "Stern and REF: assessing the past to fund the future with non-portability"
+  old: []
+  new: [Higher Education]
+  needs_review: false
+  note: ""
+- file: 2016-08-09-have-you-read-david-mitchells-cloud-atlas-if-so-which-of-the-two-very-different-versions.md
+  title: "Have you read David Mitchell's Cloud Atlas? If so, which of the two very different versions?"
+  old: []
+  new: [Publications, Literature]
+  needs_review: false
+  note: ""

@@ -5,6 +5,8 @@ doi: https://doi.org/10.59348/yxb99-4nk57
 layout: post
 title: The Folio Society Edition of Riddley Walker
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mae52yw2s"
+categories:
+- Literature
 ---
 
 Cheap it is not, but the <a href="www.foliosociety.com/book/RDW/riddley-walker">Folio Society Edition of Russell Hoban's <i>Riddley Walker</i></a> is a beautiful item to behold.

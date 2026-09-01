@@ -1,0 +1,1729 @@
+# Category assignment review
+
+1001 posts assigned.
+
+## Categories
+
+### Academia (165)
+
+- 2010-03-15-humanities-map.md — Humanities Map
+- 2010-03-16-british-library-usage-made-clear.md — British Library usage made clear
+- 2010-03-22-undergraduates-in-the-british-library-reading-rooms.md — Undergraduates in the British Library reading rooms
+- 2010-04-03-using-tech-to-help-with-structure.md — Using tech to help with structure
+- 2010-04-04-applying-for-ahrc-bgp-doctoral-grants.md — Applying for AHRC BGP Doctoral Grants
+- 2010-07-22-plagiarism-by-semiotexte-translations.md — Plagiarism by Semiotext(e) translations?
+- 2010-11-01-problematic-indexing-in-paul-rabinows-edited-foucault-volume-ethics.md — Problematic indexing in Paul Rabinow's edited Foucault volume, "Ethics"
+- 2010-11-02-a-few-notes-on-some-of-jacques-derridas-writings.md — A few notes on some of Jacques Derrida's writings
+- 2010-12-01-researchers-libraries-and-publishers-what-does-the-future-hold.md — Researchers, Libraries and Publishers: What does the future hold?
+- 2010-12-08-converting-zotero-documents-to-mendeley.md — Converting Zotero Documents to Mendeley
+- 2010-12-15-using-producteev-to-manage-overbearing-inboxes.md — Using Producteev to manage overbearing Inboxes
+- 2011-01-11-sussex-research-hive-seminars.md — Sussex Research Hive Seminars
+- 2011-01-18-the-botnet-webs-of-hegemonyzombies-who-publish.md — The Botnet: Webs of Hegemony/Zombies Who Publish
+- 2011-01-26-what-has-social-media-ever-done-for-me.md — What has social media ever done for me?
+- 2011-01-28-a-statistical-history-of-uk-pynchon-doctorates.md — A Statistical History of UK Pynchon Doctorates
+- 2011-02-02-on-phdchat-call-for-collaborationhistory-overview-themes-and-response.md — On #PhDchat: Call for Collaboration/History, Overview, Themes and Response
+- 2011-03-11-getting-published-in-academia.md — Getting Published in Academia
+- 2011-03-25-upcoming-workshop-using-twitter-for-research.md — Upcoming workshop: "Using Twitter for Research"
+- 2011-04-03-exactly-half-way-through-my-phd-timetable.md — Exactly half-way through my PhD timetable
+- 2011-04-08-speaking-plainly.md — Speaking plainly
+- 2011-04-13-how-not-to-apply-to-give-a-conference-paper.md — How not to apply to give a conference paper
+- 2011-04-13-publication-review-of-joe-moran-interdisciplinarity-2nd-edition-rupkatha-3-1-april-2011.md — Publication: 'Review of Joe Moran, Interdisciplinarity 2nd edition', Rupkatha, 3, 1 (April 2011)
+- 2011-04-14-live-qa-life-after-a-phd-friday-15th-april-2011-13-00-16-00.md — Live Q&A: Life after a PhD [Friday 15th April 2011, 13.00-16.00]
+- 2011-04-28-guardian-qa-summary-life-after-a-phd.md — Guardian Q&A Summary: Life After a PhD
+- 2011-05-18-guarding-your-academic-ideas.md — Guarding your academic ideas
+- 2011-05-23-using-twitter-for-research.md — Using Twitter for Research
+- 2011-05-27-academic-businesss-cards.md — Academic Businesss Cards
+- 2011-06-14-upcoming-workshop-inbox-zero-and-tech-task-lists-getting-things-done.md — Upcoming Workshop: Inbox zero and tech-task lists: getting things done
+- 2011-06-21-excursions-vol-2-issue-1-virus-2011.md — Excursions, Vol. 2, Issue 1: Virus (2011)
+- 2011-06-22-angry-young-academics-the-directors-cut.md — Angry Young Academics: The "Directors' Cut"
+- 2011-07-08-britain-or-america-for-the-phd-in-english.md — Britain or America for the PhD in English?
+- 2011-07-21-i-have-nothing-to-do-with-this-dissertation-writing-service.md — I have nothing to do with this "dissertation writing service"
+- 2011-08-02-britain-or-america-for-the-phd-in-english-part-2.md — Britain or America for the PhD in English? Part 2
+- 2011-08-04-conference-paper-autosubversive-practices-in-academic-publishing-uksg-2012-03-26.md — Conference Paper: "Autosubversive Practices in Academic Publishing", UKSG, 2012-03-26
+- 2011-08-19-postgraduate-publishing.md — Postgraduate Publishing
+- 2011-08-31-guest-post-at-phd2published.md — Guest post at PhD2Published
+- 2011-09-02-immanent-critique-of-closed-access-publication.md — Immanent critique of closed access publication
+- 2011-09-06-is-it-worth-presenting-at-postgraduate-conferences.md — Is it worth presenting at postgraduate conferences?
+- 2011-09-27-academia-edtech-blogging-and-twitter-enough-with-the-meta-already.md — Academia, EdTech, Blogging and Twitter: Enough with the Meta, Already?
+- 2011-09-30-adorno-benjamin-and-wittgenstein-knowledge-is-not-property.md — Adorno, Benjamin and Wittgenstein (!): knowledge is not property
+- 2011-11-02-a-dissenting-voice-on-acbowrimo.md — A dissenting voice on #AcBoWriMo
+- 2011-11-18-guest-post-on-google-scholar-citations.md — Guest post on Google Scholar Citations
+- 2011-11-28-forthcoming-workshops-academic-websites-protecting-your-assets.md — Forthcoming workshops: academic websites & protecting your assets!
+- 2011-12-30-2012-year-of-the-phd-completion-guardian-higher-education-top-10-posts-of-2011.md — 2012: Year of the PhD Completion / Guardian Higher Education Top 10 posts of 2011
+- 2012-01-23-protecting-your-assets-backing-up-your-academic-work.md — Protecting Your Assets: Backing up your Academic Work
+- 2012-01-27-first-draft-of-my-ph-d-is-done.md — First draft of my Ph.D is done!
+- 2012-02-06-doing-a-ph-d-using-only-free-open-source-software.md — Doing a Ph.D using only free, open source software
+- 2012-02-09-wordpress-for-academics.md — Wordpress for Academics
+- 2012-02-22-copyright-and-academia-particularly-for-ph-d.md — Copyright and academia, particularly for Ph.Ds
+- 2012-03-08-doctoral-thesis-editing-cutting-words.md — Doctoral Thesis Editing: Cutting Words
+- 2012-03-18-wikipedia-stats-visualized.md — Wikipedia Stats Visualized
+- 2012-03-24-finishing-a-uk-ph-d-within-3-years.md — Finishing a UK Ph.D. within 3 years
+- 2012-04-02-my-day-as-a-higher-ed-researcher.md — My day as a Higher Ed researcher
+- 2012-05-05-excursions-journal-vol-3-launch-party.md — Excursions Journal Vol 3: Launch Party
+- 2012-05-13-the-ontological-problems-of-contemporary-fiction-studies-are-actually-its-ontological-prerequsites.md — The Ontological Problems of Contemporary Fiction Studies are Actually its Ontological Prerequsites
+- 2012-05-21-sussex-southampton-initiative-sushi-an-interdisciplinary-fusion.md — Sussex-Southampton Initiative: SuShI. An interdisciplinary fusion.
+- 2012-06-28-submitted-my-ph-d-in-memory-of-my-grandfather-john-gray-10021920-14062012.md — Submitted my Ph.D! (in memory of my grandfather, John Gray [10/02/1920 - 14/06/2012])
+- 2012-07-05-signing-over-copyright-vs-licensing-your-journal-articles.md — Signing over copyright vs. licensing your journal articles
+- 2012-07-19-the-undervalued-book-collection-and-peer-review.md — The undervalued book collection and peer review
+- 2012-07-20-post-submission-weirdness.md — Post-Submission Weirdness
+- 2012-07-24-mythbusting-a-proposed-list-60-things-journal-publishers-do.md — Mythbusting: "A Proposed List — 60 Things Journal Publishers Do"
+- 2012-08-02-more-unpaid-academic-positions-and-apparent-culture-of-entitlement.md — More unpaid academic positions and apparent "culture of entitlement"
+- 2012-08-07-on-blog-inequality-in-scholarly-research.md — On Blog Inequality in Scholarly Research
+- 2012-09-04-the-final-week.md — The Final Week
+- 2012-09-05-keeping-up-with-research-in-response-to-plashingvole.md — Keeping up with Research (in response to @PlashingVole)
+- 2012-09-10-by-the-time-you-read-this-i-will-be.md — By the time you read this, I will be...
+- 2012-09-11-the-viva.md — The Viva
+- 2012-09-22-on-the-impurity-of-the-humanities-and-critical-university-studies.md — On the Impurity of the Humanities and Critical University Studies
+- 2012-11-01-on-academic-blogging.md — On Academic Blogging
+- 2012-11-10-reviewing-with-kindness.md — Reviewing with Kindness
+- 2012-11-14-on-orcid-accreditation-structures-and-altmetrics.md — On ORCID, accreditation structures and altmetrics
+- 2012-11-30-moving-on-from-sussex-and-joining-the-university-of-lincoln.md — Moving on from Sussex and joining the University of Lincoln
+- 2013-03-07-conference-paper-the-future-of-peer-review-university-of-sussex-14th-march-2013-12-2pm.md — Conference Paper: "The Future of Peer Review", University of Sussex, 14th March 2013, 12-2pm
+- 2013-03-15-the-future-of-peer-review.md — The Future of Peer Review
+- 2013-07-01-publication-before-the-law-open-access-quality-control-and-the-future-of-peer-review.md — Publication: 'Before the law: open access, quality control and the future of peer review'
+- 2013-07-05-digital-literatures-digital-democracies-digital-threats.md — Digital Literatures; Digital Democracies; Digital Threats?
+- 2013-07-21-joining-the-uk-national-monographs-strategy-expert-panel.md — Joining the UK National Monographs Strategy Expert Panel
+- 2013-08-18-using-git-in-my-writing-workflow.md — Using git in my writing workflow
+- 2013-09-01-what-is-it-like-to-publish-in-the-journal-neo-victorian-studies.md — What is it like to publish in the journal 'Neo-Victorian Studies'?
+- 2013-09-10-is-what-i-do-digital-humanities.md — Is what I do "digital humanities"?
+- 2013-09-18-publication-gatekeepers-in-a-digital-wasteland-the-author.md — Publication: "Gatekeepers in a digital wasteland", The Author
+- 2013-10-03-whats-open-got-to-do-with-it.md — What's "open" got to do with it?
+- 2013-11-16-three-reasons-why-i-think-journal-prestige-is-a-broken-system.md — Three reasons why I think journal prestige is a broken system
+- 2013-12-20-dear-top-journal-1-year-and-4-months-to-review-is-too-long.md — Dear "top journal": 1 year and 4 months to review is too long
+- 2013-12-29-my-2013-academic-year-in-review.md — My 2013 academic year in review
+- 2014-01-15-dear-publisher-2.md — Dear Publisher (#2)
+- 2014-02-12-whats-it-like-to-publish-in-sage-open.md — What's it like to publish in SAGE Open?
+- 2014-04-17-what-do-we-mean-by-the-standing-and-reach-of-research.md — What do we mean by the "standing" and "reach" of research?
+- 2014-06-04-ann-wordsworth-critical-theory-faculty-contingency-and-the-university-in-ruins.md — Ann Wordsworth, Critical Theory, Faculty Contingency and the University in Ruins
+- 2014-06-19-my-short-additional-response-to-the-hefce-metrics-consultation.md — My short additional response to the HEFCE metrics consultation
+- 2014-09-06-define-impact.md — Define: impact
+- 2014-11-12-universities-dh-the-crowd-and-labour-that-looks-like-a-game.md — Universities, DH, “the crowd”, and labour that looks like a game
+- 2014-12-01-the-tension-between-dissemination-and-measurement.md — The tension between dissemination and measurement
+- 2014-12-16-my-2014-round-up.md — My 2014 round-up
+- 2015-01-15-metrics-in-the-humanities.md — Metrics in the Arts and Humanities
+- 2015-04-12-it-is-never-a-good-time-to-start-a-new-journal.md — It is never a good time to start a new journal
+- 2015-06-28-the-link-between-teaching-tuition-fees-and-research-publication-economics.md — The link between teaching, tuition fees and research publication economics
+- 2015-08-07-fix-some-of-your-writing-tics-with-a-bit-of-technology.md — Fix some of your writing tics with a bit of technology
+- 2015-10-26-academiaedus-peer-review-experiments.md — Academia.edu’s peer-review experiments
+- 2015-11-17-it-is-no-use-trying-to-replace-the-impact-factor.md — It is no use trying to replace the Impact Factor
+- 2015-12-17-my-2015-academic-year-in-review.md — My 2015 academic year in review
+- 2016-01-11-the-methodology-of-literary-taxonomy-harking-and-p-hacking.md — The methodology of literary taxonomy: HARKing and p-hacking
+- 2016-01-22-phd-criterion-to-merit-publication.md — Ph.D. criterion: to 'merit publication'
+- 2016-02-12-professor-of-literature-technology-and-publishing.md — Professor of Literature, Technology and Publishing
+- 2016-02-15-accreditation-and-research-assessment-practices.md — Accreditation and research-assessment practices (on DORA and the Tickell review)
+- 2016-08-26-why-open-book-publishers-for-my-next-book.md — Why Open Book Publishers for my next book?
+- 2016-09-14-of-latex-and-labour.md — Of LaTeX and labour
+- 2016-10-06-now-accepting-proposals-to-new-horizons-in-contemporary-writing-series.md — Now accepting proposals to 'New Horizons in Contemporary Writing' series
+- 2016-10-18-more-on-my-experience-with-open-book-publishers.md — More on my experience with Open Book Publishers
+- 2016-12-16-my-2016-academic-year-in-review.md — My 2016 academic year in review
+- 2017-01-19-on-responses-and-rebuttals-in-the-discipline-of-english-literature.md — On responses and rebuttals in the discipline of English literature
+- 2017-02-16-judging-the-painting-research-without-the-frame-the-journal.md — Judging the painting (research) without the frame (the journal)
+- 2017-07-13-mediating-forms-and-free-thinking-or-on-selecting-journals.md — Mediating forms and free thinking (or "on selecting journals")
+- 2017-07-21-on-ecrs-and-non-portability-of-outputs.md — On ECRs, long-form-outputs, and the non-portability of outputs for REF
+- 2017-12-15-my-2017-academic-year-in-review.md — My 2017 academic year in review
+- 2018-03-03-who-does-the-work-of-implementing-dora.md — Who does the work of implementing DORA?
+- 2018-12-14-my-2018-in-review.md — My 2018 in review
+- 2019-04-18-how-long-does-it-take-to-examine-a-phd-thesis.md — How long does it take to examine a PhD thesis?
+- 2019-04-24-the-supervisory-frustrations-of-ahrc-dtps.md — The supervisory frustrations of AHRC Doctoral Training Partnerships
+- 2019-05-23-academic-prestige-and-institutional-solvency.md — Thoughts on academic prestige and institutional solvency
+- 2019-05-24-instrumental-reading.md — Instrumental reading
+- 2019-09-04-when-infrastructural-support-clashes-with-dora-and-good-research-assessment-practices.md — When infrastructural support clashes with DORA and good research assessment practices
+- 2019-10-14-i-have-won-the-2019-philip-leverhulme-prizei-have-won-the-2019-philip-leverhulme-prizei-have-won-the-2019-philip-leverhulme-prize.md — I have won the 2019 Philip Leverhulme Prize
+- 2019-12-11-an-irony-of-the-hierarchy-of-journals.md — An irony of the 'hierarchy of journals'
+- 2019-12-14-my-2019-in-review.md — My 2019 in review
+- 2020-02-11-writing-a-data-management-plan.md — Writing a data management plan
+- 2020-03-29-books-im-working-on.md — Academic books I'm writing
+- 2020-04-22-the-edited-collection-and-its-discontents.md — The Edited Collection and its Discontents
+- 2020-05-21-on-academic-journals-as-clubs.md — On academic journals as clubs
+- 2020-08-07-some-reflections-on-the-politics-of-open-peer-review.md — Some reflections on the politics of open peer review
+- 2020-08-21-rapid-response-grants-and-disciplinary-boundaries.md — Rapid-response grants and disciplinary boundaries
+- 2020-09-03-retractions-against-racial-discrimination.md — Retractions against racial discrimination
+- 2020-11-13-on-the-ethics-of-studying-pirate-cultures.md — On the ethics of studying pirate cultures
+- 2020-12-16-my-2020-year-in-review.md — My 2020 year in review
+- 2020-12-28-some-reflections-on-the-professionalization-of-my-disciplines.md — Some reflections on the professionalization of my disciplines
+- 2020-12-29-an-anecdote-on-editing.md — An anecdote on editing
+- 2020-12-29-resolutions-and-the-good-parts-of-academia.md — Resolutions, and The Good, The Bad, and the Ugly Parts of Academia
+- 2021-01-03-reading-peer-review-is-published-today.md — Reading Peer Review is published today!
+- 2021-06-28-the-history-of-studying-english-at-birkbeck.md — Birkbeck: The Oldest University English Department in the World? (and a new Oscar Wilde lecture at Birkbeck)
+- 2021-07-03-thinking-about-uk-phd-examinations.md — Thinking about UK Ph.D. examinations
+- 2021-08-20-a-bibliography-on-the-interestingim-interested-in.md — A Bibliography on "The Interesting"/"I'm Interested In"
+- 2021-09-04-paper-thin-moving-on-to-chapter-four.md — Paper Thin: moving on to Chapter Four and seven propositions
+- 2021-09-08-why-lower-tier-journals-might-contain-better-work.md — Why 'Lower Tier' Journals Might Contain Better Work
+- 2021-11-20-citing-pirate-artifacts.md — Citing Pirate Artifacts
+- 2021-12-09-my-2021-year-in-review.md — My 2021 year in review
+- 2021-12-11-on-phd-vivas-and-being-a-supervisor.md — On PhD vivas and being a supervisor
+- 2022-01-01-last-year-i-spent-506-hours-answering-emails-how-i-hope-to-do-less-of-it-this-year.md — Last year I spent 506 hours answering emails. How I hope to do less of it this year.
+- 2022-01-03-input-output.md — Input-Output
+- 2022-01-14-did-you-know-that-you-can-deposit-the-version-of-record-of-bloomsbury-academic-book-chapters-in-your-institutional-repository.md — Did you know that you can deposit the version of record of Bloomsbury Academic book chapters in your institutional repository?
+- 2022-08-26-moving-on-my-infrastructural-turn.md — Moving On: My Infrastructural Turn
+- 2022-08-30-open-peer-review-and-its-rhythms.md — Open peer review and its rhythms
+- 2022-10-10-the-politics-of-peer-review-and-preprints-in-the-real-world.md — The politics of peer review and preprints in the real world
+- 2022-10-12-the-uks-department-for-health-and-preprints.md — The UK's department for health and preprints
+- 2022-12-04-my-2022-year-in-review.md — My 2022 year in review
+- 2023-12-11-my-2023-year-in-review.md — My 2023 year in review
+- 2023-12-13-a-year-of-looking-in-on-academia.md — A year of looking in on academia
+- 2024-02-29-preservation-as-a-memento-mori-and-matter-of-ethics.md — Preservation as a Memento Mori and Matter of Ethics
+- 2024-12-13-my-academic-year-in-review.md — My academic year in review
+- 2025-03-20-a-successful-leverhulme-prize-application-in-the-field-of-languages-and-literature.md — A successful Philip Leverhulme Prize application in the field of languages and literature from 2019
+- 2025-12-16-my-2025-end-of-year-reading-and-writing-roundup.md — My 2025 end-of-year reading and writing roundup
+- 2025-12-22-on-citations-ai-and-not-reading.md — On citations, AI, and 'not reading'
+- 2025-12-26-authorship-division-of-labour-material-form-thoughts-on-samuel-a-moores-publishing-beyond-the-market.md — Authorship, division of labour, material and digital form; thoughts on Samuel A. Moore's Publishing Beyond the Market
+- 2026-01-16-some-example-academic-book-proposal-forms-in-case-they-help.md — Some example academic book proposal forms in case they help
+- 2026-03-23-too-much-publishing.md — Too much publishing...
+- 2026-08-31-on-not-using-ai-detectors.md — On (not) using AI detectors
+
+### Artificial Intelligence (10)
+
+- 2016-05-04-on-neural-networks-and-health-data-privacy.md — On neural networks and health data privacy
+- 2018-07-02-the-real-ethics-of-AI-are-about-the-labour-underpinning-it.md — The real ethics of AI are about the labour underpinning it
+- 2019-12-04-the-second-oa-liberated-article-from-my-leverhulme-prize-natural-language-generation-and-authorial-labour.md — The second OA liberated article from my Leverhulme Prize: Natural language generation and authorial labour
+- 2023-09-24-creating-a-voice-activated-ai-responder-in-python.md — Creating a voice-activated AI responder in Python
+- 2024-06-30-ai-and-open-cultural-licensing-remarks-to-be-presented-at-the-sharp-plenary-roundtable-ai-in-the-communications-circuit.md — AI and Open Cultural Licensing (remarks to be presented at the SHARP plenary roundtable: AI In the Communications Circuit)
+- 2024-07-20-boycott-routledge-over-ai-training-its-probably-in-the-contract.md — Boycott Routledge over AI training? It's probably in the contract...
+- 2025-04-11-rage-against-the-machine-the-politics-of-open-access-large-language-models-and-the-reaction-against-open.md — Work in progress: 'Rage Against the Machine: The Politics of Open Access, Large Language Models, and the Reaction Against Open'
+- 2025-12-22-on-citations-ai-and-not-reading.md — On citations, AI, and 'not reading'
+- 2026-04-19-claude-code-can-consume-transmit-and-compromise-your-env-files-even-if-you-tell-it-not-to.md — Claude Code can consume, transmit, and compromise your .env files even if you tell it not to
+- 2026-08-31-on-not-using-ai-detectors.md — On (not) using AI detectors
+
+### Conferences (90)
+
+- 2010-03-19-international-pynchon-week-2010-abstracts.md — International Pynchon Week 2010 Abstracts
+- 2010-06-09-international-pynchon-week-day-1.md — International Pynchon Week: Day 1
+- 2010-06-11-international-pynchon-week-2010-day-3.md — International Pynchon Week 2010: Day 3
+- 2010-06-11-international-pynchon-week-day-2.md — International Pynchon Week: Day 2
+- 2010-07-02-some-brief-thoughts-on-slavoj-zizek-at-lse.md — Some brief thoughts on Slavoj Žižek at LSE
+- 2010-09-01-upcoming-journal-publishing-workshop.md — Upcoming journal publishing workshop
+- 2010-09-17-first-fictions-conference.md — First Fictions conference
+- 2010-09-20-picture-this-postcards-and-letters-beyond-text.md — Picture This: Postcards and Letters Beyond Text
+- 2010-09-28-speaking-of-open-access.md — Speaking of Open Access...
+- 2010-10-24-notes-and-presentation-from-my-open-access-talk.md — Notes and Presentation from my Open Access talk
+- 2011-01-11-sussex-research-hive-seminars.md — Sussex Research Hive Seminars
+- 2011-01-21-picture-this-postcards-competition.md — Picture this: Postcards Competition
+- 2011-02-04-judith-butler-at-sussex-on-arendt-cohabitation-and-the-dispersion-of-sovereignty.md — Judith Butler at Sussex on Arendt, Cohabitation, and the Dispersion of Sovereignty
+- 2011-02-08-cfp-first-conference-of-the-uk-academic-pynchon-network.md — CFP: First Conference of the UK Academic Pynchon Network
+- 2011-02-16-russell-hoban-in-conversation-with-will-self-at-the-british-library.md — Russell Hoban in Conversation with Will Self at the British Library
+- 2011-03-09-richard-stallman-at-the-university-of-sussex.md — Richard Stallman at the University of Sussex
+- 2011-03-11-uk-pynchon-network-site-up-and-programme-announced.md — UK Pynchon Network: Site Up and Programme Announced
+- 2011-03-17-conference-paper-the-f-word-2011-04-01-university-of-durham.md — Conference Paper: "The F Word", 2011-04-01, University of Durham
+- 2011-03-23-picture-this-postcards-exhibition.md — Picture This: Postcards Exhibition
+- 2011-03-25-upcoming-workshop-using-twitter-for-research.md — Upcoming workshop: "Using Twitter for Research"
+- 2011-04-05-conference-paper-e2-80-9cthe-drivers-whip-is-an-evil-thing-e2-80-9d-enlightenment-as-mass-enslavement-in-the-works-of-thomas-pynchon-2011-06-17-university-of-portsmouth.md — Conference paper: “The Driver's Whip is an evil thing”: Enlightenment as Mass Enslavement in the Works of Thomas Pynchon, 2011-06-17, University of Portsmouth
+- 2011-04-11-delay-to-report-on-first-ukpn-meeting.md — Delay to Report on First UKPN Meeting
+- 2011-04-13-how-not-to-apply-to-give-a-conference-paper.md — How not to apply to give a conference paper
+- 2011-04-14-live-qa-life-after-a-phd-friday-15th-april-2011-13-00-16-00.md — Live Q&A: Life after a PhD [Friday 15th April 2011, 13.00-16.00]
+- 2011-04-16-david-foster-wallaces-the-pale-king-bonnie-nadell-and-michael-pietsch-at-foyles.md — David Foster Wallace's The Pale King: Bonnie Nadell and Michael Pietsch at Foyles
+- 2011-05-23-using-twitter-for-research.md — Using Twitter for Research
+- 2011-06-01-william-gibson-cory-doctorow-diane-coyle-and-mark-stevenson-at-the-british-library.md — William Gibson, Cory Doctorow, Diane Coyle and Mark Stevenson at the British Library
+- 2011-06-14-upcoming-workshop-inbox-zero-and-tech-task-lists-getting-things-done.md — Upcoming Workshop: Inbox zero and tech-task lists: getting things done
+- 2011-06-16-conference-paper-geo-specificity-of-enlightenment-in-mason-dixon-2011-06-24-university-of-glasgow.md — Conference paper: Geo-specificity of Enlightenment in Mason & Dixon, 2011-06-24, University of Glasgow
+- 2011-06-20-cfp-excursions-journal-states-of-emergence-states-of-emergency.md — CFP: Excursions Journal: States of Emergence, States of Emergency
+- 2011-06-24-the-8th-biennial-symbiosis-conference-day-1.md — The 8th Biennial Symbiosis Conference: Day 1
+- 2011-06-25-the-8th-biennial-symbiosis-conference-day-2.md — The 8th Biennial Symbiosis Conference: Day 2
+- 2011-06-26-the-8th-biennial-symbiosis-conference-day-3.md — The 8th Biennial Symbiosis Conference: Day 3
+- 2011-06-27-enslavement-conference-portsmouth-17th-june-2011.md — Enslavement Conference, Portsmouth, 17th June 2011
+- 2011-07-30-thoughts-from-calling-all-agents-the-first-symposium-on-the-work-of-tom-mccarthy.md — Thoughts from "Calling All Agents": The first symposium on the work of Tom McCarthy
+- 2011-08-03-conference-paper-it-sures-hell-looked-like-war-terrorism-and-the-cold-war-in-thomas-pynchons-against-the-day-and-don-delillos-underworld-2010-06-09-university-of-lublin.md — Conference Paper: 'It sure's hell looked like war': Terrorism and the Cold War in Thomas Pynchon's Against the Day and Don DeLillo's Underworld', 2010-06-09, University of Lublin
+- 2011-08-04-conference-paper-autosubversive-practices-in-academic-publishing-uksg-2012-03-26.md — Conference Paper: "Autosubversive Practices in Academic Publishing", UKSG, 2012-03-26
+- 2011-10-25-open-access-week-at-the-university-of-sussex.md — Open Access Week at the University of Sussex
+- 2011-11-28-forthcoming-workshops-academic-websites-protecting-your-assets.md — Forthcoming workshops: academic websites & protecting your assets!
+- 2011-12-01-first-fictions-launch-weekend-20-22-january-2012.md — First Fictions launch weekend: 20-22 January, 2012
+- 2012-01-24-first-fictions-festival-at-sussex.md — First Fictions Festival at Sussex
+- 2012-02-10-conference-paper-thomas-pynchon-david-foster-wallace-and-twenty-first-century-utopianism-16-18-july-2012-university-of-lincoln.md — Conference Paper: Thomas Pynchon, David Foster Wallace and Twenty-First-Century Utopianism, 16-18 July, 2012, University of Lincoln
+- 2012-03-14-conference-paper-thomas-pynchon-materialism-and-negative-dialectics-28-29-may-2012-northumbria-university.md — Conference Paper: Thomas Pynchon, Materialism and Negative Dialectics, 28-29 May, 2012, Northumbria University
+- 2012-04-04-uksg-conference-photos-and-slides.md — UKSG Conference: photos and slides
+- 2012-04-09-the-future-of-academic-publishing-qa.md — The future of academic publishing Q&A
+- 2012-04-11-video-of-my-uksglive-presentation-on-the-future-of-academic-publishing.md — Video of my #uksglive presentation on the future of academic publishing
+- 2012-04-23-teaching-post-millennial-literature-a-hea-and-university-of-brighton-symposium.md — Teaching Post-Millennial Literature: A HEA and University of Brighton Symposium
+- 2012-04-28-contemporary-fiction-research-seminar-write-up-martin-amis-money-2012-04-28.md — Contemporary Fiction Research Seminar Write-Up: Martin Amis' Money (2012-04-28)
+- 2012-05-12-day-1-of-twenty-first-century-literature-conference-at-birkbeck.md — Day 1 of Twenty-First-Century Literature Conference at Birkbeck
+- 2012-05-19-thinking-feeling-conference-at-the-university-of-sussex.md — Thinking Feeling Conference at the University of Sussex
+- 2012-05-21-day-2-of-twenty-first-century-literature-conference-at-birkbeck.md — Day 2 of Twenty-First-Century Literature Conference at Birkbeck
+- 2012-05-21-sussex-southampton-initiative-sushi-an-interdisciplinary-fusion.md — Sussex-Southampton Initiative: SuShI. An interdisciplinary fusion.
+- 2012-06-25-international-pynchon-week-2013-conference-website-and-cfp.md — International Pynchon Week 2013 Conference: Website and CFP
+- 2012-07-03-teaching-post-millenial-fiction-conference-archive.md — Teaching Post-Millenial Fiction Conference archive
+- 2012-07-19-thomas-pynchon-david-foster-wallace-and-21st-century-utopianism-presentation.md — Thomas Pynchon, David Foster Wallace and 21st-Century Utopianism (presentation)
+- 2012-09-03-conference-on-china-mieville-weird-council.md — Conference on China Miéville: Weird Council
+- 2012-09-06-conference-panel-pynchon-now-contemporary-fiction-research-seminar.md — Conference Panel: Pynchon Now (Contemporary Fiction Research Seminar)
+- 2012-09-16-weird-council-the-first-international-conference-on-the-works-of-china-mieville-mieville2012-storify.md — Weird Council: The first international conference on the works of China Miéville #mieville2012 (storify)
+- 2012-09-18-conference-paper-opening-childrens-eyes-overloaded-forms-and-the-didactic-function-westminster-university.md — Conference paper: 'Opening children's eyes': Overloaded Forms and the Didactic Function (Westminster University)
+- 2012-11-01-cfp-feminism-influence-inheritance.md — CFP: Feminism;; Influence;; Inheritance
+- 2013-01-24-conference-paper-floats-like-a-butterfly-stings-like-a-finch-adorno-utopia-and-open-access-publishing-lincoln-university.md — Conference Paper: "Floats Like a Butterfly, Stings Like a Finch: Adorno, Utopia and Open Access Publishing" (Lincoln University)
+- 2013-02-10-conference-paper-too-many-goddamn-echoes-historicizing-the-iraq-war-in-don-delillos-point-omega-birkbeck.md — Conference Paper: "Too many goddamn echoes": Historicizing the Iraq War in Don DeLillo's /Point Omega/', Birkbeck
+- 2013-03-07-conference-paper-the-future-of-peer-review-university-of-sussex-14th-march-2013-12-2pm.md — Conference Paper: "The Future of Peer Review", University of Sussex, 14th March 2013, 12-2pm
+- 2013-03-15-the-future-of-peer-review.md — The Future of Peer Review
+- 2013-03-25-futurity-books-marx-labour.md — Futurity, Books, Marx, Labour
+- 2013-03-27-modernist-intimacies-conference.md — Modernist Intimacies conference
+- 2013-07-05-digital-literatures-digital-democracies-digital-threats.md — Digital Literatures; Digital Democracies; Digital Threats?
+- 2013-07-17-speaking-at-sparc-japan.md — Speaking at SPARC Japan
+- 2013-08-11-on-international-pynchon-week.md — On International Pynchon Week
+- 2013-08-23-reports-from-the-frontline-of-humanities-oa-in-japan.md — Reports from the frontline of humanities OA in Japan
+- 2013-08-27-sxsw-panel-vote-to-get-open-access-on-the-agenda.md — SXSW Panel: Vote to get Open Access on the agenda
+- 2014-04-01-designing-an-open-source-oa-toolchain-for-books.md — Designing an open source OA toolchain for books
+- 2014-04-15-symposium-on-david-mitchell-9th-may-london.md — Symposium on David Mitchell: 9th May, London
+- 2014-04-16-alluvium-2nd-birthday-panel-event.md — Alluvium 2nd Birthday Panel Event
+- 2014-05-31-here-by-the-sea-and-sand-a-symposium-on-quadrophenia.md — Here by the Sea and Sand: A Symposium on Quadrophenia
+- 2014-12-15-webinar-to-talk-open-access-with-mweller.md — Online p̶a̶r̶t̶y̶ webinar to talk open access with @mweller and me: Tuesday 16th December 3pm
+- 2015-01-15-metrics-in-the-humanities.md — Metrics in the Arts and Humanities
+- 2015-01-20-a-web-of-rights-roundtable-and-conversation-at-the-british-library-feb-19th-2015-bldigital.md — "A Web of Rights": Roundtable and Conversation at the British Library (Feb 19th, 2015) #bldigital
+- 2015-05-31-dissemination-and-assessment-open-access-reputation-and-economics.md — Dissemination and Assessment: Open Access, Reputation and Economics
+- 2015-06-01-applications-open-for-opencon-2015.md — Applications now open for OpenCon 2015
+- 2015-06-07-heidis-years-of-learning-and-travel-late-pynchons-academics.md — Heidi's Years of Learning and Travel: Late Pynchon's Academics
+- 2015-06-19-vint-cerf-on-digital-preservation-at-aaup-2015.md — Vint Cerf on Digital Preservation at AAUP 2015
+- 2015-07-04-he-doesnt-talk-politics-any-more-politics-and-postmodernism-morality-and-metafiction-nihilism-and-the-novel.md — 'He doesn't talk politics any more': Politics and Postmodernism; Morality and Metafiction; Nihilism and the Novel?
+- 2016-01-08-these-games-we-play-in-scholcomms.md — These games we play (in ScholComms)
+- 2016-11-18-questions-about-APC-free-models.md — Questions about APC-free models
+- 2019-05-21-text-of-digital-library-futures-keynote-cambridge-21st-may-2019.md — Text of Digital Library Futures keynote (Cambridge, 21st May 2019)
+- 2021-04-13-questions-and-answers-from-uksg-on-opening-the-future.md — Questions and Answers from UKSG on Opening the Future
+- 2024-06-05-begin-at-the-beginning-the-king-said-very-gravely-serious-openings-and-subversive-epigraphs-in-the-novels-of-thomas-pynchon.md — ‘Begin at the beginning, the King said, very gravely’: Serious Openings and Subversive Epigraphs in the Novels of Thomas Pynchon
+- 2024-06-30-ai-and-open-cultural-licensing-remarks-to-be-presented-at-the-sharp-plenary-roundtable-ai-in-the-communications-circuit.md — AI and Open Cultural Licensing (remarks to be presented at the SHARP plenary roundtable: AI In the Communications Circuit)
+- 2026-01-10-in-conversation-with-matthew-g-kirschenbaum.md — In conversation with Matthew G. Kirschenbaum
+
+### Copyright and Licensing (43)
+
+- 2010-07-22-plagiarism-by-semiotexte-translations.md — Plagiarism by Semiotext(e) translations?
+- 2010-11-04-the-problems-of-copyleft-twitter-and-tweets.md — The Problems of Copyleft, Twitter and Tweets
+- 2011-03-09-richard-stallman-at-the-university-of-sussex.md — Richard Stallman at the University of Sussex
+- 2011-06-28-is-academic-work-commercial-how-does-this-affect-libre-licensing.md — Is academic work commercial? How does this affect libre licensing?
+- 2011-07-05-dropbox-youve-missed-the-real-problem.md — Dropbox: you've missed the real problem
+- 2011-07-11-change-of-license-all-content-now-cc-by.md — Change of license: all content now CC-BY
+- 2011-07-21-i-have-nothing-to-do-with-this-dissertation-writing-service.md — I have nothing to do with this "dissertation writing service"
+- 2011-09-30-adorno-benjamin-and-wittgenstein-knowledge-is-not-property.md — Adorno, Benjamin and Wittgenstein (!): knowledge is not property
+- 2012-02-22-copyright-and-academia-particularly-for-ph-d.md — Copyright and academia, particularly for Ph.Ds
+- 2012-07-05-signing-over-copyright-vs-licensing-your-journal-articles.md — Signing over copyright vs. licensing your journal articles
+- 2012-08-05-e-books-copyright-infringement-theft-materiality-and-the-virtual.md — E-Books: Copyright Infringement, Theft, Materiality and the Virtual
+- 2012-12-13-alluvium-technical-news-doi-numbers-clockss-and-mla-bibliography.md — Alluvium technical news: DOI numbers, CLOCKSS and MLA Bibliography
+- 2012-12-20-on-that-statement-by-history-journal-editors.md — On /That/ Statement by History Journal Editors
+- 2013-07-02-publication-guide-to-creative-commons-for-humanities-and-social-science-monograph-authors.md — Publication: 'Guide to Creative Commons for humanities and social science monograph authors'
+- 2013-08-02-has-the-licensing-battle-been-deferred-in-the-latest-hefce-document.md — Has "the licensing battle been deferred" in the latest HEFCE document?
+- 2014-03-06-who-owns-a-prezi.md — Who owns a Prezi?
+- 2014-09-03-why-do-some-academic-publishers-think-they-should-charge-extra-for-more-liberal-licenses-cc-by.md — Why do some academic publishers think they should charge extra for more liberal licenses (CC BY)?
+- 2014-09-04-whats-so-moral-about-the-moral-rights-of-copyright-for-academics.md — What's so moral about the "moral rights" of copyright for academics?
+- 2015-05-12-another-copyright-absurdity-using-film-screenshots.md — Another copyright absurdity: using film screenshots
+- 2015-05-13-more-on-fair-use-of-screengrabs.md — More on fair-use of screengrabs
+- 2015-08-22-researchers-are-altering-their-methods-because-of-uncertainty-over-creative-commons-licenses.md — Researchers are altering their methods because of uncertainty over Creative Commons licenses
+- 2015-09-06-a-final-example-to-show-that-misquotation-is-nothing-to-do-with-open-licensing.md — A final example to show that misquotation is nothing to do with open licensing
+- 2016-01-07-the-uk-copyright-exemption-for-text-and-data-mining-vs-the-dmca.md — The UK copyright exemption for text and data mining vs. the DMCA and EUCD
+- 2017-01-16-thinking-more-about-eu-law-and-uk-copyright-exemptions.md — Thinking more about EU law and UK copyright exemptions
+- 2017-02-28-conducting-non-commercial-research-on-in-copyright-amazon-kindle-books.md — Conducting non-commercial research on in-copyright Amazon Kindle books
+- 2017-05-29-lingua-refund.md — If I still subscribed to Elsevier's Lingua, I'd demand a refund
+- 2017-08-21-on-digital-publishing-and-third-party-rights.md — On digital publishing and third-party rights
+- 2018-08-07-open-source-patents.md — Institutional Cultures, Patents, and Open-Source Software for Open Access
+- 2019-01-21-my-draft-plan-s-implementation-guidance-feedback.md — My Draft Plan S Implementation Guidance Feedback
+- 2019-01-23-additional-points-in-my-plan-s-response.md — Additional points in my Plan S response
+- 2019-01-24-a-little-more-on-defamation-and-cc-by.md — A little more on defamation and CC BY
+- 2019-07-24-academic-author-rights-of-presentation-on-mutable-digital-platforms.md — Academic author rights of presentation on mutable digital platforms
+- 2019-08-03-elsevier-threatens-others-for-linking-to-sci-hub-but-does-it-itself.md — Elsevier threatens others for linking to Sci-Hub but does so itself
+- 2020-04-23-museums-continue-to-make-third-party-licensing-for-academic-scholarship-a-total-pain.md — Museums continue to make third-party licensing for academic scholarship a total pain
+- 2020-05-23-if-i-could-radically-reshape-copyright-law.md — If I could radically reshape copyright law for research
+- 2021-03-02-oa-books-being-reprinted-under-cc-by-license.md — OA books being reprinted under CC BY license
+- 2021-04-28-an-update-on-the-reprint-of-my-book.md — An update on the reprint of my book
+- 2021-12-16-on-informed-consent-and-open-licensing.md — On informed consent and open licensing
+- 2024-06-30-ai-and-open-cultural-licensing-remarks-to-be-presented-at-the-sharp-plenary-roundtable-ai-in-the-communications-circuit.md — AI and Open Cultural Licensing (remarks to be presented at the SHARP plenary roundtable: AI In the Communications Circuit)
+- 2024-07-20-boycott-routledge-over-ai-training-its-probably-in-the-contract.md — Boycott Routledge over AI training? It's probably in the contract...
+- 2024-09-24-are-metadata-facts.md — Are metadata facts?
+- 2026-06-03-what-is-actually-licensed-in-printdigital-dual-licensed-books.md — What is actually licensed in print/digital dual-licensed books?
+- 2026-06-04-more-on-dual-licensing-of-digital-oa-books.md — More on dual-licensing of digital OA books
+
+### Digital Humanities (23)
+
+- 2011-01-19-rockaby-mission-statement-and-implementation-plans.md — Rockaby: Mission Statement and Implementation Plans
+- 2012-04-11-starting-a-digital-humanities-project-epilog.md — Starting a Digital Humanities Project: epiLog
+- 2013-09-10-is-what-i-do-digital-humanities.md — Is what I do "digital humanities"?
+- 2013-11-15-some-diagrams-of-jennifer-egan-novels.md — Some diagrams of Jennifer Egan novels
+- 2014-11-12-universities-dh-the-crowd-and-labour-that-looks-like-a-game.md — Universities, DH, “the crowd”, and labour that looks like a game
+- 2015-06-07-visualizing-gravitys-rainbow.md — Visualizing Gravity's Rainbow
+- 2015-12-24-visualizing-textual-variancegenetics-with-sankeyvariant.md — Visualizing textual variance/genetics with SankeyVariant
+- 2016-01-07-the-uk-copyright-exemption-for-text-and-data-mining-vs-the-dmca.md — The UK copyright exemption for text and data mining vs. the DMCA and EUCD
+- 2016-02-13-looking-back-on-my-early-visualizations-of-gravitys-rainbow.md — Undergraduates, digital humanities, and visualization: looking back on my early visualizations of Gravity's Rainbow
+- 2016-06-09-identifying-26gb-of-json-novel-data.md — Identifying 26GB of JSON Novel Data
+- 2016-06-10-initial-parsing-work-on-large-json-corpus.md — Initial parsing work on large JSON corpus
+- 2016-08-12-computational-reading-as-reading-against-the-reader.md — Computational reading as 'reading against the reader'
+- 2017-06-11-did-thomas-pynchon-write-cow-country-stylistic-affinities-and-divergences.md — Did Thomas Pynchon write Cow Country? Stylistic affinities and divergences
+- 2019-03-16-digital-ways-of-looking.md — (Digital) Ways of Looking
+- 2019-06-04-close-reading-with-computers-is-published-today-and-next-projects.md — Close Reading with Computers is Published Today and Next Projects
+- 2019-06-11-from-mars-and-back-to-close-reading-with-computers.md — From Mars and Back to Close Reading with Computers
+- 2020-01-30-a-hypothesis-kernel-function-density-estimation-and-graphing-may-predict-literary-critical-attention.md — A hypothesis: kernel function density estimation and graphing may predict literary critical attention
+- 2020-04-07-close-reading-with-computers-is-now-open-access-at-stanford-university-press.md — Close Reading with Computers is now open access at Stanford University Press
+- 2021-02-22-the-social-network-of-the-london-review-of-books.md — The social network of the London Review of Books
+- 2021-08-23-on-programminglanguages.md — On programming/languages
+- 2021-09-04-paper-thin-moving-on-to-chapter-four.md — Paper Thin: moving on to Chapter Four and seven propositions
+- 2024-07-16-theses-on-the-metaphors-of-digital-textual-history-is-out-today.md — Theses on the Metaphors of Digital-Textual History is out today!
+- 2026-01-10-in-conversation-with-matthew-g-kirschenbaum.md — In conversation with Matthew G. Kirschenbaum
+
+### Digital Preservation (19)
+
+- 2012-02-04-more-thoughts-on-metrics-link-rot-canonical-urls.md — More thoughts on metrics, link-rot, canonical URLs
+- 2012-03-30-the-problems-for-small-open-access-journals-in-terms-of-digital-preservation.md — The problems for small Open Access journals in terms of digital preservation
+- 2012-07-13-orbit-writing-around-pynchon-is-now-digitally-preserved-by-clockss.md — Orbit: Writing Around Pynchon is now digitally preserved by CLOCKSS
+- 2012-08-02-impossible-objects-preservation-and-extinction-on-the-first-folio.md — Impossible Objects: Preservation and Extinction (on the First Folio)
+- 2012-08-07-on-blog-inequality-in-scholarly-research.md — On Blog Inequality in Scholarly Research
+- 2012-10-24-open-journal-systems-now-supports-archiving-with-clockss-out-of-the-box.md — Open Journal Systems now supports archiving with CLOCKSS out of the box
+- 2012-11-02-more-on-ojs-and-clockss.md — More on OJS and CLOCKSS
+- 2012-11-21-judging-the-safety-of-an-open-access-journal.md — Judging the Safety of an Open Access Journal
+- 2012-12-13-alluvium-technical-news-doi-numbers-clockss-and-mla-bibliography.md — Alluvium technical news: DOI numbers, CLOCKSS and MLA Bibliography
+- 2014-02-22-google-scholar-will-count-a-blog-post-as-an-article-if-its-cited-a-preservation-suggesstion.md — Google Scholar will count a blog post as an article if it's cited: a preservation suggestion
+- 2015-06-19-vint-cerf-on-digital-preservation-at-aaup-2015.md — Vint Cerf on Digital Preservation at AAUP 2015
+- 2016-12-13-introducing-cemmento-a-digital-preservation-tool-for-annotations.md — Introducing Cemmento: A digital preservation tool for annotations
+- 2019-05-21-text-of-digital-library-futures-keynote-cambridge-21st-may-2019.md — Text of Digital Library Futures keynote (Cambridge, 21st May 2019)
+- 2022-12-10-some-of-my-upcoming-projects-at-crossref.md — Some of my upcoming projects at Crossref
+- 2024-02-29-preservation-as-a-memento-mori-and-matter-of-ethics.md — Preservation as a Memento Mori and Matter of Ethics
+- 2024-12-21-evaluating-document-similarity-detection-approaches.md — Evaluating Document Similarity Detection Approaches for Content Drift Detection
+- 2024-12-28-history-and-digital-preservation.md — History and Digital Preservation
+- 2026-01-01-the-lineages-and-inheritances-of-shadow-libraries-and-their-documentation.md — The Lineages and Inheritances of Shadow Libraries and their Documentation
+- 2026-04-19-the-necessary-pain-involved-in-blogging-if-you-want-your-work-to-be-preserved-beyond-your-lifespan.md — The Necessary Pain Involved in Blogging (if you want your work to be preserved beyond your lifespan)
+
+### Health (41)
+
+- 2010-12-01-alternativecomplementary-medicine-and-mass-anecdotal-evidence-as-theological-in-structure.md — Alternative/Complementary Medicine and Mass Anecdotal Evidence as Theological in Structure
+- 2011-05-25-the-rhetoric-of-fighting-illness-and-disability.md — The Rhetoric of "Fighting" Illness and Disability
+- 2016-02-13-on-ten-years-of-chronic-illness.md — On ten years of chronic illness
+- 2016-03-28-i-am-currently-off-work-having-suffered-cerebral-vasculitis-and-a-stroke.md — I have suffered from an episode of cerebral vasculitis and a stroke
+- 2016-04-07-open-access-in-a-time-of-illness.md — Open access in a time of illness
+- 2017-11-20-my-autoimmune-diseases-are-attacking-my-ears-and-i-am-losing-my-hearing.md — My autoimmune diseases are attacking my ears and I am losing my hearing
+- 2019-03-29-on-music-tici-taci-and-a-new-release.md — On music, life, Tici Taci, and a new release
+- 2019-05-28-how-do-you-describe-this-kind-of-illness.md — How do you describe this kind of illness?
+- 2019-10-04-immunity-problems.md — Immunity problems
+- 2019-12-12-the-new-ref-individual-circumstances-setup-the-good-and-the-bad.md — The new REF individual circumstances setup: the good and the bad
+- 2020-05-28-notes-on-vulnerability-and-covid-19.md — Notes on vulnerability and COVID-19
+- 2020-06-24-on-the-easing-of-shielding.md — The easing of shielding: the UK government's abrogation of responsibility
+- 2020-08-18-rethinking-assessment-during-the-pandemic.md — Rethinking assessment during the pandemic, particularly re. disability equality
+- 2021-01-07-2021-is-not-looking-much-better.md — Attempted realistic observations on 2021
+- 2021-01-18-how-much-optimism.md — How much optimism?
+- 2021-01-21-on-healthcare-economics-and-valuing-lives.md — On healthcare economics and valuing lives
+- 2021-03-18-shielding-is-being-eased-again-heres-why-this-is-so-frightening.md — Shielding is being eased again. Here's why this is so frightening.
+- 2021-07-05-abandoning-restrictions-should-not-mean-abandoning-the-vulnerable-we-need-policies-to-help-those-who-remain-at-risk.md — Abandoning restrictions should not mean abandoning the vulnerable. We need policies to help those who remain at risk.
+- 2021-12-11-on-life-death-dignity-and-dignitas.md — On life, death, dignity, and Dignitas
+- 2022-04-28-the-current-state-of-evusheld-tixagevimabcilgavimab-in-the-uk.md — The Current State of Evusheld (tixagevimab/cilgavimab) in the UK
+- 2022-05-05-how-you-can-help-people-still-shielding.md — How YOU can help people still shielding
+- 2022-08-01-a-glimmer-of-hope.md — A glimmer of hope
+- 2022-08-29-its-tricky.md — It's Tricky
+- 2022-10-10-the-politics-of-peer-review-and-preprints-in-the-real-world.md — The politics of peer review and preprints in the real world
+- 2022-11-02-i-had-evusheld-in-the-uk.md — I had Evusheld privately in the UK
+- 2022-12-19-how-do-you-get-access-to-antivirals-on-the-nhs-cdmu-system-and-does-it-work.md — How do you get access to antivirals on the NHS CDMU system and does it work?
+- 2023-05-07-on-pain-and-subjectivity.md — On pain and subjectivity
+- 2023-09-06-new-wheels.md — New wheels
+- 2023-09-08-points-mean-prizes.md — Points mean prizes
+- 2024-01-14-on-rheumatoid-arthritis-and-the-things-most-people-dont-know-about-it.md — On Rheumatoid Arthritis and the Things Most People Don't Know About It
+- 2024-02-21-betting-against-the-future.md — Betting against the future
+- 2024-06-14-how-long-have-i-got-doc.md — How long have I got, doc?
+- 2024-09-12-rollercoaster-days.md — Rollercoaster days
+- 2024-10-07-why-its-worth-avoiding-as-many-virusescommon-colds-as-possible-mine-led-to-permanent-disability.md — Why it's worth avoiding as many viruses/common colds as possible: mine led to permanent disability
+- 2024-10-14-my-conflicted-thoughts-on-the-uks-assisted-dying-bill.md — My conflicted thoughts on the UK's assisted dying bill
+- 2025-08-24-trying-out-the-nurosym-vagus-nerve-stimulator-for-a-couple-of-weeks.md — Trying out the Nurosym vagus nerve stimulator for a couple of weeks
+- 2026-01-23-its-been-ten-years.md — It's been ten years...
+- 2026-03-20-the-nhs-can-never-fail-there-is-no-circumstance-where-it-would-be-deemed-overwhelmed.md — The NHS Can Never Fail: There Is No Circumstance Where It Would Be Deemed Overwhelmed
+- 2026-04-17-thinking-about-dogs.md — Thinking About Dogs
+- 2026-08-11-admission-meds-vascular-access.md — Admission, meds, vascular access...
+- 2026-08-17-feed-infection-control-fluid-overload.md — Feed, Infection Control, Fluid Overload
+
+### Higher Education (98)
+
+- 2010-04-28-ousu-freedom-of-information-requests.md — OUSU Freedom of Information requests
+- 2010-11-09-demo-2010.md — DEMO 2010
+- 2010-11-22-vince-cables-orwell-esque-doublethink.md — Vince Cable's Orwell-esque doublethink
+- 2011-03-15-unreasonable-fees-by-which-metric.md — "(Un)Reasonable" fees by which metric?
+- 2011-06-15-media-piece-taking-back-the-university-the-guardian.md — Media piece: "Taking Back the University", The Guardian
+- 2011-06-22-angry-young-academics-the-directors-cut.md — Angry Young Academics: The "Directors' Cut"
+- 2011-06-28-uk-he-white-paper-day.md — UK HE White Paper day
+- 2011-08-27-hefce-board-appointments-learning-through-argos.md — HEFCE board appointments: learning through Argos
+- 2011-12-22-guest-piece-in-the-guardian-secondary-schools-are-not-adequately-preparing-students-for-higher-education.md — Guest piece in the Guardian: Secondary schools are not adequately preparing students for higher education
+- 2012-07-19-the-undervalued-book-collection-and-peer-review.md — The undervalued book collection and peer review
+- 2012-08-01-perverse-advert-for-bite-keep-calm-about-university-fees.md — Perverse advert for BITE: "Keep Calm About University Fees"
+- 2012-08-02-more-unpaid-academic-positions-and-apparent-culture-of-entitlement.md — More unpaid academic positions and apparent "culture of entitlement"
+- 2012-08-23-the-real-problem-with-this-mode-of-curbing-grade-inflation.md — The real problem with this mode of "curbing grade inflation"
+- 2012-09-08-what-will-the-humanities-do-post-finch-or-where-are-the-oa-venues.md — What will the Humanities do Post-Finch? (or: where are the OA venues?)
+- 2012-10-22-the-grim-phoenix-the-new-challenges-for-open-access.md — The Grim Phoenix: The New Challenges for Open Access
+- 2013-03-10-open-access-neoliberalism-impact-and-the-privatisation-of-knowledge.md — Open Access, "Neoliberalism", "Impact" and the Privatisation of Knowledge
+- 2013-07-27-hefce-the-state-of-open-access-in-the-uk-and-post-2014-ref.md — HEFCE, the State of Open Access in the UK and Post-2014 REF
+- 2013-12-19-publication-review-of-humanities-in-the-twenty-first-century-beyond-utility-and-markets.md — Publication: Review of Humanities in the Twenty-First Century: Beyond Utility and Markets
+- 2014-02-10-hefce-ref2020-ir-deposit-and-embargoes.md — HEFCE (REF2020), IR deposit and embargoes
+- 2014-03-31-hefces-post-2014-open-access-policy-the-short-what-you-need-to-know-version.md — HEFCE's Post-2014 Open Access Policy: the short "what you need to know" version
+- 2014-04-01-why-oa-mandates-dont-compromise-academic-freedom.md — Why OA mandates don't compromise academic freedom
+- 2014-06-04-ann-wordsworth-critical-theory-faculty-contingency-and-the-university-in-ruins.md — Ann Wordsworth, Critical Theory, Faculty Contingency and the University in Ruins
+- 2014-06-19-my-short-additional-response-to-the-hefce-metrics-consultation.md — My short additional response to the HEFCE metrics consultation
+- 2014-09-06-define-impact.md — Define: impact
+- 2015-06-28-the-link-between-teaching-tuition-fees-and-research-publication-economics.md — The link between teaching, tuition fees and research publication economics
+- 2015-08-19-additional-contexts-for-reading-the-emergence-of-new-UK-university-presses.md — Additional contexts for reading the emergence of new UK university presses
+- 2015-09-09-speculations-on-jo-johnsons-he-talk.md — TEF, REF, QR, deregulation: thoughts on Jo Johnson's HE talk
+- 2015-09-18-its-not-about-stifling-academic-freedom.md — 'It's not about stifling academic freedom'
+- 2015-10-30-jo-johnson-your-proposals-for-british-higher-education-will-not-yield-the-competitiveness-you-seek.md — Jo Johnson: your proposals for British higher education will not yield the competitiveness you seek
+- 2015-11-08-what-tef-is-really-for.md — What TEF is really for
+- 2015-11-10-he-green-paper-response-to-question-23.md — HE Green Paper: response to question 23
+- 2015-11-18-bis-metrics-and-non-selective-qr-allocation.md — BIS, metrics and non-selective QR-allocation
+- 2015-11-21-he-green-paper-response-to-question-1.md — HE Green Paper: response to question 1
+- 2015-11-21-he-green-paper-response-to-question-2.md — HE Green Paper: response to question 2
+- 2015-11-21-he-green-paper-response-to-question-3.md — HE Green Paper: response to question 3
+- 2015-11-22-he-green-paper-response-to-question-4.md — HE Green Paper: response to question 4
+- 2015-11-22-he-green-paper-response-to-question-5.md — HE Green Paper: response to question 5
+- 2015-11-25-he-green-paper-response-to-question-6.md — HE Green Paper: response to question 6
+- 2015-11-26-he-green-paper-response-to-question-7.md — HE Green Paper: response to question 7
+- 2015-11-26-he-green-paper-response-to-question-8.md — HE Green Paper: response to question 8
+- 2015-11-29-he-green-paper-response-to-question-10.md — HE Green Paper: response to question 10
+- 2015-11-29-he-green-paper-response-to-question-9.md — HE Green Paper: response to question 9
+- 2015-12-01-he-green-paper-response-to-question-11.md — HE Green Paper: response to question 11
+- 2015-12-01-he-green-paper-response-to-question-12.md — HE Green Paper: response to question 12
+- 2015-12-01-he-green-paper-response-to-question-13.md — HE Green Paper: response to question 13
+- 2015-12-02-he-green-paper-response-to-question-14.md — HE Green Paper: response to question 14
+- 2015-12-06-he-green-paper-response-to-question-15.md — HE Green Paper: response to question 15
+- 2015-12-06-he-green-paper-response-to-question-16.md — HE Green Paper: response to question 16
+- 2015-12-06-he-green-paper-response-to-question-17.md — HE Green Paper: response to question 17
+- 2015-12-10-he-green-paper-response-to-question-18.md — HE Green Paper: response to question 18
+- 2015-12-11-he-green-paper-response-to-question-19.md — HE Green Paper: response to question 19
+- 2015-12-11-he-green-paper-response-to-question-20.md — HE Green Paper: response to question 20
+- 2015-12-11-he-green-paper-response-to-question-21.md — HE Green Paper: response to question 21
+- 2015-12-16-he-green-paper-response-to-question-22.md — HE Green Paper: response to question 22
+- 2015-12-24-he-green-paper-response-to-question-24.md — HE Green Paper: response to question 24
+- 2015-12-28-internal-review-of-foi201525797.md — Internal review of FOI2015/25797
+- 2015-12-31-he-green-paper-response-to-question-25.md — HE Green Paper: response to question 25
+- 2015-12-31-he-green-paper-response-to-question-26.md — HE Green Paper: response to question 26
+- 2016-01-02-he-green-paper-response-to-question-27.md — HE Green Paper: response to question 27
+- 2016-01-06-he-green-paper-response-to-question-28.md — HE Green Paper: response to question 28
+- 2016-01-06-my-response-to-the-he-green-paper.md — My response to the HE Green Paper
+- 2016-01-30-institutional-finance-and-academic-freedom.md — Institutional Finance and Academic Freedom
+- 2016-02-16-understanding-ofquals-inter-subject-comparability-rasch-model-tests-for-easyhard-subjects-at-gcse-and-a-level.md — Trying to understand Ofqual's inter-subject comparability Rasch model tests for easy/hard subjects at GCSE and A-Level
+- 2016-02-18-REF-consultation.md — The postponed REF consultation document
+- 2016-02-23-David-Willetts.md — Evolving notes on the political philosophy of David Willetts
+- 2016-02-26-rethinking.md — A world reimagined without the university
+- 2016-03-01-it-looks-unlikely-that-universities-are-going-to-get-out-of-the-freedom-of-information-act.md — It looks unlikely that UK universities are going to get out of the Freedom of Information Act
+- 2016-05-04-what-elsevier-and-the-minister-for-higher-education-in-the-uk-jo-johnson-met-about.md — Transcript of meeting between Elsevier and the Minister for Higher Education in the UK, Jo Johnson
+- 2016-07-28-on-the-ownership-portability-and-accreditation-of-research.md — On the ownership, portability and accreditation of research
+- 2016-07-28-the-stern-review-of-ref.md — The Stern review of REF
+- 2016-08-08-stern-and-ref-assessing-the-past-to-fund-the-future.md — Stern and REF: assessing the past to fund the future with non-portability
+- 2016-12-06-five-un-busted-aspects-of-the-tef.md — Five un-busted aspects of the TEF
+- 2016-12-08-points-from-my-first-reading-of-the-consultation-on-the-second-research-excellence-framework.md — Points from my first reading of the Consultation on the Second Research Excellence Framework
+- 2016-12-09-the-thing-thats-gone-missing-in-the-revisions-to-the-ref-consultation-between-february-and-december-2016.md — The thing that's gone missing in the revisions to the REF consultation between February and December 2016: the 5* category
+- 2017-01-06-my-responses-to-the-consultation-on-the-second-research-excellence-framework.md — My responses to the Consultation on the Second Research Excellence Framework
+- 2017-07-21-on-ecrs-and-non-portability-of-outputs.md — On ECRs, long-form-outputs, and the non-portability of outputs for REF
+- 2018-02-06-who-was-responsible-for-the-toby-young-ofs-debacle.md — Who was actually responsible for the Toby Young OfS debacle?
+- 2018-03-20-action-short-of-a-strike-must-recognize-that-9-5-is-not-always-helpful.md — Action Short of a Strike Must Recognize That 9-5 is Not Always Helpful
+- 2018-04-02-the-OA-mandate.md — On the OA "mandate" for books in the Third REF and the worry over trade books
+- 2018-04-05-thoughts-on-the-UUK-offer.md — Thoughts on the UUK offer and why I voted yes
+- 2018-07-01-where-we-are-with-the-oa-monograph-mandate-for-the-third-research-excellence-framework.md — Where we are with the OA monograph mandate for the Third Research Excellence Framework
+- 2018-10-23-jottings-on-academic-freedom-and-plan-s.md — Some jottings on academic freedom and Plan S/open access
+- 2019-01-31-BBK-ref.md — Birkbeck updates draft REF code of practice to specify that it will not submit anyone on compulsory redundancy, despite not having any such redundancies anyway
+- 2019-04-24-the-supervisory-frustrations-of-ahrc-dtps.md — The supervisory frustrations of AHRC Doctoral Training Partnerships
+- 2019-06-10-opting-out-of-league-tables-is-of-course-a-type-of-prestige-game.md — Opting out of league tables is, of course, a type of prestige game
+- 2019-12-12-the-new-ref-individual-circumstances-setup-the-good-and-the-bad.md — The new REF individual circumstances setup: the good and the bad
+- 2020-02-14-open-access-monographs-and-the-ref-after-ref-2021.md — Open access monographs and the REF-after-REF 2021
+- 2020-04-24-why-academic-bookstores.md — Why academic bookstores?
+- 2020-08-18-rethinking-assessment-during-the-pandemic.md — Rethinking assessment during the pandemic, particularly re. disability equality
+- 2020-08-21-rapid-response-grants-and-disciplinary-boundaries.md — Rapid-response grants and disciplinary boundaries
+- 2020-10-04-the-observer-should-not-offer-column-inches-to-allow-oxford-college-principals-to-lie-about-other-universities.md — The Observer should not offer column inches to allow Oxford College principals to denigrate other universities
+- 2021-02-03-my-resignation-as-an-external-examiner-at-the-university-of-leicester-in-the-wake-of-proposed-cuts-to-english.md — My resignation as an external examiner at the University of Leicester in the wake of proposed cuts to English
+- 2021-05-15-while-the-government-introduces-new-freedom-of-speech-rules-at-universities-the-biggest-threat-to-academic-freedom-remains-their-insistence-on-the-financial-destabilization-of-institutions.md — While the government introduces new freedom of speech rules at universities, the biggest threat to academic freedom remains their insistence on the financial destabilization of institutions
+- 2021-07-18-augar-the-humanities-covid.md — Augar, The Humanities, Covid: Gazing into the Crystal Ball
+- 2024-03-19-the-problem-for-ref-2029.md — The problem for REF 2029
+- 2024-06-21-a-few-notes-on-the-ref-oa-mandate-for-books.md — Some personal notes on the REF OA mandate for books
+- 2024-08-15-on-dropping-the-ref-oa-mandate-for-books-this-time.md — On dropping the REF OA mandate for books (this time)
+- 2025-06-08-what-is-a-university-press.md — What is a University Press?
+
+### Information Security (63)
+
+- 2007-05-15-amendments-to-the-british-computer-misuse-act.md — Amendments to the British Computer Misuse Act
+- 2007-05-15-bypass-asp-net-xss-protection-in-internet-explorer.md — Bypass ASP.NET XSS Protection in Internet Explorer
+- 2007-05-15-evaluating-the-security-of-the-jsonrequest-object.md — Evaluating the security of the JSONRequest object
+- 2007-05-15-firefox-xbl-js-loader-v1-0.md — Firefox XBL-JS Loader v1.0
+- 2007-05-15-httponly-cookie-detection.md — httpOnly Cookie Detection
+- 2007-05-15-javascript-eval-string-fromcharcode-encoder.md — JavaScript eval String.fromCharCode encoder
+- 2007-05-15-javascript-referer-scripts-xss-injection.md — JavaScript Referer Scripts XSS Injection
+- 2007-05-16-heise-security-reports-backdoor-in-artmedic-cms.md — heise Security reports backdoor in Artmedic CMS
+- 2007-05-16-moseb-month-of-search-engine-bugs.md — MOSEB month of search engine bugs
+- 2007-05-16-php-ids.md — PHP IDS
+- 2007-05-16-xss-cheat-sheet.md — XSS Cheat Sheet
+- 2007-05-16-xss-in-excess-a-learn-xss-tool.md — XSS in eXceSS: A "learn-XSS tool"
+- 2007-05-19-xsf-cross-site-flashing.md — XSF: Cross Site Flashing
+- 2007-05-20-rsnake-jeremiah-grossmans-book-released.md — RSnake + Jeremiah Grossman's Book Released
+- 2007-05-21-bypassing-same-origin-policy-using-mash-ups.md — Bypassing Same Origin Policy using Mash-Ups
+- 2007-05-23-string-fromcharcode-encoder.md — String.fromCharCode Encoder
+- 2007-05-23-xss-tutorial.md — XSS Tutorial
+- 2007-05-24-csrf-one-time-token-bypass-using-ajax-and-xss.md — (C)SRF one-time token bypass using AJAX and XSS
+- 2007-05-25-dotnetids.md — dotnetids
+- 2007-06-05-a-bad-day-for-browsers.md — A bad day for browsers
+- 2007-06-13-firefox-nested-comment-fragmented-xss.md — Firefox nested comment fragmented XSS
+- 2007-06-15-netids-can-now-detect-fragmented-xss.md — .NETIDS can now detect fragmented XSS
+- 2007-06-19-csrf-being-used-in-latest-ipb-vuln-what-about-php-web-request.md — CSRF being used in latest IPB vuln – what about PHP web request?
+- 2007-06-19-netids-v-0-1-0-0-released.md — .NETIDS v.0.1.0.0 released
+- 2007-06-26-httponly-cookies-in-net-2-0.md — HttpOnly cookies in .NET 2.0
+- 2007-06-26-netids-v-0-1-1-0-released.md — .NETIDS v.0.1.1.0 released
+- 2007-07-05-javascript-internal-numerical-representations.md — JavaScript internal numerical representations
+- 2007-07-05-obfuscated-fun.md — Obfuscated fun
+- 2007-07-05-some-evil-stuff-from-sla-ckers.md — Some evil stuff from sla.ckers
+- 2007-11-09-xss-for-the-common-good-greasemousey.md — XSS for the common good - GreaseMousey
+- 2007-11-27-right-to-left-and-left-to-right-characters.md — Right-To-Left and Left-To-Right characters
+- 2008-02-02-an-xml-based-xss-poc-platform.md — An XML based XSS PoC platform
+- 2008-02-28-firefox-3-disallows-cross-site-xbl.md — Firefox 3 disallows cross-site XBL
+- 2008-03-05-ie7-remote-file-access.md — IE7 Remote File Access
+- 2008-07-23-building-a-robust-ssl-crc-verified-serverclient-solution-in-the-net-framework-with-c.md — Building a robust, SSL, CRC-Verified server/client solution in the .NET Framework with C#
+- 2008-09-24-the-importance-of-weaponization-in-exploit-development.md — The importance of weaponization in exploit development
+- 2008-12-07-bypassing-firewalls-using-ssh-reverse-forwarding.md — Bypassing firewalls using SSH Reverse Forwarding
+- 2008-12-07-fetching-files-via-echo-ftp-in-a-non-interactive-shell-environment.md — Fetching files via echo, FTP in a non interactive shell environment
+- 2008-12-07-ssh-key-based-password-less-login.md — SSH Key Based, Password Less Login
+- 2009-01-27-dual-stage-sql-injection-attacks.md — Dual Stage SQL Injection Attacks
+- 2010-03-02-sshsplit-a-dynamic-tunnel-multiplexer.md — sshsplit: a dynamic tunnel multiplexer
+- 2010-03-11-sshsplit-featured.md — sshsplit featured
+- 2010-04-26-poc-code-for-facebook-friend-profile-gatherer.md — PoC Code for Facebook Friend Profile Gatherer
+- 2010-08-15-htc-wildfire-stage-1-soft-root.md — HTC Wildfire Stage 1 Soft-Root
+- 2010-11-16-wireless-when-housesitting-airmon-ng.md — Wireless when housesitting (airmon-ng)
+- 2010-12-15-the-net-was-never-free-from-commercial-interest-its-not-a-new-threat-to-democratic-speech.md — The 'net was never free from commercial interest; it's not a "new" threat to democratic speech
+- 2011-01-27-ssl-enabled.md — SSL Enabled
+- 2011-07-22-using-elliptical-curve-cryptography-in-openssh.md — Using Elliptical Curve Cryptography in OpenSSH
+- 2011-08-08-encrypted-partition-recovery-on-ubuntu-10-10.md — Encrypted Partition Recovery on Ubuntu 10.10
+- 2011-11-19-netids-development-restarted-participants-wanted.md — .NETIDS development restarted. Participants wanted.
+- 2012-09-03-quibbling-with-the-lrb-over-hackers.md — Quibbling with the LRB over "Hackers"
+- 2015-08-19-wordpress-php-eval-attacks.md — Wordpress php eval attacks
+- 2015-08-23-how-to-block-distributed-brute-force-attacks-against-wordpress-using-fail2ban.md — How to block distributed brute-force attacks against Wordpress using fail2ban
+- 2015-12-14-auto-renewing-ssl-certificates-with-letsencrypt.md — Auto-renewing SSL Certificates with Let'sEncrypt
+- 2016-07-28-my-book-password-is-out-now.md — My book, Password, is out now!
+- 2022-07-28-lastpass-cli-cant-login-using-master-password.md — Lastpass CLI can't login using master password
+- 2023-07-26-we-are-terrible-at-online-identity-management-or-using-emails-as-an-identifier-was-a-bad-move.md — We Are Terrible at Online Identity Management (or: Using Emails as An Identifier Was a Bad Move)
+- 2025-02-06-going-dark-running-a-tor-relay-and-a-dark-web-version-of-this-site.md — Going Dark: Running a Tor relay and a dark web version of this site
+- 2025-02-13-what-to-do-when-your-tor-relay-isnt-listening.md — What to do when your Tor relay isn't listening
+- 2025-02-16-how-to-securely-create-an-encrypted-digital-in-case-of-death-document.md — How to securely create an encrypted digital 'in case of death' document
+- 2026-03-21-how-to-use-yubikey-for-authentication-and-sudo-on-ubuntu-2404.md — How to use YubiKey for authentication and sudo on Ubuntu 24.04
+- 2026-04-19-claude-code-can-consume-transmit-and-compromise-your-env-files-even-if-you-tell-it-not-to.md — Claude Code can consume, transmit, and compromise your .env files even if you tell it not to
+- 2026-08-19-how-can-you-securely-share-a-secret-number-with-someone-totally-in-public.md — How can you securely share a secret number with someone, totally in public? Elliptic Curves
+
+### Linux (38)
+
+- 2008-12-07-ssh-key-based-password-less-login.md — SSH Key Based, Password Less Login
+- 2009-06-23-installing-office-2007-on-wine-1-1-24.md — Installing Office 2007 on wine 1.1.24
+- 2009-12-07-fixing-scp-completion-in-ubuntu-9-10.md — Fixing scp completion in Ubuntu 9.10
+- 2010-05-01-running-zotero-on-ubuntu-lucid.md — Running Zotero on Ubuntu Lucid
+- 2010-11-16-wireless-when-housesitting-airmon-ng.md — Wireless when housesitting (airmon-ng)
+- 2010-11-19-userspace-responsiveness-bashrc-alternative-ubuntu-10-10-working.md — Userspace responsiveness .bashrc alternative (Ubuntu 10.10: Working)
+- 2010-11-24-fixing-headphone-jack-on-toshiba-satellite-c650d-under-ubuntu-linux-maverick.md — Fixing headphone jack on Toshiba Satellite C650D under Ubuntu Linux Maverick
+- 2010-12-30-using-unison-to-synchronize-and-backup-your-work-part-1.md — Using Unison to synchronize and backup your work [Part 1]
+- 2011-01-09-android-rom-update-utility-extractor-for-linux.md — Android Rom Update Utility extractor for Linux
+- 2011-01-21-ocz-revodrive-on-abit-fatal1ty-fp-in9-sli.md — OCZ RevoDrive on Abit Fatal1ty FP-IN9 SLI
+- 2011-04-03-installing-zotero-on-ubuntu-natty-11-04beta.md — Installing Zotero on Ubuntu Natty (11.04/Beta)
+- 2011-04-05-ubuntu-natty-beta-1-my-upgrade-experience.md — Ubuntu Natty Beta 1: My Upgrade Experience
+- 2011-05-30-moving-from-ubuntu-to-fedora.md — Moving from Ubuntu to Fedora
+- 2011-06-08-six-lines-to-get-sun-java-running-on-fedora-15-x64.md — Six lines to get Sun Java running on Fedora 15 x64
+- 2011-07-22-using-elliptical-curve-cryptography-in-openssh.md — Using Elliptical Curve Cryptography in OpenSSH
+- 2011-08-08-encrypted-partition-recovery-on-ubuntu-10-10.md — Encrypted Partition Recovery on Ubuntu 10.10
+- 2011-09-03-installing-zotero-on-ubuntu-oneiric-11-10beta.md — Installing Zotero on Ubuntu Oneiric (11.10/Beta)
+- 2011-09-25-64bit-gnulinux-and-webcams-logitech-quickcam-express.md — 64bit GNU/Linux and Webcams (Logitech Quickcam Express)
+- 2011-10-30-booting-ubuntu-from-devices-invisible-to-grub2.md — Booting Ubuntu from devices invisible to GRUB2
+- 2012-02-06-doing-a-ph-d-using-only-free-open-source-software.md — Doing a Ph.D using only free, open source software
+- 2012-12-07-fixing-scanning-on-an-hp-photosmart-c6300-series-in-ubuntu-12-10.md — Fixing scanning on an HP Photosmart C6300 series in Ubuntu 12.10
+- 2012-12-30-tech-things-i-have-learned-in-the-last-12-hours.md — Tech things I have learned in the last 12 hours
+- 2012-12-30-using-bumblebee-for-opteron-graphics-on-ubuntu-12-10-on-a-samsung-chronos-7-series-laptop.md — Using bumblebee for opteron graphics on Ubuntu 12.10 on a Samsung Chronos 7 Series laptop
+- 2013-05-21-fixing-mpd-segfault-on-ubuntu-12-10-on-arm-devices-mele-pandaboard-etc.md — Fixing mpd segfault on Ubuntu 12.10 on ARM devices (Mele, Pandaboard etc)
+- 2013-07-14-displaying-ee-mobile-data-usage-in-conky.md — Displaying EE mobile data usage in Conky
+- 2013-12-27-why-im-a-fan-of-open-source-software-an-argument-by-anecdoteexample.md — Why I'm a fan of open source software: An argument by anecdote/example
+- 2014-04-15-enabling-a-triple-head-3-monitor-setup-on-linux-mint-16-petra-with-two-nvidia-cards.md — Enabling a triple-head (3 monitor) setup on Linux Mint 16 ("Petra") with two Nvidia cards
+- 2014-06-02-update-grubos-prober-not-detecting-windows-7.md — update-grub/os-prober not detecting Windows 7
+- 2015-12-14-auto-renewing-ssl-certificates-with-letsencrypt.md — Auto-renewing SSL Certificates with Let'sEncrypt
+- 2018-03-20-keith-mcmillen-k-mix-on-linux.md — Keith McMillen K-Mix on Linux
+- 2018-07-23-linux-cpu-frequency-scaling-on-the-intel-i9-7980xe.md — Linux CPU Frequency Scaling on the Intel i9 7980XE
+- 2019-02-18-running-unoconv-on-ubuntu-1804-and-libreoffice-6.md — Running unoconv on Ubuntu 18.04 and Libreoffice 6
+- 2020-01-03-accelerating-synology-raid-6-reshapes.md — Accelerating Synology RAID 6 (SHR-2) reshapes
+- 2020-07-30-davmail-uses-java-certificate-store-not-central-ca-certificates.md — davmail uses Java certificate store, not central ca-certificates
+- 2020-12-12-how-to-install-ubuntu-on-the-hp-dragonfly-elite.md — How to install Ubuntu on the HP Dragonfly Elite (hint: disable Optane)
+- 2022-04-13-if-you-cannot-connect-to-a-deluged-daemon-remotely.md — If you cannot connect to a deluged daemon remotely
+- 2026-03-21-how-to-use-yubikey-for-authentication-and-sudo-on-ubuntu-2404.md — How to use YubiKey for authentication and sudo on Ubuntu 24.04
+- 2026-03-25-how-to-get-a-blocked-usb-stack-and-dead-microphone-working-again-on-linux.md — How to get a blocked USB stack and dead microphone working again on Linux
+
+### Literature (113)
+
+- 2010-03-17-can-we-avoid-the-s-word-regarding-david-foster-wallace.md — Can we avoid the S word regarding David Foster Wallace?
+- 2010-03-17-david-foster-wallace-archive-material.md — David Foster Wallace archive material
+- 2010-03-19-international-pynchon-week-2010-abstracts.md — International Pynchon Week 2010 Abstracts
+- 2010-05-10-new-david-foster-wallace-book-fall-2010.md — New David Foster Wallace book Fall 2010
+- 2010-09-17-first-fictions-conference.md — First Fictions conference
+- 2010-09-20-picture-this-postcards-and-letters-beyond-text.md — Picture This: Postcards and Letters Beyond Text
+- 2011-01-13-publication-e2-80-98local-transcendence-postmodern-historiography-and-the-database-by-alan-liu-e2-80-99-textual-practice-24-6-december-2010.md — Publication: ‘Local Transcendence: Postmodern Historiography and the Database by Alan Liu’, Textual Practice, 24, 6 (December 2010)
+- 2011-01-21-picture-this-postcards-competition.md — Picture this: Postcards Competition
+- 2011-02-03-sa4qe-2011-spreading-the-word-of-russell-hoban.md — SA4QE 2011: Spreading the Word of Russell Hoban
+- 2011-02-05-sa4qe2011-the-drops.md — SA4QE2011: The Drops
+- 2011-02-16-russell-hoban-in-conversation-with-will-self-at-the-british-library.md — Russell Hoban in Conversation with Will Self at the British Library
+- 2011-03-17-designing-a-uk-undergraduate-english-literature-course.md — Designing a UK undergraduate English literature course
+- 2011-03-23-picture-this-postcards-exhibition.md — Picture This: Postcards Exhibition
+- 2011-04-16-david-foster-wallaces-the-pale-king-bonnie-nadell-and-michael-pietsch-at-foyles.md — David Foster Wallace's The Pale King: Bonnie Nadell and Michael Pietsch at Foyles
+- 2011-04-24-romeo-castellucci-societas-raffaello-sanzios-on-the-concept-of-the-face-regarding-the-son-of-god.md — Romeo Castellucci / Socìetas Raffaello Sanzio's "On the Concept of the Face, Regarding the Son of God"
+- 2011-05-04-weve-met-before-havent-we-spatio-temporal-distortion-in-david-lynchs-lost-highway.md — "We've met before, haven't we?": Spatio-Temporal Distortion in David Lynch's Lost Highway
+- 2011-06-24-the-8th-biennial-symbiosis-conference-day-1.md — The 8th Biennial Symbiosis Conference: Day 1
+- 2011-06-25-the-8th-biennial-symbiosis-conference-day-2.md — The 8th Biennial Symbiosis Conference: Day 2
+- 2011-06-26-the-8th-biennial-symbiosis-conference-day-3.md — The 8th Biennial Symbiosis Conference: Day 3
+- 2011-06-27-enslavement-conference-portsmouth-17th-june-2011.md — Enslavement Conference, Portsmouth, 17th June 2011
+- 2011-07-30-thoughts-from-calling-all-agents-the-first-symposium-on-the-work-of-tom-mccarthy.md — Thoughts from "Calling All Agents": The first symposium on the work of Tom McCarthy
+- 2011-08-03-conference-paper-it-sures-hell-looked-like-war-terrorism-and-the-cold-war-in-thomas-pynchons-against-the-day-and-don-delillos-underworld-2010-06-09-university-of-lublin.md — Conference Paper: 'It sure's hell looked like war': Terrorism and the Cold War in Thomas Pynchon's Against the Day and Don DeLillo's Underworld', 2010-06-09, University of Lublin
+- 2011-10-06-the-nobel-prize-for-literature-2011-hoax.md — The Nobel Prize for Literature 2011 Hoax
+- 2011-10-17-donne-it-wrong-holy-sonnet-numbering-confusion.md — Donne it wrong: Holy Sonnet numbering confusion
+- 2011-11-05-brian-lobel-ball-and-other-funny-stories-about-cancer.md — Brian Lobel: BALL and Other Funny Stories About Cancer
+- 2011-11-07-simon-f-davies-open-educational-resource-on-literary-terms.md — Simon F. Davies' Open Educational Resource on Literary Terms
+- 2011-12-01-first-fictions-launch-weekend-20-22-january-2012.md — First Fictions launch weekend: 20-22 January, 2012
+- 2012-01-14-joe-ortons-defaced-books-at-the-islington-museum.md — Joe Orton's Defaced Books at the Islington Museum
+- 2012-01-24-first-fictions-festival-at-sussex.md — First Fictions Festival at Sussex
+- 2012-02-10-conference-paper-thomas-pynchon-david-foster-wallace-and-twenty-first-century-utopianism-16-18-july-2012-university-of-lincoln.md — Conference Paper: Thomas Pynchon, David Foster Wallace and Twenty-First-Century Utopianism, 16-18 July, 2012, University of Lincoln
+- 2012-03-11-talawas-waiting-for-godot.md — Talawa's Waiting for Godot
+- 2012-04-23-teaching-post-millennial-literature-a-hea-and-university-of-brighton-symposium.md — Teaching Post-Millennial Literature: A HEA and University of Brighton Symposium
+- 2012-04-28-contemporary-fiction-research-seminar-write-up-martin-amis-money-2012-04-28.md — Contemporary Fiction Research Seminar Write-Up: Martin Amis' Money (2012-04-28)
+- 2012-05-12-day-1-of-twenty-first-century-literature-conference-at-birkbeck.md — Day 1 of Twenty-First-Century Literature Conference at Birkbeck
+- 2012-05-13-the-ontological-problems-of-contemporary-fiction-studies-are-actually-its-ontological-prerequsites.md — The Ontological Problems of Contemporary Fiction Studies are Actually its Ontological Prerequsites
+- 2012-05-19-thinking-feeling-conference-at-the-university-of-sussex.md — Thinking Feeling Conference at the University of Sussex
+- 2012-05-21-day-2-of-twenty-first-century-literature-conference-at-birkbeck.md — Day 2 of Twenty-First-Century Literature Conference at Birkbeck
+- 2012-07-03-teaching-post-millenial-fiction-conference-archive.md — Teaching Post-Millenial Fiction Conference archive
+- 2012-07-19-thomas-pynchon-david-foster-wallace-and-21st-century-utopianism-presentation.md — Thomas Pynchon, David Foster Wallace and 21st-Century Utopianism (presentation)
+- 2012-08-02-impossible-objects-preservation-and-extinction-on-the-first-folio.md — Impossible Objects: Preservation and Extinction (on the First Folio)
+- 2012-08-23-brief-interviews-with-hideous-men-live-stage-version-at-the-ica.md — Brief Interviews with Hideous Men: Live Stage Version at the ICA
+- 2012-09-03-conference-on-china-mieville-weird-council.md — Conference on China Miéville: Weird Council
+- 2012-09-16-weird-council-the-first-international-conference-on-the-works-of-china-mieville-mieville2012-storify.md — Weird Council: The first international conference on the works of China Miéville #mieville2012 (storify)
+- 2012-09-18-conference-paper-opening-childrens-eyes-overloaded-forms-and-the-didactic-function-westminster-university.md — Conference paper: 'Opening children's eyes': Overloaded Forms and the Didactic Function (Westminster University)
+- 2012-09-30-my-thoughts-on-dt-maxs-biography-of-dfw.md — My thoughts on DT Max's biography of DFW
+- 2012-10-13-jeffrey-archers-140-character-story-and-plagiarism.md — Jeffrey Archer's 140-character story and plagiarism
+- 2012-11-01-cfp-feminism-influence-inheritance.md — CFP: Feminism;; Influence;; Inheritance
+- 2012-11-05-publication-review-of-1q84-in-1001-books-to-read-before-you-die-london-cassell-illustrated-2012.md — Publication: Review of 1Q84 in 1001 Books to Read Before You Die (London: Cassell Illustrated, 2012)
+- 2012-12-11-publication-review-of-theophilius-savvas-american-postmodern-fiction-and-the-past-literature-and-history-21-2-autumn-2012-pp-106-108.md — Publication: 'Review of Theophilius Savvas, American Postmodern Fiction and the Past', Literature and History, 21, 2 (Autumn 2012), pp. 106-108
+- 2013-01-29-publication-thomas-pynchon-david-foster-wallace-and-the-problems-of-metamodernism-post-millennial-post-postmodernism.md — Publication: 'Thomas Pynchon, David Foster Wallace and the Problems of 'Metamodernism': Post-millennial Post-postmodernism?'
+- 2013-02-10-conference-paper-too-many-goddamn-echoes-historicizing-the-iraq-war-in-don-delillos-point-omega-birkbeck.md — Conference Paper: "Too many goddamn echoes": Historicizing the Iraq War in Don DeLillo's /Point Omega/', Birkbeck
+- 2013-03-27-modernist-intimacies-conference.md — Modernist Intimacies conference
+- 2013-07-20-punchdrunks-the-drowned-man.md — Punchdrunk's The Drowned Man
+- 2013-08-30-publication-you-will-see-the-logic-of-the-design-of-this-from-historiography-to-taxonomography-in-the-contemporary-metafiction-of-sarah-waterss-affinity.md — Publication:  “You will see the logic of the design of this”: From Historiography to Taxonomography  in the Contemporary Metafiction of Sarah Waters’s Affinity
+- 2013-09-05-publication-terrorism-and-the-cold-war-in-thomas-pynchons-against-the-day-and-don-delillo-c2-80-c2-99s-underworld.md — Publication: "Terrorism and the Cold War in Thomas Pynchon's Against the Day and Don DeLillo's Underworld"
+- 2013-11-15-some-diagrams-of-jennifer-egan-novels.md — Some diagrams of Jennifer Egan novels
+- 2014-02-12-publication-mitchell-hoban.md — Publication: David Mitchell, Russell Hoban, and Metafiction After the Millennium
+- 2014-04-15-symposium-on-david-mitchell-9th-may-london.md — Symposium on David Mitchell: 9th May, London
+- 2014-04-16-alluvium-2nd-birthday-panel-event.md — Alluvium 2nd Birthday Panel Event
+- 2014-07-02-historicizing-the-iraq-war-in-don-delillos-point-omega-preprint-forthcoming-in-journal-of-american-studies.md — Historicizing the Iraq War in Don DeLillo's Point Omega (preprint, forthcoming in Journal of American Studies)
+- 2014-08-14-publication-historicizing-the-iraq-war-in-don-delillos-point-omega.md — Publication: Historicizing the Iraq War in Don DeLillo’s Point Omega
+- 2015-01-19-foucauldian-methodologies-for-considering-emerging-archives.md — Foucauldian methodologies for considering emerging archives?
+- 2015-02-15-the-anxiety-of-academia-academics-legitimation-and-discipline-in-contemporary-metafiction.md — The Anxiety of Academia: Academics, Legitimation and Discipline in Contemporary Metafiction
+- 2015-02-22-chapter-two-self-canonisation-literary-historical-fictions-and-aesthetic-critique.md — Chapter Two: Self-Canonisation, Literary-Historical Fictions and Aesthetic Critique
+- 2015-02-28-chapter-three-political-critique-and-the-university-in-roberto-bolanos-2666.md — Chapter Three: Political Critique and the University in Roberto Bolaño's 2666
+- 2015-03-01-chapter-four-academic-fiction.md — Chapter Four: <s>Academic</s> Fiction
+- 2015-06-21-the-conservatism-of-cloud-atlas.md — The Conservatism of Cloud Atlas
+- 2015-07-04-he-doesnt-talk-politics-any-more-politics-and-postmodernism-morality-and-metafiction-nihilism-and-the-novel.md — 'He doesn't talk politics any more': Politics and Postmodernism; Morality and Metafiction; Nihilism and the Novel?
+- 2016-01-11-the-methodology-of-literary-taxonomy-harking-and-p-hacking.md — The methodology of literary taxonomy: HARKing and p-hacking
+- 2016-04-16-the-faber-finds-edition-of-rex-warners-the-professor.md — The Faber Finds edition of Rex Warner's The Professor is very poorly formatted and proofed
+- 2016-08-09-have-you-read-david-mitchells-cloud-atlas-if-so-which-of-the-two-very-different-versions.md — Have you read David Mitchell's Cloud Atlas? If so, which of the two very different versions?
+- 2016-08-12-computational-reading-as-reading-against-the-reader.md — Computational reading as 'reading against the reader'
+- 2016-10-06-now-accepting-proposals-to-new-horizons-in-contemporary-writing-series.md — Now accepting proposals to 'New Horizons in Contemporary Writing' series
+- 2016-10-20-my-new-book-literature-against-criticism-is-published-today.md — My new book, Literature Against Criticism, is published today
+- 2016-11-19-next-book-project-the-aesthetics-of-metadata-redaction-reference-the-archive-in-contemporary-fictionnredaction-reference-the-archive-in-contemporary-fiction.md — Next book project: The Aesthetics of Metadata: Redaction, Reference, & the Archive in Contemporary Fiction
+- 2017-04-21-the-folio-society-edition-of-riddley-walker.md — The Folio Society Edition of Riddley Walker
+- 2017-05-12-two-types-of-post-critique.md — Two types of post-critique
+- 2018-05-09-some-critiques-of-metamodernism.md — My critique of metamodernism
+- 2018-05-21-books-in-series.md — Forthcoming Books in the New Horizons in Contemporary Writing Series
+- 2019-02-07-how-to-read-a-blank-page.md — How to read a (blank) page: on redaction in contemporary fiction
+- 2019-03-16-digital-ways-of-looking.md — (Digital) Ways of Looking
+- 2019-05-24-instrumental-reading.md — Instrumental reading
+- 2019-07-06-textual-scholarship-and-contemporary-literary-studies-jennifer-egans-editorial-processes-and-the-archival-edition-of-emerald-city.md — Jennifer Egan's Editorial Processes and the Archival Edition of Emerald City
+- 2019-12-02-the-first-oa-liberated-article-from-my-leverhulme-prize.md — The first OA liberated article from my Leverhulme Prize: The Critique of Metamodernism
+- 2020-04-26-getting-the-gist-of-reading.md — Getting the Gist of Reading
+- 2021-02-22-the-social-network-of-the-london-review-of-books.md — The social network of the London Review of Books
+- 2021-06-05-when-and-why-did-paper-become-white-and-why-was-white-paper-so-valued.md — When and why did paper become white and why was white paper so valued?
+- 2021-06-12-on-the-chromoclasm.md — On the Chromoclasm, the absence of colour, and notes towards a translation of Michel Pastoureau's ‘L’incolore n’existe Pas’
+- 2021-06-28-the-history-of-studying-english-at-birkbeck.md — Birkbeck: The Oldest University English Department in the World? (and a new Oscar Wilde lecture at Birkbeck)
+- 2021-08-02-some-incomplete-notes-on-les-encres-noires-au-moyen-âge.md — Some incomplete notes on Les Encres noires au Moyen Âge
+- 2021-08-07-notes-on-nicholas-gaskills-chromographia-american-literature-and-the-modernization-of-color.md — Notes on Nicholas Gaskill's Chromographia: American Literature and the Modernization of Color
+- 2022-01-04-adaptation-and-appropriation.md — Adaptation and Appropriation
+- 2022-01-04-ancient-china.md — Ancient China
+- 2022-01-04-ancient-south-asia.md — Ancient South Asia
+- 2022-01-04-aspects-of-the-novel.md — Aspects of the Novel
+- 2022-01-04-the-african-american-novel.md — The African-American Novel
+- 2022-01-05-ancient-west.md — Ancient West
+- 2022-01-05-andean-novels.md — Andean Novels
+- 2022-01-06-anthropology-and-the-novel.md — Anthropology and the Novel
+- 2022-01-07-the-arabic-novel.md — The Arabic Novel
+- 2022-01-08-the-asian-american-novel.md — The Asian-American Novel
+- 2022-01-09-authorship.md — Authorship
+- 2022-01-12-the-baltic-states-and-the-novel.md — The Baltic States and the Novel
+- 2022-01-13-bildungsroman.md — Bildungsroman
+- 2022-01-22-the-brazilian-novel.md — The Brazilian Novel
+- 2022-01-25-18th-century-british-isles.md — 18th-Century British Isles
+- 2022-01-26-19th-century-british-isles.md — 19th-Century British Isles
+- 2022-01-27-20th-century-british-isles.md — 20th-Century British Isles
+- 2025-02-06-an-introduction-to-the-poetry-of-emily-dickinson.md — An introduction to the poetry of Emily Dickinson
+- 2025-02-11-an-introduction-to-charlotte-perkins-gilmans-the-yellow-wallpaper.md — An Introduction to Charlotte Perkins-Gilman's 'The Yellow Wallpaper'
+- 2025-03-22-a-few-critical-notes-on-elly-griffiths-the-frozen-people.md — A few critical notes on Elly Griffith's The Frozen People
+- 2026-02-22-structure-and-there-is-no-antimemetics-division.md — Structure and There Is No Antimemetics Division
+- 2026-08-02-the-extended-interviews-on-ito-the-journey-looking-back-ati-star-trek-voyager.md — The extended interviews on <i>To the Journey: Looking Back at</i> Star Trek: Voyager
+
+### Music (17)
+
+- 2010-04-07-upcoming-performance-lucy-and-martha-fine-bone-china.md — Upcoming performance: Lucy and Martha: Fine Bone China
+- 2011-12-07-support-war-child-and-see-laurent-gardnerbooka-shadeleftfield-live-april-2012.md — **Support War Child** and see Laurent Gardner/Booka Shade/Leftfield live April 2012
+- 2012-03-10-jake-wilson-alls-well-website-and-music-up.md — Jake Wilson: "All's Well". Website and Music up!
+- 2013-03-22-buy-this-album-mountain-of-love-ex-alabama-3.md — Buy This Album: Mountain of Love (ex-Alabama 3)
+- 2014-05-31-here-by-the-sea-and-sand-a-symposium-on-quadrophenia.md — Here by the Sea and Sand: A Symposium on Quadrophenia
+- 2014-11-23-current-working-music.md — Current working music
+- 2018-03-20-keith-mcmillen-k-mix-on-linux.md — Keith McMillen K-Mix on Linux
+- 2018-10-14-m-audio-trigger-finger-pro-synchronisation-problems.md — M-Audio Trigger Finger Pro synchronisation problems
+- 2019-03-29-on-music-tici-taci-and-a-new-release.md — On music, life, Tici Taci, and a new release
+- 2019-04-06-a-missing-audio-hardware-device.md — A missing audio hardware device
+- 2019-04-26-running-the-presonus-quantum-interfaces-on-windows-7.md — Running the PreSonus Quantum interfaces on Windows 7
+- 2019-04-26-the-learning-experience-out-today-on-tici-taci-and-my-book-has-gone-to-print-at-stanford-university-press.md — The Learning Experience out today on Tici Taci and my book has gone to print at Stanford University Press
+- 2019-06-01-what-size-should-my-music-studio-be.md — What size should my music studio be?
+- 2019-07-12-ratholin.md — Ratholin'
+- 2021-03-27-how-to-fix-a-broken-crumar-bit99-synthesizer.md — How to fix a broken Crumar Bit99 synthesizer
+- 2021-04-13-moog-minitaur-the-editor-and-exclusive-usb-lock.md — Moog Minitaur: the editor and exclusive USB lock
+- 2025-10-09-using-a-public-api-or-the-instability-of-musicbrainz-ids.md — Using a public API, or the instability of MusicBrainz IDs
+
+### Open Access (248)
+
+- 2010-09-01-upcoming-journal-publishing-workshop.md — Upcoming journal publishing workshop
+- 2010-09-28-speaking-of-open-access.md — Speaking of Open Access...
+- 2010-10-24-notes-and-presentation-from-my-open-access-talk.md — Notes and Presentation from my Open Access talk
+- 2010-12-01-researchers-libraries-and-publishers-what-does-the-future-hold.md — Researchers, Libraries and Publishers: What does the future hold?
+- 2011-01-18-the-botnet-webs-of-hegemonyzombies-who-publish.md — The Botnet: Webs of Hegemony/Zombies Who Publish
+- 2011-03-11-getting-published-in-academia.md — Getting Published in Academia
+- 2011-05-18-guarding-your-academic-ideas.md — Guarding your academic ideas
+- 2011-06-28-is-academic-work-commercial-how-does-this-affect-libre-licensing.md — Is academic work commercial? How does this affect libre licensing?
+- 2011-07-11-orbit-writing-around-pynchon.md — Orbit: Writing Around Pynchon
+- 2011-08-04-conference-paper-autosubversive-practices-in-academic-publishing-uksg-2012-03-26.md — Conference Paper: "Autosubversive Practices in Academic Publishing", UKSG, 2012-03-26
+- 2011-08-19-postgraduate-publishing.md — Postgraduate Publishing
+- 2011-08-31-guest-post-at-phd2published.md — Guest post at PhD2Published
+- 2011-09-02-immanent-critique-of-closed-access-publication.md — Immanent critique of closed access publication
+- 2011-10-25-open-access-week-at-the-university-of-sussex.md — Open Access Week at the University of Sussex
+- 2012-02-02-project-idearequest-for-comment-opendoi.md — Project idea/request for comment: OpenDOI
+- 2012-02-03-dois-what-you-need-to-know.md — DOIs: What you need to know
+- 2012-02-04-more-thoughts-on-metrics-link-rot-canonical-urls.md — More thoughts on metrics, link-rot, canonical URLs
+- 2012-02-27-podcast-on-open-source-open-access-publishing.md — Podcast on Open Source, Open Access publishing
+- 2012-03-30-the-problems-for-small-open-access-journals-in-terms-of-digital-preservation.md — The problems for small Open Access journals in terms of digital preservation
+- 2012-04-03-i-am-joining-the-oapen-uk-open-access-monograph-steering-group.md — I am joining the OAPEN-UK, Open Access Monograph, Steering Group
+- 2012-04-04-uksg-conference-photos-and-slides.md — UKSG Conference: photos and slides
+- 2012-04-09-the-future-of-academic-publishing-qa.md — The future of academic publishing Q&A
+- 2012-04-11-video-of-my-uksglive-presentation-on-the-future-of-academic-publishing.md — Video of my #uksglive presentation on the future of academic publishing
+- 2012-05-02-an-update-on-orbit-1-1.md — An update on Orbit 1.1
+- 2012-05-21-beware-the-next-wave-of-academic-publishing-grimness-apps.md — Beware the next wave of academic publishing grimness: apps.
+- 2012-06-28-the-part-of-the-open-access-debate-that-is-irritatingly-ignored.md — The part of the open access debate that is, irritatingly, ignored
+- 2012-07-09-orbit-writing-around-pynchon-is-live.md — Orbit: Writing Around Pynchon is live
+- 2012-07-09-publication-tear-it-down-build-it-up-the-research-output-team-or-the-library-as-publisher-insights-25-2-july-2012-pp-158-162.md — Publication: 'Tear it down, build it up: the Research Output Team, or the library-as-publisher', Insights, 25, 2 (July 2012), pp. 158-162
+- 2012-07-10-starting-an-open-access-journal-a-step-by-step-guide-part-1.md — Starting an Open Access Journal: a step-by-step guide part 1
+- 2012-07-11-starting-an-open-access-journal-a-step-by-step-guide-part-2.md — Starting an Open Access Journal: a step-by-step guide part 2
+- 2012-07-12-starting-an-open-access-journal-a-step-by-step-guide-part-3.md — Starting an Open Access Journal: a step-by-step guide part 3
+- 2012-07-13-orbit-writing-around-pynchon-is-now-digitally-preserved-by-clockss.md — Orbit: Writing Around Pynchon is now digitally preserved by CLOCKSS
+- 2012-07-13-starting-an-open-access-journal-a-step-by-step-guide-part-4.md — Starting an Open Access Journal: a step-by-step guide part 4
+- 2012-07-13-starting-an-open-access-journal-a-step-by-step-guide-part-5.md — Starting an Open Access Journal: a step-by-step guide part 5
+- 2012-07-13-starting-an-open-access-journal-a-step-by-step-guide-table-of-contents.md — Starting an Open Access Journal: a step-by-step guide. Table of contents.
+- 2012-07-16-gold-open-access-does-not-mean-author-pays.md — Gold Open Access does **NOT** mean: "author pays"
+- 2012-07-24-mythbusting-a-proposed-list-60-things-journal-publishers-do.md — Mythbusting: "A Proposed List — 60 Things Journal Publishers Do"
+- 2012-08-14-what-app-net-has-to-teach-scholarly-publishing-altruism-has-been-forgotten-and-everything-is-a-product.md — What app.net has to teach scholarly publishing: altruism has been forgotten and everything is a "product"
+- 2012-08-31-open-access-needs-terminology-to-distinguish-between-funding-models-platinum-oagold-non-apc.md — Open Access needs terminology to distinguish between funding models: Platinum OA/Gold NON-APC
+- 2012-09-08-what-will-the-humanities-do-post-finch-or-where-are-the-oa-venues.md — What will the Humanities do Post-Finch? (or: where are the OA venues?)
+- 2012-09-13-relativize-and-historicize-open-access-article-processing-charges-and-transparency.md — Relativize and Historicize: Open Access, Article Processing Charges and Transparency
+- 2012-10-19-crude-but-helpful-typesetting-script-from-mexml.md — Crude, but helpful, typesetting script from meXml
+- 2012-10-19-orbit-1-2-is-now-open-and-our-rolling-format-is-live.md — Orbit 1.2 is now "open" and our "rolling format" is live
+- 2012-10-22-the-grim-phoenix-the-new-challenges-for-open-access.md — The Grim Phoenix: The New Challenges for Open Access
+- 2012-11-21-judging-the-safety-of-an-open-access-journal.md — Judging the Safety of an Open Access Journal
+- 2012-12-20-on-that-statement-by-history-journal-editors.md — On /That/ Statement by History Journal Editors
+- 2012-12-21-orbit-writing-around-pynchon-receives-funding-from-ludwig-maximilian-university-of-munich.md — Orbit: Writing Around Pynchon receives funding from Ludwig Maximilian University of Munich
+- 2013-01-09-call-for-participants-to-build-a-plos-style-model-for-the-humanities-and-social-sciences.md — Call For Participants to Build a PLOS-style Model for the Humanities and Social Sciences
+- 2013-01-13-an-update-on-the-plohss-project.md — An update on the PLOHSS project
+- 2013-01-13-on-opposition-to-any-apc-model.md — On Opposition to *any* APC model
+- 2013-01-16-qa-with-me-in-library-journal-why-we-need-a-public-library-of-the-humanities-and-social-sciences.md — Q&A with me in Library Journal: Why We Need a Public Library of the Humanities and Social Sciences
+- 2013-01-24-conference-paper-floats-like-a-butterfly-stings-like-a-finch-adorno-utopia-and-open-access-publishing-lincoln-university.md — Conference Paper: "Floats Like a Butterfly, Stings Like a Finch: Adorno, Utopia and Open Access Publishing" (Lincoln University)
+- 2013-03-09-house-of-commons-bis-inquiry-on-open-access-evidence-published.md — House of Commons BIS Inquiry on Open Access Evidence Published
+- 2013-03-10-open-access-neoliberalism-impact-and-the-privatisation-of-knowledge.md — Open Access, "Neoliberalism", "Impact" and the Privatisation of Knowledge
+- 2013-03-15-the-future-of-peer-review.md — The Future of Peer Review
+- 2013-03-25-futurity-books-marx-labour.md — Futurity, Books, Marx, Labour
+- 2013-04-15-historical-sources-for-pynchons-peter-pinguid-society-now-available-for-download-green-open-access.md — Historical Sources for Pynchon's Peter Pinguid Society now available for download (Green Open Access)
+- 2013-04-15-im-appearing-before-the-house-of-commons-bis-select-committee-into-open-access.md — I'm appearing before the House of Commons BIS Select Committee into Open Access
+- 2013-04-27-internationalisation-of-new-open-access-initiatives.md — Internationalisation of New Open Access Initiatives
+- 2013-07-01-publication-before-the-law-open-access-quality-control-and-the-future-of-peer-review.md — Publication: 'Before the law: open access, quality control and the future of peer review'
+- 2013-07-02-publication-guide-to-creative-commons-for-humanities-and-social-science-monograph-authors.md — Publication: 'Guide to Creative Commons for humanities and social science monograph authors'
+- 2013-07-05-digital-literatures-digital-democracies-digital-threats.md — Digital Literatures; Digital Democracies; Digital Threats?
+- 2013-07-07-evaluating-the-open-access-software-toolchain.md — Evaluating the Open Access software toolchain
+- 2013-07-17-speaking-at-sparc-japan.md — Speaking at SPARC Japan
+- 2013-07-21-joining-the-uk-national-monographs-strategy-expert-panel.md — Joining the UK National Monographs Strategy Expert Panel
+- 2013-07-27-hefce-the-state-of-open-access-in-the-uk-and-post-2014-ref.md — HEFCE, the State of Open Access in the UK and Post-2014 REF
+- 2013-08-02-has-the-licensing-battle-been-deferred-in-the-latest-hefce-document.md — Has "the licensing battle been deferred" in the latest HEFCE document?
+- 2013-08-23-reports-from-the-frontline-of-humanities-oa-in-japan.md — Reports from the frontline of humanities OA in Japan
+- 2013-08-27-sxsw-panel-vote-to-get-open-access-on-the-agenda.md — SXSW Panel: Vote to get Open Access on the agenda
+- 2013-08-29-full-response-to-science-metrix-report-on-gold-oa-citation-rates.md — Full response to Science-Metrix report on gold OA citation rates
+- 2013-09-01-what-is-it-like-to-publish-in-the-journal-neo-victorian-studies.md — What is it like to publish in the journal 'Neo-Victorian Studies'?
+- 2013-09-09-work-on-open-access-technology-get-a-masters-degree-in-computer-science-funded-place.md — Work on open access technology, get a masters degree in Computer Science: funded place
+- 2013-10-03-whats-open-got-to-do-with-it.md — What's "open" got to do with it?
+- 2013-10-21-how-ironic-are-the-open-access-irony-awards.md — How ironic are the open access irony awards?
+- 2013-11-16-three-reasons-why-i-think-journal-prestige-is-a-broken-system.md — Three reasons why I think journal prestige is a broken system
+- 2013-11-20-first-meeting-of-hefce-expert-reference-group-on-open-access-monographs.md — First meeting of HEFCE Expert Reference Group on Open Access Monographs
+- 2013-11-26-gov-and-rcuk-responses-to-open-access-inquiry-eradicating-non-disclosure-clauses.md — Gov and RCUK responses to Open Access Inquiry: eradicating non-disclosure clauses
+- 2013-12-20-publication-utopia-fading-taxonomies-freedom-and-dissent-in-open-access-publishing.md — Publication: Utopia Fading: Taxonomies, Freedom and Dissent in Open Access Publishing
+- 2014-02-10-hefce-ref2020-ir-deposit-and-embargoes.md — HEFCE (REF2020), IR deposit and embargoes
+- 2014-02-12-whats-it-like-to-publish-in-sage-open.md — What's it like to publish in SAGE Open?
+- 2014-02-25-predatory-publishers-not-just-oa-and-who-loses-out.md — Predatory Publishers: Not Just OA (and who loses out?)
+- 2014-03-31-hefces-post-2014-open-access-policy-the-short-what-you-need-to-know-version.md — HEFCE's Post-2014 Open Access Policy: the short "what you need to know" version
+- 2014-04-01-designing-an-open-source-oa-toolchain-for-books.md — Designing an open source OA toolchain for books
+- 2014-04-01-why-oa-mandates-dont-compromise-academic-freedom.md — Why OA mandates don't compromise academic freedom
+- 2014-04-07-funding-for-the-open-library-of-humanities-from-the-andrew-w-mellon-foundation.md — Funding for the Open Library of Humanities from the Andrew W. Mellon Foundation
+- 2014-04-16-alluvium-2nd-birthday-panel-event.md — Alluvium 2nd Birthday Panel Event
+- 2014-04-17-what-do-we-mean-by-the-standing-and-reach-of-research.md — What do we mean by the "standing" and "reach" of research?
+- 2014-04-19-openness-for-society-or-for-profit.md — Openness for society or for profit?
+- 2014-04-22-an-open-library-of-humanities-adeline-koh-interviews-me-at-the-chronicles-profhacker.md — An Open Library of Humanities? Adeline Koh interviews me at the Chronicle's ProfHacker
+- 2014-04-30-open-access-monographs-and-working-for-publishers-for-free.md — Open Access, Monographs and "working for publishers for free"
+- 2014-06-03-a-research-tool-i-want-but-probably-wont-get-cross-referenceintersect-bibliographies-of-books-and-articles.md — A research tool I want (but probably won't get): cross-reference/intersect bibliographies of books and articles
+- 2014-06-19-my-short-additional-response-to-the-hefce-metrics-consultation.md — My short additional response to the HEFCE metrics consultation
+- 2014-07-28-open-access-effective-measures-to-put-uk-research-online-under-threat.md — Open access: effective measures to put UK research online under threat?
+- 2014-08-05-publication-all-that-glisters-investigating-collective-funding-mechanisms-for-gold-open-access-in-humanities-disciplines.md — Publication: All That Glisters: Investigating Collective Funding Mechanisms for Gold Open Access in Humanities Disciplines
+- 2014-09-01-forthcoming-book-open-access-and-the-humanities-contexts-controversies-and-the-future-cambridge-up-2014.md — Forthcoming book: Open Access and the Humanities: Contexts, Controversies and the Future (Cambridge UP, 2014)
+- 2014-09-03-does-amazon-kill-a-revenue-channel-for-open-access-monographs.md — Does Amazon kill a revenue channel for open access monographs?
+- 2014-09-03-why-do-some-academic-publishers-think-they-should-charge-extra-for-more-liberal-licenses-cc-by.md — Why do some academic publishers think they should charge extra for more liberal licenses (CC BY)?
+- 2014-09-04-whats-so-moral-about-the-moral-rights-of-copyright-for-academics.md — What's so moral about the "moral rights" of copyright for academics?
+- 2014-09-05-things-academia-edu-academia-should-do-hint-work-with-green-oa.md — Things academia.edu (@academia) should do (hint: work with green OA)
+- 2014-09-08-university-presses-and-commercial-publishers-should-start-offering-green-oa-for-monographs.md — University Presses and Commercial Publishers should start offering green OA for monographs
+- 2014-09-13-is-open-access-a-solution-without-a-problem-for-the-humanities.md — Is open access a "solution without a problem" for the humanities?
+- 2014-09-15-academic-libraries-and-non-disclosure-clauses-institutions-should-internally-mandate-against-them.md — Academic Libraries and Non-Disclosure Clauses: institutions should internally mandate against them
+- 2014-10-04-pondering-a-solution-to-the-problem-of-learned-societies-and-the-transition-to-open-access.md — Pondering a solution to the problem of Learned Societies and the transition to open access
+- 2014-11-02-were-a-small-learned-society-charging-25-what-are-we-doing-wrong-oa-for-small-society-journals.md — We're a small learned society charging £25. What are we doing wrong?: OA for small society journals
+- 2014-11-05-discussingannotating-the-history-manifesto-and-the-open-access-effect.md — Discussing/annotating The History Manifesto and the open access effect(?)
+- 2014-11-22-above-and-beyond-good-and-bad-surpluses-in-academic-publishing.md — Above and beyond: “good” and “bad” surpluses in academic publishing
+- 2014-11-27-book-open-access-and-the-humanities.md — Book: Open Access and the Humanities
+- 2014-12-01-the-tension-between-dissemination-and-measurement.md — The tension between dissemination and measurement
+- 2014-12-10-gold-open-access-and-article-processing-charges.md — Gold Open Access and Article Processing Charges: Point of Risk and the Risk Pool
+- 2014-12-15-webinar-to-talk-open-access-with-mweller.md — Online p̶a̶r̶t̶y̶ webinar to talk open access with @mweller and me: Tuesday 16th December 3pm
+- 2015-01-15-metrics-in-the-humanities.md — Metrics in the Arts and Humanities
+- 2015-01-18-stephen-curry-stephen_curry-reviews-open-access-and-the-humanities.md — Stephen Curry (@Stephen_Curry) reviews Open Access and the Humanities
+- 2015-01-20-being-called-to-account-tax-considerations-for-uk-based-collectively-funded-open-access-publishers.md — Being called to account: tax considerations for UK-based collectively-funded open access publishers
+- 2015-01-22-the-hefce-report-on-open-access-monographs-some-reflections.md — The HEFCE report on Open Access Monographs: some reflections
+- 2015-01-31-on-open-access-books-and-double-dipping.md — On open-access books and “double dipping”
+- 2015-02-06-financing-for-free-driven-gold-open-access.md — Financing for fee-driven gold open access
+- 2015-02-14-how-can-elsevier-claim-that-its-oa-revenue-stream-is-separate-from-subscriptions-in-a-hybrid-environment.md — How can Elsevier claim that its OA revenue stream is separate from subscriptions in a hybrid environment?
+- 2015-02-27-ethics-of-a-journals-surplus.md — Ethics of a Journal's Surplus
+- 2015-03-05-publication-co-operating-for-gold-open-access-without-apcs.md — Publication: Co-operating for gold open access without APCs
+- 2015-04-05-publishers-serving-authors-or-readers.md — Publishers: Serving Authors or Readers?
+- 2015-04-23-what-does-the-academic-monograph-market-look-like-for-a-new-open-access-publisher.md — What does the academic monograph market look like for a new open-access publisher?
+- 2015-04-24-gearing-up-for-olh-in-the-uk-and-the-resolution-to-the-vat-question.md — Gearing up for OLH in the UK and the resolution to the VAT question
+- 2015-05-04-scalability-sustainability-and-market-responsiveness-in-oa.md — Scalability, Sustainability, Market Responsiveness and Mandates in OA
+- 2015-05-25-thoughts-in-response-to-michael-chibniks-editorial-on-oa-and-american-anthropologist.md — Thoughts in response to Michael Chibnik's editorial on OA and American Anthropologist
+- 2015-05-31-dissemination-and-assessment-open-access-reputation-and-economics.md — Dissemination and Assessment: Open Access, Reputation and Economics
+- 2015-05-31-flipping-journals-to-oa-while-supporting-existing-oa-publications.md — Flipping journals to OA while supporting existing OA publications
+- 2015-06-01-applications-open-for-opencon-2015.md — Applications now open for OpenCon 2015
+- 2015-06-17-apcs-and-uneven-distribution.md — APCs and Uneven Distribution
+- 2015-08-19-additional-contexts-for-reading-the-emergence-of-new-UK-university-presses.md — Additional contexts for reading the emergence of new UK university presses
+- 2015-08-22-researchers-are-altering-their-methods-because-of-uncertainty-over-creative-commons-licenses.md — Researchers are altering their methods because of uncertainty over Creative Commons licenses
+- 2015-09-06-a-final-example-to-show-that-misquotation-is-nothing-to-do-with-open-licensing.md — A final example to show that misquotation is nothing to do with open licensing
+- 2015-10-17-re-hosting-the-2014-british-academy-report-on-oa-journals-in-the-humanities-and-social-sciences.md — Re-hosting the 2014 British Academy report on OA Journals in the Humanities and Social Sciences
+- 2015-10-26-academiaedus-peer-review-experiments.md — Academia.edu’s peer-review experiments
+- 2015-11-05-clarifying-a-few-facts-for-elsevier-and-their-response-to-lingua.md — Clarifying a few facts for Elsevier and their response to Lingua
+- 2015-11-06-two-fundamental-challenges-for-a-transition-to-open-access-monographs.md — Two fundamental challenges for a transition to open-access monographs
+- 2015-11-17-some-numbers-on-book-processing-charge-scalability.md — Some numbers on book processing charge scalability
+- 2016-01-08-these-games-we-play-in-scholcomms.md — These games we play (in ScholComms)
+- 2016-02-05-why-handling-book-processing-charges-from-a-purchasing-library-is-hard.md — Why handling Book Processing Charges from a purchasing library is hard
+- 2016-02-09-an-old-tradition-and-a-new-technology-notes-on-why-open-access-remains-hard.md — An old tradition and a new technology: notes on why open access remains hard
+- 2016-02-15-accreditation-and-research-assessment-practices.md — Accreditation and research-assessment practices (on DORA and the Tickell review)
+- 2016-02-17-on-speed-and-open-access.md — On speed and open access
+- 2016-02-18-REF-consultation.md — The postponed REF consultation document
+- 2016-04-07-open-access-in-a-time-of-illness.md — Open access in a time of illness
+- 2016-04-27-embargoing-metadata.md — Embargoing metadata?
+- 2016-05-23-what-do-we-mean-when-we-call-scholarly-communications-platforms-sustainable.md — What do we mean when we call scholarly communications platforms 'sustainable'?
+- 2016-06-16-consortial-purchasing-and-downward-price-pressure-for-open-access.md — Consortial funding and downward price pressure for open access
+- 2016-08-16-arent-you-just-being-driven-by-technology.md — Aren't you just being driven by technology?
+- 2016-08-24-paying-it-forward-to-fund-scholarly-communications.md — 'Paying it forward' to fund scholarly communications?
+- 2016-08-26-why-open-book-publishers-for-my-next-book.md — Why Open Book Publishers for my next book?
+- 2016-10-03-a-few-initial-notes-on-david-golumbias-marxism-and-open-access-in-the-humanities.md — A few initial notes on David Golumbia's 'Marxism and Open Access in the Humanities'
+- 2016-10-18-more-on-my-experience-with-open-book-publishers.md — More on my experience with Open Book Publishers
+- 2016-11-04-arguments-counter-arguments-and-political-alignments-for-and-against-open-access.md — Some of the arguments, counter-arguments, and political alignments for and against open access
+- 2016-11-06-but-the-public-dont-need-access-to-humanities-research.md — 'But the public don't need access to humanities research'
+- 2016-11-18-questions-about-APC-free-models.md — Questions about APC-free models
+- 2016-11-24-what-we-mean-when-we-ask-whether-open-access-is-sustainable.md — What we mean when we ask whether open access is sustainable
+- 2016-12-03-referring-elsevierrelx-to-the-competition-and-markets-authority.md — Referring Elsevier/RELX to the Competition and Markets Authority
+- 2017-01-01-the-rivalrous-parts-of-non-rivalrous-digital-forms.md — The rivalrous parts of non-rivalrous digital forms
+- 2017-01-02-learned-societies-open-access-and-paying-for-disciplinary-goods.md — Learned societies in the humanities, open access, and paying for disciplinary goods
+- 2017-01-03-four-implementation-questions-about-open-access-and-monographs.md — Four implementation questions about open access and monographs
+- 2017-01-06-my-responses-to-the-consultation-on-the-second-research-excellence-framework.md — My responses to the Consultation on the Second Research Excellence Framework
+- 2017-02-13-how-much-does-it-cost-to-run-a-small-scholarly-publisher.md — How much does it cost to run a small scholarly publisher?
+- 2017-03-11-on-the-economics-of-flipping-subscription-journals.md — On the economics of flipping subscription journals
+- 2017-04-01-librarian-evaluation-of-non-apc-oa-models-in-the-age-of-open-access.md — Librarian Evaluation of Non-APC OA Models in the Age of Open Access
+- 2017-04-03-100-people-in-a-room.md — 100 people in a room: on the distributional effects of different open-access funding models
+- 2017-04-24-on-consortial-oa-funding-models-and-renewals.md — On consortial OA funding models and renewals
+- 2017-05-29-lingua-refund.md — If I still subscribed to Elsevier's Lingua, I'd demand a refund
+- 2017-06-23-dear-walt.md — Dear Walt
+- 2017-08-03-open-access-monographs-misrepresented.md — Open Access Monographs Misrepresented
+- 2017-08-21-cambridge-university-press-and-censorship.md — Cambridge University Press and Censorship
+- 2018-01-19-open-access-resources-and-evaluation-or-why-oa-journals-might-fare-badly-in-terms-of-usage.md — Open Access Resources and Evaluation; or: why OA journals might fare badly in terms of conventional usage
+- 2018-01-21-how-learned-societies-could-flip-to-oa-using-a-consortial-model.md — How Learned Societies Could Flip to Open Access, With No Author-Facing Charges, Using a Consortial Model
+- 2018-04-01-the-tender-document-for-the-european-commissions-open-access-platform-asks-for-an-awful-lot.md — The Tender Document for the European Commission's Open Access Platform Asks for an Awful Lot for Not Very Much
+- 2018-04-02-the-OA-mandate.md — On the OA "mandate" for books in the Third REF and the worry over trade books
+- 2018-06-03-transparency-agendas-are-used-to-legislate-against-consortial-open-access-models.md — Transparency agendas are being used to legislate against consortial open-access models even though it has good cost outcomes
+- 2018-07-01-where-we-are-with-the-oa-monograph-mandate-for-the-third-research-excellence-framework.md — Where we are with the OA monograph mandate for the Third Research Excellence Framework
+- 2018-10-03-on-the-practical-implementation-of-plan-s.md — On the practical implementation of Plan S
+- 2018-10-23-jottings-on-academic-freedom-and-plan-s.md — Some jottings on academic freedom and Plan S/open access
+- 2019-01-17-comments-on-the-interim-royal-historical-society-response-to-plan-s.md — Comments on the interim Royal Historical Society response to Plan S
+- 2019-01-21-my-draft-plan-s-implementation-guidance-feedback.md — My Draft Plan S Implementation Guidance Feedback
+- 2019-01-23-additional-points-in-my-plan-s-response.md — Additional points in my Plan S response
+- 2019-01-24-a-little-more-on-defamation-and-cc-by.md — A little more on defamation and CC BY
+- 2019-04-09-learned-societies-and-plan-s-report.md — Learned Societies Plan S report and a note on double dipping
+- 2019-05-21-text-of-digital-library-futures-keynote-cambridge-21st-may-2019.md — Text of Digital Library Futures keynote (Cambridge, 21st May 2019)
+- 2019-05-23-academic-prestige-and-institutional-solvency.md — Thoughts on academic prestige and institutional solvency
+- 2019-06-07-old-traditions-and-new-technologies.md — Old Traditions and New Technologies
+- 2019-07-24-the-british-academy-response-misrepresents-plan-s-and-oa.md — The British Academy response misrepresents Plan S and OA
+- 2019-09-04-when-infrastructural-support-clashes-with-dora-and-good-research-assessment-practices.md — When infrastructural support clashes with DORA and good research assessment practices
+- 2019-09-17-learned-societies-open-access-and-budgetary-cross-subsidy.md — Learned Societies, Open Access and Budgetary Cross-Subsidy
+- 2019-09-19-the-problems-of-unit-costs-per-article.md — The Problems of Unit Costs Per Article
+- 2019-09-22-a-thought-experiment-do-we-really-care-about-the-type-of-scholarly-publishing-entity.md — A thought experiment: do we really care about the type of scholarly publishing entity?
+- 2019-09-25-an-expensive-way-to-do-society-oa.md — An expensive but possible way to do Society OA
+- 2019-10-24-a-brief-note-on-the-rhs-plan-s-report.md — A brief note on the RHS Plan S report
+- 2019-12-02-the-first-oa-liberated-article-from-my-leverhulme-prize.md — The first OA liberated article from my Leverhulme Prize: The Critique of Metamodernism
+- 2019-12-04-the-second-oa-liberated-article-from-my-leverhulme-prize-natural-language-generation-and-authorial-labour.md — The second OA liberated article from my Leverhulme Prize: Natural language generation and authorial labour
+- 2020-01-12-the-tf-buyout-of-f1000-neutralises-the-plan-s-threat.md — The T&F buyout of F1000 neutralizes the Plan S threat infrastructures
+- 2020-02-13-key-points-from-the-ukri-open-access-review-consultation-document.md — Key Points from The UKRI Open Access Review Consultation Document
+- 2020-02-14-open-access-monographs-and-the-ref-after-ref-2021.md — Open access monographs and the REF-after-REF 2021
+- 2020-02-27-my-draft-response-to-the-ukri-oa-consultation.md — My draft response to the UKRI OA consultation
+- 2020-03-26-on-a-challenge-of-print-subsidy-for-oa.md — On a challenge of print subsidy for OA
+- 2020-04-07-close-reading-with-computers-is-now-open-access-at-stanford-university-press.md — Close Reading with Computers is now open access at Stanford University Press
+- 2020-04-09-on-springer-and-apcs-in-the-wild.md — On Springer and APCs 'in the wild'
+- 2020-04-09-subscribe-to-open-and-plan-s.md — Subscribe to Open and Plan S
+- 2020-04-19-notes-on-susan-leigh-stars-the-ethnography-of-infrastructure.md — Notes on Susan Leigh Star's 'The Ethnography of Infrastructure'
+- 2020-04-20-notes-on-stuart-lawsons-the-political-histories-of-uk-public-libraries-and-access-to-knowledge.md — On 'The Political Histories of UK Public Libraries and Access to Knowledge'
+- 2020-04-23-museums-continue-to-make-third-party-licensing-for-academic-scholarship-a-total-pain.md — Museums continue to make third-party licensing for academic scholarship a total pain
+- 2020-04-24-why-academic-bookstores.md — Why academic bookstores?
+- 2020-04-28-is-the-money-in-the-system.md — Is 'the money in the system'?
+- 2020-05-04-on-participatory-design-in-library-architecture.md — On participatory design in library architecture
+- 2020-05-09-on-critical-design-and-designing-for-provocation.md — On critical design and designing for provocation
+- 2020-05-09-transformative-agreements-in-the-time-of-covid-19.md — Transformative agreements in the time of COVID-19
+- 2020-05-14-on-business-model-generation.md — On business model generation for open access monographs
+- 2020-05-21-notes-on-raym-crow-2009-income-models-for-open-access-an-overview-of-current-practice-sparc.md — Notes on Raym Crow. (2009). Income Models for Open Access: An Overview of Current Practice. SPARC.
+- 2020-05-21-on-academic-journals-as-clubs.md — On academic journals as clubs
+- 2020-05-23-if-i-could-radically-reshape-copyright-law.md — If I could radically reshape copyright law for research
+- 2020-05-29-on-the-overhead-of-business-models.md — On the overhead of 'business models'
+- 2020-06-21-reading-the-democratisation-myth-and-thinking-through-decolonial-oa.md — Reading ‘The Democratisation Myth’ and thinking through decolonial OA
+- 2020-07-03-the-emergence-of-threat-infrastructures-plan-s-and-behavioral-change.md — The Emergence of Threat Infrastructures: Plan S and Behavioral Change
+- 2020-08-07-some-reflections-on-the-politics-of-open-peer-review.md — Some reflections on the politics of open peer review
+- 2020-10-21-on-reassembling-scholarly-communications.md — On Reassembling Scholarly Communications: A book about the ethics and egalitarianism of open access
+- 2020-10-22-backlist-to-the-future-a-new-business-model-for-university-presses-and-open-access-books.md — Backlist to the Future: a new business model for university presses and open-access books
+- 2021-01-08-on-the-costs-of-scholarly-communications-and-the-discourse-of-fairness.md — On the costs of scholarly communications and the discourse of 'fairness'
+- 2021-01-25-the-open-library-of-humanities-and-brexit-vat-position.md — The Open Library of Humanities and Brexit: VAT Position
+- 2021-02-17-the-publishers-associations-impact-assessment-on-oa.md — The Publisher's Association's impact assessment on OA is pretty much as you'd expect
+- 2021-03-02-oa-books-being-reprinted-under-cc-by-license.md — OA books being reprinted under CC BY license
+- 2021-04-13-questions-and-answers-from-uksg-on-opening-the-future.md — Questions and Answers from UKSG on Opening the Future
+- 2021-04-28-an-update-on-the-reprint-of-my-book.md — An update on the reprint of my book
+- 2021-05-03-coalition-s-endorsing-subscribe-to-open-is-a-great-start-we-need-the-same-thinking-about-books-from-the-beginning.md — cOAlition S endorsing Subscribe to Open is a great start. We need the same thinking about books from the beginning.
+- 2021-05-21-whats-happening-at-the-moment-with-open-access-books.md — What’s happening at the moment with open-access books?
+- 2021-09-23-the-proliferation-of-business-models-for-open-access-books.md — The proliferation of business models for open-access books
+- 2021-12-04-all-ten-of-my-books-now-are-or-will-be-when-published-open-access.md — All ten of my books now are (or will be when published) open access
+- 2021-12-06-what-is-the-relationship-between-legal-form-governance-and-ethics.md — What is the relationship between legal form, governance, and ethics?
+- 2021-12-16-on-informed-consent-and-open-licensing.md — On informed consent and open licensing
+- 2022-01-13-open-access-is-building-a-one-time-shared-international-library-collection.md — Open access is building a one-time, shared, international library collection
+- 2022-01-14-did-you-know-that-you-can-deposit-the-version-of-record-of-bloomsbury-academic-book-chapters-in-your-institutional-repository.md — Did you know that you can deposit the version of record of Bloomsbury Academic book chapters in your institutional repository?
+- 2022-01-31-notes-on-plan-s-for-shock.md — Notes on 'Plan S for Shock'
+- 2022-09-01-small-publishers-and-subscribe-to-open.md — Small publishers and subscribe to open
+- 2023-07-20-the-latest-ithaka-sr-draft-report-is-hugely-regressive.md — The latest Ithaka S+R draft report is hugely regressive
+- 2023-09-14-why-lever-press.md — Why Lever Press?
+- 2024-06-21-a-few-notes-on-the-ref-oa-mandate-for-books.md — Some personal notes on the REF OA mandate for books
+- 2024-08-15-on-dropping-the-ref-oa-mandate-for-books-this-time.md — On dropping the REF OA mandate for books (this time)
+- 2025-04-02-open-journals-collective-making-open-access-a-reality-at-scale.md — Open Journals Collective: Making Open Access a Reality at Scale
+- 2025-04-11-rage-against-the-machine-the-politics-of-open-access-large-language-models-and-the-reaction-against-open.md — Work in progress: 'Rage Against the Machine: The Politics of Open Access, Large Language Models, and the Reaction Against Open'
+- 2025-06-08-what-is-a-university-press.md — What is a University Press?
+- 2025-12-26-authorship-division-of-labour-material-form-thoughts-on-samuel-a-moores-publishing-beyond-the-market.md — Authorship, division of labour, material and digital form; thoughts on Samuel A. Moore's Publishing Beyond the Market
+- 2025-12-28-profit-cost-price-learned-societies-further-thoughts-on-samuel-a-moores-publishing-beyond-the-market.md — Profit, cost, price, learned societies; further thoughts on Samuel A. Moore's Publishing Beyond the Market
+- 2026-05-21-things-i-have-made-lower-decks-conference-and-quote-in-researchprofessional.md — Things I have made (KC IDMS in place, Lower Decks conference, and quote in ResearchProfessional)
+- 2026-06-03-what-is-actually-licensed-in-printdigital-dual-licensed-books.md — What is actually licensed in print/digital dual-licensed books?
+- 2026-06-04-more-on-dual-licensing-of-digital-oa-books.md — More on dual-licensing of digital OA books
+
+### Personal (75)
+
+- 2010-03-16-british-library-usage-made-clear.md — British Library usage made clear
+- 2010-06-22-my-navy-days-with-thomas-ruggles-pynchon.md — My navy days with Thomas Ruggles Pynchon
+- 2011-01-15-bbc-news-fathoming-financial-terms.md — BBC News: fathoming financial terms
+- 2011-01-27-ssl-enabled.md — SSL Enabled
+- 2011-03-11-the-gaz-pearce-award.md — The Gaz Pearce Award
+- 2011-04-03-exactly-half-way-through-my-phd-timetable.md — Exactly half-way through my PhD timetable
+- 2011-04-28-my-ahea-success-featured-in-rustle.md — My AHEA success featured in RUSTLE
+- 2011-05-16-photograph-and-interview-in-the-guardian.md — Photograph and Interview in the Guardian
+- 2011-06-13-more-pynchonalia.md — More Pynchonalia
+- 2011-07-06-a-thomas-pynchon-tattoo-recruit.md — A Thomas Pynchon tattoo recruit
+- 2011-12-07-support-war-child-and-see-laurent-gardnerbooka-shadeleftfield-live-april-2012.md — **Support War Child** and see Laurent Gardner/Booka Shade/Leftfield live April 2012
+- 2011-12-30-2012-year-of-the-phd-completion-guardian-higher-education-top-10-posts-of-2011.md — 2012: Year of the PhD Completion / Guardian Higher Education Top 10 posts of 2011
+- 2012-01-27-first-draft-of-my-ph-d-is-done.md — First draft of my Ph.D is done!
+- 2012-03-10-jake-wilson-alls-well-website-and-music-up.md — Jake Wilson: "All's Well". Website and Music up!
+- 2012-04-05-new-york-times-writes-about-my-ph-d-thesis-work.md — New York Times writes about my Ph.D. thesis work!
+- 2012-06-28-submitted-my-ph-d-in-memory-of-my-grandfather-john-gray-10021920-14062012.md — Submitted my Ph.D! (in memory of my grandfather, John Gray [10/02/1920 - 14/06/2012])
+- 2012-07-20-post-submission-weirdness.md — Post-Submission Weirdness
+- 2012-09-10-by-the-time-you-read-this-i-will-be.md — By the time you read this, I will be...
+- 2012-09-11-the-viva.md — The Viva
+- 2012-11-30-moving-on-from-sussex-and-joining-the-university-of-lincoln.md — Moving on from Sussex and joining the University of Lincoln
+- 2013-07-07-ethics.md — Ethics
+- 2013-12-29-my-2013-academic-year-in-review.md — My 2013 academic year in review
+- 2014-11-23-current-working-music.md — Current working music
+- 2014-11-26-a-consumerist-rant-whats-wrong-with-banks.md — A consumerist rant: what's wrong with banks
+- 2014-12-16-my-2014-round-up.md — My 2014 round-up
+- 2015-05-01-moving-to-birkbeck.md — Moving to Birkbeck
+- 2015-12-17-my-2015-academic-year-in-review.md — My 2015 academic year in review
+- 2016-02-12-professor-of-literature-technology-and-publishing.md — Professor of Literature, Technology and Publishing
+- 2016-02-13-on-ten-years-of-chronic-illness.md — On ten years of chronic illness
+- 2016-03-28-i-am-currently-off-work-having-suffered-cerebral-vasculitis-and-a-stroke.md — I have suffered from an episode of cerebral vasculitis and a stroke
+- 2016-12-16-my-2016-academic-year-in-review.md — My 2016 academic year in review
+- 2017-11-20-my-autoimmune-diseases-are-attacking-my-ears-and-i-am-losing-my-hearing.md — My autoimmune diseases are attacking my ears and I am losing my hearing
+- 2017-12-15-my-2017-academic-year-in-review.md — My 2017 academic year in review
+- 2018-12-14-my-2018-in-review.md — My 2018 in review
+- 2019-03-29-on-music-tici-taci-and-a-new-release.md — On music, life, Tici Taci, and a new release
+- 2019-05-28-how-do-you-describe-this-kind-of-illness.md — How do you describe this kind of illness?
+- 2019-06-11-from-mars-and-back-to-close-reading-with-computers.md — From Mars and Back to Close Reading with Computers
+- 2019-10-04-immunity-problems.md — Immunity problems
+- 2019-10-14-i-have-won-the-2019-philip-leverhulme-prizei-have-won-the-2019-philip-leverhulme-prizei-have-won-the-2019-philip-leverhulme-prize.md — I have won the 2019 Philip Leverhulme Prize
+- 2019-12-14-my-2019-in-review.md — My 2019 in review
+- 2020-03-29-books-im-working-on.md — Academic books I'm writing
+- 2020-12-16-my-2020-year-in-review.md — My 2020 year in review
+- 2020-12-29-resolutions-and-the-good-parts-of-academia.md — Resolutions, and The Good, The Bad, and the Ugly Parts of Academia
+- 2021-01-07-2021-is-not-looking-much-better.md — Attempted realistic observations on 2021
+- 2021-01-18-how-much-optimism.md — How much optimism?
+- 2021-12-04-all-ten-of-my-books-now-are-or-will-be-when-published-open-access.md — All ten of my books now are (or will be when published) open access
+- 2021-12-09-my-2021-year-in-review.md — My 2021 year in review
+- 2021-12-11-on-life-death-dignity-and-dignitas.md — On life, death, dignity, and Dignitas
+- 2022-01-01-last-year-i-spent-506-hours-answering-emails-how-i-hope-to-do-less-of-it-this-year.md — Last year I spent 506 hours answering emails. How I hope to do less of it this year.
+- 2022-01-02-aiming-for-downtime.md — Aiming for downtime
+- 2022-01-03-input-output.md — Input-Output
+- 2022-08-01-a-glimmer-of-hope.md — A glimmer of hope
+- 2022-08-26-moving-on-my-infrastructural-turn.md — Moving On: My Infrastructural Turn
+- 2022-12-04-my-2022-year-in-review.md — My 2022 year in review
+- 2023-05-07-on-pain-and-subjectivity.md — On pain and subjectivity
+- 2023-07-24-sunsetting-martinevecom.md — Sunsetting martineve.com
+- 2023-09-06-new-wheels.md — New wheels
+- 2023-09-08-points-mean-prizes.md — Points mean prizes
+- 2023-12-11-my-2023-year-in-review.md — My 2023 year in review
+- 2023-12-13-a-year-of-looking-in-on-academia.md — A year of looking in on academia
+- 2024-01-14-on-rheumatoid-arthritis-and-the-things-most-people-dont-know-about-it.md — On Rheumatoid Arthritis and the Things Most People Don't Know About It
+- 2024-02-21-betting-against-the-future.md — Betting against the future
+- 2024-06-14-how-long-have-i-got-doc.md — How long have I got, doc?
+- 2024-09-12-rollercoaster-days.md — Rollercoaster days
+- 2024-10-07-why-its-worth-avoiding-as-many-virusescommon-colds-as-possible-mine-led-to-permanent-disability.md — Why it's worth avoiding as many viruses/common colds as possible: mine led to permanent disability
+- 2024-12-13-my-academic-year-in-review.md — My academic year in review
+- 2025-12-16-my-2025-end-of-year-reading-and-writing-roundup.md — My 2025 end-of-year reading and writing roundup
+- 2025-12-21-2000-christmas-trees-sold-by-the-14th-december.md — 2,000 Christmas trees sold by the 14th December
+- 2026-01-02-who-knows-where-the-time-goes.md — Who Knows Where the Time Goes?
+- 2026-01-23-its-been-ten-years.md — It's been ten years...
+- 2026-04-17-thinking-about-dogs.md — Thinking About Dogs
+- 2026-04-19-the-necessary-pain-involved-in-blogging-if-you-want-your-work-to-be-preserved-beyond-your-lifespan.md — The Necessary Pain Involved in Blogging (if you want your work to be preserved beyond your lifespan)
+- 2026-08-02-the-extended-interviews-on-ito-the-journey-looking-back-ati-star-trek-voyager.md — The extended interviews on <i>To the Journey: Looking Back at</i> Star Trek: Voyager
+- 2026-08-11-admission-meds-vascular-access.md — Admission, meds, vascular access...
+- 2026-08-17-feed-infection-control-fluid-overload.md — Feed, Infection Control, Fluid Overload
+
+### Philosophy (61)
+
+- 2010-07-02-some-brief-thoughts-on-slavoj-zizek-at-lse.md — Some brief thoughts on Slavoj Žižek at LSE
+- 2010-11-01-problematic-indexing-in-paul-rabinows-edited-foucault-volume-ethics.md — Problematic indexing in Paul Rabinow's edited Foucault volume, "Ethics"
+- 2010-11-02-a-few-notes-on-some-of-jacques-derridas-writings.md — A few notes on some of Jacques Derrida's writings
+- 2010-12-01-alternativecomplementary-medicine-and-mass-anecdotal-evidence-as-theological-in-structure.md — Alternative/Complementary Medicine and Mass Anecdotal Evidence as Theological in Structure
+- 2011-02-03-the-big-society-and-mythical-structure.md — The Big Society and Mythical Structure
+- 2011-02-04-judith-butler-at-sussex-on-arendt-cohabitation-and-the-dispersion-of-sovereignty.md — Judith Butler at Sussex on Arendt, Cohabitation, and the Dispersion of Sovereignty
+- 2011-02-18-prisoner-rights-overcriminalisation-and-reform-in-democracy.md — Prisoner Rights, Overcriminalisation and Reform in Democracy
+- 2011-03-04-in-dubio-contra-reum-a-definition.md — In Dubio Contra Reum: a definition
+- 2011-03-17-conference-paper-the-f-word-2011-04-01-university-of-durham.md — Conference Paper: "The F Word", 2011-04-01, University of Durham
+- 2011-04-02-my-recent-work-at-berfrois.md — My recent work at Berfrois
+- 2011-04-05-conference-paper-e2-80-9cthe-drivers-whip-is-an-evil-thing-e2-80-9d-enlightenment-as-mass-enslavement-in-the-works-of-thomas-pynchon-2011-06-17-university-of-portsmouth.md — Conference paper: “The Driver's Whip is an evil thing”: Enlightenment as Mass Enslavement in the Works of Thomas Pynchon, 2011-06-17, University of Portsmouth
+- 2011-04-08-speaking-plainly.md — Speaking plainly
+- 2011-06-01-william-gibson-cory-doctorow-diane-coyle-and-mark-stevenson-at-the-british-library.md — William Gibson, Cory Doctorow, Diane Coyle and Mark Stevenson at the British Library
+- 2011-06-16-conference-paper-geo-specificity-of-enlightenment-in-mason-dixon-2011-06-24-university-of-glasgow.md — Conference paper: Geo-specificity of Enlightenment in Mason & Dixon, 2011-06-24, University of Glasgow
+- 2011-06-20-cfp-excursions-journal-states-of-emergence-states-of-emergency.md — CFP: Excursions Journal: States of Emergence, States of Emergency
+- 2011-09-06-adorno-terminology-intentio-recta-and-intention-obliqua.md — Adorno terminology: intentio recta and intention obliqua
+- 2011-09-30-adorno-benjamin-and-wittgenstein-knowledge-is-not-property.md — Adorno, Benjamin and Wittgenstein (!): knowledge is not property
+- 2011-10-15-happy-85th-birthday-michel-foucault.md — Happy 85th Birthday, Michel Foucault
+- 2011-10-21-reading-the-my-marxist-feminist-dialectic-brings-all-the-boys-to-the-yard-t-shirt.md — Reading the "My Marxist Feminist Dialectic Brings all the Boys to the Yard" T-Shirt
+- 2011-12-02-dialectic-of-enlightenment-2011.md — Dialectic of Enlightenment, 2011
+- 2012-01-06-adorno-terminology-ce-ac-ce-bb-ce-bb-ce-bf-ce-b3-ce-ad-ce-bd-ce-bf-cf-82.md — Adorno terminology: άλλο γένος
+- 2012-01-06-adorno-terminology-cf-87-cf-89-cf-81-ce-b9-cf-83-ce-bc-e1-bd-b9-cf-82-chorismos.md — Adorno terminology: χωρισμός / chorismos
+- 2012-01-07-adorno-greek-lexicon-project.md — Adorno Greek Lexicon project
+- 2012-01-07-adorno-terminology-ce-b8-ce-ad-cf-83-ce-b5-ce-b9.md — Adorno terminology: θέσει
+- 2012-01-07-adorno-terminology-ce-ba-ce-b1-ce-b9-cf-81-ce-bf-cf-82.md — Adorno terminology: καιρος
+- 2012-01-09-adorno-terminology-ce-b7-ce-b4-ce-bf-ce-bd-ce-b7.md — Adorno terminology: ηδονη
+- 2012-01-10-adorno-terminology-ce-b5-cf-80-ce-bf-cf-87-ce-b7-misprint-of-ce-b1-cf-80-ce-bf-cf-87-ce-ae.md — Adorno terminology: εποχη [and lengthy textual note]
+- 2012-01-11-adnorno-terminology-ce-b8-ce-b1-cf-85-ce-bc-ce-b1-ce-b6-ce-b5-ce-b9v.md — Adnorno terminology: θαυμαζειv
+- 2012-01-11-adorno-terminology-ce-ba-ce-b1-cf-84-ce-b5-ce-be-ce-bf-cf-87-ce-b7-ce-bd.md — Adorno terminology: κατ εξοχην
+- 2012-01-11-adorno-terminology-e1-bc-80-ce-b3-cf-8e-ce-bd-agon.md — Adorno terminology: ἀγών (agon)
+- 2012-01-13-adorno-terminology-cf-84-ce-ad-cf-87-ce-bd-ce-b7.md — Adorno terminology: τέχνη
+- 2012-01-13-adorno-terminology-cf-84-ce-bf-ce-b4-ce-b5-cf-84-ce-b9.md — Adorno terminology: τοδε τι
+- 2012-01-17-adorno-terminology-ce-b6-e1-bf-b7-ce-bf-ce-bd-cf-80-ce-bf-ce-bb-ce-b9-cf-84-ce-b9-ce-ba-cf-8c-ce-bd.md — Adorno terminology: ζῷον πολιτικόν
+- 2012-01-18-a-complete-list-of-the-ancient-greek-terms-in-adornos-aesthetic-theory.md — A Complete List of the Ancient Greek Terms in Adorno's Aesthetic Theory
+- 2012-01-26-adorno-terminology-ce-b1-cf-81-cf-87-ce-b1-ce-af.md — Adorno terminology: αρχαί
+- 2012-03-14-conference-paper-thomas-pynchon-materialism-and-negative-dialectics-28-29-may-2012-northumbria-university.md — Conference Paper: Thomas Pynchon, Materialism and Negative Dialectics, 28-29 May, 2012, Northumbria University
+- 2012-04-05-new-york-times-writes-about-my-ph-d-thesis-work.md — New York Times writes about my Ph.D. thesis work!
+- 2012-05-19-thinking-feeling-conference-at-the-university-of-sussex.md — Thinking Feeling Conference at the University of Sussex
+- 2012-06-12-another-adorno-against-wittgenstein-moment.md — Another Adorno-against-Wittgenstein moment
+- 2012-09-02-publication-whose-line-is-it-anyway-enlightenment-revolution-and-ipseic-ethics-in-the-works-of-thomas-pynchon-textual-practice-26-5.md — Publication: 'Whose line is it anyway?: enlightenment, revolution, and ipseic ethics in the works of Thomas Pynchon', Textual Practice, 26, 5
+- 2012-09-04-karl-marx-that-sly-old-racist.md — "Karl Marx, that sly old racist"
+- 2012-09-22-on-the-impurity-of-the-humanities-and-critical-university-studies.md — On the Impurity of the Humanities and Critical University Studies
+- 2012-10-26-notes-on-adornos-the-essay-as-form.md — Notes on Adorno's "The Essay as Form"
+- 2012-11-29-the-clause-model-of-adornos-dialectical-sentences.md — The Clause Model of Adorno's Dialectical Sentences
+- 2013-01-24-conference-paper-floats-like-a-butterfly-stings-like-a-finch-adorno-utopia-and-open-access-publishing-lincoln-university.md — Conference Paper: "Floats Like a Butterfly, Stings Like a Finch: Adorno, Utopia and Open Access Publishing" (Lincoln University)
+- 2013-10-22-my-forthcoming-book-pynchon-and-philosophy-wittgenstein-foucault-and-adorno-palgrave-2014.md — My forthcoming book: Pynchon and Philosophy: Wittgenstein, Foucault and Adorno (Palgrave, 2014)
+- 2014-02-20-publication-pynchon-and-wittgenstein-ethics-relativism-and-philosophical-methodology.md — Publication: Pynchon and Wittgenstein: Ethics, Relativism and Philosophical Methodology
+- 2014-04-10-book-pynchon-and-philosophy-wittgenstein-foucault-and-adorno.md — Book: Pynchon and Philosophy: Wittgenstein, Foucault and Adorno
+- 2014-09-05-ranciere-misreading-kautsky.md — Rancière misreading Kautsky?
+- 2015-01-19-foucauldian-methodologies-for-considering-emerging-archives.md — Foucauldian methodologies for considering emerging archives?
+- 2015-10-11-quasi-objects.md — Quasi-Objects
+- 2016-02-26-the-critique-of-utopia.md — The critique of utopia
+- 2016-05-19-reading-potter-stewart.md — Reading Potter Stewart on recognition
+- 2017-01-01-the-rivalrous-parts-of-non-rivalrous-digital-forms.md — The rivalrous parts of non-rivalrous digital forms
+- 2017-05-01-a-note-on-moral-relativism-and-unthinkable-liberalism.md — A note on moral relativism and unthinkable liberalism
+- 2017-05-12-two-types-of-post-critique.md — Two types of post-critique
+- 2020-05-09-on-critical-design-and-designing-for-provocation.md — On critical design and designing for provocation
+- 2021-04-08-software-as-a-service-and-commodity-fetishism.md — Subscriptions for software and commodity fetishism
+- 2021-07-23-its-time-we-dropped-agamben.md — It's time we dropped Agamben
+- 2021-08-20-a-bibliography-on-the-interestingim-interested-in.md — A Bibliography on "The Interesting"/"I'm Interested In"
+- 2021-12-10-what-if-downloads-are-not-actually-non-rivalrous.md — What if downloads are not actually non-rivalrous?
+
+### Piracy and Shadow Libraries (9)
+
+- 2012-08-05-e-books-copyright-infringement-theft-materiality-and-the-virtual.md — E-Books: Copyright Infringement, Theft, Materiality and the Virtual
+- 2019-08-03-elsevier-threatens-others-for-linking-to-sci-hub-but-does-it-itself.md — Elsevier threatens others for linking to Sci-Hub but does so itself
+- 2020-10-10-an-update-on-my-warez-book.md — An update on my Warez book: a book about the artforms of the high-level piracy scene
+- 2020-11-13-on-the-ethics-of-studying-pirate-cultures.md — On the ethics of studying pirate cultures
+- 2021-01-03-i-have-submitted-the-warez-book.md — I have submitted the Warez book
+- 2021-11-20-citing-pirate-artifacts.md — Citing Pirate Artifacts
+- 2021-12-15-today-is-the-publication-of-my-eighth-book-warez-the-infrastructure-and-aesthetics-of-piracy.md — Today marks the publication of my eighth book: Warez: The Infrastructure and Aesthetics of Piracy
+- 2025-03-21-a-critical-bibliography-about-libgen-the-pirate-site-that-meta-used-for-ai-training.md — A critical bibliography about LibGen, the pirate site that Meta used for AI training
+- 2026-01-01-the-lineages-and-inheritances-of-shadow-libraries-and-their-documentation.md — The Lineages and Inheritances of Shadow Libraries and their Documentation
+
+### Politics (58)
+
+- 2007-05-15-amendments-to-the-british-computer-misuse-act.md — Amendments to the British Computer Misuse Act
+- 2010-04-28-ousu-freedom-of-information-requests.md — OUSU Freedom of Information requests
+- 2010-11-09-demo-2010.md — DEMO 2010
+- 2010-11-22-vince-cables-orwell-esque-doublethink.md — Vince Cable's Orwell-esque doublethink
+- 2010-12-03-wikileaks-is-about-capitalist-paradigm-shift-not-single-government-overthrow.md — Wikileaks is about capitalist paradigm shift, not single government overthrow
+- 2010-12-14-our-duty-to-minorities.md — Our Duty to Minorities
+- 2010-12-15-the-net-was-never-free-from-commercial-interest-its-not-a-new-threat-to-democratic-speech.md — The 'net was never free from commercial interest; it's not a "new" threat to democratic speech
+- 2011-02-03-the-big-society-and-mythical-structure.md — The Big Society and Mythical Structure
+- 2011-02-07-david-leigh-and-luke-hardings-wikileaks-inside-julian-assanges-war-on-secrecy.md — David Leigh and Luke Harding's WikiLeaks: Inside Julian Assange's War on Secrecy
+- 2011-02-14-the-analytic-of-patriotism-on-greg-mitchells-the-age-of-wikileaks.md — The Analytic of Patriotism: On Greg Mitchell's The Age of WikiLeaks
+- 2011-02-18-prisoner-rights-overcriminalisation-and-reform-in-democracy.md — Prisoner Rights, Overcriminalisation and Reform in Democracy
+- 2011-02-22-on-daniel-domscheit-bergs-inside-wikileaks-my-time-with-julian-assange-at-the-worlds-most-dangerous-website.md — On Daniel Domscheit-Berg's "Inside WikiLeaks: My Time with Julian Assange at the World's Most Dangerous Website"
+- 2011-05-20-osama-bin-laden-and-nuremberg-precedent.md — Osama Bin Laden and Nuremberg Precedent
+- 2011-05-25-the-rhetoric-of-fighting-illness-and-disability.md — The Rhetoric of "Fighting" Illness and Disability
+- 2011-09-08-troy-davis-innocence-and-execution-if-this-is-a-man.md — Troy Davis: Innocence and Execution; If This is a Man
+- 2011-09-22-words-in-memory-of-troy-davis.md — Words in memory of Troy Davis
+- 2011-10-12-the-werritty-feasel.md — The Werritty Feasel
+- 2011-11-02-complaint-over-the-closure-of-the-british-library-to-accomodate-a-visit-from-the-queen.md — Complaint over the closure of the British Library to accomodate a visit from the queen
+- 2011-12-02-dialectic-of-enlightenment-2011.md — Dialectic of Enlightenment, 2011
+- 2011-12-02-global-and-historical-reasons-why-it-is-utterly-innapropriate-even-to-joke-about-killing-trade-unionists.md — Global and historical reasons why it is utterly innapropriate, even to joke, about killing trade unionists
+- 2012-03-09-for-attn-david-cameron-and-andrew-lansley.md — For ATTN: David Cameron and Andrew Lansley
+- 2012-06-25-our-epistemic-gap-actually-we-need-to-re-think-unemployment-underemployment-and-benefits-entirely.md — Our epistemic gap: actually, we need to re-think "unemployment", "underemployment" and "benefits" entirely
+- 2012-08-23-the-real-problem-with-this-mode-of-curbing-grade-inflation.md — The real problem with this mode of "curbing grade inflation"
+- 2012-11-12-on-freedom-of-speech.md — On Freedom of Speech
+- 2013-07-07-ethics.md — Ethics
+- 2013-08-28-the-democracy-we-do-not-want.md — The Democracy We Do Not Want
+- 2014-05-05-the-tax-his-land-meme-and-its-discontents-me.md — The "tax his land" meme and its discontents (me)
+- 2014-07-03-my-personal-response-to-the-ttip-consultation.md — My personal response to the TTIP consultation
+- 2014-08-27-the-ice-bucket-challenge-and-the-waste-of-water-critique.md — The Ice Bucket challenge and the "waste of water" critique
+- 2014-11-13-because-we-care-about-our-planet.md — "Because we care about our planet..."
+- 2015-01-20-a-web-of-rights-roundtable-and-conversation-at-the-british-library-feb-19th-2015-bldigital.md — "A Web of Rights": Roundtable and Conversation at the British Library (Feb 19th, 2015) #bldigital
+- 2015-05-10-some-thoughts-on-repealing-the-human-rights-act.md — Some thoughts on repealing the Human Rights Act
+- 2015-09-18-its-not-about-stifling-academic-freedom.md — 'It's not about stifling academic freedom'
+- 2015-11-21-my-response-to-the-nhs-consultation.md — My response to the NHS consultation
+- 2015-12-28-internal-review-of-foi201525797.md — Internal review of FOI2015/25797
+- 2016-02-23-David-Willetts.md — Evolving notes on the political philosophy of David Willetts
+- 2016-03-01-it-looks-unlikely-that-universities-are-going-to-get-out-of-the-freedom-of-information-act.md — It looks unlikely that UK universities are going to get out of the Freedom of Information Act
+- 2016-05-04-on-neural-networks-and-health-data-privacy.md — On neural networks and health data privacy
+- 2016-05-04-what-elsevier-and-the-minister-for-higher-education-in-the-uk-jo-johnson-met-about.md — Transcript of meeting between Elsevier and the Minister for Higher Education in the UK, Jo Johnson
+- 2017-05-01-a-note-on-moral-relativism-and-unthinkable-liberalism.md — A note on moral relativism and unthinkable liberalism
+- 2017-08-21-cambridge-university-press-and-censorship.md — Cambridge University Press and Censorship
+- 2018-02-06-who-was-responsible-for-the-toby-young-ofs-debacle.md — Who was actually responsible for the Toby Young OfS debacle?
+- 2020-04-20-notes-on-stuart-lawsons-the-political-histories-of-uk-public-libraries-and-access-to-knowledge.md — On 'The Political Histories of UK Public Libraries and Access to Knowledge'
+- 2020-05-28-notes-on-vulnerability-and-covid-19.md — Notes on vulnerability and COVID-19
+- 2020-06-24-on-the-easing-of-shielding.md — The easing of shielding: the UK government's abrogation of responsibility
+- 2021-01-21-on-healthcare-economics-and-valuing-lives.md — On healthcare economics and valuing lives
+- 2021-03-18-shielding-is-being-eased-again-heres-why-this-is-so-frightening.md — Shielding is being eased again. Here's why this is so frightening.
+- 2021-07-05-abandoning-restrictions-should-not-mean-abandoning-the-vulnerable-we-need-policies-to-help-those-who-remain-at-risk.md — Abandoning restrictions should not mean abandoning the vulnerable. We need policies to help those who remain at risk.
+- 2021-07-23-its-time-we-dropped-agamben.md — It's time we dropped Agamben
+- 2022-04-28-the-current-state-of-evusheld-tixagevimabcilgavimab-in-the-uk.md — The Current State of Evusheld (tixagevimab/cilgavimab) in the UK
+- 2022-05-05-how-you-can-help-people-still-shielding.md — How YOU can help people still shielding
+- 2022-08-01-a-glimmer-of-hope.md — A glimmer of hope
+- 2022-10-10-the-politics-of-peer-review-and-preprints-in-the-real-world.md — The politics of peer review and preprints in the real world
+- 2022-10-12-the-uks-department-for-health-and-preprints.md — The UK's department for health and preprints
+- 2022-11-02-i-had-evusheld-in-the-uk.md — I had Evusheld privately in the UK
+- 2023-12-07-land-of-hope-and-tolerance.md — Land of hope and tolerance
+- 2024-10-14-my-conflicted-thoughts-on-the-uks-assisted-dying-bill.md — My conflicted thoughts on the UK's assisted dying bill
+- 2026-03-20-the-nhs-can-never-fail-there-is-no-circumstance-where-it-would-be-deemed-overwhelmed.md — The NHS Can Never Fail: There Is No Circumstance Where It Would Be Deemed Overwhelmed
+
+### Programming (101)
+
+- 2007-05-25-dotnetids.md — dotnetids
+- 2007-06-15-netids-can-now-detect-fragmented-xss.md — .NETIDS can now detect fragmented XSS
+- 2007-06-19-netids-v-0-1-0-0-released.md — .NETIDS v.0.1.0.0 released
+- 2007-06-25-c-mysql-dataexecutor-class.md — C# MySql DataExecutor class
+- 2007-06-26-c-dataexecutor-class-available.md — C# DataExecutor class available
+- 2007-06-26-httponly-cookies-in-net-2-0.md — HttpOnly cookies in .NET 2.0
+- 2007-06-26-netids-v-0-1-1-0-released.md — .NETIDS v.0.1.1.0 released
+- 2007-07-05-javascript-internal-numerical-representations.md — JavaScript internal numerical representations
+- 2007-11-09-xss-for-the-common-good-greasemousey.md — XSS for the common good - GreaseMousey
+- 2007-11-17-ie7-javascript-modify-the-dom-without-crashing-the-browser.md — IE7 Javascript - modify the DOM without crashing the browser
+- 2008-02-02-an-xml-based-xss-poc-platform.md — An XML based XSS PoC platform
+- 2008-02-23-wp-aspxrewriter-alpha-test.md — wp-aspxrewriter alpha test
+- 2008-04-06-binding-to-radiobuttons-in-net-windows-forms.md — Binding to RadioButtons in .NET Windows Forms
+- 2008-07-06-c-memorymanagement-class.md — C# MemoryManagement Class
+- 2008-07-23-building-a-robust-ssl-crc-verified-serverclient-solution-in-the-net-framework-with-c.md — Building a robust, SSL, CRC-Verified server/client solution in the .NET Framework with C#
+- 2008-07-30-expanding-a-treeview-to-a-specific-node-in-wpf.md — Expanding a treeview to a specific node in WPF
+- 2008-07-31-c-dataexecutor-class-again.md — C# DataExecutor class again
+- 2008-09-17-creating-an-irc-frontback-end-from-a-c-web-application.md — Creating an IRC front/back-end from a C# web application
+- 2009-02-01-ftp-url-fastsnap-parsing-in-net.md — FTP URL FastSnap Parsing in .NET
+- 2010-03-02-sshsplit-a-dynamic-tunnel-multiplexer.md — sshsplit: a dynamic tunnel multiplexer
+- 2010-03-11-sshsplit-featured.md — sshsplit featured
+- 2010-04-26-poc-code-for-facebook-friend-profile-gatherer.md — PoC Code for Facebook Friend Profile Gatherer
+- 2010-11-14-online-crossword-helper-httpana-grammatic-org.md — Online crossword helper: http://ana.grammatic.org
+- 2010-11-19-rockaby-text-annotation-software-gpl-alpha-announcement.md — Rockaby: text annotation software [GPL, alpha, announcement]
+- 2010-12-02-rockaby-refactoring-and-abstraction.md — Rockaby refactoring and abstraction
+- 2010-12-13-djiscography-a-django-based-discography-generator.md — Djiscography: a Django-based discography generator
+- 2010-12-20-mendeley-android-client-first-preview-and-oauth-problem.md — Mendeley Android client; first preview and OAuth problem
+- 2011-01-04-mendeley-android-client-progress-w-video-source-and-apk.md — Mendeley Android Client Progress (w/ Video, Source and APK!)
+- 2011-01-04-oauth-for-mendeley-on-android-solved-and-a-bug.md — OAuth for Mendeley on Android: solved and a bug
+- 2011-01-05-mendley-android-client-now-implemented-as-a-user-account-with-sync.md — Mendeley Android Client: now implemented as a user account with sync
+- 2011-01-08-automated-cpanel-backups-with-scp.md — Automated CPanel Backups with SCP
+- 2011-01-09-android-rom-update-utility-extractor-for-linux.md — Android Rom Update Utility extractor for Linux
+- 2011-01-11-mendeley-for-android-screenshot-of-collection-display.md — Mendeley for Android: screenshot of collection display
+- 2011-01-14-getting-a-custom-sync-service-and-adapter-to-show-up-under-data-and-synchronization-on-android.md — Getting a custom Sync Service and Adapter to show up under "Data and Synchronization" on Android
+- 2011-01-19-rockaby-mission-statement-and-implementation-plans.md — Rockaby: Mission Statement and Implementation Plans
+- 2011-01-24-mendeley-for-android-progress-update.md — Mendeley for Android: Progress update
+- 2011-02-21-mendeley-for-android-update.md — Mendeley for Android Update
+- 2011-04-21-crossword-helper-for-android.md — Crossword Helper for Android
+- 2011-08-26-satchmo-payment-modules.md — Satchmo payment modules
+- 2011-09-14-publishing-articles-in-pdf-via-xmlxslt-using-open-journal-systems-2-3-6.md — Publishing articles in PDF via XML/XSLT using Open Journal Systems 2.3.6
+- 2011-09-17-writing-a-plugin-for-open-journal-systems-part-1.md — Writing a plugin for Open Journal Systems: Part 1
+- 2011-09-25-writing-a-plugin-for-open-journal-systems-part-2.md — Writing a plugin for Open Journal Systems: Part 2
+- 2011-11-19-netids-development-restarted-participants-wanted.md — .NETIDS development restarted. Participants wanted.
+- 2011-12-16-mexmlgalley-now-supporting-image-insertion-ojs-xml-to-pdf.md — meXmlGalley now supporting image insertion (OJS: XML to PDF)
+- 2011-12-30-account-aggregation-with-uk-banks-and-a-free-software-lloyds-tsb-scraper.md — Account aggregation with UK banks and a free software Lloyds TSB scraper
+- 2012-04-11-starting-a-digital-humanities-project-epilog.md — Starting a Digital Humanities Project: epiLog
+- 2013-03-26-crossref-dois-and-preparing-for-future-assignment.md — CrossRef, DOIs and Preparing for Future Assignment
+- 2013-05-12-getting-free_cite-running-on-your-own-server.md — Getting free_cite running on your own server
+- 2014-01-06-introducing-eprintscv-a-python-script-to-create-an-academic-web-cv-from-your-eprints-record.md — Introducing eprintsCV: a python script to create an academic web CV from your eprints record
+- 2014-01-13-handling-the-absence-of-a-newline-break-tag-in-jats.md — Handling the absence of a (newline) break tag in JATS
+- 2014-02-24-modularizing-the-metypeset-typesetter-for-the-user-interface-phase.md — Modularizing the meTypeset typesetter for the user interface phase
+- 2014-02-26-mathml-support-in-the-metypeset-typesetter.md — MathML support in the meTypeset typesetter
+- 2014-02-27-debugging-metypeset-using-a-git-filesystem.md — Debugging meTypeset using a git filesystem
+- 2014-06-22-typesetting-jats-bibliographies-using-csl-and-zotero.md — Typesetting JATS bibliographies using CSL and Zotero
+- 2014-06-23-dumping-jats-from-zotero.md — Dumping JATS from Zotero
+- 2014-07-05-semantically-marking-up-jats-bibliographies-using-metypeset-and-zotero.md — Semantically marking up JATS bibliographies using meTypeset and Zotero
+- 2015-03-02-object-thinking-systems-description-languages-and-the-future-of-the-book.md — Object Thinking, Systems Description Languages and the Future of the Book
+- 2015-05-18-some-lessons-in-writing-python-web-scrapers.md — Some lessons in writing Python web scrapers
+- 2015-08-07-fix-some-of-your-writing-tics-with-a-bit-of-technology.md — Fix some of your writing tics with a bit of technology
+- 2015-12-24-visualizing-textual-variancegenetics-with-sankeyvariant.md — Visualizing textual variance/genetics with SankeyVariant
+- 2016-05-03-overriding-hypothesiss-interface-the-right-way.md — Overriding hypothesis's interface the right way
+- 2016-05-11-hypothesis-v0814-error-oserror-errno-2-no-such-file-or-directory.md — Hypothes.is v0.8.14 error: "OSError: [Errno 2] No such file or directory"
+- 2016-06-09-identifying-26gb-of-json-novel-data.md — Identifying 26GB of JSON Novel Data
+- 2016-06-10-initial-parsing-work-on-large-json-corpus.md — Initial parsing work on large JSON corpus
+- 2016-06-19-cassius-now-supports-full-headless-pdf-creation-from-jats.md — CaSSius now supports full headless PDF creation from JATS XML
+- 2016-06-25-creating-a-generic-loader-for-annotatorjs-plugins-inside-a-hypothesis-extension-project.md — Creating a generic loader for Annotator.js plugins inside a hypothes.is extension project
+- 2016-06-26-selecting-specified-text-ranges-in-a-browser-using-javascript-and-xpath.md — Selecting specified text ranges in a browser using javascript and xpath
+- 2016-07-12-continuing-javascript-execution-after-total-dom-body-replacement-using-dom-mutation-observers.md — Continuing javascript execution after total DOM body replacement using DOM mutation observers
+- 2016-07-20-overriding-angularjs-directives-isolate-scopes.md — Overriding AngularJS directives' isolate scopes
+- 2016-12-13-introducing-cemmento-a-digital-preservation-tool-for-annotations.md — Introducing Cemmento: A digital preservation tool for annotations
+- 2017-02-10-on-automatically-detecting-parenthetical-citations.md — On automatically detecting parenthetical citations
+- 2019-06-01-what-size-should-my-music-studio-be.md — What size should my music studio be?
+- 2020-04-10-zotero-and-open-access-books.md — Zotero and auto-downloading open access books
+- 2021-08-23-on-programminglanguages.md — On programming/languages
+- 2021-10-18-headless-pdf-printing-in-chrome-when-the-standard-timeout-isnt-enough.md — Headless PDF printing in Chrome: when the standard timeout isn't enough
+- 2022-01-24-using-django-orm-click-and-rich-to-quickly-create-great-command-line-python-apps.md — Using Django ORM, Click, and Rich to create useful command-line python apps
+- 2022-04-30-resizing-image-uploads-in-django.md — Resizing image uploads in Django
+- 2022-05-07-static-site-hosting-in-the-cloud-should-not-be-this-hard-in-2022.md — Static site hosting in the cloud should not be this hard in 2022
+- 2022-05-19-running-django-apps-on-amazon-ecsecr-using-fargate.md — Running Django apps on AWS Fargate with a serverless RDS
+- 2022-06-18-reloading-sqlite-databases-in-django-when-there-have-been-external-changes.md — Reloading SQLite databases in Django when there have been external changes
+- 2023-02-13-getting-to-grips-with-airflow-on-amazon-aws.md — Getting to grips with Airflow on Amazon AWS
+- 2023-03-09-a-data-pipeline-with-apache-airflow-and-dask.md — A data pipeline with Apache Airflow and Dask
+- 2023-03-19-integration-testing-locally-and-on-gitlab-ci-using-localstack.md — Integration testing locally and on GitLab CI using LocalStack
+- 2023-03-25-on-application-observability-in-serverless-cloud-contexts.md — On application observability in serverless cloud contexts
+- 2023-08-10-converting-excel-date-serial-numbers-to-python-datetime-format.md — Converting Excel date serial numbers to Python datetime format
+- 2023-09-24-creating-a-voice-activated-ai-responder-in-python.md — Creating a voice-activated AI responder in Python
+- 2023-10-12-self-referential-language-counting.md — Self-referential language counting (I learned another word today bringing my total to fourteen words and twenty letters)
+- 2023-10-20-connecting-to-aws-opensearch-serverless-using-python.md — Connecting to AWS OpenSearch Serverless using Python
+- 2023-11-09-blocking-my-crawl.md — Blocking My Crawl
+- 2024-01-09-rusting-away-or-packing-the-entire-crossref-database-into-a-sqlite-file.md — Rusting Away (or: packing the entire Crossref database into a SQLite file)
+- 2024-12-21-evaluating-document-similarity-detection-approaches.md — Evaluating Document Similarity Detection Approaches for Content Drift Detection
+- 2025-01-08-getting-knowledge-commons-works-running-locally.md — Getting Knowledge Commons Works running locally
+- 2025-02-18-getting-external-access-to-buddypresss-notifications-for-knowledge-commons.md — Getting external access to BuddyPress's notifications (for Knowledge Commons)
+- 2025-02-21-swimming-upstream.md — Swimming upstream
+- 2025-03-14-testing-1-2-3-on-software-testing-and-why-its-interesting-even-to-non-developersnon-coders.md — Testing 1, 2, 3 (on software testing and why it's interesting even to non-developers/non-coders)
+- 2025-04-17-hacking-the-full-site-editor-in-wordpress.md — Hacking the full site editor in WordPress
+- 2025-10-09-using-a-public-api-or-the-instability-of-musicbrainz-ids.md — Using a public API, or the instability of MusicBrainz IDs
+- 2025-12-01-lando-giving-404-page-not-found.md — Lando giving '404 page not found'
+- 2025-12-03-error-failed-to-build-failed-to-solve-failed-to-compute-cache-key-failed-to-calculate-checksum-of-ref-xxyyzz.md — 'ERROR: failed to build: failed to solve: failed to compute cache key: failed to calculate checksum of ref XXYYZZ'
+- 2025-12-10-handling-403-errors-in-buddypresss-new-activity-comment.md — Handling 403 errors in BuddyPress's new_activity_comment
+- 2026-01-15-wordpress-loading-theme-assets-of-a-different-theme-to-that-selected.md — WordPress loading theme assets of a different theme to that selected
+
+### Publications (54)
+
+- 2011-01-13-publication-e2-80-98local-transcendence-postmodern-historiography-and-the-database-by-alan-liu-e2-80-99-textual-practice-24-6-december-2010.md — Publication: ‘Local Transcendence: Postmodern Historiography and the Database by Alan Liu’, Textual Practice, 24, 6 (December 2010)
+- 2011-04-02-my-recent-work-at-berfrois.md — My recent work at Berfrois
+- 2011-04-13-publication-review-of-joe-moran-interdisciplinarity-2nd-edition-rupkatha-3-1-april-2011.md — Publication: 'Review of Joe Moran, Interdisciplinarity 2nd edition', Rupkatha, 3, 1 (April 2011)
+- 2011-06-15-media-piece-taking-back-the-university-the-guardian.md — Media piece: "Taking Back the University", The Guardian
+- 2011-06-21-excursions-vol-2-issue-1-virus-2011.md — Excursions, Vol. 2, Issue 1: Virus (2011)
+- 2011-12-12-publication-historical-sources-for-pynchon-e2-80-99s-peter-pinguid-society-pynchon-notes-56-57-spring-fall-2009-pp-242-245.md — Publication: 'Historical Sources for Pynchon's Peter Pinguid Society', Pynchon Notes, 56-57 (Spring-Fall 2009 (2011)), pp. 242-245
+- 2011-12-22-guest-piece-in-the-guardian-secondary-schools-are-not-adequately-preparing-students-for-higher-education.md — Guest piece in the Guardian: Secondary schools are not adequately preparing students for higher education
+- 2012-02-24-my-review-of-the-cambridge-companion-to-thomas-pynchon-at-berfrois.md — My review of The Cambridge Companion to Thomas Pynchon at Berfrois
+- 2012-05-05-excursions-journal-vol-3-launch-party.md — Excursions Journal Vol 3: Launch Party
+- 2012-07-09-publication-tear-it-down-build-it-up-the-research-output-team-or-the-library-as-publisher-insights-25-2-july-2012-pp-158-162.md — Publication: 'Tear it down, build it up: the Research Output Team, or the library-as-publisher', Insights, 25, 2 (July 2012), pp. 158-162
+- 2012-09-02-publication-whose-line-is-it-anyway-enlightenment-revolution-and-ipseic-ethics-in-the-works-of-thomas-pynchon-textual-practice-26-5.md — Publication: 'Whose line is it anyway?: enlightenment, revolution, and ipseic ethics in the works of Thomas Pynchon', Textual Practice, 26, 5
+- 2012-10-16-publication-thomas-pynchon-the-dark-passages-of-history-review-textual-practice-26-5.md — Publication: 'Thomas Pynchon & the Dark Passages of History (review)', Textual Practice, 26, 5
+- 2012-11-05-publication-review-of-1q84-in-1001-books-to-read-before-you-die-london-cassell-illustrated-2012.md — Publication: Review of 1Q84 in 1001 Books to Read Before You Die (London: Cassell Illustrated, 2012)
+- 2012-12-11-publication-review-of-theophilius-savvas-american-postmodern-fiction-and-the-past-literature-and-history-21-2-autumn-2012-pp-106-108.md — Publication: 'Review of Theophilius Savvas, American Postmodern Fiction and the Past', Literature and History, 21, 2 (Autumn 2012), pp. 106-108
+- 2013-01-29-publication-thomas-pynchon-david-foster-wallace-and-the-problems-of-metamodernism-post-millennial-post-postmodernism.md — Publication: 'Thomas Pynchon, David Foster Wallace and the Problems of 'Metamodernism': Post-millennial Post-postmodernism?'
+- 2013-06-02-publication-the-botnet-webs-of-hegemonyzombies-who-publish-in-zombies-in-the-academy-bristol-intellect-2013.md — Publication: 'The Botnet: Webs of Hegemony/Zombies Who Publish', in Zombies in the Academy (Bristol: Intellect, 2013)
+- 2013-07-01-publication-before-the-law-open-access-quality-control-and-the-future-of-peer-review.md — Publication: 'Before the law: open access, quality control and the future of peer review'
+- 2013-07-02-publication-guide-to-creative-commons-for-humanities-and-social-science-monograph-authors.md — Publication: 'Guide to Creative Commons for humanities and social science monograph authors'
+- 2013-08-30-publication-you-will-see-the-logic-of-the-design-of-this-from-historiography-to-taxonomography-in-the-contemporary-metafiction-of-sarah-waterss-affinity.md — Publication:  “You will see the logic of the design of this”: From Historiography to Taxonomography  in the Contemporary Metafiction of Sarah Waters’s Affinity
+- 2013-09-05-publication-terrorism-and-the-cold-war-in-thomas-pynchons-against-the-day-and-don-delillo-c2-80-c2-99s-underworld.md — Publication: "Terrorism and the Cold War in Thomas Pynchon's Against the Day and Don DeLillo's Underworld"
+- 2013-09-18-publication-gatekeepers-in-a-digital-wasteland-the-author.md — Publication: "Gatekeepers in a digital wasteland", The Author
+- 2013-10-22-my-forthcoming-book-pynchon-and-philosophy-wittgenstein-foucault-and-adorno-palgrave-2014.md — My forthcoming book: Pynchon and Philosophy: Wittgenstein, Foucault and Adorno (Palgrave, 2014)
+- 2013-12-19-publication-review-of-humanities-in-the-twenty-first-century-beyond-utility-and-markets.md — Publication: Review of Humanities in the Twenty-First Century: Beyond Utility and Markets
+- 2013-12-20-publication-utopia-fading-taxonomies-freedom-and-dissent-in-open-access-publishing.md — Publication: Utopia Fading: Taxonomies, Freedom and Dissent in Open Access Publishing
+- 2014-02-12-publication-mitchell-hoban.md — Publication: David Mitchell, Russell Hoban, and Metafiction After the Millennium
+- 2014-02-14-publication-the-means-of-re-production-expertise-open-tools-standards-and-communication.md — Publication: The Means of (Re-)Production: Expertise, Open Tools, Standards and Communication
+- 2014-02-20-publication-pynchon-and-wittgenstein-ethics-relativism-and-philosophical-methodology.md — Publication: Pynchon and Wittgenstein: Ethics, Relativism and Philosophical Methodology
+- 2014-04-10-book-pynchon-and-philosophy-wittgenstein-foucault-and-adorno.md — Book: Pynchon and Philosophy: Wittgenstein, Foucault and Adorno
+- 2014-05-03-two-free-copies-of-pynchon-and-philosophy-to-win-andor-a-25-discount.md — Two free copies of "Pynchon and Philosophy" to win and/or a 25% discount
+- 2014-07-02-historicizing-the-iraq-war-in-don-delillos-point-omega-preprint-forthcoming-in-journal-of-american-studies.md — Historicizing the Iraq War in Don DeLillo's Point Omega (preprint, forthcoming in Journal of American Studies)
+- 2014-08-05-publication-all-that-glisters-investigating-collective-funding-mechanisms-for-gold-open-access-in-humanities-disciplines.md — Publication: All That Glisters: Investigating Collective Funding Mechanisms for Gold Open Access in Humanities Disciplines
+- 2014-08-14-publication-historicizing-the-iraq-war-in-don-delillos-point-omega.md — Publication: Historicizing the Iraq War in Don DeLillo’s Point Omega
+- 2014-09-01-forthcoming-book-open-access-and-the-humanities-contexts-controversies-and-the-future-cambridge-up-2014.md — Forthcoming book: Open Access and the Humanities: Contexts, Controversies and the Future (Cambridge UP, 2014)
+- 2014-11-27-book-open-access-and-the-humanities.md — Book: Open Access and the Humanities
+- 2015-03-05-publication-co-operating-for-gold-open-access-without-apcs.md — Publication: Co-operating for gold open access without APCs
+- 2015-11-03-new-review-published-of-joanna-freer-thomas-pynchon-and-the-american-counterculture.md — New review published of Joanna Freer, Thomas Pynchon and the American Counterculture
+- 2016-07-28-my-book-password-is-out-now.md — My book, Password, is out now!
+- 2016-08-09-have-you-read-david-mitchells-cloud-atlas-if-so-which-of-the-two-very-different-versions.md — Have you read David Mitchell's Cloud Atlas? If so, which of the two very different versions?
+- 2016-10-20-my-new-book-literature-against-criticism-is-published-today.md — My new book, Literature Against Criticism, is published today
+- 2018-05-21-books-in-series.md — Forthcoming Books in the New Horizons in Contemporary Writing Series
+- 2019-02-07-how-to-read-a-blank-page.md — How to read a (blank) page: on redaction in contemporary fiction
+- 2019-04-26-the-learning-experience-out-today-on-tici-taci-and-my-book-has-gone-to-print-at-stanford-university-press.md — The Learning Experience out today on Tici Taci and my book has gone to print at Stanford University Press
+- 2019-06-04-close-reading-with-computers-is-published-today-and-next-projects.md — Close Reading with Computers is Published Today and Next Projects
+- 2019-06-07-old-traditions-and-new-technologies.md — Old Traditions and New Technologies
+- 2019-07-06-textual-scholarship-and-contemporary-literary-studies-jennifer-egans-editorial-processes-and-the-archival-edition-of-emerald-city.md — Jennifer Egan's Editorial Processes and the Archival Edition of Emerald City
+- 2019-12-02-the-first-oa-liberated-article-from-my-leverhulme-prize.md — The first OA liberated article from my Leverhulme Prize: The Critique of Metamodernism
+- 2019-12-04-the-second-oa-liberated-article-from-my-leverhulme-prize-natural-language-generation-and-authorial-labour.md — The second OA liberated article from my Leverhulme Prize: Natural language generation and authorial labour
+- 2020-04-07-close-reading-with-computers-is-now-open-access-at-stanford-university-press.md — Close Reading with Computers is now open access at Stanford University Press
+- 2020-10-21-on-reassembling-scholarly-communications.md — On Reassembling Scholarly Communications: A book about the ethics and egalitarianism of open access
+- 2021-01-03-reading-peer-review-is-published-today.md — Reading Peer Review is published today!
+- 2021-12-15-today-is-the-publication-of-my-eighth-book-warez-the-infrastructure-and-aesthetics-of-piracy.md — Today marks the publication of my eighth book: Warez: The Infrastructure and Aesthetics of Piracy
+- 2023-09-14-why-lever-press.md — Why Lever Press?
+- 2024-07-15-errata-for-theses-on-the-metaphors-of-digital-textual-history.md — Errata for Theses on the Metaphors of Digital-Textual History
+- 2024-07-16-theses-on-the-metaphors-of-digital-textual-history-is-out-today.md — Theses on the Metaphors of Digital-Textual History is out today!
+
+### Publishing Technology (46)
+
+- 2010-09-01-upcoming-journal-publishing-workshop.md — Upcoming journal publishing workshop
+- 2010-09-08-conditional-css-in-open-journalconference-systems.md — Conditional CSS in Open Journal/Conference Systems
+- 2011-09-14-publishing-articles-in-pdf-via-xmlxslt-using-open-journal-systems-2-3-6.md — Publishing articles in PDF via XML/XSLT using Open Journal Systems 2.3.6
+- 2011-09-17-writing-a-plugin-for-open-journal-systems-part-1.md — Writing a plugin for Open Journal Systems: Part 1
+- 2011-09-25-writing-a-plugin-for-open-journal-systems-part-2.md — Writing a plugin for Open Journal Systems: Part 2
+- 2011-12-16-mexmlgalley-now-supporting-image-insertion-ojs-xml-to-pdf.md — meXmlGalley now supporting image insertion (OJS: XML to PDF)
+- 2012-02-27-podcast-on-open-source-open-access-publishing.md — Podcast on Open Source, Open Access publishing
+- 2012-06-06-metadata-handling-for-open-access-journal-pdfs.md — Metadata handling for Open Access Journal PDFs
+- 2012-07-10-starting-an-open-access-journal-a-step-by-step-guide-part-1.md — Starting an Open Access Journal: a step-by-step guide part 1
+- 2012-07-11-starting-an-open-access-journal-a-step-by-step-guide-part-2.md — Starting an Open Access Journal: a step-by-step guide part 2
+- 2012-07-12-starting-an-open-access-journal-a-step-by-step-guide-part-3.md — Starting an Open Access Journal: a step-by-step guide part 3
+- 2012-07-13-starting-an-open-access-journal-a-step-by-step-guide-part-4.md — Starting an Open Access Journal: a step-by-step guide part 4
+- 2012-07-13-starting-an-open-access-journal-a-step-by-step-guide-part-5.md — Starting an Open Access Journal: a step-by-step guide part 5
+- 2012-07-13-starting-an-open-access-journal-a-step-by-step-guide-table-of-contents.md — Starting an Open Access Journal: a step-by-step guide. Table of contents.
+- 2012-10-19-crude-but-helpful-typesetting-script-from-mexml.md — Crude, but helpful, typesetting script from meXml
+- 2012-10-24-open-journal-systems-now-supports-archiving-with-clockss-out-of-the-box.md — Open Journal Systems now supports archiving with CLOCKSS out of the box
+- 2012-11-02-more-on-ojs-and-clockss.md — More on OJS and CLOCKSS
+- 2013-03-29-exposing-xml-data-for-orbit.md — Exposing XML data for Orbit
+- 2013-05-12-getting-free_cite-running-on-your-own-server.md — Getting free_cite running on your own server
+- 2013-07-07-evaluating-the-open-access-software-toolchain.md — Evaluating the Open Access software toolchain
+- 2013-07-28-determining-glyph-availability-for-fop.md — Determining glyph availability for FOP
+- 2013-07-28-rendering-mathml-in-xslfo-to-pdf-using-fop.md — Rendering MathML in XSL:FO to PDF using fop
+- 2013-09-09-work-on-open-access-technology-get-a-masters-degree-in-computer-science-funded-place.md — Work on open access technology, get a masters degree in Computer Science: funded place
+- 2014-01-13-handling-the-absence-of-a-newline-break-tag-in-jats.md — Handling the absence of a (newline) break tag in JATS
+- 2014-02-14-publication-the-means-of-re-production-expertise-open-tools-standards-and-communication.md — Publication: The Means of (Re-)Production: Expertise, Open Tools, Standards and Communication
+- 2014-02-24-modularizing-the-metypeset-typesetter-for-the-user-interface-phase.md — Modularizing the meTypeset typesetter for the user interface phase
+- 2014-02-26-mathml-support-in-the-metypeset-typesetter.md — MathML support in the meTypeset typesetter
+- 2014-02-27-debugging-metypeset-using-a-git-filesystem.md — Debugging meTypeset using a git filesystem
+- 2014-03-10-scholars-and-scientists-who-work-in-languages-other-than-english-please-help.md — Scholars and scientists who work in languages other than English: please help
+- 2014-04-01-designing-an-open-source-oa-toolchain-for-books.md — Designing an open source OA toolchain for books
+- 2014-04-17-bitmask-values-for-wtbllook-wval-attribute-in-ooxml.md — Bitmask values for w:tblLook w:val attribute in OOXML
+- 2014-06-22-typesetting-jats-bibliographies-using-csl-and-zotero.md — Typesetting JATS bibliographies using CSL and Zotero
+- 2014-06-23-dumping-jats-from-zotero.md — Dumping JATS from Zotero
+- 2014-07-05-semantically-marking-up-jats-bibliographies-using-metypeset-and-zotero.md — Semantically marking up JATS bibliographies using meTypeset and Zotero
+- 2015-03-02-object-thinking-systems-description-languages-and-the-future-of-the-book.md — Object Thinking, Systems Description Languages and the Future of the Book
+- 2015-04-15-in-the-beginning-was-the-word.md — In the beginning was the Word
+- 2015-07-20-building-a-real-xml-first-workflow-for-scholarly-typesetting.md — Building a real XML-first (XML-in) workflow for scholarly typesetting
+- 2015-07-23-cassius-a-pdf-typesetter-using-css-regions-via-polyfill.md — CaSSius: a PDF typesetter using CSS regions (via polyfill)
+- 2015-07-24-getting-started-typesetting-with-cassius.md — Getting started typesetting with CaSSius
+- 2016-06-19-cassius-now-supports-full-headless-pdf-creation-from-jats.md — CaSSius now supports full headless PDF creation from JATS XML
+- 2016-09-14-of-latex-and-labour.md — Of LaTeX and labour
+- 2017-02-10-on-automatically-detecting-parenthetical-citations.md — On automatically detecting parenthetical citations
+- 2018-04-01-the-tender-document-for-the-european-commissions-open-access-platform-asks-for-an-awful-lot.md — The Tender Document for the European Commission's Open Access Platform Asks for an Awful Lot for Not Very Much
+- 2018-08-07-open-source-patents.md — Institutional Cultures, Patents, and Open-Source Software for Open Access
+- 2020-03-14-i4oc-open-citations-implementation-in-janeway.md — I4OC open citations implementation in Janeway
+- 2026-05-21-things-i-have-made-lower-decks-conference-and-quote-in-researchprofessional.md — Things I have made (KC IDMS in place, Lower Decks conference, and quote in ResearchProfessional)
+
+### Scholarly Communications (52)
+
+- 2010-03-27-implementing-coins.md — Implementing COinS
+- 2011-11-18-guest-post-on-google-scholar-citations.md — Guest post on Google Scholar Citations
+- 2012-02-02-project-idearequest-for-comment-opendoi.md — Project idea/request for comment: OpenDOI
+- 2012-02-03-dois-what-you-need-to-know.md — DOIs: What you need to know
+- 2012-02-04-more-thoughts-on-metrics-link-rot-canonical-urls.md — More thoughts on metrics, link-rot, canonical URLs
+- 2012-06-06-metadata-handling-for-open-access-journal-pdfs.md — Metadata handling for Open Access Journal PDFs
+- 2012-08-07-on-blog-inequality-in-scholarly-research.md — On Blog Inequality in Scholarly Research
+- 2012-11-14-on-orcid-accreditation-structures-and-altmetrics.md — On ORCID, accreditation structures and altmetrics
+- 2012-12-13-alluvium-technical-news-doi-numbers-clockss-and-mla-bibliography.md — Alluvium technical news: DOI numbers, CLOCKSS and MLA Bibliography
+- 2013-03-26-crossref-dois-and-preparing-for-future-assignment.md — CrossRef, DOIs and Preparing for Future Assignment
+- 2013-06-02-publication-the-botnet-webs-of-hegemonyzombies-who-publish-in-zombies-in-the-academy-bristol-intellect-2013.md — Publication: 'The Botnet: Webs of Hegemony/Zombies Who Publish', in Zombies in the Academy (Bristol: Intellect, 2013)
+- 2014-02-22-google-scholar-will-count-a-blog-post-as-an-article-if-its-cited-a-preservation-suggesstion.md — Google Scholar will count a blog post as an article if it's cited: a preservation suggestion
+- 2014-06-03-a-research-tool-i-want-but-probably-wont-get-cross-referenceintersect-bibliographies-of-books-and-articles.md — A research tool I want (but probably won't get): cross-reference/intersect bibliographies of books and articles
+- 2015-07-16-the-politics-of-style-on-styleguides-in-scholarly-communications.md — The politics of style: on styleguides in scholarly communications
+- 2016-01-08-these-games-we-play-in-scholcomms.md — These games we play (in ScholComms)
+- 2016-02-26-rethinking.md — A world reimagined without the university
+- 2016-02-26-the-critique-of-utopia.md — The critique of utopia
+- 2016-04-27-embargoing-metadata.md — Embargoing metadata?
+- 2016-05-23-what-do-we-mean-when-we-call-scholarly-communications-platforms-sustainable.md — What do we mean when we call scholarly communications platforms 'sustainable'?
+- 2016-11-11-the-single-biggest-challenge-for-information-publishing-in-the-digital-age.md — The single largest challenge for information publishing in the digital age
+- 2019-06-07-old-traditions-and-new-technologies.md — Old Traditions and New Technologies
+- 2019-07-24-academic-author-rights-of-presentation-on-mutable-digital-platforms.md — Academic author rights of presentation on mutable digital platforms
+- 2019-07-30-thinking-through-citation-resolution-and-proposals-for-consumer-driven-doi-like-metadata-repositories.md — Thinking through citation resolution and proposals for consumer-driven, DOI-like metadata repositories
+- 2020-03-14-i4oc-open-citations-implementation-in-janeway.md — I4OC open citations implementation in Janeway
+- 2020-04-10-zotero-and-open-access-books.md — Zotero and auto-downloading open access books
+- 2020-04-19-notes-on-susan-leigh-stars-the-ethnography-of-infrastructure.md — Notes on Susan Leigh Star's 'The Ethnography of Infrastructure'
+- 2020-05-04-on-participatory-design-in-library-architecture.md — On participatory design in library architecture
+- 2020-07-03-the-emergence-of-threat-infrastructures-plan-s-and-behavioral-change.md — The Emergence of Threat Infrastructures: Plan S and Behavioral Change
+- 2020-10-21-on-reassembling-scholarly-communications.md — On Reassembling Scholarly Communications: A book about the ethics and egalitarianism of open access
+- 2021-12-06-what-is-the-relationship-between-legal-form-governance-and-ethics.md — What is the relationship between legal form, governance, and ethics?
+- 2022-07-26-what-is-the-scholarly-record.md — What is 'the scholarly record'?
+- 2022-08-26-moving-on-my-infrastructural-turn.md — Moving On: My Infrastructural Turn
+- 2022-12-10-some-of-my-upcoming-projects-at-crossref.md — Some of my upcoming projects at Crossref
+- 2023-07-20-the-latest-ithaka-sr-draft-report-is-hugely-regressive.md — The latest Ithaka S+R draft report is hugely regressive
+- 2023-07-26-whats-the-point-of-having-open-scholarly-infrastructures-and-how-do-we-test-their-resilience.md — What’s the point of having open scholarly infrastructures and how do we test their resilience?
+- 2023-07-28-rules-vs-principles-in-posi.md — Rules vs. Principles in POSI
+- 2023-09-12-retract-this.md — Retract this!
+- 2023-09-21-citations-and-addressability.md — Citations and addressability
+- 2023-11-09-blocking-my-crawl.md — Blocking My Crawl
+- 2024-01-09-rusting-away-or-packing-the-entire-crossref-database-into-a-sqlite-file.md — Rusting Away (or: packing the entire Crossref database into a SQLite file)
+- 2024-09-24-are-metadata-facts.md — Are metadata facts?
+- 2024-12-21-evaluating-document-similarity-detection-approaches.md — Evaluating Document Similarity Detection Approaches for Content Drift Detection
+- 2025-01-08-getting-knowledge-commons-works-running-locally.md — Getting Knowledge Commons Works running locally
+- 2025-02-18-getting-external-access-to-buddypresss-notifications-for-knowledge-commons.md — Getting external access to BuddyPress's notifications (for Knowledge Commons)
+- 2025-02-21-swimming-upstream.md — Swimming upstream
+- 2026-03-23-too-much-publishing.md — Too much publishing...
+- 2026-04-19-the-necessary-pain-involved-in-blogging-if-you-want-your-work-to-be-preserved-beyond-your-lifespan.md — The Necessary Pain Involved in Blogging (if you want your work to be preserved beyond your lifespan)
+- 2026-05-21-things-i-have-made-lower-decks-conference-and-quote-in-researchprofessional.md — Things I have made (KC IDMS in place, Lower Decks conference, and quote in ResearchProfessional)
+- 2026-06-23-making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields.md — Making blog posts harvestable by Zotero and preserving case in citation fields
+- 2026-06-27-fair-and-square-making-a-static-site-support-fair-signposting.md — FAIR and Square: making a static site support FAIR signposting
+- 2026-07-10-investigating-atproto-here-and-for-knowledge-commons.md — Investigating ATProto here and for Knowledge Commons
+- 2026-08-28-repository-metadata-contain-ontological-ambiguities-that-fold-into-flat-hierarchies.md — Repository metadata contain ontological ambiguities that fold into flat hierarchies
+
+### Teaching (11)
+
+- 2011-03-17-designing-a-uk-undergraduate-english-literature-course.md — Designing a UK undergraduate English literature course
+- 2011-04-28-my-ahea-success-featured-in-rustle.md — My AHEA success featured in RUSTLE
+- 2011-05-04-weve-met-before-havent-we-spatio-temporal-distortion-in-david-lynchs-lost-highway.md — "We've met before, haven't we?": Spatio-Temporal Distortion in David Lynch's Lost Highway
+- 2011-10-17-donne-it-wrong-holy-sonnet-numbering-confusion.md — Donne it wrong: Holy Sonnet numbering confusion
+- 2011-10-21-reading-the-my-marxist-feminist-dialectic-brings-all-the-boys-to-the-yard-t-shirt.md — Reading the "My Marxist Feminist Dialectic Brings all the Boys to the Yard" T-Shirt
+- 2011-11-07-simon-f-davies-open-educational-resource-on-literary-terms.md — Simon F. Davies' Open Educational Resource on Literary Terms
+- 2011-12-22-guest-piece-in-the-guardian-secondary-schools-are-not-adequately-preparing-students-for-higher-education.md — Guest piece in the Guardian: Secondary schools are not adequately preparing students for higher education
+- 2012-02-16-teaching-undergraduates-to-use-secondary-sources.md — Teaching undergraduates to use secondary sources
+- 2012-04-23-teaching-post-millennial-literature-a-hea-and-university-of-brighton-symposium.md — Teaching Post-Millennial Literature: A HEA and University of Brighton Symposium
+- 2012-07-03-teaching-post-millenial-fiction-conference-archive.md — Teaching Post-Millenial Fiction Conference archive
+- 2020-08-18-rethinking-assessment-during-the-pandemic.md — Rethinking assessment during the pandemic, particularly re. disability equality
+
+### Technology (58)
+
+- 2008-10-03-convert-excel-to-serif-webplus-sdb-format.md — Convert Excel to Serif Webplus SDB format
+- 2010-03-13-thomas-pynchon-critical-bibliography-zotero-group.md — Thomas Pynchon critical bibliography Zotero group
+- 2010-03-14-dark-cloud-looming.md — Dark cloud looming
+- 2010-04-03-using-tech-to-help-with-structure.md — Using tech to help with structure
+- 2010-10-27-using-british-library-wifi-when-dhcp-fails.md — Using British Library wifi when DHCP fails
+- 2010-11-04-the-problems-of-copyleft-twitter-and-tweets.md — The Problems of Copyleft, Twitter and Tweets
+- 2010-12-08-converting-zotero-documents-to-mendeley.md — Converting Zotero Documents to Mendeley
+- 2010-12-15-using-producteev-to-manage-overbearing-inboxes.md — Using Producteev to manage overbearing Inboxes
+- 2011-01-05-mendley-android-client-now-implemented-as-a-user-account-with-sync.md — Mendeley Android Client: now implemented as a user account with sync
+- 2011-01-14-getting-a-custom-sync-service-and-adapter-to-show-up-under-data-and-synchronization-on-android.md — Getting a custom Sync Service and Adapter to show up under "Data and Synchronization" on Android
+- 2011-01-21-ocz-revodrive-on-abit-fatal1ty-fp-in9-sli.md — OCZ RevoDrive on Abit Fatal1ty FP-IN9 SLI
+- 2011-01-26-what-has-social-media-ever-done-for-me.md — What has social media ever done for me?
+- 2011-02-02-on-phdchat-call-for-collaborationhistory-overview-themes-and-response.md — On #PhDchat: Call for Collaboration/History, Overview, Themes and Response
+- 2011-02-09-android-and-eduroam.md — Android and Eduroam
+- 2011-02-18-open-hardware-the-netgear-wnr3500l.md — Open Hardware: the Netgear WNR3500L
+- 2011-03-09-richard-stallman-at-the-university-of-sussex.md — Richard Stallman at the University of Sussex
+- 2011-03-14-things-to-do-when-you-get-a-new-android-phone.md — Things to do when you get a new Android phone
+- 2011-06-14-upcoming-workshop-inbox-zero-and-tech-task-lists-getting-things-done.md — Upcoming Workshop: Inbox zero and tech-task lists: getting things done
+- 2011-07-05-dropbox-youve-missed-the-real-problem.md — Dropbox: you've missed the real problem
+- 2011-10-06-the-nobel-prize-for-literature-2011-hoax.md — The Nobel Prize for Literature 2011 Hoax
+- 2011-11-28-forthcoming-workshops-academic-websites-protecting-your-assets.md — Forthcoming workshops: academic websites & protecting your assets!
+- 2012-01-23-ive-gone-to-ipv6.md — I've gone to IPv6
+- 2012-01-23-protecting-your-assets-backing-up-your-academic-work.md — Protecting Your Assets: Backing up your Academic Work
+- 2012-02-09-wordpress-for-academics.md — Wordpress for Academics
+- 2012-03-18-wikipedia-stats-visualized.md — Wikipedia Stats Visualized
+- 2012-05-21-beware-the-next-wave-of-academic-publishing-grimness-apps.md — Beware the next wave of academic publishing grimness: apps.
+- 2012-06-24-another-great-source-for-free-images-to-use-in-blogging.md — Another great source for free images to use in blogging
+- 2012-08-14-what-app-net-has-to-teach-scholarly-publishing-altruism-has-been-forgotten-and-everything-is-a-product.md — What app.net has to teach scholarly publishing: altruism has been forgotten and everything is a "product"
+- 2012-09-02-re-decentralizing-the-web.md — Re-Decentralizing the Web
+- 2012-09-03-quibbling-with-the-lrb-over-hackers.md — Quibbling with the LRB over "Hackers"
+- 2012-09-06-astrid-and-producteev.md — Astrid and Producteev
+- 2012-09-06-cant-receive-emails-from-hotmail-fixing-their-buggy-dns-process.md — Can't receive emails from Hotmail: fixing their buggy DNS process
+- 2013-08-18-using-git-in-my-writing-workflow.md — Using git in my writing workflow
+- 2013-09-30-fixing-broken-spellcheck-in-thunderbird-24.md — Fixing broken spellcheck in Thunderbird 24
+- 2013-12-27-why-im-a-fan-of-open-source-software-an-argument-by-anecdoteexample.md — Why I'm a fan of open source software: An argument by anecdote/example
+- 2014-01-19-every-generation-has-its-philosopher.md — "Every generation has its philosopher"
+- 2014-09-05-things-academia-edu-academia-should-do-hint-work-with-green-oa.md — Things academia.edu (@academia) should do (hint: work with green OA)
+- 2014-11-05-discussingannotating-the-history-manifesto-and-the-open-access-effect.md — Discussing/annotating The History Manifesto and the open access effect(?)
+- 2014-12-19-tied-to-the-mast-a-response-to-rmss-principles-for-loyal-computers.md — Tied to the mast? A response to RMS's principles for loyal computers
+- 2015-01-20-a-web-of-rights-roundtable-and-conversation-at-the-british-library-feb-19th-2015-bldigital.md — "A Web of Rights": Roundtable and Conversation at the British Library (Feb 19th, 2015) #bldigital
+- 2015-06-20-disable-incoming-call-voice-announcement-on-the-nexus-6.md — Disable "incoming call" voice announcement on the Nexus 6
+- 2015-12-28-how-to-do-a-hard-reset-on-a-jaybird-reign.md — How to do a hard reset on a Jaybird Reign
+- 2017-05-07-an-important-note-if-you-have-a-lenovo-g580.md — An important note if you have a Lenovo G580
+- 2018-10-14-m-audio-trigger-finger-pro-synchronisation-problems.md — M-Audio Trigger Finger Pro synchronisation problems
+- 2019-04-06-a-missing-audio-hardware-device.md — A missing audio hardware device
+- 2019-04-26-running-the-presonus-quantum-interfaces-on-windows-7.md — Running the PreSonus Quantum interfaces on Windows 7
+- 2021-03-27-how-to-fix-a-broken-crumar-bit99-synthesizer.md — How to fix a broken Crumar Bit99 synthesizer
+- 2021-04-08-software-as-a-service-and-commodity-fetishism.md — Subscriptions for software and commodity fetishism
+- 2021-04-13-moog-minitaur-the-editor-and-exclusive-usb-lock.md — Moog Minitaur: the editor and exclusive USB lock
+- 2021-07-28-mesh-on-a-budget-converting-rbr50-to-rbs50-units-and-using-lbr20-for-4g-fallback.md — Mesh on a budget: converting RBR50 to RBS50 units and using LBR20 for 4G fallback
+- 2021-08-20-replacing-openvpn-with-wireguard-including-on-synology-devices.md — Replacing OpenVPN with Wireguard, including on Synology devices
+- 2021-12-10-what-if-downloads-are-not-actually-non-rivalrous.md — What if downloads are not actually non-rivalrous?
+- 2022-01-02-aiming-for-downtime.md — Aiming for downtime
+- 2022-03-25-good-computer-networking-kit.md — Good computer networking kit
+- 2023-07-26-we-are-terrible-at-online-identity-management-or-using-emails-as-an-identifier-was-a-bad-move.md — We Are Terrible at Online Identity Management (or: Using Emails as An Identifier Was a Bad Move)
+- 2025-08-24-trying-out-the-nurosym-vagus-nerve-stimulator-for-a-couple-of-weeks.md — Trying out the Nurosym vagus nerve stimulator for a couple of weeks
+- 2025-10-04-pangolin-newt-gerbil-and-custom-ports.md — Pangolin, Newt, Gerbil and custom ports
+- 2026-01-25-institutions-shifting-away-from-big-tech.md — Institutions shifting away from big tech
+
+### Thomas Pynchon (74)
+
+- 2010-03-13-thomas-pynchon-critical-bibliography-zotero-group.md — Thomas Pynchon critical bibliography Zotero group
+- 2010-03-19-international-pynchon-week-2010-abstracts.md — International Pynchon Week 2010 Abstracts
+- 2010-06-09-international-pynchon-week-day-1.md — International Pynchon Week: Day 1
+- 2010-06-11-international-pynchon-week-2010-day-3.md — International Pynchon Week 2010: Day 3
+- 2010-06-11-international-pynchon-week-day-2.md — International Pynchon Week: Day 2
+- 2010-06-22-my-navy-days-with-thomas-ruggles-pynchon.md — My navy days with Thomas Ruggles Pynchon
+- 2010-10-09-where-to-start-with-thomas-pynchon.md — Where to start with Thomas Pynchon?
+- 2011-01-28-a-statistical-history-of-uk-pynchon-doctorates.md — A Statistical History of UK Pynchon Doctorates
+- 2011-01-31-pynchon-reference-in-the-economist.md — Pynchon reference in the Economist
+- 2011-02-08-cfp-first-conference-of-the-uk-academic-pynchon-network.md — CFP: First Conference of the UK Academic Pynchon Network
+- 2011-03-07-what-is-thomas-pynchons-gravitys-rainbow-about.md — What is Thomas Pynchon's Gravity's Rainbow about?
+- 2011-03-11-uk-pynchon-network-site-up-and-programme-announced.md — UK Pynchon Network: Site Up and Programme Announced
+- 2011-03-17-conference-paper-the-f-word-2011-04-01-university-of-durham.md — Conference Paper: "The F Word", 2011-04-01, University of Durham
+- 2011-04-02-my-recent-work-at-berfrois.md — My recent work at Berfrois
+- 2011-04-05-conference-paper-e2-80-9cthe-drivers-whip-is-an-evil-thing-e2-80-9d-enlightenment-as-mass-enslavement-in-the-works-of-thomas-pynchon-2011-06-17-university-of-portsmouth.md — Conference paper: “The Driver's Whip is an evil thing”: Enlightenment as Mass Enslavement in the Works of Thomas Pynchon, 2011-06-17, University of Portsmouth
+- 2011-04-08-speaking-plainly.md — Speaking plainly
+- 2011-04-11-delay-to-report-on-first-ukpn-meeting.md — Delay to Report on First UKPN Meeting
+- 2011-04-14-pynchon-in-public-day-2011.md — Pynchon in Public Day 2011
+- 2011-05-06-on-pynchon-and-privacy.md — On Pynchon and Privacy
+- 2011-05-16-photograph-and-interview-in-the-guardian.md — Photograph and Interview in the Guardian
+- 2011-06-07-a-brief-intro-pynchon-bibliography-biographical-and-gravitys-rainbow.md — A Brief Intro Pynchon Bibliography (Biographical and Gravity's Rainbow)
+- 2011-06-13-more-pynchonalia.md — More Pynchonalia
+- 2011-06-16-conference-paper-geo-specificity-of-enlightenment-in-mason-dixon-2011-06-24-university-of-glasgow.md — Conference paper: Geo-specificity of Enlightenment in Mason & Dixon, 2011-06-24, University of Glasgow
+- 2011-06-25-the-8th-biennial-symbiosis-conference-day-2.md — The 8th Biennial Symbiosis Conference: Day 2
+- 2011-07-06-a-thomas-pynchon-tattoo-recruit.md — A Thomas Pynchon tattoo recruit
+- 2011-07-11-orbit-writing-around-pynchon.md — Orbit: Writing Around Pynchon
+- 2011-08-03-conference-paper-it-sures-hell-looked-like-war-terrorism-and-the-cold-war-in-thomas-pynchons-against-the-day-and-don-delillos-underworld-2010-06-09-university-of-lublin.md — Conference Paper: 'It sure's hell looked like war': Terrorism and the Cold War in Thomas Pynchon's Against the Day and Don DeLillo's Underworld', 2010-06-09, University of Lublin
+- 2011-10-24-pynchons-friends-in-gravitys-rainbow.md — Pynchon's Friends in Gravity's Rainbow
+- 2011-12-12-publication-historical-sources-for-pynchon-e2-80-99s-peter-pinguid-society-pynchon-notes-56-57-spring-fall-2009-pp-242-245.md — Publication: 'Historical Sources for Pynchon's Peter Pinguid Society', Pynchon Notes, 56-57 (Spring-Fall 2009 (2011)), pp. 242-245
+- 2011-12-13-a-minor-correction-to-anne-mangels-maxwells-demon-entropy-information-the-crying-of-lot-49.md — A minor correction to Anne Mangel's "Maxwell's Demon, Entropy, Information: The Crying of Lot 49"
+- 2012-01-03-the-only-known-inscribed-pynchon-book-with-a-presentation-letter.md — The only known inscribed Pynchon book with a presentation letter
+- 2012-01-09-its-not-p-t-anderson-but-someone-has-started-an-inherent-vice-adaptation.md — It's not P.T. Anderson, but someone has started an Inherent Vice adaptation
+- 2012-01-09-pynchon-character-etymology-etienne-cherdlu.md — Pynchon Character Etymology: Étienne Cherdlu
+- 2012-02-10-conference-paper-thomas-pynchon-david-foster-wallace-and-twenty-first-century-utopianism-16-18-july-2012-university-of-lincoln.md — Conference Paper: Thomas Pynchon, David Foster Wallace and Twenty-First-Century Utopianism, 16-18 July, 2012, University of Lincoln
+- 2012-02-24-my-review-of-the-cambridge-companion-to-thomas-pynchon-at-berfrois.md — My review of The Cambridge Companion to Thomas Pynchon at Berfrois
+- 2012-03-14-conference-paper-thomas-pynchon-materialism-and-negative-dialectics-28-29-may-2012-northumbria-university.md — Conference Paper: Thomas Pynchon, Materialism and Negative Dialectics, 28-29 May, 2012, Northumbria University
+- 2012-04-05-new-york-times-writes-about-my-ph-d-thesis-work.md — New York Times writes about my Ph.D. thesis work!
+- 2012-04-30-pynchon-in-public-day-2012-our-meetup-details.md — Pynchon in Public Day 2012: our meetup details
+- 2012-05-02-an-update-on-orbit-1-1.md — An update on Orbit 1.1
+- 2012-06-08-is-this-a-picture-of-thomas-pynchon-aged-51.md — Is this a picture of Thomas Pynchon aged 51?
+- 2012-06-25-international-pynchon-week-2013-conference-website-and-cfp.md — International Pynchon Week 2013 Conference: Website and CFP
+- 2012-07-09-orbit-writing-around-pynchon-is-live.md — Orbit: Writing Around Pynchon is live
+- 2012-07-13-orbit-writing-around-pynchon-is-now-digitally-preserved-by-clockss.md — Orbit: Writing Around Pynchon is now digitally preserved by CLOCKSS
+- 2012-07-19-thomas-pynchon-david-foster-wallace-and-21st-century-utopianism-presentation.md — Thomas Pynchon, David Foster Wallace and 21st-Century Utopianism (presentation)
+- 2012-09-02-publication-whose-line-is-it-anyway-enlightenment-revolution-and-ipseic-ethics-in-the-works-of-thomas-pynchon-textual-practice-26-5.md — Publication: 'Whose line is it anyway?: enlightenment, revolution, and ipseic ethics in the works of Thomas Pynchon', Textual Practice, 26, 5
+- 2012-09-04-karl-marx-that-sly-old-racist.md — "Karl Marx, that sly old racist"
+- 2012-09-06-conference-panel-pynchon-now-contemporary-fiction-research-seminar.md — Conference Panel: Pynchon Now (Contemporary Fiction Research Seminar)
+- 2012-09-18-conference-paper-opening-childrens-eyes-overloaded-forms-and-the-didactic-function-westminster-university.md — Conference paper: 'Opening children's eyes': Overloaded Forms and the Didactic Function (Westminster University)
+- 2012-10-16-publication-thomas-pynchon-the-dark-passages-of-history-review-textual-practice-26-5.md — Publication: 'Thomas Pynchon & the Dark Passages of History (review)', Textual Practice, 26, 5
+- 2012-10-19-orbit-1-2-is-now-open-and-our-rolling-format-is-live.md — Orbit 1.2 is now "open" and our "rolling format" is live
+- 2012-10-21-new-orbit-review-american-postmodernist-fiction-and-the-past-by-theophilus-savvas.md — New Orbit review: American Postmodernist Fiction and the Past, by Theophilus Savvas
+- 2012-12-11-publication-review-of-theophilius-savvas-american-postmodern-fiction-and-the-past-literature-and-history-21-2-autumn-2012-pp-106-108.md — Publication: 'Review of Theophilius Savvas, American Postmodern Fiction and the Past', Literature and History, 21, 2 (Autumn 2012), pp. 106-108
+- 2012-12-21-orbit-writing-around-pynchon-receives-funding-from-ludwig-maximilian-university-of-munich.md — Orbit: Writing Around Pynchon receives funding from Ludwig Maximilian University of Munich
+- 2013-01-04-new-pynchon-novel-fall-2013-bleeding-edge.md — New Pynchon Novel! Fall 2013: "Bleeding Edge"
+- 2013-01-29-publication-thomas-pynchon-david-foster-wallace-and-the-problems-of-metamodernism-post-millennial-post-postmodernism.md — Publication: 'Thomas Pynchon, David Foster Wallace and the Problems of 'Metamodernism': Post-millennial Post-postmodernism?'
+- 2013-04-15-historical-sources-for-pynchons-peter-pinguid-society-now-available-for-download-green-open-access.md — Historical Sources for Pynchon's Peter Pinguid Society now available for download (Green Open Access)
+- 2013-04-17-more-on-new-thomas-pynchon-novel-bleeding-edge.md — More on new Thomas Pynchon novel, Bleeding Edge
+- 2013-04-21-pynchon-in-public-day-2013.md — Pynchon in Public Day 2013
+- 2013-08-11-on-international-pynchon-week.md — On International Pynchon Week
+- 2013-09-05-publication-terrorism-and-the-cold-war-in-thomas-pynchons-against-the-day-and-don-delillo-c2-80-c2-99s-underworld.md — Publication: "Terrorism and the Cold War in Thomas Pynchon's Against the Day and Don DeLillo's Underworld"
+- 2013-10-22-my-forthcoming-book-pynchon-and-philosophy-wittgenstein-foucault-and-adorno-palgrave-2014.md — My forthcoming book: Pynchon and Philosophy: Wittgenstein, Foucault and Adorno (Palgrave, 2014)
+- 2014-02-20-publication-pynchon-and-wittgenstein-ethics-relativism-and-philosophical-methodology.md — Publication: Pynchon and Wittgenstein: Ethics, Relativism and Philosophical Methodology
+- 2014-04-10-book-pynchon-and-philosophy-wittgenstein-foucault-and-adorno.md — Book: Pynchon and Philosophy: Wittgenstein, Foucault and Adorno
+- 2014-04-15-first-impressions-from-paul-thomas-andersons-film-of-inherent-vice.md — First Impressions From Paul Thomas Anderson’s film of ‘Inherent Vice‘
+- 2014-05-03-two-free-copies-of-pynchon-and-philosophy-to-win-andor-a-25-discount.md — Two free copies of "Pynchon and Philosophy" to win and/or a 25% discount
+- 2015-06-07-heidis-years-of-learning-and-travel-late-pynchons-academics.md — Heidi's Years of Learning and Travel: Late Pynchon's Academics
+- 2015-06-07-visualizing-gravitys-rainbow.md — Visualizing Gravity's Rainbow
+- 2015-07-04-he-doesnt-talk-politics-any-more-politics-and-postmodernism-morality-and-metafiction-nihilism-and-the-novel.md — 'He doesn't talk politics any more': Politics and Postmodernism; Morality and Metafiction; Nihilism and the Novel?
+- 2015-11-03-new-review-published-of-joanna-freer-thomas-pynchon-and-the-american-counterculture.md — New review published of Joanna Freer, Thomas Pynchon and the American Counterculture
+- 2016-02-13-looking-back-on-my-early-visualizations-of-gravitys-rainbow.md — Undergraduates, digital humanities, and visualization: looking back on my early visualizations of Gravity's Rainbow
+- 2017-06-11-did-thomas-pynchon-write-cow-country-stylistic-affinities-and-divergences.md — Did Thomas Pynchon write Cow Country? Stylistic affinities and divergences
+- 2020-01-30-a-hypothesis-kernel-function-density-estimation-and-graphing-may-predict-literary-critical-attention.md — A hypothesis: kernel function density estimation and graphing may predict literary critical attention
+- 2021-08-19-thomas-pynchon-from-s-gerät-to-y-gerät.md — Thomas Pynchon, from S-Gerät to Y-Gerät
+- 2024-06-05-begin-at-the-beginning-the-king-said-very-gravely-serious-openings-and-subversive-epigraphs-in-the-novels-of-thomas-pynchon.md — ‘Begin at the beginning, the King said, very gravely’: Serious Openings and Subversive Epigraphs in the Novels of Thomas Pynchon
+
+## Needs review
+
+- 2010-04-07-upcoming-performance-lucy-and-martha-fine-bone-china.md — Upcoming performance: Lucy and Martha: Fine Bone China: Followed the Performance->Music remap, but this is performance art (a premiere at the Plateaux festival), not music-making; it sits between Music (performances) and Literature (theatre). Flagged for a human call.
+- 2010-12-01-alternativecomplementary-medicine-and-mass-anecdotal-evidence-as-theological-in-structure.md — Alternative/Complementary Medicine and Mass Anecdotal Evidence as Theological in Structure: Epistemological/theological argument about alternative medicine grounded in the author's rheumatoid arthritis; no political-policy content, so dropped Politics hint.
+- 2011-06-21-excursions-vol-2-issue-1-virus-2011.md — Excursions, Vol. 2, Issue 1: Virus (2011): Very brief launch announcement of a journal issue the author co-edits; treated as Publications (own editorial output) plus Academia, but unsure whether an edited interdisciplinary issue merits Publications, and the thin body gives no clear subject category.
+- 2011-10-21-reading-the-my-marxist-feminist-dialectic-brings-all-the-boys-to-the-yard-t-shirt.md — Reading the "My Marxist Feminist Dialectic Brings all the Boys to the Yard" T-Shirt: Overrode hints: this is a Marxist-feminist critical-theory reading of a cultural object, ending in a classroom plan; there is no literary criticism proper. Flagged because the post sits between cultural commentary and theory.
+- 2012-08-23-the-real-problem-with-this-mode-of-curbing-grade-inflation.md — The real problem with this mode of "curbing grade inflation": GCSE English grading policy: taxonomy routes exams policy to Higher Education, but this is secondary-school assessment, so the fit is imperfect; Literature hint overridden as the post is not literary criticism. Teaching (assessment and exams) was a plausible alternative.
+- 2012-09-22-on-the-impurity-of-the-humanities-and-critical-university-studies.md — On the Impurity of the Humanities and Critical University Studies: Hints (Technology, Open Access, Politics) are peripheral; the essay is a critical-theory reflection on humanities research practice and the university's complicity in capital. Chose Academia + Philosophy, but Higher Education (critical university studies as university politics) was arguable.
+- 2012-12-30-tech-things-i-have-learned-in-the-last-12-hours.md — Tech things I have learned in the last 12 hours: Mixed sysadmin tips from a Linux dual-boot perspective (grub, Bumblebee, luks TRIM, WinUSB) but two of six items are purely about Windows installation; chose Linux as the dominant frame over the Technology hint, though Technology alone is arguable.
+- 2013-05-12-getting-free_cite-running-on-your-own-server.md — Getting free_cite running on your own server: Overrode both hints: this is a hands-on install guide (Ruby/Rails/CRF++ on Ubuntu) for free_cite, a citation-parsing tool in the scholarly publishing toolchain, with no OA policy content. Flagged because the post sits between Publishing Technology, Programming, and Scholarly Communications; chose the first two as it is tooling setup rather than infrastructure commentary.
+- 2014-01-19-every-generation-has-its-philosopher.md — "Every generation has its philosopher": The post is solely a quoted Lessig introduction on Stallman and free software; no OA content, so the hint was overridden. No canonical category covers free-software advocacy directly; Technology (broad tech commentary) is the closest fit.
+- 2015-04-12-it-is-never-a-good-time-to-start-a-new-journal.md — It is never a good time to start a new journal: Quotation-only post (Hawkes's 1987 Textual Practice editorial) about founding a journal amid a beleaguered humanities; filed under Academia (publishing practice from the academic's side), though its implicit context is the OLH journal launches.
+- 2016-11-11-the-single-biggest-challenge-for-information-publishing-in-the-digital-age.md — The single largest challenge for information publishing in the digital age: One-paragraph fragment on publishing economics and quality signalling; ambiguous between Scholarly Communications and Open Access. Chose the former as no OA model is specifically discussed.
+- 2018-05-21-books-in-series.md — Forthcoming Books in the New Horizons in Contemporary Writing Series: Announcement of forthcoming titles in a Bloomsbury series the author edits, not his own authored work; Publications is a stretch of that category's criteria, so flagging. Subject matter is contemporary-writing scholarship, hence Literature first.
+- 2020-05-09-on-critical-design-and-designing-for-provocation.md — On critical design and designing for provocation: COPIM reading of an HCI/design-research paper on operationalizing critical theory; Philosophy is the closest fit for the substantive critical-theory discussion (Frankfurt School, Kantian critique), but no category cleanly covers design research.
+- 2021-06-12-on-the-chromoclasm.md — On the Chromoclasm, the absence of colour, and notes towards a translation of Michel Pastoureau's ‘L’incolore n’existe Pas’: Cultural/art history of colour (Pastoureau translation notes) as part of the Paper Thin book-history research; no canonical category fits closely, so Literature chosen as nearest, but genuinely uncertain.
+- 2021-08-02-some-incomplete-notes-on-les-encres-noires-au-moyen-âge.md — Some incomplete notes on Les Encres noires au Moyen Âge: Reading notes on a scholarly history of medieval black inks (book history/material texts). No taxonomy category covers book history; Literature is the nearest home for humanistic reading notes, but it is not literary criticism.
+- 2022-04-13-if-you-cannot-connect-to-a-deluged-daemon-remotely.md — If you cannot connect to a deluged daemon remotely: Filed as a server sysadmin fix-it note under Linux, but the post never names an OS and the fix (deluged 1.3.x vs deluge 2.x version mismatch) is platform-independent; Technology would also be defensible.
+- 2024-07-16-theses-on-the-metaphors-of-digital-textual-history-is-out-today.md — Theses on the Metaphors of Digital-Textual History is out today!: Book launch announcement, so Publications plus the subject of the work. The book's field (book history / new media / material-textual studies) has no exact canonical home; Digital Humanities is the closest fit but Literature is arguable.
+- 2026-01-10-in-conversation-with-matthew-g-kirschenbaum.md — In conversation with Matthew G. Kirschenbaum: Event announcement (SHARPIES festival), so Conferences plus subject. The subject is book history / digital-textual studies, which has no canonical category; chose Digital Humanities as nearest fit for Kirschenbaum's digital-media scholarship. Academia would be a defensible alternative second category.
+- 2026-08-02-the-extended-interviews-on-ito-the-journey-looking-back-ati-star-trek-voyager.md — The extended interviews on <i>To the Journey: Looking Back at</i> Star Trek: Voyager: The taxonomy has no screen-media/TV category. This is a review of documentary interviews feeding the author's academic book on Star Trek Voyager; Literature (criticism and reviews of narrative works) is the nearest fit, with Personal for the fan reflection. Flagging in case a different home is preferred for screen media.
+
+## Conflicts
+
+Posts whose new categories share nothing with their remapped legacy ones.
+
+- 2007-11-17-ie7-javascript-modify-the-dom-without-crashing-the-browser.md — old ['Technology'] vs new ['Programming'] — IE7 Javascript - modify the DOM without crashing the browser
+- 2010-03-11-sshsplit-featured.md — old ['Open Access', 'Technology'] vs new ['Programming', 'Information Security'] — sshsplit featured
+- 2010-03-27-implementing-coins.md — old ['Open Access', 'Technology'] vs new ['Scholarly Communications'] — Implementing COinS
+- 2010-05-01-running-zotero-on-ubuntu-lucid.md — old ['Open Access', 'Technology'] vs new ['Linux'] — Running Zotero on Ubuntu Lucid
+- 2010-07-22-plagiarism-by-semiotexte-translations.md — old ['Literature'] vs new ['Academia', 'Copyright and Licensing'] — Plagiarism by Semiotext(e) translations?
+- 2010-09-08-conditional-css-in-open-journalconference-systems.md — old ['Open Access', 'Technology'] vs new ['Publishing Technology'] — Conditional CSS in Open Journal/Conference Systems
+- 2010-12-01-alternativecomplementary-medicine-and-mass-anecdotal-evidence-as-theological-in-structure.md — old ['Personal', 'Politics'] vs new ['Philosophy', 'Health'] — Alternative/Complementary Medicine and Mass Anecdotal Evidence as Theological in Structure
+- 2010-12-20-mendeley-android-client-first-preview-and-oauth-problem.md — old ['Academia', 'Technology'] vs new ['Programming'] — Mendeley Android client; first preview and OAuth problem
+- 2010-12-30-using-unison-to-synchronize-and-backup-your-work-part-1.md — old ['Technology'] vs new ['Linux'] — Using Unison to synchronize and backup your work [Part 1]
+- 2011-01-04-oauth-for-mendeley-on-android-solved-and-a-bug.md — old ['Technology'] vs new ['Programming'] — OAuth for Mendeley on Android: solved and a bug
+- 2011-01-11-mendeley-for-android-screenshot-of-collection-display.md — old ['Academia', 'Technology'] vs new ['Programming'] — Mendeley for Android: screenshot of collection display
+- 2011-01-21-picture-this-postcards-competition.md — old ['Academia', 'Open Access'] vs new ['Conferences', 'Literature'] — Picture this: Postcards Competition
+- 2011-01-24-mendeley-for-android-progress-update.md — old ['Technology'] vs new ['Programming'] — Mendeley for Android: Progress update
+- 2011-02-21-mendeley-for-android-update.md — old ['Technology'] vs new ['Programming'] — Mendeley for Android Update
+- 2011-03-04-in-dubio-contra-reum-a-definition.md — old ['Academia'] vs new ['Philosophy'] — In Dubio Contra Reum: a definition
+- 2011-03-15-unreasonable-fees-by-which-metric.md — old ['Academia', 'Personal', 'Politics'] vs new ['Higher Education'] — "(Un)Reasonable" fees by which metric?
+- 2011-04-21-crossword-helper-for-android.md — old ['Technology'] vs new ['Programming'] — Crossword Helper for Android
+- 2011-04-24-romeo-castellucci-societas-raffaello-sanzios-on-the-concept-of-the-face-regarding-the-son-of-god.md — old ['Academia', 'Music'] vs new ['Literature'] — Romeo Castellucci / Socìetas Raffaello Sanzio's "On the Concept of the Face, Regarding the Son of God"
+- 2011-06-28-uk-he-white-paper-day.md — old ['Academia', 'Politics'] vs new ['Higher Education'] — UK HE White Paper day
+- 2011-07-11-change-of-license-all-content-now-cc-by.md — old ['Open Access', 'Technology'] vs new ['Copyright and Licensing'] — Change of license: all content now CC-BY
+- 2011-08-27-hefce-board-appointments-learning-through-argos.md — old ['Academia', 'Politics'] vs new ['Higher Education'] — HEFCE board appointments: learning through Argos
+- 2011-09-03-installing-zotero-on-ubuntu-oneiric-11-10beta.md — old ['Technology'] vs new ['Linux'] — Installing Zotero on Ubuntu Oneiric (11.10/Beta)
+- 2011-10-21-reading-the-my-marxist-feminist-dialectic-brings-all-the-boys-to-the-yard-t-shirt.md — old ['Academia', 'Literature'] vs new ['Philosophy', 'Teaching'] — Reading the "My Marxist Feminist Dialectic Brings all the Boys to the Yard" T-Shirt
+- 2011-11-05-brian-lobel-ball-and-other-funny-stories-about-cancer.md — old ['Music'] vs new ['Literature'] — Brian Lobel: BALL and Other Funny Stories About Cancer
+- 2011-12-16-mexmlgalley-now-supporting-image-insertion-ojs-xml-to-pdf.md — old ['Open Access', 'Technology'] vs new ['Publishing Technology', 'Programming'] — meXmlGalley now supporting image insertion (OJS: XML to PDF)
+- 2011-12-30-account-aggregation-with-uk-banks-and-a-free-software-lloyds-tsb-scraper.md — old ['Technology'] vs new ['Programming'] — Account aggregation with UK banks and a free software Lloyds TSB scraper
+- 2012-03-30-the-problems-for-small-open-access-journals-in-terms-of-digital-preservation.md — old ['Academia', 'Technology'] vs new ['Digital Preservation', 'Open Access'] — The problems for small Open Access journals in terms of digital preservation
+- 2012-06-06-metadata-handling-for-open-access-journal-pdfs.md — old ['Academia', 'Open Access', 'Technology'] vs new ['Publishing Technology', 'Scholarly Communications'] — Metadata handling for Open Access Journal PDFs
+- 2012-08-01-perverse-advert-for-bite-keep-calm-about-university-fees.md — old ['Academia', 'Politics'] vs new ['Higher Education'] — Perverse advert for BITE: "Keep Calm About University Fees"
+- 2012-08-05-e-books-copyright-infringement-theft-materiality-and-the-virtual.md — old ['Literature', 'Open Access', 'Technology'] vs new ['Copyright and Licensing', 'Piracy and Shadow Libraries'] — E-Books: Copyright Infringement, Theft, Materiality and the Virtual
+- 2012-09-08-what-will-the-humanities-do-post-finch-or-where-are-the-oa-venues.md — old ['Academia', 'Literature'] vs new ['Open Access', 'Higher Education'] — What will the Humanities do Post-Finch? (or: where are the OA venues?)
+- 2012-10-19-orbit-1-2-is-now-open-and-our-rolling-format-is-live.md — old ['Academia'] vs new ['Open Access', 'Thomas Pynchon'] — Orbit 1.2 is now "open" and our "rolling format" is live
+- 2012-10-24-open-journal-systems-now-supports-archiving-with-clockss-out-of-the-box.md — old ['Academia', 'Open Access', 'Publications', 'Technology'] vs new ['Publishing Technology', 'Digital Preservation'] — Open Journal Systems now supports archiving with CLOCKSS out of the box
+- 2012-11-02-more-on-ojs-and-clockss.md — old ['Academia', 'Open Access', 'Technology'] vs new ['Publishing Technology', 'Digital Preservation'] — More on OJS and CLOCKSS
+- 2012-12-13-alluvium-technical-news-doi-numbers-clockss-and-mla-bibliography.md — old ['Academia', 'Open Access', 'Technology'] vs new ['Scholarly Communications', 'Digital Preservation', 'Copyright and Licensing'] — Alluvium technical news: DOI numbers, CLOCKSS and MLA Bibliography
+- 2012-12-30-tech-things-i-have-learned-in-the-last-12-hours.md — old ['Technology'] vs new ['Linux'] — Tech things I have learned in the last 12 hours
+- 2013-03-26-crossref-dois-and-preparing-for-future-assignment.md — old ['Open Access', 'Technology'] vs new ['Scholarly Communications', 'Programming'] — CrossRef, DOIs and Preparing for Future Assignment
+- 2013-03-29-exposing-xml-data-for-orbit.md — old ['Open Access', 'Technology'] vs new ['Publishing Technology'] — Exposing XML data for Orbit
+- 2013-05-12-getting-free_cite-running-on-your-own-server.md — old ['Open Access', 'Technology'] vs new ['Publishing Technology', 'Programming'] — Getting free_cite running on your own server
+- 2013-07-14-displaying-ee-mobile-data-usage-in-conky.md — old ['Technology'] vs new ['Linux'] — Displaying EE mobile data usage in Conky
+- 2013-07-20-punchdrunks-the-drowned-man.md — old ['Academia', 'Music'] vs new ['Literature'] — Punchdrunk's The Drowned Man
+- 2013-07-28-determining-glyph-availability-for-fop.md — old ['Technology'] vs new ['Publishing Technology'] — Determining glyph availability for FOP
+- 2013-07-28-rendering-mathml-in-xslfo-to-pdf-using-fop.md — old ['Technology'] vs new ['Publishing Technology'] — Rendering MathML in XSL:FO to PDF using fop
+- 2014-01-06-introducing-eprintscv-a-python-script-to-create-an-academic-web-cv-from-your-eprints-record.md — old ['Linux', 'Technology'] vs new ['Programming'] — Introducing eprintsCV: a python script to create an academic web CV from your eprints record
+- 2014-01-19-every-generation-has-its-philosopher.md — old ['Open Access'] vs new ['Technology'] — "Every generation has its philosopher"
+- 2014-02-22-google-scholar-will-count-a-blog-post-as-an-article-if-its-cited-a-preservation-suggesstion.md — old ['Academia', 'Open Access'] vs new ['Scholarly Communications', 'Digital Preservation'] — Google Scholar will count a blog post as an article if it's cited: a preservation suggestion
+- 2014-02-27-debugging-metypeset-using-a-git-filesystem.md — old ['Open Access', 'Technology'] vs new ['Publishing Technology', 'Programming'] — Debugging meTypeset using a git filesystem
+- 2014-03-06-who-owns-a-prezi.md — old ['Technology'] vs new ['Copyright and Licensing'] — Who owns a Prezi?
+- 2014-03-10-scholars-and-scientists-who-work-in-languages-other-than-english-please-help.md — old ['Academia', 'Technology'] vs new ['Publishing Technology'] — Scholars and scientists who work in languages other than English: please help
+- 2014-04-17-bitmask-values-for-wtbllook-wval-attribute-in-ooxml.md — old ['Technology'] vs new ['Publishing Technology'] — Bitmask values for w:tblLook w:val attribute in OOXML
+- 2014-05-31-here-by-the-sea-and-sand-a-symposium-on-quadrophenia.md — old ['Academia'] vs new ['Conferences', 'Music'] — Here by the Sea and Sand: A Symposium on Quadrophenia
+- 2014-06-22-typesetting-jats-bibliographies-using-csl-and-zotero.md — old ['Academia', 'Open Access', 'Technology'] vs new ['Publishing Technology', 'Programming'] — Typesetting JATS bibliographies using CSL and Zotero
+- 2014-07-05-semantically-marking-up-jats-bibliographies-using-metypeset-and-zotero.md — old ['Open Access', 'Technology'] vs new ['Publishing Technology', 'Programming'] — Semantically marking up JATS bibliographies using meTypeset and Zotero
+- 2015-03-02-object-thinking-systems-description-languages-and-the-future-of-the-book.md — old ['Academia', 'Open Access'] vs new ['Programming', 'Publishing Technology'] — Object Thinking, Systems Description Languages and the Future of the Book
+- 2015-04-05-publishers-serving-authors-or-readers.md — old ['Personal'] vs new ['Open Access'] — Publishers: Serving Authors or Readers?
+- 2015-06-28-the-link-between-teaching-tuition-fees-and-research-publication-economics.md — old ['Open Access', 'Publications'] vs new ['Academia', 'Higher Education'] — The link between teaching, tuition fees and research publication economics
+- 2015-08-19-wordpress-php-eval-attacks.md — old ['Technology'] vs new ['Information Security'] — Wordpress php eval attacks
+- 2016-02-16-understanding-ofquals-inter-subject-comparability-rasch-model-tests-for-easyhard-subjects-at-gcse-and-a-level.md — old ['Teaching'] vs new ['Higher Education'] — Trying to understand Ofqual's inter-subject comparability Rasch model tests for easy/hard subjects at GCSE and A-Level

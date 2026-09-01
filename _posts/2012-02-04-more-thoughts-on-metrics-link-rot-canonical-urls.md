@@ -1,7 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/02/04/more-thoughts-on-metrics-link-rot-canonical-urls
 categories:
-- Technology
+- Scholarly Communications
+- Digital Preservation
 - Open Access
 comments:
 - author: Dr Ernesto Priego

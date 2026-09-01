@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/04/15/in-the-beginning-was-the-word
-categories: []
+categories:
+- Publishing Technology
 date: 2015-04-15
 doi: https://doi.org/10.59348/3faq7-3r117
 layout: post

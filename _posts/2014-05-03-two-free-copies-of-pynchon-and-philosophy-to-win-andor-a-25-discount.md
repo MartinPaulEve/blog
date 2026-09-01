@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/05/03/two-free-copies-of-pynchon-and-philosophy-to-win-andor-a-25-discount
 categories:
-- Literature
 - Thomas Pynchon
-- Academia
+- Publications
 comments: []
 date: 2014-05-03 17:15:19 +0200
 date_gmt: 2014-05-03 16:15:19 +0200

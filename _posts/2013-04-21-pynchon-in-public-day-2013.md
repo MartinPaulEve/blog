@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/04/21/pynchon-in-public-day-2013
 categories:
-- Literature
 - Thomas Pynchon
 comments: []
 date: 2013-04-21 15:27:28 +0200

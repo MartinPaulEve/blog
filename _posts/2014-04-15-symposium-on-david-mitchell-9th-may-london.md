@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/04/15/symposium-on-david-mitchell-9th-may-london
 categories:
+- Conferences
 - Literature
-- Academia
 comments: []
 date: 2014-04-15 15:32:27 +0200
 date_gmt: 2014-04-15 14:32:27 +0200

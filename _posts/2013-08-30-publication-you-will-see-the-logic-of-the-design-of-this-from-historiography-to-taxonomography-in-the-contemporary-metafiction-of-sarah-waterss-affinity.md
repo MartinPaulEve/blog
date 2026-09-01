@@ -1,10 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/08/30/publication-you-will-see-the-logic-of-the-design-of-this-from-historiography-to-taxonomography-in-the-contemporary-metafiction-of-sarah-waterss-affinity
 categories:
-- Literature
-- Academia
 - Publications
-- Output
+- Literature
 comments: []
 date: 2013-08-30 17:06:27 +0200
 date_gmt: 2013-08-30 16:06:27 +0200

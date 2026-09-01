@@ -1,10 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/06/12/another-adorno-against-wittgenstein-moment
 categories:
-- Academia
 - Philosophy
-- Theodor Adorno
-- Ludwig Wittgenstein
 comments: []
 date: 2012-06-12 11:12:49 +0200
 date_gmt: 2012-06-12 11:12:49 +0200

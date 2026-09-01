@@ -1,7 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/07/02/some-brief-thoughts-on-slavoj-zizek-at-lse
 categories:
-- Literature
+- Philosophy
 - Conferences
 comments: []
 date: 2010-07-02 08:43:00 +0200

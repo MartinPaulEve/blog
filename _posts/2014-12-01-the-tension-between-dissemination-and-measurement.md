@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/12/01/the-tension-between-dissemination-and-measurement
 categories:
-- Technology
 - Open Access
 - Academia
 comments: []

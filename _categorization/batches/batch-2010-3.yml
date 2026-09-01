@@ -1,0 +1,111 @@
+prompt_version: 1
+batch: batch-2010-3
+posts:
+- file: 2010-11-09-demo-2010.md
+  title: "DEMO 2010"
+  old: [Politics, Academia]
+  new: [Higher Education, Politics]
+  needs_review: false
+  note: "Protest against HE cuts and tuition fees; refined Academia hint to Higher Education."
+- file: 2010-11-14-online-crossword-helper-httpana-grammatic-org.md
+  title: "Online crossword helper: http://ana.grammatic.org"
+  old: [Technology, .NET]
+  new: [Programming]
+  needs_review: false
+  note: ""
+- file: 2010-11-16-wireless-when-housesitting-airmon-ng.md
+  title: "Wireless when housesitting (airmon-ng)"
+  old: [Technology, InfoSec]
+  new: [Information Security, Linux]
+  needs_review: false
+  note: "WEP-cracking penetration technique demonstrated with Ubuntu-specific aircrack-ng steps."
+- file: 2010-11-19-rockaby-text-annotation-software-gpl-alpha-announcement.md
+  title: "Rockaby: text annotation software [GPL, alpha, announcement]"
+  old: [Literature, Technology, Open Access, Academia, Django]
+  new: [Programming]
+  needs_review: false
+  note: "Author's own Django software release; Pynchon/Gravity's Rainbow is only the demo context."
+- file: 2010-11-19-userspace-responsiveness-bashrc-alternative-ubuntu-10-10-working.md
+  title: "Userspace responsiveness .bashrc alternative (Ubuntu 10.10: Working)"
+  old: [Technology, Linux]
+  new: [Linux]
+  needs_review: false
+  note: ""
+- file: 2010-11-22-vince-cables-orwell-esque-doublethink.md
+  title: "Vince Cable's Orwell-esque doublethink"
+  old: [Literature, Politics, Academia]
+  new: [Higher Education, Politics]
+  needs_review: false
+  note: "Tuition-fees political commentary; Orwell is used as a rhetorical frame, not substantive lit-crit, so dropped Literature."
+- file: 2010-11-24-fixing-headphone-jack-on-toshiba-satellite-c650d-under-ubuntu-linux-maverick.md
+  title: "Fixing headphone jack on Toshiba Satellite C650D under Ubuntu Linux Maverick"
+  old: [Technology, Linux]
+  new: [Linux]
+  needs_review: false
+  note: ""
+- file: 2010-12-01-alternativecomplementary-medicine-and-mass-anecdotal-evidence-as-theological-in-structure.md
+  title: "Alternative/Complementary Medicine and Mass Anecdotal Evidence as Theological in Structure"
+  old: [Personal, Politics]
+  new: [Philosophy, Health]
+  needs_review: true
+  note: "Epistemological/theological argument about alternative medicine grounded in the author's rheumatoid arthritis; no political-policy content, so dropped Politics hint."
+- file: 2010-12-01-researchers-libraries-and-publishers-what-does-the-future-hold.md
+  title: "Researchers, Libraries and Publishers: What does the future hold?"
+  old: [Open Access, Academia]
+  new: [Open Access, Academia]
+  needs_review: false
+  note: ""
+- file: 2010-12-02-rockaby-refactoring-and-abstraction.md
+  title: "Rockaby refactoring and abstraction"
+  old: [Literature, Technology, Django]
+  new: [Programming]
+  needs_review: false
+  note: "Python/Django code refactoring of the author's own project."
+- file: 2010-12-03-wikileaks-is-about-capitalist-paradigm-shift-not-single-government-overthrow.md
+  title: "Wikileaks is about capitalist paradigm shift, not single government overthrow"
+  old: [Personal, Politics]
+  new: [Politics]
+  needs_review: false
+  note: ""
+- file: 2010-12-08-converting-zotero-documents-to-mendeley.md
+  title: "Converting Zotero Documents to Mendeley"
+  old: [Technology, Open Access, Academia]
+  new: [Technology, Academia]
+  needs_review: false
+  note: "Reference-manager software/workflow for researchers; no open-access content, so dropped Open Access hint."
+- file: 2010-12-13-djiscography-a-django-based-discography-generator.md
+  title: "Djiscography: a Django-based discography generator"
+  old: [Technology, Open Access, Django]
+  new: [Programming]
+  needs_review: false
+  note: "Author's own Django software release."
+- file: 2010-12-14-our-duty-to-minorities.md
+  title: "Our Duty to Minorities"
+  old: [Personal, Politics]
+  new: [Politics]
+  needs_review: false
+  note: "Commentary on disability-benefit (DLA/ILF) cuts; health policy treated as Politics."
+- file: 2010-12-15-the-net-was-never-free-from-commercial-interest-its-not-a-new-threat-to-democratic-speech.md
+  title: "The 'net was never free from commercial interest; it's not a \"new\" threat to democratic speech"
+  old: [Technology, InfoSec, Personal, Politics]
+  new: [Politics, Information Security]
+  needs_review: false
+  note: "Free-speech/WikiLeaks argument alongside a substantive security thread (TOR, SSL, P2P, hosting)."
+- file: 2010-12-15-using-producteev-to-manage-overbearing-inboxes.md
+  title: "Using Producteev to manage overbearing Inboxes"
+  old: [Technology, Academia]
+  new: [Technology, Academia]
+  needs_review: false
+  note: ""
+- file: 2010-12-20-mendeley-android-client-first-preview-and-oauth-problem.md
+  title: "Mendeley Android client; first preview and OAuth problem"
+  old: [Technology, Android, Academia]
+  new: [Programming, Technology]
+  needs_review: false
+  note: "Author's own Android app development (Java, OAuth debugging)."
+- file: 2010-12-30-using-unison-to-synchronize-and-backup-your-work-part-1.md
+  title: "Using Unison to synchronize and backup your work [Part 1]"
+  old: [Technology]
+  new: [Linux]
+  needs_review: false
+  note: "Cross-platform tool but the how-to is Linux-centric (Ubuntu, ~/.unison, crontab); Linux is more specific than the Technology catch-all."

@@ -1,11 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/04/11/video-of-my-uksglive-presentation-on-the-future-of-academic-publishing
 categories:
-- Technology
 - Open Access
-- Academia
-- Output
-- Conference Papers
+- Conferences
 comments: []
 date: 2012-04-11 15:25:58 +0200
 date_gmt: 2012-04-11 15:25:58 +0200

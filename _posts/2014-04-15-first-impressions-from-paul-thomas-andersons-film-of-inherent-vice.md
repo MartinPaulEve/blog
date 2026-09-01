@@ -2,7 +2,6 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/04/15/first-impressions-from-paul-thomas-andersons-film-of-inherent-vice
 categories:
 - Thomas Pynchon
-- Academia
 comments: []
 date: 2014-04-15 20:33:56 +0200
 date_gmt: 2014-04-15 19:33:56 +0200

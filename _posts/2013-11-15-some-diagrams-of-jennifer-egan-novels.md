@@ -2,8 +2,7 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/11/15/some-diagrams-of-jennifer-egan-novels
 categories:
 - Literature
-- Academia
-- Jennifer Egan
+- Digital Humanities
 comments: []
 date: 2013-11-15 15:59:26 +0100
 date_gmt: 2013-11-15 15:59:26 +0100

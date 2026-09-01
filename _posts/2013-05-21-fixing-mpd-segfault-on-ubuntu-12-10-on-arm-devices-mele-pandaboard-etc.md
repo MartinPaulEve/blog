@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/05/21/fixing-mpd-segfault-on-ubuntu-12-10-on-arm-devices-mele-pandaboard-etc
 categories:
-- Technology
 - Linux
 comments: []
 date: 2013-05-21 14:35:14 +0200

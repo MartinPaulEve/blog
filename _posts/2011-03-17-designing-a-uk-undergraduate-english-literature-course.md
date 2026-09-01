@@ -1,11 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/03/17/designing-a-uk-undergraduate-english-literature-course
 categories:
-- Literature
-- Academia
-- Theodor Adorno
-- Max Horkheimer
 - Teaching
+- Literature
 comments:
 - author: Lianne
   author_email: lianne_demello@hotmail.com

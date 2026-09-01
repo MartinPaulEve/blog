@@ -1,10 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/09/25/writing-a-plugin-for-open-journal-systems-part-2
 categories:
-- Technology
-- Open Access
-- Linux
-- PHP
+- Publishing Technology
+- Programming
 comments:
 - author: Armin Guenther
   author_email: armin.guenther@augusta.de

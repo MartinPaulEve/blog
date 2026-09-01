@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2007/05/15/bypass-asp-net-xss-protection-in-internet-explorer
 categories:
-- Technology
-- InfoSec
-- .NET
+- Information Security
 comments: []
 date: 2007-05-15 14:03:24 +0200
 date_gmt: 2007-05-15 14:03:24 +0200

@@ -8,6 +8,8 @@ layout: post
 ogImage: images/oa.png
 title: The British Academy response misrepresents Plan S and OA
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6rjpqd2r"
+categories:
+- Open Access
 ---
 
 The [British Academy has responded](https://www.thebritishacademy.ac.uk/sites/default/files/A_commentary_by_the_British_Academy_on_final_Plan_S-July_2019.pdf) to the revised Plan S consultation. It's nice of them to grudgingly accept there have been some improvements but I remain dismayed by the continued misrepresentation of Plan S within their documents. I will here quote some of the elements of their response that I believe misread or misrepresent Plan S. This post is strictly my personal opinion based on my academic expertise.

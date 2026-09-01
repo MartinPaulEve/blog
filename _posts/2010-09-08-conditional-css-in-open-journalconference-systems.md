@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/09/08/conditional-css-in-open-journalconference-systems
 categories:
-- Technology
-- Open Access
+- Publishing Technology
 comments: []
 date: 2010-09-08 10:20:06 +0200
 date_gmt: 2010-09-08 10:20:06 +0200

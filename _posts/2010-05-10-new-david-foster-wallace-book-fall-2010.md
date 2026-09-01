@@ -2,7 +2,6 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/05/10/new-david-foster-wallace-book-fall-2010
 categories:
 - Literature
-- David Foster Wallace
 comments: []
 date: 2010-05-10 16:54:13 +0200
 date_gmt: 2010-05-10 16:54:13 +0200

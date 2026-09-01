@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2007/06/26/httponly-cookies-in-net-2-0
 categories:
-- Technology
-- .NET
+- Information Security
+- Programming
 comments: []
 date: 2007-06-26 17:24:31 +0200
 date_gmt: 2007-06-26 17:24:31 +0200

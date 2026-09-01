@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/03/23/picture-this-postcards-exhibition
 categories:
-- Literature
 - Conferences
-- Academia
+- Literature
 comments: []
 date: 2011-03-23 11:53:27 +0100
 date_gmt: 2011-03-23 11:53:27 +0100

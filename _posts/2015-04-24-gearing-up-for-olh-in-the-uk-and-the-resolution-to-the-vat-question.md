@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/04/24/gearing-up-for-olh-in-the-uk-and-the-resolution-to-the-vat-question
 categories:
-- open access
-- OLH
+- Open Access
 date: 2015-04-24
 doi: https://doi.org/10.59348/8pysd-7tw43
 image:

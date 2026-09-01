@@ -1,7 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/04/28/my-ahea-success-featured-in-rustle
 categories:
-- Academia
+- Personal
 - Teaching
 comments: []
 date: 2011-04-28 09:05:28 +0200

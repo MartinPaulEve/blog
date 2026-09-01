@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/06/23/dumping-jats-from-zotero
 categories:
-- Technology
-- Open Access
-- meTypeset
+- Publishing Technology
+- Programming
 comments: []
 date: 2014-06-23 10:14:11 +0200
 date_gmt: 2014-06-23 09:14:11 +0200

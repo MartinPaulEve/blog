@@ -3,7 +3,6 @@ alias: /2015/02/06/financing-for-fee-driven-gold-open-access
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/02/06/financing-for-free-driven-gold-open-access
 categories:
 - Open Access
-- Academia
 comments: []
 date: 2015-02-06
 doi: https://doi.org/10.59348/7s3qd-5tt14

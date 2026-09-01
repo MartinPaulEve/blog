@@ -1,10 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/09/22/on-the-impurity-of-the-humanities-and-critical-university-studies
 categories:
-- Technology
-- Open Access
-- Politics
 - Academia
+- Philosophy
 comments: []
 date: 2012-09-22 10:27:18 +0200
 date_gmt: 2012-09-22 09:27:18 +0200

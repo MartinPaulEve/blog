@@ -2,6 +2,7 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/03/05/publication-co-operating-for-gold-open-access-without-apcs
 categories:
 - Publications
+- Open Access
 comments: []
 date: 2015-03-05
 doi: 10.1629/uksg.166

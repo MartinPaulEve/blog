@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/04/12/it-is-never-a-good-time-to-start-a-new-journal
-categories: []
+categories:
+- Academia
 date: 2015-04-12
 doi: https://doi.org/10.59348/8ebc4-03306
 layout: post

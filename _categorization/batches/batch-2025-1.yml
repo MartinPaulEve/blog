@@ -1,0 +1,87 @@
+prompt_version: 1
+batch: batch-2025-1
+posts:
+- file: 2025-01-08-getting-knowledge-commons-works-running-locally.md
+  title: "Getting Knowledge Commons Works running locally"
+  old: []
+  new: [Scholarly Communications, Programming]
+  needs_review: false
+  note: ""
+- file: 2025-02-06-an-introduction-to-the-poetry-of-emily-dickinson.md
+  title: "An introduction to the poetry of Emily Dickinson"
+  old: []
+  new: [Literature]
+  needs_review: false
+  note: ""
+- file: 2025-02-06-going-dark-running-a-tor-relay-and-a-dark-web-version-of-this-site.md
+  title: "Going Dark: Running a Tor relay and a dark web version of this site"
+  old: []
+  new: [Information Security]
+  needs_review: false
+  note: ""
+- file: 2025-02-11-an-introduction-to-charlotte-perkins-gilmans-the-yellow-wallpaper.md
+  title: "An Introduction to Charlotte Perkins-Gilman's 'The Yellow Wallpaper'"
+  old: []
+  new: [Literature]
+  needs_review: false
+  note: ""
+- file: 2025-02-13-what-to-do-when-your-tor-relay-isnt-listening.md
+  title: "What to do when your Tor relay isn't listening"
+  old: []
+  new: [Information Security]
+  needs_review: false
+  note: ""
+- file: 2025-02-16-how-to-securely-create-an-encrypted-digital-in-case-of-death-document.md
+  title: "How to securely create an encrypted digital 'in case of death' document"
+  old: []
+  new: [Information Security]
+  needs_review: false
+  note: ""
+- file: 2025-02-18-getting-external-access-to-buddypresss-notifications-for-knowledge-commons.md
+  title: "Getting external access to BuddyPress's notifications (for Knowledge Commons)"
+  old: []
+  new: [Programming, Scholarly Communications]
+  needs_review: false
+  note: ""
+- file: 2025-02-21-swimming-upstream.md
+  title: "Swimming upstream"
+  old: []
+  new: [Scholarly Communications, Programming]
+  needs_review: false
+  note: ""
+- file: 2025-03-14-testing-1-2-3-on-software-testing-and-why-its-interesting-even-to-non-developersnon-coders.md
+  title: "Testing 1, 2, 3 (on software testing and why it's interesting even to non-developers/non-coders)"
+  old: []
+  new: [Programming]
+  needs_review: false
+  note: ""
+- file: 2025-03-20-a-successful-leverhulme-prize-application-in-the-field-of-languages-and-literature.md
+  title: "A successful Philip Leverhulme Prize application in the field of languages and literature from 2019"
+  old: []
+  new: [Academia]
+  needs_review: false
+  note: ""
+- file: 2025-03-21-a-critical-bibliography-about-libgen-the-pirate-site-that-meta-used-for-ai-training.md
+  title: "A critical bibliography about LibGen, the pirate site that Meta used for AI training"
+  old: []
+  new: [Piracy and Shadow Libraries]
+  needs_review: false
+  note: ""
+- file: 2025-03-22-a-few-critical-notes-on-elly-griffiths-the-frozen-people.md
+  title: "A few critical notes on Elly Griffith's The Frozen People"
+  old: []
+  new: [Literature]
+  needs_review: false
+  note: ""
+- file: 2025-04-02-open-journals-collective-making-open-access-a-reality-at-scale.md
+  title: "Open Journals Collective: Making Open Access a Reality at Scale"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2025-04-11-rage-against-the-machine-the-politics-of-open-access-large-language-models-and-the-reaction-against-open.md
+  title: "Work in progress: 'Rage Against the Machine: The Politics of Open Access, Large Language Models, and the Reaction Against Open'"
+  old: []
+  new: [Open Access, Artificial Intelligence]
+  needs_review: false
+  note: ""

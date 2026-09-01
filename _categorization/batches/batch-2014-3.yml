@@ -1,0 +1,135 @@
+prompt_version: 1
+batch: batch-2014-3
+posts:
+- file: 2014-09-03-why-do-some-academic-publishers-think-they-should-charge-extra-for-more-liberal-licenses-cc-by.md
+  title: "Why do some academic publishers think they should charge extra for more liberal licenses (CC BY)?"
+  old: [Open Access]
+  new: [Open Access, Copyright and Licensing]
+  needs_review: false
+  note: "Added Copyright and Licensing: the post's argument turns on CC BY licensing and copyright monopolies, not only OA pricing."
+- file: 2014-09-04-whats-so-moral-about-the-moral-rights-of-copyright-for-academics.md
+  title: "What's so moral about the \"moral rights\" of copyright for academics?"
+  old: [Open Access]
+  new: [Copyright and Licensing, Open Access]
+  needs_review: false
+  note: "Content is chiefly an analysis of the moral rights of copyright; open licensing/OA is the secondary frame."
+- file: 2014-09-05-ranciere-misreading-kautsky.md
+  title: "Rancière misreading Kautsky?"
+  old: [Academia, Philosophy]
+  new: [Philosophy]
+  needs_review: false
+  note: "Dropped the Academia hint: this is a close reading of Rancière/Kautsky Marxist theory, not academic life or practice."
+- file: 2014-09-05-things-academia-edu-academia-should-do-hint-work-with-green-oa.md
+  title: "Things academia.edu (@academia) should do (hint: work with green OA)"
+  old: [Technology, Open Access, Academia]
+  new: [Open Access, Technology]
+  needs_review: false
+  note: "Green OA/repository advocacy is the core; platform critique keeps Technology. Dropped Academia — not about academic practice itself."
+- file: 2014-09-06-define-impact.md
+  title: "Define: impact"
+  old: [Academia]
+  new: [Academia, Higher Education]
+  needs_review: false
+  note: "One-sentence satirical definition of the (REF-era) impact agenda; added Higher Education for the policy target."
+- file: 2014-09-08-university-presses-and-commercial-publishers-should-start-offering-green-oa-for-monographs.md
+  title: "University Presses and Commercial Publishers should start offering green OA for monographs"
+  old: [Technology, Open Access]
+  new: [Open Access]
+  needs_review: false
+  note: "Dropped the Technology hint: pure green OA monographs advocacy with no technical content."
+- file: 2014-09-13-is-open-access-a-solution-without-a-problem-for-the-humanities.md
+  title: "Is open access a \"solution without a problem\" for the humanities?"
+  old: [Open Access]
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2014-09-15-academic-libraries-and-non-disclosure-clauses-institutions-should-internally-mandate-against-them.md
+  title: "Academic Libraries and Non-Disclosure Clauses: institutions should internally mandate against them"
+  old: [Open Access]
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2014-10-04-pondering-a-solution-to-the-problem-of-learned-societies-and-the-transition-to-open-access.md
+  title: "Pondering a solution to the problem of Learned Societies and the transition to open access"
+  old: [Open Access]
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2014-11-02-were-a-small-learned-society-charging-25-what-are-we-doing-wrong-oa-for-small-society-journals.md
+  title: "We're a small learned society charging £25. What are we doing wrong?: OA for small society journals"
+  old: [Open Access, Academia]
+  new: [Open Access]
+  needs_review: false
+  note: "Dropped the Academia hint: entirely OA economics for learned-society journals."
+- file: 2014-11-05-discussingannotating-the-history-manifesto-and-the-open-access-effect.md
+  title: "Discussing/annotating The History Manifesto and the open access effect(?)"
+  old: [Technology, Open Access, Academia]
+  new: [Open Access, Technology]
+  needs_review: false
+  note: "OA-book engagement is the core; hypothes.is/Twitter platform discussion keeps Technology. Dropped Academia."
+- file: 2014-11-12-universities-dh-the-crowd-and-labour-that-looks-like-a-game.md
+  title: "Universities, DH, “the crowd”, and labour that looks like a game"
+  old: [Academia]
+  new: [Academia, Digital Humanities]
+  needs_review: false
+  note: "Critique of crowdsourced labour in DH projects; the Triangle SCI event mention is brief framing, so no Conferences."
+- file: 2014-11-13-because-we-care-about-our-planet.md
+  title: "\"Because we care about our planet...\""
+  old: [Politics]
+  new: [Politics]
+  needs_review: false
+  note: "Satire of corporate greenwashing via a patented cup sleeve; patents fall outside the copyright-focused taxonomy category, so Politics alone."
+- file: 2014-11-22-above-and-beyond-good-and-bad-surpluses-in-academic-publishing.md
+  title: "Above and beyond: “good” and “bad” surpluses in academic publishing"
+  old: [Open Access, Academia]
+  new: [Open Access]
+  needs_review: false
+  note: "Dropped the Academia hint: the post is about OA publishing economics and acceptable surpluses."
+- file: 2014-11-23-current-working-music.md
+  title: "Current working music"
+  old: [Personal]
+  new: [Music, Personal]
+  needs_review: false
+  note: "A listening list, so Music leads; kept Personal as it is life miscellany."
+- file: 2014-11-26-a-consumerist-rant-whats-wrong-with-banks.md
+  title: "A consumerist rant: what's wrong with banks"
+  old: [Personal]
+  new: [Personal]
+  needs_review: false
+  note: ""
+- file: 2014-11-27-book-open-access-and-the-humanities.md
+  title: "Book: Open Access and the Humanities"
+  old: [Academia, Publications, Output]
+  new: [Publications, Open Access]
+  needs_review: false
+  note: "Book-launch announcement: Publications plus the subject category of the work, per the co-occurrence rule."
+- file: 2014-12-01-the-tension-between-dissemination-and-measurement.md
+  title: "The tension between dissemination and measurement"
+  old: [Technology, Open Access, Academia]
+  new: [Open Access, Academia]
+  needs_review: false
+  note: "Dropped the Technology hint: OA dissemination vs. metrics/assessment, no technical content."
+- file: 2014-12-10-gold-open-access-and-article-processing-charges.md
+  title: "Gold Open Access and Article Processing Charges: Point of Risk and the Risk Pool"
+  old: [Technology, Open Access, Academia]
+  new: [Open Access]
+  needs_review: false
+  note: "Dropped Technology and Academia hints: entirely gold OA / APC / consortial funding economics."
+- file: 2014-12-15-webinar-to-talk-open-access-with-mweller.md
+  title: "Online p̶a̶r̶t̶y̶ webinar to talk open access with @mweller and me: Tuesday 16th December 3pm"
+  old: [Open Access, Academia]
+  new: [Conferences, Open Access]
+  needs_review: false
+  note: "Event/webinar announcement, so Conferences plus subject per the co-occurrence rule; dropped Academia."
+- file: 2014-12-16-my-2014-round-up.md
+  title: "My 2014 round-up"
+  old: [Personal, Academia]
+  new: [Personal, Academia]
+  needs_review: false
+  note: "Year-in-review that is substantially a professional publications/talks record, so Academia added per the rule."
+- file: 2014-12-19-tied-to-the-mast-a-response-to-rmss-principles-for-loyal-computers.md
+  title: "Tied to the mast? A response to RMS's principles for loyal computers"
+  old: [Technology, Academia]
+  new: [Technology]
+  needs_review: false
+  note: "Dropped the Academia hint: free-software/remote-attestation commentary with no academic-practice content."

@@ -1,0 +1,147 @@
+prompt_version: 1
+batch: batch-2011-4
+posts:
+- file: 2011-06-08-six-lines-to-get-sun-java-running-on-fedora-15-x64.md
+  title: "Six lines to get Sun Java running on Fedora 15 x64"
+  old: [Technology, Linux]
+  new: [Linux]
+  needs_review: false
+  note: "Linux fix-it how-to; dropped Technology hint per the Linux-alone rule."
+- file: 2011-06-13-more-pynchonalia.md
+  title: "More Pynchonalia"
+  old: [Literature, Thomas Pynchon, Personal]
+  new: [Thomas Pynchon, Personal]
+  needs_review: false
+  note: "Pynchon-themed birthday gifts; no substantive non-Pynchon literature, so Literature hint dropped per rule."
+- file: 2011-06-14-upcoming-workshop-inbox-zero-and-tech-task-lists-getting-things-done.md
+  title: "Upcoming Workshop: Inbox zero and tech-task lists: getting things done"
+  old: [Technology, Academia, Teaching]
+  new: [Conferences, Academia, Technology]
+  needs_review: false
+  note: "Workshop announcement (Conferences per rule) on researcher productivity methods and tools; Teaching hint dropped as this is researcher development, not classroom pedagogy."
+- file: 2011-06-15-media-piece-taking-back-the-university-the-guardian.md
+  title: "Media piece: \"Taking Back the University\", The Guardian"
+  old: [Politics, Academia, Output, Public Engagement, Media]
+  new: [Publications, Higher Education]
+  needs_review: false
+  note: "Announcement of own Guardian piece (Publications); subject is university radicalism and HE funding politics, so Higher Education rather than the hinted generic Politics."
+- file: 2011-06-16-conference-paper-geo-specificity-of-enlightenment-in-mason-dixon-2011-06-24-university-of-glasgow.md
+  title: "Conference paper: Geo-specificity of Enlightenment in Mason & Dixon, 2011-06-24, University of Glasgow"
+  old: [Literature, Thomas Pynchon, Academia, Philosophy, Michel Foucault, Theodor Adorno, Max Horkheimer, Output, Conference Papers]
+  new: [Conferences, Thomas Pynchon, Philosophy]
+  needs_review: false
+  note: "Conference paper announcement on Pynchon via Foucault/Enlightenment; Literature dropped per Pynchon rule."
+- file: 2011-06-20-cfp-excursions-journal-states-of-emergence-states-of-emergency.md
+  title: "CFP: Excursions Journal: States of Emergence, States of Emergency"
+  old: [Literature, Politics, Academia, Philosophy]
+  new: [Conferences, Philosophy]
+  needs_review: false
+  note: "CFP (Conferences per rule); the theme is framed through Benjamin/Agamben critical theory, hence Philosophy as subject."
+- file: 2011-06-21-excursions-vol-2-issue-1-virus-2011.md
+  title: "Excursions, Vol. 2, Issue 1: Virus (2011)"
+  old: [Literature, Technology, Open Access, Academia, Output]
+  new: [Publications, Academia]
+  needs_review: true
+  note: "Very brief launch announcement of a journal issue the author co-edits; treated as Publications (own editorial output) plus Academia, but unsure whether an edited interdisciplinary issue merits Publications, and the thin body gives no clear subject category."
+- file: 2011-06-22-angry-young-academics-the-directors-cut.md
+  title: "Angry Young Academics: The \"Directors' Cut\""
+  old: [Personal, Politics, Academia]
+  new: [Higher Education, Academia]
+  needs_review: false
+  note: "Essay on university radicalism, HE funding cuts, and commodification of the PhD; Higher Education fits better than the hinted Politics/Personal."
+- file: 2011-06-24-the-8th-biennial-symbiosis-conference-day-1.md
+  title: "The 8th Biennial Symbiosis Conference: Day 1"
+  old: [Literature, Conferences, Academia]
+  new: [Conferences, Literature]
+  needs_review: false
+  note: ""
+- file: 2011-06-25-the-8th-biennial-symbiosis-conference-day-2.md
+  title: "The 8th Biennial Symbiosis Conference: Day 2"
+  old: [Literature, Thomas Pynchon, Conferences, David Foster Wallace, Academia, Philosophy, Michel Foucault, Ludwig Wittgenstein]
+  new: [Conferences, Literature, Thomas Pynchon]
+  needs_review: false
+  note: "Conference report spanning much non-Pynchon literature plus a full Pynchon panel (including the author's own paper), so Literature and Thomas Pynchon co-occur."
+- file: 2011-06-26-the-8th-biennial-symbiosis-conference-day-3.md
+  title: "The 8th Biennial Symbiosis Conference: Day 3"
+  old: [Literature, Thomas Pynchon, Conferences, Academia, Philosophy]
+  new: [Conferences, Literature]
+  needs_review: false
+  note: "Dropped the Thomas Pynchon hint: only one of six reported papers touches Pynchon; the day was dominated by Dickinson, Hume, Cunninghame Graham, and Zadie Smith."
+- file: 2011-06-27-enslavement-conference-portsmouth-17th-june-2011.md
+  title: "Enslavement Conference, Portsmouth, 17th June 2011"
+  old: [Literature, Thomas Pynchon, Conferences, Academia, Philosophy, Output, Conference Papers]
+  new: [Conferences, Literature]
+  needs_review: false
+  note: "Event report on a slavery-studies conference; the author's own Pynchon paper appears only as a link to its abstract, so the Thomas Pynchon and Philosophy hints were dropped."
+- file: 2011-06-28-is-academic-work-commercial-how-does-this-affect-libre-licensing.md
+  title: "Is academic work commercial? How does this affect libre licensing?"
+  old: [Technology, Open Access, Academia]
+  new: [Open Access, Copyright and Licensing]
+  needs_review: false
+  note: "On CC-BY vs CC-BY-NC for libre OA journals; squarely OA policy plus Creative Commons licensing, not Technology."
+- file: 2011-06-28-uk-he-white-paper-day.md
+  title: "UK HE White Paper day"
+  old: [Politics, Academia]
+  new: [Higher Education]
+  needs_review: false
+  note: "Liveblog of HE White Paper reactions; pure HE policy, so Higher Education alone rather than the hinted Politics/Academia."
+- file: 2011-07-05-dropbox-youve-missed-the-real-problem.md
+  title: "Dropbox: you've missed the real problem"
+  old: [Technology]
+  new: [Technology, Copyright and Licensing]
+  needs_review: false
+  note: "Platform commentary whose substance is an analysis of copyright licensing in Dropbox's terms of service, so Copyright and Licensing added."
+- file: 2011-07-06-a-thomas-pynchon-tattoo-recruit.md
+  title: "A Thomas Pynchon tattoo recruit"
+  old: [Literature, Thomas Pynchon, Personal]
+  new: [Thomas Pynchon, Personal]
+  needs_review: false
+  note: "Pynchon fandom anecdote; Literature hint dropped per Pynchon rule."
+- file: 2011-07-08-britain-or-america-for-the-phd-in-english.md
+  title: "Britain or America for the PhD in English?"
+  old: [Literature, Academia, Teaching]
+  new: [Academia]
+  needs_review: false
+  note: "Guest post of PhD-system advice; not literary criticism nor classroom pedagogy, so the Literature and Teaching hints were dropped."
+- file: 2011-07-11-change-of-license-all-content-now-cc-by.md
+  title: "Change of license: all content now CC-BY"
+  old: [Technology, Open Access]
+  new: [Copyright and Licensing]
+  needs_review: false
+  note: "Two-line notice that the blog moved to CC-BY; Creative Commons licensing is the whole content, so hints overridden."
+- file: 2011-07-11-orbit-writing-around-pynchon.md
+  title: "Orbit: Writing Around Pynchon"
+  old: [Literature, Technology, Thomas Pynchon, Open Access, Academia]
+  new: [Thomas Pynchon, Open Access]
+  needs_review: false
+  note: "Launch of the Orbit journal (named in the Thomas Pynchon criteria) with heavy emphasis on its Gold/Libre OA model."
+- file: 2011-07-21-i-have-nothing-to-do-with-this-dissertation-writing-service.md
+  title: "I have nothing to do with this \"dissertation writing service\""
+  old: [Academia]
+  new: [Academia, Copyright and Licensing]
+  needs_review: false
+  note: "Disavowal of an essay mill scraping his posts; substantive reflection on the CC-BY trade-off justifies Copyright and Licensing."
+- file: 2011-07-22-using-elliptical-curve-cryptography-in-openssh.md
+  title: "Using Elliptical Curve Cryptography in OpenSSH"
+  old: [Technology, InfoSec, Linux]
+  new: [Information Security, Linux]
+  needs_review: false
+  note: "Cryptography/SSH hardening how-to with Fedora/Debian build steps; Technology hint dropped as more specific categories fit."
+- file: 2011-07-30-thoughts-from-calling-all-agents-the-first-symposium-on-the-work-of-tom-mccarthy.md
+  title: "Thoughts from \"Calling All Agents\": The first symposium on the work of Tom McCarthy"
+  old: [Literature, Conferences, Academia, Philosophy, Michel Foucault]
+  new: [Conferences, Literature]
+  needs_review: false
+  note: "Symposium report on Tom McCarthy; philosophy (Speculative Realism, Critchley) appears only in service of literary discussion, and the Pynchon references are asides."
+- file: 2011-08-02-britain-or-america-for-the-phd-in-english-part-2.md
+  title: "Britain or America for the PhD in English? Part 2"
+  old: [Literature, Academia, Teaching]
+  new: [Academia]
+  needs_review: false
+  note: "Guest post continuing the PhD application guide; as with part 1, Literature and Teaching hints dropped since it is career/application advice."
+- file: 2011-08-03-conference-paper-it-sures-hell-looked-like-war-terrorism-and-the-cold-war-in-thomas-pynchons-against-the-day-and-don-delillos-underworld-2010-06-09-university-of-lublin.md
+  title: "Conference Paper: 'It sure's hell looked like war': Terrorism and the Cold War in Thomas Pynchon's Against the Day and Don DeLillo's Underworld', 2010-06-09, University of Lublin"
+  old: [Literature, Thomas Pynchon, Academia, Output, Conference Papers]
+  new: [Conferences, Thomas Pynchon, Literature]
+  needs_review: false
+  note: "Conference paper abstract; Literature retained alongside Thomas Pynchon because DeLillo's Underworld is analysed substantively in parallel."

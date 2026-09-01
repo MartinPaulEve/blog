@@ -8,6 +8,8 @@ layout: post
 ogImage: images/oa.png
 title: The T&F buyout of F1000 neutralizes the Plan S threat infrastructures
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6jub7q2h"
+categories:
+- Open Access
 ---
 
 I am tempted to think that Taylor & Francis's acquisition of F1000 should be critiqued on grounds of yet more gross for-profit consolidation in the scholarly publishing ecosystem. I believe this is true. But funders won't care. The EU wants to maintain its stance of market non-interference and I do not believe that the for-profit status of such entities bothers others like Wellcome or Gates.

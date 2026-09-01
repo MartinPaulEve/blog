@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/12/07/support-war-child-and-see-laurent-gardnerbooka-shadeleftfield-live-april-2012
 categories:
+- Music
 - Personal
-- Politics
 comments: []
 date: 2011-12-07 20:34:54 +0100
 date_gmt: 2011-12-07 20:34:54 +0100

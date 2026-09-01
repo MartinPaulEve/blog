@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/09/10/by-the-time-you-read-this-i-will-be
 categories:
-- Literature
 - Personal
 - Academia
 comments: []

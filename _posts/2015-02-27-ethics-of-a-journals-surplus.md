@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/02/27/ethics-of-a-journals-surplus
 categories:
-- Publishing
 - Open Access
 comments: []
 date: 2015-02-27

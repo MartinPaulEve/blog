@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/09/14/publishing-articles-in-pdf-via-xmlxslt-using-open-journal-systems-2-3-6
 categories:
-- Technology
-- Open Access
-- PHP
+- Publishing Technology
+- Programming
 comments: []
 date: 2011-09-14 11:28:17 +0200
 date_gmt: 2011-09-14 11:28:17 +0200

@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/04/15/enabling-a-triple-head-3-monitor-setup-on-linux-mint-16-petra-with-two-nvidia-cards
 categories:
-- Technology
 - Linux
 comments: []
 date: 2014-04-15 08:26:11 +0200

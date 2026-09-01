@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/02/09/an-old-tradition-and-a-new-technology-notes-on-why-open-access-remains-hard
 categories:
-- OA
-- scholcomms
+- Open Access
 date: 2016-02-09
 doi: https://doi.org/10.59348/6b662-p4e06
 image:

@@ -1,10 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/08/05/publication-all-that-glisters-investigating-collective-funding-mechanisms-for-gold-open-access-in-humanities-disciplines
 categories:
-- Open Access
-- Academia
 - Publications
-- Output
+- Open Access
 comments: []
 date: 2014-08-05 09:55:11 +0200
 date_gmt: 2014-08-05 08:55:11 +0200

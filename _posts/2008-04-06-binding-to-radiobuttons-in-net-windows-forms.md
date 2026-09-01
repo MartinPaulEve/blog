@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2008/04/06/binding-to-radiobuttons-in-net-windows-forms
 categories:
-- Technology
-- .NET
+- Programming
 comments: []
 date: 2008-04-06 09:38:56 +0200
 date_gmt: 2008-04-06 09:38:56 +0200

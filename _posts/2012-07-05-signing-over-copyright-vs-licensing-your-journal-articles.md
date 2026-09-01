@@ -1,7 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/07/05/signing-over-copyright-vs-licensing-your-journal-articles
 categories:
-- Open Access
+- Copyright and Licensing
 - Academia
 comments: []
 date: 2012-07-05 09:31:02 +0200

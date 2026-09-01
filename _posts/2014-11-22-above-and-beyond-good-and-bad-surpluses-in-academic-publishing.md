@@ -2,7 +2,6 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/11/22/above-and-beyond-good-and-bad-surpluses-in-academic-publishing
 categories:
 - Open Access
-- Academia
 comments: []
 date: 2014-11-22
 doi: https://doi.org/10.59348/9k802-9nk86

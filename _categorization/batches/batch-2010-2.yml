@@ -1,0 +1,111 @@
+prompt_version: 1
+batch: batch-2010-2
+posts:
+- file: 2010-06-09-international-pynchon-week-day-1.md
+  title: "International Pynchon Week: Day 1"
+  old: [Literature, Thomas Pynchon, Conferences]
+  new: [Thomas Pynchon, Conferences]
+  needs_review: false
+  note: ""
+- file: 2010-06-11-international-pynchon-week-2010-day-3.md
+  title: "International Pynchon Week 2010: Day 3"
+  old: [Literature, Thomas Pynchon, Conferences]
+  new: [Thomas Pynchon, Conferences]
+  needs_review: false
+  note: ""
+- file: 2010-06-11-international-pynchon-week-day-2.md
+  title: "International Pynchon Week: Day 2"
+  old: [Literature, Thomas Pynchon, Conferences]
+  new: [Thomas Pynchon, Conferences]
+  needs_review: false
+  note: ""
+- file: 2010-06-22-my-navy-days-with-thomas-ruggles-pynchon.md
+  title: My navy days with Thomas Ruggles Pynchon
+  old: [Literature, Thomas Pynchon, Personal]
+  new: [Thomas Pynchon, Personal]
+  needs_review: false
+  note: ""
+- file: 2010-07-02-some-brief-thoughts-on-slavoj-zizek-at-lse.md
+  title: Some brief thoughts on Slavoj Žižek at LSE
+  old: [Literature, Conferences]
+  new: [Philosophy, Conferences]
+  needs_review: false
+  note: "Overrode Literature hint: content is a write-up of a political-philosophy lecture (Žižek on capitalism and ecology), with no literary discussion."
+- file: 2010-07-22-plagiarism-by-semiotexte-translations.md
+  title: Plagiarism by Semiotext(e) translations?
+  old: [Literature]
+  new: [Academia, Copyright and Licensing]
+  needs_review: false
+  note: "Overrode Literature hint: the post concerns a plagiarism allegation over a Foucault translation and praises the CC-licensed alternative; it is about scholarly ethics and licensing, not literature."
+- file: 2010-08-15-htc-wildfire-stage-1-soft-root.md
+  title: HTC Wildfire Stage 1 Soft-Root
+  old: [Technology, Android, InfoSec]
+  new: [Information Security, Technology]
+  needs_review: false
+  note: ""
+- file: 2010-09-01-upcoming-journal-publishing-workshop.md
+  title: Upcoming journal publishing workshop
+  old: [Technology, Open Access]
+  new: [Conferences, Open Access, Publishing Technology]
+  needs_review: false
+  note: "Workshop announcement on using OJS to start OA journals; added Conferences and Publishing Technology per rules, dropped generic Technology."
+- file: 2010-09-08-conditional-css-in-open-journalconference-systems.md
+  title: Conditional CSS in Open Journal/Conference Systems
+  old: [Technology, Open Access]
+  new: [Publishing Technology]
+  needs_review: false
+  note: "Overrode Technology/Open Access hints: a template/CSS how-to for OJS/OCS is squarely publishing tooling."
+- file: 2010-09-17-first-fictions-conference.md
+  title: First Fictions conference
+  old: [Literature, Conferences]
+  new: [Conferences, Literature]
+  needs_review: false
+  note: ""
+- file: 2010-09-20-picture-this-postcards-and-letters-beyond-text.md
+  title: "Picture This: Postcards and Letters Beyond Text"
+  old: [Literature, Technology, Conferences, Open Access]
+  new: [Conferences, Literature]
+  needs_review: false
+  note: "Dropped Technology/Open Access hints: the OCS-run website is mentioned only in passing; the post is a CFP for a literary/epistolary conference."
+- file: 2010-09-28-speaking-of-open-access.md
+  title: Speaking of Open Access...
+  old: [Technology, Conferences, Open Access, Academia]
+  new: [Open Access, Conferences]
+  needs_review: false
+  note: "Talk announcement for Open Access Week; dropped generic Technology and Academia hints."
+- file: 2010-10-09-where-to-start-with-thomas-pynchon.md
+  title: Where to start with Thomas Pynchon?
+  old: [Literature, Thomas Pynchon, Academia]
+  new: [Thomas Pynchon]
+  needs_review: false
+  note: ""
+- file: 2010-10-24-notes-and-presentation-from-my-open-access-talk.md
+  title: Notes and Presentation from my Open Access talk
+  old: [Technology, Open Access]
+  new: [Open Access, Conferences]
+  needs_review: false
+  note: "Materials from a delivered talk; dropped generic Technology hint."
+- file: 2010-10-27-using-british-library-wifi-when-dhcp-fails.md
+  title: Using British Library wifi when DHCP fails
+  old: [Technology]
+  new: [Technology]
+  needs_review: false
+  note: ""
+- file: 2010-11-01-problematic-indexing-in-paul-rabinows-edited-foucault-volume-ethics.md
+  title: Problematic indexing in Paul Rabinow's edited Foucault volume, "Ethics"
+  old: [Academia, Philosophy, Michel Foucault]
+  new: [Philosophy, Academia]
+  needs_review: false
+  note: ""
+- file: 2010-11-02-a-few-notes-on-some-of-jacques-derridas-writings.md
+  title: A few notes on some of Jacques Derrida's writings
+  old: [Technology, Open Access, Academia, Philosophy, Jacques Derrida]
+  new: [Philosophy, Academia]
+  needs_review: false
+  note: "Dropped Technology/Open Access hints: the post shares reading-group notes on Derrida; the GFDL licensing and note-generation software are incidental."
+- file: 2010-11-04-the-problems-of-copyleft-twitter-and-tweets.md
+  title: The Problems of Copyleft, Twitter and Tweets
+  old: [Technology, Open Access]
+  new: [Copyright and Licensing, Technology]
+  needs_review: false
+  note: "Overrode Open Access hint: the post analyses copyleft/copyright enforceability of tweets, which is licensing commentary on a web platform, not OA policy."

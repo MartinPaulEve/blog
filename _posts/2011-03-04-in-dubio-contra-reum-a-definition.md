@@ -1,7 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/03/04/in-dubio-contra-reum-a-definition
 categories:
-- Academia
+- Philosophy
 comments:
 - author: Jacqueline Prescott
   author_email: jacquelineprescott@hotmail.com

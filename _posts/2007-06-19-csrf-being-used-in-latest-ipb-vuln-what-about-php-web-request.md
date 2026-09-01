@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2007/06/19/csrf-being-used-in-latest-ipb-vuln-what-about-php-web-request
 categories:
-- Technology
-- InfoSec
-- PHP
+- Information Security
 comments: []
 date: 2007-06-19 14:50:21 +0200
 date_gmt: 2007-06-19 14:50:21 +0200

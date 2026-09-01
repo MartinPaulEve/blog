@@ -2,7 +2,6 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/12/08/converting-zotero-documents-to-mendeley
 categories:
 - Technology
-- Open Access
 - Academia
 comments:
 - author: Tweets that mention Converting Zotero Documents to Mendeley | Martin Paul

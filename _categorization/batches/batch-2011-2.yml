@@ -1,0 +1,147 @@
+prompt_version: 1
+batch: batch-2011-2
+posts:
+- file: 2011-02-07-david-leigh-and-luke-hardings-wikileaks-inside-julian-assanges-war-on-secrecy.md
+  title: "David Leigh and Luke Harding's WikiLeaks: Inside Julian Assange's War on Secrecy"
+  old: [Technology, InfoSec, Politics]
+  new: [Politics]
+  needs_review: false
+  note: "Overrode Technology/InfoSec hints: this is a book review of a WikiLeaks account, political commentary throughout; the Tor passage is a brief critique of the authors' technical errors, not security research."
+- file: 2011-02-08-cfp-first-conference-of-the-uk-academic-pynchon-network.md
+  title: "CFP: First Conference of the UK Academic Pynchon Network"
+  old: [Literature, Thomas Pynchon, Conferences, Academia]
+  new: [Conferences, Thomas Pynchon]
+  needs_review: false
+  note: ""
+- file: 2011-02-09-android-and-eduroam.md
+  title: Android and Eduroam
+  old: [Technology, Android, Academia, Linux]
+  new: [Technology]
+  needs_review: false
+  note: "Android networking fix; Android sits under Technology. Dropped Academia (eduroam is merely a campus network) and Linux (not a Linux-distro how-to)."
+- file: 2011-02-14-the-analytic-of-patriotism-on-greg-mitchells-the-age-of-wikileaks.md
+  title: "The Analytic of Patriotism: On Greg Mitchell's The Age of WikiLeaks"
+  old: [Politics]
+  new: [Politics]
+  needs_review: false
+  note: ""
+- file: 2011-02-16-russell-hoban-in-conversation-with-will-self-at-the-british-library.md
+  title: Russell Hoban in Conversation with Will Self at the British Library
+  old: [Literature]
+  new: [Literature, Conferences]
+  needs_review: false
+  note: ""
+- file: 2011-02-18-open-hardware-the-netgear-wnr3500l.md
+  title: "Open Hardware: the Netgear WNR3500L"
+  old: [Technology, Open Access, Linux]
+  new: [Technology]
+  needs_review: false
+  note: "Overrode Open Access hint: 'open' here means open/flashable router hardware, nothing to do with OA publishing. Router hardware and firmware review is Technology, not Linux."
+- file: 2011-02-18-prisoner-rights-overcriminalisation-and-reform-in-democracy.md
+  title: Prisoner Rights, Overcriminalisation and Reform in Democracy
+  old: [Politics, Academia, Philosophy, Michel Foucault]
+  new: [Politics, Philosophy]
+  needs_review: false
+  note: "Dropped Academia hint: political essay on prisoner voting and democratic reform with philosophical framing (Foucault, relativism); no academic-life content."
+- file: 2011-02-21-mendeley-for-android-update.md
+  title: Mendeley for Android Update
+  old: [Technology, Android, Mendeley]
+  new: [Programming]
+  needs_review: false
+  note: "Overrode Technology hints: progress report on the author's own Android app development (oAuth debugging, layout and sync work), which is Programming."
+- file: 2011-02-22-on-daniel-domscheit-bergs-inside-wikileaks-my-time-with-julian-assange-at-the-worlds-most-dangerous-website.md
+  title: "On Daniel Domscheit-Berg's \"Inside WikiLeaks: My Time with Julian Assange at the World's Most Dangerous Website\""
+  old: [Technology, Politics]
+  new: [Politics]
+  needs_review: false
+  note: "Dropped Technology hint: a reflective review of a WikiLeaks memoir; the OpenLeaks platform discussion is political, not technical."
+- file: 2011-03-04-in-dubio-contra-reum-a-definition.md
+  title: "In Dubio Contra Reum: a definition"
+  old: [Academia]
+  new: [Philosophy]
+  needs_review: false
+  note: "Overrode Academia hint: defines a Latin legal phrase encountered while reading Arendt's Eichmann in Jerusalem; philosophical reading note, not academic practice."
+- file: 2011-03-07-what-is-thomas-pynchons-gravitys-rainbow-about.md
+  title: What is Thomas Pynchon's Gravity's Rainbow about?
+  old: [Literature, Thomas Pynchon, Academia]
+  new: [Thomas Pynchon]
+  needs_review: false
+  note: ""
+- file: 2011-03-09-richard-stallman-at-the-university-of-sussex.md
+  title: Richard Stallman at the University of Sussex
+  old: [Technology, Linux]
+  new: [Technology, Copyright and Licensing, Conferences]
+  needs_review: false
+  note: "Talk write-up on free software and copyright reform; GPL vs BSD licensing debate is substantive, so Copyright and Licensing added. Dropped Linux (no Linux how-to content)."
+- file: 2011-03-11-getting-published-in-academia.md
+  title: Getting Published in Academia
+  old: [Technology, Open Access, Academia]
+  new: [Academia, Open Access]
+  needs_review: false
+  note: "Dropped Technology hint: workshop notes on academic publishing advice with a closing OA advocacy section."
+- file: 2011-03-11-the-gaz-pearce-award.md
+  title: The Gaz Pearce Award
+  old: [Personal]
+  new: [Personal]
+  needs_review: false
+  note: ""
+- file: 2011-03-11-uk-pynchon-network-site-up-and-programme-announced.md
+  title: "UK Pynchon Network: Site Up and Programme Announced"
+  old: [Literature, Thomas Pynchon, Academia]
+  new: [Conferences, Thomas Pynchon]
+  needs_review: false
+  note: "Conference website/programme announcement, so Conferences plus subject; dropped Literature per Pynchon co-occurrence rule and Academia as redundant."
+- file: 2011-03-14-things-to-do-when-you-get-a-new-android-phone.md
+  title: Things to do when you get a new Android phone
+  old: [Technology, Android]
+  new: [Technology]
+  needs_review: false
+  note: ""
+- file: 2011-03-15-unreasonable-fees-by-which-metric.md
+  title: "\"(Un)Reasonable\" fees by which metric?"
+  old: [Personal, Politics, Academia]
+  new: [Higher Education]
+  needs_review: false
+  note: "Overrode Personal/Politics/Academia hints: tuition-fees policy commentary squarely within Higher Education."
+- file: 2011-03-17-conference-paper-the-f-word-2011-04-01-university-of-durham.md
+  title: "Conference Paper: \"The F Word\", 2011-04-01, University of Durham"
+  old: [Literature, Thomas Pynchon, Conferences, Academia, Output, Conference Papers]
+  new: [Conferences, Thomas Pynchon, Philosophy]
+  needs_review: false
+  note: "Conference paper on reading Foucault with Pynchon; Philosophy added for the substantive Foucault content, Literature dropped per Pynchon rule."
+- file: 2011-03-17-designing-a-uk-undergraduate-english-literature-course.md
+  title: Designing a UK undergraduate English literature course
+  old: [Literature, Academia, Theodor Adorno, Max Horkheimer, Teaching]
+  new: [Teaching, Literature]
+  needs_review: false
+  note: "Overrode Theodor Adorno/Max Horkheimer hints (no Frankfurt School content in the post); course-design pedagogy with substantive literary syllabus discussion."
+- file: 2011-03-23-picture-this-postcards-exhibition.md
+  title: "Picture This: Postcards Exhibition"
+  old: [Literature, Conferences, Academia]
+  new: [Conferences, Literature]
+  needs_review: false
+  note: ""
+- file: 2011-03-25-upcoming-workshop-using-twitter-for-research.md
+  title: "Upcoming workshop: \"Using Twitter for Research\""
+  old: [Technology, Academia, Teaching]
+  new: [Conferences, Academia]
+  needs_review: false
+  note: "Workshop announcement, so Conferences plus subject; the material is social media as a scholarly working method (Academia) rather than technology per se."
+- file: 2011-04-02-my-recent-work-at-berfrois.md
+  title: My recent work at Berfrois
+  old: [Literature, Thomas Pynchon, Academia, Philosophy, Michel Foucault]
+  new: [Publications, Thomas Pynchon, Philosophy]
+  needs_review: false
+  note: "Announcement of the author's published Berfrois article on Pynchon and Foucault: Publications plus subject categories."
+- file: 2011-04-03-exactly-half-way-through-my-phd-timetable.md
+  title: Exactly half-way through my PhD timetable
+  old: [Literature, Thomas Pynchon, Conferences, Personal, Academia, Philosophy, Teaching]
+  new: [Personal, Academia]
+  needs_review: false
+  note: "PhD milestone post that is substantially a professional accomplishments review; the many legacy subject hints reflect the list of achievements, not the post's subject."
+- file: 2011-04-03-installing-zotero-on-ubuntu-natty-11-04beta.md
+  title: Installing Zotero on Ubuntu Natty (11.04/Beta)
+  old: [Technology, Linux]
+  new: [Linux]
+  needs_review: false
+  note: ""

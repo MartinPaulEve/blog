@@ -8,6 +8,8 @@ layout: post
 ogImage: images/header_time.png
 title: How to securely create an encrypted digital 'in case of death' document
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lw6esu32q"
+categories:
+- Information Security
 ---
 
 Very few people like thinking about the fact they will die. But it can prove a substantial administrative headache to loved ones if they don't know about all of your finances, your passwords, your emails etc. At the same time, you shouldn't be writing down passwords in any document that could be stolen or seen; it's bad cybersecurity practice. So what can you do?

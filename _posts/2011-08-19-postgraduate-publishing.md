@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/08/19/postgraduate-publishing
 categories:
-- Open Access
 - Academia
+- Open Access
 comments: []
 date: 2011-08-19 16:01:38 +0200
 date_gmt: 2011-08-19 16:01:38 +0200

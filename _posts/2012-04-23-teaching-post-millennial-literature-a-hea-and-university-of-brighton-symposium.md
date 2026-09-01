@@ -1,9 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/04/23/teaching-post-millennial-literature-a-hea-and-university-of-brighton-symposium
 categories:
-- Literature
 - Conferences
-- Academia
+- Teaching
+- Literature
 comments: []
 date: 2012-04-23 07:20:33 +0200
 date_gmt: 2012-04-23 07:20:33 +0200

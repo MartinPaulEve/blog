@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/12/14/auto-renewing-ssl-certificates-with-letsencrypt
 categories:
-- tech
-- SSL
+- Information Security
+- Linux
 date: 2015-12-14
 doi: https://doi.org/10.59348/8gw4g-s2z59
 image:

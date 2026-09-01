@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/07/20/punchdrunks-the-drowned-man
 categories:
-- Performance
-- Academia
+- Literature
 comments: []
 date: 2013-07-20 11:44:41 +0200
 date_gmt: 2013-07-20 10:44:41 +0200

@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/12/24/visualizing-textual-variancegenetics-with-sankeyvariant
 categories:
-- software
-- digital humanities
+- Digital Humanities
+- Programming
 date: 2015-12-24
 doi: https://doi.org/10.59348/qfy1q-82t83
 image:

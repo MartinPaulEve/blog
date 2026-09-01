@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/10/11/quasi-objects
 categories:
-- writing
-- philosophy
+- Philosophy
 date: 2015-10-11
 doi: https://doi.org/10.59348/zk15h-tcr70
 layout: post

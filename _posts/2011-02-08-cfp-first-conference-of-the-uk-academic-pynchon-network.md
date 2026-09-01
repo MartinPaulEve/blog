@@ -1,10 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/02/08/cfp-first-conference-of-the-uk-academic-pynchon-network
 categories:
-- Literature
-- Thomas Pynchon
 - Conferences
-- Academia
+- Thomas Pynchon
 comments: []
 date: 2011-02-08 15:49:45 +0100
 date_gmt: 2011-02-08 15:49:45 +0100

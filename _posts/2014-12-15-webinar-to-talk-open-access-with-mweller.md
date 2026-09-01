@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/12/15/webinar-to-talk-open-access-with-mweller
 categories:
+- Conferences
 - Open Access
-- Academia
 comments: []
 date: 2014-12-15
 doi: https://doi.org/10.59348/9bbz0-nbq10

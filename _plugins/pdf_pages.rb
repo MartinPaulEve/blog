@@ -49,6 +49,7 @@ module PdfPages
         .gsub(/\?v=\d+/, "")
         .gsub(%r{<aside class="post-sidebar">.*?</aside>}m, "")
         .gsub(%r{<p class="post-description post-pdf">.*?</p>}m, "")
+        .gsub(%r{<p class="post-description post-categories">.*?</p>}m, "")
   end
 
   # The stylesheets take part in the printed layout, so they join the page

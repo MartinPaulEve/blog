@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/09/16/weird-council-the-first-international-conference-on-the-works-of-china-mieville-mieville2012-storify
 categories:
+- Conferences
 - Literature
-- Academia
 comments: []
 date: 2012-09-16 10:24:01 +0200
 date_gmt: 2012-09-16 09:24:01 +0200

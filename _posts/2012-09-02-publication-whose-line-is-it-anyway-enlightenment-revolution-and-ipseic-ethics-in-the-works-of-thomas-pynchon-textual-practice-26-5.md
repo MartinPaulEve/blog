@@ -1,11 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/09/02/publication-whose-line-is-it-anyway-enlightenment-revolution-and-ipseic-ethics-in-the-works-of-thomas-pynchon-textual-practice-26-5
 categories:
-- Literature
-- Thomas Pynchon
-- Academia
 - Publications
-- Output
+- Thomas Pynchon
+- Philosophy
 comments: []
 date: 2012-09-02 10:36:51 +0200
 date_gmt: 2012-09-02 10:36:51 +0200

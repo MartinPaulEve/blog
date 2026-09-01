@@ -8,6 +8,9 @@ layout: post
 ogImage: images/header_mask.png
 title: It's time we dropped Agamben
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2wwpju2s"
+categories:
+- Philosophy
+- Politics
 ---
 
 Giorgio Agamben gets around a lot on literature syllabi. His "What is the Contemporary?" is a staple of theoretical courses, his concept of "bare life" is used to think through the structures of contemporary biopower, and his thinking around "states of exception" and "states of emergency" find a fruitful home in many places.

@@ -1,0 +1,141 @@
+prompt_version: 1
+batch: batch-2012-2
+posts:
+- file: 2012-02-02-project-idearequest-for-comment-opendoi.md
+  title: "Project idea/request for comment: OpenDOI"
+  old: [Technology, Open Access, Academia]
+  new: [Scholarly Communications, Open Access]
+  needs_review: false
+  note: "Proposal for a parallel free DOI system: identifiers/infrastructure -> Scholarly Communications, motivated by cost burden on non-profit OA journals -> Open Access. Dropped Technology/Academia hints as the more specific categories cover the content."
+- file: 2012-02-03-dois-what-you-need-to-know.md
+  title: "DOIs: What you need to know"
+  old: [Technology, Open Access, Academia]
+  new: [Scholarly Communications, Open Access]
+  needs_review: false
+  note: "Follow-up on DOI function and metrics (Storify link post); identifier infrastructure -> Scholarly Communications, OA-journal cost context retained. Dropped Technology/Academia hints."
+- file: 2012-02-04-more-thoughts-on-metrics-link-rot-canonical-urls.md
+  title: More thoughts on metrics, link-rot, canonical URLs
+  old: [Technology, Open Access]
+  new: [Scholarly Communications, Digital Preservation, Open Access]
+  needs_review: false
+  note: "DOI/Handle infrastructure discussion -> Scholarly Communications; the argument centres on link rot and preservation beyond a human lifespan -> Digital Preservation; the free-of-charge alternative motivation keeps Open Access. Dropped Technology hint."
+- file: 2012-02-06-doing-a-ph-d-using-only-free-open-source-software.md
+  title: Doing a Ph.D using only free, open source software
+  old: [Technology, Open Access, Academia, Linux]
+  new: [Academia, Linux]
+  needs_review: false
+  note: "PhD working methods -> Academia; the toolchain is Ubuntu/FOSS desktop use -> Linux (more specific than Technology). Dropped Open Access hint: FOSS is not OA and the post says nothing about access to scholarship."
+- file: 2012-02-09-wordpress-for-academics.md
+  title: Wordpress for Academics
+  old: [Technology, Academia]
+  new: [Technology, Academia]
+  needs_review: false
+  note: ""
+- file: 2012-02-10-conference-paper-thomas-pynchon-david-foster-wallace-and-twenty-first-century-utopianism-16-18-july-2012-university-of-lincoln.md
+  title: "Conference Paper: Thomas Pynchon, David Foster Wallace and Twenty-First-Century Utopianism, 16-18 July, 2012, University of Lincoln"
+  old: [Literature, Thomas Pynchon, Conferences, David Foster Wallace, Academia, Output, Conference Papers]
+  new: [Conferences, Thomas Pynchon, Literature]
+  needs_review: false
+  note: "Conference paper announcement -> Conferences plus subject. Literature retained alongside Thomas Pynchon because David Foster Wallace and metamodernism are discussed substantively."
+- file: 2012-02-16-teaching-undergraduates-to-use-secondary-sources.md
+  title: Teaching undergraduates to use secondary sources
+  old: [Literature, Academia, Teaching]
+  new: [Teaching]
+  needs_review: false
+  note: "Seminar pedagogy on using critical sources; taxonomy calibration example for Teaching. Literature/Academia hints dropped as the post is wholly pedagogical."
+- file: 2012-02-22-copyright-and-academia-particularly-for-ph-d.md
+  title: Copyright and academia, particularly for Ph.Ds
+  old: [Technology, Academia]
+  new: [Copyright and Licensing, Academia]
+  needs_review: false
+  note: "Content is copyright law, fair dealing, and thesis publication rights -> Copyright and Licensing first; doctoral-researcher context -> Academia. Overrode Technology hint."
+- file: 2012-02-24-my-review-of-the-cambridge-companion-to-thomas-pynchon-at-berfrois.md
+  title: My review of The Cambridge Companion to Thomas Pynchon at Berfrois
+  old: [Literature, Thomas Pynchon, Academia]
+  new: [Publications, Thomas Pynchon]
+  needs_review: false
+  note: "Announcement of the author's published review at Berfrois -> Publications plus subject. Literature dropped per the Pynchon co-occurrence rule."
+- file: 2012-02-27-podcast-on-open-source-open-access-publishing.md
+  title: Podcast on Open Source, Open Access publishing
+  old: [Technology, Open Access, Academia]
+  new: [Open Access, Publishing Technology]
+  needs_review: false
+  note: "Podcast on open source solutions for academic publishing and the library's role: OA publishing models plus the technical tooling of publishing. Dropped generic Technology/Academia hints."
+- file: 2012-03-08-doctoral-thesis-editing-cutting-words.md
+  title: "Doctoral Thesis Editing: Cutting Words"
+  old: [Technology, Academia]
+  new: [Academia]
+  needs_review: false
+  note: "PhD writing tip about citation styles and word counts; scholarly working methods only. Dropped Technology hint."
+- file: 2012-03-09-for-attn-david-cameron-and-andrew-lansley.md
+  title: "For ATTN: David Cameron and Andrew Lansley"
+  old: [Politics]
+  new: [Politics]
+  needs_review: false
+  note: ""
+- file: 2012-03-10-jake-wilson-alls-well-website-and-music-up.md
+  title: "Jake Wilson: \"All's Well\". Website and Music up!"
+  old: [Personal]
+  new: [Music, Personal]
+  needs_review: false
+  note: "Recommendation of a friend's folk-rock album release -> Music (listening/releases), with the personal-friend framing keeping Personal."
+- file: 2012-03-11-talawas-waiting-for-godot.md
+  title: Talawa's Waiting for Godot
+  old: [Literature, Samuel Beckett]
+  new: [Literature]
+  needs_review: false
+  note: ""
+- file: 2012-03-14-conference-paper-thomas-pynchon-materialism-and-negative-dialectics-28-29-may-2012-northumbria-university.md
+  title: "Conference Paper: Thomas Pynchon, Materialism and Negative Dialectics, 28-29 May, 2012, Northumbria University"
+  old: [Literature, Thomas Pynchon, Conferences, Academia, Philosophy, Theodor Adorno, Output, Conference Papers]
+  new: [Conferences, Thomas Pynchon, Philosophy]
+  needs_review: false
+  note: "Conference paper announcement -> Conferences plus subjects (Pynchon read through Adorno's Negative Dialectics). Literature dropped per the Pynchon co-occurrence rule; no non-Pynchon literature discussed."
+- file: 2012-03-18-wikipedia-stats-visualized.md
+  title: Wikipedia Stats Visualized
+  old: [Technology, Academia, EdTech]
+  new: [Technology, Academia]
+  needs_review: false
+  note: ""
+- file: 2012-03-24-finishing-a-uk-ph-d-within-3-years.md
+  title: Finishing a UK Ph.D. within 3 years
+  old: [Academia]
+  new: [Academia]
+  needs_review: false
+  note: ""
+- file: 2012-03-30-the-problems-for-small-open-access-journals-in-terms-of-digital-preservation.md
+  title: The problems for small Open Access journals in terms of digital preservation
+  old: [Technology, Academia]
+  new: [Digital Preservation, Open Access]
+  needs_review: false
+  note: "LOCKSS/CLOCKSS and preserving small OA journals -> Digital Preservation plus Open Access. Overrode both legacy hints (Technology, Academia), which do not describe the content."
+- file: 2012-04-02-my-day-as-a-higher-ed-researcher.md
+  title: My day as a Higher Ed researcher
+  old: [Academia]
+  new: [Academia]
+  needs_review: false
+  note: ""
+- file: 2012-04-03-i-am-joining-the-oapen-uk-open-access-monograph-steering-group.md
+  title: I am joining the OAPEN-UK, Open Access Monograph, Steering Group
+  old: [Technology, Open Access, Academia]
+  new: [Open Access]
+  needs_review: false
+  note: "Announcement of joining a JISC steering group on OA monograph publishing; wholly an Open Access subject. Dropped Technology/Academia hints."
+- file: 2012-04-04-uksg-conference-photos-and-slides.md
+  title: "UKSG Conference: photos and slides"
+  old: [Academia, Output, Conference Papers]
+  new: [Conferences, Open Access]
+  needs_review: false
+  note: "Event report of the UKSG conference where the author gave a plenary on academic publishing (slides shared, forthcoming OA article) -> Conferences plus subject Open Access. Publications hint dropped: the Insights article is only trailed, not yet out."
+- file: 2012-04-05-new-york-times-writes-about-my-ph-d-thesis-work.md
+  title: New York Times writes about my Ph.D. thesis work!
+  old: [Literature, Thomas Pynchon, Academia, Philosophy, Output, Public Engagement, Ludwig Wittgenstein]
+  new: [Publications, Thomas Pynchon, Philosophy]
+  needs_review: false
+  note: "Announcement of a published 3:AM Magazine piece (and NYT coverage) on Pynchon, philosophy and ethics -> Publications plus subjects. Literature dropped per the Pynchon co-occurrence rule."
+- file: 2012-04-09-the-future-of-academic-publishing-qa.md
+  title: The future of academic publishing Q&A
+  old: [Technology, Open Access, Academia]
+  new: [Conferences, Open Access]
+  needs_review: false
+  note: "Video of the Q&A from the author's UKSG plenary on the future of academic publishing: a talk record -> Conferences, subject Open Access. Dropped Technology/Academia hints."

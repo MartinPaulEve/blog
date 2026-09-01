@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/11/22/vince-cables-orwell-esque-doublethink
 categories:
-- Literature
+- Higher Education
 - Politics
-- Academia
 comments: []
 date: 2010-11-22 10:43:11 +0100
 date_gmt: 2010-11-22 10:43:11 +0100

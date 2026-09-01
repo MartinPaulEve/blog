@@ -1,14 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/03/14/conference-paper-thomas-pynchon-materialism-and-negative-dialectics-28-29-may-2012-northumbria-university
 categories:
-- Literature
-- Thomas Pynchon
 - Conferences
-- Academia
+- Thomas Pynchon
 - Philosophy
-- Theodor Adorno
-- Output
-- Conference Papers
 comments: []
 date: 2012-03-14 19:02:33 +0100
 date_gmt: 2012-03-14 19:02:33 +0100

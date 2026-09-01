@@ -2,7 +2,7 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/04/01/why-oa-mandates-dont-compromise-academic-freedom
 categories:
 - Open Access
-- Academia
+- Higher Education
 comments: []
 date: 2014-04-01 08:55:26 +0200
 date_gmt: 2014-04-01 07:55:26 +0200

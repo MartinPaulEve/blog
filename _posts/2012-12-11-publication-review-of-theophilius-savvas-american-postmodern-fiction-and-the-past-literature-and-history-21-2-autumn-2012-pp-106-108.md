@@ -1,11 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/12/11/publication-review-of-theophilius-savvas-american-postmodern-fiction-and-the-past-literature-and-history-21-2-autumn-2012-pp-106-108
 categories:
+- Publications
 - Literature
 - Thomas Pynchon
-- Academia
-- Publications
-- Output
 comments: []
 date: 2012-12-11 17:24:59 +0100
 date_gmt: 2012-12-11 17:24:59 +0100

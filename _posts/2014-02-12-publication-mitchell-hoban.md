@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/02/12/publication-mitchell-hoban
 categories:
-- Literature
-- Academia
 - Publications
+- Literature
 comments: []
 date: 2014-02-12 07:23:02 +0100
 date_gmt: 2014-02-12 07:23:02 +0100

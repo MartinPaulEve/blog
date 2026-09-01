@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/02/12/professor-of-literature-technology-and-publishing
 categories:
-- academia
-- personal
+- Personal
+- Academia
 date: 2016-02-12
 doi: https://doi.org/10.59348/cp9fk-yby07
 layout: post

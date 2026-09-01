@@ -1,7 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/05/31/flipping-journals-to-oa-while-supporting-existing-oa-publications
 categories:
-- OA
+- Open Access
 date: 2015-05-31
 doi: https://doi.org/10.59348/f7pr6-8wr39
 image:

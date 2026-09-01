@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/05/21/sussex-southampton-initiative-sushi-an-interdisciplinary-fusion
 categories:
-- Technology
 - Conferences
 - Academia
 comments: []

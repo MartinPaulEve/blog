@@ -1,11 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/09/05/publication-terrorism-and-the-cold-war-in-thomas-pynchons-against-the-day-and-don-delillo-c2-80-c2-99s-underworld
 categories:
-- Literature
-- Thomas Pynchon
-- Academia
 - Publications
-- Output
+- Thomas Pynchon
+- Literature
 comments: []
 date: 2013-09-05 17:43:03 +0200
 date_gmt: 2013-09-05 16:43:03 +0200

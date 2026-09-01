@@ -1,7 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/07/14/displaying-ee-mobile-data-usage-in-conky
 categories:
-- Technology
+- Linux
 comments: []
 date: 2013-07-14 17:07:19 +0200
 date_gmt: 2013-07-14 16:07:19 +0200

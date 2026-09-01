@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/07/09/publication-tear-it-down-build-it-up-the-research-output-team-or-the-library-as-publisher-insights-25-2-july-2012-pp-158-162
 categories:
-- Open Access
 - Publications
-- Output
+- Open Access
 comments: []
 date: 2012-07-09 16:52:14 +0200
 date_gmt: 2012-07-09 16:52:14 +0200

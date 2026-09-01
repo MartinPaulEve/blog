@@ -5,6 +5,9 @@ doi: https://doi.org/10.59348/834je-wsz88
 layout: post
 title: Did Thomas Pynchon write Cow Country? Stylistic affinities and divergences
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mabdqni2h"
+categories:
+- Thomas Pynchon
+- Digital Humanities
 ---
 
 In mid-2015, Art Winslow caused something of an online furore when he suggested that the pseudonymously-authored novel by “Adrian Jones Pearson”, _Cow Country_, was, in fact, a work by Thomas Pynchon. A full-blown argument then erupted when this was countered by Nate Jones and Pynchon's own publisher. Indeed, [Penguin thundered](http://www.vulture.com/2015/09/pynchon-probably-did-not-write-a-secret-novel.html): “[w]e are Thomas Pynchon's publisher and this is not a book by Thomas Pynchon”.

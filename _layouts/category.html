@@ -1,18 +1,54 @@
----
-layout: page
----
-{% unless page.content == '' %}
-  <p>{{ page.content }}</p>
-{% endunless %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include _head.html %}
+    <link rel="stylesheet" href="/assets/css/blog-post.css?v={{ site.time | date: '%s' }}">
+    {% include _signposting.html %}
+</head>
+<body>
+<!-- Header -->
+<header class="header">
+    <div class="container header-content">
+        {% include _navigation.html %}
+    </div>
+</header>
 
-{% for post in site.categories.post %}
-    <article>
-      {% if post.link %}
-        <h2 class="archive-item"><a href="{{ post.link }}">{{ post.title }}</a></h2>
-        <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
-      {% else %}
-        <h2 class="archive-item"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
-        <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
-      {% endif %}
+<main id="main">
+    <article class="blog-post-list">
+        <div class="post-header">
+            <div class="container">
+                <h1 class="post-title">{{ page.title }}</h1>
+            </div>
+        </div>
+
+        <div class="post-content">
+            <div class="container">
+                <div class="post-body">
+                    {% unless content == blank %}
+                    <div class="category-intro">{{ content }}</div>
+                    {% endunless %}
+                    {% if page.category %}
+                    {% assign posts = site.categories[page.category] %}
+                    <p class="archive-count">{{ posts | size }} post{% if posts.size != 1 %}s{% endif %} in this category
+                        &middot; <a href="/categories/">all categories</a></p>
+                    {% for post in posts %}
+                    <article>
+                        <h2 class="archive-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                        <p class="archive-date">{{ post.date | date: "%-d %B %Y" }}</p>
+                    </article>
+                    {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
     </article>
-{% endfor %}
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+    {% include _footer.html %}
+</footer>
+
+<script src="/assets/js/script.js"></script>
+</body>
+</html>

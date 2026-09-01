@@ -1,7 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/07/28/rendering-mathml-in-xslfo-to-pdf-using-fop
 categories:
-- Technology
+- Publishing Technology
 comments: []
 date: 2013-07-28 14:11:13 +0200
 date_gmt: 2013-07-28 13:11:13 +0200

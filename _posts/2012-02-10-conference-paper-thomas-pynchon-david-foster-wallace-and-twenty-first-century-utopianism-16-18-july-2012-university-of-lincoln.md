@@ -1,13 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/02/10/conference-paper-thomas-pynchon-david-foster-wallace-and-twenty-first-century-utopianism-16-18-july-2012-university-of-lincoln
 categories:
-- Literature
-- Thomas Pynchon
 - Conferences
-- David Foster Wallace
-- Academia
-- Output
-- Conference Papers
+- Thomas Pynchon
+- Literature
 comments: []
 date: 2012-02-10 14:50:22 +0100
 date_gmt: 2012-02-10 14:50:22 +0100

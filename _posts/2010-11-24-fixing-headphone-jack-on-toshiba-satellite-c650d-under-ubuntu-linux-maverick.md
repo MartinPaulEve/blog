@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/11/24/fixing-headphone-jack-on-toshiba-satellite-c650d-under-ubuntu-linux-maverick
 categories:
-- Technology
 - Linux
 comments:
 - author: dan

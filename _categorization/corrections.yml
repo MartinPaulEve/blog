@@ -1,0 +1,117 @@
+# Content-based verdicts on audit.md findings.
+# Only posts whose assignment should CHANGE from review.md are listed here.
+corrections:
+
+# --- Section 1: wrong category ---
+
+- file: 2020-08-18-rethinking-assessment-during-the-pandemic.md
+  new: [Teaching, Higher Education, Health]
+  reason: "assessment redesign for disability equality and library access under COVID; the OA-monograph passage is a secondary lens, not the subject"
+
+- file: 2011-06-01-william-gibson-cory-doctorow-diane-coyle-and-mark-stevenson-at-the-british-library.md
+  new: [Conferences, Philosophy]
+  reason: "attended-event write-up that is substantively a critical-theory essay on progress/ideology (Adorno & Horkheimer's Dialectic of Enlightenment, Weber, positivism); no literary criticism, so Philosophy fits better than Literature"
+
+- file: 2026-01-15-wordpress-loading-theme-assets-of-a-different-theme-to-that-selected.md
+  new: [Programming]
+  reason: "WordPress theme/template debugging (crashing code changing asset loading); Programming, with Technology being fallback-only"
+
+- file: 2016-02-26-the-critique-of-utopia.md
+  new: [Philosophy, Scholarly Communications]
+  reason: "critical-theory meditation on the utopian function (Moylan, Marin, Marx) applied to scholarly communications; literary texts are illustrative, not the subject"
+
+- file: 2016-02-26-rethinking.md
+  new: [Higher Education, Scholarly Communications]
+  reason: "FORCE11 thought-exercise imagining the university abolished plus questions on knowledge dissemination; a substantive topic post, not an event report (same treatment as its critique-of-utopia sibling)"
+
+- file: 2013-09-18-publication-gatekeepers-in-a-digital-wasteland-the-author.md
+  new: [Publications, Academia]
+  reason: "Publication announcement about publishing gatekeeping/models and self-publishing, not literary criticism; Literature is the wrong subject pairing"
+
+# --- Section 2: series / sibling deviations ---
+
+- file: 2012-10-19-orbit-1-2-is-now-open-and-our-rolling-format-is-live.md
+  new: [Open Access, Thomas Pynchon]
+  reason: "OA journal-operations announcement (rolling/open format) for the Pynchon journal Orbit, matching other Orbit operational posts"
+
+- file: 2022-01-09-authorship.md
+  new: [Literature]
+  reason: "novel-survey ('aspects of the novel') entry on literary authorship; Barthes/Foucault appear as literary theory in service of the survey, so Literature alone, like its siblings"
+
+- file: 2012-05-05-excursions-journal-vol-3-launch-party.md
+  new: [Academia, Publications]
+  reason: "announces the launch of Excursions vol. 3 (his co-edited journal's editorial output), aligning with the vol. 2 issue announcement"
+
+- file: 2011-04-16-david-foster-wallaces-the-pale-king-bonnie-nadell-and-michael-pietsch-at-foyles.md
+  new: [Conferences, Literature]
+  reason: "attended literary-event report on DFW's The Pale King, matching the Hoban/Will Self event pattern"
+
+- file: 2013-11-15-some-diagrams-of-jennifer-egan-novels.md
+  new: [Literature, Digital Humanities]
+  reason: "analytical visualizations of Egan novels' structure (character relations, diegesis, metalepsis), like the other GR-visualization posts in Digital Humanities"
+
+- file: 2010-03-11-sshsplit-featured.md
+  new: [Programming, Information Security]
+  reason: "follow-up about sshsplit, an SSH-tunnel/privacy tool; matches the announcement's Information Security + Programming pairing"
+
+# --- Section 3: Technology fallback-only over-inclusion (Mendeley Android dev series) ---
+
+- file: 2010-12-20-mendeley-android-client-first-preview-and-oauth-problem.md
+  new: [Programming]
+  reason: "Android app development (OAuth, Java code); Programming is the specific home, Technology is fallback-only"
+
+- file: 2011-01-04-mendeley-android-client-progress-w-video-source-and-apk.md
+  new: [Programming]
+  reason: "Android app development (OAuth via Signpost, Java/PHP code); Technology is fallback-only"
+
+- file: 2011-01-04-oauth-for-mendeley-on-android-solved-and-a-bug.md
+  new: [Programming]
+  reason: "Android OAuth callback debugging; Technology is fallback-only"
+
+- file: 2011-01-11-mendeley-for-android-screenshot-of-collection-display.md
+  new: [Programming]
+  reason: "app-development milestone screenshot; Technology is fallback-only"
+
+- file: 2011-01-24-mendeley-for-android-progress-update.md
+  new: [Programming]
+  reason: "app-development progress (sync service, ContentProvider design); Technology is fallback-only"
+
+- file: 2011-01-09-android-rom-update-utility-extractor-for-linux.md
+  new: [Linux, Programming]
+  reason: "Python script for a Linux task; Linux and Programming both apply, making Technology redundant"
+
+- file: 2011-01-08-automated-cpanel-backups-with-scp.md
+  new: [Programming]
+  reason: "PHP backup scripting how-to; Technology is fallback-only"
+
+- file: 2011-04-21-crossword-helper-for-android.md
+  new: [Programming]
+  reason: "announces his own Android app; Programming covers it, matching the 'Online crossword helper' sibling; Technology is fallback-only"
+
+- file: 2010-08-15-htc-wildfire-stage-1-soft-root.md
+  new: [Information Security]
+  reason: "privilege-escalation/root exploit write-up (modifying the Exploid code around NAND protection); Information Security is the specific home, making Technology redundant"
+
+# --- Section 3: Conferences over-inclusion ---
+
+- file: 2010-03-15-humanities-map.md
+  new: [Academia]
+  reason: "shares a humanities-discipline map artifact; not a report of the event where it was made, so subject-only"
+
+- file: 2011-05-27-academic-businesss-cards.md
+  new: [Academia]
+  reason: "networking/business-card advice that merely mentions upcoming conferences; not an event, paper, or CFP"
+
+# --- Section 3: Publications (press coverage is not the author's own output) ---
+
+- file: 2011-05-16-photograph-and-interview-in-the-guardian.md
+  new: [Thomas Pynchon, Personal]
+  reason: "press coverage of the author around Pynchon in Public Day, not his published work"
+
+- file: 2012-04-05-new-york-times-writes-about-my-ph-d-thesis-work.md
+  new: [Thomas Pynchon, Philosophy, Personal]
+  reason: "press coverage of his Pynchon-and-philosophy thesis work (Wittgenstein/ethics); keep the subject categories, drop Publications, add Personal"
+
+- file: 2015-01-18-stephen-curry-stephen_curry-reviews-open-access-and-the-humanities.md
+  new: [Open Access]
+  reason: "a review of his OA book written by someone else (reception), substantively about open access; not his own published output"

@@ -8,6 +8,8 @@ layout: post
 ogImage: images/geek.png
 title: 'Hypothes.is v0.8.14 error: "OSError: [Errno 2] No such file or directory"'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbfslj32p"
+categories:
+- Programming
 ---
 
 If you are attempting to build the dev setup for hypothes.is v0.8.14 and are receiving the error "OSError: [Errno 2] No such file or directory" whenever you request pages on the dev site, you need to install compass.

@@ -1,7 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/07/28/determining-glyph-availability-for-fop
 categories:
-- Technology
+- Publishing Technology
 comments: []
 date: 2013-07-28 12:40:34 +0200
 date_gmt: 2013-07-28 11:40:34 +0200

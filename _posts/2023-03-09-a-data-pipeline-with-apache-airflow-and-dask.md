@@ -8,6 +8,8 @@ layout: post
 ogImage: images/header_flow.png
 title: A data pipeline with Apache Airflow and Dask
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lyglk722a"
+categories:
+- Programming
 ---
 
 In my [new role at Crossref](https://www.crossref.org/people/martin-eve/) I work on a series of data pipelines for research and development projects. These are resource-intensive data processing tasks that need to be executed periodically on a schedule, with good observability, but also with parallel processing capacity.

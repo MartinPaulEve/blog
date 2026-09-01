@@ -1,8 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/03/15/the-future-of-peer-review
 categories:
-- Output
-- Conference Papers
+- Conferences
+- Academia
+- Open Access
 comments: []
 date: 2013-03-15 16:43:09 +0100
 date_gmt: 2013-03-15 16:43:09 +0100

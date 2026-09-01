@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/09/05/things-academia-edu-academia-should-do-hint-work-with-green-oa
 categories:
-- Technology
 - Open Access
-- Academia
+- Technology
 comments: []
 date: 2014-09-05 11:40:57 +0200
 date_gmt: 2014-09-05 10:40:57 +0200

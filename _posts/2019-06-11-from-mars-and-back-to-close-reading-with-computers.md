@@ -8,6 +8,9 @@ layout: post
 ogImage: images/mars.png
 title: From Mars and Back to Close Reading with Computers
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6tgvoj2a"
+categories:
+- Personal
+- Digital Humanities
 ---
 
 In the acknowledgements to _Close Reading with Computers_, I write:

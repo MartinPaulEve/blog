@@ -1,7 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/12/30/tech-things-i-have-learned-in-the-last-12-hours
 categories:
-- Technology
+- Linux
 comments: []
 date: 2012-12-30 14:10:52 +0100
 date_gmt: 2012-12-30 14:10:52 +0100

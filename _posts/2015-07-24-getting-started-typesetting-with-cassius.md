@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/07/24/getting-started-typesetting-with-cassius
 categories:
-- typesetting
-- PDF
-- HTML
+- Publishing Technology
 date: 2015-07-24
 doi: https://doi.org/10.59348/9vcxf-95h70
 image:

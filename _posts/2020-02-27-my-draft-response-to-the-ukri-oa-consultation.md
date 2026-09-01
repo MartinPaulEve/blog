@@ -8,6 +8,8 @@ layout: post
 ogImage: images/oa.png
 title: My draft response to the UKRI OA consultation
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6hpgzk2i"
+categories:
+- Open Access
 ---
 
 Some of my draft responses to the [UKRI OA consultation](https://www.ukri.org/files/funding/oa/open-access-review-consultation/).

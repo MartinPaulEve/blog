@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2007/05/16/xss-cheat-sheet
 categories:
-- Technology
-- InfoSec
+- Information Security
 comments: []
 date: 2007-05-16 11:20:17 +0200
 date_gmt: 2007-05-16 11:20:17 +0200

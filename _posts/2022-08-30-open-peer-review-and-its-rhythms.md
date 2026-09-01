@@ -8,6 +8,8 @@ layout: post
 ogImage: images/header_review.png
 title: Open peer review and its rhythms
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lyni4nr2h"
+categories:
+- Academia
 ---
 
 I was lucky enough, recently, to get a slightly-ahead-of-general-release opportunity to openly peer review Kathleen Fitzpatrick's most recent book manuscript, _Leading Generously_. It's over [on HCommons](https://leadinggenerously.hcommons.org/) for those who want to take a look and feed in.

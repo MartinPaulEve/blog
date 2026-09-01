@@ -8,6 +8,9 @@ layout: post
 ogImage: images/header_evusheld.png
 title: I had Evusheld privately in the UK
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lykght42h"
+categories:
+- Health
+- Politics
 ---
 
 As many of you know, I have been involved for the past few months in a campaign to get Evusheld – a protective/prophylactic drug for immunocompromised people who do not respond well to Covid vaccines – available on the NHS in the UK. We have not succeeded on that front yet and I am not giving up.

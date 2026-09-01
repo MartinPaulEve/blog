@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/01/09/android-rom-update-utility-extractor-for-linux
 categories:
-- Technology
-- Android
 - Linux
+- Programming
 comments:
 - author: Tweets that mention Android Rom Update Utility extractor for Linux | Martin
     Paul Eve -- Topsy.com

@@ -1,10 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/01/19/foucauldian-methodologies-for-considering-emerging-archives
 categories:
-- Literature
-- Academia
 - Philosophy
-- Michel Foucault
+- Literature
 comments: []
 date: 2015-01-19
 doi: https://doi.org/10.59348/b4a33-sd561

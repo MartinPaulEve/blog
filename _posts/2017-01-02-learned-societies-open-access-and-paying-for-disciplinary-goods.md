@@ -9,6 +9,8 @@ ogImage: images/oa.png
 title: Learned societies in the humanities, open access, and paying for disciplinary
   goods
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mapkfqd2n"
+categories:
+- Open Access
 ---
 
 [As I've written before](https://www.martineve.com/2014/10/04/pondering-a-solution-to-the-problem-of-learned-societies-and-the-transition-to-open-access/), Learned Societies are one of the biggest barriers to open access. They derive revenue from publishing that they then use to pay for disciplinary goods (scholarships, prizes, public engagement etc.) Fear of new economic models for scholarly communications sometimes, although not always, drives them away from open access.

@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/12/14/our-duty-to-minorities
 categories:
-- Personal
 - Politics
 comments:
 - author: lizit

@@ -8,6 +8,8 @@ layout: post
 ogImage: images/geek.png
 title: Resizing image uploads in Django
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzak7cs2r"
+categories:
+- Programming
 ---
 
 It should be an easy task to resize image uploads in Django, but it turns out to be a bit more complicated than one would hope. Here are my findings.

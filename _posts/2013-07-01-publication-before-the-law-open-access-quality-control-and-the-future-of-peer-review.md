@@ -1,11 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/07/01/publication-before-the-law-open-access-quality-control-and-the-future-of-peer-review
 categories:
-- Technology
+- Publications
 - Open Access
 - Academia
-- Publications
-- Output
 comments: []
 date: 2013-07-01 09:00:45 +0200
 date_gmt: 2013-07-01 08:00:45 +0200

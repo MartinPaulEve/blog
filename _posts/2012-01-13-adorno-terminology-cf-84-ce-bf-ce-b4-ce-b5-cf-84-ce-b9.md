@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/01/13/adorno-terminology-cf-84-ce-bf-ce-b4-ce-b5-cf-84-ce-b9
 categories:
-- Academia
 - Philosophy
-- Theodor Adorno
 comments: []
 date: 2012-01-13 13:23:29 +0100
 date_gmt: 2012-01-13 13:23:29 +0100

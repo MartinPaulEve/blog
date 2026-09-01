@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/02/17/on-speed-and-open-access
 categories:
-- open access
-- speed
-- acceleration
+- Open Access
 date: 2016-02-17
 doi: https://doi.org/10.59348/dcd2n-30v45
 image:

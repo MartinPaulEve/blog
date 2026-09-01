@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/03/27/implementing-coins
 categories:
-- Technology
-- Open Access
+- Scholarly Communications
 comments: []
 date: 2010-03-27 12:08:00 +0100
 date_gmt: 2010-03-27 12:08:00 +0100

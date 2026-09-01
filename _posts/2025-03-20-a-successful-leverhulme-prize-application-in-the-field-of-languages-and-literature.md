@@ -9,6 +9,8 @@ ogImage: images/Leverhulme_Header.jpg
 title: A successful Philip Leverhulme Prize application in the field of languages
   and literature from 2019
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvz26vs2h"
+categories:
+- Academia
 ---
 
 I am making a concerted effort to make grant applications that I have written openly available. We are far too secretive about these, because we don't like to expose the cases where we "failed" (didn't get the grant). I am no different to anyone else in this respect - it's not gratifying to have to unveil that you applied for 50,000 grants and only got 1 of them. But it's more realistic. So I'll try to put up some "failures", too. (Where that wouldn't compromise anybody or any relationship.)

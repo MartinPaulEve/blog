@@ -8,6 +8,8 @@ layout: post
 ogImage: images/oa.png
 title: Open Access Monographs Misrepresented
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7ma2kwb42t"
+categories:
+- Open Access
 ---
 
 I have [a letter in today's Times Higher Education](https://www.timeshighereducation.com/opinion/letters-open-adaptation) repying to Marilyn Deegan on open-access books. The full, [unedited version of the letter is in my institutional repository](http://eprints.bbk.ac.uk/id/eprint/19293) or below.

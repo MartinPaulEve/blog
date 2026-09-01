@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/03/07/what-is-thomas-pynchons-gravitys-rainbow-about
 categories:
-- Literature
 - Thomas Pynchon
-- Academia
 comments:
 - author: Adam Roberts
   author_email: dracroberts@aol.com

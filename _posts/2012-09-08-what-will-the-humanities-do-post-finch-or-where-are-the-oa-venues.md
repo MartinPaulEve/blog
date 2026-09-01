@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/09/08/what-will-the-humanities-do-post-finch-or-where-are-the-oa-venues
 categories:
-- Literature
-- Academia
+- Open Access
+- Higher Education
 comments: []
 date: 2012-09-08 15:05:41 +0200
 date_gmt: 2012-09-08 14:05:41 +0200

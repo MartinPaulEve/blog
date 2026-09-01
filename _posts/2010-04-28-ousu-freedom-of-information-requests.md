@@ -2,6 +2,7 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/04/28/ousu-freedom-of-information-requests
 categories:
 - Politics
+- Higher Education
 comments: []
 date: 2010-04-28 10:28:41 +0200
 date_gmt: 2010-04-28 10:28:41 +0200

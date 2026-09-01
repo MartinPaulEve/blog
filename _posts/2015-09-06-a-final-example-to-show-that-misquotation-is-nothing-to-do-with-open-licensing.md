@@ -1,6 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/09/06/a-final-example-to-show-that-misquotation-is-nothing-to-do-with-open-licensing
-categories: []
+categories:
+- Copyright and Licensing
+- Open Access
 date: 2015-09-06
 doi: https://doi.org/10.59348/qjgwh-txt77
 image:

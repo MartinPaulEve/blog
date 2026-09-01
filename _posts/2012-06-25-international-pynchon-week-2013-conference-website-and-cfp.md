@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/06/25/international-pynchon-week-2013-conference-website-and-cfp
 categories:
-- Literature
 - Thomas Pynchon
-- Academia
+- Conferences
 comments: []
 date: 2012-06-25 06:38:45 +0200
 date_gmt: 2012-06-25 06:38:45 +0200

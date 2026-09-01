@@ -8,6 +8,8 @@ layout: post
 ogImage: images/oa.png
 title: Small publishers and subscribe to open
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lymg4xk2r"
+categories:
+- Open Access
 ---
 
 There's a lot of focus in the scholarly communications space on transformative agreements for the mega-publishers. Indeed, most of the discourse, most of the time, is about the big publishers in this space. They play Big Bad Wolf with their exorbitant profit margins and make for an easy target. Heck, that's where I came to OA: through frustration at a lack of access to life-saving or life-enriching scholarly work, when some publishers were making absolute mega-bucks profit.

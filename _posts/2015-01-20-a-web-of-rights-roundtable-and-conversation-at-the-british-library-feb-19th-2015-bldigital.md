@@ -1,10 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/01/20/a-web-of-rights-roundtable-and-conversation-at-the-british-library-feb-19th-2015-bldigital
 categories:
-- Technology
-- Open Access
+- Conferences
 - Politics
-- Academia
+- Technology
 comments: []
 date: 2015-01-20
 doi: https://doi.org/10.59348/q1zaq-vbt87

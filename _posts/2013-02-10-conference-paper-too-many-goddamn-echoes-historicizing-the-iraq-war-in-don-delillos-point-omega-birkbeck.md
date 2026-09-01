@@ -1,11 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/02/10/conference-paper-too-many-goddamn-echoes-historicizing-the-iraq-war-in-don-delillos-point-omega-birkbeck
 categories:
-- Literature
 - Conferences
-- Academia
-- Output
-- Conference Papers
+- Literature
 comments: []
 date: 2013-02-10 11:25:39 +0100
 date_gmt: 2013-02-10 11:25:39 +0100

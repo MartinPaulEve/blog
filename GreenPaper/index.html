@@ -3,4 +3,11 @@ layout: category
 title: 2015 HE Green Paper
 type: green paper
 ---
-All posts related to the <a href="https://www.gov.uk/government/consultations/higher-education-teaching-excellence-social-mobility-and-student-choice">2015 HE Green paper</a>.
+<p>All posts related to the <a href="https://www.gov.uk/government/consultations/higher-education-teaching-excellence-social-mobility-and-student-choice">2015 HE Green paper</a>.</p>
+{% assign gp_posts = site.posts | where_exp: "p", "p.title contains 'Green Paper'" %}
+{% for post in gp_posts %}
+<article>
+    <h2 class="archive-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <p class="archive-date">{{ post.date | date: "%-d %B %Y" }}</p>
+</article>
+{% endfor %}

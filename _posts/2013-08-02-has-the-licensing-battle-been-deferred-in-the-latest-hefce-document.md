@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/08/02/has-the-licensing-battle-been-deferred-in-the-latest-hefce-document
 categories:
-- Technology
 - Open Access
+- Copyright and Licensing
 comments: []
 date: 2013-08-02 14:29:45 +0200
 date_gmt: 2013-08-02 13:29:45 +0200

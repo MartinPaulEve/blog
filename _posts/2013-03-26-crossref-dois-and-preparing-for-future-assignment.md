@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/03/26/crossref-dois-and-preparing-for-future-assignment
 categories:
-- Technology
-- Open Access
+- Scholarly Communications
+- Programming
 comments: []
 date: 2013-03-26 12:14:05 +0100
 date_gmt: 2013-03-26 12:14:05 +0100

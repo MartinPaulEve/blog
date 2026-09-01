@@ -1,10 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/09/20/picture-this-postcards-and-letters-beyond-text
 categories:
-- Literature
-- Technology
 - Conferences
-- Open Access
+- Literature
 comments:
 - author: 'Tweets that mention Picture This: Postcards and Letters Beyond Text | Martin
     Paul Eve -- Topsy.com'

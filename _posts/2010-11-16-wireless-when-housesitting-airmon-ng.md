@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/11/16/wireless-when-housesitting-airmon-ng
 categories:
-- Technology
-- InfoSec
+- Information Security
+- Linux
 comments: []
 date: 2010-11-16 08:38:38 +0100
 date_gmt: 2010-11-16 08:38:38 +0100

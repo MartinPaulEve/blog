@@ -1,0 +1,129 @@
+prompt_version: 1
+batch: batch-2013-1
+posts:
+- file: 2013-01-04-new-pynchon-novel-fall-2013-bleeding-edge.md
+  title: 'New Pynchon Novel! Fall 2013: "Bleeding Edge"'
+  old: [Literature, Thomas Pynchon, Academia]
+  new: [Thomas Pynchon]
+  needs_review: false
+  note: ""
+- file: 2013-01-09-call-for-participants-to-build-a-plos-style-model-for-the-humanities-and-social-sciences.md
+  title: "Call For Participants to Build a PLOS-style Model for the Humanities and Social Sciences"
+  old: [Technology, Open Access, Academia]
+  new: [Open Access]
+  needs_review: false
+  note: "Technology/Academia legacy tags are boilerplate; content is purely an OA project call (OLH precursor)."
+- file: 2013-01-13-an-update-on-the-plohss-project.md
+  title: "An update on the PLOHSS project"
+  old: [Technology, Open Access, Academia]
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2013-01-13-on-opposition-to-any-apc-model.md
+  title: "On Opposition to *any* APC model"
+  old: [Technology, Open Access, Academia]
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2013-01-16-qa-with-me-in-library-journal-why-we-need-a-public-library-of-the-humanities-and-social-sciences.md
+  title: "Q&A with me in Library Journal: Why We Need a Public Library of the Humanities and Social Sciences"
+  old: [Technology, Open Access, Academia]
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2013-01-24-conference-paper-floats-like-a-butterfly-stings-like-a-finch-adorno-utopia-and-open-access-publishing-lincoln-university.md
+  title: "Conference Paper: \"Floats Like a Butterfly, Stings Like a Finch: Adorno, Utopia and Open Access Publishing\" (Lincoln University)"
+  old: [Technology, Open Access, Academia, Philosophy, Theodor Adorno]
+  new: [Conferences, Open Access, Philosophy]
+  needs_review: false
+  note: ""
+- file: 2013-01-29-publication-thomas-pynchon-david-foster-wallace-and-the-problems-of-metamodernism-post-millennial-post-postmodernism.md
+  title: "Publication: 'Thomas Pynchon, David Foster Wallace and the Problems of 'Metamodernism': Post-millennial Post-postmodernism?'"
+  old: [Literature, Thomas Pynchon, David Foster Wallace, Academia, Publications, Output]
+  new: [Publications, Thomas Pynchon, Literature]
+  needs_review: false
+  note: "Literature retained alongside Thomas Pynchon because the article substantively treats David Foster Wallace and metamodernism."
+- file: 2013-02-10-conference-paper-too-many-goddamn-echoes-historicizing-the-iraq-war-in-don-delillos-point-omega-birkbeck.md
+  title: "Conference Paper: \"Too many goddamn echoes\": Historicizing the Iraq War in Don DeLillo's /Point Omega/', Birkbeck"
+  old: [Literature, Conferences, Academia, Output, Conference Papers]
+  new: [Conferences, Literature]
+  needs_review: false
+  note: ""
+- file: 2013-03-07-conference-paper-the-future-of-peer-review-university-of-sussex-14th-march-2013-12-2pm.md
+  title: "Conference Paper: \"The Future of Peer Review\", University of Sussex, 14th March 2013, 12-2pm"
+  old: [Open Access, Academia, Output, Conference Papers]
+  new: [Conferences, Academia]
+  needs_review: false
+  note: "Talk announcement; subject is peer review (Academia). OA is only incidental in this short notice."
+- file: 2013-03-09-house-of-commons-bis-inquiry-on-open-access-evidence-published.md
+  title: "House of Commons BIS Inquiry on Open Access Evidence Published"
+  old: [Technology, Open Access, Politics, Academia]
+  new: [Open Access]
+  needs_review: false
+  note: "Dropped Politics hint: this is OA policy/consultation commentary, which the taxonomy places under Open Access."
+- file: 2013-03-10-open-access-neoliberalism-impact-and-the-privatisation-of-knowledge.md
+  title: 'Open Access, "Neoliberalism", "Impact" and the Privatisation of Knowledge'
+  old: [Technology, Open Access, Academia]
+  new: [Open Access, Higher Education]
+  needs_review: false
+  note: "Added Higher Education beyond hints: substantial discussion of REF, impact, tuition fees, and HE privatisation."
+- file: 2013-03-15-the-future-of-peer-review.md
+  title: "The Future of Peer Review"
+  old: [Output, Conference Papers]
+  new: [Conferences, Academia, Open Access]
+  needs_review: false
+  note: "Full transcript of the Sussex talk: peer review practice (Academia) framed through OA and the OLH (Open Access)."
+- file: 2013-03-22-buy-this-album-mountain-of-love-ex-alabama-3.md
+  title: "Buy This Album: Mountain of Love (ex-Alabama 3)"
+  old: [Other]
+  new: [Music]
+  needs_review: false
+  note: ""
+- file: 2013-03-25-futurity-books-marx-labour.md
+  title: "Futurity, Books, Marx, Labour"
+  old: [Open Access, Academia, Output, Conference Papers]
+  new: [Conferences, Open Access]
+  needs_review: false
+  note: "Conference talk transcript on OA monograph economics; Marx frames the argument but the substance is publishing economics, not philosophy."
+- file: 2013-03-26-crossref-dois-and-preparing-for-future-assignment.md
+  title: "CrossRef, DOIs and Preparing for Future Assignment"
+  old: [Technology, Open Access]
+  new: [Scholarly Communications, Programming]
+  needs_review: false
+  note: "Deviates from hints: content is Crossref/DOI infrastructure plus a Python script (crossRefQuery), not OA policy or general tech."
+- file: 2013-03-27-modernist-intimacies-conference.md
+  title: "Modernist Intimacies conference"
+  old: [Literature, Academia]
+  new: [Conferences, Literature]
+  needs_review: false
+  note: ""
+- file: 2013-03-29-exposing-xml-data-for-orbit.md
+  title: "Exposing XML data for Orbit"
+  old: [Technology, Open Access]
+  new: [Publishing Technology]
+  needs_review: false
+  note: "Deviates from hints: NLM/JATS XML typesetting and galley tooling for the Orbit journal is publishing technology; OA and preservation are passing rationale only."
+- file: 2013-04-15-historical-sources-for-pynchons-peter-pinguid-society-now-available-for-download-green-open-access.md
+  title: "Historical Sources for Pynchon's Peter Pinguid Society now available for download (Green Open Access)"
+  old: [Literature, Thomas Pynchon, Open Access, Academia]
+  new: [Open Access, Thomas Pynchon]
+  needs_review: false
+  note: "Point of the post is green OA self-archiving of a Pynchon article; Literature dropped per Pynchon co-occurrence rule."
+- file: 2013-04-15-im-appearing-before-the-house-of-commons-bis-select-committee-into-open-access.md
+  title: "I'm appearing before the House of Commons BIS Select Committee into Open Access"
+  old: [Open Access, Politics]
+  new: [Open Access]
+  needs_review: false
+  note: "Dropped Politics hint: giving evidence to an OA policy inquiry sits under Open Access in the taxonomy, not political commentary."
+- file: 2013-04-17-more-on-new-thomas-pynchon-novel-bleeding-edge.md
+  title: "More on new Thomas Pynchon novel, Bleeding Edge"
+  old: [Literature, Thomas Pynchon, Academia]
+  new: [Thomas Pynchon]
+  needs_review: false
+  note: ""
+- file: 2013-04-21-pynchon-in-public-day-2013.md
+  title: "Pynchon in Public Day 2013"
+  old: [Literature, Thomas Pynchon]
+  new: [Thomas Pynchon]
+  needs_review: false
+  note: ""

@@ -1,11 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/12/12/publication-historical-sources-for-pynchon-e2-80-99s-peter-pinguid-society-pynchon-notes-56-57-spring-fall-2009-pp-242-245
 categories:
-- Literature
-- Thomas Pynchon
-- Academia
 - Publications
-- Output
+- Thomas Pynchon
 comments: []
 date: 2011-12-12 21:05:37 +0100
 date_gmt: 2011-12-12 21:05:37 +0100

@@ -1,13 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/04/03/exactly-half-way-through-my-phd-timetable
 categories:
-- Literature
-- Thomas Pynchon
-- Conferences
 - Personal
 - Academia
-- Philosophy
-- Teaching
 comments:
 - author: Jeffrey Keefer
   author_email: jeffrey@silenceandvoice.com

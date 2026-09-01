@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/04/23/what-does-the-academic-monograph-market-look-like-for-a-new-open-access-publisher
-categories: []
+categories:
+- Open Access
 date: 2015-04-23
 doi: https://doi.org/10.59348/w6nzn-yax73
 image:

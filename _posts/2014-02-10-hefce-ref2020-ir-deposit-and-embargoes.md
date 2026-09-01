@@ -2,7 +2,7 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/02/10/hefce-ref2020-ir-deposit-and-embargoes
 categories:
 - Open Access
-- Academia
+- Higher Education
 comments: []
 date: 2014-02-10 16:23:07 +0100
 date_gmt: 2014-02-10 16:23:07 +0100

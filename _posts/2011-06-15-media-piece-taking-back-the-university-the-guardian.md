@@ -1,11 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/06/15/media-piece-taking-back-the-university-the-guardian
 categories:
-- Politics
-- Academia
-- Output
-- Public Engagement
-- Media
+- Publications
+- Higher Education
 comments:
 - author: peps mccrea
   author_email: pepsmccrea@gmail.com

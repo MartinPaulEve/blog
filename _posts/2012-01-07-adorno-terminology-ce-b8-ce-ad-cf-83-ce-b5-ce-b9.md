@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/01/07/adorno-terminology-ce-b8-ce-ad-cf-83-ce-b5-ce-b9
 categories:
-- Academia
 - Philosophy
-- Theodor Adorno
 comments:
 - author: Scooby
   author_email: virtualosophy@hotmail.com

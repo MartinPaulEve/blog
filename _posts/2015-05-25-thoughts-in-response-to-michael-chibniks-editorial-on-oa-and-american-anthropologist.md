@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/05/25/thoughts-in-response-to-michael-chibniks-editorial-on-oa-and-american-anthropologist
 categories:
-- OA
-- societies
+- Open Access
 date: 2015-05-25
 doi: https://doi.org/10.59348/cvkcj-9zt96
 image:

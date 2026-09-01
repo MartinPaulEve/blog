@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2007/11/27/right-to-left-and-left-to-right-characters
 categories:
-- Technology
-- InfoSec
+- Information Security
 comments: []
 date: 2007-11-27 13:22:40 +0100
 date_gmt: 2007-11-27 13:22:40 +0100

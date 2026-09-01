@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/07/12/starting-an-open-access-journal-a-step-by-step-guide-part-3
 categories:
-- Technology
 - Open Access
-- Academia
+- Publishing Technology
 comments: []
 date: 2012-07-12 08:30:55 +0200
 date_gmt: 2012-07-12 08:30:55 +0200

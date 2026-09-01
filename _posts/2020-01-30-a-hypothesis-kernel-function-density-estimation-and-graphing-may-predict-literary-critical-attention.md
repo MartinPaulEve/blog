@@ -6,6 +6,9 @@ layout: post
 title: 'A hypothesis: kernel function density estimation and graphing may predict
   literary critical attention'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6jezwv2f"
+categories:
+- Digital Humanities
+- Thomas Pynchon
 ---
 
 This is really speculative, but today I returned to David McClure's [excellent and fun TextPlot tool](https://github.com/davidmcclure/textplot). A type of topic modelling (but not LDA), McClure explains his [Bray-Curtis dissimilarity mapping in a separate post](http://dclure.org/essays/mental-maps-of-texts/) but essentially what is being measured here is the interconnectedness and proximity of various terms within a network graph. In texts with distinct episodic structures, this means that the graphs that are produced by this method cluster abstract terms centrally within the network and push distinct linguistic clusters to the edges. I hypothesize that these peripheral nodes represent the episodes that will receive literary critical attention.

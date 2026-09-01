@@ -1,0 +1,117 @@
+prompt_version: 1
+batch: batch-2011-6
+posts:
+- file: 2011-10-25-open-access-week-at-the-university-of-sussex.md
+  title: "Open Access Week at the University of Sussex"
+  old: [Open Access, Academia]
+  new: [Open Access, Conferences]
+  needs_review: false
+  note: "Report of a talk and workshop delivered for OA Week; Conferences (workshop/talk delivered) fits the content better than the Academia hint."
+- file: 2011-10-30-booting-ubuntu-from-devices-invisible-to-grub2.md
+  title: "Booting Ubuntu from devices invisible to GRUB2"
+  old: [Technology, Linux]
+  new: [Linux]
+  needs_review: false
+  note: "Linux fix-it post; per co-occurrence rule, Linux alone (Technology hint dropped)."
+- file: 2011-11-02-a-dissenting-voice-on-acbowrimo.md
+  title: "A dissenting voice on #AcBoWriMo"
+  old: [Academia]
+  new: [Academia]
+  needs_review: false
+  note: ""
+- file: 2011-11-02-complaint-over-the-closure-of-the-british-library-to-accomodate-a-visit-from-the-queen.md
+  title: "Complaint over the closure of the British Library to accomodate a visit from the queen"
+  old: [Politics]
+  new: [Politics]
+  needs_review: false
+  note: ""
+- file: 2011-11-05-brian-lobel-ball-and-other-funny-stories-about-cancer.md
+  title: "Brian Lobel: BALL and Other Funny Stories About Cancer"
+  old: [Performance]
+  new: [Literature]
+  needs_review: false
+  note: "Legacy 'Performance' remaps to Music, but this is a live-art/theatre performance review (no music content); Literature covers theatre and reviews."
+- file: 2011-11-07-simon-f-davies-open-educational-resource-on-literary-terms.md
+  title: "Simon F. Davies' Open Educational Resource on Literary Terms"
+  old: [Literature, Academia, Teaching]
+  new: [Teaching, Literature]
+  needs_review: false
+  note: ""
+- file: 2011-11-18-guest-post-on-google-scholar-citations.md
+  title: "Guest post on Google Scholar Citations"
+  old: [Technology, Academia]
+  new: [Academia, Scholarly Communications]
+  needs_review: false
+  note: "Synopsis of a citation-metrics service for researchers; Academia (metrics) plus Scholarly Communications (citations) rather than the generic Technology hint."
+- file: 2011-11-19-netids-development-restarted-participants-wanted.md
+  title: ".NETIDS development restarted. Participants wanted."
+  old: [Technology, InfoSec, .NET]
+  new: [Information Security, Programming]
+  needs_review: false
+  note: "Intrusion detection system in C#/.NET; specific categories cover it, so the Technology hint is dropped."
+- file: 2011-11-28-forthcoming-workshops-academic-websites-protecting-your-assets.md
+  title: "Forthcoming workshops: academic websites & protecting your assets!"
+  old: [Academia, Teaching]
+  new: [Conferences, Academia, Technology]
+  needs_review: false
+  note: "Workshop announcement, so Conferences plus subject; material is academic web presence and backup tooling (WordPress, Dropbox), hence Academia and Technology over the Teaching hint (not classroom pedagogy)."
+- file: 2011-12-01-first-fictions-launch-weekend-20-22-january-2012.md
+  title: "First Fictions launch weekend: 20-22 January, 2012"
+  old: [Literature, Conferences, Academia]
+  new: [Conferences, Literature]
+  needs_review: false
+  note: ""
+- file: 2011-12-02-dialectic-of-enlightenment-2011.md
+  title: "Dialectic of Enlightenment, 2011"
+  old: [Politics, Philosophy, Theodor Adorno]
+  new: [Philosophy, Politics]
+  needs_review: false
+  note: ""
+- file: 2011-12-02-global-and-historical-reasons-why-it-is-utterly-innapropriate-even-to-joke-about-killing-trade-unionists.md
+  title: "Global and historical reasons why it is utterly innapropriate, even to joke, about killing trade unionists"
+  old: [Politics]
+  new: [Politics]
+  needs_review: false
+  note: ""
+- file: 2011-12-07-support-war-child-and-see-laurent-gardnerbooka-shadeleftfield-live-april-2012.md
+  title: "**Support War Child** and see Laurent Gardner/Booka Shade/Leftfield live April 2012"
+  old: [Personal, Politics]
+  new: [Music, Personal]
+  needs_review: false
+  note: "Charity gig promotion centred on Leftfield and the author's love of their music; charitable appeal is humanitarian rather than political commentary, so the Politics hint is dropped for Music."
+- file: 2011-12-12-publication-historical-sources-for-pynchon-e2-80-99s-peter-pinguid-society-pynchon-notes-56-57-spring-fall-2009-pp-242-245.md
+  title: "Publication: 'Historical Sources for Pynchon's Peter Pinguid Society', Pynchon Notes, 56-57 (Spring-Fall 2009 (2011)), pp. 242-245"
+  old: [Literature, Thomas Pynchon, Academia, Publications, Output]
+  new: [Publications, Thomas Pynchon]
+  needs_review: false
+  note: "Publication announcement of a Pynchon piece; per rules, Publications plus Thomas Pynchon, without Literature."
+- file: 2011-12-13-a-minor-correction-to-anne-mangels-maxwells-demon-entropy-information-the-crying-of-lot-49.md
+  title: "A minor correction to Anne Mangel's \"Maxwell's Demon, Entropy, Information: The Crying of Lot 49\""
+  old: [Thomas Pynchon, Academia]
+  new: [Thomas Pynchon]
+  needs_review: false
+  note: "Pynchon scholarship itself, not commentary on academic life, so the Academia hint is dropped."
+- file: 2011-12-16-mexmlgalley-now-supporting-image-insertion-ojs-xml-to-pdf.md
+  title: "meXmlGalley now supporting image insertion (OJS: XML to PDF)"
+  old: [Technology, Open Access]
+  new: [Publishing Technology, Programming]
+  needs_review: false
+  note: "OJS plugin for XML-to-PDF typesetting is publishing tooling (own software project), not OA policy; overrode the Technology and Open Access hints per the tooling rule."
+- file: 2011-12-22-guest-piece-in-the-guardian-secondary-schools-are-not-adequately-preparing-students-for-higher-education.md
+  title: "Guest piece in the Guardian: Secondary schools are not adequately preparing students for higher education"
+  old: [Politics, Academia, Output, Media]
+  new: [Higher Education, Teaching, Publications]
+  needs_review: false
+  note: "Op-ed on exam-driven school assessment and its consequences for universities: Higher Education and Teaching (assessment and exams) fit better than the Politics/Academia hints; Publications for the announced Guardian piece."
+- file: 2011-12-30-2012-year-of-the-phd-completion-guardian-higher-education-top-10-posts-of-2011.md
+  title: "2012: Year of the PhD Completion / Guardian Higher Education Top 10 posts of 2011"
+  old: [Politics, Academia, Output, Media]
+  new: [Academia, Personal]
+  needs_review: false
+  note: "Note on a Guardian top-10 listing plus new-year/PhD-completion wishes; chiefly academic-life news with a personal year-turn frame, so the Politics and Publications hints are dropped."
+- file: 2011-12-30-account-aggregation-with-uk-banks-and-a-free-software-lloyds-tsb-scraper.md
+  title: "Account aggregation with UK banks and a free software Lloyds TSB scraper"
+  old: [Technology]
+  new: [Programming]
+  needs_review: false
+  note: "Own Ruby scraper project released under GPL; Programming is more specific than the Technology hint."

@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/01/13/handling-the-absence-of-a-newline-break-tag-in-jats
 categories:
-- Academia
-- meTypeset
+- Publishing Technology
+- Programming
 comments: []
 date: 2014-01-13 18:56:39 +0100
 date_gmt: 2014-01-13 18:56:39 +0100

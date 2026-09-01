@@ -1,13 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/04/05/new-york-times-writes-about-my-ph-d-thesis-work
 categories:
-- Literature
 - Thomas Pynchon
-- Academia
 - Philosophy
-- Output
-- Public Engagement
-- Ludwig Wittgenstein
+- Personal
 comments:
 - author: Lianne
   author_email: lianne_demello@hotmail.co.uk

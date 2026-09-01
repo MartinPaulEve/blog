@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/02/02/on-phdchat-call-for-collaborationhistory-overview-themes-and-response
 categories:
-- Technology
 - Academia
-- EdTech
+- Technology
 comments:
 - author: Jennifer Jones
   author_email: email@jennifermjones.net

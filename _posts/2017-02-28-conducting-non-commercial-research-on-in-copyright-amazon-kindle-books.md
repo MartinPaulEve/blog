@@ -5,6 +5,8 @@ doi: https://doi.org/10.59348/gwjf2-gc749
 layout: post
 title: Conducting non-commercial research on in-copyright Amazon Kindle books
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mafdkid2p"
+categories:
+- Copyright and Licensing
 ---
 
 The saga continues from [where I left off](https://www.martineve.com/2017/01/16/thinking-more-about-eu-law-and-uk-copyright-exemptions/). Since then, I emailed a publisher to request a corpus of a specific author's work in a format that would allow computational techniques (i.e. not Amazon Kindle, which has DRM protection that it is illegal to break).

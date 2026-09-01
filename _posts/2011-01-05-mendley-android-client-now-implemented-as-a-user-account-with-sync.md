@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/01/05/mendley-android-client-now-implemented-as-a-user-account-with-sync
 categories:
+- Programming
 - Technology
-- Android
-- Linux
 comments:
 - author: 'Tweets that mention Mendley Android Client: now implemented as a user account
     with sync | Martin Paul Eve -- Topsy.com'

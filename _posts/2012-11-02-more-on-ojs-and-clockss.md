@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/11/02/more-on-ojs-and-clockss
 categories:
-- Technology
-- Open Access
-- Academia
+- Publishing Technology
+- Digital Preservation
 comments: []
 date: 2012-11-02 11:46:59 +0100
 date_gmt: 2012-11-02 11:46:59 +0100

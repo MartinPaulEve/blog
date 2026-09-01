@@ -2,6 +2,7 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/11/12/universities-dh-the-crowd-and-labour-that-looks-like-a-game
 categories:
 - Academia
+- Digital Humanities
 comments: []
 date: 2014-11-12
 doi: https://doi.org/10.59348/pfmvz-jq567

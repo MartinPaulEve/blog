@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/11/04/the-problems-of-copyleft-twitter-and-tweets
 categories:
+- Copyright and Licensing
 - Technology
-- Open Access
 comments:
 - author: Tweets that mention The Problems of Copyleft, Twitter and Tweets | Martin
     Paul Eve -- Topsy.com

@@ -8,6 +8,9 @@ layout: post
 ogImage: images/geek.png
 title: On programming/languages
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2h4chk2a"
+categories:
+- Digital Humanities
+- Programming
 ---
 
 I asked on Twitter for [where to start on considering programming languages _as languages_](https://twitter.com/martin_eve/status/1429415082199502852). Here are some of the best recommendations:

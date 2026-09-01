@@ -5,6 +5,8 @@ doi: https://doi.org/10.59348/qfh45-dct22
 layout: post
 title: On responses and rebuttals in the discipline of English literature
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mah5gzl2p"
+categories:
+- Academia
 ---
 
 There is an article, published in a "top" journal in my field, that makes a series of claims with which I substantially disagree. In fact, I think the piece, which will probably go on to be widely cited and used, is flawed. I feel, in some ways, that it merits a response article that critiques it (while also being aware that this will attract symbolic capital to the piece through scandal).

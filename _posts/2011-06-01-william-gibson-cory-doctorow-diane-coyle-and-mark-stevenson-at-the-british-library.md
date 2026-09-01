@@ -1,12 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/06/01/william-gibson-cory-doctorow-diane-coyle-and-mark-stevenson-at-the-british-library
 categories:
-- Literature
-- Technology
-- Academia
+- Conferences
 - Philosophy
-- Theodor Adorno
-- Max Horkheimer
 comments: []
 date: 2011-06-01 11:06:31 +0200
 date_gmt: 2011-06-01 11:06:31 +0200

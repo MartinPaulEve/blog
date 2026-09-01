@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/01/09/call-for-participants-to-build-a-plos-style-model-for-the-humanities-and-social-sciences
 categories:
-- Technology
 - Open Access
-- Academia
 comments: []
 date: 2013-01-09 20:05:51 +0100
 date_gmt: 2013-01-09 20:05:51 +0100

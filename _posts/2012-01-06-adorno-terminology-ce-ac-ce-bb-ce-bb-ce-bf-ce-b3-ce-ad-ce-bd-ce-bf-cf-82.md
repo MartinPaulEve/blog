@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/01/06/adorno-terminology-ce-ac-ce-bb-ce-bb-ce-bf-ce-b3-ce-ad-ce-bd-ce-bf-cf-82
 categories:
-- Academia
 - Philosophy
-- Theodor Adorno
 comments:
 - author: Helen Karamallakis
   author_email: helenkaramallakis@virginmedia.com

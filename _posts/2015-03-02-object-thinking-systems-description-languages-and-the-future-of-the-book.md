@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/03/02/object-thinking-systems-description-languages-and-the-future-of-the-book
 categories:
-- Open Access
-- Academia
+- Programming
+- Publishing Technology
 comments: []
 date: 2015-03-02
 doi: https://doi.org/10.59348/dvj7h-04x29

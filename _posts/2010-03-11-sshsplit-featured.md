@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/03/11/sshsplit-featured
 categories:
-- Technology
-- Open Access
+- Programming
+- Information Security
 comments: []
 date: 2010-03-11 14:40:04 +0100
 date_gmt: 2010-03-11 14:40:04 +0100

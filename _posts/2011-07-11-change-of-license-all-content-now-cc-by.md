@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/07/11/change-of-license-all-content-now-cc-by
 categories:
-- Technology
-- Open Access
+- Copyright and Licensing
 comments: []
 date: 2011-07-11 08:49:22 +0200
 date_gmt: 2011-07-11 08:49:22 +0200

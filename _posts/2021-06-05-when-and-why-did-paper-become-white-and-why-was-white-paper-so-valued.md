@@ -8,6 +8,8 @@ layout: post
 ogImage: images/header_paper.png
 title: When and why did paper become white and why was white paper so valued?
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3dyuhl2r"
+categories:
+- Literature
 ---
 
 I've spent the past few weeks tracking down answers to the questions: "When and why did paper become white and why was white paper so valued?" for my work on [_Paper Thin_](https://eprints.bbk.ac.uk/id/eprint/31744/). Here are some of my very abridged findings.

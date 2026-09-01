@@ -1,10 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/03/09/house-of-commons-bis-inquiry-on-open-access-evidence-published
 categories:
-- Technology
 - Open Access
-- Politics
-- Academia
 comments: []
 date: 2013-03-09 17:14:14 +0100
 date_gmt: 2013-03-09 17:14:14 +0100

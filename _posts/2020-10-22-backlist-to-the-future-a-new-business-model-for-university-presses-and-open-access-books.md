@@ -9,6 +9,8 @@ ogImage: images/header_OtF.png
 title: 'Backlist to the Future: a new business model for university presses and open-access
   books'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m4qmh3d2f"
+categories:
+- Open Access
 ---
 
 As part of my efforts on Work Package 3 of the COPIM project I am engaged in a project that seeks to convert publishers to business models that will allow them to publish their books openly, without using unaffordable book processing charges (which authors hate and which will not scale).

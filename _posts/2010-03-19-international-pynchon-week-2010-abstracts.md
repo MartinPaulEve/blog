@@ -1,9 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/03/19/international-pynchon-week-2010-abstracts
 categories:
-- Literature
-- Thomas Pynchon
 - Conferences
+- Thomas Pynchon
+- Literature
 comments: []
 date: 2010-03-19 10:19:56 +0100
 date_gmt: 2010-03-19 10:19:56 +0100

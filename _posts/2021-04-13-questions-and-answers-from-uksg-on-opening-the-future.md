@@ -8,6 +8,9 @@ layout: post
 ogImage: images/oa.png
 title: Questions and Answers from UKSG on Opening the Future
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3gdwqe2s"
+categories:
+- Open Access
+- Conferences
 ---
 
 <b>Do you think that the Subscribe-To-Open model could be applied to new academic presses who have no backlist?</b>

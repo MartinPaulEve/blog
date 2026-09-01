@@ -8,6 +8,9 @@ layout: post
 ogImage: images/header_keyboard.png
 title: Input-Output
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m22ekoc2f"
+categories:
+- Academia
+- Personal
 ---
 
 Something I am not very good at is decoupling the amount of effort I am expected to put in from the output result. That is, my academic contract has a nominal number of hours that I am expected to work and that should serve as a guide for how much I can get done. In the two full years where I have time tracked everything I do for work, I have ended up substantially "in the red"; i.e. I do many more hours than the contract states. How much more? About 51 work days' worth in a year (so an extra day per week than is specified.)

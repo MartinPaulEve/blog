@@ -1,10 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/09/28/speaking-of-open-access
 categories:
-- Technology
-- Conferences
 - Open Access
-- Academia
+- Conferences
 comments: []
 date: 2010-09-28 14:45:22 +0200
 date_gmt: 2010-09-28 14:45:22 +0200

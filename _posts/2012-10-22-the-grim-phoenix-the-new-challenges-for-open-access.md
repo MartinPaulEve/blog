@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/10/22/the-grim-phoenix-the-new-challenges-for-open-access
 categories:
-- Technology
 - Open Access
-- Academia
+- Higher Education
 comments: []
 date: 2012-10-22 12:07:14 +0200
 date_gmt: 2012-10-22 11:07:14 +0200

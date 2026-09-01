@@ -3,7 +3,7 @@ archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015
 categories:
 - Open Access
 - Academia
-- Conference Papers
+- Conferences
 comments: []
 date: 2015-01-15
 doi: https://doi.org/10.59348/s50gk-pjy52

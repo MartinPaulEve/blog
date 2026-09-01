@@ -1,0 +1,147 @@
+prompt_version: 1
+batch: batch-2015-2
+posts:
+- file: 2015-05-12-another-copyright-absurdity-using-film-screenshots.md
+  title: "Another copyright absurdity: using film screenshots"
+  old: [copyright]
+  new: [Copyright and Licensing]
+  needs_review: false
+  note: ""
+- file: 2015-05-13-more-on-fair-use-of-screengrabs.md
+  title: "More on fair-use of screengrabs"
+  old: [copyright, publishing]
+  new: [Copyright and Licensing]
+  needs_review: false
+  note: "Fair use/fair dealing analysis throughout; the 'publishing' hint is incidental context rather than scholarly infrastructure, so dropped."
+- file: 2015-05-18-some-lessons-in-writing-python-web-scrapers.md
+  title: "Some lessons in writing Python web scrapers"
+  old: []
+  new: [Programming]
+  needs_review: false
+  note: ""
+- file: 2015-05-25-thoughts-in-response-to-michael-chibniks-editorial-on-oa-and-american-anthropologist.md
+  title: "Thoughts in response to Michael Chibnik's editorial on OA and American Anthropologist"
+  old: [OA, societies]
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2015-05-31-dissemination-and-assessment-open-access-reputation-and-economics.md
+  title: "Dissemination and Assessment: Open Access, Reputation and Economics"
+  old: [talks, abstracts]
+  new: [Conferences, Open Access]
+  needs_review: false
+  note: ""
+- file: 2015-05-31-flipping-journals-to-oa-while-supporting-existing-oa-publications.md
+  title: "Flipping journals to OA while supporting existing OA publications"
+  old: [OA]
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2015-06-01-applications-open-for-opencon-2015.md
+  title: "Applications now open for OpenCon 2015"
+  old: [Technology, Open Access, Politics, Academia]
+  new: [Conferences, Open Access]
+  needs_review: false
+  note: "Conference announcement about the Open Access/Open Education/Open Data movement; dropped the Technology, Politics and Academia hints as the content is squarely an OA-movement event notice."
+- file: 2015-06-07-heidis-years-of-learning-and-travel-late-pynchons-academics.md
+  title: "Heidi's Years of Learning and Travel: Late Pynchon's Academics"
+  old: [conferences]
+  new: [Conferences, Thomas Pynchon]
+  needs_review: false
+  note: ""
+- file: 2015-06-07-visualizing-gravitys-rainbow.md
+  title: "Visualizing Gravity's Rainbow"
+  old: [Pynchon, DH]
+  new: [Digital Humanities, Thomas Pynchon]
+  needs_review: false
+  note: ""
+- file: 2015-06-17-apcs-and-uneven-distribution.md
+  title: "APCs and Uneven Distribution"
+  old: [APCs, Open Access]
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2015-06-19-vint-cerf-on-digital-preservation-at-aaup-2015.md
+  title: "Vint Cerf on Digital Preservation at AAUP 2015"
+  old: [digital preservation]
+  new: [Digital Preservation, Conferences]
+  needs_review: false
+  note: "Event report from the AAUP conference, so Conferences added alongside the preservation subject."
+- file: 2015-06-20-disable-incoming-call-voice-announcement-on-the-nexus-6.md
+  title: "Disable \"incoming call\" voice announcement on the Nexus 6"
+  old: [technology]
+  new: [Technology]
+  needs_review: false
+  note: ""
+- file: 2015-06-21-the-conservatism-of-cloud-atlas.md
+  title: "The Conservatism of Cloud Atlas"
+  old: [David Mitchell]
+  new: [Literature]
+  needs_review: false
+  note: ""
+- file: 2015-06-28-the-link-between-teaching-tuition-fees-and-research-publication-economics.md
+  title: "The link between teaching, tuition fees and research publication economics"
+  old: [OA, publication]
+  new: [Academia, Higher Education]
+  needs_review: false
+  note: "Overrode hints: the post never discusses open access itself and is not a publication announcement; it is about publishing-as-assessment, hiring proxies and tuition-fee-driven university economics."
+- file: 2015-07-04-he-doesnt-talk-politics-any-more-politics-and-postmodernism-morality-and-metafiction-nihilism-and-the-novel.md
+  title: "'He doesn't talk politics any more': Politics and Postmodernism; Morality and Metafiction; Nihilism and the Novel?"
+  old: [literature, ethics, talks]
+  new: [Literature, Conferences, Thomas Pynchon]
+  needs_review: false
+  note: "Keynote text on US fiction broadly (Barth, DeLillo, Morrison, Reed, hooks), with substantive Pynchon readings framing it; the 'ethics' hint (Philosophy) is only a supporting frame so gave way to Thomas Pynchon."
+- file: 2015-07-16-the-politics-of-style-on-styleguides-in-scholarly-communications.md
+  title: "The politics of style: on styleguides in scholarly communications"
+  old: [open access, style]
+  new: [Scholarly Communications]
+  needs_review: false
+  note: "About styleguide practice in journal publishing; the OLH context does not make it an OA business/policy post, so the 'open access' hint was dropped."
+- file: 2015-07-20-building-a-real-xml-first-workflow-for-scholarly-typesetting.md
+  title: "Building a real XML-first (XML-in) workflow for scholarly typesetting"
+  old: [meTypeset, typesetting, JATS]
+  new: [Publishing Technology]
+  needs_review: false
+  note: ""
+- file: 2015-07-23-cassius-a-pdf-typesetter-using-css-regions-via-polyfill.md
+  title: "CaSSius: a PDF typesetter using CSS regions (via polyfill)"
+  old: [PDF, typesetting, XML]
+  new: [Publishing Technology]
+  needs_review: false
+  note: ""
+- file: 2015-07-24-getting-started-typesetting-with-cassius.md
+  title: "Getting started typesetting with CaSSius"
+  old: [typesetting, PDF, HTML]
+  new: [Publishing Technology]
+  needs_review: false
+  note: ""
+- file: 2015-08-07-fix-some-of-your-writing-tics-with-a-bit-of-technology.md
+  title: "Fix some of your writing tics with a bit of technology"
+  old: [regex, programming, writing]
+  new: [Programming, Academia]
+  needs_review: false
+  note: ""
+- file: 2015-08-19-additional-contexts-for-reading-the-emergence-of-new-UK-university-presses.md
+  title: "Additional contexts for reading the emergence of new UK university presses"
+  old: [OA, publishing]
+  new: [Open Access, Higher Education]
+  needs_review: false
+  note: "OA press economics is primary; Higher Education added for the tuition-fee/student-recruitment funding argument that structures the piece."
+- file: 2015-08-19-wordpress-php-eval-attacks.md
+  title: "Wordpress php eval attacks"
+  old: [wordpress]
+  new: [Information Security]
+  needs_review: false
+  note: "Overrode the 'wordpress' (Technology) hint: the post is about cleaning up a PHP eval injection attack, which is security remediation."
+- file: 2015-08-22-researchers-are-altering-their-methods-because-of-uncertainty-over-creative-commons-licenses.md
+  title: "Researchers are altering their methods because of uncertainty over Creative Commons licenses"
+  old: [open access]
+  new: [Copyright and Licensing, Open Access]
+  needs_review: false
+  note: "Primarily a close reading of the CC BY license and moral rights, in the context of RCUK OA policy."
+- file: 2015-08-23-how-to-block-distributed-brute-force-attacks-against-wordpress-using-fail2ban.md
+  title: "How to block distributed brute-force attacks against Wordpress using fail2ban"
+  old: [tech, security]
+  new: [Information Security]
+  needs_review: false
+  note: ""

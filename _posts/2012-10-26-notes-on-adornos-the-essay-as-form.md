@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/10/26/notes-on-adornos-the-essay-as-form
 categories:
-- Academia
 - Philosophy
-- Theodor Adorno
 comments: []
 date: 2012-10-26 14:18:16 +0200
 date_gmt: 2012-10-26 13:18:16 +0200

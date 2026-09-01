@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/06/24/the-8th-biennial-symbiosis-conference-day-1
 categories:
-- Literature
 - Conferences
-- Academia
+- Literature
 comments: []
 date: 2011-06-24 07:18:38 +0200
 date_gmt: 2011-06-24 07:18:38 +0200

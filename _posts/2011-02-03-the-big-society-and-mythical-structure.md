@@ -2,10 +2,7 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/02/03/the-big-society-and-mythical-structure
 categories:
 - Politics
-- Academia
 - Philosophy
-- Theodor Adorno
-- Max Horkheimer
 comments: []
 date: 2011-02-03 10:40:08 +0100
 date_gmt: 2011-02-03 10:40:08 +0100

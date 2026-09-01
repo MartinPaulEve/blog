@@ -1,7 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/06/21/the-conservatism-of-cloud-atlas
 categories:
-- David Mitchell
+- Literature
 date: 2015-06-21
 doi: https://doi.org/10.59348/aamv0-ken19
 layout: post

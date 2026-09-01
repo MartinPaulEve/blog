@@ -1,10 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/08/14/publication-historicizing-the-iraq-war-in-don-delillos-point-omega
 categories:
-- Literature
-- Academia
 - Publications
-- Output
+- Literature
 comments: []
 date: 2014-08-14 06:51:24 +0200
 date_gmt: 2014-08-14 05:51:24 +0200

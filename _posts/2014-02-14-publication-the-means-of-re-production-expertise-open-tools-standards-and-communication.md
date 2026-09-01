@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/02/14/publication-the-means-of-re-production-expertise-open-tools-standards-and-communication
 categories:
-- Technology
-- Open Access
 - Publications
+- Publishing Technology
 comments: []
 date: 2014-02-14 06:29:36 +0100
 date_gmt: 2014-02-14 06:29:36 +0100

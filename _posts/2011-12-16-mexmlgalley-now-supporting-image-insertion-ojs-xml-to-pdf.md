@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/12/16/mexmlgalley-now-supporting-image-insertion-ojs-xml-to-pdf
 categories:
-- Technology
-- Open Access
+- Publishing Technology
+- Programming
 comments: []
 date: 2011-12-16 19:24:55 +0100
 date_gmt: 2011-12-16 19:24:55 +0100

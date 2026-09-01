@@ -2,7 +2,6 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/01/14/joe-ortons-defaced-books-at-the-islington-museum
 categories:
 - Literature
-- Academia
 comments: []
 date: 2012-01-14 19:51:30 +0100
 date_gmt: 2012-01-14 19:51:30 +0100

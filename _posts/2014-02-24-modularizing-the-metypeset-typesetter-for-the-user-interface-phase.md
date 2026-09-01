@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/02/24/modularizing-the-metypeset-typesetter-for-the-user-interface-phase
 categories:
-- Technology
-- meTypeset
+- Publishing Technology
+- Programming
 comments: []
 date: 2014-02-24 19:30:50 +0100
 date_gmt: 2014-02-24 19:30:50 +0100

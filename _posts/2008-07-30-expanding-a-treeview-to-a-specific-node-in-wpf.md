@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2008/07/30/expanding-a-treeview-to-a-specific-node-in-wpf
 categories:
-- Technology
-- .NET
+- Programming
 comments: []
 date: 2008-07-30 13:40:55 +0200
 date_gmt: 2008-07-30 13:40:55 +0200

@@ -1,0 +1,87 @@
+prompt_version: 1
+batch: batch-2017-1
+posts:
+- file: 2017-01-01-the-rivalrous-parts-of-non-rivalrous-digital-forms.md
+  title: "The rivalrous parts of non-rivalrous digital forms"
+  old: []
+  new: [Open Access, Philosophy]
+  needs_review: false
+  note: "Theoretical meditation on OA and public goods; substantive engagement with Suber and Walter Benjamin on knowledge, representation, and reproducibility warrants the Philosophy secondary."
+- file: 2017-01-02-learned-societies-open-access-and-paying-for-disciplinary-goods.md
+  title: "Learned societies in the humanities, open access, and paying for disciplinary goods"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2017-01-03-four-implementation-questions-about-open-access-and-monographs.md
+  title: "Four implementation questions about open access and monographs"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2017-01-06-my-responses-to-the-consultation-on-the-second-research-excellence-framework.md
+  title: "My responses to the Consultation on the Second Research Excellence Framework"
+  old: []
+  new: [Higher Education, Open Access]
+  needs_review: false
+  note: "REF consultation response, so Higher Education leads; the answers on OA extra credit and OA monographs (Q36, Q44/Annex C) are substantive enough for an Open Access secondary."
+- file: 2017-01-16-thinking-more-about-eu-law-and-uk-copyright-exemptions.md
+  title: "Thinking more about EU law and UK copyright exemptions"
+  old: []
+  new: [Copyright and Licensing]
+  needs_review: false
+  note: ""
+- file: 2017-01-19-on-responses-and-rebuttals-in-the-discipline-of-english-literature.md
+  title: "On responses and rebuttals in the discipline of English literature"
+  old: []
+  new: [Academia]
+  needs_review: false
+  note: "About disciplinary publishing culture, peer review, and post-publication critique rather than literary criticism itself, so Academia rather than Literature."
+- file: 2017-02-10-on-automatically-detecting-parenthetical-citations.md
+  title: "On automatically detecting parenthetical citations"
+  old: []
+  new: [Publishing Technology, Programming]
+  needs_review: false
+  note: ""
+- file: 2017-02-13-how-much-does-it-cost-to-run-a-small-scholarly-publisher.md
+  title: "How much does it cost to run a small scholarly publisher?"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2017-02-16-judging-the-painting-research-without-the-frame-the-journal.md
+  title: "Judging the painting (research) without the frame (the journal)"
+  old: []
+  new: [Academia]
+  needs_review: false
+  note: ""
+- file: 2017-02-28-conducting-non-commercial-research-on-in-copyright-amazon-kindle-books.md
+  title: "Conducting non-commercial research on in-copyright Amazon Kindle books"
+  old: []
+  new: [Copyright and Licensing]
+  needs_review: false
+  note: ""
+- file: 2017-03-11-on-the-economics-of-flipping-subscription-journals.md
+  title: "On the economics of flipping subscription journals"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2017-04-01-librarian-evaluation-of-non-apc-oa-models-in-the-age-of-open-access.md
+  title: "Librarian Evaluation of Non-APC OA Models in the Age of Open Access"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2017-04-03-100-people-in-a-room.md
+  title: "100 people in a room: on the distributional effects of different open-access funding models"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2017-04-21-the-folio-society-edition-of-riddley-walker.md
+  title: "The Folio Society Edition of Riddley Walker"
+  old: []
+  new: [Literature]
+  needs_review: false
+  note: ""

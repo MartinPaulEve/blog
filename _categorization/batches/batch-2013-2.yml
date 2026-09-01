@@ -1,0 +1,129 @@
+prompt_version: 1
+batch: batch-2013-2
+posts:
+- file: 2013-04-27-internationalisation-of-new-open-access-initiatives.md
+  title: "Internationalisation of New Open Access Initiatives"
+  old: [Technology, Open Access]
+  new: [Open Access]
+  needs_review: false
+  note: "Dropped the Technology hint: the post is purely a plug for an OLH internationalisation-committee piece on multilingual OA publishing; no technology content."
+- file: 2013-05-12-getting-free_cite-running-on-your-own-server.md
+  title: "Getting free_cite running on your own server"
+  old: [Technology, Open Access]
+  new: [Publishing Technology, Programming]
+  needs_review: true
+  note: "Overrode both hints: this is a hands-on install guide (Ruby/Rails/CRF++ on Ubuntu) for free_cite, a citation-parsing tool in the scholarly publishing toolchain, with no OA policy content. Flagged because the post sits between Publishing Technology, Programming, and Scholarly Communications; chose the first two as it is tooling setup rather than infrastructure commentary."
+- file: 2013-05-21-fixing-mpd-segfault-on-ubuntu-12-10-on-arm-devices-mele-pandaboard-etc.md
+  title: "Fixing mpd segfault on Ubuntu 12.10 on ARM devices (Mele, Pandaboard etc)"
+  old: [Technology, Linux]
+  new: [Linux]
+  needs_review: false
+  note: "Linux fix-it post; per co-occurrence rule Linux alone, dropping Technology."
+- file: 2013-06-02-publication-the-botnet-webs-of-hegemonyzombies-who-publish-in-zombies-in-the-academy-bristol-intellect-2013.md
+  title: "Publication: 'The Botnet: Webs of Hegemony/Zombies Who Publish', in Zombies in the Academy (Bristol: Intellect, 2013)"
+  old: [Publications, Output]
+  new: [Publications, Scholarly Communications]
+  needs_review: false
+  note: "Publication announcement; subject category chosen from content: the chapter critiques the scholarly-communication structure (botnet metaphor) and proposes the library as an information hub."
+- file: 2013-07-01-publication-before-the-law-open-access-quality-control-and-the-future-of-peer-review.md
+  title: "Publication: 'Before the law: open access, quality control and the future of peer review'"
+  old: [Technology, Open Access, Academia, Publications, Output]
+  new: [Publications, Open Access, Academia]
+  needs_review: false
+  note: "Publication announcement on OA and the future of peer review; dropped the Technology hint (no technology content) and capped at three."
+- file: 2013-07-02-publication-guide-to-creative-commons-for-humanities-and-social-science-monograph-authors.md
+  title: "Publication: 'Guide to Creative Commons for humanities and social science monograph authors'"
+  old: [Open Access, Academia, Publications, Output]
+  new: [Publications, Copyright and Licensing, Open Access]
+  needs_review: false
+  note: "Publication announcement of a Creative Commons guide for OA monograph authors; Copyright and Licensing reflects the CC subject matter and displaces the weaker Academia hint under the three-category cap."
+- file: 2013-07-05-digital-literatures-digital-democracies-digital-threats.md
+  title: "Digital Literatures; Digital Democracies; Digital Threats?"
+  old: [Open Access, Academia, Output, Conference Papers]
+  new: [Conferences, Open Access, Academia]
+  needs_review: false
+  note: "Delivered conference paper, so Conferences plus subject; dropped Output->Publications hint as nothing was published. The literary-marketplace material (Bloomsbury, Hoban, gatekeeping) is publishing economics rather than literary criticism, so no Literature."
+- file: 2013-07-07-ethics.md
+  title: "Ethics"
+  old: [Personal]
+  new: [Personal, Politics]
+  needs_review: false
+  note: "Chiefly a personal pledge, but the substance is a death-penalty stance (prisons and justice), so Politics added."
+- file: 2013-07-07-evaluating-the-open-access-software-toolchain.md
+  title: "Evaluating the Open Access software toolchain"
+  old: [Technology, Open Access]
+  new: [Publishing Technology, Open Access]
+  needs_review: false
+  note: "Content is the technical tooling of publishing (OJS, Annotum, Ambra, meTypeset, meXmlGalley), so Publishing Technology replaces the generic Technology hint; OA retained as the toolchain argument is framed by OA advocacy."
+- file: 2013-07-14-displaying-ee-mobile-data-usage-in-conky.md
+  title: "Displaying EE mobile data usage in Conky"
+  old: [Technology]
+  new: [Linux]
+  needs_review: false
+  note: "Overrode the Technology hint: a bash one-liner for Conky, a Linux desktop monitor, is a Linux desktop how-to; the more specific category wins."
+- file: 2013-07-17-speaking-at-sparc-japan.md
+  title: "Speaking at SPARC Japan"
+  old: [Technology, Open Access, Academia]
+  new: [Conferences, Open Access]
+  needs_review: false
+  note: "Talk announcement, so Conferences plus subject (OA in the humanities); dropped Technology and Academia hints as unsupported by content."
+- file: 2013-07-20-punchdrunks-the-drowned-man.md
+  title: "Punchdrunk's The Drowned Man"
+  old: [Performance, Academia]
+  new: [Literature]
+  needs_review: false
+  note: "Overrode the Performance->Music hint: this is a theatre review (promenade theatre), which the taxonomy places under Literature; nothing musical or academic in the post."
+- file: 2013-07-21-joining-the-uk-national-monographs-strategy-expert-panel.md
+  title: "Joining the UK National Monographs Strategy Expert Panel"
+  old: [Technology, Open Access, Academia]
+  new: [Open Access, Academia]
+  needs_review: false
+  note: "Panel-appointment announcement centred on OA monographs strategy; dropped the Technology hint."
+- file: 2013-07-27-hefce-the-state-of-open-access-in-the-uk-and-post-2014-ref.md
+  title: "HEFCE, the State of Open Access in the UK and Post-2014 REF"
+  old: [Open Access, Academia]
+  new: [Open Access, Higher Education]
+  needs_review: false
+  note: "HEFCE OA-policy consultation summary tied to the post-2014 REF; Higher Education (REF) fits the content better than the Academia hint."
+- file: 2013-07-28-determining-glyph-availability-for-fop.md
+  title: "Determining glyph availability for FOP"
+  old: [Technology]
+  new: [Publishing Technology]
+  needs_review: false
+  note: "Overrode the Technology hint: FOP/XSL:FO-to-PDF glyph handling is typesetting-workflow tooling, i.e. Publishing Technology."
+- file: 2013-07-28-rendering-mathml-in-xslfo-to-pdf-using-fop.md
+  title: "Rendering MathML in XSL:FO to PDF using fop"
+  old: [Technology]
+  new: [Publishing Technology]
+  needs_review: false
+  note: "Overrode the Technology hint: MathML rendering in the FOP PDF typesetting pipeline is Publishing Technology."
+- file: 2013-08-02-has-the-licensing-battle-been-deferred-in-the-latest-hefce-document.md
+  title: "Has \"the licensing battle been deferred\" in the latest HEFCE document?"
+  old: [Technology, Open Access]
+  new: [Open Access, Copyright and Licensing]
+  needs_review: false
+  note: "OA policy post whose substance is licensing (CC-BY, text mining, fair dealing), so Copyright and Licensing replaces the unsupported Technology hint."
+- file: 2013-08-11-on-international-pynchon-week.md
+  title: "On International Pynchon Week"
+  old: [Literature, Thomas Pynchon, Conferences, Academia]
+  new: [Conferences, Thomas Pynchon]
+  needs_review: false
+  note: "IPW conference report; per the Pynchon co-occurrence rule Literature is dropped (content is entirely Pynchon scholarship), and Academia adds nothing beyond the event report."
+- file: 2013-08-18-using-git-in-my-writing-workflow.md
+  title: "Using git in my writing workflow"
+  old: [Technology, Academia]
+  new: [Academia, Technology]
+  needs_review: false
+  note: ""
+- file: 2013-08-23-reports-from-the-frontline-of-humanities-oa-in-japan.md
+  title: "Reports from the frontline of humanities OA in Japan"
+  old: [Technology, Open Access]
+  new: [Open Access, Conferences]
+  needs_review: false
+  note: "Event report from the SPARC Japan seminar, so Conferences added; dropped the Technology hint as unsupported by content."
+- file: 2013-08-27-sxsw-panel-vote-to-get-open-access-on-the-agenda.md
+  title: "SXSW Panel: Vote to get Open Access on the agenda"
+  old: [Open Access]
+  new: [Open Access, Conferences]
+  needs_review: false
+  note: "Proposed SXSW panel announcement, so Conferences accompanies the OA subject."

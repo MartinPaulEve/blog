@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/21/he-green-paper-response-to-question-3
 categories:
-- HE
-- green paper
-- politics
+- Higher Education
 date: 2015-11-21
 doi: https://doi.org/10.59348/4mqyd-mz579
 layout: post

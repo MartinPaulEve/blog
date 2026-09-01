@@ -3,7 +3,6 @@ archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012
 categories:
 - Technology
 - Academia
-- EdTech
 comments: []
 date: 2012-03-18 08:28:34 +0100
 date_gmt: 2012-03-18 08:28:34 +0100

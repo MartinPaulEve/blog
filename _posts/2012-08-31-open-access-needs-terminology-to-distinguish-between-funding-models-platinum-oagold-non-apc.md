@@ -2,7 +2,6 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/08/31/open-access-needs-terminology-to-distinguish-between-funding-models-platinum-oagold-non-apc
 categories:
 - Open Access
-- Academia
 comments: []
 date: 2012-08-31 19:26:09 +0200
 date_gmt: 2012-08-31 19:26:09 +0200

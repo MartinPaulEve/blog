@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/12/20/on-that-statement-by-history-journal-editors
 categories:
-- Technology
+- Copyright and Licensing
 - Open Access
-- Academia
 comments: []
 date: 2012-12-20 17:56:46 +0100
 date_gmt: 2012-12-20 17:56:46 +0100

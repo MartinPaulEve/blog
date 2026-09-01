@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/06/08/six-lines-to-get-sun-java-running-on-fedora-15-x64
 categories:
-- Technology
 - Linux
 comments:
 - author: DerZauberer

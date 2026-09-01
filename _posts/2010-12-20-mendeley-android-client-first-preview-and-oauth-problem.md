@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/12/20/mendeley-android-client-first-preview-and-oauth-problem
 categories:
-- Technology
-- Android
-- Academia
+- Programming
 comments:
 - author: Mr. Gunn
   author_email: william.gunn@mendeley.com

@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2008/02/02/an-xml-based-xss-poc-platform
 categories:
-- Technology
-- InfoSec
-- .NET
+- Information Security
+- Programming
 comments:
 - author: The importance of weaponization in exploit development | Martin Paul Eve
   author_email: ''
