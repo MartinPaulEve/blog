@@ -60,6 +60,8 @@ comments:
 date: 2011-04-03 13:56:34 +0200
 date_gmt: 2011-04-03 13:56:34 +0200
 doi: https://doi.org/10.59348/nznr5-3xc06
+roguescholar: https://rogue-scholar.org/records/4z2bh-9vw64
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkhkmlj2e
 image:
   feature: geek.png
 layout: post

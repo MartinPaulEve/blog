@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2022/01/13/bildungsroman
 date: 2022-01-13
 doi: https://doi.org/10.59348/676b9-a2p86
+roguescholar: https://rogue-scholar.org/records/762q9-xse51
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzi3c3p2a
 image:
   feature: header_enc.png
 layout: post

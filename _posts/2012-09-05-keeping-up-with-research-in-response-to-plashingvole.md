@@ -6,6 +6,8 @@ comments: []
 date: 2012-09-05 08:31:10 +0200
 date_gmt: 2012-09-05 08:31:10 +0200
 doi: https://doi.org/10.59348/npsfs-jsx66
+roguescholar: https://rogue-scholar.org/records/6q49t-0wc53
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhtmsdp2f
 layout: post
 published: true
 status: publish

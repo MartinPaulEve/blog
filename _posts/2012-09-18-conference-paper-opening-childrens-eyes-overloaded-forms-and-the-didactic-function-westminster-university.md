@@ -8,6 +8,8 @@ comments: []
 date: 2012-09-18 21:17:02 +0200
 date_gmt: 2012-09-18 20:17:02 +0200
 doi: https://doi.org/10.59348/pwm27-tya25
+roguescholar: https://rogue-scholar.org/records/cqgkc-rbg29
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhrk3k32h
 layout: post
 published: true
 status: publish

@@ -29,6 +29,8 @@ comments:
 date: 2010-03-22 13:19:22 +0100
 date_gmt: 2010-03-22 13:19:22 +0100
 doi: https://doi.org/10.59348/2vqym-z1d93
+roguescholar: https://rogue-scholar.org/records/qthsx-pev41
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmbrmrs2a
 layout: post
 published: true
 status: publish

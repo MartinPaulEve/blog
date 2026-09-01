@@ -1425,6 +1425,8 @@ comments:
 date: 2011-06-28 14:02:35 +0200
 date_gmt: 2011-06-28 14:02:35 +0200
 doi: https://doi.org/10.59348/f4d9z-59m53
+roguescholar: https://rogue-scholar.org/records/g2hw9-wwq09
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk7ik332n
 image:
   feature: oa.png
 layout: post

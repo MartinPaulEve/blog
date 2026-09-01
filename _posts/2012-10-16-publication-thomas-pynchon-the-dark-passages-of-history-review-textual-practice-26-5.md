@@ -7,6 +7,8 @@ comments: []
 date: 2012-10-16 08:21:56 +0200
 date_gmt: 2012-10-16 07:21:56 +0200
 doi: https://doi.org/10.59348/jek81-ged11
+roguescholar: https://rogue-scholar.org/records/gcnzn-mh797
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhr2elv2q
 layout: post
 published: true
 status: publish

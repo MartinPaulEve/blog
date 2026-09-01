@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2019/05/24/instrumental-reading
 date: 2019-05-24
 doi: https://doi.org/10.59348/egf1j-e3q14
+roguescholar: https://rogue-scholar.org/records/bsdvs-gkn75
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6x7quc2i
 image:
   feature: read.png
 layout: post

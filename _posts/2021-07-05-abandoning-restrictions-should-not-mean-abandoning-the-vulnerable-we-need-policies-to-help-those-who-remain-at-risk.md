@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2021/07/05/abandoning-restrictions-should-not-mean-abandoning-the-vulnerable-we-need-policies-to-help-those-who-remain-at-risk
 date: 2021-07-05
 doi: https://doi.org/10.59348/95tjy-8qm19
+roguescholar: https://rogue-scholar.org/records/znjba-yhg33
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m32exwc2f
 image:
   feature: header_ambulance.png
 layout: post

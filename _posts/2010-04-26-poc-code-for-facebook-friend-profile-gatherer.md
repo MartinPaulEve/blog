@@ -7,6 +7,8 @@ comments: []
 date: 2010-04-26 08:50:53 +0200
 date_gmt: 2010-04-26 08:50:53 +0200
 doi: https://doi.org/10.59348/3e1k9-xp590
+roguescholar: https://rogue-scholar.org/records/mktsf-c3653
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mm7tff42i
 image:
   feature: geek.png
 layout: post

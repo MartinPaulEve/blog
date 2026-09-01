@@ -7,6 +7,8 @@ comments: []
 date: 2012-08-23 08:12:20 +0200
 date_gmt: 2012-08-23 08:12:20 +0200
 doi: https://doi.org/10.59348/gbbbv-g3r45
+roguescholar: https://rogue-scholar.org/records/8hz3s-w4s16
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhvdx7s2n
 layout: post
 published: true
 status: publish

@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2017/04/03/100-people-in-a-room
 date: 2017-04-03
 doi: https://doi.org/10.59348/c8t8b-yq515
+roguescholar: https://rogue-scholar.org/records/f4h2m-zkz30
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7maej2t52e
 image:
   feature: oa.png
 layout: post

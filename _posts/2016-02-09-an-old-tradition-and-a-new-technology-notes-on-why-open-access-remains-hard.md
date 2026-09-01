@@ -4,6 +4,8 @@ categories:
 - Open Access
 date: 2016-02-09
 doi: https://doi.org/10.59348/6b662-p4e06
+roguescholar: https://rogue-scholar.org/records/gxnft-skb92
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbtdwo42a
 image:
   feature: oa.png
 layout: post

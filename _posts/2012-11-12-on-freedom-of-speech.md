@@ -6,6 +6,8 @@ comments: []
 date: 2012-11-12 18:28:02 +0100
 date_gmt: 2012-11-12 18:28:02 +0100
 doi: https://doi.org/10.59348/w80mt-xd663
+roguescholar: https://rogue-scholar.org/records/hbtxm-8ge29
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhmuoas2s
 layout: post
 published: true
 status: publish

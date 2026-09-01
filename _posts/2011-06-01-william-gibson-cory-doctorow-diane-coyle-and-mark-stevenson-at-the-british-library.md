@@ -7,6 +7,8 @@ comments: []
 date: 2011-06-01 11:06:31 +0200
 date_gmt: 2011-06-01 11:06:31 +0200
 doi: https://doi.org/10.59348/gbn0s-z6z75
+roguescholar: https://rogue-scholar.org/records/vs70t-xdh74
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkcem3p2p
 layout: post
 published: true
 status: publish

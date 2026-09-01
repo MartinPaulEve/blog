@@ -5,6 +5,8 @@ categories:
 - Academia
 date: 2015-08-07
 doi: https://doi.org/10.59348/w3z9z-97p33
+roguescholar: https://rogue-scholar.org/records/9er3c-xvm60
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mce7dpe2n
 image:
   feature: geek.png
 layout: post

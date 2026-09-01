@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2019/07/06/textual-scholarship-and-contemporary-literary-studies-jennifer-egans-editorial-processes-and-the-archival-edition-of-emerald-city
 date: 2019-07-06
 doi: https://doi.org/10.59348/ff1cw-qxp42
+roguescholar: https://rogue-scholar.org/records/2x35w-7c327
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6snkcg2o
 layout: post
 title: Jennifer Egan’s Editorial Processes and the Archival Edition of Emerald City
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6snkcg2o"

@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2017/05/29/lingua-refund
 date: 2017-05-29
 doi: https://doi.org/10.59348/bnswh-m0b38
+roguescholar: https://rogue-scholar.org/records/jvjxp-82b85
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mabw4jh2q
 image:
   feature: oa.png
 layout: post

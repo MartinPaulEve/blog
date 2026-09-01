@@ -72,6 +72,8 @@ comments:
 date: 2011-09-06 18:25:34 +0200
 date_gmt: 2011-09-06 18:25:34 +0200
 doi: https://doi.org/10.59348/dcjvk-f1177
+roguescholar: https://rogue-scholar.org/records/kd20a-kre95
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjwzk732n
 layout: post
 published: true
 status: publish

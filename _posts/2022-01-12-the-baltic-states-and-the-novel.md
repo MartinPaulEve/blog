@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2022/01/12/the-baltic-states-and-the-novel
 date: 2022-01-12
 doi: https://doi.org/10.59348/y6bzk-s1h32
+roguescholar: https://rogue-scholar.org/records/ymh54-sx068
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lziydsu2h
 image:
   feature: header_enc.png
 layout: post

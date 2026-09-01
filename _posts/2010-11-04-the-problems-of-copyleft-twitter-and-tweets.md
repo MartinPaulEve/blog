@@ -150,6 +150,8 @@ comments:
 date: 2010-11-04 16:58:33 +0100
 date_gmt: 2010-11-04 16:58:33 +0100
 doi: https://doi.org/10.59348/90kp2-e3k33
+roguescholar: https://rogue-scholar.org/records/j10hx-tbp11
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlplks42s
 image:
   feature: geek.png
 layout: post

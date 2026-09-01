@@ -5,6 +5,8 @@ categories:
 comments: []
 date: 2015-05-01
 doi: https://doi.org/10.59348/w3bc9-j4574
+roguescholar: https://rogue-scholar.org/records/89qsz-2re06
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcuf3s52e
 image:
   feature: post_images/Birkbeck.jpg
 layout: post

@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2019/07/24/academic-author-rights-of-presentation-on-mutable-digital-platforms
 date: 2019-07-24
 doi: https://doi.org/10.59348/nsm0z-s4235
+roguescholar: https://rogue-scholar.org/records/880vs-7qp33
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6rxzp72q
 image:
   feature: oa.png
 layout: post

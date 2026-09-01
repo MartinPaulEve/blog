@@ -4,6 +4,8 @@ categories:
 - Programming
 date: 2015-05-18
 doi: https://doi.org/10.59348/d06dw-jwx30
+roguescholar: https://rogue-scholar.org/records/1m16v-f8e50
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mct3vhu2r
 image:
   feature: geek.png
 layout: post

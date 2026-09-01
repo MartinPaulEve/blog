@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2022/04/30/resizing-image-uploads-in-django
 date: 2022-04-30
 doi: https://doi.org/10.59348/jrw3f-br877
+roguescholar: https://rogue-scholar.org/records/vfz93-xmc20
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzak7cs2r
 image:
   feature: geek.png
 layout: post

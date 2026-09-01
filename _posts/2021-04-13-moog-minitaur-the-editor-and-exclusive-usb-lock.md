@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2021/04/13/moog-minitaur-the-editor-and-exclusive-usb-lock
 date: 2021-04-13
 doi: https://doi.org/10.59348/ghsyh-2gc97
+roguescholar: https://rogue-scholar.org/records/tjw2f-qj676
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3hbque2q
 image:
   feature: header_moog.png
 layout: post

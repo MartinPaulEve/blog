@@ -8,6 +8,8 @@ comments: []
 date: 2014-04-16 12:08:49 +0200
 date_gmt: 2014-04-16 11:08:49 +0200
 doi: https://doi.org/10.59348/rpfxd-msk75
+roguescholar: https://rogue-scholar.org/records/hfwf4-sz895
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mf7eyhq2i
 layout: post
 link: http://www.drcarolineedwards.com/2014/04/16/alluvium-panel/
 published: true

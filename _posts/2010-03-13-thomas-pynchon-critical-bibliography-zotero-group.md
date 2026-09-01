@@ -120,6 +120,8 @@ comments:
 date: 2010-03-13 13:15:16 +0100
 date_gmt: 2010-03-13 13:15:16 +0100
 doi: https://doi.org/10.59348/35n9z-9dv08
+roguescholar: https://rogue-scholar.org/records/fszzx-bsa47
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmclhw42s
 layout: post
 published: true
 status: publish

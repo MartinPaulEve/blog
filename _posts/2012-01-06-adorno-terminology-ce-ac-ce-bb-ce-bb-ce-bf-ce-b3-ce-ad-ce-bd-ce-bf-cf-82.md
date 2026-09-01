@@ -13,6 +13,8 @@ comments:
 date: 2012-01-06 11:18:22 +0100
 date_gmt: 2012-01-06 11:18:22 +0100
 doi: https://doi.org/10.59348/wxe5g-vx387
+roguescholar: https://rogue-scholar.org/records/hz21h-tcs47
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjbj7jr2a
 layout: post
 published: true
 status: publish

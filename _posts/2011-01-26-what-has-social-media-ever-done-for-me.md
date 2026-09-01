@@ -15,6 +15,8 @@ comments:
 date: 2011-01-26 14:20:40 +0100
 date_gmt: 2011-01-26 14:20:40 +0100
 doi: https://doi.org/10.59348/hnm8w-5e339
+roguescholar: https://rogue-scholar.org/records/t7bm9-y2a29
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mksvb272i
 layout: post
 published: true
 status: publish

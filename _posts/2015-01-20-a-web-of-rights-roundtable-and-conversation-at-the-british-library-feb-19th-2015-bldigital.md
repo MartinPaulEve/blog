@@ -7,6 +7,8 @@ categories:
 comments: []
 date: 2015-01-20
 doi: https://doi.org/10.59348/q1zaq-vbt87
+roguescholar: https://rogue-scholar.org/records/7bg6q-gkr56
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdcruw32p
 layout: post
 published: true
 status: publish

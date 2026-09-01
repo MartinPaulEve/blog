@@ -7,6 +7,8 @@ comments: []
 date: 2012-08-05 10:20:57 +0200
 date_gmt: 2012-08-05 10:20:57 +0200
 doi: https://doi.org/10.59348/ccfta-e6a86
+roguescholar: https://rogue-scholar.org/records/bmxzv-e0973
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhvwpkx2r
 layout: post
 published: true
 status: publish

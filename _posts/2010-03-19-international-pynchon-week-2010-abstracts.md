@@ -8,6 +8,8 @@ comments: []
 date: 2010-03-19 10:19:56 +0100
 date_gmt: 2010-03-19 10:19:56 +0100
 doi: https://doi.org/10.59348/4prw4-6s453
+roguescholar: https://rogue-scholar.org/records/ntwm3-dcc34
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmbuydh2t
 layout: post
 published: true
 status: publish

@@ -6,6 +6,8 @@ comments: []
 date: 2014-03-06 20:27:03 +0100
 date_gmt: 2014-03-06 20:27:03 +0100
 doi: https://doi.org/10.59348/shffx-vy453
+roguescholar: https://rogue-scholar.org/records/z3bx0-dey29
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mffceag2e
 layout: post
 published: true
 status: publish

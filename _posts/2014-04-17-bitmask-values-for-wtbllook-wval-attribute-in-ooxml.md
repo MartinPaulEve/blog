@@ -6,6 +6,8 @@ comments: []
 date: 2014-04-17 13:01:18 +0200
 date_gmt: 2014-04-17 12:01:18 +0200
 doi: https://doi.org/10.59348/ymejq-efd49
+roguescholar: https://rogue-scholar.org/records/tdpzf-h2a84
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mf76b4r2n
 image:
   feature: geek.png
 layout: post

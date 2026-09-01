@@ -7,6 +7,8 @@ comments: []
 date: 2011-08-31 09:13:30 +0200
 date_gmt: 2011-08-31 09:13:30 +0200
 doi: https://doi.org/10.59348/jpyak-7ww96
+roguescholar: https://rogue-scholar.org/records/egess-4r888
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjzeieg2p
 layout: post
 published: true
 status: publish

@@ -6,6 +6,8 @@ comments: []
 date: 2007-05-16 15:40:21 +0200
 date_gmt: 2007-05-16 15:40:21 +0200
 doi: https://doi.org/10.59348/gg4r1-e2n45
+roguescholar: https://rogue-scholar.org/records/8pdak-bzd34
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnqkccz2i
 image:
   feature: geek.png
 layout: post

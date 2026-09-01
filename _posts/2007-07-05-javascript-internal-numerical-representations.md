@@ -7,6 +7,8 @@ comments: []
 date: 2007-07-05 09:59:02 +0200
 date_gmt: 2007-07-05 09:59:02 +0200
 doi: https://doi.org/10.59348/wacw7-gb986
+roguescholar: https://rogue-scholar.org/records/beq46-p1073
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnb45p42h
 image:
   feature: geek.png
 layout: post

@@ -36,6 +36,8 @@ comments:
 date: 2011-03-15 14:51:04 +0100
 date_gmt: 2011-03-15 14:51:04 +0100
 doi: https://doi.org/10.59348/zx98j-5p478
+roguescholar: https://rogue-scholar.org/records/hc09d-r5396
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkj4e6k2i
 layout: post
 published: true
 status: publish

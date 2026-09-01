@@ -4,6 +4,8 @@ categories:
 - Information Security
 date: 2015-08-19
 doi: https://doi.org/10.59348/4wvv5-fe614
+roguescholar: https://rogue-scholar.org/records/s7t1q-x5f73
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mccvbrj2f
 image:
   feature: geek.png
 layout: post

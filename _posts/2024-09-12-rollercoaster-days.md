@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2024/09/12/rollercoaster-days
 date: 2024-09-12
 doi: https://doi.org/10.59348/r7510-gjk64
+roguescholar: https://rogue-scholar.org/records/mz609-njt84
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwqq5vl2o
 image:
   feature: header_ambulance.png
 layout: post

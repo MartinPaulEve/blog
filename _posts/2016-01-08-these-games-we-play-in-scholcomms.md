@@ -6,6 +6,8 @@ categories:
 - Conferences
 date: 2016-01-08
 doi: https://doi.org/10.59348/1dzy0-3fs78
+roguescholar: https://rogue-scholar.org/records/1an4x-fy689
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbuuyxw2u
 image:
   feature: oa.png
 layout: post

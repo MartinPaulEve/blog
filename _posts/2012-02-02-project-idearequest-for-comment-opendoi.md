@@ -127,6 +127,8 @@ comments:
 date: 2012-02-02 12:17:03 +0100
 date_gmt: 2012-02-02 12:17:03 +0100
 doi: https://doi.org/10.59348/p3n5r-akq92
+roguescholar: https://rogue-scholar.org/records/nj5wk-pz587
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mixh23v2t
 image:
   feature: geek.png
 layout: post

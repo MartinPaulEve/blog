@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2020/10/04/the-observer-should-not-offer-column-inches-to-allow-oxford-college-principals-to-lie-about-other-universities
 date: 2020-10-04
 doi: https://doi.org/10.59348/z0y3c-bg226
+roguescholar: https://rogue-scholar.org/records/5c6pc-arw11
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m4tuee52o
 image:
   feature: Birkbeck.jpg
 layout: post

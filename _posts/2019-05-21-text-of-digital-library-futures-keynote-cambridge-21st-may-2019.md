@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2019/05/21/text-of-digital-library-futures-keynote-cambridge-21st-may-2019
 date: 2019-05-21
 doi: https://doi.org/10.59348/q7vk1-3rj07
+roguescholar: https://rogue-scholar.org/records/x39tb-ff560
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6zagdw2o
 image:
   feature: digital.png
 layout: post

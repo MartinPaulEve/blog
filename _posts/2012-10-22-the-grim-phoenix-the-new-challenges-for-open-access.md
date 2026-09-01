@@ -7,6 +7,8 @@ comments: []
 date: 2012-10-22 12:07:14 +0200
 date_gmt: 2012-10-22 11:07:14 +0200
 doi: https://doi.org/10.59348/r1cfa-gf981
+roguescholar: https://rogue-scholar.org/records/j5br1-02v97
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhov7iz2i
 image:
   feature: oa.png
 layout: post

@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2023/07/26/whats-the-point-of-having-open-scholarly-infrastructures-and-how-do-we-test-their-resilience
 date: 2023-07-26
 doi: https://doi.org/10.59348/smag6-td951
+roguescholar: https://rogue-scholar.org/records/kpkwh-1ka66
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7ly4cktq2i
 image:
   feature: oa.png
 layout: post

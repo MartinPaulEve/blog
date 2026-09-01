@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/10/06/now-accepting-proposals-to-new-horizons-in-contemporary-writing-series
 date: 2016-10-06
 doi: https://doi.org/10.59348/446wz-tsc18
+roguescholar: https://rogue-scholar.org/records/p50jb-78m92
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7maypae72i
 image:
   feature: horizon.jpg
 layout: post

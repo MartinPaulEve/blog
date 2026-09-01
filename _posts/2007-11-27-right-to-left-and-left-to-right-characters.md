@@ -6,6 +6,8 @@ comments: []
 date: 2007-11-27 13:22:40 +0100
 date_gmt: 2007-11-27 13:22:40 +0100
 doi: https://doi.org/10.59348/hmhsb-xf838
+roguescholar: https://rogue-scholar.org/records/jyd0h-8yg23
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mn6vwrs2q
 image:
   feature: geek.png
 layout: post

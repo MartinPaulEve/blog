@@ -7,6 +7,8 @@ comments: []
 date: 2014-07-05 15:00:41 +0200
 date_gmt: 2014-07-05 14:00:41 +0200
 doi: https://doi.org/10.59348/g0dg8-3ck26
+roguescholar: https://rogue-scholar.org/records/ndpwm-tm482
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mey3ahz2n
 image:
   feature: geek.png
 layout: post

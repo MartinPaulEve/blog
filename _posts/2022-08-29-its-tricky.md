@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2022/08/29/its-tricky
 date: 2022-08-29
 doi: https://doi.org/10.59348/z3y5h-fb674
+roguescholar: https://rogue-scholar.org/records/mxqw4-yf846
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lyoiiyc2r
 image:
   feature: header_run_dmc.png
 layout: post

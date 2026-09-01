@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2022/01/03/input-output
 date: 2022-01-03
 doi: https://doi.org/10.59348/fvecs-pcv64
+roguescholar: https://rogue-scholar.org/records/zamsg-axr69
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m22ekoc2f
 image:
   feature: header_keyboard.png
 layout: post

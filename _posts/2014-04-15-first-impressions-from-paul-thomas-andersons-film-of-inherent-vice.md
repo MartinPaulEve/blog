@@ -6,6 +6,8 @@ comments: []
 date: 2014-04-15 20:33:56 +0200
 date_gmt: 2014-04-15 19:33:56 +0200
 doi: https://doi.org/10.59348/q3m71-xv593
+roguescholar: https://rogue-scholar.org/records/sa02d-e7181
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mf7iit42h
 layout: post
 link: http://thefilmstage.com/news/first-impressions-from-paul-thomas-andersons-inherent-vice-which-will-skip-cannes/
 published: true

@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2020/05/23/if-i-could-radically-reshape-copyright-law
 date: 2020-05-23
 doi: https://doi.org/10.59348/g03n9-41d66
+roguescholar: https://rogue-scholar.org/records/aq63w-ek888
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5nzs3f2q
 image:
   feature: header_copy.png
 layout: post

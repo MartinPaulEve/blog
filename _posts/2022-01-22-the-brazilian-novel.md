@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2022/01/22/the-brazilian-novel
 date: 2022-01-22
 doi: https://doi.org/10.59348/3gj0b-kf714
+roguescholar: https://rogue-scholar.org/records/9q7tj-38902
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzglbxe2u
 image:
   feature: header_enc.png
 layout: post

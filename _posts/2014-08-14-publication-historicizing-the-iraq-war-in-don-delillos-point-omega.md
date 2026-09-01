@@ -7,6 +7,8 @@ comments: []
 date: 2014-08-14 06:51:24 +0200
 date_gmt: 2014-08-14 05:51:24 +0200
 doi: https://doi.org/10.59348/g2bnk-8h542
+roguescholar: https://rogue-scholar.org/records/apwpf-c3e50
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7meweecr2s
 layout: post
 published: true
 status: publish

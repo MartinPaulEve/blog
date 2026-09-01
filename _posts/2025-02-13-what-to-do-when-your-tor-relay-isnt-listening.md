@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2025/02/13/what-to-do-when-your-tor-relay-isnt-listening
 date: 2025-02-13
 doi: https://doi.org/10.59348/td9j1-v3t48
+roguescholar: https://rogue-scholar.org/records/w6c29-r5s96
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lw7gg3o2f
 image:
   feature: header_tor.png
 layout: post

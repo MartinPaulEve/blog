@@ -14,6 +14,8 @@ comments:
 date: 2010-11-19 16:57:29 +0100
 date_gmt: 2010-11-19 16:57:29 +0100
 doi: https://doi.org/10.59348/29p70-20216
+roguescholar: https://rogue-scholar.org/records/ev2x3-d6d56
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlmku3c2a
 image:
   feature: geek.png
 layout: post

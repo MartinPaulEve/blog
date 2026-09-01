@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2020/02/11/writing-a-data-management-plan
 date: 2020-02-11
 doi: https://doi.org/10.59348/encrk-m5y90
+roguescholar: https://rogue-scholar.org/records/bwxm6-nwz83
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6iwpov2i
 layout: post
 title: Writing a data management plan
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6iwpov2i"

@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2019/01/21/my-draft-plan-s-implementation-guidance-feedback
 date: 2019-01-21
 doi: https://doi.org/10.59348/w3h86-s6067
+roguescholar: https://rogue-scholar.org/records/h1dq7-31990
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7gp5a52i
 image:
   feature: oa.png
 layout: post

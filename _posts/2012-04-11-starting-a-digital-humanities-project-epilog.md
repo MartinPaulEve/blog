@@ -54,6 +54,8 @@ comments:
 date: 2012-04-11 10:00:40 +0200
 date_gmt: 2012-04-11 10:00:40 +0200
 doi: https://doi.org/10.59348/pg8jt-da988
+roguescholar: https://rogue-scholar.org/records/fappe-1xc23
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mihn2ge2h
 layout: post
 published: true
 status: publish

@@ -7,6 +7,8 @@ comments: []
 date: 2012-11-02 11:46:59 +0100
 date_gmt: 2012-11-02 11:46:59 +0100
 doi: https://doi.org/10.59348/vzmhd-b1w63
+roguescholar: https://rogue-scholar.org/records/zv7qz-kyk40
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhngkk52q
 image:
   feature: oa.png
 layout: post

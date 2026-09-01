@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/05/23/what-do-we-mean-when-we-call-scholarly-communications-platforms-sustainable
 date: 2016-05-23
 doi: https://doi.org/10.59348/zvk3v-40967
+roguescholar: https://rogue-scholar.org/records/x5fx5-00010
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbf6bf42n
 image:
   feature: oa.png
 layout: post

@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/10/18/more-on-my-experience-with-open-book-publishers
 date: 2016-10-18
 doi: https://doi.org/10.59348/rvpcw-mh690
+roguescholar: https://rogue-scholar.org/records/yszxj-14061
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7maya2ad2p
 image:
   feature: againstcrit.jpg
 layout: post

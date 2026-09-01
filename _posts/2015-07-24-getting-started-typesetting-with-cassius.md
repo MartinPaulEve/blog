@@ -4,6 +4,8 @@ categories:
 - Publishing Technology
 date: 2015-07-24
 doi: https://doi.org/10.59348/9vcxf-95h70
+roguescholar: https://rogue-scholar.org/records/tx3jz-5rk65
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcezqbo2o
 image:
   feature: geek.png
 layout: post

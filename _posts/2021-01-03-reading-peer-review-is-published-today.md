@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2021/01/03/reading-peer-review-is-published-today
 date: 2021-01-03
 doi: https://doi.org/10.59348/8cw1h-t1f60
+roguescholar: https://rogue-scholar.org/records/3w8mx-mqq49
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3ywqw52u
 image:
   feature: header_PR.png
 layout: post

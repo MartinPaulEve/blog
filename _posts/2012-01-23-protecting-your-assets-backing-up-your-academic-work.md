@@ -38,6 +38,8 @@ comments:
 date: 2012-01-23 12:26:22 +0100
 date_gmt: 2012-01-23 12:26:22 +0100
 doi: https://doi.org/10.59348/kb0pp-6na29
+roguescholar: https://rogue-scholar.org/records/23twf-rnh97
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miz4uie2h
 image:
   feature: geek.png
 layout: post

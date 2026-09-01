@@ -124,6 +124,8 @@ comments:
 date: 2011-02-02 12:49:42 +0100
 date_gmt: 2011-02-02 12:49:42 +0100
 doi: https://doi.org/10.59348/vb2wn-g0s09
+roguescholar: https://rogue-scholar.org/records/8rrgq-ng742
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkrgzlj2q
 layout: post
 published: true
 status: publish

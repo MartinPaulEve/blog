@@ -6,6 +6,8 @@ comments: []
 date: 2011-08-26 13:50:13 +0200
 date_gmt: 2011-08-26 13:50:13 +0200
 doi: https://doi.org/10.59348/24gab-zkb92
+roguescholar: https://rogue-scholar.org/records/w1d5k-hah15
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk2a6et2n
 image:
   feature: geek.png
 layout: post

@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2020/05/09/on-critical-design-and-designing-for-provocation
 date: 2020-05-09
 doi: https://doi.org/10.59348/pgp1s-njz40
+roguescholar: https://rogue-scholar.org/records/sg47a-djn51
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5rfii42t
 image:
   feature: header_screwdriver.png
 layout: post

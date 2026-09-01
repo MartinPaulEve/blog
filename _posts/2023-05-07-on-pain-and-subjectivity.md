@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2023/05/07/on-pain-and-subjectivity
 date: 2023-05-07
 doi: https://doi.org/10.59348/sg322-d9048
+roguescholar: https://rogue-scholar.org/records/fj974-mzd72
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7ly6tmo22r
 image:
   feature: pain.png
 layout: post

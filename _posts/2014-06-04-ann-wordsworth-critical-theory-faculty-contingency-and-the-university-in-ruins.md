@@ -7,6 +7,8 @@ comments: []
 date: 2014-06-04 09:29:29 +0200
 date_gmt: 2014-06-04 08:29:29 +0200
 doi: https://doi.org/10.59348/vn3fk-f4m11
+roguescholar: https://rogue-scholar.org/records/fshmm-wzm98
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mf2mskc2q
 layout: post
 published: true
 status: publish

@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2017/05/12/two-types-of-post-critique
 date: 2017-05-12
 doi: https://doi.org/10.59348/7sdy7-5bh24
+roguescholar: https://rogue-scholar.org/records/gb2ay-1c451
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mabzhw62s
 layout: post
 title: Two types of post-critique
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mabzhw62s"

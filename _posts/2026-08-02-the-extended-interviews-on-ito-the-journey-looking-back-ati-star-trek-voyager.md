@@ -3,6 +3,8 @@ title: "The extended interviews on <i>To the Journey: Looking Back at</i> Star T
 layout: post
 date: 2026-08-02
 doi: https://doi.org/10.59348/qygeq-6n059
+roguescholar: https://rogue-scholar.org/records/aszdc-x4j13
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3ms3ky36den23
 image:
   credit: "screenrant.com"
   creditlink: "https://static0.srcdn.com/wordpress/wp-content/uploads/2024/11/to-the-journey-logo-star-trek-voyager-s-cast.jpg"

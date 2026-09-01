@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2025/02/18/getting-external-access-to-buddypresss-notifications-for-knowledge-commons
 date: 2025-02-18
 doi: https://doi.org/10.59348/gpbaz-kx09
+roguescholar: https://rogue-scholar.org/records/4ybmv-d9x23
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lw5bhzw2f
 image:
   feature: header_fistbump.png
 layout: post

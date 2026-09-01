@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2019/02/18/running-unoconv-on-ubuntu-1804-and-libreoffice-6
 date: 2019-02-18
 doi: https://doi.org/10.59348/j15vr-ybf31
+roguescholar: https://rogue-scholar.org/records/2x77d-xy809
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7d3vwy2h
 image:
   feature: geek.png
 layout: post

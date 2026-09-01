@@ -8,6 +8,8 @@ comments: []
 date: 2012-12-13 11:01:52 +0100
 date_gmt: 2012-12-13 11:01:52 +0100
 doi: https://doi.org/10.59348/jy4py-v4g81
+roguescholar: https://rogue-scholar.org/records/17s47-5h944
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhg6qge2h
 image:
   feature: geek.png
 layout: post

@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2021/05/15/while-the-government-introduces-new-freedom-of-speech-rules-at-universities-the-biggest-threat-to-academic-freedom-remains-their-insistence-on-the-financial-destabilization-of-institutions
 date: 2021-05-15
 doi: https://doi.org/10.59348/4xgz6-a1f19
+roguescholar: https://rogue-scholar.org/records/hbnn7-qat73
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3fahz52h
 image:
   feature: header_degree.png
 layout: post

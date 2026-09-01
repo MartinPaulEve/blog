@@ -7,6 +7,8 @@ comments: []
 date: 2012-11-05 09:42:58 +0100
 date_gmt: 2012-11-05 09:42:58 +0100
 doi: https://doi.org/10.59348/jgmx4-pvq69
+roguescholar: https://rogue-scholar.org/records/tscyt-sdz40
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhn3gur2i
 layout: post
 published: true
 status: publish

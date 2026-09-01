@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2024/01/14/on-rheumatoid-arthritis-and-the-things-most-people-dont-know-about-it
 date: 2024-01-14
 doi: https://doi.org/10.59348/n4bg4-zaj76
+roguescholar: https://rogue-scholar.org/records/ndxd1-rkf46
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lx4bdca2r
 image:
   feature: header_health.png
 layout: post

@@ -2,6 +2,8 @@
 title: "Feed, Infection Control, Fluid Overload"
 layout: post
 doi: https://doi.org/10.59348/pahpe-g7w52
+roguescholar: https://rogue-scholar.org/records/fhk6k-ch634
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mtcl4swfqk24
 date: 2026-08-17
 backlink:
 - 2026-08-11-admission-meds-vascular-access

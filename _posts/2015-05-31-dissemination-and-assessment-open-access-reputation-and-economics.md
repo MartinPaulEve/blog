@@ -5,6 +5,8 @@ categories:
 - Open Access
 date: 2015-05-31
 doi: https://doi.org/10.59348/fv8ch-rjm75
+roguescholar: https://rogue-scholar.org/records/3991m-rge97
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcrofa42h
 image:
   feature: post_images/GrumpyCat.jpeg
 layout: post

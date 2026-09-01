@@ -58,6 +58,8 @@ comments:
 date: 2012-02-03 08:12:26 +0100
 date_gmt: 2012-02-03 08:12:26 +0100
 doi: https://doi.org/10.59348/1mkdg-xkx46
+roguescholar: https://rogue-scholar.org/records/j27e6-s8349
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miwym6q2o
 excerpt: Sparked off by a comment on Document Object Identifiers and metrics by Ernesto
   Priego, I wrote up a brief proposal for the tech side of what I perceived as the
   function of DOIs. It turns out, there's a great deal more to it.

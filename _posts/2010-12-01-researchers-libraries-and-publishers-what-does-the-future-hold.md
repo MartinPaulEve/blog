@@ -17,6 +17,8 @@ comments:
 date: 2010-12-01 19:29:47 +0100
 date_gmt: 2010-12-01 19:29:47 +0100
 doi: https://doi.org/10.59348/20rzx-rfv78
+roguescholar: https://rogue-scholar.org/records/1fg5j-kwc30
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlkiwqy2r
 image:
   feature: oa.png
 layout: post

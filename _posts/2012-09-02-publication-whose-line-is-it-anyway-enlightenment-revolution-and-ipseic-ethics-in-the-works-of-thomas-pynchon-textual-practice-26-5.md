@@ -8,6 +8,8 @@ comments: []
 date: 2012-09-02 10:36:51 +0200
 date_gmt: 2012-09-02 10:36:51 +0200
 doi: https://doi.org/10.59348/15ffm-xeb87
+roguescholar: https://rogue-scholar.org/records/y1npf-bbc13
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhusxx22s
 layout: post
 published: true
 status: publish

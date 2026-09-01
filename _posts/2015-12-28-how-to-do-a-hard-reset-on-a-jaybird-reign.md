@@ -4,6 +4,8 @@ categories:
 - Technology
 date: 2015-12-28
 doi: https://doi.org/10.59348/j88g8-25h13
+roguescholar: https://rogue-scholar.org/records/tbj42-y2e58
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbxhio22h
 image:
   feature: geek.png
 layout: post

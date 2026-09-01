@@ -240,6 +240,8 @@ comments:
 date: 2011-02-09 11:40:21 +0100
 date_gmt: 2011-02-09 11:40:21 +0100
 doi: https://doi.org/10.59348/draft-rmd94
+roguescholar: https://rogue-scholar.org/records/81hf6-v7x39
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkpzkrt2n
 image:
   feature: geek.png
 layout: post

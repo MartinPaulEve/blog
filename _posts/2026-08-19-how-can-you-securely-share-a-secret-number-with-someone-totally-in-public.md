@@ -3,6 +3,8 @@ title: "How can you securely share a secret number with someone, totally in publ
 layout: post
 doi: https://doi.org/10.59348/zx6pm-4nd50
 kcworks: https://works.hcommons.org/records/p0qxm-zqd71
+roguescholar: https://rogue-scholar.org/records/bnv4q-s8v53
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mtgeizuiqh2z
 date: 2026-08-19
 image:
   credit: "Martin Paul Eve"

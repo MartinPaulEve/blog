@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/11/19/next-book-project-the-aesthetics-of-metadata-redaction-reference-the-archive-in-contemporary-fictionnredaction-reference-the-archive-in-contemporary-fiction
 date: 2016-11-19
 doi: https://doi.org/10.59348/wyqh8-c1z63
+roguescholar: https://rogue-scholar.org/records/eevp3-bdx59
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7matwxec2h
 layout: post
 title: 'Next book project: The Aesthetics of Metadata: Redaction, Reference, & the
   Archive in Contemporary Fiction'

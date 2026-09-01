@@ -6,6 +6,8 @@ comments: []
 date: 2013-04-17 14:38:10 +0200
 date_gmt: 2013-04-17 13:38:10 +0200
 doi: https://doi.org/10.59348/bqgdx-dzd20
+roguescholar: https://rogue-scholar.org/records/87ks8-sjt20
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgrpsjx2i
 layout: post
 published: true
 status: publish

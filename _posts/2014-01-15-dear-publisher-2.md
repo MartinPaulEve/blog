@@ -6,6 +6,8 @@ comments: []
 date: 2014-01-15 07:52:46 +0100
 date_gmt: 2014-01-15 07:52:46 +0100
 doi: https://doi.org/10.59348/kdmhw-veh39
+roguescholar: https://rogue-scholar.org/records/b4wge-6dj76
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfqmp3h2o
 layout: post
 published: true
 status: publish

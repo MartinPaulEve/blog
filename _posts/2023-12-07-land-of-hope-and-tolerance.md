@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2023/12/07/land-of-hope-and-tolerance
 date: 2023-12-07
 doi: https://doi.org/10.59348/afx4t-pqv28
+roguescholar: https://rogue-scholar.org/records/82rbp-q8e60
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lxgjmxj2h
 layout: post
 title: Land of hope and tolerance
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lxgjmxj2h"

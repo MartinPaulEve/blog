@@ -7,6 +7,8 @@ comments: []
 date: 2013-07-21 18:33:01 +0200
 date_gmt: 2013-07-21 17:33:01 +0200
 doi: https://doi.org/10.59348/9azrf-wdk45
+roguescholar: https://rogue-scholar.org/records/9tcq3-hjd07
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgm3hzs2u
 layout: post
 published: true
 status: publish

@@ -6,6 +6,8 @@ comments: []
 date: 2009-12-07 12:41:39 +0100
 date_gmt: 2009-12-07 12:41:39 +0100
 doi: https://doi.org/10.59348/za1mv-m3617
+roguescholar: https://rogue-scholar.org/records/k7vc7-d7q31
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mme35ml2n
 layout: post
 published: true
 status: publish

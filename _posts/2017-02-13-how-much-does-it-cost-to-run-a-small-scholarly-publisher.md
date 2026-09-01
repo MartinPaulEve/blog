@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2017/02/13/how-much-does-it-cost-to-run-a-small-scholarly-publisher
 date: 2017-02-13
 doi: https://doi.org/10.59348/a1dta-0em45
+roguescholar: https://rogue-scholar.org/records/4w3wx-njn38
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mag5sdd2p
 image:
   feature: oa.png
 layout: post

@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2021/03/27/how-to-fix-a-broken-crumar-bit99-synthesizer
 date: 2021-03-27
 doi: https://doi.org/10.59348/t2y97-p9994
+roguescholar: https://rogue-scholar.org/records/egye9-chv98
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3jircj2a
 image:
   feature: crumar.png
 layout: post

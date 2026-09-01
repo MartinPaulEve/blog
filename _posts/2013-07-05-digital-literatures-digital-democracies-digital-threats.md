@@ -8,6 +8,8 @@ comments: []
 date: 2013-07-05 20:04:36 +0200
 date_gmt: 2013-07-05 19:04:36 +0200
 doi: https://doi.org/10.59348/r7htg-rj511
+roguescholar: https://rogue-scholar.org/records/3yhm2-gk130
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgp6a6x2a
 image:
   feature: geek.png
 layout: post

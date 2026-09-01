@@ -4,6 +4,8 @@ categories:
 - Higher Education
 date: 2015-09-09
 doi: https://doi.org/10.59348/4y66h-h3q39
+roguescholar: https://rogue-scholar.org/records/0q82b-maw60
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc7kitm2t
 image:
   feature: post_images/johnson.jpg
 layout: post

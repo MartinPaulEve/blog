@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2020/06/24/on-the-easing-of-shielding
 date: 2020-06-24
 doi: https://doi.org/10.59348/h4kxf-y2560
+roguescholar: https://rogue-scholar.org/records/n35fx-c4h23
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5kal7u2f
 image:
   feature: header_medical.png
 layout: post

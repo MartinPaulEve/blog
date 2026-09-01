@@ -87,6 +87,8 @@ comments:
 date: 2011-02-21 10:30:13 +0100
 date_gmt: 2011-02-21 10:30:13 +0100
 doi: https://doi.org/10.59348/tz8rw-80w60
+roguescholar: https://rogue-scholar.org/records/jc9xb-s2g93
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkkz6no2a
 image:
   feature: geek.png
 layout: post

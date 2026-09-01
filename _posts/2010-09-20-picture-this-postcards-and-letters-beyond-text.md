@@ -17,6 +17,8 @@ comments:
 date: 2010-09-20 09:36:14 +0200
 date_gmt: 2010-09-20 09:36:14 +0200
 doi: https://doi.org/10.59348/7hp3r-c2z22
+roguescholar: https://rogue-scholar.org/records/09d4b-8w091
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlrb6nd2e
 layout: post
 published: true
 status: publish

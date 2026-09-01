@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2022/12/04/my-2022-year-in-review
 date: 2022-12-04
 doi: https://doi.org/10.59348/y9f2c-s9e17
+roguescholar: https://rogue-scholar.org/records/gnz2a-hwp34
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lyj22zv2o
 image:
   feature: header_pandemic2.png
 layout: post

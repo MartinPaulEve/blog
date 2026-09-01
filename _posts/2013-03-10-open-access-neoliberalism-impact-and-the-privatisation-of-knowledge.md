@@ -7,6 +7,8 @@ comments: []
 date: 2013-03-10 12:02:30 +0100
 date_gmt: 2013-03-10 12:02:30 +0100
 doi: https://doi.org/10.59348/h82z7-t7a23
+roguescholar: https://rogue-scholar.org/records/8cn63-x4j38
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgwogqg2e
 image:
   feature: oa.png
 layout: post

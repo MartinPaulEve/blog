@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/06/19/cassius-now-supports-full-headless-pdf-creation-from-jats
 date: 2016-06-19
 doi: https://doi.org/10.59348/6rkea-5q639
+roguescholar: https://rogue-scholar.org/records/zz4tf-61066
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbcoatm2n
 image:
   feature: post_images/CaSSius.png
 layout: post

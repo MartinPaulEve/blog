@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2026/03/23/too-much-publishing
 date: 2026-03-23
 doi: https://doi.org/10.59348/jc78r-7cw74
+roguescholar: https://rogue-scholar.org/records/pg502-e3g72
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7luxhmyr2h
 image:
   credit: Vision Magazin on Unsplash
   creditlink: https://unsplash.com/@visionmagazin

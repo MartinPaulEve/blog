@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2021/08/07/notes-on-nicholas-gaskills-chromographia-american-literature-and-the-modernization-of-color
 date: 2021-08-07
 doi: https://doi.org/10.59348/z7e54-hkk77
+roguescholar: https://rogue-scholar.org/records/5yr75-0e796
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2o6wpk2n
 image:
   feature: header_color.png
 layout: post

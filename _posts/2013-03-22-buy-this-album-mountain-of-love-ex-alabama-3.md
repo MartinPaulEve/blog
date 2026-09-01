@@ -6,6 +6,8 @@ comments: []
 date: 2013-03-22 08:17:52 +0100
 date_gmt: 2013-03-22 08:17:52 +0100
 doi: https://doi.org/10.59348/6v778-9tp62
+roguescholar: https://rogue-scholar.org/records/rscjh-0rf30
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgw6tox2a
 layout: post
 published: true
 status: publish

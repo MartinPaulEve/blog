@@ -5,6 +5,8 @@ categories:
 - Academia
 date: 2016-01-11
 doi: https://doi.org/10.59348/84w5h-sec91
+roguescholar: https://rogue-scholar.org/records/azfbe-3ft77
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbujrls2i
 layout: post
 published: true
 tags:

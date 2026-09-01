@@ -5,6 +5,8 @@ categories:
 - Open Access
 date: 2015-06-01
 doi: https://doi.org/10.59348/mw910-jms95
+roguescholar: https://rogue-scholar.org/records/2e6w6-4t437
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcqgsrt2p
 image:
   feature: oa.png
 layout: post

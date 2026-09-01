@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2022/04/13/if-you-cannot-connect-to-a-deluged-daemon-remotely
 date: 2022-04-13
 doi: https://doi.org/10.59348/4zgr8-exe20
+roguescholar: https://rogue-scholar.org/records/10c7f-b3v94
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzbrd322h
 image:
   feature: geek.png
 layout: post

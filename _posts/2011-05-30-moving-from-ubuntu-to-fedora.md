@@ -59,6 +59,8 @@ comments:
 date: 2011-05-30 11:13:58 +0200
 date_gmt: 2011-05-30 11:13:58 +0200
 doi: https://doi.org/10.59348/5jgze-4t093
+roguescholar: https://rogue-scholar.org/records/9vcse-yd334
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkcufwy2q
 image:
   feature: geek.png
 layout: post

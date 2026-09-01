@@ -16,6 +16,8 @@ comments:
 date: 2012-01-07 10:55:38 +0100
 date_gmt: 2012-01-07 10:55:38 +0100
 doi: https://doi.org/10.59348/tekmf-hxv44
+roguescholar: https://rogue-scholar.org/records/wzmc9-0tb82
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mj333tz2e
 layout: post
 published: true
 status: publish

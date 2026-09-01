@@ -6,6 +6,8 @@ comments: []
 date: 2012-01-09 13:17:10 +0100
 date_gmt: 2012-01-09 13:17:10 +0100
 doi: https://doi.org/10.59348/ambp3-zd546
+roguescholar: https://rogue-scholar.org/records/djjx6-gt357
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mj2e3em2h
 layout: post
 published: true
 status: publish

@@ -7,6 +7,8 @@ comments: []
 date: 2012-02-09 13:38:00 +0100
 date_gmt: 2012-02-09 13:38:00 +0100
 doi: https://doi.org/10.59348/hafk1-pcs15
+roguescholar: https://rogue-scholar.org/records/q91bj-n8g20
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miskhaj2e
 image:
   feature: geek.png
 layout: post

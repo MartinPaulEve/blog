@@ -1,7 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2025/10/04/pangolin-newt-gerbil-and-custom-ports
 date: 2025-10-04
-doi: https://doi.org/10.59348/az6ev-rvh24
+doi: https://doi.org/10.59348/hqabg-q5h89
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvqzpul2p
 image:
   feature: header_pangolin.png
 layout: post

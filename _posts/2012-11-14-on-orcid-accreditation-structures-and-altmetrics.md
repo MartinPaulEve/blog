@@ -7,6 +7,8 @@ comments: []
 date: 2012-11-14 18:00:11 +0100
 date_gmt: 2012-11-14 18:00:11 +0100
 doi: https://doi.org/10.59348/sfbtn-www40
+roguescholar: https://rogue-scholar.org/records/pbs27-bzp59
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhmrfsd2h
 layout: post
 published: true
 status: publish

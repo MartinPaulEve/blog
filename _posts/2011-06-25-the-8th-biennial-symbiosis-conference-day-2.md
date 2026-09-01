@@ -8,6 +8,8 @@ comments: []
 date: 2011-06-25 08:30:03 +0200
 date_gmt: 2011-06-25 08:30:03 +0200
 doi: https://doi.org/10.59348/4p8b7-n2r46
+roguescholar: https://rogue-scholar.org/records/avw30-ht670
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk7wxos2a
 layout: post
 published: true
 status: publish

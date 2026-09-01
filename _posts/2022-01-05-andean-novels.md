@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2022/01/05/andean-novels
 date: 2022-01-05
 doi: https://doi.org/10.59348/g0anq-2vb56
+roguescholar: https://rogue-scholar.org/records/d8hb7-58e46
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzoewck2r
 image:
   feature: header_enc.png
 layout: post

@@ -7,6 +7,8 @@ comments: []
 date: 2012-09-10 15:00:36 +0200
 date_gmt: 2012-09-10 14:00:36 +0200
 doi: https://doi.org/10.59348/vptxt-tzj76
+roguescholar: https://rogue-scholar.org/records/6zvwg-90074
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhs7rvx2f
 layout: post
 published: true
 status: publish

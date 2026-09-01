@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2025/02/06/an-introduction-to-the-poetry-of-emily-dickinson
 date: 2025-02-06
 doi: https://doi.org/10.59348/y97r7-9sk53
+roguescholar: https://rogue-scholar.org/records/9tkhv-hjm74
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwce7xu2i
 image:
   feature: header_poetry.png
 layout: post

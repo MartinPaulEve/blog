@@ -6,6 +6,8 @@ comments: []
 date: 2013-08-28 09:16:40 +0200
 date_gmt: 2013-08-28 08:16:40 +0200
 doi: https://doi.org/10.59348/bav6q-ke128
+roguescholar: https://rogue-scholar.org/records/c68aw-08a94
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgd7tyh2t
 layout: post
 published: true
 status: publish

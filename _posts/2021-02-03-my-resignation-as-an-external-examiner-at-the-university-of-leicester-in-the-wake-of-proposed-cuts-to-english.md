@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2021/02/03/my-resignation-as-an-external-examiner-at-the-university-of-leicester-in-the-wake-of-proposed-cuts-to-english
 date: 2021-02-03
 doi: https://doi.org/10.59348/a0ehv-pym10
+roguescholar: https://rogue-scholar.org/records/g4dg0-n1208
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3ua7o32t
 image:
   feature: header_leicester.png
 layout: post

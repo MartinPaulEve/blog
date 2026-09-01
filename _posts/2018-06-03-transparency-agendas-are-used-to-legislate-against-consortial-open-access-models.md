@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2018/06/03/transparency-agendas-are-used-to-legislate-against-consortial-open-access-models
 date: 2018-06-03
 doi: https://doi.org/10.59348/rtspp-d0s84
+roguescholar: https://rogue-scholar.org/records/r1mth-jgs35
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7soviv2i
 image:
   feature: oa.png
 layout: post

@@ -126,6 +126,8 @@ comments:
 date: 2012-03-24 14:59:34 +0100
 date_gmt: 2012-03-24 14:59:34 +0100
 doi: https://doi.org/10.59348/wkrvc-a5645
+roguescholar: https://rogue-scholar.org/records/0jvpw-fpg48
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mip3qbt2h
 layout: post
 published: true
 status: publish

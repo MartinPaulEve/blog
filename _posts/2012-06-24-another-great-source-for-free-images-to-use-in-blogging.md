@@ -6,6 +6,8 @@ comments: []
 date: 2012-06-24 11:33:53 +0200
 date_gmt: 2012-06-24 11:33:53 +0200
 doi: https://doi.org/10.59348/f7f8x-csb42
+roguescholar: https://rogue-scholar.org/records/jg4ye-j9f82
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miedy4m2h
 layout: post
 published: true
 status: publish

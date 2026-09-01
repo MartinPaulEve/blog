@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2021/01/18/how-much-optimism
 date: 2021-01-18
 doi: https://doi.org/10.59348/3sbaq-g3s66
+roguescholar: https://rogue-scholar.org/records/3k5gx-tsm33
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3woipt2n
 image:
   feature: header_medical.png
 layout: post

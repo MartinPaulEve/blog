@@ -4,6 +4,8 @@ categories:
 - Publishing Technology
 date: 2015-07-20
 doi: https://doi.org/10.59348/w78n5-he827
+roguescholar: https://rogue-scholar.org/records/w6ec7-qyn19
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcfyoo42n
 image:
   feature: post_images/meTypesetProcess.png
 layout: post

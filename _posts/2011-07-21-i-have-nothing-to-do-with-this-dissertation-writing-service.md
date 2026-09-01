@@ -7,6 +7,8 @@ comments: []
 date: 2011-07-21 10:26:02 +0200
 date_gmt: 2011-07-21 10:26:02 +0200
 doi: https://doi.org/10.59348/c7spd-kyw35
+roguescholar: https://rogue-scholar.org/records/7qm72-d6516
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk4vnhl2h
 layout: post
 published: true
 status: publish

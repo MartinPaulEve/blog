@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2022/12/10/some-of-my-upcoming-projects-at-crossref
 date: 2022-12-10
 doi: https://doi.org/10.59348/fnt1b-s2x58
+roguescholar: https://rogue-scholar.org/records/ghhcc-wek39
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lyi5jsk2a
 image:
   feature: geek.png
 layout: post

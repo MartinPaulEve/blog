@@ -5,6 +5,8 @@ categories:
 - Politics
 date: 2016-02-23
 doi: https://doi.org/10.59348/dd4n2-nh459
+roguescholar: https://rogue-scholar.org/records/s7fhq-e6158
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbqwutk2i
 layout: post
 modified: 2016-02-27 07:30:00 -0000
 tags:

@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2019/06/10/opting-out-of-league-tables-is-of-course-a-type-of-prestige-game
 date: 2019-06-10
 doi: https://doi.org/10.59348/rr7wq-dfs38
+roguescholar: https://rogue-scholar.org/records/0h6fv-wbw74
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6u6bqp2q
 image:
   feature: post_images/Birkbeck.jpg
 layout: post

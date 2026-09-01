@@ -7,6 +7,8 @@ comments: []
 date: 2014-09-03 18:03:38 +0200
 date_gmt: 2014-09-03 17:03:38 +0200
 doi: https://doi.org/10.59348/fkj4k-hgr68
+roguescholar: https://rogue-scholar.org/records/v1d0x-2b378
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mev4qqh2a
 image:
   feature: oa.png
 layout: post

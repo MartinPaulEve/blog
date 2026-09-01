@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2019/04/24/the-supervisory-frustrations-of-ahrc-dtps
 date: 2019-04-24
 doi: https://doi.org/10.59348/ehtwf-m4274
+roguescholar: https://rogue-scholar.org/records/1ajw1-af395
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m74u4ds2i
 image:
   feature: AHRC.png
 layout: post

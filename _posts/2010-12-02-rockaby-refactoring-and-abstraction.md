@@ -6,6 +6,8 @@ comments: []
 date: 2010-12-02 09:53:46 +0100
 date_gmt: 2010-12-02 09:53:46 +0100
 doi: https://doi.org/10.59348/xc4fv-rgq48
+roguescholar: https://rogue-scholar.org/records/bh3vq-pj856
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlk47iu2h
 image:
   feature: geek.png
 layout: post

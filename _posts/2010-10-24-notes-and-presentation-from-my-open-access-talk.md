@@ -7,6 +7,8 @@ comments: []
 date: 2010-10-24 18:00:49 +0200
 date_gmt: 2010-10-24 18:00:49 +0200
 doi: https://doi.org/10.59348/5h626-06e32
+roguescholar: https://rogue-scholar.org/records/b2f1w-x7w79
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlqmsci2p
 image:
   feature: oa.png
 layout: post

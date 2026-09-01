@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2022/12/19/how-do-you-get-access-to-antivirals-on-the-nhs-cdmu-system-and-does-it-work
 date: 2022-12-19
 doi: https://doi.org/10.59348/jzdas-a2w79
+roguescholar: https://rogue-scholar.org/records/dtb4r-x1r03
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lyhbp762e
 image:
   feature: header_evusheld.png
 layout: post

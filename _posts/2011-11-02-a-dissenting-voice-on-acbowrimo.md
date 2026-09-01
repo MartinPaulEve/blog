@@ -169,6 +169,8 @@ comments:
 date: 2011-11-02 22:42:34 +0100
 date_gmt: 2011-11-02 22:42:34 +0100
 doi: https://doi.org/10.59348/b0mw5-ww204
+roguescholar: https://rogue-scholar.org/records/wddks-7ey96
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjgd2jj2o
 layout: post
 published: true
 status: publish

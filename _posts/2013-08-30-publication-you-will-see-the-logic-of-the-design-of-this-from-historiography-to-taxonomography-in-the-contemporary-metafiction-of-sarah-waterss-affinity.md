@@ -7,6 +7,8 @@ comments: []
 date: 2013-08-30 17:06:27 +0200
 date_gmt: 2013-08-30 16:06:27 +0200
 doi: https://doi.org/10.59348/fkz3y-ns191
+roguescholar: https://rogue-scholar.org/records/rynfd-1mk25
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgcom4c2a
 layout: post
 published: true
 status: publish

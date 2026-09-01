@@ -6,6 +6,8 @@ categories:
 comments: []
 date: 2015-03-02
 doi: https://doi.org/10.59348/dvj7h-04x29
+roguescholar: https://rogue-scholar.org/records/x8fcg-q6z98
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7md5ctdr2q
 image:
   feature: geek.png
 layout: post

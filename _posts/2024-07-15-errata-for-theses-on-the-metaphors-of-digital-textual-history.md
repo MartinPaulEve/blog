@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2024/07/15/errata-for-theses-on-the-metaphors-of-digital-textual-history
 date: 2024-07-15
 doi: https://doi.org/10.59348/9t5mg-9rg95
+roguescholar: https://rogue-scholar.org/records/wd71c-7vy83
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwtos5a2f
 image:
   feature: header_error.png
 layout: post

@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2017/07/21/on-ecrs-and-non-portability-of-outputs
 date: 2017-07-21
 doi: https://doi.org/10.59348/hh987-2t421
+roguescholar: https://rogue-scholar.org/records/yjrbn-dz542
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7ma2z67t2p
 image:
   feature: ref.png
 layout: post

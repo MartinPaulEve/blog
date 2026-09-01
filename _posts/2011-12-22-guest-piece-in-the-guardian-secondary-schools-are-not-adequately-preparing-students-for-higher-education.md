@@ -191,6 +191,8 @@ comments:
 date: 2011-12-22 12:40:25 +0100
 date_gmt: 2011-12-22 12:40:25 +0100
 doi: https://doi.org/10.59348/ngpec-w6f10
+roguescholar: https://rogue-scholar.org/records/jpwh1-z7690
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjc3doh2f
 layout: post
 published: true
 status: publish

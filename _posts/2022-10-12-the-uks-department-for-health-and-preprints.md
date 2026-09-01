@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2022/10/12/the-uks-department-for-health-and-preprints
 date: 2022-10-12
 doi: https://doi.org/10.59348/ghfq9-61y81
+roguescholar: https://rogue-scholar.org/records/asvre-wrm75
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lykydeq2n
 image:
   feature: header_health.png
 layout: post

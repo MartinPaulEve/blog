@@ -7,6 +7,8 @@ comments: []
 date: 2011-06-20 11:37:47 +0200
 date_gmt: 2011-06-20 11:37:47 +0200
 doi: https://doi.org/10.59348/mczsf-x1z79
+roguescholar: https://rogue-scholar.org/records/8kapp-wq737
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkaer4i2q
 layout: post
 published: true
 status: publish

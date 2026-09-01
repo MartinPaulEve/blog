@@ -6,6 +6,8 @@ comments: []
 date: 2011-02-22 14:25:35 +0100
 date_gmt: 2011-02-22 14:25:35 +0100
 doi: https://doi.org/10.59348/zfrmj-vn016
+roguescholar: https://rogue-scholar.org/records/cf7dr-e9g37
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkkeijs2s
 layout: post
 published: true
 status: publish

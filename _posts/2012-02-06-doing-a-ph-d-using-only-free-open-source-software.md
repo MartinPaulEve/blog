@@ -161,6 +161,8 @@ comments:
 date: 2012-02-06 10:00:12 +0100
 date_gmt: 2012-02-06 10:00:12 +0100
 doi: https://doi.org/10.59348/hcm94-rh042
+roguescholar: https://rogue-scholar.org/records/f5535-jfa32
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miwgd5p2f
 image:
   feature: geek.png
 layout: post

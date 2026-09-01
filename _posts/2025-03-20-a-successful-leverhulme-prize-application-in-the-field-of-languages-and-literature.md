@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2025/03/20/a-successful-leverhulme-prize-application-in-the-field-of-languages-and-literature
 date: 2025-03-20
 doi: https://doi.org/10.59348/ddjk0-hep80
+roguescholar: https://rogue-scholar.org/records/616zf-x8645
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvz26vs2h
 image:
   feature: Leverhulme_Header.jpg
 layout: post

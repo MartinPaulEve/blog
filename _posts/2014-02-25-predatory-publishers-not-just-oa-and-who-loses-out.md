@@ -6,6 +6,8 @@ comments: []
 date: 2014-02-25 09:42:25 +0100
 date_gmt: 2014-02-25 09:42:25 +0100
 doi: https://doi.org/10.59348/dfajw-smx53
+roguescholar: https://rogue-scholar.org/records/n8bbn-e4289
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfndxes2u
 image:
   feature: oa.png
 layout: post

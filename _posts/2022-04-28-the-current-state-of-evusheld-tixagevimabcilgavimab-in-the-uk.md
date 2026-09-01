@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2022/04/28/the-current-state-of-evusheld-tixagevimabcilgavimab-in-the-uk
 date: 2022-04-28
 doi: https://doi.org/10.59348/1070g-xt827
+roguescholar: https://rogue-scholar.org/records/scd7j-xh925
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzbcw3l2i
 image:
   feature: header_ambulance.png
 layout: post

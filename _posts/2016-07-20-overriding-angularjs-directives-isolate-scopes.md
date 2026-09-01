@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/07/20/overriding-angularjs-directives-isolate-scopes
 date: 2016-07-20
 doi: https://doi.org/10.59348/8kmyx-jg122
+roguescholar: https://rogue-scholar.org/records/7yqyt-qas02
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbanjao2u
 image:
   feature: geek.png
 layout: post

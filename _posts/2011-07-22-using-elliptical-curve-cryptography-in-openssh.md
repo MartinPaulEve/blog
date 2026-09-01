@@ -71,6 +71,8 @@ comments:
 date: 2011-07-22 15:49:15 +0200
 date_gmt: 2011-07-22 15:49:15 +0200
 doi: https://doi.org/10.59348/dz3dw-gxh20
+roguescholar: https://rogue-scholar.org/records/t8f5h-1x464
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk4rvey2f
 image:
   feature: geek.png
 layout: post

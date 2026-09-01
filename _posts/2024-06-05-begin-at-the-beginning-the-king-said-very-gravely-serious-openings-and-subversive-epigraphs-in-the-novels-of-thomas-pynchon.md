@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2024/06/05/begin-at-the-beginning-the-king-said-very-gravely-serious-openings-and-subversive-epigraphs-in-the-novels-of-thomas-pynchon
 date: 2024-06-05
 doi: https://doi.org/10.59348/aevk7-0hs13
+roguescholar: https://rogue-scholar.org/records/5nyx7-e0w39
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwwayxm2p
 image:
   feature: header_farina.png
 layout: post

@@ -7,6 +7,8 @@ comments: []
 date: 2011-11-07 20:37:52 +0100
 date_gmt: 2011-11-07 20:37:52 +0100
 doi: https://doi.org/10.59348/1fkd9-91a47
+roguescholar: https://rogue-scholar.org/records/dvbry-p5593
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjg47iu2h
 layout: post
 published: true
 status: publish

@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2021/01/08/on-the-costs-of-scholarly-communications-and-the-discourse-of-fairness
 date: 2021-01-08
 doi: https://doi.org/10.59348/fsvt7-4rm28
+roguescholar: https://rogue-scholar.org/records/h91ge-vzy77
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3x5yjd2a
 image:
   feature: header_balance.png
 layout: post

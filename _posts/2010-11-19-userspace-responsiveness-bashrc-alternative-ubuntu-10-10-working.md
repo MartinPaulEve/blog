@@ -68,6 +68,8 @@ comments:
 date: 2010-11-19 19:49:03 +0100
 date_gmt: 2010-11-19 19:49:03 +0100
 doi: https://doi.org/10.59348/ptgaz-f7v52
+roguescholar: https://rogue-scholar.org/records/9fm3a-fff63
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mllxa6e2h
 image:
   feature: geek.png
 layout: post

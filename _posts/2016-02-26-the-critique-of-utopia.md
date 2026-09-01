@@ -5,6 +5,8 @@ categories:
 - Scholarly Communications
 date: 2016-02-26
 doi: https://doi.org/10.59348/69qqf-ney50
+roguescholar: https://rogue-scholar.org/records/78mdv-vnp51
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbqq3742t
 layout: post
 published: true
 tags:

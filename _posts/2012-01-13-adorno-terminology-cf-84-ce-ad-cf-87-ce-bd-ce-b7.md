@@ -6,6 +6,8 @@ comments: []
 date: 2012-01-13 12:30:23 +0100
 date_gmt: 2012-01-13 12:30:23 +0100
 doi: https://doi.org/10.59348/cde51-1vv09
+roguescholar: https://rogue-scholar.org/records/sesxf-hps78
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mizqte72f
 layout: post
 published: true
 status: publish

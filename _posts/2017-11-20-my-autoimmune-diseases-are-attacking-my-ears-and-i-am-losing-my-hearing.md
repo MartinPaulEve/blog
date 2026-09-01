@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2017/11/20/my-autoimmune-diseases-are-attacking-my-ears-and-i-am-losing-my-hearing
 date: 2017-11-20
 doi: https://doi.org/10.59348/6cjy0-r6v48
+roguescholar: https://rogue-scholar.org/records/0q0ny-59f60
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7zkace2r
 layout: post
 title: My autoimmune diseases are attacking my ears and I am losing my hearing
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7zkace2r"

@@ -7,6 +7,8 @@ comments: []
 date: 2010-11-22 10:43:11 +0100
 date_gmt: 2010-11-22 10:43:11 +0100
 doi: https://doi.org/10.59348/necg2-rzg48
+roguescholar: https://rogue-scholar.org/records/f52ga-wkj59
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mllev3u2h
 layout: post
 published: true
 status: publish

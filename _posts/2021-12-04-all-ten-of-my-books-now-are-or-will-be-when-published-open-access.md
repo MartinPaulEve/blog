@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2021/12/04/all-ten-of-my-books-now-are-or-will-be-when-published-open-access
 date: 2021-12-04
 doi: https://doi.org/10.59348/mfe7d-wnx84
+roguescholar: https://rogue-scholar.org/records/ectgh-8vm90
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2civnu2s
 image:
   feature: header_evebooks.png
 layout: post

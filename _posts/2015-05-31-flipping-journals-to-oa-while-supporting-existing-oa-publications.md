@@ -4,6 +4,8 @@ categories:
 - Open Access
 date: 2015-05-31
 doi: https://doi.org/10.59348/f7pr6-8wr39
+roguescholar: https://rogue-scholar.org/records/2mncm-mm707
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcqwlpb2f
 image:
   feature: post_images/JBIIP-1024x499.png
 layout: post

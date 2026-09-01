@@ -24,6 +24,8 @@ comments:
 date: 2012-02-24 12:10:27 +0100
 date_gmt: 2012-02-24 12:10:27 +0100
 doi: https://doi.org/10.59348/vekqf-xrh44
+roguescholar: https://rogue-scholar.org/records/snhq7-g2e61
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miqvlom2h
 layout: post
 published: true
 status: publish

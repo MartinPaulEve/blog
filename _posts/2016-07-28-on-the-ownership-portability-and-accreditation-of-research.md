@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/07/28/on-the-ownership-portability-and-accreditation-of-research
 date: 2016-07-28
 doi: https://doi.org/10.59348/31v37-2yv15
+roguescholar: https://rogue-scholar.org/records/jm9e2-ta046
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mb6qvtd2p
 image:
   feature: ref.png
 layout: post

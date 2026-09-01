@@ -4,6 +4,8 @@ categories:
 - Philosophy
 date: 2015-10-11
 doi: https://doi.org/10.59348/zk15h-tcr70
+roguescholar: https://rogue-scholar.org/records/jj0yt-wkz14
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc73vx32p
 layout: post
 published: true
 tags:

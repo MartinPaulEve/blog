@@ -6,6 +6,8 @@ comments: []
 date: 2013-03-29 19:59:51 +0100
 date_gmt: 2013-03-29 19:59:51 +0100
 doi: https://doi.org/10.59348/e431n-pfb44
+roguescholar: https://rogue-scholar.org/records/v5pds-9hr35
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgu7ei32h
 image:
   feature: geek.png
 layout: post

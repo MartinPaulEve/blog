@@ -8,6 +8,8 @@ comments: []
 date: 2012-07-13 10:02:26 +0200
 date_gmt: 2012-07-13 10:02:26 +0200
 doi: https://doi.org/10.59348/p4g2g-5ph28
+roguescholar: https://rogue-scholar.org/records/fmf27-ynh72
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miajs4t2h
 image:
   feature: geek.png
 layout: post

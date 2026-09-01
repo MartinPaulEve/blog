@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2019/04/26/the-learning-experience-out-today-on-tici-taci-and-my-book-has-gone-to-print-at-stanford-university-press
 date: 2019-04-26
 doi: https://doi.org/10.59348/f52m7-9xv73
+roguescholar: https://rogue-scholar.org/records/m0xzx-a0223
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m72hl5p2q
 image:
   feature: TLE.png
 layout: post

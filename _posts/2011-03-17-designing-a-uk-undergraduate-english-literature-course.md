@@ -15,6 +15,8 @@ comments:
 date: 2011-03-17 11:00:21 +0100
 date_gmt: 2011-03-17 11:00:21 +0100
 doi: https://doi.org/10.59348/jyxvg-cny44
+roguescholar: https://rogue-scholar.org/records/kek7p-f6128
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkiyt2x2i
 layout: post
 published: true
 status: publish

@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2018/07/23/linux-cpu-frequency-scaling-on-the-intel-i9-7980xe
 date: 2018-07-23
 doi: https://doi.org/10.59348/sxzd8-ymd56
+roguescholar: https://rogue-scholar.org/records/07vsj-73x35
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7qt3mf2u
 image:
   feature: geek.png
 layout: post

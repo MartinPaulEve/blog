@@ -7,6 +7,8 @@ comments: []
 date: 2013-09-01 11:36:21 +0200
 date_gmt: 2013-09-01 10:36:21 +0200
 doi: https://doi.org/10.59348/9pesc-hbw37
+roguescholar: https://rogue-scholar.org/records/vm11j-zcd61
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgcib472t
 image:
   feature: oa.png
 layout: post

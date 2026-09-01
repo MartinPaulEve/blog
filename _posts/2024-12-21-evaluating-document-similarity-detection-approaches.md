@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2024/12/21/evaluating-document-similarity-detection-approaches
 date: 2024-12-21
 doi: https://doi.org/10.59348/xnrh7-7px07
+roguescholar: https://rogue-scholar.org/records/b2gae-y2345
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwkiacw2e
 image:
   feature: header_compare.png
 layout: post

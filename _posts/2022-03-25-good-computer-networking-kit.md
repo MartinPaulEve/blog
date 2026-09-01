@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2022/03/25/good-computer-networking-kit
 date: 2022-03-25
 doi: https://doi.org/10.59348/1993a-a0q31
+roguescholar: https://rogue-scholar.org/records/ptdbe-q4q42
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzcelg22a
 image:
   feature: geek.png
 layout: post

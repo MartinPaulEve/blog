@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2024/06/30/ai-and-open-cultural-licensing-remarks-to-be-presented-at-the-sharp-plenary-roundtable-ai-in-the-communications-circuit
 date: 2024-06-30
 doi: https://doi.org/10.59348/grf3q-6fs44
+roguescholar: https://rogue-scholar.org/records/9ac2k-xw065
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwujhmg2e
 image:
   feature: header_ai.png
 layout: post

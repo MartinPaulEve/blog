@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2026/06/27/fair-and-square-making-a-static-site-support-fair-signposting
 date: '2026-06-27'
 doi: https://doi.org/10.59348/2zdfp-egq38
+roguescholar: https://rogue-scholar.org/records/9r5a0-je690
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lupu73d2i
 image:
   credit: Tingey Injury Lawfirm on Unsplash
   creditlink: https://unsplash.com/@tingeyinjurylawfirm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText

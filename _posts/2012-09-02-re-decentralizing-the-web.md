@@ -6,6 +6,8 @@ comments: []
 date: 2012-09-02 13:46:47 +0200
 date_gmt: 2012-09-02 13:46:47 +0200
 doi: https://doi.org/10.59348/b3gep-znb42
+roguescholar: https://rogue-scholar.org/records/rdbnv-a1y10
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhupnjr2e
 image:
   feature: geek.png
 layout: post

@@ -6,6 +6,8 @@ comments: []
 date: 2008-02-23 21:40:53 +0100
 date_gmt: 2008-02-23 21:40:53 +0100
 doi: https://doi.org/10.59348/ndrzq-c8c09
+roguescholar: https://rogue-scholar.org/records/vepnx-ern71
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mn5qsdy2f
 image:
   feature: geek.png
 layout: post

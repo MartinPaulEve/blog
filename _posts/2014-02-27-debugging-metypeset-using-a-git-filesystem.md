@@ -7,6 +7,8 @@ comments: []
 date: 2014-02-27 15:55:52 +0100
 date_gmt: 2014-02-27 15:55:52 +0100
 doi: https://doi.org/10.59348/5vnbp-c9c33
+roguescholar: https://rogue-scholar.org/records/pjkwa-zea71
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfg7a2c2a
 image:
   feature: geek.png
 layout: post

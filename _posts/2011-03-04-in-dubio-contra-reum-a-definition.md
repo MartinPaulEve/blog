@@ -60,6 +60,8 @@ comments:
 date: 2011-03-04 10:26:20 +0100
 date_gmt: 2011-03-04 10:26:20 +0100
 doi: https://doi.org/10.59348/8fpx9-a3q03
+roguescholar: https://rogue-scholar.org/records/r86rx-xnj29
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkkb26h2i
 layout: post
 published: true
 status: publish

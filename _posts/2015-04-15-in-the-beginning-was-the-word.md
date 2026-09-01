@@ -4,6 +4,8 @@ categories:
 - Publishing Technology
 date: 2015-04-15
 doi: https://doi.org/10.59348/3faq7-3r117
+roguescholar: https://rogue-scholar.org/records/gtrac-p8p86
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcvwfvz2q
 layout: post
 published: true
 tags: []

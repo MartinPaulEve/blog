@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2023/09/06/new-wheels
 date: 2023-09-06
 doi: https://doi.org/10.59348/nwznh-rh112
+roguescholar: https://rogue-scholar.org/records/g5h8c-zcs17
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7ly25b5c2r
 image:
   feature: header_wheelchair.png
 layout: post

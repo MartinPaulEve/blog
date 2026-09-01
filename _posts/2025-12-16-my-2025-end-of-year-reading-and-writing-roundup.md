@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2025/12/16/my-2025-end-of-year-reading-and-writing-roundup/
 date: 2025-12-16
 doi: https://doi.org/10.59348/pmw7a-ysy30
+roguescholar: https://rogue-scholar.org/records/x9pga-p7v14
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvnqlng2f
 image:
   credit: public domain from Wikimedia Commons
   creditlink: https://commons.wikimedia.org/wiki/File:Bookshelves_at_the_library.jpg

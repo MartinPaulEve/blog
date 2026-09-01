@@ -7,6 +7,8 @@ comments: []
 date: 2014-06-23 10:14:11 +0200
 date_gmt: 2014-06-23 09:14:11 +0200
 doi: https://doi.org/10.59348/rrh44-deh12
+roguescholar: https://rogue-scholar.org/records/kqkgj-2sp45
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7meyyjoc2u
 image:
   feature: geek.png
 layout: post

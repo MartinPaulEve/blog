@@ -4,6 +4,8 @@ categories:
 - Publishing Technology
 date: 2015-07-23
 doi: https://doi.org/10.59348/ny4q3-hpt21
+roguescholar: https://rogue-scholar.org/records/sgdxj-dbf55
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcfgfg22a
 image:
   feature: CaSSius.png
 layout: post

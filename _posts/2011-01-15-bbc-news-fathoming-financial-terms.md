@@ -6,6 +6,8 @@ comments: []
 date: 2011-01-15 11:57:24 +0100
 date_gmt: 2011-01-15 11:57:24 +0100
 doi: https://doi.org/10.59348/mjxyt-20k21
+roguescholar: https://rogue-scholar.org/records/ymj6k-nk243
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkvg4x62a
 layout: post
 published: true
 status: publish

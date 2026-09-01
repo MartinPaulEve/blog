@@ -2,6 +2,8 @@
 title: "Admission, meds, vascular access..."
 layout: post
 doi: https://doi.org/10.59348/kpp9c-4kp22
+roguescholar: https://rogue-scholar.org/records/f4dbj-vgy93
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mstgmnygkh2e
 date: 2026-08-11
 forwardlink:
 - 2026-08-17-feed-infection-control-fluid-overload

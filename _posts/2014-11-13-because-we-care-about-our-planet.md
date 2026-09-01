@@ -5,6 +5,8 @@ categories:
 comments: []
 date: 2014-11-13
 doi: https://doi.org/10.59348/z6abh-q7j56
+roguescholar: https://rogue-scholar.org/records/y8p1w-eq550
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdw5ffr2n
 layout: post
 published: true
 status: publish

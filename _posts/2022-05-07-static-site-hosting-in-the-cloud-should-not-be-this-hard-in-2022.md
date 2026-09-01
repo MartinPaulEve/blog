@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2022/05/07/static-site-hosting-in-the-cloud-should-not-be-this-hard-in-2022
 date: 2022-05-07
 doi: https://doi.org/10.59348/9x33x-1ky82
+roguescholar: https://rogue-scholar.org/records/s7pj5-2v205
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lz6isj42h
 image:
   feature: geek.png
 layout: post

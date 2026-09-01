@@ -6,6 +6,8 @@ comments: []
 date: 2011-04-21 18:08:44 +0200
 date_gmt: 2011-04-21 18:08:44 +0200
 doi: https://doi.org/10.59348/rsqkw-pc148
+roguescholar: https://rogue-scholar.org/records/x0exc-1hz57
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkeqgou2h
 image:
   feature: geek.png
 layout: post

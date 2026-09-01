@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2019/01/23/additional-points-in-my-plan-s-response
 date: 2019-01-23
 doi: https://doi.org/10.59348/3za63-fa351
+roguescholar: https://rogue-scholar.org/records/eqx3m-c9e28
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7g6p322p
 image:
   feature: oa.png
 layout: post

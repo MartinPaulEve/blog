@@ -6,6 +6,8 @@ comments: []
 date: 2012-10-13 21:38:47 +0200
 date_gmt: 2012-10-13 20:38:47 +0200
 doi: https://doi.org/10.59348/gvv53-ja616
+roguescholar: https://rogue-scholar.org/records/rkx4k-jhv67
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhr7ybc2a
 layout: post
 published: true
 status: publish

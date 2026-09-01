@@ -5,6 +5,8 @@ categories:
 - Scholarly Communications
 date: 2016-02-26
 doi: https://doi.org/10.59348/vsnst-jzc68
+roguescholar: https://rogue-scholar.org/records/7vv89-j3d58
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbqtem42r
 layout: post
 published: true
 tags:

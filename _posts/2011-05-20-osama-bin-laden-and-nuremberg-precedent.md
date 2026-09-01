@@ -6,6 +6,8 @@ comments: []
 date: 2011-05-20 11:04:40 +0200
 date_gmt: 2011-05-20 11:04:40 +0200
 doi: https://doi.org/10.59348/ksen7-sp805
+roguescholar: https://rogue-scholar.org/records/rsy88-t1298
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkdiq6m2h
 layout: post
 published: true
 status: publish

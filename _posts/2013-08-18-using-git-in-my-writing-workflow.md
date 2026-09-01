@@ -7,6 +7,8 @@ comments: []
 date: 2013-08-18 14:45:52 +0200
 date_gmt: 2013-08-18 13:45:52 +0200
 doi: https://doi.org/10.59348/jm453-j8362
+roguescholar: https://rogue-scholar.org/records/m940p-7xj17
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mges67k2u
 image:
   feature: geek.png
 layout: post

@@ -4,6 +4,8 @@ categories:
 - Open Access
 date: 2015-06-17
 doi: https://doi.org/10.59348/8092n-a8678
+roguescholar: https://rogue-scholar.org/records/g053n-dy727
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcof2d42r
 image:
   feature: post_images/APCGraph.png
 layout: post

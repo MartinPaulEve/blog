@@ -7,6 +7,8 @@ comments: []
 date: 2012-04-04 13:31:44 +0200
 date_gmt: 2012-04-04 13:31:44 +0200
 doi: https://doi.org/10.59348/cfdem-m0f25
+roguescholar: https://rogue-scholar.org/records/fct7v-ng126
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miir4tp2i
 image:
   feature: oa.png
 layout: post

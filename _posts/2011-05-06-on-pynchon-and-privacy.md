@@ -25,6 +25,8 @@ comments:
 date: 2011-05-06 09:19:16 +0200
 date_gmt: 2011-05-06 09:19:16 +0200
 doi: https://doi.org/10.59348/kh7hw-cad63
+roguescholar: https://rogue-scholar.org/records/r0bzc-42t31
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkdt2f22s
 layout: post
 published: true
 status: publish

@@ -7,6 +7,8 @@ comments: []
 date: 2011-05-04 20:02:15 +0200
 date_gmt: 2011-05-04 20:02:15 +0200
 doi: https://doi.org/10.59348/pansz-75q83
+roguescholar: https://rogue-scholar.org/records/zgvwh-hhe50
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkdwcut2u
 layout: post
 published: true
 status: publish

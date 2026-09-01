@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2020/01/12/the-tf-buyout-of-f1000-neutralises-the-plan-s-threat
 date: 2020-01-12
 doi: https://doi.org/10.59348/ah2bg-r4292
+roguescholar: https://rogue-scholar.org/records/nd8h9-wrg22
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6jub7q2h
 image:
   feature: oa.png
 layout: post

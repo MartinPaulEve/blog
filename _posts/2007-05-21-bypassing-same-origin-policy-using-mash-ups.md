@@ -6,6 +6,8 @@ comments: []
 date: 2007-05-21 14:23:44 +0200
 date_gmt: 2007-05-21 14:23:44 +0200
 doi: https://doi.org/10.59348/g5rvx-tmr98
+roguescholar: https://rogue-scholar.org/records/c6m0f-0m171
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnp4lhu2h
 image:
   feature: geek.png
 layout: post

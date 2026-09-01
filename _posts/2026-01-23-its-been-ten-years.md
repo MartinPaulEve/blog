@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2026/01/23/its-been-ten-years/
 date: 2026-01-23
 doi: https://doi.org/10.59348/xfxqa-sx117
+roguescholar: https://rogue-scholar.org/records/9qbwe-jk292
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lv3pirl2i
 image:
   credit: Sincerely Media on Unsplash
   creditlink: https://unsplash.com/@sincerelymedia

@@ -7,6 +7,8 @@ comments: []
 date: 2012-12-20 17:56:46 +0100
 date_gmt: 2012-12-20 17:56:46 +0100
 doi: https://doi.org/10.59348/100k7-cvp27
+roguescholar: https://rogue-scholar.org/records/94jg2-r1t36
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhfc3lt2h
 image:
   feature: oa.png
 layout: post

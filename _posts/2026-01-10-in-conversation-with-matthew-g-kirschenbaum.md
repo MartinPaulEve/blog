@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2025/12/26/authorship-division-of-labour-material-and-digital-form-thoughts-on-samuel-a-moores-publishing-beyond-the-market
 date: 2026-01-10
 doi: https://doi.org/10.59348/pphy3-4c062
+roguescholar: https://rogue-scholar.org/records/9sa4n-svz67
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvbng3c2o
 image:
   credit: All rights reserved, SHARP
   creditlink: https://sharpweb.org/conferences/sharpies/

@@ -6,6 +6,8 @@ comments: []
 date: 2011-10-30 18:12:42 +0100
 date_gmt: 2011-10-30 18:12:42 +0100
 doi: https://doi.org/10.59348/n3gpw-da192
+roguescholar: https://rogue-scholar.org/records/t3s19-v7t33
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjhjg2r2o
 image:
   feature: geek.png
 layout: post

@@ -191,6 +191,8 @@ comments:
 date: 2011-03-09 15:06:07 +0100
 date_gmt: 2011-03-09 15:06:07 +0100
 doi: https://doi.org/10.59348/7r4t0-nwv68
+roguescholar: https://rogue-scholar.org/records/a5d6r-fx447
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkk2gdq2f
 layout: post
 published: true
 status: publish

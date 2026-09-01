@@ -4,6 +4,8 @@ categories:
 - Scholarly Communications
 date: 2015-07-16
 doi: https://doi.org/10.59348/re45s-jhg72
+roguescholar: https://rogue-scholar.org/records/gxmjm-s4z21
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcghwob2q
 layout: post
 published: true
 tags:

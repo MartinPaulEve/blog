@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2023/12/13/a-year-of-looking-in-on-academia
 date: 2023-12-13
 doi: https://doi.org/10.59348/kd07y-z3g36
+roguescholar: https://rogue-scholar.org/records/p8f3r-rg790
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lx77unt2h
 image:
   feature: header_academia.png
 layout: post

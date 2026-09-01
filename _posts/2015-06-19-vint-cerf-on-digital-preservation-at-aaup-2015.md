@@ -5,6 +5,8 @@ categories:
 - Conferences
 date: 2015-06-19
 doi: https://doi.org/10.59348/6nsg9-qk387
+roguescholar: https://rogue-scholar.org/records/xnt23-etg72
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcne5o62o
 image:
   feature: post_images/Cerf.jpg
 layout: post

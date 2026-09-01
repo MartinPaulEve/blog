@@ -4,6 +4,8 @@ categories:
 - Open Access
 date: 2015-11-17
 doi: https://doi.org/10.59348/h9jdq-qsv12
+roguescholar: https://rogue-scholar.org/records/srjm5-vap52
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc4wryo2u
 image:
   feature: oa.png
 layout: post

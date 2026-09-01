@@ -6,6 +6,8 @@ comments: []
 date: 2009-06-23 02:51:49 +0200
 date_gmt: 2009-06-23 02:51:49 +0200
 doi: https://doi.org/10.59348/11p8j-59870
+roguescholar: https://rogue-scholar.org/records/yzkc8-pyb20
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmjva7m2i
 image:
   feature: geek.png
 layout: post

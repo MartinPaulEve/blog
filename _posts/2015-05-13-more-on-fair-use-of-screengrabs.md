@@ -4,6 +4,8 @@ categories:
 - Copyright and Licensing
 date: 2015-05-13
 doi: https://doi.org/10.59348/ar5nw-m1h97
+roguescholar: https://rogue-scholar.org/records/8806k-j9297
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mct7at72s
 layout: post
 published: true
 tags:

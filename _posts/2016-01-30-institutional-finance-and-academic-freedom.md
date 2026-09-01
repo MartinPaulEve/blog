@@ -4,6 +4,8 @@ categories:
 - Higher Education
 date: 2016-01-30
 doi: https://doi.org/10.59348/e6j5p-78x56
+roguescholar: https://rogue-scholar.org/records/34rgb-z4c47
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbuck6n2e
 layout: post
 published: true
 tags:

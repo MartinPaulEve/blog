@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2022/01/26/19th-century-british-isles
 date: 2022-01-26
 doi: https://doi.org/10.59348/ptx69-9kg31
+roguescholar: https://rogue-scholar.org/records/z25f6-9b433
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzee3nz2e
 image:
   feature: header_enc.png
 layout: post

@@ -7,6 +7,8 @@ comments: []
 date: 2014-02-12 07:51:21 +0100
 date_gmt: 2014-02-12 07:51:21 +0100
 doi: https://doi.org/10.59348/cs1ss-tzm19
+roguescholar: https://rogue-scholar.org/records/4jm70-p5j67
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfpq6vf2r
 image:
   feature: oa.png
 layout: post

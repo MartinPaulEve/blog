@@ -6,6 +6,8 @@ comments: []
 date: 2014-01-19 09:49:03 +0100
 date_gmt: 2014-01-19 09:49:03 +0100
 doi: https://doi.org/10.59348/q23p2-apm89
+roguescholar: https://rogue-scholar.org/records/aemp8-nyb61
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfqexvg2e
 layout: post
 published: true
 status: publish

@@ -8,6 +8,8 @@ comments: []
 date: 2012-04-23 07:20:33 +0200
 date_gmt: 2012-04-23 07:20:33 +0200
 doi: https://doi.org/10.59348/kvrat-fds32
+roguescholar: https://rogue-scholar.org/records/yjqyr-ktg10
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mih3i4p2f
 layout: post
 published: true
 status: publish

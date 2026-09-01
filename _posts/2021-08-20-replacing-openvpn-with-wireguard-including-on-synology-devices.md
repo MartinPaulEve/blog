@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2021/08/20/replacing-openvpn-with-wireguard-including-on-synology-devices
 date: 2021-08-20
 doi: https://doi.org/10.59348/fggfg-qsy79
+roguescholar: https://rogue-scholar.org/records/nncaw-ny721
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2hvgcv2o
 image:
   feature: geek.png
 layout: post

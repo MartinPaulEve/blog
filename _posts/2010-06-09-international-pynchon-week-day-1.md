@@ -7,6 +7,8 @@ comments: []
 date: 2010-06-09 21:19:53 +0200
 date_gmt: 2010-06-09 21:19:53 +0200
 doi: https://doi.org/10.59348/gmsqw-38g47
+roguescholar: https://rogue-scholar.org/records/tnwd5-b6t40
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mltyxam2h
 layout: post
 published: true
 status: publish

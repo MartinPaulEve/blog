@@ -8,6 +8,8 @@ comments: []
 date: 2012-02-10 14:50:22 +0100
 date_gmt: 2012-02-10 14:50:22 +0100
 doi: https://doi.org/10.59348/apcjm-d6179
+roguescholar: https://rogue-scholar.org/records/s8tcx-ht946
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mirsbrh2i
 layout: post
 published: true
 status: publish

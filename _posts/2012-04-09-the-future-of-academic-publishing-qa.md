@@ -18,6 +18,8 @@ comments:
 date: 2012-04-09 14:17:50 +0200
 date_gmt: 2012-04-09 14:17:50 +0200
 doi: https://doi.org/10.59348/2569q-b1653
+roguescholar: https://rogue-scholar.org/records/2e050-8v814
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mii66hx2f
 image:
   feature: oa.png
 layout: post

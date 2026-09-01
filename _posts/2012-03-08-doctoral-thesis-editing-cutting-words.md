@@ -15,6 +15,8 @@ comments:
 date: 2012-03-08 15:36:46 +0100
 date_gmt: 2012-03-08 15:36:46 +0100
 doi: https://doi.org/10.59348/wjgmx-kk490
+roguescholar: https://rogue-scholar.org/records/4cebh-dyn35
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miqgt6o2p
 layout: post
 published: true
 status: publish

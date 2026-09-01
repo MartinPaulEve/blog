@@ -6,6 +6,8 @@ categories:
 - Thomas Pynchon
 date: 2015-07-04
 doi: https://doi.org/10.59348/51j4e-2pf27
+roguescholar: https://rogue-scholar.org/records/pf88d-sq865
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mch42be2r
 image:
   feature: post_images/ActionWriting/Politics-N-Gram1.png
 layout: post

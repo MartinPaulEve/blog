@@ -7,6 +7,8 @@ comments: []
 date: 2011-01-18 16:38:43 +0100
 date_gmt: 2011-01-18 16:38:43 +0100
 doi: https://doi.org/10.59348/gfpgc-a8834
+roguescholar: https://rogue-scholar.org/records/yq2hz-trn14
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkvcrlq2f
 image:
   feature: oa.png
 layout: post

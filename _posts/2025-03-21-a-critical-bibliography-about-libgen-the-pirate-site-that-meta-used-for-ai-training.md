@@ -3,6 +3,8 @@ archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2025
 date: 2025-03-21
 doi: https://doi.org/10.59348/65tfk-v7p63
 kcworks: https://works.hcommons.org/records/rfee9-ve407
+roguescholar: https://rogue-scholar.org/records/1yq72-ffj50
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvybnql2p
 image:
   feature: header_warez.png
 layout: post

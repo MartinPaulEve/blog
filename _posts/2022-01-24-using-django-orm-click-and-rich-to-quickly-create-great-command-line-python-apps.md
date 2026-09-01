@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2022/01/24/using-django-orm-click-and-rich-to-quickly-create-great-command-line-python-apps
 date: 2022-01-24
 doi: https://doi.org/10.59348/pvsyt-hbv27
+roguescholar: https://rogue-scholar.org/records/7egq5-7ka78
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzfswjs2h
 image:
   feature: geek.png
 layout: post

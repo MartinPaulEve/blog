@@ -7,6 +7,8 @@ comments: []
 date: 2011-04-28 09:05:28 +0200
 date_gmt: 2011-04-28 09:05:28 +0200
 doi: https://doi.org/10.59348/pmxy6-vpf31
+roguescholar: https://rogue-scholar.org/records/xd80x-fh909
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mke5bfu2h
 layout: post
 published: true
 status: publish

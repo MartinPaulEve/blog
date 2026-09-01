@@ -7,6 +7,8 @@ comments: []
 date: 2013-06-02 18:15:20 +0200
 date_gmt: 2013-06-02 17:15:20 +0200
 doi: https://doi.org/10.59348/cama3-wj520
+roguescholar: https://rogue-scholar.org/records/t0e91-cgz75
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgpyk2p2f
 layout: post
 published: true
 status: publish

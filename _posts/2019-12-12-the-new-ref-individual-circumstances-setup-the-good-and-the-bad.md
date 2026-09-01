@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2019/12/12/the-new-ref-individual-circumstances-setup-the-good-and-the-bad
 date: 2019-12-12
 doi: https://doi.org/10.59348/v31fh-95378
+roguescholar: https://rogue-scholar.org/records/469ed-9f831
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6ksoso2s
 image:
   feature: ref.png
 layout: post

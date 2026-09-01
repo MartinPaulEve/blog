@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/05/11/hypothesis-v0814-error-oserror-errno-2-no-such-file-or-directory
 date: 2016-05-11
 doi: https://doi.org/10.59348/8hafg-2hk36
+roguescholar: https://rogue-scholar.org/records/yavad-90003
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbfslj32p
 image:
   feature: geek.png
 layout: post

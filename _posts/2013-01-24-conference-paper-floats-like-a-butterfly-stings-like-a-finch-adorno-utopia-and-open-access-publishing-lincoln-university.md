@@ -8,6 +8,8 @@ comments: []
 date: 2013-01-24 18:20:02 +0100
 date_gmt: 2013-01-24 18:20:02 +0100
 doi: https://doi.org/10.59348/s8eyx-2mg16
+roguescholar: https://rogue-scholar.org/records/6a3z1-y2v89
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgyg4xn2q
 layout: post
 published: true
 status: publish

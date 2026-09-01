@@ -6,6 +6,8 @@ comments: []
 date: 2012-08-01 12:00:37 +0200
 date_gmt: 2012-08-01 12:00:37 +0200
 doi: https://doi.org/10.59348/crcwn-wht43
+roguescholar: https://rogue-scholar.org/records/r43bf-3f459
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhwq3yp2i
 layout: post
 published: true
 status: publish

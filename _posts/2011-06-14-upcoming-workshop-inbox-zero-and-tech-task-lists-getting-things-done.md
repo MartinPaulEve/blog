@@ -8,6 +8,8 @@ comments: []
 date: 2011-06-14 12:01:40 +0200
 date_gmt: 2011-06-14 12:01:40 +0200
 doi: https://doi.org/10.59348/gk3hk-ek144
+roguescholar: https://rogue-scholar.org/records/0xw61-4vk58
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkbkrxi2f
 image:
   feature: geek.png
 layout: post

@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2021/12/10/what-if-downloads-are-not-actually-non-rivalrous
 date: 2021-12-10
 doi: https://doi.org/10.59348/40zb1-ptn66
+roguescholar: https://rogue-scholar.org/records/etean-db518
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2acnme2s
 image:
   feature: header_electric.png
 layout: post

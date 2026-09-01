@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2024/07/16/theses-on-the-metaphors-of-digital-textual-history-is-out-today
 date: 2024-07-16
 doi: https://doi.org/10.59348/3555g-fsh35
+roguescholar: https://rogue-scholar.org/records/wdq8y-g3x31
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwspdzz2i
 image:
   feature: header_theses.png
 layout: post

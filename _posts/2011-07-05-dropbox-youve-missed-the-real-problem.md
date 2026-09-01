@@ -89,6 +89,8 @@ comments:
 date: 2011-07-05 10:58:01 +0200
 date_gmt: 2011-07-05 10:58:01 +0200
 doi: https://doi.org/10.59348/cc52y-wv873
+roguescholar: https://rogue-scholar.org/records/3jerr-zc367
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk74ovg2p
 image:
   feature: geek.png
 layout: post

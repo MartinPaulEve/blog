@@ -7,6 +7,8 @@ comments: []
 date: 2014-05-03 17:15:19 +0200
 date_gmt: 2014-05-03 16:15:19 +0200
 doi: https://doi.org/10.59348/57g92-3vp57
+roguescholar: https://rogue-scholar.org/records/60198-vt492
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mf4xvtr2s
 layout: post
 published: true
 status: publish

@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2017/01/03/four-implementation-questions-about-open-access-and-monographs
 date: 2017-01-03
 doi: https://doi.org/10.59348/yzxtq-k9b36
+roguescholar: https://rogue-scholar.org/records/5c7na-87997
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7maoqwy52u
 image:
   feature: oa.png
 layout: post

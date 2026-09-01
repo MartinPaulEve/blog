@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2021/07/18/augar-the-humanities-covid
 date: 2021-07-18
 doi: https://doi.org/10.59348/z2s8v-wp880
+roguescholar: https://rogue-scholar.org/records/av11a-mqs35
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2yqvvs2f
 image:
   feature: header_crystal.png
 layout: post

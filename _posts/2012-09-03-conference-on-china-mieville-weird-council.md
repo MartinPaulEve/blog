@@ -7,6 +7,8 @@ comments: []
 date: 2012-09-03 16:39:01 +0200
 date_gmt: 2012-09-03 16:39:01 +0200
 doi: https://doi.org/10.59348/wekqc-1b124
+roguescholar: https://rogue-scholar.org/records/gckzp-xek97
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhtwum72f
 layout: post
 published: true
 status: publish

@@ -6,6 +6,8 @@ comments: []
 date: 2010-05-01 18:31:00 +0200
 date_gmt: 2010-05-01 18:31:00 +0200
 doi: https://doi.org/10.59348/ktbh3-ddn88
+roguescholar: https://rogue-scholar.org/records/hczrf-jev59
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mm6vngt2e
 image:
   feature: geek.png
 layout: post

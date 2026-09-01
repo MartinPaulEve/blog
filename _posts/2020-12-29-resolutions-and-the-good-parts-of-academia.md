@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2020/12/29/resolutions-and-the-good-parts-of-academia
 date: 2020-12-29
 doi: https://doi.org/10.59348/qxcch-1ps97
+roguescholar: https://rogue-scholar.org/records/gwa77-6rs53
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m4lmavw2h
 image:
   feature: header_jan.png
 layout: post

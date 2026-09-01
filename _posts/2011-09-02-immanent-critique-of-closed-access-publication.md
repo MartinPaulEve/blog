@@ -7,6 +7,8 @@ comments: []
 date: 2011-09-02 11:27:33 +0200
 date_gmt: 2011-09-02 11:27:33 +0200
 doi: https://doi.org/10.59348/tbsaa-q3340
+roguescholar: https://rogue-scholar.org/records/g5ey6-m5741
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjza4yd2n
 image:
   feature: oa.png
 layout: post

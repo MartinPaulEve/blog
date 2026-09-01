@@ -67,6 +67,8 @@ comments:
 date: 2010-12-20 22:00:47 +0100
 date_gmt: 2010-12-20 22:00:47 +0100
 doi: https://doi.org/10.59348/q61ec-bg742
+roguescholar: https://rogue-scholar.org/records/rftxb-cbp59
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlgp3g62t
 image:
   feature: geek.png
 layout: post

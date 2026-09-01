@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2020/02/14/open-access-monographs-and-the-ref-after-ref-2021
 date: 2020-02-14
 doi: https://doi.org/10.59348/d7tx3-k7924
+roguescholar: https://rogue-scholar.org/records/essxw-zbq62
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6iewe52i
 image:
   feature: oa.png
 layout: post

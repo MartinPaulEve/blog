@@ -31,6 +31,8 @@ comments:
 date: 2011-02-18 09:59:32 +0100
 date_gmt: 2011-02-18 09:59:32 +0100
 doi: https://doi.org/10.59348/tt2fs-1hp39
+roguescholar: https://rogue-scholar.org/records/sgtkq-jbg61
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkls2k22s
 image:
   feature: geek.png
 layout: post

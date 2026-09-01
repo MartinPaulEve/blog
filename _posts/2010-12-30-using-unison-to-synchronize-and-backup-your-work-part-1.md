@@ -15,6 +15,8 @@ comments:
 date: 2010-12-30 08:21:18 +0100
 date_gmt: 2010-12-30 08:21:18 +0100
 doi: https://doi.org/10.59348/rway8-gts85
+roguescholar: https://rogue-scholar.org/records/2ztnh-ay275
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlameom2h
 image:
   feature: geek.png
 layout: post

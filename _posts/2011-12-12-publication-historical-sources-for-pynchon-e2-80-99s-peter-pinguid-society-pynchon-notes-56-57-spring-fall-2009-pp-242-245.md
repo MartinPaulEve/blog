@@ -7,6 +7,8 @@ comments: []
 date: 2011-12-12 21:05:37 +0100
 date_gmt: 2011-12-12 21:05:37 +0100
 doi: https://doi.org/10.59348/8rrk2-j1t44
+roguescholar: https://rogue-scholar.org/records/420gv-max19
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjdz66x2f
 layout: post
 published: true
 status: publish

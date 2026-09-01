@@ -74,6 +74,8 @@ comments:
 date: 2011-02-18 14:44:24 +0100
 date_gmt: 2011-02-18 14:44:24 +0100
 doi: https://doi.org/10.59348/g88h8-zem81
+roguescholar: https://rogue-scholar.org/records/0wb7w-yx543
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkl4svd2h
 layout: post
 published: true
 status: publish

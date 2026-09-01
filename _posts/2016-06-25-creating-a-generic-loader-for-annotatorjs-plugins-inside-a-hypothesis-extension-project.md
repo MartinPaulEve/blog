@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/06/25/creating-a-generic-loader-for-annotatorjs-plugins-inside-a-hypothesis-extension-project
 date: 2016-06-25
 doi: https://doi.org/10.59348/bhaqf-e5560
+roguescholar: https://rogue-scholar.org/records/cq7yt-6yc85
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbcddvo2u
 image:
   feature: geek.png
 layout: post

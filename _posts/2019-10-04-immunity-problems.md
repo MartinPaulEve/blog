@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2019/10/04/immunity-problems
 date: 2019-10-04
 doi: https://doi.org/10.59348/rw22h-j2d36
+roguescholar: https://rogue-scholar.org/records/sk810-34e03
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6n4cch2q
 image:
   feature: drip.png
 layout: post

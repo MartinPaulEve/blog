@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2020/08/21/rapid-response-grants-and-disciplinary-boundaries
 date: 2020-08-21
 doi: https://doi.org/10.59348/cj0f3-5cp68
+roguescholar: https://rogue-scholar.org/records/87nz1-fxs16
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m4vmk2v2a
 image:
   feature: header_AHRC.png
 layout: post

@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2023/09/08/points-mean-prizes
 date: 2023-09-08
 doi: https://doi.org/10.59348/pg8vh-9qs53
+roguescholar: https://rogue-scholar.org/records/py2s3-9wv44
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lxzdwdz2i
 image:
   feature: header_olh_prize.png
 layout: post

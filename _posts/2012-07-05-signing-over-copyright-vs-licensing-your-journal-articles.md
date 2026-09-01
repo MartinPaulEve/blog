@@ -7,6 +7,8 @@ comments: []
 date: 2012-07-05 09:31:02 +0200
 date_gmt: 2012-07-05 09:31:02 +0200
 doi: https://doi.org/10.59348/ntpff-9dw76
+roguescholar: https://rogue-scholar.org/records/zjgqr-ca226
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mid7uyr2e
 image:
   feature: oa.png
 layout: post

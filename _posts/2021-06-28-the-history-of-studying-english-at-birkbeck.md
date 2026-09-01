@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2021/06/28/the-history-of-studying-english-at-birkbeck
 date: 2021-06-28
 doi: https://doi.org/10.59348/j801m-3xk60
+roguescholar: https://rogue-scholar.org/records/sqja3-dc522
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3afxmy2i
 image:
   feature: Birkbeck.jpg
 layout: post

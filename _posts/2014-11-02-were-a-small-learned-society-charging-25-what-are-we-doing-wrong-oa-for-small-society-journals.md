@@ -6,6 +6,8 @@ comments: []
 date: 2014-11-02 10:45:12 +0100
 date_gmt: 2014-11-02 10:45:12 +0100
 doi: https://doi.org/10.59348/g97j6-sdp39
+roguescholar: https://rogue-scholar.org/records/826nk-rf176
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mecmzaz2f
 image:
   feature: oa.png
 layout: post

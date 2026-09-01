@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2019/04/26/running-the-presonus-quantum-interfaces-on-windows-7
 date: 2019-04-26
 doi: https://doi.org/10.59348/4ajge-gmj03
+roguescholar: https://rogue-scholar.org/records/phwc2-f5656
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m73hin72q
 image:
   feature: quantum.png
 layout: post

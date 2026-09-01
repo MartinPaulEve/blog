@@ -6,6 +6,8 @@ comments: []
 date: 2011-07-11 08:49:22 +0200
 date_gmt: 2011-07-11 08:49:22 +0200
 doi: https://doi.org/10.59348/cxz52-g4186
+roguescholar: https://rogue-scholar.org/records/egskw-wwh05
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk677ip2i
 image:
   feature: geek.png
 layout: post

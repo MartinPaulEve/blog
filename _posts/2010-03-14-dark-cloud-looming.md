@@ -47,6 +47,8 @@ comments:
 date: 2010-03-14 16:36:00 +0100
 date_gmt: 2010-03-14 16:36:00 +0100
 doi: https://doi.org/10.59348/2manw-m1h65
+roguescholar: https://rogue-scholar.org/records/pzp6t-dk006
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmchvot2e
 layout: post
 published: true
 status: publish

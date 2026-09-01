@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2021/12/15/today-is-the-publication-of-my-eighth-book-warez-the-infrastructure-and-aesthetics-of-piracy
 date: 2021-12-15
 doi: https://doi.org/10.59348/zaz04-c8g04
+roguescholar: https://rogue-scholar.org/records/h2cqs-7w945
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m25kt2u2s
 image:
   feature: header_warez.png
 layout: post

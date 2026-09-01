@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2024/10/07/why-its-worth-avoiding-as-many-virusescommon-colds-as-possible-mine-led-to-permanent-disability
 date: 2024-10-07
 doi: https://doi.org/10.59348/ngg6g-72x89
+roguescholar: https://rogue-scholar.org/records/ewzcx-dgh93
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwo5qzu2a
 image:
   feature: header_ambulance.png
 layout: post

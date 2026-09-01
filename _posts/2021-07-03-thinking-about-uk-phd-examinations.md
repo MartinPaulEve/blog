@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2021/07/03/thinking-about-uk-phd-examinations
 date: 2021-07-03
 doi: https://doi.org/10.59348/bjctt-wvn62
+roguescholar: https://rogue-scholar.org/records/p5nf9-bcv81
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m333qfe2q
 image:
   feature: header_degree.png
 layout: post

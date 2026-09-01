@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2019/06/01/what-size-should-my-music-studio-be
 date: 2019-06-01
 doi: https://doi.org/10.59348/q50f8-zec39
+roguescholar: https://rogue-scholar.org/records/aw9b2-kst18
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6vsz3y2h
 image:
   feature: music.png
 layout: post

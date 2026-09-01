@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2019/03/16/digital-ways-of-looking
 date: 2019-03-16
 doi: https://doi.org/10.59348/phqhq-pp165
+roguescholar: https://rogue-scholar.org/records/4pjm3-7wk97
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7bns6z2h
 image:
   feature: microscope.png
 layout: post

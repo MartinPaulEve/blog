@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2020/04/07/close-reading-with-computers-is-now-open-access-at-stanford-university-press
 date: 2020-04-07
 doi: https://doi.org/10.59348/5pgkm-pzh88
+roguescholar: https://rogue-scholar.org/records/2q69n-rg843
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6c3efm2f
 image:
   feature: closereading.png
 layout: post

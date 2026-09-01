@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2018/04/05/thoughts-on-the-UUK-offer
 date: 2018-04-05
 doi: https://doi.org/10.59348/t33yg-kqh29
+roguescholar: https://rogue-scholar.org/records/txegb-fdy42
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7szcsu2t
 layout: post
 title: Thoughts on the UUK offer and why I voted yes
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7szcsu2t"

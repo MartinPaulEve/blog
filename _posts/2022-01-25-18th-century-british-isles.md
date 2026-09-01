@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2022/01/25/18th-century-british-isles
 date: 2022-01-25
 doi: https://doi.org/10.59348/3j159-gzz43
+roguescholar: https://rogue-scholar.org/records/ffd9z-r9602
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzex5ya2i
 image:
   feature: header_enc.png
 layout: post

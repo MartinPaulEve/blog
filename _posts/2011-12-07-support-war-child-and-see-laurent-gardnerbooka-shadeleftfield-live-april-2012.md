@@ -7,6 +7,8 @@ comments: []
 date: 2011-12-07 20:34:54 +0100
 date_gmt: 2011-12-07 20:34:54 +0100
 doi: https://doi.org/10.59348/jk5bq-3zq40
+roguescholar: https://rogue-scholar.org/records/paxmh-bq359
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mje4gie2h
 layout: post
 published: true
 status: publish

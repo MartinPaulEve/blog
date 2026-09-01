@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2020/04/09/on-springer-and-apcs-in-the-wild
 date: 2020-04-09
 doi: https://doi.org/10.59348/q64c8-ya794
+roguescholar: https://rogue-scholar.org/records/wv1cs-n3j13
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6bdv6l2i
 image:
   feature: oa.png
 layout: post

@@ -4,6 +4,8 @@ backlink:
 - 2022-01-01-last-year-i-spent-506-hours-answering-emails-how-i-hope-to-do-less-of-it-this-year
 date: 2026-01-02
 doi: https://doi.org/10.59348/6ctsj-d9308
+roguescholar: https://rogue-scholar.org/records/7nvn9-4r418
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvccwfz2a
 image:
   credit: insung yoon on Unsplash
   creditlink: https://unsplash.com/@insungpandora

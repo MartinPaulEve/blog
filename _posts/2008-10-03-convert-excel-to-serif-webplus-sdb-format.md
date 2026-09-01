@@ -6,6 +6,8 @@ comments: []
 date: 2008-10-03 05:13:06 +0200
 date_gmt: 2008-10-03 05:13:06 +0200
 doi: https://doi.org/10.59348/qtmkv-77x51
+roguescholar: https://rogue-scholar.org/records/d2j1r-kc783
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmnq2342s
 image:
   feature: geek.png
 layout: post

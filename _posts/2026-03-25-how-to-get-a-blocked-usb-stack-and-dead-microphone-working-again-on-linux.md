@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2026/03/25/how-to-get-a-blocked-usb-stack-and-dead-microphone-working-again-on-linux
 date: 2026-03-25
 doi: https://doi.org/10.59348/bn9z8-ehk76
+roguescholar: https://rogue-scholar.org/records/bsg2p-jsh75
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7luwxapm2a
 image:
   credit: israel palacio on unsplash
   creditlink: https://unsplash.com/@othentikisra

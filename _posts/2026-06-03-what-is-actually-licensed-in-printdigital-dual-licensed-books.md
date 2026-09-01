@@ -3,6 +3,8 @@ archive: https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2026
 date: 2026-06-03
 doi: https://doi.org/10.59348/wf4fq-8pn69
 kcworks: https://works.hcommons.org/records/r798n-wey24
+roguescholar: https://rogue-scholar.org/records/p6af9-32h68
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lusmv472t
 forwardlink:
 - 2026-06-04-more-on-dual-licensing-of-digital-oa-books
 image:

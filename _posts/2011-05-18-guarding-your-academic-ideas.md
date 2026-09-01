@@ -43,6 +43,8 @@ comments:
 date: 2011-05-18 11:40:17 +0200
 date_gmt: 2011-05-18 11:40:17 +0200
 doi: https://doi.org/10.59348/cw3mf-h9c65
+roguescholar: https://rogue-scholar.org/records/jgszg-d0a47
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkdm7n32u
 layout: post
 published: true
 status: publish

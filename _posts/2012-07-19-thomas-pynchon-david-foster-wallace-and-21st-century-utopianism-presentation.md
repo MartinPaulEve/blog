@@ -8,6 +8,8 @@ comments: []
 date: 2012-07-19 11:46:18 +0200
 date_gmt: 2012-07-19 11:46:18 +0200
 doi: https://doi.org/10.59348/tgfa3-s5249
+roguescholar: https://rogue-scholar.org/records/jhjcc-gr182
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mi5jumu2h
 layout: post
 published: true
 status: publish

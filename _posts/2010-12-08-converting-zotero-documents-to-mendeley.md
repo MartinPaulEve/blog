@@ -154,6 +154,8 @@ comments:
 date: 2010-12-08 08:29:20 +0100
 date_gmt: 2010-12-08 08:29:20 +0100
 doi: https://doi.org/10.59348/m0c3j-atd18
+roguescholar: https://rogue-scholar.org/records/dxfky-8y765
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mljgrqm2i
 image:
   feature: geek.png
 layout: post

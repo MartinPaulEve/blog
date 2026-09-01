@@ -5,6 +5,8 @@ categories:
 comments: []
 date: 2015-01-31
 doi: https://doi.org/10.59348/wgjj9-gra20
+roguescholar: https://rogue-scholar.org/records/7p4mp-9bk21
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdbfb6c2q
 image:
   thumb: uploads/2015/01/stacked-books-148x142.jpg
 layout: post

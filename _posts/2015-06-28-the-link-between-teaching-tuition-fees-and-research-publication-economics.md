@@ -5,6 +5,8 @@ categories:
 - Higher Education
 date: 2015-06-28
 doi: https://doi.org/10.59348/64v3a-qms65
+roguescholar: https://rogue-scholar.org/records/pk3b3-23544
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mclkzjm2t
 image:
   feature: post_images/SymbolicEconomy.png
 layout: post

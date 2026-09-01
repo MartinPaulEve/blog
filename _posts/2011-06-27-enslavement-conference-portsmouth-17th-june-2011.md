@@ -7,6 +7,8 @@ comments: []
 date: 2011-06-27 10:00:56 +0200
 date_gmt: 2011-06-27 10:00:56 +0200
 doi: https://doi.org/10.59348/v0sta-ck450
+roguescholar: https://rogue-scholar.org/records/wxzw6-rf977
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk7pjfs2a
 layout: post
 published: true
 status: publish

@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2021/12/06/what-is-the-relationship-between-legal-form-governance-and-ethics
 date: 2021-12-06
 doi: https://doi.org/10.59348/yzwjw-6h263
+roguescholar: https://rogue-scholar.org/records/n998f-gsp24
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2bwmjl2i
 image:
   feature: oa.png
 layout: post

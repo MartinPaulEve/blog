@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2020/10/10/an-update-on-my-warez-book
 date: 2020-10-10
 doi: https://doi.org/10.59348/3359a-7w851
+roguescholar: https://rogue-scholar.org/records/1e7pg-78s91
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m4tay3r2a
 image:
   feature: header_warez.png
 layout: post

@@ -41,6 +41,8 @@ comments:
 date: 2011-09-03 15:34:52 +0200
 date_gmt: 2011-09-03 15:34:52 +0200
 doi: https://doi.org/10.59348/fqnpt-0e531
+roguescholar: https://rogue-scholar.org/records/t7f63-pzg27
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjyu33j2o
 image:
   feature: geek.png
 layout: post

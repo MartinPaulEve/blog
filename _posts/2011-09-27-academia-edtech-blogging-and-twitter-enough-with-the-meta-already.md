@@ -111,6 +111,8 @@ comments:
 date: 2011-09-27 13:36:26 +0200
 date_gmt: 2011-09-27 13:36:26 +0200
 doi: https://doi.org/10.59348/y37zv-ps425
+roguescholar: https://rogue-scholar.org/records/zpzpp-5rk48
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjtubo52a
 layout: post
 published: true
 status: publish

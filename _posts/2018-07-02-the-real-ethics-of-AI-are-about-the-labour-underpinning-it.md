@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2018/07/02/the-real-ethics-of-AI-are-about-the-labour-underpinning-it
 date: 2018-07-02
 doi: https://doi.org/10.59348/hq8a2-czf86
+roguescholar: https://rogue-scholar.org/records/9zz9r-bd854
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7rhfyz2a
 image:
   feature: geek.png
 layout: post

@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2019/10/24/a-brief-note-on-the-rhs-plan-s-report
 date: 2019-10-24
 doi: https://doi.org/10.59348/zq2jc-nda29
+roguescholar: https://rogue-scholar.org/records/g95qr-02p98
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6m3jjg2f
 image:
   feature: oa.png
 layout: post

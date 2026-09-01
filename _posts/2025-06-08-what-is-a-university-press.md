@@ -3,6 +3,8 @@ archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2025
 date: 2025-06-08
 doi: https://doi.org/10.59348/paybh-98d21
 kcworks: https://works.hcommons.org/records/wskxm-p0x30
+roguescholar: https://rogue-scholar.org/records/n9srk-dqs38
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvsvf232q
 image:
   feature: header_prestige.png
 layout: post

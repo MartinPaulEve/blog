@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2020/01/03/accelerating-synology-raid-6-reshapes
 date: 2020-01-03
 doi: https://doi.org/10.59348/r1n4g-g3187
+roguescholar: https://rogue-scholar.org/records/2rc5p-8p982
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6jxogi2h
 layout: post
 title: Accelerating Synology RAID 6 (SHR-2) reshapes
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6jxogi2h"

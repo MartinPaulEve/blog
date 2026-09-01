@@ -56,6 +56,8 @@ comments:
 date: 2012-03-30 16:24:01 +0200
 date_gmt: 2012-03-30 16:24:01 +0200
 doi: https://doi.org/10.59348/e2826-74m90
+roguescholar: https://rogue-scholar.org/records/dxq07-0jq61
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miox62s2n
 image:
   feature: oa.png
 layout: post

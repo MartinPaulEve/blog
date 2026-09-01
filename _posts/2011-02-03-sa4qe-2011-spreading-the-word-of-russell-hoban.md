@@ -6,6 +6,8 @@ comments: []
 date: 2011-02-03 17:41:24 +0100
 date_gmt: 2011-02-03 17:41:24 +0100
 doi: https://doi.org/10.59348/tbrme-fr329
+roguescholar: https://rogue-scholar.org/records/3xt9f-ha430
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkr7bf42h
 layout: post
 published: true
 status: publish

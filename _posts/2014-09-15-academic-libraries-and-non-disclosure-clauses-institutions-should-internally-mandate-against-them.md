@@ -6,6 +6,8 @@ comments: []
 date: 2014-09-15 20:13:47 +0200
 date_gmt: 2014-09-15 19:13:47 +0200
 doi: https://doi.org/10.59348/ktgcq-3xp11
+roguescholar: https://rogue-scholar.org/records/bes22-ra754
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7medrn2w2a
 image:
   feature: oa.png
 layout: post

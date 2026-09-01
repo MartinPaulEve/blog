@@ -8,6 +8,8 @@ comments: []
 date: 2012-12-11 17:24:59 +0100
 date_gmt: 2012-12-11 17:24:59 +0100
 doi: https://doi.org/10.59348/w5z5y-a7824
+roguescholar: https://rogue-scholar.org/records/wks8w-t9v61
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhl6e4i2o
 layout: post
 published: true
 status: publish

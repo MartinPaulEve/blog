@@ -35,6 +35,8 @@ comments:
 date: 2012-02-04 19:12:27 +0100
 date_gmt: 2012-02-04 19:12:27 +0100
 doi: https://doi.org/10.59348/g1dhf-05144
+roguescholar: https://rogue-scholar.org/records/1ykwr-s6x47
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miwjpi22s
 layout: post
 published: true
 status: publish

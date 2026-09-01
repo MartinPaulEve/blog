@@ -4,6 +4,8 @@ categories:
 - Technology
 date: 2015-06-20
 doi: https://doi.org/10.59348/mebpy-kcr46
+roguescholar: https://rogue-scholar.org/records/phpag-5e131
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcmsf5x2u
 image:
   feature: geek.png
 layout: post

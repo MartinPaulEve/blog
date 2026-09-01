@@ -6,6 +6,8 @@ comments: []
 date: 2010-11-14 08:22:04 +0100
 date_gmt: 2010-11-14 08:22:04 +0100
 doi: https://doi.org/10.59348/wdp68-yxz20
+roguescholar: https://rogue-scholar.org/records/v8j3f-4gb08
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mloxo3z2q
 image:
   feature: geek.png
 layout: post

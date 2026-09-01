@@ -182,6 +182,8 @@ comments:
 date: 2012-02-22 19:55:06 +0100
 date_gmt: 2012-02-22 19:55:06 +0100
 doi: https://doi.org/10.59348/s4d32-94e36
+roguescholar: https://rogue-scholar.org/records/8evxf-gjg05
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mir3ige2t
 layout: post
 published: true
 status: publish

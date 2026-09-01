@@ -20,6 +20,8 @@ comments:
 date: 2011-02-14 11:00:32 +0100
 date_gmt: 2011-02-14 11:00:32 +0100
 doi: https://doi.org/10.59348/x7zzm-tbt89
+roguescholar: https://rogue-scholar.org/records/n3wz7-yk297
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkp4ygz2q
 layout: post
 published: true
 status: publish

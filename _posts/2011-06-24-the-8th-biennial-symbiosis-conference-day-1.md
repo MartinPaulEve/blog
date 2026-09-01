@@ -7,6 +7,8 @@ comments: []
 date: 2011-06-24 07:18:38 +0200
 date_gmt: 2011-06-24 07:18:38 +0200
 doi: https://doi.org/10.59348/7b1s2-q3q59
+roguescholar: https://rogue-scholar.org/records/mc3vj-mt352
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mka2h372r
 layout: post
 published: true
 status: publish

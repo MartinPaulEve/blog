@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/11/24/what-we-mean-when-we-ask-whether-open-access-is-sustainable
 date: 2016-11-24
 doi: https://doi.org/10.59348/dc5bj-ep613
+roguescholar: https://rogue-scholar.org/records/6nte0-pfa71
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7matsqpk2i
 image:
   feature: oa.png
 layout: post

@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2021/12/09/my-2021-year-in-review
 date: 2021-12-09
 doi: https://doi.org/10.59348/7w3ta-rzc59
+roguescholar: https://rogue-scholar.org/records/wg2zz-fj191
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2bk46k2h
 image:
   feature: header_pandemic2.png
 layout: post

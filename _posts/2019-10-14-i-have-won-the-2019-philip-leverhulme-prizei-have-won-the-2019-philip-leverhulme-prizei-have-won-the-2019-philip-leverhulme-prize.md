@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2019/10/14/i-have-won-the-2019-philip-leverhulme-prizei-have-won-the-2019-philip-leverhulme-prizei-have-won-the-2019-philip-leverhulme-prize
 date: 2019-10-14
 doi: https://doi.org/10.59348/5zx19-fc171
+roguescholar: https://rogue-scholar.org/records/5fytt-8be22
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6mkezs2i
 image:
   feature: Leverhulme_Header.jpg
 layout: post

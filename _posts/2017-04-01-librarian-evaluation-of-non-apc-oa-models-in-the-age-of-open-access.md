@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2017/04/01/librarian-evaluation-of-non-apc-oa-models-in-the-age-of-open-access
 date: 2017-04-01
 doi: https://doi.org/10.59348/mf107-ynv72
+roguescholar: https://rogue-scholar.org/records/00x9b-awa52
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7maevja62s
 image:
   feature: oa.png
 layout: post

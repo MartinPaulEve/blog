@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2023/11/09/blocking-my-crawl
 date: 2023-11-09
 doi: https://doi.org/10.59348/eamzr-45367
+roguescholar: https://rogue-scholar.org/records/vr7ge-e0929
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lxh6c7v2a
 image:
   feature: header_crossref_labs.png
 layout: post

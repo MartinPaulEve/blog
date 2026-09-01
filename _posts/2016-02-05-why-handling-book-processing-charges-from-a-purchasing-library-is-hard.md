@@ -4,6 +4,8 @@ categories:
 - Open Access
 date: 2016-02-05
 doi: https://doi.org/10.59348/cap89-ms158
+roguescholar: https://rogue-scholar.org/records/5bkdm-a2553
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbu4pr42t
 image:
   feature: oa.png
 layout: post

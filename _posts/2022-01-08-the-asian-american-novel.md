@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2022/01/08/the-asian-american-novel
 date: 2022-01-08
 doi: https://doi.org/10.59348/tswbr-z9d30
+roguescholar: https://rogue-scholar.org/records/vky3z-pgq07
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzk6khd2q
 image:
   feature: header_enc.png
 layout: post

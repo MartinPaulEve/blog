@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2019/09/22/a-thought-experiment-do-we-really-care-about-the-type-of-scholarly-publishing-entity
 date: 2019-09-22
 doi: https://doi.org/10.59348/cdms0-m6r33
+roguescholar: https://rogue-scholar.org/records/dsjs2-0vh25
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6oppsp2q
 image:
   feature: oa.png
 layout: post

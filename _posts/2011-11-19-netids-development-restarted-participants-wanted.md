@@ -7,6 +7,8 @@ comments: []
 date: 2011-11-19 14:22:29 +0100
 date_gmt: 2011-11-19 14:22:29 +0100
 doi: https://doi.org/10.59348/3aem7-0fw16
+roguescholar: https://rogue-scholar.org/records/49cdr-mkg17
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjfeyhk2u
 image:
   feature: geek.png
 layout: post

@@ -5,6 +5,8 @@ categories:
 - Thomas Pynchon
 date: 2015-06-07
 doi: https://doi.org/10.59348/y831w-1h790
+roguescholar: https://rogue-scholar.org/records/jyhaj-x8910
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcpnpz72s
 image:
   feature: post_images/GR2.jpg
 layout: post

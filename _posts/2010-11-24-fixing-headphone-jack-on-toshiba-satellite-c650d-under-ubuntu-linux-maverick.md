@@ -85,6 +85,8 @@ comments:
 date: 2010-11-24 10:15:48 +0100
 date_gmt: 2010-11-24 10:15:48 +0100
 doi: https://doi.org/10.59348/jakqz-9mm63
+roguescholar: https://rogue-scholar.org/records/jz9s9-p5g23
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mllb36j2q
 image:
   feature: geek.png
 layout: post

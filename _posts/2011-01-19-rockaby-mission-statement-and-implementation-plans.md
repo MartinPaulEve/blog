@@ -7,6 +7,8 @@ comments: []
 date: 2011-01-19 15:44:54 +0100
 date_gmt: 2011-01-19 15:44:54 +0100
 doi: https://doi.org/10.59348/g4g43-c6p61
+roguescholar: https://rogue-scholar.org/records/nt61t-gmk17
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkuydma2f
 image:
   feature: geek.png
 layout: post

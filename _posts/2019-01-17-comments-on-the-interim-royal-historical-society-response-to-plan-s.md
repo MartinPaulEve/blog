@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2019/01/17/comments-on-the-interim-royal-historical-society-response-to-plan-s
 date: 2019-01-17
 doi: https://doi.org/10.59348/xd6yh-6zb81
+roguescholar: https://rogue-scholar.org/records/hfycp-tmj57
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7h5fhg2s
 image:
   feature: oa.png
 layout: post

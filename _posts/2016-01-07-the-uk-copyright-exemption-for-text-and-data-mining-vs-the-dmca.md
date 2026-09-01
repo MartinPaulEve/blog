@@ -5,6 +5,8 @@ categories:
 - Digital Humanities
 date: 2016-01-07
 doi: https://doi.org/10.59348/9adgm-rr097
+roguescholar: https://rogue-scholar.org/records/b03vd-gba24
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbuyefm2a
 layout: post
 published: true
 tags:

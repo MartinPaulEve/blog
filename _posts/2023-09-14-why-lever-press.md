@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2023/09/14/why-lever-press
 date: 2023-09-14
 doi: https://doi.org/10.59348/v6fh6-3ex41
+roguescholar: https://rogue-scholar.org/records/yaf03-rzn19
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lxmbpqu2h
 image:
   feature: header_voyager.png
 layout: post

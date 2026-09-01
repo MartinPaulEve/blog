@@ -4,6 +4,8 @@ categories:
 - Open Access
 date: 2015-05-04
 doi: https://doi.org/10.59348/g3xv9-wnb29
+roguescholar: https://rogue-scholar.org/records/7mh9h-c6373
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mctupdx2s
 image:
   feature: oa.png
 layout: post

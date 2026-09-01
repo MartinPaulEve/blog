@@ -7,6 +7,8 @@ comments: []
 date: 2011-12-02 12:13:07 +0100
 date_gmt: 2011-12-02 12:13:07 +0100
 doi: https://doi.org/10.59348/vet3x-3dx32
+roguescholar: https://rogue-scholar.org/records/45bq9-rhs98
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjeczkc2u
 layout: post
 published: true
 status: publish

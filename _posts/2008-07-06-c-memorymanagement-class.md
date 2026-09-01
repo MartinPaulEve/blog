@@ -6,6 +6,8 @@ comments: []
 date: 2008-07-06 12:52:30 +0200
 date_gmt: 2008-07-06 12:52:30 +0200
 doi: https://doi.org/10.59348/9m7s6-f3k18
+roguescholar: https://rogue-scholar.org/records/b7b3d-tnf29
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmr5oyx2t
 image:
   feature: geek.png
 layout: post

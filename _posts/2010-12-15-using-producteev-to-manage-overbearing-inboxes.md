@@ -63,6 +63,8 @@ comments:
 date: 2010-12-15 20:00:11 +0100
 date_gmt: 2010-12-15 20:00:11 +0100
 doi: https://doi.org/10.59348/vpg5c-frf21
+roguescholar: https://rogue-scholar.org/records/ab5g4-7x326
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlhqwcy2p
 image:
   feature: geek.png
 layout: post

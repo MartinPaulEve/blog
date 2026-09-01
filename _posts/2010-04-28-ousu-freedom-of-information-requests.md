@@ -7,6 +7,8 @@ comments: []
 date: 2010-04-28 10:28:41 +0200
 date_gmt: 2010-04-28 10:28:41 +0200
 doi: https://doi.org/10.59348/tdztd-s2018
+roguescholar: https://rogue-scholar.org/records/8n8xb-r2q74
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mm6z4qd2u
 layout: post
 published: true
 status: publish

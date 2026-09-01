@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2021/01/21/on-healthcare-economics-and-valuing-lives
 date: 2021-01-21
 doi: https://doi.org/10.59348/ybtz3-cb639
+roguescholar: https://rogue-scholar.org/records/ssz6k-rb234
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3w6xin2o
 image:
   feature: header_medical.png
 layout: post

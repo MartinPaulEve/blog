@@ -6,6 +6,8 @@ comments: []
 date: 2012-01-11 10:56:20 +0100
 date_gmt: 2012-01-11 10:56:20 +0100
 doi: https://doi.org/10.59348/n1wa9-vas25
+roguescholar: https://rogue-scholar.org/records/vh9et-1ah18
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mizuy4p2q
 layout: post
 published: true
 status: publish

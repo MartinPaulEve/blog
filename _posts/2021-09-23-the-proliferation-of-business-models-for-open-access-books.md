@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2021/09/23/the-proliferation-of-business-models-for-open-access-books
 date: 2021-09-23
 doi: https://doi.org/10.59348/dxamk-j2124
+roguescholar: https://rogue-scholar.org/records/w35rf-3sb57
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2e6wcl2t
 image:
   feature: oa.png
 layout: post

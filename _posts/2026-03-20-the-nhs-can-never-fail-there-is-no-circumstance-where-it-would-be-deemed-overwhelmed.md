@@ -3,6 +3,8 @@ archive: https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2026
 date: 2026-03-20
 doi: https://doi.org/10.59348/fkrfx-63y63
 kcworks: https://works.hcommons.org/records/xp3vw-0m911
+roguescholar: https://rogue-scholar.org/records/dcgq2-ha653
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7luze3tb2t
 image:
   credit: Nicolas J Leclercq on Unsplash
   creditlink: https://unsplash.com/@nicolasjleclercq

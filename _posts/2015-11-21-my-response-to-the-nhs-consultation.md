@@ -4,6 +4,8 @@ categories:
 - Politics
 date: 2015-11-21
 doi: https://doi.org/10.59348/vny6q-77e25
+roguescholar: https://rogue-scholar.org/records/t7g6z-hgb27
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc42xau2h
 layout: post
 published: true
 tags:

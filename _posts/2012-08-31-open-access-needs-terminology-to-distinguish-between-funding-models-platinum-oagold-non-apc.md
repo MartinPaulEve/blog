@@ -6,6 +6,8 @@ comments: []
 date: 2012-08-31 19:26:09 +0200
 date_gmt: 2012-08-31 19:26:09 +0200
 doi: https://doi.org/10.59348/dps11-gva14
+roguescholar: https://rogue-scholar.org/records/eaqyw-6jf69
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhv54242h
 image:
   feature: oa.png
 layout: post

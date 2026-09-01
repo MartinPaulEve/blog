@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2021/05/03/coalition-s-endorsing-subscribe-to-open-is-a-great-start-we-need-the-same-thinking-about-books-from-the-beginning
 date: 2021-05-03
 doi: https://doi.org/10.59348/cjtmg-7vt30
+roguescholar: https://rogue-scholar.org/records/d2k9c-rew75
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3flr4t2i
 image:
   feature: oa.png
 layout: post

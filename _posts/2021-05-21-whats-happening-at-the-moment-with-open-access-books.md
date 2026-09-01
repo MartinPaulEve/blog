@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2021/05/21/whats-happening-at-the-moment-with-open-access-books
 date: 2021-05-21
 doi: https://doi.org/10.59348/dgnf2-eqe15
+roguescholar: https://rogue-scholar.org/records/w2cmy-s6n86
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3edq6l2t
 image:
   feature: oa.png
 layout: post

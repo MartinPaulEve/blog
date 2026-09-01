@@ -6,6 +6,8 @@ comments: []
 date: 2007-05-24 12:41:15 +0200
 date_gmt: 2007-05-24 12:41:15 +0200
 doi: https://doi.org/10.59348/xk536-c7k02
+roguescholar: https://rogue-scholar.org/records/qmsf0-g0c09
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnhgt7e2e
 image:
   feature: geek.png
 layout: post

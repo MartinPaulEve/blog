@@ -7,6 +7,8 @@ comments: []
 date: 2014-02-14 06:29:36 +0100
 date_gmt: 2014-02-14 06:29:36 +0100
 doi: https://doi.org/10.59348/zddvq-4dj76
+roguescholar: https://rogue-scholar.org/records/jkeev-kqs75
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfpe7352p
 image:
   feature: oa.png
 layout: post

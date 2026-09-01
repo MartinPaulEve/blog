@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2024/02/29/preservation-as-a-memento-mori-and-matter-of-ethics
 date: 2024-02-29
 doi: https://doi.org/10.59348/jggmv-9rp63
+roguescholar: https://rogue-scholar.org/records/9kpdq-7ac46
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lx2e3be2u
 image:
   feature: header_warez.png
 layout: post

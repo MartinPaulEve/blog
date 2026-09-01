@@ -16,6 +16,8 @@ comments:
 date: 2008-02-02 17:57:44 +0100
 date_gmt: 2008-02-02 17:57:44 +0100
 doi: https://doi.org/10.59348/nhjwb-ywd61
+roguescholar: https://rogue-scholar.org/records/adzjk-73f17
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mn6a4j42u
 image:
   feature: geek.png
 layout: post

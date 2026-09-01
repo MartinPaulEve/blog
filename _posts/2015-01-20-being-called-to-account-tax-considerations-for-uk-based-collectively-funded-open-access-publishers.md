@@ -5,6 +5,8 @@ categories:
 comments: []
 date: 2015-01-20
 doi: https://doi.org/10.59348/8e9f6-tk129
+roguescholar: https://rogue-scholar.org/records/15heh-6rp69
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdco7to2o
 image:
   feature: oa.png
 layout: post

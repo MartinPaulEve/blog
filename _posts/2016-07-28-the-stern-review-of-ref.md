@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/07/28/the-stern-review-of-ref
 date: 2016-07-28
 doi: https://doi.org/10.59348/twf85-q5c75
+roguescholar: https://rogue-scholar.org/records/xjhx3-dqx46
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mb5vrp42r
 image:
   feature: ref.png
 layout: post

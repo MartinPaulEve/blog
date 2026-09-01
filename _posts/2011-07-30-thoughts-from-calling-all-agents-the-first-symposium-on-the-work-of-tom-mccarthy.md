@@ -36,6 +36,8 @@ comments:
 date: 2011-07-30 15:21:16 +0200
 date_gmt: 2011-07-30 15:21:16 +0200
 doi: https://doi.org/10.59348/h6ey0-mfp04
+roguescholar: https://rogue-scholar.org/records/q4jh7-y7c20
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk3pqkr2e
 layout: post
 published: true
 status: publish

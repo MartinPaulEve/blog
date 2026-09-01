@@ -7,6 +7,8 @@ comments: []
 date: 2011-03-25 14:30:29 +0100
 date_gmt: 2011-03-25 14:30:29 +0100
 doi: https://doi.org/10.59348/wpkmc-08224
+roguescholar: https://rogue-scholar.org/records/5fysy-c6d91
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkij47h2r
 image:
   feature: geek.png
 layout: post

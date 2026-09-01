@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2020/05/21/on-academic-journals-as-clubs
 date: 2020-05-21
 doi: https://doi.org/10.59348/g13ez-whw80
+roguescholar: https://rogue-scholar.org/records/kdez8-y7x82
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5ojlx32e
 image:
   feature: header_club.png
 layout: post

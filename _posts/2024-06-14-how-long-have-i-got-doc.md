@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2024/06/14/how-long-have-i-got-doc
 date: 2024-06-14
 doi: https://doi.org/10.59348/e7a1a-e3m72
+roguescholar: https://rogue-scholar.org/records/xpv96-4s615
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwvkstr2h
 image:
   feature: header_ambulance.png
 layout: post

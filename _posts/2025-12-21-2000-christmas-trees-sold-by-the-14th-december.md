@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2025/12/21/2000-christmas-trees-sold-by-the-14th-december/
 date: 2025-12-21
 doi: https://doi.org/10.59348/6ysny-73206
+roguescholar: https://rogue-scholar.org/records/pejvk-c9091
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvmrt732i
 image:
   credit: Toni Cuenca on Unsplash
   creditlink: https://unsplash.com/photos/a-close-up-of-a-christmas-wreath-on-a-red-background-CvFARq2qu8Y

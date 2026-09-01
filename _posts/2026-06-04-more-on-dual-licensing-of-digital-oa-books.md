@@ -5,6 +5,8 @@ backlink:
 date: 2026-06-04
 doi: https://doi.org/10.59348/pyncb-wyx70
 kcworks: https://works.hcommons.org/records/30kbc-hkt82
+roguescholar: https://rogue-scholar.org/records/g2d9z-4fs49
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lurdtjm2e
 image:
   credit: Markus Winkler on Unsplash
   creditlink: https://unsplash.com/@markuswinkler?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText

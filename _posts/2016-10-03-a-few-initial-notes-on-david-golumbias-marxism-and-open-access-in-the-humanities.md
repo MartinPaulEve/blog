@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/10/03/a-few-initial-notes-on-david-golumbias-marxism-and-open-access-in-the-humanities
 date: 2016-10-03
 doi: https://doi.org/10.59348/78x39-e3d70
+roguescholar: https://rogue-scholar.org/records/ehvm3-jxq56
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mazg7r22h
 image:
   feature: oa.png
 layout: post

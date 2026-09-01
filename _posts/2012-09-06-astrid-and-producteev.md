@@ -6,6 +6,8 @@ comments: []
 date: 2012-09-06 07:51:11 +0200
 date_gmt: 2012-09-06 06:51:11 +0200
 doi: https://doi.org/10.59348/t2n80-ene03
+roguescholar: https://rogue-scholar.org/records/2rrsw-h6805
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhtjfwp2r
 image:
   feature: geek.png
 layout: post

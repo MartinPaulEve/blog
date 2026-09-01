@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2020/07/30/davmail-uses-java-certificate-store-not-central-ca-certificates
 date: 2020-07-30
 doi: https://doi.org/10.59348/p45j7-fjr65
+roguescholar: https://rogue-scholar.org/records/7dqkt-d6g34
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m4y62bt2i
 layout: post
 title: davmail uses Java certificate store, not central ca-certificates
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m4y62bt2i"

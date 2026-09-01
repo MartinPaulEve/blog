@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2022/08/30/open-peer-review-and-its-rhythms
 date: 2022-08-30
 doi: https://doi.org/10.59348/nk12n-8wc68
+roguescholar: https://rogue-scholar.org/records/5d3n9-7ge76
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lyni4nr2h
 image:
   feature: header_review.png
 layout: post

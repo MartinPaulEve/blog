@@ -5,6 +5,8 @@ categories:
 comments: []
 date: 2014-12-19
 doi: https://doi.org/10.59348/erzpp-y8227
+roguescholar: https://rogue-scholar.org/records/pane5-wzs54
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdjgljj2u
 image:
   feature: geek.png
 layout: post

@@ -14,6 +14,8 @@ comments:
 date: 2007-06-26 16:38:11 +0200
 date_gmt: 2007-06-26 16:38:11 +0200
 doi: https://doi.org/10.59348/gepnb-vc464
+roguescholar: https://rogue-scholar.org/records/2aghe-a6z50
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnc5s2y2f
 image:
   feature: geek.png
 layout: post

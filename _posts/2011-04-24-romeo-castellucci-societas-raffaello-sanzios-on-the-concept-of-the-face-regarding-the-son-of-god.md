@@ -6,6 +6,8 @@ comments: []
 date: 2011-04-24 10:58:43 +0200
 date_gmt: 2011-04-24 10:58:43 +0200
 doi: https://doi.org/10.59348/krqgb-era11
+roguescholar: https://rogue-scholar.org/records/y0pkq-96280
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkeaow22a
 layout: post
 published: true
 status: publish

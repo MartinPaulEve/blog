@@ -5,6 +5,8 @@ categories:
 - Programming
 date: 2015-12-24
 doi: https://doi.org/10.59348/qfy1q-82t83
+roguescholar: https://rogue-scholar.org/records/fbwn0-2sd23
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbxz46b2f
 image:
   feature: post_images/2015-12-Sankey.png
 layout: post

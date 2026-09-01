@@ -7,6 +7,8 @@ comments: []
 date: 2012-09-03 06:14:11 +0200
 date_gmt: 2012-09-03 06:14:11 +0200
 doi: https://doi.org/10.59348/47fy9-45r22
+roguescholar: https://rogue-scholar.org/records/cn83q-mew27
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhu265i2o
 layout: post
 published: true
 status: publish

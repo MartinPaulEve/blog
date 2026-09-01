@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2021/04/08/software-as-a-service-and-commodity-fetishism
 date: 2021-04-08
 doi: https://doi.org/10.59348/k1kqn-p5a05
+roguescholar: https://rogue-scholar.org/records/ksrnt-3e597
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3im7k32n
 image:
   feature: header_software.png
 layout: post

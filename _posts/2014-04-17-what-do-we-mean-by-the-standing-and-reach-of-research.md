@@ -7,6 +7,8 @@ comments: []
 date: 2014-04-17 10:21:36 +0200
 date_gmt: 2014-04-17 09:21:36 +0200
 doi: https://doi.org/10.59348/q9dgj-gnc61
+roguescholar: https://rogue-scholar.org/records/htfbk-daf63
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mf7bmak2u
 layout: post
 published: true
 status: publish

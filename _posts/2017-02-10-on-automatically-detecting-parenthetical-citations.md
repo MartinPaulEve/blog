@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2017/02/10/on-automatically-detecting-parenthetical-citations
 date: 2017-02-10
 doi: https://doi.org/10.59348/hqs21-cxk70
+roguescholar: https://rogue-scholar.org/records/wbcnz-c8e02
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7magzuue2t
 image:
   feature: geek.png
 layout: post

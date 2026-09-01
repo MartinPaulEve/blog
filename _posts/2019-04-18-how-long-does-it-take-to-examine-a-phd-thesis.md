@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2019/04/18/how-long-does-it-take-to-examine-a-phd-thesis
 date: 2019-04-18
 doi: https://doi.org/10.59348/8kj22-99219
+roguescholar: https://rogue-scholar.org/records/znz72-d4g67
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m76m5h42t
 image:
   feature: morta.png
 layout: post

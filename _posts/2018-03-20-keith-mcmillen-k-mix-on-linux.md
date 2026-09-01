@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2018/03/20/keith-mcmillen-k-mix-on-linux
 date: 2018-03-20
 doi: https://doi.org/10.59348/6cekh-6be26
+roguescholar: https://rogue-scholar.org/records/b6m9g-msw09
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7ul7j62o
 image:
   feature: geek.png
 layout: post

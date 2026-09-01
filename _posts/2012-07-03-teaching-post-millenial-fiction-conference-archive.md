@@ -8,6 +8,8 @@ comments: []
 date: 2012-07-03 16:58:36 +0200
 date_gmt: 2012-07-03 16:58:36 +0200
 doi: https://doi.org/10.59348/71seb-rhj95
+roguescholar: https://rogue-scholar.org/records/7cqg8-h4844
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7midgtms2u
 excerpt: '2nd July, 2012: University of Brighton'
 layout: post
 published: true

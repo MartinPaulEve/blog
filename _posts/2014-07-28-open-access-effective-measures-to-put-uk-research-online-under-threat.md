@@ -6,6 +6,8 @@ comments: []
 date: 2014-07-28 18:25:25 +0200
 date_gmt: 2014-07-28 17:25:25 +0200
 doi: https://doi.org/10.59348/x86ry-cq148
+roguescholar: https://rogue-scholar.org/records/fr7an-qws96
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mex7brx2o
 image:
   feature: oa.png
 layout: post

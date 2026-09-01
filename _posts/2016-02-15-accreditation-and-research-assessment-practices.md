@@ -5,6 +5,8 @@ categories:
 - Open Access
 date: 2016-02-15
 doi: https://doi.org/10.59348/181sg-b6g69
+roguescholar: https://rogue-scholar.org/records/f6d97-n5388
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbsccjb2q
 layout: post
 published: true
 tags:

@@ -6,6 +6,8 @@ comments: []
 date: 2010-03-15 15:38:36 +0100
 date_gmt: 2010-03-15 15:38:36 +0100
 doi: https://doi.org/10.59348/qd9r6-rx022
+roguescholar: https://rogue-scholar.org/records/vbnfv-yda23
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmce2mk2a
 layout: post
 published: true
 status: publish

@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2024/08/15/on-dropping-the-ref-oa-mandate-for-books-this-time
 date: 2024-08-15
 doi: https://doi.org/10.59348/8b50z-agm52
+roguescholar: https://rogue-scholar.org/records/crcpw-yqz02
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwr2itg2e
 image:
   feature: oa.png
 layout: post

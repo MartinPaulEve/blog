@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2025/02/16/how-to-securely-create-an-encrypted-digital-in-case-of-death-document
 date: 2025-02-16
 doi: https://doi.org/10.59348/qjt3f-eg160
+roguescholar: https://rogue-scholar.org/records/nq554-35v48
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lw6esu32q
 image:
   feature: header_time.png
 layout: post

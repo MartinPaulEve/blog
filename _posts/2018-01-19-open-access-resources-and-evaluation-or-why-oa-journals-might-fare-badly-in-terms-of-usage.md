@@ -2,6 +2,8 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2018/01/19/open-access-resources-and-evaluation-or-why-oa-journals-might-fare-badly-in-terms-of-usage
 date: 2018-01-19
 doi: https://doi.org/10.59348/fyw60-dha26
+roguescholar: https://rogue-scholar.org/records/9ghtm-cr806
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7z5e5n2e
 image:
   feature: oa.png
 layout: post

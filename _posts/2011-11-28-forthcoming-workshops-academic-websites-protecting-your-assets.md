@@ -8,6 +8,8 @@ comments: []
 date: 2011-11-28 11:02:36 +0100
 date_gmt: 2011-11-28 11:02:36 +0100
 doi: https://doi.org/10.59348/v19d3-dhp75
+roguescholar: https://rogue-scholar.org/records/334bn-nrg53
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjem7ik2u
 layout: post
 published: true
 status: publish

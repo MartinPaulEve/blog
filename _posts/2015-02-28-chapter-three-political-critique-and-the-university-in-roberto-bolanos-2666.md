@@ -5,6 +5,8 @@ categories:
 comments: []
 date: 2015-02-28
 doi: https://doi.org/10.59348/397fy-vcr47
+roguescholar: https://rogue-scholar.org/records/bbbvx-bya94
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7md6p4mi2n
 image:
   feature: anxietyofacademia.png
 layout: post
