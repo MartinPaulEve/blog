@@ -1,0 +1,147 @@
+prompt_version: 1
+batch: batch-2014-1
+posts:
+- file: 2014-01-06-introducing-eprintscv-a-python-script-to-create-an-academic-web-cv-from-your-eprints-record.md
+  title: "Introducing eprintsCV: a python script to create an academic web CV from your eprints record"
+  old: [Technology, Linux]
+  new: [Programming]
+  needs_review: false
+  note: "Overrode Technology/Linux hints: this is the author's own Python software project (eprintsCV is a named Programming example in the taxonomy); nothing Linux-specific in the content."
+- file: 2014-01-13-handling-the-absence-of-a-newline-break-tag-in-jats.md
+  title: Handling the absence of a (newline) break tag in JATS
+  old: [Academia, meTypeset]
+  new: [Publishing Technology, Programming]
+  needs_review: false
+  note: "Dropped the Academia hint: the content is entirely JATS/meTypeset typesetting development, with Python/lxml implementation detail."
+- file: 2014-01-15-dear-publisher-2.md
+  title: "Dear Publisher (#2)"
+  old: [Open Access, Academia]
+  new: [Academia]
+  needs_review: false
+  note: "Overrode the Open Access hint: the post is a complaint about a traditional publisher's 10-month review and 24-hour proof demand; no OA content."
+- file: 2014-01-19-every-generation-has-its-philosopher.md
+  title: "\"Every generation has its philosopher\""
+  old: [Open Access]
+  new: [Technology]
+  needs_review: true
+  note: "The post is solely a quoted Lessig introduction on Stallman and free software; no OA content, so the hint was overridden. No canonical category covers free-software advocacy directly; Technology (broad tech commentary) is the closest fit."
+- file: 2014-02-10-hefce-ref2020-ir-deposit-and-embargoes.md
+  title: HEFCE (REF2020), IR deposit and embargoes
+  old: [Open Access, Academia]
+  new: [Open Access, Higher Education]
+  needs_review: false
+  note: "Replaced the Academia hint with Higher Education: the post is about HEFCE's REF open-access deposit policy and embargo mechanics."
+- file: 2014-02-12-publication-mitchell-hoban.md
+  title: "Publication: David Mitchell, Russell Hoban, and Metafiction After the Millennium"
+  old: [Literature, Academia, Publications]
+  new: [Publications, Literature]
+  needs_review: false
+  note: ""
+- file: 2014-02-12-whats-it-like-to-publish-in-sage-open.md
+  title: What's it like to publish in SAGE Open?
+  old: [Literature, Open Access, Academia]
+  new: [Academia, Open Access]
+  needs_review: false
+  note: "Dropped the Literature hint: the post documents the publishing experience (review timeline, proofs, $99 APC) in an OA megajournal; the article's literary subject is incidental."
+- file: 2014-02-14-publication-the-means-of-re-production-expertise-open-tools-standards-and-communication.md
+  title: "Publication: The Means of (Re-)Production: Expertise, Open Tools, Standards and Communication"
+  old: [Technology, Open Access, Publications]
+  new: [Publications, Publishing Technology]
+  needs_review: false
+  note: "Subject category is Publishing Technology (scholarly typesetting, JATS, open publishing tools), not general Technology; the OA hint reflects the article's venue rather than its subject."
+- file: 2014-02-20-publication-pynchon-and-wittgenstein-ethics-relativism-and-philosophical-methodology.md
+  title: "Publication: Pynchon and Wittgenstein: Ethics, Relativism and Philosophical Methodology"
+  old: [Literature, Thomas Pynchon, Academia, Philosophy, Publications, Ludwig Wittgenstein]
+  new: [Publications, Thomas Pynchon, Philosophy]
+  needs_review: false
+  note: ""
+- file: 2014-02-22-google-scholar-will-count-a-blog-post-as-an-article-if-its-cited-a-preservation-suggesstion.md
+  title: "Google Scholar will count a blog post as an article if it's cited: a preservation suggestion"
+  old: [Open Access, Academia]
+  new: [Scholarly Communications, Digital Preservation]
+  needs_review: false
+  note: "Overrode the Open Access/Academia hints: the post is about Google Scholar citation counting, DOIs/FigShare, and CLOCKSS preservation of blog posts — scholarly record and preservation topics."
+- file: 2014-02-24-modularizing-the-metypeset-typesetter-for-the-user-interface-phase.md
+  title: Modularizing the meTypeset typesetter for the user interface phase
+  old: [Technology, meTypeset]
+  new: [Publishing Technology, Programming]
+  needs_review: false
+  note: ""
+- file: 2014-02-25-predatory-publishers-not-just-oa-and-who-loses-out.md
+  title: "Predatory Publishers: Not Just OA (and who loses out?)"
+  old: [Open Access]
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2014-02-26-mathml-support-in-the-metypeset-typesetter.md
+  title: MathML support in the meTypeset typesetter
+  old: [Open Access, Academia, meTypeset]
+  new: [Publishing Technology, Programming]
+  needs_review: false
+  note: "Dropped the Open Access and Academia hints: purely a technical post on OMML-to-MathML conversion in the meTypeset/JATS toolchain."
+- file: 2014-02-27-debugging-metypeset-using-a-git-filesystem.md
+  title: Debugging meTypeset using a git filesystem
+  old: [Technology, Open Access]
+  new: [Publishing Technology, Programming]
+  needs_review: false
+  note: "Overrode Technology/Open Access hints: this is meTypeset (publishing toolchain) development plus a git-based debugging technique."
+- file: 2014-03-06-who-owns-a-prezi.md
+  title: Who owns a Prezi?
+  old: [Technology]
+  new: [Copyright and Licensing]
+  needs_review: false
+  note: "Overrode the Technology hint: the post analyses copyright/IP ambiguity in Prezi's terms of use; the platform itself is incidental."
+- file: 2014-03-10-scholars-and-scientists-who-work-in-languages-other-than-english-please-help.md
+  title: "Scholars and scientists who work in languages other than English: please help"
+  old: [Technology, Academia]
+  new: [Publishing Technology]
+  needs_review: false
+  note: "Overrode Technology/Academia hints: a crowdsourcing request for multilingual reference-section headings for the open source scholarly typesetter (meTypeset)."
+- file: 2014-03-31-hefces-post-2014-open-access-policy-the-short-what-you-need-to-know-version.md
+  title: "HEFCE's Post-2014 Open Access Policy: the short \"what you need to know\" version"
+  old: [Open Access, Academia]
+  new: [Open Access, Higher Education]
+  needs_review: false
+  note: "Replaced the Academia hint with Higher Education: a summary of HEFCE's REF open-access policy requirements."
+- file: 2014-04-01-designing-an-open-source-oa-toolchain-for-books.md
+  title: Designing an open source OA toolchain for books
+  old: [Open Access]
+  new: [Open Access, Publishing Technology, Conferences]
+  needs_review: false
+  note: "Workshop report on designing an OA book publication tool (OMP/PKP), so Publishing Technology and Conferences added to the Open Access hint."
+- file: 2014-04-01-why-oa-mandates-dont-compromise-academic-freedom.md
+  title: Why OA mandates don't compromise academic freedom
+  old: [Open Access, Academia]
+  new: [Open Access, Higher Education]
+  needs_review: false
+  note: "Replaced the Academia hint with Higher Education: the post argues about academic freedom and the HEFCE/REF mandate, both HE-policy topics."
+- file: 2014-04-07-funding-for-the-open-library-of-humanities-from-the-andrew-w-mellon-foundation.md
+  title: Funding for the Open Library of Humanities from the Andrew W. Mellon Foundation
+  old: [Open Access]
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2014-04-10-book-pynchon-and-philosophy-wittgenstein-foucault-and-adorno.md
+  title: "Book: Pynchon and Philosophy: Wittgenstein, Foucault and Adorno"
+  old: [Literature, Thomas Pynchon, Academia, Philosophy, Michel Foucault, Publications, Theodor Adorno, Ludwig Wittgenstein]
+  new: [Publications, Thomas Pynchon, Philosophy]
+  needs_review: false
+  note: ""
+- file: 2014-04-15-enabling-a-triple-head-3-monitor-setup-on-linux-mint-16-petra-with-two-nvidia-cards.md
+  title: "Enabling a triple-head (3 monitor) setup on Linux Mint 16 (\"Petra\") with two Nvidia cards"
+  old: [Technology, Linux]
+  new: [Linux]
+  needs_review: false
+  note: ""
+- file: 2014-04-15-first-impressions-from-paul-thomas-andersons-film-of-inherent-vice.md
+  title: "First Impressions From Paul Thomas Anderson’s film of ‘Inherent Vice‘"
+  old: [Thomas Pynchon, Academia]
+  new: [Thomas Pynchon]
+  needs_review: false
+  note: "Dropped the Academia hint: this is reposted film news about the Inherent Vice adaptation, with no academic content."
+- file: 2014-04-15-symposium-on-david-mitchell-9th-may-london.md
+  title: "Symposium on David Mitchell: 9th May, London"
+  old: [Literature, Academia]
+  new: [Conferences, Literature]
+  needs_review: false
+  note: ""

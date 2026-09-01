@@ -1,0 +1,147 @@
+prompt_version: 1
+batch: batch-2020-2
+posts:
+- file: 2020-05-14-on-business-model-generation.md
+  title: "On business model generation for open access monographs"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2020-05-21-notes-on-raym-crow-2009-income-models-for-open-access-an-overview-of-current-practice-sparc.md
+  title: "Notes on Raym Crow. (2009). Income Models for Open Access: An Overview of Current Practice. SPARC."
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2020-05-21-on-academic-journals-as-clubs.md
+  title: "On academic journals as clubs"
+  old: []
+  new: [Open Access, Academia]
+  needs_review: false
+  note: ""
+- file: 2020-05-23-if-i-could-radically-reshape-copyright-law.md
+  title: "If I could radically reshape copyright law for research"
+  old: []
+  new: [Copyright and Licensing, Open Access]
+  needs_review: false
+  note: ""
+- file: 2020-05-28-notes-on-vulnerability-and-covid-19.md
+  title: "Notes on vulnerability and COVID-19"
+  old: []
+  new: [Health, Politics]
+  needs_review: false
+  note: ""
+- file: 2020-05-29-on-the-overhead-of-business-models.md
+  title: "On the overhead of 'business models'"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2020-06-21-reading-the-democratisation-myth-and-thinking-through-decolonial-oa.md
+  title: "Reading ‘The Democratisation Myth’ and thinking through decolonial OA"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2020-06-24-on-the-easing-of-shielding.md
+  title: "The easing of shielding: the UK government's abrogation of responsibility"
+  old: []
+  new: [Politics, Health]
+  needs_review: false
+  note: ""
+- file: 2020-07-03-the-emergence-of-threat-infrastructures-plan-s-and-behavioral-change.md
+  title: "The Emergence of Threat Infrastructures: Plan S and Behavioral Change"
+  old: []
+  new: [Open Access, Scholarly Communications]
+  needs_review: false
+  note: ""
+- file: 2020-07-30-davmail-uses-java-certificate-store-not-central-ca-certificates.md
+  title: "davmail uses Java certificate store, not central ca-certificates"
+  old: []
+  new: [Linux]
+  needs_review: false
+  note: ""
+- file: 2020-08-07-some-reflections-on-the-politics-of-open-peer-review.md
+  title: "Some reflections on the politics of open peer review"
+  old: []
+  new: [Academia, Open Access]
+  needs_review: false
+  note: ""
+- file: 2020-08-18-rethinking-assessment-during-the-pandemic.md
+  title: "Rethinking assessment during the pandemic, particularly re. disability equality"
+  old: []
+  new: [Teaching, Open Access]
+  needs_review: false
+  note: ""
+- file: 2020-08-21-rapid-response-grants-and-disciplinary-boundaries.md
+  title: "Rapid-response grants and disciplinary boundaries"
+  old: []
+  new: [Academia, Higher Education]
+  needs_review: false
+  note: ""
+- file: 2020-09-03-retractions-against-racial-discrimination.md
+  title: "Retractions against racial discrimination"
+  old: []
+  new: [Academia]
+  needs_review: false
+  note: ""
+- file: 2020-10-04-the-observer-should-not-offer-column-inches-to-allow-oxford-college-principals-to-lie-about-other-universities.md
+  title: "The Observer should not offer column inches to allow Oxford College principals to denigrate other universities"
+  old: []
+  new: [Higher Education]
+  needs_review: false
+  note: ""
+- file: 2020-10-10-an-update-on-my-warez-book.md
+  title: "An update on my Warez book: a book about the artforms of the high-level piracy scene"
+  old: []
+  new: [Piracy and Shadow Libraries]
+  needs_review: false
+  note: ""
+- file: 2020-10-21-on-reassembling-scholarly-communications.md
+  title: "On Reassembling Scholarly Communications: A book about the ethics and egalitarianism of open access"
+  old: []
+  new: [Publications, Open Access, Scholarly Communications]
+  needs_review: false
+  note: ""
+- file: 2020-10-22-backlist-to-the-future-a-new-business-model-for-university-presses-and-open-access-books.md
+  title: "Backlist to the Future: a new business model for university presses and open-access books"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2020-11-13-on-the-ethics-of-studying-pirate-cultures.md
+  title: "On the ethics of studying pirate cultures"
+  old: []
+  new: [Piracy and Shadow Libraries, Academia]
+  needs_review: false
+  note: ""
+- file: 2020-12-12-how-to-install-ubuntu-on-the-hp-dragonfly-elite.md
+  title: "How to install Ubuntu on the HP Dragonfly Elite (hint: disable Optane)"
+  old: []
+  new: [Linux]
+  needs_review: false
+  note: ""
+- file: 2020-12-16-my-2020-year-in-review.md
+  title: "My 2020 year in review"
+  old: []
+  new: [Personal, Academia]
+  needs_review: false
+  note: ""
+- file: 2020-12-28-some-reflections-on-the-professionalization-of-my-disciplines.md
+  title: "Some reflections on the professionalization of my disciplines"
+  old: []
+  new: [Academia]
+  needs_review: false
+  note: ""
+- file: 2020-12-29-an-anecdote-on-editing.md
+  title: "An anecdote on editing"
+  old: []
+  new: [Academia]
+  needs_review: false
+  note: ""
+- file: 2020-12-29-resolutions-and-the-good-parts-of-academia.md
+  title: "Resolutions, and The Good, The Bad, and the Ugly Parts of Academia"
+  old: []
+  new: [Personal, Academia]
+  needs_review: false
+  note: ""

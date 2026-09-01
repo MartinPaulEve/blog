@@ -1,0 +1,129 @@
+prompt_version: 1
+batch: batch-2013-3
+posts:
+- file: 2013-08-28-the-democracy-we-do-not-want.md
+  title: "The Democracy We Do Not Want"
+  old: [Politics]
+  new: [Politics]
+  needs_review: false
+  note: ""
+- file: 2013-08-29-full-response-to-science-metrix-report-on-gold-oa-citation-rates.md
+  title: "Full response to Science-Metrix report on gold OA citation rates"
+  old: [Open Access]
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2013-08-30-publication-you-will-see-the-logic-of-the-design-of-this-from-historiography-to-taxonomography-in-the-contemporary-metafiction-of-sarah-waterss-affinity.md
+  title: "Publication:  “You will see the logic of the design of this”: From Historiography to Taxonomography  in the Contemporary Metafiction of Sarah Waters’s Affinity"
+  old: [Literature, Academia, Publications, Output]
+  new: [Publications, Literature]
+  needs_review: false
+  note: ""
+- file: 2013-09-01-what-is-it-like-to-publish-in-the-journal-neo-victorian-studies.md
+  title: "What is it like to publish in the journal 'Neo-Victorian Studies'?"
+  old: [Literature, Open Access, Academia]
+  new: [Academia, Open Access]
+  needs_review: false
+  note: "Dropped Literature hint: the post is about the publishing experience (review times, editorial feedback, licensing), not literary content."
+- file: 2013-09-05-publication-terrorism-and-the-cold-war-in-thomas-pynchons-against-the-day-and-don-delillo-c2-80-c2-99s-underworld.md
+  title: "Publication: \"Terrorism and the Cold War in Thomas Pynchon's Against the Day and Don DeLillo's Underworld\""
+  old: [Literature, Thomas Pynchon, Academia, Publications, Output]
+  new: [Publications, Thomas Pynchon, Literature]
+  needs_review: false
+  note: "Literature retained alongside Thomas Pynchon because DeLillo's Underworld is substantively discussed."
+- file: 2013-09-09-work-on-open-access-technology-get-a-masters-degree-in-computer-science-funded-place.md
+  title: "Work on open access technology, get a masters degree in Computer Science: funded place"
+  old: [Technology, Open Access, Academia]
+  new: [Publishing Technology, Open Access]
+  needs_review: false
+  note: "Overrode Technology hint: the funded MSc is to build meTypeset/OJS scholarly XML typesetting tooling, squarely Publishing Technology."
+- file: 2013-09-10-is-what-i-do-digital-humanities.md
+  title: "Is what I do \"digital humanities\"?"
+  old: [Technology, Academia]
+  new: [Digital Humanities, Academia]
+  needs_review: false
+  note: "Overrode Technology hint: this post is a taxonomy example for Digital Humanities (DH as a field), paired with Academia for the critique-of-the-university angle."
+- file: 2013-09-18-publication-gatekeepers-in-a-digital-wasteland-the-author.md
+  title: "Publication: \"Gatekeepers in a digital wasteland\", The Author"
+  old: [Literature, Technology, Open Access, Academia, Publications, Output]
+  new: [Publications, Literature]
+  needs_review: false
+  note: "Announcement of a piece on literary value and publishing gatekeeping; Technology/Open Access hints are incidental to the content."
+- file: 2013-09-30-fixing-broken-spellcheck-in-thunderbird-24.md
+  title: "Fixing broken spellcheck in Thunderbird 24"
+  old: [Technology]
+  new: [Technology]
+  needs_review: false
+  note: ""
+- file: 2013-10-03-whats-open-got-to-do-with-it.md
+  title: "What's \"open\" got to do with it?"
+  old: [Technology, Open Access, Academia]
+  new: [Open Access, Academia]
+  needs_review: false
+  note: ""
+- file: 2013-10-21-how-ironic-are-the-open-access-irony-awards.md
+  title: "How ironic are the open access irony awards?"
+  old: [Technology, Open Access, Academia]
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2013-10-22-my-forthcoming-book-pynchon-and-philosophy-wittgenstein-foucault-and-adorno-palgrave-2014.md
+  title: "My forthcoming book: Pynchon and Philosophy: Wittgenstein, Foucault and Adorno (Palgrave, 2014)"
+  old: [Literature, Thomas Pynchon, Academia, Philosophy, Michel Foucault, Theodor Adorno, Ludwig Wittgenstein]
+  new: [Publications, Thomas Pynchon, Philosophy]
+  needs_review: false
+  note: ""
+- file: 2013-11-15-some-diagrams-of-jennifer-egan-novels.md
+  title: "Some diagrams of Jennifer Egan novels"
+  old: [Literature, Academia, Jennifer Egan]
+  new: [Literature, Academia]
+  needs_review: false
+  note: ""
+- file: 2013-11-16-three-reasons-why-i-think-journal-prestige-is-a-broken-system.md
+  title: "Three reasons why I think journal prestige is a broken system"
+  old: [Technology, Open Access, Academia]
+  new: [Academia, Open Access]
+  needs_review: false
+  note: ""
+- file: 2013-11-20-first-meeting-of-hefce-expert-reference-group-on-open-access-monographs.md
+  title: "First meeting of HEFCE Expert Reference Group on Open Access Monographs"
+  old: [Open Access]
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2013-11-26-gov-and-rcuk-responses-to-open-access-inquiry-eradicating-non-disclosure-clauses.md
+  title: "Gov and RCUK responses to Open Access Inquiry: eradicating non-disclosure clauses"
+  old: [Open Access, Academia]
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2013-12-19-publication-review-of-humanities-in-the-twenty-first-century-beyond-utility-and-markets.md
+  title: "Publication: Review of Humanities in the Twenty-First Century: Beyond Utility and Markets"
+  old: [Academia, Publications, Output]
+  new: [Publications, Higher Education]
+  needs_review: false
+  note: "Subject category set to Higher Education rather than the Academia hint: the reviewed book concerns the humanities' place against utility/market framings of the university (post tags also say Higher Education)."
+- file: 2013-12-20-dear-top-journal-1-year-and-4-months-to-review-is-too-long.md
+  title: "Dear \"top journal\": 1 year and 4 months to review is too long"
+  old: [Literature, Open Access, Academia]
+  new: [Academia]
+  needs_review: false
+  note: "Overrode Literature and Open Access hints: a withdrawal letter over a 16-month peer-review delay is publishing practice from the academic's side; the essay's literary subject and OA are incidental."
+- file: 2013-12-20-publication-utopia-fading-taxonomies-freedom-and-dissent-in-open-access-publishing.md
+  title: "Publication: Utopia Fading: Taxonomies, Freedom and Dissent in Open Access Publishing"
+  old: [Open Access, Academia, Publications, Output]
+  new: [Publications, Open Access]
+  needs_review: false
+  note: ""
+- file: 2013-12-27-why-im-a-fan-of-open-source-software-an-argument-by-anecdoteexample.md
+  title: "Why I'm a fan of open source software: An argument by anecdote/example"
+  old: [Technology, Linux]
+  new: [Technology, Linux]
+  needs_review: false
+  note: "Open-source advocacy anecdote spanning gadget hardware and a Linux desktop experience; not a Linux fix-it post, so Technology leads."
+- file: 2013-12-29-my-2013-academic-year-in-review.md
+  title: "My 2013 academic year in review"
+  old: [Personal, Academia]
+  new: [Personal, Academia]
+  needs_review: false
+  note: "Year-in-review that is substantially a professional review, so Academia added per rule."

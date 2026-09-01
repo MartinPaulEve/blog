@@ -1,0 +1,105 @@
+prompt_version: 1
+batch: batch-2007-1
+posts:
+- file: 2007-05-15-amendments-to-the-british-computer-misuse-act.md
+  title: "Amendments to the British Computer Misuse Act"
+  old: [Technology, InfoSec, Politics]
+  new: [Information Security, Politics]
+  needs_review: false
+  note: "Commentary on legislation criminalising the making/supplying of tools for computer misuse; security research meets law/civil liberties, so Politics as secondary."
+- file: 2007-05-15-bypass-asp-net-xss-protection-in-internet-explorer.md
+  title: "Bypass ASP.NET XSS Protection in Internet Explorer"
+  old: [Technology, InfoSec, .NET]
+  new: [Information Security]
+  needs_review: false
+  note: "XSS filter-bypass technique note; the .NET hint refers to the target filter, not a software project, so Programming is not warranted."
+- file: 2007-05-15-evaluating-the-security-of-the-jsonrequest-object.md
+  title: "Evaluating the security of the JSONRequest object"
+  old: [Technology, InfoSec]
+  new: [Information Security]
+  needs_review: false
+  note: ""
+- file: 2007-05-15-firefox-xbl-js-loader-v1-0.md
+  title: "Firefox XBL-JS Loader v1.0"
+  old: [Technology, InfoSec]
+  new: [Information Security]
+  needs_review: false
+  note: ""
+- file: 2007-05-15-httponly-cookie-detection.md
+  title: "httpOnly Cookie Detection"
+  old: [Technology, InfoSec]
+  new: [Information Security]
+  needs_review: false
+  note: ""
+- file: 2007-05-15-javascript-eval-string-fromcharcode-encoder.md
+  title: "JavaScript eval String.fromCharCode encoder"
+  old: [Technology, InfoSec]
+  new: [Information Security]
+  needs_review: false
+  note: ""
+- file: 2007-05-15-javascript-referer-scripts-xss-injection.md
+  title: "JavaScript Referer Scripts XSS Injection"
+  old: [Technology, InfoSec]
+  new: [Information Security]
+  needs_review: false
+  note: ""
+- file: 2007-05-16-heise-security-reports-backdoor-in-artmedic-cms.md
+  title: "heise Security reports backdoor in Artmedic CMS"
+  old: [Technology, InfoSec]
+  new: [Information Security]
+  needs_review: false
+  note: ""
+- file: 2007-05-16-moseb-month-of-search-engine-bugs.md
+  title: "MOSEB month of search engine bugs"
+  old: [Technology, InfoSec]
+  new: [Information Security]
+  needs_review: false
+  note: ""
+- file: 2007-05-16-php-ids.md
+  title: "PHP IDS"
+  old: [Technology, InfoSec, PHP]
+  new: [Information Security]
+  needs_review: false
+  note: "About a PHP intrusion-detection system as a security tool; the PHP hint does not make this a Programming post."
+- file: 2007-05-16-xss-cheat-sheet.md
+  title: "XSS Cheat Sheet"
+  old: [Technology, InfoSec]
+  new: [Information Security]
+  needs_review: false
+  note: ""
+- file: 2007-05-16-xss-in-excess-a-learn-xss-tool.md
+  title: 'XSS in eXceSS: A "learn-XSS tool"'
+  old: [Technology, InfoSec]
+  new: [Information Security]
+  needs_review: false
+  note: ""
+- file: 2007-05-19-xsf-cross-site-flashing.md
+  title: "XSF: Cross Site Flashing"
+  old: [Technology, InfoSec]
+  new: [Information Security]
+  needs_review: false
+  note: ""
+- file: 2007-05-20-rsnake-jeremiah-grossmans-book-released.md
+  title: "RSnake + Jeremiah Grossman's Book Released"
+  old: [Technology, InfoSec]
+  new: [Information Security]
+  needs_review: false
+  note: "Announcement of a third-party XSS book, not the author's own work, so Publications does not apply."
+- file: 2007-05-21-bypassing-same-origin-policy-using-mash-ups.md
+  title: "Bypassing Same Origin Policy using Mash-Ups"
+  old: [Technology, InfoSec]
+  new: [Information Security]
+  needs_review: false
+  note: ""
+- file: 2007-05-23-string-fromcharcode-encoder.md
+  title: "String.fromCharCode Encoder"
+  old: [Technology, InfoSec]
+  new: [Information Security]
+  needs_review: false
+  note: ""
+- file: 2007-05-23-xss-tutorial.md
+  title: "XSS Tutorial"
+  old: [Technology, InfoSec]
+  new: [Information Security]
+  needs_review: false
+  note: "A security tutorial that uses PHP/JS for illustration; primary framing is XSS exploitation/defence, so Information Security alone."

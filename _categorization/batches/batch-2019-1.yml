@@ -1,0 +1,135 @@
+prompt_version: 1
+batch: batch-2019-1
+posts:
+- file: 2019-01-17-comments-on-the-interim-royal-historical-society-response-to-plan-s.md
+  title: "Comments on the interim Royal Historical Society response to Plan S"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2019-01-21-my-draft-plan-s-implementation-guidance-feedback.md
+  title: "My Draft Plan S Implementation Guidance Feedback"
+  old: []
+  new: [Open Access, Copyright and Licensing]
+  needs_review: false
+  note: "Primarily Plan S/OA policy feedback; substantial section on CC BY, moral rights, and defamation warrants the licensing category."
+- file: 2019-01-23-additional-points-in-my-plan-s-response.md
+  title: "Additional points in my Plan S response"
+  old: []
+  new: [Open Access, Copyright and Licensing]
+  needs_review: false
+  note: "Plan S response points; roughly half the post concerns CC BY 4.0, moral rights waiver, and defamation."
+- file: 2019-01-24-a-little-more-on-defamation-and-cc-by.md
+  title: "A little more on defamation and CC BY"
+  old: []
+  new: [Copyright and Licensing, Open Access]
+  needs_review: false
+  note: ""
+- file: 2019-01-31-BBK-ref.md
+  title: "Birkbeck updates draft REF code of practice to specify that it will not submit anyone on compulsory redundancy, despite not having any such redundancies anyway"
+  old: []
+  new: [Higher Education]
+  needs_review: false
+  note: ""
+- file: 2019-02-07-how-to-read-a-blank-page.md
+  title: "How to read a (blank) page: on redaction in contemporary fiction"
+  old: []
+  new: [Publications, Literature]
+  needs_review: false
+  note: ""
+- file: 2019-02-18-running-unoconv-on-ubuntu-1804-and-libreoffice-6.md
+  title: "Running unoconv on Ubuntu 18.04 and Libreoffice 6"
+  old: []
+  new: [Linux]
+  needs_review: false
+  note: "Linux fix-it post (meTypeset is only the motivating context), so Linux alone per the co-occurrence rules."
+- file: 2019-03-16-digital-ways-of-looking.md
+  title: "(Digital) Ways of Looking"
+  old: []
+  new: [Digital Humanities, Literature]
+  needs_review: false
+  note: ""
+- file: 2019-03-29-on-music-tici-taci-and-a-new-release.md
+  title: "On music, life, Tici Taci, and a new release"
+  old: []
+  new: [Music, Health, Personal]
+  needs_review: false
+  note: "Taxonomy example for Music; the stroke/sepsis/hearing-loss narrative is substantive lived-experience content, hence Health and Personal."
+- file: 2019-04-06-a-missing-audio-hardware-device.md
+  title: "A missing audio hardware device"
+  old: []
+  new: [Music, Technology]
+  needs_review: false
+  note: ""
+- file: 2019-04-09-learned-societies-and-plan-s-report.md
+  title: "Learned Societies Plan S report and a note on double dipping"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2019-04-18-how-long-does-it-take-to-examine-a-phd-thesis.md
+  title: "How long does it take to examine a PhD thesis?"
+  old: []
+  new: [Academia]
+  needs_review: false
+  note: ""
+- file: 2019-04-24-the-supervisory-frustrations-of-ahrc-dtps.md
+  title: "The supervisory frustrations of AHRC Doctoral Training Partnerships"
+  old: []
+  new: [Academia, Higher Education]
+  needs_review: false
+  note: "Chiefly about supervision and PhD applicants; the structural critique of AHRC DTP funding adds Higher Education."
+- file: 2019-04-26-running-the-presonus-quantum-interfaces-on-windows-7.md
+  title: "Running the PreSonus Quantum interfaces on Windows 7"
+  old: []
+  new: [Music, Technology]
+  needs_review: false
+  note: "Windows driver hack for a music-studio audio interface; matches the Crumar Bit99 calibration pattern."
+- file: 2019-04-26-the-learning-experience-out-today-on-tici-taci-and-my-book-has-gone-to-print-at-stanford-university-press.md
+  title: "The Learning Experience out today on Tici Taci and my book has gone to print at Stanford University Press"
+  old: []
+  new: [Music, Publications]
+  needs_review: false
+  note: ""
+- file: 2019-05-21-text-of-digital-library-futures-keynote-cambridge-21st-may-2019.md
+  title: "Text of Digital Library Futures keynote (Cambridge, 21st May 2019)"
+  old: []
+  new: [Digital Preservation, Open Access, Conferences]
+  needs_review: false
+  note: "Keynote text on non-print legal deposit, preservation economics, and access; Conferences added as it is a delivered talk."
+- file: 2019-05-23-academic-prestige-and-institutional-solvency.md
+  title: "Thoughts on academic prestige and institutional solvency"
+  old: []
+  new: [Academia, Open Access]
+  needs_review: false
+  note: ""
+- file: 2019-05-24-instrumental-reading.md
+  title: "Instrumental reading"
+  old: []
+  new: [Academia, Literature]
+  needs_review: false
+  note: ""
+- file: 2019-05-28-how-do-you-describe-this-kind-of-illness.md
+  title: "How do you describe this kind of illness?"
+  old: []
+  new: [Health, Personal]
+  needs_review: false
+  note: ""
+- file: 2019-06-01-what-size-should-my-music-studio-be.md
+  title: "What size should my music studio be?"
+  old: []
+  new: [Music, Programming]
+  needs_review: false
+  note: "Studio acoustics question answered with the author's own open-source acousticsize Python tool."
+- file: 2019-06-04-close-reading-with-computers-is-published-today-and-next-projects.md
+  title: "Close Reading with Computers is Published Today and Next Projects"
+  old: []
+  new: [Publications, Digital Humanities]
+  needs_review: false
+  note: ""
+- file: 2019-06-07-old-traditions-and-new-technologies.md
+  title: "Old Traditions and New Technologies"
+  old: []
+  new: [Publications, Open Access, Scholarly Communications]
+  needs_review: false
+  note: "Announcement/TOC of the edited MIT Press volume on open scholarly communications."

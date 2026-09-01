@@ -1,0 +1,147 @@
+prompt_version: 1
+batch: batch-2015-1
+posts:
+- file: 2015-01-15-metrics-in-the-humanities.md
+  title: "Metrics in the Arts and Humanities"
+  old: [Open Access, Academia, Conference Papers]
+  new: [Open Access, Academia, Conferences]
+  needs_review: false
+  note: ""
+- file: 2015-01-18-stephen-curry-stephen_curry-reviews-open-access-and-the-humanities.md
+  title: "Stephen Curry (@Stephen_Curry) reviews Open Access and the Humanities"
+  old: [Open Access, Academia]
+  new: [Open Access, Publications]
+  needs_review: false
+  note: "Dropped the Academia hint: the post reposts a third-party review of my published book, so it is reception of a publication (Publications) about open access."
+- file: 2015-01-19-foucauldian-methodologies-for-considering-emerging-archives.md
+  title: "Foucauldian methodologies for considering emerging archives?"
+  old: [Literature, Academia, Philosophy, Michel Foucault]
+  new: [Philosophy, Literature]
+  needs_review: false
+  note: "Dropped the Academia hint: the content is Foucauldian genealogy (Koopman) applied to contemporary fiction studies, not academic life or practice."
+- file: 2015-01-20-a-web-of-rights-roundtable-and-conversation-at-the-british-library-feb-19th-2015-bldigital.md
+  title: '"A Web of Rights": Roundtable and Conversation at the British Library (Feb 19th, 2015) #bldigital'
+  old: [Technology, Open Access, Politics, Academia]
+  new: [Conferences, Politics, Technology]
+  needs_review: false
+  note: "Event announcement, so Conferences plus subject. Subject is digital civil liberties (Snowden, Magna Carta, rights online) -> Politics and Technology; dropped the Open Access and Academia hints as the content does not discuss them."
+- file: 2015-01-20-being-called-to-account-tax-considerations-for-uk-based-collectively-funded-open-access-publishers.md
+  title: "Being called to account: tax considerations for UK-based collectively-funded open access publishers"
+  old: [Open Access]
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2015-01-22-the-hefce-report-on-open-access-monographs-some-reflections.md
+  title: "The HEFCE report on Open Access Monographs: some reflections"
+  old: [Open Access]
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2015-01-31-on-open-access-books-and-double-dipping.md
+  title: "On open-access books and “double dipping”"
+  old: [Open Access]
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2015-02-06-financing-for-free-driven-gold-open-access.md
+  title: "Financing for fee-driven gold open access"
+  old: [Open Access, Academia]
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2015-02-14-how-can-elsevier-claim-that-its-oa-revenue-stream-is-separate-from-subscriptions-in-a-hybrid-environment.md
+  title: "How can Elsevier claim that its OA revenue stream is separate from subscriptions in a hybrid environment?"
+  old: [Technology, Open Access, Academia]
+  new: [Open Access]
+  needs_review: false
+  note: "Dropped the Technology and Academia hints: the content is entirely OA business models and hybrid double dipping."
+- file: 2015-02-15-the-anxiety-of-academia-academics-legitimation-and-discipline-in-contemporary-metafiction.md
+  title: "The Anxiety of Academia: Academics, Legitimation and Discipline in Contemporary Metafiction"
+  old: [Literature]
+  new: [Literature]
+  needs_review: false
+  note: ""
+- file: 2015-02-22-chapter-two-self-canonisation-literary-historical-fictions-and-aesthetic-critique.md
+  title: "Chapter Two: Self-Canonisation, Literary-Historical Fictions and Aesthetic Critique"
+  old: [Literature]
+  new: [Literature]
+  needs_review: false
+  note: ""
+- file: 2015-02-27-ethics-of-a-journals-surplus.md
+  title: "Ethics of a Journal's Surplus"
+  old: [Publishing, Open Access]
+  new: [Open Access]
+  needs_review: false
+  note: "Dropped the Scholarly Communications hint (from legacy 'Publishing'): the letter is an OA-advocacy critique of for-profit journal economics, not infrastructure/metadata."
+- file: 2015-02-28-chapter-three-political-critique-and-the-university-in-roberto-bolanos-2666.md
+  title: "Chapter Three: Political Critique and the University in Roberto Bolaño's 2666"
+  old: [Literature]
+  new: [Literature]
+  needs_review: false
+  note: ""
+- file: 2015-03-01-chapter-four-academic-fiction.md
+  title: "Chapter Four: <s>Academic</s> Fiction"
+  old: [Literature]
+  new: [Literature]
+  needs_review: false
+  note: ""
+- file: 2015-03-02-object-thinking-systems-description-languages-and-the-future-of-the-book.md
+  title: "Object Thinking, Systems Description Languages and the Future of the Book"
+  old: [Open Access, Academia]
+  new: [Programming, Publishing Technology]
+  needs_review: false
+  note: "Overrode hints (Open Access, Academia): the post is about a programming/OO-design book and how object modelling shapes the technological future of the digital book; OA is never discussed."
+- file: 2015-03-05-publication-co-operating-for-gold-open-access-without-apcs.md
+  title: "Publication: Co-operating for gold open access without APCs"
+  old: [Publications]
+  new: [Publications, Open Access]
+  needs_review: false
+  note: ""
+- file: 2015-04-05-publishers-serving-authors-or-readers.md
+  title: "Publishers: Serving Authors or Readers?"
+  old: [Personal]
+  new: [Open Access]
+  needs_review: false
+  note: "Overrode the Personal hint: the content is entirely about gold OA economics and whom publishers serve; nothing personal in it."
+- file: 2015-04-12-it-is-never-a-good-time-to-start-a-new-journal.md
+  title: "It is never a good time to start a new journal"
+  old: []
+  new: [Academia]
+  needs_review: true
+  note: "Quotation-only post (Hawkes's 1987 Textual Practice editorial) about founding a journal amid a beleaguered humanities; filed under Academia (publishing practice from the academic's side), though its implicit context is the OLH journal launches."
+- file: 2015-04-15-in-the-beginning-was-the-word.md
+  title: "In the beginning was the Word"
+  old: []
+  new: [Publishing Technology]
+  needs_review: false
+  note: ""
+- file: 2015-04-23-what-does-the-academic-monograph-market-look-like-for-a-new-open-access-publisher.md
+  title: "What does the academic monograph market look like for a new open-access publisher?"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2015-04-24-gearing-up-for-olh-in-the-uk-and-the-resolution-to-the-vat-question.md
+  title: "Gearing up for OLH in the UK and the resolution to the VAT question"
+  old: [open access, OLH]
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2015-05-01-moving-to-birkbeck.md
+  title: "Moving to Birkbeck"
+  old: [Personal]
+  new: [Personal]
+  needs_review: false
+  note: ""
+- file: 2015-05-04-scalability-sustainability-and-market-responsiveness-in-oa.md
+  title: "Scalability, Sustainability, Market Responsiveness and Mandates in OA"
+  old: [open access, books]
+  new: [Open Access]
+  needs_review: false
+  note: "The legacy 'books' value remaps to Publications, but here it means monographs as a subject of OA economics, not an announcement of my own published work; dropped it."
+- file: 2015-05-10-some-thoughts-on-repealing-the-human-rights-act.md
+  title: "Some thoughts on repealing the Human Rights Act"
+  old: [politics, personal]
+  new: [Politics]
+  needs_review: false
+  note: "Dropped the Personal hint: pure political commentary on the HRA (this post is a taxonomy example for Politics)."

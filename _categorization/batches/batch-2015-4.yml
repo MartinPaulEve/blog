@@ -1,0 +1,135 @@
+prompt_version: 1
+batch: batch-2015-4
+posts:
+- file: 2015-11-29-he-green-paper-response-to-question-10.md
+  title: "HE Green Paper: response to question 10"
+  old: [HE, green paper, politics]
+  new: [Higher Education]
+  needs_review: false
+  note: "Green Paper series rule: Higher Education alone; 'politics' hint dropped."
+- file: 2015-11-29-he-green-paper-response-to-question-9.md
+  title: "HE Green Paper: response to question 9"
+  old: [HE, green paper, politics]
+  new: [Higher Education]
+  needs_review: false
+  note: "Green Paper series rule: Higher Education alone; 'politics' hint dropped."
+- file: 2015-12-01-he-green-paper-response-to-question-11.md
+  title: "HE Green Paper: response to question 11"
+  old: [HE, green paper, politics]
+  new: [Higher Education]
+  needs_review: false
+  note: "Green Paper series rule: Higher Education alone; 'politics' hint dropped."
+- file: 2015-12-01-he-green-paper-response-to-question-12.md
+  title: "HE Green Paper: response to question 12"
+  old: [HE, green paper, politics]
+  new: [Higher Education]
+  needs_review: false
+  note: "Green Paper series rule: Higher Education alone; 'politics' hint dropped."
+- file: 2015-12-01-he-green-paper-response-to-question-13.md
+  title: "HE Green Paper: response to question 13"
+  old: [HE, green paper, politics]
+  new: [Higher Education]
+  needs_review: false
+  note: "Green Paper series rule: Higher Education alone; 'politics' hint dropped."
+- file: 2015-12-02-he-green-paper-response-to-question-14.md
+  title: "HE Green Paper: response to question 14"
+  old: [HE, green paper, politics]
+  new: [Higher Education]
+  needs_review: false
+  note: "Green Paper series rule: Higher Education alone; 'politics' hint dropped."
+- file: 2015-12-06-he-green-paper-response-to-question-15.md
+  title: "HE Green Paper: response to question 15"
+  old: [HE, green paper, politics]
+  new: [Higher Education]
+  needs_review: false
+  note: "Green Paper series rule: Higher Education alone; 'politics' hint dropped."
+- file: 2015-12-06-he-green-paper-response-to-question-16.md
+  title: "HE Green Paper: response to question 16"
+  old: [HE, green paper, politics]
+  new: [Higher Education]
+  needs_review: false
+  note: "Green Paper series rule: Higher Education alone; 'politics' hint dropped."
+- file: 2015-12-06-he-green-paper-response-to-question-17.md
+  title: "HE Green Paper: response to question 17"
+  old: [HE, green paper, politics]
+  new: [Higher Education]
+  needs_review: false
+  note: "Green Paper series rule: Higher Education alone; 'politics' hint dropped."
+- file: 2015-12-10-he-green-paper-response-to-question-18.md
+  title: "HE Green Paper: response to question 18"
+  old: [HE, green paper, politics]
+  new: [Higher Education]
+  needs_review: false
+  note: "Green Paper series rule: Higher Education alone; 'politics' hint dropped."
+- file: 2015-12-11-he-green-paper-response-to-question-19.md
+  title: "HE Green Paper: response to question 19"
+  old: [HE, green paper, politics]
+  new: [Higher Education]
+  needs_review: false
+  note: "Green Paper series rule: Higher Education alone; 'politics' hint dropped."
+- file: 2015-12-11-he-green-paper-response-to-question-20.md
+  title: "HE Green Paper: response to question 20"
+  old: [HE, green paper, politics]
+  new: [Higher Education]
+  needs_review: false
+  note: "Green Paper series rule: Higher Education alone; 'politics' hint dropped."
+- file: 2015-12-11-he-green-paper-response-to-question-21.md
+  title: "HE Green Paper: response to question 21"
+  old: [HE, green paper, politics]
+  new: [Higher Education]
+  needs_review: false
+  note: "Green Paper series rule: Higher Education alone; 'politics' hint dropped."
+- file: 2015-12-14-auto-renewing-ssl-certificates-with-letsencrypt.md
+  title: "Auto-renewing SSL Certificates with Let'sEncrypt"
+  old: [tech, SSL]
+  new: [Information Security, Linux]
+  needs_review: false
+  note: "Dropped the 'tech' (Technology) hint: SSL/certificate content maps to Information Security, and the how-to is a Linux/Apache/cron server fix, which is more specific than Technology."
+- file: 2015-12-16-he-green-paper-response-to-question-22.md
+  title: "HE Green Paper: response to question 22"
+  old: [HE, green paper, politics]
+  new: [Higher Education]
+  needs_review: false
+  note: "Green Paper series rule: Higher Education alone; 'politics' hint dropped."
+- file: 2015-12-17-my-2015-academic-year-in-review.md
+  title: "My 2015 academic year in review"
+  old: [personal, academia]
+  new: [Personal, Academia]
+  needs_review: false
+  note: "Year-in-review rule: Personal, plus Academia because the post is substantially a professional review (publications, talks, job move)."
+- file: 2015-12-24-he-green-paper-response-to-question-24.md
+  title: "HE Green Paper: response to question 24"
+  old: [HE, green paper, politics]
+  new: [Higher Education]
+  needs_review: false
+  note: "Green Paper series rule: Higher Education alone; 'politics' hint dropped."
+- file: 2015-12-24-visualizing-textual-variancegenetics-with-sankeyvariant.md
+  title: "Visualizing textual variance/genetics with SankeyVariant"
+  old: [software, digital humanities]
+  new: [Digital Humanities, Programming]
+  needs_review: false
+  note: ""
+- file: 2015-12-28-how-to-do-a-hard-reset-on-a-jaybird-reign.md
+  title: "How to do a hard reset on a Jaybird Reign"
+  old: [tech]
+  new: [Technology]
+  needs_review: false
+  note: ""
+- file: 2015-12-28-internal-review-of-foi201525797.md
+  title: "Internal review of FOI2015/25797"
+  old: [FOI, HE, Green Paper]
+  new: [Politics, Higher Education]
+  needs_review: false
+  note: "An FOI internal-review letter (FOI sits under Politics) whose subject is HE policy (REF metrics, BIS/Elsevier meetings); not itself part of the Green Paper response series, so the HE-alone rule does not apply."
+- file: 2015-12-31-he-green-paper-response-to-question-25.md
+  title: "HE Green Paper: response to question 25"
+  old: [HE, green paper, politics]
+  new: [Higher Education]
+  needs_review: false
+  note: "Green Paper series rule: Higher Education alone; 'politics' hint dropped."
+- file: 2015-12-31-he-green-paper-response-to-question-26.md
+  title: "HE Green Paper: response to question 26"
+  old: [HE, green paper, politics]
+  new: [Higher Education]
+  needs_review: false
+  note: "Green Paper series rule: Higher Education alone; 'politics' hint dropped."

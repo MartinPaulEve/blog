@@ -1,0 +1,147 @@
+prompt_version: 1
+batch: batch-2020-1
+posts:
+- file: 2020-01-03-accelerating-synology-raid-6-reshapes.md
+  title: "Accelerating Synology RAID 6 (SHR-2) reshapes"
+  old: []
+  new: [Linux]
+  needs_review: false
+  note: ""
+- file: 2020-01-12-the-tf-buyout-of-f1000-neutralises-the-plan-s-threat.md
+  title: "The T&F buyout of F1000 neutralizes the Plan S threat infrastructures"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2020-01-30-a-hypothesis-kernel-function-density-estimation-and-graphing-may-predict-literary-critical-attention.md
+  title: "A hypothesis: kernel function density estimation and graphing may predict literary critical attention"
+  old: []
+  new: [Digital Humanities, Thomas Pynchon]
+  needs_review: false
+  note: "Computational-reading hypothesis grounded in the author's TextPlot modelling of Gravity's Rainbow; no substantive non-Pynchon literature discussed, so no Literature per co-occurrence rule."
+- file: 2020-02-11-writing-a-data-management-plan.md
+  title: "Writing a data management plan"
+  old: []
+  new: [Academia]
+  needs_review: false
+  note: ""
+- file: 2020-02-13-key-points-from-the-ukri-open-access-review-consultation-document.md
+  title: "Key Points from The UKRI Open Access Review Consultation Document"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2020-02-14-open-access-monographs-and-the-ref-after-ref-2021.md
+  title: "Open access monographs and the REF-after-REF 2021"
+  old: []
+  new: [Open Access, Higher Education]
+  needs_review: false
+  note: ""
+- file: 2020-02-27-my-draft-response-to-the-ukri-oa-consultation.md
+  title: "My draft response to the UKRI OA consultation"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2020-03-14-i4oc-open-citations-implementation-in-janeway.md
+  title: "I4OC open citations implementation in Janeway"
+  old: []
+  new: [Publishing Technology, Scholarly Communications]
+  needs_review: false
+  note: ""
+- file: 2020-03-26-on-a-challenge-of-print-subsidy-for-oa.md
+  title: "On a challenge of print subsidy for OA"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2020-03-29-books-im-working-on.md
+  title: "Academic books I'm writing"
+  old: []
+  new: [Academia, Personal]
+  needs_review: false
+  note: ""
+- file: 2020-04-07-close-reading-with-computers-is-now-open-access-at-stanford-university-press.md
+  title: "Close Reading with Computers is now open access at Stanford University Press"
+  old: []
+  new: [Open Access, Publications, Digital Humanities]
+  needs_review: false
+  note: ""
+- file: 2020-04-09-on-springer-and-apcs-in-the-wild.md
+  title: "On Springer and APCs 'in the wild'"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2020-04-09-subscribe-to-open-and-plan-s.md
+  title: "Subscribe to Open and Plan S"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2020-04-10-zotero-and-open-access-books.md
+  title: "Zotero and auto-downloading open access books"
+  old: []
+  new: [Scholarly Communications, Programming]
+  needs_review: false
+  note: "Chiefly about embedded metadata standards (COinS, Dublin Core, ISBN lookup) plus writing a custom Zotero translator in JavaScript; OA books are the context rather than the subject."
+- file: 2020-04-19-notes-on-susan-leigh-stars-the-ethnography-of-infrastructure.md
+  title: "Notes on Susan Leigh Star's 'The Ethnography of Infrastructure'"
+  old: []
+  new: [Scholarly Communications, Open Access]
+  needs_review: false
+  note: "COPIM reading-group notes applying Star's infrastructure theory to scholarly communication infrastructures and learned-society funding."
+- file: 2020-04-20-notes-on-stuart-lawsons-the-political-histories-of-uk-public-libraries-and-access-to-knowledge.md
+  title: "On 'The Political Histories of UK Public Libraries and Access to Knowledge'"
+  old: []
+  new: [Open Access, Politics]
+  needs_review: false
+  note: "Reading notes on a chapter about the political history of UK public libraries (class, colonialism, state policy) framed as the longer history of open access."
+- file: 2020-04-22-the-edited-collection-and-its-discontents.md
+  title: "The Edited Collection and its Discontents"
+  old: []
+  new: [Academia]
+  needs_review: false
+  note: ""
+- file: 2020-04-23-museums-continue-to-make-third-party-licensing-for-academic-scholarship-a-total-pain.md
+  title: "Museums continue to make third-party licensing for academic scholarship a total pain"
+  old: []
+  new: [Copyright and Licensing, Open Access]
+  needs_review: false
+  note: ""
+- file: 2020-04-24-why-academic-bookstores.md
+  title: "Why academic bookstores?"
+  old: []
+  new: [Open Access, Higher Education]
+  needs_review: false
+  note: "Book review read explicitly through the lens of OA policy; Higher Education for the substantive TEF/HEFCE policy corrections."
+- file: 2020-04-26-getting-the-gist-of-reading.md
+  title: "Getting the Gist of Reading"
+  old: []
+  new: [Literature]
+  needs_review: false
+  note: ""
+- file: 2020-04-28-is-the-money-in-the-system.md
+  title: "Is 'the money in the system'?"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2020-05-04-on-participatory-design-in-library-architecture.md
+  title: "On participatory design in library architecture"
+  old: []
+  new: [Open Access, Scholarly Communications]
+  needs_review: false
+  note: "COPIM reading-group notes on library design, with the substantive payoff being analogies for OA models and scholarly infrastructure design."
+- file: 2020-05-09-on-critical-design-and-designing-for-provocation.md
+  title: "On critical design and designing for provocation"
+  old: []
+  new: [Philosophy, Open Access]
+  needs_review: true
+  note: "COPIM reading of an HCI/design-research paper on operationalizing critical theory; Philosophy is the closest fit for the substantive critical-theory discussion (Frankfurt School, Kantian critique), but no category cleanly covers design research."
+- file: 2020-05-09-transformative-agreements-in-the-time-of-covid-19.md
+  title: "Transformative agreements in the time of COVID-19"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""

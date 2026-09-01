@@ -1,0 +1,141 @@
+prompt_version: 1
+batch: batch-2021-2
+posts:
+- file: 2021-07-05-abandoning-restrictions-should-not-mean-abandoning-the-vulnerable-we-need-policies-to-help-those-who-remain-at-risk.md
+  title: "Abandoning restrictions should not mean abandoning the vulnerable. We need policies to help those who remain at risk."
+  old: []
+  new: [Health, Politics]
+  needs_review: false
+  note: ""
+- file: 2021-07-18-augar-the-humanities-covid.md
+  title: "Augar, The Humanities, Covid: Gazing into the Crystal Ball"
+  old: []
+  new: [Higher Education]
+  needs_review: false
+  note: ""
+- file: 2021-07-23-its-time-we-dropped-agamben.md
+  title: "It's time we dropped Agamben"
+  old: []
+  new: [Philosophy, Politics]
+  needs_review: false
+  note: ""
+- file: 2021-07-28-mesh-on-a-budget-converting-rbr50-to-rbs50-units-and-using-lbr20-for-4g-fallback.md
+  title: "Mesh on a budget: converting RBR50 to RBS50 units and using LBR20 for 4G fallback"
+  old: []
+  new: [Technology]
+  needs_review: false
+  note: ""
+- file: 2021-08-02-some-incomplete-notes-on-les-encres-noires-au-moyen-âge.md
+  title: "Some incomplete notes on Les Encres noires au Moyen Âge"
+  old: []
+  new: [Literature]
+  needs_review: true
+  note: "Reading notes on a scholarly history of medieval black inks (book history/material texts). No taxonomy category covers book history; Literature is the nearest home for humanistic reading notes, but it is not literary criticism."
+- file: 2021-08-07-notes-on-nicholas-gaskills-chromographia-american-literature-and-the-modernization-of-color.md
+  title: "Notes on Nicholas Gaskill's Chromographia: American Literature and the Modernization of Color"
+  old: []
+  new: [Literature]
+  needs_review: false
+  note: ""
+- file: 2021-08-19-thomas-pynchon-from-s-gerät-to-y-gerät.md
+  title: "Thomas Pynchon, from S-Gerät to Y-Gerät"
+  old: []
+  new: [Thomas Pynchon]
+  needs_review: false
+  note: ""
+- file: 2021-08-20-a-bibliography-on-the-interestingim-interested-in.md
+  title: "A Bibliography on \"The Interesting\"/\"I'm Interested In\""
+  old: []
+  new: [Academia, Philosophy]
+  needs_review: false
+  note: ""
+- file: 2021-08-20-replacing-openvpn-with-wireguard-including-on-synology-devices.md
+  title: "Replacing OpenVPN with Wireguard, including on Synology devices"
+  old: []
+  new: [Technology]
+  needs_review: false
+  note: ""
+- file: 2021-08-23-on-programminglanguages.md
+  title: "On programming/languages"
+  old: []
+  new: [Digital Humanities, Programming]
+  needs_review: false
+  note: ""
+- file: 2021-09-04-paper-thin-moving-on-to-chapter-four.md
+  title: "Paper Thin: moving on to Chapter Four and seven propositions"
+  old: []
+  new: [Academia, Digital Humanities]
+  needs_review: false
+  note: ""
+- file: 2021-09-08-why-lower-tier-journals-might-contain-better-work.md
+  title: "Why 'Lower Tier' Journals Might Contain Better Work"
+  old: []
+  new: [Academia]
+  needs_review: false
+  note: ""
+- file: 2021-09-23-the-proliferation-of-business-models-for-open-access-books.md
+  title: "The proliferation of business models for open-access books"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2021-10-18-headless-pdf-printing-in-chrome-when-the-standard-timeout-isnt-enough.md
+  title: "Headless PDF printing in Chrome: when the standard timeout isn't enough"
+  old: []
+  new: [Programming]
+  needs_review: false
+  note: ""
+- file: 2021-11-20-citing-pirate-artifacts.md
+  title: "Citing Pirate Artifacts"
+  old: []
+  new: [Piracy and Shadow Libraries, Academia]
+  needs_review: false
+  note: ""
+- file: 2021-12-04-all-ten-of-my-books-now-are-or-will-be-when-published-open-access.md
+  title: "All ten of my books now are (or will be when published) open access"
+  old: []
+  new: [Open Access, Personal]
+  needs_review: false
+  note: ""
+- file: 2021-12-06-what-is-the-relationship-between-legal-form-governance-and-ethics.md
+  title: "What is the relationship between legal form, governance, and ethics?"
+  old: []
+  new: [Open Access, Scholarly Communications]
+  needs_review: false
+  note: ""
+- file: 2021-12-09-my-2021-year-in-review.md
+  title: "My 2021 year in review"
+  old: []
+  new: [Personal, Academia]
+  needs_review: false
+  note: ""
+- file: 2021-12-10-what-if-downloads-are-not-actually-non-rivalrous.md
+  title: "What if downloads are not actually non-rivalrous?"
+  old: []
+  new: [Philosophy, Technology]
+  needs_review: false
+  note: ""
+- file: 2021-12-11-on-life-death-dignity-and-dignitas.md
+  title: "On life, death, dignity, and Dignitas"
+  old: []
+  new: [Personal, Health]
+  needs_review: false
+  note: ""
+- file: 2021-12-11-on-phd-vivas-and-being-a-supervisor.md
+  title: "On PhD vivas and being a supervisor"
+  old: []
+  new: [Academia]
+  needs_review: false
+  note: ""
+- file: 2021-12-15-today-is-the-publication-of-my-eighth-book-warez-the-infrastructure-and-aesthetics-of-piracy.md
+  title: "Today marks the publication of my eighth book: Warez: The Infrastructure and Aesthetics of Piracy"
+  old: []
+  new: [Publications, Piracy and Shadow Libraries]
+  needs_review: false
+  note: ""
+- file: 2021-12-16-on-informed-consent-and-open-licensing.md
+  title: "On informed consent and open licensing"
+  old: []
+  new: [Copyright and Licensing, Open Access]
+  needs_review: false
+  note: ""

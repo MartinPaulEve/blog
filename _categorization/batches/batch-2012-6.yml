@@ -1,0 +1,123 @@
+prompt_version: 1
+batch: batch-2012-6
+posts:
+- file: 2012-10-22-the-grim-phoenix-the-new-challenges-for-open-access.md
+  title: "The Grim Phoenix: The New Challenges for Open Access"
+  old: [Technology, Open Access, Academia]
+  new: [Open Access, Higher Education]
+  needs_review: false
+  note: "Dropped Technology/Academia hints: post is OA policy (Finch, APCs) with substantial REF/assessment and research-vs-teaching institutional streaming content, which is Higher Education."
+- file: 2012-10-24-open-journal-systems-now-supports-archiving-with-clockss-out-of-the-box.md
+  title: "Open Journal Systems now supports archiving with CLOCKSS out of the box"
+  old: [Technology, Open Access, Academia, Output]
+  new: [Publishing Technology, Digital Preservation]
+  needs_review: false
+  note: "Overrode hints: this is an OJS code patch (publishing tooling) enabling CLOCKSS dark-archive manifests (preservation); not OA policy and 'Output' here is not a publication announcement."
+- file: 2012-10-26-notes-on-adornos-the-essay-as-form.md
+  title: "Notes on Adorno's \"The Essay as Form\""
+  old: [Academia, Philosophy, Theodor Adorno]
+  new: [Philosophy]
+  needs_review: false
+  note: ""
+- file: 2012-11-01-cfp-feminism-influence-inheritance.md
+  title: "CFP: Feminism;; Influence;; Inheritance"
+  old: [Literature, Academia]
+  new: [Conferences, Literature]
+  needs_review: false
+  note: "CFP rule: Conferences plus the subject category (feminism in literary studies)."
+- file: 2012-11-01-on-academic-blogging.md
+  title: "On Academic Blogging"
+  old: [Technology, Academia]
+  new: [Academia]
+  needs_review: false
+  note: "Dropped Technology hint: academic blogging as scholarly practice is squarely Academia."
+- file: 2012-11-02-more-on-ojs-and-clockss.md
+  title: "More on OJS and CLOCKSS"
+  old: [Technology, Open Access, Academia]
+  new: [Publishing Technology, Digital Preservation]
+  needs_review: false
+  note: "Overrode hints: reworked OJS patch for customizable CLOCKSS support; publishing tooling plus preservation, not OA policy."
+- file: 2012-11-05-publication-review-of-1q84-in-1001-books-to-read-before-you-die-london-cassell-illustrated-2012.md
+  title: "Publication: Review of 1Q84 in 1001 Books to Read Before You Die (London: Cassell Illustrated, 2012)"
+  old: [Literature, Academia, Publications, Output]
+  new: [Publications, Literature]
+  needs_review: false
+  note: ""
+- file: 2012-11-10-reviewing-with-kindness.md
+  title: "Reviewing with Kindness"
+  old: [Academia]
+  new: [Academia]
+  needs_review: false
+  note: ""
+- file: 2012-11-12-on-freedom-of-speech.md
+  title: "On Freedom of Speech"
+  old: [Politics]
+  new: [Politics]
+  needs_review: false
+  note: ""
+- file: 2012-11-14-on-orcid-accreditation-structures-and-altmetrics.md
+  title: "On ORCID, accreditation structures and altmetrics"
+  old: [Technology, Open Access, Academia]
+  new: [Scholarly Communications, Academia]
+  needs_review: false
+  note: "Overrode Technology/Open Access hints: ORCID is persistent-identifier infrastructure (Scholarly Communications); the accreditation/metrics/researcher-brand discussion is Academia."
+- file: 2012-11-21-judging-the-safety-of-an-open-access-journal.md
+  title: "Judging the Safety of an Open Access Journal"
+  old: [Technology, Open Access, Academia]
+  new: [Open Access, Digital Preservation]
+  needs_review: false
+  note: "Dropped Technology/Academia hints: advice on OA journal longevity via Keepers Registry, CLOCKSS/LOCKSS and DOI-backed preservation provisions."
+- file: 2012-11-29-the-clause-model-of-adornos-dialectical-sentences.md
+  title: "The Clause Model of Adorno's Dialectical Sentences"
+  old: [Academia, Philosophy, Theodor Adorno]
+  new: [Philosophy]
+  needs_review: false
+  note: ""
+- file: 2012-11-30-moving-on-from-sussex-and-joining-the-university-of-lincoln.md
+  title: "Moving on from Sussex and joining the University of Lincoln"
+  old: [Personal, Academia]
+  new: [Personal, Academia]
+  needs_review: false
+  note: ""
+- file: 2012-12-07-fixing-scanning-on-an-hp-photosmart-c6300-series-in-ubuntu-12-10.md
+  title: "Fixing scanning on an HP Photosmart C6300 series in Ubuntu 12.10"
+  old: [Technology, Linux]
+  new: [Linux]
+  needs_review: false
+  note: "Linux fix-it rule: Linux alone."
+- file: 2012-12-11-publication-review-of-theophilius-savvas-american-postmodern-fiction-and-the-past-literature-and-history-21-2-autumn-2012-pp-106-108.md
+  title: "Publication: 'Review of Theophilius Savvas, American Postmodern Fiction and the Past', Literature and History, 21, 2 (Autumn 2012), pp. 106-108"
+  old: [Literature, Thomas Pynchon, Academia, Publications, Output]
+  new: [Publications, Literature, Thomas Pynchon]
+  needs_review: false
+  note: "Publication announcement with full review text; substantively discusses Coover, DeLillo, Vollmann and Doctorow (Literature) as well as a dedicated Pynchon Mason & Dixon section."
+- file: 2012-12-13-alluvium-technical-news-doi-numbers-clockss-and-mla-bibliography.md
+  title: "Alluvium technical news: DOI numbers, CLOCKSS and MLA Bibliography"
+  old: [Technology, Open Access, Academia]
+  new: [Scholarly Communications, Digital Preservation, Copyright and Licensing]
+  needs_review: false
+  note: "Overrode hints: content is DOI assignment and MLA indexing (Scholarly Communications), CLOCKSS archiving (Digital Preservation), and the journal's CC/fair-dealing image policy (Copyright and Licensing)."
+- file: 2012-12-20-on-that-statement-by-history-journal-editors.md
+  title: "On /That/ Statement by History Journal Editors"
+  old: [Technology, Open Access, Academia]
+  new: [Copyright and Licensing, Open Access]
+  needs_review: false
+  note: "Overrode Technology/Academia hints: the substance is CC-BY licensing, plagiarism vs copyright, and copyright transfer, within the OA policy debate."
+- file: 2012-12-21-orbit-writing-around-pynchon-receives-funding-from-ludwig-maximilian-university-of-munich.md
+  title: "Orbit: Writing Around Pynchon receives funding from Ludwig Maximilian University of Munich"
+  old: [Technology, Thomas Pynchon, Open Access, Academia]
+  new: [Thomas Pynchon, Open Access]
+  needs_review: false
+  note: "Orbit journal news (Pynchon) announcing an institutional-subsidy OA funding model; Technology/Academia hints dropped."
+- file: 2012-12-30-tech-things-i-have-learned-in-the-last-12-hours.md
+  title: "Tech things I have learned in the last 12 hours"
+  old: [Technology]
+  new: [Linux]
+  needs_review: true
+  note: "Mixed sysadmin tips from a Linux dual-boot perspective (grub, Bumblebee, luks TRIM, WinUSB) but two of six items are purely about Windows installation; chose Linux as the dominant frame over the Technology hint, though Technology alone is arguable."
+- file: 2012-12-30-using-bumblebee-for-opteron-graphics-on-ubuntu-12-10-on-a-samsung-chronos-7-series-laptop.md
+  title: "Using bumblebee for opteron graphics on Ubuntu 12.10 on a Samsung Chronos 7 Series laptop"
+  old: [Technology, Linux]
+  new: [Linux]
+  needs_review: false
+  note: "Linux fix-it rule: Linux alone."

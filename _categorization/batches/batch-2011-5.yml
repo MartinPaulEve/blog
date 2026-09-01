@@ -1,0 +1,147 @@
+prompt_version: 1
+batch: batch-2011-5
+posts:
+- file: 2011-08-04-conference-paper-autosubversive-practices-in-academic-publishing-uksg-2012-03-26.md
+  title: 'Conference Paper: "Autosubversive Practices in Academic Publishing", UKSG, 2012-03-26'
+  old: [Conferences, Open Access, Academia, Output, Conference Papers]
+  new: [Conferences, Open Access, Academia]
+  needs_review: false
+  note: "Conference paper announcement, not a publication in print, so the Output/Publications hint is dropped per the conference-paper rule: Conferences plus subject categories."
+- file: 2011-08-08-encrypted-partition-recovery-on-ubuntu-10-10.md
+  title: Encrypted Partition Recovery on Ubuntu 10.10
+  old: [Technology, InfoSec, Linux]
+  new: [Linux, Information Security]
+  needs_review: false
+  note: "Linux fix-it post, so Technology is dropped per rule. Information Security retained because the entire procedure is LUKS/cryptsetup disk-encryption handling."
+- file: 2011-08-19-postgraduate-publishing.md
+  title: Postgraduate Publishing
+  old: [Open Access, Academia]
+  new: [Academia, Open Access]
+  needs_review: false
+  note: ""
+- file: 2011-08-26-satchmo-payment-modules.md
+  title: Satchmo payment modules
+  old: [Technology, Django]
+  new: [Programming]
+  needs_review: false
+  note: "Django/Satchmo development notes; Programming is the specific category, so the Technology hint is dropped."
+- file: 2011-08-27-hefce-board-appointments-learning-through-argos.md
+  title: 'HEFCE board appointments: learning through Argos'
+  old: [Politics, Academia]
+  new: [Higher Education]
+  needs_review: false
+  note: "Overrode hints: HEFCE board composition and HE funding-body governance is squarely higher education policy, not politics beyond the university or academic practice."
+- file: 2011-08-31-guest-post-at-phd2published.md
+  title: Guest post at PhD2Published
+  old: [Open Access, Academia]
+  new: [Open Access, Academia]
+  needs_review: false
+  note: ""
+- file: 2011-09-02-immanent-critique-of-closed-access-publication.md
+  title: Immanent critique of closed access publication
+  old: [Open Access, Academia]
+  new: [Open Access, Academia]
+  needs_review: false
+  note: ""
+- file: 2011-09-03-installing-zotero-on-ubuntu-oneiric-11-10beta.md
+  title: Installing Zotero on Ubuntu Oneiric (11.10/Beta)
+  old: [Technology]
+  new: [Linux]
+  needs_review: false
+  note: "Overrode hint: this is an Ubuntu install/fix how-to, so Linux alone per the fix-it rule."
+- file: 2011-09-06-adorno-terminology-intentio-recta-and-intention-obliqua.md
+  title: 'Adorno terminology: intentio recta and intention obliqua'
+  old: [Academia, Philosophy, Theodor Adorno]
+  new: [Philosophy]
+  needs_review: false
+  note: "Adorno terminology-series post; Philosophy alone per the calibration for these, Academia hint dropped."
+- file: 2011-09-06-is-it-worth-presenting-at-postgraduate-conferences.md
+  title: Is it worth presenting at postgraduate conferences?
+  old: [Conferences, Academia]
+  new: [Academia]
+  needs_review: false
+  note: "Overrode Conferences hint: this is PhD career advice about whether to present, not a paper given, event report, or CFP."
+- file: 2011-09-08-troy-davis-innocence-and-execution-if-this-is-a-man.md
+  title: 'Troy Davis: Innocence and Execution; If This is a Man'
+  old: [Politics]
+  new: [Politics]
+  needs_review: false
+  note: ""
+- file: 2011-09-14-publishing-articles-in-pdf-via-xmlxslt-using-open-journal-systems-2-3-6.md
+  title: Publishing articles in PDF via XML/XSLT using Open Journal Systems 2.3.6
+  old: [Technology, Open Access, PHP]
+  new: [Publishing Technology, Programming]
+  needs_review: false
+  note: "Overrode hints: technical OJS/XML tooling goes to Publishing Technology per rule, with Programming for the PHP code analysis; no OA policy content."
+- file: 2011-09-17-writing-a-plugin-for-open-journal-systems-part-1.md
+  title: 'Writing a plugin for Open Journal Systems: Part 1'
+  old: [Technology, Open Access, PHP]
+  new: [Publishing Technology, Programming]
+  needs_review: false
+  note: "Overrode hints: OJS plugin development tutorial is publishing tooling plus PHP programming; OA is only framing."
+- file: 2011-09-22-words-in-memory-of-troy-davis.md
+  title: Words in memory of Troy Davis
+  old: [Politics]
+  new: [Politics]
+  needs_review: false
+  note: ""
+- file: 2011-09-25-64bit-gnulinux-and-webcams-logitech-quickcam-express.md
+  title: 64bit GNU/Linux and Webcams (Logitech Quickcam Express)
+  old: [Technology, Linux]
+  new: [Linux]
+  needs_review: false
+  note: "Hardware-under-Linux fix; Linux alone per rule, Technology dropped."
+- file: 2011-09-25-writing-a-plugin-for-open-journal-systems-part-2.md
+  title: 'Writing a plugin for Open Journal Systems: Part 2'
+  old: [Technology, Open Access, Linux, PHP]
+  new: [Publishing Technology, Programming]
+  needs_review: false
+  note: "Overrode hints: OJS plugin/XSLT-FO development is publishing tooling plus PHP programming; Linux and OA hints are incidental to the content."
+- file: 2011-09-27-academia-edtech-blogging-and-twitter-enough-with-the-meta-already.md
+  title: 'Academia, EdTech, Blogging and Twitter: Enough with the Meta, Already?'
+  old: [Technology, Academia]
+  new: [Academia]
+  needs_review: false
+  note: "Commentary on academic blogging/social-media practice; Technology hint dropped as the subject is academic practice, not the tech itself."
+- file: 2011-09-30-adorno-benjamin-and-wittgenstein-knowledge-is-not-property.md
+  title: 'Adorno, Benjamin and Wittgenstein (!): knowledge is not property'
+  old: [Technology, Open Access, Academia, Philosophy, Theodor Adorno, Ludwig Wittgenstein]
+  new: [Philosophy, Copyright and Licensing, Academia]
+  needs_review: false
+  note: "Overrode Technology and Open Access hints: the post is a critical-theory argument against knowledge-as-property, applied to patents/IP and to academic citation practice."
+- file: 2011-10-06-the-nobel-prize-for-literature-2011-hoax.md
+  title: The Nobel Prize for Literature 2011 Hoax
+  old: [Literature]
+  new: [Technology, Literature]
+  needs_review: false
+  note: "Deviated from the Literature-only hint: the substance is a dig/whois DNS investigation of a hoax website; the literary prize is the occasion rather than the content."
+- file: 2011-10-12-the-werritty-feasel.md
+  title: The Werritty Feasel
+  old: [Politics]
+  new: [Politics]
+  needs_review: false
+  note: ""
+- file: 2011-10-15-happy-85th-birthday-michel-foucault.md
+  title: Happy 85th Birthday, Michel Foucault
+  old: [Academia, Philosophy, Michel Foucault]
+  new: [Philosophy]
+  needs_review: false
+  note: "Taxonomy example post for Philosophy; Academia hint dropped."
+- file: 2011-10-17-donne-it-wrong-holy-sonnet-numbering-confusion.md
+  title: 'Donne it wrong: Holy Sonnet numbering confusion'
+  old: [Literature, Academia, Teaching]
+  new: [Literature, Teaching]
+  needs_review: false
+  note: "Donne textual history arising from teaching a set syllabus; Academia hint folded into the more specific pair."
+- file: 2011-10-21-reading-the-my-marxist-feminist-dialectic-brings-all-the-boys-to-the-yard-t-shirt.md
+  title: Reading the "My Marxist Feminist Dialectic Brings all the Boys to the Yard" T-Shirt
+  old: [Literature, Academia]
+  new: [Philosophy, Teaching]
+  needs_review: true
+  note: "Overrode hints: this is a Marxist-feminist critical-theory reading of a cultural object, ending in a classroom plan; there is no literary criticism proper. Flagged because the post sits between cultural commentary and theory."
+- file: 2011-10-24-pynchons-friends-in-gravitys-rainbow.md
+  title: Pynchon's Friends in Gravity's Rainbow
+  old: [Literature, Thomas Pynchon, Academia]
+  new: [Thomas Pynchon]
+  needs_review: false
+  note: "Pynchon-only content, so Literature is dropped per the co-occurrence rule; Academia hint also dropped."

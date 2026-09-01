@@ -1,0 +1,141 @@
+prompt_version: 1
+batch: batch-2012-4
+posts:
+- file: 2012-07-09-orbit-writing-around-pynchon-is-live.md
+  title: "Orbit: Writing Around Pynchon is live"
+  old: [Literature, Thomas Pynchon, Academia]
+  new: [Thomas Pynchon, Open Access]
+  needs_review: false
+  note: "Dropped Literature hint per Pynchon co-occurrence rule; launch announcement of the scholar-led OA Pynchon journal, so Open Access replaces the Academia hint."
+- file: 2012-07-09-publication-tear-it-down-build-it-up-the-research-output-team-or-the-library-as-publisher-insights-25-2-july-2012-pp-158-162.md
+  title: "Publication: 'Tear it down, build it up: the Research Output Team, or the library-as-publisher', Insights, 25, 2 (July 2012), pp. 158-162"
+  old: [Open Access, Publications, Output]
+  new: [Publications, Open Access]
+  needs_review: false
+  note: ""
+- file: 2012-07-10-starting-an-open-access-journal-a-step-by-step-guide-part-1.md
+  title: "Starting an Open Access Journal: a step-by-step guide part 1"
+  old: [Technology, Open Access, Academia]
+  new: [Open Access, Publishing Technology]
+  needs_review: false
+  note: "Matches calibration gold answer; Technology/Academia hints subsumed by Publishing Technology (OJS-based journal setup guide)."
+- file: 2012-07-11-starting-an-open-access-journal-a-step-by-step-guide-part-2.md
+  title: "Starting an Open Access Journal: a step-by-step guide part 2"
+  old: [Technology, Open Access, Academia]
+  new: [Open Access, Publishing Technology]
+  needs_review: false
+  note: "Series continues (OJS install, ISSN, DOIs, CLOCKSS); same categories as part 1 gold answer."
+- file: 2012-07-12-starting-an-open-access-journal-a-step-by-step-guide-part-3.md
+  title: "Starting an Open Access Journal: a step-by-step guide part 3"
+  old: [Technology, Open Access, Academia]
+  new: [Open Access, Publishing Technology]
+  needs_review: false
+  note: "Series continues (CFP and peer review workflow in OJS); same categories as part 1 gold answer."
+- file: 2012-07-13-orbit-writing-around-pynchon-is-now-digitally-preserved-by-clockss.md
+  title: "Orbit: Writing Around Pynchon is now digitally preserved by CLOCKSS"
+  old: [Literature, Thomas Pynchon, Open Access, Academia]
+  new: [Digital Preservation, Thomas Pynchon, Open Access]
+  needs_review: false
+  note: "CLOCKSS preservation of the Pynchon journal is the core content; dropped Literature per Pynchon rule and Academia as least salient."
+- file: 2012-07-13-starting-an-open-access-journal-a-step-by-step-guide-part-4.md
+  title: "Starting an Open Access Journal: a step-by-step guide part 4"
+  old: [Open Access, Academia]
+  new: [Open Access, Publishing Technology]
+  needs_review: false
+  note: "Series continues (copyediting, NLM/XML typesetting, MEXMLGalley toolchain); Publishing Technology from content."
+- file: 2012-07-13-starting-an-open-access-journal-a-step-by-step-guide-part-5.md
+  title: "Starting an Open Access Journal: a step-by-step guide part 5"
+  old: [Open Access, Academia]
+  new: [Open Access, Publishing Technology]
+  needs_review: false
+  note: "Series continues (post-launch checklist: DOAJ, CrossRef deposit, CLOCKSS); same categories as the rest of the series."
+- file: 2012-07-13-starting-an-open-access-journal-a-step-by-step-guide-table-of-contents.md
+  title: "Starting an Open Access Journal: a step-by-step guide. Table of contents."
+  old: [Open Access, Academia]
+  new: [Open Access, Publishing Technology]
+  needs_review: false
+  note: "Table of contents for the series; categorised consistently with the parts it links."
+- file: 2012-07-16-gold-open-access-does-not-mean-author-pays.md
+  title: "Gold Open Access does **NOT** mean: \"author pays\""
+  old: [Open Access, Academia]
+  new: [Open Access]
+  needs_review: false
+  note: "Taxonomy lists this post as an Open Access example; purely OA terminology/business models, so Academia hint dropped."
+- file: 2012-07-19-the-undervalued-book-collection-and-peer-review.md
+  title: The undervalued book collection and peer review
+  old: [Literature, Politics, Academia]
+  new: [Academia, Higher Education]
+  needs_review: false
+  note: "Content is peer review, academic capital, and REF critique, not literary criticism or general politics; overrode Literature and Politics hints."
+- file: 2012-07-19-thomas-pynchon-david-foster-wallace-and-21st-century-utopianism-presentation.md
+  title: Thomas Pynchon, David Foster Wallace and 21st-Century Utopianism (presentation)
+  old: [Literature, Thomas Pynchon, Conferences, David Foster Wallace, Academia]
+  new: [Conferences, Thomas Pynchon, Literature]
+  needs_review: false
+  note: "Conference presentation shared post-event; Literature retained alongside Pynchon because DFW is substantively discussed."
+- file: 2012-07-20-post-submission-weirdness.md
+  title: Post-Submission Weirdness
+  old: [Personal, Academia]
+  new: [Personal, Academia]
+  needs_review: false
+  note: ""
+- file: 2012-07-24-mythbusting-a-proposed-list-60-things-journal-publishers-do.md
+  title: "Mythbusting: \"A Proposed List — 60 Things Journal Publishers Do\""
+  old: [Open Access, Academia]
+  new: [Open Access, Academia]
+  needs_review: false
+  note: ""
+- file: 2012-08-01-perverse-advert-for-bite-keep-calm-about-university-fees.md
+  title: "Perverse advert for BITE: \"Keep Calm About University Fees\""
+  old: [Politics, Academia]
+  new: [Higher Education]
+  needs_review: false
+  note: "Tuition fees and the commodification of HE fall squarely under Higher Education; overrode Politics/Academia hints."
+- file: 2012-08-02-impossible-objects-preservation-and-extinction-on-the-first-folio.md
+  title: "Impossible Objects: Preservation and Extinction (on the First Folio)"
+  old: [Literature, Academia]
+  new: [Digital Preservation, Literature]
+  needs_review: false
+  note: "Core argument is preservation ethics and digitisation of the First Folio; Literature secondary for the Shakespeare/book-history subject. Academia hint dropped."
+- file: 2012-08-02-more-unpaid-academic-positions-and-apparent-culture-of-entitlement.md
+  title: More unpaid academic positions and apparent "culture of entitlement"
+  old: [Politics, Academia]
+  new: [Academia, Higher Education]
+  needs_review: false
+  note: "Unpaid academic labour/careers plus the tuition-fee generational argument; Higher Education fits better than general Politics."
+- file: 2012-08-05-e-books-copyright-infringement-theft-materiality-and-the-virtual.md
+  title: "E-Books: Copyright Infringement, Theft, Materiality and the Virtual"
+  old: [Literature, Technology, Open Access]
+  new: [Copyright and Licensing, Piracy and Shadow Libraries]
+  needs_review: false
+  note: "Content is copyright-vs-theft theory and piracy ethics around e-books; overrode Literature/Technology/Open Access hints, which do not match the content."
+- file: 2012-08-07-on-blog-inequality-in-scholarly-research.md
+  title: On Blog Inequality in Scholarly Research
+  old: [Technology, Open Access, Academia]
+  new: [Scholarly Communications, Academia, Digital Preservation]
+  needs_review: false
+  note: "Argues blogs need DOIs/preservation infrastructure to be citable scholarship; deviates from Technology/Open Access hints."
+- file: 2012-08-14-what-app-net-has-to-teach-scholarly-publishing-altruism-has-been-forgotten-and-everything-is-a-product.md
+  title: "What app.net has to teach scholarly publishing: altruism has been forgotten and everything is a \"product\""
+  old: [Technology, Open Access, Academia]
+  new: [Open Access, Technology]
+  needs_review: false
+  note: ""
+- file: 2012-08-23-brief-interviews-with-hideous-men-live-stage-version-at-the-ica.md
+  title: "Brief Interviews with Hideous Men: Live Stage Version at the ICA"
+  old: [Literature, David Foster Wallace, Academia]
+  new: [Literature]
+  needs_review: false
+  note: "Plug for a DFW theatre adaptation; Literature covers DFW and theatre, Academia hint not supported by content."
+- file: 2012-08-23-the-real-problem-with-this-mode-of-curbing-grade-inflation.md
+  title: The real problem with this mode of "curbing grade inflation"
+  old: [Literature, Politics]
+  new: [Higher Education, Politics]
+  needs_review: true
+  note: "GCSE English grading policy: taxonomy routes exams policy to Higher Education, but this is secondary-school assessment, so the fit is imperfect; Literature hint overridden as the post is not literary criticism. Teaching (assessment and exams) was a plausible alternative."
+- file: 2012-08-31-open-access-needs-terminology-to-distinguish-between-funding-models-platinum-oagold-non-apc.md
+  title: "Open Access needs terminology to distinguish between funding models: Platinum OA/Gold NON-APC"
+  old: [Open Access, Academia]
+  new: [Open Access]
+  needs_review: false
+  note: "Purely OA terminology and funding-model taxonomy; Academia hint dropped as not substantive."

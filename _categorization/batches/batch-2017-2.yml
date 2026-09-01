@@ -1,0 +1,87 @@
+prompt_version: 1
+batch: batch-2017-2
+posts:
+- file: 2017-04-24-on-consortial-oa-funding-models-and-renewals.md
+  title: "On consortial OA funding models and renewals"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2017-05-01-a-note-on-moral-relativism-and-unthinkable-liberalism.md
+  title: "A note on moral relativism and unthinkable liberalism"
+  old: []
+  new: [Philosophy, Politics]
+  needs_review: false
+  note: ""
+- file: 2017-05-07-an-important-note-if-you-have-a-lenovo-g580.md
+  title: "An important note if you have a Lenovo G580"
+  old: []
+  new: [Technology]
+  needs_review: false
+  note: "Windows 8/BIOS hardware lockout on a Lenovo laptop; not a Linux fix, so Technology."
+- file: 2017-05-12-two-types-of-post-critique.md
+  title: "Two types of post-critique"
+  old: []
+  new: [Philosophy, Literature]
+  needs_review: false
+  note: ""
+- file: 2017-05-29-lingua-refund.md
+  title: "If I still subscribed to Elsevier's Lingua, I'd demand a refund"
+  old: []
+  new: [Open Access, Copyright and Licensing]
+  needs_review: false
+  note: "Core is the Lingua/Glossa OA flip and publisher-quality critique; the second half substantively examines CC licensing and image copyright."
+- file: 2017-06-11-did-thomas-pynchon-write-cow-country-stylistic-affinities-and-divergences.md
+  title: "Did Thomas Pynchon write Cow Country? Stylistic affinities and divergences"
+  old: []
+  new: [Thomas Pynchon, Digital Humanities]
+  needs_review: false
+  note: ""
+- file: 2017-06-23-dear-walt.md
+  title: "Dear Walt"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2017-07-13-mediating-forms-and-free-thinking-or-on-selecting-journals.md
+  title: "Mediating forms and free thinking (or \"on selecting journals\")"
+  old: []
+  new: [Academia]
+  needs_review: false
+  note: ""
+- file: 2017-07-21-on-ecrs-and-non-portability-of-outputs.md
+  title: "On ECRs, long-form-outputs, and the non-portability of outputs for REF"
+  old: []
+  new: [Higher Education, Academia]
+  needs_review: false
+  note: ""
+- file: 2017-08-03-open-access-monographs-misrepresented.md
+  title: "Open Access Monographs Misrepresented"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2017-08-21-cambridge-university-press-and-censorship.md
+  title: "Cambridge University Press and Censorship"
+  old: []
+  new: [Open Access, Politics]
+  needs_review: false
+  note: ""
+- file: 2017-08-21-on-digital-publishing-and-third-party-rights.md
+  title: "On digital publishing and third-party rights"
+  old: []
+  new: [Copyright and Licensing]
+  needs_review: false
+  note: ""
+- file: 2017-11-20-my-autoimmune-diseases-are-attacking-my-ears-and-i-am-losing-my-hearing.md
+  title: "My autoimmune diseases are attacking my ears and I am losing my hearing"
+  old: []
+  new: [Health, Personal]
+  needs_review: false
+  note: ""
+- file: 2017-12-15-my-2017-academic-year-in-review.md
+  title: "My 2017 academic year in review"
+  old: []
+  new: [Personal, Academia]
+  needs_review: false
+  note: "Substantially a professional review (publications, talks, grants), so Academia added per the year-in-review rule."

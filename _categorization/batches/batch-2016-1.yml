@@ -1,0 +1,135 @@
+prompt_version: 1
+batch: batch-2016-1
+posts:
+- file: 2016-01-02-he-green-paper-response-to-question-27.md
+  title: "HE Green Paper: response to question 27"
+  old: [HE, green paper, politics]
+  new: [Higher Education]
+  needs_review: false
+  note: "Green Paper response series rule: Higher Education alone; politics hint dropped."
+- file: 2016-01-06-he-green-paper-response-to-question-28.md
+  title: "HE Green Paper: response to question 28"
+  old: [HE, green paper, politics]
+  new: [Higher Education]
+  needs_review: false
+  note: "Green Paper response series rule: Higher Education alone; politics hint dropped."
+- file: 2016-01-06-my-response-to-the-he-green-paper.md
+  title: "My response to the HE Green Paper"
+  old: [HE, green paper, politics]
+  new: [Higher Education]
+  needs_review: false
+  note: "Final post of the Green Paper response series; Higher Education alone per rule."
+- file: 2016-01-07-the-uk-copyright-exemption-for-text-and-data-mining-vs-the-dmca.md
+  title: "The UK copyright exemption for text and data mining vs. the DMCA and EUCD"
+  old: [copyright, DH]
+  new: [Copyright and Licensing, Digital Humanities]
+  needs_review: false
+  note: ""
+- file: 2016-01-08-these-games-we-play-in-scholcomms.md
+  title: "These games we play (in ScholComms)"
+  old: [OA, scholcomms]
+  new: [Scholarly Communications, Open Access, Conferences]
+  needs_review: false
+  note: "Write-up of a talk/workshop session delivered at Royal Holloway, so Conferences added per co-occurrence rule."
+- file: 2016-01-11-the-methodology-of-literary-taxonomy-harking-and-p-hacking.md
+  title: "The methodology of literary taxonomy: HARKing and p-hacking"
+  old: [literature, methodology]
+  new: [Literature, Academia]
+  needs_review: false
+  note: ""
+- file: 2016-01-22-phd-criterion-to-merit-publication.md
+  title: "Ph.D. criterion: to 'merit publication'"
+  old: [PhD, exams, publication, peer review]
+  new: [Academia]
+  needs_review: false
+  note: "Publications and Teaching hints overridden: this is about PhD examination criteria and peer review (academic practice), not an announcement of the author's work or pedagogy."
+- file: 2016-01-30-institutional-finance-and-academic-freedom.md
+  title: "Institutional Finance and Academic Freedom"
+  old: [HE, politics, academic freedom, green paper]
+  new: [Higher Education]
+  needs_review: false
+  note: "Entirely about UK HE policy (numbers cap, marketisation, precarious contracts, academic freedom); politics hint dropped as the commentary stays within the university."
+- file: 2016-02-05-why-handling-book-processing-charges-from-a-purchasing-library-is-hard.md
+  title: "Why handling Book Processing Charges from a purchasing library is hard"
+  old: [open access]
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2016-02-09-an-old-tradition-and-a-new-technology-notes-on-why-open-access-remains-hard.md
+  title: "An old tradition and a new technology: notes on why open access remains hard"
+  old: [OA, scholcomms]
+  new: [Open Access]
+  needs_review: false
+  note: "Theoretical piece on OA economics/models (scarcity vs abundance); scholcomms hint dropped as there is no infrastructure/metadata content."
+- file: 2016-02-12-professor-of-literature-technology-and-publishing.md
+  title: "Professor of Literature, Technology and Publishing"
+  old: [academia, personal]
+  new: [Personal, Academia]
+  needs_review: false
+  note: ""
+- file: 2016-02-13-looking-back-on-my-early-visualizations-of-gravitys-rainbow.md
+  title: "Undergraduates, digital humanities, and visualization: looking back on my early visualizations of Gravity's Rainbow"
+  old: [Pynchon, Digital Humanities]
+  new: [Digital Humanities, Thomas Pynchon]
+  needs_review: false
+  note: ""
+- file: 2016-02-13-on-ten-years-of-chronic-illness.md
+  title: "On ten years of chronic illness"
+  old: [personal]
+  new: [Health, Personal]
+  needs_review: false
+  note: ""
+- file: 2016-02-15-accreditation-and-research-assessment-practices.md
+  title: "Accreditation and research-assessment practices (on DORA and the Tickell review)"
+  old: [scholarly communications, open access]
+  new: [Academia, Open Access]
+  needs_review: false
+  note: "Core argument is about journal prestige, metrics, and hiring/promotion assessment (Academia); scholcomms hint overridden as no infrastructure/metadata content. Open Access kept for the Tickell review framing."
+- file: 2016-02-16-understanding-ofquals-inter-subject-comparability-rasch-model-tests-for-easyhard-subjects-at-gcse-and-a-level.md
+  title: "Trying to understand Ofqual's inter-subject comparability Rasch model tests for easy/hard subjects at GCSE and A-Level"
+  old: [statistics, education]
+  new: [Higher Education]
+  needs_review: false
+  note: "Taxonomy places Ofqual/exams policy under Higher Education; education->Teaching hint overridden as the post is exam-policy statistics, not pedagogy."
+- file: 2016-02-17-on-speed-and-open-access.md
+  title: "On speed and open access"
+  old: [open access, speed, acceleration]
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2016-02-18-REF-consultation.md
+  title: "The postponed REF consultation document"
+  old: [open access, REF, politics]
+  new: [Higher Education, Open Access]
+  needs_review: false
+  note: "REF consultation is Higher Education; OA kept for the open-access monographs annex; politics hint dropped."
+- file: 2016-02-23-David-Willetts.md
+  title: "Evolving notes on the political philosophy of David Willetts"
+  old: [open access, education, politics]
+  new: [Higher Education, Politics]
+  needs_review: false
+  note: "Open Access hint overridden: the post never discusses OA. It analyses Willetts's HE fees/marketisation policy and his wider political philosophy of the welfare state and intergenerational contract."
+- file: 2016-02-26-rethinking.md
+  title: "A world reimagined without the university"
+  old: [scholarly communications]
+  new: [Scholarly Communications, Conferences]
+  needs_review: false
+  note: "Report from a FORCE11 workshop exercise, so Conferences added per co-occurrence rule."
+- file: 2016-02-26-the-critique-of-utopia.md
+  title: "The critique of utopia"
+  old: [scholarly communications]
+  new: [Scholarly Communications, Literature]
+  needs_review: false
+  note: "Literature added beyond hint: substantive readings of More's Utopia, Gulliver's Travels, Moylan and Marin underpin the argument about utopian thinking in scholcomms."
+- file: 2016-03-01-it-looks-unlikely-that-universities-are-going-to-get-out-of-the-freedom-of-information-act.md
+  title: "It looks unlikely that UK universities are going to get out of the Freedom of Information Act"
+  old: []
+  new: [Higher Education, Politics]
+  needs_review: false
+  note: ""
+- file: 2016-03-28-i-am-currently-off-work-having-suffered-cerebral-vasculitis-and-a-stroke.md
+  title: "I have suffered from an episode of cerebral vasculitis and a stroke"
+  old: []
+  new: [Health, Personal]
+  needs_review: false
+  note: ""

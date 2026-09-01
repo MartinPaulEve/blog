@@ -1,0 +1,87 @@
+prompt_version: 1
+batch: batch-2026-1
+posts:
+- file: 2026-01-01-the-lineages-and-inheritances-of-shadow-libraries-and-their-documentation.md
+  title: "The Lineages and Inheritances of Shadow Libraries and their Documentation"
+  old: []
+  new: [Piracy and Shadow Libraries, Digital Preservation]
+  needs_review: false
+  note: ""
+- file: 2026-01-02-who-knows-where-the-time-goes.md
+  title: "Who Knows Where the Time Goes?"
+  old: []
+  new: [Personal]
+  needs_review: false
+  note: ""
+- file: 2026-01-10-in-conversation-with-matthew-g-kirschenbaum.md
+  title: "In conversation with Matthew G. Kirschenbaum"
+  old: []
+  new: [Conferences, Digital Humanities]
+  needs_review: true
+  note: "Event announcement (SHARPIES festival), so Conferences plus subject. The subject is book history / digital-textual studies, which has no canonical category; chose Digital Humanities as nearest fit for Kirschenbaum's digital-media scholarship. Academia would be a defensible alternative second category."
+- file: 2026-01-15-wordpress-loading-theme-assets-of-a-different-theme-to-that-selected.md
+  title: "WordPress loading theme assets of a different theme to that selected"
+  old: []
+  new: [Technology]
+  needs_review: false
+  note: ""
+- file: 2026-01-16-some-example-academic-book-proposal-forms-in-case-they-help.md
+  title: "Some example academic book proposal forms in case they help"
+  old: []
+  new: [Academia]
+  needs_review: false
+  note: ""
+- file: 2026-01-23-its-been-ten-years.md
+  title: "It's been ten years..."
+  old: []
+  new: [Health, Personal]
+  needs_review: false
+  note: ""
+- file: 2026-01-25-institutions-shifting-away-from-big-tech.md
+  title: "Institutions shifting away from big tech"
+  old: []
+  new: [Technology]
+  needs_review: false
+  note: ""
+- file: 2026-02-22-structure-and-there-is-no-antimemetics-division.md
+  title: "Structure and There Is No Antimemetics Division"
+  old: []
+  new: [Literature]
+  needs_review: false
+  note: ""
+- file: 2026-03-20-the-nhs-can-never-fail-there-is-no-circumstance-where-it-would-be-deemed-overwhelmed.md
+  title: "The NHS Can Never Fail: There Is No Circumstance Where It Would Be Deemed Overwhelmed"
+  old: []
+  new: [Politics, Health]
+  needs_review: false
+  note: ""
+- file: 2026-03-21-how-to-use-yubikey-for-authentication-and-sudo-on-ubuntu-2404.md
+  title: "How to use YubiKey for authentication and sudo on Ubuntu 24.04"
+  old: []
+  new: [Information Security, Linux]
+  needs_review: false
+  note: ""
+- file: 2026-03-23-too-much-publishing.md
+  title: "Too much publishing..."
+  old: []
+  new: [Scholarly Communications, Academia]
+  needs_review: false
+  note: ""
+- file: 2026-03-25-how-to-get-a-blocked-usb-stack-and-dead-microphone-working-again-on-linux.md
+  title: "How to get a blocked USB stack and dead microphone working again on Linux"
+  old: []
+  new: [Linux]
+  needs_review: false
+  note: ""
+- file: 2026-04-17-thinking-about-dogs.md
+  title: "Thinking About Dogs"
+  old: []
+  new: [Personal, Health]
+  needs_review: false
+  note: ""
+- file: 2026-04-19-claude-code-can-consume-transmit-and-compromise-your-env-files-even-if-you-tell-it-not-to.md
+  title: "Claude Code can consume, transmit, and compromise your .env files even if you tell it not to"
+  old: []
+  new: [Artificial Intelligence, Information Security]
+  needs_review: false
+  note: ""

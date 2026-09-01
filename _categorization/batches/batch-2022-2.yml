@@ -1,0 +1,159 @@
+prompt_version: 1
+batch: batch-2022-2
+posts:
+- file: 2022-01-31-notes-on-plan-s-for-shock.md
+  title: "Notes on 'Plan S for Shock'"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2022-03-25-good-computer-networking-kit.md
+  title: "Good computer networking kit"
+  old: []
+  new: [Technology]
+  needs_review: false
+  note: ""
+- file: 2022-04-13-if-you-cannot-connect-to-a-deluged-daemon-remotely.md
+  title: "If you cannot connect to a deluged daemon remotely"
+  old: []
+  new: [Linux]
+  needs_review: true
+  note: >-
+    Filed as a server sysadmin fix-it note under Linux, but the post never
+    names an OS and the fix (deluged 1.3.x vs deluge 2.x version mismatch) is
+    platform-independent; Technology would also be defensible.
+- file: 2022-04-28-the-current-state-of-evusheld-tixagevimabcilgavimab-in-the-uk.md
+  title: "The Current State of Evusheld (tixagevimab/cilgavimab) in the UK"
+  old: []
+  new: [Politics, Health]
+  needs_review: false
+  note: >-
+    Chiefly a health-policy status report and lobbying record (MHRA, NHSE,
+    MPs and Lords), grounded in the author's own shielding situation, so
+    Politics and Health co-occur.
+- file: 2022-04-30-resizing-image-uploads-in-django.md
+  title: "Resizing image uploads in Django"
+  old: []
+  new: [Programming]
+  needs_review: false
+  note: ""
+- file: 2022-05-05-how-you-can-help-people-still-shielding.md
+  title: "How YOU can help people still shielding"
+  old: []
+  new: [Politics, Health]
+  needs_review: false
+  note: ""
+- file: 2022-05-07-static-site-hosting-in-the-cloud-should-not-be-this-hard-in-2022.md
+  title: "Static site hosting in the cloud should not be this hard in 2022"
+  old: []
+  new: [Programming]
+  needs_review: false
+  note: ""
+- file: 2022-05-19-running-django-apps-on-amazon-ecsecr-using-fargate.md
+  title: "Running Django apps on AWS Fargate with a serverless RDS"
+  old: []
+  new: [Programming]
+  needs_review: false
+  note: ""
+- file: 2022-06-18-reloading-sqlite-databases-in-django-when-there-have-been-external-changes.md
+  title: "Reloading SQLite databases in Django when there have been external changes"
+  old: []
+  new: [Programming]
+  needs_review: false
+  note: ""
+- file: 2022-07-26-what-is-the-scholarly-record.md
+  title: "What is 'the scholarly record'?"
+  old: []
+  new: [Scholarly Communications]
+  needs_review: false
+  note: >-
+    The scholarly record is named in the Scholarly Communications criteria;
+    the brief digital-preservation bullets are part of the definitional
+    sweep rather than a substantive second topic.
+- file: 2022-07-28-lastpass-cli-cant-login-using-master-password.md
+  title: "Lastpass CLI can't login using master password"
+  old: []
+  new: [Information Security]
+  needs_review: false
+  note: >-
+    Password-manager (secrets handling) tooling fix, closest to the YubiKey
+    example under Information Security.
+- file: 2022-08-01-a-glimmer-of-hope.md
+  title: "A glimmer of hope"
+  old: []
+  new: [Health, Politics, Personal]
+  needs_review: false
+  note: >-
+    Lived experience of shielding plus an account of the Evusheld political
+    campaign, framed by an intensely personal affective register.
+- file: 2022-08-26-moving-on-my-infrastructural-turn.md
+  title: "Moving On: My Infrastructural Turn"
+  old: []
+  new: [Personal, Scholarly Communications, Academia]
+  needs_review: false
+  note: >-
+    Job-move announcement (Personal) whose substance is Crossref metadata and
+    infrastructure plans, with reflections on academic careers and quit lit.
+- file: 2022-08-29-its-tricky.md
+  title: "It's Tricky"
+  old: []
+  new: [Health]
+  needs_review: false
+  note: ""
+- file: 2022-08-30-open-peer-review-and-its-rhythms.md
+  title: "Open peer review and its rhythms"
+  old: []
+  new: [Academia]
+  needs_review: false
+  note: ""
+- file: 2022-09-01-small-publishers-and-subscribe-to-open.md
+  title: "Small publishers and subscribe to open"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2022-10-10-the-politics-of-peer-review-and-preprints-in-the-real-world.md
+  title: "The politics of peer review and preprints in the real world"
+  old: []
+  new: [Academia, Politics, Health]
+  needs_review: false
+  note: >-
+    Peer review and preprint legitimacy (Academia) deployed rhetorically in a
+    health-policy dispute (Politics), with the author's shielding experience
+    as lived context (Health).
+- file: 2022-10-12-the-uks-department-for-health-and-preprints.md
+  title: "The UK's department for health and preprints"
+  old: []
+  new: [Academia, Politics]
+  needs_review: false
+  note: ""
+- file: 2022-11-02-i-had-evusheld-in-the-uk.md
+  title: "I had Evusheld privately in the UK"
+  old: []
+  new: [Health, Politics]
+  needs_review: false
+  note: ""
+- file: 2022-12-04-my-2022-year-in-review.md
+  title: "My 2022 year in review"
+  old: []
+  new: [Personal, Academia]
+  needs_review: false
+  note: >-
+    Year-in-review, so Personal; Academia added because the bulk of the post
+    is a professional review listing the year's publications.
+- file: 2022-12-10-some-of-my-upcoming-projects-at-crossref.md
+  title: "Some of my upcoming projects at Crossref"
+  old: []
+  new: [Scholarly Communications, Digital Preservation]
+  needs_review: false
+  note: >-
+    Crossref infrastructure R&D throughout; the flagship 'Op Cit' project is
+    substantively about the preservation status of DOI-registered content.
+- file: 2022-12-19-how-do-you-get-access-to-antivirals-on-the-nhs-cdmu-system-and-does-it-work.md
+  title: "How do you get access to antivirals on the NHS CDMU system and does it work?"
+  old: []
+  new: [Health]
+  needs_review: false
+  note: >-
+    Chiefly a lived-experience account of navigating the CMDU pathway; the
+    policy asides are incidental, so Health alone per the co-occurrence rule.

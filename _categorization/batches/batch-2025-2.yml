@@ -1,0 +1,81 @@
+prompt_version: 1
+batch: batch-2025-2
+posts:
+- file: 2025-04-17-hacking-the-full-site-editor-in-wordpress.md
+  title: "Hacking the full site editor in WordPress"
+  old: []
+  new: [Programming]
+  needs_review: false
+  note: ""
+- file: 2025-06-08-what-is-a-university-press.md
+  title: "What is a University Press?"
+  old: []
+  new: [Open Access, Higher Education]
+  needs_review: false
+  note: "Primarily OA books funding (Opening the Future) and press economics; substantial discussion of university governance and prestige motives warrants Higher Education."
+- file: 2025-08-24-trying-out-the-nurosym-vagus-nerve-stimulator-for-a-couple-of-weeks.md
+  title: "Trying out the Nurosym vagus nerve stimulator for a couple of weeks"
+  old: []
+  new: [Health, Technology]
+  needs_review: false
+  note: ""
+- file: 2025-10-04-pangolin-newt-gerbil-and-custom-ports.md
+  title: "Pangolin, Newt, Gerbil and custom ports"
+  old: []
+  new: [Technology]
+  needs_review: false
+  note: "Docker/WireGuard networking configuration, not distro-specific Linux and no code, so Technology (networking) rather than Linux or Programming."
+- file: 2025-10-09-using-a-public-api-or-the-instability-of-musicbrainz-ids.md
+  title: "Using a public API, or the instability of MusicBrainz IDs"
+  old: []
+  new: [Programming, Music]
+  needs_review: false
+  note: "Own static site generator and API-handling lessons; the subject is the Tici Taci label site, which the taxonomy places under Music."
+- file: 2025-12-01-lando-giving-404-page-not-found.md
+  title: "Lando giving '404 page not found'"
+  old: []
+  new: [Programming]
+  needs_review: false
+  note: ""
+- file: 2025-12-03-error-failed-to-build-failed-to-solve-failed-to-compute-cache-key-failed-to-calculate-checksum-of-ref-xxyyzz.md
+  title: "'ERROR: failed to build: failed to solve: failed to compute cache key: failed to calculate checksum of ref XXYYZZ'"
+  old: []
+  new: [Programming]
+  needs_review: false
+  note: ""
+- file: 2025-12-10-handling-403-errors-in-buddypresss-new-activity-comment.md
+  title: "Handling 403 errors in BuddyPress's new_activity_comment"
+  old: []
+  new: [Programming]
+  needs_review: false
+  note: ""
+- file: 2025-12-16-my-2025-end-of-year-reading-and-writing-roundup.md
+  title: "My 2025 end-of-year reading and writing roundup"
+  old: []
+  new: [Personal, Academia]
+  needs_review: false
+  note: "Year-in-review; Academia added as the post is substantially a professional review (publications, SHARP DeLong Prize, examining)."
+- file: 2025-12-21-2000-christmas-trees-sold-by-the-14th-december.md
+  title: "2,000 Christmas trees sold by the 14th December"
+  old: []
+  new: [Personal]
+  needs_review: false
+  note: ""
+- file: 2025-12-22-on-citations-ai-and-not-reading.md
+  title: "On citations, AI, and 'not reading'"
+  old: []
+  new: [Artificial Intelligence, Academia]
+  needs_review: false
+  note: ""
+- file: 2025-12-26-authorship-division-of-labour-material-form-thoughts-on-samuel-a-moores-publishing-beyond-the-market.md
+  title: "Authorship, division of labour, material and digital form; thoughts on Samuel A. Moore's Publishing Beyond the Market"
+  old: []
+  new: [Open Access, Academia]
+  needs_review: false
+  note: "Response to an OA/commons book; Academia for the sustained discussion of authorship, promotion/hiring, and university labour structures."
+- file: 2025-12-28-profit-cost-price-learned-societies-further-thoughts-on-samuel-a-moores-publishing-beyond-the-market.md
+  title: "Profit, cost, price, learned societies; further thoughts on Samuel A. Moore's Publishing Beyond the Market"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: "Pynchon quotation is a brief illustrative digression, not substantive Pynchon discussion, so no Thomas Pynchon category."

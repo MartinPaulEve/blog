@@ -1,0 +1,129 @@
+prompt_version: 1
+batch: batch-2019-2
+posts:
+- file: 2019-06-10-opting-out-of-league-tables-is-of-course-a-type-of-prestige-game.md
+  title: "Opting out of league tables is, of course, a type of prestige game"
+  old: []
+  new: [Higher Education]
+  needs_review: false
+  note: ""
+- file: 2019-06-11-from-mars-and-back-to-close-reading-with-computers.md
+  title: "From Mars and Back to Close Reading with Computers"
+  old: []
+  new: [Personal, Digital Humanities]
+  needs_review: false
+  note: ""
+- file: 2019-07-06-textual-scholarship-and-contemporary-literary-studies-jennifer-egans-editorial-processes-and-the-archival-edition-of-emerald-city.md
+  title: "Jennifer Egan's Editorial Processes and the Archival Edition of Emerald City"
+  old: []
+  new: [Publications, Literature]
+  needs_review: false
+  note: ""
+- file: 2019-07-12-ratholin.md
+  title: "Ratholin'"
+  old: []
+  new: [Music]
+  needs_review: false
+  note: ""
+- file: 2019-07-24-academic-author-rights-of-presentation-on-mutable-digital-platforms.md
+  title: "Academic author rights of presentation on mutable digital platforms"
+  old: []
+  new: [Copyright and Licensing, Scholarly Communications]
+  needs_review: false
+  note: ""
+- file: 2019-07-24-the-british-academy-response-misrepresents-plan-s-and-oa.md
+  title: "The British Academy response misrepresents Plan S and OA"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2019-07-30-thinking-through-citation-resolution-and-proposals-for-consumer-driven-doi-like-metadata-repositories.md
+  title: "Thinking through citation resolution and proposals for consumer-driven, DOI-like metadata repositories"
+  old: []
+  new: [Scholarly Communications]
+  needs_review: false
+  note: ""
+- file: 2019-08-03-elsevier-threatens-others-for-linking-to-sci-hub-but-does-it-itself.md
+  title: "Elsevier threatens others for linking to Sci-Hub but does so itself"
+  old: []
+  new: [Piracy and Shadow Libraries, Copyright and Licensing]
+  needs_review: false
+  note: ""
+- file: 2019-09-04-when-infrastructural-support-clashes-with-dora-and-good-research-assessment-practices.md
+  title: "When infrastructural support clashes with DORA and good research assessment practices"
+  old: []
+  new: [Open Access, Academia]
+  needs_review: false
+  note: ""
+- file: 2019-09-17-learned-societies-open-access-and-budgetary-cross-subsidy.md
+  title: "Learned Societies, Open Access and Budgetary Cross-Subsidy"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2019-09-19-the-problems-of-unit-costs-per-article.md
+  title: "The Problems of Unit Costs Per Article"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2019-09-22-a-thought-experiment-do-we-really-care-about-the-type-of-scholarly-publishing-entity.md
+  title: "A thought experiment: do we really care about the type of scholarly publishing entity?"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2019-09-25-an-expensive-way-to-do-society-oa.md
+  title: "An expensive but possible way to do Society OA"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2019-10-04-immunity-problems.md
+  title: "Immunity problems"
+  old: []
+  new: [Health, Personal]
+  needs_review: false
+  note: ""
+- file: 2019-10-14-i-have-won-the-2019-philip-leverhulme-prizei-have-won-the-2019-philip-leverhulme-prizei-have-won-the-2019-philip-leverhulme-prize.md
+  title: "I have won the 2019 Philip Leverhulme Prize"
+  old: []
+  new: [Personal, Academia]
+  needs_review: false
+  note: ""
+- file: 2019-10-24-a-brief-note-on-the-rhs-plan-s-report.md
+  title: "A brief note on the RHS Plan S report"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2019-12-02-the-first-oa-liberated-article-from-my-leverhulme-prize.md
+  title: "The first OA liberated article from my Leverhulme Prize: The Critique of Metamodernism"
+  old: []
+  new: [Open Access, Publications, Literature]
+  needs_review: false
+  note: ""
+- file: 2019-12-04-the-second-oa-liberated-article-from-my-leverhulme-prize-natural-language-generation-and-authorial-labour.md
+  title: "The second OA liberated article from my Leverhulme Prize: Natural language generation and authorial labour"
+  old: []
+  new: [Open Access, Publications, Artificial Intelligence]
+  needs_review: false
+  note: "Third category reflects the liberated article's subject: neural-network text generation and authorial labour."
+- file: 2019-12-11-an-irony-of-the-hierarchy-of-journals.md
+  title: "An irony of the 'hierarchy of journals'"
+  old: []
+  new: [Academia]
+  needs_review: false
+  note: ""
+- file: 2019-12-12-the-new-ref-individual-circumstances-setup-the-good-and-the-bad.md
+  title: "The new REF individual circumstances setup: the good and the bad"
+  old: []
+  new: [Higher Education, Health]
+  needs_review: false
+  note: ""
+- file: 2019-12-14-my-2019-in-review.md
+  title: "My 2019 in review"
+  old: []
+  new: [Personal, Academia]
+  needs_review: false
+  note: "Year-in-review that is substantially a professional output listing, so Academia added per rule."

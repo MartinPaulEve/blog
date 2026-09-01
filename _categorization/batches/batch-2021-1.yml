@@ -1,0 +1,147 @@
+prompt_version: 1
+batch: batch-2021-1
+posts:
+- file: 2021-01-03-i-have-submitted-the-warez-book.md
+  title: "I have submitted the Warez book"
+  old: []
+  new: [Piracy and Shadow Libraries]
+  needs_review: false
+  note: "Manuscript submission announcement, not a publication launch, so no Publications; matches treatment of the 2020 Warez progress update."
+- file: 2021-01-03-reading-peer-review-is-published-today.md
+  title: "Reading Peer Review is published today!"
+  old: []
+  new: [Publications, Academia]
+  needs_review: false
+  note: ""
+- file: 2021-01-07-2021-is-not-looking-much-better.md
+  title: "Attempted realistic observations on 2021"
+  old: []
+  new: [Health, Personal]
+  needs_review: false
+  note: ""
+- file: 2021-01-08-on-the-costs-of-scholarly-communications-and-the-discourse-of-fairness.md
+  title: "On the costs of scholarly communications and the discourse of 'fairness'"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2021-01-18-how-much-optimism.md
+  title: "How much optimism?"
+  old: []
+  new: [Health, Personal]
+  needs_review: false
+  note: ""
+- file: 2021-01-21-on-healthcare-economics-and-valuing-lives.md
+  title: "On healthcare economics and valuing lives"
+  old: []
+  new: [Politics, Health]
+  needs_review: false
+  note: ""
+- file: 2021-01-25-the-open-library-of-humanities-and-brexit-vat-position.md
+  title: "The Open Library of Humanities and Brexit: VAT Position"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2021-02-03-my-resignation-as-an-external-examiner-at-the-university-of-leicester-in-the-wake-of-proposed-cuts-to-english.md
+  title: "My resignation as an external examiner at the University of Leicester in the wake of proposed cuts to English"
+  old: []
+  new: [Higher Education]
+  needs_review: false
+  note: ""
+- file: 2021-02-17-the-publishers-associations-impact-assessment-on-oa.md
+  title: "The Publisher's Association's impact assessment on OA is pretty much as you'd expect"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2021-02-22-the-social-network-of-the-london-review-of-books.md
+  title: "The social network of the London Review of Books"
+  old: []
+  new: [Digital Humanities, Literature]
+  needs_review: false
+  note: ""
+- file: 2021-03-02-oa-books-being-reprinted-under-cc-by-license.md
+  title: "OA books being reprinted under CC BY license"
+  old: []
+  new: [Copyright and Licensing, Open Access]
+  needs_review: false
+  note: ""
+- file: 2021-03-18-shielding-is-being-eased-again-heres-why-this-is-so-frightening.md
+  title: "Shielding is being eased again. Here's why this is so frightening."
+  old: []
+  new: [Health, Politics]
+  needs_review: false
+  note: ""
+- file: 2021-03-27-how-to-fix-a-broken-crumar-bit99-synthesizer.md
+  title: "How to fix a broken Crumar Bit99 synthesizer"
+  old: []
+  new: [Music, Technology]
+  needs_review: false
+  note: ""
+- file: 2021-04-08-software-as-a-service-and-commodity-fetishism.md
+  title: "Subscriptions for software and commodity fetishism"
+  old: []
+  new: [Technology, Philosophy]
+  needs_review: false
+  note: "Tech commentary on software subscription models read through Marxian critical theory (commodity fetishism)."
+- file: 2021-04-13-moog-minitaur-the-editor-and-exclusive-usb-lock.md
+  title: "Moog Minitaur: the editor and exclusive USB lock"
+  old: []
+  new: [Music, Technology]
+  needs_review: false
+  note: ""
+- file: 2021-04-13-questions-and-answers-from-uksg-on-opening-the-future.md
+  title: "Questions and Answers from UKSG on Opening the Future"
+  old: []
+  new: [Open Access, Conferences]
+  needs_review: false
+  note: ""
+- file: 2021-04-28-an-update-on-the-reprint-of-my-book.md
+  title: "An update on the reprint of my book"
+  old: []
+  new: [Copyright and Licensing, Open Access]
+  needs_review: false
+  note: ""
+- file: 2021-05-03-coalition-s-endorsing-subscribe-to-open-is-a-great-start-we-need-the-same-thinking-about-books-from-the-beginning.md
+  title: "cOAlition S endorsing Subscribe to Open is a great start. We need the same thinking about books from the beginning."
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2021-05-15-while-the-government-introduces-new-freedom-of-speech-rules-at-universities-the-biggest-threat-to-academic-freedom-remains-their-insistence-on-the-financial-destabilization-of-institutions.md
+  title: "While the government introduces new freedom of speech rules at universities, the biggest threat to academic freedom remains their insistence on the financial destabilization of institutions"
+  old: []
+  new: [Higher Education]
+  needs_review: false
+  note: ""
+- file: 2021-05-21-whats-happening-at-the-moment-with-open-access-books.md
+  title: "What’s happening at the moment with open-access books?"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2021-06-05-when-and-why-did-paper-become-white-and-why-was-white-paper-so-valued.md
+  title: "When and why did paper become white and why was white paper so valued?"
+  old: []
+  new: [Literature]
+  needs_review: false
+  note: "Book-history/material-texts research for the Paper Thin monograph; no dedicated book-history category, so Literature is the closest canonical fit."
+- file: 2021-06-12-on-the-chromoclasm.md
+  title: "On the Chromoclasm, the absence of colour, and notes towards a translation of Michel Pastoureau's ‘L’incolore n’existe Pas’"
+  old: []
+  new: [Literature]
+  needs_review: true
+  note: "Cultural/art history of colour (Pastoureau translation notes) as part of the Paper Thin book-history research; no canonical category fits closely, so Literature chosen as nearest, but genuinely uncertain."
+- file: 2021-06-28-the-history-of-studying-english-at-birkbeck.md
+  title: "Birkbeck: The Oldest University English Department in the World? (and a new Oscar Wilde lecture at Birkbeck)"
+  old: []
+  new: [Literature, Academia]
+  needs_review: false
+  note: "Institutional/disciplinary history of English literature as a university subject, plus an archival Oscar Wilde find."
+- file: 2021-07-03-thinking-about-uk-phd-examinations.md
+  title: "Thinking about UK Ph.D. examinations"
+  old: []
+  new: [Academia]
+  needs_review: false
+  note: ""

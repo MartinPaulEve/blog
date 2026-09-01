@@ -1,0 +1,129 @@
+prompt_version: 1
+batch: batch-2016-3
+posts:
+- file: 2016-08-12-computational-reading-as-reading-against-the-reader.md
+  title: "Computational reading as 'reading against the reader'"
+  old: []
+  new: [Digital Humanities, Literature]
+  needs_review: false
+  note: ""
+- file: 2016-08-16-arent-you-just-being-driven-by-technology.md
+  title: "Aren't you just being driven by technology?"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2016-08-24-paying-it-forward-to-fund-scholarly-communications.md
+  title: "'Paying it forward' to fund scholarly communications?"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2016-08-26-why-open-book-publishers-for-my-next-book.md
+  title: "Why Open Book Publishers for my next book?"
+  old: []
+  new: [Open Access, Academia]
+  needs_review: false
+  note: ""
+- file: 2016-09-14-of-latex-and-labour.md
+  title: "Of LaTeX and labour"
+  old: []
+  new: [Publishing Technology, Academia]
+  needs_review: false
+  note: ""
+- file: 2016-10-03-a-few-initial-notes-on-david-golumbias-marxism-and-open-access-in-the-humanities.md
+  title: "A few initial notes on David Golumbia's 'Marxism and Open Access in the Humanities'"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2016-10-06-now-accepting-proposals-to-new-horizons-in-contemporary-writing-series.md
+  title: "Now accepting proposals to 'New Horizons in Contemporary Writing' series"
+  old: []
+  new: [Literature, Academia]
+  needs_review: false
+  note: "Call for book-series proposals, not a conference CFP, so no Conferences."
+- file: 2016-10-18-more-on-my-experience-with-open-book-publishers.md
+  title: "More on my experience with Open Book Publishers"
+  old: []
+  new: [Open Access, Academia]
+  needs_review: false
+  note: ""
+- file: 2016-10-20-my-new-book-literature-against-criticism-is-published-today.md
+  title: "My new book, Literature Against Criticism, is published today"
+  old: []
+  new: [Publications, Literature]
+  needs_review: false
+  note: ""
+- file: 2016-11-04-arguments-counter-arguments-and-political-alignments-for-and-against-open-access.md
+  title: "Some of the arguments, counter-arguments, and political alignments for and against open access"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2016-11-06-but-the-public-dont-need-access-to-humanities-research.md
+  title: "'But the public don't need access to humanities research'"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2016-11-11-the-single-biggest-challenge-for-information-publishing-in-the-digital-age.md
+  title: "The single largest challenge for information publishing in the digital age"
+  old: []
+  new: [Scholarly Communications]
+  needs_review: true
+  note: "One-paragraph fragment on publishing economics and quality signalling; ambiguous between Scholarly Communications and Open Access. Chose the former as no OA model is specifically discussed."
+- file: 2016-11-18-questions-about-APC-free-models.md
+  title: "Questions about APC-free models"
+  old: []
+  new: [Open Access, Conferences]
+  needs_review: false
+  note: "Lightning-talk questions delivered at the Kansas conference, hence Conferences second."
+- file: 2016-11-19-next-book-project-the-aesthetics-of-metadata-redaction-reference-the-archive-in-contemporary-fictionnredaction-reference-the-archive-in-contemporary-fiction.md
+  title: "Next book project: The Aesthetics of Metadata: Redaction, Reference, & the Archive in Contemporary Fiction"
+  old: []
+  new: [Literature]
+  needs_review: false
+  note: "Work-in-progress announcement, not a published output, so no Publications."
+- file: 2016-11-24-what-we-mean-when-we-ask-whether-open-access-is-sustainable.md
+  title: "What we mean when we ask whether open access is sustainable"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2016-12-03-referring-elsevierrelx-to-the-competition-and-markets-authority.md
+  title: "Referring Elsevier/RELX to the Competition and Markets Authority"
+  old: []
+  new: [Open Access]
+  needs_review: false
+  note: ""
+- file: 2016-12-06-five-un-busted-aspects-of-the-tef.md
+  title: "Five un-busted aspects of the TEF"
+  old: []
+  new: [Higher Education]
+  needs_review: false
+  note: ""
+- file: 2016-12-08-points-from-my-first-reading-of-the-consultation-on-the-second-research-excellence-framework.md
+  title: "Points from my first reading of the Consultation on the Second Research Excellence Framework"
+  old: []
+  new: [Higher Education]
+  needs_review: false
+  note: ""
+- file: 2016-12-09-the-thing-thats-gone-missing-in-the-revisions-to-the-ref-consultation-between-february-and-december-2016.md
+  title: "The thing that's gone missing in the revisions to the REF consultation between February and December 2016: the 5* category"
+  old: []
+  new: [Higher Education]
+  needs_review: false
+  note: ""
+- file: 2016-12-13-introducing-cemmento-a-digital-preservation-tool-for-annotations.md
+  title: "Introducing Cemmento: A digital preservation tool for annotations"
+  old: []
+  new: [Digital Preservation, Programming]
+  needs_review: false
+  note: ""
+- file: 2016-12-16-my-2016-academic-year-in-review.md
+  title: "My 2016 academic year in review"
+  old: []
+  new: [Personal, Academia]
+  needs_review: false
+  note: "Year-in-review that is substantially a professional review (books, articles, talks), so Academia added per rule."

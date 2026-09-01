@@ -1,0 +1,105 @@
+prompt_version: 1
+batch: batch-2007-2
+posts:
+- file: 2007-05-24-csrf-one-time-token-bypass-using-ajax-and-xss.md
+  title: "(C)SRF one-time token bypass using AJAX and XSS"
+  old: [Technology, InfoSec]
+  new: [Information Security]
+  needs_review: false
+  note: ""
+- file: 2007-05-25-dotnetids.md
+  title: "dotnetids"
+  old: [Technology, InfoSec, .NET]
+  new: [Information Security, Programming]
+  needs_review: false
+  note: ""
+- file: 2007-06-05-a-bad-day-for-browsers.md
+  title: "A bad day for browsers"
+  old: [Technology, InfoSec]
+  new: [Information Security]
+  needs_review: false
+  note: ""
+- file: 2007-06-13-firefox-nested-comment-fragmented-xss.md
+  title: "Firefox nested comment fragmented XSS"
+  old: [Technology, InfoSec]
+  new: [Information Security]
+  needs_review: false
+  note: ""
+- file: 2007-06-15-netids-can-now-detect-fragmented-xss.md
+  title: ".NETIDS can now detect fragmented XSS"
+  old: [Technology, InfoSec, .NET]
+  new: [Information Security, Programming]
+  needs_review: false
+  note: ""
+- file: 2007-06-19-csrf-being-used-in-latest-ipb-vuln-what-about-php-web-request.md
+  title: "CSRF being used in latest IPB vuln – what about PHP web request?"
+  old: [Technology, InfoSec, PHP]
+  new: [Information Security]
+  needs_review: false
+  note: "PHP hint (Programming) not taken: the code shown is an exploit under analysis, not software development."
+- file: 2007-06-19-netids-v-0-1-0-0-released.md
+  title: ".NETIDS v.0.1.0.0 released"
+  old: [Technology, InfoSec, PHP]
+  new: [Information Security, Programming]
+  needs_review: false
+  note: ""
+- file: 2007-06-25-c-mysql-dataexecutor-class.md
+  title: "C# MySql DataExecutor class"
+  old: [Technology, InfoSec, .NET]
+  new: [Programming]
+  needs_review: false
+  note: "Overrode InfoSec hint: the post is purely a C#/MySQL utility class listing with no security content."
+- file: 2007-06-26-c-dataexecutor-class-available.md
+  title: "C# DataExecutor class available"
+  old: [Technology, .NET]
+  new: [Programming]
+  needs_review: false
+  note: ""
+- file: 2007-06-26-httponly-cookies-in-net-2-0.md
+  title: "HttpOnly cookies in .NET 2.0"
+  old: [Technology, .NET]
+  new: [Information Security, Programming]
+  needs_review: false
+  note: "A .NET configuration tip whose entire point is XSS mitigation, so Information Security leads."
+- file: 2007-06-26-netids-v-0-1-1-0-released.md
+  title: ".NETIDS v.0.1.1.0 released"
+  old: [Technology, InfoSec, .NET]
+  new: [Information Security, Programming]
+  needs_review: false
+  note: ""
+- file: 2007-07-05-javascript-internal-numerical-representations.md
+  title: "JavaScript internal numerical representations"
+  old: [Technology, InfoSec]
+  new: [Programming, Information Security]
+  needs_review: false
+  note: ""
+- file: 2007-07-05-obfuscated-fun.md
+  title: "Obfuscated fun"
+  old: [Technology, InfoSec]
+  new: [Information Security]
+  needs_review: false
+  note: ""
+- file: 2007-07-05-some-evil-stuff-from-sla-ckers.md
+  title: "Some evil stuff from sla.ckers"
+  old: [Technology, InfoSec]
+  new: [Information Security]
+  needs_review: false
+  note: ""
+- file: 2007-11-09-xss-for-the-common-good-greasemousey.md
+  title: "XSS for the common good - GreaseMousey"
+  old: [Technology, InfoSec]
+  new: [Information Security, Programming]
+  needs_review: false
+  note: ""
+- file: 2007-11-17-ie7-javascript-modify-the-dom-without-crashing-the-browser.md
+  title: "IE7 Javascript - modify the DOM without crashing the browser"
+  old: [Technology]
+  new: [Programming]
+  needs_review: false
+  note: "Overrode Technology hint: this is a JavaScript/DOM coding workaround, so Programming is the specific fit."
+- file: 2007-11-27-right-to-left-and-left-to-right-characters.md
+  title: "Right-To-Left and Left-To-Right characters"
+  old: [Technology, InfoSec]
+  new: [Information Security]
+  needs_review: false
+  note: ""

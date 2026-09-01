@@ -1,0 +1,141 @@
+prompt_version: 1
+batch: batch-2023-1
+posts:
+- file: 2023-02-13-getting-to-grips-with-airflow-on-amazon-aws.md
+  title: "Getting to grips with Airflow on Amazon AWS"
+  old: []
+  new: [Programming]
+  needs_review: false
+  note: ""
+- file: 2023-03-09-a-data-pipeline-with-apache-airflow-and-dask.md
+  title: "A data pipeline with Apache Airflow and Dask"
+  old: []
+  new: [Programming]
+  needs_review: false
+  note: ""
+- file: 2023-03-19-integration-testing-locally-and-on-gitlab-ci-using-localstack.md
+  title: "Integration testing locally and on GitLab CI using LocalStack"
+  old: []
+  new: [Programming]
+  needs_review: false
+  note: ""
+- file: 2023-03-25-on-application-observability-in-serverless-cloud-contexts.md
+  title: "On application observability in serverless cloud contexts"
+  old: []
+  new: [Programming]
+  needs_review: false
+  note: ""
+- file: 2023-05-07-on-pain-and-subjectivity.md
+  title: "On pain and subjectivity"
+  old: []
+  new: [Health, Personal]
+  needs_review: false
+  note: ""
+- file: 2023-07-20-the-latest-ithaka-sr-draft-report-is-hugely-regressive.md
+  title: "The latest Ithaka S+R draft report is hugely regressive"
+  old: []
+  new: [Scholarly Communications, Open Access]
+  needs_review: false
+  note: ""
+- file: 2023-07-24-sunsetting-martinevecom.md
+  title: "Sunsetting martineve.com"
+  old: []
+  new: [Personal]
+  needs_review: false
+  note: ""
+- file: 2023-07-26-we-are-terrible-at-online-identity-management-or-using-emails-as-an-identifier-was-a-bad-move.md
+  title: "We Are Terrible at Online Identity Management (or: Using Emails as An Identifier Was a Bad Move)"
+  old: []
+  new: [Technology, Information Security]
+  needs_review: false
+  note: ""
+- file: 2023-07-26-whats-the-point-of-having-open-scholarly-infrastructures-and-how-do-we-test-their-resilience.md
+  title: "What’s the point of having open scholarly infrastructures and how do we test their resilience?"
+  old: []
+  new: [Scholarly Communications]
+  needs_review: false
+  note: ""
+- file: 2023-07-28-rules-vs-principles-in-posi.md
+  title: "Rules vs. Principles in POSI"
+  old: []
+  new: [Scholarly Communications]
+  needs_review: false
+  note: ""
+- file: 2023-08-10-converting-excel-date-serial-numbers-to-python-datetime-format.md
+  title: "Converting Excel date serial numbers to Python datetime format"
+  old: []
+  new: [Programming]
+  needs_review: false
+  note: ""
+- file: 2023-09-06-new-wheels.md
+  title: "New wheels"
+  old: []
+  new: [Health, Personal]
+  needs_review: false
+  note: ""
+- file: 2023-09-08-points-mean-prizes.md
+  title: "Points mean prizes"
+  old: []
+  new: [Personal, Health]
+  needs_review: false
+  note: ""
+- file: 2023-09-12-retract-this.md
+  title: "Retract this!"
+  old: []
+  new: [Scholarly Communications]
+  needs_review: false
+  note: ""
+- file: 2023-09-14-why-lever-press.md
+  title: "Why Lever Press?"
+  old: []
+  new: [Open Access, Publications]
+  needs_review: false
+  note: ""
+- file: 2023-09-21-citations-and-addressability.md
+  title: "Citations and addressability"
+  old: []
+  new: [Scholarly Communications]
+  needs_review: false
+  note: ""
+- file: 2023-09-24-creating-a-voice-activated-ai-responder-in-python.md
+  title: "Creating a voice-activated AI responder in Python"
+  old: []
+  new: [Programming, Artificial Intelligence]
+  needs_review: false
+  note: ""
+- file: 2023-10-12-self-referential-language-counting.md
+  title: "Self-referential language counting (I learned another word today bringing my total to fourteen words and twenty letters)"
+  old: []
+  new: [Programming]
+  needs_review: false
+  note: ""
+- file: 2023-10-20-connecting-to-aws-opensearch-serverless-using-python.md
+  title: "Connecting to AWS OpenSearch Serverless using Python"
+  old: []
+  new: [Programming]
+  needs_review: false
+  note: ""
+- file: 2023-11-09-blocking-my-crawl.md
+  title: "Blocking My Crawl"
+  old: []
+  new: [Programming, Scholarly Communications]
+  needs_review: false
+  note: ""
+- file: 2023-12-07-land-of-hope-and-tolerance.md
+  title: "Land of hope and tolerance"
+  old: []
+  new: [Politics]
+  needs_review: false
+  note: ""
+- file: 2023-12-11-my-2023-year-in-review.md
+  title: "My 2023 year in review"
+  old: []
+  new: [Personal, Academia]
+  needs_review: false
+  note: ""
+- file: 2023-12-13-a-year-of-looking-in-on-academia.md
+  title: "A year of looking in on academia"
+  old: []
+  new: [Academia, Personal]
+  needs_review: false
+  note: ""

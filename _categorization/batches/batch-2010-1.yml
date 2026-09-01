@@ -1,0 +1,111 @@
+prompt_version: 1
+batch: batch-2010-1
+posts:
+- file: 2010-03-02-sshsplit-a-dynamic-tunnel-multiplexer.md
+  title: "sshsplit: a dynamic tunnel multiplexer"
+  old: [Technology, InfoSec]
+  new: [Programming, Information Security]
+  needs_review: false
+  note: "Overrode Technology hint: sshsplit is the author's own software project, explicitly named in the Programming criteria; ssh tunnelling/privacy keeps Information Security."
+- file: 2010-03-11-sshsplit-featured.md
+  title: "sshsplit featured"
+  old: [Technology, Open Access]
+  new: [Programming]
+  needs_review: false
+  note: "Overrode both hints: post announces the author's own Python project (sshsplit) being featured in an Ubuntu app challenge; the Open Access legacy label is a mislabel with no OA content."
+- file: 2010-03-13-thomas-pynchon-critical-bibliography-zotero-group.md
+  title: "Thomas Pynchon critical bibliography Zotero group"
+  old: [Literature, Technology, Thomas Pynchon, Open Access]
+  new: [Thomas Pynchon, Technology]
+  needs_review: false
+  note: "Dropped Literature per Pynchon co-occurrence rule (no substantive non-Pynchon literature) and Open Access (Zotero is free software, not OA policy); Technology kept for the Zotero tool discussion."
+- file: 2010-03-14-dark-cloud-looming.md
+  title: "Dark cloud looming"
+  old: [Technology, Open Access]
+  new: [Technology]
+  needs_review: false
+  note: "Dropped Open Access hint: post is tech commentary on the Twitter outage, cloud centralization, and vendor lock-in; no OA content."
+- file: 2010-03-15-humanities-map.md
+  title: "Humanities Map"
+  old: [Literature, Academia]
+  new: [Academia, Conferences]
+  needs_review: false
+  note: "Dropped Literature hint: the post is a discipline-map artifact from the Digital Researcher 2010 workshop at the British Library; added Conferences as a workshop-attended artifact."
+- file: 2010-03-16-british-library-usage-made-clear.md
+  title: "British Library usage made clear"
+  old: [Personal, Academia]
+  new: [Personal, Academia]
+  needs_review: false
+  note: ""
+- file: 2010-03-17-can-we-avoid-the-s-word-regarding-david-foster-wallace.md
+  title: "Can we avoid the S word regarding David Foster Wallace?"
+  old: [Literature, David Foster Wallace]
+  new: [Literature]
+  needs_review: false
+  note: ""
+- file: 2010-03-17-david-foster-wallace-archive-material.md
+  title: "David Foster Wallace archive material"
+  old: [Literature, David Foster Wallace]
+  new: [Literature]
+  needs_review: false
+  note: ""
+- file: 2010-03-19-international-pynchon-week-2010-abstracts.md
+  title: "International Pynchon Week 2010 Abstracts"
+  old: [Literature, Thomas Pynchon, Conferences]
+  new: [Conferences, Thomas Pynchon, Literature]
+  needs_review: false
+  note: "Literature retained despite the Pynchon rule because the abstract is a substantive parallel analysis of DeLillo's Underworld (non-Pynchon literature)."
+- file: 2010-03-22-undergraduates-in-the-british-library-reading-rooms.md
+  title: "Undergraduates in the British Library reading rooms"
+  old: [Politics, Academia]
+  new: [Academia]
+  needs_review: false
+  note: "Dropped Politics hint: this is a debate about British Library reading-room access for undergraduates, i.e. academic-life commentary rather than political commentary beyond the university."
+- file: 2010-03-27-implementing-coins.md
+  title: "Implementing COinS"
+  old: [Technology, Open Access]
+  new: [Scholarly Communications]
+  needs_review: false
+  note: "Overrode both hints: COinS is embedded bibliographic/citation metadata (OpenURL ContextObjects), squarely metadata/infrastructure; Technology is reserved for tech with no more specific category."
+- file: 2010-04-03-using-tech-to-help-with-structure.md
+  title: "Using tech to help with structure"
+  old: [Technology]
+  new: [Academia, Technology]
+  needs_review: false
+  note: "Added Academia: the post is chiefly a scholarly working-methods tip for structuring academic prose, using word-processor headings as the vehicle."
+- file: 2010-04-04-applying-for-ahrc-bgp-doctoral-grants.md
+  title: "Applying for AHRC BGP Doctoral Grants"
+  old: [Academia]
+  new: [Academia]
+  needs_review: false
+  note: ""
+- file: 2010-04-07-upcoming-performance-lucy-and-martha-fine-bone-china.md
+  title: "Upcoming performance: Lucy and Martha: Fine Bone China"
+  old: [Performance]
+  new: [Music]
+  needs_review: true
+  note: "Followed the Performance->Music remap, but this is performance art (a premiere at the Plateaux festival), not music-making; it sits between Music (performances) and Literature (theatre). Flagged for a human call."
+- file: 2010-04-26-poc-code-for-facebook-friend-profile-gatherer.md
+  title: "PoC Code for Facebook Friend Profile Gatherer"
+  old: [Technology, InfoSec]
+  new: [Information Security, Programming]
+  needs_review: false
+  note: "Overrode Technology hint to Programming: the post is a security PoC built from JavaScript and a Python CGI script, matching the 2008 SSL server calibration pairing."
+- file: 2010-04-28-ousu-freedom-of-information-requests.md
+  title: "OUSU Freedom of Information requests"
+  old: [Politics]
+  new: [Politics, Higher Education]
+  needs_review: false
+  note: "Added Higher Education: beyond the FOI angle, the substance is tuition fees, the Browne review, and the Russell Group submission."
+- file: 2010-05-01-running-zotero-on-ubuntu-lucid.md
+  title: "Running Zotero on Ubuntu Lucid"
+  old: [Technology, Open Access]
+  new: [Linux]
+  needs_review: false
+  note: "Overrode both hints: this is a Linux fix-it post (Zotero/Java breakage on Kubuntu Lucid), which per the co-occurrence rules gets Linux alone; the Open Access label is a mislabel."
+- file: 2010-05-10-new-david-foster-wallace-book-fall-2010.md
+  title: "New David Foster Wallace book Fall 2010"
+  old: [Literature, David Foster Wallace]
+  new: [Literature]
+  needs_review: false
+  note: ""
