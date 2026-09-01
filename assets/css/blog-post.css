@@ -137,6 +137,10 @@
     margin-right: 0.4rem;
 }
 
+.post-description.post-categories {
+    margin: 1.5rem 0 0;
+}
+
 .post-author {
     display: flex;
     align-items: center;
