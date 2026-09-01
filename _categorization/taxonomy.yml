@@ -1,0 +1,135 @@
+# Canonical category taxonomy for eve.gd — 24 categories.
+# Every post gets 1–3 of these, most salient first. Exact strings, case-sensitive.
+categories:
+  - name: Open Access
+    criteria: >
+      Open access advocacy, economics, and policy: the Open Library of Humanities,
+      Plan S, APCs/BPCs, OA monographs, learned societies and OA, Subscribe to Open,
+      UKRI/HEFCE OA policy and consultations, OA publishing models and their critique.
+    examples: ["Gold Open Access does NOT mean: 'author pays'", "Starting an Open Access Journal: a step-by-step guide part 1"]
+  - name: Higher Education
+    criteria: >
+      Higher education policy and university politics: REF, TEF, the HE Green Paper
+      series, tuition fees, Ofqual/exams policy, academic freedom, strikes and UUK,
+      university governance and funding.
+    examples: ["HE Green Paper: response to question 1", "The Stern review of REF"]
+  - name: Academia
+    criteria: >
+      Academic life and practice: PhD advice, peer review, prestige and metrics,
+      viva and supervision, academic blogging and careers, publishing practice from
+      the academic's side, scholarly working methods.
+    examples: ["How long does it take to examine a PhD thesis?", "Reviewing with Kindness"]
+  - name: Scholarly Communications
+    criteria: >
+      Scholarly infrastructure and metadata: Crossref, DOIs, citations, ORCID, POSI,
+      persistent identifiers, the scholarly record, repository and Knowledge Commons
+      Works integration, ATProto/FAIR signposting for scholarship.
+    examples: ["Are metadata facts?", "Thinking through citation resolution"]
+  - name: Digital Preservation
+    criteria: >
+      Preservation of digital scholarship and culture: CLOCKSS, web archiving,
+      content drift, preservation ethics and practice.
+    examples: ["Preservation as a Memento Mori and Matter of Ethics", "History and Digital Preservation"]
+  - name: Publishing Technology
+    criteria: >
+      The tools and formats of scholarly publishing: OJS, meTypeset, CaSSius,
+      JATS/XML, Janeway, typesetting workflows, PDF generation for scholarship.
+    examples: ["Building a real XML-first (XML-in) workflow for scholarly typesetting", "CaSSius: a PDF typesetter using CSS regions"]
+  - name: Literature
+    criteria: >
+      Literary criticism and reading (other than Thomas Pynchon): David Foster
+      Wallace, David Mitchell, Russell Hoban, contemporary fiction, the 2022
+      novel-survey series, metamodernism, poetry, theatre and reviews.
+    examples: ["The Conservatism of Cloud Atlas", "An introduction to the poetry of Emily Dickinson"]
+  - name: Thomas Pynchon
+    criteria: >
+      All Pynchon scholarship and news: readings, Orbit journal, International
+      Pynchon Week, bibliography, Pynchon in Public Day.
+    examples: ["What is Thomas Pynchon's Gravity's Rainbow about?", "Is this a picture of Thomas Pynchon aged 51?"]
+  - name: Philosophy
+    criteria: >
+      Critical theory and philosophy: Adorno (including the Greek terminology
+      series), Foucault, Wittgenstein, Derrida, Butler, Agamben, political
+      philosophy and ethics as theory.
+    examples: ["Adorno terminology: τέχνη", "Happy 85th Birthday, Michel Foucault"]
+  - name: Politics
+    criteria: >
+      Political commentary beyond the university: WikiLeaks, prisons and justice,
+      NHS politics, FOI, elections, assisted dying as policy, civil liberties.
+    examples: ["Wikileaks is about capitalist paradigm shift, not single government overthrow", "Some thoughts on repealing the Human Rights Act"]
+  - name: Technology
+    criteria: >
+      General technology not better covered by Information Security, Linux,
+      Programming, or Artificial Intelligence: hardware, Android, networking,
+      gadgets, web platforms, internet culture and commentary. Use only when no
+      more specific technical category fits, or for broad tech commentary.
+    examples: ["Good computer networking kit", "Mesh on a budget: converting RBR50 to RBS50 units"]
+  - name: Information Security
+    criteria: >
+      Security research and practice: the 2007–09 XSS/.NETIDS corpus, penetration
+      techniques, Tor, fail2ban, YubiKey, cryptography, secrets handling,
+      vulnerability commentary.
+    examples: ["XSS Cheat Sheet", "How to use YubiKey for authentication and sudo on Ubuntu 24.04"]
+  - name: Linux
+    criteria: >
+      Linux distribution, desktop, and server how-tos and fixes; sysadmin notes on
+      Ubuntu/Fedora/NixOS; hardware-under-Linux troubleshooting.
+    examples: ["Moving from Ubuntu to Fedora", "Fixing headphone jack on Toshiba Satellite C650D under Ubuntu Linux Maverick"]
+  - name: Programming
+    criteria: >
+      Code and software development: C#/.NET, Python, Django, PHP, Rust, JavaScript,
+      AWS/cloud engineering, and the author's own software projects (sshsplit,
+      eprintsCV, Rockaby, crossword tools).
+    examples: ["C# MySql DataExecutor class", "Using Django ORM, Click, and Rich to create useful command-line python apps"]
+  - name: Digital Humanities
+    criteria: >
+      Computational approaches to humanities questions: computational reading,
+      visualization, corpus analysis, Close Reading with Computers, DH as a field.
+    examples: ["Visualizing Gravity's Rainbow", "Is what I do 'digital humanities'?"]
+  - name: Artificial Intelligence
+    criteria: >
+      AI and LLMs: detectors, training data and licensing, Claude/agent tooling,
+      AI ethics and labour, AI in scholarship.
+    examples: ["On (not) using AI detectors", "The real ethics of AI are about the labour underpinning it"]
+  - name: Copyright and Licensing
+    criteria: >
+      Copyright, Creative Commons, licensing exemptions, text-and-data mining law,
+      moral rights, dual licensing, third-party rights in publishing.
+    examples: ["Signing over copyright vs. licensing your journal articles", "What is actually licensed in print/digital dual-licensed books?"]
+  - name: Piracy and Shadow Libraries
+    criteria: >
+      Piracy scenes and shadow libraries as research subjects: the Warez book,
+      LibGen, Sci-Hub, piracy ethics.
+    examples: ["Citing Pirate Artifacts", "A critical bibliography about LibGen"]
+  - name: Music
+    criteria: >
+      Music-making and listening: performances, releases (Tici Taci), synthesizers,
+      studio and gear, music software.
+    examples: ["On music, life, Tici Taci, and a new release", "How to fix a broken Crumar Bit99 synthesizer"]
+  - name: Health
+    criteria: >
+      Illness and health from lived experience: chronic illness, vasculitis and
+      stroke, hearing loss, rheumatoid arthritis, shielding and COVID, Evusheld,
+      hospital episodes, disability.
+    examples: ["On ten years of chronic illness", "Admission, meds, vascular access..."]
+  - name: Personal
+    criteria: >
+      Life outside (or across) work: year-in-review posts, job moves, PhD
+      milestones as life events, family, dogs, miscellany that is chiefly about
+      the author's life.
+    examples: ["My 2014 round-up", "Thinking About Dogs"]
+  - name: Teaching
+    criteria: >
+      Pedagogy: course design, undergraduate teaching, assessment and exams,
+      educational technology in the classroom.
+    examples: ["Teaching undergraduates to use secondary sources", "Designing a UK undergraduate English literature course"]
+  - name: Conferences
+    criteria: >
+      Conference papers given, event reports and write-ups, CFPs, talks,
+      workshops delivered or attended.
+    examples: ["International Pynchon Week: Day 1", "Conference Paper: 'The Future of Peer Review'"]
+  - name: Publications
+    criteria: >
+      Announcements of the author's published work: "Publication: ..." posts, book
+      launches, journal articles, chapters, and reviews appearing in print.
+    examples: ["Book: Pynchon and Philosophy: Wittgenstein, Foucault and Adorno", "My book, Password, is out now!"]

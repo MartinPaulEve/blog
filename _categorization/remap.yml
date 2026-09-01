@@ -1,0 +1,107 @@
+# Legacy category value → canonical taxonomy name (or DROP to discard).
+# These remapped values are supplied to batch agents as HINTS only; content-based
+# judgment always wins. Generated from the 103 distinct values in _posts front matter.
+remap:
+  Academia: Academia
+  Technology: Technology
+  Open Access: Open Access
+  Literature: Literature
+  Thomas Pynchon: Thomas Pynchon
+  Politics: Politics
+  InfoSec: Information Security
+  Philosophy: Philosophy
+  Output: Publications
+  Conferences: Conferences
+  politics: Politics
+  HE: Higher Education
+  green paper: Higher Education
+  Personal: Personal
+  Theodor Adorno: Philosophy
+  Linux: Linux
+  Publications: Publications
+  Conference Papers: Conferences
+  .NET: Programming
+  Teaching: Teaching
+  Michel Foucault: Philosophy
+  Android: Technology
+  open access: Open Access
+  David Foster Wallace: Literature
+  OA: Open Access
+  PHP: Programming
+  Ludwig Wittgenstein: Philosophy
+  Public Engagement: Academia
+  Django: Programming
+  Max Horkheimer: Philosophy
+  meTypeset: Publishing Technology
+  Performance: Music
+  personal: Personal
+  Mendeley: Technology
+  Media: Publications
+  scholarly communications: Scholarly Communications
+  tech: Technology
+  EdTech: Technology
+  typesetting: Publishing Technology
+  publication: Publications
+  books: Publications
+  copyright: Copyright and Licensing
+  academic freedom: Higher Education
+  peer review: Academia
+  PDF: Publishing Technology
+  publishing: Scholarly Communications
+  REF: Higher Education
+  literature: Literature
+  talks: Conferences
+  scholcomms: Scholarly Communications
+  Samuel Beckett: Literature
+  education: Teaching
+  writing: Academia
+  academia: Academia
+  policy: Higher Education
+  Pynchon: Thomas Pynchon
+  DH: Digital Humanities
+  style: Scholarly Communications
+  Jacques Derrida: Philosophy
+  SSL: Information Security
+  technology: Technology
+  Rockaby: Programming
+  JATS: Publishing Technology
+  PhD: Academia
+  exams: Teaching
+  HTML: Programming
+  conferences: Conferences
+  OLH: Open Access
+  BPC: Open Access
+  speed: DROP
+  acceleration: DROP
+  Jennifer Egan: Literature
+  wordpress: Technology
+  Judith Butler: Philosophy
+  metrics: Academia
+  QR: Higher Education
+  ethics: Philosophy
+  abstracts: Academia
+  societies: Open Access
+  Mono: Programming
+  Publishing: Scholarly Communications
+  statistics: DROP
+  impact factor: Academia
+  Elsevier: Open Access
+  regex: Programming
+  programming: Programming
+  software: Programming
+  digital humanities: Digital Humanities
+  review: DROP
+  security: Information Security
+  David Mitchell: Literature
+  SQL: Programming
+  Other: DROP
+  NHS: Politics
+  FOI: Politics
+  Green Paper: Higher Education
+  XML: Publishing Technology
+  digital preservation: Digital Preservation
+  APCs: Open Access
+  TEF: Higher Education
+  Digital Humanities: Digital Humanities
+  philosophy: Philosophy
+  methodology: Academia
