@@ -150,6 +150,36 @@ def blog_collection(blog_root: Path) -> str | None:
     return str(value) if value else None
 
 
+def pending_posts(posts_dir: Path) -> list[Path]:
+    """Every post with no kcworks: front-matter deposit, in filename
+    order — the queue for a backfill run."""
+    pending = []
+    for path in sorted(Path(posts_dir).glob("*.md")):
+        match = FRONT_MATTER_RE.match(path.read_text(encoding="utf-8"))
+        front_matter = yaml.safe_load(match.group(1)) if match else None
+        if not (front_matter or {}).get("kcworks"):
+            pending.append(path)
+    return pending
+
+
+def record_deposit(path: Path, url: str) -> None:
+    """Stamp `kcworks: <url>` into a post's front matter, leaving every
+    other byte of the file untouched; a post that already carries a
+    kcworks: entry is left alone."""
+    path = Path(path)
+    text = path.read_text(encoding="utf-8")
+    match = FRONT_MATTER_RE.match(text)
+    if not match:
+        raise ValueError(f"{path} has no YAML front matter")
+    if (yaml.safe_load(match.group(1)) or {}).get("kcworks"):
+        return
+    insert_at = match.end(1)
+    path.write_text(
+        f"{text[:insert_at]}\nkcworks: {url}{text[insert_at:]}",
+        encoding="utf-8",
+    )
+
+
 def deposited_records(posts_dir: Path) -> list[tuple[Path, str]]:
     """(post path, record id) for every post with a kcworks: front-matter
     deposit URL, in filename order."""

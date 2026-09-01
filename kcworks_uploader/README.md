@@ -15,6 +15,7 @@ From the blog root, via the driver script:
 ./kcworks.sh deposit _posts/YYYY-MM-DD-slug.md    # create a draft (default)
 ./kcworks.sh deposit --live _posts/YYYY-MM-DD-slug.md   # publish immediately
 ./kcworks.sh publish <uploads-url-or-record-id>   # publish a reviewed draft
+./kcworks.sh backfill                             # deposit every pending post
 ```
 
 Once a deposit is published, record it in the post's front matter so the
@@ -27,6 +28,38 @@ kcworks: https://works.hcommons.org/records/<id>
 The signposting plugin emits this as `archivedAt` in the post's
 metadata.json (the KC Works record already points back through its
 canonical-URL identifier).
+
+## Backfilling the whole blog
+
+`./kcworks.sh backfill` works through every post that has no `kcworks:`
+front-matter record yet, publishing each one live (markdown + PDF, into
+the configured collection) and stamping the new record URL straight back
+into the post's front matter. Because the stamp is what marks a post as
+deposited, the run is resumable: interrupt it or hit failures, and
+re-running picks up exactly where it left off, retrying only what is
+missing.
+
+```sh
+./kcworks.sh backfill --dry-run     # list what would be deposited
+./kcworks.sh backfill --limit 5     # a cautious first batch
+./kcworks.sh backfill               # the lot (~10s per post)
+```
+
+Every outcome is appended as a JSON line to `kcworks-backfill.log` in
+the blog root (`--log PATH` to move it), so a long run can be audited
+afterwards — failures carry the full error:
+
+```sh
+grep '"failed"' kcworks-backfill.log
+```
+
+Options: `--delay SECONDS` spaces out deposits (default 10, which keeps
+well under the API rate limits — the client also honours `Retry-After`
+and backs off automatically on 429/5xx responses); `--limit N` caps the
+run; `--posts-dir`, `--collection`/`--no-collection`, `--no-doi`,
+`--base-url` and `--token` behave as for the other commands. The exit
+code is non-zero when anything failed; a run interrupted with Ctrl-C
+exits 130 and leaves the log and stamps intact.
 
 ## The blog collection
 

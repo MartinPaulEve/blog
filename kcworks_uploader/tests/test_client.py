@@ -6,10 +6,11 @@ BASE = "https://works.example.org/api"
 
 
 class FakeResponse:
-    def __init__(self, status_code, payload):
+    def __init__(self, status_code, payload, headers=None):
         self.status_code = status_code
         self._payload = payload
         self.text = str(payload)
+        self.headers = headers or {}
 
     def json(self):
         if self._payload is None:
@@ -160,9 +161,120 @@ class TestUploadFiles:
                 ): FakeResponse(500, {"message": "boom"})
             }
         )
-        client = KCWorksClient(BASE, "tok", session=session)
+        client = KCWorksClient(
+            BASE, "tok", session=session, sleep=lambda seconds: None
+        )
         with pytest.raises(KCWorksError, match="boom"):
             client.upload_files("abc", [md])
+
+
+class SequencedFakeSession(FakeSession):
+    """FakeSession whose routed responses are lists consumed in order.
+
+    The last response in a list keeps answering once the sequence is
+    exhausted, so retries beyond the scripted run see a stable server.
+    """
+
+    def _handle(self, method, url, **kwargs):
+        sequence = self.responses.get((method, url))
+        if isinstance(sequence, list):
+            response = sequence.pop(0) if len(sequence) > 1 else sequence[0]
+            self.sent[(method, url)] = kwargs
+            return response
+        return super()._handle(method, url, **kwargs)
+
+
+class TestRateLimitRetries:
+    def test_request_succeeds_after_a_429(self):
+        draft = {"id": "abc12-xyz34"}
+        session = SequencedFakeSession(
+            {
+                ("POST", f"{BASE}/records"): [
+                    FakeResponse(429, {"message": "rate limit exceeded"}),
+                    FakeResponse(201, draft),
+                ]
+            }
+        )
+        naps = []
+        client = KCWorksClient(
+            BASE, "tok", session=session, sleep=naps.append
+        )
+        assert client.create_draft({"metadata": {}}) == draft
+        assert naps  # the client waited before retrying
+
+    def test_retry_after_header_sets_the_wait(self):
+        session = SequencedFakeSession(
+            {
+                ("POST", f"{BASE}/records"): [
+                    FakeResponse(
+                        429,
+                        {"message": "slow down"},
+                        headers={"Retry-After": "17"},
+                    ),
+                    FakeResponse(201, {"id": "x"}),
+                ]
+            }
+        )
+        naps = []
+        client = KCWorksClient(
+            BASE, "tok", session=session, sleep=naps.append
+        )
+        client.create_draft({})
+        assert naps == [17.0]
+
+    def test_persistent_429_raises_after_retries(self):
+        session = SequencedFakeSession(
+            {
+                ("POST", f"{BASE}/records"): [
+                    FakeResponse(429, {"message": "rate limit exceeded"})
+                ]
+            }
+        )
+        client = KCWorksClient(
+            BASE, "tok", session=session, sleep=lambda seconds: None
+        )
+        with pytest.raises(KCWorksError, match="429"):
+            client.create_draft({})
+
+    def test_transient_503_is_retried(self):
+        session = SequencedFakeSession(
+            {
+                ("GET", f"{BASE}/records/rec1"): [
+                    FakeResponse(503, {"message": "maintenance"}),
+                    FakeResponse(200, {"id": "rec1"}),
+                ]
+            }
+        )
+        client = KCWorksClient(
+            BASE, "tok", session=session, sleep=lambda seconds: None
+        )
+        assert client.get_record("rec1") == {"id": "rec1"}
+
+    def test_successful_request_never_waits(self):
+        session = FakeSession(
+            {("POST", f"{BASE}/records"): FakeResponse(201, {"id": "x"})}
+        )
+        naps = []
+        client = KCWorksClient(
+            BASE, "tok", session=session, sleep=naps.append
+        )
+        client.create_draft({})
+        assert naps == []
+
+    def test_client_errors_are_not_retried(self):
+        session = SequencedFakeSession(
+            {
+                ("POST", f"{BASE}/records"): [
+                    FakeResponse(400, {"message": "validation error"}),
+                    FakeResponse(201, {"id": "should-not-be-reached"}),
+                ]
+            }
+        )
+        client = KCWorksClient(
+            BASE, "tok", session=session, sleep=lambda seconds: None
+        )
+        with pytest.raises(KCWorksError, match="validation error"):
+            client.create_draft({})
 
 
 class TestCollections:

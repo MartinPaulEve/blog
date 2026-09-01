@@ -13,6 +13,7 @@ dependencies = [
 kcworks-upload = "kcworks_uploader.cli:main"
 kcworks-publish = "kcworks_uploader.cli:publish_main"
 kcworks-collection = "kcworks_uploader.cli:collection_main"
+kcworks-backfill = "kcworks_uploader.cli:backfill_main"
 
 [dependency-groups]
 dev = [

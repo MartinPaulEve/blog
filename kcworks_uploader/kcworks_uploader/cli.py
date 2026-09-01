@@ -4,6 +4,8 @@ import argparse
 import json
 import os
 import sys
+import time
+from datetime import UTC, datetime
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -16,7 +18,9 @@ from .posts import (
     find_blog_root,
     find_pdf,
     parse_post,
+    pending_posts,
     post_slug,
+    record_deposit,
 )
 
 DEFAULT_BASE_URL = "https://works.hcommons.org/api"
@@ -365,6 +369,192 @@ def upload_post(
                 client, draft["id"], resolved
             )
     return result
+
+
+def backfill_main(argv=None) -> int:
+    """Entry point: deposit and publish every post not yet in KC Works.
+
+    Works through every post without a kcworks: front-matter record,
+    publishing each (with its markdown and PDF) into the configured
+    collection, stamping the new record URL back into the post, and
+    appending a JSON line per outcome to the log so failures can be
+    reviewed afterwards. Waits --delay seconds between deposits to stay
+    within the server's rate limits. Re-running resumes automatically:
+    stamped posts are no longer pending.
+    """
+    parser = argparse.ArgumentParser(
+        prog="kcworks-backfill",
+        description=(
+            "Deposit and publish every blog post that is not yet in "
+            "KC Works, logging each outcome."
+        ),
+    )
+    parser.add_argument(
+        "--posts-dir",
+        type=Path,
+        default=Path("_posts"),
+        help="posts directory (default: _posts)",
+    )
+    parser.add_argument(
+        "--limit",
+        type=int,
+        default=None,
+        help="deposit at most this many posts (default: all pending)",
+    )
+    parser.add_argument(
+        "--delay",
+        type=float,
+        default=10.0,
+        help="seconds to wait between deposits (default: 10)",
+    )
+    parser.add_argument(
+        "--log",
+        type=Path,
+        default=Path("kcworks-backfill.log"),
+        help=(
+            "JSON-lines log appended with every outcome "
+            "(default: kcworks-backfill.log)"
+        ),
+    )
+    parser.add_argument(
+        "--token",
+        default=os.environ.get(TOKEN_ENV_VAR),
+        help=f"KC Works API token (default: ${TOKEN_ENV_VAR})",
+    )
+    parser.add_argument("--base-url", default=DEFAULT_BASE_URL)
+    parser.add_argument(
+        "--collection",
+        default=None,
+        help=(
+            "collection to include published records in (default: "
+            "kcworks_collection from the blog's _config.yml)"
+        ),
+    )
+    parser.add_argument(
+        "--no-collection",
+        action="store_true",
+        help="publish without including the records in any collection",
+    )
+    parser.add_argument(
+        "--no-doi",
+        action="store_true",
+        help="omit the posts' front-matter DOIs from the record pids",
+    )
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="list the pending posts without contacting KC Works",
+    )
+    args = parser.parse_args(argv)
+
+    pending = pending_posts(args.posts_dir)
+    if args.limit is not None:
+        pending = pending[: args.limit]
+
+    if args.dry_run:
+        for path in pending:
+            print(path.name)
+        print(f"{len(pending)} post(s) pending deposit")
+        return 0
+    if not pending:
+        print("Nothing to deposit: every post has a kcworks: record.")
+        return 0
+    if not args.token:
+        print(
+            f"No API token given: pass --token or set ${TOKEN_ENV_VAR}.",
+            file=sys.stderr,
+        )
+        return 2
+
+    client = KCWorksClient(args.base_url, args.token)
+    collection = effective_collection(
+        find_blog_root(Path.cwd()), args.collection, args.no_collection
+    )
+    collection_id = None
+    if collection:
+        try:
+            collection_id = client.get_collection(collection)["id"]
+        except KCWorksError as exc:
+            print(
+                f"Cannot resolve collection {collection!r}: {exc}",
+                file=sys.stderr,
+            )
+            return 2
+
+    total = len(pending)
+    published = 0
+    failures: list[tuple[str, str]] = []
+    inclusion_failures = 0
+    interrupted = False
+    try:
+        for index, path in enumerate(pending, start=1):
+            entry = {"time": _utc_now(), "post": path.name}
+            try:
+                result = upload_post(
+                    path, client, include_doi=not args.no_doi, live=True
+                )
+            except (KCWorksError, FileNotFoundError, ValueError) as exc:
+                failures.append((path.name, str(exc)))
+                entry.update(status="failed", error=str(exc))
+                print(f"[{index}/{total}] FAILED    {path.name}: {exc}")
+            else:
+                record_deposit(path, result["live_url"])
+                published += 1
+                entry.update(
+                    status="published",
+                    id=result["id"],
+                    live_url=result["live_url"],
+                )
+                if collection_id:
+                    try:
+                        entry["collection"] = include_in_collection(
+                            client, result["id"], collection_id
+                        )
+                    except KCWorksError as exc:
+                        inclusion_failures += 1
+                        entry["collection"] = f"failed: {exc}"
+                print(
+                    f"[{index}/{total}] published {path.name} "
+                    f"-> {result['live_url']}"
+                )
+            _append_log(args.log, entry)
+            if index < total:
+                time.sleep(args.delay)
+    except KeyboardInterrupt:
+        interrupted = True
+        print("\nInterrupted; the log records everything deposited so far.")
+
+    print(
+        f"\nDone: {published} published, {len(failures)} failed"
+        + (
+            f", {inclusion_failures} collection inclusion(s) failed"
+            if inclusion_failures
+            else ""
+        )
+    )
+    if failures:
+        print("Failed posts:")
+        for name, error in failures:
+            print(f"  {name}: {error}")
+        print("Re-run the backfill to retry them.")
+    if inclusion_failures:
+        print(
+            "Retry the failed inclusions with: "
+            "./kcworks.sh collection backfill"
+        )
+    print(f"Log: {args.log}")
+    if interrupted:
+        return 130
+    return 1 if failures or inclusion_failures else 0
+
+
+def _utc_now() -> str:
+    return datetime.now(UTC).isoformat(timespec="seconds")
+
+
+def _append_log(log_path: Path, entry: dict) -> None:
+    with Path(log_path).open("a", encoding="utf-8") as handle:
+        handle.write(json.dumps(entry) + "\n")
 
 
 def main(argv=None) -> int:

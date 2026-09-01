@@ -1,3 +1,5 @@
+import json
+
 import pytest
 
 from kcworks_uploader import cli
@@ -502,6 +504,188 @@ class TestCollectionMain:
         monkeypatch.chdir(repo)
         monkeypatch.delenv("KCWORKS_API_TOKEN", raising=False)
         assert cli.collection_main(["backfill"]) == 2
+
+
+@pytest.fixture
+def backfill_repo(tmp_path):
+    """A blog with two pending posts, one deposited post, and their PDFs."""
+    (tmp_path / "_posts").mkdir()
+    (tmp_path / ".pdf_cache").mkdir()
+    (tmp_path / "_config.yml").write_text(
+        "kcworks_collection: evegd-blog-posts\n"
+    )
+    for name in ("2026-01-01-first", "2026-02-02-second"):
+        (tmp_path / "_posts" / f"{name}.md").write_text(
+            f"---\ntitle: {name}\n---\nBody of {name}.\n"
+        )
+        (tmp_path / ".pdf_cache" / f"{name}.pdf").write_bytes(b"%PDF-1.4")
+    (tmp_path / "_posts" / "2025-12-31-deposited.md").write_text(
+        "---\ntitle: Deposited\nkcworks: https://works.hcommons.org/"
+        "records/old11-old11\n---\nAlready archived.\n"
+    )
+    return tmp_path
+
+
+class TestBackfillMain:
+    LIVE_URL = "https://works.hcommons.org/records/abc12-xyz34"
+
+    def run(self, monkeypatch, repo, client, argv=()):
+        monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
+        monkeypatch.chdir(repo)
+        return cli.backfill_main(
+            ["--token", "tok", "--delay", "0", *argv]
+        )
+
+    def test_dry_run_lists_pending_posts_without_a_token(
+        self, backfill_repo, capsys, monkeypatch
+    ):
+        monkeypatch.chdir(backfill_repo)
+        monkeypatch.delenv("KCWORKS_API_TOKEN", raising=False)
+        monkeypatch.setattr(
+            cli,
+            "KCWorksClient",
+            lambda *a, **k: pytest.fail("dry-run must not touch the network"),
+        )
+        assert cli.backfill_main(["--dry-run"]) == 0
+        out = capsys.readouterr().out
+        assert "2026-01-01-first.md" in out
+        assert "2026-02-02-second.md" in out
+        assert "2025-12-31-deposited.md" not in out
+
+    def test_publishes_and_stamps_every_pending_post(
+        self, backfill_repo, capsys, monkeypatch
+    ):
+        client = FakeCollectionClient()
+        code = self.run(monkeypatch, backfill_repo, client)
+        assert code == 0
+        for name in ("2026-01-01-first", "2026-02-02-second"):
+            text = (backfill_repo / "_posts" / f"{name}.md").read_text()
+            assert f"kcworks: {self.LIVE_URL}" in text
+            assert f"Body of {name}." in text
+        assert (
+            backfill_repo / "_posts" / "2025-12-31-deposited.md"
+        ).read_text().count("kcworks:") == 1
+        assert client.calls.count("publish") == 2
+
+    def test_records_land_in_the_configured_collection(
+        self, backfill_repo, monkeypatch
+    ):
+        client = FakeCollectionClient()
+        assert self.run(monkeypatch, backfill_repo, client) == 0
+        assert client.included == [
+            ("abc12-xyz34", "coll-uuid"),
+            ("abc12-xyz34", "coll-uuid"),
+        ]
+
+    def test_every_outcome_is_logged_as_json_lines(
+        self, backfill_repo, monkeypatch
+    ):
+        client = FakeCollectionClient()
+        self.run(monkeypatch, backfill_repo, client)
+        entries = [
+            json.loads(line)
+            for line in (backfill_repo / "kcworks-backfill.log")
+            .read_text()
+            .splitlines()
+        ]
+        assert [e["post"] for e in entries] == [
+            "2026-01-01-first.md",
+            "2026-02-02-second.md",
+        ]
+        assert all(e["status"] == "published" for e in entries)
+        assert all(e["live_url"] == self.LIVE_URL for e in entries)
+        assert all(e["time"] for e in entries)
+
+    def test_failure_is_logged_and_the_run_continues(
+        self, backfill_repo, capsys, monkeypatch
+    ):
+        (backfill_repo / ".pdf_cache" / "2026-01-01-first.pdf").unlink()
+        client = FakeCollectionClient()
+        code = self.run(monkeypatch, backfill_repo, client)
+        assert code == 1
+        first = (backfill_repo / "_posts" / "2026-01-01-first.md").read_text()
+        assert "kcworks:" not in first
+        second = (
+            backfill_repo / "_posts" / "2026-02-02-second.md"
+        ).read_text()
+        assert f"kcworks: {self.LIVE_URL}" in second
+        entries = [
+            json.loads(line)
+            for line in (backfill_repo / "kcworks-backfill.log")
+            .read_text()
+            .splitlines()
+        ]
+        assert entries[0]["status"] == "failed"
+        assert "PDF" in entries[0]["error"]
+        assert entries[1]["status"] == "published"
+        out = capsys.readouterr().out
+        assert "2026-01-01-first.md" in out
+        assert "1 failed" in out
+
+    def test_waits_between_deposits(self, backfill_repo, monkeypatch):
+        naps = []
+        monkeypatch.setattr(cli.time, "sleep", naps.append)
+        client = FakeCollectionClient()
+        monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
+        monkeypatch.chdir(backfill_repo)
+        cli.backfill_main(["--token", "tok", "--delay", "7"])
+        assert naps == [7.0]
+
+    def test_limit_caps_the_run(self, backfill_repo, monkeypatch):
+        client = FakeCollectionClient()
+        code = self.run(monkeypatch, backfill_repo, client, ["--limit", "1"])
+        assert code == 0
+        assert "kcworks:" in (
+            backfill_repo / "_posts" / "2026-01-01-first.md"
+        ).read_text()
+        assert "kcworks:" not in (
+            backfill_repo / "_posts" / "2026-02-02-second.md"
+        ).read_text()
+
+    def test_missing_token_is_an_error(
+        self, backfill_repo, capsys, monkeypatch
+    ):
+        monkeypatch.chdir(backfill_repo)
+        monkeypatch.delenv("KCWORKS_API_TOKEN", raising=False)
+        assert cli.backfill_main([]) == 2
+        assert "token" in capsys.readouterr().err.lower()
+
+    def test_inclusion_failure_still_stamps_the_published_post(
+        self, backfill_repo, capsys, monkeypatch
+    ):
+        client = FakeCollectionClient(
+            inclusion={
+                "processed": [],
+                "errors": [{"message": "Permission denied"}],
+            }
+        )
+        code = self.run(
+            monkeypatch, backfill_repo, client, ["--limit", "1"]
+        )
+        assert code == 1
+        assert "kcworks:" in (
+            backfill_repo / "_posts" / "2026-01-01-first.md"
+        ).read_text()
+        entry = json.loads(
+            (backfill_repo / "kcworks-backfill.log").read_text().splitlines()[0]
+        )
+        assert entry["status"] == "published"
+        assert "failed" in entry["collection"]
+
+    def test_nothing_pending_is_a_clean_no_op(
+        self, backfill_repo, capsys, monkeypatch
+    ):
+        for name in ("2026-01-01-first", "2026-02-02-second"):
+            path = backfill_repo / "_posts" / f"{name}.md"
+            path.write_text(
+                path.read_text().replace(
+                    "---\nBody",
+                    f"kcworks: {self.LIVE_URL}\n---\nBody",
+                )
+            )
+        client = FakeCollectionClient()
+        assert self.run(monkeypatch, backfill_repo, client) == 0
+        assert client.calls == []
 
 
 class TestCollectionMainLogo:
