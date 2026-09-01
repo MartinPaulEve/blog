@@ -817,6 +817,73 @@ button.share-btn {
     margin: -0.65rem 0;
 }
 
+/* Category browsing: pills in the post hero, the /categories/ index, and
+   per-category archive pages. */
+.post-header--hero a.category-pill {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 999px;
+    padding: 0.2rem 0.8rem;
+    margin: 0 0.35rem 0.35rem 0;
+    font-size: 0.9rem;
+}
+
+.post-header--hero a.category-pill:hover {
+    background: var(--name-red);
+    color: #fff;
+}
+
+.post-header .archive-browse {
+    margin-top: 0.75rem;
+}
+
+/* Category pages list titles as h2 (no year headers between them); match the
+   visual size of the h3 titles on the year-grouped archive. */
+.post-body h2.archive-title {
+    font-size: 1.875rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.post-body .archive-date,
+.post-body .archive-count {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    margin-bottom: 0;
+}
+
+.category-intro {
+    margin-bottom: 1.5rem;
+}
+
+.category-jump {
+    line-height: 2;
+    font-size: 1rem;
+}
+
+.post-body h2.category-section {
+    font-size: 1.5rem;
+    scroll-margin-top: 1rem;
+}
+
+.category-count {
+    color: var(--text-secondary);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+ul.category-post-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2rem;
+}
+
+ul.category-post-list li {
+    padding: 0.35rem 0;
+}
+
 /* Responsive */
 @media (max-width: 767px) {
     .post-title {
