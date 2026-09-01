@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/04/24/romeo-castellucci-societas-raffaello-sanzios-on-the-concept-of-the-face-regarding-the-son-of-god
 categories:
-- Performance
-- Academia
+- Literature
 comments: []
 date: 2011-04-24 10:58:43 +0200
 date_gmt: 2011-04-24 10:58:43 +0200

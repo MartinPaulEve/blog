@@ -2,7 +2,7 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/03/31/hefces-post-2014-open-access-policy-the-short-what-you-need-to-know-version
 categories:
 - Open Access
-- Academia
+- Higher Education
 comments: []
 date: 2014-03-31 09:21:43 +0200
 date_gmt: 2014-03-31 08:21:43 +0200

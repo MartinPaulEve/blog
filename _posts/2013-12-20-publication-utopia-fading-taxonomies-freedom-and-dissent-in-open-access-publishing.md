@@ -1,10 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/12/20/publication-utopia-fading-taxonomies-freedom-and-dissent-in-open-access-publishing
 categories:
-- Open Access
-- Academia
 - Publications
-- Output
+- Open Access
 comments: []
 date: 2013-12-20 16:18:00 +0100
 date_gmt: 2013-12-20 16:18:00 +0100

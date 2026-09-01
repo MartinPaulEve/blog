@@ -1,10 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/01/30/institutional-finance-and-academic-freedom
 categories:
-- HE
-- politics
-- academic freedom
-- green paper
+- Higher Education
 date: 2016-01-30
 doi: https://doi.org/10.59348/e6j5p-78x56
 layout: post

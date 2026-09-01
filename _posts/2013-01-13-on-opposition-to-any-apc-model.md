@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/01/13/on-opposition-to-any-apc-model
 categories:
-- Technology
 - Open Access
-- Academia
 comments: []
 date: 2013-01-13 19:09:37 +0100
 date_gmt: 2013-01-13 19:09:37 +0100

@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2007/05/25/dotnetids
 categories:
-- Technology
-- InfoSec
-- .NET
+- Information Security
+- Programming
 comments: []
 date: 2007-05-25 21:26:38 +0200
 date_gmt: 2007-05-25 21:26:38 +0200

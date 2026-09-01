@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/12/17/my-2015-academic-year-in-review
 categories:
-- personal
-- academia
+- Personal
+- Academia
 date: 2015-12-17
 doi: https://doi.org/10.59348/bfkc9-09w61
 layout: post

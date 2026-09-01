@@ -2,7 +2,6 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/11/02/were-a-small-learned-society-charging-25-what-are-we-doing-wrong-oa-for-small-society-journals
 categories:
 - Open Access
-- Academia
 comments: []
 date: 2014-11-02 10:45:12 +0100
 date_gmt: 2014-11-02 10:45:12 +0100

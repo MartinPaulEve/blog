@@ -26,6 +26,8 @@ references:
   url: https://brennan.day/publishing-my-eleventy-blog-to-the-atmosphere-with-standard-site/
 title: 'Investigating ATProto here and for Knowledge Commons'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mqcjjtkq4c2e"
+categories:
+- Scholarly Communications
 ---
 
 After a recent post by [Brennan Kenneth Brown](https://brennan.day/publishing-my-eleventy-blog-to-the-atmosphere-with-standard-site/), I decided to investigate what it would take to get this site -- and, then, Knowledge Commons -- onto the ATmosphere, using ATProto. This was a pretty steep learning curve, as I did not, before, understand many of the key concepts in this space. After succeeding, though, in publishing this blog to the ATmosphere (I took Brennan's excellent advice to proceed immediately to Sequoia) I am left pondering.

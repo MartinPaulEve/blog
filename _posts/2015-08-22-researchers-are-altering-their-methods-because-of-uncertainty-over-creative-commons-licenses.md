@@ -1,7 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/08/22/researchers-are-altering-their-methods-because-of-uncertainty-over-creative-commons-licenses
 categories:
-- open access
+- Copyright and Licensing
+- Open Access
 date: 2015-08-22
 doi: https://doi.org/10.59348/3s9kt-z3m64
 image:

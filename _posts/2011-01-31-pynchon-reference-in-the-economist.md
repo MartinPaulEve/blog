@@ -2,7 +2,6 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/01/31/pynchon-reference-in-the-economist
 categories:
 - Thomas Pynchon
-- Academia
 comments: []
 date: 2011-01-31 09:00:35 +0100
 date_gmt: 2011-01-31 09:00:35 +0100

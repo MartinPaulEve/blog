@@ -8,6 +8,8 @@ layout: post
 ogImage: images/header_library.png
 title: What is 'the scholarly record'?
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lyvazis2h"
+categories:
+- Scholarly Communications
 ---
 
 What is "the scholarly record"? There is some work on this already. For instance, Dougherty, M. V., ‘[Defining the Scholarly Record](https://doi.org/10.1007/978-3-319-99435-2_2)’, in Correcting the Scholarly Record for Research Integrity: In the Aftermath of Plagiarism, ed. by M. V. Dougherty, Research Ethics Forum (Cham: Springer International Publishing, 2018), pp. 19–57 gives the following abstract:

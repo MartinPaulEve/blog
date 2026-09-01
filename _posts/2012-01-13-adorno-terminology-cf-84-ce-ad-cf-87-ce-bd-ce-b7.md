@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/01/13/adorno-terminology-cf-84-ce-ad-cf-87-ce-bd-ce-b7
 categories:
-- Academia
 - Philosophy
-- Theodor Adorno
 comments: []
 date: 2012-01-13 12:30:23 +0100
 date_gmt: 2012-01-13 12:30:23 +0100

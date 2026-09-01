@@ -1,10 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/09/03/quibbling-with-the-lrb-over-hackers
 categories:
-- Literature
 - Technology
-- InfoSec
-- Academia
+- Information Security
 comments: []
 date: 2012-09-03 06:14:11 +0200
 date_gmt: 2012-09-03 06:14:11 +0200

@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/09/03/conference-on-china-mieville-weird-council
 categories:
+- Conferences
 - Literature
-- Academia
 comments: []
 date: 2012-09-03 16:39:01 +0200
 date_gmt: 2012-09-03 16:39:01 +0200

@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/01/14/getting-a-custom-sync-service-and-adapter-to-show-up-under-data-and-synchronization-on-android
 categories:
+- Programming
 - Technology
-- Android
 comments: []
 date: 2011-01-14 08:14:08 +0100
 date_gmt: 2011-01-14 08:14:08 +0100

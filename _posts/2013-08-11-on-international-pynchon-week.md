@@ -1,10 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/08/11/on-international-pynchon-week
 categories:
-- Literature
-- Thomas Pynchon
 - Conferences
-- Academia
+- Thomas Pynchon
 comments: []
 date: 2013-08-11 10:03:30 +0200
 date_gmt: 2013-08-11 09:03:30 +0200

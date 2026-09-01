@@ -1,8 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/12/20/dear-top-journal-1-year-and-4-months-to-review-is-too-long
 categories:
-- Literature
-- Open Access
 - Academia
 comments: []
 date: 2013-12-20 15:54:56 +0100

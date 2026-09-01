@@ -8,6 +8,8 @@ layout: post
 ogImage: images/geek.png
 title: Linux CPU Frequency Scaling on the Intel i9 7980XE
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7qt3mf2u"
+categories:
+- Linux
 ---
 
 I spent some time this morning trying to work out why my CPU - the beastly Intel i9 7980XE - was capped at 2.6ghz when the BIOS allows scaling to 4.3ghz.

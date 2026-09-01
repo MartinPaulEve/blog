@@ -1,10 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/01/22/phd-criterion-to-merit-publication
 categories:
-- PhD
-- exams
-- publication
-- peer review
+- Academia
 date: 2016-01-22
 doi: https://doi.org/10.59348/bye5m-3jx47
 layout: post

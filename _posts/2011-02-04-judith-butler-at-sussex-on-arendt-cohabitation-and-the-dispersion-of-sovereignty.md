@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/02/04/judith-butler-at-sussex-on-arendt-cohabitation-and-the-dispersion-of-sovereignty
 categories:
-- Academia
 - Philosophy
-- Judith Butler
+- Conferences
 comments:
 - author: 'Tweets that mention A writeup of Judith Butler at Sussex, (attn: -- Topsy.com'
   author_email: ''

@@ -5,6 +5,9 @@ doi: https://doi.org/10.59348/y95wv-v0784
 layout: post
 title: Forthcoming Books in the New Horizons in Contemporary Writing Series
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7sse3u2r"
+categories:
+- Literature
+- Publications
 ---
 
 I'm very pleased to be able to announce some forthcoming titles in the Bloomsbury _New Horizons in Contemporary Writing_ series that I edit! Dates are, of course, subject to change but we have a really exciting line up of titles coming soon!

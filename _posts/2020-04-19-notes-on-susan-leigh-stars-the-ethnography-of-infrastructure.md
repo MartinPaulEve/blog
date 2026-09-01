@@ -8,6 +8,9 @@ layout: post
 ogImage: images/header_infrastructure.png
 title: Notes on Susan Leigh Star’s ‘The Ethnography of Infrastructure’
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m67necl2r"
+categories:
+- Scholarly Communications
+- Open Access
 ---
 
 As part of the [COPIM project](https://www.copim.ac.uk/), my work packages are conducting some background reading groups. This week we are reading Susan Leigh Star, ‘The Ethnography of Infrastructure’, _American Behavioral Scientist_, 43.3 (1999), 377–91 <[https://doi.org/10.1177/00027649921955326](https://doi.org/10.1177/00027649921955326)>. I had read this a long time ago but enjoyed revisiting it. I thought, in a spirit of openness, that I would share my notes on this article.

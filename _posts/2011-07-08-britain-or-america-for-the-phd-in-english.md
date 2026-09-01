@@ -2,9 +2,7 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/07/08/britain-or-america-for-the-phd-in-english
 author: ali_chetwynd
 categories:
-- Literature
 - Academia
-- Teaching
 comments: []
 date: 2011-07-08 11:43:18 +0200
 date_gmt: 2011-07-08 11:43:18 +0200

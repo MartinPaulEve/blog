@@ -10,6 +10,8 @@ image:
   feature: elliptic.png
   title: "A table of elliptic curve variables (set out fully in tabular form in the post)"
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mtgeizuiqh2z"
+categories:
+- Information Security
 ---
 
 How do you totally securely share a secret number with someone, utterly in public, without anybody else being able to get it?

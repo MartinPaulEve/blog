@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/01/27/ssl-enabled
 categories:
-- Technology
-- InfoSec
+- Information Security
 - Personal
 comments: []
 date: 2011-01-27 20:11:36 +0100

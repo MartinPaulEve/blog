@@ -8,6 +8,9 @@ layout: post
 ogImage: images/header_fistbump.png
 title: Getting external access to BuddyPress's notifications (for Knowledge Commons)
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lw5bhzw2f"
+categories:
+- Programming
+- Scholarly Communications
 ---
 
 As part of my work on [Knowledge Commons](https://hcommons.org), I want to make more of our development process open, welcoming, and transparent, by using blogging. So I will be writing some technical posts on what I'm doing there and how I've overcome various technical challenges. In this post, I want to set out how I got BuddyPress notifications into a separate application (our new "Profiles" app).

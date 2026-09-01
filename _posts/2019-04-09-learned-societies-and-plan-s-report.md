@@ -8,6 +8,8 @@ layout: post
 ogImage: images/oa.png
 title: Learned Societies Plan S report and a note on double dipping
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m77rkfv2i"
+categories:
+- Open Access
 ---
 
 The [report on Learned Societies and Plan S](http://www.informationpower.co.uk/consultation/) commissioned by Wellcome, UKRI, and ALPSP has been released. In general, this is a very good document. Societies should read it and act.

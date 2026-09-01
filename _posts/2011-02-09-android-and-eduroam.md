@@ -2,9 +2,6 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/02/09/android-and-eduroam
 categories:
 - Technology
-- Android
-- Academia
-- Linux
 comments:
 - author: Mohammed Fahd
   author_email: mf240@sussex.ac.uk

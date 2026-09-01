@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/09/13/relativize-and-historicize-open-access-article-processing-charges-and-transparency
 categories:
-- Technology
 - Open Access
-- Academia
 comments: []
 date: 2012-09-13 09:51:03 +0200
 date_gmt: 2012-09-13 08:51:03 +0200

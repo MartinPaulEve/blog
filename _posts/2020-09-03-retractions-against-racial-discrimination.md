@@ -8,6 +8,8 @@ layout: post
 ogImage: images/header_copy.png
 title: Retractions against racial discrimination
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m4uqolm2t"
+categories:
+- Academia
 ---
 
 A journalist recently asked me for a comment on why I, as an academic who studies academic publishing, signed [a petition](https://docs.google.com/document/d/1nwWTW2sNrkn9mwxtcUBcGVZL2x6hXv7FOX3P_3VgTLA/edit) calling for the retraction of Mead, Lawrence M., ‘Poverty and Culture’, Society, 2020 <https://doi.org/10.1007/s12115-020-00496-1>. I wanted to publish my full reasoning here ahead of any publication that might quote me.

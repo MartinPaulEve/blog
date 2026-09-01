@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/10/21/how-ironic-are-the-open-access-irony-awards
 categories:
-- Technology
 - Open Access
-- Academia
 comments: []
 date: 2013-10-21 11:48:33 +0200
 date_gmt: 2013-10-21 10:48:33 +0200

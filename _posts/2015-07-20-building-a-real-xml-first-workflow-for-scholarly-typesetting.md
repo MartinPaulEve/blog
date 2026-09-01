@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/07/20/building-a-real-xml-first-workflow-for-scholarly-typesetting
 categories:
-- meTypeset
-- typesetting
-- JATS
+- Publishing Technology
 date: 2015-07-20
 doi: https://doi.org/10.59348/w78n5-he827
 image:

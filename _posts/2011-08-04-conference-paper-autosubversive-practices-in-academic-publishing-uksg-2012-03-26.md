@@ -4,8 +4,6 @@ categories:
 - Conferences
 - Open Access
 - Academia
-- Output
-- Conference Papers
 comments: []
 date: 2011-08-04 11:30:32 +0200
 date_gmt: 2011-08-04 11:30:32 +0200

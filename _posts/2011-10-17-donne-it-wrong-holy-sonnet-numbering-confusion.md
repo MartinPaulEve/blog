@@ -2,7 +2,6 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/10/17/donne-it-wrong-holy-sonnet-numbering-confusion
 categories:
 - Literature
-- Academia
 - Teaching
 comments: []
 date: 2011-10-17 13:57:45 +0200

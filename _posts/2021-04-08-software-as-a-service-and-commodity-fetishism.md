@@ -8,6 +8,9 @@ layout: post
 ogImage: images/header_software.png
 title: Subscriptions for software and commodity fetishism
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3im7k32n"
+categories:
+- Technology
+- Philosophy
 ---
 
 I was thinking idly today -- and probably in a wildly unoriginal way -- about some of the disputes about subscriptions to software and the politics of this model.

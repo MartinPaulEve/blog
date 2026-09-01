@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/01/23/protecting-your-assets-backing-up-your-academic-work
 categories:
-- Technology
 - Academia
-- Teaching
+- Technology
 comments:
 - author: Steve Cooke
   author_email: stephen.cooke@manchester.ac.uk

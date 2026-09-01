@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/01/18/a-complete-list-of-the-ancient-greek-terms-in-adornos-aesthetic-theory
 categories:
-- Academia
 - Philosophy
-- Theodor Adorno
 comments:
 - author: Anna Jordanous
   author_email: annajordanous@gmail.com

@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/12/07/fixing-scanning-on-an-hp-photosmart-c6300-series-in-ubuntu-12-10
 categories:
-- Technology
 - Linux
 comments: []
 date: 2012-12-07 09:17:49 +0100

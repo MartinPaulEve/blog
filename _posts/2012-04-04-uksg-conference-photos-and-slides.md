@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/04/04/uksg-conference-photos-and-slides
 categories:
-- Academia
-- Output
-- Conference Papers
+- Conferences
+- Open Access
 comments: []
 date: 2012-04-04 13:31:44 +0200
 date_gmt: 2012-04-04 13:31:44 +0200

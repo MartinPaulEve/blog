@@ -8,6 +8,9 @@ layout: post
 ogImage: images/header_warez.png
 title: Preservation as a Memento Mori and Matter of Ethics
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lx2e3be2u"
+categories:
+- Digital Preservation
+- Academia
 ---
 
 When training PhD students and other postgraduates, we often have a section on publication. It covers the basic background process, the rudiments of peer review, and what to expect. There is often, also, a lengthy discussion of ensuring that you publish in the place that will do most for your career. What is the _prestige_ status of the journal, for instance? While open access is often now part of these conversations, not least because of the UK’s REF, it is sometimes framed as a _threat_ to this individual advancement.

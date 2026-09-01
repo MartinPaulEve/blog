@@ -1,9 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/08/07/on-blog-inequality-in-scholarly-research
 categories:
-- Technology
-- Open Access
+- Scholarly Communications
 - Academia
+- Digital Preservation
 comments: []
 date: 2012-08-07 09:38:27 +0200
 date_gmt: 2012-08-07 09:38:27 +0200

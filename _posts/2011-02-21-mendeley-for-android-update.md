@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/02/21/mendeley-for-android-update
 categories:
-- Technology
-- Android
-- Mendeley
+- Programming
 comments:
 - author: CWinkler
   author_email: microwink@gmail.com

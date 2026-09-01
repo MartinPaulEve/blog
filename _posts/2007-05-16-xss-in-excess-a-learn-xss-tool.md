@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2007/05/16/xss-in-excess-a-learn-xss-tool
 categories:
-- Technology
-- InfoSec
+- Information Security
 comments: []
 date: 2007-05-16 13:04:45 +0200
 date_gmt: 2007-05-16 13:04:45 +0200

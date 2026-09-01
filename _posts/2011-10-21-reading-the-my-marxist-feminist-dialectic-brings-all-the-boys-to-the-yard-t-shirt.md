@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/10/21/reading-the-my-marxist-feminist-dialectic-brings-all-the-boys-to-the-yard-t-shirt
 categories:
-- Literature
-- Academia
+- Philosophy
+- Teaching
 comments:
 - author: Jo VanEvery
   author_email: ''

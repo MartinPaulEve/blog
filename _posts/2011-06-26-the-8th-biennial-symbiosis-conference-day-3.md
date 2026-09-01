@@ -1,11 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/06/26/the-8th-biennial-symbiosis-conference-day-3
 categories:
-- Literature
-- Thomas Pynchon
 - Conferences
-- Academia
-- Philosophy
+- Literature
 comments: []
 date: 2011-06-26 15:39:01 +0200
 date_gmt: 2011-06-26 15:39:01 +0200

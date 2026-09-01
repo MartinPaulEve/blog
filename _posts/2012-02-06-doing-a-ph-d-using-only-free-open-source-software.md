@@ -1,8 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/02/06/doing-a-ph-d-using-only-free-open-source-software
 categories:
-- Technology
-- Open Access
 - Academia
 - Linux
 comments:

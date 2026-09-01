@@ -8,6 +8,9 @@ layout: post
 ogImage: images/header_ambulance.png
 title: The Current State of Evusheld (tixagevimab/cilgavimab) in the UK
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzbcw3l2i"
+categories:
+- Politics
+- Health
 ---
 
 Evusheld is a combination of two long-acting antibodies (tixagevimab and cilgavimab). It's a drug designed to protect clinically vulnerable people against Covid in cases where vaccines don't work. A good example is people who have been on the chemotherapy drug Rituximab, which [causes much worse Covid outcomes and also reduces vaccine efficacy](https://doi.org/10.1016/S2665-9913(21)00418-5). Another example is people with primary or secondary immunodeficiency. Evusheld is given prophylactically (that is: in advance) to stop people in this situation developing severe Covid in the first place.

@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/07/02/historicizing-the-iraq-war-in-don-delillos-point-omega-preprint-forthcoming-in-journal-of-american-studies
 categories:
+- Publications
 - Literature
-- Academia
 comments: []
 date: 2014-07-02 07:52:25 +0200
 date_gmt: 2014-07-02 06:52:25 +0200

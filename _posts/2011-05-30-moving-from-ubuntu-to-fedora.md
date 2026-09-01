@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/05/30/moving-from-ubuntu-to-fedora
 categories:
-- Technology
 - Linux
 comments:
 - author: Don Rideaux-Crenshaw

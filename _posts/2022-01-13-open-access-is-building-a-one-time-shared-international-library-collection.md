@@ -8,6 +8,8 @@ layout: post
 ogImage: images/oa.png
 title: Open access is building a one-time, shared, international library collection
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzhfuob2t"
+categories:
+- Open Access
 ---
 
 One of the challenges for the open access movement has been to work out how to transition from a model in which libraries build their own local collections to one in which they fund open access. The model of article and book processing charges has led us to believe that these are different activities. Buying access to articles and books is "collection building" for access while paying for outputs of your own authors to be OA is "scholarly communications".

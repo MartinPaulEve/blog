@@ -8,6 +8,9 @@ layout: post
 ogImage: images/header_nurosym.png
 title: Trying out the Nurosym vagus nerve stimulator for a couple of weeks
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvrrsdl2i"
+categories:
+- Health
+- Technology
 ---
 
 A really good measure of how wrecked you are is your body's "heart rate variability" (HRV). This is the difference between the gap between your heart beats. So if you imagine: BEAT (GAP) BEAT (GAP) BEAT (GAP), HRV is the difference of length of those gaps. Strangely, and counter-intuitively, a low (and therefore more regular) HRV is worse. When the beat is less regular, the heart has more slack to combat stress, whereas if it's totally rigid and regimented already, then it's operating at a stressed level.

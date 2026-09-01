@@ -1,7 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/09/03/installing-zotero-on-ubuntu-oneiric-11-10beta
 categories:
-- Technology
+- Linux
 comments:
 - author: Avram Lyon
   author_email: ajlyon@gmail.com

@@ -1,11 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/07/19/thomas-pynchon-david-foster-wallace-and-21st-century-utopianism-presentation
 categories:
-- Literature
-- Thomas Pynchon
 - Conferences
-- David Foster Wallace
-- Academia
+- Thomas Pynchon
+- Literature
 comments: []
 date: 2012-07-19 11:46:18 +0200
 date_gmt: 2012-07-19 11:46:18 +0200

@@ -8,6 +8,8 @@ layout: post
 ogImage: images/oa.png
 title: On a challenge of print subsidy for OA
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6gmkss2i"
+categories:
+- Open Access
 ---
 
 An interesting conceptual dilemma arose today. At [OLH](https://www.openlibhums.org) we don't believe that print is incompatible with OA/the digital. (This is usually the part of the Skype call where I hold up my print copy of [Literature Against Criticism](https://books.eve.gd/litagainstcrit) from Open Book Publishers.) Some of our titles sell print copies at, say, the $40 mark for an issue. This covers the print costs and postage and very little else.

@@ -1,14 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/06/28/submitted-my-ph-d-in-memory-of-my-grandfather-john-gray-10021920-14062012
 categories:
-- Literature
-- Thomas Pynchon
 - Personal
 - Academia
-- Philosophy
-- Michel Foucault
-- Theodor Adorno
-- Ludwig Wittgenstein
 comments: []
 date: 2012-06-28 10:30:42 +0200
 date_gmt: 2012-06-28 10:30:42 +0200

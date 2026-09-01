@@ -1,11 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/08/03/conference-paper-it-sures-hell-looked-like-war-terrorism-and-the-cold-war-in-thomas-pynchons-against-the-day-and-don-delillos-underworld-2010-06-09-university-of-lublin
 categories:
-- Literature
+- Conferences
 - Thomas Pynchon
-- Academia
-- Output
-- Conference Papers
+- Literature
 comments: []
 date: 2011-08-03 14:17:05 +0200
 date_gmt: 2011-08-03 14:17:05 +0200

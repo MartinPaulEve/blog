@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2009/06/23/installing-office-2007-on-wine-1-1-24
 categories:
-- Technology
 - Linux
 comments: []
 date: 2009-06-23 02:51:49 +0200

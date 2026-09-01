@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/02/13/looking-back-on-my-early-visualizations-of-gravitys-rainbow
 categories:
-- Pynchon
 - Digital Humanities
+- Thomas Pynchon
 date: 2016-02-13
 doi: https://doi.org/10.59348/jt0t4-dkq75
 layout: post

@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/06/22/typesetting-jats-bibliographies-using-csl-and-zotero
 categories:
-- Technology
-- Open Access
-- Academia
+- Publishing Technology
+- Programming
 comments: []
 date: 2014-06-22 08:08:33 +0200
 date_gmt: 2014-06-22 07:08:33 +0200

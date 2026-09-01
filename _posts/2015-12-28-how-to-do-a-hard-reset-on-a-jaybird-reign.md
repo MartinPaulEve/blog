@@ -1,7 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/12/28/how-to-do-a-hard-reset-on-a-jaybird-reign
 categories:
-- tech
+- Technology
 date: 2015-12-28
 doi: https://doi.org/10.59348/j88g8-25h13
 image:

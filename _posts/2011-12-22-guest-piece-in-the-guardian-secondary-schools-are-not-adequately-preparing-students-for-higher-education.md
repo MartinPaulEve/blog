@@ -1,10 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/12/22/guest-piece-in-the-guardian-secondary-schools-are-not-adequately-preparing-students-for-higher-education
 categories:
-- Politics
-- Academia
-- Output
-- Media
+- Higher Education
+- Teaching
+- Publications
 comments:
 - author: ''
   author_email: claytonburns@gmail.com

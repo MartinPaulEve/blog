@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2007/06/19/netids-v-0-1-0-0-released
 categories:
-- Technology
-- InfoSec
-- PHP
+- Information Security
+- Programming
 comments: []
 date: 2007-06-19 09:21:52 +0200
 date_gmt: 2007-06-19 09:21:52 +0200

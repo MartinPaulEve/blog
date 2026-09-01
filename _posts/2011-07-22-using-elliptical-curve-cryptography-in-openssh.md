@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/07/22/using-elliptical-curve-cryptography-in-openssh
 categories:
-- Technology
-- InfoSec
+- Information Security
 - Linux
 comments:
 - author: Efendi

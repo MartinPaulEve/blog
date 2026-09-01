@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/03/22/undergraduates-in-the-british-library-reading-rooms
 categories:
-- Politics
 - Academia
 comments:
 - author: naomi_jacobs

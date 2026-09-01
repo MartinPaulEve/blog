@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/04/03/using-tech-to-help-with-structure
 categories:
+- Academia
 - Technology
 comments: []
 date: 2010-04-03 13:20:31 +0200

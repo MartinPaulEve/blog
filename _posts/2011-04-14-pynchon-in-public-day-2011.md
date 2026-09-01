@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/04/14/pynchon-in-public-day-2011
 categories:
-- Literature
 - Thomas Pynchon
-- Academia
 comments: []
 date: 2011-04-14 18:14:15 +0200
 date_gmt: 2011-04-14 18:14:15 +0200

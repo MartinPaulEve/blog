@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/01/11/adorno-terminology-e1-bc-80-ce-b3-cf-8e-ce-bd-agon
 categories:
-- Academia
 - Philosophy
-- Theodor Adorno
 comments: []
 date: 2012-01-11 10:00:22 +0100
 date_gmt: 2012-01-11 10:00:22 +0100

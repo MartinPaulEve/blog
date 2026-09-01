@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/03/27/modernist-intimacies-conference
 categories:
+- Conferences
 - Literature
-- Academia
 comments: []
 date: 2013-03-27 13:18:24 +0100
 date_gmt: 2013-03-27 13:18:24 +0100

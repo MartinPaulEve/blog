@@ -1,7 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/05/25/the-rhetoric-of-fighting-illness-and-disability
 categories:
-- Personal
+- Health
 - Politics
 comments:
 - author: lizit

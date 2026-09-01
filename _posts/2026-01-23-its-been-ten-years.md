@@ -11,6 +11,9 @@ layout: post
 ogImage: images/rehab.jpg
 title: It's been ten years...
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lv3pirl2i"
+categories:
+- Health
+- Personal
 ---
 
 Ten years ago, I had a bad cold. This was not unusual as I have hypogammaglobulinemia (which means an abnormally low concentration of gamma globulin in the blood that leads to an increased risk of infection). But this cold was pretty terrible and quickly led to a secondary bacterial infection requiring antibiotics. I was coughing a lot and very hard. And I was starting to get headaches. That should have worried me far earlier than it did.

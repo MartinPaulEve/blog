@@ -1,7 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/09/10/is-what-i-do-digital-humanities
 categories:
-- Technology
+- Digital Humanities
 - Academia
 comments: []
 date: 2013-09-10 10:21:10 +0200

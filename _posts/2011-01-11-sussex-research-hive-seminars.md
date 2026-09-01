@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/01/11/sussex-research-hive-seminars
 categories:
-- Technology
-- Open Access
+- Conferences
 - Academia
 comments:
 - author: Tweets that mention Sussex Research Hive Seminars | Martin Paul Eve -- Topsy.com

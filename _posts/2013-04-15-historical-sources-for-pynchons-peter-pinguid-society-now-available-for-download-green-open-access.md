@@ -1,10 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/04/15/historical-sources-for-pynchons-peter-pinguid-society-now-available-for-download-green-open-access
 categories:
-- Literature
-- Thomas Pynchon
 - Open Access
-- Academia
+- Thomas Pynchon
 comments: []
 date: 2013-04-15 20:08:40 +0200
 date_gmt: 2013-04-15 19:08:40 +0200

@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/04/26/poc-code-for-facebook-friend-profile-gatherer
 categories:
-- Technology
-- InfoSec
+- Information Security
+- Programming
 comments: []
 date: 2010-04-26 08:50:53 +0200
 date_gmt: 2010-04-26 08:50:53 +0200

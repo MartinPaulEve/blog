@@ -1,13 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/10/22/my-forthcoming-book-pynchon-and-philosophy-wittgenstein-foucault-and-adorno-palgrave-2014
 categories:
-- Literature
+- Publications
 - Thomas Pynchon
-- Academia
 - Philosophy
-- Michel Foucault
-- Theodor Adorno
-- Ludwig Wittgenstein
 comments: []
 date: 2013-10-22 17:17:32 +0200
 date_gmt: 2013-10-22 16:17:32 +0200

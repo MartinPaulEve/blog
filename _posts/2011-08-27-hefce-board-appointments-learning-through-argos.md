@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/08/27/hefce-board-appointments-learning-through-argos
 categories:
-- Politics
-- Academia
+- Higher Education
 comments:
 - author: Newell Hampson-Jones
   author_email: newell.hampsonjones@gmail.com

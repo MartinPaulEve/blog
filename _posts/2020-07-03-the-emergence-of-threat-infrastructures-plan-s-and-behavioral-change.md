@@ -8,6 +8,9 @@ layout: post
 ogImage: images/header_infrastructure.png
 title: 'The Emergence of Threat Infrastructures: Plan S and Behavioral Change'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5doof52p"
+categories:
+- Open Access
+- Scholarly Communications
 ---
 
 # Defining Threat Infrastructures

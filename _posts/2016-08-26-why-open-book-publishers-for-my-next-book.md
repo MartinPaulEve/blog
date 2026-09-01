@@ -8,6 +8,9 @@ layout: post
 ogImage: images/oa.png
 title: Why Open Book Publishers for my next book?
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mb25yqu2t"
+categories:
+- Open Access
+- Academia
 ---
 
 In [_Open Access and the Humanities_](http://meve.io/oahums), I wrote:

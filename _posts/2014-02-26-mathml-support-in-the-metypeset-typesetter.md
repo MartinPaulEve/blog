@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/02/26/mathml-support-in-the-metypeset-typesetter
 categories:
-- Open Access
-- Academia
-- meTypeset
+- Publishing Technology
+- Programming
 comments: []
 date: 2014-02-26 20:17:17 +0100
 date_gmt: 2014-02-26 20:17:17 +0100

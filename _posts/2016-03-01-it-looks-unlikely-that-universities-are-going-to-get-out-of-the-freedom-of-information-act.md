@@ -6,6 +6,9 @@ layout: post
 title: It looks unlikely that UK universities are going to get out of the Freedom
   of Information Act
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbqmnl22h"
+categories:
+- Higher Education
+- Politics
 ---
 
 The recent Green Paper proposed that universities [should be excluded from the Freedom of Information Act](https://www.martineve.com/2015/11/10/he-green-paper-response-to-question-23/). As of today, it now looks very unlikely that this will happen.

@@ -1,11 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/09/06/conference-panel-pynchon-now-contemporary-fiction-research-seminar
 categories:
-- Literature
+- Conferences
 - Thomas Pynchon
-- Academia
-- Output
-- Conference Papers
 comments: []
 date: 2012-09-06 13:29:47 +0200
 date_gmt: 2012-09-06 12:29:47 +0200

@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/06/28/is-academic-work-commercial-how-does-this-affect-libre-licensing
 categories:
-- Technology
 - Open Access
-- Academia
+- Copyright and Licensing
 comments:
 - author: Laura Pasquini
   author_email: ''

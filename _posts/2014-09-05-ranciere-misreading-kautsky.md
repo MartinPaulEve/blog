@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/09/05/ranciere-misreading-kautsky
 categories:
-- Academia
 - Philosophy
 comments: []
 date: 2014-09-05 08:47:08 +0200

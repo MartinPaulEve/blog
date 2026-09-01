@@ -1,10 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2009/01/27/dual-stage-sql-injection-attacks
 categories:
-- Technology
-- InfoSec
-- SQL
-- PHP
+- Information Security
 comments: []
 date: 2009-01-27 07:44:36 +0100
 date_gmt: 2009-01-27 07:44:36 +0100

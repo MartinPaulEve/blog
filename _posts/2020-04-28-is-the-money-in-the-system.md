@@ -8,6 +8,8 @@ layout: post
 ogImage: images/oa.png
 title: Is ‘the money in the system’?
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5t5njl2n"
+categories:
+- Open Access
 ---
 
 One of the oft-repeated adages in the scholarly communications world is that ‘the money is in the system’, it's just badly distributed. This is one of [the core problems with APCs](https://eve.gd/2017/04/03/100-people-in-a-room/); they don't distribute funds in a similar way to subscriptions, so even if we could afford it, we still have a problematic distribution.

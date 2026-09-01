@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/07/19/the-undervalued-book-collection-and-peer-review
 categories:
-- Literature
-- Politics
 - Academia
+- Higher Education
 comments: []
 date: 2012-07-19 16:50:26 +0200
 date_gmt: 2012-07-19 16:50:26 +0200

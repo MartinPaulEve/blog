@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/01/11/the-methodology-of-literary-taxonomy-harking-and-p-hacking
 categories:
-- literature
-- methodology
+- Literature
+- Academia
 date: 2016-01-11
 doi: https://doi.org/10.59348/84w5h-sec91
 layout: post

@@ -1,11 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/10/16/publication-thomas-pynchon-the-dark-passages-of-history-review-textual-practice-26-5
 categories:
-- Literature
-- Thomas Pynchon
-- Academia
 - Publications
-- Output
+- Thomas Pynchon
 comments: []
 date: 2012-10-16 08:21:56 +0200
 date_gmt: 2012-10-16 07:21:56 +0200

@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/08/15/htc-wildfire-stage-1-soft-root
 categories:
-- Technology
-- Android
-- InfoSec
+- Information Security
 comments:
 - author: quidoh
   author_email: ''

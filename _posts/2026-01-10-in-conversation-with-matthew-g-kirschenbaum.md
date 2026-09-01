@@ -11,6 +11,9 @@ layout: post
 ogImage: images/SHARPIES.jpg
 title: In conversation with Matthew G. Kirschenbaum
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvbng3c2o"
+categories:
+- Conferences
+- Digital Humanities
 ---
 
 The inaugural SHARPIES, a global book history festival celebrating work in book history from around the world, will take place from July 7–9, 2026 (although these dates vary according to time zone). All the events are free for SHARP members, but registration is required. Registration will open in March 2026.

@@ -26,6 +26,8 @@ references:
   url: https://paregorios.org/posts/2018/05/zotero_nikola_harmony/
 title: Making blog posts harvestable by Zotero and preserving case in citation fields
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7luqkzkm2a"
+categories:
+- Scholarly Communications
 ---
 
 This is a quick "how-to" post because I learned something about Zotero. I want the posts on this site to be easily citeable. The name of the site that I would like in citations is "eve.gd: Martin Paul Eve". But here's the problem: when you put that as a Blog Title (or Website Title) and then go to cite it in a document, the CSL reformats it to the ugly "Eve.Gd: Martin Paul Eve". Anyway, I found how to fix this! You simply encode it thus: 

@@ -1,8 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/05/27/academic-businesss-cards
 categories:
-- Conferences
-- Personal
 - Academia
 comments:
 - author: Don Rideaux-Crenshaw

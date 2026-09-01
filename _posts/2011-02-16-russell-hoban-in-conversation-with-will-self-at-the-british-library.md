@@ -2,6 +2,7 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/02/16/russell-hoban-in-conversation-with-will-self-at-the-british-library
 categories:
 - Literature
+- Conferences
 comments:
 - author: Peter Moffatt
   author_email: hyfy@hotmail.co.uk

@@ -8,6 +8,9 @@ layout: post
 ogImage: images/againstcrit.jpg
 title: More on my experience with Open Book Publishers
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7maya2ad2p"
+categories:
+- Open Access
+- Academia
 ---
 
 I can say, without a shred of doubt, that my experience with Open Book Publishers has been nothing short of excellent. For reference/comparison: I've published three other books with Cambridge UP, Bloomsbury and Palgrave. In all respects, OBP were at least as good, if not better in some areas, than some of the others.

@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/01/07/the-uk-copyright-exemption-for-text-and-data-mining-vs-the-dmca
 categories:
-- copyright
-- DH
+- Copyright and Licensing
+- Digital Humanities
 date: 2016-01-07
 doi: https://doi.org/10.59348/9adgm-rr097
 layout: post

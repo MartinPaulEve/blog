@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2008/12/07/fetching-files-via-echo-ftp-in-a-non-interactive-shell-environment
 categories:
-- Technology
-- InfoSec
+- Information Security
 comments: []
 date: 2008-12-07 06:30:55 +0100
 date_gmt: 2008-12-07 06:30:55 +0100

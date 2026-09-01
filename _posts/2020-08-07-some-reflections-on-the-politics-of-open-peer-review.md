@@ -8,6 +8,9 @@ layout: post
 ogImage: images/review.png
 title: Some reflections on the politics of open peer review
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m4xme2j2a"
+categories:
+- Academia
+- Open Access
 ---
 
 I recently participated in the American Historical Association's open peer review experiment on the manuscript of '[History Can Be Open Source](https://ahropenreview.com/HistoryCanBeOpenSource/)'. I enjoyed reading the manuscript and welcomed the experiment.

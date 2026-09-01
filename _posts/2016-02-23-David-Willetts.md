@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/02/23/David-Willetts
 categories:
-- open access
-- education
-- politics
+- Higher Education
+- Politics
 date: 2016-02-23
 doi: https://doi.org/10.59348/dd4n2-nh459
 layout: post

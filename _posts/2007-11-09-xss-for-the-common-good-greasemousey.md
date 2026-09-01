@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2007/11/09/xss-for-the-common-good-greasemousey
 categories:
-- Technology
-- InfoSec
+- Information Security
+- Programming
 comments:
 - author: The importance of weaponization in exploit development | Martin Paul Eve
   author_email: ''

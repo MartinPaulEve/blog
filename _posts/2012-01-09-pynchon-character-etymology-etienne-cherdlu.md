@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/01/09/pynchon-character-etymology-etienne-cherdlu
 categories:
-- Literature
 - Thomas Pynchon
-- Academia
 comments: []
 date: 2012-01-09 09:42:37 +0100
 date_gmt: 2012-01-09 09:42:37 +0100

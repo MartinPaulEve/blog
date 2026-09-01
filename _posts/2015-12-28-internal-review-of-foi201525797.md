@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/12/28/internal-review-of-foi201525797
 categories:
-- FOI
-- HE
-- Green Paper
+- Politics
+- Higher Education
 date: 2015-12-28
 doi: https://doi.org/10.59348/jep6x-ys523
 layout: post

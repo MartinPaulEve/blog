@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/04/16/david-foster-wallaces-the-pale-king-bonnie-nadell-and-michael-pietsch-at-foyles
 categories:
+- Conferences
 - Literature
-- David Foster Wallace
 comments: []
 date: 2011-04-16 08:29:22 +0200
 date_gmt: 2011-04-16 08:29:22 +0200

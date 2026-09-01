@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/04/30/pynchon-in-public-day-2012-our-meetup-details
 categories:
-- Literature
 - Thomas Pynchon
-- Public Engagement
 comments: []
 date: 2012-04-30 12:16:29 +0200
 date_gmt: 2012-04-30 12:16:29 +0200

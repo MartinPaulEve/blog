@@ -8,6 +8,10 @@ layout: post
 ogImage: images/oa.png
 title: 'The first OA liberated article from my Leverhulme Prize: The Critique of Metamodernism'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6lou6f2u"
+categories:
+- Open Access
+- Publications
+- Literature
 ---
 
 One of the earliest articles that I wrote during the final year of my Ph.D. was for the journal _C21_, published by Gylphi. The article is quite hard to track down now as the online presence is being reworked and the front-list has moved to the Open Library of Humanities.

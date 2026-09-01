@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/07/09/orbit-writing-around-pynchon-is-live
 categories:
-- Literature
 - Thomas Pynchon
-- Academia
+- Open Access
 comments: []
 date: 2012-07-09 07:04:12 +0200
 date_gmt: 2012-07-09 07:04:12 +0200

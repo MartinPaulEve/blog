@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/05/04/weve-met-before-havent-we-spatio-temporal-distortion-in-david-lynchs-lost-highway
 categories:
-- Academia
 - Teaching
+- Literature
 comments: []
 date: 2011-05-04 20:02:15 +0200
 date_gmt: 2011-05-04 20:02:15 +0200

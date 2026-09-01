@@ -8,6 +8,9 @@ layout: post
 ogImage: images/oa.png
 title: Some personal notes on the REF OA mandate for books
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwuwtec2h"
+categories:
+- Open Access
+- Higher Education
 ---
 
 A few personal notes on the clamour around OA for books (written from the perspective of [an author of 10 books](https://eve.gd/books/) that are all openly accessible):

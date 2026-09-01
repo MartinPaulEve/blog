@@ -2,6 +2,7 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/06/04/ann-wordsworth-critical-theory-faculty-contingency-and-the-university-in-ruins
 categories:
 - Academia
+- Higher Education
 comments: []
 date: 2014-06-04 09:29:29 +0200
 date_gmt: 2014-06-04 08:29:29 +0200

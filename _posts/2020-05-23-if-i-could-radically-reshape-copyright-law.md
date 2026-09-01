@@ -8,6 +8,9 @@ layout: post
 ogImage: images/header_copy.png
 title: If I could radically reshape copyright law for research
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5nzs3f2q"
+categories:
+- Copyright and Licensing
+- Open Access
 ---
 
 The world is being rapidly reshaped by pandemic conditions beyond our control. This prompted me to do some radical rethinking of my own. What if I could totally reshape copyright law?

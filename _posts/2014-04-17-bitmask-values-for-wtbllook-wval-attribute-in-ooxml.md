@@ -1,7 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/04/17/bitmask-values-for-wtbllook-wval-attribute-in-ooxml
 categories:
-- Technology
+- Publishing Technology
 comments: []
 date: 2014-04-17 13:01:18 +0200
 date_gmt: 2014-04-17 12:01:18 +0200

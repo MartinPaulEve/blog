@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/01/21/picture-this-postcards-competition
 categories:
-- Open Access
-- Academia
+- Conferences
+- Literature
 comments:
 - author: 'Tweets that mention Picture this: Postcards Competition | Martin Paul Eve
     -- Topsy.com'

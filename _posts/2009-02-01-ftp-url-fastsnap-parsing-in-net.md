@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2009/02/01/ftp-url-fastsnap-parsing-in-net
 categories:
-- Technology
-- Mono
+- Programming
 comments: []
 date: 2009-02-01 06:04:10 +0100
 date_gmt: 2009-02-01 06:04:10 +0100

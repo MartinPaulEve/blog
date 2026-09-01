@@ -1,10 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/05/19/thinking-feeling-conference-at-the-university-of-sussex
 categories:
-- Literature
 - Conferences
-- Academia
-- Samuel Beckett
+- Literature
+- Philosophy
 comments: []
 date: 2012-05-19 18:51:27 +0200
 date_gmt: 2012-05-19 18:51:27 +0200

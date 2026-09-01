@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/01/04/mendeley-android-client-progress-w-video-source-and-apk
 categories:
-- Technology
-- Android
-- PHP
+- Programming
 comments:
 - author: Tweets that mention Mendeley Android Client Progress (w/ Video, Source and
     APK!) | Martin Paul Eve -- Topsy.com

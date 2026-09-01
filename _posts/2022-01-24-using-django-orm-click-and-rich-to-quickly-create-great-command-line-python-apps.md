@@ -8,6 +8,8 @@ layout: post
 ogImage: images/geek.png
 title: Using Django ORM, Click, and Rich to create useful command-line python apps
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzfswjs2h"
+categories:
+- Programming
 ---
 
 This is a post to document the setup that I use when I want quickly to create a great functional command-line python application with ORM database support.

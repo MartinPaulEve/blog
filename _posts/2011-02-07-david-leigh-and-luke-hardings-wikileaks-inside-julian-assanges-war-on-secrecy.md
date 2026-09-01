@@ -1,8 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/02/07/david-leigh-and-luke-hardings-wikileaks-inside-julian-assanges-war-on-secrecy
 categories:
-- Technology
-- InfoSec
 - Politics
 comments:
 - author: Frank

@@ -11,6 +11,8 @@ layout: post
 ogImage: images/bookstack.jpg
 title: Some example academic book proposal forms in case they help
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lv4ravd2p"
+categories:
+- Academia
 ---
 
 A pivotal moment in my academic career, or at least one I remember clearly, was when a very senior professor in the US sent me his book proposal for an academic book/monograph on the author Thomas Pynchon. The other thing he included was a crossed off list of all the presses he had courted with the proposal and with whom he had not succeeded. This cemented in my mind the fact that if even the top profs can be given rejections, nobody else should be resentful of them or consider them problematic. It can just be part of the process. 

@@ -9,6 +9,8 @@ layout: post
 ogImage: images/header_OJC.png
 title: 'Open Journals Collective: Making Open Access a Reality at Scale'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvvam2w2i"
+categories:
+- Open Access
 ---
 
 *tl;dr*: cancel your big deals and transitional agreements (they're not working) and invest in a set of hundreds of non-APC, OA titles offered by Open Journals Collective, which derives from the OLH model. Email Caroline Edwards ([at Birkbeck](mailto:caroline.edwards@bbk.ac.uk) [or at OJC](mailto:caroline@openjournalscollective.org)) to get involved.

@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/03/25/upcoming-workshop-using-twitter-for-research
 categories:
-- Technology
+- Conferences
 - Academia
-- Teaching
 comments: []
 date: 2011-03-25 14:30:29 +0100
 date_gmt: 2011-03-25 14:30:29 +0100

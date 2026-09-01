@@ -2,7 +2,6 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/11/26/gov-and-rcuk-responses-to-open-access-inquiry-eradicating-non-disclosure-clauses
 categories:
 - Open Access
-- Academia
 comments: []
 date: 2013-11-26 11:35:01 +0100
 date_gmt: 2013-11-26 11:35:01 +0100

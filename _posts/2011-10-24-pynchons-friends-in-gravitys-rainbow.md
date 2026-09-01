@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/10/24/pynchons-friends-in-gravitys-rainbow
 categories:
-- Literature
 - Thomas Pynchon
-- Academia
 comments:
 - author: Cyprian Latewood
   author_email: laurencehopkins@gmail.com

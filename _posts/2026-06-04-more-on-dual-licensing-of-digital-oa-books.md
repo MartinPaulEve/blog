@@ -14,6 +14,9 @@ layout: post
 ogImage: images/copyright-claim.jpg
 title: More on dual-licensing of digital OA books
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lurdtjm2e"
+categories:
+- Copyright and Licensing
+- Open Access
 ---
 
 Following up on [yesterday's post](/2026/06/03/what-is-actually-licensed-in-printdigital-dual-licensed-books/), I received an email this morning from Andrew Johnson, who is the Scholarly Communications Librarian (Copyright & Licensing) at Sheffield University in the UK and so seems to know his stuff on this turf. With his permission, for which I am extremely grateful, I reproduce that message, as it answers some of the questions I posed:

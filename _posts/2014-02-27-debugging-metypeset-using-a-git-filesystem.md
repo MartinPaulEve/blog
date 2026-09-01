@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/02/27/debugging-metypeset-using-a-git-filesystem
 categories:
-- Technology
-- Open Access
+- Publishing Technology
+- Programming
 comments: []
 date: 2014-02-27 15:55:52 +0100
 date_gmt: 2014-02-27 15:55:52 +0100

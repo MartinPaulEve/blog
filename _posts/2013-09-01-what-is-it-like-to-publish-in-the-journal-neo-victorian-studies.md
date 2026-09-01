@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/09/01/what-is-it-like-to-publish-in-the-journal-neo-victorian-studies
 categories:
-- Literature
-- Open Access
 - Academia
+- Open Access
 comments: []
 date: 2013-09-01 11:36:21 +0200
 date_gmt: 2013-09-01 10:36:21 +0200

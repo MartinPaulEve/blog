@@ -8,6 +8,9 @@ layout: post
 ogImage: images/header_AHRC.png
 title: Rapid-response grants and disciplinary boundaries
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m4vmk2v2a"
+categories:
+- Academia
+- Higher Education
 ---
 
 There's an article out today in Research Fortnight detailing [some of the frustrations](https://www.researchprofessionalnews.com/rr-news-uk-research-councils-2020-8-applicants-to-ukri-covid-19-rapid-response-call-complain-of-delays/) that we had with a recent AHRC/UKRI grant proposal. Perhaps my favourite part of the whole thing is that when we applied, [the letter from UKRI](https://www.ukri.org/news/open-letter-to-the-research-and-innovation-community1/) on the 24th April said "applications acknowledged within 48 hours and an aim to make decisions within 10 days". When it took us 3 months to get a response and Research Fortnight contacted UKRI they offered "apologies" but said "To clarify the timelines, we aimed to contact principal investigators within 10 working days—with a funding decision if possible but at least with an acknowledgement that their proposal was being processed". Now wait a minute! This is rewriting history. "At least with an acknowledgement" = "applications acknowledged" and we were told that would happen within 48 hours. It doesn't mean much to get an apology if they then try to gaslight you into believing it was your fault or misunderstanding all along.

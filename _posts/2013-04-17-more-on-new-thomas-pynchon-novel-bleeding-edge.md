@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/04/17/more-on-new-thomas-pynchon-novel-bleeding-edge
 categories:
-- Literature
 - Thomas Pynchon
-- Academia
 comments: []
 date: 2013-04-17 14:38:10 +0200
 date_gmt: 2013-04-17 13:38:10 +0200

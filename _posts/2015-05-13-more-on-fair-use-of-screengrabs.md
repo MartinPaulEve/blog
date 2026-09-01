@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/05/13/more-on-fair-use-of-screengrabs
 categories:
-- copyright
-- publishing
+- Copyright and Licensing
 date: 2015-05-13
 doi: https://doi.org/10.59348/ar5nw-m1h97
 layout: post

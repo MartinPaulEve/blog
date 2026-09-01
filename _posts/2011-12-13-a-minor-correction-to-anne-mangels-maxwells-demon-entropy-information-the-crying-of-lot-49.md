@@ -2,7 +2,6 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/12/13/a-minor-correction-to-anne-mangels-maxwells-demon-entropy-information-the-crying-of-lot-49
 categories:
 - Thomas Pynchon
-- Academia
 comments:
 - author: Alistair Brown
   author_email: alibrown18@gmail.com

@@ -1,9 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/12/13/alluvium-technical-news-doi-numbers-clockss-and-mla-bibliography
 categories:
-- Technology
-- Open Access
-- Academia
+- Scholarly Communications
+- Digital Preservation
+- Copyright and Licensing
 comments: []
 date: 2012-12-13 11:01:52 +0100
 date_gmt: 2012-12-13 11:01:52 +0100

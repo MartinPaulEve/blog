@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/04/27/internationalisation-of-new-open-access-initiatives
 categories:
-- Technology
 - Open Access
 comments: []
 date: 2013-04-27 11:06:44 +0200

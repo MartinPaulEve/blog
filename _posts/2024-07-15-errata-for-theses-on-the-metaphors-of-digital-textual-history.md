@@ -8,6 +8,8 @@ layout: post
 ogImage: images/header_error.png
 title: Errata for Theses on the Metaphors of Digital-Textual History
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwtos5a2f"
+categories:
+- Publications
 ---
 
 It's always frustrating to find errors in a work that has already gone to press/been through peer review, but unfortunately my friend Pete Christian has unearthed a few minor mistakes that I want to put out here. Thanks to Pete, who also says that none of this detail affects the overall argument of the text.

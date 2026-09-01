@@ -8,6 +8,8 @@ layout: post
 ogImage: images/header_english.png
 title: Some reflections on the professionalization of my disciplines
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m4ny6r72h"
+categories:
+- Academia
 ---
 
 The disciplines that have had it hardest for unwanted appropriation and assumed specialization this year have undoubtedly been various strands of medicine, virology, immunology, and epidemiology. Just going to put it out there, up front, that the notes here are nothing compared to the attempted popular seizure of expertise to which these disciplines have been subjected.

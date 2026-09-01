@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/09/25/64bit-gnulinux-and-webcams-logitech-quickcam-express
 categories:
-- Technology
 - Linux
 comments: []
 date: 2011-09-25 07:28:09 +0200

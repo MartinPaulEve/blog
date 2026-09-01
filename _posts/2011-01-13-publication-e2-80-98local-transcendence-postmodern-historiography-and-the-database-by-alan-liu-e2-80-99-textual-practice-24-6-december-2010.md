@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/01/13/publication-e2-80-98local-transcendence-postmodern-historiography-and-the-database-by-alan-liu-e2-80-99-textual-practice-24-6-december-2010
 categories:
-- Open Access
-- Academia
 - Publications
+- Literature
 comments: []
 date: 2011-01-13 18:28:03 +0100
 date_gmt: 2011-01-13 18:28:03 +0100

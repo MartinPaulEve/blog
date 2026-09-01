@@ -2,8 +2,6 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/08/23/brief-interviews-with-hideous-men-live-stage-version-at-the-ica
 categories:
 - Literature
-- David Foster Wallace
-- Academia
 comments: []
 date: 2012-08-23 12:54:26 +0200
 date_gmt: 2012-08-23 12:54:26 +0200

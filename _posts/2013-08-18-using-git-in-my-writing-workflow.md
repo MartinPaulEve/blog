@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/08/18/using-git-in-my-writing-workflow
 categories:
-- Technology
 - Academia
+- Technology
 comments: []
 date: 2013-08-18 14:45:52 +0200
 date_gmt: 2013-08-18 13:45:52 +0200

@@ -1,7 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/10/17/re-hosting-the-2014-british-academy-report-on-oa-journals-in-the-humanities-and-social-sciences
 categories:
-- OA
+- Open Access
 date: 2015-10-17
 doi: https://doi.org/10.59348/pn344-gfd74
 image:

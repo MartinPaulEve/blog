@@ -8,6 +8,9 @@ layout: post
 ogImage: images/oa.png
 title: Elsevier threatens others for linking to Sci-Hub but does so itself
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6qp35p2q"
+categories:
+- Piracy and Shadow Libraries
+- Copyright and Licensing
 ---
 
 Sci-Hub is a copyright-violating site that provides infringing access to scholarly publications that are behind paywalls. Its ethics are problematic but it's also proving very difficult to stop.

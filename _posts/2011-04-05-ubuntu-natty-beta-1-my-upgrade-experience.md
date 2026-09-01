@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/04/05/ubuntu-natty-beta-1-my-upgrade-experience
 categories:
-- Technology
 - Linux
 comments: []
 date: 2011-04-05 09:10:00 +0200

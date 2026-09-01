@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/08/01/perverse-advert-for-bite-keep-calm-about-university-fees
 categories:
-- Politics
-- Academia
+- Higher Education
 comments: []
 date: 2012-08-01 12:00:37 +0200
 date_gmt: 2012-08-01 12:00:37 +0200

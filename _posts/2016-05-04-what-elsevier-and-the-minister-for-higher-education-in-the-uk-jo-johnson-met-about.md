@@ -9,6 +9,9 @@ ogImage: post_images/ElsevierFOI.png
 title: Transcript of meeting between Elsevier and the Minister for Higher Education
   in the UK, Jo Johnson
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbgc7rm2n"
+categories:
+- Higher Education
+- Politics
 ---
 
 I've been pursuing a [Freedom of Information request](https://www.martineve.com/2015/11/18/bis-metrics-and-non-selective-qr-allocation/) against the Department of Business, Innovation and Skills for some time now. BIS have [consistently tried to block me](https://www.martineve.com/2015/12/28/internal-review-of-foi201525797/) from finding out what the Minister for HE, Jo Johnson (hereafter JJ), discussed with Elsevier. (Thank you, "most transparent government ever".)

@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/10/26/academiaedus-peer-review-experiments
 categories:
-- open access
-- peer review
+- Academia
+- Open Access
 date: 2015-10-26
 doi: https://doi.org/10.59348/b7q5a-7bw22
 layout: post

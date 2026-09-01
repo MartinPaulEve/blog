@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/03/30/the-problems-for-small-open-access-journals-in-terms-of-digital-preservation
 categories:
-- Technology
-- Academia
+- Digital Preservation
+- Open Access
 comments:
 - author: Adam Rusbridge
   author_email: a.rusbridge@ed.ac.uk

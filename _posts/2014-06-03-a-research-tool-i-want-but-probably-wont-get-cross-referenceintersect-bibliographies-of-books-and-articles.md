@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/06/03/a-research-tool-i-want-but-probably-wont-get-cross-referenceintersect-bibliographies-of-books-and-articles
 categories:
-- Technology
+- Scholarly Communications
 - Open Access
-- Academia
 comments: []
 date: 2014-06-03 09:00:48 +0200
 date_gmt: 2014-06-03 08:00:48 +0200

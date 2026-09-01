@@ -1,7 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/06/07/heidis-years-of-learning-and-travel-late-pynchons-academics
 categories:
-- conferences
+- Conferences
+- Thomas Pynchon
 date: 2015-06-07
 doi: https://doi.org/10.59348/khga4-hc603
 layout: post

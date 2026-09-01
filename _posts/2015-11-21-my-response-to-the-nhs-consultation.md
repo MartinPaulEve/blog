@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/21/my-response-to-the-nhs-consultation
 categories:
-- politics
-- NHS
+- Politics
 date: 2015-11-21
 doi: https://doi.org/10.59348/vny6q-77e25
 layout: post

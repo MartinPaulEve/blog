@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/12/02/rockaby-refactoring-and-abstraction
 categories:
-- Literature
-- Technology
-- Django
+- Programming
 comments: []
 date: 2010-12-02 09:53:46 +0100
 date_gmt: 2010-12-02 09:53:46 +0100

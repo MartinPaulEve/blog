@@ -11,6 +11,9 @@ image:
   feature: EveHospital2026.jpg
   title: "Martin Paul Eve in hospital, on a dialysis machine and an IV feed drip, with a PICC line in his arm and a central line in his chest"
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mtcl4swfqk24"
+categories:
+- Health
+- Personal
 ---
 Another personal post, on being in hospital and suffering. And so, after a substantial wait, the IV feeding for which I had been waiting started. The feed itself looks like the worst kind of science fiction matrix food goop that you can imagine. Of course, the advantage is that I don't need to eat it. It's going straight to source.
 

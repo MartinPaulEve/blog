@@ -1,7 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2007/11/17/ie7-javascript-modify-the-dom-without-crashing-the-browser
 categories:
-- Technology
+- Programming
 comments: []
 date: 2007-11-17 14:53:06 +0100
 date_gmt: 2007-11-17 14:53:06 +0100

@@ -2,7 +2,6 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/03/14/things-to-do-when-you-get-a-new-android-phone
 categories:
 - Technology
-- Android
 comments:
 - author: Lianne
   author_email: lianne_demello@hotmail.com

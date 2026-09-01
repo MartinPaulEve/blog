@@ -1,10 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/04/13/publication-review-of-joe-moran-interdisciplinarity-2nd-edition-rupkatha-3-1-april-2011
 categories:
-- Literature
-- Academia
 - Publications
-- Output
+- Academia
 comments: []
 date: 2011-04-13 09:46:25 +0200
 date_gmt: 2011-04-13 09:46:25 +0200

@@ -8,6 +8,8 @@ layout: post
 ogImage: images/oa.png
 title: Comments on the interim Royal Historical Society response to Plan S
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7h5fhg2s"
+categories:
+- Open Access
 ---
 
 The Royal Historical Society has published [an interim/draft report feeding back on Plan S](https://5hm1h4aktue2uejbs1hsqt31-wpengine.netdna-ssl.com/wp-content/uploads/2019/01/RHSPlanSInterimJan19.pdf). Although not a historian but as someone with a keen interest in open access in the humanities disciplines -- and in the spirit of open exchange, since this document has understandably caused some alarm among humanities scholars -- I wanted to write up my criticisms (and one ringing endorsement where I agree with them) in public.

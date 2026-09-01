@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/04/11/starting-a-digital-humanities-project-epilog
 categories:
-- Technology
-- Academia
-- Django
+- Digital Humanities
+- Programming
 comments:
 - author: Erik
   author_email: erik@erik.com

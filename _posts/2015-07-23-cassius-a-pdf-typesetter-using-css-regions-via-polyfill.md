@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/07/23/cassius-a-pdf-typesetter-using-css-regions-via-polyfill
 categories:
-- PDF
-- typesetting
-- XML
+- Publishing Technology
 date: 2015-07-23
 doi: https://doi.org/10.59348/ny4q3-hpt21
 image:

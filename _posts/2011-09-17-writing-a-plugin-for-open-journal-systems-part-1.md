@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/09/17/writing-a-plugin-for-open-journal-systems-part-1
 categories:
-- Technology
-- Open Access
-- PHP
+- Publishing Technology
+- Programming
 comments: []
 date: 2011-09-17 16:04:04 +0200
 date_gmt: 2011-09-17 16:04:04 +0200

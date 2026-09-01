@@ -1,11 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/11/19/rockaby-text-annotation-software-gpl-alpha-announcement
 categories:
-- Literature
-- Technology
-- Open Access
-- Academia
-- Django
+- Programming
 comments:
 - author: Rockaby refactoring and abstraction | Martin Paul Eve
   author_email: ''

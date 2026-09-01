@@ -11,6 +11,9 @@ image:
   feature: hospitalroom.jpg
   title: "A hospital room."
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mstgmnygkh2e"
+categories:
+- Health
+- Personal
 ---
 A personal log entry, here, so I can (with any luck) look back on it, should I need to remember this incident. Also cathartic writing. Due to severe chronic norovirus since January -- so 7 months now -- I have become severely malnourished and lost a lot of weight. It has been decided that I need Total Parenteral Nutrition (TPN); IV feeding. My weight is on a downward trend from 59.5kg.
 

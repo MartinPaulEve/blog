@@ -1,10 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/06/01/applications-open-for-opencon-2015
 categories:
-- Technology
+- Conferences
 - Open Access
-- Politics
-- Academia
 date: 2015-06-01
 doi: https://doi.org/10.59348/mw910-jms95
 image:

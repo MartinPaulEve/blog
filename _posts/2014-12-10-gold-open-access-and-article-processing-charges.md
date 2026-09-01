@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/12/10/gold-open-access-and-article-processing-charges
 categories:
-- Technology
 - Open Access
-- Academia
 comments: []
 date: 2014-12-10
 doi: https://doi.org/10.59348/qf7bk-atz10

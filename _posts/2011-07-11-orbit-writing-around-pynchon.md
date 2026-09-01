@@ -1,11 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/07/11/orbit-writing-around-pynchon
 categories:
-- Literature
-- Technology
 - Thomas Pynchon
 - Open Access
-- Academia
 comments: []
 date: 2011-07-11 09:51:07 +0200
 date_gmt: 2011-07-11 09:51:07 +0200

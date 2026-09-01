@@ -1,10 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/06/06/metadata-handling-for-open-access-journal-pdfs
 categories:
-- Technology
-- Open Access
-- Academia
-- Mendeley
+- Publishing Technology
+- Scholarly Communications
 comments: []
 date: 2012-06-06 08:59:17 +0200
 date_gmt: 2012-06-06 08:59:17 +0200

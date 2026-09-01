@@ -8,6 +8,9 @@ layout: post
 ogImage: images/header_wheelchair.png
 title: New wheels
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7ly25b5c2r"
+categories:
+- Health
+- Personal
 ---
 
 Well, it finally happened, as Queen once sang. But I am not going "slightly mad" as the song professes. Instead, I have decided that the time has come where I need a wheelchair to get around. My arthritic hip damage is substantial and painful -- and it's stopping me going places. I rarely want to go out anywhere "for a walk" because the pain is so great. A wheelchair will help with this.

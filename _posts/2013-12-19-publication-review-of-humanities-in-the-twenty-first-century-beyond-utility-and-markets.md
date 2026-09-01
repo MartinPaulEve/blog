@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/12/19/publication-review-of-humanities-in-the-twenty-first-century-beyond-utility-and-markets
 categories:
-- Academia
 - Publications
-- Output
+- Higher Education
 comments: []
 date: 2013-12-19 14:21:46 +0100
 date_gmt: 2013-12-19 14:21:46 +0100

@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/06/28/uk-he-white-paper-day
 categories:
-- Politics
-- Academia
+- Higher Education
 comments: []
 date: 2011-06-28 07:24:27 +0200
 date_gmt: 2011-06-28 07:24:27 +0200

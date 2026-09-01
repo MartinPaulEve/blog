@@ -1,7 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/02/26/rethinking
 categories:
-- scholarly communications
+- Higher Education
+- Scholarly Communications
 date: 2016-02-26
 doi: https://doi.org/10.59348/vsnst-jzc68
 layout: post

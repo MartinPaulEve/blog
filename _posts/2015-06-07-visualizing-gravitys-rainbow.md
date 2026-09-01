@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/06/07/visualizing-gravitys-rainbow
 categories:
-- Pynchon
-- DH
+- Digital Humanities
+- Thomas Pynchon
 date: 2015-06-07
 doi: https://doi.org/10.59348/y831w-1h790
 image:

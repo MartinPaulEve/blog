@@ -3,7 +3,6 @@ archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014
 categories:
 - Open Access
 - Academia
-- Media
 comments: []
 date: 2014-04-17 10:21:36 +0200
 date_gmt: 2014-04-17 09:21:36 +0200

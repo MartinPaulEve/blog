@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/09/04/whats-so-moral-about-the-moral-rights-of-copyright-for-academics
 categories:
+- Copyright and Licensing
 - Open Access
 comments: []
 date: 2014-09-04 08:36:02 +0200

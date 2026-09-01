@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/02/16/understanding-ofquals-inter-subject-comparability-rasch-model-tests-for-easyhard-subjects-at-gcse-and-a-level
 categories:
-- statistics
-- education
+- Higher Education
 date: 2016-02-16
 doi: https://doi.org/10.59348/6p2nq-2tc18
 layout: post

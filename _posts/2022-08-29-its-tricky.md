@@ -8,6 +8,8 @@ layout: post
 ogImage: images/header_run_dmc.png
 title: It's Tricky
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lyoiiyc2r"
+categories:
+- Health
 ---
 
 The title of this post refers not to the classic 1987 single by Run-DMC but, instead, to the trickiness of rheumatoid arthritis and vasculitis as multisystem inflammatory disorders with a range of diverse outcomes.

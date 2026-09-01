@@ -1,10 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/05/16/photograph-and-interview-in-the-guardian
 categories:
-- Literature
 - Thomas Pynchon
-- Output
-- Public Engagement
+- Personal
 comments: []
 date: 2011-05-16 11:40:53 +0200
 date_gmt: 2011-05-16 11:40:53 +0200

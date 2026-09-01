@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/11/07/simon-f-davies-open-educational-resource-on-literary-terms
 categories:
-- Literature
-- Academia
 - Teaching
+- Literature
 comments: []
 date: 2011-11-07 20:37:52 +0100
 date_gmt: 2011-11-07 20:37:52 +0100

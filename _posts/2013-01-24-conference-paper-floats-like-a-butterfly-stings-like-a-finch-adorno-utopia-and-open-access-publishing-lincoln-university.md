@@ -1,11 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/01/24/conference-paper-floats-like-a-butterfly-stings-like-a-finch-adorno-utopia-and-open-access-publishing-lincoln-university
 categories:
-- Technology
+- Conferences
 - Open Access
-- Academia
 - Philosophy
-- Theodor Adorno
 comments: []
 date: 2013-01-24 18:20:02 +0100
 date_gmt: 2013-01-24 18:20:02 +0100

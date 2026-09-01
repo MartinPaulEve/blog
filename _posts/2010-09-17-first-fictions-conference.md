@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/09/17/first-fictions-conference
 categories:
-- Literature
 - Conferences
+- Literature
 comments: []
 date: 2010-09-17 09:57:24 +0200
 date_gmt: 2010-09-17 09:57:24 +0200

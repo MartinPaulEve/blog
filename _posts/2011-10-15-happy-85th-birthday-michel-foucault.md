@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/10/15/happy-85th-birthday-michel-foucault
 categories:
-- Academia
 - Philosophy
-- Michel Foucault
 comments: []
 date: 2011-10-15 10:00:00 +0200
 date_gmt: 2011-10-15 10:00:00 +0200

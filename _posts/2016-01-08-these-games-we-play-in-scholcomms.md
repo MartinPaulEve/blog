@@ -1,8 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/01/08/these-games-we-play-in-scholcomms
 categories:
-- OA
-- scholcomms
+- Scholarly Communications
+- Open Access
+- Conferences
 date: 2016-01-08
 doi: https://doi.org/10.59348/1dzy0-3fs78
 image:

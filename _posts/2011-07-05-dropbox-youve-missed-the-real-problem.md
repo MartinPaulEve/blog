@@ -2,6 +2,7 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/07/05/dropbox-youve-missed-the-real-problem
 categories:
 - Technology
+- Copyright and Licensing
 comments:
 - author: Sarah Robins-Hobden
   author_email: ''

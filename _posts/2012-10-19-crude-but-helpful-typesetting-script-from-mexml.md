@@ -1,10 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/10/19/crude-but-helpful-typesetting-script-from-mexml
 categories:
-- Technology
+- Publishing Technology
 - Open Access
-- Academia
-- Output
 comments: []
 date: 2012-10-19 19:08:08 +0200
 date_gmt: 2012-10-19 18:08:08 +0200

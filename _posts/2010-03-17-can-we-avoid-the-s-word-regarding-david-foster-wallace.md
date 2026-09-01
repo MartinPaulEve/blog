@@ -2,7 +2,6 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/03/17/can-we-avoid-the-s-word-regarding-david-foster-wallace
 categories:
 - Literature
-- David Foster Wallace
 comments: []
 date: 2010-03-17 11:37:00 +0100
 date_gmt: 2010-03-17 11:37:00 +0100

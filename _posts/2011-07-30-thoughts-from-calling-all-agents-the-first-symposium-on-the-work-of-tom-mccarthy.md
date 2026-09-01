@@ -1,11 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/07/30/thoughts-from-calling-all-agents-the-first-symposium-on-the-work-of-tom-mccarthy
 categories:
-- Literature
 - Conferences
-- Academia
-- Philosophy
-- Michel Foucault
+- Literature
 comments:
 - author: ben v
   author_email: ''

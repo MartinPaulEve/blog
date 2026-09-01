@@ -1,10 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/03/25/futurity-books-marx-labour
 categories:
+- Conferences
 - Open Access
-- Academia
-- Output
-- Conference Papers
 comments: []
 date: 2013-03-25 18:53:14 +0100
 date_gmt: 2013-03-25 18:53:14 +0100

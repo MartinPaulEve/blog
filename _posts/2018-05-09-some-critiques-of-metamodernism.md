@@ -5,6 +5,8 @@ doi: https://doi.org/10.59348/gb0m3-t0x84
 layout: post
 title: My critique of metamodernism
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7svteb2a"
+categories:
+- Literature
 ---
 
 A few years ago I wrote an article: Eve, Martin Paul, [‘Thomas Pynchon, David Foster Wallace and the Problems of “Metamodernism”: Post-Millennial Post-Postmodernism?’](https://eprints.bbk.ac.uk/12246/), <i>C21 Literature: Journal of 21st-Century Writings</i>, 1 (2012), 7–25. It was the first thing I wrote outside of my Ph.D. and I am not sure that the literary analysis is that good. I wouldn't read the second half of it if I were you.

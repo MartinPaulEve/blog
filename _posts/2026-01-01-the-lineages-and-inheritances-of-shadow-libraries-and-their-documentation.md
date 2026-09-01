@@ -12,6 +12,9 @@ layout: post
 ogImage: images/pirate.jpg
 title: The Lineages and Inheritances of Shadow Libraries and their Documentation
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvdokvd2s"
+categories:
+- Piracy and Shadow Libraries
+- Digital Preservation
 ---
 
 Shadow libraries, that is, illegal massive repositories of books of all kinds, are of course prone to takedowns by police and disappearance from the internet. In recent days, one of the most prominent shadow libraries, Library Genesis (libgen), was taken down and its archive removed from public consumption.

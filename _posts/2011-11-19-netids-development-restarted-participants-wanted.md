@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/11/19/netids-development-restarted-participants-wanted
 categories:
-- Technology
-- InfoSec
-- .NET
+- Information Security
+- Programming
 comments: []
 date: 2011-11-19 14:22:29 +0100
 date_gmt: 2011-11-19 14:22:29 +0100

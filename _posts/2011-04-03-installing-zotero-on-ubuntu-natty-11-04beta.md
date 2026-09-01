@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/04/03/installing-zotero-on-ubuntu-natty-11-04beta
 categories:
-- Technology
 - Linux
 comments:
 - author: Leigh Honeywell

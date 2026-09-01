@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/02/18/REF-consultation
 categories:
-- open access
-- REF
-- politics
+- Higher Education
+- Open Access
 date: 2016-02-18
 doi: https://doi.org/10.59348/518z1-7jx57
 image:

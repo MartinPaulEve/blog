@@ -8,6 +8,9 @@ layout: post
 ogImage: images/header_geek.png
 title: Using a public API, or the instability of MusicBrainz IDs
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvqjwzg2f"
+categories:
+- Programming
+- Music
 ---
 
 I have a script (a custom static site generator) that produces the output at [https://ticitaci.com](https://ticitaci.com) -- a page for the record label [on which I have released music](https://ticitaci.com/artists/martin-eve.html) (and that I really, really love).

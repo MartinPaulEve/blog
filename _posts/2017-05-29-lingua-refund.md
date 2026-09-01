@@ -8,6 +8,9 @@ layout: post
 ogImage: images/oa.png
 title: If I still subscribed to Elsevier's Lingua, I'd demand a refund
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mabw4jh2q"
+categories:
+- Open Access
+- Copyright and Licensing
 ---
 
 You may remember that, a while back, the editorial board of Elsevier's journal, _Lingua_, decided to leave the publisher to setup a new journal called _Glossa_ that would be totally open access with no author-facing charges. The new journal is published by Ubiquity Press and has ongoing support from the Open Library of Humanities. Many linguistics faculty around the world [declared their support](https://about.openlibhums.org/2016/02/16/mit-linguistics-faculty-statement-of-support-for-glossa-and-open-library-of-humanities/) for the new journal and denounced the old venue.

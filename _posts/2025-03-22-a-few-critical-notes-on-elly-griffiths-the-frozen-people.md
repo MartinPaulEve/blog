@@ -9,6 +9,8 @@ layout: post
 ogImage: images/header_frozen.png
 title: A few critical notes on Elly Griffith's The Frozen People
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvwedse2a"
+categories:
+- Literature
 ---
 
 This week, I took some time out to read Elly Griffith's most recent book, _The Frozen People_. I thought this sounded quite an interesting genre-fusing novel, welding together detective fiction and SF/time travel. Sure, it's hardly the first to do so, but it sounded worth a read. I'd met the author a few years' back through a mutual connection: Lesley Thompson, another British crime writer.

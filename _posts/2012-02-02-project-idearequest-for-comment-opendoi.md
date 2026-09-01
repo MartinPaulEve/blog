@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/02/02/project-idearequest-for-comment-opendoi
 categories:
-- Technology
+- Scholarly Communications
 - Open Access
-- Academia
 comments:
 - author: Dr Ernesto Priego
   author_email: ''

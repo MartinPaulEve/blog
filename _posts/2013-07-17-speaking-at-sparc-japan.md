@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/07/17/speaking-at-sparc-japan
 categories:
-- Technology
+- Conferences
 - Open Access
-- Academia
 comments: []
 date: 2013-07-17 11:30:49 +0200
 date_gmt: 2013-07-17 10:30:49 +0200

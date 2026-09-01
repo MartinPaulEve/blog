@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/08/23/reports-from-the-frontline-of-humanities-oa-in-japan
 categories:
-- Technology
 - Open Access
+- Conferences
 comments: []
 date: 2013-08-24 01:34:33 +0200
 date_gmt: 2013-08-24 00:34:33 +0200

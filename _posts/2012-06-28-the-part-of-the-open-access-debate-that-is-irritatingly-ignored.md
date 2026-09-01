@@ -2,7 +2,6 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/06/28/the-part-of-the-open-access-debate-that-is-irritatingly-ignored
 categories:
 - Open Access
-- Academia
 comments: []
 date: 2012-06-28 17:55:12 +0200
 date_gmt: 2012-06-28 17:55:12 +0200

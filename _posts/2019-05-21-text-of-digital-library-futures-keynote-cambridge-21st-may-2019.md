@@ -8,6 +8,10 @@ layout: post
 ogImage: images/digital.png
 title: Text of Digital Library Futures keynote (Cambridge, 21st May 2019)
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6zagdw2o"
+categories:
+- Digital Preservation
+- Open Access
+- Conferences
 ---
 
 <h4>The Sacred Unreadable Artefact: Digital Preservation, Computational Abundance, and Scarce Access</h4>

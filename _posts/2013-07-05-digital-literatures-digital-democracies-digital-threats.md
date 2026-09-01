@@ -1,10 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/07/05/digital-literatures-digital-democracies-digital-threats
 categories:
+- Conferences
 - Open Access
 - Academia
-- Output
-- Conference Papers
 comments: []
 date: 2013-07-05 20:04:36 +0200
 date_gmt: 2013-07-05 19:04:36 +0200

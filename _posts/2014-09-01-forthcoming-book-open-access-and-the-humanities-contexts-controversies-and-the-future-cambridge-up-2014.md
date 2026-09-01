@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/09/01/forthcoming-book-open-access-and-the-humanities-contexts-controversies-and-the-future-cambridge-up-2014
 categories:
+- Publications
 - Open Access
-- Academia
 comments: []
 date: 2014-09-01 17:00:47 +0200
 date_gmt: 2014-09-01 16:00:47 +0200

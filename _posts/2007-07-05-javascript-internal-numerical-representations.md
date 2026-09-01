@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2007/07/05/javascript-internal-numerical-representations
 categories:
-- Technology
-- InfoSec
+- Programming
+- Information Security
 comments: []
 date: 2007-07-05 09:59:02 +0200
 date_gmt: 2007-07-05 09:59:02 +0200

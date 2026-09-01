@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/05/12/getting-free_cite-running-on-your-own-server
 categories:
-- Technology
-- Open Access
+- Publishing Technology
+- Programming
 comments: []
 date: 2013-05-12 10:48:39 +0200
 date_gmt: 2013-05-12 09:48:39 +0200

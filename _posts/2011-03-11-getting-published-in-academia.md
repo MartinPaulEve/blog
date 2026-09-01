@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/03/11/getting-published-in-academia
 categories:
-- Technology
-- Open Access
 - Academia
+- Open Access
 comments: []
 date: 2011-03-11 10:15:18 +0100
 date_gmt: 2011-03-11 10:15:18 +0100

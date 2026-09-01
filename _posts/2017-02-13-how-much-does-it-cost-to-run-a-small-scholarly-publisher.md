@@ -8,6 +8,8 @@ layout: post
 ogImage: images/oa.png
 title: How much does it cost to run a small scholarly publisher?
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mag5sdd2p"
+categories:
+- Open Access
 ---
 
 I run a small academic publisher, the [Open Library of Humanities](https://www.openlibhums.org). Well, I say small but, at 18 journals, we are bigger than quite a few small university presses. But, by most accounts, we are small.

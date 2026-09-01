@@ -8,6 +8,9 @@ layout: post
 ogImage: images/geek.png
 title: Institutional Cultures, Patents, and Open-Source Software for Open Access
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7pgb2b2a"
+categories:
+- Copyright and Licensing
+- Publishing Technology
 ---
 
 As you may know, the Centre for Technology and Publishing at Birkbeck publishes and maintains a piece of open-source software for journal publishing called [Janeway](https://github.com/BirkbeckCTP/janeway/). This software is licensed under the AGPLv3.

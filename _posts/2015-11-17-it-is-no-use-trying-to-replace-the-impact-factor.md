@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/17/it-is-no-use-trying-to-replace-the-impact-factor
 categories:
-- open access
-- impact factor
+- Academia
 date: 2015-11-17
 doi: https://doi.org/10.59348/7nvzr-vsb06
 layout: post

@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2008/12/07/ssh-key-based-password-less-login
 categories:
-- Technology
-- InfoSec
+- Information Security
 - Linux
 comments:
 - author: Bypassing firewalls using SSH Reverse Forwarding | Martin Paul Eve

@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/10/30/booting-ubuntu-from-devices-invisible-to-grub2
 categories:
-- Technology
 - Linux
 comments: []
 date: 2011-10-30 18:12:42 +0100

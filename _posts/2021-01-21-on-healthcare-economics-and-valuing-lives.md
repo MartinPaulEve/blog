@@ -8,6 +8,9 @@ layout: post
 ogImage: images/header_medical.png
 title: On healthcare economics and valuing lives
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3w6xin2o"
+categories:
+- Politics
+- Health
 ---
 
 This week opened with the distressing news that Lord Sumption, supposedly someone whose judgement is entirely sound, having been a Supreme Court justice, had told a cancer sufferer live on air that [her life was less valuable than others](https://www.theguardian.com/law/2021/jan/17/jonathan-sumption-cancer-patient-life-less-valuable-others). Pretty disgusting stuff that, to me, seems to show a type of thinking that is similar to eugenics; valuing life more or less based on a person's illnesses and so on.

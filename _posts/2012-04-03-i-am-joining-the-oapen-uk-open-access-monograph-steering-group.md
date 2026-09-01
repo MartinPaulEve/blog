@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/04/03/i-am-joining-the-oapen-uk-open-access-monograph-steering-group
 categories:
-- Technology
 - Open Access
-- Academia
 comments: []
 date: 2012-04-03 13:34:47 +0200
 date_gmt: 2012-04-03 13:34:47 +0200

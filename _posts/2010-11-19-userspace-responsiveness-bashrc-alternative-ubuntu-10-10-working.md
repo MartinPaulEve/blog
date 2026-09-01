@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/11/19/userspace-responsiveness-bashrc-alternative-ubuntu-10-10-working
 categories:
-- Technology
 - Linux
 comments:
 - author: Alex Filonov

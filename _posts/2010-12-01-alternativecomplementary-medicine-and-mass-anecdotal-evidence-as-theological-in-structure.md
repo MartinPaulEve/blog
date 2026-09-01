@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/12/01/alternativecomplementary-medicine-and-mass-anecdotal-evidence-as-theological-in-structure
 categories:
-- Personal
-- Politics
+- Philosophy
+- Health
 comments: []
 date: 2010-12-01 08:17:35 +0100
 date_gmt: 2010-12-01 08:17:35 +0100

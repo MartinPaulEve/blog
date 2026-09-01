@@ -1,10 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/01/19/rockaby-mission-statement-and-implementation-plans
 categories:
-- Technology
-- Academia
-- Django
-- Rockaby
+- Digital Humanities
+- Programming
 comments: []
 date: 2011-01-19 15:44:54 +0100
 date_gmt: 2011-01-19 15:44:54 +0100

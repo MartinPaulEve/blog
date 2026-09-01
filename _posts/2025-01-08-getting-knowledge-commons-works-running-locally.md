@@ -8,6 +8,9 @@ layout: post
 ogImage: images/header_kcw.png
 title: Getting Knowledge Commons Works running locally
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwcrllj2h"
+categories:
+- Scholarly Communications
+- Programming
 ---
 
 This week, I have started work at Michigan State University, as interim technical lead on the Knowledge Commons project. I'll probably say more about this at some point soon.

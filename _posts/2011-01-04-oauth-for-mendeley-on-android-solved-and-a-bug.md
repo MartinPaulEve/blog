@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/01/04/oauth-for-mendeley-on-android-solved-and-a-bug
 categories:
-- Technology
-- Android
+- Programming
 comments:
 - author: 'Tweets that mention OAuth for Mendeley on Android: solved and a bug | Martin
     Paul Eve -- Topsy.com'

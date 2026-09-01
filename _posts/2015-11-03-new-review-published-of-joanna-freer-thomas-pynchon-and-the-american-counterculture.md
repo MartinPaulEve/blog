@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/03/new-review-published-of-joanna-freer-thomas-pynchon-and-the-american-counterculture
 categories:
-- review
-- publication
+- Publications
+- Thomas Pynchon
 date: 2015-11-03
 doi: https://doi.org/10.59348/wjc7j-4kn48
 layout: post

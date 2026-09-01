@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/10/03/whats-open-got-to-do-with-it
 categories:
-- Technology
 - Open Access
 - Academia
 comments: []

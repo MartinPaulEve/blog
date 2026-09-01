@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/08/07/fix-some-of-your-writing-tics-with-a-bit-of-technology
 categories:
-- regex
-- programming
-- writing
+- Programming
+- Academia
 date: 2015-08-07
 doi: https://doi.org/10.59348/w3z9z-97p33
 image:

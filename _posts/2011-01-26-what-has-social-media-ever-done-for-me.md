@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/01/26/what-has-social-media-ever-done-for-me
 categories:
-- Technology
 - Academia
-- EdTech
+- Technology
 comments:
 - author: Anne Marie Cunningham
   author_email: anne.marie.cunningham@gmail.com

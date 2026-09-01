@@ -1,7 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/04/05/publishers-serving-authors-or-readers
 categories:
-- Personal
+- Open Access
 comments: []
 date: 2015-04-05
 doi: https://doi.org/10.59348/abc3k-19327

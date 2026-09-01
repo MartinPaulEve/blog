@@ -8,6 +8,9 @@ layout: post
 ogImage: images/header_orange.png
 title: Are metadata facts?
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lworizd2o"
+categories:
+- Scholarly Communications
+- Copyright and Licensing
 ---
 
 This post picks up an argument that I made in [Theses on the Metaphors of Digital-Textual History](https://www.amazon.co.uk/Metaphors-Digital-Textual-History-Stanford-Technologies/dp/1503614883/ref=sr_1_1) about facts and copyright. Namely, that although facts are exempt from copyright, factual status is not necessarily stable.

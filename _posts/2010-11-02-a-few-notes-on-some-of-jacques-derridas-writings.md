@@ -1,11 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/11/02/a-few-notes-on-some-of-jacques-derridas-writings
 categories:
-- Technology
-- Open Access
-- Academia
 - Philosophy
-- Jacques Derrida
+- Academia
 comments:
 - author: Tweets that mention A few notes on some of Jacques Derrida’s writings |
     Martin Paul Eve -- Topsy.com

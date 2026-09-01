@@ -1,9 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/07/04/he-doesnt-talk-politics-any-more-politics-and-postmodernism-morality-and-metafiction-nihilism-and-the-novel
 categories:
-- literature
-- ethics
-- talks
+- Literature
+- Conferences
+- Thomas Pynchon
 date: 2015-07-04
 doi: https://doi.org/10.59348/51j4e-2pf27
 image:

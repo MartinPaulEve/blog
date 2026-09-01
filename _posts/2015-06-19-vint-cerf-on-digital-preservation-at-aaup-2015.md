@@ -1,7 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/06/19/vint-cerf-on-digital-preservation-at-aaup-2015
 categories:
-- digital preservation
+- Digital Preservation
+- Conferences
 date: 2015-06-19
 doi: https://doi.org/10.59348/6nsg9-qk387
 image:

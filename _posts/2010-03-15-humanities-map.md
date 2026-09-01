@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/03/15/humanities-map
 categories:
-- Literature
 - Academia
 comments: []
 date: 2010-03-15 15:38:36 +0100

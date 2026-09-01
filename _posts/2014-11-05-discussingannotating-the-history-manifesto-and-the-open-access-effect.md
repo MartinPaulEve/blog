@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/11/05/discussingannotating-the-history-manifesto-and-the-open-access-effect
 categories:
-- Technology
 - Open Access
-- Academia
+- Technology
 comments: []
 date: 2014-11-05
 doi: https://doi.org/10.59348/7amhx-arm33

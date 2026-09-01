@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/11/29/the-clause-model-of-adornos-dialectical-sentences
 categories:
-- Academia
 - Philosophy
-- Theodor Adorno
 comments: []
 date: 2012-11-29 09:45:41 +0100
 date_gmt: 2012-11-29 09:45:41 +0100

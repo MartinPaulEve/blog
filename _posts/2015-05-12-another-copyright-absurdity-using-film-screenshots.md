@@ -1,7 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/05/12/another-copyright-absurdity-using-film-screenshots
 categories:
-- copyright
+- Copyright and Licensing
 date: 2015-05-12
 doi: https://doi.org/10.59348/ywahz-kn179
 layout: post

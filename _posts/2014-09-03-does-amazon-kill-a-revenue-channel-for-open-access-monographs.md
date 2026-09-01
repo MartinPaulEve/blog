@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/09/03/does-amazon-kill-a-revenue-channel-for-open-access-monographs
 categories:
-- Technology
 - Open Access
 comments: []
 date: 2014-09-03 08:38:27 +0200

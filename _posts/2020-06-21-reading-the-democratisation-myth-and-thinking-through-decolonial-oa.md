@@ -8,6 +8,8 @@ layout: post
 ogImage: images/header_prestige.png
 title: Reading ‘The Democratisation Myth’ and thinking through decolonial OA
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5lba462p"
+categories:
+- Open Access
 ---
 
 This week for COPIM we are reading Knöchelmann, Marcel, The Democratisation Myth: Open Access and the Solidification of Epistemic Injustices (SocArXiv, 9 June 2020) <https://doi.org/10.31235/osf.io/hw7at>. This piece presents an argument that is familiar to me as it strongly mirrors the contents of the forthcoming Mboa Nkoudou, Thomas Hervé, ‘Epistemic Alienation in African Scholarly Communications: Open Access as a Pharmakon’, in _Reassembling Scholarly Communications: Histories, Infrastructures, and Global Politics of Open Access_, ed. by Martin Paul Eve and Jonathan Gray (Cambridge, MA: The MIT Press, 2020), which I had the privilege to edit.

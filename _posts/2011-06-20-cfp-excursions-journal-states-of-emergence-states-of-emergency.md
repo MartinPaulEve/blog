@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/06/20/cfp-excursions-journal-states-of-emergence-states-of-emergency
 categories:
-- Literature
-- Politics
-- Academia
+- Conferences
 - Philosophy
 comments: []
 date: 2011-06-20 11:37:47 +0200

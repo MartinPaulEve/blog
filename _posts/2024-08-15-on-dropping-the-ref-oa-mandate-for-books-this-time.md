@@ -8,6 +8,9 @@ layout: post
 ogImage: images/oa.png
 title: On dropping the REF OA mandate for books (this time)
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwr2itg2e"
+categories:
+- Open Access
+- Higher Education
 ---
 
 Research England has dropped the mandate for OA books in its guidance for the next REF, saying that it will, now, apply instead by 2029.

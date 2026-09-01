@@ -8,6 +8,8 @@ layout: post
 ogImage: images/oa.png
 title: What we mean when we ask whether open access is sustainable
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7matsqpk2i"
+categories:
+- Open Access
 ---
 
 The most frequent question that is asked in scholarly communication circles about gold open access is whether a business model is sustainable and/or scalable.

@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/01/17/adorno-terminology-ce-b6-e1-bf-b7-ce-bf-ce-bd-cf-80-ce-bf-ce-bb-ce-b9-cf-84-ce-b9-ce-ba-cf-8c-ce-bd
 categories:
-- Academia
 - Philosophy
-- Theodor Adorno
 comments: []
 date: 2012-01-17 10:54:29 +0100
 date_gmt: 2012-01-17 10:54:29 +0100

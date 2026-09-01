@@ -1,10 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/04/08/speaking-plainly
 categories:
-- Literature
 - Thomas Pynchon
 - Philosophy
-- Michel Foucault
+- Academia
 comments:
 - author: ailsa
   author_email: ailsa.haxell@aut.ac.nz

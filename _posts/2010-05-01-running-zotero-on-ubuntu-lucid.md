@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/05/01/running-zotero-on-ubuntu-lucid
 categories:
-- Technology
-- Open Access
+- Linux
 comments: []
 date: 2010-05-01 18:31:00 +0200
 date_gmt: 2010-05-01 18:31:00 +0200

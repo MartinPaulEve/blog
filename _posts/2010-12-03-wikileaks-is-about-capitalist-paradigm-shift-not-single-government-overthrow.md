@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/12/03/wikileaks-is-about-capitalist-paradigm-shift-not-single-government-overthrow
 categories:
-- Personal
 - Politics
 comments: []
 date: 2010-12-03 16:02:18 +0100

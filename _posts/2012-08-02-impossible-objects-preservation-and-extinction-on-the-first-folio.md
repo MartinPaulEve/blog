@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/08/02/impossible-objects-preservation-and-extinction-on-the-first-folio
 categories:
+- Digital Preservation
 - Literature
-- Academia
 comments: []
 date: 2012-08-02 05:49:52 +0200
 date_gmt: 2012-08-02 05:49:52 +0200

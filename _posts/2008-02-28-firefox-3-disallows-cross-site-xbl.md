@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2008/02/28/firefox-3-disallows-cross-site-xbl
 categories:
-- Technology
-- InfoSec
+- Information Security
 comments: []
 date: 2008-02-28 15:40:45 +0100
 date_gmt: 2008-02-28 15:40:45 +0100

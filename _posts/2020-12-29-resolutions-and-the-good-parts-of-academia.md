@@ -8,6 +8,9 @@ layout: post
 ogImage: images/header_jan.png
 title: Resolutions, and The Good, The Bad, and the Ugly Parts of Academia
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m4lmavw2h"
+categories:
+- Personal
+- Academia
 ---
 
 I usually start my New Year's resolutions on the 28<sup>th</sup> or 29<sup>th</sup> December. I do this because I don't like the season of excess; I come out of it feeling unfit, bloated, unstructured etc. Last year's resolutions went somewhat down the pan as the pandemic blew everything away.

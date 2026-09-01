@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/02/22/google-scholar-will-count-a-blog-post-as-an-article-if-its-cited-a-preservation-suggesstion
 categories:
-- Open Access
-- Academia
+- Scholarly Communications
+- Digital Preservation
 comments: []
 date: 2014-02-22 06:44:17 +0100
 date_gmt: 2014-02-22 06:44:17 +0100

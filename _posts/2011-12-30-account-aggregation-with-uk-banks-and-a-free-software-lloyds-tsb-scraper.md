@@ -1,7 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/12/30/account-aggregation-with-uk-banks-and-a-free-software-lloyds-tsb-scraper
 categories:
-- Technology
+- Programming
 comments: []
 date: 2011-12-30 18:36:23 +0100
 date_gmt: 2011-12-30 18:36:23 +0100

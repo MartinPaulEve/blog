@@ -1,12 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/09/18/conference-paper-opening-childrens-eyes-overloaded-forms-and-the-didactic-function-westminster-university
 categories:
-- Literature
-- Thomas Pynchon
 - Conferences
-- Academia
-- Output
-- Conference Papers
+- Thomas Pynchon
+- Literature
 comments: []
 date: 2012-09-18 21:17:02 +0200
 date_gmt: 2012-09-18 20:17:02 +0200

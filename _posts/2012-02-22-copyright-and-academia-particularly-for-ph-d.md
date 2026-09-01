@@ -1,7 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/02/22/copyright-and-academia-particularly-for-ph-d
 categories:
-- Technology
+- Copyright and Licensing
 - Academia
 comments:
 - author: M-H Ward

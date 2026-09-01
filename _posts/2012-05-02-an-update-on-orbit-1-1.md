@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/05/02/an-update-on-orbit-1-1
 categories:
-- Literature
 - Thomas Pynchon
-- Academia
+- Open Access
 comments: []
 date: 2012-05-02 14:23:22 +0200
 date_gmt: 2012-05-02 14:23:22 +0200

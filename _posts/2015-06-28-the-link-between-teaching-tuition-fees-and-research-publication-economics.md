@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/06/28/the-link-between-teaching-tuition-fees-and-research-publication-economics
 categories:
-- OA
-- publication
+- Academia
+- Higher Education
 date: 2015-06-28
 doi: https://doi.org/10.59348/64v3a-qms65
 image:

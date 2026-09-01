@@ -8,6 +8,9 @@ layout: post
 ogImage: images/oa.png
 title: Open access in a time of illness
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbocwdv2e"
+categories:
+- Open Access
+- Health
 ---
 
 I noted, on Twitter, how pleased I was to discover that there was good information available online about <a href="https://www.martineve.com/2016/03/28/i-am-currently-off-work-having-suffered-cerebral-vasculitis-and-a-stroke/">my current condition</a>. I want, here though, to offer a few words to the ridiculous arguments that are sometimes brought against open access. Namely, that there isn't a public for this material because it is specialized in both its wording and its content.

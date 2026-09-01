@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/04/09/the-future-of-academic-publishing-qa
 categories:
-- Technology
+- Conferences
 - Open Access
-- Academia
 comments:
 - author: Sarah R-H
   author_email: sarah@robinshobden.com

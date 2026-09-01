@@ -8,6 +8,9 @@ layout: post
 ogImage: images/geek.png
 title: On neural networks and health data privacy
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbh5of42a"
+categories:
+- Politics
+- Artificial Intelligence
 ---
 
 Dear all,

@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/08/23/how-to-block-distributed-brute-force-attacks-against-wordpress-using-fail2ban
 categories:
-- tech
-- security
+- Information Security
 date: 2015-08-23
 doi: https://doi.org/10.59348/yd9ap-s4406
 image:

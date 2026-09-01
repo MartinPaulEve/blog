@@ -1,10 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/03/13/thomas-pynchon-critical-bibliography-zotero-group
 categories:
-- Literature
-- Technology
 - Thomas Pynchon
-- Open Access
+- Technology
 comments:
 - author: AJ Cann
   author_email: ''

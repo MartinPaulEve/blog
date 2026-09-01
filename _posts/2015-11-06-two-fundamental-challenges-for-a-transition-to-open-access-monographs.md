@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/06/two-fundamental-challenges-for-a-transition-to-open-access-monographs
 categories:
-- OA
-- books
+- Open Access
 date: 2015-11-06
 doi: https://doi.org/10.59348/dxf15-wfc37
 image:

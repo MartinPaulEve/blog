@@ -5,6 +5,9 @@ doi: https://doi.org/10.59348/ff1cw-qxp42
 layout: post
 title: Jennifer Egan’s Editorial Processes and the Archival Edition of Emerald City
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6snkcg2o"
+categories:
+- Publications
+- Literature
 ---
 
 This is an author’s accepted manuscript of an article accepted for publication in _LIT: Literature Interpretation Theory_. It is made available, here, [on a personal website with no embargo](/images/Eve-LIT-Egan.pdf) and will also be available in Birkbeck’s institutional repository 18 months after publication, as per Taylor & Francis’s OA policy at the time of acceptance. Data appendices will be openly available at or around the time of publication.

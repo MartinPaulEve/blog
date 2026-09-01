@@ -1,7 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/08/19/wordpress-php-eval-attacks
 categories:
-- wordpress
+- Information Security
 date: 2015-08-19
 doi: https://doi.org/10.59348/4wvv5-fe614
 image:

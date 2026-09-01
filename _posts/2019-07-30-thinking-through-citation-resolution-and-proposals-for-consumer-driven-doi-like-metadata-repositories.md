@@ -9,6 +9,8 @@ ogImage: images/oa.png
 title: Thinking through citation resolution and proposals for consumer-driven, DOI-like
   metadata repositories
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6r47e32n"
+categories:
+- Scholarly Communications
 ---
 
 One of the major challenges that we face in the Jisc Open Monographs Metrics Experiment is in aligning the linguistic expression of a citation with its underlying canonical citation object. That is, “M. Foucault, Discipline and Punish” refers, despite the different linguistic expression, to the same object as “Michel Foucault, Discipline and Punish: The Birth of the Prison (London: Penguin, 1992)”. This problem is greatly eased when the artefact in question has a DOI. However, the fact that the current Document Object Identifier (DOI) system is a supplier-side, push mechanism means that it will never be possible or likely for all cited objects to have a DOI. Consumers of citation data from DOI registries, therefore, are at the mercy of content creators to register their metadata. In addition, this comes with preservation and access requirements – the PILA agreement in the case of Crossref – that are not necessarily suitable or realistic for all types of content, given that scholarly work can cite arbitrary grey literature.

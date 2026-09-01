@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/03/02/sshsplit-a-dynamic-tunnel-multiplexer
 categories:
-- Technology
-- InfoSec
+- Programming
+- Information Security
 comments: []
 date: 2010-03-02 13:11:34 +0100
 date_gmt: 2010-03-02 13:11:34 +0100

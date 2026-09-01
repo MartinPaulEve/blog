@@ -8,6 +8,9 @@ layout: post
 ogImage: images/header_ambulance.png
 title: Rollercoaster days
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwqq5vl2o"
+categories:
+- Health
+- Personal
 ---
 
 There are lots of things that I have learned about kidneys and their functions since BK virus destroyed mine. Kidneys regulate potassium in your blood; they also control phosphate levels; they remove urea from the blood stream; they take excess fluid out of your body and blood; they produce the hormones that stimulate the creation of red blood cells; and a whole host more. Kidneys are the Swiss Army Knives of internal organs.

@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2008/07/23/building-a-robust-ssl-crc-verified-serverclient-solution-in-the-net-framework-with-c
 categories:
-- Technology
-- .NET
+- Programming
+- Information Security
 comments: []
 date: 2008-07-23 06:26:58 +0200
 date_gmt: 2008-07-23 06:26:58 +0200

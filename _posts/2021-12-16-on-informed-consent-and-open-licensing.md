@@ -8,6 +8,9 @@ layout: post
 ogImage: images/oa.png
 title: On informed consent and open licensing
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m253dye2h"
+categories:
+- Copyright and Licensing
+- Open Access
 ---
 
 I gave my final talk of the year, today, at the University of Leeds, on open access in the humanities disciplines. Perhaps predictably, all of the Q&A centred on open licensing and the concerns from humanists around the misuse of their work.

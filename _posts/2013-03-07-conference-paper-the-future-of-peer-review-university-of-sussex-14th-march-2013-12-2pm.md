@@ -1,10 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/03/07/conference-paper-the-future-of-peer-review-university-of-sussex-14th-march-2013-12-2pm
 categories:
-- Open Access
+- Conferences
 - Academia
-- Output
-- Conference Papers
 comments: []
 date: 2013-03-07 10:30:10 +0100
 date_gmt: 2013-03-07 10:30:10 +0100

@@ -5,6 +5,9 @@ doi: https://doi.org/10.59348/95tey-ydq97
 layout: post
 title: The social network of the London Review of Books
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3m7knj2a"
+categories:
+- Digital Humanities
+- Literature
 ---
 
 I have, this afternoon (on a day off -- I know, I know) been playing around with the _LRB_ archive, looking for fun patterns in the chain of "who reviews whom". Some preliminary thoughts...

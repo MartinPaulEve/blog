@@ -2,7 +2,6 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/04/15/im-appearing-before-the-house-of-commons-bis-select-committee-into-open-access
 categories:
 - Open Access
-- Politics
 comments: []
 date: 2013-04-15 08:52:16 +0200
 date_gmt: 2013-04-15 07:52:16 +0200

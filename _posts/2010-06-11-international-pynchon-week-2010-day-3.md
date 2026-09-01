@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/06/11/international-pynchon-week-2010-day-3
 categories:
-- Literature
 - Thomas Pynchon
 - Conferences
 comments: []

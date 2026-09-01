@@ -1,7 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/04/07/upcoming-performance-lucy-and-martha-fine-bone-china
 categories:
-- Performance
+- Music
 comments: []
 date: 2010-04-07 20:06:57 +0200
 date_gmt: 2010-04-07 20:06:57 +0200

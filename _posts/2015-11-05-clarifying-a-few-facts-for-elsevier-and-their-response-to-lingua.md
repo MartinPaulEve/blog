@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/11/05/clarifying-a-few-facts-for-elsevier-and-their-response-to-lingua
 categories:
-- Elsevier
-- OA
+- Open Access
 date: 2015-11-05
 doi: https://doi.org/10.59348/gmv5p-h4y73
 image:

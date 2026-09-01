@@ -1,10 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/04/11/delay-to-report-on-first-ukpn-meeting
 categories:
-- Literature
-- Thomas Pynchon
 - Conferences
-- Academia
+- Thomas Pynchon
 comments: []
 date: 2011-04-11 09:26:20 +0200
 date_gmt: 2011-04-11 09:26:20 +0200

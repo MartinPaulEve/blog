@@ -1,9 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/04/16/alluvium-2nd-birthday-panel-event
 categories:
-- Literature
+- Conferences
 - Open Access
-- Academia
+- Literature
 comments: []
 date: 2014-04-16 12:08:49 +0200
 date_gmt: 2014-04-16 11:08:49 +0200

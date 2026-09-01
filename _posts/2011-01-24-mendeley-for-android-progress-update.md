@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/01/24/mendeley-for-android-progress-update
 categories:
-- Technology
-- Android
-- Mendeley
+- Programming
 comments:
 - author: 'Tweets that mention Mendeley for Android: Progress update | Martin Paul
     Eve -- Topsy.com'

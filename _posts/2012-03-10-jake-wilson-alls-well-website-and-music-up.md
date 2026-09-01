@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/03/10/jake-wilson-alls-well-website-and-music-up
 categories:
+- Music
 - Personal
 comments: []
 date: 2012-03-10 12:21:59 +0100

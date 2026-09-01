@@ -9,6 +9,9 @@ ogImage: images/header_ambulance.png
 title: 'Why it''s worth avoiding as many viruses/common colds as possible: mine led
   to permanent disability'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwo5qzu2a"
+categories:
+- Health
+- Personal
 ---
 
 People are obsessed with the short-term effects of Covid, prioritising them over the longer-term impacts. "It was just like a minor cold, really", they say, perhaps not realising that [even mild cases of Covid have been shown to cause lasting cognitive impairment](https://www.imperial.ac.uk/news/236034/lasting-brain-impacts-severe-covid-19-equivalent/). But I also take exception with this comparison to the common cold. Because, for me, a simple cold led to lifelong disability and severe chronic health problems.

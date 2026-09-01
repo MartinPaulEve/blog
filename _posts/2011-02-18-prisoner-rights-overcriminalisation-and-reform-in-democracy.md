@@ -2,9 +2,7 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/02/18/prisoner-rights-overcriminalisation-and-reform-in-democracy
 categories:
 - Politics
-- Academia
 - Philosophy
-- Michel Foucault
 comments:
 - author: Bill
   author_email: neoliminal99@hotmail.com

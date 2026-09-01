@@ -8,6 +8,9 @@ layout: post
 ogImage: images/header_warez.png
 title: My conflicted thoughts on the UK's assisted dying bill
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwndyux2f"
+categories:
+- Politics
+- Health
 ---
 
 The UK currently has [an assisted dying bill going through parliament](https://bills.parliament.uk/bills/3741) and I am very conflicted about it. On the one hand, I am a member of DIGNITAS, the organization that supports assisted dying and that runs a "clinic" in Switzerland to which members who are terminally ill can travel to end their lives. I have no desire for the end of my life to be a mess of literally unbearable suffering and nausea, even with palliative care. I support assisted dying _for me_.

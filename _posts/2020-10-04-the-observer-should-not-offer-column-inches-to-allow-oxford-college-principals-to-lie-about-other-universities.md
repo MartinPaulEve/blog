@@ -9,6 +9,8 @@ ogImage: images/Birkbeck.jpg
 title: The Observer should not offer column inches to allow Oxford College principals
   to denigrate other universities
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m4tuee52o"
+categories:
+- Higher Education
 ---
 
 Today, in the _Observer_, the Sunday national newspaper of the liberal Guardian Media Group, Will Hutton offered a sobering retrospective of the university crisis during the Covid pandemic, from his position as the former principal of Hertford College, Oxford.

@@ -2,9 +2,8 @@
 altmetric: 10.1017/CBO9781316161012
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/11/27/book-open-access-and-the-humanities
 categories:
-- Academia
 - Publications
-- Output
+- Open Access
 comments: []
 date: 2014-11-27
 doi: https://doi.org/10.59348/x1a1y-phg90

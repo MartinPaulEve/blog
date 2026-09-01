@@ -2,6 +2,7 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/09/03/why-do-some-academic-publishers-think-they-should-charge-extra-for-more-liberal-licenses-cc-by
 categories:
 - Open Access
+- Copyright and Licensing
 comments: []
 date: 2014-09-03 18:03:38 +0200
 date_gmt: 2014-09-03 17:03:38 +0200

@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/05/21/beware-the-next-wave-of-academic-publishing-grimness-apps
 categories:
+- Open Access
 - Technology
-- Academia
 comments: []
 date: 2012-05-21 09:39:25 +0200
 date_gmt: 2012-05-21 09:39:25 +0200

@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2007/05/15/amendments-to-the-british-computer-misuse-act
 categories:
-- Technology
-- InfoSec
+- Information Security
 - Politics
 comments: []
 date: 2007-05-15 16:06:22 +0200

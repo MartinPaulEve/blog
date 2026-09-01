@@ -1,11 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/06/21/excursions-vol-2-issue-1-virus-2011
 categories:
-- Literature
-- Technology
-- Open Access
+- Publications
 - Academia
-- Output
 comments: []
 date: 2011-06-21 07:25:31 +0200
 date_gmt: 2011-06-21 07:25:31 +0200

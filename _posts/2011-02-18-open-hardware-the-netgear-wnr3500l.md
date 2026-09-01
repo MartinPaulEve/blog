@@ -2,8 +2,6 @@
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/02/18/open-hardware-the-netgear-wnr3500l
 categories:
 - Technology
-- Open Access
-- Linux
 comments:
 - author: otter9099
   author_email: mattbeardall@gmail.com

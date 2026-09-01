@@ -8,6 +8,8 @@ layout: post
 ogImage: images/geek.png
 title: Converting Excel date serial numbers to Python datetime format
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7ly34f5x2i"
+categories:
+- Programming
 ---
 
 Excel stores dates in a very odd way: a serial number of days since 1900.

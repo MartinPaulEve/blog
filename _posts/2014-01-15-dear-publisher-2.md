@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/01/15/dear-publisher-2
 categories:
-- Open Access
 - Academia
 comments: []
 date: 2014-01-15 07:52:46 +0100

@@ -1,7 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2010/12/30/using-unison-to-synchronize-and-backup-your-work-part-1
 categories:
-- Technology
+- Linux
 comments:
 - author: Naomi Jacobs
   author_email: naomijacobs10@gmail.com

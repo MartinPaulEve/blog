@@ -1,8 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/08/19/additional-contexts-for-reading-the-emergence-of-new-UK-university-presses
 categories:
-- OA
-- publishing
+- Open Access
+- Higher Education
 date: 2015-08-19
 doi: https://doi.org/10.59348/kd8wp-9v970
 image:

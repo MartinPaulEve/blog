@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/08/05/e-books-copyright-infringement-theft-materiality-and-the-virtual
 categories:
-- Literature
-- Technology
-- Open Access
+- Copyright and Licensing
+- Piracy and Shadow Libraries
 comments: []
 date: 2012-08-05 10:20:57 +0200
 date_gmt: 2012-08-05 10:20:57 +0200

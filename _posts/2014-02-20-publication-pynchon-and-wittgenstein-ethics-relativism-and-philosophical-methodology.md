@@ -1,12 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2014/02/20/publication-pynchon-and-wittgenstein-ethics-relativism-and-philosophical-methodology
 categories:
-- Literature
-- Thomas Pynchon
-- Academia
-- Philosophy
 - Publications
-- Ludwig Wittgenstein
+- Thomas Pynchon
+- Philosophy
 comments: []
 date: 2014-02-20 10:46:56 +0100
 date_gmt: 2014-02-20 10:46:56 +0100

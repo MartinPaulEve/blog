@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/11/16/three-reasons-why-i-think-journal-prestige-is-a-broken-system
 categories:
-- Technology
-- Open Access
 - Academia
+- Open Access
 comments: []
 date: 2013-11-16 19:44:56 +0100
 date_gmt: 2013-11-16 19:44:56 +0100

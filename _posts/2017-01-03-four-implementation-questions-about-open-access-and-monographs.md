@@ -8,6 +8,8 @@ layout: post
 ogImage: images/oa.png
 title: Four implementation questions about open access and monographs
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7maoqwy52u"
+categories:
+- Open Access
 ---
 
 From January this year, I am a member of the Universities UK Open Access Monographs Working Group. The aims of the group, in preparation for the mandate for the anticipated Third Research Excellence Framework in the mid-2020s, are to monitor progress towards the practical implementation of open access monographs; to promote and accelerate cultural change towards OA publishing within academia and among traditional publishers; to advise on technical barriers to OA publishing and make recommendations for further work and investment; to promote innovation and diversity in business models for OA book publishing; to advise on how best to overcome perceived and actual policy and legal barriers to OA.

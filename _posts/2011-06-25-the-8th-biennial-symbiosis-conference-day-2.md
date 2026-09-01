@@ -1,14 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2011/06/25/the-8th-biennial-symbiosis-conference-day-2
 categories:
+- Conferences
 - Literature
 - Thomas Pynchon
-- Conferences
-- David Foster Wallace
-- Academia
-- Philosophy
-- Michel Foucault
-- Ludwig Wittgenstein
 comments: []
 date: 2011-06-25 08:30:03 +0200
 date_gmt: 2011-06-25 08:30:03 +0200

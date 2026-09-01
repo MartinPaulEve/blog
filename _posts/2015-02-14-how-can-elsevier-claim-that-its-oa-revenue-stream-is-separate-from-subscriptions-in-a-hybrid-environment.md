@@ -1,9 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/02/14/how-can-elsevier-claim-that-its-oa-revenue-stream-is-separate-from-subscriptions-in-a-hybrid-environment
 categories:
-- Technology
 - Open Access
-- Academia
 comments: []
 date: 2015-02-14
 doi: https://doi.org/10.59348/x8eh0-sh858

@@ -1,9 +1,8 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/03/10/open-access-neoliberalism-impact-and-the-privatisation-of-knowledge
 categories:
-- Technology
 - Open Access
-- Academia
+- Higher Education
 comments: []
 date: 2013-03-10 12:02:30 +0100
 date_gmt: 2013-03-10 12:02:30 +0100

@@ -1,7 +1,6 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2012/03/08/doctoral-thesis-editing-cutting-words
 categories:
-- Technology
 - Academia
 comments:
 - author: Sarah Robins-Hobden

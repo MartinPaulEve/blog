@@ -8,6 +8,8 @@ layout: post
 ogImage: images/header_flow.png
 title: On application observability in serverless cloud contexts
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7ly7qqbm2h"
+categories:
+- Programming
 ---
 
 I have been thinking, this week, about the observability of AWS Lambda functions in API Gateway contexts. The major challenge is that Prometheus metrics pose a problem as they are pull-only (via a scraping endpoint). Prometheus metrics are stored in a temporary disk cache and then pulled off-site by Grafana etc. But this makes them difficult to collect in the context of ephemeral services, such as Lambda functions, where you can't guarantee a persisted endpoint with that data store.

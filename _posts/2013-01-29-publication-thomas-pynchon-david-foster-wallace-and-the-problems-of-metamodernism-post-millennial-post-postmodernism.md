@@ -1,12 +1,9 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2013/01/29/publication-thomas-pynchon-david-foster-wallace-and-the-problems-of-metamodernism-post-millennial-post-postmodernism
 categories:
-- Literature
-- Thomas Pynchon
-- David Foster Wallace
-- Academia
 - Publications
-- Output
+- Thomas Pynchon
+- Literature
 comments: []
 date: 2013-01-29 12:54:24 +0100
 date_gmt: 2013-01-29 12:54:24 +0100

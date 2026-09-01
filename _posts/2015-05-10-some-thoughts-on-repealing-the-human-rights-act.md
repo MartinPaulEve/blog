@@ -1,8 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015/05/10/some-thoughts-on-repealing-the-human-rights-act
 categories:
-- politics
-- personal
+- Politics
 date: 2015-05-10
 doi: https://doi.org/10.59348/6bg5y-49p31
 layout: post
