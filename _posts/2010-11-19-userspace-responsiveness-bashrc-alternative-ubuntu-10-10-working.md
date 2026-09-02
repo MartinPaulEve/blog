@@ -83,6 +83,7 @@ title: 'Userspace responsiveness .bashrc alternative (Ubuntu 10.10: Working)'
 wordpress_id: 437
 wordpress_url: http://www.martineve.com/?p=437
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mllxa6e2h"
+kcworks: https://works.hcommons.org/records/1ny0c-jac12
 ---
 
 <p>Recent discussion on the lkm has lead to Linus giving the go-ahead to a large kernel patch that massively increases responsiveness when multi-tasking on Linux desktop. A <a href="http://slashdot.org/story/10/11/18/2246213/Alternative-To-the-200-Line-Linux-Kernel-Patch">slashdot article</a> today also points out that the same result can be achieved by modifications userspace and that this is, indeed, how the patch was tested.</p>

@@ -19,6 +19,7 @@ title: 'Can''t receive emails from Hotmail: fixing their buggy DNS process'
 wordpress_id: 2383
 wordpress_url: https://www.martineve.com/?p=2383
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhsscie2h"
+kcworks: https://works.hcommons.org/records/f1ceh-crt10
 ---
 
 <p>I run Google Apps for Domains to handle my email. Recently, a friend was having trouble emailing me. I asked her to send me the source of the message. In there, I found this:</p>

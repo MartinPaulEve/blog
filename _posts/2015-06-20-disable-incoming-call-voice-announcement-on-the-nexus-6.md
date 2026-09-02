@@ -14,6 +14,7 @@ published: true
 tags: []
 title: Disable "incoming call" voice announcement on the Nexus 6
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcmsf5x2u"
+kcworks: https://works.hcommons.org/records/c40r6-zxj84
 ---
 
 A quick post to help anyone else, as I couldn't find this info easily on the web. In the middle of the night, I was awoken by my Nexus 6 announcing an "Incoming call from unknown number", despite the fact I had priority mode on and it shouldn't have said anything.

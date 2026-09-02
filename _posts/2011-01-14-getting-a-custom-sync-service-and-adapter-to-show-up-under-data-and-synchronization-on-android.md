@@ -25,6 +25,7 @@ title: Getting a custom Sync Service and Adapter to show up under "Data and Sync
 wordpress_id: 564
 wordpress_url: http://www.martineve.com/?p=564
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkw2q4l2u"
+kcworks: https://works.hcommons.org/records/8mn20-j9706
 ---
 
 <p><img src="http://www.martineve.com/wp-content/uploads/2011/01/Android-espaciales-300x225.jpg" alt="Androids!" title="Android-espaciales" width="300" height="225" class="alignnone size-medium wp-image-565" style="margin-top:0px;" /></p>

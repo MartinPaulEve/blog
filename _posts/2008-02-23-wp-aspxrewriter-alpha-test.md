@@ -22,6 +22,7 @@ title: wp-aspxrewriter alpha test
 wordpress_id: 257
 wordpress_url: http://pro.grammatic.org/post-wpaspxrewriter-alpha-test-44.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mn5qsdy2f"
+kcworks: https://works.hcommons.org/records/v0t0j-7gn63
 ---
 
 <p>Well, today I deployed an early version of my wp-aspxrewriter component to my personal blog.</p>

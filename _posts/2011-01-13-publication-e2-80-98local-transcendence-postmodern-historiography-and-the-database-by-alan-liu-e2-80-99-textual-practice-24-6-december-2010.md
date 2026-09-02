@@ -21,6 +21,7 @@ title: 'Publication: ‘Local Transcendence: Postmodern Historiography and the D
 wordpress_id: 555
 wordpress_url: http://www.martineve.com/?p=555
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkw64ki2p"
+kcworks: https://works.hcommons.org/records/gf5g7-wny88
 ---
 
 <p><a href="http://www.informaworld.com/smpp/content~db=all~content=a930064208~frm=titlelink"><img src="http://www.martineve.com/wp-content/uploads/2011/01/cover.gif" alt="Textual Practice Cover" title="Textual Practice Cover" width="150" height="230" class="alignnone size-full wp-image-556" style="margin-top:0px;" /></a></p>

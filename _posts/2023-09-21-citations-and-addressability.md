@@ -12,6 +12,7 @@ title: Citations and addressability
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lxl4t2e2u"
 categories:
 - Scholarly Communications
+kcworks: https://works.hcommons.org/records/1ebs6-c4j86
 ---
 
 What is the point of a citation? As Anthony Grafton puts it in his [history of the footnote](https://www.hup.harvard.edu/catalog.php?isbn=9780674307605), "the culturally contingent and eminently fallible footnote offers the only guarantee we have that statements about the past derive from identifiable sources. And that is the only ground we have to trust them" (233). So the point of a footnote/citation is to be able to lookup and check that epistemic claims are true? Sometimes. But not always, no.

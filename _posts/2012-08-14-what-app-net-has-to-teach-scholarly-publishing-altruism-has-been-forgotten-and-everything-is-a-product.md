@@ -23,6 +23,7 @@ title: 'What app.net has to teach scholarly publishing: altruism has been forgot
 wordpress_id: 2286
 wordpress_url: https://www.martineve.com/?p=2286
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhvpsup2f"
+kcworks: https://works.hcommons.org/records/tjs8s-3ab21
 ---
 
 <p>I've been mightily impressed by the role of crowdfunding solutions in recent days. I think it's great that these projects allow initiatives to get off the ground via people who like what's being proposed. I was particularly interested, though, in app.net's approach.</p>

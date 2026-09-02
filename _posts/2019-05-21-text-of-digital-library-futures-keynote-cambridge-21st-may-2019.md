@@ -14,6 +14,7 @@ categories:
 - Digital Preservation
 - Open Access
 - Conferences
+kcworks: https://works.hcommons.org/records/njfrc-mey73
 ---
 
 <h4>The Sacred Unreadable Artefact: Digital Preservation, Computational Abundance, and Scarce Access</h4>

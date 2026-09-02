@@ -15,6 +15,7 @@ title: 2,000 Christmas trees sold by the 14th December
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvmrt732i"
 categories:
 - Personal
+kcworks: https://works.hcommons.org/records/kqryw-tj414
 ---
 
 This year we had a familiar argument in my household about when the Christmas tree should go up. My other half insists that it should be a late arrival, just a few days before Christmas ideally, whereas I would prefer to have the month of December as a lead up and infused with festive spirit, etc. In the end, because my mother was coming to visit, we decided that it would go up around the 14th or so of December.

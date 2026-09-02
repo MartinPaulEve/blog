@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7fntxv
 categories:
 - Copyright and Licensing
 - Open Access
+kcworks: https://works.hcommons.org/records/k1pev-q5j32
 ---
 
 The problem with non-lawyers, like me, speculating on legal matters is that there's a risk of scaremongering or just plain inaccuracy. Not that this really ever stops the practice -- and it won't here. In any case, I wanted to re-state [the question that I raised yesterday](/2019/01/23/additional-points-in-my-plan-s-response/) and that I'd like addressed about CC BY and defamatory attribution.

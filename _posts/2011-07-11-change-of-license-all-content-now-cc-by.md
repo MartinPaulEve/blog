@@ -22,6 +22,7 @@ title: 'Change of license: all content now CC-BY'
 wordpress_id: 1302
 wordpress_url: https://www.martineve.com/?p=1302
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk677ip2i"
+kcworks: https://works.hcommons.org/records/5yr30-31b66
 ---
 
 <p>As from July 11th, 2011, all content on this site, except where noted, is now available under the more permissive Creative Commons Attribution 3.0 license, as specified in the footer.</p>

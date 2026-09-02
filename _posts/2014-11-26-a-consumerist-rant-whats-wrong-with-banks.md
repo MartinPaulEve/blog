@@ -13,6 +13,7 @@ status: publish
 tags: []
 title: 'A consumerist rant: what''s wrong with banks'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdrbdyz2f"
+kcworks: https://works.hcommons.org/records/rmqy4-ps811
 ---
 
 <p>This is a slight departure from my usual more high-minded posts simply to have a rant about the entities with whom I have the most frustrating interactions in my consumer life: banks. Sure, they crashed the economy. Sure, they're trading on fiction and debt. This isn't about that. It's instead simply about how poorly they treat their customers. I have to interact with banks. I wish I didn't. As it stands, though, they are appalling. </p>

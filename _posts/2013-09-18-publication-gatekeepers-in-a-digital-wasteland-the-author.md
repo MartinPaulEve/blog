@@ -22,6 +22,7 @@ title: 'Publication: "Gatekeepers in a digital wasteland", The Author'
 wordpress_id: 2895
 wordpress_url: https://www.martineve.com/?p=2895
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgawde52p"
+kcworks: https://works.hcommons.org/records/m3jxp-av709
 ---
 
 <p>It is already a cliché to announce the demise of the book in the wake of the digital revolution. While it might be unwise to stake our futures on the printed-and-bound codex, it seems doubtful that a shift in the way words are delivered will result in the downfall of long-form writing itself. What does seem questionable, however, is the persistence of the current publishing model in which publishers act as gatekeepers. In the ‘democratised’ digital republic enabled by self-publishing, what threatens to remain is a wasteland in which the inhabitants elect their culture via a ballot of sparsely distributed consumer capital. The ‘book’ looks likely to persist. What may not is the current way in which we decide what is worthwhile between the (digital) covers.</p>

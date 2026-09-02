@@ -22,6 +22,7 @@ title: Satchmo payment modules
 wordpress_id: 1423
 wordpress_url: https://www.martineve.com/?p=1423
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk2a6et2n"
+kcworks: https://works.hcommons.org/records/r7mn8-4jr57
 ---
 
 <p>I've been working, over the past few days, on a web store for a client using Satchmo. I wanted to share some of my findings here so that others don't trip up at the same places. </p>

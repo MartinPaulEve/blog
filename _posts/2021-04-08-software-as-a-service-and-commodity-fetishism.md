@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3im7k3
 categories:
 - Technology
 - Philosophy
+kcworks: https://works.hcommons.org/records/v06k7-0zm62
 ---
 
 I was thinking idly today -- and probably in a wildly unoriginal way -- about some of the disputes about subscriptions to software and the politics of this model.

@@ -23,6 +23,7 @@ title: 'Conference Paper: ''It sure''s hell looked like war'': Terrorism and the
 wordpress_id: 1387
 wordpress_url: https://www.martineve.com/?p=1387
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk3ij5y2f"
+kcworks: https://works.hcommons.org/records/4fy3w-krh91
 ---
 
 <p>In an effort to ensure that I have a complete listing of my conference papers on my site, here is an abstract from the last International Pynchon Week conference at which I presented:</p>

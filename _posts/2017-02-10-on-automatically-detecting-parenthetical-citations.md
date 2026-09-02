@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7magzuue
 categories:
 - Publishing Technology
 - Programming
+kcworks: https://works.hcommons.org/records/p8xcr-05z34
 ---
 
 One of the things that we have to do in [meTypeset](https://github.com/MartinPaulEve/meTypeset) is to capture parenthetical citations. These range in styles, but the following are good examples:

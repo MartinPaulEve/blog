@@ -29,6 +29,7 @@ title: 'Adorno terminology: θέσει'
 wordpress_id: 1752
 wordpress_url: https://www.martineve.com/?p=1752
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mj333tz2e"
+kcworks: https://works.hcommons.org/records/b5egc-s7d14
 ---
 
 <p>"The portion of it that is θέσει grew to such an extent that all efforts to secret away the process of production in the work could not but fail" (Adorno, Theodor W. Aesthetic Theory. Edited by Gretel Adorno and Rolf Tiedemann. Translated by Robert Hullot-Kentor. London: Continuum, 2004. p. 33.)</p>

@@ -9,6 +9,7 @@ title: Land of hope and tolerance
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lxgjmxj2h"
 categories:
 - Politics
+kcworks: https://works.hcommons.org/records/2vwz9-dw844
 ---
 
 A letter to the Editor of the _Guardian_, who declined to publish it.

@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvqjwzg
 categories:
 - Programming
 - Music
+kcworks: https://works.hcommons.org/records/bv5vk-78k85
 ---
 
 I have a script (a custom static site generator) that produces the output at [https://ticitaci.com](https://ticitaci.com) -- a page for the record label [on which I have released music](https://ticitaci.com/artists/martin-eve.html) (and that I really, really love).

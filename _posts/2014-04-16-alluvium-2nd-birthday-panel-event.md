@@ -21,6 +21,7 @@ title: Alluvium 2nd Birthday Panel Event
 wordpress_id: 3089
 wordpress_url: https://www.martineve.com/?p=3089
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mf7eyhq2i"
+kcworks: https://works.hcommons.org/records/z50t3-x1085
 ---
 
 <p>It's almost 2 years since I founded the open access journal Alluvium, which publishes short, topical articles written by leading academics on 21-century writing and 21st-century literary criticism. Launched in June 2012 with my colleague Dr Martin Eve, the journal has gone from strength to strength and its growing readership is spread across the globe. The journal has received praise from senior figures in literary scholarship, being called "a striking new presence on the critical scene" which features "some of the liveliest new voices in contemporary criticism." It has also been commended for "playing a role extending the geography of serious academic publishing” (for these and other endoresements, see here).</p>

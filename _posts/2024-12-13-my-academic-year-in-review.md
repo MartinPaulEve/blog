@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwlx4e7
 categories:
 - Personal
 - Academia
+kcworks: https://works.hcommons.org/records/sxjtd-k7p10
 ---
 
 Like most years, a mixed bag for me here. Kidney failure continues to be a truly challenging medical fiasco, with AV fistulas, overnight dialysis, hormone therapies, and much much more. I also continue to feel the severe difficulties of my rheumatoid arthritis, which required a hip replacement in April.

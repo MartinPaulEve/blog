@@ -21,6 +21,7 @@ title: Three reasons why I think journal prestige is a broken system
 wordpress_id: 2933
 wordpress_url: https://www.martineve.com/?p=2933
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfvazdj2n"
+kcworks: https://works.hcommons.org/records/hjrty-8gd18
 ---
 
 <p>One of the aspects that people seem to disagree with most, when I write or talk about open access, is that there is a problem with journal “prestige”. Overly-ventriloquizing on behalf of the stereotypical conversant in this debate, he or she usually accepts (as do I) that, in an economy of journals dealing with niche subjects, some will be held in esteem and that others will not fare so well. He or she also usually thinks that this is a useful feature of the system; it is helpful to know that Journal X will feature high-quality material. Where we usually diverge is that I state that I think there are huge problems with the current systems of prestige and that we should move to an article-level (or author-level) method of appraisal.</p>

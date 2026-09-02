@@ -18,6 +18,7 @@ title: 'Pynchon in Public Day 2012: our meetup details'
 wordpress_id: 2069
 wordpress_url: https://www.martineve.com/?p=2069
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7migsmye2t"
+kcworks: https://works.hcommons.org/records/h1y37-9fw22
 ---
 
 <p>Following <a href="http://www.guardian.co.uk/books/booksblog/2011/may/13/writers-in-public-pynchon">the success</a> of last year's <a href="http://www.pynchoninpublic.com/">Pynchon in Public Day</a>, this May 8th will play host to further celebrations of perhaps the world's greatest living author: Thomas Pynchon.</p>

@@ -21,6 +21,7 @@ title: What's "open" got to do with it?
 wordpress_id: 2904
 wordpress_url: https://www.martineve.com/?p=2904
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mg7j62d2h"
+kcworks: https://works.hcommons.org/records/9h5ez-3dr07
 ---
 
 <p>The below is a <a href="https://theconversation.com/flawed-sting-operation-singles-out-open-access-journals-18846">piece that I wrote for The Conversation</a> in the state before it was edited for publication there. While the version published there captures better the sense of the sting article and the general background, I wanted to post my unadulterated version here as it shows my true thoughts for those already immersed in the debate.</p>

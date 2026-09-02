@@ -17,6 +17,7 @@ tags:
 - open access
 title: Scalability, Sustainability, Market Responsiveness and Mandates in OA
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mctupdx2s"
+kcworks: https://works.hcommons.org/records/whfc4-5b570
 ---
 
 Academic publishers come in all shapes and sizes. Some are commercial, some are mission-driven, some are not-for-profit. This creates an interesting dynamic for a market. Not-for-profit publishers see themselves as partners of the academy, working alongside their academic colleagues to disseminate material. Indeed, some university presses are departments of universities. At the same time, though, commercial publishers talk in terms of market conditions. They are often unhappy about claimed [market interference from research funders](http://www.researchinformation.info/features/feature.php?feature_id=146). The upshot of this is that these publishers want it both ways. They claim themselves as stakeholders who must be present at consultations among academics and libraries for the future of academic publishing while then claiming that these entities should not interfere in their market.

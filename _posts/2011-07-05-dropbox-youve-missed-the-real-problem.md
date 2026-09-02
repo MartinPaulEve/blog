@@ -104,6 +104,7 @@ title: 'Dropbox: you''ve missed the real problem'
 wordpress_id: 1277
 wordpress_url: https://www.martineve.com/?p=1277
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk74ovg2p"
+kcworks: https://works.hcommons.org/records/cn7d4-njp33
 ---
 
 <p>So, here's a short post on the Dropbox problem. I'm sure others have picked up on this aspect, but it merits further coverage. Yesterday, I tweeted at Dropbox stating my belief that the terms and conditions they are trying to enforce are, in fact, untenable.</p>

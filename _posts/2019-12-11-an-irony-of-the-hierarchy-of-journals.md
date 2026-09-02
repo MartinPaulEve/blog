@@ -9,6 +9,7 @@ title: An irony of the 'hierarchy of journals'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6kw55v2u"
 categories:
 - Academia
+kcworks: https://works.hcommons.org/records/9zk2n-pj424
 ---
 
 It is often assumed that researchers submit their work to the highest prestige titles and, when rejected, move down the 'hierarchy' to titles with less stringent review criteria (see, for instance, Poynder, Richard, ‘PLoS ONE, Open Access, and the Future of Scholarly Publishing’, 2011, [https://richardpoynder.co.uk/PLoS_ONE.pdf](https://richardpoynder.co.uk/PLoS_ONE.pdf), p. 29).

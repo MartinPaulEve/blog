@@ -21,6 +21,7 @@ title: Ann Wordsworth, Critical Theory, Faculty Contingency and the University i
 wordpress_id: 2996
 wordpress_url: https://www.martineve.com/?p=2996
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mf2mskc2q"
+kcworks: https://works.hcommons.org/records/0meac-k0e12
 ---
 
 <blockquote>Bill readings was in the process of making final revisions to this book when he died in the crash of American Eagle flight 4184 on October 31, 1994. [...] To insist on talk as a part of the very fabric of this book is perhaps a step toward acknowledging the singularity of a voice, a place, and a time which would not exist <b>apart from</b> the University</p></blockquote>

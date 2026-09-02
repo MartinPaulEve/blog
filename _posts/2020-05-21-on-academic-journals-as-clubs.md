@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5ojlx3
 categories:
 - Open Access
 - Academia
+kcworks: https://works.hcommons.org/records/expnj-sw698
 ---
 
 This week for our [COPIM](https://www.copim.ac.uk) reading group we are reading Hartley, John, Jason Potts, Lucy Montgomery, Ellie Rennie, and Cameron Neylon, ‘Do We Need to Move from Communication Technology to User Community? A New Economic Model of the Journal as a Club’, _Learned Publishing_, 32.1 (2019), 27–35 <[https://doi.org/10.1002/leap.1228](https://doi.org/10.1002/leap.1228)>. For many years, the heterogeneous open-access movement has had at least two different goals, although sometimes held concomitantly: the first, to obtain access to the scholarly record, free of charge, in order to improve the way that research is consumed; and the second, to lower costs for libraries who have seen unsustainable hyperinflationary rises in the prices of the journals to which they must subscribe.

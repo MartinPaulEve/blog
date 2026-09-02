@@ -22,6 +22,7 @@ title: 'Google Scholar will count a blog post as an article if it''s cited: a pr
 wordpress_id: 3025
 wordpress_url: https://www.martineve.com/?p=3025
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfot3ij2n"
+kcworks: https://works.hcommons.org/records/g0ra4-yk330
 ---
 
 <p>When checking out my Google Scholar profile today, I noticed that, if a blog post is cited, it will be counted as an article by Google Scholar. This is interesting for several perhaps conflicting reasons:</p>

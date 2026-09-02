@@ -21,6 +21,7 @@ title: 'Gov and RCUK responses to Open Access Inquiry: eradicating non-disclosur
 wordpress_id: 2947
 wordpress_url: https://www.martineve.com/?p=2947
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfujgc72o"
+kcworks: https://works.hcommons.org/records/kcqp3-v0790
 ---
 
 <p>Today marked the publication of the Government and RCUK responses to the UK's BIS Committee Inquiry into Open Access. I haven't had time to digest the full document, but the overall points, made by the chair of the committee are summarised thus:</p>

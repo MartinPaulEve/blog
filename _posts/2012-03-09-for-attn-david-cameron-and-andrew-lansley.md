@@ -17,6 +17,7 @@ title: 'For ATTN: David Cameron and Andrew Lansley'
 wordpress_id: 1950
 wordpress_url: https://www.martineve.com/?p=1950
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miqdkpx2r"
+kcworks: https://works.hcommons.org/records/hcv5n-xn365
 ---
 
 <p>Seriously, just what in God's name do you think you are doing? I am referring, in this bombastic introduction, to the <a href="http://www.guardian.co.uk/society/2012/mar/09/nhs-reforms-appeal-risk-register">Department of Health's decision to continue to defy the democratic right</a> of the population to see the transition risk register for the proposed NHS shakeup.</p>

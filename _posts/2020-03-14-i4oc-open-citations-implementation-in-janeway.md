@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6h6dam
 categories:
 - Publishing Technology
 - Scholarly Communications
+kcworks: https://works.hcommons.org/records/q459y-q7n10
 ---
 
 One of the strongly recommended criteria under Plan S is that journals provide "Openly accessible data on citations according to the standards by the Initiative for Open Citations (I4OC)". This means, essentially, depositing citation data with Crossref and then marking it as open.

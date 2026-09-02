@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6n4cch
 categories:
 - Health
 - Personal
+kcworks: https://works.hcommons.org/records/6g2g1-9k446
 ---
 
 From around 2010 to 2013 I was on a drug called Rituximab to control my autoimmune conditions (rheumatoid arthritis and vasculitis). This highly effective medication targets b-cells and destroys autoimmune responses by disabling parts of the immune system. After a few years of treatment, though, my immunoglobulin levels were extremely low and it was decided that Rituximab was no longer safe for me. I was moved to tocilizumab. Immunoglobulins are the antibodies that bind to foreign targets within the immune system.

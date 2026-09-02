@@ -257,6 +257,7 @@ title: Android and Eduroam
 wordpress_id: 763
 wordpress_url: https://www.martineve.com/?p=763
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkpzkrt2n"
+kcworks: https://works.hcommons.org/records/r69kq-fas16
 ---
 
 <div><img src="https://www.martineve.com/wp-content/uploads/2011/02/eduroam-logo.gif" alt="Eduroam" title="eduroam-logo" width="601" height="260" class="alignnone size-full wp-image-764" /></div>

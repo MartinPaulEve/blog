@@ -21,6 +21,7 @@ title: 'Publication: Pynchon and Wittgenstein: Ethics, Relativism and Philosophi
 wordpress_id: 3019
 wordpress_url: https://www.martineve.com/?p=3019
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfowfnt2q"
+kcworks: https://works.hcommons.org/records/zhe9w-1e336
 ---
 
 <p>Eve, Martin Paul, ‘Pynchon and Wittgenstein: Ethics, Relativism and Philosophical Methodology’, in <i>Profils Américains: Thomas Pynchon</i>, ed. by Gilles Chamerois and Bénédicte Fryd (Montpellier: Presses Universitaires de la Méditerranée, 2014), pp. 81–104</p>

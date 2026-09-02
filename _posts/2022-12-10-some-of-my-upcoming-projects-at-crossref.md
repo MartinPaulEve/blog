@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lyi5jsk
 categories:
 - Scholarly Communications
 - Digital Preservation
+kcworks: https://works.hcommons.org/records/mpnjt-qsf17
 ---
 
 As I posted a while ago, from January 2023 [I will be working at Crossref](https://eve.gd/2022/08/26/moving-on-my-infrastructural-turn/) while retaining my university Professorship. I wanted, here, to outline a few of the projects that I hope to work on once I get started there. I should say upfront: I am afraid there is no time estimate on these and we can't guarantee to prioritise any particular project. But if there is one that stands out to you, do let me know, as this serves as a useful community gauge.

@@ -14,6 +14,7 @@ categories:
 - Teaching
 - Higher Education
 - Health
+kcworks: https://works.hcommons.org/records/syd0f-yss42
 ---
 
 The pandemic is not over. The University of North Carolina at Chapel Hill just went back for a week of in-person term. Seven days later, they have shut down, with over 500 students in isolation. They can now offer only remote tuition. So I repeat to those who are being optimistic about this year: no, the pandemic is not over, it is far from over, and there are many many challenges ahead. In this post I want to turn particularly to the challenge of access to library resources over the coming year for students, with particular reference to the disability equality implications.

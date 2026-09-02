@@ -14,6 +14,7 @@ tags:
 - politics
 title: 'HE Green Paper: response to question 12'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc2musd2p"
+kcworks: https://works.hcommons.org/records/y2bak-dby05
 ---
 
 This post is part of an [ongoing series](https://martineve.com/GreenPaper/) where I intend to develop my full _personal_ (_not_ institutional) response to the HE Green Paper. Comments are welcome to refine this.

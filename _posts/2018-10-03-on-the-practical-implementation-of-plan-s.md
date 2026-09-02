@@ -12,6 +12,7 @@ title: On the practical implementation of Plan S
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7ojuto2s"
 categories:
 - Open Access
+kcworks: https://works.hcommons.org/records/r8jw0-8s759
 ---
 
 A coalition of funders from across Europe has proposed a bold initiative, called [Plan S](http://eprints.bbk.ac.uk/23819/), to [push towards OA for 2020](https://www.scienceeurope.org/coalition-s/). It includes the following 10 points:

@@ -36,6 +36,7 @@ title: 'The 8th Biennial Symbiosis Conference: Day 2'
 wordpress_id: 1208
 wordpress_url: https://www.martineve.com/?p=1208
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk7wxos2a"
+kcworks: https://works.hcommons.org/records/6785y-rbc81
 ---
 
 <p>As before, I will present here a brief rundown of the conference panels I attended with comments as they occurred to me! Obviously, in such reductive accounts, I do great damage to the content of the papers, but I do so in the hope that it will be of interest. If I have misunderstood any authors, I will, of course, be happy to make corrections.</p>

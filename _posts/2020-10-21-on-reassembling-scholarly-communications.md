@@ -15,6 +15,7 @@ categories:
 - Publications
 - Open Access
 - Scholarly Communications
+kcworks: https://works.hcommons.org/records/qctv2-yhn70
 ---
 
 <p>After a Herculean effort, coinciding with open access week 2020, our edited volume <i>Reassembling Scholarly Communications: Histories, Infrastructures, and Global Politics of Open Access</i> has now been published by The MIT Press. It's available both in print to purchase and as a CC BY open-access download.</p>

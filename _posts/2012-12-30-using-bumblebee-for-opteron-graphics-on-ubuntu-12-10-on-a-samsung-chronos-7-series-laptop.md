@@ -21,6 +21,7 @@ title: Using bumblebee for opteron graphics on Ubuntu 12.10 on a Samsung Chronos
 wordpress_id: 2563
 wordpress_url: https://www.martineve.com/?p=2563
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mh7ece32h"
+kcworks: https://works.hcommons.org/records/3rae7-5sb02
 ---
 
 <p>Getting this to work has been the bane of my morning, so here's what I did to eventually get it working:</p>

@@ -20,6 +20,7 @@ title: 'Picture This: Postcards Exhibition'
 wordpress_id: 902
 wordpress_url: https://www.martineve.com/?p=902
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkimkiw2a"
+kcworks: https://works.hcommons.org/records/we3w2-bdg60
 ---
 
 <div><img src="https://www.martineve.com/wp-content/uploads/2011/03/exhibition_poster.png" alt="Exhibition Poster" title="Exhibition Poster" width="590" height="416" class="alignnone size-full wp-image-903" /></div>

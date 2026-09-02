@@ -54,6 +54,7 @@ title: 'Protecting Your Assets: Backing up your Academic Work'
 wordpress_id: 1859
 wordpress_url: https://www.martineve.com/?p=1859
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miz4uie2h"
+kcworks: https://works.hcommons.org/records/cgexa-76697
 ---
 
 <p>I will be running, on the 31st January, <a href="http://www.sussex.ac.uk/doctoralschool/internal/researcherdev/events/index.php?pageon=2&status=open">a workshop for Sussex researchers</a> on protecting their assets; aka. backing up their work.</p>

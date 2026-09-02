@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3gdwqe
 categories:
 - Open Access
 - Conferences
+kcworks: https://works.hcommons.org/records/kvfxb-6x084
 ---
 
 <b>Do you think that the Subscribe-To-Open model could be applied to new academic presses who have no backlist?</b>

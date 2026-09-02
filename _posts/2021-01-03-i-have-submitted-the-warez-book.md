@@ -12,6 +12,7 @@ title: I have submitted the Warez book
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m4euhs42p"
 categories:
 - Piracy and Shadow Libraries
+kcworks: https://works.hcommons.org/records/g5ss5-2jd47
 ---
 
 I have, today, submitted the manuscript of my book, currently titled _Warez: The Economic Aesthetics and Alternative Reality Games of the Topsite Scene_ to the publisher! It's been a monumental effort over the winter break to get this finished and ready to go after a tricky workload spell owing to a colleague's unfortunate illness (thankfully, they are now much much better). I started work on this book in 2013 and it is the 9<sup>th</sup> book manuscript I have submitted (that is: if all goes well on the other manuscript I have under submission, it will be my 9<sup>th</sup> book).

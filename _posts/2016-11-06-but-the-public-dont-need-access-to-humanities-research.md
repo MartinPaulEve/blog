@@ -9,6 +9,7 @@ title: '''But the public don''t need access to humanities research'''
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mavnpqd2n"
 categories:
 - Open Access
+kcworks: https://works.hcommons.org/records/veej7-q8d58
 ---
 
 An email I received today about [one of my open-access articles](http://doi.org/10.16995/olh.82):

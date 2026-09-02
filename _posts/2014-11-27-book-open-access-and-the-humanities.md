@@ -20,6 +20,7 @@ tags:
 - Book
 title: 'Book: Open Access and the Humanities'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdr3re72t"
+kcworks: https://works.hcommons.org/records/mkpp1-1y863
 ---
 
 <p>I am extremely pleased to announce that my book, <i>Open Access and the Humanities: Contexts, Controversies and the Future</i> has today been published by Cambridge University Press. The book offers a background to open access and its specifics for the humanities disciplines, as well as setting out the economics and politics of the phenomenon. It also has a very fine preface by Peter Suber! You can download the book for absolutely free (under a CC BY-SA license) at <a href="http://www.cambridge.org/martineve">the official website</a> (click the green "open access" button). You can also buy an extremely good value paperback copy, with all my royalties going to <a href="http://www.arthritisresearchuk.org">Arthritis Research UK</a>, from the <a href="http://www.amazon.co.uk/gp/product/1107097894/ref=as_li_tl?ie=UTF8&amp;camp=1634&amp;creative=19450&amp;creativeASIN=1107097894&amp;linkCode=as2&amp;tag=2bitpienet-21&amp;linkId=TVNUFSG4XG3QS2HJ">usual suspects</a>. The book also has a DOI: <a href="http://dx.doi.org/10.1017/CBO9781316161012">http://dx.doi.org/10.1017/CBO9781316161012</a>. You can also <a href="/images/uploads/2014/11/Eve_2014_Open-Access-and-the-Humanities.pdf">download a copy directly here</a>.</p>

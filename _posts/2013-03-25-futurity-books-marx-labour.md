@@ -22,6 +22,7 @@ title: Futurity, Books, Marx, Labour
 wordpress_id: 2637
 wordpress_url: https://www.martineve.com/?p=2637
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgw3gdo2e"
+kcworks: https://works.hcommons.org/records/w7p5z-hmy94
 ---
 
 <p><i>This post is a transcript of a talk I gave at the University of Nottingham on the 25th March 2013 for the ECHIC "Beyond the Book" conference.</i></p>

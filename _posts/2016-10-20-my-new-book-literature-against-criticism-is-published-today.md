@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7maxebjk
 categories:
 - Publications
 - Literature
+kcworks: https://works.hcommons.org/records/zn59b-k3p49
 ---
 
 I am extremely pleased to say that my latest peer-reviewed book, _Literature Against Criticism: University English and Contemporary Fiction in Conflict_ has today been published by Open Book Publishers!

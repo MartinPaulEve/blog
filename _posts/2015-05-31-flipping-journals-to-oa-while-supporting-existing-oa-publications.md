@@ -16,6 +16,7 @@ tags:
 - OLH
 title: Flipping journals to OA while supporting existing OA publications
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcqwlpb2f"
+kcworks: https://works.hcommons.org/records/wgxga-hd421
 ---
 
 It was with great pleasure that we announced, on Friday, that the OLH now has its first journal joining that has [moved away from a subscription model to a pure gold OA basis](https://www.openlibhums.org/2015/05/29/announcing-the-first-subscription-journal-to-flip-to-open-access-through-the-open-library-of-humanities/). This makes me very happy. The _Journal of British and Irish Innovative Poetry_ is a niche publication in the humanities that holds great value to its target audience. While it was never the most expensive journal for institutions to purchase (small steps at first), to begin to offset the amount paid into the OLH by subscriptions that will no longer be needed forms part of our transition model.

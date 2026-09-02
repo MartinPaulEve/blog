@@ -18,6 +18,7 @@ title: Is this a picture of Thomas Pynchon aged 51?
 wordpress_id: 2122
 wordpress_url: https://www.martineve.com/?p=2122
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mieko5l2h"
+kcworks: https://works.hcommons.org/records/a9km7-z4k26
 ---
 
 <p>Probably not. But...</p>

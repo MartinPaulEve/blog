@@ -12,6 +12,7 @@ title: How long does it take to examine a PhD thesis?
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m76m5h42t"
 categories:
 - Academia
+kcworks: https://works.hcommons.org/records/rxt5n-8fs94
 ---
 
 I examined a Ph.D. thesis this week. I usually do about two or three of these a year. I was curious to work out how long it takes to undertake this task, so in my slightly obsessive fashion, I got cracking on the time tracking.

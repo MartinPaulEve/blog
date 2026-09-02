@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3woipt
 categories:
 - Health
 - Personal
+kcworks: https://works.hcommons.org/records/97f63-h3c66
 ---
 
 I am due up for vaccination in the very near future. This is good news. But it's tempered.

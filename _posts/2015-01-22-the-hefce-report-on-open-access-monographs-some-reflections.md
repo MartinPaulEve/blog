@@ -18,6 +18,7 @@ tags:
 - monographs
 title: 'The HEFCE report on Open Access Monographs: some reflections'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdbq2yo2o"
+kcworks: https://works.hcommons.org/records/gews4-6eg11
 ---
 
 <p>The environment surrounding open access to monographs was significantly advanced today by the <a href="http://www.hefce.ac.uk/pubs/rereports/year/2015/monographs/">release of a report commissioned by the UK's Higher Education Funding Council for England</a> (HEFCE), a quango (quasi-autonomous non-governmental organisation) that translates the government's higher education budget allocation into usable funds. In April 2014, HEFCE announced that eligibility to receive future funding through its “quality-related” (QR) stream would depend exclusively upon the assessment of green open access material: a mandate. Specifically, authors must deposit the accepted version of their articles at the time of acceptance (<a href="https://www.hefce.ac.uk/media/hefce/content/pubs/2014/201407/HEFCE2014_07.pdf">Higher Education Funding Council for England 2014</a>, para.17–19). However, monographs 'and other-long form publications', edited collections, non-text outputs and data are all excluded from this mandate (<a href="https://www.hefce.ac.uk/media/hefce/content/pubs/2014/201407/HEFCE2014_07.pdf">Higher Education Funding Council for England 2014</a>, para.14).</p>

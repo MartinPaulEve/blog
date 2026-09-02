@@ -65,6 +65,7 @@ title: Mendeley Android Client Progress (w/ Video, Source and APK!)
 wordpress_id: 518
 wordpress_url: http://www.martineve.com/?p=518
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkyvkew2a"
+kcworks: https://works.hcommons.org/records/jt2kd-y3v51
 ---
 
 <p>Before anybody non-techie gets excited by the heading there, I'm not claiming this is anywhere near production-ready. In fact, it's not even functional. However, from a technical perspective, my Android Mendeley client has reached a milestone of succesful OAuth login. In this post I will give some samples of the application as it stands, including an APK download, source and video, and also detail the measures I undertook to get OAuth working using Signpost under Java for Android.</p>

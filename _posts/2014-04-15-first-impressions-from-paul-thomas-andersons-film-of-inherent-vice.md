@@ -18,6 +18,7 @@ title: First Impressions From Paul Thomas Anderson’s film of ‘Inherent Vice�
 wordpress_id: 3086
 wordpress_url: https://www.martineve.com/?p=3086
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mf7iit42h"
+kcworks: https://works.hcommons.org/records/pvh7z-az152
 ---
 
 <p>With his fastest turn-around in well over a decade, Paul Thomas Anderson completed production on Inherent Vice last summer, just around a year after initial screenings of The Master began. In adapting Thomas Pynchon‘s 2009 novel, the director has been hard at work in his editing suite (with composer Jonny Greenwood, as recently indicated), and he’ll be continuing that process through the summer, having opted to bypass Cannes, despite some rumors indicating otherwise.</p>

@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5doof5
 categories:
 - Open Access
 - Scholarly Communications
+kcworks: https://works.hcommons.org/records/c9jkz-wbv26
 ---
 
 # Defining Threat Infrastructures

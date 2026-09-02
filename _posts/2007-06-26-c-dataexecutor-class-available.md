@@ -30,6 +30,7 @@ title: C# DataExecutor class available
 wordpress_id: 267
 wordpress_url: http://pro.grammatic.org/post-c-dataexecutor-class-available-33.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnc5s2y2f"
+kcworks: https://works.hcommons.org/records/09er6-75m31
 ---
 
 <p>One of the questions I see most frequently on Freenode's ##csharp irc channel is how to use a MySql Database in .NET. I've therefore provided the class that I use for basic database operations. You can find it at <a href="http://www.martineve.com/2007/06/25/c-mysql-dataexecutor-class/">http://www.martineve.com/2007/06/25/c-mysql-dataexecutor-class/</a>.</p>

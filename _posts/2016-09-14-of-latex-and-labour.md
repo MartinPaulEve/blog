@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7maztdtq
 categories:
 - Publishing Technology
 - Academia
+kcworks: https://works.hcommons.org/records/f7119-mkg15
 ---
 
 I've been gearing up for quite some time to write about the false labour dichotomies in the academy that seem to be emerging that put "academic labour" as some privileged space of difference from other types. This isn't that post, which I haven't had time to work on yet, but it is related.

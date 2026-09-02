@@ -21,6 +21,7 @@ title: Using Twitter for Research
 wordpress_id: 1091
 wordpress_url: https://www.martineve.com/?p=1091
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkdf53y2q"
+kcworks: https://works.hcommons.org/records/wgpp4-pkm53
 ---
 
 <p>Please find, for your delectation, licensed under a Creative Commons, Attribution, Non-Commercial, Share-Alike license, my Prezi on Using Twitter for Research, a workshop I taught at the University of Sussex on the 18th May, 2011.</p>

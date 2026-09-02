@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7ly5pkd3
 categories:
 - Scholarly Communications
 - Open Access
+kcworks: https://works.hcommons.org/records/nxrn7-4nc20
 ---
 
 I have read, with some dismay, the draft of [Ithaka S+R’s most recent report](https://sr.ithaka.org/blog/draft-report-for-community-input/). I offer here some critical remarks that I hope will allow for revision of the work, which I believe offers an insular, digital-nationalist, exclusionary vision for the future of scholarly communications. The views herein are my personal take, not those of any organization for which I work.

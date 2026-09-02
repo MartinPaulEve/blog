@@ -21,6 +21,7 @@ title: Teaching Post-Millenial Fiction Conference archive
 wordpress_id: 2154
 wordpress_url: https://www.martineve.com/?p=2154
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7midgtms2u"
+kcworks: https://works.hcommons.org/records/kre0t-vsn81
 ---
 
 <p><script src="http://storify.com/martin_eve/teaching-post-millenial-fiction-conference.js"></script><br />

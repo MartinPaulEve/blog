@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7pgb2b
 categories:
 - Copyright and Licensing
 - Publishing Technology
+kcworks: https://works.hcommons.org/records/g0kz9-naq20
 ---
 
 As you may know, the Centre for Technology and Publishing at Birkbeck publishes and maintains a piece of open-source software for journal publishing called [Janeway](https://github.com/BirkbeckCTP/janeway/). This software is licensed under the AGPLv3.

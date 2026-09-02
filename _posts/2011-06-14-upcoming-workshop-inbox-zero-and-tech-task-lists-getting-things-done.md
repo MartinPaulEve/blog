@@ -25,6 +25,7 @@ title: 'Upcoming Workshop: Inbox zero and tech-task lists: getting things done'
 wordpress_id: 1162
 wordpress_url: https://www.martineve.com/?p=1162
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkbkrxi2f"
+kcworks: https://works.hcommons.org/records/aw1g1-p4076
 ---
 
 <p>Details of an upcoming researcher workshop I am running on the 28th of June, from 2-4pm at the University of Sussex:</p>

@@ -12,6 +12,7 @@ title: History and Digital Preservation
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwihov32q"
 categories:
 - Digital Preservation
+kcworks: https://works.hcommons.org/records/f62mb-d7474
 ---
 
 This week, over Christmas 2024, I have read two pieces about digital preservation: Ian Milligan's _Averting the Digital Dark Age_[^1] and Ageh _et al._'s "The Preservation of Knowledge in the Digital Age" for Arcadia.[^2] It is, in truth, fairly difficult to reconcile these two accounts of the state of digital preservation. Milligan opts for the bold, but he hopes not hubristic, "The digital dark age was largely averted by 2001, at least in terms of the most apocalyptic predictions made only a half-decade earlier". Meanwhile, Ageh's report opts for the more pessimistic "We conclude that knowledge will almost certainly be lost unless new robust and intentional arrangements are put in place to preserve and provide future access to electronic literature". So which is it?

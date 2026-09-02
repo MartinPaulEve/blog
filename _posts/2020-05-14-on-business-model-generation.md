@@ -12,6 +12,7 @@ title: On business model generation for open access monographs
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5qmen52s"
 categories:
 - Open Access
+kcworks: https://works.hcommons.org/records/jnd1q-tf568
 ---
 
 This week for our [COPIM](https://www.copim.ac.uk) reading group we are turning to Osterwalder, Alexander, Yves Pigneur, and Tim Clark, _Business Model Generation: A Handbook for Visionaries, Game Changers, and Challengers_ (Hoboken, NJ: Wiley, 2010). Part of what we are doing is thinking through the different business models that can support open publication of monographs and figuring out how to implement these on the ground. Part of that work involves understanding what a business model is, of what it consists, and how new models can be generated. Here are my very loose jottings on this.

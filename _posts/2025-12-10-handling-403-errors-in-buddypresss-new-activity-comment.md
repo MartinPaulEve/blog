@@ -12,6 +12,7 @@ title: Handling 403 errors in BuddyPress's new_activity_comment
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvov2pb2t"
 categories:
 - Programming
+kcworks: https://works.hcommons.org/records/x8fs9-18041
 ---
 
 Today I had a weird problem. Our BuddyPress activity stream comments were just not working. When you clicked the reply icon, then typed a response and pressed "post", it simply grayed out and never succeeded. I could see, in the logs, that there was a 403 Forbidden error being thrown.

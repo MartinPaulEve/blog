@@ -21,6 +21,7 @@ title: Has "the licensing battle been deferred" in the latest HEFCE document?
 wordpress_id: 2794
 wordpress_url: https://www.martineve.com/?p=2794
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgfaytc2a"
+kcworks: https://works.hcommons.org/records/g1atx-qdr34
 ---
 
 <p>While I agree with much of what they say, in <a href="http://blogs.lse.ac.uk/impactofsocialsciences/2013/08/01/getting-somewhere-hefce-proposals-on-open-access/">a post on the LSE Impact Blog</a>, Meera Sabaratnam and Paul Kirby write, of the latest round of HEFCE consultations on OA for a post-2014 REF:</p>

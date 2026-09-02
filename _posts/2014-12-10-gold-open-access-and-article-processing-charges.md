@@ -18,6 +18,7 @@ tags:
 title: 'Gold Open Access and Article Processing Charges: Point of Risk and the Risk
   Pool'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdqh53c2a"
+kcworks: https://works.hcommons.org/records/k3pw2-eq247
 ---
 
 <p>In my recent work I have begun to think of the subscription publication environment in terms of a risk pool. I wanted to use this space to share a little of this rationale because I think it gives us a valuable way of conceiving of projects like arXiv, Knowledge Unlatched, my Open Library of Humanities, and the K/N white paper. The basic version is: a subscription model is a financial risk pool that conceives of publishing as entailing the purchase of a commodity object (thereby blocking OA). APCs, by contrast, concentrate financial risk (bad) but conceive of publishing as a service to an author client (thereby facilitating OA). Consortial/cooperative funding models spread financial risk across a pool but still conceive of publishing as a service, achieving the best of both worlds. A more thorough rationale below excerpted from the current draft of an article that I'm writing.</p>

@@ -12,6 +12,7 @@ title: Judging the painting (research) without the frame (the journal)
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mafpaja2h"
 categories:
 - Academia
+kcworks: https://works.hcommons.org/records/kecsg-w4w59
 ---
 
 It is a common step in the ongoing reform of research practices to criticize the set of proxy measures that we use to evaluate research. [I've certainly done this](http://www.cambridge.org/gb/academic/subjects/general/open-access-and-humanities-contexts-controversies-and-future?format=PB&isbn=9781107484016).

@@ -22,6 +22,7 @@ title: .NETIDS development restarted. Participants wanted.
 wordpress_id: 1607
 wordpress_url: https://www.martineve.com/2011/11/19/netids-development-restarted-participants-wanted/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjfeyhk2u"
+kcworks: https://works.hcommons.org/records/83k2z-8ng09
 ---
 
 <p><a href="https://github.com/IndiansIncredible/.NetIDS"><img src="https://www.martineve.com/wp-content/uploads/2011/11/Logo.png" alt=".NETIDS" title=".NETIDS" width="376" height="89" class="alignnone size-full wp-image-1608" /></a></p>

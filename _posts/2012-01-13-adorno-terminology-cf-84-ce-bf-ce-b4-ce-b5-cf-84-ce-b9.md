@@ -19,6 +19,7 @@ title: 'Adorno terminology: τοδε τι'
 wordpress_id: 1829
 wordpress_url: https://www.martineve.com/2012/01/13/adorno-terminology-%cf%84%ce%bf%ce%b4%ce%b5-%cf%84%ce%b9/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mizlpjl2n"
+kcworks: https://works.hcommons.org/records/phw10-bnm89
 ---
 
 <p>"that expressionism was more powerful as an idea than in its works perhaps has its origins in the fact that its utopia of the pure τοδε τι is itself a fragment of false consciousness." (Adorno, Theodor W. Aesthetic Theory. Edited by Gretel Adorno and Rolf Tiedemann. Translated by Robert Hullot-Kentor. London: Continuum, 2004. p. 239.)</p>

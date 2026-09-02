@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbcoatm
 categories:
 - Publishing Technology
 - Programming
+kcworks: https://works.hcommons.org/records/gprpj-p6z76
 ---
 
 [CaSSius is the PDF typesetter](https://github.com/MartinPaulEve/CaSSius) that I am building as part of my work for the Andrew W. Mellon Foundation grant to Birkbeck for the Open Library of Humanities. CaSSius allows for [true XML-first workflows](https://www.martineve.com/2015/07/20/building-a-real-xml-first-workflow-for-scholarly-typesetting/).

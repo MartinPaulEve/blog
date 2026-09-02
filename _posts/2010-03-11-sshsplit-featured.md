@@ -21,6 +21,7 @@ title: sshsplit featured
 wordpress_id: 34
 wordpress_url: http://new.martineve.com/?p=34
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmdfiws2a"
+kcworks: https://works.hcommons.org/records/8wtvj-pxa02
 ---
 
 <p>    My first attempt at Python got a slot on the Ubuntu opportunistic <br />developer slot.

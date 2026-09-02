@@ -36,6 +36,7 @@ title: My review of The Cambridge Companion to Thomas Pynchon at Berfrois
 wordpress_id: 1931
 wordpress_url: https://www.martineve.com/2012/02/24/my-review-of-the-cambridge-companion-to-thomas-pynchon-at-berfrois/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miqvlom2h"
+kcworks: https://works.hcommons.org/records/sjb01-r3614
 ---
 
 <p>I have a guest post over at the excellent <a href="http://www.berfrois.com">Berfrois</a> in which I <a href="http://www.berfrois.com/2012/02/pynchonite-generosity-martin-eve/">review the newly released Cambridge Companion to Thomas Pynchon</a>. The piece is licensed under a CC-BY-NC-ND license, so I could post the entire thing here, but I'll let you read the entirety over at their site. For now, here's a taster:</p>

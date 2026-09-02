@@ -18,6 +18,7 @@ title: '"Every generation has its philosopher"'
 wordpress_id: 2993
 wordpress_url: https://www.martineve.com/?p=2993
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfqexvg2e"
+kcworks: https://works.hcommons.org/records/jjz51-bg398
 ---
 
 <blockquote>Every generation has its philosopher — a writer or an artist who captures the imagination of a time. Sometimes these philosophers are recognized as such; often it takes generations before the connection is made real. But recognized or not, a time gets marked by the people who speak its ideals, whether in the whisper of a poem, or the blast of a political movement.</p>

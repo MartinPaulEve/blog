@@ -18,6 +18,7 @@ title: Punchdrunk's The Drowned Man
 wordpress_id: 2757
 wordpress_url: https://www.martineve.com/?p=2757
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgmjzuc2a"
+kcworks: https://works.hcommons.org/records/wa7zj-sst71
 ---
 
 <p>Last night I went to see Punchdrunk's performance of The Drowned Man, the latest in their series of promenade theatre pieces. Housed in an enormous building next to Paddington station in the middle of London, the piece was a strange mixture of ambient environmental exploration and two loose narratives of betrayal and murder, expressed through dance and physical theatre.</p>

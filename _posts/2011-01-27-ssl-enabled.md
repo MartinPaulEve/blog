@@ -23,6 +23,7 @@ title: SSL Enabled
 wordpress_id: 647
 wordpress_url: https://www.martineve.com/?p=647
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mksr7ht2n"
+kcworks: https://works.hcommons.org/records/59anz-j1b11
 ---
 
 <p><img src="https://www.martineve.com/wp-content/uploads/2011/01/ssl-300x164.png" alt="SSL Certificate" title="SSL" width="300" height="164" class="alignnone size-medium wp-image-649" style="margin-top:0px;"/></p>

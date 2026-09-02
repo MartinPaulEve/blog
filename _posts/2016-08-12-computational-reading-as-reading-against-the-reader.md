@@ -10,6 +10,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mb3sidt
 categories:
 - Digital Humanities
 - Literature
+kcworks: https://works.hcommons.org/records/0m51h-mba57
 ---
 
 I'm probably not the first to think these thoughts, but I thought I would write them anyway as they are fresh in my mind. When dealing with computational reading methods, it is easy to encounter an aesthetic/teleological opposition to stylometry from some quarters. Indeed, among the most common questions that are asked by non-stylometrists about its processes are: “so what?”; “why should I care?”; and “what does this actually tell us that we didn’t already know?” In other words, when confronted with mathematical and computational processes for studying texts, the frequent response is to ask what it tells us about a work. The obvious retort is that it tells us neither more nor less than any other study of an aesthetic object; a work of literature. Indeed, the study of aesthetics is answerable to nothing except itself at some point in the chain; it is a human pursuit to understand how literary works achieve their affects and sometimes effects.

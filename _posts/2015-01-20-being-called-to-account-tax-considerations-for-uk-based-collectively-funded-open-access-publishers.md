@@ -22,6 +22,7 @@ tags:
 title: 'Being called to account: tax considerations for UK-based collectively-funded
   open access publishers'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdco7to2o"
+kcworks: https://works.hcommons.org/records/fpza9-5kp87
 ---
 
 <p>That's a pretty specific title, I suspect, but as I am learning with <a href="https://www.openlibhums.org">the Open Library of Humanities</a>, we're in uncharted territory, a place where the specifics matter. <b>This post should not be considered legal or accounting advice.</b> I'm not qualified to give it. I post this as a series of matters that we are working through, with advice from our accountants, in case anyone else is trying a similar enterprise and wants to know what the landscape looks like.</p>

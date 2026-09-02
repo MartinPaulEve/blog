@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwuwtec
 categories:
 - Open Access
 - Higher Education
+kcworks: https://works.hcommons.org/records/dw172-60554
 ---
 
 A few personal notes on the clamour around OA for books (written from the perspective of [an author of 10 books](https://eve.gd/books/) that are all openly accessible):

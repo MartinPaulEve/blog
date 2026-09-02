@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2bwmjl
 categories:
 - Open Access
 - Scholarly Communications
+kcworks: https://works.hcommons.org/records/ey044-cef27
 ---
 
 In the world of OA publishing, there have been further (not-so)shock waves reverberating this week as Knowledge Unlatched was sold to Wiley. One of the questions this raises is: how was it possible for this sale to go through and what could have been done to prevent it?

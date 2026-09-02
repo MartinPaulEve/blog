@@ -22,6 +22,7 @@ title: 'Q&A with me in Library Journal: Why We Need a Public Library of the Huma
 wordpress_id: 2589
 wordpress_url: https://www.martineve.com/?p=2589
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgywmbs2u"
+kcworks: https://works.hcommons.org/records/kqxqm-q4f80
 ---
 
 <p>There's a Q&A with me that has just been published in <i><a href="http://lj.libraryjournal.com/2013/01/oa/qa-martin-eve-on-why-we-need-a-public-library-of-the-humanities-and-social-sciences/">Library Journal</a></i> on why we need a public library of the humanities and social sciences (a "PLOS-like" project -- but not officially affiliated).</p>

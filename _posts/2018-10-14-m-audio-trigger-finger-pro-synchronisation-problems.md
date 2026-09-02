@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7iwqkw
 categories:
 - Music
 - Technology
+kcworks: https://works.hcommons.org/records/qn1z5-scf39
 ---
 
 If you read any review of the M-Audio Trigger Finger Pro, it sounds like a steal. A sequencer, drum machine, and more, all packed into a hardware unit that is available for about £100 on Ebay. Steal.

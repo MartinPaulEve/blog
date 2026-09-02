@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7ul7j6
 categories:
 - Linux
 - Music
+kcworks: https://works.hcommons.org/records/n6893-7tt29
 ---
 
 I have a Keith McMillen K-Mix audio device that I use for music-making. I noticed, though, that if you have a simple stereo setup on this, with, say, monitors plugged into outputs 1 and 2 (the master outs) then you basically lose a huge amount of bass response on Linux. I confirmed this trying it on Windows and Linux and, in Linux, the bass is totally missing. In fact, the sound is weak.

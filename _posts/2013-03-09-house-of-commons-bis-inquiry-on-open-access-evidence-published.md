@@ -20,6 +20,7 @@ title: House of Commons BIS Inquiry on Open Access Evidence Published
 wordpress_id: 2613
 wordpress_url: https://www.martineve.com/?p=2613
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgx2t7v2q"
+kcworks: https://works.hcommons.org/records/n0npa-cve72
 ---
 
 <p>The written evidence for the BIS Inquiry on Open Access has now been published and is <a href="http://www.publications.parliament.uk/pa/cm201213/cmselect/cmbis/writev/openaccess/contents.htm">available on the website for the UK parliament</a>.</p>

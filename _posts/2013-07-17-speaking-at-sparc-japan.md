@@ -21,6 +21,7 @@ title: Speaking at SPARC Japan
 wordpress_id: 2752
 wordpress_url: https://www.martineve.com/?p=2752
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgmy42h2a"
+kcworks: https://works.hcommons.org/records/vg8yn-bbp53
 ---
 
 <p>I'm extremely pleased to announce that I will be speaking at the Scholarly Publishing and Academic Resources Coalition on "The Front Line of OA in Humanities and Social Sciences" on the 23rd August, 2013 at the Tokyo National Institute of Informatics.</p>

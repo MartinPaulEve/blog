@@ -16,6 +16,7 @@ tags:
 - labour
 title: Universities, DH, “the crowd”, and labour that looks like a game
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdwb6762a"
+kcworks: https://works.hcommons.org/records/6cpdc-12f31
 ---
 
 <p>This week I had the privilege and pleasure to attend the <a href="http://trianglesci.org">Triangle Scholarly Communications Institute</a> event at the University of North Carolina. It was a great event. I spoke about the Open Library of Humanities, had discussions about XML typesetting, positive representations of Sikhism and social challenges of changing scholarly communications. In short, the diversity and breadth of expertise and participants here made it a brilliant environment. I was sorry I had to leave early.</p>

@@ -19,6 +19,7 @@ title: I have nothing to do with this "dissertation writing service"
 wordpress_id: 1323
 wordpress_url: https://www.martineve.com/?p=1323
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk4vnhl2h"
+kcworks: https://works.hcommons.org/records/7zzyt-ww495
 ---
 
 <p>Perhaps a strange title for a post, but I was recently kindly alerted by Luis-Manuel Garcia at the University of Chicago that a certain <a href="http://discounts.dissertationwritingservices.info/britain-or-america-for-the-phd-in-english-martin-paul-eve/" rel="nofollow">dissertation writing "service"</a> has been aggregating and re-posting material from blogs that feature the word "dissertation".</p>

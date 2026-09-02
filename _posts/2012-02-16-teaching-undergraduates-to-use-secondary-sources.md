@@ -18,6 +18,7 @@ title: Teaching undergraduates to use secondary sources
 wordpress_id: 1916
 wordpress_url: https://www.martineve.com/2012/02/16/teaching-undergraduates-to-use-secondary-sources/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mirgqp72r"
+kcworks: https://works.hcommons.org/records/yxb2m-2j670
 ---
 
 <p>In response to the question of why we use secondary sources, one of the most overheard statements in my seminars has to be the perennial student response: "to back up your argument". Last week, I formulated a concise way of thinking about this that dispels this argument and also makes it clear where the space for originality lies. I wanted to share this as I think the students really got it. Here's how I explained it:</p>

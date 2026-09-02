@@ -14,6 +14,7 @@ tags:
 - open access
 title: Accreditation and research-assessment practices (on DORA and the Tickell review)
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbsccjb2q"
+kcworks: https://works.hcommons.org/records/5t3t8-gds61
 ---
 
 Last week, the [Tickell review of open access in the United Kingdom](https://www.gov.uk/government/publications/open-access-to-research-independent-advice) was published. There are no unwelcome nasty surprises in the review and, in fact, there are a number of extremely progressive elements, most notably the formation of a monographs sub-committee to address this increasingly important area of practice.

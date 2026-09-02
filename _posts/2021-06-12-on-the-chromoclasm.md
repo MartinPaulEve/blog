@@ -13,6 +13,7 @@ title: On the Chromoclasm, the absence of colour, and notes towards a translatio
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3cth5u2p"
 categories:
 - Literature
+kcworks: https://works.hcommons.org/records/0esfs-5gy28
 ---
 
 Throughout the works of Michel Pastoureau (at least in his books on Black and Green) are sketched ideas of the notion of a "chromoclasm".

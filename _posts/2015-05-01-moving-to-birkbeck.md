@@ -16,6 +16,7 @@ published: true
 status: publish
 title: Moving to Birkbeck
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcuf3s52e"
+kcworks: https://works.hcommons.org/records/3v1fc-daz84
 ---
 
 I am very pleased to announce that, as of today (1<sup>st</sup> of May, 2015), I am now a Senior Lecturer in Literature, Technology and Publishing at Birkbeck, University of London. I have greatly enjoyed my time at Lincoln and fully intend to stay in touch with the colleagues and friends that I have made there, whom I will sorely miss. That said, I am, of course, looking forward to the future. I've been excitedly sitting on this news for some time now and it is good to be able to say it aloud!

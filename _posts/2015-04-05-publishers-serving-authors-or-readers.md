@@ -15,6 +15,7 @@ published: true
 status: publish
 title: 'Publishers: Serving Authors or Readers?'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcwi2en2e"
+kcworks: https://works.hcommons.org/records/cbrvw-vxm50
 ---
 
 The most common way in which we can re-conceive of the economics of gold open access is to think of the publisher as providing a service to the author. After all, in an academic environment (where open access is most likely to flourish) authors are not usually writing their books to receive huge financial returns; they are, instead, paid through their salaried position. The services that academic authors usually want are accreditation (through the coordination of peer review), amplification (i.e. dissemination), copyediting, proofreading, typesetting, preservation (digital or otherwise) and (sadly) prestige for promotion etc.

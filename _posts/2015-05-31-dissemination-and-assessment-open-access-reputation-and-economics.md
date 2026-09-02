@@ -17,6 +17,7 @@ tags:
 - abstracts
 title: 'Dissemination and Assessment: Open Access, Reputation and Economics'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcrofa42h"
+kcworks: https://works.hcommons.org/records/fkhb4-9kw25
 ---
 
 The abstract for my talk at Congress 2015, in Ottawa:

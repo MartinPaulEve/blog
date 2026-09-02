@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6vsz3y
 categories:
 - Music
 - Programming
+kcworks: https://works.hcommons.org/records/v59p5-zaq94
 ---
 
 In Everest, F. Alton, and Ken C Pohlmann, _Master Handbook of Acoustics_ (New York: McGraw-Hill, 2009), p. 247, a range of room ratios are listed to achieve optimal modal distributions using the Bolt range and a set of external sources. In other words, this addresses the question: what size should I make my room to achieve the best even distribution of sound throughout?

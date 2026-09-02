@@ -20,6 +20,7 @@ title: 'Conference Panel: Pynchon Now (Contemporary Fiction Research Seminar)'
 wordpress_id: 2387
 wordpress_url: https://www.martineve.com/?p=2387
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhsoxdi2o"
+kcworks: https://works.hcommons.org/records/kzmc6-xxe60
 ---
 
 <p>I'm very pleased to report that I'll be speaking to the Contemporary Fiction Research Seminar on Saturday the 13th October from 2-4pm. I hope to see as many of you as possible there!</p>

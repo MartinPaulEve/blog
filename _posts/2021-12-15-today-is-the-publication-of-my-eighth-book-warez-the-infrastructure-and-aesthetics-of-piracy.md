@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m25kt2u
 categories:
 - Publications
 - Piracy and Shadow Libraries
+kcworks: https://works.hcommons.org/records/2g7fj-3tt47
 ---
 
 I am absolutely delighted to announce that, today, the 15th December 2021 marks the publication of my eighth academic book: [_Warez: The Infrastructure and Aesthetics of Piracy_](https://punctumbooks.com/titles/warez-the-infrastructure-and-aesthetics-of-piracy/). The book will be available to buy in print, but it's already available, open access, to [download from the OAPEN library](https://library.oapen.org/handle/20.500.12657/52029).

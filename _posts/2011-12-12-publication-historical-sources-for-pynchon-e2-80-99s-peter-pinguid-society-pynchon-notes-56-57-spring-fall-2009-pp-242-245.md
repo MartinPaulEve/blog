@@ -22,6 +22,7 @@ title: 'Publication: ''Historical Sources for Pynchon’s Peter Pinguid Society'
 wordpress_id: 1675
 wordpress_url: https://www.martineve.com/?p=1675
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjdz66x2f"
+kcworks: https://works.hcommons.org/records/c1rxx-zz569
 ---
 
 <p>This short piece provides the cumulative textual evidence that Pynchon consulted a single source, Golder, F.A., 1915. "The Russian Fleet and the Civil War". The American Historical Review, 20(4), pp.801-812, to construct the historicity of the Peter Pinguid Society episode in <i>The Crying of Lot 49</i>, as opposed to consulting the original Arkhiv Morskogo Ministerstva, Dielo Kantseliarii Morskogo Ministerstva, no. 91, pt. III., pp. 102, 103.</p>

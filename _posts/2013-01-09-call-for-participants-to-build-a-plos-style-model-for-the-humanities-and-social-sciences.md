@@ -23,6 +23,7 @@ title: Call For Participants to Build a PLOS-style Model for the Humanities and 
 wordpress_id: 2576
 wordpress_url: https://www.martineve.com/?p=2576
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mh5v7k72r"
+kcworks: https://works.hcommons.org/records/pcfj7-cqm30
 ---
 
 <p>For quite some time, I have been interested in/incensed by the scholarly publication system; the exclusions, iniquities and absurdities of it can be clearly seen from only a brief survey of the economic field. I have watched with despair as the sciences have made projects work while the humanities and social sciences have almost sleepwalked into a disaster. The Finch Report published in the UK and accepted by the government will wreak havoc on our <i>modus operandi</i> and work to stratify an already split field.</p>

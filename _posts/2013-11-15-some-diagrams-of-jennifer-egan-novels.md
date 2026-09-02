@@ -21,6 +21,7 @@ title: Some diagrams of Jennifer Egan novels
 wordpress_id: 2923
 wordpress_url: https://www.martineve.com/?p=2923
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfvgrn52p"
+kcworks: https://works.hcommons.org/records/wwq6c-0c007
 ---
 
 <p>As I'm preparing to speak tomorrow at the <a href="http://literatureoffthepage.wordpress.com/">Literature off the Page</a> conference, I was, as usual, creating a set of slides for my talk. As I'm looking at the novels of Jennifer Egan, I decided to create some diagrams that show clearly the features of the novels that I am referring to. However, I also decided that this would be a good opportunity to upload this kind of material to <a href="http://figshare.com">Figshare</a> for the first time. Indeed, feel free to re-use, so long as you cite, as per the Creative Commons Attribution license.</p>

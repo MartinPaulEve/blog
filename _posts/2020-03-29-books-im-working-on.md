@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6eloop
 categories:
 - Academia
 - Personal
+kcworks: https://works.hcommons.org/records/zzzns-mxg25
 ---
 
 I have a series of book projects in train at the moment and wanted to write a little bit of this down so that I have a record of where I was in the projects at this stage:

@@ -18,6 +18,7 @@ title: My recent work at Berfrois
 wordpress_id: 917
 wordpress_url: https://www.martineve.com/?p=917
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkhvf5u2h"
+kcworks: https://works.hcommons.org/records/994jt-3d135
 ---
 
 <p><i>Featured image by <a href="http://www.flickr.com/photos/acornsarebitter/">1600 Squirrels</a> under a CC-BY-NC-SA license.</i></p>

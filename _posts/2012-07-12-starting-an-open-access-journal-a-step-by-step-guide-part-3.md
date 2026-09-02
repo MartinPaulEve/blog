@@ -22,6 +22,7 @@ title: 'Starting an Open Access Journal: a step-by-step guide part 3'
 wordpress_id: 2193
 wordpress_url: https://eve.gd/?p=2193
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miatxbp2i"
+kcworks: https://works.hcommons.org/records/5y7yf-fzc20
 ---
 
 <p>Following on from <a href="https://eve.gd/2012/07/10/starting-an-open-access-journal-a-step-by-step-guide-part-1/">part 1</a> and <a href="https://eve.gd/2012/07/11/starting-an-open-access-journal-a-step-by-step-guide-part-2/">part 2</a>, this is the third in a series of posts designed to get a new journal off the ground.</p>

@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6wlqf6
 categories:
 - Health
 - Personal
+kcworks: https://works.hcommons.org/records/z0v1e-60f34
 ---
 
 The autoimmune conditions from which I suffer are a total pain to describe under the general frameworks within which most people understand illness.

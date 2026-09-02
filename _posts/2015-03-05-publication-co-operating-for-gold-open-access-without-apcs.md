@@ -17,6 +17,7 @@ published: true
 status: publish
 title: 'Publication: Co-operating for gold open access without APCs'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcxbyap2i"
+kcworks: https://works.hcommons.org/records/hakva-14q95
 ---
 
 <p>The current transition to gold open access (OA) through the implementation of an author- or

@@ -18,6 +18,7 @@ title: 'Upcoming performance: Lucy and Martha: Fine Bone China'
 wordpress_id: 19
 wordpress_url: http://new.martineve.com/?p=19
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mm7x3r42h"
+kcworks: https://works.hcommons.org/records/wp3vp-6b058
 ---
 
 <p><img src="/images/uploads/2010/04/Lucy_Martha_-_Photos_Bex_Wade_-300x225.jpg" alt="Lucy and Martha in performance; photograph by Bex Wade" width="480" height="360"/></p>

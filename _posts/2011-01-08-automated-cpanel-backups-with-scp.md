@@ -46,6 +46,7 @@ title: Automated CPanel Backups with SCP
 wordpress_id: 531
 wordpress_url: http://www.martineve.com/?p=531
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkxvjyi2p"
+kcworks: https://works.hcommons.org/records/vv91e-fy006
 ---
 
 <p>Originally from <a href="http://www.v-nessa.net/2007/01/03/cpanel-automated-backup-script">V-Nessa's site</a>, I thought I would share the PHP script that I have now modified to include Secure Copy (SCP) support.</p>

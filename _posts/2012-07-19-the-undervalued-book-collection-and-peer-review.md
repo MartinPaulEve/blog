@@ -19,6 +19,7 @@ title: The undervalued book collection and peer review
 wordpress_id: 2241
 wordpress_url: https://www.martineve.com/?p=2241
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mi5g3nx2a"
+kcworks: https://works.hcommons.org/records/k93y5-krc81
 ---
 
 <p>I've had several conversations in the past few weeks on the different modes of dissemination and the REF's undervaluation of the book collection. The argument goes that essays in a book collection are less valued because they're not peer reviewed. Except... they are. They're just not shipped out by an editor of a journal to multiple experts to formulate consensus.</p>

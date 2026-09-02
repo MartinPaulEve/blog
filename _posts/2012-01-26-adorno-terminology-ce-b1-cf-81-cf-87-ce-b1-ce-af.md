@@ -19,6 +19,7 @@ title: 'Adorno terminology: αρχαί'
 wordpress_id: 1874
 wordpress_url: https://www.martineve.com/2012/01/26/adorno-terminology-%ce%b1%cf%81%cf%87%ce%b1%ce%af/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mixojaj2e"
+kcworks: https://works.hcommons.org/records/ah7cs-3k812
 ---
 
 <p>A guest comment alerted me to the fact that I had missed an entry from my Aesthetic Theory lexicon!</p>

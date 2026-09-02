@@ -20,6 +20,7 @@ title: Applying for AHRC BGP Doctoral Grants
 wordpress_id: 20
 wordpress_url: http://new.martineve.com/?p=20
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mma2jft2n"
+kcworks: https://works.hcommons.org/records/4xwk4-k6c16
 ---
 
 <div class='downloadFlyout'>

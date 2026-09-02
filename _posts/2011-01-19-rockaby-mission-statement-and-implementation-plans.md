@@ -24,6 +24,7 @@ title: 'Rockaby: Mission Statement and Implementation Plans'
 wordpress_id: 599
 wordpress_url: http://www.martineve.com/?p=599
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkuydma2f"
+kcworks: https://works.hcommons.org/records/4t5tz-nn167
 ---
 
 <div><img src="http://www.martineve.com/wp-content/uploads/2011/01/18965895_0d6998a202_z-300x225.jpg" alt="Rocking Chair" title="RockingChair" width="300" height="225" class="alignnone size-medium wp-image-600" /><br />

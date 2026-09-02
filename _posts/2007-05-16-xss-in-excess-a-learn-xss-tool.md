@@ -21,6 +21,7 @@ title: 'XSS in eXceSS: A "learn-XSS tool"'
 wordpress_id: 285
 wordpress_url: http://pro.grammatic.org/post-xss-in-excess-a-learnxss-tool-14.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnrk2we2s"
+kcworks: https://works.hcommons.org/records/qb01e-x7x93
 ---
 
 <p>kishord today presents a tool, called <a href="http://wasjournal.blogspot.com/2007/05/xss-in-excess.html" title="XSS in eXceSS">XSS in eXceSS</a> and hosted by <a href="http://mario.heideri.ch/" title=".mario's blog">.mario</a> that will allow you test attack vectors against a page in different contexts. On top of that it also incorporates <a href="http://groups.google.de/group/php-ids" title="PHP IDS">PHP IDS</a>, allowing you to skip whichever rules you choose.</p>

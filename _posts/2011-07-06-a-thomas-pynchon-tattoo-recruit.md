@@ -41,6 +41,7 @@ title: A Thomas Pynchon tattoo recruit
 wordpress_id: 1281
 wordpress_url: https://www.martineve.com/?p=1281
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk6gtnd2u"
+kcworks: https://works.hcommons.org/records/gpjp2-ze535
 ---
 
 <p>Met up with my usually Stateside fellow Pynchonite Jesse Sherwood last week when he visited London. While sampling the delights of the city was important, he also took time out to get himself branded with a Lot 49 muted posthorn. While tattoos aren't, personally, my thing, I think it's great! Just remember, though: Don't Ever Antagonize the Horn.</p>

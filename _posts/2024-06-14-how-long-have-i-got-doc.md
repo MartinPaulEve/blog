@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwvkstr
 categories:
 - Health
 - Personal
+kcworks: https://works.hcommons.org/records/9cb5h-gpv69
 ---
 
 "End-stage renal disease is a terminal illness with a glomerular filtration rate of less than 15 mL/min." - [Hashmi et al.](https://www.ncbi.nlm.nih.gov/books/NBK499861/)

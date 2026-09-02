@@ -13,6 +13,7 @@ title: Creating a generic loader for Annotator.js plugins inside a hypothes.is e
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbcddvo2u"
 categories:
 - Programming
+kcworks: https://works.hcommons.org/records/5n0j3-m3993
 ---
 
 Part of the work for our grant to Birkbeck from the Andrew W. Mellon Foundation is to create a software project that uses the annotation backend of hypothes.is to allow others to translate scholarly works (and for a user base to then be able to view those translations). Essentially, we want the sentence keying tech. to key to foreign languages.

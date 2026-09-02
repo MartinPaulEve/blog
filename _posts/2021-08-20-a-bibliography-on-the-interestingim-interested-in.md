@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2itznv
 categories:
 - Academia
 - Philosophy
+kcworks: https://works.hcommons.org/records/x45sz-1at34
 ---
 
 I asked, [yesterday on Twitter](https://twitter.com/martin_eve/status/1428438157712842756), whether anybody had written about one of the most prominent verbal tics in humanistic academic discourse: "I am interested in". This phrase is used to justify critical attention to almost any object while also placing the idea of such scrutiny beyond any challenge. Why should we _care_ that you are _interested_ in something? From what position of authority does such a statement derive meaningful value?

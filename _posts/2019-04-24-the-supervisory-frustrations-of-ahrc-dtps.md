@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m74u4ds
 categories:
 - Academia
 - Higher Education
+kcworks: https://works.hcommons.org/records/wfq87-p2k73
 ---
 
 The AHRC awards Ph.D. funding, now, through a system of Doctoral Training Partnerships. These are groups of institutions who share a funding pool, and training resources, for doctoral candidates. In many ways, this is a good idea; to agglomerate resources and to make institutions cooperate is clearly beneficial. But it also comes with some substantial frustrations as a supervisor.

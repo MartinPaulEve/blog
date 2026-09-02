@@ -20,6 +20,7 @@ title: 'XSF: Cross Site Flashing'
 wordpress_id: 282
 wordpress_url: http://pro.grammatic.org/post-xsf-cross-site-flashing-17.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnq2pgx2t"
+kcworks: https://works.hcommons.org/records/k66h5-4t285
 ---
 
 <p>Stefano Di Paola presented an <a href="http://www.wisec.it/en/Docs/flash_App_testing_Owasp07.pdf" title="Flash application testing">interesting paper</a> on Flash security at OWASP 2007 which highlights the dangers of HTML being rendered from within Flash via GET querystrings. Of particular note is the non-sanitization of comments (filter evasion by // .jpg) so check it out.</p>

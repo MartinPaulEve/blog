@@ -13,6 +13,7 @@ title: How Learned Societies Could Flip to Open Access, With No Author-Facing Ch
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7ypkk52i"
 categories:
 - Open Access
+kcworks: https://works.hcommons.org/records/jzg9n-3hy72
 ---
 
 Let's assume that we have a Learned Society that fulfills the following conditions:

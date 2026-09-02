@@ -23,6 +23,7 @@ title: Publishing articles in PDF via XML/XSLT using Open Journal Systems 2.3.6
 wordpress_id: 1472
 wordpress_url: https://www.martineve.com/?p=1472
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjwpcqs2a"
+kcworks: https://works.hcommons.org/records/1mtcz-r2b17
 ---
 
 <p>This is a post detailing my experiments with Open Journal Systems 2.3.6 and the current state of producing galleys for an article from a single XML file. As shall be seen in the conclusion, no currently functional plugin allows this feature. This will, therefore, be the first of several posts that will cover not only writing an OJS plugin from scratch, but also aim to fill this gap.</p>

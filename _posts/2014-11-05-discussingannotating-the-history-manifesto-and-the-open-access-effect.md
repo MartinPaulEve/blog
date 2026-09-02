@@ -19,6 +19,7 @@ tags:
 - History Manifesto
 title: Discussing/annotating The History Manifesto and the open access effect(?)
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mebw3sc2a"
+kcworks: https://works.hcommons.org/records/qaa7z-y9b83
 ---
 
 <p>Amid my travels this month I've been keeping an excited and close eye on the progress of Jo Guldi and David Armitage's <a href="http://historymanifesto.cambridge.org/"><i>The History Manifesto</i></a>. This interest is both a matter of content and form. I greatly enjoyed reading the book even though I am not a historian and found many of its arguments compelling (I had some critical thoughts of my own on aspects of the text but would need to do a bit of further thinking before articulating them).</p>

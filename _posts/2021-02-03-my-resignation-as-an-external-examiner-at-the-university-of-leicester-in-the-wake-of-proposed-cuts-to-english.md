@@ -13,6 +13,7 @@ title: My resignation as an external examiner at the University of Leicester in 
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3ua7o32t"
 categories:
 - Higher Education
+kcworks: https://works.hcommons.org/records/11nmf-4bt87
 ---
 
 Today I have written to the University of Leicester [tendering my resignation as an external examiner](/images/Resignation.pdf).

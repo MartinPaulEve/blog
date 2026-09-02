@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwspdzz
 categories:
 - Publications
 - Digital Humanities
+kcworks: https://works.hcommons.org/records/hffbk-v8j37
 ---
 
 I am very pleased to say that my book, _Theses on the Metaphors of Digital-Textual History_, is out today!

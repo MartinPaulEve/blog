@@ -23,6 +23,7 @@ title: 'Video of my #uksglive presentation on the future of academic publishing'
 wordpress_id: 2043
 wordpress_url: https://www.martineve.com/?p=2043
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mihjo6t2h"
+kcworks: https://works.hcommons.org/records/335dg-7fd81
 ---
 
 <p>Here's the video of my talk to the UKSG Conference in Glasgow in June 2012.</p>

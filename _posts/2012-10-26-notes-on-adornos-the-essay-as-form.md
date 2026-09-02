@@ -18,6 +18,7 @@ title: Notes on Adorno's "The Essay as Form"
 wordpress_id: 2457
 wordpress_url: https://www.martineve.com/?p=2457
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhnroyt2h"
+kcworks: https://works.hcommons.org/records/mf5d6-r7k14
 ---
 
 <p>Adorno, Theodor W. ‘The Essay as Form’. The Adorno Reader. Trans. Bob Hullot-Kentor & Frederic Will. Oxford: Blackwell, 2000. 92–111. Print.</p>

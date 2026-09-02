@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2wwpju
 categories:
 - Philosophy
 - Politics
+kcworks: https://works.hcommons.org/records/9j93w-te389
 ---
 
 Giorgio Agamben gets around a lot on literature syllabi. His "What is the Contemporary?" is a staple of theoretical courses, his concept of "bare life" is used to think through the structures of contemporary biopower, and his thinking around "states of exception" and "states of emergency" find a fruitful home in many places.

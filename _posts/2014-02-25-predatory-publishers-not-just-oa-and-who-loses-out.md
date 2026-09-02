@@ -20,6 +20,7 @@ title: 'Predatory Publishers: Not Just OA (and who loses out?)'
 wordpress_id: 3038
 wordpress_url: https://www.martineve.com/?p=3038
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfndxes2u"
+kcworks: https://works.hcommons.org/records/j8zbx-h4h11
 ---
 
 <h1>The Critics of OA and Acknowledging &#8220;Predation&#8221;</h1>

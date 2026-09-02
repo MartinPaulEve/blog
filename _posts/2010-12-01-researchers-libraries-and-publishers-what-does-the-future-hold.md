@@ -34,6 +34,7 @@ title: 'Researchers, Libraries and Publishers: What does the future hold?'
 wordpress_id: 448
 wordpress_url: http://www.martineve.com/?p=448
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlkiwqy2r"
+kcworks: https://works.hcommons.org/records/vrej3-m1146
 ---
 
 <p>Yesterday, I attended an event facilitated by the Research Information Network and hosted by Sage Publishing as a roundtable discussion of the complex issues involved in the communication channels, fears and issues surrounding academic publishers, libraries and researchers. I attended this event in the capacity of a researcher who also has experience of publishing under an Open Access model and also as someone with a keen interest in the latter. I just wanted to put forward in this post some of my thoughts of the outcomes of the day.</p>

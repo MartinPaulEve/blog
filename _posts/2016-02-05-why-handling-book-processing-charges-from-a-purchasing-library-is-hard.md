@@ -15,6 +15,7 @@ tags:
 - open access
 title: Why handling Book Processing Charges from a purchasing library is hard
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbu4pr42t"
+kcworks: https://works.hcommons.org/records/0x9k0-sf761
 ---
 
 I keep trying to write about the economics of open access to academic books via Book Processing Charges (BPCs) in a clear way. So there's nothing really new in this post but I think I did stumble today upon a way of putting things  that I've said before in a different and more concise fashion.

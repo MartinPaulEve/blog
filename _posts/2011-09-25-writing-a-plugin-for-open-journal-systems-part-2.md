@@ -38,6 +38,7 @@ title: 'Writing a plugin for Open Journal Systems: Part 2'
 wordpress_id: 1509
 wordpress_url: https://www.martineve.com/2011/09/25/writing-a-plugin-for-open-journal-systems-part-2/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjuw4of2a"
+kcworks: https://works.hcommons.org/records/9s3ww-cdk62
 ---
 
 <p>The quest to build a system that allows <a href="https://www.martineve.com/2011/09/14/publishing-articles-in-pdf-via-xmlxslt-using-open-journal-systems-2-3-6/">publishing in PDF and XHTML</a> from a single XML galley within OJS <a href="https://www.martineve.com/2011/09/17/writing-a-plugin-for-open-journal-systems-part-1/">continues</a> and I've made quite substantial progress.</p>

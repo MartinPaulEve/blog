@@ -20,6 +20,7 @@ title: '**Support War Child** and see Laurent Gardner/Booka Shade/Leftfield live
 wordpress_id: 1670
 wordpress_url: https://www.martineve.com/?p=1670
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mje4gie2h"
+kcworks: https://works.hcommons.org/records/ap47q-ya748
 ---
 
 <p>Of the worthy causes you'll see in the world, <a href="http://www.warchild.org/">War Child</a> is surely high up that list. For the uniformed:</p>

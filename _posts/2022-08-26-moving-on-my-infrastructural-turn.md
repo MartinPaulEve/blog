@@ -14,6 +14,7 @@ categories:
 - Personal
 - Scholarly Communications
 - Academia
+kcworks: https://works.hcommons.org/records/x03n4-yqx61
 ---
 
 The next few months mark a series of “10”s for me. On the 10th September, it will be 10 years since my Ph.D. viva. In November, it will be 10 years since I got my first lecturing position (TT Assistant Prof) at the University of Lincoln. It’s 10 years since I met Dr Caroline Edwards and we began publishing _Alluvium_ together. And it’s 10 years since we began planning the Open Library of Humanities.

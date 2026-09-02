@@ -25,6 +25,7 @@ title: Upcoming journal publishing workshop
 wordpress_id: 7
 wordpress_url: http://new.martineve.com/?p=7
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlsh3it2u"
+kcworks: https://works.hcommons.org/records/pzezn-7ph65
 ---
 
 <p>    <a href='/images/uploads/2010/09/Poster.jpg.scaled.1000.jpg'><img src="/images/uploads/2010/09/Poster.jpg.scaled.1000-212x300.jpg" alt="Poster advertising the Open Journal Systems publishing workshop at the University of Sussex on 15 September" width="500" height="707"/></a></p>

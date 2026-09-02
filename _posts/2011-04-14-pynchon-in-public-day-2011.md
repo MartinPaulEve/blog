@@ -18,6 +18,7 @@ title: Pynchon in Public Day 2011
 wordpress_id: 973
 wordpress_url: https://www.martineve.com/?p=973
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkexavd2n"
+kcworks: https://works.hcommons.org/records/ry0k8-8z431
 ---
 
 <p>Hereby instigating an <a href="http://www.pynchoninpublic.com">annual May 8th</a> culture jamming festival to be herein evidenced by photographic, textual, cartographic and video documentation. To prove it really happened, that our world was not projected.</p>

@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6x7quc
 categories:
 - Academia
 - Literature
+kcworks: https://works.hcommons.org/records/majr1-0qy13
 ---
 
 Today I read Kathleen Fitzpatrick's _Generous Thinking: A Radical Approach to Saving the University_, a book that touches on many of my interests (public humanities, open access, reforming university assessments and hiring etc.). I'd already had the pleasure of reading the draft version, which [was available for open comment](http://generousthinking.hcommons.org), but the final edition really did feel even better than that.

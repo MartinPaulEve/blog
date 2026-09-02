@@ -19,6 +19,7 @@ title: 'Adorno terminology: ηδονη'
 wordpress_id: 1737
 wordpress_url: https://www.martineve.com/2012/01/09/adorno-terminology-%ce%b7%ce%b4%ce%bf%ce%bd%ce%b7/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mj2hqpj2e"
+kcworks: https://works.hcommons.org/records/etycn-szq40
 ---
 
 <p>"In the false world all ηδονη is false" (Adorno, Theodor W. Aesthetic Theory. Edited by Gretel Adorno and Rolf Tiedemann. Translated by Robert Hullot-Kentor. London: Continuum, 2004. p. 15.)</p>

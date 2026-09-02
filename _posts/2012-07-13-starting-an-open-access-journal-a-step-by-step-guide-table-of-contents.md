@@ -21,6 +21,7 @@ title: 'Starting an Open Access Journal: a step-by-step guide. Table of contents
 wordpress_id: 2219
 wordpress_url: https://eve.gd/?p=2219
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mi6lfzt2h"
+kcworks: https://works.hcommons.org/records/4fmcv-2tm40
 ---
 
 <p>Over the past week, I've put together a series of posts on starting an Open Access journal. This is a post to tie them all together, to provide a table of contents and allow people to jump about.</p>

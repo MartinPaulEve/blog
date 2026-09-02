@@ -12,6 +12,7 @@ title: The Brazilian Novel
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzglbxe2u"
 categories:
 - Literature
+kcworks: https://works.hcommons.org/records/4rkwp-49e08
 ---
 
 This post forms part of my '[aspects of the novel](/2022/01/04/aspects-of-the-novel/)' collection. Please do note that these entries, which may appear basic, are simply my own notes on the subject. They implicitly or explicitly describe a canon not of my own making or choosing and replicate this from various sources. The original encyclopaedia articles are far more comprehensive, nuanced and worth consulting. I am especially conscious in articles such as this, which work with complex and detailed racial histories, that the summary here is reductive and incomplete; but nonetheless a starting point. I am also cognizant that some of the living writers here may not even wish to be categorized under this racial rubric. However, as I am summarizing various facts from encyclopaedic sources, I present this as-is, nonetheless.

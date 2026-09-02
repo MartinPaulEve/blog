@@ -24,6 +24,7 @@ title: 'Publication: ''Tear it down, build it up: the Research Output Team, or t
 wordpress_id: 2167
 wordpress_url: https://www.martineve.com/?p=2167
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7micjjxb2i"
+kcworks: https://works.hcommons.org/records/bhz29-k9x41
 ---
 
 <div style="width:750px;"><img src="https://www.martineve.com/wp-content/uploads/2012/07/cover-medium.jpg" alt="UKSG Insights" title="UKSG Insights" width="269" height="379" class="alignnone size-full wp-image-2169" /></div>

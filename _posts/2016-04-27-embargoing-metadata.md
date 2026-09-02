@@ -10,6 +10,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbhqhww
 categories:
 - Open Access
 - Scholarly Communications
+kcworks: https://works.hcommons.org/records/6z69y-4px45
 ---
 
 I've heard reports that the journals _Science_ and _Nature_ want the metadata on forthcoming articles to be embargoed. In other words, they are saying that they do not want a repository version to become discoverable before the work is published, even if the article itself is not available through the repository.

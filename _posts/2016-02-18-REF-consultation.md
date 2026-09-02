@@ -17,6 +17,7 @@ tags:
 - politics
 title: The postponed REF consultation document
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbrlzgh2i"
+kcworks: https://works.hcommons.org/records/tv2j8-zzs30
 ---
 
 Research Fortnight is running an interesting piece about [the REF consultation document that was pulled late last year](https://www.researchprofessional.com/0/rr/news/uk/ref-2014/2016/2/-Anyone-for-5--research---HEFCE-asked-in-postponed-consultation-.html). Indeed, while the sector is desperate for information about the requirements for the next REF (we're currently playing somewhat blind), the consultation has been postponed while the Stern review consults.

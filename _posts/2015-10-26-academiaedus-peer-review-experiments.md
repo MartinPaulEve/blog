@@ -14,6 +14,7 @@ tags:
 - peer review
 title: Academia.edu’s peer-review experiments
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc6ne4t2p"
+kcworks: https://works.hcommons.org/records/3ddg6-chz11
 ---
 
 I've been sitting on the below piece for a while, but have [written about academia.edu before](https://www.martineve.com/2014/09/05/things-academia-edu-academia-should-do-hint-work-with-green-oa/). In recent days, though, [Gary Hall](http://www.garyhall.info/journal/2015/10/18/does-academiaedu-mean-open-access-is-becoming-irrelevant.html) and [Kathleen Fitzpatrick](http://www.plannedobsolescence.net/academia-not-edu/) have both written critiques of the site and so I thought it also worth adding this specific angle rather than just letting it sit on my hard drive.

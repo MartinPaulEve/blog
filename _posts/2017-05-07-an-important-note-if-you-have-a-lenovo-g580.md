@@ -12,6 +12,7 @@ title: An important note if you have a Lenovo G580
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mad2kji2a"
 categories:
 - Technology
+kcworks: https://works.hcommons.org/records/wrw09-f7951
 ---
 
 The Lenovo G580 comes with Windows 8. It is possible to permanently lock yourself out of the operating system if you begin with a Microsoft account and migrate this to a local account. Further, you won't be able to rescue the system since _it is impossible to enter the BIOS setup in the machine's default state if you cannot login to Windows_.

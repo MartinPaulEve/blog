@@ -13,6 +13,7 @@ tags:
 - scholarly communications
 title: The critique of utopia
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbqq3742t"
+kcworks: https://works.hcommons.org/records/mnyba-93268
 ---
 
 Today, at the FORCE11 workshop that I am attending in Madrid our facilitators spoke of utopian thinking and then of attempting to realize that utopia in the realm of scholarly communications. (The other thing that happened is that I had a migraine, which resulted in an awful OpenCon reunion photo where I look terrible -- and apologies also if I was brusque with anyone!)

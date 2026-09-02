@@ -23,6 +23,7 @@ title: An Open Library of Humanities? Adeline Koh interviews me at the Chronicle
 wordpress_id: 3107
 wordpress_url: https://www.martineve.com/?p=3107
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mf5yguk2a"
+kcworks: https://works.hcommons.org/records/2vwna-p2p13
 ---
 
 <p>This is the tenth interview in a series, Digital Challenges to Academic Publishing, by Adeline Koh. Each article in this series features an interview with an academic publisher, press or journal editor on how their organization is changing in response to the digital world. The series has featured interviews with Duke University Press, Anvil Academic, NYU Press, MIT Press and the Penn State University Press.</p>

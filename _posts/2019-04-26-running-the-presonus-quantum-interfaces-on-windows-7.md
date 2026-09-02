@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m73hin7
 categories:
 - Music
 - Technology
+kcworks: https://works.hcommons.org/records/qtby0-j5e94
 ---
 
 The PreSonus Quantum interfaces are [definitely not supported on Windows 7](https://support.presonus.com/hc/en-us/articles/115003181806-Will-Quantum-work-with-my-Windows-10-machine-). But if you are not faint of heart, it is possible to hack the driver onto a Windows 7 system (or perhaps Windows 8). Here's how I did it.

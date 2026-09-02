@@ -13,6 +13,7 @@ title: What’s the point of having open scholarly infrastructures and how do we
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7ly4cktq2i"
 categories:
 - Scholarly Communications
+kcworks: https://works.hcommons.org/records/p071q-dde52
 ---
 
 It is sometimes easy, when discussing openness, to get bogged down in the technical weeds. People often want detail and specifics: what open license should I use? Precisely how much revenue do I need to keep in reserve safely to wind-down an organization? When does advocacy become lobbying?

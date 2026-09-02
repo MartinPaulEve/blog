@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lx372oj
 categories:
 - Health
 - Personal
+kcworks: https://works.hcommons.org/records/2pxym-jez70
 ---
 
 I am tired of medical decisions with a trade-off. On a regular basis I am presented with decisions that have deferred negative consequences in order to fix something in the present. The two examples that spring to mind are the BK virus nephropathy and hip replacement surgery.

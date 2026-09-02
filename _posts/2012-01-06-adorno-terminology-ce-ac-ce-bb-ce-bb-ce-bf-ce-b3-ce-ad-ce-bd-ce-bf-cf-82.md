@@ -26,6 +26,7 @@ title: 'Adorno terminology: άλλο γένος'
 wordpress_id: 1735
 wordpress_url: https://www.martineve.com/2012/01/06/adorno-terminology-%ce%ac%ce%bb%ce%bb%ce%bf-%ce%b3%ce%ad%ce%bd%ce%bf%cf%82/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjbj7jr2a"
+kcworks: https://works.hcommons.org/records/0mv74-qj870
 ---
 
 <p>"Thus what was planned as a bridge between theoretical and practical pure reason is vis-à-vis both an άλλο γένος" (Adorno, Theodor W. Aesthetic Theory. Edited by Gretel Adorno and Rolf Tiedemann. Translated by Robert Hullot-Kentor. London: Continuum, 2004. p. 13.)</p>

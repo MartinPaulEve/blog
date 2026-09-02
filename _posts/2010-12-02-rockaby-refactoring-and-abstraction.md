@@ -22,6 +22,7 @@ title: Rockaby refactoring and abstraction
 wordpress_id: 450
 wordpress_url: http://www.martineve.com/?p=450
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlk47iu2h"
+kcworks: https://works.hcommons.org/records/w8ntj-we509
 ---
 
 <p><img class="alignnone" title="Rockaby" src="http://www.martineve.com/images/logo.png" alt="Rockaby Project" width="300" height="150" /></p>

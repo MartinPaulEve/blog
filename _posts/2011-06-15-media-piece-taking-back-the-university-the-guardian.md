@@ -39,6 +39,7 @@ title: 'Media piece: "Taking Back the University", The Guardian'
 wordpress_id: 1173
 wordpress_url: https://www.martineve.com/?p=1173
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkaufa62t"
+kcworks: https://works.hcommons.org/records/0hmn7-9d776
 ---
 
 <p>A quick post to mark the publication, co-authored with <a href="http://jennifermjones.net/">Jennifer M Jones</a>, of "<a href="http://www.guardian.co.uk/higher-education-network/blog/2011/jun/15/univeristies-radical-academics-jobs-training">Taking Back the University</a>"; a piece that gives a quick rundown of radical alternative re-imaginings of the University over the past year.</p>

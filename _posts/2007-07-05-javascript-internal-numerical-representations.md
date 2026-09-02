@@ -22,6 +22,7 @@ title: JavaScript internal numerical representations
 wordpress_id: 265
 wordpress_url: http://pro.grammatic.org/post-javascript-internal-numerical-representations-35.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnb45p42h"
+kcworks: https://works.hcommons.org/records/ggh6w-yyf38
 ---
 
 <p>Whilst working on the next release of .NETIDS I came across some interesting info about the parsing of numbers within JavaScript - information that is of particular relevance when it comes to filtering against String.fromCharCode injection attempts. The first item of interest is that JavaScript will parse hexadecimal in the form 0xYY even when not enclosed in quotes (ie. as a string), so this can be used in fromCharCode.</p>

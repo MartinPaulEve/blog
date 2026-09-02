@@ -19,6 +19,7 @@ title: 'Adorno terminology: ἀγών (agon)'
 wordpress_id: 1774
 wordpress_url: https://www.martineve.com/?p=1774
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mj23tud2h"
+kcworks: https://works.hcommons.org/records/d0jh6-3xn36
 ---
 
 <p>"The <i>agon</i> of Greek tragedy still gave evidence of this" (Adorno, Theodor W. Aesthetic Theory. Edited by Gretel Adorno and Rolf Tiedemann. Translated by Robert Hullot-Kentor. London: Continuum, 2004. p. 45.)</p>

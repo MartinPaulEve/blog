@@ -9,6 +9,7 @@ title: Accelerating Synology RAID 6 (SHR-2) reshapes
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6jxogi2h"
 categories:
 - Linux
+kcworks: https://works.hcommons.org/records/c71ng-7fa17
 ---
 
 Urgh. I had a RAID 6 reshape on my NAS that was projected to take 28 days to complete, I kid you not. It was stuck at an abysmal 4MB/s transfer rate. Here's how to unblock it.

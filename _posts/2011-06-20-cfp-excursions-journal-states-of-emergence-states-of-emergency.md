@@ -20,6 +20,7 @@ title: 'CFP: Excursions Journal: States of Emergence, States of Emergency'
 wordpress_id: 1177
 wordpress_url: https://www.martineve.com/?p=1177
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkaer4i2q"
+kcworks: https://works.hcommons.org/records/441gj-2c212
 ---
 
 <h3>Call for Papers</h3>

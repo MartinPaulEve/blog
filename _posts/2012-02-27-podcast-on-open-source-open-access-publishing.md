@@ -22,6 +22,7 @@ title: Podcast on Open Source, Open Access publishing
 wordpress_id: 1939
 wordpress_url: https://www.martineve.com/2012/02/27/podcast-on-open-source-open-access-publishing/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miqsbo22n"
+kcworks: https://works.hcommons.org/records/jqppg-s2m48
 ---
 
 <p>I did an interview at the weekend with Mark Carrigan on open source solutions for academic publishing and the potential future role of the library. You can find the piece over at Mark's site: <a href="http://markcarrigan.net/2012/02/27/podcast-with-martin-eve-about-open-source-academic-publishing/">Podcast with Martin Eve about Open Source Academic Publishing</a></p>

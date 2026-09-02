@@ -21,6 +21,7 @@ title: 'Ubuntu Natty Beta 1: My Upgrade Experience'
 wordpress_id: 936
 wordpress_url: https://www.martineve.com/?p=936
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkguopl2n"
+kcworks: https://works.hcommons.org/records/wbd4j-rpa22
 ---
 
 <p>I thought I'd share here some of the trials and tribulations I experienced in last night's upgrade to Ubuntu 11.04, Natty Narwhal.</p>

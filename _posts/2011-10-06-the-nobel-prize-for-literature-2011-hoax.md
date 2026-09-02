@@ -27,6 +27,7 @@ title: The Nobel Prize for Literature 2011 Hoax
 wordpress_id: 1525
 wordpress_url: https://www.martineve.com/?p=1525
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjtmvdc2s"
+kcworks: https://works.hcommons.org/records/k9y04-j0903
 ---
 
 <p>About half an hour before the official announcement of the Nobel Prize for Literature, 2011 (which was awarded to Tomas Tranströmer) reports started circulating on Twitter that the winner was, controversially, the Serbian author, Dobrica Cosic. The source was <a href="http://www.nobelprizeliterature.org">http://www.nobelprizeliterature.org</a>, which looked like this:</p>

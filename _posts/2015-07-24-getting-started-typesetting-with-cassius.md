@@ -17,6 +17,7 @@ tags:
 - HTML
 title: Getting started typesetting with CaSSius
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcezqbo2o"
+kcworks: https://works.hcommons.org/records/dpe4y-2k549
 ---
 
 Over the past week I've done some of the initial development work on [CaSSius](https://github.com/MartinPaulEve/CaSSius), the portion of the typesetter for the [Open Library of Humanities](https://www.openlibhums.org) that produces PDF output. The idea here is that, as a publisher, you want to produce one document and then create HTML and PDF from that single source. CaSSius provides two ways to achieve this. The first is to create your HTML using CaSSius's structure and to apply CSS styles when you want web output and to use CaSSius to create a PDF from this. The second is to create Journal Article Tag Suite XML and use CaSSius's importer to create the XML for you.

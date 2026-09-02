@@ -13,6 +13,7 @@ title: 'Notes on Raym Crow. (2009). Income Models for Open Access: An Overview o
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5pfcn22i"
 categories:
 - Open Access
+kcworks: https://works.hcommons.org/records/gyakb-ac337
 ---
 
 Some choice excerpts and comments on Raym Crow. (2009). Income Models for Open Access: An Overview of Current Practice. SPARC. [https://sparcopen.org/wp-content/uploads/2016/01/incomemodels_v1.pdf](https://sparcopen.org/wp-content/uploads/2016/01/incomemodels_v1.pdf). I am thinking about this in relation to the list of business models for OA books that we are building, even though it was written for journals over a decade ago.

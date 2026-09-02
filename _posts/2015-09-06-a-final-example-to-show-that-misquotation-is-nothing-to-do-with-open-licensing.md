@@ -15,6 +15,7 @@ published: true
 tags: []
 title: A final example to show that misquotation is nothing to do with open licensing
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcabxku2h"
+kcworks: https://works.hcommons.org/records/ke4jr-50n44
 ---
 
 In [a previous piece](/2015/08/22/researchers-are-altering-their-methods-because-of-uncertainty-over-creative-commons-licenses/), I noted in defence of Creative Commons licenses that "Whether a work is openly licensed or not does not affect whether people can or will write things that are not true". In that piece, I focused on the fact that legal redress seems to remain available under a CC BY license. Here, I want to briefly cover the other side: work that isn't openly licensed but that still gets misquoted.

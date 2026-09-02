@@ -21,6 +21,7 @@ title: 'Orbit: Writing Around Pynchon receives funding from Ludwig Maximilian Un
 wordpress_id: 2545
 wordpress_url: https://www.martineve.com/?p=2545
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mh7ivso2p"
+kcworks: https://works.hcommons.org/records/z6c57-kww81
 ---
 
 <p>It is with great pleasure that I am able to announce that <a href="https://www.pynchon.net">Orbit: Writing Around Pynchon</a> has entered into a partnership with <a href="http://www.en.uni-muenchen.de">Ludwig Maximilian University of Munich</a>.</p>

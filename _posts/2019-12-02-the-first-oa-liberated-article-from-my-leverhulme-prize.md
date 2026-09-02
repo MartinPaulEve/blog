@@ -14,6 +14,7 @@ categories:
 - Open Access
 - Publications
 - Literature
+kcworks: https://works.hcommons.org/records/rbxts-crh50
 ---
 
 One of the earliest articles that I wrote during the final year of my Ph.D. was for the journal _C21_, published by Gylphi. The article is quite hard to track down now as the online presence is being reworked and the front-list has moved to the Open Library of Humanities.

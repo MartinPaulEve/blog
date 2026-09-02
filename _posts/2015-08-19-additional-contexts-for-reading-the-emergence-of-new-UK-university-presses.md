@@ -17,6 +17,7 @@ tags:
 - publishing
 title: Additional contexts for reading the emergence of new UK university presses
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcd7tm22a"
+kcworks: https://works.hcommons.org/records/etkpb-yc628
 ---
 
 In a recent [piece for The Bookseller](http://www.thebookseller.com/blogs/anthony-cond-309360), Anthony Cond (for whom I have a huge deal of respect), writes approvingly, if cautiously, of the births of new university presses. Indeed, there is much to celebrate in the idea of the university taking back the means of its research production on a not-for-profit basis. I am wholly in support of such a mission.

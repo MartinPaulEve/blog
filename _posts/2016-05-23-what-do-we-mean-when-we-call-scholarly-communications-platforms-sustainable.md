@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbf6bf4
 categories:
 - Open Access
 - Scholarly Communications
+kcworks: https://works.hcommons.org/records/r2dvm-qfg30
 ---
 
 The title here is a little deceptive. Because, clearly, I do know what we mean when we call scholarly communications platforms 'sustainable'. We mean that they will, through one business model or another, manage to maintain themselves without research funders ploughing endless cash into them. Yet, I've been thinking about this recently and it comes with several pre-assumptions that are quite tricky to unpick.

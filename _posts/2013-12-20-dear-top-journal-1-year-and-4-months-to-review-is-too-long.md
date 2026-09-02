@@ -18,6 +18,7 @@ title: 'Dear "top journal": 1 year and 4 months to review is too long'
 wordpress_id: 2956
 wordpress_url: https://www.martineve.com/?p=2956
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfu2awx2o"
+kcworks: https://works.hcommons.org/records/w9xs8-qb646
 ---
 
 <div style="clear:both"/>

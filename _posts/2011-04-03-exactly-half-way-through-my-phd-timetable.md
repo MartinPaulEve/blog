@@ -76,6 +76,7 @@ title: Exactly half-way through my PhD timetable
 wordpress_id: 876
 wordpress_url: https://www.martineve.com/?p=876
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkhryr42h"
+kcworks: https://works.hcommons.org/records/hyzw6-6a807
 ---
 
 <p>Today marks, by my calculations, day 548 of my PhD. I set myself a target to attempt to finish the thesis within three years (1096 days -- 2012 is a leap year) of the 1st of October, 2009; the length of full-time funding I receive from the Arts and Humanities Research Council. As a result, today marks the exact mid-point of that schedule.</p>

@@ -60,6 +60,7 @@ title: Dark cloud looming
 wordpress_id: 32
 wordpress_url: http://new.martineve.com/?p=32
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmchvot2e"
+kcworks: https://works.hcommons.org/records/803kt-ggw43
 ---
 
 <p><a href='/images/uploads/2010/03/twitter-down.png'><img src="/images/uploads/2010/03/twitter-down-300x76.png" alt="Twitter's error page shown during the outage, refusing access to the site" width="500" height="127"/></a></p>

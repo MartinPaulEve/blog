@@ -14,6 +14,7 @@ title: While the government introduces new freedom of speech rules at universiti
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3fahz52h"
 categories:
 - Higher Education
+kcworks: https://works.hcommons.org/records/m1pk0-eqr72
 ---
 
 This morning I have been looking at the UK government's so-called "[Higher Education (Freedom of Speech) Bill](https://bills.parliament.uk/Publications/41479/Documents/212/21012.pdf)". The politics of this are extremely complicated, but suffice it to say that when the Minister for HE ends up having to say that [the legislation will help get Holocaust deniers onto campus](https://www.mirror.co.uk/news/politics/tory-minister-says-universities-face-24102126), it doesn't exactly look great.

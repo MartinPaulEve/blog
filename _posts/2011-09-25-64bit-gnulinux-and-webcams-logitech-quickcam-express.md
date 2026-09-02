@@ -20,6 +20,7 @@ title: 64bit GNU/Linux and Webcams (Logitech Quickcam Express)
 wordpress_id: 1505
 wordpress_url: https://www.martineve.com/2011/09/25/64bit-gnulinux-and-webcams-logitech-quickcam-express/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjvjrh42h"
+kcworks: https://works.hcommons.org/records/m295j-4ew02
 ---
 
 <p>I've just been playing around with my webcam, which I haven't hooked up in ages, and was unable to get it working under my 64bit Fedora installation. Having done a bit of reading, and having found that some applications can use the camera, I worked out the solution.</p>

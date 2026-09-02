@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6rxzp7
 categories:
 - Copyright and Licensing
 - Scholarly Communications
+kcworks: https://works.hcommons.org/records/4a2t3-y9885
 ---
 
 An interesting discussion today with one of my senior publishing technology developers, Mauro Sanchez, led me to thinking about the rights of presentation and author rights to object to derogatory treatment of work published in scholarly journals. Namely: in the digital age, if one has a publication in a journal, what rights do the publishers have to change that platform and the underlying objects of publication?

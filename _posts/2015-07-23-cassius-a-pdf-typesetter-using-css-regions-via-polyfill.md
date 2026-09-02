@@ -17,6 +17,7 @@ tags:
 - OLH
 title: 'CaSSius: a PDF typesetter using CSS regions (via polyfill)'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcfgfg22a"
+kcworks: https://works.hcommons.org/records/3we42-37n10
 ---
 
 ![CaSSius logo: a PDF file icon next to the name CaSSius](/images/CaSSius.png)

@@ -22,6 +22,7 @@ title: 'The Grim Phoenix: The New Challenges for Open Access'
 wordpress_id: 2449
 wordpress_url: https://www.martineve.com/?p=2449
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhov7iz2i"
+kcworks: https://works.hcommons.org/records/t0313-bs234
 ---
 
 <p>It seems that 2012 really was the “tipping point” for Open Access, especially in the UK. The Finch Report has mandated OA for RCUK-funded projects and the implementation phase is now hastily underway. No longer can Open Access be seen as a minority issue; it's here and it's here to stay.</p>

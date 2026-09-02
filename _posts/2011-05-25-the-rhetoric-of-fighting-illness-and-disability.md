@@ -99,6 +99,7 @@ title: The Rhetoric of "Fighting" Illness and Disability
 wordpress_id: 1097
 wordpress_url: https://www.martineve.com/?p=1097
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkd7gde2h"
+kcworks: https://works.hcommons.org/records/txn0j-1ff58
 ---
 
 <p>When I was in hospital the week before last, I was struck by how all-pervasive the rhetoric of "fighting" is when people are coping with illness or new disability. I'm sure that this has been covered by those in critical disability studies far better than I can put it here, but I wanted to flag it up as an area of concern.</p>

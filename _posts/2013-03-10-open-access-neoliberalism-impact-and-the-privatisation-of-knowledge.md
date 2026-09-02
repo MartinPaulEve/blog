@@ -22,6 +22,7 @@ title: Open Access, "Neoliberalism", "Impact" and the Privatisation of Knowledge
 wordpress_id: 2618
 wordpress_url: https://www.martineve.com/?p=2618
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgwogqg2e"
+kcworks: https://works.hcommons.org/records/8kzjb-ehx91
 ---
 
 <p>One of the problems with Open Access (both the movement and the practice), one that rings alarm bells in certain sectors, is the fact that the term "open" is inextricably linked to neoliberal paradigms. While "neoliberal" is a broad and, <a href="http://www.plannedobsolescence.net/blog/neoliberal/">perhaps problematic</a>, term in its expansion to mean everything, and therefore nothing, if we are more specific about the aspects under discussion (as we have come to be, for example, when discussing "postmodernism"), we can more firmly query why OA might be similarly troubling.</p>

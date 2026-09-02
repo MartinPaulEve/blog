@@ -12,6 +12,7 @@ title: Consortial funding and downward price pressure for open access
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbdiies2i"
 categories:
 - Open Access
+kcworks: https://works.hcommons.org/records/2f3r2-zc638
 ---
 
 Different groups of open-access advocates want different things to be achieved by OA. The "OA movement" is not a homogenous group. Some members of the group believe that all publishing labour is unncessary or could/should be volunteerist. Others want to allow people to read green open access accepted versions, but are happy to leave it at that. Some want a wholesale flip to gold open access and accept that it might cost more. Still a further group wants to challenge the dominance of a small group of big for-profit publishers. Finally, a further group hopes that open access will pose a solution to library purchasing costs by making the entire process cheaper. It seems unlikely, with this diverse set of goals, that everyone will be satisfied in the long run, even if OA is becoming broadly accepted as the future.

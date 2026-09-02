@@ -12,6 +12,7 @@ title: On digital publishing and third-party rights
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7zv5632n"
 categories:
 - Copyright and Licensing
+kcworks: https://works.hcommons.org/records/dd5b5-p7r78
 ---
 
 I'm currently handling a difficult case where a poetry publisher is demanding a royalty for citation of text within a work of literary criticism. They want to know how many "copies" we are "printing" so they can charge us.

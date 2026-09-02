@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lxzdwdz
 categories:
 - Personal
 - Health
+kcworks: https://works.hcommons.org/records/5scz5-6n113
 ---
 
 This morning I gave the third of my keynote talks this week at the Janeway conference: The Lower Decks. It's been quite a week and I am exhausted with my kidney failure.

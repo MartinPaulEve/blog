@@ -21,6 +21,7 @@ title: Some evil stuff from sla.ckers
 wordpress_id: 264
 wordpress_url: http://pro.grammatic.org/post-some-evil-stuff-from-slackers-36.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnalklk2a"
+kcworks: https://works.hcommons.org/records/dgtvh-xwy09
 ---
 
 <p>There's such a wealth of new XSS vectors coming out of the work on phpids that I couldn't resist sharing a few of the tastier morsels here. The original thread is over at <a href="http://sla.ckers.org/forum/read.php?2,13209">sla.ckers</a> if you want to read it there!</p>

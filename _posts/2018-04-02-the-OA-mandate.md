@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7tdqxt
 categories:
 - Open Access
 - Higher Education
+kcworks: https://works.hcommons.org/records/sgj7t-3vg24
 ---
 
 In the past few days, well [over a year since HEFCE signalled](http://www.hefce.ac.uk/media/HEFCE,2014/Content/Pubs/2016/201636/HEFCE2016_36.pdf) its "inten[tion] to move towards an open-access requirement for monographs in the exercise that follows the next REF (expected in the mid-2020s)", humanities academics have been getting themselves stirred up on the basis of a document issued by the [Royal Historical Society](https://royalhistsoc.org/oa-briefing-march2018/). It is curious that it is only now that people are paying any attention to this. The original document (see Annex C of the consultation on the Second REF) was issued in December 2016 "to give due notice to the sector", yet many have been caught off guard.

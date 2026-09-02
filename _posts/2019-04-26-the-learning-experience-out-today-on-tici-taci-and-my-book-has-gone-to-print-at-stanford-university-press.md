@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m72hl5p
 categories:
 - Music
 - Publications
+kcworks: https://works.hcommons.org/records/ry8df-jrw30
 ---
 
 I have a music release/EP out on Tici Taci records today, called _The Learning Experience_.

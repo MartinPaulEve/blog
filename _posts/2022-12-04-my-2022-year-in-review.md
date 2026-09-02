@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lyj22zv
 categories:
 - Personal
 - Academia
+kcworks: https://works.hcommons.org/records/08nv0-a1d04
 ---
 
 Like many years, 2022 was a year of health problems for me. The entire year has been overshadowed by the episode of kidney failure that I suffered as a result of BK virus associated nephropathy. It is fair to say that I have been quite seriously unwell. I also spent a long period of this year, in my spare time, campaigning for protection of the immunocompromised with the monoclonal antibody therapy, Evusheld. We remain under pretty tight isolation conditions in the face of the ongoing coronavirus pandemic. Excitingly, though, I am about to begin a secondment to Crossref, working on scholcomms infrastructures and building cool new lab experiments. I am looking forward to it!

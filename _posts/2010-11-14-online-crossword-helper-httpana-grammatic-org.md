@@ -23,6 +23,7 @@ title: 'Online crossword helper: http://ana.grammatic.org'
 wordpress_id: 404
 wordpress_url: http://www.martineve.com/?p=404
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mloxo3z2q"
+kcworks: https://works.hcommons.org/records/9nxf2-2t746
 ---
 
 <p>I've been a big fan of cryptic crosswords for several years now. For those who are unaware, these are crosswords in which the clue consists of both a definition (almost always, except in the case of triple definition clues, at the beginning or end) and a subsidiary indicator. For instance:</p>

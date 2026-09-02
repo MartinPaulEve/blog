@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m4lmavw
 categories:
 - Personal
 - Academia
+kcworks: https://works.hcommons.org/records/rnddr-6eh09
 ---
 
 I usually start my New Year's resolutions on the 28<sup>th</sup> or 29<sup>th</sup> December. I do this because I don't like the season of excess; I come out of it feeling unfit, bloated, unstructured etc. Last year's resolutions went somewhat down the pan as the pandemic blew everything away.

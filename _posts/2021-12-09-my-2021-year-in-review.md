@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2bk46k
 categories:
 - Personal
 - Academia
+kcworks: https://works.hcommons.org/records/vsswe-q7r72
 ---
 
 2021 was another pretty bad pandemic year, in many ways. For those of us with immune system compromise it was alarming to see a near-wholesale return to "normality" among the general population when our lives remained under extreme threat. In this whole year, I have scarcely been away from home, the exception being an unavoidable admission to the National Neurology Hospital, who got a bit further in identifying some of my neurological problems, which appear due to degenerative spinal damage from rheumatoid arthritis. Such is life.

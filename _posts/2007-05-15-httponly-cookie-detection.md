@@ -22,6 +22,7 @@ title: httpOnly Cookie Detection
 wordpress_id: 291
 wordpress_url: http://pro.grammatic.org/post-httponly-cookie-detection-7.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mo22ctm2s"
+kcworks: https://works.hcommons.org/records/ncwy7-nx504
 ---
 
 <p>Admittedly of limited use, here is a JavaScript function I wrote to detect the presence of httpOnly cookies. In Firefox the function will overwrite the real value of the cookie, so before using this function it is vital to try and read the cookie normally! Here is the script embedded in a test PHP page.</p>

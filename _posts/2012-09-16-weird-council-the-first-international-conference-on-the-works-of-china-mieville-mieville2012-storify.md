@@ -21,6 +21,7 @@ title: 'Weird Council: The first international conference on the works of China 
 wordpress_id: 2409
 wordpress_url: https://www.martineve.com/?p=2409
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhrnn3j2n"
+kcworks: https://works.hcommons.org/records/78rsb-26f44
 ---
 
 <p><script src="http://storify.com/martin_eve/weird-council-mieville2012.js"></script><br />

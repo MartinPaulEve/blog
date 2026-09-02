@@ -18,6 +18,7 @@ tags:
 - scholcomms
 title: These games we play (in ScholComms)
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbuuyxw2u"
+kcworks: https://works.hcommons.org/records/aj312-g1f95
 ---
 
 Today, I gave a talk at Royal Holloway for the TECHNE consortium of Ph.D. students on open access and scholarly communications. In the second part of the session, as I often do, I opened up into a "blue-skies" game where I ask those present, in groups, to think through what they want from a system of scholarly communications and how they would design it from scratch today if they were freed of practical and social constraints. It's at once an amazing and inspiring session and then a little depressing when the utopianism (in a pejorative sense) of the vision (which isn't technically impossible) is curtailed.

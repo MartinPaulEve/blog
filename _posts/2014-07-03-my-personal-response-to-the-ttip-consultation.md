@@ -17,6 +17,7 @@ title: My personal response to the TTIP consultation
 wordpress_id: 3153
 wordpress_url: https://www.martineve.com/?p=3153
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7meydsfy2i"
+kcworks: https://works.hcommons.org/records/b02by-pp487
 ---
 
 <p>This morning I took time to write to the TTIP consultation to oppose its implementation, and especially the ISDS clause. <a href="https://secure.38degrees.org.uk/page/s/tell-ttip-negotiators-not-to-let-corporations-sue-governments">You should too</a>. Responses must be personal to count but this is something that it is really worth fighting against.</p>

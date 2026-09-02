@@ -13,6 +13,7 @@ title: 'ERROR: failed to build: failed to solve: failed to compute cache key: fa
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvphq3z2h"
 categories:
 - Programming
+kcworks: https://works.hcommons.org/records/0hfs1-msn69
 ---
 
 Another annoying error that you can get, during a docker build, that basically does not explain what's going on is something like:

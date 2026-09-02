@@ -10,6 +10,7 @@ title: 'Next book project: The Aesthetics of Metadata: Redaction, Reference, & t
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7matwxec2h"
 categories:
 - Literature
+kcworks: https://works.hcommons.org/records/kn1pk-fxn19
 ---
 
 I just wanted to share some of the work I've been doing on one of my next book project, which is provisionally entitled _The Aesthetics of Metadata: Redaction, Reference, & the Archive in Contemporary Fiction_. I have roughly 45,000 words of the project down now (of a projected 90,000-word extent) and I also have an emergent structure.

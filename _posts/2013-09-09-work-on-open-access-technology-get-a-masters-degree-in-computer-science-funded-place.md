@@ -24,6 +24,7 @@ title: 'Work on open access technology, get a masters degree in Computer Science
 wordpress_id: 2887
 wordpress_url: https://www.martineve.com/?p=2887
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgbtrp72i"
+kcworks: https://works.hcommons.org/records/jfsch-4zc85
 ---
 
 <p>I've already tweeted this a few times, but I'm pleased to announce that, in partnership with PKP (and subject to finding the right candidate) we have a funded place for an MSc in Computer Science at the University of Lincoln to work on open source software for scholarly XML typesetting.</p>

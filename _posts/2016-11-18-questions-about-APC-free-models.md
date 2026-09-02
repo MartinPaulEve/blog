@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mav2qyq
 categories:
 - Open Access
 - Conferences
+kcworks: https://works.hcommons.org/records/j6949-hj740
 ---
 
 I'm here at the Kansas University conference on "Envisioning a world beyond Article/Book Processing Charges". One of the first things we were asked to do was a two-minute lightning talk on what we don't yet know about a world beyond APCs. I thought that I would share my questions here, for posterity:

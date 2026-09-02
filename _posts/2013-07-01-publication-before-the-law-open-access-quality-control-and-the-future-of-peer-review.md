@@ -24,6 +24,7 @@ title: 'Publication: ''Before the law: open access, quality control and the futu
 wordpress_id: 2720
 wordpress_url: https://www.martineve.com/?p=2720
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgpv3nv2q"
+kcworks: https://works.hcommons.org/records/p66a5-ef140
 ---
 
 <div style="clear:both"></div>

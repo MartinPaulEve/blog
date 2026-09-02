@@ -19,6 +19,7 @@ title: 'Orbit: Writing Around Pynchon'
 wordpress_id: 1307
 wordpress_url: https://www.martineve.com/?p=1307
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk4yxuk2u"
+kcworks: https://works.hcommons.org/records/n743k-1wg39
 ---
 
 <p>It now seems the right time to unveil a project which we hope will enthuse and excite a great number of you. We have been working, over the past few months, to put together a new, very different, journal of Pynchon scholarship.</p>

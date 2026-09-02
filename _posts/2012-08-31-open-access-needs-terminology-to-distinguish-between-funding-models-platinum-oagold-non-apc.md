@@ -21,6 +21,7 @@ title: 'Open Access needs terminology to distinguish between funding models: Pla
 wordpress_id: 2302
 wordpress_url: https://www.martineve.com/?p=2302
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhv54242h"
+kcworks: https://works.hcommons.org/records/vrwgz-p3m38
 ---
 
 <p>In the wake of the Finch report, one of the most frequent cries from academics, particularly at the early career phase, was one of despair. The endorsement of Gold OA meant, mostly to them, that they would have to budget for publication funds in their applications. In short, Gold meant gold; currency.</p>

@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7maqvjml
 categories:
 - Digital Preservation
 - Programming
+kcworks: https://works.hcommons.org/records/cvyy6-qs680
 ---
 
 Annotation tools on the web are somewhat fragile. They depend upon complex XPath queries and other anchoring technologies to ensure that annotations are keyed to known positions.

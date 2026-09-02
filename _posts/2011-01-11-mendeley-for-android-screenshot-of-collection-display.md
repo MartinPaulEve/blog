@@ -39,6 +39,7 @@ title: 'Mendeley for Android: screenshot of collection display'
 wordpress_id: 540
 wordpress_url: http://www.martineve.com/?p=540
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkwte772i"
+kcworks: https://works.hcommons.org/records/c724z-5qj89
 ---
 
 <p>Here's a screenshot of today's milestone on Mendeley for Android; collection display running in the emulator:</p>

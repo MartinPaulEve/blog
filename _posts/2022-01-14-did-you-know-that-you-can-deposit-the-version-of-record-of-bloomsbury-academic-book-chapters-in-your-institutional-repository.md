@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzgxuek
 categories:
 - Open Access
 - Academia
+kcworks: https://works.hcommons.org/records/vraty-5s398
 ---
 
 As part of my ongoing quest to try to ensure that as much of my work is as accessible as possible, I was negotiating a contract with Bloomsbury Academic, asking for permission to deposit.

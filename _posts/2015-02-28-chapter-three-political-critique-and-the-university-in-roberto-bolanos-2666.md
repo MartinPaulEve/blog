@@ -16,6 +16,7 @@ status: publish
 title: 'Chapter Three: Political Critique and the University in Roberto Bolaño''s
   2666'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7md6p4mi2n"
+kcworks: https://works.hcommons.org/records/z4w67-j7q28
 ---
 
 A map, as of the 28th February 2015, of Chapter Three of [the book I am slowly working on](/2015/02/15/the-anxiety-of-academia-academics-legitimation-and-discipline-in-contemporary-metafiction/).

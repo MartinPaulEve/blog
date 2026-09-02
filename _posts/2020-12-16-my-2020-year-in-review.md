@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m4p6u2l
 categories:
 - Personal
 - Academia
+kcworks: https://works.hcommons.org/records/97dk9-wpn03
 ---
 
 I wrote, last year, that [2019 was pretty bad for me](https://eve.gd/2019/12/14/my-2019-in-review/). Little did any of us know of the grimness that 2020 would bring with the coronavirus pandemic. I have spent almost all of this year "shielding", which can feel somewhat isolating, although I am fortunate to live with my wife, which ameliorates this greatly. I only venture out every day to walk Toby, the fifteen-year-old Jack Russell terrier whom we adopted from the rescue shelter, two days before going into lockdown. Most problematically, I have not been able to have a battery of required hospital tests that could make me feel a lot better, because the risk is too great. Before lockdown started and the pandemic struck, I also began to suffer from serious depressive symptoms. These were not linked to the pandemic -- although that would have been reason enough! -- but were rather a result of the medications that I must take for my autoimmune conditions. This has, obviously, made this year even tougher. Writing about some of the good things can, every year, feel a little like bragging/showing off. It actually helps me to feel good about what I've done, though, and to take stock of what I have achieved.

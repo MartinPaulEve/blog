@@ -125,6 +125,7 @@ title: 'Academia, EdTech, Blogging and Twitter: Enough with the Meta, Already?'
 wordpress_id: 1515
 wordpress_url: https://www.martineve.com/2011/09/27/academia-edtech-blogging-and-twitter-enough-with-the-meta-already/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjtubo52a"
+kcworks: https://works.hcommons.org/records/zjs22-xsq57
 ---
 
 <p>I have some qualms, which have been growing recently, about the vast number of meta- posts that have accumulated on the use of social media in academia. I need to state this is not a critique of any one of those individual pieces, or the people who made them. I agree with their content. Indeed, in the last week or so there have been several excellent articles published by colleagues for whom I have a great deal of respect. I myself have published such articles. The critique I want to put forward though is meta- in itself; an abundance of meta- posts, at the expense of non-meta-, serves to discredit the very meta- argument.</p>

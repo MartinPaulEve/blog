@@ -73,6 +73,7 @@ title: Where to start with Thomas Pynchon?
 wordpress_id: 190
 wordpress_url: http://www.martineve.com/?p=190
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlqq6qi2f"
+kcworks: https://works.hcommons.org/records/cz7sq-n7d63
 ---
 
 <p>In the course of the last day I have been observing, and engaging with, an ongoing Twitter discussion (see: <a href="http://twitter.com/Dystopia2009">Dystopia2009</a> and <a href="http://twitter.com/MarkKohut">MarkKohut</a>) as to which Thomas Pynchon novel should be recommended to Pynchon newbies.</p>

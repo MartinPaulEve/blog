@@ -19,6 +19,7 @@ title: Complaint over the closure of the British Library to accomodate a visit f
 wordpress_id: 1576
 wordpress_url: https://www.martineve.com/?p=1576
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjgjpc72q"
+kcworks: https://works.hcommons.org/records/93q2r-3m254
 ---
 
 <p>Send your own to <a href="mailto:customer-feedback@bl.uk">customer-feedback@bl.uk</a>.</p>

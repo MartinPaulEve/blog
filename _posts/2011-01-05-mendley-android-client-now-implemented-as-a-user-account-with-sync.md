@@ -56,6 +56,7 @@ title: 'Mendeley Android Client: now implemented as a user account with sync'
 wordpress_id: 527
 wordpress_url: http://www.martineve.com/?p=527
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkyfavg2a"
+kcworks: https://works.hcommons.org/records/10msc-sgb68
 ---
 
 <p>As I made rapid initial progress on the prototype of the Mendeley Client for Android, I started to think about the design. In order to minimize hits on the API, as well as for speedy browsing, it doesn't make sense for the UI to be initiating API calls at every turn. Instead, it would be better, I decided, to implement this via a synchronization service. Unfortunately, this required massive code changes (and I am much indebted to these <a href="http://www.c99.org/2010/01/23/writing-an-android-sync-provider-part-1/">two</a> <a href="http://www.c99.org/2010/01/23/writing-an-android-sync-provider-part-2/">articles</a> for their advice) which have taken me a long time to refactor. While this is a little disappointing (I'd hoped to have the library displaying today), it's a far better structure for sustainable development.</p>

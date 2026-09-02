@@ -20,6 +20,7 @@ title: MOSEB month of search engine bugs
 wordpress_id: 283
 wordpress_url: http://pro.grammatic.org/post-moseb-month-of-search-engine-bugs-16.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnqkccz2i"
+kcworks: https://works.hcommons.org/records/z0prg-a3t87
 ---
 
 <blockquote> Purpose of this Month of Bugs is a demonstration of real state with security in search engines, which are the most popular sites in Internet. To let users of search engines and web community as a whole to understand all risks, which search engines bring to them. And also to draw attention of search enginesGÇÖ owners to security issues of their sites.<br/> During the month everyday will be publish vulnerabilities in most popular search engines of the world. Cross-Site Scripting vulnerabilities in particular. Everyday will be publish vulnerabilities in different engines (minimum one publication at a time, but there will be bonus publications also).</p></blockquote>

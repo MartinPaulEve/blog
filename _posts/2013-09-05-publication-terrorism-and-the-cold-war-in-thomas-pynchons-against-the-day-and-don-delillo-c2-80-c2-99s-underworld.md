@@ -21,6 +21,7 @@ title: "Publication: \"Terrorism and the Cold War in Thomas Pynchon's Against th
 wordpress_id: 2881
 wordpress_url: https://www.martineve.com/?p=2881
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgbx55l2q"
+kcworks: https://works.hcommons.org/records/e368x-pef66
 ---
 
 <p>This piece explores the conceptions of terrorism in two novels that stand separated by the calamitous events of September 11th, 2001: Pynchon's <i>Against the Day</i> and Don DeLillo's <i>Underworld</i>, with special focus upon the genesis of these depictions in Cold War politics and notions of capitalist statehood. While there are cases to be made for many geographico-historical connections in these works, both these novels frame the Cold War as a locus of economics, religion and terror that is to be found at few other points.</p>

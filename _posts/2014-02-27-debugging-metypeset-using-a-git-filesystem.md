@@ -21,6 +21,7 @@ title: Debugging meTypeset using a git filesystem
 wordpress_id: 3047
 wordpress_url: https://www.martineve.com/?p=3047
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfg7a2c2a"
+kcworks: https://works.hcommons.org/records/xgh2d-7sf55
 ---
 
 <div style="clear:both"/>

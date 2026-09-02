@@ -12,6 +12,7 @@ title: The problem for REF 2029
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwzm7vi2n"
 categories:
 - Higher Education
+kcworks: https://works.hcommons.org/records/hfx2w-tqt49
 ---
 
 The Research Excellence Framework is the UK system for rewarding unhypothecated research funding from the government to universities. It gives a block of funding that can be used in any way that the institution sees fit to advance research. It's particularly useful in disciplines with less project funding to give research time to individual academics.

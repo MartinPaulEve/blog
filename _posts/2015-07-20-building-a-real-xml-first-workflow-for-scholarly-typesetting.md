@@ -17,6 +17,7 @@ tags:
 - JATS
 title: Building a real XML-first (XML-in) workflow for scholarly typesetting
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcfyoo42n"
+kcworks: https://works.hcommons.org/records/zbmm3-f4m87
 ---
 
 For some time now, I've worked to build an open-source JATS XML typesetter. It's called [meTypeset](https://github.com/MartinPaulEve/meTypeset). It's not by any means perfect and the approach it takes is unlikely to ever yield 100% good markup from Word input. It does, though, get it right a lot of the time in "basic" (in terms of underlying XML semantic complexity) rich-text documents, which is [what most academics](https://www.martineve.com/2015/04/15/in-the-beginning-was-the-word/) (especially in the humanities) are writing. It also plugs into Zotero and will produce nice element-citation blocks for you.

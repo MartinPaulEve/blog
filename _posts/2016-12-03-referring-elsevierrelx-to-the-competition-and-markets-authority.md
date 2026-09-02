@@ -12,6 +12,7 @@ title: Referring Elsevier/RELX to the Competition and Markets Authority
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mateip32p"
 categories:
 - Open Access
+kcworks: https://works.hcommons.org/records/y0as7-jfm55
 ---
 
 Today, along with Stuart Lawson and Jon Tennant, I have submitted the below as a complaint to the Competition and Markets Authority, making good on the advice of Ann McKechin, MP at the BIS Inquiry into Open Access in 2013. The document is also [available as a PDF](/images/CMA-RELX.pdf).

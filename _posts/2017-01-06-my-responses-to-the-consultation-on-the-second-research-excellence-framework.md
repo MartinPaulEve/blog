@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7maho65g
 categories:
 - Higher Education
 - Open Access
+kcworks: https://works.hcommons.org/records/nb9at-eby88
 ---
 
 Here are my draft responses to the parts of the [Consultation on the Second Research Excellence Framework](http://www.hefce.ac.uk/pubs/year/2016/201636/) that attracted my interested. These are my individual thoughts, not those of any institution that I represent. They are also not my final submission.

@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwwayxm
 categories:
 - Thomas Pynchon
 - Conferences
+kcworks: https://works.hcommons.org/records/76knm-kyf77
 ---
 
 People often think that reading a novel is a very linear activity. You start at the start and proceed through the text. As in most media forms, though, the beginning of any novel is really not truly its beginning.

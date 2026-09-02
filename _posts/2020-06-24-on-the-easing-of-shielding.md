@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5kal7u
 categories:
 - Politics
 - Health
+kcworks: https://works.hcommons.org/records/kdwjn-mkw21
 ---
 
 Anyone who has followed the UK government's attitude to the sick and disabled over the past few years will be unsurprised by the way they are relaxing shielding in the midst of the coronavirus pandemic.

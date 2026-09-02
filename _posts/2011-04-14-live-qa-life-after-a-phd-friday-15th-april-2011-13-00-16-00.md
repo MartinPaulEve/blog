@@ -26,6 +26,7 @@ title: 'Live Q&A: Life after a PhD [Friday 15th April 2011, 13.00-16.00]'
 wordpress_id: 968
 wordpress_url: https://www.martineve.com/?p=968
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkf2j5q2f"
+kcworks: https://works.hcommons.org/records/enmj8-hp633
 ---
 
 <p>I am very pleased to report that I will be participating as a panelist on the forthcoming Live Q&A this Friday (15th April) on the <a href="http://www.guardian.co.uk/higher-education-network/blog/2011/apr/13/life-after-a-phd">Guardian Higher Education Network</a>.</p>

@@ -22,6 +22,7 @@ title: 'Djiscography: a Django-based discography generator'
 wordpress_id: 466
 wordpress_url: http://www.martineve.com/?p=466
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlixeqt2s"
+kcworks: https://works.hcommons.org/records/6yhz9-gbm50
 ---
 
 <p><a href="http://www.martineve.com/2010/12/13/djiscography-a-django-based-discography-generator/djiscography/" rel="attachment wp-att-467"><img src="http://www.martineve.com/wp-content/uploads/2010/12/djiscography.png" alt="Djiscography logo" title="djiscography" width="300" height="150" class="size-full wp-image-467" /></a></p>

@@ -28,6 +28,7 @@ title: What has social media ever done for me?
 wordpress_id: 642
 wordpress_url: http://www.martineve.com/?p=642
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mksvb272i"
+kcworks: https://works.hcommons.org/records/x58p2-d4740
 ---
 
 <p><img src="http://www.martineve.com/wp-content/uploads/2011/01/5148297907_777c173da8-300x300.jpg" alt="Social Network Poster" title="Social Network" width="300" height="300" class="alignnone size-medium wp-image-643" style="margin-top:0px;"/></p>

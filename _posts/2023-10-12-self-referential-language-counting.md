@@ -13,6 +13,7 @@ title: Self-referential language counting (I learned another word today bringing
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lxjbfpu2h"
 categories:
 - Programming
+kcworks: https://works.hcommons.org/records/nsz9y-btv63
 ---
 
 A [recent XKCD](https://www.explainxkcd.com/wiki/index.php/2839:_Language_Acquisition) caused some amusement: "Vocabulary update: I learned another word today, bringing my total to twelve".

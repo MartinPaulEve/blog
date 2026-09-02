@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6mkezs
 categories:
 - Personal
 - Academia
+kcworks: https://works.hcommons.org/records/w1aaf-wyx27
 ---
 
 Last week, while [I was having blood products transfused at the Royal Free Hospital](https://eve.gd/2019/10/04/immunity-problems/), I received an email from the Leverhulme Trust stating that I had been awarded the [2019 Philip Leverhulme Trust Prize in Literary Studies](https://www.leverhulme.ac.uk/philip-leverhulme-prizes-2019).

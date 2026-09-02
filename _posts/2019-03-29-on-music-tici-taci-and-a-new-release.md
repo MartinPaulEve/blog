@@ -14,6 +14,7 @@ categories:
 - Music
 - Health
 - Personal
+kcworks: https://works.hcommons.org/records/vkd1v-kzq32
 ---
 
 Today marks the 50th release on the [Tici Taci](https://musicbrainz.org/label/62db3e96-423a-4e9d-bf66-7a017f1dfc73) music label. It’s a track called ‘[Opsimath and Eremite](https://www.junodownload.com/products/the-long-champs-opsimath-eremite/4080306-02/)’ by the Wales-based outfit, The Long Champs (otherwise known as Lloyd Jones, half of Quantal, [who previously did a remix for me](https://www.junodownload.com/products/course-correction-ep/3775354-02/)). The track is unusual fare for the label, certainly, with a punkier and faster vibe than the downtempo electronic music for which Tici Taci is known. Excitingly, though, I have a remix on the EP featuring my talented friend Warren Young playing a totally excessive, but great (I think!), bass solo over the top of my synths.

@@ -18,6 +18,7 @@ title: The Clause Model of Adorno's Dialectical Sentences
 wordpress_id: 2507
 wordpress_url: https://www.martineve.com/?p=2507
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhmdrjz2n"
+kcworks: https://works.hcommons.org/records/qhj7x-yny61
 ---
 
 <p>Earlier this week I participated in a small reading group on Adorno's "The Essay as Form" and there was one particularly good sentence from this piece that I thought worth sharing in the light of that discussion as it forms a perfect examples of Adorno's model of the dialectical sentence.</p>

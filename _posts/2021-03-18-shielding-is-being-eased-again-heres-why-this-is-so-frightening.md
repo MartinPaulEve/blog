@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3l47rq
 categories:
 - Health
 - Politics
+kcworks: https://works.hcommons.org/records/fk923-r3827
 ---
 
 Non-vulnerable people perhaps don't understand why the government advice to shielders is so frightening. I think I can give a flavour though:

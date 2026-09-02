@@ -17,6 +17,7 @@ tags:
 - books
 title: Some numbers on book processing charge scalability
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc4wryo2u"
+kcworks: https://works.hcommons.org/records/v4071-dj761
 ---
 
 Thinking more about how book processing charges concentrate costs.

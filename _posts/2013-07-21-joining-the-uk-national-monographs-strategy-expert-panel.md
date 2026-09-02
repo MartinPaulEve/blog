@@ -18,6 +18,7 @@ title: Joining the UK National Monographs Strategy Expert Panel
 wordpress_id: 2761
 wordpress_url: https://www.martineve.com/?p=2761
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgm3hzs2u"
+kcworks: https://works.hcommons.org/records/783cp-j8y51
 ---
 
 <p>I'm very pleased to announce that I am joining Jisc's <a href="http://monographs.jiscinvolve.org/wp/">National Monographs Strategy</a> Expert Advisory Panel. As the project's website puts it:</p>

@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7ly4vasi
 categories:
 - Technology
 - Information Security
+kcworks: https://works.hcommons.org/records/dcvap-s6733
 ---
 
 As noted previously, I am [vacating my martineve.com domain](https://eve.gd/2023/07/24/sunsetting-martinevecom/). To do so has been a painful process that involves changing every account that uses martin@martineve.com to a new email address.

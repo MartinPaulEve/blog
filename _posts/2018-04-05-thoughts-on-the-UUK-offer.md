@@ -9,6 +9,7 @@ title: Thoughts on the UUK offer and why I voted yes
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7szcsu2t"
 categories:
 - Higher Education
+kcworks: https://works.hcommons.org/records/hh0z8-av846
 ---
 
 In the past few days I have spoken with many colleagues with differing views on the offer from UUK. Like many other colleagues, I have been on strike to halt the conversion of the defined benefit pension of the Universities Superannuation Scheme to a market-performance-based defined contribution system. It has been heartening to see so many colleagues involved in industrial action and to see that labour has power in such disputes.

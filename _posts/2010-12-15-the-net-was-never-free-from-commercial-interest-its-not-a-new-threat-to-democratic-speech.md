@@ -27,6 +27,7 @@ title: The 'net was never free from commercial interest; it's not a "new" threat
 wordpress_id: 477
 wordpress_url: http://www.martineve.com/?p=477
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlic43l2u"
+kcworks: https://works.hcommons.org/records/khk4g-zc661
 ---
 
 <p>In recent days, given the furore over Amazon's decision to no longer host Wikileaks, it has become common parlance to declare that the web is now subjected to the pressures that government can bring to bear on corporate entities (web hosting). See posts by both <a href="http://www.learnex.dmu.ac.uk/2010/12/14/a-revised-note-on-technology-outsourcing-and-the-privatisation-of-higher-education/">Richard Hall</a> and <a href="http://www.guardian.co.uk/technology/2010/dec/11/wikileaks-amazon-denial-democracy-lieberman">John Naughton</a>.</p>

@@ -18,6 +18,7 @@ title: Submitted my Ph.D! (in memory of my grandfather, John Gray [10/02/1920 - 
 wordpress_id: 2129
 wordpress_url: https://www.martineve.com/?p=2129
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7midx36r2e"
+kcworks: https://works.hcommons.org/records/99spr-q6423
 ---
 
 <p>A quick post to mark a milestone in my academic road. Today I submitted my Ph.D. thesis to the University of Sussex entitled "Hostility or Tolerance? Philosophy, polyphony and the works of Thomas Pynchon". The project has taken me 2 years and 8 months to date.</p>

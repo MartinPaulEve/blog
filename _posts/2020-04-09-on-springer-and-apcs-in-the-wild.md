@@ -12,6 +12,7 @@ title: On Springer and APCs 'in the wild'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6bdv6l2i"
 categories:
 - Open Access
+kcworks: https://works.hcommons.org/records/9rmg8-n3y32
 ---
 
 Springer-Nature has a new [report out on tracking APCs](https://group.springernature.com/gp/group/media/press-releases/apcs-in-the-wild-white-paper/17855784).

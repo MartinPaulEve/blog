@@ -17,6 +17,7 @@ title: 'New Pynchon Novel! Fall 2013: "Bleeding Edge"'
 wordpress_id: 2571
 wordpress_url: https://www.martineve.com/?p=2571
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mh5ylv22a"
+kcworks: https://works.hcommons.org/records/tp205-y8s50
 ---
 
 <p><a href="https://twitter.com/RonCharles/status/287246335743254529">Ron Charles has tweeted</a> that a new Pynchon novel will be published by Penguin in Fall 2013. Entitled <i>Bleeding Edge</i> the work will not quite be out in time for <a href="http://www.ipw2013.com">International Pynchon Week 2013</a>, but... wow.</p>

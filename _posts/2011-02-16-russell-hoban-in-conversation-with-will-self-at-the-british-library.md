@@ -45,6 +45,7 @@ title: Russell Hoban in Conversation with Will Self at the British Library
 wordpress_id: 779
 wordpress_url: https://www.martineve.com/?p=779
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mklvgwp2i"
+kcworks: https://works.hcommons.org/records/r76az-cez92
 ---
 
 <div><img src="https://www.martineve.com/wp-content/uploads/2011/02/IMAG0027-1024x612.jpg" alt="Will Self and Russell Hoban" title="Will Self and Russell Hoban" style="width:750px;" class="alignnone size-large wp-image-780" /></div>

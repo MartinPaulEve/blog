@@ -22,6 +22,7 @@ title: Historicizing the Iraq War in Don DeLillo's Point Omega (preprint, forthc
 wordpress_id: 3148
 wordpress_url: https://www.martineve.com/?p=3148
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7meyhnnc2a"
+kcworks: https://works.hcommons.org/records/x7awy-h3533
 ---
 
 <h2>About</h2>

@@ -37,6 +37,7 @@ title: On Pynchon and Privacy
 wordpress_id: 1034
 wordpress_url: https://www.martineve.com/?p=1034
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkdt2f22s"
+kcworks: https://works.hcommons.org/records/e8vwq-6b483
 ---
 
 <p>In a <a href="http://latimesblogs.latimes.com/jacketcopy/2011/05/thomas-pynchon-tom-a-remarkable-collection.html">fascinating LA Times piece</a> published today, it is remarked, in conversation with a close friend of Thomas Pynchon that:</p>

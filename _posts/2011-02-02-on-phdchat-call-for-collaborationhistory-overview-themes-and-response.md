@@ -137,6 +137,7 @@ title: 'On #PhDchat: Call for Collaboration/History, Overview, Themes and Respon
 wordpress_id: 674
 wordpress_url: https://www.martineve.com/?p=674
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkrgzlj2q"
+kcworks: https://works.hcommons.org/records/sybga-7px79
 ---
 
 <div>

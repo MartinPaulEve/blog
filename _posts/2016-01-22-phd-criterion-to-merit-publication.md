@@ -15,6 +15,7 @@ tags:
 - peer review
 title: 'Ph.D. criterion: to ''merit publication'''
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbugdbt2p"
+kcworks: https://works.hcommons.org/records/pygch-dj929
 ---
 
 Yesterday, I attended my university's official training course for Ph.D. examiners. It was an extremely useful day to familiarize myself with the regulations at the University of London and to hear about incoming procedures for independent viva chairs.

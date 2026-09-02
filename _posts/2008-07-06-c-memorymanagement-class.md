@@ -23,6 +23,7 @@ title: C# MemoryManagement Class
 wordpress_id: 253
 wordpress_url: http://pro.grammatic.org/post-c-memorymanagement-class-49.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmr5oyx2t"
+kcworks: https://works.hcommons.org/records/wqqf1-34x38
 ---
 
 <p>Well, first off, this is the first post using the new blogging solution! Let's hope it works!</p>

@@ -21,6 +21,7 @@ title: Getting free_cite running on your own server
 wordpress_id: 2680
 wordpress_url: https://www.martineve.com/?p=2680
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgr4mbs2s"
+kcworks: https://works.hcommons.org/records/kpx76-68671
 ---
 
 <p>I decided that the best way to spend this Sunday morning was to try to get <a href="https://github.com/shoe/free_cite">free_cite</a>, a citation parsing system, running on my server. Turns out this is easier said than done; the README provides no information on which versions of different software you need and also gives no advice on setting up the ruby environment.</p>

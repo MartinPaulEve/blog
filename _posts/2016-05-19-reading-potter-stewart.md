@@ -9,6 +9,7 @@ title: Reading Potter Stewart on recognition
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbfbqfw2u"
 categories:
 - Philosophy
+kcworks: https://works.hcommons.org/records/801m9-k5331
 ---
 
 In a famous [US Supreme Court case on pornography](https://en.wikipedia.org/wiki/Jacobellis_v._Ohio): "I shall not today attempt further to define the kinds of material I understand to be embraced within that shorthand description, and perhaps I could never succeed in intelligibly doing so. But I know it when I see it and the motion picture involved in this case is not that."

@@ -59,6 +59,7 @@ title: 'FAIR and Square: making a static site support FAIR signposting'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lupu73d2i"
 categories:
 - Scholarly Communications
+kcworks: https://works.hcommons.org/records/0z4ga-vzf95
 ---
 
 After my [previous post about Zotero ingest](/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/), I wondered what else I might be able to do to make this scholarly (and personal) blog more accessible, navigable, harvestable, and ingestable. One thing that occurred to me, that I had not implemented, is that I might make this blog `FAIR`. That is: [Findable, Accessible, Interoperable, and Reusable](https://www.go-fair.org/fair-principles/).

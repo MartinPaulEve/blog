@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwcrllj
 categories:
 - Scholarly Communications
 - Programming
+kcworks: https://works.hcommons.org/records/sfg6g-mah16
 ---
 
 This week, I have started work at Michigan State University, as interim technical lead on the Knowledge Commons project. I'll probably say more about this at some point soon.

@@ -23,6 +23,7 @@ title: Designing an open source OA toolchain for books
 wordpress_id: 3067
 wordpress_url: https://www.martineve.com/?p=3067
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfecoop2o"
+kcworks: https://works.hcommons.org/records/5zdqz-axf97
 ---
 
 <p>The Cluster and the University Library invited Dr. Martin Eve (Lincoln University) for a two day intensive workshop with Dulip Withanage and Dr. Andrea Hacker to develop and design a publication tool for Open Access books. The workshop took place March 27-28.</p>

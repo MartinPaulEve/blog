@@ -21,6 +21,7 @@ title: 'Publication: Review of 1Q84 in 1001 Books to Read Before You Die (London
 wordpress_id: 2478
 wordpress_url: https://www.martineve.com/?p=2478
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhn3gur2i"
+kcworks: https://works.hcommons.org/records/yw85h-7gf66
 ---
 
 <p>A trip down the Yodel depot this morning yielded my copy of <a href="http://www.amazon.co.uk/gp/product/1844037401/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=1844037401&linkCode=as2&tag=2bitpienet-21">1001 Books You Must Read Before You Die</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=2bitpienet-21&l=as2&o=2&a=1844037401" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> in which I have a review of Marukami's flawed masterpiece, <i>1Q84</i>.</p>

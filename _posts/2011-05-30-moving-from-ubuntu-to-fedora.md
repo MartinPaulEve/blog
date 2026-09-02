@@ -75,6 +75,7 @@ title: Moving from Ubuntu to Fedora
 wordpress_id: 1105
 wordpress_url: https://www.martineve.com/?p=1105
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkcufwy2q"
+kcworks: https://works.hcommons.org/records/prh5m-83187
 ---
 
 <p>A the time that I started writing this blog post, I was intending to extol the virtues of the newly released <a href="http://fedoraproject.org/">Fedora 15</a> compared to the trainwreck that is <a href="http://www.ubuntu.com/">Ubuntu 11.04</a>. It turns out the story isn't as clear cut as that, but wanted to give my experience in comparison installing across two machines.</p>

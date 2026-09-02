@@ -73,6 +73,7 @@ title: What is Thomas Pynchon's Gravity's Rainbow about?
 wordpress_id: 815
 wordpress_url: https://www.martineve.com/?p=815
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkk5pq72i"
+kcworks: https://works.hcommons.org/records/0f47f-ksb18
 ---
 
 <p>As a scholar working on literature, I am often asked to describe my work in potted form. This necessarily involves an introduction to the work of Thomas Pynchon, an extremely difficult task. Pynchon's novels cannot be considered normal literature; they are vast, sprawling pieces that encompass hundreds of characters, vast historical scope and dense prose. When I first started working on Pynchon, I would extoll the virtues of the linguistic play, the indeterminacy that is so typical of Pynchonesque high-postmodernism. This does not do the texts justice; as <a href="http://www.themodernword.com/pynchon/pynchon_works.html#Anchor-Gravity%27s-14210">The Modern Word</a> puts it: "Right . . . you know, and Ulysses is about two guys and their day, and Moby Dick is about a whale".</p>

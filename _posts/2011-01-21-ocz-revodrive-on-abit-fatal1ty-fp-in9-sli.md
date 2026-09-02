@@ -26,6 +26,7 @@ title: OCZ RevoDrive on Abit Fatal1ty FP-IN9 SLI
 wordpress_id: 610
 wordpress_url: http://www.martineve.com/?p=610
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkufwsr2o"
+kcworks: https://works.hcommons.org/records/v9z44-31a10
 ---
 
 <div><a href="http://www.martineve.com/2011/01/21/ocz-revodrive-on-abit-fatal1ty-fp-in9-sli/xqkh/" rel="attachment wp-att-611"><img src="http://www.martineve.com/wp-content/uploads/2011/01/xqkh-e1295601585597-300x179.jpg" alt="My PC with open case" title="My PC" width="300" height="179" class="alignnone size-medium wp-image-611" /></a></div>

@@ -13,6 +13,7 @@ title: 'Notes on Nicholas Gaskill''s Chromographia: American Literature and the 
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2o6wpk2n"
 categories:
 - Literature
+kcworks: https://works.hcommons.org/records/008bj-2x237
 ---
 
 Some incomplete notes on the introduction to Gaskill, Nicholas, _Chromographia: American Literature and the Modernization of Color_ (Minneapolis: University of Minnesota Press, 2018), [originally a Twitter thread](https://twitter.com/martin_eve/status/1422458629555433487).

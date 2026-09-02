@@ -19,6 +19,7 @@ title: Jeffrey Archer's 140-character story and plagiarism
 wordpress_id: 2426
 wordpress_url: https://www.martineve.com/?p=2426
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhr7ybc2a"
+kcworks: https://works.hcommons.org/records/wz170-9vg40
 ---
 
 <p><a href="http://www.guardian.co.uk/books/2012/oct/12/twitter-fiction-140-character-novels">Today</a>, the <i>Guardian</i> published the following 140-character short story by Jeffrey Archer.</p>

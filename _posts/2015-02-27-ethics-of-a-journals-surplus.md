@@ -15,6 +15,7 @@ published: true
 status: publish
 title: Ethics of a Journal's Surplus
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7md75hej2f"
+kcworks: https://works.hcommons.org/records/xxhzd-c6e39
 ---
 
 I wrote the following letter in [this week's Times Higher Education](http://www.timeshighereducation.co.uk/comment/letters/ethics-of-journals-surplus/2018757.article). I post it here for those who can't get past the paywall.

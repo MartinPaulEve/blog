@@ -18,6 +18,7 @@ title: Modernist Intimacies conference
 wordpress_id: 2646
 wordpress_url: https://www.martineve.com/?p=2646
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgueiix2a"
+kcworks: https://works.hcommons.org/records/pa7a1-f5e96
 ---
 
 <p>A quick heads-up to flag the following conference, taking place on the 17th May at the University of Sussex. Excellent exciting line-up!</p>

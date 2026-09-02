@@ -21,6 +21,7 @@ title: Firefox nested comment fragmented XSS
 wordpress_id: 273
 wordpress_url: http://pro.grammatic.org/post-firefox-nested-comment-fragmented-xss-26.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnfvq732n"
+kcworks: https://works.hcommons.org/records/zc3d1-k3e49
 ---
 
 <p>Following on from a post on <a href="http://sla.ckers.org/forum/read.php?3,12323">sla.ckers</a> it emerges that Firefox has a vulnerability/bug that is very difficult to filter against and allows a fragmented XSS attack.</p>

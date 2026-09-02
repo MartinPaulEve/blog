@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7gp5a5
 categories:
 - Open Access
 - Copyright and Licensing
+kcworks: https://works.hcommons.org/records/v5ptc-vx438
 ---
 
 I write to provide feedback in an individual capacity on the Plan S implementation guidelines.

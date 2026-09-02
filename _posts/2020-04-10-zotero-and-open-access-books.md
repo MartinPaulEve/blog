@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m67yern
 categories:
 - Scholarly Communications
 - Programming
+kcworks: https://works.hcommons.org/records/9q7z5-30v21
 ---
 
 This bank holiday, I wanted to spend some time playing around with Zotero's automatic ingest of open access books. There are some problems with this.

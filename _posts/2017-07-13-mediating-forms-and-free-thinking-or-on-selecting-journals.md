@@ -9,6 +9,7 @@ title: Mediating forms and free thinking (or "on selecting journals")
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7ma34qj62f"
 categories:
 - Academia
+kcworks: https://works.hcommons.org/records/25z73-mef15
 ---
 
 Last week I attended the rather enjoyable English: Shared Futures conference and participated in a panel titled "[How to Get Published as an Early Career Academic](http://eprints.bbk.ac.uk/id/eprint/19144)". This was a worthwhile thing to do, although it's a shame we need this. Couldn't we just have: "do good work"? It would be nice to think so.

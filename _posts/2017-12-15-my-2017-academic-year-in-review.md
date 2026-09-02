@@ -10,6 +10,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7zgruz
 categories:
 - Personal
 - Academia
+kcworks: https://works.hcommons.org/records/bd3gp-wkg86
 ---
 
 2017 was, as with last year, a mixed bag for me. On the positive side, OLH continues to grow, I received a grant for the peer-review project on which I am working, we released _Janeway_ the scholarly communcations platform, and I had a number of publications out. _Password_ was published in Korean and I am about to sign a book contract for my next monograph. I was also awarded the Medal of Honour in the Humanities of Social Sciences and nominated for a leadership award.00 On the downside, I was seriously ill, suffering from pneumonia, sepsis, a spinal column infection, and sudden sensorineural hearing loss. I also learned that my adrenal cortex appears to be permanently damaged, so I will have to take steroids for the rest of my life. On the other hand, though, things could be worse. Onwards to 2018! Published and accepted publications/events below.

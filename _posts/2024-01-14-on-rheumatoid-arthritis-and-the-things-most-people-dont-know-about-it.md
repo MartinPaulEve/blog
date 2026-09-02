@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lx4bdca
 categories:
 - Health
 - Personal
+kcworks: https://works.hcommons.org/records/twgrg-daj54
 ---
 
 I have suffered from rheumatoid arthritis (RA) for almost twenty years now, which is almost half my life. If I had known back at the start of my diagnosis what I know now, I do not know for sure that things would be very different, but there was a heck of a lot I did not know. How complex is this disease and the things it does? This complex:

@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbh5of4
 categories:
 - Politics
 - Artificial Intelligence
+kcworks: https://works.hcommons.org/records/xt9gp-6h226
 ---
 
 Dear all,

@@ -22,6 +22,7 @@ title: On Opposition to *any* APC model
 wordpress_id: 2586
 wordpress_url: https://www.martineve.com/?p=2586
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mh4xqb72o"
+kcworks: https://works.hcommons.org/records/85csq-8kg85
 ---
 
 <p>Just to share my response to a comment on the PLOHSS project from somebody who claimed that:</p>

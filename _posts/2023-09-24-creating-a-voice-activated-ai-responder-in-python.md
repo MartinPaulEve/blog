@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lxkbh34
 categories:
 - Programming
 - Artificial Intelligence
+kcworks: https://works.hcommons.org/records/hdnxy-2tq35
 ---
 
 How do you solve a problem like a séance? With Python and GPT3, is my answer.

@@ -12,6 +12,7 @@ title: 19th-Century British Isles
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzee3nz2e"
 categories:
 - Literature
+kcworks: https://works.hcommons.org/records/af1nw-5yd40
 ---
 
 This post forms part of my '[aspects of the novel](/2022/01/04/aspects-of-the-novel/)' collection. Please do note that these entries, which may appear basic, are simply my own notes on the subject. They implicitly or explicitly describe a canon not of my own making or choosing and replicate this from various sources. The original encyclopaedia articles are far more comprehensive, nuanced and worth consulting. I am especially conscious, in this article, of the danger of causing offense by grossly simplifying a national history.

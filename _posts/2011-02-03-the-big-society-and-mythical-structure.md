@@ -22,6 +22,7 @@ title: The Big Society and Mythical Structure
 wordpress_id: 689
 wordpress_url: https://www.martineve.com/?p=689
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkrdkba2p"
+kcworks: https://works.hcommons.org/records/qen7y-nmc98
 ---
 
 <p><i>Featured image credit: <a href="http://www.flickr.com/photos/number10gov/">The Prime Minister's Office</a> under a CC-BY-ND license.</i></p>

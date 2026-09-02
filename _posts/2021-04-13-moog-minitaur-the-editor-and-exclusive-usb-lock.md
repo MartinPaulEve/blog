@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3hbque
 categories:
 - Music
 - Technology
+kcworks: https://works.hcommons.org/records/mdb7b-s2613
 ---
 
 I love my Moog Minitaur synth. It's a great little bass station that packs a punch. However, I have been facing some issues using its full functionality.

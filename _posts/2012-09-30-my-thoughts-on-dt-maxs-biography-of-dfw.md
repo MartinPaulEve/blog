@@ -18,6 +18,7 @@ title: My thoughts on DT Max's biography of DFW
 wordpress_id: 2420
 wordpress_url: https://www.martineve.com/?p=2420
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhrddta2o"
+kcworks: https://works.hcommons.org/records/cdhej-zt756
 ---
 
 <p>Let me start by stating upfront how much I wanted to dislike this book. I caution students against biographical readings all the time. The author on whom I've done most of my research work, Thomas Pynchon, deliberately obfuscates attempts to read in this way through extreme privacy. I didn't like Max's style from the off (the dropping of the preposition after the verb "write" in its epistolary sense is an Americanism that I still can't forgive). No, I was predisposed to dislike this work.</p>

@@ -21,6 +21,7 @@ title: XSS Tutorial
 wordpress_id: 278
 wordpress_url: http://pro.grammatic.org/post-xss-tutorial-20.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnhx4nq2i"
+kcworks: https://works.hcommons.org/records/h6crp-ezh60
 ---
 
 <p>This page is designed to give an overview of Cross Site Scripting attacks on web sites, how they come into being, how to exploit them and how to protect against them.</p>

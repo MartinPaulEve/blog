@@ -12,6 +12,7 @@ title: What’s happening at the moment with open-access books?
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3edq6l2t"
 categories:
 - Open Access
+kcworks: https://works.hcommons.org/records/hxj0p-de969
 ---
 
 It’s an exciting time in the OA book world because many experiments are coming to fruition. We’ve seen MIT’s recent D2O offering; Michigan has a new membership programme; punctum books and Open Book Publishers are on the go; Springer is piloting a scheme with Berkeley; and our own COPIM-grown Opening the Future (OtF) model is taking off at the Central European University Press, with a second well-known UK University Press set to launch an OtF programme soon.

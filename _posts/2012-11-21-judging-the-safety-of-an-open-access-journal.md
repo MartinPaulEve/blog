@@ -24,6 +24,7 @@ title: Judging the Safety of an Open Access Journal
 wordpress_id: 2502
 wordpress_url: https://www.martineve.com/?p=2502
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhmnzek2a"
+kcworks: https://works.hcommons.org/records/ngqwr-dtj40
 ---
 
 <p>Software to roll-your-own Open Access journal are now fairly easy to get hold of. <a href="http://pkp.sfu.ca/ojs/">OJS</a> is available from the Public Knowledge Project as Free Open Source Software, <a href="http://annotum.org">Annotum</a> builds on top of Wordpress and there are forthcoming projects such as <a href="http://fclty.org">Faculty</a> that also broaden the field. However, there is also a great deal of concern, no doubt hyped by publishers who are keen to discredit the homegrown OA community, that these journals are short-lived and disreputable.</p>

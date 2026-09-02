@@ -16,6 +16,7 @@ tags:
 - acceleration
 title: On speed and open access
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbs3cuk2a"
+kcworks: https://works.hcommons.org/records/vecre-efk17
 ---
 
 At the time of a global health emergency -- the Zika virus -- there are renewed calls for a faster and more open research publication system in disciplines where lives may be saved. This is important, valuable work. We should not be letting people suffer through the slowness of output. The remarks in this post do not apply to those spaces of biomedical advance, on which I am not qualified to comment.

@@ -15,6 +15,7 @@ tags:
 title: 'Undergraduates, digital humanities, and visualization: looking back on my
   early visualizations of Gravity''s Rainbow'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbsrex32p"
+kcworks: https://works.hcommons.org/records/sb0ry-cw270
 ---
 
 Today I don't feel well. In fact, I've got some horrible virus that's confining me mostly to bed, which I hate. So, naturally, I've spent quite a lot of time looking at Twitter while I recover (and then much longer than it would usually take me to write this post on a laptop in bed).

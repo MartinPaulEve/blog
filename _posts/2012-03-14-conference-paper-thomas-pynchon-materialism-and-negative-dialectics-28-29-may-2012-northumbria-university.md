@@ -22,6 +22,7 @@ title: 'Conference Paper: Thomas Pynchon, Materialism and Negative Dialectics, 2
 wordpress_id: 1967
 wordpress_url: https://www.martineve.com/?p=1967
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mipzlcx2i"
+kcworks: https://works.hcommons.org/records/mpr76-8rf30
 ---
 
 <div>I am pleased to announce that I will be speaking at the “<a href="http://www.transformingobjects.blogspot.com">Transforming Objects</a>” conference at Northumbria University in May this year.</div>

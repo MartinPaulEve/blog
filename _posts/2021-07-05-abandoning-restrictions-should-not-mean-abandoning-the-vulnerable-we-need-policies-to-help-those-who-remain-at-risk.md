@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m32exwc
 categories:
 - Health
 - Politics
+kcworks: https://works.hcommons.org/records/vev2n-yb961
 ---
 
 The government has told us that we must “learn to live with the virus”. It is undoubtedly true that coronavirus is not going to disappear any time soon. However, a sizeable minority of people cannot learn to live with a virus that continues to pose a deadly risk.

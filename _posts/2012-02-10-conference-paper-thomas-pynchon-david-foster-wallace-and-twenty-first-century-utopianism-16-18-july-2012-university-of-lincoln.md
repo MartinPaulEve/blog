@@ -23,6 +23,7 @@ title: 'Conference Paper: Thomas Pynchon, David Foster Wallace and Twenty-First-
 wordpress_id: 1910
 wordpress_url: https://www.martineve.com/?p=1910
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mirsbrh2i"
+kcworks: https://works.hcommons.org/records/mds6j-cft30
 ---
 
 <p>I am pleased to announce that I will be speaking at the "<a href="http://www.lincoln.ac.uk/home/campuslife/whatson/eventsconferences/event%20name,8029,en.html">What Happens Now</a>" conference at the University of Lincoln on twenty-first century fiction.</p>

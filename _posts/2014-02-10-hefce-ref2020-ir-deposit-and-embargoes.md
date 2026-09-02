@@ -20,6 +20,7 @@ title: HEFCE (REF2020), IR deposit and embargoes
 wordpress_id: 3000
 wordpress_url: https://www.martineve.com/?p=3000
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfq5ufl2f"
+kcworks: https://works.hcommons.org/records/bqnyb-3w525
 ---
 
 <p>As is now fairly common knowledge, HEFCE <a href="https://www.martineve.com/2013/07/27/hefce-the-state-of-open-access-in-the-uk-and-post-2014-ref/">expects green deposit on all journal articles to be included in REF2020</a>. <b>EDIT:</b> just to clarify: HEFCE has not finalised its position. This is my expected outcome.</p>

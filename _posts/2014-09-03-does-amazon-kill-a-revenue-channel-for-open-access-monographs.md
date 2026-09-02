@@ -22,6 +22,7 @@ title: Does Amazon kill a revenue channel for open access monographs?
 wordpress_id: 3195
 wordpress_url: https://www.martineve.com/?p=3195
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mevkvyx2o"
+kcworks: https://works.hcommons.org/records/bsnvy-xqs25
 ---
 
 <p>It is widely acknowledged (in many funder mandates, for instance) that open access for peer-reviewed academic books in the humanities is a harder proposition. The labour invested in their production is quantitatively higher than for a similar journal article and degrees of cross-subsidy are often levelled across a Press's list in order to support scholarship that might not otherwise be economically viable.</p>

@@ -12,6 +12,7 @@ title: Adaptation and Appropriation
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzzou3t2i"
 categories:
 - Literature
+kcworks: https://works.hcommons.org/records/j6s20-tx685
 ---
 
 This post forms part of my '[aspects of the novel](/2022/01/04/aspects-of-the-novel/)' collection. Please do note that these entries, which may appear basic, are simply my own notes on the subject. The original encyclopaedia articles are far more comprehensive and worth consulting.

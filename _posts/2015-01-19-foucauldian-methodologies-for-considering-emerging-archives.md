@@ -16,6 +16,7 @@ tags:
 - Contemporary Critique
 title: Foucauldian methodologies for considering emerging archives?
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdcvah62o"
+kcworks: https://works.hcommons.org/records/5t3ct-qx339
 ---
 
 <p>Some <u>notes and early (very abstract) draft</u> thoughts on whether Foucauldian genealogies, as redefined by Colin Koopman, can help us to address the problems of the archive in contemporary fiction studies.</p>

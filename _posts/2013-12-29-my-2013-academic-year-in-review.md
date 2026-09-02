@@ -17,6 +17,7 @@ title: My 2013 academic year in review
 wordpress_id: 2970
 wordpress_url: https://www.martineve.com/?p=2970
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfsb7gi2i"
+kcworks: https://works.hcommons.org/records/ex17c-r3n89
 ---
 
 <p>As a round-up of the academic stuff I have achieved over the past year, purely for my own benefit and in anticipation of like-minded posts from my Twitter followers with whom I would like to engage in group collective congratulations, here's a list!</p>

@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6y7ap7
 categories:
 - Academia
 - Open Access
+kcworks: https://works.hcommons.org/records/jzjtw-kkt03
 ---
 
 The [economy of prestige in academia](https://doi.org/10.1017/CBO9781316161012.004) is odd. We often like to think that the prestige of our institutions -- whether that be a university or a publisher -- is not made on the basis of a monetary or financial decision. But I think there are lots of things that give the lie to this.

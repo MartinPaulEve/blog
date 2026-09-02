@@ -13,6 +13,7 @@ title: Transparency agendas are being used to legislate against consortial open-
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7soviv2i"
 categories:
 - Open Access
+kcworks: https://works.hcommons.org/records/qxq1p-0pr20
 ---
 
 Some open-access advocates argue that transparency and accountability are key for open access (meaning: the removal of price and permission barriers to reading academic research). Indeed, this is one of the many points when the discourses of neoliberal* governmentality intersect with open academic publication. For, it is argued, by opening up and ensuring that bodies are accountable, we will ensure the lowest prices for the "customer" and the best use of public funding. It is particularly important, it is often argued by those of a more libertarian persuasion, that governments are accountable for the way that they spend their taxpayer dollars. This is indeed why, again, some argue, taxpayer-funded research should be openly available (for the record: I think such research should be openly available, but I also think all university research -- even that only funded by the institution -- should be openly available for the benefit of humankind).

@@ -195,6 +195,7 @@ title: Copyright and academia, particularly for Ph.Ds
 wordpress_id: 1921
 wordpress_url: https://www.martineve.com/?p=1921
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mir3ige2t"
+kcworks: https://works.hcommons.org/records/mx70n-gct91
 ---
 
 <p>Yesterday, Tuesday the 21st of February 2012, I participated in a discussion at the University of Sussex Researcher Hive on copyright and academia, with particular emphasis on doctoral researchers, joined by Sarah Robins-Hobden, Liz Thackray and others. This post will attempt to document some of the ideas we discussed. It's far from authoritative as it comes from my flawed memory, without notes, from the occasion, but hopefully it will spark some thoughts from others.</p>

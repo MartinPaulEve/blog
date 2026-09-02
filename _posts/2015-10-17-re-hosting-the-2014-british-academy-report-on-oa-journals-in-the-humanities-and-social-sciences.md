@@ -16,6 +16,7 @@ tags:
 title: Re-hosting the 2014 British Academy report on OA Journals in the Humanities
   and Social Sciences
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc6yik52a"
+kcworks: https://works.hcommons.org/records/3c028-7wq73
 ---
 
 It has been drawn to my attention that the 2014 report from the British Academy seems to have disappeared from their site. I hereby re-host it: <a href="/images/BritishAcademyReport2014.pdf">Darley, Rebecca, Daniel Reynolds, and Chris Wickham. Open access journals in humanities and social science. London: British Academy, 2014</a>. The report is licensed under a CC BY-NC-ND 3.0 provision.

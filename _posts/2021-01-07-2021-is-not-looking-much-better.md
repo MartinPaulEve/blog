@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3y46hl
 categories:
 - Health
 - Personal
+kcworks: https://works.hcommons.org/records/d0c5r-3p759
 ---
 
 There was some research earlier this year that I thought was apt for the pandemic, showing that [realism is key to being happy](https://theconversation.com/why-realism-is-the-key-to-wellbeing-new-research-139717), not optimism or pessimism.

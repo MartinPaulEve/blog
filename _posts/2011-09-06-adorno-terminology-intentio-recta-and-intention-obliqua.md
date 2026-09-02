@@ -63,6 +63,7 @@ title: 'Adorno terminology: intentio recta and intention obliqua'
 wordpress_id: 1457
 wordpress_url: https://www.martineve.com/2011/09/06/adorno-terminology-intentio-recta-and-intention-obliqua/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjx4xfw2t"
+kcworks: https://works.hcommons.org/records/h5pkb-whq34
 ---
 
 <p>Reading <i>Negative Dialectics</i>, I was unable to track down a succinct, suitable definition of the terms "intentio recta" and "intentio obliqua", first appearing on page 69 of the Ashton translation.</p>

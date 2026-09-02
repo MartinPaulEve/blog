@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2fzxp2
 categories:
 - Academia
 - Digital Humanities
+kcworks: https://works.hcommons.org/records/z399b-hm516
 ---
 
 This morning marked the culmination of a long period of work for the chapter on the history of digital whitespace [in my forthcoming book, _Paper Thin_](https://eprints.bbk.ac.uk/id/eprint/31744/). The chapter ranges across a variety of subjects, from the history of paper coloration, through visual display unit technologies, before eventually settling on musical (silent) seriality as the best metaphor for how whitespace is encoded and reproduced.

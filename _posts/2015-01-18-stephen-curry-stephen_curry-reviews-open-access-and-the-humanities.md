@@ -21,6 +21,7 @@ title: Stephen Curry (@Stephen_Curry) reviews Open Access and the Humanities
 wordpress_id: 3356
 wordpress_url: https://www.martineve.com/?p=3356
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mddbmo42h"
+kcworks: https://works.hcommons.org/records/m9rzx-z6j23
 ---
 
 <p>At the end of 2013 and 2014 I wrote blog posts on Occam’s Corner (over at the Guardian) to list and briefly review the books I read in each of those years. I am trying to develop this practice into a good habit because it spurs me to read; and I hope it might also serve to flag up titles of interest to others. I am planning to do the same thing again once 2015 draws to a close but this time I have decided to ease the task by writing short reviews as I go along.</p>

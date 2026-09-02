@@ -14,6 +14,7 @@ categories:
 - Digital Preservation
 - Programming
 - Scholarly Communications
+kcworks: https://works.hcommons.org/records/h09vd-pbr20
 ---
 
 “Content drift” is an important concept for digital preservation and web archiving. Scholarly readers expect to find immutable (“persisted”) content at the resolution endpoint of a DOI. It is a matter of research integrity that research articles should remain the same at the endpoint, as citations can refer to specific textual formulations.

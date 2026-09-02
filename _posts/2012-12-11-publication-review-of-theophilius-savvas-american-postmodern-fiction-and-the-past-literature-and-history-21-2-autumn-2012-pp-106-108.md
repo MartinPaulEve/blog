@@ -22,6 +22,7 @@ title: 'Publication: ''Review of Theophilius Savvas, American Postmodern Fiction
 wordpress_id: 2522
 wordpress_url: https://www.martineve.com/?p=2522
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhl6e4i2o"
+kcworks: https://works.hcommons.org/records/frmkx-7qd60
 ---
 
 <p>My review of Theophilius Savvas' <i>American Postmodern Fiction and the Past</i> is now out in <a href="http://dx.doi.org/10.7227/L&U38;H.21.2.6"><i>Literature and History</i>, 21, 2 (Autumn 2012), pp. 106-108</a>.</p>

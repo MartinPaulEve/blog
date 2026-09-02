@@ -24,6 +24,7 @@ title: 'Writing a plugin for Open Journal Systems: Part 1'
 wordpress_id: 1484
 wordpress_url: https://www.martineve.com/?p=1484
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjw4sx22s"
+kcworks: https://works.hcommons.org/records/1erjj-y8505
 ---
 
 <p>As promised when I described <a href="https://www.martineve.com/2011/09/14/publishing-articles-in-pdf-via-xmlxslt-using-open-journal-systems-2-3-6/">the problem I was having</a> with the xmlGalley plugin in OJS, I'm going to begin describing the path I am taking to fixing this, and hope that the knowledge will provide some shortcuts for others wishing to develop plugins, amid the sparse documentation on this aspect. As OJS is the leading system for Open Access publishing, it is important that technical resources are available for others to build upon this platform.</p>

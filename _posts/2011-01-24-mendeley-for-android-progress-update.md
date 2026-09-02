@@ -63,6 +63,7 @@ title: 'Mendeley for Android: Progress update'
 wordpress_id: 635
 wordpress_url: http://www.martineve.com/?p=635
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mktl2d62a"
+kcworks: https://works.hcommons.org/records/sszbn-ds593
 ---
 
 <p><img src="http://www.martineve.com/wp-content/uploads/2011/01/WorkingSync-300x224.png" alt="Synchronization with Mendeley" title="WorkingSync" width="300" height="224" class="alignnone size-medium wp-image-636" style="margin-top:0px;" /></p>

@@ -22,6 +22,7 @@ title: Crude, but helpful, typesetting script from meXml
 wordpress_id: 2440
 wordpress_url: https://www.martineve.com/?p=2440
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhqnu6h2i"
+kcworks: https://works.hcommons.org/records/8g8nr-xy023
 ---
 
 <p>In my quest to create a set of free and open tools for platinum, scholar-run OA journals, I've <a href="https://github.com/MartinPaulEve/MEXMLGalley/commit/351a8e28fc0adc5a1e3554b716f9bce78157620f">just committed</a> a crude, provisional script to my <a href="https://github.com/MartinPaulEve/MEXMLGalley">meXml git repository</a> that assists with typesetting into pseudo-NLM format.</p>

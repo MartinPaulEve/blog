@@ -20,6 +20,7 @@ title: 'International Pynchon Week 2010 Abstracts '
 wordpress_id: 24
 wordpress_url: http://new.martineve.com/?p=24
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmbuydh2t"
+kcworks: https://works.hcommons.org/records/n9ash-bzt54
 ---
 
 <p>    <img src="/images/uploads/2010/03/IPW2010-269x300.gif" alt="Logo for the International Pynchon Week 2010 conference" width="400" height="446"/></p>

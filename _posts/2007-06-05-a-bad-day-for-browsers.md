@@ -20,6 +20,7 @@ title: A bad day for browsers
 wordpress_id: 274
 wordpress_url: http://pro.grammatic.org/post-a-bad-day-for-browsers-25.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mngf45i2f"
+kcworks: https://works.hcommons.org/records/qzv52-j4197
 ---
 
 <p>Today there were 5 flaws for Firefox and IE6/7 unveiled - 2 for IE and 3 for Firefox.</p>

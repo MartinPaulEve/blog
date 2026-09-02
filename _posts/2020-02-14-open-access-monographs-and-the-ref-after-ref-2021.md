@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6iewe5
 categories:
 - Open Access
 - Higher Education
+kcworks: https://works.hcommons.org/records/tcvz6-0xp47
 ---
 
 Since yesterday's post on [The UKRI Open Access Review Consultation Document](/2020/02/13/key-points-from-the-ukri-open-access-review-consultation-document/) my inbox has been swamped by journalists, librarians, and publishers asking what the policy means for REF. The short answer is that, at the moment, it means nothing.

@@ -21,6 +21,7 @@ title: Internationalisation of New Open Access Initiatives
 wordpress_id: 2650
 wordpress_url: https://www.martineve.com/?p=2650
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgrixu62r"
+kcworks: https://works.hcommons.org/records/67ap6-q6m79
 ---
 
 <p>A quick plug for a blog post by a member of OLH's internationalisation committee, Erika Corradini. In her piece, <a href="http://talkingoflanguages.wordpress.com/2013/03/12/the-languages-of-academic-publishing/">The Languages of Academic Publishing</a>, Erika writes:</p>

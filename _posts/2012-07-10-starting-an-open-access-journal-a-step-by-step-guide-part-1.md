@@ -21,6 +21,7 @@ title: 'Starting an Open Access Journal: a step-by-step guide part 1'
 wordpress_id: 2182
 wordpress_url: https://eve.gd/?p=2182
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mibwvi62p"
+kcworks: https://works.hcommons.org/records/br61b-sdp26
 ---
 
 <h3>Prefatory note (2016)</h3>

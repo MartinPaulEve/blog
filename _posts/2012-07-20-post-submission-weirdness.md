@@ -19,6 +19,7 @@ title: Post-Submission Weirdness
 wordpress_id: 2246
 wordpress_url: https://www.martineve.com/?p=2246
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mi5agzf2q"
+kcworks: https://works.hcommons.org/records/mv69q-p3p36
 ---
 
 <p>This is just a quick post about my experience of submitting a Ph.D. having worked full-time on it previously since October 2009.</p>

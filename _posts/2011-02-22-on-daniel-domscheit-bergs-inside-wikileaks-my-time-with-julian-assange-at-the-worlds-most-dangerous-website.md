@@ -19,6 +19,7 @@ title: 'On Daniel Domscheit-Berg''s "Inside WikiLeaks: My Time with Julian Assan
 wordpress_id: 804
 wordpress_url: https://www.martineve.com/?p=804
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkkeijs2s"
+kcworks: https://works.hcommons.org/records/ftp3m-b0984
 ---
 
 <p>Reading Daniel Domscheit-Berg's <i>Inside WikiLeaks: My Time with Julian Assange at the World's Most Dangerous Website</i> gives the twofold impression of a deeply ideological personality, but also a man stinging from hurt naivety. Much of the work is concerned with revelations regarding Julian Assange's personal conduct (simultaneously a brilliant man, but also an egomaniac), the ad-hoc nature of WikiLeaks, particularly pre-2010 and also with building the starting blocks for Berg's new platform: OpenLeaks. I will briefly address some of these issues here, in a post that is less of a review, than a reflection.</p>

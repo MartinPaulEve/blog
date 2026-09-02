@@ -24,6 +24,7 @@ title: 'My forthcoming book: Pynchon and Philosophy: Wittgenstein, Foucault and 
 wordpress_id: 2916
 wordpress_url: https://www.martineve.com/?p=2916
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfvkgw72t"
+kcworks: https://works.hcommons.org/records/8cjkh-rvj17
 ---
 
 <p>It gives me great pleasure to announce that, should all go to plan, my book <i>Pynchon and Philosophy: Wittgenstein, Foucault and Adorno</i> will be published by Palgrave Macmillan in April 2014. This book presents thorough, comprehensive and previously unaddressed philosophical and ethical readings of Thomas Pynchon's fiction through Ludwig Wittgenstein, Michel Foucault and Theodor W. Adorno.</p>

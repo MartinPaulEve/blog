@@ -13,6 +13,7 @@ title: Continuing javascript execution after total DOM body replacement using DO
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbbbgxc2a"
 categories:
 - Programming
+kcworks: https://works.hcommons.org/records/5g9qg-bx340
 ---
 
 As part of the translation platform we're building, I needed to implement the following workflow:

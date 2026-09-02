@@ -21,6 +21,7 @@ title: Openness for society or for profit?
 wordpress_id: 3104
 wordpress_url: https://www.martineve.com/?p=3104
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mf6dw3k2h"
+kcworks: https://works.hcommons.org/records/8f302-7rt46
 ---
 
 <p>A twitter conversation that I had with Michelle Brook this morning.</p>

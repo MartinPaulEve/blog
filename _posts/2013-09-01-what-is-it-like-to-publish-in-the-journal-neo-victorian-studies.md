@@ -22,6 +22,7 @@ title: What is it like to publish in the journal 'Neo-Victorian Studies'?
 wordpress_id: 2840
 wordpress_url: https://www.martineve.com/?p=2840
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgcib472t"
+kcworks: https://works.hcommons.org/records/x4bxp-8zw42
 ---
 
 <p>Short answer: very good.</p>

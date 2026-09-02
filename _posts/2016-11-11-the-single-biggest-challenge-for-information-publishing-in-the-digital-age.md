@@ -12,6 +12,7 @@ title: The single largest challenge for information publishing in the digital ag
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mavk66t2p"
 categories:
 - Scholarly Communications
+kcworks: https://works.hcommons.org/records/bnnmk-vf247
 ---
 
 A fragment of thought:

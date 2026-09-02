@@ -12,6 +12,7 @@ title: 'Stern and REF: assessing the past to fund the future with non-portabilit
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mb5hml42r"
 categories:
 - Higher Education
+kcworks: https://works.hcommons.org/records/b60j9-8bc66
 ---
 
 Something that occurred to me about the Stern review of REF and the proposed non-portability of research outputs is how this changes the relationship of funding to researchers vs. funding an environment. I will note that I have [some qualms](https://figshare.com/articles/Excellence_R_Us_University_Research_and_the_Fetishisation_of_Excellence/3413821), in theoretical (but not political) terms, about such future prediction of excellence through peer review. But that's what REF does. 

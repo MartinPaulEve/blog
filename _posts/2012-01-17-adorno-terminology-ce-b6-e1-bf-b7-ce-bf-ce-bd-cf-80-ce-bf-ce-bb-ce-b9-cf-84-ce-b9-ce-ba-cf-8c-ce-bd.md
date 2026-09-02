@@ -19,6 +19,7 @@ title: 'Adorno terminology: ζῷον πολιτικόν'
 wordpress_id: 1852
 wordpress_url: https://www.martineve.com/2012/01/17/adorno-terminology-%ce%b6%e1%bf%b7%ce%bf%ce%bd-%cf%80%ce%bf%ce%bb%ce%b9%cf%84%ce%b9%ce%ba%cf%8c%ce%bd/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mizdjnj2o"
+kcworks: https://works.hcommons.org/records/0fj6w-8fm45
 ---
 
 <p>"This exteriorization is, however, practical insofar as it determines the person who experiences art and steps out of himself as a ζῷον πολιτικόν, just as art itself is objectively praxis as the cultivation of consciousness" (Adorno, Theodor W. Aesthetic Theory. Edited by Gretel Adorno and Rolf Tiedemann. Translated by Robert Hullot-Kentor. London: Continuum, 2004. p. 317.)</p>

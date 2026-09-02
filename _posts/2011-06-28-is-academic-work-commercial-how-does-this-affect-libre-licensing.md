@@ -1441,6 +1441,7 @@ title: Is academic work commercial? How does this affect libre licensing?
 wordpress_id: 1239
 wordpress_url: https://www.martineve.com/?p=1239
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk7ik332n"
+kcworks: https://works.hcommons.org/records/2a5vs-qfe98
 ---
 
 <p>I've been engaged recently in <a href="https://twitter.com/#!/jonhickman/status/85697414178144257">a discussion on Twitter</a> as to the appropriateness of <a class="zem_slink" title="Creative Commons" rel="wikipedia" href="http://en.wikipedia.org/wiki/Creative_Commons">Creative Commons licensing</a> for <a class="zem_slink" title="Open access journal" rel="wikipedia" href="http://en.wikipedia.org/wiki/Open_access_journal">Open Access journals</a> wishing to remove permission barriers, ie. become "libre". It seems there is a real problem as to how to define academic work.</p>

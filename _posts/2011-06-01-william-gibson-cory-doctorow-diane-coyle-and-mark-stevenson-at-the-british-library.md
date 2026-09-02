@@ -29,6 +29,7 @@ title: William Gibson, Cory Doctorow, Diane Coyle and Mark Stevenson at the Brit
 wordpress_id: 1120
 wordpress_url: https://www.martineve.com/?p=1120
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkcem3p2p"
+kcworks: https://works.hcommons.org/records/ffbb0-16v97
 ---
 
 <p>Last week I had the pleasure to attend the "Who owns the Story of the Future?" even taking place at the British Library, playing host to William Gibson, Cory Doctorow, Diane Coyle and Mark Stevenson as part of their Out of This World series. In case you haven't seen the <a href="http://www.bl.uk/whatson/index.html">exhibition and series of related events</a>, I suggest you check it out. Also worth checking out is <a href="http://blog.enlightenmenteconomics.com/blog/_archives/2011/5/25/4824194.html">Diane Coyle's own blog post</a> on the evening, which gives an accurate and balanced summary of the evening.</p>
