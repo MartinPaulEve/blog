@@ -75,6 +75,92 @@ class TestPdfPages < Minitest::Test
     refute_equal a, b
   end
 
+  # --- webmention markup insensitivity ------------------------------------
+  # The webmention layer adds endpoint/rel=me links in the head, mf2 classes
+  # on the article/title/body, its own stylesheet and a data-driven mentions
+  # section. None of it affects the printed page (webmentions.css hides the
+  # section in print; class tokens carry no print styling), so the cache key
+  # must not see any of it — otherwise adding the feature (or merely
+  # receiving a mention) would re-render every PDF on the site.
+
+  def page_html_plain(v: "111", sidebar: "old")
+    <<~HTML
+      <html><head>
+      <link rel="stylesheet" href="/assets/css/styles.css?v=#{v}">
+          <link rel="stylesheet" href="/assets/css/blog-post.css?v=#{v}">
+      <link href="https://eve.gd/feed/feed.atom" type="application/atom+xml" rel="alternate" title="Feed">
+      </head><body>
+      <article class="blog-post">
+      <h1 class="post-title">Title</h1>
+      <div class="post-content">
+      <div class="post-body">The content.</div>
+      <aside class="post-sidebar">related: #{sidebar}</aside>
+      </div>
+          </article>
+      </body></html>
+    HTML
+  end
+
+  def page_html_webmentions(v: "222", sidebar: "new", mentions: "3 likes")
+    <<~HTML
+      <html><head>
+      <link rel="stylesheet" href="/assets/css/styles.css?v=#{v}">
+          <link rel="stylesheet" href="/assets/css/blog-post.css?v=#{v}">
+          <link rel="stylesheet" href="/assets/css/webmentions.css?v=#{v}">
+      <link href="https://eve.gd/feed/feed.atom" type="application/atom+xml" rel="alternate" title="Feed">
+      <link rel="webmention" href="https://webmention.io/eve.gd/webmention" />
+      <link rel="pingback" href="https://webmention.io/eve.gd/xmlrpc" />
+      <link rel="me" href="https://github.com/MartinPaulEve" />
+      <link rel="me" href="mailto:martin@eve.gd" />
+      </head><body>
+      <article class="blog-post h-entry">
+      <h1 class="post-title p-name">Title</h1>
+      <div class="post-content">
+      <div class="post-body e-content">The content.</div>
+      <aside class="post-sidebar">related: #{sidebar}</aside>
+      </div>
+          <section class="post-webmentions">
+      <div class="webmention-meta"><a class="u-url" href="/x/">x</a></div>
+      <h2>Webmentions</h2><p>#{mentions}</p>
+      </section>
+
+          </article>
+      </body></html>
+    HTML
+  end
+
+  def test_hash_unchanged_by_adding_the_webmention_layer
+    assert_equal PdfPages.content_hash(page_html_plain),
+                 PdfPages.content_hash(page_html_webmentions)
+  end
+
+  def test_hash_unchanged_when_a_blank_line_precedes_the_mentions_section
+    # The real layout renders "</div>\n\n        <section ...": the blank
+    # line before the include must vanish with the section, or every post
+    # gains one extra newline over its pre-webmentions self and every PDF
+    # re-renders (this happened; hence the regression test).
+    spaced = page_html_webmentions.sub(
+      "</div>\n    <section class=\"post-webmentions\">",
+      "</div>\n\n        <section class=\"post-webmentions\">"
+    )
+    assert_equal PdfPages.content_hash(page_html_plain),
+                 PdfPages.content_hash(spaced)
+  end
+
+  def test_hash_unchanged_when_mention_data_changes
+    a = PdfPages.content_hash(page_html_webmentions(mentions: "3 likes"))
+    b = PdfPages.content_hash(page_html_webmentions(mentions: "99 likes, 12 replies"))
+    assert_equal a, b
+  end
+
+  def test_hash_still_changes_when_content_changes_under_webmentions
+    a = PdfPages.content_hash(page_html_webmentions)
+    b = PdfPages.content_hash(
+      page_html_webmentions.sub("The content.", "Different content.")
+    )
+    refute_equal a, b
+  end
+
   # --- batch renderer with cache -------------------------------------------
 
   def with_dirs

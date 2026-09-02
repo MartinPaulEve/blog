@@ -44,12 +44,24 @@ module PdfPages
   # the related-posts sidebar changes whenever any post is published (print
   # CSS hides the sidebar), and the on-screen "Download PDF" line sits in the
   # header, which print CSS hides entirely.
+  #
+  # The webmention layer is likewise invisible in print (webmentions.css
+  # hides the mentions section; the endpoint/rel=me head links and the mf2
+  # class tokens carry no styling at all), so every piece of markup it adds
+  # is normalised away here — otherwise merely receiving a mention would
+  # re-render every PDF on the site.
   def self.normalize_html(html)
     html.to_s
         .gsub(/\?v=\d+/, "")
         .gsub(%r{<aside class="post-sidebar">.*?</aside>}m, "")
         .gsub(%r{<p class="post-description post-pdf">.*?</p>}m, "")
         .gsub(%r{<p class="post-description post-categories">.*?</p>}m, "")
+        .gsub(%r{[ \t]*<link rel="(?:webmention|pingback|me)"[^>]*>\n?}, "")
+        .gsub(%r{[ \t]*<link rel="stylesheet" href="/assets/css/webmentions\.css[^>]*>\n?}, "")
+        .gsub(%r{\n*[ \t]*<section class="post-webmentions">.*?</section>\n*}m, "\n")
+        .gsub(' h-entry"', '"')
+        .gsub(' p-name"', '"')
+        .gsub(' e-content"', '"')
   end
 
   # The stylesheets take part in the printed layout, so they join the page
