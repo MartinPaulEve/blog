@@ -150,8 +150,11 @@ def _webmention_step(root: Path, script: str, warning: str,
     exists = present or (lambda relative: (root / relative).is_file())
     if not exists(script):
         return False
+    cmd = ["uv", "run"]
+    if (root / ".env").is_file():
+        cmd += ["--env-file", ".env"]  # carries WEBMENTION_IO_TOKEN
     try:
-        run(["uv", "run", script], cwd=root)
+        run(cmd + [script], cwd=root)
     except subprocess.CalledProcessError:
         echo(warning)
         return False

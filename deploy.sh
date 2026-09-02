@@ -9,4 +9,5 @@
 #   ./newdeploy.sh --build-only --no-server   # build only, no server
 
 cd "$(dirname "$0")"
-exec uv run --project evedeploy evedeploy "$@"
+# --env-file: the pipeline's webmention steps need $WEBMENTION_IO_TOKEN.
+exec uv run --env-file .env --project evedeploy evedeploy "$@"

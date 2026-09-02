@@ -56,6 +56,7 @@ def root(tmp_path):
     (blog / "_webmentions").mkdir()
     (blog / "_webmentions" / "fetch_webmentions.py").write_text("# fetcher")
     (blog / "_webmentions" / "send_webmentions.py").write_text("# sender")
+    (blog / ".env").write_text("WEBMENTION_IO_TOKEN=test-token")
     return blog
 
 
@@ -148,7 +149,22 @@ class TestGitCommitPush:
 
 
 class TestFetchWebmentions:
-    def test_runs_the_fetch_script_through_uv(self, root):
+    def test_runs_the_fetch_script_through_uv_with_env_file(self, root):
+        run = FakeRun()
+        assert fetch_webmentions(root, run=run, echo=lambda *a, **k: None) is True
+        assert run.calls[0]["cmd"] == [
+            "uv",
+            "run",
+            "--env-file",
+            ".env",
+            "_webmentions/fetch_webmentions.py",
+        ]
+        assert run.calls[0]["cwd"] == root
+
+    def test_missing_env_file_omits_the_flag(self, root):
+        # A checkout without .env must still deploy; the fetch script itself
+        # degrades to a no-op without a token.
+        (root / ".env").unlink()
         run = FakeRun()
         assert fetch_webmentions(root, run=run, echo=lambda *a, **k: None) is True
         assert run.calls[0]["cmd"] == [
@@ -156,7 +172,6 @@ class TestFetchWebmentions:
             "run",
             "_webmentions/fetch_webmentions.py",
         ]
-        assert run.calls[0]["cwd"] == root
 
     def test_failure_warns_but_does_not_raise(self, root):
         run = FakeRun({"uv run": 1})
@@ -173,12 +188,14 @@ class TestFetchWebmentions:
 
 
 class TestSendWebmentions:
-    def test_runs_the_send_script_through_uv(self, root):
+    def test_runs_the_send_script_through_uv_with_env_file(self, root):
         run = FakeRun()
         assert send_webmentions(root, run=run, echo=lambda *a, **k: None) is True
         assert run.calls[0]["cmd"] == [
             "uv",
             "run",
+            "--env-file",
+            ".env",
             "_webmentions/send_webmentions.py",
         ]
         assert run.calls[0]["cwd"] == root
