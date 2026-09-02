@@ -110,6 +110,69 @@ class TestFindPdf:
             find_pdf(tmp_path, "slug")
 
 
+class TestSiteSlug:
+    def test_ascii_slug_is_unchanged(self):
+        from kcworks_uploader.posts import site_slug
+
+        assert site_slug("2026-08-28-repository-metadata") == (
+            "2026-08-28-repository-metadata"
+        )
+
+    def test_non_ascii_characters_take_their_url_escaped_form(self):
+        # Jekyll escapes the URL (ä -> %C3%A4) and the site's slug
+        # convention then collapses illegal runs to hyphens, so the
+        # cached derivatives of this post live under ger-C3-A4t.
+        from kcworks_uploader.posts import site_slug
+
+        assert site_slug("2021-08-19-thomas-pynchon-from-s-gerät-to-y-gerät") == (
+            "2021-08-19-thomas-pynchon-from-s-ger-C3-A4t-to-y-ger-C3-A4t"
+        )
+
+
+class TestFindPdfSiteSlug:
+    def test_falls_back_to_the_site_slug_name_in_the_cache(self, tmp_path):
+        (tmp_path / ".pdf_cache").mkdir()
+        cached = (
+            tmp_path
+            / ".pdf_cache"
+            / "2021-08-19-thomas-pynchon-from-s-ger-C3-A4t-to-y-ger-C3-A4t.pdf"
+        )
+        cached.write_bytes(b"%PDF")
+        assert find_pdf(
+            tmp_path, "2021-08-19-thomas-pynchon-from-s-gerät-to-y-gerät"
+        ) == cached
+
+    def test_bare_slug_still_wins_when_both_exist(self, tmp_path):
+        (tmp_path / ".pdf_cache").mkdir()
+        bare = (
+            tmp_path
+            / ".pdf_cache"
+            / "2021-08-19-thomas-pynchon-from-s-gerät-to-y-gerät.pdf"
+        )
+        bare.write_bytes(b"%PDF")
+        (
+            tmp_path
+            / ".pdf_cache"
+            / "2021-08-19-thomas-pynchon-from-s-ger-C3-A4t-to-y-ger-C3-A4t.pdf"
+        ).write_bytes(b"%PDF")
+        assert find_pdf(
+            tmp_path, "2021-08-19-thomas-pynchon-from-s-gerät-to-y-gerät"
+        ) == bare
+
+    def test_site_slug_found_in_site_pdf_fallback_dir(self, tmp_path):
+        (tmp_path / "_site" / "PDF").mkdir(parents=True)
+        built = (
+            tmp_path
+            / "_site"
+            / "PDF"
+            / "2021-08-19-thomas-pynchon-from-s-ger-C3-A4t-to-y-ger-C3-A4t.pdf"
+        )
+        built.write_bytes(b"%PDF")
+        assert find_pdf(
+            tmp_path, "2021-08-19-thomas-pynchon-from-s-gerät-to-y-gerät"
+        ) == built
+
+
 class TestFirstParagraph:
     def test_skips_liquid_and_headings_and_cleans_markdown(self):
         body = (

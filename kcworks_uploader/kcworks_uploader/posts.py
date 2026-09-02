@@ -4,6 +4,7 @@ import re
 from dataclasses import dataclass, field
 from datetime import date, datetime
 from pathlib import Path
+from urllib.parse import quote
 
 import yaml
 
@@ -68,16 +69,29 @@ def canonical_url(slug: str, base: str = "https://eve.gd") -> str:
     return f"{base}/{year}/{month}/{day}/{title}/"
 
 
+def site_slug(slug: str) -> str:
+    """The site's on-disk name for a slug: the URL-escaped form with every
+    run of characters outside [A-Za-z0-9._-] collapsed to a hyphen.
+
+    Mirrors the blog's OgImage.slug convention, under which the PDF and OG
+    derivatives of a post with non-ASCII characters in its name are cached
+    (e.g. ``gerät`` becomes ``ger-C3-A4t``)."""
+    return re.sub(r"[^A-Za-z0-9._-]+", "-", quote(slug))
+
+
 def find_pdf(repo_root: Path, slug: str) -> Path:
     """Locate the built PDF edition for a post.
 
-    Prefers ``.pdf_cache/<slug>.pdf`` and falls back to
-    ``_site/PDF/<slug>.pdf``. Raises FileNotFoundError when neither exists.
+    Prefers ``.pdf_cache`` and falls back to ``_site/PDF``, trying the
+    bare slug and then its site_slug form in each. Raises
+    FileNotFoundError when none exists.
     """
     repo_root = Path(repo_root)
+    names = dict.fromkeys([f"{slug}.pdf", f"{site_slug(slug)}.pdf"])
     candidates = [
-        repo_root / ".pdf_cache" / f"{slug}.pdf",
-        repo_root / "_site" / "PDF" / f"{slug}.pdf",
+        directory / name
+        for directory in (repo_root / ".pdf_cache", repo_root / "_site" / "PDF")
+        for name in names
     ]
     for candidate in candidates:
         if candidate.is_file():
