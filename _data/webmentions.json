@@ -1,5 +1,23 @@
 {
- "last_wm_id": 0,
- "targets": {},
- "updated": "2026-09-02T18:24:29+00:00"
+ "last_wm_id": 2028562,
+ "targets": {
+  "/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/": {
+   "bookmarks": [],
+   "likes": [],
+   "mentions": [
+    {
+     "author_name": "Martin Paul Eve",
+     "author_url": "",
+     "avatar": "/images/webmentions/b9b3f7ea77bddaa0.png",
+     "published": "2026-06-27T00:00:00+01:00",
+     "text": "After my previous post about Zotero ingest, I wondered what else I might be able to do to make this scholarly (and personal) blog more accessible, navigable, harvestable, and ingestable. One thing that occurred to me, that I had not implemented, is that I might make this blog FAIR. That is: Findable, Accessible, Interoperable, and Reusable.\n\nOne of the ways one can work towards this is by implementing the FAIR Signposting Profile. This is a series of in-document metadata elements, but also a linkset in the HTTP header returned by the blog. I am hosting with Reclaim Hosting, who are using an Apache webserver to serve my static files. Normally I would curse this. Who’s running Apache in this day and age? We have many more sophisticated technologies for serving websites. Even nginx would have been better, I would exclaim.\n\nHowever, this is actually very useful in this circumstance. The Apache web server allows us to put .htaccess files in every directory. And directories are how my posts are structured. There is a directory with an index.html file inside it, so you don’t have to see that it’s a directory, it just looks like a path on the website. When you load https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/ the webserver looks in the blog folder on my server at /2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/ and serves you the index.html file. So you are getting /2026/06/23/maki",
+     "url": "https://eve.gd/2026/06/27/fair-and-square-making-a-static-site-support-fair-signposting/",
+     "wm_id": 2028562
+    }
+   ],
+   "replies": [],
+   "reposts": []
+  }
+ },
+ "updated": "2026-09-02T18:28:28+00:00"
 }
