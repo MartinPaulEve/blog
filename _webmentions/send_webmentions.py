@@ -25,6 +25,7 @@ import hashlib
 import json
 import pathlib
 import re
+import ssl
 import sys
 import urllib.error
 import urllib.parse
@@ -43,11 +44,30 @@ BODY_START = re.compile(r'<div class="post-body[^"]*">')
 DIV_TAG = re.compile(r"<div\b[^>]*>|</div>")
 
 
+_SSL_CONTEXT = None
+
+
+def _ssl_context():
+    """Default TLS context, falling back to the system CA bundle: the
+    uv-managed Python on NixOS ships with an empty default cert store."""
+    global _SSL_CONTEXT
+    if _SSL_CONTEXT is None:
+        _SSL_CONTEXT = ssl.create_default_context()
+        if not _SSL_CONTEXT.get_ca_certs():
+            for bundle in ("/etc/ssl/certs/ca-certificates.crt",
+                           "/etc/ssl/certs/ca-bundle.crt"):
+                if pathlib.Path(bundle).is_file():
+                    _SSL_CONTEXT.load_verify_locations(bundle)
+                    break
+    return _SSL_CONTEXT
+
+
 def http_fetch(url):
     """GET a URL following redirects; returns (status, headers, body, final_url)."""
     request = urllib.request.Request(
         url, headers={"User-Agent": "eve.gd-webmention-sender/1.0"})
-    with urllib.request.urlopen(request, timeout=TIMEOUT) as response:
+    with urllib.request.urlopen(request, timeout=TIMEOUT,
+                                context=_ssl_context()) as response:
         body = response.read(MAX_FETCH_BYTES).decode("utf-8", "replace")
         return response.status, dict(response.headers), body, response.geturl()
 
@@ -60,7 +80,8 @@ def http_post(url, data):
         headers={"Content-Type": "application/x-www-form-urlencoded",
                  "User-Agent": "eve.gd-webmention-sender/1.0"})
     try:
-        with urllib.request.urlopen(request, timeout=TIMEOUT) as response:
+        with urllib.request.urlopen(request, timeout=TIMEOUT,
+                                    context=_ssl_context()) as response:
             return response.status
     except urllib.error.HTTPError as exc:
         return exc.code
