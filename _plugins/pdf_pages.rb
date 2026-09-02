@@ -213,7 +213,10 @@ module Jekyll
         File.exist?(path) ? File.read(path) : ""
       end.join
       PdfPagesScope.documents(site).map do |doc|
-        path = File.join(site.dest, doc.url, "index.html")
+        # doc.destination, not a join on doc.url: the url is percent-encoded
+        # (gerät -> ger%C3%A4t) while the written file keeps the raw UTF-8
+        # name, so an escaped path never matches and the post gets no PDF.
+        path = doc.destination(site.dest)
         next nil unless File.exist?(path)
 
         { slug: PdfPages.slug(doc.url), url: doc.url, html: File.read(path), css: css,
