@@ -6,12 +6,15 @@ from evedeploy.pipeline import (
     DeployError,
     build_site,
     check_preflight,
+    commit_sent_state,
     deploy,
+    fetch_webmentions,
     git_commit_push,
     jekyll_build,
     refresh_cv,
     resize_covers,
     rsync_site,
+    send_webmentions,
     serve_site,
 )
 
@@ -50,6 +53,9 @@ def root(tmp_path):
     blog = tmp_path / "blog"
     blog.mkdir()
     (blog / "resize_covers.py").write_text("# resizer")
+    (blog / "_webmentions").mkdir()
+    (blog / "_webmentions" / "fetch_webmentions.py").write_text("# fetcher")
+    (blog / "_webmentions" / "send_webmentions.py").write_text("# sender")
     return blog
 
 
@@ -138,6 +144,67 @@ class TestGitCommitPush:
             if call["cmd"][:2] == ["git", "commit"]
         )
         assert "the message" in commit
+        assert "git push" in run.commands()
+
+
+class TestFetchWebmentions:
+    def test_runs_the_fetch_script_through_uv(self, root):
+        run = FakeRun()
+        assert fetch_webmentions(root, run=run, echo=lambda *a, **k: None) is True
+        assert run.calls[0]["cmd"] == [
+            "uv",
+            "run",
+            "_webmentions/fetch_webmentions.py",
+        ]
+        assert run.calls[0]["cwd"] == root
+
+    def test_failure_warns_but_does_not_raise(self, root):
+        run = FakeRun({"uv run": 1})
+        lines = []
+        assert fetch_webmentions(root, run=run, echo=lines.append) is False
+        assert any("webmention" in line.lower() for line in lines)
+
+    def test_skipped_when_script_absent(self, root):
+        # A checkout without the webmention tooling deploys as before.
+        run = FakeRun()
+        assert fetch_webmentions(root, run=run, echo=lambda *a, **k: None,
+                                 present=lambda p: False) is False
+        assert run.calls == []
+
+
+class TestSendWebmentions:
+    def test_runs_the_send_script_through_uv(self, root):
+        run = FakeRun()
+        assert send_webmentions(root, run=run, echo=lambda *a, **k: None) is True
+        assert run.calls[0]["cmd"] == [
+            "uv",
+            "run",
+            "_webmentions/send_webmentions.py",
+        ]
+        assert run.calls[0]["cwd"] == root
+
+    def test_failure_warns_but_does_not_raise(self, root):
+        run = FakeRun({"uv run": 1})
+        lines = []
+        assert send_webmentions(root, run=run, echo=lines.append) is False
+        assert any("webmention" in line.lower() for line in lines)
+
+
+class TestCommitSentState:
+    def test_clean_state_commits_nothing(self, root):
+        run = FakeRun({"git diff": 0})
+        assert commit_sent_state(root, run=run) is False
+        assert "git commit" not in run.commands()
+
+    def test_changed_state_is_committed_and_pushed(self, root):
+        run = FakeRun({"git diff": 1})
+        assert commit_sent_state(root, run=run) is True
+        add = next(c["cmd"] for c in run.calls if c["cmd"][:2] == ["git", "add"])
+        assert "_webmentions/sent.json" in add
+        commit = next(
+            c["cmd"] for c in run.calls if c["cmd"][:2] == ["git", "commit"]
+        )
+        assert any("webmention" in part for part in commit)
         assert "git push" in run.commands()
 
 
@@ -292,18 +359,24 @@ class TestDeploy:
         result = deploy(**self.deploy_kwargs(root, run))
         assert result is True
         commands = run.commands()
-        # Faithful to newdeploy.sh: resize, dry run, publish, build, git,
-        # rsync — in that order.
+        # resize, dry run, publish, fetch webmentions (so the build renders
+        # fresh mentions), build, git, rsync, THEN send webmentions (their
+        # receivers verify the live source page) and commit the sent state.
         expected_order = [
-            "uv run",
+            "uv run",  # resize covers
             "sequoia publish",  # dry run
             "sequoia publish",  # real publish
+            "uv run",  # fetch webmentions
             "jekyll build",
             "git add",
             "git diff",
             "git commit",
             "git push",
             "rsync -avz",
+            "uv run",  # send webmentions
+            "git add",  # commit sent state
+            "git commit",
+            "git push",
         ]
         positions = []
         cursor = 0
@@ -312,6 +385,17 @@ class TestDeploy:
             positions.append(cursor)
             cursor += 1
         assert positions == sorted(positions)
+
+    def test_webmention_failures_do_not_abort_the_deploy(self, root):
+        # With cover resize disabled, the only "uv run" commands left are the
+        # webmention fetch and send; both failing must still deploy the site.
+        run = FakeRun({"uv run": 1})
+        kwargs = self.deploy_kwargs(root, run)
+        kwargs["resize"] = False
+        result = deploy(**kwargs)
+        assert result is True
+        assert "jekyll build" in run.commands()
+        assert "rsync -avz" in run.commands()
 
     def test_step_failure_raises_deploy_error(self, root):
         run = FakeRun({"jekyll build": 1})

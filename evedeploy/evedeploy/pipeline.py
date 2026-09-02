@@ -2,8 +2,10 @@
 
 Order of operations (faithful to the shell script):
 resize covers → sequoia dry-run → confirmation gate → sequoia publish →
-refresh CV from ../eprintsToCV → jekyll build → git commit + push → rsync
-the built _site to the server.
+refresh CV from ../eprintsToCV → fetch webmentions (so the build renders
+fresh mentions) → jekyll build → git commit + push → rsync the built _site
+to the server → send outbound webmentions (receivers verify the live source
+page, so this must follow the rsync) → commit the sent-webmentions ledger.
 
 Every step takes an injectable ``run`` callable (subprocess.run-shaped) so
 the pipeline is unit-testable without touching the real system.
@@ -136,6 +138,55 @@ def git_commit_push(root: Path, message: str, run=default_run) -> bool:
     return True
 
 
+def _webmention_step(root: Path, script: str, warning: str,
+                     run=default_run, echo=print, present=None) -> bool:
+    """Run one of the webmention scripts as a tolerant pipeline step.
+
+    Returns True when the script ran cleanly, False when it was skipped (no
+    script in this checkout) or failed — a webmention.io outage or a flaky
+    receiver must never block a deploy.
+    """
+    root = Path(root)
+    exists = present or (lambda relative: (root / relative).is_file())
+    if not exists(script):
+        return False
+    try:
+        run(["uv", "run", script], cwd=root)
+    except subprocess.CalledProcessError:
+        echo(warning)
+        return False
+    return True
+
+
+def fetch_webmentions(root: Path, run=default_run, echo=print, present=None) -> bool:
+    """Pull received webmentions into _data before the build; tolerant step."""
+    return _webmention_step(
+        root, "_webmentions/fetch_webmentions.py",
+        "WARNING: webmention fetch failed; building with existing data.",
+        run=run, echo=echo, present=present)
+
+
+def send_webmentions(root: Path, run=default_run, echo=print, present=None) -> bool:
+    """Send outbound webmentions once the site is live; tolerant step."""
+    return _webmention_step(
+        root, "_webmentions/send_webmentions.py",
+        "WARNING: webmention send failed; unsent mentions retry next deploy.",
+        run=run, echo=echo, present=present)
+
+
+def commit_sent_state(root: Path, run=default_run) -> bool:
+    """Commit the sent-webmentions ledger if the send pass changed it."""
+    _step(run, ["git", "add", "_webmentions/sent.json"], name="git add", cwd=root)
+    staged = run(["git", "diff", "--cached", "--quiet"], cwd=root, check=False)
+    if staged.returncode == 0:
+        return False
+    _step(run, ["git", "commit", "-m",
+                "chore(webmentions): record sent webmentions"],
+          name="git commit", cwd=root)
+    _step(run, ["git", "push"], name="git push", cwd=root)
+    return True
+
+
 def rsync_site(root: Path, run=default_run) -> None:
     """Push the built _site to the server."""
     _step(
@@ -256,6 +307,10 @@ def deploy(
             "found; keeping existing CV files."
         )
 
+    echo("==> Fetching webmentions")
+    if not fetch_webmentions(root, run=run, echo=echo):
+        echo("    (skipped or failed; continuing)")
+
     echo("==> Building site")
     jekyll_build(root, run=run)
 
@@ -265,6 +320,13 @@ def deploy(
 
     echo("==> Deploying to server")
     rsync_site(root, run=run)
+
+    # Only now can mentions go out: receivers verify the live source page.
+    echo("==> Sending outbound webmentions")
+    if not send_webmentions(root, run=run, echo=echo):
+        echo("    (skipped or failed; continuing)")
+    if commit_sent_state(root, run=run):
+        echo("    sent-webmentions ledger committed")
 
     echo("==> Done.")
     return True
