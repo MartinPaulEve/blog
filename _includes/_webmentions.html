@@ -1,0 +1,79 @@
+<section class="post-webmentions">
+    <div class="container">
+        {% comment %}
+          Hidden microformats2 metadata completing the h-entry declared on
+          the <article>: parsers pick up hidden properties, so the visible
+          layout stays untouched. Everything in this section (metadata and
+          mention display alike) sits inside markup that pdf_pages.rb
+          normalises out of the PDF cache key — mentions arriving must
+          never re-render a PDF.
+        {% endcomment %}
+        <div class="webmention-meta" hidden>
+            <a class="u-url u-uid" href="{{ site.url }}{{ page.url }}">{{ page.title | escape }}</a>
+            <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+            <a class="p-author h-card" href="https://eve.gd/"><img class="u-photo" src="/images/mpe.png" alt="">Martin Paul Eve</a>
+        </div>
+        {%- assign wm = site.data.webmentions.targets[page.url] -%}
+        {%- assign wm_likes = wm.likes | size -%}
+        {%- assign wm_reposts = wm.reposts | size -%}
+        {%- assign wm_replies = wm.replies | size -%}
+        {%- assign wm_mentions = wm.mentions | size -%}
+        {%- assign wm_bookmarks = wm.bookmarks | size -%}
+        {%- assign wm_total = wm_likes | plus: wm_reposts | plus: wm_replies | plus: wm_mentions | plus: wm_bookmarks -%}
+        {%- if wm_total > 0 %}
+        <div class="webmention-block">
+            <h2 id="webmentions">Webmentions</h2>
+            <p class="webmention-counts">
+                {%- if wm_likes > 0 %}
+                <span><i class="fa-solid fa-heart" aria-hidden="true"></i>{{ wm_likes }} like{% if wm_likes != 1 %}s{% endif %}</span>
+                {%- endif %}
+                {%- if wm_reposts > 0 %}
+                <span><i class="fa-solid fa-retweet" aria-hidden="true"></i>{{ wm_reposts }} repost{% if wm_reposts != 1 %}s{% endif %}</span>
+                {%- endif %}
+                {%- if wm_replies > 0 %}
+                <span><i class="fa-solid fa-comment" aria-hidden="true"></i>{{ wm_replies }} repl{% if wm_replies == 1 %}y{% else %}ies{% endif %}</span>
+                {%- endif %}
+                {%- if wm_mentions > 0 %}
+                <span><i class="fa-solid fa-link" aria-hidden="true"></i>{{ wm_mentions }} mention{% if wm_mentions != 1 %}s{% endif %}</span>
+                {%- endif %}
+                {%- if wm_bookmarks > 0 %}
+                <span><i class="fa-solid fa-bookmark" aria-hidden="true"></i>{{ wm_bookmarks }} bookmark{% if wm_bookmarks != 1 %}s{% endif %}</span>
+                {%- endif %}
+            </p>
+            {%- if wm_replies > 0 %}
+            <ol class="webmention-replies">
+                {%- for reply in wm.replies %}
+                <li class="webmention-reply">
+                    {%- if reply.avatar %}
+                    <img class="webmention-avatar" src="{{ reply.avatar | escape }}" alt="" loading="lazy">
+                    {%- else %}
+                    <span class="webmention-avatar webmention-avatar-fallback" aria-hidden="true">{{ reply.author_name | default: "?" | escape | slice: 0 }}</span>
+                    {%- endif %}
+                    <div class="webmention-reply-body">
+                        <p class="webmention-reply-meta">
+                            {%- if reply.author_url and reply.author_url != "" -%}
+                            <a class="webmention-reply-author" href="{{ reply.author_url | escape }}" rel="nofollow ugc">{% if reply.author_name != "" %}{{ reply.author_name | escape }}{% else %}Someone{% endif %}</a>
+                            {%- elsif reply.author_name != "" -%}
+                            <span class="webmention-reply-author">{{ reply.author_name | escape }}</span>
+                            {%- else -%}
+                            <span class="webmention-reply-author">Someone</span>
+                            {%- endif %}
+                            {%- if reply.published and reply.published != "" %}
+                            &middot; <time datetime="{{ reply.published }}">{{ reply.published | date: "%B %-d, %Y" }}</time>
+                            {%- endif %}
+                            {%- if reply.url and reply.url != "" %}
+                            <a class="webmention-reply-source" href="{{ reply.url | escape }}" rel="nofollow ugc">&#8599;</a>
+                            {%- endif %}
+                        </p>
+                        {%- if reply.text and reply.text != "" %}
+                        <p class="webmention-reply-text">{{ reply.text | escape }}</p>
+                        {%- endif %}
+                    </div>
+                </li>
+                {%- endfor %}
+            </ol>
+            {%- endif %}
+        </div>
+        {%- endif %}
+    </div>
+</section>

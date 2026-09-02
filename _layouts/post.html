@@ -3,6 +3,7 @@
 <head>
     {% include _head.html %}
     <link rel="stylesheet" href="/assets/css/blog-post.css?v={{ site.time | date: '%s' }}">
+    <link rel="stylesheet" href="/assets/css/webmentions.css?v={{ site.time | date: '%s' }}">
 
     {% comment %}
       Bibliographic metadata for one-click reference managers (Zotero's
@@ -49,11 +50,11 @@
 
 <main id="main">
     <!-- Blog Post Header -->
-    <article class="blog-post">
+    <article class="blog-post h-entry">
         {% include _print_cover.html %}
         <div class="post-header post-header--hero">
             <div class="container">
-                <h1 class="post-title">{{ page.title }}</h1>
+                <h1 class="post-title p-name">{{ page.title }}</h1>
                 <p class="post-description"><strong>Cite as:</strong> Martin Paul Eve, "{{ page.title }}", <i>eve.gd: Martin Paul Eve</i>, <time itemprop="datePublished {% if page.modified %}{% else %}dateModified{% endif %}" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %d, %Y" }}</time>, <a href="{{ page.doi }}">{{ page.doi }}</a>.</p>
 
                 {% if page.backlink %}<p class="post-description post-related">This post <strong>follows-on from</strong>: {% for link in page.backlink %}“{% post_link {{link}} %}”{% if forloop.last != true %},{% endif %}{% endfor %}</p>{% endif %}
@@ -82,7 +83,7 @@
         <!-- Post Content -->
         <div class="post-content">
             <div class="container">
-                <div class="post-body">
+                <div class="post-body e-content">
                     {{ content | strip_feature_image: page.image.feature }}
                 </div>
 
@@ -116,9 +117,23 @@
                             {% include _related_posts.html %}
                         </ul>
                     </div>
+
+                    {% assign wm_data = site.data.webmentions.targets[page.url] %}
+                    {% if wm_data %}{% assign wm_inbound = wm_data.mentions | concat: wm_data.bookmarks %}{% endif %}
+                    {% if wm_inbound and wm_inbound != empty %}
+                    <div class="sidebar-widget">
+                        <h3>Mentioned By</h3>
+                        <ul class="related-posts">
+                            {% for mention in wm_inbound %}
+                            <li><a href="{{ mention.url | escape }}" rel="nofollow ugc">{% if mention.author_name != "" %}{{ mention.author_name | escape }}{% else %}{{ mention.url | escape | truncate: 50 }}{% endif %}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
                 </aside>
             </div>
         </div>
+        {% include _webmentions.html %}
     </article>
 </main>
 
