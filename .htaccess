@@ -7,6 +7,14 @@ RewriteEngine On
 # as WebFinger requires. Keep this above the canonicalisation catch-alls.
 RewriteRule ^\.well-known/webfinger$ https://social.eve.gd/.well-known/webfinger [R=302,L]
 
+# human.json (https://codeberg.org/robida/human.json): verifiers fetch this
+# cross-origin from the browser, so it must carry a CORS header.
+<IfModule mod_headers.c>
+<Files "human.json">
+Header set Access-Control-Allow-Origin "*"
+</Files>
+</IfModule>
+
 <Limit GET POST>
 order deny,allow
 deny from all

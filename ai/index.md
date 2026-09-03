@@ -41,5 +41,9 @@ The publications list is ordered by date, with the newest items shown first. Eac
 
 Large language models have been used for programming in creating the structure and design of the site. In particular, I have used LLMs (Anthropic Claude Opus 4.8) to improve page metadata. As above, none of the blog content or other pages were written by AI.
 
+## human.json
+
+This site publishes a machine-readable declaration of human authorship at [/human.json](/human.json), following the [human.json specification](https://codeberg.org/robida/human.json). That file also lists "vouches": other sites whose content I believe, from personal knowledge of their authors, to be human-written. The claim that human.json makes about this site should be read alongside this policy: the writing here is mine, while the site's build tooling (including the small script that maintains the human.json file itself) was produced with AI assistance, as disclosed above.
+
 
 Last reviewed: July 2026
