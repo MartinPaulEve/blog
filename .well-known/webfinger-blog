@@ -1,0 +1,1 @@
+{"subject":"acct:blog@eve.gd","aliases":["https://eve.gd/actor.jsonld","https://eve.gd/"],"links":[{"rel":"self","type":"application/activity+json","href":"https://eve.gd/actor.jsonld"},{"rel":"http://webfinger.net/rel/profile-page","type":"text/html","href":"https://eve.gd/"}]}

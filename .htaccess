@@ -1,25 +1,39 @@
 Options +FollowSymLinks
 RewriteEngine On
 
-# WebFinger for the fediverse: the root domain answers identity lookups with
-# a static JRD document aliasing to mpe@hcommons.social. Apache serves the
-# same file whatever the ?resource= query says, which is fine while exactly
-# one identity stands behind this domain. Keep this above the
-# canonicalisation catch-alls.
+# WebFinger for the fediverse: two identities live behind this domain.
+# Lookups for acct:blog@eve.gd resolve to the site's own read-only
+# ActivityPub actor (actor.jsonld, polled per FEP-b06c); every other
+# acct: resource aliases to the personal Mastodon account,
+# @mpe@hcommons.social. The resource value may arrive raw or
+# percent-encoded, so the condition accepts both forms. Keep these above
+# the canonicalisation catch-alls.
+RewriteCond %{QUERY_STRING} resource=acct(:|%3[Aa])blog(@|%40)eve\.gd [NC]
+RewriteRule ^\.well-known/webfinger$ /.well-known/webfinger-blog [L]
 RewriteRule ^\.well-known/webfinger$ - [L]
-<Files "webfinger">
+<FilesMatch "^webfinger(-blog)?$">
 ForceType application/jrd+json
-</Files>
+</FilesMatch>
 
-# human.json (https://codeberg.org/robida/human.json) and WebFinger are both
-# fetched cross-origin from browsers, so they must carry CORS headers.
+# The ActivityPub documents (actor, outbox, posts) must be served with the
+# media type fediverse software requests.
+<FilesMatch "\.jsonld$">
+ForceType application/activity+json
+</FilesMatch>
+
+# human.json (https://codeberg.org/robida/human.json), WebFinger and the
+# ActivityPub documents are all fetched cross-origin from browsers, so they
+# must carry CORS headers.
 <IfModule mod_headers.c>
 <Files "human.json">
 Header set Access-Control-Allow-Origin "*"
 </Files>
-<Files "webfinger">
+<FilesMatch "^webfinger(-blog)?$">
 Header set Access-Control-Allow-Origin "*"
-</Files>
+</FilesMatch>
+<FilesMatch "\.jsonld$">
+Header set Access-Control-Allow-Origin "*"
+</FilesMatch>
 </IfModule>
 
 <Limit GET POST>
