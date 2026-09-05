@@ -1,0 +1,108 @@
+{
+ "2022-12-10-some-of-my-upcoming-projects-at-crossref.md": [
+  {"url": "https://portal.issn.org/content/license-contract", "comment": "ISSN Portal data license contract"},
+  {"url": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/tips-for-using-public-data-files-and-plus-snapshots/", "comment": "Crossref guidance on using public data dumps"}
+ ],
+ "2022-12-04-my-2022-year-in-review.md": [
+  {"url": "https://eprints.bbk.ac.uk/id/eprint/26645", "comment": "Eve, The Digital Humanities and Literary Studies (OUP, 2022)"},
+  {"url": "https://eprints.bbk.ac.uk/id/eprint/50134", "comment": "Eve, Impossible Chess and Inattention in Percival Everett"},
+  {"url": "https://eprints.bbk.ac.uk/id/eprint/46280", "comment": "Eve, Lessons from Library Genesis, DHQ 2022"},
+  {"url": "https://eprints.bbk.ac.uk/id/eprint/43860", "comment": "Eve, New Leaves: Histories of Digital Pagination, Book History"},
+  {"url": "https://eprints.bbk.ac.uk/id/eprint/47743", "comment": "Eve et al, Opening the Future OA monograph model article"},
+  {"url": "https://eprints.bbk.ac.uk/id/eprint/43087", "comment": "Eve, Essay in Career of Contemporary English Novelist"},
+  {"url": "https://eprints.bbk.ac.uk/id/eprint/50133", "comment": "Eve, Shadow Libraries and Pirate Infrastructures chapter"},
+  {"url": "https://eprints.bbk.ac.uk/id/eprint/32199", "comment": "Eve, David Foster Wallace Non-Fiction chapter"},
+  {"url": "https://eprints.bbk.ac.uk/id/eprint/44173", "comment": "Eve, Open Access and Neoliberalism chapter"},
+  {"url": "https://eprints.bbk.ac.uk/id/eprint/40856", "comment": "Eve, Open Access in the Humanities Disciplines chapter"},
+  {"url": "https://www.transcript-verlag.de/978-3-8376-5584-1/archives-access-and-artificial-intelligence/", "comment": "Eve et al, Reviewing the Reviewers neural networks chapter"}
+ ],
+ "2022-10-10-the-politics-of-peer-review-and-preprints-in-the-real-world.md": [
+  {"url": "https://www.cambridge.org/gb/academic/subjects/literature/printing-and-publishing-history/reading-peer-review-plos-one-and-institutional-change-academia?format=PB&isbn=9781108742702", "comment": "Eve, Reading Peer Review: PLOS ONE and Institutional Change"},
+  {"url": "https://doi.org/10.1057/palcomms.2016.105", "comment": "Article on excellence in academic publishing"},
+  {"url": "https://getevusheld.uk/", "comment": "Get Evusheld UK campaign website"},
+  {"url": "https://www.gov.uk/government/publications/decision-on-evusheld-as-a-coronavirus-covid-19-treatment-letter-to-patient-groups/decision-on-evusheld-as-a-covid-19-treatment", "comment": "UK government decision on Evusheld for patient groups"}
+ ],
+ "2022-09-01-small-publishers-and-subscribe-to-open.md": [
+  {"url": "https://web.hypothes.is/blog/say-hello-to-anno/", "comment": "Hypothes.is corporate form change to Anno"},
+  {"url": "https://www.whpress.co.uk/publications/journal-prices/", "comment": "Woodbridge and Hurt Press journal prices page"}
+ ],
+ "2022-08-30-open-peer-review-and-its-rhythms.md": [
+  {"url": "https://leadinggenerously.hcommons.org/", "comment": "Fitzpatrick, Leading Generously open review on HCommons"},
+  {"url": "https://doi.org/10.1111/1468-5973.12215", "comment": "Study on paratextual online comments affecting reading"},
+  {"url": "https://www.scientificamerican.com/article/reading-paper-screens/", "comment": "Scientific American on F-shaped screen reading patterns"},
+  {"url": "https://www.cambridge.org/gb/academic/subjects/literature/printing-and-publishing-history/reading-peer-review-plos-one-and-institutional-change-academia?format=PB&isbn=9781108742702", "comment": "Eve, Reading Peer Review: PLOS ONE and Institutional Change"}
+ ],
+ "2022-08-26-moving-on-my-infrastructural-turn.md": [
+  {"url": "https://crossref.org/", "comment": "Crossref homepage"},
+  {"url": "https://www.bbk.ac.uk/our-staff/profile/8727147/martin-paul-eve", "comment": "Eve's Birkbeck staff profile page"},
+  {"url": "https://eprints.bbk.ac.uk/id/eprint/12131/", "comment": "Eve, Password (book)"},
+  {"url": "https://copim.ac.uk/", "comment": "COPIM project homepage"}
+ ],
+ "2022-08-01-a-glimmer-of-hope.md": [
+  {"url": "https://getevusheld.uk/4_patients.html", "comment": "Get Evusheld UK patient stories page"},
+  {"url": "https://getevusheld.uk/4_media.html", "comment": "Get Evusheld UK scientific evidence and media page"},
+  {"url": "https://www.nice.org.uk/guidance/indevelopment?q=id6316", "comment": "NICE Evusheld in-development guidance entry"},
+  {"url": "https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciac625/6651663?login=false", "comment": "Real-world data study on Evusheld efficacy"}
+ ],
+ "2022-07-28-lastpass-cli-cant-login-using-master-password.md": [
+  {"url": "https://github.com/lastpass/lastpass-cli/issues/604", "comment": "LastPass CLI GitHub issue with login fix"}
+ ],
+ "2022-07-26-what-is-the-scholarly-record.md": [
+  {"url": "https://doi.org/10.1007/978-3-319-99435-2_2", "comment": "Dougherty, Defining the Scholarly Record chapter"}
+ ],
+ "2022-05-19-running-django-apps-on-amazon-ecsecr-using-fargate.md": [
+  {"url": "https://github.com/MartinPaulEve/django-fargate", "comment": "Eve's django-fargate demo project on GitHub"}
+ ],
+ "2022-05-07-static-site-hosting-in-the-cloud-should-not-be-this-hard-in-2022.md": [
+  {"url": "https://app.cloudcraft.co/", "comment": "Cloudcraft AWS architecture diagram tool"},
+  {"url": "https://github.com/MartinPaulEve/meve-iac", "comment": "Eve's infrastructure-as-code repo on GitHub"},
+  {"url": "https://aws.amazon.com/blogs/compute/implementing-default-directory-indexes-in-amazon-s3-backed-amazon-cloudfront-origins-using-lambdaedge/", "comment": "AWS blog on S3/CloudFront directory index with Lambda@Edge"},
+  {"url": "https://github.com/MartinPaulEve/meve-iac/tree/main/modules/terraform-aws-lambda-at-edge", "comment": "Eve's Terraform Lambda@Edge module on GitHub"},
+  {"url": "https://stackoverflow.com/a/52434219/349003", "comment": "Stack Overflow answer on Lambda@Edge event lifecycle"},
+  {"url": "https://books.eve.gd", "comment": "Eve's books subdomain site"}
+ ],
+ "2022-05-05-how-you-can-help-people-still-shielding.md": [
+  {"url": "https://www.writetothem.com/", "comment": "WriteToThem MP contact tool"},
+  {"url": "https://rheumatology.medicinematters.com/covid-19/rituximab/national-covid-cohort-collaborative/19947862", "comment": "Study on Rituximab and severe Covid outcomes"},
+  {"url": "https://petition.parliament.uk/petitions/611884", "comment": "UK Parliament petition for shielding patients"}
+ ],
+ "2022-04-30-resizing-image-uploads-in-django.md": [
+  {"url": "https://pypi.org/project/resize-image/", "comment": "resize-image Python package on PyPI"}
+ ],
+ "2022-04-28-the-current-state-of-evusheld-tixagevimabcilgavimab-in-the-uk.md": [
+  {"url": "https://doi.org/10.1016/S2665-9913(21", "comment": "Study on Rituximab and reduced vaccine efficacy"},
+  {"url": "https://www.gov.uk/government/news/evusheld-approved-to-prevent-covid-19-in-people-whose-immune-response-is-poor", "comment": "UK MHRA approval announcement for Evusheld"},
+  {"url": "https://www.dailymail.co.uk/health/article-10746187/Covid-19-Vulnerable-patients-denied-800-anti-viral-jab-unless-private.html", "comment": "Daily Mail article on Evusheld denial on NHS"},
+  {"url": "https://www.kingsfund.org.uk/publications/access-new-medicines-english-nhs", "comment": "King's Fund primer on NHS medicine access"},
+  {"url": "https://twitter.com/vickyfoxcroft/status/1519282453948641280", "comment": "Vicky Foxcroft MP tweet on Evusheld at PMQs"},
+  {"url": "https://twitter.com/CaroleCrossleyW/status/1519222341993119744", "comment": "Caroline Lucas tweet raising Evusheld issue"},
+  {"url": "https://www.writetothem.com/", "comment": "WriteToThem MP contact tool"},
+  {"url": "https://www.writetothem.com/write?fyr_extref=https%3A%2F%2Fwww.theyworkforyou.com%2F&who=58991", "comment": "WriteToThem page for Lord Mendelsohn"},
+  {"url": "https://www.gov.uk/government/publications/higher-risk-patients-eligible-for-covid-19-treatments-independent-advisory-group-report/defining-the-highest-risk-clinical-subgroups-upon-community-infection-with-sars-cov-2-when-considering-the-use-of-neutralising-monoclonal-antibodies", "comment": "UK independent advisory group report on high-risk Covid patients"}
+ ],
+ "2022-03-25-good-computer-networking-kit.md": [
+  {"url": "https://www.marvell.com/products/ethernet-adapters-and-controllers/fastlinq-edge-ethernet-controllers.html", "comment": "Marvell FastLinQ edge Ethernet controllers product page"}
+ ],
+ "2022-01-31-notes-on-plan-s-for-shock.md": [
+  {"url": "https://doi.org/10.5334/bcq", "comment": "Laakso and Pells, Plan S for Shock (Ubiquity Press, 2022)"},
+  {"url": "https://dash.harvard.edu/handle/1/4725013", "comment": "Suber, The Taxpayer Argument for open access"},
+  {"url": "https://olh.openlibhums.org/article/id/4494/", "comment": "Fyfe article in Open Library of Humanities"},
+  {"url": "https://direct.mit.edu/books/book/4933/chapter/625163/The-Royal-Society-and-the-Noncommercial", "comment": "Fyfe, The Royal Society and the Noncommercial chapter"},
+  {"url": "https://poorlydrawnlines.com/comic/new-phone-2/", "comment": "Poorly Drawn Lines comic on ignoring warnings"}
+ ],
+ "2022-01-27-20th-century-british-isles.md": [
+  {"url": "https://doi.org/10.1017/9781108649865.008", "comment": "Chapter on British Isles 20th-century novel in Cambridge volume"}
+ ],
+ "2022-01-24-using-django-orm-click-and-rich-to-quickly-create-great-command-line-python-apps.md": [
+  {"url": "https://github.com/Textualize/rich", "comment": "Textualize Rich Python CLI formatting library"},
+  {"url": "https://github.com/tqdm/tqdm", "comment": "tqdm Python progress bar library"}
+ ],
+ "2022-01-14-did-you-know-that-you-can-deposit-the-version-of-record-of-bloomsbury-academic-book-chapters-in-your-institutional-repository.md": [
+  {"url": "https://eprints.bbk.ac.uk/id/eprint/24067/", "comment": "Eve, Science and Identity in David Mitchell's Cloud Atlas"},
+  {"url": "http://eprints.bbk.ac.uk/16682/", "comment": "Eve, Openness Politics and Power in Bloomsbury volume"}
+ ],
+ "2022-01-13-open-access-is-building-a-one-time-shared-international-library-collection.md": [
+  {"url": "https://openingthefuture.net/", "comment": "Opening the Future OA monograph model homepage"},
+  {"url": "https://www.openlibhums.org/plugins/supporters/signup/", "comment": "Open Library of Humanities supporter signup page"}
+ ]
+}

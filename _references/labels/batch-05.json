@@ -1,0 +1,99 @@
+{
+ "2021-07-28-mesh-on-a-budget-converting-rbr50-to-rbs50-units-and-using-lbr20-for-4g-fallback.md": [
+  {"url": "https://www.reddit.com/r/HomeNetworking/comments/e53qp6/convert_orbi_rbr50_router_to_orbi_rbs50_satellite/", "comment": "Reddit thread on converting RBR50 to satellite"},
+  {"url": "https://kb.netgear.com/000059432/RBR50-RBS50-Firmware-Version-2-1-4-16", "comment": "Netgear KB page for firmware 2.1.4.16"},
+  {"url": "http://192.168.1.1", "comment": "Router homepage local address"},
+  {"url": "http://192.168.1.1/debug.htm", "comment": "Netgear router debug page local address"}
+ ],
+ "2021-07-23-its-time-we-dropped-agamben.md": [
+  {"url": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/is-the-covid19-vaccine-safe", "comment": "Johns Hopkins Medicine on COVID-19 vaccine safety"},
+  {"url": "https://www.nytimes.com/2020/08/21/opinion/sunday/giorgio-agamben-philosophy-coronavirus.html", "comment": "NYT op-ed on Agamben and techno-medical despotism"},
+  {"url": "https://thepointmag.com/politics/do-not-ask-me-who-i-am/", "comment": "Huneke, The Point critique of Agamben on COVID"}
+ ],
+ "2021-07-05-abandoning-restrictions-should-not-mean-abandoning-the-vulnerable-we-need-policies-to-help-those-who-remain-at-risk.md": [
+  {"url": "https://www.health.org.uk/news-and-comment/news/6-out-of-10-people-who-have-died-from-covid-19-are-disabled", "comment": "Health Foundation: 60% COVID deaths were disabled people"},
+  {"url": "https://www.theguardian.com/business/2021/jul/04/revealed-rise-in-stress-among-those-working-from-home", "comment": "Guardian on stress and mental health working from home"}
+ ],
+ "2021-07-03-thinking-about-uk-phd-examinations.md": [
+  {"url": "https://twitter.com/martin_eve/status/1034904589412323340", "comment": "Eve tweet calculating PhD examiner pay rate"}
+ ],
+ "2021-06-28-the-history-of-studying-english-at-birkbeck.md": [
+  {"url": "https://www.ucl.ac.uk/english/department/history-of-the-english-department", "comment": "UCL English Department history page"},
+  {"url": "https://doi.org/10.2307/2903057", "comment": "Article on Wilde lecturing on Thomas Chatterton"}
+ ],
+ "2021-06-12-on-the-chromoclasm.md": [
+  {"url": "https://press.princeton.edu/books/hardcover/9780691139302/black", "comment": "Pastoureau, Black: The History of a Color"},
+  {"url": "https://www.editions-harmattan.fr/index.asp?navig=catalogue&obj=livre&no=16032", "comment": "Pastoureau, L'incolore n'existe pas"},
+  {"url": "https://mediaevalmusings.wordpress.com/2012/10/03/light-upon-light-abbot-suger-and-the-invention-of-gothic/", "comment": "Blog post on Abbot Suger and Gothic light theology"}
+ ],
+ "2021-06-05-when-and-why-did-paper-become-white-and-why-was-white-paper-so-valued.md": [
+  {"url": "https://eprints.bbk.ac.uk/id/eprint/31744/", "comment": "Eve, Paper Thin, Birkbeck repository eprint"},
+  {"url": "https://www.umasspress.com/9781625344748/the-intimacy-of-paper-in-early-and-nineteenth-century-american-literature/", "comment": "Barber, The Intimacy of Paper in American Literature"},
+  {"url": "https://www.penguinrandomhouse.com/books/116116/the-paper-trail-by-alexander-monro/", "comment": "Monro, The Paper Trail"},
+  {"url": "https://www.amazon.co.uk/Papermaking-Technique-Lettering-Calligraphy-Typography/dp/0486236196", "comment": "Hunter, Papermaking: Technique and History"},
+  {"url": "https://www.cambridge.org/gb/academic/subjects/history/history-science-and-technology/science-and-civilisation-china-volume-5-part-1?format=HB&isbn=9780521086905", "comment": "Tsien, Science and Civilisation in China vol 5"},
+  {"url": "https://www.jstor.org/stable/608272", "comment": "Lionel Giles article on early Chinese paper"},
+  {"url": "https://www.wiley.com/en-us/White+Magic%3A+The+Age+of+Paper-p-9780745672533", "comment": "Muller, White Magic: The Age of Paper"},
+  {"url": "https://press.princeton.edu/books/hardcover/9780691139302/black", "comment": "Pastoureau, Black: The History of a Color"}
+ ],
+ "2021-05-21-whats-happening-at-the-moment-with-open-access-books.md": [
+  {"url": "https://doi.org/10.1629/uksg.392", "comment": "Eve article on OA book BPC distributional economics"}
+ ],
+ "2021-05-15-while-the-government-introduces-new-freedom-of-speech-rules-at-universities-the-biggest-threat-to-academic-freedom-remains-their-insistence-on-the-financial-destabilization-of-institutions.md": [
+  {"url": "https://bills.parliament.uk/Publications/41479/Documents/212/21012.pdf", "comment": "UK Higher Education (Freedom of Speech) Bill PDF"},
+  {"url": "https://www.mirror.co.uk/news/politics/tory-minister-says-universities-face-24102126", "comment": "Mirror: minister says bill aids Holocaust deniers on campus"},
+  {"url": "https://www.ucu.org.uk/article/11533/Global-boycott-of-University-of-Leicester-begins-today", "comment": "UCU global boycott of University of Leicester"},
+  {"url": "https://le.ac.uk/news/2021/may/recent-actions-from-UCU-statement", "comment": "University of Leicester response to UCU boycott"}
+ ],
+ "2021-05-03-coalition-s-endorsing-subscribe-to-open-is-a-great-start-we-need-the-same-thinking-about-books-from-the-beginning.md": [
+  {"url": "https://www.coalition-s.org/coalition-s-endorses-the-s2o-model-of-funding-oa/", "comment": "cOAlition S endorsement of Subscribe to Open model"},
+  {"url": "https://blogs.lse.ac.uk/impactofsocialsciences/2018/10/24/plan-show-me-the-money-why-academic-led-initiatives-represent-a-more-equitable-less-costly-publishing-future/", "comment": "LSE blog critique of Plan S APC bias"},
+  {"url": "https://www.coalition-s.org/why-plan-s/", "comment": "cOAlition S Plan S rationale page"},
+  {"url": "https://www.coalition-s.org/diamond-unearthed-shining-light-on-community-driven-open-access-publishing/", "comment": "cOAlition S Diamond OA report"},
+  {"url": "https://www.coalition-s.org/blog/diamond-mining/", "comment": "cOAlition S blog on Diamond OA funding"},
+  {"url": "https://openlibhums.org/", "comment": "Open Library of Humanities homepage"},
+  {"url": "https://www.openingthefuture.net/", "comment": "Opening the Future OA books scheme"},
+  {"url": "https://www.ceu.edu/article/2021-04-26/roll-out-first-open-access-books-fully-funded-opening-future", "comment": "CEU Press first OA books via Opening the Future"}
+ ],
+ "2021-04-28-an-update-on-the-reprint-of-my-book.md": [
+  {"url": "https://www.openbookpublishers.com//download/book/551", "comment": "Open Book Publishers free OA download of Eve's book"},
+  {"url": "https://www.openbookpublishers.com/product/530", "comment": "Open Book Publishers print edition of Eve's book"}
+ ],
+ "2021-04-08-software-as-a-service-and-commodity-fetishism.md": [
+  {"url": "https://www.theverge.com/2019/9/17/20870050/richard-stallman-resigns-mit-free-software-foundation-epstein", "comment": "Verge: Stallman resigns over Minsky/Epstein comments"},
+  {"url": "https://press.princeton.edu/books/paperback/9780691144610/coding-freedom", "comment": "Coleman, Coding Freedom: politics of open-source software"},
+  {"url": "https://archive.factordaily.com/richard-stallman-india/", "comment": "Factor Daily: Stallman on SaaS as malicious software"}
+ ],
+ "2021-03-27-how-to-fix-a-broken-crumar-bit99-synthesizer.md": [
+  {"url": "https://analog.no/wp/index.php/crumar-analog-synthesizer-factory-patches/", "comment": "analog.no Crumar synthesizer factory patches"}
+ ],
+ "2021-03-02-oa-books-being-reprinted-under-cc-by-license.md": [
+  {"url": "https://www.bookdepository.com/Literature-Against-Criticism-Martin-Paul-Eve/9781013288265?ref=grid-view&qid=1614677493139&sr=1-3", "comment": "Book Depository: Eve, Literature Against Criticism reprint"},
+  {"url": "https://www.openbookpublishers.com/product/530", "comment": "Open Book Publishers edition of Eve's book"},
+  {"url": "https://www.amazon.co.uk/s?k=literature+against+criticism&ref=nb_sb_noss", "comment": "Amazon search for Literature Against Criticism"}
+ ],
+ "2021-02-17-the-publishers-associations-impact-assessment-on-oa.md": [
+  {"url": "https://www.publishers.org.uk/publications/economic-impact-assessment/", "comment": "Publishers Association economic impact assessment on OA"},
+  {"url": "https://www.openingthefuture.net/", "comment": "Opening the Future OA books scheme"}
+ ],
+ "2021-01-21-on-healthcare-economics-and-valuing-lives.md": [
+  {"url": "https://www.theguardian.com/law/2021/jan/17/jonathan-sumption-cancer-patient-life-less-valuable-others", "comment": "Guardian: Sumption tells cancer patient her life less valuable"}
+ ],
+ "2021-01-18-how-much-optimism.md": [
+  {"url": "http://www.piduk.org/whatarepids/management/covid19researchupdate", "comment": "PID UK COVID-19 vaccine research update"}
+ ],
+ "2021-01-08-on-the-costs-of-scholarly-communications-and-the-discourse-of-fairness.md": [
+  {"url": "https://uk.sagepub.com/en-gb/eur/the-limits-of-neoliberalism/book256597", "comment": "Springer, The Limits of Neoliberalism"},
+  {"url": "https://twitter.com/lesliekwchan/status/1347197705014169601", "comment": "Leslie Chan tweet on competition framing in ScholComms"},
+  {"url": "https://jhupbooks.press.jhu.edu/title/generous-thinking", "comment": "Fitzpatrick, Generous Thinking"},
+  {"url": "https://blogs.openbookpublishers.com/introducing-some-data-to-the-open-access-debate-obps-business-model-part-one/", "comment": "Open Book Publishers blog on OA business model data"}
+ ],
+ "2021-01-07-2021-is-not-looking-much-better.md": [
+  {"url": "https://theconversation.com/why-realism-is-the-key-to-wellbeing-new-research-139717", "comment": "The Conversation: realism key to wellbeing research"},
+  {"url": "https://news.sky.com/story/covid-19-some-covid-restrictions-could-return-next-winter-chief-medical-officer-warns-12180133", "comment": "Sky News: CMO warns restrictions could return next winter"}
+ ],
+ "2021-01-03-reading-peer-review-is-published-today.md": [
+  {"url": "https://www.cambridge.org/core/elements/reading-peer-review/42F027E4C67D246DD8C3AC440A68C7A7", "comment": "Eve, Reading Peer Review, Cambridge Elements"},
+  {"url": "https://eprints.bbk.ac.uk/id/eprint/27709/", "comment": "Reading Peer Review, BIROn Birkbeck repository"}
+ ]
+}

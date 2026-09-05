@@ -1,0 +1,327 @@
+{
+ "2021-07-28-mesh-on-a-budget-converting-rbr50-to-rbs50-units-and-using-lbr20-for-4g-fallback.md": [
+  {
+   "url": "https://www.reddit.com/r/HomeNetworking/comments/e53qp6/convert_orbi_rbr50_router_to_orbi_rbs50_satellite/",
+   "text": "much reading around",
+   "context": "_cannot_, though, use an RBR50 as a satellite. Or so Netgear tell you... After [much reading around](https://www.reddit.com/r/HomeNetworking/comments/e53qp6/convert_orbi_rbr50_router_to_orbi_rbs50_satellite/), I found out how to convert an"
+  },
+  {
+   "url": "https://kb.netgear.com/000059432/RBR50-RBS50-Firmware-Version-2-1-4-16",
+   "text": "firmware 2.1.4.16",
+   "context": "ll work for you. You do it at your own risk. But it worked for me. 1. Download [firmware 2.1.4.16](https://kb.netgear.com/000059432/RBR50-RBS50-Firmware-Version-2-1-4-16) from Netgear for both the RBR50 and RBS50. 2. Connect the PC LAN po"
+  },
+  {
+   "url": "http://192.168.1.1",
+   "text": null,
+   "context": "2. Connect the PC LAN port to the RBR50. 3. Go to the router homepage (usually http://192.168.1.1) and do the initial config/setup, skipping everything. It doesn't matter what your setup is here as it will be nuked shortly. 4. Flash the R"
+  },
+  {
+   "url": "http://192.168.1.1/debug.htm",
+   "text": null,
+   "context": ". 4. Flash the RBR50 to the RBR50 2.1.4.16 firmware. 5. Once restarted, go to http://192.168.1.1/debug.htm, login using either your password or the default: \"admin\" / \"password\" and then turn on telnet. 6. Telnet to 192.168.1.1 using sam"
+  }
+ ],
+ "2021-07-23-its-time-we-dropped-agamben.md": [
+  {
+   "url": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/is-the-covid19-vaccine-safe",
+   "text": "is no mainstream scientific \"debate\" about the safety or efficacy of the vaccines",
+   "context": "]. This is not true. Agamben appears to be a vaccine conspiracy theorist. There [is no mainstream scientific \"debate\" about the safety or efficacy of the vaccines](https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/i"
+  },
+  {
+   "url": "https://www.nytimes.com/2020/08/21/opinion/sunday/giorgio-agamben-philosophy-coronavirus.html",
+   "text": "techno-medical despotism",
+   "context": "s and this is clear in his earlier comments on the virus, where he refers to a \"[techno-medical despotism](https://www.nytimes.com/2020/08/21/opinion/sunday/giorgio-agamben-philosophy-coronavirus.html)\". As [Samuel Clowes Huneke points out]"
+  },
+  {
+   "url": "https://thepointmag.com/politics/do-not-ask-me-who-i-am/",
+   "text": "Samuel Clowes Huneke points out",
+   "context": "com/2020/08/21/opinion/sunday/giorgio-agamben-philosophy-coronavirus.html)\". As [Samuel Clowes Huneke points out](https://thepointmag.com/politics/do-not-ask-me-who-i-am/), what is problematic here is that Agamben's thought is \"unable to di"
+  }
+ ],
+ "2021-07-05-abandoning-restrictions-should-not-mean-abandoning-the-vulnerable-we-need-policies-to-help-those-who-remain-at-risk.md": [
+  {
+   "url": "https://www.health.org.uk/news-and-comment/news/6-out-of-10-people-who-have-died-from-covid-19-are-disabled",
+   "text": "60% of deaths from the virus in England have been of disabled people",
+   "context": "d saying goes, though: it’s not paranoia if they are really after you. To date, [60% of deaths from the virus in England have been of disabled people](https://www.health.org.uk/news-and-comment/news/6-out-of-10-people-who-have-died-from-cov"
+  },
+  {
+   "url": "https://www.theguardian.com/business/2021/jul/04/revealed-rise-in-stress-among-those-working-from-home",
+   "text": "stress, worry, and mental health problems",
+   "context": "ect of indefinite isolation for the vulnerable. Isolation of this kind leads to [stress, worry, and mental health problems](https://www.theguardian.com/business/2021/jul/04/revealed-rise-in-stress-among-those-working-from-home). However, th"
+  }
+ ],
+ "2021-07-03-thinking-about-uk-phd-examinations.md": [
+  {
+   "url": "https://twitter.com/martin_eve/status/1034904589412323340",
+   "text": "I calculated this out for a previous examination",
+   "context": "ng is a paid activity, on top of an academic salary. However, it is badly paid. [I calculated this out for a previous examination](https://twitter.com/martin_eve/status/1034904589412323340) and found that, if I worked at minimum wage, that"
+  }
+ ],
+ "2021-06-28-the-history-of-studying-english-at-birkbeck.md": [
+  {
+   "url": "https://www.ucl.ac.uk/english/department/history-of-the-english-department",
+   "text": "Thelwall apparently spoke on Milton in 1830",
+   "context": "s not a degree programme, but it was part of the set of lectures. For instance, [Thelwall apparently spoke on Milton in 1830](https://www.ucl.ac.uk/english/department/history-of-the-english-department). If this is the case, then the College"
+  },
+  {
+   "url": "https://doi.org/10.2307/2903057",
+   "text": null,
+   "context": "y, and Crimes of Writing’, _Nineteenth-Century Literature_, 55.1 (2000), 59–91 <https://doi.org/10.2307/2903057> notes that: 'Wilde lectured at least once on the \"marvellous boy,\" on 24 November 1886 to an audience of eight hundred at Lond"
+  }
+ ],
+ "2021-06-12-on-the-chromoclasm.md": [
+  {
+   "url": "https://press.princeton.edu/books/hardcover/9780691139302/black",
+   "text": "p. 124",
+   "context": "of iconoclasm – reoriented the color spectrum around a ‘black-gray-white axis’ ([p. 124](https://press.princeton.edu/books/hardcover/9780691139302/black)). Yet the challenge here lies in the supposition that an iconoclasm of colour – which"
+  },
+  {
+   "url": "https://www.editions-harmattan.fr/index.asp?navig=catalogue&obj=livre&no=16032",
+   "text": "L’incolore n’existe pas",
+   "context": "ed as the zero point, an absence of color. As Pastoureau has put it elsewhere: \"[L’incolore n’existe pas](https://www.editions-harmattan.fr/index.asp?navig=catalogue&obj=livre&no=16032)\". This work (Pastoureau, Michel, ‘L’incolore n’existe"
+  },
+  {
+   "url": "https://mediaevalmusings.wordpress.com/2012/10/03/light-upon-light-abbot-suger-and-the-invention-of-gothic/",
+   "text": "a style that was designed to emphasize light as the agent of God",
+   "context": "le's physics, St. Suger rebuilt the abbey in Saint Denis in around 1130-1140 in [a style that was designed to emphasize light as the agent of God](https://mediaevalmusings.wordpress.com/2012/10/03/light-upon-light-abbot-suger-and-the-invent"
+  }
+ ],
+ "2021-06-05-when-and-why-did-paper-become-white-and-why-was-white-paper-so-valued.md": [
+  {
+   "url": "https://eprints.bbk.ac.uk/id/eprint/31744/",
+   "text": "_Paper Thin_",
+   "context": "d why did paper become white and why was white paper so valued?\" for my work on [_Paper Thin_](https://eprints.bbk.ac.uk/id/eprint/31744/). Here are some of my very abridged findings. This sounds as though it's a trivial question. Obviousl"
+  },
+  {
+   "url": "https://www.umasspress.com/9781625344748/the-intimacy-of-paper-in-early-and-nineteenth-century-american-literature/",
+   "text": "p. 142",
+   "context": "aring\". He also cites a report that \"white on a black ground is more distinct\" ([p. 142](https://www.umasspress.com/9781625344748/the-intimacy-of-paper-in-early-and-nineteenth-century-american-literature/)). The earliest papers in ancient"
+  },
+  {
+   "url": "https://www.penguinrandomhouse.com/books/116116/the-paper-trail-by-alexander-monro/",
+   "text": "Monro",
+   "context": "anufacture) to the court eunuch Tshai/Ts’ai (Cai) Lun in the +2nd century (e.g. [Monro](https://www.penguinrandomhouse.com/books/116116/the-paper-trail-by-alexander-monro/), [Hunter](https://www.amazon.co.uk/Papermaking-Technique-Lettering-"
+  },
+  {
+   "url": "https://www.amazon.co.uk/Papermaking-Technique-Lettering-Calligraphy-Typography/dp/0486236196",
+   "text": "Hunter",
+   "context": "//www.penguinrandomhouse.com/books/116116/the-paper-trail-by-alexander-monro/), [Hunter](https://www.amazon.co.uk/Papermaking-Technique-Lettering-Calligraphy-Typography/dp/0486236196)). In ancient China, though, early paper-making used vari"
+  },
+  {
+   "url": "https://www.cambridge.org/gb/academic/subjects/history/history-science-and-technology/science-and-civilisation-china-volume-5-part-1?format=HB&isbn=9780521086905",
+   "text": "Tsien, p. 174",
+   "context": "yellow, apparently using a liquid from the Phellodendron amurense (cork tree) ([Tsien, p. 174](https://www.cambridge.org/gb/academic/subjects/history/history-science-and-technology/science-and-civilisation-china-volume-5-part-1?format=HB&i"
+  },
+  {
+   "url": "https://www.jstor.org/stable/608272",
+   "text": "Giles, p. 813",
+   "context": "s Lionel Giles notes, \"at the very end the original whitish colour is visible\" ([Giles, p. 813](https://www.jstor.org/stable/608272)). In later European paper-making environments, coloured papers still played key signifying roles. As Mülle"
+  },
+  {
+   "url": "https://www.wiley.com/en-us/White+Magic%3A+The+Age+of+Paper-p-9780745672533",
+   "text": "p. 76",
+   "context": "in Arab culture, so white paper was covered with as much writing as possible\" ([p. 76](https://www.wiley.com/en-us/White+Magic%3A+The+Age+of+Paper-p-9780745672533)). Nonetheless, as time goes by, the sheer whiteness of paper becomes a val"
+  },
+  {
+   "url": "https://press.princeton.edu/books/hardcover/9780691139302/black",
+   "text": "p. 118",
+   "context": "hat would lead to profound transformations in the domain of color sensibility\" ([p. 118](https://press.princeton.edu/books/hardcover/9780691139302/black), emphasis mine). So, a crucial point here is that nobody actually quite knows why ult"
+  }
+ ],
+ "2021-05-21-whats-happening-at-the-moment-with-open-access-books.md": [
+  {
+   "url": "https://doi.org/10.1629/uksg.392",
+   "text": "distributional economics are just not right",
+   "context": "turn-off for academics around OA for books is the economics of these fees. The [distributional economics are just not right](https://doi.org/10.1629/uksg.392). The challenge, of course, is that libraries may find themselves torn between w"
+  }
+ ],
+ "2021-05-15-while-the-government-introduces-new-freedom-of-speech-rules-at-universities-the-biggest-threat-to-academic-freedom-remains-their-insistence-on-the-financial-destabilization-of-institutions.md": [
+  {
+   "url": "https://bills.parliament.uk/Publications/41479/Documents/212/21012.pdf",
+   "text": "Higher Education (Freedom of Speech) Bill",
+   "context": "This morning I have been looking at the UK government's so-called \"[Higher Education (Freedom of Speech) Bill](https://bills.parliament.uk/Publications/41479/Documents/212/21012.pdf)\". The politics of this are extremely complic"
+  },
+  {
+   "url": "https://www.mirror.co.uk/news/politics/tory-minister-says-universities-face-24102126",
+   "text": "the legislation will help get Holocaust deniers onto campus",
+   "context": "but suffice it to say that when the Minister for HE ends up having to say that [the legislation will help get Holocaust deniers onto campus](https://www.mirror.co.uk/news/politics/tory-minister-says-universities-face-24102126), it doesn't"
+  },
+  {
+   "url": "https://www.ucu.org.uk/article/11533/Global-boycott-of-University-of-Leicester-begins-today",
+   "text": "a global boycott (greylisting)",
+   "context": "etisation. The University and College Union (UCU) in the UK this week launched [a global boycott (greylisting)](https://www.ucu.org.uk/article/11533/Global-boycott-of-University-of-Leicester-begins-today) of the University of Leicester. At"
+  },
+  {
+   "url": "https://le.ac.uk/news/2021/may/recent-actions-from-UCU-statement",
+   "text": "its response to UCU's boycott",
+   "context": "speak out against senior management. Further, the University of Leicester, in [its response to UCU's boycott](https://le.ac.uk/news/2021/may/recent-actions-from-UCU-statement), said: \"Every institution has the autonomy to decide which are"
+  }
+ ],
+ "2021-05-03-coalition-s-endorsing-subscribe-to-open-is-a-great-start-we-need-the-same-thinking-about-books-from-the-beginning.md": [
+  {
+   "url": "https://www.coalition-s.org/coalition-s-endorses-the-s2o-model-of-funding-oa/",
+   "text": "cOAlition S endorsed the Subscribe to Open (S2O) business model",
+   "context": "This week, [cOAlition S endorsed the Subscribe to Open (S2O) business model](https://www.coalition-s.org/coalition-s-endorses-the-s2o-model-of-funding-oa/). This group of"
+  },
+  {
+   "url": "https://blogs.lse.ac.uk/impactofsocialsciences/2018/10/24/plan-show-me-the-money-why-academic-led-initiatives-represent-a-more-equitable-less-costly-publishing-future/",
+   "text": "critics have claimed that the cOAlition has been too wedded",
+   "context": "nders is committed to a complete transition to open-access publishing. To date, [critics have claimed that the cOAlition has been too wedded](https://blogs.lse.ac.uk/impactofsocialsciences/2018/10/24/plan-show-me-the-money-why-academic-led-"
+  },
+  {
+   "url": "https://www.coalition-s.org/why-plan-s/",
+   "text": "Plan S is theoretically neutral",
+   "context": "ture/) to the (inflationary) Article Processing Charge business model, although [Plan S is theoretically neutral](https://www.coalition-s.org/why-plan-s/) on this matter. However, coupled with their [recent publication on “Diamond” OA](http"
+  },
+  {
+   "url": "https://www.coalition-s.org/diamond-unearthed-shining-light-on-community-driven-open-access-publishing/",
+   "text": "recent publication on “Diamond” OA",
+   "context": "://www.coalition-s.org/why-plan-s/) on this matter. However, coupled with their [recent publication on “Diamond” OA](https://www.coalition-s.org/diamond-unearthed-shining-light-on-community-driven-open-access-publishing/), this endorsement"
+  },
+  {
+   "url": "https://www.coalition-s.org/blog/diamond-mining/",
+   "text": "open access without author-side payments",
+   "context": "mmunity-driven-open-access-publishing/), this endorsement marks a milestone for [open access without author-side payments](https://www.coalition-s.org/blog/diamond-mining/). I am, of course, delighted at this news. The [Open Library of Hum"
+  },
+  {
+   "url": "https://openlibhums.org/",
+   "text": "Open Library of Humanities (OLH)",
+   "context": "tion-s.org/blog/diamond-mining/). I am, of course, delighted at this news. The [Open Library of Humanities (OLH)](https://openlibhums.org/), which I run, has planned and used a collective business model of the “S2O” variety since 2013. The"
+  },
+  {
+   "url": "https://www.openingthefuture.net/",
+   "text": "Opening the Future scheme",
+   "context": "n models for open access to books that do not require author-side payments. Our [Opening the Future scheme](https://www.openingthefuture.net/) is converting university presses to collective funding models for open access to books. With the"
+  },
+  {
+   "url": "https://www.ceu.edu/article/2021-04-26/roll-out-first-open-access-books-fully-funded-opening-future",
+   "text": "target of our first books with the CEU Press",
+   "context": "of [Opening the Future](https://www.openingthefuture.net/). We have reached the [target of our first books with the CEU Press](https://www.ceu.edu/article/2021-04-26/roll-out-first-open-access-books-fully-funded-opening-future). However, th"
+  }
+ ],
+ "2021-04-28-an-update-on-the-reprint-of-my-book.md": [
+  {
+   "url": "https://www.openbookpublishers.com//download/book/551",
+   "text": "download it for free (OA)",
+   "context": "ts sales. As usual, I would encourage those who wish to read the book either to [download it for free (OA)](https://www.openbookpublishers.com//download/book/551) or to [buy print from Open Book Publishers](https://www.openbookpublishers.co"
+  },
+  {
+   "url": "https://www.openbookpublishers.com/product/530",
+   "text": "buy print from Open Book Publishers",
+   "context": "it for free (OA)](https://www.openbookpublishers.com//download/book/551) or to [buy print from Open Book Publishers](https://www.openbookpublishers.com/product/530), in order to help with their sustainability."
+  }
+ ],
+ "2021-04-08-software-as-a-service-and-commodity-fetishism.md": [
+  {
+   "url": "https://www.theverge.com/2019/9/17/20870050/richard-stallman-resigns-mit-free-software-foundation-epstein",
+   "text": "comments about Marvin Minsky",
+   "context": "open-source software movement, is a problematic figure, most recently so in his [comments about Marvin Minsky](https://www.theverge.com/2019/9/17/20870050/richard-stallman-resigns-mit-free-software-foundation-epstein). Gabriella Coleman has"
+  },
+  {
+   "url": "https://press.princeton.edu/books/paperback/9780691144610/coding-freedom",
+   "text": "lengthy study of the politics of open-source software",
+   "context": "s-mit-free-software-foundation-epstein). Gabriella Coleman has also conducted a [lengthy study of the politics of open-source software](https://press.princeton.edu/books/paperback/9780691144610/coding-freedom), concluding that it is 'libera"
+  },
+  {
+   "url": "https://archive.factordaily.com/richard-stallman-india/",
+   "text": "recent pronouncements",
+   "context": "beral' in its politics (that is to say: not radically left). One of Stallman's [recent pronouncements](https://archive.factordaily.com/richard-stallman-india/) caught my attention though: > Another malicious functionality I should mention"
+  }
+ ],
+ "2021-03-27-how-to-fix-a-broken-crumar-bit99-synthesizer.md": [
+  {
+   "url": "https://analog.no/wp/index.php/crumar-analog-synthesizer-factory-patches/",
+   "text": "analog.no",
+   "context": "ges/crumar_bit01_factory_b.zip\">Sound pack B</a>, which I've mirrored here from <a href=\"https://analog.no/wp/index.php/crumar-analog-synthesizer-factory-patches/\">analog.no</a> in case that ever goes down). Next, make sure that \"memory pr"
+  }
+ ],
+ "2021-03-02-oa-books-being-reprinted-under-cc-by-license.md": [
+  {
+   "url": "https://www.bookdepository.com/Literature-Against-Criticism-Martin-Paul-Eve/9781013288265?ref=grid-view&qid=1614677493139&sr=1-3",
+   "text": "Literature Against Criticism",
+   "context": "ogues of Open Book Publishers, Ubiquity Press, UCL Press, and others. Here's my [Literature Against Criticism](https://www.bookdepository.com/Literature-Against-Criticism-Martin-Paul-Eve/9781013288265?ref=grid-view&qid=1614677493139&sr=1-3)"
+  },
+  {
+   "url": "https://www.openbookpublishers.com/product/530",
+   "text": "Open Book Publishers",
+   "context": "s such a disappointment. 2. That said, it's _much cheaper_ to buy the book from [Open Book Publishers](https://www.openbookpublishers.com/product/530). Even a cursory search would reveal this, say, [on Amazon](https://www.amazon.co.uk/s?k=l"
+  },
+  {
+   "url": "https://www.amazon.co.uk/s?k=literature+against+criticism&ref=nb_sb_noss",
+   "text": "on Amazon",
+   "context": "nbookpublishers.com/product/530). Even a cursory search would reveal this, say, [on Amazon](https://www.amazon.co.uk/s?k=literature+against+criticism&ref=nb_sb_noss). 3. It is possible for authors to contact the publisher -- I am just worki"
+  }
+ ],
+ "2021-02-17-the-publishers-associations-impact-assessment-on-oa.md": [
+  {
+   "url": "https://www.publishers.org.uk/publications/economic-impact-assessment/",
+   "text": "commissioned a report",
+   "context": "The Publisher's Association has [commissioned a report](https://www.publishers.org.uk/publications/economic-impact-assessment/) that seems to be their latest attempt at painting open access to"
+  },
+  {
+   "url": "https://www.openingthefuture.net/",
+   "text": "I am showing how university presses can transition to an OA model without BPC fees",
+   "context": "Cs are the only way that this could be funded and so say it's not possible. Yet [I am showing how university presses can transition to an OA model without BPC fees](https://www.openingthefuture.net/). Further, there are many scholarled publ"
+  }
+ ],
+ "2021-01-21-on-healthcare-economics-and-valuing-lives.md": [
+  {
+   "url": "https://www.theguardian.com/law/2021/jan/17/jonathan-sumption-cancer-patient-life-less-valuable-others",
+   "text": "her life was less valuable than others",
+   "context": "aving been a Supreme Court justice, had told a cancer sufferer live on air that [her life was less valuable than others](https://www.theguardian.com/law/2021/jan/17/jonathan-sumption-cancer-patient-life-less-valuable-others). Pretty disgust"
+  }
+ ],
+ "2021-01-18-how-much-optimism.md": [
+  {
+   "url": "http://www.piduk.org/whatarepids/management/covid19researchupdate",
+   "text": "PID UK - COVID-19 research update",
+   "context": "vaccine mounted by patients with PID or SID. More information is now posted at [PID UK - COVID-19 research update](http://www.piduk.org/whatarepids/management/covid19researchupdate).\" This is all to say that even with the vaccine, it is n"
+  }
+ ],
+ "2021-01-08-on-the-costs-of-scholarly-communications-and-the-discourse-of-fairness.md": [
+  {
+   "url": "https://uk.sagepub.com/en-gb/eur/the-limits-of-neoliberalism/book256597",
+   "text": "displaced by economics",
+   "context": "ught to pertain to social equality, justice, and other matters of decency -- is [displaced by economics](https://uk.sagepub.com/en-gb/eur/the-limits-of-neoliberalism/book256597). This leads to solutions for fairness that claim that increase"
+  },
+  {
+   "url": "https://twitter.com/lesliekwchan/status/1347197705014169601",
+   "text": "As Leslie Chan put it",
+   "context": "solutions for fairness that claim that increased competition is the way to go. [As Leslie Chan put it](https://twitter.com/lesliekwchan/status/1347197705014169601), though: 'framing scholarly communication in terms of \"competition\" and \"ma"
+  },
+  {
+   "url": "https://jhupbooks.press.jhu.edu/title/generous-thinking",
+   "text": "do not share our values",
+   "context": "rds concentration of ScholComms into the ever-fewer hands of organizations that [do not share our values](https://jhupbooks.press.jhu.edu/title/generous-thinking). I also see this on the inside track. I am doing the budget for OLH for the"
+  },
+  {
+   "url": "https://blogs.openbookpublishers.com/introducing-some-data-to-the-open-access-debate-obps-business-model-part-one/",
+   "text": "Open Book Publishers",
+   "context": "publishers benefit from lots of free labour, then that's no good. I think that [Open Book Publishers](https://blogs.openbookpublishers.com/introducing-some-data-to-the-open-access-debate-obps-business-model-part-one/) are a good example of"
+  }
+ ],
+ "2021-01-07-2021-is-not-looking-much-better.md": [
+  {
+   "url": "https://theconversation.com/why-realism-is-the-key-to-wellbeing-new-research-139717",
+   "text": "realism is key to being happy",
+   "context": "esearch earlier this year that I thought was apt for the pandemic, showing that [realism is key to being happy](https://theconversation.com/why-realism-is-the-key-to-wellbeing-new-research-139717), not optimism or pessimism. In particular,"
+  },
+  {
+   "url": "https://news.sky.com/story/covid-19-some-covid-restrictions-could-return-next-winter-chief-medical-officer-warns-12180133",
+   "text": "need to be restrictions next winter",
+   "context": "even after vaccination. 6. The Chief Medical Officer has said that there will [need to be restrictions next winter](https://news.sky.com/story/covid-19-some-covid-restrictions-could-return-next-winter-chief-medical-officer-warns-12180133)"
+  }
+ ],
+ "2021-01-03-reading-peer-review-is-published-today.md": [
+  {
+   "url": "https://www.cambridge.org/core/elements/reading-peer-review/42F027E4C67D246DD8C3AC440A68C7A7",
+   "text": "Reading Peer Review",
+   "context": "21/01/03/i-have-submitted-the-warez-book/), I am pleased to be able to say that [Reading Peer Review](https://www.cambridge.org/core/elements/reading-peer-review/42F027E4C67D246DD8C3AC440A68C7A7), my 7<sup>th</sup> academic book, has been p"
+  },
+  {
+   "url": "https://eprints.bbk.ac.uk/id/eprint/27709/",
+   "text": "BIROn",
+   "context": "e.org/core/elements/reading-peer-review/42F027E4C67D246DD8C3AC440A68C7A7) or in [BIROn](https://eprints.bbk.ac.uk/id/eprint/27709/). Here's the blurb: How do you change the world of academia and what insight can peer review provide into t"
+  }
+ ]
+}

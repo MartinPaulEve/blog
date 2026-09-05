@@ -1,0 +1,427 @@
+{
+ "2011-06-14-upcoming-workshop-inbox-zero-and-tech-task-lists-getting-things-done.md": [
+  {
+   "url": "http://www.sussex.ac.uk/doctoralschool/internal/researcherdev/events/index.php?pageon=2&status=open",
+   "text": "events page",
+   "context": "ommitment</li> </blockquote> <p>For more information and book, please visit the <a href=\"http://www.sussex.ac.uk/doctoralschool/internal/researcherdev/events/index.php?pageon=2&status=open\">events page</a>.</p> <p><i>Featured image credit:"
+  },
+  {
+   "url": "http://www.flickr.com/photos/utopianlee/",
+   "text": "leezfield",
+   "context": "dex.php?pageon=2&status=open\">events page</a>.</p> <p><i>Featured image credit: <a href=\"http://www.flickr.com/photos/utopianlee/\">leezfield</a> under a CC-BY-NC-SA license.</i></p>"
+  }
+ ],
+ "2011-06-13-more-pynchonalia.md": [
+  {
+   "url": "https://www.martineve.com/2010/06/22/my-navy-days-with-thomas-ruggles-pynchon/",
+   "text": "a bit of a tradition",
+   "context": "<p>As seems to be becoming <a href=\"https://www.martineve.com/2010/06/22/my-navy-days-with-thomas-ruggles-pynchon/\">a bit of a tradition</a>, my friend Duncan came up with a Pynchon theme"
+  }
+ ],
+ "2011-06-08-six-lines-to-get-sun-java-running-on-fedora-15-x64.md": [
+  {
+   "url": "http://www.if-not-true-then-false.com/2010/install-sun-oracle-java-jdk-jre-7-on-fedora-centos-red-hat-rhel/",
+   "text": "another post",
+   "context": "<p>Here's a quick 'n' easy version of <a href=\"http://www.if-not-true-then-false.com/2010/install-sun-oracle-java-jdk-jre-7-on-fedora-centos-red-hat-rhel/\">another post</a> that uses the rpm instead"
+  },
+  {
+   "url": "http://download.oracle.com/otn-pub/java/jdk/6u25-b06/jre-6u25-linux-x64-rpm.bin",
+   "text": null,
+   "context": "t uses the rpm instead of the extracting to opt.</p> {% highlight bash %} wget http://download.oracle.com/otn-pub/java/jdk/6u25-b06/jre-6u25-linux-x64-rpm.bin chmod +x jre-* sudo ./jre-* sudo alternatives --install /usr/bin/java java /usr/"
+  }
+ ],
+ "2011-06-07-a-brief-intro-pynchon-bibliography-biographical-and-gravitys-rainbow.md": [
+  {
+   "url": "http://www.twitter.com/WhelanWrites",
+   "text": "WhelanWrites",
+   "context": "<p>I saw yesterday that Twitter user <a href=\"http://www.twitter.com/WhelanWrites\">WhelanWrites</a> was asking for a basic rundown of some introductory Pynchon criticism. Rather than reply, I thoug"
+  },
+  {
+   "url": "http://www.google.co.uk/search?q=charles%20hollander%20pynchon",
+   "text": "do this search",
+   "context": "ena is Charles Hollander. Most of his articles are available free online if you <a href=\"http://www.google.co.uk/search?q=charles%20hollander%20pynchon\">do this search</a>. I'm not so keen on his stuff, but it's certainly worth a look as so"
+  },
+  {
+   "url": "http://www.flickr.com/photos/52381596@N00/",
+   "text": "Tessa Farrell",
+   "context": "n from GR features heavily!</p> <p>Hope that helps.</p> <p><i>Featured image by <a href=\"http://www.flickr.com/photos/52381596@N00/\">Tessa Farrell</a> under a CC-BY license.</i></p>"
+  }
+ ],
+ "2011-06-01-william-gibson-cory-doctorow-diane-coyle-and-mark-stevenson-at-the-british-library.md": [
+  {
+   "url": "http://www.bl.uk/whatson/index.html",
+   "text": "exhibition and series of related events",
+   "context": "evenson as part of their Out of This World series. In case you haven't seen the <a href=\"http://www.bl.uk/whatson/index.html\">exhibition and series of related events</a>, I suggest you check it out. Also worth checking out is <a href=\"http:"
+  },
+  {
+   "url": "http://blog.enlightenmenteconomics.com/blog/_archives/2011/5/25/4824194.html",
+   "text": "Diane Coyle's own blog post",
+   "context": "s of related events</a>, I suggest you check it out. Also worth checking out is <a href=\"http://blog.enlightenmenteconomics.com/blog/_archives/2011/5/25/4824194.html\">Diane Coyle's own blog post</a> on the evening, which gives an accurate a"
+  },
+  {
+   "url": "http://www.bbc.co.uk/news/world-us-canada-11454789",
+   "text": "a less than sound ethical history",
+   "context": "applied. In many cases, such as vaccines, progress also exists but perhaps with <a href=\"http://www.bbc.co.uk/news/world-us-canada-11454789\">a less than sound ethical history</a>. A more prominent example: the atomic bomb. We live in the mo"
+  },
+  {
+   "url": "http://istyosty.com/5bv5",
+   "text": "the Daily Mail might put it",
+   "context": "ives it proposes? Scientists are not evil monsters (\"playing God\" as, no doubt, <a href=\"http://istyosty.com/5bv5\">the Daily Mail might put it</a> [istyosty proxy]) and the vast majority undertake their work for the benefit of human kind in"
+  },
+  {
+   "url": "http://www.flickr.com/photos/snowblink/",
+   "text": "snowblink",
+   "context": "w put it, ideology.</p> <p><i>Image of William Gibson from a different event by <a href=\"http://www.flickr.com/photos/snowblink/\">snowblink</a> under a CC-BY-NC-ND license.</i></p>"
+  }
+ ],
+ "2011-05-30-moving-from-ubuntu-to-fedora.md": [
+  {
+   "url": "http://fedoraproject.org/",
+   "text": "Fedora 15",
+   "context": "ting this blog post, I was intending to extol the virtues of the newly released <a href=\"http://fedoraproject.org/\">Fedora 15</a> compared to the trainwreck that is <a href=\"http://www.ubuntu.com/\">Ubuntu 11.04</a>. It turns out the story i"
+  },
+  {
+   "url": "http://www.ubuntu.com/",
+   "text": "Ubuntu 11.04",
+   "context": "ef=\"http://fedoraproject.org/\">Fedora 15</a> compared to the trainwreck that is <a href=\"http://www.ubuntu.com/\">Ubuntu 11.04</a>. It turns out the story isn't as clear cut as that, but wanted to give my experience in comparison installing"
+  },
+  {
+   "url": "http://www.google.co.uk/search?source=ig&hl=en&rlz=&q=unity+slow&aq=f&aqi=g10&aql=&oq=",
+   "text": "seemingly agree",
+   "context": "ed these bugs well within the beta cycle.</p> <p>To my (and the many others who <a href=\"http://www.google.co.uk/search?source=ig&hl=en&rlz=&q=unity+slow&aq=f&aqi=g10&aql=&oq=\">seemingly agree</a>) intense frustration, this was not fixed be"
+  },
+  {
+   "url": "http://blog.bodhizazen.net/linux/how-to-install-the-nvidia-driver-on-fedora-15/",
+   "text": "some different instructions",
+   "context": "e to refresh and the entire thing was unusable. I intend to try again following <a href=\"http://blog.bodhizazen.net/linux/how-to-install-the-nvidia-driver-on-fedora-15/\">some different instructions</a>, but this really needs to be fixed bef"
+  },
+  {
+   "url": "http://www.flickr.com/photos/naudinsylvain/",
+   "text": "Sylvain Naudin",
+   "context": "driver and GNOME 3, you could be in for a nasty shock.</p> <p><i>Screenshot by <a href=\"http://www.flickr.com/photos/naudinsylvain/\">Sylvain Naudin</a> under a CC-BY-SA license.</i></p>"
+  }
+ ],
+ "2011-05-27-academic-businesss-cards.md": [
+  {
+   "url": "http://www.moo.com",
+   "text": "moo.com",
+   "context": "und when, at the end of last month, I was offered a free trial of 50 cards from <a href=\"http://www.moo.com\">moo.com</a>, via <a href=\"http://about.me/martineve\">my about.me account</a>. Tempted to just click delete, I changed my mind and d"
+  },
+  {
+   "url": "http://about.me/martineve",
+   "text": "my about.me account",
+   "context": "red a free trial of 50 cards from <a href=\"http://www.moo.com\">moo.com</a>, via <a href=\"http://about.me/martineve\">my about.me account</a>. Tempted to just click delete, I changed my mind and decided that I'd give it a go, to see whether,"
+  },
+  {
+   "url": "http://www.istockphoto.com/",
+   "text": "iStockPhoto",
+   "context": "to a white background and a green leaf which I bought for a minute amount from <a href=\"http://www.istockphoto.com/\">iStockPhoto</a>. The back was a toss-up between a picture of myself, or a QR code that would lead to my profile. I eventua"
+  }
+ ],
+ "2011-05-25-the-rhetoric-of-fighting-illness-and-disability.md": [
+  {
+   "url": "http://uk.answers.yahoo.com/question/index?qid=20090910153441AAzSQrX",
+   "text": "Once upon a time... Life",
+   "context": "mune system is an \"army\" which must repel the invading hordes. Kid's cartoons (\"<a href=\"http://uk.answers.yahoo.com/question/index?qid=20090910153441AAzSQrX\">Once upon a time... Life</a>\") did this when describing immunity. When I was firs"
+  },
+  {
+   "url": "http://www.usatoday.com/news/opinion/editorials/2005-07-31-letters-other_x.htm",
+   "text": "Letters to USA Today",
+   "context": "it is described as the immune system going wrong and attacking one's own body. <a href=\"http://www.usatoday.com/news/opinion/editorials/2005-07-31-letters-other_x.htm\">Letters to USA Today</a> bemoan it when anti-(real)war rhetoric is put"
+  },
+  {
+   "url": "http://www.guardian.co.uk/world/2011/may/20/paralysed-sports-star-steps-history-rob-summers",
+   "text": "The Guardian",
+   "context": "ent was you don't know me very well. I'm going to fight until I get well again (<a href=\"http://www.guardian.co.uk/world/2011/may/20/paralysed-sports-star-steps-history-rob-summers\">The Guardian</a>).</p></blockquote> <p>So what? Well, I th"
+  },
+  {
+   "url": "http://www.guardian.co.uk/science/2010/jul/12/cancer-survival-rates-doubled",
+   "text": "four will not make it",
+   "context": "that in every ten people who think that they have the power to \"fight\" cancer, <a href=\"http://www.guardian.co.uk/science/2010/jul/12/cancer-survival-rates-doubled\">four will not make it</a>. Are the people who \"fought\" the disease trying"
+  },
+  {
+   "url": "http://news.bbc.co.uk/2/hi/health/7052318.stm",
+   "text": "whether you will live or die",
+   "context": "are optimistic but, in the case under discussion (cancer), it has no bearing on <a href=\"http://news.bbc.co.uk/2/hi/health/7052318.stm\">whether you will live or die</a>. It actually comes down to chance, pure and simple. It is chance how ma"
+  },
+  {
+   "url": "http://www.rawarrior.com",
+   "text": "www.rawarrior.com",
+   "context": "e most prominent support network for RA deploys this exact terminology, though: <a href=\"http://www.rawarrior.com\">www.rawarrior.com</a> (EDIT 2011-05-25 14:36: just to clarify, Kelly's site is fantastic and I love everything she does, I am"
+  },
+  {
+   "url": "http://www.guardian.co.uk/society/2011/may/14/disabled-face-increasing-hostility-strangers",
+   "text": "the disabled face day-to-day attacks",
+   "context": "p> <p>Finally, the Rob Summers case is one of the most troubling at a time when <a href=\"http://www.guardian.co.uk/society/2011/may/14/disabled-face-increasing-hostility-strangers\">the disabled face day-to-day attacks</a> on the street. Whe"
+  },
+  {
+   "url": "http://www.dailymarkets.com/economy/2011/01/31/americas-poorest-5-indias-richest-5/",
+   "text": "poorest 5% of America is equal to the richest 5% of India",
+   "context": "ou would already have been given an unfair advantage in life. Consider that the <a href=\"http://www.dailymarkets.com/economy/2011/01/31/americas-poorest-5-indias-richest-5/\">poorest 5% of America is equal to the richest 5% of India</a>. The"
+  },
+  {
+   "url": "http://www.flickr.com/photos/familymwr/",
+   "text": "familymwr",
+   "context": "people one less thing for which they have to fight?</p> <p><i>Featured image by <a href=\"http://www.flickr.com/photos/familymwr/\">familymwr</a> under a CC-BY license.</i></p>"
+  }
+ ],
+ "2011-05-23-using-twitter-for-research.md": [
+  {
+   "url": "http://prezi.com/bin/preziloader.swf",
+   "text": null,
+   "context": "E6D-11cf-96B8-444553540000\" width=\"750\" height=\"400\"><param name=\"movie\" value=\"http://prezi.com/bin/preziloader.swf\"/><param name=\"allowfullscreen\" value=\"true\"/><param name=\"allowscriptaccess\" value=\"always\"/><param name=\"bgcolor\" value=\""
+  },
+  {
+   "url": "http://prezi.com/beqjtk5qhxcs/using-twitter-for-research/",
+   "text": "Using Twitter for Research",
+   "context": "</embed></object> <div class=\"prezi-player-links\"> <p><a title=\"How Twitter can aid in your career as a researcher\" href=\"http://prezi.com/beqjtk5qhxcs/using-twitter-for-research/\">Using Twitter for Research</a> on"
+  },
+  {
+   "url": "http://prezi.com",
+   "text": "Prezi",
+   "context": "com/beqjtk5qhxcs/using-twitter-for-research/\">Using Twitter for Research</a> on <a href=\"http://prezi.com\">Prezi</a></p> </div> </div>"
+  }
+ ],
+ "2011-05-20-osama-bin-laden-and-nuremberg-precedent.md": [
+  {
+   "url": "http://scripting.com/stories/2011/05/06/nurembergDoesNotApply.html",
+   "text": "some of those views",
+   "context": "criminals. I felt it was worth making a slightly more critical evaluation than <a href=\"http://scripting.com/stories/2011/05/06/nurembergDoesNotApply.html\">some of those views</a> already put out there about this.</p> <p>"
+  },
+  {
+   "url": "http://www.mtholyoke.edu/acad/intrel/nuremb.htm",
+   "text": "Wyzanski",
+   "context": "mans. But the question is: Upon what theory may that action properly be taken? (<a href=\"http://www.mtholyoke.edu/acad/intrel/nuremb.htm\">Wyzanski</a>)</p></blockquote> <p>With this out the way, what is the basis of the (now well known) cri"
+  },
+  {
+   "url": "http://law2.umkc.edu/faculty/projects/ftrials/nuremberg/alstoetter.htm",
+   "text": "U.S.A. v. ALSTOETTER ET AL",
+   "context": "mely, the solemn warning of the governments of the States at war with Germany. (<a href=\"http://law2.umkc.edu/faculty/projects/ftrials/nuremberg/alstoetter.htm\">U.S.A. v. ALSTOETTER ET AL</a>)</p></blockquote> <p>The question that one accus"
+  },
+  {
+   "url": "http://www.jewishvirtuallibrary.org/jsource/Holocaust/barbietrial.html",
+   "text": "http://www.jewishvirtuallibrary.org/jsource/Holocaust/barbietrial.html#5",
+   "context": "otter: 'Il sommeille en chacun de nous,' \" Le Monde 11 February, 1983, cited at <a href=\"http://www.jewishvirtuallibrary.org/jsource/Holocaust/barbietrial.html\">http://www.jewishvirtuallibrary.org/jsource/Holocaust/barbietrial.html#5</a> [a"
+  },
+  {
+   "url": "http://www.jewishvirtuallibrary.org/jsource/Holocaust/barbietrial.html#5",
+   "text": null,
+   "context": "a href=\"http://www.jewishvirtuallibrary.org/jsource/Holocaust/barbietrial.html\">http://www.jewishvirtuallibrary.org/jsource/Holocaust/barbietrial.html#5</a> [accessed 2011-05-18].</li> <li>Judge Charles E. Wyzanski, Jr., The Atlantic Monthl"
+  }
+ ],
+ "2011-05-18-guarding-your-academic-ideas.md": [
+  {
+   "url": "http://twitter.com/#!/search?q=%23phdchat",
+   "text": "#phdchat hashtag",
+   "context": "<p>There was a recent conversation on Twitter's excellent <a href=\"http://twitter.com/#!/search?q=%23phdchat\">#phdchat hashtag</a> revealing the angst that can be involved in getting the balance right between holding a"
+  },
+  {
+   "url": "http://www.philosophyetc.net/2009/03/academic-blogging-pros-and-cons.html",
+   "text": "many times before",
+   "context": "oth ideologically and pragmatically. This isn't to say that it hasn't been done <a href=\"http://www.philosophyetc.net/2009/03/academic-blogging-pros-and-cons.html\">many times before</a> -- in fact, Vitae has <a href=\"http://vitae.ac.uk/rese"
+  },
+  {
+   "url": "http://vitae.ac.uk/researchers/346441-392041/Online-Publishing-and-Plagiarism-Keeping-Alert.html?utm_medium=Twitter&utm_campaign=What%27s+up+Doc&utm_source=Vitae",
+   "text": "just run a piece on this very issue",
+   "context": "ademic-blogging-pros-and-cons.html\">many times before</a> -- in fact, Vitae has <a href=\"http://vitae.ac.uk/researchers/346441-392041/Online-Publishing-and-Plagiarism-Keeping-Alert.html?utm_medium=Twitter&utm_campaign=What%27s+up+Doc&utm_so"
+  },
+  {
+   "url": "http://en.wikipedia.org/wiki/Release_early,_release_often",
+   "text": "Release Early, Release Often",
+   "context": "er for the work you produce, an analogy to the free software world is in order: <a href=\"http://en.wikipedia.org/wiki/Release_early,_release_often\">Release Early, Release Often</a>. Under this paradigm, when developing code that is open sou"
+  },
+  {
+   "url": "http://tar.weatherson.org/2004/02/27/throwing-away-ideas/",
+   "text": "his post on this topic",
+   "context": "e original paper. While this is the opposite stance taken by Brian Wetherson in <a href=\"http://tar.weatherson.org/2004/02/27/throwing-away-ideas/\">his post on this topic</a>, I think that while there is a place for division of labour, I al"
+  },
+  {
+   "url": "http://jennifermjones.posterous.com/hack-disrupt-occupy-some-thoughts-on-what-i-p",
+   "text": "change the system from the inside",
+   "context": "the research cycle faster and more accessible. Help others to help you. Help to <a href=\"http://jennifermjones.posterous.com/hack-disrupt-occupy-some-thoughts-on-what-i-p\">change the system from the inside</a>.</p> <p><b>Pragmatism</b><br /"
+  },
+  {
+   "url": "http://candidengineer.blogspot.com/2009/07/on-ideas-getting-scooped-and.html",
+   "text": "of being scooped",
+   "context": "tly works. With this in mind, however, one of the biggest fears people have, is <a href=\"http://candidengineer.blogspot.com/2009/07/on-ideas-getting-scooped-and.html\">of being scooped</a>. You can spend years working on a research project,"
+  },
+  {
+   "url": "http://orweblog.oclc.org/archives/002174.html",
+   "text": "a difficult area",
+   "context": "hing, rather than nothing, even if you are scooped.</p> <p>Online reputation is <a href=\"http://orweblog.oclc.org/archives/002174.html\">a difficult area</a>. Moves are being made to begin thinking about <a href=\"http://wpmu.mah.se/medea-jou"
+  },
+  {
+   "url": "http://wpmu.mah.se/medea-journal/2011/05/16/scholars-need-to-make-everything-they-do-count-in-multiple-ways/",
+   "text": "the ways in which tenure could take account of online activity",
+   "context": "002174.html\">a difficult area</a>. Moves are being made to begin thinking about <a href=\"http://wpmu.mah.se/medea-journal/2011/05/16/scholars-need-to-make-everything-they-do-count-in-multiple-ways/\">the ways in which tenure could take accou"
+  },
+  {
+   "url": "http://www.nature.com/news/2011/110511/full/473138a.html",
+   "text": "lasting damage",
+   "context": "ugh, the fact that the web, in one sense so ephemeral and shifting, can also do <a href=\"http://www.nature.com/news/2011/110511/full/473138a.html\">lasting damage</a>. Be careful what you put out there. I don't think you need to go so far as"
+  },
+  {
+   "url": "http://www.nature.com/nature/journal/v473/n7346/full/473124a.html",
+   "text": "as do some academics",
+   "context": "re. I don't think you need to go so far as to hire online reputation management <a href=\"http://www.nature.com/nature/journal/v473/n7346/full/473124a.html\">as do some academics</a>, but merely to consider both sides of everything you say on"
+  },
+  {
+   "url": "http://www.stateuniversity.com/blog/permalink/professors-and-twitter-personal-tweets-make-profs-seem-more-credible-to-students.html",
+   "text": "deemed more credible by students",
+   "context": "hink. However, a study has shown that professors who tweet personal details are <a href=\"http://www.stateuniversity.com/blog/permalink/professors-and-twitter-personal-tweets-make-profs-seem-more-credible-to-students.html\">deemed more credib"
+  },
+  {
+   "url": "http://www.flickr.com/photos/sweetman/",
+   "text": "Sofia S",
+   "context": "make it possible for people to simply rip you off.</p> <p><i>Featured image by <a href=\"http://www.flickr.com/photos/sweetman/\">Sofia S</a> under a CC-BY-NC-SA license.</i></p>"
+  }
+ ],
+ "2011-05-16-photograph-and-interview-in-the-guardian.md": [
+  {
+   "url": "http://www.guardian.co.uk/books/booksblog/2011/may/13/writers-in-public-pynchon",
+   "text": "statements, and photograph",
+   "context": "<p>A few days late, but this is a quick post to highlight my <a href=\"http://www.guardian.co.uk/books/booksblog/2011/may/13/writers-in-public-pynchon\">statements, and photograph</a>, on the Guardian books site. The piece"
+  },
+  {
+   "url": "http://www.pynchoninpublic.com/",
+   "text": "Pynchon in Public Day",
+   "context": "s pertaining to reading/celebrating authors in public, which linked in with the <a href=\"http://www.pynchoninpublic.com/\">Pynchon in Public Day</a> event which I organized last weekend. The piece has been <a href=\"http://sa4qe.blogspot.com/"
+  },
+  {
+   "url": "http://sa4qe.blogspot.com/2011/05/pynchon-in-public-day-and-sf-writers.html",
+   "text": "widely circulated",
+   "context": "chon in Public Day</a> event which I organized last weekend. The piece has been <a href=\"http://sa4qe.blogspot.com/2011/05/pynchon-in-public-day-and-sf-writers.html\">widely circulated</a> and I'm grateful for all the exposure!</p> <p>"
+  }
+ ],
+ "2011-05-06-on-pynchon-and-privacy.md": [
+  {
+   "url": "http://latimesblogs.latimes.com/jacketcopy/2011/05/thomas-pynchon-tom-a-remarkable-collection.html",
+   "text": "fascinating LA Times piece",
+   "context": "<p>In a <a href=\"http://latimesblogs.latimes.com/jacketcopy/2011/05/thomas-pynchon-tom-a-remarkable-collection.html\">fascinating LA Times piece</a> published today, it"
+  },
+  {
+   "url": "http://cgi.cnn.com/US/9706/05/pynchon/",
+   "text": "a CNN journalist successfully tracked Pynchon down",
+   "context": "now would give any idea of what he looks like at age 73.</p> </div> <p>In 1997, <a href=\"http://cgi.cnn.com/US/9706/05/pynchon/\">a CNN journalist successfully tracked Pynchon down</a>. Upon learning of this, Pynchon phoned CNN, asked that t"
+  },
+  {
+   "url": "http://www.guardian.co.uk/film/2003/may/05/artsfeatures.fiction",
+   "text": "A Journey into the Mind of [P.]",
+   "context": "</iframe></p> <p>After the CNN debacle came the documentary, <a href=\"http://www.guardian.co.uk/film/2003/may/05/artsfeatures.fiction\">A Journey into the Mind of [P.]</a> which attempted to isolate Pynchon in the CNN clip"
+  },
+  {
+   "url": "http://www.ottosell.de/pynchon/ppolitics.htm",
+   "text": "Charles Hollander",
+   "context": "olate Pynchon in the CNN clip, to limited interest. Several critics, especially <a href=\"http://www.ottosell.de/pynchon/ppolitics.htm\">Charles Hollander</a>, but also Steven Weisenburger in unearthing Pynchon's early Ford Foundation grant,"
+  }
+ ],
+ "2011-05-04-weve-met-before-havent-we-spatio-temporal-distortion-in-david-lynchs-lost-highway.md": [
+  {
+   "url": "https://www.martineve.com/wp-content/uploads/2011/05/Martin-Paul-Eve-Spatio-Temporal-Distortion-in-David-Lynchs-Lost-Highway.pdf",
+   "text": "Martin Paul Eve - \"We've met before, haven't we?\": Spatio-Temporal Distortion in David Lynch's Lost Highway",
+   "context": "otes for the \"Genre 2\" lecture I gave at the University of Sussex (2011-05-04): <a href='https://www.martineve.com/wp-content/uploads/2011/05/Martin-Paul-Eve-Spatio-Temporal-Distortion-in-David-Lynchs-Lost-Highway.pdf'>Martin Paul Eve - \"We"
+  }
+ ],
+ "2011-04-28-my-ahea-success-featured-in-rustle.md": [
+  {
+   "url": "http://www.sussex.ac.uk/tldu/resources/rustle",
+   "text": null,
+   "context": "<p>Vanity post alert!</p> <div><a href=\"http://www.sussex.ac.uk/tldu/resources/rustle\">"
+  }
+ ],
+ "2011-04-28-guardian-qa-summary-life-after-a-phd.md": [
+  {
+   "url": "http://www.guardian.co.uk/higher-education-network/blog/2011/apr/27/career-options-after-a-phd",
+   "text": "Guardian Higher Education Network",
+   "context": "on, 'Life After a PhD' for which I was a panelist, is now available over on the <a href=\"http://www.guardian.co.uk/higher-education-network/blog/2011/apr/27/career-options-after-a-phd\">Guardian Higher Education Network</a>.</p> <p>Of partic"
+  },
+  {
+   "url": "http://ashpit.wordpress.com/",
+   "text": "ASHPIT",
+   "context": "a>.</p> <p>Of particular interest, in my view, is Tennie Videler's reference to <a href=\"http://ashpit.wordpress.com/\">ASHPIT</a>; certainly a lead I am hoping to follow up. Keep your eyes peeled for their third policy day.</p> <p>"
+  },
+  {
+   "url": "http://www.flickr.com/photos/kgregory/",
+   "text": "Katherine Lynn",
+   "context": "options-after-a-phd\">head over</a> and have a read.</p> <p><i>Featured image by <a href=\"http://www.flickr.com/photos/kgregory/\">Katherine Lynn</a> under a CC-BY-NC-ND license.</i></p>"
+  }
+ ],
+ "2011-04-24-romeo-castellucci-societas-raffaello-sanzios-on-the-concept-of-the-face-regarding-the-son-of-god.md": [
+  {
+   "url": "http://www.guardian.co.uk/stage/2011/apr/22/concept-of-the-face-review",
+   "text": "Castellucci is saying something about the yearning for faith in a godless age",
+   "context": "Michael Billington of The Guardian, that this was a reductivist piece in which \"<a href=\"http://www.guardian.co.uk/stage/2011/apr/22/concept-of-the-face-review\">Castellucci is saying something about the yearning for faith in a godless age</"
+  },
+  {
+   "url": "http://www.flickr.com/photos/home_of_chaos/",
+   "text": "Abode of Chaos",
+   "context": "d from a conversation with Liz Sage and Seda Ilter.</p> <p><i>Featured image by <a href=\"http://www.flickr.com/photos/home_of_chaos/\">Abode of Chaos</a> under a CC-BY license.</i></p>"
+  }
+ ],
+ "2011-04-21-crossword-helper-for-android.md": [
+  {
+   "url": "https://market.android.com/details?id=com.martineve.crossword&feature=search_result",
+   "text": "Crossword Helper",
+   "context": "or my latest Android application, which is now available in the Android Market: <a href=\"https://market.android.com/details?id=com.martineve.crossword&feature=search_result\">Crossword Helper</a>. This is, fairly obviously, an application de"
+  },
+  {
+   "url": "http://ana.grammatic.org",
+   "text": "http://ana.grammatic.org",
+   "context": "ractice and prefer software to be free. For that reason, the similar service at <a href=\"http://ana.grammatic.org\">http://ana.grammatic.org</a> will remain online and free to access. However, I am craving some extra revenue at the moment, s"
+  },
+  {
+   "url": "http://www.flickr.com/photos/crosswordman/",
+   "text": "CrosswordMan",
+   "context": ", please give this your consideration.</p> <p>Logo based, in part, on a work by <a href=\"http://www.flickr.com/photos/crosswordman/\">CrosswordMan</a> originally released under a CC-BY license.</p>"
+  }
+ ],
+ "2011-04-16-david-foster-wallaces-the-pale-king-bonnie-nadell-and-michael-pietsch-at-foyles.md": [
+  {
+   "url": "http://www.foyles.co.uk/Public/Events/Detail.aspx?eventId=1192",
+   "text": "an event",
+   "context": "<p>Last night I had the pleasure of attending <a href=\"http://www.foyles.co.uk/Public/Events/Detail.aspx?eventId=1192\">an event</a> at Foyles bookstore in London featuring David Foster Wallace's Literary Ag"
+  },
+  {
+   "url": "http://www.guardian.co.uk/books/2011/apr/16/pale-king-david-foster-wallace-review",
+   "text": "rather favourable",
+   "context": "llace's posthumous publication, <i>The Pale King</i> which is current receiving <a href=\"http://www.guardian.co.uk/books/2011/apr/16/pale-king-david-foster-wallace-review\">rather favourable</a> reviews.</p> <p>"
+  },
+  {
+   "url": "http://www.flickr.com/photos/ari/",
+   "text": "Steve Rhodes",
+   "context": "e available on the Penguin website at a later date.</p> <p><i>Featured image by <a href=\"http://www.flickr.com/photos/ari/\">Steve Rhodes</a> under a CC-BY license.</i></p>"
+  }
+ ],
+ "2011-04-14-pynchon-in-public-day-2011.md": [
+  {
+   "url": "http://www.pynchoninpublic.com",
+   "text": "annual May 8th",
+   "context": "<p>Hereby instigating an <a href=\"http://www.pynchoninpublic.com\">annual May 8th</a> culture jamming festival to be herein evidenced by photographic, textual, cartographic and video doc"
+  },
+  {
+   "url": "http://sf0.org/tasks/Thurn-Und-Taxis-Postal-Adventure/",
+   "text": "http://sf0.org/tasks/Thurn-Und-Taxis-Postal-Adventure/",
+   "context": "Network. There was an alternate reality game based on 'The Crying of Lot 49' at <a href=\"http://sf0.org/tasks/Thurn-Und-Taxis-Postal-Adventure/\">http://sf0.org/tasks/Thurn-Und-Taxis-Postal-Adventure/</a>. This game was run by members of a g"
+  },
+  {
+   "url": "http://www.bookcrossing.com/forum/23/449901",
+   "text": "Bookcrossing",
+   "context": "nybody's true mail. This would be illegal in many jurisdictions.</b></p> <p>See <a href=\"http://www.bookcrossing.com/forum/23/449901\">Bookcrossing</a> for a release challenge and <a href=\"http://iuoma-network.ning.com/profile/PynchonInPubli"
+  },
+  {
+   "url": "http://iuoma-network.ning.com/profile/PynchonInPublic",
+   "text": "http://iuoma-network.ning.com/profile/PynchonInPublic",
+   "context": ".bookcrossing.com/forum/23/449901\">Bookcrossing</a> for a release challenge and <a href=\"http://iuoma-network.ning.com/profile/PynchonInPublic\">http://iuoma-network.ning.com/profile/PynchonInPublic</a> for mailart. </p> <p><b>Disclaimer</b>"
+  },
+  {
+   "url": "https://twitter.com/#!/Dystopia2009",
+   "text": "Dystopia2009",
+   "context": "ersely affect any of these areas.</p> <p><b>Thanks</b><br /> Major impetus from <a href=\"https://twitter.com/#!/Dystopia2009\">Dystopia2009</a>. Additional thanks for suggestions to Dr. Bubby Tubeside.</p> <p><i>Featured image by <a href=\"ht"
+  },
+  {
+   "url": "http://www.flickr.com/photos/c0t0s0d0/",
+   "text": "वंपायर",
+   "context": "ional thanks for suggestions to Dr. Bubby Tubeside.</p> <p><i>Featured image by <a href=\"http://www.flickr.com/photos/c0t0s0d0/\">वंपायर</a> under a CC-BY-SA license.</i></p>"
+  }
+ ]
+}

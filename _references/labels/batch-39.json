@@ -1,0 +1,12 @@
+{
+ "2007-05-15-evaluating-the-security-of-the-jsonrequest-object.md": [
+  {"url": "http://json.org/JSONRequest.html", "comment": "JSONRequest proposed extension specification"}
+ ],
+ "2007-05-15-bypass-asp-net-xss-protection-in-internet-explorer.md": [
+  {"url": "http://www.site.com/JS.js", "comment": "Example malicious script payload URL"},
+  {"url": "http://sla.ckers.org/forum/read.php?2,7462,8409%23msg-8409", "comment": "sla.ckers forum thread on IE XSS filter bypass"}
+ ],
+ "2007-05-15-amendments-to-the-british-computer-misuse-act.md": [
+  {"url": "http://www.gnucitizen.org/blog/changes-in-the-british-computer-misuse-act", "comment": "gnucitizen.org post on UK Computer Misuse Act changes"}
+ ]
+}

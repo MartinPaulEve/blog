@@ -1,0 +1,129 @@
+{
+ "2014-01-13-handling-the-absence-of-a-newline-break-tag-in-jats.md": [
+  {"url": "https://github.com/MartinPaulEve/meTypeset/blob/fb11e34126493e0bf2b95681b558dd246fc6df38/bin/nlmmanipulate.py", "comment": "meTypeset NLMManipulator class on GitHub"}
+ ],
+ "2014-01-06-introducing-eprintscv-a-python-script-to-create-an-academic-web-cv-from-your-eprints-record.md": [
+  {"url": "https://www.martineve.com/c-v/", "comment": "Eve's academic CV on martineve.com"},
+  {"url": "https://github.com/MartinPaulEve/eprintsCV", "comment": "eprintsCV tool on GitHub"},
+  {"url": "http://www.myvirtualdisplay.com/wordpress-projects/include_html/", "comment": "include_html WordPress transclusion plugin"}
+ ],
+ "2013-12-29-my-2013-academic-year-in-review.md": [
+  {"url": "https://www.openlibhums.org", "comment": "Open Library of Humanities project site"},
+  {"url": "http://staff.lincoln.ac.uk/id/003354#research", "comment": "Eve staff research profile at Lincoln"},
+  {"url": "http://eprints.lincoln.ac.uk/12425", "comment": "Eve, Pynchon and Philosophy (Palgrave 2014)"},
+  {"url": "http://eprints.lincoln.ac.uk/10589", "comment": "Guide to Creative Commons for monograph authors"},
+  {"url": "http://eprints.lincoln.ac.uk/12662", "comment": "On the mark? Responses to a sting"},
+  {"url": "http://eprints.lincoln.ac.uk/12761", "comment": "Review of Humanities in the Twenty-First Century"},
+  {"url": "http://eprints.lincoln.ac.uk/12790", "comment": "Utopia fading: open access taxonomies article"},
+  {"url": "http://eprints.lincoln.ac.uk/12602", "comment": "ERC backtracks on open-access embargo period"},
+  {"url": "http://eprints.lincoln.ac.uk/12043", "comment": "Flawed sting operation singles out OA journals"},
+  {"url": "http://eprints.lincoln.ac.uk/11983", "comment": "Review of Gourley on Pynchon and DeLillo terrorism"},
+  {"url": "http://eprints.lincoln.ac.uk/11808", "comment": "Selling Shakespeare's first folio Guardian piece"},
+  {"url": "http://eprints.lincoln.ac.uk/11595", "comment": "Gatekeepers in a digital wasteland article"},
+  {"url": "http://eprints.lincoln.ac.uk/11753", "comment": "Eve article on Sarah Waters's Affinity"},
+  {"url": "http://staff.lincoln.ac.uk/id/003004#research", "comment": "Edwards, Caroline staff profile at Lincoln"},
+  {"url": "http://staff.lincoln.ac.uk/id/00lukas.wieselberg@orf.at#research", "comment": "Wieselberg, Lukas staff profile at Lincoln"},
+  {"url": "http://eprints.lincoln.ac.uk/11708", "comment": "Freier Eintritt in die Geisteswissenschaft article"},
+  {"url": "http://eprints.lincoln.ac.uk/10590", "comment": "Open access and the humanities Harvard talk"},
+  {"url": "http://eprints.lincoln.ac.uk/9682", "comment": "Open Library of Humanities project UKSG piece"},
+  {"url": "http://eprints.lincoln.ac.uk/9500", "comment": "DeLillo aesthetics Cold Iraq War article"},
+  {"url": "http://eprints.lincoln.ac.uk/9235", "comment": "Open access and humanities reimagining Guardian piece"},
+  {"url": "http://eprints.lincoln.ac.uk/9234", "comment": "Human side of open-access publishing article"},
+  {"url": "http://eprints.lincoln.ac.uk/9233", "comment": "Gold rush London Graduate School thoughtpiece"},
+  {"url": "http://eprints.lincoln.ac.uk/11565", "comment": "Q&A Martin Eve on public library of humanities"},
+  {"url": "http://eprints.lincoln.ac.uk/7159", "comment": "Eve on Pynchon DeLillo terrorism and Cold War"},
+  {"url": "http://eprints.lincoln.ac.uk/10019", "comment": "Before the law: open access and peer review"},
+  {"url": "http://eprints.lincoln.ac.uk/7160", "comment": "The botnet: hegemony and zombies who publish"},
+  {"url": "http://eprints.lincoln.ac.uk/12402", "comment": "Vivid tenuousness: Jennifer Egan novels chapter"},
+  {"url": "http://eprints.lincoln.ac.uk/11807", "comment": "Humanities cultural data and resistance to openness"},
+  {"url": "http://eprints.lincoln.ac.uk/11962", "comment": "Open access humanities activism and scholar agency"},
+  {"url": "http://eprints.lincoln.ac.uk/11726", "comment": "Front line of OA in humanities and social sciences"},
+  {"url": "http://eprints.lincoln.ac.uk/10663", "comment": "Digital literatures democracies and threats chapter"},
+  {"url": "http://eprints.lincoln.ac.uk/10591", "comment": "OLH and monographs conference presentation"},
+  {"url": "http://eprints.lincoln.ac.uk/10588", "comment": "Open access and the humanities Harvard conference"},
+  {"url": "http://eprints.lincoln.ac.uk/9830", "comment": "Opening up humanities sources Wikimedia talk"},
+  {"url": "http://eprints.lincoln.ac.uk/9793", "comment": "OLH building open scalable humanities megajournal"},
+  {"url": "http://eprints.lincoln.ac.uk/9829", "comment": "Open access: what it is why we need it"},
+  {"url": "http://eprints.lincoln.ac.uk/9828", "comment": "Libraries and academics Jisc RLUK workshop"},
+  {"url": "http://eprints.lincoln.ac.uk/9827", "comment": "Open access and the humanities Durham conference"},
+  {"url": "http://eprints.lincoln.ac.uk/9826", "comment": "On open access activism and scholarly communications"},
+  {"url": "http://eprints.lincoln.ac.uk/10592", "comment": "Oral evidence to House of Commons OA inquiry"},
+  {"url": "http://eprints.lincoln.ac.uk/9825", "comment": "Future of academic publishing seminar talk"},
+  {"url": "http://eprints.lincoln.ac.uk/9823", "comment": "The future of peer review seminar"},
+  {"url": "http://eprints.lincoln.ac.uk/9824", "comment": "Futurity books Marx labour conference paper"},
+  {"url": "http://eprints.lincoln.ac.uk/9822", "comment": "Too many goddamn echoes DeLillo Point Omega paper"}
+ ],
+ "2013-12-27-why-im-a-fan-of-open-source-software-an-argument-by-anecdoteexample.md": [
+  {"url": "https://github.com/m0sia/pyParrotZik", "comment": "pyParrotZik cross-platform Parrot Zik indicator"},
+  {"url": "https://github.com/m0sia/pyParrotZik/pull/1", "comment": "Eve's pull request fix to pyParrotZik"}
+ ],
+ "2013-12-20-publication-utopia-fading-taxonomies-freedom-and-dissent-in-open-access-publishing.md": [
+  {"url": "http://jimmussell.com/", "comment": "Jim Mussell academic website"},
+  {"url": "http://www.tandfonline.com/toc/rjvc20/18/4", "comment": "Journal of Victorian Culture Digital Forum issue"},
+  {"url": "https://www.martineve.com/2013/10/22/my-forthcoming-book-pynchon-and-philosophy-wittgenstein-foucault-and-adorno-palgrave-2014/", "comment": "Eve blog post on Pynchon and Philosophy book"},
+  {"url": "http://www.tandfonline.com/doi/full/10.1080/13555502.2013.865979", "comment": "Utopia fading article at Journal of Victorian Culture"},
+  {"url": "https://www.martineve.com/wp-content/uploads/2013/12/JVC.pdf", "comment": "Utopia fading PDF on martineve.com"}
+ ],
+ "2013-12-19-publication-review-of-humanities-in-the-twenty-first-century-beyond-utility-and-markets.md": [
+  {"url": "http://www.tandfonline.com/doi/abs/10.1080/0950236X.2013.860285", "comment": "Review of Belfiore in Textual Practice"},
+  {"url": "https://www.martineve.com/wp-content/uploads/2013/12/Martin-Paul-Eve-Review-of-Belfiore.pdf", "comment": "Author submitted manuscript PDF of Belfiore review"}
+ ],
+ "2013-11-20-first-meeting-of-hefce-expert-reference-group-on-open-access-monographs.md": [
+  {"url": "https://www.martineve.com/wp-content/uploads/2013/11/Monographs-ERG01Min-Notes-of-meeting-4-November-20131.pdf", "comment": "HEFCE OA monographs ERG meeting minutes PDF"}
+ ],
+ "2013-11-16-three-reasons-why-i-think-journal-prestige-is-a-broken-system.md": [
+  {"url": "http://www.britac.ac.uk/templates/asset-relay.cfm?frmAssetFileID=12661", "comment": "Eve, Before the Law: OA and peer review (British Academy)"}
+ ],
+ "2013-11-15-some-diagrams-of-jennifer-egan-novels.md": [
+  {"url": "http://literatureoffthepage.wordpress.com/", "comment": "Literature off the Page conference blog"},
+  {"url": "http://figshare.com", "comment": "Figshare research data sharing platform"},
+  {"url": "http://dx.doi.org/10.6084/m9.figshare.852972", "comment": "Figshare dataset: Goon Squad character diagram"},
+  {"url": "https://www.martineve.com/wp-content/uploads/2013/11/Safari-in-Goon-Squad.png", "comment": "Safari in Goon Squad diagram image"},
+  {"url": "http://dx.doi.org/10.6084/m9.figshare.852973", "comment": "Figshare dataset: The Keep diegesis diagram"},
+  {"url": "https://www.martineve.com/wp-content/uploads/2013/11/The-Keep-Diagram.png", "comment": "The Keep diegesis diagram image"}
+ ],
+ "2013-10-21-how-ironic-are-the-open-access-irony-awards.md": [
+  {"url": "http://duncan.hull.name/2012/02/15/open-irony/", "comment": "Duncan Hull's Open Access Irony Awards post"}
+ ],
+ "2013-10-03-whats-open-got-to-do-with-it.md": [
+  {"url": "https://theconversation.com/flawed-sting-operation-singles-out-open-access-journals-18846", "comment": "Eve's Conversation piece on OA sting operation"},
+  {"url": "http://scim.ag/OA-Sting", "comment": "Bohannon OA sting article in Science"},
+  {"url": "http://www.doaj.org/", "comment": "Directory of Open Access Journals (DOAJ)"},
+  {"url": "http://scholarlyoa.com/publishers/", "comment": "Beall's list of predatory OA publishers"},
+  {"url": "http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=6577844", "comment": "1982 Cambridge journal article on peer review problems"},
+  {"url": "https://twitter.com/ernestopriego", "comment": "Ernesto Priego Twitter profile"}
+ ],
+ "2013-09-30-fixing-broken-spellcheck-in-thunderbird-24.md": [
+  {"url": "https://bugzilla.mozilla.org/show_bug.cgi?id=880595#c27", "comment": "Mozilla Bugzilla fix for Thunderbird spellcheck bug"}
+ ],
+ "2013-09-18-publication-gatekeepers-in-a-digital-wasteland-the-author.md": [
+  {"url": "http://eprints.lincoln.ac.uk/11595/", "comment": "Gatekeepers in a digital wasteland Lincoln eprints"}
+ ],
+ "2013-09-10-is-what-i-do-digital-humanities.md": [
+  {"url": "https://github.com/MartinPaulEve/meTypeset", "comment": "meTypeset scholarly typesetting tool on GitHub"},
+  {"url": "http://www.lincoln.ac.uk/home/course/cmsresms/fundedplace/", "comment": "Lincoln University funded computer science MSc place"},
+  {"url": "http://oabutton.wordpress.com/", "comment": "OAButton open access tool project blog"}
+ ],
+ "2013-09-09-work-on-open-access-technology-get-a-masters-degree-in-computer-science-funded-place.md": [
+  {"url": "http://www.lincoln.ac.uk/home/course/cmsresms/fundedplace/", "comment": "Lincoln University funded MSc place details"},
+  {"url": "https://github.com/MartinPaulEve/meTypeset", "comment": "meTypeset project on GitHub"}
+ ],
+ "2013-09-05-publication-terrorism-and-the-cold-war-in-thomas-pynchons-against-the-day-and-don-delillo-c2-80-c2-99s-underworld.md": [
+  {"url": "https://www.martineve.com/wp-content/uploads/2013/09/Martin-Paul-Eve-Pynchon-DeLillo-and-Terrorism.pdf", "comment": "Eve article PDF on Pynchon DeLillo terrorism"}
+ ],
+ "2013-08-30-publication-you-will-see-the-logic-of-the-design-of-this-from-historiography-to-taxonomography-in-the-contemporary-metafiction-of-sarah-waterss-affinity.md": [
+  {"url": "http://www.neovictorianstudies.com/issues/NVS%206-1-5%20M-Eve.pdf", "comment": "Eve article on Sarah Waters Affinity in Neo-Victorian Studies"}
+ ],
+ "2013-08-29-full-response-to-science-metrix-report-on-gold-oa-citation-rates.md": [
+  {"url": "http://www.science-metrix.com/eng/news_13_08.htm", "comment": "Science-Metrix report on gold OA citation rates"},
+  {"url": "http://www.timeshighereducation.co.uk/low-citation-gains-via-gold-open-access-study/2006847.article", "comment": "Times Higher Education article on gold OA citations"}
+ ],
+ "2013-08-27-sxsw-panel-vote-to-get-open-access-on-the-agenda.md": [
+  {"url": "http://panelpicker.sxsw.com/vote/23623", "comment": "SXSW PanelPicker vote for open access panel"},
+  {"url": "http://www.dhpoco.org", "comment": "Adeline Koh's dhpoco digital humanities initiative"}
+ ],
+ "2013-08-24-reports-from-the-frontline-of-humanities-oa-in-japan.md": [
+  {"url": "https://www.martineve.com/wp-content/uploads/2013/08/2013-08-22-19.40.41.jpg", "comment": "Photo from OA in Japan event day one"},
+  {"url": "https://www.martineve.com/wp-content/uploads/2013/08/2013-08-23-18.51.34.jpg", "comment": "Photo from OA in Japan event day two"}
+ ]
+}

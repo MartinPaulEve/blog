@@ -1,0 +1,91 @@
+{
+ "2007-06-26-netids-v-0-1-1-0-released.md": [
+  {"url": "http://code.google.com/p/dotnetids/", "comment": "dotnetids Google Code project homepage"}
+ ],
+ "2007-06-26-c-dataexecutor-class-available.md": [
+  {"url": "http://www.martineve.com/2007/06/25/c-mysql-dataexecutor-class/", "comment": "martineve.com C# MySQL DataExecutor class post"}
+ ],
+ "2007-06-19-netids-v-0-1-0-0-released.md": [
+  {"url": "http://code.google.com/p/dotnetids", "comment": ".NETIDS Google Code project page"}
+ ],
+ "2007-06-15-netids-can-now-detect-fragmented-xss.md": [
+  {"url": "http://code.google.com/p/dotnetids", "comment": ".NETIDS Google Code project page"},
+  {"url": "http://www.the-mice.co.uk/SmokeTest/SmokeTest.aspx?param1=Hello%20&param2=this%20&param3=is%20a%20test", "comment": "the-mice.co.uk fragmented XSS smoke test demo"},
+  {"url": "http://www.the-mice.co.uk/SmokeTest/SmokeTest.aspx?param1=%3C&param2=script&param3=%3E", "comment": "the-mice.co.uk page output XSS demo"}
+ ],
+ "2007-06-13-firefox-nested-comment-fragmented-xss.md": [
+  {"url": "http://sla.ckers.org/forum/read.php?3,12323", "comment": "sla.ckers forum post on Firefox XSS bug"},
+  {"url": "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd", "comment": "W3C XHTML 1.1 DTD"},
+  {"url": "http://www.w3.org/1999/xhtml", "comment": "W3C XHTML namespace URI"},
+  {"url": "http://www.md5-db.com/STXSS_XBL.xml#loader", "comment": "md5-db.com STXSS XBL loader payload"}
+ ],
+ "2007-06-05-a-bad-day-for-browsers.md": [
+  {"url": "http://seclists.org/fulldisclosure/2007/Jun/0026.html", "comment": "Zalewski full-disclosure browser vulnerability post"},
+  {"url": "http://larholm.com/2007/06/04/unpatched-input-validation-flaw-in-firefox-2004/", "comment": "larholm.com unpatched Firefox input validation flaw"}
+ ],
+ "2007-05-25-dotnetids.md": [
+  {"url": "http://code.google.com/p/dotnetids/", "comment": "dotnetids Google Code project homepage"}
+ ],
+ "2007-05-23-xss-tutorial.md": [
+  {"url": "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd", "comment": "W3C XHTML 1.1 DTD"},
+  {"url": "http://www.w3.org/1999/xhtml", "comment": "W3C XHTML namespace URI"},
+  {"url": "http://uk3.php.net/magic_quotes", "comment": "PHP manual page on magic_quotes"},
+  {"url": "http://www.attacker.com/stealer.php?cookie=", "comment": "Illustrative cookie-stealing attacker script URL"},
+  {"url": "http://www.attacker.com/stealer.php", "comment": "Illustrative cookie-stealing attacker script URL"},
+  {"url": "http://www.martineve.com/2007/05/23/string-fromcharcode-encoder/", "comment": "martineve.com String.fromCharCode encoding tool"},
+  {"url": "http://groups.google.de/group/php-ids", "comment": "PHP IDS Google Group"},
+  {"url": "http://ha.ckers.org/xss.html", "comment": "Rsnake's XSS Cheat Sheet on ha.ckers.org"}
+ ],
+ "2007-05-21-bypassing-same-origin-policy-using-mash-ups.md": [
+  {"url": "http://www.gnucitizen.org", "comment": "GNUCITIZEN security blog"},
+  {"url": "http://www.gnucitizen.org/ghdb/", "comment": "GNUCITIZEN JavaScript interface to Google Hacking DB"},
+  {"url": "http://johnny.ihackstuff.com/ghdb.php", "comment": "Johnny's Google Hacking Database"},
+  {"url": "http://www.dapper.net/", "comment": "Dapper the Data Mapper service"}
+ ],
+ "2007-05-20-rsnake-jeremiah-grossmans-book-released.md": [
+  {"url": "http://ha.ckers.org/blog/20070520/xss-book-released/", "comment": "ha.ckers blog post announcing XSS book release"},
+  {"url": "http://www.amazon.com/Cross-Site-Scripting-Attacks-Exploits/dp/1597491543/sr=1-1/qid=1170769149?ie=UTF8&s=books", "comment": "XSS Attacks book on Amazon"}
+ ],
+ "2007-05-19-xsf-cross-site-flashing.md": [
+  {"url": "http://www.wisec.it/en/Docs/flash_App_testing_Owasp07.pdf", "comment": "Di Paola OWASP 2007 Flash application testing paper"}
+ ],
+ "2007-05-16-xss-in-excess-a-learn-xss-tool.md": [
+  {"url": "http://wasjournal.blogspot.com/2007/05/xss-in-excess.html", "comment": "kishord WAS Journal post on XSS in eXceSS tool"},
+  {"url": "http://mario.heideri.ch/", "comment": ".mario's security blog"},
+  {"url": "http://groups.google.de/group/php-ids", "comment": "PHP IDS Google Group"},
+  {"url": "http://h4k.in/xssinexcess", "comment": "XSS in eXceSS tool page on h4k.in"}
+ ],
+ "2007-05-16-xss-cheat-sheet.md": [
+  {"url": "http://www.ha.ckers.org", "comment": "ha.ckers.org security site by rsnake"},
+  {"url": "http://ha.ckers.org/xss.html", "comment": "Rsnake's XSS Cheat Sheet on ha.ckers.org"}
+ ],
+ "2007-05-16-php-ids.md": [
+  {"url": "http://mario.heideri.ch/", "comment": ".mario's security blog"},
+  {"url": "http://christ1an.blogspot.com/", "comment": "christ1an's security blog"},
+  {"url": "http://sla.ckers.org/forum/read.php?12,8085", "comment": "sla.ckers forum thread on PHP IDS"},
+  {"url": "http://groups.google.de/group/php-ids", "comment": "PHP IDS Google Group"},
+  {"url": "http://phpids.heideri.ch/", "comment": "PHP IDS live sandbox demo"}
+ ],
+ "2007-05-16-moseb-month-of-search-engine-bugs.md": [
+  {"url": "http://websecurity.com.ua/category/moseb/", "comment": "websecurity.com.ua Month of Search Engine Bugs"}
+ ],
+ "2007-05-16-heise-security-reports-backdoor-in-artmedic-cms.md": [
+  {"url": "http://www.heise-security.co.uk/news/89835", "comment": "Heise Security report on Artmedic CMS backdoor"},
+  {"url": "http://www.artmedic-cms.de/", "comment": "Artmedic CMS official site"}
+ ],
+ "2007-05-15-javascript-referer-scripts-xss-injection.md": [
+  {"url": "http://www.yaldex.com/FSPageDetails/_404Referrer.htm", "comment": "yaldex.com 404 referrer script example"},
+  {"url": "http://www.md5-db.com/XSSReferer/'style=xx:expression(alert(1));othervar='", "comment": "md5-db.com XSSReferer IE7 injection demo"}
+ ],
+ "2007-05-15-javascript-eval-string-fromcharcode-encoder.md": [
+  {"url": "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd", "comment": "W3C XHTML 1.0 Transitional DTD"}
+ ],
+ "2007-05-15-httponly-cookie-detection.md": [
+  {"url": "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd", "comment": "W3C XHTML 1.0 Transitional DTD"}
+ ],
+ "2007-05-15-firefox-xbl-js-loader-v1-0.md": [
+  {"url": "http://site.com/STXSS_XBL.xml#loader", "comment": "Illustrative STXSS XBL loader payload URL"},
+  {"url": "http://www.mozilla.org/xbl", "comment": "Mozilla XBL namespace URI"},
+  {"url": "http://www.your-site.com/STXSS_JS.js", "comment": "Illustrative STXSS JavaScript payload URL"}
+ ]
+}

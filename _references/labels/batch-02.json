@@ -1,0 +1,109 @@
+{
+ "2024-06-14-how-long-have-i-got-doc.md": [
+  {"url": "https://www.ncbi.nlm.nih.gov/books/NBK499861/", "comment": "Hashmi et al., NCBI book on kidney disease staging"},
+  {"url": "https://www.kidney.org/newsletter/demystifying-dialysis-understanding-treatment-options-and-life-changes", "comment": "National Kidney Foundation dialysis life expectancy article"}
+ ],
+ "2024-01-09-rusting-away-or-packing-the-entire-crossref-database-into-a-sqlite-file.md": [
+  {"url": "https://gitlab.com/crossref/labs/rustsqlitepacker", "comment": "Crossref Labs Rust SQLite packer source code"}
+ ],
+ "2023-12-11-my-2023-year-in-review.md": [
+  {"url": "https://api.labs.crossref.org/", "comment": "Crossref Labs API"},
+  {"url": "https://gitlab.com/crossref/labs/lambda-api-proxy", "comment": "Crossref Labs API proxy source code"},
+  {"url": "https://the-vault.fly.dev/", "comment": "Digital preservation status of 7m articles tool"},
+  {"url": "https://gitlab.com/crossref/labs/opcit", "comment": "Project Op Cit digital preservation system"},
+  {"url": "https://gitlab.com/crossref/labs/claws", "comment": "CLAWS generic AWS operations toolkit"},
+  {"url": "https://gitlab.com/crossref/labs/distrunner", "comment": "Crossref Labs distributed computation wrapper"},
+  {"url": "https://gitlab.com/crossref/labs/longsight", "comment": "Longsight observability library"},
+  {"url": "https://gitlab.com/crossref/labs/entext", "comment": "LLM affiliation parser source code"},
+  {"url": "https://gitlab.com/crossref/labs/packer", "comment": "Crossref JSON-L packer for annual data dump"},
+  {"url": "https://eprints.bbk.ac.uk/id/eprint/52237", "comment": "Eve, Digital Humanities and Literary Studies, Chinese ed."},
+  {"url": "https://eprints.bbk.ac.uk/id/eprint/50784", "comment": "Eve, Una Historia De Las Contrasenas, Ediciones Godot"},
+  {"url": "https://orbit.openlibhums.org/article/id/9845/", "comment": "Eve, Impossible Chess article, Orbit journal"},
+  {"url": "https://eprints.bbk.ac.uk/id/document/315187", "comment": "Eve, Impossible Chess article download"},
+  {"url": "https://eprints.bbk.ac.uk/id/eprint/51899", "comment": "Eve, Digital Scholarly Journals Are Poorly Preserved article"},
+  {"url": "https://eprints.bbk.ac.uk/id/eprint/50133", "comment": "Eve, Shadow Libraries and Pirate Infrastructures chapter"},
+  {"url": "https://eprints.bbk.ac.uk/id/eprint/43087", "comment": "Eve, Essay in the Career of the Contemporary English Novelist"},
+  {"url": "https://25.scielo.org/en/we-so-loved-open-access/", "comment": "Eve, The Guy Who Bangs on about Open Access, SciELO volume"},
+  {"url": "https://eprints.bbk.ac.uk/id/document/314846", "comment": "Eve, Open Access essay download"}
+ ],
+ "2023-12-07-land-of-hope-and-tolerance.md": [
+  {"url": "https://www.theguardian.com/commentisfree/2023/dec/05/brexit-disaster-rejoining-channel-europe-economy?CMP=share_btn_tw", "comment": "Guardian op-ed arguing Brexit is not a disaster"},
+  {"url": "https://www.lse.ac.uk/research/research-for-the-world/politics/are-the-elites-driving-nationalism-in-post-brexit-britain", "comment": "LSE Savage research on post-Brexit racism and nationalism"}
+ ],
+ "2023-11-09-blocking-my-crawl.md": [
+  {"url": "https://samples.research.crossref.org/", "comment": "Crossref member sample pages tool"},
+  {"url": "https://github.com/infosimples/detect-headless", "comment": "detect-headless JavaScript headless browser detection suite"},
+  {"url": "https://github.com/Granitosaurus/playwright-stealth/tree/main", "comment": "playwright-stealth headless evasion plugin"},
+  {"url": "https://github.com/Granitosaurus/playwright-stealth/pull/7", "comment": "Pull request patching Connection Rtt in playwright-stealth"}
+ ],
+ "2023-10-20-connecting-to-aws-opensearch-serverless-using-python.md": [
+  {"url": "https://opensearch.org/docs/latest/clients/python-low-level/", "comment": "OpenSearch Python low-level client documentation"}
+ ],
+ "2023-10-12-self-referential-language-counting.md": [
+  {"url": "https://www.explainxkcd.com/wiki/index.php/2839:_Language_Acquisition", "comment": "Explain XKCD 2839 Language Acquisition"}
+ ],
+ "2023-09-24-creating-a-voice-activated-ai-responder-in-python.md": [
+  {"url": "https://github.com/MartinPaulEve/seance4d/blob/main/seance4d/seance4d/main.py", "comment": "seance4d voice AI main event loop source"},
+  {"url": "https://stackoverflow.com/a/34796794/349003", "comment": "Stack Overflow answer on alsaaudio buffer processing"}
+ ],
+ "2023-09-21-citations-and-addressability.md": [
+  {"url": "https://www.hup.harvard.edu/catalog.php?isbn=9780674307605", "comment": "Grafton, The Footnote: A Curious History, Harvard UP"},
+  {"url": "https://doi.org/10.1111/criq.12359", "comment": "Article on ChatGPT fabricating citations"},
+  {"url": "https://www.amazon.co.uk/Metaphors-Digital-Textual-History-Stanford-Technologies/dp/1503614883/ref=sr_1_1", "comment": "Eve, Metaphors of Digital Textual History, Stanford UP"}
+ ],
+ "2023-09-14-why-lever-press.md": [
+  {"url": "https://www.leverpress.org/about", "comment": "Lever Press open access funding model about page"}
+ ],
+ "2023-09-12-retract-this.md": [
+  {"url": "https://doi.org/10.13003/c23rw1d9", "comment": "Crossref announcement acquiring Retraction Watch database"},
+  {"url": "https://api.labs.crossref.org/data/retractionwatch?mailto=[YOUR@EMAIL.HERE", "comment": "Crossref Labs Retraction Watch CSV data endpoint"},
+  {"url": "https://api.labs.crossref.org/works/10.2147/CMAR.S324920?mailto=[YOUR@EMAIL.HERE", "comment": "Crossref Labs API example work with retraction data"},
+  {"url": "https://twitter.com/gcabanac/status/1701594642142363877", "comment": "Twitter question about retrieving all retractions via API"},
+  {"url": "https://retractionwatch.com/2023/09/12/the-retraction-watch-database-becomes-completely-open-and-rw-becomes-far-more-sustainable/", "comment": "Retraction Watch open database announcement post"}
+ ],
+ "2023-07-28-rules-vs-principles-in-posi.md": [
+  {"url": "https://openscholarlyinfrastructure.org/", "comment": "Principles of Open Scholarly Infrastructure site"},
+  {"url": "https://www.etymonline.com/word/principle", "comment": "Online Etymology Dictionary entry for principle"}
+ ],
+ "2023-07-26-whats-the-point-of-having-open-scholarly-infrastructures-and-how-do-we-test-their-resilience.md": [
+  {"url": "https://openscholarlyinfrastructure.org/", "comment": "Principles of Open Scholarly Infrastructure site"},
+  {"url": "https://www.crossref.org/blog/outage-of-october-6-2021/", "comment": "Crossref blog post on October 2021 outage"}
+ ],
+ "2023-07-26-we-are-terrible-at-online-identity-management-or-using-emails-as-an-identifier-was-a-bad-move.md": [
+  {"url": "https://orcid.org/", "comment": "ORCID researcher identifier system"},
+  {"url": "https://www.bloomsbury.com/uk/password-9781501314872/", "comment": "Eve, Password, Bloomsbury Object Lessons series"}
+ ],
+ "2023-07-24-sunsetting-martinevecom.md": [
+  {"url": "https://www.w3.org/Provider/Style/URI", "comment": "W3C Cool URIs Don't Change essay"}
+ ],
+ "2023-07-20-the-latest-ithaka-sr-draft-report-is-hugely-regressive.md": [
+  {"url": "https://sr.ithaka.org/blog/draft-report-for-community-input/", "comment": "Ithaka S+R draft report for community input"},
+  {"url": "https://twitter.com/kaythaney/status/1681474626994487297?s=20", "comment": "Tweet by kaythaney on interviewee disagreement with report"}
+ ],
+ "2023-03-25-on-application-observability-in-serverless-cloud-contexts.md": [
+  {"url": "https://github.com/trallnag/prometheus-fastapi-instrumentator", "comment": "prometheus-fastapi-instrumentator plugin"},
+  {"url": "https://prometheus.io/docs/concepts/metric_types/", "comment": "Prometheus metric types documentation"},
+  {"url": "https://prometheus.io/docs/instrumenting/pushing/", "comment": "Prometheus Pushgateway documentation"},
+  {"url": "https://prometheus.io/docs/practices/remote_write/", "comment": "Prometheus remote-write best practices"},
+  {"url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-metrics-and-dimensions.html", "comment": "AWS API Gateway CloudWatch metrics and dimensions docs"},
+  {"url": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/cloudwatch/client/put_metric_data.html", "comment": "Boto3 CloudWatch put_metric_data reference"},
+  {"url": "https://gitlab.com/crossref/labs/lambda-api-proxy/-/blob/main/crapiproxy/src/instrumentation.py", "comment": "Crossref Labs API proxy instrumentation.py example"},
+  {"url": "https://github.com/bobbui/json-logging-python", "comment": "json-logging-python JSON logger library"}
+ ],
+ "2023-03-19-integration-testing-locally-and-on-gitlab-ci-using-localstack.md": [
+  {"url": "https://pypi.org/project/pytest-localstack/", "comment": "pytest-localstack PyPI package"},
+  {"url": "http://localstack:4566", "comment": "LocalStack AWS emulator local endpoint"},
+  {"url": "https://gitlab.com/crossref/labs/lambda-api-proxy/-/blob/main/crapiproxy/src/plugins/utils/aws_utils.py", "comment": "Crossref Labs AWSConnector utility class source"}
+ ],
+ "2023-03-09-a-data-pipeline-with-apache-airflow-and-dask.md": [
+  {"url": "https://www.crossref.org/people/martin-eve/", "comment": "Eve's Crossref staff profile"},
+  {"url": "https://gitlab.com/crossref/labs/airflow-launcher", "comment": "Crossref Labs Airflow launcher project"},
+  {"url": "https://gitlab.com/crossref/labs/distrunner", "comment": "Crossref Labs Dask distributed runner library"},
+  {"url": "https://github.com/dask/distributed/issues/6846", "comment": "Dask issue: errors after cluster shutdown"}
+ ],
+ "2023-02-13-getting-to-grips-with-airflow-on-amazon-aws.md": [
+  {"url": "https://gitlab.com/crossref/labs/preservation-data/-/blob/main/aflow/virtual_python_plugin.py", "comment": "Crossref Labs Airflow virtual Python plugin source"},
+  {"url": "https://docs.aws.amazon.com/mwaa/latest/userguide/samples-virtualenv.html", "comment": "AWS MWAA virtualenv sample documentation"},
+  {"url": "https://api.portico.org/kbart/Portico_Holding_KBart.txt", "comment": "Portico KBART holdings data file"}
+ ]
+}

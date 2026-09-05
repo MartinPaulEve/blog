@@ -1,0 +1,247 @@
+{
+ "2013-08-18-using-git-in-my-writing-workflow.md": [
+  {
+   "url": "http://chronicle.com/blogs/profhacker/tag/git",
+   "text": "Chronicle of HE about it",
+   "context": "version control my writing. This isn't a new concept -- I've seen posts on the <a href=\"http://chronicle.com/blogs/profhacker/tag/git\">Chronicle of HE about it</a> -- but I've yet to actually try it.</p> <p>I think I first heard of git for"
+  },
+  {
+   "url": "https://twitter.com/theNHJ",
+   "text": "Newell Hampson-Jones",
+   "context": "tually try it.</p> <p>I think I first heard of git for academic writing through <a href=\"https://twitter.com/theNHJ\">Newell Hampson-Jones</a> on Twitter and, I'm sorry to say, I was dismissive and sceptical. I struggle to remember what my e"
+  },
+  {
+   "url": "https://git.wiki.kernel.org/index.php/GitTips#How_to_use_git_to_track_OpenDocument_.28OpenOffice.2C_Koffice.29_files.3F",
+   "text": "gittips wiki",
+   "context": "nt to share how I've got that working (I'm using Linux Mint).</p> <p>As per the <a href=\"https://git.wiki.kernel.org/index.php/GitTips#How_to_use_git_to_track_OpenDocument_.28OpenOffice.2C_Koffice.29_files.3F\">gittips wiki</a>, I added the"
+  }
+ ],
+ "2013-08-11-on-international-pynchon-week.md": [
+  {
+   "url": "https://www.martineve.com/wp-content/uploads/2013/08/2013-08-06-21.06.16.jpg",
+   "text": null,
+   "context": "lds itself upwards together, rather than some climbing on top of others.</p> <p><a href=\"https://www.martineve.com/wp-content/uploads/2013/08/2013-08-06-21.06.16.jpg\">"
+  },
+  {
+   "url": "http://www.ipw2013.com/programme/",
+   "text": "the programme is online",
+   "context": "wer and terror, epistemology, ontology and postmodernism; the list goes on (and <a href=\"http://www.ipw2013.com/programme/\">the programme is online</a>).</p> <p>As there were too many papers to cover in any detail (and as many of these shou"
+  },
+  {
+   "url": "https://www.pynchon.net",
+   "text": "Orbit",
+   "context": "ny papers to cover in any detail (and as many of these should be forthcoming in <a href=\"https://www.pynchon.net\">Orbit</a>), I'll just pick a few instances for further comment.</p> <p>It was a great personal pleasure for me to be able to h"
+  },
+  {
+   "url": "https://www.martineve.com/wp-content/uploads/2013/08/2013-08-06-12.19.06.jpg",
+   "text": null,
+   "context": "stance on the nuclear family away from any kind of conservative stance).</p> <p><a href=\"https://www.martineve.com/wp-content/uploads/2013/08/2013-08-06-12.19.06.jpg\">"
+  }
+ ],
+ "2013-08-02-has-the-licensing-battle-been-deferred-in-the-latest-hefce-document.md": [
+  {
+   "url": "http://blogs.lse.ac.uk/impactofsocialsciences/2013/08/01/getting-somewhere-hefce-proposals-on-open-access/",
+   "text": "a post on the LSE Impact Blog",
+   "context": "<p>While I agree with much of what they say, in <a href=\"http://blogs.lse.ac.uk/impactofsocialsciences/2013/08/01/getting-somewhere-hefce-proposals-on-open-access/\">a post on the LSE Impact Blog</a>, Meera Sa"
+  },
+  {
+   "url": "http://www.nature.com/news/text-mining-spat-heats-up-1.12636",
+   "text": "seems to go way beyond",
+   "context": "ct to proper attribution under appropriate licensing.”</p></blockquote> <p>This <a href=\"http://www.nature.com/news/text-mining-spat-heats-up-1.12636\">seems to go way beyond</a> \"existing copyright and fair use provisions\". Instead, in not"
+  }
+ ],
+ "2013-07-28-rendering-mathml-in-xslfo-to-pdf-using-fop.md": [
+  {
+   "url": "http://jeuclid.sourceforge.net/jeuclid-fop/",
+   "text": "use JEuclid",
+   "context": "e an XSL:FO document to be converted to PDF using fop. The way to do this is to <a href=\"http://jeuclid.sourceforge.net/jeuclid-fop/\">use JEuclid</a>. However, the JEuclid page claims to only work on fop versions 0.95beta and 0.95. Turns ou"
+  }
+ ],
+ "2013-07-28-determining-glyph-availability-for-fop.md": [
+  {
+   "url": "http://www.fileformat.info",
+   "text": "great resource at fileformat.info",
+   "context": "t you can map a specific character to use a different font.</li> <li>There is a <a href=\"http://www.fileformat.info\">great resource at fileformat.info</a> that will <a href=\"http://www.fileformat.info/info/unicode/char/2713/fontsupport.htm\""
+  },
+  {
+   "url": "http://www.fileformat.info/info/unicode/char/2713/fontsupport.htm",
+   "text": "tell you what fonts support your glyphs",
+   "context": "ef=\"http://www.fileformat.info\">great resource at fileformat.info</a> that will <a href=\"http://www.fileformat.info/info/unicode/char/2713/fontsupport.htm\">tell you what fonts support your glyphs</a>.</li> <li>Just use DejaVu Sans and save"
+  }
+ ],
+ "2013-07-27-hefce-the-state-of-open-access-in-the-uk-and-post-2014-ref.md": [
+  {
+   "url": "http://www.hefce.ac.uk/media/hefce/content/pubs/2013/201316/Consultation%20on%20open%20access%20in%20the%20post-2014%20Research%20Excellence%20Framework.pdf",
+   "text": "the PDF version",
+   "context": "my own head, I thought I'd write a summary post for quick reference. I'm using <a href=\"http://www.hefce.ac.uk/media/hefce/content/pubs/2013/201316/Consultation%20on%20open%20access%20in%20the%20post-2014%20Research%20Excellence%20Framewor"
+  }
+ ],
+ "2013-07-21-joining-the-uk-national-monographs-strategy-expert-panel.md": [
+  {
+   "url": "http://monographs.jiscinvolve.org/wp/",
+   "text": "National Monographs Strategy",
+   "context": "<p>I'm very pleased to announce that I am joining Jisc's <a href=\"http://monographs.jiscinvolve.org/wp/\">National Monographs Strategy</a> Expert Advisory Panel. As the project's website puts it:</p> <div style=\"clear:"
+  }
+ ],
+ "2013-07-20-punchdrunks-the-drowned-man.md": [
+  {
+   "url": "http://www.timeout.com/london/theatre/punchdrunk-the-drowned-man",
+   "text": "crawled through the passage",
+   "context": "ter a minute of inspecting the panelling, I find the secret door. I should have <a href=\"http://www.timeout.com/london/theatre/punchdrunk-the-drowned-man\">crawled through the passage</a> to see where it led, but my traditional (and here, mi"
+  }
+ ],
+ "2013-07-17-speaking-at-sparc-japan.md": [
+  {
+   "url": "http://www.nii.ac.jp/sparc/en/event/2013/20130823en.html",
+   "text": "seminar schedule is now online",
+   "context": "ormatics.</p> <p>I'll post more about the remit of the talk when I can, but the <a href=\"http://www.nii.ac.jp/sparc/en/event/2013/20130823en.html\">seminar schedule is now online</a>. The talk will be translated, so all are welcome. It will"
+  },
+  {
+   "url": "https://www.martineve.com/wp-content/uploads/2013/07/20130823_flyer_rev1.pdf",
+   "text": "a flyer for the event",
+   "context": "ng a mutually informative and productive dialogue.</p> <p>For those interested, <a href=\"https://www.martineve.com/wp-content/uploads/2013/07/20130823_flyer_rev1.pdf\">a flyer for the event</a> is also available.</p>"
+  }
+ ],
+ "2013-07-14-displaying-ee-mobile-data-usage-in-conky.md": [
+  {
+   "url": "http://add-on.ee.co.uk/status",
+   "text": null,
+   "context": "one liner that looks like this:</p> {% highlight bash %} #!/bin/bash wget -qO- http://add-on.ee.co.uk/status | awk -v OFS=' / ' -v ORS='' '/<span class=\"data-used\">/{sub(/^[^0-9]*/, \"\"); dused=$0; match(dused, /^([0-9].?[0-9]?).+([0-9][^G]"
+  }
+ ],
+ "2013-07-07-evaluating-the-open-access-software-toolchain.md": [
+  {
+   "url": "https://github.com/NateWr",
+   "text": "Nate Wright",
+   "context": "<p>I received an interesting email this week from <a href=\"https://github.com/NateWr\">Nate Wright</a>, who posed the following questions:</p> <blockquote><p>I'm a web developer interested in contributing to a l"
+  },
+  {
+   "url": "http://www.ambraproject.org/",
+   "text": "Ambra",
+   "context": "look as though it's doing some amazing things, but the elephant in the room is <a href=\"http://www.ambraproject.org/\">Ambra</a>, PLOS' system. Now, I've heard mixed reports on Ambra (\"is it overkill?\" etc) and I can't comment on their poli"
+  },
+  {
+   "url": "https://www.openlibhums.org",
+   "text": "Our",
+   "context": "comprehensive Wiki and Trac system in place. Definitely worth exploring.</p> <p><a href=\"https://www.openlibhums.org\">Our</a> submission platform is going to take Ambra as a base, most likely. Typesetting in NLM format will be done through"
+  },
+  {
+   "url": "https://github.com/MartinPaulEve/meTypeset",
+   "text": "meTypeset",
+   "context": "Typesetting in NLM format will be done through our (very) in-development tool, <a href=\"https://github.com/MartinPaulEve/meTypeset\">meTypeset</a>. This is AGPL v2 licensed and I'd welcome contributions; it's a basic attempt to start toward"
+  },
+  {
+   "url": "https://github.com/MartinPaulEve/meTypeset/tree/master/citeParse/meCite",
+   "text": "citation parsing engine",
+   "context": "ice document into valid NLM/JATS XML. At present I also have a very rudimentary <a href=\"https://github.com/MartinPaulEve/meTypeset/tree/master/citeParse/meCite\">citation parsing engine</a> in the works, also, as part of that project.</p> <"
+  },
+  {
+   "url": "https://github.com/MartinPaulEve/MEXMLGalley/",
+   "text": "meXmlGalley",
+   "context": "> <p>For my current layout generation, I use another in-house (but GPLed) tool, <a href=\"https://github.com/MartinPaulEve/MEXMLGalley/\">meXmlGalley</a>. This is derived from OJS' (aborted?) attempt to integrate NLM. I revived the project an"
+  },
+  {
+   "url": "https://www.pynchon.net",
+   "text": "Orbit",
+   "context": "case, let me sum up what I do:</p> <ul> <li>Use OJS for my small niche joural, <a href=\"https://www.pynchon.net\">Orbit</a>, which does a good job of document handling</li> <li>Use Wordpress, without Annotum, for the quasi-magazine/journal"
+  },
+  {
+   "url": "http://www.alluvium-journal.org",
+   "text": "Alluvium",
+   "context": "andling</li> <li>Use Wordpress, without Annotum, for the quasi-magazine/journal <a href=\"http://www.alluvium-journal.org\">Alluvium</a>, which is great at looking good</li> <li>Use my own tools, <a href=\"https://github.com/MartinPaulEve/meTy"
+  }
+ ],
+ "2013-07-05-digital-literatures-digital-democracies-digital-threats.md": [
+  {
+   "url": "http://creativecommons.org/licenses/by/3.0/",
+   "text": null,
+   "context": "Commons Attribution 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/.</p> <p><b>This work is at a very early stage and I'm not entirely happy with much of the logic. I share it, though,"
+  }
+ ],
+ "2013-07-02-publication-guide-to-creative-commons-for-humanities-and-social-science-monograph-authors.md": [
+  {
+   "url": "https://www.martineve.com/wp-content/uploads/2013/07/CC_Guide_0613.pdf",
+   "text": "Guide to Creative Commons for humanities and social science monograph authors",
+   "context": "of the open access booklet, Collins, Ellen and Milloy, Caren and Stone, Graham, <a href=\"https://www.martineve.com/wp-content/uploads/2013/07/CC_Guide_0613.pdf\">Guide to Creative Commons for humanities and social science monograph authors</"
+  }
+ ],
+ "2013-07-01-publication-before-the-law-open-access-quality-control-and-the-future-of-peer-review.md": [
+  {
+   "url": "http://www./britac.ac.uk/openaccess",
+   "text": "British Academy",
+   "context": ":both\"></div> <p><br/><br /> In this piece on the future of peer review for the <a href=\"http://www./britac.ac.uk/openaccess\">British Academy</a>, I assert that, in the humanities:</p> <ul> <li>OA is not about abandoning peer review but it"
+  },
+  {
+   "url": "https://www.martineve.com/wp-content/uploads/2013/06/Debating-Open-Access-Eve-Before-the-law-open-access-quality-control-and-the-future-of-peer-review-June-2013.pdf",
+   "text": "to freely download",
+   "context": "istence on an individual finished product.</li> </ul> <p>The piece is available <a href=\"https://www.martineve.com/wp-content/uploads/2013/06/Debating-Open-Access-Eve-Before-the-law-open-access-quality-control-and-the-future-of-peer-review-"
+  },
+  {
+   "url": "https://www.martineve.com/wp-content/uploads/2013/06/Debating-Open-Access-ed-Vincent-and-Wickham-June-2013.pdf",
+   "text": "whole collection",
+   "context": "to freely download</a> (as well as appearing in a hard copy edition), as is the <a href=\"https://www.martineve.com/wp-content/uploads/2013/06/Debating-Open-Access-ed-Vincent-and-Wickham-June-2013.pdf\">whole collection</a>. The piece is lice"
+  }
+ ],
+ "2013-06-02-publication-the-botnet-webs-of-hegemonyzombies-who-publish-in-zombies-in-the-academy-bristol-intellect-2013.md": [
+  {
+   "url": "https://www.martineve.com/wp-content/uploads/2013/06/Martin-Paul-Eve-Zombies-in-the-Academy.pdf",
+   "text": "download the pre-print",
+   "context": "ion hub called the Research Output Team as a potential antidote.</p> <p>You can <a href=\"https://www.martineve.com/wp-content/uploads/2013/06/Martin-Paul-Eve-Zombies-in-the-Academy.pdf\">download the pre-print</a>, or visit my <a href=\"/prof"
+  }
+ ],
+ "2013-05-21-fixing-mpd-segfault-on-ubuntu-12-10-on-arm-devices-mele-pandaboard-etc.md": [
+  {
+   "url": "https://bugs.launchpad.net/ubuntu/+source/libmad/+bug/989846",
+   "text": "the fault is with libmad0",
+   "context": "you are experiencing crashes when you update your mpd library on Ubuntu 12.10, <a href=\"https://bugs.launchpad.net/ubuntu/+source/libmad/+bug/989846\">the fault is with libmad0</a>.</p> <p>This can be fixed by installing libmad0 from Debian"
+  },
+  {
+   "url": "http://ftp.us.debian.org/debian/pool/main/libm/libmad/libmad0_0.15.1b-7_armhf.deb",
+   "text": null,
+   "context": "installing libmad0 from Debian Wheeze. As root:</p> {% highlight bash %} wget http://ftp.us.debian.org/debian/pool/main/libm/libmad/libmad0_0.15.1b-7_armhf.deb dpkg -i ./libmad0_0.15.1b-7_armhf.deb {% endhighlight %} <p>I can confirm tha"
+  }
+ ],
+ "2013-05-12-getting-free_cite-running-on-your-own-server.md": [
+  {
+   "url": "https://github.com/shoe/free_cite",
+   "text": "free_cite",
+   "context": "<p>I decided that the best way to spend this Sunday morning was to try to get <a href=\"https://github.com/shoe/free_cite\">free_cite</a>, a citation parsing system, running on my server. Turns out this is easier said than done; the README"
+  },
+  {
+   "url": "http://superb-west.dl.sourceforge.net/sourceforge/crfpp/CRF++-0.47.tar.gz",
+   "text": null,
+   "context": "get install libpq-dev postgresql-client-9.1 postgresql-9.1 gem install pg wget http://superb-west.dl.sourceforge.net/sourceforge/crfpp/CRF++-0.47.tar.gz tar xvzf CRF++-0.47.tar.gz cd CRF++-0.47 ./configure && make && sudo make install cd C"
+  },
+  {
+   "url": "https://github.com/shoe/free_cite.git",
+   "text": null,
+   "context": "e permissions are correct.</p> <p>Next, do:</p> {% highlight bash %} git clone https://github.com/shoe/free_cite.git cd free_cite/config cp database.yml.example database.yml {% endhighlight %} <p>and then fill in the database details in d"
+  }
+ ],
+ "2013-04-27-internationalisation-of-new-open-access-initiatives.md": [
+  {
+   "url": "http://talkingoflanguages.wordpress.com/2013/03/12/the-languages-of-academic-publishing/",
+   "text": "The Languages of Academic Publishing",
+   "context": "member of OLH's internationalisation committee, Erika Corradini. In her piece, <a href=\"http://talkingoflanguages.wordpress.com/2013/03/12/the-languages-of-academic-publishing/\">The Languages of Academic Publishing</a>, Erika writes:</p> <"
+  }
+ ],
+ "2013-04-21-pynchon-in-public-day-2013.md": [
+  {
+   "url": "https://www.facebook.com/events/163564200474896/?fref=ts",
+   "text": "Facebook Event page",
+   "context": "ird year, we invite you to submit, on Twitter via the #Pynchon2013 hashtag, the <a href=\"https://www.facebook.com/events/163564200474896/?fref=ts\">Facebook Event page</a> or even just by emailing me, your photographs for <a href=\"http://www"
+  },
+  {
+   "url": "http://www.pynchoninpublic.com",
+   "text": "Pynchon in Public Day 2013",
+   "context": "f=ts\">Facebook Event page</a> or even just by emailing me, your photographs for <a href=\"http://www.pynchoninpublic.com\">Pynchon in Public Day 2013</a>!</p> <p>The event was founded to mark the birth date of one of the most important living"
+  }
+ ],
+ "2013-04-17-more-on-new-thomas-pynchon-novel-bleeding-edge.md": [
+  {
+   "url": "http://booksellers.penguin.com/static/pdf/penguinpress-fall13.pdf",
+   "text": "Penguin Press release",
+   "context": "ought to my attention by Dave Monroe, from the Pynchon List and culled from the <a href=\"http://booksellers.penguin.com/static/pdf/penguinpress-fall13.pdf\">Penguin Press release</a>:</p> <blockquote><p>It is 2001 in New York City, in the lu"
+  }
+ ]
+}

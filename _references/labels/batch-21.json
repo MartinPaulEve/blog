@@ -1,0 +1,83 @@
+{
+ "2013-08-18-using-git-in-my-writing-workflow.md": [
+  {"url": "http://chronicle.com/blogs/profhacker/tag/git", "comment": "Chronicle of Higher Education ProfHacker git posts"},
+  {"url": "https://twitter.com/theNHJ", "comment": "Newell Hampson-Jones Twitter profile"},
+  {"url": "https://git.wiki.kernel.org/index.php/GitTips#How_to_use_git_to_track_OpenDocument_.28OpenOffice.2C_Koffice.29_files.3F", "comment": "GitTips wiki on tracking OpenDocument files"}
+ ],
+ "2013-08-11-on-international-pynchon-week.md": [
+  {"url": "https://www.martineve.com/wp-content/uploads/2013/08/2013-08-06-21.06.16.jpg", "comment": "Photo from International Pynchon Week 2013"},
+  {"url": "http://www.ipw2013.com/programme/", "comment": "International Pynchon Week 2013 programme"},
+  {"url": "https://www.pynchon.net", "comment": "Orbit journal of American literature"},
+  {"url": "https://www.martineve.com/wp-content/uploads/2013/08/2013-08-06-12.19.06.jpg", "comment": "Second photo from International Pynchon Week 2013"}
+ ],
+ "2013-08-02-has-the-licensing-battle-been-deferred-in-the-latest-hefce-document.md": [
+  {"url": "http://blogs.lse.ac.uk/impactofsocialsciences/2013/08/01/getting-somewhere-hefce-proposals-on-open-access/", "comment": "LSE Impact Blog post on HEFCE open access proposals"},
+  {"url": "http://www.nature.com/news/text-mining-spat-heats-up-1.12636", "comment": "Nature news on text-mining copyright dispute"}
+ ],
+ "2013-07-28-rendering-mathml-in-xslfo-to-pdf-using-fop.md": [
+  {"url": "http://jeuclid.sourceforge.net/jeuclid-fop/", "comment": "JEuclid FOP plugin for MathML rendering"}
+ ],
+ "2013-07-28-determining-glyph-availability-for-fop.md": [
+  {"url": "http://www.fileformat.info", "comment": "fileformat.info Unicode and font reference"},
+  {"url": "http://www.fileformat.info/info/unicode/char/2713/fontsupport.htm", "comment": "fileformat.info font support for checkmark glyph"}
+ ],
+ "2013-07-27-hefce-the-state-of-open-access-in-the-uk-and-post-2014-ref.md": [
+  {"url": "http://www.hefce.ac.uk/media/hefce/content/pubs/2013/201316/Consultation%20on%20open%20access%20in%20the%20post-2014%20Research%20Excellence%20Framework.pdf", "comment": "HEFCE consultation PDF on open access post-2014 REF"}
+ ],
+ "2013-07-21-joining-the-uk-national-monographs-strategy-expert-panel.md": [
+  {"url": "http://monographs.jiscinvolve.org/wp/", "comment": "Jisc National Monographs Strategy project site"}
+ ],
+ "2013-07-20-punchdrunks-the-drowned-man.md": [
+  {"url": "http://www.timeout.com/london/theatre/punchdrunk-the-drowned-man", "comment": "Time Out London review of Punchdrunk The Drowned Man"}
+ ],
+ "2013-07-17-speaking-at-sparc-japan.md": [
+  {"url": "http://www.nii.ac.jp/sparc/en/event/2013/20130823en.html", "comment": "SPARC Japan seminar schedule August 2013"},
+  {"url": "https://www.martineve.com/wp-content/uploads/2013/07/20130823_flyer_rev1.pdf", "comment": "SPARC Japan event flyer PDF"}
+ ],
+ "2013-07-14-displaying-ee-mobile-data-usage-in-conky.md": [
+  {"url": "http://add-on.ee.co.uk/status", "comment": "EE mobile data usage status page"}
+ ],
+ "2013-07-07-evaluating-the-open-access-software-toolchain.md": [
+  {"url": "https://github.com/NateWr", "comment": "Nate Wright GitHub profile"},
+  {"url": "http://www.ambraproject.org/", "comment": "Ambra open access publishing platform"},
+  {"url": "https://www.openlibhums.org", "comment": "Open Library of Humanities website"},
+  {"url": "https://github.com/MartinPaulEve/meTypeset", "comment": "meTypeset Word-to-NLM typesetting tool"},
+  {"url": "https://github.com/MartinPaulEve/meTypeset/tree/master/citeParse/meCite", "comment": "meCite citation parsing engine in meTypeset"},
+  {"url": "https://github.com/MartinPaulEve/MEXMLGalley/", "comment": "meXmlGalley NLM galley generation tool"},
+  {"url": "https://www.pynchon.net", "comment": "Orbit journal of American literature"},
+  {"url": "http://www.alluvium-journal.org", "comment": "Alluvium online literary journal"}
+ ],
+ "2013-07-05-digital-literatures-digital-democracies-digital-threats.md": [
+  {"url": "http://creativecommons.org/licenses/by/3.0/", "comment": "Creative Commons Attribution 3.0 Unported License"}
+ ],
+ "2013-07-02-publication-guide-to-creative-commons-for-humanities-and-social-science-monograph-authors.md": [
+  {"url": "https://www.martineve.com/wp-content/uploads/2013/07/CC_Guide_0613.pdf", "comment": "Guide to Creative Commons for humanities monograph authors PDF"}
+ ],
+ "2013-07-01-publication-before-the-law-open-access-quality-control-and-the-future-of-peer-review.md": [
+  {"url": "http://www./britac.ac.uk/openaccess", "comment": "British Academy open access publication page"},
+  {"url": "https://www.martineve.com/wp-content/uploads/2013/06/Debating-Open-Access-Eve-Before-the-law-open-access-quality-control-and-the-future-of-peer-review-June-2013.pdf", "comment": "Eve, Before the Law open access peer review chapter PDF"},
+  {"url": "https://www.martineve.com/wp-content/uploads/2013/06/Debating-Open-Access-ed-Vincent-and-Wickham-June-2013.pdf", "comment": "Debating Open Access collection ed. Vincent and Wickham PDF"}
+ ],
+ "2013-06-02-publication-the-botnet-webs-of-hegemonyzombies-who-publish-in-zombies-in-the-academy-bristol-intellect-2013.md": [
+  {"url": "https://www.martineve.com/wp-content/uploads/2013/06/Martin-Paul-Eve-Zombies-in-the-Academy.pdf", "comment": "Eve, Zombies in the Academy chapter pre-print PDF"}
+ ],
+ "2013-05-21-fixing-mpd-segfault-on-ubuntu-12-10-on-arm-devices-mele-pandaboard-etc.md": [
+  {"url": "https://bugs.launchpad.net/ubuntu/+source/libmad/+bug/989846", "comment": "Launchpad bug report for libmad0 segfault"},
+  {"url": "http://ftp.us.debian.org/debian/pool/main/libm/libmad/libmad0_0.15.1b-7_armhf.deb", "comment": "Debian Wheezy libmad0 armhf package download"}
+ ],
+ "2013-05-12-getting-free_cite-running-on-your-own-server.md": [
+  {"url": "https://github.com/shoe/free_cite", "comment": "free_cite citation parsing system on GitHub"},
+  {"url": "http://superb-west.dl.sourceforge.net/sourceforge/crfpp/CRF++-0.47.tar.gz", "comment": "CRF++ 0.47 source tarball on SourceForge"},
+  {"url": "https://github.com/shoe/free_cite.git", "comment": "free_cite Git repository clone URL"}
+ ],
+ "2013-04-27-internationalisation-of-new-open-access-initiatives.md": [
+  {"url": "http://talkingoflanguages.wordpress.com/2013/03/12/the-languages-of-academic-publishing/", "comment": "Corradini, The Languages of Academic Publishing blog post"}
+ ],
+ "2013-04-21-pynchon-in-public-day-2013.md": [
+  {"url": "https://www.facebook.com/events/163564200474896/?fref=ts", "comment": "Pynchon in Public Day 2013 Facebook event"},
+  {"url": "http://www.pynchoninpublic.com", "comment": "Pynchon in Public Day official website"}
+ ],
+ "2013-04-17-more-on-new-thomas-pynchon-novel-bleeding-edge.md": [
+  {"url": "http://booksellers.penguin.com/static/pdf/penguinpress-fall13.pdf", "comment": "Penguin Press Fall 2013 catalogue PDF"}
+ ]
+}

@@ -1,0 +1,477 @@
+{
+ "2014-01-13-handling-the-absence-of-a-newline-break-tag-in-jats.md": [
+  {
+   "url": "https://github.com/MartinPaulEve/meTypeset/blob/fb11e34126493e0bf2b95681b558dd246fc6df38/bin/nlmmanipulate.py",
+   "text": "our NLMManipulator class",
+   "context": "d to the tail after the comment() element in that XPath. This is implemented in <a href=\"https://github.com/MartinPaulEve/meTypeset/blob/fb11e34126493e0bf2b95681b558dd246fc6df38/bin/nlmmanipulate.py\">our NLMManipulator class</a>.</p> <p>The"
+  }
+ ],
+ "2014-01-06-introducing-eprintscv-a-python-script-to-create-an-academic-web-cv-from-your-eprints-record.md": [
+  {
+   "url": "https://www.martineve.com/c-v/",
+   "text": "version on my own site",
+   "context": "ository, my OpenOffice CV document, my Academia.edu profile and, of course, the <a href=\"https://www.martineve.com/c-v/\">version on my own site</a>. I decided to do something about this.</p> <p>Allow me to introduce <a href=\"https://github."
+  },
+  {
+   "url": "https://github.com/MartinPaulEve/eprintsCV",
+   "text": "eprintsCV",
+   "context": "wn site</a>. I decided to do something about this.</p> <p>Allow me to introduce <a href=\"https://github.com/MartinPaulEve/eprintsCV\">eprintsCV</a>! This tool will grab your eprints articles, books, conference papers and book chapters and di"
+  },
+  {
+   "url": "http://www.myvirtualdisplay.com/wordpress-projects/include_html/",
+   "text": "include_html",
+   "context": "conference_item\" > some_file.html {% endhighlight %} <p>I've then simply used <a href=\"http://www.myvirtualdisplay.com/wordpress-projects/include_html/\">include_html</a> to transclude the result.</p> <p>Admittedly, there is risk (with a m"
+  }
+ ],
+ "2013-12-29-my-2013-academic-year-in-review.md": [
+  {
+   "url": "https://www.openlibhums.org",
+   "text": "Open Library of Humanities",
+   "context": "ue to love the people I work with both students and staff.</p> <p>Secondly, the <a href=\"https://www.openlibhums.org\">Open Library of Humanities</a> project has come on leaps and bounds. We have our first funding for technical infrastructur"
+  },
+  {
+   "url": "http://staff.lincoln.ac.uk/id/003354#research",
+   "text": "Eve, Martin Paul",
+   "context": "ks</h2> <p>My Pynchon book was accepted and will be out next year!</p> <ul> <li><a href=\"http://staff.lincoln.ac.uk/id/003354#research\">Eve, Martin Paul</a> (2014) <i><a href=\"http://eprints.lincoln.ac.uk/12425\">Pynchon and philosophy: Witt"
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/12425",
+   "text": "Pynchon and philosophy: Wittgenstein, Foucault and Adorno.",
+   "context": "=\"http://staff.lincoln.ac.uk/id/003354#research\">Eve, Martin Paul</a> (2014) <i><a href=\"http://eprints.lincoln.ac.uk/12425\">Pynchon and philosophy: Wittgenstein, Foucault and Adorno.</a></i> Palgrave Macmillan, London.</li> <li>Collins, El"
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/10589",
+   "text": "Guide to Creative Commons for humanities and social science monograph authors.",
+   "context": "ln.ac.uk/id/003354#research\">Eve, Martin Paul</a> and Priego, Ernesto (2013) <i><a href=\"http://eprints.lincoln.ac.uk/10589\">Guide to Creative Commons for humanities and social science monograph authors.</a></i> OAPEN-UK and Jisc Collection"
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/12662",
+   "text": "On the mark? Responses to a sting.",
+   "context": "tin Paul</a> and Steel, Graham and Gardy, Jennifer and Salo, Dorothea (2013) <i><a href=\"http://eprints.lincoln.ac.uk/12662\">On the mark? Responses to a sting.</a></i> Journal of Librarianship and Scholarly Communication, 2 (1).</li> <li><a"
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/12761",
+   "text": "Review of humanities in the twenty-first century: beyond utility and markets.",
+   "context": "=\"http://staff.lincoln.ac.uk/id/003354#research\">Eve, Martin Paul</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/12761\">Review of humanities in the twenty-first century: beyond utility and markets.</a></i> Textual Practice, 27 (7). pp."
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/12790",
+   "text": "Utopia fading: taxonomies, freedom and dissent in open access publishing.",
+   "context": "=\"http://staff.lincoln.ac.uk/id/003354#research\">Eve, Martin Paul</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/12790\">Utopia fading: taxonomies, freedom and dissent in open access publishing.</a></i> Journal of Victorian Culture, 18"
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/12602",
+   "text": "ERC backtracks on open-access embargo period.",
+   "context": "=\"http://staff.lincoln.ac.uk/id/003354#research\">Eve, Martin Paul</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/12602\">ERC backtracks on open-access embargo period.</a></i> Research Europe (376). pp. 5.</li> <li><a href=\"http://staff."
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/12043",
+   "text": "Flawed sting operation singles out open access journals .",
+   "context": "=\"http://staff.lincoln.ac.uk/id/003354#research\">Eve, Martin Paul</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/12043\">Flawed sting operation singles out open access journals .</a></i> The Conversation.</li> <li><a href=\"http://staff."
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/11983",
+   "text": "Review of James Gourley, terrorism and temporality in the works of Thomas Pynchon and Don DeLillo (2013).",
+   "context": "=\"http://staff.lincoln.ac.uk/id/003354#research\">Eve, Martin Paul</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/11983\">Review of James Gourley, terrorism and temporality in the works of Thomas Pynchon and Don DeLillo (2013).</a></i> O"
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/11808",
+   "text": "Selling Shakespeare's first folio: is this the future of humanities research?.",
+   "context": "=\"http://staff.lincoln.ac.uk/id/003354#research\">Eve, Martin Paul</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/11808\">Selling Shakespeare's first folio: is this the future of humanities research?.</a></i> Guardian.</li> <li><a href=\""
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/11595",
+   "text": "Gatekeepers in a digital wasteland.",
+   "context": "=\"http://staff.lincoln.ac.uk/id/003354#research\">Eve, Martin Paul</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/11595\">Gatekeepers in a digital wasteland.</a></i> The Author. ISSN: 0005-0628</li> <li><a href=\"http://staff.lincoln.ac.u"
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/11753",
+   "text": "“You will see the logic of the design of this”: from historiography to taxonomography in the contemporary metafiction of Sarah Waters’s Affinity.",
+   "context": "=\"http://staff.lincoln.ac.uk/id/003354#research\">Eve, Martin Paul</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/11753\">“You will see the logic of the design of this”: from historiography to taxonomography in the contemporary metaficti"
+  },
+  {
+   "url": "http://staff.lincoln.ac.uk/id/003004#research",
+   "text": "Edwards, Caroline",
+   "context": "a href=\"http://staff.lincoln.ac.uk/id/003354#research\">Eve, Martin Paul</a> and <a href=\"http://staff.lincoln.ac.uk/id/003004#research\">Edwards, Caroline</a> and <a href=\"http://staff.lincoln.ac.uk/id/00lukas.wieselberg@orf.at#research\">Wie"
+  },
+  {
+   "url": "http://staff.lincoln.ac.uk/id/00lukas.wieselberg@orf.at#research",
+   "text": "Wieselberg, Lukas",
+   "context": "href=\"http://staff.lincoln.ac.uk/id/003004#research\">Edwards, Caroline</a> and <a href=\"http://staff.lincoln.ac.uk/id/00lukas.wieselberg@orf.at#research\">Wieselberg, Lukas</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/11708\">Freier E"
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/11708",
+   "text": "Freier Eintritt in die Geisteswissenschaft.",
+   "context": "ln.ac.uk/id/00lukas.wieselberg@orf.at#research\">Wieselberg, Lukas</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/11708\">Freier Eintritt in die Geisteswissenschaft.</a></i> Science@ORF.at.</li> <li><a href=\"http://staff.lincoln.ac.uk/id"
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/10590",
+   "text": "Open access and the humanities.",
+   "context": "=\"http://staff.lincoln.ac.uk/id/003354#research\">Eve, Martin Paul</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/10590\"> Open access and the humanities.</a></i> Digital Arts and Humanities at Harvard.</li> <li><a href=\"http://staff.lin"
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/9682",
+   "text": "Open Library of Humanities project.",
+   "context": "=\"http://staff.lincoln.ac.uk/id/003354#research\">Eve, Martin Paul</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/9682\">Open Library of Humanities project.</a></i> UKSG eNews (297).</li> <li><a href=\"http://staff.lincoln.ac.uk/id/003354"
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/9500",
+   "text": "DeLillo, aesthetics, the Cold Iraq War.",
+   "context": "=\"http://staff.lincoln.ac.uk/id/003354#research\">Eve, Martin Paul</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/9500\">DeLillo, aesthetics, the Cold Iraq War.</a></i> Alluvium: 21st-Century Writing, 21st-Century Approaches, 2 (3).</li>"
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/9235",
+   "text": "Open access and the humanities: reimagining our future.",
+   "context": "=\"http://staff.lincoln.ac.uk/id/003354#research\">Eve, Martin Paul</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/9235\">Open access and the humanities: reimagining our future.</a></i> Guardian. ISSN: 0261-3077</li> <li><a href=\"http://s"
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/9234",
+   "text": "The human side of open-access publishing.",
+   "context": "=\"http://staff.lincoln.ac.uk/id/003354#research\">Eve, Martin Paul</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/9234\">The human side of open-access publishing.</a></i> Research Fortnight. pp. 20.</li> <li><a href=\"http://staff.lincoln"
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/9233",
+   "text": "Gold rush.",
+   "context": "=\"http://staff.lincoln.ac.uk/id/003354#research\">Eve, Martin Paul</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/9233\">Gold rush.</a></i> London Graduate School Thoughtpiece.</li> <li><a href=\"http://staff.lincoln.ac.uk/id/003354#resea"
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/11565",
+   "text": "Q&amp;A: Martin Eve on why we need a public library of the humanities and social sciences.",
+   "context": "href=\"http://staff.lincoln.ac.uk/id/003354#research\">Eve, Martin</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/11565\">Q&amp;A: Martin Eve on why we need a public library of the humanities and social sciences.</a></i> Library Journal,"
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/7159",
+   "text": "\"It sure as hell looked like war\": terrorism and the Cold War in Thomas Pynchon's Against the Day and Don DeLillo's Underworld.",
+   "context": "=\"http://staff.lincoln.ac.uk/id/003354#research\">Eve, Martin Paul</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/7159\">\"It sure as hell looked like war\": terrorism and the Cold War in Thomas Pynchon's Against the Day and Don DeLillo's"
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/10019",
+   "text": "Before the law: open access, quality control and the future of peer review.",
+   "context": "=\"http://staff.lincoln.ac.uk/id/003354#research\">Eve, Martin Paul</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/10019\">Before the law: open access, quality control and the future of peer review.</a></i> In: Debating Open Access. Briti"
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/7160",
+   "text": "The botnet: webs of hegemony/zombies who publish.",
+   "context": "=\"http://staff.lincoln.ac.uk/id/003354#research\">Eve, Martin Paul</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/7160\">The botnet: webs of hegemony/zombies who publish.</a></i> In: Zombies in the academy: living death in higher educati"
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/12402",
+   "text": "“Vivid tenuousness”: off the page and into the academy in the novels of Jennifer Egan.",
+   "context": "=\"http://staff.lincoln.ac.uk/id/003354#research\">Eve, Martin Paul</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/12402\">“Vivid tenuousness”: off the page and into the academy in the novels of Jennifer Egan.</a></i> In: Literature off t"
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/11807",
+   "text": "The humanities, cultural 'data' and the problematic resistance to openness.",
+   "context": "=\"http://staff.lincoln.ac.uk/id/003354#research\">Eve, Martin Paul</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/11807\">The humanities, cultural 'data' and the problematic resistance to openness.</a></i> In: Open [access, data, source]"
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/11962",
+   "text": "Open access, humanities activism and scholar agency: re-imagining our future.",
+   "context": "=\"http://staff.lincoln.ac.uk/id/003354#research\">Eve, Martin Paul</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/11962\">Open access, humanities activism and scholar agency: re-imagining our future.</a></i> In: Fremtiden er åpen!, 25th"
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/11726",
+   "text": "Front line of OA in humanities and social sciences.",
+   "context": "=\"http://staff.lincoln.ac.uk/id/003354#research\">Eve, Martin Paul</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/11726\">Front line of OA in humanities and social sciences.</a></i> In: The 2nd SPARC Japan Seminar 2013 \"Latest Developmen"
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/10663",
+   "text": "Digital literatures; digital democracies; digital threats?.",
+   "context": "=\"http://staff.lincoln.ac.uk/id/003354#research\">Eve, Martin Paul</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/10663\">Digital literatures; digital democracies; digital threats?.</a></i> In: E-reading between the lines: 21st century l"
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/10591",
+   "text": "OLH and monographs.",
+   "context": "\"http://staff.lincoln.ac.uk/id/003004#research\">Edwards, Caroline</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/10591\">OLH and monographs.</a></i> In: Open Access Monographs in the Humanities and Social Sciences Conference, 1-2 July,"
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/10588",
+   "text": "Open access and the humanities.",
+   "context": "\"http://staff.lincoln.ac.uk/id/003004#research\">Edwards, Caroline</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/10588\">Open access and the humanities.</a></i> In: Open Access and the Humanities, June 2013, Barker Center, Harvard Unive"
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/9830",
+   "text": "Opening up humanities sources.",
+   "context": "=\"http://staff.lincoln.ac.uk/id/003354#research\">Eve, Martin Paul</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/9830\">Opening up humanities sources.</a></i> In: Wikimedia UK Conference, 9 June 2013, Lincoln.</li> <li><a href=\"http://s"
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/9793",
+   "text": "The Open Library of the Humanities: building an open, scalable, massive, sustainable, humanities megajournal.",
+   "context": "\"http://staff.lincoln.ac.uk/id/003004#research\">Edwards, Caroline</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/9793\">The Open Library of the Humanities: building an open, scalable, massive, sustainable, humanities megajournal.</a></i"
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/9829",
+   "text": "Open access: what it is, why we need it, how we fund it.",
+   "context": "=\"http://staff.lincoln.ac.uk/id/003354#research\">Eve, Martin Paul</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/9829\">Open access: what it is, why we need it, how we fund it.</a></i> In: School of Social and Political Sciences Seminar"
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/9828",
+   "text": "Libraries and academics.",
+   "context": "=\"http://staff.lincoln.ac.uk/id/003354#research\">Eve, Martin Paul</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/9828\">Libraries and academics.</a></i> In: Jisc and RLUK Academic Survey Workshop, 20 May 2013, Wellcome Collection Confer"
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/9827",
+   "text": "Open access and the humanities.",
+   "context": "\"http://staff.lincoln.ac.uk/id/003004#research\">Edwards, Caroline</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/9827\">Open access and the humanities.</a></i> In: Forms of Innovation, 27 April 2013, Durham University.</li> <li><a href="
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/9826",
+   "text": "'Don't just sit there, do something!': On open access activism, the future of scholarly communications and crystal- (not navel-) gazing.",
+   "context": "=\"http://staff.lincoln.ac.uk/id/003354#research\">Eve, Martin Paul</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/9826\">'Don't just sit there, do something!': On open access activism, the future of scholarly communications and crystal-"
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/10592",
+   "text": "Oral evidence.",
+   "context": "=\"http://staff.lincoln.ac.uk/id/003354#research\">Eve, Martin Paul</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/10592\">Oral evidence.</a></i> In: House of Commons BIS Inquiry into Open Access, April 2013, Houses of Parliament.</li> <l"
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/9825",
+   "text": "The future of academic publishing.",
+   "context": "\"http://staff.lincoln.ac.uk/id/003004#research\">Edwards, Caroline</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/9825\">The future of academic publishing.</a></i> In: The Graduate School Seminar, April 2013, University of Lincoln.</li>"
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/9823",
+   "text": "The future of peer review.",
+   "context": "=\"http://staff.lincoln.ac.uk/id/003354#research\">Eve, Martin Paul</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/9823\">The future of peer review.</a></i> In: Peer pressure: the changing role of peer review: Research Hive Seminar, 14 Ma"
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/9824",
+   "text": "Futurity, books, Marx, labour.",
+   "context": "=\"http://staff.lincoln.ac.uk/id/003354#research\">Eve, Martin Paul</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/9824\">Futurity, books, Marx, labour.</a></i> In: Beyond the Book? The Future of Academic Publishing , 24-26 March 2013, Un"
+  },
+  {
+   "url": "http://eprints.lincoln.ac.uk/9822",
+   "text": "\"Too many goddamn echoes\": historicizing the Iraq War in Don DeLillo's Point Omega.",
+   "context": "=\"http://staff.lincoln.ac.uk/id/003354#research\">Eve, Martin Paul</a> (2013) <i><a href=\"http://eprints.lincoln.ac.uk/9822\">\"Too many goddamn echoes\": historicizing the Iraq War in Don DeLillo's Point Omega.</a></i> In: Iraq War Culture, Ma"
+  }
+ ],
+ "2013-12-27-why-im-a-fan-of-open-source-software-an-argument-by-anecdoteexample.md": [
+  {
+   "url": "https://github.com/m0sia/pyParrotZik",
+   "text": "a great-looking cross-platform indicator icon for the headphones",
+   "context": "<p>Switching back into my Linux installation I found that somebody had written <a href=\"https://github.com/m0sia/pyParrotZik\">a great-looking cross-platform indicator icon for the headphones</a>, having reverse engineered the protocol. I c"
+  },
+  {
+   "url": "https://github.com/m0sia/pyParrotZik/pull/1",
+   "text": "committed it back as a pull request",
+   "context": "ee what's wrong. About five minutes later I'd written a fix for the problem and <a href=\"https://github.com/m0sia/pyParrotZik/pull/1\">committed it back as a pull request</a> to the original author so that everyone can benefit.</p> <p>Now, t"
+  }
+ ],
+ "2013-12-20-publication-utopia-fading-taxonomies-freedom-and-dissent-in-open-access-publishing.md": [
+  {
+   "url": "http://jimmussell.com/",
+   "text": "Jim Mussell",
+   "context": "<p>I was very pleased, late last year, to have been invited by <a href=\"http://jimmussell.com/\">Jim Mussell</a> to contribute to a <a href=\"http://www.tandfonline.com/toc/rjvc20/18/4\">Digital Forum in the Literature journal"
+  },
+  {
+   "url": "http://www.tandfonline.com/toc/rjvc20/18/4",
+   "text": "Digital Forum in the Literature journal",
+   "context": "invited by <a href=\"http://jimmussell.com/\">Jim Mussell</a> to contribute to a <a href=\"http://www.tandfonline.com/toc/rjvc20/18/4\">Digital Forum in the Literature journal</a>, the <i>Journal of Victorian Culture</i>, on Open Access publis"
+  },
+  {
+   "url": "https://www.martineve.com/2013/10/22/my-forthcoming-book-pynchon-and-philosophy-wittgenstein-foucault-and-adorno-palgrave-2014/",
+   "text": "Pynchon and Philosophy",
+   "context": "t-generation Frankfurt School Critical Theory was much in my mind as I finished <a href=\"https://www.martineve.com/2013/10/22/my-forthcoming-book-pynchon-and-philosophy-wittgenstein-foucault-and-adorno-palgrave-2014/\"><i>Pynchon and Philoso"
+  },
+  {
+   "url": "http://www.tandfonline.com/doi/full/10.1080/13555502.2013.865979",
+   "text": "JVC",
+   "context": "3), 536–542 <doi:10.1080/13555502.2013.865979></p> <p>The piece is available at <a href=\"http://www.tandfonline.com/doi/full/10.1080/13555502.2013.865979\">JVC</a> [open access], on <a href=\"https://www.martineve.com/wp-content/uploads/2013/"
+  },
+  {
+   "url": "https://www.martineve.com/wp-content/uploads/2013/12/JVC.pdf",
+   "text": "this site as a PDF",
+   "context": "andfonline.com/doi/full/10.1080/13555502.2013.865979\">JVC</a> [open access], on <a href=\"https://www.martineve.com/wp-content/uploads/2013/12/JVC.pdf\">this site as a PDF</a> and shortly in the University of Lincoln repository.</p>"
+  }
+ ],
+ "2013-12-19-publication-review-of-humanities-in-the-twenty-first-century-beyond-utility-and-markets.md": [
+  {
+   "url": "http://www.tandfonline.com/doi/abs/10.1080/0950236X.2013.860285",
+   "text": "now published in Textual Practice",
+   "context": "rst Century: Beyond Utility and Markets (Basingstoke: Palgrave Macmillan, 2013) <a href=\"http://www.tandfonline.com/doi/abs/10.1080/0950236X.2013.860285\">now published in <i>Textual Practice</i></a>. You can also <a href=\"https://www.martin"
+  },
+  {
+   "url": "https://www.martineve.com/wp-content/uploads/2013/12/Martin-Paul-Eve-Review-of-Belfiore.pdf",
+   "text": "read the Author Submitted Manuscript version",
+   "context": "950236X.2013.860285\">now published in <i>Textual Practice</i></a>. You can also <a href=\"https://www.martineve.com/wp-content/uploads/2013/12/Martin-Paul-Eve-Review-of-Belfiore.pdf\">read the Author Submitted Manuscript version</a>, should y"
+  }
+ ],
+ "2013-11-20-first-meeting-of-hefce-expert-reference-group-on-open-access-monographs.md": [
+  {
+   "url": "https://www.martineve.com/wp-content/uploads/2013/11/Monographs-ERG01Min-Notes-of-meeting-4-November-20131.pdf",
+   "text": "the minutes of that meeting on the 4th November",
+   "context": "phs a few weeks ago. Having confirmed with HEFCE, I can also now make available <a href=\"https://www.martineve.com/wp-content/uploads/2013/11/Monographs-ERG01Min-Notes-of-meeting-4-November-20131.pdf\">the minutes of that meeting on the 4th"
+  }
+ ],
+ "2013-11-16-three-reasons-why-i-think-journal-prestige-is-a-broken-system.md": [
+  {
+   "url": "http://www.britac.ac.uk/templates/asset-relay.cfm?frmAssetFileID=12661",
+   "text": "Before the Law: Open Access, Quality Control and the Future of Peer Review",
+   "context": "e public [yes, I know there are problems with this too. See: Eve, Martin Paul, ‘<a href=\"http://www.britac.ac.uk/templates/asset-relay.cfm?frmAssetFileID=12661\">Before the Law: Open Access, Quality Control and the Future of Peer Review</a>’"
+  }
+ ],
+ "2013-11-15-some-diagrams-of-jennifer-egan-novels.md": [
+  {
+   "url": "http://literatureoffthepage.wordpress.com/",
+   "text": "Literature off the Page",
+   "context": "<p>As I'm preparing to speak tomorrow at the <a href=\"http://literatureoffthepage.wordpress.com/\">Literature off the Page</a> conference, I was, as usual, creating a set of slides for my talk. As I'm looki"
+  },
+  {
+   "url": "http://figshare.com",
+   "text": "Figshare",
+   "context": "ecided that this would be a good opportunity to upload this kind of material to <a href=\"http://figshare.com\">Figshare</a> for the first time. Indeed, feel free to re-use, so long as you cite, as per the Creative Commons Attribution license"
+  },
+  {
+   "url": "http://dx.doi.org/10.6084/m9.figshare.852972",
+   "text": "http://dx.doi.org/10.6084/m9.figshare.852972",
+   "context": "g character relationships across different time periods in the novel. figshare. <a href=\"http://dx.doi.org/10.6084/m9.figshare.852972\">http://dx.doi.org/10.6084/m9.figshare.852972</a> </p> <p><a href=\"https://www.martineve.com/wp-content/up"
+  },
+  {
+   "url": "https://www.martineve.com/wp-content/uploads/2013/11/Safari-in-Goon-Squad.png",
+   "text": null,
+   "context": "84/m9.figshare.852972\">http://dx.doi.org/10.6084/m9.figshare.852972</a> </p> <p><a href=\"https://www.martineve.com/wp-content/uploads/2013/11/Safari-in-Goon-Squad.png\">"
+  },
+  {
+   "url": "http://dx.doi.org/10.6084/m9.figshare.852973",
+   "text": "http://dx.doi.org/10.6084/m9.figshare.852973",
+   "context": "Keep, demonstrating the layers of diegesis and metaleptic violations. figshare. <a href=\"http://dx.doi.org/10.6084/m9.figshare.852973\">http://dx.doi.org/10.6084/m9.figshare.852973</a></p> <p><a href=\"https://www.martineve.com/wp-content/upl"
+  },
+  {
+   "url": "https://www.martineve.com/wp-content/uploads/2013/11/The-Keep-Diagram.png",
+   "text": null,
+   "context": "084/m9.figshare.852973\">http://dx.doi.org/10.6084/m9.figshare.852973</a></p> <p><a href=\"https://www.martineve.com/wp-content/uploads/2013/11/The-Keep-Diagram.png\">"
+  }
+ ],
+ "2013-10-21-how-ironic-are-the-open-access-irony-awards.md": [
+  {
+   "url": "http://duncan.hull.name/2012/02/15/open-irony/",
+   "text": "Open Access Irony Awards",
+   "context": "<p>I saw, going around on Twitter today, a 2012 article on the <a href=\"http://duncan.hull.name/2012/02/15/open-irony/\">Open Access Irony Awards</a>. This site is dedicated to the practice of humorously exposing articles/ed"
+  }
+ ],
+ "2013-10-03-whats-open-got-to-do-with-it.md": [
+  {
+   "url": "https://theconversation.com/flawed-sting-operation-singles-out-open-access-journals-18846",
+   "text": "piece that I wrote for The Conversation",
+   "context": "<p>The below is a <a href=\"https://theconversation.com/flawed-sting-operation-singles-out-open-access-journals-18846\">piece that I wrote for The Conversation</a> in the state bef"
+  },
+  {
+   "url": "http://scim.ag/OA-Sting",
+   "text": "the sting article on open access journals published in Science",
+   "context": "he debate.</p> <p>As you read this, Twitter is no doubt aflame with debate over <a href=\"http://scim.ag/OA-Sting\">the sting article on open access journals published in <i>Science</i></a>. The article details John Bohannon's submission of o"
+  },
+  {
+   "url": "http://www.doaj.org/",
+   "text": "DOAJ",
+   "context": "non's submission of over 300 bogus papers to open access journals listed in the <a href=\"http://www.doaj.org/\">DOAJ</a> and on <a href=\"http://scholarlyoa.com/publishers/\">Beall's list</a> of \"predatory open access publishers\". Problematica"
+  },
+  {
+   "url": "http://scholarlyoa.com/publishers/",
+   "text": "Beall's list",
+   "context": "en access journals listed in the <a href=\"http://www.doaj.org/\">DOAJ</a> and on <a href=\"http://scholarlyoa.com/publishers/\">Beall's list</a> of \"predatory open access publishers\". Problematically, 157 of those journals accepted the obvious"
+  },
+  {
+   "url": "http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=6577844",
+   "text": "as far back as 1982",
+   "context": "ess here. Problems of this nature have been notably explored in closed journals <a href=\"http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=6577844\">as far back as 1982</a>, albeit from the flip-side of journals reject"
+  },
+  {
+   "url": "https://twitter.com/ernestopriego",
+   "text": "Ernesto Priego",
+   "context": "le, but we would see a very different environment emerging.</p> <p>My thanks to <a href=\"https://twitter.com/ernestopriego\">Ernesto Priego</a> for feedback on this article.</p> <p><b>Correction</b><br /> Subsequent to the authorship of this"
+  }
+ ],
+ "2013-09-30-fixing-broken-spellcheck-in-thunderbird-24.md": [
+  {
+   "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=880595#c27",
+   "text": "set mail.compose.max_recycled_windows to 0",
+   "context": "sspelt text in red, go to Tools -> Preferences -> Advanced -> Config Editor and <a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=880595#c27\">set mail.compose.max_recycled_windows to 0</a>.</p>"
+  }
+ ],
+ "2013-09-18-publication-gatekeepers-in-a-digital-wasteland-the-author.md": [
+  {
+   "url": "http://eprints.lincoln.ac.uk/11595/",
+   "text": "Lincoln institutional repository",
+   "context": "ue and market-production. It will be available in green open access form at the <a href=\"http://eprints.lincoln.ac.uk/11595/\">Lincoln institutional repository</a> after a month's embargo period.</p>"
+  }
+ ],
+ "2013-09-10-is-what-i-do-digital-humanities.md": [
+  {
+   "url": "https://github.com/MartinPaulEve/meTypeset",
+   "text": "typesetting and production of scholarly articles",
+   "context": "dd things. Among these is the development of various pieces of software for the <a href=\"https://github.com/MartinPaulEve/meTypeset\">typesetting and production of scholarly articles</a>. I'm also going to be co-supervising some <a href=\"htt"
+  },
+  {
+   "url": "http://www.lincoln.ac.uk/home/course/cmsresms/fundedplace/",
+   "text": "computer science MSc places",
+   "context": "production of scholarly articles</a>. I'm also going to be co-supervising some <a href=\"http://www.lincoln.ac.uk/home/course/cmsresms/fundedplace/\">computer science MSc places</a>. This digital inflection then leads me to wonder whether wh"
+  },
+  {
+   "url": "http://oabutton.wordpress.com/",
+   "text": "OAButton project",
+   "context": "ch of this digital activism is taking place from the sciences side (such as the <a href=\"http://oabutton.wordpress.com/\">OAButton project</a>, to which I contributed code over the weekend), there is also a history of this type of critique o"
+  }
+ ],
+ "2013-09-09-work-on-open-access-technology-get-a-masters-degree-in-computer-science-funded-place.md": [
+  {
+   "url": "http://www.lincoln.ac.uk/home/course/cmsresms/fundedplace/",
+   "text": "can be found on the university website",
+   "context": "he remaining 3 months.</p> <div style=\"clear:both;\"/> Full details of the place <a href=\"http://www.lincoln.ac.uk/home/course/cmsresms/fundedplace/\">can be found on the university website</a>. We're basically looking for candidates with exp"
+  },
+  {
+   "url": "https://github.com/MartinPaulEve/meTypeset",
+   "text": "found over at GitHub",
+   "context": "en source licensing</li> </ul> <p>The base for the project (\"meTypeset\") can be <a href=\"https://github.com/MartinPaulEve/meTypeset\">found over at GitHub</a>.</p>"
+  }
+ ],
+ "2013-09-05-publication-terrorism-and-the-cold-war-in-thomas-pynchons-against-the-day-and-don-delillo-c2-80-c2-99s-underworld.md": [
+  {
+   "url": "https://www.martineve.com/wp-content/uploads/2013/09/Martin-Paul-Eve-Pynchon-DeLillo-and-Terrorism.pdf",
+   "text": "“It Sure’s Hell Looked Like War”: Terrorism and the Cold War in Thomas Pynchon\"s Against the Day and Don DeLillo’s Underworld",
+   "context": "ical and the terroristic cannot be cleanly separated.</p> <p>Eve, Martin Paul, ‘<a href=\"https://www.martineve.com/wp-content/uploads/2013/09/Martin-Paul-Eve-Pynchon-DeLillo-and-Terrorism.pdf\">“It Sure’s Hell Looked Like War”: Terrorism and"
+  }
+ ],
+ "2013-08-30-publication-you-will-see-the-logic-of-the-design-of-this-from-historiography-to-taxonomography-in-the-contemporary-metafiction-of-sarah-waterss-affinity.md": [
+  {
+   "url": "http://www.neovictorianstudies.com/issues/NVS%206-1-5%20M-Eve.pdf",
+   "text": "“You will see the logic of the design of this”: From Historiography to Taxonomography  in the Contemporary Metafiction of Sarah Waters’s Affinity",
+   "context": "<i>Neo-Victorian Studies</i>. Open Access. CC-BY-NC-ND.</p> <p>Martin Paul Eve, <a href=\"http://www.neovictorianstudies.com/issues/NVS%206-1-5%20M-Eve.pdf\">“You will see the logic of the design of this”: From Historiography to Taxonomograph"
+  }
+ ],
+ "2013-08-29-full-response-to-science-metrix-report-on-gold-oa-citation-rates.md": [
+  {
+   "url": "http://www.science-metrix.com/eng/news_13_08.htm",
+   "text": "Science-Metrix report",
+   "context": "bney, who writes for the Times Higher, with a request for comment on the recent <a href=\"http://www.science-metrix.com/eng/news_13_08.htm\">Science-Metrix report</a>, and particularly their findings that papers that were OA had higher citati"
+  },
+  {
+   "url": "http://www.timeshighereducation.co.uk/low-citation-gains-via-gold-open-access-study/2006847.article",
+   "text": "her article",
+   "context": "not as high as green. Elizabeth has very kindly included some of my response in <a href=\"http://www.timeshighereducation.co.uk/low-citation-gains-via-gold-open-access-study/2006847.article\">her article</a>, but I wanted to share my full res"
+  }
+ ],
+ "2013-08-27-sxsw-panel-vote-to-get-open-access-on-the-agenda.md": [
+  {
+   "url": "http://panelpicker.sxsw.com/vote/23623",
+   "text": "VOTE FOR OUR PANEL",
+   "context": "e part of a proposal for the SXSW conference this year. However, we need you to <a href=\"http://panelpicker.sxsw.com/vote/23623\">VOTE FOR OUR PANEL</a> at PanelPicker.</p> <p>Please do this. It takes 2 minutes.</p> <p>What are we planning t"
+  },
+  {
+   "url": "http://www.dhpoco.org",
+   "text": "dhpoco",
+   "context": "ype of approach could tie in well with other initiatives, such as Adeline Koh's <a href=\"http://www.dhpoco.org\">dhpoco</a>, in an exploration of the ways in which technology can frequently act as a mask and reproducer, rather than enabler,"
+  }
+ ],
+ "2013-08-24-reports-from-the-frontline-of-humanities-oa-in-japan.md": [
+  {
+   "url": "https://www.martineve.com/wp-content/uploads/2013/08/2013-08-22-19.40.41.jpg",
+   "text": null,
+   "context": "a from traditional sources, but I'm not sure how much this was received.</p> <p><a href=\"https://www.martineve.com/wp-content/uploads/2013/08/2013-08-22-19.40.41.jpg\">"
+  },
+  {
+   "url": "https://www.martineve.com/wp-content/uploads/2013/08/2013-08-23-18.51.34.jpg",
+   "text": null,
+   "context": "ialogue that has often been missing, in my perspective, from OA debates.</p> <p><a href=\"https://www.martineve.com/wp-content/uploads/2013/08/2013-08-23-18.51.34.jpg\">"
+  }
+ ]
+}

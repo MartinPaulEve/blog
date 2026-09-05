@@ -1,0 +1,149 @@
+{
+ "2012-08-05-e-books-copyright-infringement-theft-materiality-and-the-virtual.md": [
+  {"url": "https://docs.google.com/a/martineve.com/document/d/1HSMVLpMw62WMvd_R1P4znofj4kv8_imvDnNPxjN4jxg/edit?pli=1", "comment": "Kohut draft letter to the New York Times"},
+  {"url": "http://pogue.blogs.nytimes.com/2012/08/02/where-is-bourne-not-in-an-electronic-version/", "comment": "NYT Pogue's Posts column on Bourne e-book"},
+  {"url": "http://www.amazon.com/Bourne-Identity-Saga-Book-ebook/dp/B0037471TE/ref=sr_1_1?s=books&ie=UTF8&qid=1344159737&sr=1-1&keywords=bourne+identity", "comment": "Amazon listing for Bourne Identity e-book"},
+  {"url": "https://www.gnu.org/philosophy/not-ipr.html", "comment": "Stallman GNU essay on intellectual property terminology"},
+  {"url": "http://www.guardian.co.uk/technology/2012/apr/04/amazon-british-operation-corporation-tax", "comment": "Guardian report on Amazon UK corporation tax avoidance"}
+ ],
+ "2012-08-02-more-unpaid-academic-positions-and-apparent-culture-of-entitlement.md": [
+  {"url": "http://bengoldacre.posterous.com/another-unpaid-researcher-post-in-uk-academia", "comment": "Ben Goldacre mirror of unpaid UCL researcher advert"},
+  {"url": "https://www.martineve.com/wp-content/uploads/2012/08/UCL1.png", "comment": "Screenshot of UCL unpaid post advert page 1"},
+  {"url": "https://www.martineve.com/wp-content/uploads/2012/08/UCL2.png", "comment": "Screenshot of UCL unpaid post advert page 2"},
+  {"url": "https://www.martineve.com/wp-content/uploads/2012/08/UCL3.png", "comment": "Screenshot of UCL unpaid post advert page 3"},
+  {"url": "http://www.timeshighereducation.co.uk/story.asp?storycode=420743#.UBo2Q_vADzw.twitter", "comment": "Times Higher Education story on unpaid academic posts"}
+ ],
+ "2012-08-02-impossible-objects-preservation-and-extinction-on-the-first-folio.md": [
+  {"url": "http://www.guardian.co.uk/culture/2012/aug/02/bodleian-shakespeare-first-folio-online", "comment": "Guardian news on Bodleian digitising First Folio"},
+  {"url": "http://www.guardian.co.uk/environment/2009/sep/23/panda-extinction-chris-packham", "comment": "Guardian article Chris Packham on panda conservation"},
+  {"url": "http://doyle.lib.muohio.edu/cdm4/document.php?CISOROOT=/wshakespeare&CISOPTR=45&CISOSHOW=0", "comment": "Miami University digitised Shakespeare First Folio"}
+ ],
+ "2012-08-01-perverse-advert-for-bite-keep-calm-about-university-fees.md": [
+  {"url": "http://bite.ac.uk/education/", "comment": "British Institute of Technology and E-commerce homepage"},
+  {"url": "http://bite.ac.uk/education/index.php?option=com_content&view=article&id=254%3Abite-keep-calm-t-shirt-promotion&catid=34%3Ademo1&Itemid=294", "comment": "BITE Keep Calm T-shirt promotion page"},
+  {"url": "http://bite.ac.uk/education/index.php?option=com_content&view=article&id=70:cras-ultrices-dapibus&catid=38:slide", "comment": "BITE bursaries offer page"}
+ ],
+ "2012-07-24-mythbusting-a-proposed-list-60-things-journal-publishers-do.md": [
+  {"url": "http://scholarlykitchen.sspnet.org/2012/07/18/a-proposed-list-60-things-journal-publishers-do/", "comment": "Scholarly Kitchen: 60 things journal publishers do"}
+ ],
+ "2012-07-19-thomas-pynchon-david-foster-wallace-and-21st-century-utopianism-presentation.md": [
+  {"url": "http://prezi.com/bin/preziloader.swf", "comment": "Prezi Flash player loader"},
+  {"url": "http://prezi.com/rd1xsxycnh9y/thomas-pynchon-david-foster-wallace-and-twenty-first-century-utopianism/", "comment": "Prezi: Pynchon, Wallace and 21st-century utopianism"},
+  {"url": "http://prezi.com", "comment": "Prezi presentation platform homepage"}
+ ],
+ "2012-07-16-gold-open-access-does-not-mean-author-pays.md": [
+  {"url": "http://www.earlham.edu/~peters/fos/overview.htm", "comment": "Peter Suber overview of open access terminology"}
+ ],
+ "2012-07-13-starting-an-open-access-journal-a-step-by-step-guide-part-5.md": [
+  {"url": "http://www.doaj.org/", "comment": "Directory of Open Access Journals"},
+  {"url": "http://www.journaltocs.ac.uk/suggest.php", "comment": "JournalTOCs new title submission form"},
+  {"url": "http://www.journaltocs.ac.uk/API/blog/?p=632", "comment": "JournalTOCs instructions for enabling RSS"},
+  {"url": "http://gulib.georgetown.edu/newjour/", "comment": "Georgetown New Journals mailing list"},
+  {"url": "http://roddymacleod.wordpress.com/2010/04/06/many-open-access-oa-journals-dont-have-table-of-contents-rss-feeds-and-they-are-therefore-missing-out-a-great-deal/", "comment": "Macleod blog post arguing for journal RSS feeds"},
+  {"url": "http://www.bl.uk/aboutus/stratpolprog/legaldep/index.html#elec", "comment": "British Library electronic legal deposit service"}
+ ],
+ "2012-07-13-starting-an-open-access-journal-a-step-by-step-guide-part-4.md": [
+  {"url": "http://www.excursions-journal.org.uk", "comment": "Excursions open access journal"},
+  {"url": "http://pkp.sfu.ca/support/forum/viewtopic.php?f=9&t=6817", "comment": "PKP forum thread on adding DOI display to OJS"},
+  {"url": "http://dx.doi.org/{$article->getDOI()|escape}", "comment": "OJS template DOI resolver URL placeholder"},
+  {"url": "http://dtd.nlm.nih.gov/publishing/tag-library/2.3/index.html", "comment": "NLM journal publishing XML tagset documentation"},
+  {"url": "https://github.com/MartinPaulEve/MEXMLGalley", "comment": "MartinPaulEve MEXMLGalley GitHub repository"},
+  {"url": "http://blog.scholasticahq.com/post/26974943233/open-access-open-source", "comment": "Scholastica blog on open access and open source tools"},
+  {"url": "http://www.w3.org/1998/Math/MathML", "comment": "W3C MathML namespace URI"},
+  {"url": "http://www.w3.org/1999/xlink", "comment": "W3C XLink namespace URI"},
+  {"url": "http://www.w3.org/2001/XMLSchema-instance", "comment": "W3C XML Schema instance namespace URI"},
+  {"url": "https://www.pynchon.net", "comment": "Orbit: Writing Around Pynchon journal"},
+  {"url": "https://www.pynchon.net/owap/article/view/33", "comment": "Orbit journal article view page"},
+  {"url": "http://creativecommons.org/licenses/by/2.0/", "comment": "Creative Commons Attribution 2.0 licence"},
+  {"url": "http://www.nytimes.com/1998/03/04/books/pynchon-s-letters-nudge-his-mask.html?pagewanted=all", "comment": "NYT article Pynchon letters nudge his mask"},
+  {"url": "http://www.bookforum.com/archive/sum_05/pynchon.html", "comment": "Book Forum article Pynchon from A to V"},
+  {"url": "http://xing.github.com/wysihtml5/", "comment": "wysihtml5 rich text editor tool"}
+ ],
+ "2012-07-13-orbit-writing-around-pynchon-is-now-digitally-preserved-by-clockss.md": [
+  {"url": "https://www.pynchon.net", "comment": "Orbit: Writing Around Pynchon journal"},
+  {"url": "http://www.clockss.org/clockss/News#Orbit", "comment": "CLOCKSS press release on preserving Orbit journal"},
+  {"url": "https://www.martineve.com/wp-content/uploads/2011/07/orbit.jpg", "comment": "Orbit journal logo image"}
+ ],
+ "2012-07-12-starting-an-open-access-journal-a-step-by-step-guide-part-3.md": [
+  {"url": "http://call-for-papers.sas.upenn.edu/", "comment": "UPenn call for papers listings for humanities"},
+  {"url": "http://www.h-net.org/announce/submit1.cgi", "comment": "H-NET announcements submission form"}
+ ],
+ "2012-07-11-starting-an-open-access-journal-a-step-by-step-guide-part-2.md": [
+  {"url": "http://pkp.sfu.ca/ojs/docs/userguide/2.3.3/index.html", "comment": "OJS 2.3.3 user guide index"},
+  {"url": "http://pkp.sfu.ca/ojs/docs/userguide/2.3.3/systemAdministrationInstallation.html", "comment": "OJS 2.3.3 installation instructions"},
+  {"url": "http://www.issn.org/2-22652-Requesting-an-ISSN.php", "comment": "ISSN international centre requesting an ISSN"},
+  {"url": "http://www.bl.uk/bibliographic/issn.html", "comment": "British Library ISSN registration page"},
+  {"url": "http://dx.doi.org/10.7766/orbit.v1.1.38", "comment": "DOI link to Orbit journal article 38"},
+  {"url": "https://www.pynchon.net/owap/article/view/38", "comment": "Orbit journal article 38 on pynchon.net"},
+  {"url": "http://www.crossref.org/02publishers/20pub_fees.html", "comment": "CrossRef publisher membership fee levels"},
+  {"url": "http://oaspa.org/", "comment": "Open Access Scholarly Publishers Association"},
+  {"url": "http://www.clockss.org/clockss/Home", "comment": "CLOCKSS digital preservation archive"},
+  {"url": "http://www.lockss.org/", "comment": "LOCKSS distributed digital preservation system"}
+ ],
+ "2012-07-10-starting-an-open-access-journal-a-step-by-step-guide-part-1.md": [
+  {"url": "http://www.hookandeye.ca/2012/07/scholarly-publishing-is-broken.html", "comment": "Hook and Eye blog: scholarly publishing is broken"},
+  {"url": "http://uksg.metapress.com/content/9tvk4t7324388071/", "comment": "Eve article on library as university press in Serials"},
+  {"url": "http://www.bluehost.com/track/martineve", "comment": "Bluehost web hosting affiliate link"},
+  {"url": "http://oaspa.org/", "comment": "Open Access Scholarly Publishers Association"},
+  {"url": "http://pkp.sfu.ca/?q=ojs", "comment": "PKP Open Journal Systems software"},
+  {"url": "https://www.pynchon.net", "comment": "Orbit: Writing Around Pynchon journal"},
+  {"url": "http://www.myjournaladdress.com", "comment": "Placeholder example journal address URL"}
+ ],
+ "2012-07-09-publication-tear-it-down-build-it-up-the-research-output-team-or-the-library-as-publisher-insights-25-2-july-2012-pp-158-162.md": [
+  {"url": "http://uksg.metapress.com/content/9tvk4t7324388071/?p=43da471d5e0a4df6bd268ee270278a80&pi=6", "comment": "Eve Insights article library as publisher open access"},
+  {"url": "http://dx.doi.org/10.1629/2048-7754.25.2.158", "comment": "DOI for Eve Insights 25.2 article"}
+ ],
+ "2012-07-09-orbit-writing-around-pynchon-is-live.md": [
+  {"url": "https://www.pynchon.net", "comment": "Orbit: Writing Around Pynchon journal launch"},
+  {"url": "http://dx.doi.org/10.7766/orbit.v1.1.38", "comment": "DOI link to Orbit preface article"}
+ ],
+ "2012-07-05-signing-over-copyright-vs-licensing-your-journal-articles.md": [
+  {"url": "http://journalauthors.tandf.co.uk/preparation/copyright.asp", "comment": "Taylor and Francis copyright policy for authors"},
+  {"url": "http://www.ibiblio.org/pomerantz/blog/2011/06/my-copyfight/", "comment": "Pomerantz blog post on copyright fight with T&F"},
+  {"url": "http://deborah.dreamwidth.org/", "comment": "Deborah Kaplan's Dreamwidth blog"},
+  {"url": "http://wweb.uta.edu/faculty/schoech/cussn/jths/Author%20or%20Company-owned%20copyright%20(2", "comment": "Author or Company-Owned Copyright Agreement PDF"},
+  {"url": "http://www.flickr.com/photos/opensourceway/", "comment": "opensourceway Flickr photostream"}
+ ],
+ "2012-07-03-teaching-post-millenial-fiction-conference-archive.md": [
+  {"url": "http://storify.com/martin_eve/teaching-post-millenial-fiction-conference", "comment": "Storify archive of teaching post-millennial fiction conference"},
+  {"url": "http://www.alluvium-journal.org/2012/07/01/backwards-and-forwards-with-the-atomic-priesthood/Heidi", "comment": "Alluvium article on atomic priesthood tweet by Heidi James"},
+  {"url": "http://instagr.am/p/MkrvxLA3rV/Nicola", "comment": "Instagram photo from HEAdayC21 conference"},
+  {"url": "http://www.continuumbooks.com/Books/detail.aspx?BookID=157243Continuum", "comment": "Continuum Books listing for post-millennial fiction title"},
+  {"url": "http://p.twimg.com/Awzq1a7CEAA74X9.jpg\"Martin", "comment": "Twitter image from HEAdayC21 conference"},
+  {"url": "http://pic.twitter.com/FBTyDmnCDr", "comment": "Twitter pic from HEAdayC21 by Dr Katy Shaw"},
+  {"url": "http://schoolboyerrors.wordpress.com/2011/04/11/literary-criticism-and-the-scientistic-imperative/", "comment": "Schoolboyerrors blog on literary criticism and scientism"},
+  {"url": "http://www.alluvium-journal.org/2012/07/01/backwards-and-forwards-with-the-atomic-priesthood/Alluvium", "comment": "Alluvium journal atomic priesthood article retweet"},
+  {"url": "http://www.alluvium-journal.org/2012/07/01/backwards-and-forwards-with-the-atomic-priesthood/", "comment": "Alluvium journal: backwards and forwards atomic priesthood"},
+  {"url": "http://pic.twitter.com/KctOfWpUDr", "comment": "Twitter pic Duncan on authors talking back HEAdayC21"},
+  {"url": "http://pic.twitter.com/9lTqru7PMartin", "comment": "Twitter pic Amazon blurb Milton slide HEAdayC21"},
+  {"url": "http://pic.twitter.com/ULuAJSdkArts", "comment": "Twitter pic digital writing theorising HEAdayC21 Brighton"},
+  {"url": "http://www.continuumbooks.com/books/detail.aspx?BookId=130612&SearchType=BasicContinuum", "comment": "Continuum Books listing post-millennial fiction title"},
+  {"url": "http://pic.twitter.com/FavyHghaDr", "comment": "Twitter pic David James teaching post-millennial literature"},
+  {"url": "http://pic.twitter.com/rqV1ohXxMartin", "comment": "Twitter pic Martin Eve rethinking Adorno HEAdayC21"},
+  {"url": "http://pic.twitter.com/rqV1ohXxDr", "comment": "Twitter pic rethinking Adorno HEAdayC21 Dr Katy Shaw"},
+  {"url": "http://pic.twitter.com/4TR3m64cContinuum", "comment": "Twitter pic Brighton mini-rock sweets HEAdayC21"},
+  {"url": "http://pic.twitter.com/KNrTvG6lArts", "comment": "Twitter pic theory postcolonial terror HEAdayC21 Brighton"},
+  {"url": "http://pic.twitter.com/WzTHS70QArts", "comment": "Twitter pic digital writings in HE HEAdayC21 Brighton"},
+  {"url": "http://pic.twitter.com/ULuAJSdkDr", "comment": "Twitter pic digital writing HEAdayC21 Dr Katy Shaw"},
+  {"url": "http://pic.twitter.com/KNrTvG6lDr", "comment": "Twitter pic theory postcolonial terror Dr Katy Shaw"},
+  {"url": "http://pic.twitter.com/WzTHS70QDr", "comment": "Twitter pic digital writings HE Dr Katy Shaw"},
+  {"url": "http://pic.twitter.com/TShuYsSCDr", "comment": "Twitter pic HEAdayC21 day schedule Dr Katy Shaw"},
+  {"url": "http://pic.twitter.com/m1QDMCRqDr", "comment": "Twitter pic Michael Wilson digital interfaces HEAdayC21"},
+  {"url": "http://www.workwritelive.com", "comment": "Moriarty work write live creative writing project"},
+  {"url": "http://bit.ly/OUSSB4", "comment": "Bit.ly shortlink to self-promoted HEAdayC21 article"},
+  {"url": "http://pic.twitter.com/Xv6ojfx5Dr", "comment": "Twitter pic creative writing panel HEAdayC21"}
+ ],
+ "2012-06-28-the-part-of-the-open-access-debate-that-is-irritatingly-ignored.md": [
+  {"url": "http://www.timeshighereducation.co.uk/story.asp?sectioncode=26&storycode=420392&c=1", "comment": "THE piece on Finch open-access cure worse than disease"},
+  {"url": "http://brembs.net/", "comment": "Bjorn Brembs blog on open access and publishing"}
+ ],
+ "2012-06-25-our-epistemic-gap-actually-we-need-to-re-think-unemployment-underemployment-and-benefits-entirely.md": [
+  {"url": "http://www.guardian.co.uk/politics/2012/jun/25/cameron-tories-slash-benefits", "comment": "Guardian report Cameron ending entitlement culture"},
+  {"url": "http://www.guardian.co.uk/politics/2012/apr/20/cameron-family-tax-havens", "comment": "Guardian report Cameron family wealth and tax havens"},
+  {"url": "http://www.telegraph.co.uk/news/politics/8980001/Number-of-job-hunters-chasing-every-post-jumps-to-23.html", "comment": "Telegraph report 23 job hunters per vacancy"}
+ ],
+ "2012-06-25-international-pynchon-week-2013-conference-website-and-cfp.md": [
+  {"url": "http://www.ipw2013.com", "comment": "International Pynchon Week 2013 conference website"},
+  {"url": "http://www.ipw2013.com/cfp/", "comment": "International Pynchon Week 2013 call for papers"}
+ ]
+}

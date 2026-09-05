@@ -1,0 +1,101 @@
+{
+ "2012-06-24-another-great-source-for-free-images-to-use-in-blogging.md": [
+  {"url": "http://morguefile.com/", "comment": "MorgueFile free image sharing site"},
+  {"url": "http://morguefile.com/license/morguefile/", "comment": "MorgueFile license terms page"}
+ ],
+ "2012-06-12-another-adorno-against-wittgenstein-moment.md": [
+  {"url": "http://www.flickr.com/photos/hexadecimal_time/", "comment": "Flickr photostream of Cuito Cuanavale"}
+ ],
+ "2012-06-08-is-this-a-picture-of-thomas-pynchon-aged-51.md": [
+  {"url": "https://www.martineve.com/wp-content/uploads/2012/06/Thomas-Pynchon.png", "comment": "Purported Thomas Pynchon photograph"},
+  {"url": "http://archive.org/details/royalpurple1988unse", "comment": "Kansas State University yearbook 1988 on Internet Archive"}
+ ],
+ "2012-06-06-metadata-handling-for-open-access-journal-pdfs.md": [
+  {"url": "https://www.pynchon.net", "comment": "Orbit: Writing around Pynchon journal site"},
+  {"url": "https://www.martineve.com/", "comment": "Martin Eve personal website"},
+  {"url": "https://docs.google.com/a/martineve.com/View?docID=0AZbqOpGNEeyqZGZnOG1mY2tfNDJmNnJ2NW5kcg&revision=_latest&hgd=1&pli=1", "comment": "JISC document on PDF metadata extraction"},
+  {"url": "https://github.com/zotero/zotero/blob/master/chrome/content/zotero/recognizePDF.js", "comment": "Zotero recognizePDF.js source on GitHub"},
+  {"url": "http://dx.doi.org/10.____/_____________", "comment": "Placeholder DOI example in PDF metadata"},
+  {"url": "https://github.com/zotero/zotero/blob/master/chrome/content/zotero/xpcom/utilities.js", "comment": "Zotero utilities.js cleanDOI function on GitHub"},
+  {"url": "http://www.flickr.com/photos/trevorandmarjee/", "comment": "Flickr photostream of TJOwens"}
+ ],
+ "2012-05-21-sussex-southampton-initiative-sushi-an-interdisciplinary-fusion.md": [
+  {"url": "http://storify.com/martin_eve/sushi-thursday-17th-may-2012", "comment": "Storify story of SuShI event May 2012"},
+  {"url": "http://www.flickr.com/photos/betsyweber/", "comment": "Flickr photostream of betsyweber"}
+ ],
+ "2012-05-21-day-2-of-twenty-first-century-literature-conference-at-birkbeck.md": [
+  {"url": "http://storify.com/martin_eve/day-2-of-twenty-first-century-british-fiction-symp", "comment": "Storify story of C21 symposium day 2"},
+  {"url": "http://bit.ly/KjfQj8Martin", "comment": "Bit.ly link to Book of Dave slides"},
+  {"url": "http://www.drcarolineedwards.com/2012/05/01/will-self/", "comment": "Dr Caroline Edwards blog post on Will Self"},
+  {"url": "http://en.m.wikipedia.org/wiki/Cell_phone_novel", "comment": "Wikipedia article on cell phone novels"},
+  {"url": "http://pic.twitter.com/18imkQIVMartin", "comment": "Twitter photo from C21 symposium"}
+ ],
+ "2012-05-21-beware-the-next-wave-of-academic-publishing-grimness-apps.md": [
+  {"url": "http://scienceblogs.com/confessions/2011/08/on_the_evilness_of_the_emergin.php", "comment": "ScienceBlogs post on evilness of emerging app publishing"},
+  {"url": "http://en.wikipedia.org/wiki/Digital_rights_management", "comment": "Wikipedia article on DRM"},
+  {"url": "http://en.wikipedia.org/wiki/Format_rot", "comment": "Wikipedia article on format rot"},
+  {"url": "http://www.flickr.com/photos/haco99jp/", "comment": "Flickr photostream of haco"}
+ ],
+ "2012-05-19-thinking-feeling-conference-at-the-university-of-sussex.md": [
+  {"url": "http://www.flickr.com/photos/savingfutures/", "comment": "Flickr photostream of Charlie Phillips"}
+ ],
+ "2012-05-13-the-ontological-problems-of-contemporary-fiction-studies-are-actually-its-ontological-prerequsites.md": [
+  {"url": "https://www.martineve.com/wp-content/uploads/2012/05/4539042494_acb8ec0a74_o.jpg", "comment": "Featured image hosted on martineve.com"},
+  {"url": "http://www.flickr.com/photos/vblibrary/", "comment": "Flickr photostream of Enokson"}
+ ],
+ "2012-05-12-day-1-of-twenty-first-century-literature-conference-at-birkbeck.md": [
+  {"url": "http://storify.com/martin_eve/day-1-of-twenty-first-century-literature-conferenc", "comment": "Storify story of C21 conference day 1"}
+ ],
+ "2012-05-05-excursions-journal-vol-3-launch-party.md": [
+  {"url": "https://www.martineve.com/wp-content/uploads/2012/05/Excursions-Launch.png", "comment": "Excursions journal launch event flyer"},
+  {"url": "http://www.excursions-journal.org.uk", "comment": "Excursions journal website"}
+ ],
+ "2012-05-02-an-update-on-orbit-1-1.md": [
+  {"url": "https://www.pynchon.net", "comment": "Orbit: Writing Around Pynchon journal site"},
+  {"url": "http://www.oaspa.org/", "comment": "Open Access Scholarly Publishers Association website"},
+  {"url": "http://www.crossref.org/", "comment": "CrossRef DOI registration agency website"},
+  {"url": "http://www.flickr.com/photos/andycastro/", "comment": "Flickr photostream of Andy Castro"}
+ ],
+ "2012-04-30-pynchon-in-public-day-2012-our-meetup-details.md": [
+  {"url": "http://www.guardian.co.uk/books/booksblog/2011/may/13/writers-in-public-pynchon", "comment": "Guardian blog post on Pynchon in Public Day 2011"},
+  {"url": "http://www.pynchoninpublic.com/", "comment": "Pynchon in Public Day event website"},
+  {"url": "http://www.flickr.com/photos/getphotos/", "comment": "Flickr photostream of G.E.T."}
+ ],
+ "2012-04-28-contemporary-fiction-research-seminar-write-up-martin-amis-money-2012-04-28.md": [
+  {"url": "http://events.sas.ac.uk/events/visitor_events.php?page=ies_seminars&func=results&aoi_id=332", "comment": "SAS Contemporary Fiction Research Seminar event page"},
+  {"url": "http://http://dx.doi.org/10.1080/0950236X.2012.638766", "comment": "Nicky Marsh article on Martin Amis Money"},
+  {"url": "http://www.guardian.co.uk/books/gallery/2011/dec/17/writers-artists-design-money", "comment": "Guardian gallery: writers and artists design money"}
+ ],
+ "2012-04-23-teaching-post-millennial-literature-a-hea-and-university-of-brighton-symposium.md": [
+  {"url": "http://arts.brighton.ac.uk/research/research-conferences/teaching-post-millennial-literature", "comment": "University of Brighton teaching post-millennial lit symposium"},
+  {"url": "http://www.flickr.com/photos/50987838@N06/", "comment": "Flickr photostream of gacabo"}
+ ],
+ "2012-04-11-starting-a-digital-humanities-project-epilog.md": [
+  {"url": "https://github.com/MartinPaulEve/epiLog/tree/master/epiLog", "comment": "epiLog project repository on GitHub"},
+  {"url": "http://twitter.github.com/bootstrap/", "comment": "Twitter Bootstrap CSS framework site"},
+  {"url": "https://launchpad.net/django-openid-auth", "comment": "django-openid-auth package on Launchpad"},
+  {"url": "http://openid.aol.com/", "comment": "AOL OpenID provider endpoint"},
+  {"url": "http://claimid.com/", "comment": "ClaimID OpenID provider site"},
+  {"url": "http://flickr.com/", "comment": "Flickr OpenID provider endpoint"},
+  {"url": "https://www.google.com/accounts/o8/id", "comment": "Google OpenID 2.0 endpoint"},
+  {"url": "http://technorati.com/people/technorati/", "comment": "Technorati OpenID provider endpoint"},
+  {"url": "https://me.yahoo.com/", "comment": "Yahoo OpenID provider endpoint"}
+ ],
+ "2012-04-05-new-york-times-writes-about-my-ph-d-thesis-work.md": [
+  {"url": "http://www.3ammagazine.com/3am/pynchon-philosophy-ethics/", "comment": "3:AM Magazine piece on Pynchon philosophy and ethics"},
+  {"url": "http://opinionator.blogs.nytimes.com/2012/04/04/stone-links-28/", "comment": "New York Times Opinionator Stone Links column"}
+ ],
+ "2012-04-04-uksg-conference-photos-and-slides.md": [
+  {"url": "http://playforth.wordpress.com/2012/03/29/uksg-2012-the-freebies-are-already-here-theyre-just-unevenly-distributed/", "comment": "Playforth blog summary of UKSG 2012"},
+  {"url": "http://uksglive.blogspot.co.uk/2012/03/autosubversive-practices-where-were-all.html", "comment": "UKSG Live blog post on autosubversive practices"},
+  {"url": "http://prezi.com/7trgivuxt5fs/autosubversive-practices-in-academic-publishing/", "comment": "Prezi on autosubversive practices in academic publishing"}
+ ],
+ "2012-04-03-i-am-joining-the-oapen-uk-open-access-monograph-steering-group.md": [
+  {"url": "http://oapen-uk.jiscebooks.org/overview/steering-group/", "comment": "OAPEN-UK JISC steering group page"},
+  {"url": "http://www.surveymonkey.com/s/oapenukresearcher", "comment": "OAPEN-UK researcher behaviour survey"},
+  {"url": "http://www.flickr.com/photos/wakingtiger/", "comment": "Flickr photostream of Gideon Burton"}
+ ],
+ "2012-04-02-my-day-as-a-higher-ed-researcher.md": [
+  {"url": "http://www.flickr.com/photos/ellf/", "comment": "Flickr photostream of Ellen Forsyth"}
+ ]
+}

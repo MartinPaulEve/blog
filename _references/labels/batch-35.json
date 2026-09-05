@@ -1,0 +1,103 @@
+{
+ "2011-01-08-automated-cpanel-backups-with-scp.md": [
+  {"url": "http://www.v-nessa.net/2007/01/03/cpanel-automated-backup-script", "comment": "V-Nessa cPanel automated backup script"}
+ ],
+ "2011-01-05-mendley-android-client-now-implemented-as-a-user-account-with-sync.md": [
+  {"url": "http://www.c99.org/2010/01/23/writing-an-android-sync-provider-part-1/", "comment": "c99.org Android sync provider tutorial part 1"},
+  {"url": "http://www.c99.org/2010/01/23/writing-an-android-sync-provider-part-2/", "comment": "c99.org Android sync provider tutorial part 2"},
+  {"url": "http://www.youtube-nocookie.com/v/czEPziT13io?fs=1&hl=en_GB", "comment": "Mendeley Android client prototype video"},
+  {"url": "http://code.google.com/p/mendeley-for-android/", "comment": "Mendeley for Android Google Code repository"},
+  {"url": "http://www.mendeley.com/profiles/jason-hoyt/", "comment": "Jason Hoyt Mendeley VP R&D profile"}
+ ],
+ "2011-01-04-oauth-for-mendeley-on-android-solved-and-a-bug.md": [
+  {"url": "http://www.martineve.com", "comment": "martineve.com example OAuth callback URL"}
+ ],
+ "2011-01-04-mendeley-android-client-progress-w-video-source-and-apk.md": [
+  {"url": "http://code.google.com/p/mendeley-for-android/", "comment": "Mendeley for Android Google Code project"},
+  {"url": "http://code.google.com/p/mendeley-for-android/source/checkout", "comment": "Mendeley for Android source code checkout"},
+  {"url": "http://www.youtube-nocookie.com/v/15DzM6USj74?fs=1&hl=en_GB", "comment": "Mendeley Android client in-action video"},
+  {"url": "http://www.martineve.com/MendeleyForAndroid/mendroid.apk", "comment": "Mendroid Android APK download"},
+  {"url": "http://code.google.com/p/oauth-signpost/", "comment": "OAuth Signpost library on Google Code"},
+  {"url": "http://www.gnu.org/licenses/", "comment": "GNU General Public License page"}
+ ],
+ "2010-12-30-using-unison-to-synchronize-and-backup-your-work-part-1.md": [
+  {"url": "http://www.cis.upenn.edu/~bcpierce/unison/", "comment": "Unison file synchronizer homepage UPenn"},
+  {"url": "http://www.martineve.com/2010/12/30/using-unison-to-synchronize-and-backup-your-work-part-1/unison/", "comment": "Unison screenshot attachment"},
+  {"url": "https://www.dropbox.com/referrals/NTEwNzk5NzEzOQ?src=global0", "comment": "Dropbox referral signup link"},
+  {"url": "http://www.cis.upenn.edu/~bcpierce/unison/download.html", "comment": "Unison download page UPenn"},
+  {"url": "http://support.microsoft.com/kb/310519", "comment": "Microsoft Help article on Windows PATH"},
+  {"url": "http://www.martineve.com/2010/12/30/using-unison-to-synchronize-and-backup-your-work-part-1/dropbox/", "comment": "Dropbox screenshot attachment"}
+ ],
+ "2010-12-20-mendeley-android-client-first-preview-and-oauth-problem.md": [
+  {"url": "http://www.martineve.com/2010/12/20/mendeley-android-client-first-preview-and-oauth-problem/mendroid-first-problem/", "comment": "Mendroid first problem screenshot attachment"},
+  {"url": "http://www.youtube-nocookie.com/v/KJshIJOdf5Y?fs=1&hl=en_GB&color1=0x5d1719&color2=0xcd311b", "comment": "Mendeley Android client first preview video"},
+  {"url": "http://www.gnu.org/licenses/", "comment": "GNU General Public License page"},
+  {"url": "http://www.martineve.com\\", "comment": "martineve.com copyright attribution link"},
+  {"url": "http://www.mendeley.com/oauth/request_token/", "comment": "Mendeley OAuth request token endpoint"},
+  {"url": "http://www.mendeley.com/oauth/authorize/", "comment": "Mendeley OAuth authorize endpoint"},
+  {"url": "http://www.mendeley.com/oauth/access_token/", "comment": "Mendeley OAuth access token endpoint"}
+ ],
+ "2010-12-15-using-producteev-to-manage-overbearing-inboxes.md": [
+  {"url": "http://www.martineve.com/2010/12/15/using-producteev-to-manage-overbearing-inboxes/inbox/", "comment": "Inbox screenshot attachment"},
+  {"url": "https://www.producteev.com", "comment": "Producteev task management service"}
+ ],
+ "2010-12-15-the-net-was-never-free-from-commercial-interest-its-not-a-new-threat-to-democratic-speech.md": [
+  {"url": "http://www.learnex.dmu.ac.uk/2010/12/14/a-revised-note-on-technology-outsourcing-and-the-privatisation-of-higher-education/", "comment": "Richard Hall on tech outsourcing and HE privatisation"},
+  {"url": "http://www.guardian.co.uk/technology/2010/dec/11/wikileaks-amazon-denial-democracy-lieberman", "comment": "John Naughton Guardian piece on WikiLeaks and Amazon"},
+  {"url": "http://blog.nixternal.com/2010.12.15/promise-me-you-wont-fail-like-this/", "comment": "nixternal blog post on cloud failure"}
+ ],
+ "2010-12-14-our-duty-to-minorities.md": [
+  {"url": "http://www.bbc.co.uk/news/uk-11985568", "comment": "BBC news on Independent Living Fund cuts"},
+  {"url": "http://www.guardian.co.uk/news/datablog/2010/oct/18/deficit-debt-government-borrowing-data", "comment": "Guardian datablog UK government deficit data"}
+ ],
+ "2010-12-13-djiscography-a-django-based-discography-generator.md": [
+  {"url": "http://www.martineve.com/2010/12/13/djiscography-a-django-based-discography-generator/djiscography/", "comment": "Djiscography screenshot attachment"},
+  {"url": "http://discography.2bitpie.net", "comment": "Djiscography live demo site"},
+  {"url": "http://code.google.com/p/djiscography/", "comment": "Djiscography Google Code repository"}
+ ],
+ "2010-12-08-converting-zotero-documents-to-mendeley.md": [
+  {"url": "http://www.zotero.org", "comment": "Zotero reference management homepage"},
+  {"url": "http://www.mendeley.com", "comment": "Mendeley reference management homepage"},
+  {"url": "http://twitter.com/#!/mrgunn", "comment": "mrgunn Twitter profile Mendeley"},
+  {"url": "http://zotero.org/users/64077/items/WKMCH3XK", "comment": "Zotero catalogue entry for cited item"},
+  {"url": "http://feedback.mendeley.com/forums/4941-mendeley-feedback/suggestions/94437-include-page-numbers-in-the-citation", "comment": "Mendeley feedback request for page numbers in citations"}
+ ],
+ "2010-12-03-wikileaks-is-about-capitalist-paradigm-shift-not-single-government-overthrow.md": [
+  {"url": "http://www.guardian.co.uk/world/blog/2010/dec/03/julian-assange-wikileaks", "comment": "Guardian Julian Assange WikiLeaks Q&A"},
+  {"url": "https://zunguzungu.wordpress.com/2010/11/29/julian-assange-and-the-computer-conspiracy-%E2%80%9Cto-destroy-this-invisible-government%E2%80%9D/#", "comment": "Zunguzungu blog on Assange computer conspiracy essay"},
+  {"url": "http://iq.org/conspiracies.pdf", "comment": "Assange State and Terrorist Conspiracies essay PDF"}
+ ],
+ "2010-12-02-rockaby-refactoring-and-abstraction.md": [
+  {"url": "http://www.martineve.com/2010/11/19/rockaby-text-annotation-software-gpl-alpha-announcement/", "comment": "Rockaby project announcement post"},
+  {"url": "http://code.google.com/p/rockaby/source/detail?r=54a0f9af87f4b0b9003d4278b071d5c385b4b755", "comment": "Rockaby refactoring commit on Google Code"}
+ ],
+ "2010-12-01-alternativecomplementary-medicine-and-mass-anecdotal-evidence-as-theological-in-structure.md": [
+  {"url": "http://www.samueljohnson.com/goodorig.html", "comment": "Samuel Johnson good and original quote origin"},
+  {"url": "http://www.arthritisresearchuk.org/arthritis_information/complementary_therapy.aspx", "comment": "Arthritis Research UK complementary therapy page"}
+ ],
+ "2010-11-24-fixing-headphone-jack-on-toshiba-satellite-c650d-under-ubuntu-linux-maverick.md": [
+  {"url": "https://bugs.launchpad.net/ubuntu/+source/alsa-driver/+bug/680844", "comment": "Launchpad ALSA driver headphone jack bug report"}
+ ],
+ "2010-11-22-vince-cables-orwell-esque-doublethink.md": [
+  {"url": "http://www.bbc.co.uk/news/uk-politics-11803719", "comment": "BBC news Lib Dems tuition fees promise claim"}
+ ],
+ "2010-11-19-userspace-responsiveness-bashrc-alternative-ubuntu-10-10-working.md": [
+  {"url": "http://slashdot.org/story/10/11/18/2246213/Alternative-To-the-200-Line-Linux-Kernel-Patch", "comment": "Slashdot article on Linux responsiveness userspace patch"},
+  {"url": "http://www.webupd8.org/2010/11/alternative-to-200-lines-kernel-patch.html", "comment": "WebUpd8 guide to Linux responsiveness cgroup patch"},
+  {"url": "http://www.webupd8.org/2010/11/alternative-to-200-lines-kernel-patch.html#comment-99182030", "comment": "Anonymous comment on WebUpd8 cgroup patch post"},
+  {"url": "http://www.phoronix.com/scan.php?page=article&item=linux_2637_video&num=2", "comment": "Phoronix Linux ultra-responsive desktop benchmark"}
+ ],
+ "2010-11-19-rockaby-text-annotation-software-gpl-alpha-announcement.md": [
+  {"url": "http://gr.pynchon.net/", "comment": "Online Gravity's Rainbow Reference site"},
+  {"url": "http://www.martineve.com/2010/11/19/rockaby-text-annotation-software-gpl-alpha-announcement/screen1/", "comment": "Rockaby homepage screenshot attachment"},
+  {"url": "http://www.martineve.com/2010/11/19/rockaby-text-annotation-software-gpl-alpha-announcement/screen2/", "comment": "Rockaby reference generation screenshot attachment"},
+  {"url": "http://www.martineve.com/2010/11/19/rockaby-text-annotation-software-gpl-alpha-announcement/gplv3-127x51/", "comment": "GPL v3 badge image attachment"},
+  {"url": "http://code.google.com/p/rockaby/", "comment": "Rockaby Google Code repository"}
+ ],
+ "2010-11-16-wireless-when-housesitting-airmon-ng.md": [
+  {"url": "http://www.brighthub.com/computing/smb-security/articles/17866.aspx", "comment": "BrightHub guide on airmon-ng wireless security"}
+ ],
+ "2010-11-14-online-crossword-helper-httpana-grammatic-org.md": [
+  {"url": "http://ana.grammatic.org", "comment": "ana.grammatic.org online crossword helper tool"}
+ ]
+}

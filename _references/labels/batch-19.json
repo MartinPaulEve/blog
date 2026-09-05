@@ -1,0 +1,94 @@
+{
+ "2014-04-17-what-do-we-mean-by-the-standing-and-reach-of-research.md": [
+  {"url": "http://www.theguardian.com/higher-education-network/blog/2014/apr/17/uk-policy-research-humanities-international-reach?CMP=twt_gu", "comment": "Guardian piece on UK humanities research reach"}
+ ],
+ "2014-04-15-symposium-on-david-mitchell-9th-may-london.md": [
+  {"url": "https://www.surveymonkey.com/s/FCWWFNB", "comment": "SurveyMonkey registration form for symposium"},
+  {"url": "https://www.martineve.com/wp-content/uploads/2014/04/Symposium-on-David-Mitchell-Programme_Distribution-Flyer.pdf", "comment": "David Mitchell symposium programme PDF flyer"}
+ ],
+ "2014-04-15-enabling-a-triple-head-3-monitor-setup-on-linux-mint-16-petra-with-two-nvidia-cards.md": [
+  {"url": "http://unix.stackexchange.com/questions/123862/how-can-i-get-xrandr-to-detect-both-nvidia-cards-2-x-gtx480-triple-head", "comment": "Stack Exchange: xrandr dual Nvidia triple-head question"}
+ ],
+ "2014-04-10-book-pynchon-and-philosophy-wittgenstein-foucault-and-adorno.md": [
+  {"url": "http://www.palgrave.com/products/title.aspx?pid=753605&utm_source=SilverpopMailing&utm_medium=email&utm_campaign=SRL0716%20-%20Literature%20Newsletter%20April%20UK%20Atlas%20%281%29&utm_content=&spMailingID=45581591&spUserID=ODg2NDk0OTY4MjYS1&spJobID=421057379&spReportId=NDIxMDU3Mzc5S0", "comment": "Palgrave page for Pynchon and Philosophy book"}
+ ],
+ "2014-04-07-funding-for-the-open-library-of-humanities-from-the-andrew-w-mellon-foundation.md": [
+  {"url": "https://www.openlibhums.org/2014/04/07/funding-from-the-andrew-w-mellon-foundation/", "comment": "OLH announcement of Mellon Foundation funding"}
+ ],
+ "2014-04-01-why-oa-mandates-dont-compromise-academic-freedom.md": [
+  {"url": "https://twitter.com/ersatzben/status/449453677875847168", "comment": "Tweet citing REF OA compliance statistics"}
+ ],
+ "2014-03-31-hefces-post-2014-open-access-policy-the-short-what-you-need-to-know-version.md": [
+  {"url": "http://www.sherpa.ac.uk/romeo/", "comment": "SHERPA/RoMEO journal OA policy database"},
+  {"url": "https://www.hefce.ac.uk/media/hefce/content/pubs/2014/201407/HEFCE2014_07.pdf", "comment": "HEFCE post-2014 REF open access policy document"}
+ ],
+ "2014-03-10-scholars-and-scientists-who-work-in-languages-other-than-english-please-help.md": [
+  {"url": "https://docs.google.com/document/d/1gm2FEuz6d3qim4762-kh6Anfc6Qe_Tru5HoJdqL9WTQ/edit?usp=sharing", "comment": "Google Doc for multilingual OA terminology contributions"}
+ ],
+ "2014-03-06-who-owns-a-prezi.md": [
+  {"url": "http://prezi.com/terms-of-use/", "comment": "Prezi terms of use"},
+  {"url": "http://dx.doi.org/10.6084/m9.figshare.953190", "comment": "Figshare DOI for Who Owns a Prezi post"},
+  {"url": "https://www.martineve.com/lens-martineve/index.html?url=https://www.martineve.com/lens-martineve/data/2014-03-06.xml", "comment": "Lens viewer for 2014-03-06 post XML"}
+ ],
+ "2014-02-27-debugging-metypeset-using-a-git-filesystem.md": [
+  {"url": "http://dx.doi.org/10.6084/m9.figshare.946260", "comment": "Figshare DOI for meTypeset git debugging post"},
+  {"url": "https://www.martineve.com/lens-martineve/index.html?url=https://www.martineve.com/lens-martineve/data/2014-02-27.xml", "comment": "Lens viewer for 2014-02-27 post XML"}
+ ],
+ "2014-02-26-mathml-support-in-the-metypeset-typesetter.md": [
+  {"url": "http://idippedut.dk/post/2008/01/30/Do-your-math-OOXML-and-OMML.aspx", "comment": "Blog post on OOXML and OMML math standards"},
+  {"url": "http://dx.doi.org/10.6084/m9.figshare.944613", "comment": "Figshare DOI for meTypeset MathML post"},
+  {"url": "https://www.martineve.com/lens-martineve/index.html?url=https://www.martineve.com/lens-martineve/data/2014-02-26.xml", "comment": "Lens viewer for 2014-02-26 post XML"}
+ ],
+ "2014-02-25-predatory-publishers-not-just-oa-and-who-loses-out.md": [
+  {"url": "http://triplec.at/index.php/tripleC/article/view/525", "comment": "tripleC article: OA as anti-corporatist movement"},
+  {"url": "http://pdos.csail.mit.edu/scigen/", "comment": "SCIgen computer-generated paper tool"},
+  {"url": "http://www.nature.com/news/publishers-withdraw-more-than-120-gibberish-papers-1.14763", "comment": "Nature news: publishers withdraw gibberish papers"},
+  {"url": "http://dx.doi.org/10.6084/m9.figshare.943450", "comment": "Figshare DOI for predatory publishers post"},
+  {"url": "https://www.martineve.com/lens-martineve/index.html?url=https://www.martineve.com/lens-martineve/data/2014-02-25.xml", "comment": "Lens viewer for 2014-02-25 post XML"}
+ ],
+ "2014-02-24-modularizing-the-metypeset-typesetter-for-the-user-interface-phase.md": [
+  {"url": "https://github.com/MartinPaulEve/meTypeset/tree/dev", "comment": "meTypeset dev branch on GitHub"},
+  {"url": "https://github.com/MartinPaulEve/meTypeset/commit/5662b3aeda62b9ee7a8bf009ce7b5cc77ed95fa6", "comment": "meTypeset commit adding user caption handling"},
+  {"url": "https://www.martineve.com/wp-content/uploads/2014/02/image1.png", "comment": "meTypeset interactive mode screenshot"},
+  {"url": "https://github.com/sampsyo/beets/", "comment": "beets music tagger on GitHub"},
+  {"url": "https://www.pynchon.net/", "comment": "Orbit Pynchon journal website"},
+  {"url": "https://github.com/elifesciences/lens", "comment": "eLife Lens XML viewer on GitHub"},
+  {"url": "http://dx.doi.org/10.6084/m9.figshare.942425", "comment": "Figshare DOI for meTypeset modularization post"},
+  {"url": "https://www.martineve.com/lens-martineve/index.html?url=https://www.martineve.com/lens-martineve/data/2014-02-24.xml", "comment": "Lens viewer for 2014-02-24 post XML"}
+ ],
+ "2014-02-22-google-scholar-will-count-a-blog-post-as-an-article-if-its-cited-a-preservation-suggesstion.md": [
+  {"url": "https://www.martineve.com/2011/09/27/academia-edtech-blogging-and-twitter-enough-with-the-meta-already/", "comment": "Eve's earlier post on meta blogging discussions"},
+  {"url": "http://ivory.idyll.org/blog/posting-blog-entries-to-figshare.html", "comment": "Titus Brown: depositing blog posts to Figshare"},
+  {"url": "http://carlboettiger.info/2013/06/03/DOI-citable.html#comment-919771037", "comment": "Boettiger comment on DOIs and citeability"},
+  {"url": "https://www.jiscmail.ac.uk/cgi-bin/webadmin?A3=ind1204&L=LIS-SERIALS&E=quoted-printable&P=112364&B=--bcaec54c52b2580cc104bd854894&T=text%2Fhtml;%20charset=windows-1252&pending=", "comment": "JISCMail thread on CLOCKSS archive preservation"},
+  {"url": "http://dx.doi.org/10.6084/m9.figshare.942283", "comment": "Figshare DOI for Google Scholar blog post article"},
+  {"url": "https://www.martineve.com/lens-martineve/index.html?url=https://www.martineve.com/lens-martineve/data/2014-02-22.xml", "comment": "Lens viewer for 2014-02-22 post XML"}
+ ],
+ "2014-02-20-publication-pynchon-and-wittgenstein-ethics-relativism-and-philosophical-methodology.md": [
+  {"url": "http://www.pulm.fr/index.php/catalog/product/view/id/583/s/thomas-pynchon/", "comment": "PULM press page for Pynchon and Philosophy book"},
+  {"url": "https://www.martineve.com/wp-content/uploads/2014/02/Martin-Paul-Eve-Pynchon-and-Wittgenstein.pdf", "comment": "Accepted manuscript of Pynchon and Wittgenstein chapter"},
+  {"url": "http://eprints.lincoln.ac.uk/13401", "comment": "Lincoln repository record for Pynchon and Wittgenstein"}
+ ],
+ "2014-02-14-publication-the-means-of-re-production-expertise-open-tools-standards-and-communication.md": [
+  {"url": "http://www.mdpi.com/2304-6775/2/1/38", "comment": "MDPI journal page for Means of Re-production article"},
+  {"url": "https://www.martineve.com/wp-content/uploads/2014/02/Eve_2014_The-Means-of-Re-Production2.pdf", "comment": "PDF of Means of Re-production article on author's site"},
+  {"url": "https://www.academia.edu/6065557/The_Means_of_Re-_Production_Expertise_Open_Tools_Standards_and_Communication", "comment": "Academia.edu page for Means of Re-production"},
+  {"url": "http://eprints.lincoln.ac.uk/13297", "comment": "Lincoln repository record for Means of Re-production"}
+ ],
+ "2014-02-12-whats-it-like-to-publish-in-sage-open.md": [
+  {"url": "http://internet2.trincoll.edu/facProfiles/Default.aspx?fid=1015934", "comment": "Trinity College faculty profile for Lucy Ferris"},
+  {"url": "https://www.martineve.com/2014/02/12/publication-mitchell-hoban/", "comment": "Eve's Mitchell-Hoban SAGE Open article post"}
+ ],
+ "2014-02-12-publication-mitchell-hoban.md": [
+  {"url": "http://sgo.sagepub.com/content/4/1/2158244014521636", "comment": "SAGE Open article on Mitchell and Hoban"},
+  {"url": "http://sgo.sagepub.com/content/4/1/2158244014521636.full-text.pdf%2Bhtml", "comment": "SAGE Open full-text PDF of Mitchell-Hoban article"},
+  {"url": "https://www.martineve.com/wp-content/uploads/2014/02/Eve_2014_“some-kind-of-thing-it-aint-us-but-yet-its-in-us”.pdf", "comment": "Author's site copy of Mitchell-Hoban article PDF"},
+  {"url": "http://eprints.lincoln.ac.uk/13296/", "comment": "Lincoln repository record for Mitchell-Hoban article"}
+ ],
+ "2014-02-10-hefce-ref2020-ir-deposit-and-embargoes.md": [
+  {"url": "https://www.martineve.com/2013/07/27/hefce-the-state-of-open-access-in-the-uk-and-post-2014-ref/", "comment": "Eve's earlier post on HEFCE OA and REF2020"}
+ ],
+ "2014-01-19-every-generation-has-its-philosopher.md": [
+  {"url": "https://www.gnu.org/philosophy/lessig-fsfs-intro.html", "comment": "Lessig introduction to Free Software Free Society"}
+ ]
+}

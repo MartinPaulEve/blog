@@ -1,0 +1,337 @@
+{
+ "2012-06-24-another-great-source-for-free-images-to-use-in-blogging.md": [
+  {
+   "url": "http://morguefile.com/",
+   "text": "MorgueFile",
+   "context": "ways on the lookout for good, free image sharing sites and somebody pointed out <a href=\"http://morguefile.com/\">MorgueFile</a> to me the other day. It's not CC licensed. In fact, in many cases it's <a href=\"http://morguefile.com/license/mo"
+  },
+  {
+   "url": "http://morguefile.com/license/morguefile/",
+   "text": "even more permissive",
+   "context": "File</a> to me the other day. It's not CC licensed. In fact, in many cases it's <a href=\"http://morguefile.com/license/morguefile/\">even more permissive</a>.</p> <p>Hope that helps somebody.</p> <p>"
+  }
+ ],
+ "2012-06-12-another-adorno-against-wittgenstein-moment.md": [
+  {
+   "url": "http://www.flickr.com/photos/hexadecimal_time/",
+   "text": "Cuito Cuanavale",
+   "context": "nother pop at Wittgenstein, but in a strange place.</p> <p><i>Featured image by <a href=\"http://www.flickr.com/photos/hexadecimal_time/\">Cuito Cuanavale</a> under a CC-BY license.</i></p>"
+  }
+ ],
+ "2012-06-08-is-this-a-picture-of-thomas-pynchon-aged-51.md": [
+  {
+   "url": "https://www.martineve.com/wp-content/uploads/2012/06/Thomas-Pynchon.png",
+   "text": null,
+   "context": "r permissions), when, during fact checking, I came across the following:</p> <p><a href=\"https://www.martineve.com/wp-content/uploads/2012/06/Thomas-Pynchon.png\">"
+  },
+  {
+   "url": "http://archive.org/details/royalpurple1988unse",
+   "text": "yearbook entry from the Kansas State University yearbook, 1988",
+   "context": "</a></p> <p>The picture is a <a href=\"http://archive.org/details/royalpurple1988unse\">yearbook entry from the Kansas State University yearbook, 1988</a>, which was digitized last year. The"
+  }
+ ],
+ "2012-06-06-metadata-handling-for-open-access-journal-pdfs.md": [
+  {
+   "url": "https://www.pynchon.net",
+   "text": "Orbit: Writing around Pynchon",
+   "context": "<p>As I count down to the launch of <a href=\"https://www.pynchon.net\">Orbit: Writing around Pynchon</a>, I've been thinking carefully about the mechanisms through which the articles will be consum"
+  },
+  {
+   "url": "https://www.martineve.com/",
+   "text": null,
+   "context": "ckquote><p>InfoKey: Creator<br /> InfoValue: meXml: Martin Eve's XML Generator. https://www.martineve.com/<br /> InfoKey: Title<br /> InfoValue: Generating PDFs from OJS<br /> InfoKey: Producer<br /> InfoValue: Apache FOP Version 1.0<br />"
+  },
+  {
+   "url": "https://docs.google.com/a/martineve.com/View?docID=0AZbqOpGNEeyqZGZnOG1mY2tfNDJmNnJ2NW5kcg&revision=_latest&hgd=1&pli=1",
+   "text": "great JISC document on PDF metadata extraction mechanisms",
+   "context": "an be perfectly detected by Zotero. So where is it getting its info?</p> <p>The <a href=\"https://docs.google.com/a/martineve.com/View?docID=0AZbqOpGNEeyqZGZnOG1mY2tfNDJmNnJ2NW5kcg&revision=_latest&hgd=1&pli=1\">great JISC document on PDF met"
+  },
+  {
+   "url": "https://github.com/zotero/zotero/blob/master/chrome/content/zotero/recognizePDF.js",
+   "text": "recognizePDF.js",
+   "context": "d to dive into the mechanics.</p> <p>Zotero's main PDF functionality resides in <a href=\"https://github.com/zotero/zotero/blob/master/chrome/content/zotero/recognizePDF.js\">recognizePDF.js</a>. Here's the first part of that function:</p> {"
+  },
+  {
+   "url": "http://dx.doi.org/10.____/_____________",
+   "text": null,
+   "context": "ty of Sussex<br /> Title Redacted<br /> 28 September 2011<br /> 1<br /> 1<br /> http://dx.doi.org/10.____/_____________<br /> 10.____/_____________</p> <p>Abstract:<br /> It has long been desirable to create PDF files from a standard XML ba"
+  },
+  {
+   "url": "https://github.com/zotero/zotero/blob/master/chrome/content/zotero/xpcom/utilities.js",
+   "text": "cleanDOI function",
+   "context": "endhighlight %} <p>First off, it amalgamates the lines and passes them to the <a href=\"https://github.com/zotero/zotero/blob/master/chrome/content/zotero/xpcom/utilities.js\">cleanDOI function</a>. This performs a string.match:</p> {% hig"
+  },
+  {
+   "url": "http://www.flickr.com/photos/trevorandmarjee/",
+   "text": "TJOwens",
+   "context": "ere that Zotero's version of pdftotext can read it.</p> <p><i>Featured image by <a href=\"http://www.flickr.com/photos/trevorandmarjee/\">TJOwens</a> under a CC-BY license.</i></p>"
+  }
+ ],
+ "2012-05-21-sussex-southampton-initiative-sushi-an-interdisciplinary-fusion.md": [
+  {
+   "url": "http://storify.com/martin_eve/sushi-thursday-17th-may-2012",
+   "text": "View the story \"SuShI: Thursday 17th May 2012\" on Storify",
+   "context": "</script><br /> <noscript>[<a href=\"http://storify.com/martin_eve/sushi-thursday-17th-may-2012\" target=\"_blank\">View the story \"SuShI: Thursday 17th May 2012\" on Storify</a>]<br /> <h1>Su"
+  },
+  {
+   "url": "http://www.flickr.com/photos/betsyweber/",
+   "text": "betsyweber",
+   "context": "ch. May tweet on #sushidig.Martin Eve</div> </noscript> <p><i>Featured image by <a href=\"http://www.flickr.com/photos/betsyweber/\">betsyweber</a> under a CC-BY license.</i></p>"
+  }
+ ],
+ "2012-05-21-day-2-of-twenty-first-century-literature-conference-at-birkbeck.md": [
+  {
+   "url": "http://storify.com/martin_eve/day-2-of-twenty-first-century-british-fiction-symp",
+   "text": "View the story \"Day 2 of Twenty-First-Century British Fiction Symposium\" on Storify",
+   "context": "</script><br /> <noscript>[<a href=\"http://storify.com/martin_eve/day-2-of-twenty-first-century-british-fiction-symp\" target=\"_blank\">View the story \"Day 2 of Twenty-First-Century British"
+  },
+  {
+   "url": "http://bit.ly/KjfQj8Martin",
+   "text": null,
+   "context": "r Powerpoint presentation on Book of Dave/post-apocalyptic eco/critical utopia. http://bit.ly/KjfQj8Martin Eve</div> <div>Just uploaded the PP slides from my paper on Self's Book of Dave: http://www.drcarolineedwards.com/2012/05/01/will-sel"
+  },
+  {
+   "url": "http://www.drcarolineedwards.com/2012/05/01/will-self/",
+   "text": null,
+   "context": "ve</div> <div>Just uploaded the PP slides from my paper on Self's Book of Dave: http://www.drcarolineedwards.com/2012/05/01/will-self/ #c21sympCaroline Edwards</div> <div>@C21st_symposium congratulations to Bianca and Tony for an amazing #c"
+  },
+  {
+   "url": "http://en.m.wikipedia.org/wiki/Cell_phone_novel",
+   "text": null,
+   "context": "to everyone involvedAnthony Levings</div> <div>@C21st_symposium Wiki page here: http://en.m.wikipedia.org/wiki/Cell_phone_novel #c21sympCaroline Edwards</div> <div>Has everyone forgotten the Japanese novels serialised as text messages?! #c2"
+  },
+  {
+   "url": "http://pic.twitter.com/18imkQIVMartin",
+   "text": null,
+   "context": "magined tech #c21sympMartin Eve</div> <div>Marczewska speaking on Noon #c21symp http://pic.twitter.com/18imkQIVMartin Eve</div> <div>Noon's Cobralingus &quot;takes remix fiction to a whole new level&quot; says Marczewska #c21sympMartin Eve<"
+  }
+ ],
+ "2012-05-21-beware-the-next-wave-of-academic-publishing-grimness-apps.md": [
+  {
+   "url": "http://scienceblogs.com/confessions/2011/08/on_the_evilness_of_the_emergin.php",
+   "text": "problem is",
+   "context": "f doing this. The technologies are called XHTML, HTML5, CSS and JavaScript. The <a href=\"http://scienceblogs.com/confessions/2011/08/on_the_evilness_of_the_emergin.php\">problem is</a>, if academic materials are published in those formats, i"
+  },
+  {
+   "url": "http://en.wikipedia.org/wiki/Digital_rights_management",
+   "text": "DRM",
+   "context": "e formats, it is harder for publishers to:</p> <ol> <li>Lock down material with <a href=\"http://en.wikipedia.org/wiki/Digital_rights_management\">DRM</a>.</li> <li>Ensure that you can only use the material in the way they want.</li> <li>Plas"
+  },
+  {
+   "url": "http://en.wikipedia.org/wiki/Format_rot",
+   "text": "Format rot",
+   "context": "ly look forward to having an icon for every publisher in my apps list.</li> <li><a href=\"http://en.wikipedia.org/wiki/Format_rot\">Format rot</a>. When you get your next device, what's the guarantee that the articles you paid for will be rea"
+  },
+  {
+   "url": "http://www.flickr.com/photos/haco99jp/",
+   "text": "haco",
+   "context": "else could possibly do that\"). You've been warned!</p> <p><i>Featured image by <a href=\"http://www.flickr.com/photos/haco99jp/\">haco</a> under a CC-BY-SA license.</i></p>"
+  }
+ ],
+ "2012-05-19-thinking-feeling-conference-at-the-university-of-sussex.md": [
+  {
+   "url": "http://www.flickr.com/photos/savingfutures/",
+   "text": "Charlie Phillips",
+   "context": "epistemological dominant of Modernist literature...</p> <p><i>Featured image by <a href=\"http://www.flickr.com/photos/savingfutures/\">Charlie Phillips</a> under a CC-BY license.</i></p>"
+  }
+ ],
+ "2012-05-13-the-ontological-problems-of-contemporary-fiction-studies-are-actually-its-ontological-prerequsites.md": [
+  {
+   "url": "https://www.martineve.com/wp-content/uploads/2012/05/4539042494_acb8ec0a74_o.jpg",
+   "text": "Featured image",
+   "context": "lly regressive movement of an anti-democratic nature? I wonder.</i> </ol> <p><i><a href=\"https://www.martineve.com/wp-content/uploads/2012/05/4539042494_acb8ec0a74_o.jpg\">Featured image</a> by <a href=\"http://www.flickr.com/photos/vblibrary"
+  },
+  {
+   "url": "http://www.flickr.com/photos/vblibrary/",
+   "text": "Enokson",
+   "context": "m/wp-content/uploads/2012/05/4539042494_acb8ec0a74_o.jpg\">Featured image</a> by <a href=\"http://www.flickr.com/photos/vblibrary/\">Enokson</a></i></p>"
+  }
+ ],
+ "2012-05-12-day-1-of-twenty-first-century-literature-conference-at-birkbeck.md": [
+  {
+   "url": "http://storify.com/martin_eve/day-1-of-twenty-first-century-literature-conferenc",
+   "text": "View the story \"Day 1 of Twenty-First-Century Literature Conference at Birkbeck\" on Storify",
+   "context": "</script><br /> <noscript>[<a href=\"http://storify.com/martin_eve/day-1-of-twenty-first-century-literature-conferenc\" target=\"_blank\">View the story \"Day 1 of Twenty-First-Century Literat"
+  }
+ ],
+ "2012-05-05-excursions-journal-vol-3-launch-party.md": [
+  {
+   "url": "https://www.martineve.com/wp-content/uploads/2012/05/Excursions-Launch.png",
+   "text": null,
+   "context": "<p><a href=\"https://www.martineve.com/wp-content/uploads/2012/05/Excursions-Launch.png\">"
+  },
+  {
+   "url": "http://www.excursions-journal.org.uk",
+   "text": "Excursions",
+   "context": "</a></p> <p>A quick note to say: come join us for the launch of <a href=\"http://www.excursions-journal.org.uk\">Excursions</a> volume 3 from 4pm-7pm on the 16th May in the Fulton Social Space at the University of Sussex!</p>"
+  }
+ ],
+ "2012-05-02-an-update-on-orbit-1-1.md": [
+  {
+   "url": "https://www.pynchon.net",
+   "text": "Orbit: Writing Around Pynchon",
+   "context": "of the issue\" post for the, no doubt voluminous, hordes awaiting the launch of <a href=\"https://www.pynchon.net\">Orbit: Writing Around Pynchon</a>.</p> <p>One review and six articles are now typeset and going into proofreading. A further r"
+  },
+  {
+   "url": "http://www.oaspa.org/",
+   "text": "Open Access Scholarly Publishers Association",
+   "context": "> <p>Meanwhile, on the bureaucracy front, the application for membership of the <a href=\"http://www.oaspa.org/\">Open Access Scholarly Publishers Association</a> is moving ahead. This will enable us to get the DOI numbers up and running on t"
+  },
+  {
+   "url": "http://www.crossref.org/",
+   "text": "CrossRef",
+   "context": "enable us to get the DOI numbers up and running on the articles through reduced <a href=\"http://www.crossref.org/\">CrossRef</a> membership. I have also been having discussions with CLOCKSS about joining their archival scheme, thus preservin"
+  },
+  {
+   "url": "http://www.flickr.com/photos/andycastro/",
+   "text": "Andy Castro",
+   "context": "ey can go when ready.</p> <p>Over and out, for now.</p> <p><i>Featured image by <a href=\"http://www.flickr.com/photos/andycastro/\">Andy Castro</a> under a CC-BY-NC license.</i></p>"
+  }
+ ],
+ "2012-04-30-pynchon-in-public-day-2012-our-meetup-details.md": [
+  {
+   "url": "http://www.guardian.co.uk/books/booksblog/2011/may/13/writers-in-public-pynchon",
+   "text": "the success",
+   "context": "<p>Following <a href=\"http://www.guardian.co.uk/books/booksblog/2011/may/13/writers-in-public-pynchon\">the success</a> of last year's <a href=\"http://www.pynchoninpublic.com"
+  },
+  {
+   "url": "http://www.pynchoninpublic.com/",
+   "text": "Pynchon in Public Day",
+   "context": "booksblog/2011/may/13/writers-in-public-pynchon\">the success</a> of last year's <a href=\"http://www.pynchoninpublic.com/\">Pynchon in Public Day</a>, this May 8th will play host to further celebrations of perhaps the world's greatest living"
+  },
+  {
+   "url": "http://www.flickr.com/photos/getphotos/",
+   "text": "G.E.T.",
+   "context": "your photos and tweet on the #Pynchon2012 hashtag!</p> <p><i>Featured image by <a href=\"http://www.flickr.com/photos/getphotos/\">G.E.T.</a> under a CC-BY-NC-SA license.</i></p>"
+  }
+ ],
+ "2012-04-28-contemporary-fiction-research-seminar-write-up-martin-amis-money-2012-04-28.md": [
+  {
+   "url": "http://events.sas.ac.uk/events/visitor_events.php?page=ies_seminars&func=results&aoi_id=332",
+   "text": "Contemporary Fiction Research Seminar",
+   "context": "<p>Today, the SoAS was host to the <a href=\"http://events.sas.ac.uk/events/visitor_events.php?page=ies_seminars&func=results&aoi_id=332\">Contemporary Fiction Research Seminar</a>, marking the rel"
+  },
+  {
+   "url": "http://http://dx.doi.org/10.1080/0950236X.2012.638766",
+   "text": "her article",
+   "context": "troductions before Nicky Marsh began her examination of the text. Supplementing <a href=\"http://http://dx.doi.org/10.1080/0950236X.2012.638766\">her article</a>, Marsh posited that Amis' text points beyond the text to the world of finance it"
+  },
+  {
+   "url": "http://www.guardian.co.uk/books/gallery/2011/dec/17/writers-artists-design-money",
+   "text": "Writers and artists design money fit for modern times",
+   "context": "rsh finally linked this to an analysis of the various entries to the Guardian's <a href=\"http://www.guardian.co.uk/books/gallery/2011/dec/17/writers-artists-design-money\">Writers and artists design money fit for modern times</a>, Marsh note"
+  }
+ ],
+ "2012-04-23-teaching-post-millennial-literature-a-hea-and-university-of-brighton-symposium.md": [
+  {
+   "url": "http://arts.brighton.ac.uk/research/research-conferences/teaching-post-millennial-literature",
+   "text": "http://arts.brighton.ac.uk/research/research-conferences/teaching-post-millennial-literature",
+   "context": "Limited)</p> <p>Deadline for proposals: 15th May 2012</p> <p>Visit the webpage: <a href=\"http://arts.brighton.ac.uk/research/research-conferences/teaching-post-millennial-literature\">http://arts.brighton.ac.uk/research/research-conferences/"
+  },
+  {
+   "url": "http://www.flickr.com/photos/50987838@N06/",
+   "text": "gacabo",
+   "context": "/> Brighton<br /> East Sussex<br /> (01273) 643314</p> <p><i>Featured image by <a href=\"http://www.flickr.com/photos/50987838@N06/\">gacabo</a> under a CC-BY-ND license.</i></p>"
+  }
+ ],
+ "2012-04-11-starting-a-digital-humanities-project-epilog.md": [
+  {
+   "url": "https://github.com/MartinPaulEve/epiLog/tree/master/epiLog",
+   "text": "on my github",
+   "context": "mparison. The project is called epiLog and will be available during development <a href=\"https://github.com/MartinPaulEve/epiLog/tree/master/epiLog\">on my github</a>.</p> <h3>The Concept</h3> <p>I constantly make annotations on books, films"
+  },
+  {
+   "url": "http://twitter.github.com/bootstrap/",
+   "text": "Twitter Bootstrap",
+   "context": "getting a Django environment up and running (I love python!) and integrating a <a href=\"http://twitter.github.com/bootstrap/\">Twitter Bootstrap</a> environment and OpenID login, the latter taking the majority of the time. I have a homepage"
+  },
+  {
+   "url": "https://launchpad.net/django-openid-auth",
+   "text": "django_openid_auth",
+   "context": "for those looking to integrate an OpenID login into Django, go no further than <a href=\"https://launchpad.net/django-openid-auth\">django_openid_auth</a>. Bear in mind that most providers fail if you run your development server on 127.0.0.1"
+  },
+  {
+   "url": "http://openid.aol.com/",
+   "text": null,
+   "context": "var selected = 0; switch (provider) { case \"aol\": providerBox.val(\"http://openid.aol.com/\" + userName); break; case \"blogger\": providerBox.val(\"http://\" + userName + \".blogspot.com\"); break; case \"claimid\": providerBox.val("
+  },
+  {
+   "url": "http://claimid.com/",
+   "text": null,
+   "context": "http://\" + userName + \".blogspot.com\"); break; case \"claimid\": providerBox.val(\"http://claimid.com/\" + userName); break; case \"flickr\": providerBox.val(\"http://flickr.com/\" + userName); break; case \"google\": providerBox.val(\"https://www.goo"
+  },
+  {
+   "url": "http://flickr.com/",
+   "text": null,
+   "context": "x.val(\"http://claimid.com/\" + userName); break; case \"flickr\": providerBox.val(\"http://flickr.com/\" + userName); break; case \"google\": providerBox.val(\"https://www.google.com/accounts/o8/id\"); break; case \"livejournal\": providerBox.val(\"htt"
+  },
+  {
+   "url": "https://www.google.com/accounts/o8/id",
+   "text": null,
+   "context": "ox.val(\"http://flickr.com/\" + userName); break; case \"google\": providerBox.val(\"https://www.google.com/accounts/o8/id\"); break; case \"livejournal\": providerBox.val(\"http://\" + userName + \".livejournal.com\"); break; case \"myopenid\": prov"
+  },
+  {
+   "url": "http://technorati.com/people/technorati/",
+   "text": null,
+   "context": "p://\" + userName + \".myopenid.com\"); break; case \"technorati\": providerBox.val(\"http://technorati.com/people/technorati/\" + userName); break; case \"verisign\": providerBox.val(\"http://\" + userName + \".pip.verisignlabs.com\"); break; case \"vid"
+  },
+  {
+   "url": "https://me.yahoo.com/",
+   "text": null,
+   "context": "(\"http://\" + userName + \".myvidoop.com\"); break; case \"yahoo\": providerBox.val(\"https://me.yahoo.com/\"); break; } } </script> {% endhighlight %} <h3>Input</h3> <p>I am extremely open to feedback, ideas/directions from interested"
+  }
+ ],
+ "2012-04-05-new-york-times-writes-about-my-ph-d-thesis-work.md": [
+  {
+   "url": "http://www.3ammagazine.com/3am/pynchon-philosophy-ethics/",
+   "text": "a piece for 3:AM Magazine",
+   "context": "<p>On the train back from Glasgow last week, I finished writing <a href=\"http://www.3ammagazine.com/3am/pynchon-philosophy-ethics/\">a piece for 3:AM Magazine</a> that sums up part of my Ph.D. thesis work, which I intend to s"
+  },
+  {
+   "url": "http://opinionator.blogs.nytimes.com/2012/04/04/stone-links-28/",
+   "text": "have written about the piece",
+   "context": "\"self-archiving\"), I was thrilled to find this morning that the New York Times <a href=\"http://opinionator.blogs.nytimes.com/2012/04/04/stone-links-28/\">have written about the piece</a>!</p> <p><a href=\"http://opinionator.blogs.nytimes.com"
+  }
+ ],
+ "2012-04-04-uksg-conference-photos-and-slides.md": [
+  {
+   "url": "http://playforth.wordpress.com/2012/03/29/uksg-2012-the-freebies-are-already-here-theyre-just-unevenly-distributed/",
+   "text": "many summaries",
+   "context": "</p> <p>There are <a href=\"http://playforth.wordpress.com/2012/03/29/uksg-2012-the-freebies-are-already-here-theyre-just-unevenly-distributed/\">many summaries</a> <a href=\"http:/"
+  },
+  {
+   "url": "http://uksglive.blogspot.co.uk/2012/03/autosubversive-practices-where-were-all.html",
+   "text": "of the content",
+   "context": "freebies-are-already-here-theyre-just-unevenly-distributed/\">many summaries</a> <a href=\"http://uksglive.blogspot.co.uk/2012/03/autosubversive-practices-where-were-all.html\">of the content</a> at the conference already published.</p> <p>I d"
+  },
+  {
+   "url": "http://prezi.com/7trgivuxt5fs/autosubversive-practices-in-academic-publishing/",
+   "text": "my Prezi from the event",
+   "context": "nt</a> at the conference already published.</p> <p>I do, however, want to share <a href=\"http://prezi.com/7trgivuxt5fs/autosubversive-practices-in-academic-publishing/\">my Prezi from the event</a>. I'll also be publishing this work in the U"
+  }
+ ],
+ "2012-04-03-i-am-joining-the-oapen-uk-open-access-monograph-steering-group.md": [
+  {
+   "url": "http://oapen-uk.jiscebooks.org/overview/steering-group/",
+   "text": "OAPEN-UK Steering Group",
+   "context": "<p>I'm delighted to announce that I am joining the <a href=\"http://oapen-uk.jiscebooks.org/overview/steering-group/\">OAPEN-UK Steering Group</a>, a great JISC project that is gathering evidence for the viability"
+  },
+  {
+   "url": "http://www.surveymonkey.com/s/oapenukresearcher",
+   "text": "survey on researcher behaviour",
+   "context": "researcher, can I also ask (I have already tweeted this!) that you fill out the <a href=\"http://www.surveymonkey.com/s/oapenukresearcher\">survey on researcher behaviour</a>. It doesn't take long and is a crucial part of the research process"
+  },
+  {
+   "url": "http://www.flickr.com/photos/wakingtiger/",
+   "text": "Gideon Burton",
+   "context": "es, and opportunities, brought by a digital medium.</p> <p><i>Featured image by <a href=\"http://www.flickr.com/photos/wakingtiger/\">Gideon Burton</a> under a CC-BY-SA license.</i></p>"
+  }
+ ],
+ "2012-04-02-my-day-as-a-higher-ed-researcher.md": [
+  {
+   "url": "http://www.flickr.com/photos/ellf/",
+   "text": "Ellen Forsyth",
+   "context": "year, so please don't say that we don't work hard.</p> <p><i>Featured image by <a href=\"http://www.flickr.com/photos/ellf/\">Ellen Forsyth</a> under a CC-BY-NC-SA license.</i></p>"
+  }
+ ]
+}

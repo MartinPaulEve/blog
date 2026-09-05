@@ -1,0 +1,88 @@
+{
+ "2010-03-17-david-foster-wallace-archive-material.md": [
+  {"url": "http://www.thehowlingfantods.com/dfw/", "comment": "Howling Fantods DFW fan site"},
+  {"url": "http://www.scribd.com/doc/28142143/David-Foster-Wallace-archive", "comment": "David Foster Wallace archive on Scribd"},
+  {"url": "http://d1.scribdassets.com/ScribdViewer.swf", "comment": "Scribd embedded viewer SWF asset"}
+ ],
+ "2010-03-17-can-we-avoid-the-s-word-regarding-david-foster-wallace.md": [
+  {"url": "http://www.lrb.co.uk/blog/2010/03/16/alex-abramovich/wallace-v-the-terrible-master/", "comment": "LRB blog: Wallace v the Terrible Master"}
+ ],
+ "2010-03-13-thomas-pynchon-critical-bibliography-zotero-group.md": [
+  {"url": "http://www.zotero.org/groups/thomas_pynchon", "comment": "Zotero group: Thomas Pynchon bibliography"}
+ ],
+ "2010-03-11-sshsplit-featured.md": [
+  {"url": "http://www.jonobacon.org/2010/03/06/the-grand-app-writing-challenge-submissions/", "comment": "Jono Bacon Grand App Writing Challenge submissions"},
+  {"url": "http://posterous.com/getfile/files.posterous.com/martin-qru2u/xFme7uqG10VRxo5o5qDKaxtHg2WG0rkDJlvVljOnwOl66ziIua7CH34iXLth/sshsplit-screen2.png.scaled.1000.jpg", "comment": "sshsplit screenshot 2 on Posterous"},
+  {"url": "http://www.martineve.com/wp-content/uploads/2010/03/sshsplit-screen1.png", "comment": "sshsplit screenshot 1 on martineve.com"}
+ ],
+ "2010-03-02-sshsplit-a-dynamic-tunnel-multiplexer.md": [
+  {"url": "http://pro.grammatic.org/sshsplit/sshsplit-screen1.png", "comment": "sshsplit screenshot 1 on pro.grammatic.org"},
+  {"url": "http://www.martineve.com/sshsplit/sshsplit-screen2.png", "comment": "sshsplit screenshot 2 on martineve.com"},
+  {"url": "https://launchpad.net/sshsplit", "comment": "sshsplit Launchpad project home"},
+  {"url": "https://launchpad.net/~martineve/+archive/ppa", "comment": "martineve Launchpad PPA archive"}
+ ],
+ "2009-12-07-fixing-scp-completion-in-ubuntu-9-10.md": [
+  {"url": "https://bugs.launchpad.net/ubuntu/karmic/+source/bash-completion/+bug/449349", "comment": "Launchpad bug: bash-completion scp issue Karmic"},
+  {"url": "http://launchpadlibrarian.net/35968198/ssh", "comment": "bash-completion scp fix for Ubuntu 9.10"}
+ ],
+ "2009-06-23-installing-office-2007-on-wine-1-1-24.md": [
+  {"url": "http://ppa.launchpad.net/ubuntu-wine/ppa/ubuntu", "comment": "Ubuntu Wine PPA repository"},
+  {"url": "http://www.kegel.com/wine/winetricks", "comment": "winetricks script by kegel"}
+ ],
+ "2009-02-01-ftp-url-fastsnap-parsing-in-net.md": [
+  {"url": "http://thedailywtf.com", "comment": "The Daily WTF programming horror site"},
+  {"url": "http://thedailywtf.com/Articles/The-Backup-Snippet.aspx", "comment": "The Daily WTF: The Backup Snippet article"}
+ ],
+ "2008-12-07-bypassing-firewalls-using-ssh-reverse-forwarding.md": [
+  {"url": "http://www.martineve.com/2008/12/07/ssh-key-based-password-less-login/", "comment": "martineve.com: SSH key-based passwordless login"}
+ ],
+ "2008-09-24-the-importance-of-weaponization-in-exploit-development.md": [
+  {"url": "http://blogs.smugmug.com/don/2008/01/28/first-two-security-winners/", "comment": "SmugMug security competition winners announcement"},
+  {"url": "http://www.martineve.com/2007/11/09/xss-for-the-common-good-greasemousey/", "comment": "martineve.com: XSS Greasemousey universal tag post"},
+  {"url": "http://www.martineve.com/2008/02/02/an-xml-based-xss-poc-platform/", "comment": "martineve.com: SSImp XML-based XSS PoC platform"}
+ ],
+ "2008-09-17-creating-an-irc-frontback-end-from-a-c-web-application.md": [
+  {"url": "http://mysite.com-", "comment": "Placeholder example site URL in code snippet"},
+  {"url": "http://www.yoursite.com/webservice.asmx", "comment": "Placeholder SOAP web service endpoint in code"},
+  {"url": "http://www.yoursite.com/IrcMessage", "comment": "Placeholder SOAP action URL in code snippet"},
+  {"url": "http://www.w3.org/2001/XMLSchema-instance\\", "comment": "W3C XML Schema instance namespace URI"},
+  {"url": "http://www.w3.org/2001/XMLSchema\\", "comment": "W3C XML Schema namespace URI"},
+  {"url": "http://schemas.xmlsoap.org/soap/envelope/\\", "comment": "SOAP envelope XML namespace URI"},
+  {"url": "http://www.yoursite.com/\\", "comment": "Placeholder authentication namespace in SOAP code"}
+ ],
+ "2008-07-31-c-dataexecutor-class-again.md": [
+  {"url": "http://www.martineve.com/2007/06/26/c-dataexecutor-class-available/", "comment": "martineve.com: DataExecutor C# class post"}
+ ],
+ "2008-03-05-ie7-remote-file-access.md": [
+  {"url": "http://www.0x000000.com/?i=525", "comment": "Ronald's article on IE7 remote file access"}
+ ],
+ "2008-02-28-firefox-3-disallows-cross-site-xbl.md": [
+  {"url": "http://www.mozilla.org/xbl", "comment": "Mozilla XBL namespace URI"}
+ ],
+ "2008-02-23-wp-aspxrewriter-alpha-test.md": [
+  {"url": "http://trac.wordpress.org/ticket/5969", "comment": "WordPress Trac ticket 5969 pretty permalinks IIS"}
+ ],
+ "2008-02-02-an-xml-based-xss-poc-platform.md": [
+  {"url": "http://host/SSImp/?module=the_module&action=the_action&cookie=document.cookie", "comment": "SSImp XSS PoC iframe target example URL"},
+  {"url": "http://host", "comment": "Generic host placeholder in XSS example"},
+  {"url": "https://www.victim.com/getauserid.php", "comment": "Victim site get-user-ID endpoint in PoC module"},
+  {"url": "https://www.victim.com/settings.php", "comment": "Victim site settings page in PoC module"},
+  {"url": "http://code.google.com/p/ssimp/", "comment": "SSImp C# source code on Google Code"}
+ ],
+ "2007-11-27-right-to-left-and-left-to-right-characters.md": [
+  {"url": "http://sla.ckers.org/forum/read.php?3,16741", "comment": "sla.ckers forum thread on Unicode RTL/LTR security"}
+ ],
+ "2007-11-09-xss-for-the-common-good-greasemousey.md": [
+  {"url": "http://www.url.net/1x1white.gif", "comment": "1x1 white GIF used in XSS signature tag"},
+  {"url": "http://url.net/xbl.xml#loader", "comment": "XBL loader XML file for Firefox XSS"},
+  {"url": "http://www.mozilla.org/xbl", "comment": "Mozilla XBL namespace URI"},
+  {"url": "http://www.url.net/javascript.js", "comment": "External JavaScript payload loaded via XBL"}
+ ],
+ "2007-07-05-some-evil-stuff-from-sla-ckers.md": [
+  {"url": "http://sla.ckers.org/forum/read.php?2,13209", "comment": "sla.ckers forum thread on XSS techniques"},
+  {"url": "http://domain.org/?test=a%3D0%7C%7Ceval%7C%7C0%3Bb%3D0%7C%7Cunescape%7C%7C0%3Ba%28b%28location%29%29#%0d%0aalert%28%22xss%22%29%3B", "comment": "SirDarckCat eval/unescape XSS PoC URL"}
+ ],
+ "2007-07-05-javascript-internal-numerical-representations.md": [
+  {"url": "http://www.jibbering.com/faq/faq_notes/type_convert.html", "comment": "jibbering.com JS FAQ type conversion table"}
+ ]
+}

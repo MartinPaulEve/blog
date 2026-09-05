@@ -1,0 +1,287 @@
+{
+ "2011-10-15-happy-85th-birthday-michel-foucault.md": [
+  {
+   "url": "http://www.flickr.com/photos/photogreuhphies/",
+   "text": "photogreuhphies",
+   "context": "</div> <div> <p><em>Featured image by <a href=\"http://www.flickr.com/photos/photogreuhphies/\">photogreuhphies</a> under a CC-BY-NC-ND license.</em></p> </div>"
+  }
+ ],
+ "2011-10-12-the-werritty-feasel.md": [
+  {
+   "url": "http://www.flickr.com/photos/katphotos/",
+   "text": "Kat...",
+   "context": "enied,<br /> That it's all turned Foxy and Ferrety.</p> <p><i>Featured image by <a href=\"http://www.flickr.com/photos/katphotos/\">Kat...</a> under a CC-BY-NC-ND license.</i></p>"
+  }
+ ],
+ "2011-10-06-the-nobel-prize-for-literature-2011-hoax.md": [
+  {
+   "url": "http://www.nobelprizeliterature.org",
+   "text": "http://www.nobelprizeliterature.org",
+   "context": "winner was, controversially, the Serbian author, Dobrica Cosic. The source was <a href=\"http://www.nobelprizeliterature.org\">http://www.nobelprizeliterature.org</a>, which looked like this:</p> <p>"
+  }
+ ],
+ "2011-09-30-adorno-benjamin-and-wittgenstein-knowledge-is-not-property.md": [
+  {
+   "url": "http://www.flickr.com/photos/lij/",
+   "text": "Jill",
+   "context": "ilosophicus (London and New York: Routledge, 2006).</p> <p><i>Featured image by <a href=\"http://www.flickr.com/photos/lij/\">Jill</a> under a CC-BY license.</i></p>"
+  }
+ ],
+ "2011-09-27-academia-edtech-blogging-and-twitter-enough-with-the-meta-already.md": [
+  {
+   "url": "http://www.flickr.com/photos/financialaidpodcast/",
+   "text": "Christopher S. Penn",
+   "context": "my research about which to blog for a future post.</p> <p><i>Featured image by <a href=\"http://www.flickr.com/photos/financialaidpodcast/\">Christopher S. Penn</a> under a CC-BY-NC-ND license.</i></p>"
+  }
+ ],
+ "2011-09-25-writing-a-plugin-for-open-journal-systems-part-2.md": [
+  {
+   "url": "https://www.martineve.com/2011/09/14/publishing-articles-in-pdf-via-xmlxslt-using-open-journal-systems-2-3-6/",
+   "text": "publishing in PDF and XHTML",
+   "context": "<p>The quest to build a system that allows <a href=\"https://www.martineve.com/2011/09/14/publishing-articles-in-pdf-via-xmlxslt-using-open-journal-systems-2-3-6/\">publishing in PDF and XHTML</a> from a s"
+  },
+  {
+   "url": "https://www.martineve.com/2011/09/17/writing-a-plugin-for-open-journal-systems-part-1/",
+   "text": "continues",
+   "context": "ems-2-3-6/\">publishing in PDF and XHTML</a> from a single XML galley within OJS <a href=\"https://www.martineve.com/2011/09/17/writing-a-plugin-for-open-journal-systems-part-1/\">continues</a> and I've made quite substantial progress.</p> <p>"
+  },
+  {
+   "url": "https://github.com/MartinPaulEve/MEXMLGalley",
+   "text": "my GitHub",
+   "context": "bstantial progress.</p> <p>As before, the code for this article is available on <a href=\"https://github.com/MartinPaulEve/MEXMLGalley\">my GitHub</a>.</p> <p>Instead of working from the very basic stub, I instead used the existing xmlGalley"
+  },
+  {
+   "url": "http://dtd.nlm.nih.gov/tools/tools.html",
+   "text": "the NLM site",
+   "context": "terly failing. Eventually, I downloaded the latest FO and XHTML transforms from <a href=\"http://dtd.nlm.nih.gov/tools/tools.html\">the NLM site</a> and modified the code to use these... except, they're XSLT 2.0. This means that a new parser"
+  },
+  {
+   "url": "http://www.jstor.org/stable/2902363?origin=crossref",
+   "text": null,
+   "context": "\"ppub\">00373222</issn> <pub-id pub-id-type=\"doi\">10.2307/2902363</pub-id> <uri> http://www.jstor.org/stable/2902363?origin=crossref </uri> </citation> </ref> {% endhighlight %} <p>Looks good. However, after transform, it generates FO which"
+  }
+ ],
+ "2011-09-22-words-in-memory-of-troy-davis.md": [
+  {
+   "url": "http://www.theatlantic.com/national/archive/2011/09/the-death-penalty-why-we-fight-for-equal-justice/245101/",
+   "text": "racist in its implementation",
+   "context": "n its chain of killing, arrogant in its marginalising supposition of agency and <a href=\"http://www.theatlantic.com/national/archive/2011/09/the-death-penalty-why-we-fight-for-equal-justice/245101/\">racist in its implementation</a>.</p> <p>"
+  },
+  {
+   "url": "http://www.flickr.com/photos/dabnotu/",
+   "text": "dabnotu",
+   "context": "n any country which perpetrates capital punishment.</p> <p><i>Featured image by <a href=\"http://www.flickr.com/photos/dabnotu/\">dabnotu</a> under a CC-BY-NC-SA license.</i></p> <p>Addendum, 2011-09-24. The letter I received from Troy:</p> <"
+  }
+ ],
+ "2011-09-17-writing-a-plugin-for-open-journal-systems-part-1.md": [
+  {
+   "url": "https://www.martineve.com/2011/09/14/publishing-articles-in-pdf-via-xmlxslt-using-open-journal-systems-2-3-6/",
+   "text": "the problem I was having",
+   "context": "<p>As promised when I described <a href=\"https://www.martineve.com/2011/09/14/publishing-articles-in-pdf-via-xmlxslt-using-open-journal-systems-2-3-6/\">the problem I was having</a> with the xm"
+  }
+ ],
+ "2011-09-14-publishing-articles-in-pdf-via-xmlxslt-using-open-journal-systems-2-3-6.md": [
+  {
+   "url": "http://pkp.sfu.ca/bugzilla/show_bug.cgi?id=5152",
+   "text": "a different problem",
+   "context": "iterations, this was \"working\". I put scare quotes there because it introduced <a href=\"http://pkp.sfu.ca/bugzilla/show_bug.cgi?id=5152\">a different problem</a> which can be clearly seen in the source of ArticleXMLGalleyDAO.inc.php:</p> {"
+  },
+  {
+   "url": "https://github.com/MartinPaulEve/MEXMLGalley",
+   "text": "at my GitHub",
+   "context": "/p> <p>As this no longer works, the aim of this project, the source of which is <a href=\"https://github.com/MartinPaulEve/MEXMLGalley\">at my GitHub</a> (with virtually no content there at present), will be to write a plugin which would also"
+  },
+  {
+   "url": "http://www.flickr.com/photos/rillian",
+   "text": "rillian",
+   "context": "able.</p> <p>Stay tuned for the next installment...</p> <p><i>Featured image by <a href=\"http://www.flickr.com/photos/rillian\">rillian</a> under a CC-BY-SA license.</i></p>"
+  }
+ ],
+ "2011-09-08-troy-davis-innocence-and-execution-if-this-is-a-man.md": [
+  {
+   "url": "http://en.wikipedia.org/wiki/Troy_Davis_case",
+   "text": "Troy Davis case",
+   "context": "<p>The <a href=\"http://en.wikipedia.org/wiki/Troy_Davis_case\">Troy Davis case</a>, perhaps the most controversial of all death penalty impositions in the United States"
+  },
+  {
+   "url": "http://blog.amnestyusa.org/deathpenalty/dont-let-georgia-kill-troy-davis/",
+   "text": "execution date has been set",
+   "context": "ho, even if not innocent, has been subject to a deeply flawed legal process. An <a href=\"http://blog.amnestyusa.org/deathpenalty/dont-let-georgia-kill-troy-davis/\">execution date has been set</a> for the 21st of September.</p> <div>"
+  },
+  {
+   "url": "http://takeaction.amnestyusa.org/siteapps/advocacy/ActionItem.aspx?c=6oJCLQPAJiJUG&b=6645049&aid=12970",
+   "text": "action",
+   "context": "ou,<br /> May your children turn their faces from you.</p></blockquote> <p>Take <a href=\"http://takeaction.amnestyusa.org/siteapps/advocacy/ActionItem.aspx?c=6oJCLQPAJiJUG&b=6645049&aid=12970\">action</a> now. Sign the <a href=\"http://takeac"
+  },
+  {
+   "url": "http://www.flickr.com/photos/death_penalty/",
+   "text": "World Coalition Against the Death Penalty",
+   "context": ", regardless of who that man is. Today is that day.</p> <p><i>Featured image by <a href=\"http://www.flickr.com/photos/death_penalty/\">World Coalition Against the Death Penalty</a> under a CC-BY-SA license.</i></p>"
+  }
+ ],
+ "2011-09-06-is-it-worth-presenting-at-postgraduate-conferences.md": [
+  {
+   "url": "http://www.flickr.com/photos/atmasphere/",
+   "text": "atmasphere",
+   "context": "your career prospects, but it's worth considering. </p> <p><i>Featured image by <a href=\"http://www.flickr.com/photos/atmasphere/\">atmasphere</a> under a CC-BY-NC-ND license.</i></p>"
+  }
+ ],
+ "2011-09-06-adorno-terminology-intentio-recta-and-intention-obliqua.md": [
+  {
+   "url": "http://en.wikipedia.org/wiki/Nicolai_Hartmann",
+   "text": "Nicolai Hartmann",
+   "context": "shton translation.</p> <p>It turns out the phrases are derived from the work of <a href=\"http://en.wikipedia.org/wiki/Nicolai_Hartmann\">Nicolai Hartmann</a> who introduced the terms to correspond to the Scholastics' <i>intentio prima</i> an"
+  },
+  {
+   "url": "http://www.flickr.com/photos/peroshenka/",
+   "text": "Пероша",
+   "context": "a\") or the image of the thing (\"intentio obliqua\").</p> <p><i>Featured image by <a href=\"http://www.flickr.com/photos/peroshenka/\">Пероша</a> under a CC-BY-NC license.</i></p>"
+  }
+ ],
+ "2011-09-03-installing-zotero-on-ubuntu-oneiric-11-10beta.md": [
+  {
+   "url": "https://www.martineve.com/2011/04/03/installing-zotero-on-ubuntu-natty-11-04beta/",
+   "text": "guide to using Zotero in Ubuntu Natty",
+   "context": "<p>Following on from my previous <a href=\"https://www.martineve.com/2011/04/03/installing-zotero-on-ubuntu-natty-11-04beta/\">guide to using Zotero in Ubuntu Natty</a>, I am pleased to present,"
+  },
+  {
+   "url": "http://archive.canonical.com/ubuntu",
+   "text": null,
+   "context": "are Center -> Edit Menu -> Software Sources -> Other sources -> Add:</p> <p>deb http://archive.canonical.com/ubuntu maverick partner</p> <p>2.) Drop to a command prompt:</p> {% highlight bash %} sudo apt-get update sudo apt-get ins"
+  },
+  {
+   "url": "http://www.mozilla.org/en-US/firefox/fx/",
+   "text": "Mozilla's site",
+   "context": "{% highlight bash %} sudo apt-get remove firefox {% endhighlight %} <p>Visit <a href=\"http://www.mozilla.org/en-US/firefox/fx/\">Mozilla's site</a> and install Firefox 6.</s> Update: As per above: this is no longer necessary in Zotero 2.1"
+  },
+  {
+   "url": "http://www.zotero.org/",
+   "text": null,
+   "context": "no longer necessary in Zotero 2.1.10.</p> <p>4.) Install the Zotero plugin from http://www.zotero.org/</p> <p>5.) Install the <s>outdated</s> OpenOffice plugin,<s> not the most recent one: http://www.zotero.org/download/integration/Zotero-O"
+  },
+  {
+   "url": "http://www.zotero.org/download/integration/Zotero-OpenOffice-Plugin-3.1b1.xpi",
+   "text": null,
+   "context": ">5.) Install the <s>outdated</s> OpenOffice plugin,<s> not the most recent one: http://www.zotero.org/download/integration/Zotero-OpenOffice-Plugin-3.1b1.xpi</s> Update: As of 9th September, plugin 3.5b is confirmed working.</p> <p>6.) Afte"
+  }
+ ],
+ "2011-09-02-immanent-critique-of-closed-access-publication.md": [
+  {
+   "url": "http://www.flickr.com/photos/43566645@N03/",
+   "text": ":DaR",
+   "context": "from academia, I would be most interested to hear.</p> <p><i>Featured imaged by <a href=\"http://www.flickr.com/photos/43566645@N03/\">:DaR</a> under a CC-BY-NC license.</i></p>"
+  }
+ ],
+ "2011-08-31-guest-post-at-phd2published.md": [
+  {
+   "url": "http://www.phd2published.com/2011/08/31/we-ask-martin-paul-eve-do-we-need-to-rethink-academic-publishing/",
+   "text": "a guest post",
+   "context": "<p>In response to George Monbiot's piece yesterday, I have <a href=\"http://www.phd2published.com/2011/08/31/we-ask-martin-paul-eve-do-we-need-to-rethink-academic-publishing/\">a guest post</a> up at PhD2Published on the"
+  },
+  {
+   "url": "http://www.flickr.com/photos/brightmeadow/",
+   "text": "Bright Meadow",
+   "context": "ization is really the right way to go, arXiv-style.</p> <p><i>Featured image by <a href=\"http://www.flickr.com/photos/brightmeadow/\">Bright Meadow</a> under a CC-BY-SA license.</i></p>"
+  }
+ ],
+ "2011-08-27-hefce-board-appointments-learning-through-argos.md": [
+  {
+   "url": "http://www.hefce.ac.uk/news/hefce/2011/members.htm",
+   "text": "HEFCE announced",
+   "context": "<p>On Friday, <a href=\"http://www.hefce.ac.uk/news/hefce/2011/members.htm\">HEFCE announced</a> its new board members. Here's the rundown:</p> <blockquote><p> <b>Professor Ann"
+  },
+  {
+   "url": "http://www.hefce.ac.uk/aboutus/board/",
+   "text": "board of HEFCE",
+   "context": "managers. These appointments put a serious skew in the already business-centric <a href=\"http://www.hefce.ac.uk/aboutus/board/\">board of HEFCE</a>. It is also notable that the only member of the HEFCE board with a humanities background (alt"
+  },
+  {
+   "url": "http://www.hefce.ac.uk/aboutus/board/bio/atkins.htm",
+   "text": "Professor Madeleine Atkins",
+   "context": "a humanities subject, it is at the extreme utilitarian end of the spectrum) is <a href=\"http://www.hefce.ac.uk/aboutus/board/bio/atkins.htm\">Professor Madeleine Atkins</a>.</p> <p>At a time of increasing commodification of education, these"
+  }
+ ],
+ "2011-08-26-satchmo-payment-modules.md": [
+  {
+   "url": "https://bitbucket.org/MartinEve/satchmo_variation_image",
+   "text": "I've committed a fix",
+   "context": "findings here so that others don't trip up at the same places. </p> <p>Firstly, <a href=\"https://bitbucket.org/MartinEve/satchmo_variation_image\">I've committed a fix</a> that has been pulled into the mainline build which puts images from p"
+  },
+  {
+   "url": "https://bitbucket.org/MartinEve/satchmo_google_checkout",
+   "text": "at my bitbucket",
+   "context": "turns. I hope to have a fix committed for this shortly and it will be available <a href=\"https://bitbucket.org/MartinEve/satchmo_google_checkout\">at my bitbucket</a>. You'll also need to enable \"WSGIPassAuthorization On\" in your vhost confi"
+  },
+  {
+   "url": "http://www.flickr.com/photos/teleniek0/",
+   "text": "teleniek0",
+   "context": "etty sure it was no slower than typing it on my PC.</p> <p><i>Featured image by <a href=\"http://www.flickr.com/photos/teleniek0/\">teleniek0</a> under a CC-BY-SA license.</i></p>"
+  }
+ ],
+ "2011-08-19-postgraduate-publishing.md": [
+  {
+   "url": "https://www.martineve.com/2011/03/11/getting-published-in-academia/",
+   "text": "write on this before",
+   "context": "etting published as a postgraduate, when to start and how to go about it. I did <a href=\"https://www.martineve.com/2011/03/11/getting-published-in-academia/\">write on this before</a>, but this is an expansion and refresher, so you can have"
+  },
+  {
+   "url": "http://speculative-diction.blogspot.com/2011/08/shameful-self-promotion-vs-meritocracy.html",
+   "text": "gets your name out there",
+   "context": "your department will be depending upon it. Publishing also helps build your CV, <a href=\"http://speculative-diction.blogspot.com/2011/08/shameful-self-promotion-vs-meritocracy.html\">gets your name out there</a>, shows that you are working o"
+  },
+  {
+   "url": "https://twitter.com/#!/katrinagulliver/status/104077564796092416",
+   "text": "author-pays fees",
+   "context": "larly in the humanities, or demands unreasonable (for a postgraduate, at least) <a href=\"https://twitter.com/#!/katrinagulliver/status/104077564796092416\">author-pays fees</a>. With that in mind, you're aiming as high as you can on the impa"
+  },
+  {
+   "url": "http://www.excursions-journal.org.uk",
+   "text": "Excursions",
+   "context": "t, then a postgraduate journal is great. I helped setup and was chief editor of <a href=\"http://www.excursions-journal.org.uk\">Excursions</a> and whether publishing with, or from an editorial, point of view, it's a great experience. I don't"
+  },
+  {
+   "url": "http://call-for-papers.sas.upenn.edu/",
+   "text": "UPenn",
+   "context": "journal to just take your publication.</p> <h3>How?</h3> <p>Watch out for CFPs (<a href=\"http://call-for-papers.sas.upenn.edu/\">UPenn</a> and <a href=\"http://www.h-net.org/announce/group.cgi?type=CFPs\">H-NET</a> are good resources) and appl"
+  },
+  {
+   "url": "http://www.h-net.org/announce/group.cgi?type=CFPs",
+   "text": "H-NET",
+   "context": "tch out for CFPs (<a href=\"http://call-for-papers.sas.upenn.edu/\">UPenn</a> and <a href=\"http://www.h-net.org/announce/group.cgi?type=CFPs\">H-NET</a> are good resources) and apply. Also, ear to the ground in your field: edited collections w"
+  },
+  {
+   "url": "https://www.pynchon.net",
+   "text": "Orbit: Writing Around Pynchon",
+   "context": "o trust you and are also keen, you can open up to all, as I have just done with <a href=\"https://www.pynchon.net\">Orbit: Writing Around Pynchon</a>.</p> <p>Right, therapy over for me. Good luck!</p> <p><i>Featured image by <a href=\"http://w"
+  },
+  {
+   "url": "http://www.flickr.com/photos/thetrial/",
+   "text": "the trial",
+   "context": "</a>.</p> <p>Right, therapy over for me. Good luck!</p> <p><i>Featured image by <a href=\"http://www.flickr.com/photos/thetrial/\">the trial</a> under a CC-BY-ND license.</i></p>"
+  }
+ ],
+ "2011-08-08-encrypted-partition-recovery-on-ubuntu-10-10.md": [
+  {
+   "url": "http://wiki.debian.org/DebianInstaller/Rescue/Crypto",
+   "text": "Debian crypto rescue",
+   "context": "ng, you could lose data.</p> <p>Many of these instructions are derived from the <a href=\"http://wiki.debian.org/DebianInstaller/Rescue/Crypto\">Debian crypto rescue</a> document.</p> <h4>Enable LUKS Crypto</h4> <p>Execute the following comma"
+  },
+  {
+   "url": "http://www.flickr.com/photos/joncallas/",
+   "text": "joncallas",
+   "context": "h %} dpkg-reconfigure console-setup {% endhighlight %} <p><i>Featured image by <a href=\"http://www.flickr.com/photos/joncallas/\">joncallas</a> under a CC-BY license.</i></p>"
+  }
+ ],
+ "2011-08-04-conference-paper-autosubversive-practices-in-academic-publishing-uksg-2012-03-26.md": [
+  {
+   "url": "http://www.uksg.org/events/annualconference",
+   "text": "UK Scholarly Group conference",
+   "context": "pleased to announce that I will speaking in the opening plenary session at the <a href=\"http://www.uksg.org/events/annualconference\">UK Scholarly Group conference</a> on March the 26th, 2012 at the University of Glasgow. My paper will focu"
+  },
+  {
+   "url": "http://www.flickr.com/photos/xxxlibris/",
+   "text": "xxxlibris",
+   "context": "rhaps at the expense of the publisher.</p></blockquote> <p><i>Featured image by <a href=\"http://www.flickr.com/photos/xxxlibris/\">xxxlibris</a> under a CC-BY-NC-ND license.</i></p>"
+  }
+ ]
+}

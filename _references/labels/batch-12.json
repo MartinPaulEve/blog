@@ -1,0 +1,80 @@
+{
+ "2016-08-08-stern-and-ref-assessing-the-past-to-fund-the-future.md": [
+  {"url": "https://figshare.com/articles/Excellence_R_Us_University_Research_and_the_Fetishisation_of_Excellence/3413821", "comment": "Eve, Excellence R Us figshare paper"}
+ ],
+ "2016-07-28-the-stern-review-of-ref.md": [
+  {"url": "https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/541338/ind-16-9-ref-stern-review.pdf", "comment": "Lord Stern review of the REF PDF"},
+  {"url": "https://www.martineve.com/2016/07/28/my-book-password-is-out-now/", "comment": "Eve blog post on Password book release"}
+ ],
+ "2016-07-28-my-book-password-is-out-now.md": [
+  {"url": "http://www.bloomsbury.com/us/series/object-lessons/", "comment": "Bloomsbury Object Lessons series page"},
+  {"url": "http://meve.io/password", "comment": "Eve, Password book landing page"},
+  {"url": "http://amzn.to/2abBhmD", "comment": "Password book Amazon purchase link"},
+  {"url": "http://www.arthritisresearchuk.org/", "comment": "Arthritis Research UK charity site"}
+ ],
+ "2016-06-26-selecting-specified-text-ranges-in-a-browser-using-javascript-and-xpath.md": [
+  {"url": "https://www.martineve.com/2016/06/25/creating-a-generic-loader-for-annotatorjs-plugins-inside-a-hypothesis-extension-project/", "comment": "Eve post on AnnotatorJS generic loader"}
+ ],
+ "2016-06-19-cassius-now-supports-full-headless-pdf-creation-from-jats.md": [
+  {"url": "https://github.com/MartinPaulEve/CaSSius", "comment": "CaSSius PDF typesetter GitHub repo"},
+  {"url": "https://www.martineve.com/2015/07/20/building-a-real-xml-first-workflow-for-scholarly-typesetting/", "comment": "Eve post on XML-first scholarly typesetting"},
+  {"url": "https://github.com/FremyCompany/css-regions-polyfill", "comment": "Remy CSS regions polyfill GitHub repo"}
+ ],
+ "2016-06-10-initial-parsing-work-on-large-json-corpus.md": [
+  {"url": "https://www.martineve.com/2016/06/09/identifying-26gb-of-json-novel-data/", "comment": "Eve post on identifying 26GB JSON corpus"}
+ ],
+ "2016-05-23-what-do-we-mean-when-we-call-scholarly-communications-platforms-sustainable.md": [
+  {"url": "http://dx.doi.org/10.6084/m9.figshare.1314859.v1", "comment": "Bilder, Lin, Neylon, Principles for Open Infrastructure"},
+  {"url": "https://svpow.com/2016/05/22/elseviers-increasing-control-over-scholarly-infrastructure-and-how-funders-should-fix-this/", "comment": "Taylor SVPOW post on Elsevier infrastructure control"},
+  {"url": "http://bjoern.brembs.net/2016/05/why-havent-we-already-canceled-all-subscriptions/", "comment": "Brembs post on canceling journal subscriptions"}
+ ],
+ "2016-05-19-reading-potter-stewart.md": [
+  {"url": "https://en.wikipedia.org/wiki/Jacobellis_v._Ohio", "comment": "Wikipedia, Jacobellis v Ohio Supreme Court case"}
+ ],
+ "2016-05-04-what-elsevier-and-the-minister-for-higher-education-in-the-uk-jo-johnson-met-about.md": [
+  {"url": "https://www.martineve.com/2015/11/18/bis-metrics-and-non-selective-qr-allocation/", "comment": "Eve FOI request post on BIS metrics"},
+  {"url": "https://www.martineve.com/2015/12/28/internal-review-of-foi201525797/", "comment": "Eve post on internal FOI review block"},
+  {"url": "http://www.thebookseller.com/news/richard-mollet-leave-pa-313279", "comment": "Bookseller article on Richard Mollet at RELX"},
+  {"url": "https://www.contractsfinder.service.gov.uk/Notice/26d25c44-4c38-4d4c-93ca-9a580ac39724", "comment": "UK government Contracts Finder tender notice"},
+  {"url": "https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/263729/bis-13-1297-international-comparative-performance-of-the-UK-research-base-2013.pdf", "comment": "BIS UK research base performance report 2013"}
+ ],
+ "2016-05-04-on-neural-networks-and-health-data-privacy.md": [
+  {"url": "https://www.royalfree.nhs.uk/patients-visitors/privacy-statement/", "comment": "Royal Free NHS Trust privacy statement page"}
+ ],
+ "2016-05-03-overriding-hypothesiss-interface-the-right-way.md": [
+  {"url": "http://hypothes.is", "comment": "Hypothes.is annotation framework homepage"}
+ ],
+ "2016-04-27-embargoing-metadata.md": [
+  {"url": "http://www.hefce.ac.uk/rsrch/oa/FAQ/#discovery5", "comment": "HEFCE open access FAQ metadata embargo provision"}
+ ],
+ "2016-04-16-the-faber-finds-edition-of-rex-warners-the-professor.md": [
+  {"url": "http://booktwo.org/notebook/faber-finds-the-new-business-of-pod/", "comment": "Booktwo post on Faber Finds POD reprinting"}
+ ],
+ "2016-04-07-open-access-in-a-time-of-illness.md": [
+  {"url": "https://www.martineve.com/2016/03/28/i-am-currently-off-work-having-suffered-cerebral-vasculitis-and-a-stroke/", "comment": "Eve post on cerebral vasculitis and stroke"},
+  {"url": "http://dx.doi.org/10.1016/j.jvs.2011.02.059", "comment": "Journal article on carotid artery dissection outcomes"},
+  {"url": "http://dx.doi.org/10.1056/NEJM200103223441206", "comment": "NEJM case study paywalled article"}
+ ],
+ "2016-03-28-i-am-currently-off-work-having-suffered-cerebral-vasculitis-and-a-stroke.md": [
+  {"url": "http://josswinn.org/2016/03/17/against-academic-identity/", "comment": "Winn and Neary post against academic identity"}
+ ],
+ "2016-03-01-it-looks-unlikely-that-universities-are-going-to-get-out-of-the-freedom-of-information-act.md": [
+  {"url": "https://www.martineve.com/2015/11/10/he-green-paper-response-to-question-23/", "comment": "Eve post on HE Green Paper FOI exclusion"},
+  {"url": "https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/504139/Independent_Freedom_of_Information_Commission_Report.pdf", "comment": "Independent FOI Commission report PDF"}
+ ],
+ "2016-02-18-REF-consultation.md": [
+  {"url": "https://www.researchprofessional.com/0/rr/news/uk/ref-2014/2016/2/-Anyone-for-5--research---HEFCE-asked-in-postponed-consultation-.html", "comment": "Research Fortnight piece on pulled REF consultation"}
+ ],
+ "2016-02-16-understanding-ofquals-inter-subject-comparability-rasch-model-tests-for-easyhard-subjects-at-gcse-and-a-level.md": [
+  {"url": "https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/486936/3-inter-subject-comparability-of-exam-standards-in-gcse-and-a-level.pdf", "comment": "Ofqual inter-subject comparability statistical paper"},
+  {"url": "http://europepmc.org/abstract/med/23442327", "comment": "Europe PMC abstract on Rasch model method"},
+  {"url": "https://twitter.com/nmmarking/status/601402361635074049", "comment": "Wheadon Twitter confirmation of Ofqual method"}
+ ],
+ "2016-02-15-accreditation-and-research-assessment-practices.md": [
+  {"url": "https://www.gov.uk/government/publications/open-access-to-research-independent-advice", "comment": "Tickell review of UK open access policy"},
+  {"url": "http://www.ascb.org/dora/", "comment": "DORA San Francisco Declaration on Research Assessment"}
+ ],
+ "2016-02-13-on-ten-years-of-chronic-illness.md": [
+  {"url": "https://www.martineve.com/2016/02/12/professor-of-literature-technology-and-publishing/", "comment": "Eve post on promotion to full professor"}
+ ]
+}

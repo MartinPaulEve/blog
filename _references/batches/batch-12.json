@@ -1,0 +1,232 @@
+{
+ "2016-08-08-stern-and-ref-assessing-the-past-to-fund-the-future.md": [
+  {
+   "url": "https://figshare.com/articles/Excellence_R_Us_University_Research_and_the_Fetishisation_of_Excellence/3413821",
+   "text": "some qualms",
+   "context": "p of funding to researchers vs. funding an environment. I will note that I have [some qualms](https://figshare.com/articles/Excellence_R_Us_University_Research_and_the_Fetishisation_of_Excellence/3413821), in theoretical (but not political)"
+  }
+ ],
+ "2016-07-28-the-stern-review-of-ref.md": [
+  {
+   "url": "https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/541338/ind-16-9-ref-stern-review.pdf",
+   "text": "Lord Stern's review of the Research Excellence Framework",
+   "context": "<a href=\"https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/541338/ind-16-9-ref-stern-review.pdf\">Lord Stern's review of the Research Exc"
+  },
+  {
+   "url": "https://www.martineve.com/2016/07/28/my-book-password-is-out-now/",
+   "text": "my book is also out today",
+   "context": "cellence Framework</a> is out today in the UK. Not as exciting as the fact that <a href=\"https://www.martineve.com/2016/07/28/my-book-password-is-out-now/\">my book is also out today</a>, I know, but still a marginally important publication,"
+  }
+ ],
+ "2016-07-28-my-book-password-is-out-now.md": [
+  {
+   "url": "http://www.bloomsbury.com/us/series/object-lessons/",
+   "text": "Object Lessons series",
+   "context": "My short book in the <a href=\"http://www.bloomsbury.com/us/series/object-lessons/\">Object Lessons series</a>, <a href=\"http://meve.io/password\"><i>Password</i></a>, is released toda"
+  },
+  {
+   "url": "http://meve.io/password",
+   "text": "Password",
+   "context": "http://www.bloomsbury.com/us/series/object-lessons/\">Object Lessons series</a>, <a href=\"http://meve.io/password\"><i>Password</i></a>, is released today, published by Bloomsbury. It's available to buy in <a href=\"http://amzn.to/2abBhmD\">all"
+  },
+  {
+   "url": "http://amzn.to/2abBhmD",
+   "text": null,
+   "context": "ed to <a href=\"http://www.arthritisresearchuk.org/\">Arthritis Research UK</a>. ["
+  },
+  {
+   "url": "http://www.arthritisresearchuk.org/",
+   "text": "Arthritis Research UK",
+   "context": "n.to/2abBhmD\">all the usual places</a>. All author royalties will be donated to <a href=\"http://www.arthritisresearchuk.org/\">Arthritis Research UK</a>. ["
+  }
+ ],
+ "2016-06-26-selecting-specified-text-ranges-in-a-browser-using-javascript-and-xpath.md": [
+  {
+   "url": "https://www.martineve.com/2016/06/25/creating-a-generic-loader-for-annotatorjs-plugins-inside-a-hypothesis-extension-project/",
+   "text": "my post from yesterday",
+   "context": "Continuing [my post from yesterday](https://www.martineve.com/2016/06/25/creating-a-generic-loader-for-annotatorjs-plugins-inside-a-hypothesis-extension-project/), one of"
+  }
+ ],
+ "2016-06-19-cassius-now-supports-full-headless-pdf-creation-from-jats.md": [
+  {
+   "url": "https://github.com/MartinPaulEve/CaSSius",
+   "text": "CaSSius is the PDF typesetter",
+   "context": "[CaSSius is the PDF typesetter](https://github.com/MartinPaulEve/CaSSius) that I am building as part of my work for the Andrew W. Mellon Foundation grant to Bir"
+  },
+  {
+   "url": "https://www.martineve.com/2015/07/20/building-a-real-xml-first-workflow-for-scholarly-typesetting/",
+   "text": "true XML-first workflows",
+   "context": "dation grant to Birkbeck for the Open Library of Humanities. CaSSius allows for [true XML-first workflows](https://www.martineve.com/2015/07/20/building-a-real-xml-first-workflow-for-scholarly-typesetting/). #Background CaSSius is called C"
+  },
+  {
+   "url": "https://github.com/FremyCompany/css-regions-polyfill",
+   "text": "François Remy's polyfill",
+   "context": "marked up in a way that our javascript can understand. 2. The javascript calls [François Remy's polyfill](https://github.com/FremyCompany/css-regions-polyfill) that adds in support for regions to any WebKit browser (more on this below) 3."
+  }
+ ],
+ "2016-06-10-initial-parsing-work-on-large-json-corpus.md": [
+  {
+   "url": "https://www.martineve.com/2016/06/09/identifying-26gb-of-json-novel-data/",
+   "text": "working out which texts in a corpus have decent OCR and, then, which texts they actually are",
+   "context": "Yesterday, I wrote of a challenge that I faced in <a href=\"https://www.martineve.com/2016/06/09/identifying-26gb-of-json-novel-data/\">working out which texts in a corpus have decent OCR and, then, which texts t"
+  }
+ ],
+ "2016-05-23-what-do-we-mean-when-we-call-scholarly-communications-platforms-sustainable.md": [
+  {
+   "url": "http://dx.doi.org/10.6084/m9.figshare.1314859.v1",
+   "text": "Principles for Open Infrastructure",
+   "context": "This, in turn, took me back to Geoff Bilder, Jennifer Lin, and Cameron Neylon's <a href=\"http://dx.doi.org/10.6084/m9.figshare.1314859.v1\">Principles for Open Infrastructure</a> work. The aspect to which I was there drawn was the way in whi"
+  },
+  {
+   "url": "https://svpow.com/2016/05/22/elseviers-increasing-control-over-scholarly-infrastructure-and-how-funders-should-fix-this/",
+   "text": "Mike Taylor has bluntly put it",
+   "context": "t_ (the funding is time-bound, as per the principles of Bilder et al.). Yet, as <a href=\"https://svpow.com/2016/05/22/elseviers-increasing-control-over-scholarly-infrastructure-and-how-funders-should-fix-this/\">Mike Taylor has bluntly put i"
+  },
+  {
+   "url": "http://bjoern.brembs.net/2016/05/why-havent-we-already-canceled-all-subscriptions/",
+   "text": "Bjoern Brembs outlines",
+   "context": "thetical to running good scholarly communication infrastructures. For instance, <a href=\"http://bjoern.brembs.net/2016/05/why-havent-we-already-canceled-all-subscriptions/\">Bjoern Brembs outlines</a> a series of reasons why it is very hard"
+  }
+ ],
+ "2016-05-19-reading-potter-stewart.md": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Jacobellis_v._Ohio",
+   "text": "US Supreme Court case on pornography",
+   "context": "In a famous [US Supreme Court case on pornography](https://en.wikipedia.org/wiki/Jacobellis_v._Ohio): \"I shall not today attempt further to define the kinds of material I u"
+  }
+ ],
+ "2016-05-04-what-elsevier-and-the-minister-for-higher-education-in-the-uk-jo-johnson-met-about.md": [
+  {
+   "url": "https://www.martineve.com/2015/11/18/bis-metrics-and-non-selective-qr-allocation/",
+   "text": "Freedom of Information request",
+   "context": "I've been pursuing a [Freedom of Information request](https://www.martineve.com/2015/11/18/bis-metrics-and-non-selective-qr-allocation/) against the Department of Business, Innovati"
+  },
+  {
+   "url": "https://www.martineve.com/2015/12/28/internal-review-of-foi201525797/",
+   "text": "consistently tried to block me",
+   "context": "t the Department of Business, Innovation and Skills for some time now. BIS have [consistently tried to block me](https://www.martineve.com/2015/12/28/internal-review-of-foi201525797/) from finding out what the Minister for HE, Jo Johnson (h"
+  },
+  {
+   "url": "http://www.thebookseller.com/news/richard-mollet-leave-pa-313279",
+   "text": "head of \"government affairs\" at RELX",
+   "context": "e. There is a struck-through line from RM (Richard Mollet, I'd assume, as he is <a href=\"http://www.thebookseller.com/news/richard-mollet-leave-pa-313279\">head of \"government affairs\" at RELX</a>. Yes, they have that. Although it could also"
+  },
+  {
+   "url": "https://www.contractsfinder.service.gov.uk/Notice/26d25c44-4c38-4d4c-93ca-9a580ac39724",
+   "text": "this tender",
+   "context": "st place. Specifically, I was interested in this meeting's relation, if any, to <a href=\"https://www.contractsfinder.service.gov.uk/Notice/26d25c44-4c38-4d4c-93ca-9a580ac39724\">this tender</a>, which I've heard went to Elsevier. The tender"
+  },
+  {
+   "url": "https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/263729/bis-13-1297-international-comparative-performance-of-the-UK-research-base-2013.pdf",
+   "text": "other work that Elsevier does for the government",
+   "context": "n. However, it could well be about the tender in question, or it could be about [other work that Elsevier does for the government](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/263729/bis-13-1297-international-co"
+  }
+ ],
+ "2016-05-04-on-neural-networks-and-health-data-privacy.md": [
+  {
+   "url": "https://www.royalfree.nhs.uk/patients-visitors/privacy-statement/",
+   "text": "the Privacy statement on the Royal Free website",
+   "context": "ements with third-party organisations that process NHS patient data.\" However, [the Privacy statement on the Royal Free website](https://www.royalfree.nhs.uk/patients-visitors/privacy-statement/) says something different. I have been actin"
+  }
+ ],
+ "2016-05-03-overriding-hypothesiss-interface-the-right-way.md": [
+  {
+   "url": "http://hypothes.is",
+   "text": "Hypothes.is is an annotation framework",
+   "context": "<a href=\"http://hypothes.is\">Hypothes.is is an annotation framework</a> that uses Pyramid to provide interface asset locations. This means that it is possible t"
+  }
+ ],
+ "2016-04-27-embargoing-metadata.md": [
+  {
+   "url": "http://www.hefce.ac.uk/rsrch/oa/FAQ/#discovery5",
+   "text": "a provision for this",
+   "context": "the repository. I think this is really unhelpful. While the HEFCE mandate has <a href=\"http://www.hefce.ac.uk/rsrch/oa/FAQ/#discovery5\">a provision for this</a>, are the publishers really saying that they fear the first-mover advantage on"
+  }
+ ],
+ "2016-04-16-the-faber-finds-edition-of-rex-warners-the-professor.md": [
+  {
+   "url": "http://booktwo.org/notebook/faber-finds-the-new-business-of-pod/",
+   "text": "others have also pointed this out",
+   "context": "rfect OCR procedure and then reprinting without a proper proofing stage. Edit: [others have also pointed this out](http://booktwo.org/notebook/faber-finds-the-new-business-of-pod/)."
+  }
+ ],
+ "2016-04-07-open-access-in-a-time-of-illness.md": [
+  {
+   "url": "https://www.martineve.com/2016/03/28/i-am-currently-off-work-having-suffered-cerebral-vasculitis-and-a-stroke/",
+   "text": "my current condition",
+   "context": "leased I was to discover that there was good information available online about <a href=\"https://www.martineve.com/2016/03/28/i-am-currently-off-work-having-suffered-cerebral-vasculitis-and-a-stroke/\">my current condition</a>. I want, here"
+  },
+  {
+   "url": "http://dx.doi.org/10.1016/j.jvs.2011.02.059",
+   "text": "Long-term outcomes of internal carotid artery dissection",
+   "context": "me to be able to challenge material within. So when I encounter articles like \"<a href=\"http://dx.doi.org/10.1016/j.jvs.2011.02.059\">Long-term outcomes of internal carotid artery dissection</a>\", which is where we eventually got to in my c"
+  },
+  {
+   "url": "http://dx.doi.org/10.1056/NEJM200103223441206",
+   "text": "this case study",
+   "context": "pread here and there. It's a real shame, for instance, that I can't get hold of <a href=\"http://dx.doi.org/10.1056/NEJM200103223441206\">this case study</a>, which looks extremely interesting (but of course might not be), without paying for"
+  }
+ ],
+ "2016-03-28-i-am-currently-off-work-having-suffered-cerebral-vasculitis-and-a-stroke.md": [
+  {
+   "url": "http://josswinn.org/2016/03/17/against-academic-identity/",
+   "text": "critique of academic identity",
+   "context": "e a good recovery but it does bring to mind, for me, Joss Winn and Mike Neary's [critique of academic identity](http://josswinn.org/2016/03/17/against-academic-identity/). How tightly do I tie my own worth to being able to think, move, and"
+  }
+ ],
+ "2016-03-01-it-looks-unlikely-that-universities-are-going-to-get-out-of-the-freedom-of-information-act.md": [
+  {
+   "url": "https://www.martineve.com/2015/11/10/he-green-paper-response-to-question-23/",
+   "text": "should be excluded from the Freedom of Information Act",
+   "context": "The recent Green Paper proposed that universities [should be excluded from the Freedom of Information Act](https://www.martineve.com/2015/11/10/he-green-paper-response-to-question-23/). As of today, it now look"
+  },
+  {
+   "url": "https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/504139/Independent_Freedom_of_Information_Commission_Report.pdf",
+   "text": "review of the FOI act that was published today",
+   "context": "stion-23/). As of today, it now looks very unlikely that this will happen. The [review of the FOI act that was published today](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/504139/Independent_Freedom_of_Informa"
+  }
+ ],
+ "2016-02-18-REF-consultation.md": [
+  {
+   "url": "https://www.researchprofessional.com/0/rr/news/uk/ref-2014/2016/2/-Anyone-for-5--research---HEFCE-asked-in-postponed-consultation-.html",
+   "text": "the REF consultation document that was pulled late last year",
+   "context": "Research Fortnight is running an interesting piece about [the REF consultation document that was pulled late last year](https://www.researchprofessional.com/0/rr/news/uk/ref-2014/2016/2/-Anyone-for-5--research---HEFCE"
+  }
+ ],
+ "2016-02-16-understanding-ofquals-inter-subject-comparability-rasch-model-tests-for-easyhard-subjects-at-gcse-and-a-level.md": [
+  {
+   "url": "https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/486936/3-inter-subject-comparability-of-exam-standards-in-gcse-and-a-level.pdf",
+   "text": "the full Ofqual statistical paper on subject comparability at school level in the UK",
+   "context": "Last night I spent almost three hours reading [the full Ofqual statistical paper on subject comparability at school level in the UK](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file"
+  },
+  {
+   "url": "http://europepmc.org/abstract/med/23442327",
+   "text": "this paper as the basis for the method",
+   "context": "software, like the application called WINSTEPS that they use, I think they used [this paper as the basis for the method](http://europepmc.org/abstract/med/23442327). I haven't got a copy because it seems the journal is print only(!) and may"
+  },
+  {
+   "url": "https://twitter.com/nmmarking/status/601402361635074049",
+   "text": "Wheadon confirmed on Twitter",
+   "context": "a researcher at AQA. Anyway, this paper is not cited in the Ofqual document but [Wheadon confirmed on Twitter](https://twitter.com/nmmarking/status/601402361635074049) that he worked with Ofqual on the background to their study on Twitter."
+  }
+ ],
+ "2016-02-15-accreditation-and-research-assessment-practices.md": [
+  {
+   "url": "https://www.gov.uk/government/publications/open-access-to-research-independent-advice",
+   "text": "Tickell review of open access in the United Kingdom",
+   "context": "Last week, the [Tickell review of open access in the United Kingdom](https://www.gov.uk/government/publications/open-access-to-research-independent-advice) was published. Ther"
+  },
+  {
+   "url": "http://www.ascb.org/dora/",
+   "text": "DORA",
+   "context": "ersities to sign-up to the San Francisco Declaration on Research [Assessment]\" ([DORA](http://www.ascb.org/dora/)). The number one recommendation of DORA is: \"[d]o not use journal-based metrics [...] as a surrogate measure of the quality of"
+  }
+ ],
+ "2016-02-13-on-ten-years-of-chronic-illness.md": [
+  {
+   "url": "https://www.martineve.com/2016/02/12/professor-of-literature-technology-and-publishing/",
+   "text": "I've just been made a full professor",
+   "context": "emic work in a way that I would not have had I continued to climb. As a result, [I've just been made a full professor](https://www.martineve.com/2016/02/12/professor-of-literature-technology-and-publishing/). But there wasn't any support fo"
+  }
+ ]
+}

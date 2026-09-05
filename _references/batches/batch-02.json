@@ -1,0 +1,377 @@
+{
+ "2024-06-14-how-long-have-i-got-doc.md": [
+  {
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK499861/",
+   "text": "Hashmi et al.",
+   "context": "a terminal illness with a glomerular filtration rate of less than 15 mL/min.\" - [Hashmi et al.](https://www.ncbi.nlm.nih.gov/books/NBK499861/) My current state is an estimated GFR of 7 with dialysis 5 days per week to replace my destroyed"
+  },
+  {
+   "url": "https://www.kidney.org/newsletter/demystifying-dialysis-understanding-treatment-options-and-life-changes",
+   "text": "according to the National Kidney Foundation",
+   "context": "ates. Nonetheless, the average life expectancy on dialysis is 5-10 years, but, [according to the National Kidney Foundation](https://www.kidney.org/newsletter/demystifying-dialysis-understanding-treatment-options-and-life-changes), \"many p"
+  }
+ ],
+ "2024-01-09-rusting-away-or-packing-the-entire-crossref-database-into-a-sqlite-file.md": [
+  {
+   "url": "https://gitlab.com/crossref/labs/rustsqlitepacker",
+   "text": "the whole thing in Rust",
+   "context": "API ever could. There were some snags I hit along the way: 1. I had to write [the whole thing in Rust](https://gitlab.com/crossref/labs/rustsqlitepacker). It turns out that you can do it in Python, but I got much better speeds doing it a"
+  }
+ ],
+ "2023-12-11-my-2023-year-in-review.md": [
+  {
+   "url": "https://api.labs.crossref.org/",
+   "text": "Labs API",
+   "context": "that grimness. I also got quite a lot done this year! ## Crossref * Built the [Labs API](https://api.labs.crossref.org/) and released [its source code](https://gitlab.com/crossref/labs/lambda-api-proxy) * Conducted research into, and wrot"
+  },
+  {
+   "url": "https://gitlab.com/crossref/labs/lambda-api-proxy",
+   "text": "its source code",
+   "context": "# Crossref * Built the [Labs API](https://api.labs.crossref.org/) and released [its source code](https://gitlab.com/crossref/labs/lambda-api-proxy) * Conducted research into, and wrote a peer-reviewed article about, the [digital preservati"
+  },
+  {
+   "url": "https://the-vault.fly.dev/",
+   "text": "digital preservation status of 7m articles",
+   "context": "-proxy) * Conducted research into, and wrote a peer-reviewed article about, the [digital preservation status of 7m articles](https://the-vault.fly.dev/) * Built a deposit proxy system that allows for the modelling and retrieval of new metad"
+  },
+  {
+   "url": "https://gitlab.com/crossref/labs/opcit",
+   "text": "Project Op Cit",
+   "context": "tem that allows for the modelling and retrieval of new metadata * Began work on [Project Op Cit](https://gitlab.com/crossref/labs/opcit); a digital preservation system * Built a set of tools -- [CLAWS](https://gitlab.com/crossref/labs/claws"
+  },
+  {
+   "url": "https://gitlab.com/crossref/labs/claws",
+   "text": "CLAWS",
+   "context": "m/crossref/labs/opcit); a digital preservation system * Built a set of tools -- [CLAWS](https://gitlab.com/crossref/labs/claws) -- for generic AWS operations * Built [a wrapper for distributed computation](https://gitlab.com/crossref/labs/d"
+  },
+  {
+   "url": "https://gitlab.com/crossref/labs/distrunner",
+   "text": "a wrapper for distributed computation",
+   "context": "](https://gitlab.com/crossref/labs/claws) -- for generic AWS operations * Built [a wrapper for distributed computation](https://gitlab.com/crossref/labs/distrunner) using Coiled and Dask * Built [an observability library called Longsight](h"
+  },
+  {
+   "url": "https://gitlab.com/crossref/labs/longsight",
+   "text": "an observability library called Longsight",
+   "context": "ion](https://gitlab.com/crossref/labs/distrunner) using Coiled and Dask * Built [an observability library called Longsight](https://gitlab.com/crossref/labs/longsight) * Integrated the Retraction Watch database in the Labs API * Rebuilt/rew"
+  },
+  {
+   "url": "https://gitlab.com/crossref/labs/entext",
+   "text": "a Large Language Model affiliation parser",
+   "context": "in the Labs API * Rebuilt/rewrote the Retraction Watch database system * Built [a Large Language Model affiliation parser](https://gitlab.com/crossref/labs/entext) * Built [a JSON-L packer](https://gitlab.com/crossref/labs/packer) for the"
+  },
+  {
+   "url": "https://gitlab.com/crossref/labs/packer",
+   "text": "a JSON-L packer",
+   "context": "uage Model affiliation parser](https://gitlab.com/crossref/labs/entext) * Built [a JSON-L packer](https://gitlab.com/crossref/labs/packer) for the Crossref annual data dump * Built (most of) [a SQLite packer](https://gitlab.com/crossref/lab"
+  },
+  {
+   "url": "https://eprints.bbk.ac.uk/id/eprint/52237",
+   "text": "Eve, Martin Paul, 数字人文与文学研究 (The Digital Humanities and Literary Studies) (Beijing: 牛津大学出版社 (Oxford University Press, China), 2023)",
+   "context": "wdate genericitem\"><span class=\"prefix bold\">2023</span><span class=\"bibitem\"> <a href=\"https://eprints.bbk.ac.uk/id/eprint/52237\" class=\"csl-entry\">Eve, Martin Paul, <i>数字人文与文学研究 (The Digital Humanities and Literary Studies)</i> (Beijing:"
+  },
+  {
+   "url": "https://eprints.bbk.ac.uk/id/eprint/50784",
+   "text": "Eve, Martin Paul, Una Historia De Las Contraseñas (Password) (Argentina: Ediciones Godot, 2023)",
+   "context": "=\"anitem genericitem\"><span class=\"prefix\">&nbsp;</span><span class=\"bibitem\"> <a href=\"https://eprints.bbk.ac.uk/id/eprint/50784\" class=\"csl-entry\">Eve, Martin Paul, <i>Una Historia De Las Contraseñas (Password)</i> (Argentina: Ediciones"
+  },
+  {
+   "url": "https://orbit.openlibhums.org/article/id/9845/",
+   "text": "Eve, Martin Paul, ‘Impossible Chess, Close Reading, and Inattention as Disability in Percival Everett’s Telephone’, Orbit: A Journal of American Literature, 11.1 (2023)",
+   "context": "wdate genericitem\"><span class=\"prefix bold\">2023</span><span class=\"bibitem\"> <a href=\"https://orbit.openlibhums.org/article/id/9845/\" class=\"csl-entry\">Eve, Martin Paul, ‘Impossible Chess, Close Reading, and Inattention as Disability in"
+  },
+  {
+   "url": "https://eprints.bbk.ac.uk/id/document/315187",
+   "text": "Download",
+   "context": "elephone</i>’, <i>Orbit: A Journal of American Literature</i>, 11.1 (2023)</a> [<a href=\"https://eprints.bbk.ac.uk/id/document/315187\" style=\"color:goldenrod\">Download</a>]</span></p> <p class=\"anitem genericitem\"><span class=\"prefix\">&nb"
+  },
+  {
+   "url": "https://eprints.bbk.ac.uk/id/eprint/51899",
+   "text": "Eve, Martin Paul, ‘Digital Scholarly Journals Are Poorly Preserved: A Study of 7 Million Articles’, Journal of Librarianship and Scholarly Communication, 2023",
+   "context": "=\"anitem genericitem\"><span class=\"prefix\">&nbsp;</span><span class=\"bibitem\"> <a href=\"https://eprints.bbk.ac.uk/id/eprint/51899\" class=\"csl-entry\">Eve, Martin Paul, ‘Digital Scholarly Journals Are Poorly Preserved: A Study of 7 Million A"
+  },
+  {
+   "url": "https://eprints.bbk.ac.uk/id/eprint/50133",
+   "text": "Eve, Martin Paul, ‘Shadow Libraries and Pirate Infrastructures’, in Critical Infrastructure Studies &#38; Digital Humanities, ed. by Alan Liu, Urszula Pawlicka-Deger, and James Smithies (University of Minnesota Press, 2024)",
+   "context": "wdate genericitem\"><span class=\"prefix bold\">2024</span><span class=\"bibitem\"> <a href=\"https://eprints.bbk.ac.uk/id/eprint/50133\" class=\"csl-entry\">Eve, Martin Paul, ‘Shadow Libraries and Pirate Infrastructures’, in <i>Critical Infrastruc"
+  },
+  {
+   "url": "https://eprints.bbk.ac.uk/id/eprint/43087",
+   "text": "Eve, Martin Paul, ‘The Essay in the Career of the Contemporary English Novelist’, in The Cambridge History of the British Essay, ed. by Denise Gigante and Jason Childs (Cambridge: Cambridge University Press, 2024)",
+   "context": "=\"anitem genericitem\"><span class=\"prefix\">&nbsp;</span><span class=\"bibitem\"> <a href=\"https://eprints.bbk.ac.uk/id/eprint/43087\" class=\"csl-entry\">Eve, Martin Paul, ‘The Essay in the Career of the Contemporary English Novelist’, in <i>Th"
+  },
+  {
+   "url": "https://25.scielo.org/en/we-so-loved-open-access/",
+   "text": "Eve, Martin Paul, ‘“The Guy Who Bangs on about Open Access”’, in We So Loved Open Access, ed. by Leila Posenato Garcia Garcia and Jan Velterop (SciELO, 2023)",
+   "context": "wdate genericitem\"><span class=\"prefix bold\">2023</span><span class=\"bibitem\"> <a href=\"https://25.scielo.org/en/we-so-loved-open-access/\" class=\"csl-entry\">Eve, Martin Paul, ‘“The Guy Who Bangs on about Open Access”’, in <i>We So Loved Op"
+  },
+  {
+   "url": "https://eprints.bbk.ac.uk/id/document/314846",
+   "text": "Download",
+   "context": "s</i>, ed. by Leila Posenato Garcia Garcia and Jan Velterop (SciELO, 2023)</a> [<a href=\"https://eprints.bbk.ac.uk/id/document/314846\" style=\"color:goldenrod\">Download</a>]</span></p>"
+  }
+ ],
+ "2023-12-07-land-of-hope-and-tolerance.md": [
+  {
+   "url": "https://www.theguardian.com/commentisfree/2023/dec/05/brexit-disaster-rejoining-channel-europe-economy?CMP=share_btn_tw",
+   "text": "I’ve got news for those who say Brexit is a disaster: it isn’t. That’s why rejoining is just a pipe dream",
+   "context": "publish it. Dear Madam, Your Economics Editor, Larry Elliott (5th December, “[I’ve got news for those who say Brexit is a disaster: it isn’t. That’s why rejoining is just a pipe dream](https://www.theguardian.com/commentisfree/2023/dec/0"
+  },
+  {
+   "url": "https://www.lse.ac.uk/research/research-for-the-world/politics/are-the-elites-driving-nationalism-in-post-brexit-britain",
+   "text": "has charted how",
+   "context": "ence directly contradicts this. Professor Mike Savage at the LSE, for instance, [has charted how](https://www.lse.ac.uk/research/research-for-the-world/politics/are-the-elites-driving-nationalism-in-post-brexit-britain) “instances of racist"
+  }
+ ],
+ "2023-11-09-blocking-my-crawl.md": [
+  {
+   "url": "https://samples.research.crossref.org/",
+   "text": "the current sample",
+   "context": "and their behaviours. A good example is something I wanted to know recently: in [the current sample](https://samples.research.crossref.org/), how many members display the title and doi (according to the latest display guidelines) on that pa"
+  },
+  {
+   "url": "https://github.com/infosimples/detect-headless",
+   "text": "a great Github javascript suite",
+   "context": "t headless browsers and block them with a 403 Permission Denied error. There's [a great Github javascript suite](https://github.com/infosimples/detect-headless) that aims to help you evade headless detection. The tests it uses are: * User"
+  },
+  {
+   "url": "https://github.com/Granitosaurus/playwright-stealth/tree/main",
+   "text": "the stealth plugin for Playwright",
+   "context": "entX and movementY on every MouseEvent have value 0 on headless browser. Using [the stealth plugin for Playwright](https://github.com/Granitosaurus/playwright-stealth/tree/main) allows me to evade most of these. I have also put in [a pull"
+  },
+  {
+   "url": "https://github.com/Granitosaurus/playwright-stealth/pull/7",
+   "text": "a pull request that patches the Connection Rtt value",
+   "context": "ywright-stealth/tree/main) allows me to evade most of these. I have also put in [a pull request that patches the Connection Rtt value](https://github.com/Granitosaurus/playwright-stealth/pull/7). This just leaves Mouse Move and Broken Image"
+  }
+ ],
+ "2023-10-20-connecting-to-aws-opensearch-serverless-using-python.md": [
+  {
+   "url": "https://opensearch.org/docs/latest/clients/python-low-level/",
+   "text": null,
+   "context": "orizationException(403, 'Forbidden'). The answer I needed was eventually here: https://opensearch.org/docs/latest/clients/python-low-level/. The key point is that, when using serverless, the service is not \"es\" but \"aoss\" (Amazon OpenSearc"
+  }
+ ],
+ "2023-10-12-self-referential-language-counting.md": [
+  {
+   "url": "https://www.explainxkcd.com/wiki/index.php/2839:_Language_Acquisition",
+   "text": "recent XKCD",
+   "context": "A [recent XKCD](https://www.explainxkcd.com/wiki/index.php/2839:_Language_Acquisition) caused some amusement: \"Vocabulary update: I learned another word today, br"
+  }
+ ],
+ "2023-09-24-creating-a-voice-activated-ai-responder-in-python.md": [
+  {
+   "url": "https://github.com/MartinPaulEve/seance4d/blob/main/seance4d/seance4d/main.py",
+   "text": "my main event loop",
+   "context": "needed a silence/noise detection system, so the check_voice_volume function in [my main event loop](https://github.com/MartinPaulEve/seance4d/blob/main/seance4d/seance4d/main.py) handles this. It basically looks for a consecutive 50 chunks"
+  },
+  {
+   "url": "https://stackoverflow.com/a/34796794/349003",
+   "text": "this StackOverflow answer",
+   "context": "enough to keep up with pyaudio's buffer processing, but with massive thanks to [this StackOverflow answer](https://stackoverflow.com/a/34796794/349003) I was able to get the system running on alsaaudio. One final gotcha: this system works"
+  }
+ ],
+ "2023-09-21-citations-and-addressability.md": [
+  {
+   "url": "https://www.hup.harvard.edu/catalog.php?isbn=9780674307605",
+   "text": "history of the footnote",
+   "context": "What is the point of a citation? As Anthony Grafton puts it in his [history of the footnote](https://www.hup.harvard.edu/catalog.php?isbn=9780674307605), \"the culturally contingent and eminently fallible footnote offers the onl"
+  },
+  {
+   "url": "https://doi.org/10.1111/criq.12359",
+   "text": "which can fabricate citations",
+   "context": "different in practice. In the age of ChatGPT and other generative text engines, [which can fabricate citations](https://doi.org/10.1111/criq.12359), these citations continue to proliferate. In this sense, citations are a weak assertion in"
+  },
+  {
+   "url": "https://www.amazon.co.uk/Metaphors-Digital-Textual-History-Stanford-Technologies/dp/1503614883/ref=sr_1_1",
+   "text": "my forthcoming book",
+   "context": "Luckhurst, has certainly \"cited\" humorous non-existent objects. There's one in [my forthcoming book](https://www.amazon.co.uk/Metaphors-Digital-Textual-History-Stanford-Technologies/dp/1503614883/ref=sr_1_1). Crossref's metadata registry"
+  }
+ ],
+ "2023-09-14-why-lever-press.md": [
+  {
+   "url": "https://www.leverpress.org/about",
+   "text": "Lever’s innovative funding model for open access",
+   "context": "charges -- I am really pleased to be working with Lever. Ever since hearing of [Lever’s innovative funding model for open access](https://www.leverpress.org/about), I have wanted to publish with the Press. (All ten of my existing books are"
+  }
+ ],
+ "2023-09-12-retract-this.md": [
+  {
+   "url": "https://doi.org/10.13003/c23rw1d9",
+   "text": "Crossref has acquired the Retraction Watch database of expressions of concerns and retractions and has made it openly accessible to anyone who wants to use it",
+   "context": "Today's big news is that [Crossref has acquired the Retraction Watch database of expressions of concerns and retractions and has made it openly accessible to anyone who wants to use it]"
+  },
+  {
+   "url": "https://api.labs.crossref.org/data/retractionwatch?mailto=[YOUR@EMAIL.HERE",
+   "text": null,
+   "context": "also serve files, so you can get the CSV of the latest Retraction Watch data at https://api.labs.crossref.org/data/retractionwatch?mailto=[YOUR@EMAIL.HERE]. Meanwhile, the Labs API will show you retraction data in the cr-labs-updates entry"
+  },
+  {
+   "url": "https://api.labs.crossref.org/works/10.2147/CMAR.S324920?mailto=[YOUR@EMAIL.HERE",
+   "text": null,
+   "context": "ction data in the cr-labs-updates entry if you visit a work that has data, e.g. https://api.labs.crossref.org/works/10.2147/CMAR.S324920?mailto=[YOUR@EMAIL.HERE]. The obvious question (and one that [was asked within an hour of our launch]("
+  },
+  {
+   "url": "https://twitter.com/gcabanac/status/1701594642142363877",
+   "text": "was asked within an hour of our launch",
+   "context": "2147/CMAR.S324920?mailto=[YOUR@EMAIL.HERE]. The obvious question (and one that [was asked within an hour of our launch](https://twitter.com/gcabanac/status/1701594642142363877)) is: how can I retrieve a list of all retractions via the API?"
+  },
+  {
+   "url": "https://retractionwatch.com/2023/09/12/the-retraction-watch-database-becomes-completely-open-and-rw-becomes-far-more-sustainable/",
+   "text": "in their announcement",
+   "context": "any luck, it will help to make Retraction Watch itself sustainable. As they say [in their announcement](https://retractionwatch.com/2023/09/12/the-retraction-watch-database-becomes-completely-open-and-rw-becomes-far-more-sustainable/): \"Tha"
+  }
+ ],
+ "2023-07-28-rules-vs-principles-in-posi.md": [
+  {
+   "url": "https://openscholarlyinfrastructure.org/",
+   "text": "Principles on Open Scholarly Infrastructure",
+   "context": "In recent days, several signatories to the [Principles on Open Scholarly Infrastructure](https://openscholarlyinfrastructure.org/) have taken to performing self-audits of their compliance with the princi"
+  },
+  {
+   "url": "https://www.etymonline.com/word/principle",
+   "text": "etymologically",
+   "context": "I to transmute into a box-ticking audit exercise. The term “principle” derives, [etymologically](https://www.etymonline.com/word/principle), from the Latin principium, meaning “a beginning, commencement, origin, first part,\" or \"foundation”"
+  }
+ ],
+ "2023-07-26-whats-the-point-of-having-open-scholarly-infrastructures-and-how-do-we-test-their-resilience.md": [
+  {
+   "url": "https://openscholarlyinfrastructure.org/",
+   "text": "POSI (the Principles of Open Scholarly Infrastructure)",
+   "context": "mean by that? For me, the fundamental meta-principle, or ideal, that underpins [POSI (the Principles of Open Scholarly Infrastructure)](https://openscholarlyinfrastructure.org/) is forkability and persistence. Taken on aggregate and implem"
+  },
+  {
+   "url": "https://www.crossref.org/blog/outage-of-october-6-2021/",
+   "text": "can go wrong",
+   "context": "backup. Crossref has, in the past, found that even massively redundant systems [can go wrong](https://www.crossref.org/blog/outage-of-october-6-2021/) if not tested. It’s also highly possible to fulfil all the POSI points in a way that do"
+  }
+ ],
+ "2023-07-26-we-are-terrible-at-online-identity-management-or-using-emails-as-an-identifier-was-a-bad-move.md": [
+  {
+   "url": "https://orcid.org/",
+   "text": "or ORCID!",
+   "context": "th “meh”. Single sign-on/oAuth was meant to fix this. Use your Google account ([or ORCID!](https://orcid.org/)) to sign in instead. However, in my experience this weekend, lots of sites implement such authentication flows very badly. For i"
+  },
+  {
+   "url": "https://www.bloomsbury.com/uk/password-9781501314872/",
+   "text": "a horrible term",
+   "context": "curity perspective, leading to data leaks and the potential for identity theft ([a horrible term](https://www.bloomsbury.com/uk/password-9781501314872/)). Mind you, this whole experience has shown me that if you are not using a password man"
+  }
+ ],
+ "2023-07-24-sunsetting-martinevecom.md": [
+  {
+   "url": "https://www.w3.org/Provider/Style/URI",
+   "text": "cool URLs don't change",
+   "context": "the primary address for this blog and site has been https://eve.gd. I know that [cool URLs don't change](https://www.w3.org/Provider/Style/URI). But I guess I am not totally cool. Perhaps most importantly: the email address martin@martinev"
+  }
+ ],
+ "2023-07-20-the-latest-ithaka-sr-draft-report-is-hugely-regressive.md": [
+  {
+   "url": "https://sr.ithaka.org/blog/draft-report-for-community-input/",
+   "text": "Ithaka S+R’s most recent report",
+   "context": "I have read, with some dismay, the draft of [Ithaka S+R’s most recent report](https://sr.ithaka.org/blog/draft-report-for-community-input/). I offer here some critical remarks that I hope will allow for r"
+  },
+  {
+   "url": "https://twitter.com/kaythaney/status/1681474626994487297?s=20",
+   "text": "interviewees are publicly stating",
+   "context": "and policy makers”. This is most admirable. The only problem is that, already, [interviewees are publicly stating](https://twitter.com/kaythaney/status/1681474626994487297?s=20) that they cannot find the contents of their interviews reflec"
+  }
+ ],
+ "2023-03-25-on-application-observability-in-serverless-cloud-contexts.md": [
+  {
+   "url": "https://github.com/trallnag/prometheus-fastapi-instrumentator",
+   "text": "have plugins that can handle the default/base instrumentation",
+   "context": "could use default Prometheus metrics for our applications. Systems like FastAPI [have plugins that can handle the default/base instrumentation](https://github.com/trallnag/prometheus-fastapi-instrumentator). These plugins will also create t"
+  },
+  {
+   "url": "https://prometheus.io/docs/concepts/metric_types/",
+   "text": "custom Prometheus metric",
+   "context": "ing Prometheus. Custom/product/application metrics can be handled either with a [custom Prometheus metric](https://prometheus.io/docs/concepts/metric_types/) or by pushing to AWS CloudWatch. *The problem* though is that AWS Lambda function"
+  },
+  {
+   "url": "https://prometheus.io/docs/instrumenting/pushing/",
+   "text": "Pushgateway",
+   "context": "fer a reliable push method for storing metrics (despite the hope offered by the [Pushgateway](https://prometheus.io/docs/instrumenting/pushing/) and [remote-write](https://prometheus.io/docs/practices/remote_write/) options). ## A Better S"
+  },
+  {
+   "url": "https://prometheus.io/docs/practices/remote_write/",
+   "text": "remote-write",
+   "context": "red by the [Pushgateway](https://prometheus.io/docs/instrumenting/pushing/) and [remote-write](https://prometheus.io/docs/practices/remote_write/) options). ## A Better Solution for AWS-Hosted Infrastructures: Structured Logging on CloudWa"
+  },
+  {
+   "url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-metrics-and-dimensions.html",
+   "text": "a number of useful dimensions",
+   "context": "the default CloudWatch Metrics (rather than logs) then the API Gateway provides [a number of useful dimensions](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-metrics-and-dimensions.html), including “count” for the"
+  },
+  {
+   "url": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/cloudwatch/client/put_metric_data.html",
+   "text": "ability to push metric data to CloudWatch",
+   "context": "tom Metrics to CloudWatch Boto3 and other client libraries for AWS provide the [ability to push metric data to CloudWatch](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/cloudwatch/client/put_metric_data.html),"
+  },
+  {
+   "url": "https://gitlab.com/crossref/labs/lambda-api-proxy/-/blob/main/crapiproxy/src/instrumentation.py",
+   "text": "instrumentation.py",
+   "context": "truct). Each run can push up to 1,000 custom metrics in a single call. See this [instrumentation.py](https://gitlab.com/crossref/labs/lambda-api-proxy/-/blob/main/crapiproxy/src/instrumentation.py) file for an example. The “namespace” shou"
+  },
+  {
+   "url": "https://github.com/bobbui/json-logging-python",
+   "text": "a JSON logger",
+   "context": "like any other. ### Log in JSON Format Logs written to CloudWatch should use [a JSON logger](https://github.com/bobbui/json-logging-python) so that these can be parsed automatically by Grafana and other querying tools. ### Push Ephemera"
+  }
+ ],
+ "2023-03-19-integration-testing-locally-and-on-gitlab-ci-using-localstack.md": [
+  {
+   "url": "https://pypi.org/project/pytest-localstack/",
+   "text": "pytest-localstack module",
+   "context": "ailure: true To spin up the docker container when running locally, we need the [pytest-localstack module](https://pypi.org/project/pytest-localstack/), so add that to your requirements. Then, to achieve the magic, I have a pytest fixture"
+  },
+  {
+   "url": "http://localstack:4566",
+   "text": null,
+   "context": "onnector( bucket=settings.BUCKET, endpoint_url=\"http://localstack:4566\", ) res = self.stage_two_setup() yield res Essentially, we check for the existence of the GITLAB_CI"
+  },
+  {
+   "url": "https://gitlab.com/crossref/labs/lambda-api-proxy/-/blob/main/crapiproxy/src/plugins/utils/aws_utils.py",
+   "text": "AWSConnector is a custom class that I wrote to handle this",
+   "context": "I, we set the endpoint_url for all of our AWS calls to http://localstack:4566. ([AWSConnector is a custom class that I wrote to handle this](https://gitlab.com/crossref/labs/lambda-api-proxy/-/blob/main/crapiproxy/src/plugins/utils/aws_util"
+  }
+ ],
+ "2023-03-09-a-data-pipeline-with-apache-airflow-and-dask.md": [
+  {
+   "url": "https://www.crossref.org/people/martin-eve/",
+   "text": "new role at Crossref",
+   "context": "In my [new role at Crossref](https://www.crossref.org/people/martin-eve/) I work on a series of data pipelines for research and development projects. These are resour"
+  },
+  {
+   "url": "https://gitlab.com/crossref/labs/airflow-launcher",
+   "text": "An Airflow launcher",
+   "context": "these two and get a solution that works for us, I put together two projects: * [An Airflow launcher](https://gitlab.com/crossref/labs/airflow-launcher) * [A Dask-provider library](https://gitlab.com/crossref/labs/distrunner) Essentially,"
+  },
+  {
+   "url": "https://gitlab.com/crossref/labs/distrunner",
+   "text": "A Dask-provider library",
+   "context": ": * [An Airflow launcher](https://gitlab.com/crossref/labs/airflow-launcher) * [A Dask-provider library](https://gitlab.com/crossref/labs/distrunner) Essentially, the Airflow script bootstraps git onto AWS, pulls your git repository down,"
+  },
+  {
+   "url": "https://github.com/dask/distributed/issues/6846",
+   "text": "errors spewing to the console after shutdown of the Dask cluster",
+   "context": "kRunner, to patch a set of bugs in Dask. The most annoying of these is a set of [errors spewing to the console after shutdown of the Dask cluster](https://github.com/dask/distributed/issues/6846). This appears to be related to weakref final"
+  }
+ ],
+ "2023-02-13-getting-to-grips-with-airflow-on-amazon-aws.md": [
+  {
+   "url": "https://gitlab.com/crossref/labs/preservation-data/-/blob/main/aflow/virtual_python_plugin.py",
+   "text": "virtual_python_plugin.py",
+   "context": "env decorator \"out of the box\" You need to create a package.zip that contains a [virtual_python_plugin.py](https://gitlab.com/crossref/labs/preservation-data/-/blob/main/aflow/virtual_python_plugin.py). You also need to update this script s"
+  },
+  {
+   "url": "https://docs.aws.amazon.com/mwaa/latest/userguide/samples-virtualenv.html",
+   "text": "Amazon sample",
+   "context": "cript so that it points to the correct python version for your install. See the [Amazon sample](https://docs.aws.amazon.com/mwaa/latest/userguide/samples-virtualenv.html) for this. ## The \"small\" instance only has 2GB of RAM and you can ru"
+  },
+  {
+   "url": "https://api.portico.org/kbart/Portico_Holding_KBart.txt",
+   "text": null,
+   "context": "crashes: CODE_BUCKET = 'airflow-crossref-research-annotation' PORTICO_URL = 'https://api.portico.org/kbart/Portico_Holding_KBart.txt' @task.virtualenv(task_id=\"import_portico\", requirements=[\"requests\", \"boto3\","
+  }
+ ]
+}

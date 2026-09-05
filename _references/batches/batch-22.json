@@ -1,0 +1,282 @@
+{
+ "2013-04-15-im-appearing-before-the-house-of-commons-bis-select-committee-into-open-access.md": [
+  {
+   "url": "http://www.parliament.uk/business/committees/committees-a-z/commons-select/business-innovation-and-skills/?utm_source=twitterfeed&utm_medium=twitter",
+   "text": "inquiry into open access",
+   "context": ", this Tuesday, 16th April 2013, I will be joining the Commons Select Committee <a href=\"http://www.parliament.uk/business/committees/committees-a-z/commons-select/business-innovation-and-skills/?utm_source=twitterfeed&utm_medium=twitter\">i"
+  }
+ ],
+ "2013-04-15-historical-sources-for-pynchons-peter-pinguid-society-now-available-for-download-green-open-access.md": [
+  {
+   "url": "https://www.martineve.com/2011/12/12/publication-historical-sources-for-pynchon%E2%80%99s-peter-pinguid-society-pynchon-notes-56-57-spring-fall-2009-pp-242-245/",
+   "text": "historical sources for the Peter Pinguid society in The Crying of Lot 49",
+   "context": "e to post an accepted version of the article. The publication, which covers the <a href=\"https://www.martineve.com/2011/12/12/publication-historical-sources-for-pynchon%E2%80%99s-peter-pinguid-society-pynchon-notes-56-57-spring-fall-2009-pp"
+  },
+  {
+   "url": "https://www.martineve.com/wp-content/uploads/2011/12/Martin-Paul-Eve-Historical-Sources-for-Thomas-Pynchons-Peter-Pinguid-Society-2010.pdf",
+   "text": "Martin Paul Eve - Historical Sources for Thomas Pynchon's Peter Pinguid Society - 2010",
+   "context": ". It will also shortly appear in the University of Lincoln's repository.</p> <p><a href=\"https://www.martineve.com/wp-content/uploads/2011/12/Martin-Paul-Eve-Historical-Sources-for-Thomas-Pynchons-Peter-Pinguid-Society-2010.pdf\">Martin Paul"
+  }
+ ],
+ "2013-03-29-exposing-xml-data-for-orbit.md": [
+  {
+   "url": "https://www.pynchon.net",
+   "text": "Orbit: Writing Around Pynchon",
+   "context": "the XML files that power the typesetting behind my journal of Pynchon studies, <a href=\"https://www.pynchon.net\">Orbit: Writing Around Pynchon</a>.</p> <p>As you can see if you visit <a href=\"https://www.pynchon.net/owap/issue/view/1\">Issu"
+  },
+  {
+   "url": "https://www.pynchon.net/owap/issue/view/1",
+   "text": "Issue 1",
+   "context": "chon.net\">Orbit: Writing Around Pynchon</a>.</p> <p>As you can see if you visit <a href=\"https://www.pynchon.net/owap/issue/view/1\">Issue 1</a>, all the articles now have their XML available for download. I intend to sequentially work throu"
+  },
+  {
+   "url": "http://dtd.nlm.nih.gov/publishing/tag-library/3.0/index.html",
+   "text": "Journal Publishing Tagset",
+   "context": "r a document type definition provided by the National Library of Medicine. This <a href=\"http://dtd.nlm.nih.gov/publishing/tag-library/3.0/index.html\">Journal Publishing Tagset</a> specifies how this document should be formed for compliance"
+  },
+  {
+   "url": "https://github.com/MartinPaulEve/MEXMLGalley",
+   "text": "meXml",
+   "context": "ase of complex citations -- I run it through my custom galley production suite, <a href=\"https://github.com/MartinPaulEve/MEXMLGalley\">meXml</a>. Running the <a href=\"https://github.com/MartinPaulEve/MEXMLGalley/blob/master/meXml/tools/geng"
+  },
+  {
+   "url": "https://github.com/MartinPaulEve/MEXMLGalley/blob/master/meXml/tools/gengalleys.sh",
+   "text": "tools/gengalleys.sh",
+   "context": ", <a href=\"https://github.com/MartinPaulEve/MEXMLGalley\">meXml</a>. Running the <a href=\"https://github.com/MartinPaulEve/MEXMLGalley/blob/master/meXml/tools/gengalleys.sh\">tools/gengalleys.sh</a> script produces PDF and XHTML output from t"
+  },
+  {
+   "url": "http://help.crossref.org/#nlm-to-crossref-conversion",
+   "text": "with any luck in the near future",
+   "context": "put from the same file, so I know that they are synchronised. I can then, also (<a href=\"http://help.crossref.org/#nlm-to-crossref-conversion\">with any luck in the near future</a>), do a transform on the XML to produce the documents that I"
+  }
+ ],
+ "2013-03-27-modernist-intimacies-conference.md": [
+  {
+   "url": "https://www.martineve.com/wp-content/uploads/2013/03/Modernist-intimacies-poster-3.jpg",
+   "text": null,
+   "context": "on the 17th May at the University of Sussex. Excellent exciting line-up!</p> <p><a href=\"https://www.martineve.com/wp-content/uploads/2013/03/Modernist-intimacies-poster-3.jpg\">"
+  }
+ ],
+ "2013-03-26-crossref-dois-and-preparing-for-future-assignment.md": [
+  {
+   "url": "http://www.crossref.org/SimpleTextQuery/",
+   "text": "Simple Text Query interface",
+   "context": "yes.</p> <p>To-date, because I am a low-volume publisher, I have been using the <a href=\"http://www.crossref.org/SimpleTextQuery/\">Simple Text Query interface</a> to parse citations and work out where there are DOIs. The problem is, there i"
+  },
+  {
+   "url": "http://help.crossref.org/#stored-queries",
+   "text": "stored queries",
+   "context": "Pentz gave me on Twitter, was either to re-send queries periodically, or to use <a href=\"http://help.crossref.org/#stored-queries\">stored queries</a>. Realizing that I needed, then, to move towards some kind of automation, I've put together"
+  },
+  {
+   "url": "https://github.com/MartinPaulEve/crossRefQuery/",
+   "text": "crossRefQuery",
+   "context": "I've put together a simple Python script to assist in this process. It's called <a href=\"https://github.com/MartinPaulEve/crossRefQuery/\">crossRefQuery</a> and it does what it says, enabling future matches to be emailed to you.</p> <p>You c"
+  },
+  {
+   "url": "https://www.pynchon.net",
+   "text": "Orbit",
+   "context": "is into the script. It then returns the XML output to stdout.</p> <p>Given that <a href=\"https://www.pynchon.net\">Orbit</a> runs off NLM-XML for typesetting, I will probably also write something that will convert NLM citations to CrossRef q"
+  },
+  {
+   "url": "http://www.alluvium-journal.org",
+   "text": "Alluvium",
+   "context": "onvert NLM citations to CrossRef query format and put that online too. However, <a href=\"http://www.alluvium-journal.org\">Alluvium</a> just runs off plain-text typesetting, so having the formatted citation search option is handy.</p> <p>Hop"
+  }
+ ],
+ "2013-03-25-futurity-books-marx-labour.md": [
+  {
+   "url": "https://www.openlibhums.org",
+   "text": null,
+   "context": "journal initiative, the Open Library of the Humanities – website plug: we're at https://www.openlibhums.org. More importantly than those aspects, though, for thinking about the future of the book, I am a member of the steering group for JIS"
+  }
+ ],
+ "2013-03-22-buy-this-album-mountain-of-love-ex-alabama-3.md": [
+  {
+   "url": "http://mountainoflove.org/",
+   "text": "Mountain of Love official website",
+   "context": "nguage\" and \"Set You Free\". You can listen to a sample of all the tracks on the <a href=\"http://mountainoflove.org/\">Mountain of Love official website</a>. In any case, this is a solid buy for a measly £10 and you should do yourselves a fav"
+  }
+ ],
+ "2013-03-15-the-future-of-peer-review.md": [
+  {
+   "url": "http://prezi.com/gvoijttzwepl/the-future-of-peer-review/?kw=view-gvoijttzwepl&rc=ref-1218260",
+   "text": "the Prezi",
+   "context": "dition to the video recording that I believe is going up on the Sussex site and <a href=\"http://prezi.com/gvoijttzwepl/the-future-of-peer-review/?kw=view-gvoijttzwepl&rc=ref-1218260\">the Prezi</a>, I am able to post a transcript of my thoug"
+  },
+  {
+   "url": "http://www.openlibhums.org",
+   "text": "www.openlibhums.org",
+   "context": "to get a good reference in and to, obviously, direct you all to our website at <a href=\"http://www.openlibhums.org\">www.openlibhums.org</a>, one of the aspects that we're trying to think through is how the PLOS model of “peer review lite”"
+  }
+ ],
+ "2013-03-10-open-access-neoliberalism-impact-and-the-privatisation-of-knowledge.md": [
+  {
+   "url": "http://www.plannedobsolescence.net/blog/neoliberal/",
+   "text": "perhaps problematic",
+   "context": "inextricably linked to neoliberal paradigms. While \"neoliberal\" is a broad and, <a href=\"http://www.plannedobsolescence.net/blog/neoliberal/\">perhaps problematic</a>, term in its expansion to mean everything, and therefore nothing, if we ar"
+  },
+  {
+   "url": "http://www.timeshighereducation.co.uk/comment/opinion/open-access-policy-scrapes-the-barrel/2002306.article",
+   "text": "Some arguments are surfacing",
+   "context": "ts of neoliberal practice outlined above than traditional scholarly publishing. <a href=\"http://www.timeshighereducation.co.uk/comment/opinion/open-access-policy-scrapes-the-barrel/2002306.article\">Some arguments are surfacing</a> that, in"
+  }
+ ],
+ "2013-03-09-house-of-commons-bis-inquiry-on-open-access-evidence-published.md": [
+  {
+   "url": "http://www.publications.parliament.uk/pa/cm201213/cmselect/cmbis/writev/openaccess/contents.htm",
+   "text": "available on the website for the UK parliament",
+   "context": "itten evidence for the BIS Inquiry on Open Access has now been published and is <a href=\"http://www.publications.parliament.uk/pa/cm201213/cmselect/cmbis/writev/openaccess/contents.htm\">available on the website for the UK parliament</a>.</p"
+  },
+  {
+   "url": "http://www.publications.parliament.uk/pa/cm201213/cmselect/cmbis/writev/openaccess/m32.htm",
+   "text": "The submission from the Creative Commons",
+   "context": "going to get time, I suspect, to read the full 500 pages) include:</p> <ul> <li><a href=\"http://www.publications.parliament.uk/pa/cm201213/cmselect/cmbis/writev/openaccess/m32.htm\">The submission from the Creative Commons</a> debunking <a h"
+  },
+  {
+   "url": "https://www.martineve.com/2012/12/20/on-that-statement-by-history-journal-editors/",
+   "text": "the rubbish that has been circulated",
+   "context": "itev/openaccess/m32.htm\">The submission from the Creative Commons</a> debunking <a href=\"https://www.martineve.com/2012/12/20/on-that-statement-by-history-journal-editors/\">the rubbish that has been circulated</a> about their licenses.</li>"
+  },
+  {
+   "url": "http://www.publications.parliament.uk/pa/cm201213/cmselect/cmbis/writev/openaccess/m85.htm",
+   "text": "Mike Taylor's submission",
+   "context": "itors/\">the rubbish that has been circulated</a> about their licenses.</li> <li><a href=\"http://www.publications.parliament.uk/pa/cm201213/cmselect/cmbis/writev/openaccess/m85.htm\">Mike Taylor's submission</a>, pulling no punches in highlig"
+  },
+  {
+   "url": "http://www.publications.parliament.uk/pa/cm201213/cmselect/cmbis/writev/openaccess/m53.htm",
+   "text": "Heather Morrison's submission",
+   "context": "ng publisher involvement in the Finch report and the problems therein.</li> <li><a href=\"http://www.publications.parliament.uk/pa/cm201213/cmselect/cmbis/writev/openaccess/m53.htm\">Heather Morrison's submission</a> is interesting, although"
+  },
+  {
+   "url": "http://www.publications.parliament.uk/pa/cm201213/cmselect/cmbis/writev/openaccess/m36.htm",
+   "text": "My own submission",
+   "context": "he best shot we have at the moment for removing permission barriers...</li> <li><a href=\"http://www.publications.parliament.uk/pa/cm201213/cmselect/cmbis/writev/openaccess/m36.htm\">My own submission</a>!</li>"
+  }
+ ],
+ "2013-03-07-conference-paper-the-future-of-peer-review-university-of-sussex-14th-march-2013-12-2pm.md": [
+  {
+   "url": "http://www.sussex.ac.uk/library/staff/research/seminarsandevents/seminars2013",
+   "text": "Sussex Research Hive",
+   "context": "eer Review\", alongside Maria Kowalczuk from BioMed Central. Taking place in the <a href=\"http://www.sussex.ac.uk/library/staff/research/seminarsandevents/seminars2013\">Sussex Research Hive</a> on the 14th March 2013 at noon, we're hoping to"
+  }
+ ],
+ "2013-02-10-conference-paper-too-many-goddamn-echoes-historicizing-the-iraq-war-in-don-delillos-point-omega-birkbeck.md": [
+  {
+   "url": "http://iraqwarculture.eventbrite.com/",
+   "text": "Book online for free",
+   "context": "ocumentary, drama, television, fiction, photography and graphic novels. </p> <p><a href=\"http://iraqwarculture.eventbrite.com/\">Book online for free</a>.</p> <p><a href=\"http://www.bbk.ac.uk/arts/about-us/events/symposium-iraq-war-culture\">"
+  },
+  {
+   "url": "http://www.bbk.ac.uk/arts/about-us/events/symposium-iraq-war-culture",
+   "text": null,
+   "context": "a href=\"http://iraqwarculture.eventbrite.com/\">Book online for free</a>.</p> <p><a href=\"http://www.bbk.ac.uk/arts/about-us/events/symposium-iraq-war-culture\">"
+  }
+ ],
+ "2013-01-29-publication-thomas-pynchon-david-foster-wallace-and-the-problems-of-metamodernism-post-millennial-post-postmodernism.md": [
+  {
+   "url": "https://www.gylphi.co.uk/ojs/index.php/c21/article/view/155",
+   "text": "online at C21 Literature",
+   "context": "le to many postmodern fictions to their fictions.</p></blockquote> <p>Available <a href=\"https://www.gylphi.co.uk/ojs/index.php/c21/article/view/155\">online at C21 Literature</a>. You can <a href=\"https://www.martineve.com/wp-content/upload"
+  },
+  {
+   "url": "https://www.martineve.com/wp-content/uploads/2012/12/Martin_Paul_Eve-TP-DFW-and-metamodernism-fifty-percent.pdf",
+   "text": "download 50% of the article for free",
+   "context": "co.uk/ojs/index.php/c21/article/view/155\">online at C21 Literature</a>. You can <a href=\"https://www.martineve.com/wp-content/uploads/2012/12/Martin_Paul_Eve-TP-DFW-and-metamodernism-fifty-percent.pdf\">download 50% of the article for free</"
+  }
+ ],
+ "2013-01-24-conference-paper-floats-like-a-butterfly-stings-like-a-finch-adorno-utopia-and-open-access-publishing-lincoln-university.md": [
+  {
+   "url": "http://www.drcarolineedwards.com",
+   "text": "Dr. Caroline Edwards",
+   "context": "<p>Co-presented with <a href=\"http://www.drcarolineedwards.com\">Dr. Caroline Edwards</a>: \"<a href=\"http://21cresearchgroup.blogs.lincoln.ac.uk/2013/01/16/upcoming-21st-century-rese"
+  },
+  {
+   "url": "http://21cresearchgroup.blogs.lincoln.ac.uk/2013/01/16/upcoming-21st-century-research-group-meetings/",
+   "text": "Floats Like a Butterfly, Stings Like a Finch: Adorno, Utopia and Open Access Publishing",
+   "context": "nted with <a href=\"http://www.drcarolineedwards.com\">Dr. Caroline Edwards</a>: \"<a href=\"http://21cresearchgroup.blogs.lincoln.ac.uk/2013/01/16/upcoming-21st-century-research-group-meetings/\">Floats Like a Butterfly, Stings Like a Finch: Ad"
+  }
+ ],
+ "2013-01-16-qa-with-me-in-library-journal-why-we-need-a-public-library-of-the-humanities-and-social-sciences.md": [
+  {
+   "url": "http://lj.libraryjournal.com/2013/01/oa/qa-martin-eve-on-why-we-need-a-public-library-of-the-humanities-and-social-sciences/",
+   "text": "Library Journal",
+   "context": "<p>There's a Q&A with me that has just been published in <i><a href=\"http://lj.libraryjournal.com/2013/01/oa/qa-martin-eve-on-why-we-need-a-public-library-of-the-humanities-and-social-sciences/\">Library Journal</a></i> o"
+  }
+ ],
+ "2013-01-13-an-update-on-the-plohss-project.md": [
+  {
+   "url": "http://www.plohss.org",
+   "text": "http://www.plohss.org",
+   "context": "out to people who have expressed an interest. If you'd like to know more, visit <a href=\"http://www.plohss.org\">http://www.plohss.org</a> or <a href=\"mailto:martin@martineve.com?subject=PLOHSS\">email me</a> with \"PLOHSS\" in the topic.</p> <"
+  }
+ ],
+ "2013-01-09-call-for-participants-to-build-a-plos-style-model-for-the-humanities-and-social-sciences.md": [
+  {
+   "url": "http://www.cameronneylon.net",
+   "text": "Cameron Neylon",
+   "context": "field.</p> <p>Following conversations with various figures by email, including <a href=\"http://www.cameronneylon.net\">Cameron Neylon</a>, <a href=\"http://www.tjm.org\">Tim McCormick</a> and <a href=\"http://svpow.com/\">Mike Taylor</a>, I hav"
+  },
+  {
+   "url": "http://www.tjm.org",
+   "text": "Tim McCormick",
+   "context": "by email, including <a href=\"http://www.cameronneylon.net\">Cameron Neylon</a>, <a href=\"http://www.tjm.org\">Tim McCormick</a> and <a href=\"http://svpow.com/\">Mike Taylor</a>, I have decided to extend a call for those who share my thoughts,"
+  },
+  {
+   "url": "http://svpow.com/",
+   "text": "Mike Taylor",
+   "context": "lon.net\">Cameron Neylon</a>, <a href=\"http://www.tjm.org\">Tim McCormick</a> and <a href=\"http://svpow.com/\">Mike Taylor</a>, I have decided to extend a call for those who share my thoughts, most notably: it doesn't have to be this way. We c"
+  },
+  {
+   "url": "http://www.plohss.org/",
+   "text": "Public Library of Science model for the Humanities and Social Sciences",
+   "context": "uilding a system that is fit for purpose, more egalitarian and sustainable -- a <a href=\"http://www.plohss.org/\">Public Library of Science model for the Humanities and Social Sciences</a>. I can't do it on my own, though. I need individuals"
+  },
+  {
+   "url": "http://www.plohss.org",
+   "text": null,
+   "context": "system that is fit for purpose, more egalitarian and sustainable -- a <a href=\"http://www.plohss.org/\">Public Library of Science model for the Humanities and Social Sciences</a>. I can't do it on my own, though. I need individuals and orga"
+  }
+ ],
+ "2013-01-04-new-pynchon-novel-fall-2013-bleeding-edge.md": [
+  {
+   "url": "https://twitter.com/RonCharles/status/287246335743254529",
+   "text": "Ron Charles has tweeted",
+   "context": "<p><a href=\"https://twitter.com/RonCharles/status/287246335743254529\">Ron Charles has tweeted</a> that a new Pynchon novel will be published by Penguin in Fall 201"
+  },
+  {
+   "url": "http://www.ipw2013.com",
+   "text": "International Pynchon Week 2013",
+   "context": "2013. Entitled <i>Bleeding Edge</i> the work will not quite be out in time for <a href=\"http://www.ipw2013.com\">International Pynchon Week 2013</a>, but... wow.</p> <p>Charles stated that two Penguin employees had confirmed the news to him"
+  },
+  {
+   "url": "http://www.huffingtonpost.com/2013/01/04/bleeding-edge-thomas-pync_n_2410631.html?utm_hp_ref=books",
+   "text": "piece up about it at The Huffington Post",
+   "context": "that two Penguin employees had confirmed the news to him and there's already a <a href=\"http://www.huffingtonpost.com/2013/01/04/bleeding-edge-thomas-pync_n_2410631.html?utm_hp_ref=books\">piece up about it at The Huffington Post</a>.</p> <"
+  }
+ ],
+ "2012-12-30-using-bumblebee-for-opteron-graphics-on-ubuntu-12-10-on-a-samsung-chronos-7-series-laptop.md": [
+  {
+   "url": "http://ubuntuforums.org/showthread.php?t=2043971",
+   "text": "Change",
+   "context": "ia-current {% endhighlight %} <p>Edit /etc/bumblebee/bumblebee.conf (as root). <a href=\"http://ubuntuforums.org/showthread.php?t=2043971\">Change</a>:</p> <blockquote><p> Driver=<br /> to<br /> Driver=nvidia</p> <p>and</p> <p>KernelDriver=n"
+  },
+  {
+   "url": "https://github.com/Bumblebee-Project/Bumblebee/wiki/Troubleshooting",
+   "text": "Change",
+   "context": "ver=nvidia </p></blockquote> <p>Edit /etc/bumblebee/xorg.conf.nvidia (as root). <a href=\"https://github.com/Bumblebee-Project/Bumblebee/wiki/Troubleshooting\">Change</a>:</p> <p>Option \"ConnectedMonitor\" \"DFP\"</p> <p>to</p> <p>Option \"Connec"
+  }
+ ],
+ "2012-12-30-tech-things-i-have-learned-in-the-last-12-hours.md": [
+  {
+   "url": "http://en.congelli.eu/prog_info_winusb.html",
+   "text": "WinUSB",
+   "context": "from. Do this by USB instead.</li> <li>There's a cool piece of software called <a href=\"http://en.congelli.eu/prog_info_winusb.html\">WinUSB</a> that will create a Windows installation USB stick for you from inside Linux. You need to downlo"
+  },
+  {
+   "url": "https://www.martineve.com/2012/12/30/using-bumblebee-for-opteron-graphics-on-ubuntu-12-10-on-a-samsung-chronos-7-series-laptop/",
+   "text": "hardly works \"out of the box\"",
+   "context": "in and use the chroot method to reinstall it.</li> <li>Bumblebee is great, but <a href=\"https://www.martineve.com/2012/12/30/using-bumblebee-for-opteron-graphics-on-ubuntu-12-10-on-a-samsung-chronos-7-series-laptop/\">hardly works \"out of t"
+  }
+ ]
+}

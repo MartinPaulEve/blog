@@ -1,0 +1,96 @@
+{
+ "2012-12-21-orbit-writing-around-pynchon-receives-funding-from-ludwig-maximilian-university-of-munich.md": [
+  {"url": "https://www.pynchon.net", "comment": "Orbit: Writing Around Pynchon journal site"},
+  {"url": "http://www.en.uni-muenchen.de", "comment": "Ludwig Maximilian University of Munich"}
+ ],
+ "2012-12-20-on-that-statement-by-history-journal-editors.md": [
+  {"url": "http://www.timeshighereducation.co.uk/story.asp?sectioncode=26&storycode=422188&c=1", "comment": "Times Higher Education piece on history editors statement"},
+  {"url": "http://www.history.ac.uk/news/2012-12-10/statement-position-relation-open-access", "comment": "History editors statement equating CC-BY with plagiarism"},
+  {"url": "http://www.ehs.org.uk/journal/submitarticle.asp", "comment": "Economic History Society journal submission page"}
+ ],
+ "2012-12-13-alluvium-technical-news-doi-numbers-clockss-and-mla-bibliography.md": [
+  {"url": "http://www.alluvium-journal.org", "comment": "Alluvium journal homepage"},
+  {"url": "http://www.alluvium-journal.org/about-alluvium/copyright-position/", "comment": "Alluvium journal copyright position statement"},
+  {"url": "http://www.clockss.org/", "comment": "CLOCKSS digital archival service"},
+  {"url": "https://en.wikipedia.org/wiki/Digital_object_identifier", "comment": "Wikipedia article on digital object identifiers"},
+  {"url": "http://dx.doi.org/10.7766/alluvium.v1.1.01", "comment": "Alluvium vol 1 no 1 editorial preface DOI"},
+  {"url": "https://secure.flickr.com/photos/dolescum/", "comment": "Flickr photostream by dolescum"},
+  {"url": "https://secure.flickr.com/photos/dolescum/3568499590/sizes/l/in/photostream/", "comment": "Specific dolescum Flickr photo CC-BY-NC-SA"}
+ ],
+ "2012-12-11-publication-review-of-theophilius-savvas-american-postmodern-fiction-and-the-past-literature-and-history-21-2-autumn-2012-pp-106-108.md": [
+  {"url": "http://dx.doi.org/10.7227/L&U38;H.21.2.6", "comment": "Literature and History 21.2 review DOI"},
+  {"url": "http://www.ingentaconnect.com/content/manup/lah/2012/00000021/00000002/art00006", "comment": "Review via Ingenta Connect"},
+  {"url": "https://www.martineve.com/wp-content/uploads/2012/12/Review-of-Savvas-Postmodernist-Fiction-and-the-Past.pdf", "comment": "Pre-print PDF of Savvas review"}
+ ],
+ "2012-12-07-fixing-scanning-on-an-hp-photosmart-c6300-series-in-ubuntu-12-10.md": [
+  {"url": "http://hplipopensource.com/hplip-web/release_notes.html", "comment": "HPLIP release notes page"},
+  {"url": "https://bugs.mageia.org/show_bug.cgi?id=7637", "comment": "Mageia bug report for hplip models.dat error"},
+  {"url": "https://answers.launchpad.net/hplip/+question/208678", "comment": "Launchpad answer on fixing hplip models.dat"}
+ ],
+ "2012-11-21-judging-the-safety-of-an-open-access-journal.md": [
+  {"url": "http://pkp.sfu.ca/ojs/", "comment": "Public Knowledge Project Open Journal Systems"},
+  {"url": "http://annotum.org", "comment": "Annotum WordPress-based journal platform"},
+  {"url": "http://fclty.org", "comment": "Faculty open-access journal platform"},
+  {"url": "http://thekeepers.org", "comment": "The Keepers Registry digital preservation database"},
+  {"url": "https://www.pynchon.net", "comment": "Orbit: Writing Around Pynchon in Keepers Registry"}
+ ],
+ "2012-11-14-on-orcid-accreditation-structures-and-altmetrics.md": [
+  {"url": "https://orcid.org/0000-0002-5589-8511", "comment": "Martin Paul Eve ORCID profile"},
+  {"url": "http://melissaterras.blogspot.co.uk/2012/10/whats-in-name-academic-identity-in.html", "comment": "Melissa Terras blog post on academic identity"}
+ ],
+ "2012-11-12-on-freedom-of-speech.md": [
+  {"url": "http://www.guardian.co.uk/uk/2012/nov/12/teenager-arrested-burning-poppy-facebook", "comment": "Guardian report on teenager arrested for burning poppy photo"},
+  {"url": "http://www.bbc.co.uk/news/uk-england-20000243", "comment": "BBC report on Nick Griffin tweeting gay couple address"}
+ ],
+ "2012-11-05-publication-review-of-1q84-in-1001-books-to-read-before-you-die-london-cassell-illustrated-2012.md": [
+  {"url": "http://www.amazon.co.uk/gp/product/1844037401/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=1844037401&linkCode=as2&tag=2bitpienet-21", "comment": "1001 Books You Must Read Before You Die on Amazon"}
+ ],
+ "2012-11-02-more-on-ojs-and-clockss.md": [
+  {"url": "https://www.martineve.com/2012/10/24/open-journal-systems-now-supports-archiving-with-clockss-out-of-the-box/", "comment": "Eve's earlier post on OJS and CLOCKSS support"},
+  {"url": "http://pkp.sfu.ca/bugzilla/show_bug.cgi?id=7958#c5", "comment": "PKP Bugzilla decision to revert CLOCKSS patch"},
+  {"url": "https://github.com/pkp/ojs/pull/49", "comment": "GitHub pull request for revised OJS CLOCKSS patch"}
+ ],
+ "2012-11-01-on-academic-blogging.md": [
+  {"url": "https://www.martineve.com/2011/09/27/academia-edtech-blogging-and-twitter-enough-with-the-meta-already/", "comment": "Eve's earlier post cautioning against meta-blogging"},
+  {"url": "http://www.timeshighereducation.co.uk/story.asp?sectioncode=26&storycode=421669&c=1", "comment": "Times Higher Education piece on academic blogging"},
+  {"url": "http://www.alluvium-journal.org", "comment": "Alluvium open-access journal"},
+  {"url": "http://drcarolineedwards.com/", "comment": "Dr Caroline Edwards personal website"}
+ ],
+ "2012-11-01-cfp-feminism-influence-inheritance.md": [
+  {"url": "https://www.martineve.com/wp-content/uploads/2012/11/CFP-Feminism-Influence-Inheritance.pdf", "comment": "CFP PDF for Feminism Influence Inheritance conference"},
+  {"url": "http://feminism-­influence-­inheritance.blogspot.co.uk", "comment": "Feminism Influence Inheritance conference website"}
+ ],
+ "2012-10-26-notes-on-adornos-the-essay-as-form.md": [
+  {"url": "http://en.wikipedia.org/wiki/User:Jjshapiro", "comment": "Wikipedia user page for Jeremy Shapiro"},
+  {"url": "http://en.wikipedia.org/wiki/File:AdornoHorkheimerHabermasbyJeremyJShapiro2.png", "comment": "Wikipedia image of Adorno Horkheimer and Habermas"}
+ ],
+ "2012-10-24-open-journal-systems-now-supports-archiving-with-clockss-out-of-the-box.md": [
+  {"url": "http://pkp.sfu.ca/bugzilla/show_bug.cgi?id=7958", "comment": "PKP Bugzilla ticket for OJS CLOCKSS manifest patch"},
+  {"url": "https://github.com/pkp/ojs/commit/b38d1e86c7f918cfcd76baa5bd47eb0bc36f6173", "comment": "GitHub commit merging CLOCKSS manifest into OJS"},
+  {"url": "http://www.clockss.org/clockss/Home", "comment": "CLOCKSS dark archive home page"}
+ ],
+ "2012-10-22-the-grim-phoenix-the-new-challenges-for-open-access.md": [
+  {"url": "https://www.pynchon.net", "comment": "Orbit: Writing Around Pynchon journal"},
+  {"url": "http://www.excursions-journal.org", "comment": "Excursions open-access journal"},
+  {"url": "http://www.alluvium-journal.org", "comment": "Alluvium open-access journal"}
+ ],
+ "2012-10-21-new-orbit-review-american-postmodernist-fiction-and-the-past-by-theophilus-savvas.md": [
+  {"url": "http://dx.doi.org/10.7766/orbit.v1.2.40", "comment": "Orbit review of Savvas American Postmodernist Fiction DOI"}
+ ],
+ "2012-10-19-orbit-1-2-is-now-open-and-our-rolling-format-is-live.md": [
+  {"url": "https://www.pynchon.net/owap/index", "comment": "Orbit: Writing Around Pynchon issue 1.2 launch"}
+ ],
+ "2012-10-19-crude-but-helpful-typesetting-script-from-mexml.md": [
+  {"url": "https://github.com/MartinPaulEve/MEXMLGalley/commit/351a8e28fc0adc5a1e3554b716f9bce78157620f", "comment": "GitHub commit for meXml typesetting script"},
+  {"url": "https://github.com/MartinPaulEve/MEXMLGalley", "comment": "meXml GitHub repository for OA journal typesetting"},
+  {"url": "http://xing.github.com/wysihtml5/", "comment": "wysihtml5 browser HTML editor tool"},
+  {"url": "https://github.com/MartinPaulEve/MEXMLGalley/tree/master/meXml/tools", "comment": "meXml tools directory with gengalleys.sh script"}
+ ],
+ "2012-10-16-publication-thomas-pynchon-the-dark-passages-of-history-review-textual-practice-26-5.md": [
+  {"url": "http://dx.doi.org/10.1080/0950236X.2012.730736", "comment": "Textual Practice 26.5 Pynchon review DOI"},
+  {"url": "https://www.martineve.com/wp-content/uploads/2012/10/Martin-Paul-Eve-Review-of-Cowart-and-de-Bourcier-Pynchon-PrePrint.pdf", "comment": "Pre-print PDF of Pynchon dark passages review"}
+ ],
+ "2012-10-13-jeffrey-archers-140-character-story-and-plagiarism.md": [
+  {"url": "http://www.guardian.co.uk/books/2012/oct/12/twitter-fiction-140-character-novels", "comment": "Guardian article on Twitter 140-character fiction"}
+ ]
+}
