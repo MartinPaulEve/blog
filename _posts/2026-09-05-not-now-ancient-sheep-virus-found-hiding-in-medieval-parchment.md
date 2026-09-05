@@ -18,6 +18,7 @@ references:
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3muryvfaafi24"
 kcworks: https://works.hcommons.org/records/3deyv-nm119
 roguescholar: https://rogue-scholar.org/records/e9nww-03n64
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3muryvfaafi24
 ---
 An article in _Science_ reports the discovery of [an ancient sheep virus found hiding in medieval parchment](https://www.science.org/content/article/ancient-sheep-virus-found-hiding-medieval-parchment). They extracted its DNA. Now, I do know that viruses, obviously, have histories. Jussi Parikka has spent years studying malware (see Parikka, Jussi, _Digital Contagions: A Media Archaeology of Computer Viruses_ (Peter Lang, 2016), [https://doi.org/10.3726/978-1-4539-1868-5](https://doi.org/10.3726/978-1-4539-1868-5)). But I have also seen disaster movies and seen how they always pan out.
 

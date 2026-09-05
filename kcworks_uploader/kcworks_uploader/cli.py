@@ -660,6 +660,8 @@ def main(argv=None) -> int:
     print(f"Attached: {', '.join(result['files'])}")
     if result["published"]:
         print(f"Published live at: {result['live_url']}")
+        record_deposit(args.post, result["live_url"])
+        print("Recorded kcworks: in the post's front matter.")
         if result.get("collection"):
             print(f"Collection: {collection} ({result['collection']})")
     else:

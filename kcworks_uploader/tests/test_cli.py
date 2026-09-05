@@ -251,6 +251,33 @@ class TestMain:
         assert rc == 2
         assert "token" in capsys.readouterr().err.lower()
 
+    def test_live_deposit_stamps_record_url_into_post(
+        self, repo, capsys, monkeypatch
+    ):
+        client = FakeClient()
+        monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
+        monkeypatch.chdir(repo)
+        post = repo / "_posts" / "2026-08-28-a-test-post.md"
+        rc = main([str(post), "--live", "--token", "tok"])
+        assert rc == 0
+        assert (
+            "\nkcworks: https://works.hcommons.org/records/abc12-xyz34\n"
+            in post.read_text()
+        )
+        assert "front matter" in capsys.readouterr().out.lower()
+
+    def test_draft_deposit_leaves_the_post_untouched(
+        self, repo, capsys, monkeypatch
+    ):
+        client = FakeClient()
+        monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
+        monkeypatch.chdir(repo)
+        post = repo / "_posts" / "2026-08-28-a-test-post.md"
+        before = post.read_text()
+        rc = main([str(post), "--token", "tok"])
+        assert rc == 0
+        assert post.read_text() == before
+
 
 class FakeCollectionClient(FakeClient):
     """FakeClient plus the collection surface, scriptable per scenario."""

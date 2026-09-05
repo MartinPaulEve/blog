@@ -21,12 +21,14 @@
 # pass straight through. deposit and publish need $KCWORKS_API_TOKEN (or
 # --token); dry-run does not.
 #
-# Once a deposit is published, record it in the post's front matter:
+# deposit --live and backfill stamp the published record URL into the post's
+# front matter automatically:
 #
 #     kcworks: https://works.hcommons.org/records/<id>
 #
-# The signposting plugin emits that as archivedAt in the post's metadata.json,
-# linking the blog and repository records in both directions.
+# After `publish` (which takes a record id, not a post path), add that line
+# by hand. The signposting plugin emits it as archivedAt in the post's
+# metadata.json, linking the blog and repository records in both directions.
 
 cd "$(dirname "$0")"
 
