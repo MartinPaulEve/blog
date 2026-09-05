@@ -3,7 +3,19 @@
 title:            "eve.gd: Martin Paul Eve"
 locale:           en_GB
 url:              https://eve.gd
+author:           "Martin Paul Eve"
+description:      "Martin Paul Eve's website and blog: literature, technology and publishing."
 kcworks_collection: evegd-blog-posts
+
+# Static ActivityPub feed (FEP-b06c) via _plugins/activitypub_static.rb. The
+# site's read-only actor is @blog@eve.gd (actor.jsonld, resolved by the
+# webfinger-blog document); all other acct: lookups on the domain alias to
+# the personal Mastodon account @mpe@hcommons.social, and also_known_as
+# ties the two identities together in the actor itself.
+activitypub:
+  preferred_username: "blog"
+  also_known_as:
+    - "https://hcommons.social/users/mpe"
 
 
 # Jekyll configuration
