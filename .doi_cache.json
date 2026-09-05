@@ -1272,5 +1272,271 @@
         ]
       ]
     }
+  },
+  "10.3726/978-1-4539-1868-5": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          18
+        ]
+      ],
+      "date-time": "2026-06-18T05:08:49Z",
+      "timestamp": 1781759329063,
+      "version": "3.54.5"
+    },
+    "reference-count": 0,
+    "publisher": "Peter Lang US",
+    "isbn-type": [
+      {
+        "value": "9781433135774",
+        "type": "electronic"
+      },
+      {
+        "value": "9781453918685",
+        "type": "electronic"
+      },
+      {
+        "value": "9781433135781",
+        "type": "electronic"
+      },
+      {
+        "value": "9781433132322",
+        "type": "electronic"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2016,
+          8,
+          23
+        ]
+      ]
+    },
+    "DOI": "10.3726/978-1-4539-1868-5",
+    "type": "monograph",
+    "created": {
+      "date-parts": [
+        [
+          2016,
+          12,
+          17
+        ]
+      ],
+      "date-time": "2016-12-17T06:43:52Z",
+      "timestamp": 1481957032000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 33,
+    "title": "Digital Contagions",
+    "prefix": "10.3726",
+    "author": [
+      {
+        "given": "Jussi",
+        "family": "Parikka",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "2030",
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://www.peterlang.com/view/title/58766",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          12
+        ]
+      ],
+      "date-time": "2021-10-12T02:59:30Z",
+      "timestamp": 1634007570000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.peterlang.com/view/title/58766"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          8,
+          23
+        ]
+      ]
+    },
+    "ISBN": [
+      "9781433135774",
+      "9781453918685",
+      "9781433135781",
+      "9781433132322"
+    ],
+    "references-count": 0,
+    "URL": "http://dx.doi.org/10.3726/978-1-4539-1868-5",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2016,
+          8,
+          23
+        ]
+      ]
+    }
+  },
+  "10.11126/9781503639393": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          27
+        ]
+      ],
+      "date-time": "2026-02-27T02:55:30Z",
+      "timestamp": 1772160930278,
+      "version": "3.50.1"
+    },
+    "edition-number": "1",
+    "reference-count": 0,
+    "publisher": "Stanford University Press",
+    "isbn-type": [
+      {
+        "value": "9781503639393",
+        "type": "print"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          24
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Digital spaces are saturated with metaphor: we have pages, sites, mice, and windows. Yet, in the world of digital textuality, these metaphors no longer function as we might expect.   Martin Paul Eve calls attention to the digital-textual metaphors that condition our experience of digital space, and traces their history as they interact with physical cultures. Eve posits that digital-textual metaphors move through three life phases. Initially they are descriptive. Then they encounter a moment of fracture or rupture. Finally, they go on to have a prescriptive life of their own that conditions future possibilities for our text environments—even when the metaphors have become untethered from their original intent. Why is \"whitespace\" white? Was the digital page always a foregone conclusion? Over a series of theses, Eve addresses these and other questions in order to understand the moments when digital-textual metaphors break and to show us how it is that our textual softwares become locked into paradigms that no longer make sense.  Contributing to book history, literary studies, new media studies, and material textual studies, &lt;i&gt;Theses on the Metaphors of Digital-Textual History&lt;/i&gt; provides generative insights into the metaphors that define our digital worlds.</jats:p>",
+    "DOI": "10.11126/9781503639393",
+    "type": "monograph",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          11
+        ]
+      ],
+      "date-time": "2024-03-11T14:17:32Z",
+      "timestamp": 1710166652000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "Theses on the Metaphors of Digital-Textual History",
+    "prefix": "10.11126",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5589-8511",
+        "authenticated-orcid": false,
+        "given": "Martin Paul",
+        "family": "Eve",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "4811",
+    "container-title": [],
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          11
+        ]
+      ],
+      "date-time": "2024-03-11T14:17:34Z",
+      "timestamp": 1710166654000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.sup.org/openebook/9781503639393/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          24
+        ]
+      ]
+    },
+    "ISBN": [
+      "9781503639393"
+    ],
+    "references-count": 0,
+    "URL": "http://dx.doi.org/10.11126/9781503639393",
+    "relation": {
+      "is-identical-to": [
+        {
+          "id-type": "doi",
+          "id": "10.2307/jj.18473022",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.1515/9781503639393",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          24
+        ]
+      ]
+    }
   }
 }
