@@ -11,6 +11,10 @@ categories:
 - Open Access
 - Politics
 kcworks: https://works.hcommons.org/records/5nc0p-8n788
+references:
+- https://www.insidehighered.com/news/2017/08/21/cambridge-university-press-blocks-access-300-plus-articles-request-chinese-censors # Inside Higher Ed news: CUP blocks articles for Chinese censors
+- https://twitter.com/DavidPriceUCL/status/898993264971452416 # David Price UCL tweet on CUP censorship and OA
+- https://www.theguardian.com/education/2017/aug/21/cambridge-university-press-to-back-down-over-china-censorship # Guardian news: CUP backs down on China censorship
 ---
 
 The [recent self-censorship](https://www.insidehighered.com/news/2017/08/21/cambridge-university-press-blocks-access-300-plus-articles-request-chinese-censors) by Cambridge University Press in China is billed, by some, as an assault on academic freedom. It is certainly a worrying trend.

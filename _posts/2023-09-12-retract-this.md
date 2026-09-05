@@ -13,6 +13,12 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lxyg4h3
 categories:
 - Scholarly Communications
 kcworks: https://works.hcommons.org/records/xnb1r-sq561
+references:
+- https://doi.org/10.13003/c23rw1d9 # Crossref announcement acquiring Retraction Watch database
+- https://api.labs.crossref.org/data/retractionwatch?mailto=[YOUR@EMAIL.HERE # Crossref Labs Retraction Watch CSV data endpoint
+- https://api.labs.crossref.org/works/10.2147/CMAR.S324920?mailto=[YOUR@EMAIL.HERE # Crossref Labs API example work with retraction data
+- https://twitter.com/gcabanac/status/1701594642142363877 # Twitter question about retrieving all retractions via API
+- https://retractionwatch.com/2023/09/12/the-retraction-watch-database-becomes-completely-open-and-rw-becomes-far-more-sustainable/ # Retraction Watch open database announcement post
 ---
 
 Today's big news is that [Crossref has acquired the Retraction Watch database of expressions of concerns and retractions and has made it openly accessible to anyone who wants to use it](https://doi.org/10.13003/c23rw1d9). I'm waiting for full confirmation of the license or public domain dedication under which it will be released, but this is still a great commitment of Crossref to the POSI principles. The liberation of this database is good for science and scholarship in general. It means that Crossref now knows about approximately 50,000 retractions.

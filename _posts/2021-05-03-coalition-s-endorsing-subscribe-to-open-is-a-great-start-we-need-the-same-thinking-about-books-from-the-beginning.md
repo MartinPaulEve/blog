@@ -14,6 +14,14 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3flr4t
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/jfw76-b0022
+references:
+- https://www.coalition-s.org/coalition-s-endorses-the-s2o-model-of-funding-oa/ # cOAlition S endorsement of Subscribe to Open model
+- https://blogs.lse.ac.uk/impactofsocialsciences/2018/10/24/plan-show-me-the-money-why-academic-led-initiatives-represent-a-more-equitable-less-costly-publishing-future/ # LSE blog critique of Plan S APC bias
+- https://www.coalition-s.org/why-plan-s/ # cOAlition S Plan S rationale page
+- https://www.coalition-s.org/diamond-unearthed-shining-light-on-community-driven-open-access-publishing/ # cOAlition S Diamond OA report
+- https://www.coalition-s.org/blog/diamond-mining/ # cOAlition S blog on Diamond OA funding
+- https://openlibhums.org/ # Open Library of Humanities homepage
+- https://www.openingthefuture.net/ # Opening the Future OA books scheme
 ---
 
 This week, [cOAlition S endorsed the Subscribe to Open (S2O) business model](https://www.coalition-s.org/coalition-s-endorses-the-s2o-model-of-funding-oa/).

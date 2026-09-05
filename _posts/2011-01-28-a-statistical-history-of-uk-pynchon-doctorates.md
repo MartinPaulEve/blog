@@ -20,6 +20,8 @@ wordpress_id: 656
 wordpress_url: https://www.martineve.com/?p=656
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkro7vm2h"
 kcworks: https://works.hcommons.org/records/0brn2-egz30
+references:
+- http://ethos.bl.uk # British Library EThOS thesis database
 ---
 
 <p>While browsing the EThOS Thesis collection today, I suddenly became curious as to the history, statistically speaking, of doctorates in my field of literature: studies on Thomas Pynchon.</p>

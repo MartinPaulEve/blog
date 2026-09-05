@@ -13,6 +13,8 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5qzmc3
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/qk3w1-16231
+references:
+- https://editorresources.taylorandfrancis.com/welcome-to-tf/policies-guidelines/plan-s/ # Taylor and Francis Plan S editor resources page
 ---
 
 Transformative agreements for OA are all the rage at the moment. Plan S compliance beckons and early movers can make it sound as though they are really doing what’s needed.

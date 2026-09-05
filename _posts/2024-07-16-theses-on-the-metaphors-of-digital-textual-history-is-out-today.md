@@ -14,6 +14,9 @@ categories:
 - Publications
 - Digital Humanities
 kcworks: https://works.hcommons.org/records/hffbk-v8j37
+references:
+- https://www.sup.org/books/title/?id=33350 # Eve book at Stanford University Press
+- https://eprints.bbk.ac.uk/id/eprint/31744/ # Open-access edition of Eve book in BIROn
 ---
 
 I am very pleased to say that my book, _Theses on the Metaphors of Digital-Textual History_, is out today!

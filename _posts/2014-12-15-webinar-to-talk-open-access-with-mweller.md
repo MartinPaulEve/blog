@@ -20,6 +20,8 @@ title: 'Online p̶a̶r̶t̶y̶ webinar to talk open access with @mweller and me:
   16th December 3pm'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdpyyye2r"
 kcworks: https://works.hcommons.org/records/493gc-08695
+references:
+- http://www.ubiquitypress.com/site/books/detail/11/battle-for-open/ # Weller, The Battle for Open (Ubiquity Press)
 ---
 
 <p>Come along tomorrow to celebrate the launch of two books on "openness" in higher education! From 2pm UK time tomorrow, <a href="https://eu1.bbcollab.com/m.jnlp?password=M.8EF16598BFDB912C6A5A503EE6A008&sid=2013003">this room will be open</a> for a discussion with Martin Weller and me. This event promises to be really interesting and to showcase a range of thought on open access.</p>

@@ -13,6 +13,10 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lxl4t2e
 categories:
 - Scholarly Communications
 kcworks: https://works.hcommons.org/records/1ebs6-c4j86
+references:
+- https://www.hup.harvard.edu/catalog.php?isbn=9780674307605 # Grafton, The Footnote: A Curious History, Harvard UP
+- https://doi.org/10.1111/criq.12359 # Article on ChatGPT fabricating citations
+- https://www.amazon.co.uk/Metaphors-Digital-Textual-History-Stanford-Technologies/dp/1503614883/ref=sr_1_1 # Eve, Metaphors of Digital Textual History, Stanford UP
 ---
 
 What is the point of a citation? As Anthony Grafton puts it in his [history of the footnote](https://www.hup.harvard.edu/catalog.php?isbn=9780674307605), "the culturally contingent and eminently fallible footnote offers the only guarantee we have that statements about the past derive from identifiable sources. And that is the only ground we have to trust them" (233). So the point of a footnote/citation is to be able to lookup and check that epistemic claims are true? Sometimes. But not always, no.

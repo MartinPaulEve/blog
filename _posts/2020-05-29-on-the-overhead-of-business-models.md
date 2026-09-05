@@ -13,6 +13,8 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5lpuuh
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/9pgcf-yw089
+references:
+- https://openlibhums.org/plugins/supporters/signup/ # Open Library of Humanities institutional supporter signup
 ---
 
 OLH, obviously, has a business model for its open-access publishing. We operate due to a membership model in which approximately 300 libraries pay an annual fee so that we can exist and publish all our work openly. It works pretty well and is able to sustain our activities -- so long as the pandemic doesn't truly scupper us. [Please do join!](https://openlibhums.org/plugins/supporters/signup/)

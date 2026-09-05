@@ -23,6 +23,12 @@ wordpress_id: 689
 wordpress_url: https://www.martineve.com/?p=689
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkrdkba2p"
 kcworks: https://works.hcommons.org/records/qen7y-nmc98
+references:
+- http://www.flickr.com/photos/number10gov/ # UK Prime Minister's Office Flickr photostream
+- http://www.communities.gov.uk/news/corporate/1789190 # DCLG Big Society in the snow news item
+- http://www.communities.gov.uk/news/corporate/1779719 # DCLG Big Society fire safety news item
+- http://www.communities.gov.uk/news/corporate/1647385 # DCLG Big Society general will news item
+- http://www.communities.gov.uk/news/corporate/1634947 # DCLG Big Society decentralisation news item
 ---
 
 <p><i>Featured image credit: <a href="http://www.flickr.com/photos/number10gov/">The Prime Minister's Office</a> under a CC-BY-ND license.</i></p>

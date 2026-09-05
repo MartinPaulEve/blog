@@ -11,6 +11,15 @@ categories:
 - Thomas Pynchon
 - Digital Humanities
 kcworks: https://works.hcommons.org/records/hvr4r-1yp29
+references:
+- http://www.vulture.com/2015/09/pynchon-probably-did-not-write-a-secret-novel.html # Vulture: Penguin denies Pynchon wrote Cow Country
+- http://link.springer.com/10.1007/978-3-662-44952-3_13 # Stolerman chapter on computational forensic stylometry accuracy
+- http://thomaspynchon.com/thomas-pynchon-did-not-write-cow-country/ # thomaspynchon.com: Tim Ware on Pynchon not writing Cow Country
+- https://doi.org/10.1093/llc/fqn003 # Burrows Delta stylometry method article in LLC
+- http://dh2016.adho.org/abstracts/253 # DH2016 abstract on Delta as authorship text distance measure
+- https://doi.org/10.1093/llc/17.3.267 # Burrows on authorial fingerprints LLC article
+- https://sites.google.com/site/computationalstylistics/stylo # Stylo R package for computational stylistics
+- http://www.newrepublic.com/article/122802/thomas-pynchon-didnt-write-cow-country-aj-perry-probably-did # New Republic: AJ Perry probably wrote Cow Country
 ---
 
 In mid-2015, Art Winslow caused something of an online furore when he suggested that the pseudonymously-authored novel by “Adrian Jones Pearson”, _Cow Country_, was, in fact, a work by Thomas Pynchon. A full-blown argument then erupted when this was countered by Nate Jones and Pynchon's own publisher. Indeed, [Penguin thundered](http://www.vulture.com/2015/09/pynchon-probably-did-not-write-a-secret-novel.html): “[w]e are Thomas Pynchon's publisher and this is not a book by Thomas Pynchon”.

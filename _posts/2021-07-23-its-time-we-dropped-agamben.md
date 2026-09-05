@@ -14,6 +14,10 @@ categories:
 - Philosophy
 - Politics
 kcworks: https://works.hcommons.org/records/9j93w-te389
+references:
+- https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/is-the-covid19-vaccine-safe # Johns Hopkins Medicine on COVID-19 vaccine safety
+- https://www.nytimes.com/2020/08/21/opinion/sunday/giorgio-agamben-philosophy-coronavirus.html # NYT op-ed on Agamben and techno-medical despotism
+- https://thepointmag.com/politics/do-not-ask-me-who-i-am/ # Huneke, The Point critique of Agamben on COVID
 ---
 
 Giorgio Agamben gets around a lot on literature syllabi. His "What is the Contemporary?" is a staple of theoretical courses, his concept of "bare life" is used to think through the structures of contemporary biopower, and his thinking around "states of exception" and "states of emergency" find a fruitful home in many places.

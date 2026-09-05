@@ -15,6 +15,11 @@ tags:
 title: Academia.edu’s peer-review experiments
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc6ne4t2p"
 kcworks: https://works.hcommons.org/records/3ddg6-chz11
+references:
+- http://www.garyhall.info/journal/2015/10/18/does-academiaedu-mean-open-access-is-becoming-irrelevant.html # Gary Hall on academia.edu vs open access
+- http://core.ac.uk/download/pdf/16498437.pdf # Paper on peer review subjectivity excluding innovation
+- http://mcpress.media-commons.org/plannedobsolescence/one/the-reputation-economy/ # Fitzpatrick, Planned Obsolescence reputation economy
+- http://www.hefce.ac.uk/pubs/rereports/Year/2015/metrictide/Title,104463,en.html # HEFCE Metric Tide report on responsible metrics
 ---
 
 I've been sitting on the below piece for a while, but have [written about academia.edu before](https://www.martineve.com/2014/09/05/things-academia-edu-academia-should-do-hint-work-with-green-oa/). In recent days, though, [Gary Hall](http://www.garyhall.info/journal/2015/10/18/does-academiaedu-mean-open-access-is-becoming-irrelevant.html) and [Kathleen Fitzpatrick](http://www.plannedobsolescence.net/academia-not-edu/) have both written critiques of the site and so I thought it also worth adding this specific angle rather than just letting it sit on my hard drive.

@@ -15,6 +15,11 @@ categories:
 - Publications
 - Piracy and Shadow Libraries
 kcworks: https://works.hcommons.org/records/2g7fj-3tt47
+references:
+- https://punctumbooks.com/titles/warez-the-infrastructure-and-aesthetics-of-piracy/ # Eve, Warez, punctum books publisher page
+- https://library.oapen.org/handle/20.500.12657/52029 # Warez open-access download on OAPEN
+- https://www.amazon.com/dp/1685710360/r # Warez print edition on Amazon US
+- https://www.amazon.co.uk/dp/1685710360/ref=sr_1_1?keywords=warez+martin+paul+eve&qid=1639582354&sr=8-1 # Warez print edition on Amazon UK
 ---
 
 I am absolutely delighted to announce that, today, the 15th December 2021 marks the publication of my eighth academic book: [_Warez: The Infrastructure and Aesthetics of Piracy_](https://punctumbooks.com/titles/warez-the-infrastructure-and-aesthetics-of-piracy/). The book will be available to buy in print, but it's already available, open access, to [download from the OAPEN library](https://library.oapen.org/handle/20.500.12657/52029).

@@ -20,6 +20,8 @@ wordpress_id: 957
 wordpress_url: https://www.martineve.com/?p=957
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkfb45w2t"
 kcworks: https://works.hcommons.org/records/ag55q-0e137
+references:
+- http://www.flickr.com/photos/boellstiftung/ # boellstiftung Flickr photostream
 ---
 
 <p>Giving conference papers is a crucial part of academic life. It's the prime means of engaging with others in your discipline, getting a face associated with your name and, to use a vile term, networking. However, before you've made it big-time and are being invited to such events, you'll have to respond to calls for papers, or CFPs as they are abbreviated, and this is a bit of an art form.</p>

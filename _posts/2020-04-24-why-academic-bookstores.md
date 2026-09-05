@@ -14,6 +14,9 @@ categories:
 - Open Access
 - Higher Education
 kcworks: https://works.hcommons.org/records/qzj4g-18377
+references:
+- https://doi.org/10.1017/9781108675376 # Hawker, Economics of Academic Bookselling
+- https://unsplash.com/photos/e0cZ_WRHVxw # Florencia Viadana Unsplash photo
 ---
 
 A famous line from _Jurassic Park_ (1993) is that ‘[y]our scientists were so preoccupied with whether or not they could, they didn’t stop to think if they should’. I felt much the same, today, reading J. M. Hawker’s _Capital Letters: The Economics of Academic Bookselling_ (Cambridge: Cambridge University Press, 2019) <[https://doi.org/10.1017/9781108675376](https://doi.org/10.1017/9781108675376)>. For the aptly named Hawker tells us, the ‘core purpose of both publisher and bookshop is after all, no matter how a mission statement or corporate motto is phrased, to make money’ (55). This is, quite frankly, bullshit, given that many major academic publishers (CUP and OUP for example) are charities and exist solely to serve the public benefit/good, even if their affiliated institutions regard them as revenue, rather than cost, centres. However, it takes Hawker a quite astonishing 77 pages before he really articulates why the reader should care whether or not academic bookshops -- the object of this study -- can function in the contemporary era. Should they function? If so, why?

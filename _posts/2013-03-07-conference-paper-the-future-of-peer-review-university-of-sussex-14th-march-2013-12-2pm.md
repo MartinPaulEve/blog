@@ -21,6 +21,8 @@ wordpress_id: 2609
 wordpress_url: https://www.martineve.com/?p=2609
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgx6amd2h"
 kcworks: https://works.hcommons.org/records/kbajy-c2x30
+references:
+- http://www.sussex.ac.uk/library/staff/research/seminarsandevents/seminars2013 # Sussex Research Hive seminars 2013 page
 ---
 
 <p>A quick heads-up that I'll be speaking at the University of Sussex next week, my Ph.D. alma mater, on the "Future of Peer Review", alongside Maria Kowalczuk from BioMed Central. Taking place in the <a href="http://www.sussex.ac.uk/library/staff/research/seminarsandevents/seminars2013">Sussex Research Hive</a> on the 14th March 2013 at noon, we're hoping to explore the problems of the current model and the ways in which we can salvage what works while fixing the extant troubles.</p>

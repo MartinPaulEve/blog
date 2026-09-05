@@ -17,6 +17,8 @@ tags:
 title: The link between teaching, tuition fees and research publication economics
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mclkzjm2t"
 kcworks: https://works.hcommons.org/records/myx26-3bm43
+references:
+- http://dx.doi.org/10.1017/CBO9781316161012.004 # Eve, Open Access and the Humanities chapter on symbolic economy
 ---
 
 If you think carefully about research publication and its economics, a strange (but also obvious) point becomes clear. In university ecosystems where we have tuition fees (and probably in those without) we determine how much material can be published through the frame of reference of teaching.

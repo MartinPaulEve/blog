@@ -15,6 +15,11 @@ title: 'Jo Johnson: your proposals for British higher education will not yield t
   competitiveness you seek'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc6jeco2o"
 kcworks: https://works.hcommons.org/records/q2ydg-5mk40
+references:
+- http://www.conservativehome.com/thetorydiary/2015/10/the-accountability-and-transparency-revolution-coming-soon-to-a-university-near-you-courtesy-of-jo-johnson.html # Conservative Home report on Jo Johnson HE plans
+- http://www.topuniversities.com/university-rankings-articles/world-university-rankings/qs-world-university-rankings-methodology # QS World University Rankings methodology
+- https://www.timeshighereducation.com/features/uncontrolled-expansion-how-private-colleges-grew/2016579.article # THE feature on uncontrolled private college expansion
+- http://www.hefce.ac.uk/media/HEFCE,2014/Content/Pubs/Independentresearch/2015/REF,Accountability,Review,Costs,benefits,and,burden/2015_refreviewcosts.pdf # HEFCE report on REF costs benefits and burden
 ---
 
 Dear Mr. Johnson,

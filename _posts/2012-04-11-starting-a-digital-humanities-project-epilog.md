@@ -67,6 +67,10 @@ wordpress_id: 2029
 wordpress_url: https://www.martineve.com/?p=2029
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mihn2ge2h"
 kcworks: https://works.hcommons.org/records/cvmkx-8ph71
+references:
+- https://github.com/MartinPaulEve/epiLog/tree/master/epiLog # epiLog project repository on GitHub
+- http://flickr.com/ # Flickr OpenID provider endpoint
+- https://me.yahoo.com/ # Yahoo OpenID provider endpoint
 ---
 
 <p>As part of a transparent development process, I wanted to announce that I'm starting, thanks to some funding and support from a colleague at Sussex, a Digital Humanities project that focuses upon object annotation and cross-medium comparison. The project is called epiLog and will be available during development <a href="https://github.com/MartinPaulEve/epiLog/tree/master/epiLog">on my github</a>.</p>

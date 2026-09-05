@@ -100,6 +100,15 @@ wordpress_id: 1097
 wordpress_url: https://www.martineve.com/?p=1097
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkd7gde2h"
 kcworks: https://works.hcommons.org/records/txn0j-1ff58
+references:
+- http://uk.answers.yahoo.com/question/index?qid=20090910153441AAzSQrX # Yahoo Answers thread on Once Upon a Time Life cartoon
+- http://www.usatoday.com/news/opinion/editorials/2005-07-31-letters-other_x.htm # USA Today letters on anti-war rhetoric and illness language
+- http://www.guardian.co.uk/world/2011/may/20/paralysed-sports-star-steps-history-rob-summers # Guardian report on paralysed Rob Summers walking again
+- http://www.guardian.co.uk/science/2010/jul/12/cancer-survival-rates-doubled # Guardian piece on cancer survival rates doubling
+- http://news.bbc.co.uk/2/hi/health/7052318.stm # BBC health report on attitude and cancer survival
+- http://www.rawarrior.com # RA Warrior rheumatoid arthritis support site
+- http://www.guardian.co.uk/society/2011/may/14/disabled-face-increasing-hostility-strangers # Guardian report on disabled people facing street hostility
+- http://www.flickr.com/photos/familymwr/ # familymwr Flickr photostream CC-BY
 ---
 
 <p>When I was in hospital the week before last, I was struck by how all-pervasive the rhetoric of "fighting" is when people are coping with illness or new disability. I'm sure that this has been covered by those in critical disability studies far better than I can put it here, but I wanted to flag it up as an area of concern.</p>

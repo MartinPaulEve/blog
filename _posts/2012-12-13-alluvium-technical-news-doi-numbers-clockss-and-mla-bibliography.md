@@ -27,6 +27,12 @@ wordpress_id: 2526
 wordpress_url: https://www.martineve.com/?p=2526
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhg6qge2h"
 kcworks: https://works.hcommons.org/records/ve3ad-rka27
+references:
+- http://www.alluvium-journal.org # Alluvium journal homepage
+- http://www.alluvium-journal.org/about-alluvium/copyright-position/ # Alluvium journal copyright position statement
+- http://www.clockss.org/ # CLOCKSS digital archival service
+- https://en.wikipedia.org/wiki/Digital_object_identifier # Wikipedia article on digital object identifiers
+- http://dx.doi.org/10.7766/alluvium.v1.1.01 # Alluvium vol 1 no 1 editorial preface DOI
 ---
 
 <p>Several exciting goings-on at <a href="http://www.alluvium-journal.org"><i>Alluvium</i></a> merit a quick post here to give a rundown of the new features available, which are mostly behind-the-scenes, but definitely do a lot for <i>Alluvium</i> as a publishing destination.</p>

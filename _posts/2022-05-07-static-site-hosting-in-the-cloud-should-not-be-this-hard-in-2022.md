@@ -13,6 +13,13 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lz6isj4
 categories:
 - Programming
 kcworks: https://works.hcommons.org/records/sqv2m-j7y54
+references:
+- https://app.cloudcraft.co/ # Cloudcraft AWS architecture diagram tool
+- https://github.com/MartinPaulEve/meve-iac # Eve's infrastructure-as-code repo on GitHub
+- https://aws.amazon.com/blogs/compute/implementing-default-directory-indexes-in-amazon-s3-backed-amazon-cloudfront-origins-using-lambdaedge/ # AWS blog on S3/CloudFront directory index with Lambda@Edge
+- https://github.com/MartinPaulEve/meve-iac/tree/main/modules/terraform-aws-lambda-at-edge # Eve's Terraform Lambda@Edge module on GitHub
+- https://stackoverflow.com/a/52434219/349003 # Stack Overflow answer on Lambda@Edge event lifecycle
+- https://books.eve.gd # Eve's books subdomain site
 ---
 
 Last weekend I converted my website hosting to an infrastructure-as-code solution. It's no big deal, I thought. It's just a static site so it must be really easy to provision this. Surely just some kind of AWS S3 bucket associated with a custom domain? I mean, generated static sites are great. They are fast, lightweight, and virtually un-hackable. Surely it must be easy to deploy this?

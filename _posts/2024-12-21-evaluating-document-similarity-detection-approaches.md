@@ -15,6 +15,26 @@ categories:
 - Programming
 - Scholarly Communications
 kcworks: https://works.hcommons.org/records/h09vd-pbr20
+references:
+- https://gbilder.com/ # Geoffrey Bilder personal website
+- https://github.com/MartinPaulEve/content-drift/blob/main/engines/jaccard.py # content-drift Jaccard similarity implementation
+- https://github.com/MartinPaulEve/content-drift/blob/main/engines/euclidean.py # content-drift Euclidean distance implementation
+- https://github.com/MartinPaulEve/content-drift/blob/main/engines/cosine.py # content-drift cosine similarity implementation
+- https://bit.ly/w2vgdrive # Google pre-trained Word2Vec model download
+- https://github.com/MartinPaulEve/content-drift/blob/main/engines/word_embeddings.py # content-drift word embeddings implementation
+- https://github.com/MartinPaulEve/content-drift/blob/main/engines/sentence_embeddings_bert.py # content-drift BERT sentence embeddings implementation
+- https://github.com/MartinPaulEve/content-drift/blob/main/engines/transformer_openai.py # content-drift OpenAI transformer implementation
+- https://github.com/MartinPaulEve/content-drift/tree/main # content-drift document similarity evaluation application
+- https://doi.org/10.1371/journal.pone.0167475 # Klein et al, content drift in DOI references, PLOS ONE 2016
+- https://doi.org/10.48550/arXiv.2308.02752 # DeDrift: robust similarity search under content drift, arXiv 2023
+- https://doi.org/10.1145/857166.857170 # Cho and Garcia-Molina, web evolution and crawl frequency, ACM 2003
+- https://doi.org/10.2139/ssrn.3833133 # Content change within New York Times, SSRN 2021
+- https://towardsdatascience.com/17-types-of-similarity-and-dissimilarity-measures-used-in-data-science-3eb914d2681 # Harmouch, 17 similarity measures in data science, Medium 2021
+- https://doi.org/10.1109/ICGCE.2013.6823554 # Karunakaran, document similarity, ICGCE IEEE 2013
+- https://doi.org/10.1109/ICDE.2019.00109 # Similarity search paper, ICDE 2019
+- https://doi.org/10.1109/TKDE.2013.19 # Lin et al, similarity measure for text classification, TKDE 2014
+- https://www.kdnuggets.com/evaluating-methods-for-calculating-document-similarity # Muthukumar, evaluating document similarity methods, KDnuggets 2023
+- https://www.linkedin.com/pulse/document-similarity-examples-python-rany-elhousieny-phd%E1%B4%AC%E1%B4%AE%E1%B4%B0-0i5lc # ElHousieny, document similarity with Python examples, LinkedIn
 ---
 
 “Content drift” is an important concept for digital preservation and web archiving. Scholarly readers expect to find immutable (“persisted”) content at the resolution endpoint of a DOI. It is a matter of research integrity that research articles should remain the same at the endpoint, as citations can refer to specific textual formulations.

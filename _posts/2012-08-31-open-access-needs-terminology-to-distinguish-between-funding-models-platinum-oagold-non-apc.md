@@ -22,6 +22,9 @@ wordpress_id: 2302
 wordpress_url: https://www.martineve.com/?p=2302
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhv54242h"
 kcworks: https://works.hcommons.org/records/vrwgz-p3m38
+references:
+- http://informationr.net/ir/12-4/paper321.html # Information Research paper on Platinum OA
+- https://groups.google.com/a/arl.org/group/sparc-oaforum/msg/a6d91858eb751a00?pli=1 # Harnad SPARC OA forum post on terminology
 ---
 
 <p>In the wake of the Finch report, one of the most frequent cries from academics, particularly at the early career phase, was one of despair. The endorsement of Gold OA meant, mostly to them, that they would have to budget for publication funds in their applications. In short, Gold meant gold; currency.</p>

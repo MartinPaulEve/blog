@@ -13,6 +13,9 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lymg4xk
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/a39j5-3ka22
+references:
+- https://web.hypothes.is/blog/say-hello-to-anno/ # Hypothes.is corporate form change to Anno
+- https://www.whpress.co.uk/publications/journal-prices/ # Woodbridge and Hurt Press journal prices page
 ---
 
 There's a lot of focus in the scholarly communications space on transformative agreements for the mega-publishers. Indeed, most of the discourse, most of the time, is about the big publishers in this space. They play Big Bad Wolf with their exorbitant profit margins and make for an easy target. Heck, that's where I came to OA: through frustration at a lack of access to life-saving or life-enriching scholarly work, when some publishers were making absolute mega-bucks profit.

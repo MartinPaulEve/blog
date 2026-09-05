@@ -19,6 +19,9 @@ wordpress_id: 2491
 wordpress_url: https://www.martineve.com/?p=2491
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhmuoas2s"
 kcworks: https://works.hcommons.org/records/zgp2w-hfb22
+references:
+- http://www.guardian.co.uk/uk/2012/nov/12/teenager-arrested-burning-poppy-facebook # Guardian report on teenager arrested for burning poppy photo
+- http://www.bbc.co.uk/news/uk-england-20000243 # BBC report on Nick Griffin tweeting gay couple address
 ---
 
 <p>A teenager <a href="http://www.guardian.co.uk/uk/2012/nov/12/teenager-arrested-burning-poppy-facebook">has been arrested for posting a picture of a burnt remembrance poppy</a>. Nick Griffin <a href="http://www.bbc.co.uk/news/uk-england-20000243">walks free despite tweeting the address</a> of a gay couple who won their appeal against discrimination advocating a "British justice squad" who should "show them a bit of drama".</p>

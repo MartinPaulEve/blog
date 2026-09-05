@@ -14,6 +14,9 @@ categories:
 - Programming
 - Artificial Intelligence
 kcworks: https://works.hcommons.org/records/hdnxy-2tq35
+references:
+- https://github.com/MartinPaulEve/seance4d/blob/main/seance4d/seance4d/main.py # seance4d voice AI main event loop source
+- https://stackoverflow.com/a/34796794/349003 # Stack Overflow answer on alsaaudio buffer processing
 ---
 
 How do you solve a problem like a séance? With Python and GPT3, is my answer.

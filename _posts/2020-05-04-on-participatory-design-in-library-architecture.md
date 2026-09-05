@@ -14,6 +14,8 @@ categories:
 - Open Access
 - Scholarly Communications
 kcworks: https://works.hcommons.org/records/gf4tt-t1c25
+references:
+- https://doi.org/10.1080/01930826.2014.915166 # Journal of Library Administration article on library design
 ---
 
 This week, our COPIM WP2/WP3 reading group discussed Meunier, Benjamin, and Olaf Eigenbrodt, ‘More Than Bricks and Mortar: Building a Community of Users Through Library Design’, _Journal of Library Administration_, 54.3 (2014), 217–32 <[https://doi.org/10.1080/01930826.2014.915166](https://doi.org/10.1080/01930826.2014.915166)>. We were interested to consider the implications of participatory design in library architecture for new digital infrastructures.

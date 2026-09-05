@@ -14,6 +14,9 @@ tags:
 title: Quasi-Objects
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc73vx32p"
 kcworks: https://works.hcommons.org/records/9nwja-0xh36
+references:
+- http://dx.doi.org/10.1016/j.aap.2006.08.010 # Accident Analysis and Prevention bike helmet study
+- http://dx.doi.org/10.1371/journal.pone.0075424 # PLoS ONE reanalysis of Walker 2007 helmet data
 ---
 
 An off-cut from writing.

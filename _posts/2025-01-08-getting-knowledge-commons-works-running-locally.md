@@ -14,6 +14,9 @@ categories:
 - Scholarly Communications
 - Programming
 kcworks: https://works.hcommons.org/records/sfg6g-mah16
+references:
+- https://pypi.org/simple # PyPI simple package index
+- https://github.com/MESH-Research/knowledge-commons-works # Knowledge Commons Works repository on GitHub
 ---
 
 This week, I have started work at Michigan State University, as interim technical lead on the Knowledge Commons project. I'll probably say more about this at some point soon.

@@ -11,6 +11,197 @@ categories:
 - Personal
 - Academia
 kcworks: https://works.hcommons.org/records/2ycm0-83n12
+references:
+- http://schema.org/Person # Schema.org Person type vocabulary
+- https://www.martineve.com # Martin Paul Eve personal website
+- http://eprints.bbk.ac.uk/id/eprint/12131 # Eve, Password (Bloomsbury 2016) Birkbeck eprint
+- http://dx.doi.org/10.11647/OBP.0102 # Eve, Literature Against Criticism (Open Book Publishers 2016)
+- http://eprints.bbk.ac.uk/id/document/29014 # Literature Against Criticism download Birkbeck
+- http://schema.org/CreativeWork # Schema.org CreativeWork type vocabulary
+- http://eprints.bbk.ac.uk/id/eprint/17617 # Eve et al, Excellence R Us Palgrave Communications
+- http://schema.org/Periodical # Schema.org Periodical type vocabulary
+- http://doi.org/10.5334/johd.6 # Eve, JSON-Encoded Textual Variance Cloud Atlas JOHD
+- http://eprints.bbk.ac.uk/id/document/30983 # JSON Cloud Atlas article download Birkbeck
+- http://doi.org/10.16995/orbit.204 # Eve, Shorthand of Stars Pynchon Orbit journal
+- http://eprints.bbk.ac.uk/id/document/28197 # Shorthand of Stars article download Birkbeck
+- http://doi.org/10.16995/olh.82 # Eve, Cloud Atlas Version Variants OLH article
+- http://eprints.bbk.ac.uk/id/document/27534 # Cloud Atlas OLH article Appendix A download
+- http://eprints.bbk.ac.uk/id/document/27535 # Cloud Atlas OLH article Appendix B download
+- http://eprints.bbk.ac.uk/id/document/27536 # Cloud Atlas OLH article Appendix C JSON download
+- http://eprints.bbk.ac.uk/id/document/27608 # Cloud Atlas OLH full text download Birkbeck
+- http://eprints.bbk.ac.uk/id/eprint/16684 # Eve, Open Access in the United Kingdom book chapter
+- http://eprints.bbk.ac.uk/id/eprint/16682 # Eve, Openness Politics and Power book chapter
+- http://eprints.bbk.ac.uk/id/eprint/15059 # Eve, Modernist Anxieties in Tom McCarthy's C chapter
+- http://eprints.bbk.ac.uk/id/document/31363 # Cemmento blog post download Birkbeck
+- http://eprints.bbk.ac.uk/id/document/31302 # REF 5-star blog post download Birkbeck
+- http://eprints.bbk.ac.uk/id/document/31242 # REF consultation reading blog post download
+- http://eprints.bbk.ac.uk/id/document/31241 # Five un-busted TEF blog post download Birkbeck
+- http://eprints.bbk.ac.uk/id/document/31151 # Elsevier CMA referral blog post download
+- http://eprints.bbk.ac.uk/id/document/30976 # OA sustainability blog post download Birkbeck
+- http://blogs.bbk.ac.uk/english/2016/11/21/martin-eve-on-the-man-who-knew-infinity/ # Eve on The Man Who Knew Infinity Birkbeck blog
+- http://eprints.bbk.ac.uk/id/document/30261 # Man Who Knew Infinity blog post download
+- http://eprints.bbk.ac.uk/id/document/30671 # Aesthetics of Metadata announcement download
+- http://eprints.bbk.ac.uk/id/document/30575 # APC-free models blog post download Birkbeck
+- http://eprints.bbk.ac.uk/id/document/30485 # Digital publishing challenge blog post download
+- http://eprints.bbk.ac.uk/id/document/30622 # Public access humanities blog post download
+- http://eprints.bbk.ac.uk/id/document/30889 # OA arguments blog post download Birkbeck
+- http://eprints.bbk.ac.uk/id/document/30568 # Literature Against Criticism launch post download
+- http://eprints.bbk.ac.uk/id/document/30573 # Open Book Publishers experience post download
+- http://blogs.bbk.ac.uk/english/2016/10/11/martin-eve-and-peter-fifield-on-nos-knife-at-the-old-vic/ # Eve and Fifield on No's Knife Old Vic Birkbeck
+- http://eprints.bbk.ac.uk/id/document/30196 # No's Knife blog post download Birkbeck
+- http://eprints.bbk.ac.uk/id/eprint/16283 # Eve and Gjengedal, excellence damages research Norwegian
+- http://eprints.bbk.ac.uk/id/document/30708 # New Horizons series proposals post download
+- http://eprints.bbk.ac.uk/id/document/30670 # Golumbia OA response blog post download Birkbeck
+- http://eprints.bbk.ac.uk/id/document/28331 # OA peer review Cambridge blog post download
+- http://eprints.bbk.ac.uk/id/document/30587 # LaTeX and labour blog post download Birkbeck
+- http://blogs.bbk.ac.uk/english/2016/09/12/martin-eve-on-ben-jonson-the-alchemist-at-the-barbican/ # Eve on Ben Jonson The Alchemist Barbican Birkbeck
+- http://eprints.bbk.ac.uk/id/document/30198 # Alchemist Barbican blog post download Birkbeck
+- http://timescolumns.typepad.com/stothard/2016/09/by-what-does-it-mean-to-research-contemporary-fiction-in-a-university-how-are-academics-working-in-this-space-different-t.html # Eve, Scholar meet Author TLS Stothard blog
+- http://eprints.bbk.ac.uk/id/document/28163 # Scholar meet Author TLS post download Birkbeck
+- http://eprints.bbk.ac.uk/id/eprint/15948 # Eve and Starczewski academic discourses Polish interview
+- http://eprints.bbk.ac.uk/id/document/30930 # Why Open Book Publishers post download Birkbeck
+- http://eprints.bbk.ac.uk/id/document/30886 # Paying it forward post download Birkbeck
+- https://www.actualitte.com/article/monde-edition/cloud-atlas-des-versions-presque-incomparables-du-roman-de-david-mitchell/66593 # Actualitte French article on Cloud Atlas editions
+- http://eprints.bbk.ac.uk/id/eprint/15892 # Eve, Password book Bloomsbury 2016 Birkbeck eprint
+- http://eprints.bbk.ac.uk/id/document/27689 # Password book download Birkbeck
+- http://eprints.bbk.ac.uk/id/eprint/15889 # Eve and Starczewski academic discourses English Birkbeck
+- http://eprints.bbk.ac.uk/id/document/27681 # Academic discourses English article download Birkbeck
+- http://eprints.bbk.ac.uk/id/document/30564 # Driven by technology blog post download Birkbeck
+- http://eprints.bbk.ac.uk/id/eprint/15885 # Eve and Schelstraete Cloud Atlas Dutch press article
+- http://eprints.bbk.ac.uk/id/eprint/15887 # Eve, Book Groups Beware Cloud Atlas Guardian
+- http://eprints.bbk.ac.uk/id/document/27673 # Book Groups Beware article download Birkbeck
+- http://eprints.bbk.ac.uk/id/document/30412 # Computational reading blog post download Birkbeck
+- http://eprints.bbk.ac.uk/id/eprint/15876 # Eve and Matthews Stern review REF Times Higher
+- https://www.theguardian.com/books/2016/aug/10/cloud-atlas-astonishingly-different-in-us-and-uk-editions-study-finds # Guardian article Cloud Atlas US UK edition differences
+- http://eprints.bbk.ac.uk/id/document/30470 # Cloud Atlas versions blog post download Birkbeck
+- http://eprints.bbk.ac.uk/id/document/30590 # Stern REF blog post download Birkbeck
+- http://eprints.bbk.ac.uk/id/eprint/15854 # Eve and McKenzie Stern review early-career researchers
+- http://wonkhe.com/blogs/comment-reflections-on-stern/ # WonkHE kinder gentler REF Stern reflections
+- http://eprints.bbk.ac.uk/id/document/30453 # Password book launch post download Birkbeck
+- http://eprints.bbk.ac.uk/id/document/30724 # Ownership portability blog post download Birkbeck
+- http://eprints.bbk.ac.uk/id/document/30754 # Stern review REF blog post download Birkbeck
+- http://blogs.bbk.ac.uk/english/2016/07/25/martin-eve/ # Eve on William Gaddis JR Birkbeck English blog
+- http://eprints.bbk.ac.uk/id/document/30195 # Gaddis JR blog post download Birkbeck
+- http://eprints.bbk.ac.uk/id/document/30577 # AngularJS directives blog post download Birkbeck
+- http://eprints.bbk.ac.uk/id/document/30555 # DOM mutation observers blog post download Birkbeck
+- http://eprints.bbk.ac.uk/id/eprint/15664 # Eve and Havergal two-thirds UK academics back OA
+- http://eprints.bbk.ac.uk/id/document/30908 # Text ranges XPath blog post download Birkbeck
+- http://eprints.bbk.ac.uk/id/document/30396 # Annotator.js loader blog post download Birkbeck
+- http://eprints.bbk.ac.uk/id/document/30411 # CaSSius PDF blog post download Birkbeck
+- https://www.martineve.com/2016/06/16/consortial-purchasing-and-downward-price-pressure-for-open-access # Eve blog post consortial funding OA price pressure
+- http://eprints.bbk.ac.uk/id/document/30853 # Consortial OA funding blog post download Birkbeck
+- http://eprints.bbk.ac.uk/id/eprint/15578 # Eve focus on excellence damaging science article
+- http://eprints.bbk.ac.uk/id/document/30942 # JSON corpus parsing blog post download Birkbeck
+- https://www.martineve.com/2016/06/09/identifying-26gb-of-json-novel-data # Eve blog post identifying 26GB JSON novel data
+- http://eprints.bbk.ac.uk/id/document/30932 # 26GB JSON data blog post download Birkbeck
+- http://blogs.bbk.ac.uk/english/2016/06/09/martin-eve-on-hermann-hesse-the-glass-bead-game/ # Eve on Hesse Glass Bead Game Birkbeck English blog
+- http://eprints.bbk.ac.uk/id/document/30194 # Glass Bead Game blog post download Birkbeck
+- http://eprints.bbk.ac.uk/id/eprint/15347 # Eve, Coping with Illness essay
+- http://doi.org/10.16995/orbit.199 # Haynes et al announcing Pynchon Notes digital availability
+- https://www.martineve.com/SaschaPöhlmann # Sascha Pohlmann author profile martineve.com
+- https://www.martineve.com/Simonde # Simon de Bourcier author profile martineve.com
+- https://www.martineve.com/JoannaFreer # Joanna Freer author profile martineve.com
+- https://www.martineve.com/DougHaynes # Doug Haynes author profile martineve.com
+- http://eprints.bbk.ac.uk/id/document/26370 # Pynchon Notes digital availability article download
+- https://www.martineve.com/2016/05/23/what-do-we-mean-when-we-call-scholarly-communications-platforms-sustainable # Eve blog post on sustainable scholarly communications
+- http://eprints.bbk.ac.uk/id/document/30579 # Scholarly comms sustainability blog post download
+- https://www.martineve.com/2016/05/19/reading-potter-stewart # Eve blog post reading Potter Stewart on recognition
+- http://eprints.bbk.ac.uk/id/document/30426 # Potter Stewart blog post download Birkbeck
+- https://www.martineve.com/2016/05/11/hypothesis-v0814-error-oserror-errno-2-no-such-file-or-directory # Eve blog post Hypothes.is v0.8.14 OSError fix
+- http://eprints.bbk.ac.uk/id/document/30779 # Hypothes.is error blog post download Birkbeck
+- https://www.martineve.com/2016/05/04/on-neural-networks-and-health-data-privacy # Eve blog post on neural networks health data privacy
+- http://eprints.bbk.ac.uk/id/document/30752 # Neural networks health privacy post download Birkbeck
+- https://www.martineve.com/2016/05/04/what-elsevier-and-the-minister-for-higher-education-in-the-uk-jo-johnson-met-about # Eve blog post Elsevier Jo Johnson meeting transcript
+- http://eprints.bbk.ac.uk/id/document/30756 # Elsevier Jo Johnson blog post download Birkbeck
+- https://www.martineve.com/2016/05/03/overriding-hypothesiss-interface-the-right-way # Eve blog post overriding Hypothes.is interface
+- http://eprints.bbk.ac.uk/id/document/30480 # Hypothes.is interface blog post download Birkbeck
+- https://www.martineve.com/2016/04/27/embargoing-metadata # Eve blog post on embargoing metadata
+- http://eprints.bbk.ac.uk/id/document/30392 # Embargoing metadata blog post download Birkbeck
+- https://www.martineve.com/2016/04/16/the-faber-finds-edition-of-rex-warners-the-professor # Eve blog post Faber Finds Rex Warner The Professor
+- http://eprints.bbk.ac.uk/id/document/30549 # Rex Warner Professor blog post download Birkbeck
+- https://www.martineve.com/2016/04/07/open-access-in-a-time-of-illness # Eve blog post open access in time of illness
+- http://eprints.bbk.ac.uk/id/document/30514 # OA time of illness blog post download Birkbeck
+- https://www.martineve.com/2016/03/28/i-am-currently-off-work-having-suffered-cerebral-vasculitis-and-a-stroke # Eve blog post on cerebral vasculitis and stroke
+- http://eprints.bbk.ac.uk/id/document/30523 # Vasculitis stroke blog post download Birkbeck
+- https://www.martineve.com/2016/03/01/it-looks-unlikely-that-universities-are-going-to-get-out-of-the-freedom-of-information-act # Eve blog post UK universities Freedom of Information Act
+- http://eprints.bbk.ac.uk/id/document/30500 # FOI Act universities blog post download Birkbeck
+- https://www.martineve.com/2016/02/26/the-critique-of-utopia # Eve blog post on critique of utopia
+- http://eprints.bbk.ac.uk/id/document/30408 # Critique of utopia blog post download Birkbeck
+- https://www.martineve.com/2016/02/26/rethinking # Eve blog post world reimagined without university
+- http://eprints.bbk.ac.uk/id/document/30848 # World without university blog post download Birkbeck
+- https://www.martineve.com/2016/02/23/David-Willetts # Eve blog post on David Willetts political philosophy
+- http://eprints.bbk.ac.uk/id/document/30469 # David Willetts blog post download Birkbeck
+- https://www.martineve.com/2016/02/18/REF-consultation # Eve blog post on postponed REF consultation document
+- http://eprints.bbk.ac.uk/id/document/30856 # REF consultation blog post download Birkbeck
+- https://www.martineve.com/2016/02/17/on-speed-and-open-access # Eve blog post on speed and open access
+- http://eprints.bbk.ac.uk/id/document/30921 # Speed and OA blog post download Birkbeck
+- https://www.martineve.com/2016/02/16/understanding-ofquals-inter-subject-comparability-rasch-model-tests-for-easyhard-subjects-at-gcse-and-a-level # Eve blog post Ofqual inter-subject Rasch model GCSE
+- http://eprints.bbk.ac.uk/id/document/30610 # Ofqual Rasch model blog post download Birkbeck
+- https://www.martineve.com/2016/02/15/accreditation-and-research-assessment-practices # Eve blog post DORA Tickell review accreditation
+- http://eprints.bbk.ac.uk/id/document/30941 # DORA Tickell accreditation blog post download
+- https://www.martineve.com/2016/02/13/on-ten-years-of-chronic-illness # Eve blog post ten years of chronic illness
+- http://eprints.bbk.ac.uk/id/document/30631 # Chronic illness ten years post download Birkbeck
+- https://www.martineve.com/2016/02/13/looking-back-on-my-early-visualizations-of-gravitys-rainbow # Eve blog post DH visualizations Gravity's Rainbow
+- http://eprints.bbk.ac.uk/id/document/30434 # Gravity's Rainbow visualizations post download Birkbeck
+- https://www.martineve.com/2016/02/12/professor-of-literature-technology-and-publishing # Eve blog post Professor of Literature Technology Publishing
+- http://eprints.bbk.ac.uk/id/document/30581 # Professor appointment blog post download Birkbeck
+- https://www.martineve.com/2016/02/09/an-old-tradition-and-a-new-technology-notes-on-why-open-access-remains-hard # Eve blog post old tradition new technology OA hard
+- http://eprints.bbk.ac.uk/id/document/30442 # OA remains hard blog post download Birkbeck
+- https://www.martineve.com/2016/02/05/why-handling-book-processing-charges-from-a-purchasing-library-is-hard # Eve blog post Book Processing Charges libraries
+- http://eprints.bbk.ac.uk/id/document/30753 # BPCs libraries blog post download Birkbeck
+- http://www.ids.ac.uk/opinion/a-brave-new-world-of-open-access-publishing # Eve, Brave New World of Open Access Publishing IDS
+- http://eprints.bbk.ac.uk/id/document/23075 # Brave New World OA post download Birkbeck
+- https://www.martineve.com/2016/01/30/institutional-finance-and-academic-freedom # Eve blog post institutional finance academic freedom
+- http://eprints.bbk.ac.uk/id/document/30735 # Institutional finance academic freedom post download
+- https://www.martineve.com/2016/01/22/phd-criterion-to-merit-publication # Eve blog post PhD criterion merit publication
+- http://eprints.bbk.ac.uk/id/document/30629 # PhD merit publication blog post download Birkbeck
+- https://www.martineve.com/2016/01/11/the-methodology-of-literary-taxonomy-harking-and-p-hacking # Eve blog post literary taxonomy HARKing p-hacking
+- http://eprints.bbk.ac.uk/id/document/30654 # Literary taxonomy HARKing post download Birkbeck
+- https://www.martineve.com/2016/01/08/these-games-we-play-in-scholcomms # Eve blog post games in scholarly communications
+- http://eprints.bbk.ac.uk/id/document/30787 # ScholComms games blog post download Birkbeck
+- https://www.martineve.com/2016/01/07/the-uk-copyright-exemption-for-text-and-data-mining-vs-the-dmca # Eve blog post UK TDM copyright exemption vs DMCA
+- http://eprints.bbk.ac.uk/id/document/30777 # TDM copyright blog post download Birkbeck
+- https://www.martineve.com/2016/01/06/he-green-paper-response-to-question-28 # Eve HE Green Paper response question 28
+- http://eprints.bbk.ac.uk/id/document/30393 # HE Green Paper Q28 post download Birkbeck
+- https://www.martineve.com/2016/01/06/my-response-to-the-he-green-paper # Eve blog post response to HE Green Paper
+- http://eprints.bbk.ac.uk/id/document/30772 # HE Green Paper response post download Birkbeck
+- https://www.martineve.com/2016/01/02/he-green-paper-response-to-question-27 # Eve HE Green Paper response question 27
+- http://eprints.bbk.ac.uk/id/document/30341 # HE Green Paper Q27 post download Birkbeck
+- http://schema.org/EducationEvent # Schema.org EducationEvent type vocabulary
+- http://eprints.bbk.ac.uk/id/eprint/16677 # Eve, Open Access in Humanities talk Courtauld 2016
+- http://schema.org/Place # Schema.org Place type vocabulary
+- http://eprints.bbk.ac.uk/id/eprint/16600 # Eve, Open Access Humanities New Funding Model talk
+- http://eprints.bbk.ac.uk/id/eprint/16550 # Eve, Blank Generation Blacklock I'm Jack talk
+- http://eprints.bbk.ac.uk/id/eprint/16472 # Eve, OLH New Model for Open Access one year on talk
+- http://eprints.bbk.ac.uk/id/eprint/16471 # Eve, Open Access Week Birkbeck 2016 talk
+- http://eprints.bbk.ac.uk/id/eprint/16439 # Eve, Open Access Week Birkbeck 2016 second talk
+- http://eprints.bbk.ac.uk/id/eprint/16438 # Eve Marshall Curno Verbeke Open Peer Review talk
+- https://www.martineve.com/DianaMarshall # Diana Marshall author profile martineve.com
+- https://www.martineve.com/MirjamCurno # Mirjam Curno author profile martineve.com
+- https://www.martineve.com/DemmyVerbeke # Demmy Verbeke author profile martineve.com
+- http://eprints.bbk.ac.uk/id/eprint/16391 # Eve, Open Access and OLH Publishing Now talk
+- http://eprints.bbk.ac.uk/id/eprint/16162 # Eve, Technology Publishing Digital Reproducibility talk
+- http://eprints.bbk.ac.uk/id/eprint/15891 # Eve Kinney Cohen Walsh Object Lessons talk
+- https://www.martineve.com/AlisonKinney # Alison Kinney author profile martineve.com
+- https://www.martineve.com/Jeffrey # Jeffrey J Cohen author profile martineve.com
+- https://www.martineve.com/JoannaWalsh # Joanna Walsh author profile martineve.com
+- https://www.martineve.com/GinoD’Oca
+- https://www.martineve.com/KatyShaw # Katy Shaw author profile martineve.com
+- http://eprints.bbk.ac.uk/id/eprint/15688 # Eve Blacklock Carville Hankinson Crime Writers talk
+- https://www.martineve.com/MarkBlacklock # Mark Blacklock author profile martineve.com
+- https://www.martineve.com/DaraghCarville # Daragh Carville author profile martineve.com
+- https://www.martineve.com/AndrewHankinson # Andrew Hankinson author profile martineve.com
+- http://eprints.bbk.ac.uk/id/eprint/15632 # Eve, Death Politics Archive Cloud Atlas editions talk
+- http://eprints.bbk.ac.uk/id/eprint/15427 # Eve, Open Access State of Play talk
+- http://eprints.bbk.ac.uk/id/eprint/15426 # Eve, Open Access Movement in a Digital World talk
+- http://eprints.bbk.ac.uk/id/eprint/15032 # Eve, Evolving Present of Scholarly Communications talk
+- http://eprints.bbk.ac.uk/id/eprint/15031 # Eve, Open Access and its Politics seminar talk
+- http://eprints.bbk.ac.uk/id/eprint/15633 # Eve, on Adiseshiah LePage Twenty-First-Century Drama
+- http://eprints.bbk.ac.uk/id/eprint/15030 # Eve, Only Revolutions Evolving Present ScholComms talk
+- http://eprints.bbk.ac.uk/id/eprint/15029 # Eve, Open Access Humanities Contexts Controversies talk
+- http://eprints.bbk.ac.uk/id/eprint/14236 # Eve, Passwords Cultural History Queen Mary talk
+- http://eprints.bbk.ac.uk/id/eprint/14235 # Eve, Open Access What It Is and Why It Matters talk
+- http://eprints.bbk.ac.uk/id/eprint/13948 # Eve, Publishing and Technology TECHNE workshop talk
 ---
 
 2016 was a year of mixed fortune for me. On the positive side, OLH continues to grow, I was made a (full) Professor, and I published two books. On the downside, I was seriously ill, suffering a stroke linked to vasculitis in March, from which I have made a near-full recovery. I've enjoyed working with my PhD students, though, and am looking forward to a less eventful 2017!

@@ -23,6 +23,9 @@ wordpress_id: 2281
 wordpress_url: https://www.martineve.com/?p=2281
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhvt6bx2r"
 kcworks: https://works.hcommons.org/records/tm6kz-cdt81
+references:
+- http://blogs.lse.ac.uk/impactofsocialsciences/2012/08/02/how-should-blogs-referenced/ # LSE impact blog on referencing blogs
+- http://www.guardian.co.uk/higher-education-network/blog/2011/sep/20/academy-scared-of-blogging # Guardian post on academy scared of blogging
 ---
 
 <p>At <a href="https://www.martineve.com/2011/09/27/academia-edtech-blogging-and-twitter-enough-with-the-meta-already/">the risk of more meta</a>, I wanted to jot down a few thoughts on blogs in scholarly research.</p>

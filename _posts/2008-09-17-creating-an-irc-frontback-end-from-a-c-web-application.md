@@ -24,6 +24,11 @@ wordpress_id: 249
 wordpress_url: http://pro.grammatic.org/post-creating-an-irc-frontbackend-from-a-c-web-application-53.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmov5lk2a"
 kcworks: https://works.hcommons.org/records/xb036-4kv11
+references:
+- http://www.yoursite.com/webservice.asmx # Placeholder SOAP web service endpoint in code
+- http://www.yoursite.com/IrcMessage # Placeholder SOAP action URL in code snippet
+- http://schemas.xmlsoap.org/soap/envelope/\ # SOAP envelope XML namespace URI
+- http://www.yoursite.com/\ # Placeholder authentication namespace in SOAP code
 ---
 
 <p>This lengthy howto will show you how to hook up C# to an eggdrop IRC bot. I've taken this approach because it avoids the overhead of managing a fully fledged IRC client in C# whilst still providing 2-way command functionality between IRC and the application.</p>

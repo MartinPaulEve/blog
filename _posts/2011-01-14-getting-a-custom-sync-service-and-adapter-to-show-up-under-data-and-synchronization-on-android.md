@@ -26,6 +26,10 @@ wordpress_id: 564
 wordpress_url: http://www.martineve.com/?p=564
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkw2q4l2u"
 kcworks: https://works.hcommons.org/records/8mn20-j9706
+references:
+- http://www.c99.org/2010/01/23/writing-an-android-sync-provider-part-1/ # c99.org Android sync provider tutorial part 1
+- http://www.c99.org/2010/01/23/writing-an-android-sync-provider-part-2/ # c99.org Android sync provider tutorial part 2
+- http://code.google.com/p/mendeley-for-android/ # Mendeley for Android Google Code repository
 ---
 
 <p><img src="http://www.martineve.com/wp-content/uploads/2011/01/Android-espaciales-300x225.jpg" alt="Androids!" title="Android-espaciales" width="300" height="225" class="alignnone size-medium wp-image-565" style="margin-top:0px;" /></p>

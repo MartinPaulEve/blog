@@ -14,6 +14,10 @@ categories:
 - Open Access
 - Higher Education
 kcworks: https://works.hcommons.org/records/2mbcv-9dc48
+references:
+- https://blogs.harvard.edu/pamphlet/2009/05/28/open-access-policies-and-academic-freedom/ # Stuart Shieber 2009 post on OA policies and academic freedom
+- https://doi.org/10.7710/2162-3309.2104 # Article on OA mandates and academic freedom conflicts JLSC
+- http://www.aaup.org/report/1940-statement-principles-academic-freedom-and-tenure # AAUP 1940 Statement on Academic Freedom and Tenure
 ---
 
 The announcement of Plan S -- an ambitious undertaking to mandate open access in Europe by 2020 on most funded research, but also now expanding overseas, potentially to the States and beyond -- has prompted debates about the place of academic freedom in the selection of publication venue and whether OA mandates might infringe on such rights. This is an old debate -- [Stuart Shrieber wrote about it in 2009](https://blogs.harvard.edu/pamphlet/2009/05/28/open-access-policies-and-academic-freedom/). There have also been several pieces that have addressed this topic in the past, of which Johnston, David James, ‘Open Access Policies and Academic Freedom: Understanding and Addressing Conflicts’, Journal of Librarianship and Scholarly Communication, 5 (2017) <[https://doi.org/10.7710/2162-3309.2104](https://doi.org/10.7710/2162-3309.2104)> is the most recent, to the best of my knowledge. There's also Holbrook, J. Britt, ‘We Scholars: How Libraries Could Help Us with Scholarly Publishing, If Only We’d Let Them’ (Georgia Institute of Technology, 2015) <[https://smartech.gatech.edu/handle/1853/53207](https://smartech.gatech.edu/handle/1853/53207)>, here citing the repository version, which does a great deal of work on positive and negative liberty in the definitions of academic freedom with respect to publication choice.

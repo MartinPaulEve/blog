@@ -22,6 +22,9 @@ wordpress_id: 2150
 wordpress_url: https://www.martineve.com/?p=2150
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7midtdzc2s"
 kcworks: https://works.hcommons.org/records/s86kf-j8j98
+references:
+- http://www.timeshighereducation.co.uk/story.asp?sectioncode=26&storycode=420392&c=1 # THE piece on Finch open-access cure worse than disease
+- http://brembs.net/ # Bjorn Brembs blog on open access and publishing
 ---
 
 <p>In the wake of the Finch report, the Times Higher published a story entitled "<a href="http://www.timeshighereducation.co.uk/story.asp?sectioncode=26&storycode=420392&c=1">Finch's open-access cure may be 'worse than the disease'</a>" which was a response from so-called elite universities bulking at the cost of Open Access publishing.</p>

@@ -21,6 +21,11 @@ wordpress_id: 3038
 wordpress_url: https://www.martineve.com/?p=3038
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfndxes2u"
 kcworks: https://works.hcommons.org/records/j8zbx-h4h11
+references:
+- http://triplec.at/index.php/tripleC/article/view/525 # tripleC article: OA as anti-corporatist movement
+- http://pdos.csail.mit.edu/scigen/ # SCIgen computer-generated paper tool
+- http://www.nature.com/news/publishers-withdraw-more-than-120-gibberish-papers-1.14763 # Nature news: publishers withdraw gibberish papers
+- http://dx.doi.org/10.6084/m9.figshare.943450 # Figshare DOI for predatory publishers post
 ---
 
 <h1>The Critics of OA and Acknowledging &#8220;Predation&#8221;</h1>

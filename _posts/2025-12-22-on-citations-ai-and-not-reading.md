@@ -17,6 +17,10 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvlr4ed
 categories:
 - Artificial Intelligence
 - Academia
+references:
+- https://doi.org/10.1111/criq.12359 # Eve 2017 article on citations and reading
+- https://orbit.openlibhums.org/ # Orbit journal at Open Library of Humanities
+- https://doi.org/10.59348/w86n1-sk761 # Eve's post on literature discovery systems
 ---
 
 There has been a major furore in recent days on social media about the rise in AI citations that have been hallucinated. These citations appear in manuscripts sent out for peer review, and even in the published literature.

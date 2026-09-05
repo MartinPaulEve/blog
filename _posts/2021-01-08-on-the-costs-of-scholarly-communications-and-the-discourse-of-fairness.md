@@ -13,6 +13,11 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3x5yjd
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/djegd-j0e68
+references:
+- https://uk.sagepub.com/en-gb/eur/the-limits-of-neoliberalism/book256597 # Springer, The Limits of Neoliberalism
+- https://twitter.com/lesliekwchan/status/1347197705014169601 # Leslie Chan tweet on competition framing in ScholComms
+- https://jhupbooks.press.jhu.edu/title/generous-thinking # Fitzpatrick, Generous Thinking
+- https://blogs.openbookpublishers.com/introducing-some-data-to-the-open-access-debate-obps-business-model-part-one/ # Open Book Publishers blog on OA business model data
 ---
 
 A discourse of 'fairness' has emerged in open-access circles in recent years. It has come from a sense that big, for-profit publishers have not played 'fairly' with libraries over the past 30 years. It is unsurprising. These large publishers make margins of 35%+ on billions of dollars of revenue, even while library budgets stagnate. They hold much of the world's research output to hostage, even to the extent that, during the pandemic, it was due to acts of publisher _generosity_, surplus to their legal requirements, that they granted a temporary lowering of the paywall.

@@ -13,6 +13,8 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbhn2lc
 categories:
 - Programming
 kcworks: https://works.hcommons.org/records/w6ap1-mhn61
+references:
+- http://hypothes.is # Hypothes.is annotation framework homepage
 ---
 
 <a href="http://hypothes.is">Hypothes.is is an annotation framework</a> that uses Pyramid to provide interface asset locations. This means that it is possible to override the interface and other components with one's own assets without simply forking the main hypothes.is repository.

@@ -15,6 +15,9 @@ categories:
 - Open Access
 - Academia
 kcworks: https://works.hcommons.org/records/vraty-5s398
+references:
+- https://eprints.bbk.ac.uk/id/eprint/24067/ # Eve, Science and Identity in David Mitchell's Cloud Atlas
+- http://eprints.bbk.ac.uk/16682/ # Eve, Openness Politics and Power in Bloomsbury volume
 ---
 
 As part of my ongoing quest to try to ensure that as much of my work is as accessible as possible, I was negotiating a contract with Bloomsbury Academic, asking for permission to deposit.

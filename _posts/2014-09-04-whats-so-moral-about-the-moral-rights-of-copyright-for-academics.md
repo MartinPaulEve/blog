@@ -23,6 +23,8 @@ wordpress_id: 3203
 wordpress_url: https://www.martineve.com/?p=3203
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7meuodsh2a"
 kcworks: https://works.hcommons.org/records/a4hkb-n0k31
+references:
+- http://bit.ly/oa-book # Suber, Open Access (2012)
 ---
 
 <p>Copyright is generally considered to consist of two components: economic rights and moral rights. The former is designed to give a time-limited monopoly to content producers so that they can materially benefit from the mental labour "invested" in the creation of "intellectual property". As has already been <a href="https://www.martineve.com/2014/09/03/why-do-some-academic-publishers-think-they-should-charge-extra-for-more-liberal-licenses-cc-by/2">noted here</a> and elsewhere by <a href="http://bit.ly/oa-book">Peter Suber</a> and others, under the theoretical model that underpins academic remuneration (which doesn't take into account precarity or royalties/advances - with which I fundamentally disagree), academics do not use the economic rights of copyright; publishers do. </p>

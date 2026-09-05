@@ -15,6 +15,8 @@ categories:
 - Open Access
 - Publishing Technology
 kcworks: https://works.hcommons.org/records/sdw92-3c634
+references:
+- https://www.quora.com/Does-Amazon-EC2-have-an-uptime-guarantee-Do-they-have-SLA-Can-it-be-used-for-a-production-environment-for-a-site-that-needs-to-be-up-most-of-the-time # Quora thread on Amazon EC2 uptime guarantee SLA
 ---
 
 I've just been reading the [EC’s tender document](https://etendering.ted.europa.eu/cft/cft-document.html?docId=37014) for their new open-access platform. Everyone thinks that it's a shoo-in for F1000. But quite frankly, good luck to whoever gets it. Some comments:

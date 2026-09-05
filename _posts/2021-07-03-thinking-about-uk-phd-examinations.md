@@ -13,6 +13,8 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m333qfe
 categories:
 - Academia
 kcworks: https://works.hcommons.org/records/78jhx-e6777
+references:
+- https://twitter.com/martin_eve/status/1034904589412323340 # Eve tweet calculating PhD examiner pay rate
 ---
 
 Yesterday, I examined a Ph.D. It's not an unusual experience -- and huge congratulations to the candidate who had a well-deserved pass! But every time I go through this process I spot a number of weaknesses in the UK examination system that really should be put right. These reflections are not specific to the thesis I just examined. They are, rather, a broader policy reflection on the process.

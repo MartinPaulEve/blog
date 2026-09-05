@@ -18,6 +18,10 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7luvftpv
 categories:
 - Artificial Intelligence
 - Information Security
+references:
+- https://12factor.net/config # 12-Factor App: store config in environment
+- https://github.com/anthropics/claude-code/issues/4160 # Claude Code deny-rules GitHub issue
+- https://1password.com/blog/1password-environments-env-files-public-beta # 1Password Environments .env files documentation
 ---
 
 My colleague Ian discovered the other day that, alarmingly, even if you tell Claude code not ever to read your.env files, it may still do so and send the result back to its servers, thereby compromising your local development secrets. Ian is using Claude via cursor, but his AGENTS.md file specifically instructed Claude not to read this file. It did so anyway.

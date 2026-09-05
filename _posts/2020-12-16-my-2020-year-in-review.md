@@ -14,6 +14,68 @@ categories:
 - Personal
 - Academia
 kcworks: https://works.hcommons.org/records/97dk9-wpn03
+references:
+- https://ceup.openingthefuture.net/about/ # Opening the Future COPIM OA press conversion project
+- https://www.youtube.com/watch?v=Ut5_DA7Cihg # Fluke Night Train YouTube video
+- https://eprints.bbk.ac.uk/id/document/158876 # Close Reading with Computers OA reprint Birkbeck
+- https://eprints.bbk.ac.uk/id/eprint/26645 # Eve, The Digital Humanities and Literary Studies OUP 2022
+- https://eprints.bbk.ac.uk/id/eprint/30956 # Eve, Warez punctum books 2022 Birkbeck eprint
+- https://eprints.bbk.ac.uk/id/eprint/27709 # Eve et al, Reading Peer Review CUP 2021 Birkbeck eprint
+- https://direct.mit.edu/books/book/4933/Reassembling-Scholarly-CommunicationsHistories # Eve and Gray, Reassembling Scholarly Communications MIT Press 2020
+- https://eprints.bbk.ac.uk/id/document/214156 # Reassembling Scholarly Communications Birkbeck download
+- https://doi.org/10.1186/s41073-020-00099-8 # Hosseini et al, MyCites inaccurate citations proposal 2020
+- https://eprints.bbk.ac.uk/id/document/201170 # MyCites article Birkbeck download
+- https://doi.org/10.12688/f1000research.17328.2 # Severin et al, discipline-specific OA practices F1000Research 2020
+- https://eprints.bbk.ac.uk/id/document/155005 # Severin OA practices Birkbeck download
+- https://eprints.bbk.ac.uk/id/document/154720 # Lessons from OLH Birkbeck download
+- https://doi.org/10.16995/olh.538 # Eve, Equivocationary Horseshit DFW OLH 2020
+- https://eprints.bbk.ac.uk/id/document/153804 # Equivocationary Horseshit Birkbeck download
+- https://doi.org/10.1080/10436928.2020.1709713 # Eve, Jennifer Egan textual scholarship LIT journal 2020
+- https://eprints.bbk.ac.uk/id/document/132295 # Egan textual scholarship Birkbeck download
+- https://eprints.bbk.ac.uk/id/eprint/32199 # Eve, Non-Fiction DFW in Context CUP 2021 Birkbeck eprint
+- https://eprints.bbk.ac.uk/id/eprint/40856 # Eve, OA in Humanities Bloomsbury Handbook DH 2021
+- https://doi.org/10.11647/OBP.0192 # Eve, Violins in the Subway DH practices chapter OBP 2020
+- https://eprints.bbk.ac.uk/id/document/134537 # Violins in the Subway Birkbeck download
+- https://eprints.bbk.ac.uk/id/eprint/41598 # Eve, On Reassembling Scholarly Communications BoOkmArks 2020
+- https://eprints.bbk.ac.uk/id/document/219218 # On Reassembling Scholarly Communications Birkbeck download
+- https://wonkhe.com/blogs/the-future-of-humanities-research-work-and-oa-mongraphs/ # Eve, Future of Humanities Research and OA Monographs WonkHE 2020
+- https://eprints.bbk.ac.uk/id/document/216935 # Future of Humanities OA Monographs WonkHE Birkbeck download
+- https://eprints.bbk.ac.uk/id/eprint/41119 # Eve, OA Monograph Conundrum Times Higher Education 2020
+- https://eprints.bbk.ac.uk/id/document/216014 # OA Monograph Conundrum THE Birkbeck download
+- https://eprints.bbk.ac.uk/id/eprint/40968 # Lem and Eve, Evolve or Perish Research Professional 2020
+- https://www.publicbooks.org/how-to-fake-a-19th-century-novel/ # Eve, How to Fake a 19th-Century Novel Public Books 2020
+- https://eprints.bbk.ac.uk/id/document/231598 # How to Fake a 19th-Century Novel Birkbeck download
+- https://www.researchprofessionalnews.com/rr-news-uk-views-of-the-uk-2020-9-open-access-in-the-plague-year/ # Eve, Open Access in the Plague Year Research Fortnight 2020
+- https://eprints.bbk.ac.uk/id/document/200313 # OA in the Plague Year Birkbeck download
+- https://doi.org/10.5281/zenodo.4011836 # Penier Eve Grady, COPIM Revenue Models OA Monographs Zenodo 2020
+- https://eprints.bbk.ac.uk/id/document/200061 # COPIM Revenue Models Birkbeck download
+- https://eprints.bbk.ac.uk/id/eprint/32719 # Matthews and Eve, Research Funders Excellence THE 2020
+- https://eprints.bbk.ac.uk/id/eprint/31623 # Bisson and Eve, OA Payments Tracking Problem Research Fortnight 2020
+- https://eprints.bbk.ac.uk/id/document/151439 # Afford OA Humanities EUA Birkbeck download
+- https://eprints.bbk.ac.uk/id/eprint/31032 # Lem Nicholson Eve, Resolving Plan S Conflicts Research Fortnight 2020
+- https://eprints.bbk.ac.uk/id/eprint/30969 # Grove and Eve, Humanities Scholars Warn OA Books THE 2020
+- https://eprints.bbk.ac.uk/id/eprint/30955 # Pells and Eve, UKRI Plan S Research Professional 2020
+- https://eprints.bbk.ac.uk/id/eprint/30836 # McIntyre and Eve, REF Plan S Research Professional 2020
+- https://stanfordpress.typepad.com/blog/2020/01/distance-and-depth.html # Eve, Distance and Depth Stanford University Press Blog 2020
+- https://eprints.bbk.ac.uk/id/document/134065 # Distance and Depth Stanford blog Birkbeck download
+- https://eprints.bbk.ac.uk/id/eprint/30661 # Bisson and Eve, F1000 Buyout Research Fortnight 2020
+- https://eprints.bbk.ac.uk/id/eprint/42165 # Eve, Basic Instinct computation literary study ATNU talk 2020
+- https://eprints.bbk.ac.uk/id/eprint/41970 # Eve, Pandemic-Proofing Humanities Scholarship CHASE talk 2020
+- https://eprints.bbk.ac.uk/id/document/228519 # Pandemic-Proofing Humanities talk Birkbeck download
+- https://eprints.bbk.ac.uk/id/eprint/41619 # Eve, New Funding Model OA Monographs Munin Conference 2020
+- https://eprints.bbk.ac.uk/id/document/219419 # OA Monographs Munin talk Birkbeck download
+- https://eprints.bbk.ac.uk/id/eprint/41117 # Eve, Opening the Future Revenue Models OPERAS talk 2020
+- https://newbooksnetwork.com/martin-paul-eve-close-reading-with-computers-stanford-up-2019/ # Eve and Taylor, Close Reading with Computers New Books Network interview
+- https://eprints.bbk.ac.uk/id/document/231603 # New Books Network interview Birkbeck download
+- https://eprints.bbk.ac.uk/id/eprint/32208 # Eve et al, OA Books and Business Models Cambridge talk 2020
+- https://eprints.bbk.ac.uk/id/document/172505 # OA Books Business Models Cambridge talk Birkbeck download
+- https://eprints.bbk.ac.uk/id/eprint/32045 # Eve, Distance and Depth Computers Close Reading Cambridge talk 2020
+- https://eprints.bbk.ac.uk/id/document/169535 # Distance and Depth Cambridge talk Birkbeck download
+- https://eprints.bbk.ac.uk/id/eprint/31622 # Eve, Beyond APCs webinar talk 2020
+- https://eprints.bbk.ac.uk/id/document/159252 # Beyond APCs webinar Birkbeck download
+- https://eprints.bbk.ac.uk/id/eprint/31537 # Eve, OLH and COPIM SSP talk 2020
+- https://eprints.bbk.ac.uk/id/eprint/30929 # Eve, Plan S Alternative Business Models LSE talk 2020
+- https://eprints.bbk.ac.uk/id/eprint/30834 # Eve Banks Webster, Plan S Challenges Research Professional Live 2020
 ---
 
 I wrote, last year, that [2019 was pretty bad for me](https://eve.gd/2019/12/14/my-2019-in-review/). Little did any of us know of the grimness that 2020 would bring with the coronavirus pandemic. I have spent almost all of this year "shielding", which can feel somewhat isolating, although I am fortunate to live with my wife, which ameliorates this greatly. I only venture out every day to walk Toby, the fifteen-year-old Jack Russell terrier whom we adopted from the rescue shelter, two days before going into lockdown. Most problematically, I have not been able to have a battery of required hospital tests that could make me feel a lot better, because the risk is too great. Before lockdown started and the pandemic struck, I also began to suffer from serious depressive symptoms. These were not linked to the pandemic -- although that would have been reason enough! -- but were rather a result of the medications that I must take for my autoimmune conditions. This has, obviously, made this year even tougher. Writing about some of the good things can, every year, feel a little like bragging/showing off. It actually helps me to feel good about what I've done, though, and to take stock of what I have achieved.

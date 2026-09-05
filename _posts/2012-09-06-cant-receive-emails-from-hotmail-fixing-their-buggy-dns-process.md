@@ -20,6 +20,10 @@ wordpress_id: 2383
 wordpress_url: https://www.martineve.com/?p=2383
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhsscie2h"
 kcworks: https://works.hcommons.org/records/f1ceh-crt10
+references:
+- http://www.dorianmoore.com/works/6318/working-round-hotmail-live-msn-email-failing-to-deliver-email # Dorian Moore guide on Hotmail DNS workaround
+- https://tools.ietf.org/html/rfc974 # IETF RFC 974 mail routing specification
+- https://www.ietf.org/rfc/rfc2821.txt # IETF RFC 2821 SMTP protocol specification
 ---
 
 <p>I run Google Apps for Domains to handle my email. Recently, a friend was having trouble emailing me. I asked her to send me the source of the message. In there, I found this:</p>

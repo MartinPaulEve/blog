@@ -14,6 +14,9 @@ categories:
 - Health
 - Personal
 kcworks: https://works.hcommons.org/records/9cb5h-gpv69
+references:
+- https://www.ncbi.nlm.nih.gov/books/NBK499861/ # Hashmi et al., NCBI book on kidney disease staging
+- https://www.kidney.org/newsletter/demystifying-dialysis-understanding-treatment-options-and-life-changes # National Kidney Foundation dialysis life expectancy article
 ---
 
 "End-stage renal disease is a terminal illness with a glomerular filtration rate of less than 15 mL/min." - [Hashmi et al.](https://www.ncbi.nlm.nih.gov/books/NBK499861/)

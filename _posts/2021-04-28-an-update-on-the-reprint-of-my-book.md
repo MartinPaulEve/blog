@@ -14,6 +14,8 @@ categories:
 - Copyright and Licensing
 - Open Access
 kcworks: https://works.hcommons.org/records/7btgj-zyw48
+references:
+- https://www.openbookpublishers.com/product/530 # Open Book Publishers print edition of Eve's book
 ---
 
 I posted, a short while ago, about the [reprinting of OA books under CC licenses](https://eve.gd/2021/03/02/oa-books-being-reprinted-under-cc-by-license/). This is, of course, totally legal and allowed under the more liberal Creative Commons licenses. However, it will, I feel, alienate academics from OA. I think that they will consider it derogatory treatment of their work.

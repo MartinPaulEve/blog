@@ -14,6 +14,8 @@ categories:
 - Politics
 - Artificial Intelligence
 kcworks: https://works.hcommons.org/records/xt9gp-6h226
+references:
+- https://www.royalfree.nhs.uk/patients-visitors/privacy-statement/ # Royal Free NHS Trust privacy statement page
 ---
 
 Dear all,

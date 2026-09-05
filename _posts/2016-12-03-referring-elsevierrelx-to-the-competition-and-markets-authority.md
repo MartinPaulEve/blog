@@ -13,6 +13,12 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mateip3
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/y0as7-jfm55
+references:
+- https://www.jisc.ac.uk/blog/jisc-collections-and-elsevier-agreement-questions-and-answers-28-nov-2016 # Jisc Collections Elsevier agreement Q&A November 2016
+- http://dx.doi.org/10.1017/CBO9781316161012 # Eve, Open Access and the Humanities Cambridge 2014
+- https://doi.org/10.1371/journal.pone.0127502 # Lariviere et al oligopoly academic publishers PLoS ONE
+- https://doi.org/10.1108/02641610310460745 # OFT market for STM journals Interlending Doc Supply
+- https://www.youtube.com/watch?v=4JsNT1gKe7I # Elsevier David Tempest explains confidentiality clauses
 ---
 
 Today, along with Stuart Lawson and Jon Tennant, I have submitted the below as a complaint to the Competition and Markets Authority, making good on the advice of Ann McKechin, MP at the BIS Inquiry into Open Access in 2013. The document is also [available as a PDF](/images/CMA-RELX.pdf).

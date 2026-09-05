@@ -29,6 +29,8 @@ wordpress_id: 537
 wordpress_url: http://www.martineve.com/?p=537
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkwwslt2h"
 kcworks: https://works.hcommons.org/records/hhnt4-wnk98
+references:
+- http://www.sussex.ac.uk/library/researchhiveseminars/ # Sussex library Research Hive seminars page
 ---
 
 <p>Just a quick promotional post to get the word out about the research hive seminars at Sussex. This series presents an exciting opportunity to hear about, and fore-arm yourself against, the challenges posed to 21st-century research.</p>

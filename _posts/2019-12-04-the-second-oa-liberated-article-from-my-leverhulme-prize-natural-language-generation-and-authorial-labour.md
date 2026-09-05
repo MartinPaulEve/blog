@@ -16,6 +16,10 @@ categories:
 - Publications
 - Artificial Intelligence
 kcworks: https://works.hcommons.org/records/jk6hm-dj831
+references:
+- https://onlinelibrary.wiley.com/toc/14678705/2017/59/3 # Critical Quarterly special issue 2017 vol 59 no 3
+- https://eprints.bbk.ac.uk/18690/1/criq.12359.pdf # Eve, Great Automatic Grammatizator, Birkbeck eprint
+- https://doi.org/10.1111/criq.12359 # Eve, Great Automatic Grammatizator, publisher version
 ---
 
 Some time around 2016 I was invited by Kasia Boddy and David Winters to contribute to a <a href="https://onlinelibrary.wiley.com/toc/14678705/2017/59/3">special issue of <i>Critical Quarterly</i> that they were putting together</a>. The issue was centred on notions of authorship in the digital age. This came at an opportune time as I had been playing with training a recurrent neural network on the back corpus of the literary studies journal, <i>Textual Practice</i>, and had some promising results. I felt I could definitely turn this weekend hobbyist project into something of broader interest.

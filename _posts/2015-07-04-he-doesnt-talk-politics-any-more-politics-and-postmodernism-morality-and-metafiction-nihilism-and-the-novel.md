@@ -21,6 +21,9 @@ title: '''He doesn’t talk politics any more'': Politics and Postmodernism; Mor
   and Metafiction; Nihilism and the Novel?'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mch42be2r"
 kcworks: https://works.hcommons.org/records/fe3xn-p1g09
+references:
+- https://theconversation.com/sorry-minister-but-philistinism-is-not-an-educational-policy-34385 # Churchwell Conversation piece on philistinism in education
+- http://dx.doi.org/10.1017/S0021875814001303 # Eve article on DeLillo Iraq War and Underworld
 ---
 
 The following is the slightly revised text of my keynote at the _Action Writing: The Politics of US Literature, 1960-Present_, held at Birkbeck College, University of London on the 3rd July 2015, organized by Catherine Flay and Pippa Eldridge.

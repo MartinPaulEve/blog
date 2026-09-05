@@ -14,6 +14,9 @@ categories:
 - Academia
 - Open Access
 kcworks: https://works.hcommons.org/records/jzjtw-kkt03
+references:
+- https://doi.org/10.1017/CBO9781316161012.004 # Cambridge chapter on economy of prestige in academia
+- https://heconvention2.files.wordpress.com/2016/10/he-bill-campaigning-pack.docx # HE Bill campaign pack rhetoric document
 ---
 
 The [economy of prestige in academia](https://doi.org/10.1017/CBO9781316161012.004) is odd. We often like to think that the prestige of our institutions -- whether that be a university or a publisher -- is not made on the basis of a monetary or financial decision. But I think there are lots of things that give the lie to this.

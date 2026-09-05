@@ -65,6 +65,11 @@ wordpress_id: 865
 wordpress_url: https://www.martineve.com/?p=865
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkjmvpy2f"
 kcworks: https://works.hcommons.org/records/78wzm-1dy85
+references:
+- http://www.flickr.com/photos/avlxyz/ # avlxyz Flickr photostream
+- http://liannedemello.com/ # Lianne de Mello personal website
+- http://preyproject.com/ # Prey anti-theft app for phones
+- http://www.producteev.com # Producteev task management service
 ---
 
 <p><img src="https://www.martineve.com/wp-content/uploads/2011/03/HTC-Desire-150x150.jpg" alt="HTC Desire Box" title="HTC Desire" width="150" height="150" style="margin-top:0px;" class="alignnone size-thumbnail wp-image-866" /><i>Featured image by <a href="http://www.flickr.com/photos/avlxyz/">avlxyz</a> under a CC-BY-SA license.</a></i></p>

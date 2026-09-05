@@ -14,6 +14,16 @@ categories:
 - Open Access
 - Personal
 kcworks: https://works.hcommons.org/records/xbf97-xfq79
+references:
+- https://global.oup.com/academic/product/the-digital-humanities-and-literary-studies-9780198850489?lang=en&cc=gb # Eve, Digital Humanities and Literary Studies, Oxford UP
+- https://eprints.bbk.ac.uk/id/eprint/30956 # Eve, Warez, BBK eprint
+- https://eprints.bbk.ac.uk/id/eprint/27709 # Eve et al, Reading Peer Review, BBK eprint
+- https://direct.mit.edu/books/book/4933/Reassembling-Scholarly-CommunicationsHistories # Eve ed, Reassembling Scholarly Communications, MIT Press
+- https://doi.org/10.21627/9781503609372 # Eve, Close Reading with Computers, Stanford UP
+- https://www.bloomsburycollections.com/book/password/ # Eve, Password, Bloomsbury
+- http://dx.doi.org/10.11647/OBP.0102 # Eve, Literature Against Criticism, Open Book Publishers
+- http://dx.doi.org/10.1017/CBO9781316161012 # Eve, Open Access and the Humanities, Cambridge UP
+- https://link.springer.com/book/10.1057/9781137405500 # Eve, Pynchon and Philosophy, Palgrave
 ---
 
 Today marks a significant milestone for me. All ten of my academic monographs are now – or will be when published – openly accessible and free to download. The books that are not yet out have advance contracts that stipulate open access.

@@ -18,6 +18,13 @@ tags:
 title: Scalability, Sustainability, Market Responsiveness and Mandates in OA
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mctupdx2s"
 kcworks: https://works.hcommons.org/records/whfc4-5b570
+references:
+- http://www.wellcome.ac.uk/about-us/policy/spotlight-issues/Open-access/index.htm # Wellcome Trust open access policy page
+- http://dx.doi.org/10.1629/uksg.166 # Eve article on APC scalability in UKSG Insights
+- http://blogs.sas.ac.uk/2014/10/29/open-access-free-from-having-to-sell/ # SAS blog post on OA and academic authors not selling
+- http://occamstypewriter.org/scurry/2015/04/08/open-access-a-national-licence-is-not-the-answer/ # Occam's Typewriter post against national OA licence
+- https://mitpress.mit.edu/sites/default/files/9780262517638_Open_Access_PDF_Version.pdf # Suber, Open Access book PDF via MIT Press
+- http://dx.doi.org/10.1017/CBO9781316161012.004 # Eve, Open Access and the Humanities chapter on symbolic economy
 ---
 
 Academic publishers come in all shapes and sizes. Some are commercial, some are mission-driven, some are not-for-profit. This creates an interesting dynamic for a market. Not-for-profit publishers see themselves as partners of the academy, working alongside their academic colleagues to disseminate material. Indeed, some university presses are departments of universities. At the same time, though, commercial publishers talk in terms of market conditions. They are often unhappy about claimed [market interference from research funders](http://www.researchinformation.info/features/feature.php?feature_id=146). The upshot of this is that these publishers want it both ways. They claim themselves as stakeholders who must be present at consultations among academics and libraries for the future of academic publishing while then claiming that these entities should not interfere in their market.

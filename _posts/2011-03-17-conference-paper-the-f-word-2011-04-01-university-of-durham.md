@@ -22,6 +22,8 @@ wordpress_id: 891
 wordpress_url: https://www.martineve.com/?p=891
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkiujes2s"
 kcworks: https://works.hcommons.org/records/2jzxw-mc889
+references:
+- http://www.flickr.com/photos/duncan/ # duncan Flickr photostream
 ---
 
 <p><i>Featured image by <a href="http://www.flickr.com/photos/duncan/">duncan</a> under a CC-BY-NC license.</i></p>

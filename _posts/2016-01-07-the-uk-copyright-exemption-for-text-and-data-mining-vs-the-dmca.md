@@ -15,6 +15,10 @@ tags:
 title: The UK copyright exemption for text and data mining vs. the DMCA and EUCD
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbuyefm2a"
 kcworks: https://works.hcommons.org/records/egngj-yac41
+references:
+- https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/375954/Research.pdf # UK government guidance PDF on copyright exemption for research
+- https://en.wikipedia.org/wiki/Copyright_Directive # Wikipedia article on European Copyright Directive
+- https://en.wikipedia.org/wiki/Digital_Millennium_Copyright_Act # Wikipedia article on Digital Millennium Copyright Act
 ---
 
 New provisions in UK copyright law look promising for text and data mining. Last year, the government signed into effect an exemption to copyright for the purposes of non-commercial research. [This states that](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/375954/Research.pdf):

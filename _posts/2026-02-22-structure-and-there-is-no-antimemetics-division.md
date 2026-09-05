@@ -16,6 +16,9 @@ title: Structure and There Is No Antimemetics Division
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7luzvsar2o"
 categories:
 - Literature
+references:
+- https://qntm.org/ # qntm author site (Sam Hughes)
+- https://doi.org/10.1080/00111619.2019.1568960 # Eve, Reading Redaction article in Critique
 ---
 
 *Spoilers in this post*

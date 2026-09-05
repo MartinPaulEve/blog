@@ -14,6 +14,13 @@ categories:
 - Academia
 - Open Access
 kcworks: https://works.hcommons.org/records/j3ned-rad61
+references:
+- https://ahropenreview.com/HistoryCanBeOpenSource/ # History Can Be Open Source AHA open peer review manuscript
+- https://ahropenreview.com/HistoryCanBeOpenSource/editors-comments/ # Lichtenstein editorial letter History Can Be Open Source AHA
+- https://eprints.bbk.ac.uk/19432/ # Eve, OA journals abundance and scarce labour JSP 2017 Birkbeck
+- https://doi.org/10.1093/ahr/123.2.xiv # AHR Perils of Peer Review editorial 2018
+- http://dash.harvard.edu/handle/1/4725013 # Suber, Taxpayer Argument for Open Access SPARC Newsletter 2003
+- https://ahropenreview.com/HistoryCanBeOpenSource/readers-report-2/ # AHA open review readers report 2 on History Can Be Open Source
 ---
 
 I recently participated in the American Historical Association's open peer review experiment on the manuscript of '[History Can Be Open Source](https://ahropenreview.com/HistoryCanBeOpenSource/)'. I enjoyed reading the manuscript and welcomed the experiment.

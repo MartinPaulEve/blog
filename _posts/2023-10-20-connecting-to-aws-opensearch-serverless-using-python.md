@@ -13,6 +13,8 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lxic6nt
 categories:
 - Programming
 kcworks: https://works.hcommons.org/records/044cp-74053
+references:
+- https://opensearch.org/docs/latest/clients/python-low-level/ # OpenSearch Python low-level client documentation
 ---
 
 I recently wanted to use ElasticSearch (or OpenSearch as Amazon terms it from the fork) in an AWS environment, using Python. When I tried to connect I got a very painful 403 Forbidden error. Specifically: opensearchpy.exceptions.AuthorizationException: AuthorizationException(403, 'Forbidden').

@@ -14,6 +14,13 @@ categories:
 - Open Access
 - Copyright and Licensing
 kcworks: https://works.hcommons.org/records/a98jn-9bx25
+references:
+- https://doi.org/10.1016/j.lingua.2017.04.003 # Elsevier Lingua article: refutation of universal grammar
+- http://onlinelibrary.wiley.com/journal/10.1111/(ISSN # whole sub-discipline
+- http://www.tandfonline.com/loi/rllj20 # Taylor and Francis journal: Language Learning journal page
+- https://doi.org/10.1016/j.lingua.2017.04.005 # Elsevier Lingua article on discipline and abstract
+- https://doi.org/10.1016/j.lingua.2017.04.006 # Lingua article: Legend of Lamòling Abui myth toponymy
+- https://www2.hu-berlin.de/kba/events/mlp/klamer-ppt.pdf # Humboldt Berlin conference paper with Lamòling map
 ---
 
 You may remember that, a while back, the editorial board of Elsevier's journal, _Lingua_, decided to leave the publisher to setup a new journal called _Glossa_ that would be totally open access with no author-facing charges. The new journal is published by Ubiquity Press and has ongoing support from the Open Library of Humanities. Many linguistics faculty around the world [declared their support](https://about.openlibhums.org/2016/02/16/mit-linguistics-faculty-statement-of-support-for-glossa-and-open-library-of-humanities/) for the new journal and denounced the old venue.

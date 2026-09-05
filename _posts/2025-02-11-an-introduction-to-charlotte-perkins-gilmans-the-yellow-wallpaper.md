@@ -13,6 +13,10 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwaizic
 categories:
 - Literature
 kcworks: https://works.hcommons.org/records/2erzr-srx09
+references:
+- https://doi.org/10.2307/463825 # Treichler, escaping the sentence, Yellow Wallpaper, Tulsa Studies 1984
+- http://online.wsj.com/article/SB10001424127887324216004578483391664789414.html # McHugh, DSM-5 a manual run amok, Wall Street Journal 2013
+- https://doi.org/10.2307/3177938 # Tate, politics of color in America, Feminist Studies 1989
 ---
 
 Among the works of fiction in the feminist canon, few are as celebrated as Charlotte Perkins-Gilman's “The Yellow Wallpaper”. This short story, or novella, depending on how you want to define those categories, details the abuse suffered by a woman in the supposed name of mental health, at the whim of her male “carers”. The story is now, as Catherine J. Golden notes, “among the most studied texts in the English-speaking world”. In this piece I aim to give you, firstly, a basic contextual background to Gilman, her life, her work and its interactions with various schools of feminism; secondly, a series of observations about the text that you can take forward for further discussion; and finally, an appreciation of the histories of madness that inform the story's backdrop.

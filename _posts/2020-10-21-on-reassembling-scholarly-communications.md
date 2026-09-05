@@ -16,6 +16,42 @@ categories:
 - Open Access
 - Scholarly Communications
 kcworks: https://works.hcommons.org/records/qctv2-yhn70
+references:
+- https://direct.mit.edu/books/book/4933/chapter/625155/Social-Justice-and-Inclusivity-Drivers-for-the # Roh Inefuku Drabinski, Social Justice and Inclusivity chapter MIT
+- https://www.timeshighereducation.com/news/nature-publish-open-access-papers-january-2021 # THE news: Nature to publish OA papers from January 2021
+- https://direct.mit.edu/books/book/4933/chapter/625148/Grammatical-and-Terminological-Notes # Grammatical and Terminological Notes chapter MIT Press
+- https://jonathangray.org/2020/10/20/new-book-reassembling-scholarly-communications-mit-press/ # Jonathan Gray blog post on Reassembling Scholarly Communications
+- https://direct.mit.edu/books/book/4933/Reassembling-Scholarly-CommunicationsHistories # Reassembling Scholarly Communications open access PDFs MIT Press
+- http://www.openaccessweek.org/ # Open Access Week website
+- https://direct.mit.edu/books/book/4933/chapter/625153/Epistemic-Alienation-in-African-Scholarly # Mboa Nkoudou, Epistemic Alienation in African Scholarly Communications chapter
+- https://direct.mit.edu/books/book/4933/chapter/625154/Scholarly-Communications-and-Social-Justice # Scholarly Communications and Social Justice chapter MIT Press
+- https://direct.mit.edu/books/book/4933/chapter/625156/Can-Open-Scholarly-Practices-Redress-Epistemic # Albornoz et al, Can Open Scholarly Practices Redress Epistemic Injustice chapter
+- https://direct.mit.edu/books/book/4933/chapter/625158/When-the-Law-Advances-Access-to-Learning-Locke-and # Willinsky, When the Law Advances Access Locke Copyright chapter
+- https://direct.mit.edu/books/book/4933/chapter/625159/How-Does-a-Format-Make-a-Public # de Mourat Ricci Latour, How Does a Format Make a Public chapter
+- https://direct.mit.edu/books/book/4933/chapter/625160/Peer-Review-Readers-in-the-Making-of-Scholarly # Pontille and Torny, Peer Review Readers Making Scholarly Knowledge chapter
+- https://direct.mit.edu/books/book/4933/chapter/625161/The-Making-of-Empirical-Knowledge-Recipes-Craft # Making of Empirical Knowledge Recipes Craft chapter MIT Press
+- https://direct.mit.edu/books/book/4933/chapter/625163/The-Royal-Society-and-the-Noncommercial # Fyfe, Royal Society and Noncommercial Circulation of Knowledge chapter
+- https://direct.mit.edu/books/book/4933/chapter/625164/The-Political-Histories-of-UK-Public-Libraries-and # Lawson, Political Histories of UK Public Libraries chapter
+- https://direct.mit.edu/books/book/4933/chapter/625165/Libraries-and-Their-Publics-in-the-United-States # Smale, Libraries and Their Publics in the United States chapter
+- https://direct.mit.edu/books/book/4933/chapter/625166/Open-Access-Publicity-and-Democratic-Knowledge # Holmwood, Open Access Publicity and Democratic Knowledge chapter
+- https://direct.mit.edu/books/book/4933/chapter/625168/Libraries-Museums-and-Archives-as-Speculative # Nowviskie, Libraries Museums Archives Speculative Knowledge Infrastructure chapter
+- https://direct.mit.edu/books/book/4933/chapter/625169/Preserving-the-Past-for-the-Future-Whose-Past # Hathcock, Preserving the Past for the Future chapter
+- https://direct.mit.edu/books/book/4933/chapter/625170/Is-There-a-Text-in-These-Data-The-Digital # Salo, Is There a Text in These Data DH chapter MIT Press
+- https://direct.mit.edu/books/book/4933/chapter/625171/Accessing-the-Past-or-Should-Archives-Provide-Open # Rev, Accessing the Past Should Archives Provide Open Access chapter
+- https://direct.mit.edu/books/book/4933/chapter/625173/Infrastructural-Experiments-and-the-Politics-of # Gray, Infrastructural Experiments and Politics of Open Access chapter
+- https://direct.mit.edu/books/book/4933/chapter/625174/The-Platformization-of-Open # Andrews, The Platformization of Open chapter MIT Press
+- https://direct.mit.edu/books/book/4933/chapter/625175/Reading-Scholarship-Digitally # Eve, Reading Scholarship Digitally chapter MIT Press
+- https://direct.mit.edu/books/book/4933/chapter/625176/Toward-Linked-Open-Data-for-Latin-America # Becerril-Garcia and Aguado-Lopez, Toward Linked Open Data Latin America chapter
+- https://direct.mit.edu/books/book/4933/chapter/625177/The-Pasts-Presents-and-Futures-of-SciELO # Packer, The Pasts Presents and Futures of SciELO chapter
+- https://direct.mit.edu/books/book/4933/chapter/625179/Not-Self-Indulgence-but-Self-Preservation-Open # Joy, Not Self-Indulgence Self-Preservation OA Ethics of Care chapter
+- https://direct.mit.edu/books/book/4933/chapter/625180/Toward-a-Global-Open-Access-Scholarly # Babini, Toward Global OA Scholarly Communications Developing Region chapter
+- https://direct.mit.edu/books/book/4933/chapter/625181/Learned-Societies-Humanities-Publishing-and # Winters, Learned Societies Humanities Publishing Scholarly Communication UK chapter
+- https://direct.mit.edu/books/book/4933/chapter/625182/Not-All-Networks-Toward-Open-Sustainable-Research # Fitzpatrick, Not All Networks Open Sustainable Research Communities chapter
+- https://direct.mit.edu/books/book/4933/chapter/625151/Introduction # Eve and Gray, Introduction to Reassembling Scholarly Communications MIT Press
+- https://direct.mit.edu/books/book/4933/chapter/625183/Conclusion # Eve and Gray, Conclusion to Reassembling Scholarly Communications MIT Press
+- https://direct.mit.edu/books/book/4933/chapter/625149/Acknowledgments # Reassembling Scholarly Communications acknowledgements MIT Press
+- https://direct.mit.edu/books/book/4933/chapter/625184/Bibliography # Reassembling Scholarly Communications bibliography MIT Press
+- https://direct.mit.edu/books/book/4933/chapter/625185/Contributors # Reassembling Scholarly Communications contributor bios MIT Press
 ---
 
 <p>After a Herculean effort, coinciding with open access week 2020, our edited volume <i>Reassembling Scholarly Communications: Histories, Infrastructures, and Global Politics of Open Access</i> has now been published by The MIT Press. It's available both in print to purchase and as a CC BY open-access download.</p>

@@ -19,6 +19,9 @@ wordpress_id: 3176
 wordpress_url: https://www.martineve.com/?p=3176
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mewarez2n"
 kcworks: https://works.hcommons.org/records/fp24r-sww07
+references:
+- http://www.wateraid.org/uk # WaterAid UK charity
+- http://www.globalresearch.ca/the-privatisation-of-water-nestle-denies-that-water-is-a-fundamental-human-right/5332238 # Global Research article on Nestle water rights denial
 ---
 
 <p><a href="http://www.wateraid.org/uk">WaterAid</a> is a very good charity to which I would heartily suggest that people donate. I also agree that it would be good if more people gave regularly to charity. However, I don't think it holds up to criticise the Ice Bucket Challenge as a one-off either because it wastes water or because it's a stunt (as many memes doing the rounds have been). What I think it does do is potentially flaunt the localised surplus of water in the face of people who do not have ready access (which doesn't mean that if it wasn't used, people in poorly supplied areas would miraculously have it, merely that it could be extremely tasteless to do so). It also pays for everyone to consider the privileges that they enjoy as a result of the luck of where they were born and to decide to support charities and other initiatives that extend those advantages worldwide.</p>

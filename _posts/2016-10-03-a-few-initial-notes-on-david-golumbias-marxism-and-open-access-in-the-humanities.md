@@ -13,6 +13,13 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mazg7r2
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/60da2-8hx03
+references:
+- http://ices.library.ubc.ca/index.php/workplace/article/view/186213 # Golumbia Marxism OA Academic Labor journal article
+- http://pdxscholar.library.pdx.edu/critlib/2015/Conference/11 # Critlib 2015 unconference paper on OA labor pedagogy
+- http://dx.doi.org/10.1017/CBO9781316161012 # Eve, Open Access and the Humanities Cambridge 2014
+- https://doi.org/http://dx.doi.org/10.7710/2162-3309.1131 # Journal of Librarianship Scholarly Communication OA disciplines
+- https://doi.org/10.14506/ca29.2.02 # Kelty Beyond Intellectual Property Cultural Anthropology
+- http://dash.harvard.edu/handle/1/4725013 # Suber taxpayer argument for open access SPARC 2003
 ---
 
 I don't know David Golumbia, but I suspect I agree with him on many matters, actually. In particular, the centrality of an understanding of labour within a digital environment (that can too often mask its presence) has formed a core part of the 100+ keynotes that I have given on the topic of open access in the past two years (which is why OLH runs a model that requires universities to pay: we aren't relying on volunteerism etc. we are remunerating labour).

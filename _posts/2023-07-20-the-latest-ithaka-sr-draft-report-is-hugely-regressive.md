@@ -14,6 +14,9 @@ categories:
 - Scholarly Communications
 - Open Access
 kcworks: https://works.hcommons.org/records/nxrn7-4nc20
+references:
+- https://sr.ithaka.org/blog/draft-report-for-community-input/ # Ithaka S+R draft report for community input
+- https://twitter.com/kaythaney/status/1681474626994487297?s=20 # Tweet by kaythaney on interviewee disagreement with report
 ---
 
 I have read, with some dismay, the draft of [Ithaka S+R’s most recent report](https://sr.ithaka.org/blog/draft-report-for-community-input/). I offer here some critical remarks that I hope will allow for revision of the work, which I believe offers an insular, digital-nationalist, exclusionary vision for the future of scholarly communications. The views herein are my personal take, not those of any organization for which I work.

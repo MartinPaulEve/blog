@@ -10,6 +10,8 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7ly5darg
 categories:
 - Personal
 kcworks: https://works.hcommons.org/records/sgt8h-gep50
+references:
+- https://www.w3.org/Provider/Style/URI # W3C Cool URIs Don't Change essay
 ---
 
 This is a quick note to say that, in the near future, I will be abandoning the martineve.com domain name. For quite some time now, the primary address for this blog and site has been https://eve.gd. I know that [cool URLs don't change](https://www.w3.org/Provider/Style/URI). But I guess I am not totally cool.

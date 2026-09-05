@@ -27,6 +27,9 @@ wordpress_id: 1166
 wordpress_url: https://www.martineve.com/?p=1166
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkaiah72p"
 kcworks: https://works.hcommons.org/records/dsht4-2dr41
+references:
+- http://www.symbiosisonline.org.uk/ # Symbiosis transatlantic literary studies conference
+- http://www.flickr.com/photos/jasonbachman/ # jbachman01 Flickr photostream CC-BY-ND
 ---
 
 <p>An announcement that I will be speaking at the <a href="http://www.symbiosisonline.org.uk/">"Symbiosis" conference</a> at the University of Glasgow on the 24th of June giving a paper entitled "Whose Line is it Anyway? Geographical specificity of Enlightenment in Thomas Pynchon's Mason & Dixon".</p>

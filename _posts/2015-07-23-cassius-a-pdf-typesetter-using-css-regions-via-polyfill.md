@@ -18,6 +18,19 @@ tags:
 title: 'CaSSius: a PDF typesetter using CSS regions (via polyfill)'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcfgfg22a"
 kcworks: https://works.hcommons.org/records/3we42-37n10
+references:
+- https://github.com/MartinPaulEve/CaSSius # CaSSius CSS-based PDF typesetter GitHub repo
+- https://typekit.com # Adobe Typekit web font service
+- https://github.com/MartinPaulEve/CaSSius/blob/master/cassius-import/sample.xml # CaSSius sample JATS XML import file
+- https://github.com/MartinPaulEve/CaSSius/blob/master/LICENSE # CaSSius license file
+- https://github.com/FremyCompany/css-regions-polyfill # FremyCompany css-regions-polyfill GitHub repo
+- https://github.com/FremyCompany/css-regions-polyfill/blob/master/LICENSE.md # css-regions-polyfill BSD-style license
+- https://jquery.org # jQuery JavaScript library official site
+- https://jquery.org/license/ # jQuery MIT license page
+- https://thenounproject.com/search/?q=type&i=150037 # Lil Squid type icon on Noun Project
+- http://dtd.nlm.nih.gov/tools/tools.html # NLM XSLT suite and entity resolution tools
+- http://www.saxonica.com/ # Saxonica Saxon XSLT and XQuery processor
+- http://www.mozilla.org/MPL/ # Mozilla Public License
 ---
 
 ![CaSSius logo: a PDF file icon next to the name CaSSius](/images/CaSSius.png)

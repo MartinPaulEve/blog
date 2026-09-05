@@ -24,6 +24,10 @@ wordpress_id: 3139
 wordpress_url: https://www.martineve.com/?p=3139
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mf2f3ie2p"
 kcworks: https://works.hcommons.org/records/mhjjr-nam98
+references:
+- https://github.com/MartinPaulEve/meCite # meCite citation regex engine GitHub repository
+- https://github.com/mfenner/pandoc-jats # pandoc-JATS GitHub repository by Fenner
+- https://github.com/MartinPaulEve/JATS-CSL # JATS-CSL fork GitHub repository
 ---
 
 <p>One of the hardest parts of typesetting articles for scholarly publication in the JATS standard, especially when using homemade tools, is the bibliography. JATS (and its NLM predecessors) expects references to be broken down into their constituent components where possible in order to be semantically rich. For example:</p>

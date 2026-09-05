@@ -13,6 +13,14 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3dyuhl
 categories:
 - Literature
 kcworks: https://works.hcommons.org/records/t70e4-5tq53
+references:
+- https://eprints.bbk.ac.uk/id/eprint/31744/ # Eve, Paper Thin, Birkbeck repository eprint
+- https://www.umasspress.com/9781625344748/the-intimacy-of-paper-in-early-and-nineteenth-century-american-literature/ # Barber, The Intimacy of Paper in American Literature
+- https://www.penguinrandomhouse.com/books/116116/the-paper-trail-by-alexander-monro/ # Monro, The Paper Trail
+- https://www.amazon.co.uk/Papermaking-Technique-Lettering-Calligraphy-Typography/dp/0486236196 # Hunter, Papermaking: Technique and History
+- https://www.jstor.org/stable/608272 # Lionel Giles article on early Chinese paper
+- https://www.wiley.com/en-us/White+Magic%3A+The+Age+of+Paper-p-9780745672533 # Muller, White Magic: The Age of Paper
+- https://press.princeton.edu/books/hardcover/9780691139302/black # Pastoureau, Black: The History of a Color
 ---
 
 I've spent the past few weeks tracking down answers to the questions: "When and why did paper become white and why was white paper so valued?" for my work on [_Paper Thin_](https://eprints.bbk.ac.uk/id/eprint/31744/). Here are some of my very abridged findings.

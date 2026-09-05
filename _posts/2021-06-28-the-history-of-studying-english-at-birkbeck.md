@@ -15,6 +15,9 @@ categories:
 - Literature
 - Academia
 kcworks: https://works.hcommons.org/records/4fktj-j3z43
+references:
+- https://www.ucl.ac.uk/english/department/history-of-the-english-department # UCL English Department history page
+- https://doi.org/10.2307/2903057 # Article on Wilde lecturing on Thomas Chatterton
 ---
 
 Most major studies of the discipline of English that I know of, such as Gerald Graff's _Professing Literature: An Institutional History_ (Chicago, IL: University of Chicago Press, 1989) and Franklin E. Court's _Institutionalizing English Literature: Culture and Politics of Literary Study, 1750–1900_ (Stanford: Stanford University Press, 1992), situate its birth as “English language and literature” in 1828 at the University of London (referring to UCL rather than the federated research university that currently takes the name University of London). This also features in Ted Underwood's (excellent) _Why Literary Periods Mattered: Historical Contrast and the Prestige of English Studies_ (Stanford, CA: Stanford University Press, 2013).

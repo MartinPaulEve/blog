@@ -25,6 +25,13 @@ wordpress_id: 599
 wordpress_url: http://www.martineve.com/?p=599
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkuydma2f"
 kcworks: https://works.hcommons.org/records/4t5tz-nn167
+references:
+- http://www.flickr.com/photos/el_waka/ # El Waka Flickr photostream
+- http://creativecommons.org/licenses/by-nc-sa/3.0/ # Creative Commons BY-NC-SA 3.0 licence
+- http://purl.org/dc/terms/ # Dublin Core metadata terms namespace
+- http://purl.org/dc/dcmitype/Text # DCMI type Text resource
+- http://creativecommons.org/ns# # Creative Commons RDF namespace
+- http://www.martineve.com # Martin Paul Eve personal website
 ---
 
 <div><img src="http://www.martineve.com/wp-content/uploads/2011/01/18965895_0d6998a202_z-300x225.jpg" alt="Rocking Chair" title="RockingChair" width="300" height="225" class="alignnone size-medium wp-image-600" /><br />

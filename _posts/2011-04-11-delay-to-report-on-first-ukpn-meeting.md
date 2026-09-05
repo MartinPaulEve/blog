@@ -20,6 +20,8 @@ wordpress_id: 952
 wordpress_url: https://www.martineve.com/?p=952
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkfekek2s"
 kcworks: https://works.hcommons.org/records/m0nsb-cwg34
+references:
+- http://www.flickr.com/photos/jakeprzespo/ # jakeprzespo Flickr photostream
 ---
 
 <p>This is a quick post to give an update on the report from the first meeting of the UK Pynchon Network.</p>

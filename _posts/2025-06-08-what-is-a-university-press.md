@@ -14,6 +14,15 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvsvf23
 categories:
 - Open Access
 - Higher Education
+references:
+- http://www.guygeltner.net/blog/2582019unusual-business-a-university-press-goes-private-and-no-one-is-the-wiser # Geltner blog: AUP goes private in 2019
+- https://www.aup.nl/en/articles/aup-and-taylor-and-francis-partner-on-english-language-book-programme # AUP statement on Taylor and Francis partnership
+- https://doi.org/10.5281/zenodo.6907707 # Opening the Future OA book funding model report
+- https://doi.org/10.1629/uksg.673 # Eve article on OA book sustainability questions
+- https://www.aup.nl/en/imprint/ceu-press # AUP imprint page for CEU Press
+- https://www.ceu.edu/article/2024-07-23/amsterdam-university-press-and-central-european-university-sign-partnership # CEU-AUP partnership announcement
+- https://openscholarlyinfrastructure.org/ # Principles on Open Scholarly Infrastructure
+- https://doi.org/10.6084/m9.figshare.1314859.v1 # Neylon, Principles for Open Scholarly Infrastructures v1
 ---
 
 I was having a pretty good week last week, until we got to the closing minutes of play. At that point, I learned that Amsterdam University Press (AUP) had been acquired by the for-profit corporate publishing behemoth Taylor & Francis. This is not really a surprise in some ways. AUP had been [transformed into a private, for-profit enterprise in 2019](http://www.guygeltner.net/blog/2582019unusual-business-a-university-press-goes-private-and-no-one-is-the-wiser).

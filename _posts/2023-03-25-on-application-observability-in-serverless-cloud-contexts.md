@@ -13,6 +13,15 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7ly7qqbm
 categories:
 - Programming
 kcworks: https://works.hcommons.org/records/95axh-ptg68
+references:
+- https://github.com/trallnag/prometheus-fastapi-instrumentator # prometheus-fastapi-instrumentator plugin
+- https://prometheus.io/docs/concepts/metric_types/ # Prometheus metric types documentation
+- https://prometheus.io/docs/instrumenting/pushing/ # Prometheus Pushgateway documentation
+- https://prometheus.io/docs/practices/remote_write/ # Prometheus remote-write best practices
+- https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-metrics-and-dimensions.html # AWS API Gateway CloudWatch metrics and dimensions docs
+- https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/cloudwatch/client/put_metric_data.html # Boto3 CloudWatch put_metric_data reference
+- https://gitlab.com/crossref/labs/lambda-api-proxy/-/blob/main/crapiproxy/src/instrumentation.py # Crossref Labs API proxy instrumentation.py example
+- https://github.com/bobbui/json-logging-python # json-logging-python JSON logger library
 ---
 
 I have been thinking, this week, about the observability of AWS Lambda functions in API Gateway contexts. The major challenge is that Prometheus metrics pose a problem as they are pull-only (via a scraping endpoint). Prometheus metrics are stored in a temporary disk cache and then pulled off-site by Grafana etc. But this makes them difficult to collect in the context of ephemeral services, such as Lambda functions, where you can't guarantee a persisted endpoint with that data store.

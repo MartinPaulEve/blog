@@ -26,6 +26,14 @@ wordpress_id: 591
 wordpress_url: http://www.martineve.com/?p=591
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkvcrlq2f"
 kcworks: https://works.hcommons.org/records/yp9xp-q4273
+references:
+- http://www.flickr.com/photos/rodolphoreis/ # rodolphoreis Flickr photostream
+- http://zombieacademy.wordpress.com/cfp/ # Zombies in the Academy edited volume CFP
+- http://creativecommons.org/licenses/by-nc-sa/3.0/ # Creative Commons BY-NC-SA 3.0 licence
+- http://purl.org/dc/terms/ # Dublin Core metadata terms namespace
+- http://purl.org/dc/dcmitype/Text # DCMI type Text resource
+- http://creativecommons.org/ns# # Creative Commons RDF namespace
+- http://www.martineve.com # Martin Paul Eve personal website
 ---
 
 <div><img src="http://www.martineve.com/wp-content/uploads/2011/01/5252680113_575dfb803d_o-300x200.jpg" alt="A Zombie!" title="Zombie girl" width="300" height="200" class="alignnone size-medium wp-image-592" /><br />

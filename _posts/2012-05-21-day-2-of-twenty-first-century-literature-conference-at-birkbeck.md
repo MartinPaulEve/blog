@@ -21,6 +21,8 @@ wordpress_id: 2106
 wordpress_url: https://www.martineve.com/?p=2106
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mif6lss2a"
 kcworks: https://works.hcommons.org/records/jdf8d-n2921
+references:
+- http://en.m.wikipedia.org/wiki/Cell_phone_novel # Wikipedia article on cell phone novels
 ---
 
 <p>I just realised that I forgot to Storify my live tweets from day 2 of this conference... enjoy!</p>

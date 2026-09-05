@@ -13,6 +13,9 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lyfg57y
 categories:
 - Programming
 kcworks: https://works.hcommons.org/records/hhm7v-32a11
+references:
+- https://pypi.org/project/pytest-localstack/ # pytest-localstack PyPI package
+- https://gitlab.com/crossref/labs/lambda-api-proxy/-/blob/main/crapiproxy/src/plugins/utils/aws_utils.py # Crossref Labs AWSConnector utility class source
 ---
 
 LocalStack is a great cloud emulation layer. It lets you simulate interaction with AWS, which is great for writing integration tests.

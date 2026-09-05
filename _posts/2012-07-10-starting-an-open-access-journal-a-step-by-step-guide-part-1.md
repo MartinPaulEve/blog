@@ -22,6 +22,11 @@ wordpress_id: 2182
 wordpress_url: https://eve.gd/?p=2182
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mibwvi62p"
 kcworks: https://works.hcommons.org/records/br61b-sdp26
+references:
+- http://www.hookandeye.ca/2012/07/scholarly-publishing-is-broken.html # Hook and Eye blog: scholarly publishing is broken
+- http://www.bluehost.com/track/martineve # Bluehost web hosting affiliate link
+- http://oaspa.org/ # Open Access Scholarly Publishers Association
+- http://pkp.sfu.ca/?q=ojs # PKP Open Journal Systems software
 ---
 
 <h3>Prefatory note (2016)</h3>

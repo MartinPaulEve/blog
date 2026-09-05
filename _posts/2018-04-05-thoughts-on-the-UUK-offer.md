@@ -10,6 +10,11 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7szcsu
 categories:
 - Higher Education
 kcworks: https://works.hcommons.org/records/hh0z8-av846
+references:
+- http://www.twitlonger.com/show/n_1sqg6m9 # Twitlonger post arguing against accepting UUK offer
+- https://www.ucu.org.uk/article/9412/UCU-responds-to-UUK-valuation-review?list=1676 # UCU response to UUK USS valuation review March 2018
+- https://medium.com/ussbriefs/the-uss-dispute-and-the-dynamics-of-industrial-action-85231f4382a8 # USSBriefs piece on USS dispute industrial action dynamics
+- https://medium.com/ussbriefs/is-there-really-a-uss-deficit-26dcd9e01f3e # USSBriefs piece questioning existence of USS deficit
 ---
 
 In the past few days I have spoken with many colleagues with differing views on the offer from UUK. Like many other colleagues, I have been on strike to halt the conversion of the defined benefit pension of the Universities Superannuation Scheme to a market-performance-based defined contribution system. It has been heartening to see so many colleagues involved in industrial action and to see that labour has power in such disputes.

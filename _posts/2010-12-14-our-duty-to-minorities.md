@@ -65,6 +65,9 @@ wordpress_id: 475
 wordpress_url: http://www.martineve.com/?p=475
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlifmfk2a"
 kcworks: https://works.hcommons.org/records/nt0fj-hte29
+references:
+- http://www.bbc.co.uk/news/uk-11985568 # BBC news on Independent Living Fund cuts
+- http://www.guardian.co.uk/news/datablog/2010/oct/18/deficit-debt-government-borrowing-data # Guardian datablog UK government deficit data
 ---
 
 <p>This is a quick, personal post to express my disgust at the government's recent proposals to "reform" the Disabled Living Allowance and scrap the <a href="http://www.bbc.co.uk/news/uk-11985568">Independent Living Fund</a>. While I have been extremely unhappy about the cuts, particularly to higher education, this latest batch hits a group of people who really need this support. And what does it save? The ILF costs a relatively small £359m.</p>

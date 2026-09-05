@@ -20,6 +20,8 @@ wordpress_id: 1576
 wordpress_url: https://www.martineve.com/?p=1576
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjgjpc72q"
 kcworks: https://works.hcommons.org/records/93q2r-3m254
+references:
+- http://www.flickr.com/photos/imroy/ # imroy Flickr photostream
 ---
 
 <p>Send your own to <a href="mailto:customer-feedback@bl.uk">customer-feedback@bl.uk</a>.</p>

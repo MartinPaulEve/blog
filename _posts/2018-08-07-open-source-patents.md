@@ -14,6 +14,11 @@ categories:
 - Copyright and Licensing
 - Publishing Technology
 kcworks: https://works.hcommons.org/records/g0kz9-naq20
+references:
+- https://github.com/BirkbeckCTP/janeway/ # Janeway journal publishing software on GitHub
+- https://security.ucop.edu/resources/open-source-software-licensing.html # UC Office of the President open-source licensing risk matrix
+- https://www.gnu.org/philosophy/software-patents.en.html # GNU philosophy page on harmful software patents
+- https://opensource.com/article/18/3/patent-grant-mit-license # Opensource.com article on patent grants in MIT license
 ---
 
 As you may know, the Centre for Technology and Publishing at Birkbeck publishes and maintains a piece of open-source software for journal publishing called [Janeway](https://github.com/BirkbeckCTP/janeway/). This software is licensed under the AGPLv3.

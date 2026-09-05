@@ -24,6 +24,11 @@ wordpress_id: 1905
 wordpress_url: https://www.martineve.com/?p=1905
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miskhaj2e"
 kcworks: https://works.hcommons.org/records/4rfzc-38q09
+references:
+- http://prezi.com/bin/preziloader.swf # Prezi presentation loader SWF
+- http://prezi.com/6bdu_yukyvgj/step-by-step-wordpress-for-academics/ # Step-by-step WordPress for academics Prezi
+- http://prezi.com # Prezi presentation platform
+- http://www.flickr.com/photos/anselm23/ # anselm23 Flickr photo stream
 ---
 
 <p>Ok, so it could really be Wordpress for anybody, but here's the Prezi that I made for a true step-by-step, from the very beginning guide to setting up a new Wordpress-based website. We also covered the beginnings of the information you'd need to customize the site and the benefits of self-hosting. The Prezi is probably only really of use for those who want a basic guide to setting up a new wordpress.com blog.</p>

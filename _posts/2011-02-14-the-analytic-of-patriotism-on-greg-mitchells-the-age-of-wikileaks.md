@@ -33,6 +33,8 @@ wordpress_id: 767
 wordpress_url: https://www.martineve.com/?p=767
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkp4ygz2q"
 kcworks: https://works.hcommons.org/records/tz8aj-ywa73
+references:
+- http://www.thenation.com/blogs/media-fix # The Nation Media Fix blog liveblogging WikiLeaks
 ---
 
 <p>This is my second review of a book on WikiLeaks, a subject which holds almost indefinite fascination for me, the first being David Leigh and Luke Harding's <i><a href="https://www.martineve.com/2011/02/07/david-leigh-and-luke-hardings-wikileaks-inside-julian-assanges-war-on-secrecy/">WikiLeaks: Inside Julian Assange's War on Secrecy</a></i>.</p>

@@ -22,6 +22,12 @@ wordpress_id: 1191
 wordpress_url: https://www.martineve.com/?p=1191
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkabdrp2r"
 kcworks: https://works.hcommons.org/records/dhed3-2z794
+references:
+- http://www.excursions-journal.org.uk # Excursions journal homepage
+- http://www.excursions-journal.org.uk/index.php/excursions/issue/view/2 # Excursions vol 2 issue 1 Virus 2011
+- http://www.excursions-journal.org.uk/index.php/excursions/issue/archive # Excursions journal issue archive
+- http://www.excursions-journal.org.uk/cfp.html # Excursions journal call for papers
+- http://www.lukejerram.com # Luke Jerram artist website
 ---
 
 <p>The <a href="http://www.excursions-journal.org.uk"><i>Excursions</i></a> editorial board are pleased to announce the launch of <i>Excursions</i>, Volume 2, Issue 1: Virus (2011).</p>

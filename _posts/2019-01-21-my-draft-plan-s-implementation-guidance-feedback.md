@@ -14,6 +14,8 @@ categories:
 - Open Access
 - Copyright and Licensing
 kcworks: https://works.hcommons.org/records/v5ptc-vx438
+references:
+- http://dx.doi.org/10.1017/CBO9781316161012 # Eve, Open Access and the Humanities Cambridge UP
 ---
 
 I write to provide feedback in an individual capacity on the Plan S implementation guidelines.

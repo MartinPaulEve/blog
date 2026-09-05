@@ -14,6 +14,28 @@ categories:
 - Open Access
 - Scholarly Communications
 kcworks: https://works.hcommons.org/records/c9jkz-wbv26
+references:
+- https://doi.org/10.1629/uksg.399 # Andrews, resilience in scholar-led publishing Insights UKSG 2018
+- https://doi.org/10.1371/journal.pbio.0000036 # Eisen and Varmus, Why PLoS Became a Publisher PLOS Biology 2003
+- https://v2.sherpa.ac.uk/view/repository_by_country/019.html # SHERPA directory of open access repositories by country
+- https://www.coalition-s.org/ # cOAlition S Plan S website
+- https://doi.org/10.1017/CBO9781316161012 # Eve, Open Access and the Humanities CUP 2014
+- https://doi.org/10.1177/0263276413506944 # Gane, Foucault's lectures on biopolitics Theory Culture and Society
+- https://doi.org/10.1038/445009a # Nature news, open-access journal publish first judge later 2007
+- https://www.moore.org/article-detail?newsUrlName=public-library-of-science-to-launch-new-free-access-biomedical-journals-with-$9-million-grant-from-the-gordon-and-betty-moore-foundation # Moore Foundation PLoS $9 million grant announcement 2002
+- http://roarmap.eprints.org/ # ROARMAP registry of OA repository mandates and policies
+- http://stevenhill.org.uk/journal-brand-and-research-culture/ # Steven Hill blog on journal brand and research culture 2020
+- http://www.sherpa.ac.uk/romeo/ # SHERPA/RoMEO publisher copyright policies self-archiving
+- https://hcommons.org/deposits/item/hc:23661/ # Lawson, OA Policy UK Neoliberalism to Commons doctoral thesis
+- https://doi.org/10.1371/journal.pbio.0040401 # MacCallum, ONE for All Next Step for PLoS PLOS Biology 2006
+- https://www.thebookseller.com/news/taylor-francis-buys-f1000-research-ltd-1150791 # The Bookseller news Taylor and Francis buys F1000 Research 2020
+- http://www.plosone.org/static/information # PLOS ONE journal information page
+- https://richardpoynder.co.uk/PLoS_ONE.pdf # Poynder, PLoS ONE Open Access Future of Scholarly Publishing 2011
+- https://doi.org/10.4324/9780203114261 # Schweizer, Platforms chapter Routledge Companion Video Game Studies
+- https://doi.org/10.1108/JD-06-2017-0092 # Spezi et al, community decide peer review OA mega-journals J Documentation
+- https://doi.org/10.1163/095796510X546959 # Suber, Thoughts on prestige quality and open access Logos 2010
+- https://scoss.org/ # SCOSS Global Sustainability Coalition for Open Science Services
+- https://doi.org/10.1093/acprof:oso/9780199970773.001.0001
 ---
 
 # Defining Threat Infrastructures

@@ -14,6 +14,9 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m4tay3r
 categories:
 - Piracy and Shadow Libraries
 kcworks: https://works.hcommons.org/records/heaya-2mk39
+references:
+- https://doi.org/10.1111/criq.12359 # Eve, Digitizator writing labour computers Critical Quarterly 2017
+- https://unsplash.com/photos/1PtM6b85sdw # Ahmed Adly Unsplash photo
 ---
 
 I am, at present, working on a book currently entitled _Warez: The Economic Artforms and Illicit Crafts of the Topsite Scene_, under contract with punctum books. The title has changed since it went under contract in order to better reflect the content -- and it might well change again. However, I today wrote some paragraphs that cut to the core of my argument in this book and that I thought I would share as an update of my understanding the Warez Scene and its illicit subcultures.

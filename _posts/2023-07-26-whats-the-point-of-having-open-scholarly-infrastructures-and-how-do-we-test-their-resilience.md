@@ -14,6 +14,9 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7ly4cktq
 categories:
 - Scholarly Communications
 kcworks: https://works.hcommons.org/records/p071q-dde52
+references:
+- https://openscholarlyinfrastructure.org/ # Principles of Open Scholarly Infrastructure site
+- https://www.crossref.org/blog/outage-of-october-6-2021/ # Crossref blog post on October 2021 outage
 ---
 
 It is sometimes easy, when discussing openness, to get bogged down in the technical weeds. People often want detail and specifics: what open license should I use? Precisely how much revenue do I need to keep in reserve safely to wind-down an organization? When does advocacy become lobbying?

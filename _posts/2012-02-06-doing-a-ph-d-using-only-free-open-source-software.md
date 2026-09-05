@@ -178,6 +178,14 @@ wordpress_id: 1900
 wordpress_url: https://www.martineve.com/2012/02/06/doing-a-ph-d-using-only-free-open-source-software/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miwgd5p2f"
 kcworks: https://works.hcommons.org/records/t0f5x-31c61
+references:
+- http://www.ubuntu.com # Ubuntu GNU/Linux operating system
+- http://www.libreoffice.org # LibreOffice free office suite
+- http://www.zotero.org # Zotero reference management software
+- http://www.mozilla.org/en-GB/thunderbird/ # Mozilla Thunderbird email client
+- http://www.mozilla.org/en-US/firefox/ # Mozilla Firefox web browser
+- http://www.cis.upenn.edu/~bcpierce/unison/ # Unison file synchronisation tool
+- http://www.flickr.com/photos/okubax/ # okubax Flickr photo stream
 ---
 
 <p>Feeling confident of <a href="https://www.martineve.com/2012/01/27/first-draft-of-my-ph-d-is-done/">my current level of progress</a>, I think it's worth pointing out that the entirety of my doctoral thesis work has been done using free, open source software. I wanted to write a quick overview of my system, explain where it falls down and give an honest appraisal of how it went.</p>

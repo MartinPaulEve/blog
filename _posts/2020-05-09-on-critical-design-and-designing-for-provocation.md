@@ -14,6 +14,11 @@ categories:
 - Philosophy
 - Open Access
 kcworks: https://works.hcommons.org/records/2qxrq-ge852
+references:
+- https://doi.org/10.1145/2317956.2318001 # Bardzell et al, Critical Design and Critical Theory ACM CHI 2012
+- http://doi.org/10.16995/olh.538 # Eve, Equivocationary Horseshit DFW OLH 2020
+- https://doi.org/10.1080/0950236X.2015.1084363 # Eve, crypto-didactic article Textual Practice 2015
+- https://unsplash.com/photos/uvMSarsRHzo # Matt Antonioli Unsplash photo
 ---
 
 This week for [COPIM](https://www.copim.ac.uk/) we are reading Bardzell, Shaowen, Jeffrey Bardzell, Jodi Forlizzi, John Zimmerman, and John Antanitis, ‘Critical Design and Critical Theory: The Challenge of Designing for Provocation’, in Proceedings of the Designing Interactive Systems Conference, DIS ’12 (Newcastle Upon Tyne, United Kingdom: Association for Computing Machinery, 2012), pp. 288–297 <[https://doi.org/10.1145/2317956.2318001](https://doi.org/10.1145/2317956.2318001)>. This paper is on the challenges of translating ‘critical theory’ into a design research practice.

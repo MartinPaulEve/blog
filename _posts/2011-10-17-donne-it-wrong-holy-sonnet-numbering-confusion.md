@@ -21,6 +21,11 @@ wordpress_id: 1544
 wordpress_url: https://www.martineve.com/2011/10/17/donne-it-wrong-holy-sonnet-numbering-confusion/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjixewd2n"
 kcworks: https://works.hcommons.org/records/ea4fv-x8v85
+references:
+- http://en.wikisource.org/wiki/Holy_Sonnets#Holy_Sonnet_14 # Wikisource Donne Holy Sonnet 14
+- http://www.poets.org/viewmedia.php/prmMID/20308 # poets.org Donne Holy Sonnet 14
+- http://www.luminarium.org/sevenlit/donne/sonnet14.php # Luminarium Donne Holy Sonnet 14
+- http://www.flickr.com/photos/60861613@N00/ # lisby1 Flickr photostream
 ---
 
 <p>An interesting problem here...</p>

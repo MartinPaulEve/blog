@@ -19,6 +19,8 @@ wordpress_id: 2122
 wordpress_url: https://www.martineve.com/?p=2122
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mieko5l2h"
 kcworks: https://works.hcommons.org/records/a9km7-z4k26
+references:
+- http://archive.org/details/royalpurple1988unse # Kansas State University yearbook 1988 on Internet Archive
 ---
 
 <p>Probably not. But...</p>

@@ -14,6 +14,28 @@ categories:
 - Personal
 - Academia
 kcworks: https://works.hcommons.org/records/sxjtd-k7p10
+references:
+- https://www.nature.com/articles/d41586-024-03842-z # Nature editorial on digital preservation work
+- https://eprints.bbk.ac.uk/id/eprint/52007 # Eve, Star Trek Voyager book (Lever Press 2025), BIROn
+- https://eprints.bbk.ac.uk/id/eprint/31744 # Eve, Theses on the Metaphors of Digital-Textual History, BIROn
+- https://eprints.bbk.ac.uk/id/document/322077 # Download: Theses on Metaphors of Digital-Textual History
+- https://jcls.io/article/id/3915/ # Ketzan and Eve, anxiety of prestige in Stephen King, JCLS 2024
+- https://eprints.bbk.ac.uk/id/document/323621 # Download: anxiety of prestige in Stephen King article
+- https://eprints.bbk.ac.uk/id/eprint/51899 # Eve, digital scholarly journals poorly preserved 7m articles, BIROn
+- https://eprints.bbk.ac.uk/id/document/316883 # Download: digital scholarly journals poorly preserved article
+- https://eprints.bbk.ac.uk/id/eprint/50133 # Eve, shadow libraries and pirate infrastructures, BIROn
+- https://eprints.bbk.ac.uk/id/eprint/53704 # Eve, dark archives catalogues chapter, BIROn
+- https://eprints.bbk.ac.uk/id/eprint/54717 # Eve, digital piracy chapter, Handbuch Springer 2025, BIROn
+- https://eprints.bbk.ac.uk/id/eprint/43087 # Eve, essay in career of contemporary English novelist, BIROn
+- https://eprints.bbk.ac.uk/id/document/322638 # Download: essay in career of contemporary English novelist
+- https://eprints.bbk.ac.uk/id/eprint/53717 # Eve et al, AI in the communications circuit, SHARP 2024, BIROn
+- https://eprints.bbk.ac.uk/id/eprint/53252 # Eve, serious openings in Pynchon, Preface Prelude Prologue 2024, BIROn
+- https://eprints.bbk.ac.uk/id/document/320373 # Download: serious openings in Pynchon talk
+- https://jcls.io/media/journals/12/CCLS2024_Conference_Reader.pdf # Ketzan and Eve, Stephen King stylistics, CCLS Vienna 2024
+- https://eprints.bbk.ac.uk/id/document/320161 # Download: Stephen King stylistics CCLS 2024 paper
+- https://eprints.bbk.ac.uk/id/eprint/53158 # Eve, how safe are digital journals, Leeds seminar 2024, BIROn
+- https://eprints.bbk.ac.uk/id/eprint/52808 # Eve, accessibility publishing and disability, BAAS 2024, BIROn
+- https://github.com/openlibhums/janeway/ # Janeway open-access publishing platform on GitHub
 ---
 
 Like most years, a mixed bag for me here. Kidney failure continues to be a truly challenging medical fiasco, with AV fistulas, overnight dialysis, hormone therapies, and much much more. I also continue to feel the severe difficulties of my rheumatoid arthritis, which required a hip replacement in April.

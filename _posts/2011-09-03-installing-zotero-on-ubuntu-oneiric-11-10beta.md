@@ -57,6 +57,11 @@ wordpress_id: 1449
 wordpress_url: https://www.martineve.com/?p=1449
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjyu33j2o"
 kcworks: https://works.hcommons.org/records/ee8p7-10p43
+references:
+- http://archive.canonical.com/ubuntu # Canonical Ubuntu package archive
+- http://www.mozilla.org/en-US/firefox/fx/ # Mozilla Firefox download page
+- http://www.zotero.org/ # Zotero reference manager homepage
+- http://www.zotero.org/download/integration/Zotero-OpenOffice-Plugin-3.1b1.xpi # Zotero OpenOffice integration plugin download
 ---
 
 <p>Following on from my previous <a href="https://www.martineve.com/2011/04/03/installing-zotero-on-ubuntu-natty-11-04beta/">guide to using Zotero in Ubuntu Natty</a>, I am pleased to present, here, the guide for Ubuntu 11.10: The Oneiric Ocelot. <s>The most crucial new addition is that, at the time of writing (September 2011), Zotero was unable to load in Firefox 7.0 beta.</s> Update: As of 9th of September, this is fixed. Zotero 2.1.10 will load in Firefox 7.</p>

@@ -23,6 +23,8 @@ wordpress_id: 450
 wordpress_url: http://www.martineve.com/?p=450
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlk47iu2h"
 kcworks: https://works.hcommons.org/records/w8ntj-we509
+references:
+- http://code.google.com/p/rockaby/source/detail?r=54a0f9af87f4b0b9003d4278b071d5c385b4b755 # Rockaby refactoring commit on Google Code
 ---
 
 <p><img class="alignnone" title="Rockaby" src="http://www.martineve.com/images/logo.png" alt="Rockaby Project" width="300" height="150" /></p>

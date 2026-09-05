@@ -14,6 +14,10 @@ categories:
 - Politics
 - Health
 kcworks: https://works.hcommons.org/records/mn9ne-5x755
+references:
+- https://www.writetothem.com/ # WriteToThem MP contact tool
+- https://rheumatology.medicinematters.com/covid-19/rituximab/national-covid-cohort-collaborative/19947862 # Study on Rituximab and severe Covid outcomes
+- https://petition.parliament.uk/petitions/611884 # UK Parliament petition for shielding patients
 ---
 
 I don't normally do this kind of direct outreach, but the situation for people with serious immune system compromise at the moment in the UK is grim. We cannot produce responses to the covid vaccines and so remain shielding/in total isolation. There is a drug available and regulated, but [the UK government has not bought it](/2022/04/28/the-current-state-of-evusheld-tixagevimabcilgavimab-in-the-uk/). 

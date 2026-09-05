@@ -25,6 +25,8 @@ wordpress_id: 2395
 wordpress_url: https://www.martineve.com/?p=2395
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhslf3a2o"
 kcworks: https://works.hcommons.org/records/n82bz-sx764
+references:
+- http://sgo.sagepub.com/ # Sage Open gold OA platform
 ---
 
 <p>As is now common knowledge, the Finch report has recommended the Gold Open Access route and the government policy implementation has followed the advice that all publications from RCUK must be published in Open Access destinations (or in Institutional Repositories after a short embargo period). <b>This includes the AHRC</b>. It's important to ask, then: where are the OA venues for the humanities disciplines? What changes are being made by our top-ranking journals to implement this? And what the hell will happen to the next REF cycle if the venues remain on the fringes and those funded by the AHRC have no highly-ranked destinations.</p>

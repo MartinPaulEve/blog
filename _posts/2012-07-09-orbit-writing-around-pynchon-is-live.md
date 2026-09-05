@@ -20,6 +20,8 @@ wordpress_id: 2172
 wordpress_url: https://www.martineve.com/?p=2172
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7micnj3c2s"
 kcworks: https://works.hcommons.org/records/tgwpc-aer54
+references:
+- http://dx.doi.org/10.7766/orbit.v1.1.38 # DOI link to Orbit preface article
 ---
 
 <p>It's taken quite a while and a lot of energy on my part, but my journal of scholarship on Thomas Pynchon, <a href="https://www.pynchon.net">Orbit: Writing Around Pynchon</a>, is now live and launched.</p>

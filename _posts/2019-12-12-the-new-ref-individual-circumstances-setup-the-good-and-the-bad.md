@@ -14,6 +14,8 @@ categories:
 - Higher Education
 - Health
 kcworks: https://works.hcommons.org/records/tfcck-x7z31
+references:
+- https://www.researchprofessional.com/0/rr/news/uk/ref-2014/2019/12/REF-staff-circumstances-rules-criticised.html # Research Fortnight on REF staff circumstances rules
 ---
 
 I am quoted in [today's Research Fortnight](https://www.researchprofessional.com/0/rr/news/uk/ref-2014/2019/12/REF-staff-circumstances-rules-criticised.html) on the new REF staff/individual circumstances under the heading 'REF staff circumstances rules criticised'. The quote used only gives a selection of the views that I supplied and omits the bits where I say why the new situation might be better (that's fine -- it's journalism and I was not quoted inaccurately). Here are my full remarks in context:

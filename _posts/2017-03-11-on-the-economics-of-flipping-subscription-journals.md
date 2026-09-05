@@ -13,6 +13,8 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mafa44p
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/5r7s1-jfa34
+references:
+- https://www.openlibhums.org # Open Library of Humanities website
 ---
 
 One of the most pleasing, but also most difficult, parts of running the [Open Library of Humanities](https://www.openlibhums.org) is bringing new journals onto the platform.

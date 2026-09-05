@@ -19,6 +19,8 @@ categories:
 - Academia
 - Personal
 kcworks: https://works.hcommons.org/records/p7h07-bdb70
+references:
+- http://five.sentenc.es/ # Five sentences email brevity pledge site
 ---
 
 In 2021 I spent 506 hours answering email. That's less than the 558 that I spent on the task in 2020, but it's still a full 72 days' worth of my time per year. (My nominal contract is seven hours per day, but for an eight-hour day, it's still 63 days.) It's less than some people and more than others. I would like to do less of this as it's not terribly rewarding, so yesterday I read Cal Newport's _A World Without Email_.

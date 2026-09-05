@@ -14,6 +14,10 @@ categories:
 - Programming
 - Scholarly Communications
 kcworks: https://works.hcommons.org/records/nd6s3-4cs93
+references:
+- https://github.com/infosimples/detect-headless # detect-headless JavaScript headless browser detection suite
+- https://github.com/Granitosaurus/playwright-stealth/tree/main # playwright-stealth headless evasion plugin
+- https://github.com/Granitosaurus/playwright-stealth/pull/7 # Pull request patching Connection Rtt in playwright-stealth
 ---
 
 My day job involves quite a lot of crawling lists of websites to determine statistics about Crossref members and their behaviours. A good example is something I wanted to know recently: in [the current sample](https://samples.research.crossref.org/), how many members display the title and doi (according to the latest display guidelines) on that page? In other words, how many members are doing good things on their landing pages? This is also important because, if a high number of these pages _are_ behaving well, then we can use this as a marker of semantic shift/change. That is, we can use it to detect when a new domain owner comes along, for instance, and changes the content so that it no longer reflects the original.

@@ -13,6 +13,9 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7ly3kn7p
 categories:
 - Scholarly Communications
 kcworks: https://works.hcommons.org/records/qyjhy-b9q86
+references:
+- https://openscholarlyinfrastructure.org/ # Principles of Open Scholarly Infrastructure site
+- https://www.etymonline.com/word/principle # Online Etymology Dictionary entry for principle
 ---
 
 In recent days, several signatories to the [Principles on Open Scholarly Infrastructure](https://openscholarlyinfrastructure.org/) have taken to performing self-audits of their compliance with the principles. Of course, holding oneself to account in this way is a welcome development. Without some form of self-appraisal it is not possible to know how close one is to fulfilling the goals of POSI.

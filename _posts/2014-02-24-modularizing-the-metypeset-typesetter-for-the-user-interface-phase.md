@@ -23,6 +23,13 @@ wordpress_id: 3033
 wordpress_url: https://www.martineve.com/?p=3033
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfobrk52r"
 kcworks: https://works.hcommons.org/records/hs0g1-zf897
+references:
+- https://github.com/MartinPaulEve/meTypeset/tree/dev # meTypeset dev branch on GitHub
+- https://github.com/MartinPaulEve/meTypeset/commit/5662b3aeda62b9ee7a8bf009ce7b5cc77ed95fa6 # meTypeset commit adding user caption handling
+- https://github.com/sampsyo/beets/ # beets music tagger on GitHub
+- https://www.pynchon.net/ # Orbit Pynchon journal website
+- https://github.com/elifesciences/lens # eLife Lens XML viewer on GitHub
+- http://dx.doi.org/10.6084/m9.figshare.942425 # Figshare DOI for meTypeset modularization post
 ---
 
 <h1>Modularizing the Project</h1>

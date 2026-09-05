@@ -13,6 +13,10 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5qmen5
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/jnd1q-tf568
+references:
+- https://blogs.openbookpublishers.com/introducing-some-data-to-the-open-access-debate-obps-business-model-part-one/ # Open Book Publishers blog on their OA cost model
+- https://doi.org/10.5281/ZENODO.815932 # Zenodo report on OA book publishing business models Europe 2017
+- https://unsplash.com/photos/E7RLgUjjazc # Adeolu Eletu Unsplash photo
 ---
 
 This week for our [COPIM](https://www.copim.ac.uk) reading group we are turning to Osterwalder, Alexander, Yves Pigneur, and Tim Clark, _Business Model Generation: A Handbook for Visionaries, Game Changers, and Challengers_ (Hoboken, NJ: Wiley, 2010). Part of what we are doing is thinking through the different business models that can support open publication of monographs and figuring out how to implement these on the ground. Part of that work involves understanding what a business model is, of what it consists, and how new models can be generated. Here are my very loose jottings on this.

@@ -21,6 +21,9 @@ wordpress_id: 454
 wordpress_url: http://www.martineve.com/?p=454
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mljk7ck2a"
 kcworks: https://works.hcommons.org/records/13zhs-fqf67
+references:
+- http://www.guardian.co.uk/world/blog/2010/dec/03/julian-assange-wikileaks # Guardian Julian Assange WikiLeaks Q&A
+- https://zunguzungu.wordpress.com/2010/11/29/julian-assange-and-the-computer-conspiracy-%E2%80%9Cto-destroy-this-invisible-government%E2%80%9D/# # Zunguzungu blog on Assange computer conspiracy essay
 ---
 
 <p>Julian Assange has just conducted a brief Q&A on the <a href="http://www.guardian.co.uk/world/blog/2010/dec/03/julian-assange-wikileaks">Guardian website</a> and he gave one statement that clearly indicates his fierce intelligence and comprehension of the stakes involved in transparency of government. I felt it worthy enough to merit a post and expository paragraph or two of its own. The quotation reads:</p>

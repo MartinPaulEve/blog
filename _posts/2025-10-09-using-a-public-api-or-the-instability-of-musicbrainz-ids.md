@@ -14,6 +14,12 @@ categories:
 - Programming
 - Music
 kcworks: https://works.hcommons.org/records/bv5vk-78k85
+references:
+- https://ticitaci.com # Ticitaci record label site
+- https://ticitaci.com/artists/martin-eve.html # Eve's artist page on Ticitaci
+- https://musicbrainz.org/label/62db3e96-423a-4e9d-bf66-7a017f1dfc73 # Ticitaci MusicBrainz label record
+- https://musicbrainz.org/release/a82fd9b7-4129-4e44-8867-a1a21493ee8e # MusicBrainz release (redirected, old ID)
+- https://musicbrainz.org/release/114bdc29-02ca-45e8-83cb-9b2dae354e20 # MusicBrainz release (new canonical ID)
 ---
 
 I have a script (a custom static site generator) that produces the output at [https://ticitaci.com](https://ticitaci.com) -- a page for the record label [on which I have released music](https://ticitaci.com/artists/martin-eve.html) (and that I really, really love).

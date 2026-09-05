@@ -19,6 +19,9 @@ wordpress_id: 1790
 wordpress_url: https://www.martineve.com/2012/01/09/pynchon-character-etymology-etienne-cherdlu/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mj2l35p2q"
 kcworks: https://works.hcommons.org/records/4ev5q-1rg69
+references:
+- http://en.wikipedia.org/wiki/ETAOIN_SHRDLU # Wikipedia article on ETAOIN SHRDLU linotype phrase
+- http://en.wikipedia.org/wiki/File:ClavierLinotype_20041006-163300.jpg # Wikipedia linotype keyboard image by Schwallex
 ---
 
 <p>With thanks to Roland Clare, a quick snippet of interest (certainly to me, anyway) on the etymology of a certain Étienne Cherdlu, a character featuring, despite omission from Hurley's <i>Pynchon Character Names: A Dictionary</i> (Hurley, Patrick. Pynchon Character Names: A Dictionary. Jefferson  N.C.: McFarland & Co.  Publishers, 2008.), in "The Secret Integration". (Pynchon, Thomas. “The Secret Integration.” In Slow Learner: Early Stories, 139-193. Boston: Back Bay Books/Little  Brown, 1985.)</p>

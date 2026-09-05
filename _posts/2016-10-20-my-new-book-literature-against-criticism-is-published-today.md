@@ -14,6 +14,11 @@ categories:
 - Publications
 - Literature
 kcworks: https://works.hcommons.org/records/zn59b-k3p49
+references:
+- http://eprints.bbk.ac.uk/id/document/29014 # Literature Against Criticism free PDF download Birkbeck
+- http://www.openbookpublishers.com/product/530/literature-against-criticism--university-english-and-contemporary-fiction-in-conflict # Literature Against Criticism Open Book Publishers page
+- https://www.amazon.co.uk/Literature-Against-Criticism-University-Contemporary-ebook/dp/B01M3RI2P4/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1476953114&sr=8-3 # Literature Against Criticism Kindle Amazon UK
+- http://blogs.openbookpublishers.com/what-does-it-mean-for-a-work-of-literature-to-be-against-criticism/ # Eve OBP blog post what does literature against criticism mean
 ---
 
 I am extremely pleased to say that my latest peer-reviewed book, _Literature Against Criticism: University English and Contemporary Fiction in Conflict_ has today been published by Open Book Publishers!

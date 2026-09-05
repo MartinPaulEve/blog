@@ -14,6 +14,10 @@ categories:
 - Open Access
 - Politics
 kcworks: https://works.hcommons.org/records/211vd-az638
+references:
+- https://mitpress.mit.edu/books/reassembling-scholarly-communications # MIT Press Reassembling Scholarly Communications book
+- https://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.774255 # Stuart Lawson PhD thesis via EThOS
+- https://unsplash.com/photos/0rzUepBXHN0 # Ivo Rainha Unsplash photo
 ---
 
 This week for our [COPIM project](https://www.copim.ac.uk/) reading group we are turning to the forthcoming  Stuart Lawson, ‘The Political Histories of UK Public Libraries and Access to Knowledge’, in _Reassembling Scholarly Communications: Histories, Infrastructures, and Global Politics of Open Access_, ed. by Martin Paul Eve and Jonathan Gray (Cambridge, MA: The MIT Press, 2020), pp. 161–72. This work is not yet published but will be openly accessible when it is, [hopefully later this year](https://mitpress.mit.edu/books/reassembling-scholarly-communications). The work is also derived from Stuart's [Ph.D. thesis, which is openly accessible](https://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.774255).

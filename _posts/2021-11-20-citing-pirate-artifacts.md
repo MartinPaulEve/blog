@@ -14,6 +14,8 @@ categories:
 - Piracy and Shadow Libraries
 - Academia
 kcworks: https://works.hcommons.org/records/y9x57-vkq18
+references:
+- https://punctumbooks.com/titles/warez-the-infrastructure-and-aesthetics-of-piracy/ # Eve, Warez, punctum books publisher page
 ---
 
 By necessity, the bibliography to [my book on Warez](https://punctumbooks.com/titles/warez-the-infrastructure-and-aesthetics-of-piracy/) must cite a number of unconventional works that are not covered by standard style manuals. In particular, I need to make reference to NFO files that contain ASCII art and other iNFOrmation about the Warez Scene. As noted more extensively in the introduction, one of the primary sources upon which I draw is the _DeFacto2_ archive.

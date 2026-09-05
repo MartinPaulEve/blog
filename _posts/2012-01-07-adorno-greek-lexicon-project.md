@@ -20,6 +20,8 @@ wordpress_id: 1757
 wordpress_url: https://www.martineve.com/2012/01/07/adorno-greek-lexicon-project/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mj2wy2h2r"
 kcworks: https://works.hcommons.org/records/bdbwm-b3s96
+references:
+- http://www.flickr.com/photos/fazen/ # Flickr photos by fazen
 ---
 
 <p>This is a forewarning for subscribers of a series of posts that has already begun. Apologies if this is of no interest to you, but it will be over in a fortnight or so. I am attempting to compile a comprehensive list of the Ancient Greek terms in Adorno's <i>Aesthetic Theory</i>. I am creating one post per entry and giving as much background information on the term as is viable. When the work is complete, I will create a post indexing the terms and linking to the original posts.</p>

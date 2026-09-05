@@ -138,6 +138,10 @@ wordpress_id: 674
 wordpress_url: https://www.martineve.com/?p=674
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkrgzlj2q"
 kcworks: https://works.hcommons.org/records/sybga-7px79
+references:
+- http://www.flickr.com/photos/37996583811@N01/ # Rain Rabbit Flickr photostream
+- http://is.gd/pKBNlt # phdchat wiki shortlink
+- http://silenceandvoice.com/archives/2010/12/07/phd-chat-as-phdchat/ # JeffreyKeefer blog post on phdchat
 ---
 
 <div>

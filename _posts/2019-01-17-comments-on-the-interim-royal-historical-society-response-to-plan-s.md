@@ -13,6 +13,11 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7h5fhg
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/9r3rg-g2050
+references:
+- http://openlibhums.org # Open Library of Humanities website
+- https://wellcome.ac.uk/what-we-do/our-work/open-research#request-for-proposals-and-information # Wellcome Trust UKRI open research funding opportunity
+- https://wellcome.ac.uk/sites/default/files/learned-societies-consultancy-request-for-proposals.pdf # Wellcome consultancy RFP for learned societies Plan S transition
+- https://www.cambridge.org/about-us/media/press-releases/cambridge-university-press-announces-sales-and-revenue-growth # Cambridge University Press sales and revenue press release
 ---
 
 The Royal Historical Society has published [an interim/draft report feeding back on Plan S](https://5hm1h4aktue2uejbs1hsqt31-wpengine.netdna-ssl.com/wp-content/uploads/2019/01/RHSPlanSInterimJan19.pdf). Although not a historian but as someone with a keen interest in open access in the humanities disciplines -- and in the spirit of open exchange, since this document has understandably caused some alarm among humanities scholars -- I wanted to write up my criticisms (and one ringing endorsement where I agree with them) in public.

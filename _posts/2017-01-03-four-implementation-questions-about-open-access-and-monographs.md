@@ -13,6 +13,9 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7maoqwy5
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/h0gzy-5c146
+references:
+- https://figshare.com/articles/Excellence_R_Us_University_Research_and_the_Fetishisation_of_Excellence/3413821 # Eve et al, Excellence R Us on figshare
+- https://www.martineve.com/2014/06/03/a-research-tool-i-want-but-probably-wont-get-cross-referenceintersect-bibliographies-of-books-and-articles/ # Eve blog post on machine-readable bibliography tools
 ---
 
 From January this year, I am a member of the Universities UK Open Access Monographs Working Group. The aims of the group, in preparation for the mandate for the anticipated Third Research Excellence Framework in the mid-2020s, are to monitor progress towards the practical implementation of open access monographs; to promote and accelerate cultural change towards OA publishing within academia and among traditional publishers; to advise on technical barriers to OA publishing and make recommendations for further work and investment; to promote innovation and diversity in business models for OA book publishing; to advise on how best to overcome perceived and actual policy and legal barriers to OA.

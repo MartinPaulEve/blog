@@ -22,6 +22,11 @@ wordpress_id: 2154
 wordpress_url: https://www.martineve.com/?p=2154
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7midgtms2u"
 kcworks: https://works.hcommons.org/records/kre0t-vsn81
+references:
+- http://www.alluvium-journal.org/2012/07/01/backwards-and-forwards-with-the-atomic-priesthood/Heidi # Alluvium article on atomic priesthood tweet by Heidi James
+- http://schoolboyerrors.wordpress.com/2011/04/11/literary-criticism-and-the-scientistic-imperative/ # Schoolboyerrors blog on literary criticism and scientism
+- http://www.alluvium-journal.org/2012/07/01/backwards-and-forwards-with-the-atomic-priesthood/Alluvium # Alluvium journal atomic priesthood article retweet
+- http://www.alluvium-journal.org/2012/07/01/backwards-and-forwards-with-the-atomic-priesthood/ # Alluvium journal: backwards and forwards atomic priesthood
 ---
 
 <p><script src="http://storify.com/martin_eve/teaching-post-millenial-fiction-conference.js"></script><br />

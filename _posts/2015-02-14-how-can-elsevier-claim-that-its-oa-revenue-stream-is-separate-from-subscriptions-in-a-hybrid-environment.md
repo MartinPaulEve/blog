@@ -19,6 +19,12 @@ title: How can Elsevier claim that its OA revenue stream is separate from subscr
   in a hybrid environment?
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdaug4c2q"
 kcworks: https://works.hcommons.org/records/hsgtc-17342
+references:
+- https://adamesmith.files.wordpress.com/2014/11/nov-2014-the-empire-strikes-back-alicia-wise-elsevier-profile.pdf # Research Fortnight interview with Alicia Wise of Elsevier
+- http://www.rluk.ac.uk/about-us/blog/the-costs-of-double-dipping/ # Prosser RLUK blog post on double-dipping costs
+- http://triplec.at/index.php/tripleC/article/view/525 # Beall article in tripleC on open access movement
+- http://svpow.com/2012/01/13/the-obscene-profits-of-commercial-scholarly-publishers/ # SV-POW post on obscene profits of commercial publishers
+- http://www.sciencedirect.com/science/article/pii/S0304388613001228/pdfft?md5=0111b1513e1dd45949e67b600cdfbdc0&pid=1-s2.0-S0304388613001228-main.pdf # Open-access article in hybrid Elsevier journal on ScienceDirect
 ---
 
 <p>For an open-access advocate, it's easy to pick on Elsevier. An enormous and immensely profitable publisher, it has been, in my personal view, obstructive towards the implementation of open access. Again, in my opinion, this seems to be because it fears for its revenue stream, rather than because it cares about science. The ElsevierValentines hashtag was puerile, but fun, and demonstrated this sentiment. But these are just my opinions.</p>

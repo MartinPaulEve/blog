@@ -22,6 +22,9 @@ wordpress_id: 2782
 wordpress_url: https://www.martineve.com/?p=2782
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgggzox2f"
 kcworks: https://works.hcommons.org/records/05h9x-ec017
+references:
+- http://www.fileformat.info # fileformat.info Unicode and font reference
+- http://www.fileformat.info/info/unicode/char/2713/fontsupport.htm # fileformat.info font support for checkmark glyph
 ---
 
 <p>I've just spent the past hour grappling with getting FOP to render the Unicode glyph for a checkmark (U+2713) in PDF output from XSL:FO. I thought I'd share a few things I learnt along the way (that make me feel a bit silly for not knowing them already).</p>

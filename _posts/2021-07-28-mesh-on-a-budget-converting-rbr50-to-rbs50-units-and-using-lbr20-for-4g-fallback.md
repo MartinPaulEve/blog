@@ -13,6 +13,9 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2vr3b3
 categories:
 - Technology
 kcworks: https://works.hcommons.org/records/rqp69-8wg38
+references:
+- https://www.reddit.com/r/HomeNetworking/comments/e53qp6/convert_orbi_rbr50_router_to_orbi_rbs50_satellite/ # Reddit thread on converting RBR50 to satellite
+- https://kb.netgear.com/000059432/RBR50-RBS50-Firmware-Version-2-1-4-16 # Netgear KB page for firmware 2.1.4.16
 ---
 
 For quite some time, I've wanted to have an internet system that could fallback to a 4G connection if the primary internet connection failed. This would be helpful for when I need to work/go to online meetings and my Virgin Media connection dies.

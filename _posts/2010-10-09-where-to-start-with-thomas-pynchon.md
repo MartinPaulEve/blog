@@ -74,6 +74,9 @@ wordpress_id: 190
 wordpress_url: http://www.martineve.com/?p=190
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlqq6qi2f"
 kcworks: https://works.hcommons.org/records/cz7sq-n7d63
+references:
+- http://against-the-day.pynchonwiki.com/wiki/index.php?title=Pynchon_Newbies # Pynchon Wiki advice for newcomers
+- http://www.wikihow.com/Read-a-Thomas-Pynchon-Novel # WikiHow guide to reading Pynchon
 ---
 
 <p>In the course of the last day I have been observing, and engaging with, an ongoing Twitter discussion (see: <a href="http://twitter.com/Dystopia2009">Dystopia2009</a> and <a href="http://twitter.com/MarkKohut">MarkKohut</a>) as to which Thomas Pynchon novel should be recommended to Pynchon newbies.</p>

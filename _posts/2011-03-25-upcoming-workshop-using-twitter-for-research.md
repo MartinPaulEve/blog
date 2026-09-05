@@ -25,6 +25,8 @@ wordpress_id: 911
 wordpress_url: https://www.martineve.com/?p=911
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkij47h2r"
 kcworks: https://works.hcommons.org/records/nz82n-6rm91
+references:
+- http://www.sussex.ac.uk/doctoralschool/internal/researcherdev/events/index.php?pageon=3&status=open # Sussex doctoral school researcher development events page
 ---
 
 <p><i>Featured image credit: <a href="http://www.flickr.com/photos/utopianlee/">leezfield</a> under a CC-BY-NC-SA license.</i></p>

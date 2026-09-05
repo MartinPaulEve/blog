@@ -13,6 +13,8 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2uc2gc
 categories:
 - Literature
 kcworks: https://works.hcommons.org/records/5tkse-4gd57
+references:
+- https://twitter.com/martin_eve/status/1417838099128782852 # Eve Twitter thread on Les Encres Noires au Moyen Age
 ---
 
 Some very incomplete and casual-in-tone notes on Monique, Zerdoun Bat-Yehouda. 2003. Les Encres Noires au Moyen Age. Paris: CNRS EDITIONS. Originally <a href="https://twitter.com/martin_eve/status/1417838099128782852">a Twitter thread</a>.

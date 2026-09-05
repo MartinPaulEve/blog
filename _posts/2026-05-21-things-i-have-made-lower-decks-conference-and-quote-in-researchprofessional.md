@@ -19,6 +19,10 @@ categories:
 - Scholarly Communications
 - Open Access
 - Publishing Technology
+references:
+- https://www.openlibhums.org/news/859/ # OLH Lower Decks Janeway conference announcement
+- https://doi.org/10.1629/uksg.396 # Eve and Byers, Janeway platform article
+- https://www.researchprofessionalnews.com/rr-news-uk-universities-2026-5-university-of-nottingham-drops-five-publishing-deals/ # Research Professional: Nottingham drops big-deal packages
 ---
 
 Some days I look at the things I've done and think: when I am gone there will be no trace of me, and all that I have worked upon will over time turn to dust. This may well still be true, but there are other days, like today, when I feel pretty good about the world and the things that I am working to make within it.

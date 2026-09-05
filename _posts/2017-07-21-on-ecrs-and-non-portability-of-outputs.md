@@ -14,6 +14,8 @@ categories:
 - Higher Education
 - Academia
 kcworks: https://works.hcommons.org/records/r3tdh-qc532
+references:
+- http://blog.hefce.ac.uk/2017/07/20/the-portability-or-non-portability-of-research/ # HEFCE blog: Sweeney on REF2021 output non-portability
 ---
 
 There has been a lot of angst about the newly proposed non-portability requirements for REF2021 and beyond, particularly from ECRs. I want to say upfront that I do not want to disparage such worries; I speak from a position of privilege, having a permanent position even though I am, by RCUK standards, myself an Early-Career Researcher. I do, though, want to set out why I think these fears are misplaced/over-blown.

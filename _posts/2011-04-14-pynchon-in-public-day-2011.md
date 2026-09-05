@@ -19,6 +19,13 @@ wordpress_id: 973
 wordpress_url: https://www.martineve.com/?p=973
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkexavd2n"
 kcworks: https://works.hcommons.org/records/ry0k8-8z431
+references:
+- http://www.pynchoninpublic.com # Pynchon in Public Day annual May 8th event site
+- http://sf0.org/tasks/Thurn-Und-Taxis-Postal-Adventure/ # SF0 alternate reality game based on Crying of Lot 49
+- http://www.bookcrossing.com/forum/23/449901 # Bookcrossing forum Pynchon in Public release challenge
+- http://iuoma-network.ning.com/profile/PynchonInPublic # IUOMA network Pynchon in Public mail art profile
+- https://twitter.com/#!/Dystopia2009 # Dystopia2009 Twitter profile
+- http://www.flickr.com/photos/c0t0s0d0/ # Vampire (c0t0s0d0) Flickr photostream CC-BY-SA
 ---
 
 <p>Hereby instigating an <a href="http://www.pynchoninpublic.com">annual May 8th</a> culture jamming festival to be herein evidenced by photographic, textual, cartographic and video documentation. To prove it really happened, that our world was not projected.</p>

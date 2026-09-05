@@ -14,6 +14,9 @@ categories:
 - Open Access
 - Higher Education
 kcworks: https://works.hcommons.org/records/dw172-60554
+references:
+- https://doi.org/10.1629/uksg.392 # Eve et al, costing the REF OA book mandate, UKSG 2017
+- https://www.samuelmoore.org/2024/06/17/should-open-access-be-removed-from-ref-requirements/ # Samuel Moore blog post on OA and REF requirements
 ---
 
 A few personal notes on the clamour around OA for books (written from the perspective of [an author of 10 books](https://eve.gd/books/) that are all openly accessible):

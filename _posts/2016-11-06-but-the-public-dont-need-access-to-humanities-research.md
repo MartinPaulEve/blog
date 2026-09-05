@@ -10,6 +10,8 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mavnpqd
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/veej7-q8d58
+references:
+- http://doi.org/10.16995/olh.82 # Eve, Cloud Atlas Version Variants OLH article
 ---
 
 An email I received today about [one of my open-access articles](http://doi.org/10.16995/olh.82):

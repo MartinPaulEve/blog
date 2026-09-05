@@ -12,6 +12,8 @@ tags: []
 title: It is never a good time to start a new journal
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcvzz4q2u"
 kcworks: https://works.hcommons.org/records/m3pwh-rzh09
+references:
+- http://dx.doi.org/10.1080/09502368708582003 # Hawkes editorial inaugural issue of Textual Practice 1987
 ---
 
 "It is never a good time to start a new journal. Even so, 1987 seems unpropitious to a remarkable degree. The academic world in general feels itself to be under attack. The Humanities in particular feel marginalized and underfunded. Outwardly querulous, inwardly riven, they sense themselves to be hopelessly at odds with a culture which has long abandoned any recognition of the value of their role. Connoisseurs of the Unripe Time could be forgiven for regarding the present year as a vintage one, with the project represented by Textual Practice self-evidently foredoomed."

@@ -13,6 +13,8 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lw263eq
 categories:
 - Programming
 kcworks: https://works.hcommons.org/records/d28dt-26p96
+references:
+- https://github.com/MESH-Research/knowledge-commons-profiles/tree/main/knowledge_commons_profiles/newprofile/tests # Knowledge Commons profiles test suite on GitHub
 ---
 
 My days working at Knowledge Commons are highly varied. It's great. I get up in the morning and do some research work, writing my next book (OK, that isn't KC work, I know, but it's part of my day). The day itself will then involve some hands-on programming (we're re-writing the Profiles system), writing grant applications, giving talks about open practices, meeting with colleagues, debugging infrastructure, responding to user queries and feedback, communicating with the team, and even a bit of fun banter in the team channel along the way.

@@ -78,6 +78,8 @@ wordpress_id: 1889
 wordpress_url: https://www.martineve.com/2012/02/03/dois-what-you-need-to-know/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miwym6q2o"
 kcworks: https://works.hcommons.org/records/53g2a-q4g94
+references:
+- http://www.flickr.com/photos/biblioteekje/ # biblioteekje Flickr photo stream
 ---
 
 <p>Sparked off by a comment on Document Object Identifiers and metrics by Ernesto Priego, I wrote up a brief proposal for the tech side of what I perceived as the function of DOIs. It turns out, there's a great deal more to it.</p>

@@ -17,6 +17,8 @@ tags:
 title: Clarifying a few facts for Elsevier and their response to Lingua
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc65hcn2a"
 kcworks: https://works.hcommons.org/records/ymxcp-j2j02
+references:
+- https://www.elsevier.com/connect/addressing-the-resignation-of-the-lingua-editorial-board # Elsevier response to Lingua editorial board resignation
 ---
 
 Elsevier has just published [a response](https://www.elsevier.com/connect/addressing-the-resignation-of-the-lingua-editorial-board) of sorts to the [resignation of the _Lingua_ editors and editorial board](https://www.insidehighered.com/quicktakes/2015/11/03/land-grant-backing-protest-elsevier-pricing). The company there claims that:

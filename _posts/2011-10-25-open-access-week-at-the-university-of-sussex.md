@@ -24,6 +24,11 @@ wordpress_id: 1567
 wordpress_url: https://www.martineve.com/2011/10/25/open-access-week-at-the-university-of-sussex/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjijbh22u"
 kcworks: https://works.hcommons.org/records/5s5n8-1qx71
+references:
+- http://www.phd2published.com/2011/10/25/martin-paul-eve-on-open-access-week/ # PhD2Published post on Open Access tipping point
+- http://prezi.com/bin/preziloader.swf # Prezi SWF loader for embedded presentation
+- http://prezi.com/yj5ttsf_k0lv/open-access-publishing/ # Open Access Publishing Prezi presentation
+- http://prezi.com # Prezi presentation platform
 ---
 
 <p>Today is international Open Access Week and, in celebration and to raise awareness, I gave a talk and workshop at the University of Sussex for a cross-discipline audience. I was pleasantly surprised this year at the acceptance of an open culture and intrinsic understanding of the benefits of openness, both in monetary and permissive terms.</p>

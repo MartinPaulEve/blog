@@ -18,6 +18,48 @@ wordpress_id: 2970
 wordpress_url: https://www.martineve.com/?p=2970
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfsb7gi2i"
 kcworks: https://works.hcommons.org/records/ex17c-r3n89
+references:
+- https://www.openlibhums.org # Open Library of Humanities project site
+- http://eprints.lincoln.ac.uk/12425 # Eve, Pynchon and Philosophy (Palgrave 2014)
+- http://eprints.lincoln.ac.uk/10589 # Guide to Creative Commons for monograph authors
+- http://eprints.lincoln.ac.uk/12662 # On the mark? Responses to a sting
+- http://eprints.lincoln.ac.uk/12761 # Review of Humanities in the Twenty-First Century
+- http://eprints.lincoln.ac.uk/12790 # Utopia fading: open access taxonomies article
+- http://eprints.lincoln.ac.uk/12602 # ERC backtracks on open-access embargo period
+- http://eprints.lincoln.ac.uk/12043 # Flawed sting operation singles out OA journals
+- http://eprints.lincoln.ac.uk/11983 # Review of Gourley on Pynchon and DeLillo terrorism
+- http://eprints.lincoln.ac.uk/11808 # Selling Shakespeare's first folio Guardian piece
+- http://eprints.lincoln.ac.uk/11595 # Gatekeepers in a digital wasteland article
+- http://eprints.lincoln.ac.uk/11753 # Eve article on Sarah Waters's Affinity
+- http://eprints.lincoln.ac.uk/11708 # Freier Eintritt in die Geisteswissenschaft article
+- http://eprints.lincoln.ac.uk/10590 # Open access and the humanities Harvard talk
+- http://eprints.lincoln.ac.uk/9682 # Open Library of Humanities project UKSG piece
+- http://eprints.lincoln.ac.uk/9500 # DeLillo aesthetics Cold Iraq War article
+- http://eprints.lincoln.ac.uk/9235 # Open access and humanities reimagining Guardian piece
+- http://eprints.lincoln.ac.uk/9234 # Human side of open-access publishing article
+- http://eprints.lincoln.ac.uk/9233 # Gold rush London Graduate School thoughtpiece
+- http://eprints.lincoln.ac.uk/11565 # Q&A Martin Eve on public library of humanities
+- http://eprints.lincoln.ac.uk/7159 # Eve on Pynchon DeLillo terrorism and Cold War
+- http://eprints.lincoln.ac.uk/10019 # Before the law: open access and peer review
+- http://eprints.lincoln.ac.uk/7160 # The botnet: hegemony and zombies who publish
+- http://eprints.lincoln.ac.uk/12402 # Vivid tenuousness: Jennifer Egan novels chapter
+- http://eprints.lincoln.ac.uk/11807 # Humanities cultural data and resistance to openness
+- http://eprints.lincoln.ac.uk/11962 # Open access humanities activism and scholar agency
+- http://eprints.lincoln.ac.uk/11726 # Front line of OA in humanities and social sciences
+- http://eprints.lincoln.ac.uk/10663 # Digital literatures democracies and threats chapter
+- http://eprints.lincoln.ac.uk/10591 # OLH and monographs conference presentation
+- http://eprints.lincoln.ac.uk/10588 # Open access and the humanities Harvard conference
+- http://eprints.lincoln.ac.uk/9830 # Opening up humanities sources Wikimedia talk
+- http://eprints.lincoln.ac.uk/9793 # OLH building open scalable humanities megajournal
+- http://eprints.lincoln.ac.uk/9829 # Open access: what it is why we need it
+- http://eprints.lincoln.ac.uk/9828 # Libraries and academics Jisc RLUK workshop
+- http://eprints.lincoln.ac.uk/9827 # Open access and the humanities Durham conference
+- http://eprints.lincoln.ac.uk/9826 # On open access activism and scholarly communications
+- http://eprints.lincoln.ac.uk/10592 # Oral evidence to House of Commons OA inquiry
+- http://eprints.lincoln.ac.uk/9825 # Future of academic publishing seminar talk
+- http://eprints.lincoln.ac.uk/9823 # The future of peer review seminar
+- http://eprints.lincoln.ac.uk/9824 # Futurity books Marx labour conference paper
+- http://eprints.lincoln.ac.uk/9822 # Too many goddamn echoes DeLillo Point Omega paper
 ---
 
 <p>As a round-up of the academic stuff I have achieved over the past year, purely for my own benefit and in anticipation of like-minded posts from my Twitter followers with whom I would like to engage in group collective congratulations, here's a list!</p>

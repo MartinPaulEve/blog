@@ -14,6 +14,9 @@ categories:
 - Publications
 - Literature
 kcworks: https://works.hcommons.org/records/kv6bm-jfx56
+references:
+- https://doi.org/10.1080/00111619.2019.1568960 # Eve article on redaction in contemporary fiction
+- http://eprints.bbk.ac.uk/id/eprint/25540 # Eve redaction article in Birkbeck institutional repository
 ---
 
 I have a new article out in _Critique: Studies in Contemporary Fiction_ on [how to read redaction in contemporary fiction](https://doi.org/10.1080/00111619.2019.1568960).

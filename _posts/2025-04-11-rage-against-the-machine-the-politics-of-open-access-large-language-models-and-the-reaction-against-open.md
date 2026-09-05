@@ -15,6 +15,9 @@ categories:
 - Open Access
 - Artificial Intelligence
 kcworks: https://works.hcommons.org/records/vd55j-epz21
+references:
+- https://doi.org/10.4000/rfsic.3220 # Moore, genealogy of open access, RFSIC 2017
+- https://updates.timsherratt.org/2025/04/11/update-on-trove-data-access.html # Sherratt update on Trove data access and API keys
 ---
 
 This morning, having been re-reading and thinking extensively about Moore, Samuel, ‘A Genealogy of Open Access: Negotiations between Openness and Access to Research’, _Revue Française Des Sciences de l’information et de La Communication_, no. 11 (2017), [https://doi.org/10.4000/rfsic.3220](https://doi.org/10.4000/rfsic.3220) but also the awful news in Tim Sherratt, ‘Update on Trove Data Access and My Suspended API Keys’, _Tim Sherratt – Sharing Recent Updates and Work-in-Progress_, 2025 [https://updates.timsherratt.org/2025/04/11/update-on-trove-data-access.html](https://updates.timsherratt.org/2025/04/11/update-on-trove-data-access.html), I completed work on a book chapter submission for Bas Groes that has occupied me for a couple of weeks now. The chapter is about digital social justice and open access.

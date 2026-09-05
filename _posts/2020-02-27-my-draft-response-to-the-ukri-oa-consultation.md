@@ -13,6 +13,9 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6hpgzk
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/q6pqd-7pe14
+references:
+- https://www.universitiesuk.ac.uk/policy-and-analysis/reports/Documents/2019/Fullstopp-Final-October-2019.pdf # UUK Fullstopp report 2019
+- https://doi.org/10.1629/uksg.392 # Insights UKSG article on REF and OA
 ---
 
 Some of my draft responses to the [UKRI OA consultation](https://www.ukri.org/files/funding/oa/open-access-review-consultation/).

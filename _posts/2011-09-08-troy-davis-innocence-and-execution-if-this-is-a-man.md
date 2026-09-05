@@ -19,6 +19,10 @@ wordpress_id: 1462
 wordpress_url: https://www.martineve.com/2011/09/08/troy-davis-innocence-and-execution-if-this-is-a-man/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjwsp6l2h"
 kcworks: https://works.hcommons.org/records/gj56r-h7322
+references:
+- http://en.wikipedia.org/wiki/Troy_Davis_case # Wikipedia: Troy Davis case
+- http://blog.amnestyusa.org/deathpenalty/dont-let-georgia-kill-troy-davis/ # Amnesty USA blog: stop Troy Davis execution
+- http://www.flickr.com/photos/death_penalty/ # Flickr: World Coalition Against the Death Penalty
 ---
 
 <p>The <a href="http://en.wikipedia.org/wiki/Troy_Davis_case">Troy Davis case</a>, perhaps the most controversial of all death penalty impositions in the United States, is growing perilously close to a climax resulting in the death of a man who, even if not innocent, has been subject to a deeply flawed legal process. An <a href="http://blog.amnestyusa.org/deathpenalty/dont-let-georgia-kill-troy-davis/">execution date has been set</a> for the 21st of September.</p>

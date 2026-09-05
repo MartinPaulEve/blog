@@ -14,6 +14,12 @@ categories:
 - Personal
 - Academia
 kcworks: https://works.hcommons.org/records/w1aaf-wyx27
+references:
+- https://www.leverhulme.ac.uk/philip-leverhulme-prizes-2019 # 2019 Philip Leverhulme Prizes announcement page
+- https://www.amazon.co.uk/Close-Reading-Computers-Scholarship-Computational/dp/1503609367/ # Eve, Close Reading with Computers, Amazon
+- https://doi.org/10.11647/OBP.0102 # Eve, Literature Against Criticism, OBP
+- https://www.cambridge.org/core/books/open-access-and-the-humanities/02BD7DB4A5172A864C432DBFD86E5FB4 # Eve, Open Access and the Humanities, Cambridge
+- https://www.palgrave.com/gb/book/9781137405494 # Eve, Pynchon and Philosophy, Palgrave
 ---
 
 Last week, while [I was having blood products transfused at the Royal Free Hospital](https://eve.gd/2019/10/04/immunity-problems/), I received an email from the Leverhulme Trust stating that I had been awarded the [2019 Philip Leverhulme Trust Prize in Literary Studies](https://www.leverhulme.ac.uk/philip-leverhulme-prizes-2019).

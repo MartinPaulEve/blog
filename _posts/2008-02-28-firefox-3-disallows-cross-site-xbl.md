@@ -24,6 +24,8 @@ wordpress_id: 256
 wordpress_url: http://pro.grammatic.org/post-firefox-3-disallows-crosssite-xbl-45.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mn5b2jb2o"
 kcworks: https://works.hcommons.org/records/j7g4p-afw07
+references:
+- http://www.mozilla.org/xbl # Mozilla XBL namespace URI
 ---
 
 <p>Well, I decided to play around a little with Firefox 3 Beta 3 today and discovered that it looks like the ever popular -moz-binding css attribute is now rendered a little less useful. It is now impossible to load off-site XBL via this method.</p>

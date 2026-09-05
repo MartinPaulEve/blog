@@ -21,6 +21,16 @@ wordpress_id: 2209
 wordpress_url: https://eve.gd/?p=2209
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mi7m3xh2r"
 kcworks: https://works.hcommons.org/records/60kr4-qgk16
+references:
+- http://www.excursions-journal.org.uk # Excursions open access journal
+- http://pkp.sfu.ca/support/forum/viewtopic.php?f=9&t=6817 # PKP forum thread on adding DOI display to OJS
+- http://dtd.nlm.nih.gov/publishing/tag-library/2.3/index.html # NLM journal publishing XML tagset documentation
+- https://github.com/MartinPaulEve/MEXMLGalley # MartinPaulEve MEXMLGalley GitHub repository
+- http://www.w3.org/1998/Math/MathML # W3C MathML namespace URI
+- http://www.w3.org/1999/xlink # W3C XLink namespace URI
+- http://www.w3.org/2001/XMLSchema-instance # W3C XML Schema instance namespace URI
+- http://creativecommons.org/licenses/by/2.0/ # Creative Commons Attribution 2.0 licence
+- http://www.nytimes.com/1998/03/04/books/pynchon-s-letters-nudge-his-mask.html?pagewanted=all # NYT article Pynchon letters nudge his mask
 ---
 
 <p>Following on from <a href="https://eve.gd/2012/07/10/starting-an-open-access-journal-a-step-by-step-guide-part-1/">part 1</a>, <a href="https://eve.gd/2012/07/11/starting-an-open-access-journal-a-step-by-step-guide-part-2/">part 2</a> and <a href="https://eve.gd/2012/07/12/starting-an-open-access-journal-a-step-by-step-guide-part-3/">part 3</a>, this is the third in a series of posts designed to get a new journal off the ground.</p>

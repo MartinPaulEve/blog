@@ -19,6 +19,8 @@ wordpress_id: 26
 wordpress_url: http://new.martineve.com/?p=26
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmc56wc2p"
 kcworks: https://works.hcommons.org/records/7r30x-36803
+references:
+- http://www.lrb.co.uk/blog/2010/03/16/alex-abramovich/wallace-v-the-terrible-master/ # LRB blog: Wallace v the Terrible Master
 ---
 
 <p><img src="/images/uploads/2010/03/InfiniteJest-193x300.jpg" alt="Cover of David Foster Wallace's novel Infinite Jest" width="323" height="500"/></p>

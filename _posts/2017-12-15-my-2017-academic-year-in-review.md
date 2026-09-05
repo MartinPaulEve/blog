@@ -11,6 +11,201 @@ categories:
 - Personal
 - Academia
 kcworks: https://works.hcommons.org/records/bd3gp-wkg86
+references:
+- http://schema.org/Person # Schema.org Person type definition
+- https://www.martineve.com # Martin Eve personal website
+- http://eprints.bbk.ac.uk/id/eprint/20574 # Birkbeck eprint: Password (Korean book)
+- http://schema.org/CreativeWork # Schema.org CreativeWork type definition
+- http://eprints.bbk.ac.uk/id/eprint/20365 # Birkbeck eprint: The Silicon Valley Novel
+- https://www.martineve.com/JoeStreet # Martin Eve author profile: Joe Street
+- http://schema.org/Periodical # Schema.org Periodical type definition
+- http://eprints.bbk.ac.uk/id/document/38019 # Birkbeck document download: Silicon Valley Novel
+- http://eprints.bbk.ac.uk/id/eprint/20204 # Birkbeck eprint: Hyperobject Metadata Station Eleven article
+- http://eprints.bbk.ac.uk/id/document/37714 # Birkbeck document download: Station Eleven article
+- https://doi.org/10.16995/c21.17 # Eve, Preferential Consideration: Bartleby and Wallace
+- http://eprints.bbk.ac.uk/id/document/38763 # Birkbeck document download: Wallace article
+- https://doi.org/10.1629/uksg.392 # Eve et al., OA monograph mandate cost estimates UKSG
+- https://www.martineve.com/KittyInglis # Martin Eve author profile: Kitty Inglis
+- https://www.martineve.com/DavidProsser # Martin Eve author profile: David Prosser
+- https://www.martineve.com/LaraSpeicher # Martin Eve author profile: Lara Speicher
+- https://www.martineve.com/GrahamStone # Martin Eve author profile: Graham Stone
+- http://eprints.bbk.ac.uk/id/document/37831 # Birkbeck document download: OA mandate cost estimates
+- http://eprints.bbk.ac.uk/id/document/37553 # Birkbeck document download: Cloud Atlas article
+- http://eprints.bbk.ac.uk/id/eprint/18690 # Birkbeck eprint: Great Automatic Grammatizator article
+- http://eprints.bbk.ac.uk/id/document/34449 # Birkbeck document: Grammatizator preprint download
+- http://eprints.bbk.ac.uk/id/document/37548 # Birkbeck document: Grammatizator accepted manuscript download
+- http://eprints.bbk.ac.uk/id/eprint/19432 # Birkbeck eprint: Open Publication Digital Abundance article
+- http://eprints.bbk.ac.uk/id/document/35902 # Birkbeck document download: Open Publication article
+- http://www.triple-c.at/index.php/tripleC/article/view/867 # Eve and Priego, Who is Harmed by Predatory Publishers
+- https://www.martineve.com/ErnestoPriego # Martin Eve author profile: Ernesto Priego
+- http://eprints.bbk.ac.uk/id/document/35833 # Birkbeck document download: Predatory Publishers article
+- http://eprints.bbk.ac.uk/id/document/34865 # Birkbeck document download: web annotations article
+- https://dx.doi.org/10.1057/palcomms.2016.105 # Eve et al., Excellence R Us: fetishisation of excellence
+- http://eprints.bbk.ac.uk/id/document/32271 # Birkbeck document download: Excellence R Us
+- http://eprints.bbk.ac.uk/id/eprint/20338 # Birkbeck eprint: Late Modernism Postmodernism book chapter
+- http://eprints.bbk.ac.uk/id/eprint/20164 # Birkbeck eprint: Philosophy chapter in Pynchon in Context
+- http://eprints.bbk.ac.uk/id/eprint/20163 # Birkbeck eprint: Pynchon and the New Materialism chapter
+- http://eprints.bbk.ac.uk/id/eprint/19472 # Birkbeck eprint: Sincerity chapter in Routledge Companion
+- http://eprints.bbk.ac.uk/id/eprint/20165 # Birkbeck eprint: Violins in the Subway DH chapter
+- http://eprints.bbk.ac.uk/id/document/37786 # Birkbeck document download: Violins in the Subway chapter
+- http://eprints.bbk.ac.uk/id/eprint/19845 # Birkbeck eprint: Jennifer Egan dictionary entry
+- http://eprints.bbk.ac.uk/id/eprint/19295 # Birkbeck eprint: Publishing and Information Oxford Handbook chapter
+- http://eprints.bbk.ac.uk/id/document/35734 # Birkbeck document download: Publishing and Information chapter
+- http://eprints.bbk.ac.uk/id/eprint/20046 # Birkbeck eprint: Dance Like Nobody's Watching chapter
+- http://eprints.bbk.ac.uk/id/document/37264 # Birkbeck document download: Dance Like Nobody's Watching
+- http://eprints.bbk.ac.uk/id/eprint/18324 # Birkbeck eprint: Scarcity and Abundance electronic literature chapter
+- http://eprints.bbk.ac.uk/id/eprint/16684 # Birkbeck eprint: Open Access in the United Kingdom chapter
+- http://eprints.bbk.ac.uk/id/document/34793 # Birkbeck document download: Open Access UK chapter
+- http://eprints.bbk.ac.uk/id/eprint/16682 # Birkbeck eprint: Openness Politics and Power chapter
+- https://www.martineve.com/Saskiade # Martin Eve author profile: Saskia de Vries
+- https://www.martineve.com/JohanRooryck # Martin Eve author profile: Johan Rooryck
+- http://eprints.bbk.ac.uk/id/document/34947 # Birkbeck document download: Transition to OA chapter
+- http://eprints.bbk.ac.uk/id/eprint/19518 # Birkbeck eprint: Review of Berry and Fagerjord Digital Humanities
+- http://eprints.bbk.ac.uk/id/document/36054 # Birkbeck document download: Berry Fagerjord review
+- http://eprints.bbk.ac.uk/id/eprint/18231 # Birkbeck eprint: Review of Koehler Creative Writing DH
+- http://eprints.bbk.ac.uk/id/document/33180 # Birkbeck document download: Koehler review
+- http://eprints.bbk.ac.uk/id/eprint/20447 # Birkbeck eprint: Sci-Hub domains court order news piece
+- https://www.martineve.com/AndrewSilver # Martin Eve author profile: Andrew Silver
+- http://eprints.bbk.ac.uk/id/eprint/19846 # Birkbeck eprint: Elsevier regional OA model news piece
+- https://www.martineve.com/RachaelPells # Martin Eve author profile: Rachael Pells
+- https://www.martineve.com/2017/08/21/cambridge-university-press-and-censorship # Eve blog post on CUP and censorship
+- http://eprints.bbk.ac.uk/id/document/36011 # Birkbeck document download: CUP censorship post
+- https://www.martineve.com/2017/08/21/on-digital-publishing-and-third-party-rights # Eve blog post on digital publishing third-party rights
+- http://eprints.bbk.ac.uk/id/document/36010 # Birkbeck document download: third-party rights post
+- https://www.martineve.com/2017/08/03/open-access-monographs-misrepresented # Eve blog post on OA monographs misrepresented
+- http://eprints.bbk.ac.uk/id/document/35732 # Birkbeck document download: OA monographs misrepresented
+- http://eprints.bbk.ac.uk/id/eprint/19293 # Birkbeck eprint: Open to Adaptation THEd letter
+- http://eprints.bbk.ac.uk/id/document/35731 # Birkbeck document download: Open to Adaptation
+- https://www.martineve.com/2017/07/21/on-ecrs-and-non-portability-of-outputs # Eve blog post on ECRs and REF output non-portability
+- http://eprints.bbk.ac.uk/id/document/35607 # Birkbeck document download: ECRs non-portability post
+- http://eprints.bbk.ac.uk/id/eprint/19214 # Birkbeck eprint: How much do you understand peer review
+- http://eprints.bbk.ac.uk/id/document/35608 # Birkbeck document download: peer review understanding piece
+- http://blogs.bbk.ac.uk/english/2017/07/17/martin-eve-on-contemporary-slo-mo-electro/ # Birkbeck blog: Eve on Contemporary Slo-Mo Electro
+- http://eprints.bbk.ac.uk/id/document/35531 # Birkbeck document download: Slo-Mo Electro post
+- https://www.martineve.com/2017/07/13/mediating-forms-and-free-thinking-or-on-selecting-journals # Eve blog post on mediating forms and selecting journals
+- http://eprints.bbk.ac.uk/id/document/35479 # Birkbeck document download: mediating forms post
+- https://www.martineve.com/2017/06/23/dear-walt # Eve blog post: Dear Walt open letter
+- http://eprints.bbk.ac.uk/id/document/35203 # Birkbeck document download: Dear Walt post
+- http://eprints.bbk.ac.uk/id/document/34928 # Birkbeck document download: OA publishing models ASIS&T
+- https://www.martineve.com/2017/06/11/did-thomas-pynchon-write-cow-country-stylistic-affinities-and-divergences # Eve blog post on Pynchon and Cow Country stylometry
+- http://eprints.bbk.ac.uk/id/document/34910 # Birkbeck document download: Pynchon Cow Country post
+- http://eprints.bbk.ac.uk/id/document/34912 # Birkbeck document download: Pynchon Cow Country (second file)
+- https://www.martineve.com/2017/05/29/lingua-refund # Eve blog post on Elsevier Lingua refund
+- http://eprints.bbk.ac.uk/id/document/34655 # Birkbeck document download: Lingua refund post
+- http://eprints.bbk.ac.uk/id/eprint/18742 # Birkbeck eprint: Eve on Virginia Woolf's Teeth event
+- http://eprints.bbk.ac.uk/id/document/34545 # Birkbeck document download: Virginia Woolf's Teeth post
+- http://eprints.bbk.ac.uk/id/eprint/18738 # Birkbeck eprint: Eve on Fifty Years of The Third Policeman
+- http://eprints.bbk.ac.uk/id/document/34519 # Birkbeck document download: Third Policeman post
+- https://www.martineve.com/2017/05/12/two-types-of-post-critique # Eve blog post: Two types of post-critique
+- http://eprints.bbk.ac.uk/id/document/34489 # Birkbeck document download: two types post-critique
+- https://www.martineve.com/2017/05/07/an-important-note-if-you-have-a-lenovo-g580 # Eve blog post on Lenovo G580 BIOS note
+- http://eprints.bbk.ac.uk/id/document/34387 # Birkbeck document download: Lenovo G580 post
+- https://www.martineve.com/2017/05/01/a-note-on-moral-relativism-and-unthinkable-liberalism # Eve blog post on moral relativism and liberalism
+- http://eprints.bbk.ac.uk/id/document/34332 # Birkbeck document download: moral relativism post
+- https://www.martineve.com/2017/04/24/on-consortial-oa-funding-models-and-renewals # Eve blog post on consortial OA funding renewals
+- http://eprints.bbk.ac.uk/id/document/34290 # Birkbeck document download: consortial OA funding post
+- https://www.martineve.com/2017/04/21/the-folio-society-edition-of-riddley-walker # Eve blog post on Folio Society Riddley Walker edition
+- http://eprints.bbk.ac.uk/id/document/34265 # Birkbeck document download: Riddley Walker post
+- http://eprints.bbk.ac.uk/id/eprint/18602 # Birkbeck eprint: Eve on The White Devil at Wanamaker Playhouse
+- http://eprints.bbk.ac.uk/id/document/34257 # Birkbeck document download: White Devil review
+- http://eprints.bbk.ac.uk/id/eprint/18539 # Birkbeck eprint: How a Browser Extension Could Shake Academic Publishing
+- http://eprints.bbk.ac.uk/id/eprint/18601 # Birkbeck eprint: Eve on Albee's The Goat at theatre
+- http://eprints.bbk.ac.uk/id/document/34256 # Birkbeck document download: The Goat review
+- https://www.martineve.com/2017/04/03/100-people-in-a-room # Eve blog post on OA funding distributional effects
+- http://eprints.bbk.ac.uk/id/document/34140 # Birkbeck document download: 100 people in a room post
+- http://eprints.bbk.ac.uk/id/eprint/18525 # Birkbeck eprint: On Being Open In Practice: Giving Credit
+- http://eprints.bbk.ac.uk/id/document/34138 # Birkbeck document download: On Being Open In Practice
+- https://www.martineve.com/2017/04/01/librarian-evaluation-of-non-apc-oa-models-in-the-age-of-open-access # Eve blog post on librarian evaluation of non-APC OA
+- http://eprints.bbk.ac.uk/id/document/34137 # Birkbeck document download: librarian evaluation OA post
+- https://medium.com/@martin_8240/digital-economics-abundance-and-symbolic-economies-for-academic-open-access-da134072db30#.gt29f39k4 # Eve Medium post on digital economics and OA
+- http://eprints.bbk.ac.uk/id/document/33514 # Birkbeck document download: digital economics OA post
+- https://www.martineve.com/2017/03/11/on-the-economics-of-flipping-subscription-journals # Eve blog post on economics of flipping subscription journals
+- http://eprints.bbk.ac.uk/id/document/33505 # Birkbeck document download: flipping subscription journals
+- https://www.martineve.com/2017/02/28/conducting-non-commercial-research-on-in-copyright-amazon-kindle-books # Eve blog post on researching in-copyright Kindle books
+- http://eprints.bbk.ac.uk/id/document/33232 # Birkbeck document download: Kindle books research post
+- http://eprints.bbk.ac.uk/id/eprint/18241 # Birkbeck eprint: Time to heed drive towards open books
+- http://eprints.bbk.ac.uk/id/document/33211 # Birkbeck document download: open books piece
+- https://www.martineve.com/2017/02/16/judging-the-painting-research-without-the-frame-the-journal # Eve blog post on judging research without journal frame
+- http://eprints.bbk.ac.uk/id/document/33057 # Birkbeck document download: judging the painting post
+- https://www.martineve.com/2017/02/13/how-much-does-it-cost-to-run-a-small-scholarly-publisher # Eve blog post on costs of running a small publisher
+- http://eprints.bbk.ac.uk/id/document/32968 # Birkbeck document: publisher costs Markdown download
+- http://eprints.bbk.ac.uk/id/document/32969 # Birkbeck document: publisher costs per article graph download
+- http://blogs.bbk.ac.uk/english/2017/02/13/martin-paul-eve-on-talking-disability-activism-with-naomi-lawson-jacobs-and-judith-butler/ # Birkbeck blog: Eve on disability activism with Butler
+- http://eprints.bbk.ac.uk/id/document/32959 # Birkbeck document download: disability activism post
+- https://www.martineve.com/2017/02/10/on-automatically-detecting-parenthetical-citations # Eve blog post on detecting parenthetical citations
+- http://eprints.bbk.ac.uk/id/document/32908 # Birkbeck document download: parenthetical citations post
+- http://eprints.bbk.ac.uk/id/eprint/18066 # Birkbeck eprint: If the REF ain't broke Times Higher piece
+- http://eprints.bbk.ac.uk/id/document/32712 # Birkbeck document download: REF ain't broke piece
+- http://blogs.bbk.ac.uk/events/2017/01/27/open-cultural-data-discussing-digitisation/ # Birkbeck events blog: Open Cultural Data Digitisation post
+- https://www.martineve.com/HannahBarton # Martin Eve author profile: Hannah Barton
+- https://www.martineve.com/JoelMcKim # Martin Eve author profile: Joel McKim
+- http://eprints.bbk.ac.uk/id/document/32547 # Birkbeck document download: Open Cultural Data post
+- https://www.martineve.com/2017/01/19/on-responses-and-rebuttals-in-the-discipline-of-english-literature # Eve blog post on rebuttals in English literature
+- http://eprints.bbk.ac.uk/id/document/32194 # Birkbeck document download: rebuttals in English lit post
+- https://www.martineve.com/MelonieFullick # Martin Eve author profile: Melonie Fullick
+- http://eprints.bbk.ac.uk/id/document/32247 # Birkbeck document download: University Affairs interview
+- https://www.martineve.com/JohnHolmwood # Martin Eve author profile: John Holmwood
+- http://eprints.bbk.ac.uk/id/document/32125 # Birkbeck document download: Emerald future publishing post
+- https://dx.doi.org/10.6084/m9.figshare.4558237 # Figshare: Imagining Tomorrow's University report
+- http://eprints.bbk.ac.uk/id/document/32143 # Birkbeck document download: Imagining Tomorrow's University
+- http://blogs.bbk.ac.uk/english/2017/01/16/martin-eve-on-nice-fish-at-the-harold-pinter-theatre/ # Birkbeck blog: Eve on Nice Fish at Harold Pinter Theatre
+- http://eprints.bbk.ac.uk/id/document/32033 # Birkbeck document download: Nice Fish review post
+- https://www.martineve.com/2017/01/16/thinking-more-about-eu-law-and-uk-copyright-exemptions # Eve blog post on EU law and UK copyright exemptions
+- http://eprints.bbk.ac.uk/id/document/32060 # Birkbeck document download: EU law copyright post
+- http://eprints.bbk.ac.uk/id/eprint/17921 # Birkbeck eprint: Germans lose Elsevier access news piece
+- https://www.martineve.com/CraigNicholson # Martin Eve author profile: Craig Nicholson
+- https://www.martineve.com/2017/01/06/my-responses-to-the-consultation-on-the-second-research-excellence-framework # Eve blog post: responses to REF2 consultation
+- http://eprints.bbk.ac.uk/id/document/31749 # Birkbeck document download: REF2 consultation responses
+- https://www.martineve.com/2017/01/03/four-implementation-questions-about-open-access-and-monographs # Eve blog post: four OA monograph implementation questions
+- http://eprints.bbk.ac.uk/id/document/31609 # Birkbeck document download: OA monograph questions post
+- https://www.martineve.com/2017/01/02/learned-societies-open-access-and-paying-for-disciplinary-goods # Eve blog post on learned societies and OA funding
+- http://eprints.bbk.ac.uk/id/document/31560 # Birkbeck document download: learned societies OA post
+- https://www.martineve.com/2017/01/01/the-rivalrous-parts-of-non-rivalrous-digital-forms # Eve blog post on rivalrous parts of digital forms
+- http://eprints.bbk.ac.uk/id/document/31559 # Birkbeck document download: rivalrous digital forms post
+- http://schema.org/EducationEvent # Schema.org EducationEvent type definition
+- http://eprints.bbk.ac.uk/id/eprint/20493 # Birkbeck eprint: OA Peer Review and Editorial Workflows talk
+- http://schema.org/Place # Schema.org Place type definition
+- http://eprints.bbk.ac.uk/id/eprint/20336 # Birkbeck eprint: APC logic vs consortial funding talk
+- http://eprints.bbk.ac.uk/id/eprint/20327 # Birkbeck eprint: Debating Open Access round table talk
+- https://www.martineve.com/MajaMaricevic # Martin Eve author profile: Maja Maricevic
+- https://www.martineve.com/TorstenReimer # Martin Eve author profile: Torsten Reimer
+- https://www.martineve.com/AllanSudlow # Martin Eve author profile: Allan Sudlow
+- https://www.martineve.com/TomMowlam # Martin Eve author profile: Tom Mowlam
+- http://eprints.bbk.ac.uk/id/eprint/20325 # Birkbeck eprint: The Open Library of Humanities talk
+- http://eprints.bbk.ac.uk/id/eprint/20328 # Birkbeck eprint: Research exploitation IPR and OA Policy talk
+- https://www.martineve.com/HelenPorter # Martin Eve author profile: Helen Porter
+- http://eprints.bbk.ac.uk/id/eprint/20293 # Birkbeck eprint: Porter on IPR and OA Policy talk
+- http://eprints.bbk.ac.uk/id/eprint/19584 # Birkbeck eprint: OA Economic Models and Challenges talk
+- http://eprints.bbk.ac.uk/id/eprint/19665 # Birkbeck eprint: FairOA and Consortial Models OA Tage talk
+- http://eprints.bbk.ac.uk/id/eprint/19583 # Birkbeck eprint: Flipping to OA Using Consortial Funding talk
+- http://eprints.bbk.ac.uk/id/eprint/19514 # Birkbeck eprint: OA in Dry Funding Climates Open Science Fair
+- http://eprints.bbk.ac.uk/id/eprint/19145 # Birkbeck eprint: Contemporary Textual Scholarship Canon talk
+- http://eprints.bbk.ac.uk/id/eprint/19144 # Birkbeck eprint: How to Get Published as Early Career Academic
+- http://eprints.bbk.ac.uk/id/eprint/18725 # Birkbeck eprint: Pynchon Cow Country computational stylometry talk
+- http://eprints.bbk.ac.uk/id/eprint/18723 # Birkbeck eprint: Aesthetics of Metadata in Contemporary Fiction talk
+- http://eprints.bbk.ac.uk/id/eprint/18780 # Birkbeck eprint: Difficulties of Humanities Data Analytics talk
+- http://eprints.bbk.ac.uk/id/eprint/18722 # Birkbeck eprint: Politics in Contemporary US Fiction talk
+- http://eprints.bbk.ac.uk/id/eprint/18724 # Birkbeck eprint: Close-Reading Cloud Atlas with Computers talk
+- http://eprints.bbk.ac.uk/id/eprint/18538 # Birkbeck eprint: OLH Open Access Publishing Workshop talk
+- http://eprints.bbk.ac.uk/id/eprint/18537 # Birkbeck eprint: Open Library of the Humanities seminar talk
+- http://eprints.bbk.ac.uk/id/eprint/18518 # Birkbeck eprint: OLH Research Excellence and Publishing talk
+- http://eprints.bbk.ac.uk/id/eprint/18364 # Birkbeck eprint: Open Access Humanities and OLH guest lecture
+- http://eprints.bbk.ac.uk/id/eprint/18407 # Birkbeck eprint: Open publishing models humanities Open in Practice
+- http://eprints.bbk.ac.uk/id/eprint/18517 # Birkbeck eprint: What can we do to make Open Research reality
+- https://www.martineve.com/LouiseCorti # Martin Eve author profile: Louise Corti
+- https://www.martineve.com/IainHrynaszkiewicz # Martin Eve author profile: Iain Hrynaszkiewicz
+- https://www.martineve.com/JonathanTedds # Martin Eve author profile: Jonathan Tedds
+- https://www.martineve.com/RobertaGilchrist # Martin Eve author profile: Roberta Gilchrist
+- http://eprints.bbk.ac.uk/id/eprint/18466 # Birkbeck eprint: XML and HTML for scholarly communications workshop
+- http://eprints.bbk.ac.uk/id/eprint/18365 # Birkbeck eprint: Intellectual Property Rights UCU talk
+- http://eprints.bbk.ac.uk/id/eprint/18366 # Birkbeck eprint: Imagining Tomorrow's University workshop participant
+- http://eprints.bbk.ac.uk/id/eprint/18105 # Birkbeck eprint: Regular Expressions for Humanists workshop
+- http://eprints.bbk.ac.uk/id/eprint/18194 # Birkbeck eprint: OA Books and the Tricky Transition talk
+- http://eprints.bbk.ac.uk/id/eprint/18134 # Birkbeck eprint: Conversation on Disability Activism seminar
+- https://www.martineve.com/Naomi # Martin Eve author profile: Naomi Lawson Jacobs
+- https://www.martineve.com/JudithButler # Martin Eve author profile: Judith Butler
+- http://eprints.bbk.ac.uk/id/eprint/17976 # Birkbeck eprint: Creating Future of Academic Publishing talk
+- https://doi.org/10.3368/ss.46.3.76 # Eve, Close Reading Computers Cloud Atlas
 ---
 
 2017 was, as with last year, a mixed bag for me. On the positive side, OLH continues to grow, I received a grant for the peer-review project on which I am working, we released _Janeway_ the scholarly communcations platform, and I had a number of publications out. _Password_ was published in Korean and I am about to sign a book contract for my next monograph. I was also awarded the Medal of Honour in the Humanities of Social Sciences and nominated for a leadership award.00 On the downside, I was seriously ill, suffering from pneumonia, sepsis, a spinal column infection, and sudden sensorineural hearing loss. I also learned that my adrenal cortex appears to be permanently damaged, so I will have to take steroids for the rest of my life. On the other hand, though, things could be worse. Onwards to 2018! Published and accepted publications/events below.

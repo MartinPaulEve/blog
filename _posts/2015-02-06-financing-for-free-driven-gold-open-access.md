@@ -19,6 +19,11 @@ tags:
 title: Financing for fee-driven gold open access
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdbbtro2a"
 kcworks: https://works.hcommons.org/records/m9geg-rmz09
+references:
+- http://dx.doi.org/10.6084/m9.figshare.1056280 # Lawson figshare piece on UK Finch Report and APCs
+- http://dx.doi.org/10.1017/CBO9781316161012.006 # Eve, Open Access and the Humanities chapter on book processing charges
+- http://www.palgrave.com/page/about-us-palgrave-open-faqs/ # Palgrave Open OA book publishing FAQ
+- http://www.britac.ac.uk/news/news.cfm/newsid/1080 # British Academy news on humanities journal longer half-life
 ---
 
 The most well-known, although neither the most common nor the only, way of providing gold open access to research material is through article or book processing charges (APCs/BPCs). These are problematic in some disciplines where most research work is unfunded (hint: the social sciences and the humanities). It also tends to <a href="https://www.martineve.com/2014/12/10/gold-open-access-and-article-processing-charges/">concentrate costs/risk</a>. To clarify: it is not, in these instances, about paying to bypass quality control. It is paying for the labour of publishing as a service to the author so that research material can be made openly available to read and re-use.

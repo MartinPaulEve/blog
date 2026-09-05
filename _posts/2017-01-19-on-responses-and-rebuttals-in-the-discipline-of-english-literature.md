@@ -10,6 +10,10 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mah5gzl
 categories:
 - Academia
 kcworks: https://works.hcommons.org/records/bfzrg-55p81
+references:
+- https://doi.org/10.1086/662755 # Critical Inquiry article: reply to critics on literary studies
+- http://www.representations.org/responses/ # Representations journal responses page
+- https://figshare.com/articles/Excellence_R_Us_University_Research_and_the_Fetishisation_of_Excellence/3413821 # Figshare: Excellence R Us paper on peer review as gatekeeping
 ---
 
 There is an article, published in a "top" journal in my field, that makes a series of claims with which I substantially disagree. In fact, I think the piece, which will probably go on to be widely cited and used, is flawed. I feel, in some ways, that it merits a response article that critiques it (while also being aware that this will attract symbolic capital to the piece through scandal).

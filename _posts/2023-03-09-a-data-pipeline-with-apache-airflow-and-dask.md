@@ -13,6 +13,11 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lyglk72
 categories:
 - Programming
 kcworks: https://works.hcommons.org/records/bfm0b-y8x86
+references:
+- https://www.crossref.org/people/martin-eve/ # Eve's Crossref staff profile
+- https://gitlab.com/crossref/labs/airflow-launcher # Crossref Labs Airflow launcher project
+- https://gitlab.com/crossref/labs/distrunner # Crossref Labs Dask distributed runner library
+- https://github.com/dask/distributed/issues/6846 # Dask issue: errors after cluster shutdown
 ---
 
 In my [new role at Crossref](https://www.crossref.org/people/martin-eve/) I work on a series of data pipelines for research and development projects. These are resource-intensive data processing tasks that need to be executed periodically on a schedule, with good observability, but also with parallel processing capacity.

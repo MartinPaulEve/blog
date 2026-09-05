@@ -22,6 +22,13 @@ wordpress_id: 1864
 wordpress_url: https://www.martineve.com/2012/01/23/ive-gone-to-ipv6/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miyfjoq2o"
 kcworks: https://works.hcommons.org/records/3bpss-x5r31
+references:
+- http://www.worldipv6launch.org/ # World IPv6 Launch day official site
+- http://www.martineve.com # Martin Eve personal website
+- http://www.pynchon.net # pynchon.net fan site
+- http://www.excursions-journal.org.uk # Excursions journal website
+- http://www.2bitpie.net # 2bitpie.net personal site
+- http://www.flickr.com/photos/mneylon/ # Flickr photos by blacknight
 ---
 
 <p>2012 has been designated <a href="http://www.worldipv6launch.org/">the year of IPv6 launch</a> and, to do my part, I have tweaked my infrastructure to ensure full, and future-guaranteed, IPv6 connectivity.</p>

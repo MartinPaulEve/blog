@@ -18,6 +18,11 @@ tags:
 title: Some numbers on book processing charge scalability
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc4wryo2u"
 kcworks: https://works.hcommons.org/records/v4071-dj761
+references:
+- https://www.bisa.ac.uk/files/Research%20Excellence%20Framework/2014_monographs_1.pdf # Crossick report on UK monograph publishing
+- http://www.palgrave.com/page/about-us-palgrave-open-faqs/?loc=us#Open%20access%20publication%20charge%20and%20funding # Palgrave Open access publication charge FAQ
+- http://www.ubiquitypress.com/site/publish/ # Ubiquity Press BPC and publishing fees
+- http://results.ref.ac.uk/DownloadSubmissions/ByForm/REF2 # REF 2014 REF2 submissions with ISBN
 ---
 
 Thinking more about how book processing charges concentrate costs.

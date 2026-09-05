@@ -23,6 +23,10 @@ wordpress_id: 2960
 wordpress_url: https://www.martineve.com/?p=2960
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mftodxl2q"
 kcworks: https://works.hcommons.org/records/ssk8k-0c717
+references:
+- http://jimmussell.com/ # Jim Mussell academic website
+- http://www.tandfonline.com/toc/rjvc20/18/4 # Journal of Victorian Culture Digital Forum issue
+- http://www.tandfonline.com/doi/full/10.1080/13555502.2013.865979 # Utopia fading article at Journal of Victorian Culture
 ---
 
 <p>I was very pleased, late last year, to have been invited by <a href="http://jimmussell.com/">Jim Mussell</a> to contribute to a <a href="http://www.tandfonline.com/toc/rjvc20/18/4">Digital Forum in the Literature journal</a>, the <i>Journal of Victorian Culture</i>, on Open Access publishing.</p>

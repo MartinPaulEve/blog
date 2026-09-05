@@ -16,6 +16,10 @@ tags:
 title: Institutional Finance and Academic Freedom
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbuck6n2e"
 kcworks: https://works.hcommons.org/records/e49kv-pyf83
+references:
+- https://www.timeshighereducation.com/news/several-london-post-92s-see-falls-battle-students # Times Higher Education article on London post-92 universities
+- http://andrewmcgettigan.org/2015/10/19/policy-exchangess-accounting-errors/ # McGettigan critique of Policy Exchange university surpluses report
+- http://wonkhe.com/blogs/why-policy-exchange-is-wrong-about-university-surpluses/ # Wonkhe blog on Policy Exchange university surpluses errors
 ---
 
 An [article in the Times Higher Education yesterday](https://www.timeshighereducation.com/news/several-london-post-92s-see-falls-battle-students) got me thinking about institutional stability, finance, and the ongoing "reforms" to UK higher education. For those who don't know the background: until recently, universities who wanted their students to be able to get the government-underwritten income-contingent repayment loans could only recruit a specific number of students. This is referred to as the "numbers cap" or "recruitment cap". In 2013, the government announced that it was to remove the cap, a move implemented in 2015. The government's thinking behind this is about marketisaton of the HE sector. As far as they are concerned, the numbers cap represented an artificial barrier on student choice/mobility and also gave too much financial stability to incumbent entities (thereby, in their logic, giving no incentive to "innovate").

@@ -14,6 +14,10 @@ categories:
 - Technology
 - Philosophy
 kcworks: https://works.hcommons.org/records/v06k7-0zm62
+references:
+- https://www.theverge.com/2019/9/17/20870050/richard-stallman-resigns-mit-free-software-foundation-epstein # Verge: Stallman resigns over Minsky/Epstein comments
+- https://press.princeton.edu/books/paperback/9780691144610/coding-freedom # Coleman, Coding Freedom: politics of open-source software
+- https://archive.factordaily.com/richard-stallman-india/ # Factor Daily: Stallman on SaaS as malicious software
 ---
 
 I was thinking idly today -- and probably in a wildly unoriginal way -- about some of the disputes about subscriptions to software and the politics of this model.

@@ -13,6 +13,8 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lz5lmqs
 categories:
 - Programming
 kcworks: https://works.hcommons.org/records/a0hrr-yv247
+references:
+- https://github.com/MartinPaulEve/django-fargate # Eve's django-fargate demo project on GitHub
 ---
 
 There are several tutorials out there on how to get Django apps dockerized and deployed onto AWS Fargate. None of them worked for me. So I have put together [a project demonstrating how to do this](https://github.com/MartinPaulEve/django-fargate). It's available [on Github](https://github.com/MartinPaulEve/django-fargate).

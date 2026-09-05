@@ -14,6 +14,13 @@ categories:
 - Publications
 - Digital Humanities
 kcworks: https://works.hcommons.org/records/a8msj-0p785
+references:
+- http://www.combinedacademic.co.uk/close-reading-with-computers # Combined Academic: Close Reading with Computers order page
+- https://doi.org/10.16995/olh.82 # Eve, Close Reading with Computers chapter 1, OLH
+- http://eprints.bbk.ac.uk/id/document/37553 # Eve, Close Reading with Computers chapter 2, Birkbeck
+- https://doi.org/10.16995/c21.46 # Eve, Close Reading with Computers chapter 3, C21
+- https://eprints.bbk.ac.uk/27709/ # Eve, Reading Peer Review project, Birkbeck eprint
+- https://eprints.bbk.ac.uk/26645/ # Eve, Digital Humanities and Literary Studies, Birkbeck
 ---
 
 Today marks the publication of my latest book, _Close Reading with Computers: Textual Scholarship, Computational Formalism, and David Mitchell's_ Cloud Atlas, at Stanford University Press. If you want to get a copy at a really reasonable price, order from [Combined Academic](http://www.combinedacademic.co.uk/close-reading-with-computers), using the code "CSS19CRWC" for 30% off (bringing it down to £14.69). If you can't afford this, earlier versions of several chapters of the work have already appeared in journals and are openly accessible: [Chapter 1](https://doi.org/10.16995/olh.82), [Chapter 2](http://eprints.bbk.ac.uk/id/document/37553), and [Chapter 3](https://doi.org/10.16995/c21.46). I have a particular fondness for this book as it is the first that I wrote from scratch after my stroke in 2019.

@@ -22,6 +22,10 @@ wordpress_id: 2236
 wordpress_url: https://www.martineve.com/?p=2236
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mi5jumu2h"
 kcworks: https://works.hcommons.org/records/tfbjc-xq036
+references:
+- http://prezi.com/bin/preziloader.swf # Prezi Flash player loader
+- http://prezi.com/rd1xsxycnh9y/thomas-pynchon-david-foster-wallace-and-twenty-first-century-utopianism/ # Prezi: Pynchon, Wallace and 21st-century utopianism
+- http://prezi.com # Prezi presentation platform homepage
 ---
 
 <p><img src="https://www.martineve.com/wp-content/uploads/2012/07/David_Foster_Wallace-1024x426.jpg" alt="David_Foster_Wallace" title="David_Foster_Wallace" style="width:750px;" class="alignnone size-large wp-image-2237" /></p>

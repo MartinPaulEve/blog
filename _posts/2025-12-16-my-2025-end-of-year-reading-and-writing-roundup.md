@@ -17,6 +17,8 @@ categories:
 - Personal
 - Academia
 kcworks: https://works.hcommons.org/records/px3w9-vc963
+references:
+- https://hcommons.org # Knowledge Commons (Humanities Commons)
 ---
 
 As is my custom, I am writing, for my own historical logging, to show what I read and wrote this year. This year I have been working at [Knowledge Commons](https://hcommons.org), which has been a great environment with lovely people and a worthwhile project. It has meant that much of my time has been consumed with technical matters as is proper, but I did still manage to get up early in the morning and write.

@@ -18,6 +18,9 @@ wordpress_id: 2139
 wordpress_url: https://www.martineve.com/?p=2139
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miedy4m2h"
 kcworks: https://works.hcommons.org/records/nqdmx-k9v43
+references:
+- http://morguefile.com/ # MorgueFile free image sharing site
+- http://morguefile.com/license/morguefile/ # MorgueFile license terms page
 ---
 
 <p>I'm always on the lookout for good, free image sharing sites and somebody pointed out <a href="http://morguefile.com/">MorgueFile</a> to me the other day. It's not CC licensed. In fact, in many cases it's <a href="http://morguefile.com/license/morguefile/">even more permissive</a>.</p>

@@ -16,6 +16,8 @@ tags:
 title: Current working music
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdrex6k2a"
 kcworks: https://works.hcommons.org/records/j1rfg-s6q31
+references:
+- http://markcarrigan.net/2014/07/27/music-i-find-inexplicably-conducive-to-writing-2/ # Mark Carrigan blog post on writing-conducive music
 ---
 
 <p>Based on <a href="http://markcarrigan.net/2014/07/27/music-i-find-inexplicably-conducive-to-writing-2/">Mark Carrigan's posts on music</a> that he finds helpful when writing, I decided to do a quick post with some of the stuff that I'm listening to at the moment, if for nothing more than my own reference. Also, having been fairly ill this week, it's about all I'm up to at present.</p>

@@ -21,6 +21,8 @@ wordpress_id: 288
 wordpress_url: http://pro.grammatic.org/post-javascript-eval-stringfromcharcode-encoder-11.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnt4cg22r"
 kcworks: https://works.hcommons.org/records/c871j-cwx53
+references:
+- http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd # W3C XHTML 1.0 Transitional DTD
 ---
 
 <p>Here is a nice tool for encoding JavaScript into eval(String.fromCharCode(x,x,x)) format. A full HTML page is listed here, or you can try it out live at the bottom of this post.</p>

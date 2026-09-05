@@ -15,6 +15,9 @@ categories:
 - Open Access
 - Academia
 kcworks: https://works.hcommons.org/records/wz57f-ffn69
+references:
+- https://items.ssrc.org/parameters/the-library-solution-how-academic-libraries-could-end-the-apc-scourge/ # SSRC: library solution to APC scourge
+- https://openlibhums.org/plugins/supporters/signup/ # Open Library of Humanities supporter signup page
 ---
 
 Here's an interesting one for me. The article processing charge (APC) model for open access is [attracting a lot of flack](https://items.ssrc.org/parameters/the-library-solution-how-academic-libraries-could-end-the-apc-scourge/). It's being called the "scourge" of the scholarly communications world and is criticized for perpetuating global epistemic inequality. I think this is right in many ways. It's why I co-founded the Open Library of Humanities, to show that other models are possible and more equitable. After all, the subscription system did one thing well: it distributed costs to where money was available, whereas APCs concentrate costs to areas where, often, it is not. In other words, APCs are an anti-distributional economic system. This is bad.

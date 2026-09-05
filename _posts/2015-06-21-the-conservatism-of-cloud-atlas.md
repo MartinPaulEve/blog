@@ -12,6 +12,14 @@ tags: []
 title: The Conservatism of Cloud Atlas
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcm6gih2u"
 kcworks: https://works.hcommons.org/records/xkms0-gvz66
+references:
+- http://dx.doi.org/10.1177/2158244014521636 # Eve article on Hoban, Riddley Walker and metafiction
+- http://www.theparisreview.org/interviews/6034/the-art-of-fiction-no-204-david-mitchell # Paris Review Art of Fiction interview with David Mitchell
+- http://sgo.sagepub.com/content/4/1/2158244014521636 # SAGE Open article on Hoban and metafiction after millennium
+- http://www.guardian.co.uk/books/2013/feb/08/david-mitchell-project-great-experimenter # Guardian interview Mitchell on being a great experimenter
+- http://www.theguardian.com/books/2010/jun/12/book-club-mitchell-cloud-atlas # Guardian book club on Cloud Atlas by David Mitchell
+- http://www.guardian.co.uk/books/2005/feb/05/featuresreviews.guardianreview27 # Mitchell, The Book of Revelations, Guardian
+- http://www.theguardian.com/books/2014/jul/14/the-right-sort-david-mitchells-twitter-short-story # Mitchell, The Right Sort, Guardian Twitter short story
 ---
 
 Some thoughts...

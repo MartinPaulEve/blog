@@ -18,6 +18,9 @@ wordpress_id: 1950
 wordpress_url: https://www.martineve.com/?p=1950
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miqdkpx2r"
 kcworks: https://works.hcommons.org/records/hcv5n-xn365
+references:
+- http://www.guardian.co.uk/society/2012/mar/09/nhs-reforms-appeal-risk-register # Guardian article on NHS reform risk register
+- http://www.flickr.com/photos/30205470@N06/ # TUC Flickr photo stream
 ---
 
 <p>Seriously, just what in God's name do you think you are doing? I am referring, in this bombastic introduction, to the <a href="http://www.guardian.co.uk/society/2012/mar/09/nhs-reforms-appeal-risk-register">Department of Health's decision to continue to defy the democratic right</a> of the population to see the transition risk register for the proposed NHS shakeup.</p>

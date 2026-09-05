@@ -22,6 +22,11 @@ wordpress_id: 2642
 wordpress_url: https://www.martineve.com/?p=2642
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mguxor22u"
 kcworks: https://works.hcommons.org/records/58aab-etg80
+references:
+- http://www.crossref.org/SimpleTextQuery/ # CrossRef Simple Text Query interface
+- http://help.crossref.org/#stored-queries # CrossRef stored queries help page
+- https://github.com/MartinPaulEve/crossRefQuery/ # Eve crossRefQuery Python script on GitHub
+- http://www.alluvium-journal.org # Alluvium literary journal site
 ---
 
 <p>It is a fundamental part of the PILA agreement that is signed when a publisher joins CrossRef that they will link to other articles using their DOIs. So, for example, if I cite an article in a journal that has a DOI, I must ensure that I use that DOI. If it doesn't have a DOI, then I needn't link to the article using the DOI.</p>

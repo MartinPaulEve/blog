@@ -25,6 +25,9 @@ wordpress_id: 227
 wordpress_url: http://pro.grammatic.org/post-poc-code-for-facebook-friend-profile-gatherer-75.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mm7tff42i"
 kcworks: https://works.hcommons.org/records/ehkam-qyc39
+references:
+- http://jeremiahgrossman.blogspot.com/2006/08/i-know-where-youve-been.html # Jeremiah Grossman browser history sniffing post
+- http://articles.sitepoint.com/article/multi-threading-javascript # SitePoint James Edwards multi-threading JavaScript
 ---
 
 <p>The code on this page iterates over Facebook profile IDs, employing the <a href="http://ha.ckers.org/weird/CSS-history-hack.html">CSS History Hack</a> to determine whether each profile has been visited by you. Much of this work is indebted to <a href="http://jeremiahgrossman.blogspot.com/2006/08/i-know-where-youve-been.html">Jeremiah Grossman</a> and <a href="http://ha.ckers.org">Robert Hansen</a>. This PoC stores NO information about you, but illustrates how easy it would be for a blackhat to do so.</p>

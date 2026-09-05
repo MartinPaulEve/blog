@@ -14,6 +14,10 @@ categories:
 - Copyright and Licensing
 - Open Access
 kcworks: https://works.hcommons.org/records/pn5ag-cj249
+references:
+- https://www.bookdepository.com/Literature-Against-Criticism-Martin-Paul-Eve/9781013288265?ref=grid-view&qid=1614677493139&sr=1-3 # Book Depository: Eve, Literature Against Criticism reprint
+- https://www.openbookpublishers.com/product/530 # Open Book Publishers edition of Eve's book
+- https://www.amazon.co.uk/s?k=literature+against+criticism&ref=nb_sb_noss # Amazon search for Literature Against Criticism
 ---
 
 I have to admit, today, that I was wrong about the risk of others reprinting open-access monographs produced under a Creative Commons license. An outfit called "Saint Philip Street Press" has reprinted (on demand) the entire catalogues of Open Book Publishers, Ubiquity Press, UCL Press, and others. Here's my [Literature Against Criticism](https://www.bookdepository.com/Literature-Against-Criticism-Martin-Paul-Eve/9781013288265?ref=grid-view&qid=1614677493139&sr=1-3) for sale, for instance. In any case, this poses some threat to OA publishers who rely on a revenue stream from selling the print copies of their books.

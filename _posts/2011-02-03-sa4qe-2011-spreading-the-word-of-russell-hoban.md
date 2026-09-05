@@ -19,6 +19,9 @@ wordpress_id: 707
 wordpress_url: https://www.martineve.com/?p=707
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkr7bf42h"
 kcworks: https://works.hcommons.org/records/mq7cp-sc404
+references:
+- http://sa4qe.blogspot.com/2001/01/about-sa4qe.html # SA4QE Slickman A4 Quotation Event about page
+- http://www.ocelotfactory.com/hoban/rinyo.html # Hoban Mr Rinyo-Clacton's Offer page
 ---
 
 <p>Greetings!</p>

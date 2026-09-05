@@ -22,6 +22,9 @@ wordpress_id: 2357
 wordpress_url: https://www.martineve.com/?p=2357
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhtwum72f"
 kcworks: https://works.hcommons.org/records/hrw14-7cm86
+references:
+- http://www.ies.sas.ac.uk/events/ies-conferences/Mieville # IES Weird Council conference registration page
+- http://www.drcarolineedwards.com/ # Dr Caroline Edwards academic website
 ---
 
 <p><a href="http://www.ies.sas.ac.uk/events/ies-conferences/Mieville"><img src="https://www.martineve.com/wp-content/uploads/2012/09/Poster.png" alt="Poster for Weird Council" title="Poster for Weird Council" width="795" height="1124" class="alignnone size-full wp-image-2359" /></a></p>

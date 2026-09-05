@@ -13,6 +13,9 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzfswjs
 categories:
 - Programming
 kcworks: https://works.hcommons.org/records/tfamg-e7z09
+references:
+- https://github.com/Textualize/rich # Textualize Rich Python CLI formatting library
+- https://github.com/tqdm/tqdm # tqdm Python progress bar library
 ---
 
 This is a post to document the setup that I use when I want quickly to create a great functional command-line python application with ORM database support.

@@ -13,6 +13,12 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lw6esu3
 categories:
 - Information Security
 kcworks: https://works.hcommons.org/records/vf7vv-1e758
+references:
+- https://rossnaylor.com/build-a-death-folder/ # Guide to building a death folder (what to include)
+- https://www.dropbox.com/home # Dropbox cloud storage service
+- https://www.gnupg.org/ # GnuPG GNU Privacy Guard homepage
+- https://www.gnupg.org/software/frontends.html # GnuPG GUI frontend options list
+- https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain&hl=en # OpenKeychain Android PGP app on Google Play
 ---
 
 Very few people like thinking about the fact they will die. But it can prove a substantial administrative headache to loved ones if they don't know about all of your finances, your passwords, your emails etc. At the same time, you shouldn't be writing down passwords in any document that could be stolen or seen; it's bad cybersecurity practice. So what can you do?

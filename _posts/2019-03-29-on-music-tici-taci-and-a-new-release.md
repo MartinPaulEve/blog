@@ -15,6 +15,23 @@ categories:
 - Health
 - Personal
 kcworks: https://works.hcommons.org/records/vkd1v-kzq32
+references:
+- https://musicbrainz.org/label/62db3e96-423a-4e9d-bf66-7a017f1dfc73 # Tici Taci label on MusicBrainz
+- https://www.junodownload.com/products/the-long-champs-opsimath-eremite/4080306-02/ # Opsimath and Eremite by The Long Champs on Juno
+- https://www.junodownload.com/products/course-correction-ep/3775354-02/ # Course Correction EP remix on Juno
+- https://musicbrainz.org/release/34912fe7-b316-4827-b6e6-184f788b4bca # Pain Killer release on MusicBrainz
+- https://musicbrainz.org/release/ef6d9c10-3969-4425-87aa-27f023b31ef2 # Crush release on MusicBrainz
+- https://musicbrainz.org/release/edeeb084-5750-4c84-bbac-65829ede3d18 # Gone Again release on MusicBrainz
+- https://musicbrainz.org/release/7d00d2e6-9778-4952-86ef-ccf973bc5eca # The Weak Nuclear Force release on MusicBrainz
+- https://musicbrainz.org/release/0226ec48-6096-47d9-a934-8138cb645221 # Tracy release on MusicBrainz
+- https://musicbrainz.org/release/637bb9df-85e8-4703-b0c3-191c382bbb18 # Y Llwynog release on MusicBrainz
+- https://musicbrainz.org/release/5ae27c78-7a26-49a7-aa6a-c45cb39da563 # Rotten Road release on MusicBrainz
+- https://musicbrainz.org/release/6e7b0b7f-9749-4cf9-ba1e-74681af15535 # The Science of Plants release on MusicBrainz
+- https://musicbrainz.org/release/2aa50496-7b74-4c22-b395-42289c92c81c # Sleeping Acid release on MusicBrainz
+- https://musicbrainz.org/release/322d87cb-5f57-4f71-a181-72388ab25d15 # Good Girls and Bad Boys release on MusicBrainz
+- https://musicbrainz.org/release/f238555b-0ea2-4014-9f1a-619d317c306e # Future Bones Straight UP on MusicBrainz
+- https://musicbrainz.org/release/7d500b8b-8317-4efc-a39f-50071c119366 # Planet Jumper EP on MusicBrainz
+- https://musicbrainz.org/release/a46b67fd-194b-4c6f-a844-d14ffc1e92f9 # The Tone Test EP on MusicBrainz
 ---
 
 Today marks the 50th release on the [Tici Taci](https://musicbrainz.org/label/62db3e96-423a-4e9d-bf66-7a017f1dfc73) music label. It’s a track called ‘[Opsimath and Eremite](https://www.junodownload.com/products/the-long-champs-opsimath-eremite/4080306-02/)’ by the Wales-based outfit, The Long Champs (otherwise known as Lloyd Jones, half of Quantal, [who previously did a remix for me](https://www.junodownload.com/products/course-correction-ep/3775354-02/)). The track is unusual fare for the label, certainly, with a punkier and faster vibe than the downtempo electronic music for which Tici Taci is known. Excitingly, though, I have a remix on the EP featuring my talented friend Warren Young playing a totally excessive, but great (I think!), bass solo over the top of my synths.

@@ -22,6 +22,11 @@ wordpress_id: 2923
 wordpress_url: https://www.martineve.com/?p=2923
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfvgrn52p"
 kcworks: https://works.hcommons.org/records/wwq6c-0c007
+references:
+- http://literatureoffthepage.wordpress.com/ # Literature off the Page conference blog
+- http://figshare.com # Figshare research data sharing platform
+- http://dx.doi.org/10.6084/m9.figshare.852972 # Figshare dataset: Goon Squad character diagram
+- http://dx.doi.org/10.6084/m9.figshare.852973 # Figshare dataset: The Keep diegesis diagram
 ---
 
 <p>As I'm preparing to speak tomorrow at the <a href="http://literatureoffthepage.wordpress.com/">Literature off the Page</a> conference, I was, as usual, creating a set of slides for my talk. As I'm looking at the novels of Jennifer Egan, I decided to create some diagrams that show clearly the features of the novels that I am referring to. However, I also decided that this would be a good opportunity to upload this kind of material to <a href="http://figshare.com">Figshare</a> for the first time. Indeed, feel free to re-use, so long as you cite, as per the Creative Commons Attribution license.</p>

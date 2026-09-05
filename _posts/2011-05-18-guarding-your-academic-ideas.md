@@ -58,6 +58,16 @@ wordpress_id: 1061
 wordpress_url: https://www.martineve.com/?p=1061
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkdm7n32u"
 kcworks: https://works.hcommons.org/records/pwnxq-c5q91
+references:
+- http://www.philosophyetc.net/2009/03/academic-blogging-pros-and-cons.html # Philosophy etc blog: academic blogging pros and cons
+- http://en.wikipedia.org/wiki/Release_early,_release_often # Wikipedia: Release Early Release Often principle
+- http://tar.weatherson.org/2004/02/27/throwing-away-ideas/ # Brian Weatherson blog post on throwing away ideas
+- http://candidengineer.blogspot.com/2009/07/on-ideas-getting-scooped-and.html # Candid Engineer blog on fear of being scooped
+- http://orweblog.oclc.org/archives/002174.html # OCLC blog post on online reputation difficulty
+- http://www.nature.com/news/2011/110511/full/473138a.html # Nature news on lasting web reputation damage
+- http://www.nature.com/nature/journal/v473/n7346/full/473124a.html # Nature article on academics hiring reputation managers
+- http://www.stateuniversity.com/blog/permalink/professors-and-twitter-personal-tweets-make-profs-seem-more-credible-to-students.html # Study: professors' personal tweets increase student credibility
+- http://www.flickr.com/photos/sweetman/ # Sofia S Flickr photostream CC-BY-NC-SA
 ---
 
 <p>There was a recent conversation on Twitter's excellent <a href="http://twitter.com/#!/search?q=%23phdchat">#phdchat hashtag</a> revealing the angst that can be involved in getting the balance right between holding an idea back (for formal academic publication) and putting it out there. I'd like, in this post, to enumerate the pros and cons of each side, both ideologically and pragmatically. This isn't to say that it hasn't been done <a href="http://www.philosophyetc.net/2009/03/academic-blogging-pros-and-cons.html">many times before</a> -- in fact, Vitae has <a href="http://vitae.ac.uk/researchers/346441-392041/Online-Publishing-and-Plagiarism-Keeping-Alert.html?utm_medium=Twitter&utm_campaign=What%27s+up+Doc&utm_source=Vitae">just run a piece on this very issue</a> -- but I'd like to put my take on the issue out there.</p>

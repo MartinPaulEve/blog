@@ -15,6 +15,8 @@ tags:
 title: 'HE Green Paper: response to question 1'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc4gz4g2s"
 kcworks: https://works.hcommons.org/records/qw7df-46098
+references:
+- http://www.independent.co.uk/student/news/uk-study-finds-just-17-black-female-professors-10019201.html # Independent study on 17 black female professors UK
 ---
 
 This post is part of an [ongoing series](https://martineve.com/GreenPaper/) where I intend to develop my full _personal_ (_not_ institutional) response to the HE Green Paper. Comments are welcome to refine this.

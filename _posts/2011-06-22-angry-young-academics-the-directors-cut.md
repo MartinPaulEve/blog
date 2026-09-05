@@ -35,6 +35,17 @@ wordpress_id: 1184
 wordpress_url: https://www.martineve.com/?p=1184
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mka5viz2o"
 kcworks: https://works.hcommons.org/records/x430r-qdy13
+references:
+- http://jennifermjones.net/ # Jennifer M. Jones personal website
+- http://www.guardian.co.uk/higher-education-network/blog/2011/jun/15/univeristies-radical-academics-jobs-training # Guardian HE Network: radical academics jobs training
+- http://www.nature.com/news/2011/110420/full/472261a.html # Nature news: opposition to PhD structure taking form
+- http://www.economist.com/node/17723223 # Economist: commodification of postgraduate study
+- http://www.bbc.co.uk/news/education-11828882 # BBC: 2010 student protests HE funding
+- http://en.wikipedia.org/wiki/Occupation_%28protest%29 # Wikipedia: occupation as form of protest
+- http://universityforstrategicoptimism.wordpress.com/ # University of Strategic Optimism flash-mob lectures
+- http://reallyopenuniversity.wordpress.com/ # Really Open University alternative HE project
+- http://thirduniversity.wordpress.com/ # Leicester's Third University project
+- http://socialsciencecentre.org.uk/ # Social Science Centre Lincoln cooperative
 ---
 
 <p>After the success of the piece that I co-wrote with <a href="http://jennifermjones.net/">Jennifer M. Jones</a> for <a href="http://www.guardian.co.uk/higher-education-network/blog/2011/jun/15/univeristies-radical-academics-jobs-training">The Guardian</a> last week, I have had several requests to read the original version from which the final published version was excerpted.</p>

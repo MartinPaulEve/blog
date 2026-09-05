@@ -13,6 +13,8 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mag5sdd
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/ex47y-sbf70
+references:
+- https://www.openlibhums.org # Open Library of Humanities website
 ---
 
 I run a small academic publisher, the [Open Library of Humanities](https://www.openlibhums.org). Well, I say small but, at 18 journals, we are bigger than quite a few small university presses. But, by most accounts, we are small.

@@ -22,6 +22,8 @@ wordpress_id: 255
 wordpress_url: http://pro.grammatic.org/post-ie7-remote-file-access-46.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mn4ft5m2h"
 kcworks: https://works.hcommons.org/records/drjpx-xch27
+references:
+- http://www.0x000000.com/?i=525 # Ronald's article on IE7 remote file access
 ---
 
 <p>Just a quick post to draw attention to Ronald's excellent article at <a href="http://www.0x000000.com/?i=525">http://www.0x000000.com/?i=525</a> where he has pulled off a very interesting remote file access in IE7. The attack works by including an invalid DTD on an XML file which then streams the content of the requested file in its error message.</p>

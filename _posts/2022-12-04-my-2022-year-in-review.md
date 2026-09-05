@@ -14,6 +14,18 @@ categories:
 - Personal
 - Academia
 kcworks: https://works.hcommons.org/records/08nv0-a1d04
+references:
+- https://eprints.bbk.ac.uk/id/eprint/26645 # Eve, The Digital Humanities and Literary Studies (OUP, 2022)
+- https://eprints.bbk.ac.uk/id/eprint/50134 # Eve, Impossible Chess and Inattention in Percival Everett
+- https://eprints.bbk.ac.uk/id/eprint/46280 # Eve, Lessons from Library Genesis, DHQ 2022
+- https://eprints.bbk.ac.uk/id/eprint/43860 # Eve, New Leaves: Histories of Digital Pagination, Book History
+- https://eprints.bbk.ac.uk/id/eprint/47743 # Eve et al, Opening the Future OA monograph model article
+- https://eprints.bbk.ac.uk/id/eprint/43087 # Eve, Essay in Career of Contemporary English Novelist
+- https://eprints.bbk.ac.uk/id/eprint/50133 # Eve, Shadow Libraries and Pirate Infrastructures chapter
+- https://eprints.bbk.ac.uk/id/eprint/32199 # Eve, David Foster Wallace Non-Fiction chapter
+- https://eprints.bbk.ac.uk/id/eprint/44173 # Eve, Open Access and Neoliberalism chapter
+- https://eprints.bbk.ac.uk/id/eprint/40856 # Eve, Open Access in the Humanities Disciplines chapter
+- https://www.transcript-verlag.de/978-3-8376-5584-1/archives-access-and-artificial-intelligence/ # Eve et al, Reviewing the Reviewers neural networks chapter
 ---
 
 Like many years, 2022 was a year of health problems for me. The entire year has been overshadowed by the episode of kidney failure that I suffered as a result of BK virus associated nephropathy. It is fair to say that I have been quite seriously unwell. I also spent a long period of this year, in my spare time, campaigning for protection of the immunocompromised with the monoclonal antibody therapy, Evusheld. We remain under pretty tight isolation conditions in the face of the ongoing coronavirus pandemic. Excitingly, though, I am about to begin a secondment to Crossref, working on scholcomms infrastructures and building cool new lab experiments. I am looking forward to it!

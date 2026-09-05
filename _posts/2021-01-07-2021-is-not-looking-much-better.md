@@ -14,6 +14,9 @@ categories:
 - Health
 - Personal
 kcworks: https://works.hcommons.org/records/d0c5r-3p759
+references:
+- https://theconversation.com/why-realism-is-the-key-to-wellbeing-new-research-139717 # The Conversation: realism key to wellbeing research
+- https://news.sky.com/story/covid-19-some-covid-restrictions-could-return-next-winter-chief-medical-officer-warns-12180133 # Sky News: CMO warns restrictions could return next winter
 ---
 
 There was some research earlier this year that I thought was apt for the pandemic, showing that [realism is key to being happy](https://theconversation.com/why-realism-is-the-key-to-wellbeing-new-research-139717), not optimism or pessimism.

@@ -24,6 +24,11 @@ wordpress_id: 195
 wordpress_url: http://www.martineve.com/?p=195
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlqmsci2p"
 kcworks: https://works.hcommons.org/records/p9zc5-myy74
+references:
+- http://creativecommons.org/licenses/by-nc-sa/3.0/ # Creative Commons BY-NC-SA 3.0 license
+- http://prezi.com/bin/preziloader.swf # Prezi SWF player loader
+- http://prezi.com/iqpgvrzc7rm2/speaking-of-open-access/ # Speaking of Open Access Prezi presentation
+- http://prezi.com # Prezi presentation platform
 ---
 
 <p>In the spirit of the event, I am hereby releasing my presentation materials for the talk I gave at the University of Sussex's Open Access Week on the 20th of October 2010 under a Creative Commons <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC-BY-NC-SA</a> license (you can share and alter the work, non-commercially as long as you give me attribution for the original and distribute it under the same terms).</p>

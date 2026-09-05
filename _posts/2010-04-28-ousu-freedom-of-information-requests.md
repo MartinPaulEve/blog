@@ -19,6 +19,8 @@ wordpress_id: 18
 wordpress_url: http://new.martineve.com/?p=18
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mm6z4qd2u"
 kcworks: https://works.hcommons.org/records/gyeq0-7cm24
+references:
+- http://news.bbc.co.uk/1/hi/education/10088448.stm # BBC News story on OUSU FOI request
 ---
 
 <p>          So, it <a href="http://news.bbc.co.uk/1/hi/education/10088448.stm">transpires</a> that the Oxford University Students Union have had their <a href="http://www.ousu.org/about/campaigns/b/funding-our-future/foi-request-for-russell-group-submission-to-browne-review-1">freedom of information request</a> rejected on the grounds that it is scheduled to be published.

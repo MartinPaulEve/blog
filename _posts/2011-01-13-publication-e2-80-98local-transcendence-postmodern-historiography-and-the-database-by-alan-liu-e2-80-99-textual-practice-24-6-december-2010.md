@@ -22,6 +22,13 @@ wordpress_id: 555
 wordpress_url: http://www.martineve.com/?p=555
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkw64ki2p"
 kcworks: https://works.hcommons.org/records/gf5g7-wny88
+references:
+- http://www.informaworld.com/smpp/content~db=all~content=a930064208~frm=titlelink # Textual Practice journal article page informaworld
+- http://creativecommons.org/licenses/by-sa/3.0/ # Creative Commons BY-SA 3.0 licence
+- http://purl.org/dc/terms/ # Dublin Core metadata terms namespace
+- http://purl.org/dc/dcmitype/Text # DCMI type Text resource
+- http://creativecommons.org/ns# # Creative Commons RDF namespace
+- http://www.martineve.com # Martin Paul Eve personal website
 ---
 
 <p><a href="http://www.informaworld.com/smpp/content~db=all~content=a930064208~frm=titlelink"><img src="http://www.martineve.com/wp-content/uploads/2011/01/cover.gif" alt="Textual Practice Cover" title="Textual Practice Cover" width="150" height="230" class="alignnone size-full wp-image-556" style="margin-top:0px;" /></a></p>

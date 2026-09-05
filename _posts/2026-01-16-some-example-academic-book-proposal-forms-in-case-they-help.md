@@ -16,6 +16,16 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lv4ravd
 categories:
 - Academia
 kcworks: https://works.hcommons.org/records/8x3dq-s6e57
+references:
+- https://bsky.app/profile/lisalibrarian.bsky.social/post/3mcfrgigv4k2k # Lisa Janicke Hinchliffe Bluesky post
+- https://doi.org/10.17613/7jgs1-ge228 # KC Works: Theses on Metaphysical-Textual History proposal
+- https://doi.org/10.17613/e16j1-5ae64 # KC Works: Digital Humanities and Literary Studies proposal
+- https://doi.org/10.17613/5heb2-mpz16 # KC Works: Warez book proposal
+- https://doi.org/10.17613/xzmmk-30905 # KC Works: Close Reading with Computers proposal
+- https://doi.org/10.17613/hqv3m-t4d76 # KC Works: Literature Against Criticism proposal
+- https://doi.org/10.17613/55mqa-1yj22 # KC Works: Password (Bloomsbury Object Lessons) proposal
+- https://doi.org/10.17613/gt9bv-g6k21 # KC Works: Open Access and the Humanities proposal
+- https://doi.org/10.17613/4b6b5-2b682 # KC Works: Pynchon and Philosophy proposal
 ---
 
 A pivotal moment in my academic career, or at least one I remember clearly, was when a very senior professor in the US sent me his book proposal for an academic book/monograph on the author Thomas Pynchon. The other thing he included was a crossed off list of all the presses he had courted with the proposal and with whom he had not succeeded. This cemented in my mind the fact that if even the top profs can be given rejections, nobody else should be resentful of them or consider them problematic. It can just be part of the process. 

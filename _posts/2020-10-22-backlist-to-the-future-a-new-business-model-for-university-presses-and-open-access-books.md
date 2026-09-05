@@ -14,6 +14,11 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m4qmh3d
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/k9zga-vfh33
+references:
+- https://copim.pubpub.org/pub/wp-3-working-to-transition-central-european-university-press-to-open-access/ # COPIM WP3 Central European University Press OA transition announcement
+- https://www.openbookpublishers.com/section/44/1 # Open Book Publishers supporter membership page
+- https://punctumbooks.com/support # punctum books support membership page
+- https://openlibhums.org/plugins/supporters/signup/ # Open Library of Humanities supporter signup
 ---
 
 As part of my efforts on Work Package 3 of the COPIM project I am engaged in a project that seeks to convert publishers to business models that will allow them to publish their books openly, without using unaffordable book processing charges (which authors hate and which will not scale).

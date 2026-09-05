@@ -13,6 +13,11 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2hvgcv
 categories:
 - Technology
 kcworks: https://works.hcommons.org/records/bfwfv-24m49
+references:
+- https://github.com/gravitl/netmaker # NetMaker WireGuard configuration tool on GitHub
+- https://github.com/runfalk/synology-wireguard/issues/66#issuecomment-900438379 # GitHub comment on Synology WireGuard Denverton setup
+- https://github.com/Matige/synology-wireguard/tree/DSM7.0 # Matige Synology WireGuard DSM 7 kernel module
+- https://www.synology.com/en-global/knowledgebase/DSM/tutorial/General/What_kind_of_CPU_does_my_NAS_have # Synology NAS CPU architecture knowledge base page
 ---
 
 This week, I decided that I should move my VPN system that I run on all my devices to use the new Wireguard protocol, replacing the OpenVPN setup.

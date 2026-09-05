@@ -14,6 +14,9 @@ categories:
 - Open Access
 - Health
 kcworks: https://works.hcommons.org/records/t4t97-6hd35
+references:
+- http://dx.doi.org/10.1016/j.jvs.2011.02.059 # Journal article on carotid artery dissection outcomes
+- http://dx.doi.org/10.1056/NEJM200103223441206 # NEJM case study paywalled article
 ---
 
 I noted, on Twitter, how pleased I was to discover that there was good information available online about <a href="https://www.martineve.com/2016/03/28/i-am-currently-off-work-having-suffered-cerebral-vasculitis-and-a-stroke/">my current condition</a>. I want, here though, to offer a few words to the ridiculous arguments that are sometimes brought against open access. Namely, that there isn't a public for this material because it is specialized in both its wording and its content.

@@ -13,6 +13,11 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lyni4nr
 categories:
 - Academia
 kcworks: https://works.hcommons.org/records/nthst-9k356
+references:
+- https://leadinggenerously.hcommons.org/ # Fitzpatrick, Leading Generously open review on HCommons
+- https://doi.org/10.1111/1468-5973.12215 # Study on paratextual online comments affecting reading
+- https://www.scientificamerican.com/article/reading-paper-screens/ # Scientific American on F-shaped screen reading patterns
+- https://www.cambridge.org/gb/academic/subjects/literature/printing-and-publishing-history/reading-peer-review-plos-one-and-institutional-change-academia?format=PB&isbn=9781108742702 # Eve, Reading Peer Review: PLOS ONE and Institutional Change
 ---
 
 I was lucky enough, recently, to get a slightly-ahead-of-general-release opportunity to openly peer review Kathleen Fitzpatrick's most recent book manuscript, _Leading Generously_. It's over [on HCommons](https://leadinggenerously.hcommons.org/) for those who want to take a look and feed in.

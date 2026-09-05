@@ -23,6 +23,11 @@ wordpress_id: 3222
 wordpress_url: https://www.martineve.com/?p=3222
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7meogm7s2q"
 kcworks: https://works.hcommons.org/records/21x1c-e7936
+references:
+- http://www.sherpa.ac.uk/romeo/ # SHERPA/RoMEO journal publisher OA policies
+- http://blogs.lse.ac.uk/impactofsocialsciences/2014/04/01/hefce-open-access-ref-gamechanger/ # LSE blog on HEFCE OA REF game-changer
+- http://bit.ly/oa-book # Suber, Open Access (2012)
+- http://www.publications.parliament.uk/pa/cm201314/cmselect/cmbis/99/99.pdf # BIS 2013 parliamentary select committee report
 ---
 
 <p>Green open access refers to making academic, peer-reviewed research that has been published elsewhere (even subscription/sales venues) available for anyone to read freely on the internet by depositing the work in an institutional or subject repository. <a href="http://www.sherpa.ac.uk/romeo/">A large number of journal publishers allow this</a>. Ideally, this is done without embargo. To protect revenue, however, often a publisher imposes a delay. That said, in over 90% of journal submissions to the UK's 2013 Research Excellence Framework, the publisher <a href="http://blogs.lse.ac.uk/impactofsocialsciences/2014/04/01/hefce-open-access-ref-gamechanger/">would have allowed the researcher to make a version available online</a> within a period acceptable to HEFCE for its next REF exercise (why not, at this point, go back and check that all of <i>your</i> existing publications are available for anyone to read if allowed?).</p>

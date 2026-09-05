@@ -13,6 +13,8 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lyufbys
 categories:
 - Information Security
 kcworks: https://works.hcommons.org/records/v24hk-gax30
+references:
+- https://github.com/lastpass/lastpass-cli/issues/604 # LastPass CLI GitHub issue with login fix
 ---
 
 If you can't login using the Lastpass CLI tool and it just says "unknown" when you enter your password, there's [a simple fix](https://github.com/lastpass/lastpass-cli/issues/604).

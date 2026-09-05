@@ -13,6 +13,12 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzcsdts
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/4wyza-y0617
+references:
+- https://doi.org/10.5334/bcq # Laakso and Pells, Plan S for Shock (Ubiquity Press, 2022)
+- https://dash.harvard.edu/handle/1/4725013 # Suber, The Taxpayer Argument for open access
+- https://olh.openlibhums.org/article/id/4494/ # Fyfe article in Open Library of Humanities
+- https://direct.mit.edu/books/book/4933/chapter/625163/The-Royal-Society-and-the-Noncommercial # Fyfe, The Royal Society and the Noncommercial chapter
+- https://poorlydrawnlines.com/comic/new-phone-2/ # Poorly Drawn Lines comic on ignoring warnings
 ---
 
 These are my notes on Smits, Robert-Jan, and Rachael Pells, _Plan S for Shock_ (London: Ubiquity Press, 2022) <https://doi.org/10.5334/bcq>, originally taken on Twitter. They just constitute thoughts I had while reading the book, as opposed to any form of structural review.

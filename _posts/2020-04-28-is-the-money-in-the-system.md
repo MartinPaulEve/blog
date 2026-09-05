@@ -13,6 +13,9 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5t5njl
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/hfs8j-qeh75
+references:
+- https://openlibhums.org/plugins/supporters/ # OLH institutional supporters list
+- https://www.openlibhums.org/news/370/ # OLH blog post on library OA support
 ---
 
 One of the oft-repeated adages in the scholarly communications world is that ‘the money is in the system’, it's just badly distributed. This is one of [the core problems with APCs](https://eve.gd/2017/04/03/100-people-in-a-room/); they don't distribute funds in a similar way to subscriptions, so even if we could afford it, we still have a problematic distribution.

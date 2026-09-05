@@ -21,6 +21,8 @@ wordpress_id: 1440
 wordpress_url: https://www.martineve.com/2011/08/31/guest-post-at-phd2published/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjzeieg2p"
 kcworks: https://works.hcommons.org/records/cftba-22446
+references:
+- http://www.phd2published.com/2011/08/31/we-ask-martin-paul-eve-do-we-need-to-rethink-academic-publishing/ # PhD2Published guest post on academic publishing
 ---
 
 <p>In response to George Monbiot's piece yesterday, I have <a href="http://www.phd2published.com/2011/08/31/we-ask-martin-paul-eve-do-we-need-to-rethink-academic-publishing/">a guest post</a> up at PhD2Published on the issue. Specifically, I wanted to look (in brief) at the drivers behind the setup, which are not always down to individual choice but rather more systemic, the way in which institutional factors mask the problems and finally whether centralization is really the right way to go, arXiv-style.</p>

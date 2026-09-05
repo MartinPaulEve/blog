@@ -14,6 +14,8 @@ categories:
 - Publishing Technology
 - Scholarly Communications
 kcworks: https://works.hcommons.org/records/q459y-q7n10
+references:
+- https://github.com/BirkbeckCTP/janeway # Janeway open-source publishing platform GitHub
 ---
 
 One of the strongly recommended criteria under Plan S is that journals provide "Openly accessible data on citations according to the standards by the Initiative for Open Citations (I4OC)". This means, essentially, depositing citation data with Crossref and then marking it as open.

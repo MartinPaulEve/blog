@@ -19,6 +19,8 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lurdtjm
 categories:
 - Copyright and Licensing
 - Open Access
+references:
+- https://dhdebates.gc.cuny.edu/read/critical-infrastructure-studies-and-digital-humanities/section/f4451084-a3bd-4a36-860d-f3a14e17ad0c#ch06 # DH Debates chapter on shadow libraries
 ---
 
 Following up on [yesterday's post](/2026/06/03/what-is-actually-licensed-in-printdigital-dual-licensed-books/), I received an email this morning from Andrew Johnson, who is the Scholarly Communications Librarian (Copyright & Licensing) at Sheffield University in the UK and so seems to know his stuff on this turf. With his permission, for which I am extremely grateful, I reproduce that message, as it answers some of the questions I posed:

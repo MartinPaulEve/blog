@@ -14,6 +14,18 @@ categories:
 - Personal
 - Academia
 kcworks: https://works.hcommons.org/records/vsswe-q7r72
+references:
+- https://eprints.bbk.ac.uk/id/eprint/26645 # Eve, The Digital Humanities and Literary Studies, BBK eprint
+- https://eprints.bbk.ac.uk/id/eprint/30956 # Eve, Warez, BBK eprint
+- https://eprints.bbk.ac.uk/id/eprint/27709 # Eve et al, Reading Peer Review, BBK eprint
+- https://eprints.bbk.ac.uk/id/eprint/46280 # Eve, Lessons from Library Genesis, DHQ, BBK eprint
+- https://eprints.bbk.ac.uk/id/eprint/43860 # Eve, New Leaves: Histories of Digital Pagination, BBK eprint
+- https://eprints.bbk.ac.uk/id/eprint/32199 # Eve, Non-Fiction chapter in DFW in Context, BBK eprint
+- https://eprints.bbk.ac.uk/id/eprint/43087 # Eve, Essay in Contemporary English Novelist, BBK eprint
+- https://eprints.bbk.ac.uk/id/eprint/44173 # Eve, Open Access and Neoliberalism chapter, BBK eprint
+- https://eprints.bbk.ac.uk/id/eprint/40856 # Eve, Open Access in the Humanities Disciplines, BBK eprint
+- https://eprints.bbk.ac.uk/id/eprint/46197 # Eve, Introduction to Lockdown Chronicles, BBK eprint
+- https://www.transcript-verlag.de/978-3-8376-5584-1/archives-access-and-artificial-intelligence/ # Eve et al, Reviewing the Reviewers, transcript-verlag book
 ---
 
 2021 was another pretty bad pandemic year, in many ways. For those of us with immune system compromise it was alarming to see a near-wholesale return to "normality" among the general population when our lives remained under extreme threat. In this whole year, I have scarcely been away from home, the exception being an unavoidable admission to the National Neurology Hospital, who got a bit further in identifying some of my neurological problems, which appear due to degenerative spinal damage from rheumatoid arthritis. Such is life.

@@ -17,6 +17,8 @@ categories:
 - Conferences
 - Digital Humanities
 kcworks: https://works.hcommons.org/records/r6cd3-y0480
+references:
+- https://sharpweb.org/conferences/sharpies/program/ # SHARPIES online conference programme
 ---
 
 The inaugural SHARPIES, a global book history festival celebrating work in book history from around the world, will take place from July 7–9, 2026 (although these dates vary according to time zone). All the events are free for SHARP members, but registration is required. Registration will open in March 2026.

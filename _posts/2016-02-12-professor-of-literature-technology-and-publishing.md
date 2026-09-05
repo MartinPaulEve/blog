@@ -15,6 +15,8 @@ tags:
 title: Professor of Literature, Technology and Publishing
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbsvhsl2p"
 kcworks: https://works.hcommons.org/records/7h2sg-wnf41
+references:
+- http://sparcopen.org/impact-story/erin-mckiernan/ # SPARC impact story on Erin McKiernan and open access
 ---
 
 I had some utterly fantastic news yesterday that I think/hope it's now OK for me to share. At the start of the next academic year (from 1st October 2016) I will take up a personal chair as Professor of Literature, Technology and Publishing at my wonderful institution, Birkbeck, University of London.

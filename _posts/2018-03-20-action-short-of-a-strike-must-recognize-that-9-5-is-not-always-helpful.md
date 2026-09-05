@@ -10,6 +10,8 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7xzdsn
 categories:
 - Higher Education
 kcworks: https://works.hcommons.org/records/3qkb9-4kn55
+references:
+- https://twitter.com/UoK_UCU/status/975670991778144256 # UCU Kent Branch tweet on action short of strike rules
 ---
 
 A lot of the social media posts that I've seen recently about the UCU's call for "Action Short of a Strike" (ASOS) are fixated on the idea that everyone's contract stipulates that they will work from 9 in the morning until 5 (or 6) in the afternoon and that one should not work outside these hours. One should not send email, either, apparently outside these hours.

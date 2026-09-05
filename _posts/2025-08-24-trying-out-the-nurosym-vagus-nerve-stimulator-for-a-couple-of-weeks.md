@@ -14,6 +14,13 @@ categories:
 - Health
 - Technology
 kcworks: https://works.hcommons.org/records/73vt5-3dr33
+references:
+- https://www.ifm.org/podcast/vagus-nerve-parasympathetic-response # IFM podcast on vagus nerve parasympathetic response
+- https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0263833 # PLOS ONE study on auricular vagus nerve stimulation
+- https://nurosym.com/en-gb/products/nurosym # Nurosym external vagus nerve stimulator product page
+- https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2021.679775/full # Frontiers: ESNV-SPA vagus nerve study protocol
+- https://doi.org/10.1371/journal.pone.0263833 # PLOS ONE auricular VNS and HRV study DOI
+- https://doi.org/10.3389/fnhum.2021.679775 # Frontiers ESNV-SPA study protocol DOI
 ---
 
 A really good measure of how wrecked you are is your body's "heart rate variability" (HRV). This is the difference between the gap between your heart beats. So if you imagine: BEAT (GAP) BEAT (GAP) BEAT (GAP), HRV is the difference of length of those gaps. Strangely, and counter-intuitively, a low (and therefore more regular) HRV is worse. When the beat is less regular, the heart has more slack to combat stress, whereas if it's totally rigid and regimented already, then it's operating at a stressed level.

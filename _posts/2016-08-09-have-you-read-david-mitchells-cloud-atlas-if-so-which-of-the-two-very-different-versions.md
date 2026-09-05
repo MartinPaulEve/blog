@@ -15,6 +15,12 @@ categories:
 - Publications
 - Literature
 kcworks: https://works.hcommons.org/records/m0r6s-jzm72
+references:
+- http://doi.org/10.16995/olh.82 # Eve, Cloud Atlas Version Variants OLH article
+- https://www.theguardian.com/books/2016/aug/10/cloud-atlas-astonishingly-different-in-us-and-uk-editions-study-finds # Guardian article Cloud Atlas US UK edition differences
+- http://eprints.bbk.ac.uk/id/eprint/15857 # Cloud Atlas article Birkbeck BIROn repository
+- https://commons.mla.org/deposits/item/mla:849/ # Cloud Atlas article MLA CORE repository
+- https://github.com/MartinPaulEve/SankeyTextualVariant # SankeyTextualVariant D3.js visualization code GitHub
 ---
 
 Today, my peer-reviewed journal article on the publishing history of the two substantially different versions of David Mitchell's _Cloud Atlas_ was published. You can <a href="http://doi.org/10.16995/olh.82">read the full article in all its open access glory at the <i>Open Library of Humanities</i></a>. There's also [a press release about the work](http://www.bbk.ac.uk/news/birkbeck-research-uncovers-publishing-problems-in-popular-contemporary-fiction) on Birkbeck's main site. The Guardian has also run [a great article with additional comments from David Mitchell](https://www.theguardian.com/books/2016/aug/10/cloud-atlas-astonishingly-different-in-us-and-uk-editions-study-finds).

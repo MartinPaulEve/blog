@@ -23,6 +23,10 @@ wordpress_id: 3244
 wordpress_url: https://www.martineve.com/?p=3244
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7medcfsc2h"
 kcworks: https://works.hcommons.org/records/40exa-5kr51
+references:
+- https://www.openlibhums.org # Open Library of Humanities platform
+- https://www.openlibhums.org/about/library-partnership-subsidy-lps-flyer/ # OLH library partnership subsidy model flyer
+- http://www.cambridge.org/gb/academic/subjects/general/open-access-and-humanities-contexts-controversies-and-future?format=PB # Eve, Open Access and the Humanities, CUP book page
 ---
 
 <p>One of the biggest problems faced in the transition to a pure open access environment for journals is that learned societies have become dependent upon subscription revenue to subsidise their activities. This is not an a-historical phenomenon but has emerged most prominently since the 1960s when the societies outsourced their journal productions to either commercial publishers or to university presses. As a result, they now expect to receive funds back from their publishing operations which they then use to fund other parts of their outfit. Low-cost options for open access usually find it incredibly hard to give such revenues back to societies and so, as Janet Finch noted in her report, there is 'no doubt' that some learned societies will face 'some difficulty finding a business model that will work'. In this post, I want to explore what's happening here and propose one potential solution to a transition.</p>

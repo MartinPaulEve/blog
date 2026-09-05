@@ -18,6 +18,8 @@ wordpress_id: 2674
 wordpress_url: https://www.martineve.com/?p=2674
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgrmgbx2o"
 kcworks: https://works.hcommons.org/records/y4men-v4q68
+references:
+- http://www.pynchoninpublic.com # Pynchon in Public Day official website
 ---
 
 <p>Now in its third year, we invite you to submit, on Twitter via the #Pynchon2013 hashtag, the <a href="https://www.facebook.com/events/163564200474896/?fref=ts">Facebook Event page</a> or even just by emailing me, your photographs for <a href="http://www.pynchoninpublic.com">Pynchon in Public Day 2013</a>!</p>

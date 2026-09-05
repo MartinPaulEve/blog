@@ -20,6 +20,10 @@ wordpress_id: 3004
 wordpress_url: https://www.martineve.com/?p=3004
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfptn6p2a"
 kcworks: https://works.hcommons.org/records/7j2rc-pf173
+references:
+- http://sgo.sagepub.com/content/4/1/2158244014521636 # SAGE Open article on Mitchell and Hoban
+- http://sgo.sagepub.com/content/4/1/2158244014521636.full-text.pdf%2Bhtml # SAGE Open full-text PDF of Mitchell-Hoban article
+- http://eprints.lincoln.ac.uk/13296/ # Lincoln repository record for Mitchell-Hoban article
 ---
 
 <blockquote>This article appraises the debt that David Mitchell’s Cloud Atlas owes to the novels of Russell Hoban, including, but not limited to, Riddley Walker. After clearly mapping a history of Hoban’s philosophical perspectives and Mitchell’s inter-textual genre-impersonation practice, the article assesses the degree to which Mitchell’s metatextual methods indicate a nostalgia for by-gone radical aesthetics rather than reaching for new modes of its own. The article not only proposes several new backdrops against which Mitchell’s novel can be read but also conducts the first in-depth appraisal of Mitchell’s formal linguistic replication of Riddley Walker.</p></blockquote>

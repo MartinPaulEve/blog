@@ -15,6 +15,66 @@ tags:
 title: My 2015 academic year in review
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbyo6q72i"
 kcworks: https://works.hcommons.org/records/yghhg-f9x81
+references:
+- http://eprints.bbk.ac.uk/id/eprint/12502 # Eve article on academics in Jennifer Egan novels
+- http://eprints.bbk.ac.uk/id/eprint/12132 # Eve article on university critique in Bolano's 2666
+- http://eprints.bbk.ac.uk/id/eprint/12133 # Eve article on Iraq War in DeLillo's Point Omega
+- http://eprints.bbk.ac.uk/id/eprint/12272 # Eve article on OA publishing in non-scientific disciplines
+- http://eprints.bbk.ac.uk/id/eprint/12142 # Eve article on gold OA co-operation without APCs
+- http://eprints.bbk.ac.uk/id/eprint/13385 # Eve chapter Freedom To vs Freedom From in Cost of Freedom
+- http://eprints.bbk.ac.uk/id/eprint/12177 # Eve chapter on disciplinarity and taxonomography in Metahistory
+- http://eprints.bbk.ac.uk/id/eprint/13846 # Eve review of Montag Althusser and His Contemporaries
+- http://eprints.bbk.ac.uk/id/eprint/13298 # Eve review of Pynchon and American Counterculture by Freer
+- http://eprints.bbk.ac.uk/id/eprint/13688 # Matthews and Eve THEarticle on OLH flipping journals to OA
+- http://eprints.bbk.ac.uk/id/eprint/13701 # Nicholson and Eve Research Europe piece Power to the people
+- http://eprints.bbk.ac.uk/id/eprint/13689 # Wexler and Eve Chronicle piece on Academia.edu scholar concerns
+- http://eprints.bbk.ac.uk/id/eprint/13563 # Eve Wonkhe piece on BIS metrics and QR allocation
+- http://eprints.bbk.ac.uk/id/eprint/13663 # Wexler and Eve Chronicle piece on OA publishing costs
+- http://eprints.bbk.ac.uk/id/eprint/13030 # Eve and Edwards OLH launch article in Open Library of Humanities
+- http://eprints.bbk.ac.uk/id/eprint/13564 # Eve THEblog post on TEF REF QR and Jo Johnson HE talk
+- http://eprints.bbk.ac.uk/id/eprint/13723 # Smith and Eve Research Fortnight on OLH cash injection
+- http://eprints.bbk.ac.uk/id/eprint/13724 # Smith and Eve Research Fortnight on humanities mega journal
+- http://eprints.bbk.ac.uk/id/eprint/12144 # Eve et al panel on OA in humanities publishing futures
+- http://eprints.bbk.ac.uk/id/eprint/13752 # Eve conference paper on prestige and non-APC OA journals
+- http://eprints.bbk.ac.uk/id/eprint/13623 # Eve and Edwards conference paper on digital humanities publishing
+- http://eprints.bbk.ac.uk/id/eprint/13622 # Eve conference paper on OLH at University English meeting
+- http://eprints.bbk.ac.uk/id/eprint/13621 # Eve conference paper on academic structures of exclusion
+- http://eprints.bbk.ac.uk/id/eprint/13620 # Eve SCONUL talk who will disrupt the disruptors
+- http://eprints.bbk.ac.uk/id/eprint/13619 # Eve talk on open access and the humanities at Aberystwyth
+- http://eprints.bbk.ac.uk/id/eprint/13618 # Eve talk on flipping humanities journals to OA with OLH Amsterdam
+- http://eprints.bbk.ac.uk/id/eprint/13555 # Eve CrossRef annual meeting talk on OA and humanities
+- http://eprints.bbk.ac.uk/id/eprint/13554 # Eve CrossRef annual meeting talk on CrossRef deposit experience
+- http://eprints.bbk.ac.uk/id/eprint/13553 # Eve OpenCon 2015 talk on flipping humanities journals with OLH
+- http://eprints.bbk.ac.uk/id/eprint/13387 # Eve Berry Kempshall talk on alternatives to monograph for PhDs
+- http://eprints.bbk.ac.uk/id/eprint/13386 # Eve Basset Shoman talk on future of the academic book
+- http://eprints.bbk.ac.uk/id/eprint/13388 # Eve et al roundtable on academic book of the future
+- http://eprints.bbk.ac.uk/id/eprint/13557 # Eve talk on humanities in digital age access and education
+- http://eprints.bbk.ac.uk/id/eprint/13556 # Eve talk on prestige economy of academia Helsinki
+- http://eprints.bbk.ac.uk/id/eprint/13561 # Eve talk on OLH at UCL open access conference
+- http://eprints.bbk.ac.uk/id/eprint/13558 # Eve talk on open access in humanities why and how
+- http://eprints.bbk.ac.uk/id/eprint/13560 # Eve open access week talk on humanities research and publics
+- http://eprints.bbk.ac.uk/id/eprint/13559 # Eve et al panel on open access monographs publishing models
+- http://eprints.bbk.ac.uk/id/eprint/13562 # Eve talk on getting research published in changing landscape
+- http://eprints.bbk.ac.uk/id/eprint/13565 # Eve and Edwards OpenCon webcast humanities takes over
+- http://eprints.bbk.ac.uk/id/eprint/13378 # Eve talk on politics postmodernism and nihilism in the novel
+- http://eprints.bbk.ac.uk/id/eprint/13566 # Eve talk on publishing and technology at Birkbeck
+- http://eprints.bbk.ac.uk/id/eprint/13567 # Eve talk on software markup languages and preservation
+- http://eprints.bbk.ac.uk/id/eprint/13568 # Eve LIBER 2015 talk on open access and the humanities
+- http://eprints.bbk.ac.uk/id/eprint/13570 # Eve et al AAUP talk on open access for HSS journals
+- http://eprints.bbk.ac.uk/id/eprint/13569 # Eve et al AAUP panel when publishers aren't getting it done
+- http://eprints.bbk.ac.uk/id/eprint/13377 # Eve Pynchon Week talk on late-Pynchon academics
+- http://eprints.bbk.ac.uk/id/eprint/13659 # Eve Waterstones talk on historical fictions
+- http://eprints.bbk.ac.uk/id/eprint/12134 # Eve BAFTSS talk on open access
+- http://eprints.bbk.ac.uk/id/eprint/12135 # Eve UKSG talk on gold OA co-operation without APCs
+- http://eprints.bbk.ac.uk/id/eprint/12141 # Eve ACRL/NEC talk on Open Library of Humanities
+- http://eprints.bbk.ac.uk/id/eprint/12137 # Eve National Humanities Center talk on OA and OLH
+- http://eprints.bbk.ac.uk/id/eprint/12138 # Eve UNC-Chapel Hill talk on open access and humanities
+- http://eprints.bbk.ac.uk/id/eprint/12139 # Eve Duke University talk on open access and humanities
+- http://eprints.bbk.ac.uk/id/eprint/12140 # Eve Brown University talk on OA in humanities benefits and economics
+- http://eprints.bbk.ac.uk/id/eprint/12136 # Eve Library Publishing Forum talk on OA libraries and cooperation
+- http://eprints.bbk.ac.uk/id/eprint/12143 # Eve talk on David Foster Wallace Melville and behaviourism
+- http://eprints.bbk.ac.uk/id/eprint/12146 # Eve et al AHA panel on innovation in digital humanities publishing
+- http://eprints.bbk.ac.uk/id/eprint/12145 # Eve talk on metrics open access and publishing
 ---
 
 This year was a good year for me in terms of academia. I started my job as a Senior Lecturer at Birkbeck, I launched the Open Library of Humanities with a substantial Mellon grant, and I finished writing two books that I hope will be published next year (_Password_ and _The Anxiety of Academia_). I also began supervising some really great Ph.D. students, including Stuart Lawson on the politics of open access. Here's a breakdown of what came out this year. Obviously, given publishing timescales, this is less a reflection on what I did (apart from conferences) and more the fact that it just came out. I still derive some satisfaction from seeing it written down, though!

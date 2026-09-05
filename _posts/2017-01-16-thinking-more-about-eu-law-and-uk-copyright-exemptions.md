@@ -10,6 +10,8 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mahauf7
 categories:
 - Copyright and Licensing
 kcworks: https://works.hcommons.org/records/eeqzb-mmk48
+references:
+- https://www.martineve.com/2016/01/07/the-uk-copyright-exemption-for-text-and-data-mining-vs-the-dmca/ # Eve blog post on UK text mining copyright exemption vs DMCA
 ---
 
 [I have previously written](https://www.martineve.com/2016/01/07/the-uk-copyright-exemption-for-text-and-data-mining-vs-the-dmca/), having had conversations with Erik Ketzan (although any misunderstandings in the final things I'm writing here are mine, not his), about a problem with the synthesis between the UK copyright exemption for research and EU Directive 2001/29/EC. The problem is that while UK law allows for exemptions on the grounds of research, EU law does not allow for the breaking of DRM that might facilitate this.

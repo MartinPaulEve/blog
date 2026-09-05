@@ -14,6 +14,25 @@ categories:
 - Personal
 - Academia
 kcworks: https://works.hcommons.org/records/665y7-grx19
+references:
+- https://api.labs.crossref.org/ # Crossref Labs API
+- https://gitlab.com/crossref/labs/lambda-api-proxy # Crossref Labs API proxy source code
+- https://the-vault.fly.dev/ # Digital preservation status of 7m articles tool
+- https://gitlab.com/crossref/labs/opcit # Project Op Cit digital preservation system
+- https://gitlab.com/crossref/labs/claws # CLAWS generic AWS operations toolkit
+- https://gitlab.com/crossref/labs/distrunner # Crossref Labs distributed computation wrapper
+- https://gitlab.com/crossref/labs/longsight # Longsight observability library
+- https://gitlab.com/crossref/labs/entext # LLM affiliation parser source code
+- https://gitlab.com/crossref/labs/packer # Crossref JSON-L packer for annual data dump
+- https://eprints.bbk.ac.uk/id/eprint/52237 # Eve, Digital Humanities and Literary Studies, Chinese ed.
+- https://eprints.bbk.ac.uk/id/eprint/50784 # Eve, Una Historia De Las Contrasenas, Ediciones Godot
+- https://orbit.openlibhums.org/article/id/9845/ # Eve, Impossible Chess article, Orbit journal
+- https://eprints.bbk.ac.uk/id/document/315187 # Eve, Impossible Chess article download
+- https://eprints.bbk.ac.uk/id/eprint/51899 # Eve, Digital Scholarly Journals Are Poorly Preserved article
+- https://eprints.bbk.ac.uk/id/eprint/50133 # Eve, Shadow Libraries and Pirate Infrastructures chapter
+- https://eprints.bbk.ac.uk/id/eprint/43087 # Eve, Essay in the Career of the Contemporary English Novelist
+- https://25.scielo.org/en/we-so-loved-open-access/ # Eve, The Guy Who Bangs on about Open Access, SciELO volume
+- https://eprints.bbk.ac.uk/id/document/314846 # Eve, Open Access essay download
 ---
 
 2023 continued to pose the all-important question: just how many health disasters can I endure? This year, I started haemodialysis as my kidneys entered the extremely worryingly named "end-stage renal failure". This turns out to be a very long-term prospect, as I can't have a transplant owing both to BK viremia (which caused the kidney damage in the first place) and a conflict with the immunosuppression that treats my rheumatoid arthritis. Without the latter under control, life is, quite seriously, unbearable.

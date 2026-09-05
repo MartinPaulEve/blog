@@ -12,6 +12,8 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvqzpul
 categories:
 - Technology
 kcworks: https://works.hcommons.org/records/ndyz1-7t012
+references:
+- https://github.com/fosrl/pangolin # Pangolin internal-service HTTPS tunnelling tool
 ---
 
 I have been playing around with [Pangolin](https://github.com/fosrl/pangolin), a really nice management system for exposing internal services over HTTPS.

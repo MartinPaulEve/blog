@@ -14,6 +14,8 @@ categories:
 - Open Access
 - Academia
 kcworks: https://works.hcommons.org/records/3sf6s-0hh87
+references:
+- http://www.openbookpublishers.com/product/530 # Literature Against Criticism Open Book Publishers page
 ---
 
 In [_Open Access and the Humanities_](http://meve.io/oahums), I wrote:

@@ -14,6 +14,9 @@ categories:
 - Academia
 - Literature
 kcworks: https://works.hcommons.org/records/majr1-0qy13
+references:
+- http://generousthinking.hcommons.org # Fitzpatrick, Generous Thinking, open draft on Humanities Commons
+- https://doi.org/10.1111/jcc4.12057 # Shi, Messaris and Cappella article on online comment context
 ---
 
 Today I read Kathleen Fitzpatrick's _Generous Thinking: A Radical Approach to Saving the University_, a book that touches on many of my interests (public humanities, open access, reforming university assessments and hiring etc.). I'd already had the pleasure of reading the draft version, which [was available for open comment](http://generousthinking.hcommons.org), but the final edition really did feel even better than that.

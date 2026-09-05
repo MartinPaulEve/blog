@@ -13,6 +13,8 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2na7zc
 categories:
 - Thomas Pynchon
 kcworks: https://works.hcommons.org/records/5qbjt-d1c95
+references:
+- https://en.wikipedia.org/wiki/Battle_of_the_Beams # Wikipedia article on Battle of the Beams
 ---
 
 One of the core plot devices (in so far as there is a plot) in Thomas Pynchon's 1973 novel, _Gravity's Rainbow_, is the S-Gerät: the Schwarzgerät or "black device", made from the plastic Imipolex G.

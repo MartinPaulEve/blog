@@ -10,6 +10,9 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lxgjmxj
 categories:
 - Politics
 kcworks: https://works.hcommons.org/records/2vwz9-dw844
+references:
+- https://www.theguardian.com/commentisfree/2023/dec/05/brexit-disaster-rejoining-channel-europe-economy?CMP=share_btn_tw # Guardian op-ed arguing Brexit is not a disaster
+- https://www.lse.ac.uk/research/research-for-the-world/politics/are-the-elites-driving-nationalism-in-post-brexit-britain # LSE Savage research on post-Brexit racism and nationalism
 ---
 
 A letter to the Editor of the _Guardian_, who declined to publish it.

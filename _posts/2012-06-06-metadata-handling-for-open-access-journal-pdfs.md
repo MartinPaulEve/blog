@@ -24,6 +24,10 @@ wordpress_id: 2114
 wordpress_url: https://www.martineve.com/?p=2114
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mievxgs2s"
 kcworks: https://works.hcommons.org/records/7jwce-3kv65
+references:
+- https://www.martineve.com/ # Martin Eve personal website
+- https://github.com/zotero/zotero/blob/master/chrome/content/zotero/xpcom/utilities.js # Zotero utilities.js cleanDOI function on GitHub
+- http://www.flickr.com/photos/trevorandmarjee/ # Flickr photostream of TJOwens
 ---
 
 <p>As I count down to the launch of <a href="https://www.pynchon.net">Orbit: Writing around Pynchon</a>, I've been thinking carefully about the mechanisms through which the articles will be consumed. In short: what metadata should be in the PDFs and where should it be.</p>

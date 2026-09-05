@@ -85,6 +85,8 @@ wordpress_id: 1459
 wordpress_url: https://www.martineve.com/?p=1459
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjwzk732n"
 kcworks: https://works.hcommons.org/records/2ad0z-vwt91
+references:
+- http://www.flickr.com/photos/atmasphere/ # Flickr photos by atmasphere
 ---
 
 <p>I've just been asked on Twitter as to whether it's worth presenting at postgraduate conferences and thought I'd share my thoughts in a short post. </p>

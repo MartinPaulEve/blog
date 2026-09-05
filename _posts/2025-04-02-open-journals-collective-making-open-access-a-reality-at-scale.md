@@ -13,6 +13,31 @@ title: 'Open Journals Collective: Making Open Access a Reality at Scale'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvvam2w2i"
 categories:
 - Open Access
+references:
+- https://openjournalscollective.org/ # Open Journals Collective homepage
+- https://blogs.lse.ac.uk/impactofsocialsciences/2025/03/31/academic-libraries-cannot-afford-to-carry-on-with-transformative-agreements/ # Edwards on transformative agreements, LSE Impact Blog
+- https://www.openlibhums.org/ # Open Library of Humanities homepage
+- https://www.openedition.org/?lang=en # OpenEdition open-access publishing platform
+- https://www.scielo.org/en/ # SciELO open-access journal network
+- https://arxiv.org/ # arXiv preprint server
+- https://www.knowledgeunlatched.org/ # Knowledge Unlatched open-access collective
+- https://subscribetoopencommunity.org/ # Subscribe to Open community homepage
+- https://thepublicationplan.com/2021/01/21/plos-trials-a-collective-action-business-model-for-open-access-publishing/ # PLOS collective action OA business model trial
+- https://www.researchinformation.info/news/bloomsbury-announces-pilot-open-access-model/ # Bloomsbury Academic pilot open-access model
+- https://www.openlibhums.org/plugins/supporters/ # OLH library supporters list
+- https://janeway.systems/ # Janeway open-access publishing platform
+- https://www.coalition-s.org/blog/glossa-how-a-journal-took-matters-into-their-own-hands-to-make-research-available/ # Glossa journal transition to OLH, cOAlition S blog
+- https://scholarlykitchen.sspnet.org/2024/04/04/transitional-agreements-arent-working-what-comes-next/ # Scholarly Kitchen: transitional agreements not working
+- https://www.dukeupress.edu/ # Duke University Press homepage
+- https://www.pennpress.org/ # University of Pennsylvania Press homepage
+- https://doaj.org/ # Directory of Open Access Journals
+- https://library.ed.ac.uk/research-support/edinburgh-diamond # Edinburgh Diamond open-access publishing service
+- https://press.lse.ac.uk/ # LSE Press homepage
+- https://uclpress.co.uk/ # UCL Press homepage
+- https://press.umich.edu/ # University of Michigan Press homepage
+- https://cdlib.org/ # California Digital Library homepage
+- https://www.martineve.com/2017/04/03/100-people-in-a-room/ # Eve, distributional effects of OA funding models, 2017
+- https://doi.org/10.1017/CBO9781316161012 # Eve, Open Access and the Humanities, CUP 2014
 ---
 
 *tl;dr*: cancel your big deals and transitional agreements (they're not working) and invest in a set of hundreds of non-APC, OA titles offered by Open Journals Collective, which derives from the OLH model. Email Caroline Edwards ([at Birkbeck](mailto:caroline.edwards@bbk.ac.uk) [or at OJC](mailto:caroline@openjournalscollective.org)) to get involved.

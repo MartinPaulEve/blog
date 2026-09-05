@@ -15,6 +15,10 @@ categories:
 - Higher Education
 - Politics
 kcworks: https://works.hcommons.org/records/3gwc8-56x46
+references:
+- http://www.thebookseller.com/news/richard-mollet-leave-pa-313279 # Bookseller article on Richard Mollet at RELX
+- https://www.contractsfinder.service.gov.uk/Notice/26d25c44-4c38-4d4c-93ca-9a580ac39724 # UK government Contracts Finder tender notice
+- https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/263729/bis-13-1297-international-comparative-performance-of-the-UK-research-base-2013.pdf # BIS UK research base performance report 2013
 ---
 
 I've been pursuing a [Freedom of Information request](https://www.martineve.com/2015/11/18/bis-metrics-and-non-selective-qr-allocation/) against the Department of Business, Innovation and Skills for some time now. BIS have [consistently tried to block me](https://www.martineve.com/2015/12/28/internal-review-of-foi201525797/) from finding out what the Minister for HE, Jo Johnson (hereafter JJ), discussed with Elsevier. (Thank you, "most transparent government ever".)

@@ -21,6 +21,8 @@ wordpress_id: 2788
 wordpress_url: https://www.martineve.com/?p=2788
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgft2x22s"
 kcworks: https://works.hcommons.org/records/sxxbs-kwx24
+references:
+- http://jeuclid.sourceforge.net/jeuclid-fop/ # JEuclid FOP plugin for MathML rendering
 ---
 
 <p>Another brief post on fop. I wanted to render some MathML markup inside an XSL:FO document to be converted to PDF using fop. The way to do this is to <a href="http://jeuclid.sourceforge.net/jeuclid-fop/">use JEuclid</a>. However, the JEuclid page claims to only work on fop versions 0.95beta and 0.95. Turns out this is untrue.</p>

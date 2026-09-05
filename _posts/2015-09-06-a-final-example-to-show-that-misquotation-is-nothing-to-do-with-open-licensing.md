@@ -16,6 +16,9 @@ tags: []
 title: A final example to show that misquotation is nothing to do with open licensing
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcabxku2h"
 kcworks: https://works.hcommons.org/records/ke4jr-50n44
+references:
+- http://www.theguardian.com/commentisfree/2015/sep/06/stewart-lee-jeremy-corbyn-new-christs-bin-laden # Stewart Lee Guardian column on Corbyn misquotation
+- http://metro.co.uk/2015/08/31/what-jeremy-corbyn-actually-said-about-osama-bin-ladens-death-being-a-tragedy-5369339/ # Metro on what Corbyn actually said about bin Laden
 ---
 
 In [a previous piece](/2015/08/22/researchers-are-altering-their-methods-because-of-uncertainty-over-creative-commons-licenses/), I noted in defence of Creative Commons licenses that "Whether a work is openly licensed or not does not affect whether people can or will write things that are not true". In that piece, I focused on the fact that legal redress seems to remain available under a CC BY license. Here, I want to briefly cover the other side: work that isn't openly licensed but that still gets misquoted.

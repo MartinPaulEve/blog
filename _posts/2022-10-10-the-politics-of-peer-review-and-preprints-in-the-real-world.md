@@ -15,6 +15,11 @@ categories:
 - Politics
 - Health
 kcworks: https://works.hcommons.org/records/61hv2-bk971
+references:
+- https://www.cambridge.org/gb/academic/subjects/literature/printing-and-publishing-history/reading-peer-review-plos-one-and-institutional-change-academia?format=PB&isbn=9781108742702 # Eve, Reading Peer Review: PLOS ONE and Institutional Change
+- https://doi.org/10.1057/palcomms.2016.105 # Article on excellence in academic publishing
+- https://getevusheld.uk/ # Get Evusheld UK campaign website
+- https://www.gov.uk/government/publications/decision-on-evusheld-as-a-coronavirus-covid-19-treatment-letter-to-patient-groups/decision-on-evusheld-as-a-covid-19-treatment # UK government decision on Evusheld for patient groups
 ---
 
 This week has been one in which my personal and professional lives have aligned in interesting ways. As you may know, one strand of my work focuses on the study of academic publishing, including [peer review](https://www.cambridge.org/gb/academic/subjects/literature/printing-and-publishing-history/reading-peer-review-plos-one-and-institutional-change-academia?format=PB&isbn=9781108742702). This has featured discussions of the idea of "[excellence](https://doi.org/10.1057/palcomms.2016.105)" but also how preprints are viewed in the world.

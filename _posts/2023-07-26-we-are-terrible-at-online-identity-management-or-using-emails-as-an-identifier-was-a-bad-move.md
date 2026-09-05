@@ -15,6 +15,9 @@ categories:
 - Technology
 - Information Security
 kcworks: https://works.hcommons.org/records/dcvap-s6733
+references:
+- https://orcid.org/ # ORCID researcher identifier system
+- https://www.bloomsbury.com/uk/password-9781501314872/ # Eve, Password, Bloomsbury Object Lessons series
 ---
 
 As noted previously, I am [vacating my martineve.com domain](https://eve.gd/2023/07/24/sunsetting-martinevecom/). To do so has been a painful process that involves changing every account that uses martin@martineve.com to a new email address.

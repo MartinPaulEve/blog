@@ -73,6 +73,11 @@ wordpress_id: 1995
 wordpress_url: https://www.martineve.com/2012/03/30/the-problems-for-small-open-access-journals-in-terms-of-digital-preservation/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miox62s2n"
 kcworks: https://works.hcommons.org/records/kp4vf-gdc63
+references:
+- http://pkp.sfu.ca/?q=ojs # PKP Open Journal Systems software
+- http://annotum.org/ # Annotum WordPress-based journal platform
+- http://www.lockss.org/ # LOCKSS decentralized preservation system
+- http://www.excursions-journal.org.uk/ # Excursions postgraduate OA journal
 ---
 
 <p>So, it looks, with the easy reach of software such as <a href="http://pkp.sfu.ca/?q=ojs">Open Journal Systems</a> and <a href="http://annotum.org/">Annotum</a>, as though anybody can create a journal. This is, to a large extent, true. It comes, however, with a problem. Even assuming that you get the editorial board together, have a great first issue and the journal continues, what happens (to take an extreme case) if the server admin dies (I mean real, physical human death)? What happens to the content? How do we preserve content beyond the span of a human life in a digital environment?</p>

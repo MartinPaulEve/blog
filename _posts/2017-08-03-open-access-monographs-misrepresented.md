@@ -13,6 +13,9 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7ma2kwb4
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/gvpda-ewn65
+references:
+- https://www.timeshighereducation.com/opinion/letters-open-adaptation # Times Higher Education letters page: open adaptation
+- http://eprints.bbk.ac.uk/id/eprint/19293 # Birkbeck eprint: Open to Adaptation full unedited letter
 ---
 
 I have [a letter in today's Times Higher Education](https://www.timeshighereducation.com/opinion/letters-open-adaptation) repying to Marilyn Deegan on open-access books. The full, [unedited version of the letter is in my institutional repository](http://eprints.bbk.ac.uk/id/eprint/19293) or below.

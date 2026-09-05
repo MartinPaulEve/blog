@@ -21,6 +21,8 @@ wordpress_id: 271
 wordpress_url: http://pro.grammatic.org/post-netids-v0100-released-29.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mne7ofl2a"
 kcworks: https://works.hcommons.org/records/aqry9-gy141
+references:
+- http://code.google.com/p/dotnetids # .NETIDS Google Code project page
 ---
 
 <p>After much testing/tweaking the first release of .NETIDS is upon us!</p>

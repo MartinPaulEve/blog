@@ -19,6 +19,8 @@ tags:
 title: Metrics in the Arts and Humanities
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mddiarj2f"
 kcworks: https://works.hcommons.org/records/gs895-mzd06
+references:
+- http://dx.doi.org/10.1017/CBO9781316161012.004 # Eve 2014 chapter on symbolic and material capital
 ---
 
 <p>Tomorrow I will be speaking at the HEFCE <a href="http://www2.warwick.ac.uk/fac/arts/fac-news/hefcemetricsworkshop">Metrics and the assessment of research quality and impact in the Arts and Humanities</a> workshop, commissioned by the independent review panel. Here are some notes on what I am planning to say. These are just brief notes for a ten-minute talk. They're not particularly nuanced but I thought they were worth sharing.</p>

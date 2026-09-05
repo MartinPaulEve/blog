@@ -18,6 +18,14 @@ status: publish
 title: 'Publication: Co-operating for gold open access without APCs'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcxbyap2i"
 kcworks: https://works.hcommons.org/records/hakva-14q95
+references:
+- http://dx.doi.org/10.1017/CBO9781316161012 # Eve, Open Access and the Humanities Cambridge University Press
+- http://knconsultants.org/wp-content/uploads/2014/01/OA_Proposal_White_Paper_Final.pdf # K|N Consultants OA proposal white paper for humanities
+- http://dx.doi.org/10.1080/13614533.2010.512244 # Article in New Review of Academic Librarianship on OA publishing
+- http://www.press.uchicago.edu/ucp/books/book/chicago/N/bo3645773.html # Johns, The Nature of the Book, University of Chicago Press
+- http://dx.doi.org/10.7710/2162-3309.1131 # Eve article on APCs and uneven distribution across disciplines
+- https://www.openlibhums.org # Open Library of Humanities website
+- http://dx.doi.org/10.1629/uksg.166 # Eve article on APC scalability in UKSG Insights
 ---
 
 <p>The current transition to gold open access (OA) through the implementation of an author- or

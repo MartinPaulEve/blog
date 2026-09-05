@@ -84,6 +84,11 @@ wordpress_id: 1714
 wordpress_url: https://www.martineve.com/?p=1714
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjbujvp2f"
 kcworks: https://works.hcommons.org/records/5y856-7mq78
+references:
+- http://www.guardian.co.uk/higher-education-network/blog/2011/dec/28/top-higher-education-blogs-2011 # Guardian top 10 higher education posts 2011
+- http://jennifermjones.net/ # Jennifer M. Jones personal website
+- http://www.guardian.co.uk/higher-education-network/blog/2011/jun/15/univeristies-radical-academics-jobs-training # Guardian Angry Young Academics article
+- http://www.amazon.co.uk/gp/product/1551303698/ref=as_li_ss_tl?ie=UTF8&tag=2bitpienet-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=1551303698 # Newson, Academic Callings, Amazon listing
 ---
 
 <p>A quick, perhaps egotistic, documentary post to note that the Guardian have published their <a href="http://www.guardian.co.uk/higher-education-network/blog/2011/dec/28/top-higher-education-blogs-2011">top 10 posts of 2011</a> and the piece I wrote with <a href="http://jennifermjones.net/">Jennifer M. Jones</a> made the cut.</p>

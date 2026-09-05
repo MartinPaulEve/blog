@@ -15,6 +15,8 @@ categories:
 - Open Access
 - Conferences
 kcworks: https://works.hcommons.org/records/njfrc-mey73
+references:
+- http://eprints.bbk.ac.uk/id/eprint/27525 # Eve, Digital Library Futures keynote slides and text, Birkbeck
 ---
 
 <h4>The Sacred Unreadable Artefact: Digital Preservation, Computational Abundance, and Scarce Access</h4>

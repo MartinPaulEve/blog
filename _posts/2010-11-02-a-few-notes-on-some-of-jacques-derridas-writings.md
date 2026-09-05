@@ -32,6 +32,10 @@ wordpress_id: 214
 wordpress_url: http://www.martineve.com/?p=214
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlpovci2r"
 kcworks: https://works.hcommons.org/records/ex8xj-mmx21
+references:
+- https://launchpad.net/xhtmlnotes # xhtmlnotes GPL note-taking software
+- http://www.martineve.com # Martin Eve personal website
+- http://www.gnu.org/copyleft/fdl.html # GNU Free Documentation License website
 ---
 
 <p>At the beginning of last year, I was involved briefly in a reading group at the University of Sussex, the topic of which was the writings of Jacques Derrida. I wrote, at that point, a computer program to generate nicely presented versions of my notes and hereby present the resulting notes because the domain they were hosted on is now set to expire and I have no interest in maintaining it further.</p>

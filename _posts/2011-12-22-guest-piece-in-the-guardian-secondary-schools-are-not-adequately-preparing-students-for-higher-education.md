@@ -206,6 +206,10 @@ wordpress_id: 1698
 wordpress_url: https://www.martineve.com/?p=1698
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjc3doh2f"
 kcworks: https://works.hcommons.org/records/ztxcy-v8t46
+references:
+- http://www.guardian.co.uk/higher-education-network/blog/2011/dec/22/humanities-in-secondary-schools # Guardian piece on secondary schools and higher education
+- http://www.flickr.com/photos/chrism70/ # ChrisM70 Flickr photostream
+- http://www.bbc.co.uk/news/magazine-15888124 # BBC News Mary Beard on university admissions
 ---
 
 <p>A guest piece over at the Guardian Higher Education section:</p>

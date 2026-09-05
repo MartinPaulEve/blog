@@ -23,6 +23,9 @@ wordpress_id: 293
 wordpress_url: http://pro.grammatic.org/post-javascript-referer-scripts-xss-injection-5.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mobrowc2r"
 kcworks: https://works.hcommons.org/records/85vnd-zhs26
+references:
+- http://www.yaldex.com/FSPageDetails/_404Referrer.htm # yaldex.com 404 referrer script example
+- http://www.md5-db.com/XSSReferer/ # http://www.md5-db.com/XSSReferer/'style=xx:expression(alert(1));othervar='
 ---
 
 <p>Many sites use JavaScript methods to inject a hidden form field into 404 pages to trace the original page that points to the invalid link. An example of this can be found at <a href="http://www.yaldex.com/FSPageDetails/_404Referrer.htm">http://www.yaldex.com/FSPageDetails/_404Referrer.htm</a>. The attentive observer will spot that this method of writing the field injects the HTTP referrer directly into the page without any sanitization.</p>

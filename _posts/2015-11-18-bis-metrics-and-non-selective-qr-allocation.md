@@ -16,6 +16,12 @@ tags:
 title: BIS, metrics and non-selective QR-allocation
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc4keo42t"
 kcworks: https://works.hcommons.org/records/ge56b-0yy84
+references:
+- http://wonkhe.com/blogs/bis-metrics-and-non-selective-qr-allocation/ # Wonkhe article on BIS metrics and QR allocation
+- http://www.hefce.ac.uk/rsrch/metrics/ # HEFCE independent review of research metrics
+- https://www.contractsfinder.service.gov.uk/Notice/26d25c44-4c38-4d4c-93ca-9a580ac39724 # HEFCE citation indicators public tender contract notice
+- https://www.whatdotheyknow.com/request/meetings_between_bis_officials_a # FOI request BIS meetings with citation index firms
+- http://www.rcuk.ac.uk/media/news/the-uk-has-overtaken-the-us-to-rank-1st-by-field-weighted-citation-impact/ # RCUK report UK field-weighted citation impact ranking
 ---
 
 This post originally appeared in an [edited form on Wonkhe](http://wonkhe.com/blogs/bis-metrics-and-non-selective-qr-allocation/).

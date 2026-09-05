@@ -14,6 +14,10 @@ categories:
 - Scholarly Communications
 - Programming
 kcworks: https://works.hcommons.org/records/8gvmt-0he56
+references:
+- https://www.zdnet.com/article/dumping-open-source-for-proprietary-rarely-pays-off-better-to-stick-a-fork-in-it/ # ZDNet: forking open source vs proprietary software
+- https://github.com/inveniosoftware/pytest-invenio/issues/114 # Ian's pytest-invenio test framework fix, GitHub issue
+- https://github.com/inveniosoftware/invenio-saml/pull/48 # Ian's invenio-saml SAML user matching pull request
 ---
 
 Open source projects like InvenioRDM -- on which we rely for our repository software at Knowledge Commons -- thrive on community contributions. When initiatives like ours not only use these platforms but actively contribute improvements back to the original codebase, everyone benefits. This "upstreaming" process takes work, but it represents the collaborative spirit that makes open source software so powerful. My colleague, Ian, who is our repository developer has, in the past day, contributed a set of fixes back to Invenio, which should improve the software for everyone.

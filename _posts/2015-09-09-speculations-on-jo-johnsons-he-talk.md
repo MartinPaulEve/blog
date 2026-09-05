@@ -16,6 +16,12 @@ tags:
 title: 'TEF, REF, QR, deregulation: thoughts on Jo Johnson''s HE talk'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc7kitm2t"
 kcworks: https://works.hcommons.org/records/ftsrk-73d18
+references:
+- https://www.gov.uk/government/speeches/higher-education-fulfilling-our-potential # Jo Johnson HE speech fulfilling our potential
+- https://www.timeshighereducation.co.uk/features/uncontrolled-expansion-how-private-colleges-grew/2016579.article # THE feature on disastrous private college expansion
+- http://www.theguardian.com/science/political-science/2015/jul/27/in-defence-of-the-ref # Guardian defence of the REF
+- http://www.hefce.ac.uk/media/HEFCE,2014/Content/Pubs/Independentresearch/2015/REF,Accountability,Review,Costs,benefits,and,burden/2015_refreviewcosts.pdf # HEFCE REF cost-effectiveness review report
+- http://www.bbk.ac.uk/about-us/bbk/downloads/2014-articles/bbk33-6-7-future-of-he.pdf # Birkbeck article on HE funding difficulties
 ---
 
 I feel fairly drained today reading [the speech given by the minister for Higher Education](https://www.gov.uk/government/speeches/higher-education-fulfilling-our-potential), Jo Johnson. 

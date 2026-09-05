@@ -13,6 +13,10 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7rhfyz
 categories:
 - Artificial Intelligence
 kcworks: https://works.hcommons.org/records/dvyxh-9ac50
+references:
+- https://nyupress.org/books/9781479837243/ # Noble, Algorithms of Oppression NYU Press
+- https://www.theguardian.com/commentisfree/2017/dec/24/facebook-google-youtube-dirty-work-social-media-inappropriate-content # Guardian piece on Facebook Google content moderation pay
+- https://atm-ucla2017.net/ # ATM UCLA 2017 conference on AI and labour
 ---
 
 Even as worldwide militaries develop autonomous killer robots, when we think of the ethics of AI, we often turn to the Asimov principles:

@@ -14,6 +14,8 @@ categories:
 - Copyright and Licensing
 - Open Access
 kcworks: https://works.hcommons.org/records/59z1n-jrf65
+references:
+- https://unsplash.com/photos/Tzm3Oyu_6sk # Bank Phrom Unsplash photo
 ---
 
 The world is being rapidly reshaped by pandemic conditions beyond our control. This prompted me to do some radical rethinking of my own. What if I could totally reshape copyright law?

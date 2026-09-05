@@ -20,6 +20,9 @@ wordpress_id: 2101
 wordpress_url: https://www.martineve.com/2012/05/21/beware-the-next-wave-of-academic-publishing-grimness-apps/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mifbyal2h"
 kcworks: https://works.hcommons.org/records/gy34q-9q028
+references:
+- http://en.wikipedia.org/wiki/Digital_rights_management # Wikipedia article on DRM
+- http://en.wikipedia.org/wiki/Format_rot # Wikipedia article on format rot
 ---
 
 <p><img src="https://www.martineve.com/wp-content/uploads/2012/05/6012434606_dc9d3115fc_b.jpg" alt="App" title="App" style="width:750px;" class="alignnone size-full wp-image-2102" /></p>

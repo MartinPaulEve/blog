@@ -18,6 +18,15 @@ tags:
 title: Building a real XML-first (XML-in) workflow for scholarly typesetting
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcfyoo42n"
 kcworks: https://works.hcommons.org/records/zbmm3-f4m87
+references:
+- https://github.com/MartinPaulEve/meTypeset # meTypeset open-source JATS XML typesetter
+- https://github.com/MartinPaulEve/MEXMLGalley # meXml JATS-to-HTML XSLT galley tool
+- http://www.theguardian.com/higher-education-network/2015/feb/11/researchers-its-time-to-ditch-the-pdf # Guardian piece on ditching the PDF in research
+- http://dx.doi.org/2027.42/99563 # McGlone article on XML-first scholarly publishing
+- https://en.wikipedia.org/w/index.php?title=XSL_Formatting_Objects&oldid=668053710 # Wikipedia on XSL-FO discontinuation
+- https://github.com/FremyCompany/css-regions-polyfill/ # CSS Regions polyfill JavaScript library
+- http://alistapart.com/blog/post/css-regions-considered-harmful # A List Apart post CSS Regions considered harmful
+- http://drafts.csswg.org/css-page-template-1/ # CSSWG CSS Regions pagination templates draft
 ---
 
 For some time now, I've worked to build an open-source JATS XML typesetter. It's called [meTypeset](https://github.com/MartinPaulEve/meTypeset). It's not by any means perfect and the approach it takes is unlikely to ever yield 100% good markup from Word input. It does, though, get it right a lot of the time in "basic" (in terms of underlying XML semantic complexity) rich-text documents, which is [what most academics](https://www.martineve.com/2015/04/15/in-the-beginning-was-the-word/) (especially in the humanities) are writing. It also plugs into Zotero and will produce nice element-citation blocks for you.

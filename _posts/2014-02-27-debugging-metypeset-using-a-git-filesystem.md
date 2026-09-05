@@ -22,6 +22,8 @@ wordpress_id: 3047
 wordpress_url: https://www.martineve.com/?p=3047
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfg7a2c2a"
 kcworks: https://works.hcommons.org/records/xgh2d-7sf55
+references:
+- http://dx.doi.org/10.6084/m9.figshare.946260 # Figshare DOI for meTypeset git debugging post
 ---
 
 <div style="clear:both"/>

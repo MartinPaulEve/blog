@@ -23,6 +23,9 @@ wordpress_id: 2967
 wordpress_url: https://www.martineve.com/?p=2967
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mftd6nh2t"
 kcworks: https://works.hcommons.org/records/mta7t-yns40
+references:
+- https://github.com/m0sia/pyParrotZik # pyParrotZik cross-platform Parrot Zik indicator
+- https://github.com/m0sia/pyParrotZik/pull/1 # Eve's pull request fix to pyParrotZik
 ---
 
 <p>An argument by anecdote.</p>

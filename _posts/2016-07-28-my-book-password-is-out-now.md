@@ -14,6 +14,9 @@ categories:
 - Publications
 - Information Security
 kcworks: https://works.hcommons.org/records/j5s04-d6z19
+references:
+- http://www.bloomsbury.com/us/series/object-lessons/ # Bloomsbury Object Lessons series page
+- http://amzn.to/2abBhmD # Password book Amazon purchase link
 ---
 
 My short book in the <a href="http://www.bloomsbury.com/us/series/object-lessons/">Object Lessons series</a>, <a href="http://meve.io/password"><i>Password</i></a>, is released today, published by Bloomsbury. It's available to buy in <a href="http://amzn.to/2abBhmD">all the usual places</a>. All author royalties will be donated to <a href="http://www.arthritisresearchuk.org/">Arthritis Research UK</a>.

@@ -14,6 +14,8 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mapkfqd
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/q32wz-21643
+references:
+- http://eprints.bbk.ac.uk/16458/ # Birkbeck eprint on economic return of humanities
 ---
 
 [As I've written before](https://www.martineve.com/2014/10/04/pondering-a-solution-to-the-problem-of-learned-societies-and-the-transition-to-open-access/), Learned Societies are one of the biggest barriers to open access. They derive revenue from publishing that they then use to pay for disciplinary goods (scholarships, prizes, public engagement etc.) Fear of new economic models for scholarly communications sometimes, although not always, drives them away from open access.

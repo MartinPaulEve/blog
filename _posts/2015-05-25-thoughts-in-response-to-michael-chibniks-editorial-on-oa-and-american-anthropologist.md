@@ -15,6 +15,13 @@ tags: []
 title: Thoughts in response to Michael Chibnik's editorial on OA and American Anthropologist
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcsax3x2s"
 kcworks: https://works.hcommons.org/records/8rjzr-mj751
+references:
+- http://dx.doi.org/10.1111/aman.12231 # Chibnik editorial on OA in American Anthropologist
+- http://dx.doi.org/10.1111%2Fj.1548-1433.2012.01440.x # Previous American Anthropologist editor calling for OA
+- http://bit.ly/oa-book # Suber, Open Access book
+- http://ordering.onlinelibrary.wiley.com/subs.asp?ref=0002-7294&site=1 # Wiley institutional subscription price for American Anthropologist
+- http://jasonbairdjackson.com/2011/09/05/how-enclosed-by-large-for-profit-publishers-is-the-anthropology-journal-literature/ # Jackson blog on Wiley-Blackwell profits from anthropology journals
+- https://www.openlibhums.org/about/supporting-institutions/ # OLH supporting institutions list
 ---
 
 In February of this year Michael Chibnik published an [editorial piece in _American Anthropologist_](http://dx.doi.org/10.1111/aman.12231) arguing that while he supported the idea of open access to the publication he also now thinks "that gold open access publication is unlikely to be feasible in the near future for AA". This is a regrettable situation since, from the editorial, it does not appear that many options have been considered to achieve open access, despite the citation in this piece of the previous editor [calling for the Society](http://dx.doi.org/10.1111%2Fj.1548-1433.2012.01440.x) to "work creatively" to achieve OA. I here offer a few thoughts of my own on what was said and left unsaid in Chibnik's editorial.

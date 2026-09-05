@@ -22,6 +22,8 @@ wordpress_id: 3043
 wordpress_url: https://www.martineve.com/?p=3043
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfgpjfm2h"
 kcworks: https://works.hcommons.org/records/da3tt-ngz19
+references:
+- http://dx.doi.org/10.6084/m9.figshare.944613 # Figshare DOI for meTypeset MathML post
 ---
 
 <h1>Diversity of material</h1>

@@ -14,6 +14,8 @@ categories:
 - Digital Preservation
 - Programming
 kcworks: https://works.hcommons.org/records/cvyy6-qs680
+references:
+- https://github.com/MartinPaulEve/cemmento/tree/master # Cemmento GitHub repository by Martin Paul Eve
 ---
 
 Annotation tools on the web are somewhat fragile. They depend upon complex XPath queries and other anchoring technologies to ensure that annotations are keyed to known positions.

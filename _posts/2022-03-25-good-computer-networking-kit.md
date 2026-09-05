@@ -13,6 +13,8 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzcelg2
 categories:
 - Technology
 kcworks: https://works.hcommons.org/records/12v3g-xq789
+references:
+- https://www.marvell.com/products/ethernet-adapters-and-controllers/fastlinq-edge-ethernet-controllers.html # Marvell FastLinQ edge Ethernet controllers product page
 ---
 
 OK, this is different from my usual fare, but I've been thinking about upgrading my home LAN to 10GbE. My WAN connection is now more than 1Gbit and so I'm maxxing out the link. Finding kit that works on Linux (and even, shudder, FreeBSD), though, is somewhat tricky. Here's what I've found:

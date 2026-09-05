@@ -21,6 +21,8 @@ wordpress_id: 2659
 wordpress_url: https://www.martineve.com/?p=2659
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgt37at2h"
 kcworks: https://works.hcommons.org/records/jnmzx-1pm26
+references:
+- http://www.parliament.uk/business/committees/committees-a-z/commons-select/business-innovation-and-skills/?utm_source=twitterfeed&utm_medium=twitter # UK Parliament BIS Select Committee open access inquiry
 ---
 
 <p>I'm very pleased to announce that, this Tuesday, 16th April 2013, I will be joining the Commons Select Committee <a href="http://www.parliament.uk/business/committees/committees-a-z/commons-select/business-innovation-and-skills/?utm_source=twitterfeed&utm_medium=twitter">inquiry into open access</a> being hosted by the Business, Innovation and Skills Committee on at the Palace of Westminster. At 12pm I will be presenting evidence on open access publishing alongside a list of distinguished speakers, including those representing:</p>

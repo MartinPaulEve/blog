@@ -19,6 +19,17 @@ wordpress_id: 1229
 wordpress_url: https://www.martineve.com/?p=1229
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk7lxh32n"
 kcworks: https://works.hcommons.org/records/eh068-z4w16
+references:
+- http://www.guardian.co.uk/education/2011/jun/28/naming-shaming-degrees-poor-jobs-record # Guardian: naming and shaming degrees poor jobs record
+- http://www.bbc.co.uk/news/education-13927710 # BBC: universities shake-up greater competition
+- https://twitter.com/#!/renireni # Twitter: @renireni on HE White Paper
+- https://twitter.com/#!/richardbrabner # Twitter: @richardbrabner on HE White Paper
+- https://twitter.com/#!/MarioCreatura # Twitter: @MarioCreatura on HE White Paper
+- https://twitter.com/#!/timeshighered # Twitter: Times Higher Education account
+- http://www.timeshighereducation.co.uk/story.asp?storycode=416655 # Times Higher: roundup of official HE White Paper responses
+- http://educationactivistnetwork.wordpress.com/2011/06/28/press-release-h-e-white-paper-%E2%80%93-a-disaster-for-universities-a-government-in-chaos/ # Education Activist Network HE White Paper press release
+- http://www.mikebakereducation.co.uk/blog/396/he-white-paper-key-points # Mike Baker: HE White Paper key points rundown
+- http://www.flickr.com/photos/featheredtar/ # FeatheredTar Flickr photostream CC-BY
 ---
 
 <p>Today is the day that we've all been <s>dreading</s> waiting for. The final unveiling of the UK Higher Education White Paper.</p>

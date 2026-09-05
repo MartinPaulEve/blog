@@ -13,6 +13,8 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m77rkfv
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/ec8pe-5qk03
+references:
+- https://adamesmith.files.wordpress.com/2014/11/nov-2014-the-empire-strikes-back-alicia-wise-elsevier-profile.pdf # Alicia Wise Elsevier profile, Empire Strikes Back 2014
 ---
 
 The [report on Learned Societies and Plan S](http://www.informationpower.co.uk/consultation/) commissioned by Wellcome, UKRI, and ALPSP has been released. In general, this is a very good document. Societies should read it and act.

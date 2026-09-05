@@ -13,6 +13,8 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6prbyv
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/wrv38-rjh18
+references:
+- https://www.sciencemag.org/news/2019/09/new-deals-could-help-scientific-societies-survive-open-access # Science news: deals helping societies survive open access
 ---
 
 There's [an article](https://www.sciencemag.org/news/2019/09/new-deals-could-help-scientific-societies-survive-open-access) out in <strike>The Times Higher Education</strike> Science Magazine (edit 11:38am) about Learned Societies and open access. As usual, it points out the thorny problem that Learned Societies derive revenue from subscriptions that they fear will be lost under an OA model. A few points spring to mind on this. 1. There is no guarantee that moving to an OA model will cause a loss of revenue; 2. zero-embargo green OA would be compliant with Plan S and does not seem to lead to loss of revenue; 3. I have written previously on [how Learned Societies could manage this transition](/2018/01/21/how-learned-societies-could-flip-to-oa-using-a-consortial-model/).

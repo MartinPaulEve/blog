@@ -14,6 +14,15 @@ categories:
 - Politics
 - Health
 kcworks: https://works.hcommons.org/records/4p413-fqc45
+references:
+- https://www.gov.uk/government/news/evusheld-approved-to-prevent-covid-19-in-people-whose-immune-response-is-poor # UK MHRA approval announcement for Evusheld
+- https://www.dailymail.co.uk/health/article-10746187/Covid-19-Vulnerable-patients-denied-800-anti-viral-jab-unless-private.html # Daily Mail article on Evusheld denial on NHS
+- https://www.kingsfund.org.uk/publications/access-new-medicines-english-nhs # King's Fund primer on NHS medicine access
+- https://twitter.com/vickyfoxcroft/status/1519282453948641280 # Vicky Foxcroft MP tweet on Evusheld at PMQs
+- https://twitter.com/CaroleCrossleyW/status/1519222341993119744 # Caroline Lucas tweet raising Evusheld issue
+- https://www.writetothem.com/ # WriteToThem MP contact tool
+- https://www.writetothem.com/write?fyr_extref=https%3A%2F%2Fwww.theyworkforyou.com%2F&who=58991 # WriteToThem page for Lord Mendelsohn
+- https://www.gov.uk/government/publications/higher-risk-patients-eligible-for-covid-19-treatments-independent-advisory-group-report/defining-the-highest-risk-clinical-subgroups-upon-community-infection-with-sars-cov-2-when-considering-the-use-of-neutralising-monoclonal-antibodies # UK independent advisory group report on high-risk Covid patients
 ---
 
 Evusheld is a combination of two long-acting antibodies (tixagevimab and cilgavimab). It's a drug designed to protect clinically vulnerable people against Covid in cases where vaccines don't work. A good example is people who have been on the chemotherapy drug Rituximab, which [causes much worse Covid outcomes and also reduces vaccine efficacy](https://doi.org/10.1016/S2665-9913(21)00418-5). Another example is people with primary or secondary immunodeficiency. Evusheld is given prophylactically (that is: in advance) to stop people in this situation developing severe Covid in the first place.

@@ -49,6 +49,10 @@ wordpress_id: 1895
 wordpress_url: https://www.martineve.com/2012/02/04/more-thoughts-on-metrics-link-rot-canonical-urls/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miwjpi22s"
 kcworks: https://works.hcommons.org/records/frys2-1sw65
+references:
+- https://en.wikipedia.org/wiki/Handle_System # Wikipedia article on Handle System
+- http://www.handle.net/rfc/rfc3650.html # Handle System RFC 3650 specification
+- http://www.flickr.com/photos/labanex/ # labanex Flickr photo stream
 ---
 
 <p>In my <a href="https://www.martineve.com/2012/02/03/dois-what-you-need-to-know/">previous post</a>, I flagged up a conversation about DOIs that I had with Geoffrey Bilder on Twitter. It was enlightening in many ways; I hadn't appreciated that one of the main challenges faceed by Crossref is a carrot and stick approach to ensure that DOIs really do combat link rot.</p>

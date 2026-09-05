@@ -15,6 +15,8 @@ categories:
 - Literature
 - Personal
 kcworks: https://works.hcommons.org/records/h8f98-scr94
+references:
+- https://janeway.systems/ # Janeway open-access publishing platform
 ---
 This morning, I made a last-minute incorporation of Kornbrodt, Joseph, and David Zappone, ‘Special Feature on _To the Journey: Looking Back at_ Star Trek: Voyager’, interview with Kate Mulgrew, 455 Films, 2026, Bluray into my _Voyager_ book. I had watched the documentary itself in a digital copy earlier in the year. It's OK. Nothing very new. You do get a VERY enthusiastic Garrett Wang shepherding the program along with a slightly strange foray into a zero-gravity plane dive. I am unsure this has anything to do with _Voyager_, but it was mildly entertaining. And it's Harry Kim! And he clearly loves it and the _Voyager_ fan community and all that goes with it. It's all quite heartwarming.
 

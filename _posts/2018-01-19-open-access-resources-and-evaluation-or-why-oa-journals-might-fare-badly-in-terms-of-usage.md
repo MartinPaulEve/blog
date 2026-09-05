@@ -14,6 +14,9 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7z5e5n
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/qehnx-e6d12
+references:
+- https://www.theguardian.com/commentisfree/2017/aug/08/trump-administration-climate-change-ban-usda # Guardian piece on USDA climate change term ban
+- https://www.openlibhums.org/news/55/ # Open Library of Humanities usage metrics news post
 ---
 
 I am frequently asked, by libraries, to provide usage statistics for their institutions at the Open Library of Humanities. I usually resist this, since there are a number of ways in which the metrics are not usually a fair comparison to subscription resources. A few notes on this.

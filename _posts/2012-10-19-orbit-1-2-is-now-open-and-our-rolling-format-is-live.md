@@ -18,6 +18,8 @@ wordpress_id: 2437
 wordpress_url: https://www.martineve.com/?p=2437
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhqrxve2h"
 kcworks: https://works.hcommons.org/records/mcksg-gp632
+references:
+- https://www.pynchon.net/owap/index # Orbit: Writing Around Pynchon issue 1.2 launch
 ---
 
 <p>I'm pleased to announce that <a href="https://www.pynchon.net/owap/index"><i>Orbit: Writing Around Pynchon</i></a> today launched into its second issue.</p>

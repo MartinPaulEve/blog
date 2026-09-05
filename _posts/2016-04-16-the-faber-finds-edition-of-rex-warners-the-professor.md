@@ -11,6 +11,8 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbhtune
 categories:
 - Literature
 kcworks: https://works.hcommons.org/records/x3ece-19550
+references:
+- http://booktwo.org/notebook/faber-finds-the-new-business-of-pod/ # Booktwo post on Faber Finds POD reprinting
 ---
 
 Having previously read and greatly enjoyed _The Aerodrome_, I sat down this morning and read Rex Warner's second novel, _The Professor_. I'd say it is a remarkable and interesting book that does something strange with notions of education, war, and fascism.

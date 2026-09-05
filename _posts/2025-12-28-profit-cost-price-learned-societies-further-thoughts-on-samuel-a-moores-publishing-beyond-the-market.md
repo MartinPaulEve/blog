@@ -19,6 +19,9 @@ title: Profit, cost, price, learned societies; further thoughts on Samuel A. Moo
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvjqmoe2i"
 categories:
 - Open Access
+references:
+- https://doi.org/10.59348/cwncn-5122 # Eve's earlier post on Moore's Publishing Beyond the Market
+- https://doi.org/10.1017/CBO9781316161012 # Eve, Open Access and the Humanities (Cambridge UP)
 ---
 
 Since [I last wrote](https://doi.org/10.59348/cwncn-5122), I have had a few more thoughts on Samuel Moore's book. Again, these are not necessarily things that he does not discuss or things that he should have discussed. They are merely thoughts that occurred to me in response to reading his work.

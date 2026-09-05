@@ -22,6 +22,9 @@ wordpress_id: 3060
 wordpress_url: https://www.martineve.com/?p=3060
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mff3icq2i"
 kcworks: https://works.hcommons.org/records/zxzwq-zhe44
+references:
+- http://www.sherpa.ac.uk/romeo/ # SHERPA/RoMEO journal OA policy database
+- https://www.hefce.ac.uk/media/hefce/content/pubs/2014/201407/HEFCE2014_07.pdf # HEFCE post-2014 REF open access policy document
 ---
 
 <p><strong>The Really Short Version:</strong></p>

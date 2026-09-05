@@ -18,6 +18,10 @@ wordpress_id: 2462
 wordpress_url: https://www.martineve.com/?p=2462
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhnn7gw2p"
 kcworks: https://works.hcommons.org/records/t6d3g-scs47
+references:
+- http://www.timeshighereducation.co.uk/story.asp?sectioncode=26&storycode=421669&c=1 # Times Higher Education piece on academic blogging
+- http://www.alluvium-journal.org # Alluvium open-access journal
+- http://drcarolineedwards.com/ # Dr Caroline Edwards personal website
 ---
 
 <p>Although I want to preface this with my <a href="https://www.martineve.com/2011/09/27/academia-edtech-blogging-and-twitter-enough-with-the-meta-already/">usual warnings about too much meta</a>, I did speak to the Times Higher Education this week for <a href="http://www.timeshighereducation.co.uk/story.asp?sectioncode=26&storycode=421669&c=1">a piece they were doing on blogging</a>.</p>

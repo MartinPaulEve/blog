@@ -15,6 +15,9 @@ categories:
 - Politics
 - Personal
 kcworks: https://works.hcommons.org/records/cc885-93x72
+references:
+- https://www.nice.org.uk/guidance/indevelopment?q=id6316 # NICE Evusheld in-development guidance entry
+- https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciac625/6651663?login=false # Real-world data study on Evusheld efficacy
 ---
 
 # Affect Theory

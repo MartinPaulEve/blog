@@ -44,6 +44,9 @@ wordpress_id: 1146
 wordpress_url: https://www.martineve.com/?p=1146
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkc5pf72p"
 kcworks: https://works.hcommons.org/records/15cj1-cd029
+references:
+- http://www.if-not-true-then-false.com/2010/install-sun-oracle-java-jdk-jre-7-on-fedora-centos-red-hat-rhel/ # Guide to install Sun Oracle Java on Fedora/CentOS
+- http://download.oracle.com/otn-pub/java/jdk/6u25-b06/jre-6u25-linux-x64-rpm.bin # Oracle JRE 6u25 Linux x64 RPM download
 ---
 
 <p>Here's a quick 'n' easy version of <a href="http://www.if-not-true-then-false.com/2010/install-sun-oracle-java-jdk-jre-7-on-fedora-centos-red-hat-rhel/">another post</a> that uses the rpm instead of the extracting to opt.</p>

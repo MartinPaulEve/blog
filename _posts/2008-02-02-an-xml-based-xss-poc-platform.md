@@ -34,6 +34,8 @@ wordpress_id: 258
 wordpress_url: http://pro.grammatic.org/post-an-xml-based-xss-poc-platform-43.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mn6a4j42u"
 kcworks: https://works.hcommons.org/records/4ewej-qhf52
+references:
+- http://code.google.com/p/ssimp/ # SSImp C# source code on Google Code
 ---
 
 <p>Well, long time no post. Been in hospital. Been busy with college. Life gets in the way of hacking.</p>

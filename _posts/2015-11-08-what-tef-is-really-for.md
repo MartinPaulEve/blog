@@ -14,6 +14,12 @@ tags:
 title: What TEF is really for
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc5bhue2r"
 kcworks: https://works.hcommons.org/records/fk3pe-92e17
+references:
+- https://www.researchprofessional.com/services/mailing.html?uuid=1ecd16f5-8164-4d45-81fe-464cff593150 # Research Professional McQuillan piece on TEF
+- http://www.theguardian.com/education/2015/nov/02/why-teaching-excellence-framework-tef-metrics-university-fees # Guardian piece on why TEF metrics won't work
+- http://www.theguardian.com/education/2013/oct/08/oxford-vice-chancellor-university-tuition-fees # Guardian on Oxford privatisation and tuition fees
+- https://www.timeshighereducation.com/oxbridge-to-be-stripped-of-special-funding-feeding-the-tutorial-system # THE on Oxbridge tutorial funding cuts
+- http://wonkhe.com/blogs/remember-remember-the-tef-of-november/ # Wonkhe blog on TEF contradictions
 ---
 
 In today's [_Research Professional_](https://www.researchprofessional.com/services/mailing.html?uuid=1ecd16f5-8164-4d45-81fe-464cff593150) (paywalled) Martin McQuillan asks:

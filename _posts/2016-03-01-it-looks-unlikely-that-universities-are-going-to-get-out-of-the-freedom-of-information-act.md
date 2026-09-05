@@ -12,6 +12,8 @@ categories:
 - Higher Education
 - Politics
 kcworks: https://works.hcommons.org/records/qvqxe-m6a45
+references:
+- https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/504139/Independent_Freedom_of_Information_Commission_Report.pdf # Independent FOI Commission report PDF
 ---
 
 The recent Green Paper proposed that universities [should be excluded from the Freedom of Information Act](https://www.martineve.com/2015/11/10/he-green-paper-response-to-question-23/). As of today, it now looks very unlikely that this will happen.

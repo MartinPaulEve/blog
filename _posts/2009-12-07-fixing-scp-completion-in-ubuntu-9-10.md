@@ -20,6 +20,9 @@ wordpress_id: 229
 wordpress_url: http://pro.grammatic.org/post-fixing-scp-completion-in-ubuntu-910-73.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mme35ml2n"
 kcworks: https://works.hcommons.org/records/5ger8-qch42
+references:
+- https://bugs.launchpad.net/ubuntu/karmic/+source/bash-completion/+bug/449349 # Launchpad bug: bash-completion scp issue Karmic
+- http://launchpadlibrarian.net/35968198/ssh # bash-completion scp fix for Ubuntu 9.10
 ---
 
 <p>Currently, owing to a bug, scp in Kubuntu and Ubuntu 9.10 (Karmic Koala) does not allow you to autocomplete remote directories (when you have a passwordless ssh setup, obviously).</p>

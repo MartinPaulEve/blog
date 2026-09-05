@@ -13,6 +13,8 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mb5vrp4
 categories:
 - Higher Education
 kcworks: https://works.hcommons.org/records/gbrrw-ck582
+references:
+- https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/541338/ind-16-9-ref-stern-review.pdf # Lord Stern review of the REF PDF
 ---
 
 <a href="https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/541338/ind-16-9-ref-stern-review.pdf">Lord Stern's review of the Research Excellence Framework</a> is out today in the UK. Not as exciting as the fact that <a href="https://www.martineve.com/2016/07/28/my-book-password-is-out-now/">my book is also out today</a>, I know, but still a marginally important publication, I suppose.

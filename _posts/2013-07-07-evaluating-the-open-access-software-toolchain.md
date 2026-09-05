@@ -23,6 +23,13 @@ wordpress_id: 2737
 wordpress_url: https://www.martineve.com/?p=2737
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgofozx2a"
 kcworks: https://works.hcommons.org/records/43622-3bd12
+references:
+- https://github.com/NateWr # Nate Wright GitHub profile
+- http://www.ambraproject.org/ # Ambra open access publishing platform
+- https://www.openlibhums.org # Open Library of Humanities website
+- https://github.com/MartinPaulEve/meTypeset # meTypeset Word-to-NLM typesetting tool
+- https://github.com/MartinPaulEve/MEXMLGalley/ # meXmlGalley NLM galley generation tool
+- http://www.alluvium-journal.org # Alluvium online literary journal
 ---
 
 <p>I received an interesting email this week from <a href="https://github.com/NateWr">Nate Wright</a>, who posed the following questions:</p>

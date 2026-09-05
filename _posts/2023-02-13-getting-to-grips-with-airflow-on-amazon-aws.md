@@ -10,6 +10,10 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lygoxlu
 categories:
 - Programming
 kcworks: https://works.hcommons.org/records/ek4c4-dqk55
+references:
+- https://gitlab.com/crossref/labs/preservation-data/-/blob/main/aflow/virtual_python_plugin.py # Crossref Labs Airflow virtual Python plugin source
+- https://docs.aws.amazon.com/mwaa/latest/userguide/samples-virtualenv.html # AWS MWAA virtualenv sample documentation
+- https://api.portico.org/kbart/Portico_Holding_KBart.txt # Portico KBART holdings data file
 ---
 
 I am currently conducting a research project at Crossref that requires me to build a database using large backend files (e.g. building a relational database from a 3GB XML file). We need to rebuild this monthly, so Apache Airflow seemed a good tool to run these periodic tasks.

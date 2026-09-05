@@ -22,6 +22,8 @@ wordpress_id: 290
 wordpress_url: http://pro.grammatic.org/post-bypass-aspnet-xss-protection-in-internet-explorer-8.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnu3nll2n"
 kcworks: https://works.hcommons.org/records/srpf0-04h11
+references:
+- http://www.site.com/JS.js # Example malicious script payload URL
 ---
 
 <p>ASP.NET comes preloaded with some default XSS protection which is actually pretty nifty. However, it turns out that the system can be circumvented by a variety of methods, as illustrated by this test input:</p>

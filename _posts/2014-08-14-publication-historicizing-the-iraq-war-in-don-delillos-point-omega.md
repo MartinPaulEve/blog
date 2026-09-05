@@ -20,6 +20,9 @@ wordpress_id: 3170
 wordpress_url: https://www.martineve.com/?p=3170
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7meweecr2s"
 kcworks: https://works.hcommons.org/records/9evyw-naz53
+references:
+- http://journals.cambridge.org/action/displaySpecialPage?pageId=4608  # Cambridge UP Journal of American Studies OA policy
+- http://eprints.lincoln.ac.uk/14446 # Lincoln repository record for DeLillo article
 ---
 
 <p>Update from <a href="https://www.martineve.com/2014/07/02/historicizing-the-iraq-war-in-don-delillos-point-omega-preprint-forthcoming-in-journal-of-american-studies/">a previous post</a>, now with a final PDF.</p>

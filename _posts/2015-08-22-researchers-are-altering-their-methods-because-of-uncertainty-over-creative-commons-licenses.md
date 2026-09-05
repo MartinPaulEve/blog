@@ -18,6 +18,11 @@ title: Researchers are altering their methods because of uncertainty over Creati
   Commons licenses
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcc2t3r2f"
 kcworks: https://works.hcommons.org/records/kvenk-bqt51
+references:
+- http://dx.doi.org/10.1080/09548963.2015.1066073 # Cultural Trends article on London and place
+- https://creativecommons.org/licenses/by/4.0/legalcode # Creative Commons Attribution 4.0 legal code
+- https://meta.wikimedia.org/wiki/Wikilegal/Moral_right_of_integrity # Wikilegal page on moral right of integrity
+- http://www.danielallington.net/2014/08/choices-open-access-creative-commons-funded-unfunded-research/ # Allington critique of CC licenses without ND clause
 ---
 
 First of all, let me say that I found the piece of work I'm about to discuss really interesting in its own right. I know one of the co-authors and I'm an avid Soundcloud user (for electronic music, no-less!) so I thought this would be right up my street. The work in question is Allington, Daniel, Byron Dueck, and Anna Jordanous, ‘Networks of Value in Electronic Music: SoundCloud, London, and the Importance of Place’, Cultural Trends, 24 (2015), 211–22 <[http://dx.doi.org/10.1080/09548963.2015.1066073](http://dx.doi.org/10.1080/09548963.2015.1066073)>. It's open access because RCUK policy demands it must be. This is great because my university doesn't subscribe to "Cultural Trends" and I am interested in the topic. It's also great that it's openly licensed, since I can save you the hassle of visiting the publisher's site by [posting a copy here](/images/allingtonetal.pdf).

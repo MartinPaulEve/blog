@@ -22,6 +22,9 @@ wordpress_id: 2380
 wordpress_url: https://www.martineve.com/?p=2380
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhtjfwp2r"
 kcworks: https://works.hcommons.org/records/pv919-a2n96
+references:
+- http://www.astrid.com # Astrid task management app
+- http://www.producteev.com # Producteev task management app
 ---
 
 <p>I've been a long-term user of <a href="http://www.astrid.com">Astrid</a> and <a href="http://www.producteev.com">Producteev</a> to manage my tasks list. When I went to reinstall Astrid today, I noticed that there was no longer a Producteev sync option.</p>

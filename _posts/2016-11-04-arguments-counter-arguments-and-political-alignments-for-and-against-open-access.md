@@ -14,6 +14,9 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7maw346f
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/etper-kvw04
+references:
+- http://bit.ly/oa-book # Peter Suber Open Access book short link
+- https://dash.harvard.edu/handle/1/4391168 # Suber epistemological argument for open access Harvard
 ---
 
 As a result of a discussion today, I thought it worth writing out some of my observations/thoughts on a few of the arguments, counter-arguments, and political alignments for and against open access. What, in other words, is the scope of OA? Should it be for work for which authors cannot reasonably expect to make a remuneration by direct sales alone? Or should it be for all educational resources, since education is too valuable to have a price tag?

@@ -22,6 +22,10 @@ wordpress_id: 3164
 wordpress_url: https://www.martineve.com/?p=3164
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mewrp542r"
 kcworks: https://works.hcommons.org/records/0ksbr-dpt19
+references:
+- http://dx.doi.org/10.7710/2162-3309.1131 # Eve, All That Glisters, JLSC DOI
+- http://jlsc-pub.org/jlsc/vol2/iss3/5/ # JLSC publisher page for All That Glisters
+- http://eprints.lincoln.ac.uk/14337/ # Lincoln repository record for All That Glisters
 ---
 
 <p>New article out in the Journal of Librarianship and Scholarly Communication: Eve, Martin Paul, ‘All That Glisters: Investigating Collective Funding Mechanisms for Gold Open Access in Humanities Disciplines’, <i>Journal of Librarianship and Scholarly Communication</i>, 2 (2014) <a href="http://dx.doi.org/10.7710/2162-3309.1131">http://dx.doi.org/10.7710/2162-3309.1131</a></p>

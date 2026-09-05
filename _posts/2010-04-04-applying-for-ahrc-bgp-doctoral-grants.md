@@ -21,6 +21,14 @@ wordpress_id: 20
 wordpress_url: http://new.martineve.com/?p=20
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mma2jft2n"
 kcworks: https://works.hcommons.org/records/4xwk4-k6c16
+references:
+- http://www.ahrc.ac.uk/FundedResearch/Pages/ResearchStatistics.aspx # AHRC funded research statistics page
+- http://www.ahrc.ac.uk/FundingOpportunities/Pages/BGP.aspx # AHRC Block Grant Partnership funding page
+- http://www.ahrc.ac.uk/FundingOpportunities/Documents/PG%20funding%20opp%20FAQs.pdf # AHRC postgraduate funding opportunities FAQs PDF
+- http://www.ahrc.ac.uk/FundingOpportunities/Documents/pg%20funding%20faqs.pdf # AHRC postgraduate funding FAQs PDF
+- http://www.ahrc.ac.uk/FundedResearch/Pages/ImpactAssessment.aspx # AHRC impact assessment guidance page
+- http://call-for-papers.sas.upenn.edu/ # Penn CFP call for papers listings
+- http://www.whatisrss.com/ # What is RSS introductory site
 ---
 
 <div class='downloadFlyout'>

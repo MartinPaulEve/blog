@@ -19,6 +19,9 @@ wordpress_id: 2415
 wordpress_url: https://www.martineve.com/?p=2415
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhrgtzb2e"
 kcworks: https://works.hcommons.org/records/ercdt-0sr58
+references:
+- http://www.sfep.org.uk/pub/news/outsourcing.asp # SFEP report on editorial outsourcing
+- https://chronicle.com/article/An-Emerging-Field-Deconstructs/130791/ # Chronicle article on critical university studies
 ---
 
 <p>There is a proud tradition in many fields of the humanities of critical thinking. Linked to the Enlightenment Humanist tradition, this critique achieves its positivity (better citizens, better societies) through negation: we criticize and think critically because only in negating those wrong aspects of the world can we hope to put things aright. One of the key focal points of this critique has been upon globalization and neoliberalism, be it in the post-colonial critique that routes through Foucault, Said and Spivak, in the Frankfurt School's critical theory or in the post-Marxist frames of Hardt and Negri.</p>

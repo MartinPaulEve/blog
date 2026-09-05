@@ -13,6 +13,9 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvtlk2w
 categories:
 - Programming
 kcworks: https://works.hcommons.org/records/ng3z2-0rr85
+references:
+- https://hcommons.org # Knowledge Commons homepage
+- https://hcommons.org/app/plugins/hc-styles/css/fix-for-highlight-bug.css # KC highlight bug fix CSS file
 ---
 
 Today, I have been battling a frustrating bug. In the latest versions of Chrome and Edge, users cannot highlight text in Full Site Editor or Post/Page Editor in WordPress (at [Knowledge Commons](https://hcommons.org). This turned out to be a complete nightmare to fix.
