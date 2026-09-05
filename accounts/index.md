@@ -31,8 +31,10 @@ This page is the canonical list of my accounts and public keys around the web. I
 <section class="account-box">
 <h2 class="account-box-title">Scholarship</h2>
 <ul>
-<li><span class="account-service">Knowledge Commons</span> <a class="account-handle" href="https://hcommons.org/members/martin_eve/">martin_eve</a></li>
-<li><span class="account-service">KC Works</span> <a class="account-handle" href="https://works.hcommons.org/search?q=metadata.creators.person_or_org.name%3A%22Eve%2C%20Martin%20Paul%22">my works</a></li>
+<li><span class="account-service">Knowledge Commons</span> <a class="account-handle" href="https://hcommons.org/members/martin_eve/">martin_eve</a> 
+<span class="account-note">The open networking platform for scholars in all disciplines.</span></li>
+<li><span class="account-service">KC Works</span> <a class="account-handle" href="https://works.hcommons.org/search?q=metadata.creators.person_or_org.name%3A%22Eve%2C%20Martin%20Paul%22">my works</a> 
+<span class="account-note">The Knowledge Commons repository.</span></li>
 <li><span class="account-service">BIROn</span> <a class="account-handle" href="https://eprints.bbk.ac.uk/view/people/Eve=3AMartin_Paul=3A=3A.html">my deposits</a>
 <span class="account-note">Birkbeck's institutional repository.</span></li>
 </ul>
@@ -42,7 +44,7 @@ This page is the canonical list of my accounts and public keys around the web. I
 <h2 class="account-box-title">Music</h2>
 <ul>
 <li><span class="account-service">Bandcamp</span> <a class="account-handle" href="https://coursecorrection.bandcamp.com">Course Correction</a>
-<span class="account-note">My band; solo releases as Martin Eve are on the <a href="/music/">music page</a>.</span></li>
+<span class="account-note">Solo releases under "Martin Eve" are on the <a href="/music/">music page</a>.</span></li>
 <li><span class="account-service">tici taci</span> <a class="account-handle" href="https://ticitaci.com">ticitaci.com</a>
 <span class="account-note">The label my solo releases appear on.</span></li>
 </ul>
@@ -51,7 +53,7 @@ This page is the canonical list of my accounts and public keys around the web. I
 <section class="account-box">
 <h2 class="account-box-title">Email</h2>
 <ul>
-<li><span class="account-service">Personal (preferred)</span> <a class="account-handle" href="mailto:martin@eve.gd">martin@eve.gd</a></li>
+<li><span class="account-service">Personal</span> <a class="account-handle" href="mailto:martin@eve.gd">martin@eve.gd</a></li>
 <li><span class="account-service">Birkbeck</span> <a class="account-handle" href="mailto:martin.eve@bbk.ac.uk">martin.eve@bbk.ac.uk</a></li>
 <li><span class="account-service">Michigan State</span> <a class="account-handle" href="mailto:eve@msu.edu">eve@msu.edu</a></li>
 </ul>
@@ -73,15 +75,15 @@ This page is the canonical list of my accounts and public keys around the web. I
 <h2 class="account-box-title">Projects &amp; sites</h2>
 <ul>
 <li><span class="account-service">Open Library of Humanities</span> <a class="account-handle" href="https://openlibhums.org">openlibhums.org</a>
-<span class="account-note">I founded the OLH and was its CEO for ten years.</span></li>
+<span class="account-note">With <a href="https://www.drcarolineedwards.com/">Professor Caroline Edwards</a>, I co-founded the OLH and was its CEO for ten years. We built a not-for-profit, sustainable model for open access to scholarship without author or reader fees.</span></li>
 <li><span class="account-service">Janeway</span> <a class="account-handle" href="https://janeway.systems">janeway.systems</a>
-<span class="account-note">Co-founder of this journal-publishing platform; I wrote the original codebase with Andy Byers.</span></li>
+<span class="account-note">Co-founder of this journal-publishing platform; I wrote the original codebase <a href="https://doi.org/10.1629/uksg.396">with Andy Byers</a>.</span></li>
 <li><span class="account-service">Open Book Collective</span> <a class="account-handle" href="https://openbookcollective.org">openbookcollective.org</a>
-<span class="account-note">I built this website, as part of DQ Programming LLP.</span></li>
+<span class="account-note">I built this website, as part of my work with DQ Programming LLP.</span></li>
 <li><span class="account-service">Open Journals Collective</span> <a class="account-handle" href="https://openjournalscollective.org">openjournalscollective.org</a>
 <span class="account-note">I built this website, as part of DQ Programming LLP.</span></li>
-<li><span class="account-service">Fluke FM</span> <a class="account-handle" href="https://fluke.fm">fluke.fm</a>
-<span class="account-note">I built and run this site.</span></li>
+<li><span class="account-service">Fluke.FM</span> <a class="account-handle" href="https://fluke.fm">fluke.fm</a>
+<span class="account-note">I built and run this fansite for the electronic band, Fluke.</span></li>
 </ul>
 </section>
 
@@ -99,8 +101,6 @@ This page is the canonical list of my accounts and public keys around the web. I
 <details>
 <summary>Show the full PGP public key</summary>
 <pre class="account-key">-----BEGIN PGP PUBLIC KEY BLOCK-----
-Comment: 01CB C586 BF61 49E8 96BF  B360 70A0 BE94 A3D4 B37E
-Comment: Martin Paul Eve &lt;martin@eve.gd&gt;
 
 xsFNBGend9gBEADNgiejxfGVxEc4dP0MxgjUQasepZgKoN8K5NkTFX2BCnLa8bXG
 a7XX/79rSX2mvN3RpY+clAcM+t8SAlc4f2Oxd8B00yd2sXRe9wFurx3E++OA/5gl
