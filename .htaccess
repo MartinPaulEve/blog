@@ -1,16 +1,23 @@
 Options +FollowSymLinks
 RewriteEngine On
 
-# WebFinger for the fediverse: identity lookups on the root domain answer
-# from the Mastodon instance on the social subdomain. mod_rewrite appends
-# the original query string (?resource=acct:...) to the target by default,
-# as WebFinger requires. Keep this above the canonicalisation catch-alls.
-RewriteRule ^\.well-known/webfinger$ https://social.eve.gd/.well-known/webfinger [R=302,L]
+# WebFinger for the fediverse: the root domain answers identity lookups with
+# a static JRD document aliasing to mpe@hcommons.social. Apache serves the
+# same file whatever the ?resource= query says, which is fine while exactly
+# one identity stands behind this domain. Keep this above the
+# canonicalisation catch-alls.
+RewriteRule ^\.well-known/webfinger$ - [L]
+<Files "webfinger">
+ForceType application/jrd+json
+</Files>
 
-# human.json (https://codeberg.org/robida/human.json): verifiers fetch this
-# cross-origin from the browser, so it must carry a CORS header.
+# human.json (https://codeberg.org/robida/human.json) and WebFinger are both
+# fetched cross-origin from browsers, so they must carry CORS headers.
 <IfModule mod_headers.c>
 <Files "human.json">
+Header set Access-Control-Allow-Origin "*"
+</Files>
+<Files "webfinger">
 Header set Access-Control-Allow-Origin "*"
 </Files>
 </IfModule>
