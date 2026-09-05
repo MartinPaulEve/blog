@@ -6658,46 +6658,39 @@
    }
   },
   "/2013/07/28/determining-glyph-availability-for-fop/": {
-   "content_hash": "c05ead042d438e236a9a9d3005e4dd4de210d67f74b5f8b6c9de03046c6f6de1",
+   "content_hash": "23e6341f7e46125c775139190a80d08b1b64e1a1c51710da9d185987ef1d3398",
    "sent": {
     "http://www.fileformat.info": {
-     "at": "2026-09-02T15:29:12+00:00",
-     "baseline": true,
+     "at": "2026-09-05T17:28:54+00:00",
      "endpoint": null
     },
     "http://www.fileformat.info/info/unicode/char/2713/fontsupport.htm": {
-     "at": "2026-09-02T15:29:12+00:00",
-     "baseline": true,
+     "at": "2026-09-05T17:28:54+00:00",
      "endpoint": null
     },
     "https://bsky.app/intent/compose?text=Determining+glyph+availability+for+FOP+https://eve.gd/2013/07/28/determining-glyph-availability-for-fop/": {
-     "at": "2026-09-02T15:29:12+00:00",
-     "baseline": true,
+     "at": "2026-09-05T17:28:54+00:00",
      "endpoint": null
     },
     "https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/2013/07/28/determining-glyph-availability-for-fop/": {
-     "at": "2026-09-02T15:29:12+00:00",
-     "baseline": true,
+     "at": "2026-09-05T17:28:54+00:00",
      "endpoint": null
     }
    }
   },
   "/2013/07/28/rendering-mathml-in-xslfo-to-pdf-using-fop/": {
-   "content_hash": "8b00cfa6352af7a3fc4114b4bb5a1ee95b6e2b1b25d09a2e616ea4613d27a705",
+   "content_hash": "8abeb4113eac26e4aeff4d19db591b9d4cae4305ff7ea04bc8bfa329f1814514",
    "sent": {
     "http://jeuclid.sourceforge.net/jeuclid-fop/": {
-     "at": "2026-09-02T15:29:12+00:00",
-     "baseline": true,
+     "at": "2026-09-05T17:28:54+00:00",
      "endpoint": null
     },
     "https://bsky.app/intent/compose?text=Rendering+MathML+in+XSL:FO+to+PDF+using+fop+https://eve.gd/2013/07/28/rendering-mathml-in-xslfo-to-pdf-using-fop/": {
-     "at": "2026-09-02T15:29:12+00:00",
-     "baseline": true,
+     "at": "2026-09-05T17:28:54+00:00",
      "endpoint": null
     },
     "https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/2013/07/28/rendering-mathml-in-xslfo-to-pdf-using-fop/": {
-     "at": "2026-09-02T15:29:12+00:00",
-     "baseline": true,
+     "at": "2026-09-05T17:28:54+00:00",
      "endpoint": null
     }
    }
@@ -6867,26 +6860,22 @@
    }
   },
   "/2013/09/09/work-on-open-access-technology-get-a-masters-degree-in-computer-science-funded-place/": {
-   "content_hash": "23526d5ee95eb60d02c689fdf1d5cb1ba581d1f42fb379c40d1cc76ea86763dd",
+   "content_hash": "959065add1fc7a216601d722dbd319bb692f0381ebccfc8329a4232d5248e500",
    "sent": {
     "http://www.lincoln.ac.uk/home/course/cmsresms/fundedplace/": {
-     "at": "2026-09-02T15:29:12+00:00",
-     "baseline": true,
+     "at": "2026-09-05T17:28:54+00:00",
      "endpoint": null
     },
     "https://bsky.app/intent/compose?text=Work+on+open+access+technology,+get+a+masters+degree+in+Computer+Science:+funded+place+https://eve.gd/2013/09/09/work-on-open-access-technology-get-a-masters-degree-in-computer-science-funded-place/": {
-     "at": "2026-09-02T15:29:12+00:00",
-     "baseline": true,
+     "at": "2026-09-05T17:28:54+00:00",
      "endpoint": null
     },
     "https://github.com/MartinPaulEve/meTypeset": {
-     "at": "2026-09-02T15:29:12+00:00",
-     "baseline": true,
+     "at": "2026-09-05T17:28:54+00:00",
      "endpoint": null
     },
     "https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/2013/09/09/work-on-open-access-technology-get-a-masters-degree-in-computer-science-funded-place/": {
-     "at": "2026-09-02T15:29:12+00:00",
-     "baseline": true,
+     "at": "2026-09-05T17:28:54+00:00",
      "endpoint": null
     }
    }
@@ -7441,36 +7430,30 @@
    }
   },
   "/2014/02/14/publication-the-means-of-re-production-expertise-open-tools-standards-and-communication/": {
-   "content_hash": "820250256b453f6c7c3cb08edfd6d330ff266f3dbb6c8a3cf7e85a2f07b35275",
+   "content_hash": "2a55823abd36570eeb44a0f42b21881d6874fc2f44f6f86a98d1cc0ad8de66d4",
    "sent": {
     "http://eprints.lincoln.ac.uk/13297": {
-     "at": "2026-09-02T15:29:12+00:00",
-     "baseline": true,
+     "at": "2026-09-05T17:28:54+00:00",
      "endpoint": null
     },
     "http://www.mdpi.com/2304-6775/2/1/38": {
-     "at": "2026-09-02T15:29:12+00:00",
-     "baseline": true,
+     "at": "2026-09-05T17:28:54+00:00",
      "endpoint": null
     },
     "https://bsky.app/intent/compose?text=Publication:+The+Means+of+(Re-)Production:+Expertise,+Open+Tools,+Standards+and+Communication+https://eve.gd/2014/02/14/publication-the-means-of-re-production-expertise-open-tools-standards-and-communication/": {
-     "at": "2026-09-02T15:29:12+00:00",
-     "baseline": true,
+     "at": "2026-09-05T17:28:54+00:00",
      "endpoint": null
     },
     "https://www.academia.edu/6065557/The_Means_of_Re-_Production_Expertise_Open_Tools_Standards_and_Communication": {
-     "at": "2026-09-02T15:29:12+00:00",
-     "baseline": true,
+     "at": "2026-09-05T17:28:54+00:00",
      "endpoint": null
     },
     "https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/2014/02/14/publication-the-means-of-re-production-expertise-open-tools-standards-and-communication/": {
-     "at": "2026-09-02T15:29:12+00:00",
-     "baseline": true,
+     "at": "2026-09-05T17:28:54+00:00",
      "endpoint": null
     },
     "https://www.martineve.com/wp-content/uploads/2014/02/Eve_2014_The-Means-of-Re-Production2.pdf": {
-     "at": "2026-09-02T15:29:12+00:00",
-     "baseline": true,
+     "at": "2026-09-05T17:28:54+00:00",
      "endpoint": null
     }
    }
@@ -7606,21 +7589,18 @@
    }
   },
   "/2014/02/27/debugging-metypeset-using-a-git-filesystem/": {
-   "content_hash": "c6767afc5c809cd8b3eaa4e1e8dbef596f2735ed743c3862ccd7f8a8459d0586",
+   "content_hash": "6ff4cc451545785d1358f4423ab3cd5ec33e2e5126667f866708421711814772",
    "sent": {
     "https://bsky.app/intent/compose?text=Debugging+meTypeset+using+a+git+filesystem+https://eve.gd/2014/02/27/debugging-metypeset-using-a-git-filesystem/": {
-     "at": "2026-09-02T15:29:12+00:00",
-     "baseline": true,
+     "at": "2026-09-05T17:28:54+00:00",
      "endpoint": null
     },
     "https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/2014/02/27/debugging-metypeset-using-a-git-filesystem/": {
-     "at": "2026-09-02T15:29:12+00:00",
-     "baseline": true,
+     "at": "2026-09-05T17:28:54+00:00",
      "endpoint": null
     },
     "https://www.martineve.com/lens-martineve/index.html?url=https://www.martineve.com/lens-martineve/data/2014-02-27.xml": {
-     "at": "2026-09-02T15:29:12+00:00",
-     "baseline": true,
+     "at": "2026-09-05T17:28:54+00:00",
      "endpoint": null
     }
    }
@@ -7758,16 +7738,14 @@
    "sent": {}
   },
   "/2014/04/17/bitmask-values-for-wtbllook-wval-attribute-in-ooxml/": {
-   "content_hash": "c71d3a2bf0ea3a349742ad150228d02f05a58735cb2c18209e647f208c4ed887",
+   "content_hash": "cc740630eb6c222501c8fdc731421d43b8dcca179c36fe7f3a0fbade1bd6dabe",
    "sent": {
     "https://bsky.app/intent/compose?text=Bitmask+values+for+w:tblLook+w:val+attribute+in+OOXML+https://eve.gd/2014/04/17/bitmask-values-for-wtbllook-wval-attribute-in-ooxml/": {
-     "at": "2026-09-02T15:29:12+00:00",
-     "baseline": true,
+     "at": "2026-09-05T17:28:54+00:00",
      "endpoint": null
     },
     "https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/2014/04/17/bitmask-values-for-wtbllook-wval-attribute-in-ooxml/": {
-     "at": "2026-09-02T15:29:12+00:00",
-     "baseline": true,
+     "at": "2026-09-05T17:28:54+00:00",
      "endpoint": null
     }
    }
@@ -7909,26 +7887,22 @@
    }
   },
   "/2014/06/23/dumping-jats-from-zotero/": {
-   "content_hash": "4021f069cd728e156101610b2779710f2335f214ed99f6c7cd3782e5782b29c9",
+   "content_hash": "7d9660a3b60545950d13e5e856f87800ce7bc9b4b04aaa73317efc54b44622a7",
    "sent": {
     "https://bsky.app/intent/compose?text=Dumping+JATS+from+Zotero+https://eve.gd/2014/06/23/dumping-jats-from-zotero/": {
-     "at": "2026-09-02T15:29:12+00:00",
-     "baseline": true,
+     "at": "2026-09-05T17:28:54+00:00",
      "endpoint": null
     },
     "https://github.com/MartinPaulEve/meTypeset/tree/zotero": {
-     "at": "2026-09-02T15:29:12+00:00",
-     "baseline": true,
+     "at": "2026-09-05T17:28:54+00:00",
      "endpoint": null
     },
     "https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/2014/06/23/dumping-jats-from-zotero/": {
-     "at": "2026-09-02T15:29:12+00:00",
-     "baseline": true,
+     "at": "2026-09-05T17:28:54+00:00",
      "endpoint": null
     },
     "https://www.martineve.com/wp-content/uploads/2014/06/ZoteroJATS.png": {
-     "at": "2026-09-02T15:29:12+00:00",
-     "baseline": true,
+     "at": "2026-09-05T17:28:54+00:00",
      "endpoint": null
     }
    }
@@ -19060,6 +19034,15 @@
     "https://www.pangram.com/": {
      "at": "2026-09-02T15:29:12+00:00",
      "baseline": true,
+     "endpoint": null
+    }
+   }
+  },
+  "/2026/09/05/not-now-ancient-sheep-virus-found-hiding-in-medieval-parchment/": {
+   "content_hash": "42697eaa7f1c1cde32b212fbe3e2fbf4a609ca1f3192128aaef6a79d843d9d8f",
+   "sent": {
+    "https://www.science.org/content/article/ancient-sheep-virus-found-hiding-medieval-parchment": {
+     "at": "2026-09-05T17:28:54+00:00",
      "endpoint": null
     }
    }
