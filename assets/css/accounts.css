@@ -1,0 +1,96 @@
+/* Grouped boxes for the /accounts page. Uses the site's design tokens
+   (card, border, code and kicker variables) so it follows the light and
+   dark themes without any colours of its own. */
+
+.accounts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+    gap: 1.25rem;
+    margin: 2rem 0;
+}
+
+.account-box {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 8px;
+    padding: 1.25rem 1.5rem;
+    box-shadow: var(--shadow-sm);
+}
+
+.account-box--wide {
+    grid-column: 1 / -1;
+}
+
+.account-box .account-box-title {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--kicker-red);
+    margin: 0 0 0.85rem;
+}
+
+.account-box ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.account-box li {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.25rem 1rem;
+    padding: 0.45rem 0;
+    border-bottom: 1px solid var(--border-light);
+}
+
+.account-box li:last-child {
+    border-bottom: none;
+}
+
+.account-service {
+    color: var(--text-secondary);
+}
+
+.account-handle {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    overflow-wrap: anywhere;
+}
+
+.account-note {
+    display: block;
+    width: 100%;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-top: 0.1rem;
+}
+
+.account-box .account-key {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    line-height: 1.5;
+    background: var(--code-bg);
+    border: 1px solid var(--border-light);
+    border-radius: 6px;
+    padding: 0.85rem 1rem;
+    overflow-x: auto;
+    margin: 0.5rem 0 1rem;
+    white-space: pre;
+}
+
+.account-fingerprint {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    overflow-wrap: anywhere;
+}
+
+.account-box details summary {
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+}
