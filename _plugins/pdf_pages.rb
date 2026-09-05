@@ -59,6 +59,7 @@ module PdfPages
         .gsub(%r{<p class="post-description post-pdf">.*?</p>}m, "")
         .gsub(%r{<p class="post-description post-categories">.*?</p>}m, "")
         .gsub(%r{[ \t]*<link rel="(?:webmention|pingback|me|human-json)"[^>]*>\n?}, "")
+        .gsub(%r{[ \t]*<link rel="alternate" type="application/activity\+json"[^>]*>\n?}, "")
         .gsub(%r{[ \t]*<link rel="stylesheet" href="/assets/css/webmentions\.css[^>]*>\n?}, "")
         .gsub(%r{\n*[ \t]*<section class="post-webmentions">.*?</section>\n*}m, "\n")
         .gsub(%r{<footer class="footer">.*?</footer>}m, "")

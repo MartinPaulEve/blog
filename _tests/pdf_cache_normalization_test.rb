@@ -35,6 +35,14 @@ class PdfCacheNormalizationTest < Minitest::Test
     assert_equal PdfPages.content_hash(with_old), PdfPages.content_hash(with_new)
   end
 
+  def test_activitypub_alternate_link_does_not_change_the_hash
+    with_link = with_head_line(
+      '<link rel="alternate" type="application/activity+json" ' \
+      'href="https://eve.gd/activitypub/posts/some-post.jsonld">'
+    )
+    assert_equal PdfPages.content_hash(BASE), PdfPages.content_hash(with_link)
+  end
+
   def test_body_content_changes_do_change_the_hash
     changed = BASE.sub("Hello.", "Goodbye.")
     refute_equal PdfPages.content_hash(BASE), PdfPages.content_hash(changed)
