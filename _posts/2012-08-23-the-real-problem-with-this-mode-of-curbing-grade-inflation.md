@@ -22,8 +22,22 @@ wordpress_url: https://www.martineve.com/?p=2294
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhvdx7s2n"
 kcworks: https://works.hcommons.org/records/qrpw8-a0c86
 references:
-- http://www.guardian.co.uk/higher-education-network/blog/2011/dec/22/humanities-in-secondary-schools # Guardian post on humanities in secondary schools
-- http://www.guardian.co.uk/education/2012/aug/22/english-gcses-marked-down-teachers # Guardian story on Gove GCSE grade remark
+- author: Martin Paul Eve
+  date: '2011-12-22'
+  title: Secondary schools are not adequately preparing students for higher education
+  type: NewsArticle
+  url: http://www.guardian.co.uk/higher-education-network/blog/2011/dec/22/humanities-in-secondary-schools
+  isPartOf:
+    name: The Guardian
+    type: Periodical
+- author: Jeevan Vasagar
+  date: '2012-08-22'
+  title: English GCSEs marked down to curb grade inflation, say teachers
+  type: NewsArticle
+  url: http://www.guardian.co.uk/education/2012/aug/22/english-gcses-marked-down-teachers
+  isPartOf:
+    name: The Guardian
+    type: Periodical
 ---
 
 <p>Although I'm not universally convinced by claims of grade inflation (and have <a href="http://www.guardian.co.uk/higher-education-network/blog/2011/dec/22/humanities-in-secondary-schools">written about the examination system over at the <i>Guardian</i></a>), I do welcome some attempt to differentiate examination grades. There is no point in having an examination system that yields a homogeneous result, or has boundaries that are overly broad. That said, <a href="http://www.guardian.co.uk/education/2012/aug/22/english-gcses-marked-down-teachers">the manner in which Gove has set about regulating this is abhorrent</a>, for several reasons.</p>

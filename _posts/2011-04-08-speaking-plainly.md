@@ -144,8 +144,20 @@ wordpress_url: https://www.martineve.com/?p=947
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkfi4o32h"
 kcworks: https://works.hcommons.org/records/k5x33-y1r43
 references:
-- http://orgmotivation.wordpress.com/2011/04/08/my-phd-in-plain-english/ # ORGMotivation blog post: PhD in plain English
-- http://www.flickr.com/photos/mafleen/ # mafleen Flickr photostream
+- date: '2011-04-08'
+  title: My PhD…in plain English
+  type: BlogPosting
+  url: http://orgmotivation.wordpress.com/2011/04/08/my-phd-in-plain-english/
+  isPartOf:
+    name: The experience of motivation
+    type: Blog
+- author: mafleen
+  title: mafleen
+  type: WebSite
+  url: http://www.flickr.com/photos/mafleen/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>Following on from posts by <a href="http://lizit.me.uk/2011/04/06/my-research-in-plain-english/">@lizith</a> and <a href="http://orgmotivation.wordpress.com/2011/04/08/my-phd-in-plain-english/">@ORGMotivation</a>, this is a brief post to explain my current research in plain English.</p>

@@ -23,7 +23,9 @@ wordpress_url: https://www.martineve.com/?p=2923
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfvgrn52p"
 kcworks: https://works.hcommons.org/records/wwq6c-0c007
 references:
-- http://literatureoffthepage.wordpress.com/ # Literature off the Page conference blog
+- title: 'Literature Off the Page: The Cultural and Political Work of American Writing'
+  type: WebSite
+  url: http://literatureoffthepage.wordpress.com/
 - http://figshare.com # Figshare research data sharing platform
 - http://dx.doi.org/10.6084/m9.figshare.852972 # Figshare dataset: Goon Squad character diagram
 - http://dx.doi.org/10.6084/m9.figshare.852973 # Figshare dataset: The Keep diegesis diagram

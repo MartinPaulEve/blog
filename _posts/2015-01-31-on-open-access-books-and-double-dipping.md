@@ -20,11 +20,32 @@ title: On open-access books and “double dipping”
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdbfb6c2q"
 kcworks: https://works.hcommons.org/records/mk3ja-5mr92
 references:
-- http://www.timeshighereducation.co.uk/news/elsevier-bumps-on-road-to-open-access/2012238.article # Times Higher Education on Elsevier open access troubles
-- http://www.elsevier.com/about/open-access/open-access-policies/no-double-dipping-policy # Elsevier no-double-dipping policy statement
+- author: Paul Jump
+  date: '2014-03-27'
+  title: 'Elsevier: bumps on road to open access'
+  type: NewsArticle
+  url: http://www.timeshighereducation.co.uk/news/elsevier-bumps-on-road-to-open-access/2012238.article
+  isPartOf:
+    name: Times Higher Education
+    type: Periodical
+- title: Elsevier policies and standards
+  type: WebPage
+  url: http://www.elsevier.com/about/open-access/open-access-policies/no-double-dipping-policy
+  isPartOf:
+    name: Elsevier
+    type: WebSite
 - https://adamesmith.files.wordpress.com/2014/11/nov-2014-the-empire-strikes-back-alicia-wise-elsevier-profile.pdf # Research Fortnight profile of Alicia Wise, Elsevier
-- http://www.knowledgeunlatched.org/ # Knowledge Unlatched OA books platform
-- http://scholarlykitchen.sspnet.org/2013/01/29/in-praise-of-double-dipping-fairness-affordability-vitality-and-sustainability/ # Scholarly Kitchen defense of double dipping
+- title: Knowledge Unlatched
+  type: WebSite
+  url: http://www.knowledgeunlatched.org/
+- author: Kent Anderson
+  date: '2013-01-29'
+  title: In Praise of "Double-Dipping" — Fairness, Affordability, Vitality, and Sustainability
+  type: BlogPosting
+  url: http://scholarlykitchen.sspnet.org/2013/01/29/in-praise-of-double-dipping-fairness-affordability-vitality-and-sustainability/
+  isPartOf:
+    name: The Scholarly Kitchen
+    type: Blog
 ---
 
 <p>In a hybrid open-access environment, “double dipping” refers to cases where a publisher sells their services to an author (author-pays open access) while simultaneously selling the end product to libraries (a subscription). Typically, in the journal world, this happens when an open-access article appears in a subscription journal (for which the author pays) but the publisher does not lower the cost of subscriptions to the journal. In other words, they receive the same amount of revenue from subscriptions while also charging authors. They are paid twice, hence the term “double dipping”.</p>

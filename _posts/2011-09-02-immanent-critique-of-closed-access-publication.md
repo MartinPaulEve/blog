@@ -25,7 +25,13 @@ wordpress_url: https://www.martineve.com/2011/09/02/immanent-critique-of-closed-
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjza4yd2n"
 kcworks: https://works.hcommons.org/records/2j19c-rv542
 references:
-- http://www.flickr.com/photos/43566645@N03/ # Flickr photos by :DaR
+- author: Kim Daram
+  title: Kim Daram
+  type: WebPage
+  url: http://www.flickr.com/photos/43566645@N03/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>As I ramp up my efforts to bring the critique of closed access journals to the fore I expect at some point to encounter the charge of hypocrisy; I publish in closed journals. Having just seen a post on twitter criticizing research on Open Access published in a closed destination, I wanted here to briefly outline a justification for this.</p>

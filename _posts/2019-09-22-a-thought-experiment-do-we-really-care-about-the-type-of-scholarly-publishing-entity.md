@@ -16,7 +16,14 @@ categories:
 kcworks: https://works.hcommons.org/records/7vv70-s1724
 references:
 - https://jhupbooks.press.jhu.edu/title/generous-thinking # Fitzpatrick, Generous Thinking, JHU Press
-- https://en.wikipedia.org/wiki/Cambridge_University_Press_v._Patton # Wikipedia: Cambridge University Press v Patton
+- author: Contributors to Wikimedia projects
+  date: '2012-02-01'
+  title: Cambridge University Press v. Patton
+  type: WebPage
+  url: https://en.wikipedia.org/wiki/Cambridge_University_Press_v._Patton
+  isPartOf:
+    name: Wikipedia
+    type: WebSite
 ---
 
 After last week's post on APCs, some further musings. Following Kathleen Fitzpatrick's [work on generous thinking](https://jhupbooks.press.jhu.edu/title/generous-thinking) and the importance of community for the academy, I was [advocating for the importance of the mission-driven nature of the publishers](/2019/09/19/the-problems-of-unit-costs-per-article/) that we choose infrastructurally to support.

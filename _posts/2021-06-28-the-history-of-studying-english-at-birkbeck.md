@@ -16,7 +16,12 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/4fktj-j3z43
 references:
-- https://www.ucl.ac.uk/english/department/history-of-the-english-department # UCL English Department history page
+- title: History of the English department
+  type: WebPage
+  url: https://www.ucl.ac.uk/english/department/history-of-the-english-department
+  isPartOf:
+    name: UCL Faculty of Arts and Humanities
+    type: WebSite
 - https://doi.org/10.2307/2903057 # Article on Wilde lecturing on Thomas Chatterton
 ---
 

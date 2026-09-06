@@ -21,17 +21,53 @@ categories:
 - Scholarly Communications
 - Personal
 references:
-- https://rogue-scholar.org/communities/eve/records?q=&l=list&p=1&s=10&sort=newest # Rogue Scholar scholarly blog preservation network
-- https://works.hcommons.org/ # KC Works Humanities Commons repository
-- https://eprints.bbk.ac.uk/ # Birkbeck BIROn institutional repository
-- https://core.ac.uk/ # CORE open-access aggregator
-- https://jekyllrb.com/ # Jekyll static site generator
-- https://aws.amazon.com/ # Amazon Web Services cloud hosting
-- https://github.com/ # GitHub version control hosting
-- https://github.com/MartinPaulEve/eprintsToCV # Eve's eprintsToCV auto-CV generator
-- https://github.com/MartinPaulEve/LinkedInConnect # Eve's social-media auto-posting app
-- https://www.selenium.dev/ # Selenium browser automation framework
-- https://www.theguardian.com/media/2026/feb/07/revealed-how-substack-makes-money-from-hosting-nazi-newsletters # Guardian: Substack profits from Nazi newsletters
+- title: Search Martin Paul Eve
+  type: WebPage
+  url: https://rogue-scholar.org/communities/eve/records?q=&l=list&p=1&s=10&sort=newest
+  isPartOf:
+    name: Rogue Scholar
+    type: WebSite
+- title: KC Works
+  type: WebSite
+  url: https://works.hcommons.org/
+- title: Birkbeck Institutional Research Online
+  type: WebSite
+  url: https://eprints.bbk.ac.uk/
+- title: The world's largest collection of open access research papers
+  type: WebSite
+  url: https://core.ac.uk/
+- title: Jekyll
+  type: WebSite
+  url: https://jekyllrb.com/
+- title: Cloud Computing Services - Amazon Web Services (AWS)
+  type: WebSite
+  url: https://aws.amazon.com/
+- title: GitHub
+  type: WebSite
+  url: https://github.com/
+- title: GitHub - MartinPaulEve/cv
+  type: SoftwareSourceCode
+  url: https://github.com/MartinPaulEve/eprintsToCV
+  isPartOf:
+    name: GitHub
+    type: WebSite
+- title: A tool to post from a blog to LinkedIn, Bluesky, and Mastodon from the CLI
+  type: SoftwareSourceCode
+  url: https://github.com/MartinPaulEve/LinkedInConnect
+  isPartOf:
+    name: GitHub
+    type: WebSite
+- title: Selenium
+  type: WebSite
+  url: https://www.selenium.dev/
+- author: Geraldine McKelvie
+  date: '2026-02-07'
+  title: 'Revealed: How Substack makes money from hosting Nazi newsletters'
+  type: NewsArticle
+  url: https://www.theguardian.com/media/2026/feb/07/revealed-how-substack-makes-money-from-hosting-nazi-newsletters
+  isPartOf:
+    name: The Guardian
+    type: Periodical
 ---
 
 I am thinking a lot these days about my own mortality. That's not because I am obsessed with death or anything of the sort. It's more that my health problems are accumulating and I do not know how long my body is going to hold out against them. It might be that I can clear all my current infections. But it turns out that norovirus, which I have had for four months, can be life threatening in the case of immunocompromised patients. Hence I keep thinking: what if it happens? What will the world look like after I am gone? The answer is probably not very different, but with some localized effects on those who care for me. But what about all that I have written, not just in formal academic publications, but on this blog, where I believe that there is matter worth persisting?

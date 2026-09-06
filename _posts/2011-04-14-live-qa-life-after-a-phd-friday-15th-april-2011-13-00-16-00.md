@@ -28,9 +28,29 @@ wordpress_url: https://www.martineve.com/?p=968
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkf2j5q2f"
 kcworks: https://works.hcommons.org/records/enmj8-hp633
 references:
-- http://www.guardian.co.uk/higher-education-network/blog/2011/apr/13/life-after-a-phd # Guardian Higher Education Network life after PhD Q&A
-- http://www.timeshighereducation.co.uk/story.asp?sectioncode=26&storycode=415813&c=1 # Times Higher Education article on postgraduate prospects
-- http://www.flickr.com/photos/walkn/ # walknboston Flickr photostream
+- author: Eliza Anyangwe
+  date: '2011-04-13'
+  title: 'Live Q&A: Life after a PhD'
+  type: NewsArticle
+  url: http://www.guardian.co.uk/higher-education-network/blog/2011/apr/13/life-after-a-phd
+  isPartOf:
+    name: The Guardian
+    type: Periodical
+- author: Paul Jump
+  date: '2011-04-14'
+  title: Ambitious postdocs jostle for scant permanent posts
+  type: NewsArticle
+  url: http://www.timeshighereducation.co.uk/story.asp?sectioncode=26&storycode=415813&c=1
+  isPartOf:
+    name: Times Higher Education
+    type: Periodical
+- author: walknboston
+  title: walknboston
+  type: WebSite
+  url: http://www.flickr.com/photos/walkn/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>I am very pleased to report that I will be participating as a panelist on the forthcoming Live Q&A this Friday (15th April) on the <a href="http://www.guardian.co.uk/higher-education-network/blog/2011/apr/13/life-after-a-phd">Guardian Higher Education Network</a>.</p>

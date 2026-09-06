@@ -25,8 +25,17 @@ wordpress_url: http://pro.grammatic.org/post-ftp-url-fastsnap-parsing-in-net-66.
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmkriyl2n"
 kcworks: https://works.hcommons.org/records/dzda7-cqn18
 references:
-- http://thedailywtf.com # The Daily WTF programming horror site
-- http://thedailywtf.com/Articles/The-Backup-Snippet.aspx # The Daily WTF: The Backup Snippet article
+- title: 'The Daily WTF: Curious Perversions in Information Technology'
+  type: WebSite
+  url: http://thedailywtf.com
+- author: Alex Papadimoulis
+  date: '2008-12-17'
+  title: The Backup Snippet
+  type: BlogPosting
+  url: http://thedailywtf.com/Articles/The-Backup-Snippet.aspx
+  isPartOf:
+    name: The Daily WTF
+    type: Blog
 ---
 
 <p>Sometimes, the built in functions of a framework are good enough for your purpose and there is no point in reinventing the wheel. Fine examples of this are to be found at <a href="http://thedailywtf.com">The Daily WTF</a>, one of my personal faves being <a href="http://thedailywtf.com/Articles/The-Backup-Snippet.aspx">The Backup Snippet</a>.</p>

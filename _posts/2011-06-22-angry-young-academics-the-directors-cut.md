@@ -36,15 +36,59 @@ wordpress_url: https://www.martineve.com/?p=1184
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mka5viz2o"
 kcworks: https://works.hcommons.org/records/x430r-qdy13
 references:
-- http://jennifermjones.net/ # Jennifer M. Jones personal website
-- http://www.guardian.co.uk/higher-education-network/blog/2011/jun/15/univeristies-radical-academics-jobs-training # Guardian HE Network: radical academics jobs training
-- http://www.nature.com/news/2011/110420/full/472261a.html # Nature news: opposition to PhD structure taking form
+- author: Jennifer M Jones
+  title: Jennifer M Jones
+  type: WebSite
+  url: http://jennifermjones.net/
+- author: Martin Paul Eve
+  date: '2011-06-15'
+  title: 'Angry young academics: striving for more than consumerism'
+  type: NewsArticle
+  url: http://www.guardian.co.uk/higher-education-network/blog/2011/jun/15/univeristies-radical-academics-jobs-training
+  isPartOf:
+    name: The Guardian
+    type: Periodical
+- author: Mark Taylor
+  date: 2011-04
+  title: Reform the PhD system or close it down
+  type: NewsArticle
+  url: http://www.nature.com/news/2011/110420/full/472261a.html
+  isPartOf:
+    name: Nature
+    type: Periodical
 - http://www.economist.com/node/17723223 # Economist: commodification of postgraduate study
-- http://www.bbc.co.uk/news/education-11828882 # BBC: 2010 student protests HE funding
-- http://en.wikipedia.org/wiki/Occupation_%28protest%29 # Wikipedia: occupation as form of protest
-- http://universityforstrategicoptimism.wordpress.com/ # University of Strategic Optimism flash-mob lectures
-- http://reallyopenuniversity.wordpress.com/ # Really Open University alternative HE project
-- http://thirduniversity.wordpress.com/ # Leicester's Third University project
+- date: '2010-11-24'
+  title: Student tuition fees protests across the UK
+  type: NewsArticle
+  url: http://www.bbc.co.uk/news/education-11828882
+  isPartOf:
+    name: BBC News
+    type: Periodical
+- date: '2006-10-14'
+  title: Occupation (protest)
+  type: WebPage
+  url: http://en.wikipedia.org/wiki/Occupation_%28protest%29
+  isPartOf:
+    name: Wikipedia
+    type: WebSite
+- title: University For Strategic Optimism
+  type: WebSite
+  url: http://universityforstrategicoptimism.wordpress.com/
+  isPartOf:
+    name: University For Strategic Optimism
+    type: WebSite
+- title: Really Open University
+  type: WebSite
+  url: http://reallyopenuniversity.wordpress.com/
+  isPartOf:
+    name: Really Open University
+    type: WebSite
+- title: The Third University
+  type: WebSite
+  url: http://thirduniversity.wordpress.com/
+  isPartOf:
+    name: The Third University
+    type: WebSite
 - http://socialsciencecentre.org.uk/ # Social Science Centre Lincoln cooperative
 ---
 

@@ -21,8 +21,20 @@ wordpress_url: https://www.martineve.com/?p=2351
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhu265i2o"
 kcworks: https://works.hcommons.org/records/rrarf-raj64
 references:
-- https://en.wikipedia.org/wiki/Hacker_%28programmer_subculture%29 # Wikipedia hacker programmer subculture definition
-- https://chronicle.com/blogs/profhacker/ # ProfHacker Chronicle blog
+- author: Contributors to Wikimedia projects
+  date: '2003-01-01'
+  title: Hacker (programmer subculture)
+  type: WebPage
+  url: https://en.wikipedia.org/wiki/Hacker_%28programmer_subculture%29
+  isPartOf:
+    name: Wikipedia
+    type: WebSite
+- title: ProfHacker
+  type: WebPage
+  url: https://chronicle.com/blogs/profhacker/
+  isPartOf:
+    name: The Chronicle of Higher Education
+    type: Periodical
 ---
 
 <p>In <a href="http://www.mattathiasschwartz.com/not-just-the-money-london-review-of-books/">a recent piece for the LRB</a>, Mattathias Schwartz gives an inside look at the truly scary world of carding, the practice of stealing credit card information, through a review of Mischa Glenny's new book <i>DataMarket: How Hackers Became the New Mafia</i>.</p>

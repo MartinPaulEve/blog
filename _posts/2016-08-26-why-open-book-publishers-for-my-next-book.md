@@ -15,7 +15,14 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/3sf6s-0hh87
 references:
-- http://www.openbookpublishers.com/product/530 # Literature Against Criticism Open Book Publishers page
+- author: Martin Paul Eve
+  date: '2016-10-17'
+  title: 'Literature Against Criticism: University English and Contemporary Fiction in Conflict'
+  type: Book
+  url: http://www.openbookpublishers.com/product/530
+  isPartOf:
+    name: Open Book Publishers
+    type: WebSite
 ---
 
 In [_Open Access and the Humanities_](http://meve.io/oahums), I wrote:

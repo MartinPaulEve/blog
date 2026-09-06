@@ -21,8 +21,26 @@ wordpress_url: https://www.martineve.com/?p=2143
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mie4srw2p"
 kcworks: https://works.hcommons.org/records/4afqt-18a39
 references:
-- http://www.guardian.co.uk/politics/2012/jun/25/cameron-tories-slash-benefits # Guardian report Cameron ending entitlement culture
-- http://www.guardian.co.uk/politics/2012/apr/20/cameron-family-tax-havens # Guardian report Cameron family wealth and tax havens
+- author:
+  - Patrick Wintour
+  - Hélène Mulholland
+  date: '2012-06-25'
+  title: Cameron announces Tory plan to slash benefits
+  type: NewsArticle
+  url: http://www.guardian.co.uk/politics/2012/jun/25/cameron-tories-slash-benefits
+  isPartOf:
+    name: The Guardian
+    type: Periodical
+- author:
+  - Ed Howker
+  - Shiv Malik
+  date: '2012-04-20'
+  title: Cameron family fortune made in tax havens
+  type: NewsArticle
+  url: http://www.guardian.co.uk/politics/2012/apr/20/cameron-family-tax-havens
+  isPartOf:
+    name: The Guardian
+    type: Periodical
 ---
 
 <p>David Cameron has now launched the end of "compassionate Conservatism", pledging to end the "<a href="http://www.guardian.co.uk/politics/2012/jun/25/cameron-tories-slash-benefits">entitlement culture</a>" of benefits. Twitter has, predictably, exploded: the irony overload of being lectured on entitlement by somebody who <a href="http://www.guardian.co.uk/politics/2012/apr/20/cameron-family-tax-havens">inherited his own wealth from a tax haven</a> and went to an extremely privileged public school is, of course, unbelievable.</p>

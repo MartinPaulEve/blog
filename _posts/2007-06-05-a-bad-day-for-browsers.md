@@ -22,7 +22,13 @@ wordpress_url: http://pro.grammatic.org/post-a-bad-day-for-browsers-25.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mngf45i2f"
 kcworks: https://works.hcommons.org/records/qzv52-j4197
 references:
-- http://seclists.org/fulldisclosure/2007/Jun/0026.html # Zalewski full-disclosure browser vulnerability post
+- author: Michal Zalewski
+  title: Assorted browser vulnerabilities
+  type: WebPage
+  url: http://seclists.org/fulldisclosure/2007/Jun/0026.html
+  isPartOf:
+    name: Full Disclosure
+    type: WebSite
 - http://larholm.com/2007/06/04/unpatched-input-validation-flaw-in-firefox-2004/ # larholm.com unpatched Firefox input validation flaw
 ---
 

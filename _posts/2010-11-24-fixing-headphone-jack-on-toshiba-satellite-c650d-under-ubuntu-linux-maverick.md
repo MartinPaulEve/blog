@@ -100,7 +100,12 @@ wordpress_url: http://www.martineve.com/?p=442
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mllb36j2q"
 kcworks: https://works.hcommons.org/records/4y941-c4w25
 references:
-- https://bugs.launchpad.net/ubuntu/+source/alsa-driver/+bug/680844 # Launchpad ALSA driver headphone jack bug report
+- title: 'Bug #680844 "[Conexant CX20585] Headphone jack doesn''t work"'
+  type: WebPage
+  url: https://bugs.launchpad.net/ubuntu/+source/alsa-driver/+bug/680844
+  isPartOf:
+    name: Launchpad
+    type: WebSite
 ---
 
 <p>There is an annoying bug on Toshiba Satellite Machines running Ubuntu Linux (seems variants up to Maverick) which means that plugging in to the headphone jack does not work and, also, that speakers continue to play sound.</p>

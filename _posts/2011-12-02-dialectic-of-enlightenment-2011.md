@@ -22,7 +22,13 @@ wordpress_url: https://www.martineve.com/2011/12/02/dialectic-of-enlightenment-2
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjeczkc2u"
 kcworks: https://works.hcommons.org/records/fk6an-h3t74
 references:
-- http://www.flickr.com/photos/chrism70/ # ChrisM70 Flickr photostream
+- author: Chris Murphy
+  title: Chris Murphy
+  type: WebPage
+  url: http://www.flickr.com/photos/chrism70/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p><img src="https://www.martineve.com/wp-content/uploads/2011/12/factory.jpg" alt="Factory" title="Factory" style="width:750px;" class="alignnone size-full wp-image-1659" /></p>

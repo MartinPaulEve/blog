@@ -15,9 +15,20 @@ categories:
 - Literature
 kcworks: https://works.hcommons.org/records/0esfs-5gy28
 references:
-- https://press.princeton.edu/books/hardcover/9780691139302/black # Pastoureau, Black: The History of a Color
+- title: Black
+  type: Book
+  url: https://press.princeton.edu/books/hardcover/9780691139302/black
+  isPartOf:
+    name: Princeton University Press
+    type: WebSite
 - https://www.editions-harmattan.fr/index.asp?navig=catalogue&obj=livre&no=16032 # Pastoureau, L'incolore n'existe pas
-- https://mediaevalmusings.wordpress.com/2012/10/03/light-upon-light-abbot-suger-and-the-invention-of-gothic/ # Blog post on Abbot Suger and Gothic light theology
+- date: '2012-10-03'
+  title: 'Light Upon Light: Abbot Suger and the Invention of Gothic'
+  type: BlogPosting
+  url: https://mediaevalmusings.wordpress.com/2012/10/03/light-upon-light-abbot-suger-and-the-invention-of-gothic/
+  isPartOf:
+    name: mediaevalmusings
+    type: Blog
 ---
 
 Throughout the works of Michel Pastoureau (at least in his books on Black and Green) are sketched ideas of the notion of a "chromoclasm".

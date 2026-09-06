@@ -30,8 +30,21 @@ kcworks: https://works.hcommons.org/records/ve3ad-rka27
 references:
 - http://www.alluvium-journal.org # Alluvium journal homepage
 - http://www.alluvium-journal.org/about-alluvium/copyright-position/ # Alluvium journal copyright position statement
-- http://www.clockss.org/ # CLOCKSS digital archival service
-- https://en.wikipedia.org/wiki/Digital_object_identifier # Wikipedia article on digital object identifiers
+- date: '2018-08-07'
+  title: Home - Digital Preservation Services - CLOCKSS
+  type: WebPage
+  url: http://www.clockss.org/
+  isPartOf:
+    name: CLOCKSS
+    type: WebSite
+- author: Contributors to Wikimedia projects
+  date: '2004-01-06'
+  title: Digital object identifier
+  type: WebPage
+  url: https://en.wikipedia.org/wiki/Digital_object_identifier
+  isPartOf:
+    name: Wikipedia
+    type: WebSite
 - http://dx.doi.org/10.7766/alluvium.v1.1.01 # Alluvium vol 1 no 1 editorial preface DOI
 ---
 

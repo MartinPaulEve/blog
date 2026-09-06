@@ -14,10 +14,32 @@ categories:
 - Technology
 kcworks: https://works.hcommons.org/records/bfwfv-24m49
 references:
-- https://github.com/gravitl/netmaker # NetMaker WireGuard configuration tool on GitHub
-- https://github.com/runfalk/synology-wireguard/issues/66#issuecomment-900438379 # GitHub comment on Synology WireGuard Denverton setup
-- https://github.com/Matige/synology-wireguard/tree/DSM7.0 # Matige Synology WireGuard DSM 7 kernel module
-- https://www.synology.com/en-global/knowledgebase/DSM/tutorial/General/What_kind_of_CPU_does_my_NAS_have # Synology NAS CPU architecture knowledge base page
+- title: 'GitHub - gravitl/netmaker: Netmaker makes networks with WireGuard. Netmaker automates fast, secure, and distributed virtual networks.'
+  type: SoftwareSourceCode
+  url: https://github.com/gravitl/netmaker
+  isPartOf:
+    name: GitHub
+    type: WebSite
+- author: Kopernikus1979
+  date: '2020-12-30'
+  title: DSM 7 support?
+  type: WebPage
+  url: https://github.com/runfalk/synology-wireguard/issues/66#issuecomment-900438379
+  isPartOf:
+    name: GitHub
+    type: WebSite
+- title: GitHub - matige/synology-wireguard at DSM7.0
+  type: SoftwareSourceCode
+  url: https://github.com/Matige/synology-wireguard/tree/DSM7.0
+  isPartOf:
+    name: GitHub
+    type: WebSite
+- title: What kind of CPU does my Synology storage system have?
+  type: TechArticle
+  url: https://www.synology.com/en-global/knowledgebase/DSM/tutorial/General/What_kind_of_CPU_does_my_NAS_have
+  isPartOf:
+    name: Synology Knowledge Center
+    type: WebSite
 ---
 
 This week, I decided that I should move my VPN system that I run on all my devices to use the new Wireguard protocol, replacing the OpenVPN setup.

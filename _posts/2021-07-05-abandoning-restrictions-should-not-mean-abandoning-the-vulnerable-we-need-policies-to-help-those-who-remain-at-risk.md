@@ -17,7 +17,14 @@ categories:
 kcworks: https://works.hcommons.org/records/vev2n-yb961
 references:
 - https://www.health.org.uk/news-and-comment/news/6-out-of-10-people-who-have-died-from-covid-19-are-disabled # Health Foundation: 60% COVID deaths were disabled people
-- https://www.theguardian.com/business/2021/jul/04/revealed-rise-in-stress-among-those-working-from-home # Guardian on stress and mental health working from home
+- author: Michael Savage
+  date: '2021-07-04'
+  title: 'Revealed: rise in stress among those working from home'
+  type: NewsArticle
+  url: https://www.theguardian.com/business/2021/jul/04/revealed-rise-in-stress-among-those-working-from-home
+  isPartOf:
+    name: The Guardian
+    type: Periodical
 ---
 
 The government has told us that we must “learn to live with the virus”. It is undoubtedly true that coronavirus is not going to disappear any time soon. However, a sizeable minority of people cannot learn to live with a virus that continues to pose a deadly risk.

@@ -15,28 +15,97 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvybnql
 categories:
 - Piracy and Shadow Libraries
 references:
-- https://www.theatlantic.com/technology/archive/2025/03/search-libgen-data-set/682094/ # Atlantic article and search tool for LibGen dataset
-- https://www.lanceeaton.com/research-study/ # Lance Eaton PhD research on academic piracy
-- http://www.digitalhumanities.org/dhq/vol/16/2/000587/000587.html # Eve, extreme minimalist scaling at pirate ebook platforms, DHQ
+- author: Alex Reisner
+  date: '2025-03-20'
+  title: Search LibGen, the Pirated-Books Database That Meta Used to Train AI
+  type: NewsArticle
+  url: https://www.theatlantic.com/technology/archive/2025/03/search-libgen-data-set/682094/
+  isPartOf:
+    name: The Atlantic
+    type: Periodical
+- author: Lance Eaton
+  title: Doctoral Research Study
+  type: WebPage
+  url: https://www.lanceeaton.com/research-study/
+  isPartOf:
+    name: Lance Eaton
+    type: WebSite
+- title: 'Lessons from the Library: Extreme Minimalist Scaling at Pirate Ebook Platforms'
+  type: ScholarlyArticle
+  url: http://www.digitalhumanities.org/dhq/vol/16/2/000587/000587.html
+  isPartOf:
+    name: Digital Humanities Quarterly
+    type: Periodical
 - https://doi.org/10.1515/ausi-2017-0006 # Bida, LibGen and Sci-Hub papers, Acta Informatica 2017
-- http://Custodians.Online # Custodians Online solidarity statement domain
-- http://custodians.online # In Solidarity with Library Genesis and Sci-Hub statement
+- title: In Solidarity with Library Genesis and Sci-Hub
+  type: WebPage
+  url: http://Custodians.Online
+  isPartOf:
+    name: custodians.online
+    type: WebSite
+- title: In Solidarity with Library Genesis and Sci-hub
+  type: WebPage
+  url: http://custodians.online
 - https://finiteeyes.net/open/supporting-openness-should-not-mean-supporting-piracy/ # Finite Eyes blog post on openness vs piracy
 - https://doi.org/10.16997/wpcc.913 # Dulong de Rosnay, pirate libraries and advocacy, Westminster Papers 2021
-- https://engineuring.wordpress.com/2021/07/09/how-the-chronicle-is-trying-to-malign-sci-hub/ # Elbakyan blog post: Chronicle maligning Sci-Hub
-- https://engineuring.wordpress.com/2016/02/24/why-sci-hub-is-the-true-solution-for-open-access-reply-to-criticism/ # Elbakyan: why Sci-Hub is the true OA solution
-- https://engineuring.wordpress.com/2016/03/11/sci-hub-is-a-goal-changing-the-system-is-a-method/ # Elbakyan: Sci-Hub is a goal, system change is method
-- https://www.elsevier.com/connect/allegations-linking-sci-hub-with-russian-intelligence # Elsevier Connect: Sci-Hub Russian intelligence allegations
+- date: '2021-07-09'
+  title: How The Chronicle is trying to malign Sci-Hub
+  type: BlogPosting
+  url: https://engineuring.wordpress.com/2021/07/09/how-the-chronicle-is-trying-to-malign-sci-hub/
+  isPartOf:
+    name: Engineuring
+    type: Blog
+- date: '2016-02-24'
+  title: 'Why Sci-Hub is the true solution for Open Access: reply to criticism'
+  type: BlogPosting
+  url: https://engineuring.wordpress.com/2016/02/24/why-sci-hub-is-the-true-solution-for-open-access-reply-to-criticism/
+  isPartOf:
+    name: Engineuring
+    type: Blog
+- date: '2016-03-11'
+  title: Sci-Hub is a goal, changing the system is a method
+  type: BlogPosting
+  url: https://engineuring.wordpress.com/2016/03/11/sci-hub-is-a-goal-changing-the-system-is-a-method/
+  isPartOf:
+    name: Engineuring
+    type: Blog
+- date: '2019-12-20'
+  title: Allegations linking Sci-Hub with Russian Intelligence
+  type: NewsArticle
+  url: https://www.elsevier.com/connect/allegations-linking-sci-hub-with-russian-intelligence
+  isPartOf:
+    name: Elsevier Connect
+    type: WebSite
 - https://doi.org/10.1016/j.annemergmed.2016.05.010 # Giustini, Sci-Hub symptom of broken system, Ann Emerg Med 2016
 - https://doi.org/10.1002/leap.1116 # Green, pirate black OA, Learned Publishing 2017
 - https://doi.org/10.15200/winn.146485.57797 # Greshake, Sci-Hub usage and World Bank indicators, Winnower 2016
 - https://doi.org/10.1080/02763869.2017.1259918 # Hoy, Sci-Hub what librarians should know, Med Ref Serv Q 2017
 - https://doi.org/10.1177/0266666916671080 # Machin-Mastromatteo, Sci-Hub usage data analysis, Info Dev 2016
 - https://doi.org/10.1002/pra2.2016.14505301123 # Martin, piracy public access and preservation, ASIST 2016
-- https://www.techdirt.com/2020/01/03/academic-publishers-get-their-wish-doj-investigating-sci-hub-founder-alleged-ties-to-russian-intelligence/ # Techdirt: DOJ investigating Sci-Hub founder
-- https://torrentfreak.com/meet-the-guy-behind-the-libgen-torrent-seeding-movement-191205/ # TorrentFreak: LibGen torrent seeding movement profile
+- date: '2020-01-03'
+  title: 'Academic Publishers Get Their Wish: DOJ Investigating Sci-Hub Founder For Alleged Ties To Russian Intelligence'
+  type: BlogPosting
+  url: https://www.techdirt.com/2020/01/03/academic-publishers-get-their-wish-doj-investigating-sci-hub-founder-alleged-ties-to-russian-intelligence/
+  isPartOf:
+    name: Techdirt
+    type: Blog
+- author: Andy Maxwell
+  date: '2019-12-05'
+  title: Meet the Guy Behind the Libgen Torrent Seeding Movement
+  type: NewsArticle
+  url: https://torrentfreak.com/meet-the-guy-behind-the-libgen-torrent-seeding-movement-191205/
+  isPartOf:
+    name: TorrentFreak
+    type: Periodical
 - https://doi.org/10.5860/crln.77.3.9457 # Rutner and Schonfeld, Sci-Hub and your library, CR&LN 2017
-- https://torrentfreak.com/sci-hub-and-libgen-resurface-after-being-shut-down-151121/ # TorrentFreak: Sci-Hub and LibGen resurface after shutdown
+- author: Ernesto Van der Sar
+  date: '2015-11-21'
+  title: Sci-Hub, BookFi and LibGen Resurface After Being Shut Down
+  type: NewsArticle
+  url: https://torrentfreak.com/sci-hub-and-libgen-resurface-after-being-shut-down-151121/
+  isPartOf:
+    name: TorrentFreak
+    type: Periodical
 - https://doi.org/10.1038/nature.2015.18876 # Schiermeier, pirate sites hide-and-seek with publishers, Nature 2015
 - https://doi.org/10.1038/nature.2017.22196 # Schiermeier, Elsevier wins millions damages from Sci-Hub, Nature 2017
 ---

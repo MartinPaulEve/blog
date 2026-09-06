@@ -22,14 +22,38 @@ wordpress_url: https://eve.gd/?p=2209
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mi7m3xh2r"
 kcworks: https://works.hcommons.org/records/60kr4-qgk16
 references:
-- http://www.excursions-journal.org.uk # Excursions open access journal
+- title: 'Excursions: An interdisciplinary journal'
+  type: WebSite
+  url: http://www.excursions-journal.org.uk
 - http://pkp.sfu.ca/support/forum/viewtopic.php?f=9&t=6817 # PKP forum thread on adding DOI display to OJS
-- http://dtd.nlm.nih.gov/publishing/tag-library/2.3/index.html # NLM journal publishing XML tagset documentation
-- https://github.com/MartinPaulEve/MEXMLGalley # MartinPaulEve MEXMLGalley GitHub repository
-- http://www.w3.org/1998/Math/MathML # W3C MathML namespace URI
-- http://www.w3.org/1999/xlink # W3C XLink namespace URI
+- title: Journal Publishing Tag Set Tag Library version 2.3
+  type: TechArticle
+  url: http://dtd.nlm.nih.gov/publishing/tag-library/2.3/index.html
+- title: A plugin for Open Journal Systems to generate PDF galleys from XML
+  type: SoftwareSourceCode
+  url: https://github.com/MartinPaulEve/MEXMLGalley
+  isPartOf:
+    name: GitHub
+    type: WebSite
+- title: MathML Namespace
+  type: WebPage
+  url: http://www.w3.org/1998/Math/MathML
+  isPartOf:
+    name: W3C
+    type: WebSite
+- title: XLink namespace
+  type: WebPage
+  url: http://www.w3.org/1999/xlink
+  isPartOf:
+    name: W3C
+    type: WebSite
 - http://www.w3.org/2001/XMLSchema-instance # W3C XML Schema instance namespace URI
-- http://creativecommons.org/licenses/by/2.0/ # Creative Commons Attribution 2.0 licence
+- title: Deed - Attribution 2.0 Generic
+  type: WebPage
+  url: http://creativecommons.org/licenses/by/2.0/
+  isPartOf:
+    name: Creative Commons
+    type: WebSite
 - http://www.nytimes.com/1998/03/04/books/pynchon-s-letters-nudge-his-mask.html?pagewanted=all # NYT article Pynchon letters nudge his mask
 ---
 

@@ -18,11 +18,27 @@ categories:
 kcworks: https://works.hcommons.org/records/qctv2-yhn70
 references:
 - https://direct.mit.edu/books/book/4933/chapter/625155/Social-Justice-and-Inclusivity-Drivers-for-the # Roh Inefuku Drabinski, Social Justice and Inclusivity chapter MIT
-- https://www.timeshighereducation.com/news/nature-publish-open-access-papers-january-2021 # THE news: Nature to publish OA papers from January 2021
+- author: Jack Grove
+  date: '2020-10-20'
+  title: Nature to publish open-access papers from January 2021
+  type: NewsArticle
+  url: https://www.timeshighereducation.com/news/nature-publish-open-access-papers-january-2021
+  isPartOf:
+    name: Times Higher Education
+    type: Periodical
 - https://direct.mit.edu/books/book/4933/chapter/625148/Grammatical-and-Terminological-Notes # Grammatical and Terminological Notes chapter MIT Press
-- https://jonathangray.org/2020/10/20/new-book-reassembling-scholarly-communications-mit-press/ # Jonathan Gray blog post on Reassembling Scholarly Communications
+- author: Jonathan Gray
+  date: '2020-10-20'
+  title: 'New Book: “Reassembling Scholarly Communications: Histories, Infrastructures, and Global Politics of Open Access” (MIT Press, 2020)'
+  type: BlogPosting
+  url: https://jonathangray.org/2020/10/20/new-book-reassembling-scholarly-communications-mit-press/
+  isPartOf:
+    name: Jonathan W. Y. Gray
+    type: Blog
 - https://direct.mit.edu/books/book/4933/Reassembling-Scholarly-CommunicationsHistories # Reassembling Scholarly Communications open access PDFs MIT Press
-- http://www.openaccessweek.org/ # Open Access Week website
+- title: International Open Access Week
+  type: WebSite
+  url: http://www.openaccessweek.org/
 - https://direct.mit.edu/books/book/4933/chapter/625153/Epistemic-Alienation-in-African-Scholarly # Mboa Nkoudou, Epistemic Alienation in African Scholarly Communications chapter
 - https://direct.mit.edu/books/book/4933/chapter/625154/Scholarly-Communications-and-Social-Justice # Scholarly Communications and Social Justice chapter MIT Press
 - https://direct.mit.edu/books/book/4933/chapter/625156/Can-Open-Scholarly-Practices-Redress-Epistemic # Albornoz et al, Can Open Scholarly Practices Redress Epistemic Injustice chapter

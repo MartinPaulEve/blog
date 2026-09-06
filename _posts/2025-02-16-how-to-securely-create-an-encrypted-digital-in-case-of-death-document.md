@@ -14,10 +14,23 @@ categories:
 - Information Security
 kcworks: https://works.hcommons.org/records/vf7vv-1e758
 references:
-- https://rossnaylor.com/build-a-death-folder/ # Guide to building a death folder (what to include)
-- https://www.dropbox.com/home # Dropbox cloud storage service
-- https://www.gnupg.org/ # GnuPG GNU Privacy Guard homepage
-- https://www.gnupg.org/software/frontends.html # GnuPG GUI frontend options list
+- author: Ross Naylor
+  date: '2025-03-12'
+  title: How to Build a Death Folder
+  type: BlogPosting
+  url: https://rossnaylor.com/build-a-death-folder/
+- title: Dropbox
+  type: WebSite
+  url: https://www.dropbox.com/home
+- title: The GNU Privacy Guard
+  type: WebSite
+  url: https://www.gnupg.org/
+- title: GnuPG - Frontends
+  type: WebPage
+  url: https://www.gnupg.org/software/frontends.html
+  isPartOf:
+    name: GnuPG
+    type: WebSite
 - https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain&hl=en # OpenKeychain Android PGP app on Google Play
 ---
 

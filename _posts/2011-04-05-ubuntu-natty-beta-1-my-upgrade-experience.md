@@ -23,9 +23,19 @@ wordpress_url: https://www.martineve.com/?p=936
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkguopl2n"
 kcworks: https://works.hcommons.org/records/wbd4j-rpa22
 references:
-- https://wiki.ubuntu.com/DesktopExperienceTeam/UnityWithFglrxBeta # Ubuntu wiki: Unity with fglrx beta setup
+- title: DesktopExperienceTeam/UnityWithFglrxBeta
+  type: WebPage
+  url: https://wiki.ubuntu.com/DesktopExperienceTeam/UnityWithFglrxBeta
+  isPartOf:
+    name: Ubuntu Wiki
+    type: WebSite
 - http://kb2.adobe.com/cps/492/cpsid_49267.html # Adobe KB article: AIR ELS storage fix
-- https://bugs.launchpad.net/ubuntu/+source/thunderbird/+bug/751067 # Launchpad bug report: Thunderbird Ubuntu Natty issue
+- title: 'Bug #751067 "Colors are mangled in Natty"'
+  type: WebPage
+  url: https://bugs.launchpad.net/ubuntu/+source/thunderbird/+bug/751067
+  isPartOf:
+    name: Launchpad
+    type: WebSite
 ---
 
 <p>I thought I'd share here some of the trials and tribulations I experienced in last night's upgrade to Ubuntu 11.04, Natty Narwhal.</p>

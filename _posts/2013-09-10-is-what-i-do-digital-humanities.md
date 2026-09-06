@@ -26,9 +26,19 @@ wordpress_url: https://www.martineve.com/?p=2891
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgbhvud2h"
 kcworks: https://works.hcommons.org/records/b47z9-g2a34
 references:
-- https://github.com/MartinPaulEve/meTypeset # meTypeset scholarly typesetting tool on GitHub
+- title: 'GitHub - MartinPaulEve/meTypeset: meTypeset is a tool to convert from Microsoft Word .docx format to NLM/JATS-XML for scholarly/scientific article typesetting.'
+  type: SoftwareSourceCode
+  url: https://github.com/MartinPaulEve/meTypeset
+  isPartOf:
+    name: GitHub
+    type: WebSite
 - http://www.lincoln.ac.uk/home/course/cmsresms/fundedplace/ # Lincoln University funded computer science MSc place
-- http://oabutton.wordpress.com/ # OAButton open access tool project blog
+- title: Open Access Button
+  type: WebSite
+  url: http://oabutton.wordpress.com/
+  isPartOf:
+    name: Open Access Button
+    type: Blog
 ---
 
 <p>As a scholar in a literature department, I end up doing some very odd things. Among these is the development of various pieces of software for the <a href="https://github.com/MartinPaulEve/meTypeset">typesetting and production of scholarly articles</a>. I'm also going to be co-supervising some <a href="http://www.lincoln.ac.uk/home/course/cmsresms/fundedplace/">computer science MSc places</a>. This digital inflection then leads me to wonder whether what I do should be termed "digital humanities". Does it matter?</p>

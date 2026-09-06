@@ -15,8 +15,12 @@ categories:
 - Scholarly Communications
 kcworks: https://works.hcommons.org/records/y8esg-trq29
 references:
-- https://hcommons.org # Knowledge Commons homepage
-- https://works.hcommons.org/ # KCWorks repository (Invenio-based)
+- title: Knowledge Commons
+  type: WebSite
+  url: https://hcommons.org
+- title: KC Works
+  type: WebSite
+  url: https://works.hcommons.org/
 ---
 
 As part of my work on [Knowledge Commons](https://hcommons.org), I want to make more of our development process open, welcoming, and transparent, by using blogging. So I will be writing some technical posts on what I'm doing there and how I've overcome various technical challenges. In this post, I want to set out how I got BuddyPress notifications into a separate application (our new "Profiles" app).

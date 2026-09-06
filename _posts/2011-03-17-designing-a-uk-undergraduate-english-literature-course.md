@@ -29,10 +29,22 @@ wordpress_url: https://www.martineve.com/?p=854
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkiyt2x2i"
 kcworks: https://works.hcommons.org/records/54qdt-re405
 references:
-- http://www.flickr.com/photos/23680544@N07/ # Sarah Ross photography Flickr photostream
+- author: Sarah Ross
+  title: Sarah Ross
+  type: WebPage
+  url: http://www.flickr.com/photos/23680544@N07/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 - http://www.sussex.ac.uk/tldu/ideas/curr/coursedesign # Sussex TLDU course design guidance page
 - http://www.sussex.ac.uk/english/internal/programmesandcourses/undergraduate/2010/QQ331U/38084 # Sussex English undergraduate programme listing
-- http://en.wikipedia.org/wiki/1861_in_literature # Wikipedia: 1861 in literature
+- date: '2003-04-01'
+  title: 1861 in literature
+  type: WebPage
+  url: http://en.wikipedia.org/wiki/1861_in_literature
+  isPartOf:
+    name: Wikipedia
+    type: WebSite
 ---
 
 <p><i>Featured image by <a href="http://www.flickr.com/photos/23680544@N07/">Sarah Ross photography</a> under a CC-BY-NC license.</i></p>

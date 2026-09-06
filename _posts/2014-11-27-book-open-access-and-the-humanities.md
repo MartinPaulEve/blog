@@ -23,10 +23,25 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdr3re7
 kcworks: https://works.hcommons.org/records/mkpp1-1y863
 references:
 - http://www.cambridge.org/martineve # Cambridge University Press page for Eve's OA book
-- http://www.amazon.co.uk/gp/product/1107097894/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=1107097894&linkCode=as2&tag=2bitpienet-21&linkId=TVNUFSG4XG3QS2HJ # Eve, Open Access and the Humanities paperback on Amazon
+- author: Martin Paul Eve
+  title: 'Open Access and the Humanities: Contexts, Controversies and the Future'
+  type: Book
+  url: http://www.amazon.co.uk/dp/1107097894
 - http://dx.doi.org/10.1017/CBO9781316161012 # Eve 2014, Open Access and the Humanities DOI
-- http://www.cambridgeblog.org/2014/11/martin-paul-eve-on-open-access-and-the-humanities/ # Cambridge blog video interview with Eve on OA book
-- http://blogs.lse.ac.uk/lsereviewofbooks/2014/11/07/book-review-open-access-and-the-humanities-contexts-controversies-and-the-future-by-martin-eve/ # Jonathan Gray LSE review of Eve OA and Humanities
+- date: '2014-11-27'
+  title: Martin Paul Eve on Open Access and the Humanities
+  type: BlogPosting
+  url: http://www.cambridgeblog.org/2014/11/martin-paul-eve-on-open-access-and-the-humanities/
+  isPartOf:
+    name: Fifteen Eighty Four
+    type: Blog
+- date: '2014-11-07'
+  title: 'Book Review: Open Access and the Humanities: Contexts, Controversies and the Future by Martin Eve'
+  type: BlogPosting
+  url: http://blogs.lse.ac.uk/lsereviewofbooks/2014/11/07/book-review-open-access-and-the-humanities-contexts-controversies-and-the-future-by-martin-eve/
+  isPartOf:
+    name: LSE Review of Books
+    type: Blog
 ---
 
 <p>I am extremely pleased to announce that my book, <i>Open Access and the Humanities: Contexts, Controversies and the Future</i> has today been published by Cambridge University Press. The book offers a background to open access and its specifics for the humanities disciplines, as well as setting out the economics and politics of the phenomenon. It also has a very fine preface by Peter Suber! You can download the book for absolutely free (under a CC BY-SA license) at <a href="http://www.cambridge.org/martineve">the official website</a> (click the green "open access" button). You can also buy an extremely good value paperback copy, with all my royalties going to <a href="http://www.arthritisresearchuk.org">Arthritis Research UK</a>, from the <a href="http://www.amazon.co.uk/gp/product/1107097894/ref=as_li_tl?ie=UTF8&amp;camp=1634&amp;creative=19450&amp;creativeASIN=1107097894&amp;linkCode=as2&amp;tag=2bitpienet-21&amp;linkId=TVNUFSG4XG3QS2HJ">usual suspects</a>. The book also has a DOI: <a href="http://dx.doi.org/10.1017/CBO9781316161012">http://dx.doi.org/10.1017/CBO9781316161012</a>. You can also <a href="/images/uploads/2014/11/Eve_2014_Open-Access-and-the-Humanities.pdf">download a copy directly here</a>.</p>

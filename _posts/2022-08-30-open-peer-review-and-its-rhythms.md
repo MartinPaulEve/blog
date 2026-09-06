@@ -14,9 +14,18 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/nthst-9k356
 references:
-- https://leadinggenerously.hcommons.org/ # Fitzpatrick, Leading Generously open review on HCommons
+- title: Leading Generously
+  type: WebSite
+  url: https://leadinggenerously.hcommons.org/
 - https://doi.org/10.1111/1468-5973.12215 # Study on paratextual online comments affecting reading
-- https://www.scientificamerican.com/article/reading-paper-screens/ # Scientific American on F-shaped screen reading patterns
+- author: Ferris Jabr
+  date: '2013-04-11'
+  title: 'The Reading Brain in the Digital Age: The Science of Paper versus Screens'
+  type: NewsArticle
+  url: https://www.scientificamerican.com/article/reading-paper-screens/
+  isPartOf:
+    name: Scientific American
+    type: Periodical
 - https://www.cambridge.org/gb/academic/subjects/literature/printing-and-publishing-history/reading-peer-review-plos-one-and-institutional-change-academia?format=PB&isbn=9781108742702 # Eve, Reading Peer Review: PLOS ONE and Institutional Change
 ---
 

@@ -22,7 +22,13 @@ wordpress_url: https://www.martineve.com/?p=2628
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgwca5p2r"
 kcworks: https://works.hcommons.org/records/59vmg-jvs81
 references:
-- http://prezi.com/gvoijttzwepl/the-future-of-peer-review/?kw=view-gvoijttzwepl&rc=ref-1218260 # Eve Prezi on the future of peer review
+- author: Martin Eve
+  title: The Future of Peer Review
+  type: WebPage
+  url: http://prezi.com/gvoijttzwepl/the-future-of-peer-review/?kw=view-gvoijttzwepl&rc=ref-1218260
+  isPartOf:
+    name: Prezi
+    type: WebSite
 - http://www.openlibhums.org # Open Library of the Humanities website
 ---
 

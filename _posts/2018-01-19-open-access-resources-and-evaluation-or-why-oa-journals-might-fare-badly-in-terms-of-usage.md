@@ -15,7 +15,14 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/qehnx-e6d12
 references:
-- https://www.theguardian.com/commentisfree/2017/aug/08/trump-administration-climate-change-ban-usda # Guardian piece on USDA climate change term ban
+- author: Bill McKibben
+  date: '2017-08-08'
+  title: 'The Trump administration''s solution to climate change: ban the term'
+  type: NewsArticle
+  url: https://www.theguardian.com/commentisfree/2017/aug/08/trump-administration-climate-change-ban-usda
+  isPartOf:
+    name: The Guardian
+    type: Periodical
 - https://www.openlibhums.org/news/55/ # Open Library of Humanities usage metrics news post
 ---
 

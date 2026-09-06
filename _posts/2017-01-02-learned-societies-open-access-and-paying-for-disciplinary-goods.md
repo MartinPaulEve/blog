@@ -15,7 +15,11 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/q32wz-21643
 references:
-- http://eprints.bbk.ac.uk/16458/ # Birkbeck eprint on economic return of humanities
+- author: Martin Paul Eve
+  date: '2016-10-26'
+  title: Review of Literature and the Public Good by Rick Rylance
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/16458/
 ---
 
 [As I've written before](https://www.martineve.com/2014/10/04/pondering-a-solution-to-the-problem-of-learned-societies-and-the-transition-to-open-access/), Learned Societies are one of the biggest barriers to open access. They derive revenue from publishing that they then use to pay for disciplinary goods (scholarships, prizes, public engagement etc.) Fear of new economic models for scholarly communications sometimes, although not always, drives them away from open access.

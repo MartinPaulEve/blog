@@ -24,8 +24,21 @@ wordpress_url: https://www.martineve.com/?p=2281
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhvt6bx2r"
 kcworks: https://works.hcommons.org/records/tm6kz-cdt81
 references:
-- http://blogs.lse.ac.uk/impactofsocialsciences/2012/08/02/how-should-blogs-referenced/ # LSE impact blog on referencing blogs
-- http://www.guardian.co.uk/higher-education-network/blog/2011/sep/20/academy-scared-of-blogging # Guardian post on academy scared of blogging
+- date: '2012-08-02'
+  title: All sources are equal but some are more equal than others – (how) should blogs be referenced?
+  type: BlogPosting
+  url: http://blogs.lse.ac.uk/impactofsocialsciences/2012/08/02/how-should-blogs-referenced/
+  isPartOf:
+    name: LSE Impact Blog
+    type: Blog
+- author: Sarah-Louise Quinnell
+  date: '2011-09-20'
+  title: Don't doubt the value of blogging in academic publishing
+  type: NewsArticle
+  url: http://www.guardian.co.uk/higher-education-network/blog/2011/sep/20/academy-scared-of-blogging
+  isPartOf:
+    name: The Guardian
+    type: Periodical
 ---
 
 <p>At <a href="https://www.martineve.com/2011/09/27/academia-edtech-blogging-and-twitter-enough-with-the-meta-already/">the risk of more meta</a>, I wanted to jot down a few thoughts on blogs in scholarly research.</p>

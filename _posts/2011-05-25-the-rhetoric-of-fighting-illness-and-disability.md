@@ -103,12 +103,45 @@ kcworks: https://works.hcommons.org/records/txn0j-1ff58
 references:
 - http://uk.answers.yahoo.com/question/index?qid=20090910153441AAzSQrX # Yahoo Answers thread on Once Upon a Time Life cartoon
 - http://www.usatoday.com/news/opinion/editorials/2005-07-31-letters-other_x.htm # USA Today letters on anti-war rhetoric and illness language
-- http://www.guardian.co.uk/world/2011/may/20/paralysed-sports-star-steps-history-rob-summers # Guardian report on paralysed Rob Summers walking again
-- http://www.guardian.co.uk/science/2010/jul/12/cancer-survival-rates-doubled # Guardian piece on cancer survival rates doubling
-- http://news.bbc.co.uk/2/hi/health/7052318.stm # BBC health report on attitude and cancer survival
-- http://www.rawarrior.com # RA Warrior rheumatoid arthritis support site
-- http://www.guardian.co.uk/society/2011/may/14/disabled-face-increasing-hostility-strangers # Guardian report on disabled people facing street hostility
-- http://www.flickr.com/photos/familymwr/ # familymwr Flickr photostream CC-BY
+- author: Sarah Boseley
+  date: '2011-05-19'
+  title: Paralysed baseball star steps into medical history
+  type: NewsArticle
+  url: http://www.guardian.co.uk/world/2011/may/20/paralysed-sports-star-steps-history-rob-summers
+  isPartOf:
+    name: The Guardian
+    type: Periodical
+- author: Matthew Weaver
+  date: '2010-07-12'
+  title: Cancer survival rates have doubled since 1970s, research shows
+  type: NewsArticle
+  url: http://www.guardian.co.uk/science/2010/jul/12/cancer-survival-rates-doubled
+  isPartOf:
+    name: The Guardian
+    type: Periodical
+- title: Optimism 'no bearing on cancer'
+  type: NewsArticle
+  url: http://news.bbc.co.uk/2/hi/health/7052318.stm
+  isPartOf:
+    name: BBC News
+    type: WebSite
+- title: RA Warrior
+  type: WebSite
+  url: http://www.rawarrior.com
+- author: Daniel Boffey
+  date: '2011-05-14'
+  title: Disabled people face increasing hostility from strangers, survey finds
+  type: NewsArticle
+  url: http://www.guardian.co.uk/society/2011/may/14/disabled-face-increasing-hostility-strangers
+  isPartOf:
+    name: The Guardian
+    type: Periodical
+- title: U.S. Army
+  type: WebPage
+  url: http://www.flickr.com/photos/familymwr/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>When I was in hospital the week before last, I was struck by how all-pervasive the rhetoric of "fighting" is when people are coping with illness or new disability. I'm sure that this has been covered by those in critical disability studies far better than I can put it here, but I wanted to flag it up as an area of concern.</p>

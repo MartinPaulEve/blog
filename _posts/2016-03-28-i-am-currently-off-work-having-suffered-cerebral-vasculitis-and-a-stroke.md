@@ -12,7 +12,10 @@ categories:
 - Personal
 kcworks: https://works.hcommons.org/records/27trs-kjp38
 references:
-- http://josswinn.org/2016/03/17/against-academic-identity/ # Winn and Neary post against academic identity
+- date: '2016-03-17'
+  title: Against Academic Identity
+  type: BlogPosting
+  url: http://josswinn.org/2016/03/17/against-academic-identity/
 ---
 
 A few weeks ago, at the beginning of March, I was feeling quite unwell with a chest and sinus infection, for which I'd had three courses of antibiotics from my GP. It was pretty unpleasant but compared to what I was about to experience, it now looks trivial. Around the 7th March, 2016 I started to go into a series of hemiplegic migraines in which I would lose feeling down the left side of my body accompanied by awful visual aura and a headache sensation afterwards that made me just want to hide and cry. It was extremely uncomfortable and given that I was also losing sensation in my arms, legs, and face, I decided to call 111; the intermediate emergency medical service in the UK. They sent out a paramedic on Monday the 7th who didn't think that I'd had a stroke at that time. On Wednesday the 9th March I had a recurrence again of this loss of sensation and my GP sent me for an emergency CT scan at Barnet Hospital. This did not show anything too alarming and I was told to rest for a few days and hopefully all would be resolved.

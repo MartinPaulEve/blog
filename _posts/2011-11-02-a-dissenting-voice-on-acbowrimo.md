@@ -183,8 +183,16 @@ wordpress_url: https://www.martineve.com/2011/11/02/a-dissenting-voice-on-acbowr
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjgd2jj2o"
 kcworks: https://works.hcommons.org/records/32k0a-05561
 references:
-- http://www.phd2published.com/ # PhD2Published website by Charlotte Frost
-- http://www.flickr.com/photos/jjpacres/ # jjpacres Flickr photostream
+- title: PhD2Published
+  type: WebSite
+  url: http://www.phd2published.com/
+- author: jeffrey james pacres
+  title: jeffrey james pacres
+  type: WebPage
+  url: http://www.flickr.com/photos/jjpacres/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>This is a bit of a spoilsport post, but I wanted to set down, in writing, some of the reasons that I am extremely wary of the #AcBoWriMo experiment that is currently underway on Twitter.</p>

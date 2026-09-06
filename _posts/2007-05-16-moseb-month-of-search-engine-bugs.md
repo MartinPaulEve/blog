@@ -22,7 +22,12 @@ wordpress_url: http://pro.grammatic.org/post-moseb-month-of-search-engine-bugs-1
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnqkccz2i"
 kcworks: https://works.hcommons.org/records/z0prg-a3t87
 references:
-- http://websecurity.com.ua/category/moseb/ # websecurity.com.ua Month of Search Engine Bugs
+- title: MOSEB
+  type: WebPage
+  url: http://websecurity.com.ua/category/moseb/
+  isPartOf:
+    name: Websecurity
+    type: WebSite
 ---
 
 <blockquote> Purpose of this Month of Bugs is a demonstration of real state with security in search engines, which are the most popular sites in Internet. To let users of search engines and web community as a whole to understand all risks, which search engines bring to them. And also to draw attention of search enginesGÇÖ owners to security issues of their sites.<br/> During the month everyday will be publish vulnerabilities in most popular search engines of the world. Cross-Site Scripting vulnerabilities in particular. Everyday will be publish vulnerabilities in different engines (minimum one publication at a time, but there will be bonus publications also).</p></blockquote>

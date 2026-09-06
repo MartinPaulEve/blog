@@ -23,10 +23,27 @@ wordpress_url: https://www.martineve.com/?p=1191
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkabdrp2r"
 kcworks: https://works.hcommons.org/records/dhed3-2z794
 references:
-- http://www.excursions-journal.org.uk # Excursions journal homepage
-- http://www.excursions-journal.org.uk/index.php/excursions/issue/view/2 # Excursions vol 2 issue 1 Virus 2011
-- http://www.excursions-journal.org.uk/index.php/excursions/issue/archive # Excursions journal issue archive
-- http://www.excursions-journal.org.uk/cfp.html # Excursions journal call for papers
+- title: 'Excursions: An interdisciplinary journal'
+  type: WebSite
+  url: http://www.excursions-journal.org.uk
+- title: 'Excursions: An interdisciplinary journal'
+  type: WebPage
+  url: http://www.excursions-journal.org.uk/index.php/excursions/issue/view/2
+  isPartOf:
+    name: 'Excursions: An interdisciplinary journal'
+    type: WebSite
+- title: 'Excursions: An interdisciplinary journal'
+  type: WebPage
+  url: http://www.excursions-journal.org.uk/index.php/excursions/issue/archive
+  isPartOf:
+    name: 'Excursions: An interdisciplinary journal'
+    type: WebSite
+- title: 'Excursions: An interdisciplinary journal'
+  type: WebPage
+  url: http://www.excursions-journal.org.uk/cfp.html
+  isPartOf:
+    name: 'Excursions: An interdisciplinary journal'
+    type: WebSite
 - http://www.lukejerram.com # Luke Jerram artist website
 ---
 

@@ -14,7 +14,14 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/wtkn7-3q815
 references:
-- https://scholarlykitchen.sspnet.org/2016/08/24/the-costs-of-flipping-our-dollars-to-gold/ # Scholarly Kitchen costs of flipping to gold OA
+- author: Alison Mudditt
+  date: '2016-08-24'
+  title: The Costs of Flipping our Dollars to Gold
+  type: BlogPosting
+  url: https://scholarlykitchen.sspnet.org/2016/08/24/the-costs-of-flipping-our-dollars-to-gold/
+  isPartOf:
+    name: The Scholarly Kitchen
+    type: Blog
 ---
 
 A [post today at the Scholarly Kitchen](https://scholarlykitchen.sspnet.org/2016/08/24/the-costs-of-flipping-our-dollars-to-gold/) has spurred me to write something that I've been pondering for a while. Namely: how helpful is this idea of "[paying it forward](http://icis.ucdavis.edu/wp-content/uploads/2016/07/UC-Pay-It-Forward-Final-Report.rev_.7.18.16.pdf)" as a way of funding scholarly communications?

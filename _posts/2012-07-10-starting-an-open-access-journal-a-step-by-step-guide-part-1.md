@@ -25,8 +25,18 @@ kcworks: https://works.hcommons.org/records/br61b-sdp26
 references:
 - http://www.hookandeye.ca/2012/07/scholarly-publishing-is-broken.html # Hook and Eye blog: scholarly publishing is broken
 - http://www.bluehost.com/track/martineve # Bluehost web hosting affiliate link
-- http://oaspa.org/ # Open Access Scholarly Publishers Association
-- http://pkp.sfu.ca/?q=ojs # PKP Open Journal Systems software
+- title: Home
+  type: WebPage
+  url: http://oaspa.org/
+  isPartOf:
+    name: OASPA
+    type: WebSite
+- title: Public Knowledge Project
+  type: WebSite
+  url: http://pkp.sfu.ca/?q=ojs
+  isPartOf:
+    name: Public Knowledge Project
+    type: WebSite
 ---
 
 <h3>Prefatory note (2016)</h3>

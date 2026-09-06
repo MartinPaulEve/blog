@@ -24,7 +24,9 @@ wordpress_url: https://www.martineve.com/?p=3214
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7meozymj2n"
 kcworks: https://works.hcommons.org/records/qc7m1-et558
 references:
-- http://academia.edu # Academia.edu social network for academics
+- title: Academia.edu
+  type: WebSite
+  url: http://academia.edu
 - https://ulincoln.academia.edu/MartinPaulEve # Martin Paul Eve Academia.edu profile
 - http://www.sherpa.ac.uk/romeo/ # SHERPA/RoMEO publisher copyright policies
 ---

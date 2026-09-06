@@ -16,7 +16,14 @@ categories:
 - Personal
 kcworks: https://works.hcommons.org/records/70kpp-2xa37
 references:
-- https://www.imperial.ac.uk/news/236034/lasting-brain-impacts-severe-covid-19-equivalent/ # Imperial study: mild Covid causes lasting cognitive impairment
+- author: Ryan O'Hare
+  date: '2022-05-03'
+  title: Lasting brain impacts of severe COVID-19 equivalent to 20 years of ageing
+  type: NewsArticle
+  url: https://www.imperial.ac.uk/news/236034/lasting-brain-impacts-severe-covid-19-equivalent/
+  isPartOf:
+    name: Imperial College London
+    type: WebSite
 ---
 
 People are obsessed with the short-term effects of Covid, prioritising them over the longer-term impacts. "It was just like a minor cold, really", they say, perhaps not realising that [even mild cases of Covid have been shown to cause lasting cognitive impairment](https://www.imperial.ac.uk/news/236034/lasting-brain-impacts-severe-covid-19-equivalent/). But I also take exception with this comparison to the common cold. Because, for me, a simple cold led to lifelong disability and severe chronic health problems.

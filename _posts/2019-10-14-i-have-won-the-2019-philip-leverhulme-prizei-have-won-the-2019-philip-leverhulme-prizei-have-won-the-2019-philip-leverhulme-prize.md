@@ -15,10 +15,25 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/w1aaf-wyx27
 references:
-- https://www.leverhulme.ac.uk/philip-leverhulme-prizes-2019 # 2019 Philip Leverhulme Prizes announcement page
-- https://www.amazon.co.uk/Close-Reading-Computers-Scholarship-Computational/dp/1503609367/ # Eve, Close Reading with Computers, Amazon
+- title: Philip Leverhulme Prizes 2019
+  type: WebPage
+  url: https://www.leverhulme.ac.uk/philip-leverhulme-prizes-2019
+  isPartOf:
+    name: The Leverhulme Trust
+    type: WebSite
+- author: Martin Paul Eve
+  title: 'Close Reading with Computers: Textual Scholarship, Computational Formalism, and David Mitchell''s Cloud Atlas'
+  type: Book
+  url: https://www.amazon.co.uk/dp/1503609367
 - https://doi.org/10.11647/OBP.0102 # Eve, Literature Against Criticism, OBP
-- https://www.cambridge.org/core/books/open-access-and-the-humanities/02BD7DB4A5172A864C432DBFD86E5FB4 # Eve, Open Access and the Humanities, Cambridge
+- author: Martin Paul Eve
+  date: 2014-11
+  title: 'Open Access and the Humanities: Contexts, Controversies and the Future'
+  type: Book
+  url: https://www.cambridge.org/core/books/open-access-and-the-humanities/02BD7DB4A5172A864C432DBFD86E5FB4
+  isPartOf:
+    name: Cambridge Core
+    type: WebSite
 - https://www.palgrave.com/gb/book/9781137405494 # Eve, Pynchon and Philosophy, Palgrave
 ---
 

@@ -14,8 +14,17 @@ categories:
 - Linux
 kcworks: https://works.hcommons.org/records/hac12-f6317
 references:
-- https://arstechnica.com/gadgets/2020/01/linux-on-laptops-ubuntu-19-10-on-the-hp-dragonfly-elite-g1/ # Ars Technica Ubuntu 19.10 on HP Dragonfly Elite G1
-- https://www.amazon.co.uk/gp/product/B075FW7H5J/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1 # Satechi USB-C adapter Amazon product page
+- author: Jim Salter
+  date: '2020-01-27'
+  title: 'Linux on laptops: Ubuntu 19.10 on the HP Dragonfly Elite G1'
+  type: NewsArticle
+  url: https://arstechnica.com/gadgets/2020/01/linux-on-laptops-ubuntu-19-10-on-the-hp-dragonfly-elite-g1/
+  isPartOf:
+    name: Ars Technica
+    type: Periodical
+- title: SATECHI 8-in-1 USB-C Hub V2
+  type: WebPage
+  url: https://www.amazon.co.uk/dp/B075FW7H5J
 ---
 
 There's a prominent post at Ars Technica called [Linux on laptops: Ubuntu 19.10 on the HP Dragonfly Elite G1](https://arstechnica.com/gadgets/2020/01/linux-on-laptops-ubuntu-19-10-on-the-hp-dragonfly-elite-g1/) that implies that it is easy and straightforward to install Ubuntu on the HP Dragonfly Elite laptop. The post is correct that releases later than 19.10 have full kernel support for nearly all of the laptop's hardware, but there are some very important caveats to the install.

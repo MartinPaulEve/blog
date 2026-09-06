@@ -15,7 +15,18 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/5bzq3-3fg44
 references:
-- https://eprints.bbk.ac.uk/id/eprint/27709/ # Reading Peer Review, BIROn Birkbeck repository
+- author:
+  - Martin Paul Eve
+  - Cameron Neylon
+  - Daniel O'Donnell
+  - Samuel Moore
+  - Robert Gadie
+  - Victoria Odeniyi
+  - Shahina Parvin
+  date: '2021-01-03'
+  title: 'Reading Peer Review: PLOS ONE and Institutional Change in Academia'
+  type: Book
+  url: https://eprints.bbk.ac.uk/id/eprint/27709/
 ---
 
 On the same day as I [submitted my next book manuscript](https://eve.gd/2021/01/03/i-have-submitted-the-warez-book/), I am pleased to be able to say that [Reading Peer Review](https://www.cambridge.org/core/elements/reading-peer-review/42F027E4C67D246DD8C3AC440A68C7A7), my 7<sup>th</sup> academic book, has been published by Cambridge University Press. The book is open access and available at [CUP](https://www.cambridge.org/core/elements/reading-peer-review/42F027E4C67D246DD8C3AC440A68C7A7) or in [BIROn](https://eprints.bbk.ac.uk/id/eprint/27709/).

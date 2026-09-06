@@ -23,7 +23,14 @@ wordpress_url: https://www.martineve.com/?p=3064
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfeqotu2r"
 kcworks: https://works.hcommons.org/records/zafrt-16e25
 references:
-- https://twitter.com/ersatzben/status/449453677875847168 # Tweet citing REF OA compliance statistics
+- author: Ben Johnson
+  date: '2014-03-28'
+  title: Ben Johnson (@ersatzben) on X
+  type: WebPage
+  url: https://twitter.com/ersatzben/status/449453677875847168
+  isPartOf:
+    name: X
+    type: WebSite
 ---
 
 <p>Since yesterday's HEFCE announcement, I've seen some comments floating around that resurrect the argument that OA mandates are a blow to academic freedom. I do not agree, and <i>especially</i> so when we're talking about the HEFCE mandate. With HEFCE's current policy, <a href="https://twitter.com/ersatzben/status/449453677875847168">96% of submissions to the last REF</a> would have simply required authors to deposit to comply; no change of publisher policy was necessary. The remaining 4%, if truly published in the best venue, could have sought an exception.</p>

@@ -15,7 +15,12 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/nsz9y-btv63
 references:
-- https://www.explainxkcd.com/wiki/index.php/2839:_Language_Acquisition # Explain XKCD 2839 Language Acquisition
+- title: '2839: Language Acquisition'
+  type: WebPage
+  url: https://www.explainxkcd.com/wiki/index.php/2839:_Language_Acquisition
+  isPartOf:
+    name: explain xkcd
+    type: WebSite
 ---
 
 A [recent XKCD](https://www.explainxkcd.com/wiki/index.php/2839:_Language_Acquisition) caused some amusement: "Vocabulary update: I learned another word today, bringing my total to twelve".

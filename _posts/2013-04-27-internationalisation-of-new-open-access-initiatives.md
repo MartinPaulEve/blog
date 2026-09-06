@@ -23,7 +23,13 @@ wordpress_url: https://www.martineve.com/?p=2650
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgrixu62r"
 kcworks: https://works.hcommons.org/records/67ap6-q6m79
 references:
-- http://talkingoflanguages.wordpress.com/2013/03/12/the-languages-of-academic-publishing/ # Corradini, The Languages of Academic Publishing blog post
+- date: '2013-03-12'
+  title: The language(s) of academic publishing
+  type: BlogPosting
+  url: http://talkingoflanguages.wordpress.com/2013/03/12/the-languages-of-academic-publishing/
+  isPartOf:
+    name: talkingoflanguages
+    type: Blog
 ---
 
 <p>A quick plug for a blog post by a member of OLH's internationalisation committee, Erika Corradini. In her piece, <a href="http://talkingoflanguages.wordpress.com/2013/03/12/the-languages-of-academic-publishing/">The Languages of Academic Publishing</a>, Erika writes:</p>

@@ -17,10 +17,19 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lv2tgfw
 categories:
 - Technology
 references:
-- https://kfitz.info/ # Kathleen Fitzpatrick personal site
+- title: Kathleen Fitzpatrick
+  type: WebSite
+  url: https://kfitz.info/
 - https://mastodon.social/@babetteknauer/115933572328791779 # Babette Knauer Mastodon post on Groningen Big Tech
-- https://ukrant.nl/magazine/we-can-do-without-them-how-the-ug-is-cutting-ties-with-big-tech/?lang=en # UK Rant article: Groningen cutting Big Tech ties
-- https://gbilder.com/ # Geoffrey Bilder personal site
+- title: 'We can do without them: how the UG is cutting ties with Big Tech'
+  type: NewsArticle
+  url: https://ukrant.nl/magazine/we-can-do-without-them-how-the-ug-is-cutting-ties-with-big-tech/?lang=en
+  isPartOf:
+    name: UKrant.nl
+    type: Periodical
+- title: Louche Cannon
+  type: WebSite
+  url: https://gbilder.com/
 ---
 
 This morning, [Kathleen Fitzpatrick](https://kfitz.info/) drew my attention to [a Mastodon post by Babette Knauer](https://mastodon.social/@babetteknauer/115933572328791779) about plans for the University of Groningen to get away from Big Tech. The [article itself is well worth a read](https://ukrant.nl/magazine/we-can-do-without-them-how-the-ug-is-cutting-ties-with-big-tech/?lang=en), with ambitious approaches to digital independence. I had some not-very-original thoughts on it.

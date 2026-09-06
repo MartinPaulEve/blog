@@ -31,9 +31,27 @@ wordpress_url: https://www.martineve.com/?p=1120
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkcem3p2p"
 kcworks: https://works.hcommons.org/records/ffbb0-16v97
 references:
-- http://blog.enlightenmenteconomics.com/blog/_archives/2011/5/25/4824194.html # Diane Coyle blog post on British Library evening
-- http://www.bbc.co.uk/news/world-us-canada-11454789 # BBC news on unethical history of vaccines
-- http://www.flickr.com/photos/snowblink/ # snowblink Flickr photo of William Gibson
+- author: Diane Coyle
+  title: The Enlightened Economist
+  type: BlogPosting
+  url: http://blog.enlightenmenteconomics.com/blog/_archives/2011/5/25/4824194.html
+  isPartOf:
+    name: The Enlightened Economist
+    type: Blog
+- date: '2010-10-01'
+  title: US sorry over deliberate sex infections in Guatemala
+  type: NewsArticle
+  url: http://www.bbc.co.uk/news/world-us-canada-11454789
+  isPartOf:
+    name: BBC News
+    type: Periodical
+- author: Jon Lim
+  title: Jon Lim
+  type: WebSite
+  url: http://www.flickr.com/photos/snowblink/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>Last week I had the pleasure to attend the "Who owns the Story of the Future?" even taking place at the British Library, playing host to William Gibson, Cory Doctorow, Diane Coyle and Mark Stevenson as part of their Out of This World series. In case you haven't seen the <a href="http://www.bl.uk/whatson/index.html">exhibition and series of related events</a>, I suggest you check it out. Also worth checking out is <a href="http://blog.enlightenmenteconomics.com/blog/_archives/2011/5/25/4824194.html">Diane Coyle's own blog post</a> on the evening, which gives an accurate and balanced summary of the evening.</p>

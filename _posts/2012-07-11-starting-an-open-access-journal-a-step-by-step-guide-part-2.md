@@ -24,13 +24,40 @@ wordpress_url: https://eve.gd/?p=2189
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mib7bqa2o"
 kcworks: https://works.hcommons.org/records/t1g1f-p3v43
 references:
-- http://pkp.sfu.ca/ojs/docs/userguide/2.3.3/index.html # OJS 2.3.3 user guide index
-- http://pkp.sfu.ca/ojs/docs/userguide/2.3.3/systemAdministrationInstallation.html # OJS 2.3.3 installation instructions
-- http://www.issn.org/2-22652-Requesting-an-ISSN.php # ISSN international centre requesting an ISSN
+- title: OJS User Guide
+  type: TechArticle
+  url: http://pkp.sfu.ca/ojs/docs/userguide/2.3.3/index.html
+  isPartOf:
+    name: PKP Docs
+    type: WebSite
+- title: OJS Installation Instructions
+  type: TechArticle
+  url: http://pkp.sfu.ca/ojs/docs/userguide/2.3.3/systemAdministrationInstallation.html
+  isPartOf:
+    name: PKP Docs
+    type: WebSite
+- title: Requesting an ISSN
+  type: WebPage
+  url: http://www.issn.org/2-22652-Requesting-an-ISSN.php
+  isPartOf:
+    name: ISSN
+    type: WebSite
 - https://www.pynchon.net/owap/article/view/38 # Orbit journal article 38 on pynchon.net
-- http://www.crossref.org/02publishers/20pub_fees.html # CrossRef publisher membership fee levels
-- http://oaspa.org/ # Open Access Scholarly Publishers Association
-- http://www.lockss.org/ # LOCKSS distributed digital preservation system
+- title: Crossref fees
+  type: WebPage
+  url: http://www.crossref.org/02publishers/20pub_fees.html
+  isPartOf:
+    name: Crossref
+    type: WebSite
+- title: Home
+  type: WebPage
+  url: http://oaspa.org/
+  isPartOf:
+    name: OASPA
+    type: WebSite
+- title: LOCKSS Program
+  type: WebSite
+  url: http://www.lockss.org/
 - http://dx.doi.org/10.7766/orbit.v1.1.38 # DOI link to Orbit journal article 38
 ---
 

@@ -15,7 +15,9 @@ categories:
 kcworks: https://works.hcommons.org/records/01tmv-cc873
 references:
 - http://doi.org/10.1629/uksg.392 # UKSG article on BPC distribution across institutions
-- https://www.openingthefuture.net/ # Opening the Future OA membership model site
+- title: Opening the Future
+  type: WebSite
+  url: https://www.openingthefuture.net/
 ---
 
 We are at an exciting moment for open-access books. UKRI has announced a forthcoming funding mandate, kicking off in 2024. Plan S funders are deciding what to do about books. And much (if not all) of the dissent around the idea of OA monographs has gone quieter. It seems, at least to me, that more and more people are persuaded that OA books are a good concept… so long as the route by which we get there is equitable.

@@ -24,8 +24,19 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkdf53y
 kcworks: https://works.hcommons.org/records/wgpp4-pkm53
 references:
 - http://prezi.com/bin/preziloader.swf # Prezi SWF player loader
-- http://prezi.com/beqjtk5qhxcs/using-twitter-for-research/ # Prezi presentation: Using Twitter for Research
-- http://prezi.com # Prezi presentation platform homepage
+- author: Martin Eve
+  title: Using Twitter for Research
+  type: WebPage
+  url: http://prezi.com/beqjtk5qhxcs/using-twitter-for-research/
+  isPartOf:
+    name: Prezi
+    type: WebSite
+- title: 'Prezi: the presentation platform built for engagement'
+  type: WebSite
+  url: http://prezi.com
+  isPartOf:
+    name: Prezi
+    type: WebSite
 ---
 
 <p>Please find, for your delectation, licensed under a Creative Commons, Attribution, Non-Commercial, Share-Alike license, my Prezi on Using Twitter for Research, a workshop I taught at the University of Sussex on the 18th May, 2011.</p>

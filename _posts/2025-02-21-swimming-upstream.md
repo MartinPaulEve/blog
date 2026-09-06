@@ -15,9 +15,27 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/8gvmt-0he56
 references:
-- https://www.zdnet.com/article/dumping-open-source-for-proprietary-rarely-pays-off-better-to-stick-a-fork-in-it/ # ZDNet: forking open source vs proprietary software
-- https://github.com/inveniosoftware/pytest-invenio/issues/114 # Ian's pytest-invenio test framework fix, GitHub issue
-- https://github.com/inveniosoftware/invenio-saml/pull/48 # Ian's invenio-saml SAML user matching pull request
+- date: '2025-02-05'
+  title: 'Dumping open source for proprietary rarely pays off: Better to stick a fork in it'
+  type: NewsArticle
+  url: https://www.zdnet.com/article/dumping-open-source-for-proprietary-rarely-pays-off-better-to-stick-a-fork-in-it/
+  isPartOf:
+    name: ZDNET
+    type: Periodical
+- author: monotasker
+  date: '2025-02-20'
+  title: Detached instance error at cleanup of location fixture
+  type: WebPage
+  url: https://github.com/inveniosoftware/pytest-invenio/issues/114
+  isPartOf:
+    name: GitHub
+    type: WebSite
+- title: 'Allow customizing the user lookup function in acs_handler_factory by monotasker · Pull Request #48 · inveniosoftware/invenio-saml'
+  type: WebPage
+  url: https://github.com/inveniosoftware/invenio-saml/pull/48
+  isPartOf:
+    name: GitHub
+    type: WebSite
 ---
 
 Open source projects like InvenioRDM -- on which we rely for our repository software at Knowledge Commons -- thrive on community contributions. When initiatives like ours not only use these platforms but actively contribute improvements back to the original codebase, everyone benefits. This "upstreaming" process takes work, but it represents the collaborative spirit that makes open source software so powerful. My colleague, Ian, who is our repository developer has, in the past day, contributed a set of fixes back to Invenio, which should improve the software for everyone.

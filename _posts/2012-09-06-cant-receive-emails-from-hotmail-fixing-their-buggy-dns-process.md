@@ -21,8 +21,20 @@ wordpress_url: https://www.martineve.com/?p=2383
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhsscie2h"
 kcworks: https://works.hcommons.org/records/f1ceh-crt10
 references:
-- http://www.dorianmoore.com/works/6318/working-round-hotmail-live-msn-email-failing-to-deliver-email # Dorian Moore guide on Hotmail DNS workaround
-- https://tools.ietf.org/html/rfc974 # IETF RFC 974 mail routing specification
+- author: Dorian Fraser-Moore
+  title: Working round email from Hotmail/Live/MSN failing to be delivered
+  type: TechArticle
+  url: http://www.dorianmoore.com/works/6318/working-round-hotmail-live-msn-email-failing-to-deliver-email
+  isPartOf:
+    name: dorian f moore
+    type: WebSite
+- author: Dr. Craig Partridge
+  title: 'RFC 974: Mail routing and the domain system'
+  type: TechArticle
+  url: https://tools.ietf.org/html/rfc974
+  isPartOf:
+    name: IETF Datatracker
+    type: WebSite
 - https://www.ietf.org/rfc/rfc2821.txt # IETF RFC 2821 SMTP protocol specification
 ---
 

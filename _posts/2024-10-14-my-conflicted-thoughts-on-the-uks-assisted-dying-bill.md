@@ -15,10 +15,32 @@ categories:
 - Health
 kcworks: https://works.hcommons.org/records/1dd9q-vr696
 references:
-- https://bills.parliament.uk/bills/3741 # UK assisted dying bill on Parliament website
-- https://www.kcl.ac.uk/news/65-of-adults-are-worried-about-access-to-palliative-care # KCL report on adults worried about palliative care access
-- https://www.versobooks.com/en-gb/products/729-crippled # Piggott, Crippled: austerity and disabled people, Verso
-- https://www.theguardian.com/society/2024/oct/13/expected-assisted-dying-bill-no-use-to-parkinsons-patients-nicholas-mostyn # Guardian: assisted dying bill excludes Parkinson's patients
+- title: Assisted Dying for Terminally Ill Adults Bill [HL]
+  type: WebPage
+  url: https://bills.parliament.uk/bills/3741
+  isPartOf:
+    name: UK Parliament
+    type: WebSite
+- date: '2024-04-29'
+  title: 65% of adults are worried about access to palliative care
+  type: NewsArticle
+  url: https://www.kcl.ac.uk/news/65-of-adults-are-worried-about-access-to-palliative-care
+  isPartOf:
+    name: King's College London
+    type: WebSite
+- author: Frances Ryan
+  title: 'Crippled: Austerity and the Demonization of Disabled People'
+  type: Book
+  publisher: Verso
+  url: https://www.versobooks.com/en-gb/products/729-crippled
+- author: Robert Booth
+  date: '2024-10-13'
+  title: Expected assisted dying bill no use to Parkinson's patients, ex-judge says
+  type: NewsArticle
+  url: https://www.theguardian.com/society/2024/oct/13/expected-assisted-dying-bill-no-use-to-parkinsons-patients-nicholas-mostyn
+  isPartOf:
+    name: The Guardian
+    type: Periodical
 ---
 
 The UK currently has [an assisted dying bill going through parliament](https://bills.parliament.uk/bills/3741) and I am very conflicted about it. On the one hand, I am a member of DIGNITAS, the organization that supports assisted dying and that runs a "clinic" in Switzerland to which members who are terminally ill can travel to end their lives. I have no desire for the end of my life to be a mess of literally unbearable suffering and nausea, even with palliative care. I support assisted dying _for me_.

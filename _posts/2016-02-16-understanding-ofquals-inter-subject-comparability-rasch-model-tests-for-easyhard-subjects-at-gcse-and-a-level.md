@@ -17,7 +17,14 @@ kcworks: https://works.hcommons.org/records/bezay-swz78
 references:
 - https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/486936/3-inter-subject-comparability-of-exam-standards-in-gcse-and-a-level.pdf # Ofqual inter-subject comparability statistical paper
 - http://europepmc.org/abstract/med/23442327 # Europe PMC abstract on Rasch model method
-- https://twitter.com/nmmarking/status/601402361635074049 # Wheadon Twitter confirmation of Ofqual method
+- author: Chris Wheadon
+  date: '2015-05-21'
+  title: Dr Chris Wheadon (@nmmarking) on X
+  type: BlogPosting
+  url: https://twitter.com/nmmarking/status/601402361635074049
+  isPartOf:
+    name: X (formerly Twitter)
+    type: WebSite
 ---
 
 Last night I spent almost three hours reading [the full Ofqual statistical paper on subject comparability at school level in the UK](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/486936/3-inter-subject-comparability-of-exam-standards-in-gcse-and-a-level.pdf). I am not a statistician (obviously) but I've set out below my working through of what they have presented and the underlying assumptions that they have made in case it's of interest to anyone. There could be some real errors in this, but it's the best I can do. I'd actually be really interested if a statistician wanted to have a look at this to let me know what I've got right. I'm currently re-building my basic statistical knowledge but I'm hardly there yet.

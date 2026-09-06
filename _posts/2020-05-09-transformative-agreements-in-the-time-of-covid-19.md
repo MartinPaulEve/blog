@@ -14,7 +14,13 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/qk3w1-16231
 references:
-- https://editorresources.taylorandfrancis.com/welcome-to-tf/policies-guidelines/plan-s/ # Taylor and Francis Plan S editor resources page
+- date: '2019-06-25'
+  title: Commentary on cOAlition S's revised Plan S – what next for Open Access?
+  type: WebPage
+  url: https://editorresources.taylorandfrancis.com/welcome-to-tf/policies-guidelines/plan-s/
+  isPartOf:
+    name: Taylor & Francis Editor Resources
+    type: WebSite
 ---
 
 Transformative agreements for OA are all the rage at the moment. Plan S compliance beckons and early movers can make it sound as though they are really doing what’s needed.

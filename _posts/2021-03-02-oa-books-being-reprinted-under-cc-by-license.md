@@ -16,7 +16,14 @@ categories:
 kcworks: https://works.hcommons.org/records/pn5ag-cj249
 references:
 - https://www.bookdepository.com/Literature-Against-Criticism-Martin-Paul-Eve/9781013288265?ref=grid-view&qid=1614677493139&sr=1-3 # Book Depository: Eve, Literature Against Criticism reprint
-- https://www.openbookpublishers.com/product/530 # Open Book Publishers edition of Eve's book
+- author: Martin Paul Eve
+  date: '2016-10-17'
+  title: 'Literature Against Criticism: University English and Contemporary Fiction in Conflict'
+  type: Book
+  url: https://www.openbookpublishers.com/product/530
+  isPartOf:
+    name: Open Book Publishers
+    type: WebSite
 - https://www.amazon.co.uk/s?k=literature+against+criticism&ref=nb_sb_noss # Amazon search for Literature Against Criticism
 ---
 

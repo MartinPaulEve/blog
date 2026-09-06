@@ -21,7 +21,12 @@ kcworks: https://works.hcommons.org/records/etkpb-yc628
 references:
 - http://www.thebookseller.com/blogs/anthony-cond-309360 # Anthony Cond piece in The Bookseller on OA presses
 - http://www.hefce.ac.uk/pubs/rereports/year/2015/monographs/ # HEFCE Crossick Report on OA monographs
-- http://www.gold.ac.uk/goldsmiths-press/ # Goldsmiths Press green OA publishing initiative
+- title: Goldsmiths Press
+  type: WebPage
+  url: http://www.gold.ac.uk/goldsmiths-press/
+  isPartOf:
+    name: Goldsmiths, University of London
+    type: WebSite
 ---
 
 In a recent [piece for The Bookseller](http://www.thebookseller.com/blogs/anthony-cond-309360), Anthony Cond (for whom I have a huge deal of respect), writes approvingly, if cautiously, of the births of new university presses. Indeed, there is much to celebrate in the idea of the university taking back the means of its research production on a not-for-profit basis. I am wholly in support of such a mission.

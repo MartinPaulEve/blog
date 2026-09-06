@@ -24,8 +24,21 @@ wordpress_url: https://www.martineve.com/?p=1005
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkeaow22a"
 kcworks: https://works.hcommons.org/records/gaqbh-yzr55
 references:
-- http://www.guardian.co.uk/stage/2011/apr/22/concept-of-the-face-review # Guardian review of Castellucci On the Concept of the Face
-- http://www.flickr.com/photos/home_of_chaos/ # Abode of Chaos Flickr photostream CC-BY
+- author: Michael Billington
+  date: '2011-04-22'
+  title: On the Concept of the Face, Regarding the Son of God – review
+  type: NewsArticle
+  url: http://www.guardian.co.uk/stage/2011/apr/22/concept-of-the-face-review
+  isPartOf:
+    name: The Guardian
+    type: Periodical
+- author: thierry ehrmann
+  title: thierry ehrmann
+  type: WebPage
+  url: http://www.flickr.com/photos/home_of_chaos/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>If, like myself, you had travelled to The Barbican last night, you would have seen two men, a father and son, on a dazzlingly white, clinical set, a gigantic face of Jesus projected onto the screen behind them. The face shimmers. It's impossible to look at, every time it draws your focus, the area under scrutiny seems to disappear, only for a new area to command attention. After the father, elderly and frail, has been watching a documentary about animals for about five minutes, he loses control of his bowels. The son, amid the father's protestations in Italian for forgiveness, cleans him and refits his incontinence nappy. The father shits himself again. The son cleans him again. This is repeated a total of three times, on each occurrence a palpable smell of faeces wafting over the audience. It is deeply tragic in its naturalism, but the audience are shocked. Some giggle, not knowing how to respond. Others leave; are they offended, or frightened at this glimpse into their own potential future?</p>

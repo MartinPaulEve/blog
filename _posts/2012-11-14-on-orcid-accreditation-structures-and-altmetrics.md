@@ -23,8 +23,15 @@ wordpress_url: https://www.martineve.com/?p=2496
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhmrfsd2h"
 kcworks: https://works.hcommons.org/records/n62z5-n7115
 references:
-- https://orcid.org/0000-0002-5589-8511 # Martin Paul Eve ORCID profile
-- http://melissaterras.blogspot.co.uk/2012/10/whats-in-name-academic-identity-in.html # Melissa Terras blog post on academic identity
+- title: ORCID
+  type: WebPage
+  url: https://orcid.org/0000-0002-5589-8511
+  isPartOf:
+    name: ORCID
+    type: WebSite
+- title: 'What''s in a name? Academic Identity in the metadata age, or, I didnt see #tarotgate coming'
+  type: BlogPosting
+  url: http://melissaterras.blogspot.co.uk/2012/10/whats-in-name-academic-identity-in.html
 ---
 
 <p>This post is written in response to a question by the ace Bernie Folan, from Sage publishers, who asked whether ORCID has the potential to disrupt, or conversely endorse, the problems in publication driven by accreditation structures. Here's a few of my hastily assembled, initial thoughts...</p>

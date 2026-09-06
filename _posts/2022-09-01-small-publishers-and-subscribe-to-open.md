@@ -14,7 +14,13 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/a39j5-3ka22
 references:
-- https://web.hypothes.is/blog/say-hello-to-anno/ # Hypothes.is corporate form change to Anno
+- date: '2022-08-18'
+  title: Say Hello to Anno
+  type: BlogPosting
+  url: https://web.hypothes.is/blog/say-hello-to-anno/
+  isPartOf:
+    name: Hypothesis
+    type: Blog
 - https://www.whpress.co.uk/publications/journal-prices/ # Woodbridge and Hurt Press journal prices page
 ---
 

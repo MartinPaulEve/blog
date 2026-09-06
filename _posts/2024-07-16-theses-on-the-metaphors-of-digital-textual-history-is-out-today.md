@@ -15,7 +15,12 @@ categories:
 - Digital Humanities
 kcworks: https://works.hcommons.org/records/hffbk-v8j37
 references:
-- https://www.sup.org/books/title/?id=33350 # Eve book at Stanford University Press
+- title: Theses on the Metaphors of Digital-Textual History
+  type: Book
+  url: https://www.sup.org/books/title/?id=33350
+  isPartOf:
+    name: Stanford University Press
+    type: WebSite
 - https://eprints.bbk.ac.uk/id/eprint/31744/ # Open-access edition of Eve book in BIROn
 ---
 

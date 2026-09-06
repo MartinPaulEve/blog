@@ -15,7 +15,14 @@ categories:
 - Literature
 kcworks: https://works.hcommons.org/records/008bj-2x237
 references:
-- https://twitter.com/martin_eve/status/1422458629555433487 # Eve Twitter thread on Gaskill Chromographia
+- author: Martin Paul Eve
+  date: '2021-08-03'
+  title: Martin Paul Eve (@martin_eve) on X
+  type: WebPage
+  url: https://twitter.com/martin_eve/status/1422458629555433487
+  isPartOf:
+    name: X
+    type: WebSite
 ---
 
 Some incomplete notes on the introduction to Gaskill, Nicholas, _Chromographia: American Literature and the Modernization of Color_ (Minneapolis: University of Minnesota Press, 2018), [originally a Twitter thread](https://twitter.com/martin_eve/status/1422458629555433487).

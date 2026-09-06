@@ -24,8 +24,20 @@ wordpress_url: https://www.martineve.com/2012/02/27/podcast-on-open-source-open-
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miqsbo22n"
 kcworks: https://works.hcommons.org/records/jqppg-s2m48
 references:
-- http://markcarrigan.net/2012/02/27/podcast-with-martin-eve-about-open-source-academic-publishing/ # Mark Carrigan podcast on OA publishing
-- http://www.flickr.com/photos/38476153@N04/ # themaccraic-david Flickr photo stream
+- date: '2012-02-27'
+  title: Podcast with Martin Eve about Open Source Academic Publishing
+  type: BlogPosting
+  url: http://markcarrigan.net/2012/02/27/podcast-with-martin-eve-about-open-source-academic-publishing/
+  isPartOf:
+    name: Mark Carrigan
+    type: Blog
+- author: david shortle
+  title: david shortle
+  type: WebPage
+  url: http://www.flickr.com/photos/38476153@N04/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>I did an interview at the weekend with Mark Carrigan on open source solutions for academic publishing and the potential future role of the library. You can find the piece over at Mark's site: <a href="http://markcarrigan.net/2012/02/27/podcast-with-martin-eve-about-open-source-academic-publishing/">Podcast with Martin Eve about Open Source Academic Publishing</a></p>

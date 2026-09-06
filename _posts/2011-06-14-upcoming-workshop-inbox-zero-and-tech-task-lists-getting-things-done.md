@@ -27,7 +27,12 @@ wordpress_url: https://www.martineve.com/?p=1162
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkbkrxi2f"
 kcworks: https://works.hcommons.org/records/aw1g1-p4076
 references:
-- http://www.sussex.ac.uk/doctoralschool/internal/researcherdev/events/index.php?pageon=2&status=open # Sussex Doctoral School researcher development events page
+- title: Scheduled RDP workshops and events
+  type: WebPage
+  url: http://www.sussex.ac.uk/doctoralschool/internal/researcherdev/events/index.php?pageon=2&status=open
+  isPartOf:
+    name: University of Sussex
+    type: WebSite
 ---
 
 <p>Details of an upcoming researcher workshop I am running on the 28th of June, from 2-4pm at the University of Sussex:</p>

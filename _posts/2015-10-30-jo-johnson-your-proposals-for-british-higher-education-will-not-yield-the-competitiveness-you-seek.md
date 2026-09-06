@@ -16,9 +16,23 @@ title: 'Jo Johnson: your proposals for British higher education will not yield t
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc6jeco2o"
 kcworks: https://works.hcommons.org/records/q2ydg-5mk40
 references:
-- http://www.conservativehome.com/thetorydiary/2015/10/the-accountability-and-transparency-revolution-coming-soon-to-a-university-near-you-courtesy-of-jo-johnson.html # Conservative Home report on Jo Johnson HE plans
+- author: Paul Goodman
+  date: '2015-10-30'
+  title: The accountability and transparency revolution. Coming soon to a University near you – courtesy of Jo Johnson
+  type: BlogPosting
+  url: http://www.conservativehome.com/thetorydiary/2015/10/the-accountability-and-transparency-revolution-coming-soon-to-a-university-near-you-courtesy-of-jo-johnson.html
+  isPartOf:
+    name: Conservative Home
+    type: Blog
 - http://www.topuniversities.com/university-rankings-articles/world-university-rankings/qs-world-university-rankings-methodology # QS World University Rankings methodology
-- https://www.timeshighereducation.com/features/uncontrolled-expansion-how-private-colleges-grew/2016579.article # THE feature on uncontrolled private college expansion
+- author: Andrew McGettigan
+  date: '2014-10-30'
+  title: 'Uncontrolled expansion: how private colleges grew'
+  type: NewsArticle
+  url: https://www.timeshighereducation.com/features/uncontrolled-expansion-how-private-colleges-grew/2016579.article
+  isPartOf:
+    name: Times Higher Education
+    type: Periodical
 - http://www.hefce.ac.uk/media/HEFCE,2014/Content/Pubs/Independentresearch/2015/REF,Accountability,Review,Costs,benefits,and,burden/2015_refreviewcosts.pdf # HEFCE report on REF costs benefits and burden
 ---
 

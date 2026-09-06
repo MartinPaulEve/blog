@@ -43,7 +43,14 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmbrmrs
 kcworks: https://works.hcommons.org/records/r1t8y-2b752
 references:
 - http://entertainment.timesonline.co.uk/tol/arts_and_entertainment/books/article3784828.ece # The Times article on British Library access
-- http://www.guardian.co.uk/commentisfree/2006/may/29/comment.highereducation # Guardian comment on British Library undergraduates
+- author: Tristram Hunt
+  date: '2006-05-28'
+  title: Scholarly squeeze
+  type: NewsArticle
+  url: http://www.guardian.co.uk/commentisfree/2006/may/29/comment.highereducation
+  isPartOf:
+    name: The Guardian
+    type: Periodical
 ---
 
 <p>          One of the long running debates regarding the British Library reading rooms has resurfaced this week.

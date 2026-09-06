@@ -23,9 +23,24 @@ wordpress_url: https://www.martineve.com/?p=2642
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mguxor22u"
 kcworks: https://works.hcommons.org/records/58aab-etg80
 references:
-- http://www.crossref.org/SimpleTextQuery/ # CrossRef Simple Text Query interface
-- http://help.crossref.org/#stored-queries # CrossRef stored queries help page
-- https://github.com/MartinPaulEve/crossRefQuery/ # Eve crossRefQuery Python script on GitHub
+- title: Simple Text Query
+  type: WebPage
+  url: http://www.crossref.org/SimpleTextQuery/
+  isPartOf:
+    name: Crossref
+    type: WebSite
+- title: Support Center
+  type: WebPage
+  url: http://help.crossref.org/#stored-queries
+  isPartOf:
+    name: CrossRef
+    type: WebSite
+- title: 'GitHub - MartinPaulEve/crossRefQuery: A python script to perform CrossRef API queries'
+  type: SoftwareSourceCode
+  url: https://github.com/MartinPaulEve/crossRefQuery/
+  isPartOf:
+    name: GitHub
+    type: WebSite
 - http://www.alluvium-journal.org # Alluvium literary journal site
 ---
 

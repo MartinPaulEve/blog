@@ -15,16 +15,38 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/8en1r-7w923
 references:
-- https://twitter.com/martin_eve/status/1429415082199502852 # Eve Twitter thread on programming languages as languages
+- author: Martin Paul Eve
+  date: '2021-08-22'
+  title: Martin Paul Eve (@martin_eve) on X
+  type: WebPage
+  url: https://twitter.com/martin_eve/status/1429415082199502852
+  isPartOf:
+    name: X
+    type: WebSite
 - https://doi.org/10.1086/709225 # Critical Inquiry article on rise of the algorithm
 - https://doi.org/10.1086/427305 # Chartier, Languages Books and Reading, Critical Inquiry
 - https://doi.org/10.1353/con.0.0064 # Chun, On Sourcery or Code as Fetish, Configurations
 - https://pure.uva.nl/ws/files/2104716/149299_main.pdf # Gobbo and Durnova, From Universal to Programming Languages
 - https://doi.org/10.1353/tech.2014.0031 # Nofre et al, When Technology Became Language, Tech and Culture
 - https://doi.org/10.1038/s41598-020-60661-8 # Prat et al, Natural Language Aptitude and Programming, Sci Reports
-- https://esoteric.codes/blog/jon-corbett # Temkin interview with Jon Corbett, Esoteric.Codes
-- https://scholar.google.com/citations?user=NsHFYDcAAAAJ&hl=en # Yorick Wilks Google Scholar profile
-- https://esoteric.codes/ # Esoteric Codes project site
+- author: Daniel Temkin
+  date: '2021-03-30'
+  title: Interview with Jon Corbett
+  type: BlogPosting
+  url: https://esoteric.codes/blog/jon-corbett
+  isPartOf:
+    name: Esoteric.Codes
+    type: Blog
+- title: Yorick Wilks
+  type: WebPage
+  url: https://scholar.google.com/citations?user=NsHFYDcAAAAJ&hl=en
+  isPartOf:
+    name: Google Scholar
+    type: WebSite
+- author: Daniel Temkin
+  title: Esoteric.Codes
+  type: WebSite
+  url: https://esoteric.codes/
 ---
 
 I asked on Twitter for [where to start on considering programming languages _as languages_](https://twitter.com/martin_eve/status/1429415082199502852). Here are some of the best recommendations:

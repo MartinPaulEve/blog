@@ -85,10 +85,32 @@ wordpress_url: https://www.martineve.com/?p=1714
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjbujvp2f"
 kcworks: https://works.hcommons.org/records/5y856-7mq78
 references:
-- http://www.guardian.co.uk/higher-education-network/blog/2011/dec/28/top-higher-education-blogs-2011 # Guardian top 10 higher education posts 2011
-- http://jennifermjones.net/ # Jennifer M. Jones personal website
-- http://www.guardian.co.uk/higher-education-network/blog/2011/jun/15/univeristies-radical-academics-jobs-training # Guardian Angry Young Academics article
-- http://www.amazon.co.uk/gp/product/1551303698/ref=as_li_ss_tl?ie=UTF8&tag=2bitpienet-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=1551303698 # Newson, Academic Callings, Amazon listing
+- author: Kerry Eustice
+  date: '2011-12-28'
+  title: 'Higher education review of 2011: the 10 best blogs of the year'
+  type: NewsArticle
+  url: http://www.guardian.co.uk/higher-education-network/blog/2011/dec/28/top-higher-education-blogs-2011
+  isPartOf:
+    name: The Guardian
+    type: Periodical
+- author: Jennifer M Jones
+  title: Jennifer M Jones
+  type: WebSite
+  url: http://jennifermjones.net/
+- author: Martin Paul Eve
+  date: '2011-06-15'
+  title: 'Angry young academics: striving for more than consumerism'
+  type: NewsArticle
+  url: http://www.guardian.co.uk/higher-education-network/blog/2011/jun/15/univeristies-radical-academics-jobs-training
+  isPartOf:
+    name: The Guardian
+    type: Periodical
+- author:
+  - Janice Newson
+  - Claire Polster
+  title: 'Academic Callings: The University We Have Had, Now Have, and Could Have'
+  type: Book
+  url: http://www.amazon.co.uk/dp/1551303698
 ---
 
 <p>A quick, perhaps egotistic, documentary post to note that the Guardian have published their <a href="http://www.guardian.co.uk/higher-education-network/blog/2011/dec/28/top-higher-education-blogs-2011">top 10 posts of 2011</a> and the piece I wrote with <a href="http://jennifermjones.net/">Jennifer M. Jones</a> made the cut.</p>

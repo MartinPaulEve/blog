@@ -22,9 +22,22 @@ wordpress_url: https://www.martineve.com/2012/05/02/an-update-on-orbit-1-1/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7migpcfk2u"
 kcworks: https://works.hcommons.org/records/qx3x1-99m04
 references:
-- http://www.oaspa.org/ # Open Access Scholarly Publishers Association website
-- http://www.crossref.org/ # CrossRef DOI registration agency website
-- http://www.flickr.com/photos/andycastro/ # Flickr photostream of Andy Castro
+- title: Home
+  type: WebPage
+  url: http://www.oaspa.org/
+  isPartOf:
+    name: OASPA
+    type: WebSite
+- title: Crossref
+  type: WebSite
+  url: http://www.crossref.org/
+- author: Andy Castro
+  title: Andy Castro
+  type: WebPage
+  url: http://www.flickr.com/photos/andycastro/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>I thought it was time for a brief "state of the issue" post for the, no doubt voluminous, hordes awaiting the launch of <a href="https://www.pynchon.net">Orbit: Writing Around Pynchon</a>.</p>

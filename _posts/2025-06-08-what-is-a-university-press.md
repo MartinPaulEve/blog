@@ -16,12 +16,32 @@ categories:
 - Higher Education
 references:
 - http://www.guygeltner.net/blog/2582019unusual-business-a-university-press-goes-private-and-no-one-is-the-wiser # Geltner blog: AUP goes private in 2019
-- https://www.aup.nl/en/articles/aup-and-taylor-and-francis-partner-on-english-language-book-programme # AUP statement on Taylor and Francis partnership
+- title: AUP and Taylor & Francis Partner on English-Language Book Programme
+  type: NewsArticle
+  url: https://www.aup.nl/en/articles/aup-and-taylor-and-francis-partner-on-english-language-book-programme
+  isPartOf:
+    name: Amsterdam University Press
+    type: WebSite
 - https://doi.org/10.5281/zenodo.6907707 # Opening the Future OA book funding model report
 - https://doi.org/10.1629/uksg.673 # Eve article on OA book sustainability questions
-- https://www.aup.nl/en/imprint/ceu-press # AUP imprint page for CEU Press
-- https://www.ceu.edu/article/2024-07-23/amsterdam-university-press-and-central-european-university-sign-partnership # CEU-AUP partnership announcement
-- https://openscholarlyinfrastructure.org/ # Principles on Open Scholarly Infrastructure
+- title: CEU Press
+  type: WebPage
+  url: https://www.aup.nl/en/imprint/ceu-press
+  isPartOf:
+    name: Amsterdam University Press
+    type: WebSite
+- title: Amsterdam University Press and Central European University Sign Partnership Agreement
+  type: NewsArticle
+  url: https://www.ceu.edu/article/2024-07-23/amsterdam-university-press-and-central-european-university-sign-partnership
+  isPartOf:
+    name: Central European University
+    type: WebSite
+- title: The Principles of Open Scholarly Infrastructure (v2.0, 2025)
+  type: WebSite
+  url: https://openscholarlyinfrastructure.org/
+  isPartOf:
+    name: The Principles of Open Scholarly Infrastructure
+    type: WebSite
 - https://doi.org/10.6084/m9.figshare.1314859.v1 # Neylon, Principles for Open Scholarly Infrastructures v1
 ---
 

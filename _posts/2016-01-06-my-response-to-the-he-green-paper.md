@@ -16,7 +16,12 @@ title: My response to the HE Green Paper
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbv3qwe2t"
 kcworks: https://works.hcommons.org/records/3b1d0-nj928
 references:
-- https://creativecommons.org/choose/zero/ # Creative Commons CC0 public domain dedication tool
+- title: Chooser
+  type: WebPage
+  url: https://creativecommons.org/choose/zero/
+  isPartOf:
+    name: Creative Commons
+    type: WebSite
 ---
 
 This post is the final in an [ongoing series](https://martineve.com/GreenPaper/) where I intend to develop my full _personal_ (_not_ institutional) response to the HE Green Paper. Comments are welcome to refine this.

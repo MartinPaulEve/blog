@@ -17,9 +17,14 @@ categories:
 kcworks: https://works.hcommons.org/records/ry8df-jrw30
 references:
 - https://www.junodownload.com/products/marti…ce/4112383-02/ # The Learning Experience release on Juno Download
-- https://www.beatport.com/release/the-lear…perience/2564786 # The Learning Experience release on Beatport
+- title: Martin Eve - The Learning Experience
+  type: WebPage
+  url: https://www.beatport.com/release/the-lear…perience/2564786
+  isPartOf:
+    name: Beatport
+    type: WebSite
 - https://www.traxsource.com/title/1131146/t…ning-experience # The Learning Experience release on Traxsource
-- https://www.amazon.co.uk/Learning-Experie…e/dp/B07QFYBPKV/ # The Learning Experience release on Amazon
+- https://www.amazon.co.uk/dp/B07QFYBPKV # The Learning Experience release on Amazon
 ---
 
 I have a music release/EP out on Tici Taci records today, called _The Learning Experience_.

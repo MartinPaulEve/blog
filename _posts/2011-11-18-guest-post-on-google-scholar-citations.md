@@ -21,7 +21,13 @@ wordpress_url: https://www.martineve.com/?p=1603
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjfxk7u2a"
 kcworks: https://works.hcommons.org/records/g0xyg-qpe94
 references:
-- http://www.flickr.com/photos/29487767@N02/ # alles-schlumpf Flickr photostream
+- author: Daniela Hartmann
+  title: Daniela Hartmann
+  type: WebPage
+  url: http://www.flickr.com/photos/29487767@N02/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>A quick post to point out that I've written a concise synopsis of Google Scholar over at <a href="http://doctoralschool.wordpress.com/2011/11/18/google-scholar-citations-a-concise-synopsis-by-martin-eve/">the Sussex Doctoral School blog</a>. Enjoy!</p>

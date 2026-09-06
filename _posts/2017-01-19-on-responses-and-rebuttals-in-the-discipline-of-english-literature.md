@@ -12,7 +12,12 @@ categories:
 kcworks: https://works.hcommons.org/records/bfzrg-55p81
 references:
 - https://doi.org/10.1086/662755 # Critical Inquiry article: reply to critics on literary studies
-- http://www.representations.org/responses/ # Representations journal responses page
+- title: Responses & Comments
+  type: WebPage
+  url: http://www.representations.org/responses/
+  isPartOf:
+    name: Representations
+    type: WebSite
 - https://figshare.com/articles/Excellence_R_Us_University_Research_and_the_Fetishisation_of_Excellence/3413821 # Figshare: Excellence R Us paper on peer review as gatekeeping
 ---
 

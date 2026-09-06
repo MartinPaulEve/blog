@@ -21,11 +21,31 @@ title: Discussing/annotating The History Manifesto and the open access effect(?)
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mebw3sc2a"
 kcworks: https://works.hcommons.org/records/qaa7z-y9b83
 references:
-- http://historymanifesto.cambridge.org/ # Guldi and Armitage, The History Manifesto (Cambridge)
-- http://www.knowledgeunlatched.org/ # Knowledge Unlatched OA books platform
-- http://mbsbham.wordpress.com/ # Modern British Studies Birmingham research centre blog
-- http://mbsbham.wordpress.com/responding-to-the-history-manifesto/ # MBS Birmingham responses to The History Manifesto
-- http://hypothes.is # hypothes.is open web annotation tool
+- title: The History Manifesto
+  type: WebPage
+  url: http://historymanifesto.cambridge.org/
+  isPartOf:
+    name: Cambridge Core
+    type: WebSite
+- title: Knowledge Unlatched
+  type: WebSite
+  url: http://www.knowledgeunlatched.org/
+- title: Modern British Studies Birmingham
+  type: WebSite
+  url: http://mbsbham.wordpress.com/
+- date: '2014-11-05'
+  title: Responding to the History Manifesto
+  type: BlogPosting
+  url: http://mbsbham.wordpress.com/responding-to-the-history-manifesto/
+  isPartOf:
+    name: Modern British Studies Birmingham
+    type: Blog
+- title: Hypothesis
+  type: WebPage
+  url: http://hypothes.is
+  isPartOf:
+    name: Hypothesis
+    type: WebSite
 ---
 
 <p>Amid my travels this month I've been keeping an excited and close eye on the progress of Jo Guldi and David Armitage's <a href="http://historymanifesto.cambridge.org/"><i>The History Manifesto</i></a>. This interest is both a matter of content and form. I greatly enjoyed reading the book even though I am not a historian and found many of its arguments compelling (I had some critical thoughts of my own on aspects of the text but would need to do a bit of further thinking before articulating them).</p>

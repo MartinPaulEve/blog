@@ -12,7 +12,12 @@ categories:
 kcworks: https://works.hcommons.org/records/sp81t-b9734
 references:
 - https://www.martineve.com/2017/01/16/thinking-more-about-eu-law-and-uk-copyright-exemptions/ # Eve blog post on EU law and UK copyright exemptions
-- http://www.legislation.gov.uk/ukpga/1988/48/section/296ZE # UK legislation: CDPA 1988 section 296ZE technological protection
+- title: Copyright, Designs and Patents Act 1988
+  type: WebPage
+  url: http://www.legislation.gov.uk/ukpga/1988/48/section/296ZE
+  isPartOf:
+    name: legislation.gov.uk
+    type: WebSite
 ---
 
 The saga continues from [where I left off](https://www.martineve.com/2017/01/16/thinking-more-about-eu-law-and-uk-copyright-exemptions/). Since then, I emailed a publisher to request a corpus of a specific author's work in a format that would allow computational techniques (i.e. not Amazon Kindle, which has DRM protection that it is illegal to break).

@@ -16,7 +16,14 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/wz57f-ffn69
 references:
-- https://items.ssrc.org/parameters/the-library-solution-how-academic-libraries-could-end-the-apc-scourge/ # SSRC: library solution to APC scourge
+- author: Jeff Pooley
+  date: '2019-09-03'
+  title: 'The Library Solution: How Academic Libraries Could End the APC Scourge'
+  type: BlogPosting
+  url: https://items.ssrc.org/parameters/the-library-solution-how-academic-libraries-could-end-the-apc-scourge/
+  isPartOf:
+    name: Items
+    type: Blog
 - https://openlibhums.org/plugins/supporters/signup/ # Open Library of Humanities supporter signup page
 ---
 

@@ -20,9 +20,20 @@ wordpress_url: https://www.martineve.com/2011/09/08/troy-davis-innocence-and-exe
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjwsp6l2h"
 kcworks: https://works.hcommons.org/records/gj56r-h7322
 references:
-- http://en.wikipedia.org/wiki/Troy_Davis_case # Wikipedia: Troy Davis case
+- date: '2007-07-23'
+  title: Troy Davis
+  type: WebPage
+  url: http://en.wikipedia.org/wiki/Troy_Davis_case
+  isPartOf:
+    name: Wikipedia
+    type: WebSite
 - http://blog.amnestyusa.org/deathpenalty/dont-let-georgia-kill-troy-davis/ # Amnesty USA blog: stop Troy Davis execution
-- http://www.flickr.com/photos/death_penalty/ # Flickr: World Coalition Against the Death Penalty
+- title: World Coalition Against the Death Penalty
+  type: WebPage
+  url: http://www.flickr.com/photos/death_penalty/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>The <a href="http://en.wikipedia.org/wiki/Troy_Davis_case">Troy Davis case</a>, perhaps the most controversial of all death penalty impositions in the United States, is growing perilously close to a climax resulting in the death of a man who, even if not innocent, has been subject to a deeply flawed legal process. An <a href="http://blog.amnestyusa.org/deathpenalty/dont-let-georgia-kill-troy-davis/">execution date has been set</a> for the 21st of September.</p>

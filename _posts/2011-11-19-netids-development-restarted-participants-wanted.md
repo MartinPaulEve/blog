@@ -24,7 +24,12 @@ wordpress_url: https://www.martineve.com/2011/11/19/netids-development-restarted
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjfeyhk2u"
 kcworks: https://works.hcommons.org/records/83k2z-8ng09
 references:
-- https://github.com/IndiansIncredible/.NetIDS # IndiansIncredible .NetIDS GitHub repository
+- title: .NET Intrusion Detection System
+  type: SoftwareSourceCode
+  url: https://github.com/IndiansIncredible/.NetIDS
+  isPartOf:
+    name: GitHub
+    type: WebSite
 - http://code.google.com/p/dotnetids/ # .NETIDS Google Code project page
 ---
 

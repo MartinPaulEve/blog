@@ -24,8 +24,19 @@ wordpress_url: https://www.martineve.com/?p=1645
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjem7ik2u"
 kcworks: https://works.hcommons.org/records/3375z-yrd46
 references:
-- http://www.sussex.ac.uk/doctoralschool/internal/researcherdev/events/index.php # University of Sussex Doctoral School events booking
-- http://www.flickr.com/photos/kapten/ # Bjorn Soderqvist Flickr photostream
+- title: Scheduled RDP workshops and events
+  type: WebPage
+  url: http://www.sussex.ac.uk/doctoralschool/internal/researcherdev/events/index.php
+  isPartOf:
+    name: University of Sussex
+    type: WebSite
+- author: Björn Söderqvist
+  title: Björn Söderqvist
+  type: WebSite
+  url: http://www.flickr.com/photos/kapten/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p><b>Update</b>: Due to my university teaching timetable changing, unfortunately the Wordpress workshops have been postponed. I'll update this post as and when new times are available.</p>

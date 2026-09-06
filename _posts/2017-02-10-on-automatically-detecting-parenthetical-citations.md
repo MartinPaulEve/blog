@@ -15,7 +15,12 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/p8xcr-05z34
 references:
-- https://github.com/MartinPaulEve/meTypeset # meTypeset GitHub repository for typesetting tool
+- title: 'GitHub - MartinPaulEve/meTypeset: meTypeset is a tool to convert from Microsoft Word .docx format to NLM/JATS-XML for scholarly/scientific article typesetting.'
+  type: SoftwareSourceCode
+  url: https://github.com/MartinPaulEve/meTypeset
+  isPartOf:
+    name: GitHub
+    type: WebSite
 ---
 
 One of the things that we have to do in [meTypeset](https://github.com/MartinPaulEve/meTypeset) is to capture parenthetical citations. These range in styles, but the following are good examples:

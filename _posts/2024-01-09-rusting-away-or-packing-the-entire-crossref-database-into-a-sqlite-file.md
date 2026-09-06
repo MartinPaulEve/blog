@@ -15,7 +15,12 @@ categories:
 - Scholarly Communications
 kcworks: https://works.hcommons.org/records/vzxv9-cap71
 references:
-- https://gitlab.com/crossref/labs/rustsqlitepacker # Crossref Labs Rust SQLite packer source code
+- title: rustsqlitepacker
+  type: SoftwareSourceCode
+  url: https://gitlab.com/crossref/labs/rustsqlitepacker
+  isPartOf:
+    name: GitLab
+    type: WebSite
 ---
 
 Over the past few weeks I've been working to pack the entire Crossref database into a distributable SQLite file. While this sounds somewhat insane -- the resulting file is 900GB -- it's quite a cool project for, say, embedded systems work in situations where no internet connection is available. It also provides speedy local indexed lookups, working faster than the internet-dependent API ever could.

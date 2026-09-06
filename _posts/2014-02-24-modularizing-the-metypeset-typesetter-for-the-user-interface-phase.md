@@ -24,11 +24,31 @@ wordpress_url: https://www.martineve.com/?p=3033
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfobrk52r"
 kcworks: https://works.hcommons.org/records/hs0g1-zf897
 references:
-- https://github.com/MartinPaulEve/meTypeset/tree/dev # meTypeset dev branch on GitHub
-- https://github.com/MartinPaulEve/meTypeset/commit/5662b3aeda62b9ee7a8bf009ce7b5cc77ed95fa6 # meTypeset commit adding user caption handling
-- https://github.com/sampsyo/beets/ # beets music tagger on GitHub
+- title: GitHub - MartinPaulEve/meTypeset at dev
+  type: SoftwareSourceCode
+  url: https://github.com/MartinPaulEve/meTypeset/tree/dev
+  isPartOf:
+    name: GitHub
+    type: WebSite
+- title: Link figure references in-text to graphic objects · MartinPaulEve/meTypeset@5662b3a
+  type: SoftwareSourceCode
+  url: https://github.com/MartinPaulEve/meTypeset/commit/5662b3aeda62b9ee7a8bf009ce7b5cc77ed95fa6
+  isPartOf:
+    name: GitHub
+    type: WebSite
+- title: 'GitHub - beetbox/beets: music library manager and MusicBrainz tagger'
+  type: SoftwareSourceCode
+  url: https://github.com/sampsyo/beets/
+  isPartOf:
+    name: GitHub
+    type: WebSite
 - https://www.pynchon.net/ # Orbit Pynchon journal website
-- https://github.com/elifesciences/lens # eLife Lens XML viewer on GitHub
+- title: 'GitHub - elifesciences/lens: A novel way of viewing eLife articles.'
+  type: SoftwareSourceCode
+  url: https://github.com/elifesciences/lens
+  isPartOf:
+    name: GitHub
+    type: WebSite
 - http://dx.doi.org/10.6084/m9.figshare.942425 # Figshare DOI for meTypeset modularization post
 ---
 

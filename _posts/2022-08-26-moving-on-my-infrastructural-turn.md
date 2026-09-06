@@ -16,9 +16,23 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/x03n4-yqx61
 references:
-- https://crossref.org/ # Crossref homepage
-- https://www.bbk.ac.uk/our-staff/profile/8727147/martin-paul-eve # Eve's Birkbeck staff profile page
-- https://eprints.bbk.ac.uk/id/eprint/12131/ # Eve, Password (book)
+- title: Crossref
+  type: WebSite
+  url: https://crossref.org/
+  isPartOf:
+    name: Crossref
+    type: WebSite
+- title: Prof Martin Paul Eve
+  type: WebPage
+  url: https://www.bbk.ac.uk/our-staff/profile/8727147/martin-paul-eve
+  isPartOf:
+    name: Birkbeck, University of London
+    type: WebSite
+- author: Martin Paul Eve
+  date: 2016-12
+  title: Password
+  type: Book
+  url: https://eprints.bbk.ac.uk/id/eprint/12131/
 ---
 
 The next few months mark a series of “10”s for me. On the 10th September, it will be 10 years since my Ph.D. viva. In November, it will be 10 years since I got my first lecturing position (TT Assistant Prof) at the University of Lincoln. It’s 10 years since I met Dr Caroline Edwards and we began publishing _Alluvium_ together. And it’s 10 years since we began planning the Open Library of Humanities.

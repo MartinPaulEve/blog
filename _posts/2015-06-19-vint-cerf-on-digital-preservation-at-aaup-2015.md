@@ -17,9 +17,20 @@ title: Vint Cerf on Digital Preservation at AAUP 2015
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcne5o62o"
 kcworks: https://works.hcommons.org/records/6sdcn-5de15
 references:
-- https://en.wikipedia.org/wiki/OSI_model # Wikipedia article on the OSI model
-- http://www.aaupnet.org # Association of American University Presses website
-- https://olivearchive.org/ # Olive archive executable preservation project at CMU
+- author: Contributors to Wikimedia projects
+  date: '2001-12-17'
+  title: OSI model
+  type: WebPage
+  url: https://en.wikipedia.org/wiki/OSI_model
+  isPartOf:
+    name: Wikipedia
+    type: WebSite
+- title: Association of University Presses
+  type: WebSite
+  url: http://www.aaupnet.org
+- title: Olive Executable Archive
+  type: WebSite
+  url: https://olivearchive.org/
 ---
 
 Vint Cerf is one of the few people in the world who can viably use the phrase "my internet" in a talk and it be true. Tim Berners-Lee developed the Hypertext Transfer Protocol (HTTP) which underlies the transfer of hyperlinked documents on the World Wide Web. This is an Application protocol, meaning that it sits at the highest level of the internet. In the [OSI Model](https://en.wikipedia.org/wiki/OSI_model), Cerf and his colleagues developed the TCP/IP protocols which are the Network and Transport layers that sit as the fundamental backbone of how packet switched networks communicate. "My internet" indeed.

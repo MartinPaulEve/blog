@@ -23,7 +23,13 @@ wordpress_url: https://www.martineve.com/2012/05/19/thinking-feeling-conference-
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miffglj2e"
 kcworks: https://works.hcommons.org/records/97dds-9e810
 references:
-- http://www.flickr.com/photos/savingfutures/ # Flickr photostream of Charlie Phillips
+- author: Charlie Phillips
+  title: Charlie Phillips
+  type: WebSite
+  url: http://www.flickr.com/photos/savingfutures/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>This Friday and Saturday, the University of Sussex hosted the Thinking Feeling conference on affect, feeling and emotion, attempting to theorise the myriad ways in which this is mapped out.</p>

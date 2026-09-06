@@ -15,17 +15,68 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/vsswe-q7r72
 references:
-- https://eprints.bbk.ac.uk/id/eprint/26645 # Eve, The Digital Humanities and Literary Studies, BBK eprint
-- https://eprints.bbk.ac.uk/id/eprint/30956 # Eve, Warez, BBK eprint
-- https://eprints.bbk.ac.uk/id/eprint/27709 # Eve et al, Reading Peer Review, BBK eprint
-- https://eprints.bbk.ac.uk/id/eprint/46280 # Eve, Lessons from Library Genesis, DHQ, BBK eprint
+- author: Martin Paul Eve
+  date: '2022-02-10'
+  title: The Digital Humanities and Literary Studies
+  type: Book
+  url: https://eprints.bbk.ac.uk/id/eprint/26645
+- author: Martin Paul Eve
+  date: '2021-12-15'
+  title: 'Warez: The Infrastructure and Aesthetics of Piracy'
+  type: Book
+  url: https://eprints.bbk.ac.uk/id/eprint/30956
+- author:
+  - Martin Paul Eve
+  - Cameron Neylon
+  - Daniel O'Donnell
+  - Samuel Moore
+  - Robert Gadie
+  - Victoria Odeniyi
+  - Shahina Parvin
+  date: '2021-01-03'
+  title: 'Reading Peer Review: PLOS ONE and Institutional Change in Academia'
+  type: Book
+  url: https://eprints.bbk.ac.uk/id/eprint/27709
+- author: Martin Paul Eve
+  date: '2022-06-27'
+  title: 'Lessons from the Library: Extreme Minimalist Scaling at Pirate Ebook Platforms'
+  type: ScholarlyArticle
+  url: https://eprints.bbk.ac.uk/id/eprint/46280
+  isPartOf:
+    name: Digital Humanities Quarterly
+    type: Periodical
 - https://eprints.bbk.ac.uk/id/eprint/43860 # Eve, New Leaves: Histories of Digital Pagination, BBK eprint
-- https://eprints.bbk.ac.uk/id/eprint/32199 # Eve, Non-Fiction chapter in DFW in Context, BBK eprint
-- https://eprints.bbk.ac.uk/id/eprint/43087 # Eve, Essay in Contemporary English Novelist, BBK eprint
-- https://eprints.bbk.ac.uk/id/eprint/44173 # Eve, Open Access and Neoliberalism chapter, BBK eprint
-- https://eprints.bbk.ac.uk/id/eprint/40856 # Eve, Open Access in the Humanities Disciplines, BBK eprint
-- https://eprints.bbk.ac.uk/id/eprint/46197 # Eve, Introduction to Lockdown Chronicles, BBK eprint
-- https://www.transcript-verlag.de/978-3-8376-5584-1/archives-access-and-artificial-intelligence/ # Eve et al, Reviewing the Reviewers, transcript-verlag book
+- author: Martin Paul Eve
+  date: '2022-10-01'
+  title: “Non”-Fiction
+  type: ScholarlyArticle
+  url: https://eprints.bbk.ac.uk/id/eprint/32199
+- author: Martin Paul Eve
+  date: '2024-08-16'
+  title: The Essay in the Career of the Contemporary English Novelist
+  type: ScholarlyArticle
+  url: https://eprints.bbk.ac.uk/id/eprint/43087
+- author: Martin Paul Eve
+  date: '2022-04-25'
+  title: 'Open Access and Neoliberalism: A Response to Holmwood and Marcuello-Servós'
+  type: ScholarlyArticle
+  url: https://eprints.bbk.ac.uk/id/eprint/44173
+- author: Martin Paul Eve
+  date: '2022-11-27'
+  title: Open Access in the Humanities Disciplines
+  type: ScholarlyArticle
+  url: https://eprints.bbk.ac.uk/id/eprint/40856
+- author: Martin Paul Eve
+  date: '2021-10-05'
+  title: Introduction
+  type: ScholarlyArticle
+  url: https://eprints.bbk.ac.uk/id/eprint/46197
+- title: Archives, Access and Artificial Intelligence
+  type: Book
+  url: https://www.transcript-verlag.de/978-3-8376-5584-1/archives-access-and-artificial-intelligence/
+  isPartOf:
+    name: transcript Verlag
+    type: WebSite
 ---
 
 2021 was another pretty bad pandemic year, in many ways. For those of us with immune system compromise it was alarming to see a near-wholesale return to "normality" among the general population when our lives remained under extreme threat. In this whole year, I have scarcely been away from home, the exception being an unavoidable admission to the National Neurology Hospital, who got a bit further in identifying some of my neurological problems, which appear due to degenerative spinal damage from rheumatoid arthritis. Such is life.

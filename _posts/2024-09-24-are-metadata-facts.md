@@ -15,7 +15,10 @@ categories:
 - Copyright and Licensing
 kcworks: https://works.hcommons.org/records/w1dw5-0f297
 references:
-- https://www.amazon.co.uk/Metaphors-Digital-Textual-History-Stanford-Technologies/dp/1503614883/ref=sr_1_1 # Eve, Theses on the Metaphors of Digital-Textual History, Amazon
+- author: Martin Paul Eve
+  title: Theses on the Metaphors of Digital-Textual History
+  type: Book
+  url: https://www.amazon.co.uk/dp/1503614883
 ---
 
 This post picks up an argument that I made in [Theses on the Metaphors of Digital-Textual History](https://www.amazon.co.uk/Metaphors-Digital-Textual-History-Stanford-Technologies/dp/1503614883/ref=sr_1_1) about facts and copyright. Namely, that although facts are exempt from copyright, factual status is not necessarily stable.

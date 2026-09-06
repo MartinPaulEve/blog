@@ -16,7 +16,12 @@ title: New review published of Joanna Freer, Thomas Pynchon and the American Cou
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc6auoc2i"
 kcworks: https://works.hcommons.org/records/4cx0k-ttn67
 references:
-- http://journals.cambridge.org/action/displaySpecialPage?pageId=4608 # Cambridge Journals green OA self-archiving policy
+- title: Open access policies
+  type: WebPage
+  url: http://journals.cambridge.org/action/displaySpecialPage?pageId=4608
+  isPartOf:
+    name: Cambridge Core
+    type: WebSite
 - http://dx.doi.org/10.1017/S0021875815001607 # Eve review in Journal of American Studies
 ---
 

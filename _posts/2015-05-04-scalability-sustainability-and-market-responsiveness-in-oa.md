@@ -19,10 +19,26 @@ title: Scalability, Sustainability, Market Responsiveness and Mandates in OA
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mctupdx2s"
 kcworks: https://works.hcommons.org/records/whfc4-5b570
 references:
-- http://www.wellcome.ac.uk/about-us/policy/spotlight-issues/Open-access/index.htm # Wellcome Trust open access policy page
+- title: Open Access Guidance
+  type: WebPage
+  url: http://www.wellcome.ac.uk/about-us/policy/spotlight-issues/Open-access/index.htm
+  isPartOf:
+    name: Wellcome
+    type: WebSite
 - http://dx.doi.org/10.1629/uksg.166 # Eve article on APC scalability in UKSG Insights
-- http://blogs.sas.ac.uk/2014/10/29/open-access-free-from-having-to-sell/ # SAS blog post on OA and academic authors not selling
-- http://occamstypewriter.org/scurry/2015/04/08/open-access-a-national-licence-is-not-the-answer/ # Occam's Typewriter post against national OA licence
+- date: '2014-10-29'
+  title: 'Open Access: free ''from having to sell'''
+  type: BlogPosting
+  url: http://blogs.sas.ac.uk/2014/10/29/open-access-free-from-having-to-sell/
+  isPartOf:
+    name: SAS Blogs
+    type: Blog
+- title: 'Open access: a national licence is not the answer'
+  type: BlogPosting
+  url: http://occamstypewriter.org/scurry/2015/04/08/open-access-a-national-licence-is-not-the-answer/
+  isPartOf:
+    name: Reciprocal Space
+    type: Blog
 - https://mitpress.mit.edu/sites/default/files/9780262517638_Open_Access_PDF_Version.pdf # Suber, Open Access book PDF via MIT Press
 - http://dx.doi.org/10.1017/CBO9781316161012.004 # Eve, Open Access and the Humanities chapter on symbolic economy
 ---

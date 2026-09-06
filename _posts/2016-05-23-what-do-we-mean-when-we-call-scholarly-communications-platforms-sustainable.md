@@ -16,8 +16,22 @@ categories:
 kcworks: https://works.hcommons.org/records/r2dvm-qfg30
 references:
 - http://dx.doi.org/10.6084/m9.figshare.1314859.v1 # Bilder, Lin, Neylon, Principles for Open Infrastructure
-- https://svpow.com/2016/05/22/elseviers-increasing-control-over-scholarly-infrastructure-and-how-funders-should-fix-this/ # Taylor SVPOW post on Elsevier infrastructure control
-- http://bjoern.brembs.net/2016/05/why-havent-we-already-canceled-all-subscriptions/ # Brembs post on canceling journal subscriptions
+- author: Mike Taylor
+  date: '2016-05-22'
+  title: Elsevier's increasing control over scholarly infrastructure, and how funders should fix this
+  type: BlogPosting
+  url: https://svpow.com/2016/05/22/elseviers-increasing-control-over-scholarly-infrastructure-and-how-funders-should-fix-this/
+  isPartOf:
+    name: Sauropod Vertebra Picture of the Week
+    type: Blog
+- author: Bjoern Brembs
+  date: '2016-05-20'
+  title: Why haven't we already canceled all subscriptions?
+  type: BlogPosting
+  url: http://bjoern.brembs.net/2016/05/why-havent-we-already-canceled-all-subscriptions/
+  isPartOf:
+    name: bjoern.brembs.blog
+    type: Blog
 ---
 
 The title here is a little deceptive. Because, clearly, I do know what we mean when we call scholarly communications platforms 'sustainable'. We mean that they will, through one business model or another, manage to maintain themselves without research funders ploughing endless cash into them. Yet, I've been thinking about this recently and it comes with several pre-assumptions that are quite tricky to unpick.

@@ -24,7 +24,14 @@ wordpress_url: https://www.martineve.com/?p=2531
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhfc3lt2h"
 kcworks: https://works.hcommons.org/records/w71yv-69d57
 references:
-- http://www.timeshighereducation.co.uk/story.asp?sectioncode=26&storycode=422188&c=1 # Times Higher Education piece on history editors statement
+- author: Paul Jump
+  date: '2012-12-20'
+  title: Journals nail colours to the mast in revolt over RCUK open-access policy
+  type: NewsArticle
+  url: http://www.timeshighereducation.co.uk/story.asp?sectioncode=26&storycode=422188&c=1
+  isPartOf:
+    name: Times Higher Education
+    type: Periodical
 - http://www.history.ac.uk/news/2012-12-10/statement-position-relation-open-access # History editors statement equating CC-BY with plagiarism
 ---
 

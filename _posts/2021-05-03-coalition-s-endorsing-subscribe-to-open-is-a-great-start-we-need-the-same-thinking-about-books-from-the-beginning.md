@@ -15,13 +15,41 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/jfw76-b0022
 references:
-- https://www.coalition-s.org/coalition-s-endorses-the-s2o-model-of-funding-oa/ # cOAlition S endorsement of Subscribe to Open model
-- https://blogs.lse.ac.uk/impactofsocialsciences/2018/10/24/plan-show-me-the-money-why-academic-led-initiatives-represent-a-more-equitable-less-costly-publishing-future/ # LSE blog critique of Plan S APC bias
-- https://www.coalition-s.org/why-plan-s/ # cOAlition S Plan S rationale page
-- https://www.coalition-s.org/diamond-unearthed-shining-light-on-community-driven-open-access-publishing/ # cOAlition S Diamond OA report
-- https://www.coalition-s.org/blog/diamond-mining/ # cOAlition S blog on Diamond OA funding
+- title: cOAlition S endorses the Subscribe to Open (S2O) model of funding open access
+  type: WebPage
+  url: https://www.coalition-s.org/coalition-s-endorses-the-s2o-model-of-funding-oa/
+  isPartOf:
+    name: Plan S
+    type: WebSite
+- date: '2018-10-24'
+  title: 'Plan S[how me the money]: why academic-led initiatives represent a more equitable, less costly publishing future'
+  type: BlogPosting
+  url: https://blogs.lse.ac.uk/impactofsocialsciences/2018/10/24/plan-show-me-the-money-why-academic-led-initiatives-represent-a-more-equitable-less-costly-publishing-future/
+  isPartOf:
+    name: LSE Impact Blog
+    type: Blog
+- title: Why Plan S
+  type: WebPage
+  url: https://www.coalition-s.org/why-plan-s/
+  isPartOf:
+    name: Plan S
+    type: WebSite
+- title: 'Diamond unearthed: shining light on community-driven Open Access publishing'
+  type: WebPage
+  url: https://www.coalition-s.org/diamond-unearthed-shining-light-on-community-driven-open-access-publishing/
+  isPartOf:
+    name: Plan S
+    type: WebSite
+- title: Diamond Mining
+  type: BlogPosting
+  url: https://www.coalition-s.org/blog/diamond-mining/
+  isPartOf:
+    name: Plan S
+    type: Blog
 - https://openlibhums.org/ # Open Library of Humanities homepage
-- https://www.openingthefuture.net/ # Opening the Future OA books scheme
+- title: Opening the Future
+  type: WebSite
+  url: https://www.openingthefuture.net/
 ---
 
 This week, [cOAlition S endorsed the Subscribe to Open (S2O) business model](https://www.coalition-s.org/coalition-s-endorses-the-s2o-model-of-funding-oa/).

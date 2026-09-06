@@ -27,7 +27,12 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmdxqw2
 kcworks: https://works.hcommons.org/records/s0q9m-7ym39
 references:
 - http://pro.grammatic.org/sshsplit/sshsplit-screen1.png # sshsplit screenshot 1 on pro.grammatic.org
-- https://launchpad.net/sshsplit # sshsplit Launchpad project home
+- title: sshsplit
+  type: SoftwareSourceCode
+  url: https://launchpad.net/sshsplit
+  isPartOf:
+    name: Launchpad
+    type: WebSite
 ---
 
 <p>Introducing sshsplit</p>

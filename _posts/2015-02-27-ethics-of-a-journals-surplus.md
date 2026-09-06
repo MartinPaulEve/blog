@@ -17,8 +17,21 @@ title: Ethics of a Journal's Surplus
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7md75hej2f"
 kcworks: https://works.hcommons.org/records/xxhzd-c6e39
 references:
-- http://www.timeshighereducation.co.uk/comment/letters/ethics-of-journals-surplus/2018757.article # Eve letter in Times Higher Education on journal surplus ethics
-- http://www.timeshighereducation.co.uk/news/journal-board-in-the-dark-over-1m-surplus/2018611.article # THE news on Sociological Review pound 1m surplus
+- date: '2015-02-26'
+  title: Ethics of journal's surplus
+  type: NewsArticle
+  url: http://www.timeshighereducation.co.uk/comment/letters/ethics-of-journals-surplus/2018757.article
+  isPartOf:
+    name: Times Higher Education
+    type: Periodical
+- author: Paul Jump
+  date: '2015-02-19'
+  title: Journal board in the dark over £1m surplus
+  type: NewsArticle
+  url: http://www.timeshighereducation.co.uk/news/journal-board-in-the-dark-over-1m-surplus/2018611.article
+  isPartOf:
+    name: Times Higher Education
+    type: Periodical
 ---
 
 I wrote the following letter in [this week's Times Higher Education](http://www.timeshighereducation.co.uk/comment/letters/ethics-of-journals-surplus/2018757.article). I post it here for those who can't get past the paywall.

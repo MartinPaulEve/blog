@@ -16,7 +16,11 @@ categories:
 - Conferences
 kcworks: https://works.hcommons.org/records/njfrc-mey73
 references:
-- http://eprints.bbk.ac.uk/id/eprint/27525 # Eve, Digital Library Futures keynote slides and text, Birkbeck
+- author: Martin Paul Eve
+  date: '2019-05-21'
+  title: 'The Sacred Unreadable Artefact: Digital Preservation, Computational Abundance, and Scarce Access'
+  type: WebPage
+  url: http://eprints.bbk.ac.uk/id/eprint/27525
 ---
 
 <h4>The Sacred Unreadable Artefact: Digital Preservation, Computational Abundance, and Scarce Access</h4>

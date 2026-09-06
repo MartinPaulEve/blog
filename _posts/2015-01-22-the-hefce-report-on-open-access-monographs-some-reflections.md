@@ -21,8 +21,17 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdbq2yo
 kcworks: https://works.hcommons.org/records/gews4-6eg11
 references:
 - http://www.hefce.ac.uk/pubs/rereports/year/2015/monographs/ # HEFCE 2015 report on open access monographs
-- https://www.hefce.ac.uk/media/hefce/content/pubs/2014/201407/HEFCE2014_07.pdf # HEFCE 2014 open access policy document
-- http://www.timeshighereducation.co.uk/comment/letters/questions-over-open-books/2013606.article # Evans 2014 THEd letter on open books
+- title: Policy for Open Access in the Post-2014 Research Excellence Framework
+  type: Report
+  publisher: HEFCE
+  url: https://www.hefce.ac.uk/media/hefce/content/pubs/2014/201407/HEFCE2014_07.pdf
+- date: '2014-05-29'
+  title: Questions over open books
+  type: NewsArticle
+  url: http://www.timeshighereducation.co.uk/comment/letters/questions-over-open-books/2013606.article
+  isPartOf:
+    name: Times Higher Education
+    type: Periodical
 - http://www.hefce.ac.uk/media/hefce/content/whatwedo/research/infrastructure/openaccess/Expert_Reference_Group_members.pdf # HEFCE open access expert reference group members
 - http://www.researchinfonet.org/publish/finch/ # Finch report on open access
 - http://dx.doi.org/10.1017/CBO9781316161012 # Eve 2014, Open Access and the Humanities (CUP)

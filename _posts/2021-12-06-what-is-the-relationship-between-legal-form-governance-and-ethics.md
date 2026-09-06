@@ -15,8 +15,17 @@ categories:
 - Scholarly Communications
 kcworks: https://works.hcommons.org/records/ey044-cef27
 references:
-- https://twitter.com/martin_eve/status/1466513937680195592 # Eve Twitter thread on Knowledge Unlatched corporate form
-- https://poynder.blogspot.com/2018/11/the-oa-interviews-frances-pinter.html # Poynder interview with Frances Pinter on OA
+- author: Martin Paul Eve
+  date: '2021-12-02'
+  title: Martin Paul Eve (@martin_eve) on X
+  type: WebPage
+  url: https://twitter.com/martin_eve/status/1466513937680195592
+  isPartOf:
+    name: X
+    type: WebSite
+- title: 'The OA Interviews: Frances Pinter'
+  type: BlogPosting
+  url: https://poynder.blogspot.com/2018/11/the-oa-interviews-frances-pinter.html
 ---
 
 In the world of OA publishing, there have been further (not-so)shock waves reverberating this week as Knowledge Unlatched was sold to Wiley. One of the questions this raises is: how was it possible for this sale to go through and what could have been done to prevent it?

@@ -12,15 +12,44 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/bd3gp-wkg86
 references:
-- http://schema.org/Person # Schema.org Person type definition
+- title: Person
+  type: WebPage
+  url: http://schema.org/Person
+  isPartOf:
+    name: Schema.org
+    type: WebSite
 - https://www.martineve.com # Martin Eve personal website
-- http://eprints.bbk.ac.uk/id/eprint/20574 # Birkbeck eprint: Password (Korean book)
-- http://schema.org/CreativeWork # Schema.org CreativeWork type definition
-- http://eprints.bbk.ac.uk/id/eprint/20365 # Birkbeck eprint: The Silicon Valley Novel
+- author: Eve, Martin Paul.
+  date: '2017-11-30'
+  title: 패스워드 (Password)
+  type: Book
+  url: http://eprints.bbk.ac.uk/id/eprint/20574
+- title: CreativeWork
+  type: WebPage
+  url: http://schema.org/CreativeWork
+  isPartOf:
+    name: Schema.org
+    type: WebSite
+- author:
+  - Eve, Martin Paul
+  - Street, Joe
+  date: '2018-03-01'
+  title: The Silicon Valley Novel
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/20365
 - https://www.martineve.com/JoeStreet # Martin Eve author profile: Joe Street
-- http://schema.org/Periodical # Schema.org Periodical type definition
+- title: Periodical
+  type: WebPage
+  url: http://schema.org/Periodical
+  isPartOf:
+    name: Schema.org
+    type: WebSite
 - http://eprints.bbk.ac.uk/id/document/38019 # Birkbeck document download: Silicon Valley Novel
-- http://eprints.bbk.ac.uk/id/eprint/20204 # Birkbeck eprint: Hyperobject Metadata Station Eleven article
+- author: Eve, Martin Paul.
+  date: '2018-02-14'
+  title: 'Reading Very Well for Our Age: Hyperobject Metadata and Global Warming in Emily St John Mandel’s Station Eleven'
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/20204
 - http://eprints.bbk.ac.uk/id/document/37714 # Birkbeck document download: Station Eleven article
 - https://doi.org/10.16995/c21.17 # Eve, Preferential Consideration: Bartleby and Wallace
 - http://eprints.bbk.ac.uk/id/document/38763 # Birkbeck document download: Wallace article
@@ -31,42 +60,123 @@ references:
 - https://www.martineve.com/GrahamStone # Martin Eve author profile: Graham Stone
 - http://eprints.bbk.ac.uk/id/document/37831 # Birkbeck document download: OA mandate cost estimates
 - http://eprints.bbk.ac.uk/id/document/37553 # Birkbeck document download: Cloud Atlas article
-- http://eprints.bbk.ac.uk/id/eprint/18690 # Birkbeck eprint: Great Automatic Grammatizator article
+- author: Martin Paul Eve
+  date: '2017-10-27'
+  title: 'The Great Automatic Grammatizator: Writing, Labour, Computers'
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/18690
 - http://eprints.bbk.ac.uk/id/document/34449 # Birkbeck document: Grammatizator preprint download
 - http://eprints.bbk.ac.uk/id/document/37548 # Birkbeck document: Grammatizator accepted manuscript download
-- http://eprints.bbk.ac.uk/id/eprint/19432 # Birkbeck eprint: Open Publication Digital Abundance article
+- author: Martin Paul Eve
+  date: '2017-10-23'
+  title: Open Publication, Digital Abundance, and Scarce Labour
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/19432
 - http://eprints.bbk.ac.uk/id/document/35902 # Birkbeck document download: Open Publication article
-- http://www.triple-c.at/index.php/tripleC/article/view/867 # Eve and Priego, Who is Harmed by Predatory Publishers
+- author:
+  - Martin Paul Eve
+  - Ernesto Priego
+  date: '2017-08-13'
+  title: Who is Actually Harmed by Predatory Publishers?
+  type: ScholarlyArticle
+  url: http://www.triple-c.at/index.php/tripleC/article/view/867
+  isPartOf:
+    name: 'tripleC: Communication, Capitalism & Critique'
+    type: Periodical
 - https://www.martineve.com/ErnestoPriego # Martin Eve author profile: Ernesto Priego
 - http://eprints.bbk.ac.uk/id/document/35833 # Birkbeck document download: Predatory Publishers article
 - http://eprints.bbk.ac.uk/id/document/34865 # Birkbeck document download: web annotations article
 - https://dx.doi.org/10.1057/palcomms.2016.105 # Eve et al., Excellence R Us: fetishisation of excellence
 - http://eprints.bbk.ac.uk/id/document/32271 # Birkbeck document download: Excellence R Us
-- http://eprints.bbk.ac.uk/id/eprint/20338 # Birkbeck eprint: Late Modernism Postmodernism book chapter
-- http://eprints.bbk.ac.uk/id/eprint/20164 # Birkbeck eprint: Philosophy chapter in Pynchon in Context
-- http://eprints.bbk.ac.uk/id/eprint/20163 # Birkbeck eprint: Pynchon and the New Materialism chapter
-- http://eprints.bbk.ac.uk/id/eprint/19472 # Birkbeck eprint: Sincerity chapter in Routledge Companion
-- http://eprints.bbk.ac.uk/id/eprint/20165 # Birkbeck eprint: Violins in the Subway DH chapter
+- author: Eve, Martin Paul.
+  date: '2019-08-01'
+  title: Late Modernism, Postmodernism, and After
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/20338
+- author: Eve, Martin Paul
+  date: '2019-06-20'
+  title: Philosophy
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/20164
+- author: Eve, Martin Paul
+  date: '2019-05-01'
+  title: Pynchon and the New Materialism
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/20163
+- author: Martin Paul Eve
+  date: '2021-09-30'
+  title: Sincerity
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/19472
+- author: Eve, Martin Paul.
+  date: '2020-01-31'
+  title: 'Violins in the Subway: Scarcity Correlations, Evaluative Cultures, and Disciplinary Authority in the Digital Humanities'
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/20165
 - http://eprints.bbk.ac.uk/id/document/37786 # Birkbeck document download: Violins in the Subway chapter
-- http://eprints.bbk.ac.uk/id/eprint/19845 # Birkbeck eprint: Jennifer Egan dictionary entry
-- http://eprints.bbk.ac.uk/id/eprint/19295 # Birkbeck eprint: Publishing and Information Oxford Handbook chapter
+- author: Martin Paul Eve
+  date: '2018-05-01'
+  title: Jennifer Egan
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/19845
+- author: Martin Paul Eve
+  date: '2019-04-23'
+  title: Publishing and information
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/19295
 - http://eprints.bbk.ac.uk/id/document/35734 # Birkbeck document download: Publishing and Information chapter
-- http://eprints.bbk.ac.uk/id/eprint/20046 # Birkbeck eprint: Dance Like Nobody's Watching chapter
+- author: Eve, Martin Paul
+  date: '2018-04-01'
+  title: '“Dance Like Nobody’s Watching”: The Mediated Shame of Academic Publishing'
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/20046
 - http://eprints.bbk.ac.uk/id/document/37264 # Birkbeck document download: Dance Like Nobody's Watching
-- http://eprints.bbk.ac.uk/id/eprint/18324 # Birkbeck eprint: Scarcity and Abundance electronic literature chapter
-- http://eprints.bbk.ac.uk/id/eprint/16684 # Birkbeck eprint: Open Access in the United Kingdom chapter
+- author: Martin Paul Eve
+  date: '2017-10-05'
+  title: Scarcity and Abundance
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/18324
+- author: Martin Paul Eve
+  date: '2017-09-17'
+  title: Open Access in the United Kingdom
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/16684
 - http://eprints.bbk.ac.uk/id/document/34793 # Birkbeck document download: Open Access UK chapter
-- http://eprints.bbk.ac.uk/id/eprint/16682 # Birkbeck eprint: Openness Politics and Power chapter
+- author: Martin Paul Eve
+  date: '2017-08-24'
+  title: Openness, Politics and Power
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/16682
 - https://www.martineve.com/Saskiade # Martin Eve author profile: Saskia de Vries
 - https://www.martineve.com/JohanRooryck # Martin Eve author profile: Johan Rooryck
 - http://eprints.bbk.ac.uk/id/document/34947 # Birkbeck document download: Transition to OA chapter
-- http://eprints.bbk.ac.uk/id/eprint/19518 # Birkbeck eprint: Review of Berry and Fagerjord Digital Humanities
+- author: Martin Paul Eve
+  date: '2018-03-27'
+  title: 'Review of Digital Humanities: Knowledge and Critique in a Digital Age by David M. Berry and Anders Fagerjord (Eds.)'
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/19518
 - http://eprints.bbk.ac.uk/id/document/36054 # Birkbeck document download: Berry Fagerjord review
-- http://eprints.bbk.ac.uk/id/eprint/18231 # Birkbeck eprint: Review of Koehler Creative Writing DH
+- author: Martin Paul Eve
+  date: '2017-11-21'
+  title: Review of Composition, Creative Writing Studies and the Digital Humanities by Adam Koehler
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/18231
 - http://eprints.bbk.ac.uk/id/document/33180 # Birkbeck document download: Koehler review
-- http://eprints.bbk.ac.uk/id/eprint/20447 # Birkbeck eprint: Sci-Hub domains court order news piece
+- author:
+  - Silver, Andrew
+  - Eve, Martin Paul
+  date: '2017-11-23'
+  title: Sci-Hub domains inactive following court order
+  type: NewsArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/20447
 - https://www.martineve.com/AndrewSilver # Martin Eve author profile: Andrew Silver
-- http://eprints.bbk.ac.uk/id/eprint/19846 # Birkbeck eprint: Elsevier regional OA model news piece
+- author:
+  - Pells, Rachael
+  - Eve, Martin Paul
+  date: '2017-09-29'
+  title: Gold or green? Elsevier proposes regional open access model
+  type: NewsArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/19846
 - https://www.martineve.com/RachaelPells # Martin Eve author profile: Rachael Pells
 - https://www.martineve.com/2017/08/21/cambridge-university-press-and-censorship # Eve blog post on CUP and censorship
 - http://eprints.bbk.ac.uk/id/document/36011 # Birkbeck document download: CUP censorship post
@@ -74,13 +184,27 @@ references:
 - http://eprints.bbk.ac.uk/id/document/36010 # Birkbeck document download: third-party rights post
 - https://www.martineve.com/2017/08/03/open-access-monographs-misrepresented # Eve blog post on OA monographs misrepresented
 - http://eprints.bbk.ac.uk/id/document/35732 # Birkbeck document download: OA monographs misrepresented
-- http://eprints.bbk.ac.uk/id/eprint/19293 # Birkbeck eprint: Open to Adaptation THEd letter
+- author: Martin Paul Eve
+  date: '2017-08-03'
+  title: Open to Adaptation
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/19293
 - http://eprints.bbk.ac.uk/id/document/35731 # Birkbeck document download: Open to Adaptation
 - https://www.martineve.com/2017/07/21/on-ecrs-and-non-portability-of-outputs # Eve blog post on ECRs and REF output non-portability
 - http://eprints.bbk.ac.uk/id/document/35607 # Birkbeck document download: ECRs non-portability post
-- http://eprints.bbk.ac.uk/id/eprint/19214 # Birkbeck eprint: How much do you understand peer review
+- author: Martin Paul Eve
+  date: '2017-07-19'
+  title: How much do you really understand about the peer-review process?
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/19214
 - http://eprints.bbk.ac.uk/id/document/35608 # Birkbeck document download: peer review understanding piece
-- http://blogs.bbk.ac.uk/english/2017/07/17/martin-eve-on-contemporary-slo-mo-electro/ # Birkbeck blog: Eve on Contemporary Slo-Mo Electro
+- author: Martin Paul Eve
+  title: Martin Eve catches up with Contemporary Slo-Mo Electro
+  type: BlogPosting
+  url: http://blogs.bbk.ac.uk/english/2017/07/17/martin-eve-on-contemporary-slo-mo-electro/
+  isPartOf:
+    name: Birkbeck English Blog
+    type: Blog
 - http://eprints.bbk.ac.uk/id/document/35531 # Birkbeck document download: Slo-Mo Electro post
 - https://www.martineve.com/2017/07/13/mediating-forms-and-free-thinking-or-on-selecting-journals # Eve blog post on mediating forms and selecting journals
 - http://eprints.bbk.ac.uk/id/document/35479 # Birkbeck document download: mediating forms post
@@ -92,9 +216,17 @@ references:
 - http://eprints.bbk.ac.uk/id/document/34912 # Birkbeck document download: Pynchon Cow Country (second file)
 - https://www.martineve.com/2017/05/29/lingua-refund # Eve blog post on Elsevier Lingua refund
 - http://eprints.bbk.ac.uk/id/document/34655 # Birkbeck document download: Lingua refund post
-- http://eprints.bbk.ac.uk/id/eprint/18742 # Birkbeck eprint: Eve on Virginia Woolf's Teeth event
+- author: Martin Paul Eve
+  date: '2017-05-18'
+  title: 'Arts Week 2017: Grin and Bear It: Peter Fifield on Virginia Woolf’s Teeth'
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/18742
 - http://eprints.bbk.ac.uk/id/document/34545 # Birkbeck document download: Virginia Woolf's Teeth post
-- http://eprints.bbk.ac.uk/id/eprint/18738 # Birkbeck eprint: Eve on Fifty Years of The Third Policeman
+- author: Martin Paul Eve
+  date: '2017-05-17'
+  title: 'Arts Week 2017: What goes around. Fifty years of ‘The Third Policeman’'
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/18738
 - http://eprints.bbk.ac.uk/id/document/34519 # Birkbeck document download: Third Policeman post
 - https://www.martineve.com/2017/05/12/two-types-of-post-critique # Eve blog post: Two types of post-critique
 - http://eprints.bbk.ac.uk/id/document/34489 # Birkbeck document download: two types post-critique
@@ -106,14 +238,32 @@ references:
 - http://eprints.bbk.ac.uk/id/document/34290 # Birkbeck document download: consortial OA funding post
 - https://www.martineve.com/2017/04/21/the-folio-society-edition-of-riddley-walker # Eve blog post on Folio Society Riddley Walker edition
 - http://eprints.bbk.ac.uk/id/document/34265 # Birkbeck document download: Riddley Walker post
-- http://eprints.bbk.ac.uk/id/eprint/18602 # Birkbeck eprint: Eve on The White Devil at Wanamaker Playhouse
+- author: Martin Paul Eve
+  date: '2017-04-21'
+  title: Martin Eve on The White Devil at the Wanamaker Playhouse
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/18602
 - http://eprints.bbk.ac.uk/id/document/34257 # Birkbeck document download: White Devil review
-- http://eprints.bbk.ac.uk/id/eprint/18539 # Birkbeck eprint: How a Browser Extension Could Shake Academic Publishing
-- http://eprints.bbk.ac.uk/id/eprint/18601 # Birkbeck eprint: Eve on Albee's The Goat at theatre
+- author:
+  - Lindsay McKenzie
+  - Martin Paul Eve
+  date: '2017-04-06'
+  title: How a Browser Extension Could Shake Up Academic Publishing
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/18539
+- author: Martin Paul Eve
+  date: '2017-04-04'
+  title: Martin Eve on Edward Albee's The Goat, or Who is Sylvia?
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/18601
 - http://eprints.bbk.ac.uk/id/document/34256 # Birkbeck document download: The Goat review
 - https://www.martineve.com/2017/04/03/100-people-in-a-room # Eve blog post on OA funding distributional effects
 - http://eprints.bbk.ac.uk/id/document/34140 # Birkbeck document download: 100 people in a room post
-- http://eprints.bbk.ac.uk/id/eprint/18525 # Birkbeck eprint: On Being Open In Practice: Giving Credit
+- author: Martin Paul Eve
+  date: '2017-04-03'
+  title: 'On Being Open In Practice: Giving Credit Where it is Due'
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/18525
 - http://eprints.bbk.ac.uk/id/document/34138 # Birkbeck document download: On Being Open In Practice
 - https://www.martineve.com/2017/04/01/librarian-evaluation-of-non-apc-oa-models-in-the-age-of-open-access # Eve blog post on librarian evaluation of non-APC OA
 - http://eprints.bbk.ac.uk/id/document/34137 # Birkbeck document download: librarian evaluation OA post
@@ -123,20 +273,39 @@ references:
 - http://eprints.bbk.ac.uk/id/document/33505 # Birkbeck document download: flipping subscription journals
 - https://www.martineve.com/2017/02/28/conducting-non-commercial-research-on-in-copyright-amazon-kindle-books # Eve blog post on researching in-copyright Kindle books
 - http://eprints.bbk.ac.uk/id/document/33232 # Birkbeck document download: Kindle books research post
-- http://eprints.bbk.ac.uk/id/eprint/18241 # Birkbeck eprint: Time to heed drive towards open books
+- author: Martin Paul Eve
+  date: '2017-02-28'
+  title: It's time to heed the drive towards open books
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/18241
 - http://eprints.bbk.ac.uk/id/document/33211 # Birkbeck document download: open books piece
 - https://www.martineve.com/2017/02/16/judging-the-painting-research-without-the-frame-the-journal # Eve blog post on judging research without journal frame
 - http://eprints.bbk.ac.uk/id/document/33057 # Birkbeck document download: judging the painting post
 - https://www.martineve.com/2017/02/13/how-much-does-it-cost-to-run-a-small-scholarly-publisher # Eve blog post on costs of running a small publisher
 - http://eprints.bbk.ac.uk/id/document/32968 # Birkbeck document: publisher costs Markdown download
 - http://eprints.bbk.ac.uk/id/document/32969 # Birkbeck document: publisher costs per article graph download
-- http://blogs.bbk.ac.uk/english/2017/02/13/martin-paul-eve-on-talking-disability-activism-with-naomi-lawson-jacobs-and-judith-butler/ # Birkbeck blog: Eve on disability activism with Butler
+- author: Martin Paul Eve
+  title: Martin Paul Eve on talking disability activism with Naomi Lawson Jacobs and Judith Butler
+  type: BlogPosting
+  url: http://blogs.bbk.ac.uk/english/2017/02/13/martin-paul-eve-on-talking-disability-activism-with-naomi-lawson-jacobs-and-judith-butler/
+  isPartOf:
+    name: Birkbeck English Blog
+    type: Blog
 - http://eprints.bbk.ac.uk/id/document/32959 # Birkbeck document download: disability activism post
 - https://www.martineve.com/2017/02/10/on-automatically-detecting-parenthetical-citations # Eve blog post on detecting parenthetical citations
 - http://eprints.bbk.ac.uk/id/document/32908 # Birkbeck document download: parenthetical citations post
-- http://eprints.bbk.ac.uk/id/eprint/18066 # Birkbeck eprint: If the REF ain't broke Times Higher piece
+- author: Martin Paul Eve
+  date: '2017-02-01'
+  title: If the REF ain't broke...
+  type: NewsArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/18066
 - http://eprints.bbk.ac.uk/id/document/32712 # Birkbeck document download: REF ain't broke piece
-- http://blogs.bbk.ac.uk/events/2017/01/27/open-cultural-data-discussing-digitisation/ # Birkbeck events blog: Open Cultural Data Digitisation post
+- title: 'Open Cultural Data: Discussing Digitisation'
+  type: BlogPosting
+  url: http://blogs.bbk.ac.uk/events/2017/01/27/open-cultural-data-discussing-digitisation/
+  isPartOf:
+    name: Birkbeck Events Blog
+    type: Blog
 - https://www.martineve.com/HannahBarton # Martin Eve author profile: Hannah Barton
 - https://www.martineve.com/JoelMcKim # Martin Eve author profile: Joel McKim
 - http://eprints.bbk.ac.uk/id/document/32547 # Birkbeck document download: Open Cultural Data post
@@ -148,11 +317,23 @@ references:
 - http://eprints.bbk.ac.uk/id/document/32125 # Birkbeck document download: Emerald future publishing post
 - https://dx.doi.org/10.6084/m9.figshare.4558237 # Figshare: Imagining Tomorrow's University report
 - http://eprints.bbk.ac.uk/id/document/32143 # Birkbeck document download: Imagining Tomorrow's University
-- http://blogs.bbk.ac.uk/english/2017/01/16/martin-eve-on-nice-fish-at-the-harold-pinter-theatre/ # Birkbeck blog: Eve on Nice Fish at Harold Pinter Theatre
+- author: Martin Paul Eve
+  title: Martin Eve on Nice Fish at the Harold Pinter Theatre
+  type: BlogPosting
+  url: http://blogs.bbk.ac.uk/english/2017/01/16/martin-eve-on-nice-fish-at-the-harold-pinter-theatre/
+  isPartOf:
+    name: Birkbeck English Blog
+    type: Blog
 - http://eprints.bbk.ac.uk/id/document/32033 # Birkbeck document download: Nice Fish review post
 - https://www.martineve.com/2017/01/16/thinking-more-about-eu-law-and-uk-copyright-exemptions # Eve blog post on EU law and UK copyright exemptions
 - http://eprints.bbk.ac.uk/id/document/32060 # Birkbeck document download: EU law copyright post
-- http://eprints.bbk.ac.uk/id/eprint/17921 # Birkbeck eprint: Germans lose Elsevier access news piece
+- author:
+  - Craig Nicholson
+  - Martin Paul Eve
+  date: '2017-01-12'
+  title: Germans lose access to Elsevier as talks stall
+  type: NewsArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/17921
 - https://www.martineve.com/CraigNicholson # Martin Eve author profile: Craig Nicholson
 - https://www.martineve.com/2017/01/06/my-responses-to-the-consultation-on-the-second-research-excellence-framework # Eve blog post: responses to REF2 consultation
 - http://eprints.bbk.ac.uk/id/document/31749 # Birkbeck document download: REF2 consultation responses
@@ -162,49 +343,196 @@ references:
 - http://eprints.bbk.ac.uk/id/document/31560 # Birkbeck document download: learned societies OA post
 - https://www.martineve.com/2017/01/01/the-rivalrous-parts-of-non-rivalrous-digital-forms # Eve blog post on rivalrous parts of digital forms
 - http://eprints.bbk.ac.uk/id/document/31559 # Birkbeck document download: rivalrous digital forms post
-- http://schema.org/EducationEvent # Schema.org EducationEvent type definition
-- http://eprints.bbk.ac.uk/id/eprint/20493 # Birkbeck eprint: OA Peer Review and Editorial Workflows talk
-- http://schema.org/Place # Schema.org Place type definition
-- http://eprints.bbk.ac.uk/id/eprint/20336 # Birkbeck eprint: APC logic vs consortial funding talk
-- http://eprints.bbk.ac.uk/id/eprint/20327 # Birkbeck eprint: Debating Open Access round table talk
+- title: EducationEvent
+  type: WebPage
+  url: http://schema.org/EducationEvent
+  isPartOf:
+    name: Schema.org
+    type: WebSite
+- author: Eve, Martin Paul.
+  date: '2017-11-30'
+  title: Open Access, Peer Review, and Editorial Workflows
+  type: WebPage
+  url: http://eprints.bbk.ac.uk/id/eprint/20493
+- title: Place
+  type: WebPage
+  url: http://schema.org/Place
+  isPartOf:
+    name: Schema.org
+    type: WebSite
+- author: Eve, Martin Paul.
+  date: '2017-11-22'
+  title: 'A matter of distribution: APC logic against consortial funding mechanisms'
+  type: WebPage
+  url: http://eprints.bbk.ac.uk/id/eprint/20336
+- author:
+  - Maricevic, Maja
+  - Reimer, Torsten
+  - Sudlow, Allan
+  - Eve, Martin Paul
+  - Mowlam, Tom
+  date: '2017-11-17'
+  title: Debating Open Access
+  type: WebPage
+  url: http://eprints.bbk.ac.uk/id/eprint/20327
 - https://www.martineve.com/MajaMaricevic # Martin Eve author profile: Maja Maricevic
 - https://www.martineve.com/TorstenReimer # Martin Eve author profile: Torsten Reimer
 - https://www.martineve.com/AllanSudlow # Martin Eve author profile: Allan Sudlow
 - https://www.martineve.com/TomMowlam # Martin Eve author profile: Tom Mowlam
-- http://eprints.bbk.ac.uk/id/eprint/20325 # Birkbeck eprint: The Open Library of Humanities talk
-- http://eprints.bbk.ac.uk/id/eprint/20328 # Birkbeck eprint: Research exploitation IPR and OA Policy talk
+- author: Eve, Martin Paul.
+  date: '2017-11-17'
+  title: The Open Library of Humanities
+  type: WebPage
+  url: http://eprints.bbk.ac.uk/id/eprint/20325
+- author:
+  - Eve, Martin Paul
+  - Porter, Helen
+  date: '2017-11-15'
+  title: Research exploitation, Intellectual Property Rights, and Open Access Policy
+  type: WebPage
+  url: http://eprints.bbk.ac.uk/id/eprint/20328
 - https://www.martineve.com/HelenPorter # Martin Eve author profile: Helen Porter
-- http://eprints.bbk.ac.uk/id/eprint/20293 # Birkbeck eprint: Porter on IPR and OA Policy talk
-- http://eprints.bbk.ac.uk/id/eprint/19584 # Birkbeck eprint: OA Economic Models and Challenges talk
-- http://eprints.bbk.ac.uk/id/eprint/19665 # Birkbeck eprint: FairOA and Consortial Models OA Tage talk
-- http://eprints.bbk.ac.uk/id/eprint/19583 # Birkbeck eprint: Flipping to OA Using Consortial Funding talk
-- http://eprints.bbk.ac.uk/id/eprint/19514 # Birkbeck eprint: OA in Dry Funding Climates Open Science Fair
-- http://eprints.bbk.ac.uk/id/eprint/19145 # Birkbeck eprint: Contemporary Textual Scholarship Canon talk
-- http://eprints.bbk.ac.uk/id/eprint/19144 # Birkbeck eprint: How to Get Published as Early Career Academic
-- http://eprints.bbk.ac.uk/id/eprint/18725 # Birkbeck eprint: Pynchon Cow Country computational stylometry talk
-- http://eprints.bbk.ac.uk/id/eprint/18723 # Birkbeck eprint: Aesthetics of Metadata in Contemporary Fiction talk
-- http://eprints.bbk.ac.uk/id/eprint/18780 # Birkbeck eprint: Difficulties of Humanities Data Analytics talk
-- http://eprints.bbk.ac.uk/id/eprint/18722 # Birkbeck eprint: Politics in Contemporary US Fiction talk
-- http://eprints.bbk.ac.uk/id/eprint/18724 # Birkbeck eprint: Close-Reading Cloud Atlas with Computers talk
-- http://eprints.bbk.ac.uk/id/eprint/18538 # Birkbeck eprint: OLH Open Access Publishing Workshop talk
-- http://eprints.bbk.ac.uk/id/eprint/18537 # Birkbeck eprint: Open Library of the Humanities seminar talk
-- http://eprints.bbk.ac.uk/id/eprint/18518 # Birkbeck eprint: OLH Research Excellence and Publishing talk
-- http://eprints.bbk.ac.uk/id/eprint/18364 # Birkbeck eprint: Open Access Humanities and OLH guest lecture
-- http://eprints.bbk.ac.uk/id/eprint/18407 # Birkbeck eprint: Open publishing models humanities Open in Practice
-- http://eprints.bbk.ac.uk/id/eprint/18517 # Birkbeck eprint: What can we do to make Open Research reality
+- author:
+  - Eve, Martin Paul
+  - Porter, Helen
+  date: '2017-11-14'
+  title: Research exploitation, Intellectual Property Rights, and Open Access Policy
+  type: WebPage
+  url: http://eprints.bbk.ac.uk/id/eprint/20293
+- author: Martin Paul Eve
+  date: '2017-09-14'
+  title: Open Access, Economic Models, and Challenges
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/19584
+- author: Martin Paul Eve
+  date: '2017-09-12'
+  title: FairOA and Consortial Models
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/19665
+- author: Martin Paul Eve
+  date: '2017-09-12'
+  title: Flipping to Open Access Using Consortial Funding Models
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/19583
+- author: Martin Paul Eve
+  date: '2017-09-06'
+  title: 'OA in Dry Funding Climates: Consortial Business Models'
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/19514
+- author: Martin Paul Eve
+  date: '2017-07-06'
+  title: Contemporary Textual Scholarship, Canon, and Publishing
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/19145
+- author: Martin Paul Eve
+  date: '2017-07-05'
+  title: How to Get Published as an Early Career Academic
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/19144
+- author: Martin Paul Eve
+  date: '2017-06-06'
+  title: '“Maybe, but it’s code’s all it is”: Thomas Pynchon, Cow Country, and Computational Stylometry'
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/18725
+- author: Martin Paul Eve
+  date: '2017-05-31'
+  title: 'The Aesthetics of Metadata in Contemporary Fiction: Reference, Redaction, and the Archive'
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/18723
+- author: Martin Paul Eve
+  date: '2017-05-25'
+  title: The Difficulties of Humanities Data Analytics
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/18780
+- author: Martin Paul Eve
+  date: '2017-05-18'
+  title: 'He Doesn''t Talk Politics Anymore: The Role of Politics in Contemporary US Fiction'
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/18722
+- author: Martin Paul Eve
+  date: '2017-05-15'
+  title: Close-Reading Cloud Atlas with Computers
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/18724
+- author: Martin Paul Eve
+  date: '2017-04-07'
+  title: The Open Library of Humanities
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/18538
+- author: Martin Paul Eve
+  date: '2017-04-06'
+  title: The Open Library of the Humanities
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/18537
+- author: Martin Paul Eve
+  date: '2017-04-03'
+  title: The Open Library of Humanities
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/18518
+- author: Martin Paul Eve
+  date: '2017-03-31'
+  title: Open Access in the Humanities and The OLH Project
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/18364
+- author: Martin Paul Eve
+  date: '2017-03-30'
+  title: Open publishing models for the humanities
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/18407
+- author:
+  - Martin Paul Eve
+  - Louise Corti
+  - Iain Hrynaszkiewicz
+  - Jonathan Tedds
+  - Roberta Gilchrist
+  date: '2017-03-30'
+  title: What can we do, as individuals and members of our communities, to make Open Research a reality?
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/18517
 - https://www.martineve.com/LouiseCorti # Martin Eve author profile: Louise Corti
 - https://www.martineve.com/IainHrynaszkiewicz # Martin Eve author profile: Iain Hrynaszkiewicz
 - https://www.martineve.com/JonathanTedds # Martin Eve author profile: Jonathan Tedds
 - https://www.martineve.com/RobertaGilchrist # Martin Eve author profile: Roberta Gilchrist
-- http://eprints.bbk.ac.uk/id/eprint/18466 # Birkbeck eprint: XML and HTML for scholarly communications workshop
-- http://eprints.bbk.ac.uk/id/eprint/18365 # Birkbeck eprint: Intellectual Property Rights UCU talk
-- http://eprints.bbk.ac.uk/id/eprint/18366 # Birkbeck eprint: Imagining Tomorrow's University workshop participant
-- http://eprints.bbk.ac.uk/id/eprint/18105 # Birkbeck eprint: Regular Expressions for Humanists workshop
-- http://eprints.bbk.ac.uk/id/eprint/18194 # Birkbeck eprint: OA Books and the Tricky Transition talk
-- http://eprints.bbk.ac.uk/id/eprint/18134 # Birkbeck eprint: Conversation on Disability Activism seminar
+- author: Martin Paul Eve
+  date: '2017-03-27'
+  title: XML and HTML for scholarly communications
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/18466
+- author: Martin Paul Eve
+  date: '2017-03-16'
+  title: Intellectual Property Rights
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/18365
+- author: Martin Paul Eve
+  date: '2017-03-08'
+  title: Workshop participant
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/18366
+- author: Martin Paul Eve
+  date: '2017-03-02'
+  title: Regular Expressions for Humanists
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/18105
+- author: Martin Paul Eve
+  date: '2017-02-22'
+  title: Open Access, Books, and the Tricky Transition
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/18194
+- author:
+  - Martin Paul Eve
+  - Naomi Lawson Jacobs
+  - Judith Butler
+  date: '2017-02-10'
+  title: Conversation on Disability Activism
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/18134
 - https://www.martineve.com/Naomi # Martin Eve author profile: Naomi Lawson Jacobs
 - https://www.martineve.com/JudithButler # Martin Eve author profile: Judith Butler
-- http://eprints.bbk.ac.uk/id/eprint/17976 # Birkbeck eprint: Creating Future of Academic Publishing talk
+- author: Martin Paul Eve
+  date: '2017-01-23'
+  title: 'Creating the Future of Academic Publishing: Strengthening the Research Ecosystem'
+  type: WebPage
+  url: http://eprints.bbk.ac.uk/id/eprint/17976
 - https://doi.org/10.3368/ss.46.3.76 # Eve, Close Reading Computers Cloud Atlas
 ---
 

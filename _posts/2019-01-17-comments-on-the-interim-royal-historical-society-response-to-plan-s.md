@@ -15,7 +15,12 @@ categories:
 kcworks: https://works.hcommons.org/records/9r3rg-g2050
 references:
 - http://openlibhums.org # Open Library of Humanities website
-- https://wellcome.ac.uk/what-we-do/our-work/open-research#request-for-proposals-and-information # Wellcome Trust UKRI open research funding opportunity
+- title: Open Research
+  type: WebPage
+  url: https://wellcome.ac.uk/what-we-do/our-work/open-research#request-for-proposals-and-information
+  isPartOf:
+    name: Wellcome
+    type: WebSite
 - https://wellcome.ac.uk/sites/default/files/learned-societies-consultancy-request-for-proposals.pdf # Wellcome consultancy RFP for learned societies Plan S transition
 - https://www.cambridge.org/about-us/media/press-releases/cambridge-university-press-announces-sales-and-revenue-growth # Cambridge University Press sales and revenue press release
 ---

@@ -24,7 +24,12 @@ wordpress_url: https://www.martineve.com/?p=2960
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mftodxl2q"
 kcworks: https://works.hcommons.org/records/ssk8k-0c717
 references:
-- http://jimmussell.com/ # Jim Mussell academic website
+- title: jimmussell.com
+  type: WebSite
+  url: http://jimmussell.com/
+  isPartOf:
+    name: jimmussell.com
+    type: Blog
 - http://www.tandfonline.com/toc/rjvc20/18/4 # Journal of Victorian Culture Digital Forum issue
 - http://www.tandfonline.com/doi/full/10.1080/13555502.2013.865979 # Utopia fading article at Journal of Victorian Culture
 ---

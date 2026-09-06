@@ -15,7 +15,12 @@ categories:
 - Digital Preservation
 kcworks: https://works.hcommons.org/records/mpnjt-qsf17
 references:
-- https://www.crossref.org/documentation/retrieve-metadata/rest-api/tips-for-using-public-data-files-and-plus-snapshots/ # Crossref guidance on using public data dumps
+- title: Tips for using public data files and Plus snapshots
+  type: TechArticle
+  url: https://www.crossref.org/documentation/retrieve-metadata/rest-api/tips-for-using-public-data-files-and-plus-snapshots/
+  isPartOf:
+    name: Crossref
+    type: WebSite
 ---
 
 As I posted a while ago, from January 2023 [I will be working at Crossref](https://eve.gd/2022/08/26/moving-on-my-infrastructural-turn/) while retaining my university Professorship. I wanted, here, to outline a few of the projects that I hope to work on once I get started there. I should say upfront: I am afraid there is no time estimate on these and we can't guarantee to prioritise any particular project. But if there is one that stands out to you, do let me know, as this serves as a useful community gauge.

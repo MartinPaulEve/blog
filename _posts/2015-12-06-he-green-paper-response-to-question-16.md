@@ -16,7 +16,14 @@ title: 'HE Green Paper: response to question 16'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc27f522a"
 kcworks: https://works.hcommons.org/records/h88q6-kmp96
 references:
-- http://www.theedadvocate.org/6-biggest-higher-education-losses-of-2015/ # 556 US colleges on federal financial watch list
+- author: Matthew Lynch
+  date: '2016-06-10'
+  title: 6 Biggest Higher Education Losses of 2015
+  type: BlogPosting
+  url: http://www.theedadvocate.org/6-biggest-higher-education-losses-of-2015/
+  isPartOf:
+    name: The Edvocate
+    type: Blog
 ---
 
 This post is part of an [ongoing series](https://martineve.com/GreenPaper/) where I intend to develop my full _personal_ (_not_ institutional) response to the HE Green Paper. Comments are welcome to refine this.

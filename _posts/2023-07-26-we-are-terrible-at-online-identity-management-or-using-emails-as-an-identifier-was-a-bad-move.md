@@ -16,7 +16,9 @@ categories:
 - Information Security
 kcworks: https://works.hcommons.org/records/dcvap-s6733
 references:
-- https://orcid.org/ # ORCID researcher identifier system
+- title: ORCID
+  type: WebSite
+  url: https://orcid.org/
 - https://www.bloomsbury.com/uk/password-9781501314872/ # Eve, Password, Bloomsbury Object Lessons series
 ---
 

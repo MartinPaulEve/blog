@@ -19,8 +19,21 @@ wordpress_url: https://www.martineve.com/2012/01/09/its-not-p-t-anderson-but-som
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mj2e3em2h"
 kcworks: https://works.hcommons.org/records/8ba46-qdz47
 references:
-- http://www.vanityfair.com/online/oscars/2011/03/is-inherent-vice-pt-anderons-big-lebowski # Vanity Fair on Inherent Vice Hollywood adaptation
-- http://www.candlelightstories.com/2012/01/07/opening-scene-film-adaptation-thomas-pynchons-inherent-vice-filmed-by-jeff-hoyt/ # Candlelight Stories on Jeff Hoyt Inherent Vice fan film
+- author: John Lopez
+  date: '2011-03-08'
+  title: Is Paul Thomas Anderson's Inherent Vice the Next Big Lebowski?
+  type: NewsArticle
+  url: http://www.vanityfair.com/online/oscars/2011/03/is-inherent-vice-pt-anderons-big-lebowski
+  isPartOf:
+    name: Vanity Fair
+    type: Periodical
+- date: '2012-01-07'
+  title: Opening Scene Film Adaptation of Thomas Pynchon's Inherent Vice Filmed by Jeff Hoyt
+  type: BlogPosting
+  url: http://www.candlelightstories.com/2012/01/07/opening-scene-film-adaptation-thomas-pynchons-inherent-vice-filmed-by-jeff-hoyt/
+  isPartOf:
+    name: Candlelight Stories
+    type: Blog
 - http://www.youtube.com/watch?v=MWQKmjMRyI8&feature=youtu.be # Jeff Hoyt Inherent Vice fan film on YouTube
 ---
 

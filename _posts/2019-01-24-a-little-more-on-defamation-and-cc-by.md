@@ -15,7 +15,12 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/k1pev-q5j32
 references:
-- https://creativecommons.org/licenses/by/4.0/legalcode # CC BY 4.0 international license legal text
+- title: Legal Code - Attribution 4.0 International
+  type: WebPage
+  url: https://creativecommons.org/licenses/by/4.0/legalcode
+  isPartOf:
+    name: Creative Commons
+    type: WebSite
 ---
 
 The problem with non-lawyers, like me, speculating on legal matters is that there's a risk of scaremongering or just plain inaccuracy. Not that this really ever stops the practice -- and it won't here. In any case, I wanted to re-state [the question that I raised yesterday](/2019/01/23/additional-points-in-my-plan-s-response/) and that I'd like addressed about CC BY and defamatory attribution.

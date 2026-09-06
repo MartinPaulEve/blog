@@ -15,17 +15,71 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/08nv0-a1d04
 references:
-- https://eprints.bbk.ac.uk/id/eprint/26645 # Eve, The Digital Humanities and Literary Studies (OUP, 2022)
-- https://eprints.bbk.ac.uk/id/eprint/50134 # Eve, Impossible Chess and Inattention in Percival Everett
-- https://eprints.bbk.ac.uk/id/eprint/46280 # Eve, Lessons from Library Genesis, DHQ 2022
+- author: Martin Paul Eve
+  date: '2022-02-10'
+  title: The Digital Humanities and Literary Studies
+  type: Book
+  url: https://eprints.bbk.ac.uk/id/eprint/26645
+- author: Martin Paul Eve
+  date: '2023-11-10'
+  title: Impossible Chess, Close Reading, and Inattention as Disability in Percival Everett's Telephone
+  type: ScholarlyArticle
+  url: https://eprints.bbk.ac.uk/id/eprint/50134
+  isPartOf:
+    name: 'Orbit: A Journal of American Literature'
+    type: Periodical
+- author: Martin Paul Eve
+  date: '2022-06-27'
+  title: 'Lessons from the Library: Extreme Minimalist Scaling at Pirate Ebook Platforms'
+  type: ScholarlyArticle
+  url: https://eprints.bbk.ac.uk/id/eprint/46280
+  isPartOf:
+    name: Digital Humanities Quarterly
+    type: Periodical
 - https://eprints.bbk.ac.uk/id/eprint/43860 # Eve, New Leaves: Histories of Digital Pagination, Book History
-- https://eprints.bbk.ac.uk/id/eprint/47743 # Eve et al, Opening the Future OA monograph model article
-- https://eprints.bbk.ac.uk/id/eprint/43087 # Eve, Essay in Career of Contemporary English Novelist
-- https://eprints.bbk.ac.uk/id/eprint/50133 # Eve, Shadow Libraries and Pirate Infrastructures chapter
-- https://eprints.bbk.ac.uk/id/eprint/32199 # Eve, David Foster Wallace Non-Fiction chapter
-- https://eprints.bbk.ac.uk/id/eprint/44173 # Eve, Open Access and Neoliberalism chapter
-- https://eprints.bbk.ac.uk/id/eprint/40856 # Eve, Open Access in the Humanities Disciplines chapter
-- https://www.transcript-verlag.de/978-3-8376-5584-1/archives-access-and-artificial-intelligence/ # Eve et al, Reviewing the Reviewers neural networks chapter
+- author:
+  - Martin Paul Eve
+  - F. Pinter
+  - S. Lair
+  - Tom Grady
+  date: '2022-04-06'
+  title: 'Opening the future: a new model for funding Open Access monographs'
+  type: ScholarlyArticle
+  url: https://eprints.bbk.ac.uk/id/eprint/47743
+  isPartOf:
+    name: The Serials Librarian
+    type: Periodical
+- author: Martin Paul Eve
+  date: '2024-08-16'
+  title: The Essay in the Career of the Contemporary English Novelist
+  type: ScholarlyArticle
+  url: https://eprints.bbk.ac.uk/id/eprint/43087
+- author: Martin Paul Eve
+  date: '2026-01-20'
+  title: Shadow Libraries and Pirate Infrastructures
+  type: ScholarlyArticle
+  url: https://eprints.bbk.ac.uk/id/eprint/50133
+- author: Martin Paul Eve
+  date: '2022-10-01'
+  title: “Non”-Fiction
+  type: ScholarlyArticle
+  url: https://eprints.bbk.ac.uk/id/eprint/32199
+- author: Martin Paul Eve
+  date: '2022-04-25'
+  title: 'Open Access and Neoliberalism: A Response to Holmwood and Marcuello-Servós'
+  type: ScholarlyArticle
+  url: https://eprints.bbk.ac.uk/id/eprint/44173
+- author: Martin Paul Eve
+  date: '2022-11-27'
+  title: Open Access in the Humanities Disciplines
+  type: ScholarlyArticle
+  url: https://eprints.bbk.ac.uk/id/eprint/40856
+- title: Archives, Access and Artificial Intelligence
+  type: Book
+  url: https://www.transcript-verlag.de/978-3-8376-5584-1/archives-access-and-artificial-intelligence/
+  isPartOf:
+    name: transcript Verlag
+    type: WebSite
 ---
 
 Like many years, 2022 was a year of health problems for me. The entire year has been overshadowed by the episode of kidney failure that I suffered as a result of BK virus associated nephropathy. It is fair to say that I have been quite seriously unwell. I also spent a long period of this year, in my spare time, campaigning for protection of the immunocompromised with the monoclonal antibody therapy, Evusheld. We remain under pretty tight isolation conditions in the face of the ongoing coronavirus pandemic. Excitingly, though, I am about to begin a secondment to Crossref, working on scholcomms infrastructures and building cool new lab experiments. I am looking forward to it!

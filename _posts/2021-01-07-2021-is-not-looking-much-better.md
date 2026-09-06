@@ -15,7 +15,15 @@ categories:
 - Personal
 kcworks: https://works.hcommons.org/records/d0c5r-3p759
 references:
-- https://theconversation.com/why-realism-is-the-key-to-wellbeing-new-research-139717 # The Conversation: realism key to wellbeing research
+- author:
+  - Chris Dawson
+  - David de Meza
+  title: Why realism is the key to wellbeing – new research
+  type: NewsArticle
+  url: https://theconversation.com/why-realism-is-the-key-to-wellbeing-new-research-139717
+  isPartOf:
+    name: The Conversation
+    type: Periodical
 - https://news.sky.com/story/covid-19-some-covid-restrictions-could-return-next-winter-chief-medical-officer-warns-12180133 # Sky News: CMO warns restrictions could return next winter
 ---
 

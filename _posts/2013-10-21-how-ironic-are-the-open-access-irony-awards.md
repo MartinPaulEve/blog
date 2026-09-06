@@ -22,7 +22,13 @@ wordpress_url: https://www.martineve.com/?p=2912
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfz6tfh2i"
 kcworks: https://works.hcommons.org/records/1cs14-8c044
 references:
-- http://duncan.hull.name/2012/02/15/open-irony/ # Duncan Hull's Open Access Irony Awards post
+- date: '2012-02-15'
+  title: 'The Open Access Irony Awards: Naming and shaming them'
+  type: BlogPosting
+  url: http://duncan.hull.name/2012/02/15/open-irony/
+  isPartOf:
+    name: O'Really?
+    type: Blog
 ---
 
 <p>I saw, going around on Twitter today, a 2012 article on the <a href="http://duncan.hull.name/2012/02/15/open-irony/">Open Access Irony Awards</a>. This site is dedicated to the practice of humorously exposing articles/editorials that are pro-open access, but locked behind paywalls. As someone who has written in support of OA in closed venues, I wanted to quickly write to ask: what is so ironic about this practice?</p>

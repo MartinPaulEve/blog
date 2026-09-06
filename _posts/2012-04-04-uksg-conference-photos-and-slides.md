@@ -24,9 +24,23 @@ wordpress_url: https://www.martineve.com/2012/04/04/uksg-conference-photos-and-s
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miir4tp2i"
 kcworks: https://works.hcommons.org/records/3yqq0-1d488
 references:
-- http://playforth.wordpress.com/2012/03/29/uksg-2012-the-freebies-are-already-here-theyre-just-unevenly-distributed/ # Playforth blog summary of UKSG 2012
-- http://uksglive.blogspot.co.uk/2012/03/autosubversive-practices-where-were-all.html # UKSG Live blog post on autosubversive practices
-- http://prezi.com/7trgivuxt5fs/autosubversive-practices-in-academic-publishing/ # Prezi on autosubversive practices in academic publishing
+- date: '2012-03-29'
+  title: 'UKSG 2012: the freebies are already here, they''re just unevenly distributed'
+  type: BlogPosting
+  url: http://playforth.wordpress.com/2012/03/29/uksg-2012-the-freebies-are-already-here-theyre-just-unevenly-distributed/
+  isPartOf:
+    name: The toast in the machine
+    type: Blog
+- title: 'Autosubversive practices: where we''re all going wrong, and what we should do to get it right'
+  type: BlogPosting
+  url: http://uksglive.blogspot.co.uk/2012/03/autosubversive-practices-where-were-all.html
+- author: Martin Eve
+  title: Autosubversive Practices in Academic Publishing
+  type: WebPage
+  url: http://prezi.com/7trgivuxt5fs/autosubversive-practices-in-academic-publishing/
+  isPartOf:
+    name: Prezi
+    type: WebSite
 ---
 
 <p>Last week I attended, and presented a keynote in the opening plenary at, my first academic publishing conference: the UK Serials Group conference.</p>

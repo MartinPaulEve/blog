@@ -19,8 +19,20 @@ title: Tied to the mast? A response to RMS's principles for loyal computers
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdjgljj2u"
 kcworks: https://works.hcommons.org/records/fcspy-znn80
 references:
-- http://www.gnu.org/philosophy/loyal-computers.html # Stallman GNU essay on loyal computers
-- http://en.wikipedia.org/wiki/Three_Laws_of_Robotics # Wikipedia article on Asimov's Three Laws of Robotics
+- author: Richard M. Stallman
+  title: What Does It Mean for Your Computer to Be Loyal?
+  type: WebPage
+  url: http://www.gnu.org/philosophy/loyal-computers.html
+  isPartOf:
+    name: GNU Project - Free Software Foundation
+    type: WebSite
+- date: '2001-02-05'
+  title: Three Laws of Robotics
+  type: WebPage
+  url: http://en.wikipedia.org/wiki/Three_Laws_of_Robotics
+  isPartOf:
+    name: Wikipedia
+    type: WebSite
 ---
 
 <p>In a recent essay, Richard M. Stallman, pioneer of the free software movement, asked “<a href="http://www.gnu.org/philosophy/loyal-computers.html">what does it mean for a computer to be loyal?</a>” The "tentative definition" that Stallman outlines consists of: Neutrality towards software; Neutrality towards protocols; Neutrality towards implementations; Neutrality towards data communicated; Debugability; Documentation; and Completeness. I won't, here, reproduce the whole essay as you can read it on the GNU site. What I want to do instead is to point out a few ambiguities and potential sticking points that I identified in the definition here, mostly surrounding the principle of remote attestation.</p>

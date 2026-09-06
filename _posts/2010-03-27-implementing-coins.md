@@ -22,7 +22,12 @@ wordpress_url: http://new.martineve.com/?p=22
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmbo4hm2s"
 kcworks: https://works.hcommons.org/records/7er1y-qrj37
 references:
-- http://forums.zotero.org/discussion/439/coins-conference-papers-imported-incorrectly-by-zotero/ # Zotero forum COinS conference paper import bug
+- title: COinS / conference papers imported incorrectly by Zotero
+  type: WebPage
+  url: http://forums.zotero.org/discussion/439/coins-conference-papers-imported-incorrectly-by-zotero/
+  isPartOf:
+    name: Zotero Forums
+    type: WebSite
 ---
 
 <p><img src="/images/uploads/2010/03/Bookshelf_photo-300x228.jpg" alt="Rows of books lined up on a bookshelf" width="500" height="380"/></p>

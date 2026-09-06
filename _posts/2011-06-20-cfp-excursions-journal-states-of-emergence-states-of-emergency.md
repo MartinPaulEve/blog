@@ -22,8 +22,18 @@ wordpress_url: https://www.martineve.com/?p=1177
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkaer4i2q"
 kcworks: https://works.hcommons.org/records/441gj-2c212
 references:
-- http://www.excursions-journal.org.uk/index.php/excursions/user/register # Excursions journal author account registration
-- http://www.excursions-journal.org.uk/index.php/excursions/author # Excursions journal online submission system
+- title: 'Excursions: An interdisciplinary journal'
+  type: WebPage
+  url: http://www.excursions-journal.org.uk/index.php/excursions/user/register
+  isPartOf:
+    name: 'Excursions: An interdisciplinary journal'
+    type: WebSite
+- title: 'Excursions: An interdisciplinary journal'
+  type: WebPage
+  url: http://www.excursions-journal.org.uk/index.php/excursions/author
+  isPartOf:
+    name: 'Excursions: An interdisciplinary journal'
+    type: WebSite
 ---
 
 <h3>Call for Papers</h3>

@@ -52,7 +52,13 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk3pqkr
 kcworks: https://works.hcommons.org/records/p5j6w-w2023
 references:
 - http://magnusbjorn.blogspot.com/2009/07/calling-all-agents.html # Blog post: all code is burial
-- http://en.wikipedia.org/wiki/Speculative_realism # Wikipedia: Speculative Realism
+- date: '2008-01-18'
+  title: Speculative realism
+  type: WebPage
+  url: http://en.wikipedia.org/wiki/Speculative_realism
+  isPartOf:
+    name: Wikipedia
+    type: WebSite
 ---
 
 <p>A quick roundup/review post from the "Calling All Agents: A Symposium on the work of Tom McCarthy" conference, held at Birkbeck and organised, superbly, by Dennis Duncan on zero budget. As might be expected, there's a slight (paranoiac?) Pynchon-bias in the reporting below, but I hope it proves useful. As always, I'm happy to correct any errors/omissions on authorial request.</p>

@@ -22,7 +22,13 @@ title: '''He doesn’t talk politics any more'': Politics and Postmodernism; Mor
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mch42be2r"
 kcworks: https://works.hcommons.org/records/fe3xn-p1g09
 references:
-- https://theconversation.com/sorry-minister-but-philistinism-is-not-an-educational-policy-34385 # Churchwell Conversation piece on philistinism in education
+- author: Sarah Churchwell
+  title: Sorry minister, but philistinism is not an educational policy
+  type: NewsArticle
+  url: https://theconversation.com/sorry-minister-but-philistinism-is-not-an-educational-policy-34385
+  isPartOf:
+    name: The Conversation
+    type: Periodical
 - http://dx.doi.org/10.1017/S0021875814001303 # Eve article on DeLillo Iraq War and Underworld
 ---
 

@@ -16,8 +16,19 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/vraty-5s398
 references:
-- https://eprints.bbk.ac.uk/id/eprint/24067/ # Eve, Science and Identity in David Mitchell's Cloud Atlas
-- http://eprints.bbk.ac.uk/16682/ # Eve, Openness Politics and Power in Bloomsbury volume
+- author: Martin Paul Eve
+  date: '2019-04-03'
+  title: '"What was knowledge for, I would ask myself": Science, Technology, and Pharmakon in David Mitchell''s Cloud Atlas'
+  type: ScholarlyArticle
+  url: https://eprints.bbk.ac.uk/id/eprint/24067/
+- author: Martin Paul Eve
+  date: '2017-08-24'
+  title: Openness, Politics and Power
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/16682/
+  isPartOf:
+    name: Mass Intellectuality and Democratic Leadership in Higher Education
+    type: WebSite
 ---
 
 As part of my ongoing quest to try to ensure that as much of my work is as accessible as possible, I was negotiating a contract with Bloomsbury Academic, asking for permission to deposit.

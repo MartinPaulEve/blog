@@ -24,7 +24,9 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhrnn3j
 kcworks: https://works.hcommons.org/records/78rsb-26f44
 references:
 - https://twitter.com/i/#!/damiengwalter/essential-sci-fi # Damien Walter Essential Sci-Fi Twitter list
-- http://Goodreads.com # Goodreads book community site
+- title: Goodreads
+  type: WebSite
+  url: http://Goodreads.com
 - http://news.discovery.com/animals/venomous-sea-snake-pretends-to-have-two-heads.html # Discovery News two-headed sea snake article
 - http://is.gd/bBvTP4 # Borges Ramon Llull image shortlink
 - http://www.alluvium-journal.org/2012/06/01/alternative-fictioneers/ # Alluvium journal alternative fictioneers article

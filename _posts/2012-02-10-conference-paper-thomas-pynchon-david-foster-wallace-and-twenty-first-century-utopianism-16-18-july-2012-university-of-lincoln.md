@@ -26,7 +26,13 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mirsbrh
 kcworks: https://works.hcommons.org/records/mds6j-cft30
 references:
 - http://www.lincoln.ac.uk/home/campuslife/whatson/eventsconferences/event%20name,8029,en.html # What Happens Now conference at Lincoln
-- http://www.flickr.com/photos/ari/ # Steve Rhodes Flickr photo stream
+- author: Steve Rhodes
+  title: Steve Rhodes
+  type: WebPage
+  url: http://www.flickr.com/photos/ari/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>I am pleased to announce that I will be speaking at the "<a href="http://www.lincoln.ac.uk/home/campuslife/whatson/eventsconferences/event%20name,8029,en.html">What Happens Now</a>" conference at the University of Lincoln on twenty-first century fiction.</p>

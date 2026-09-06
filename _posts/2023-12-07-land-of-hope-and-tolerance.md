@@ -11,8 +11,21 @@ categories:
 - Politics
 kcworks: https://works.hcommons.org/records/2vwz9-dw844
 references:
-- https://www.theguardian.com/commentisfree/2023/dec/05/brexit-disaster-rejoining-channel-europe-economy?CMP=share_btn_tw # Guardian op-ed arguing Brexit is not a disaster
-- https://www.lse.ac.uk/research/research-for-the-world/politics/are-the-elites-driving-nationalism-in-post-brexit-britain # LSE Savage research on post-Brexit racism and nationalism
+- author: Larry Elliott
+  date: '2023-12-05'
+  title: 'I''ve got news for those who say Brexit is a disaster: it isn''t. That''s why rejoining is just a pipe dream'
+  type: NewsArticle
+  url: https://www.theguardian.com/commentisfree/2023/dec/05/brexit-disaster-rejoining-channel-europe-economy?CMP=share_btn_tw
+  isPartOf:
+    name: The Guardian
+    type: Periodical
+- author: Mike Savage
+  title: Nationalism and racism in post-Brexit Britain
+  type: WebPage
+  url: https://www.lse.ac.uk/research/research-for-the-world/politics/are-the-elites-driving-nationalism-in-post-brexit-britain
+  isPartOf:
+    name: The London School of Economics and Political Science
+    type: WebSite
 ---
 
 A letter to the Editor of the _Guardian_, who declined to publish it.

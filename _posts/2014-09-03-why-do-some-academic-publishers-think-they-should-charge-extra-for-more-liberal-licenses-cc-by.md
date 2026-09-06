@@ -24,7 +24,15 @@ wordpress_url: https://www.martineve.com/?p=3199
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mev4qqh2a"
 kcworks: https://works.hcommons.org/records/aqthy-9gc83
 references:
-- https://theconversation.com/top-scientific-publisher-chooses-not-to-advance-open-access-31248 # The Conversation piece on publisher OA opposition
+- author:
+  - Erin McKiernan
+  - Jon Tennant
+  title: Top scientific publisher chooses not to advance open access
+  type: NewsArticle
+  url: https://theconversation.com/top-scientific-publisher-chooses-not-to-advance-open-access-31248
+  isPartOf:
+    name: The Conversation
+    type: Periodical
 ---
 
 <p>In recent days, there has been a <a href="https://theconversation.com/top-scientific-publisher-chooses-not-to-advance-open-access-31248">surge of opposition</a> from some members of the scientific community over the new journal being launched by the American Association for the Advancement of Science. Aside from the high base-level charge from this publisher, which seems outside of the norm, one of the most controversial elements (also seen with some other publishers) is that the AAAS wants to charge more for a more liberal license. Why is this the case?</p>

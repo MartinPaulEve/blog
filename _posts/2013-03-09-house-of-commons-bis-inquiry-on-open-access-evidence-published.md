@@ -22,11 +22,35 @@ wordpress_url: https://www.martineve.com/?p=2613
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgx2t7v2q"
 kcworks: https://works.hcommons.org/records/n0npa-cve72
 references:
-- http://www.publications.parliament.uk/pa/cm201213/cmselect/cmbis/writev/openaccess/contents.htm # UK Parliament BIS open access written evidence index
-- http://www.publications.parliament.uk/pa/cm201213/cmselect/cmbis/writev/openaccess/m32.htm # Creative Commons BIS open access inquiry submission
+- date: '2013-03-07'
+  title: House of Commons - Business, Innovation and Skills - Written Evidence
+  type: WebPage
+  url: http://www.publications.parliament.uk/pa/cm201213/cmselect/cmbis/writev/openaccess/contents.htm
+  isPartOf:
+    name: UK Parliament
+    type: WebSite
+- date: '2013-03-07'
+  title: Open Access (7th March 2013)
+  type: WebPage
+  url: http://www.publications.parliament.uk/pa/cm201213/cmselect/cmbis/writev/openaccess/m32.htm
+  isPartOf:
+    name: UK Parliament
+    type: WebSite
 - http://www.publications.parliament.uk/pa/cm201213/cmselect/cmbis/writev/openaccess/m85.htm # Mike Taylor BIS open access inquiry submission
-- http://www.publications.parliament.uk/pa/cm201213/cmselect/cmbis/writev/openaccess/m53.htm # Heather Morrison BIS open access inquiry submission
-- http://www.publications.parliament.uk/pa/cm201213/cmselect/cmbis/writev/openaccess/m36.htm # Eve BIS open access inquiry submission
+- date: '2013-03-07'
+  title: Open Access (7th March 2013)
+  type: WebPage
+  url: http://www.publications.parliament.uk/pa/cm201213/cmselect/cmbis/writev/openaccess/m53.htm
+  isPartOf:
+    name: UK Parliament
+    type: WebSite
+- date: '2013-03-07'
+  title: Open Access (7th March 2013)
+  type: WebPage
+  url: http://www.publications.parliament.uk/pa/cm201213/cmselect/cmbis/writev/openaccess/m36.htm
+  isPartOf:
+    name: UK Parliament
+    type: WebSite
 ---
 
 <p>The written evidence for the BIS Inquiry on Open Access has now been published and is <a href="http://www.publications.parliament.uk/pa/cm201213/cmselect/cmbis/writev/openaccess/contents.htm">available on the website for the UK parliament</a>.</p>

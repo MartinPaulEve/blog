@@ -23,8 +23,21 @@ wordpress_url: https://www.martineve.com/?p=2794
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgfaytc2a"
 kcworks: https://works.hcommons.org/records/g1atx-qdr34
 references:
-- http://blogs.lse.ac.uk/impactofsocialsciences/2013/08/01/getting-somewhere-hefce-proposals-on-open-access/ # LSE Impact Blog post on HEFCE open access proposals
-- http://www.nature.com/news/text-mining-spat-heats-up-1.12636 # Nature news on text-mining copyright dispute
+- date: '2013-08-01'
+  title: 'Getting Somewhere: HEFCE Proposals on Open Access for a Post-2014 Research Excellence Framework'
+  type: BlogPosting
+  url: http://blogs.lse.ac.uk/impactofsocialsciences/2013/08/01/getting-somewhere-hefce-proposals-on-open-access/
+  isPartOf:
+    name: LSE Impact Blog
+    type: Blog
+- author: Richard Van Noorden
+  date: '2013-03-20'
+  title: Text-mining spat heats up
+  type: NewsArticle
+  url: http://www.nature.com/news/text-mining-spat-heats-up-1.12636
+  isPartOf:
+    name: Nature
+    type: Periodical
 ---
 
 <p>While I agree with much of what they say, in <a href="http://blogs.lse.ac.uk/impactofsocialsciences/2013/08/01/getting-somewhere-hefce-proposals-on-open-access/">a post on the LSE Impact Blog</a>, Meera Sabaratnam and Paul Kirby write, of the latest round of HEFCE consultations on OA for a post-2014 REF:</p>

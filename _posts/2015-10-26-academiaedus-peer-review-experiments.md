@@ -16,9 +16,20 @@ title: Academia.edu’s peer-review experiments
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc6ne4t2p"
 kcworks: https://works.hcommons.org/records/3ddg6-chz11
 references:
-- http://www.garyhall.info/journal/2015/10/18/does-academiaedu-mean-open-access-is-becoming-irrelevant.html # Gary Hall on academia.edu vs open access
+- author: Gary Hall
+  title: Does Academia.edu Mean Open Access Is Becoming Irrelevant?
+  type: BlogPosting
+  url: http://www.garyhall.info/journal/2015/10/18/does-academiaedu-mean-open-access-is-becoming-irrelevant.html
+  isPartOf:
+    name: Media gifts
+    type: Blog
 - http://core.ac.uk/download/pdf/16498437.pdf # Paper on peer review subjectivity excluding innovation
-- http://mcpress.media-commons.org/plannedobsolescence/one/the-reputation-economy/ # Fitzpatrick, Planned Obsolescence reputation economy
+- title: the reputation economy
+  type: WebPage
+  url: http://mcpress.media-commons.org/plannedobsolescence/one/the-reputation-economy/
+  isPartOf:
+    name: Planned Obsolescence
+    type: WebSite
 - http://www.hefce.ac.uk/pubs/rereports/Year/2015/metrictide/Title,104463,en.html # HEFCE Metric Tide report on responsible metrics
 ---
 

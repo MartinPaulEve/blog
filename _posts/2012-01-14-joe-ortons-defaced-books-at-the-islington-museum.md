@@ -20,8 +20,20 @@ wordpress_url: https://www.martineve.com/?p=1837
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mizgvwj2e"
 kcworks: https://works.hcommons.org/records/2bfyg-dc790
 references:
-- http://www.freud.org.uk # Freud Museum London official site
-- http://www.guardian.co.uk/books/2011/oct/11/library-books-playwright-joe-orton # Guardian article on Joe Orton defaced library books
+- title: Freud Museum London - The Home of Sigmund Freud
+  type: WebSite
+  url: http://www.freud.org.uk
+  isPartOf:
+    name: Freud Museum London
+    type: WebSite
+- author: Mark Brown
+  date: '2011-10-11'
+  title: Library books defaced by prankster playwright Joe Orton go on show
+  type: NewsArticle
+  url: http://www.guardian.co.uk/books/2011/oct/11/library-books-playwright-joe-orton
+  isPartOf:
+    name: The Guardian
+    type: Periodical
 ---
 
 <p>I took a detour today, en route to visiting the <a href="http://www.freud.org.uk">Freud museum</a> to the <a href="http://www.islington.gov.uk/Leisure/heritage/heritage_museum/contactusmus.asp">Islington Museum</a>, in order to see the <a href="http://www.guardian.co.uk/books/2011/oct/11/library-books-playwright-joe-orton">collection of library books defaced by playwright Joe Orton and Kenneth Halliwell</a>.</p>

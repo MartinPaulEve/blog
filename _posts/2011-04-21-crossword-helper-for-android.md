@@ -25,7 +25,13 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkeqgou
 kcworks: https://works.hcommons.org/records/rgdq0-35h87
 references:
 - http://ana.grammatic.org # ana.grammatic.org free anagram/crossword helper
-- http://www.flickr.com/photos/crosswordman/ # CrosswordMan Flickr CC-BY crossword image
+- author: Ross Beresford
+  title: Ross Beresford
+  type: WebPage
+  url: http://www.flickr.com/photos/crosswordman/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>A quick plug for my latest Android application, which is now available in the Android Market: <a href="https://market.android.com/details?id=com.martineve.crossword&feature=search_result">Crossword Helper</a>. This is, fairly obviously, an application designed to help you finish crosswords when you are stuck.</p>

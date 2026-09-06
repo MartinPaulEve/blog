@@ -21,7 +21,16 @@ wordpress_url: https://www.martineve.com/2012/01/13/adorno-terminology-%cf%84%ce
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mizlpjl2n"
 kcworks: https://works.hcommons.org/records/phw10-bnm89
 references:
-- http://plato.stanford.edu/entries/aristotle-metaphysics/#SubMatSub # Stanford Encyclopedia of Philosophy on Aristotle metaphysics
+- author:
+  - S. Marc Cohen
+  - C. D. C. Reeve
+  date: '2000-10-08'
+  title: Aristotle's Metaphysics
+  type: ScholarlyArticle
+  url: http://plato.stanford.edu/entries/aristotle-metaphysics/#SubMatSub
+  isPartOf:
+    name: Stanford Encyclopedia of Philosophy
+    type: WebSite
 ---
 
 <p>"that expressionism was more powerful as an idea than in its works perhaps has its origins in the fact that its utopia of the pure τοδε τι is itself a fragment of false consciousness." (Adorno, Theodor W. Aesthetic Theory. Edited by Gretel Adorno and Rolf Tiedemann. Translated by Robert Hullot-Kentor. London: Continuum, 2004. p. 239.)</p>

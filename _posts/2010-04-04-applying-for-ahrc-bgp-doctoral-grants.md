@@ -27,7 +27,9 @@ references:
 - http://www.ahrc.ac.uk/FundingOpportunities/Documents/PG%20funding%20opp%20FAQs.pdf # AHRC postgraduate funding opportunities FAQs PDF
 - http://www.ahrc.ac.uk/FundingOpportunities/Documents/pg%20funding%20faqs.pdf # AHRC postgraduate funding FAQs PDF
 - http://www.ahrc.ac.uk/FundedResearch/Pages/ImpactAssessment.aspx # AHRC impact assessment guidance page
-- http://call-for-papers.sas.upenn.edu/ # Penn CFP call for papers listings
+- title: cfp | call for papers
+  type: WebSite
+  url: http://call-for-papers.sas.upenn.edu/
 - http://www.whatisrss.com/ # What is RSS introductory site
 ---
 

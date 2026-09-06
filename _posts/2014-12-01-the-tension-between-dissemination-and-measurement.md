@@ -16,7 +16,12 @@ title: The tension between dissemination and measurement
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdqkm7y2i"
 kcworks: https://works.hcommons.org/records/0zt1k-q6h48
 references:
-- http://historymanifesto.cambridge.org/ # Guldi and Armitage, The History Manifesto (Cambridge)
+- title: The History Manifesto
+  type: WebPage
+  url: http://historymanifesto.cambridge.org/
+  isPartOf:
+    name: Cambridge Core
+    type: WebSite
 ---
 
 <p>I <a href="http://ebooks.cambridge.org/chapter.jsf?bid=CBO9781316161012&cid=CBO9781316161012A011&tabName=Chapter">remain firmly convinced</a> that many (but not all) of the economic problems of scholarly communication are linked to the fact that academic outputs are both vessels of communication and objects of measurement. This is most manifest in the way in which publications are used as measures of worth in hiring procedures, often through proxy measures that give financial power to commercial entities. In this case, there is a labour shortage in the academy (we can't read all of the material that we'd need to in order to fairly assess candidates), so we delegate to the proxy measure (journal brand or publisher name) to denote quality. This increases competition to publish in specific venues, making it necessary for libraries to subscribe. The competition mirrors the labour shortage and has economic knock-on effects. Of course, this isn't the only driver of economic trouble: if replication and the reporting of negative results in certain scientific disciplines is to be taken seriously as an activity, for example, then it is probably necessary to publish more, thus pushing up labour time and commensurate costs. When this is coupled with the desire to measure scholarly outputs, though, the economic damage is amplified.</p>

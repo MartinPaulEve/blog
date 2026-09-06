@@ -14,12 +14,39 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/sqv2m-j7y54
 references:
-- https://app.cloudcraft.co/ # Cloudcraft AWS architecture diagram tool
-- https://github.com/MartinPaulEve/meve-iac # Eve's infrastructure-as-code repo on GitHub
-- https://aws.amazon.com/blogs/compute/implementing-default-directory-indexes-in-amazon-s3-backed-amazon-cloudfront-origins-using-lambdaedge/ # AWS blog on S3/CloudFront directory index with Lambda@Edge
-- https://github.com/MartinPaulEve/meve-iac/tree/main/modules/terraform-aws-lambda-at-edge # Eve's Terraform Lambda@Edge module on GitHub
+- title: Cloudcraft – Draw AWS diagrams
+  type: WebSite
+  url: https://app.cloudcraft.co/
+  isPartOf:
+    name: Cloudcraft
+    type: WebSite
+- title: 'GitHub - MartinPaulEve/meve-iac: The terraform files to provision eve.gd'
+  type: SoftwareSourceCode
+  url: https://github.com/MartinPaulEve/meve-iac
+  isPartOf:
+    name: GitHub
+    type: WebSite
+- date: '2017-10-18'
+  title: Implementing Default Directory Indexes in Amazon S3-backed Amazon CloudFront Origins Using Lambda@Edge
+  type: BlogPosting
+  url: https://aws.amazon.com/blogs/compute/implementing-default-directory-indexes-in-amazon-s3-backed-amazon-cloudfront-origins-using-lambdaedge/
+  isPartOf:
+    name: Amazon Web Services Blog
+    type: Blog
+- title: meve-iac/modules/terraform-aws-lambda-at-edge at main · MartinPaulEve/meve-iac
+  type: SoftwareSourceCode
+  url: https://github.com/MartinPaulEve/meve-iac/tree/main/modules/terraform-aws-lambda-at-edge
+  isPartOf:
+    name: GitHub
+    type: WebSite
 - https://stackoverflow.com/a/52434219/349003 # Stack Overflow answer on Lambda@Edge event lifecycle
-- https://books.eve.gd # Eve's books subdomain site
+- author: Martin Paul Eve
+  title: 'eve.gd: Martin Paul Eve'
+  type: WebPage
+  url: https://books.eve.gd
+  isPartOf:
+    name: eve.gd
+    type: WebSite
 ---
 
 Last weekend I converted my website hosting to an infrastructure-as-code solution. It's no big deal, I thought. It's just a static site so it must be really easy to provision this. Surely just some kind of AWS S3 bucket associated with a custom domain? I mean, generated static sites are great. They are fast, lightweight, and virtually un-hackable. Surely it must be easy to deploy this?

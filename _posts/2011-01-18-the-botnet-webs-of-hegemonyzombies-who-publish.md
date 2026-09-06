@@ -27,12 +27,44 @@ wordpress_url: http://www.martineve.com/?p=591
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkvcrlq2f"
 kcworks: https://works.hcommons.org/records/yp9xp-q4273
 references:
-- http://www.flickr.com/photos/rodolphoreis/ # rodolphoreis Flickr photostream
-- http://zombieacademy.wordpress.com/cfp/ # Zombies in the Academy edited volume CFP
-- http://creativecommons.org/licenses/by-nc-sa/3.0/ # Creative Commons BY-NC-SA 3.0 licence
-- http://purl.org/dc/terms/ # Dublin Core metadata terms namespace
-- http://purl.org/dc/dcmitype/Text # DCMI type Text resource
-- http://creativecommons.org/ns# # Creative Commons RDF namespace
+- author: rodolpho reis
+  title: rodolpho reis
+  type: WebSite
+  url: http://www.flickr.com/photos/rodolphoreis/
+  isPartOf:
+    name: Flickr
+    type: WebSite
+- date: '2010-09-14'
+  title: the book
+  type: WebPage
+  url: http://zombieacademy.wordpress.com/cfp/
+  isPartOf:
+    name: Zombies in the Academy
+    type: Blog
+- title: Deed - Attribution-NonCommercial-ShareAlike 3.0 Unported
+  type: WebPage
+  url: http://creativecommons.org/licenses/by-nc-sa/3.0/
+  isPartOf:
+    name: Creative Commons
+    type: WebSite
+- title: DCMI Metadata Terms
+  type: WebPage
+  url: http://purl.org/dc/terms/
+  isPartOf:
+    name: DCMI
+    type: WebSite
+- title: DCMI Metadata Terms
+  type: WebPage
+  url: http://purl.org/dc/dcmitype/Text
+  isPartOf:
+    name: DCMI
+    type: WebSite
+- title: Describing Copyright in RDF - Creative Commons Rights Expression Language
+  type: WebPage
+  url: http://creativecommons.org/ns#
+  isPartOf:
+    name: Creative Commons
+    type: WebSite
 - http://www.martineve.com # Martin Paul Eve personal website
 ---
 

@@ -15,7 +15,12 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/etper-kvw04
 references:
-- http://bit.ly/oa-book # Peter Suber Open Access book short link
+- title: Open Access (the book)
+  type: WebPage
+  url: http://bit.ly/oa-book
+  isPartOf:
+    name: Harvard Open Access Project
+    type: WebSite
 - https://dash.harvard.edu/handle/1/4391168 # Suber epistemological argument for open access Harvard
 ---
 

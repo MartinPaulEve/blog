@@ -145,7 +145,13 @@ wordpress_url: https://www.martineve.com/?p=1881
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mixh23v2t"
 kcworks: https://works.hcommons.org/records/8dart-47q76
 references:
-- http://www.flickr.com/photos/fazen/ # fazen Flickr photo stream
+- author: Stefano Mortellaro
+  title: Stefano Mortellaro
+  type: WebPage
+  url: http://www.flickr.com/photos/fazen/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>Following a conversation (well, a complaint and a suggestion) with <a href="http://www.twitter.com/ernestopriego">@ernestopriego</a> on Twitter, the following came to light (and is certainly something I've experienced):</p>

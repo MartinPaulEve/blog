@@ -40,7 +40,12 @@ wordpress_url: https://www.martineve.com/2011/09/25/writing-a-plugin-for-open-jo
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjuw4of2a"
 kcworks: https://works.hcommons.org/records/9s3ww-cdk62
 references:
-- https://github.com/MartinPaulEve/MEXMLGalley # MEXMLGalley OJS plugin on GitHub
+- title: A plugin for Open Journal Systems to generate PDF galleys from XML
+  type: SoftwareSourceCode
+  url: https://github.com/MartinPaulEve/MEXMLGalley
+  isPartOf:
+    name: GitHub
+    type: WebSite
 - http://dtd.nlm.nih.gov/tools/tools.html # NLM DTD tools: FO and XHTML transforms
 - http://www.jstor.org/stable/2902363?origin=crossref # JSTOR article stable URL
 ---

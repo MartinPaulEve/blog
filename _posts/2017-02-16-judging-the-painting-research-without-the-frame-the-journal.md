@@ -15,7 +15,13 @@ categories:
 kcworks: https://works.hcommons.org/records/kecsg-w4w59
 references:
 - http://www.cambridge.org/gb/academic/subjects/general/open-access-and-humanities-contexts-controversies-and-future?format=PB&isbn=9781107484016 # Cambridge: Eve, Open Access and the Humanities book
-- http://www.ascb.org/dora/ # ASCB San Francisco Declaration on Research Assessment
+- date: '2018-01-11'
+  title: Home
+  type: WebPage
+  url: http://www.ascb.org/dora/
+  isPartOf:
+    name: DORA
+    type: WebSite
 - https://doi.org/10.1057/palcomms.2016.105 # Eve et al., Excellence R Us fetishisation of excellence
 ---
 

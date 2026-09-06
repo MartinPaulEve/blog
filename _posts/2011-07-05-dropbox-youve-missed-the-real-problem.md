@@ -106,9 +106,26 @@ wordpress_url: https://www.martineve.com/?p=1277
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk74ovg2p"
 kcworks: https://works.hcommons.org/records/cn7d4-njp33
 references:
-- http://www.tenreasonswhy.com/weblog/2008/04/royalty-free-perpetual-irrevocable-non-exclusive-transferable-licenses/ # Article on royalty-free perpetual licence terms
-- http://blog.dropbox.com/?p=846 # Dropbox blog: new terms and conditions
-- http://www.flickr.com/photos/stephen_downes/ # Stephen Downes Flickr photostream CC-BY-NC
+- date: 2008-04
+  title: Royalty-free, perpetual, irrevocable, non-exclusive, transferable licenses
+  type: BlogPosting
+  url: http://www.tenreasonswhy.com/weblog/2008/04/royalty-free-perpetual-irrevocable-non-exclusive-transferable-licenses/
+  isPartOf:
+    name: Ten Reasons Why
+    type: Blog
+- title: 'Work in Progress: by Dropbox'
+  type: BlogPosting
+  url: http://blog.dropbox.com/?p=846
+  isPartOf:
+    name: Dropbox Blog
+    type: Blog
+- author: Stephen Downes
+  title: Stephen Downes
+  type: WebSite
+  url: http://www.flickr.com/photos/stephen_downes/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>So, here's a short post on the Dropbox problem. I'm sure others have picked up on this aspect, but it merits further coverage. Yesterday, I tweeted at Dropbox stating my belief that the terms and conditions they are trying to enforce are, in fact, untenable.</p>

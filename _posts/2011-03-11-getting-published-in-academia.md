@@ -22,7 +22,12 @@ wordpress_url: https://www.martineve.com/?p=839
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkjtqkb2o"
 kcworks: https://works.hcommons.org/records/cf0bm-0a677
 references:
-- http://www.flickr.com/photos/inkelv1122/ # inkelv1122 Flickr photostream
+- title: inkelv1122
+  type: WebPage
+  url: http://www.flickr.com/photos/inkelv1122/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>As I tweeted yesterday, <a href="http://twitter.com/#!/dhlbrown">@dhlbrown</a> was attending a workshop on which I participated last year at the University of Sussex on getting published in Academia. He very kindly tweeted his notes and I recommend you go follow him but thought it was worth collating the information in one place, which also gave me an opportunity to dig out my notes from last year's session. Items in quotation marks are the tweets that Doug sent out, whereas all other text is my commentary/notes.</p>

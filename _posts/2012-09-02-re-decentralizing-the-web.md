@@ -25,7 +25,9 @@ wordpress_url: https://www.martineve.com/?p=2344
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhupnjr2e"
 kcworks: https://works.hcommons.org/records/8zqhc-dah88
 references:
-- https://maitzen.wordpress.com/ # Rohan Maitzen academic blog
+- title: Novel Readings
+  type: WebSite
+  url: https://maitzen.wordpress.com/
 - http://philosopherscocoon.typepad.com/blog/2012/08/making-the-first-day-not-the-worst-day.html # Philosophers Cocoon first day teaching advice
 ---
 

@@ -16,7 +16,13 @@ categories:
 kcworks: https://works.hcommons.org/records/211vd-az638
 references:
 - https://mitpress.mit.edu/books/reassembling-scholarly-communications # MIT Press Reassembling Scholarly Communications book
-- https://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.774255 # Stuart Lawson PhD thesis via EThOS
+- author: Lawson, Stuart Andrew
+  title: 'Open Access Policy in the UK : from neoliberalism to the commons'
+  type: ScholarlyArticle
+  url: https://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.774255
+  isPartOf:
+    name: EThOS
+    type: WebSite
 - https://unsplash.com/photos/0rzUepBXHN0 # Ivo Rainha Unsplash photo
 ---
 

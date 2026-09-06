@@ -23,7 +23,13 @@ wordpress_url: https://www.martineve.com/?p=2302
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhv54242h"
 kcworks: https://works.hcommons.org/records/vrwgz-p3m38
 references:
-- http://informationr.net/ir/12-4/paper321.html # Information Research paper on Platinum OA
+- author: P.G. Haschak
+  title: 'The ''platinum route'' to open access: a case study of E-JASL: The Electronic Journal of Academic and Special Librarianship'
+  type: ScholarlyArticle
+  url: http://informationr.net/ir/12-4/paper321.html
+  isPartOf:
+    name: Information Research
+    type: Periodical
 - https://groups.google.com/a/arl.org/group/sparc-oaforum/msg/a6d91858eb751a00?pli=1 # Harnad SPARC OA forum post on terminology
 ---
 

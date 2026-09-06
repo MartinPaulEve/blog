@@ -20,9 +20,25 @@ categories:
 - Copyright and Licensing
 - Open Access
 references:
-- https://dhdebates.gc.cuny.edu/read/critical-infrastructure-studies-and-digital-humanities/section/f4451084-a3bd-4a36-860d-f3a14e17ad0c#ch06 # DH Debates chapter on shadow libraries
-- https://dhdebates.gc.cuny.edu/read/critical-infrastructure-studies-and-digital-humanities/section/d01b113d-2da5-48f1-be0e-f3c50392f1ad#cvi # Critical Infrastructure Studies and DH collection
-- https://copyrightliteracy.org/2024/01/12/thj-v-sheridan-a-new-era-for-copyright-in-uk-cultural-institutions/ # THJ v Sheridan UK copyright ruling explainer
+- title: Shadow Libraries and Pirate Infrastructures
+  type: ScholarlyArticle
+  url: https://dhdebates.gc.cuny.edu/read/critical-infrastructure-studies-and-digital-humanities/section/f4451084-a3bd-4a36-860d-f3a14e17ad0c#ch06
+  isPartOf:
+    name: Critical Infrastructure Studies and Digital Humanities
+    type: Blog
+- title: Critical Infrastructure Studies and Digital Humanities
+  type: Book
+  url: https://dhdebates.gc.cuny.edu/read/critical-infrastructure-studies-and-digital-humanities/section/d01b113d-2da5-48f1-be0e-f3c50392f1ad#cvi
+  isPartOf:
+    name: Debates in the Digital Humanities
+    type: Periodical
+- date: '2024-01-12'
+  title: 'THJ v Sheridan: A new era for copyright in UK cultural institutions?'
+  type: BlogPosting
+  url: https://copyrightliteracy.org/2024/01/12/thj-v-sheridan-a-new-era-for-copyright-in-uk-cultural-institutions/
+  isPartOf:
+    name: Copyright Literacy
+    type: Blog
 ---
 
 I have recently published [a book chapter (on Shadow Libraries)](https://dhdebates.gc.cuny.edu/read/critical-infrastructure-studies-and-digital-humanities/section/f4451084-a3bd-4a36-860d-f3a14e17ad0c#ch06) in [a very fine collection](https://dhdebates.gc.cuny.edu/read/critical-infrastructure-studies-and-digital-humanities/section/d01b113d-2da5-48f1-be0e-f3c50392f1ad#cvi) that was published in print in January and digitally just now, in June. The digital edition contractually promises to be open access with a CC BY-NC-ND license (yes, I know, the hardcore OA crowd are baying "that's not open access" etc. but I really liked the book concept and wanted to write for it etc.).

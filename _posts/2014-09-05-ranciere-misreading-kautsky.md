@@ -22,7 +22,14 @@ wordpress_url: https://www.martineve.com/?p=3210
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mep5dq62i"
 kcworks: https://works.hcommons.org/records/5r6j5-mc655
 references:
-- https://www.marxists.org/archive/kautsky/1903/xx/int-work.htm # Kautsky, Intellectuals and the Working Class (1903)
+- author: Karl Kautsky
+  date: '1903'
+  title: Intellectuals and Workers
+  type: WebPage
+  url: https://www.marxists.org/archive/kautsky/1903/xx/int-work.htm
+  isPartOf:
+    name: Marxists Internet Archive
+    type: WebSite
 ---
 
 <p>In <i>Althusser's Lesson</i>, Jacques Rancière writes: "This reading of Marx via Althusser and Lacan does little more than give a new sheen to a thesis Kautsky had already defended: science belongs to intellectuals, and it is up to them to bring it to producers necessarily cut off from knowledge" Rancière, Jacques, Althusser’s Lesson, trans. by Emiliano Battista (London: Continuum, 2011), p. 47. There is no footnote specifying which aspect of Kautsky's writing JR is referring to. I might be missing something, but it seems to me that this is a misreading of the Kautsky stuff that I do know.</p>

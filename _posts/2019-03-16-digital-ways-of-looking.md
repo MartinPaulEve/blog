@@ -16,13 +16,50 @@ categories:
 kcworks: https://works.hcommons.org/records/nrvsp-r5g40
 references:
 - https://doi.org/10.1086/702594 # Da, Nan Z. Computational Case Against Computational Literary Studies
-- https://www.sup.org/books/title/?id=30253 # Eve's book page at Stanford University Press
+- title: Close Reading with Computers
+  type: Book
+  url: https://www.sup.org/books/title/?id=30253
+  isPartOf:
+    name: Stanford University Press
+    type: WebSite
 - https://doi.org/10.1215/00265667-3630844 # Eve, A Century of Method in Literary Studies Minnesota Review
-- https://www.press.uchicago.edu/ucp/books/book/chicago/D/bo35853783.html # Underwood, Distant Horizons at University of Chicago Press
-- https://twitter.com/alanyliu/status/1106483272618434561 # Alan Liu tweet on ungenerosity in DH critique
-- https://twitter.com/alanyliu/status/1106109232661725185 # Alan Liu tweet comparing literary studies approaches
-- https://en.wikipedia.org/wiki/Replication_crisis # Wikipedia article on replication crisis
-- https://twitter.com/alnthomas/status/1106616795534934016 # Alan Thomas tweet on reproducibility and publishing
+- title: Distant Horizons
+  type: Book
+  url: https://www.press.uchicago.edu/ucp/books/book/chicago/D/bo35853783.html
+  isPartOf:
+    name: University of Chicago Press
+    type: WebSite
+- author: Alan Liu
+  date: '2019-03-15'
+  title: Alan Liu (@alanyliu) on X
+  type: WebPage
+  url: https://twitter.com/alanyliu/status/1106483272618434561
+  isPartOf:
+    name: X
+    type: WebSite
+- author: Alan Liu
+  date: '2019-03-14'
+  title: Alan Liu (@alanyliu) on X
+  type: WebPage
+  url: https://twitter.com/alanyliu/status/1106109232661725185
+  isPartOf:
+    name: X
+    type: WebSite
+- author: Contributors to Wikimedia projects
+  title: Replication crisis
+  type: WebPage
+  url: https://en.wikipedia.org/wiki/Replication_crisis
+  isPartOf:
+    name: Wikipedia
+    type: WebSite
+- author: Alan Thomas
+  date: '2019-03-15'
+  title: Alan Thomas (@alnthomas) on X
+  type: WebPage
+  url: https://twitter.com/alnthomas/status/1106616795534934016
+  isPartOf:
+    name: X
+    type: WebSite
 ---
 
 Those who are not invested in the digital humanities, on either side of an often nasty binary "for-or-against" style argument, may have missed the bust up in the past few days over Nan Z Da's "[The Computational Case Against Computational Literary Studies](https://doi.org/10.1086/702594)" in _Critical Inquiry_. It's probably rash of me to do so, but as I have just been discharged from hospital and am feeling better I thought I would jot a few notes down from my initial reading of the piece. These move from the section on my work through to broader remarks.

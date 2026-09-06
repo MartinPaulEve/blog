@@ -14,7 +14,10 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/9rmg8-n3y32
 references:
-- https://group.springernature.com/gp/group/media/press-releases/apcs-in-the-wild-white-paper/17855784 # Springer Nature APCs in the Wild white paper
+- title: A better understanding of APC funding sources could accelerate the transition to open access
+  type: Report
+  publisher: Springer Nature
+  url: https://group.springernature.com/gp/group/media/press-releases/apcs-in-the-wild-white-paper/17855784
 ---
 
 Springer-Nature has a new [report out on tracking APCs](https://group.springernature.com/gp/group/media/press-releases/apcs-in-the-wild-white-paper/17855784).

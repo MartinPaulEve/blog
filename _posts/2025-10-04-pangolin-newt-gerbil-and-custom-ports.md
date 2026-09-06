@@ -13,7 +13,12 @@ categories:
 - Technology
 kcworks: https://works.hcommons.org/records/ndyz1-7t012
 references:
-- https://github.com/fosrl/pangolin # Pangolin internal-service HTTPS tunnelling tool
+- title: 'GitHub - fosrl/pangolin: Modern networking and security platform providing secure access and connectivity to apps, infrastructure, and AI workloads. Connect and protect your users.'
+  type: SoftwareSourceCode
+  url: https://github.com/fosrl/pangolin
+  isPartOf:
+    name: GitHub
+    type: WebSite
 ---
 
 I have been playing around with [Pangolin](https://github.com/fosrl/pangolin), a really nice management system for exposing internal services over HTTPS.

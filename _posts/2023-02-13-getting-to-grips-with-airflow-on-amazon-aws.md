@@ -11,8 +11,18 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/ek4c4-dqk55
 references:
-- https://gitlab.com/crossref/labs/preservation-data/-/blob/main/aflow/virtual_python_plugin.py # Crossref Labs Airflow virtual Python plugin source
-- https://docs.aws.amazon.com/mwaa/latest/userguide/samples-virtualenv.html # AWS MWAA virtualenv sample documentation
+- title: virtual_python_plugin.py
+  type: SoftwareSourceCode
+  url: https://gitlab.com/crossref/labs/preservation-data/-/blob/main/aflow/virtual_python_plugin.py
+  isPartOf:
+    name: GitLab
+    type: WebSite
+- title: Amazon Managed Workflows for Apache Airflow
+  type: TechArticle
+  url: https://docs.aws.amazon.com/mwaa/latest/userguide/samples-virtualenv.html
+  isPartOf:
+    name: Amazon Web Services
+    type: WebSite
 - https://api.portico.org/kbart/Portico_Holding_KBart.txt # Portico KBART holdings data file
 ---
 

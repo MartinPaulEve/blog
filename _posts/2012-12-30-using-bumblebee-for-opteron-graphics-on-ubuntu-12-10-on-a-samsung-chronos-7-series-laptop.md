@@ -23,7 +23,12 @@ wordpress_url: https://www.martineve.com/?p=2563
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mh7ece32h"
 kcworks: https://works.hcommons.org/records/3rae7-5sb02
 references:
-- https://github.com/Bumblebee-Project/Bumblebee/wiki/Troubleshooting # Bumblebee Project troubleshooting wiki
+- title: Troubleshooting
+  type: WebPage
+  url: https://github.com/Bumblebee-Project/Bumblebee/wiki/Troubleshooting
+  isPartOf:
+    name: GitHub
+    type: WebSite
 ---
 
 <p>Getting this to work has been the bane of my morning, so here's what I did to eventually get it working:</p>

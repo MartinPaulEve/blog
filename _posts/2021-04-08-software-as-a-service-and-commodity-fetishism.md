@@ -15,9 +15,27 @@ categories:
 - Philosophy
 kcworks: https://works.hcommons.org/records/v06k7-0zm62
 references:
-- https://www.theverge.com/2019/9/17/20870050/richard-stallman-resigns-mit-free-software-foundation-epstein # Verge: Stallman resigns over Minsky/Epstein comments
-- https://press.princeton.edu/books/paperback/9780691144610/coding-freedom # Coleman, Coding Freedom: politics of open-source software
-- https://archive.factordaily.com/richard-stallman-india/ # Factor Daily: Stallman on SaaS as malicious software
+- author: Jon Porter
+  date: '2019-09-17'
+  title: Richard Stallman resigns from MIT over Epstein comments
+  type: NewsArticle
+  url: https://www.theverge.com/2019/9/17/20870050/richard-stallman-resigns-mit-free-software-foundation-epstein
+  isPartOf:
+    name: The Verge
+    type: WebSite
+- title: Coding Freedom
+  type: Book
+  url: https://press.princeton.edu/books/paperback/9780691144610/coding-freedom
+  isPartOf:
+    name: Princeton University Press
+    type: WebSite
+- date: '2019-01-23'
+  title: Why free software evangelist Richard Stallman is haunted by Stalin's dream
+  type: NewsArticle
+  url: https://archive.factordaily.com/richard-stallman-india/
+  isPartOf:
+    name: FactorDaily
+    type: Periodical
 ---
 
 I was thinking idly today -- and probably in a wildly unoriginal way -- about some of the disputes about subscriptions to software and the politics of this model.

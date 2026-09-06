@@ -15,14 +15,55 @@ categories:
 - Health
 kcworks: https://works.hcommons.org/records/4p413-fqc45
 references:
-- https://www.gov.uk/government/news/evusheld-approved-to-prevent-covid-19-in-people-whose-immune-response-is-poor # UK MHRA approval announcement for Evusheld
-- https://www.dailymail.co.uk/health/article-10746187/Covid-19-Vulnerable-patients-denied-800-anti-viral-jab-unless-private.html # Daily Mail article on Evusheld denial on NHS
+- date: '2022-03-17'
+  title: Evusheld approved to prevent COVID-19 in people whose immune response is poor
+  type: NewsArticle
+  url: https://www.gov.uk/government/news/evusheld-approved-to-prevent-covid-19-in-people-whose-immune-response-is-poor
+  isPartOf:
+    name: GOV.UK
+    type: WebSite
+- author: Ethan Ennals
+  date: '2022-04-23'
+  title: 'Covid 19: Vulnerable patients denied £800 anti-viral jab unless they go private'
+  type: NewsArticle
+  url: https://www.dailymail.co.uk/health/article-10746187/Covid-19-Vulnerable-patients-denied-800-anti-viral-jab-unless-private.html
+  isPartOf:
+    name: Daily Mail
+    type: Periodical
 - https://www.kingsfund.org.uk/publications/access-new-medicines-english-nhs # King's Fund primer on NHS medicine access
-- https://twitter.com/vickyfoxcroft/status/1519282453948641280 # Vicky Foxcroft MP tweet on Evusheld at PMQs
-- https://twitter.com/CaroleCrossleyW/status/1519222341993119744 # Caroline Lucas tweet raising Evusheld issue
-- https://www.writetothem.com/ # WriteToThem MP contact tool
-- https://www.writetothem.com/write?fyr_extref=https%3A%2F%2Fwww.theyworkforyou.com%2F&who=58991 # WriteToThem page for Lord Mendelsohn
-- https://www.gov.uk/government/publications/higher-risk-patients-eligible-for-covid-19-treatments-independent-advisory-group-report/defining-the-highest-risk-clinical-subgroups-upon-community-infection-with-sars-cov-2-when-considering-the-use-of-neutralising-monoclonal-antibodies # UK independent advisory group report on high-risk Covid patients
+- author: Vicky Foxcroft
+  date: '2022-04-27'
+  title: Vicky Foxcroft (@vickyfoxcroft) on X
+  type: BlogPosting
+  url: https://twitter.com/vickyfoxcroft/status/1519282453948641280
+  isPartOf:
+    name: X (formerly Twitter)
+    type: WebSite
+- author: Carole Crossley Waldon
+  date: '2022-04-27'
+  title: Carole Crossley Waldon (@CaroleCrossleyW) on X
+  type: WebPage
+  url: https://twitter.com/CaroleCrossleyW/status/1519222341993119744
+  isPartOf:
+    name: X
+    type: WebSite
+- title: WriteToThem
+  type: WebSite
+  url: https://www.writetothem.com/
+- title: WriteToThem
+  type: WebPage
+  url: https://www.writetothem.com/write?fyr_extref=https%3A%2F%2Fwww.theyworkforyou.com%2F&who=58991
+  isPartOf:
+    name: WriteToThem
+    type: WebSite
+- date: '2022-05-30'
+  title: 'Defining the highest-risk clinical subgroups upon community infection with SARS-CoV-2 when considering the use of neutralising monoclonal antibodies (nMABs) and antiviral drugs: independent advisory group report'
+  type: Report
+  publisher: Department of Health and Social Care
+  url: https://www.gov.uk/government/publications/higher-risk-patients-eligible-for-covid-19-treatments-independent-advisory-group-report/defining-the-highest-risk-clinical-subgroups-upon-community-infection-with-sars-cov-2-when-considering-the-use-of-neutralising-monoclonal-antibodies
+  isPartOf:
+    name: GOV.UK
+    type: WebSite
 ---
 
 Evusheld is a combination of two long-acting antibodies (tixagevimab and cilgavimab). It's a drug designed to protect clinically vulnerable people against Covid in cases where vaccines don't work. A good example is people who have been on the chemotherapy drug Rituximab, which [causes much worse Covid outcomes and also reduces vaccine efficacy](https://doi.org/10.1016/S2665-9913(21)00418-5). Another example is people with primary or secondary immunodeficiency. Evusheld is given prophylactically (that is: in advance) to stop people in this situation developing severe Covid in the first place.

@@ -25,7 +25,14 @@ wordpress_url: http://www.martineve.com/?p=408
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlo5ysc2a"
 kcworks: https://works.hcommons.org/records/zg5t5-5qc98
 references:
-- http://www.brighthub.com/computing/smb-security/articles/17866.aspx # BrightHub guide on airmon-ng wireless security
+- author: PreciousJohnDoe
+  date: '2008-12-01'
+  title: 'WIFI WEP Cracking with Aircrack-ng: Recover a Lost WEP Key'
+  type: TechArticle
+  url: http://www.brighthub.com/computing/smb-security/articles/17866.aspx
+  isPartOf:
+    name: BrightHub
+    type: WebSite
 ---
 
 <p>This weekend I was house- (and dog-) sitting for a friend and had been told that I could use the internet while at their place. Sadly, however, the way this was configured was a guest account added my friend's laptop and she had not left the WEP key for their router. I was unable to obtain the WEP key as Windows 7 encrypts this data and the guest account cannot decrypt it. As I had permission (and really wanted wireless on my own laptop for ssh etc.), I decided to crack the WEP key and wanted to share my experience.</p>

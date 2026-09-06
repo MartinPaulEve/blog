@@ -26,11 +26,36 @@ wordpress_url: http://www.martineve.com/?p=599
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkuydma2f"
 kcworks: https://works.hcommons.org/records/4t5tz-nn167
 references:
-- http://www.flickr.com/photos/el_waka/ # El Waka Flickr photostream
-- http://creativecommons.org/licenses/by-nc-sa/3.0/ # Creative Commons BY-NC-SA 3.0 licence
-- http://purl.org/dc/terms/ # Dublin Core metadata terms namespace
-- http://purl.org/dc/dcmitype/Text # DCMI type Text resource
-- http://creativecommons.org/ns# # Creative Commons RDF namespace
+- title: El Waka
+  type: WebPage
+  url: http://www.flickr.com/photos/el_waka/
+  isPartOf:
+    name: Flickr
+    type: WebSite
+- title: Deed - Attribution-NonCommercial-ShareAlike 3.0 Unported
+  type: WebPage
+  url: http://creativecommons.org/licenses/by-nc-sa/3.0/
+  isPartOf:
+    name: Creative Commons
+    type: WebSite
+- title: DCMI Metadata Terms
+  type: WebPage
+  url: http://purl.org/dc/terms/
+  isPartOf:
+    name: DCMI
+    type: WebSite
+- title: DCMI Metadata Terms
+  type: WebPage
+  url: http://purl.org/dc/dcmitype/Text
+  isPartOf:
+    name: DCMI
+    type: WebSite
+- title: Describing Copyright in RDF - Creative Commons Rights Expression Language
+  type: WebPage
+  url: http://creativecommons.org/ns#
+  isPartOf:
+    name: Creative Commons
+    type: WebSite
 - http://www.martineve.com # Martin Paul Eve personal website
 ---
 

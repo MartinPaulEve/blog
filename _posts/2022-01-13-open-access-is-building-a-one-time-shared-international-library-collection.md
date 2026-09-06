@@ -14,7 +14,9 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/78wxb-mgb12
 references:
-- https://openingthefuture.net/ # Opening the Future OA monograph model homepage
+- title: Opening the Future
+  type: WebSite
+  url: https://openingthefuture.net/
 - https://www.openlibhums.org/plugins/supporters/signup/ # Open Library of Humanities supporter signup page
 ---
 

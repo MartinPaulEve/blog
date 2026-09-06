@@ -21,8 +21,19 @@ wordpress_url: https://www.martineve.com/2012/05/21/beware-the-next-wave-of-acad
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mifbyal2h"
 kcworks: https://works.hcommons.org/records/gy34q-9q028
 references:
-- http://en.wikipedia.org/wiki/Digital_rights_management # Wikipedia article on DRM
-- http://en.wikipedia.org/wiki/Format_rot # Wikipedia article on format rot
+- title: Digital rights management
+  type: WebPage
+  url: http://en.wikipedia.org/wiki/Digital_rights_management
+  isPartOf:
+    name: Wikipedia
+    type: WebSite
+- date: '2001-10-18'
+  title: Format rot
+  type: WebPage
+  url: http://en.wikipedia.org/wiki/Format_rot
+  isPartOf:
+    name: Wikipedia
+    type: WebSite
 ---
 
 <p><img src="https://www.martineve.com/wp-content/uploads/2012/05/6012434606_dc9d3115fc_b.jpg" alt="App" title="App" style="width:750px;" class="alignnone size-full wp-image-2102" /></p>

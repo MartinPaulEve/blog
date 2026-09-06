@@ -207,9 +207,28 @@ wordpress_url: https://www.martineve.com/?p=1698
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjc3doh2f"
 kcworks: https://works.hcommons.org/records/ztxcy-v8t46
 references:
-- http://www.guardian.co.uk/higher-education-network/blog/2011/dec/22/humanities-in-secondary-schools # Guardian piece on secondary schools and higher education
-- http://www.flickr.com/photos/chrism70/ # ChrisM70 Flickr photostream
-- http://www.bbc.co.uk/news/magazine-15888124 # BBC News Mary Beard on university admissions
+- author: Martin Paul Eve
+  date: '2011-12-22'
+  title: Secondary schools are not adequately preparing students for higher education
+  type: NewsArticle
+  url: http://www.guardian.co.uk/higher-education-network/blog/2011/dec/22/humanities-in-secondary-schools
+  isPartOf:
+    name: The Guardian
+    type: Periodical
+- author: Chris Murphy
+  title: Chris Murphy
+  type: WebPage
+  url: http://www.flickr.com/photos/chrism70/
+  isPartOf:
+    name: Flickr
+    type: WebSite
+- date: '2011-11-27'
+  title: 'A Point of View: The Oxbridge interview'
+  type: NewsArticle
+  url: http://www.bbc.co.uk/news/magazine-15888124
+  isPartOf:
+    name: BBC News
+    type: Periodical
 ---
 
 <p>A guest piece over at the Guardian Higher Education section:</p>

@@ -22,7 +22,13 @@ wordpress_url: https://www.martineve.com/?p=2832
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgd4hhs2a"
 kcworks: https://works.hcommons.org/records/7pez4-59b66
 references:
-- http://www.timeshighereducation.co.uk/low-citation-gains-via-gold-open-access-study/2006847.article # Times Higher Education article on gold OA citations
+- date: '2013-08-29'
+  title: 'Low citation gains via gold open access: study'
+  type: NewsArticle
+  url: http://www.timeshighereducation.co.uk/low-citation-gains-via-gold-open-access-study/2006847.article
+  isPartOf:
+    name: Times Higher Education
+    type: Periodical
 ---
 
 <p>Last week, I was contacted by Elizabeth Gibney, who writes for the Times Higher, with a request for comment on the recent <a href="http://www.science-metrix.com/eng/news_13_08.htm">Science-Metrix report</a>, and particularly their findings that papers that were OA had higher citation rates, but gold was not as high as green. Elizabeth has very kindly included some of my response in <a href="http://www.timeshighereducation.co.uk/low-citation-gains-via-gold-open-access-study/2006847.article">her article</a>, but I wanted to share my full response below.</p>

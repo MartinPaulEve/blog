@@ -16,7 +16,7 @@ categories:
 kcworks: https://works.hcommons.org/records/57n2r-zv811
 references:
 - https://doi.org/10.1177/00027649921955326 # Star, The Ethnography of Infrastructure, ABS 1999
-- https://unsplash.com/@wisdomsky?utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditBadge # Julian Paolo Dayag Unsplash photographer profile
+- https://unsplash.com/@wisdomsky # Julian Paolo Dayag Unsplash photographer profile
 ---
 
 As part of the [COPIM project](https://www.copim.ac.uk/), my work packages are conducting some background reading groups. This week we are reading Susan Leigh Star, ‘The Ethnography of Infrastructure’, _American Behavioral Scientist_, 43.3 (1999), 377–91 <[https://doi.org/10.1177/00027649921955326](https://doi.org/10.1177/00027649921955326)>. I had read this a long time ago but enjoyed revisiting it. I thought, in a spirit of openness, that I would share my notes on this article.

@@ -14,7 +14,14 @@ categories:
 - Literature
 kcworks: https://works.hcommons.org/records/j6s20-tx685
 references:
-- https://www.openbookpublishers.com/product/1391 # Open Book Publishers book on epigraphs
+- author: Adam Roberts
+  date: '2021-03-31'
+  title: 'Middlemarch: Epigraphs and Mirrors'
+  type: Book
+  url: https://www.openbookpublishers.com/product/1391
+  isPartOf:
+    name: Open Book Publishers
+    type: WebSite
 ---
 
 This post forms part of my '[aspects of the novel](/2022/01/04/aspects-of-the-novel/)' collection. Please do note that these entries, which may appear basic, are simply my own notes on the subject. The original encyclopaedia articles are far more comprehensive and worth consulting.

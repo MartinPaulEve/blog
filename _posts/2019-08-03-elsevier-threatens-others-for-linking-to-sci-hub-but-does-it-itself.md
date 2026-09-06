@@ -15,9 +15,27 @@ categories:
 - Copyright and Licensing
 kcworks: https://works.hcommons.org/records/n1qgt-y8h50
 references:
-- https://twitter.com/citationsy/status/1156626811398307840 # Citationsy tweet about Elsevier legal threat
-- https://boingboing.net/2019/08/02/publicsphere-v-elsevier.html # Boing Boing: Elsevier vs Citationsy Sci-Hub linking
-- http://www.dmlp.org/legal-guide/linking-copyrighted-materials # DMLP legal guide on linking to copyrighted materials
+- date: '2019-07-31'
+  title: Citationsy (@Citationsy) on X
+  type: WebPage
+  url: https://twitter.com/citationsy/status/1156626811398307840
+  isPartOf:
+    name: X
+    type: WebSite
+- author: Cory Doctorow
+  date: '2019-08-02'
+  title: Elsevier sends copyright threat to site for linking to Sci-Hub
+  type: BlogPosting
+  url: https://boingboing.net/2019/08/02/publicsphere-v-elsevier.html
+  isPartOf:
+    name: Boing Boing
+    type: Blog
+- title: Linking to Copyrighted Materials
+  type: WebPage
+  url: http://www.dmlp.org/legal-guide/linking-copyrighted-materials
+  isPartOf:
+    name: Digital Media Law Project
+    type: WebSite
 - https://doi.org/10.1016/j.phpro.2015.12.139 # Elsevier ScienceDirect article linking to Sci-Hub
 - https://core.ac.uk/download/pdf/82154064.pdf # CORE PDF of ScienceDirect article with Sci-Hub link
 - https://www.sciencedirect.com/science/article/pii/S1687850714000855 # ScienceDirect article with removed Sci-Hub link

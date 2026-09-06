@@ -25,9 +25,24 @@ wordpress_url: https://www.martineve.com/?p=3157
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mey3ahz2n"
 kcworks: https://works.hcommons.org/records/dayt8-wsz24
 references:
-- https://github.com/MartinPaulEve/meTypeset # meTypeset GitHub repository
-- https://github.com/smathot/qnotero # Qnotero libzotero library GitHub repository
-- https://github.com/MartinPaulEve/meTypeset/tree/zotero # meTypeset zotero branch on GitHub
+- title: 'GitHub - MartinPaulEve/meTypeset: meTypeset is a tool to convert from Microsoft Word .docx format to NLM/JATS-XML for scholarly/scientific article typesetting.'
+  type: SoftwareSourceCode
+  url: https://github.com/MartinPaulEve/meTypeset
+  isPartOf:
+    name: GitHub
+    type: WebSite
+- title: Standalone sidekick to the Zotero reference manager (Qt4 version)
+  type: SoftwareSourceCode
+  url: https://github.com/smathot/qnotero
+  isPartOf:
+    name: GitHub
+    type: WebSite
+- title: GitHub - MartinPaulEve/meTypeset at zotero
+  type: SoftwareSourceCode
+  url: https://github.com/MartinPaulEve/meTypeset/tree/zotero
+  isPartOf:
+    name: GitHub
+    type: WebSite
 ---
 
 <p>A couple of weeks ago I wrote about the <a href="https://www.martineve.com/2014/06/22/typesetting-jats-bibliographies-using-csl-and-zotero/">potential for producing semantically rich JATS element-citations by using Zotero's built-in CSL engine</a>. A short while after writing that post, I wondered whether it might, instead, be possible and better to directly link <a href="https://github.com/MartinPaulEve/meTypeset">my typesetter</a> to a Zotero database. I quickly <a href="https://www.martineve.com/2014/06/23/dumping-jats-from-zotero/">mocked up a prototype</a> using an improved version of the <a href="https://github.com/smathot/qnotero">libzotero library in Qnotero</a> for the Zotero interaction.</p>

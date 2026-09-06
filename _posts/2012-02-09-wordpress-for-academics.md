@@ -26,9 +26,25 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miskhaj
 kcworks: https://works.hcommons.org/records/4rfzc-38q09
 references:
 - http://prezi.com/bin/preziloader.swf # Prezi presentation loader SWF
-- http://prezi.com/6bdu_yukyvgj/step-by-step-wordpress-for-academics/ # Step-by-step WordPress for academics Prezi
-- http://prezi.com # Prezi presentation platform
-- http://www.flickr.com/photos/anselm23/ # anselm23 Flickr photo stream
+- author: Martin Eve
+  title: Step-By-Step Wordpress for Academics
+  type: WebPage
+  url: http://prezi.com/6bdu_yukyvgj/step-by-step-wordpress-for-academics/
+  isPartOf:
+    name: Prezi
+    type: WebSite
+- title: 'Prezi: the presentation platform built for engagement'
+  type: WebSite
+  url: http://prezi.com
+  isPartOf:
+    name: Prezi
+    type: WebSite
+- title: anselm23
+  type: WebPage
+  url: http://www.flickr.com/photos/anselm23/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>Ok, so it could really be Wordpress for anybody, but here's the Prezi that I made for a true step-by-step, from the very beginning guide to setting up a new Wordpress-based website. We also covered the beginnings of the information you'd need to customize the site and the benefits of self-hosting. The Prezi is probably only really of use for those who want a basic guide to setting up a new wordpress.com blog.</p>

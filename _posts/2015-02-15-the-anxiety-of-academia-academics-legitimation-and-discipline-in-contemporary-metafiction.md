@@ -19,7 +19,14 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdac3xy
 kcworks: https://works.hcommons.org/records/7v4en-1gr90
 references:
 - https://www.openlibhums.org # Open Library of Humanities website
-- http://thenounproject.com/term/student/63368/ # Noun Project student icon by Joseph Wilson
+- author: Joseph Wilson
+  date: '2014-08-06'
+  title: student
+  type: WebPage
+  url: http://thenounproject.com/term/student/63368/
+  isPartOf:
+    name: The Noun Project
+    type: WebSite
 ---
 
 Since 2012, I have been slowly working on a book about contemporary metafiction. A lot of this work was done over weekends in the last year, as a break from the more <a href="https://www.openlibhums.org">practical undertakings</a> that I do full-time in the week. The book was originally called "Metafiction After the Millennium" and was supposed to chart a type of post-postmodern (urgh) shift. As I've become more embroiled in the political economies of research publication, my interests have shifted and I became obsessed with the ways in which contemporary metafiction interacts with the academy. The book is really getting there now. As a cathartic exercise, though, I thought I'd share the current table of contents and a paragraph-by-paragraph outline of the introduction.

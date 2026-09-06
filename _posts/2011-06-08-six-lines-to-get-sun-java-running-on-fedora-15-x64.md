@@ -45,7 +45,13 @@ wordpress_url: https://www.martineve.com/?p=1146
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkc5pf72p"
 kcworks: https://works.hcommons.org/records/15cj1-cd029
 references:
-- http://www.if-not-true-then-false.com/2010/install-sun-oracle-java-jdk-jre-7-on-fedora-centos-red-hat-rhel/ # Guide to install Sun Oracle Java on Fedora/CentOS
+- date: '2010-09-07'
+  title: Install Oracle Java 7u79/80 on Fedora 24/23, CentOS/RHEL 7.2/6.8/5.11
+  type: BlogPosting
+  url: http://www.if-not-true-then-false.com/2010/install-sun-oracle-java-jdk-jre-7-on-fedora-centos-red-hat-rhel/
+  isPartOf:
+    name: If Not True Then False
+    type: Blog
 - http://download.oracle.com/otn-pub/java/jdk/6u25-b06/jre-6u25-linux-x64-rpm.bin # Oracle JRE 6u25 Linux x64 RPM download
 ---
 

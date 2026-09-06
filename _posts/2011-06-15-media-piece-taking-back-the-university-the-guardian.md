@@ -41,9 +41,25 @@ wordpress_url: https://www.martineve.com/?p=1173
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkaufa62t"
 kcworks: https://works.hcommons.org/records/0hmn7-9d776
 references:
-- http://jennifermjones.net/ # Jennifer M. Jones personal website
-- http://www.guardian.co.uk/higher-education-network/blog/2011/jun/15/univeristies-radical-academics-jobs-training # Guardian HE Network: Taking Back the University
-- http://www.flickr.com/photos/loshak/ # Daniel2005 Flickr photostream CC-BY
+- author: Jennifer M Jones
+  title: Jennifer M Jones
+  type: WebSite
+  url: http://jennifermjones.net/
+- author: Martin Paul Eve
+  date: '2011-06-15'
+  title: 'Angry young academics: striving for more than consumerism'
+  type: NewsArticle
+  url: http://www.guardian.co.uk/higher-education-network/blog/2011/jun/15/univeristies-radical-academics-jobs-training
+  isPartOf:
+    name: The Guardian
+    type: Periodical
+- author: Daniel ............
+  title: Daniel ............
+  type: WebSite
+  url: http://www.flickr.com/photos/loshak/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>A quick post to mark the publication, co-authored with <a href="http://jennifermjones.net/">Jennifer M Jones</a>, of "<a href="http://www.guardian.co.uk/higher-education-network/blog/2011/jun/15/univeristies-radical-academics-jobs-training">Taking Back the University</a>"; a piece that gives a quick rundown of radical alternative re-imaginings of the University over the past year.</p>

@@ -24,7 +24,10 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mff3icq
 kcworks: https://works.hcommons.org/records/zxzwq-zhe44
 references:
 - http://www.sherpa.ac.uk/romeo/ # SHERPA/RoMEO journal OA policy database
-- https://www.hefce.ac.uk/media/hefce/content/pubs/2014/201407/HEFCE2014_07.pdf # HEFCE post-2014 REF open access policy document
+- title: Policy for Open Access in the Post-2014 Research Excellence Framework
+  type: Report
+  publisher: HEFCE
+  url: https://www.hefce.ac.uk/media/hefce/content/pubs/2014/201407/HEFCE2014_07.pdf
 ---
 
 <p><strong>The Really Short Version:</strong></p>

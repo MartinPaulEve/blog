@@ -19,7 +19,12 @@ title: Visualizing textual variance/genetics with SankeyVariant
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbxz46b2f"
 kcworks: https://works.hcommons.org/records/89zmn-wrf45
 references:
-- https://github.com/MartinPaulEve/SankeyTextualVariant # Eve SankeyVariant GitHub repo for textual variant visualization
+- title: Visualise textual variants across editions using modifications to D3.js and its Sankey plugin
+  type: SoftwareSourceCode
+  url: https://github.com/MartinPaulEve/SankeyTextualVariant
+  isPartOf:
+    name: GitHub
+    type: WebSite
 ---
 
 Over the holiday period I wanted to visualize the differences between two editions of a text that I had found to be very different (more on this in the new year). I couldn't find a ready-made solution, so I put together a small piece of software to achieve this: [SankeyVariant](https://github.com/MartinPaulEve/SankeyTextualVariant).

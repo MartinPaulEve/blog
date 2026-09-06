@@ -11,7 +11,11 @@ categories:
 - Literature
 kcworks: https://works.hcommons.org/records/q0pwc-8a526
 references:
-- https://eprints.bbk.ac.uk/12246/ # Eve, Pynchon Wallace Metamodernism C21 Literature eprint
+- author: Martin Paul Eve
+  date: 2012-10
+  title: 'Thomas Pynchon, David Foster Wallace and the problems of ''metamodernism'': post-millennial post-postmodernism?'
+  type: ScholarlyArticle
+  url: https://eprints.bbk.ac.uk/12246/
 ---
 
 A few years ago I wrote an article: Eve, Martin Paul, [‘Thomas Pynchon, David Foster Wallace and the Problems of “Metamodernism”: Post-Millennial Post-Postmodernism?’](https://eprints.bbk.ac.uk/12246/), <i>C21 Literature: Journal of 21st-Century Writings</i>, 1 (2012), 7–25. It was the first thing I wrote outside of my Ph.D. and I am not sure that the literary analysis is that good. I wouldn't read the second half of it if I were you.

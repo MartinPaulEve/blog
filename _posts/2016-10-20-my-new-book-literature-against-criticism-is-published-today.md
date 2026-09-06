@@ -16,9 +16,26 @@ categories:
 kcworks: https://works.hcommons.org/records/zn59b-k3p49
 references:
 - http://eprints.bbk.ac.uk/id/document/29014 # Literature Against Criticism free PDF download Birkbeck
-- http://www.openbookpublishers.com/product/530/literature-against-criticism--university-english-and-contemporary-fiction-in-conflict # Literature Against Criticism Open Book Publishers page
-- https://www.amazon.co.uk/Literature-Against-Criticism-University-Contemporary-ebook/dp/B01M3RI2P4/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1476953114&sr=8-3 # Literature Against Criticism Kindle Amazon UK
-- http://blogs.openbookpublishers.com/what-does-it-mean-for-a-work-of-literature-to-be-against-criticism/ # Eve OBP blog post what does literature against criticism mean
+- author: Martin Paul Eve
+  date: '2016-10-17'
+  title: 'Literature Against Criticism: University English and Contemporary Fiction in Conflict'
+  type: Book
+  url: http://www.openbookpublishers.com/product/530/literature-against-criticism--university-english-and-contemporary-fiction-in-conflict
+  isPartOf:
+    name: Open Book Publishers
+    type: WebSite
+- author: Martin Paul Eve
+  title: 'Literature Against Criticism: University English and Contemporary Fiction in Conflict'
+  type: Book
+  url: https://www.amazon.co.uk/dp/B01M3RI2P4
+- author: Martin Eve
+  date: '2016-10-20'
+  title: What does it mean for a work of literature to be "against criticism"?
+  type: BlogPosting
+  url: http://blogs.openbookpublishers.com/what-does-it-mean-for-a-work-of-literature-to-be-against-criticism/
+  isPartOf:
+    name: Open Book Publishers Blog
+    type: Blog
 ---
 
 I am extremely pleased to say that my latest peer-reviewed book, _Literature Against Criticism: University English and Contemporary Fiction in Conflict_ has today been published by Open Book Publishers!

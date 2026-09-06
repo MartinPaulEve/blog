@@ -22,10 +22,33 @@ wordpress_url: https://www.martineve.com/2011/10/17/donne-it-wrong-holy-sonnet-n
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjixewd2n"
 kcworks: https://works.hcommons.org/records/ea4fv-x8v85
 references:
-- http://en.wikisource.org/wiki/Holy_Sonnets#Holy_Sonnet_14 # Wikisource Donne Holy Sonnet 14
-- http://www.poets.org/viewmedia.php/prmMID/20308 # poets.org Donne Holy Sonnet 14
-- http://www.luminarium.org/sevenlit/donne/sonnet14.php # Luminarium Donne Holy Sonnet 14
-- http://www.flickr.com/photos/60861613@N00/ # lisby1 Flickr photostream
+- date: '2007-01-22'
+  title: Holy Sonnets
+  type: WebPage
+  url: http://en.wikisource.org/wiki/Holy_Sonnets#Holy_Sonnet_14
+  isPartOf:
+    name: Wikisource
+    type: WebSite
+- date: '2008-07-16'
+  title: Batter my heart, three person'd God (Holy Sonnet 14)
+  type: WebPage
+  url: http://www.poets.org/viewmedia.php/prmMID/20308
+  isPartOf:
+    name: Poets.org
+    type: WebSite
+- title: John Donne. Holy Sonnet 14.
+  type: WebPage
+  url: http://www.luminarium.org/sevenlit/donne/sonnet14.php
+  isPartOf:
+    name: Luminarium
+    type: WebSite
+- author: Ann Longmore-Etheridge
+  title: Ann Longmore-Etheridge
+  type: WebPage
+  url: http://www.flickr.com/photos/60861613@N00/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>An interesting problem here...</p>

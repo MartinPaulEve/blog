@@ -85,7 +85,12 @@ wordpress_url: http://www.martineve.com/?p=490
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlgp3g62t"
 kcworks: https://works.hcommons.org/records/9yhar-5ca46
 references:
-- http://www.gnu.org/licenses/ # GNU General Public License page
+- title: Licenses
+  type: WebPage
+  url: http://www.gnu.org/licenses/
+  isPartOf:
+    name: GNU Project - Free Software Foundation
+    type: WebSite
 ---
 
 <p>In the last day before I head off for a bit of a Christmas break, I decided to take up a recent proposition to start work on an Android client for Mendeley. So far, in a couple of hours, I've got as far as implementing the OAuth provider, so you can start the application, log in to Mendeley and it will ask you to authorize the application to access your Mendeley account.</p>

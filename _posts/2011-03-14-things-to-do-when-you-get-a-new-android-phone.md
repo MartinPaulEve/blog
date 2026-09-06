@@ -66,9 +66,18 @@ wordpress_url: https://www.martineve.com/?p=865
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkjmvpy2f"
 kcworks: https://works.hcommons.org/records/78wzm-1dy85
 references:
-- http://www.flickr.com/photos/avlxyz/ # avlxyz Flickr photostream
-- http://liannedemello.com/ # Lianne de Mello personal website
-- http://preyproject.com/ # Prey anti-theft app for phones
+- title: Alpha
+  type: WebPage
+  url: http://www.flickr.com/photos/avlxyz/
+  isPartOf:
+    name: Flickr
+    type: WebSite
+- title: Lianne de Mello
+  type: WebSite
+  url: http://liannedemello.com/
+- title: 'Prey: reliable device tracking and security tool'
+  type: WebSite
+  url: http://preyproject.com/
 - http://www.producteev.com # Producteev task management service
 ---
 

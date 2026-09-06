@@ -29,8 +29,20 @@ wordpress_url: https://www.martineve.com/2012/04/05/new-york-times-writes-about-
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miibnsh2f"
 kcworks: https://works.hcommons.org/records/sxpsj-4jm53
 references:
-- http://www.3ammagazine.com/3am/pynchon-philosophy-ethics/ # 3:AM Magazine piece on Pynchon philosophy and ethics
-- http://opinionator.blogs.nytimes.com/2012/04/04/stone-links-28/ # New York Times Opinionator Stone Links column
+- title: Pynchon, Philosophy, Ethics
+  type: BlogPosting
+  url: http://www.3ammagazine.com/3am/pynchon-philosophy-ethics/
+  isPartOf:
+    name: 3:AM Magazine
+    type: WebSite
+- author: Mark de Silva
+  date: '2012-04-04'
+  title: Stone Links
+  type: BlogPosting
+  url: http://opinionator.blogs.nytimes.com/2012/04/04/stone-links-28/
+  isPartOf:
+    name: Opinionator
+    type: Blog
 ---
 
 <p>On the train back from Glasgow last week, I finished writing <a href="http://www.3ammagazine.com/3am/pynchon-philosophy-ethics/">a piece for 3:AM Magazine</a> that sums up part of my Ph.D. thesis work, which I intend to submit in June this year. With apologies for a self-promotional post (although I think of it as "self-archiving"), I was thrilled to find this morning that the New York Times <a href="http://opinionator.blogs.nytimes.com/2012/04/04/stone-links-28/">have written about the piece</a>!</p>

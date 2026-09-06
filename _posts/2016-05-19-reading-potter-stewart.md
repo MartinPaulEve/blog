@@ -11,7 +11,14 @@ categories:
 - Philosophy
 kcworks: https://works.hcommons.org/records/801m9-k5331
 references:
-- https://en.wikipedia.org/wiki/Jacobellis_v._Ohio # Wikipedia, Jacobellis v Ohio Supreme Court case
+- author: Contributors to Wikimedia projects
+  date: '2004-05-17'
+  title: Jacobellis v. Ohio
+  type: WebPage
+  url: https://en.wikipedia.org/wiki/Jacobellis_v._Ohio
+  isPartOf:
+    name: Wikipedia
+    type: WebSite
 ---
 
 In a famous [US Supreme Court case on pornography](https://en.wikipedia.org/wiki/Jacobellis_v._Ohio): "I shall not today attempt further to define the kinds of material I understand to be embraced within that shorthand description, and perhaps I could never succeed in intelligibly doing so. But I know it when I see it and the motion picture involved in this case is not that."

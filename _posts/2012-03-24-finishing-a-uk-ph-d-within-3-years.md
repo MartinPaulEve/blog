@@ -139,7 +139,13 @@ wordpress_url: https://www.martineve.com/?p=1985
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mip3qbt2h"
 kcworks: https://works.hcommons.org/records/r7qfm-28j96
 references:
-- http://www.flickr.com/photos/pagedooley/ # Kevin Dooley Flickr photo stream
+- author: Kevin Dooley
+  title: Kevin Dooley
+  type: WebSite
+  url: http://www.flickr.com/photos/pagedooley/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>I've been asked, by <a href="twitter.com/#!/salma_patel">Salma Patel</a> and <a href="twitter.com/#!/thesiswhisperer">The Thesis Whisperer</a> to write a post on finishing a Ph.D. under the UK system within 3 years. I have to confess, first off, to feeling slightly uneasy writing this. My thesis is yet to be examined. I will, however, have completed a work that both my supervisors feel will pass the Ph.D. examination, within a three-year timespan.</p>

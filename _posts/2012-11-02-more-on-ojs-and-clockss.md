@@ -23,7 +23,12 @@ wordpress_url: https://www.martineve.com/?p=2471
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhngkk52q"
 kcworks: https://works.hcommons.org/records/ys329-v0w55
 references:
-- https://github.com/pkp/ojs/pull/49 # GitHub pull request for revised OJS CLOCKSS patch
+- title: '*Bug 7958* Support for a CLOCKSS manifest by MartinPaulEve · Pull Request #49 · pkp/ojs'
+  type: WebPage
+  url: https://github.com/pkp/ojs/pull/49
+  isPartOf:
+    name: GitHub
+    type: WebSite
 ---
 
 <p>Frequent readers <a href="https://www.martineve.com/2012/10/24/open-journal-systems-now-supports-archiving-with-clockss-out-of-the-box/">may recall</a> that I had implemented CLOCKSS support in OJS. I'm sad to say that the original commit was flawed and it was decided that <a href="http://pkp.sfu.ca/bugzilla/show_bug.cgi?id=7958#c5">the best thing to do was to revert it</a>, the reason being that there was no selective option to turn off the CLOCKSS manifest.</p>

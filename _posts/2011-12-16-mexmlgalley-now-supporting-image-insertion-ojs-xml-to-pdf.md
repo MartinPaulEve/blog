@@ -26,11 +26,31 @@ wordpress_url: https://www.martineve.com/2011/12/16/mexmlgalley-now-supporting-i
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjdscfc2s"
 kcworks: https://works.hcommons.org/records/cya1f-1m465
 references:
-- https://github.com/MartinPaulEve/MEXMLGalley # MEXMLGalley OJS plugin GitHub repository
-- http://www.w3.org/1998/Math/MathML # W3C MathML namespace URI
-- http://www.w3.org/1999/xlink # W3C XLink namespace URI
+- title: A plugin for Open Journal Systems to generate PDF galleys from XML
+  type: SoftwareSourceCode
+  url: https://github.com/MartinPaulEve/MEXMLGalley
+  isPartOf:
+    name: GitHub
+    type: WebSite
+- title: MathML Namespace
+  type: WebPage
+  url: http://www.w3.org/1998/Math/MathML
+  isPartOf:
+    name: W3C
+    type: WebSite
+- title: XLink namespace
+  type: WebPage
+  url: http://www.w3.org/1999/xlink
+  isPartOf:
+    name: W3C
+    type: WebSite
 - http://www.w3.org/2001/XMLSchema-instance # W3C XML Schema instance namespace URI
-- http://creativecommons.org/licenses/by/2.0/ # Creative Commons Attribution 2.0 license
+- title: Deed - Attribution 2.0 Generic
+  type: WebPage
+  url: http://creativecommons.org/licenses/by/2.0/
+  isPartOf:
+    name: Creative Commons
+    type: WebSite
 - http://www.jstor.org/stable/2902363?origin=crossref # JSTOR article stable URL DOI 10.2307/2902363
 ---
 

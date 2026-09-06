@@ -23,9 +23,25 @@ wordpress_url: https://www.martineve.com/?p=2368
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhtqams2a"
 kcworks: https://works.hcommons.org/records/m9992-yey72
 references:
-- http://waste.org/mail/?list=pynchon-l&month=9912&msg=43015&keywords=marx # Pynchon-l mailing list post on Marx
-- https://twitter.com/epiktistes # Twitter user epiktistes
-- http://books.google.co.uk/books?id=a9BvGA43rAQC&lpg=PA71&ots=5CFPg65ejb&dq=%22The+importunity+of+the+fellow+is+also+niggerlike.%22&pg=PA71&redir_esc=y#v=onepage&q=%22The%20importunity%20of%20the%20fellow%20is%20also%20niggerlike.%22&f=false # Google Books page of Marx racial slurs against Lassalle
+- title: waste mailing lists / pynchon-l by date
+  type: WebPage
+  url: http://waste.org/mail/?list=pynchon-l&month=9912&msg=43015&keywords=marx
+  isPartOf:
+    name: pynchon-l
+    type: WebSite
+- author: Andrew Ferguson
+  title: Andrew Ferguson (@epiktistes) on X
+  type: WebPage
+  url: https://twitter.com/epiktistes
+  isPartOf:
+    name: X
+    type: WebSite
+- title: Marx and Engels and the English Workers
+  type: Book
+  url: http://books.google.co.uk/books?id=a9BvGA43rAQC&lpg=PA71&ots=5CFPg65ejb&dq=%22The+importunity+of+the+fellow+is+also+niggerlike.%22&pg=PA71&redir_esc=y#v=onepage&q=%22The%20importunity%20of%20the%20fellow%20is%20also%20niggerlike.%22&f=false
+  isPartOf:
+    name: Google Books
+    type: WebSite
 ---
 
 <p>One of the references in Pynchon's <i>Gravity's Rainbow</i> that eludes me (in its specificity, not in its generality) is the following quotation:</p>

@@ -51,8 +51,23 @@ wordpress_url: https://www.martineve.com/?p=885
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkj4e6k2i"
 kcworks: https://works.hcommons.org/records/vkm6m-yhz17
 references:
-- http://www.guardian.co.uk/education/2011/mar/14/high-tuition-fees-university-fine # Guardian article on coalition tuition fee panic
-- http://www.flickr.com/photos/kgregory/ # Katherine Lynn Flickr photostream
+- author:
+  - Patrick Wintour
+  - Allegra Stratton
+  date: '2011-03-14'
+  title: Universities may face penalty for charging high tuition fees
+  type: NewsArticle
+  url: http://www.guardian.co.uk/education/2011/mar/14/high-tuition-fees-university-fine
+  isPartOf:
+    name: The Guardian
+    type: Periodical
+- author: Katie Mollon
+  title: Katie Mollon
+  type: WebSite
+  url: http://www.flickr.com/photos/kgregory/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>The reason that the coalition government <a href="http://www.guardian.co.uk/education/2011/mar/14/high-tuition-fees-university-fine">is now panicking</a> over the set to be universal introduction of £9000 fees and desires to financially punish institutions that want to charge this amount is that it runs counter to their idea of a completely elitist education system: they want institutions to go bankrupt and are predicating this on metrics that don't exist and without taking account of a price-placebo effect.</p>

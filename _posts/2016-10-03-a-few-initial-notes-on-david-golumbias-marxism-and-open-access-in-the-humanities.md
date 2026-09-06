@@ -14,8 +14,23 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/60da2-8hx03
 references:
-- http://ices.library.ubc.ca/index.php/workplace/article/view/186213 # Golumbia Marxism OA Academic Labor journal article
-- http://pdxscholar.library.pdx.edu/critlib/2015/Conference/11 # Critlib 2015 unconference paper on OA labor pedagogy
+- author: David Golumbia
+  date: '2016-09-16'
+  title: 'Marxism and Open Access in the Humanities: Turning Academic Labor against Itself'
+  type: ScholarlyArticle
+  url: http://ices.library.ubc.ca/index.php/workplace/article/view/186213
+  isPartOf:
+    name: 'Workplace: A Journal for Academic Labor'
+    type: Periodical
+- author:
+  - Emily Drabinski
+  - Korey Jackson
+  title: 'Session: Open Access, Labor, and Knowledge Production'
+  type: ScholarlyArticle
+  url: http://pdxscholar.library.pdx.edu/critlib/2015/Conference/11
+  isPartOf:
+    name: PDXScholar
+    type: WebSite
 - http://dx.doi.org/10.1017/CBO9781316161012 # Eve, Open Access and the Humanities Cambridge 2014
 - https://doi.org/http://dx.doi.org/10.7710/2162-3309.1131 # Journal of Librarianship Scholarly Communication OA disciplines
 - https://doi.org/10.14506/ca29.2.02 # Kelty Beyond Intellectual Property Cultural Anthropology

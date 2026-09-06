@@ -11,7 +11,9 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/2kgx7-njb56
 references:
-- https://sfdora.org/ # San Francisco Declaration on Research Assessment homepage
+- title: DORA
+  type: WebSite
+  url: https://sfdora.org/
 - https://doi.org/10.1017/CBO9781316161012.004 # Cambridge book chapter on hiring panel labour
 ---
 

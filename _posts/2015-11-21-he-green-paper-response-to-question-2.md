@@ -16,7 +16,13 @@ title: 'HE Green Paper: response to question 2'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc4cjkv2a"
 kcworks: https://works.hcommons.org/records/68n60-xht98
 references:
-- https://www.gov.uk/government/speeches/higher-education-fulfilling-our-potential # Jo Johnson speech on higher education reform
+- date: '2015-09-09'
+  title: 'Higher education: fulfilling our potential'
+  type: WebPage
+  url: https://www.gov.uk/government/speeches/higher-education-fulfilling-our-potential
+  isPartOf:
+    name: GOV.UK
+    type: WebSite
 ---
 
 This post is part of an [ongoing series](https://martineve.com/GreenPaper/) where I intend to develop my full _personal_ (_not_ institutional) response to the HE Green Paper. Comments are welcome to refine this.

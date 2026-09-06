@@ -59,8 +59,12 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjyu33j
 kcworks: https://works.hcommons.org/records/ee8p7-10p43
 references:
 - http://archive.canonical.com/ubuntu # Canonical Ubuntu package archive
-- http://www.mozilla.org/en-US/firefox/fx/ # Mozilla Firefox download page
-- http://www.zotero.org/ # Zotero reference manager homepage
+- title: 'Firefox: The fast, private browser that keeps you safe'
+  type: WebSite
+  url: http://www.mozilla.org/en-US/firefox/fx/
+- title: Zotero
+  type: WebSite
+  url: http://www.zotero.org/
 - http://www.zotero.org/download/integration/Zotero-OpenOffice-Plugin-3.1b1.xpi # Zotero OpenOffice integration plugin download
 ---
 

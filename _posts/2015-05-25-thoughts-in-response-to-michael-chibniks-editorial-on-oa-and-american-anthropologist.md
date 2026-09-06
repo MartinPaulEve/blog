@@ -18,9 +18,20 @@ kcworks: https://works.hcommons.org/records/8rjzr-mj751
 references:
 - http://dx.doi.org/10.1111/aman.12231 # Chibnik editorial on OA in American Anthropologist
 - http://dx.doi.org/10.1111%2Fj.1548-1433.2012.01440.x # Previous American Anthropologist editor calling for OA
-- http://bit.ly/oa-book # Suber, Open Access book
+- title: Open Access (the book)
+  type: WebPage
+  url: http://bit.ly/oa-book
+  isPartOf:
+    name: Harvard Open Access Project
+    type: WebSite
 - http://ordering.onlinelibrary.wiley.com/subs.asp?ref=0002-7294&site=1 # Wiley institutional subscription price for American Anthropologist
-- http://jasonbairdjackson.com/2011/09/05/how-enclosed-by-large-for-profit-publishers-is-the-anthropology-journal-literature/ # Jackson blog on Wiley-Blackwell profits from anthropology journals
+- date: '2011-09-05'
+  title: How Enclosed by Large For-Profit Publishers is the Anthropology Journal Literature?
+  type: BlogPosting
+  url: http://jasonbairdjackson.com/2011/09/05/how-enclosed-by-large-for-profit-publishers-is-the-anthropology-journal-literature/
+  isPartOf:
+    name: Shreds and Patches
+    type: Blog
 - https://www.openlibhums.org/about/supporting-institutions/ # OLH supporting institutions list
 ---
 

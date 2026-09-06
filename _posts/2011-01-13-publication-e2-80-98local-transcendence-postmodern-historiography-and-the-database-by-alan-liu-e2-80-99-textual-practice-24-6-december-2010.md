@@ -24,10 +24,30 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkw64ki
 kcworks: https://works.hcommons.org/records/gf5g7-wny88
 references:
 - http://www.informaworld.com/smpp/content~db=all~content=a930064208~frm=titlelink # Textual Practice journal article page informaworld
-- http://creativecommons.org/licenses/by-sa/3.0/ # Creative Commons BY-SA 3.0 licence
-- http://purl.org/dc/terms/ # Dublin Core metadata terms namespace
-- http://purl.org/dc/dcmitype/Text # DCMI type Text resource
-- http://creativecommons.org/ns# # Creative Commons RDF namespace
+- title: Deed - Attribution-ShareAlike 3.0 Unported
+  type: WebPage
+  url: http://creativecommons.org/licenses/by-sa/3.0/
+  isPartOf:
+    name: Creative Commons
+    type: WebSite
+- title: DCMI Metadata Terms
+  type: WebPage
+  url: http://purl.org/dc/terms/
+  isPartOf:
+    name: DCMI
+    type: WebSite
+- title: DCMI Metadata Terms
+  type: WebPage
+  url: http://purl.org/dc/dcmitype/Text
+  isPartOf:
+    name: DCMI
+    type: WebSite
+- title: Describing Copyright in RDF - Creative Commons Rights Expression Language
+  type: WebPage
+  url: http://creativecommons.org/ns#
+  isPartOf:
+    name: Creative Commons
+    type: WebSite
 - http://www.martineve.com # Martin Paul Eve personal website
 ---
 

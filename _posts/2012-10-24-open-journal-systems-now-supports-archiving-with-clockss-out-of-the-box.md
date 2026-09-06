@@ -24,7 +24,12 @@ wordpress_url: https://www.martineve.com/?p=2453
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mholdlb2n"
 kcworks: https://works.hcommons.org/records/mgxrb-3dr32
 references:
-- https://github.com/pkp/ojs/commit/b38d1e86c7f918cfcd76baa5bd47eb0bc36f6173 # GitHub commit merging CLOCKSS manifest into OJS
+- title: '*7958* Add CLOCKSS license to LOCKSS manifest · pkp/ojs@b38d1e8'
+  type: WebPage
+  url: https://github.com/pkp/ojs/commit/b38d1e86c7f918cfcd76baa5bd47eb0bc36f6173
+  isPartOf:
+    name: GitHub
+    type: WebSite
 ---
 
 <p>I'm pleased to say that <a href="http://pkp.sfu.ca/bugzilla/show_bug.cgi?id=7958">my patch</a> to add a CLOCKSS manifest to OJS' LOCKSS page <a href="https://github.com/pkp/ojs/commit/b38d1e86c7f918cfcd76baa5bd47eb0bc36f6173">has been merged</a>!</p>

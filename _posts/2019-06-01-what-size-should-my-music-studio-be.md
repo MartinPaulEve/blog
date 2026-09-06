@@ -15,7 +15,12 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/v59p5-zaq94
 references:
-- https://github.com/MartinPaulEve/acousticsize # acousticsize GitHub tool for Bolt range room dimensions
+- title: acousticsize
+  type: SoftwareSourceCode
+  url: https://github.com/MartinPaulEve/acousticsize
+  isPartOf:
+    name: GitHub
+    type: WebSite
 ---
 
 In Everest, F. Alton, and Ken C Pohlmann, _Master Handbook of Acoustics_ (New York: McGraw-Hill, 2009), p. 247, a range of room ratios are listed to achieve optimal modal distributions using the Bolt range and a set of external sources. In other words, this addresses the question: what size should I make my room to achieve the best even distribution of sound throughout?

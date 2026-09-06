@@ -14,8 +14,21 @@ categories:
 - Artificial Intelligence
 kcworks: https://works.hcommons.org/records/dvyxh-9ac50
 references:
-- https://nyupress.org/books/9781479837243/ # Noble, Algorithms of Oppression NYU Press
-- https://www.theguardian.com/commentisfree/2017/dec/24/facebook-google-youtube-dirty-work-social-media-inappropriate-content # Guardian piece on Facebook Google content moderation pay
+- author: Safiya Umoja Noble
+  title: Algorithms of Oppression
+  type: Book
+  url: https://nyupress.org/books/9781479837243/
+  isPartOf:
+    name: NYU Press
+    type: WebSite
+- author: John Naughton
+  date: '2017-12-24'
+  title: Who's doing Google and Facebook's dirty work?
+  type: NewsArticle
+  url: https://www.theguardian.com/commentisfree/2017/dec/24/facebook-google-youtube-dirty-work-social-media-inappropriate-content
+  isPartOf:
+    name: The Guardian
+    type: Periodical
 - https://atm-ucla2017.net/ # ATM UCLA 2017 conference on AI and labour
 ---
 

@@ -18,10 +18,19 @@ title: Foucauldian methodologies for considering emerging archives?
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdcvah62o"
 kcworks: https://works.hcommons.org/records/5t3ct-qx339
 references:
-- http://www.amazon.co.uk/gp/product/113740549X/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=113740549X&linkCode=as2&tag=2bitpienet-21&linkId=MSC4KX6LXQTUZ4YS # Pynchon and Philosophy, book on Amazon UK
-- http://www.amazon.co.uk/gp/product/025300621X/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=025300621X&linkCode=as2&tag=2bitpienet-21&linkId=STOW4QN4AVMIO5LG # Colin Koopman genealogy book on Amazon UK
+- author: Martin Paul Eve
+  title: 'Pynchon and Philosophy: Wittgenstein, Foucault and Adorno'
+  type: Book
+  url: http://www.amazon.co.uk/dp/113740549X
+- author: Colin Koopman
+  title: 'Genealogy as Critique: Foucault and the Problems of Modernity'
+  type: Book
+  url: http://www.amazon.co.uk/dp/025300621X
 - http://dx.doi.org/10.1080/0950236X.2013.840113 # Eaglestone manifesto for contemporary fiction article
-- http://www.amazon.co.uk/gp/product/0674948394/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=0674948394&linkCode=as2&tag=2bitpienet-21&linkId=RBA7M5P6ARV6LK5Z # Latour critique of modernity book on Amazon UK
+- author: Bruno Latour
+  title: We Have Never Been Modern
+  type: Book
+  url: http://www.amazon.co.uk/dp/0674948394
 ---
 
 <p>Some <u>notes and early (very abstract) draft</u> thoughts on whether Foucauldian genealogies, as redefined by Colin Koopman, can help us to address the problems of the archive in contemporary fiction studies.</p>

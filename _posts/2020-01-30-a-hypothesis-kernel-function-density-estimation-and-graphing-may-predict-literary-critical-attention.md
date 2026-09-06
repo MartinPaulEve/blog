@@ -13,7 +13,12 @@ categories:
 - Thomas Pynchon
 kcworks: https://works.hcommons.org/records/sdwh3-3j453
 references:
-- https://github.com/davidmcclure/textplot # David McClure TextPlot GitHub tool
+- title: 'GitHub - davidmcclure/textplot: (Mental) maps of texts with kernel density estimation and force-directed networks.'
+  type: SoftwareSourceCode
+  url: https://github.com/davidmcclure/textplot
+  isPartOf:
+    name: GitHub
+    type: WebSite
 ---
 
 This is really speculative, but today I returned to David McClure's [excellent and fun TextPlot tool](https://github.com/davidmcclure/textplot). A type of topic modelling (but not LDA), McClure explains his [Bray-Curtis dissimilarity mapping in a separate post](http://dclure.org/essays/mental-maps-of-texts/) but essentially what is being measured here is the interconnectedness and proximity of various terms within a network graph. In texts with distinct episodic structures, this means that the graphs that are produced by this method cluster abstract terms centrally within the network and push distinct linguistic clusters to the edges. I hypothesize that these peripheral nodes represent the episodes that will receive literary critical attention.

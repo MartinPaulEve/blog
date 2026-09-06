@@ -28,7 +28,12 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhm4rmc
 kcworks: https://works.hcommons.org/records/wc2he-eym35
 references:
 - https://bugs.mageia.org/show_bug.cgi?id=7637 # Mageia bug report for hplip models.dat error
-- https://answers.launchpad.net/hplip/+question/208678 # Launchpad answer on fixing hplip models.dat
+- title: 'Question #208678 "Cannot set scan resolution on a Photosmart C63..." : Questions : HPLIP'
+  type: WebPage
+  url: https://answers.launchpad.net/hplip/+question/208678
+  isPartOf:
+    name: Launchpad
+    type: WebSite
 ---
 
 <p>If you own an HP Photosmart C6300 series and upgraded to Ubuntu 12.10, you may have noticed that you are unable to set the scan resolution (DPI) in any of your programs. gscan2pdf has the scan resolution dropdown menu greyed out and you will be unable to get xsane to present you with a list of resolutions.</p>

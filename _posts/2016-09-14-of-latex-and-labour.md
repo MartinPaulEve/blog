@@ -16,7 +16,13 @@ categories:
 kcworks: https://works.hcommons.org/records/f7119-mkg15
 references:
 - http://www.danielallington.net/2016/09/the-latex-fetish/ # Daniel Allington blog post the LaTeX fetish
-- https://lareviewofbooks.org/article/neoliberal-tools-archives-political-history-digital-humanities/ # Allington neoliberal tools digital humanities LARB
+- date: '2016-05-01'
+  title: 'Neoliberal Tools (and Archives): A Political History of Digital Humanities'
+  type: NewsArticle
+  url: https://lareviewofbooks.org/article/neoliberal-tools-archives-political-history-digital-humanities/
+  isPartOf:
+    name: Los Angeles Review of Books
+    type: Periodical
 ---
 
 I've been gearing up for quite some time to write about the false labour dichotomies in the academy that seem to be emerging that put "academic labour" as some privileged space of difference from other types. This isn't that post, which I haven't had time to work on yet, but it is related.

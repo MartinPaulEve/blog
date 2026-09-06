@@ -16,8 +16,20 @@ categories:
 - Politics
 kcworks: https://works.hcommons.org/records/3gwc8-56x46
 references:
-- http://www.thebookseller.com/news/richard-mollet-leave-pa-313279 # Bookseller article on Richard Mollet at RELX
-- https://www.contractsfinder.service.gov.uk/Notice/26d25c44-4c38-4d4c-93ca-9a580ac39724 # UK government Contracts Finder tender notice
+- author: Sarah Shaffi
+  date: '2015-09-24'
+  title: Richard Mollet to leave The PA
+  type: NewsArticle
+  url: http://www.thebookseller.com/news/richard-mollet-leave-pa-313279
+  isPartOf:
+    name: The Bookseller
+    type: Periodical
+- title: UK SBS BLOJEU-CR150082HEFCE Provision Of Citation Indicators
+  type: WebPage
+  url: https://www.contractsfinder.service.gov.uk/Notice/26d25c44-4c38-4d4c-93ca-9a580ac39724
+  isPartOf:
+    name: Contracts Finder
+    type: WebSite
 - https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/263729/bis-13-1297-international-comparative-performance-of-the-UK-research-base-2013.pdf # BIS UK research base performance report 2013
 ---
 

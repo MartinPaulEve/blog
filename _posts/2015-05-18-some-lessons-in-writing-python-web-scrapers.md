@@ -16,7 +16,12 @@ title: Some lessons in writing Python web scrapers
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mct3vhu2r"
 kcworks: https://works.hcommons.org/records/2pcyy-t0v83
 references:
-- https://github.com/MartinPaulEve/lloyds_tsb_scrape # Eve's Lloyds TSB bank scraper GitHub repo
+- title: 'GitHub - MartinPaulEve/lloyds_tsb_scrape: An HTML scraper for Lloyds TSB bank accounts'
+  type: SoftwareSourceCode
+  url: https://github.com/MartinPaulEve/lloyds_tsb_scrape
+  isPartOf:
+    name: GitHub
+    type: WebSite
 ---
 
 Last weekend I wanted a break from my usual activities, so I decided to write myself some tools to automate a few tasks. One of these is to pull down QIF data from my bank so that I can import it into money management software (I know, I know: I go wild at weekends). I did [a little bit](https://github.com/MartinPaulEve/lloyds_tsb_scrape) on this a while back but I needed to refresh my memory.

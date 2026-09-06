@@ -86,9 +86,24 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mllxa6e
 kcworks: https://works.hcommons.org/records/1ny0c-jac12
 references:
 - http://slashdot.org/story/10/11/18/2246213/Alternative-To-the-200-Line-Linux-Kernel-Patch # Slashdot article on Linux responsiveness userspace patch
-- http://www.webupd8.org/2010/11/alternative-to-200-lines-kernel-patch.html # WebUpd8 guide to Linux responsiveness cgroup patch
-- http://www.webupd8.org/2010/11/alternative-to-200-lines-kernel-patch.html#comment-99182030 # Anonymous comment on WebUpd8 cgroup patch post
-- http://www.phoronix.com/scan.php?page=article&item=linux_2637_video&num=2 # Phoronix Linux ultra-responsive desktop benchmark
+- title: Alternative To The "200 Lines Kernel Patch That Does Wonders" Which You Can Use Right Away
+  type: BlogPosting
+  url: http://www.webupd8.org/2010/11/alternative-to-200-lines-kernel-patch.html
+  isPartOf:
+    name: WebUpd8
+    type: Blog
+- title: Alternative To The "200 Lines Kernel Patch That Does Wonders" Which You Can Use Right Away
+  type: BlogPosting
+  url: http://www.webupd8.org/2010/11/alternative-to-200-lines-kernel-patch.html#comment-99182030
+  isPartOf:
+    name: WebUpd8
+    type: Blog
+- title: The ~200 Line Linux Kernel Patch That Does Wonders
+  type: NewsArticle
+  url: http://www.phoronix.com/scan.php?page=article&item=linux_2637_video&num=2
+  isPartOf:
+    name: Phoronix
+    type: WebSite
 ---
 
 <p>Recent discussion on the lkm has lead to Linus giving the go-ahead to a large kernel patch that massively increases responsiveness when multi-tasking on Linux desktop. A <a href="http://slashdot.org/story/10/11/18/2246213/Alternative-To-the-200-Line-Linux-Kernel-Patch">slashdot article</a> today also points out that the same result can be achieved by modifications userspace and that this is, indeed, how the patch was tested.</p>

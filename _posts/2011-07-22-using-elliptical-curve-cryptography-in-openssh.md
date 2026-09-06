@@ -90,9 +90,22 @@ wordpress_url: https://www.martineve.com/?p=1329
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk4rvey2f"
 kcworks: https://works.hcommons.org/records/hktfr-sjg51
 references:
-- http://lackof.org/taggart/hacking/ssh/ # Taggart SSH hacking guide
-- http://www.openssl.org/source/ # OpenSSL source downloads
-- http://www.flickr.com/photos/koen_photos/ # Koen Photos Flickr photostream CC-BY-ND
+- title: Good practices for using ssh
+  type: WebPage
+  url: http://lackof.org/taggart/hacking/ssh/
+- title: Downloads
+  type: WebPage
+  url: http://www.openssl.org/source/
+  isPartOf:
+    name: OpenSSL
+    type: WebSite
+- author: Koen
+  title: Koen
+  type: WebSite
+  url: http://www.flickr.com/photos/koen_photos/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>Having read <a href="http://lackof.org/taggart/hacking/ssh/">two great posts</a> on <a href="http://pthree.org/?p=1930">OpenSSH best practices</a>, I decided today that I wanted to upgrade my SSH key architecture to use <a href="http://pthree.org/2011/02/17/elliptic-curve-cryptography-in-openssh/">Elliptical Curve Cryptography</a>. There were several gotchas involved that I thought it would be worth sharing here. There are, at the time of writing, no packages for Fedora 15 or Debian stable that I could find, so I've worked from source.</p>

@@ -21,7 +21,13 @@ wordpress_url: https://www.martineve.com/?p=746
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkqku762a"
 kcworks: https://works.hcommons.org/records/w98y9-bk205
 references:
-- http://www.flickr.com/photos/robaround/ # Robert Burdock Flickr photostream
+- author: Robert Burdock
+  title: Robert Burdock
+  type: WebSite
+  url: http://www.flickr.com/photos/robaround/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p><img src="https://www.martineve.com/wp-content/uploads/2011/02/Pynchon_V.jpg" alt="Pynchon&#039;s V" title="Pynchon V" style="width:330px;" class="alignnone size-full wp-image-747" /><br />

@@ -16,10 +16,37 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc5bhue
 kcworks: https://works.hcommons.org/records/fk3pe-92e17
 references:
 - https://www.researchprofessional.com/services/mailing.html?uuid=1ecd16f5-8164-4d45-81fe-464cff593150 # Research Professional McQuillan piece on TEF
-- http://www.theguardian.com/education/2015/nov/02/why-teaching-excellence-framework-tef-metrics-university-fees # Guardian piece on why TEF metrics won't work
-- http://www.theguardian.com/education/2013/oct/08/oxford-vice-chancellor-university-tuition-fees # Guardian on Oxford privatisation and tuition fees
-- https://www.timeshighereducation.com/oxbridge-to-be-stripped-of-special-funding-feeding-the-tutorial-system # THE on Oxbridge tutorial funding cuts
-- http://wonkhe.com/blogs/remember-remember-the-tef-of-november/ # Wonkhe blog on TEF contradictions
+- author: Peter Scott
+  date: '2015-11-02'
+  title: Three reasons why the Teaching Excellence Framework won't work
+  type: NewsArticle
+  url: http://www.theguardian.com/education/2015/nov/02/why-teaching-excellence-framework-tef-metrics-university-fees
+  isPartOf:
+    name: The Guardian
+    type: Periodical
+- author: Alexandra Topping
+  date: '2013-10-08'
+  title: 'Oxford vice-chancellor: let better universities charge higher tuition fees'
+  type: NewsArticle
+  url: http://www.theguardian.com/education/2013/oct/08/oxford-vice-chancellor-university-tuition-fees
+  isPartOf:
+    name: The Guardian
+    type: Periodical
+- author: Jack Grove
+  date: '2015-07-02'
+  title: Oxbridge to be stripped of special funding feeding the tutorial system
+  type: NewsArticle
+  url: https://www.timeshighereducation.com/oxbridge-to-be-stripped-of-special-funding-feeding-the-tutorial-system
+  isPartOf:
+    name: Times Higher Education
+    type: Periodical
+- date: '2015-11-07'
+  title: Remember, Remember the TEF of November
+  type: BlogPosting
+  url: http://wonkhe.com/blogs/remember-remember-the-tef-of-november/
+  isPartOf:
+    name: Wonkhe
+    type: Blog
 ---
 
 In today's [_Research Professional_](https://www.researchprofessional.com/services/mailing.html?uuid=1ecd16f5-8164-4d45-81fe-464cff593150) (paywalled) Martin McQuillan asks:

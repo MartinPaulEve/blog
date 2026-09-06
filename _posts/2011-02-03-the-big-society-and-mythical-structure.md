@@ -24,11 +24,44 @@ wordpress_url: https://www.martineve.com/?p=689
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkrdkba2p"
 kcworks: https://works.hcommons.org/records/qen7y-nmc98
 references:
-- http://www.flickr.com/photos/number10gov/ # UK Prime Minister's Office Flickr photostream
-- http://www.communities.gov.uk/news/corporate/1789190 # DCLG Big Society in the snow news item
-- http://www.communities.gov.uk/news/corporate/1779719 # DCLG Big Society fire safety news item
-- http://www.communities.gov.uk/news/corporate/1647385 # DCLG Big Society general will news item
-- http://www.communities.gov.uk/news/corporate/1634947 # DCLG Big Society decentralisation news item
+- title: Number 10
+  type: WebSite
+  url: http://www.flickr.com/photos/number10gov/
+  isPartOf:
+    name: Flickr
+    type: WebSite
+- date: '2010-12-06'
+  title: Eric Pickles praises Big Society snow angels and gritty determination from communities
+  type: NewsArticle
+  publisher: Ministry of Housing, Communities & Local Government
+  url: http://www.communities.gov.uk/news/corporate/1789190
+  isPartOf:
+    name: GOV.UK
+    type: WebSite
+- date: '2010-11-25'
+  title: Fire Kills campaign calls on Big Society to join the fire safety movement
+  type: NewsArticle
+  publisher: Ministry of Housing, Communities & Local Government
+  url: http://www.communities.gov.uk/news/corporate/1779719
+  isPartOf:
+    name: GOV.UK
+    type: WebSite
+- date: '2010-07-22'
+  title: Communities are ready for the Big Society
+  type: NewsArticle
+  publisher: Ministry of Housing, Communities & Local Government
+  url: http://www.communities.gov.uk/news/corporate/1647385
+  isPartOf:
+    name: GOV.UK
+    type: WebSite
+- date: '2010-07-08'
+  title: New plan locks-in radical decentralisation course
+  type: NewsArticle
+  publisher: Ministry of Housing, Communities & Local Government
+  url: http://www.communities.gov.uk/news/corporate/1634947
+  isPartOf:
+    name: GOV.UK
+    type: WebSite
 ---
 
 <p><i>Featured image credit: <a href="http://www.flickr.com/photos/number10gov/">The Prime Minister's Office</a> under a CC-BY-ND license.</i></p>

@@ -16,7 +16,11 @@ categories:
 - Digital Humanities
 kcworks: https://works.hcommons.org/records/53mss-d8s74
 references:
-- https://eprints.bbk.ac.uk/20716/ # BIROn eprint for Close Reading with Computers
+- author: Martin Paul Eve
+  date: '2019-01-01'
+  title: 'Close Reading with Computers: Textual Scholarship, Computational Formalism, and David Mitchell''s Cloud Atlas'
+  type: Book
+  url: https://eprints.bbk.ac.uk/20716/
 ---
 
 In ultra-exciting news -- thanks to my Leverhulme Prize -- I am very pleased to be able to be able to say that my book, <i>Close Reading with Computers: Textual Scholarship, Computational Formalism, and David Mitchell's <i>Cloud Atlas</i></i>, is now openly accessible (gold OA under a CC BY-SA 4.0 license) at Stanford University Press! It will soon be in the OAPEN Library and on the Stanford site, but for now it's [freely available in BIROn](https://eprints.bbk.ac.uk/20716/). Final version. Citeable. Free. (And no, this isn't just a temporary thing like loads of "coronavirus OA"; it's forever.)

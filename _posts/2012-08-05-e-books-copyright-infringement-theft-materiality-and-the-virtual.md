@@ -20,11 +20,34 @@ wordpress_url: https://www.martineve.com/?p=2275
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhvwpkx2r"
 kcworks: https://works.hcommons.org/records/38zwt-qjs06
 references:
-- https://docs.google.com/a/martineve.com/document/d/1HSMVLpMw62WMvd_R1P4znofj4kv8_imvDnNPxjN4jxg/edit?pli=1 # Kohut draft letter to the New York Times
-- http://pogue.blogs.nytimes.com/2012/08/02/where-is-bourne-not-in-an-electronic-version/ # NYT Pogue's Posts column on Bourne e-book
-- http://www.amazon.com/Bourne-Identity-Saga-Book-ebook/dp/B0037471TE/ref=sr_1_1?s=books&ie=UTF8&qid=1344159737&sr=1-1&keywords=bourne+identity # Amazon listing for Bourne Identity e-book
-- https://www.gnu.org/philosophy/not-ipr.html # Stallman GNU essay on intellectual property terminology
-- http://www.guardian.co.uk/technology/2012/apr/04/amazon-british-operation-corporation-tax # Guardian report on Amazon UK corporation tax avoidance
+- title: Letter to Pogue, NYTimes, re Ludlum
+  type: WebPage
+  url: https://docs.google.com/a/martineve.com/document/d/1HSMVLpMw62WMvd_R1P4znofj4kv8_imvDnNPxjN4jxg/edit?pli=1
+  isPartOf:
+    name: Google Docs
+    type: WebSite
+- date: '2012-08-02'
+  title: Where Is Bourne? Not in an Electronic Version
+  type: BlogPosting
+  url: http://pogue.blogs.nytimes.com/2012/08/02/where-is-bourne-not-in-an-electronic-version/
+  isPartOf:
+    name: Pogue's Posts Blog
+    type: Blog
+- http://www.amazon.com/dp/B0037471TE # Amazon listing for Bourne Identity e-book
+- title: Did You Say “Intellectual Property”? It’s a Seductive Mirage
+  type: WebPage
+  url: https://www.gnu.org/philosophy/not-ipr.html
+  isPartOf:
+    name: GNU Project
+    type: WebSite
+- author: Ian Griffiths
+  date: '2012-04-04'
+  title: 'Amazon: £7bn sales, no UK corporation tax'
+  type: NewsArticle
+  url: http://www.guardian.co.uk/technology/2012/apr/04/amazon-british-operation-corporation-tax
+  isPartOf:
+    name: The Guardian
+    type: Periodical
 ---
 
 <p>Last night, as I was heading to bed, a guy called Mark Kohut, whom I know from various Pynchon-interest intersections, published <a href="https://docs.google.com/a/martineve.com/document/d/1HSMVLpMw62WMvd_R1P4znofj4kv8_imvDnNPxjN4jxg/edit?pli=1">a copy of a letter he was planning to send to the New York Times</a>. The contention turned over <a href="http://pogue.blogs.nytimes.com/2012/08/02/where-is-bourne-not-in-an-electronic-version/">a column on the NYT's website called Pogue's posts</a> in which David Pogue stated that he had downloaded a copy of "The Bourne Identity" e-book, knowing it was unauthorised (having failed to find an e-copy legitimately: which, by the way, <a href="http://www.amazon.com/Bourne-Identity-Saga-Book-ebook/dp/B0037471TE/ref=sr_1_1?s=books&ie=UTF8&qid=1344159737&sr=1-1&keywords=bourne+identity">is total rubbish</a>), and had sent a cheque for $9.99 to "the publisher" instead. I want to write about a few of the issues here as I tweeted Mark back with a statement that conflating copyright violation with theft is actually incorrect. I then deleted the tweet as I was going to bed and realised that it might just be over-inflammatory. That said, Mark saw it and responded (graciously). I agree with Mark that Pogue's broadcast of this availability is problematic, but I also think it's worth reasoning through some of the unspoken assumptions of the model here. Before I begin, I want to stress that all examples in this post are purely hypothetical; thought experiments designed to expose the tangled relations in the current setup. I buy all my books.</p>

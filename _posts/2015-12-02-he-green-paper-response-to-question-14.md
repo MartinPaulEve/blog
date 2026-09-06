@@ -16,9 +16,29 @@ title: 'HE Green Paper: response to question 14'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc2g4t22h"
 kcworks: https://works.hcommons.org/records/f6d26-qr349
 references:
-- http://andrewmcgettigan.org/2013/11/18/private-providers-market-creation-out-of-control/ # McGettigan on private HE provider market creation
-- http://www.bbc.co.uk/news/uk-wales-politics-34976992 # BBC news on fraudulent HE provider in Wales
-- https://www.timeshighereducation.com/features/uncontrolled-expansion-how-private-colleges-grew/2016579.article # THE feature on uncontrolled private college expansion
+- author: Andrew McGettigan
+  date: '2013-11-18'
+  title: Private Providers – market creation out of control
+  type: BlogPosting
+  url: http://andrewmcgettigan.org/2013/11/18/private-providers-market-creation-out-of-control/
+  isPartOf:
+    name: Critical Education
+    type: Blog
+- date: '2015-12-01'
+  title: 'College fraud claim: Minister defends regulation'
+  type: NewsArticle
+  url: http://www.bbc.co.uk/news/uk-wales-politics-34976992
+  isPartOf:
+    name: BBC News
+    type: Periodical
+- author: Andrew McGettigan
+  date: '2014-10-30'
+  title: 'Uncontrolled expansion: how private colleges grew'
+  type: NewsArticle
+  url: https://www.timeshighereducation.com/features/uncontrolled-expansion-how-private-colleges-grew/2016579.article
+  isPartOf:
+    name: Times Higher Education
+    type: Periodical
 ---
 
 This post is part of an [ongoing series](https://martineve.com/GreenPaper/) where I intend to develop my full _personal_ (_not_ institutional) response to the HE Green Paper. Comments are welcome to refine this.

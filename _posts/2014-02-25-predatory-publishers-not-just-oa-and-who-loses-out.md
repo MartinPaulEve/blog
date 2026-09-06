@@ -22,9 +22,25 @@ wordpress_url: https://www.martineve.com/?p=3038
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfndxes2u"
 kcworks: https://works.hcommons.org/records/j8zbx-h4h11
 references:
-- http://triplec.at/index.php/tripleC/article/view/525 # tripleC article: OA as anti-corporatist movement
-- http://pdos.csail.mit.edu/scigen/ # SCIgen computer-generated paper tool
-- http://www.nature.com/news/publishers-withdraw-more-than-120-gibberish-papers-1.14763 # Nature news: publishers withdraw gibberish papers
+- author: Jeffrey Beall
+  date: '2013-12-09'
+  title: The Open-Access Movement is Not Really about Open Access
+  type: ScholarlyArticle
+  url: http://triplec.at/index.php/tripleC/article/view/525
+  isPartOf:
+    name: 'tripleC: Communication, Capitalism & Critique'
+    type: Periodical
+- title: SCIgen - An Automatic CS Paper Generator
+  type: WebPage
+  url: http://pdos.csail.mit.edu/scigen/
+- author: Richard Van Noorden
+  date: '2014-02-24'
+  title: Publishers withdraw more than 120 gibberish papers
+  type: NewsArticle
+  url: http://www.nature.com/news/publishers-withdraw-more-than-120-gibberish-papers-1.14763
+  isPartOf:
+    name: Nature
+    type: Periodical
 - http://dx.doi.org/10.6084/m9.figshare.943450 # Figshare DOI for predatory publishers post
 ---
 

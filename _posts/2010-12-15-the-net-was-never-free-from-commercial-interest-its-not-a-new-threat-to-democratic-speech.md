@@ -29,7 +29,14 @@ wordpress_url: http://www.martineve.com/?p=477
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlic43l2u"
 kcworks: https://works.hcommons.org/records/khk4g-zc661
 references:
-- http://www.guardian.co.uk/technology/2010/dec/11/wikileaks-amazon-denial-democracy-lieberman # John Naughton Guardian piece on WikiLeaks and Amazon
+- author: John Naughton
+  date: '2010-12-11'
+  title: 'WikiLeaks row: why Amazon''s desertion has ominous implications for democracy'
+  type: NewsArticle
+  url: http://www.guardian.co.uk/technology/2010/dec/11/wikileaks-amazon-denial-democracy-lieberman
+  isPartOf:
+    name: The Guardian
+    type: Periodical
 ---
 
 <p>In recent days, given the furore over Amazon's decision to no longer host Wikileaks, it has become common parlance to declare that the web is now subjected to the pressures that government can bring to bear on corporate entities (web hosting). See posts by both <a href="http://www.learnex.dmu.ac.uk/2010/12/14/a-revised-note-on-technology-outsourcing-and-the-privatisation-of-higher-education/">Richard Hall</a> and <a href="http://www.guardian.co.uk/technology/2010/dec/11/wikileaks-amazon-denial-democracy-lieberman">John Naughton</a>.</p>

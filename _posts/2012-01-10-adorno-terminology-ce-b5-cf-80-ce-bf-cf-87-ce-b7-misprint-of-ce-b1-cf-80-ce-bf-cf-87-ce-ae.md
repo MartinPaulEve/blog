@@ -40,7 +40,13 @@ wordpress_url: https://www.martineve.com/2012/01/10/adorno-terminology-%ce%b5%cf
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mj276cg2p"
 kcworks: https://works.hcommons.org/records/y65s7-gww35
 references:
-- http://en.wikipedia.org/wiki/Epoch%C3%A9 # Wikipedia article on Epoche
+- date: '2005-05-11'
+  title: Epoché
+  type: WebPage
+  url: http://en.wikipedia.org/wiki/Epoch%C3%A9
+  isPartOf:
+    name: Wikipedia
+    type: WebSite
 ---
 
 <p>"By its εποχη from the empirical world, new art ceases to be fantastic." (Adorno, Theodor W. Aesthetic Theory. Edited by Gretel Adorno and Rolf Tiedemann. Translated by Robert Hullot-Kentor. London: Continuum, 2004. p. 25.)</p>

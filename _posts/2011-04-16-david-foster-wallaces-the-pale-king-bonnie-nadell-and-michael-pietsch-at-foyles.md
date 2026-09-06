@@ -24,8 +24,21 @@ wordpress_url: https://www.martineve.com/?p=982
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkett7l2u"
 kcworks: https://works.hcommons.org/records/as48m-5tx79
 references:
-- http://www.guardian.co.uk/books/2011/apr/16/pale-king-david-foster-wallace-review # Guardian review of The Pale King by David Foster Wallace
-- http://www.flickr.com/photos/ari/ # Steve Rhodes Flickr photostream CC-BY
+- author: James Lasdun
+  date: '2011-04-15'
+  title: The Pale King by David Foster Wallace – review
+  type: NewsArticle
+  url: http://www.guardian.co.uk/books/2011/apr/16/pale-king-david-foster-wallace-review
+  isPartOf:
+    name: The Guardian
+    type: Periodical
+- author: Steve Rhodes
+  title: Steve Rhodes
+  type: WebPage
+  url: http://www.flickr.com/photos/ari/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>Last night I had the pleasure of attending <a href="http://www.foyles.co.uk/Public/Events/Detail.aspx?eventId=1192">an event</a> at Foyles bookstore in London featuring David Foster Wallace's Literary Agent Bonnie Nadell and Editor Michael Pietsch. The evening was in honour of the UK launch of Wallace's posthumous publication, <i>The Pale King</i> which is current receiving <a href="http://www.guardian.co.uk/books/2011/apr/16/pale-king-david-foster-wallace-review">rather favourable</a> reviews.</p>

@@ -22,8 +22,21 @@ kcworks: https://works.hcommons.org/records/hsgtc-17342
 references:
 - https://adamesmith.files.wordpress.com/2014/11/nov-2014-the-empire-strikes-back-alicia-wise-elsevier-profile.pdf # Research Fortnight interview with Alicia Wise of Elsevier
 - http://www.rluk.ac.uk/about-us/blog/the-costs-of-double-dipping/ # Prosser RLUK blog post on double-dipping costs
-- http://triplec.at/index.php/tripleC/article/view/525 # Beall article in tripleC on open access movement
-- http://svpow.com/2012/01/13/the-obscene-profits-of-commercial-scholarly-publishers/ # SV-POW post on obscene profits of commercial publishers
+- author: Jeffrey Beall
+  date: '2013-12-09'
+  title: The Open-Access Movement is Not Really about Open Access
+  type: ScholarlyArticle
+  url: http://triplec.at/index.php/tripleC/article/view/525
+  isPartOf:
+    name: 'tripleC: Communication, Capitalism & Critique'
+    type: Periodical
+- date: '2012-01-13'
+  title: The obscene profits of commercial scholarly publishers
+  type: BlogPosting
+  url: http://svpow.com/2012/01/13/the-obscene-profits-of-commercial-scholarly-publishers/
+  isPartOf:
+    name: Sauropod Vertebra Picture of the Week
+    type: Blog
 - http://www.sciencedirect.com/science/article/pii/S0304388613001228/pdfft?md5=0111b1513e1dd45949e67b600cdfbdc0&pid=1-s2.0-S0304388613001228-main.pdf # Open-access article in hybrid Elsevier journal on ScienceDirect
 ---
 

@@ -70,7 +70,12 @@ references:
 - http://code.google.com/p/mendeley-for-android/ # Mendeley for Android Google Code project
 - http://code.google.com/p/mendeley-for-android/source/checkout # Mendeley for Android source code checkout
 - http://code.google.com/p/oauth-signpost/ # OAuth Signpost library on Google Code
-- http://www.gnu.org/licenses/ # GNU General Public License page
+- title: Licenses
+  type: WebPage
+  url: http://www.gnu.org/licenses/
+  isPartOf:
+    name: GNU Project - Free Software Foundation
+    type: WebSite
 ---
 
 <p>Before anybody non-techie gets excited by the heading there, I'm not claiming this is anywhere near production-ready. In fact, it's not even functional. However, from a technical perspective, my Android Mendeley client has reached a milestone of succesful OAuth login. In this post I will give some samples of the application as it stands, including an APK download, source and video, and also detail the measures I undertook to get OAuth working using Signpost under Java for Android.</p>

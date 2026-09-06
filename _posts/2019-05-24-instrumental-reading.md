@@ -15,7 +15,12 @@ categories:
 - Literature
 kcworks: https://works.hcommons.org/records/majr1-0qy13
 references:
-- http://generousthinking.hcommons.org # Fitzpatrick, Generous Thinking, open draft on Humanities Commons
+- title: 'Generous Thinking: The University and the Public Good'
+  type: WebPage
+  url: http://generousthinking.hcommons.org
+  isPartOf:
+    name: Humanities Commons
+    type: WebSite
 - https://doi.org/10.1111/jcc4.12057 # Shi, Messaris and Cappella article on online comment context
 ---
 

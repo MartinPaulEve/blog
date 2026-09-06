@@ -20,9 +20,22 @@ wordpress_url: https://www.martineve.com/?p=1020
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkdzz472r"
 kcworks: https://works.hcommons.org/records/x81xz-mmn78
 references:
-- http://www.guardian.co.uk/higher-education-network/blog/2011/apr/27/career-options-after-a-phd # Guardian Higher Education Network: life after a PhD Q&A
+- author: Eliza Anyangwe
+  date: '2011-04-27'
+  title: 'Q&A best bits: Life after a PhD'
+  type: NewsArticle
+  url: http://www.guardian.co.uk/higher-education-network/blog/2011/apr/27/career-options-after-a-phd
+  isPartOf:
+    name: The Guardian
+    type: Periodical
 - http://ashpit.wordpress.com/ # ASHPIT early career researchers blog
-- http://www.flickr.com/photos/kgregory/ # Katherine Lynn Flickr photostream CC-BY-NC-ND
+- author: Katie Mollon
+  title: Katie Mollon
+  type: WebSite
+  url: http://www.flickr.com/photos/kgregory/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>A summary of the Guardian Q&A session, 'Life After a PhD' for which I was a panelist, is now available over on the <a href="http://www.guardian.co.uk/higher-education-network/blog/2011/apr/27/career-options-after-a-phd">Guardian Higher Education Network</a>.</p>

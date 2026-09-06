@@ -27,8 +27,18 @@ wordpress_url: http://www.martineve.com/?p=564
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkw2q4l2u"
 kcworks: https://works.hcommons.org/records/8mn20-j9706
 references:
-- http://www.c99.org/2010/01/23/writing-an-android-sync-provider-part-1/ # c99.org Android sync provider tutorial part 1
-- http://www.c99.org/2010/01/23/writing-an-android-sync-provider-part-2/ # c99.org Android sync provider tutorial part 2
+- title: 'Writing an Android Sync Provider: Part 1'
+  type: BlogPosting
+  url: http://www.c99.org/2010/01/23/writing-an-android-sync-provider-part-1/
+  isPartOf:
+    name: Did You Win Yet?
+    type: Blog
+- title: 'Writing an Android Sync Provider: Part 2'
+  type: BlogPosting
+  url: http://www.c99.org/2010/01/23/writing-an-android-sync-provider-part-2/
+  isPartOf:
+    name: Did You Win Yet?
+    type: Blog
 - http://code.google.com/p/mendeley-for-android/ # Mendeley for Android Google Code repository
 ---
 

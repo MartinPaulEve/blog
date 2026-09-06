@@ -134,7 +134,12 @@ wordpress_url: http://new.martineve.com/?p=33
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmclhw42s"
 kcworks: https://works.hcommons.org/records/83pjm-hmf17
 references:
-- http://www.zotero.org/groups/thomas_pynchon # Zotero group: Thomas Pynchon bibliography
+- title: Thomas Pynchon
+  type: WebPage
+  url: http://www.zotero.org/groups/thomas_pynchon
+  isPartOf:
+    name: Zotero Groups
+    type: WebSite
 ---
 
 <p>    <img src="/images/uploads/2010/03/34-1-200x300.jpg" alt="Cover of a Thomas Pynchon novel" width="420" height="630"/></p>

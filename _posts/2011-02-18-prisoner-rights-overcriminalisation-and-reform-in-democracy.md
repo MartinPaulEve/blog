@@ -91,7 +91,13 @@ wordpress_url: https://www.martineve.com/?p=795
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkl4svd2h"
 kcworks: https://works.hcommons.org/records/r20p6-6pq86
 references:
-- http://www.flickr.com/photos/stillburning/ # Still Burning Flickr photostream
+- author: Still Burning
+  title: Still Burning
+  type: WebSite
+  url: http://www.flickr.com/photos/stillburning/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 - http://tinyurl.com/6e8grmr # Criticism of arguments for prisoner voting rights
 ---
 

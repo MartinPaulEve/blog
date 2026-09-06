@@ -14,8 +14,18 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/gvpda-ewn65
 references:
-- https://www.timeshighereducation.com/opinion/letters-open-adaptation # Times Higher Education letters page: open adaptation
-- http://eprints.bbk.ac.uk/id/eprint/19293 # Birkbeck eprint: Open to Adaptation full unedited letter
+- date: '2017-08-03'
+  title: Open to adaptation
+  type: NewsArticle
+  url: https://www.timeshighereducation.com/opinion/letters-open-adaptation
+  isPartOf:
+    name: Times Higher Education
+    type: Periodical
+- author: Martin Paul Eve
+  date: '2017-08-03'
+  title: Open to Adaptation
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/19293
 ---
 
 I have [a letter in today's Times Higher Education](https://www.timeshighereducation.com/opinion/letters-open-adaptation) repying to Marilyn Deegan on open-access books. The full, [unedited version of the letter is in my institutional repository](http://eprints.bbk.ac.uk/id/eprint/19293) or below.

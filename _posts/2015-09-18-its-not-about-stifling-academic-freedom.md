@@ -15,7 +15,12 @@ title: '''It''s not about stifling academic freedom'''
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc77age2r"
 kcworks: https://works.hcommons.org/records/86kx6-6h281
 references:
-- http://www.legislation.gov.uk/ukpga/1988/40/part/IV/crossheading/academic-tenure # 1988 Education Reform Act academic freedom provision
+- title: Education Reform Act 1988
+  type: WebPage
+  url: http://www.legislation.gov.uk/ukpga/1988/40/part/IV/crossheading/academic-tenure
+  isPartOf:
+    name: legislation.gov.uk
+    type: WebSite
 ---
 
 David Cameron, the Prime Minister of the United Kingdom, has "[named and shamed](http://www.huffingtonpost.co.uk/2015/09/17/david-cameron-urges-universities-to-combat-campus-extremism_n_8151286.html?1442503290)" several top universities for allowing claimed "hate speech" on campus. Cameron said:

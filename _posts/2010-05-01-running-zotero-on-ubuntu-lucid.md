@@ -22,7 +22,12 @@ wordpress_url: http://new.martineve.com/?p=17
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mm6vngt2e"
 kcworks: https://works.hcommons.org/records/5t6f9-hdj93
 references:
-- http://forums.zotero.org/discussion/11429/zotero-in-ubuntu-104-lucid-lynx/ # Zotero forum fix for Ubuntu Lucid Lynx
+- title: Zotero in Ubuntu 10.4 Lucid Lynx
+  type: WebPage
+  url: http://forums.zotero.org/discussion/11429/zotero-in-ubuntu-104-lucid-lynx/
+  isPartOf:
+    name: Zotero Forums
+    type: WebSite
 - http://archive.canonical.com/ubuntu # Canonical Ubuntu package archive
 ---
 

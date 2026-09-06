@@ -27,7 +27,12 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgbtrp7
 kcworks: https://works.hcommons.org/records/jfsch-4zc85
 references:
 - http://www.lincoln.ac.uk/home/course/cmsresms/fundedplace/ # Lincoln University funded MSc place details
-- https://github.com/MartinPaulEve/meTypeset # meTypeset project on GitHub
+- title: 'GitHub - MartinPaulEve/meTypeset: meTypeset is a tool to convert from Microsoft Word .docx format to NLM/JATS-XML for scholarly/scientific article typesetting.'
+  type: SoftwareSourceCode
+  url: https://github.com/MartinPaulEve/meTypeset
+  isPartOf:
+    name: GitHub
+    type: WebSite
 ---
 
 <p>I've already tweeted this a few times, but I'm pleased to announce that, in partnership with PKP (and subject to finding the right candidate) we have a funded place for an MSc in Computer Science at the University of Lincoln to work on open source software for scholarly XML typesetting.</p>

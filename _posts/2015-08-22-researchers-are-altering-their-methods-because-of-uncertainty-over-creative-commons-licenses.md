@@ -20,8 +20,18 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcc2t3r
 kcworks: https://works.hcommons.org/records/kvenk-bqt51
 references:
 - http://dx.doi.org/10.1080/09548963.2015.1066073 # Cultural Trends article on London and place
-- https://creativecommons.org/licenses/by/4.0/legalcode # Creative Commons Attribution 4.0 legal code
-- https://meta.wikimedia.org/wiki/Wikilegal/Moral_right_of_integrity # Wikilegal page on moral right of integrity
+- title: Legal Code - Attribution 4.0 International
+  type: WebPage
+  url: https://creativecommons.org/licenses/by/4.0/legalcode
+  isPartOf:
+    name: Creative Commons
+    type: WebSite
+- title: Wikilegal/Moral right of integrity
+  type: WebPage
+  url: https://meta.wikimedia.org/wiki/Wikilegal/Moral_right_of_integrity
+  isPartOf:
+    name: Meta-Wiki
+    type: WebSite
 - http://www.danielallington.net/2014/08/choices-open-access-creative-commons-funded-unfunded-research/ # Allington critique of CC licenses without ND clause
 ---
 

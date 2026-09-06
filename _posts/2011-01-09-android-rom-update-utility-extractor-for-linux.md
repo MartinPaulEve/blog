@@ -35,7 +35,12 @@ wordpress_url: http://www.martineve.com/?p=535
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkxgfft2i"
 kcworks: https://works.hcommons.org/records/m87tw-hfj05
 references:
-- http://www.gnu.org/licenses/ # GNU General Public License page
+- title: Licenses
+  type: WebPage
+  url: http://www.gnu.org/licenses/
+  isPartOf:
+    name: GNU Project - Free Software Foundation
+    type: WebSite
 ---
 
 <p>As my hobby-geek phase draws to a close and I return well and truly to my PhD, I thought it worth sharing this python script I wrote a while back which will extract the update.zip file from an Android RUU.exe file on Linux. There are other items out there that do the same thing, but this is my effort.</p>

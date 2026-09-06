@@ -174,8 +174,12 @@ wordpress_url: http://www.martineve.com/?p=462
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mljgrqm2i"
 kcworks: https://works.hcommons.org/records/2fz6g-yrc84
 references:
-- http://www.zotero.org # Zotero reference management homepage
-- http://www.mendeley.com # Mendeley reference management homepage
+- title: Zotero
+  type: WebSite
+  url: http://www.zotero.org
+- title: Mendeley
+  type: WebSite
+  url: http://www.mendeley.com
 - http://feedback.mendeley.com/forums/4941-mendeley-feedback/suggestions/94437-include-page-numbers-in-the-citation # Mendeley feedback request for page numbers in citations
 ---
 

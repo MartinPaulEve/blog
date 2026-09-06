@@ -23,7 +23,13 @@ wordpress_url: https://www.martineve.com/2012/05/21/sussex-southampton-initiativ
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miezdut2h"
 kcworks: https://works.hcommons.org/records/hf290-qv757
 references:
-- http://www.flickr.com/photos/betsyweber/ # Flickr photostream of betsyweber
+- author: Betsy Weber
+  title: Betsy Weber
+  type: WebPage
+  url: http://www.flickr.com/photos/betsyweber/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>The third conference I attended last week was a day called SuShI. The idea was to bring together the humanities and business worlds. It was, from my extremely critical Leftist perspective, a somewhat strange event. I attended talks on advertising and creativity schematising business theorists. I have to say that, although left still not entirely persuaded by the contents of their papers, it was an extraordinary fusion. I have never seen papers on these elements sit side-by-side with a sociological appraisal calling for the rights of non-human actors to be recognised under international law. We had references to Ernst Bloch alongside papers on digital advertising. Anyway, for the record, here's the archive:</p>

@@ -15,7 +15,12 @@ categories:
 - Publications
 kcworks: https://works.hcommons.org/records/0g88h-ted46
 references:
-- https://www.leverpress.org/about # Lever Press open access funding model about page
+- title: About Lever Press
+  type: WebPage
+  url: https://www.leverpress.org/about
+  isPartOf:
+    name: Lever Press
+    type: WebSite
 ---
 
 My next book, tentatively titled _Star Trek: Voyager: Critical and Historical Approaches to Ethics, Politics, and the End of the 1990s_ is now under contract at Lever Press (title definitely needs some work). This, for me, is very exciting. An open-access press with an innovative funding model -- so there are no author-facing charges -- I am really pleased to be working with Lever.

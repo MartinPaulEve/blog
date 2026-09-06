@@ -15,23 +15,88 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/665y7-grx19
 references:
-- https://api.labs.crossref.org/ # Crossref Labs API
-- https://gitlab.com/crossref/labs/lambda-api-proxy # Crossref Labs API proxy source code
+- title: Crossref Labs API
+  type: WebSite
+  url: https://api.labs.crossref.org/
+- title: fargate-api-proxy
+  type: SoftwareSourceCode
+  url: https://gitlab.com/crossref/labs/lambda-api-proxy
+  isPartOf:
+    name: GitLab
+    type: WebSite
 - https://the-vault.fly.dev/ # Digital preservation status of 7m articles tool
-- https://gitlab.com/crossref/labs/opcit # Project Op Cit digital preservation system
-- https://gitlab.com/crossref/labs/claws # CLAWS generic AWS operations toolkit
-- https://gitlab.com/crossref/labs/distrunner # Crossref Labs distributed computation wrapper
-- https://gitlab.com/crossref/labs/longsight # Longsight observability library
-- https://gitlab.com/crossref/labs/entext # LLM affiliation parser source code
-- https://gitlab.com/crossref/labs/packer # Crossref JSON-L packer for annual data dump
-- https://eprints.bbk.ac.uk/id/eprint/52237 # Eve, Digital Humanities and Literary Studies, Chinese ed.
-- https://eprints.bbk.ac.uk/id/eprint/50784 # Eve, Una Historia De Las Contrasenas, Ediciones Godot
+- title: opcit
+  type: SoftwareSourceCode
+  url: https://gitlab.com/crossref/labs/opcit
+  isPartOf:
+    name: GitLab
+    type: WebSite
+- title: claws
+  type: SoftwareSourceCode
+  url: https://gitlab.com/crossref/labs/claws
+  isPartOf:
+    name: GitLab
+    type: WebSite
+- title: distrunner
+  type: SoftwareSourceCode
+  url: https://gitlab.com/crossref/labs/distrunner
+  isPartOf:
+    name: GitLab
+    type: WebSite
+- title: longsight
+  type: SoftwareSourceCode
+  url: https://gitlab.com/crossref/labs/longsight
+  isPartOf:
+    name: GitLab
+    type: WebSite
+- title: entext
+  type: SoftwareSourceCode
+  url: https://gitlab.com/crossref/labs/entext
+  isPartOf:
+    name: GitLab
+    type: WebSite
+- title: packer
+  type: SoftwareSourceCode
+  url: https://gitlab.com/crossref/labs/packer
+  isPartOf:
+    name: GitLab
+    type: WebSite
+- author: Martin Paul Eve
+  date: '2023-10-19'
+  title: 数字人文与文学研究 (The Digital Humanities and Literary Studies)
+  type: Book
+  url: https://eprints.bbk.ac.uk/id/eprint/52237
+- author: Martin Paul Eve
+  date: '2023-04-01'
+  title: Una Historia De Las Contraseñas (Password)
+  type: Book
+  url: https://eprints.bbk.ac.uk/id/eprint/50784
 - https://orbit.openlibhums.org/article/id/9845/ # Eve, Impossible Chess article, Orbit journal
 - https://eprints.bbk.ac.uk/id/document/315187 # Eve, Impossible Chess article download
-- https://eprints.bbk.ac.uk/id/eprint/51899 # Eve, Digital Scholarly Journals Are Poorly Preserved article
-- https://eprints.bbk.ac.uk/id/eprint/50133 # Eve, Shadow Libraries and Pirate Infrastructures chapter
-- https://eprints.bbk.ac.uk/id/eprint/43087 # Eve, Essay in the Career of the Contemporary English Novelist
-- https://25.scielo.org/en/we-so-loved-open-access/ # Eve, The Guy Who Bangs on about Open Access, SciELO volume
+- author: Martin Paul Eve
+  date: '2024-01-24'
+  title: 'Digital Scholarly Journals are Poorly Preserved: A Study of 7 Million Articles'
+  type: ScholarlyArticle
+  url: https://eprints.bbk.ac.uk/id/eprint/51899
+  isPartOf:
+    name: Journal of Librarianship and Scholarly Communication
+    type: Periodical
+- author: Martin Paul Eve
+  date: '2026-01-20'
+  title: Shadow Libraries and Pirate Infrastructures
+  type: ScholarlyArticle
+  url: https://eprints.bbk.ac.uk/id/eprint/50133
+- author: Martin Paul Eve
+  date: '2024-08-16'
+  title: The Essay in the Career of the Contemporary English Novelist
+  type: ScholarlyArticle
+  url: https://eprints.bbk.ac.uk/id/eprint/43087
+- title: SciELO 25
+  type: WebPage
+  url: https://25.scielo.org/en/we-so-loved-open-access/
+  isPartOf:
+    name: SciELO
+    type: WebSite
 - https://eprints.bbk.ac.uk/id/document/314846 # Eve, Open Access essay download
 ---
 

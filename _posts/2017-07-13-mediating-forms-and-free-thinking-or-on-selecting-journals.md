@@ -11,7 +11,11 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/25z73-mef15
 references:
-- http://eprints.bbk.ac.uk/id/eprint/19144 # Birkbeck eprint: How to Get Published as Early Career Academic
+- author: Martin Paul Eve
+  date: '2017-07-05'
+  title: How to Get Published as an Early Career Academic
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/id/eprint/19144
 - https://www.martineve.com/2015/07/16/the-politics-of-style-on-styleguides-in-scholarly-communications/ # Eve blog post on politics of styleguides in scholarly comms
 ---
 

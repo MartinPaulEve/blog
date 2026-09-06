@@ -18,7 +18,9 @@ title: Universities, DH, “the crowd”, and labour that looks like a game
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdwb6762a"
 kcworks: https://works.hcommons.org/records/6cpdc-12f31
 references:
-- http://trianglesci.org # Triangle Scholarly Communications Institute
+- title: Triangle Scholarly Communications Institute
+  type: WebSite
+  url: http://trianglesci.org
 - http://britishlibrary.typepad.co.uk/digital-scholarship/2013/12/a-million-first-steps.html # British Library 1 Million Images crowdsourcing project
 ---
 

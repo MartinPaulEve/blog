@@ -21,7 +21,9 @@ wordpress_url: http://new.martineve.com/?p=10
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mltl3tu2s"
 kcworks: https://works.hcommons.org/records/vhnzr-9bn18
 references:
-- http://www.globalpolicyjournal.com/ # Global Policy Journal website
+- title: Global Policy Journal
+  type: WebSite
+  url: http://www.globalpolicyjournal.com/
 ---
 
 <p>The following constitute a preliminary note-taking/synoptical exercise undertaken for my own benefit, but shared in case anybody finds them useful. I should probably highlight that I have not read all of Žižek's work and would in no way consider myself an expert.

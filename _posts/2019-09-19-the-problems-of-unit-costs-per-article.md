@@ -15,7 +15,14 @@ categories:
 kcworks: https://works.hcommons.org/records/e6w1x-2a495
 references:
 - https://doi.org/10.3998/3336451.0021.101 # Pinter landscape study on monograph costs
-- http://blogs.openbookpublishers.com/introducing-data-to-the-open-access-debate-obps-business-model-part-three/ # Open Book Publishers business model transparency post
+- author: Rupert Gatti
+  date: '2015-10-15'
+  title: 'Introducing Data to the Open Access Debate: OBP''s Business Model (Part Three)'
+  type: BlogPosting
+  url: http://blogs.openbookpublishers.com/introducing-data-to-the-open-access-debate-obps-business-model-part-three/
+  isPartOf:
+    name: Open Book Publishers Blog
+    type: Blog
 ---
 
 Every five minutes or so, someone tries to come up with a cost-per-article figure for academic publishing. In the past, I've tried to do it too. But more and more I find myself wanting to resist the temptation. Not only because the data collection takes forever, but because the figures that I would produce, from my organisation, would likely not be cross-applicable to another organisation. Yet, Plan S and other organisations keep floating the idea of some kind of transparency on a per-article basis. Here are some of the problems with the approach that I have been trying to think through. This is very much a 'thinking aloud' approach here and all of these aspects are up for debate.

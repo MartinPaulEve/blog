@@ -18,7 +18,12 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbwgc6y
 kcworks: https://works.hcommons.org/records/gesws-fx745
 references:
 - https://www.whatdotheyknow.com/request/302242/response/745563/attach/3/FOI%20Request%20ref%20FOI2015%2025797%20Meetings%20between%20BIS%20officials%20ministers%20and%20Elsevier%20Thompson%20Reuters.pdf # FOI response PDF on BIS meetings with Elsevier and Thomson Reuters
-- https://www.contractsfinder.service.gov.uk/Notice/26d25c44-4c38-4d4c-93ca-9a580ac39724 # UK Contracts Finder notice for BIS/HEFCE metrics database tender
+- title: UK SBS BLOJEU-CR150082HEFCE Provision Of Citation Indicators
+  type: WebPage
+  url: https://www.contractsfinder.service.gov.uk/Notice/26d25c44-4c38-4d4c-93ca-9a580ac39724
+  isPartOf:
+    name: Contracts Finder
+    type: WebSite
 ---
 
 Dear Sir/Madam,

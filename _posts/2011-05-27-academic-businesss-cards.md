@@ -29,7 +29,9 @@ wordpress_url: https://www.martineve.com/?p=1107
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkcziys2s"
 kcworks: https://works.hcommons.org/records/v1zsg-8k116
 references:
-- http://www.moo.com # moo.com custom business card printing service
+- title: MOO
+  type: WebSite
+  url: http://www.moo.com
 - http://www.istockphoto.com/ # iStockPhoto stock image marketplace
 ---
 

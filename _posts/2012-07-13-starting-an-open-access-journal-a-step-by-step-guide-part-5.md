@@ -24,7 +24,13 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mi72r3e
 kcworks: https://works.hcommons.org/records/2ah70-ywh87
 references:
 - http://www.doaj.org/ # Directory of Open Access Journals
-- http://roddymacleod.wordpress.com/2010/04/06/many-open-access-oa-journals-dont-have-table-of-contents-rss-feeds-and-they-are-therefore-missing-out-a-great-deal/ # Macleod blog post arguing for journal RSS feeds
+- date: '2010-04-06'
+  title: Many Open Access (OA) journals don't have Table of Contents RSS feeds, and they are therefore missing out a great deal.
+  type: BlogPosting
+  url: http://roddymacleod.wordpress.com/2010/04/06/many-open-access-oa-journals-dont-have-table-of-contents-rss-feeds-and-they-are-therefore-missing-out-a-great-deal/
+  isPartOf:
+    name: Roddy Macleod's Blog
+    type: Blog
 ---
 
 <p>Following on from <a href="https://eve.gd/2012/07/10/starting-an-open-access-journal-a-step-by-step-guide-part-1/">part 1</a>, <a href="https://eve.gd/2012/07/11/starting-an-open-access-journal-a-step-by-step-guide-part-2/">part 2</a>, <a href="https://eve.gd/2012/07/12/starting-an-open-access-journal-a-step-by-step-guide-part-3/">part 3</a> and <a href="https://eve.gd/2012/07/13/starting-an-open-access-journal-a-step-by-step-guide-part-4/">part 4</a>, this is the third in a series of posts designed to get a new journal off the ground.</p>

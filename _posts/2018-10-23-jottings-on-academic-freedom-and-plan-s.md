@@ -15,7 +15,14 @@ categories:
 - Higher Education
 kcworks: https://works.hcommons.org/records/2mbcv-9dc48
 references:
-- https://blogs.harvard.edu/pamphlet/2009/05/28/open-access-policies-and-academic-freedom/ # Stuart Shieber 2009 post on OA policies and academic freedom
+- author: Stuart Shieber
+  date: '2009-05-28'
+  title: Open-access policies and academic freedom
+  type: BlogPosting
+  url: https://blogs.harvard.edu/pamphlet/2009/05/28/open-access-policies-and-academic-freedom/
+  isPartOf:
+    name: The Occasional Pamphlet
+    type: Blog
 - https://doi.org/10.7710/2162-3309.2104 # Article on OA mandates and academic freedom conflicts JLSC
 - http://www.aaup.org/report/1940-statement-principles-academic-freedom-and-tenure # AAUP 1940 Statement on Academic Freedom and Tenure
 ---

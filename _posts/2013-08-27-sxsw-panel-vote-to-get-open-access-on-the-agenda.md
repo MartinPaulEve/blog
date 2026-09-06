@@ -23,7 +23,12 @@ wordpress_url: https://www.martineve.com/?p=2820
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgdkwa42h"
 kcworks: https://works.hcommons.org/records/m01dv-vvp97
 references:
-- http://panelpicker.sxsw.com/vote/23623 # SXSW PanelPicker vote for open access panel
+- title: PanelPicker
+  type: WebPage
+  url: http://panelpicker.sxsw.com/vote/23623
+  isPartOf:
+    name: SXSW Conference & Festival
+    type: WebSite
 - http://www.dhpoco.org # Adeline Koh's dhpoco digital humanities initiative
 ---
 

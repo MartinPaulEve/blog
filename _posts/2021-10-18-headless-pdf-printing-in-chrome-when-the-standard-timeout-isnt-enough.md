@@ -15,7 +15,12 @@ categories:
 kcworks: https://works.hcommons.org/records/jvd1b-pw763
 references:
 - https://www.npmjs.com/package/html-pdf-chrome # html-pdf-chrome npm package
-- https://github.com/MartinPaulEve/eprintsToCV # Eve eprintsToCV repository on GitHub
+- title: GitHub - MartinPaulEve/cv
+  type: SoftwareSourceCode
+  url: https://github.com/MartinPaulEve/eprintsToCV
+  isPartOf:
+    name: GitHub
+    type: WebSite
 ---
 
 tl;dr: use the node.js module [html-pdf-chrome](https://www.npmjs.com/package/html-pdf-chrome) to print programmatically, not Chrome's built-in virtual-time-budget. See my [print.js file](https://github.com/MartinPaulEve/eprintsToCV/blob/master/print.js) for an example.

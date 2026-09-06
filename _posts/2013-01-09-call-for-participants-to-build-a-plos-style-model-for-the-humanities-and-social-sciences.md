@@ -27,7 +27,12 @@ kcworks: https://works.hcommons.org/records/pcfj7-cqm30
 references:
 - http://www.cameronneylon.net # Cameron Neylon personal website
 - http://www.tjm.org # Tim McCormick personal website
-- http://svpow.com/ # Mike Taylor SV-POW blog
+- title: Sauropod Vertebra Picture of the Week
+  type: WebSite
+  url: http://svpow.com/
+  isPartOf:
+    name: Sauropod Vertebra Picture of the Week
+    type: Blog
 ---
 
 <p>For quite some time, I have been interested in/incensed by the scholarly publication system; the exclusions, iniquities and absurdities of it can be clearly seen from only a brief survey of the economic field. I have watched with despair as the sciences have made projects work while the humanities and social sciences have almost sleepwalked into a disaster. The Finch Report published in the UK and accepted by the government will wreak havoc on our <i>modus operandi</i> and work to stratify an already split field.</p>

@@ -14,10 +14,31 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/djegd-j0e68
 references:
-- https://uk.sagepub.com/en-gb/eur/the-limits-of-neoliberalism/book256597 # Springer, The Limits of Neoliberalism
-- https://twitter.com/lesliekwchan/status/1347197705014169601 # Leslie Chan tweet on competition framing in ScholComms
+- author: William Davies
+  date: '2016-11-26'
+  title: The Limits of Neoliberalism
+  type: Book
+  url: https://uk.sagepub.com/en-gb/eur/the-limits-of-neoliberalism/book256597
+  isPartOf:
+    name: Sage UK
+    type: WebSite
+- author: Leslie Chan
+  date: '2021-01-07'
+  title: Leslie Chan (@lesliekwchan) on X
+  type: WebPage
+  url: https://twitter.com/lesliekwchan/status/1347197705014169601
+  isPartOf:
+    name: X
+    type: WebSite
 - https://jhupbooks.press.jhu.edu/title/generous-thinking # Fitzpatrick, Generous Thinking
-- https://blogs.openbookpublishers.com/introducing-some-data-to-the-open-access-debate-obps-business-model-part-one/ # Open Book Publishers blog on OA business model data
+- author: Rupert Gatti
+  date: '2015-10-15'
+  title: 'Introducing Some Data to the Open Access Debate: OBP''s Business Model (Part One)'
+  type: BlogPosting
+  url: https://blogs.openbookpublishers.com/introducing-some-data-to-the-open-access-debate-obps-business-model-part-one/
+  isPartOf:
+    name: Open Book Publishers Blog
+    type: Blog
 ---
 
 A discourse of 'fairness' has emerged in open-access circles in recent years. It has come from a sense that big, for-profit publishers have not played 'fairly' with libraries over the past 30 years. It is unsurprising. These large publishers make margins of 35%+ on billions of dollars of revenue, even while library budgets stagnate. They hold much of the world's research output to hostage, even to the extent that, during the pandemic, it was due to acts of publisher _generosity_, surplus to their legal requirements, that they granted a temporary lowering of the paywall.

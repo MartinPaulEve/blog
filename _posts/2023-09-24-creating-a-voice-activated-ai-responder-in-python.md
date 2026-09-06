@@ -15,7 +15,12 @@ categories:
 - Artificial Intelligence
 kcworks: https://works.hcommons.org/records/hdnxy-2tq35
 references:
-- https://github.com/MartinPaulEve/seance4d/blob/main/seance4d/seance4d/main.py # seance4d voice AI main event loop source
+- title: seance4d/seance4d/seance4d/main.py at main · MartinPaulEve/seance4d
+  type: SoftwareSourceCode
+  url: https://github.com/MartinPaulEve/seance4d/blob/main/seance4d/seance4d/main.py
+  isPartOf:
+    name: GitHub
+    type: WebSite
 - https://stackoverflow.com/a/34796794/349003 # Stack Overflow answer on alsaaudio buffer processing
 ---
 

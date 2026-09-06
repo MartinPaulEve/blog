@@ -24,13 +24,53 @@ wordpress_url: https://www.martineve.com/?p=1222
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk7pjfs2a"
 kcworks: https://works.hcommons.org/records/nfxcg-2m503
 references:
-- http://en.wikipedia.org/wiki/Zong_Massacre # Wikipedia: 1781 Zong Massacre
-- http://en.wikipedia.org/wiki/Elfriede_Jelinek # Wikipedia: Elfriede Jelinek
-- http://en.wikipedia.org/wiki/Samuel_Beckett # Wikipedia: Samuel Beckett
-- http://en.wikipedia.org/wiki/Frances_Trollope # Wikipedia: Frances Trollope
-- http://en.wikipedia.org/wiki/C._L._R._James # Wikipedia: C.L.R. James
-- http://en.wikipedia.org/wiki/The_Black_Jacobins # Wikipedia: The Black Jacobins
-- http://www.flickr.com/photos/john-christopher-bowers/ # quadelirus Flickr photostream CC-BY-NC-ND
+- date: '2004-09-28'
+  title: Zong Massacre
+  type: WebPage
+  url: http://en.wikipedia.org/wiki/Zong_Massacre
+  isPartOf:
+    name: Wikipedia
+    type: WebSite
+- date: '2004-10-07'
+  title: Elfriede Jelinek
+  type: WebPage
+  url: http://en.wikipedia.org/wiki/Elfriede_Jelinek
+  isPartOf:
+    name: Wikipedia
+    type: WebSite
+- title: Samuel Beckett
+  type: WebPage
+  url: http://en.wikipedia.org/wiki/Samuel_Beckett
+  isPartOf:
+    name: Wikipedia
+    type: WebSite
+- date: '2004-12-13'
+  title: Frances Trollope
+  type: WebPage
+  url: http://en.wikipedia.org/wiki/Frances_Trollope
+  isPartOf:
+    name: Wikipedia
+    type: WebSite
+- date: '2004-01-21'
+  title: C. L. R. James
+  type: WebPage
+  url: http://en.wikipedia.org/wiki/C._L._R._James
+  isPartOf:
+    name: Wikipedia
+    type: WebSite
+- date: '2006-10-23'
+  title: The Black Jacobins
+  type: WebPage
+  url: http://en.wikipedia.org/wiki/The_Black_Jacobins
+  isPartOf:
+    name: Wikipedia
+    type: WebSite
+- title: quadelirus
+  type: WebPage
+  url: http://www.flickr.com/photos/john-christopher-bowers/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>In the spirit of writing up my recent conference visits, I thought I would share a rundown of the conference entitled "Enslavement: Colonial Appropriations, Apparitions, Remembrances, 1750-present day" hosted by the Centre for Studies in Literature at the University of Portsmouth. This report is incomplete as my notes for the day were sporadic, this being so far from my usual field, but I'll put up what I can reconstruct.</p>

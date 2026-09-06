@@ -24,8 +24,17 @@ wordpress_url: https://www.martineve.com/?p=3025
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfot3ij2n"
 kcworks: https://works.hcommons.org/records/g0ra4-yk330
 references:
-- http://ivory.idyll.org/blog/posting-blog-entries-to-figshare.html # Titus Brown: depositing blog posts to Figshare
-- http://carlboettiger.info/2013/06/03/DOI-citable.html#comment-919771037 # Boettiger comment on DOIs and citeability
+- title: Posting blog entries to figshare
+  type: BlogPosting
+  url: http://ivory.idyll.org/blog/posting-blog-entries-to-figshare.html
+- author: Carl Boettiger
+  date: '2013-06-03'
+  title: DOI != citable
+  type: BlogPosting
+  url: http://carlboettiger.info/2013/06/03/DOI-citable.html#comment-919771037
+  isPartOf:
+    name: Lab Notebook
+    type: Blog
 - https://www.jiscmail.ac.uk/cgi-bin/webadmin?A3=ind1204&L=LIS-SERIALS&E=quoted-printable&P=112364&B=--bcaec54c52b2580cc104bd854894&T=text%2Fhtml;%20charset=windows-1252&pending= # JISCMail thread on CLOCKSS archive preservation
 - http://dx.doi.org/10.6084/m9.figshare.942283 # Figshare DOI for Google Scholar blog post article
 ---

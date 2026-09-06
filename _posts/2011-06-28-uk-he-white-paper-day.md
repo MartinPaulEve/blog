@@ -20,16 +20,50 @@ wordpress_url: https://www.martineve.com/?p=1229
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk7lxh32n"
 kcworks: https://works.hcommons.org/records/eh068-z4w16
 references:
-- http://www.guardian.co.uk/education/2011/jun/28/naming-shaming-degrees-poor-jobs-record # Guardian: naming and shaming degrees poor jobs record
-- http://www.bbc.co.uk/news/education-13927710 # BBC: universities shake-up greater competition
+- author:
+  - Jeevan Vasagar
+  - Jessica Shepherd
+  date: '2011-06-28'
+  title: '''Naming and shaming'' for degrees with poor jobs record'
+  type: NewsArticle
+  url: http://www.guardian.co.uk/education/2011/jun/28/naming-shaming-degrees-poor-jobs-record
+  isPartOf:
+    name: The Guardian
+    type: Periodical
+- author: Sean Coughlan
+  date: '2011-06-28'
+  title: Universities will have to bid for a quarter of places
+  type: NewsArticle
+  url: http://www.bbc.co.uk/news/education-13927710
+  isPartOf:
+    name: BBC News
+    type: Periodical
 - https://twitter.com/#!/renireni # Twitter: @renireni on HE White Paper
 - https://twitter.com/#!/richardbrabner # Twitter: @richardbrabner on HE White Paper
 - https://twitter.com/#!/MarioCreatura # Twitter: @MarioCreatura on HE White Paper
 - https://twitter.com/#!/timeshighered # Twitter: Times Higher Education account
-- http://www.timeshighereducation.co.uk/story.asp?storycode=416655 # Times Higher: roundup of official HE White Paper responses
-- http://educationactivistnetwork.wordpress.com/2011/06/28/press-release-h-e-white-paper-%E2%80%93-a-disaster-for-universities-a-government-in-chaos/ # Education Activist Network HE White Paper press release
+- date: '2011-06-28'
+  title: 'White Paper: reactions round-up'
+  type: NewsArticle
+  url: http://www.timeshighereducation.co.uk/story.asp?storycode=416655
+  isPartOf:
+    name: Times Higher Education
+    type: Periodical
+- date: '2011-06-28'
+  title: Press release – H.E. White Paper – a disaster for universities; a government in chaos
+  type: BlogPosting
+  url: http://educationactivistnetwork.wordpress.com/2011/06/28/press-release-h-e-white-paper-%E2%80%93-a-disaster-for-universities-a-government-in-chaos/
+  isPartOf:
+    name: Education Activist Network
+    type: Blog
 - http://www.mikebakereducation.co.uk/blog/396/he-white-paper-key-points # Mike Baker: HE White Paper key points rundown
-- http://www.flickr.com/photos/featheredtar/ # FeatheredTar Flickr photostream CC-BY
+- author: Joel Penner
+  title: Joel Penner
+  type: WebPage
+  url: http://www.flickr.com/photos/featheredtar/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>Today is the day that we've all been <s>dreading</s> waiting for. The final unveiling of the UK Higher Education White Paper.</p>

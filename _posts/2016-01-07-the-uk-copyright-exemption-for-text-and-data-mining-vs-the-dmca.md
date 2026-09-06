@@ -17,8 +17,22 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbuyefm
 kcworks: https://works.hcommons.org/records/egngj-yac41
 references:
 - https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/375954/Research.pdf # UK government guidance PDF on copyright exemption for research
-- https://en.wikipedia.org/wiki/Copyright_Directive # Wikipedia article on European Copyright Directive
-- https://en.wikipedia.org/wiki/Digital_Millennium_Copyright_Act # Wikipedia article on Digital Millennium Copyright Act
+- author: Contributors to Wikimedia projects
+  date: '2003-02-06'
+  title: Copyright Directive
+  type: WebPage
+  url: https://en.wikipedia.org/wiki/Copyright_Directive
+  isPartOf:
+    name: Wikipedia
+    type: WebSite
+- author: Contributors to Wikimedia projects
+  date: '2001-07-31'
+  title: Digital Millennium Copyright Act
+  type: WebPage
+  url: https://en.wikipedia.org/wiki/Digital_Millennium_Copyright_Act
+  isPartOf:
+    name: Wikipedia
+    type: WebSite
 ---
 
 New provisions in UK copyright law look promising for text and data mining. Last year, the government signed into effect an exemption to copyright for the purposes of non-commercial research. [This states that](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/375954/Research.pdf):

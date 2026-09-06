@@ -21,7 +21,12 @@ wordpress_url: http://pro.grammatic.org/post-fixing-scp-completion-in-ubuntu-910
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mme35ml2n"
 kcworks: https://works.hcommons.org/records/5ger8-qch42
 references:
-- https://bugs.launchpad.net/ubuntu/karmic/+source/bash-completion/+bug/449349 # Launchpad bug: bash-completion scp issue Karmic
+- title: 'Bug #449349 "regression for completing remote files/dirs over ssh..."'
+  type: WebPage
+  url: https://bugs.launchpad.net/ubuntu/karmic/+source/bash-completion/+bug/449349
+  isPartOf:
+    name: Launchpad
+    type: WebSite
 - http://launchpadlibrarian.net/35968198/ssh # bash-completion scp fix for Ubuntu 9.10
 ---
 

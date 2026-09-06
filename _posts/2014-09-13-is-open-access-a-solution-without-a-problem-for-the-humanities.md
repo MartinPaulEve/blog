@@ -23,11 +23,30 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7meiricc
 kcworks: https://works.hcommons.org/records/1a67e-rzx34
 references:
 - http://www.cambridge.org/eve # Cambridge University Press page for Eve's OA book
-- http://bjoern.brembs.net/2013/08/a-fistful-of-dollars-why-corporate-publishers-have-no-place-in-scholarly-communication/ # Brembs blog post on corporate publishers and OA
+- author: Bjoern Brembs
+  date: '2013-08-26'
+  title: 'A fistful of dollars: why corporate publishers have no place in scholarly communication'
+  type: BlogPosting
+  url: http://bjoern.brembs.net/2013/08/a-fistful-of-dollars-why-corporate-publishers-have-no-place-in-scholarly-communication/
+  isPartOf:
+    name: bjoern.brembs.blog
+    type: Blog
 - http://dx.doi.org/10.1629/2048-7754.25.2.158 # Article on journal expenditure and serials crisis
-- http://www.theguardian.com/science/2012/apr/24/harvard-university-journal-publishers-prices # Guardian story on Harvard journal subscription costs
+- author: Ian Sample
+  date: '2012-04-24'
+  title: Harvard University says it can't afford journal publishers' prices
+  type: NewsArticle
+  url: http://www.theguardian.com/science/2012/apr/24/harvard-university-journal-publishers-prices
+  isPartOf:
+    name: The Guardian
+    type: Periodical
 - http://www.sherpa.ac.uk/romeo/ # SHERPA RoMEO publisher open access policies database
-- http://bit.ly/oa-book#p30.2 # Linked passage in an open access book on serials budgets
+- title: Open Access (the book)
+  type: WebPage
+  url: http://bit.ly/oa-book#p30.2
+  isPartOf:
+    name: Harvard Open Access Project
+    type: WebSite
 ---
 
 <p>At a recent talk I gave, I was asked whether open access in the humanities is a "solution without a problem". Without wanting to disparage my questioner, I consider this to be a question born of institutional privilege and of conservatism. Firstly, I consider it a perspectivized take on the situation; just because one cannot see a problem does not mean that it doesn't exist, merely that it is invisible to that particular questioner. Secondly, just because we can distribute journals in print over the course of weeks on inter-library loan doesn't mean that there isn't a better way to do it that would be more efficient and make use of the astounding technological developments that are now at our disposal. Some of the below material, in which I look at these questions, comes from my forthcoming book, <a href="http://www.cambridge.org/eve"><i>Open Access and the Humanities: Contexts, Controversies and the Future</i></a>.</p>

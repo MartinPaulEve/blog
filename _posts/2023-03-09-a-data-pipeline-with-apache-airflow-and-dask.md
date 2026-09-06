@@ -14,10 +14,32 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/bfm0b-y8x86
 references:
-- https://www.crossref.org/people/martin-eve/ # Eve's Crossref staff profile
-- https://gitlab.com/crossref/labs/airflow-launcher # Crossref Labs Airflow launcher project
-- https://gitlab.com/crossref/labs/distrunner # Crossref Labs Dask distributed runner library
-- https://github.com/dask/distributed/issues/6846 # Dask issue: errors after cluster shutdown
+- title: Martin Eve
+  type: WebPage
+  url: https://www.crossref.org/people/martin-eve/
+  isPartOf:
+    name: Crossref
+    type: WebSite
+- title: airflow-launcher
+  type: SoftwareSourceCode
+  url: https://gitlab.com/crossref/labs/airflow-launcher
+  isPartOf:
+    name: GitLab
+    type: WebSite
+- title: distrunner
+  type: SoftwareSourceCode
+  url: https://gitlab.com/crossref/labs/distrunner
+  isPartOf:
+    name: GitLab
+    type: WebSite
+- author: graingert
+  date: '2022-08-08'
+  title: 'RuntimeError: cannot schedule new futures after shutdown'
+  type: WebPage
+  url: https://github.com/dask/distributed/issues/6846
+  isPartOf:
+    name: GitHub
+    type: WebSite
 ---
 
 In my [new role at Crossref](https://www.crossref.org/people/martin-eve/) I work on a series of data pipelines for research and development projects. These are resource-intensive data processing tasks that need to be executed periodically on a schedule, with good observability, but also with parallel processing capacity.

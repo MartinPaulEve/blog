@@ -30,7 +30,13 @@ wordpress_url: https://www.martineve.com/2012/03/08/doctoral-thesis-editing-cutt
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miqgt6o2p"
 kcworks: https://works.hcommons.org/records/2hzyy-fqj02
 references:
-- http://www.flickr.com/photos/azriadnan/ # semuthutan Flickr photo stream
+- author: Azri
+  title: Azri
+  type: WebPage
+  url: http://www.flickr.com/photos/azriadnan/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>A quick tip that I think it's worth raising, as it's just come to the fore in my life(!), is that the citation style you employ can have a large impact on the number of words over the course of an 80,000 word thesis.</p>

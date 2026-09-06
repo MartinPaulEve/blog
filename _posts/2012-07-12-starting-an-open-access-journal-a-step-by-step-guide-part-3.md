@@ -24,8 +24,15 @@ wordpress_url: https://eve.gd/?p=2193
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miatxbp2i"
 kcworks: https://works.hcommons.org/records/5y7yf-fzc20
 references:
-- http://call-for-papers.sas.upenn.edu/ # UPenn call for papers listings for humanities
-- http://www.h-net.org/announce/submit1.cgi # H-NET announcements submission form
+- title: cfp | call for papers
+  type: WebSite
+  url: http://call-for-papers.sas.upenn.edu/
+- title: H-Announce
+  type: WebPage
+  url: http://www.h-net.org/announce/submit1.cgi
+  isPartOf:
+    name: H-Net
+    type: WebSite
 ---
 
 <p>Following on from <a href="https://eve.gd/2012/07/10/starting-an-open-access-journal-a-step-by-step-guide-part-1/">part 1</a> and <a href="https://eve.gd/2012/07/11/starting-an-open-access-journal-a-step-by-step-guide-part-2/">part 2</a>, this is the third in a series of posts designed to get a new journal off the ground.</p>

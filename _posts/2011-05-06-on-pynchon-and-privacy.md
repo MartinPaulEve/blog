@@ -39,8 +39,22 @@ wordpress_url: https://www.martineve.com/?p=1034
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkdt2f22s"
 kcworks: https://works.hcommons.org/records/e8vwq-6b483
 references:
-- http://latimesblogs.latimes.com/jacketcopy/2011/05/thomas-pynchon-tom-a-remarkable-collection.html # LA Times Jacket Copy piece on Pynchon collection
-- http://www.guardian.co.uk/film/2003/may/05/artsfeatures.fiction # Guardian review of Journey into the Mind of Pynchon documentary
+- author: Carolyn Kellogg
+  date: '2011-05-05'
+  title: 'When Thomas Pynchon is just Tom: A remarkable collection debuts'
+  type: NewsArticle
+  url: http://latimesblogs.latimes.com/jacketcopy/2011/05/thomas-pynchon-tom-a-remarkable-collection.html
+  isPartOf:
+    name: Los Angeles Times
+    type: Periodical
+- author: Steven Poole
+  date: '2003-05-05'
+  title: Have you seen this man?
+  type: NewsArticle
+  url: http://www.guardian.co.uk/film/2003/may/05/artsfeatures.fiction
+  isPartOf:
+    name: The Guardian
+    type: Periodical
 ---
 
 <p>In a <a href="http://latimesblogs.latimes.com/jacketcopy/2011/05/thomas-pynchon-tom-a-remarkable-collection.html">fascinating LA Times piece</a> published today, it is remarked, in conversation with a close friend of Thomas Pynchon that:</p>

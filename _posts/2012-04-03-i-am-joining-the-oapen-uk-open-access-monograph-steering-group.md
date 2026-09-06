@@ -24,7 +24,13 @@ wordpress_url: https://www.martineve.com/2012/04/03/i-am-joining-the-oapen-uk-op
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mij6nit2h"
 kcworks: https://works.hcommons.org/records/5mw1h-7jb45
 references:
-- http://www.flickr.com/photos/wakingtiger/ # Flickr photostream of Gideon Burton
+- author: Gideon Burton
+  title: Gideon Burton
+  type: WebSite
+  url: http://www.flickr.com/photos/wakingtiger/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>I'm delighted to announce that I am joining the <a href="http://oapen-uk.jiscebooks.org/overview/steering-group/">OAPEN-UK Steering Group</a>, a great JISC project that is gathering evidence for the viability of Open Access monograph publication in the Humanities and Social Sciences. From their website:</p>

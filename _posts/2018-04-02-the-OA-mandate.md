@@ -19,8 +19,20 @@ references:
 - http://doi.org/10.1629/uksg.392 # Eve et al. cost study on humanities OA monographs UKSG
 - http://blog.hefce.ac.uk/2018/02/23/open-access-monographs-ref-2027/ # Steven Hill HEFCE blog on OA monographs REF 2027
 - http://www.hefce.ac.uk/pubs/rereports/year/2015/monographs/ # Crossick Report on OA monographs HEFCE
-- https://www.theguardian.com/education/2018/feb/27/university-staff-pension-dispute-moves-to-acas # Guardian on USS pension dispute moving to ACAS
-- https://www.press.umich.edu/openaccess # University of Michigan Press open access programme
+- author: Richard Adams
+  date: '2018-02-27'
+  title: University staff pension dispute moves to Acas
+  type: NewsArticle
+  url: https://www.theguardian.com/education/2018/feb/27/university-staff-pension-dispute-moves-to-acas
+  isPartOf:
+    name: The Guardian
+    type: Periodical
+- title: Open Access
+  type: WebPage
+  url: https://www.press.umich.edu/openaccess
+  isPartOf:
+    name: University of Michigan Press
+    type: WebSite
 ---
 
 In the past few days, well [over a year since HEFCE signalled](http://www.hefce.ac.uk/media/HEFCE,2014/Content/Pubs/2016/201636/HEFCE2016_36.pdf) its "inten[tion] to move towards an open-access requirement for monographs in the exercise that follows the next REF (expected in the mid-2020s)", humanities academics have been getting themselves stirred up on the basis of a document issued by the [Royal Historical Society](https://royalhistsoc.org/oa-briefing-march2018/). It is curious that it is only now that people are paying any attention to this. The original document (see Annex C of the consultation on the Second REF) was issued in December 2016 "to give due notice to the sector", yet many have been caught off guard.

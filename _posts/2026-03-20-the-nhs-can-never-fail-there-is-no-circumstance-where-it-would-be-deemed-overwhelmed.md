@@ -19,10 +19,25 @@ categories:
 - Politics
 - Health
 references:
-- https://www.gov.uk/government/publications/uk-covid-19-inquiry-impact-of-covid-19-pandemic-on-healthcare-systems-in-the-four-nations-of-the-united-kingdom-module-3-report # UK Covid Inquiry Module 3 report
-- https://covid19.public-inquiry.uk/documents/module-3-in-brief-report/ # Covid Inquiry Module 3 summary report
-- https://covid19.public-inquiry.uk/documents/module-3-full-report # Covid Inquiry Module 3 full report
-- https://ernestopriego.com/ # Ernesto Priego personal site
+- date: '2026-03-19'
+  title: 'UK Covid-19 Inquiry: Impact of Covid-19 pandemic on healthcare systems in the four nations of the United Kingdom (Module 3) Report'
+  type: Report
+  publisher: Cabinet Office
+  url: https://www.gov.uk/government/publications/uk-covid-19-inquiry-impact-of-covid-19-pandemic-on-healthcare-systems-in-the-four-nations-of-the-united-kingdom-module-3-report
+  isPartOf:
+    name: GOV.UK
+    type: WebSite
+- title: Module 3 Report 'In Brief' summary – The impact of the Covid-19 pandemic on the healthcare systems of the United Kingdom
+  type: Report
+  publisher: UK Covid-19 Inquiry
+  url: https://covid19.public-inquiry.uk/documents/module-3-in-brief-report/
+- title: Module 3 Report - The impact of the Covid-19 pandemic on the healthcare systems of the United Kingdom
+  type: Report
+  publisher: UK Covid-19 Inquiry
+  url: https://covid19.public-inquiry.uk/documents/module-3-full-report
+- title: Everything is Connected
+  type: WebSite
+  url: https://ernestopriego.com/
 ---
 
 Yesterday marked the [publication of the Module 3 report of the Covid inquiry](https://www.gov.uk/government/publications/uk-covid-19-inquiry-impact-of-covid-19-pandemic-on-healthcare-systems-in-the-four-nations-of-the-united-kingdom-module-3-report). You can read [a summary version](https://covid19.public-inquiry.uk/documents/module-3-in-brief-report/) or [the full version of the report](https://covid19.public-inquiry.uk/documents/module-3-full-report). The report stresses that there were key failings with respect to government policy during the pandemic. A key point is that the assumption made by government centred around contact transmission rather than aerosol transmission. This was obviously incorrect and it led to rapid spread of the disease and inadequate PPE for NHS staff. As the summary report says:

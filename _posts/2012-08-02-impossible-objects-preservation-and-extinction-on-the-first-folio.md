@@ -20,8 +20,22 @@ wordpress_url: https://www.martineve.com/?p=2266
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhwlhln2q"
 kcworks: https://works.hcommons.org/records/acsbn-kkf35
 references:
-- http://www.guardian.co.uk/culture/2012/aug/02/bodleian-shakespeare-first-folio-online # Guardian news on Bodleian digitising First Folio
-- http://www.guardian.co.uk/environment/2009/sep/23/panda-extinction-chris-packham # Guardian article Chris Packham on panda conservation
+- author: Maev Kennedy
+  date: '2012-08-01'
+  title: Bodleian's battered Shakespeare First Folio to be put on internet
+  type: NewsArticle
+  url: http://www.guardian.co.uk/culture/2012/aug/02/bodleian-shakespeare-first-folio-online
+  isPartOf:
+    name: The Guardian
+    type: Periodical
+- author: Leo Benedictus
+  date: '2009-09-22'
+  title: Should pandas be left to face extinction?
+  type: NewsArticle
+  url: http://www.guardian.co.uk/environment/2009/sep/23/panda-extinction-chris-packham
+  isPartOf:
+    name: The Guardian
+    type: Periodical
 ---
 
 <p>News of the Bodleian's plans to <a href="http://www.guardian.co.uk/culture/2012/aug/02/bodleian-shakespeare-first-folio-online">digitise the First Folio</a> are to be welcomed, but several passages in this article made me question the purpose of indefinite preservation of this object... especially once that digitisation is complete.</p>

@@ -39,8 +39,22 @@ references:
   title: Pleiades
   type: WebSite
   url: https://pleiades.stoa.org/
-- https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/
-- https://eve.gd/2026/04/19/the-necessary-pain-involved-in-blogging-if-you-want-your-work-to-be-preserved-beyond-your-lifespan/
+- author: Eve, Martin Paul
+  date: '2026-06-23'
+  title: Making blog posts harvestable by Zotero and preserving case in citation fields
+  type: BlogPosting
+  url: https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/
+  isPartOf:
+    name: eve.gd
+    type: Blog
+- author: Eve, Martin Paul
+  date: '2026-04-19'
+  title: The Necessary Pain Involved in Blogging (if you want your work to be preserved beyond your lifespan)
+  type: BlogPosting
+  url: https://eve.gd/2026/04/19/the-necessary-pain-involved-in-blogging-if-you-want-your-work-to-be-preserved-beyond-your-lifespan/
+  isPartOf:
+    name: eve.gd
+    type: Blog
 - https://doi.org/10.31274/jlsc.16288
 - author:
     name: Adam DJ Brett

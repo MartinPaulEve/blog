@@ -19,9 +19,27 @@ title: 'Above and beyond: “good” and “bad” surpluses in academic publish
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdrtg6x2t"
 kcworks: https://works.hcommons.org/records/dmtzj-58t80
 references:
-- http://svpow.com/2014/11/22/is-publishing-just-a-button/ # Mike Taylor SVPOW post on publishing as a button
-- http://blogs.sas.ac.uk/2014/10/29/open-access-free-from-having-to-sell/ # Eve SAS blog post on OA free from selling
-- http://svpow.com/2013/06/12/publishing-is-a-button-what-clay-shirky-didnt-say/ # Mike Taylor SVPOW post on publishing costs not to pay
+- date: '2014-11-22'
+  title: Is publishing "just a button"?
+  type: BlogPosting
+  url: http://svpow.com/2014/11/22/is-publishing-just-a-button/
+  isPartOf:
+    name: Sauropod Vertebra Picture of the Week
+    type: Blog
+- date: '2014-10-29'
+  title: 'Open Access: free ''from having to sell'''
+  type: BlogPosting
+  url: http://blogs.sas.ac.uk/2014/10/29/open-access-free-from-having-to-sell/
+  isPartOf:
+    name: SAS Blogs
+    type: Blog
+- date: '2013-06-12'
+  title: 'Publishing is a button: what Clay Shirky didn''t say'
+  type: BlogPosting
+  url: http://svpow.com/2013/06/12/publishing-is-a-button-what-clay-shirky-didnt-say/
+  isPartOf:
+    name: Sauropod Vertebra Picture of the Week
+    type: Blog
 ---
 
 <p>In <a href="https://www.martineve.com/2014/11/02/were-a-small-learned-society-charging-25-what-are-we-doing-wrong-oa-for-small-society-journals/">a recent post</a>, I came up with a per-article costing figure, based on Ubiquity Press's economy of scale, for a learned society to go open access. I received two responses to the figure given. One said that it was extortionately high. The other queried whether it was perhaps unrealistically low. What are the real costs of scholarly communication?</p>

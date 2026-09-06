@@ -14,7 +14,9 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/ng3z2-0rr85
 references:
-- https://hcommons.org # Knowledge Commons homepage
+- title: Knowledge Commons
+  type: WebSite
+  url: https://hcommons.org
 - https://hcommons.org/app/plugins/hc-styles/css/fix-for-highlight-bug.css # KC highlight bug fix CSS file
 ---
 

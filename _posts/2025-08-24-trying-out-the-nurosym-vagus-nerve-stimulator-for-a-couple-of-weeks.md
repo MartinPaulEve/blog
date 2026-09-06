@@ -16,9 +16,40 @@ categories:
 kcworks: https://works.hcommons.org/records/73vt5-3dr33
 references:
 - https://www.ifm.org/podcast/vagus-nerve-parasympathetic-response # IFM podcast on vagus nerve parasympathetic response
-- https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0263833 # PLOS ONE study on auricular vagus nerve stimulation
-- https://nurosym.com/en-gb/products/nurosym # Nurosym external vagus nerve stimulator product page
-- https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2021.679775/full # Frontiers: ESNV-SPA vagus nerve study protocol
+- author:
+  - Duyan Geng
+  - Xuanyu Liu
+  - Yan Wang
+  - Jiaxing Wang
+  date: '2022-02-10'
+  title: The effect of transcutaneous auricular vagus nerve stimulation on HRV in healthy young people
+  type: ScholarlyArticle
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0263833
+  isPartOf:
+    name: PLOS ONE
+    type: Periodical
+- title: Nurosym
+  type: WebPage
+  url: https://nurosym.com/en-gb/products/nurosym
+  isPartOf:
+    name: Nurosym
+    type: WebSite
+- author:
+  - Azabou, Eric
+  - Bao, Guillaume
+  - Costantino, Félicie
+  - Jacota, Madalina
+  - Lazizi, Chanez
+  - Nkam, Lionelle
+  - Rottman, Martin
+  - Roux, Anne-Laure
+  date: '2021-06-30'
+  title: 'Randomized Cross Over Study Assessing the Efficacy of Non-invasive Stimulation of the Vagus Nerve in Patients With Axial Spondyloarthritis Resistant to Biotherapies: The ESNV-SPA Study Protocol'
+  type: ScholarlyArticle
+  url: https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2021.679775/full
+  isPartOf:
+    name: Frontiers in Human Neuroscience
+    type: Periodical
 - https://doi.org/10.1371/journal.pone.0263833 # PLOS ONE auricular VNS and HRV study DOI
 - https://doi.org/10.3389/fnhum.2021.679775 # Frontiers ESNV-SPA study protocol DOI
 ---

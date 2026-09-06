@@ -16,7 +16,18 @@ categories:
 kcworks: https://works.hcommons.org/records/nb9at-eby88
 references:
 - http://www.hefce.ac.uk/pubs/year/2016/201636/ # HEFCE REF2 consultation document 2016
-- https://zenodo.org/record/167381#.WG-OqvGLT0o # Zenodo dataset critiquing SCOPUS database
+- author:
+  - Alexander Machado
+  - Laura Hoppmann
+  - Johannes Knaus
+  - Margit Palzenberger
+  date: '2016-11-18'
+  title: Bibliometric study of the Swiss Publication System, 2016
+  type: ScholarlyArticle
+  url: https://zenodo.org/record/167381#.WG-OqvGLT0o
+  isPartOf:
+    name: Zenodo
+    type: WebSite
 - http://www.thelancet.com/journals/lancet/article/PIIS0140673697110960/fulltext # Lancet Wakefield MMR vaccine article 1997
 ---
 

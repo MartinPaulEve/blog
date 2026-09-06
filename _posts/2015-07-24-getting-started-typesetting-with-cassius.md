@@ -19,12 +19,34 @@ title: Getting started typesetting with CaSSius
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcezqbo2o"
 kcworks: https://works.hcommons.org/records/dpe4y-2k549
 references:
-- https://github.com/MartinPaulEve/CaSSius # CaSSius CSS-based PDF typesetter GitHub repo
+- title: 'CaSSius: a CSS-regions-based PDF typesetter for scholarly communications'
+  type: SoftwareSourceCode
+  url: https://github.com/MartinPaulEve/CaSSius
+  isPartOf:
+    name: GitHub
+    type: WebSite
 - https://www.openlibhums.org # Open Library of Humanities publisher site
-- https://git-scm.com/ # Git version control system official site
-- https://github.com/MartinPaulEve/CaSSius.git # CaSSius GitHub repository clone URL
-- http://www.w3.org/1999/xhtml # W3C XHTML namespace URI
-- http://creativecommons.org/licenses/by/2.0/ # Creative Commons Attribution 2.0 license
+- title: Git
+  type: WebSite
+  url: https://git-scm.com/
+- title: 'CaSSius: a CSS-regions-based PDF typesetter for scholarly communications'
+  type: SoftwareSourceCode
+  url: https://github.com/MartinPaulEve/CaSSius.git
+  isPartOf:
+    name: GitHub
+    type: WebSite
+- title: XHTML namespace
+  type: WebPage
+  url: http://www.w3.org/1999/xhtml
+  isPartOf:
+    name: W3C
+    type: WebSite
+- title: Deed - Attribution 2.0 Generic
+  type: WebPage
+  url: http://creativecommons.org/licenses/by/2.0/
+  isPartOf:
+    name: Creative Commons
+    type: WebSite
 - https://www.pynchon.net/owap/article/view/128 # Orbit journal article view page
 ---
 

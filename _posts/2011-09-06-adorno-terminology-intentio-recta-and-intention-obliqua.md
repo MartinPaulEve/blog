@@ -65,7 +65,13 @@ wordpress_url: https://www.martineve.com/2011/09/06/adorno-terminology-intentio-
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjx4xfw2t"
 kcworks: https://works.hcommons.org/records/h5pkb-whq34
 references:
-- http://en.wikipedia.org/wiki/Nicolai_Hartmann # Wikipedia: Nicolai Hartmann philosopher
+- date: '2004-03-04'
+  title: Nicolai Hartmann
+  type: WebPage
+  url: http://en.wikipedia.org/wiki/Nicolai_Hartmann
+  isPartOf:
+    name: Wikipedia
+    type: WebSite
 ---
 
 <p>Reading <i>Negative Dialectics</i>, I was unable to track down a succinct, suitable definition of the terms "intentio recta" and "intentio obliqua", first appearing on page 69 of the Ashton translation.</p>

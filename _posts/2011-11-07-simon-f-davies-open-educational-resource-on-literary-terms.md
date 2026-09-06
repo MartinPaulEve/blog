@@ -24,11 +24,36 @@ kcworks: https://works.hcommons.org/records/4e394-j6565
 references:
 - https://twitter.com/#!/SFD85 # Simon F. Davies Twitter profile
 - http://www.puckrelpublishing.com/literary_terms.html # Davies Literary Terms guide on Puckrel Publishing
-- http://creativecommons.org/licenses/by-nc-sa/3.0/ # Creative Commons BY-NC-SA 3.0 license
-- http://purl.org/dc/terms/ # Dublin Core Terms namespace URI
-- http://purl.org/dc/dcmitype/Text # Dublin Core DCMI type Text URI
-- http://creativecommons.org/ns# # Creative Commons RDF namespace URI
-- http://www.flickr.com/photos/catclawtub/ # vintagecat Flickr photostream
+- title: Deed - Attribution-NonCommercial-ShareAlike 3.0 Unported
+  type: WebPage
+  url: http://creativecommons.org/licenses/by-nc-sa/3.0/
+  isPartOf:
+    name: Creative Commons
+    type: WebSite
+- title: DCMI Metadata Terms
+  type: WebPage
+  url: http://purl.org/dc/terms/
+  isPartOf:
+    name: DCMI
+    type: WebSite
+- title: DCMI Metadata Terms
+  type: WebPage
+  url: http://purl.org/dc/dcmitype/Text
+  isPartOf:
+    name: DCMI
+    type: WebSite
+- title: Describing Copyright in RDF - Creative Commons Rights Expression Language
+  type: WebPage
+  url: http://creativecommons.org/ns#
+  isPartOf:
+    name: Creative Commons
+    type: WebSite
+- title: vintagecat
+  type: WebPage
+  url: http://www.flickr.com/photos/catclawtub/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>I wanted to draw everybody's attention to the excellent work of <a href="https://twitter.com/#!/SFD85">Simon F. Davies</a>, one of my colleagues at the University of Sussex, who has produced a <b>fantastic</b> Open Educational Resource on teaching poetry to undergraduates. Were I deploying <i>meiosis</i> I'd say this was pretty good. As it is, and this isn't <i>hyperbole</i>, it's bloody great.</p>

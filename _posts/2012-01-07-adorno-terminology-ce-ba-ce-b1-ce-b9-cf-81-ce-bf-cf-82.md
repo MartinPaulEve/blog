@@ -21,7 +21,12 @@ wordpress_url: https://www.martineve.com/2012/01/07/adorno-terminology-%ce%ba%ce
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mj2ofh42h"
 kcworks: https://works.hcommons.org/records/hmmdy-mh066
 references:
-- http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0002:speech=3:section=79 # Perseus Digital Library Demosthenes text section
+- title: Aeschines, Against Ctesiphon, section 79
+  type: WebPage
+  url: http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0002:speech=3:section=79
+  isPartOf:
+    name: Perseus Digital Library
+    type: WebSite
 ---
 
 <p>"His work is the extrapolation of a negative καιρος" (Adorno, Theodor W. Aesthetic Theory. Edited by Gretel Adorno and Rolf Tiedemann. Translated by Robert Hullot-Kentor. London: Continuum, 2004. p. 33.) -- in reference to Beckett</p>

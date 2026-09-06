@@ -25,7 +25,9 @@ wordpress_url: https://www.martineve.com/2012/05/05/excursions-journal-vol-3-lau
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miglu3g2p"
 kcworks: https://works.hcommons.org/records/q0t20-g2w49
 references:
-- http://www.excursions-journal.org.uk # Excursions journal website
+- title: 'Excursions: An interdisciplinary journal'
+  type: WebSite
+  url: http://www.excursions-journal.org.uk
 ---
 
 <p><a href="https://www.martineve.com/wp-content/uploads/2012/05/Excursions-Launch.png"><img src="https://www.martineve.com/wp-content/uploads/2012/05/Excursions-Launch.png" alt="Excursions launch poster" title="Excursions-Launch" style="width:750px;" class="alignnone size-full wp-image-2078" /></a></p>

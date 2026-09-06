@@ -26,8 +26,19 @@ wordpress_url: https://www.martineve.com/?p=1378
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk3f2ks2i"
 kcworks: https://works.hcommons.org/records/x2td1-g0s09
 references:
-- http://www.uksg.org/events/annualconference # UKSG annual conference 2012
-- http://www.flickr.com/photos/xxxlibris/ # Flickr photos by xxxlibris
+- title: 'The UKSG 45th Annual Conference and Exhibition: Telford'
+  type: WebPage
+  url: http://www.uksg.org/events/annualconference
+  isPartOf:
+    name: UKSG
+    type: WebSite
+- author: pyrografica
+  title: pyrografica
+  type: WebSite
+  url: http://www.flickr.com/photos/xxxlibris/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>I'm very pleased to announce that I will speaking in the opening plenary session at the <a href="http://www.uksg.org/events/annualconference">UK Scholarly Group conference</a> on March the 26th, 2012 at the University of Glasgow. My paper will focus on the many problems in academic publishing through a typology of computer malware, arguing for a deep infection within the system.</p>

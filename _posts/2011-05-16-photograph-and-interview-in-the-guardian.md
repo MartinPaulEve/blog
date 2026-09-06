@@ -22,9 +22,18 @@ wordpress_url: https://www.martineve.com/?p=1054
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkdpozp2r"
 kcworks: https://works.hcommons.org/records/wm318-hy533
 references:
-- http://www.guardian.co.uk/books/booksblog/2011/may/13/writers-in-public-pynchon # Guardian books blog: writers in public, Pynchon
+- author: Alison Flood
+  date: '2011-05-13'
+  title: Celebrating writers in public (even Pynchon)
+  type: NewsArticle
+  url: http://www.guardian.co.uk/books/booksblog/2011/may/13/writers-in-public-pynchon
+  isPartOf:
+    name: The Guardian
+    type: Periodical
 - http://www.pynchoninpublic.com/ # Pynchon in Public Day event site
-- http://sa4qe.blogspot.com/2011/05/pynchon-in-public-day-and-sf-writers.html # SA4QE blog post circulating Pynchon in Public Day piece
+- title: Pynchon in Public Day and SF writers' choice
+  type: BlogPosting
+  url: http://sa4qe.blogspot.com/2011/05/pynchon-in-public-day-and-sf-writers.html
 ---
 
 <p>A few days late, but this is a quick post to highlight my <a href="http://www.guardian.co.uk/books/booksblog/2011/may/13/writers-in-public-pynchon">statements, and photograph</a>, on the Guardian books site. The piece was to highlight events pertaining to reading/celebrating authors in public, which linked in with the <a href="http://www.pynchoninpublic.com/">Pynchon in Public Day</a> event which I organized last weekend. The piece has been <a href="http://sa4qe.blogspot.com/2011/05/pynchon-in-public-day-and-sf-writers.html">widely circulated</a> and I'm grateful for all the exposure!</p>

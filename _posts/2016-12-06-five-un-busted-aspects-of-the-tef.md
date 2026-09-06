@@ -11,9 +11,28 @@ categories:
 - Higher Education
 kcworks: https://works.hcommons.org/records/tskkh-pfj30
 references:
-- http://wonkhe.com/blogs/busting-five-common-myths-about-the-tef/ # WonkHE Chris Husbands busting TEF myths piece
-- https://academicirregularities.wordpress.com/2016/12/02/ten-myths-and-a-truth-from-the-tef-reading-the-white-paper/ # Liz Morrish ten myths about TEF blog post
-- http://wonkhe.com/blogs/conservative-party-conference-2016-the-day-of-the-brexiteers/ # WonkHE Conservative Party Conference 2016 HE policy
+- author: Chris Husbands
+  date: '2016-12-02'
+  title: Busting five common myths about the TEF
+  type: BlogPosting
+  url: http://wonkhe.com/blogs/busting-five-common-myths-about-the-tef/
+  isPartOf:
+    name: Wonkhe
+    type: Blog
+- date: '2016-12-02'
+  title: 'Ten Myths and a Truth from the TEF: Reading the White Paper'
+  type: BlogPosting
+  url: https://academicirregularities.wordpress.com/2016/12/02/ten-myths-and-a-truth-from-the-tef-reading-the-white-paper/
+  isPartOf:
+    name: Academic Irregularities
+    type: Blog
+- date: '2016-10-05'
+  title: 'Conservative Party Conference 2016: The Day of the Brexiteers'
+  type: BlogPosting
+  url: http://wonkhe.com/blogs/conservative-party-conference-2016-the-day-of-the-brexiteers/
+  isPartOf:
+    name: Wonkhe
+    type: Blog
 ---
 
 In his [recent piece for WonkHE](http://wonkhe.com/blogs/busting-five-common-myths-about-the-tef/), Chris Husbands, the chair of the TEF panel, wrote in order to “bust” five myths about the TEF.

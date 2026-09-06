@@ -22,7 +22,13 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkcb4q3
 kcworks: https://works.hcommons.org/records/b7k0j-p9k55
 references:
 - http://www.google.co.uk/search?q=charles%20hollander%20pynchon # Google search for Charles Hollander Pynchon articles
-- http://www.flickr.com/photos/52381596@N00/ # Tessa Farrell Flickr photostream CC-BY
+- author: Tessa Farrell
+  title: Tessa Farrell
+  type: WebPage
+  url: http://www.flickr.com/photos/52381596@N00/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>I saw yesterday that Twitter user <a href="http://www.twitter.com/WhelanWrites">WhelanWrites</a> was asking for a basic rundown of some introductory Pynchon criticism. Rather than reply, I thought I'd put a few items up here so that they are better preserved for posterity.</p>

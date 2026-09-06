@@ -35,8 +35,12 @@ wordpress_url: http://www.martineve.com/?p=500
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlameom2h"
 kcworks: https://works.hcommons.org/records/45b4g-rak53
 references:
-- http://www.cis.upenn.edu/~bcpierce/unison/ # Unison file synchronizer homepage UPenn
-- https://www.dropbox.com/referrals/NTEwNzk5NzEzOQ?src=global0 # Dropbox referral signup link
+- title: Unison File Synchronizer
+  type: WebPage
+  url: http://www.cis.upenn.edu/~bcpierce/unison/
+- title: Dropbox
+  type: WebSite
+  url: https://www.dropbox.com/referrals/NTEwNzk5NzEzOQ?src=global0
 ---
 
 <p>Everybody yaks on about backup all the time, but few people actually have a viable setup. They say: "yes, I copy stuff to a USB pen". So, if you do that once a week, how much work would you lose if, just before you undertook the backup, your laptop was stolen? This is exactly what happened to me two months ago except that I had a rigorous backup procedure. I left the British Library and was, one hour later, without my laptop. I bought a new laptop the next day and 6 hours after purchase had the entire thing back up and running and had lost no work. Nothing. This was because I use a system called <a href="http://www.cis.upenn.edu/~bcpierce/unison/">Unison</a> to synchronize and backup my work.</p>

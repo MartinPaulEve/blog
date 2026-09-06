@@ -15,8 +15,16 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/mm28q-vvd61
 references:
-- https://www.publishers.org.uk/publications/economic-impact-assessment/ # Publishers Association economic impact assessment on OA
-- https://www.openingthefuture.net/ # Opening the Future OA books scheme
+- date: '2021-02-17'
+  title: Economic Impact Assessment
+  type: WebPage
+  url: https://www.publishers.org.uk/publications/economic-impact-assessment/
+  isPartOf:
+    name: Publishers Association
+    type: WebSite
+- title: Opening the Future
+  type: WebSite
+  url: https://www.openingthefuture.net/
 ---
 
 The Publisher's Association has [commissioned a report](https://www.publishers.org.uk/publications/economic-impact-assessment/) that seems to be their latest attempt at painting open access to research as economically damaging to the publishing sector. It shamelessly plays on the rhetoric of "UK PLC" in an attempt to appeal to government politicians but doesn't mention the benefits to society of having research openly available or the _savings_ to the public purse of publicly funded institutions of higher education _not_ paying billions of £s in subscriptions. However, the conclusions therein are, sadly, if predictably, extremely poor distortions of the real situation in my view.

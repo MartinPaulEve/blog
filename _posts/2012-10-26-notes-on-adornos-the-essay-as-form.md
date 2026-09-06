@@ -20,8 +20,18 @@ wordpress_url: https://www.martineve.com/?p=2457
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhnroyt2h"
 kcworks: https://works.hcommons.org/records/mf5d6-r7k14
 references:
-- http://en.wikipedia.org/wiki/User:Jjshapiro # Wikipedia user page for Jeremy Shapiro
-- http://en.wikipedia.org/wiki/File:AdornoHorkheimerHabermasbyJeremyJShapiro2.png # Wikipedia image of Adorno Horkheimer and Habermas
+- title: User:Jjshapiro
+  type: WebPage
+  url: http://en.wikipedia.org/wiki/User:Jjshapiro
+  isPartOf:
+    name: Wikipedia
+    type: WebSite
+- title: File:AdornoHorkheimerHabermasbyJeremyJShapiro2.png
+  type: WebPage
+  url: http://en.wikipedia.org/wiki/File:AdornoHorkheimerHabermasbyJeremyJShapiro2.png
+  isPartOf:
+    name: Wikipedia
+    type: WebSite
 ---
 
 <p>Adorno, Theodor W. ‘The Essay as Form’. The Adorno Reader. Trans. Bob Hullot-Kentor & Frederic Will. Oxford: Blackwell, 2000. 92–111. Print.</p>

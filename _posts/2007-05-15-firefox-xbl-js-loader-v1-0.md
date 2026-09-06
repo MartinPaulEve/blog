@@ -23,7 +23,12 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mocbqo7
 kcworks: https://works.hcommons.org/records/t9hwt-a4w46
 references:
 - http://site.com/STXSS_XBL.xml#loader # Illustrative STXSS XBL loader payload URL
-- http://www.mozilla.org/xbl # Mozilla XBL namespace URI
+- title: Mozilla XML Namespace
+  type: WebPage
+  url: http://www.mozilla.org/xbl
+  isPartOf:
+    name: Mozilla
+    type: WebSite
 ---
 
 <p>Today I wrote a simple tool to illustrate the binding of a Javascript document to a page using Firefox's XBL support (-moz-binding) in an XSS context.</p>

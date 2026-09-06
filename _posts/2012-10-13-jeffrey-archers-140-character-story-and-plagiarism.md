@@ -21,7 +21,22 @@ wordpress_url: https://www.martineve.com/?p=2426
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhr7ybc2a"
 kcworks: https://works.hcommons.org/records/wz170-9vg40
 references:
-- http://www.guardian.co.uk/books/2012/oct/12/twitter-fiction-140-character-novels # Guardian article on Twitter 140-character fiction
+- author:
+  - Geoff Dyer
+  - Ian Rankin
+  - James Meek
+  - Andrew O'Hagan
+  - Blake Morrison
+  - David Lodge
+  - AM Homes
+  - AL Kennedy
+  date: '2012-10-12'
+  title: 'Twitter fiction: 21 authors try their hand at 140-character novels'
+  type: NewsArticle
+  url: http://www.guardian.co.uk/books/2012/oct/12/twitter-fiction-140-character-novels
+  isPartOf:
+    name: The Guardian
+    type: Periodical
 ---
 
 <p><a href="http://www.guardian.co.uk/books/2012/oct/12/twitter-fiction-140-character-novels">Today</a>, the <i>Guardian</i> published the following 140-character short story by Jeffrey Archer.</p>

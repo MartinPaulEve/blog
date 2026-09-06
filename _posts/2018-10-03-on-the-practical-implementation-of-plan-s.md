@@ -14,9 +14,22 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/r8jw0-8s759
 references:
-- http://eprints.bbk.ac.uk/23819/ # Eve, Dial S for Strategy Plan S article Birkbeck eprint
-- https://www.scienceeurope.org/coalition-s/ # Science Europe cOAlition S Plan S website
-- http://webarchive.nationalarchives.gov.uk/20180322112445tf_/http://www.hefce.ac.uk/pubs/rereports/year/2015/monographs/ # Crossick Report on OA monographs HEFCE archived
+- author: Martin Paul Eve
+  date: '2018-09-05'
+  title: Dial S for Strategy
+  type: ScholarlyArticle
+  url: http://eprints.bbk.ac.uk/23819/
+- title: Open Access
+  type: WebPage
+  url: https://www.scienceeurope.org/coalition-s/
+  isPartOf:
+    name: Science Europe
+    type: WebSite
+- date: '2015'
+  title: Monographs and open access
+  type: Report
+  publisher: Higher Education Funding Council for England
+  url: http://webarchive.nationalarchives.gov.uk/20180322112445tf_/http://www.hefce.ac.uk/pubs/rereports/year/2015/monographs/
 - http://doi.org/10.1629/uksg.392 # Eve et al. cost study on humanities OA monographs UKSG
 - https://www.martineve.com/2017/02/13/how-much-does-it-cost-to-run-a-small-scholarly-publisher/ # Eve post on cost of running a small scholarly publisher
 - https://doi.org/10.31234/osf.io/hk4gn # Thibault Harnad Raz on Elsevier profit margins preprint

@@ -15,9 +15,26 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/k9zga-vfh33
 references:
-- https://copim.pubpub.org/pub/wp-3-working-to-transition-central-european-university-press-to-open-access/ # COPIM WP3 Central European University Press OA transition announcement
-- https://www.openbookpublishers.com/section/44/1 # Open Book Publishers supporter membership page
-- https://punctumbooks.com/support # punctum books support membership page
+- author: Martin Paul Eve
+  date: '2020-10-22'
+  title: 'Work Package 3: Transitioning the Central European University Press to Open Access'
+  type: BlogPosting
+  url: https://copim.pubpub.org/pub/wp-3-working-to-transition-central-european-university-press-to-open-access/
+  isPartOf:
+    name: Copim
+    type: Blog
+- title: Library Membership Programme
+  type: WebPage
+  url: https://www.openbookpublishers.com/section/44/1
+  isPartOf:
+    name: Open Book Publishers
+    type: WebSite
+- title: Support Us
+  type: WebPage
+  url: https://punctumbooks.com/support
+  isPartOf:
+    name: punctum books
+    type: WebSite
 - https://openlibhums.org/plugins/supporters/signup/ # Open Library of Humanities supporter signup
 ---
 

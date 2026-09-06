@@ -14,8 +14,18 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/tfamg-e7z09
 references:
-- https://github.com/Textualize/rich # Textualize Rich Python CLI formatting library
-- https://github.com/tqdm/tqdm # tqdm Python progress bar library
+- title: 'GitHub - Textualize/rich: Rich is a Python library for rich text and beautiful formatting in the terminal.'
+  type: SoftwareSourceCode
+  url: https://github.com/Textualize/rich
+  isPartOf:
+    name: GitHub
+    type: WebSite
+- title: A Fast, Extensible Progress Bar for Python and CLI
+  type: SoftwareSourceCode
+  url: https://github.com/tqdm/tqdm
+  isPartOf:
+    name: GitHub
+    type: WebSite
 ---
 
 This is a post to document the setup that I use when I want quickly to create a great functional command-line python application with ORM database support.

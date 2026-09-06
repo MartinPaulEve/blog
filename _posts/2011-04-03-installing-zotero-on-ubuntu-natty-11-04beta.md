@@ -80,7 +80,9 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkhkmlj
 kcworks: https://works.hcommons.org/records/aek2d-hb668
 references:
 - http://archive.canonical.com/ubuntu # Canonical Ubuntu archive repository
-- http://www.zotero.org/ # Zotero reference manager main site
+- title: Zotero
+  type: WebSite
+  url: http://www.zotero.org/
 - http://www.zotero.org/download/integration/Zotero-OpenOffice-Plugin-3.1b1.xpi # Zotero OpenOffice plugin 3.1b1 download
 ---
 

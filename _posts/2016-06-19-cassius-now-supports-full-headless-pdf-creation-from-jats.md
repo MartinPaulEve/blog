@@ -15,8 +15,18 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/gprpj-p6z76
 references:
-- https://github.com/MartinPaulEve/CaSSius # CaSSius PDF typesetter GitHub repo
-- https://github.com/FremyCompany/css-regions-polyfill # Remy CSS regions polyfill GitHub repo
+- title: 'CaSSius: a CSS-regions-based PDF typesetter for scholarly communications'
+  type: SoftwareSourceCode
+  url: https://github.com/MartinPaulEve/CaSSius
+  isPartOf:
+    name: GitHub
+    type: WebSite
+- title: A javascript implementation of the CSS Regions specification, as of August 2013
+  type: SoftwareSourceCode
+  url: https://github.com/FremyCompany/css-regions-polyfill
+  isPartOf:
+    name: GitHub
+    type: WebSite
 ---
 
 [CaSSius is the PDF typesetter](https://github.com/MartinPaulEve/CaSSius) that I am building as part of my work for the Andrew W. Mellon Foundation grant to Birkbeck for the Open Library of Humanities. CaSSius allows for [true XML-first workflows](https://www.martineve.com/2015/07/20/building-a-real-xml-first-workflow-for-scholarly-typesetting/).

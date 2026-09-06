@@ -16,7 +16,13 @@ title: 'HE Green Paper: response to question 15'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc2crjm2a"
 kcworks: https://works.hcommons.org/records/x18zd-4dd86
 references:
-- http://www.bbc.co.uk/news/uk-wales-politics-34976992 # BBC news on fraudulent HE provider in Wales
+- date: '2015-12-01'
+  title: 'College fraud claim: Minister defends regulation'
+  type: NewsArticle
+  url: http://www.bbc.co.uk/news/uk-wales-politics-34976992
+  isPartOf:
+    name: BBC News
+    type: Periodical
 ---
 
 This post is part of an [ongoing series](https://martineve.com/GreenPaper/) where I intend to develop my full _personal_ (_not_ institutional) response to the HE Green Paper. Comments are welcome to refine this.

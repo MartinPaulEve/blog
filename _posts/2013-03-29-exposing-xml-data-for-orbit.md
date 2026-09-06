@@ -24,9 +24,21 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgu7ei3
 kcworks: https://works.hcommons.org/records/0s0xv-mva69
 references:
 - https://www.pynchon.net/owap/issue/view/1 # Orbit journal Issue 1
-- http://dtd.nlm.nih.gov/publishing/tag-library/3.0/index.html # NLM Journal Publishing Tagset DTD documentation
-- https://github.com/MartinPaulEve/MEXMLGalley # Eve meXml galley production suite on GitHub
-- http://help.crossref.org/#nlm-to-crossref-conversion # CrossRef NLM-to-CrossRef conversion help page
+- title: Journal Publishing Tag Set Tag Library version 3.0
+  type: TechArticle
+  url: http://dtd.nlm.nih.gov/publishing/tag-library/3.0/index.html
+- title: A plugin for Open Journal Systems to generate PDF galleys from XML
+  type: SoftwareSourceCode
+  url: https://github.com/MartinPaulEve/MEXMLGalley
+  isPartOf:
+    name: GitHub
+    type: WebSite
+- title: Support Center
+  type: WebPage
+  url: http://help.crossref.org/#nlm-to-crossref-conversion
+  isPartOf:
+    name: CrossRef
+    type: WebSite
 ---
 
 <p>Although, for now, this will be of limited interest/use to probably most readers of the journal, I today undertook the necessary work (by which I mean: cleaning up for compliance!) to expose the XML files that power the typesetting behind my journal of Pynchon studies, <a href="https://www.pynchon.net">Orbit: Writing Around Pynchon</a>.</p>

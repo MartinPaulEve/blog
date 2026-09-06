@@ -72,7 +72,13 @@ wordpress_url: https://eve.gd/2012/01/18/a-complete-list-of-the-ancient-greek-te
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mizaav42h"
 kcworks: https://works.hcommons.org/records/aa51n-qe073
 references:
-- http://www.flickr.com/photos/fazen/ # Flickr photos by fazen
+- author: Stefano Mortellaro
+  title: Stefano Mortellaro
+  type: WebPage
+  url: http://www.flickr.com/photos/fazen/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>My Adorno Greek Lexicon project is now complete. Here is the full listing. Page references are to Adorno, Theodor W. Aesthetic Theory. Edited by Gretel Adorno and Rolf Tiedemann. Translated by Robert Hullot-Kentor. London: Continuum, 2004 unless noted otherwise. Links contain additional information about the research process and the context of each term. I hope this is of help to anglophone readers in their pursuit of Adorno's thought.</p>

@@ -24,11 +24,27 @@ wordpress_url: https://www.martineve.com/?p=2737
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgofozx2a"
 kcworks: https://works.hcommons.org/records/43622-3bd12
 references:
-- https://github.com/NateWr # Nate Wright GitHub profile
+- author: Nate Wright
+  title: NateWr - Overview
+  type: WebPage
+  url: https://github.com/NateWr
+  isPartOf:
+    name: GitHub
+    type: WebSite
 - http://www.ambraproject.org/ # Ambra open access publishing platform
 - https://www.openlibhums.org # Open Library of Humanities website
-- https://github.com/MartinPaulEve/meTypeset # meTypeset Word-to-NLM typesetting tool
-- https://github.com/MartinPaulEve/MEXMLGalley/ # meXmlGalley NLM galley generation tool
+- title: 'GitHub - MartinPaulEve/meTypeset: meTypeset is a tool to convert from Microsoft Word .docx format to NLM/JATS-XML for scholarly/scientific article typesetting.'
+  type: SoftwareSourceCode
+  url: https://github.com/MartinPaulEve/meTypeset
+  isPartOf:
+    name: GitHub
+    type: WebSite
+- title: A plugin for Open Journal Systems to generate PDF galleys from XML
+  type: SoftwareSourceCode
+  url: https://github.com/MartinPaulEve/MEXMLGalley/
+  isPartOf:
+    name: GitHub
+    type: WebSite
 - http://www.alluvium-journal.org # Alluvium online literary journal
 ---
 

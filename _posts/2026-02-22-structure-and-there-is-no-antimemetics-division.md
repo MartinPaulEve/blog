@@ -17,7 +17,12 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7luzvsar
 categories:
 - Literature
 references:
-- https://qntm.org/ # qntm author site (Sam Hughes)
+- title: Things Of Interest
+  type: WebSite
+  url: https://qntm.org/
+  isPartOf:
+    name: Things Of Interest
+    type: WebSite
 - https://doi.org/10.1080/00111619.2019.1568960 # Eve, Reading Redaction article in Critique
 ---
 

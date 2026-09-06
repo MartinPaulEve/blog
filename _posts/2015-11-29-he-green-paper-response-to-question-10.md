@@ -19,7 +19,13 @@ references:
 - http://dx.doi.org/10.1086/653808 # Carrell and West, student evaluations vs learning, JPE
 - http://dx.doi.org/10.1016/j.econedurev.2014.04.002 # Braga et al, evaluating student evaluations of professors
 - http://dx.doi.org/10.1146/annurev-psych-113011-143823 # Annual Review of Psychology, learning illusions article
-- http://theconversation.com/students-dont-know-whats-best-for-their-own-learning-33835 # The Conversation, students and their own learning
+- author: Arthur Poropat
+  title: Students don't know what's best for their own learning
+  type: NewsArticle
+  url: http://theconversation.com/students-dont-know-whats-best-for-their-own-learning-33835
+  isPartOf:
+    name: The Conversation
+    type: WebSite
 ---
 
 This post is part of an [ongoing series](https://martineve.com/GreenPaper/) where I intend to develop my full _personal_ (_not_ institutional) response to the HE Green Paper. Comments are welcome to refine this.

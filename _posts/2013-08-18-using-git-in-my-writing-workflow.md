@@ -24,8 +24,19 @@ wordpress_url: https://www.martineve.com/?p=2808
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mges67k2u"
 kcworks: https://works.hcommons.org/records/pzx3y-kyq64
 references:
-- https://twitter.com/theNHJ # Newell Hampson-Jones Twitter profile
-- https://git.wiki.kernel.org/index.php/GitTips#How_to_use_git_to_track_OpenDocument_.28OpenOffice.2C_Koffice.29_files.3F # GitTips wiki on tracking OpenDocument files
+- author: Newell Hampson-Jones
+  title: Newell Hampson-Jones (@theNHJ) on X
+  type: WebPage
+  url: https://twitter.com/theNHJ
+  isPartOf:
+    name: X (formerly Twitter)
+    type: WebSite
+- title: GitTips - Git SCM Wiki
+  type: WebPage
+  url: https://git.wiki.kernel.org/index.php/GitTips#How_to_use_git_to_track_OpenDocument_.28OpenOffice.2C_Koffice.29_files.3F
+  isPartOf:
+    name: Git SCM Wiki
+    type: WebSite
 ---
 
 <p>My two spheres of interest -- difficult works of English literature and computer programming (OK, scholarly communications and publishing, also. OK, there are lots more spheres of interest) -- only intersect occasionally. However, in recent days I have been toying with the idea of using git to version control my writing. This isn't a new concept -- I've seen posts on the <a href="http://chronicle.com/blogs/profhacker/tag/git">Chronicle of HE about it</a> -- but I've yet to actually try it.</p>

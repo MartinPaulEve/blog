@@ -23,7 +23,12 @@ wordpress_url: https://www.martineve.com/?p=3185
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mew5cup2o"
 kcworks: https://works.hcommons.org/records/h6z52-46306
 references:
-- http://cyber.law.harvard.edu/people/psuber # Peter Suber Harvard Berkman Center profile
+- title: Peter Suber
+  type: WebPage
+  url: http://cyber.law.harvard.edu/people/psuber
+  isPartOf:
+    name: Berkman Klein Center
+    type: WebSite
 - http://www.cambridge.org/eve # Cambridge UP official page for Eve's OA book
 - http://eprints.lincoln.ac.uk/14775/ # Lincoln repository record for OA and the Humanities
 ---

@@ -20,7 +20,14 @@ wordpress_url: https://www.martineve.com/?p=3092
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mf7bmak2u"
 kcworks: https://works.hcommons.org/records/v0aya-k4a79
 references:
-- http://www.theguardian.com/higher-education-network/blog/2014/apr/17/uk-policy-research-humanities-international-reach?CMP=twt_gu # Guardian piece on UK humanities research reach
+- author: Martin Paul Eve
+  date: '2014-04-17'
+  title: Is UK humanities research reaching the widest possible audience?
+  type: NewsArticle
+  url: http://www.theguardian.com/higher-education-network/blog/2014/apr/17/uk-policy-research-humanities-international-reach?CMP=twt_gu
+  isPartOf:
+    name: The Guardian
+    type: Periodical
 ---
 
 <p>This article originally appeared, in a shorter, edited form in the Guardian: <a href="http://www.theguardian.com/higher-education-network/blog/2014/apr/17/uk-policy-research-humanities-international-reach?CMP=twt_gu">Is UK humanities research reaching the widest possible audience?</a></p>

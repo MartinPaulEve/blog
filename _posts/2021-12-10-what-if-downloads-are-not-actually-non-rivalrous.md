@@ -17,7 +17,13 @@ kcworks: https://works.hcommons.org/records/88t95-h0p21
 references:
 - https://doi.org/10.1016/j.joule.2019.02.007 # Joule study on annual Bitcoin energy consumption
 - https://doi.org/10.1016/j.resconrec.2021.105901 # Study on Bitcoin carbon footprint vs Bangladesh
-- https://digiconomist.net/bitcoin-energy-consumption/ # Digiconomist Bitcoin energy consumption tracker
+- date: '2016-11-26'
+  title: Bitcoin Energy Consumption Index
+  type: WebPage
+  url: https://digiconomist.net/bitcoin-energy-consumption/
+  isPartOf:
+    name: Digiconomist
+    type: WebSite
 - https://yanmaani.github.io/proof-of-stake-is-a-scam-and-the-people-promoting-it-are-scammers/ # yanmaani essay arguing proof-of-stake is a scam
 ---
 

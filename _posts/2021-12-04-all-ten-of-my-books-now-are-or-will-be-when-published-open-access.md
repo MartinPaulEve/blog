@@ -16,11 +16,32 @@ categories:
 kcworks: https://works.hcommons.org/records/xbf97-xfq79
 references:
 - https://global.oup.com/academic/product/the-digital-humanities-and-literary-studies-9780198850489?lang=en&cc=gb # Eve, Digital Humanities and Literary Studies, Oxford UP
-- https://eprints.bbk.ac.uk/id/eprint/30956 # Eve, Warez, BBK eprint
-- https://eprints.bbk.ac.uk/id/eprint/27709 # Eve et al, Reading Peer Review, BBK eprint
+- author: Martin Paul Eve
+  date: '2021-12-15'
+  title: 'Warez: The Infrastructure and Aesthetics of Piracy'
+  type: Book
+  url: https://eprints.bbk.ac.uk/id/eprint/30956
+- author:
+  - Martin Paul Eve
+  - Cameron Neylon
+  - Daniel O'Donnell
+  - Samuel Moore
+  - Robert Gadie
+  - Victoria Odeniyi
+  - Shahina Parvin
+  date: '2021-01-03'
+  title: 'Reading Peer Review: PLOS ONE and Institutional Change in Academia'
+  type: Book
+  url: https://eprints.bbk.ac.uk/id/eprint/27709
 - https://direct.mit.edu/books/book/4933/Reassembling-Scholarly-CommunicationsHistories # Eve ed, Reassembling Scholarly Communications, MIT Press
 - https://doi.org/10.21627/9781503609372 # Eve, Close Reading with Computers, Stanford UP
-- https://www.bloomsburycollections.com/book/password/ # Eve, Password, Bloomsbury
+- author: Martin Paul Eve
+  title: Password
+  type: Book
+  url: https://www.bloomsburycollections.com/book/password/
+  isPartOf:
+    name: Bloomsbury Collections
+    type: WebSite
 - http://dx.doi.org/10.11647/OBP.0102 # Eve, Literature Against Criticism, Open Book Publishers
 - http://dx.doi.org/10.1017/CBO9781316161012 # Eve, Open Access and the Humanities, Cambridge UP
 - https://link.springer.com/book/10.1057/9781137405500 # Eve, Pynchon and Philosophy, Palgrave

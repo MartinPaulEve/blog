@@ -38,8 +38,20 @@ wordpress_url: https://www.martineve.com/?p=1208
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk7wxos2a"
 kcworks: https://works.hcommons.org/records/6785y-rbc81
 references:
-- http://en.wikipedia.org/wiki/Herero_and_Namaqua_Genocide # Wikipedia: Herero and Namaqua Genocide
-- http://www.flickr.com/photos/31074376@N06/ # Alex Drennan Flickr photostream CC-BY-NC-ND
+- date: '2004-07-26'
+  title: Herero and Namaqua Genocide
+  type: WebPage
+  url: http://en.wikipedia.org/wiki/Herero_and_Namaqua_Genocide
+  isPartOf:
+    name: Wikipedia
+    type: WebSite
+- author: Alex Drennan
+  title: Alex Drennan
+  type: WebPage
+  url: http://www.flickr.com/photos/31074376@N06/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>As before, I will present here a brief rundown of the conference panels I attended with comments as they occurred to me! Obviously, in such reductive accounts, I do great damage to the content of the papers, but I do so in the hope that it will be of interest. If I have misunderstood any authors, I will, of course, be happy to make corrections.</p>

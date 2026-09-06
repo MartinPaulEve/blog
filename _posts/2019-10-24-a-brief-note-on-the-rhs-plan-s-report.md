@@ -14,7 +14,12 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/knh0f-f2k80
 references:
-- https://royalhistsoc.org/policy/publication-open-access/plan-s-and-history-journals/ # Royal Historical Society document on Plan S
+- title: Plan S and History Journals
+  type: WebPage
+  url: https://royalhistsoc.org/policy/publication-open-access/plan-s-and-history-journals/
+  isPartOf:
+    name: Royal Historical Society
+    type: WebSite
 ---
 
 The most recent [Royal Historical Society document on Plan S](https://royalhistsoc.org/policy/publication-open-access/plan-s-and-history-journals/) says the following about the Open Library of Humanities (OLH):

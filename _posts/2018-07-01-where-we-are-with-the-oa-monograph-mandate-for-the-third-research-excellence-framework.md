@@ -17,9 +17,21 @@ categories:
 kcworks: https://works.hcommons.org/records/m32xf-zz814
 references:
 - http://www.hefce.ac.uk/media/HEFCE,2014/Content/Pubs/2016/201636/HEFCE2016_36.pdf # HEFCE 2016 announcement on OA monograph mandate REF
-- https://www.contractsfinder.service.gov.uk/Notice/456093c1-17ae-4548-814f-23b4fdb8ed9a # UK Contracts Finder notice UUK OA monographs research commission
+- title: UK SBS CR18077 Open Access Monographs
+  type: WebPage
+  url: https://www.contractsfinder.service.gov.uk/Notice/456093c1-17ae-4548-814f-23b4fdb8ed9a
+  isPartOf:
+    name: Contracts Finder
+    type: WebSite
 - http://doi.org/10.1629/uksg.392 # Eve et al. cost study on humanities OA monographs UKSG
-- https://www.timeshighereducation.com/blog/research-england-there-no-one-size-fits-all-model-oa-monographs # Research England THE blog on OA monographs no one-size-fits-all
+- author: Helen Snaith
+  date: '2018-07-27'
+  title: 'Research England: there is no one-size-fits-all model for OA monographs'
+  type: BlogPosting
+  url: https://www.timeshighereducation.com/blog/research-england-there-no-one-size-fits-all-model-oa-monographs
+  isPartOf:
+    name: Times Higher Education
+    type: Periodical
 ---
 
 HEFCE, the precursor to Research England, [announced in 2016](http://www.hefce.ac.uk/media/HEFCE,2014/Content/Pubs/2016/201636/HEFCE2016_36.pdf) that “we intend to move towards an open-access requirement for monographs in the exercise that follows the next REF (expected in the mid-2020s).” This was published in 2016 as, “[g]iven the length of time required to produce and publish monographs,” HEFCE wished “to give due notice to the sector” by “signalling this now”.

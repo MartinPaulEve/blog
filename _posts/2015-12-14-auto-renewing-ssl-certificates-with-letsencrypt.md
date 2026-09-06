@@ -19,7 +19,9 @@ title: Auto-renewing SSL Certificates with Let'sEncrypt
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbzilnv2e"
 kcworks: https://works.hcommons.org/records/7rz0s-ydp08
 references:
-- http://letsencrypt.org/ # Let's Encrypt free SSL certificate authority
+- title: Let's Encrypt
+  type: WebSite
+  url: http://letsencrypt.org/
 ---
 
 [Let'sEncrypt](http://letsencrypt.org/) is a brilliant new service that aims to bring mass-scale SSL, free-of-charge to the wide web. It's in beta at the moment but it works pretty well. In fact, this site is secured with it!

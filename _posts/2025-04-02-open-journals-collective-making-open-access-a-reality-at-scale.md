@@ -14,28 +14,91 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvvam2w
 categories:
 - Open Access
 references:
-- https://openjournalscollective.org/ # Open Journals Collective homepage
-- https://blogs.lse.ac.uk/impactofsocialsciences/2025/03/31/academic-libraries-cannot-afford-to-carry-on-with-transformative-agreements/ # Edwards on transformative agreements, LSE Impact Blog
+- title: Open Journals Collective
+  type: WebSite
+  url: https://openjournalscollective.org/
+- author: Caroline Edwards
+  date: '2025-03-31'
+  title: Academic libraries cannot afford to carry on with transformative agreements
+  type: BlogPosting
+  url: https://blogs.lse.ac.uk/impactofsocialsciences/2025/03/31/academic-libraries-cannot-afford-to-carry-on-with-transformative-agreements/
+  isPartOf:
+    name: LSE Impact Blog
+    type: Blog
 - https://www.openlibhums.org/ # Open Library of Humanities homepage
 - https://www.openedition.org/?lang=en # OpenEdition open-access publishing platform
-- https://www.scielo.org/en/ # SciELO open-access journal network
-- https://arxiv.org/ # arXiv preprint server
-- https://www.knowledgeunlatched.org/ # Knowledge Unlatched open-access collective
-- https://subscribetoopencommunity.org/ # Subscribe to Open community homepage
-- https://thepublicationplan.com/2021/01/21/plos-trials-a-collective-action-business-model-for-open-access-publishing/ # PLOS collective action OA business model trial
-- https://www.researchinformation.info/news/bloomsbury-announces-pilot-open-access-model/ # Bloomsbury Academic pilot open-access model
+- title: SciELO
+  type: WebSite
+  url: https://www.scielo.org/en/
+- title: arXiv.org e-Print archive
+  type: WebSite
+  url: https://arxiv.org/
+- title: Knowledge Unlatched
+  type: WebSite
+  url: https://www.knowledgeunlatched.org/
+- title: About
+  type: WebPage
+  url: https://subscribetoopencommunity.org/
+  isPartOf:
+    name: Subscribe to Open
+    type: WebSite
+- author: Philippa Flemming
+  date: '2021-01-21'
+  title: PLOS trials a collective action business model for open access publishing
+  type: BlogPosting
+  url: https://thepublicationplan.com/2021/01/21/plos-trials-a-collective-action-business-model-for-open-access-publishing/
+  isPartOf:
+    name: The Publication Plan
+    type: Blog
+- date: '2023-07-11'
+  title: Bloomsbury announces pilot open access model
+  type: NewsArticle
+  url: https://www.researchinformation.info/news/bloomsbury-announces-pilot-open-access-model/
+  isPartOf:
+    name: Research Information
+    type: WebSite
 - https://www.openlibhums.org/plugins/supporters/ # OLH library supporters list
-- https://janeway.systems/ # Janeway open-access publishing platform
-- https://www.coalition-s.org/blog/glossa-how-a-journal-took-matters-into-their-own-hands-to-make-research-available/ # Glossa journal transition to OLH, cOAlition S blog
-- https://scholarlykitchen.sspnet.org/2024/04/04/transitional-agreements-arent-working-what-comes-next/ # Scholarly Kitchen: transitional agreements not working
-- https://www.dukeupress.edu/ # Duke University Press homepage
+- title: Janeway
+  type: WebSite
+  url: https://janeway.systems/
+- title: 'Glossa: how a journal took matters into their own hands to make research available'
+  type: BlogPosting
+  url: https://www.coalition-s.org/blog/glossa-how-a-journal-took-matters-into-their-own-hands-to-make-research-available/
+  isPartOf:
+    name: Plan S
+    type: Blog
+- author: Alison Mudditt
+  date: '2024-04-04'
+  title: 'Transitional Agreements Aren''t Working: What Comes Next?'
+  type: BlogPosting
+  url: https://scholarlykitchen.sspnet.org/2024/04/04/transitional-agreements-arent-working-what-comes-next/
+  isPartOf:
+    name: The Scholarly Kitchen
+    type: Blog
+- title: Duke University Press
+  type: WebSite
+  url: https://www.dukeupress.edu/
 - https://www.pennpress.org/ # University of Pennsylvania Press homepage
 - https://doaj.org/ # Directory of Open Access Journals
-- https://library.ed.ac.uk/research-support/edinburgh-diamond # Edinburgh Diamond open-access publishing service
+- title: Edinburgh Diamond
+  type: WebPage
+  url: https://library.ed.ac.uk/research-support/edinburgh-diamond
 - https://press.lse.ac.uk/ # LSE Press homepage
-- https://uclpress.co.uk/ # UCL Press homepage
-- https://press.umich.edu/ # University of Michigan Press homepage
-- https://cdlib.org/ # California Digital Library homepage
+- title: UCL Press
+  type: WebSite
+  url: https://uclpress.co.uk/
+  isPartOf:
+    name: UCL Press
+    type: WebSite
+- title: University of Michigan Press
+  type: WebSite
+  url: https://press.umich.edu/
+  isPartOf:
+    name: University of Michigan Press
+    type: WebSite
+- title: California Digital Library
+  type: WebSite
+  url: https://cdlib.org/
 - https://www.martineve.com/2017/04/03/100-people-in-a-room/ # Eve, distributional effects of OA funding models, 2017
 - https://doi.org/10.1017/CBO9781316161012 # Eve, Open Access and the Humanities, CUP 2014
 ---

@@ -14,7 +14,14 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/jnd1q-tf568
 references:
-- https://blogs.openbookpublishers.com/introducing-some-data-to-the-open-access-debate-obps-business-model-part-one/ # Open Book Publishers blog on their OA cost model
+- author: Rupert Gatti
+  date: '2015-10-15'
+  title: 'Introducing Some Data to the Open Access Debate: OBP''s Business Model (Part One)'
+  type: BlogPosting
+  url: https://blogs.openbookpublishers.com/introducing-some-data-to-the-open-access-debate-obps-business-model-part-one/
+  isPartOf:
+    name: Open Book Publishers Blog
+    type: Blog
 - https://doi.org/10.5281/ZENODO.815932 # Zenodo report on OA book publishing business models Europe 2017
 - https://unsplash.com/photos/E7RLgUjjazc # Adeolu Eletu Unsplash photo
 ---

@@ -16,8 +16,21 @@ title: Accreditation and research-assessment practices (on DORA and the Tickell 
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbsccjb2q"
 kcworks: https://works.hcommons.org/records/5t3t8-gds61
 references:
-- https://www.gov.uk/government/publications/open-access-to-research-independent-advice # Tickell review of UK open access policy
-- http://www.ascb.org/dora/ # DORA San Francisco Declaration on Research Assessment
+- date: '2016-02-11'
+  title: 'Open access to research: independent advice'
+  type: Report
+  publisher: Department for Business, Innovation & Skills
+  url: https://www.gov.uk/government/publications/open-access-to-research-independent-advice
+  isPartOf:
+    name: GOV.UK
+    type: WebSite
+- date: '2018-01-11'
+  title: Home
+  type: WebPage
+  url: http://www.ascb.org/dora/
+  isPartOf:
+    name: DORA
+    type: WebSite
 ---
 
 Last week, the [Tickell review of open access in the United Kingdom](https://www.gov.uk/government/publications/open-access-to-research-independent-advice) was published. There are no unwelcome nasty surprises in the review and, in fact, there are a number of extremely progressive elements, most notably the formation of a monographs sub-committee to address this increasingly important area of practice.

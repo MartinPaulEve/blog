@@ -24,8 +24,15 @@ wordpress_url: https://www.martineve.com/?p=2594
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgyg4xn2q"
 kcworks: https://works.hcommons.org/records/qkc3v-vad26
 references:
-- http://www.drcarolineedwards.com # Dr Caroline Edwards personal website
-- http://21cresearchgroup.blogs.lincoln.ac.uk/2013/01/16/upcoming-21st-century-research-group-meetings/ # Lincoln 21st Century Research Group upcoming meetings
+- title: Dr Caroline Edwards
+  type: WebSite
+  url: http://www.drcarolineedwards.com
+- title: Upcoming 21st Century Research Group meetings
+  type: BlogPosting
+  url: http://21cresearchgroup.blogs.lincoln.ac.uk/2013/01/16/upcoming-21st-century-research-group-meetings/
+  isPartOf:
+    name: 21st Century Research Group
+    type: Blog
 ---
 
 <p>Co-presented with <a href="http://www.drcarolineedwards.com">Dr. Caroline Edwards</a>: "<a href="http://21cresearchgroup.blogs.lincoln.ac.uk/2013/01/16/upcoming-21st-century-research-group-meetings/">Floats Like a Butterfly, Stings Like a Finch: Adorno, Utopia and Open Access Publishing</a>", <i>Lincoln University</i>, 21st-Century Research Group, Weds 27th Feb 4.15-5.30, MC0024</p>

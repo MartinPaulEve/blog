@@ -20,7 +20,9 @@ wordpress_url: http://new.martineve.com/?p=25
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmbyqdj2q"
 kcworks: https://works.hcommons.org/records/t02r0-j8j96
 references:
-- http://www.thehowlingfantods.com/dfw/ # Howling Fantods DFW fan site
+- title: The Howling Fantods
+  type: WebSite
+  url: http://www.thehowlingfantods.com/dfw/
 - http://www.scribd.com/doc/28142143/David-Foster-Wallace-archive # David Foster Wallace archive on Scribd
 - http://d1.scribdassets.com/ScribdViewer.swf # Scribd embedded viewer SWF asset
 ---

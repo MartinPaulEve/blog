@@ -21,7 +21,14 @@ wordpress_url: https://www.martineve.com/?p=2269
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhw27522n"
 kcworks: https://works.hcommons.org/records/cezja-7nw59
 references:
-- http://www.timeshighereducation.co.uk/story.asp?storycode=420743#.UBo2Q_vADzw.twitter # Times Higher Education story on unpaid academic posts
+- author: Jack Grove
+  date: '2012-08-02'
+  title: Age may not wither them but stale sector needs variety of staff
+  type: NewsArticle
+  url: http://www.timeshighereducation.co.uk/story.asp?storycode=420743#.UBo2Q_vADzw.twitter
+  isPartOf:
+    name: Times Higher Education
+    type: Periodical
 ---
 
 <p>Yet again a certain group of people are being screwed over... guess who? That's right! The people who paid tuition fees to go to university and are now trying to get their first academic post. UCL just advertised for 3 unpaid full-time "internships" that required specialist scientific knowledge and, in essence, amounts to offloading the work that's tedious onto young researchers.</p>

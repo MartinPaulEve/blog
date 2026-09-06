@@ -19,7 +19,12 @@ wordpress_url: https://www.martineve.com/?p=3052
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mffceag2e"
 kcworks: https://works.hcommons.org/records/406kv-r3q47
 references:
-- http://prezi.com/terms-of-use/ # Prezi terms of use
+- title: Business Terms and Conditions
+  type: WebPage
+  url: http://prezi.com/terms-of-use/
+  isPartOf:
+    name: Prezi
+    type: WebSite
 - http://dx.doi.org/10.6084/m9.figshare.953190 # Figshare DOI for Who Owns a Prezi post
 ---
 

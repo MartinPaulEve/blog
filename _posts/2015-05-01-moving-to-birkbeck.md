@@ -18,11 +18,33 @@ title: Moving to Birkbeck
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcuf3s52e"
 kcworks: https://works.hcommons.org/records/3v1fc-daz84
 references:
-- http://www.bbk.ac.uk/about-us # Birkbeck College about us page
-- http://www.bbk.ac.uk/about-us/history # Birkbeck College history page
-- http://www.bbk.ac.uk/about-us/mission # Birkbeck College mission statement page
-- http://jekyllrb.com/ # Jekyll static site generator homepage
-- http://hypothes.is # Hypothes.is web annotation tool
+- title: About us
+  type: WebPage
+  url: http://www.bbk.ac.uk/about-us
+  isPartOf:
+    name: Birkbeck, University of London
+    type: WebSite
+- title: Our story
+  type: WebPage
+  url: http://www.bbk.ac.uk/about-us/history
+  isPartOf:
+    name: Birkbeck, University of London
+    type: WebSite
+- title: Mission statement
+  type: WebPage
+  url: http://www.bbk.ac.uk/about-us/mission
+  isPartOf:
+    name: Birkbeck, University of London
+    type: WebSite
+- title: Jekyll • Simple, blog-aware, static sites
+  type: WebSite
+  url: http://jekyllrb.com/
+- title: Hypothesis
+  type: WebPage
+  url: http://hypothes.is
+  isPartOf:
+    name: Hypothesis
+    type: WebSite
 ---
 
 I am very pleased to announce that, as of today (1<sup>st</sup> of May, 2015), I am now a Senior Lecturer in Literature, Technology and Publishing at Birkbeck, University of London. I have greatly enjoyed my time at Lincoln and fully intend to stay in touch with the colleagues and friends that I have made there, whom I will sorely miss. That said, I am, of course, looking forward to the future. I've been excitedly sitting on this news for some time now and it is good to be able to say it aloud!

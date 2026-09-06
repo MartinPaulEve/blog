@@ -24,7 +24,12 @@ wordpress_url: https://www.martineve.com/?p=3143
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7meyyjoc2u"
 kcworks: https://works.hcommons.org/records/4dqpb-9rz80
 references:
-- https://github.com/MartinPaulEve/meTypeset/tree/zotero # meTypeset zotero branch on GitHub
+- title: GitHub - MartinPaulEve/meTypeset at zotero
+  type: SoftwareSourceCode
+  url: https://github.com/MartinPaulEve/meTypeset/tree/zotero
+  isPartOf:
+    name: GitHub
+    type: WebSite
 ---
 
 <p>Progress!</p>

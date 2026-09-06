@@ -14,12 +14,43 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcm6gih
 kcworks: https://works.hcommons.org/records/xkms0-gvz66
 references:
 - http://dx.doi.org/10.1177/2158244014521636 # Eve article on Hoban, Riddley Walker and metafiction
-- http://www.theparisreview.org/interviews/6034/the-art-of-fiction-no-204-david-mitchell # Paris Review Art of Fiction interview with David Mitchell
+- author: Adam Begley
+  title: David Mitchell, The Art of Fiction No. 204
+  type: WebPage
+  url: http://www.theparisreview.org/interviews/6034/the-art-of-fiction-no-204-david-mitchell
+  isPartOf:
+    name: The Paris Review
+    type: Periodical
 - http://sgo.sagepub.com/content/4/1/2158244014521636 # SAGE Open article on Hoban and metafiction after millennium
-- http://www.guardian.co.uk/books/2013/feb/08/david-mitchell-project-great-experimenter # Guardian interview Mitchell on being a great experimenter
-- http://www.theguardian.com/books/2010/jun/12/book-club-mitchell-cloud-atlas # Guardian book club on Cloud Atlas by David Mitchell
-- http://www.guardian.co.uk/books/2005/feb/05/featuresreviews.guardianreview27 # Mitchell, The Book of Revelations, Guardian
-- http://www.theguardian.com/books/2014/jul/14/the-right-sort-david-mitchells-twitter-short-story # Mitchell, The Right Sort, Guardian Twitter short story
+- author: Stuart Jeffries
+  date: '2013-02-08'
+  title: 'David Mitchell: ''I don''t want to project myself as this great experimenter'''
+  type: NewsArticle
+  url: http://www.guardian.co.uk/books/2013/feb/08/david-mitchell-project-great-experimenter
+  isPartOf:
+    name: The Guardian
+    type: Periodical
+- date: '2010-06-11'
+  title: 'Guardian book club: Cloud Atlas by David Mitchell'
+  type: NewsArticle
+  url: http://www.theguardian.com/books/2010/jun/12/book-club-mitchell-cloud-atlas
+  isPartOf:
+    name: The Guardian
+    type: Periodical
+- date: '2005-02-05'
+  title: The book of revelations
+  type: NewsArticle
+  url: http://www.guardian.co.uk/books/2005/feb/05/featuresreviews.guardianreview27
+  isPartOf:
+    name: The Guardian
+    type: Periodical
+- date: '2014-07-14'
+  title: The Right Sort, David Mitchell's Twitter short story
+  type: NewsArticle
+  url: http://www.theguardian.com/books/2014/jul/14/the-right-sort-david-mitchells-twitter-short-story
+  isPartOf:
+    name: The Guardian
+    type: Periodical
 ---
 
 Some thoughts...

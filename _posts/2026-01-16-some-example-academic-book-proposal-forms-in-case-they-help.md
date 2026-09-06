@@ -17,7 +17,14 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/8x3dq-s6e57
 references:
-- https://bsky.app/profile/lisalibrarian.bsky.social/post/3mcfrgigv4k2k # Lisa Janicke Hinchliffe Bluesky post
+- author: Lisa Janicke Hinchliffe
+  date: '2026-01-14'
+  title: Lisa Janicke Hinchliffe (@lisalibrarian.bsky.social)
+  type: WebPage
+  url: https://bsky.app/profile/lisalibrarian.bsky.social/post/3mcfrgigv4k2k
+  isPartOf:
+    name: Bluesky Social
+    type: WebSite
 - https://doi.org/10.17613/7jgs1-ge228 # KC Works: Theses on Metaphysical-Textual History proposal
 - https://doi.org/10.17613/e16j1-5ae64 # KC Works: Digital Humanities and Literary Studies proposal
 - https://doi.org/10.17613/5heb2-mpz16 # KC Works: Warez book proposal

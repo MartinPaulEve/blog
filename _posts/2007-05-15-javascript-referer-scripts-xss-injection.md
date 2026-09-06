@@ -24,7 +24,9 @@ wordpress_url: http://pro.grammatic.org/post-javascript-referer-scripts-xss-inje
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mobrowc2r"
 kcworks: https://works.hcommons.org/records/85vnd-zhs26
 references:
-- http://www.yaldex.com/FSPageDetails/_404Referrer.htm # yaldex.com 404 referrer script example
+- title: Page Details >>> 404 Referrer.
+  type: WebPage
+  url: http://www.yaldex.com/FSPageDetails/_404Referrer.htm
 - http://www.md5-db.com/XSSReferer/ # http://www.md5-db.com/XSSReferer/'style=xx:expression(alert(1));othervar='
 ---
 

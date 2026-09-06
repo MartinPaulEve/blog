@@ -20,7 +20,12 @@ wordpress_url: https://www.martineve.com/?p=2127
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miehcku2h"
 kcworks: https://works.hcommons.org/records/npggm-1gt53
 references:
-- http://www.flickr.com/photos/hexadecimal_time/ # Flickr photostream of Cuito Cuanavale
+- title: Cuito Cuanavale
+  type: WebPage
+  url: http://www.flickr.com/photos/hexadecimal_time/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>Just found one that I hadn't noticed before:</p>

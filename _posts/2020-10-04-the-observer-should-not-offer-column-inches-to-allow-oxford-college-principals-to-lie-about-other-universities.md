@@ -15,19 +15,96 @@ categories:
 - Higher Education
 kcworks: https://works.hcommons.org/records/e140p-eyd75
 references:
-- https://www.theguardian.com/commentisfree/2020/oct/04/i-saw-up-close-the-trials-of-university-life-in-a-pandemic-we-should-have-done-better # Hutton Guardian op-ed on university pandemic response
-- https://twitter.com/arrroberts/status/1312726671854886913 # Tweet from Royal Holloway academic on online teaching
+- author: Will Hutton
+  date: '2020-10-04'
+  title: I saw up close the trials of university life in a pandemic. We should have done better...
+  type: NewsArticle
+  url: https://www.theguardian.com/commentisfree/2020/oct/04/i-saw-up-close-the-trials-of-university-life-in-a-pandemic-we-should-have-done-better
+  isPartOf:
+    name: The Guardian
+    type: Periodical
+- author: Adam Roberts
+  date: '2020-10-04'
+  title: Adam Roberts (@arrroberts) on X
+  type: WebPage
+  url: https://twitter.com/arrroberts/status/1312726671854886913
+  isPartOf:
+    name: X
+    type: WebSite
 - https://www.ntu.ac.uk/staff-profiles/arts-humanities/jenny-woodley # Jenny Woodley Nottingham Trent University staff profile
 - https://twitter.com/MDG1122/status/1312721910237724672 # Tweet from Staffordshire University academic on online teaching
-- https://twitter.com/jntod/status/1312675226841493505 # Tweet from University of East Anglia academic
-- https://twitter.com/JBHist/status/1312692642208194560 # Tweet from Oxford Brookes academic on online teaching
-- https://twitter.com/sarahinthepark/status/1312679785886371840 # Tweet from Wolverhampton academic on online teaching
-- https://twitter.com/Mkbrit/status/1312732983900676102 # Tweet from University of Suffolk academic
-- https://twitter.com/alixcage/status/1312730325257248769 # Tweet from Keele University academic on online teaching
-- https://twitter.com/DrMJBunting/status/1312697110748372992 # Tweet from Hull University academic on online teaching
-- https://twitter.com/BillJDavies/status/1312731533443248129 # Tweet from Salford University academic on online teaching
-- https://twitter.com/minshyjay/status/1312727197698928641 # Tweet from University of Central Lancashire academic
-- https://twitter.com/DocMelia/status/1312731197903179776 # Tweet from Kingston University academic on online teaching
+- author: Jeremy Noel-Tod
+  date: '2020-10-04'
+  title: Jeremy Noel-Tod (@jntod) on X
+  type: WebPage
+  url: https://twitter.com/jntod/status/1312675226841493505
+  isPartOf:
+    name: X
+    type: WebSite
+- author: Joanne Begiato
+  date: '2020-10-04'
+  title: Prof Joanne Begiato She/Her (@JBHist) on X
+  type: WebPage
+  url: https://twitter.com/JBHist/status/1312692642208194560
+  isPartOf:
+    name: X
+    type: WebSite
+- author: Sarah K. Whitfield
+  date: '2020-10-04'
+  title: Sarah K. Whitfield not posting here anymore! (@sarahinthepark) on X
+  type: BlogPosting
+  url: https://twitter.com/sarahinthepark/status/1312679785886371840
+  isPartOf:
+    name: X (formerly Twitter)
+    type: WebSite
+- author: M-K Britt
+  date: '2020-10-04'
+  title: M-K Britt (@Mkbrit) on X
+  type: WebPage
+  url: https://twitter.com/Mkbrit/status/1312732983900676102
+  isPartOf:
+    name: X
+    type: WebSite
+- author: Alix Cage
+  date: '2020-10-04'
+  title: Alix Cage (@alixcage) on X
+  type: WebPage
+  url: https://twitter.com/alixcage/status/1312730325257248769
+  isPartOf:
+    name: X
+    type: WebSite
+- author: Jane Bunting
+  date: '2020-10-04'
+  title: Jane Bunting (@DrMJBunting) on X
+  type: WebPage
+  url: https://twitter.com/DrMJBunting/status/1312697110748372992
+  isPartOf:
+    name: X
+    type: WebSite
+- author: Bill Davies
+  date: '2020-10-04'
+  title: Bill Davies (@BillJDavies) on X
+  type: WebPage
+  url: https://twitter.com/BillJDavies/status/1312731533443248129
+  isPartOf:
+    name: X
+    type: WebSite
+- author: JackieEm
+  date: '2020-10-04'
+  title: JackieEm (@minshyjay) on X
+  type: BlogPosting
+  url: https://twitter.com/minshyjay/status/1312727197698928641
+  isPartOf:
+    name: X (formerly Twitter)
+    type: WebSite
+- author: Matt Melia
+  date: '2020-10-04'
+  title: Matt Melia (@DocMelia) on X
+  type: WebPage
+  url: https://twitter.com/DocMelia/status/1312731197903179776
+  isPartOf:
+    name: X
+    type: WebSite
 ---
 
 Today, in the _Observer_, the Sunday national newspaper of the liberal Guardian Media Group, Will Hutton offered a sobering retrospective of the university crisis during the Covid pandemic, from his position as the former principal of Hertford College, Oxford.

@@ -25,7 +25,12 @@ wordpress_url: https://www.martineve.com/?p=3129
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mf3cwnx2t"
 kcworks: https://works.hcommons.org/records/yrzyp-3w543
 references:
-- https://github.com/MartinPaulEve/meTypeset # meTypeset GitHub repository
+- title: 'GitHub - MartinPaulEve/meTypeset: meTypeset is a tool to convert from Microsoft Word .docx format to NLM/JATS-XML for scholarly/scientific article typesetting.'
+  type: SoftwareSourceCode
+  url: https://github.com/MartinPaulEve/meTypeset
+  isPartOf:
+    name: GitHub
+    type: WebSite
 ---
 
 <p>I was thinking last week about the process of starting any new project -- and it's fairly clear cut. When I am conducting an initial literature review, I head off to the British Library and order ten or so books/articles on the subject that I want to investigate (provided there are 10 articles/books). I then go through the bibliographies and check which entries appear in all ten. I then have a list of core readings that should bring me up to speed.</p>

@@ -22,12 +22,29 @@ wordpress_url: https://www.martineve.com/?p=1415
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk2dkiw2p"
 kcworks: https://works.hcommons.org/records/2t9tj-q8s78
 references:
-- http://speculative-diction.blogspot.com/2011/08/shameful-self-promotion-vs-meritocracy.html # Speculative Diction blog on self-promotion
+- title: Shameful self-promotion vs. Meritocracy
+  type: BlogPosting
+  url: http://speculative-diction.blogspot.com/2011/08/shameful-self-promotion-vs-meritocracy.html
 - https://twitter.com/#!/katrinagulliver/status/104077564796092416 # Katrina Gulliver tweet on author-pays fees
-- http://www.excursions-journal.org.uk # Excursions postgraduate journal
-- http://call-for-papers.sas.upenn.edu/ # UPenn call for papers listings
-- http://www.h-net.org/announce/group.cgi?type=CFPs # H-NET call for papers announcements
-- http://www.flickr.com/photos/thetrial/ # Flickr photos by the trial
+- title: 'Excursions: An interdisciplinary journal'
+  type: WebSite
+  url: http://www.excursions-journal.org.uk
+- title: cfp | call for papers
+  type: WebSite
+  url: http://call-for-papers.sas.upenn.edu/
+- title: H-Announce
+  type: WebPage
+  url: http://www.h-net.org/announce/group.cgi?type=CFPs
+  isPartOf:
+    name: H-Net
+    type: WebSite
+- author: the trial
+  title: the trial
+  type: WebSite
+  url: http://www.flickr.com/photos/thetrial/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>This post comes as a therapeutic exercise after having spent longer than I'd hoped bogged down writing an academic journal piece. I wanted to write a little on the topic of getting published as a postgraduate, when to start and how to go about it. I did <a href="https://www.martineve.com/2011/03/11/getting-published-in-academia/">write on this before</a>, but this is an expansion and refresher, so you can have the topic again!</p>

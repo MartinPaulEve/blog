@@ -15,27 +15,89 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/sxjtd-k7p10
 references:
-- https://www.nature.com/articles/d41586-024-03842-z # Nature editorial on digital preservation work
+- date: '2024-11-26'
+  title: Act now to stop millions of research papers from disappearing
+  type: NewsArticle
+  url: https://www.nature.com/articles/d41586-024-03842-z
+  isPartOf:
+    name: Nature
+    type: Periodical
 - https://eprints.bbk.ac.uk/id/eprint/52007 # Eve, Star Trek Voyager book (Lever Press 2025), BIROn
-- https://eprints.bbk.ac.uk/id/eprint/31744 # Eve, Theses on the Metaphors of Digital-Textual History, BIROn
+- author: Martin Paul Eve
+  date: '2024-01-01'
+  title: Theses on the Metaphors of Digital-Textual History
+  type: Book
+  url: https://eprints.bbk.ac.uk/id/eprint/31744
 - https://eprints.bbk.ac.uk/id/document/322077 # Download: Theses on Metaphors of Digital-Textual History
 - https://jcls.io/article/id/3915/ # Ketzan and Eve, anxiety of prestige in Stephen King, JCLS 2024
 - https://eprints.bbk.ac.uk/id/document/323621 # Download: anxiety of prestige in Stephen King article
-- https://eprints.bbk.ac.uk/id/eprint/51899 # Eve, digital scholarly journals poorly preserved 7m articles, BIROn
+- author: Martin Paul Eve
+  date: '2024-01-24'
+  title: 'Digital Scholarly Journals are Poorly Preserved: A Study of 7 Million Articles'
+  type: ScholarlyArticle
+  url: https://eprints.bbk.ac.uk/id/eprint/51899
+  isPartOf:
+    name: Journal of Librarianship and Scholarly Communication
+    type: Periodical
 - https://eprints.bbk.ac.uk/id/document/316883 # Download: digital scholarly journals poorly preserved article
-- https://eprints.bbk.ac.uk/id/eprint/50133 # Eve, shadow libraries and pirate infrastructures, BIROn
-- https://eprints.bbk.ac.uk/id/eprint/53704 # Eve, dark archives catalogues chapter, BIROn
-- https://eprints.bbk.ac.uk/id/eprint/54717 # Eve, digital piracy chapter, Handbuch Springer 2025, BIROn
-- https://eprints.bbk.ac.uk/id/eprint/43087 # Eve, essay in career of contemporary English novelist, BIROn
+- author: Martin Paul Eve
+  date: '2026-01-20'
+  title: Shadow Libraries and Pirate Infrastructures
+  type: ScholarlyArticle
+  url: https://eprints.bbk.ac.uk/id/eprint/50133
+- author: Martin Paul Eve
+  date: '2025-06-14'
+  title: '“Contains Scenes of Mild Peril”: Illuminating the Catalogues of Dark Archives'
+  type: ScholarlyArticle
+  url: https://eprints.bbk.ac.uk/id/eprint/53704
+- author: Eve, Martin Paul
+  date: '2025-04-06'
+  title: Digital Piracy
+  type: ScholarlyArticle
+  url: https://eprints.bbk.ac.uk/id/eprint/54717
+  isPartOf:
+    name: Handbuch Soziale Praktiken Und Digitale Alltagswelten
+    type: WebSite
+- author: Martin Paul Eve
+  date: '2024-08-16'
+  title: The Essay in the Career of the Contemporary English Novelist
+  type: ScholarlyArticle
+  url: https://eprints.bbk.ac.uk/id/eprint/43087
 - https://eprints.bbk.ac.uk/id/document/322638 # Download: essay in career of contemporary English novelist
-- https://eprints.bbk.ac.uk/id/eprint/53717 # Eve et al, AI in the communications circuit, SHARP 2024, BIROn
-- https://eprints.bbk.ac.uk/id/eprint/53252 # Eve, serious openings in Pynchon, Preface Prelude Prologue 2024, BIROn
+- author:
+  - Martin Paul Eve
+  - Ryan Cordell
+  - Sarah Bull
+  - Lise Jaillant
+  - Matthew G. Kirschenbaum
+  date: '2024-07-03'
+  title: AI In the Communications Circuit
+  type: WebPage
+  url: https://eprints.bbk.ac.uk/id/eprint/53717
+- author: Martin Paul Eve
+  date: '2024-06-05'
+  title: '''Begin at the beginning, the King said, very gravely'': Serious Openings and Subversive Epigraphs in the Novels of Thomas Pynchon'
+  type: WebPage
+  url: https://eprints.bbk.ac.uk/id/eprint/53252
 - https://eprints.bbk.ac.uk/id/document/320373 # Download: serious openings in Pynchon talk
 - https://jcls.io/media/journals/12/CCLS2024_Conference_Reader.pdf # Ketzan and Eve, Stephen King stylistics, CCLS Vienna 2024
 - https://eprints.bbk.ac.uk/id/document/320161 # Download: Stephen King stylistics CCLS 2024 paper
-- https://eprints.bbk.ac.uk/id/eprint/53158 # Eve, how safe are digital journals, Leeds seminar 2024, BIROn
-- https://eprints.bbk.ac.uk/id/eprint/52808 # Eve, accessibility publishing and disability, BAAS 2024, BIROn
-- https://github.com/openlibhums/janeway/ # Janeway open-access publishing platform on GitHub
+- author: Martin Paul Eve
+  date: '2024-02-29'
+  title: How Safe Are Digital Journals? A Study of 7m Articles
+  type: WebPage
+  url: https://eprints.bbk.ac.uk/id/eprint/53158
+- author: Martin Paul Eve
+  date: '2024-01-11'
+  title: Accessibility, Publishing, and Disability
+  type: WebPage
+  url: https://eprints.bbk.ac.uk/id/eprint/52808
+- title: 'GitHub - openlibhums/janeway: A web-based platform for publishing journals, preprints, conference proceedings, and books'
+  type: SoftwareSourceCode
+  url: https://github.com/openlibhums/janeway/
+  isPartOf:
+    name: GitHub
+    type: WebSite
 ---
 
 Like most years, a mixed bag for me here. Kidney failure continues to be a truly challenging medical fiasco, with AV fistulas, overnight dialysis, hormone therapies, and much much more. I also continue to feel the severe difficulties of my rheumatoid arthritis, which required a hip replacement in April.

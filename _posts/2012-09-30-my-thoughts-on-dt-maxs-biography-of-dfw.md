@@ -20,7 +20,13 @@ wordpress_url: https://www.martineve.com/?p=2420
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhrddta2o"
 kcworks: https://works.hcommons.org/records/cdhej-zt756
 references:
-- http://www.flickr.com/photos/ari/ # Steve Rhodes Flickr photostream
+- author: Steve Rhodes
+  title: Steve Rhodes
+  type: WebPage
+  url: http://www.flickr.com/photos/ari/
+  isPartOf:
+    name: Flickr
+    type: WebSite
 ---
 
 <p>Let me start by stating upfront how much I wanted to dislike this book. I caution students against biographical readings all the time. The author on whom I've done most of my research work, Thomas Pynchon, deliberately obfuscates attempts to read in this way through extreme privacy. I didn't like Max's style from the off (the dropping of the preposition after the verb "write" in its epistolary sense is an Americanism that I still can't forgive). No, I was predisposed to dislike this work.</p>

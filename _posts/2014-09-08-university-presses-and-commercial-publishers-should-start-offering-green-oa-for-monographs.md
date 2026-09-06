@@ -25,8 +25,20 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7meogm7s
 kcworks: https://works.hcommons.org/records/21x1c-e7936
 references:
 - http://www.sherpa.ac.uk/romeo/ # SHERPA/RoMEO journal publisher OA policies
-- http://blogs.lse.ac.uk/impactofsocialsciences/2014/04/01/hefce-open-access-ref-gamechanger/ # LSE blog on HEFCE OA REF game-changer
-- http://bit.ly/oa-book # Suber, Open Access (2012)
+- author: Sierra Williams
+  date: '2014-04-01'
+  title: 'HEFCE announces Open Access policy for the next REF in the UK: Why this Open Access policy will be a game-changer.'
+  type: BlogPosting
+  url: http://blogs.lse.ac.uk/impactofsocialsciences/2014/04/01/hefce-open-access-ref-gamechanger/
+  isPartOf:
+    name: LSE Impact Blog
+    type: Blog
+- title: Open Access (the book)
+  type: WebPage
+  url: http://bit.ly/oa-book
+  isPartOf:
+    name: Harvard Open Access Project
+    type: WebSite
 - http://www.publications.parliament.uk/pa/cm201314/cmselect/cmbis/99/99.pdf # BIS 2013 parliamentary select committee report
 ---
 
