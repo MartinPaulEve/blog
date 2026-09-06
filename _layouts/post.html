@@ -85,6 +85,7 @@
             <div class="container">
                 <div class="post-body e-content">
                     {{ content | strip_feature_image: page.image.feature }}
+                    {% include _references_list.html %}
                 </div>
 
                 <!-- Post Sidebar -->

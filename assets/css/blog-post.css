@@ -1289,3 +1289,51 @@ ul.category-post-list li {
     line-height: 0.8;    /* with margin-top:0, aligns the cap top to the text cap-height */
     margin: 0 0.08em 0 0;
 }
+
+/* ========================================
+   Generated reference list (see _plugins/reference_list.rb): a quiet,
+   rule-separated coda to the post. The disclaimer is deliberately small;
+   entries hang-indent like a bibliography, and long URLs are allowed to
+   break anywhere so bare-link citations cannot overflow on mobile.
+   ======================================== */
+.post-references {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border-color, rgba(128, 128, 128, 0.35));
+}
+
+.post-references-disclaimer {
+    font-size: 0.8em;
+    opacity: 0.75;
+    font-style: italic;
+}
+
+.post-references-picker {
+    font-size: 0.85em;
+}
+
+/* The PDF renderer executes page scripts, which reveal the style picker;
+   print output is fixed-MHRA, so the picker (and any script-toggled
+   alternate style list) must never survive into it. */
+@media print {
+    .post-references-picker {
+        display: none !important;
+    }
+
+    .post-references-list[hidden] {
+        display: none !important;
+    }
+}
+
+.post-references-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.post-references-list li {
+    padding-left: 2em;
+    text-indent: -2em;
+    margin-bottom: 0.6em;
+    overflow-wrap: anywhere;
+}
