@@ -5,6 +5,7 @@ categories:
 - Copyright and Licensing
 comments: []
 date: 2014-09-03 18:03:38 +0200
+last_modified_at: 2026-09-06
 date_gmt: 2014-09-03 17:03:38 +0200
 doi: https://doi.org/10.59348/fkj4k-hgr68
 roguescholar: https://rogue-scholar.org/records/v1d0x-2b378

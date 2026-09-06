@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2020/10/22/backlist-to-the-future-a-new-business-model-for-university-presses-and-open-access-books
 date: 2020-10-22
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/f8xr5-pw254
 roguescholar: https://rogue-scholar.org/records/7vnmj-zwn30
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m4qmh3d2f

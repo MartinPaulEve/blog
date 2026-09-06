@@ -5,6 +5,7 @@ categories:
 - Scholarly Communications
 comments: []
 date: 2012-06-06 08:59:17 +0200
+last_modified_at: 2026-09-06
 date_gmt: 2012-06-06 08:59:17 +0200
 doi: https://doi.org/10.59348/2gt43-gq719
 roguescholar: https://rogue-scholar.org/records/gw8v9-zkj23

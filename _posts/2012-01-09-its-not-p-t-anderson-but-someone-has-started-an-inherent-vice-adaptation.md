@@ -4,6 +4,7 @@ categories:
 - Thomas Pynchon
 comments: []
 date: 2012-01-09 13:17:10 +0100
+last_modified_at: 2026-09-06
 date_gmt: 2012-01-09 13:17:10 +0100
 doi: https://doi.org/10.59348/ambp3-zd546
 roguescholar: https://rogue-scholar.org/records/djjx6-gt357

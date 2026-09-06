@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2024/12/28/history-and-digital-preservation
 date: 2024-12-28
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/1z1p2-nn569
 roguescholar: https://rogue-scholar.org/records/pv1f3-hn166
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwihov32q

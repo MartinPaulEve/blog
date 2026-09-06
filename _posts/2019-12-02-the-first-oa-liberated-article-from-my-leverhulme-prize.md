@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2019/12/02/the-first-oa-liberated-article-from-my-leverhulme-prize
 date: 2019-12-02
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/tk9r7-y2y44
 roguescholar: https://rogue-scholar.org/records/2ga67-6af37
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6lou6f2u

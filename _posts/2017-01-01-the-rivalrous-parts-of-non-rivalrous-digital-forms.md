@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2017/01/01/the-rivalrous-parts-of-non-rivalrous-digital-forms
 date: 2017-01-01
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/mbpr1-1k347
 roguescholar: https://rogue-scholar.org/records/qph63-3d593
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mapzeyo2f

@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/12/13/introducing-cemmento-a-digital-preservation-tool-for-annotations
 date: 2016-12-13
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/arjxf-k7e88
 roguescholar: https://rogue-scholar.org/records/zxa5g-qts62
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7maqvjml2n

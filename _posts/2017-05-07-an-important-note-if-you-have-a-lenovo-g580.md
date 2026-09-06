@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2017/05/07/an-important-note-if-you-have-a-lenovo-g580
 date: 2017-05-07
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/dmq66-f5d26
 roguescholar: https://rogue-scholar.org/records/d62gx-m6j69
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mad2kji2a

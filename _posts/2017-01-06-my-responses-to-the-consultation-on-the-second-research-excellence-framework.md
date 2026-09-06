@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2017/01/06/my-responses-to-the-consultation-on-the-second-research-excellence-framework
 date: 2017-01-06
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/6tb9a-wzf18
 roguescholar: https://rogue-scholar.org/records/710mn-pab36
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7maho65g2s

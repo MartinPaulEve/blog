@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2020/04/22/the-edited-collection-and-its-discontents
 date: 2020-04-22
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/nmns0-t2n34
 roguescholar: https://rogue-scholar.org/records/etnqn-00190
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m64xi6v2s

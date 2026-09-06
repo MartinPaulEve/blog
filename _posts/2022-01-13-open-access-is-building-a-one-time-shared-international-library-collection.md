@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2022/01/13/open-access-is-building-a-one-time-shared-international-library-collection
 date: 2022-01-13
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/jsat6-rsp24
 roguescholar: https://rogue-scholar.org/records/ke8s7-x3828
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzhfuob2t

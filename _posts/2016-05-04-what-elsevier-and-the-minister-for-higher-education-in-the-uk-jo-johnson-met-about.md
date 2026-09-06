@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/05/04/what-elsevier-and-the-minister-for-higher-education-in-the-uk-jo-johnson-met-about
 date: 2016-05-04
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/5e75p-raf71
 roguescholar: https://rogue-scholar.org/records/5dar5-hb496
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbgc7rm2n

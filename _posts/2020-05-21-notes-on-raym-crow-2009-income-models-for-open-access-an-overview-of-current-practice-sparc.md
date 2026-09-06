@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2020/05/21/notes-on-raym-crow-2009-income-models-for-open-access-an-overview-of-current-practice-sparc
 date: 2020-05-21
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/6shg3-q0e43
 roguescholar: https://rogue-scholar.org/records/jvk0z-e4c29
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5pfcn22i

@@ -5,6 +5,7 @@ categories:
 - Philosophy
 comments: []
 date: 2012-09-04 11:21:04 +0200
+last_modified_at: 2026-09-06
 date_gmt: 2012-09-04 11:21:04 +0200
 doi: https://doi.org/10.59348/7ed1n-4sw12
 roguescholar: https://rogue-scholar.org/records/dpw8r-x4989

@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2019/03/29/on-music-tici-taci-and-a-new-release
 date: 2019-03-29
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/y59cr-bf542
 roguescholar: https://rogue-scholar.org/records/nrn57-w6p53
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7afq5w2f

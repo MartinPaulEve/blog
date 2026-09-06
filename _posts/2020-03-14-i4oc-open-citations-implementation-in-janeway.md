@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2020/03/14/i4oc-open-citations-implementation-in-janeway
 date: 2020-03-14
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/vqehm-v5y58
 roguescholar: https://rogue-scholar.org/records/h1cj4-rh727
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6h6dam2f

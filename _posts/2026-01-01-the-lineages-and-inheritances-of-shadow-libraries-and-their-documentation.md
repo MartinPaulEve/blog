@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2026/01/01/the-lineages-and-inheritances-of-shadow-libraries-and-their-documentation
 date: 2026-01-01
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/1mrf2-35g29
 kcworks: https://works.hcommons.org/records/pm6ta-dxp10
 roguescholar: https://rogue-scholar.org/records/w9qkr-a2d51

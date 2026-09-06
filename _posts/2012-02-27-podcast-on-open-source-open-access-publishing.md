@@ -5,6 +5,7 @@ categories:
 - Publishing Technology
 comments: []
 date: 2012-02-27 21:05:35 +0100
+last_modified_at: 2026-09-06
 date_gmt: 2012-02-27 21:05:35 +0100
 doi: https://doi.org/10.59348/4z6tj-32321
 roguescholar: https://rogue-scholar.org/records/2h3bd-59g94

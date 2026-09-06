@@ -6,6 +6,7 @@ categories:
 - Literature
 comments: []
 date: 2011-08-03 14:17:05 +0200
+last_modified_at: 2026-09-06
 date_gmt: 2011-08-03 14:17:05 +0200
 doi: https://doi.org/10.59348/8gzqt-vz461
 roguescholar: https://rogue-scholar.org/records/d0bmn-1rd26

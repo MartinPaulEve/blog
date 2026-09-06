@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2022/09/01/small-publishers-and-subscribe-to-open
 date: 2022-09-01
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/446jg-ts103
 roguescholar: https://rogue-scholar.org/records/db8cx-nzf39
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lymg4xk2r

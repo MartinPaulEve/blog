@@ -3,6 +3,7 @@ archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016
 categories:
 - Academia
 date: 2016-01-22
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/bye5m-3jx47
 roguescholar: https://rogue-scholar.org/records/yz1kg-70226
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbugdbt2p

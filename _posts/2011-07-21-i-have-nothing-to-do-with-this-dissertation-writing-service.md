@@ -5,6 +5,7 @@ categories:
 - Copyright and Licensing
 comments: []
 date: 2011-07-21 10:26:02 +0200
+last_modified_at: 2026-09-06
 date_gmt: 2011-07-21 10:26:02 +0200
 doi: https://doi.org/10.59348/c7spd-kyw35
 roguescholar: https://rogue-scholar.org/records/7qm72-d6516

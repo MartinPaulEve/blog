@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2020/04/20/notes-on-stuart-lawsons-the-political-histories-of-uk-public-libraries-and-access-to-knowledge
 date: 2020-04-20
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/fy62v-v9342
 roguescholar: https://rogue-scholar.org/records/mnzss-x5m56
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m673uoh2a

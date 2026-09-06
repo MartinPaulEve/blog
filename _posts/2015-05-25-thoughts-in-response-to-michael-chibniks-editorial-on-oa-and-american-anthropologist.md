@@ -3,6 +3,7 @@ archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015
 categories:
 - Open Access
 date: 2015-05-25
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/cvkcj-9zt96
 roguescholar: https://rogue-scholar.org/records/rpt84-q5748
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcsax3x2s

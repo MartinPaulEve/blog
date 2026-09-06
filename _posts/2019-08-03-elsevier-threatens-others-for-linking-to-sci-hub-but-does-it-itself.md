@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2019/08/03/elsevier-threatens-others-for-linking-to-sci-hub-but-does-it-itself
 date: 2019-08-03
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/j94qh-acq10
 roguescholar: https://rogue-scholar.org/records/6t6ke-wqv77
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6qp35p2q

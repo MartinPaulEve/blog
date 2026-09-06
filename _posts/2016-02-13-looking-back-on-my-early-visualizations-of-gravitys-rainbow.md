@@ -4,6 +4,7 @@ categories:
 - Digital Humanities
 - Thomas Pynchon
 date: 2016-02-13
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/jt0t4-dkq75
 roguescholar: https://rogue-scholar.org/records/fkb2g-34a64
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbsrex32p

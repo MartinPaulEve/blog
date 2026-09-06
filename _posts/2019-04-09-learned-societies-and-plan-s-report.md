@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2019/04/09/learned-societies-and-plan-s-report
 date: 2019-04-09
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/yrxz7-8ty62
 roguescholar: https://rogue-scholar.org/records/wdeac-eg072
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m77rkfv2i

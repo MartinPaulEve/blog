@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2023/07/20/the-latest-ithaka-sr-draft-report-is-hugely-regressive
 date: 2023-07-20
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/jwd2p-kmf24
 roguescholar: https://rogue-scholar.org/records/gd9z1-9kp03
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7ly5pkd32q

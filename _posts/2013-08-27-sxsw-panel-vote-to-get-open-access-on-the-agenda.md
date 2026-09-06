@@ -5,6 +5,7 @@ categories:
 - Conferences
 comments: []
 date: 2013-08-27 19:24:53 +0200
+last_modified_at: 2026-09-06
 date_gmt: 2013-08-27 18:24:53 +0200
 doi: https://doi.org/10.59348/xge2x-9qq66
 roguescholar: https://rogue-scholar.org/records/yfexw-r2w05

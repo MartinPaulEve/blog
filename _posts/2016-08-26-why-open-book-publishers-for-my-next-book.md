@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/08/26/why-open-book-publishers-for-my-next-book
 date: 2016-08-26
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/8jmtq-acr25
 roguescholar: https://rogue-scholar.org/records/0nnzy-81240
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mb25yqu2t

@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2020/12/12/how-to-install-ubuntu-on-the-hp-dragonfly-elite
 date: 2020-12-12
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/bf1js-jhp50
 roguescholar: https://rogue-scholar.org/records/rct2m-vr820
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m4pln3g2h

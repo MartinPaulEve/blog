@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2017/12/15/my-2017-academic-year-in-review
 date: 2017-12-15
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/gvscq-wvy59
 roguescholar: https://rogue-scholar.org/records/nby0a-sqt03
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7zgruz2a

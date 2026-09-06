@@ -4,6 +4,7 @@ categories:
 - Literature
 comments: []
 date: 2015-02-15
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/gs1s7-k5638
 roguescholar: https://rogue-scholar.org/records/6sxvj-v4h74
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdac3xy2i

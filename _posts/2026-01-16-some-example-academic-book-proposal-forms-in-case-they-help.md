@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2026/01/16/some-example-academic-book-proposal-forms-in-case-they-help/
 date: 2026-01-16
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/wxvf4-a6040
 roguescholar: https://rogue-scholar.org/records/g1bpj-6gd77
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lv4ravd2p

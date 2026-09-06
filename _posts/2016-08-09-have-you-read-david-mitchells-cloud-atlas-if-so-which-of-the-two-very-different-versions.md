@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/08/09/have-you-read-david-mitchells-cloud-atlas-if-so-which-of-the-two-very-different-versions
 date: 2016-08-09
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/azkft-pdz07
 roguescholar: https://rogue-scholar.org/records/e1az9-1mh62
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mb4qbb72i

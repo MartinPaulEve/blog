@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2023/03/19/integration-testing-locally-and-on-gitlab-ci-using-localstack
 date: 2023-03-19
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/jvnf9-ref68
 roguescholar: https://rogue-scholar.org/records/10r3x-yj534
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lyfg57y2n

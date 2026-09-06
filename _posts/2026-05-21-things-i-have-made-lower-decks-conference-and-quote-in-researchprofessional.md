@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2026/05/21/things-i-have-made-kc-idms-in-place-lower-decks-conference-and-quote-in-researchprofessional
 date: 2026-05-21
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/2thwp-wm553
 kcworks: https://works.hcommons.org/records/nafhh-48154
 roguescholar: https://rogue-scholar.org/records/t7c4c-qss45

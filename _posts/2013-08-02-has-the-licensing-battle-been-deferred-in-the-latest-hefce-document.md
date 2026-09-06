@@ -5,6 +5,7 @@ categories:
 - Copyright and Licensing
 comments: []
 date: 2013-08-02 14:29:45 +0200
+last_modified_at: 2026-09-06
 date_gmt: 2013-08-02 13:29:45 +0200
 doi: https://doi.org/10.59348/dhwq4-amn61
 roguescholar: https://rogue-scholar.org/records/htqvt-6fp58

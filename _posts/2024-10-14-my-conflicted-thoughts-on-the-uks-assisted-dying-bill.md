@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2024/10/14/my-conflicted-thoughts-on-the-uks-assisted-dying-bill
 date: 2024-10-14
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/anyvs-bqv67
 roguescholar: https://rogue-scholar.org/records/pk86t-n1x97
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwndyux2f

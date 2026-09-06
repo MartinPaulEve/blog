@@ -4,6 +4,7 @@ categories:
 - Copyright and Licensing
 comments: []
 date: 2011-07-11 08:49:22 +0200
+last_modified_at: 2026-09-06
 date_gmt: 2011-07-11 08:49:22 +0200
 doi: https://doi.org/10.59348/cxz52-g4186
 roguescholar: https://rogue-scholar.org/records/egskw-wwh05

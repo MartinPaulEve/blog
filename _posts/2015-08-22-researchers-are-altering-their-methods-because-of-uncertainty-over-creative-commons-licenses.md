@@ -4,6 +4,7 @@ categories:
 - Copyright and Licensing
 - Open Access
 date: 2015-08-22
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/3s9kt-z3m64
 roguescholar: https://rogue-scholar.org/records/z79zh-te815
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcc2t3r2f

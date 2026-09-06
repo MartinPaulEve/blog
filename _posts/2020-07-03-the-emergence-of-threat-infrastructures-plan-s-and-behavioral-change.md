@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2020/07/03/the-emergence-of-threat-infrastructures-plan-s-and-behavioral-change
 date: 2020-07-03
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/qkbgp-w7b36
 roguescholar: https://rogue-scholar.org/records/fs3py-q7n40
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5doof52p

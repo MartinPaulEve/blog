@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2026/02/22/structure-and-there-is-no-antimemetics-division
 date: 2026-02-22
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/d2tda-w5c07
 kcworks: https://works.hcommons.org/records/ej5cb-36646
 roguescholar: https://rogue-scholar.org/records/2sk84-a0038

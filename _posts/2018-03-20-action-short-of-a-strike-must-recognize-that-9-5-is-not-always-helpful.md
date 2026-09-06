@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2018/03/20/action-short-of-a-strike-must-recognize-that-9-5-is-not-always-helpful
 date: 2018-03-20
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/e156j-3kr40
 roguescholar: https://rogue-scholar.org/records/7scy0-f1777
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7xzdsn2e

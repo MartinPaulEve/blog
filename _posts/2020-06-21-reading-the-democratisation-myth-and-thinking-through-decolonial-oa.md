@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2020/06/21/reading-the-democratisation-myth-and-thinking-through-decolonial-oa
 date: 2020-06-21
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/9fh05-pzd75
 roguescholar: https://rogue-scholar.org/records/kfew3-d6y90
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5lba462p

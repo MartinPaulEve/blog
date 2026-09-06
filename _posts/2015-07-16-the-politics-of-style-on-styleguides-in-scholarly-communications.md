@@ -3,6 +3,7 @@ archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015
 categories:
 - Scholarly Communications
 date: 2015-07-16
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/re45s-jhg72
 roguescholar: https://rogue-scholar.org/records/gxmjm-s4z21
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcghwob2q

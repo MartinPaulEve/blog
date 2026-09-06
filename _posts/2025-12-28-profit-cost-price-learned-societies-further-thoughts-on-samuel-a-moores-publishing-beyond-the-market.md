@@ -3,6 +3,7 @@ archive: https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2025
 backlink:
 - 2025-12-26-authorship-division-of-labour-material-form-thoughts-on-samuel-a-moores-publishing-beyond-the-market
 date: 2025-12-28
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/hqbwp-cx806
 kcworks: https://works.hcommons.org/records/75y0z-aja56
 roguescholar: https://rogue-scholar.org/records/msafj-qxj47

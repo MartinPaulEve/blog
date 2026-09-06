@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2017/02/28/conducting-non-commercial-research-on-in-copyright-amazon-kindle-books
 date: 2017-02-28
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/gwjf2-gc749
 roguescholar: https://rogue-scholar.org/records/610jm-y4n11
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mafdkid2p

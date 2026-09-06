@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2023/03/09/a-data-pipeline-with-apache-airflow-and-dask
 date: 2023-03-09
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59351/5jkka-69w74
 roguescholar: https://rogue-scholar.org/records/x4p65-xsy70
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lyglk722a

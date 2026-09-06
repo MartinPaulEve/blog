@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/10/20/my-new-book-literature-against-criticism-is-published-today
 date: 2016-10-20
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/mhhn8-37692
 roguescholar: https://rogue-scholar.org/records/zjdcr-qwe55
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7maxebjk2i

@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2021/11/20/citing-pirate-artifacts
 date: 2021-11-20
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/zrcq8-6vn58
 roguescholar: https://rogue-scholar.org/records/2crtg-7b430
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2dancc2h

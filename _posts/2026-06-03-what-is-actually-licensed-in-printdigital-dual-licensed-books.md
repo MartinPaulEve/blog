@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2026/06/03/what-is-actually-licensed-in-printdigital-dual-licensed-books
 date: 2026-06-03
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/wf4fq-8pn69
 kcworks: https://works.hcommons.org/records/r798n-wey24
 roguescholar: https://rogue-scholar.org/records/p6af9-32h68

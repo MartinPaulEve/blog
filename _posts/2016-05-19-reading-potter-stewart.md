@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/05/19/reading-potter-stewart
 date: 2016-05-19
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/bq3my-m2m44
 roguescholar: https://rogue-scholar.org/records/aaswh-tj076
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbfbqfw2u

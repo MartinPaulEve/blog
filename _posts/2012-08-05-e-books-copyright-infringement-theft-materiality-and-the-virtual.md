@@ -5,6 +5,7 @@ categories:
 - Piracy and Shadow Libraries
 comments: []
 date: 2012-08-05 10:20:57 +0200
+last_modified_at: 2026-09-06
 date_gmt: 2012-08-05 10:20:57 +0200
 doi: https://doi.org/10.59348/ccfta-e6a86
 roguescholar: https://rogue-scholar.org/records/bmxzv-e0973

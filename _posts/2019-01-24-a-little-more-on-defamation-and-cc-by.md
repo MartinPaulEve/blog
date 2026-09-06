@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2019/01/24/a-little-more-on-defamation-and-cc-by
 date: 2019-01-24
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/ysswx-ena70
 roguescholar: https://rogue-scholar.org/records/1dq0k-pv060
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7fntxv2u

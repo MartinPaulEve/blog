@@ -5,6 +5,7 @@ categories:
 - Thomas Pynchon
 comments: []
 date: 2011-04-11 09:26:20 +0200
+last_modified_at: 2026-09-06
 date_gmt: 2011-04-11 09:26:20 +0200
 doi: https://doi.org/10.59348/td026-vhc26
 roguescholar: https://rogue-scholar.org/records/nadfy-98264

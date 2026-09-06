@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2022/01/05/ancient-west
 date: 2022-01-05
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/22ces-hrj98
 roguescholar: https://rogue-scholar.org/records/tpyj7-aam58
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzp6nkc2r

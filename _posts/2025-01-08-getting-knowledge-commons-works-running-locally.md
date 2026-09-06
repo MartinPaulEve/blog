@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2025/01/08/getting-knowledge-commons-works-running-locally
 date: 2025-01-08
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/gzztd-62q63
 roguescholar: https://rogue-scholar.org/records/c1n6w-v3e34
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwcrllj2h

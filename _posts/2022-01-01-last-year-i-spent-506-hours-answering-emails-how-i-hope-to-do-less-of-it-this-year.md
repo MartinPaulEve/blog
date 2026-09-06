@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2022/01/01/last-year-i-spent-506-hours-answering-emails-how-i-hope-to-do-less-of-it-this-year
 date: 2022-01-01
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/hyfz7-pkm08
 roguescholar: https://rogue-scholar.org/records/cvpzj-ys419
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m24dobv2o

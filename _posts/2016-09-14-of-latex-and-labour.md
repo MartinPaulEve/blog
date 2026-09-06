@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/09/14/of-latex-and-labour
 date: 2016-09-14
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/pn6wp-13c46
 roguescholar: https://rogue-scholar.org/records/6z897-wfj94
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7maztdtq2h

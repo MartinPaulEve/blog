@@ -3,6 +3,7 @@ archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2015
 categories:
 - Higher Education
 date: 2015-12-06
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/8amjz-66a40
 roguescholar: https://rogue-scholar.org/records/bnday-eav83
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc27f522a

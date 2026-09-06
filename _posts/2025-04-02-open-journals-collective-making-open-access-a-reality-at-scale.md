@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2025/04/02/open-journals-collective-making-open-access-a-reality-at-scale
 date: 2025-04-02
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/3d7cd-prc33
 kcworks: https://works.hcommons.org/records/x93ka-89r88
 roguescholar: https://rogue-scholar.org/records/wgdxv-khg59

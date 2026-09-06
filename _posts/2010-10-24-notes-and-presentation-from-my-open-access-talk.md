@@ -5,6 +5,7 @@ categories:
 - Conferences
 comments: []
 date: 2010-10-24 18:00:49 +0200
+last_modified_at: 2026-09-06
 date_gmt: 2010-10-24 18:00:49 +0200
 doi: https://doi.org/10.59348/5h626-06e32
 roguescholar: https://rogue-scholar.org/records/b2f1w-x7w79

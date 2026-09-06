@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2026/04/19/the-necessary-pain-involved-in-blogging-if-you-want-your-work-to-be-preserved-beyond-your-lifespan
 date: 2026-04-19
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/6cr4z-4ct43
 kcworks: https://works.hcommons.org/records/rcjt2-9wz61
 roguescholar: https://rogue-scholar.org/records/zt4g7-r7e73

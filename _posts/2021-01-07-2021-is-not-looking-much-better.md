@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2021/01/07/2021-is-not-looking-much-better
 date: 2021-01-07
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/vy5rg-b1x08
 roguescholar: https://rogue-scholar.org/records/ntegm-jbr93
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3y46hl2t

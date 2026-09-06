@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2025/03/14/testing-1-2-3-on-software-testing-and-why-its-interesting-even-to-non-developersnon-coders/
 date: 2025-03-14
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/bnh0a-7cv52
 roguescholar: https://rogue-scholar.org/records/mpnbc-peq96
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lw263eq2r

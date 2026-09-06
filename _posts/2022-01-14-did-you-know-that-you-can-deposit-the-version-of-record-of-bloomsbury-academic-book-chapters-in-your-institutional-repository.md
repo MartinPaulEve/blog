@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2022/01/14/did-you-know-that-you-can-deposit-the-version-of-record-of-bloomsbury-academic-book-chapters-in-your-institutional-repository
 date: 2022-01-14
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/k7q6d-h1824
 roguescholar: https://rogue-scholar.org/records/j88xs-j2287
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzgxuek2r

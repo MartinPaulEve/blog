@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2025/02/11/an-introduction-to-charlotte-perkins-gilmans-the-yellow-wallpaper
 date: 2025-02-11
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/132ez-7wz69
 roguescholar: https://rogue-scholar.org/records/8mrqb-zq012
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwaizic2h

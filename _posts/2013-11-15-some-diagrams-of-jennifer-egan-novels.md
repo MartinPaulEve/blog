@@ -5,6 +5,7 @@ categories:
 - Digital Humanities
 comments: []
 date: 2013-11-15 15:59:26 +0100
+last_modified_at: 2026-09-06
 date_gmt: 2013-11-15 15:59:26 +0100
 doi: https://doi.org/10.59348/790es-8mb03
 roguescholar: https://rogue-scholar.org/records/ratvw-trg47

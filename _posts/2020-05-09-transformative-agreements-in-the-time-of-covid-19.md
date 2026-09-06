@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2020/05/09/transformative-agreements-in-the-time-of-covid-19
 date: 2020-05-09
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/ms0nx-m3890
 roguescholar: https://rogue-scholar.org/records/anvbz-9kx13
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5qzmc32i

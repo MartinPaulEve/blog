@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2021/07/28/mesh-on-a-budget-converting-rbr50-to-rbs50-units-and-using-lbr20-for-4g-fallback
 date: 2021-07-28
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/a0583-f5w04
 roguescholar: https://rogue-scholar.org/records/aw7zs-7ct06
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2vr3b32i

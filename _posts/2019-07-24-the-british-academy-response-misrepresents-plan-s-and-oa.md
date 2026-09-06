@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2019/07/24/the-british-academy-response-misrepresents-plan-s-and-oa
 date: 2019-07-24
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/xs79g-yms35
 roguescholar: https://rogue-scholar.org/records/b9488-h9b14
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6rjpqd2r

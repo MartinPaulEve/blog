@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2017/03/11/on-the-economics-of-flipping-subscription-journals
 date: 2017-03-11
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/pktjk-v9189
 roguescholar: https://rogue-scholar.org/records/bdb07-qev93
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mafa44p2q

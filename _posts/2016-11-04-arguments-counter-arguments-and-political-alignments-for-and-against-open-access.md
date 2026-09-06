@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2016/11/04/arguments-counter-arguments-and-political-alignments-for-and-against-open-access
 date: 2016-11-04
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/q1q60-tnn26
 roguescholar: https://rogue-scholar.org/records/t2ve4-jft39
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7maw346f2e

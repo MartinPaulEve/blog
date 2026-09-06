@@ -1,6 +1,7 @@
 ---
 archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2017/08/21/cambridge-university-press-and-censorship
 date: 2017-08-21
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/hm2mv-dmq59
 roguescholar: https://rogue-scholar.org/records/n2a3s-3at37
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7zyibw2s

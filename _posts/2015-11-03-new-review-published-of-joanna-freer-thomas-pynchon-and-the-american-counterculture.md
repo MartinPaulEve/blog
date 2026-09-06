@@ -4,6 +4,7 @@ categories:
 - Publications
 - Thomas Pynchon
 date: 2015-11-03
+last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/wjc7j-4kn48
 roguescholar: https://rogue-scholar.org/records/xhp6q-7r886
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc6auoc2i
