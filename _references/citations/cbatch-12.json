@@ -1,0 +1,202 @@
+{
+  "http://www.bookcrossing.com/forum/23/449901": {
+    "title": "Thomas Pynchon Themed Release Challenge",
+    "type": "WebPage",
+    "isPartOf": {"name": "BookCrossing", "type": "WebSite"}
+  },
+  "http://www.brighthub.com/computing/smb-security/articles/17866.aspx": {
+    "title": "WIFI WEP Cracking with Aircrack-ng: Recover a Lost WEP Key",
+    "author": "PreciousJohnDoe",
+    "date": "2008-12-01",
+    "type": "TechArticle",
+    "isPartOf": {"name": "BrightHub", "type": "WebSite"}
+  },
+  "http://www.c99.org/2010/01/23/writing-an-android-sync-provider-part-1/": {
+    "title": "Writing an Android Sync Provider: Part 1",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Did You Win Yet?", "type": "Blog"}
+  },
+  "http://www.c99.org/2010/01/23/writing-an-android-sync-provider-part-2/": {
+    "title": "Writing an Android Sync Provider: Part 2",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Did You Win Yet?", "type": "Blog"}
+  },
+  "http://www.cambridgeblog.org/2014/11/martin-paul-eve-on-open-access-and-the-humanities/": {
+    "title": "Martin Paul Eve on Open Access and the Humanities",
+    "date": "2014-11-27",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Fifteen Eighty Four", "type": "Blog"}
+  },
+  "http://www.cameronneylon.net": null,
+  "http://www.candlelightstories.com/2012/01/07/opening-scene-film-adaptation-thomas-pynchons-inherent-vice-filmed-by-jeff-hoyt/": {
+    "title": "Opening Scene Film Adaptation of Thomas Pynchon's Inherent Vice Filmed by Jeff Hoyt",
+    "date": "2012-01-07",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Candlelight Stories", "type": "Blog"}
+  },
+  "http://www.cis.upenn.edu/~bcpierce/unison/": {
+    "title": "Unison File Synchronizer",
+    "type": "WebPage"
+  },
+  "http://www.clockss.org/": {
+    "title": "Home - Digital Preservation Services - CLOCKSS",
+    "date": "2018-08-07",
+    "type": "WebPage",
+    "isPartOf": {"name": "CLOCKSS", "type": "WebSite"}
+  },
+  "http://www.clockss.org/clockss/News#Orbit": {
+    "title": "News - CLOCKSS",
+    "date": "2018-08-07",
+    "type": "WebPage",
+    "isPartOf": {"name": "CLOCKSS", "type": "WebSite"}
+  },
+  "http://www.communities.gov.uk/news/corporate/1634947": {
+    "title": "New plan locks-in radical decentralisation course",
+    "date": "2010-07-08",
+    "type": "NewsArticle",
+    "publisher": "Ministry of Housing, Communities & Local Government",
+    "isPartOf": {"name": "GOV.UK", "type": "WebSite"}
+  },
+  "http://www.communities.gov.uk/news/corporate/1647385": {
+    "title": "Communities are ready for the Big Society",
+    "date": "2010-07-22",
+    "type": "NewsArticle",
+    "publisher": "Ministry of Housing, Communities & Local Government",
+    "isPartOf": {"name": "GOV.UK", "type": "WebSite"}
+  },
+  "http://www.communities.gov.uk/news/corporate/1779719": {
+    "title": "Fire Kills campaign calls on Big Society to join the fire safety movement",
+    "date": "2010-11-25",
+    "type": "NewsArticle",
+    "publisher": "Ministry of Housing, Communities & Local Government",
+    "isPartOf": {"name": "GOV.UK", "type": "WebSite"}
+  },
+  "http://www.communities.gov.uk/news/corporate/1789190": {
+    "title": "Eric Pickles praises Big Society snow angels and gritty determination from communities",
+    "date": "2010-12-06",
+    "type": "NewsArticle",
+    "publisher": "Ministry of Housing, Communities & Local Government",
+    "isPartOf": {"name": "GOV.UK", "type": "WebSite"}
+  },
+  "http://www.conservativehome.com/thetorydiary/2015/10/the-accountability-and-transparency-revolution-coming-soon-to-a-university-near-you-courtesy-of-jo-johnson.html": {
+    "title": "The accountability and transparency revolution. Coming soon to a University near you – courtesy of Jo Johnson",
+    "author": "Paul Goodman",
+    "date": "2015-10-30",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Conservative Home", "type": "Blog"}
+  },
+  "http://www.crossref.org/": {
+    "title": "Crossref",
+    "type": "WebSite"
+  },
+  "http://www.crossref.org/02publishers/20pub_fees.html": {
+    "title": "Crossref fees",
+    "type": "WebPage",
+    "isPartOf": {"name": "Crossref", "type": "WebSite"}
+  },
+  "http://www.crossref.org/SimpleTextQuery/": {
+    "title": "Simple Text Query",
+    "type": "WebPage",
+    "isPartOf": {"name": "Crossref", "type": "WebSite"}
+  },
+  "http://www.danielallington.net/2014/08/choices-open-access-creative-commons-funded-unfunded-research/": null,
+  "http://www.danielallington.net/2016/09/the-latex-fetish/": null,
+  "http://www.digital-daily.com/motherboard/abit_fp_in9_sli/print": {
+    "title": "Abit Fatal1ty FP-IN9 SLI on NVIDIA nForce 650i SLI",
+    "type": "TechArticle",
+    "isPartOf": {"name": "Digital Daily", "type": "WebSite"}
+  },
+  "http://www.digitalhumanities.org/dhq/vol/16/2/000587/000587.html": {
+    "title": "Lessons from the Library: Extreme Minimalist Scaling at Pirate Ebook Platforms",
+    "type": "ScholarlyArticle",
+    "isPartOf": {"name": "Digital Humanities Quarterly", "type": "Periodical"}
+  },
+  "http://www.dmlp.org/legal-guide/linking-copyrighted-materials": {
+    "title": "Linking to Copyrighted Materials",
+    "type": "WebPage",
+    "isPartOf": {"name": "Digital Media Law Project", "type": "WebSite"}
+  },
+  "http://www.dorianmoore.com/works/6318/working-round-hotmail-live-msn-email-failing-to-deliver-email": {
+    "title": "Working round email from Hotmail/Live/MSN failing to be delivered",
+    "author": "Dorian Fraser-Moore",
+    "type": "TechArticle",
+    "isPartOf": {"name": "dorian f moore", "type": "WebSite"}
+  },
+  "http://www.drcarolineedwards.com": {
+    "title": "Dr Caroline Edwards",
+    "type": "WebSite"
+  },
+  "http://www.drcarolineedwards.com/": {
+    "title": "Dr Caroline Edwards",
+    "type": "WebSite"
+  },
+  "http://www.dur.ac.uk/english.studies/": {
+    "title": "English Studies - Durham University",
+    "type": "WebPage",
+    "isPartOf": {"name": "Durham University", "type": "WebSite"}
+  },
+  "http://www.elsevier.com/about/open-access/open-access-policies/no-double-dipping-policy": {
+    "title": "Elsevier policies and standards",
+    "type": "WebPage",
+    "isPartOf": {"name": "Elsevier", "type": "WebSite"}
+  },
+  "http://www.en.uni-muenchen.de": {
+    "title": "Home - LMU Munich",
+    "type": "WebPage",
+    "isPartOf": {"name": "LMU Munich", "type": "WebSite"}
+  },
+  "http://www.excursions-journal.org.uk": {
+    "title": "Excursions: An interdisciplinary journal",
+    "type": "WebSite"
+  },
+  "http://www.excursions-journal.org.uk/": {
+    "title": "Excursions: An interdisciplinary journal",
+    "type": "WebSite"
+  },
+  "http://www.excursions-journal.org.uk/cfp.html": {
+    "title": "Excursions: An interdisciplinary journal",
+    "type": "WebPage",
+    "isPartOf": {"name": "Excursions: An interdisciplinary journal", "type": "WebSite"}
+  },
+  "http://www.excursions-journal.org.uk/index.php/excursions/author": {
+    "title": "Excursions: An interdisciplinary journal",
+    "type": "WebPage",
+    "isPartOf": {"name": "Excursions: An interdisciplinary journal", "type": "WebSite"}
+  },
+  "http://www.excursions-journal.org.uk/index.php/excursions/issue/archive": {
+    "title": "Excursions: An interdisciplinary journal",
+    "type": "WebPage",
+    "isPartOf": {"name": "Excursions: An interdisciplinary journal", "type": "WebSite"}
+  },
+  "http://www.excursions-journal.org.uk/index.php/excursions/issue/view/2": {
+    "title": "Excursions: An interdisciplinary journal",
+    "type": "WebPage",
+    "isPartOf": {"name": "Excursions: An interdisciplinary journal", "type": "WebSite"}
+  },
+  "http://www.excursions-journal.org.uk/index.php/excursions/user/register": {
+    "title": "Excursions: An interdisciplinary journal",
+    "type": "WebPage",
+    "isPartOf": {"name": "Excursions: An interdisciplinary journal", "type": "WebSite"}
+  },
+  "http://www.fileformat.info": {
+    "title": "FileFormat.Info: The Digital Rosetta Stone",
+    "type": "WebSite"
+  },
+  "http://www.fileformat.info/info/unicode/char/2713/fontsupport.htm": {
+    "title": "CHECK MARK (U+2713) Font Support",
+    "type": "WebPage",
+    "isPartOf": {"name": "FileFormat.Info", "type": "WebSite"}
+  },
+  "http://www.flickr.com/photos/23680544@N07/": {
+    "title": "Sarah Ross",
+    "author": "Sarah Ross",
+    "type": "WebPage",
+    "isPartOf": {"name": "Flickr", "type": "WebSite"}
+  },
+  "http://www.flickr.com/photos/29487767@N02/": {
+    "title": "Daniela Hartmann",
+    "author": "Daniela Hartmann",
+    "type": "WebPage",
+    "isPartOf": {"name": "Flickr", "type": "WebSite"}
+  }
+}

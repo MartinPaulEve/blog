@@ -1,0 +1,207 @@
+{
+  "https://press.umich.edu/": {
+    "title": "University of Michigan Press",
+    "type": "WebSite",
+    "isPartOf": {"name": "University of Michigan Press", "type": "WebSite"}
+  },
+  "https://prometheus.io/docs/concepts/metric_types/": {
+    "title": "Metric types",
+    "type": "TechArticle",
+    "isPartOf": {"name": "Prometheus", "type": "WebSite"}
+  },
+  "https://prometheus.io/docs/instrumenting/pushing/": {
+    "title": "Pushing metrics",
+    "type": "TechArticle",
+    "isPartOf": {"name": "Prometheus", "type": "WebSite"}
+  },
+  "https://prometheus.io/docs/practices/remote_write/": {
+    "title": "Remote write tuning",
+    "type": "TechArticle",
+    "isPartOf": {"name": "Prometheus", "type": "WebSite"}
+  },
+  "https://punctumbooks.com/support": {
+    "title": "Support Us",
+    "type": "WebPage",
+    "isPartOf": {"name": "punctum books", "type": "WebSite"}
+  },
+  "https://punctumbooks.com/titles/warez-the-infrastructure-and-aesthetics-of-piracy/": {
+    "title": "Warez: The Infrastructure and Aesthetics of Piracy",
+    "author": "Martin Paul Eve",
+    "date": "2021-12-15",
+    "type": "Book",
+    "publisher": "punctum books"
+  },
+  "https://pypi.org/project/pytest-localstack/": null,
+  "https://pypi.org/project/resize-image/": null,
+  "https://pypi.org/simple": null,
+  "https://qntm.org/": {
+    "title": "Things Of Interest",
+    "type": "WebSite",
+    "isPartOf": {"name": "Things Of Interest", "type": "WebSite"}
+  },
+  "https://retractionwatch.com/2023/09/12/the-retraction-watch-database-becomes-completely-open-and-rw-becomes-far-more-sustainable/": {
+    "title": "The Retraction Watch Database becomes completely open – and RW becomes far more sustainable",
+    "date": "2023-09-12",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Retraction Watch", "type": "Blog"}
+  },
+  "https://rheumatology.medicinematters.com/covid-19/rituximab/national-covid-cohort-collaborative/19947862": null,
+  "https://rogue-scholar.org/communities/eve/records?q=&l=list&p=1&s=10&sort=newest": {
+    "title": "Search Martin Paul Eve",
+    "type": "WebPage",
+    "isPartOf": {"name": "Rogue Scholar", "type": "WebSite"}
+  },
+  "https://rossnaylor.com/build-a-death-folder/": {
+    "title": "How to Build a Death Folder",
+    "author": "Ross Naylor",
+    "date": "2025-03-12",
+    "type": "BlogPosting"
+  },
+  "https://royalhistsoc.org/policy/publication-open-access/plan-s-and-history-journals/": {
+    "title": "Plan S and History Journals",
+    "type": "WebPage",
+    "isPartOf": {"name": "Royal Historical Society", "type": "WebSite"}
+  },
+  "https://scholar.google.com/citations?user=NsHFYDcAAAAJ&hl=en": {
+    "title": "Yorick Wilks",
+    "type": "WebPage",
+    "isPartOf": {"name": "Google Scholar", "type": "WebSite"}
+  },
+  "https://scholarlykitchen.sspnet.org/2016/08/24/the-costs-of-flipping-our-dollars-to-gold/": {
+    "title": "The Costs of Flipping our Dollars to Gold",
+    "author": "Alison Mudditt",
+    "date": "2016-08-24",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "The Scholarly Kitchen", "type": "Blog"}
+  },
+  "https://scholarlykitchen.sspnet.org/2024/04/04/transitional-agreements-arent-working-what-comes-next/": {
+    "title": "Transitional Agreements Aren't Working: What Comes Next?",
+    "author": "Alison Mudditt",
+    "date": "2024-04-04",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "The Scholarly Kitchen", "type": "Blog"}
+  },
+  "https://scoss.org/": {
+    "title": "SCOSS - The Global Sustainability Coalition for Open Science Services",
+    "type": "WebSite"
+  },
+  "https://security.ucop.edu/resources/open-source-software-licensing.html": {
+    "title": "Open Source Software (OSS) Resources",
+    "type": "WebPage",
+    "isPartOf": {"name": "UC Office of the President", "type": "WebSite"}
+  },
+  "https://sfdora.org/": {
+    "title": "DORA",
+    "type": "WebSite"
+  },
+  "https://sharpweb.org/conferences/sharpies/program/": {
+    "title": "SHARPIES 2026 Program",
+    "type": "WebPage",
+    "isPartOf": {"name": "SHARPweb", "type": "WebSite"}
+  },
+  "https://sr.ithaka.org/blog/draft-report-for-community-input/": {
+    "title": "Draft Report for Community Input",
+    "author": "Kimberly Lutz",
+    "date": "2023-07-17",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Ithaka S+R", "type": "Blog"}
+  },
+  "https://subscribetoopencommunity.org/": {
+    "title": "About",
+    "type": "WebPage",
+    "isPartOf": {"name": "Subscribe to Open", "type": "WebSite"}
+  },
+  "https://support.presonus.com/hc/en-us/articles/115003181806-Will-Quantum-work-with-my-Windows-10-machine-": {
+    "title": "Quantum: Connecting to Windows 10 computer",
+    "type": "TechArticle",
+    "isPartOf": {"name": "Knowledge Base | PreSonus", "type": "WebSite"}
+  },
+  "https://svpow.com/2016/05/22/elseviers-increasing-control-over-scholarly-infrastructure-and-how-funders-should-fix-this/": {
+    "title": "Elsevier's increasing control over scholarly infrastructure, and how funders should fix this",
+    "author": "Mike Taylor",
+    "date": "2016-05-22",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Sauropod Vertebra Picture of the Week", "type": "Blog"}
+  },
+  "https://the-vault.fly.dev/": null,
+  "https://theconversation.com/flawed-sting-operation-singles-out-open-access-journals-18846": {
+    "title": "Flawed sting operation singles out open access journals",
+    "author": "Martin Eve",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Conversation", "type": "Periodical"}
+  },
+  "https://theconversation.com/sorry-minister-but-philistinism-is-not-an-educational-policy-34385": {
+    "title": "Sorry minister, but philistinism is not an educational policy",
+    "author": "Sarah Churchwell",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Conversation", "type": "Periodical"}
+  },
+  "https://theconversation.com/top-scientific-publisher-chooses-not-to-advance-open-access-31248": {
+    "title": "Top scientific publisher chooses not to advance open access",
+    "author": ["Erin McKiernan", "Jon Tennant"],
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Conversation", "type": "Periodical"}
+  },
+  "https://theconversation.com/why-realism-is-the-key-to-wellbeing-new-research-139717": {
+    "title": "Why realism is the key to wellbeing – new research",
+    "author": ["Chris Dawson", "David de Meza"],
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Conversation", "type": "Periodical"}
+  },
+  "https://thenounproject.com/search/?q=type&i=150037": {
+    "title": "File",
+    "date": "2015-05-09",
+    "type": "WebPage",
+    "isPartOf": {"name": "The Noun Project", "type": "WebSite"}
+  },
+  "https://thepointmag.com/politics/do-not-ask-me-who-i-am/": {
+    "title": "“Do Not Ask Me Who I Am”",
+    "author": "Samuel Clowes Huneke",
+    "date": "2021-06-02",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Point Magazine", "type": "Periodical"}
+  },
+  "https://thepublicationplan.com/2021/01/21/plos-trials-a-collective-action-business-model-for-open-access-publishing/": {
+    "title": "PLOS trials a collective action business model for open access publishing",
+    "author": "Philippa Flemming",
+    "date": "2021-01-21",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "The Publication Plan", "type": "Blog"}
+  },
+  "https://ticitaci.com": {
+    "title": "tici taci",
+    "type": "WebSite"
+  },
+  "https://ticitaci.com/artists/martin-eve.html": {
+    "title": "Martin Eve",
+    "type": "WebPage",
+    "isPartOf": {"name": "tici taci", "type": "WebSite"}
+  },
+  "https://tools.ietf.org/html/rfc974": {
+    "title": "RFC 974: Mail routing and the domain system",
+    "author": "Dr. Craig Partridge",
+    "type": "TechArticle",
+    "isPartOf": {"name": "IETF Datatracker", "type": "WebSite"}
+  },
+  "https://torrentfreak.com/meet-the-guy-behind-the-libgen-torrent-seeding-movement-191205/": {
+    "title": "Meet the Guy Behind the Libgen Torrent Seeding Movement",
+    "author": "Andy Maxwell",
+    "date": "2019-12-05",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "TorrentFreak", "type": "Periodical"}
+  },
+  "https://torrentfreak.com/sci-hub-and-libgen-resurface-after-being-shut-down-151121/": {
+    "title": "Sci-Hub, BookFi and LibGen Resurface After Being Shut Down",
+    "author": "Ernesto Van der Sar",
+    "date": "2015-11-21",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "TorrentFreak", "type": "Periodical"}
+  },
+  "https://towardsdatascience.com/17-types-of-similarity-and-dissimilarity-measures-used-in-data-science-3eb914d2681": {
+    "title": "17 types of similarity and dissimilarity measures used in data science.",
+    "author": "Mahmoud Harmouch",
+    "date": "2021-03-13",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Towards Data Science", "type": "Blog"}
+  }
+}

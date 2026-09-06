@@ -1,0 +1,242 @@
+{
+  "http://eprints.bbk.ac.uk/id/eprint/18105": {
+    "title": "Regular Expressions for Humanists",
+    "author": "Martin Paul Eve",
+    "date": "2017-03-02",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/18134": {
+    "title": "Conversation on Disability Activism",
+    "author": ["Martin Paul Eve", "Naomi Lawson Jacobs", "Judith Butler"],
+    "date": "2017-02-10",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/18194": {
+    "title": "Open Access, Books, and the Tricky Transition",
+    "author": "Martin Paul Eve",
+    "date": "2017-02-22",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/18231": {
+    "title": "Review of Composition, Creative Writing Studies and the Digital Humanities by Adam Koehler",
+    "author": "Martin Paul Eve",
+    "date": "2017-11-21",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/18241": {
+    "title": "It's time to heed the drive towards open books",
+    "author": "Martin Paul Eve",
+    "date": "2017-02-28",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/18324": {
+    "title": "Scarcity and Abundance",
+    "author": "Martin Paul Eve",
+    "date": "2017-10-05",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/18364": {
+    "title": "Open Access in the Humanities and The OLH Project",
+    "author": "Martin Paul Eve",
+    "date": "2017-03-31",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/18365": {
+    "title": "Intellectual Property Rights",
+    "author": "Martin Paul Eve",
+    "date": "2017-03-16",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/18366": {
+    "title": "Workshop participant",
+    "author": "Martin Paul Eve",
+    "date": "2017-03-08",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/18407": {
+    "title": "Open publishing models for the humanities",
+    "author": "Martin Paul Eve",
+    "date": "2017-03-30",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/18466": {
+    "title": "XML and HTML for scholarly communications",
+    "author": "Martin Paul Eve",
+    "date": "2017-03-27",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/18517": {
+    "title": "What can we do, as individuals and members of our communities, to make Open Research a reality?",
+    "author": ["Martin Paul Eve", "Louise Corti", "Iain Hrynaszkiewicz", "Jonathan Tedds", "Roberta Gilchrist"],
+    "date": "2017-03-30",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/18518": {
+    "title": "The Open Library of Humanities",
+    "author": "Martin Paul Eve",
+    "date": "2017-04-03",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/18525": {
+    "title": "On Being Open In Practice: Giving Credit Where it is Due",
+    "author": "Martin Paul Eve",
+    "date": "2017-04-03",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/18537": {
+    "title": "The Open Library of the Humanities",
+    "author": "Martin Paul Eve",
+    "date": "2017-04-06",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/18538": {
+    "title": "The Open Library of Humanities",
+    "author": "Martin Paul Eve",
+    "date": "2017-04-07",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/18539": {
+    "title": "How a Browser Extension Could Shake Up Academic Publishing",
+    "author": ["Lindsay McKenzie", "Martin Paul Eve"],
+    "date": "2017-04-06",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/18601": {
+    "title": "Martin Eve on Edward Albee's The Goat, or Who is Sylvia?",
+    "author": "Martin Paul Eve",
+    "date": "2017-04-04",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/18602": {
+    "title": "Martin Eve on The White Devil at the Wanamaker Playhouse",
+    "author": "Martin Paul Eve",
+    "date": "2017-04-21",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/18690": {
+    "title": "The Great Automatic Grammatizator: Writing, Labour, Computers",
+    "author": "Martin Paul Eve",
+    "date": "2017-10-27",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/18722": {
+    "title": "He Doesn't Talk Politics Anymore: The Role of Politics in Contemporary US Fiction",
+    "author": "Martin Paul Eve",
+    "date": "2017-05-18",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/18723": {
+    "title": "The Aesthetics of Metadata in Contemporary Fiction: Reference, Redaction, and the Archive",
+    "author": "Martin Paul Eve",
+    "date": "2017-05-31",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/18724": {
+    "title": "Close-Reading Cloud Atlas with Computers",
+    "author": "Martin Paul Eve",
+    "date": "2017-05-15",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/18725": {
+    "title": "“Maybe, but it’s code’s all it is”: Thomas Pynchon, Cow Country, and Computational Stylometry",
+    "author": "Martin Paul Eve",
+    "date": "2017-06-06",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/18738": {
+    "title": "Arts Week 2017: What goes around. Fifty years of ‘The Third Policeman’",
+    "author": "Martin Paul Eve",
+    "date": "2017-05-17",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/18742": {
+    "title": "Arts Week 2017: Grin and Bear It: Peter Fifield on Virginia Woolf’s Teeth",
+    "author": "Martin Paul Eve",
+    "date": "2017-05-18",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/18780": {
+    "title": "The Difficulties of Humanities Data Analytics",
+    "author": "Martin Paul Eve",
+    "date": "2017-05-25",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/19144": {
+    "title": "How to Get Published as an Early Career Academic",
+    "author": "Martin Paul Eve",
+    "date": "2017-07-05",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/19145": {
+    "title": "Contemporary Textual Scholarship, Canon, and Publishing",
+    "author": "Martin Paul Eve",
+    "date": "2017-07-06",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/19214": {
+    "title": "How much do you really understand about the peer-review process?",
+    "author": "Martin Paul Eve",
+    "date": "2017-07-19",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/19293": {
+    "title": "Open to Adaptation",
+    "author": "Martin Paul Eve",
+    "date": "2017-08-03",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/19295": {
+    "title": "Publishing and information",
+    "author": "Martin Paul Eve",
+    "date": "2019-04-23",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/19432": {
+    "title": "Open Publication, Digital Abundance, and Scarce Labour",
+    "author": "Martin Paul Eve",
+    "date": "2017-10-23",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/19472": {
+    "title": "Sincerity",
+    "author": "Martin Paul Eve",
+    "date": "2021-09-30",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/19514": {
+    "title": "OA in Dry Funding Climates: Consortial Business Models",
+    "author": "Martin Paul Eve",
+    "date": "2017-09-06",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/19518": {
+    "title": "Review of Digital Humanities: Knowledge and Critique in a Digital Age by David M. Berry and Anders Fagerjord (Eds.)",
+    "author": "Martin Paul Eve",
+    "date": "2018-03-27",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/19583": {
+    "title": "Flipping to Open Access Using Consortial Funding Models",
+    "author": "Martin Paul Eve",
+    "date": "2017-09-12",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/19584": {
+    "title": "Open Access, Economic Models, and Challenges",
+    "author": "Martin Paul Eve",
+    "date": "2017-09-14",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/19665": {
+    "title": "FairOA and Consortial Models",
+    "author": "Martin Paul Eve",
+    "date": "2017-09-12",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/19845": {
+    "title": "Jennifer Egan",
+    "author": "Martin Paul Eve",
+    "date": "2018-05-01",
+    "type": "ScholarlyArticle"
+  }
+}

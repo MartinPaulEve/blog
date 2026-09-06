@@ -1,0 +1,247 @@
+{
+  "http://www.freud.org.uk": {
+    "title": "Freud Museum London - The Home of Sigmund Freud",
+    "type": "WebSite",
+    "isPartOf": {"name": "Freud Museum London", "type": "WebSite"}
+  },
+  "http://www.garyhall.info/journal/2015/10/18/does-academiaedu-mean-open-access-is-becoming-irrelevant.html": {
+    "title": "Does Academia.edu Mean Open Access Is Becoming Irrelevant?",
+    "author": "Gary Hall",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Media gifts", "type": "Blog"}
+  },
+  "http://www.generation-online.org/p/fpfoucault1.htm": {
+    "title": "Introduction to Kant's Anthropology from a pragmatic point of view",
+    "author": ["Michel Foucault", "Arianna Bove"],
+    "type": "WebPage",
+    "isPartOf": {"name": "Generation Online", "type": "WebSite"}
+  },
+  "http://www.generation-online.org/p/psylverelotringer.htm": {
+    "title": "Grub Street Revisited",
+    "type": "WebPage",
+    "isPartOf": {"name": "Generation Online", "type": "WebSite"}
+  },
+  "http://www.globalpolicyjournal.com/": {
+    "title": "Global Policy Journal",
+    "type": "WebSite"
+  },
+  "http://www.gnu.org/copyleft/fdl.html": {
+    "title": "GNU Free Documentation License v1.3",
+    "type": "WebPage",
+    "isPartOf": {"name": "GNU Project - Free Software Foundation", "type": "WebSite"}
+  },
+  "http://www.gnu.org/licenses/": {
+    "title": "Licenses",
+    "type": "WebPage",
+    "isPartOf": {"name": "GNU Project - Free Software Foundation", "type": "WebSite"}
+  },
+  "http://www.gnu.org/philosophy/loyal-computers.html": {
+    "title": "What Does It Mean for Your Computer to Be Loyal?",
+    "author": "Richard M. Stallman",
+    "type": "WebPage",
+    "isPartOf": {"name": "GNU Project - Free Software Foundation", "type": "WebSite"}
+  },
+  "http://www.gnucitizen.org": {
+    "title": "GNUCITIZEN",
+    "type": "WebSite"
+  },
+  "http://www.gnucitizen.org/blog/changes-in-the-british-computer-misuse-act": {
+    "title": "Changes in the British Computer Misuse Act",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "GNUCITIZEN", "type": "Blog"}
+  },
+  "http://www.gold.ac.uk/goldsmiths-press/": {
+    "title": "Goldsmiths Press",
+    "type": "WebPage",
+    "isPartOf": {"name": "Goldsmiths, University of London", "type": "WebSite"}
+  },
+  "http://www.google.co.uk/search?q=charles%20hollander%20pynchon": null,
+  "http://www.google.co.uk/search?source=ig&hl=en&rlz=&q=unity+slow&aq=f&aqi=g10&aql=&oq=": null,
+  "http://www.guardian.co.uk/books/2005/feb/05/featuresreviews.guardianreview27": {
+    "title": "The book of revelations",
+    "date": "2005-02-05",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Guardian", "type": "Periodical"}
+  },
+  "http://www.guardian.co.uk/books/2011/apr/16/pale-king-david-foster-wallace-review": {
+    "title": "The Pale King by David Foster Wallace – review",
+    "author": "James Lasdun",
+    "date": "2011-04-15",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Guardian", "type": "Periodical"}
+  },
+  "http://www.guardian.co.uk/books/2011/oct/11/library-books-playwright-joe-orton": {
+    "title": "Library books defaced by prankster playwright Joe Orton go on show",
+    "author": "Mark Brown",
+    "date": "2011-10-11",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Guardian", "type": "Periodical"}
+  },
+  "http://www.guardian.co.uk/books/2012/oct/12/twitter-fiction-140-character-novels": {
+    "title": "Twitter fiction: 21 authors try their hand at 140-character novels",
+    "author": ["Geoff Dyer", "Ian Rankin", "James Meek", "Andrew O'Hagan", "Blake Morrison", "David Lodge", "AM Homes", "AL Kennedy"],
+    "date": "2012-10-12",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Guardian", "type": "Periodical"}
+  },
+  "http://www.guardian.co.uk/books/2013/feb/08/david-mitchell-project-great-experimenter": {
+    "title": "David Mitchell: 'I don't want to project myself as this great experimenter'",
+    "author": "Stuart Jeffries",
+    "date": "2013-02-08",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Guardian", "type": "Periodical"}
+  },
+  "http://www.guardian.co.uk/books/booksblog/2011/may/13/writers-in-public-pynchon": {
+    "title": "Celebrating writers in public (even Pynchon)",
+    "author": "Alison Flood",
+    "date": "2011-05-13",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Guardian", "type": "Periodical"}
+  },
+  "http://www.guardian.co.uk/books/gallery/2011/dec/17/writers-artists-design-money": {
+    "title": "Writers and artists design money fit for modern times - in pictures",
+    "date": "2011-12-17",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Guardian", "type": "Periodical"}
+  },
+  "http://www.guardian.co.uk/commentisfree/2006/may/29/comment.highereducation": {
+    "title": "Scholarly squeeze",
+    "author": "Tristram Hunt",
+    "date": "2006-05-28",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Guardian", "type": "Periodical"}
+  },
+  "http://www.guardian.co.uk/culture/2012/aug/02/bodleian-shakespeare-first-folio-online": {
+    "title": "Bodleian's battered Shakespeare First Folio to be put on internet",
+    "author": "Maev Kennedy",
+    "date": "2012-08-01",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Guardian", "type": "Periodical"}
+  },
+  "http://www.guardian.co.uk/education/2011/jun/28/naming-shaming-degrees-poor-jobs-record": {
+    "title": "'Naming and shaming' for degrees with poor jobs record",
+    "author": ["Jeevan Vasagar", "Jessica Shepherd"],
+    "date": "2011-06-28",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Guardian", "type": "Periodical"}
+  },
+  "http://www.guardian.co.uk/education/2011/mar/14/high-tuition-fees-university-fine": {
+    "title": "Universities may face penalty for charging high tuition fees",
+    "author": ["Patrick Wintour", "Allegra Stratton"],
+    "date": "2011-03-14",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Guardian", "type": "Periodical"}
+  },
+  "http://www.guardian.co.uk/education/2012/aug/22/english-gcses-marked-down-teachers": {
+    "title": "English GCSEs marked down to curb grade inflation, say teachers",
+    "author": "Jeevan Vasagar",
+    "date": "2012-08-22",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Guardian", "type": "Periodical"}
+  },
+  "http://www.guardian.co.uk/environment/2009/sep/23/panda-extinction-chris-packham": {
+    "title": "Should pandas be left to face extinction?",
+    "author": "Leo Benedictus",
+    "date": "2009-09-22",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Guardian", "type": "Periodical"}
+  },
+  "http://www.guardian.co.uk/film/2003/may/05/artsfeatures.fiction": {
+    "title": "Have you seen this man?",
+    "author": "Steven Poole",
+    "date": "2003-05-05",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Guardian", "type": "Periodical"}
+  },
+  "http://www.guardian.co.uk/higher-education-network/blog/2011/apr/13/life-after-a-phd": {
+    "title": "Live Q&A: Life after a PhD",
+    "author": "Eliza Anyangwe",
+    "date": "2011-04-13",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Guardian", "type": "Periodical"}
+  },
+  "http://www.guardian.co.uk/higher-education-network/blog/2011/apr/27/career-options-after-a-phd": {
+    "title": "Q&A best bits: Life after a PhD",
+    "author": "Eliza Anyangwe",
+    "date": "2011-04-27",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Guardian", "type": "Periodical"}
+  },
+  "http://www.guardian.co.uk/higher-education-network/blog/2011/dec/22/humanities-in-secondary-schools": {
+    "title": "Secondary schools are not adequately preparing students for higher education",
+    "author": "Martin Paul Eve",
+    "date": "2011-12-22",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Guardian", "type": "Periodical"}
+  },
+  "http://www.guardian.co.uk/higher-education-network/blog/2011/dec/28/top-higher-education-blogs-2011": {
+    "title": "Higher education review of 2011: the 10 best blogs of the year",
+    "author": "Kerry Eustice",
+    "date": "2011-12-28",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Guardian", "type": "Periodical"}
+  },
+  "http://www.guardian.co.uk/higher-education-network/blog/2011/jun/15/univeristies-radical-academics-jobs-training": {
+    "title": "Angry young academics: striving for more than consumerism",
+    "author": "Martin Paul Eve",
+    "date": "2011-06-15",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Guardian", "type": "Periodical"}
+  },
+  "http://www.guardian.co.uk/higher-education-network/blog/2011/sep/20/academy-scared-of-blogging": {
+    "title": "Don't doubt the value of blogging in academic publishing",
+    "author": "Sarah-Louise Quinnell",
+    "date": "2011-09-20",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Guardian", "type": "Periodical"}
+  },
+  "http://www.guardian.co.uk/news/datablog/2010/oct/18/deficit-debt-government-borrowing-data": {
+    "title": "Deficit, national debt and government borrowing - how has it changed since 1946?",
+    "author": ["Julia Kollewe", "Simon Rogers"],
+    "date": "2013-05-22",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Guardian", "type": "Periodical"}
+  },
+  "http://www.guardian.co.uk/politics/2012/apr/20/cameron-family-tax-havens": {
+    "title": "Cameron family fortune made in tax havens",
+    "author": ["Ed Howker", "Shiv Malik"],
+    "date": "2012-04-20",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Guardian", "type": "Periodical"}
+  },
+  "http://www.guardian.co.uk/politics/2012/jun/25/cameron-tories-slash-benefits": {
+    "title": "Cameron announces Tory plan to slash benefits",
+    "author": ["Patrick Wintour", "Hélène Mulholland"],
+    "date": "2012-06-25",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Guardian", "type": "Periodical"}
+  },
+  "http://www.guardian.co.uk/science/2010/jul/12/cancer-survival-rates-doubled": {
+    "title": "Cancer survival rates have doubled since 1970s, research shows",
+    "author": "Matthew Weaver",
+    "date": "2010-07-12",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Guardian", "type": "Periodical"}
+  },
+  "http://www.guardian.co.uk/society/2011/may/14/disabled-face-increasing-hostility-strangers": {
+    "title": "Disabled people face increasing hostility from strangers, survey finds",
+    "author": "Daniel Boffey",
+    "date": "2011-05-14",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Guardian", "type": "Periodical"}
+  },
+  "http://www.guardian.co.uk/society/2012/mar/09/half-uk-young-black-men-unemployed": {
+    "title": "Half of UK's young black males are unemployed",
+    "author": ["James Ball", "Dan Milmo", "Ben Ferguson"],
+    "date": "2012-03-09",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Guardian", "type": "Periodical"}
+  },
+  "http://www.guardian.co.uk/society/2012/mar/09/nhs-reforms-appeal-risk-register": {
+    "title": "NHS reforms: government to defy order to publish risk register",
+    "author": "Denis Campbell",
+    "date": "2012-03-09",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Guardian", "type": "Periodical"}
+  }
+}

@@ -1,0 +1,497 @@
+{
+ "https://crossref.org/": {
+  "label": "Crossref homepage",
+  "anchor_text": "Crossref",
+  "post_context": "ng. I have some professional news. I am delighted to say that I will be joining [Crossref](https://crossref.org/) as Principal R&D Developer at the end of this year. This is a great move for me, allowing me to continue my development work a",
+  "page_meta": {
+   "title": "You are Crossref - Crossref",
+   "authors": [
+    "Isaac Farley"
+   ],
+   "site": "www.crossref.org",
+   "type": "website"
+  }
+ },
+ "https://dash.harvard.edu/handle/1/4725013": {
+  "label": "Suber, The Taxpayer Argument for open access",
+  "anchor_text": "The Taxpayer Argument",
+  "post_context": "lert, I'm cited here.) On the nuance of this, I always recommend @petersuber's [The Taxpayer Argument](https://dash.harvard.edu/handle/1/4725013) I still feel as I am cited here that \"we should, instead, focus on the public good argument",
+  "page_meta": {
+   "title": "The taxpayer argument for open access",
+   "authors": [
+    "Suber, Peter"
+   ],
+   "date": "2003"
+  }
+ },
+ "https://dhdebates.gc.cuny.edu/read/critical-infrastructure-studies-and-digital-humanities/section/d01b113d-2da5-48f1-be0e-f3c50392f1ad#cvi": {
+  "label": "Critical Infrastructure Studies and DH collection",
+  "anchor_text": "a very fine collection",
+  "post_context": "es-and-digital-humanities/section/f4451084-a3bd-4a36-860d-f3a14e17ad0c#ch06) in [a very fine collection](https://dhdebates.gc.cuny.edu/read/critical-infrastructure-studies-and-digital-humanities/section/d01b113d-2da5-48f1-be0e-f3c50392f1ad#",
+  "page_meta": {
+   "title": "Cover | Critical Infrastructure Studies and Digital Humanities | Debates in the Digital Humanities"
+  }
+ },
+ "https://dhdebates.gc.cuny.edu/read/critical-infrastructure-studies-and-digital-humanities/section/f4451084-a3bd-4a36-860d-f3a14e17ad0c#ch06": {
+  "label": "DH Debates chapter on shadow libraries",
+  "anchor_text": "a book chapter (on Shadow Libraries)",
+  "post_context": "I have recently published [a book chapter (on Shadow Libraries)](https://dhdebates.gc.cuny.edu/read/critical-infrastructure-studies-and-digital-humanities/section/f4451084-a3bd-4a36-860d",
+  "page_meta": {
+   "title": "Chapter 6 Shadow Libraries and Pirate Infrastructures | Critical Infrastructure Studies and Digital Humanities | Debates in the Digital Humanities"
+  }
+ },
+ "https://digiconomist.net/bitcoin-energy-consumption/": {
+  "label": "Digiconomist Bitcoin energy consumption tracker",
+  "anchor_text": "62 days of energy usage by the average U.S. household",
+  "post_context": "l hundred billion payments. A single transaction on this blockchain is equal to [62 days of energy usage by the average U.S. household](https://digiconomist.net/bitcoin-energy-consumption/), while it takes the carbon footprint of almost 2 m",
+  "page_meta": {
+   "title": "Bitcoin Energy Consumption Index - Digiconomist",
+   "date": "2016-11-26T20:41:21+00:00",
+   "site": "Digiconomist",
+   "type": "WebPage"
+  }
+ },
+ "https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-metrics-and-dimensions.html": {
+  "label": "AWS API Gateway CloudWatch metrics and dimensions docs",
+  "anchor_text": "a number of useful dimensions",
+  "post_context": "the default CloudWatch Metrics (rather than logs) then the API Gateway provides [a number of useful dimensions](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-metrics-and-dimensions.html), including “count” for the",
+  "page_meta": {
+   "title": "Amazon API Gateway dimensions and metrics - Amazon API Gateway"
+  }
+ },
+ "https://docs.aws.amazon.com/mwaa/latest/userguide/samples-virtualenv.html": {
+  "label": "AWS MWAA virtualenv sample documentation",
+  "anchor_text": "Amazon sample",
+  "post_context": "cript so that it points to the correct python version for your install. See the [Amazon sample](https://docs.aws.amazon.com/mwaa/latest/userguide/samples-virtualenv.html) for this. ## The \"small\" instance only has 2GB of RAM and you can ru",
+  "page_meta": {
+   "title": "Amazon Managed Workflows for Apache Airflow"
+  }
+ },
+ "https://docs.google.com/a/martineve.com/document/d/1HSMVLpMw62WMvd_R1P4znofj4kv8_imvDnNPxjN4jxg/edit?pli=1": {
+  "label": "Kohut draft letter to the New York Times",
+  "anchor_text": "a copy of a letter he was planning to send to the New York Times",
+  "post_context": "Mark Kohut, whom I know from various Pynchon-interest intersections, published <a href=\"https://docs.google.com/a/martineve.com/document/d/1HSMVLpMw62WMvd_R1P4znofj4kv8_imvDnNPxjN4jxg/edit?pli=1\">a copy of a letter he was planning to send",
+  "page_meta": {
+   "title": "Letter to Pogue, NYTimes, re Ludlum",
+   "site": "Google Docs",
+   "type": "article"
+  }
+ },
+ "https://docs.google.com/document/d/1gm2FEuz6d3qim4762-kh6Anfc6Qe_Tru5HoJdqL9WTQ/edit?usp=sharing": {
+  "label": "Google Doc for multilingual OA terminology contributions",
+  "anchor_text": "the Google Doc",
+  "post_context": "would therefore like is for native speakers of other languages to contribute to <a href=\"https://docs.google.com/document/d/1gm2FEuz6d3qim4762-kh6Anfc6Qe_Tru5HoJdqL9WTQ/edit?usp=sharing\">the Google Doc</a> of languages with suggestions for",
+  "page_meta": {
+   "title": "Reference Terms",
+   "site": "Google Docs",
+   "type": "article"
+  }
+ },
+ "https://editorresources.taylorandfrancis.com/welcome-to-tf/policies-guidelines/plan-s/": {
+  "label": "Taylor and Francis Plan S editor resources page",
+  "anchor_text": "failure of demand",
+  "post_context": "any institutions, particularly at this time. This is then going to look like a ‘[failure of demand](https://editorresources.taylorandfrancis.com/welcome-to-tf/policies-guidelines/plan-s/)’. ‘We offered OA and transformative agreements’, the",
+  "page_meta": {
+   "title": "Commentary on cOAlition S’s revised Plan S – what next for Open Access?",
+   "date": "2019-06-25T13:15:15+00:00",
+   "site": "Taylor & Francis Editor Resources",
+   "type": "WebPage"
+  }
+ },
+ "https://en.wikipedia.org/w/index.php?title=XSL_Formatting_Objects&oldid=668053710": {
+  "label": "Wikipedia on XSL-FO discontinuation",
+  "anchor_text": "XSL-FO was discontinued",
+  "post_context": "](/images/post_images/meTypesetProcess.png) Here's the problem, though. [XSL-FO was discontinued](https://en.wikipedia.org/w/index.php?title=XSL_Formatting_Objects&oldid=668053710): the last update for the Working Draft was in Janua",
+  "page_meta": {
+   "title": "markup language for XML document formatting",
+   "authors": [
+    "Contributors to Wikimedia projects"
+   ],
+   "date": "2004-04-19T16:56:17Z",
+   "site": "Wikimedia Foundation, Inc.",
+   "type": "Article"
+  }
+ },
+ "https://en.wikipedia.org/wiki/Battle_of_the_Beams": {
+  "label": "Wikipedia article on Battle of the Beams",
+  "anchor_text": "Battle of the Beams",
+  "post_context": "s from the war, designated Y-Gerät and X-Gerät, which are part of the so-called [Battle of the Beams](https://en.wikipedia.org/wiki/Battle_of_the_Beams) but that, to my knowledge, haven't been explored in Pynchon scholarship. \"The German a",
+  "page_meta": {
+   "title": "Electronic warfare conflict in the Second World War",
+   "authors": [
+    "Contributors to Wikimedia projects"
+   ],
+   "date": "2003-03-06T13:30:18Z",
+   "site": "Wikimedia Foundation, Inc.",
+   "type": "Article"
+  }
+ },
+ "https://en.wikipedia.org/wiki/Cambridge_University_Press_v._Patton": {
+  "label": "Wikipedia: Cambridge University Press v Patton",
+  "anchor_text": "not always a straightforward indicator of shared values",
+  "post_context": "though, this is also a tough sell. Of course, being not-for-profit/a charity is [not always a straightforward indicator of shared values](https://en.wikipedia.org/wiki/Cambridge_University_Press_v._Patton). My hypothesis: different people",
+  "page_meta": {
+   "title": "American copyright case law",
+   "authors": [
+    "Contributors to Wikimedia projects"
+   ],
+   "date": "2012-02-01T19:19:46Z",
+   "site": "Wikimedia Foundation, Inc.",
+   "type": "Article"
+  }
+ },
+ "https://en.wikipedia.org/wiki/Copyright_Directive": {
+  "label": "Wikipedia article on European Copyright Directive",
+  "anchor_text": "European Copyright Directive",
+  "post_context": "violate the Digital Millennium Copyright Act in the USA and/or Article 6 of the [European Copyright Directive](https://en.wikipedia.org/wiki/Copyright_Directive), which comes with severe penalties. On the other hand, if we saw the spines of",
+  "page_meta": {
+   "title": "European Union copyright law",
+   "authors": [
+    "Contributors to Wikimedia projects"
+   ],
+   "date": "2003-02-06T23:48:47Z",
+   "site": "Wikimedia Foundation, Inc.",
+   "type": "Article"
+  }
+ },
+ "https://en.wikipedia.org/wiki/Digital_Millennium_Copyright_Act": {
+  "label": "Wikipedia article on Digital Millennium Copyright Act",
+  "anchor_text": "apparently",
+  "post_context": "ner and OCR process, that's fine for personal research. There is an exemption, [apparently](https://en.wikipedia.org/wiki/Digital_Millennium_Copyright_Act), for \"Literary works distributed in e-book format when all existing e-book editions",
+  "page_meta": {
+   "title": "copyright law in the United States of America",
+   "authors": [
+    "Contributors to Wikimedia projects"
+   ],
+   "date": "2001-07-31T03:49:26Z",
+   "site": "Wikimedia Foundation, Inc.",
+   "type": "Article"
+  }
+ },
+ "https://en.wikipedia.org/wiki/Digital_object_identifier": {
+  "label": "Wikipedia article on digital object identifiers",
+  "anchor_text": "DOI numbers",
+  "post_context": "rdly, in conjunction with the CLOCKSS system, all our articles are now assigned <a href=\"https://en.wikipedia.org/wiki/Digital_object_identifier\">DOI numbers</a>. These work, along with an archival service, to give a permanent address for a",
+  "page_meta": {
+   "title": "ISO standard unique string identifier for a digital object",
+   "authors": [
+    "Contributors to Wikimedia projects"
+   ],
+   "date": "2004-01-06T23:54:28Z",
+   "site": "Wikimedia Foundation, Inc.",
+   "type": "Article"
+  }
+ },
+ "https://en.wikipedia.org/wiki/GuildHE": {
+  "label": "Wikipedia article on GuildHE mission group",
+  "anchor_text": "the newest universities",
+  "post_context": "Gordon McKenzie from GuildHE was on the panel. GuildHE is the mission group for [the newest universities](https://en.wikipedia.org/wiki/GuildHE). Previously, he was [Deputy Director](https://www.guildhe.ac.uk/blog/guildhe-announces-new-chie",
+  "page_meta": {
+   "title": "organization",
+   "authors": [
+    "Contributors to Wikimedia projects"
+   ],
+   "date": "2008-05-07T23:13:37Z",
+   "site": "Wikimedia Foundation, Inc.",
+   "type": "Article"
+  }
+ },
+ "https://en.wikipedia.org/wiki/Hacker_%28programmer_subculture%29": {
+  "label": "Wikipedia hacker programmer subculture definition",
+  "anchor_text": "in its original usage",
+  "post_context": "iously Glenny's choice, but it is one that Schwartz repeats. The point is that, <a href=\"https://en.wikipedia.org/wiki/Hacker_%28programmer_subculture%29\">in its original usage</a>, a \"hacker\" was somebody who was inventive, somebody intere",
+  "page_meta": {
+   "title": "subculture of individuals",
+   "authors": [
+    "Contributors to Wikimedia projects"
+   ],
+   "date": "2003-01-01T01:12:29Z",
+   "site": "Wikimedia Foundation, Inc.",
+   "type": "Article"
+  }
+ },
+ "https://en.wikipedia.org/wiki/Handle_System": {
+  "label": "Wikipedia article on Handle System",
+  "anchor_text": "Handle System",
+  "post_context": "<p>The second interesting point to note is that DOI is an implementation of the <a href=\"https://en.wikipedia.org/wiki/Handle_System\">Handle System</a>. The key aspect here is that, although as researchers we are most likely to use a DOI re",
+  "page_meta": {
+   "title": "technology specification for assigning, managing, and resolving persistent identifiers for digital objects and other resources on the Internet",
+   "authors": [
+    "Contributors to Wikimedia projects"
+   ],
+   "date": "2009-03-19T10:32:50Z",
+   "site": "Wikimedia Foundation, Inc.",
+   "type": "Article"
+  }
+ },
+ "https://en.wikipedia.org/wiki/Jacobellis_v._Ohio": {
+  "label": "Wikipedia, Jacobellis v Ohio Supreme Court case",
+  "anchor_text": "US Supreme Court case on pornography",
+  "post_context": "In a famous [US Supreme Court case on pornography](https://en.wikipedia.org/wiki/Jacobellis_v._Ohio): \"I shall not today attempt further to define the kinds of material I u",
+  "page_meta": {
+   "title": "1964 United States Supreme Court case",
+   "authors": [
+    "Contributors to Wikimedia projects"
+   ],
+   "date": "2004-05-17T21:11:55Z",
+   "site": "Wikimedia Foundation, Inc.",
+   "type": "Article"
+  }
+ },
+ "https://en.wikipedia.org/wiki/OSI_model": {
+  "label": "Wikipedia article on the OSI model",
+  "anchor_text": "OSI Model",
+  "post_context": "ion protocol, meaning that it sits at the highest level of the internet. In the [OSI Model](https://en.wikipedia.org/wiki/OSI_model), Cerf and his colleagues developed the TCP/IP protocols which are the Network and Transport layers that sit",
+  "page_meta": {
+   "title": "model with 7 layers to describe communication systems",
+   "authors": [
+    "Contributors to Wikimedia projects"
+   ],
+   "date": "2001-12-17T01:52:32Z",
+   "site": "Wikimedia Foundation, Inc.",
+   "type": "Article"
+  }
+ },
+ "https://en.wikipedia.org/wiki/Regular_expression": {
+  "label": "Wikipedia article on regular expressions",
+  "anchor_text": "regular expression",
+  "post_context": "e two regular expressions that I use in my word processor to help with this. A \"[regular expression](https://en.wikipedia.org/wiki/Regular_expression)\" is \"a sequence of characters that define a search pattern, mainly for use in pattern mat",
+  "page_meta": {
+   "title": "sequence of characters that forms a search pattern",
+   "authors": [
+    "Contributors to Wikimedia projects"
+   ],
+   "date": "2001-09-04T13:33:26Z",
+   "site": "Wikimedia Foundation, Inc.",
+   "type": "Article"
+  }
+ },
+ "https://en.wikipedia.org/wiki/Replication_crisis": {
+  "label": "Wikipedia article on replication crisis",
+  "anchor_text": "reproducibility and replication crises",
+  "post_context": "In other disciplines, these are already being broached via the rhetorics of the [reproducibility and replication crises](https://en.wikipedia.org/wiki/Replication_crisis). As [Alan Thomas at the University of Chicago Press](https://twitter.",
+  "page_meta": {
+   "title": "Replication crisis - Wikipedia",
+   "type": "website"
+  }
+ },
+ "https://engineuring.wordpress.com/2016/02/24/why-sci-hub-is-the-true-solution-for-open-access-reply-to-criticism/": {
+  "label": "Elbakyan: why Sci-Hub is the true OA solution",
+  "anchor_text": null,
+  "post_context": "Solution for Open Access: Reply to Criticism’, _Engineuring_, 24 February 2016 <https://engineuring.wordpress.com/2016/02/24/why-sci-hub-is-the-true-solution-for-open-access-reply-to-criticism/> * ——, ‘Sci-Hub Is a Goal, Changing the System",
+  "page_meta": {
+   "title": "Why Sci-Hub is the true solution for Open Access: reply to criticism",
+   "date": "2016-02-24T10:36:27+00:00",
+   "site": "engineuring",
+   "type": "article"
+  }
+ },
+ "https://engineuring.wordpress.com/2016/03/11/sci-hub-is-a-goal-changing-the-system-is-a-method/": {
+  "label": "Elbakyan: Sci-Hub is a goal, system change is method",
+  "anchor_text": null,
+  "post_context": "-Hub Is a Goal, Changing the System Is a Method’, _Engineuring_, 11 March 2016 <https://engineuring.wordpress.com/2016/03/11/sci-hub-is-a-goal-changing-the-system-is-a-method/> * Erkal, Esra, ‘Allegations Linking Sci-Hub with Russian Intell",
+  "page_meta": {
+   "title": "Sci-Hub is a goal, changing the system is a method",
+   "date": "2016-03-11T05:59:26+00:00",
+   "site": "engineuring",
+   "type": "article"
+  }
+ },
+ "https://engineuring.wordpress.com/2021/07/09/how-the-chronicle-is-trying-to-malign-sci-hub/": {
+  "label": "Elbakyan blog post: Chronicle maligning Sci-Hub",
+  "anchor_text": null,
+  "post_context": "a, ‘How The Chronicle Is Trying to Malign Sci-Hub’, _Engineuring_, 9 July 2021 <https://engineuring.wordpress.com/2021/07/09/how-the-chronicle-is-trying-to-malign-sci-hub/> * ——, ‘Why Sci-Hub Is the True Solution for Open Access: Reply to C",
+  "page_meta": {
+   "title": "How The Chronicle is trying to malign Sci-Hub",
+   "date": "2021-07-09T01:35:49+00:00",
+   "site": "engineuring",
+   "type": "article"
+  }
+ },
+ "https://eprints.bbk.ac.uk/": {
+  "label": "Birkbeck BIROn institutional repository",
+  "anchor_text": "Birkbeck's BIROn",
+  "post_context": "rkdown formats to two repositories: [KC Works](https://works.hcommons.org/) and [Birkbeck's BIROn](https://eprints.bbk.ac.uk/). Each of these has a detailed submission flow that involves complex metadata input in order to ensure that the wo",
+  "page_meta": {
+   "title": "Birkbeck Institutional Research Online"
+  }
+ },
+ "https://eprints.bbk.ac.uk/12246/": {
+  "label": "Eve, Pynchon Wallace Metamodernism C21 Literature eprint",
+  "anchor_text": "‘Thomas Pynchon, David Foster Wallace and the Problems of “Metamodernism”: Post-Millennial Post-Postmodernism?’",
+  "post_context": "A few years ago I wrote an article: Eve, Martin Paul, [‘Thomas Pynchon, David Foster Wallace and the Problems of “Metamodernism”: Post-Millennial Post-Postmodernism?’](https://eprints.bbk.ac.uk/12246/), <i>C21 Lite",
+  "page_meta": {
+   "title": "Thomas Pynchon, David Foster Wallace and the problems of 'metamodernism': post-millennial post-postmodernism?",
+   "authors": [
+    "Eve, Martin Paul"
+   ],
+   "date": "2012-10"
+  }
+ },
+ "https://eprints.bbk.ac.uk/19432/": {
+  "label": "Eve, OA journals abundance and scarce labour JSP 2017 Birkbeck",
+  "anchor_text": null,
+  "post_context": "dance, and Scarce Labour’, Journal of Scholarly Publishing, 49.1 (2017), 26–40 <https://eprints.bbk.ac.uk/19432/>. This is not _my_ view and I _am_ in favour of open access journals. I have spent the _last seven years of my life_ building",
+  "page_meta": {
+   "title": "Open Publication, Digital Abundance, and Scarce Labour",
+   "authors": [
+    "Eve, Martin Paul"
+   ],
+   "date": "2017-10-23"
+  }
+ },
+ "https://eprints.bbk.ac.uk/20716/": {
+  "label": "BIROn eprint for Close Reading with Computers",
+  "anchor_text": "freely available in BIROn",
+  "post_context": "It will soon be in the OAPEN Library and on the Stanford site, but for now it's [freely available in BIROn](https://eprints.bbk.ac.uk/20716/). Final version. Citeable. Free. (And no, this isn't just a temporary thing like loads of \"coronavi",
+  "page_meta": {
+   "title": "Close Reading with Computers: Textual Scholarship, Computational Formalism, and David Mitchell's Cloud Atlas",
+   "authors": [
+    "Eve, Martin Paul"
+   ],
+   "date": "2019-01-01"
+  }
+ },
+ "https://eprints.bbk.ac.uk/26645/": {
+  "label": "Eve, Digital Humanities and Literary Studies, Birkbeck",
+  "anchor_text": "The Digital Humanities and Literary Studies",
+  "post_context": "After _that_, I have a book under contract at Oxford University Press called \"[The Digital Humanities and Literary Studies](https://eprints.bbk.ac.uk/26645/)\". This is in the \"literary agenda\" series, so I am in good company. This is a pr",
+  "page_meta": {
+   "title": "The Digital Humanities and Literary Studies",
+   "authors": [
+    "Eve, Martin Paul"
+   ],
+   "date": "2022-02-10"
+  }
+ },
+ "https://eprints.bbk.ac.uk/27709/": {
+  "label": "Eve, Reading Peer Review project, Birkbeck eprint",
+  "anchor_text": "Reading Peer Review",
+  "post_context": "ng. After that, I have the write-up of our Andrew W. Mellon Foundation-funded \"[Reading Peer Review](https://eprints.bbk.ac.uk/27709/)\" project to finish. This has spiralled well beyond the article length by some margin already and I'm ple",
+  "page_meta": {
+   "title": "Reading Peer Review: PLOS ONE and Institutional Change in Academia",
+   "authors": [
+    "Eve, Martin Paul",
+    "Neylon, Cameron",
+    "O’Donnell, Daniel",
+    "Moore, Samuel",
+    "Gadie, Robert",
+    "Odeniyi, Victoria",
+    "Parvin, Shahina"
+   ],
+   "date": "2021-01-03"
+  }
+ },
+ "https://eprints.bbk.ac.uk/id/eprint/12131/": {
+  "label": "Eve, Password (book)",
+  "anchor_text": "_Password_",
+  "post_context": "es about identity that are reshaping our world (and that I explored in my book, [_Password_](https://eprints.bbk.ac.uk/id/eprint/12131/)). What is identity? A set of self-asserted positioning statements? Or a societally inter-validated seri",
+  "page_meta": {
+   "title": "Password",
+   "authors": [
+    "Eve, Martin Paul"
+   ],
+   "date": "2016-12"
+  }
+ },
+ "https://eprints.bbk.ac.uk/id/eprint/24067/": {
+  "label": "Eve, Science and Identity in David Mitchell's Cloud Atlas",
+  "anchor_text": "Eve, Martin Paul, ‘“What Was Knowledge for, I Would Ask Myself”: Science, Technology, and Identity in David Mitchell’s Cloud Atlas’, in _David Mitchell: Contemporary Critical Perspectives_, ed. by Wendy Knepper and Courtney Hopf (London: Bloomsbury, 2019)",
+  "post_context": "as replied, archive your work. Here's a couple of my pieces, now available: * [Eve, Martin Paul, ‘“What Was Knowledge for, I Would Ask Myself”: Science, Technology, and Identity in David Mitchell’s Cloud Atlas’, in _David Mitchell: Contem",
+  "page_meta": {
+   "title": "\"What was knowledge for, I would ask myself\": Science, Technology, and Pharmakon in David Mitchell's Cloud Atlas",
+   "authors": [
+    "Eve, Martin Paul"
+   ],
+   "date": "2019-04-03"
+  }
+ },
+ "https://eprints.bbk.ac.uk/id/eprint/26645": {
+  "label": "Eve, The Digital Humanities and Literary Studies OUP 2022",
+  "anchor_text": "Eve, Martin Paul, The Digital Humanities and Literary Studies (Oxford: Oxford University Press, 2022)",
+  "post_context": "wdate genericitem\"><span class=\"prefix bold\">2022</span><span class=\"bibitem\"> <a href=\"https://eprints.bbk.ac.uk/id/eprint/26645\" class=\"csl-entry\">Eve, Martin Paul, <i>The Digital Humanities and Literary Studies</i> (Oxford: Oxford Unive",
+  "page_meta": {
+   "title": "The Digital Humanities and Literary Studies",
+   "authors": [
+    "Eve, Martin Paul"
+   ],
+   "date": "2022-02-10"
+  }
+ },
+ "https://eprints.bbk.ac.uk/id/eprint/27709": {
+  "label": "Eve et al, Reading Peer Review CUP 2021 Birkbeck eprint",
+  "anchor_text": "Eve, Martin Paul, Cameron Neylon, Daniel O’Donnell, Samuel Moore, Robert Gadie, Victoria Odeniyi, and others, Reading Peer Review: PLOS ONE and Institutional Change in Academia (Cambridge: Cambridge University Press, 2021)",
+  "post_context": "wdate genericitem\"><span class=\"prefix bold\">2021</span><span class=\"bibitem\"> <a href=\"https://eprints.bbk.ac.uk/id/eprint/27709\" class=\"csl-entry\">Eve, Martin Paul, Cameron Neylon, Daniel O’Donnell, Samuel Moore, Robert Gadie, Victoria O",
+  "page_meta": {
+   "title": "Reading Peer Review: PLOS ONE and Institutional Change in Academia",
+   "authors": [
+    "Eve, Martin Paul",
+    "Neylon, Cameron",
+    "O’Donnell, Daniel",
+    "Moore, Samuel",
+    "Gadie, Robert",
+    "Odeniyi, Victoria",
+    "Parvin, Shahina"
+   ],
+   "date": "2021-01-03"
+  }
+ },
+ "https://eprints.bbk.ac.uk/id/eprint/27709/": {
+  "label": "Reading Peer Review, BIROn Birkbeck repository",
+  "anchor_text": "BIROn",
+  "post_context": "e.org/core/elements/reading-peer-review/42F027E4C67D246DD8C3AC440A68C7A7) or in [BIROn](https://eprints.bbk.ac.uk/id/eprint/27709/). Here's the blurb: How do you change the world of academia and what insight can peer review provide into t",
+  "page_meta": {
+   "title": "Reading Peer Review: PLOS ONE and Institutional Change in Academia",
+   "authors": [
+    "Eve, Martin Paul",
+    "Neylon, Cameron",
+    "O’Donnell, Daniel",
+    "Moore, Samuel",
+    "Gadie, Robert",
+    "Odeniyi, Victoria",
+    "Parvin, Shahina"
+   ],
+   "date": "2021-01-03"
+  }
+ },
+ "https://eprints.bbk.ac.uk/id/eprint/30661": {
+  "label": "Bisson and Eve, F1000 Buyout Research Fortnight 2020",
+  "anchor_text": "Bisson, Robin, and Martin Paul Eve, ‘F1000 Buyout May Have “Strange Consequences”’, Research Fortnight, 2020",
+  "post_context": "=\"anitem genericitem\"><span class=\"prefix\">&nbsp;</span><span class=\"bibitem\"> <a href=\"https://eprints.bbk.ac.uk/id/eprint/30661\" class=\"csl-entry\">Bisson, Robin, and Martin Paul Eve, ‘F1000 Buyout May Have “Strange Consequences”’, <i>Res",
+  "page_meta": {
+   "title": "F1000 buyout may have ‘strange consequences’",
+   "authors": [
+    "Bisson, Robin",
+    "Eve, Martin Paul"
+   ],
+   "date": "2020-01-23"
+  }
+ },
+ "https://eprints.bbk.ac.uk/id/eprint/30834": {
+  "label": "Eve Banks Webster, Plan S Challenges Research Professional Live 2020",
+  "anchor_text": "Eve, Martin Paul, Chris Banks, and Carrie Webster, ‘Plan S: Understanding Challenges and Resolving Conflicts’ (presented at the Research Professional Live 2020: Shaping the Future: Research in an Age of Uncertainty, The Royal Society, London, UK, 2020)",
+  "post_context": "=\"anitem genericitem\"><span class=\"prefix\">&nbsp;</span><span class=\"bibitem\"> <a href=\"https://eprints.bbk.ac.uk/id/eprint/30834\" class=\"csl-entry\">Eve, Martin Paul, Chris Banks, and Carrie Webster, ‘Plan S: Understanding Challenges and R",
+  "page_meta": {
+   "title": "Plan S: Understanding challenges and resolving conflicts",
+   "authors": [
+    "Eve, Martin Paul",
+    "Banks, Chris",
+    "Webster, Carrie"
+   ],
+   "date": "2020-02-05"
+  }
+ },
+ "https://eprints.bbk.ac.uk/id/eprint/30836": {
+  "label": "McIntyre and Eve, REF Plan S Research Professional 2020",
+  "anchor_text": "McIntyre, Fiona, and Martin Paul Eve, ‘REF Could Demand Compliance with Plan S in Future’, Research Professional, 2020",
+  "post_context": "=\"anitem genericitem\"><span class=\"prefix\">&nbsp;</span><span class=\"bibitem\"> <a href=\"https://eprints.bbk.ac.uk/id/eprint/30836\" class=\"csl-entry\">McIntyre, Fiona, and Martin Paul Eve, ‘REF Could Demand Compliance with Plan S in Future’,",
+  "page_meta": {
+   "title": "REF could demand compliance with Plan S in future",
+   "authors": [
+    "McIntyre, Fiona",
+    "Eve, Martin Paul"
+   ],
+   "date": "2020-02-05"
+  }
+ }
+}

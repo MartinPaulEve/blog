@@ -1,0 +1,431 @@
+{
+ "https://press.umich.edu/": {
+  "label": "University of Michigan Press homepage",
+  "anchor_text": "University of Michigan Press",
+  "post_context": "), [LSE Press](https://press.lse.ac.uk/), [UCL Press](https://uclpress.co.uk/), [University of Michigan Press](https://press.umich.edu/), and [California Digital Library](https://cdlib.org/) (among others, more forthcoming), banding togethe",
+  "page_meta": {
+   "title": "University of Michigan Press",
+   "site": "University of Michigan Press"
+  }
+ },
+ "https://prometheus.io/docs/concepts/metric_types/": {
+  "label": "Prometheus metric types documentation",
+  "anchor_text": "custom Prometheus metric",
+  "post_context": "ing Prometheus. Custom/product/application metrics can be handled either with a [custom Prometheus metric](https://prometheus.io/docs/concepts/metric_types/) or by pushing to AWS CloudWatch. *The problem* though is that AWS Lambda function",
+  "page_meta": {
+   "title": "Metric types | Prometheus"
+  }
+ },
+ "https://prometheus.io/docs/instrumenting/pushing/": {
+  "label": "Prometheus Pushgateway documentation",
+  "anchor_text": "Pushgateway",
+  "post_context": "fer a reliable push method for storing metrics (despite the hope offered by the [Pushgateway](https://prometheus.io/docs/instrumenting/pushing/) and [remote-write](https://prometheus.io/docs/practices/remote_write/) options). ## A Better S",
+  "page_meta": {
+   "title": "Pushing metrics | Prometheus"
+  }
+ },
+ "https://prometheus.io/docs/practices/remote_write/": {
+  "label": "Prometheus remote-write best practices",
+  "anchor_text": "remote-write",
+  "post_context": "red by the [Pushgateway](https://prometheus.io/docs/instrumenting/pushing/) and [remote-write](https://prometheus.io/docs/practices/remote_write/) options). ## A Better Solution for AWS-Hosted Infrastructures: Structured Logging on CloudWa",
+  "page_meta": {
+   "title": "Remote write tuning | Prometheus"
+  }
+ },
+ "https://punctumbooks.com/support": {
+  "label": "punctum books support membership page",
+  "anchor_text": "punctum books",
+  "post_context": "oth [Open Book Publishers](https://www.openbookpublishers.com/section/44/1) and [punctum books](https://punctumbooks.com/support), for example, have membership schemes. We took massive inspiration from their efforts. Please, do support thes",
+  "page_meta": {
+   "title": "Support Us — punctum books"
+  }
+ },
+ "https://punctumbooks.com/titles/warez-the-infrastructure-and-aesthetics-of-piracy/": {
+  "label": "Eve, Warez, punctum books publisher page",
+  "anchor_text": "my book on Warez",
+  "post_context": "By necessity, the bibliography to [my book on Warez](https://punctumbooks.com/titles/warez-the-infrastructure-and-aesthetics-of-piracy/) must cite a number of unconventional works that are not c",
+  "page_meta": {
+   "title": "Warez: The Infrastructure and Aesthetics of Piracy",
+   "authors": [
+    "Martin Paul Eve"
+   ],
+   "date": "2021-12-15",
+   "site": "punctum books",
+   "type": "Book"
+  }
+ },
+ "https://pypi.org/project/pytest-localstack/": {
+  "label": "pytest-localstack PyPI package",
+  "anchor_text": "pytest-localstack module",
+  "post_context": "ailure: true To spin up the docker container when running locally, we need the [pytest-localstack module](https://pypi.org/project/pytest-localstack/), so add that to your requirements. Then, to achieve the magic, I have a pytest fixture",
+  "page_meta": {
+   "title": "Client Challenge"
+  }
+ },
+ "https://pypi.org/project/resize-image/": {
+  "label": "resize-image Python package on PyPI",
+  "anchor_text": "resize-image",
+  "post_context": "ave(image_upload.file.name, image.format) return image_upload I used the [resize-image](https://pypi.org/project/resize-image/) module to do the actual work of resizing, but the gotcha is in what Django gives you. At different times,",
+  "page_meta": {
+   "title": "Client Challenge"
+  }
+ },
+ "https://pypi.org/simple": {
+  "label": "PyPI simple package index",
+  "anchor_text": null,
+  "post_context": "Pipfile so that it would run on my machine: [[source]] name = \"pypi\" url = \"https://pypi.org/simple\" verify_ssl = true [dev-packages] check-manifest = \">=0.25\" halo = \"*\" jsonlines = \"*\" requests-mock = \"*\" selenium = \"*\" docker",
+  "page_meta": {
+   "title": "Simple index"
+  }
+ },
+ "https://qntm.org/": {
+  "label": "qntm author site (Sam Hughes)",
+  "anchor_text": "qntm",
+  "post_context": "I have just read [qntm](https://qntm.org/)'s excellent science fiction novel, _There Is No Antimemetics Division_. Those who have read the text will know that the novel focuses",
+  "page_meta": {
+   "title": "Things Of Interest @ Things Of Interest"
+  }
+ },
+ "https://retractionwatch.com/2023/09/12/the-retraction-watch-database-becomes-completely-open-and-rw-becomes-far-more-sustainable/": {
+  "label": "Retraction Watch open database announcement post",
+  "anchor_text": "in their announcement",
+  "post_context": "any luck, it will help to make Retraction Watch itself sustainable. As they say [in their announcement](https://retractionwatch.com/2023/09/12/the-retraction-watch-database-becomes-completely-open-and-rw-becomes-far-more-sustainable/): \"Tha",
+  "page_meta": {
+   "title": "The Retraction Watch Database becomes completely open – and RW becomes far more sustainable",
+   "date": "2023-09-12T13:00:00+00:00",
+   "site": "Retraction Watch",
+   "type": "article"
+  }
+ },
+ "https://rheumatology.medicinematters.com/covid-19/rituximab/national-covid-cohort-collaborative/19947862": {
+  "label": "Study on Rituximab and severe Covid outcomes",
+  "anchor_text": null,
+  "post_context": "with Rituximab, are at serious ongoing danger and remain shielding (please see https://rheumatology.medicinematters.com/covid-19/rituximab/national-covid-cohort-collaborative/19947862). Despite this drug being authorized, patients have b",
+  "page_meta": {
+   "title": "Client Challenge"
+  }
+ },
+ "https://rogue-scholar.org/communities/eve/records?q=&l=list&p=1&s=10&sort=newest": {
+  "label": "Rogue Scholar scholarly blog preservation network",
+  "anchor_text": "Rogue Scholar network",
+  "post_context": "possible. The first line of defense on this front is that I am a member of the [Rogue Scholar network](https://rogue-scholar.org/communities/eve/records?q=&l=list&p=1&s=10&sort=newest). Again, an initiative set up by Martin Fenner, Rogue S",
+  "page_meta": {
+   "title": "Search Martin Paul Eve | Rogue Scholar"
+  }
+ },
+ "https://rossnaylor.com/build-a-death-folder/": {
+  "label": "Guide to building a death folder (what to include)",
+  "anchor_text": "lots of other",
+  "post_context": "blog post is NOT about what to put in the document that you encrypt. There are [lots of other](https://rossnaylor.com/build-a-death-folder/) good sites for that. This is a guide to the technical side of it. First, what do you need?: * So",
+  "page_meta": {
+   "title": "How to Build a Death Folder | Essential Expat Guide",
+   "authors": [
+    "Ross Naylor"
+   ],
+   "date": "2025-03-12T09:03:28",
+   "type": "WPHeader"
+  }
+ },
+ "https://royalhistsoc.org/policy/publication-open-access/plan-s-and-history-journals/": {
+  "label": "Royal Historical Society document on Plan S",
+  "anchor_text": "Royal Historical Society document on Plan S",
+  "post_context": "The most recent [Royal Historical Society document on Plan S](https://royalhistsoc.org/policy/publication-open-access/plan-s-and-history-journals/) says the following about the",
+  "page_meta": {
+   "title": "Plan S and History Journals - RHS",
+   "site": "RHS",
+   "type": "article"
+  }
+ },
+ "https://scholar.google.com/citations?user=NsHFYDcAAAAJ&hl=en": {
+  "label": "Yorick Wilks Google Scholar profile",
+  "anchor_text": "Yorick Wilks",
+  "post_context": "999 <http://www.wall.org/~larry/pm.html> [accessed 23 August 2021] The work of [Yorick Wilks](https://scholar.google.com/citations?user=NsHFYDcAAAAJ&hl=en) may also be of interest. The [Esoteric Codes project](https://esoteric.codes/) that",
+  "page_meta": {
+   "title": "Yorick Wilks",
+   "type": "website"
+  }
+ },
+ "https://scholarlykitchen.sspnet.org/2016/08/24/the-costs-of-flipping-our-dollars-to-gold/": {
+  "label": "Scholarly Kitchen costs of flipping to gold OA",
+  "anchor_text": "post today at the Scholarly Kitchen",
+  "post_context": "A [post today at the Scholarly Kitchen](https://scholarlykitchen.sspnet.org/2016/08/24/the-costs-of-flipping-our-dollars-to-gold/) has spurred me to write somethi",
+  "page_meta": {
+   "title": "The Costs of Flipping our Dollars to Gold",
+   "authors": [
+    "Alison Mudditt"
+   ],
+   "date": "2016-08-24T09:30:21+00:00",
+   "site": "The Scholarly Kitchen",
+   "type": "Article"
+  }
+ },
+ "https://scholarlykitchen.sspnet.org/2024/04/04/transitional-agreements-arent-working-what-comes-next/": {
+  "label": "Scholarly Kitchen: transitional agreements not working",
+  "anchor_text": "TAs are not working",
+  "post_context": "e agreements\" (TA), which are supposed to take us towards full open access. But [TAs are not working](https://scholarlykitchen.sspnet.org/2024/04/04/transitional-agreements-arent-working-what-comes-next/). As Alison Mudditt noted, at the cu",
+  "page_meta": {
+   "title": "Transitional Agreements Aren’t Working: What Comes Next?",
+   "authors": [
+    "Alison Mudditt"
+   ],
+   "date": "2024-04-04T09:30:46+00:00",
+   "site": "The Scholarly Kitchen",
+   "type": "Article"
+  }
+ },
+ "https://scoss.org/": {
+  "label": "SCOSS Global Sustainability Coalition for Open Science Services",
+  "anchor_text": null,
+  "post_context": "al Sustainability Coalition for Open Science Services (SCOSS). (2019). _SCOSS_. https://scoss.org/ * van Dijck, J. (2013). Disassembling Platforms, Reassembling Sociality. In _The Culture of Connectivity: A Critical History of Social Media_",
+  "page_meta": {
+   "title": "SCOSS - The Global Sustainability Coalition for Open Science Services",
+   "site": "SCOSS - The Global Sustainability Coalition for Open Science Services",
+   "type": "website"
+  }
+ },
+ "https://security.ucop.edu/resources/open-source-software-licensing.html": {
+  "label": "UC Office of the President open-source licensing risk matrix",
+  "anchor_text": "a risk matrix",
+  "post_context": "e) patents. Employee clearance to work on projects is conducted on the basis of [a risk matrix](https://security.ucop.edu/resources/open-source-software-licensing.html). The situation that the want to avoid is as follows: 1. Someone patent",
+  "page_meta": {
+   "title": "Open Source Software (OSS) Resources"
+  }
+ },
+ "https://sfdora.org/": {
+  "label": "San Francisco Declaration on Research Assessment homepage",
+  "anchor_text": "San Francisco Declaration on Research Assessment (DORA)",
+  "post_context": "Thinking aloud. The [San Francisco Declaration on Research Assessment (DORA)](https://sfdora.org/) is undoubtedly a good idea, in my view. The thrust of the declaration states that",
+  "page_meta": {
+   "title": "Home | DORA",
+   "date": "2018-01-11T12:57:12+00:00",
+   "site": "DORA",
+   "type": "WebPage"
+  }
+ },
+ "https://sharpweb.org/conferences/sharpies/program/": {
+  "label": "SHARPIES online conference programme",
+  "anchor_text": "in the programme",
+  "post_context": "commend SHARP for running an online, digitally-accessible event. As they note, [in the programme](https://sharpweb.org/conferences/sharpies/program/), \"One of our central aims in planning the SHARPIES has been to try to ensure accessibilit",
+  "page_meta": {
+   "title": "SHARPIES 2026 Program – SHARPweb"
+  }
+ },
+ "https://sr.ithaka.org/blog/draft-report-for-community-input/": {
+  "label": "Ithaka S+R draft report for community input",
+  "anchor_text": "Ithaka S+R’s most recent report",
+  "post_context": "I have read, with some dismay, the draft of [Ithaka S+R’s most recent report](https://sr.ithaka.org/blog/draft-report-for-community-input/). I offer here some critical remarks that I hope will allow for r",
+  "page_meta": {
+   "title": "Draft Report for Community Input",
+   "authors": [
+    "Kimberly Lutz"
+   ],
+   "date": "2023-07-17T13:09:32+00:00",
+   "site": "Ithaka S+R",
+   "type": "Article"
+  }
+ },
+ "https://subscribetoopencommunity.org/": {
+  "label": "Subscribe to Open community homepage",
+  "anchor_text": "Subscribe to Open",
+  "post_context": "ve models are the talk of the town, as though they have always held prominence. [Subscribe to Open](https://subscribetoopencommunity.org/), [PLOS](https://thepublicationplan.com/2021/01/21/plos-trials-a-collective-action-business-model-for-",
+  "page_meta": {
+   "title": "About - Subscribe to Open",
+   "date": "2020-05-06T15:54:41+00:00",
+   "site": "Subscribe to Open",
+   "type": "WebPage"
+  }
+ },
+ "https://support.presonus.com/hc/en-us/articles/115003181806-Will-Quantum-work-with-my-Windows-10-machine-": {
+  "label": "PreSonus support page on Quantum Windows compatibility",
+  "anchor_text": "definitely not supported on Windows 7",
+  "post_context": "The PreSonus Quantum interfaces are [definitely not supported on Windows 7](https://support.presonus.com/hc/en-us/articles/115003181806-Will-Quantum-work-with-my-Windows-10-machine-). But if you a",
+  "page_meta": {
+   "title": "Quantum: Connecting to Windows 10 computer",
+   "site": "Knowledge Base | PreSonus",
+   "type": "website"
+  }
+ },
+ "https://svpow.com/2016/05/22/elseviers-increasing-control-over-scholarly-infrastructure-and-how-funders-should-fix-this/": {
+  "label": "Taylor SVPOW post on Elsevier infrastructure control",
+  "anchor_text": "Mike Taylor has bluntly put it",
+  "post_context": "t_ (the funding is time-bound, as per the principles of Bilder et al.). Yet, as <a href=\"https://svpow.com/2016/05/22/elseviers-increasing-control-over-scholarly-infrastructure-and-how-funders-should-fix-this/\">Mike Taylor has bluntly put i",
+  "page_meta": {
+   "title": "Elsevier’s increasing control over scholarly infrastructure, and how funders should fix this",
+   "date": "2016-05-22T13:43:35+00:00",
+   "site": "Sauropod Vertebra Picture of the Week",
+   "type": "article"
+  }
+ },
+ "https://the-vault.fly.dev/": {
+  "label": "Digital preservation status of 7m articles tool",
+  "anchor_text": "digital preservation status of 7m articles",
+  "post_context": "-proxy) * Conducted research into, and wrote a peer-reviewed article about, the [digital preservation status of 7m articles](https://the-vault.fly.dev/) * Built a deposit proxy system that allows for the modelling and retrieval of new metad",
+  "page_meta": {
+   "title": "Streamlit"
+  }
+ },
+ "https://theconversation.com/flawed-sting-operation-singles-out-open-access-journals-18846": {
+  "label": "Eve's Conversation piece on OA sting operation",
+  "anchor_text": "piece that I wrote for The Conversation",
+  "post_context": "<p>The below is a <a href=\"https://theconversation.com/flawed-sting-operation-singles-out-open-access-journals-18846\">piece that I wrote for The Conversation</a> in the state bef",
+  "page_meta": {
+   "title": "Flawed sting operation singles out open access journals",
+   "authors": [
+    "Martin Eve"
+   ],
+   "site": "The Conversation",
+   "type": "article"
+  }
+ },
+ "https://theconversation.com/sorry-minister-but-philistinism-is-not-an-educational-policy-34385": {
+  "label": "Churchwell Conversation piece on philistinism in education",
+  "anchor_text": "Sarah Churchwell recently wrote of how",
+  "post_context": "umpet &#8220;critical thinking&#8221; with inconsistent evidence. For instance, <a href=\"https://theconversation.com/sorry-minister-but-philistinism-is-not-an-educational-policy-34385\">Sarah Churchwell recently wrote of how</a>: &#8220;The",
+  "page_meta": {
+   "title": "Sorry minister, but philistinism is not an educational policy",
+   "authors": [
+    "Sarah Churchwell"
+   ],
+   "site": "The Conversation",
+   "type": "article"
+  }
+ },
+ "https://theconversation.com/top-scientific-publisher-chooses-not-to-advance-open-access-31248": {
+  "label": "The Conversation piece on publisher OA opposition",
+  "anchor_text": "surge of opposition",
+  "post_context": "<p>In recent days, there has been a <a href=\"https://theconversation.com/top-scientific-publisher-chooses-not-to-advance-open-access-31248\">surge of opposition</a> from some members of the scienti",
+  "page_meta": {
+   "title": "Top scientific publisher chooses not to advance open access",
+   "authors": [
+    "Erin McKiernan",
+    "Jon Tennant"
+   ],
+   "site": "The Conversation",
+   "type": "article"
+  }
+ },
+ "https://theconversation.com/why-realism-is-the-key-to-wellbeing-new-research-139717": {
+  "label": "The Conversation: realism key to wellbeing research",
+  "anchor_text": "realism is key to being happy",
+  "post_context": "esearch earlier this year that I thought was apt for the pandemic, showing that [realism is key to being happy](https://theconversation.com/why-realism-is-the-key-to-wellbeing-new-research-139717), not optimism or pessimism. In particular,",
+  "page_meta": {
+   "title": "Why realism is the key to wellbeing – new research",
+   "authors": [
+    "Chris Dawson",
+    "David de Meza"
+   ],
+   "site": "The Conversation",
+   "type": "article"
+  }
+ },
+ "https://thenounproject.com/search/?q=type&i=150037": {
+  "label": "Lil Squid type icon on Noun Project",
+  "anchor_text": "Lil Squid from the Noun Project",
+  "post_context": "](https://jquery.org/license/). * The CaSSius logo is a derivative of a work by [Lil Squid from the Noun Project](https://thenounproject.com/search/?q=type&i=150037), licensed under the Creative Commons Attribution License. * Parts of the c",
+  "page_meta": {
+   "title": "File",
+   "date": "2015-05-09T00:00:00.000Z",
+   "site": "The Noun Project",
+   "type": "ImageObject"
+  }
+ },
+ "https://thepointmag.com/politics/do-not-ask-me-who-i-am/": {
+  "label": "Huneke, The Point critique of Agamben on COVID",
+  "anchor_text": "Samuel Clowes Huneke points out",
+  "post_context": "com/2020/08/21/opinion/sunday/giorgio-agamben-philosophy-coronavirus.html)\". As [Samuel Clowes Huneke points out](https://thepointmag.com/politics/do-not-ask-me-who-i-am/), what is problematic here is that Agamben's thought is \"unable to di",
+  "page_meta": {
+   "title": "“Do Not Ask Me Who I Am”",
+   "authors": [
+    "Samuel Clowes Huneke"
+   ],
+   "date": "2021-06-02T19:21:32+00:00",
+   "site": "The Point Magazine",
+   "type": "Article"
+  }
+ },
+ "https://thepublicationplan.com/2021/01/21/plos-trials-a-collective-action-business-model-for-open-access-publishing/": {
+  "label": "PLOS collective action OA business model trial",
+  "anchor_text": "PLOS",
+  "post_context": "ys held prominence. [Subscribe to Open](https://subscribetoopencommunity.org/), [PLOS](https://thepublicationplan.com/2021/01/21/plos-trials-a-collective-action-business-model-for-open-access-publishing/), [Bloomsbury Academic](https://www.",
+  "page_meta": {
+   "title": "PLOS trials a collective action business model for open access publishing",
+   "authors": [
+    "Philippa Flemming"
+   ],
+   "date": "2021-01-21T10:32:12+00:00",
+   "site": "A central hub for medical publications, resources and best practice",
+   "type": "Article"
+  }
+ },
+ "https://ticitaci.com": {
+  "label": "Ticitaci record label site",
+  "anchor_text": "https://ticitaci.com",
+  "post_context": "I have a script (a custom static site generator) that produces the output at [https://ticitaci.com](https://ticitaci.com) -- a page for the record label [on which I have released music](https://ticitaci.com/artists/martin-eve.html) (and",
+  "page_meta": {
+   "title": "tici taci",
+   "type": "website"
+  }
+ },
+ "https://ticitaci.com/artists/martin-eve.html": {
+  "label": "Eve's artist page on Ticitaci",
+  "anchor_text": "on which I have released music",
+  "post_context": "at [https://ticitaci.com](https://ticitaci.com) -- a page for the record label [on which I have released music](https://ticitaci.com/artists/martin-eve.html) (and that I really, really love). It generates the data [from the MusicBrainz re",
+  "page_meta": {
+   "title": "Martin Eve",
+   "type": "website"
+  }
+ },
+ "https://tools.ietf.org/html/rfc974": {
+  "label": "IETF RFC 974 mail routing specification",
+  "anchor_text": "974",
+  "post_context": "d tries to relay through that server. So that'll be complete disregard for RFCs <a href=\"https://tools.ietf.org/html/rfc974\">974</a> and <a href=\"https://www.ietf.org/rfc/rfc2821.txt\">2821</a> then. Humph.</p> <p>So, the solution is either",
+  "page_meta": {
+   "title": "RFC 974: Mail routing and the domain system",
+   "authors": [
+    "Dr. Craig Partridge"
+   ],
+   "site": "IETF Datatracker",
+   "type": "article"
+  }
+ },
+ "https://torrentfreak.com/meet-the-guy-behind-the-libgen-torrent-seeding-movement-191205/": {
+  "label": "TorrentFreak: LibGen torrent seeding movement profile",
+  "anchor_text": null,
+  "post_context": "y Behind the Libgen Torrent Seeding Movement’, _TorrentFreak_, 5 December 2019 <https://torrentfreak.com/meet-the-guy-behind-the-libgen-torrent-seeding-movement-191205/> * Reisner, Alex, ‘Search LibGen, the Pirated-Books Database That Meta",
+  "page_meta": {
+   "title": "Meet the Guy Behind the Libgen Torrent Seeding Movement",
+   "authors": [
+    "Andy Maxwell"
+   ],
+   "date": "2019-12-05T11:30:41+00:00",
+   "type": "Article"
+  }
+ },
+ "https://torrentfreak.com/sci-hub-and-libgen-resurface-after-being-shut-down-151121/": {
+  "label": "TorrentFreak: Sci-Hub and LibGen resurface after shutdown",
+  "anchor_text": null,
+  "post_context": "and LibGen Resurface After Being Shut Down’, _TorrentFreak_, 21 November 2015 <https://torrentfreak.com/sci-hub-and-libgen-resurface-after-being-shut-down-151121/> * Schiermeier, Quirin, ‘Pirate Research-Paper Sites Play Hide-and-Seek with",
+  "page_meta": {
+   "title": "Sci-Hub, BookFi and LibGen Resurface After Being Shut Down",
+   "authors": [
+    "Ernesto Van der Sar"
+   ],
+   "date": "2015-11-21T21:03:10+00:00",
+   "type": "Article"
+  }
+ },
+ "https://towardsdatascience.com/17-types-of-similarity-and-dissimilarity-measures-used-in-data-science-3eb914d2681": {
+  "label": "Harmouch, 17 similarity measures in data science, Medium 2021",
+  "anchor_text": null,
+  "post_context": "of Similarity and Dissimilarity Measures Used in Data Science.’, Medium, 2021 <https://towardsdatascience.com/17-types-of-similarity-and-dissimilarity-measures-used-in-data-science-3eb914d2681> [accessed 25 July 2024]. [^7]: Kavitha Karun",
+  "page_meta": {
+   "title": "17 types of similarity and dissimilarity measures used in data science.",
+   "authors": [
+    "Mahmoud Harmouch"
+   ],
+   "date": "2021-03-13T22:31:38.000Z",
+   "site": "Towards Data Science",
+   "type": "Article"
+  }
+ }
+}

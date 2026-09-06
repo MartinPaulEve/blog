@@ -1,0 +1,183 @@
+{
+  "http://webarchive.nationalarchives.gov.uk/20180322112445tf_/http://www.hefce.ac.uk/pubs/rereports/year/2015/monographs/": {
+    "title": "Monographs and open access",
+    "date": "2015",
+    "type": "Report",
+    "publisher": "Higher Education Funding Council for England"
+  },
+  "http://websecurity.com.ua/category/moseb/": {
+    "title": "MOSEB",
+    "type": "WebPage",
+    "isPartOf": {"name": "Websecurity", "type": "WebSite"}
+  },
+  "http://wiki.debian.org/DebianInstaller/Rescue/Crypto": null,
+  "http://wonkhe.com/blogs/bis-metrics-and-non-selective-qr-allocation/": {
+    "title": "BIS, metrics and non-selective QR allocation",
+    "date": "2015-11-18",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Wonkhe", "type": "Blog"}
+  },
+  "http://wonkhe.com/blogs/busting-five-common-myths-about-the-tef/": {
+    "title": "Busting five common myths about the TEF",
+    "author": "Chris Husbands",
+    "date": "2016-12-02",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Wonkhe", "type": "Blog"}
+  },
+  "http://wonkhe.com/blogs/comment-reflections-on-stern/": {
+    "title": "A kinder, gentler REF? Reflections on Stern",
+    "date": "2016-08-02",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Wonkhe", "type": "Blog"}
+  },
+  "http://wonkhe.com/blogs/conservative-party-conference-2016-the-day-of-the-brexiteers/": {
+    "title": "Conservative Party Conference 2016: The Day of the Brexiteers",
+    "date": "2016-10-05",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Wonkhe", "type": "Blog"}
+  },
+  "http://wonkhe.com/blogs/remember-remember-the-tef-of-november/": {
+    "title": "Remember, Remember the TEF of November",
+    "date": "2015-11-07",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Wonkhe", "type": "Blog"}
+  },
+  "http://wonkhe.com/blogs/why-policy-exchange-is-wrong-about-university-surpluses/": {
+    "title": "Why Policy Exchange is wrong about university surpluses",
+    "date": "2015-10-19",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Wonkhe", "type": "Blog"}
+  },
+  "http://www.3ammagazine.com/3am/pynchon-philosophy-ethics/": {
+    "title": "Pynchon, Philosophy, Ethics",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "3:AM Magazine", "type": "WebSite"}
+  },
+  "http://www.aaupnet.org": {
+    "title": "Association of University Presses",
+    "type": "WebSite"
+  },
+  "http://www.ahrc.ac.uk/FundedResearch/Pages/ImpactAssessment.aspx": null,
+  "http://www.ahrc.ac.uk/FundedResearch/Pages/ResearchStatistics.aspx": null,
+  "http://www.ahrc.ac.uk/FundingOpportunities/Documents/PG%20funding%20opp%20FAQs.pdf": null,
+  "http://www.ahrc.ac.uk/FundingOpportunities/Documents/pg%20funding%20faqs.pdf": null,
+  "http://www.ahrc.ac.uk/FundingOpportunities/Pages/BGP.aspx": null,
+  "http://www.amazon.co.uk/gp/product/025300621X/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=025300621X&linkCode=as2&tag=2bitpienet-21&linkId=STOW4QN4AVMIO5LG": {
+    "title": "Genealogy as Critique: Foucault and the Problems of Modernity",
+    "author": "Colin Koopman",
+    "type": "Book"
+  },
+  "http://www.amazon.co.uk/gp/product/0674948394/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=0674948394&linkCode=as2&tag=2bitpienet-21&linkId=RBA7M5P6ARV6LK5Z": {
+    "title": "We Have Never Been Modern",
+    "author": "Bruno Latour",
+    "type": "Book"
+  },
+  "http://www.amazon.co.uk/gp/product/1107097894/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=1107097894&linkCode=as2&tag=2bitpienet-21&linkId=TVNUFSG4XG3QS2HJ": {
+    "title": "Open Access and the Humanities: Contexts, Controversies and the Future",
+    "author": "Martin Paul Eve",
+    "type": "Book"
+  },
+  "http://www.amazon.co.uk/gp/product/113740549X/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=113740549X&linkCode=as2&tag=2bitpienet-21&linkId=MSC4KX6LXQTUZ4YS": {
+    "title": "Pynchon and Philosophy: Wittgenstein, Foucault and Adorno",
+    "author": "Martin Paul Eve",
+    "type": "Book"
+  },
+  "http://www.amazon.co.uk/gp/product/1551303698/ref=as_li_ss_tl?ie=UTF8&tag=2bitpienet-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=1551303698": {
+    "title": "Academic Callings: The University We Have Had, Now Have, and Could Have",
+    "author": ["Janice Newson", "Claire Polster"],
+    "type": "Book"
+  },
+  "http://www.amazon.co.uk/gp/product/1844037401/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=1844037401&linkCode=as2&tag=2bitpienet-21": {
+    "title": "1001 Books You Must Read Before You Die",
+    "author": "Peter Boxall",
+    "type": "Book"
+  },
+  "http://www.amazon.com/Bourne-Identity-Saga-Book-ebook/dp/B0037471TE/ref=sr_1_1?s=books&ie=UTF8&qid=1344159737&sr=1-1&keywords=bourne+identity": null,
+  "http://www.amazon.com/Cross-Site-Scripting-Attacks-Exploits/dp/1597491543/sr=1-1/qid=1170769149?ie=UTF8&s=books": null,
+  "http://www.ascb.org/dora/": {
+    "title": "Home",
+    "date": "2018-01-11",
+    "type": "WebPage",
+    "isPartOf": {"name": "DORA", "type": "WebSite"}
+  },
+  "http://www.astrid.com": null,
+  "http://www.bbc.co.uk/news/business-12195319": {
+    "title": "Can you fathom financial phrases?",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "BBC News", "type": "Periodical"}
+  },
+  "http://www.bbc.co.uk/news/education-11828882": {
+    "title": "Student tuition fees protests across the UK",
+    "date": "2010-11-24",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "BBC News", "type": "Periodical"}
+  },
+  "http://www.bbc.co.uk/news/education-13927710": {
+    "title": "Universities will have to bid for a quarter of places",
+    "author": "Sean Coughlan",
+    "date": "2011-06-28",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "BBC News", "type": "Periodical"}
+  },
+  "http://www.bbc.co.uk/news/magazine-15888124": {
+    "title": "A Point of View: The Oxbridge interview",
+    "date": "2011-11-27",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "BBC News", "type": "Periodical"}
+  },
+  "http://www.bbc.co.uk/news/uk-11985568": {
+    "title": "Independent Living Fund to be shut down by 2015",
+    "date": "2010-12-13",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "BBC News", "type": "Periodical"}
+  },
+  "http://www.bbc.co.uk/news/uk-england-20000243": {
+    "title": "Nick Griffin's tweets about gay couple in B&B case investigated",
+    "date": "2012-10-18",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "BBC News", "type": "Periodical"}
+  },
+  "http://www.bbc.co.uk/news/uk-politics-11803719": {
+    "title": "Lib Dems broke no tuition fee promise - Vince Cable",
+    "date": "2010-11-20",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "BBC News", "type": "Periodical"}
+  },
+  "http://www.bbc.co.uk/news/uk-wales-politics-34976992": {
+    "title": "College fraud claim: Minister defends regulation",
+    "date": "2015-12-01",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "BBC News", "type": "Periodical"}
+  },
+  "http://www.bbc.co.uk/news/world-us-canada-11454789": {
+    "title": "US sorry over deliberate sex infections in Guatemala",
+    "date": "2010-10-01",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "BBC News", "type": "Periodical"}
+  },
+  "http://www.bbk.ac.uk/about-us": {
+    "title": "About us",
+    "type": "WebPage",
+    "isPartOf": {"name": "Birkbeck, University of London", "type": "WebSite"}
+  },
+  "http://www.bbk.ac.uk/about-us/bbk/downloads/2014-articles/bbk33-6-7-future-of-he.pdf": {
+    "title": "BBK magazine annual review",
+    "type": "WebPage",
+    "isPartOf": {"name": "Birkbeck, University of London", "type": "WebSite"}
+  },
+  "http://www.bbk.ac.uk/about-us/history": {
+    "title": "Our story",
+    "type": "WebPage",
+    "isPartOf": {"name": "Birkbeck, University of London", "type": "WebSite"}
+  },
+  "http://www.bbk.ac.uk/about-us/mission": {
+    "title": "Mission statement",
+    "type": "WebPage",
+    "isPartOf": {"name": "Birkbeck, University of London", "type": "WebSite"}
+  },
+  "http://www.berfrois.com": {
+    "title": "About",
+    "type": "WebSite",
+    "isPartOf": {"name": "Berfrois", "type": "WebSite"}
+  }
+}

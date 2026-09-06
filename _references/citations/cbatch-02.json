@@ -1,0 +1,224 @@
+{
+  "http://en.wikipedia.org/wiki/Release_early,_release_often": {
+    "title": "Release early, release often",
+    "date": "2009-10-26",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "http://en.wikipedia.org/wiki/Samuel_Beckett": {
+    "title": "Samuel Beckett",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "http://en.wikipedia.org/wiki/Speculative_realism": {
+    "title": "Speculative realism",
+    "date": "2008-01-18",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "http://en.wikipedia.org/wiki/The_Black_Jacobins": {
+    "title": "The Black Jacobins",
+    "date": "2006-10-23",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "http://en.wikipedia.org/wiki/Three_Laws_of_Robotics": {
+    "title": "Three Laws of Robotics",
+    "date": "2001-02-05",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "http://en.wikipedia.org/wiki/Troy_Davis_case": {
+    "title": "Troy Davis",
+    "date": "2007-07-23",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "http://en.wikipedia.org/wiki/User:Jjshapiro": {
+    "title": "User:Jjshapiro",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "http://en.wikipedia.org/wiki/Zong_Massacre": {
+    "title": "Zong Massacre",
+    "date": "2004-09-28",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "http://en.wikisource.org/wiki/Holy_Sonnets#Holy_Sonnet_14": {
+    "title": "Holy Sonnets",
+    "date": "2007-01-22",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikisource", "type": "WebSite"}
+  },
+  "http://entertainment.timesonline.co.uk/tol/arts_and_entertainment/books/article3784828.ece": null,
+  "http://eprints.bbk.ac.uk/16458/": {
+    "title": "Review of Literature and the Public Good by Rick Rylance",
+    "author": "Martin Paul Eve",
+    "date": "2016-10-26",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/16682/": {
+    "title": "Openness, Politics and Power",
+    "author": "Martin Paul Eve",
+    "date": "2017-08-24",
+    "type": "ScholarlyArticle",
+    "isPartOf": {"name": "Mass Intellectuality and Democratic Leadership in Higher Education", "type": "WebSite"}
+  },
+  "http://eprints.bbk.ac.uk/23819/": {
+    "title": "Dial S for Strategy",
+    "author": "Martin Paul Eve",
+    "date": "2018-09-05",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/document/34449": null,
+  "http://eprints.bbk.ac.uk/id/document/37548": null,
+  "http://eprints.bbk.ac.uk/id/document/37714": null,
+  "http://eprints.bbk.ac.uk/id/document/37786": null,
+  "http://eprints.bbk.ac.uk/id/document/38019": null,
+  "http://eprints.bbk.ac.uk/id/document/46101": null,
+  "http://eprints.bbk.ac.uk/id/eprint/12131": {
+    "title": "Password",
+    "author": "Martin Paul Eve",
+    "date": "2016-12",
+    "type": "Book",
+    "publisher": "Bloomsbury"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/12132": {
+    "title": "Keep writing: the critique of the university in Roberto Bolaño's 2666",
+    "author": "Martin Paul Eve",
+    "date": "2015-10",
+    "type": "ScholarlyArticle",
+    "isPartOf": {"name": "Textual Practice", "type": "Periodical"}
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/12133": {
+    "title": "\"Too many goddamn echoes\": historicizing the Iraq War in Don DeLillo's Point Omega",
+    "author": "Martin Paul Eve",
+    "date": "2015-08",
+    "type": "ScholarlyArticle",
+    "isPartOf": {"name": "Journal of American Studies", "type": "Periodical"}
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/12134": {
+    "title": "Open Access",
+    "author": "Martin Paul Eve",
+    "date": "2015-04-17",
+    "type": "ScholarlyArticle",
+    "isPartOf": {"name": "BAFTSS Annual Conference", "type": "WebSite"}
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/12135": {
+    "title": "Co-operating for gold open access without APCs",
+    "author": "Martin Paul Eve",
+    "date": "2015-04",
+    "type": "ScholarlyArticle",
+    "isPartOf": {"name": "UKSG 38th Annual Conference and Exhibition", "type": "WebSite"}
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/12136": {
+    "title": "Open Access, libraries and cooperation",
+    "author": "Martin Paul Eve",
+    "date": "2015-03",
+    "type": "ScholarlyArticle",
+    "isPartOf": {"name": "Library Publishing Forum", "type": "WebSite"}
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/12137": {
+    "title": "Open Access and the Open Library of the Humanities",
+    "author": "Martin Paul Eve",
+    "date": "2015-03",
+    "type": "ScholarlyArticle",
+    "isPartOf": {"name": "Open Access and the Humanities", "type": "WebSite"}
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/12138": {
+    "title": "Open Access and the humanities",
+    "author": "Martin Paul Eve",
+    "date": "2015-03",
+    "type": "ScholarlyArticle",
+    "isPartOf": {"name": "Open Access and the Humanities", "type": "WebSite"}
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/12139": {
+    "title": "Open Access and the humanities",
+    "author": "Martin Paul Eve",
+    "date": "2015-03",
+    "type": "ScholarlyArticle",
+    "isPartOf": {"name": "Open Access and the Humanities", "type": "WebSite"}
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/12140": {
+    "title": "Open Access in the humanities: benefits, challenges and economics",
+    "author": "Martin Paul Eve",
+    "date": "2015-03",
+    "type": "ScholarlyArticle",
+    "isPartOf": {"name": "Open Access in the Humanities", "type": "WebSite"}
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/12141": {
+    "title": "The Open Library of Humanities",
+    "author": "Martin Paul Eve",
+    "date": "2015-03-19",
+    "type": "ScholarlyArticle",
+    "isPartOf": {"name": "ACRL/NEC Scholarly Communication Group Spring Program", "type": "WebSite"}
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/12142": {
+    "title": "Co-operating for gold open access without APCs",
+    "author": "Martin Paul Eve",
+    "date": "2015-03",
+    "type": "ScholarlyArticle",
+    "isPartOf": {"name": "Insights: the UKSG journal", "type": "Periodical"}
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/12143": {
+    "title": "Preferential consideration: David Foster Wallace, Melville and behaviourism",
+    "author": "Martin Paul Eve",
+    "date": "2015-02-07",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/12144": {
+    "title": "Open access in humanities and social sciences: visions for the future of publishing",
+    "author": ["Martin Paul Eve", "J. Willinsky", "Z. Coble", "A. Ho"],
+    "date": "2015-02",
+    "type": "ScholarlyArticle",
+    "isPartOf": {"name": "College and Research Libraries", "type": "Periodical"}
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/12145": {
+    "title": "Metrics, Open Access and publishing",
+    "author": "Martin Paul Eve",
+    "date": "2015-01",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/12146": {
+    "title": "Innovation in digital publishing in the humanities",
+    "author": ["Martin Paul Eve", "K. Fitzpatrick", "M.K. Gold", "C. Marden", "L. Norberg"],
+    "date": "2015-01",
+    "type": "ScholarlyArticle",
+    "isPartOf": {"name": "American Historical Association", "type": "WebSite"}
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/12177": {
+    "title": "New rhetorics: disciplinarity and the movement from historiography to taxonomography",
+    "author": "Martin Paul Eve",
+    "date": "2015-09",
+    "type": "ScholarlyArticle"
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/12272": {
+    "title": "Open-Access publishing and scholarly communications in non-scientific disciplines",
+    "author": "Martin Paul Eve",
+    "date": "2015-08-01",
+    "type": "ScholarlyArticle",
+    "isPartOf": {"name": "Online Information Review", "type": "Periodical"}
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/12502": {
+    "title": "“Structural Dissatisfaction”: academics on safari in the novels of Jennifer Egan",
+    "author": "Martin Paul Eve",
+    "date": "2015-10-19",
+    "type": "ScholarlyArticle",
+    "isPartOf": {"name": "Open Library of Humanities", "type": "Periodical"}
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/13030": {
+    "title": "Opening the Open Library of Humanities",
+    "author": ["Martin Paul Eve", "Caroline Edwards"],
+    "date": "2015-09-28",
+    "type": "ScholarlyArticle",
+    "isPartOf": {"name": "Open Library of Humanities", "type": "Periodical"}
+  },
+  "http://eprints.bbk.ac.uk/id/eprint/13298": {
+    "title": "Review of Thomas Pynchon and the American Counterculture by Joanna Freer",
+    "author": "Martin Paul Eve",
+    "date": "2015-11",
+    "type": "ScholarlyArticle",
+    "isPartOf": {"name": "Journal of American Studies", "type": "Periodical"}
+  }
+}

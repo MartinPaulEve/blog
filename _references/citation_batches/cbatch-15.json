@@ -1,0 +1,507 @@
+{
+ "http://www.freud.org.uk": {
+  "label": "Freud Museum London official site",
+  "anchor_text": "Freud museum",
+  "post_context": "<p>I took a detour today, en route to visiting the <a href=\"http://www.freud.org.uk\">Freud museum</a> to the <a href=\"http://www.islington.gov.uk/Leisure/heritage/heritage_museum/contactusmus.asp\">Islington Muse",
+  "page_meta": {
+   "title": "Freud Museum London - The Home of Sigmund Freud",
+   "date": "2017-09-20T14:57:48+00:00",
+   "site": "Freud Museum London",
+   "type": "WebPage"
+  }
+ },
+ "http://www.garyhall.info/journal/2015/10/18/does-academiaedu-mean-open-access-is-becoming-irrelevant.html": {
+  "label": "Gary Hall on academia.edu vs open access",
+  "anchor_text": "Gary Hall",
+  "post_context": "demia-edu-academia-should-do-hint-work-with-green-oa/). In recent days, though, [Gary Hall](http://www.garyhall.info/journal/2015/10/18/does-academiaedu-mean-open-access-is-becoming-irrelevant.html) and [Kathleen Fitzpatrick](http://www.pla",
+  "page_meta": {
+   "title": "Gary Hall - Media gifts - Does Academia.edu Mean Open Access Is Becoming Irrelevant?"
+  }
+ },
+ "http://www.generation-online.org/p/fpfoucault1.htm": {
+  "label": "Generation Online Arianna Bove Foucault translation",
+  "anchor_text": "http://www.generation-online.org/p/fpfoucault1.htm",
+  "post_context": "tribution-NonCommercial-ShareAlike 3.0 Unported license. You can read her work: <a href=\"http://www.generation-online.org/p/fpfoucault1.htm\">http://www.generation-online.org/p/fpfoucault1.htm</a> <br />I have also mirrored it, under (obviou",
+  "page_meta": {
+   "title": "Introduction to Kant's Anthropology from a pragmatic point of view",
+   "authors": [
+    "Michel Foucault + EE + AB www.generation-online.org"
+   ]
+  }
+ },
+ "http://www.generation-online.org/p/psylverelotringer.htm": {
+  "label": "Generation Online Sylvere Lotringer plagiarism case",
+  "anchor_text": "http://www.generation-online.org/p/psylverelotringer.htm",
+  "post_context": "ion of anybody considering purchasing the Semiotext(e) edition. Arianna's case: <a href=\"http://www.generation-online.org/p/psylverelotringer.htm\">http://www.generation-online.org/p/psylverelotringer.htm</a> <br />The Semiotext(e) edition:",
+  "page_meta": {
+   "title": "Grub Street Revisited"
+  }
+ },
+ "http://www.globalpolicyjournal.com/": {
+  "label": "Global Policy Journal website",
+  "anchor_text": "http://www.globalpolicyjournal.com/",
+  "post_context": "good part\"!) \"Living in the End Times\" was sponsored by Global Policy Journal: <a href=\"http://www.globalpolicyjournal.com/\">http://www.globalpolicyjournal.com/</a></p>",
+  "page_meta": {
+   "title": "Home | Global Policy Journal"
+  }
+ },
+ "http://www.gnu.org/copyleft/fdl.html": {
+  "label": "GNU Free Documentation License website",
+  "anchor_text": "GFDL website",
+  "post_context": "s are licenced under the GFDL, more information about which is available at the <a href=\"http://www.gnu.org/copyleft/fdl.html\">GFDL website</a>.</p> <h3>The Notes</h3> <h3>1966</h3> <table class=\"works\"> <tr> <td style=\"width:80%\">Jacques D",
+  "page_meta": {
+   "title": "GNU Free Documentation License v1.3 - GNU Project - Free Software Foundation"
+  }
+ },
+ "http://www.gnu.org/licenses/": {
+  "label": "GNU General Public License page",
+  "anchor_text": null,
+  "post_context": "a copy of the GNU General Public License along with Mendroid. If not, see <http://www.gnu.org/licenses/>. */ package com.martineve.mendroid; import java.io.IOException; import java.net.URISyntaxException; import java.util.ArrayList;",
+  "page_meta": {
+   "title": "Licenses - GNU Project - Free Software Foundation"
+  }
+ },
+ "http://www.gnu.org/philosophy/loyal-computers.html": {
+  "label": "Stallman GNU essay on loyal computers",
+  "anchor_text": "what does it mean for a computer to be loyal?",
+  "post_context": "ecent essay, Richard M. Stallman, pioneer of the free software movement, asked “<a href=\"http://www.gnu.org/philosophy/loyal-computers.html\">what does it mean for a computer to be loyal?</a>” The \"tentative definition\" that Stallman outline",
+  "page_meta": {
+   "title": "What Does It Mean for Your Computer to Be Loyal? - GNU Project - Free Software Foundation"
+  }
+ },
+ "http://www.gnucitizen.org": {
+  "label": "GNUCITIZEN security blog",
+  "anchor_text": "GNUCITIZEN",
+  "post_context": "<p><a href=\"http://www.gnucitizen.org\" title=\"GNUZITIZEN's blog\">GNUCITIZEN</a> has been going on about this for some time now, but the truly devastating impact of",
+  "page_meta": {
+   "type": "website"
+  }
+ },
+ "http://www.gnucitizen.org/blog/changes-in-the-british-computer-misuse-act": {
+  "label": "gnucitizen.org post on UK Computer Misuse Act changes",
+  "anchor_text": "interesting post",
+  "post_context": "<p>pdp has an <a href=\"http://www.gnucitizen.org/blog/changes-in-the-british-computer-misuse-act\">interesting post</a> from last month about amendments to the British Compute",
+  "page_meta": {
+   "title": "Changes in the British Computer Misuse Act",
+   "type": "website"
+  }
+ },
+ "http://www.gold.ac.uk/goldsmiths-press/": {
+  "label": "Goldsmiths Press green OA publishing initiative",
+  "anchor_text": "Goldsmiths Press",
+  "post_context": "lly (which might, I feel, be wrongly construed by researchers elsewhere), while [Goldsmiths Press](http://www.gold.ac.uk/goldsmiths-press/) seeks to \"combine green open access with a fair and varied pricing model in order to avoid the explo",
+  "page_meta": {
+   "title": "Goldsmiths Press",
+   "site": "Goldsmiths, University of London",
+   "type": "article"
+  }
+ },
+ "http://www.google.co.uk/search?q=charles%20hollander%20pynchon": {
+  "label": "Google search for Charles Hollander Pynchon articles",
+  "anchor_text": "do this search",
+  "post_context": "ena is Charles Hollander. Most of his articles are available free online if you <a href=\"http://www.google.co.uk/search?q=charles%20hollander%20pynchon\">do this search</a>. I'm not so keen on his stuff, but it's certainly worth a look as so",
+  "page_meta": {
+   "title": "Google Search"
+  }
+ },
+ "http://www.google.co.uk/search?source=ig&hl=en&rlz=&q=unity+slow&aq=f&aqi=g10&aql=&oq=": {
+  "label": "Google search results for Unity slowness complaints",
+  "anchor_text": "seemingly agree",
+  "post_context": "ed these bugs well within the beta cycle.</p> <p>To my (and the many others who <a href=\"http://www.google.co.uk/search?source=ig&hl=en&rlz=&q=unity+slow&aq=f&aqi=g10&aql=&oq=\">seemingly agree</a>) intense frustration, this was not fixed be",
+  "page_meta": {
+   "title": "Google Search"
+  }
+ },
+ "http://www.guardian.co.uk/books/2005/feb/05/featuresreviews.guardianreview27": {
+  "label": "Mitchell, The Book of Revelations, Guardian",
+  "anchor_text": null,
+  "post_context": "re. Mitchell, D., 2005. The Book of Revelations. _The Guardian_. Available at: http://www.guardian.co.uk/books/2005/feb/05/featuresreviews.guardianreview27 [Accessed June 29, 2012]. Mitchell, D., 2014b. The Right Sort. _The Guardian_. Ava",
+  "page_meta": {
+   "title": "The book of revelations",
+   "authors": [
+    "Guardian staff reporter"
+   ],
+   "date": "2005-02-05T01:36:00.000Z",
+   "site": "the Guardian",
+   "type": "NewsArticle"
+  }
+ },
+ "http://www.guardian.co.uk/books/2011/apr/16/pale-king-david-foster-wallace-review": {
+  "label": "Guardian review of The Pale King by David Foster Wallace",
+  "anchor_text": "rather favourable",
+  "post_context": "llace's posthumous publication, <i>The Pale King</i> which is current receiving <a href=\"http://www.guardian.co.uk/books/2011/apr/16/pale-king-david-foster-wallace-review\">rather favourable</a> reviews.</p> <p>",
+  "page_meta": {
+   "title": "The Pale King by David Foster Wallace – review",
+   "authors": [
+    "James Lasdun"
+   ],
+   "date": "2011-04-15T23:05:00.000Z",
+   "site": "the Guardian",
+   "type": "NewsArticle"
+  }
+ },
+ "http://www.guardian.co.uk/books/2011/oct/11/library-books-playwright-joe-orton": {
+  "label": "Guardian article on Joe Orton defaced library books",
+  "anchor_text": "collection of library books defaced by playwright Joe Orton and Kenneth Halliwell",
+  "post_context": "age/heritage_museum/contactusmus.asp\">Islington Museum</a>, in order to see the <a href=\"http://www.guardian.co.uk/books/2011/oct/11/library-books-playwright-joe-orton\">collection of library books defaced by playwright Joe Orton and Kenneth",
+  "page_meta": {
+   "title": "Library books defaced by prankster playwright Joe Orton go on show",
+   "authors": [
+    "Mark Brown"
+   ],
+   "date": "2011-10-11T16:53:38.000Z",
+   "site": "the Guardian",
+   "type": "NewsArticle"
+  }
+ },
+ "http://www.guardian.co.uk/books/2012/oct/12/twitter-fiction-140-character-novels": {
+  "label": "Guardian article on Twitter 140-character fiction",
+  "anchor_text": "Today",
+  "post_context": "<p><a href=\"http://www.guardian.co.uk/books/2012/oct/12/twitter-fiction-140-character-novels\">Today</a>, the <i>Guardian</i> published the following 140-character",
+  "page_meta": {
+   "title": "Twitter fiction: 21 authors try their hand at 140-character novels",
+   "authors": [
+    "Geoff Dyer",
+    "Ian Rankin",
+    "James Meek",
+    "Andrew O'Hagan",
+    "Blake Morrison",
+    "David Lodge",
+    "AM Homes",
+    "AL Kennedy"
+   ],
+   "date": "2012-10-12T22:00:26.000Z",
+   "site": "the Guardian",
+   "type": "NewsArticle"
+  }
+ },
+ "http://www.guardian.co.uk/books/2013/feb/08/david-mitchell-project-great-experimenter": {
+  "label": "Guardian interview Mitchell on being a great experimenter",
+  "anchor_text": null,
+  "post_context": "nt to project myself as this great experimenter'. _the Guardian_. Available at: http://www.guardian.co.uk/books/2013/feb/08/david-mitchell-project-great-experimenter [Accessed February 14, 2013]. Kelly, A., 2010. David Foster Wallace and t",
+  "page_meta": {
+   "title": "David Mitchell: 'I don't want to project myself as this great experimenter'",
+   "authors": [
+    "Stuart Jeffries"
+   ],
+   "date": "2013-02-08T18:00:00.000Z",
+   "site": "the Guardian",
+   "type": "NewsArticle"
+  }
+ },
+ "http://www.guardian.co.uk/books/booksblog/2011/may/13/writers-in-public-pynchon": {
+  "label": "Guardian books blog: writers in public, Pynchon",
+  "anchor_text": "statements, and photograph",
+  "post_context": "<p>A few days late, but this is a quick post to highlight my <a href=\"http://www.guardian.co.uk/books/booksblog/2011/may/13/writers-in-public-pynchon\">statements, and photograph</a>, on the Guardian books site. The piece",
+  "page_meta": {
+   "title": "Celebrating writers in public (even Pynchon)",
+   "authors": [
+    "Alison Flood"
+   ],
+   "date": "2011-05-13T09:51:32.000Z",
+   "site": "the Guardian",
+   "type": "NewsArticle"
+  }
+ },
+ "http://www.guardian.co.uk/books/gallery/2011/dec/17/writers-artists-design-money": {
+  "label": "Guardian gallery: writers and artists design money",
+  "anchor_text": "Writers and artists design money fit for modern times",
+  "post_context": "rsh finally linked this to an analysis of the various entries to the Guardian's <a href=\"http://www.guardian.co.uk/books/gallery/2011/dec/17/writers-artists-design-money\">Writers and artists design money fit for modern times</a>, Marsh note",
+  "page_meta": {
+   "title": "Writers and artists design money fit for modern times - in pictures",
+   "authors": [
+    "Guardian staff reporter"
+   ],
+   "date": "2011-12-17T00:43:00.000Z",
+   "site": "the Guardian",
+   "type": "NewsArticle"
+  }
+ },
+ "http://www.guardian.co.uk/commentisfree/2006/may/29/comment.highereducation": {
+  "label": "Guardian comment on British Library undergraduates",
+  "anchor_text": "The Guardian",
+  "post_context": "ne.co.uk/tol/arts_and_entertainment/books/article3784828.ece\">The Times</a> and <a href=\"http://www.guardian.co.uk/commentisfree/2006/may/29/comment.highereducation\">The Guardian</a>. However, excluding undergraduates also allows those wit",
+  "page_meta": {
+   "title": "Scholarly squeeze",
+   "authors": [
+    "Tristram Hunt"
+   ],
+   "date": "2006-05-28T23:03:45.000Z",
+   "site": "the Guardian",
+   "type": "NewsArticle"
+  }
+ },
+ "http://www.guardian.co.uk/culture/2012/aug/02/bodleian-shakespeare-first-folio-online": {
+  "label": "Guardian news on Bodleian digitising First Folio",
+  "anchor_text": "digitise the First Folio",
+  "post_context": "<p>News of the Bodleian's plans to <a href=\"http://www.guardian.co.uk/culture/2012/aug/02/bodleian-shakespeare-first-folio-online\">digitise the First Folio</a> are to be welcomed, but several pas",
+  "page_meta": {
+   "title": "Bodleian's battered Shakespeare First Folio to be put on internet",
+   "authors": [
+    "Maev Kennedy"
+   ],
+   "date": "2012-08-01T23:01:00.000Z",
+   "site": "the Guardian",
+   "type": "NewsArticle"
+  }
+ },
+ "http://www.guardian.co.uk/education/2011/jun/28/naming-shaming-degrees-poor-jobs-record": {
+  "label": "Guardian: naming and shaming degrees poor jobs record",
+  "anchor_text": "The Guardian",
+  "post_context": "</p> <p>It's expected later today, but here's some early reactions.</p> <p><a href=\"http://www.guardian.co.uk/education/2011/jun/28/naming-shaming-degrees-poor-jobs-record\">The Guardian</a> runs with \"'Naming and shaming' for degrees w",
+  "page_meta": {
+   "title": "'Naming and shaming' for degrees with poor jobs record",
+   "authors": [
+    "Jeevan Vasagar",
+    "Jessica Shepherd"
+   ],
+   "date": "2011-06-28T00:07:00.000Z",
+   "site": "the Guardian",
+   "type": "NewsArticle"
+  }
+ },
+ "http://www.guardian.co.uk/education/2011/mar/14/high-tuition-fees-university-fine": {
+  "label": "Guardian article on coalition tuition fee panic",
+  "anchor_text": "is now panicking",
+  "post_context": "<p>The reason that the coalition government <a href=\"http://www.guardian.co.uk/education/2011/mar/14/high-tuition-fees-university-fine\">is now panicking</a> over the set to be universal introduction of £9",
+  "page_meta": {
+   "title": "Universities may face penalty for charging high tuition fees",
+   "authors": [
+    "Patrick Wintour",
+    "Allegra Stratton"
+   ],
+   "date": "2011-03-14T22:56:25.000Z",
+   "site": "the Guardian",
+   "type": "NewsArticle"
+  }
+ },
+ "http://www.guardian.co.uk/education/2012/aug/22/english-gcses-marked-down-teachers": {
+  "label": "Guardian story on Gove GCSE grade remark",
+  "anchor_text": "the manner in which Gove has set about regulating this is abhorrent",
+  "post_context": "ields a homogeneous result, or has boundaries that are overly broad. That said, <a href=\"http://www.guardian.co.uk/education/2012/aug/22/english-gcses-marked-down-teachers\">the manner in which Gove has set about regulating this is abhorrent",
+  "page_meta": {
+   "title": "English GCSEs marked down to curb grade inflation, say teachers",
+   "authors": [
+    "Jeevan Vasagar"
+   ],
+   "date": "2012-08-22T21:21:57.000Z",
+   "site": "the Guardian",
+   "type": "NewsArticle"
+  }
+ },
+ "http://www.guardian.co.uk/environment/2009/sep/23/panda-extinction-chris-packham": {
+  "label": "Guardian article Chris Packham on panda conservation",
+  "anchor_text": "the outspoken view of Chris Packham on the conservation of pandas",
+  "post_context": "plete.</p> <p>First off, there's the resources question. Consider a parallel to <a href=\"http://www.guardian.co.uk/environment/2009/sep/23/panda-extinction-chris-packham\">the outspoken view of Chris Packham on the conservation of pandas</a>",
+  "page_meta": {
+   "title": "Should pandas be left to face extinction?",
+   "authors": [
+    "Leo Benedictus"
+   ],
+   "date": "2009-09-22T23:05:08.000Z",
+   "site": "the Guardian",
+   "type": "NewsArticle"
+  }
+ },
+ "http://www.guardian.co.uk/film/2003/may/05/artsfeatures.fiction": {
+  "label": "Guardian review of Journey into the Mind of Pynchon documentary",
+  "anchor_text": "A Journey into the Mind of [P.]",
+  "post_context": "</iframe></p> <p>After the CNN debacle came the documentary, <a href=\"http://www.guardian.co.uk/film/2003/may/05/artsfeatures.fiction\">A Journey into the Mind of [P.]</a> which attempted to isolate Pynchon in the CNN clip",
+  "page_meta": {
+   "title": "Have you seen this man?",
+   "authors": [
+    "Steven Poole"
+   ],
+   "date": "2003-05-05T10:02:54.000Z",
+   "site": "the Guardian",
+   "type": "NewsArticle"
+  }
+ },
+ "http://www.guardian.co.uk/higher-education-network/blog/2011/apr/13/life-after-a-phd": {
+  "label": "Guardian Higher Education Network life after PhD Q&A",
+  "anchor_text": "Guardian Higher Education Network",
+  "post_context": "ating as a panelist on the forthcoming Live Q&A this Friday (15th April) on the <a href=\"http://www.guardian.co.uk/higher-education-network/blog/2011/apr/13/life-after-a-phd\">Guardian Higher Education Network</a>.</p> <p>I'm hoping this eve",
+  "page_meta": {
+   "title": "Live Q&A: Life after a PhD",
+   "authors": [
+    "Eliza Anyangwe"
+   ],
+   "date": "2011-04-13T17:04:28.000Z",
+   "site": "the Guardian",
+   "type": "NewsArticle"
+  }
+ },
+ "http://www.guardian.co.uk/higher-education-network/blog/2011/apr/27/career-options-after-a-phd": {
+  "label": "Guardian Higher Education Network: life after a PhD Q&A",
+  "anchor_text": "Guardian Higher Education Network",
+  "post_context": "on, 'Life After a PhD' for which I was a panelist, is now available over on the <a href=\"http://www.guardian.co.uk/higher-education-network/blog/2011/apr/27/career-options-after-a-phd\">Guardian Higher Education Network</a>.</p> <p>Of partic",
+  "page_meta": {
+   "title": "Q&A best bits: Life after a PhD",
+   "authors": [
+    "Eliza Anyangwe"
+   ],
+   "date": "2011-04-27T18:09:00.000Z",
+   "site": "the Guardian",
+   "type": "NewsArticle"
+  }
+ },
+ "http://www.guardian.co.uk/higher-education-network/blog/2011/dec/22/humanities-in-secondary-schools": {
+  "label": "Guardian piece on secondary schools and higher education",
+  "anchor_text": "Secondary schools are not adequately preparing students for higher education",
+  "post_context": "r. Higher education must intervene before it slips further.</p></blockquote> <p><a href=\"http://www.guardian.co.uk/higher-education-network/blog/2011/dec/22/humanities-in-secondary-schools\">Secondary schools are not adequately preparing stu",
+  "page_meta": {
+   "title": "Secondary schools are not adequately preparing students for higher education",
+   "authors": [
+    "Martin Paul Eve"
+   ],
+   "date": "2011-12-22T10:59:35.000Z",
+   "site": "the Guardian",
+   "type": "NewsArticle"
+  }
+ },
+ "http://www.guardian.co.uk/higher-education-network/blog/2011/dec/28/top-higher-education-blogs-2011": {
+  "label": "Guardian top 10 higher education posts 2011",
+  "anchor_text": "top 10 posts of 2011",
+  "post_context": "haps egotistic, documentary post to note that the Guardian have published their <a href=\"http://www.guardian.co.uk/higher-education-network/blog/2011/dec/28/top-higher-education-blogs-2011\">top 10 posts of 2011</a> and the piece I wrote wit",
+  "page_meta": {
+   "title": "Higher education review of 2011: the 10 best blogs of the year",
+   "authors": [
+    "Kerry Eustice"
+   ],
+   "date": "2011-12-28T12:01:57.000Z",
+   "site": "the Guardian",
+   "type": "NewsArticle"
+  }
+ },
+ "http://www.guardian.co.uk/higher-education-network/blog/2011/jun/15/univeristies-radical-academics-jobs-training": {
+  "label": "Guardian HE Network: Taking Back the University",
+  "anchor_text": "Taking Back the University",
+  "post_context": "co-authored with <a href=\"http://jennifermjones.net/\">Jennifer M Jones</a>, of \"<a href=\"http://www.guardian.co.uk/higher-education-network/blog/2011/jun/15/univeristies-radical-academics-jobs-training\">Taking Back the University</a>\"; a pi",
+  "page_meta": {
+   "title": "Angry young academics: striving for more than consumerism",
+   "authors": [
+    "Martin Paul Eve"
+   ],
+   "date": "2011-06-15T11:36:00.000Z",
+   "site": "the Guardian",
+   "type": "NewsArticle"
+  }
+ },
+ "http://www.guardian.co.uk/higher-education-network/blog/2011/sep/20/academy-scared-of-blogging": {
+  "label": "Guardian post on academy scared of blogging",
+  "anchor_text": "her Guardian post",
+  "post_context": "ow-should-blogs-referenced/\">a post on the LSE impact blog</a>, following up on <a href=\"http://www.guardian.co.uk/higher-education-network/blog/2011/sep/20/academy-scared-of-blogging\">her Guardian post</a> that \"[blogs are increasingly rec",
+  "page_meta": {
+   "title": "Don't doubt the value of blogging in academic publishing",
+   "authors": [
+    "Sarah-Louise Quinnell"
+   ],
+   "date": "2011-09-20T15:39:00.000Z",
+   "site": "the Guardian",
+   "type": "NewsArticle"
+  }
+ },
+ "http://www.guardian.co.uk/news/datablog/2010/oct/18/deficit-debt-government-borrowing-data": {
+  "label": "Guardian datablog UK government deficit data",
+  "anchor_text": "£106510m",
+  "post_context": "ively small £359m.</p> <p>To put this in perspective: the current UK defecit is <a href=\"http://www.guardian.co.uk/news/datablog/2010/oct/18/deficit-debt-government-borrowing-data\">£106510m</a>. If I'm reading that data correctly, it would",
+  "page_meta": {
+   "title": "Deficit, national debt and government borrowing - how has it changed since 1946?",
+   "authors": [
+    "Julia Kollewe",
+    "Simon Rogers"
+   ],
+   "date": "2013-05-22T17:00:00.000Z",
+   "site": "the Guardian",
+   "type": "NewsArticle"
+  }
+ },
+ "http://www.guardian.co.uk/politics/2012/apr/20/cameron-family-tax-havens": {
+  "label": "Guardian report Cameron family wealth and tax havens",
+  "anchor_text": "inherited his own wealth from a tax haven",
+  "post_context": ", exploded: the irony overload of being lectured on entitlement by somebody who <a href=\"http://www.guardian.co.uk/politics/2012/apr/20/cameron-family-tax-havens\">inherited his own wealth from a tax haven</a> and went to an extremely privil",
+  "page_meta": {
+   "title": "Cameron family fortune made in tax havens",
+   "authors": [
+    "Ed Howker",
+    "Shiv Malik"
+   ],
+   "date": "2012-04-20T21:01:00.000Z",
+   "site": "the Guardian",
+   "type": "NewsArticle"
+  }
+ },
+ "http://www.guardian.co.uk/politics/2012/jun/25/cameron-tories-slash-benefits": {
+  "label": "Guardian report Cameron ending entitlement culture",
+  "anchor_text": "entitlement culture",
+  "post_context": "has now launched the end of \"compassionate Conservatism\", pledging to end the \"<a href=\"http://www.guardian.co.uk/politics/2012/jun/25/cameron-tories-slash-benefits\">entitlement culture</a>\" of benefits. Twitter has, predictably, exploded:",
+  "page_meta": {
+   "title": "Cameron announces Tory plan to slash benefits",
+   "authors": [
+    "Patrick Wintour",
+    "Hélène Mulholland"
+   ],
+   "date": "2012-06-25T09:19:00.000Z",
+   "site": "the Guardian",
+   "type": "NewsArticle"
+  }
+ },
+ "http://www.guardian.co.uk/science/2010/jul/12/cancer-survival-rates-doubled": {
+  "label": "Guardian piece on cancer survival rates doubling",
+  "anchor_text": "four will not make it",
+  "post_context": "that in every ten people who think that they have the power to \"fight\" cancer, <a href=\"http://www.guardian.co.uk/science/2010/jul/12/cancer-survival-rates-doubled\">four will not make it</a>. Are the people who \"fought\" the disease trying",
+  "page_meta": {
+   "title": "Cancer survival rates have doubled since 1970s, research shows",
+   "authors": [
+    "Matthew Weaver"
+   ],
+   "date": "2010-07-12T08:55:49.000Z",
+   "site": "the Guardian",
+   "type": "NewsArticle"
+  }
+ },
+ "http://www.guardian.co.uk/society/2011/may/14/disabled-face-increasing-hostility-strangers": {
+  "label": "Guardian report on disabled people facing street hostility",
+  "anchor_text": "the disabled face day-to-day attacks",
+  "post_context": "p> <p>Finally, the Rob Summers case is one of the most troubling at a time when <a href=\"http://www.guardian.co.uk/society/2011/may/14/disabled-face-increasing-hostility-strangers\">the disabled face day-to-day attacks</a> on the street. Whe",
+  "page_meta": {
+   "title": "Disabled people face increasing hostility from strangers, survey finds",
+   "authors": [
+    "Daniel Boffey"
+   ],
+   "date": "2011-05-14T20:09:34.000Z",
+   "site": "the Guardian",
+   "type": "NewsArticle"
+  }
+ },
+ "http://www.guardian.co.uk/society/2012/mar/09/half-uk-young-black-men-unemployed": {
+  "label": "Guardian report on Black youth unemployment",
+  "anchor_text": "continuing discrimination mediated through economics",
+  "post_context": "ust have a special resonance for the Black community; the legacy of slavery and <a href=\"http://www.guardian.co.uk/society/2012/mar/09/half-uk-young-black-men-unemployed\">continuing discrimination mediated through economics</a> cannot but b",
+  "page_meta": {
+   "title": "Half of UK's young black males are unemployed",
+   "authors": [
+    "James Ball",
+    "Dan Milmo",
+    "Ben Ferguson"
+   ],
+   "date": "2012-03-09T18:05:43.000Z",
+   "site": "the Guardian",
+   "type": "NewsArticle"
+  }
+ },
+ "http://www.guardian.co.uk/society/2012/mar/09/nhs-reforms-appeal-risk-register": {
+  "label": "Guardian article on NHS reform risk register",
+  "anchor_text": "Department of Health's decision to continue to defy the democratic right",
+  "post_context": "you think you are doing? I am referring, in this bombastic introduction, to the <a href=\"http://www.guardian.co.uk/society/2012/mar/09/nhs-reforms-appeal-risk-register\">Department of Health's decision to continue to defy the democratic righ",
+  "page_meta": {
+   "title": "NHS reforms: government to defy order to publish risk register",
+   "authors": [
+    "Denis Campbell"
+   ],
+   "date": "2012-03-09T11:44:55.000Z",
+   "site": "the Guardian",
+   "type": "NewsArticle"
+  }
+ }
+}

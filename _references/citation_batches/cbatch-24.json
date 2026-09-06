@@ -1,0 +1,422 @@
+{
+ "https://github.com/MartinPaulEve/content-drift/blob/main/engines/transformer_openai.py": {
+  "label": "content-drift OpenAI transformer implementation",
+  "anchor_text": null,
+  "post_context": "plementation of this transformer approach using the OpenAI API can be found at: https://github.com/MartinPaulEve/content-drift/blob/main/engines/transformer_openai.py. ### Neural Network-Based Clustering Techniques based on neural network",
+  "page_meta": {
+   "title": "content-drift/engines/transformer_openai.py at main · MartinPaulEve/content-drift",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/MartinPaulEve/content-drift/blob/main/engines/word_embeddings.py": {
+  "label": "content-drift word embeddings implementation",
+  "anchor_text": null,
+  "post_context": "w2vgdrive). An implementation of this word embedding approach can be found at: https://github.com/MartinPaulEve/content-drift/blob/main/engines/word_embeddings.py ### Sentence and Document Embeddings Similar to Word Embeddings except tha",
+  "page_meta": {
+   "title": "content-drift/engines/word_embeddings.py at main · MartinPaulEve/content-drift",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/MartinPaulEve/content-drift/tree/main": {
+  "label": "content-drift document similarity evaluation application",
+  "anchor_text": "evaluation application",
+  "post_context": "all Results These results were obtained by running the all-tests command on my [evaluation application](https://github.com/MartinPaulEve/content-drift/tree/main). A note: the application tries to measure the timing of imports, which are ha",
+  "page_meta": {
+   "title": "GitHub - MartinPaulEve/content-drift",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/MartinPaulEve/crossRefQuery/": {
+  "label": "Eve crossRefQuery Python script on GitHub",
+  "anchor_text": "crossRefQuery",
+  "post_context": "I've put together a simple Python script to assist in this process. It's called <a href=\"https://github.com/MartinPaulEve/crossRefQuery/\">crossRefQuery</a> and it does what it says, enabling future matches to be emailed to you.</p> <p>You c",
+  "page_meta": {
+   "title": "GitHub - MartinPaulEve/crossRefQuery: A python script to perform CrossRef API queries",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/MartinPaulEve/django-fargate": {
+  "label": "Eve's django-fargate demo project on GitHub",
+  "anchor_text": "a project demonstrating how to do this",
+  "post_context": "d deployed onto AWS Fargate. None of them worked for me. So I have put together [a project demonstrating how to do this](https://github.com/MartinPaulEve/django-fargate). It's available [on Github](https://github.com/MartinPaulEve/django-fa",
+  "page_meta": {
+   "title": "GitHub - MartinPaulEve/django-fargate",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/MartinPaulEve/epiLog/tree/master/epiLog": {
+  "label": "epiLog project repository on GitHub",
+  "anchor_text": "on my github",
+  "post_context": "mparison. The project is called epiLog and will be available during development <a href=\"https://github.com/MartinPaulEve/epiLog/tree/master/epiLog\">on my github</a>.</p> <h3>The Concept</h3> <p>I constantly make annotations on books, films",
+  "page_meta": {
+   "title": "epiLog/epiLog at master · MartinPaulEve/epiLog",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/MartinPaulEve/eprintsCV": {
+  "label": "eprintsCV tool on GitHub",
+  "anchor_text": "eprintsCV",
+  "post_context": "wn site</a>. I decided to do something about this.</p> <p>Allow me to introduce <a href=\"https://github.com/MartinPaulEve/eprintsCV\">eprintsCV</a>! This tool will grab your eprints articles, books, conference papers and book chapters and di",
+  "page_meta": {
+   "title": "GitHub - MartinPaulEve/eprintsCV: A script to generate a list of academic publications in a web/CV-friendly format for academic websites",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/MartinPaulEve/eprintsToCV": {
+  "label": "Eve eprintsToCV repository on GitHub",
+  "anchor_text": "the source code is available for this",
+  "post_context": "ser, using CSS regions technologies, then does a headless print via Chrome. All [the source code is available for this](https://github.com/MartinPaulEve/eprintsToCV). The problem is that Chrome has an option to wait until the page has full",
+  "page_meta": {
+   "title": "GitHub - MartinPaulEve/cv",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/MartinPaulEve/lloyds_tsb_scrape": {
+  "label": "MartinPaulEve lloyds_tsb_scrape GitHub repository",
+  "anchor_text": "https://github.com/MartinPaulEve/lloyds_tsb_scrape",
+  "post_context": "t. Instructions are in the README and the program is licensed under the GPL v3. <a href=\"https://github.com/MartinPaulEve/lloyds_tsb_scrape\">https://github.com/MartinPaulEve/lloyds_tsb_scrape</a>.</p> <p><i>Featured image by <a href=\"http:/",
+  "page_meta": {
+   "title": "GitHub - MartinPaulEve/lloyds_tsb_scrape: An HTML scraper for Lloyds TSB bank accounts",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/MartinPaulEve/meCite": {
+  "label": "meCite citation regex engine GitHub repository",
+  "anchor_text": "meCite",
+  "post_context": "t efforts in the past have been to write a cascading regular expression engine, <a href=\"https://github.com/MartinPaulEve/meCite\">meCite</a>, to which anybody is willing to contribute. I do intend to do more on this at some point.</p> <p>La",
+  "page_meta": {
+   "title": "GitHub - MartinPaulEve/meCite: meCite is a modular, extensible, regular-expression-based citation parsing library",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/MartinPaulEve/meTypeset": {
+  "label": "meTypeset Word-to-NLM typesetting tool",
+  "anchor_text": "meTypeset",
+  "post_context": "Typesetting in NLM format will be done through our (very) in-development tool, <a href=\"https://github.com/MartinPaulEve/meTypeset\">meTypeset</a>. This is AGPL v2 licensed and I'd welcome contributions; it's a basic attempt to start toward",
+  "page_meta": {
+   "title": "GitHub - MartinPaulEve/meTypeset: meTypeset is a tool to convert from Microsoft Word .docx format to NLM/JATS-XML for scholarly/scientific article typesetting.",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/MartinPaulEve/meTypeset/blob/fb11e34126493e0bf2b95681b558dd246fc6df38/bin/nlmmanipulate.py": {
+  "label": "meTypeset NLMManipulator class on GitHub",
+  "anchor_text": "our NLMManipulator class",
+  "post_context": "d to the tail after the comment() element in that XPath. This is implemented in <a href=\"https://github.com/MartinPaulEve/meTypeset/blob/fb11e34126493e0bf2b95681b558dd246fc6df38/bin/nlmmanipulate.py\">our NLMManipulator class</a>.</p> <p>The",
+  "page_meta": {
+   "title": "meTypeset/bin/nlmmanipulate.py at fb11e34126493e0bf2b95681b558dd246fc6df38 · MartinPaulEve/meTypeset",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/MartinPaulEve/meTypeset/commit/5662b3aeda62b9ee7a8bf009ce7b5cc77ed95fa6": {
+  "label": "meTypeset commit adding user caption handling",
+  "anchor_text": "handling user supplied captions",
+  "post_context": "aulEve/meTypeset/tree/dev\">meTypeset</a>). First off, the project is now nicely <a href=\"https://github.com/MartinPaulEve/meTypeset/commit/5662b3aeda62b9ee7a8bf009ce7b5cc77ed95fa6\">handling user supplied captions</a> to figures, so long as",
+  "page_meta": {
+   "title": "Link figure references in-text to graphic objects · MartinPaulEve/meTypeset@5662b3a",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/MartinPaulEve/meTypeset/tree/dev": {
+  "label": "meTypeset dev branch on GitHub",
+  "anchor_text": "meTypeset",
+  "post_context": "with it some notable changes to my scholarly article XML (NLM/JATS) typesetter (<a href=\"https://github.com/MartinPaulEve/meTypeset/tree/dev\">meTypeset</a>). First off, the project is now nicely <a href=\"https://github.com/MartinPaulEve/meT",
+  "page_meta": {
+   "title": "GitHub - MartinPaulEve/meTypeset at dev",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/MartinPaulEve/meTypeset/tree/zotero": {
+  "label": "meTypeset zotero branch on GitHub",
+  "anchor_text": "\"zotero\" branch of meTypeset",
+  "post_context": "Progress!</p> <div style=\"clear:both\"/> <p>Work in progress code resides in the <a href=\"https://github.com/MartinPaulEve/meTypeset/tree/zotero\">\"zotero\" branch of meTypeset</a>.</p> <p>Image below shows command line search of library and d",
+  "page_meta": {
+   "title": "GitHub - MartinPaulEve/meTypeset at zotero",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/MartinPaulEve/meve-iac": {
+  "label": "Eve's infrastructure-as-code repo on GitHub",
+  "anchor_text": "roughly what I came up with",
+  "post_context": "ur static site. Here's a [cloudcraft.co](https://app.cloudcraft.co/) diagram of [roughly what I came up with](https://github.com/MartinPaulEve/meve-iac).",
+  "page_meta": {
+   "title": "GitHub - MartinPaulEve/meve-iac: The terraform files to provision eve.gd",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/MartinPaulEve/meve-iac/tree/main/modules/terraform-aws-lambda-at-edge": {
+  "label": "Eve's Terraform Lambda@Edge module on GitHub",
+  "anchor_text": "pretty complicated",
+  "post_context": "server-side code and work out how to deploy this, which turns out, also, to be [pretty complicated](https://github.com/MartinPaulEve/meve-iac/tree/main/modules/terraform-aws-lambda-at-edge). Debugging these functions is also really difficu",
+  "page_meta": {
+   "title": "meve-iac/modules/terraform-aws-lambda-at-edge at main · MartinPaulEve/meve-iac",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/MartinPaulEve/seance4d/blob/main/seance4d/seance4d/main.py": {
+  "label": "seance4d voice AI main event loop source",
+  "anchor_text": "my main event loop",
+  "post_context": "needed a silence/noise detection system, so the check_voice_volume function in [my main event loop](https://github.com/MartinPaulEve/seance4d/blob/main/seance4d/seance4d/main.py) handles this. It basically looks for a consecutive 50 chunks",
+  "page_meta": {
+   "title": "seance4d/seance4d/seance4d/main.py at main · MartinPaulEve/seance4d",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/Matige/synology-wireguard/tree/DSM7.0": {
+  "label": "Matige Synology WireGuard DSM 7 kernel module",
+  "anchor_text": null,
+  "post_context": "DSM 7 (this went _remarkably_ smoothly!) 2. Clone the DSM 7 kernel module from https://github.com/Matige/synology-wireguard/tree/DSM7.0 3. Run these commands:",
+  "page_meta": {
+   "title": "GitHub - matige/synology-wireguard at DSM7.0",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/NateWr": {
+  "label": "Nate Wright GitHub profile",
+  "anchor_text": "Nate Wright",
+  "post_context": "<p>I received an interesting email this week from <a href=\"https://github.com/NateWr\">Nate Wright</a>, who posed the following questions:</p> <blockquote><p>I'm a web developer interested in contributing to a l",
+  "page_meta": {
+   "title": "NateWr - Overview",
+   "site": "GitHub",
+   "type": "profile"
+  }
+ },
+ "https://github.com/Textualize/rich": {
+  "label": "Textualize Rich Python CLI formatting library",
+  "anchor_text": "Rich library",
+  "post_context": "wire-up to the CLI. # Rich I only discovered this just the other day, but the [Rich library](https://github.com/Textualize/rich) provides loads of really beautiful functionality for command-line applications to create better interactivity",
+  "page_meta": {
+   "title": "GitHub - Textualize/rich: Rich is a Python library for rich text and beautiful formatting in the terminal.",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/anthropics/claude-code/issues/4160": {
+  "label": "Claude Code deny-rules GitHub issue",
+  "anchor_text": "deny rules",
+  "post_context": "would impose severe restrictions on the coder's ability). There is an official \"[deny rules](https://github.com/anthropics/claude-code/issues/4160)\" mechanism that one is apparently supposed to use, but Claude could circumvent this by writi",
+  "page_meta": {
+   "title": "Support \".claudeignore\" file to prevent secret exposure",
+   "authors": [
+    "victor-bluera"
+   ],
+   "date": "2025-07-22T21:22:48.000Z",
+   "site": "GitHub",
+   "type": "DiscussionForumPosting"
+  }
+ },
+ "https://github.com/bobbui/json-logging-python": {
+  "label": "json-logging-python JSON logger library",
+  "anchor_text": "a JSON logger",
+  "post_context": "like any other. ### Log in JSON Format Logs written to CloudWatch should use [a JSON logger](https://github.com/bobbui/json-logging-python) so that these can be parsed automatically by Grafana and other querying tools. ### Push Ephemera",
+  "page_meta": {
+   "title": "GitHub - bobbui/json-logging-python: Cloud-native distributed Python logging library to emit JSON log that can be easily indexed by logging infrastructure",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/dask/distributed/issues/6846": {
+  "label": "Dask issue: errors after cluster shutdown",
+  "anchor_text": "errors spewing to the console after shutdown of the Dask cluster",
+  "post_context": "kRunner, to patch a set of bugs in Dask. The most annoying of these is a set of [errors spewing to the console after shutdown of the Dask cluster](https://github.com/dask/distributed/issues/6846). This appears to be related to weakref final",
+  "page_meta": {
+   "title": "RuntimeError: cannot schedule new futures after shutdown",
+   "authors": [
+    "graingert"
+   ],
+   "date": "2022-08-08T10:04:07.000Z",
+   "site": "GitHub",
+   "type": "DiscussionForumPosting"
+  }
+ },
+ "https://github.com/davidmcclure/textplot": {
+  "label": "David McClure TextPlot GitHub tool",
+  "anchor_text": "excellent and fun TextPlot tool",
+  "post_context": "This is really speculative, but today I returned to David McClure's [excellent and fun TextPlot tool](https://github.com/davidmcclure/textplot). A type of topic modelling (but not LDA), McClure explains his [Bray-Curtis dissimil",
+  "page_meta": {
+   "title": "GitHub - davidmcclure/textplot: (Mental) maps of texts with kernel density estimation and force-directed networks.",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/elifesciences/lens": {
+  "label": "eLife Lens XML viewer on GitHub",
+  "anchor_text": "lens viewer",
+  "post_context": "for <a href=\"https://www.pynchon.net/\">Orbit</a> (and for my hoped-for move to <a href=\"https://github.com/elifesciences/lens\">lens viewer</a> at some point). Basically, here the user can select a specific option (Skip, Delete (remove the",
+  "page_meta": {
+   "title": "GitHub - elifesciences/lens: A novel way of viewing eLife articles.",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/fosrl/pangolin": {
+  "label": "Pangolin internal-service HTTPS tunnelling tool",
+  "anchor_text": "Pangolin",
+  "post_context": "I have been playing around with [Pangolin](https://github.com/fosrl/pangolin), a really nice management system for exposing internal services over HTTPS. However, I found that its internal wi",
+  "page_meta": {
+   "title": "GitHub - fosrl/pangolin: Modern networking and security platform providing secure access and connectivity to apps, infrastructure, and AI workloads. Connect and protect your users.",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/gravitl/netmaker": {
+  "label": "NetMaker WireGuard configuration tool on GitHub",
+  "anchor_text": "NetMaker",
+  "post_context": "se the new Wireguard protocol, replacing the OpenVPN setup. To do this, I used [NetMaker](https://github.com/gravitl/netmaker) for the configuration and setup and I have to say that it is superb. It works a treat on systems that have Wireg",
+  "page_meta": {
+   "title": "GitHub - gravitl/netmaker: Netmaker makes networks with WireGuard. Netmaker automates fast, secure, and distributed virtual networks.",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/infosimples/detect-headless": {
+  "label": "detect-headless JavaScript headless browser detection suite",
+  "anchor_text": "a great Github javascript suite",
+  "post_context": "t headless browsers and block them with a 403 Permission Denied error. There's [a great Github javascript suite](https://github.com/infosimples/detect-headless) that aims to help you evade headless detection. The tests it uses are: * User",
+  "page_meta": {
+   "title": "GitHub - infosimples/detect-headless: Access https://infosimples.github.io/detect-headless to run several headless detection tests against your browser.",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/inveniosoftware/invenio-saml/pull/48": {
+  "label": "Ian's invenio-saml SAML user matching pull request",
+  "anchor_text": "The second contribution",
+  "post_context": "of Invenio's test framework and has submitted a new pull request to fix this. [The second contribution](https://github.com/inveniosoftware/invenio-saml/pull/48) is really key to us: we need to be able to match up users who login to Inveni",
+  "page_meta": {
+   "title": "Allow customizing the user lookup function in acs_handler_factory by monotasker · Pull Request #48 · inveniosoftware/invenio-saml",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/inveniosoftware/pytest-invenio/issues/114": {
+  "label": "Ian's pytest-invenio test framework fix, GitHub issue",
+  "anchor_text": "The first of Ian's changes",
+  "post_context": "enio community exemplifies the collaborative approach for which we are aiming. [The first of Ian's changes](https://github.com/inveniosoftware/pytest-invenio/issues/114) is very technical, but essentially: unit and integration tests are ke",
+  "page_meta": {
+   "title": "Detached instance error at cleanup of location fixture",
+   "authors": [
+    "monotasker"
+   ],
+   "date": "2025-02-20T15:56:39.000Z",
+   "site": "GitHub",
+   "type": "DiscussionForumPosting"
+  }
+ },
+ "https://github.com/lastpass/lastpass-cli/issues/604": {
+  "label": "LastPass CLI GitHub issue with login fix",
+  "anchor_text": "a simple fix",
+  "post_context": "tpass CLI tool and it just says \"unknown\" when you enter your password, there's [a simple fix](https://github.com/lastpass/lastpass-cli/issues/604). Go to My Vault -> Account Settings. In there, press \"Show Advanced Settings\". Then set \"",
+  "page_meta": {
+   "title": "lpass login returns 'unknown' - iterations.php behavior changed",
+   "authors": [
+    "mjbroekman"
+   ],
+   "date": "2021-05-18T15:23:41.000Z",
+   "site": "GitHub",
+   "type": "DiscussionForumPosting"
+  }
+ },
+ "https://github.com/m0sia/pyParrotZik": {
+  "label": "pyParrotZik cross-platform Parrot Zik indicator",
+  "anchor_text": "a great-looking cross-platform indicator icon for the headphones",
+  "post_context": "<p>Switching back into my Linux installation I found that somebody had written <a href=\"https://github.com/m0sia/pyParrotZik\">a great-looking cross-platform indicator icon for the headphones</a>, having reverse engineered the protocol. I c",
+  "page_meta": {
+   "title": "GitHub - m0sia/pyParrotZik: Python Parrot Zik API and tools",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/m0sia/pyParrotZik/pull/1": {
+  "label": "Eve's pull request fix to pyParrotZik",
+  "anchor_text": "committed it back as a pull request",
+  "post_context": "ee what's wrong. About five minutes later I'd written a fix for the problem and <a href=\"https://github.com/m0sia/pyParrotZik/pull/1\">committed it back as a pull request</a> to the original author so that everyone can benefit.</p> <p>Now, t",
+  "page_meta": {
+   "title": "Add second option for icon paths on Linux by MartinPaulEve · Pull Request #1 · m0sia/pyParrotZik",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/mfenner/pandoc-jats": {
+  "label": "pandoc-JATS GitHub repository by Fenner",
+  "anchor_text": "pandoc-JATS repository",
+  "post_context": "could be used to generate a JATS bibliography. His current efforts were in the <a href=\"https://github.com/mfenner/pandoc-jats\">pandoc-JATS repository</a>. These efforts stopped, however, following <a href=\"http://xbiblio-devel.2463403.n2.",
+  "page_meta": {
+   "title": "GitHub - mfenner/pandoc-jats: A Lua custom writer for Pandoc generating JATS XML",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/openlibhums/janeway/": {
+  "label": "Janeway open-access publishing platform on GitHub",
+  "anchor_text": "Janeway",
+  "post_context": "xt steps, soon. In the meanwhile, I am doing some contract work hacking away at [Janeway](https://github.com/openlibhums/janeway/), building out some scholcomms features that we've wanted for a while!",
+  "page_meta": {
+   "title": "GitHub - openlibhums/janeway: A web-based platform for publishing journals, preprints, conference proceedings, and books",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/pkp/ojs/commit/b38d1e86c7f918cfcd76baa5bd47eb0bc36f6173": {
+  "label": "GitHub commit merging CLOCKSS manifest into OJS",
+  "anchor_text": "has been merged",
+  "post_context": "how_bug.cgi?id=7958\">my patch</a> to add a CLOCKSS manifest to OJS' LOCKSS page <a href=\"https://github.com/pkp/ojs/commit/b38d1e86c7f918cfcd76baa5bd47eb0bc36f6173\">has been merged</a>!</p> <p>This means that anybody who wants to sign up to",
+  "page_meta": {
+   "title": "*7958* Add CLOCKSS license to LOCKSS manifest · pkp/ojs@b38d1e8",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/pkp/ojs/pull/49": {
+  "label": "GitHub pull request for revised OJS CLOCKSS patch",
+  "anchor_text": "I've re-done the patch",
+  "post_context": "e option to turn off the CLOCKSS manifest.</p> <p>Anyway, after extensive work, <a href=\"https://github.com/pkp/ojs/pull/49\">I've re-done the patch</a> so that OJS has fully customizable CLOCKSS support that can be enabled and disabled inde",
+  "page_meta": {
+   "title": "*Bug 7958* Support for a CLOCKSS manifest by MartinPaulEve · Pull Request #49 · pkp/ojs",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/runfalk/synology-wireguard/issues/66#issuecomment-900438379": {
+  "label": "GitHub comment on Synology WireGuard Denverton setup",
+  "anchor_text": "what I did",
+  "post_context": "7. It also requires a kernel module to be loaded into the Synology box. Here's [what I did](https://github.com/runfalk/synology-wireguard/issues/66#issuecomment-900438379) to get this working on a Denverton (DS1819+) box: 1. Upgrade to DS",
+  "page_meta": {
+   "title": "DSM 7 support?",
+   "authors": [
+    "Kopernikus1979"
+   ],
+   "date": "2020-12-30T09:13:52.000Z",
+   "site": "GitHub",
+   "type": "DiscussionForumPosting"
+  }
+ },
+ "https://github.com/sampsyo/beets/": {
+  "label": "beets music tagger on GitHub",
+  "anchor_text": "beets music tagger",
+  "post_context": "ning in interactive mode</p> <p>This interface, which is based on the excellent <a href=\"https://github.com/sampsyo/beets/\">beets music tagger</a>, will be of great personal use to me when I typeset articles for <a href=\"https://www.pynchon",
+  "page_meta": {
+   "title": "GitHub - beetbox/beets: music library manager and MusicBrainz tagger",
+   "site": "GitHub",
+   "type": "object"
+  }
+ }
+}

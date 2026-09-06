@@ -1,0 +1,187 @@
+{
+  "https://www.coalition-s.org/coalition-s-endorses-the-s2o-model-of-funding-oa/": {
+    "title": "cOAlition S endorses the Subscribe to Open (S2O) model of funding open access",
+    "type": "WebPage",
+    "isPartOf": {"name": "Plan S", "type": "WebSite"}
+  },
+  "https://www.coalition-s.org/diamond-unearthed-shining-light-on-community-driven-open-access-publishing/": {
+    "title": "Diamond unearthed: shining light on community-driven Open Access publishing",
+    "type": "WebPage",
+    "isPartOf": {"name": "Plan S", "type": "WebSite"}
+  },
+  "https://www.coalition-s.org/why-plan-s/": {
+    "title": "Why Plan S",
+    "type": "WebPage",
+    "isPartOf": {"name": "Plan S", "type": "WebSite"}
+  },
+  "https://www.contractsfinder.service.gov.uk/Notice/26d25c44-4c38-4d4c-93ca-9a580ac39724": {
+    "title": "UK SBS BLOJEU-CR150082HEFCE Provision Of Citation Indicators",
+    "type": "WebPage",
+    "isPartOf": {"name": "Contracts Finder", "type": "WebSite"}
+  },
+  "https://www.contractsfinder.service.gov.uk/Notice/456093c1-17ae-4548-814f-23b4fdb8ed9a": {
+    "title": "UK SBS CR18077 Open Access Monographs",
+    "type": "WebPage",
+    "isPartOf": {"name": "Contracts Finder", "type": "WebSite"}
+  },
+  "https://www.crossref.org/blog/outage-of-october-6-2021/": {
+    "title": "Outage of October 6, 2021",
+    "author": "Isaac Farley",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Crossref", "type": "Blog"}
+  },
+  "https://www.crossref.org/documentation/retrieve-metadata/rest-api/tips-for-using-public-data-files-and-plus-snapshots/": {
+    "title": "Tips for using public data files and Plus snapshots",
+    "type": "TechArticle",
+    "isPartOf": {"name": "Crossref", "type": "WebSite"}
+  },
+  "https://www.crossref.org/people/martin-eve/": {
+    "title": "Martin Eve",
+    "type": "WebPage",
+    "isPartOf": {"name": "Crossref", "type": "WebSite"}
+  },
+  "https://www.dailymail.co.uk/health/article-10746187/Covid-19-Vulnerable-patients-denied-800-anti-viral-jab-unless-private.html": {
+    "title": "Covid 19: Vulnerable patients denied £800 anti-viral jab unless they go private",
+    "author": "Ethan Ennals",
+    "date": "2022-04-23",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "Daily Mail", "type": "Periodical"}
+  },
+  "https://www.dropbox.com/home": {
+    "title": "Dropbox",
+    "type": "WebSite"
+  },
+  "https://www.dropbox.com/referrals/NTEwNzk5NzEzOQ?src=global0": {
+    "title": "Dropbox",
+    "type": "WebSite"
+  },
+  "https://www.dukeupress.edu/": {
+    "title": "Duke University Press",
+    "type": "WebSite"
+  },
+  "https://www.editions-harmattan.fr/index.asp?navig=catalogue&obj=livre&no=16032": null,
+  "https://www.elsevier.com/connect/addressing-the-resignation-of-the-lingua-editorial-board": null,
+  "https://www.elsevier.com/connect/allegations-linking-sci-hub-with-russian-intelligence": {
+    "title": "Allegations linking Sci-Hub with Russian Intelligence",
+    "date": "2019-12-20",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "Elsevier Connect", "type": "WebSite"}
+  },
+  "https://www.etymonline.com/word/principle": {
+    "title": "Principle - Etymology, Origin & Meaning",
+    "type": "WebPage",
+    "isPartOf": {"name": "etymonline", "type": "WebSite"}
+  },
+  "https://www.explainxkcd.com/wiki/index.php/2839:_Language_Acquisition": {
+    "title": "2839: Language Acquisition",
+    "type": "WebPage",
+    "isPartOf": {"name": "explain xkcd", "type": "WebSite"}
+  },
+  "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2021.679775/full": {
+    "title": "Randomized Cross Over Study Assessing the Efficacy of Non-invasive Stimulation of the Vagus Nerve in Patients With Axial Spondyloarthritis Resistant to Biotherapies: The ESNV-SPA Study Protocol",
+    "author": ["Azabou, Eric", "Bao, Guillaume", "Costantino, Félicie", "Jacota, Madalina", "Lazizi, Chanez", "Nkam, Lionelle", "Rottman, Martin", "Roux, Anne-Laure"],
+    "date": "2021-06-30",
+    "type": "ScholarlyArticle",
+    "isPartOf": {"name": "Frontiers in Human Neuroscience", "type": "Periodical"}
+  },
+  "https://www.gnu.org/philosophy/lessig-fsfs-intro.html": {
+    "title": "Introduction to Free Software, Free Society",
+    "type": "WebPage",
+    "isPartOf": {"name": "GNU Project", "type": "WebSite"}
+  },
+  "https://www.gnu.org/philosophy/not-ipr.html": {
+    "title": "Did You Say “Intellectual Property”? It’s a Seductive Mirage",
+    "type": "WebPage",
+    "isPartOf": {"name": "GNU Project", "type": "WebSite"}
+  },
+  "https://www.gnu.org/philosophy/software-patents.en.html": {
+    "title": "Software Patents",
+    "type": "WebPage",
+    "isPartOf": {"name": "GNU Project", "type": "WebSite"}
+  },
+  "https://www.gnupg.org/": {
+    "title": "The GNU Privacy Guard",
+    "type": "WebSite"
+  },
+  "https://www.gnupg.org/software/frontends.html": {
+    "title": "GnuPG - Frontends",
+    "type": "WebPage",
+    "isPartOf": {"name": "GnuPG", "type": "WebSite"}
+  },
+  "https://www.gov.uk/government/news/evusheld-approved-to-prevent-covid-19-in-people-whose-immune-response-is-poor": {
+    "title": "Evusheld approved to prevent COVID-19 in people whose immune response is poor",
+    "date": "2022-03-17",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "GOV.UK", "type": "WebSite"}
+  },
+  "https://www.gov.uk/government/publications/decision-on-evusheld-as-a-coronavirus-covid-19-treatment-letter-to-patient-groups/decision-on-evusheld-as-a-covid-19-treatment": {
+    "title": "Decision on Evusheld as a COVID-19 treatment",
+    "date": "2022-10-06",
+    "type": "WebPage",
+    "publisher": "Department of Health and Social Care",
+    "isPartOf": {"name": "GOV.UK", "type": "WebSite"}
+  },
+  "https://www.gov.uk/government/publications/higher-risk-patients-eligible-for-covid-19-treatments-independent-advisory-group-report/defining-the-highest-risk-clinical-subgroups-upon-community-infection-with-sars-cov-2-when-considering-the-use-of-neutralising-monoclonal-antibodies": {
+    "title": "Defining the highest-risk clinical subgroups upon community infection with SARS-CoV-2 when considering the use of neutralising monoclonal antibodies (nMABs) and antiviral drugs: independent advisory group report",
+    "date": "2022-05-30",
+    "type": "Report",
+    "publisher": "Department of Health and Social Care",
+    "isPartOf": {"name": "GOV.UK", "type": "WebSite"}
+  },
+  "https://www.gov.uk/government/publications/open-access-to-research-independent-advice": {
+    "title": "Open access to research: independent advice",
+    "date": "2016-02-11",
+    "type": "Report",
+    "publisher": "Department for Business, Innovation & Skills",
+    "isPartOf": {"name": "GOV.UK", "type": "WebSite"}
+  },
+  "https://www.gov.uk/government/publications/uk-covid-19-inquiry-impact-of-covid-19-pandemic-on-healthcare-systems-in-the-four-nations-of-the-united-kingdom-module-3-report": {
+    "title": "UK Covid-19 Inquiry: Impact of Covid-19 pandemic on healthcare systems in the four nations of the United Kingdom (Module 3) Report",
+    "date": "2026-03-19",
+    "type": "Report",
+    "publisher": "Cabinet Office",
+    "isPartOf": {"name": "GOV.UK", "type": "WebSite"}
+  },
+  "https://www.gov.uk/government/speeches/higher-education-fulfilling-our-potential": {
+    "title": "Higher education: fulfilling our potential",
+    "date": "2015-09-09",
+    "type": "WebPage",
+    "isPartOf": {"name": "GOV.UK", "type": "WebSite"}
+  },
+  "https://www.hefce.ac.uk/media/hefce/content/pubs/2014/201407/HEFCE2014_07.pdf": {
+    "title": "Policy for Open Access in the Post-2014 Research Excellence Framework",
+    "type": "Report",
+    "publisher": "HEFCE"
+  },
+  "https://www.hup.harvard.edu/catalog.php?isbn=9780674307605": {
+    "title": "The Footnote",
+    "type": "Book",
+    "isPartOf": {"name": "Harvard University Press", "type": "WebSite"}
+  },
+  "https://www.imperial.ac.uk/news/236034/lasting-brain-impacts-severe-covid-19-equivalent/": {
+    "title": "Lasting brain impacts of severe COVID-19 equivalent to 20 years of ageing",
+    "author": "Ryan O'Hare",
+    "date": "2022-05-03",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "Imperial College London", "type": "WebSite"}
+  },
+  "https://www.insidehighered.com/news/2017/08/21/cambridge-university-press-blocks-access-300-plus-articles-request-chinese-censors": {
+    "title": "Cambridge University Press blocks access to 300-plus articles on request of Chinese censors",
+    "author": "Elizabeth Redden",
+    "date": "2017-08-20",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "Inside Higher Ed", "type": "Periodical"}
+  },
+  "https://www.jstor.org/stable/608272": null,
+  "https://www.junodownload.com/products/course-correction-ep/3775354-02/": null,
+  "https://www.junodownload.com/products/javier-busto-dopamine/4114214-02/": null,
+  "https://www.junodownload.com/products/martin-eve-the-learning-experience/4112383-02/": null,
+  "https://www.junodownload.com/products/marti…ce/4112383-02/": null,
+  "https://www.junodownload.com/products/the-long-champs-opsimath-eremite/4080306-02/": null,
+  "https://www.kcl.ac.uk/news/65-of-adults-are-worried-about-access-to-palliative-care": {
+    "title": "65% of adults are worried about access to palliative care",
+    "date": "2024-04-29",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "King's College London", "type": "WebSite"}
+  }
+}

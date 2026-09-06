@@ -1,0 +1,214 @@
+{
+  "https://academicirregularities.wordpress.com/2016/12/02/ten-myths-and-a-truth-from-the-tef-reading-the-white-paper/": {
+    "title": "Ten Myths and a Truth from the TEF: Reading the White Paper",
+    "date": "2016-12-02",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Academic Irregularities", "type": "Blog"}
+  },
+  "https://ahropenreview.com/HistoryCanBeOpenSource/": {
+    "title": "Introduction, AHR Open Review",
+    "type": "WebPage",
+    "isPartOf": {"name": "AHR Open Review", "type": "WebSite"}
+  },
+  "https://ahropenreview.com/HistoryCanBeOpenSource/editors-comments/": {
+    "title": "Editor's Comments",
+    "author": "Alex Lichtenstein",
+    "type": "WebPage",
+    "isPartOf": {"name": "AHR Open Review", "type": "WebSite"}
+  },
+  "https://ahropenreview.com/HistoryCanBeOpenSource/readers-report-2/": {
+    "title": "Reader's Report #2",
+    "type": "WebPage",
+    "isPartOf": {"name": "AHR Open Review", "type": "WebSite"}
+  },
+  "https://answers.launchpad.net/hplip/+question/208678": {
+    "title": "Question #208678 \"Cannot set scan resolution on a Photosmart C63...\" : Questions : HPLIP",
+    "type": "WebPage",
+    "isPartOf": {"name": "Launchpad", "type": "WebSite"}
+  },
+  "https://api.labs.crossref.org/": {
+    "title": "Crossref Labs API",
+    "type": "WebSite"
+  },
+  "https://app.cloudcraft.co/": {
+    "title": "Cloudcraft – Draw AWS diagrams",
+    "type": "WebSite",
+    "isPartOf": {"name": "Cloudcraft", "type": "WebSite"}
+  },
+  "https://archive.factordaily.com/richard-stallman-india/": {
+    "title": "Why free software evangelist Richard Stallman is haunted by Stalin's dream",
+    "date": "2019-01-23",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "FactorDaily", "type": "Periodical"}
+  },
+  "https://arstechnica.com/gadgets/2020/01/linux-on-laptops-ubuntu-19-10-on-the-hp-dragonfly-elite-g1/": {
+    "title": "Linux on laptops: Ubuntu 19.10 on the HP Dragonfly Elite G1",
+    "author": "Jim Salter",
+    "date": "2020-01-27",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "Ars Technica", "type": "Periodical"}
+  },
+  "https://arxiv.org/": {
+    "title": "arXiv.org e-Print archive",
+    "type": "WebSite"
+  },
+  "https://atm-ucla2017.net/": null,
+  "https://aws.amazon.com/": {
+    "title": "Cloud Computing Services - Amazon Web Services (AWS)",
+    "type": "WebSite"
+  },
+  "https://aws.amazon.com/blogs/compute/implementing-default-directory-indexes-in-amazon-s3-backed-amazon-cloudfront-origins-using-lambdaedge/": {
+    "title": "Implementing Default Directory Indexes in Amazon S3-backed Amazon CloudFront Origins Using Lambda@Edge",
+    "date": "2017-10-18",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Amazon Web Services Blog", "type": "Blog"}
+  },
+  "https://bills.parliament.uk/bills/3741": {
+    "title": "Assisted Dying for Terminally Ill Adults Bill [HL]",
+    "type": "WebPage",
+    "isPartOf": {"name": "UK Parliament", "type": "WebSite"}
+  },
+  "https://bit.ly/w2vgdrive": {
+    "title": "GoogleNews-vectors-negative300.bin.gz",
+    "type": "WebPage"
+  },
+  "https://blogs.harvard.edu/pamphlet/2009/05/28/open-access-policies-and-academic-freedom/": {
+    "title": "Open-access policies and academic freedom",
+    "author": "Stuart Shieber",
+    "date": "2009-05-28",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "The Occasional Pamphlet", "type": "Blog"}
+  },
+  "https://blogs.lse.ac.uk/impactofsocialsciences/2018/10/24/plan-show-me-the-money-why-academic-led-initiatives-represent-a-more-equitable-less-costly-publishing-future/": {
+    "title": "Plan S[how me the money]: why academic-led initiatives represent a more equitable, less costly publishing future",
+    "date": "2018-10-24",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "LSE Impact Blog", "type": "Blog"}
+  },
+  "https://blogs.lse.ac.uk/impactofsocialsciences/2025/03/31/academic-libraries-cannot-afford-to-carry-on-with-transformative-agreements/": {
+    "title": "Academic libraries cannot afford to carry on with transformative agreements",
+    "author": "Caroline Edwards",
+    "date": "2025-03-31",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "LSE Impact Blog", "type": "Blog"}
+  },
+  "https://blogs.openbookpublishers.com/introducing-some-data-to-the-open-access-debate-obps-business-model-part-one/": {
+    "title": "Introducing Some Data to the Open Access Debate: OBP's Business Model (Part One)",
+    "author": "Rupert Gatti",
+    "date": "2015-10-15",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Open Book Publishers Blog", "type": "Blog"}
+  },
+  "https://boingboing.net/2019/08/02/publicsphere-v-elsevier.html": {
+    "title": "Elsevier sends copyright threat to site for linking to Sci-Hub",
+    "author": "Cory Doctorow",
+    "date": "2019-08-02",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Boing Boing", "type": "Blog"}
+  },
+  "https://books.eve.gd": {
+    "title": "eve.gd: Martin Paul Eve",
+    "author": "Martin Paul Eve",
+    "type": "WebPage",
+    "isPartOf": {"name": "eve.gd", "type": "WebSite"}
+  },
+  "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/cloudwatch/client/put_metric_data.html": {
+    "title": "put_metric_data - Boto3 documentation",
+    "type": "TechArticle"
+  },
+  "https://bsky.app/profile/lisalibrarian.bsky.social/post/3mcfrgigv4k2k": {
+    "title": "Lisa Janicke Hinchliffe (@lisalibrarian.bsky.social)",
+    "author": "Lisa Janicke Hinchliffe",
+    "date": "2026-01-14",
+    "type": "WebPage",
+    "isPartOf": {"name": "Bluesky Social", "type": "WebSite"}
+  },
+  "https://bugs.launchpad.net/ubuntu/+source/alsa-driver/+bug/680844": {
+    "title": "Bug #680844 \"[Conexant CX20585] Headphone jack doesn't work\"",
+    "type": "WebPage",
+    "isPartOf": {"name": "Launchpad", "type": "WebSite"}
+  },
+  "https://bugs.launchpad.net/ubuntu/+source/libmad/+bug/989846": {
+    "title": "Bug #989846 \"libmad causes mpd to seg fault on update\"",
+    "type": "WebPage",
+    "isPartOf": {"name": "Launchpad", "type": "WebSite"}
+  },
+  "https://bugs.launchpad.net/ubuntu/+source/thunderbird/+bug/751067": {
+    "title": "Bug #751067 \"Colors are mangled in Natty\"",
+    "type": "WebPage",
+    "isPartOf": {"name": "Launchpad", "type": "WebSite"}
+  },
+  "https://bugs.launchpad.net/ubuntu/karmic/+source/bash-completion/+bug/449349": {
+    "title": "Bug #449349 \"regression for completing remote files/dirs over ssh...\"",
+    "type": "WebPage",
+    "isPartOf": {"name": "Launchpad", "type": "WebSite"}
+  },
+  "https://cdlib.org/": {
+    "title": "California Digital Library",
+    "type": "WebSite"
+  },
+  "https://ceup.openingthefuture.net/about/": {
+    "title": "Opening the Future",
+    "type": "WebPage"
+  },
+  "https://chronicle.com/article/An-Emerging-Field-Deconstructs/130791/": {
+    "title": "An Emerging Field Deconstructs Academe",
+    "date": "2012-02-19",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Chronicle of Higher Education", "type": "Periodical"}
+  },
+  "https://chronicle.com/blogs/profhacker/": {
+    "title": "ProfHacker",
+    "type": "WebPage",
+    "isPartOf": {"name": "The Chronicle of Higher Education", "type": "Periodical"}
+  },
+  "https://copim.pubpub.org/pub/wp-3-working-to-transition-central-european-university-press-to-open-access/": {
+    "title": "Work Package 3: Transitioning the Central European University Press to Open Access",
+    "author": "Martin Paul Eve",
+    "date": "2020-10-22",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Copim", "type": "Blog"}
+  },
+  "https://copyrightliteracy.org/2024/01/12/thj-v-sheridan-a-new-era-for-copyright-in-uk-cultural-institutions/": {
+    "title": "THJ v Sheridan: A new era for copyright in UK cultural institutions?",
+    "date": "2024-01-12",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Copyright Literacy", "type": "Blog"}
+  },
+  "https://core.ac.uk/": {
+    "title": "The world's largest collection of open access research papers",
+    "type": "WebSite"
+  },
+  "https://council.science/current/blog/distributed-models-for-open-access-publishing-qa-with-martin-eve": {
+    "title": "Distributed models for open access publishing: Q&A with Martin Eve",
+    "date": "2019-06-12",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "International Science Council", "type": "WebSite"}
+  },
+  "https://coursecorrection.bandcamp.com/album/mine-fly": {
+    "title": "Mine/Fly",
+    "date": "2019",
+    "type": "WebPage",
+    "isPartOf": {"name": "Course Correction", "type": "WebSite"}
+  },
+  "https://covid19.public-inquiry.uk/documents/module-3-full-report": {
+    "title": "Module 3 Report - The impact of the Covid-19 pandemic on the healthcare systems of the United Kingdom",
+    "type": "Report",
+    "publisher": "UK Covid-19 Inquiry"
+  },
+  "https://covid19.public-inquiry.uk/documents/module-3-in-brief-report/": {
+    "title": "Module 3 Report 'In Brief' summary – The impact of the Covid-19 pandemic on the healthcare systems of the United Kingdom",
+    "type": "Report",
+    "publisher": "UK Covid-19 Inquiry"
+  },
+  "https://creativecommons.org/choose/zero/": {
+    "title": "Chooser",
+    "type": "WebPage",
+    "isPartOf": {"name": "Creative Commons", "type": "WebSite"}
+  },
+  "https://creativecommons.org/licenses/by/4.0/legalcode": {
+    "title": "Legal Code - Attribution 4.0 International",
+    "type": "WebPage",
+    "isPartOf": {"name": "Creative Commons", "type": "WebSite"}
+  }
+}

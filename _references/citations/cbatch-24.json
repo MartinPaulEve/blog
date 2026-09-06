@@ -1,0 +1,213 @@
+{
+  "https://github.com/MartinPaulEve/content-drift/blob/main/engines/transformer_openai.py": {
+    "title": "content-drift/engines/transformer_openai.py at main · MartinPaulEve/content-drift",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/MartinPaulEve/content-drift/blob/main/engines/word_embeddings.py": {
+    "title": "content-drift/engines/word_embeddings.py at main · MartinPaulEve/content-drift",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/MartinPaulEve/content-drift/tree/main": {
+    "title": "GitHub - MartinPaulEve/content-drift",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/MartinPaulEve/crossRefQuery/": {
+    "title": "GitHub - MartinPaulEve/crossRefQuery: A python script to perform CrossRef API queries",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/MartinPaulEve/django-fargate": {
+    "title": "GitHub - MartinPaulEve/django-fargate",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/MartinPaulEve/epiLog/tree/master/epiLog": {
+    "title": "epiLog/epiLog at master · MartinPaulEve/epiLog",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/MartinPaulEve/eprintsCV": {
+    "title": "GitHub - MartinPaulEve/eprintsCV: A script to generate a list of academic publications in a web/CV-friendly format for academic websites",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/MartinPaulEve/eprintsToCV": {
+    "title": "GitHub - MartinPaulEve/cv",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/MartinPaulEve/lloyds_tsb_scrape": {
+    "title": "GitHub - MartinPaulEve/lloyds_tsb_scrape: An HTML scraper for Lloyds TSB bank accounts",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/MartinPaulEve/meCite": {
+    "title": "GitHub - MartinPaulEve/meCite: meCite is a modular, extensible, regular-expression-based citation parsing library",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/MartinPaulEve/meTypeset": {
+    "title": "GitHub - MartinPaulEve/meTypeset: meTypeset is a tool to convert from Microsoft Word .docx format to NLM/JATS-XML for scholarly/scientific article typesetting.",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/MartinPaulEve/meTypeset/blob/fb11e34126493e0bf2b95681b558dd246fc6df38/bin/nlmmanipulate.py": {
+    "title": "meTypeset/bin/nlmmanipulate.py at fb11e34126493e0bf2b95681b558dd246fc6df38 · MartinPaulEve/meTypeset",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/MartinPaulEve/meTypeset/commit/5662b3aeda62b9ee7a8bf009ce7b5cc77ed95fa6": {
+    "title": "Link figure references in-text to graphic objects · MartinPaulEve/meTypeset@5662b3a",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/MartinPaulEve/meTypeset/tree/dev": {
+    "title": "GitHub - MartinPaulEve/meTypeset at dev",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/MartinPaulEve/meTypeset/tree/zotero": {
+    "title": "GitHub - MartinPaulEve/meTypeset at zotero",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/MartinPaulEve/meve-iac": {
+    "title": "GitHub - MartinPaulEve/meve-iac: The terraform files to provision eve.gd",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/MartinPaulEve/meve-iac/tree/main/modules/terraform-aws-lambda-at-edge": {
+    "title": "meve-iac/modules/terraform-aws-lambda-at-edge at main · MartinPaulEve/meve-iac",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/MartinPaulEve/seance4d/blob/main/seance4d/seance4d/main.py": {
+    "title": "seance4d/seance4d/seance4d/main.py at main · MartinPaulEve/seance4d",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/Matige/synology-wireguard/tree/DSM7.0": {
+    "title": "GitHub - matige/synology-wireguard at DSM7.0",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/NateWr": {
+    "title": "NateWr - Overview",
+    "author": "Nate Wright",
+    "type": "WebPage",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/Textualize/rich": {
+    "title": "GitHub - Textualize/rich: Rich is a Python library for rich text and beautiful formatting in the terminal.",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/anthropics/claude-code/issues/4160": {
+    "title": "Support \".claudeignore\" file to prevent secret exposure",
+    "author": "victor-bluera",
+    "date": "2025-07-22",
+    "type": "WebPage",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/bobbui/json-logging-python": {
+    "title": "GitHub - bobbui/json-logging-python: Cloud-native distributed Python logging library to emit JSON log that can be easily indexed by logging infrastructure",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/dask/distributed/issues/6846": {
+    "title": "RuntimeError: cannot schedule new futures after shutdown",
+    "author": "graingert",
+    "date": "2022-08-08",
+    "type": "WebPage",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/davidmcclure/textplot": {
+    "title": "GitHub - davidmcclure/textplot: (Mental) maps of texts with kernel density estimation and force-directed networks.",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/elifesciences/lens": {
+    "title": "GitHub - elifesciences/lens: A novel way of viewing eLife articles.",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/fosrl/pangolin": {
+    "title": "GitHub - fosrl/pangolin: Modern networking and security platform providing secure access and connectivity to apps, infrastructure, and AI workloads. Connect and protect your users.",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/gravitl/netmaker": {
+    "title": "GitHub - gravitl/netmaker: Netmaker makes networks with WireGuard. Netmaker automates fast, secure, and distributed virtual networks.",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/infosimples/detect-headless": {
+    "title": "GitHub - infosimples/detect-headless: Access https://infosimples.github.io/detect-headless to run several headless detection tests against your browser.",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/inveniosoftware/invenio-saml/pull/48": {
+    "title": "Allow customizing the user lookup function in acs_handler_factory by monotasker · Pull Request #48 · inveniosoftware/invenio-saml",
+    "type": "WebPage",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/inveniosoftware/pytest-invenio/issues/114": {
+    "title": "Detached instance error at cleanup of location fixture",
+    "author": "monotasker",
+    "date": "2025-02-20",
+    "type": "WebPage",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/lastpass/lastpass-cli/issues/604": {
+    "title": "lpass login returns 'unknown' - iterations.php behavior changed",
+    "author": "mjbroekman",
+    "date": "2021-05-18",
+    "type": "WebPage",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/m0sia/pyParrotZik": {
+    "title": "GitHub - m0sia/pyParrotZik: Python Parrot Zik API and tools",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/m0sia/pyParrotZik/pull/1": {
+    "title": "Add second option for icon paths on Linux by MartinPaulEve · Pull Request #1 · m0sia/pyParrotZik",
+    "type": "WebPage",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/mfenner/pandoc-jats": {
+    "title": "GitHub - mfenner/pandoc-jats: A Lua custom writer for Pandoc generating JATS XML",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/openlibhums/janeway/": {
+    "title": "GitHub - openlibhums/janeway: A web-based platform for publishing journals, preprints, conference proceedings, and books",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/pkp/ojs/commit/b38d1e86c7f918cfcd76baa5bd47eb0bc36f6173": {
+    "title": "*7958* Add CLOCKSS license to LOCKSS manifest · pkp/ojs@b38d1e8",
+    "type": "WebPage",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/pkp/ojs/pull/49": {
+    "title": "*Bug 7958* Support for a CLOCKSS manifest by MartinPaulEve · Pull Request #49 · pkp/ojs",
+    "type": "WebPage",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/runfalk/synology-wireguard/issues/66#issuecomment-900438379": {
+    "title": "DSM 7 support?",
+    "author": "Kopernikus1979",
+    "date": "2020-12-30",
+    "type": "WebPage",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/sampsyo/beets/": {
+    "title": "GitHub - beetbox/beets: music library manager and MusicBrainz tagger",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  }
+}

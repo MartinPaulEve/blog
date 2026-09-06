@@ -1,0 +1,172 @@
+{
+  "http://generousthinking.hcommons.org": {
+    "title": "Generous Thinking: The University and the Public Good",
+    "type": "WebPage",
+    "isPartOf": {"name": "Humanities Commons", "type": "WebSite"}
+  },
+  "http://googlescholar.blogspot.co.uk/2010/06/google-scholar-alerts.html": {
+    "title": "Google Scholar Alerts",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Google Scholar Blog", "type": "Blog"}
+  },
+  "http://help.crossref.org/#nlm-to-crossref-conversion": {
+    "title": "Support Center",
+    "type": "WebPage",
+    "isPartOf": {"name": "CrossRef", "type": "WebSite"}
+  },
+  "http://help.crossref.org/#stored-queries": {
+    "title": "Support Center",
+    "type": "WebPage",
+    "isPartOf": {"name": "CrossRef", "type": "WebSite"}
+  },
+  "http://historymanifesto.cambridge.org/": {
+    "title": "The History Manifesto",
+    "type": "WebPage",
+    "isPartOf": {"name": "Cambridge Core", "type": "WebSite"}
+  },
+  "http://hypothes.is": {
+    "title": "Hypothesis",
+    "type": "WebPage",
+    "isPartOf": {"name": "Hypothesis", "type": "WebSite"}
+  },
+  "http://ices.library.ubc.ca/index.php/workplace/article/view/186213": {
+    "title": "Marxism and Open Access in the Humanities: Turning Academic Labor against Itself",
+    "author": "David Golumbia",
+    "date": "2016-09-16",
+    "type": "ScholarlyArticle",
+    "isPartOf": {"name": "Workplace: A Journal for Academic Labor", "type": "Periodical"}
+  },
+  "http://informationr.net/ir/12-4/paper321.html": {
+    "title": "The 'platinum route' to open access: a case study of E-JASL: The Electronic Journal of Academic and Special Librarianship",
+    "author": "P.G. Haschak",
+    "type": "ScholarlyArticle",
+    "isPartOf": {"name": "Information Research", "type": "Periodical"}
+  },
+  "http://iraqwarculture.eventbrite.com/": null,
+  "http://is.gd/bBvTP4": null,
+  "http://is.gd/ixokpF": null,
+  "http://is.gd/pKBNlt": {
+    "title": "PhD Chat",
+    "type": "WebPage"
+  },
+  "http://iuoma-network.ning.com/profile/PynchonInPublic": {
+    "title": "Pynchon In Public's Page",
+    "type": "WebPage",
+    "isPartOf": {"name": "IUOMA Network", "type": "WebSite"}
+  },
+  "http://ivory.idyll.org/blog/posting-blog-entries-to-figshare.html": {
+    "title": "Posting blog entries to figshare",
+    "type": "BlogPosting"
+  },
+  "http://jasonbairdjackson.com/2011/09/05/how-enclosed-by-large-for-profit-publishers-is-the-anthropology-journal-literature/": {
+    "title": "How Enclosed by Large For-Profit Publishers is the Anthropology Journal Literature?",
+    "date": "2011-09-05",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Shreds and Patches", "type": "Blog"}
+  },
+  "http://jekyllrb.com/": {
+    "title": "Jekyll • Simple, blog-aware, static sites",
+    "type": "WebSite"
+  },
+  "http://jennifermjones.net/": {
+    "title": "Jennifer M Jones",
+    "author": "Jennifer M Jones",
+    "type": "WebSite"
+  },
+  "http://jeremiahgrossman.blogspot.com/2006/08/i-know-where-youve-been.html": {
+    "title": "I know where you've been",
+    "type": "BlogPosting"
+  },
+  "http://jimmussell.com/": {
+    "title": "jimmussell.com",
+    "type": "WebSite",
+    "isPartOf": {"name": "jimmussell.com", "type": "Blog"}
+  },
+  "http://jlsc-pub.org/jlsc/vol2/iss3/5/": null,
+  "http://josswinn.org/2016/03/17/against-academic-identity/": {
+    "title": "Against Academic Identity",
+    "date": "2016-03-17",
+    "type": "BlogPosting"
+  },
+  "http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=6577844": null,
+  "http://journals.cambridge.org/action/displaySpecialPage?pageId=4608": {
+    "title": "Open access policies",
+    "type": "WebPage",
+    "isPartOf": {"name": "Cambridge Core", "type": "WebSite"}
+  },
+  "http://json.org/JSONRequest.html": {
+    "title": "JSONRequest",
+    "type": "TechArticle"
+  },
+  "http://lackof.org/taggart/hacking/ssh/": {
+    "title": "Good practices for using ssh",
+    "type": "WebPage"
+  },
+  "http://larholm.com/2007/06/04/unpatched-input-validation-flaw-in-firefox-2004/": null,
+  "http://latimesblogs.latimes.com/jacketcopy/2011/05/thomas-pynchon-tom-a-remarkable-collection.html": {
+    "title": "When Thomas Pynchon is just Tom: A remarkable collection debuts",
+    "author": "Carolyn Kellogg",
+    "date": "2011-05-05",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "Los Angeles Times", "type": "Periodical"}
+  },
+  "http://legacy.earlham.edu/~peters/fos/newsletter/11-02-09.htm": {
+    "title": "Peter Suber, SPARC Open Access Newsletter, 11/2/09",
+    "author": "Peter Suber",
+    "date": "2009-11-02",
+    "type": "WebPage",
+    "isPartOf": {"name": "SPARC Open Access Newsletter", "type": "Periodical"}
+  },
+  "http://letsencrypt.org/": {
+    "title": "Let's Encrypt",
+    "type": "WebSite"
+  },
+  "http://liannedemello.com/": {
+    "title": "Lianne de Mello",
+    "type": "WebSite"
+  },
+  "http://link.springer.com/10.1007/978-3-662-44952-3_13": null,
+  "http://literatureoffthepage.wordpress.com/": {
+    "title": "Literature Off the Page: The Cultural and Political Work of American Writing",
+    "type": "WebSite"
+  },
+  "http://mario.heideri.ch/": null,
+  "http://markcarrigan.net/2012/02/27/podcast-with-martin-eve-about-open-source-academic-publishing/": {
+    "title": "Podcast with Martin Eve about Open Source Academic Publishing",
+    "date": "2012-02-27",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Mark Carrigan", "type": "Blog"}
+  },
+  "http://markcarrigan.net/2014/07/27/music-i-find-inexplicably-conducive-to-writing-2/": {
+    "title": "Music I find inexplicably conducive to writing (#2)",
+    "date": "2014-07-27",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Mark Carrigan", "type": "Blog"}
+  },
+  "http://mbsbham.wordpress.com/": {
+    "title": "Modern British Studies Birmingham",
+    "type": "WebSite"
+  },
+  "http://mbsbham.wordpress.com/responding-to-the-history-manifesto/": {
+    "title": "Responding to the History Manifesto",
+    "date": "2014-11-05",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Modern British Studies Birmingham", "type": "Blog"}
+  },
+  "http://mcpress.media-commons.org/plannedobsolescence/one/the-reputation-economy/": {
+    "title": "the reputation economy",
+    "type": "WebPage",
+    "isPartOf": {"name": "Planned Obsolescence", "type": "WebSite"}
+  },
+  "http://melissaterras.blogspot.co.uk/2012/10/whats-in-name-academic-identity-in.html": {
+    "title": "What's in a name? Academic Identity in the metadata age, or, I didnt see #tarotgate coming",
+    "type": "BlogPosting"
+  },
+  "http://metro.co.uk/2015/08/31/what-jeremy-corbyn-actually-said-about-osama-bin-ladens-death-being-a-tragedy-5369339/": {
+    "title": "What Jeremy Corbyn actually said about Osama Bin Laden's death being a tragedy",
+    "author": "Nicole Morley",
+    "date": "2015-08-31",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "Metro", "type": "Periodical"}
+  }
+}

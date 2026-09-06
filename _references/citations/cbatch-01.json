@@ -1,0 +1,211 @@
+{
+  "http://books.google.co.uk/books?id=a9BvGA43rAQC&lpg=PA71&ots=5CFPg65ejb&dq=%22The+importunity+of+the+fellow+is+also+niggerlike.%22&pg=PA71&redir_esc=y#v=onepage&q=%22The%20importunity%20of%20the%20fellow%20is%20also%20niggerlike.%22&f=false": {
+    "title": "Marx and Engels and the English Workers",
+    "type": "Book",
+    "isPartOf": {"name": "Google Books", "type": "WebSite"}
+  },
+  "http://booktwo.org/notebook/faber-finds-the-new-business-of-pod/": {
+    "title": "Faber Finds & the new business of POD",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "booktwo.org", "type": "Blog"}
+  },
+  "http://brembs.net/": {
+    "title": "brembs.net: Research on Learning, Memory and Evolution",
+    "author": "Björn Brembs",
+    "type": "WebSite"
+  },
+  "http://call-for-papers.sas.upenn.edu/": {
+    "title": "cfp | call for papers",
+    "type": "WebSite"
+  },
+  "http://cameronneylon.net/blog/polecon-of-oa-publishing-what-are-the-assets-of-a-journal/": {
+    "title": "PolEcon of OA Publishing: What are the assets of a journal?",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Science in the Open", "type": "Blog"}
+  },
+  "http://carlboettiger.info/2013/06/03/DOI-citable.html#comment-919771037": {
+    "title": "DOI != citable",
+    "author": "Carl Boettiger",
+    "date": "2013-06-03",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Lab Notebook", "type": "Blog"}
+  },
+  "http://creativecommons.org/": {
+    "title": "Building tools for shared knowledge",
+    "type": "WebSite",
+    "isPartOf": {"name": "Creative Commons", "type": "WebSite"}
+  },
+  "http://creativecommons.org/licenses/by-nc-sa/3.0/": {
+    "title": "Deed - Attribution-NonCommercial-ShareAlike 3.0 Unported",
+    "type": "WebPage",
+    "isPartOf": {"name": "Creative Commons", "type": "WebSite"}
+  },
+  "http://creativecommons.org/licenses/by-sa/3.0/": {
+    "title": "Deed - Attribution-ShareAlike 3.0 Unported",
+    "type": "WebPage",
+    "isPartOf": {"name": "Creative Commons", "type": "WebSite"}
+  },
+  "http://creativecommons.org/licenses/by/2.0/": {
+    "title": "Deed - Attribution 2.0 Generic",
+    "type": "WebPage",
+    "isPartOf": {"name": "Creative Commons", "type": "WebSite"}
+  },
+  "http://creativecommons.org/licenses/by/3.0/": {
+    "title": "Deed - Attribution 3.0 Unported",
+    "type": "WebPage",
+    "isPartOf": {"name": "Creative Commons", "type": "WebSite"}
+  },
+  "http://creativecommons.org/ns#": {
+    "title": "Describing Copyright in RDF - Creative Commons Rights Expression Language",
+    "type": "WebPage",
+    "isPartOf": {"name": "Creative Commons", "type": "WebSite"}
+  },
+  "http://custodians.online": {
+    "title": "In Solidarity with Library Genesis and Sci-hub",
+    "type": "WebPage"
+  },
+  "http://cyber.law.harvard.edu/people/psuber": {
+    "title": "Peter Suber",
+    "type": "WebPage",
+    "isPartOf": {"name": "Berkman Klein Center", "type": "WebSite"}
+  },
+  "http://dh2016.adho.org/abstracts/253": {
+    "title": "Outliers or Key Profiles? Understanding Distance Measures for Authorship Attribution",
+    "author": ["Stefan Evert", "Fotis Jannidis", "Thomas Proisl", "Thorsten Vitt", "Christof Schöch", "Steffen Pielström", "Isabella Reger"],
+    "type": "ScholarlyArticle"
+  },
+  "http://download.oracle.com/otn-pub/java/jdk/6u25-b06/jre-6u25-linux-x64-rpm.bin": null,
+  "http://drafts.csswg.org/css-page-template-1/": {
+    "title": "CSS Pagination Templates Module Level 3",
+    "type": "TechArticle"
+  },
+  "http://drcarolineedwards.com/": {
+    "title": "Dr Caroline Edwards",
+    "type": "WebSite"
+  },
+  "http://dtd.nlm.nih.gov/publishing/tag-library/2.3/index.html": {
+    "title": "Journal Publishing Tag Set Tag Library version 2.3",
+    "type": "TechArticle"
+  },
+  "http://dtd.nlm.nih.gov/publishing/tag-library/3.0/index.html": {
+    "title": "Journal Publishing Tag Set Tag Library version 3.0",
+    "type": "TechArticle"
+  },
+  "http://duncan.hull.name/2012/02/15/open-irony/": {
+    "title": "The Open Access Irony Awards: Naming and shaming them",
+    "date": "2012-02-15",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "O'Really?", "type": "Blog"}
+  },
+  "http://educationactivistnetwork.wordpress.com/2011/06/28/press-release-h-e-white-paper-%E2%80%93-a-disaster-for-universities-a-government-in-chaos/": {
+    "title": "Press release – H.E. White Paper – a disaster for universities; a government in chaos",
+    "date": "2011-06-28",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Education Activist Network", "type": "Blog"}
+  },
+  "http://electronicbookreview.com/essay/taxonomographic-metafiction-a-review-of-anthony-uhlmanns-saint-antony-in-his-desert/": {
+    "title": "Taxonomographic Metafiction: A review of Anthony Uhlmann's Saint Antony in His Desert",
+    "author": "Martin Paul Eve",
+    "date": "2019-04-07",
+    "type": "ScholarlyArticle",
+    "isPartOf": {"name": "electronic book review", "type": "Periodical"}
+  },
+  "http://en.m.wikipedia.org/wiki/Cell_phone_novel": {
+    "title": "Cell phone novel",
+    "date": "2007-10-30",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "http://en.wikipedia.org/wiki/1861_in_literature": {
+    "title": "1861 in literature",
+    "date": "2003-04-01",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "http://en.wikipedia.org/wiki/C._L._R._James": {
+    "title": "C. L. R. James",
+    "date": "2004-01-21",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "http://en.wikipedia.org/wiki/Creative_Commons": {
+    "title": "Creative Commons",
+    "date": "2002-05-17",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "http://en.wikipedia.org/wiki/Creative_Commons_licenses": {
+    "title": "Creative Commons licenses",
+    "date": "2003-06-13",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "http://en.wikipedia.org/wiki/Digital_rights_management": {
+    "title": "Digital rights management",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "http://en.wikipedia.org/wiki/ETAOIN_SHRDLU": {
+    "title": "ETAOIN SHRDLU",
+    "date": "2003-03-19",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "http://en.wikipedia.org/wiki/Elfriede_Jelinek": {
+    "title": "Elfriede Jelinek",
+    "date": "2004-10-07",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "http://en.wikipedia.org/wiki/Epoch%C3%A9": {
+    "title": "Epoché",
+    "date": "2005-05-11",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "http://en.wikipedia.org/wiki/File:AdornoHorkheimerHabermasbyJeremyJShapiro2.png": {
+    "title": "File:AdornoHorkheimerHabermasbyJeremyJShapiro2.png",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "http://en.wikipedia.org/wiki/File:ClavierLinotype_20041006-163300.jpg": {
+    "title": "File:Linotype keyboard with Star Quadder attachment.jpg",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "http://en.wikipedia.org/wiki/Format_rot": {
+    "title": "Format rot",
+    "date": "2001-10-18",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "http://en.wikipedia.org/wiki/Frances_Trollope": {
+    "title": "Frances Trollope",
+    "date": "2004-12-13",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "http://en.wikipedia.org/wiki/Herero_and_Namaqua_Genocide": {
+    "title": "Herero and Namaqua Genocide",
+    "date": "2004-07-26",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "http://en.wikipedia.org/wiki/Nicolai_Hartmann": {
+    "title": "Nicolai Hartmann",
+    "date": "2004-03-04",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "http://en.wikipedia.org/wiki/Occupation_%28protest%29": {
+    "title": "Occupation (protest)",
+    "date": "2006-10-14",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "http://en.wikipedia.org/wiki/Open_access_journal": {
+    "title": "Open access",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  }
+}

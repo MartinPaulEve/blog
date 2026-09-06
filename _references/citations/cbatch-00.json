@@ -1,0 +1,202 @@
+{
+ "http://21cresearchgroup.blogs.lincoln.ac.uk/2013/01/16/upcoming-21st-century-research-group-meetings/": {
+  "title": "Upcoming 21st Century Research Group meetings",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "21st Century Research Group", "type": "Blog"}
+ },
+ "http://Custodians.Online": {
+  "title": "In Solidarity with Library Genesis and Sci-Hub",
+  "type": "WebPage",
+  "isPartOf": {"name": "custodians.online", "type": "WebSite"}
+ },
+ "http://Goodreads.com": {
+  "title": "Goodreads",
+  "type": "WebSite"
+ },
+ "http://academia.edu": {
+  "title": "Academia.edu",
+  "type": "WebSite"
+ },
+ "http://against-the-day.pynchonwiki.com/wiki/index.php?title=Pynchon_Newbies": {
+  "title": "Pynchon Newbies",
+  "type": "WebPage",
+  "isPartOf": {"name": "Thomas Pynchon Wiki", "type": "WebSite"}
+ },
+ "http://alistapart.com/blog/post/css-regions-considered-harmful": {
+  "title": "CSS Regions Considered Harmful",
+  "date": "2014-01-22",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "A List Apart", "type": "Blog"}
+ },
+ "http://amzn.to/2abBhmD": {
+  "title": "Password: Object Lessons",
+  "author": "Martin Paul Eve",
+  "type": "Book"
+ },
+ "http://andrewmcgettigan.org/2013/11/18/private-providers-market-creation-out-of-control/": {
+  "title": "Private Providers – market creation out of control",
+  "author": "Andrew McGettigan",
+  "date": "2013-11-18",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "Critical Education", "type": "Blog"}
+ },
+ "http://andrewmcgettigan.org/2015/10/19/policy-exchangess-accounting-errors/": {
+  "title": "Policy Exchange's accounting errors",
+  "author": "Andrew McGettigan",
+  "date": "2015-10-19",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "Critical Education", "type": "Blog"}
+ },
+ "http://annotum.org": {
+  "title": "Annotum",
+  "type": "WebSite"
+ },
+ "http://annotum.org/": {
+  "title": "Annotum",
+  "type": "WebSite"
+ },
+ "http://archive.canonical.com/ubuntu": null,
+ "http://archive.org/details/royalpurple1988unse": {
+  "title": "Royal purple",
+  "type": "WebPage",
+  "isPartOf": {"name": "Internet Archive", "type": "WebSite"}
+ },
+ "http://articles.sitepoint.com/article/multi-threading-javascript": null,
+ "http://ashpit.wordpress.com/": null,
+ "http://bit.ly/oa-book": {
+  "title": "Open Access (the book)",
+  "type": "WebPage",
+  "isPartOf": {"name": "Harvard Open Access Project", "type": "WebSite"}
+ },
+ "http://bit.ly/oa-book#p30.2": {
+  "title": "Open Access (the book)",
+  "type": "WebPage",
+  "isPartOf": {"name": "Harvard Open Access Project", "type": "WebSite"}
+ },
+ "http://bjoern.brembs.net/2013/08/a-fistful-of-dollars-why-corporate-publishers-have-no-place-in-scholarly-communication/": {
+  "title": "A fistful of dollars: why corporate publishers have no place in scholarly communication",
+  "author": "Bjoern Brembs",
+  "date": "2013-08-26",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "bjoern.brembs.blog", "type": "Blog"}
+ },
+ "http://bjoern.brembs.net/2016/05/why-havent-we-already-canceled-all-subscriptions/": {
+  "title": "Why haven't we already canceled all subscriptions?",
+  "author": "Bjoern Brembs",
+  "date": "2016-05-20",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "bjoern.brembs.blog", "type": "Blog"}
+ },
+ "http://blog.amnestyusa.org/deathpenalty/dont-let-georgia-kill-troy-davis/": null,
+ "http://blog.dropbox.com/?p=846": {
+  "title": "Work in Progress: by Dropbox",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "Dropbox Blog", "type": "Blog"}
+ },
+ "http://blog.enlightenmenteconomics.com/blog/_archives/2011/5/25/4824194.html": {
+  "title": "The Enlightened Economist",
+  "author": "Diane Coyle",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "The Enlightened Economist", "type": "Blog"}
+ },
+ "http://blog.hefce.ac.uk/2017/07/20/the-portability-or-non-portability-of-research/": null,
+ "http://blog.hefce.ac.uk/2018/02/23/open-access-monographs-ref-2027/": null,
+ "http://blogs.bbk.ac.uk/english/2016/06/09/martin-eve-on-hermann-hesse-the-glass-bead-game/": {
+  "title": "Martin Eve on Hermann Hesse, The Glass Bead Game",
+  "author": "Martin Paul Eve",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "Birkbeck English Blog", "type": "Blog"}
+ },
+ "http://blogs.bbk.ac.uk/english/2016/07/25/martin-eve/": {
+  "title": "Martin Eve on William Gaddis's JR",
+  "author": "Martin Paul Eve",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "Birkbeck English Blog", "type": "Blog"}
+ },
+ "http://blogs.bbk.ac.uk/english/2016/09/12/martin-eve-on-ben-jonson-the-alchemist-at-the-barbican/": {
+  "title": "Martin Eve on Ben Jonson, The Alchemist at The Barbican",
+  "author": "Martin Paul Eve",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "Birkbeck English Blog", "type": "Blog"}
+ },
+ "http://blogs.bbk.ac.uk/english/2016/10/11/martin-eve-and-peter-fifield-on-nos-knife-at-the-old-vic/": {
+  "title": "Martin Eve & Peter Fifield on 'No's Knife' at the Old Vic",
+  "author": ["Martin Paul Eve", "Peter Fifield"],
+  "type": "BlogPosting",
+  "isPartOf": {"name": "Birkbeck English Blog", "type": "Blog"}
+ },
+ "http://blogs.bbk.ac.uk/english/2016/11/21/martin-eve-on-the-man-who-knew-infinity/": {
+  "title": "Martin Eve on The Man Who Knew Infinity",
+  "author": "Martin Paul Eve",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "Birkbeck English Blog", "type": "Blog"}
+ },
+ "http://blogs.bbk.ac.uk/english/2017/01/16/martin-eve-on-nice-fish-at-the-harold-pinter-theatre/": {
+  "title": "Martin Eve on Nice Fish at the Harold Pinter Theatre",
+  "author": "Martin Paul Eve",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "Birkbeck English Blog", "type": "Blog"}
+ },
+ "http://blogs.bbk.ac.uk/english/2017/02/13/martin-paul-eve-on-talking-disability-activism-with-naomi-lawson-jacobs-and-judith-butler/": {
+  "title": "Martin Paul Eve on talking disability activism with Naomi Lawson Jacobs and Judith Butler",
+  "author": "Martin Paul Eve",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "Birkbeck English Blog", "type": "Blog"}
+ },
+ "http://blogs.bbk.ac.uk/english/2017/07/17/martin-eve-on-contemporary-slo-mo-electro/": {
+  "title": "Martin Eve catches up with Contemporary Slo-Mo Electro",
+  "author": "Martin Paul Eve",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "Birkbeck English Blog", "type": "Blog"}
+ },
+ "http://blogs.bbk.ac.uk/events/2017/01/27/open-cultural-data-discussing-digitisation/": {
+  "title": "Open Cultural Data: Discussing Digitisation",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "Birkbeck Events Blog", "type": "Blog"}
+ },
+ "http://blogs.lse.ac.uk/impactofsocialsciences/2012/08/02/how-should-blogs-referenced/": {
+  "title": "All sources are equal but some are more equal than others – (how) should blogs be referenced?",
+  "date": "2012-08-02",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "LSE Impact Blog", "type": "Blog"}
+ },
+ "http://blogs.lse.ac.uk/impactofsocialsciences/2013/08/01/getting-somewhere-hefce-proposals-on-open-access/": {
+  "title": "Getting Somewhere: HEFCE Proposals on Open Access for a Post-2014 Research Excellence Framework",
+  "date": "2013-08-01",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "LSE Impact Blog", "type": "Blog"}
+ },
+ "http://blogs.lse.ac.uk/impactofsocialsciences/2014/04/01/hefce-open-access-ref-gamechanger/": {
+  "title": "HEFCE announces Open Access policy for the next REF in the UK: Why this Open Access policy will be a game-changer.",
+  "author": "Sierra Williams",
+  "date": "2014-04-01",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "LSE Impact Blog", "type": "Blog"}
+ },
+ "http://blogs.lse.ac.uk/lsereviewofbooks/2014/11/07/book-review-open-access-and-the-humanities-contexts-controversies-and-the-future-by-martin-eve/": {
+  "title": "Book Review: Open Access and the Humanities: Contexts, Controversies and the Future by Martin Eve",
+  "date": "2014-11-07",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "LSE Review of Books", "type": "Blog"}
+ },
+ "http://blogs.openbookpublishers.com/introducing-data-to-the-open-access-debate-obps-business-model-part-three/": {
+  "title": "Introducing Data to the Open Access Debate: OBP's Business Model (Part Three)",
+  "author": "Rupert Gatti",
+  "date": "2015-10-15",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "Open Book Publishers Blog", "type": "Blog"}
+ },
+ "http://blogs.openbookpublishers.com/what-does-it-mean-for-a-work-of-literature-to-be-against-criticism/": {
+  "title": "What does it mean for a work of literature to be \"against criticism\"?",
+  "author": "Martin Eve",
+  "date": "2016-10-20",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "Open Book Publishers Blog", "type": "Blog"}
+ },
+ "http://blogs.sas.ac.uk/2014/10/29/open-access-free-from-having-to-sell/": {
+  "title": "Open Access: free 'from having to sell'",
+  "date": "2014-10-29",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "SAS Blogs", "type": "Blog"}
+ }
+}

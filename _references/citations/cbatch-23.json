@@ -1,0 +1,206 @@
+{
+ "https://eprints.bbk.ac.uk/id/eprint/54717": {
+  "title": "Digital Piracy",
+  "author": "Eve, Martin Paul",
+  "date": "2025-04-06",
+  "type": "ScholarlyArticle",
+  "isPartOf": {"name": "Handbuch Soziale Praktiken Und Digitale Alltagswelten", "type": "WebSite"}
+ },
+ "https://eprints.bbk.ac.uk/id/eprint/55209/": {
+  "title": "A successful Philip Leverhulme Prize application in the field of languages and literature (2019)",
+  "author": "Eve, Martin",
+  "date": "2019-03-20",
+  "type": "WebPage",
+  "isPartOf": {"name": "BIROn", "type": "WebSite"}
+ },
+ "https://ernestopriego.com/": {
+  "title": "Everything is Connected",
+  "type": "WebSite"
+ },
+ "https://esoteric.codes/": {
+  "title": "Esoteric.Codes",
+  "author": "Daniel Temkin",
+  "type": "WebSite"
+ },
+ "https://esoteric.codes/blog/jon-corbett": {
+  "title": "Interview with Jon Corbett",
+  "author": "Daniel Temkin",
+  "date": "2021-03-30",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "Esoteric.Codes", "type": "Blog"}
+ },
+ "https://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.774255": {
+  "title": "Open Access Policy in the UK : from neoliberalism to the commons",
+  "author": "Lawson, Stuart Andrew",
+  "type": "ScholarlyArticle",
+  "isPartOf": {"name": "EThOS", "type": "WebSite"}
+ },
+ "https://eve.gd/2026/04/19/the-necessary-pain-involved-in-blogging-if-you-want-your-work-to-be-preserved-beyond-your-lifespan/": {
+  "title": "The Necessary Pain Involved in Blogging (if you want your work to be preserved beyond your lifespan)",
+  "author": "Eve, Martin Paul",
+  "date": "2026-04-19",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "eve.gd", "type": "Blog"}
+ },
+ "https://eve.gd/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/": {
+  "title": "Making blog posts harvestable by Zotero and preserving case in citation fields",
+  "author": "Eve, Martin Paul",
+  "date": "2026-06-23",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "eve.gd", "type": "Blog"}
+ },
+ "https://finiteeyes.net/open/supporting-openness-should-not-mean-supporting-piracy/": null,
+ "https://gbilder.com/": {
+  "title": "Louche Cannon",
+  "type": "WebSite"
+ },
+ "https://getevusheld.uk/": {
+  "title": "Forgotten Lives UK - Protecting the Immunocompromised",
+  "date": "2024-06-05",
+  "type": "WebPage",
+  "isPartOf": {"name": "Forgotten Lives UK", "type": "WebSite"}
+ },
+ "https://git-scm.com/": {
+  "title": "Git",
+  "type": "WebSite"
+ },
+ "https://git.wiki.kernel.org/index.php/GitTips#How_to_use_git_to_track_OpenDocument_.28OpenOffice.2C_Koffice.29_files.3F": {
+  "title": "GitTips - Git SCM Wiki",
+  "type": "WebPage",
+  "isPartOf": {"name": "Git SCM Wiki", "type": "WebSite"}
+ },
+ "https://github.com/": {
+  "title": "GitHub",
+  "type": "WebSite"
+ },
+ "https://github.com/BirkbeckCTP/janeway": {
+  "title": "A web-based platform for publishing journals, preprints, conference proceedings, and books",
+  "type": "SoftwareSourceCode",
+  "isPartOf": {"name": "GitHub", "type": "WebSite"}
+ },
+ "https://github.com/BirkbeckCTP/janeway/": {
+  "title": "A web-based platform for publishing journals, preprints, conference proceedings, and books",
+  "type": "SoftwareSourceCode",
+  "isPartOf": {"name": "GitHub", "type": "WebSite"}
+ },
+ "https://github.com/Bumblebee-Project/Bumblebee/wiki/Troubleshooting": {
+  "title": "Troubleshooting",
+  "type": "WebPage",
+  "isPartOf": {"name": "GitHub", "type": "WebSite"}
+ },
+ "https://github.com/FremyCompany/css-regions-polyfill": {
+  "title": "A javascript implementation of the CSS Regions specification, as of August 2013",
+  "type": "SoftwareSourceCode",
+  "isPartOf": {"name": "GitHub", "type": "WebSite"}
+ },
+ "https://github.com/FremyCompany/css-regions-polyfill/": {
+  "title": "A javascript implementation of the CSS Regions specification, as of August 2013",
+  "type": "SoftwareSourceCode",
+  "isPartOf": {"name": "GitHub", "type": "WebSite"}
+ },
+ "https://github.com/FremyCompany/css-regions-polyfill/blob/master/LICENSE.md": {
+  "title": "css-regions-polyfill LICENSE",
+  "type": "WebPage",
+  "isPartOf": {"name": "GitHub", "type": "WebSite"}
+ },
+ "https://github.com/Granitosaurus/playwright-stealth/pull/7": {
+  "title": "Headless browsers report navigator.connection.rtt to be zero",
+  "type": "WebPage",
+  "isPartOf": {"name": "GitHub", "type": "WebSite"}
+ },
+ "https://github.com/Granitosaurus/playwright-stealth/tree/main": {
+  "title": "playwright-stealth",
+  "type": "SoftwareSourceCode",
+  "isPartOf": {"name": "GitHub", "type": "WebSite"}
+ },
+ "https://github.com/IndiansIncredible/.NetIDS": {
+  "title": ".NET Intrusion Detection System",
+  "type": "SoftwareSourceCode",
+  "isPartOf": {"name": "GitHub", "type": "WebSite"}
+ },
+ "https://github.com/MESH-Research/knowledge-commons-profiles/tree/main/knowledge_commons_profiles/newprofile/tests": {
+  "title": "knowledge-commons-profiles test suite",
+  "type": "SoftwareSourceCode",
+  "isPartOf": {"name": "GitHub", "type": "WebSite"}
+ },
+ "https://github.com/MESH-Research/knowledge-commons-works": {
+  "title": "The next-generation research repository for Knowledge Commons",
+  "type": "SoftwareSourceCode",
+  "isPartOf": {"name": "GitHub", "type": "WebSite"}
+ },
+ "https://github.com/MartinPaulEve/CaSSius": {
+  "title": "CaSSius: a CSS-regions-based PDF typesetter for scholarly communications",
+  "type": "SoftwareSourceCode",
+  "isPartOf": {"name": "GitHub", "type": "WebSite"}
+ },
+ "https://github.com/MartinPaulEve/CaSSius.git": {
+  "title": "CaSSius: a CSS-regions-based PDF typesetter for scholarly communications",
+  "type": "SoftwareSourceCode",
+  "isPartOf": {"name": "GitHub", "type": "WebSite"}
+ },
+ "https://github.com/MartinPaulEve/CaSSius/blob/master/LICENSE": {
+  "title": "CaSSius LICENSE",
+  "type": "WebPage",
+  "isPartOf": {"name": "GitHub", "type": "WebSite"}
+ },
+ "https://github.com/MartinPaulEve/JATS-CSL": {
+  "title": "JATS CSL bibliography style",
+  "type": "SoftwareSourceCode",
+  "isPartOf": {"name": "GitHub", "type": "WebSite"}
+ },
+ "https://github.com/MartinPaulEve/LinkedInConnect": {
+  "title": "A tool to post from a blog to LinkedIn, Bluesky, and Mastodon from the CLI",
+  "type": "SoftwareSourceCode",
+  "isPartOf": {"name": "GitHub", "type": "WebSite"}
+ },
+ "https://github.com/MartinPaulEve/MEXMLGalley": {
+  "title": "A plugin for Open Journal Systems to generate PDF galleys from XML",
+  "type": "SoftwareSourceCode",
+  "isPartOf": {"name": "GitHub", "type": "WebSite"}
+ },
+ "https://github.com/MartinPaulEve/MEXMLGalley/": {
+  "title": "A plugin for Open Journal Systems to generate PDF galleys from XML",
+  "type": "SoftwareSourceCode",
+  "isPartOf": {"name": "GitHub", "type": "WebSite"}
+ },
+ "https://github.com/MartinPaulEve/MEXMLGalley/commit/351a8e28fc0adc5a1e3554b716f9bce78157620f": {
+  "title": "Add crude python script to assist with typesetting",
+  "type": "WebPage",
+  "isPartOf": {"name": "GitHub", "type": "WebSite"}
+ },
+ "https://github.com/MartinPaulEve/SankeyTextualVariant": {
+  "title": "Visualise textual variants across editions using modifications to D3.js and its Sankey plugin",
+  "type": "SoftwareSourceCode",
+  "isPartOf": {"name": "GitHub", "type": "WebSite"}
+ },
+ "https://github.com/MartinPaulEve/acousticsize": {
+  "title": "acousticsize",
+  "type": "SoftwareSourceCode",
+  "isPartOf": {"name": "GitHub", "type": "WebSite"}
+ },
+ "https://github.com/MartinPaulEve/cemmento/tree/master": {
+  "title": "cemmento",
+  "type": "SoftwareSourceCode",
+  "isPartOf": {"name": "GitHub", "type": "WebSite"}
+ },
+ "https://github.com/MartinPaulEve/content-drift/blob/main/engines/cosine.py": {
+  "title": "content-drift cosine similarity implementation",
+  "type": "SoftwareSourceCode",
+  "isPartOf": {"name": "GitHub", "type": "WebSite"}
+ },
+ "https://github.com/MartinPaulEve/content-drift/blob/main/engines/euclidean.py": {
+  "title": "content-drift Euclidean distance implementation",
+  "type": "SoftwareSourceCode",
+  "isPartOf": {"name": "GitHub", "type": "WebSite"}
+ },
+ "https://github.com/MartinPaulEve/content-drift/blob/main/engines/jaccard.py": {
+  "title": "content-drift Jaccard similarity implementation",
+  "type": "SoftwareSourceCode",
+  "isPartOf": {"name": "GitHub", "type": "WebSite"}
+ },
+ "https://github.com/MartinPaulEve/content-drift/blob/main/engines/sentence_embeddings_bert.py": {
+  "title": "content-drift BERT sentence embeddings implementation",
+  "type": "SoftwareSourceCode",
+  "isPartOf": {"name": "GitHub", "type": "WebSite"}
+ }
+}

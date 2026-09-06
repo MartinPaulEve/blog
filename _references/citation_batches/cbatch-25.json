@@ -1,0 +1,407 @@
+{
+ "https://github.com/shoe/free_cite": {
+  "label": "free_cite citation parsing system on GitHub",
+  "anchor_text": "free_cite",
+  "post_context": "<p>I decided that the best way to spend this Sunday morning was to try to get <a href=\"https://github.com/shoe/free_cite\">free_cite</a>, a citation parsing system, running on my server. Turns out this is easier said than done; the README",
+  "page_meta": {
+   "title": "GitHub - shoe/free_cite: web app for parsing citations",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/shoe/free_cite.git": {
+  "label": "free_cite Git repository clone URL",
+  "anchor_text": null,
+  "post_context": "e permissions are correct.</p> <p>Next, do:</p> {% highlight bash %} git clone https://github.com/shoe/free_cite.git cd free_cite/config cp database.yml.example database.yml {% endhighlight %} <p>and then fill in the database details in d",
+  "page_meta": {
+   "title": "GitHub - shoe/free_cite: web app for parsing citations",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/smathot/qnotero": {
+  "label": "Qnotero libzotero library GitHub repository",
+  "anchor_text": "libzotero library in Qnotero",
+  "post_context": "g-jats-from-zotero/\">mocked up a prototype</a> using an improved version of the <a href=\"https://github.com/smathot/qnotero\">libzotero library in Qnotero</a> for the Zotero interaction.</p> <p>A full initial implementation of this, which re",
+  "page_meta": {
+   "title": "GitHub - smathot/qnotero: Standalone sidekick to the Zotero reference manager (Qt4 version)",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/tqdm/tqdm": {
+  "label": "tqdm Python progress bar library",
+  "anchor_text": "tqdm",
+  "post_context": "with python file and line numbers in the right-hand column. With apologies to [tqdm](https://github.com/tqdm/tqdm), the progress bar stuff in Rich looks even neater than that great library, so I'll be using that in future. So these are j",
+  "page_meta": {
+   "title": "GitHub - tqdm/tqdm: :zap: A Fast, Extensible Progress Bar for Python and CLI",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://github.com/trallnag/prometheus-fastapi-instrumentator": {
+  "label": "prometheus-fastapi-instrumentator plugin",
+  "anchor_text": "have plugins that can handle the default/base instrumentation",
+  "post_context": "could use default Prometheus metrics for our applications. Systems like FastAPI [have plugins that can handle the default/base instrumentation](https://github.com/trallnag/prometheus-fastapi-instrumentator). These plugins will also create t",
+  "page_meta": {
+   "title": "GitHub - trallnag/prometheus-fastapi-instrumentator: Instrument your FastAPI with Prometheus metrics.",
+   "site": "GitHub",
+   "type": "object"
+  }
+ },
+ "https://gitlab.com/crossref/labs/airflow-launcher": {
+  "label": "Crossref Labs Airflow launcher project",
+  "anchor_text": "An Airflow launcher",
+  "post_context": "these two and get a solution that works for us, I put together two projects: * [An Airflow launcher](https://gitlab.com/crossref/labs/airflow-launcher) * [A Dask-provider library](https://gitlab.com/crossref/labs/distrunner) Essentially,",
+  "page_meta": {
+   "title": "crossref / labs / airflow-launcher · GitLab",
+   "site": "GitLab",
+   "type": "object"
+  }
+ },
+ "https://gitlab.com/crossref/labs/claws": {
+  "label": "CLAWS generic AWS operations toolkit",
+  "anchor_text": "CLAWS",
+  "post_context": "m/crossref/labs/opcit); a digital preservation system * Built a set of tools -- [CLAWS](https://gitlab.com/crossref/labs/claws) -- for generic AWS operations * Built [a wrapper for distributed computation](https://gitlab.com/crossref/labs/d",
+  "page_meta": {
+   "title": "crossref / labs / claws · GitLab",
+   "site": "GitLab",
+   "type": "object"
+  }
+ },
+ "https://gitlab.com/crossref/labs/distrunner": {
+  "label": "Crossref Labs Dask distributed runner library",
+  "anchor_text": "A Dask-provider library",
+  "post_context": ": * [An Airflow launcher](https://gitlab.com/crossref/labs/airflow-launcher) * [A Dask-provider library](https://gitlab.com/crossref/labs/distrunner) Essentially, the Airflow script bootstraps git onto AWS, pulls your git repository down,",
+  "page_meta": {
+   "title": "crossref / labs / distrunner · GitLab",
+   "site": "GitLab",
+   "type": "object"
+  }
+ },
+ "https://gitlab.com/crossref/labs/entext": {
+  "label": "LLM affiliation parser source code",
+  "anchor_text": "a Large Language Model affiliation parser",
+  "post_context": "in the Labs API * Rebuilt/rewrote the Retraction Watch database system * Built [a Large Language Model affiliation parser](https://gitlab.com/crossref/labs/entext) * Built [a JSON-L packer](https://gitlab.com/crossref/labs/packer) for the",
+  "page_meta": {
+   "title": "crossref / labs / entext · GitLab",
+   "site": "GitLab",
+   "type": "object"
+  }
+ },
+ "https://gitlab.com/crossref/labs/lambda-api-proxy": {
+  "label": "Crossref Labs API proxy source code",
+  "anchor_text": "its source code",
+  "post_context": "# Crossref * Built the [Labs API](https://api.labs.crossref.org/) and released [its source code](https://gitlab.com/crossref/labs/lambda-api-proxy) * Conducted research into, and wrote a peer-reviewed article about, the [digital preservati",
+  "page_meta": {
+   "title": "crossref / labs / fargate-api-proxy · GitLab",
+   "site": "GitLab",
+   "type": "object"
+  }
+ },
+ "https://gitlab.com/crossref/labs/lambda-api-proxy/-/blob/main/crapiproxy/src/instrumentation.py": {
+  "label": "Crossref Labs API proxy instrumentation.py example",
+  "anchor_text": "instrumentation.py",
+  "post_context": "truct). Each run can push up to 1,000 custom metrics in a single call. See this [instrumentation.py](https://gitlab.com/crossref/labs/lambda-api-proxy/-/blob/main/crapiproxy/src/instrumentation.py) file for an example. The “namespace” shou",
+  "page_meta": {
+   "title": "Files · main · crossref / labs / fargate-api-proxy · GitLab",
+   "site": "GitLab",
+   "type": "object"
+  }
+ },
+ "https://gitlab.com/crossref/labs/lambda-api-proxy/-/blob/main/crapiproxy/src/plugins/utils/aws_utils.py": {
+  "label": "Crossref Labs AWSConnector utility class source",
+  "anchor_text": "AWSConnector is a custom class that I wrote to handle this",
+  "post_context": "I, we set the endpoint_url for all of our AWS calls to http://localstack:4566. ([AWSConnector is a custom class that I wrote to handle this](https://gitlab.com/crossref/labs/lambda-api-proxy/-/blob/main/crapiproxy/src/plugins/utils/aws_util",
+  "page_meta": {
+   "title": "Files · main · crossref / labs / fargate-api-proxy · GitLab",
+   "site": "GitLab",
+   "type": "object"
+  }
+ },
+ "https://gitlab.com/crossref/labs/longsight": {
+  "label": "Longsight observability library",
+  "anchor_text": "an observability library called Longsight",
+  "post_context": "ion](https://gitlab.com/crossref/labs/distrunner) using Coiled and Dask * Built [an observability library called Longsight](https://gitlab.com/crossref/labs/longsight) * Integrated the Retraction Watch database in the Labs API * Rebuilt/rew",
+  "page_meta": {
+   "title": "crossref / labs / longsight · GitLab",
+   "site": "GitLab",
+   "type": "object"
+  }
+ },
+ "https://gitlab.com/crossref/labs/opcit": {
+  "label": "Project Op Cit digital preservation system",
+  "anchor_text": "Project Op Cit",
+  "post_context": "tem that allows for the modelling and retrieval of new metadata * Began work on [Project Op Cit](https://gitlab.com/crossref/labs/opcit); a digital preservation system * Built a set of tools -- [CLAWS](https://gitlab.com/crossref/labs/claws",
+  "page_meta": {
+   "title": "crossref / labs / opcit · GitLab",
+   "site": "GitLab",
+   "type": "object"
+  }
+ },
+ "https://gitlab.com/crossref/labs/packer": {
+  "label": "Crossref JSON-L packer for annual data dump",
+  "anchor_text": "a JSON-L packer",
+  "post_context": "uage Model affiliation parser](https://gitlab.com/crossref/labs/entext) * Built [a JSON-L packer](https://gitlab.com/crossref/labs/packer) for the Crossref annual data dump * Built (most of) [a SQLite packer](https://gitlab.com/crossref/lab",
+  "page_meta": {
+   "title": "crossref / labs / packer · GitLab",
+   "site": "GitLab",
+   "type": "object"
+  }
+ },
+ "https://gitlab.com/crossref/labs/preservation-data/-/blob/main/aflow/virtual_python_plugin.py": {
+  "label": "Crossref Labs Airflow virtual Python plugin source",
+  "anchor_text": "virtual_python_plugin.py",
+  "post_context": "env decorator \"out of the box\" You need to create a package.zip that contains a [virtual_python_plugin.py](https://gitlab.com/crossref/labs/preservation-data/-/blob/main/aflow/virtual_python_plugin.py). You also need to update this script s",
+  "page_meta": {
+   "title": "aflow/virtual_python_plugin.py · main · crossref / labs / preservation-data · GitLab",
+   "site": "GitLab",
+   "type": "object"
+  }
+ },
+ "https://gitlab.com/crossref/labs/rustsqlitepacker": {
+  "label": "Crossref Labs Rust SQLite packer source code",
+  "anchor_text": "the whole thing in Rust",
+  "post_context": "API ever could. There were some snags I hit along the way: 1. I had to write [the whole thing in Rust](https://gitlab.com/crossref/labs/rustsqlitepacker). It turns out that you can do it in Python, but I got much better speeds doing it a",
+  "page_meta": {
+   "title": "crossref / labs / rustsqlitepacker · GitLab",
+   "site": "GitLab",
+   "type": "object"
+  }
+ },
+ "https://group.springernature.com/gp/group/media/press-releases/apcs-in-the-wild-white-paper/17855784": {
+  "label": "Springer Nature APCs in the Wild white paper",
+  "anchor_text": "report out on tracking APCs",
+  "post_context": "Springer-Nature has a new [report out on tracking APCs](https://group.springernature.com/gp/group/media/press-releases/apcs-in-the-wild-white-paper/17855784). Research Fortnight asked m",
+  "page_meta": {
+   "title": "A better understanding of APC funding sources could accelerate the transition to open access | Springer Nature Group | Springer Nature"
+  }
+ },
+ "https://hcommons.org": {
+  "label": "Knowledge Commons homepage",
+  "anchor_text": "Knowledge Commons",
+  "post_context": "As part of my work on [Knowledge Commons](https://hcommons.org), I want to make more of our development process open, welcoming, and transparent, by using blogging. So I will be writ",
+  "page_meta": {
+   "title": "Knowledge Commons - Open access, open source, open to all"
+  }
+ },
+ "https://items.ssrc.org/parameters/the-library-solution-how-academic-libraries-could-end-the-apc-scourge/": {
+  "label": "SSRC: library solution to APC scourge",
+  "anchor_text": "attracting a lot of flack",
+  "post_context": "esting one for me. The article processing charge (APC) model for open access is [attracting a lot of flack](https://items.ssrc.org/parameters/the-library-solution-how-academic-libraries-could-end-the-apc-scourge/). It's being called the \"sc",
+  "page_meta": {
+   "title": "The Library Solution: How Academic Libraries Could End the APC Scourge",
+   "authors": [
+    "Jeff Pooley"
+   ],
+   "date": "2019-09-03T16:30:07+00:00",
+   "site": "Items - Social Science Research Council",
+   "type": "Article"
+  }
+ },
+ "https://janeway.systems/": {
+  "label": "Janeway open-access publishing platform",
+  "anchor_text": "amazing platform technology that is now used by universities worldwide: Janeway",
+  "post_context": "e showed that the model can work. Along the way, with Andy Byers, we built some [amazing platform technology that is now used by universities worldwide: Janeway](https://janeway.systems/). [We showed that we can transition for-profit, subsc",
+  "page_meta": {
+   "title": "Janeway"
+  }
+ },
+ "https://jcls.io/article/id/3915/": {
+  "label": "Ketzan and Eve, anxiety of prestige in Stephen King, JCLS 2024",
+  "anchor_text": "Ketzan, Erik, and Martin Paul Eve, ‘The Anxiety of Prestige in Stephen King’s Stylistics’, Journal of Computational Literary Studies, 3.1 (2024), 1–20",
+  "post_context": "wdate genericitem\"><span class=\"prefix bold\">2024</span><span class=\"bibitem\"> <a href=\"https://jcls.io/article/id/3915/\" class=\"csl-entry\">Ketzan, Erik, and Martin Paul Eve, ‘The Anxiety of Prestige in Stephen King’s Stylistics’, <i>Journ",
+  "page_meta": {
+   "title": "Making sure you're not a bot!"
+  }
+ },
+ "https://jekyllrb.com/": {
+  "label": "Jekyll static site generator",
+  "anchor_text": "Jekyll",
+  "post_context": "he weakest spots currently is that my blog, which is statically generated using [Jekyll](https://jekyllrb.com/), is hosted on [AWS](https://aws.amazon.com/). I know Amazon are evil, I should not be using them. However, their infrastructure",
+  "page_meta": {
+   "title": "Jekyll • Simple, blog-aware, static sites",
+   "site": "Jekyll • Simple, blog-aware, static sites",
+   "type": "WebSite"
+  }
+ },
+ "https://jonathangray.org/2020/10/20/new-book-reassembling-scholarly-communications-mit-press/": {
+  "label": "Jonathan Gray blog post on Reassembling Scholarly Communications",
+  "anchor_text": "Thanks to Jonathan",
+  "post_context": "ngs differently as we rush headlong forward into implementation.</p> <br/> <p><a href=\"https://jonathangray.org/2020/10/20/new-book-reassembling-scholarly-communications-mit-press/\">Thanks to Jonathan</a>, I'm also pleased, here, to be ab",
+  "page_meta": {
+   "title": "New Book: “Reassembling Scholarly Communications: Histories, Infrastructures, and Global Politics of Open Access” (MIT Press, 2020)",
+   "authors": [
+    "jwyg"
+   ],
+   "date": "2020-10-20T11:48:25+01:00",
+   "site": "Jonathan W. Y. Gray",
+   "type": "BlogPosting"
+  }
+ },
+ "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0263833": {
+  "label": "PLOS ONE study on auricular vagus nerve stimulation",
+  "anchor_text": "it does seem that there are scientific papers on this",
+  "post_context": "e of things -- sorry, but I want some hard numbers and medical theory. However, [it does seem that there are scientific papers on this](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0263833). [The Nurosym, made by Paras",
+  "page_meta": {
+   "title": "The effect of transcutaneous auricular vagus nerve stimulation on HRV in healthy young people",
+   "authors": [
+    "Duyan Geng",
+    "Xuanyu Liu",
+    "Yan Wang",
+    "Jiaxing Wang"
+   ],
+   "date": "Feb 10, 2022",
+   "site": "PLOS ONE",
+   "type": "article"
+  }
+ },
+ "https://jquery.org": {
+  "label": "jQuery JavaScript library official site",
+  "anchor_text": "jQuery",
+  "post_context": "https://github.com/FremyCompany/css-regions-polyfill/blob/master/LICENSE.md). * [jQuery](https://jquery.org). Under [the MIT license](https://jquery.org/license/). * The CaSSius logo is a derivative of a work by [Lil Squid from the Noun Pro",
+  "page_meta": {
+   "title": "A safe and modern home for JavaScript technologies | OpenJS Foundation",
+   "authors": [
+    "OpenJS Foundation"
+   ],
+   "site": "OpenJS Foundation",
+   "type": "website"
+  }
+ },
+ "https://jquery.org/license/": {
+  "label": "jQuery MIT license page",
+  "anchor_text": "the MIT license",
+  "post_context": "regions-polyfill/blob/master/LICENSE.md). * [jQuery](https://jquery.org). Under [the MIT license](https://jquery.org/license/). * The CaSSius logo is a derivative of a work by [Lil Squid from the Noun Project](https://thenounproject.com/sea",
+  "page_meta": {
+   "title": "License | jQuery",
+   "authors": [
+    "OpenJS Foundation - openjsf.org"
+   ]
+  }
+ },
+ "https://kb.netgear.com/000059432/RBR50-RBS50-Firmware-Version-2-1-4-16": {
+  "label": "Netgear KB page for firmware 2.1.4.16",
+  "anchor_text": "firmware 2.1.4.16",
+  "post_context": "ll work for you. You do it at your own risk. But it worked for me. 1. Download [firmware 2.1.4.16](https://kb.netgear.com/000059432/RBR50-RBS50-Firmware-Version-2-1-4-16) from Netgear for both the RBR50 and RBS50. 2. Connect the PC LAN po",
+  "page_meta": {
+   "title": "RBR50 / RBS50 Firmware Version 2.1.4.16",
+   "authors": [
+    "NETGEAR"
+   ],
+   "site": "NETGEAR KB",
+   "type": "Article"
+  }
+ },
+ "https://kdp.amazon.com/help?topicId=A29FL26OKE7R7B": {
+  "label": "Amazon KDP Kindle list price guidelines",
+  "anchor_text": "guidelines for Kindle publishing state",
+  "post_context": "here and this can be seen in Amazon's pricing policy for its Kindle titles. The <a href=\"https://kdp.amazon.com/help?topicId=A29FL26OKE7R7B\">guidelines for Kindle publishing state</a>, with regard to list price, that \"You must set your Digi",
+  "page_meta": {
+   "title": "Digital Book Pricing Page"
+  }
+ },
+ "https://kfitz.info/": {
+  "label": "Kathleen Fitzpatrick personal site",
+  "anchor_text": "Kathleen Fitzpatrick",
+  "post_context": "This morning, [Kathleen Fitzpatrick](https://kfitz.info/) drew my attention to [a Mastodon post by Babette Knauer](https://mastodon.social/@babetteknauer/115933572328791779)",
+  "page_meta": {
+   "title": "kfitz"
+  }
+ },
+ "https://lareviewofbooks.org/article/neoliberal-tools-archives-political-history-digital-humanities/": {
+  "label": "Allington neoliberal tools digital humanities LARB",
+  "anchor_text": "assertions elsewhere",
+  "post_context": "d by but determining of academic labour. That is, I don't hold with Allington's [assertions elsewhere](https://lareviewofbooks.org/article/neoliberal-tools-archives-political-history-digital-humanities/) that certain types of computing labo",
+  "page_meta": {
+   "title": "Neoliberal Tools (and Archives): A Political History of Digital Humanities | Los Angeles Review of Books",
+   "date": "2016-05-01T21:30:57.000Z",
+   "site": "Los Angeles Review of Books",
+   "type": "article"
+  }
+ },
+ "https://launchpad.net/sshsplit": {
+  "label": "sshsplit Launchpad project home",
+  "anchor_text": "the sshsplit launchpad home",
+  "post_context": "</img></a></p> <p>The code, my first effort in python, is available at <a href=\"https://launchpad.net/sshsplit\">the sshsplit launchpad home</a>.</p> <p>There is also a ppa that you can use to install sshsplit on Ubuntu machines on",
+  "page_meta": {
+   "title": "sshsplit in Launchpad",
+   "site": "Launchpad",
+   "type": "website"
+  }
+ },
+ "https://launchpad.net/xhtmlnotes": {
+  "label": "xhtmlnotes GPL note-taking software",
+  "anchor_text": "xhtmlnotes",
+  "post_context": "s of the notes are created with the aid of a piece of software entitled, aptly, <a href=\"https://launchpad.net/xhtmlnotes\">xhtmlnotes</a> which I have written and which is released under the terms of the GPL.</p> <p>All content on this site",
+  "page_meta": {
+   "title": "xhtmlnotes in Launchpad",
+   "site": "Launchpad",
+   "type": "website"
+  }
+ },
+ "https://leadinggenerously.hcommons.org/": {
+  "label": "Fitzpatrick, Leading Generously open review on HCommons",
+  "anchor_text": "on HCommons",
+  "post_context": "leen Fitzpatrick's most recent book manuscript, _Leading Generously_. It's over [on HCommons](https://leadinggenerously.hcommons.org/) for those who want to take a look and feed in. While there's much, content-wise, in the book on which I",
+  "page_meta": {
+   "title": "Leading Generously | Keywords for the Future of the University"
+  }
+ },
+ "https://library.ed.ac.uk/research-support/edinburgh-diamond": {
+  "label": "Edinburgh Diamond open-access publishing service",
+  "anchor_text": "Edinburgh Diamond",
+  "post_context": "of Pennsylvania Press](https://www.pennpress.org/), [DOAJ](https://doaj.org/), [Edinburgh Diamond](https://library.ed.ac.uk/research-support/edinburgh-diamond), [LSE Press](https://press.lse.ac.uk/), [UCL Press](https://uclpress.co.uk/), [",
+  "page_meta": {
+   "title": "Edinburgh Diamond | Library | Library",
+   "site": "Library"
+  }
+ },
+ "https://link.springer.com/book/10.1057/9781137405500": {
+  "label": "Eve, Pynchon and Philosophy, Palgrave",
+  "anchor_text": "Pynchon and Philosophy",
+  "post_context": "Humanities](http://dx.doi.org/10.1017/CBO9781316161012) (Cambridge UP, 2014) * [Pynchon and Philosophy](https://link.springer.com/book/10.1057/9781137405500) (Palgrave, 2014) How did I do this? It’s part a matter of luck and part a matte",
+  "page_meta": {
+   "title": "Client Challenge"
+  }
+ },
+ "https://maitzen.wordpress.com/": {
+  "label": "Rohan Maitzen academic blog",
+  "anchor_text": "Rohan Maitzen",
+  "post_context": "<p>I have just seen, via <a href=\"https://maitzen.wordpress.com/\">Rohan Maitzen</a> on Twitter, <a href=\"http://philosopherscocoon.typepad.com/blog/2012/08/making-the-first-day-not-the-",
+  "page_meta": {
+   "title": "Novel Readings",
+   "site": "Novel Readings",
+   "type": "website"
+  }
+ },
+ "https://mastodon.social/@babetteknauer/115933572328791779": {
+  "label": "Babette Knauer Mastodon post on Groningen Big Tech",
+  "anchor_text": "a Mastodon post by Babette Knauer",
+  "post_context": "This morning, [Kathleen Fitzpatrick](https://kfitz.info/) drew my attention to [a Mastodon post by Babette Knauer](https://mastodon.social/@babetteknauer/115933572328791779) about plans for the University of Groningen to get away from Big",
+  "page_meta": {
+   "title": "Babette Knauer (@babetteknauer@mastodon.social)",
+   "site": "Mastodon",
+   "type": "article"
+  }
+ },
+ "https://me.yahoo.com/": {
+  "label": "Yahoo OpenID provider endpoint",
+  "anchor_text": null,
+  "post_context": "(\"http://\" + userName + \".myvidoop.com\"); break; case \"yahoo\": providerBox.val(\"https://me.yahoo.com/\"); break; } } </script> {% endhighlight %} <h3>Input</h3> <p>I am extremely open to feedback, ideas/directions from interested",
+  "page_meta": {
+   "title": "OpenID2 eol message"
+  }
+ },
+ "https://mediaevalmusings.wordpress.com/2012/10/03/light-upon-light-abbot-suger-and-the-invention-of-gothic/": {
+  "label": "Blog post on Abbot Suger and Gothic light theology",
+  "anchor_text": "a style that was designed to emphasize light as the agent of God",
+  "post_context": "le's physics, St. Suger rebuilt the abbey in Saint Denis in around 1130-1140 in [a style that was designed to emphasize light as the agent of God](https://mediaevalmusings.wordpress.com/2012/10/03/light-upon-light-abbot-suger-and-the-invent",
+  "page_meta": {
+   "title": "Light Upon Light: Abbot Suger and the Invention of Gothic",
+   "date": "2012-10-03T17:49:28+00:00",
+   "site": "mediaevalmusings",
+   "type": "article"
+  }
+ }
+}

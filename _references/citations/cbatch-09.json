@@ -1,0 +1,208 @@
+{
+  "http://morguefile.com/": {
+    "title": "Morguefile.com free photographs for commercial use.",
+    "type": "WebSite",
+    "isPartOf": {"name": "Morguefile", "type": "WebSite"}
+  },
+  "http://morguefile.com/license/morguefile/": {
+    "title": "Morguefile.com free photographs for commercial use.",
+    "type": "WebPage",
+    "isPartOf": {"name": "Morguefile", "type": "WebSite"}
+  },
+  "http://news.bbc.co.uk/1/hi/education/10088448.stm": {
+    "title": "Oxford students challenge tuition fees review 'secrecy'",
+    "author": "Sean Coughlan",
+    "date": "2010-04-27",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "BBC News", "type": "WebSite"}
+  },
+  "http://news.bbc.co.uk/2/hi/health/7052318.stm": {
+    "title": "Optimism 'no bearing on cancer'",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "BBC News", "type": "WebSite"}
+  },
+  "http://nrs.harvard.edu/urn-3:HUL.InstRepos:4725013": {
+    "title": "The taxpayer argument for open access",
+    "author": "Peter Suber",
+    "date": "2003",
+    "type": "ScholarlyArticle"
+  },
+  "http://oabutton.wordpress.com/": {
+    "title": "Open Access Button",
+    "type": "WebSite",
+    "isPartOf": {"name": "Open Access Button", "type": "Blog"}
+  },
+  "http://oaspa.org/": {
+    "title": "Home",
+    "type": "WebPage",
+    "isPartOf": {"name": "OASPA", "type": "WebSite"}
+  },
+  "http://occamstypewriter.org/scurry/2015/04/08/open-access-a-national-licence-is-not-the-answer/": {
+    "title": "Open access: a national licence is not the answer",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Reciprocal Space", "type": "Blog"}
+  },
+  "http://openlibhums.org": null,
+  "http://opinionator.blogs.nytimes.com/2012/04/04/stone-links-28/": {
+    "title": "Stone Links",
+    "author": "Mark de Silva",
+    "date": "2012-04-04",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Opinionator", "type": "Blog"}
+  },
+  "http://orgmotivation.wordpress.com/2011/04/08/my-phd-in-plain-english/": {
+    "title": "My PhD…in plain English",
+    "date": "2011-04-08",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "The experience of motivation", "type": "Blog"}
+  },
+  "http://orweblog.oclc.org/archives/002174.html": {
+    "title": "Academic reputation enhancement ... redux",
+    "author": "Lorcan Dempsey",
+    "date": "2011-05-12",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "LorcanDempsey.net", "type": "Blog"}
+  },
+  "http://panelpicker.sxsw.com/vote/23623": {
+    "title": "PanelPicker",
+    "type": "WebPage",
+    "isPartOf": {"name": "SXSW Conference & Festival", "type": "WebSite"}
+  },
+  "http://pdos.csail.mit.edu/scigen/": {
+    "title": "SCIgen - An Automatic CS Paper Generator",
+    "type": "WebPage"
+  },
+  "http://pdxscholar.library.pdx.edu/critlib/2015/Conference/11": {
+    "title": "Session: Open Access, Labor, and Knowledge Production",
+    "author": ["Emily Drabinski", "Korey Jackson"],
+    "type": "ScholarlyArticle",
+    "isPartOf": {"name": "PDXScholar", "type": "WebSite"}
+  },
+  "http://phpids.heideri.ch/": null,
+  "http://pkp.sfu.ca/?q=ojs": {
+    "title": "Public Knowledge Project",
+    "type": "WebSite",
+    "isPartOf": {"name": "Public Knowledge Project", "type": "WebSite"}
+  },
+  "http://pkp.sfu.ca/ojs/": {
+    "title": "Open Journal Systems (OJS)",
+    "type": "WebPage",
+    "isPartOf": {"name": "Public Knowledge Project", "type": "WebSite"}
+  },
+  "http://pkp.sfu.ca/ojs/docs/userguide/2.3.3/index.html": {
+    "title": "OJS User Guide",
+    "type": "TechArticle",
+    "isPartOf": {"name": "PKP Docs", "type": "WebSite"}
+  },
+  "http://pkp.sfu.ca/ojs/docs/userguide/2.3.3/systemAdministrationInstallation.html": {
+    "title": "OJS Installation Instructions",
+    "type": "TechArticle",
+    "isPartOf": {"name": "PKP Docs", "type": "WebSite"}
+  },
+  "http://pkp.sfu.ca/support/forum/viewtopic.php?f=9&t=6817": null,
+  "http://plashingvole.blogspot.co.uk/2012/09/a-stupid-question-for-super-researchers.html": {
+    "title": "A stupid question for the super-researchers",
+    "type": "BlogPosting"
+  },
+  "http://plato.stanford.edu/entries/aristotle-metaphysics/#SubMatSub": {
+    "title": "Aristotle's Metaphysics",
+    "author": ["S. Marc Cohen", "C. D. C. Reeve"],
+    "date": "2000-10-08",
+    "type": "ScholarlyArticle",
+    "isPartOf": {"name": "Stanford Encyclopedia of Philosophy", "type": "WebSite"}
+  },
+  "http://playforth.wordpress.com/2012/03/29/uksg-2012-the-freebies-are-already-here-theyre-just-unevenly-distributed/": {
+    "title": "UKSG 2012: the freebies are already here, they're just unevenly distributed",
+    "date": "2012-03-29",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "The toast in the machine", "type": "Blog"}
+  },
+  "http://pogue.blogs.nytimes.com/2012/08/02/where-is-bourne-not-in-an-electronic-version/": {
+    "title": "Where Is Bourne? Not in an Electronic Version",
+    "date": "2012-08-02",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Pogue's Posts Blog", "type": "Blog"}
+  },
+  "http://ppa.launchpad.net/ubuntu-wine/ppa/ubuntu": {
+    "title": "Index of /ubuntu-wine/ppa/ubuntu",
+    "type": "WebPage"
+  },
+  "http://preyproject.com/": {
+    "title": "Prey: reliable device tracking and security tool",
+    "type": "WebSite"
+  },
+  "http://prezi.com": {
+    "title": "Prezi: the presentation platform built for engagement",
+    "type": "WebSite",
+    "isPartOf": {"name": "Prezi", "type": "WebSite"}
+  },
+  "http://prezi.com/6bdu_yukyvgj/step-by-step-wordpress-for-academics/": {
+    "title": "Step-By-Step Wordpress for Academics",
+    "author": "Martin Eve",
+    "type": "WebPage",
+    "isPartOf": {"name": "Prezi", "type": "WebSite"}
+  },
+  "http://prezi.com/7trgivuxt5fs/autosubversive-practices-in-academic-publishing/": {
+    "title": "Autosubversive Practices in Academic Publishing",
+    "author": "Martin Eve",
+    "type": "WebPage",
+    "isPartOf": {"name": "Prezi", "type": "WebSite"}
+  },
+  "http://prezi.com/beqjtk5qhxcs/using-twitter-for-research/": {
+    "title": "Using Twitter for Research",
+    "author": "Martin Eve",
+    "type": "WebPage",
+    "isPartOf": {"name": "Prezi", "type": "WebSite"}
+  },
+  "http://prezi.com/gvoijttzwepl/the-future-of-peer-review/?kw=view-gvoijttzwepl&rc=ref-1218260": {
+    "title": "The Future of Peer Review",
+    "author": "Martin Eve",
+    "type": "WebPage",
+    "isPartOf": {"name": "Prezi", "type": "WebSite"}
+  },
+  "http://prezi.com/iqpgvrzc7rm2/speaking-of-open-access/": {
+    "title": "Speaking of Open Access",
+    "author": "Martin Eve",
+    "type": "WebPage",
+    "isPartOf": {"name": "Prezi", "type": "WebSite"}
+  },
+  "http://prezi.com/rd1xsxycnh9y/thomas-pynchon-david-foster-wallace-and-twenty-first-century-utopianism/": {
+    "title": "Thomas Pynchon, David Foster Wallace and Twenty-First-Century Utopianism",
+    "author": "Martin Eve",
+    "type": "WebPage",
+    "isPartOf": {"name": "Prezi", "type": "WebSite"}
+  },
+  "http://prezi.com/terms-of-use/": {
+    "title": "Business Terms and Conditions",
+    "type": "WebPage",
+    "isPartOf": {"name": "Prezi", "type": "WebSite"}
+  },
+  "http://prezi.com/yj5ttsf_k0lv/open-access-publishing/": {
+    "title": "Open Access Publishing",
+    "author": "Martin Eve",
+    "type": "WebPage",
+    "isPartOf": {"name": "Prezi", "type": "WebSite"}
+  },
+  "http://purl.org/dc/dcmitype/Text": {
+    "title": "DCMI Metadata Terms",
+    "type": "WebPage",
+    "isPartOf": {"name": "DCMI", "type": "WebSite"}
+  },
+  "http://purl.org/dc/terms/": {
+    "title": "DCMI Metadata Terms",
+    "type": "WebPage",
+    "isPartOf": {"name": "DCMI", "type": "WebSite"}
+  },
+  "http://reallyopenuniversity.wordpress.com/": {
+    "title": "Really Open University",
+    "type": "WebSite",
+    "isPartOf": {"name": "Really Open University", "type": "WebSite"}
+  },
+  "http://repository.jisc.ac.uk/7427/": {
+    "title": "Open Metrics for Monographs Experiment: Final Report",
+    "author": "Martin Paul Eve",
+    "date": "2019",
+    "type": "Report",
+    "publisher": "Jisc"
+  }
+}

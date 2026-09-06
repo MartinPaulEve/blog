@@ -1,0 +1,245 @@
+{
+  "https://crossref.org/": {
+    "title": "Crossref",
+    "type": "WebSite",
+    "isPartOf": {"name": "Crossref", "type": "WebSite"}
+  },
+  "https://dash.harvard.edu/handle/1/4725013": {
+    "title": "The taxpayer argument for open access",
+    "author": "Peter Suber",
+    "date": "2003",
+    "type": "ScholarlyArticle"
+  },
+  "https://dhdebates.gc.cuny.edu/read/critical-infrastructure-studies-and-digital-humanities/section/d01b113d-2da5-48f1-be0e-f3c50392f1ad#cvi": {
+    "title": "Critical Infrastructure Studies and Digital Humanities",
+    "type": "Book",
+    "isPartOf": {"name": "Debates in the Digital Humanities", "type": "Periodical"}
+  },
+  "https://dhdebates.gc.cuny.edu/read/critical-infrastructure-studies-and-digital-humanities/section/f4451084-a3bd-4a36-860d-f3a14e17ad0c#ch06": {
+    "title": "Shadow Libraries and Pirate Infrastructures",
+    "type": "ScholarlyArticle",
+    "isPartOf": {"name": "Critical Infrastructure Studies and Digital Humanities", "type": "Blog"}
+  },
+  "https://digiconomist.net/bitcoin-energy-consumption/": {
+    "title": "Bitcoin Energy Consumption Index",
+    "date": "2016-11-26",
+    "type": "WebPage",
+    "isPartOf": {"name": "Digiconomist", "type": "WebSite"}
+  },
+  "https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-metrics-and-dimensions.html": {
+    "title": "Amazon API Gateway dimensions and metrics",
+    "type": "TechArticle",
+    "isPartOf": {"name": "Amazon API Gateway", "type": "WebSite"}
+  },
+  "https://docs.aws.amazon.com/mwaa/latest/userguide/samples-virtualenv.html": {
+    "title": "Amazon Managed Workflows for Apache Airflow",
+    "type": "TechArticle",
+    "isPartOf": {"name": "Amazon Web Services", "type": "WebSite"}
+  },
+  "https://docs.google.com/a/martineve.com/document/d/1HSMVLpMw62WMvd_R1P4znofj4kv8_imvDnNPxjN4jxg/edit?pli=1": {
+    "title": "Letter to Pogue, NYTimes, re Ludlum",
+    "type": "WebPage",
+    "isPartOf": {"name": "Google Docs", "type": "WebSite"}
+  },
+  "https://docs.google.com/document/d/1gm2FEuz6d3qim4762-kh6Anfc6Qe_Tru5HoJdqL9WTQ/edit?usp=sharing": {
+    "title": "Reference Terms",
+    "type": "WebPage",
+    "isPartOf": {"name": "Google Docs", "type": "WebSite"}
+  },
+  "https://editorresources.taylorandfrancis.com/welcome-to-tf/policies-guidelines/plan-s/": {
+    "title": "Commentary on cOAlition S's revised Plan S – what next for Open Access?",
+    "date": "2019-06-25",
+    "type": "WebPage",
+    "isPartOf": {"name": "Taylor & Francis Editor Resources", "type": "WebSite"}
+  },
+  "https://en.wikipedia.org/w/index.php?title=XSL_Formatting_Objects&oldid=668053710": {
+    "title": "XSL Formatting Objects",
+    "author": "Contributors to Wikimedia projects",
+    "date": "2004-04-19",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "https://en.wikipedia.org/wiki/Battle_of_the_Beams": {
+    "title": "Battle of the Beams",
+    "author": "Contributors to Wikimedia projects",
+    "date": "2003-03-06",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "https://en.wikipedia.org/wiki/Cambridge_University_Press_v._Patton": {
+    "title": "Cambridge University Press v. Patton",
+    "author": "Contributors to Wikimedia projects",
+    "date": "2012-02-01",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "https://en.wikipedia.org/wiki/Copyright_Directive": {
+    "title": "Copyright Directive",
+    "author": "Contributors to Wikimedia projects",
+    "date": "2003-02-06",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "https://en.wikipedia.org/wiki/Digital_Millennium_Copyright_Act": {
+    "title": "Digital Millennium Copyright Act",
+    "author": "Contributors to Wikimedia projects",
+    "date": "2001-07-31",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "https://en.wikipedia.org/wiki/Digital_object_identifier": {
+    "title": "Digital object identifier",
+    "author": "Contributors to Wikimedia projects",
+    "date": "2004-01-06",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "https://en.wikipedia.org/wiki/GuildHE": {
+    "title": "GuildHE",
+    "author": "Contributors to Wikimedia projects",
+    "date": "2008-05-07",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "https://en.wikipedia.org/wiki/Hacker_%28programmer_subculture%29": {
+    "title": "Hacker (programmer subculture)",
+    "author": "Contributors to Wikimedia projects",
+    "date": "2003-01-01",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "https://en.wikipedia.org/wiki/Handle_System": {
+    "title": "Handle System",
+    "author": "Contributors to Wikimedia projects",
+    "date": "2009-03-19",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "https://en.wikipedia.org/wiki/Jacobellis_v._Ohio": {
+    "title": "Jacobellis v. Ohio",
+    "author": "Contributors to Wikimedia projects",
+    "date": "2004-05-17",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "https://en.wikipedia.org/wiki/OSI_model": {
+    "title": "OSI model",
+    "author": "Contributors to Wikimedia projects",
+    "date": "2001-12-17",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "https://en.wikipedia.org/wiki/Regular_expression": {
+    "title": "Regular expression",
+    "author": "Contributors to Wikimedia projects",
+    "date": "2001-09-04",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "https://en.wikipedia.org/wiki/Replication_crisis": {
+    "title": "Replication crisis",
+    "author": "Contributors to Wikimedia projects",
+    "type": "WebPage",
+    "isPartOf": {"name": "Wikipedia", "type": "WebSite"}
+  },
+  "https://engineuring.wordpress.com/2016/02/24/why-sci-hub-is-the-true-solution-for-open-access-reply-to-criticism/": {
+    "title": "Why Sci-Hub is the true solution for Open Access: reply to criticism",
+    "date": "2016-02-24",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Engineuring", "type": "Blog"}
+  },
+  "https://engineuring.wordpress.com/2016/03/11/sci-hub-is-a-goal-changing-the-system-is-a-method/": {
+    "title": "Sci-Hub is a goal, changing the system is a method",
+    "date": "2016-03-11",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Engineuring", "type": "Blog"}
+  },
+  "https://engineuring.wordpress.com/2021/07/09/how-the-chronicle-is-trying-to-malign-sci-hub/": {
+    "title": "How The Chronicle is trying to malign Sci-Hub",
+    "date": "2021-07-09",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Engineuring", "type": "Blog"}
+  },
+  "https://eprints.bbk.ac.uk/": {
+    "title": "Birkbeck Institutional Research Online",
+    "type": "WebSite"
+  },
+  "https://eprints.bbk.ac.uk/12246/": {
+    "title": "Thomas Pynchon, David Foster Wallace and the problems of 'metamodernism': post-millennial post-postmodernism?",
+    "author": "Martin Paul Eve",
+    "date": "2012-10",
+    "type": "ScholarlyArticle"
+  },
+  "https://eprints.bbk.ac.uk/19432/": {
+    "title": "Open Publication, Digital Abundance, and Scarce Labour",
+    "author": "Martin Paul Eve",
+    "date": "2017-10-23",
+    "type": "ScholarlyArticle"
+  },
+  "https://eprints.bbk.ac.uk/20716/": {
+    "title": "Close Reading with Computers: Textual Scholarship, Computational Formalism, and David Mitchell's Cloud Atlas",
+    "author": "Martin Paul Eve",
+    "date": "2019-01-01",
+    "type": "Book"
+  },
+  "https://eprints.bbk.ac.uk/26645/": {
+    "title": "The Digital Humanities and Literary Studies",
+    "author": "Martin Paul Eve",
+    "date": "2022-02-10",
+    "type": "Book"
+  },
+  "https://eprints.bbk.ac.uk/27709/": {
+    "title": "Reading Peer Review: PLOS ONE and Institutional Change in Academia",
+    "author": ["Martin Paul Eve", "Cameron Neylon", "Daniel O'Donnell", "Samuel Moore", "Robert Gadie", "Victoria Odeniyi", "Shahina Parvin"],
+    "date": "2021-01-03",
+    "type": "Book"
+  },
+  "https://eprints.bbk.ac.uk/id/eprint/12131/": {
+    "title": "Password",
+    "author": "Martin Paul Eve",
+    "date": "2016-12",
+    "type": "Book"
+  },
+  "https://eprints.bbk.ac.uk/id/eprint/24067/": {
+    "title": "\"What was knowledge for, I would ask myself\": Science, Technology, and Pharmakon in David Mitchell's Cloud Atlas",
+    "author": "Martin Paul Eve",
+    "date": "2019-04-03",
+    "type": "ScholarlyArticle"
+  },
+  "https://eprints.bbk.ac.uk/id/eprint/26645": {
+    "title": "The Digital Humanities and Literary Studies",
+    "author": "Martin Paul Eve",
+    "date": "2022-02-10",
+    "type": "Book"
+  },
+  "https://eprints.bbk.ac.uk/id/eprint/27709": {
+    "title": "Reading Peer Review: PLOS ONE and Institutional Change in Academia",
+    "author": ["Martin Paul Eve", "Cameron Neylon", "Daniel O'Donnell", "Samuel Moore", "Robert Gadie", "Victoria Odeniyi", "Shahina Parvin"],
+    "date": "2021-01-03",
+    "type": "Book"
+  },
+  "https://eprints.bbk.ac.uk/id/eprint/27709/": {
+    "title": "Reading Peer Review: PLOS ONE and Institutional Change in Academia",
+    "author": ["Martin Paul Eve", "Cameron Neylon", "Daniel O'Donnell", "Samuel Moore", "Robert Gadie", "Victoria Odeniyi", "Shahina Parvin"],
+    "date": "2021-01-03",
+    "type": "Book"
+  },
+  "https://eprints.bbk.ac.uk/id/eprint/30661": {
+    "title": "F1000 buyout may have 'strange consequences'",
+    "author": ["Robin Bisson", "Martin Paul Eve"],
+    "date": "2020-01-23",
+    "type": "NewsArticle"
+  },
+  "https://eprints.bbk.ac.uk/id/eprint/30834": {
+    "title": "Plan S: Understanding challenges and resolving conflicts",
+    "author": ["Martin Paul Eve", "Chris Banks", "Carrie Webster"],
+    "date": "2020-02-05",
+    "type": "ScholarlyArticle"
+  },
+  "https://eprints.bbk.ac.uk/id/eprint/30836": {
+    "title": "REF could demand compliance with Plan S in future",
+    "author": ["Fiona McIntyre", "Martin Paul Eve"],
+    "date": "2020-02-05",
+    "type": "NewsArticle"
+  }
+}

@@ -1,0 +1,189 @@
+{
+ "http://www.lloydstsb.com/ib/registration_termsconditions.asp": {
+  "title": "Updated online banking agreement",
+  "type": "WebPage",
+  "isPartOf": {"name": "Lloyds TSB", "type": "WebSite"}
+ },
+ "http://www.lockss.org/": {
+  "title": "LOCKSS Program",
+  "type": "WebSite"
+ },
+ "http://www.lrb.co.uk/blog/2010/03/16/alex-abramovich/wallace-v-the-terrible-master/": {
+  "title": "Wallace v. the Terrible Master",
+  "author": "Alex Abramovich",
+  "date": "2010-03-16",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "LRB Blog", "type": "Blog"}
+ },
+ "http://www.luminarium.org/sevenlit/donne/sonnet14.php": {
+  "title": "John Donne. Holy Sonnet 14.",
+  "type": "WebPage",
+  "isPartOf": {"name": "Luminarium", "type": "WebSite"}
+ },
+ "http://www.martineve.com": null,
+ "http://www.mendeley.com": {
+  "title": "Mendeley",
+  "type": "WebSite"
+ },
+ "http://www.moo.com": {
+  "title": "MOO",
+  "type": "WebSite"
+ },
+ "http://www.mozilla.org/MPL/": {
+  "title": "Mozilla Public Licence",
+  "type": "WebPage",
+  "isPartOf": {"name": "Mozilla", "type": "WebSite"}
+ },
+ "http://www.mozilla.org/en-GB/thunderbird/": {
+  "title": "Thunderbird — Free Your Inbox.",
+  "type": "WebSite"
+ },
+ "http://www.mozilla.org/en-US/firefox/": {
+  "title": "Firefox: The fast, private browser that keeps you safe",
+  "type": "WebSite"
+ },
+ "http://www.mozilla.org/en-US/firefox/fx/": {
+  "title": "Firefox: The fast, private browser that keeps you safe",
+  "type": "WebSite"
+ },
+ "http://www.mozilla.org/xbl": {
+  "title": "Mozilla XML Namespace",
+  "type": "WebPage",
+  "isPartOf": {"name": "Mozilla", "type": "WebSite"}
+ },
+ "http://www.nature.com/nature/journal/v473/n7346/full/473124a.html": {
+  "title": "Online image",
+  "date": "2011-05",
+  "type": "NewsArticle",
+  "isPartOf": {"name": "Nature", "type": "Periodical"}
+ },
+ "http://www.nature.com/news/2011/110420/full/472261a.html": {
+  "title": "Reform the PhD system or close it down",
+  "author": "Mark Taylor",
+  "date": "2011-04",
+  "type": "NewsArticle",
+  "isPartOf": {"name": "Nature", "type": "Periodical"}
+ },
+ "http://www.nature.com/news/2011/110511/full/473138a.html": {
+  "title": "Online reputations: Best face forward",
+  "author": "Eugenie Samuel Reich",
+  "date": "2011-05-11",
+  "type": "NewsArticle",
+  "isPartOf": {"name": "Nature", "type": "Periodical"}
+ },
+ "http://www.nature.com/news/publishers-withdraw-more-than-120-gibberish-papers-1.14763": {
+  "title": "Publishers withdraw more than 120 gibberish papers",
+  "author": "Richard Van Noorden",
+  "date": "2014-02-24",
+  "type": "NewsArticle",
+  "isPartOf": {"name": "Nature", "type": "Periodical"}
+ },
+ "http://www.nature.com/news/text-mining-spat-heats-up-1.12636": {
+  "title": "Text-mining spat heats up",
+  "author": "Richard Van Noorden",
+  "date": "2013-03-20",
+  "type": "NewsArticle",
+  "isPartOf": {"name": "Nature", "type": "Periodical"}
+ },
+ "http://www.newrepublic.com/article/122802/thomas-pynchon-didnt-write-cow-country-aj-perry-probably-did": {
+  "title": "The Hunt for a Possible Pynchon Novel Leads to a Name",
+  "author": "Alex Shephard",
+  "date": "2015-09-12",
+  "type": "NewsArticle",
+  "isPartOf": {"name": "The New Republic", "type": "Periodical"}
+ },
+ "http://www.nii.ac.jp/sparc/en/event/2013/20130823en.html": {
+  "title": "SPARC Japan",
+  "type": "WebPage",
+  "isPartOf": {"name": "SPARC Japan", "type": "WebSite"}
+ },
+ "http://www.oaspa.org/": {
+  "title": "Home",
+  "type": "WebPage",
+  "isPartOf": {"name": "OASPA", "type": "WebSite"}
+ },
+ "http://www.ocelotfactory.com/hoban/rinyo.html": {
+  "title": "Russell Hoban's Mr Rinyo-Clacton's Offer",
+  "type": "WebPage"
+ },
+ "http://www.openaccessweek.org": {
+  "title": "International Open Access Week",
+  "type": "WebSite"
+ },
+ "http://www.openaccessweek.org/": {
+  "title": "International Open Access Week",
+  "type": "WebSite"
+ },
+ "http://www.openbookpublishers.com/product/530": {
+  "title": "Literature Against Criticism: University English and Contemporary Fiction in Conflict",
+  "author": "Martin Paul Eve",
+  "date": "2016-10-17",
+  "type": "Book",
+  "isPartOf": {"name": "Open Book Publishers", "type": "WebSite"}
+ },
+ "http://www.openbookpublishers.com/product/530/literature-against-criticism--university-english-and-contemporary-fiction-in-conflict": {
+  "title": "Literature Against Criticism: University English and Contemporary Fiction in Conflict",
+  "author": "Martin Paul Eve",
+  "date": "2016-10-17",
+  "type": "Book",
+  "isPartOf": {"name": "Open Book Publishers", "type": "WebSite"}
+ },
+ "http://www.openlibhums.org": null,
+ "http://www.openssl.org/source/": {
+  "title": "Downloads",
+  "type": "WebPage",
+  "isPartOf": {"name": "OpenSSL", "type": "WebSite"}
+ },
+ "http://www.palgrave.com/page/about-us-palgrave-open-faqs/": null,
+ "http://www.palgrave.com/page/about-us-palgrave-open-faqs/?loc=us#Open%20access%20publication%20charge%20and%20funding": null,
+ "http://www.palgrave.com/products/title.aspx?pid=753605&utm_source=SilverpopMailing&utm_medium=email&utm_campaign=SRL0716%20-%20Literature%20Newsletter%20April%20UK%20Atlas%20%281%29&utm_content=&spMailingID=45581591&spUserID=ODg2NDk0OTY4MjYS1&spJobID=421057379&spReportId=NDIxMDU3Mzc5S0": null,
+ "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0002:speech=3:section=79": {
+  "title": "Aeschines, Against Ctesiphon, section 79",
+  "type": "WebPage",
+  "isPartOf": {"name": "Perseus Digital Library", "type": "WebSite"}
+ },
+ "http://www.phd2published.com/": {
+  "title": "PhD2Published",
+  "type": "WebSite"
+ },
+ "http://www.phd2published.com/2011/08/31/we-ask-martin-paul-eve-do-we-need-to-rethink-academic-publishing/": {
+  "title": "We Ask Martin Paul Eve: Do We Need to Rethink Academic Publishing?",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "PhD2Published", "type": "Blog"}
+ },
+ "http://www.phd2published.com/2011/10/25/martin-paul-eve-on-open-access-week/": {
+  "title": "Martin Paul Eve on Open Access Week",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "PhD2Published", "type": "Blog"}
+ },
+ "http://www.philosophyetc.net/2009/03/academic-blogging-pros-and-cons.html": {
+  "title": "Academic Blogging: Pros and Cons",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "Philosophy etc.", "type": "Blog"}
+ },
+ "http://www.phoronix.com/scan.php?page=article&item=linux_2637_video&num=2": {
+  "title": "The ~200 Line Linux Kernel Patch That Does Wonders",
+  "type": "NewsArticle",
+  "isPartOf": {"name": "Phoronix", "type": "WebSite"}
+ },
+ "http://www.plos.org": {
+  "title": "Leading the future of open science publishing",
+  "type": "WebSite"
+ },
+ "http://www.plosone.org/static/information": {
+  "title": "PLOS ONE Journal Information",
+  "type": "WebPage",
+  "isPartOf": {"name": "PLOS ONE", "type": "WebSite"}
+ },
+ "http://www.poets.org/viewmedia.php/prmMID/20308": {
+  "title": "Batter my heart, three person'd God (Holy Sonnet 14)",
+  "date": "2008-07-16",
+  "type": "WebPage",
+  "isPartOf": {"name": "Poets.org", "type": "WebSite"}
+ },
+ "http://www.press.uchicago.edu/ucp/books/book/chicago/N/bo3645773.html": {
+  "title": "The Nature of the Book",
+  "type": "Book",
+  "isPartOf": {"name": "University of Chicago Press", "type": "WebSite"}
+ }
+}

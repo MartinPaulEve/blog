@@ -1,0 +1,406 @@
+{
+ "http://results.ref.ac.uk/DownloadSubmissions/ByForm/REF2": {
+  "label": "REF 2014 REF2 submissions with ISBN",
+  "anchor_text": "REF2 items with an ISBN",
+  "post_context": "context, ~27,000 books were submitted to REF 2014 so far as I can see (source: <a href=\"http://results.ref.ac.uk/DownloadSubmissions/ByForm/REF2\">REF2 items with an ISBN</a>). This is ~5,400 UK books per year (divided by five [years]), so",
+  "page_meta": {
+   "title": "Results & submissions : REF 2014 : Download submission data"
+  }
+ },
+ "http://roarmap.eprints.org/": {
+  "label": "ROARMAP registry of OA repository mandates and policies",
+  "anchor_text": null,
+  "post_context": "ty-moore-foundation * Harnad, S. (n.d.). ROARMAP. Retrieved July 25, 2014, from http://roarmap.eprints.org/ * Hill, S. (2020, January 20). Journal brand and research culture. _Writings about Research Policy, Evidence, and Other Topics_. htt",
+  "page_meta": {
+   "title": "Welcome to ROARMAP - ROARMAP"
+  }
+ },
+ "http://roddymacleod.wordpress.com/2010/04/06/many-open-access-oa-journals-dont-have-table-of-contents-rss-feeds-and-they-are-therefore-missing-out-a-great-deal/": {
+  "label": "Macleod blog post arguing for journal RSS feeds",
+  "anchor_text": "the case for RSS feeds on journals",
+  "post_context": "d, who runs the JournalTOCs setup, also sent me a link to an article that makes <a href=\"http://roddymacleod.wordpress.com/2010/04/06/many-open-access-oa-journals-dont-have-table-of-contents-rss-feeds-and-they-are-therefore-missing-out-a-gr",
+  "page_meta": {
+   "title": "Many Open Access (OA) journals don’t have Table of Contents RSS feeds, and they are therefore missing out a great deal.",
+   "date": "2010-04-06T12:18:34+00:00",
+   "site": "Roddy Macleod's Blog",
+   "type": "article"
+  }
+ },
+ "http://sa4qe.blogspot.com/2001/01/about-sa4qe.html": {
+  "label": "SA4QE Slickman A4 Quotation Event about page",
+  "anchor_text": "SA4QE",
+  "post_context": "ations on Friday the 4th of February 2011.</p> <h2>What's it all about?</h2> <p><a href=\"http://sa4qe.blogspot.com/2001/01/about-sa4qe.html\">SA4QE</a> is an acronym for Slickman A4 Quotation Event, an annual literary activity established in",
+  "page_meta": {
+   "title": "About SA4QE"
+  }
+ },
+ "http://sa4qe.blogspot.com/2011/05/pynchon-in-public-day-and-sf-writers.html": {
+  "label": "SA4QE blog post circulating Pynchon in Public Day piece",
+  "anchor_text": "widely circulated",
+  "post_context": "chon in Public Day</a> event which I organized last weekend. The piece has been <a href=\"http://sa4qe.blogspot.com/2011/05/pynchon-in-public-day-and-sf-writers.html\">widely circulated</a> and I'm grateful for all the exposure!</p> <p>",
+  "page_meta": {
+   "title": "Pynchon in Public Day and SF writers' choice"
+  }
+ },
+ "http://schema.org/CreativeWork": {
+  "label": "Schema.org CreativeWork type vocabulary",
+  "anchor_text": null,
+  "post_context": "a>]</li> </ul> <h4>Journal Articles</h4> <ul> <li><span itemscope=\"\" itemtype=\"http://schema.org/CreativeWork\" itemid=\"http://eprints.bbk.ac.uk/id/eprint/17617\"><span itemtype=\"http://schema.org/Person\" itemscope=\"\" itemid=\"https://www.mar",
+  "page_meta": {
+   "title": "CreativeWork - Schema.org Type"
+  }
+ },
+ "http://schema.org/EducationEvent": {
+  "label": "Schema.org EducationEvent type vocabulary",
+  "anchor_text": null,
+  "post_context": "</ul> <h4>Conference Papers/Events</h4> <ul> <li><span itemscope=\"\" itemtype=\"http://schema.org/EducationEvent\" itemid=\"http://eprints.bbk.ac.uk/id/eprint/16677\"><span itemtype=\"http://schema.org/Person\" itemscope=\"\" itemid=\"https://www.m",
+  "page_meta": {
+   "title": "EducationEvent - Schema.org Type"
+  }
+ },
+ "http://schema.org/Periodical": {
+  "label": "Schema.org Periodical type vocabulary",
+  "anchor_text": null,
+  "post_context": "Fetishisation of Excellence</span></a>&rdquo;, <i><span itemscope=\"\" itemtype=\"http://schema.org/Periodical\"><span id=\"name\">Palgrave Communications</span></span></i>, <span itemprop=\"datepublished\">2017</span></span></li> <li><span itemsc",
+  "page_meta": {
+   "title": "Periodical - Schema.org Type"
+  }
+ },
+ "http://schema.org/Person": {
+  "label": "Schema.org Person type vocabulary",
+  "anchor_text": null,
+  "post_context": "oking forward to a less eventful 2017! <h4>Books</h4> <ul> <li><span itemtype=\"http://schema.org/Person\" itemscope=\"\" itemid=\"https://www.martineve.com\" itempropreplace=\"\">Eve, Martin Paul</span>, <a href=\"http://eprints.bbk.ac.uk/id/eprin",
+  "page_meta": {
+   "title": "Person - Schema.org Type"
+  }
+ },
+ "http://schema.org/Place": {
+  "label": "Schema.org Place type vocabulary",
+  "anchor_text": null,
+  "post_context": "me\">Digital Art History Research Group</span></i>, <span itemscope=\"\" itemtype=\"http://schema.org/Place\" itemprop=\"location\"><span itemprop=\"address\"><span itemprop=\"name\">Courtauld Institute of Art</span></span></span>, <span itemprop=\"sta",
+  "page_meta": {
+   "title": "Place - Schema.org Type"
+  }
+ },
+ "http://scholarlykitchen.sspnet.org/2012/07/18/a-proposed-list-60-things-journal-publishers-do/": {
+  "label": "Scholarly Kitchen: 60 things journal publishers do",
+  "anchor_text": "A Proposed List — 60 Things Journal Publishers Do",
+  "post_context": "<p>Kent Anderson recently wrote a post over at Scholarly Kitchen entitled \"<a href=\"http://scholarlykitchen.sspnet.org/2012/07/18/a-proposed-list-60-things-journal-publishers-do/\">A Proposed List — 60 Things Journal Publishers Do</a>\".",
+  "page_meta": {
+   "title": "A Proposed List &#8212; 60 Things Journal Publishers Do",
+   "authors": [
+    "Kent Anderson"
+   ],
+   "date": "2012-07-18T09:30:10+00:00",
+   "site": "The Scholarly Kitchen",
+   "type": "Article"
+  }
+ },
+ "http://scholarlykitchen.sspnet.org/2013/01/29/in-praise-of-double-dipping-fairness-affordability-vitality-and-sustainability/": {
+  "label": "Scholarly Kitchen defense of double dipping",
+  "anchor_text": "Not everyone agrees that double dipping is bad",
+  "post_context": "s with their economics but it certainly won't help libraries on the same front. <a href=\"http://scholarlykitchen.sspnet.org/2013/01/29/in-praise-of-double-dipping-fairness-affordability-vitality-and-sustainability/\">Not everyone agrees that",
+  "page_meta": {
+   "title": "In Praise of &quot;Double-Dipping&quot; &#8212; Fairness, Affordability, Vitality, and Sustainability",
+   "authors": [
+    "Kent Anderson"
+   ],
+   "date": "2013-01-29T09:30:51+00:00",
+   "site": "The Scholarly Kitchen",
+   "type": "Article"
+  }
+ },
+ "http://scholarlyoa.com/publishers/": {
+  "label": "Beall's list of predatory OA publishers",
+  "anchor_text": "Beall's list",
+  "post_context": "en access journals listed in the <a href=\"http://www.doaj.org/\">DOAJ</a> and on <a href=\"http://scholarlyoa.com/publishers/\">Beall's list</a> of \"predatory open access publishers\". Problematically, 157 of those journals accepted the obvious",
+  "page_meta": {
+   "title": "List of publishers",
+   "authors": [
+    "Donald McCoy"
+   ],
+   "date": "2019-05-27T11:40:51+00:00",
+   "site": "Scholarly Open Access 2025",
+   "type": "Article"
+  }
+ },
+ "http://schoolboyerrors.wordpress.com/2011/04/11/literary-criticism-and-the-scientistic-imperative/": {
+  "label": "Schoolboyerrors blog on literary criticism and scientism",
+  "anchor_text": null,
+  "post_context": "n actually enrich students' experiences #HEAdayC21Continuum Literary</div> <div>http://schoolboyerrors.wordpress.com/2011/04/11/literary-criticism-and-the-scientistic-imperative/ some thoughts avant la lettre on issues raised by mark slater",
+  "page_meta": {
+   "title": "Literary Criticism and The Scientistic Imperative",
+   "date": "2011-04-11T13:35:13+00:00",
+   "site": "Schoolboy Errors",
+   "type": "article"
+  }
+ },
+ "http://scripting.com/stories/2011/05/06/nurembergDoesNotApply.html": {
+  "label": "Scripting.com post arguing Nuremberg does not apply",
+  "anchor_text": "some of those views",
+  "post_context": "criminals. I felt it was worth making a slightly more critical evaluation than <a href=\"http://scripting.com/stories/2011/05/06/nurembergDoesNotApply.html\">some of those views</a> already put out there about this.</p> <p>",
+  "page_meta": {
+   "title": "Scripting News: Nuremberg does not apply"
+  }
+ },
+ "http://seclists.org/fulldisclosure/2007/Jun/0026.html": {
+  "label": "Zalewski full-disclosure browser vulnerability post",
+  "anchor_text": "http://seclists.org/fulldisclosure/2007/Jun/0026.html",
+  "post_context": "/7 unveiled - 2 for IE and 3 for Firefox.</p> <p>Michal Zalewski disclosed 3 at <a href=\"http://seclists.org/fulldisclosure/2007/Jun/0026.html\">http://seclists.org/fulldisclosure/2007/Jun/0026.html</a> and the other can be found at <a href=",
+  "page_meta": {
+   "title": "Full Disclosure: Assorted browser vulnerabilities",
+   "authors": [
+    "Michal Zalewski"
+   ]
+  }
+ },
+ "http://sf0.org/tasks/Thurn-Und-Taxis-Postal-Adventure/": {
+  "label": "SF0 alternate reality game based on Crying of Lot 49",
+  "anchor_text": "http://sf0.org/tasks/Thurn-Und-Taxis-Postal-Adventure/",
+  "post_context": "Network. There was an alternate reality game based on 'The Crying of Lot 49' at <a href=\"http://sf0.org/tasks/Thurn-Und-Taxis-Postal-Adventure/\">http://sf0.org/tasks/Thurn-Und-Taxis-Postal-Adventure/</a>. This game was run by members of a g",
+  "page_meta": {
+   "title": "SF0 / tasks / Thurn Und Taxis Postal Adventure"
+  }
+ },
+ "http://silenceandvoice.com/archives/2010/12/07/phd-chat-as-phdchat/": {
+  "label": "JeffreyKeefer blog post on phdchat",
+  "anchor_text": "http://silenceandvoice.com/archives/2010/12/07/phd-chat-as-phdchat/",
+  "post_context": "working/</a>&gt; [accessed 2011-02-02]) and @JeffreyKeefer (@JeffreyKeefer, &lt;<a href=\"http://silenceandvoice.com/archives/2010/12/07/phd-chat-as-phdchat/\">http://silenceandvoice.com/archives/2010/12/07/phd-chat-as-phdchat/</a>&gt; [acces",
+  "page_meta": {
+   "title": "Jeffrey Keefer, PhD | Substack",
+   "authors": [
+    "Substack"
+   ],
+   "type": "article"
+  }
+ },
+ "http://site.com/STXSS_XBL.xml#loader": {
+  "label": "Illustrative STXSS XBL loader payload URL",
+  "anchor_text": null,
+  "post_context": "(different encodings may be necessary): &lt;element style = \"-moz-binding:url('http://site.com/STXSS_XBL.xml#loader');\" /&gt;.</li> <li>Browser loads XBL document.</li> <li>XBL document modifies DOM to include &lt;script src=\"evil_script.j",
+  "page_meta": {
+   "title": "Login | HSTS Redirection Community"
+  }
+ },
+ "http://sparcopen.org/impact-story/erin-mckiernan/": {
+  "label": "SPARC impact story on Erin McKiernan and open access",
+  "anchor_text": "articulated by Erin McKiernan elsewhere",
+  "post_context": "would lead to a career return. But it's very nice to have shared an experience [articulated by Erin McKiernan elsewhere](http://sparcopen.org/impact-story/erin-mckiernan/), namely that I was lucky enough to be acting upon my belief in the",
+  "page_meta": {
+   "title": "Openness as a Career Asset: Erin McKiernan - SPARC",
+   "date": "2015-11-19T17:31:28+00:00",
+   "site": "SPARC",
+   "type": "WebPage"
+  }
+ },
+ "http://speculative-diction.blogspot.com/2011/08/shameful-self-promotion-vs-meritocracy.html": {
+  "label": "Speculative Diction blog on self-promotion",
+  "anchor_text": "gets your name out there",
+  "post_context": "your department will be depending upon it. Publishing also helps build your CV, <a href=\"http://speculative-diction.blogspot.com/2011/08/shameful-self-promotion-vs-meritocracy.html\">gets your name out there</a>, shows that you are working o",
+  "page_meta": {
+   "title": "Shameful self-promotion vs. Meritocracy"
+  }
+ },
+ "http://stevenhill.org.uk/journal-brand-and-research-culture/": {
+  "label": "Steven Hill blog on journal brand and research culture 2020",
+  "anchor_text": null,
+  "post_context": "research culture. _Writings about Research Policy, Evidence, and Other Topics_. http://stevenhill.org.uk/journal-brand-and-research-culture/ * Jisc. (n.d.). Publisher copyright policies & self-archiving. SHERPA/RoMEO. Retrieved January 20,",
+  "page_meta": {
+   "title": "Research Matters",
+   "authors": [
+    "https://stevenhill.org.uk//about/"
+   ],
+   "site": "Steven Hill's Writing",
+   "type": "website"
+  }
+ },
+ "http://svpow.com/": {
+  "label": "Mike Taylor SV-POW blog",
+  "anchor_text": "Mike Taylor",
+  "post_context": "lon.net\">Cameron Neylon</a>, <a href=\"http://www.tjm.org\">Tim McCormick</a> and <a href=\"http://svpow.com/\">Mike Taylor</a>, I have decided to extend a call for those who share my thoughts, most notably: it doesn't have to be this way. We c",
+  "page_meta": {
+   "title": "Sauropod Vertebra Picture of the Week",
+   "site": "Sauropod Vertebra Picture of the Week",
+   "type": "website"
+  }
+ },
+ "http://svpow.com/2012/01/13/the-obscene-profits-of-commercial-scholarly-publishers/": {
+  "label": "SV-POW post on obscene profits of commercial publishers",
+  "anchor_text": "would certainly classify its operation as \"sheer greed\"",
+  "post_context": "ubmissions.</li> </ul> <p>Well, I think most OA advocates who dislike Elsevier <a href=\"http://svpow.com/2012/01/13/the-obscene-profits-of-commercial-scholarly-publishers/\">would certainly classify its operation as \"sheer greed\"</a>.</p> <",
+  "page_meta": {
+   "title": "The obscene profits of commercial scholarly publishers",
+   "date": "2012-01-13T15:37:28+00:00",
+   "site": "Sauropod Vertebra Picture of the Week",
+   "type": "article"
+  }
+ },
+ "http://svpow.com/2013/06/12/publishing-is-a-button-what-clay-shirky-didnt-say/": {
+  "label": "Mike Taylor SVPOW post on publishing costs not to pay",
+  "anchor_text": "some of the stuff that we shouldn't be paying for",
+  "post_context": "ain, I think that Mike Taylor has done a good job, for instance, of setting out <a href=\"http://svpow.com/2013/06/12/publishing-is-a-button-what-clay-shirky-didnt-say/\">some of the stuff that we shouldn't be paying for</a>. That said, there",
+  "page_meta": {
+   "title": "Publishing is a button: what Clay Shirky didn’t say",
+   "date": "2013-06-12T11:22:48+00:00",
+   "site": "Sauropod Vertebra Picture of the Week",
+   "type": "article"
+  }
+ },
+ "http://svpow.com/2014/11/22/is-publishing-just-a-button/": {
+  "label": "Mike Taylor SVPOW post on publishing as a button",
+  "anchor_text": "Mike Taylor has brilliantly pointed out",
+  "post_context": "he same, but there is more to publishing than just putting something online. As <a href=\"http://svpow.com/2014/11/22/is-publishing-just-a-button/\">Mike Taylor has brilliantly pointed out</a>, though, there's no reason to couple the value-ad",
+  "page_meta": {
+   "title": "Is publishing “just a button”?",
+   "date": "2014-11-22T10:00:38+00:00",
+   "site": "Sauropod Vertebra Picture of the Week",
+   "type": "article"
+  }
+ },
+ "http://talkingoflanguages.wordpress.com/2013/03/12/the-languages-of-academic-publishing/": {
+  "label": "Corradini, The Languages of Academic Publishing blog post",
+  "anchor_text": "The Languages of Academic Publishing",
+  "post_context": "member of OLH's internationalisation committee, Erika Corradini. In her piece, <a href=\"http://talkingoflanguages.wordpress.com/2013/03/12/the-languages-of-academic-publishing/\">The Languages of Academic Publishing</a>, Erika writes:</p> <",
+  "page_meta": {
+   "title": "The language(s) of academic publishing",
+   "date": "2013-03-12T21:40:59+00:00",
+   "site": "talkingoflanguages",
+   "type": "article"
+  }
+ },
+ "http://tar.weatherson.org/2004/02/27/throwing-away-ideas/": {
+  "label": "Brian Weatherson blog post on throwing away ideas",
+  "anchor_text": "his post on this topic",
+  "post_context": "e original paper. While this is the opposite stance taken by Brian Wetherson in <a href=\"http://tar.weatherson.org/2004/02/27/throwing-away-ideas/\">his post on this topic</a>, I think that while there is a place for division of labour, I al",
+  "page_meta": {
+   "title": "Throwing Away Ideas | Thoughts, Arguments and Rants"
+  }
+ },
+ "http://theconversation.com/students-dont-know-whats-best-for-their-own-learning-33835": {
+  "label": "The Conversation, students and their own learning",
+  "anchor_text": "http://theconversation.com/students-dont-know-whats-best-for-their-own-learning-33835",
+  "post_context": "hur, ‘Students Don’t Know What’s Best for Their Own Learning’, The Conversation [http://theconversation.com/students-dont-know-whats-best-for-their-own-learning-33835](http://theconversation.com/students-dont-know-whats-best-for-their-own-l",
+  "page_meta": {
+   "title": "Students don’t know what’s best for their own learning",
+   "authors": [
+    "Arthur Poropat"
+   ],
+   "site": "The Conversation",
+   "type": "article"
+  }
+ },
+ "http://thedailywtf.com": {
+  "label": "The Daily WTF programming horror site",
+  "anchor_text": "The Daily WTF",
+  "post_context": "is no point in reinventing the wheel. Fine examples of this are to be found at <a href=\"http://thedailywtf.com\">The Daily WTF</a>, one of my personal faves being <a href=\"http://thedailywtf.com/Articles/The-Backup-Snippet.aspx\">The Backup",
+  "page_meta": {
+   "title": "The Daily WTF: Curious Perversions in Information Technology",
+   "authors": [
+    "humans.txt"
+   ]
+  }
+ },
+ "http://thedailywtf.com/Articles/The-Backup-Snippet.aspx": {
+  "label": "The Daily WTF: The Backup Snippet article",
+  "anchor_text": "The Backup Snippet",
+  "post_context": "href=\"http://thedailywtf.com\">The Daily WTF</a>, one of my personal faves being <a href=\"http://thedailywtf.com/Articles/The-Backup-Snippet.aspx\">The Backup Snippet</a>.</p> <p>However, sometimes the .NET Framework does a poor job of parsin",
+  "page_meta": {
+   "title": "The Backup Snippet",
+   "authors": [
+    "Alex Papadimoulis"
+   ],
+   "date": "2008-12-17 08:00:00Z",
+   "site": "The Daily WTF",
+   "type": "article"
+  }
+ },
+ "http://thedisorderofthings.com/2014/06/16/why-metrics-cannot-measure-research-quality-a-response-to-the-hefce-consultation/": {
+  "label": "Sabaratnam and Kirby response to HEFCE metrics consultation",
+  "anchor_text": "their response",
+  "post_context": "and endorsing some of the concerns of Dr Meera Sabaratnam and Dr Paul Kirby in <a href=\"http://thedisorderofthings.com/2014/06/16/why-metrics-cannot-measure-research-quality-a-response-to-the-hefce-consultation/\">their response</a>, I want",
+  "page_meta": {
+   "title": "Why Metrics Cannot Measure Research Quality: A Response to the HEFCE Consultation",
+   "date": "2014-06-16T06:07:28+00:00",
+   "site": "The Disorder Of Things",
+   "type": "article"
+  }
+ },
+ "http://thenounproject.com/term/student/63368/": {
+  "label": "Noun Project student icon by Joseph Wilson",
+  "anchor_text": "Joseph Wilson",
+  "post_context": "Post image by <a href=\"http://thenounproject.com/term/student/63368/\">Joseph Wilson</a> under a CC BY 3.0 license.",
+  "page_meta": {
+   "title": "student",
+   "date": "2014-08-06T00:00:00.000Z",
+   "site": "The Noun Project",
+   "type": "ImageObject"
+  }
+ },
+ "http://thirduniversity.wordpress.com/": {
+  "label": "Leicester's Third University project",
+  "anchor_text": "Leicester's Third University",
+  "post_context": ", the <a href=\"http://www.universityofutopia.org/\">University of Utopia</a> and <a href=\"http://thirduniversity.wordpress.com/\">Leicester's Third University</a> are more conceptual in nature, aiming to re-imagine and implement real, radical",
+  "page_meta": {
+   "title": "The Third University",
+   "site": "The Third University",
+   "type": "website"
+  }
+ },
+ "http://trianglesci.org": {
+  "label": "Triangle Scholarly Communications Institute",
+  "anchor_text": "Triangle Scholarly Communications Institute",
+  "post_context": "<p>This week I had the privilege and pleasure to attend the <a href=\"http://trianglesci.org\">Triangle Scholarly Communications Institute</a> event at the University of North Carolina. It was a great event. I spoke about",
+  "page_meta": {
+   "title": "trianglesci.org",
+   "site": "trianglesci.org",
+   "type": "website"
+  }
+ },
+ "http://triplec.at/index.php/tripleC/article/view/525": {
+  "label": "tripleC article: OA as anti-corporatist movement",
+  "anchor_text": "Open Access is an anti-corporatist movement",
+  "post_context": "nnon &#8211; the former of whom believes, with an almost McCarthyite tone, that <a href=\"http://triplec.at/index.php/tripleC/article/view/525\">Open Access is an anti-corporatist movement</a> &#8211; have pointed out the practices of so-call",
+  "page_meta": {
+   "title": "The Open-Access Movement is Not Really about Open Access",
+   "authors": [
+    "Jeffrey Beall"
+   ],
+   "date": "2013/12/09",
+   "site": "tripleC: Communication, Capitalism & Critique. Open Access Journal for a Global Sustainable Information Society"
+  }
+ },
+ "http://uk.answers.yahoo.com/question/index?qid=20090910153441AAzSQrX": {
+  "label": "Yahoo Answers thread on Once Upon a Time Life cartoon",
+  "anchor_text": "Once upon a time... Life",
+  "post_context": "mune system is an \"army\" which must repel the invading hordes. Kid's cartoons (\"<a href=\"http://uk.answers.yahoo.com/question/index?qid=20090910153441AAzSQrX\">Once upon a time... Life</a>\") did this when describing immunity. When I was firs",
+  "page_meta": {
+   "title": "Your privacy choices"
+  }
+ },
+ "http://uksglive.blogspot.co.uk/2012/03/autosubversive-practices-where-were-all.html": {
+  "label": "UKSG Live blog post on autosubversive practices",
+  "anchor_text": "of the content",
+  "post_context": "freebies-are-already-here-theyre-just-unevenly-distributed/\">many summaries</a> <a href=\"http://uksglive.blogspot.co.uk/2012/03/autosubversive-practices-where-were-all.html\">of the content</a> at the conference already published.</p> <p>I d",
+  "page_meta": {
+   "title": "Autosubversive practices: where we're all going wrong, and what we should do to get it right"
+  }
+ },
+ "http://universityforstrategicoptimism.wordpress.com/": {
+  "label": "University of Strategic Optimism flash-mob lectures",
+  "anchor_text": "University of Strategic Optimism",
+  "post_context": "itique through a longer term, idealistic struggle. Some have been ephemeral; the<a href=\"http://universityforstrategicoptimism.wordpress.com/\">University of Strategic Optimism</a> held ‘flash-mob’ lectures across London. Some, such as the <",
+  "page_meta": {
+   "title": "University For Strategic Optimism",
+   "site": "University For Strategic Optimism",
+   "type": "website"
+  }
+ },
+ "http://waste.org/mail/?list=pynchon-l&month=9912&msg=43015&keywords=marx": {
+  "label": "Pynchon-l mailing list post on Marx",
+  "anchor_text": "the following",
+  "post_context": "less (I might write something to fix that one day), but I did manage to turn up <a href=\"http://waste.org/mail/?list=pynchon-l&month=9912&msg=43015&keywords=marx\">the following</a>:</p> <blockquote><p>Terrance schrieb:</p> <p>> Marx is sati",
+  "page_meta": {
+   "title": "waste mailing lists / pynchon-l by date"
+  }
+ }
+}

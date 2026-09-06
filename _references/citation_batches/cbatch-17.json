@@ -1,0 +1,404 @@
+{
+ "http://www.lloydstsb.com/ib/registration_termsconditions.asp": {
+  "label": "Lloyds TSB internet banking terms and conditions",
+  "anchor_text": "http://www.lloydstsb.com/ib/registration_termsconditions.asp",
+  "post_context": "view information about your accounts with different banks on a single website.\" <a href=\"http://www.lloydstsb.com/ib/registration_termsconditions.asp\">http://www.lloydstsb.com/ib/registration_termsconditions.asp</a>) I still remain unconvin",
+  "page_meta": {
+   "title": "Updated online banking agreement",
+   "site": "LLOYDS",
+   "type": "website"
+  }
+ },
+ "http://www.lockss.org/": {
+  "label": "LOCKSS decentralized preservation system",
+  "anchor_text": "LOCKSS",
+  "post_context": "p> <p>One of the systems that has been designed to make this possible is called <a href=\"http://www.lockss.org/\">LOCKSS</a> (Lots Of Copies Keeps Stuff Safe), and OJS supports this \"out of the box\". LOCKSS is an advanced, decentralized pres",
+  "page_meta": {
+   "title": "LOCKSS Program",
+   "site": "LOCKSS Program",
+   "type": "website"
+  }
+ },
+ "http://www.lrb.co.uk/blog/2010/03/16/alex-abramovich/wallace-v-the-terrible-master/": {
+  "label": "LRB blog: Wallace v the Terrible Master",
+  "anchor_text": "http://www.lrb.co.uk/blog/2010/03/16/alex-abramovich/wallace-v-the-terrible-master/",
+  "post_context": "st entitled Wallace v. the Terrible Master. You can read the full article here: <a href=\"http://www.lrb.co.uk/blog/2010/03/16/alex-abramovich/wallace-v-the-terrible-master/\" class=\"moz-txt-link-freetext\">http://www.lrb.co.uk/blog/2010/03/16",
+  "page_meta": {
+   "title": "Alex Abramovich | Wallace v. the Terrible Master",
+   "authors": [
+    "Alex Abramovich"
+   ],
+   "date": "2010-03-16T00:00:00+00:00",
+   "site": "LRB Blog",
+   "type": "BlogPosting"
+  }
+ },
+ "http://www.luminarium.org/sevenlit/donne/sonnet14.php": {
+  "label": "Luminarium Donne Holy Sonnet 14",
+  "anchor_text": "luminarium.org",
+  "post_context": "e</a>, <a href=\"http://www.poets.org/viewmedia.php/prmMID/20308\">poets.org</a>, <a href=\"http://www.luminarium.org/sevenlit/donne/sonnet14.php\">luminarium.org</a>, <a href=\"http://faculty.smu.edu/dfoster/3304/poetry.htm\">Dennis Foster at So",
+  "page_meta": {
+   "title": "John Donne. Holy Sonnet 14."
+  }
+ },
+ "http://www.martineve.com": {
+  "label": "Martin Eve personal website",
+  "anchor_text": "Martin Eve",
+  "post_context": "der the terms of the GPL.</p> <p>All content on this site is copyright (c) 2009 <a href=\"http://www.martineve.com\">Martin Eve</a>. Works are licenced under the GFDL, more information about which is available at the <a href=\"http://www.gnu.o",
+  "page_meta": {
+   "title": "Martin Eve Photography",
+   "site": "Martin Eve",
+   "type": "website"
+  }
+ },
+ "http://www.mendeley.com": {
+  "label": "Mendeley reference management homepage",
+  "anchor_text": "Mendeley",
+  "post_context": "er an OpenOffice or Word <a href=\"http://www.zotero.org\">Zotero</a> document to <a href=\"http://www.mendeley.com\">Mendeley</a> -- is not possible. Having communicated with <a href=\"http://twitter.com/#!/mrgunn\">@mrgunn</a> he suggested two",
+  "page_meta": {
+   "title": "Mendeley | Homepage"
+  }
+ },
+ "http://www.moo.com": {
+  "label": "moo.com custom business card printing service",
+  "anchor_text": "moo.com",
+  "post_context": "und when, at the end of last month, I was offered a free trial of 50 cards from <a href=\"http://www.moo.com\">moo.com</a>, via <a href=\"http://about.me/martineve\">my about.me account</a>. Tempted to just click delete, I changed my mind and d",
+  "page_meta": {
+   "title": "MOO Print Official Website Country Selector | MOO (United States)"
+  }
+ },
+ "http://www.mozilla.org/MPL/": {
+  "label": "Mozilla Public License",
+  "anchor_text": null,
+  "post_context": ".com/> which is dual-licensed under the GNU GPL and the Mozilla Public License <http://www.mozilla.org/MPL/>. This dual-licensing applies ONLY to the file saxon9.jar.",
+  "page_meta": {
+   "title": "Mozilla Public Licence",
+   "site": "Mozilla",
+   "type": "website"
+  }
+ },
+ "http://www.mozilla.org/en-GB/thunderbird/": {
+  "label": "Mozilla Thunderbird email client",
+  "anchor_text": "Mozilla Thunderbird",
+  "post_context": "ager:</b> <a href=\"http://www.zotero.org\">Zotero</a><br /> <b>Email client:</b> <a href=\"http://www.mozilla.org/en-GB/thunderbird/\">Mozilla Thunderbird</a><br /> <b>Web Browser:</b> <a href=\"http://www.mozilla.org/en-US/firefox/\">Mozilla Fi",
+  "page_meta": {
+   "title": "Thunderbird — Free Your Inbox.",
+   "site": "Thunderbird",
+   "type": "website"
+  }
+ },
+ "http://www.mozilla.org/en-US/firefox/": {
+  "label": "Mozilla Firefox web browser",
+  "anchor_text": "Mozilla Firefox",
+  "post_context": "zilla.org/en-GB/thunderbird/\">Mozilla Thunderbird</a><br /> <b>Web Browser:</b> <a href=\"http://www.mozilla.org/en-US/firefox/\">Mozilla Firefox</a><br /> <b>Backup solution:</b> <a href=\"http://www.cis.upenn.edu/~bcpierce/unison/\">Unison</a",
+  "page_meta": {
+   "title": "Firefox: The fast, private browser that keeps you safe",
+   "site": "Firefox",
+   "type": "website"
+  }
+ },
+ "http://www.mozilla.org/en-US/firefox/fx/": {
+  "label": "Mozilla Firefox download page",
+  "anchor_text": "Mozilla's site",
+  "post_context": "{% highlight bash %} sudo apt-get remove firefox {% endhighlight %} <p>Visit <a href=\"http://www.mozilla.org/en-US/firefox/fx/\">Mozilla's site</a> and install Firefox 6.</s> Update: As per above: this is no longer necessary in Zotero 2.1",
+  "page_meta": {
+   "title": "Firefox: The fast, private browser that keeps you safe",
+   "site": "Firefox",
+   "type": "website"
+  }
+ },
+ "http://www.mozilla.org/xbl": {
+  "label": "Mozilla XBL namespace URI",
+  "anchor_text": null,
+  "post_context": "is as follows:</p> {% highlight xml %} <?xml version=\"1.0\"?> <bindings xmlns=\"http://www.mozilla.org/xbl\"> <binding id=\"loader\"> <implementation> <constructor> <![CDATA[ //This i",
+  "page_meta": {
+   "title": "Mozilla XML Namespace"
+  }
+ },
+ "http://www.nature.com/nature/journal/v473/n7346/full/473124a.html": {
+  "label": "Nature article on academics hiring reputation managers",
+  "anchor_text": "as do some academics",
+  "post_context": "re. I don't think you need to go so far as to hire online reputation management <a href=\"http://www.nature.com/nature/journal/v473/n7346/full/473124a.html\">as do some academics</a>, but merely to consider both sides of everything you say on",
+  "page_meta": {
+   "title": "Online image",
+   "date": "2011/05",
+   "site": "Nature",
+   "type": "article"
+  }
+ },
+ "http://www.nature.com/news/2011/110420/full/472261a.html": {
+  "label": "Nature news: opposition to PhD structure taking form",
+  "anchor_text": "are taking form",
+  "post_context": "career researchers, opposition to many of the long-standing aspects of the PhD <a href=\"http://www.nature.com/news/2011/110420/full/472261a.html\">are taking form</a>. Foremost is an anger at the commodification of postgraduate study exempl",
+  "page_meta": {
+   "title": "Reform the PhD system or close it down",
+   "authors": [
+    "Taylor, Mark"
+   ],
+   "date": "2011/04",
+   "site": "Nature",
+   "type": "article"
+  }
+ },
+ "http://www.nature.com/news/2011/110511/full/473138a.html": {
+  "label": "Nature news on lasting web reputation damage",
+  "anchor_text": "lasting damage",
+  "post_context": "ugh, the fact that the web, in one sense so ephemeral and shifting, can also do <a href=\"http://www.nature.com/news/2011/110511/full/473138a.html\">lasting damage</a>. Be careful what you put out there. I don't think you need to go so far as",
+  "page_meta": {
+   "title": "Online reputations: Best face forward",
+   "authors": [
+    "Reich, Eugenie Samuel"
+   ],
+   "date": "2011-05-11",
+   "site": "Nature",
+   "type": "article"
+  }
+ },
+ "http://www.nature.com/news/publishers-withdraw-more-than-120-gibberish-papers-1.14763": {
+  "label": "Nature news: publishers withdraw gibberish papers",
+  "anchor_text": "over at Nature",
+  "post_context": "p://pdos.csail.mit.edu/scigen/\">SciGen</a>. You can read about the whole fiasco <a href=\"http://www.nature.com/news/publishers-withdraw-more-than-120-gibberish-papers-1.14763\">over at Nature</a>. Given the flack thrown at OA publishers in r",
+  "page_meta": {
+   "title": "Publishers withdraw more than 120 gibberish papers",
+   "authors": [
+    "Van Noorden, Richard"
+   ],
+   "date": "2014-02-24",
+   "site": "Nature",
+   "type": "article"
+  }
+ },
+ "http://www.nature.com/news/text-mining-spat-heats-up-1.12636": {
+  "label": "Nature news on text-mining copyright dispute",
+  "anchor_text": "seems to go way beyond",
+  "post_context": "ct to proper attribution under appropriate licensing.”</p></blockquote> <p>This <a href=\"http://www.nature.com/news/text-mining-spat-heats-up-1.12636\">seems to go way beyond</a> \"existing copyright and fair use provisions\". Instead, in not",
+  "page_meta": {
+   "title": "Text-mining spat heats up",
+   "authors": [
+    "Van Noorden, Richard"
+   ],
+   "date": "2013-03-20",
+   "site": "Nature",
+   "type": "article"
+  }
+ },
+ "http://www.newrepublic.com/article/122802/thomas-pynchon-didnt-write-cow-country-aj-perry-probably-did": {
+  "label": "New Republic: AJ Perry probably wrote Cow Country",
+  "anchor_text": "others have speculated",
+  "post_context": "Indeed, [others have speculated](http://www.newrepublic.com/article/122802/thomas-pynchon-didnt-write-cow-country-aj-perry-probably-did), based on hints dropped by Stev",
+  "page_meta": {
+   "title": "The Hunt for a Possible Pynchon Novel Leads to a Name",
+   "authors": [
+    "Alex Shephard"
+   ],
+   "date": "2015-09-12",
+   "site": "The New Republic",
+   "type": "article"
+  }
+ },
+ "http://www.nii.ac.jp/sparc/en/event/2013/20130823en.html": {
+  "label": "SPARC Japan seminar schedule August 2013",
+  "anchor_text": "seminar schedule is now online",
+  "post_context": "ormatics.</p> <p>I'll post more about the remit of the talk when I can, but the <a href=\"http://www.nii.ac.jp/sparc/en/event/2013/20130823en.html\">seminar schedule is now online</a>. The talk will be translated, so all are welcome. It will",
+  "page_meta": {
+   "title": "SPARC Japan"
+  }
+ },
+ "http://www.oaspa.org/": {
+  "label": "Open Access Scholarly Publishers Association website",
+  "anchor_text": "Open Access Scholarly Publishers Association",
+  "post_context": "> <p>Meanwhile, on the bureaucracy front, the application for membership of the <a href=\"http://www.oaspa.org/\">Open Access Scholarly Publishers Association</a> is moving ahead. This will enable us to get the DOI numbers up and running on t",
+  "page_meta": {
+   "title": "Home - OASPA",
+   "date": "2023-11-13T11:26:21+00:00",
+   "site": "OASPA",
+   "type": "WebPage"
+  }
+ },
+ "http://www.ocelotfactory.com/hoban/rinyo.html": {
+  "label": "Hoban Mr Rinyo-Clacton's Offer page",
+  "anchor_text": "Mr. Rinyo-Clacton's Offer",
+  "post_context": "h2> <p>My quotation this year is taken from the beginning of Hoban's 1998 novel <a href=\"http://www.ocelotfactory.com/hoban/rinyo.html\">Mr. Rinyo-Clacton's Offer</a>, definitely not one for the kids, but which I hope proves intriguing. So,",
+  "page_meta": {
+   "title": "Russell Hoban's MR RINYO-CLACTON'S OFFER"
+  }
+ },
+ "http://www.openaccessweek.org": {
+  "label": "International Open Access Week website",
+  "anchor_text": "International Open Access Week",
+  "post_context": "point out that I will be speaking at the University of Sussex's contribution to <a href=\"http://www.openaccessweek.org\">International Open Access Week</a> on the 20th of October 2010.</p> <p>Alongside a host of other speakers, I will talk o",
+  "page_meta": {
+   "title": "International Open Access Week",
+   "site": "International Open Access Week",
+   "type": "website"
+  }
+ },
+ "http://www.openaccessweek.org/": {
+  "label": "Open Access Week website",
+  "anchor_text": "Open Access Week",
+  "post_context": "nk\" rel=\"noopener noreferrer\">as a set of open access PDFs</a> to coincide with <a href=\"http://www.openaccessweek.org/\" target=\"_blank\" rel=\"noopener noreferrer\">Open Access Week</a>. Following is an overview of the table of contents.</p>",
+  "page_meta": {
+   "title": "International Open Access Week",
+   "site": "International Open Access Week",
+   "type": "website"
+  }
+ },
+ "http://www.openbookpublishers.com/product/530": {
+  "label": "Literature Against Criticism Open Book Publishers page",
+  "anchor_text": "my next book",
+  "post_context": "thoroughly support and endorse what Open Book Publishers is doing. That is why [my next book](http://www.openbookpublishers.com/product/530), subject to revisions, will be published by them. I am, therefore, putting my money where my mouth",
+  "page_meta": {
+   "title": "Literature Against Criticism: University English and Contemporary Fiction in Conflict",
+   "authors": [
+    "Martin Paul Eve"
+   ],
+   "date": "2016-10-17",
+   "type": "book"
+  }
+ },
+ "http://www.openbookpublishers.com/product/530/literature-against-criticism--university-english-and-contemporary-fiction-in-conflict": {
+  "label": "Literature Against Criticism Open Book Publishers page",
+  "anchor_text": "directly from the publisher",
+  "post_context": "lable in hardback and paperback (and Kindle) at a very reasonable price, either [directly from the publisher](http://www.openbookpublishers.com/product/530/literature-against-criticism--university-english-and-contemporary-fiction-in-conflic",
+  "page_meta": {
+   "title": "Literature Against Criticism: University English and Contemporary Fiction in Conflict",
+   "authors": [
+    "Martin Paul Eve"
+   ],
+   "date": "2016-10-17",
+   "type": "book"
+  }
+ },
+ "http://www.openlibhums.org": {
+  "label": "Open Library of the Humanities website",
+  "anchor_text": "www.openlibhums.org",
+  "post_context": "to get a good reference in and to, obviously, direct you all to our website at <a href=\"http://www.openlibhums.org\">www.openlibhums.org</a>, one of the aspects that we're trying to think through is how the PLOS model of “peer review lite”",
+  "page_meta": {
+   "title": "Making sure you're not a bot!"
+  }
+ },
+ "http://www.openssl.org/source/": {
+  "label": "OpenSSL source downloads",
+  "anchor_text": "reinstalling OpenSSL from source",
+  "post_context": "les for OpenSSL's ECC implementation. To get around this, I therefore recommend <a href=\"http://www.openssl.org/source/\">reinstalling OpenSSL from source</a> from their site. You will be able to tell whether your distro will have this probl",
+  "page_meta": {
+   "title": "Downloads | OpenSSL Library"
+  }
+ },
+ "http://www.palgrave.com/page/about-us-palgrave-open-faqs/": {
+  "label": "Palgrave Open OA book publishing FAQ",
+  "anchor_text": "Palgrave comparative FAQ",
+  "post_context": "0,000 per book. The original source from which I derived this information was a <a href=\"http://www.palgrave.com/page/about-us-palgrave-open-faqs/\">Palgrave comparative FAQ</a>.]</b> Given how keen some publishers (and the UK government, w",
+  "page_meta": {
+   "title": "Client Challenge"
+  }
+ },
+ "http://www.palgrave.com/page/about-us-palgrave-open-faqs/?loc=us#Open%20access%20publication%20charge%20and%20funding": {
+  "label": "Palgrave Open access publication charge FAQ",
+  "anchor_text": "Palgrave price",
+  "post_context": "d-oa-monographs\">CUP price</a>) this would cost £32,649,500. At an £11,000 BPC (<a href=\"http://www.palgrave.com/page/about-us-palgrave-open-faqs/?loc=us#Open%20access%20publication%20charge%20and%20funding\">Palgrave price</a>) this would c",
+  "page_meta": {
+   "title": "Client Challenge"
+  }
+ },
+ "http://www.palgrave.com/products/title.aspx?pid=753605&utm_source=SilverpopMailing&utm_medium=email&utm_campaign=SRL0716%20-%20Literature%20Newsletter%20April%20UK%20Atlas%20%281%29&utm_content=&spMailingID=45581591&spUserID=ODg2NDk0OTY4MjYS1&spJobID=421057379&spReportId=NDIxMDU3Mzc5S0": {
+  "label": "Palgrave page for Pynchon and Philosophy book",
+  "anchor_text": "Pynchon and Philosophy",
+  "post_context": "<p>Martin Paul Eve, <a href=\"http://www.palgrave.com/products/title.aspx?pid=753605&utm_source=SilverpopMailing&utm_medium=email&utm_campaign=SRL0716%20-%20Literature%20Newsletter%",
+  "page_meta": {
+   "title": "Client Challenge"
+  }
+ },
+ "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0002:speech=3:section=79": {
+  "label": "Perseus Digital Library Demosthenes text section",
+  "anchor_text": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0002:speech=3:section=79",
+  "post_context": "w it was that he came to reverse his policies （for this is the second period)\" (<a href=\"http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0002:speech=3:section=79\">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1",
+  "page_meta": {
+   "title": "Aeschines, Against Ctesiphon, section 79"
+  }
+ },
+ "http://www.phd2published.com/": {
+  "label": "PhD2Published website by Charlotte Frost",
+  "anchor_text": "PhD2Published",
+  "post_context": "ook Writing Month. It has been put together by the excellent Charlotte Frost of <a href=\"http://www.phd2published.com/\">PhD2Published</a> and the idea is, as with #NaNoWriMo (National Novel Writing Month) that people will bash out words to",
+  "page_meta": {
+   "title": "PhD2Published"
+  }
+ },
+ "http://www.phd2published.com/2011/08/31/we-ask-martin-paul-eve-do-we-need-to-rethink-academic-publishing/": {
+  "label": "PhD2Published guest post on academic publishing",
+  "anchor_text": "a guest post",
+  "post_context": "<p>In response to George Monbiot's piece yesterday, I have <a href=\"http://www.phd2published.com/2011/08/31/we-ask-martin-paul-eve-do-we-need-to-rethink-academic-publishing/\">a guest post</a> up at PhD2Published on the",
+  "page_meta": {
+   "title": "We Ask Martin Paul Eve: Do We Need to Rethink Academic Publishing? | PhD2Published"
+  }
+ },
+ "http://www.phd2published.com/2011/10/25/martin-paul-eve-on-open-access-week/": {
+  "label": "PhD2Published post on Open Access tipping point",
+  "anchor_text": "a post for PhD2Published on the tipping point of Open Access",
+  "post_context": "l form the basis of an additional workshop I am running next week, I also wrote <a href=\"http://www.phd2published.com/2011/10/25/martin-paul-eve-on-open-access-week/\">a post for PhD2Published on the tipping point of Open Access</a> and have",
+  "page_meta": {
+   "title": "Martin Paul Eve on Open Access Week | PhD2Published"
+  }
+ },
+ "http://www.philosophyetc.net/2009/03/academic-blogging-pros-and-cons.html": {
+  "label": "Philosophy etc blog: academic blogging pros and cons",
+  "anchor_text": "many times before",
+  "post_context": "oth ideologically and pragmatically. This isn't to say that it hasn't been done <a href=\"http://www.philosophyetc.net/2009/03/academic-blogging-pros-and-cons.html\">many times before</a> -- in fact, Vitae has <a href=\"http://vitae.ac.uk/rese",
+  "page_meta": {
+   "title": "Academic Blogging: Pros and Cons"
+  }
+ },
+ "http://www.phoronix.com/scan.php?page=article&item=linux_2637_video&num=2": {
+  "label": "Phoronix Linux ultra-responsive desktop benchmark",
+  "anchor_text": "ultra-responsive desktop",
+  "post_context": "/usr/local/sbin/cgroup_clean</p> <p>Reboot your system and you too can have an <a href=\"http://www.phoronix.com/scan.php?page=article&item=linux_2637_video&num=2\">ultra-responsive desktop</a>!</p>",
+  "page_meta": {
+   "title": "The ~200 Line Linux Kernel Patch That Does Wonders Review - Phoronix"
+  }
+ },
+ "http://www.plos.org": {
+  "label": "PLoS open access publisher homepage",
+  "anchor_text": "PLoS",
+  "post_context": "in their paper</a> on this topic.</p> <p>This is, I would guess, the logic that <a class=\"zem_slink\" title=\"PLoS\" rel=\"homepage\" href=\"http://www.plos.org\">PLoS</a> went through when deciding <a href=\"http://www.plos.org/journals/license.ph",
+  "page_meta": {
+   "title": "Leading the future of open science publishing - PLOS",
+   "date": "2024-12-04T21:24:49+00:00",
+   "site": "PLOS",
+   "type": "WebPage"
+  }
+ },
+ "http://www.plosone.org/static/information": {
+  "label": "PLOS ONE journal information page",
+  "anchor_text": null,
+  "post_context": "-buys-f1000-research-ltd-1150791 * PLOS. (2016). Journal Information. PLOS ONE. http://www.plosone.org/static/information * Poynder, R. (2011). PLoS ONE, Open Access, and the Future of Scholarly Publishing. https://richardpoynder.co.uk/PLoS",
+  "page_meta": {
+   "title": "PLOS One"
+  }
+ },
+ "http://www.poets.org/viewmedia.php/prmMID/20308": {
+  "label": "poets.org Donne Holy Sonnet 14",
+  "anchor_text": "poets.org",
+  "post_context": "ref=\"http://en.wikisource.org/wiki/Holy_Sonnets#Holy_Sonnet_14\">Wikisource</a>, <a href=\"http://www.poets.org/viewmedia.php/prmMID/20308\">poets.org</a>, <a href=\"http://www.luminarium.org/sevenlit/donne/sonnet14.php\">luminarium.org</a>, <a",
+  "page_meta": {
+   "title": "Batter my heart, three person’d God (Holy Sonnet 14)",
+   "authors": [
+    "Poets.org - Academy of American Poets"
+   ],
+   "date": "Wed, 07/16/2008 - 00:00",
+   "site": "Poets.org",
+   "type": "Article"
+  }
+ },
+ "http://www.press.uchicago.edu/ucp/books/book/chicago/N/bo3645773.html": {
+  "label": "Johns, The Nature of the Book, University of Chicago Press",
+  "anchor_text": "http://www.press.uchicago.edu/ucp/books/book/chicago/N/bo3645773.html",
+  "post_context": "998 The Nature of the Book. Illinois: The University of Chicago Press, p. 450. <a href=\"http://www.press.uchicago.edu/ucp/books/book/chicago/N/bo3645773.html\" target=\"_blank\">http://www.press.uchicago.edu/ucp/books/book/chicago/N/bo3645773",
+  "page_meta": {
+   "title": "The Nature of the Book",
+   "date": "Tue Sep 01 11:56:19 CDT 2026",
+   "site": "University of Chicago Press",
+   "type": "book"
+  }
+ }
+}

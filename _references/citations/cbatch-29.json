@@ -1,0 +1,216 @@
+{
+ "https://twitter.com/minshyjay/status/1312727197698928641": {
+  "title": "JackieEm (@minshyjay) on X",
+  "author": "JackieEm",
+  "date": "2020-10-04",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "X (formerly Twitter)", "type": "WebSite"}
+ },
+ "https://twitter.com/nmmarking/status/601402361635074049": {
+  "title": "Dr Chris Wheadon (@nmmarking) on X",
+  "author": "Chris Wheadon",
+  "date": "2015-05-21",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "X (formerly Twitter)", "type": "WebSite"}
+ },
+ "https://twitter.com/sarahinthepark/status/1312679785886371840": {
+  "title": "Sarah K. Whitfield not posting here anymore! (@sarahinthepark) on X",
+  "author": "Sarah K. Whitfield",
+  "date": "2020-10-04",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "X (formerly Twitter)", "type": "WebSite"}
+ },
+ "https://twitter.com/theNHJ": {
+  "title": "Newell Hampson-Jones (@theNHJ) on X",
+  "author": "Newell Hampson-Jones",
+  "type": "WebPage",
+  "isPartOf": {"name": "X (formerly Twitter)", "type": "WebSite"}
+ },
+ "https://twitter.com/vickyfoxcroft/status/1519282453948641280": {
+  "title": "Vicky Foxcroft (@vickyfoxcroft) on X",
+  "author": "Vicky Foxcroft",
+  "date": "2022-04-27",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "X (formerly Twitter)", "type": "WebSite"}
+ },
+ "https://typekit.com": {
+  "title": "Adobe Fonts",
+  "type": "WebSite",
+  "isPartOf": {"name": "Adobe Fonts", "type": "WebSite"}
+ },
+ "https://uclpress.co.uk/": {
+  "title": "UCL Press",
+  "type": "WebSite",
+  "isPartOf": {"name": "UCL Press", "type": "WebSite"}
+ },
+ "https://uk.sagepub.com/en-gb/eur/the-limits-of-neoliberalism/book256597": {
+  "title": "The Limits of Neoliberalism",
+  "author": "William Davies",
+  "date": "2016-11-26",
+  "type": "Book",
+  "isPartOf": {"name": "Sage UK", "type": "WebSite"}
+ },
+ "https://ukrant.nl/magazine/we-can-do-without-them-how-the-ug-is-cutting-ties-with-big-tech/?lang=en": {
+  "title": "We can do without them: how the UG is cutting ties with Big Tech",
+  "type": "NewsArticle",
+  "isPartOf": {"name": "UKrant.nl", "type": "Periodical"}
+ },
+ "https://updates.timsherratt.org/2025/04/11/update-on-trove-data-access.html": {
+  "title": "Update on Trove data access and my suspended API keys",
+  "author": "Tim Sherratt",
+  "date": "2025-04-11",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "Tim Sherratt – Recent updates and work-in-progress", "type": "Blog"}
+ },
+ "https://uptimerobot.com/": {
+  "title": "UptimeRobot: Free Website Monitoring Service",
+  "type": "WebSite",
+  "isPartOf": {"name": "UptimeRobot", "type": "WebSite"}
+ },
+ "https://visitsteve.com/made/no-longer-interested/": {
+  "title": "No Longer Interested",
+  "author": "Steve Lambert",
+  "date": "2014-04-01",
+  "type": "WebPage",
+  "isPartOf": {"name": "Steve Lambert", "type": "WebSite"}
+ },
+ "https://walt.lishost.org/2017/06/dear-martin/": {
+  "title": "Dear Martin…",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "Walt at Random", "type": "Blog"}
+ },
+ "https://web.hypothes.is/blog/say-hello-to-anno/": {
+  "title": "Say Hello to Anno",
+  "date": "2022-08-18",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "Hypothesis", "type": "Blog"}
+ },
+ "https://wellcome.ac.uk/what-we-do/our-work/open-research#request-for-proposals-and-information": {
+  "title": "Open Research",
+  "type": "WebPage",
+  "isPartOf": {"name": "Wellcome", "type": "WebSite"}
+ },
+ "https://wiki.ubuntu.com/DesktopExperienceTeam/UnityWithFglrxBeta": {
+  "title": "DesktopExperienceTeam/UnityWithFglrxBeta",
+  "type": "WebPage",
+  "isPartOf": {"name": "Ubuntu Wiki", "type": "WebSite"}
+ },
+ "https://wonkhe.com/blogs/the-future-of-humanities-research-work-and-oa-mongraphs/": {
+  "title": "The future of humanities research work and OA monographs",
+  "author": "Martin Paul Eve",
+  "date": "2020-11-06",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "Wonkhe", "type": "Blog"}
+ },
+ "https://works.hcommons.org/": {
+  "title": "KC Works",
+  "type": "WebSite"
+ },
+ "https://works.hcommons.org/records/gjz0n-7j503": {
+  "title": "A successful Philip Leverhulme Prize application in the field of languages and literature (2019)",
+  "author": "Martin Paul Eve",
+  "date": "2019-03-20",
+  "type": "WebPage",
+  "isPartOf": {"name": "KCWorks", "type": "WebSite"}
+ },
+ "https://www.actualitte.com/article/monde-edition/cloud-atlas-des-versions-presque-incomparables-du-roman-de-david-mitchell/66593": {
+  "title": "Cloud Atlas : des versions “presque incomparables” du roman de David Mitchell",
+  "date": "2016-08-23",
+  "type": "NewsArticle",
+  "isPartOf": {"name": "ActuaLitté.com", "type": "Periodical"}
+ },
+ "https://www.amazon.co.uk/Close-Reading-Computers-Scholarship-Computational/dp/1503609367/": {
+  "title": "Close Reading with Computers: Textual Scholarship, Computational Formalism, and David Mitchell's Cloud Atlas",
+  "author": "Martin Paul Eve",
+  "type": "Book"
+ },
+ "https://www.amazon.co.uk/Literature-Against-Criticism-University-Contemporary-ebook/dp/B01M3RI2P4/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1476953114&sr=8-3": {
+  "title": "Literature Against Criticism: University English and Contemporary Fiction in Conflict",
+  "author": "Martin Paul Eve",
+  "type": "Book"
+ },
+ "https://www.amazon.co.uk/Metaphors-Digital-Textual-History-Stanford-Technologies/dp/1503614883/ref=sr_1_1": {
+  "title": "Theses on the Metaphors of Digital-Textual History",
+  "author": "Martin Paul Eve",
+  "type": "Book"
+ },
+ "https://www.amazon.co.uk/Papermaking-Technique-Lettering-Calligraphy-Typography/dp/0486236196": {
+  "title": "Papermaking",
+  "author": "Dard Hunter",
+  "type": "Book"
+ },
+ "https://www.amazon.co.uk/dp/1685710360/ref=sr_1_1?keywords=warez+martin+paul+eve&qid=1639582354&sr=8-1": {
+  "title": "Warez: The Infrastructure and Aesthetics of Piracy",
+  "author": "Martin Paul Eve",
+  "type": "Book"
+ },
+ "https://www.amazon.co.uk/gp/product/B075FW7H5J/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1": {
+  "title": "SATECHI 8-in-1 USB-C Hub V2",
+  "type": "WebPage"
+ },
+ "https://www.amazon.co.uk/s?k=literature+against+criticism&ref=nb_sb_noss": null,
+ "https://www.amazon.com/dp/1685710360/r": {
+  "title": "Warez: The Infrastructure and Aesthetics of Piracy",
+  "author": "Martin Paul Eve",
+  "type": "Book"
+ },
+ "https://www.aup.nl/en/articles/aup-and-taylor-and-francis-partner-on-english-language-book-programme": {
+  "title": "AUP and Taylor & Francis Partner on English-Language Book Programme",
+  "type": "NewsArticle",
+  "isPartOf": {"name": "Amsterdam University Press", "type": "WebSite"}
+ },
+ "https://www.aup.nl/en/imprint/ceu-press": {
+  "title": "CEU Press",
+  "type": "WebPage",
+  "isPartOf": {"name": "Amsterdam University Press", "type": "WebSite"}
+ },
+ "https://www.bbk.ac.uk/our-staff/profile/8727147/martin-paul-eve": {
+  "title": "Prof Martin Paul Eve",
+  "type": "WebPage",
+  "isPartOf": {"name": "Birkbeck, University of London", "type": "WebSite"}
+ },
+ "https://www.beatport.com/release/the-lear…perience/2564786": {
+  "title": "Martin Eve - The Learning Experience",
+  "type": "WebPage",
+  "isPartOf": {"name": "Beatport", "type": "WebSite"}
+ },
+ "https://www.bisa.ac.uk/files/Research%20Excellence%20Framework/2014_monographs_1.pdf": null,
+ "https://www.bloomsburycollections.com/book/password/": {
+  "title": "Password",
+  "author": "Martin Paul Eve",
+  "type": "Book",
+  "isPartOf": {"name": "Bloomsbury Collections", "type": "WebSite"}
+ },
+ "https://www.cambridge.org/core/books/open-access-and-the-humanities/02BD7DB4A5172A864C432DBFD86E5FB4": {
+  "title": "Open Access and the Humanities: Contexts, Controversies and the Future",
+  "author": "Martin Paul Eve",
+  "date": "2014-11",
+  "type": "Book",
+  "isPartOf": {"name": "Cambridge Core", "type": "WebSite"}
+ },
+ "https://www.ceu.edu/article/2024-07-23/amsterdam-university-press-and-central-european-university-sign-partnership": {
+  "title": "Amsterdam University Press and Central European University Sign Partnership Agreement",
+  "type": "NewsArticle",
+  "isPartOf": {"name": "Central European University", "type": "WebSite"}
+ },
+ "https://www.chronicle.com/article/Will-Blockchain-Revolutionize/245073": {
+  "title": "Will Blockchain Revolutionize Scholarly Journal Publishing?",
+  "date": "2018-11-13",
+  "type": "NewsArticle",
+  "isPartOf": {"name": "The Chronicle of Higher Education", "type": "Periodical"}
+ },
+ "https://www.coalition-s.org/": {
+  "title": "'Plan S' and 'cOAlition S' – Accelerating the transition to full and immediate Open Access to scientific publications",
+  "type": "WebSite"
+ },
+ "https://www.coalition-s.org/blog/diamond-mining/": {
+  "title": "Diamond Mining",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "Plan S", "type": "Blog"}
+ },
+ "https://www.coalition-s.org/blog/glossa-how-a-journal-took-matters-into-their-own-hands-to-make-research-available/": {
+  "title": "Glossa: how a journal took matters into their own hands to make research available",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "Plan S", "type": "Blog"}
+ }
+}

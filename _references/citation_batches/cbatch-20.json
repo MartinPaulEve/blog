@@ -1,0 +1,440 @@
+{
+ "https://academicirregularities.wordpress.com/2016/12/02/ten-myths-and-a-truth-from-the-tef-reading-the-white-paper/": {
+  "label": "Liz Morrish ten myths about TEF blog post",
+  "anchor_text": "Liz Morrish has already written a set of 10 great responses",
+  "post_context": "There are far more worrying aspects of the exercise that Husbands has dodged. [Liz Morrish has already written a set of 10 great responses](https://academicirregularities.wordpress.com/2016/12/02/ten-myths-and-a-truth-from-the-tef-reading",
+  "page_meta": {
+   "title": "Ten Myths and a Truth from the TEF: Reading the White Paper",
+   "date": "2016-12-02T18:05:23+00:00",
+   "site": "Academic Irregularities",
+   "type": "article"
+  }
+ },
+ "https://ahropenreview.com/HistoryCanBeOpenSource/": {
+  "label": "History Can Be Open Source AHA open peer review manuscript",
+  "anchor_text": "History Can Be Open Source",
+  "post_context": "ican Historical Association's open peer review experiment on the manuscript of '[History Can Be Open Source](https://ahropenreview.com/HistoryCanBeOpenSource/)'. I enjoyed reading the manuscript and welcomed the experiment. I would like to",
+  "page_meta": {
+   "title": "Introduction, AHR OPEN REVIEW",
+   "site": "AHR OPEN REVIEW",
+   "type": "website"
+  }
+ },
+ "https://ahropenreview.com/HistoryCanBeOpenSource/editors-comments/": {
+  "label": "Lichtenstein editorial letter History Can Be Open Source AHA",
+  "anchor_text": "This letter, by Professor Alex Lichtenstein",
+  "post_context": "ork. Where it gets thorny, though, is in the politics of the editorial letter. [This letter, by Professor Alex Lichtenstein](https://ahropenreview.com/HistoryCanBeOpenSource/editors-comments/), was commendably made public as part of the pr",
+  "page_meta": {
+   "title": "Editor’s Comments, AHR OPEN REVIEW",
+   "site": "AHR OPEN REVIEW",
+   "type": "article"
+  }
+ },
+ "https://ahropenreview.com/HistoryCanBeOpenSource/readers-report-2/": {
+  "label": "AHA open review readers report 2 on History Can Be Open Source",
+  "anchor_text": "quite critical of my work on the economics of OA",
+  "post_context": "the reviewer being questioned here -- and this reviewer, him- or her- self, is [quite critical of my work on the economics of OA](https://ahropenreview.com/HistoryCanBeOpenSource/readers-report-2/) for not going far enough, even while prai",
+  "page_meta": {
+   "title": "Reader’s Report #2, AHR OPEN REVIEW",
+   "site": "AHR OPEN REVIEW",
+   "type": "article"
+  }
+ },
+ "https://answers.launchpad.net/hplip/+question/208678": {
+  "label": "Launchpad answer on fixing hplip models.dat",
+  "anchor_text": "you simply need to edit",
+  "post_context": "href=\"https://bugs.mageia.org/show_bug.cgi?id=7637\">an error</a>. To fix this, <a href=\"https://answers.launchpad.net/hplip/+question/208678\">you simply need to edit</a> (as root) /usr/share/hplip/data/models/models.dat and change</p> <p>s",
+  "page_meta": {
+   "title": "Question #208678 “Cannot set scan resolution on a Photosmart C63...” : Questions : HPLIP",
+   "site": "Launchpad",
+   "type": "website"
+  }
+ },
+ "https://api.labs.crossref.org/": {
+  "label": "Crossref Labs API",
+  "anchor_text": "Labs API",
+  "post_context": "that grimness. I also got quite a lot done this year! ## Crossref * Built the [Labs API](https://api.labs.crossref.org/) and released [its source code](https://gitlab.com/crossref/labs/lambda-api-proxy) * Conducted research into, and wrot",
+  "page_meta": {
+   "title": "Crossref Labs API",
+   "authors": [
+    "crossref"
+   ],
+   "type": "website"
+  }
+ },
+ "https://app.cloudcraft.co/": {
+  "label": "Cloudcraft AWS architecture diagram tool",
+  "anchor_text": "cloudcraft.co",
+  "post_context": "have to setup a Cloudfront distribution in front of your static site. Here's a [cloudcraft.co](https://app.cloudcraft.co/) diagram of [roughly what I came up with](https://github.com/MartinPaulEve/meve-iac).",
+  "page_meta": {
+   "title": "Cloudcraft – Draw AWS diagrams",
+   "site": "Cloudcraft",
+   "type": "website"
+  }
+ },
+ "https://archive.factordaily.com/richard-stallman-india/": {
+  "label": "Factor Daily: Stallman on SaaS as malicious software",
+  "anchor_text": "recent pronouncements",
+  "post_context": "beral' in its politics (that is to say: not radically left). One of Stallman's [recent pronouncements](https://archive.factordaily.com/richard-stallman-india/) caught my attention though: > Another malicious functionality I should mention",
+  "page_meta": {
+   "title": "Why free software evangelist Richard Stallman is haunted by Stalin’s dream | FactorDaily",
+   "authors": [
+    "https://www.facebook.com/jayadevanpk"
+   ],
+   "date": "2019-01-23T08:20:16+05:30",
+   "site": "FactorDaily",
+   "type": "article"
+  }
+ },
+ "https://arstechnica.com/gadgets/2020/01/linux-on-laptops-ubuntu-19-10-on-the-hp-dragonfly-elite-g1/": {
+  "label": "Ars Technica Ubuntu 19.10 on HP Dragonfly Elite G1",
+  "anchor_text": "Linux on laptops: Ubuntu 19.10 on the HP Dragonfly Elite G1",
+  "post_context": "There's a prominent post at Ars Technica called [Linux on laptops: Ubuntu 19.10 on the HP Dragonfly Elite G1](https://arstechnica.com/gadgets/2020/01/linux-on-laptops-ubuntu-19-10-on-the-hp-dragonfly-elite-g1",
+  "page_meta": {
+   "title": "Linux on laptops: Ubuntu 19.10 on the HP Dragonfly Elite G1 - Ars Technica",
+   "authors": [
+    "Jim Salter"
+   ],
+   "date": "2020-01-27T13:26:55+00:00",
+   "site": "Ars Technica",
+   "type": "WebPage"
+  }
+ },
+ "https://arxiv.org/": {
+  "label": "arXiv preprint server",
+  "anchor_text": "arXiv",
+  "post_context": "n](https://www.openedition.org/?lang=en), [SciELO](https://www.scielo.org/en/), [arXiv](https://arxiv.org/), [Knowledge Unlatched](https://www.knowledgeunlatched.org/), and others, the warnings about the inequitable distribution systems of",
+  "page_meta": {
+   "title": "arXiv.org e-Print archive"
+  }
+ },
+ "https://atm-ucla2017.net/": {
+  "label": "ATM UCLA 2017 conference on AI and labour",
+  "anchor_text": "the first conference on the subject being held last year",
+  "post_context": "or a tiny quantity of remuneration. This area has expanded in recent years with [the first conference on the subject being held last year](https://atm-ucla2017.net/). The point of what I'm trying to say here is this: we think that the ethi",
+  "page_meta": {
+   "title": "Menang Besar Ala 88CASH, Sensasinya Serasa Nemu ATM yang Nggak Ada Habisnya",
+   "site": "88CASH",
+   "type": "website"
+  }
+ },
+ "https://aws.amazon.com/": {
+  "label": "Amazon Web Services cloud hosting",
+  "anchor_text": "AWS",
+  "post_context": "ich is statically generated using [Jekyll](https://jekyllrb.com/), is hosted on [AWS](https://aws.amazon.com/). I know Amazon are evil, I should not be using them. However, their infrastructure is just so strong and their pricing so afforda",
+  "page_meta": {
+   "title": "Cloud Computing Services - Amazon Web Services (AWS)",
+   "site": "Amazon Web Services, Inc.",
+   "type": "website"
+  }
+ },
+ "https://aws.amazon.com/blogs/compute/implementing-default-directory-indexes-in-amazon-s3-backed-amazon-cloudfront-origins-using-lambdaedge/": {
+  "label": "AWS blog on S3/CloudFront directory index with Lambda@Edge",
+  "anchor_text": "write your own function to handle this",
+  "post_context": "index.html inside sub-directories where it exists. The official solution is to [write your own function to handle this](https://aws.amazon.com/blogs/compute/implementing-default-directory-indexes-in-amazon-s3-backed-amazon-cloudfront-origi",
+  "page_meta": {
+   "title": "Implementing Default Directory Indexes in Amazon S3-backed Amazon CloudFront Origins Using Lambda@Edge | Amazon Web Services",
+   "date": "2017-10-18T07:35:23-07:00",
+   "site": "Amazon Web Services",
+   "type": "article"
+  }
+ },
+ "https://bills.parliament.uk/bills/3741": {
+  "label": "UK assisted dying bill on Parliament website",
+  "anchor_text": "an assisted dying bill going through parliament",
+  "post_context": "The UK currently has [an assisted dying bill going through parliament](https://bills.parliament.uk/bills/3741) and I am very conflicted about it. On the one hand, I am a member of D",
+  "page_meta": {
+   "title": "Assisted Dying for Terminally Ill Adults Bill [HL] - Parliamentary Bills - UK Parliament",
+   "type": "website"
+  }
+ },
+ "https://bit.ly/w2vgdrive": {
+  "label": "Google pre-trained Word2Vec model download",
+  "anchor_text": "Google’s pre-trained Word2Vec model",
+  "post_context": "averages. Using this approach requires a pre-trained word vector model, such as [Google’s pre-trained Word2Vec model](https://bit.ly/w2vgdrive). An implementation of this word embedding approach can be found at: https://github.com/MartinPa",
+  "page_meta": {
+   "title": "GoogleNews-vectors-negative300.bin.gz",
+   "site": "Google Docs",
+   "type": "article"
+  }
+ },
+ "https://blogs.harvard.edu/pamphlet/2009/05/28/open-access-policies-and-academic-freedom/": {
+  "label": "Stuart Shieber 2009 post on OA policies and academic freedom",
+  "anchor_text": "Stuart Shrieber wrote about it in 2009",
+  "post_context": "and whether OA mandates might infringe on such rights. This is an old debate -- [Stuart Shrieber wrote about it in 2009](https://blogs.harvard.edu/pamphlet/2009/05/28/open-access-policies-and-academic-freedom/). There have also been several",
+  "page_meta": {
+   "title": "Open-access policies and academic freedom",
+   "date": "2009-05-28T19:00:30+00:00",
+   "site": "The Occasional Pamphlet",
+   "type": "article"
+  }
+ },
+ "https://blogs.lse.ac.uk/impactofsocialsciences/2018/10/24/plan-show-me-the-money-why-academic-led-initiatives-represent-a-more-equitable-less-costly-publishing-future/": {
+  "label": "LSE blog critique of Plan S APC bias",
+  "anchor_text": "critics have claimed that the cOAlition has been too wedded",
+  "post_context": "nders is committed to a complete transition to open-access publishing. To date, [critics have claimed that the cOAlition has been too wedded](https://blogs.lse.ac.uk/impactofsocialsciences/2018/10/24/plan-show-me-the-money-why-academic-led-",
+  "page_meta": {
+   "title": "Plan S[how me the money]: why academic-led initiatives represent a more equitable, less costly publishing future",
+   "authors": [
+    "Blog Admin"
+   ],
+   "date": "2018-10-24T11:00:49+01:00",
+   "site": "LSE Impact - Understanding impact and practice in academic research",
+   "type": "BlogPosting"
+  }
+ },
+ "https://blogs.lse.ac.uk/impactofsocialsciences/2025/03/31/academic-libraries-cannot-afford-to-carry-on-with-transformative-agreements/": {
+  "label": "Edwards on transformative agreements, LSE Impact Blog",
+  "anchor_text": "wrote about this launch in the LSE Impact Blog",
+  "post_context": "penjournalscollective.org/). My good friend and colleague, Dr Caroline Edwards, [wrote about this launch in the LSE Impact Blog](https://blogs.lse.ac.uk/impactofsocialsciences/2025/03/31/academic-libraries-cannot-afford-to-carry-on-with-tra",
+  "page_meta": {
+   "title": "Academic libraries cannot afford to carry on with transformative agreements",
+   "authors": [
+    "Taster"
+   ],
+   "date": "2025-03-31T08:10:33+01:00",
+   "site": "LSE Impact - Understanding impact and practice in academic research",
+   "type": "BlogPosting"
+  }
+ },
+ "https://blogs.openbookpublishers.com/introducing-some-data-to-the-open-access-debate-obps-business-model-part-one/": {
+  "label": "Open Book Publishers blog on their OA cost model",
+  "anchor_text": "a radically different cost model",
+  "post_context": "position for OA monographs. Certainly, a press such as Open Book Publishers has [a radically different cost model](https://blogs.openbookpublishers.com/introducing-some-data-to-the-open-access-debate-obps-business-model-part-one/) to other",
+  "page_meta": {
+   "title": "Introducing Some Data to the Open Access Debate: OBP’s Business Model (Part One)",
+   "authors": [
+    "Rupert Gatti"
+   ],
+   "date": "2015-10-15T10:51:05.000Z",
+   "site": "Open Book Publishers Blog",
+   "type": "Article"
+  }
+ },
+ "https://boingboing.net/2019/08/02/publicsphere-v-elsevier.html": {
+  "label": "Boing Boing: Elsevier vs Citationsy Sci-Hub linking",
+  "anchor_text": "linking to Sci-Hub",
+  "post_context": "t to Citationsy](https://twitter.com/citationsy/status/1156626811398307840) for [linking to Sci-Hub](https://boingboing.net/2019/08/02/publicsphere-v-elsevier.html). There are [different jurisdictional views](http://www.dmlp.org/legal-guide",
+  "page_meta": {
+   "title": "Elsevier sends copyright threat to site for linking to Sci-Hub",
+   "authors": [
+    "Cory Doctorow"
+   ],
+   "date": "2019-08-02T20:50:17+00:00",
+   "site": "Boing Boing",
+   "type": "Article"
+  }
+ },
+ "https://books.eve.gd": {
+  "label": "Eve's books subdomain site",
+  "anchor_text": "books.eve.gd",
+  "post_context": "pain. I have to manage several SSL certificates because I have subdomains, like [books.eve.gd](https://books.eve.gd). When you verify these, you have to go in and add the DNS entries/click the email verification link. This felt really fragi",
+  "page_meta": {
+   "title": "eve.gd: Martin Paul Eve",
+   "authors": [
+    "Martin Paul Eve"
+   ],
+   "site": "eve.gd: Martin Paul Eve",
+   "type": "BlogPosting"
+  }
+ },
+ "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/cloudwatch/client/put_metric_data.html": {
+  "label": "Boto3 CloudWatch put_metric_data reference",
+  "anchor_text": "ability to push metric data to CloudWatch",
+  "post_context": "tom Metrics to CloudWatch Boto3 and other client libraries for AWS provide the [ability to push metric data to CloudWatch](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/cloudwatch/client/put_metric_data.html),",
+  "page_meta": {
+   "title": "put_metric_data - Boto3 1.43.89 documentation"
+  }
+ },
+ "https://bsky.app/profile/lisalibrarian.bsky.social/post/3mcfrgigv4k2k": {
+  "label": "Lisa Janicke Hinchliffe Bluesky post",
+  "anchor_text": "Lisa Janicke Hinchliffe suggested to me",
+  "post_context": "m the published versions, but I don't think that matters and actually shows, as [Lisa Janicke Hinchliffe suggested to me](https://bsky.app/profile/lisalibrarian.bsky.social/post/3mcfrgigv4k2k), that it's okay for organic change to take plac",
+  "page_meta": {
+   "title": "Lisa Janicke Hinchliffe (@lisalibrarian.bsky.social)",
+   "date": "2026-01-14T19:09:28.929Z",
+   "site": "Bluesky Social",
+   "type": "article"
+  }
+ },
+ "https://bugs.launchpad.net/ubuntu/+source/alsa-driver/+bug/680844": {
+  "label": "Launchpad ALSA driver headphone jack bug report",
+  "anchor_text": "bug report",
+  "post_context": "</p> <p>to /etc/modprobe.d/alsa-base.conf </p> <p>I've put in a <a href=\"https://bugs.launchpad.net/ubuntu/+source/alsa-driver/+bug/680844\">bug report</a>, so hopefully this can get a fix in Natty.</p>",
+  "page_meta": {
+   "title": "Bug #680844 “[Conexant CX20585] Headphone jack doesn't work” : Bugs : linux package : Ubuntu",
+   "site": "Launchpad",
+   "type": "website"
+  }
+ },
+ "https://bugs.launchpad.net/ubuntu/+source/libmad/+bug/989846": {
+  "label": "Launchpad bug report for libmad0 segfault",
+  "anchor_text": "the fault is with libmad0",
+  "post_context": "you are experiencing crashes when you update your mpd library on Ubuntu 12.10, <a href=\"https://bugs.launchpad.net/ubuntu/+source/libmad/+bug/989846\">the fault is with libmad0</a>.</p> <p>This can be fixed by installing libmad0 from Debian",
+  "page_meta": {
+   "title": "Bug #989846 “libmad causes mpd to seg fault on update” : Bugs : libmad package : Ubuntu",
+   "site": "Launchpad",
+   "type": "website"
+  }
+ },
+ "https://bugs.launchpad.net/ubuntu/+source/thunderbird/+bug/751067": {
+  "label": "Launchpad bug report: Thunderbird Ubuntu Natty issue",
+  "anchor_text": "https://bugs.launchpad.net/ubuntu/+source/thunderbird/+bug/751067",
+  "post_context": "reported this as a bug in Thunderbird, because that's where I first noticed it (<a href=\"https://bugs.launchpad.net/ubuntu/+source/thunderbird/+bug/751067\">https://bugs.launchpad.net/ubuntu/+source/thunderbird/+bug/751067</a>), but it actua",
+  "page_meta": {
+   "title": "Bug #751067 “Colors are mangled in Natty” : Bugs : unity package : Ubuntu",
+   "site": "Launchpad",
+   "type": "website"
+  }
+ },
+ "https://bugs.launchpad.net/ubuntu/karmic/+source/bash-completion/+bug/449349": {
+  "label": "Launchpad bug: bash-completion scp issue Karmic",
+  "anchor_text": "this bug",
+  "post_context": "se who wish to have this functionality, should follow these steps:</p> <p>Visit <a href=\"https://bugs.launchpad.net/ubuntu/karmic/+source/bash-completion/+bug/449349\">this bug</a> to read about the problem. Note that this is a problem with",
+  "page_meta": {
+   "title": "Bug #449349 “regression for completing remote files/dirs over ss...” : Karmic (9.10) : Bugs : bash-completion package : Ubuntu",
+   "site": "Launchpad",
+   "type": "website"
+  }
+ },
+ "https://cdlib.org/": {
+  "label": "California Digital Library homepage",
+  "anchor_text": "California Digital Library",
+  "post_context": "uclpress.co.uk/), [University of Michigan Press](https://press.umich.edu/), and [California Digital Library](https://cdlib.org/) (among others, more forthcoming), banding together to offer hundreds of journal OA titles that can replace tran",
+  "page_meta": {
+   "title": "California Digital Library"
+  }
+ },
+ "https://ceup.openingthefuture.net/about/": {
+  "label": "Opening the Future COPIM OA press conversion project",
+  "anchor_text": "Opening the Future",
+  "post_context": "nt to highlight for attention. In particular, my work package on COPIM launched [Opening the Future](https://ceup.openingthefuture.net/about/), its project to convert university presses to OA business models. This really does represent a wa",
+  "page_meta": {
+   "title": "Opening the Future"
+  }
+ },
+ "https://chronicle.com/article/An-Emerging-Field-Deconstructs/130791/": {
+  "label": "Chronicle article on critical university studies",
+  "anchor_text": "critical university studies",
+  "post_context": "ybridity that many want to cast aside as old hat. However, as the discipline of <a href=\"https://chronicle.com/article/An-Emerging-Field-Deconstructs/130791/\">critical university studies</a> emerges, it is becoming clear to me that this fie",
+  "page_meta": {
+   "title": "An Emerging Field Deconstructs Academe",
+   "authors": [
+    "https://www.chronicle.com/author/jeffrey-j-williams"
+   ],
+   "date": "2012-02-19T05:01:00.000Z",
+   "site": "The Chronicle of Higher Education",
+   "type": "WebPage"
+  }
+ },
+ "https://chronicle.com/blogs/profhacker/": {
+  "label": "ProfHacker Chronicle blog",
+  "anchor_text": "ProfHacker",
+  "post_context": "ense is an accolade and we need more hackers, for instance in the academy: like <a href=\"https://chronicle.com/blogs/profhacker/\">ProfHacker</a>.</p> <p>I'm no fan of Mark Zuckerberg, but it's embarrassing to read this kind of thing in the",
+  "page_meta": {
+   "title": "ProfHacker",
+   "date": "2021-01-21T21:26:40.759Z",
+   "site": "The Chronicle of Higher Education",
+   "type": "WebPage"
+  }
+ },
+ "https://copim.pubpub.org/pub/wp-3-working-to-transition-central-european-university-press-to-open-access/": {
+  "label": "COPIM WP3 Central European University Press OA transition announcement",
+  "anchor_text": "announce the first press to take the leap: the Central European University Press",
+  "post_context": "hate and which will not scale). I am pleased to say that, as of today, we can [announce the first press to take the leap: the Central European University Press](https://copim.pubpub.org/pub/wp-3-working-to-transition-central-european-univ",
+  "page_meta": {
+   "title": "Work Package 3: Transitioning the Central European University Press to Open Access",
+   "authors": [
+    "Martin Paul Eve"
+   ],
+   "date": "2020/10/22",
+   "site": "Copim",
+   "type": "article"
+  }
+ },
+ "https://copyrightliteracy.org/2024/01/12/thj-v-sheridan-a-new-era-for-copyright-in-uk-cultural-institutions/": {
+  "label": "THJ v Sheridan UK copyright ruling explainer",
+  "anchor_text": "THJ v Sheridan case",
+  "post_context": "Perhaps of some significance, in English law, the relatively recent [THJ v Sheridan case](https://copyrightliteracy.org/2024/01/12/thj-v-sheridan-a-new-era-for-copyright-in-uk-cultural-institutions/) ruled (basically) that merel",
+  "page_meta": {
+   "title": "THJ v Sheridan: A new era for copyright in UK cultural institutions?",
+   "date": "2024-01-12T15:28:26+00:00",
+   "site": "Copyright Literacy",
+   "type": "article"
+  }
+ },
+ "https://core.ac.uk/": {
+  "label": "CORE open-access aggregator",
+  "anchor_text": "Core",
+  "post_context": "It is also fortunate, of course, that repositories like these are ingested into [Core](https://core.ac.uk/); another third party with a lodged copy of my work. One of the weakest spots currently is that my blog, which is statically generat",
+  "page_meta": {
+   "title": "The world’s largest collection of open access research papers"
+  }
+ },
+ "https://council.science/current/blog/distributed-models-for-open-access-publishing-qa-with-martin-eve": {
+  "label": "Eve and Sayer, distributed OA publishing Q&A, ISC 2019",
+  "anchor_text": "Eve, Martin Paul, and Lizzie Sayer, ‘Distributed Models for Open Access Publishing: Q&#38;A with Martin Eve’, International Science Council, 2019",
+  "post_context": "Aims to Kill “Desk Rejects”’, <i>Times Higher Education</i>, 2019</a></li> <li><a href=\"https://council.science/current/blog/distributed-models-for-open-access-publishing-qa-with-martin-eve\" class=\"csl-entry\">Eve, Martin Paul, and Lizzie S",
+  "page_meta": {
+   "title": "Distributed models for open access publishing: Q&amp;A with Martin Eve",
+   "authors": [
+    "Roberto"
+   ],
+   "date": "2019-06-12T15:40:08+00:00",
+   "site": "International Science Council",
+   "type": "Article"
+  }
+ },
+ "https://coursecorrection.bandcamp.com/album/mine-fly": {
+  "label": "Course Correction, Mine/Fly, Bandcamp 2019",
+  "anchor_text": "Course Correction - Mine/Fly [2019]",
+  "post_context": "e REF’, <i>Research Fortnight</i>, 2019</a></li> </ul> <h4>Music</h4> <ul> <li><a href=\"https://coursecorrection.bandcamp.com/album/mine-fly\">Course Correction - Mine/Fly [2019]</a></li> <li><a href=\"https://www.junodownload.com/products/m",
+  "page_meta": {
+   "title": "Mine/Fly",
+   "date": "23 Jun 2019 09:59:31 GMT",
+   "site": "Course Correction",
+   "type": "MusicAlbum"
+  }
+ },
+ "https://covid19.public-inquiry.uk/documents/module-3-full-report": {
+  "label": "Covid Inquiry Module 3 full report",
+  "anchor_text": "the full version of the report",
+  "post_context": "sion](https://covid19.public-inquiry.uk/documents/module-3-in-brief-report/) or [the full version of the report](https://covid19.public-inquiry.uk/documents/module-3-full-report). The report stresses that there were key failings with respec",
+  "page_meta": {
+   "title": "Module 3 Report - The impact of the Covid-19 pandemic on the healthcare systems of the United Kingdom - UK Covid-19 Inquiry",
+   "date": "2026-03-19T11:57:31+00:00",
+   "site": "UK Covid-19 Inquiry",
+   "type": "WebPage"
+  }
+ },
+ "https://covid19.public-inquiry.uk/documents/module-3-in-brief-report/": {
+  "label": "Covid Inquiry Module 3 summary report",
+  "anchor_text": "a summary version",
+  "post_context": "ystems-in-the-four-nations-of-the-united-kingdom-module-3-report). You can read [a summary version](https://covid19.public-inquiry.uk/documents/module-3-in-brief-report/) or [the full version of the report](https://covid19.public-inquiry.uk",
+  "page_meta": {
+   "title": "Module 3 Report ‘In Brief’ summary – The impact of the Covid-19 pandemic on the healthcare systems of the United Kingdom - UK Covid-19 Inquiry",
+   "date": "2026-03-19T11:57:33+00:00",
+   "site": "UK Covid-19 Inquiry",
+   "type": "WebPage"
+  }
+ },
+ "https://creativecommons.org/choose/zero/": {
+  "label": "Creative Commons CC0 public domain dedication tool",
+  "anchor_text": "CC0 license",
+  "post_context": "e.doc). The document total is 18,750 words. I hereby release this work under a [CC0 license](https://creativecommons.org/choose/zero/). You may reuse this without attribution, although I suggest that you do not submit it to BIS in precisel",
+  "page_meta": {
+   "title": "Chooser - Creative Commons",
+   "date": "2025-05-12T20:06:02+00:00",
+   "site": "Creative Commons",
+   "type": "WebPage"
+  }
+ },
+ "https://creativecommons.org/licenses/by/4.0/legalcode": {
+  "label": "Creative Commons Attribution 4.0 legal code",
+  "anchor_text": "legal code of the Creative Commons Attribution License",
+  "post_context": "e someone to court. I can do this even when work is openly licensed, since the [legal code of the Creative Commons Attribution License](https://creativecommons.org/licenses/by/4.0/legalcode) states (my emphasis): > Moral rights, __such as",
+  "page_meta": {
+   "title": "Legal Code - Attribution 4.0 International - Creative Commons"
+  }
+ }
+}

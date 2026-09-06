@@ -1,0 +1,203 @@
+{
+  "http://results.ref.ac.uk/DownloadSubmissions/ByForm/REF2": {
+    "title": "Download submission data",
+    "type": "WebPage",
+    "isPartOf": {"name": "REF 2014", "type": "WebSite"}
+  },
+  "http://roarmap.eprints.org/": {
+    "title": "ROARMAP",
+    "type": "WebSite",
+    "isPartOf": {"name": "ROARMAP", "type": "WebSite"}
+  },
+  "http://roddymacleod.wordpress.com/2010/04/06/many-open-access-oa-journals-dont-have-table-of-contents-rss-feeds-and-they-are-therefore-missing-out-a-great-deal/": {
+    "title": "Many Open Access (OA) journals don't have Table of Contents RSS feeds, and they are therefore missing out a great deal.",
+    "date": "2010-04-06",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Roddy Macleod's Blog", "type": "Blog"}
+  },
+  "http://sa4qe.blogspot.com/2001/01/about-sa4qe.html": {
+    "title": "About SA4QE",
+    "type": "WebPage"
+  },
+  "http://sa4qe.blogspot.com/2011/05/pynchon-in-public-day-and-sf-writers.html": {
+    "title": "Pynchon in Public Day and SF writers' choice",
+    "type": "BlogPosting"
+  },
+  "http://schema.org/CreativeWork": {
+    "title": "CreativeWork",
+    "type": "WebPage",
+    "isPartOf": {"name": "Schema.org", "type": "WebSite"}
+  },
+  "http://schema.org/EducationEvent": {
+    "title": "EducationEvent",
+    "type": "WebPage",
+    "isPartOf": {"name": "Schema.org", "type": "WebSite"}
+  },
+  "http://schema.org/Periodical": {
+    "title": "Periodical",
+    "type": "WebPage",
+    "isPartOf": {"name": "Schema.org", "type": "WebSite"}
+  },
+  "http://schema.org/Person": {
+    "title": "Person",
+    "type": "WebPage",
+    "isPartOf": {"name": "Schema.org", "type": "WebSite"}
+  },
+  "http://schema.org/Place": {
+    "title": "Place",
+    "type": "WebPage",
+    "isPartOf": {"name": "Schema.org", "type": "WebSite"}
+  },
+  "http://scholarlykitchen.sspnet.org/2012/07/18/a-proposed-list-60-things-journal-publishers-do/": {
+    "title": "A Proposed List — 60 Things Journal Publishers Do",
+    "author": "Kent Anderson",
+    "date": "2012-07-18",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "The Scholarly Kitchen", "type": "Blog"}
+  },
+  "http://scholarlykitchen.sspnet.org/2013/01/29/in-praise-of-double-dipping-fairness-affordability-vitality-and-sustainability/": {
+    "title": "In Praise of \"Double-Dipping\" — Fairness, Affordability, Vitality, and Sustainability",
+    "author": "Kent Anderson",
+    "date": "2013-01-29",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "The Scholarly Kitchen", "type": "Blog"}
+  },
+  "http://scholarlyoa.com/publishers/": {
+    "title": "List of publishers",
+    "type": "WebPage"
+  },
+  "http://schoolboyerrors.wordpress.com/2011/04/11/literary-criticism-and-the-scientistic-imperative/": {
+    "title": "Literary Criticism and The Scientistic Imperative",
+    "date": "2011-04-11",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Schoolboy Errors", "type": "Blog"}
+  },
+  "http://scripting.com/stories/2011/05/06/nurembergDoesNotApply.html": {
+    "title": "Nuremberg does not apply",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Scripting News", "type": "Blog"}
+  },
+  "http://seclists.org/fulldisclosure/2007/Jun/0026.html": {
+    "title": "Assorted browser vulnerabilities",
+    "author": "Michal Zalewski",
+    "type": "WebPage",
+    "isPartOf": {"name": "Full Disclosure", "type": "WebSite"}
+  },
+  "http://sf0.org/tasks/Thurn-Und-Taxis-Postal-Adventure/": {
+    "title": "Thurn Und Taxis Postal Adventure",
+    "type": "WebPage",
+    "isPartOf": {"name": "SF0", "type": "WebSite"}
+  },
+  "http://silenceandvoice.com/archives/2010/12/07/phd-chat-as-phdchat/": null,
+  "http://site.com/STXSS_XBL.xml#loader": null,
+  "http://sparcopen.org/impact-story/erin-mckiernan/": {
+    "title": "Openness as a Career Asset: Erin McKiernan",
+    "date": "2015-11-19",
+    "type": "WebPage",
+    "isPartOf": {"name": "SPARC", "type": "WebSite"}
+  },
+  "http://speculative-diction.blogspot.com/2011/08/shameful-self-promotion-vs-meritocracy.html": {
+    "title": "Shameful self-promotion vs. Meritocracy",
+    "type": "BlogPosting"
+  },
+  "http://stevenhill.org.uk/journal-brand-and-research-culture/": {
+    "title": "Journal brand and research culture",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Steven Hill's Writing", "type": "Blog"}
+  },
+  "http://svpow.com/": {
+    "title": "Sauropod Vertebra Picture of the Week",
+    "type": "WebSite",
+    "isPartOf": {"name": "Sauropod Vertebra Picture of the Week", "type": "Blog"}
+  },
+  "http://svpow.com/2012/01/13/the-obscene-profits-of-commercial-scholarly-publishers/": {
+    "title": "The obscene profits of commercial scholarly publishers",
+    "date": "2012-01-13",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Sauropod Vertebra Picture of the Week", "type": "Blog"}
+  },
+  "http://svpow.com/2013/06/12/publishing-is-a-button-what-clay-shirky-didnt-say/": {
+    "title": "Publishing is a button: what Clay Shirky didn't say",
+    "date": "2013-06-12",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Sauropod Vertebra Picture of the Week", "type": "Blog"}
+  },
+  "http://svpow.com/2014/11/22/is-publishing-just-a-button/": {
+    "title": "Is publishing \"just a button\"?",
+    "date": "2014-11-22",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Sauropod Vertebra Picture of the Week", "type": "Blog"}
+  },
+  "http://talkingoflanguages.wordpress.com/2013/03/12/the-languages-of-academic-publishing/": {
+    "title": "The language(s) of academic publishing",
+    "date": "2013-03-12",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "talkingoflanguages", "type": "Blog"}
+  },
+  "http://tar.weatherson.org/2004/02/27/throwing-away-ideas/": {
+    "title": "Throwing Away Ideas",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Thoughts, Arguments and Rants", "type": "Blog"}
+  },
+  "http://theconversation.com/students-dont-know-whats-best-for-their-own-learning-33835": {
+    "title": "Students don't know what's best for their own learning",
+    "author": "Arthur Poropat",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Conversation", "type": "WebSite"}
+  },
+  "http://thedailywtf.com": {
+    "title": "The Daily WTF: Curious Perversions in Information Technology",
+    "type": "WebSite"
+  },
+  "http://thedailywtf.com/Articles/The-Backup-Snippet.aspx": {
+    "title": "The Backup Snippet",
+    "author": "Alex Papadimoulis",
+    "date": "2008-12-17",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "The Daily WTF", "type": "Blog"}
+  },
+  "http://thedisorderofthings.com/2014/06/16/why-metrics-cannot-measure-research-quality-a-response-to-the-hefce-consultation/": {
+    "title": "Why Metrics Cannot Measure Research Quality: A Response to the HEFCE Consultation",
+    "date": "2014-06-16",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "The Disorder Of Things", "type": "Blog"}
+  },
+  "http://thenounproject.com/term/student/63368/": {
+    "title": "student",
+    "author": "Joseph Wilson",
+    "date": "2014-08-06",
+    "type": "WebPage",
+    "isPartOf": {"name": "The Noun Project", "type": "WebSite"}
+  },
+  "http://thirduniversity.wordpress.com/": {
+    "title": "The Third University",
+    "type": "WebSite",
+    "isPartOf": {"name": "The Third University", "type": "WebSite"}
+  },
+  "http://trianglesci.org": {
+    "title": "Triangle Scholarly Communications Institute",
+    "type": "WebSite"
+  },
+  "http://triplec.at/index.php/tripleC/article/view/525": {
+    "title": "The Open-Access Movement is Not Really about Open Access",
+    "author": "Jeffrey Beall",
+    "date": "2013-12-09",
+    "type": "ScholarlyArticle",
+    "isPartOf": {"name": "tripleC: Communication, Capitalism & Critique", "type": "Periodical"}
+  },
+  "http://uk.answers.yahoo.com/question/index?qid=20090910153441AAzSQrX": null,
+  "http://uksglive.blogspot.co.uk/2012/03/autosubversive-practices-where-were-all.html": {
+    "title": "Autosubversive practices: where we're all going wrong, and what we should do to get it right",
+    "type": "BlogPosting"
+  },
+  "http://universityforstrategicoptimism.wordpress.com/": {
+    "title": "University For Strategic Optimism",
+    "type": "WebSite",
+    "isPartOf": {"name": "University For Strategic Optimism", "type": "WebSite"}
+  },
+  "http://waste.org/mail/?list=pynchon-l&month=9912&msg=43015&keywords=marx": {
+    "title": "waste mailing lists / pynchon-l by date",
+    "type": "WebPage",
+    "isPartOf": {"name": "pynchon-l", "type": "WebSite"}
+  }
+}

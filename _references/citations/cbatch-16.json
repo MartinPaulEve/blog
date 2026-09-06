@@ -1,0 +1,130 @@
+{
+  "http://www.guardian.co.uk/stage/2011/apr/22/concept-of-the-face-review": {
+    "title": "On the Concept of the Face, Regarding the Son of God – review",
+    "author": "Michael Billington",
+    "date": "2011-04-22",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Guardian", "type": "Periodical"}
+  },
+  "http://www.guardian.co.uk/technology/2010/dec/11/wikileaks-amazon-denial-democracy-lieberman": {
+    "title": "WikiLeaks row: why Amazon's desertion has ominous implications for democracy",
+    "author": "John Naughton",
+    "date": "2010-12-11",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Guardian", "type": "Periodical"}
+  },
+  "http://www.guardian.co.uk/technology/2012/apr/04/amazon-british-operation-corporation-tax": {
+    "title": "Amazon: £7bn sales, no UK corporation tax",
+    "author": "Ian Griffiths",
+    "date": "2012-04-04",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Guardian", "type": "Periodical"}
+  },
+  "http://www.guardian.co.uk/uk/2012/nov/12/teenager-arrested-burning-poppy-facebook": {
+    "title": "Police accused of over-zealous reaction to poppy burning",
+    "date": "2012-11-13",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Guardian", "type": "Periodical"}
+  },
+  "http://www.guardian.co.uk/world/2011/may/20/paralysed-sports-star-steps-history-rob-summers": {
+    "title": "Paralysed baseball star steps into medical history",
+    "author": "Sarah Boseley",
+    "date": "2011-05-19",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Guardian", "type": "Periodical"}
+  },
+  "http://www.guardian.co.uk/world/blog/2010/dec/03/julian-assange-wikileaks": {
+    "title": "Julian Assange answers your questions",
+    "date": "2010-12-03",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Guardian", "type": "Periodical"}
+  },
+  "http://www.h-net.org/announce/group.cgi?type=CFPs": {
+    "title": "H-Announce",
+    "type": "WebPage",
+    "isPartOf": {"name": "H-Net", "type": "WebSite"}
+  },
+  "http://www.h-net.org/announce/submit1.cgi": {
+    "title": "H-Announce",
+    "type": "WebPage",
+    "isPartOf": {"name": "H-Net", "type": "WebSite"}
+  },
+  "http://www.handle.net/rfc/rfc3650.html": null,
+  "http://www.hefce.ac.uk/aboutus/board/": null,
+  "http://www.hefce.ac.uk/aboutus/board/bio/atkins.htm": null,
+  "http://www.hefce.ac.uk/media/HEFCE,2014/Content/Pubs/2016/201636/HEFCE2016_36.pdf": null,
+  "http://www.hefce.ac.uk/media/HEFCE,2014/Content/Pubs/Independentresearch/2015/REF,Accountability,Review,Costs,benefits,and,burden/2015_refreviewcosts.pdf": null,
+  "http://www.hefce.ac.uk/media/hefce/content/pubs/2013/201316/Consultation%20on%20open%20access%20in%20the%20post-2014%20Research%20Excellence%20Framework.pdf": null,
+  "http://www.hefce.ac.uk/media/hefce/content/whatwedo/research/infrastructure/openaccess/Expert_Reference_Group_members.pdf": null,
+  "http://www.hefce.ac.uk/news/hefce/2011/members.htm": null,
+  "http://www.hefce.ac.uk/pubs/rereports/Year/2015/metrictide/Title,104463,en.html": null,
+  "http://www.hefce.ac.uk/pubs/rereports/year/2015/monographs/": null,
+  "http://www.hefce.ac.uk/pubs/year/2016/201636/": null,
+  "http://www.hefce.ac.uk/rsrch/metrics/": null,
+  "http://www.hefce.ac.uk/rsrch/oa/FAQ/#discovery5": null,
+  "http://www.hefce.ac.uk/whatwedo/rsrch/howfundr/metrics/": null,
+  "http://www.heise-security.co.uk/news/89835": null,
+  "http://www.humanitiesdirectory.com/index.php/humanitiesdirectory": null,
+  "http://www.ids.ac.uk/opinion/a-brave-new-world-of-open-access-publishing": {
+    "title": "A Brave New World of Open Access Publishing",
+    "date": "2016-02-04",
+    "type": "WebPage",
+    "isPartOf": {"name": "Institute of Development Studies", "type": "WebSite"}
+  },
+  "http://www.if-not-true-then-false.com/2010/install-sun-oracle-java-jdk-jre-7-on-fedora-centos-red-hat-rhel/": {
+    "title": "Install Oracle Java 7u79/80 on Fedora 24/23, CentOS/RHEL 7.2/6.8/5.11",
+    "date": "2010-09-07",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "If Not True Then False", "type": "Blog"}
+  },
+  "http://www.independent.co.uk/student/news/uk-study-finds-just-17-black-female-professors-10019201.html": {
+    "title": "UK study finds just 17 black female professors",
+    "author": "Richard Garner",
+    "date": "2015-02-03",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "The Independent", "type": "Periodical"}
+  },
+  "http://www.informaworld.com/smpp/content~db=all~content=a930064208~frm=titlelink": null,
+  "http://www.inqbate.co.uk/images/annotated%20inqbate%20map.jpg": null,
+  "http://www.issn.org/2-22652-Requesting-an-ISSN.php": {
+    "title": "Requesting an ISSN",
+    "type": "WebPage",
+    "isPartOf": {"name": "ISSN", "type": "WebSite"}
+  },
+  "http://www.jewishvirtuallibrary.org/jsource/Holocaust/barbietrial.html": {
+    "title": "Trial of Nazi Criminal Klaus Barbie",
+    "type": "WebPage",
+    "isPartOf": {"name": "Jewish Virtual Library", "type": "WebSite"}
+  },
+  "http://www.jewishvirtuallibrary.org/jsource/Holocaust/barbietrial.html#5": {
+    "title": "Trial of Nazi Criminal Klaus Barbie",
+    "type": "WebPage",
+    "isPartOf": {"name": "Jewish Virtual Library", "type": "WebSite"}
+  },
+  "http://www.jstor.org/stable/2902363?origin=crossref": null,
+  "http://www.knowledgeunlatched.org/": {
+    "title": "Knowledge Unlatched",
+    "type": "WebSite"
+  },
+  "http://www.legislation.gov.uk/ukpga/1988/40/part/IV/crossheading/academic-tenure": {
+    "title": "Education Reform Act 1988",
+    "type": "WebPage",
+    "isPartOf": {"name": "legislation.gov.uk", "type": "WebSite"}
+  },
+  "http://www.legislation.gov.uk/ukpga/1988/48/section/296ZE": {
+    "title": "Copyright, Designs and Patents Act 1988",
+    "type": "WebPage",
+    "isPartOf": {"name": "legislation.gov.uk", "type": "WebSite"}
+  },
+  "http://www.legislation.gov.uk/ukpga/1988/48/section/30": {
+    "title": "Copyright, Designs and Patents Act 1988",
+    "type": "WebPage",
+    "isPartOf": {"name": "legislation.gov.uk", "type": "WebSite"}
+  },
+  "http://www.libreoffice.org": {
+    "title": "LibreOffice",
+    "type": "WebSite"
+  },
+  "http://www.lincoln.ac.uk/home/campuslife/whatson/eventsconferences/event%20name,8029,en.html": null,
+  "http://www.lincoln.ac.uk/home/course/cmsresms/fundedplace/": null
+}

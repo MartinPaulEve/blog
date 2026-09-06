@@ -1,0 +1,52 @@
+{
+ "https://www.ucl.ac.uk/english/department/history-of-the-english-department": {
+  "title": "History of the English department",
+  "type": "WebPage",
+  "isPartOf": {"name": "UCL Faculty of Arts and Humanities", "type": "WebSite"}
+ },
+ "https://www.versobooks.com/en-gb/products/729-crippled": {
+  "title": "Crippled: Austerity and the Demonization of Disabled People",
+  "author": "Frances Ryan",
+  "type": "Book",
+  "publisher": "Verso"
+ },
+ "https://www.w3.org/Provider/Style/URI": {
+  "title": "Hypertext Style: Cool URIs don't change.",
+  "type": "TechArticle",
+  "isPartOf": {"name": "W3C", "type": "WebSite"}
+ },
+ "https://www.whpress.co.uk/publications/journal-prices/": null,
+ "https://www.wiley.com/en-us/White+Magic%3A+The+Age+of+Paper-p-9780745672533": {
+  "title": "White Magic: The Age of Paper",
+  "type": "Book",
+  "publisher": "Wiley"
+ },
+ "https://www.writetothem.com/": {
+  "title": "WriteToThem",
+  "type": "WebSite"
+ },
+ "https://www.writetothem.com/write?fyr_extref=https%3A%2F%2Fwww.theyworkforyou.com%2F&who=58991": {
+  "title": "WriteToThem",
+  "type": "WebPage",
+  "isPartOf": {"name": "WriteToThem", "type": "WebSite"}
+ },
+ "https://www.zdnet.com/article/dumping-open-source-for-proprietary-rarely-pays-off-better-to-stick-a-fork-in-it/": {
+  "title": "Dumping open source for proprietary rarely pays off: Better to stick a fork in it",
+  "date": "2025-02-05",
+  "type": "NewsArticle",
+  "isPartOf": {"name": "ZDNET", "type": "Periodical"}
+ },
+ "https://zenodo.org/record/167381#.WG-OqvGLT0o": {
+  "title": "Bibliometric study of the Swiss Publication System, 2016",
+  "author": ["Alexander Machado", "Laura Hoppmann", "Johannes Knaus", "Margit Palzenberger"],
+  "date": "2016-11-18",
+  "type": "ScholarlyArticle",
+  "isPartOf": {"name": "Zenodo", "type": "WebSite"}
+ },
+ "https://zunguzungu.wordpress.com/2010/11/29/julian-assange-and-the-computer-conspiracy-%E2%80%9Cto-destroy-this-invisible-government%E2%80%9D/#": {
+  "title": "Julian Assange and the Computer Conspiracy; “To destroy this invisible government”",
+  "date": "2010-11-29",
+  "type": "BlogPosting",
+  "isPartOf": {"name": "zunguzungu", "type": "Blog"}
+ }
+}

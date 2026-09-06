@@ -1,0 +1,429 @@
+{
+ "https://www.coalition-s.org/coalition-s-endorses-the-s2o-model-of-funding-oa/": {
+  "label": "cOAlition S endorsement of Subscribe to Open model",
+  "anchor_text": "cOAlition S endorsed the Subscribe to Open (S2O) business model",
+  "post_context": "This week, [cOAlition S endorsed the Subscribe to Open (S2O) business model](https://www.coalition-s.org/coalition-s-endorses-the-s2o-model-of-funding-oa/). This group of",
+  "page_meta": {
+   "title": "cOAlition S endorses the Subscribe to Open (S2O) model of funding open access | Plan S"
+  }
+ },
+ "https://www.coalition-s.org/diamond-unearthed-shining-light-on-community-driven-open-access-publishing/": {
+  "label": "cOAlition S Diamond OA report",
+  "anchor_text": "recent publication on “Diamond” OA",
+  "post_context": "://www.coalition-s.org/why-plan-s/) on this matter. However, coupled with their [recent publication on “Diamond” OA](https://www.coalition-s.org/diamond-unearthed-shining-light-on-community-driven-open-access-publishing/), this endorsement",
+  "page_meta": {
+   "title": "Diamond unearthed: shining light on community-driven Open Access publishing | Plan S"
+  }
+ },
+ "https://www.coalition-s.org/why-plan-s/": {
+  "label": "cOAlition S Plan S rationale page",
+  "anchor_text": "Plan S is theoretically neutral",
+  "post_context": "ture/) to the (inflationary) Article Processing Charge business model, although [Plan S is theoretically neutral](https://www.coalition-s.org/why-plan-s/) on this matter. However, coupled with their [recent publication on “Diamond” OA](http",
+  "page_meta": {
+   "title": "Why Plan S | Plan S"
+  }
+ },
+ "https://www.contractsfinder.service.gov.uk/Notice/26d25c44-4c38-4d4c-93ca-9a580ac39724": {
+  "label": "HEFCE citation indicators public tender contract notice",
+  "anchor_text": "UK SBS BLOJEU CR150082HEFCE Provision Of Citation Indicators",
+  "post_context": "teresting that BIS/HEFCE recently advertised the public sector tender contract “[UK SBS BLOJEU CR150082HEFCE Provision Of Citation Indicators](https://www.contractsfinder.service.gov.uk/Notice/26d25c44-4c38-4d4c-93ca-9a580ac39724)”. Adverti",
+  "page_meta": {
+   "title": "UK SBS BLOJEU-CR150082HEFCE Provision Of Citation Indicators - Contracts Finder"
+  }
+ },
+ "https://www.contractsfinder.service.gov.uk/Notice/456093c1-17ae-4548-814f-23b4fdb8ed9a": {
+  "label": "UK Contracts Finder notice UUK OA monographs research commission",
+  "anchor_text": "has commissioned some research",
+  "post_context": "dition to running an event later this year, the UUK OA Monographs Working Group [has commissioned some research](https://www.contractsfinder.service.gov.uk/Notice/456093c1-17ae-4548-814f-23b4fdb8ed9a), with the approval of the UUK OA Coordi",
+  "page_meta": {
+   "title": "UK SBS CR18077 Open Access Monographs - Contracts Finder"
+  }
+ },
+ "https://www.crossref.org/blog/outage-of-october-6-2021/": {
+  "label": "Crossref blog post on October 2021 outage",
+  "anchor_text": "can go wrong",
+  "post_context": "backup. Crossref has, in the past, found that even massively redundant systems [can go wrong](https://www.crossref.org/blog/outage-of-october-6-2021/) if not tested. It’s also highly possible to fulfil all the POSI points in a way that do",
+  "page_meta": {
+   "title": "Outage of October 6, 2021 - Crossref",
+   "authors": [
+    "Isaac Farley"
+   ],
+   "site": "www.crossref.org",
+   "type": "article"
+  }
+ },
+ "https://www.crossref.org/documentation/retrieve-metadata/rest-api/tips-for-using-public-data-files-and-plus-snapshots/": {
+  "label": "Crossref guidance on using public data dumps",
+  "anchor_text": "guidance on how to use the dump",
+  "post_context": ".json.gz 4593.json.gz. Indeed, it's not particularly user friendly and there is [guidance on how to use the dump](https://www.crossref.org/documentation/retrieve-metadata/rest-api/tips-for-using-public-data-files-and-plus-snapshots/). I th",
+  "page_meta": {
+   "title": "https://www.crossref.org/documentation/retrieve-metadata/bulk-downloads/"
+  }
+ },
+ "https://www.crossref.org/people/martin-eve/": {
+  "label": "Eve's Crossref staff profile",
+  "anchor_text": "new role at Crossref",
+  "post_context": "In my [new role at Crossref](https://www.crossref.org/people/martin-eve/) I work on a series of data pipelines for research and development projects. These are resour",
+  "page_meta": {
+   "title": "Martin Eve - Crossref",
+   "authors": [
+    "Isaac Farley"
+   ],
+   "site": "www.crossref.org",
+   "type": "profile"
+  }
+ },
+ "https://www.dailymail.co.uk/health/article-10746187/Covid-19-Vulnerable-patients-denied-800-anti-viral-jab-unless-private.html": {
+  "label": "Daily Mail article on Evusheld denial on NHS",
+  "anchor_text": "an article highlighting this",
+  "post_context": "to get Evusheld in the UK, either on the NHS, or privately. The Daily Mail ran [an article highlighting this](https://www.dailymail.co.uk/health/article-10746187/Covid-19-Vulnerable-patients-denied-800-anti-viral-jab-unless-private.html).",
+  "page_meta": {
+   "title": "Covid 19: Vulnerable patients denied £800 anti-viral jab unless they go private",
+   "authors": [
+    "Ethan Ennals"
+   ],
+   "date": "2022-04-23T17:22:05+0100",
+   "site": "Daily Mail",
+   "type": "NewsArticle"
+  }
+ },
+ "https://www.dropbox.com/home": {
+  "label": "Dropbox cloud storage service",
+  "anchor_text": "Dropbox",
+  "post_context": "to the technical side of it. First, what do you need?: * Some kind of shared [Dropbox](https://www.dropbox.com/home) (or similar) folder * [gpg: the GNU Privacy Guard](https://www.gnupg.org/) -- an interface to using PGP * Your document",
+  "page_meta": {
+   "title": "Login or Sign Up for a Dropbox Account",
+   "site": "Dropbox",
+   "type": "website"
+  }
+ },
+ "https://www.dropbox.com/referrals/NTEwNzk5NzEzOQ?src=global0": {
+  "label": "Dropbox referral signup link",
+  "anchor_text": "Dropbox account",
+  "post_context": "iles and also makes you overly reliant on the cloud.</p> <ol> <li>Sign-up for a <a href=\"https://www.dropbox.com/referrals/NTEwNzk5NzEzOQ?src=global0\">Dropbox account</a> and install the client. Make a note of the location of your Dropbox d",
+  "page_meta": {
+   "title": "Dropbox: Secure cloud storage, file sharing, and more"
+  }
+ },
+ "https://www.dukeupress.edu/": {
+  "label": "Duke University Press homepage",
+  "anchor_text": "Duke University Press",
+  "post_context": "tps://openjournalscollective.org/board/), the publisher board consists of: OLH, [Duke University Press](https://www.dukeupress.edu/), [University of Pennsylvania Press](https://www.pennpress.org/), [DOAJ](https://doaj.org/), [Edinburgh Diam",
+  "page_meta": {
+   "title": "Duke University Press",
+   "type": "website"
+  }
+ },
+ "https://www.editions-harmattan.fr/index.asp?navig=catalogue&obj=livre&no=16032": {
+  "label": "Pastoureau, L'incolore n'existe pas",
+  "anchor_text": "L’incolore n’existe pas",
+  "post_context": "ed as the zero point, an absence of color. As Pastoureau has put it elsewhere: \"[L’incolore n’existe pas](https://www.editions-harmattan.fr/index.asp?navig=catalogue&obj=livre&no=16032)\". This work (Pastoureau, Michel, ‘L’incolore n’existe",
+  "page_meta": {
+   "title": "Points de vue -",
+   "site": "Editions L’Harmattan",
+   "type": "book"
+  }
+ },
+ "https://www.elsevier.com/connect/addressing-the-resignation-of-the-lingua-editorial-board": {
+  "label": "Elsevier response to Lingua editorial board resignation",
+  "anchor_text": "a response",
+  "post_context": "Elsevier has just published [a response](https://www.elsevier.com/connect/addressing-the-resignation-of-the-lingua-editorial-board) of sorts to the [resignation of the _Lingua_ editors and",
+  "page_meta": {
+   "title": "News and insights for research, health and technology | Elsevier Connect | Elsevier",
+   "site": "www.elsevier.com",
+   "type": "WebPage"
+  }
+ },
+ "https://www.elsevier.com/connect/allegations-linking-sci-hub-with-russian-intelligence": {
+  "label": "Elsevier Connect: Sci-Hub Russian intelligence allegations",
+  "anchor_text": null,
+  "post_context": "nking Sci-Hub with Russian Intelligence’, _Elsevier Connect_, 20 December 2019 <https://www.elsevier.com/connect/allegations-linking-sci-hub-with-russian-intelligence> * Eve, Martin Paul, ‘Lessons from the Library: Extreme Minimalist Scalin",
+  "page_meta": {
+   "title": "Allegations linking Sci-Hub with Russian Intelligence",
+   "date": "2019-12-20",
+   "site": "www.elsevier.com",
+   "type": "Article"
+  }
+ },
+ "https://www.etymonline.com/word/principle": {
+  "label": "Online Etymology Dictionary entry for principle",
+  "anchor_text": "etymologically",
+  "post_context": "I to transmute into a box-ticking audit exercise. The term “principle” derives, [etymologically](https://www.etymonline.com/word/principle), from the Latin principium, meaning “a beginning, commencement, origin, first part,\" or \"foundation”",
+  "page_meta": {
+   "title": "Principle - Etymology, Origin & Meaning",
+   "site": "etymonline",
+   "type": "website"
+  }
+ },
+ "https://www.explainxkcd.com/wiki/index.php/2839:_Language_Acquisition": {
+  "label": "Explain XKCD 2839 Language Acquisition",
+  "anchor_text": "recent XKCD",
+  "post_context": "A [recent XKCD](https://www.explainxkcd.com/wiki/index.php/2839:_Language_Acquisition) caused some amusement: \"Vocabulary update: I learned another word today, br",
+  "page_meta": {
+   "title": "2839: Language Acquisition",
+   "site": "explain xkcd",
+   "type": "website"
+  }
+ },
+ "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2021.679775/full": {
+  "label": "Frontiers: ESNV-SPA vagus nerve study protocol",
+  "anchor_text": "this article may be the medical study protocol",
+  "post_context": "ust really links to pages about vagus nerve research in general. I *think* that [this article may be the medical study protocol](https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2021.679775/full), but it's hard",
+  "page_meta": {
+   "title": "Randomized Cross Over Study Assessing the Efficacy of Non-invasive Stimulation of the Vagus Nerve in Patients With Axial Spondyloarthritis Resistant to Biotherapies: The ESNV-SPA Study Protocol",
+   "authors": [
+    "Azabou, Eric",
+    "Bao, Guillaume",
+    "Costantino, Félicie",
+    "Jacota, Madalina",
+    "Lazizi, Chanez",
+    "Nkam, Lionelle",
+    "Rottman, Martin",
+    "Roux, Anne-Laure"
+   ],
+   "date": "2021/06/30",
+   "site": "Frontiers in Human Neuroscience",
+   "type": "ScholarlyArticle"
+  }
+ },
+ "https://www.gnu.org/philosophy/lessig-fsfs-intro.html": {
+  "label": "Lessig introduction to Free Software Free Society",
+  "anchor_text": "https://www.gnu.org/philosophy/lessig-fsfs-intro.html",
+  "post_context": "Free Society: The Selected Essays of Richard M. Stallman\". Available online at <a href=\"https://www.gnu.org/philosophy/lessig-fsfs-intro.html\">https://www.gnu.org/philosophy/lessig-fsfs-intro.html</a>. Licensed under a CC-BY-ND license.</p",
+  "page_meta": {
+   "title": "Introduction to Free Software, Free Society - GNU Project - Free Software Foundation"
+  }
+ },
+ "https://www.gnu.org/philosophy/not-ipr.html": {
+  "label": "Stallman GNU essay on intellectual property terminology",
+  "anchor_text": "sees it",
+  "post_context": "ual property\". As Richard Stallman, outspoken founder of the CopyLeft movement, <a href=\"https://www.gnu.org/philosophy/not-ipr.html\">sees it</a>, however, this term \"intellectual property\" is problematic: \"it suggests thinking about copyri",
+  "page_meta": {
+   "title": "Did You Say “Intellectual Property”? It's a Seductive Mirage - GNU Project - Free Software Foundation"
+  }
+ },
+ "https://www.gnu.org/philosophy/software-patents.en.html": {
+  "label": "GNU philosophy page on harmful software patents",
+  "anchor_text": "harmful practical and intellectual development",
+  "post_context": "should not encourage anyone to file and to license software patents. They are a [harmful practical and intellectual development](https://www.gnu.org/philosophy/software-patents.en.html). More importantly, though, were a set of other though",
+  "page_meta": {
+   "title": "Software Patents - GNU Project - Free Software Foundation"
+  }
+ },
+ "https://www.gnupg.org/": {
+  "label": "GnuPG GNU Privacy Guard homepage",
+  "anchor_text": "gpg: the GNU Privacy Guard",
+  "post_context": "me kind of shared [Dropbox](https://www.dropbox.com/home) (or similar) folder * [gpg: the GNU Privacy Guard](https://www.gnupg.org/) -- an interface to using PGP * Your document in some widely accessible format, like MS Word So, the first",
+  "page_meta": {
+   "title": "The GNU Privacy Guard",
+   "authors": [
+    "The People of the GnuPG Project"
+   ],
+   "date": "2026-09-01"
+  }
+ },
+ "https://www.gnupg.org/software/frontends.html": {
+  "label": "GnuPG GUI frontend options list",
+  "anchor_text": "you may be able to do this using a GUI",
+  "post_context": "p is to encrypt your document. You do this as follows (from the command line -- [you may be able to do this using a GUI](https://www.gnupg.org/software/frontends.html)): gpg -c ./your-file.doc At this point, gpg will ask you for a passwo",
+  "page_meta": {
+   "title": "GnuPG - Frontends",
+   "authors": [
+    "The People of the GnuPG Project"
+   ],
+   "date": "2024-02-15"
+  }
+ },
+ "https://www.gov.uk/government/news/evusheld-approved-to-prevent-covid-19-in-people-whose-immune-response-is-poor": {
+  "label": "UK MHRA approval announcement for Evusheld",
+  "anchor_text": "the UK regulatory standards of safety, quality and effectiveness",
+  "post_context": "was authorised by the UK's MHRA on the 17th March 2022. This means that it met [the UK regulatory standards of safety, quality and effectiveness](https://www.gov.uk/government/news/evusheld-approved-to-prevent-covid-19-in-people-whose-immu",
+  "page_meta": {
+   "title": "Evusheld approved to prevent COVID-19 in people whose immune response is poor",
+   "authors": [
+    "Medicines and Healthcare products Regulatory Agency"
+   ],
+   "date": "2022-03-17T06:57:24+00:00",
+   "site": "GOV.UK",
+   "type": "NewsArticle"
+  }
+ },
+ "https://www.gov.uk/government/publications/decision-on-evusheld-as-a-coronavirus-covid-19-treatment-letter-to-patient-groups/decision-on-evusheld-as-a-covid-19-treatment": {
+  "label": "UK government decision on Evusheld for patient groups",
+  "anchor_text": "their response to the letters that I drafted",
+  "post_context": "the UK several times on this matter. This week, though, they finally published [their response to the letters that I drafted](https://www.gov.uk/government/publications/decision-on-evusheld-as-a-coronavirus-covid-19-treatment-letter-to-pat",
+  "page_meta": {
+   "title": "Decision on Evusheld as a COVID-19 treatment",
+   "authors": [
+    "Department of Health and Social Care"
+   ],
+   "date": "2022-10-06T14:00:02+01:00",
+   "site": "GOV.UK",
+   "type": "FAQPage"
+  }
+ },
+ "https://www.gov.uk/government/publications/higher-risk-patients-eligible-for-covid-19-treatments-independent-advisory-group-report/defining-the-highest-risk-clinical-subgroups-upon-community-infection-with-sars-cov-2-when-considering-the-use-of-neutralising-monoclonal-antibodies": {
+  "label": "UK independent advisory group report on high-risk Covid patients",
+  "anchor_text": "released a report",
+  "post_context": "belief.\" # Update on the 30th May An independent advisory medical group today [released a report](https://www.gov.uk/government/publications/higher-risk-patients-eligible-for-covid-19-treatments-independent-advisory-group-report/defining-",
+  "page_meta": {
+   "title": "Defining the highest-risk clinical subgroups upon community infection with SARS-CoV-2 when considering the use of neutralising monoclonal antibodies (nMABs) and antiviral drugs: independent advisory group report",
+   "authors": [
+    "Department of Health and Social Care"
+   ],
+   "date": "2022-05-30T14:39:07+01:00",
+   "site": "GOV.UK",
+   "type": "FAQPage"
+  }
+ },
+ "https://www.gov.uk/government/publications/open-access-to-research-independent-advice": {
+  "label": "Tickell review of UK open access policy",
+  "anchor_text": "Tickell review of open access in the United Kingdom",
+  "post_context": "Last week, the [Tickell review of open access in the United Kingdom](https://www.gov.uk/government/publications/open-access-to-research-independent-advice) was published. Ther",
+  "page_meta": {
+   "title": "Open access to research: independent advice - 2016",
+   "authors": [
+    "Department for Business, Innovation & Skills"
+   ],
+   "date": "2016-02-11T11:00:00+00:00",
+   "site": "GOV.UK",
+   "type": "Article"
+  }
+ },
+ "https://www.gov.uk/government/publications/uk-covid-19-inquiry-impact-of-covid-19-pandemic-on-healthcare-systems-in-the-four-nations-of-the-united-kingdom-module-3-report": {
+  "label": "UK Covid Inquiry Module 3 report",
+  "anchor_text": "publication of the Module 3 report of the Covid inquiry",
+  "post_context": "Yesterday marked the [publication of the Module 3 report of the Covid inquiry](https://www.gov.uk/government/publications/uk-covid-19-inquiry-impact-of-covid-19-pandemic-on-healthca",
+  "page_meta": {
+   "title": "UK Covid-19 Inquiry: Impact of Covid-19 pandemic on healthcare systems in the four nations of the United Kingdom (Module 3) Report",
+   "authors": [
+    "Cabinet Office"
+   ],
+   "date": "2026-03-19T12:00:00+00:00",
+   "site": "GOV.UK",
+   "type": "Article"
+  }
+ },
+ "https://www.gov.uk/government/speeches/higher-education-fulfilling-our-potential": {
+  "label": "Jo Johnson HE speech fulfilling our potential",
+  "anchor_text": "the speech given by the minister for Higher Education",
+  "post_context": "I feel fairly drained today reading [the speech given by the minister for Higher Education](https://www.gov.uk/government/speeches/higher-education-fulfilling-our-potential), Jo Johnson. The inf",
+  "page_meta": {
+   "title": "Higher education: fulfilling our potential",
+   "authors": [
+    "Department for Business, Innovation & Skills"
+   ],
+   "date": "2015-09-09T11:00:19+01:00",
+   "site": "GOV.UK",
+   "type": "NewsArticle"
+  }
+ },
+ "https://www.hefce.ac.uk/media/hefce/content/pubs/2014/201407/HEFCE2014_07.pdf": {
+  "label": "HEFCE post-2014 REF open access policy document",
+  "anchor_text": "Policy for Open Access in the Post-2014 Research Excellence Framework",
+  "post_context": "'s it.</li> </ol> <p><strong>The Geekier Longer Version</strong><br /> Source: \"<a href=\"https://www.hefce.ac.uk/media/hefce/content/pubs/2014/201407/HEFCE2014_07.pdf\">Policy for Open Access in the Post-2014 Research Excellence Framework</a",
+  "page_meta": {
+   "title": "Archive Timeline - UK Government Web Archive"
+  }
+ },
+ "https://www.hup.harvard.edu/catalog.php?isbn=9780674307605": {
+  "label": "Grafton, The Footnote: A Curious History, Harvard UP",
+  "anchor_text": "history of the footnote",
+  "post_context": "What is the point of a citation? As Anthony Grafton puts it in his [history of the footnote](https://www.hup.harvard.edu/catalog.php?isbn=9780674307605), \"the culturally contingent and eminently fallible footnote offers the onl",
+  "page_meta": {
+   "title": "The Footnote — Harvard University Press",
+   "site": "Harvard University Press",
+   "type": "website"
+  }
+ },
+ "https://www.imperial.ac.uk/news/236034/lasting-brain-impacts-severe-covid-19-equivalent/": {
+  "label": "Imperial study: mild Covid causes lasting cognitive impairment",
+  "anchor_text": "even mild cases of Covid have been shown to cause lasting cognitive impairment",
+  "post_context": ". \"It was just like a minor cold, really\", they say, perhaps not realising that [even mild cases of Covid have been shown to cause lasting cognitive impairment](https://www.imperial.ac.uk/news/236034/lasting-brain-impacts-severe-covid-19-eq",
+  "page_meta": {
+   "title": "Lasting brain impacts of severe COVID-19 equivalent to 20 years of ageing",
+   "authors": [
+    "Ryan O'Hare"
+   ],
+   "date": "2022-05-03T12:00:00.000Z",
+   "site": "Imperial College London",
+   "type": "NewsArticle"
+  }
+ },
+ "https://www.insidehighered.com/news/2017/08/21/cambridge-university-press-blocks-access-300-plus-articles-request-chinese-censors": {
+  "label": "Inside Higher Ed news: CUP blocks articles for Chinese censors",
+  "anchor_text": "recent self-censorship",
+  "post_context": "The [recent self-censorship](https://www.insidehighered.com/news/2017/08/21/cambridge-university-press-blocks-access-300-plus-articles-request-chinese-censors) by C",
+  "page_meta": {
+   "title": "Cambridge University Press blocks access to 300-plus articles on request of Chinese censors",
+   "authors": [
+    "Elizabeth Redden"
+   ],
+   "date": "2017-08-20EDT15:00:00EDT",
+   "site": "Inside Higher Ed | Higher Education News, Events and Jobs",
+   "type": "Article"
+  }
+ },
+ "https://www.jstor.org/stable/608272": {
+  "label": "Lionel Giles article on early Chinese paper",
+  "anchor_text": "Giles, p. 813",
+  "post_context": "s Lionel Giles notes, \"at the very end the original whitish colour is visible\" ([Giles, p. 813](https://www.jstor.org/stable/608272)). In later European paper-making environments, coloured papers still played key signifying roles. As Mülle",
+  "page_meta": {
+   "title": "Client Challenge"
+  }
+ },
+ "https://www.junodownload.com/products/course-correction-ep/3775354-02/": {
+  "label": "Course Correction EP remix on Juno",
+  "anchor_text": "who previously did a remix for me",
+  "post_context": "based outfit, The Long Champs (otherwise known as Lloyd Jones, half of Quantal, [who previously did a remix for me](https://www.junodownload.com/products/course-correction-ep/3775354-02/)). The track is unusual fare for the label, certainly",
+  "page_meta": {
+   "title": "Juno Download: Buy & Download Dance Music | MP3, WAV, FLAC"
+  }
+ },
+ "https://www.junodownload.com/products/javier-busto-dopamine/4114214-02/": {
+  "label": "Javier Busto, Dopamine remix, Nuff Music 2019",
+  "anchor_text": "Javier Busto - Dopamine (remix) (Nuff Music) [2019]",
+  "post_context": "12383-02/\">Martin Eve - The Learning Experience (Tici Taci) [2019]</a></li> <li><a href=\"https://www.junodownload.com/products/javier-busto-dopamine/4114214-02/\">Javier Busto - Dopamine (remix) (Nuff Music) [2019]</a></li> <li><a href=\"http",
+  "page_meta": {
+   "title": "Juno Download: Buy & Download Dance Music | MP3, WAV, FLAC"
+  }
+ },
+ "https://www.junodownload.com/products/martin-eve-the-learning-experience/4112383-02/": {
+  "label": "Martin Eve, The Learning Experience, Tici Taci 2019",
+  "anchor_text": "Martin Eve - The Learning Experience (Tici Taci) [2019]",
+  "post_context": "n.bandcamp.com/album/mine-fly\">Course Correction - Mine/Fly [2019]</a></li> <li><a href=\"https://www.junodownload.com/products/martin-eve-the-learning-experience/4112383-02/\">Martin Eve - The Learning Experience (Tici Taci) [2019]</a></li>",
+  "page_meta": {
+   "title": "Juno Download: Buy & Download Dance Music | MP3, WAV, FLAC"
+  }
+ },
+ "https://www.junodownload.com/products/marti…ce/4112383-02/": {
+  "label": "The Learning Experience release on Juno Download",
+  "anchor_text": "Juno Download",
+  "post_context": "</iframe> Available for purchase at: <ul> <li><a href=\"https://www.junodownload.com/products/marti…ce/4112383-02/\">Juno Download</a></li> <li><a href=\"https://www.beatport.com/release/the-lear…perience/2564",
+  "page_meta": {
+   "title": "Juno Download: Buy & Download Dance Music | MP3, WAV, FLAC"
+  }
+ },
+ "https://www.junodownload.com/products/the-long-champs-opsimath-eremite/4080306-02/": {
+  "label": "Opsimath and Eremite by The Long Champs on Juno",
+  "anchor_text": "Opsimath and Eremite",
+  "post_context": "g/label/62db3e96-423a-4e9d-bf66-7a017f1dfc73) music label. It’s a track called ‘[Opsimath and Eremite](https://www.junodownload.com/products/the-long-champs-opsimath-eremite/4080306-02/)’ by the Wales-based outfit, The Long Champs (otherwis",
+  "page_meta": {
+   "title": "Juno Download: Buy & Download Dance Music | MP3, WAV, FLAC"
+  }
+ },
+ "https://www.kcl.ac.uk/news/65-of-adults-are-worried-about-access-to-palliative-care": {
+  "label": "KCL report on adults worried about palliative care access",
+  "anchor_text": "over 100,000 people every year cannot access the palliative care that they need",
+  "post_context": "s taking this route because treatment options are not good enough. For example, [over 100,000 people every year cannot access the palliative care that they need](https://www.kcl.ac.uk/news/65-of-adults-are-worried-about-access-to-palliative",
+  "page_meta": {
+   "title": "65% of adults are worried about access to palliative care",
+   "authors": [
+    "King's College London"
+   ],
+   "date": "2024-04-29T08:00:00",
+   "site": "King's College London",
+   "type": "NewsArticle"
+  }
+ }
+}

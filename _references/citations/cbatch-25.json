@@ -1,0 +1,192 @@
+{
+  "https://github.com/shoe/free_cite": {
+    "title": "web app for parsing citations",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/shoe/free_cite.git": {
+    "title": "web app for parsing citations",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/smathot/qnotero": {
+    "title": "Standalone sidekick to the Zotero reference manager (Qt4 version)",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/tqdm/tqdm": {
+    "title": "A Fast, Extensible Progress Bar for Python and CLI",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://github.com/trallnag/prometheus-fastapi-instrumentator": {
+    "title": "Instrument your FastAPI with Prometheus metrics.",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitHub", "type": "WebSite"}
+  },
+  "https://gitlab.com/crossref/labs/airflow-launcher": {
+    "title": "airflow-launcher",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitLab", "type": "WebSite"}
+  },
+  "https://gitlab.com/crossref/labs/claws": {
+    "title": "claws",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitLab", "type": "WebSite"}
+  },
+  "https://gitlab.com/crossref/labs/distrunner": {
+    "title": "distrunner",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitLab", "type": "WebSite"}
+  },
+  "https://gitlab.com/crossref/labs/entext": {
+    "title": "entext",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitLab", "type": "WebSite"}
+  },
+  "https://gitlab.com/crossref/labs/lambda-api-proxy": {
+    "title": "fargate-api-proxy",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitLab", "type": "WebSite"}
+  },
+  "https://gitlab.com/crossref/labs/lambda-api-proxy/-/blob/main/crapiproxy/src/instrumentation.py": {
+    "title": "instrumentation.py",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitLab", "type": "WebSite"}
+  },
+  "https://gitlab.com/crossref/labs/lambda-api-proxy/-/blob/main/crapiproxy/src/plugins/utils/aws_utils.py": {
+    "title": "aws_utils.py",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitLab", "type": "WebSite"}
+  },
+  "https://gitlab.com/crossref/labs/longsight": {
+    "title": "longsight",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitLab", "type": "WebSite"}
+  },
+  "https://gitlab.com/crossref/labs/opcit": {
+    "title": "opcit",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitLab", "type": "WebSite"}
+  },
+  "https://gitlab.com/crossref/labs/packer": {
+    "title": "packer",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitLab", "type": "WebSite"}
+  },
+  "https://gitlab.com/crossref/labs/preservation-data/-/blob/main/aflow/virtual_python_plugin.py": {
+    "title": "virtual_python_plugin.py",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitLab", "type": "WebSite"}
+  },
+  "https://gitlab.com/crossref/labs/rustsqlitepacker": {
+    "title": "rustsqlitepacker",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "GitLab", "type": "WebSite"}
+  },
+  "https://group.springernature.com/gp/group/media/press-releases/apcs-in-the-wild-white-paper/17855784": {
+    "title": "A better understanding of APC funding sources could accelerate the transition to open access",
+    "type": "Report",
+    "publisher": "Springer Nature"
+  },
+  "https://hcommons.org": {
+    "title": "Knowledge Commons",
+    "type": "WebSite"
+  },
+  "https://items.ssrc.org/parameters/the-library-solution-how-academic-libraries-could-end-the-apc-scourge/": {
+    "title": "The Library Solution: How Academic Libraries Could End the APC Scourge",
+    "author": "Jeff Pooley",
+    "date": "2019-09-03",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Items", "type": "Blog"}
+  },
+  "https://janeway.systems/": {
+    "title": "Janeway",
+    "type": "WebSite"
+  },
+  "https://jcls.io/article/id/3915/": null,
+  "https://jekyllrb.com/": {
+    "title": "Jekyll",
+    "type": "WebSite"
+  },
+  "https://jonathangray.org/2020/10/20/new-book-reassembling-scholarly-communications-mit-press/": {
+    "title": "New Book: “Reassembling Scholarly Communications: Histories, Infrastructures, and Global Politics of Open Access” (MIT Press, 2020)",
+    "author": "Jonathan Gray",
+    "date": "2020-10-20",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Jonathan W. Y. Gray", "type": "Blog"}
+  },
+  "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0263833": {
+    "title": "The effect of transcutaneous auricular vagus nerve stimulation on HRV in healthy young people",
+    "author": ["Duyan Geng", "Xuanyu Liu", "Yan Wang", "Jiaxing Wang"],
+    "date": "2022-02-10",
+    "type": "ScholarlyArticle",
+    "isPartOf": {"name": "PLOS ONE", "type": "Periodical"}
+  },
+  "https://jquery.org": {
+    "title": "A safe and modern home for JavaScript technologies",
+    "type": "WebSite"
+  },
+  "https://jquery.org/license/": {
+    "title": "License",
+    "type": "WebPage",
+    "isPartOf": {"name": "jQuery", "type": "WebSite"}
+  },
+  "https://kb.netgear.com/000059432/RBR50-RBS50-Firmware-Version-2-1-4-16": {
+    "title": "RBR50 / RBS50 Firmware Version 2.1.4.16",
+    "type": "TechArticle",
+    "publisher": "NETGEAR"
+  },
+  "https://kdp.amazon.com/help?topicId=A29FL26OKE7R7B": {
+    "title": "Digital Book Pricing Page",
+    "type": "WebPage"
+  },
+  "https://kfitz.info/": {
+    "title": "Kathleen Fitzpatrick",
+    "type": "WebSite"
+  },
+  "https://lareviewofbooks.org/article/neoliberal-tools-archives-political-history-digital-humanities/": {
+    "title": "Neoliberal Tools (and Archives): A Political History of Digital Humanities",
+    "date": "2016-05-01",
+    "type": "NewsArticle",
+    "isPartOf": {"name": "Los Angeles Review of Books", "type": "Periodical"}
+  },
+  "https://launchpad.net/sshsplit": {
+    "title": "sshsplit",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "Launchpad", "type": "WebSite"}
+  },
+  "https://launchpad.net/xhtmlnotes": {
+    "title": "xhtmlnotes",
+    "type": "SoftwareSourceCode",
+    "isPartOf": {"name": "Launchpad", "type": "WebSite"}
+  },
+  "https://leadinggenerously.hcommons.org/": {
+    "title": "Leading Generously",
+    "type": "WebSite"
+  },
+  "https://library.ed.ac.uk/research-support/edinburgh-diamond": {
+    "title": "Edinburgh Diamond",
+    "type": "WebPage"
+  },
+  "https://link.springer.com/book/10.1057/9781137405500": null,
+  "https://maitzen.wordpress.com/": {
+    "title": "Novel Readings",
+    "type": "WebSite"
+  },
+  "https://mastodon.social/@babetteknauer/115933572328791779": {
+    "author": "Babette Knauer",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "Mastodon", "type": "WebSite"}
+  },
+  "https://me.yahoo.com/": {
+    "title": "OpenID2 eol message",
+    "type": "WebPage"
+  },
+  "https://mediaevalmusings.wordpress.com/2012/10/03/light-upon-light-abbot-suger-and-the-invention-of-gothic/": {
+    "title": "Light Upon Light: Abbot Suger and the Invention of Gothic",
+    "date": "2012-10-03",
+    "type": "BlogPosting",
+    "isPartOf": {"name": "mediaevalmusings", "type": "Blog"}
+  }
+}
