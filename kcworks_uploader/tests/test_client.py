@@ -385,3 +385,49 @@ class TestNewVersion:
         client = KCWorksClient(BASE, "tok", session=session)
         assert client.new_version("abc12")["id"] == "new34-ver56"
         assert ("POST", f"{BASE}/records/abc12/versions") in session.sent
+
+
+class TestListDraftFiles:
+    def test_returns_the_entries_list(self):
+        session = FakeSession(
+            {
+                ("GET", f"{BASE}/records/abc12/draft/files"): FakeResponse(
+                    200, {"entries": [{"key": "a.md"}, {"key": "a.pdf"}]}
+                )
+            }
+        )
+        client = KCWorksClient(BASE, "tok", session=session)
+        assert client.list_draft_files("abc12") == [
+            {"key": "a.md"},
+            {"key": "a.pdf"},
+        ]
+
+
+class TestReserveDoi:
+    def test_posts_to_the_draft_pids_endpoint(self):
+        session = FakeSession(
+            {
+                ("POST", f"{BASE}/records/abc12/draft/pids/doi"): FakeResponse(
+                    201,
+                    {"pids": {"doi": {"identifier": "10.17613/x1", "provider": "datacite"}}},
+                )
+            }
+        )
+        client = KCWorksClient(BASE, "tok", session=session)
+        result = client.reserve_doi("abc12")
+        assert result["pids"]["doi"]["identifier"] == "10.17613/x1"
+
+
+class TestDeleteDraftPid:
+    def test_deletes_the_scheme_and_tolerates_no_content(self):
+        session = FakeSession(
+            {
+                ("DELETE", f"{BASE}/records/abc12/draft/pids/doi"): FakeResponse(
+                    204, None
+                )
+            }
+        )
+        session.delete = lambda url, **kw: session._handle("DELETE", url, **kw)
+        client = KCWorksClient(BASE, "tok", session=session)
+        assert client.delete_draft_pid("abc12", "doi") == {}
+        assert ("DELETE", f"{BASE}/records/abc12/draft/pids/doi") in session.sent

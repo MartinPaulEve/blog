@@ -1,5 +1,5 @@
 {
- "last_wm_id": 2028562,
+ "last_wm_id": 2029698,
  "targets": {
   "/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/": {
    "bookmarks": [],
@@ -17,7 +17,24 @@
    ],
    "replies": [],
    "reposts": []
+  },
+  "/2026/09/05/not-now-ancient-sheep-virus-found-hiding-in-medieval-parchment/": {
+   "bookmarks": [],
+   "likes": [],
+   "mentions": [
+    {
+     "author_name": "Martin Paul Eve",
+     "author_url": "https://bsky.app/profile/eve.gd",
+     "avatar": "/images/webmentions/ff80432ff5fc382e.jpg",
+     "published": "2026-09-05T21:19:41+00:00",
+     "text": "Not now, ancient sheep virus found hiding in medieval parchment!\n\n[I am currently on a social media break (and am hospitalized). I am still writing, working, and posting, but am not caught up on reading at the moment.]\n\neve.gd/2026/09/05/n...",
+     "url": "https://bsky.app/profile/did:plc:hnpt7ns2lecdujegbi6qkqqm/post/3musfsrillc2q",
+     "wm_id": 2029698
+    }
+   ],
+   "replies": [],
+   "reposts": []
   }
  },
- "updated": "2026-09-05T20:57:47+00:00"
+ "updated": "2026-09-06T21:54:03+00:00"
 }

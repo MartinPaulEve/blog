@@ -761,18 +761,50 @@ The opening paragraph of the post.
 class FakeVersionClient(FakeClient):
     """FakeClient plus the record/versioning surface for update flows."""
 
-    def __init__(self, record_updated="2026-09-01T10:00:00.000000+00:00"):
+    def __init__(
+        self,
+        record_updated="2026-09-01T10:00:00.000000+00:00",
+        draft_files=(),
+        draft_pids=None,
+        delete_pid_error=False,
+    ):
         super().__init__()
         self.record_updated = record_updated
-
-    def get_record(self, record_id):
-        self.calls.append("get_record")
-        return {"id": record_id, "updated": self.record_updated}
+        self.draft_files = list(draft_files)
+        self.draft_pids = draft_pids
+        self.delete_pid_error = delete_pid_error
 
     def new_version(self, record_id):
         self.calls.append("new_version")
         self.versioned = record_id
-        return {"id": "new33-new44", "links": {}}
+        draft = {"id": "new33-new44", "links": {}}
+        if self.draft_pids:
+            draft["pids"] = self.draft_pids
+        return draft
+
+    def reserve_doi(self, draft_id):
+        self.calls.append("reserve_doi")
+        return {
+            "pids": {
+                "doi": {"identifier": "10.17613/mint1", "provider": "datacite"}
+            }
+        }
+
+    def delete_draft_pid(self, draft_id, scheme="doi"):
+        self.calls.append("delete_pid")
+        if self.delete_pid_error:
+            raise cli.KCWorksError(
+                "KC Works returned HTTP 404: The persistent identifier does not exist."
+            )
+        return {}
+
+    def list_draft_files(self, draft_id):
+        self.calls.append("list_files")
+        return [{"key": key} for key in self.draft_files]
+
+    def get_record(self, record_id):
+        self.calls.append("get_record")
+        return {"id": record_id, "updated": self.record_updated}
 
 
 class TestNeedsUpdate:
@@ -819,6 +851,94 @@ class TestUpdateMain:
         text = post.read_text()
         assert "kcworks: https://works.hcommons.org/records/new33-new44\n" in text
         assert "old11-old22" not in text
+
+    def test_new_version_reserves_a_kcworks_managed_doi(
+        self, updated_repo, capsys, monkeypatch
+    ):
+        # KC Works requires a DOI with a concrete identifier, and an
+        # external DOI cannot be reused across versions, so the flow
+        # reserves a minted DOI on the draft and carries it through
+        # every subsequent draft update.
+        client = FakeVersionClient()
+        monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
+        monkeypatch.chdir(updated_repo)
+        post = updated_repo / "_posts" / "2026-08-28-a-test-post.md"
+        cli.update_main([str(post), "--token", "tok"])
+        assert "reserve_doi" in client.calls
+        assert client.updated_record["pids"]["doi"]["identifier"] == "10.17613/mint1"
+
+    def test_a_malformed_pid_left_by_a_failed_run_is_replaced(
+        self, updated_repo, capsys, monkeypatch
+    ):
+        # Draft PUTs are lenient: earlier failed attempts can leave a
+        # provider-only doi pid on the version draft, which blocks a new
+        # reservation. The flow must delete it and reserve cleanly.
+        # The schema debris has no real PID row behind it, so the delete
+        # endpoint 404s; the flow must fall back to clearing pids by PUT.
+        client = FakeVersionClient(
+            draft_pids={"doi": {"provider": "datacite", "client": "datacite"}},
+            delete_pid_error=True,
+        )
+        monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
+        monkeypatch.chdir(updated_repo)
+        post = updated_repo / "_posts" / "2026-08-28-a-test-post.md"
+        rc = cli.update_main([str(post), "--token", "tok"])
+        assert rc == 0
+        assert "delete_pid" in client.calls
+        assert "reserve_doi" in client.calls
+        assert client.updated_record["pids"]["doi"]["identifier"] == "10.17613/mint1"
+
+    def test_an_external_doi_left_on_the_draft_is_replaced(
+        self, updated_repo, capsys, monkeypatch
+    ):
+        # An external DOI cannot publish on a new version; it must give
+        # way to a minted one.
+        client = FakeVersionClient(
+            draft_pids={
+                "doi": {"identifier": "10.59348/abcde-f0123", "provider": "external"}
+            }
+        )
+        monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
+        monkeypatch.chdir(updated_repo)
+        post = updated_repo / "_posts" / "2026-08-28-a-test-post.md"
+        rc = cli.update_main([str(post), "--token", "tok"])
+        assert rc == 0
+        assert "delete_pid" in client.calls
+        assert client.updated_record["pids"]["doi"]["identifier"] == "10.17613/mint1"
+
+    def test_resume_keeps_an_already_reserved_doi(
+        self, updated_repo, capsys, monkeypatch
+    ):
+        # A retry after a failed publish finds the reservation already on
+        # the version draft; it must not reserve again.
+        client = FakeVersionClient(
+            draft_pids={
+                "doi": {"identifier": "10.17613/prior7", "provider": "datacite"}
+            }
+        )
+        monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
+        monkeypatch.chdir(updated_repo)
+        post = updated_repo / "_posts" / "2026-08-28-a-test-post.md"
+        rc = cli.update_main([str(post), "--token", "tok"])
+        assert rc == 0
+        assert "reserve_doi" not in client.calls
+        assert client.updated_record["pids"]["doi"]["identifier"] == "10.17613/prior7"
+
+    def test_resume_skips_files_already_on_the_draft(
+        self, updated_repo, capsys, monkeypatch
+    ):
+        # A failed publish leaves a version draft with files attached; the
+        # retry must not try to upload them again.
+        client = FakeVersionClient(
+            draft_files=["2026-08-28-a-test-post.md", "2026-08-28-a-test-post.pdf"]
+        )
+        monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
+        monkeypatch.chdir(updated_repo)
+        post = updated_repo / "_posts" / "2026-08-28-a-test-post.md"
+        rc = cli.update_main([str(post), "--token", "tok"])
+        assert rc == 0
+        assert "upload" not in client.calls
+        assert "publish" in client.calls
 
     def test_fresh_deposit_is_skipped(
         self, updated_repo, capsys, monkeypatch

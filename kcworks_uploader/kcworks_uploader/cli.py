@@ -565,10 +565,11 @@ def update_post(post_path: Path, client) -> dict:
     """Publish a new version of a post's KC Works deposit with fresh files.
 
     Creates a new-version draft of the record in the post's kcworks:
-    entry, re-derives the record metadata (without re-asserting the
-    external DOI, which belongs to the original version), uploads the
-    current markdown and PDF, publishes, and returns
-    {"id", "live_url", "record"}.
+    entry, re-derives the record metadata — asking KC Works to mint a
+    managed DOI for the version, since the post's own external DOI
+    belongs to the original and cannot be reused — uploads the current
+    markdown and PDF, publishes, and returns {"id", "live_url",
+    "record"}.
     """
     post_path = Path(post_path)
     post = parse_post(post_path)
@@ -585,8 +586,36 @@ def update_post(post_path: Path, client) -> dict:
     if not url:
         raise ValueError(f"{post_path} has no kcworks: deposit to version")
     draft = client.new_version(draft_id_from_url(url))
+    # KC Works requires a DOI with a concrete identifier on every
+    # published record, and an external DOI cannot be reused across
+    # versions (the post's own DOI stays on the original) — so reserve a
+    # KC Works-minted DOI on the draft, unless a retry finds one already
+    # reserved, and carry it through every subsequent draft update.
+    pids = draft.get("pids") or {}
+    doi = pids.get("doi") or {}
+    if doi.get("identifier") and doi.get("provider") != "external":
+        record["pids"] = pids  # a prior run's reservation: keep it
+    else:
+        # Draft PUTs are lenient, so failed runs can leave a malformed or
+        # external doi pid behind; it blocks reservation until removed.
+        # Schema-only debris has no PID row, making the delete endpoint
+        # 404 — clearing pids by (lenient) PUT covers that case.
+        if doi:
+            try:
+                client.delete_draft_pid(draft["id"], "doi")
+            except KCWorksError:
+                pass
+            record["pids"] = {}
+            client.update_draft(draft["id"], record)
+        reserved = client.reserve_doi(draft["id"])
+        record["pids"] = reserved.get("pids") or {}
     client.update_draft(draft["id"], record)
-    client.upload_files(draft["id"], [post_path, pdf])
+    # A retry after a failed publish finds files already on the draft;
+    # upload only what is missing.
+    existing = {entry.get("key") for entry in client.list_draft_files(draft["id"])}
+    missing = [p for p in (post_path, pdf) if p.name not in existing]
+    if missing:
+        client.upload_files(draft["id"], missing)
     client.update_draft(draft["id"], record)
     published = client.publish_draft(draft["id"])
     return {

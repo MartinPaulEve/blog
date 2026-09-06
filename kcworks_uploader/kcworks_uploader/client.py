@@ -61,6 +61,26 @@ class KCWorksClient:
             "put", f"{self.base_url}/records/{draft_id}/draft", json=record
         )
 
+    def list_draft_files(self, draft_id: str) -> list:
+        """GET a draft's files listing; return its entries."""
+        data = self._send(
+            "get", f"{self.base_url}/records/{draft_id}/draft/files"
+        )
+        return data.get("entries", [])
+
+    def delete_draft_pid(self, draft_id: str, scheme: str = "doi") -> dict:
+        """DELETE a scheme's pid from a draft (e.g. a stale doi entry)."""
+        return self._send(
+            "delete", f"{self.base_url}/records/{draft_id}/draft/pids/{scheme}"
+        )
+
+    def reserve_doi(self, draft_id: str) -> dict:
+        """POST /records/{id}/draft/pids/doi — reserve a managed DOI;
+        return the updated draft JSON (pids.doi carries the identifier)."""
+        return self._send(
+            "post", f"{self.base_url}/records/{draft_id}/draft/pids/doi"
+        )
+
     def new_version(self, record_id: str) -> dict:
         """POST /records/{id}/versions; return the new-version draft JSON."""
         return self._send(
@@ -97,7 +117,7 @@ class KCWorksClient:
 
     @staticmethod
     def _checked(response) -> dict:
-        if response.status_code not in (200, 201, 202):
+        if response.status_code not in (200, 201, 202, 204):
             try:
                 payload = response.json()
                 detail = str(payload.get("message") or payload)
