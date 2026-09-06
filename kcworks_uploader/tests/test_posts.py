@@ -350,3 +350,46 @@ class TestDepositedRecords:
         posts = tmp_path / "_posts"
         posts.mkdir()
         assert deposited_records(posts) == []
+
+
+class TestUpdateDeposit:
+    def test_replaces_an_existing_kcworks_line(self, tmp_path):
+        from kcworks_uploader.posts import update_deposit
+
+        post = tmp_path / "2026-09-05-a-post.md"
+        post.write_text(
+            "---\ntitle: T\ndate: 2026-09-05\n"
+            "kcworks: https://works.hcommons.org/records/old11-old22\n"
+            "---\nBody.\n"
+        )
+        update_deposit(post, "https://works.hcommons.org/records/new33-new44")
+        text = post.read_text()
+        assert "kcworks: https://works.hcommons.org/records/new33-new44\n" in text
+        assert "old11-old22" not in text
+        assert text.endswith("---\nBody.\n")
+
+    def test_adds_the_line_when_absent(self, tmp_path):
+        from kcworks_uploader.posts import update_deposit
+
+        post = tmp_path / "2026-09-05-b-post.md"
+        post.write_text("---\ntitle: T\ndate: 2026-09-05\n---\nBody.\n")
+        update_deposit(post, "https://works.hcommons.org/records/new33-new44")
+        assert "kcworks: https://works.hcommons.org/records/new33-new44\n" in post.read_text()
+
+
+class TestParsePostLastModified:
+    def test_captures_last_modified_at(self, tmp_path):
+        from kcworks_uploader.posts import parse_post
+
+        post = tmp_path / "2026-09-05-c-post.md"
+        post.write_text(
+            "---\ntitle: T\ndate: 2026-09-05\nlast_modified_at: 2026-09-06\n---\nBody.\n"
+        )
+        assert parse_post(post).last_modified == "2026-09-06"
+
+    def test_absent_last_modified_is_none(self, tmp_path):
+        from kcworks_uploader.posts import parse_post
+
+        post = tmp_path / "2026-09-05-d-post.md"
+        post.write_text("---\ntitle: T\ndate: 2026-09-05\n---\nBody.\n")
+        assert parse_post(post).last_modified is None

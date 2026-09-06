@@ -8,6 +8,8 @@
 #   ./kcworks.sh deposit _posts/YYYY-MM-DD-slug.md    # draft (the default)
 #   ./kcworks.sh deposit --live _posts/YYYY-MM-DD-slug.md   # publish now
 #   ./kcworks.sh publish <uploads-url-or-record-id>   # publish a draft
+#   ./kcworks.sh update --dry-run                     # list stale deposits
+#   ./kcworks.sh update                               # new versions for them
 #   ./kcworks.sh backfill --dry-run                   # list posts not deposited
 #   ./kcworks.sh backfill                             # deposit+publish them all
 #   ./kcworks.sh collection create --title "..."      # one-time: make it
@@ -52,6 +54,9 @@ case "$cmd" in
         ;;
     backfill)
         exec uv run --env-file .env --project kcworks_uploader kcworks-backfill "$@"
+        ;;
+    update)
+        exec uv run --env-file .env --project kcworks_uploader kcworks-update "$@"
         ;;
     collection)
         exec uv run --env-file .env --project kcworks_uploader kcworks-collection "$@"

@@ -371,3 +371,17 @@ class TestUploadCollectionLogo:
         sent = session.sent[("PUT", f"{BASE}/communities/uuid-1/logo")]
         assert sent["data"] == b"\x89PNG fake image bytes"
         assert sent["headers"]["Content-Type"] == "application/octet-stream"
+
+
+class TestNewVersion:
+    def test_posts_to_the_versions_endpoint(self):
+        session = FakeSession(
+            {
+                ("POST", f"{BASE}/records/abc12/versions"): FakeResponse(
+                    201, {"id": "new34-ver56"}
+                )
+            }
+        )
+        client = KCWorksClient(BASE, "tok", session=session)
+        assert client.new_version("abc12")["id"] == "new34-ver56"
+        assert ("POST", f"{BASE}/records/abc12/versions") in session.sent

@@ -39,3 +39,28 @@ class SignpostingArchivedAtTest < Minitest::Test
     assert_equal RECORD, Signposting.archived_at("  #{RECORD}  ")
   end
 end
+
+# Behaviour tests for the last_modified_at -> dateModified normalisation:
+# absent and blank values stay absent; Date objects and ISO strings come
+# through as YYYY-MM-DD; datetime strings are truncated to the date.
+require "date"
+
+class SignpostingModifiedDateTest < Minitest::Test
+  def test_absent_and_blank_are_nil
+    assert_nil Signposting.modified_date(nil)
+    assert_nil Signposting.modified_date("")
+    assert_nil Signposting.modified_date("   ")
+  end
+
+  def test_date_object_becomes_iso_string
+    assert_equal "2026-09-06", Signposting.modified_date(Date.new(2026, 9, 6))
+  end
+
+  def test_iso_string_passes_through
+    assert_equal "2026-09-06", Signposting.modified_date("2026-09-06")
+  end
+
+  def test_datetime_string_is_truncated_to_the_date
+    assert_equal "2026-09-06", Signposting.modified_date("2026-09-06 20:28:53 +0100")
+  end
+end

@@ -21,6 +21,7 @@ from .posts import (
     pending_posts,
     post_slug,
     record_deposit,
+    update_deposit,
 )
 
 DEFAULT_BASE_URL = "https://works.hcommons.org/api"
@@ -546,6 +547,163 @@ def backfill_main(argv=None) -> int:
     if interrupted:
         return 130
     return 1 if failures or inclusion_failures else 0
+
+
+def needs_update(record: dict, last_modified: str) -> bool:
+    """Whether a deposit predates the post's last modification.
+
+    Compares dates only (the repository's updated stamp is a datetime);
+    a record whose state is unknown counts as needing an update.
+    """
+    updated = str(record.get("updated") or "")[:10]
+    if not updated:
+        return True
+    return updated < str(last_modified)[:10]
+
+
+def update_post(post_path: Path, client) -> dict:
+    """Publish a new version of a post's KC Works deposit with fresh files.
+
+    Creates a new-version draft of the record in the post's kcworks:
+    entry, re-derives the record metadata (without re-asserting the
+    external DOI, which belongs to the original version), uploads the
+    current markdown and PDF, publishes, and returns
+    {"id", "live_url", "record"}.
+    """
+    post_path = Path(post_path)
+    post = parse_post(post_path)
+    slug = post_slug(post_path)
+    pdf = find_pdf(post_path.parent.parent, slug)
+    record = build_metadata(
+        post,
+        canonical_url(slug),
+        include_doi=False,
+        pdf_filename=pdf.name,
+    )
+
+    url = _kcworks_url(post_path)
+    if not url:
+        raise ValueError(f"{post_path} has no kcworks: deposit to version")
+    draft = client.new_version(draft_id_from_url(url))
+    client.update_draft(draft["id"], record)
+    client.upload_files(draft["id"], [post_path, pdf])
+    client.update_draft(draft["id"], record)
+    published = client.publish_draft(draft["id"])
+    return {
+        "id": draft["id"],
+        "live_url": _live_url(client.base_url, draft["id"], published),
+        "record": published,
+    }
+
+
+def _kcworks_url(post_path: Path) -> str | None:
+    import yaml
+
+    from .posts import FRONT_MATTER_RE
+
+    match = FRONT_MATTER_RE.match(Path(post_path).read_text(encoding="utf-8"))
+    if not match:
+        return None
+    value = (yaml.safe_load(match.group(1)) or {}).get("kcworks")
+    return str(value) if value else None
+
+
+def update_main(argv=None) -> int:
+    """Entry point: publish new deposit versions for modified posts."""
+    parser = argparse.ArgumentParser(
+        prog="kcworks-update",
+        description=(
+            "Publish a new version of the KC Works deposit for posts whose "
+            "last_modified_at postdates the deposited record, attaching the "
+            "current markdown and PDF."
+        ),
+    )
+    parser.add_argument(
+        "posts", nargs="*", type=Path,
+        help="post files (default: every post with kcworks: and last_modified_at)",
+    )
+    parser.add_argument(
+        "--posts-dir", type=Path, default=Path("_posts"),
+        help="posts directory scanned when no posts are given",
+    )
+    parser.add_argument(
+        "--delay", type=float, default=10.0,
+        help="seconds between updates (default: 10)",
+    )
+    parser.add_argument(
+        "--log", type=Path, default=Path("kcworks-update.log"),
+        help="JSON-lines log (default: kcworks-update.log)",
+    )
+    parser.add_argument(
+        "--token",
+        default=os.environ.get(TOKEN_ENV_VAR),
+        help=f"KC Works API token (default: ${TOKEN_ENV_VAR})",
+    )
+    parser.add_argument("--base-url", default=DEFAULT_BASE_URL)
+    parser.add_argument(
+        "--dry-run", action="store_true",
+        help="list candidate posts without contacting KC Works",
+    )
+    args = parser.parse_args(argv)
+
+    candidates = []
+    paths = args.posts or sorted(Path(args.posts_dir).glob("*.md"))
+    for path in paths:
+        post = parse_post(path)
+        url = _kcworks_url(path)
+        if url and post.last_modified:
+            candidates.append((Path(path), url, post.last_modified))
+
+    if args.dry_run:
+        for path, url, modified in candidates:
+            print(f"{path.name}: modified {modified}, deposit {url}")
+        print(f"{len(candidates)} candidate post(s)")
+        return 0
+    if not candidates:
+        print("Nothing to update: no post has both kcworks: and last_modified_at.")
+        return 0
+    if not args.token:
+        print(
+            f"No API token given: pass --token or set ${TOKEN_ENV_VAR}.",
+            file=sys.stderr,
+        )
+        return 2
+
+    client = KCWorksClient(args.base_url, args.token)
+    total = len(candidates)
+    updated = skipped = 0
+    failures: list[tuple[str, str]] = []
+    for index, (path, url, modified) in enumerate(candidates, start=1):
+        entry = {"time": _utc_now(), "post": path.name}
+        try:
+            record = client.get_record(draft_id_from_url(url))
+            if not needs_update(record, modified):
+                skipped += 1
+                entry.update(status="fresh")
+                print(f"[{index}/{total}] fresh     {path.name}")
+                continue
+            result = update_post(path, client)
+        except (KCWorksError, FileNotFoundError, ValueError) as exc:
+            failures.append((path.name, str(exc)))
+            entry.update(status="failed", error=str(exc))
+            print(f"[{index}/{total}] FAILED    {path.name}: {exc}")
+        else:
+            update_deposit(path, result["live_url"])
+            updated += 1
+            entry.update(
+                status="updated", id=result["id"], live_url=result["live_url"]
+            )
+            print(f"[{index}/{total}] updated   {path.name} -> {result['live_url']}")
+        finally:
+            _append_log(args.log, entry)
+        if index < total:
+            time.sleep(args.delay)
+
+    print(f"\nDone: {updated} updated, {skipped} fresh, {len(failures)} failed")
+    if failures:
+        for name, error in failures:
+            print(f"  {name}: {error}")
+    return 1 if failures else 0
 
 
 def _utc_now() -> str:

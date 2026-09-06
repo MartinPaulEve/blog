@@ -61,6 +61,12 @@ class KCWorksClient:
             "put", f"{self.base_url}/records/{draft_id}/draft", json=record
         )
 
+    def new_version(self, record_id: str) -> dict:
+        """POST /records/{id}/versions; return the new-version draft JSON."""
+        return self._send(
+            "post", f"{self.base_url}/records/{record_id}/versions"
+        )
+
     def publish_draft(self, draft_id: str) -> dict:
         """POST the publish action for a draft; return the published record."""
         return self._send(

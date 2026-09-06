@@ -23,6 +23,7 @@ class Post:
     doi: str | None = None  # bare form, e.g. "10.59348/mjvdw-w0051"
     tags: list[str] = field(default_factory=list)
     body: str = ""
+    last_modified: str | None = None  # ISO YYYY-MM-DD
 
 
 def parse_post(path: Path) -> Post:
@@ -48,6 +49,7 @@ def parse_post(path: Path) -> Post:
         doi=_bare_doi(front_matter.get("doi")),
         tags=[str(tag) for tag in front_matter.get("tags") or []],
         body=text[match.end():],
+        last_modified=_modified_date(front_matter.get("last_modified_at")),
     )
 
 
@@ -143,6 +145,16 @@ def _bare_doi(value) -> str | None:
     return re.sub(r"\Ahttps?://(dx\.)?doi\.org/|\Adoi:", "", str(value).strip())
 
 
+def _modified_date(value) -> str | None:
+    if not value:
+        return None
+    if isinstance(value, datetime):
+        return value.date().isoformat()
+    if isinstance(value, date):
+        return value.isoformat()
+    return str(value).strip()[:10] or None
+
+
 def find_blog_root(start: Path) -> Path | None:
     """The nearest ancestor (or start) holding a _config.yml, or None."""
     start = Path(start).resolve()
@@ -192,6 +204,28 @@ def record_deposit(path: Path, url: str) -> None:
         f"{text[:insert_at]}\nkcworks: {url}{text[insert_at:]}",
         encoding="utf-8",
     )
+
+
+def update_deposit(path: Path, url: str) -> None:
+    """Point a post's kcworks: front-matter entry at url, replacing any
+    existing value (record_deposit, by contrast, leaves one alone); a
+    post without the entry gains it."""
+    path = Path(path)
+    text = path.read_text(encoding="utf-8")
+    match = FRONT_MATTER_RE.match(text)
+    if not match:
+        raise ValueError(f"{path} has no YAML front matter")
+    fm = match.group(1)
+    new_fm, count = re.subn(
+        r"^kcworks:[^\n]*$", f"kcworks: {url}", fm, count=1, flags=re.MULTILINE
+    )
+    if count:
+        path.write_text(
+            text[: match.start(1)] + new_fm + text[match.end(1):],
+            encoding="utf-8",
+        )
+    else:
+        record_deposit(path, url)
 
 
 def deposited_records(posts_dir: Path) -> list[tuple[Path, str]]:

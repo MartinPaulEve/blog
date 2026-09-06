@@ -154,3 +154,16 @@ class TestDoiAndTags:
         post.tags = []
         custom = build_metadata(post, URL)["custom_fields"]
         assert "kcr:user_defined_tags" not in custom
+
+
+class TestUpdatedDate:
+    def test_last_modified_becomes_an_updated_date_entry(self, post):
+        post.last_modified = "2026-09-06"
+        record = build_metadata(post, URL)
+        assert record["metadata"]["dates"] == [
+            {"date": "2026-09-06", "type": {"id": "updated"}}
+        ]
+
+    def test_no_last_modified_means_no_dates_key(self, post):
+        record = build_metadata(post, URL)
+        assert "dates" not in record["metadata"]

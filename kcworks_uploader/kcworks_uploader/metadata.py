@@ -56,6 +56,10 @@ def build_metadata(
     description = first_paragraph(post.body)
     if description:
         metadata["description"] = description
+    if post.last_modified:
+        metadata["dates"] = [
+            {"date": post.last_modified, "type": {"id": "updated"}}
+        ]
 
     files = {"enabled": True}
     if pdf_filename:

@@ -19,7 +19,7 @@
             {% endfor %}
         </div>
         {% endif %}
-        {% if page.date %}<p class="print-cover-date">{{ page.date | date: "%-d %B %Y" }}</p>{% endif %}
+        {% if page.date %}<p class="print-cover-date">{{ page.date | date: "%-d %B %Y" }}{% if page.last_modified_at %} (last updated {{ page.last_modified_at | date: "%-d %B %Y" }}){% endif %}</p>{% endif %}
         {% if page.image.feature %}<img class="print-cover-image" src="/images/{{ page.image.feature }}" alt="{{ page.image.title | default: page.title | escape }}">
         {% if page.image.credit %}<p class="print-cover-credit">Image: {{ page.image.title | default: page.image.credit }} ({{ page.image.credit }})</p>{% endif %}{% endif %}
     </div>

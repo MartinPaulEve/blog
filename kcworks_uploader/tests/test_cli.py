@@ -745,3 +745,114 @@ class TestCollectionMainLogo:
         )
         assert code == 1
         assert "missing.png" in capsys.readouterr().err
+
+
+UPDATED_POST_TEXT = """---
+title: "An updated post"
+date: 2026-08-28
+doi: https://doi.org/10.59348/abcde-f0123
+kcworks: https://works.hcommons.org/records/old11-old22
+last_modified_at: 2026-09-06
+---
+The opening paragraph of the post.
+"""
+
+
+class FakeVersionClient(FakeClient):
+    """FakeClient plus the record/versioning surface for update flows."""
+
+    def __init__(self, record_updated="2026-09-01T10:00:00.000000+00:00"):
+        super().__init__()
+        self.record_updated = record_updated
+
+    def get_record(self, record_id):
+        self.calls.append("get_record")
+        return {"id": record_id, "updated": self.record_updated}
+
+    def new_version(self, record_id):
+        self.calls.append("new_version")
+        self.versioned = record_id
+        return {"id": "new33-new44", "links": {}}
+
+
+class TestNeedsUpdate:
+    def test_record_older_than_post_needs_update(self):
+        assert cli.needs_update(
+            {"updated": "2026-09-01T10:00:00.000000+00:00"}, "2026-09-06"
+        ) is True
+
+    def test_record_from_the_same_day_or_later_does_not(self):
+        assert cli.needs_update(
+            {"updated": "2026-09-06T00:10:00.000000+00:00"}, "2026-09-06"
+        ) is False
+        assert cli.needs_update(
+            {"updated": "2026-10-01T00:00:00.000000+00:00"}, "2026-09-06"
+        ) is False
+
+    def test_unknown_record_state_needs_update(self):
+        assert cli.needs_update({}, "2026-09-06") is True
+
+
+class TestUpdateMain:
+    @pytest.fixture
+    def updated_repo(self, tmp_path):
+        (tmp_path / "_posts").mkdir()
+        (tmp_path / ".pdf_cache").mkdir()
+        post = tmp_path / "_posts" / "2026-08-28-a-test-post.md"
+        post.write_text(UPDATED_POST_TEXT)
+        (tmp_path / ".pdf_cache" / "2026-08-28-a-test-post.pdf").write_bytes(
+            b"%PDF-1.4"
+        )
+        return tmp_path
+
+    def test_stale_deposit_gets_a_new_published_version(
+        self, updated_repo, capsys, monkeypatch
+    ):
+        client = FakeVersionClient()
+        monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
+        monkeypatch.chdir(updated_repo)
+        post = updated_repo / "_posts" / "2026-08-28-a-test-post.md"
+        rc = cli.update_main([str(post), "--token", "tok"])
+        assert rc == 0
+        assert "new_version" in client.calls
+        assert "publish" in client.calls
+        text = post.read_text()
+        assert "kcworks: https://works.hcommons.org/records/new33-new44\n" in text
+        assert "old11-old22" not in text
+
+    def test_fresh_deposit_is_skipped(
+        self, updated_repo, capsys, monkeypatch
+    ):
+        client = FakeVersionClient(record_updated="2026-09-07T00:00:00+00:00")
+        monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
+        monkeypatch.chdir(updated_repo)
+        post = updated_repo / "_posts" / "2026-08-28-a-test-post.md"
+        before = post.read_text()
+        rc = cli.update_main([str(post), "--token", "tok"])
+        assert rc == 0
+        assert "new_version" not in client.calls
+        assert post.read_text() == before
+
+    def test_dry_run_contacts_nothing_and_changes_nothing(
+        self, updated_repo, capsys, monkeypatch
+    ):
+        client = FakeVersionClient()
+        monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
+        monkeypatch.chdir(updated_repo)
+        post = updated_repo / "_posts" / "2026-08-28-a-test-post.md"
+        before = post.read_text()
+        rc = cli.update_main([str(post), "--token", "tok", "--dry-run"])
+        assert rc == 0
+        assert client.calls == []
+        assert post.read_text() == before
+
+    def test_post_without_kcworks_or_lastmod_is_skipped(
+        self, repo, capsys, monkeypatch
+    ):
+        client = FakeVersionClient()
+        monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
+        monkeypatch.chdir(repo)
+        post = repo / "_posts" / "2026-08-28-a-test-post.md"
+        rc = cli.update_main([str(post), "--token", "tok"])
+        assert rc == 0
+        assert client.calls == []

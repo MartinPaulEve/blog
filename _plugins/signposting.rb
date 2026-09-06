@@ -114,6 +114,14 @@ module Signposting
         .sub(%r{\Adoi:}i, "")
   end
 
+  # A front-matter last_modified_at value as a YYYY-MM-DD string, or nil.
+  def self.modified_date(value)
+    text = value.to_s.strip
+    return nil if text.empty?
+
+    text[0, 10]
+  end
+
   # True when the (possibly prefixed) string is a DOI.
   def self.doi?(text)
     normalize_doi(text).match?(/\A#{DOI_PATTERN}\z/)
@@ -659,6 +667,9 @@ module Jekyll
       }
       if doc.respond_to?(:date) && doc.date
         data["datePublished"] = doc.date.strftime("%Y-%m-%d")
+      end
+      if (modified = Signposting.modified_date(doc.data["last_modified_at"]))
+        data["dateModified"] = modified
       end
       data["identifier"] = doc.data["doi"] if doc.data["doi"]
       # A repository deposit of this post (front-matter `kcworks:`), e.g. on
