@@ -160,4 +160,10 @@ def main(argv=None):
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    try:
+        sys.exit(main())
+    except KeyboardInterrupt:
+        # A polite exit under Ctrl+C (the deploy pipeline polls through
+        # this entry point): no traceback, just the conventional 130.
+        print("interrupted", file=sys.stderr)
+        sys.exit(130)

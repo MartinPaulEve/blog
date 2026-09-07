@@ -53,7 +53,13 @@ def find_root(start: Path) -> Path:
     is_flag=True,
     help="With --build-only: skip the preview server after the build.",
 )
-def main(message, no_resize, yes, root, build_only, no_server):
+@click.option(
+    "--no-rs-wait",
+    is_flag=True,
+    help="Skip waiting for Rogue Scholar to harvest new posts after the "
+    "rsync (the next deploy stamps their links instead).",
+)
+def main(message, no_resize, yes, root, build_only, no_server, no_rs_wait):
     """Build, publish and deploy the eve.gd blog."""
     print_banner()
 
@@ -96,6 +102,7 @@ def main(message, no_resize, yes, root, build_only, no_server):
             resize=not no_resize,
             confirm=confirm,
             echo=click.echo,
+            wait_roguescholar=not no_rs_wait,
         )
     except DeployError as exc:
         raise click.ClickException(str(exc)) from exc

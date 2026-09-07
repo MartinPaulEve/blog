@@ -17,9 +17,11 @@ def blog_root(tmp_path):
 def deploy_spy(monkeypatch):
     seen = {}
 
-    def fake_deploy(root, message, resize=True, confirm=None, echo=None):
+    def fake_deploy(root, message, resize=True, confirm=None, echo=None,
+                    wait_roguescholar=True):
         seen.update(
-            root=root, message=message, resize=resize, confirm=confirm
+            root=root, message=message, resize=resize, confirm=confirm,
+            wait_roguescholar=wait_roguescholar,
         )
         return True
 
@@ -84,6 +86,16 @@ class TestMain:
             main, ["--root", str(blog_root), "--yes", "--no-resize"]
         )
         assert deploy_spy["resize"] is False
+
+    def test_rs_wait_is_on_by_default(self, blog_root, deploy_spy):
+        CliRunner().invoke(
+            main, ["--root", str(blog_root), "--yes", "msg"])
+        assert deploy_spy["wait_roguescholar"] is True
+
+    def test_no_rs_wait_flag_disables_the_wait(self, blog_root, deploy_spy):
+        CliRunner().invoke(
+            main, ["--root", str(blog_root), "--yes", "--no-rs-wait", "msg"])
+        assert deploy_spy["wait_roguescholar"] is False
 
     def test_yes_flag_confirms_without_prompting(self, blog_root, deploy_spy):
         CliRunner().invoke(main, ["--root", str(blog_root), "--yes"])

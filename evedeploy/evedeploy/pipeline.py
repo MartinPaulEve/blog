@@ -3,9 +3,14 @@
 Order of operations (faithful to the shell script):
 resize covers → sequoia dry-run → confirmation gate → sequoia publish →
 refresh CV from ../eprintsToCV → fetch webmentions (so the build renders
-fresh mentions) → jekyll build → git commit + push → rsync the built _site
-to the server → send outbound webmentions (receivers verify the live source
-page, so this must follow the rsync) → commit the sent-webmentions ledger.
+fresh mentions) → fetch Last.fm stats (so the sidebar widget renders fresh
+listening data) → stamp pending Rogue Scholar links from earlier deploys →
+jekyll build → deposit new posts to KC Works and rebuild so their record
+links render → git commit + push → rsync the built _site to the server →
+send outbound webmentions (receivers verify the live source page, so this
+must follow the rsync) → commit the sent-webmentions ledger → wait for
+Rogue Scholar to harvest the new posts, then stamp, rebuild, commit and
+rsync once more (folding the old "second deploy" into this run).
 
 Every step takes an injectable ``run`` callable (subprocess.run-shaped) so
 the pipeline is unit-testable without touching the real system.
@@ -13,6 +18,7 @@ the pipeline is unit-testable without touching the real system.
 
 from __future__ import annotations
 
+import re
 import shutil
 import subprocess
 from pathlib import Path
@@ -21,6 +27,10 @@ RSYNC_TARGET = "evegd@reclaim:/home/evegd/blog/_site/"
 CV_SOURCE_DIR = Path("../eprintsToCV/output")
 MIN_NODE_MAJOR = 19
 PREVIEW_PORT = 8000
+RS_FETCHER = "_identifiers/fetch_roguescholar.py"
+# Post-rsync harvest wait: 6 attempts, 5 sleeps of 120s = a 10-minute budget.
+RS_WAIT_ATTEMPTS = 6
+RS_WAIT_INTERVAL = 120.0
 
 
 class DeployError(RuntimeError):
@@ -124,6 +134,68 @@ def jekyll_build(root: Path, run=default_run) -> None:
     _step(run, ["jekyll", "build"], name="jekyll build", cwd=root)
 
 
+def posts_missing_marker(root: Path, marker: str) -> list:
+    """Relative paths of _posts entries whose front matter lacks ``marker``."""
+    posts_dir = Path(root) / "_posts"
+    if not posts_dir.is_dir():
+        return []
+    missing = []
+    for path in sorted(posts_dir.glob("*.md")):
+        text = path.read_text(encoding="utf-8")
+        match = re.match(r"^---\s*\n(.*?)\n---\s*\n", text, re.DOTALL)
+        front = match.group(1) if match else ""
+        if not any(line.startswith(marker) for line in front.splitlines()):
+            missing.append(f"_posts/{path.name}")
+    return missing
+
+
+def stamp_roguescholar_ids(root: Path, pending, run=default_run, echo=print,
+                           attempts: int = 1,
+                           interval: float = RS_WAIT_INTERVAL,
+                           present=None) -> list:
+    """Stamp Rogue Scholar links into pending posts; returns those stamped.
+
+    Runs the _identifiers fetcher, which matches the posts against the
+    Rogue Scholar community records and writes ``roguescholar:`` front
+    matter for any that have been harvested. A non-zero exit just means
+    some posts have no record yet (Rogue Scholar pulls the feed on its own
+    cycle), so the call is never allowed to fail the deploy.
+    """
+    root = Path(root)
+    exists = present or (lambda relative: (root / relative).is_file())
+    if not pending or not exists(RS_FETCHER):
+        return []
+    cmd = ["uv", "run", "--with", "pyyaml", "--with", "certifi", RS_FETCHER]
+    if attempts > 1:
+        cmd += ["--attempts", str(attempts), "--interval", str(int(interval))]
+    run(cmd + list(pending), cwd=root, check=False)
+    still = set(posts_missing_marker(root, "roguescholar:"))
+    return [post for post in pending if post not in still]
+
+
+def kcworks_deposit_new(root: Path, run=default_run, echo=print,
+                        present=None) -> list:
+    """Deposit posts new to KC Works; returns those stamped with a record.
+
+    Wraps ``./kcworks.sh backfill``, which deposits and publishes every
+    post without a ``kcworks:`` front-matter record (attaching the built
+    PDF, so this must run after the jekyll build) and stamps the record
+    URL back into the post. Tolerant: a KC Works outage must never block
+    a deploy — undeposited posts are picked up by the next run.
+    """
+    root = Path(root)
+    exists = present or (lambda relative: (root / relative).is_file())
+    pending = posts_missing_marker(root, "kcworks:")
+    if not pending or not exists("kcworks.sh"):
+        return []
+    try:
+        run(["./kcworks.sh", "backfill"], cwd=root)
+    except subprocess.CalledProcessError:
+        echo("ERROR: KC Works deposit failed; the next deploy will retry.")
+    still = set(posts_missing_marker(root, "kcworks:"))
+    return [post for post in pending if post not in still]
+
+
 def git_commit_push(root: Path, message: str, run=default_run) -> bool:
     """Stage everything; commit and push if there is anything to commit.
 
@@ -140,11 +212,11 @@ def git_commit_push(root: Path, message: str, run=default_run) -> bool:
 
 def _webmention_step(root: Path, script: str, warning: str,
                      run=default_run, echo=print, present=None) -> bool:
-    """Run one of the webmention scripts as a tolerant pipeline step.
+    """Run a data-fetch script as a tolerant pipeline step.
 
     Returns True when the script ran cleanly, False when it was skipped (no
-    script in this checkout) or failed — a webmention.io outage or a flaky
-    receiver must never block a deploy.
+    script in this checkout) or failed — an API outage (webmention.io, the
+    Last.fm API) or a flaky receiver must never block a deploy.
     """
     root = Path(root)
     exists = present or (lambda relative: (root / relative).is_file())
@@ -152,7 +224,7 @@ def _webmention_step(root: Path, script: str, warning: str,
         return False
     cmd = ["uv", "run"]
     if (root / ".env").is_file():
-        cmd += ["--env-file", ".env"]  # carries WEBMENTION_IO_TOKEN
+        cmd += ["--env-file", ".env"]  # carries the API tokens
     try:
         run(cmd + [script], cwd=root)
     except subprocess.CalledProcessError:
@@ -166,6 +238,14 @@ def fetch_webmentions(root: Path, run=default_run, echo=print, present=None) -> 
     return _webmention_step(
         root, "_webmentions/fetch_webmentions.py",
         "WARNING: webmention fetch failed; building with existing data.",
+        run=run, echo=echo, present=present)
+
+
+def fetch_lastfm(root: Path, run=default_run, echo=print, present=None) -> bool:
+    """Pull Last.fm listening stats into _data before the build; tolerant step."""
+    return _webmention_step(
+        root, "_lastfm/fetch_lastfm.py",
+        "ERROR: Last.fm fetch failed; building with existing data.",
         run=run, echo=echo, present=present)
 
 
@@ -277,11 +357,15 @@ def deploy(
     run=default_run,
     echo=print,
     which=shutil.which,
+    wait_roguescholar: bool = True,
 ) -> bool:
     """Run the whole pipeline; returns True on deploy, False when aborted.
 
     ``confirm`` is called (no arguments) after the sequoia dry run; a falsy
-    return aborts with nothing published.
+    return aborts with nothing published. ``wait_roguescholar`` controls the
+    tail: after the site is live, poll Rogue Scholar for the records of any
+    posts deposited this run, and fold the stamp/rebuild/rsync that used to
+    need a second deploy into this one.
     """
     root = Path(root)
     check_preflight(run=run, which=which)
@@ -314,8 +398,34 @@ def deploy(
     if not fetch_webmentions(root, run=run, echo=echo):
         echo("    (skipped or failed; continuing)")
 
+    echo("==> Fetching Last.fm stats")
+    if not fetch_lastfm(root, run=run, echo=echo):
+        echo("    (skipped or failed; continuing)")
+
+    # Posts from earlier deploys whose Rogue Scholar record has appeared
+    # since get their link now, so this build renders it — the self-healing
+    # half of avoiding a second deploy run.
+    echo("==> Stamping pending Rogue Scholar links")
+    swept = stamp_roguescholar_ids(
+        root, posts_missing_marker(root, "roguescholar:"), run=run, echo=echo)
+    if swept:
+        echo(f"    stamped {len(swept)} post(s)")
+    else:
+        echo("    (none pending or not yet harvested)")
+
     echo("==> Building site")
     jekyll_build(root, run=run)
+
+    # The deposit attaches the PDF from the build above; the stamp it
+    # writes back then needs one more (cache-warm) build so the KC Works
+    # link is in the HTML before the rsync.
+    echo("==> Depositing new posts to KC Works")
+    deposited = kcworks_deposit_new(root, run=run, echo=echo)
+    if deposited:
+        echo("==> Rebuilding with the new KC Works links")
+        jekyll_build(root, run=run)
+    else:
+        echo("    (no new posts)")
 
     echo("==> Committing and pushing")
     if not git_commit_push(root, message, run=run):
@@ -330,6 +440,37 @@ def deploy(
         echo("    (skipped or failed; continuing)")
     if commit_sent_state(root, run=run):
         echo("    sent-webmentions ledger committed")
+
+    # The other half: Rogue Scholar can only harvest the post once it is
+    # live, so poll for the record now and ship the stamped link in the
+    # same run. Bounded; giving up is fine — the pre-build sweep above
+    # picks the link up on the next deploy.
+    if wait_roguescholar:
+        fresh = set(posts_missing_marker(root, "roguescholar:"))
+        fresh = [post for post in deposited if post in fresh]
+        if fresh:
+            echo("==> Waiting for Rogue Scholar to harvest the new post(s) "
+                 "— up to 10 minutes; Ctrl+C stops the wait (the site is "
+                 "already live)")
+            try:
+                stamped = stamp_roguescholar_ids(
+                    root, fresh, run=run, echo=echo,
+                    attempts=RS_WAIT_ATTEMPTS, interval=RS_WAIT_INTERVAL)
+                if not stamped:
+                    echo("    not harvested in time; the next deploy picks "
+                         "the links up automatically")
+            except KeyboardInterrupt:
+                stamped = []
+                echo("    wait interrupted; the next deploy picks the links "
+                     "up automatically")
+            if stamped:
+                echo("==> Redeploying with the Rogue Scholar links")
+                jekyll_build(root, run=run)
+                git_commit_push(
+                    root,
+                    "chore(identifiers): stamp Rogue Scholar record links",
+                    run=run)
+                rsync_site(root, run=run)
 
     echo("==> Done.")
     return True

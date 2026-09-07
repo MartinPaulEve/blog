@@ -8,14 +8,18 @@ from evedeploy.pipeline import (
     check_preflight,
     commit_sent_state,
     deploy,
+    fetch_lastfm,
     fetch_webmentions,
     git_commit_push,
     jekyll_build,
+    kcworks_deposit_new,
+    posts_missing_marker,
     refresh_cv,
     resize_covers,
     rsync_site,
     send_webmentions,
     serve_site,
+    stamp_roguescholar_ids,
 )
 
 
@@ -56,8 +60,43 @@ def root(tmp_path):
     (blog / "_webmentions").mkdir()
     (blog / "_webmentions" / "fetch_webmentions.py").write_text("# fetcher")
     (blog / "_webmentions" / "send_webmentions.py").write_text("# sender")
+    (blog / "_lastfm").mkdir()
+    (blog / "_lastfm" / "fetch_lastfm.py").write_text("# lastfm fetcher")
+    (blog / "_identifiers").mkdir()
+    (blog / "_identifiers" / "fetch_roguescholar.py").write_text("# rs fetcher")
+    (blog / "kcworks.sh").write_text("# kcworks driver")
     (blog / ".env").write_text("WEBMENTION_IO_TOKEN=test-token")
     return blog
+
+
+def make_post(root, name, *markers):
+    """A minimal _posts entry carrying the given front-matter lines."""
+    posts = root / "_posts"
+    posts.mkdir(exist_ok=True)
+    front = "".join(f"{marker}\n" for marker in markers)
+    (posts / name).write_text(f"---\ntitle: x\n{front}---\nbody\n")
+
+
+def stamp_post(root, name, marker):
+    """Insert a front-matter line, as the stamping tools would."""
+    path = root / "_posts" / name
+    path.write_text(path.read_text().replace(
+        "---\nbody", f"{marker}\n---\nbody"))
+
+
+def stamping(inner, root, trigger, name, marker, once=False):
+    """Wrap a run callable: stamp the post when a matching command runs."""
+    state = {"done": False}
+
+    def run(cmd, cwd=None, check=True, capture=False):
+        result = inner(cmd, cwd=cwd, check=check, capture=capture)
+        if trigger(cmd) and not (once and state["done"]):
+            stamp_post(root, name, marker)
+            state["done"] = True
+        return result
+
+    run.inner = inner
+    return run
 
 
 class TestPreflight:
@@ -184,6 +223,145 @@ class TestFetchWebmentions:
         run = FakeRun()
         assert fetch_webmentions(root, run=run, echo=lambda *a, **k: None,
                                  present=lambda p: False) is False
+        assert run.calls == []
+
+
+class TestFetchLastfm:
+    def test_runs_the_fetch_script_through_uv_with_env_file(self, root):
+        run = FakeRun()
+        assert fetch_lastfm(root, run=run, echo=lambda *a, **k: None) is True
+        assert run.calls[0]["cmd"] == [
+            "uv",
+            "run",
+            "--env-file",
+            ".env",
+            "_lastfm/fetch_lastfm.py",
+        ]
+        assert run.calls[0]["cwd"] == root
+
+    def test_failure_warns_but_does_not_raise(self, root):
+        run = FakeRun({"uv run": 1})
+        lines = []
+        assert fetch_lastfm(root, run=run, echo=lines.append) is False
+        assert any("last.fm" in line.lower() for line in lines)
+
+    def test_failure_is_reported_as_an_error(self, root):
+        # The step is tolerant, but the failure must be unmissable in the
+        # deploy output — a warning proved too quiet in practice.
+        run = FakeRun({"uv run": 1})
+        lines = []
+        fetch_lastfm(root, run=run, echo=lines.append)
+        assert any("error" in line.lower() for line in lines)
+
+    def test_skipped_when_script_absent(self, root):
+        # A checkout without the Last.fm tooling deploys as before.
+        run = FakeRun()
+        assert fetch_lastfm(root, run=run, echo=lambda *a, **k: None,
+                            present=lambda p: False) is False
+        assert run.calls == []
+
+
+class TestPostsMissingMarker:
+    def test_lists_posts_lacking_the_marker(self, root):
+        make_post(root, "2026-01-01-a.md")
+        make_post(root, "2026-01-02-b.md", "kcworks: https://works/x")
+        assert posts_missing_marker(root, "kcworks:") == [
+            "_posts/2026-01-01-a.md"]
+
+    def test_marker_in_the_body_does_not_count(self, root):
+        make_post(root, "2026-01-01-a.md")
+        path = root / "_posts" / "2026-01-01-a.md"
+        path.write_text(path.read_text() + "kcworks: mentioned in prose\n")
+        assert posts_missing_marker(root, "kcworks:") == [
+            "_posts/2026-01-01-a.md"]
+
+    def test_no_posts_directory_is_empty(self, tmp_path):
+        assert posts_missing_marker(tmp_path, "kcworks:") == []
+
+
+class TestStampRoguescholarIds:
+    def test_runs_the_fetcher_over_the_pending_posts(self, root):
+        make_post(root, "2026-01-01-a.md", "kcworks: k")
+        run = FakeRun()
+        stamp_roguescholar_ids(root, ["_posts/2026-01-01-a.md"], run=run,
+                               echo=lambda *a, **k: None)
+        assert run.calls[0]["cmd"] == [
+            "uv", "run", "--with", "pyyaml", "--with", "certifi",
+            "_identifiers/fetch_roguescholar.py", "_posts/2026-01-01-a.md",
+        ]
+        assert run.calls[0]["cwd"] == root
+        # Exit 1 just means "not harvested yet" and must not raise.
+        assert run.calls[0]["check"] is False
+
+    def test_polling_arguments_are_passed_when_waiting(self, root):
+        make_post(root, "2026-01-01-a.md")
+        run = FakeRun()
+        stamp_roguescholar_ids(root, ["_posts/2026-01-01-a.md"], run=run,
+                               echo=lambda *a, **k: None,
+                               attempts=8, interval=120.0)
+        cmd = run.calls[0]["cmd"]
+        assert "--attempts" in cmd and "8" in cmd
+        assert "--interval" in cmd and "120" in cmd
+
+    def test_returns_the_posts_the_fetcher_stamped(self, root):
+        make_post(root, "2026-01-01-a.md")
+        make_post(root, "2026-01-02-b.md")
+        run = stamping(FakeRun(), root,
+                       lambda cmd: "fetch_roguescholar" in " ".join(cmd),
+                       "2026-01-01-a.md", "roguescholar: https://rs/x")
+        stamped = stamp_roguescholar_ids(
+            root, ["_posts/2026-01-01-a.md", "_posts/2026-01-02-b.md"],
+            run=run, echo=lambda *a, **k: None)
+        assert stamped == ["_posts/2026-01-01-a.md"]
+
+    def test_nothing_pending_runs_nothing(self, root):
+        run = FakeRun()
+        assert stamp_roguescholar_ids(root, [], run=run,
+                                      echo=lambda *a, **k: None) == []
+        assert run.calls == []
+
+    def test_skipped_when_fetcher_absent(self, root):
+        make_post(root, "2026-01-01-a.md")
+        run = FakeRun()
+        assert stamp_roguescholar_ids(root, ["_posts/2026-01-01-a.md"],
+                                      run=run, echo=lambda *a, **k: None,
+                                      present=lambda p: False) == []
+        assert run.calls == []
+
+
+class TestKcworksDepositNew:
+    def test_deposits_pending_posts_through_the_driver(self, root):
+        make_post(root, "2026-01-01-a.md")
+        run = stamping(FakeRun(), root,
+                       lambda cmd: cmd[0] == "./kcworks.sh",
+                       "2026-01-01-a.md", "kcworks: https://works/x")
+        stamped = kcworks_deposit_new(root, run=run,
+                                      echo=lambda *a, **k: None)
+        assert stamped == ["_posts/2026-01-01-a.md"]
+        assert run.inner.calls[0]["cmd"] == ["./kcworks.sh", "backfill"]
+        assert run.inner.calls[0]["cwd"] == root
+
+    def test_nothing_pending_runs_nothing(self, root):
+        make_post(root, "2026-01-01-a.md", "kcworks: k")
+        run = FakeRun()
+        assert kcworks_deposit_new(root, run=run,
+                                   echo=lambda *a, **k: None) == []
+        assert run.calls == []
+
+    def test_failure_is_reported_as_an_error_and_does_not_raise(self, root):
+        make_post(root, "2026-01-01-a.md")
+        run = FakeRun({"./kcworks.sh backfill": 1})
+        lines = []
+        assert kcworks_deposit_new(root, run=run, echo=lines.append) == []
+        assert any("error" in line.lower() for line in lines)
+        assert any("kc works" in line.lower() for line in lines)
+
+    def test_skipped_when_driver_absent(self, root):
+        make_post(root, "2026-01-01-a.md")
+        run = FakeRun()
+        assert kcworks_deposit_new(root, run=run,
+                                   echo=lambda *a, **k: None,
+                                   present=lambda p: False) == []
         assert run.calls == []
 
 
@@ -377,13 +555,16 @@ class TestDeploy:
         assert result is True
         commands = run.commands()
         # resize, dry run, publish, fetch webmentions (so the build renders
-        # fresh mentions), build, git, rsync, THEN send webmentions (their
-        # receivers verify the live source page) and commit the sent state.
+        # fresh mentions), fetch Last.fm stats (so the sidebar widget renders
+        # fresh listening data), build, git, rsync, THEN send webmentions
+        # (their receivers verify the live source page) and commit the sent
+        # state.
         expected_order = [
             "uv run",  # resize covers
             "sequoia publish",  # dry run
             "sequoia publish",  # real publish
             "uv run",  # fetch webmentions
+            "uv run",  # fetch Last.fm stats
             "jekyll build",
             "git add",
             "git diff",
@@ -403,9 +584,134 @@ class TestDeploy:
             cursor += 1
         assert positions == sorted(positions)
 
+    def test_deploy_fetches_lastfm_stats_before_the_build(self, root):
+        run = FakeRun({"git diff": 1})
+        deploy(**self.deploy_kwargs(root, run))
+        scripts = [call["cmd"][-1] for call in run.calls
+                   if call["cmd"][:2] == ["uv", "run"]]
+        assert "_lastfm/fetch_lastfm.py" in scripts
+        lastfm_at = next(i for i, call in enumerate(run.calls)
+                         if call["cmd"][-1] == "_lastfm/fetch_lastfm.py")
+        build_at = next(i for i, call in enumerate(run.calls)
+                        if call["cmd"][:2] == ["jekyll", "build"])
+        assert lastfm_at < build_at
+
+    def test_new_post_is_deposited_after_the_build_and_rendered_by_a_second(
+            self, root):
+        # The deposit needs the built PDF, and the built pages need the
+        # freshly stamped kcworks: link — so build, deposit, build again.
+        make_post(root, "2026-09-08-new.md", "roguescholar: r")
+        run = stamping(FakeRun({"git diff": 1}), root,
+                       lambda cmd: cmd[0] == "./kcworks.sh",
+                       "2026-09-08-new.md", "kcworks: https://works/x")
+        assert deploy(**self.deploy_kwargs(root, run)) is True
+        commands = run.inner.commands()
+        deposit_at = commands.index("./kcworks.sh backfill")
+        builds = [i for i, c in enumerate(commands) if c == "jekyll build"]
+        assert len(builds) == 2
+        assert builds[0] < deposit_at < builds[1]
+        assert builds[1] < commands.index("rsync -avz")
+
+    def test_no_new_posts_means_one_build_and_no_deposit(self, root):
+        make_post(root, "2026-01-01-old.md", "kcworks: k", "roguescholar: r")
+        run = FakeRun({"git diff": 1})
+        assert deploy(**self.deploy_kwargs(root, run)) is True
+        commands = run.commands()
+        assert "./kcworks.sh backfill" not in commands
+        assert commands.count("jekyll build") == 1
+
+    def test_pending_roguescholar_links_are_stamped_before_the_build(
+            self, root):
+        # A post published in an earlier deploy picks its link up at the
+        # start of the next one — no dedicated second deploy run needed.
+        make_post(root, "2026-01-01-old.md", "kcworks: k")
+        run = stamping(FakeRun({"git diff": 1}), root,
+                       lambda cmd: "fetch_roguescholar" in " ".join(cmd),
+                       "2026-01-01-old.md", "roguescholar: https://rs/x")
+        assert deploy(**self.deploy_kwargs(root, run)) is True
+        commands = run.inner.commands()
+        fetch_at = next(
+            i for i, call in enumerate(run.inner.calls)
+            if "fetch_roguescholar" in " ".join(call["cmd"]))
+        assert fetch_at < commands.index("jekyll build")
+        assert commands.count("jekyll build") == 1
+
+    def test_deploy_waits_for_roguescholar_then_redeploys_the_links(
+            self, root):
+        # The tail: a brand-new post goes live in the rsync, Rogue Scholar
+        # harvests it, and the same deploy run stamps, rebuilds, commits and
+        # rsyncs again — the "second deployment" folded into one command.
+        make_post(root, "2026-09-08-new.md")
+        inner = FakeRun({"git diff": 1})
+        with_kc = stamping(inner, root,
+                           lambda cmd: cmd[0] == "./kcworks.sh",
+                           "2026-09-08-new.md", "kcworks: https://works/x")
+        with_rs = stamping(with_kc, root,
+                           lambda cmd: "--attempts" in cmd,
+                           "2026-09-08-new.md", "roguescholar: https://rs/x")
+        with_rs.inner = inner
+        assert deploy(**self.deploy_kwargs(root, with_rs)) is True
+        commands = inner.commands()
+        assert commands.count("jekyll build") == 3
+        assert commands.count("rsync -avz") == 2
+        poll_at = next(
+            i for i, call in enumerate(inner.calls)
+            if "--attempts" in call["cmd"])
+        first_rsync = commands.index("rsync -avz")
+        assert poll_at > first_rsync
+        assert commands.index("rsync -avz", first_rsync + 1) > poll_at
+
+    def test_wait_roguescholar_false_skips_the_tail(self, root):
+        make_post(root, "2026-09-08-new.md")
+        run = stamping(FakeRun({"git diff": 1}), root,
+                       lambda cmd: cmd[0] == "./kcworks.sh",
+                       "2026-09-08-new.md", "kcworks: https://works/x")
+        kwargs = self.deploy_kwargs(root, run)
+        kwargs["wait_roguescholar"] = False
+        assert deploy(**kwargs) is True
+        assert not any("--attempts" in call["cmd"]
+                       for call in run.inner.calls)
+        assert run.inner.commands().count("rsync -avz") == 1
+
+    def test_roguescholar_wait_budget_is_at_most_ten_minutes(self):
+        from evedeploy.pipeline import RS_WAIT_ATTEMPTS, RS_WAIT_INTERVAL
+        assert (RS_WAIT_ATTEMPTS - 1) * RS_WAIT_INTERVAL <= 600
+
+    def test_interrupting_the_wait_finishes_the_deploy_cleanly(self, root):
+        # Ctrl+C during the Rogue Scholar wait must not crash or redeploy:
+        # the site is already live, so the deploy ends normally and the
+        # pre-build sweep picks the links up next time.
+        make_post(root, "2026-09-08-new.md")
+        inner = FakeRun({"git diff": 1})
+        with_kc = stamping(inner, root,
+                           lambda cmd: cmd[0] == "./kcworks.sh",
+                           "2026-09-08-new.md", "kcworks: https://works/x")
+
+        def run(cmd, cwd=None, check=True, capture=False):
+            if "--attempts" in cmd:
+                raise KeyboardInterrupt
+            return with_kc(cmd, cwd=cwd, check=check, capture=capture)
+
+        assert deploy(**self.deploy_kwargs(root, run)) is True
+        commands = inner.commands()
+        assert commands.count("rsync -avz") == 1
+        assert commands.count("jekyll build") == 2
+
+    def test_unharvested_roguescholar_gives_up_without_a_second_rsync(
+            self, root):
+        make_post(root, "2026-09-08-new.md")
+        run = stamping(FakeRun({"git diff": 1}), root,
+                       lambda cmd: cmd[0] == "./kcworks.sh",
+                       "2026-09-08-new.md", "kcworks: https://works/x")
+        assert deploy(**self.deploy_kwargs(root, run)) is True
+        commands = run.inner.commands()
+        assert commands.count("rsync -avz") == 1
+        assert commands.count("jekyll build") == 2
+
     def test_webmention_failures_do_not_abort_the_deploy(self, root):
         # With cover resize disabled, the only "uv run" commands left are the
-        # webmention fetch and send; both failing must still deploy the site.
+        # webmention fetch/send and the Last.fm fetch; all of them failing
+        # must still deploy the site.
         run = FakeRun({"uv run": 1})
         kwargs = self.deploy_kwargs(root, run)
         kwargs["resize"] = False
