@@ -15,11 +15,15 @@
 <main id="main">
     <!-- Masthead -->
     <section class="masthead">
-        <div class="container masthead-inner">
+        {% comment %} The masthead doubles as the site's representative h-card:
+        u-url/u-uid match the page URL, so mf2 parsers resolve it as the
+        canonical card for eve.gd. Hidden properties are still parsed. {% endcomment %}
+        <div class="container masthead-inner h-card">
             <div class="masthead-text">
                 <span class="eyebrow">Literature &times; Technology &times; Publishing</span>
-                <h1 class="masthead-name">Martin Paul <span class="lastname">Eve</span></h1>
-                <p class="masthead-role">Professor of Literature, Technology and Publishing at <strong>Birkbeck, University of London</strong>, and Associate Director of Knowledge Commons at <strong>Michigan State University</strong>.</p>
+                <h1 class="masthead-name p-name">Martin Paul <span class="lastname">Eve</span></h1>
+                <p class="masthead-role p-note">Professor of Literature, Technology and Publishing at <strong>Birkbeck, University of London</strong>, and Associate Director of Knowledge Commons at <strong>Michigan State University</strong>.</p>
+                <a class="u-url u-uid" href="{{ site.url }}/" hidden>eve.gd</a>
                 <div class="masthead-actions">
                     <a href="/about/" class="btn-bold">Publications</a>
                     <a href="/posts/" class="btn-ghost">Writing</a>
@@ -27,7 +31,7 @@
                 </div>
             </div>
             <div class="masthead-portrait">
-                <img src="/images/mpe.png" alt="Portrait photograph of Martin Paul Eve">
+                <img class="u-photo" src="/images/mpe.png" alt="Portrait photograph of Martin Paul Eve">
             </div>
         </div>
     </section>
@@ -40,7 +44,7 @@
                     <span class="stories-kicker">From the blog</span>
                     <h2 class="stories-title">Recent writing</h2>
                 </div>
-                <a href="/posts/" class="stories-link">All posts <span aria-hidden="true">&rarr;</span></a>
+                <a href="/posts/" class="stories-link" rel="feed">All posts <span aria-hidden="true">&rarr;</span></a>
             </div>
 
             {% assign lead = site.posts | first %}

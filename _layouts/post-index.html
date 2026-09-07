@@ -15,11 +15,15 @@
 
 <main id="main">
     <!-- Blog Post Header -->
-    <article class="blog-post-list">
+    {% comment %} The archive is the site's h-feed; the hidden p-author card
+    supplies authorship for every child h-entry via the mf2 authorship
+    algorithm. Hidden properties are still parsed. {% endcomment %}
+    <article class="blog-post-list h-feed">
         <div class="post-header">
             <div class="container">
-                <h1 class="post-title">{{ page.title }}</h1>
+                <h1 class="post-title p-name">{{ page.title }}</h1>
                 <p class="post-description archive-browse"><a href="/categories/">Browse by category &rarr;</a></p>
+                <a class="p-author h-card" href="https://eve.gd/" hidden><img class="u-photo" src="/images/mpe.png" alt="">Martin Paul Eve</a>
             </div>
         </div>
 
@@ -39,14 +43,19 @@
                     <h2 class="archive-year">{{ post.date | date: '%Y' }}</h2>
                     {% endif %}
                     {% endunless %}
-                    <article>
+                    {% comment %} Link posts point their visible title at the
+                    external link, so the canonical u-url rides along hidden;
+                    dt-published parses from the datetime attribute alone. {% endcomment %}
+                    <article class="h-entry">
                         {% if post.link %}
-                        <h3 class="archive-title"><a href="{{ post.link }}">{{ post.title }}</a></h3>
-                        <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+                        <h3 class="archive-title"><a class="p-name" href="{{ post.link }}">{{ post.title }}</a></h3>
+                        <p class="p-summary">{{ post.excerpt | strip_html | truncate: 160 }}</p>
+                        <a class="u-url" href="{{ post.url }}" hidden></a>
                         {% else %}
-                        <h3 class="archive-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-                        <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+                        <h3 class="archive-title"><a class="p-name u-url" href="{{ post.url }}">{{ post.title }}</a></h3>
+                        <p class="p-summary">{{ post.excerpt | strip_html | truncate: 160 }}</p>
                         {% endif %}
+                        <time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}" hidden></time>
                     </article>
                     {% endfor %}
                 </div>
