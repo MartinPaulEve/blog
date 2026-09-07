@@ -15,6 +15,8 @@ references:
 - https://doi.org/10.56021/9781421449913
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3muxlwhoiku2e"
 kcworks: https://works.hcommons.org/records/5g0q6-87210
+roguescholar: https://rogue-scholar.org/records/zy623-wxs36
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3muxlwhoiku2e
 ---
 As many of you know, I am currently in hospital. This is a factual rundown of how I got here, what's been tried, and what the next steps are in the treatment of my current illness.
 
