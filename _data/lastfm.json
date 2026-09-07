@@ -1,0 +1,22 @@
+{
+ "last_played": {
+  "artist": "Fluke",
+  "now_playing": false,
+  "track": "Groovy Feeling",
+  "url": "https://www.last.fm/music/Fluke/_/Groovy+Feeling"
+ },
+ "top_artist": {
+  "artist": "Fluke",
+  "playcount": 4,
+  "url": "https://www.last.fm/music/Fluke"
+ },
+ "top_track": {
+  "artist": "Fluke",
+  "playcount": 1,
+  "track": "Atom Bomb",
+  "url": "https://www.last.fm/music/Fluke/_/Atom+Bomb"
+ },
+ "updated": "2026-09-07T16:46:38+00:00",
+ "url": "https://www.last.fm/user/MartinPaulEve",
+ "user": "MartinPaulEve"
+}

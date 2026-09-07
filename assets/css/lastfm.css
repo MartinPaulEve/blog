@@ -1,0 +1,45 @@
+/* Last.fm sidebar widget (_includes/_lastfm.html).
+   Deliberately OUTSIDE the PDF-hashed stylesheet set (blog-post.css,
+   styles.css): the widget's data changes on every deploy and must not
+   disturb the PDF cache key — see _plugins/pdf_pages.rb. */
+
+.lastfm-widget {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.lastfm-stats {
+    margin: 0;
+}
+
+.lastfm-stats dt {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-muted);
+    margin-bottom: 0.15rem;
+}
+
+.lastfm-stats dd {
+    margin: 0 0 0.85rem;
+}
+
+.lastfm-stats dd:last-child {
+    margin-bottom: 0;
+}
+
+.lastfm-artist {
+    color: var(--text-muted);
+}
+
+.lastfm-source {
+    display: inline-block;
+    margin-top: 0.75rem;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-decoration: underline;
+}
+
+.lastfm-source:hover {
+    color: var(--accent-secondary);
+}

@@ -27,3 +27,7 @@ _site/
 .env
 
 __pycache__/
+
+# Last.fm fetch failure sentinel — written by _lastfm/fetch_lastfm.py,
+# reported by _plugins/lastfm_check.rb, cleared on the next good fetch
+_lastfm/fetch_error.json

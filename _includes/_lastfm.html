@@ -1,0 +1,32 @@
+{% comment %}
+  Last.fm listening stats, refreshed at deploy time by _lastfm/fetch_lastfm.py
+  into _data/lastfm.json. The whole widget disappears while the data file is
+  absent (no LASTFM_API_KEY yet) and each row guards its own section.
+
+  The stylesheet is linked here rather than in _head.html so that every scrap
+  of Last.fm markup stays inside the post sidebar, which pdf_pages.rb strips
+  from the PDF cache key — listening data changes on every deploy and must
+  never re-render the archival PDFs. lastfm.css must likewise stay out of the
+  PDF-hashed stylesheet set (blog-post.css, styles.css).
+{% endcomment %}
+{% if site.data.lastfm %}
+<link rel="stylesheet" href="/assets/css/lastfm.css?v={{ site.time | date: '%s' }}">
+<div class="sidebar-widget lastfm-widget">
+    <h3>Listening</h3>
+    <dl class="lastfm-stats">
+        {% if site.data.lastfm.last_played %}
+        <dt>{% if site.data.lastfm.last_played.now_playing %}Now playing{% else %}Last played{% endif %}</dt>
+        <dd>{{ site.data.lastfm.last_played.track | escape }} <span class="lastfm-artist">by {{ site.data.lastfm.last_played.artist | escape }}</span></dd>
+        {% endif %}
+        {% if site.data.lastfm.top_track %}
+        <dt>Most played track</dt>
+        <dd>{{ site.data.lastfm.top_track.track | escape }} <span class="lastfm-artist">by {{ site.data.lastfm.top_track.artist | escape }}</span></dd>
+        {% endif %}
+        {% if site.data.lastfm.top_artist %}
+        <dt>Most played band</dt>
+        <dd>{{ site.data.lastfm.top_artist.artist | escape }}</dd>
+        {% endif %}
+    </dl>
+    <a class="lastfm-source" href="{{ site.data.lastfm.url }}">Scrobbled on Last.fm</a>
+</div>
+{% endif %}
