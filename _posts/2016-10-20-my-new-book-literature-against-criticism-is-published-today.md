@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7maxebjk
 categories:
 - Publications
 - Literature
-kcworks: https://works.hcommons.org/records/zn59b-k3p49
+kcworks: https://works.hcommons.org/records/dvqnz-7bd66
 references:
 - http://eprints.bbk.ac.uk/id/document/29014 # Literature Against Criticism free PDF download Birkbeck
 - author: Martin Paul Eve

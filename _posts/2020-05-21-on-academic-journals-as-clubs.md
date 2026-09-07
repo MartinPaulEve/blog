@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5ojlx3
 categories:
 - Open Access
 - Academia
-kcworks: https://works.hcommons.org/records/expnj-sw698
+kcworks: https://works.hcommons.org/records/dc4aw-8ss28
 references:
 - https://doi.org/10.1002/leap.1228 # Hartley et al, journal as a club economic model Learned Publishing 2019
 - https://doi.org/10.1080/08109028.2017.1386949 # Hartley et al, new economic model scholarly publishing Prometheus 2017

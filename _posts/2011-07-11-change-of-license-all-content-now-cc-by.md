@@ -23,7 +23,7 @@ title: 'Change of license: all content now CC-BY'
 wordpress_id: 1302
 wordpress_url: https://www.martineve.com/?p=1302
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk677ip2i"
-kcworks: https://works.hcommons.org/records/5yr30-31b66
+kcworks: https://works.hcommons.org/records/n699q-ev933
 references:
 - title: Building tools for shared knowledge
   type: WebSite

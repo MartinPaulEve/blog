@@ -22,7 +22,7 @@ title: XSS Tutorial
 wordpress_id: 278
 wordpress_url: http://pro.grammatic.org/post-xss-tutorial-20.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnhx4nq2i"
-kcworks: https://works.hcommons.org/records/h6crp-ezh60
+kcworks: https://works.hcommons.org/records/t56xx-m3b17
 references:
 - http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd # W3C XHTML 1.1 DTD
 - title: XHTML namespace

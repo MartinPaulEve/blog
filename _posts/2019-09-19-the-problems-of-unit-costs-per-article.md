@@ -13,7 +13,7 @@ title: The Problems of Unit Costs Per Article
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6pducv2u"
 categories:
 - Open Access
-kcworks: https://works.hcommons.org/records/e6w1x-2a495
+kcworks: https://works.hcommons.org/records/h5cm7-mk428
 references:
 - https://doi.org/10.3998/3336451.0021.101 # Pinter landscape study on monograph costs
 - author: Rupert Gatti

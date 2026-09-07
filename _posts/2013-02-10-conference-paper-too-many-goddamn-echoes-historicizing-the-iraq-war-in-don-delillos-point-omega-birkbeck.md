@@ -21,7 +21,7 @@ title: 'Conference Paper: "Too many goddamn echoes": Historicizing the Iraq War 
 wordpress_id: 2601
 wordpress_url: https://www.martineve.com/?p=2601
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgxbmyw2p"
-kcworks: https://works.hcommons.org/records/svnw9-mtv10
+kcworks: https://works.hcommons.org/records/4qwm3-hhy43
 references:
 - http://iraqwarculture.eventbrite.com/ # Iraq War Culture symposium Eventbrite booking page
 ---

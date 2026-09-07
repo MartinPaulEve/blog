@@ -13,7 +13,7 @@ title: The real ethics of AI are about the labour underpinning it
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7rhfyz2a"
 categories:
 - Artificial Intelligence
-kcworks: https://works.hcommons.org/records/dvyxh-9ac50
+kcworks: https://works.hcommons.org/records/xvs3p-0qh26
 references:
 - author: Safiya Umoja Noble
   title: Algorithms of Oppression

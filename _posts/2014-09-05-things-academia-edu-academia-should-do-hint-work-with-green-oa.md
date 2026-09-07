@@ -23,7 +23,7 @@ title: 'Things academia.edu (@academia) should do (hint: work with green OA)'
 wordpress_id: 3214
 wordpress_url: https://www.martineve.com/?p=3214
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7meozymj2n"
-kcworks: https://works.hcommons.org/records/qc7m1-et558
+kcworks: https://works.hcommons.org/records/1j8ek-pqm32
 references:
 - title: Academia.edu
   type: WebSite

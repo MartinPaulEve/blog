@@ -10,7 +10,7 @@ title: Sunsetting martineve.com
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7ly5darg2e"
 categories:
 - Personal
-kcworks: https://works.hcommons.org/records/sgt8h-gep50
+kcworks: https://works.hcommons.org/records/xvn30-mv479
 references:
 - title: 'Hypertext Style: Cool URIs don''t change.'
   type: TechArticle

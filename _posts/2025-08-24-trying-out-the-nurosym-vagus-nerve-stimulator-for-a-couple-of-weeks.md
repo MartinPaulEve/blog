@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvrrsdl
 categories:
 - Health
 - Technology
-kcworks: https://works.hcommons.org/records/73vt5-3dr33
+kcworks: https://works.hcommons.org/records/31r21-h6m71
 references:
 - https://www.ifm.org/podcast/vagus-nerve-parasympathetic-response # IFM podcast on vagus nerve parasympathetic response
 - author:

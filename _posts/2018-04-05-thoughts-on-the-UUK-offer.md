@@ -10,7 +10,7 @@ title: Thoughts on the UUK offer and why I voted yes
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7szcsu2t"
 categories:
 - Higher Education
-kcworks: https://works.hcommons.org/records/hh0z8-av846
+kcworks: https://works.hcommons.org/records/mzdh1-r6k75
 references:
 - http://www.twitlonger.com/show/n_1sqg6m9 # Twitlonger post arguing against accepting UUK offer
 - https://www.ucu.org.uk/article/9412/UCU-responds-to-UUK-valuation-review?list=1676 # UCU response to UUK USS valuation review March 2018

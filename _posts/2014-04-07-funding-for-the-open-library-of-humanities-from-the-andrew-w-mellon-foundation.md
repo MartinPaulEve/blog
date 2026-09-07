@@ -22,7 +22,7 @@ title: Funding for the Open Library of Humanities from the Andrew W. Mellon Foun
 wordpress_id: 3070
 wordpress_url: https://www.martineve.com/?p=3070
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfdycj72a"
-kcworks: https://works.hcommons.org/records/73kqp-y8d06
+kcworks: https://works.hcommons.org/records/ccyg7-94e20
 references:
 - https://www.openlibhums.org/2014/04/07/funding-from-the-andrew-w-mellon-foundation/ # OLH announcement of Mellon Foundation funding
 ---

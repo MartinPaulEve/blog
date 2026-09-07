@@ -16,7 +16,7 @@ tags:
 - Green Paper
 title: Internal review of FOI2015/25797
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbwgc6y2f"
-kcworks: https://works.hcommons.org/records/gesws-fx745
+kcworks: https://works.hcommons.org/records/xx8td-2h875
 references:
 - https://www.whatdotheyknow.com/request/302242/response/745563/attach/3/FOI%20Request%20ref%20FOI2015%2025797%20Meetings%20between%20BIS%20officials%20ministers%20and%20Elsevier%20Thompson%20Reuters.pdf # FOI response PDF on BIS meetings with Elsevier and Thomson Reuters
 - title: UK SBS BLOJEU-CR150082HEFCE Provision Of Citation Indicators

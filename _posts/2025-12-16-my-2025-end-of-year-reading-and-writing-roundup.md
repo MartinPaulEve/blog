@@ -17,7 +17,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvnqlng
 categories:
 - Personal
 - Academia
-kcworks: https://works.hcommons.org/records/px3w9-vc963
+kcworks: https://works.hcommons.org/records/847jf-9hr48
 references:
 - title: Knowledge Commons
   type: WebSite

@@ -13,7 +13,7 @@ title: Good computer networking kit
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzcelg22a"
 categories:
 - Technology
-kcworks: https://works.hcommons.org/records/12v3g-xq789
+kcworks: https://works.hcommons.org/records/tc93x-r6s93
 references:
 - https://www.marvell.com/products/ethernet-adapters-and-controllers/fastlinq-edge-ethernet-controllers.html # Marvell FastLinQ edge Ethernet controllers product page
 ---

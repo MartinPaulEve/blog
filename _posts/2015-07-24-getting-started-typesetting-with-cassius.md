@@ -18,7 +18,7 @@ tags:
 - HTML
 title: Getting started typesetting with CaSSius
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcezqbo2o"
-kcworks: https://works.hcommons.org/records/dpe4y-2k549
+kcworks: https://works.hcommons.org/records/7ny2j-ge959
 references:
 - title: 'CaSSius: a CSS-regions-based PDF typesetter for scholarly communications'
   type: SoftwareSourceCode

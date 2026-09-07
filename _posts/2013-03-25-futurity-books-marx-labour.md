@@ -23,7 +23,7 @@ title: Futurity, Books, Marx, Labour
 wordpress_id: 2637
 wordpress_url: https://www.martineve.com/?p=2637
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgw3gdo2e"
-kcworks: https://works.hcommons.org/records/w7p5z-hmy94
+kcworks: https://works.hcommons.org/records/0z7d6-zqe74
 references:
 - https://www.openlibhums.org # Open Library of the Humanities website
 ---

@@ -19,7 +19,7 @@ title: Punchdrunk's The Drowned Man
 wordpress_id: 2757
 wordpress_url: https://www.martineve.com/?p=2757
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgmjzuc2a"
-kcworks: https://works.hcommons.org/records/wa7zj-sst71
+kcworks: https://works.hcommons.org/records/317cj-dar86
 references:
 - date: '2013-07-16'
   title: 'Punchdrunk: The Drowned Man'

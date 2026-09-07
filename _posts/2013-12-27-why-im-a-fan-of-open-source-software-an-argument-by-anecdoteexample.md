@@ -23,7 +23,7 @@ title: 'Why I''m a fan of open source software: An argument by anecdote/example'
 wordpress_id: 2967
 wordpress_url: https://www.martineve.com/?p=2967
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mftd6nh2t"
-kcworks: https://works.hcommons.org/records/mta7t-yns40
+kcworks: https://works.hcommons.org/records/yhkbf-yqx57
 references:
 - title: 'GitHub - m0sia/pyParrotZik: Python Parrot Zik API and tools'
   type: SoftwareSourceCode

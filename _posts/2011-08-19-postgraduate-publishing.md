@@ -21,7 +21,7 @@ title: Postgraduate Publishing
 wordpress_id: 1415
 wordpress_url: https://www.martineve.com/?p=1415
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk2dkiw2p"
-kcworks: https://works.hcommons.org/records/2t9tj-q8s78
+kcworks: https://works.hcommons.org/records/ryv6p-4jt06
 references:
 - title: Shameful self-promotion vs. Meritocracy
   type: BlogPosting

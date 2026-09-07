@@ -22,7 +22,7 @@ title: 'Conference Paper: "The F Word", 2011-04-01, University of Durham'
 wordpress_id: 891
 wordpress_url: https://www.martineve.com/?p=891
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkiujes2s"
-kcworks: https://works.hcommons.org/records/2jzxw-mc889
+kcworks: https://works.hcommons.org/records/s3pn0-jyd74
 references:
 - author: duncan cumming
   title: duncan cumming

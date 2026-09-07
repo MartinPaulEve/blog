@@ -13,7 +13,7 @@ title: 'Mesh on a budget: converting RBR50 to RBS50 units and using LBR20 for 4G
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2vr3b32i"
 categories:
 - Technology
-kcworks: https://works.hcommons.org/records/rqp69-8wg38
+kcworks: https://works.hcommons.org/records/jsxp5-cq418
 references:
 - https://www.reddit.com/r/HomeNetworking/comments/e53qp6/convert_orbi_rbr50_router_to_orbi_rbs50_satellite/ # Reddit thread on converting RBR50 to satellite
 - title: RBR50 / RBS50 Firmware Version 2.1.4.16

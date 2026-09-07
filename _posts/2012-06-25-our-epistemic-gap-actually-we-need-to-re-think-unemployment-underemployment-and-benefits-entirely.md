@@ -20,7 +20,7 @@ title: 'Our epistemic gap: actually, we need to re-think "unemployment", "undere
 wordpress_id: 2143
 wordpress_url: https://www.martineve.com/?p=2143
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mie4srw2p"
-kcworks: https://works.hcommons.org/records/4afqt-18a39
+kcworks: https://works.hcommons.org/records/ga6n5-8ym81
 references:
 - author:
   - Patrick Wintour

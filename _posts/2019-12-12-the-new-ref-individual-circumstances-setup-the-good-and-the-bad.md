@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6ksoso
 categories:
 - Higher Education
 - Health
-kcworks: https://works.hcommons.org/records/tfcck-x7z31
+kcworks: https://works.hcommons.org/records/zfwfn-abt48
 references:
 - https://www.researchprofessional.com/0/rr/news/uk/ref-2014/2019/12/REF-staff-circumstances-rules-criticised.html # Research Fortnight on REF staff circumstances rules
 ---

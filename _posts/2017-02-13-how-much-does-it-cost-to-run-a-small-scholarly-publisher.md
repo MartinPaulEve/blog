@@ -13,7 +13,7 @@ title: How much does it cost to run a small scholarly publisher?
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mag5sdd2p"
 categories:
 - Open Access
-kcworks: https://works.hcommons.org/records/ex47y-sbf70
+kcworks: https://works.hcommons.org/records/bqwtr-g5m25
 references:
 - https://www.openlibhums.org # Open Library of Humanities website
 ---

@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lworizd
 categories:
 - Scholarly Communications
 - Copyright and Licensing
-kcworks: https://works.hcommons.org/records/w1dw5-0f297
+kcworks: https://works.hcommons.org/records/ke6nx-fvz07
 references:
 - author: Martin Paul Eve
   title: Theses on the Metaphors of Digital-Textual History

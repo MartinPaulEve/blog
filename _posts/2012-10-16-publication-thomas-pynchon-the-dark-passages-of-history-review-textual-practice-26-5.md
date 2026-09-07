@@ -21,7 +21,7 @@ title: 'Publication: ''Thomas Pynchon & the Dark Passages of History (review)'',
 wordpress_id: 2433
 wordpress_url: https://www.martineve.com/?p=2433
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhr2elv2q"
-kcworks: https://works.hcommons.org/records/txvk5-y3s33
+kcworks: https://works.hcommons.org/records/6b8nh-jm682
 references:
 - http://dx.doi.org/10.1080/0950236X.2012.730736 # Textual Practice 26.5 Pynchon review DOI
 ---

@@ -99,7 +99,7 @@ title: Fixing headphone jack on Toshiba Satellite C650D under Ubuntu Linux Maver
 wordpress_id: 442
 wordpress_url: http://www.martineve.com/?p=442
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mllb36j2q"
-kcworks: https://works.hcommons.org/records/4y941-c4w25
+kcworks: https://works.hcommons.org/records/y72yg-xer49
 references:
 - title: 'Bug #680844 "[Conexant CX20585] Headphone jack doesn''t work"'
   type: WebPage

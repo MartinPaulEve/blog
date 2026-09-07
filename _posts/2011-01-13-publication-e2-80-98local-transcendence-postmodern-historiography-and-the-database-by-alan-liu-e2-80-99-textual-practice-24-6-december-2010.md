@@ -22,7 +22,7 @@ title: 'Publication: ‘Local Transcendence: Postmodern Historiography and the D
 wordpress_id: 555
 wordpress_url: http://www.martineve.com/?p=555
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkw64ki2p"
-kcworks: https://works.hcommons.org/records/gf5g7-wny88
+kcworks: https://works.hcommons.org/records/45wpy-r4k96
 references:
 - http://www.informaworld.com/smpp/content~db=all~content=a930064208~frm=titlelink # Textual Practice journal article page informaworld
 - title: Deed - Attribution-ShareAlike 3.0 Unported

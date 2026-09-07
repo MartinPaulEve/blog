@@ -10,7 +10,7 @@ title: On responses and rebuttals in the discipline of English literature
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mah5gzl2p"
 categories:
 - Academia
-kcworks: https://works.hcommons.org/records/bfzrg-55p81
+kcworks: https://works.hcommons.org/records/098t9-13m24
 references:
 - https://doi.org/10.1086/662755 # Critical Inquiry article: reply to critics on literary studies
 - title: Responses & Comments

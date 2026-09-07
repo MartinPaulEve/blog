@@ -14,7 +14,7 @@ title: Transparency agendas are being used to legislate against consortial open-
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7soviv2i"
 categories:
 - Open Access
-kcworks: https://works.hcommons.org/records/qxq1p-0pr20
+kcworks: https://works.hcommons.org/records/mjkzn-w0077
 references:
 - author: Peter Suber
   date: '2003'

@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m23f4qn
 categories:
 - Technology
 - Personal
-kcworks: https://works.hcommons.org/records/aje03-xdf79
+kcworks: https://works.hcommons.org/records/6cgam-s2130
 references:
 - title: 'UptimeRobot: Free Website Monitoring Service'
   type: WebSite

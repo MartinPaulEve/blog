@@ -15,7 +15,7 @@ categories:
 - Academia
 - Politics
 - Health
-kcworks: https://works.hcommons.org/records/61hv2-bk971
+kcworks: https://works.hcommons.org/records/va4za-v3k39
 references:
 - https://www.cambridge.org/gb/academic/subjects/literature/printing-and-publishing-history/reading-peer-review-plos-one-and-institutional-change-academia?format=PB&isbn=9781108742702 # Eve, Reading Peer Review: PLOS ONE and Institutional Change
 - https://doi.org/10.1057/palcomms.2016.105 # Article on excellence in academic publishing

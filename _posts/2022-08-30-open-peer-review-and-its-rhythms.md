@@ -13,7 +13,7 @@ title: Open peer review and its rhythms
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lyni4nr2h"
 categories:
 - Academia
-kcworks: https://works.hcommons.org/records/nthst-9k356
+kcworks: https://works.hcommons.org/records/70nrr-9ky81
 references:
 - title: Leading Generously
   type: WebSite

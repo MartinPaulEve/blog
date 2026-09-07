@@ -23,7 +23,7 @@ title: Using git in my writing workflow
 wordpress_id: 2808
 wordpress_url: https://www.martineve.com/?p=2808
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mges67k2u"
-kcworks: https://works.hcommons.org/records/pzx3y-kyq64
+kcworks: https://works.hcommons.org/records/jfd2s-enj44
 references:
 - author: Newell Hampson-Jones
   title: Newell Hampson-Jones (@theNHJ) on X

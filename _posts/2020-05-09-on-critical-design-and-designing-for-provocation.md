@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5rfii4
 categories:
 - Philosophy
 - Open Access
-kcworks: https://works.hcommons.org/records/2qxrq-ge852
+kcworks: https://works.hcommons.org/records/8cktw-tsa92
 references:
 - https://doi.org/10.1145/2317956.2318001 # Bardzell et al, Critical Design and Critical Theory ACM CHI 2012
 - http://doi.org/10.16995/olh.538 # Eve, Equivocationary Horseshit DFW OLH 2020

@@ -13,7 +13,7 @@ title: Notes on 'Plan S for Shock'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzcsdts2a"
 categories:
 - Open Access
-kcworks: https://works.hcommons.org/records/4wyza-y0617
+kcworks: https://works.hcommons.org/records/0h136-bqr61
 references:
 - https://doi.org/10.5334/bcq # Laakso and Pells, Plan S for Shock (Ubiquity Press, 2022)
 - author: Peter Suber

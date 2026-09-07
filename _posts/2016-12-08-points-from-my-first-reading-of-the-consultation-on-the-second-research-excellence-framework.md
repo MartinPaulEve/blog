@@ -14,7 +14,7 @@ title: Points from my first reading of the Consultation on the Second Research E
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7masnffo2s"
 categories:
 - Higher Education
-kcworks: https://works.hcommons.org/records/8a7es-n1506
+kcworks: https://works.hcommons.org/records/5fzj9-gwz58
 references:
 - http://www.hefce.ac.uk/pubs/year/2016/201636/ # HEFCE REF2 consultation document 2016
 ---

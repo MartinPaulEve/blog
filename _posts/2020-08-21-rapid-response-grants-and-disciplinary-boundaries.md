@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m4vmk2v
 categories:
 - Academia
 - Higher Education
-kcworks: https://works.hcommons.org/records/mfwgn-ycd56
+kcworks: https://works.hcommons.org/records/bbt41-58x76
 references:
 - author: Sophie Inge
   date: '2020-08-21'

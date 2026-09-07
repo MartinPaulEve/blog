@@ -19,7 +19,7 @@ title: OUSU Freedom of Information requests
 wordpress_id: 18
 wordpress_url: http://new.martineve.com/?p=18
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mm6z4qd2u"
-kcworks: https://works.hcommons.org/records/gyeq0-7cm24
+kcworks: https://works.hcommons.org/records/jsxyt-fp824
 references:
 - author: Sean Coughlan
   date: '2010-04-27'

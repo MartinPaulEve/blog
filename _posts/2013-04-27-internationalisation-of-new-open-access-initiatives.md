@@ -22,7 +22,7 @@ title: Internationalisation of New Open Access Initiatives
 wordpress_id: 2650
 wordpress_url: https://www.martineve.com/?p=2650
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgrixu62r"
-kcworks: https://works.hcommons.org/records/67ap6-q6m79
+kcworks: https://works.hcommons.org/records/nmkjz-q3m81
 references:
 - date: '2013-03-12'
   title: The language(s) of academic publishing

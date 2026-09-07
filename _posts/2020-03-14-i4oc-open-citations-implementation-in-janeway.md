@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6h6dam
 categories:
 - Publishing Technology
 - Scholarly Communications
-kcworks: https://works.hcommons.org/records/q459y-q7n10
+kcworks: https://works.hcommons.org/records/espb4-tk929
 references:
 - title: A web-based platform for publishing journals, preprints, conference proceedings, and books
   type: SoftwareSourceCode

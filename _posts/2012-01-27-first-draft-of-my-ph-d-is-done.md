@@ -36,7 +36,7 @@ title: First draft of my Ph.D is done!
 wordpress_id: 1878
 wordpress_url: https://www.martineve.com/2012/01/27/first-draft-of-my-ph-d-is-done/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mixkp6b2e"
-kcworks: https://works.hcommons.org/records/jwdqj-51j21
+kcworks: https://works.hcommons.org/records/4vk18-bm591
 references:
 - title: 'Excursions: An interdisciplinary journal'
   type: WebSite

@@ -23,7 +23,7 @@ title: Modularizing the meTypeset typesetter for the user interface phase
 wordpress_id: 3033
 wordpress_url: https://www.martineve.com/?p=3033
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfobrk52r"
-kcworks: https://works.hcommons.org/records/hs0g1-zf897
+kcworks: https://works.hcommons.org/records/0c81v-gxc30
 references:
 - title: GitHub - MartinPaulEve/meTypeset at dev
   type: SoftwareSourceCode

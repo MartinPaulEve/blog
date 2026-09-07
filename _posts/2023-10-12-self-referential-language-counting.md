@@ -14,7 +14,7 @@ title: Self-referential language counting (I learned another word today bringing
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lxjbfpu2h"
 categories:
 - Programming
-kcworks: https://works.hcommons.org/records/nsz9y-btv63
+kcworks: https://works.hcommons.org/records/egfm6-xwj29
 references:
 - title: '2839: Language Acquisition'
   type: WebPage

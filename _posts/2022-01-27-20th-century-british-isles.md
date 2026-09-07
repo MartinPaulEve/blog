@@ -13,7 +13,7 @@ title: 20th-Century British Isles
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzdhqfw2a"
 categories:
 - Literature
-kcworks: https://works.hcommons.org/records/ngqyw-xvc72
+kcworks: https://works.hcommons.org/records/6x66e-46183
 references:
 - https://doi.org/10.1017/9781108649865.008 # Chapter on British Isles 20th-century novel in Cambridge volume
 ---

@@ -84,7 +84,7 @@ title: Mendeley Android client; first preview and OAuth problem
 wordpress_id: 490
 wordpress_url: http://www.martineve.com/?p=490
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlgp3g62t"
-kcworks: https://works.hcommons.org/records/9yhar-5ca46
+kcworks: https://works.hcommons.org/records/ekp89-8p789
 references:
 - title: Licenses
   type: WebPage

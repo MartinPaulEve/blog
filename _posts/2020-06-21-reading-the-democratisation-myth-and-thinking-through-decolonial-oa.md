@@ -13,7 +13,7 @@ title: Reading ‘The Democratisation Myth’ and thinking through decolonial OA
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5lba462p"
 categories:
 - Open Access
-kcworks: https://works.hcommons.org/records/k4k24-66q73
+kcworks: https://works.hcommons.org/records/13ctm-xjk49
 references:
 - https://doi.org/10.31235/osf.io/hw7at # SocArXiv preprint on OA and solidification of epistemic injustices
 ---

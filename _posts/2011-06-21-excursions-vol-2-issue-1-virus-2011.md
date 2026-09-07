@@ -22,7 +22,7 @@ title: 'Excursions, Vol. 2, Issue 1: Virus (2011)'
 wordpress_id: 1191
 wordpress_url: https://www.martineve.com/?p=1191
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkabdrp2r"
-kcworks: https://works.hcommons.org/records/dhed3-2z794
+kcworks: https://works.hcommons.org/records/yst06-rhy79
 references:
 - title: 'Excursions: An interdisciplinary journal'
   type: WebSite

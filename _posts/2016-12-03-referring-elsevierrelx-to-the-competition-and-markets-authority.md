@@ -13,7 +13,7 @@ title: Referring Elsevier/RELX to the Competition and Markets Authority
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mateip32p"
 categories:
 - Open Access
-kcworks: https://works.hcommons.org/records/y0as7-jfm55
+kcworks: https://works.hcommons.org/records/59xk6-d1m79
 references:
 - https://www.jisc.ac.uk/blog/jisc-collections-and-elsevier-agreement-questions-and-answers-28-nov-2016 # Jisc Collections Elsevier agreement Q&A November 2016
 - http://dx.doi.org/10.1017/CBO9781316161012 # Eve, Open Access and the Humanities Cambridge 2014

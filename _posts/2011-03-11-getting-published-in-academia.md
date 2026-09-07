@@ -21,7 +21,7 @@ title: Getting Published in Academia
 wordpress_id: 839
 wordpress_url: https://www.martineve.com/?p=839
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkjtqkb2o"
-kcworks: https://works.hcommons.org/records/cf0bm-0a677
+kcworks: https://works.hcommons.org/records/fcv39-5ke39
 references:
 - title: inkelv1122
   type: WebPage

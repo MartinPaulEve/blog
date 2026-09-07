@@ -23,7 +23,7 @@ title: Open Access, "Neoliberalism", "Impact" and the Privatisation of Knowledge
 wordpress_id: 2618
 wordpress_url: https://www.martineve.com/?p=2618
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgwogqg2e"
-kcworks: https://works.hcommons.org/records/8kzjb-ehx91
+kcworks: https://works.hcommons.org/records/cqa1v-e4s94
 references:
 - date: '2013-03-07'
   title: Open-access policy scrapes the barrel

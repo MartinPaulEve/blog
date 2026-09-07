@@ -24,7 +24,7 @@ title: Call For Participants to Build a PLOS-style Model for the Humanities and 
 wordpress_id: 2576
 wordpress_url: https://www.martineve.com/?p=2576
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mh5v7k72r"
-kcworks: https://works.hcommons.org/records/pcfj7-cqm30
+kcworks: https://works.hcommons.org/records/mzbw3-xna78
 references:
 - http://www.cameronneylon.net # Cameron Neylon personal website
 - http://www.tjm.org # Tim McCormick personal website

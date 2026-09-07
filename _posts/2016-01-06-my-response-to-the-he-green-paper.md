@@ -15,7 +15,7 @@ tags:
 - politics
 title: My response to the HE Green Paper
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbv3qwe2t"
-kcworks: https://works.hcommons.org/records/3b1d0-nj928
+kcworks: https://works.hcommons.org/records/wgjfh-hv377
 references:
 - title: Chooser
   type: WebPage

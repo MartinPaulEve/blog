@@ -14,7 +14,7 @@ title: 'Notes on Raym Crow. (2009). Income Models for Open Access: An Overview o
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5pfcn22i"
 categories:
 - Open Access
-kcworks: https://works.hcommons.org/records/gyakb-ac337
+kcworks: https://works.hcommons.org/records/ex78h-3mh25
 references:
 - https://sparcopen.org/wp-content/uploads/2016/01/incomemodels_v1.pdf # Crow, Income Models for Open Access SPARC 2009 PDF
 - https://doi.org/10.1629/uksg.392 # Eve, OA in UK REF Insights UKSG 2017

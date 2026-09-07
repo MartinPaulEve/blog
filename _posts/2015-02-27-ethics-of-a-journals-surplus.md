@@ -16,7 +16,7 @@ published: true
 status: publish
 title: Ethics of a Journal's Surplus
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7md75hej2f"
-kcworks: https://works.hcommons.org/records/xxhzd-c6e39
+kcworks: https://works.hcommons.org/records/k8j66-1mj61
 references:
 - date: '2015-02-26'
   title: Ethics of journal's surplus

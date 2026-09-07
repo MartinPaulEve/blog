@@ -18,7 +18,7 @@ tags:
 - JATS
 title: Building a real XML-first (XML-in) workflow for scholarly typesetting
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcfyoo42n"
-kcworks: https://works.hcommons.org/records/zbmm3-f4m87
+kcworks: https://works.hcommons.org/records/02sk1-hdq56
 references:
 - title: 'GitHub - MartinPaulEve/meTypeset: meTypeset is a tool to convert from Microsoft Word .docx format to NLM/JATS-XML for scholarly/scientific article typesetting.'
   type: SoftwareSourceCode

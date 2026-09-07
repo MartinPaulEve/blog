@@ -13,7 +13,7 @@ title: Ancient West
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzp6nkc2r"
 categories:
 - Literature
-kcworks: https://works.hcommons.org/records/3187d-m1587
+kcworks: https://works.hcommons.org/records/gh4f2-5sr82
 references:
 - https://doi.org/10.2307/20538565 # JSTOR article on novel in antiquity
 ---

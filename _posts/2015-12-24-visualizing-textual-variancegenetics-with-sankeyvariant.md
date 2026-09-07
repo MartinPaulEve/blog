@@ -18,7 +18,7 @@ tags:
 - digital humanities
 title: Visualizing textual variance/genetics with SankeyVariant
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbxz46b2f"
-kcworks: https://works.hcommons.org/records/89zmn-wrf45
+kcworks: https://works.hcommons.org/records/yzwgp-95738
 references:
 - title: Visualise textual variants across editions using modifications to D3.js and its Sankey plugin
   type: SoftwareSourceCode

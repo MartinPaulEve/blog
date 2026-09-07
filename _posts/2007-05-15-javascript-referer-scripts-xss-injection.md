@@ -23,7 +23,7 @@ title: JavaScript Referer Scripts XSS Injection
 wordpress_id: 293
 wordpress_url: http://pro.grammatic.org/post-javascript-referer-scripts-xss-injection-5.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mobrowc2r"
-kcworks: https://works.hcommons.org/records/85vnd-zhs26
+kcworks: https://works.hcommons.org/records/n3d1k-37b98
 references:
 - title: Page Details >>> 404 Referrer.
   type: WebPage

@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwcrllj
 categories:
 - Scholarly Communications
 - Programming
-kcworks: https://works.hcommons.org/records/sfg6g-mah16
+kcworks: https://works.hcommons.org/records/qfbbm-pqy84
 references:
 - https://pypi.org/simple # PyPI simple package index
 - title: The next-generation research repository for Knowledge Commons

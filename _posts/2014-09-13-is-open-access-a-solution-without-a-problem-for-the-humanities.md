@@ -21,7 +21,7 @@ title: Is open access a "solution without a problem" for the humanities?
 wordpress_id: 3232
 wordpress_url: https://www.martineve.com/?p=3232
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7meiricc2u"
-kcworks: https://works.hcommons.org/records/1a67e-rzx34
+kcworks: https://works.hcommons.org/records/z3ya8-t6m94
 references:
 - http://www.cambridge.org/eve # Cambridge University Press page for Eve's OA book
 - author: Bjoern Brembs

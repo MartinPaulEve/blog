@@ -19,7 +19,7 @@ title: 'Guardian Q&A Summary: Life After a PhD'
 wordpress_id: 1020
 wordpress_url: https://www.martineve.com/?p=1020
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkdzz472r"
-kcworks: https://works.hcommons.org/records/x81xz-mmn78
+kcworks: https://works.hcommons.org/records/99ajz-q6v23
 references:
 - author: Eliza Anyangwe
   date: '2011-04-27'

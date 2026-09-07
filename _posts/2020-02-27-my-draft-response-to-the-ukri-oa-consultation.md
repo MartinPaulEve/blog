@@ -13,7 +13,7 @@ title: My draft response to the UKRI OA consultation
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6hpgzk2i"
 categories:
 - Open Access
-kcworks: https://works.hcommons.org/records/q6pqd-7pe14
+kcworks: https://works.hcommons.org/records/tnkgh-nms44
 references:
 - https://www.universitiesuk.ac.uk/policy-and-analysis/reports/Documents/2019/Fullstopp-Final-October-2019.pdf # UUK Fullstopp report 2019
 - https://doi.org/10.1629/uksg.392 # Insights UKSG article on REF and OA

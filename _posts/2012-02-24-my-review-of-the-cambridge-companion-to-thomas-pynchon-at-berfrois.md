@@ -37,7 +37,7 @@ title: My review of The Cambridge Companion to Thomas Pynchon at Berfrois
 wordpress_id: 1931
 wordpress_url: https://www.martineve.com/2012/02/24/my-review-of-the-cambridge-companion-to-thomas-pynchon-at-berfrois/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miqvlom2h"
-kcworks: https://works.hcommons.org/records/sjb01-r3614
+kcworks: https://works.hcommons.org/records/9f47g-pz892
 references:
 - title: About
   type: WebSite

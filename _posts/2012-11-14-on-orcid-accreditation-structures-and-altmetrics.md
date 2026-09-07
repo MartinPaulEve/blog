@@ -22,7 +22,7 @@ title: On ORCID, accreditation structures and altmetrics
 wordpress_id: 2496
 wordpress_url: https://www.martineve.com/?p=2496
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhmrfsd2h"
-kcworks: https://works.hcommons.org/records/n62z5-n7115
+kcworks: https://works.hcommons.org/records/gzy38-tje87
 references:
 - title: ORCID
   type: WebPage

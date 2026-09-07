@@ -15,7 +15,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mb4qbb7
 categories:
 - Publications
 - Literature
-kcworks: https://works.hcommons.org/records/m0r6s-jzm72
+kcworks: https://works.hcommons.org/records/vke3d-6fv63
 references:
 - http://doi.org/10.16995/olh.82 # Eve, Cloud Atlas Version Variants OLH article
 - author: Alison Flood

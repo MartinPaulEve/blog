@@ -50,7 +50,7 @@ title: '"(Un)Reasonable" fees by which metric?'
 wordpress_id: 885
 wordpress_url: https://www.martineve.com/?p=885
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkj4e6k2i"
-kcworks: https://works.hcommons.org/records/vkm6m-yhz17
+kcworks: https://works.hcommons.org/records/zskjt-jnh95
 references:
 - author:
   - Patrick Wintour

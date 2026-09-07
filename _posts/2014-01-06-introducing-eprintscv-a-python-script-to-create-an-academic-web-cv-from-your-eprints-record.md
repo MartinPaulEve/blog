@@ -26,7 +26,7 @@ title: 'Introducing eprintsCV: a python script to create an academic web CV from
 wordpress_id: 2978
 wordpress_url: https://www.martineve.com/?p=2978
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfs5u7d2q"
-kcworks: https://works.hcommons.org/records/38z01-5r023
+kcworks: https://works.hcommons.org/records/a62gb-n0y55
 references:
 - title: 'GitHub - MartinPaulEve/eprintsCV: A script to generate a list of academic publications in a web/CV-friendly format for academic websites'
   type: SoftwareSourceCode

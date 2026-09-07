@@ -24,7 +24,7 @@ title: Digital Literatures; Digital Democracies; Digital Threats?
 wordpress_id: 2733
 wordpress_url: https://www.martineve.com/?p=2733
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgp6a6x2a"
-kcworks: https://works.hcommons.org/records/r0n32-maa41
+kcworks: https://works.hcommons.org/records/ttgnk-jv796
 references:
 - title: Deed - Attribution 3.0 Unported
   type: WebPage

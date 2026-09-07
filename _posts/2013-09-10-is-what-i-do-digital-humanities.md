@@ -25,7 +25,7 @@ title: Is what I do "digital humanities"?
 wordpress_id: 2891
 wordpress_url: https://www.martineve.com/?p=2891
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgbhvud2h"
-kcworks: https://works.hcommons.org/records/b47z9-g2a34
+kcworks: https://works.hcommons.org/records/cxxnc-g4426
 references:
 - title: 'GitHub - MartinPaulEve/meTypeset: meTypeset is a tool to convert from Microsoft Word .docx format to NLM/JATS-XML for scholarly/scientific article typesetting.'
   type: SoftwareSourceCode

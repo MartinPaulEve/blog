@@ -19,7 +19,7 @@ title: 'Pynchon Character Etymology: Étienne Cherdlu'
 wordpress_id: 1790
 wordpress_url: https://www.martineve.com/2012/01/09/pynchon-character-etymology-etienne-cherdlu/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mj2l35p2q"
-kcworks: https://works.hcommons.org/records/4ev5q-1rg69
+kcworks: https://works.hcommons.org/records/rkdxe-s1x35
 references:
 - date: '2003-03-19'
   title: ETAOIN SHRDLU

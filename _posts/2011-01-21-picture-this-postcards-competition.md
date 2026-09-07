@@ -29,7 +29,7 @@ title: 'Picture this: Postcards Competition'
 wordpress_id: 622
 wordpress_url: http://www.martineve.com/?p=622
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mktopj62a"
-kcworks: https://works.hcommons.org/records/2kfsz-70c76
+kcworks: https://works.hcommons.org/records/px15h-kq970
 references:
 - title: 'Excursions: An interdisciplinary journal'
   type: WebSite

@@ -15,7 +15,7 @@ tags:
 - methodology
 title: 'The methodology of literary taxonomy: HARKing and p-hacking'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbujrls2i"
-kcworks: https://works.hcommons.org/records/5ej1v-sjf34
+kcworks: https://works.hcommons.org/records/5y2ac-yms36
 references:
 - http://dx.doi.org/10.1207/s15327957pspr0203_4 # Kerr paper on HARKing: Hypothesizing After Results are Known
 ---

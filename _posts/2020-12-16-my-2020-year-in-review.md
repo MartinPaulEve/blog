@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m4p6u2l
 categories:
 - Personal
 - Academia
-kcworks: https://works.hcommons.org/records/97dk9-wpn03
+kcworks: https://works.hcommons.org/records/w5nk7-gqg12
 references:
 - title: Opening the Future
   type: WebPage

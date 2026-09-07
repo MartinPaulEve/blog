@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwuwtec
 categories:
 - Open Access
 - Higher Education
-kcworks: https://works.hcommons.org/records/dw172-60554
+kcworks: https://works.hcommons.org/records/bwt1g-62243
 references:
 - https://doi.org/10.1629/uksg.392 # Eve et al, costing the REF OA book mandate, UKSG 2017
 - date: '2024-06-17'

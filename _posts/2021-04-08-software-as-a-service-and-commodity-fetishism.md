@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3im7k3
 categories:
 - Technology
 - Philosophy
-kcworks: https://works.hcommons.org/records/v06k7-0zm62
+kcworks: https://works.hcommons.org/records/k19d9-1ef60
 references:
 - author: Jon Porter
   date: '2019-09-17'

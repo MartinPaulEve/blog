@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7ma2z67t
 categories:
 - Higher Education
 - Academia
-kcworks: https://works.hcommons.org/records/r3tdh-qc532
+kcworks: https://works.hcommons.org/records/211tv-2sq14
 references:
 - http://blog.hefce.ac.uk/2017/07/20/the-portability-or-non-portability-of-research/ # HEFCE blog: Sweeney on REF2021 output non-portability
 ---

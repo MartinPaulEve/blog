@@ -15,7 +15,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7tpkmu
 categories:
 - Open Access
 - Publishing Technology
-kcworks: https://works.hcommons.org/records/sdw92-3c634
+kcworks: https://works.hcommons.org/records/ekk18-8e641
 references:
 - https://www.quora.com/Does-Amazon-EC2-have-an-uptime-guarantee-Do-they-have-SLA-Can-it-be-used-for-a-production-environment-for-a-site-that-needs-to-be-up-most-of-the-time # Quora thread on Amazon EC2 uptime guarantee SLA
 ---

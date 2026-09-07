@@ -19,7 +19,7 @@ tags:
 title: 'Gold Open Access and Article Processing Charges: Point of Risk and the Risk
   Pool'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdqh53c2a"
-kcworks: https://works.hcommons.org/records/k3pw2-eq247
+kcworks: https://works.hcommons.org/records/9b01w-wv462
 references:
 - https://www.openlibhums.org # Open Library of Humanities platform
 - http://dx.doi.org/10.7710/2162-3309.1131  # Article on consortial OA funding models

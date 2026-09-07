@@ -24,7 +24,7 @@ title: 'A research tool I want (but probably won''t get): cross-reference/inters
 wordpress_id: 3129
 wordpress_url: https://www.martineve.com/?p=3129
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mf3cwnx2t"
-kcworks: https://works.hcommons.org/records/yrzyp-3w543
+kcworks: https://works.hcommons.org/records/v2kj2-3cw34
 references:
 - title: 'GitHub - MartinPaulEve/meTypeset: meTypeset is a tool to convert from Microsoft Word .docx format to NLM/JATS-XML for scholarly/scientific article typesetting.'
   type: SoftwareSourceCode

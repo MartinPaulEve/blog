@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5doof5
 categories:
 - Open Access
 - Scholarly Communications
-kcworks: https://works.hcommons.org/records/c9jkz-wbv26
+kcworks: https://works.hcommons.org/records/6yp11-hgv10
 references:
 - https://doi.org/10.1629/uksg.399 # Andrews, resilience in scholar-led publishing Insights UKSG 2018
 - https://doi.org/10.1371/journal.pbio.0000036 # Eisen and Varmus, Why PLoS Became a Publisher PLOS Biology 2003

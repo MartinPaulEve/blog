@@ -38,7 +38,7 @@ title: On Pynchon and Privacy
 wordpress_id: 1034
 wordpress_url: https://www.martineve.com/?p=1034
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkdt2f22s"
-kcworks: https://works.hcommons.org/records/e8vwq-6b483
+kcworks: https://works.hcommons.org/records/q3dda-prq51
 references:
 - author: Carolyn Kellogg
   date: '2011-05-05'

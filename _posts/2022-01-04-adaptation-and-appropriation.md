@@ -13,7 +13,7 @@ title: Adaptation and Appropriation
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzzou3t2i"
 categories:
 - Literature
-kcworks: https://works.hcommons.org/records/j6s20-tx685
+kcworks: https://works.hcommons.org/records/ww3ra-a5b26
 references:
 - author: Adam Roberts
   date: '2021-03-31'

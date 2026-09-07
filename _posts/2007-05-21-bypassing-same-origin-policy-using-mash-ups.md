@@ -22,7 +22,7 @@ title: Bypassing Same Origin Policy using Mash-Ups
 wordpress_id: 280
 wordpress_url: http://pro.grammatic.org/post-bypassing-same-origin-policy-using-mashups-19.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnp4lhu2h"
-kcworks: https://works.hcommons.org/records/ggja8-07670
+kcworks: https://works.hcommons.org/records/p2wtb-sc956
 references:
 - title: GNUCITIZEN
   type: WebSite

@@ -16,7 +16,7 @@ title: Some example academic book proposal forms in case they help
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lv4ravd2p"
 categories:
 - Academia
-kcworks: https://works.hcommons.org/records/8x3dq-s6e57
+kcworks: https://works.hcommons.org/records/n6aza-hb115
 references:
 - author: Lisa Janicke Hinchliffe
   date: '2026-01-14'

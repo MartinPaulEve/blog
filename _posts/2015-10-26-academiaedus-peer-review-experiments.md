@@ -15,7 +15,7 @@ tags:
 - peer review
 title: Academia.edu’s peer-review experiments
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc6ne4t2p"
-kcworks: https://works.hcommons.org/records/3ddg6-chz11
+kcworks: https://works.hcommons.org/records/ws10e-m9e13
 references:
 - author: Gary Hall
   title: Does Academia.edu Mean Open Access Is Becoming Irrelevant?

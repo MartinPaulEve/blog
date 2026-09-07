@@ -12,7 +12,7 @@ published: true
 tags: []
 title: The Conservatism of Cloud Atlas
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcm6gih2u"
-kcworks: https://works.hcommons.org/records/xkms0-gvz66
+kcworks: https://works.hcommons.org/records/3hkdz-e1f84
 references:
 - http://dx.doi.org/10.1177/2158244014521636 # Eve article on Hoban, Riddley Walker and metafiction
 - author: Adam Begley

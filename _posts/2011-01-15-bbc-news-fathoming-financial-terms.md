@@ -20,7 +20,7 @@ title: 'BBC News: fathoming financial terms'
 wordpress_id: 574
 wordpress_url: http://www.martineve.com/?p=574
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkvg4x62a"
-kcworks: https://works.hcommons.org/records/j5b9n-zx122
+kcworks: https://works.hcommons.org/records/a8efz-r1q78
 references:
 - title: Can you fathom financial phrases?
   type: NewsArticle

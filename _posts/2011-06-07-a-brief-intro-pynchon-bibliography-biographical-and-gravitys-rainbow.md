@@ -20,7 +20,7 @@ title: A Brief Intro Pynchon Bibliography (Biographical and Gravity's Rainbow)
 wordpress_id: 1141
 wordpress_url: https://www.martineve.com/?p=1141
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkcb4q32u"
-kcworks: https://works.hcommons.org/records/b7k0j-p9k55
+kcworks: https://works.hcommons.org/records/vdgqb-as420
 references:
 - http://www.google.co.uk/search?q=charles%20hollander%20pynchon # Google search for Charles Hollander Pynchon articles
 - author: Tessa Farrell

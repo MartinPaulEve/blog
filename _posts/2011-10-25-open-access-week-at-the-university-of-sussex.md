@@ -24,7 +24,7 @@ title: Open Access Week at the University of Sussex
 wordpress_id: 1567
 wordpress_url: https://www.martineve.com/2011/10/25/open-access-week-at-the-university-of-sussex/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjijbh22u"
-kcworks: https://works.hcommons.org/records/5s5n8-1qx71
+kcworks: https://works.hcommons.org/records/mv3e4-gxf18
 references:
 - title: Martin Paul Eve on Open Access Week
   type: BlogPosting

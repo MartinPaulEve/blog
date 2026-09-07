@@ -13,7 +13,7 @@ title: The British Academy response misrepresents Plan S and OA
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6rjpqd2r"
 categories:
 - Open Access
-kcworks: https://works.hcommons.org/records/hdq2h-5x387
+kcworks: https://works.hcommons.org/records/bqkh7-czb13
 references:
 - https://www.thebritishacademy.ac.uk/sites/default/files/A_commentary_by_the_British_Academy_on_final_Plan_S-July_2019.pdf # British Academy commentary on final Plan S July 2019
 - https://scholarlycommunications.jiscinvolve.org/wp/2018/10/22/open-access-briefing-paper-considering-the-implications-of-the-finch-report/ # Jisc OA briefing paper on Finch Report implications

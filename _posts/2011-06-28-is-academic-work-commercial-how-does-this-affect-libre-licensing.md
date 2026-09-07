@@ -1442,7 +1442,7 @@ title: Is academic work commercial? How does this affect libre licensing?
 wordpress_id: 1239
 wordpress_url: https://www.martineve.com/?p=1239
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk7ik332n"
-kcworks: https://works.hcommons.org/records/2a5vs-qfe98
+kcworks: https://works.hcommons.org/records/deegv-7bc12
 references:
 - https://twitter.com/#!/jonhickman/status/85697414178144257 # Twitter: discussion on CC licensing for OA journals
 - date: '2002-05-17'

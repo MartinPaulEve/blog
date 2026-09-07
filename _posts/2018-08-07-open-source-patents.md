@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7pgb2b
 categories:
 - Copyright and Licensing
 - Publishing Technology
-kcworks: https://works.hcommons.org/records/g0kz9-naq20
+kcworks: https://works.hcommons.org/records/f2gg2-6ya18
 references:
 - title: A web-based platform for publishing journals, preprints, conference proceedings, and books
   type: SoftwareSourceCode

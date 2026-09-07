@@ -20,7 +20,7 @@ title: How not to apply to give a conference paper
 wordpress_id: 957
 wordpress_url: https://www.martineve.com/?p=957
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkfb45w2t"
-kcworks: https://works.hcommons.org/records/ag55q-0e137
+kcworks: https://works.hcommons.org/records/nmm0f-ver62
 references:
 - title: Heinrich-Böll-Stiftung
   type: WebPage

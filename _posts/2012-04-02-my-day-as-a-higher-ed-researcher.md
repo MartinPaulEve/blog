@@ -40,7 +40,7 @@ title: My day as a Higher Ed researcher
 wordpress_id: 2003
 wordpress_url: https://www.martineve.com/?p=2003
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mijbyx72r"
-kcworks: https://works.hcommons.org/records/w36bp-e3j14
+kcworks: https://works.hcommons.org/records/nwm8p-pym51
 references:
 - author: Ellen Forsyth
   title: Ellen Forsyth

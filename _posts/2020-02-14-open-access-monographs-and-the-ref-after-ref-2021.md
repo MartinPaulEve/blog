@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6iewe5
 categories:
 - Open Access
 - Higher Education
-kcworks: https://works.hcommons.org/records/tcvz6-0xp47
+kcworks: https://works.hcommons.org/records/78z8p-p9f77
 references:
 - https://www.universitiesuk.ac.uk/policy-and-analysis/reports/Pages/open-access-monographs-evidence-review.aspx # UUK Open Access Monographs Working Group report
 ---

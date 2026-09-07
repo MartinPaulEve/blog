@@ -22,7 +22,7 @@ title: Has "the licensing battle been deferred" in the latest HEFCE document?
 wordpress_id: 2794
 wordpress_url: https://www.martineve.com/?p=2794
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgfaytc2a"
-kcworks: https://works.hcommons.org/records/g1atx-qdr34
+kcworks: https://works.hcommons.org/records/hh2ar-kzv80
 references:
 - date: '2013-08-01'
   title: 'Getting Somewhere: HEFCE Proposals on Open Access for a Post-2014 Research Excellence Framework'

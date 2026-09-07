@@ -19,7 +19,7 @@ title: '"Every generation has its philosopher"'
 wordpress_id: 2993
 wordpress_url: https://www.martineve.com/?p=2993
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfqexvg2e"
-kcworks: https://works.hcommons.org/records/jjz51-bg398
+kcworks: https://works.hcommons.org/records/sa5cm-yy071
 references:
 - title: Introduction to Free Software, Free Society
   type: WebPage

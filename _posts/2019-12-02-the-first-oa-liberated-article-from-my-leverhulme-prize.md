@@ -15,7 +15,7 @@ categories:
 - Open Access
 - Publications
 - Literature
-kcworks: https://works.hcommons.org/records/rbxts-crh50
+kcworks: https://works.hcommons.org/records/ty77b-42e39
 references:
 - https://eprints.bbk.ac.uk/12246/1/02_Eve_with_logo.pdf # Eve, Pynchon and Foster Wallace article, Birkbeck eprint
 ---

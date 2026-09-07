@@ -13,7 +13,7 @@ title: Running Django apps on AWS Fargate with a serverless RDS
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lz5lmqs2h"
 categories:
 - Programming
-kcworks: https://works.hcommons.org/records/a0hrr-yv247
+kcworks: https://works.hcommons.org/records/fy8ep-y2733
 references:
 - title: GitHub - MartinPaulEve/django-fargate
   type: SoftwareSourceCode

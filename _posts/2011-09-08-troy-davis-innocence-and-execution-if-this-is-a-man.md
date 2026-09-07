@@ -19,7 +19,7 @@ title: 'Troy Davis: Innocence and Execution; If This is a Man'
 wordpress_id: 1462
 wordpress_url: https://www.martineve.com/2011/09/08/troy-davis-innocence-and-execution-if-this-is-a-man/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjwsp6l2h"
-kcworks: https://works.hcommons.org/records/gj56r-h7322
+kcworks: https://works.hcommons.org/records/9ww8t-36802
 references:
 - date: '2007-07-23'
   title: Troy Davis

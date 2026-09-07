@@ -13,7 +13,7 @@ title: 'How to install Ubuntu on the HP Dragonfly Elite (hint: disable Optane)'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m4pln3g2h"
 categories:
 - Linux
-kcworks: https://works.hcommons.org/records/hac12-f6317
+kcworks: https://works.hcommons.org/records/0g0zg-3zz18
 references:
 - author: Jim Salter
   date: '2020-01-27'

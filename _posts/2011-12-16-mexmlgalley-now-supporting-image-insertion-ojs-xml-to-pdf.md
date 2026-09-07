@@ -25,7 +25,7 @@ title: 'meXmlGalley now supporting image insertion (OJS: XML to PDF)'
 wordpress_id: 1693
 wordpress_url: https://www.martineve.com/2011/12/16/mexmlgalley-now-supporting-image-insertion-ojs-xml-to-pdf/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjdscfc2s"
-kcworks: https://works.hcommons.org/records/cya1f-1m465
+kcworks: https://works.hcommons.org/records/xg5eg-6w721
 references:
 - title: A plugin for Open Journal Systems to generate PDF galleys from XML
   type: SoftwareSourceCode

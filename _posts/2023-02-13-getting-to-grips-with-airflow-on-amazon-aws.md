@@ -10,7 +10,7 @@ title: Getting to grips with Airflow on Amazon AWS
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lygoxlu2p"
 categories:
 - Programming
-kcworks: https://works.hcommons.org/records/ek4c4-dqk55
+kcworks: https://works.hcommons.org/records/3z22w-qc916
 references:
 - title: virtual_python_plugin.py
   type: SoftwareSourceCode

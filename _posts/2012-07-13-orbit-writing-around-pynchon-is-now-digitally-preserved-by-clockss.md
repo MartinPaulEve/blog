@@ -25,7 +25,7 @@ title: 'Orbit: Writing Around Pynchon is now digitally preserved by CLOCKSS'
 wordpress_id: 2206
 wordpress_url: https://www.martineve.com/?p=2206
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miajs4t2h"
-kcworks: https://works.hcommons.org/records/n5mcp-8bw19
+kcworks: https://works.hcommons.org/records/a14y1-fm755
 references:
 - date: '2018-08-07'
   title: News - CLOCKSS

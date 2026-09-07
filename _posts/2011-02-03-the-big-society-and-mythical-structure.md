@@ -23,7 +23,7 @@ title: The Big Society and Mythical Structure
 wordpress_id: 689
 wordpress_url: https://www.martineve.com/?p=689
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkrdkba2p"
-kcworks: https://works.hcommons.org/records/qen7y-nmc98
+kcworks: https://works.hcommons.org/records/mcbt2-nk549
 references:
 - title: Number 10
   type: WebSite

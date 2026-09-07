@@ -21,7 +21,7 @@ title: The real problem with this mode of "curbing grade inflation"
 wordpress_id: 2294
 wordpress_url: https://www.martineve.com/?p=2294
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhvdx7s2n"
-kcworks: https://works.hcommons.org/records/qrpw8-a0c86
+kcworks: https://works.hcommons.org/records/24rx3-zvr14
 references:
 - author: Martin Paul Eve
   date: '2011-12-22'

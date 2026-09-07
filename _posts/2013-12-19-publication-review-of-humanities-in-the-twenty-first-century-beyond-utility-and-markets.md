@@ -23,7 +23,7 @@ title: 'Publication: Review of Humanities in the Twenty-First Century: Beyond Ut
 wordpress_id: 2952
 wordpress_url: https://www.martineve.com/?p=2952
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfu6sck2u"
-kcworks: https://works.hcommons.org/records/9ab67-s2w71
+kcworks: https://works.hcommons.org/records/fkprp-cdq25
 references:
 - http://www.tandfonline.com/doi/abs/10.1080/0950236X.2013.860285 # Review of Belfiore in Textual Practice
 ---

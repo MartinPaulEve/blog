@@ -16,7 +16,7 @@ categories:
 - Open Access
 - Publications
 - Artificial Intelligence
-kcworks: https://works.hcommons.org/records/jk6hm-dj831
+kcworks: https://works.hcommons.org/records/pzdzd-1b057
 references:
 - https://onlinelibrary.wiley.com/toc/14678705/2017/59/3 # Critical Quarterly special issue 2017 vol 59 no 3
 - https://eprints.bbk.ac.uk/18690/1/criq.12359.pdf # Eve, Great Automatic Grammatizator, Birkbeck eprint

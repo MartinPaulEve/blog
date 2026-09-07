@@ -12,7 +12,7 @@ title: Pangolin, Newt, Gerbil and custom ports
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvqzpul2p"
 categories:
 - Technology
-kcworks: https://works.hcommons.org/records/ndyz1-7t012
+kcworks: https://works.hcommons.org/records/vwhre-gq536
 references:
 - title: 'GitHub - fosrl/pangolin: Modern networking and security platform providing secure access and connectivity to apps, infrastructure, and AI workloads. Connect and protect your users.'
   type: SoftwareSourceCode

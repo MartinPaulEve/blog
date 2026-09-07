@@ -50,7 +50,7 @@ title: 'Thoughts from "Calling All Agents": The first symposium on the work of T
 wordpress_id: 1334
 wordpress_url: https://www.martineve.com/?p=1334
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk3pqkr2e"
-kcworks: https://works.hcommons.org/records/p5j6w-w2023
+kcworks: https://works.hcommons.org/records/9bmev-hmd90
 references:
 - http://magnusbjorn.blogspot.com/2009/07/calling-all-agents.html # Blog post: all code is burial
 - date: '2008-01-18'

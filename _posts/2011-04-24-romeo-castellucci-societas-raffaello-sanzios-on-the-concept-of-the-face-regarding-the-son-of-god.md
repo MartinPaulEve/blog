@@ -23,7 +23,7 @@ title: Romeo Castellucci / Socìetas Raffaello Sanzio's "On the Concept of the F
 wordpress_id: 1005
 wordpress_url: https://www.martineve.com/?p=1005
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkeaow22a"
-kcworks: https://works.hcommons.org/records/gaqbh-yzr55
+kcworks: https://works.hcommons.org/records/90k9a-5fv11
 references:
 - author: Michael Billington
   date: '2011-04-22'

@@ -13,7 +13,7 @@ title: How to securely create an encrypted digital 'in case of death' document
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lw6esu32q"
 categories:
 - Information Security
-kcworks: https://works.hcommons.org/records/vf7vv-1e758
+kcworks: https://works.hcommons.org/records/y6gxm-vyy12
 references:
 - author: Ross Naylor
   date: '2025-03-12'

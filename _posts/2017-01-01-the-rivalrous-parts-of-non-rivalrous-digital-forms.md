@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mapzeyo
 categories:
 - Open Access
 - Philosophy
-kcworks: https://works.hcommons.org/records/x0m39-9g262
+kcworks: https://works.hcommons.org/records/wkanc-1nz13
 references:
 - author: Peter Suber
   date: '2009-11-02'

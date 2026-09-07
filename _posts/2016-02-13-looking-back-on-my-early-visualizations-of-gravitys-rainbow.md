@@ -16,7 +16,7 @@ tags:
 title: 'Undergraduates, digital humanities, and visualization: looking back on my
   early visualizations of Gravity''s Rainbow'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbsrex32p"
-kcworks: https://works.hcommons.org/records/sb0ry-cw270
+kcworks: https://works.hcommons.org/records/w6dqm-r6x16
 references:
 - author: Nadine Leese
   date: '2016-02-13'

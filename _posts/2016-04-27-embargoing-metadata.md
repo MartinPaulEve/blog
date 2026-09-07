@@ -11,7 +11,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbhqhww
 categories:
 - Open Access
 - Scholarly Communications
-kcworks: https://works.hcommons.org/records/6z69y-4px45
+kcworks: https://works.hcommons.org/records/stqef-jy427
 references:
 - http://www.hefce.ac.uk/rsrch/oa/FAQ/#discovery5 # HEFCE open access FAQ metadata embargo provision
 ---

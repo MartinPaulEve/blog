@@ -14,7 +14,7 @@ title: The Observer should not offer column inches to allow Oxford College princ
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m4tuee52o"
 categories:
 - Higher Education
-kcworks: https://works.hcommons.org/records/e140p-eyd75
+kcworks: https://works.hcommons.org/records/ns786-vpk46
 references:
 - author: Will Hutton
   date: '2020-10-04'

@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5ur2se
 categories:
 - Open Access
 - Higher Education
-kcworks: https://works.hcommons.org/records/qzj4g-18377
+kcworks: https://works.hcommons.org/records/wrpv2-s4r05
 references:
 - https://doi.org/10.1017/9781108675376 # Hawker, Economics of Academic Bookselling
 - https://unsplash.com/photos/e0cZ_WRHVxw # Florencia Viadana Unsplash photo

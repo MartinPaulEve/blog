@@ -13,7 +13,7 @@ title: An important note if you have a Lenovo G580
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mad2kji2a"
 categories:
 - Technology
-kcworks: https://works.hcommons.org/records/wrw09-f7951
+kcworks: https://works.hcommons.org/records/7w5w4-xd083
 references:
 - https://download.lenovo.com/consumer/mobiles/62cn97ww_64.exe # Lenovo G580 BIOS update executable download
 ---

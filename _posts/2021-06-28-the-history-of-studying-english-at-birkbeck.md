@@ -15,7 +15,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3afxmy
 categories:
 - Literature
 - Academia
-kcworks: https://works.hcommons.org/records/4fktj-j3z43
+kcworks: https://works.hcommons.org/records/gp5x3-0sp17
 references:
 - title: History of the English department
   type: WebPage

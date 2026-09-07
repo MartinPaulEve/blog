@@ -19,7 +19,7 @@ title: On Freedom of Speech
 wordpress_id: 2491
 wordpress_url: https://www.martineve.com/?p=2491
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhmuoas2s"
-kcworks: https://works.hcommons.org/records/zgp2w-hfb22
+kcworks: https://works.hcommons.org/records/dp2vq-kdf81
 references:
 - date: '2012-11-13'
   title: Police accused of over-zealous reaction to poppy burning

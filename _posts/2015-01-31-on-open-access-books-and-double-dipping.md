@@ -19,7 +19,7 @@ tags:
 - double dipping
 title: On open-access books and “double dipping”
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdbfb6c2q"
-kcworks: https://works.hcommons.org/records/mk3ja-5mr92
+kcworks: https://works.hcommons.org/records/t5j6k-vfq66
 references:
 - author: Paul Jump
   date: '2014-03-27'

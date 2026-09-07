@@ -16,7 +16,7 @@ published: true
 tags: []
 title: A final example to show that misquotation is nothing to do with open licensing
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcabxku2h"
-kcworks: https://works.hcommons.org/records/ke4jr-50n44
+kcworks: https://works.hcommons.org/records/h40r6-0sz87
 references:
 - author: Stewart Lee
   date: '2015-09-06'

@@ -13,7 +13,7 @@ title: 'Stern and REF: assessing the past to fund the future with non-portabilit
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mb5hml42r"
 categories:
 - Higher Education
-kcworks: https://works.hcommons.org/records/b60j9-8bc66
+kcworks: https://works.hcommons.org/records/1033c-eax47
 references:
 - https://figshare.com/articles/Excellence_R_Us_University_Research_and_the_Fetishisation_of_Excellence/3413821 # Eve, Excellence R Us figshare paper
 ---

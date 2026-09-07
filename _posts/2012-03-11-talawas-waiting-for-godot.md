@@ -19,7 +19,7 @@ title: Talawa's Waiting for Godot
 wordpress_id: 1961
 wordpress_url: https://www.martineve.com/2012/03/11/talawas-waiting-for-godot/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miq4yqd2h"
-kcworks: https://works.hcommons.org/records/1q150-hrs09
+kcworks: https://works.hcommons.org/records/de50x-gm881
 references:
 - author:
   - James Ball

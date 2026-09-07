@@ -15,7 +15,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7sc2l4
 categories:
 - Open Access
 - Higher Education
-kcworks: https://works.hcommons.org/records/m32xf-zz814
+kcworks: https://works.hcommons.org/records/0ytr6-r0m18
 references:
 - http://www.hefce.ac.uk/media/HEFCE,2014/Content/Pubs/2016/201636/HEFCE2016_36.pdf # HEFCE 2016 announcement on OA monograph mandate REF
 - title: UK SBS CR18077 Open Access Monographs

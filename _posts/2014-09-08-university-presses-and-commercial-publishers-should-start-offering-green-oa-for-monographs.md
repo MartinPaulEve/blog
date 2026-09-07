@@ -23,7 +23,7 @@ title: University Presses and Commercial Publishers should start offering green 
 wordpress_id: 3222
 wordpress_url: https://www.martineve.com/?p=3222
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7meogm7s2q"
-kcworks: https://works.hcommons.org/records/21x1c-e7936
+kcworks: https://works.hcommons.org/records/c0488-fjy50
 references:
 - http://www.sherpa.ac.uk/romeo/ # SHERPA/RoMEO journal publisher OA policies
 - author: Sierra Williams

@@ -24,7 +24,7 @@ title: Wireless when housesitting (airmon-ng)
 wordpress_id: 408
 wordpress_url: http://www.martineve.com/?p=408
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlo5ysc2a"
-kcworks: https://works.hcommons.org/records/zg5t5-5qc98
+kcworks: https://works.hcommons.org/records/es7v9-a3002
 references:
 - author: PreciousJohnDoe
   date: '2008-12-01'

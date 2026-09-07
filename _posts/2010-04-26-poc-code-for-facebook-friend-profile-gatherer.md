@@ -25,7 +25,7 @@ title: PoC Code for Facebook Friend Profile Gatherer
 wordpress_id: 227
 wordpress_url: http://pro.grammatic.org/post-poc-code-for-facebook-friend-profile-gatherer-75.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mm7tff42i"
-kcworks: https://works.hcommons.org/records/ehkam-qyc39
+kcworks: https://works.hcommons.org/records/8c33e-hde21
 references:
 - title: I know where you've been
   type: BlogPosting

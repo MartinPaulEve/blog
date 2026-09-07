@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6qp35p
 categories:
 - Piracy and Shadow Libraries
 - Copyright and Licensing
-kcworks: https://works.hcommons.org/records/n1qgt-y8h50
+kcworks: https://works.hcommons.org/records/vbc0q-8fa97
 references:
 - date: '2019-07-31'
   title: Citationsy (@Citationsy) on X

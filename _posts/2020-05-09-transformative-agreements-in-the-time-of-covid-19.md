@@ -13,7 +13,7 @@ title: Transformative agreements in the time of COVID-19
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5qzmc32i"
 categories:
 - Open Access
-kcworks: https://works.hcommons.org/records/qk3w1-16231
+kcworks: https://works.hcommons.org/records/9kqh7-k1v28
 references:
 - date: '2019-06-25'
   title: Commentary on cOAlition S's revised Plan S – what next for Open Access?

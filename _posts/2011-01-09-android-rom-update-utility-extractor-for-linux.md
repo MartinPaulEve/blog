@@ -34,7 +34,7 @@ title: Android Rom Update Utility extractor for Linux
 wordpress_id: 535
 wordpress_url: http://www.martineve.com/?p=535
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkxgfft2i"
-kcworks: https://works.hcommons.org/records/m87tw-hfj05
+kcworks: https://works.hcommons.org/records/pgfj5-s0852
 references:
 - title: Licenses
   type: WebPage

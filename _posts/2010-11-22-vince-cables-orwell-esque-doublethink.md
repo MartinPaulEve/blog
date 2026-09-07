@@ -22,7 +22,7 @@ title: Vince Cable's Orwell-esque doublethink
 wordpress_id: 440
 wordpress_url: http://www.martineve.com/?p=440
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mllev3u2h"
-kcworks: https://works.hcommons.org/records/bd31v-00a20
+kcworks: https://works.hcommons.org/records/9w4c4-vzj40
 references:
 - date: '2010-11-20'
   title: Lib Dems broke no tuition fee promise - Vince Cable

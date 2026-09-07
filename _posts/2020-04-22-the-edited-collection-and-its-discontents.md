@@ -13,7 +13,7 @@ title: The Edited Collection and its Discontents
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m64xi6v2s"
 categories:
 - Academia
-kcworks: https://works.hcommons.org/records/m0af2-wtp57
+kcworks: https://works.hcommons.org/records/evz2z-qv280
 references:
 - https://doi.org/10.1017/9781108683647 # Cambridge edited collection on publishing pasts and futures
 - https://unsplash.com/photos/1l4ozWuJtP4 # Lalaine Macababbad Unsplash photo

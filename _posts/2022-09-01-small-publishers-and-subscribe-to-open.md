@@ -13,7 +13,7 @@ title: Small publishers and subscribe to open
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lymg4xk2r"
 categories:
 - Open Access
-kcworks: https://works.hcommons.org/records/a39j5-3ka22
+kcworks: https://works.hcommons.org/records/gnjev-pjp32
 references:
 - date: '2022-08-18'
   title: Say Hello to Anno

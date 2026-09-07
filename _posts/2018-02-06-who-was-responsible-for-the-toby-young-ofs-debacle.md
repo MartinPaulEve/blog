@@ -11,7 +11,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7yaart
 categories:
 - Higher Education
 - Politics
-kcworks: https://works.hcommons.org/records/a8sch-rv119
+kcworks: https://works.hcommons.org/records/7ttfd-hgj13
 references:
 - author: Contributors to Wikimedia projects
   date: '2008-05-07'

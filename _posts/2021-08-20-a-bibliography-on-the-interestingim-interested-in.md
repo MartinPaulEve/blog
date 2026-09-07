@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2itznv
 categories:
 - Academia
 - Philosophy
-kcworks: https://works.hcommons.org/records/x45sz-1at34
+kcworks: https://works.hcommons.org/records/3t82f-45y40
 references:
 - author: Martin Paul Eve
   date: '2021-08-19'

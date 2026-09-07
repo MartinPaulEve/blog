@@ -11,7 +11,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mabdqni
 categories:
 - Thomas Pynchon
 - Digital Humanities
-kcworks: https://works.hcommons.org/records/hvr4r-1yp29
+kcworks: https://works.hcommons.org/records/3dvxd-8dv22
 references:
 - author: Nate Jones
   date: '2015-09-10'

@@ -12,7 +12,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbqmnl2
 categories:
 - Higher Education
 - Politics
-kcworks: https://works.hcommons.org/records/qvqxe-m6a45
+kcworks: https://works.hcommons.org/records/zknqr-zvc67
 references:
 - https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/504139/Independent_Freedom_of_Information_Commission_Report.pdf # Independent FOI Commission report PDF
 ---

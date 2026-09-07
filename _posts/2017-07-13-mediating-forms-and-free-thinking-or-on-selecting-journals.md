@@ -10,7 +10,7 @@ title: Mediating forms and free thinking (or "on selecting journals")
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7ma34qj62f"
 categories:
 - Academia
-kcworks: https://works.hcommons.org/records/25z73-mef15
+kcworks: https://works.hcommons.org/records/bvtn0-0ty24
 references:
 - author: Martin Paul Eve
   date: '2017-07-05'

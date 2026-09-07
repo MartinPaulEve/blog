@@ -23,7 +23,7 @@ title: On /That/ Statement by History Journal Editors
 wordpress_id: 2531
 wordpress_url: https://www.martineve.com/?p=2531
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhfc3lt2h"
-kcworks: https://works.hcommons.org/records/w71yv-69d57
+kcworks: https://works.hcommons.org/records/7ncpg-dzs35
 references:
 - author: Paul Jump
   date: '2012-12-20'

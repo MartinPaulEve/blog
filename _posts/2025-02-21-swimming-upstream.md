@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lw4afg2
 categories:
 - Scholarly Communications
 - Programming
-kcworks: https://works.hcommons.org/records/8gvmt-0he56
+kcworks: https://works.hcommons.org/records/77mpe-10439
 references:
 - date: '2025-02-05'
   title: 'Dumping open source for proprietary rarely pays off: Better to stick a fork in it'

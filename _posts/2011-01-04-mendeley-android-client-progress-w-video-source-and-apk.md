@@ -66,7 +66,7 @@ title: Mendeley Android Client Progress (w/ Video, Source and APK!)
 wordpress_id: 518
 wordpress_url: http://www.martineve.com/?p=518
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkyvkew2a"
-kcworks: https://works.hcommons.org/records/jt2kd-y3v51
+kcworks: https://works.hcommons.org/records/ynt4t-pjy62
 references:
 - http://code.google.com/p/mendeley-for-android/ # Mendeley for Android Google Code project
 - http://code.google.com/p/mendeley-for-android/source/checkout # Mendeley for Android source code checkout

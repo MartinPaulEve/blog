@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7hyjrg
 categories:
 - Open Access
 - Higher Education
-kcworks: https://works.hcommons.org/records/2mbcv-9dc48
+kcworks: https://works.hcommons.org/records/hdcsk-rym79
 references:
 - author: Stuart Shieber
   date: '2009-05-28'

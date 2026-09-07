@@ -23,7 +23,7 @@ title: 'UKSG Conference: photos and slides'
 wordpress_id: 2014
 wordpress_url: https://www.martineve.com/2012/04/04/uksg-conference-photos-and-slides/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miir4tp2i"
-kcworks: https://works.hcommons.org/records/3yqq0-1d488
+kcworks: https://works.hcommons.org/records/0t68y-mxf48
 references:
 - date: '2012-03-29'
   title: 'UKSG 2012: the freebies are already here, they''re just unevenly distributed'

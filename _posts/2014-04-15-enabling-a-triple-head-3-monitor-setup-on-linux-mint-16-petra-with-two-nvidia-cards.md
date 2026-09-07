@@ -22,7 +22,7 @@ title: Enabling a triple-head (3 monitor) setup on Linux Mint 16 ("Petra") with 
 wordpress_id: 3078
 wordpress_url: https://www.martineve.com/?p=3078
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfdktxx2t"
-kcworks: https://works.hcommons.org/records/n6ab8-b3y77
+kcworks: https://works.hcommons.org/records/fd38c-xg869
 references:
 - http://unix.stackexchange.com/questions/123862/how-can-i-get-xrandr-to-detect-both-nvidia-cards-2-x-gtx480-triple-head # Stack Exchange: xrandr dual Nvidia triple-head question
 ---

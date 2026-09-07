@@ -14,7 +14,7 @@ tags:
 - scholarly communications
 title: 'The politics of style: on styleguides in scholarly communications'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcghwob2q"
-kcworks: https://works.hcommons.org/records/bc1aq-db768
+kcworks: https://works.hcommons.org/records/5ycbf-ywt51
 references:
 - https://www.openlibhums.org # Open Library of Humanities publisher site
 ---

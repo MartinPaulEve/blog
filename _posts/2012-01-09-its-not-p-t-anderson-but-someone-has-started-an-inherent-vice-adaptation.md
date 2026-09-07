@@ -18,7 +18,7 @@ title: It's not P.T. Anderson, but someone has started an Inherent Vice adaptati
 wordpress_id: 1795
 wordpress_url: https://www.martineve.com/2012/01/09/its-not-p-t-anderson-but-someone-has-started-an-inherent-vice-adaptation/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mj2e3em2h"
-kcworks: https://works.hcommons.org/records/8ba46-qdz47
+kcworks: https://works.hcommons.org/records/1mrp3-p2z32
 references:
 - author: John Lopez
   date: '2011-03-08'

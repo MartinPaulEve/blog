@@ -21,7 +21,7 @@ title: 'Picture This: Postcards Exhibition'
 wordpress_id: 902
 wordpress_url: https://www.martineve.com/?p=902
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkimkiw2a"
-kcworks: https://works.hcommons.org/records/we3w2-bdg60
+kcworks: https://works.hcommons.org/records/tp4wn-jv423
 references:
 - http://www.inqbate.co.uk/images/annotated%20inqbate%20map.jpg # Annotated INQBATE building map image
 ---

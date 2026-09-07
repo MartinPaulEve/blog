@@ -21,7 +21,7 @@ title: Photograph and Interview in the Guardian
 wordpress_id: 1054
 wordpress_url: https://www.martineve.com/?p=1054
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkdpozp2r"
-kcworks: https://works.hcommons.org/records/wm318-hy533
+kcworks: https://works.hcommons.org/records/qab1t-rd548
 references:
 - author: Alison Flood
   date: '2011-05-13'

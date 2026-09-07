@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7gp5a5
 categories:
 - Open Access
 - Copyright and Licensing
-kcworks: https://works.hcommons.org/records/v5ptc-vx438
+kcworks: https://works.hcommons.org/records/fjva5-bxv42
 references:
 - http://dx.doi.org/10.1017/CBO9781316161012 # Eve, Open Access and the Humanities Cambridge UP
 ---

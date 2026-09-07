@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbocwdv
 categories:
 - Open Access
 - Health
-kcworks: https://works.hcommons.org/records/t4t97-6hd35
+kcworks: https://works.hcommons.org/records/8vsbd-a1313
 references:
 - http://dx.doi.org/10.1016/j.jvs.2011.02.059 # Journal article on carotid artery dissection outcomes
 - http://dx.doi.org/10.1056/NEJM200103223441206 # NEJM case study paywalled article

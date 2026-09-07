@@ -14,7 +14,7 @@ title: 'Open Access Resources and Evaluation; or: why OA journals might fare bad
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7z5e5n2e"
 categories:
 - Open Access
-kcworks: https://works.hcommons.org/records/qehnx-e6d12
+kcworks: https://works.hcommons.org/records/xz6sn-k7y07
 references:
 - author: Bill McKibben
   date: '2017-08-08'

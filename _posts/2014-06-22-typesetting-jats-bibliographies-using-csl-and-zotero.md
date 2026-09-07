@@ -24,7 +24,7 @@ title: Typesetting JATS bibliographies using CSL and Zotero
 wordpress_id: 3139
 wordpress_url: https://www.martineve.com/?p=3139
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mf2f3ie2p"
-kcworks: https://works.hcommons.org/records/mhjjr-nam98
+kcworks: https://works.hcommons.org/records/97c82-xkx16
 references:
 - title: 'GitHub - MartinPaulEve/meCite: meCite is a modular, extensible, regular-expression-based citation parsing library'
   type: SoftwareSourceCode

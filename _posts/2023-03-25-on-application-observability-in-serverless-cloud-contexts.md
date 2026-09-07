@@ -13,7 +13,7 @@ title: On application observability in serverless cloud contexts
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7ly7qqbm2h"
 categories:
 - Programming
-kcworks: https://works.hcommons.org/records/95axh-ptg68
+kcworks: https://works.hcommons.org/records/ebwdr-0vp80
 references:
 - title: Instrument your FastAPI with Prometheus metrics.
   type: SoftwareSourceCode

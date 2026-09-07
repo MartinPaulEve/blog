@@ -21,7 +21,7 @@ title: Day 2 of Twenty-First-Century Literature Conference at Birkbeck
 wordpress_id: 2106
 wordpress_url: https://www.martineve.com/?p=2106
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mif6lss2a"
-kcworks: https://works.hcommons.org/records/jdf8d-n2921
+kcworks: https://works.hcommons.org/records/qnsym-28t44
 references:
 - date: '2007-10-30'
   title: Cell phone novel

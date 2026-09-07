@@ -23,7 +23,7 @@ title: Podcast on Open Source, Open Access publishing
 wordpress_id: 1939
 wordpress_url: https://www.martineve.com/2012/02/27/podcast-on-open-source-open-access-publishing/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miqsbo22n"
-kcworks: https://works.hcommons.org/records/jqppg-s2m48
+kcworks: https://works.hcommons.org/records/prb91-47r21
 references:
 - date: '2012-02-27'
   title: Podcast with Martin Eve about Open Source Academic Publishing

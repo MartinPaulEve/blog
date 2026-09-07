@@ -21,7 +21,7 @@ title: A bad day for browsers
 wordpress_id: 274
 wordpress_url: http://pro.grammatic.org/post-a-bad-day-for-browsers-25.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mngf45i2f"
-kcworks: https://works.hcommons.org/records/qzv52-j4197
+kcworks: https://works.hcommons.org/records/z4115-gpm02
 references:
 - author: Michal Zalewski
   title: Assorted browser vulnerabilities

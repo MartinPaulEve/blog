@@ -10,7 +10,7 @@ title: My critique of metamodernism
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7svteb2a"
 categories:
 - Literature
-kcworks: https://works.hcommons.org/records/q0pwc-8a526
+kcworks: https://works.hcommons.org/records/79aks-wcn90
 references:
 - author: Martin Paul Eve
   date: 2012-10

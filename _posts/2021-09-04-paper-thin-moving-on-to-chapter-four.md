@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2fzxp2
 categories:
 - Academia
 - Digital Humanities
-kcworks: https://works.hcommons.org/records/z399b-hm516
+kcworks: https://works.hcommons.org/records/9p5p6-zs841
 references:
 - https://eprints.bbk.ac.uk/id/eprint/31744/ # Eve, Paper Thin forthcoming book, BBK eprint
 - https://eprints.bbk.ac.uk/id/eprint/43860/ # Eve, The Virtual Page Almost Never Existed, BBK eprint

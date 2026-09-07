@@ -13,7 +13,7 @@ title: Integration testing locally and on GitLab CI using LocalStack
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lyfg57y2n"
 categories:
 - Programming
-kcworks: https://works.hcommons.org/records/hhm7v-32a11
+kcworks: https://works.hcommons.org/records/4vxgp-gfh77
 references:
 - https://pypi.org/project/pytest-localstack/ # pytest-localstack PyPI package
 - title: aws_utils.py

@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2h4chk
 categories:
 - Digital Humanities
 - Programming
-kcworks: https://works.hcommons.org/records/8en1r-7w923
+kcworks: https://works.hcommons.org/records/tvfm9-vsn04
 references:
 - author: Martin Paul Eve
   date: '2021-08-22'

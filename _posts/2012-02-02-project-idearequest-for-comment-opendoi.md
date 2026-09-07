@@ -144,7 +144,7 @@ title: 'Project idea/request for comment: OpenDOI'
 wordpress_id: 1881
 wordpress_url: https://www.martineve.com/?p=1881
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mixh23v2t"
-kcworks: https://works.hcommons.org/records/8dart-47q76
+kcworks: https://works.hcommons.org/records/5w13a-b2p17
 references:
 - author: Stefano Mortellaro
   title: Stefano Mortellaro

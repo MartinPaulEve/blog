@@ -13,7 +13,7 @@ title: The proliferation of business models for open-access books
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2e6wcl2t"
 categories:
 - Open Access
-kcworks: https://works.hcommons.org/records/01tmv-cc873
+kcworks: https://works.hcommons.org/records/zw2wv-wce84
 references:
 - http://doi.org/10.1629/uksg.392 # UKSG article on BPC distribution across institutions
 - title: Opening the Future

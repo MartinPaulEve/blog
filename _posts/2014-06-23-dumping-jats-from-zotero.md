@@ -23,7 +23,7 @@ title: Dumping JATS from Zotero
 wordpress_id: 3143
 wordpress_url: https://www.martineve.com/?p=3143
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7meyyjoc2u"
-kcworks: https://works.hcommons.org/records/4dqpb-9rz80
+kcworks: https://works.hcommons.org/records/gpq8j-jzp52
 references:
 - title: GitHub - MartinPaulEve/meTypeset at zotero
   type: SoftwareSourceCode

@@ -13,7 +13,7 @@ title: The Stern review of REF
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mb5vrp42r"
 categories:
 - Higher Education
-kcworks: https://works.hcommons.org/records/gbrrw-ck582
+kcworks: https://works.hcommons.org/records/6ac50-p8679
 references:
 - https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/541338/ind-16-9-ref-stern-review.pdf # Lord Stern review of the REF PDF
 ---

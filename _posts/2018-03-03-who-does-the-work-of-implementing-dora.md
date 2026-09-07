@@ -10,7 +10,7 @@ title: Who does the work of implementing DORA?
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7y4s6a2h"
 categories:
 - Academia
-kcworks: https://works.hcommons.org/records/2kgx7-njb56
+kcworks: https://works.hcommons.org/records/4xq42-ygr86
 references:
 - title: DORA
   type: WebSite

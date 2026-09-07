@@ -90,7 +90,7 @@ title: Prisoner Rights, Overcriminalisation and Reform in Democracy
 wordpress_id: 795
 wordpress_url: https://www.martineve.com/?p=795
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkl4svd2h"
-kcworks: https://works.hcommons.org/records/r20p6-6pq86
+kcworks: https://works.hcommons.org/records/79pb4-de891
 references:
 - author: Still Burning
   title: Still Burning

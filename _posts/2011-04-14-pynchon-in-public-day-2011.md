@@ -19,7 +19,7 @@ title: Pynchon in Public Day 2011
 wordpress_id: 973
 wordpress_url: https://www.martineve.com/?p=973
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkexavd2n"
-kcworks: https://works.hcommons.org/records/ry0k8-8z431
+kcworks: https://works.hcommons.org/records/89ca3-bb470
 references:
 - http://www.pynchoninpublic.com # Pynchon in Public Day annual May 8th event site
 - title: Thurn Und Taxis Postal Adventure

@@ -21,7 +21,7 @@ tags:
 - Book
 title: 'Book: Open Access and the Humanities'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdr3re72t"
-kcworks: https://works.hcommons.org/records/mkpp1-1y863
+kcworks: https://works.hcommons.org/records/gs4qd-hrp32
 references:
 - http://www.cambridge.org/martineve # Cambridge University Press page for Eve's OA book
 - author: Martin Paul Eve

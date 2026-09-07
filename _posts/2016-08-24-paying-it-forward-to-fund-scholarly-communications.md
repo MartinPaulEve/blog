@@ -13,7 +13,7 @@ title: '''Paying it forward'' to fund scholarly communications?'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mb2xkcm2n"
 categories:
 - Open Access
-kcworks: https://works.hcommons.org/records/wtkn7-3q815
+kcworks: https://works.hcommons.org/records/c5e0g-zqm59
 references:
 - author: Alison Mudditt
   date: '2016-08-24'

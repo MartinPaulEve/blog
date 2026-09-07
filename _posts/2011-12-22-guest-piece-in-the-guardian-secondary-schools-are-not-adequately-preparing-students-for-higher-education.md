@@ -206,7 +206,7 @@ title: 'Guest piece in the Guardian: Secondary schools are not adequately prepar
 wordpress_id: 1698
 wordpress_url: https://www.martineve.com/?p=1698
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjc3doh2f"
-kcworks: https://works.hcommons.org/records/ztxcy-v8t46
+kcworks: https://works.hcommons.org/records/nqfqy-w2r54
 references:
 - author: Martin Paul Eve
   date: '2011-12-22'

@@ -20,7 +20,7 @@ title: Jeffrey Archer's 140-character story and plagiarism
 wordpress_id: 2426
 wordpress_url: https://www.martineve.com/?p=2426
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhr7ybc2a"
-kcworks: https://works.hcommons.org/records/wz170-9vg40
+kcworks: https://works.hcommons.org/records/srcd3-cea79
 references:
 - author:
   - Geoff Dyer

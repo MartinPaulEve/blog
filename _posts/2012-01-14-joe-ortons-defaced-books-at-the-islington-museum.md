@@ -19,7 +19,7 @@ title: Joe Orton's Defaced Books at the Islington Museum
 wordpress_id: 1837
 wordpress_url: https://www.martineve.com/?p=1837
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mizgvwj2e"
-kcworks: https://works.hcommons.org/records/2bfyg-dc790
+kcworks: https://works.hcommons.org/records/ec2tf-xbn20
 references:
 - title: Freud Museum London - The Home of Sigmund Freud
   type: WebSite

@@ -15,7 +15,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6qa3oi
 categories:
 - Open Access
 - Academia
-kcworks: https://works.hcommons.org/records/wz57f-ffn69
+kcworks: https://works.hcommons.org/records/pcvdd-hhw64
 references:
 - author: Jeff Pooley
   date: '2019-09-03'

@@ -13,7 +13,7 @@ title: Learned Societies Plan S report and a note on double dipping
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m77rkfv2i"
 categories:
 - Open Access
-kcworks: https://works.hcommons.org/records/ec8pe-5qk03
+kcworks: https://works.hcommons.org/records/sh2m6-j2v04
 references:
 - https://adamesmith.files.wordpress.com/2014/11/nov-2014-the-empire-strikes-back-alicia-wise-elsevier-profile.pdf # Alicia Wise Elsevier profile, Empire Strikes Back 2014
 ---

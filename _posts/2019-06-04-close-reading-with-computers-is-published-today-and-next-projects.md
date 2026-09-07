@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6v525a
 categories:
 - Publications
 - Digital Humanities
-kcworks: https://works.hcommons.org/records/a8msj-0p785
+kcworks: https://works.hcommons.org/records/y92w6-dd458
 references:
 - http://www.combinedacademic.co.uk/close-reading-with-computers # Combined Academic: Close Reading with Computers order page
 - https://doi.org/10.16995/olh.82 # Eve, Close Reading with Computers chapter 1, OLH

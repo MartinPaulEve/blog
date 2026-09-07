@@ -5,7 +5,7 @@ backlink:
 date: 2025-12-28
 last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/hqbwp-cx806
-kcworks: https://works.hcommons.org/records/75y0z-aja56
+kcworks: https://works.hcommons.org/records/4rn35-1wq30
 roguescholar: https://rogue-scholar.org/records/msafj-qxj47
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvjqmoe2i
 image:

@@ -13,7 +13,7 @@ title: A data pipeline with Apache Airflow and Dask
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lyglk722a"
 categories:
 - Programming
-kcworks: https://works.hcommons.org/records/bfm0b-y8x86
+kcworks: https://works.hcommons.org/records/e2vq5-yqw18
 references:
 - title: Martin Eve
   type: WebPage

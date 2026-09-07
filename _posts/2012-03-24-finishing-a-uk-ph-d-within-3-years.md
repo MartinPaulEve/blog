@@ -138,7 +138,7 @@ title: Finishing a UK Ph.D. within 3 years
 wordpress_id: 1985
 wordpress_url: https://www.martineve.com/?p=1985
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mip3qbt2h"
-kcworks: https://works.hcommons.org/records/r7qfm-28j96
+kcworks: https://works.hcommons.org/records/7thfw-1hv37
 references:
 - author: Kevin Dooley
   title: Kevin Dooley

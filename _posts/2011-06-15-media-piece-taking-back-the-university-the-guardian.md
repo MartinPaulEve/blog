@@ -40,7 +40,7 @@ title: 'Media piece: "Taking Back the University", The Guardian'
 wordpress_id: 1173
 wordpress_url: https://www.martineve.com/?p=1173
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkaufa62t"
-kcworks: https://works.hcommons.org/records/0hmn7-9d776
+kcworks: https://works.hcommons.org/records/h3ysb-y2w12
 references:
 - author: Jennifer M Jones
   title: Jennifer M Jones

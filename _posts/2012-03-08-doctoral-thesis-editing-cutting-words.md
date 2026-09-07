@@ -29,7 +29,7 @@ title: 'Doctoral Thesis Editing: Cutting Words'
 wordpress_id: 1947
 wordpress_url: https://www.martineve.com/2012/03/08/doctoral-thesis-editing-cutting-words/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miqgt6o2p"
-kcworks: https://works.hcommons.org/records/2hzyy-fqj02
+kcworks: https://works.hcommons.org/records/qj6fm-d7z57
 references:
 - author: Azri
   title: Azri

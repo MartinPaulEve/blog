@@ -19,7 +19,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m24dobv
 categories:
 - Academia
 - Personal
-kcworks: https://works.hcommons.org/records/p7h07-bdb70
+kcworks: https://works.hcommons.org/records/ky5c0-sfn67
 references:
 - title: Sentenc.es - A Disciplined Way To Deal With Email
   type: WebPage

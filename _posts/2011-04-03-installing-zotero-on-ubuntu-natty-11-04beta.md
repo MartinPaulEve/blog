@@ -78,7 +78,7 @@ title: Installing Zotero on Ubuntu Natty (11.04/Beta)
 wordpress_id: 924
 wordpress_url: https://www.martineve.com/?p=924
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkhkmlj2e"
-kcworks: https://works.hcommons.org/records/aek2d-hb668
+kcworks: https://works.hcommons.org/records/1qg49-sj831
 references:
 - http://archive.canonical.com/ubuntu # Canonical Ubuntu archive repository
 - title: Zotero

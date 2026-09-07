@@ -21,7 +21,7 @@ title: Implementing COinS
 wordpress_id: 22
 wordpress_url: http://new.martineve.com/?p=22
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmbo4hm2s"
-kcworks: https://works.hcommons.org/records/7er1y-qrj37
+kcworks: https://works.hcommons.org/records/h0xfn-rjd19
 references:
 - title: COinS / conference papers imported incorrectly by Zotero
   type: WebPage

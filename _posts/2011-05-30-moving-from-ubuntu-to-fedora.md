@@ -76,7 +76,7 @@ title: Moving from Ubuntu to Fedora
 wordpress_id: 1105
 wordpress_url: https://www.martineve.com/?p=1105
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkcufwy2q"
-kcworks: https://works.hcommons.org/records/prh5m-83187
+kcworks: https://works.hcommons.org/records/ne292-10q05
 references:
 - title: Fedora Linux
   type: WebSite

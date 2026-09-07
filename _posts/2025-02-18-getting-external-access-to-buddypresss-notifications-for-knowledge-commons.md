@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lw5bhzw
 categories:
 - Programming
 - Scholarly Communications
-kcworks: https://works.hcommons.org/records/y8esg-trq29
+kcworks: https://works.hcommons.org/records/q0d8y-20k90
 references:
 - title: Knowledge Commons
   type: WebSite

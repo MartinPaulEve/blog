@@ -24,7 +24,7 @@ title: 'Conference Paper: Thomas Pynchon, David Foster Wallace and Twenty-First-
 wordpress_id: 1910
 wordpress_url: https://www.martineve.com/?p=1910
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mirsbrh2i"
-kcworks: https://works.hcommons.org/records/mds6j-cft30
+kcworks: https://works.hcommons.org/records/11amv-1bj15
 references:
 - http://www.lincoln.ac.uk/home/campuslife/whatson/eventsconferences/event%20name,8029,en.html # What Happens Now conference at Lincoln
 - author: Steve Rhodes

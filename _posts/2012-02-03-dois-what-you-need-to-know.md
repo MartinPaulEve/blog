@@ -78,7 +78,7 @@ title: 'DOIs: What you need to know'
 wordpress_id: 1889
 wordpress_url: https://www.martineve.com/2012/02/03/dois-what-you-need-to-know/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miwym6q2o"
-kcworks: https://works.hcommons.org/records/53g2a-q4g94
+kcworks: https://works.hcommons.org/records/93yqc-10k02
 references:
 - title: biblioteekje
   type: WebPage

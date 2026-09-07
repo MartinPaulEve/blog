@@ -13,7 +13,7 @@ title: On the overhead of 'business models'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5lpuuh2h"
 categories:
 - Open Access
-kcworks: https://works.hcommons.org/records/9pgcf-yw089
+kcworks: https://works.hcommons.org/records/5zqf9-xvx65
 references:
 - https://openlibhums.org/plugins/supporters/signup/ # Open Library of Humanities institutional supporter signup
 ---

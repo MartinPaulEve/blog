@@ -23,7 +23,7 @@ title: Evaluating the Open Access software toolchain
 wordpress_id: 2737
 wordpress_url: https://www.martineve.com/?p=2737
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgofozx2a"
-kcworks: https://works.hcommons.org/records/43622-3bd12
+kcworks: https://works.hcommons.org/records/1k23d-dvb96
 references:
 - author: Nate Wright
   title: NateWr - Overview

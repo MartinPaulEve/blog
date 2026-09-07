@@ -24,7 +24,7 @@ title: Publishing articles in PDF via XML/XSLT using Open Journal Systems 2.3.6
 wordpress_id: 1472
 wordpress_url: https://www.martineve.com/?p=1472
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjwpcqs2a"
-kcworks: https://works.hcommons.org/records/1mtcz-r2b17
+kcworks: https://works.hcommons.org/records/97pz2-s7b61
 references:
 - title: A plugin for Open Journal Systems to generate PDF galleys from XML
   type: SoftwareSourceCode

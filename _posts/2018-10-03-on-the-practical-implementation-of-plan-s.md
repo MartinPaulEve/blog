@@ -13,7 +13,7 @@ title: On the practical implementation of Plan S
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7ojuto2s"
 categories:
 - Open Access
-kcworks: https://works.hcommons.org/records/r8jw0-8s759
+kcworks: https://works.hcommons.org/records/2tdhh-2t504
 references:
 - author: Martin Paul Eve
   date: '2018-09-05'

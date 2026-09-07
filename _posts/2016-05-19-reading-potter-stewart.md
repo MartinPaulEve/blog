@@ -10,7 +10,7 @@ title: Reading Potter Stewart on recognition
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbfbqfw2u"
 categories:
 - Philosophy
-kcworks: https://works.hcommons.org/records/801m9-k5331
+kcworks: https://works.hcommons.org/records/v33qr-v2t52
 references:
 - author: Contributors to Wikimedia projects
   date: '2004-05-17'

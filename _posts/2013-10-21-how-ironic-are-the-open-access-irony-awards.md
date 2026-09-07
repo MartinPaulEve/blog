@@ -21,7 +21,7 @@ title: How ironic are the open access irony awards?
 wordpress_id: 2912
 wordpress_url: https://www.martineve.com/?p=2912
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfz6tfh2i"
-kcworks: https://works.hcommons.org/records/1cs14-8c044
+kcworks: https://works.hcommons.org/records/tpz56-5de08
 references:
 - date: '2012-02-15'
   title: 'The Open Access Irony Awards: Naming and shaming them'

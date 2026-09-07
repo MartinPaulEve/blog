@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7magzuue
 categories:
 - Publishing Technology
 - Programming
-kcworks: https://works.hcommons.org/records/p8xcr-05z34
+kcworks: https://works.hcommons.org/records/371ad-87f56
 references:
 - title: 'GitHub - MartinPaulEve/meTypeset: meTypeset is a tool to convert from Microsoft Word .docx format to NLM/JATS-XML for scholarly/scientific article typesetting.'
   type: SoftwareSourceCode

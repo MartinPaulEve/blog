@@ -23,7 +23,7 @@ title: Crude, but helpful, typesetting script from meXml
 wordpress_id: 2440
 wordpress_url: https://www.martineve.com/?p=2440
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhqnu6h2i"
-kcworks: https://works.hcommons.org/records/8g8nr-xy023
+kcworks: https://works.hcommons.org/records/tj8ky-mey94
 references:
 - title: Add crude python script to assist with typesetting
   type: WebPage

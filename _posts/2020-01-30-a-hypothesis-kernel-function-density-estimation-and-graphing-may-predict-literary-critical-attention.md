@@ -12,7 +12,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6jezwv
 categories:
 - Digital Humanities
 - Thomas Pynchon
-kcworks: https://works.hcommons.org/records/sdwh3-3j453
+kcworks: https://works.hcommons.org/records/167hq-prv95
 references:
 - title: 'GitHub - davidmcclure/textplot: (Mental) maps of texts with kernel density estimation and force-directed networks.'
   type: SoftwareSourceCode

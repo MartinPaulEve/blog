@@ -13,7 +13,7 @@ title: Hacking the full site editor in WordPress
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvtlk2w2r"
 categories:
 - Programming
-kcworks: https://works.hcommons.org/records/ng3z2-0rr85
+kcworks: https://works.hcommons.org/records/xbr03-8rf22
 references:
 - title: Knowledge Commons
   type: WebSite

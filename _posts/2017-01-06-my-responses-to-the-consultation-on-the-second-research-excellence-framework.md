@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7maho65g
 categories:
 - Higher Education
 - Open Access
-kcworks: https://works.hcommons.org/records/nb9at-eby88
+kcworks: https://works.hcommons.org/records/26n73-axz85
 references:
 - http://www.hefce.ac.uk/pubs/year/2016/201636/ # HEFCE REF2 consultation document 2016
 - author:

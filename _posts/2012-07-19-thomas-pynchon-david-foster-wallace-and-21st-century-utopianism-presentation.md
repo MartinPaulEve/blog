@@ -22,7 +22,7 @@ title: Thomas Pynchon, David Foster Wallace and 21st-Century Utopianism (present
 wordpress_id: 2236
 wordpress_url: https://www.martineve.com/?p=2236
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mi5jumu2h"
-kcworks: https://works.hcommons.org/records/tfbjc-xq036
+kcworks: https://works.hcommons.org/records/rtzgj-x2d77
 references:
 - http://prezi.com/bin/preziloader.swf # Prezi Flash player loader
 - author: Martin Eve

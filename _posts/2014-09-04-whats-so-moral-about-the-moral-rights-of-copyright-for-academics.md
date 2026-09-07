@@ -23,7 +23,7 @@ title: What's so moral about the "moral rights" of copyright for academics?
 wordpress_id: 3203
 wordpress_url: https://www.martineve.com/?p=3203
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7meuodsh2a"
-kcworks: https://works.hcommons.org/records/a4hkb-n0k31
+kcworks: https://works.hcommons.org/records/y4wrk-w9z35
 references:
 - title: Open Access (the book)
   type: WebPage

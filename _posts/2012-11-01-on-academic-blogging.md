@@ -18,7 +18,7 @@ title: On Academic Blogging
 wordpress_id: 2462
 wordpress_url: https://www.martineve.com/?p=2462
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhnn7gw2p"
-kcworks: https://works.hcommons.org/records/t6d3g-scs47
+kcworks: https://works.hcommons.org/records/6vzpe-e9b48
 references:
 - author: Chris Parr
   date: '2012-11-01'

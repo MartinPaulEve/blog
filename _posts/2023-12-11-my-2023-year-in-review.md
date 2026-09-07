@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lxa7t43
 categories:
 - Personal
 - Academia
-kcworks: https://works.hcommons.org/records/665y7-grx19
+kcworks: https://works.hcommons.org/records/ad7wz-1fr37
 references:
 - title: Crossref Labs API
   type: WebSite

@@ -182,7 +182,7 @@ title: 'A dissenting voice on #AcBoWriMo'
 wordpress_id: 1583
 wordpress_url: https://www.martineve.com/2011/11/02/a-dissenting-voice-on-acbowrimo/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjgd2jj2o"
-kcworks: https://works.hcommons.org/records/32k0a-05561
+kcworks: https://works.hcommons.org/records/g4ts5-w7236
 references:
 - title: PhD2Published
   type: WebSite

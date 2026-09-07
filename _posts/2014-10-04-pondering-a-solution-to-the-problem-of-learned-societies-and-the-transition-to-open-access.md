@@ -23,7 +23,7 @@ title: Pondering a solution to the problem of Learned Societies and the transiti
 wordpress_id: 3244
 wordpress_url: https://www.martineve.com/?p=3244
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7medcfsc2h"
-kcworks: https://works.hcommons.org/records/40exa-5kr51
+kcworks: https://works.hcommons.org/records/bs68s-6dh61
 references:
 - https://www.openlibhums.org # Open Library of Humanities platform
 - https://www.openlibhums.org/about/library-partnership-subsidy-lps-flyer/ # OLH library partnership subsidy model flyer

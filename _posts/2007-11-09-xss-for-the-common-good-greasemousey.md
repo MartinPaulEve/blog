@@ -33,7 +33,7 @@ title: XSS for the common good - GreaseMousey
 wordpress_id: 261
 wordpress_url: http://pro.grammatic.org/post-xss-for-the-common-good--greasemousey-39.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mn7y4la2f"
-kcworks: https://works.hcommons.org/records/qc95x-p9g21
+kcworks: https://works.hcommons.org/records/90a1s-12560
 references:
 - title: Mozilla XML Namespace
   type: WebPage

@@ -19,7 +19,7 @@ title: 'Brief Interviews with Hideous Men: Live Stage Version at the ICA'
 wordpress_id: 2298
 wordpress_url: https://www.martineve.com/?p=2298
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhvahmj2e"
-kcworks: https://works.hcommons.org/records/nzszm-5ty42
+kcworks: https://works.hcommons.org/records/dh5fs-fv073
 references:
 - author: Steve Rhodes
   title: Steve Rhodes

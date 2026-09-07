@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5nzs3f
 categories:
 - Copyright and Licensing
 - Open Access
-kcworks: https://works.hcommons.org/records/59z1n-jrf65
+kcworks: https://works.hcommons.org/records/0me6a-mdr88
 references:
 - https://unsplash.com/photos/Tzm3Oyu_6sk # Bank Phrom Unsplash photo
 ---

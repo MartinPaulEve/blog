@@ -22,7 +22,7 @@ title: Fixing broken spellcheck in Thunderbird 24
 wordpress_id: 2901
 wordpress_url: https://www.martineve.com/?p=2901
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgaijww2e"
-kcworks: https://works.hcommons.org/records/w8tsv-5ja87
+kcworks: https://works.hcommons.org/records/wqe2k-bsq30
 references:
 - https://bugzilla.mozilla.org/show_bug.cgi?id=880595#c27 # Mozilla Bugzilla fix for Thunderbird spellcheck bug
 ---

@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lz732he
 categories:
 - Politics
 - Health
-kcworks: https://works.hcommons.org/records/mn9ne-5x755
+kcworks: https://works.hcommons.org/records/67swt-28919
 references:
 - title: WriteToThem
   type: WebSite

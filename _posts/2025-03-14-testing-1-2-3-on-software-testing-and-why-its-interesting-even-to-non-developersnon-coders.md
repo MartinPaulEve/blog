@@ -13,7 +13,7 @@ title: Testing 1, 2, 3 (on software testing and why it's interesting even to non
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lw263eq2r"
 categories:
 - Programming
-kcworks: https://works.hcommons.org/records/d28dt-26p96
+kcworks: https://works.hcommons.org/records/0kask-bz691
 references:
 - title: knowledge-commons-profiles test suite
   type: SoftwareSourceCode

@@ -15,7 +15,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbgc7rm
 categories:
 - Higher Education
 - Politics
-kcworks: https://works.hcommons.org/records/3gwc8-56x46
+kcworks: https://works.hcommons.org/records/aw21d-wxz57
 references:
 - author: Sarah Shaffi
   date: '2015-09-24'

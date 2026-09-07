@@ -20,7 +20,7 @@ title: 'Orbit: Writing Around Pynchon'
 wordpress_id: 1307
 wordpress_url: https://www.martineve.com/?p=1307
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk4yxuk2u"
-kcworks: https://works.hcommons.org/records/n743k-1wg39
+kcworks: https://works.hcommons.org/records/5580f-6vj15
 references:
 - http://opcit.eprints.org/oacitation-biblio.html # OpCit open access citation advantage bibliography
 - https://www.pynchon.net/owap/announcement/view/1 # Orbit Pynchon journal first CFP

@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lyi5jsk
 categories:
 - Scholarly Communications
 - Digital Preservation
-kcworks: https://works.hcommons.org/records/mpnjt-qsf17
+kcworks: https://works.hcommons.org/records/twf68-kd383
 references:
 - title: Tips for using public data files and Plus snapshots
   type: TechArticle

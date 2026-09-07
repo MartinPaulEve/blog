@@ -15,7 +15,7 @@ categories:
 - Open Access
 - Publications
 - Digital Humanities
-kcworks: https://works.hcommons.org/records/53mss-d8s74
+kcworks: https://works.hcommons.org/records/gbvpd-qgz82
 references:
 - author: Martin Paul Eve
   date: '2019-01-01'

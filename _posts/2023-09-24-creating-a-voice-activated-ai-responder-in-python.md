@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lxkbh34
 categories:
 - Programming
 - Artificial Intelligence
-kcworks: https://works.hcommons.org/records/hdnxy-2tq35
+kcworks: https://works.hcommons.org/records/cn6qz-8rc52
 references:
 - title: seance4d/seance4d/seance4d/main.py at main · MartinPaulEve/seance4d
   type: SoftwareSourceCode

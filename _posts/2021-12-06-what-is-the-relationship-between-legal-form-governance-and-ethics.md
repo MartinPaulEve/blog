@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2bwmjl
 categories:
 - Open Access
 - Scholarly Communications
-kcworks: https://works.hcommons.org/records/ey044-cef27
+kcworks: https://works.hcommons.org/records/2wq0e-wky81
 references:
 - author: Martin Paul Eve
   date: '2021-12-02'

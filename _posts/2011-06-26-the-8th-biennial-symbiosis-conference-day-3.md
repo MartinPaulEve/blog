@@ -28,7 +28,7 @@ title: 'The 8th Biennial Symbiosis Conference: Day 3'
 wordpress_id: 1216
 wordpress_url: https://www.martineve.com/?p=1216
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk7t3sj2o"
-kcworks: https://works.hcommons.org/records/wxqrm-s6907
+kcworks: https://works.hcommons.org/records/qw4za-qr694
 references:
 - author: Bart
   title: Bart

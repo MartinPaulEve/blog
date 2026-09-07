@@ -15,7 +15,7 @@ tags:
 - personal
 title: Professor of Literature, Technology and Publishing
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbsvhsl2p"
-kcworks: https://works.hcommons.org/records/7h2sg-wnf41
+kcworks: https://works.hcommons.org/records/yf3qg-69078
 references:
 - date: '2015-11-19'
   title: 'Openness as a Career Asset: Erin McKiernan'

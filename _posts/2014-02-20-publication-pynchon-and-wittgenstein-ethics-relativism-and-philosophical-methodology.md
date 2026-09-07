@@ -22,7 +22,7 @@ title: 'Publication: Pynchon and Wittgenstein: Ethics, Relativism and Philosophi
 wordpress_id: 3019
 wordpress_url: https://www.martineve.com/?p=3019
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfowfnt2q"
-kcworks: https://works.hcommons.org/records/zhe9w-1e336
+kcworks: https://works.hcommons.org/records/tzjez-sbe89
 references:
 - http://eprints.lincoln.ac.uk/13401 # Lincoln repository record for Pynchon and Wittgenstein
 ---

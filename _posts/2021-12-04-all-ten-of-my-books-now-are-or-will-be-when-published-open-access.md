@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2civnu
 categories:
 - Open Access
 - Personal
-kcworks: https://works.hcommons.org/records/xbf97-xfq79
+kcworks: https://works.hcommons.org/records/jktj6-enc79
 references:
 - https://global.oup.com/academic/product/the-digital-humanities-and-literary-studies-9780198850489?lang=en&cc=gb # Eve, Digital Humanities and Literary Studies, Oxford UP
 - author: Martin Paul Eve

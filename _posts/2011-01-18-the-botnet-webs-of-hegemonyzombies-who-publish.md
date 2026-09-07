@@ -26,7 +26,7 @@ title: 'The Botnet: Webs of Hegemony/Zombies Who Publish'
 wordpress_id: 591
 wordpress_url: http://www.martineve.com/?p=591
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkvcrlq2f"
-kcworks: https://works.hcommons.org/records/yp9xp-q4273
+kcworks: https://works.hcommons.org/records/8twpr-qga63
 references:
 - author: rodolpho reis
   title: rodolpho reis

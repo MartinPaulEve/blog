@@ -272,7 +272,7 @@ title: HTC Wildfire Stage 1 Soft-Root
 wordpress_id: 8
 wordpress_url: http://new.martineve.com/?p=8
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlte6aa2r"
-kcworks: https://works.hcommons.org/records/dd62x-3bh86
+kcworks: https://works.hcommons.org/records/cqdr7-4ks59
 references:
 - http://forum.xda-developers.com/showthread.php?t=682828 # XDA Developers HTC Wildfire root thread
 ---

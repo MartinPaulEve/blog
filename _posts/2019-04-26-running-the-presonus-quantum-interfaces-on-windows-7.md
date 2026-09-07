@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m73hin7
 categories:
 - Music
 - Technology
-kcworks: https://works.hcommons.org/records/qtby0-j5e94
+kcworks: https://works.hcommons.org/records/571h2-cc647
 references:
 - title: 'Quantum: Connecting to Windows 10 computer'
   type: TechArticle

@@ -25,7 +25,7 @@ title: 'Rockaby: Mission Statement and Implementation Plans'
 wordpress_id: 599
 wordpress_url: http://www.martineve.com/?p=599
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkuydma2f"
-kcworks: https://works.hcommons.org/records/4t5tz-nn167
+kcworks: https://works.hcommons.org/records/wrmzv-08k05
 references:
 - title: El Waka
   type: WebPage

@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6vsz3y
 categories:
 - Music
 - Programming
-kcworks: https://works.hcommons.org/records/v59p5-zaq94
+kcworks: https://works.hcommons.org/records/gznwp-z3t60
 references:
 - title: acousticsize
   type: SoftwareSourceCode

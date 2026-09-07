@@ -22,7 +22,7 @@ title: Fixing mpd segfault on Ubuntu 12.10 on ARM devices (Mele, Pandaboard etc)
 wordpress_id: 2708
 wordpress_url: https://www.martineve.com/?p=2708
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgqn37h2i"
-kcworks: https://works.hcommons.org/records/dren2-7n344
+kcworks: https://works.hcommons.org/records/ye0p6-rdg72
 references:
 - title: 'Bug #989846 "libmad causes mpd to seg fault on update"'
   type: WebPage

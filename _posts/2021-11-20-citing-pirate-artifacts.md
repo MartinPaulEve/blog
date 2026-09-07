@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2dancc
 categories:
 - Piracy and Shadow Libraries
 - Academia
-kcworks: https://works.hcommons.org/records/y9x57-vkq18
+kcworks: https://works.hcommons.org/records/0d08f-6jr03
 references:
 - author: Martin Paul Eve
   date: '2021-12-15'

@@ -17,7 +17,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvbng3c
 categories:
 - Conferences
 - Digital Humanities
-kcworks: https://works.hcommons.org/records/r6cd3-y0480
+kcworks: https://works.hcommons.org/records/x7g02-5sr97
 references:
 - title: SHARPIES 2026 Program
   type: WebPage

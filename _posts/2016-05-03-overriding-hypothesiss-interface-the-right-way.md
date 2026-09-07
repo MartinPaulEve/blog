@@ -13,7 +13,7 @@ title: Overriding hypothesis's interface the right way
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbhn2lc2a"
 categories:
 - Programming
-kcworks: https://works.hcommons.org/records/w6ap1-mhn61
+kcworks: https://works.hcommons.org/records/49ba0-2cf32
 references:
 - title: Hypothesis
   type: WebPage

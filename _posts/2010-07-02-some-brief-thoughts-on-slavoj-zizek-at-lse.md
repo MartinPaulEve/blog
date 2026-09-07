@@ -20,7 +20,7 @@ title: Some brief thoughts on Slavoj Žižek at LSE
 wordpress_id: 10
 wordpress_url: http://new.martineve.com/?p=10
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mltl3tu2s"
-kcworks: https://works.hcommons.org/records/vhnzr-9bn18
+kcworks: https://works.hcommons.org/records/g7ayd-4sn51
 references:
 - title: Global Policy Journal
   type: WebSite

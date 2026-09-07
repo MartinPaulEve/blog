@@ -23,7 +23,7 @@ title: 'Publication: The Means of (Re-)Production: Expertise, Open Tools, Standa
 wordpress_id: 3013
 wordpress_url: https://www.martineve.com/?p=3013
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfpe7352p"
-kcworks: https://works.hcommons.org/records/gsf9y-66p25
+kcworks: https://works.hcommons.org/records/jevrx-vrc96
 references:
 - http://www.mdpi.com/2304-6775/2/1/38 # MDPI journal page for Means of Re-production article
 - http://eprints.lincoln.ac.uk/13297 # Lincoln repository record for Means of Re-production

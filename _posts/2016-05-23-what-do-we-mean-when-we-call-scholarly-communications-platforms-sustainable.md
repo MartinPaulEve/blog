@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbf6bf4
 categories:
 - Open Access
 - Scholarly Communications
-kcworks: https://works.hcommons.org/records/r2dvm-qfg30
+kcworks: https://works.hcommons.org/records/j3107-b8b39
 references:
 - http://dx.doi.org/10.6084/m9.figshare.1314859.v1 # Bilder, Lin, Neylon, Principles for Open Infrastructure
 - author: Mike Taylor

@@ -14,7 +14,7 @@ title: cOAlition S endorsing Subscribe to Open is a great start. We need the sam
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3flr4t2i"
 categories:
 - Open Access
-kcworks: https://works.hcommons.org/records/jfw76-b0022
+kcworks: https://works.hcommons.org/records/tpm86-pyc67
 references:
 - title: cOAlition S endorses the Subscribe to Open (S2O) model of funding open access
   type: WebPage

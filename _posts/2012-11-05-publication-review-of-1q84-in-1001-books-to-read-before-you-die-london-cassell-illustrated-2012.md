@@ -22,7 +22,7 @@ title: 'Publication: Review of 1Q84 in 1001 Books to Read Before You Die (London
 wordpress_id: 2478
 wordpress_url: https://www.martineve.com/?p=2478
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhn3gur2i"
-kcworks: https://works.hcommons.org/records/yw85h-7gf66
+kcworks: https://works.hcommons.org/records/bz4nm-9jt92
 references:
 - author: Peter Boxall
   title: 1001 Books You Must Read Before You Die

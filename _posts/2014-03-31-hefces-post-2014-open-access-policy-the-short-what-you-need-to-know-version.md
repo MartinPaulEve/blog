@@ -22,7 +22,7 @@ title: 'HEFCE''s Post-2014 Open Access Policy: the short "what you need to know"
 wordpress_id: 3060
 wordpress_url: https://www.martineve.com/?p=3060
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mff3icq2i"
-kcworks: https://works.hcommons.org/records/zxzwq-zhe44
+kcworks: https://works.hcommons.org/records/89v1p-ym328
 references:
 - http://www.sherpa.ac.uk/romeo/ # SHERPA/RoMEO journal OA policy database
 - title: Policy for Open Access in the Post-2014 Research Excellence Framework

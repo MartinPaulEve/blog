@@ -13,7 +13,7 @@ title: Citations and addressability
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lxl4t2e2u"
 categories:
 - Scholarly Communications
-kcworks: https://works.hcommons.org/records/1ebs6-c4j86
+kcworks: https://works.hcommons.org/records/887yh-tk550
 references:
 - title: The Footnote
   type: Book

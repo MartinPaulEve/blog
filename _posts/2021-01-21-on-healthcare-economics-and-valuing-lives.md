@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3w6xin
 categories:
 - Politics
 - Health
-kcworks: https://works.hcommons.org/records/w7z3n-htz35
+kcworks: https://works.hcommons.org/records/ftxre-xrh97
 references:
 - author: Clea Skopeliti
   date: '2021-01-17'

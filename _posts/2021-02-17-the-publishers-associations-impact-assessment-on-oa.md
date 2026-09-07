@@ -14,7 +14,7 @@ title: The Publisher's Association's impact assessment on OA is pretty much as y
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3sgzr32n"
 categories:
 - Open Access
-kcworks: https://works.hcommons.org/records/mm28q-vvd61
+kcworks: https://works.hcommons.org/records/f3qd5-9m584
 references:
 - date: '2021-02-17'
   title: Economic Impact Assessment

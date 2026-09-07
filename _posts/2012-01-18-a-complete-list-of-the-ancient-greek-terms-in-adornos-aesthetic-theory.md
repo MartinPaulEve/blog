@@ -71,7 +71,7 @@ title: A Complete List of the Ancient Greek Terms in Adorno's Aesthetic Theory
 wordpress_id: 1761
 wordpress_url: https://eve.gd/2012/01/18/a-complete-list-of-the-ancient-greek-terms-in-adornos-aesthetic-theory/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mizaav42h"
-kcworks: https://works.hcommons.org/records/aa51n-qe073
+kcworks: https://works.hcommons.org/records/x8hwm-fsq19
 references:
 - author: Stefano Mortellaro
   title: Stefano Mortellaro

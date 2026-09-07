@@ -19,7 +19,7 @@ title: Teaching undergraduates to use secondary sources
 wordpress_id: 1916
 wordpress_url: https://www.martineve.com/2012/02/16/teaching-undergraduates-to-use-secondary-sources/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mirgqp72r"
-kcworks: https://works.hcommons.org/records/yxb2m-2j670
+kcworks: https://works.hcommons.org/records/90mas-7d176
 references:
 - title: uniinnsbruck
   type: WebSite

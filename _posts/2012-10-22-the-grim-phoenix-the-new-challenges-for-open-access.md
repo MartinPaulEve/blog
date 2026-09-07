@@ -23,7 +23,7 @@ title: 'The Grim Phoenix: The New Challenges for Open Access'
 wordpress_id: 2449
 wordpress_url: https://www.martineve.com/?p=2449
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhov7iz2i"
-kcworks: https://works.hcommons.org/records/t0313-bs234
+kcworks: https://works.hcommons.org/records/zaetn-efe41
 references:
 - http://www.alluvium-journal.org # Alluvium open-access journal
 ---

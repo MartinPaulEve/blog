@@ -26,7 +26,7 @@ title: 'Upcoming Workshop: Inbox zero and tech-task lists: getting things done'
 wordpress_id: 1162
 wordpress_url: https://www.martineve.com/?p=1162
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkbkrxi2f"
-kcworks: https://works.hcommons.org/records/aw1g1-p4076
+kcworks: https://works.hcommons.org/records/pc0ed-v9280
 references:
 - title: Scheduled RDP workshops and events
   type: WebPage

@@ -21,7 +21,7 @@ title: JavaScript eval String.fromCharCode encoder
 wordpress_id: 288
 wordpress_url: http://pro.grammatic.org/post-javascript-eval-stringfromcharcode-encoder-11.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnt4cg22r"
-kcworks: https://works.hcommons.org/records/c871j-cwx53
+kcworks: https://works.hcommons.org/records/are9z-kzq24
 references:
 - http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd # W3C XHTML 1.0 Transitional DTD
 ---

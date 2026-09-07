@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lyj22zv
 categories:
 - Personal
 - Academia
-kcworks: https://works.hcommons.org/records/08nv0-a1d04
+kcworks: https://works.hcommons.org/records/dmxgb-w5316
 references:
 - author: Martin Paul Eve
   date: '2022-02-10'

@@ -19,7 +19,7 @@ title: Plagiarism by Semiotext(e) translations?
 wordpress_id: 9
 wordpress_url: http://new.martineve.com/?p=9
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlthllc2p"
-kcworks: https://works.hcommons.org/records/pwzj9-14861
+kcworks: https://works.hcommons.org/records/jphv1-r1v36
 references:
 - title: Grub Street Revisited
   type: WebPage

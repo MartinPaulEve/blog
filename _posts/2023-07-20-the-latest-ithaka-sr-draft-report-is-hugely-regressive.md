@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7ly5pkd3
 categories:
 - Scholarly Communications
 - Open Access
-kcworks: https://works.hcommons.org/records/nxrn7-4nc20
+kcworks: https://works.hcommons.org/records/jxfjr-b6q45
 references:
 - author: Kimberly Lutz
   date: '2023-07-17'

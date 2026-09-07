@@ -11,7 +11,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7maqd3mo
 categories:
 - Personal
 - Academia
-kcworks: https://works.hcommons.org/records/2ycm0-83n12
+kcworks: https://works.hcommons.org/records/1g9vz-qzg23
 references:
 - title: Person
   type: WebPage

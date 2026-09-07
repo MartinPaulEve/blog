@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbcoatm
 categories:
 - Publishing Technology
 - Programming
-kcworks: https://works.hcommons.org/records/gprpj-p6z76
+kcworks: https://works.hcommons.org/records/cae4m-5de48
 references:
 - title: 'CaSSius: a CSS-regions-based PDF typesetter for scholarly communications'
   type: SoftwareSourceCode

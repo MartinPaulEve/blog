@@ -22,7 +22,7 @@ title: Osama Bin Laden and Nuremberg Precedent
 wordpress_id: 1071
 wordpress_url: https://www.martineve.com/?p=1071
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkdiq6m2h"
-kcworks: https://works.hcommons.org/records/facrg-54a47
+kcworks: https://works.hcommons.org/records/e9v6n-6wk50
 references:
 - title: Nuremberg does not apply
   type: BlogPosting

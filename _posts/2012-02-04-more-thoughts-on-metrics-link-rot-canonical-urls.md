@@ -49,7 +49,7 @@ title: More thoughts on metrics, link-rot, canonical URLs
 wordpress_id: 1895
 wordpress_url: https://www.martineve.com/2012/02/04/more-thoughts-on-metrics-link-rot-canonical-urls/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miwjpi22s"
-kcworks: https://works.hcommons.org/records/frys2-1sw65
+kcworks: https://works.hcommons.org/records/zcg9b-96m16
 references:
 - author: Contributors to Wikimedia projects
   date: '2009-03-19'

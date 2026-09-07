@@ -16,7 +16,7 @@ tags:
 - policy
 title: 'TEF, REF, QR, deregulation: thoughts on Jo Johnson''s HE talk'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc7kitm2t"
-kcworks: https://works.hcommons.org/records/ftsrk-73d18
+kcworks: https://works.hcommons.org/records/tx8am-gpj95
 references:
 - date: '2015-09-09'
   title: 'Higher education: fulfilling our potential'

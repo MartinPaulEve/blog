@@ -29,7 +29,7 @@ title: Sussex Research Hive Seminars
 wordpress_id: 537
 wordpress_url: http://www.martineve.com/?p=537
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkwwslt2h"
-kcworks: https://works.hcommons.org/records/hhnt4-wnk98
+kcworks: https://works.hcommons.org/records/v7zsf-m4n65
 references:
 - title: Seminars and events
   type: WebPage

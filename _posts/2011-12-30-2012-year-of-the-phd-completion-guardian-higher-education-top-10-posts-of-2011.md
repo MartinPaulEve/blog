@@ -84,7 +84,7 @@ title: '2012: Year of the PhD Completion / Guardian Higher Education Top 10 post
 wordpress_id: 1714
 wordpress_url: https://www.martineve.com/?p=1714
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjbujvp2f"
-kcworks: https://works.hcommons.org/records/5y856-7mq78
+kcworks: https://works.hcommons.org/records/1fcmq-vms21
 references:
 - author: Kerry Eustice
   date: '2011-12-28'

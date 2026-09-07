@@ -11,7 +11,7 @@ title: The Faber Finds edition of Rex Warner's The Professor is very poorly form
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbhtune2n"
 categories:
 - Literature
-kcworks: https://works.hcommons.org/records/x3ece-19550
+kcworks: https://works.hcommons.org/records/2pj5b-q5y25
 references:
 - title: Faber Finds & the new business of POD
   type: BlogPosting

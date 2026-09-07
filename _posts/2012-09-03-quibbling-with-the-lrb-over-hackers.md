@@ -20,7 +20,7 @@ title: Quibbling with the LRB over "Hackers"
 wordpress_id: 2351
 wordpress_url: https://www.martineve.com/?p=2351
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhu265i2o"
-kcworks: https://works.hcommons.org/records/rrarf-raj64
+kcworks: https://works.hcommons.org/records/cvkf5-1bm52
 references:
 - author: Contributors to Wikimedia projects
   date: '2003-01-01'

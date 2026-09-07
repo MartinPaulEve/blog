@@ -173,7 +173,7 @@ title: Converting Zotero Documents to Mendeley
 wordpress_id: 462
 wordpress_url: http://www.martineve.com/?p=462
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mljgrqm2i"
-kcworks: https://works.hcommons.org/records/2fz6g-yrc84
+kcworks: https://works.hcommons.org/records/ynsdb-bt188
 references:
 - title: Zotero
   type: WebSite

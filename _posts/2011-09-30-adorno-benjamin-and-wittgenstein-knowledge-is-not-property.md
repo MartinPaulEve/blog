@@ -33,7 +33,7 @@ title: 'Adorno, Benjamin and Wittgenstein (!): knowledge is not property'
 wordpress_id: 1519
 wordpress_url: https://www.martineve.com/?p=1519
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjtqy752a"
-kcworks: https://works.hcommons.org/records/9333d-spg83
+kcworks: https://works.hcommons.org/records/37an5-e2973
 references:
 - author: Jill
   title: Jill

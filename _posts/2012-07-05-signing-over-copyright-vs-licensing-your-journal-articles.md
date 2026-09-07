@@ -23,7 +23,7 @@ title: Signing over copyright vs. licensing your journal articles
 wordpress_id: 2161
 wordpress_url: https://www.martineve.com/?p=2161
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mid7uyr2e"
-kcworks: https://works.hcommons.org/records/gxwc8-j3173
+kcworks: https://works.hcommons.org/records/k7nt5-qt043
 references:
 - http://www.ibiblio.org/pomerantz/blog/2011/06/my-copyfight/ # Pomerantz blog post on copyright fight with T&F
 - http://deborah.dreamwidth.org/ # Deborah Kaplan's Dreamwidth blog

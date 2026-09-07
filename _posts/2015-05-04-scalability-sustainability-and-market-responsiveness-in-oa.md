@@ -18,7 +18,7 @@ tags:
 - open access
 title: Scalability, Sustainability, Market Responsiveness and Mandates in OA
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mctupdx2s"
-kcworks: https://works.hcommons.org/records/whfc4-5b570
+kcworks: https://works.hcommons.org/records/m67hc-zn882
 references:
 - title: Open Access Guidance
   type: WebPage

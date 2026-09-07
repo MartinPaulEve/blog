@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3m3plq
 categories:
 - Copyright and Licensing
 - Open Access
-kcworks: https://works.hcommons.org/records/pn5ag-cj249
+kcworks: https://works.hcommons.org/records/rg17j-a8874
 references:
 - https://www.bookdepository.com/Literature-Against-Criticism-Martin-Paul-Eve/9781013288265?ref=grid-view&qid=1614677493139&sr=1-3 # Book Depository: Eve, Literature Against Criticism reprint
 - author: Martin Paul Eve

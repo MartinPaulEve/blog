@@ -21,7 +21,7 @@ title: The Future of Peer Review
 wordpress_id: 2628
 wordpress_url: https://www.martineve.com/?p=2628
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgwca5p2r"
-kcworks: https://works.hcommons.org/records/59vmg-jvs81
+kcworks: https://works.hcommons.org/records/ay0pp-e5e19
 references:
 - author: Martin Eve
   title: The Future of Peer Review

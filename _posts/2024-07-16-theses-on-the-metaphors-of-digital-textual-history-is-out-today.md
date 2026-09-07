@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwspdzz
 categories:
 - Publications
 - Digital Humanities
-kcworks: https://works.hcommons.org/records/hffbk-v8j37
+kcworks: https://works.hcommons.org/records/qdgxf-pna67
 references:
 - title: Theses on the Metaphors of Digital-Textual History
   type: Book

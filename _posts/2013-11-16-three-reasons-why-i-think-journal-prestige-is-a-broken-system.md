@@ -22,7 +22,7 @@ title: Three reasons why I think journal prestige is a broken system
 wordpress_id: 2933
 wordpress_url: https://www.martineve.com/?p=2933
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfvazdj2n"
-kcworks: https://works.hcommons.org/records/hjrty-8gd18
+kcworks: https://works.hcommons.org/records/1fvyq-t4b22
 references:
 - http://www.britac.ac.uk/templates/asset-relay.cfm?frmAssetFileID=12661 # Eve, Before the Law: OA and peer review (British Academy)
 ---

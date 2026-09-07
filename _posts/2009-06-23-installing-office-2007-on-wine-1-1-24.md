@@ -24,7 +24,7 @@ title: Installing Office 2007 on wine 1.1.24
 wordpress_id: 234
 wordpress_url: http://pro.grammatic.org/post-installing-office-2007-on-wine-1124-68.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmjva7m2i"
-kcworks: https://works.hcommons.org/records/qpqka-x7144
+kcworks: https://works.hcommons.org/records/0ayza-8zh88
 references:
 - title: Index of /ubuntu-wine/ppa/ubuntu
   type: WebPage

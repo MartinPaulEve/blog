@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6x7quc
 categories:
 - Academia
 - Literature
-kcworks: https://works.hcommons.org/records/majr1-0qy13
+kcworks: https://works.hcommons.org/records/1sfgg-2e534
 references:
 - title: 'Generous Thinking: The University and the Public Good'
   type: WebPage

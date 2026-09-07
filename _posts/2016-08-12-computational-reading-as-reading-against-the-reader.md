@@ -11,7 +11,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mb3sidt
 categories:
 - Digital Humanities
 - Literature
-kcworks: https://works.hcommons.org/records/0m51h-mba57
+kcworks: https://works.hcommons.org/records/xmqg1-4g578
 references:
 - https://twitter.com/Ted_Underwood/status/756135378742943744 # Ted Underwood tweet on computational reading challenge
 ---

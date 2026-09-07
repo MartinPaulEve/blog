@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6y7ap7
 categories:
 - Academia
 - Open Access
-kcworks: https://works.hcommons.org/records/jzjtw-kkt03
+kcworks: https://works.hcommons.org/records/vbpyy-mmb90
 references:
 - https://doi.org/10.1017/CBO9781316161012.004 # Cambridge chapter on economy of prestige in academia
 - https://heconvention2.files.wordpress.com/2016/10/he-bill-campaigning-pack.docx # HE Bill campaign pack rhetoric document

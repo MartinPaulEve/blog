@@ -19,7 +19,7 @@ title: Can we avoid the S word regarding David Foster Wallace?
 wordpress_id: 26
 wordpress_url: http://new.martineve.com/?p=26
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmc56wc2p"
-kcworks: https://works.hcommons.org/records/7r30x-36803
+kcworks: https://works.hcommons.org/records/4936e-j4c64
 references:
 - author: Alex Abramovich
   date: '2010-03-16'

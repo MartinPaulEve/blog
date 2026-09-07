@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5shryv
 categories:
 - Open Access
 - Scholarly Communications
-kcworks: https://works.hcommons.org/records/gf4tt-t1c25
+kcworks: https://works.hcommons.org/records/twz4f-kcs41
 references:
 - https://doi.org/10.1080/01930826.2014.915166 # Journal of Library Administration article on library design
 ---

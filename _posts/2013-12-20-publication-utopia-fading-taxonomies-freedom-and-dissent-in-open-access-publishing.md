@@ -23,7 +23,7 @@ title: 'Publication: Utopia Fading: Taxonomies, Freedom and Dissent in Open Acce
 wordpress_id: 2960
 wordpress_url: https://www.martineve.com/?p=2960
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mftodxl2q"
-kcworks: https://works.hcommons.org/records/ssk8k-0c717
+kcworks: https://works.hcommons.org/records/zyqne-dcy72
 references:
 - title: jimmussell.com
   type: WebSite

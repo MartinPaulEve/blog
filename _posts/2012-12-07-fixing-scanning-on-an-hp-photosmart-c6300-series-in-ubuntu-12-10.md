@@ -26,7 +26,7 @@ title: Fixing scanning on an HP Photosmart C6300 series in Ubuntu 12.10
 wordpress_id: 2518
 wordpress_url: https://www.martineve.com/?p=2518
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhm4rmc2a"
-kcworks: https://works.hcommons.org/records/wc2he-eym35
+kcworks: https://works.hcommons.org/records/xwvcr-0fw38
 references:
 - https://bugs.mageia.org/show_bug.cgi?id=7637 # Mageia bug report for hplip models.dat error
 - title: 'Question #208678 "Cannot set scan resolution on a Photosmart C63..." : Questions : HPLIP'

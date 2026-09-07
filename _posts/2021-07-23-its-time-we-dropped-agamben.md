@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2wwpju
 categories:
 - Philosophy
 - Politics
-kcworks: https://works.hcommons.org/records/9j93w-te389
+kcworks: https://works.hcommons.org/records/1chy9-6qh28
 references:
 - https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/is-the-covid19-vaccine-safe # Johns Hopkins Medicine on COVID-19 vaccine safety
 - https://www.nytimes.com/2020/08/21/opinion/sunday/giorgio-agamben-philosophy-coronavirus.html # NYT op-ed on Agamben and techno-medical despotism

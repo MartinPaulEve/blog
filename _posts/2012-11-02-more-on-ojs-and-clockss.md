@@ -22,7 +22,7 @@ title: More on OJS and CLOCKSS
 wordpress_id: 2471
 wordpress_url: https://www.martineve.com/?p=2471
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhngkk52q"
-kcworks: https://works.hcommons.org/records/ys329-v0w55
+kcworks: https://works.hcommons.org/records/78wvr-09f91
 references:
 - title: '*Bug 7958* Support for a CLOCKSS manifest by MartinPaulEve · Pull Request #49 · pkp/ojs'
   type: WebPage

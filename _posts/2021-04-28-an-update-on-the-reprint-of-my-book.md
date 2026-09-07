@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3fwc7i
 categories:
 - Copyright and Licensing
 - Open Access
-kcworks: https://works.hcommons.org/records/7btgj-zyw48
+kcworks: https://works.hcommons.org/records/9830s-ge236
 references:
 - author: Martin Paul Eve
   date: '2016-10-17'

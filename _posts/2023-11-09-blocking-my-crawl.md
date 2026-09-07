@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lxh6c7v
 categories:
 - Programming
 - Scholarly Communications
-kcworks: https://works.hcommons.org/records/nd6s3-4cs93
+kcworks: https://works.hcommons.org/records/8ajm5-sa006
 references:
 - title: 'GitHub - infosimples/detect-headless: Access https://infosimples.github.io/detect-headless to run several headless detection tests against your browser.'
   type: SoftwareSourceCode

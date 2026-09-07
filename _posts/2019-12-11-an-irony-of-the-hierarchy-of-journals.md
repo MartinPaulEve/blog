@@ -10,7 +10,7 @@ title: An irony of the 'hierarchy of journals'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6kw55v2u"
 categories:
 - Academia
-kcworks: https://works.hcommons.org/records/9zk2n-pj424
+kcworks: https://works.hcommons.org/records/9xgz4-mxz85
 references:
 - https://richardpoynder.co.uk/PLoS_ONE.pdf # Poynder, PLoS ONE Open Access and Scholarly Publishing
 ---

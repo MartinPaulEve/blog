@@ -3,7 +3,7 @@ archive: https://wayback.archive-it.org/22123/20231101171300/https://eve.gd/2025
 date: 2025-04-02
 last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/3d7cd-prc33
-kcworks: https://works.hcommons.org/records/x93ka-89r88
+kcworks: https://works.hcommons.org/records/6b477-f4z68
 roguescholar: https://rogue-scholar.org/records/wgdxv-khg59
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvvam2w2i
 image:

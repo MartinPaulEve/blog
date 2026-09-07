@@ -14,7 +14,7 @@ title: Some of the arguments, counter-arguments, and political alignments for an
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7maw346f2e"
 categories:
 - Open Access
-kcworks: https://works.hcommons.org/records/etper-kvw04
+kcworks: https://works.hcommons.org/records/ckdam-qae04
 references:
 - title: Open Access (the book)
   type: WebPage

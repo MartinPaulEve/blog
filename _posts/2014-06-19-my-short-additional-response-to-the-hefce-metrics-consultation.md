@@ -21,7 +21,7 @@ title: My short additional response to the HEFCE metrics consultation
 wordpress_id: 3136
 wordpress_url: https://www.martineve.com/?p=3136
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mf2j3ew2i"
-kcworks: https://works.hcommons.org/records/4eb44-bkt26
+kcworks: https://works.hcommons.org/records/d21y8-axn28
 references:
 - http://www.hefce.ac.uk/whatwedo/rsrch/howfundr/metrics/ # HEFCE research metrics consultation page
 - date: '2014-06-16'

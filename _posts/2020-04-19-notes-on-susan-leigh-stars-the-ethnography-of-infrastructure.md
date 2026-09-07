@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m67necl
 categories:
 - Scholarly Communications
 - Open Access
-kcworks: https://works.hcommons.org/records/57n2r-zv811
+kcworks: https://works.hcommons.org/records/qegfv-vfv98
 references:
 - https://doi.org/10.1177/00027649921955326 # Star, The Ethnography of Infrastructure, ABS 1999
 - https://unsplash.com/@wisdomsky # Julian Paolo Dayag Unsplash photographer profile

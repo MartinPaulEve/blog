@@ -65,7 +65,7 @@ title: Our Duty to Minorities
 wordpress_id: 475
 wordpress_url: http://www.martineve.com/?p=475
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlifmfk2a"
-kcworks: https://works.hcommons.org/records/nt0fj-hte29
+kcworks: https://works.hcommons.org/records/wtzjv-csh29
 references:
 - date: '2010-12-13'
   title: Independent Living Fund to be shut down by 2015

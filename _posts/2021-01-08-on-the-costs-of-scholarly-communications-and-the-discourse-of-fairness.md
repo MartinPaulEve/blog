@@ -13,7 +13,7 @@ title: On the costs of scholarly communications and the discourse of 'fairness'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3x5yjd2a"
 categories:
 - Open Access
-kcworks: https://works.hcommons.org/records/djegd-j0e68
+kcworks: https://works.hcommons.org/records/6e2f7-axg10
 references:
 - author: William Davies
   date: '2016-11-26'

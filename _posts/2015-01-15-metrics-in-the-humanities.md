@@ -19,7 +19,7 @@ tags:
 - HEFCE
 title: Metrics in the Arts and Humanities
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mddiarj2f"
-kcworks: https://works.hcommons.org/records/gs895-mzd06
+kcworks: https://works.hcommons.org/records/ded64-bah26
 references:
 - http://dx.doi.org/10.1017/CBO9781316161012.004 # Eve 2014 chapter on symbolic and material capital
 ---

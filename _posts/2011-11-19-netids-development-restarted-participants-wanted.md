@@ -23,7 +23,7 @@ title: .NETIDS development restarted. Participants wanted.
 wordpress_id: 1607
 wordpress_url: https://www.martineve.com/2011/11/19/netids-development-restarted-participants-wanted/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjfeyhk2u"
-kcworks: https://works.hcommons.org/records/83k2z-8ng09
+kcworks: https://works.hcommons.org/records/97k2z-cw217
 references:
 - title: .NET Intrusion Detection System
   type: SoftwareSourceCode

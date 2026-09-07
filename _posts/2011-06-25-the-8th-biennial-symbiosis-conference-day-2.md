@@ -37,7 +37,7 @@ title: 'The 8th Biennial Symbiosis Conference: Day 2'
 wordpress_id: 1208
 wordpress_url: https://www.martineve.com/?p=1208
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk7wxos2a"
-kcworks: https://works.hcommons.org/records/6785y-rbc81
+kcworks: https://works.hcommons.org/records/d87e9-ze241
 references:
 - date: '2004-07-26'
   title: Herero and Namaqua Genocide

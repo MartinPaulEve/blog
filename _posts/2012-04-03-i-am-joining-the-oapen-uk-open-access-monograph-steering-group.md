@@ -23,7 +23,7 @@ title: I am joining the OAPEN-UK, Open Access Monograph, Steering Group
 wordpress_id: 2011
 wordpress_url: https://www.martineve.com/2012/04/03/i-am-joining-the-oapen-uk-open-access-monograph-steering-group/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mij6nit2h"
-kcworks: https://works.hcommons.org/records/5mw1h-7jb45
+kcworks: https://works.hcommons.org/records/4kmy8-t1r92
 references:
 - author: Gideon Burton
   title: Gideon Burton

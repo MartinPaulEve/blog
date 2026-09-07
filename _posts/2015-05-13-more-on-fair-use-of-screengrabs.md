@@ -14,7 +14,7 @@ tags:
 - fair use
 title: More on fair-use of screengrabs
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mct7at72s"
-kcworks: https://works.hcommons.org/records/5csgq-0yj58
+kcworks: https://works.hcommons.org/records/d3hc0-nrn70
 references:
 - title: Copyright, Designs and Patents Act 1988
   type: WebPage

@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3ywqw5
 categories:
 - Publications
 - Academia
-kcworks: https://works.hcommons.org/records/5bzq3-3fg44
+kcworks: https://works.hcommons.org/records/9netf-kex53
 references:
 - author:
   - Martin Paul Eve

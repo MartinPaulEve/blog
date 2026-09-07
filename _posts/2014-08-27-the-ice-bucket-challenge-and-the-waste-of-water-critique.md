@@ -19,7 +19,7 @@ title: The Ice Bucket challenge and the "waste of water" critique
 wordpress_id: 3176
 wordpress_url: https://www.martineve.com/?p=3176
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mewarez2n"
-kcworks: https://works.hcommons.org/records/fp24r-sww07
+kcworks: https://works.hcommons.org/records/j6483-g6561
 references:
 - http://www.wateraid.org/uk # WaterAid UK charity
 - http://www.globalresearch.ca/the-privatisation-of-water-nestle-denies-that-water-is-a-fundamental-human-right/5332238 # Global Research article on Nestle water rights denial

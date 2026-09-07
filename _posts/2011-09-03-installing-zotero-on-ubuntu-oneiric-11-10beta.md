@@ -57,7 +57,7 @@ title: Installing Zotero on Ubuntu Oneiric (11.10/Beta)
 wordpress_id: 1449
 wordpress_url: https://www.martineve.com/?p=1449
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjyu33j2o"
-kcworks: https://works.hcommons.org/records/ee8p7-10p43
+kcworks: https://works.hcommons.org/records/sgw8b-kpv21
 references:
 - http://archive.canonical.com/ubuntu # Canonical Ubuntu package archive
 - title: 'Firefox: The fast, private browser that keeps you safe'

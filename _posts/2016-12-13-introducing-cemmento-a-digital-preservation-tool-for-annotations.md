@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7maqvjml
 categories:
 - Digital Preservation
 - Programming
-kcworks: https://works.hcommons.org/records/cvyy6-qs680
+kcworks: https://works.hcommons.org/records/eqhga-pm816
 references:
 - title: cemmento
   type: SoftwareSourceCode

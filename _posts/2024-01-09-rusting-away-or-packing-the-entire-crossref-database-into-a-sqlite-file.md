@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lx65usa
 categories:
 - Programming
 - Scholarly Communications
-kcworks: https://works.hcommons.org/records/vzxv9-cap71
+kcworks: https://works.hcommons.org/records/m0841-h8s04
 references:
 - title: rustsqlitepacker
   type: SoftwareSourceCode

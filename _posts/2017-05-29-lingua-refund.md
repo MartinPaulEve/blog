@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mabw4jh
 categories:
 - Open Access
 - Copyright and Licensing
-kcworks: https://works.hcommons.org/records/a98jn-9bx25
+kcworks: https://works.hcommons.org/records/523a8-ney58
 references:
 - https://doi.org/10.1016/j.lingua.2017.04.003 # Elsevier Lingua article: refutation of universal grammar
 - http://onlinelibrary.wiley.com/journal/10.1111/(ISSN # whole sub-discipline

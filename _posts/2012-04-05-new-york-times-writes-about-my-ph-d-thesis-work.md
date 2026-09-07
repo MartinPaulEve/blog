@@ -28,7 +28,7 @@ title: New York Times writes about my Ph.D. thesis work!
 wordpress_id: 2020
 wordpress_url: https://www.martineve.com/2012/04/05/new-york-times-writes-about-my-ph-d-thesis-work/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miibnsh2f"
-kcworks: https://works.hcommons.org/records/sxpsj-4jm53
+kcworks: https://works.hcommons.org/records/zw0hg-56w56
 references:
 - title: Pynchon, Philosophy, Ethics
   type: BlogPosting

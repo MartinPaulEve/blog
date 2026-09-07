@@ -16,7 +16,7 @@ categories:
 - Publications
 - Open Access
 - Scholarly Communications
-kcworks: https://works.hcommons.org/records/qctv2-yhn70
+kcworks: https://works.hcommons.org/records/8v7zx-nyd81
 references:
 - https://direct.mit.edu/books/book/4933/chapter/625155/Social-Justice-and-Inclusivity-Drivers-for-the # Roh Inefuku Drabinski, Social Justice and Inclusivity chapter MIT
 - author: Jack Grove

@@ -1,0 +1,69 @@
+/* Content-warning disclosures (_plugins/content_warnings.rb).
+   Deliberately OUTSIDE the PDF-hashed stylesheet set (blog-post.css,
+   styles.css) — see _plugins/pdf_pages.rb. On screen the section is
+   collapsed until the heading is clicked; in print (and so in the PDF
+   editions) the warning label stays visible but the section is expanded
+   via ::details-content, which is verified to work in the site's
+   headless-Chromium print pipeline. */
+
+.content-warning {
+    margin: 1.5rem 0;
+    padding: 0 1.25rem;
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    background: var(--bg-primary);
+}
+
+.content-warning > summary {
+    cursor: pointer;
+    padding: 1rem 0;
+}
+
+.content-warning > summary h2,
+.content-warning > summary h3,
+.content-warning > summary h4,
+.content-warning > summary h5,
+.content-warning > summary h6 {
+    display: inline;
+    margin: 0;
+}
+
+.cw-label {
+    display: inline-block;
+    margin-left: 0.5rem;
+    font-size: 0.8rem;
+    font-style: italic;
+    color: var(--accent-secondary);
+}
+
+.content-warning:not([open]) > summary::after {
+    content: "— select to read";
+    margin-left: 0.5rem;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+.cw-body {
+    padding-bottom: 0.75rem;
+}
+
+@media print {
+    .content-warning {
+        border: none;
+        padding: 0;
+    }
+
+    .content-warning > summary {
+        cursor: auto;
+        list-style: none;
+    }
+
+    .content-warning > summary::after {
+        content: none !important;
+    }
+
+    .content-warning::details-content {
+        content-visibility: visible;
+        display: block;
+    }
+}

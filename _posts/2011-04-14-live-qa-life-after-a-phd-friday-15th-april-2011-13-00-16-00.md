@@ -27,7 +27,7 @@ title: 'Live Q&A: Life after a PhD [Friday 15th April 2011, 13.00-16.00]'
 wordpress_id: 968
 wordpress_url: https://www.martineve.com/?p=968
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkf2j5q2f"
-kcworks: https://works.hcommons.org/records/enmj8-hp633
+kcworks: https://works.hcommons.org/records/6j5je-jbb15
 references:
 - author: Eliza Anyangwe
   date: '2011-04-13'

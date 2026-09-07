@@ -23,7 +23,7 @@ tags:
 title: 'Being called to account: tax considerations for UK-based collectively-funded
   open access publishers'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdco7to2o"
-kcworks: https://works.hcommons.org/records/fpza9-5kp87
+kcworks: https://works.hcommons.org/records/5qf14-4ek08
 references:
 - https://www.openlibhums.org # Open Library of Humanities platform
 ---

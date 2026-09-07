@@ -23,7 +23,7 @@ title: Why do some academic publishers think they should charge extra for more l
 wordpress_id: 3199
 wordpress_url: https://www.martineve.com/?p=3199
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mev4qqh2a"
-kcworks: https://works.hcommons.org/records/aqthy-9gc83
+kcworks: https://works.hcommons.org/records/htbxt-9zk71
 references:
 - author:
   - Erin McKiernan

@@ -13,7 +13,7 @@ title: Four implementation questions about open access and monographs
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7maoqwy52u"
 categories:
 - Open Access
-kcworks: https://works.hcommons.org/records/h0gzy-5c146
+kcworks: https://works.hcommons.org/records/yyx3n-6k941
 references:
 - https://figshare.com/articles/Excellence_R_Us_University_Research_and_the_Fetishisation_of_Excellence/3413821 # Eve et al, Excellence R Us on figshare
 - https://www.martineve.com/2014/06/03/a-research-tool-i-want-but-probably-wont-get-cross-referenceintersect-bibliographies-of-books-and-articles/ # Eve blog post on machine-readable bibliography tools

@@ -13,7 +13,7 @@ title: On a challenge of print subsidy for OA
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6gmkss2i"
 categories:
 - Open Access
-kcworks: https://works.hcommons.org/records/z7vp4-y4t35
+kcworks: https://works.hcommons.org/records/a64b1-rxp57
 references:
 - https://www.openlibhums.org # Open Library of Humanities homepage
 ---

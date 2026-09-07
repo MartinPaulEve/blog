@@ -24,7 +24,7 @@ title: Notes and Presentation from my Open Access talk
 wordpress_id: 195
 wordpress_url: http://www.martineve.com/?p=195
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlqmsci2p"
-kcworks: https://works.hcommons.org/records/p9zc5-myy74
+kcworks: https://works.hcommons.org/records/z682f-10023
 references:
 - title: Deed - Attribution-NonCommercial-ShareAlike 3.0 Unported
   type: WebPage

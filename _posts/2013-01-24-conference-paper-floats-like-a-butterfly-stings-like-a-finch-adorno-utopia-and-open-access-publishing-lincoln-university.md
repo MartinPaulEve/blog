@@ -23,7 +23,7 @@ title: 'Conference Paper: "Floats Like a Butterfly, Stings Like a Finch: Adorno,
 wordpress_id: 2594
 wordpress_url: https://www.martineve.com/?p=2594
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgyg4xn2q"
-kcworks: https://works.hcommons.org/records/qkc3v-vad26
+kcworks: https://works.hcommons.org/records/rjn1m-jpk61
 references:
 - title: Dr Caroline Edwards
   type: WebSite

@@ -22,7 +22,7 @@ title: 'Ubuntu Natty Beta 1: My Upgrade Experience'
 wordpress_id: 936
 wordpress_url: https://www.martineve.com/?p=936
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkguopl2n"
-kcworks: https://works.hcommons.org/records/wbd4j-rpa22
+kcworks: https://works.hcommons.org/records/2frb1-mx512
 references:
 - title: DesktopExperienceTeam/UnityWithFglrxBeta
   type: WebPage

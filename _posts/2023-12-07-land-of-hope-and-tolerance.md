@@ -10,7 +10,7 @@ title: Land of hope and tolerance
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lxgjmxj2h"
 categories:
 - Politics
-kcworks: https://works.hcommons.org/records/2vwz9-dw844
+kcworks: https://works.hcommons.org/records/89agb-90g77
 references:
 - author: Larry Elliott
   date: '2023-12-05'

@@ -17,7 +17,7 @@ tags:
 - Open Access
 title: APCs and Uneven Distribution
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcof2d42r"
-kcworks: https://works.hcommons.org/records/bpt65-c9m98
+kcworks: https://works.hcommons.org/records/2myk5-q8a73
 references:
 - http://dx.doi.org/10.7710/2162-3309.1131 # Eve article on APCs and uneven distribution across disciplines
 ---

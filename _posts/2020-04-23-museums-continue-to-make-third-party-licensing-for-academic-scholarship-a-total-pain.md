@@ -15,7 +15,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5vq3wp
 categories:
 - Copyright and Licensing
 - Open Access
-kcworks: https://works.hcommons.org/records/qfavs-k2k73
+kcworks: https://works.hcommons.org/records/y51kv-pbq33
 references:
 - https://unsplash.com/photos/Fj9CrYkxlqM # Brett Jordan Unsplash photo
 ---

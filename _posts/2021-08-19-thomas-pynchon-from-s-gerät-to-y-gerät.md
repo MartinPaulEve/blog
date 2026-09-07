@@ -13,7 +13,7 @@ title: Thomas Pynchon, from S-Gerät to Y-Gerät
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2na7zc2e"
 categories:
 - Thomas Pynchon
-kcworks: https://works.hcommons.org/records/5qbjt-d1c95
+kcworks: https://works.hcommons.org/records/zzprm-nvb80
 references:
 - author: Contributors to Wikimedia projects
   date: '2003-03-06'

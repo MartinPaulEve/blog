@@ -13,7 +13,7 @@ title: Using Django ORM, Click, and Rich to create useful command-line python ap
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzfswjs2h"
 categories:
 - Programming
-kcworks: https://works.hcommons.org/records/tfamg-e7z09
+kcworks: https://works.hcommons.org/records/2y5bs-c8126
 references:
 - title: 'GitHub - Textualize/rich: Rich is a Python library for rich text and beautiful formatting in the terminal.'
   type: SoftwareSourceCode

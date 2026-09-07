@@ -64,7 +64,7 @@ title: 'Adorno terminology: intentio recta and intention obliqua'
 wordpress_id: 1457
 wordpress_url: https://www.martineve.com/2011/09/06/adorno-terminology-intentio-recta-and-intention-obliqua/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjx4xfw2t"
-kcworks: https://works.hcommons.org/records/h5pkb-whq34
+kcworks: https://works.hcommons.org/records/wqgy1-6qt44
 references:
 - date: '2004-03-04'
   title: Nicolai Hartmann

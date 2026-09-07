@@ -14,7 +14,7 @@ tags:
 title: Trying to understand Ofqual's inter-subject comparability Rasch model tests
   for easy/hard subjects at GCSE and A-Level
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbs6v5b2q"
-kcworks: https://works.hcommons.org/records/bezay-swz78
+kcworks: https://works.hcommons.org/records/hwp02-wer32
 references:
 - https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/486936/3-inter-subject-comparability-of-exam-standards-in-gcse-and-a-level.pdf # Ofqual inter-subject comparability statistical paper
 - http://europepmc.org/abstract/med/23442327 # Europe PMC abstract on Rasch model method

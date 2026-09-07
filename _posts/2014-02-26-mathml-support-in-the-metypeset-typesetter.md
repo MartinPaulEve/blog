@@ -22,7 +22,7 @@ title: MathML support in the meTypeset typesetter
 wordpress_id: 3043
 wordpress_url: https://www.martineve.com/?p=3043
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfgpjfm2h"
-kcworks: https://works.hcommons.org/records/da3tt-ngz19
+kcworks: https://works.hcommons.org/records/j2r0w-m7n18
 references:
 - http://dx.doi.org/10.6084/m9.figshare.944613 # Figshare DOI for meTypeset MathML post
 ---

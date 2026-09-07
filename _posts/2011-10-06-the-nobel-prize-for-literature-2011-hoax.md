@@ -28,7 +28,7 @@ title: The Nobel Prize for Literature 2011 Hoax
 wordpress_id: 1525
 wordpress_url: https://www.martineve.com/?p=1525
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjtmvdc2s"
-kcworks: https://works.hcommons.org/records/k9y04-j0903
+kcworks: https://works.hcommons.org/records/4nfwx-14m55
 references:
 - http://www.nobelprizeliterature.org # Fake Nobel Prize Literature hoax site
 ---

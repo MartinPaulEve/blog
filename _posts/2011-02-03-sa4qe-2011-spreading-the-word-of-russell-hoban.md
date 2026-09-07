@@ -19,7 +19,7 @@ title: 'SA4QE 2011: Spreading the Word of Russell Hoban'
 wordpress_id: 707
 wordpress_url: https://www.martineve.com/?p=707
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkr7bf42h"
-kcworks: https://works.hcommons.org/records/mq7cp-sc404
+kcworks: https://works.hcommons.org/records/krmby-6wa81
 references:
 - title: About SA4QE
   type: WebPage

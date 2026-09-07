@@ -24,7 +24,7 @@ title: 'Mythbusting: "A Proposed List — 60 Things Journal Publishers Do"'
 wordpress_id: 2250
 wordpress_url: https://www.martineve.com/?p=2250
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mi52yyj2i"
-kcworks: https://works.hcommons.org/records/m3yd5-98m40
+kcworks: https://works.hcommons.org/records/5apjf-nkq28
 references:
 - author: Kent Anderson
   date: '2012-07-18'

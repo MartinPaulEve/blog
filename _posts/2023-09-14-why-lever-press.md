@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lxmbpqu
 categories:
 - Open Access
 - Publications
-kcworks: https://works.hcommons.org/records/0g88h-ted46
+kcworks: https://works.hcommons.org/records/t5p6h-awr30
 references:
 - title: About Lever Press
   type: WebPage

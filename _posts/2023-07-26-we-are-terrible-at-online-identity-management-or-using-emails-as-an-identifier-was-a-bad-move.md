@@ -15,7 +15,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7ly4vasi
 categories:
 - Technology
 - Information Security
-kcworks: https://works.hcommons.org/records/dcvap-s6733
+kcworks: https://works.hcommons.org/records/tgrv9-tbt87
 references:
 - title: ORCID
   type: WebSite

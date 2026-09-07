@@ -22,7 +22,7 @@ title: Exposing XML data for Orbit
 wordpress_id: 2654
 wordpress_url: https://www.martineve.com/?p=2654
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgu7ei32h"
-kcworks: https://works.hcommons.org/records/0s0xv-mva69
+kcworks: https://works.hcommons.org/records/tx3h7-7kx77
 references:
 - https://www.pynchon.net/owap/issue/view/1 # Orbit journal Issue 1
 - title: Journal Publishing Tag Set Tag Library version 3.0

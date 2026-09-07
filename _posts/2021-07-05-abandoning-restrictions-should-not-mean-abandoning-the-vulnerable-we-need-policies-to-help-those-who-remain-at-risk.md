@@ -15,7 +15,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m32exwc
 categories:
 - Health
 - Politics
-kcworks: https://works.hcommons.org/records/vev2n-yb961
+kcworks: https://works.hcommons.org/records/wwsa0-nzz91
 references:
 - https://www.health.org.uk/news-and-comment/news/6-out-of-10-people-who-have-died-from-covid-19-are-disabled # Health Foundation: 60% COVID deaths were disabled people
 - author: Michael Savage

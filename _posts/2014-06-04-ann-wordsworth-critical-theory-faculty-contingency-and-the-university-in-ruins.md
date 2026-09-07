@@ -22,7 +22,7 @@ title: Ann Wordsworth, Critical Theory, Faculty Contingency and the University i
 wordpress_id: 2996
 wordpress_url: https://www.martineve.com/?p=2996
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mf2mskc2q"
-kcworks: https://works.hcommons.org/records/0meac-k0e12
+kcworks: https://works.hcommons.org/records/f1q12-35b14
 references:
 - date: '2013-09-22'
   title: Ann Wordsworth obituary

@@ -23,7 +23,7 @@ title: 'Forthcoming workshops: academic websites & protecting your assets!'
 wordpress_id: 1645
 wordpress_url: https://www.martineve.com/?p=1645
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjem7ik2u"
-kcworks: https://works.hcommons.org/records/3375z-yrd46
+kcworks: https://works.hcommons.org/records/9pa75-k1v16
 references:
 - title: Scheduled RDP workshops and events
   type: WebPage

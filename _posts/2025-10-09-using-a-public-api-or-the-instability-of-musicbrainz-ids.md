@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvqjwzg
 categories:
 - Programming
 - Music
-kcworks: https://works.hcommons.org/records/bv5vk-78k85
+kcworks: https://works.hcommons.org/records/pg8m5-52v55
 references:
 - title: tici taci
   type: WebSite

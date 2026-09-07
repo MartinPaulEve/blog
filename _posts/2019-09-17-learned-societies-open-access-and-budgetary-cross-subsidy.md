@@ -13,7 +13,7 @@ title: Learned Societies, Open Access and Budgetary Cross-Subsidy
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6prbyv2u"
 categories:
 - Open Access
-kcworks: https://works.hcommons.org/records/wrv38-rjh18
+kcworks: https://works.hcommons.org/records/nr9gz-qxd96
 references:
 - https://www.sciencemag.org/news/2019/09/new-deals-could-help-scientific-societies-survive-open-access # Science news: deals helping societies survive open access
 ---

@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwndyux
 categories:
 - Politics
 - Health
-kcworks: https://works.hcommons.org/records/1dd9q-vr696
+kcworks: https://works.hcommons.org/records/278z6-2th03
 references:
 - title: Assisted Dying for Terminally Ill Adults Bill [HL]
   type: WebPage

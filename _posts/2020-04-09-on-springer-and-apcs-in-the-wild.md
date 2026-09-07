@@ -13,7 +13,7 @@ title: On Springer and APCs 'in the wild'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6bdv6l2i"
 categories:
 - Open Access
-kcworks: https://works.hcommons.org/records/9rmg8-n3y32
+kcworks: https://works.hcommons.org/records/erysv-jsc34
 references:
 - title: A better understanding of APC funding sources could accelerate the transition to open access
   type: Report

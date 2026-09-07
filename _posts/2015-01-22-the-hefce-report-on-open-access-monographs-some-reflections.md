@@ -19,7 +19,7 @@ tags:
 - monographs
 title: 'The HEFCE report on Open Access Monographs: some reflections'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdbq2yo2o"
-kcworks: https://works.hcommons.org/records/gews4-6eg11
+kcworks: https://works.hcommons.org/records/27ccg-ypg58
 references:
 - http://www.hefce.ac.uk/pubs/rereports/year/2015/monographs/ # HEFCE 2015 report on open access monographs
 - title: Policy for Open Access in the Post-2014 Research Excellence Framework

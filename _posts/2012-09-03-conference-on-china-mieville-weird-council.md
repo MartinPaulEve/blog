@@ -22,7 +22,7 @@ title: 'Conference on China Miéville: Weird Council'
 wordpress_id: 2357
 wordpress_url: https://www.martineve.com/?p=2357
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhtwum72f"
-kcworks: https://works.hcommons.org/records/hrw14-7cm86
+kcworks: https://works.hcommons.org/records/m5te1-31q55
 references:
 - http://www.ies.sas.ac.uk/events/ies-conferences/Mieville # IES Weird Council conference registration page
 - title: Dr Caroline Edwards

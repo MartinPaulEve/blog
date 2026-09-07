@@ -20,7 +20,7 @@ title: 'Can''t receive emails from Hotmail: fixing their buggy DNS process'
 wordpress_id: 2383
 wordpress_url: https://www.martineve.com/?p=2383
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhsscie2h"
-kcworks: https://works.hcommons.org/records/f1ceh-crt10
+kcworks: https://works.hcommons.org/records/jvvz8-0tb85
 references:
 - author: Dorian Fraser-Moore
   title: Working round email from Hotmail/Live/MSN failing to be delivered

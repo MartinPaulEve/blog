@@ -21,7 +21,7 @@ title: Rancière misreading Kautsky?
 wordpress_id: 3210
 wordpress_url: https://www.martineve.com/?p=3210
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mep5dq62i"
-kcworks: https://works.hcommons.org/records/5r6j5-mc655
+kcworks: https://works.hcommons.org/records/m8csk-1jb49
 references:
 - author: Karl Kautsky
   date: '1903'

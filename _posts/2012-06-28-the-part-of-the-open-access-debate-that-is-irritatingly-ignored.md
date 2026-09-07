@@ -22,7 +22,7 @@ title: The part of the open access debate that is, irritatingly, ignored
 wordpress_id: 2150
 wordpress_url: https://www.martineve.com/?p=2150
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7midtdzc2s"
-kcworks: https://works.hcommons.org/records/s86kf-j8j98
+kcworks: https://works.hcommons.org/records/rbx4m-ky748
 references:
 - author: Paul Jump
   date: '2012-06-28'

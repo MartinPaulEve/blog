@@ -13,7 +13,7 @@ title: Rules vs. Principles in POSI
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7ly3kn7p2i"
 categories:
 - Scholarly Communications
-kcworks: https://works.hcommons.org/records/qyjhy-b9q86
+kcworks: https://works.hcommons.org/records/taavh-cva63
 references:
 - title: The Principles of Open Scholarly Infrastructure (v2.0, 2025)
   type: WebSite

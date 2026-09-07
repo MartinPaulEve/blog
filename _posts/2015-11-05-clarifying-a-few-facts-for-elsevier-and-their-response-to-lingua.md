@@ -17,7 +17,7 @@ tags:
 - OA
 title: Clarifying a few facts for Elsevier and their response to Lingua
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc65hcn2a"
-kcworks: https://works.hcommons.org/records/ymxcp-j2j02
+kcworks: https://works.hcommons.org/records/ge852-ttt86
 references:
 - https://www.elsevier.com/connect/addressing-the-resignation-of-the-lingua-editorial-board # Elsevier response to Lingua editorial board resignation
 ---

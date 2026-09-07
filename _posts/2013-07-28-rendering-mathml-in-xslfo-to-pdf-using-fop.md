@@ -21,7 +21,7 @@ title: Rendering MathML in XSL:FO to PDF using fop
 wordpress_id: 2788
 wordpress_url: https://www.martineve.com/?p=2788
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgft2x22s"
-kcworks: https://works.hcommons.org/records/sxxbs-kwx24
+kcworks: https://works.hcommons.org/records/amz26-mys02
 references:
 - http://jeuclid.sourceforge.net/jeuclid-fop/ # JEuclid FOP plugin for MathML rendering
 ---

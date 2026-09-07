@@ -19,7 +19,7 @@ title: 'Impossible Objects: Preservation and Extinction (on the First Folio)'
 wordpress_id: 2266
 wordpress_url: https://www.martineve.com/?p=2266
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhwlhln2q"
-kcworks: https://works.hcommons.org/records/acsbn-kkf35
+kcworks: https://works.hcommons.org/records/55c4v-vd357
 references:
 - author: Maev Kennedy
   date: '2012-08-01'

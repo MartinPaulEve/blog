@@ -26,7 +26,7 @@ title: 'Book: Pynchon and Philosophy: Wittgenstein, Foucault and Adorno'
 wordpress_id: 3074
 wordpress_url: https://www.martineve.com/?p=3074
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfdobbu2r"
-kcworks: https://works.hcommons.org/records/myx7j-trv68
+kcworks: https://works.hcommons.org/records/6zwz4-n7448
 references:
 - http://www.palgrave.com/products/title.aspx?pid=753605&spMailingID=45581591&spUserID=ODg2NDk0OTY4MjYS1&spJobID=421057379&spReportId=NDIxMDU3Mzc5S0 # Palgrave page for Pynchon and Philosophy book
 ---

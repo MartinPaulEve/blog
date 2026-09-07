@@ -15,7 +15,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3ms3ky36den
 categories:
 - Literature
 - Personal
-kcworks: https://works.hcommons.org/records/h8f98-scr94
+kcworks: https://works.hcommons.org/records/9qg4j-rnp31
 references:
 - title: Janeway
   type: WebSite

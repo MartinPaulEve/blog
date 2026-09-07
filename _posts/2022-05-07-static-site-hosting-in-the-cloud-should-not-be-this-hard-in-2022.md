@@ -13,7 +13,7 @@ title: Static site hosting in the cloud should not be this hard in 2022
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lz6isj42h"
 categories:
 - Programming
-kcworks: https://works.hcommons.org/records/sqv2m-j7y54
+kcworks: https://works.hcommons.org/records/vtv2j-mc553
 references:
 - title: Cloudcraft – Draw AWS diagrams
   type: WebSite

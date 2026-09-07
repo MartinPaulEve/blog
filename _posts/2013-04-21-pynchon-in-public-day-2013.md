@@ -18,7 +18,7 @@ title: Pynchon in Public Day 2013
 wordpress_id: 2674
 wordpress_url: https://www.martineve.com/?p=2674
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgrmgbx2o"
-kcworks: https://works.hcommons.org/records/y4men-v4q68
+kcworks: https://works.hcommons.org/records/9brgh-cwa74
 references:
 - http://www.pynchoninpublic.com # Pynchon in Public Day official website
 ---

@@ -14,7 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzbcw3l
 categories:
 - Politics
 - Health
-kcworks: https://works.hcommons.org/records/4p413-fqc45
+kcworks: https://works.hcommons.org/records/9yb3c-cjn73
 references:
 - date: '2022-03-17'
   title: Evusheld approved to prevent COVID-19 in people whose immune response is poor

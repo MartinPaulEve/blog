@@ -10,7 +10,7 @@ title: Action Short of a Strike Must Recognize That 9-5 is Not Always Helpful
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7xzdsn2e"
 categories:
 - Higher Education
-kcworks: https://works.hcommons.org/records/3qkb9-4kn55
+kcworks: https://works.hcommons.org/records/638qn-ra769
 references:
 - date: '2018-03-19'
   title: Uni of Kent UCU (@UoK_UCU) on X

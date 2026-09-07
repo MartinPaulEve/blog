@@ -23,7 +23,7 @@ title: wp-aspxrewriter alpha test
 wordpress_id: 257
 wordpress_url: http://pro.grammatic.org/post-wpaspxrewriter-alpha-test-44.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mn5qsdy2f"
-kcworks: https://works.hcommons.org/records/v0t0j-7gn63
+kcworks: https://works.hcommons.org/records/a6w70-tyk02
 references:
 - http://trac.wordpress.org/ticket/5969 # WordPress Trac ticket 5969 pretty permalinks IIS
 ---

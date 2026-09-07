@@ -23,7 +23,7 @@ title: 'Starting an Open Access Journal: a step-by-step guide part 3'
 wordpress_id: 2193
 wordpress_url: https://eve.gd/?p=2193
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miatxbp2i"
-kcworks: https://works.hcommons.org/records/5y7yf-fzc20
+kcworks: https://works.hcommons.org/records/8xdhy-qrf83
 references:
 - title: cfp | call for papers
   type: WebSite
