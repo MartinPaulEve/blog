@@ -32,6 +32,7 @@ This page is the canonical list of my accounts and public keys around the web. I
 <h2 class="account-box-title">Scholarship</h2>
 <ul>
 <li><span class="account-service">ORCID</span> <a class="account-handle" href="https://orcid.org/0000-0002-5589-8511">0000-0002-5589-8511</a></li>
+<li><span class="account-service">Google Scholar</span> <a class="account-handle" href="https://scholar.google.com/citations?user=-HFP0GsAAAAJ">my profile</a></li>
 <li><span class="account-service">Knowledge Commons</span> <a class="account-handle" href="https://hcommons.org/members/martin_eve/">martin_eve</a> 
 <span class="account-note">The open networking platform for scholars in all disciplines.</span></li>
 <li><span class="account-service">KC Works</span> <a class="account-handle" href="https://works.hcommons.org/search?q=metadata.creators.person_or_org.name%3A%22Eve%2C%20Martin%20Paul%22">my works</a> 
@@ -49,6 +50,8 @@ This page is the canonical list of my accounts and public keys around the web. I
 <span class="account-note">Solo releases under "Martin Eve" are on the <a href="/music/">music page</a>.</span></li>
 <li><span class="account-service">tici taci</span> <a class="account-handle" href="https://ticitaci.com">ticitaci.com</a>
 <span class="account-note">The label my solo releases appear on.</span></li>
+<li><span class="account-service">Last.fm</span> <a class="account-handle" href="https://www.last.fm/user/MartinPaulEve">MartinPaulEve</a>
+<span class="account-note">Scrobbles of what I listen to; the listening stats in the post sidebar come from here.</span></li>
 </ul>
 </section>
 
