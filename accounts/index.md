@@ -100,6 +100,8 @@ This page is the canonical list of my accounts and public keys around the web. I
 <span class="account-note">I built this website, as part of DQ Programming LLP.</span></li>
 <li><span class="account-service">Open Library of Humanities</span> <a class="account-handle" href="https://openlibhums.org">openlibhums.org</a>
 <span class="account-note">With <a href="https://www.drcarolineedwards.com/">Professor Caroline Edwards</a>, I co-founded the OLH and was its CEO for ten years, based at Birkbeck, University of London. We built a not-for-profit, sustainable model for open access to scholarship without author or reader fees.</span></li>
+<li><span class="account-service">tici taci</span> <a class="account-handle" href="https://ticitaci.com">ticitaci.com</a>
+<span class="account-note">An underground electronic music label run by Duncan Gray. I created the website and static site generator for the label.</span></li>
 </ul>
 </section>
 
