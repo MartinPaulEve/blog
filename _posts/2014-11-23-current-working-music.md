@@ -17,6 +17,7 @@ tags:
 title: Current working music
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdrex6k2a"
 kcworks: https://works.hcommons.org/records/gt14w-hv360
+biron: https://eprints.bbk.ac.uk/id/eprint/17500/
 references:
 - date: '2014-07-27'
   title: Music I find inexplicably conducive to writing (#2)

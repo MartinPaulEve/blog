@@ -11,6 +11,7 @@ categories:
 - Philosophy
 - Politics
 kcworks: https://works.hcommons.org/records/q04p0-ne686
+biron: https://eprints.bbk.ac.uk/id/eprint/18632/
 ---
 
 Some thoughts to myself now voiced out loud. Meta-ethical moral relativism holds that there is no objective wrong or right between parties with different ethical views. Normative moral relativism holds that one should therefore tolerate each of these views.

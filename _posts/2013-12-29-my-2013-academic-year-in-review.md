@@ -19,6 +19,7 @@ wordpress_id: 2970
 wordpress_url: https://www.martineve.com/?p=2970
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfsb7gi2i"
 kcworks: https://works.hcommons.org/records/gjghn-zr881
+biron: https://eprints.bbk.ac.uk/id/eprint/16965/
 references:
 - https://www.openlibhums.org # Open Library of Humanities project site
 - http://eprints.lincoln.ac.uk/12425 # Eve, Pynchon and Philosophy (Palgrave 2014)

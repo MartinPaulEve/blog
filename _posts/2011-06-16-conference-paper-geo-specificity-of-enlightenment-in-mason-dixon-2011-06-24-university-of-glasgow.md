@@ -28,6 +28,7 @@ wordpress_id: 1166
 wordpress_url: https://www.martineve.com/?p=1166
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkaiah72p"
 kcworks: https://works.hcommons.org/records/5xvcg-x4298
+biron: https://eprints.bbk.ac.uk/id/eprint/17130/
 references:
 - http://www.symbiosisonline.org.uk/ # Symbiosis transatlantic literary studies conference
 - author: Jason Bachman

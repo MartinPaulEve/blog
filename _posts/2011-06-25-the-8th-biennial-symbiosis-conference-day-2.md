@@ -38,6 +38,7 @@ wordpress_id: 1208
 wordpress_url: https://www.martineve.com/?p=1208
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk7wxos2a"
 kcworks: https://works.hcommons.org/records/d87e9-ze241
+biron: https://eprints.bbk.ac.uk/id/eprint/17425/
 references:
 - date: '2004-07-26'
   title: Herero and Namaqua Genocide

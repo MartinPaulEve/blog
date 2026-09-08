@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mb6qvtd
 categories:
 - Higher Education
 kcworks: https://works.hcommons.org/records/hspv7-txe94
+biron: https://eprints.bbk.ac.uk/id/eprint/17304/
 ---
 
 One of the aspects of the Stern review that has attracted the most attention from my Twitter stream is the non-portability of research outputs. What this means is that institutions cannot poach staff from elsewhere and use their outputs to return to REF.

@@ -21,6 +21,7 @@ wordpress_id: 746
 wordpress_url: https://www.martineve.com/?p=746
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkqku762a"
 kcworks: https://works.hcommons.org/records/rm6pf-m3003
+biron: https://eprints.bbk.ac.uk/id/eprint/17374/
 references:
 - author: Robert Burdock
   title: Robert Burdock

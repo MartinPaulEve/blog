@@ -15,6 +15,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7ly4cktq
 categories:
 - Scholarly Communications
 kcworks: https://works.hcommons.org/records/nmm4t-9zv16
+biron: https://eprints.bbk.ac.uk/id/eprint/51638/
 references:
 - title: The Principles of Open Scholarly Infrastructure (v2.0, 2025)
   type: WebSite

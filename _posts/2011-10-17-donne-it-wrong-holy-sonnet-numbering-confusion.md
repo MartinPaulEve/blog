@@ -22,6 +22,7 @@ wordpress_id: 1544
 wordpress_url: https://www.martineve.com/2011/10/17/donne-it-wrong-holy-sonnet-numbering-confusion/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjixewd2n"
 kcworks: https://works.hcommons.org/records/gyejm-95q78
+biron: https://eprints.bbk.ac.uk/id/eprint/17420/
 references:
 - date: '2007-01-22'
   title: Holy Sonnets

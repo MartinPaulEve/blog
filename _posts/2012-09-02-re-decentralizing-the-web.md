@@ -25,6 +25,7 @@ wordpress_id: 2344
 wordpress_url: https://www.martineve.com/?p=2344
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhupnjr2e"
 kcworks: https://works.hcommons.org/records/a8vy6-ctb56
+biron: https://eprints.bbk.ac.uk/id/eprint/17488/
 references:
 - title: Novel Readings
   type: WebSite

@@ -22,6 +22,7 @@ wordpress_id: 1705
 wordpress_url: https://www.martineve.com/?p=1705
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjbxtd72q"
 kcworks: https://works.hcommons.org/records/etf5t-c7072
+biron: https://eprints.bbk.ac.uk/id/eprint/16964/
 references:
 - title: Updated online banking agreement
   type: WebPage

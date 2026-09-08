@@ -28,6 +28,7 @@ wordpress_id: 2526
 wordpress_url: https://www.martineve.com/?p=2526
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhg6qge2h"
 kcworks: https://works.hcommons.org/records/5h2b7-06136
+biron: https://eprints.bbk.ac.uk/id/eprint/17178/
 references:
 - http://www.alluvium-journal.org # Alluvium journal homepage
 - http://www.alluvium-journal.org/about-alluvium/copyright-position/ # Alluvium journal copyright position statement

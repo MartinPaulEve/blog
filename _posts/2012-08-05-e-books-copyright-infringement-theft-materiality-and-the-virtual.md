@@ -20,6 +20,7 @@ wordpress_id: 2275
 wordpress_url: https://www.martineve.com/?p=2275
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhvwpkx2r"
 kcworks: https://works.hcommons.org/records/qm2wn-5nq19
+biron: https://eprints.bbk.ac.uk/id/eprint/17279/
 references:
 - title: Letter to Pogue, NYTimes, re Ludlum
   type: WebPage

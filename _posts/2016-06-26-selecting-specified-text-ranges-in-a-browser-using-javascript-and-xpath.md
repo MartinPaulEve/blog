@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbbti5u
 categories:
 - Programming
 kcworks: https://works.hcommons.org/records/m9wdh-atv14
+biron: https://eprints.bbk.ac.uk/id/eprint/17484/
 ---
 
 Continuing [my post from yesterday](https://www.martineve.com/2016/06/25/creating-a-generic-loader-for-annotatorjs-plugins-inside-a-hypothesis-extension-project/), one of the interface components that we want to work is that, when a user clicks a paragraph, the first sentence is selected so that they can immediately begin translating, seamlessly hitting enter to move to the next sentence etc. I've been working on this while my colleague has been creating the sidebar interface.

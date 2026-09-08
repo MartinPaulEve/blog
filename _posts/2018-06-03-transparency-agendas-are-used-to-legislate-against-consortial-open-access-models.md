@@ -15,6 +15,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7soviv
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/mjkzn-w0077
+biron: https://eprints.bbk.ac.uk/id/eprint/22630/
 references:
 - author: Peter Suber
   date: '2003'

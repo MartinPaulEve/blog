@@ -23,6 +23,7 @@ wordpress_id: 962
 wordpress_url: https://www.martineve.com/?p=962
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkf5tly2f"
 kcworks: https://works.hcommons.org/records/ynxfs-mpe10
+biron: https://eprints.bbk.ac.uk/id/eprint/17236/
 references:
 - http://www.rupkatha.com/ # Rupkatha journal main site
 - http://www.rupkatha.com/v3n1.php # Rupkatha volume 3 issue 1 index

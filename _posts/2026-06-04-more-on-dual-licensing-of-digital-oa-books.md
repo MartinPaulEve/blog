@@ -6,6 +6,7 @@ date: 2026-06-04
 last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/pyncb-wyx70
 kcworks: https://works.hcommons.org/records/jg1a6-5sh71
+biron: https://eprints.bbk.ac.uk/id/eprint/57511/
 roguescholar: https://rogue-scholar.org/records/g2d9z-4fs49
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lurdtjm2e
 image:

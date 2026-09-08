@@ -23,6 +23,7 @@ wordpress_id: 255
 wordpress_url: http://pro.grammatic.org/post-ie7-remote-file-access-46.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mn4ft5m2h"
 kcworks: https://works.hcommons.org/records/mf4v5-p2k21
+biron: https://eprints.bbk.ac.uk/id/eprint/16822/
 references:
 - http://www.0x000000.com/?i=525 # Ronald's article on IE7 remote file access
 ---

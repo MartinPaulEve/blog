@@ -85,6 +85,7 @@ wordpress_id: 437
 wordpress_url: http://www.martineve.com/?p=437
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mllxa6e2h"
 kcworks: https://works.hcommons.org/records/6kse8-azw79
+biron: https://eprints.bbk.ac.uk/id/eprint/17185/
 references:
 - http://slashdot.org/story/10/11/18/2246213/Alternative-To-the-200-Line-Linux-Kernel-Patch # Slashdot article on Linux responsiveness userspace patch
 - title: Alternative To The "200 Lines Kernel Patch That Does Wonders" Which You Can Use Right Away

@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7ly7qqbm
 categories:
 - Programming
 kcworks: https://works.hcommons.org/records/ebwdr-0vp80
+biron: https://eprints.bbk.ac.uk/id/eprint/51188/
 references:
 - title: Instrument your FastAPI with Prometheus metrics.
   type: SoftwareSourceCode

@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzfswjs
 categories:
 - Programming
 kcworks: https://works.hcommons.org/records/2y5bs-c8126
+biron: https://eprints.bbk.ac.uk/id/eprint/47357/
 references:
 - title: 'GitHub - Textualize/rich: Rich is a Python library for rich text and beautiful formatting in the terminal.'
   type: SoftwareSourceCode

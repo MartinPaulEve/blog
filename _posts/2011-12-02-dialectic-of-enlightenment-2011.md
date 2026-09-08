@@ -22,6 +22,7 @@ wordpress_id: 1658
 wordpress_url: https://www.martineve.com/2011/12/02/dialectic-of-enlightenment-2011/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjeczkc2u"
 kcworks: https://works.hcommons.org/records/kp998-xnb78
+biron: https://eprints.bbk.ac.uk/id/eprint/17379/
 references:
 - author: Chris Murphy
   title: Chris Murphy

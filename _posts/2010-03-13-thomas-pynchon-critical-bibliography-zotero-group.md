@@ -134,6 +134,7 @@ wordpress_id: 33
 wordpress_url: http://new.martineve.com/?p=33
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmclhw42s"
 kcworks: https://works.hcommons.org/records/re4yk-m6b45
+biron: https://eprints.bbk.ac.uk/id/eprint/17427/
 references:
 - title: Thomas Pynchon
   type: WebPage

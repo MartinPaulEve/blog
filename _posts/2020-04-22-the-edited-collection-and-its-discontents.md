@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m64xi6v
 categories:
 - Academia
 kcworks: https://works.hcommons.org/records/evz2z-qv280
+biron: https://eprints.bbk.ac.uk/id/eprint/31719/
 references:
 - https://doi.org/10.1017/9781108683647 # Cambridge edited collection on publishing pasts and futures
 - https://unsplash.com/photos/1l4ozWuJtP4 # Lalaine Macababbad Unsplash photo

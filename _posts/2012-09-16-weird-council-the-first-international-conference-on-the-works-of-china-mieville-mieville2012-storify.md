@@ -23,6 +23,7 @@ wordpress_id: 2409
 wordpress_url: https://www.martineve.com/?p=2409
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhrnn3j2n"
 kcworks: https://works.hcommons.org/records/090vh-bfv22
+biron: https://eprints.bbk.ac.uk/id/eprint/17311/
 references:
 - https://twitter.com/i/#!/damiengwalter/essential-sci-fi # Damien Walter Essential Sci-Fi Twitter list
 - title: Goodreads

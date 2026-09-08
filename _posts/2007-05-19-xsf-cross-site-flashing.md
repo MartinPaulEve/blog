@@ -22,6 +22,7 @@ wordpress_id: 282
 wordpress_url: http://pro.grammatic.org/post-xsf-cross-site-flashing-17.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnq2pgx2t"
 kcworks: https://works.hcommons.org/records/dfj5c-74r58
+biron: https://eprints.bbk.ac.uk/id/eprint/16794/
 references:
 - http://www.wisec.it/en/Docs/flash_App_testing_Owasp07.pdf # Di Paola OWASP 2007 Flash application testing paper
 ---

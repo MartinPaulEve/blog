@@ -26,6 +26,7 @@ wordpress_id: 1378
 wordpress_url: https://www.martineve.com/?p=1378
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk3f2ks2i"
 kcworks: https://works.hcommons.org/records/s61m3-qjk58
+biron: https://eprints.bbk.ac.uk/id/eprint/17219/
 references:
 - title: 'The UKSG 45th Annual Conference and Exhibition: Telford'
   type: WebPage

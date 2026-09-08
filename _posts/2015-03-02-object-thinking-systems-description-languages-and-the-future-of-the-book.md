@@ -19,6 +19,7 @@ tags:
 title: Object Thinking, Systems Description Languages and the Future of the Book
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7md5ctdr2q"
 kcworks: https://works.hcommons.org/records/qbgx6-0qe35
+biron: https://eprints.bbk.ac.uk/id/eprint/17180/
 ---
 
 I am reading a most remarkable book.

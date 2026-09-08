@@ -74,6 +74,7 @@ wordpress_id: 1995
 wordpress_url: https://www.martineve.com/2012/03/30/the-problems-for-small-open-access-journals-in-terms-of-digital-preservation/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miox62s2n"
 kcworks: https://works.hcommons.org/records/ew8c2-fpa43
+biron: https://eprints.bbk.ac.uk/id/eprint/17403/
 references:
 - title: Public Knowledge Project
   type: WebSite

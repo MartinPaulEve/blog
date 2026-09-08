@@ -23,6 +23,7 @@ wordpress_id: 2680
 wordpress_url: https://www.martineve.com/?p=2680
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgr4mbs2s"
 kcworks: https://works.hcommons.org/records/8zk1t-ett62
+biron: https://eprints.bbk.ac.uk/id/eprint/17415/
 references:
 - title: web app for parsing citations
   type: SoftwareSourceCode

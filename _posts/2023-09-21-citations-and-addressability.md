@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lxl4t2e
 categories:
 - Scholarly Communications
 kcworks: https://works.hcommons.org/records/887yh-tk550
+biron: https://eprints.bbk.ac.uk/id/eprint/52887/
 references:
 - title: The Footnote
   type: Book

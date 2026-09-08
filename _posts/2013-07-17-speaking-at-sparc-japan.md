@@ -23,6 +23,7 @@ wordpress_id: 2752
 wordpress_url: https://www.martineve.com/?p=2752
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgmy42h2a"
 kcworks: https://works.hcommons.org/records/p2jey-83m70
+biron: https://eprints.bbk.ac.uk/id/eprint/17504/
 references:
 - title: SPARC Japan
   type: WebPage

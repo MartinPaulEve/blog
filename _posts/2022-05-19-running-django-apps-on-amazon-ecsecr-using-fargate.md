@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lz5lmqs
 categories:
 - Programming
 kcworks: https://works.hcommons.org/records/fy8ep-y2733
+biron: https://eprints.bbk.ac.uk/id/eprint/48846/
 references:
 - title: GitHub - MartinPaulEve/django-fargate
   type: SoftwareSourceCode

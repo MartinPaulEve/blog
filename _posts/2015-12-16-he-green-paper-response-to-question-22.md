@@ -15,6 +15,7 @@ tags:
 title: 'HE Green Paper: response to question 22'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbysdtu2t"
 kcworks: https://works.hcommons.org/records/39bqr-rpp08
+biron: https://eprints.bbk.ac.uk/id/eprint/17255/
 ---
 
 This post is part of an [ongoing series](https://martineve.com/GreenPaper/) where I intend to develop my full _personal_ (_not_ institutional) response to the HE Green Paper. Comments are welcome to refine this.

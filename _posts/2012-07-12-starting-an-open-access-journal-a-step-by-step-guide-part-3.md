@@ -24,6 +24,7 @@ wordpress_id: 2193
 wordpress_url: https://eve.gd/?p=2193
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miatxbp2i"
 kcworks: https://works.hcommons.org/records/8xdhy-qrf83
+biron: https://eprints.bbk.ac.uk/id/eprint/16924/
 references:
 - title: cfp | call for papers
   type: WebSite

@@ -15,6 +15,7 @@ categories:
 - Digital Humanities
 - Literature
 kcworks: https://works.hcommons.org/records/rvr41-myy87
+biron: https://eprints.bbk.ac.uk/id/eprint/26701/
 references:
 - https://doi.org/10.1086/702594 # Da, Nan Z. Computational Case Against Computational Literary Studies
 - title: Close Reading with Computers

@@ -14,6 +14,7 @@ categories:
 - Music
 - Technology
 kcworks: https://works.hcommons.org/records/kfbft-xfg74
+biron: https://eprints.bbk.ac.uk/id/eprint/43693/
 ---
 
 A friend chucked me an old Crumar Bit99 synthesizer from the 1980s. It's a beast! Lovely bass sounds. Totally unusable interface. See figure A.

@@ -15,6 +15,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7maw346f
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/ckdam-qae04
+biron: https://eprints.bbk.ac.uk/id/eprint/17465/
 references:
 - title: Open Access (the book)
   type: WebPage

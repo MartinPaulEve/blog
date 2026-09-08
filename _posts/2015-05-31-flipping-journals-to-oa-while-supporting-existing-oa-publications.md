@@ -18,6 +18,7 @@ tags:
 title: Flipping journals to OA while supporting existing OA publications
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcqwlpb2f"
 kcworks: https://works.hcommons.org/records/7rt9m-ek173
+biron: https://eprints.bbk.ac.uk/id/eprint/17520/
 references:
 - https://www.openlibhums.org/2015/05/29/announcing-the-first-subscription-journal-to-flip-to-open-access-through-the-open-library-of-humanities/ # OLH announcement of first journal flipping to gold OA
 - https://www.openlibhums.org/committees/operation-of-the-olh-library-board/ # OLH library board post-launch journal selection procedure

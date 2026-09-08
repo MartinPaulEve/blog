@@ -22,6 +22,7 @@ wordpress_id: 20
 wordpress_url: http://new.martineve.com/?p=20
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mma2jft2n"
 kcworks: https://works.hcommons.org/records/0p0sg-0ta76
+biron: https://eprints.bbk.ac.uk/id/eprint/17147/
 references:
 - http://www.ahrc.ac.uk/FundedResearch/Pages/ResearchStatistics.aspx # AHRC funded research statistics page
 - http://www.ahrc.ac.uk/FundingOpportunities/Pages/BGP.aspx # AHRC Block Grant Partnership funding page

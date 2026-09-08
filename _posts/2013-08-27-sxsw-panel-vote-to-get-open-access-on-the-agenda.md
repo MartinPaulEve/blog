@@ -23,6 +23,7 @@ wordpress_id: 2820
 wordpress_url: https://www.martineve.com/?p=2820
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgdkwa42h"
 kcworks: https://works.hcommons.org/records/ffsb8-tr930
+biron: https://eprints.bbk.ac.uk/id/eprint/17168/
 references:
 - title: PanelPicker
   type: WebPage

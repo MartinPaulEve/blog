@@ -14,6 +14,7 @@ categories:
 - Copyright and Licensing
 - Open Access
 kcworks: https://works.hcommons.org/records/1acm9-z4238
+biron: https://eprints.bbk.ac.uk/id/eprint/47013/
 ---
 
 I gave my final talk of the year, today, at the University of Leeds, on open access in the humanities disciplines. Perhaps predictably, all of the Q&A centred on open licensing and the concerns from humanists around the misuse of their work.

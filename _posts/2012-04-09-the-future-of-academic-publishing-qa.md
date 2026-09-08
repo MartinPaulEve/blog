@@ -34,6 +34,7 @@ wordpress_id: 2037
 wordpress_url: https://www.martineve.com/2012/04/09/the-future-of-academic-publishing-qa/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mii66hx2f"
 kcworks: https://works.hcommons.org/records/9t0pq-8ff57
+biron: https://eprints.bbk.ac.uk/id/eprint/16908/
 ---
 
 <p>In which I look nervous and shifty.</p>

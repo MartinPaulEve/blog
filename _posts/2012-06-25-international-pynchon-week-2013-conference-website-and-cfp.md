@@ -20,6 +20,7 @@ wordpress_id: 2135
 wordpress_url: https://www.martineve.com/?p=2135
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mieanoe2h"
 kcworks: https://works.hcommons.org/records/12vmm-4h087
+biron: https://eprints.bbk.ac.uk/id/eprint/17388/
 ---
 
 <p>Up at Durham, Sam Thomas has just announced the details of the forthcoming <a href="http://www.ipw2013.com">International Pynchon Week 2013 Conference</a> to be held at Durham University from 5th-8th August, 2013. The CFP is now out (available on <a href="http://www.ipw2013.com/cfp/">the conference website</a>). The deadline for abstracts to be emailed to Sam is the 20th December 2012, so get your submissions in!</p>

@@ -20,6 +20,7 @@ tags:
 title: Financing for fee-driven gold open access
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdbbtro2a"
 kcworks: https://works.hcommons.org/records/kae85-gza70
+biron: https://eprints.bbk.ac.uk/id/eprint/17184/
 references:
 - http://dx.doi.org/10.6084/m9.figshare.1056280 # Lawson figshare piece on UK Finch Report and APCs
 - http://dx.doi.org/10.1017/CBO9781316161012.006 # Eve, Open Access and the Humanities chapter on book processing charges

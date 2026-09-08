@@ -15,6 +15,7 @@ categories:
 - Publications
 - Information Security
 kcworks: https://works.hcommons.org/records/0nfhd-9x180
+biron: https://eprints.bbk.ac.uk/id/eprint/17035/
 references:
 - http://www.bloomsbury.com/us/series/object-lessons/ # Bloomsbury Object Lessons series page
 - author: Martin Paul Eve

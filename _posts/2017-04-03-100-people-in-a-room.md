@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7maej2t5
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/mthvs-sn844
+biron: https://eprints.bbk.ac.uk/id/eprint/18536/
 ---
 
 There are 100 people in a room. They have $10 each. The academic speaker will give them a talk but the venue wants $50 to cover its costs (and any profit/surplus). There are 40 such talks per year. There is final indefinitely large group of people (let us call them "the general public") who might want to hear the talk but who can't afford to pay anything.

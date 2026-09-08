@@ -16,6 +16,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3fahz5
 categories:
 - Higher Education
 kcworks: https://works.hcommons.org/records/4zm6e-pxp51
+biron: https://eprints.bbk.ac.uk/id/eprint/44313/
 references:
 - https://bills.parliament.uk/Publications/41479/Documents/212/21012.pdf # UK Higher Education (Freedom of Speech) Bill PDF
 - author: Mikey Smith

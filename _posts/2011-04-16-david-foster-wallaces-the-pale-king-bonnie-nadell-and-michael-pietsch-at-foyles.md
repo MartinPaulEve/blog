@@ -24,6 +24,7 @@ wordpress_id: 982
 wordpress_url: https://www.martineve.com/?p=982
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkett7l2u"
 kcworks: https://works.hcommons.org/records/87pk6-w8g57
+biron: https://eprints.bbk.ac.uk/id/eprint/17483/
 references:
 - author: James Lasdun
   date: '2011-04-15'

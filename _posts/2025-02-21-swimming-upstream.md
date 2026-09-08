@@ -15,6 +15,7 @@ categories:
 - Scholarly Communications
 - Programming
 kcworks: https://works.hcommons.org/records/77mpe-10439
+biron: https://eprints.bbk.ac.uk/id/eprint/55037/
 references:
 - date: '2025-02-05'
   title: 'Dumping open source for proprietary rarely pays off: Better to stick a fork in it'

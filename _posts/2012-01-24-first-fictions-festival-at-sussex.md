@@ -20,6 +20,7 @@ wordpress_id: 1869
 wordpress_url: https://www.martineve.com/2012/01/24/first-fictions-festival-at-sussex/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mixrrpm2a"
 kcworks: https://works.hcommons.org/records/1nkdw-mz503
+biron: https://eprints.bbk.ac.uk/id/eprint/17360/
 ---
 
 <p><img src="https://www.martineve.com/wp-content/uploads/2012/01/ian-martin2-1024x741.jpg" alt="Ian Rankin and Martin Paul Eve" title="Ian Rankin and Martin Paul Eve" style="width:750px;" class="alignnone size-large wp-image-1870" /><br />

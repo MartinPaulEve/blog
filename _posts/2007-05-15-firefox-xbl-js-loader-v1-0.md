@@ -22,6 +22,7 @@ wordpress_id: 294
 wordpress_url: http://pro.grammatic.org/post-firefox-xbljs-loader-v10-4.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mocbqo72t"
 kcworks: https://works.hcommons.org/records/en0yp-ynx23
+biron: https://eprints.bbk.ac.uk/id/eprint/16781/
 references:
 - http://site.com/STXSS_XBL.xml#loader # Illustrative STXSS XBL loader payload URL
 - title: Mozilla XML Namespace

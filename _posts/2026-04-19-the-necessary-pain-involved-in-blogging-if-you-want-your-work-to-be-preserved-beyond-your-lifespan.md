@@ -4,6 +4,7 @@ date: 2026-04-19
 last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/6cr4z-4ct43
 kcworks: https://works.hcommons.org/records/txcb6-6pn83
+biron: https://eprints.bbk.ac.uk/id/eprint/57247/
 roguescholar: https://rogue-scholar.org/records/zt4g7-r7e73
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7luujmdm2a
 image:

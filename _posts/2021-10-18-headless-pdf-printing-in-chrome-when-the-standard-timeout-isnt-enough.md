@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2dur2c
 categories:
 - Programming
 kcworks: https://works.hcommons.org/records/pp6nj-k4n19
+biron: https://eprints.bbk.ac.uk/id/eprint/46776/
 references:
 - https://www.npmjs.com/package/html-pdf-chrome # html-pdf-chrome npm package
 - title: GitHub - MartinPaulEve/cv

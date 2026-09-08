@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbhn2lc
 categories:
 - Programming
 kcworks: https://works.hcommons.org/records/49ba0-2cf32
+biron: https://eprints.bbk.ac.uk/id/eprint/17062/
 references:
 - title: Hypothesis
   type: WebPage

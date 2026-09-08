@@ -26,6 +26,7 @@ wordpress_id: 599
 wordpress_url: http://www.martineve.com/?p=599
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkuydma2f"
 kcworks: https://works.hcommons.org/records/wrmzv-08k05
+biron: https://eprints.bbk.ac.uk/id/eprint/17210/
 references:
 - title: El Waka
   type: WebPage

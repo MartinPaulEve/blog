@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvpxjaj
 categories:
 - Programming
 kcworks: https://works.hcommons.org/records/s209x-sk523
+biron: https://eprints.bbk.ac.uk/id/eprint/56594/
 ---
 
 I spent the morning bashing my head against a brick wall, trying to sort out a problem with my Lando install. This worked on Friday, but by Monday was misbehaving. I hadn't touched the codebase, but every time I hit the primary URL, I got: "404 page not found".

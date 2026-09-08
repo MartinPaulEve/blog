@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6ad3kf
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/verfd-7t720
+biron: https://eprints.bbk.ac.uk/id/eprint/31625/
 ---
 
 Subscribe to Open is a model pioneered by Annual Reviews that basically says that [if libraries continue to subscribe, the title will become OA](https://eve.gd/2018/01/21/how-learned-societies-could-flip-to-oa-using-a-consortial-model/). If libraries drop out, it goes back to being subscription.

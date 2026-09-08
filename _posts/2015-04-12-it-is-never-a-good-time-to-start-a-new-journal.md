@@ -13,6 +13,7 @@ tags: []
 title: It is never a good time to start a new journal
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcvzz4q2u"
 kcworks: https://works.hcommons.org/records/egvyq-wa843
+biron: https://eprints.bbk.ac.uk/id/eprint/17460/
 references:
 - http://dx.doi.org/10.1080/09502368708582003 # Hawkes editorial inaugural issue of Textual Practice 1987
 ---

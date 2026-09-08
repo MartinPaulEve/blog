@@ -16,6 +16,7 @@ tags:
 title: My 2015 academic year in review
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbyo6q72i"
 kcworks: https://works.hcommons.org/records/abgq2-qhg28
+biron: https://eprints.bbk.ac.uk/id/eprint/17382/
 references:
 - author: Martin Paul Eve
   date: '2015-10-19'

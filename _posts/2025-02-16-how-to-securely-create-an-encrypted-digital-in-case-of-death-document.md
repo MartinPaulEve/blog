@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lw6esu3
 categories:
 - Information Security
 kcworks: https://works.hcommons.org/records/y6gxm-vyy12
+biron: https://eprints.bbk.ac.uk/id/eprint/55002/
 references:
 - author: Ross Naylor
   date: '2025-03-12'

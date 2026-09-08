@@ -17,6 +17,7 @@ title: 'Chapter Two: Self-Canonisation, Literary-Historical Fictions and Aesthet
   Critique'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7md7jafg2o"
 kcworks: https://works.hcommons.org/records/jjczr-fax26
+biron: https://eprints.bbk.ac.uk/id/eprint/17252/
 ---
 
 A map, as of the 22nd February 2015, of Chapter Two of <a href="/2015/02/15/the-anxiety-of-academia-academics-legitimation-and-discipline-in-contemporary-metafiction/">the book I am slowly working on</a>.

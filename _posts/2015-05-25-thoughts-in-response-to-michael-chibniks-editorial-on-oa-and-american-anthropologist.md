@@ -16,6 +16,7 @@ tags: []
 title: Thoughts in response to Michael Chibnik's editorial on OA and American Anthropologist
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcsax3x2s"
 kcworks: https://works.hcommons.org/records/whw1t-7gf21
+biron: https://eprints.bbk.ac.uk/id/eprint/17469/
 references:
 - http://dx.doi.org/10.1111/aman.12231 # Chibnik editorial on OA in American Anthropologist
 - http://dx.doi.org/10.1111%2Fj.1548-1433.2012.01440.x # Previous American Anthropologist editor calling for OA

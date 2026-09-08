@@ -59,6 +59,7 @@ wordpress_id: 1061
 wordpress_url: https://www.martineve.com/?p=1061
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkdm7n32u"
 kcworks: https://works.hcommons.org/records/n5gfr-1p793
+biron: https://eprints.bbk.ac.uk/id/eprint/16942/
 references:
 - title: 'Academic Blogging: Pros and Cons'
   type: BlogPosting

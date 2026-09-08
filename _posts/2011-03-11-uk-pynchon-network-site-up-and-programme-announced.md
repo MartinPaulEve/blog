@@ -21,6 +21,7 @@ wordpress_id: 848
 wordpress_url: https://www.martineve.com/?p=848
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkjqc4q2f"
 kcworks: https://works.hcommons.org/records/x9me6-mf041
+biron: https://eprints.bbk.ac.uk/id/eprint/17087/
 references:
 - title: English Studies - Durham University
   type: WebPage

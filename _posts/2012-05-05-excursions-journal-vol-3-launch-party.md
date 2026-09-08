@@ -25,6 +25,7 @@ wordpress_id: 2077
 wordpress_url: https://www.martineve.com/2012/05/05/excursions-journal-vol-3-launch-party/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miglu3g2p"
 kcworks: https://works.hcommons.org/records/abjxf-63h73
+biron: https://eprints.bbk.ac.uk/id/eprint/16996/
 references:
 - title: 'Excursions: An interdisciplinary journal'
   type: WebSite

@@ -15,6 +15,7 @@ categories:
 - Personal
 - Academia
 kcworks: https://works.hcommons.org/records/w5nk7-gqg12
+biron: https://eprints.bbk.ac.uk/id/eprint/42403/
 references:
 - title: Opening the Future
   type: WebPage

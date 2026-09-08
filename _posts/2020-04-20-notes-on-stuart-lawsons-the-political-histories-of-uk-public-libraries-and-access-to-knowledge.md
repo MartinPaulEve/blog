@@ -15,6 +15,7 @@ categories:
 - Open Access
 - Politics
 kcworks: https://works.hcommons.org/records/14xwj-ysr29
+biron: https://eprints.bbk.ac.uk/id/eprint/31705/
 references:
 - https://mitpress.mit.edu/books/reassembling-scholarly-communications # MIT Press Reassembling Scholarly Communications book
 - author: Lawson, Stuart Andrew

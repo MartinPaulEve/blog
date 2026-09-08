@@ -19,6 +19,7 @@ status: publish
 title: 'Publication: Co-operating for gold open access without APCs'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcxbyap2i"
 kcworks: https://works.hcommons.org/records/9yyek-ag073
+biron: https://eprints.bbk.ac.uk/id/eprint/17170/
 references:
 - http://dx.doi.org/10.1017/CBO9781316161012 # Eve, Open Access and the Humanities Cambridge University Press
 - http://knconsultants.org/wp-content/uploads/2014/01/OA_Proposal_White_Paper_Final.pdf # K|N Consultants OA proposal white paper for humanities

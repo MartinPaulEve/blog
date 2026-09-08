@@ -22,6 +22,7 @@ wordpress_id: 1440
 wordpress_url: https://www.martineve.com/2011/08/31/guest-post-at-phd2published/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjzeieg2p"
 kcworks: https://works.hcommons.org/records/0z7hr-k1h74
+biron: https://eprints.bbk.ac.uk/id/eprint/17325/
 references:
 - title: 'We Ask Martin Paul Eve: Do We Need to Rethink Academic Publishing?'
   type: BlogPosting

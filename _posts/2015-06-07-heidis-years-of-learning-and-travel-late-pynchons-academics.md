@@ -15,6 +15,7 @@ tags:
 title: 'Heidi''s Years of Learning and Travel: Late Pynchon''s Academics'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcq34s42r"
 kcworks: https://works.hcommons.org/records/gy7c0-g6e92
+biron: https://eprints.bbk.ac.uk/id/eprint/16912/
 ---
 
 The abstract for my paper, to be presented at International Pynchon Week 2015, in Athens on Wednesday 10th June.

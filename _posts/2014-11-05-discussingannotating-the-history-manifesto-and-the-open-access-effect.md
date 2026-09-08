@@ -21,6 +21,7 @@ tags:
 title: Discussing/annotating The History Manifesto and the open access effect(?)
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mebw3sc2a"
 kcworks: https://works.hcommons.org/records/scgrn-0cj06
+biron: https://eprints.bbk.ac.uk/id/eprint/17094/
 references:
 - title: The History Manifesto
   type: WebPage

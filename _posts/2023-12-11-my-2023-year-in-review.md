@@ -15,6 +15,7 @@ categories:
 - Personal
 - Academia
 kcworks: https://works.hcommons.org/records/ad7wz-1fr37
+biron: https://eprints.bbk.ac.uk/id/eprint/52893/
 references:
 - title: Crossref Labs API
   type: WebSite

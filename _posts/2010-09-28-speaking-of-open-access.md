@@ -27,6 +27,7 @@ wordpress_id: 165
 wordpress_url: http://www.martineve.com/?p=165
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlr3nyr2o"
 kcworks: https://works.hcommons.org/records/w557m-vq361
+biron: https://eprints.bbk.ac.uk/id/eprint/17358/
 references:
 - title: International Open Access Week
   type: WebSite

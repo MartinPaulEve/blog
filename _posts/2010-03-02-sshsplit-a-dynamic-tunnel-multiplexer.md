@@ -26,6 +26,7 @@ wordpress_id: 228
 wordpress_url: http://pro.grammatic.org/post-sshsplit-a-dynamic-tunnel-multiplexer-74.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmdxqw22a"
 kcworks: https://works.hcommons.org/records/41gg0-w7z70
+biron: https://eprints.bbk.ac.uk/id/eprint/17103/
 references:
 - http://pro.grammatic.org/sshsplit/sshsplit-screen1.png # sshsplit screenshot 1 on pro.grammatic.org
 - title: sshsplit

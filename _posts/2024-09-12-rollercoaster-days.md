@@ -14,6 +14,7 @@ categories:
 - Health
 - Personal
 kcworks: https://works.hcommons.org/records/dd48x-mz775
+biron: https://eprints.bbk.ac.uk/id/eprint/54256/
 ---
 
 There are lots of things that I have learned about kidneys and their functions since BK virus destroyed mine. Kidneys regulate potassium in your blood; they also control phosphate levels; they remove urea from the blood stream; they take excess fluid out of your body and blood; they produce the hormones that stimulate the creation of red blood cells; and a whole host more. Kidneys are the Swiss Army Knives of internal organs.

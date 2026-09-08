@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2e6wcl
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/zw2wv-wce84
+biron: https://eprints.bbk.ac.uk/id/eprint/46087/
 references:
 - http://doi.org/10.1629/uksg.392 # UKSG article on BPC distribution across institutions
 - title: Opening the Future

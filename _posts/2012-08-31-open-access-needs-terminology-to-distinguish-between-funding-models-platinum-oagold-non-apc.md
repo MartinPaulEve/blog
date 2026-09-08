@@ -23,6 +23,7 @@ wordpress_id: 2302
 wordpress_url: https://www.martineve.com/?p=2302
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhv54242h"
 kcworks: https://works.hcommons.org/records/7df05-w0c68
+biron: https://eprints.bbk.ac.uk/id/eprint/17010/
 references:
 - author: P.G. Haschak
   title: 'The ''platinum route'' to open access: a case study of E-JASL: The Electronic Journal of Academic and Special Librarianship'

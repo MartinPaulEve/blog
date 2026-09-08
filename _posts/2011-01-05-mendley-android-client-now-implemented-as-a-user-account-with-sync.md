@@ -58,6 +58,7 @@ wordpress_id: 527
 wordpress_url: http://www.martineve.com/?p=527
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkyfavg2a"
 kcworks: https://works.hcommons.org/records/rf4mq-43b21
+biron: https://eprints.bbk.ac.uk/id/eprint/17235/
 references:
 - title: 'Writing an Android Sync Provider: Part 1'
   type: BlogPosting

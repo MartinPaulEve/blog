@@ -19,6 +19,7 @@ wordpress_id: 1532
 wordpress_url: https://www.martineve.com/?p=1532
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjj2wvw2p"
 kcworks: https://works.hcommons.org/records/47m3d-cwa08
+biron: https://eprints.bbk.ac.uk/id/eprint/17364/
 references:
 - author: photogreuhphies
   title: photogreuhphies

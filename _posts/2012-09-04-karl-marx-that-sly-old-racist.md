@@ -23,6 +23,7 @@ wordpress_id: 2368
 wordpress_url: https://www.martineve.com/?p=2368
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhtqams2a"
 kcworks: https://works.hcommons.org/records/7dbcb-e6x47
+biron: https://eprints.bbk.ac.uk/id/eprint/17107/
 references:
 - title: waste mailing lists / pynchon-l by date
   type: WebPage

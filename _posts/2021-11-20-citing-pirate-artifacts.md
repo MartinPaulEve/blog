@@ -15,6 +15,7 @@ categories:
 - Piracy and Shadow Libraries
 - Academia
 kcworks: https://works.hcommons.org/records/0d08f-6jr03
+biron: https://eprints.bbk.ac.uk/id/eprint/46775/
 references:
 - author: Martin Paul Eve
   date: '2021-12-15'

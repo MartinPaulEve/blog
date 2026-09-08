@@ -15,6 +15,7 @@ categories:
 - Piracy and Shadow Libraries
 - Copyright and Licensing
 kcworks: https://works.hcommons.org/records/vbc0q-8fa97
+biron: https://eprints.bbk.ac.uk/id/eprint/28426/
 references:
 - date: '2019-07-31'
   title: Citationsy (@Citationsy) on X

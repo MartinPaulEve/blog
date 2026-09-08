@@ -40,6 +40,7 @@ wordpress_id: 1509
 wordpress_url: https://www.martineve.com/2011/09/25/writing-a-plugin-for-open-journal-systems-part-2/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjuw4of2a"
 kcworks: https://works.hcommons.org/records/zxmsj-57f81
+biron: https://eprints.bbk.ac.uk/id/eprint/17380/
 references:
 - title: A plugin for Open Journal Systems to generate PDF galleys from XML
   type: SoftwareSourceCode

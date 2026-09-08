@@ -21,6 +21,7 @@ wordpress_id: 3122
 wordpress_url: https://www.martineve.com/?p=3122
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mf45ws22u"
 kcworks: https://works.hcommons.org/records/m1xwm-btd02
+biron: https://eprints.bbk.ac.uk/id/eprint/17281/
 ---
 
 <p>Sponsored by the Centre for Modernist Studies, the Centre for Visual Fields, the Centre for Research into Childhood and Youth, University of Sussex, and the Interdisciplinary Network for the study of Subcultures, Popular Music and Social Change</p>

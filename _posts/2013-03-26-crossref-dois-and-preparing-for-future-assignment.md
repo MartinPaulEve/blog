@@ -23,6 +23,7 @@ wordpress_id: 2642
 wordpress_url: https://www.martineve.com/?p=2642
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mguxor22u"
 kcworks: https://works.hcommons.org/records/jwg8m-16a27
+biron: https://eprints.bbk.ac.uk/id/eprint/17365/
 references:
 - title: Simple Text Query
   type: WebPage

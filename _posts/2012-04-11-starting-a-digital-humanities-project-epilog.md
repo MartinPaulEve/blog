@@ -68,6 +68,7 @@ wordpress_id: 2029
 wordpress_url: https://www.martineve.com/?p=2029
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mihn2ge2h"
 kcworks: https://works.hcommons.org/records/8m3pr-cg185
+biron: https://eprints.bbk.ac.uk/id/eprint/16911/
 references:
 - title: epiLog/epiLog at master · MartinPaulEve/epiLog
   type: SoftwareSourceCode

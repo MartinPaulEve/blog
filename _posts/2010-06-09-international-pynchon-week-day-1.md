@@ -20,6 +20,7 @@ wordpress_id: 15
 wordpress_url: http://new.martineve.com/?p=15
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mltyxam2h"
 kcworks: https://works.hcommons.org/records/stgfv-dhv82
+biron: https://eprints.bbk.ac.uk/id/eprint/17346/
 ---
 
 <p>          Today (June 9th 2010) marked the start of the 9th International Pynchon Week conference, a biennial event that, this time around, is hosted in Poland at the Maria Curie-Sk&#322;odowska University, Lublin.

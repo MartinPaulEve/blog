@@ -16,6 +16,7 @@ tags: []
 title: Some lessons in writing Python web scrapers
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mct3vhu2r"
 kcworks: https://works.hcommons.org/records/b04pr-g9t82
+biron: https://eprints.bbk.ac.uk/id/eprint/17060/
 references:
 - title: 'GitHub - MartinPaulEve/lloyds_tsb_scrape: An HTML scraper for Lloyds TSB bank accounts'
   type: SoftwareSourceCode

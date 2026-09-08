@@ -15,6 +15,7 @@ categories:
 - Open Access
 - Scholarly Communications
 kcworks: https://works.hcommons.org/records/6yp11-hgv10
+biron: https://eprints.bbk.ac.uk/id/eprint/32439/
 references:
 - https://doi.org/10.1629/uksg.399 # Andrews, resilience in scholar-led publishing Insights UKSG 2018
 - https://doi.org/10.1371/journal.pbio.0000036 # Eisen and Varmus, Why PLoS Became a Publisher PLOS Biology 2003

@@ -21,6 +21,7 @@ wordpress_id: 2383
 wordpress_url: https://www.martineve.com/?p=2383
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhsscie2h"
 kcworks: https://works.hcommons.org/records/jvvz8-0tb85
+biron: https://eprints.bbk.ac.uk/id/eprint/17003/
 references:
 - author: Dorian Fraser-Moore
   title: Working round email from Hotmail/Live/MSN failing to be delivered

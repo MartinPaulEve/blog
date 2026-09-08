@@ -11,6 +11,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7svteb
 categories:
 - Literature
 kcworks: https://works.hcommons.org/records/79aks-wcn90
+biron: https://eprints.bbk.ac.uk/id/eprint/22353/
 references:
 - author: Martin Paul Eve
   date: 2012-10

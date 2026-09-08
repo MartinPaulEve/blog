@@ -19,6 +19,7 @@ wordpress_id: 3219
 wordpress_url: https://www.martineve.com/?p=3219
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7meok3np2t"
 kcworks: https://works.hcommons.org/records/0hkf5-5xp10
+biron: https://eprints.bbk.ac.uk/id/eprint/17091/
 ---
 
 <p>The extraction of use-value, exchange-value or surplus-value from academic research at sites distant from the university.</p>

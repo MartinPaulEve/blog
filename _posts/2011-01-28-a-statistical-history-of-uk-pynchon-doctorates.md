@@ -21,6 +21,7 @@ wordpress_id: 656
 wordpress_url: https://www.martineve.com/?p=656
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkro7vm2h"
 kcworks: https://works.hcommons.org/records/6qqzm-75h21
+biron: https://eprints.bbk.ac.uk/id/eprint/17165/
 references:
 - http://ethos.bl.uk # British Library EThOS thesis database
 ---

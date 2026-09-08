@@ -14,6 +14,7 @@ tags:
 title: My response to the NHS consultation
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc42xau2h"
 kcworks: https://works.hcommons.org/records/ksa1x-zqc61
+biron: https://eprints.bbk.ac.uk/id/eprint/16939/
 ---
 
 > Q2: Is there anything else we should be considering in producing the mandate to NHS England?

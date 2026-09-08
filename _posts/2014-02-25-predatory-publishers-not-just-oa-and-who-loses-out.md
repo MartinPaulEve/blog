@@ -22,6 +22,7 @@ wordpress_id: 3038
 wordpress_url: https://www.martineve.com/?p=3038
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfndxes2u"
 kcworks: https://works.hcommons.org/records/gzkym-nq264
+biron: https://eprints.bbk.ac.uk/id/eprint/17519/
 references:
 - author: Jeffrey Beall
   date: '2013-12-09'

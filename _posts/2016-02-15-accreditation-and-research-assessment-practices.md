@@ -16,6 +16,7 @@ tags:
 title: Accreditation and research-assessment practices (on DORA and the Tickell review)
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbsccjb2q"
 kcworks: https://works.hcommons.org/records/3awa7-x4s42
+biron: https://eprints.bbk.ac.uk/id/eprint/17517/
 references:
 - date: '2016-02-11'
   title: 'Open access to research: independent advice'

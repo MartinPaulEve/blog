@@ -25,6 +25,7 @@ wordpress_id: 647
 wordpress_url: https://www.martineve.com/?p=647
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mksr7ht2n"
 kcworks: https://works.hcommons.org/records/98ypr-gas63
+biron: https://eprints.bbk.ac.uk/id/eprint/16968/
 references:
 - title: Husky
   type: WebPage

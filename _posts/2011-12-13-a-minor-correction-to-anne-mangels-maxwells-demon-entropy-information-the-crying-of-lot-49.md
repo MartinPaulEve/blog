@@ -60,6 +60,7 @@ wordpress_id: 1683
 wordpress_url: https://www.martineve.com/2011/12/13/a-minor-correction-to-anne-mangels-maxwells-demon-entropy-information-the-crying-of-lot-49/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjdvrr32h"
 kcworks: https://works.hcommons.org/records/dwy32-k7w72
+biron: https://eprints.bbk.ac.uk/id/eprint/16944/
 references:
 - author: Jason Fether
   title: Jason Fether

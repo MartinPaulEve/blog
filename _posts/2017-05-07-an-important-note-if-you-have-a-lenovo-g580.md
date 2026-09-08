@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mad2kji
 categories:
 - Technology
 kcworks: https://works.hcommons.org/records/7w5w4-xd083
+biron: https://eprints.bbk.ac.uk/id/eprint/18663/
 references:
 - https://download.lenovo.com/consumer/mobiles/62cn97ww_64.exe # Lenovo G580 BIOS update executable download
 ---

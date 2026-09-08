@@ -22,6 +22,7 @@ wordpress_id: 2373
 wordpress_url: https://www.martineve.com/?p=2373
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhtmsdp2f"
 kcworks: https://works.hcommons.org/records/fprr6-bkh32
+biron: https://eprints.bbk.ac.uk/id/eprint/17071/
 references:
 - title: A stupid question for the super-researchers
   type: BlogPosting

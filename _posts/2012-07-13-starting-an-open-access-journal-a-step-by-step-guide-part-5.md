@@ -23,6 +23,7 @@ wordpress_id: 2215
 wordpress_url: https://eve.gd/?p=2215
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mi72r3e2h"
 kcworks: https://works.hcommons.org/records/jgyfm-ab720
+biron: https://eprints.bbk.ac.uk/id/eprint/17217/
 references:
 - http://www.doaj.org/ # Directory of Open Access Journals
 - date: '2010-04-06'

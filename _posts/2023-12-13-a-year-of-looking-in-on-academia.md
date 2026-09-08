@@ -14,6 +14,7 @@ categories:
 - Academia
 - Personal
 kcworks: https://works.hcommons.org/records/4v0e2-61e86
+biron: https://eprints.bbk.ac.uk/id/eprint/52894/
 ---
 
 As many of you know, I took secondment from my academic role this year to work on research and development at Crossref. A variety of factors inspired this, not least my health and wanting to be able to work from home. After a year, I have reflected on my experience of transferring to a very good employer outside of academia. If you did the same, your mileage might vary, because it all depends where you end up working and for whom. Crossref turns out to be a most excellent organisation to work for. YMMV. I should also say that I still remain a Professor at the University of London's Birkbeck College, and that is not planned to change. Rather, I will be moving onto a research-only contract for the longer term.

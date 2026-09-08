@@ -27,6 +27,7 @@ wordpress_id: 2978
 wordpress_url: https://www.martineve.com/?p=2978
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfs5u7d2q"
 kcworks: https://works.hcommons.org/records/a62gb-n0y55
+biron: https://eprints.bbk.ac.uk/id/eprint/17014/
 references:
 - title: 'GitHub - MartinPaulEve/eprintsCV: A script to generate a list of academic publications in a web/CV-friendly format for academic websites'
   type: SoftwareSourceCode

@@ -24,6 +24,7 @@ wordpress_id: 3033
 wordpress_url: https://www.martineve.com/?p=3033
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfobrk52r"
 kcworks: https://works.hcommons.org/records/0c81v-gxc30
+biron: https://eprints.bbk.ac.uk/id/eprint/16931/
 references:
 - title: GitHub - MartinPaulEve/meTypeset at dev
   type: SoftwareSourceCode

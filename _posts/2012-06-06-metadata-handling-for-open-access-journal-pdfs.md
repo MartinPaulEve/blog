@@ -25,6 +25,7 @@ wordpress_id: 2114
 wordpress_url: https://www.martineve.com/?p=2114
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mievxgs2s"
 kcworks: https://works.hcommons.org/records/3tfvg-1m859
+biron: https://eprints.bbk.ac.uk/id/eprint/17194/
 references:
 - https://www.martineve.com/ # Martin Eve personal website
 - https://github.com/zotero/zotero/blob/master/chrome/content/zotero/xpcom/utilities.js # Zotero utilities.js cleanDOI function on GitHub

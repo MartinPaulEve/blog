@@ -21,6 +21,7 @@ wordpress_id: 3170
 wordpress_url: https://www.martineve.com/?p=3170
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7meweecr2s"
 kcworks: https://works.hcommons.org/records/cbgzc-ngd46
+biron: https://eprints.bbk.ac.uk/id/eprint/17396/
 references:
 - http://journals.cambridge.org/action/displaySpecialPage?pageId=4608  # Cambridge UP Journal of American Studies OA policy
 - http://eprints.lincoln.ac.uk/14446 # Lincoln repository record for DeLillo article

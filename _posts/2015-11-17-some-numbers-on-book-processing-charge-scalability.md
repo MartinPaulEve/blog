@@ -19,6 +19,7 @@ tags:
 title: Some numbers on book processing charge scalability
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc4wryo2u"
 kcworks: https://works.hcommons.org/records/v3499-gr897
+biron: https://eprints.bbk.ac.uk/id/eprint/17401/
 references:
 - https://www.bisa.ac.uk/files/Research%20Excellence%20Framework/2014_monographs_1.pdf # Crossick report on UK monograph publishing
 - http://www.palgrave.com/page/about-us-palgrave-open-faqs/?loc=us#Open%20access%20publication%20charge%20and%20funding # Palgrave Open access publication charge FAQ

@@ -15,6 +15,7 @@ categories:
 - Higher Education
 - Health
 kcworks: https://works.hcommons.org/records/zfwfn-abt48
+biron: https://eprints.bbk.ac.uk/id/eprint/30274/
 references:
 - https://www.researchprofessional.com/0/rr/news/uk/ref-2014/2019/12/REF-staff-circumstances-rules-criticised.html # Research Fortnight on REF staff circumstances rules
 ---

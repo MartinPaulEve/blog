@@ -19,6 +19,7 @@ wordpress_id: 2956
 wordpress_url: https://www.martineve.com/?p=2956
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfu2awx2o"
 kcworks: https://works.hcommons.org/records/w9xs8-qb646
+biron: https://eprints.bbk.ac.uk/id/eprint/17291/
 ---
 
 <div style="clear:both"/>

@@ -21,6 +21,7 @@ wordpress_id: 1340
 wordpress_url: https://www.martineve.com/?p=1340
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk3lypt2n"
 kcworks: https://works.hcommons.org/records/ehydm-skt62
+biron: https://eprints.bbk.ac.uk/id/eprint/17203/
 ---
 
 <p>Having set out in <a href="https://www.martineve.com/2011/07/08/britain-or-america-for-the-phd-in-english/">part 1</a> some of the differences between the British and American PhDs in English, this here part 2 is a guide to applying to America, should its system seem preferable.  Below, I examine:</p>

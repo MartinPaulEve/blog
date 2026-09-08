@@ -19,6 +19,7 @@ wordpress_id: 11
 wordpress_url: http://new.martineve.com/?p=11
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mltogea2r"
 kcworks: https://works.hcommons.org/records/ssvjp-w9a58
+biron: https://eprints.bbk.ac.uk/id/eprint/17239/
 ---
 
 <p>Courtesy of Mr. Duncan Stringer, my birthday yielded me a T-Shirt with the Tristero post horn and a card with one of the following images on it. Obviously, I assume that Thomas Pynchon will receive, from some well-wishing acquaintance, a photoshopped card of one of my mugshots.</p>

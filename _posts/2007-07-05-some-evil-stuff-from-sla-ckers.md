@@ -23,6 +23,7 @@ wordpress_id: 264
 wordpress_url: http://pro.grammatic.org/post-some-evil-stuff-from-slackers-36.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnalklk2a"
 kcworks: https://works.hcommons.org/records/tpsxg-trq57
+biron: https://eprints.bbk.ac.uk/id/eprint/16810/
 references:
 - http://domain.org/?test=a%3D0%7C%7Ceval%7C%7C0%3Bb%3D0%7C%7Cunescape%7C%7C0%3Ba%28b%28location%29%29#%0d%0aalert%28%22xss%22%29%3B # SirDarckCat eval/unescape XSS PoC URL
 ---

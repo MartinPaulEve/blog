@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lw263eq
 categories:
 - Programming
 kcworks: https://works.hcommons.org/records/0kask-bz691
+biron: https://eprints.bbk.ac.uk/id/eprint/55172/
 references:
 - title: knowledge-commons-profiles test suite
   type: SoftwareSourceCode

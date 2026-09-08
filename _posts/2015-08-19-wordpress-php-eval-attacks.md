@@ -16,6 +16,7 @@ tags:
 title: Wordpress php eval attacks
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mccvbrj2f"
 kcworks: https://works.hcommons.org/records/ez01m-gdt67
+biron: https://eprints.bbk.ac.uk/id/eprint/17084/
 ---
 
 Sigh. More hacking attempts and seems someone did manage to inject a php eval attack into one of my Wordpress installs.

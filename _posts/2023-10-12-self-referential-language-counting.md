@@ -15,6 +15,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lxjbfpu
 categories:
 - Programming
 kcworks: https://works.hcommons.org/records/egfm6-xwj29
+biron: https://eprints.bbk.ac.uk/id/eprint/52889/
 references:
 - title: '2839: Language Acquisition'
   type: WebPage

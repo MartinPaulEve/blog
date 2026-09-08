@@ -28,6 +28,7 @@ wordpress_id: 610
 wordpress_url: http://www.martineve.com/?p=610
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkufwsr2o"
 kcworks: https://works.hcommons.org/records/9tgk8-98z53
+biron: https://eprints.bbk.ac.uk/id/eprint/17525/
 references:
 - title: Abit Fatal1ty FP-IN9 SLI on NVIDIA nForce 650i SLI
   type: TechArticle

@@ -18,6 +18,7 @@ status: publish
 title: Moving to Birkbeck
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcuf3s52e"
 kcworks: https://works.hcommons.org/records/dpqyk-wr960
+biron: https://eprints.bbk.ac.uk/id/eprint/17023/
 references:
 - title: About us
   type: WebPage

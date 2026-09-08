@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6it5n6
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/4ksvw-mrw08
+biron: https://eprints.bbk.ac.uk/id/eprint/30936/
 ---
 
 These are my notes on [The UKRI Open Access Review Consultation Document](https://www.ukri.org/files/funding/oa/open-access-review-consultation/).

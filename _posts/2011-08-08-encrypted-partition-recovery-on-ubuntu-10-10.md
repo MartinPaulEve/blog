@@ -26,6 +26,7 @@ wordpress_id: 1401
 wordpress_url: https://www.martineve.com/?p=1401
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk2w5do2t"
 kcworks: https://works.hcommons.org/records/7y2sp-93t68
+biron: https://eprints.bbk.ac.uk/id/eprint/16937/
 references:
 - http://wiki.debian.org/DebianInstaller/Rescue/Crypto # Debian wiki: LUKS crypto rescue guide
 - author: Jon Callas

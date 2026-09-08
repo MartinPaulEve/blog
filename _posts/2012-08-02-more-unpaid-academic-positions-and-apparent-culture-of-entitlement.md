@@ -21,6 +21,7 @@ wordpress_id: 2269
 wordpress_url: https://www.martineve.com/?p=2269
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhw27522n"
 kcworks: https://works.hcommons.org/records/9ktd6-4ax72
+biron: https://eprints.bbk.ac.uk/id/eprint/16926/
 references:
 - author: Jack Grove
   date: '2012-08-02'

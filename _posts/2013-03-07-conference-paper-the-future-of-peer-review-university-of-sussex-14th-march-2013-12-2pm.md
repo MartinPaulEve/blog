@@ -22,6 +22,7 @@ wordpress_id: 2609
 wordpress_url: https://www.martineve.com/?p=2609
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgx6amd2h"
 kcworks: https://works.hcommons.org/records/7nm43-0fw40
+biron: https://eprints.bbk.ac.uk/id/eprint/17473/
 references:
 - title: Seminars and events
   type: WebPage

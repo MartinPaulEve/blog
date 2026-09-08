@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lw7gg3o
 categories:
 - Information Security
 kcworks: https://works.hcommons.org/records/cb21r-h8083
+biron: https://eprints.bbk.ac.uk/id/eprint/54984/
 ---
 
 I had a problem with [my Tor relay](/2025/02/06/going-dark-running-a-tor-relay-and-a-dark-web-version-of-this-site/) last night. For some reason, the application (daemon) started but then after about 5 seconds it stopped listening. The Tor Metrics site was displaying a red button saying my node was unreachable and when I did "sudo ss -ltp" I got nothing. The application literally wasn't "listening" (in network socket terms).

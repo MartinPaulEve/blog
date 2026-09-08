@@ -25,6 +25,7 @@ wordpress_id: 1445
 wordpress_url: https://www.martineve.com/2011/09/02/immanent-critique-of-closed-access-publication/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjza4yd2n"
 kcworks: https://works.hcommons.org/records/bv7k3-pwp62
+biron: https://eprints.bbk.ac.uk/id/eprint/17230/
 references:
 - author: Kim Daram
   title: Kim Daram

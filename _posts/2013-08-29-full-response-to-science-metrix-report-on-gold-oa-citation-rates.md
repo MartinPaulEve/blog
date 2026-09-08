@@ -22,6 +22,7 @@ wordpress_id: 2832
 wordpress_url: https://www.martineve.com/?p=2832
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgd4hhs2a"
 kcworks: https://works.hcommons.org/records/mahm6-y3021
+biron: https://eprints.bbk.ac.uk/id/eprint/16955/
 references:
 - date: '2013-08-29'
   title: 'Low citation gains via gold open access: study'

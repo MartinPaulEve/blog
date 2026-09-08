@@ -14,6 +14,7 @@ categories:
 - Academia
 - Personal
 kcworks: https://works.hcommons.org/records/zzzns-mxg25
+biron: https://eprints.bbk.ac.uk/id/eprint/31496/
 ---
 
 I have a series of book projects in train at the moment and wanted to write a little bit of this down so that I have a record of where I was in the projects at this stage:

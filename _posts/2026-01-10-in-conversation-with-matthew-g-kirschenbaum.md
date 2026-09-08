@@ -18,6 +18,7 @@ categories:
 - Conferences
 - Digital Humanities
 kcworks: https://works.hcommons.org/records/x7g02-5sr97
+biron: https://eprints.bbk.ac.uk/id/eprint/56803/
 references:
 - title: SHARPIES 2026 Program
   type: WebPage

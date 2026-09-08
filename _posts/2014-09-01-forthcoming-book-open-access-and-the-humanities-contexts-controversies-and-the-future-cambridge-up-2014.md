@@ -23,6 +23,7 @@ wordpress_id: 3185
 wordpress_url: https://www.martineve.com/?p=3185
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mew5cup2o"
 kcworks: https://works.hcommons.org/records/pf1ea-xmq27
+biron: https://eprints.bbk.ac.uk/id/eprint/17061/
 references:
 - title: Peter Suber
   type: WebPage

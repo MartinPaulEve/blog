@@ -22,6 +22,7 @@ title: '''He doesn’t talk politics any more'': Politics and Postmodernism; Mor
   and Metafiction; Nihilism and the Novel?'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mch42be2r"
 kcworks: https://works.hcommons.org/records/ynn0v-y9592
+biron: https://eprints.bbk.ac.uk/id/eprint/17127/
 references:
 - author: Sarah Churchwell
   title: Sorry minister, but philistinism is not an educational policy

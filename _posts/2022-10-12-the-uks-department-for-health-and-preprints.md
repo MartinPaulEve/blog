@@ -14,6 +14,7 @@ categories:
 - Academia
 - Politics
 kcworks: https://works.hcommons.org/records/hd7hm-fz311
+biron: https://eprints.bbk.ac.uk/id/eprint/50194/
 ---
 
 The other day I wrote about the response that we had from the UK's Department of Health and Social Care. [In that reply](https://eve.gd/2022/10/10/the-politics-of-peer-review-and-preprints-in-the-real-world/) the DHSC said that it had a problem with some of the evidence we had put forward because "it should also be noted that most of these studies are pre-prints (therefore have not been scrutinised through peer review)".

@@ -19,6 +19,7 @@ wordpress_id: 2437
 wordpress_url: https://www.martineve.com/?p=2437
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhqrxve2h"
 kcworks: https://works.hcommons.org/records/rmac4-4gp18
+biron: https://eprints.bbk.ac.uk/id/eprint/17088/
 references:
 - https://www.pynchon.net/owap/index # Orbit: Writing Around Pynchon issue 1.2 launch
 ---

@@ -17,6 +17,7 @@ categories:
 - Health
 - Personal
 kcworks: https://works.hcommons.org/records/et811-pns78
+biron: https://eprints.bbk.ac.uk/id/eprint/56870/
 ---
 
 Ten years ago, I had a bad cold. This was not unusual as I have hypogammaglobulinemia (which means an abnormally low concentration of gamma globulin in the blood that leads to an increased risk of infection). But this cold was pretty terrible and quickly led to a secondary bacterial infection requiring antibiotics. I was coughing a lot and very hard. And I was starting to get headaches. That should have worried me far earlier than it did.

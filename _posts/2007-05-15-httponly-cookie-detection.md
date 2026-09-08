@@ -24,6 +24,7 @@ wordpress_id: 291
 wordpress_url: http://pro.grammatic.org/post-httponly-cookie-detection-7.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mo22ctm2s"
 kcworks: https://works.hcommons.org/records/3xya3-47v64
+biron: https://eprints.bbk.ac.uk/id/eprint/16784/
 references:
 - http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd # W3C XHTML 1.0 Transitional DTD
 ---

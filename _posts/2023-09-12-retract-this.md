@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lxyg4h3
 categories:
 - Scholarly Communications
 kcworks: https://works.hcommons.org/records/3d76y-8j641
+biron: https://eprints.bbk.ac.uk/id/eprint/52885/
 references:
 - https://doi.org/10.13003/c23rw1d9 # Crossref announcement acquiring Retraction Watch database
 - https://api.labs.crossref.org/data/retractionwatch?mailto=[YOUR@EMAIL.HERE # Crossref Labs Retraction Watch CSV data endpoint

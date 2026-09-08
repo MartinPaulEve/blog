@@ -17,6 +17,7 @@ categories:
 - Publications
 - Artificial Intelligence
 kcworks: https://works.hcommons.org/records/pzdzd-1b057
+biron: https://eprints.bbk.ac.uk/id/eprint/30185/
 references:
 - https://onlinelibrary.wiley.com/toc/14678705/2017/59/3 # Critical Quarterly special issue 2017 vol 59 no 3
 - https://eprints.bbk.ac.uk/18690/1/criq.12359.pdf # Eve, Great Automatic Grammatizator, Birkbeck eprint

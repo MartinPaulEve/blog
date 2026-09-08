@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m77rkfv
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/sh2m6-j2v04
+biron: https://eprints.bbk.ac.uk/id/eprint/27136/
 references:
 - https://adamesmith.files.wordpress.com/2014/11/nov-2014-the-empire-strikes-back-alicia-wise-elsevier-profile.pdf # Alicia Wise Elsevier profile, Empire Strikes Back 2014
 ---

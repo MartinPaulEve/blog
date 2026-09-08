@@ -23,6 +23,7 @@ wordpress_id: 2154
 wordpress_url: https://www.martineve.com/?p=2154
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7midgtms2u"
 kcworks: https://works.hcommons.org/records/8yggd-amx95
+biron: https://eprints.bbk.ac.uk/id/eprint/16920/
 references:
 - http://www.alluvium-journal.org/2012/07/01/backwards-and-forwards-with-the-atomic-priesthood/Heidi # Alluvium article on atomic priesthood tweet by Heidi James
 - date: '2011-04-11'

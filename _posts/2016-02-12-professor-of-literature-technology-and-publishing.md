@@ -16,6 +16,7 @@ tags:
 title: Professor of Literature, Technology and Publishing
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbsvhsl2p"
 kcworks: https://works.hcommons.org/records/yf3qg-69078
+biron: https://eprints.bbk.ac.uk/id/eprint/17158/
 references:
 - date: '2015-11-19'
   title: 'Openness as a Career Asset: Erin McKiernan'

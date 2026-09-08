@@ -41,6 +41,7 @@ wordpress_id: 2003
 wordpress_url: https://www.martineve.com/?p=2003
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mijbyx72r"
 kcworks: https://works.hcommons.org/records/nwm8p-pym51
+biron: https://eprints.bbk.ac.uk/id/eprint/17162/
 references:
 - author: Ellen Forsyth
   title: Ellen Forsyth

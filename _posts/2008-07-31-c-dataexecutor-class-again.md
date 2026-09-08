@@ -23,6 +23,7 @@ wordpress_id: 250
 wordpress_url: http://pro.grammatic.org/post-c-dataexecutor-class-again-52.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmpfvrq2f"
 kcworks: https://works.hcommons.org/records/azhqj-gn104
+biron: https://eprints.bbk.ac.uk/id/eprint/16827/
 ---
 
 <p>Just been asked some further questions about the <a href="http://www.martineve.com/2007/06/26/c-dataexecutor-class-available/">DataExecutor</a> class on FreeNode and thought I'd give some usage instructions/clarification here.</p>

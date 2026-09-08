@@ -23,6 +23,7 @@ wordpress_id: 2985
 wordpress_url: https://www.martineve.com/?p=2985
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfrdx5l2f"
 kcworks: https://works.hcommons.org/records/5wr3m-dae15
+biron: https://eprints.bbk.ac.uk/id/eprint/17032/
 references:
 - title: meTypeset/bin/nlmmanipulate.py at fb11e34126493e0bf2b95681b558dd246fc6df38 · MartinPaulEve/meTypeset
   type: SoftwareSourceCode

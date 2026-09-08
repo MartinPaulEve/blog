@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7maoqwy5
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/yyx3n-6k941
+biron: https://eprints.bbk.ac.uk/id/eprint/17847/
 references:
 - https://figshare.com/articles/Excellence_R_Us_University_Research_and_the_Fetishisation_of_Excellence/3413821 # Eve et al, Excellence R Us on figshare
 - https://www.martineve.com/2014/06/03/a-research-tool-i-want-but-probably-wont-get-cross-referenceintersect-bibliographies-of-books-and-articles/ # Eve blog post on machine-readable bibliography tools

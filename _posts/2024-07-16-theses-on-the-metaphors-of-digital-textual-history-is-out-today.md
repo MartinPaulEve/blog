@@ -15,6 +15,7 @@ categories:
 - Publications
 - Digital Humanities
 kcworks: https://works.hcommons.org/records/qdgxf-pna67
+biron: https://eprints.bbk.ac.uk/id/eprint/53840/
 references:
 - title: Theses on the Metaphors of Digital-Textual History
   type: Book

@@ -14,6 +14,7 @@ categories:
 - Programming
 - Digital Humanities
 kcworks: https://works.hcommons.org/records/b9w3s-4dp42
+biron: https://eprints.bbk.ac.uk/id/eprint/17518/
 ---
 
 Yesterday, I wrote of a challenge that I faced in <a href="https://www.martineve.com/2016/06/09/identifying-26gb-of-json-novel-data/">working out which texts in a corpus have decent OCR and, then, which texts they actually are</a>. This morning, I put together a small script that has a first go at this. I enclose this below for anybody who is interested.

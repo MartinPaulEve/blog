@@ -24,6 +24,7 @@ wordpress_id: 3025
 wordpress_url: https://www.martineve.com/?p=3025
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfot3ij2n"
 kcworks: https://works.hcommons.org/records/ya012-frd71
+biron: https://eprints.bbk.ac.uk/id/eprint/17119/
 references:
 - title: Posting blog entries to figshare
   type: BlogPosting

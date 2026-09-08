@@ -22,6 +22,7 @@ wordpress_id: 17
 wordpress_url: http://new.martineve.com/?p=17
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mm6vngt2e"
 kcworks: https://works.hcommons.org/records/t5acw-qqz58
+biron: https://eprints.bbk.ac.uk/id/eprint/17017/
 references:
 - title: Zotero in Ubuntu 10.4 Lucid Lynx
   type: WebPage

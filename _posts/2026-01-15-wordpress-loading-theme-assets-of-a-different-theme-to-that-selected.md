@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvas6us
 categories:
 - Programming
 kcworks: https://works.hcommons.org/records/09qxk-hf796
+biron: https://eprints.bbk.ac.uk/id/eprint/56849/
 ---
 
 Today's tech anomaly was odd. I'm working on a new WordPress theme and obviously WordPress has to load its assets like the CSS file and the JavaScript file. I just added some new code to the home page template and suddenly my CSS was not loading. In fact it was pointing to the next theme in the list, Blockbase, and loading its CSS. Nothing I could do with caching resolved this in the slightest.

@@ -26,6 +26,7 @@ wordpress_id: 2167
 wordpress_url: https://www.martineve.com/?p=2167
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7micjjxb2i"
 kcworks: https://works.hcommons.org/records/pa7as-sw419
+biron: https://eprints.bbk.ac.uk/id/eprint/17135/
 references:
 - http://dx.doi.org/10.1629/2048-7754.25.2.158 # DOI for Eve Insights 25.2 article
 ---

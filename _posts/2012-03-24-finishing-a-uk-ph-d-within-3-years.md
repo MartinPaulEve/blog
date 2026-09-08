@@ -139,6 +139,7 @@ wordpress_id: 1985
 wordpress_url: https://www.martineve.com/?p=1985
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mip3qbt2h"
 kcworks: https://works.hcommons.org/records/7thfw-1hv37
+biron: https://eprints.bbk.ac.uk/id/eprint/17464/
 references:
 - author: Kevin Dooley
   title: Kevin Dooley

@@ -23,6 +23,7 @@ wordpress_id: 2089
 wordpress_url: https://www.martineve.com/2012/05/13/the-ontological-problems-of-contemporary-fiction-studies-are-actually-its-ontological-prerequsites/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mifiyxe2t"
 kcworks: https://works.hcommons.org/records/pvgab-40e08
+biron: https://eprints.bbk.ac.uk/id/eprint/17254/
 references:
 - author: Enokson
   title: Enokson

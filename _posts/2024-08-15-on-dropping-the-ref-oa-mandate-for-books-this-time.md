@@ -14,6 +14,7 @@ categories:
 - Open Access
 - Higher Education
 kcworks: https://works.hcommons.org/records/vq1ej-1ew79
+biron: https://eprints.bbk.ac.uk/id/eprint/54104/
 ---
 
 Research England has dropped the mandate for OA books in its guidance for the next REF, saying that it will, now, apply instead by 2029.

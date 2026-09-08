@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lzcelg2
 categories:
 - Technology
 kcworks: https://works.hcommons.org/records/tc93x-r6s93
+biron: https://eprints.bbk.ac.uk/id/eprint/48056/
 references:
 - https://www.marvell.com/products/ethernet-adapters-and-controllers/fastlinq-edge-ethernet-controllers.html # Marvell FastLinQ edge Ethernet controllers product page
 ---

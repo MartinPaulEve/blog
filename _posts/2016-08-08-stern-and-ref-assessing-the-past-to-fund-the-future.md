@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mb5hml4
 categories:
 - Higher Education
 kcworks: https://works.hcommons.org/records/1033c-eax47
+biron: https://eprints.bbk.ac.uk/id/eprint/17167/
 references:
 - https://figshare.com/articles/Excellence_R_Us_University_Research_and_the_Fetishisation_of_Excellence/3413821 # Eve, Excellence R Us figshare paper
 ---

@@ -15,6 +15,7 @@ categories:
 - Publishing Technology
 - Scholarly Communications
 kcworks: https://works.hcommons.org/records/espb4-tk929
+biron: https://eprints.bbk.ac.uk/id/eprint/31338/
 references:
 - title: A web-based platform for publishing journals, preprints, conference proceedings, and books
   type: SoftwareSourceCode

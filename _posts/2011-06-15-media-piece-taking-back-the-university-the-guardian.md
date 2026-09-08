@@ -41,6 +41,7 @@ wordpress_id: 1173
 wordpress_url: https://www.martineve.com/?p=1173
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkaufa62t"
 kcworks: https://works.hcommons.org/records/h3ysb-y2w12
+biron: https://eprints.bbk.ac.uk/id/eprint/17018/
 references:
 - author: Jennifer M Jones
   title: Jennifer M Jones

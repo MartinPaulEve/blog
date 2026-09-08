@@ -179,6 +179,7 @@ wordpress_id: 1900
 wordpress_url: https://www.martineve.com/2012/02/06/doing-a-ph-d-using-only-free-open-source-software/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miwgd5p2f"
 kcworks: https://works.hcommons.org/records/fb7vy-22f22
+biron: https://eprints.bbk.ac.uk/id/eprint/17496/
 references:
 - title: Ubuntu
   type: WebSite

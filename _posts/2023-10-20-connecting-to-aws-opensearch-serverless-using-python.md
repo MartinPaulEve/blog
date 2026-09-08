@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lxic6nt
 categories:
 - Programming
 kcworks: https://works.hcommons.org/records/xehv9-qfy44
+biron: https://eprints.bbk.ac.uk/id/eprint/52890/
 references:
 - title: Low-level Python client
   type: TechArticle

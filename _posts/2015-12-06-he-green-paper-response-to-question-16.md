@@ -16,6 +16,7 @@ tags:
 title: 'HE Green Paper: response to question 16'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc27f522a"
 kcworks: https://works.hcommons.org/records/2jekc-fbp70
+biron: https://eprints.bbk.ac.uk/id/eprint/17413/
 references:
 - author: Matthew Lynch
   date: '2016-06-10'

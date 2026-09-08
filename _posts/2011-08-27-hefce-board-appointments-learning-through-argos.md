@@ -45,6 +45,7 @@ wordpress_id: 1433
 wordpress_url: https://www.martineve.com/?p=1433
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjzidau2h"
 kcworks: https://works.hcommons.org/records/tgnvp-n3487
+biron: https://eprints.bbk.ac.uk/id/eprint/17494/
 references:
 - http://www.hefce.ac.uk/news/hefce/2011/members.htm # HEFCE 2011 new board members announcement
 - http://www.hefce.ac.uk/aboutus/board/ # HEFCE board of governors page

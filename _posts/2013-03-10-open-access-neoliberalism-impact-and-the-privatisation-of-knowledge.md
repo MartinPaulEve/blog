@@ -24,6 +24,7 @@ wordpress_id: 2618
 wordpress_url: https://www.martineve.com/?p=2618
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgwogqg2e"
 kcworks: https://works.hcommons.org/records/cqa1v-e4s94
+biron: https://eprints.bbk.ac.uk/id/eprint/17089/
 references:
 - date: '2013-03-07'
   title: Open-access policy scrapes the barrel

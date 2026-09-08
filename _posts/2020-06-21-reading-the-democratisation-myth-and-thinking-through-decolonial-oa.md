@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5lba46
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/13ctm-xjk49
+biron: https://eprints.bbk.ac.uk/id/eprint/32326/
 references:
 - https://doi.org/10.31235/osf.io/hw7at # SocArXiv preprint on OA and solidification of epistemic injustices
 ---

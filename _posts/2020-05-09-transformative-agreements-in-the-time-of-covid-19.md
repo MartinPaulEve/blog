@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5qzmc3
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/9kqh7-k1v28
+biron: https://eprints.bbk.ac.uk/id/eprint/31888/
 references:
 - date: '2019-06-25'
   title: Commentary on cOAlition S's revised Plan S – what next for Open Access?

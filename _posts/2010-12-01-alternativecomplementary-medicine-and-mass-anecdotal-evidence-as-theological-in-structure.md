@@ -23,6 +23,7 @@ wordpress_id: 445
 wordpress_url: http://www.martineve.com/?p=445
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlkmk2w2t"
 kcworks: https://works.hcommons.org/records/5at2n-ws090
+biron: https://eprints.bbk.ac.uk/id/eprint/16991/
 references:
 - title: 'Your manuscript is both good and original. But the part that is good is not original, and the part that is original is not good: Not Samuel Johnson!'
   type: WebPage

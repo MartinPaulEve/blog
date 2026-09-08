@@ -11,6 +11,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mavnpqd
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/h3mg5-c8y87
+biron: https://eprints.bbk.ac.uk/id/eprint/17199/
 references:
 - http://doi.org/10.16995/olh.82 # Eve, Cloud Atlas Version Variants OLH article
 ---

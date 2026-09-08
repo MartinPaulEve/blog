@@ -101,6 +101,7 @@ wordpress_id: 1097
 wordpress_url: https://www.martineve.com/?p=1097
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkd7gde2h"
 kcworks: https://works.hcommons.org/records/2mcz3-jjc67
+biron: https://eprints.bbk.ac.uk/id/eprint/17302/
 references:
 - http://uk.answers.yahoo.com/question/index?qid=20090910153441AAzSQrX # Yahoo Answers thread on Once Upon a Time Life cartoon
 - http://www.usatoday.com/news/opinion/editorials/2005-07-31-letters-other_x.htm # USA Today letters on anti-war rhetoric and illness language

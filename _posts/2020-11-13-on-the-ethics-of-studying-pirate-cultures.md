@@ -14,6 +14,7 @@ categories:
 - Piracy and Shadow Libraries
 - Academia
 kcworks: https://works.hcommons.org/records/e9a5g-nxf92
+biron: https://eprints.bbk.ac.uk/id/eprint/41552/
 ---
 
 Studies such as [my Warez book](/2020/10/10/an-update-on-my-warez-book/) fall under the rubric of ‘netnographies’; work that attempt to examine ethnographically the principles and characteristics of various online cultures. A fundamental challenge of working in this space is the issue of ethics, though. Most of the documents and conversations that have been surfaced in the DeFacto2 archive were thought, by the conversation participants, to have been held in private. 

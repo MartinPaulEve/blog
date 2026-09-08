@@ -21,6 +21,7 @@ wordpress_id: 1323
 wordpress_url: https://www.martineve.com/?p=1323
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk4vnhl2h"
 kcworks: https://works.hcommons.org/records/kgy1g-qdr68
+biron: https://eprints.bbk.ac.uk/id/eprint/17093/
 references:
 - author: Thomas Hawk
   title: Thomas Hawk

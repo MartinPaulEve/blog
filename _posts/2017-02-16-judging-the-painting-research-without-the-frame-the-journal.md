@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mafpaja
 categories:
 - Academia
 kcworks: https://works.hcommons.org/records/q3yw1-33q29
+biron: https://eprints.bbk.ac.uk/id/eprint/18180/
 references:
 - http://www.cambridge.org/gb/academic/subjects/general/open-access-and-humanities-contexts-controversies-and-future?format=PB&isbn=9781107484016 # Cambridge: Eve, Open Access and the Humanities book
 - date: '2018-01-11'

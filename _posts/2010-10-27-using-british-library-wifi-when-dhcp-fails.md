@@ -32,6 +32,7 @@ wordpress_id: 207
 wordpress_url: http://www.martineve.com/?p=207
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlqbos72i"
 kcworks: https://works.hcommons.org/records/438fh-yv646
+biron: https://eprints.bbk.ac.uk/id/eprint/17211/
 ---
 
 <p>Sometimes, the free wireless service at the British Library goes pear shaped and, if you are accustomed to using it, this can make research quite hard. Occasionally, however the fault is not with the central mechanism but rather with DHCP -- the mechanism that gives your computer an address on their system.</p>

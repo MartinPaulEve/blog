@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6bdv6l
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/erysv-jsc34
+biron: https://eprints.bbk.ac.uk/id/eprint/31624/
 references:
 - title: A better understanding of APC funding sources could accelerate the transition to open access
   type: Report

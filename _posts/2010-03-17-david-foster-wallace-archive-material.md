@@ -20,6 +20,7 @@ wordpress_id: 25
 wordpress_url: http://new.martineve.com/?p=25
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmbyqdj2q"
 kcworks: https://works.hcommons.org/records/v5jw7-cxt35
+biron: https://eprints.bbk.ac.uk/id/eprint/17040/
 references:
 - title: The Howling Fantods
   type: WebSite

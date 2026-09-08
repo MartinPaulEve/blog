@@ -19,6 +19,7 @@ wordpress_id: 3052
 wordpress_url: https://www.martineve.com/?p=3052
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mffceag2e"
 kcworks: https://works.hcommons.org/records/nydw7-pyt78
+biron: https://eprints.bbk.ac.uk/id/eprint/16995/
 references:
 - title: Business Terms and Conditions
   type: WebPage

@@ -16,6 +16,7 @@ tags:
 title: 'HE Green Paper: response to question 2'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc4cjkv2a"
 kcworks: https://works.hcommons.org/records/8kz9s-hd121
+biron: https://eprints.bbk.ac.uk/id/eprint/16916/
 references:
 - date: '2015-09-09'
   title: 'Higher education: fulfilling our potential'

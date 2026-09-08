@@ -21,6 +21,7 @@ wordpress_id: 3004
 wordpress_url: https://www.martineve.com/?p=3004
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfptn6p2a"
 kcworks: https://works.hcommons.org/records/awse2-9xh62
+biron: https://eprints.bbk.ac.uk/id/eprint/17021/
 references:
 - http://sgo.sagepub.com/content/4/1/2158244014521636 # SAGE Open article on Mitchell and Hoban
 - http://sgo.sagepub.com/content/4/1/2158244014521636.full-text.pdf%2Bhtml # SAGE Open full-text PDF of Mitchell-Hoban article

@@ -16,6 +16,7 @@ tags:
 title: New review published of Joanna Freer, Thomas Pynchon and the American Counterculture
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc6auoc2i"
 kcworks: https://works.hcommons.org/records/vt5ka-hzq22
+biron: https://eprints.bbk.ac.uk/id/eprint/17417/
 references:
 - title: Open access policies
   type: WebPage

@@ -19,6 +19,7 @@ tags:
 title: 'Above and beyond: “good” and “bad” surpluses in academic publishing'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdrtg6x2t"
 kcworks: https://works.hcommons.org/records/6d3pb-ke332
+biron: https://eprints.bbk.ac.uk/id/eprint/17225/
 references:
 - date: '2014-11-22'
   title: Is publishing "just a button"?

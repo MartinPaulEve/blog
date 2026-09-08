@@ -51,6 +51,7 @@ wordpress_id: 885
 wordpress_url: https://www.martineve.com/?p=885
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkj4e6k2i"
 kcworks: https://works.hcommons.org/records/zskjt-jnh95
+biron: https://eprints.bbk.ac.uk/id/eprint/17342/
 references:
 - author:
   - Patrick Wintour

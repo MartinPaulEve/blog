@@ -11,6 +11,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7xzdsn
 categories:
 - Higher Education
 kcworks: https://works.hcommons.org/records/638qn-ra769
+biron: https://eprints.bbk.ac.uk/id/eprint/21770/
 references:
 - date: '2018-03-19'
   title: Uni of Kent UCU (@UoK_UCU) on X

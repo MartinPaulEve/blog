@@ -21,6 +21,7 @@ title: 'Online p̶a̶r̶t̶y̶ webinar to talk open access with @mweller and me:
   16th December 3pm'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdpyyye2r"
 kcworks: https://works.hcommons.org/records/17hav-y2a04
+biron: https://eprints.bbk.ac.uk/id/eprint/17515/
 references:
 - http://www.ubiquitypress.com/site/books/detail/11/battle-for-open/ # Weller, The Battle for Open (Ubiquity Press)
 ---

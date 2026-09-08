@@ -18,6 +18,7 @@ tags:
 title: Universities, DH, “the crowd”, and labour that looks like a game
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdwb6762a"
 kcworks: https://works.hcommons.org/records/78vfs-hm761
+biron: https://eprints.bbk.ac.uk/id/eprint/17474/
 references:
 - title: Triangle Scholarly Communications Institute
   type: WebSite

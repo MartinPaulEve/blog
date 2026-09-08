@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lyfg57y
 categories:
 - Programming
 kcworks: https://works.hcommons.org/records/4vxgp-gfh77
+biron: https://eprints.bbk.ac.uk/id/eprint/51190/
 references:
 - https://pypi.org/project/pytest-localstack/ # pytest-localstack PyPI package
 - title: aws_utils.py

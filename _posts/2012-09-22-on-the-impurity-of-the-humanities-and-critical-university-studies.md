@@ -20,6 +20,7 @@ wordpress_id: 2415
 wordpress_url: https://www.martineve.com/?p=2415
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhrgtzb2e"
 kcworks: https://works.hcommons.org/records/k6p9k-cvj29
+biron: https://eprints.bbk.ac.uk/id/eprint/17526/
 references:
 - http://www.sfep.org.uk/pub/news/outsourcing.asp # SFEP report on editorial outsourcing
 - date: '2012-02-19'

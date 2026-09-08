@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lyoiiyc
 categories:
 - Health
 kcworks: https://works.hcommons.org/records/n02xy-4a487
+biron: https://eprints.bbk.ac.uk/id/eprint/49020/
 ---
 
 The title of this post refers not to the classic 1987 single by Run-DMC but, instead, to the trickiness of rheumatoid arthritis and vasculitis as multisystem inflammatory disorders with a range of diverse outcomes.

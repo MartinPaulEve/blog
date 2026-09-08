@@ -22,6 +22,7 @@ wordpress_id: 2939
 wordpress_url: https://www.martineve.com/?p=2939
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfuvc6h2o"
 kcworks: https://works.hcommons.org/records/ap57q-gy326
+biron: https://eprints.bbk.ac.uk/id/eprint/17245/
 ---
 
 <p>I'm pleased to say that I was able to participate in the first meeting of the HEFCE Expert Reference Group on Open Access Monographs a few weeks ago. Having confirmed with HEFCE, I can also now make available <a href="https://www.martineve.com/wp-content/uploads/2013/11/Monographs-ERG01Min-Notes-of-meeting-4-November-20131.pdf">the minutes of that meeting on the 4th November</a> and would be interested to hear from anybody with comments by either <a href="mailto:martin@martineve.com">email</a> or Twitter.</p>

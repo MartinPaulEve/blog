@@ -14,6 +14,7 @@ categories:
 - Health
 - Personal
 kcworks: https://works.hcommons.org/records/97f63-h3c66
+biron: https://eprints.bbk.ac.uk/id/eprint/42672/
 ---
 
 I am due up for vaccination in the very near future. This is good news. But it's tempered.

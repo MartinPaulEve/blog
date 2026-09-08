@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lymg4xk
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/gnjev-pjp32
+biron: https://eprints.bbk.ac.uk/id/eprint/50193/
 references:
 - date: '2022-08-18'
   title: Say Hello to Anno

@@ -22,6 +22,7 @@ wordpress_id: 292
 wordpress_url: http://pro.grammatic.org/post-evaluating-the-security-of-the-jsonrequest-object-6.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7moa5g3a2f"
 kcworks: https://works.hcommons.org/records/5z75f-rqe63
+biron: https://eprints.bbk.ac.uk/id/eprint/16783/
 references:
 - title: JSONRequest
   type: TechArticle

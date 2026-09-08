@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m26pivf
 categories:
 - Academia
 kcworks: https://works.hcommons.org/records/jvk2w-zce86
+biron: https://eprints.bbk.ac.uk/id/eprint/46994/
 ---
 
 I mustn't say too much in public about this, for fear of being unprofessional. However, I wanted to jot down a few notes about "being a PhD supervisor" and what it means and what it's like.

@@ -75,6 +75,7 @@ wordpress_id: 190
 wordpress_url: http://www.martineve.com/?p=190
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlqq6qi2f"
 kcworks: https://works.hcommons.org/records/sdg8d-4x932
+biron: https://eprints.bbk.ac.uk/id/eprint/17036/
 references:
 - title: Pynchon Newbies
   type: WebPage

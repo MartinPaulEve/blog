@@ -15,6 +15,7 @@ categories:
 - Publications
 - Digital Humanities
 kcworks: https://works.hcommons.org/records/y92w6-dd458
+biron: https://eprints.bbk.ac.uk/id/eprint/27718/
 references:
 - http://www.combinedacademic.co.uk/close-reading-with-computers # Combined Academic: Close Reading with Computers order page
 - https://doi.org/10.16995/olh.82 # Eve, Close Reading with Computers chapter 1, OLH

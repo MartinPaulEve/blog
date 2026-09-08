@@ -15,6 +15,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6oppsp
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/qffb2-8jj77
+biron: https://eprints.bbk.ac.uk/id/eprint/29047/
 references:
 - https://jhupbooks.press.jhu.edu/title/generous-thinking # Fitzpatrick, Generous Thinking, JHU Press
 - author: Contributors to Wikimedia projects

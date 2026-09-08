@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lyvazis
 categories:
 - Scholarly Communications
 kcworks: https://works.hcommons.org/records/8jqb5-5gr58
+biron: https://eprints.bbk.ac.uk/id/eprint/48844/
 references:
 - https://doi.org/10.1007/978-3-319-99435-2_2 # Dougherty, Defining the Scholarly Record chapter
 ---

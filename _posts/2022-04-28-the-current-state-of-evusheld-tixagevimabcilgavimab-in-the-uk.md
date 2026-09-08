@@ -15,6 +15,7 @@ categories:
 - Politics
 - Health
 kcworks: https://works.hcommons.org/records/9yb3c-cjn73
+biron: https://eprints.bbk.ac.uk/id/eprint/48850/
 references:
 - date: '2022-03-17'
   title: Evusheld approved to prevent COVID-19 in people whose immune response is poor

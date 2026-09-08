@@ -15,6 +15,7 @@ categories:
 - Open Access
 - Health
 kcworks: https://works.hcommons.org/records/8vsbd-a1313
+biron: https://eprints.bbk.ac.uk/id/eprint/17096/
 references:
 - http://dx.doi.org/10.1016/j.jvs.2011.02.059 # Journal article on carotid artery dissection outcomes
 - http://dx.doi.org/10.1056/NEJM200103223441206 # NEJM case study paywalled article

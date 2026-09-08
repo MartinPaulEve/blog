@@ -23,6 +23,7 @@ wordpress_id: 254
 wordpress_url: http://pro.grammatic.org/post-binding-to-radiobuttons-in-net-windows-forms-47.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmw3csh2i"
 kcworks: https://works.hcommons.org/records/thevp-k5284
+biron: https://eprints.bbk.ac.uk/id/eprint/16823/
 ---
 
 <p>Well, it's not security related, but I thought it was worth sharing my solution for all those people who are having trouble binding either ApplicationSettings or any other datasource to a RadioButton in the .NET Framework (C# and VB.NET) WinForms environment.</p>

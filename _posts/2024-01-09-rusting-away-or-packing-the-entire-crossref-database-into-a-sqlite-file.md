@@ -15,6 +15,7 @@ categories:
 - Programming
 - Scholarly Communications
 kcworks: https://works.hcommons.org/records/m0841-h8s04
+biron: https://eprints.bbk.ac.uk/id/eprint/52895/
 references:
 - title: rustsqlitepacker
   type: SoftwareSourceCode

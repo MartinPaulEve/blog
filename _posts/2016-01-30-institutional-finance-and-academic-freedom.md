@@ -17,6 +17,7 @@ tags:
 title: Institutional Finance and Academic Freedom
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbuck6n2e"
 kcworks: https://works.hcommons.org/records/n1d1r-qp284
+biron: https://eprints.bbk.ac.uk/id/eprint/17315/
 references:
 - author: John Morgan
   date: '2016-01-28'

@@ -14,6 +14,7 @@ categories:
 - Health
 - Personal
 kcworks: https://works.hcommons.org/records/nzs2r-df533
+biron: https://eprints.bbk.ac.uk/id/eprint/51191/
 ---
 
 Pain is a great topic for philosophers. Wittgenstein uses the example of "owning" pain ("I cannot have your pains") in his _Philosophical Investigations_. Susan Sontag famously wrote about photographs of atrocities in _Regarding the Pain of Others_.

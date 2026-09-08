@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lz6isj4
 categories:
 - Programming
 kcworks: https://works.hcommons.org/records/vtv2j-mc553
+biron: https://eprints.bbk.ac.uk/id/eprint/48847/
 references:
 - title: Cloudcraft – Draw AWS diagrams
   type: WebSite

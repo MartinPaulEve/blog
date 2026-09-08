@@ -14,6 +14,7 @@ categories:
 - Health
 - Personal
 kcworks: https://works.hcommons.org/records/7j3aq-zs935
+biron: https://eprints.bbk.ac.uk/id/eprint/52883/
 ---
 
 Well, it finally happened, as Queen once sang. But I am not going "slightly mad" as the song professes. Instead, I have decided that the time has come where I need a wheelchair to get around. My arthritic hip damage is substantial and painful -- and it's stopping me going places. I rarely want to go out anywhere "for a walk" because the pain is so great. A wheelchair will help with this.

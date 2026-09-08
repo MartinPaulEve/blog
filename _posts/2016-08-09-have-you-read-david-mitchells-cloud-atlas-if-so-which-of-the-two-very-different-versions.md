@@ -16,6 +16,7 @@ categories:
 - Publications
 - Literature
 kcworks: https://works.hcommons.org/records/vke3d-6fv63
+biron: https://eprints.bbk.ac.uk/id/eprint/17052/
 references:
 - http://doi.org/10.16995/olh.82 # Eve, Cloud Atlas Version Variants OLH article
 - author: Alison Flood

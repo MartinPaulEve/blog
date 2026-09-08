@@ -24,6 +24,7 @@ wordpress_id: 3244
 wordpress_url: https://www.martineve.com/?p=3244
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7medcfsc2h"
 kcworks: https://works.hcommons.org/records/bs68s-6dh61
+biron: https://eprints.bbk.ac.uk/id/eprint/17196/
 references:
 - https://www.openlibhums.org # Open Library of Humanities platform
 - https://www.openlibhums.org/about/library-partnership-subsidy-lps-flyer/ # OLH library partnership subsidy model flyer

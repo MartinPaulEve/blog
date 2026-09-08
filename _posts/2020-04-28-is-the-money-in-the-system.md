@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5t5njl
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/z706r-a6a69
+biron: https://eprints.bbk.ac.uk/id/eprint/31785/
 references:
 - https://openlibhums.org/plugins/supporters/ # OLH institutional supporters list
 - https://www.openlibhums.org/news/370/ # OLH blog post on library OA support

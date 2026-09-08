@@ -11,6 +11,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mahauf7
 categories:
 - Copyright and Licensing
 kcworks: https://works.hcommons.org/records/0dkbc-5rc08
+biron: https://eprints.bbk.ac.uk/id/eprint/17935/
 references:
 - https://www.martineve.com/2016/01/07/the-uk-copyright-exemption-for-text-and-data-mining-vs-the-dmca/ # Eve blog post on UK text mining copyright exemption vs DMCA
 ---

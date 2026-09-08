@@ -28,6 +28,7 @@ wordpress_id: 968
 wordpress_url: https://www.martineve.com/?p=968
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkf2j5q2f"
 kcworks: https://works.hcommons.org/records/6j5je-jbb15
+biron: https://eprints.bbk.ac.uk/id/eprint/17166/
 references:
 - author: Eliza Anyangwe
   date: '2011-04-13'

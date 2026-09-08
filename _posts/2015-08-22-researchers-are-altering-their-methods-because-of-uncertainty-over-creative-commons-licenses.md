@@ -19,6 +19,7 @@ title: Researchers are altering their methods because of uncertainty over Creati
   Commons licenses
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcc2t3r2f"
 kcworks: https://works.hcommons.org/records/wtf94-58n55
+biron: https://eprints.bbk.ac.uk/id/eprint/17041/
 references:
 - http://dx.doi.org/10.1080/09548963.2015.1066073 # Cultural Trends article on London and place
 - title: Legal Code - Attribution 4.0 International

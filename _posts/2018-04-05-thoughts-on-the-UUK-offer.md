@@ -11,6 +11,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7szcsu
 categories:
 - Higher Education
 kcworks: https://works.hcommons.org/records/mzdh1-r6k75
+biron: https://eprints.bbk.ac.uk/id/eprint/21989/
 references:
 - http://www.twitlonger.com/show/n_1sqg6m9 # Twitlonger post arguing against accepting UUK offer
 - https://www.ucu.org.uk/article/9412/UCU-responds-to-UUK-valuation-review?list=1676 # UCU response to UUK USS valuation review March 2018

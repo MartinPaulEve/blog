@@ -20,6 +20,7 @@ title: How can Elsevier claim that its OA revenue stream is separate from subscr
   in a hybrid environment?
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdaug4c2q"
 kcworks: https://works.hcommons.org/records/dwft2-ptn92
+biron: https://eprints.bbk.ac.uk/id/eprint/16922/
 references:
 - https://adamesmith.files.wordpress.com/2014/11/nov-2014-the-empire-strikes-back-alicia-wise-elsevier-profile.pdf # Research Fortnight interview with Alicia Wise of Elsevier
 - http://www.rluk.ac.uk/about-us/blog/the-costs-of-double-dipping/ # Prosser RLUK blog post on double-dipping costs

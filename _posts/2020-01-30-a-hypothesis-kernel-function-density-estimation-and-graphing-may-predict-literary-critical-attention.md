@@ -13,6 +13,7 @@ categories:
 - Digital Humanities
 - Thomas Pynchon
 kcworks: https://works.hcommons.org/records/167hq-prv95
+biron: https://eprints.bbk.ac.uk/id/eprint/30724/
 references:
 - title: 'GitHub - davidmcclure/textplot: (Mental) maps of texts with kernel density estimation and force-directed networks.'
   type: SoftwareSourceCode

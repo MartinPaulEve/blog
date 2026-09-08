@@ -34,6 +34,7 @@ wordpress_id: 515
 wordpress_url: http://www.martineve.com/?p=515
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7ml7i6nd2h"
 kcworks: https://works.hcommons.org/records/ddc71-g2f97
+biron: https://eprints.bbk.ac.uk/id/eprint/17373/
 references:
 - http://www.martineve.com # martineve.com example OAuth callback URL
 ---

@@ -26,6 +26,7 @@ wordpress_id: 2064
 wordpress_url: https://www.martineve.com/2012/04/28/contemporary-fiction-research-seminar-write-up-martin-amis-money-2012-04-28/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7migxwrk2a"
 kcworks: https://works.hcommons.org/records/ntm2f-zrp61
+biron: https://eprints.bbk.ac.uk/id/eprint/17452/
 references:
 - date: '2011-12-17'
   title: Writers and artists design money fit for modern times - in pictures

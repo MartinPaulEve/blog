@@ -42,6 +42,7 @@ wordpress_id: 23
 wordpress_url: http://new.martineve.com/?p=23
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmbrmrs2a"
 kcworks: https://works.hcommons.org/records/gwxgz-qp657
+biron: https://eprints.bbk.ac.uk/id/eprint/17317/
 references:
 - http://entertainment.timesonline.co.uk/tol/arts_and_entertainment/books/article3784828.ece # The Times article on British Library access
 - author: Tristram Hunt

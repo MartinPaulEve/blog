@@ -14,6 +14,7 @@ categories:
 - Literature
 - Academia
 kcworks: https://works.hcommons.org/records/1kx46-ckg98
+biron: https://eprints.bbk.ac.uk/id/eprint/17288/
 ---
 
 I'm delighted to say that I have taken up an editorship, alongside Professor Bryan Cheyette, of the Bloomsbury New Horizons in Contemporary Writing series. I think this is an exciting time and opportunity to consider what it means to study contemporary writing in the present age and to deliberate upon the diverse methodologies, approaches, and concerns in my area of academic work. We therefore invite proposals as per the call below.

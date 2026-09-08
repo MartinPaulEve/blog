@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m5lpuuh
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/5zqf9-xvx65
+biron: https://eprints.bbk.ac.uk/id/eprint/32072/
 references:
 - https://openlibhums.org/plugins/supporters/signup/ # Open Library of Humanities institutional supporter signup
 ---

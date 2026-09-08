@@ -22,6 +22,7 @@ wordpress_id: 2613
 wordpress_url: https://www.martineve.com/?p=2613
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgx2t7v2q"
 kcworks: https://works.hcommons.org/records/xnsqb-tyg23
+biron: https://eprints.bbk.ac.uk/id/eprint/17479/
 references:
 - date: '2013-03-07'
   title: House of Commons - Business, Innovation and Skills - Written Evidence

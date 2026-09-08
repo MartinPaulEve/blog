@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7d3vwy
 categories:
 - Linux
 kcworks: https://works.hcommons.org/records/jg77d-tdc50
+biron: https://eprints.bbk.ac.uk/id/eprint/26297/
 ---
 
 I've been having some serious problems running unoconv, the document conversion tool, on Ubuntu 18.04 using Libreoffice 6. This has been blocking the test suite (and basic functionality) in meTypeset from working.

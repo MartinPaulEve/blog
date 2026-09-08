@@ -21,6 +21,7 @@ wordpress_id: 1757
 wordpress_url: https://www.martineve.com/2012/01/07/adorno-greek-lexicon-project/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mj2wy2h2r"
 kcworks: https://works.hcommons.org/records/1m4hr-bk312
+biron: https://eprints.bbk.ac.uk/id/eprint/17186/
 references:
 - author: Stefano Mortellaro
   title: Stefano Mortellaro

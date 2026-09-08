@@ -21,6 +21,7 @@ wordpress_id: 1603
 wordpress_url: https://www.martineve.com/?p=1603
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjfxk7u2a"
 kcworks: https://works.hcommons.org/records/51yds-v3z03
+biron: https://eprints.bbk.ac.uk/id/eprint/17455/
 references:
 - author: Daniela Hartmann
   title: Daniela Hartmann

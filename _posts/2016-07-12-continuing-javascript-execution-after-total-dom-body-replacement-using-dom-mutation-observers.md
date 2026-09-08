@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbbbgxc
 categories:
 - Programming
 kcworks: https://works.hcommons.org/records/5g9qg-bx340
+biron: https://eprints.bbk.ac.uk/id/eprint/17132/
 ---
 
 As part of the translation platform we're building, I needed to implement the following workflow:

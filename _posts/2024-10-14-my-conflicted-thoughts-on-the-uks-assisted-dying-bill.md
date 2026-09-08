@@ -15,6 +15,7 @@ categories:
 - Politics
 - Health
 kcworks: https://works.hcommons.org/records/278z6-2th03
+biron: https://eprints.bbk.ac.uk/id/eprint/54381/
 references:
 - title: Assisted Dying for Terminally Ill Adults Bill [HL]
   type: WebPage

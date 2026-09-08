@@ -11,6 +11,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mafdkid
 categories:
 - Copyright and Licensing
 kcworks: https://works.hcommons.org/records/zbp2j-h2q25
+biron: https://eprints.bbk.ac.uk/id/eprint/18242/
 references:
 - https://www.martineve.com/2017/01/16/thinking-more-about-eu-law-and-uk-copyright-exemptions/ # Eve blog post on EU law and UK copyright exemptions
 - title: Copyright, Designs and Patents Act 1988

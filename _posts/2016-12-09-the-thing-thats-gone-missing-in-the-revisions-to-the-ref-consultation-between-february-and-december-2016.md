@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7marvev3
 categories:
 - Higher Education
 kcworks: https://works.hcommons.org/records/be0nq-pm275
+biron: https://eprints.bbk.ac.uk/id/eprint/17609/
 ---
 
 The internal draft of the [Consultation on the Second Research Excellence Framework that was requested by FOI last February](https://www.martineve.com/2016/02/18/REF-consultation/) [contained the following clause](https://www.martineve.com/2016/02/18/REF-consultation/):

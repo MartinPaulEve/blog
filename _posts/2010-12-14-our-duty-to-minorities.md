@@ -66,6 +66,7 @@ wordpress_id: 475
 wordpress_url: http://www.martineve.com/?p=475
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlifmfk2a"
 kcworks: https://works.hcommons.org/records/wtzjv-csh29
+biron: https://eprints.bbk.ac.uk/id/eprint/17463/
 references:
 - date: '2010-12-13'
   title: Independent Living Fund to be shut down by 2015

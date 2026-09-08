@@ -31,6 +31,7 @@ wordpress_id: 1120
 wordpress_url: https://www.martineve.com/?p=1120
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkcem3p2p"
 kcworks: https://works.hcommons.org/records/9p6sj-hhc76
+biron: https://eprints.bbk.ac.uk/id/eprint/17326/
 references:
 - author: Diane Coyle
   title: The Enlightened Economist

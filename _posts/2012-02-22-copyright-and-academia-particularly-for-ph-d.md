@@ -197,6 +197,7 @@ wordpress_id: 1921
 wordpress_url: https://www.martineve.com/?p=1921
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mir3ige2t"
 kcworks: https://works.hcommons.org/records/grrhg-4ft84
+biron: https://eprints.bbk.ac.uk/id/eprint/17398/
 references:
 - title: Dr Sarah Robins-Hobden
   type: WebSite

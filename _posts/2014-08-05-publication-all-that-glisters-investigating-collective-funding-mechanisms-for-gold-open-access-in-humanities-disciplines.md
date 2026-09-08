@@ -23,6 +23,7 @@ wordpress_id: 3164
 wordpress_url: https://www.martineve.com/?p=3164
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mewrp542r"
 kcworks: https://works.hcommons.org/records/s7p2b-w0652
+biron: https://eprints.bbk.ac.uk/id/eprint/16919/
 references:
 - http://dx.doi.org/10.7710/2162-3309.1131 # Eve, All That Glisters, JLSC DOI
 - http://jlsc-pub.org/jlsc/vol2/iss3/5/ # JLSC publisher page for All That Glisters

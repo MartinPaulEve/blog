@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2yqvvs
 categories:
 - Higher Education
 kcworks: https://works.hcommons.org/records/jfgcp-6qn39
+biron: https://eprints.bbk.ac.uk/id/eprint/45219/
 ---
 
 It has always "amused" me, to some extent, that the Augar review of post-18 education and funding was conducted by a bloke whose name is a near homonym for "augur", the noun form of which denoted, in Ancient Rome, a religious official who observed natural signs, especially the behaviour of birds, interpreting these as an indication of divine approval or disapproval of a proposed action. In other words, someone trying to predict the future on a shady basis. The Augar review, hanging over universities for many years, looks finally set for consultation. And, quite frankly, the omens look mixed. Here's some crystal-ball gazing.

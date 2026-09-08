@@ -23,6 +23,7 @@ wordpress_id: 273
 wordpress_url: http://pro.grammatic.org/post-firefox-nested-comment-fragmented-xss-26.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnfvq732n"
 kcworks: https://works.hcommons.org/records/efv81-jt525
+biron: https://eprints.bbk.ac.uk/id/eprint/16801/
 references:
 - http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd # W3C XHTML 1.1 DTD
 - title: XHTML namespace

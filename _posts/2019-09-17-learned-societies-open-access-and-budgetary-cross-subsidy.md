@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m6prbyv
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/nr9gz-qxd96
+biron: https://eprints.bbk.ac.uk/id/eprint/28972/
 references:
 - https://www.sciencemag.org/news/2019/09/new-deals-could-help-scientific-societies-survive-open-access # Science news: deals helping societies survive open access
 ---

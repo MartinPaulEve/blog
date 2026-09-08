@@ -14,6 +14,7 @@ categories:
 - Open Access
 - Academia
 kcworks: https://works.hcommons.org/records/3sa0s-t0158
+biron: https://eprints.bbk.ac.uk/id/eprint/17150/
 ---
 
 I can say, without a shred of doubt, that my experience with Open Book Publishers has been nothing short of excellent. For reference/comparison: I've published three other books with Cambridge UP, Bloomsbury and Palgrave. In all respects, OBP were at least as good, if not better in some areas, than some of the others.

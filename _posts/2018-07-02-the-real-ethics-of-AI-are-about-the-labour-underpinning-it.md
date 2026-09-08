@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m7rhfyz
 categories:
 - Artificial Intelligence
 kcworks: https://works.hcommons.org/records/xvs3p-0qh26
+biron: https://eprints.bbk.ac.uk/id/eprint/22976/
 references:
 - author: Safiya Umoja Noble
   title: Algorithms of Oppression

@@ -15,6 +15,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3cth5u
 categories:
 - Literature
 kcworks: https://works.hcommons.org/records/espj9-9rv65
+biron: https://eprints.bbk.ac.uk/id/eprint/44710/
 references:
 - title: Black
   type: Book

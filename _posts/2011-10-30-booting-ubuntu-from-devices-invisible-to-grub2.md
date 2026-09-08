@@ -23,6 +23,7 @@ wordpress_id: 1572
 wordpress_url: https://www.martineve.com/2011/10/30/booting-ubuntu-from-devices-invisible-to-grub2/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjhjg2r2o"
 kcworks: https://works.hcommons.org/records/grmsk-vdr42
+biron: https://eprints.bbk.ac.uk/id/eprint/17205/
 references:
 - author: Greg Borenstein
   title: Greg Borenstein

@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3dyuhl
 categories:
 - Literature
 kcworks: https://works.hcommons.org/records/zc28w-z7p15
+biron: https://eprints.bbk.ac.uk/id/eprint/44609/
 references:
 - https://eprints.bbk.ac.uk/id/eprint/31744/ # Eve, Paper Thin, Birkbeck repository eprint
 - https://www.umasspress.com/9781625344748/the-intimacy-of-paper-in-early-and-nineteenth-century-american-literature/ # Barber, The Intimacy of Paper in American Literature

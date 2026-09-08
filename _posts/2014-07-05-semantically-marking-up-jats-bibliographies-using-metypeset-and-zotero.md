@@ -25,6 +25,7 @@ wordpress_id: 3157
 wordpress_url: https://www.martineve.com/?p=3157
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mey3ahz2n"
 kcworks: https://works.hcommons.org/records/c3vhy-t6j32
+biron: https://eprints.bbk.ac.uk/id/eprint/17433/
 references:
 - title: 'GitHub - MartinPaulEve/meTypeset: meTypeset is a tool to convert from Microsoft Word .docx format to NLM/JATS-XML for scholarly/scientific article typesetting.'
   type: SoftwareSourceCode

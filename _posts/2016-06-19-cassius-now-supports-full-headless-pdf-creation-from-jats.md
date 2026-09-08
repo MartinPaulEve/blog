@@ -15,6 +15,7 @@ categories:
 - Publishing Technology
 - Programming
 kcworks: https://works.hcommons.org/records/cae4m-5de48
+biron: https://eprints.bbk.ac.uk/id/eprint/16993/
 references:
 - title: 'CaSSius: a CSS-regions-based PDF typesetter for scholarly communications'
   type: SoftwareSourceCode

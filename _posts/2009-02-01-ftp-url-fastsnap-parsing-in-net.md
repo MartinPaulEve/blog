@@ -25,6 +25,7 @@ wordpress_id: 236
 wordpress_url: http://pro.grammatic.org/post-ftp-url-fastsnap-parsing-in-net-66.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmkriyl2n"
 kcworks: https://works.hcommons.org/records/7ryp6-kr924
+biron: https://eprints.bbk.ac.uk/id/eprint/16834/
 references:
 - title: 'The Daily WTF: Curious Perversions in Information Technology'
   type: WebSite

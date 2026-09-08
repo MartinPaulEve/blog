@@ -18,6 +18,7 @@ wordpress_id: 2670
 wordpress_url: https://www.martineve.com/?p=2670
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgrpsjx2i"
 kcworks: https://works.hcommons.org/records/vtxs3-tnj70
+biron: https://eprints.bbk.ac.uk/id/eprint/17480/
 ---
 
 <p>Brought to my attention by Dave Monroe, from the Pynchon List and culled from the <a href="http://booksellers.penguin.com/static/pdf/penguinpress-fall13.pdf">Penguin Press release</a>:</p>

@@ -15,6 +15,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3flr4t
 categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/tpm86-pyc67
+biron: https://eprints.bbk.ac.uk/id/eprint/44081/
 references:
 - title: cOAlition S endorses the Subscribe to Open (S2O) model of funding open access
   type: WebPage

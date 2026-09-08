@@ -27,6 +27,7 @@ wordpress_id: 1162
 wordpress_url: https://www.martineve.com/?p=1162
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkbkrxi2f"
 kcworks: https://works.hcommons.org/records/pc0ed-v9280
+biron: https://eprints.bbk.ac.uk/id/eprint/17054/
 references:
 - title: Scheduled RDP workshops and events
   type: WebPage

@@ -15,6 +15,7 @@ tags:
 title: What TEF is really for
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc5bhue2r"
 kcworks: https://works.hcommons.org/records/qssgd-3pp65
+biron: https://eprints.bbk.ac.uk/id/eprint/17120/
 references:
 - https://www.researchprofessional.com/services/mailing.html?uuid=1ecd16f5-8164-4d45-81fe-464cff593150 # Research Professional McQuillan piece on TEF
 - author: Peter Scott

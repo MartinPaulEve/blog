@@ -24,6 +24,7 @@ wordpress_id: 2281
 wordpress_url: https://www.martineve.com/?p=2281
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhvt6bx2r"
 kcworks: https://works.hcommons.org/records/pxnyb-1km64
+biron: https://eprints.bbk.ac.uk/id/eprint/17243/
 references:
 - date: '2012-08-02'
   title: All sources are equal but some are more equal than others – (how) should blogs be referenced?

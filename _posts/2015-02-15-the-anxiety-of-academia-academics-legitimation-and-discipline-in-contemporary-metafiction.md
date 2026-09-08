@@ -18,6 +18,7 @@ title: 'The Anxiety of Academia: Academics, Legitimation and Discipline in Conte
   Metafiction'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdac3xy2i"
 kcworks: https://works.hcommons.org/records/kyg0d-kh342
+biron: https://eprints.bbk.ac.uk/id/eprint/17222/
 references:
 - https://www.openlibhums.org # Open Library of Humanities website
 - author: Joseph Wilson

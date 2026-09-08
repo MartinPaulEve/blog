@@ -16,6 +16,7 @@ tags:
 title: 'HE Green Paper: response to question 14'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc2g4t22h"
 kcworks: https://works.hcommons.org/records/823d5-6tk88
+biron: https://eprints.bbk.ac.uk/id/eprint/17069/
 references:
 - author: Andrew McGettigan
   date: '2013-11-18'

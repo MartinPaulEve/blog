@@ -81,6 +81,7 @@ wordpress_id: 480
 wordpress_url: http://www.martineve.com/?p=480
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlhqwcy2p"
 kcworks: https://works.hcommons.org/records/1psh6-s2n24
+biron: https://eprints.bbk.ac.uk/id/eprint/17312/
 references:
 - https://www.producteev.com # Producteev task management service
 ---

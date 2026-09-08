@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lwihov3
 categories:
 - Digital Preservation
 kcworks: https://works.hcommons.org/records/8svka-j1c49
+biron: https://eprints.bbk.ac.uk/id/eprint/54750/
 references:
 - https://arcadia-fund.files.svdcdn.com/production/The-Preservation-of-Knowledge-in-the-Digital-Age.pdf?dm=1733309971 # Arcadia Fund report: preservation of knowledge in digital age
 - https://doi.org/10.31274/jlsc.16288 # Eve, digital scholarly journals poorly preserved, JLSC 2024

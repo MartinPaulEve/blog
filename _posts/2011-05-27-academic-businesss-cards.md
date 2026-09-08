@@ -29,6 +29,7 @@ wordpress_id: 1107
 wordpress_url: https://www.martineve.com/?p=1107
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkcziys2s"
 kcworks: https://works.hcommons.org/records/f88ww-hf737
+biron: https://eprints.bbk.ac.uk/id/eprint/16987/
 references:
 - title: MOO
   type: WebSite
