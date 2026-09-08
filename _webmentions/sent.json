@@ -6057,114 +6057,54 @@
    }
   },
   "/2013/07/21/joining-the-uk-national-monographs-strategy-expert-panel/": {
-   "content_hash": "3cc91dca11c5b21f9db310d62bfb39e0afa24bcd5ec5696263523c16fcc54b49",
+   "content_hash": "cac92bc6d65399a23808df6fccbfa5a2e25704c8f42da3bf87488c495c735464",
    "sent": {
     "http://monographs.jiscinvolve.org/wp/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://bsky.app/intent/compose?text=Joining+the+UK+National+Monographs+Strategy+Expert+Panel+https://eve.gd/2013/07/21/joining-the-uk-national-monographs-strategy-expert-panel/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/2013/07/21/joining-the-uk-national-monographs-strategy-expert-panel/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.last.fm/user/MartinPaulEve": {
-     "at": "2026-09-08T07:14:50+00:00",
+     "at": "2026-09-08T08:31:23+00:00",
      "endpoint": null
     }
    }
   },
   "/2013/07/27/hefce-the-state-of-open-access-in-the-uk-and-post-2014-ref/": {
-   "content_hash": "969b8029d77e1f0091ce992da0fca7e875c179d70f2f0e45d5c276b6e7c170b6",
+   "content_hash": "0b2cf866d2c9fab36634979551a3acb9c1233891622089e46e4f237d0fb63461",
    "sent": {
     "http://www.hefce.ac.uk/media/hefce/content/pubs/2013/201316/Consultation%20on%20open%20access%20in%20the%20post-2014%20Research%20Excellence%20Framework.pdf": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://bsky.app/intent/compose?text=HEFCE,+the+State+of+Open+Access+in+the+UK+and+Post-2014+REF+https://eve.gd/2013/07/27/hefce-the-state-of-open-access-in-the-uk-and-post-2014-ref/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/2013/07/27/hefce-the-state-of-open-access-in-the-uk-and-post-2014-ref/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.last.fm/user/MartinPaulEve": {
-     "at": "2026-09-08T07:14:50+00:00",
+     "at": "2026-09-08T08:31:23+00:00",
      "endpoint": null
     }
    }
   },
   "/2013/07/28/determining-glyph-availability-for-fop/": {
-   "content_hash": "887bd0c719e65a30ffde6303f97bed95ec920a869c6db009fa4523cc37780684",
+   "content_hash": "6bdb999eab1ec24351003b09c860b16791ccbb9c7355a659cf1fd3bd9b80411b",
    "sent": {
     "http://www.fileformat.info": {
-     "at": "2026-09-08T07:14:50+00:00",
+     "at": "2026-09-08T08:31:23+00:00",
      "endpoint": null
     },
     "http://www.fileformat.info/info/unicode/char/2713/fontsupport.htm": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://bsky.app/intent/compose?text=Determining+glyph+availability+for+FOP+https://eve.gd/2013/07/28/determining-glyph-availability-for-fop/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/2013/07/28/determining-glyph-availability-for-fop/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.last.fm/user/MartinPaulEve": {
-     "at": "2026-09-08T07:14:50+00:00",
+     "at": "2026-09-08T08:31:23+00:00",
      "endpoint": null
     }
    }
   },
   "/2013/07/28/rendering-mathml-in-xslfo-to-pdf-using-fop/": {
-   "content_hash": "7bbe6a7018984a9be3294a229e24b5986b980c5ff496f7737da431ecf85faaac",
+   "content_hash": "59aa3101aebfcd8e336ad8913e86761f5db8c3490fffa8e2c9064c873c41efa2",
    "sent": {
     "http://jeuclid.sourceforge.net/jeuclid-fop/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://bsky.app/intent/compose?text=Rendering+MathML+in+XSL:FO+to+PDF+using+fop+https://eve.gd/2013/07/28/rendering-mathml-in-xslfo-to-pdf-using-fop/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/2013/07/28/rendering-mathml-in-xslfo-to-pdf-using-fop/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.last.fm/user/MartinPaulEve": {
-     "at": "2026-09-08T07:14:50+00:00",
+     "at": "2026-09-08T08:31:23+00:00",
      "endpoint": null
     }
    }
   },
   "/2013/08/02/has-the-licensing-battle-been-deferred-in-the-latest-hefce-document/": {
-   "content_hash": "f56f5b39fc5ac0f990c33d837926dc956d37396fa9c36b2302144fde7e5200e1",
+   "content_hash": "f4bc4ec475772bdd33b8a57062cd3872c4e2f7f96d3dec9b2e9c8342d3ba7235",
    "sent": {
     "http://blogs.lse.ac.uk/impactofsocialsciences/2013/08/01/getting-somewhere-hefce-proposals-on-open-access/": {
-     "at": "2026-09-08T07:14:50+00:00",
+     "at": "2026-09-08T08:31:23+00:00",
      "endpoint": null
     },
     "http://www.nature.com/news/text-mining-spat-heats-up-1.12636": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://bsky.app/intent/compose?text=Has+": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/2013/08/02/has-the-licensing-battle-been-deferred-in-the-latest-hefce-document/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.last.fm/user/MartinPaulEve": {
-     "at": "2026-09-08T07:14:50+00:00",
+     "at": "2026-09-08T08:31:23+00:00",
      "endpoint": null
     }
    }
@@ -6234,43 +6174,18 @@
    }
   },
   "/2013/08/28/the-democracy-we-do-not-want/": {
-   "content_hash": "29e86f01f39ae053f5fed55bee9a030e3fa3fd00c199a61154118d8777d043c8",
-   "sent": {
-    "https://bsky.app/intent/compose?text=The+Democracy+We+Do+Not+Want+https://eve.gd/2013/08/28/the-democracy-we-do-not-want/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/2013/08/28/the-democracy-we-do-not-want/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.last.fm/user/MartinPaulEve": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    }
-   }
+   "content_hash": "c34c7a9ea955022e5331028fea71ade8bf4647d1372444f6f7e1979c5ba0b907",
+   "sent": {}
   },
   "/2013/08/29/full-response-to-science-metrix-report-on-gold-oa-citation-rates/": {
-   "content_hash": "847adc894f52c1dc914a1d4cfb3743f32ffc18558236a112c4e05ffca0aa4f97",
+   "content_hash": "e586f772c1b690c58419f926ae0076f020c5992229ccb65ea9eb3a3367886bf6",
    "sent": {
     "http://www.science-metrix.com/eng/news_13_08.htm": {
-     "at": "2026-09-08T07:14:50+00:00",
+     "at": "2026-09-08T08:31:23+00:00",
      "endpoint": null
     },
     "http://www.timeshighereducation.co.uk/low-citation-gains-via-gold-open-access-study/2006847.article": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://bsky.app/intent/compose?text=Full+response+to+Science-Metrix+report+on+gold+OA+citation+rates+https://eve.gd/2013/08/29/full-response-to-science-metrix-report-on-gold-oa-citation-rates/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/2013/08/29/full-response-to-science-metrix-report-on-gold-oa-citation-rates/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.last.fm/user/MartinPaulEve": {
-     "at": "2026-09-08T07:14:50+00:00",
+     "at": "2026-09-08T08:31:23+00:00",
      "endpoint": null
     }
    }
@@ -6298,26 +6213,14 @@
    }
   },
   "/2013/09/09/work-on-open-access-technology-get-a-masters-degree-in-computer-science-funded-place/": {
-   "content_hash": "fe1e6bf8887de676e5585d650b016dee25ea033b3a9052588cfdfa72f357e04f",
+   "content_hash": "ca81d56c8500720e92ff19f9e2514f5174982a90c143e3ea639fc51af2fa35b1",
    "sent": {
     "http://www.lincoln.ac.uk/home/course/cmsresms/fundedplace/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://bsky.app/intent/compose?text=Work+on+open+access+technology,+get+a+masters+degree+in+Computer+Science:+funded+place+https://eve.gd/2013/09/09/work-on-open-access-technology-get-a-masters-degree-in-computer-science-funded-place/": {
-     "at": "2026-09-08T07:14:50+00:00",
+     "at": "2026-09-08T08:31:23+00:00",
      "endpoint": null
     },
     "https://github.com/MartinPaulEve/meTypeset": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/2013/09/09/work-on-open-access-technology-get-a-masters-degree-in-computer-science-funded-place/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.last.fm/user/MartinPaulEve": {
-     "at": "2026-09-08T07:14:50+00:00",
+     "at": "2026-09-08T08:31:23+00:00",
      "endpoint": null
     }
    }
@@ -6439,21 +6342,8 @@
    }
   },
   "/2013/11/26/gov-and-rcuk-responses-to-open-access-inquiry-eradicating-non-disclosure-clauses/": {
-   "content_hash": "c9a8791e4a38937f73e73725ef6488a6babab33bb7a0509fce9e919ec578e071",
-   "sent": {
-    "https://bsky.app/intent/compose?text=Gov+and+RCUK+responses+to+Open+Access+Inquiry:+eradicating+non-disclosure+clauses+https://eve.gd/2013/11/26/gov-and-rcuk-responses-to-open-access-inquiry-eradicating-non-disclosure-clauses/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/2013/11/26/gov-and-rcuk-responses-to-open-access-inquiry-eradicating-non-disclosure-clauses/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.last.fm/user/MartinPaulEve": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    }
-   }
+   "content_hash": "a3ff853b0bf683869fc60a59ee7dcc06fe68903616a42a59b2957db0e3334507",
+   "sent": {}
   },
   "/2013/12/19/publication-review-of-humanities-in-the-twenty-first-century-beyond-utility-and-markets/": {
    "content_hash": "22be70b2db56768ffdfb39046a8700ca3c1b37d05f81eff17bf2f01cec3d3b32",
@@ -6469,21 +6359,8 @@
    }
   },
   "/2013/12/20/dear-top-journal-1-year-and-4-months-to-review-is-too-long/": {
-   "content_hash": "9671da05acbe30522f49ab5b5c75bd1503406f770d21dd34a700c2b98c136bda",
-   "sent": {
-    "https://bsky.app/intent/compose?text=Dear+": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/2013/12/20/dear-top-journal-1-year-and-4-months-to-review-is-too-long/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.last.fm/user/MartinPaulEve": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    }
-   }
+   "content_hash": "e6c689919d2283093322a38fe57379e9937cb4e228d214df777f4e70e8e5d33f",
+   "sent": {}
   },
   "/2013/12/20/publication-utopia-fading-taxonomies-freedom-and-dissent-in-open-access-publishing/": {
    "content_hash": "7c3fa1d470d54ab8ea00db6e4c6884384215048c3a9108106fcec7315cde7431",
@@ -6731,21 +6608,8 @@
    }
   },
   "/2014/01/15/dear-publisher-2/": {
-   "content_hash": "a7078076a30557f08fe9b5ef8f5df5e018811da665020d1b506a62158cb718d8",
-   "sent": {
-    "https://bsky.app/intent/compose?text=Dear+Publisher+(#2)+https://eve.gd/2014/01/15/dear-publisher-2/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/2014/01/15/dear-publisher-2/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.last.fm/user/MartinPaulEve": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    }
-   }
+   "content_hash": "960bef4a57ba55a23e082ec9429e3f3d4d0bb94bcba1e297dbd00093c6cfd38e",
+   "sent": {}
   },
   "/2014/01/19/every-generation-has-its-philosopher/": {
    "content_hash": "9bedc8b558b6f39d7920bfcf31c9cf1a9f84e2a8eaf269549f5f792c8f9aa670",
@@ -6800,34 +6664,22 @@
    }
   },
   "/2014/02/14/publication-the-means-of-re-production-expertise-open-tools-standards-and-communication/": {
-   "content_hash": "fa23c9813f3c20524abda46984a3e5fa44d2c82a1ba202260243d1c9a8731139",
+   "content_hash": "21e73214e4ea23eb434843a8a9cb6c0b8c298723c53f80d069c6861da0dfdd37",
    "sent": {
     "http://eprints.lincoln.ac.uk/13297": {
-     "at": "2026-09-08T07:14:50+00:00",
+     "at": "2026-09-08T08:31:23+00:00",
      "endpoint": null
     },
     "http://www.mdpi.com/2304-6775/2/1/38": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://bsky.app/intent/compose?text=Publication:+The+Means+of+(Re-)Production:+Expertise,+Open+Tools,+Standards+and+Communication+https://eve.gd/2014/02/14/publication-the-means-of-re-production-expertise-open-tools-standards-and-communication/": {
-     "at": "2026-09-08T07:14:50+00:00",
+     "at": "2026-09-08T08:31:23+00:00",
      "endpoint": null
     },
     "https://www.academia.edu/6065557/The_Means_of_Re-_Production_Expertise_Open_Tools_Standards_and_Communication": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/2014/02/14/publication-the-means-of-re-production-expertise-open-tools-standards-and-communication/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.last.fm/user/MartinPaulEve": {
-     "at": "2026-09-08T07:14:50+00:00",
+     "at": "2026-09-08T08:31:23+00:00",
      "endpoint": null
     },
     "https://www.martineve.com/wp-content/uploads/2014/02/Eve_2014_The-Means-of-Re-Production2.pdf": {
-     "at": "2026-09-08T07:14:50+00:00",
+     "at": "2026-09-08T08:31:23+00:00",
      "endpoint": null
     }
    }
@@ -6942,47 +6794,23 @@
    }
   },
   "/2014/02/27/debugging-metypeset-using-a-git-filesystem/": {
-   "content_hash": "1cc3638614910c32efbde9334e26f64271890e6eb81092ad1581580f98477aa9",
+   "content_hash": "ef780666f254a04d478bb5094e2439af72457bda03d8a04fa1682b120fbe55b5",
    "sent": {
-    "https://bsky.app/intent/compose?text=Debugging+meTypeset+using+a+git+filesystem+https://eve.gd/2014/02/27/debugging-metypeset-using-a-git-filesystem/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/2014/02/27/debugging-metypeset-using-a-git-filesystem/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.last.fm/user/MartinPaulEve": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
     "https://www.martineve.com/lens-martineve/index.html?url=https://www.martineve.com/lens-martineve/data/2014-02-27.xml": {
-     "at": "2026-09-08T07:14:50+00:00",
+     "at": "2026-09-08T08:31:23+00:00",
      "endpoint": null
     }
    }
   },
   "/2014/03/06/who-owns-a-prezi/": {
-   "content_hash": "05a46e5434ada86b1ae7848582afd8b11709575de1c4135aabddc50308736783",
+   "content_hash": "38c9228df9866794f8892ffc2c50d41d11260aa8f09f348a1a0be4b0b0ceb28d",
    "sent": {
     "http://prezi.com/terms-of-use/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://bsky.app/intent/compose?text=Who+owns+a+Prezi?+https://eve.gd/2014/03/06/who-owns-a-prezi/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/2014/03/06/who-owns-a-prezi/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.last.fm/user/MartinPaulEve": {
-     "at": "2026-09-08T07:14:50+00:00",
+     "at": "2026-09-08T08:31:23+00:00",
      "endpoint": null
     },
     "https://www.martineve.com/lens-martineve/index.html?url=https://www.martineve.com/lens-martineve/data/2014-03-06.xml": {
-     "at": "2026-09-08T07:14:50+00:00",
+     "at": "2026-09-08T08:31:23+00:00",
      "endpoint": null
     }
    }
@@ -7045,22 +6873,10 @@
    }
   },
   "/2014/04/15/enabling-a-triple-head-3-monitor-setup-on-linux-mint-16-petra-with-two-nvidia-cards/": {
-   "content_hash": "60b8f8626b832f7fd490f2432b01c64ee34f808df9956cc6f4b5b7c71337f304",
+   "content_hash": "6bbd3450eda1e288f426824edc9c91266cbd85f4ae127b709f6f49ff637b740e",
    "sent": {
     "http://unix.stackexchange.com/questions/123862/how-can-i-get-xrandr-to-detect-both-nvidia-cards-2-x-gtx480-triple-head": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://bsky.app/intent/compose?text=Enabling+a+triple-head+(3+monitor)+setup+on+Linux+Mint+16+(": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/2014/04/15/enabling-a-triple-head-3-monitor-setup-on-linux-mint-16-petra-with-two-nvidia-cards/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.last.fm/user/MartinPaulEve": {
-     "at": "2026-09-08T07:14:50+00:00",
+     "at": "2026-09-08T08:31:23+00:00",
      "endpoint": null
     }
    }
@@ -7070,26 +6886,14 @@
    "sent": {}
   },
   "/2014/04/15/symposium-on-david-mitchell-9th-may-london/": {
-   "content_hash": "9eb6e7dc3d560ca760e4205c79103de34cd0fcd5611f93570efede0673e37833",
+   "content_hash": "626193de5382aeb8f5b0e2d6d48c1b3d5c3754c7ee079c5d6fe703c6b574c852",
    "sent": {
-    "https://bsky.app/intent/compose?text=Symposium+on+David+Mitchell:+9th+May,+London+https://eve.gd/2014/04/15/symposium-on-david-mitchell-9th-may-london/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/2014/04/15/symposium-on-david-mitchell-9th-may-london/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.last.fm/user/MartinPaulEve": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
     "https://www.martineve.com/wp-content/uploads/2014/04/Symposium-on-David-Mitchell-Programme_Distribution-Flyer.pdf": {
-     "at": "2026-09-08T07:14:50+00:00",
+     "at": "2026-09-08T08:31:23+00:00",
      "endpoint": null
     },
     "https://www.surveymonkey.com/s/FCWWFNB": {
-     "at": "2026-09-08T07:14:50+00:00",
+     "at": "2026-09-08T08:31:23+00:00",
      "endpoint": null
     }
    }
@@ -7099,21 +6903,8 @@
    "sent": {}
   },
   "/2014/04/17/bitmask-values-for-wtbllook-wval-attribute-in-ooxml/": {
-   "content_hash": "47103ad2a84c76e16c56ec2f9f37197df7ef0d4613e8ec840270faae8524e050",
-   "sent": {
-    "https://bsky.app/intent/compose?text=Bitmask+values+for+w:tblLook+w:val+attribute+in+OOXML+https://eve.gd/2014/04/17/bitmask-values-for-wtbllook-wval-attribute-in-ooxml/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/2014/04/17/bitmask-values-for-wtbllook-wval-attribute-in-ooxml/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.last.fm/user/MartinPaulEve": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    }
-   }
+   "content_hash": "7cf474c495ab500c077610d72c87cd2b971bd0f5283b6cbedbe2b6d76b803575",
+   "sent": {}
   },
   "/2014/04/17/what-do-we-mean-by-the-standing-and-reach-of-research/": {
    "content_hash": "537ff1fa03949522010e895f178e14ef20b930145b8e631a2d7ee07dd9f5257f",
@@ -7133,22 +6924,10 @@
    "sent": {}
   },
   "/2014/04/30/open-access-monographs-and-working-for-publishers-for-free/": {
-   "content_hash": "489304d39e8c9cccf35846fd0781c07a705686a5c53ec17c9acc1c6edfb921e1",
+   "content_hash": "4555edeffd6f76be941ea90a38a3b35b660d45b69928b838668d67b292b27af6",
    "sent": {
     "http://www.rin.ac.uk/our-work/communicating-and-disseminating-research/activities-costs-and-funding-flows-scholarly-commu": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://bsky.app/intent/compose?text=Open+Access,+Monographs+and+": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/2014/04/30/open-access-monographs-and-working-for-publishers-for-free/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.last.fm/user/MartinPaulEve": {
-     "at": "2026-09-08T07:14:50+00:00",
+     "at": "2026-09-08T08:31:23+00:00",
      "endpoint": null
     }
    }
@@ -7167,21 +6946,8 @@
    }
   },
   "/2014/05/05/the-tax-his-land-meme-and-its-discontents-me/": {
-   "content_hash": "f3946058accdb0aa2acea028c8a65ea3f8309e0c1109472e2a4ac37d16295a6c",
-   "sent": {
-    "https://bsky.app/intent/compose?text=The+": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/2014/05/05/the-tax-his-land-meme-and-its-discontents-me/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.last.fm/user/MartinPaulEve": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    }
-   }
+   "content_hash": "3fa683c0cbbe65abbacc9013cbbf895c0a69dae323b4b6228fda83c1ffb71fff",
+   "sent": {}
   },
   "/2014/05/31/here-by-the-sea-and-sand-a-symposium-on-quadrophenia/": {
    "content_hash": "b6539966f168f2d536746e75308d0c3bc90e4675b314279e40e2730a74917fca",
@@ -7244,26 +7010,14 @@
    }
   },
   "/2014/06/23/dumping-jats-from-zotero/": {
-   "content_hash": "ae39b1aa7f2e88cb190d6c57b8c99c33ae4f9647b24b1408afc3fcad39c07201",
+   "content_hash": "c43f7b807aaaf12682ffdcb450e9ef4b7da03b4d902eb68bfbfc78c6fae50d1a",
    "sent": {
-    "https://bsky.app/intent/compose?text=Dumping+JATS+from+Zotero+https://eve.gd/2014/06/23/dumping-jats-from-zotero/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
     "https://github.com/MartinPaulEve/meTypeset/tree/zotero": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/2014/06/23/dumping-jats-from-zotero/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.last.fm/user/MartinPaulEve": {
-     "at": "2026-09-08T07:14:50+00:00",
+     "at": "2026-09-08T08:31:23+00:00",
      "endpoint": null
     },
     "https://www.martineve.com/wp-content/uploads/2014/06/ZoteroJATS.png": {
-     "at": "2026-09-08T07:14:50+00:00",
+     "at": "2026-09-08T08:31:23+00:00",
      "endpoint": null
     }
    }
@@ -7294,22 +7048,10 @@
    }
   },
   "/2014/07/03/my-personal-response-to-the-ttip-consultation/": {
-   "content_hash": "a394c7a8879326fd4cd89303802259ecc0c0185e1c47c51e206c68bc8cf87ba7",
+   "content_hash": "0720585f2f92507712387bb2d02dc2d6106e80bba8653091db7c7d368391f407",
    "sent": {
-    "https://bsky.app/intent/compose?text=My+personal+response+to+the+TTIP+consultation+https://eve.gd/2014/07/03/my-personal-response-to-the-ttip-consultation/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
     "https://secure.38degrees.org.uk/page/s/tell-ttip-negotiators-not-to-let-corporations-sue-governments": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.facebook.com/sharer/sharer.php?u=https://eve.gd/2014/07/03/my-personal-response-to-the-ttip-consultation/": {
-     "at": "2026-09-08T07:14:50+00:00",
-     "endpoint": null
-    },
-    "https://www.last.fm/user/MartinPaulEve": {
-     "at": "2026-09-08T07:14:50+00:00",
+     "at": "2026-09-08T08:31:23+00:00",
      "endpoint": null
     }
    }
