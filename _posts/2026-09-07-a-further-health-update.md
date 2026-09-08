@@ -15,7 +15,7 @@ image:
 references:
 - https://doi.org/10.56021/9781421449913
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3muxlwhoiku2e"
-kcworks: https://works.hcommons.org/records/5g0q6-87210
+kcworks: https://works.hcommons.org/records/xef6m-cfy70
 roguescholar: https://rogue-scholar.org/records/zy623-wxs36
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3muxlwhoiku2e
 ---

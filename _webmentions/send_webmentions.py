@@ -273,35 +273,54 @@ def apply(state, posts, actions, discover=discover_endpoint, post=http_post,
         record = recorded.setdefault(post_info["path"], {"sent": {}})
         record["content_hash"] = post_info["hash"]
 
-    for action in actions:
+    total = len(actions)
+    if total:
+        echo(f"send_webmentions: processing {total} target(s)")
+    tally = {"sent": 0, "no endpoint": 0, "failed": 0, "removed": 0}
+
+    for index, action in enumerate(actions, 1):
+        target = action["target"]
         source_url = SITE_URL + action["source"]
         record = recorded.setdefault(action["source"], {"sent": {}})
-        endpoint = discover(action["target"])
+        # One line per target BEFORE the network work, so a slow discovery or
+        # POST shows what is in flight rather than a silent pause.
+        echo(f"  [{index}/{total}] {action['reason']}: {target}")
+        endpoint = discover(target)
 
         if action["reason"] == "removed":
             # Best-effort deletion notice; the target leaves the ledger
             # either way, or it would linger forever.
             if endpoint:
                 status = post(endpoint, {"source": source_url,
-                                         "target": action["target"]})
-                echo(f"webmention removal notice {action['target']}: {status}")
-            record["sent"].pop(action["target"], None)
+                                         "target": target})
+                echo(f"      removal notice -> {endpoint}: {status}")
+            record["sent"].pop(target, None)
+            tally["removed"] += 1
             continue
 
         if endpoint is None:
-            record["sent"][action["target"]] = {"at": now, "endpoint": None}
+            record["sent"][target] = {"at": now, "endpoint": None}
+            echo("      no webmention endpoint; recorded so it is not reprobed")
+            tally["no endpoint"] += 1
             continue
 
-        status = post(endpoint, {"source": source_url,
-                                 "target": action["target"]})
+        status = post(endpoint, {"source": source_url, "target": target})
         if 200 <= status < 300:
-            record["sent"][action["target"]] = {
+            record["sent"][target] = {
                 "at": now, "endpoint": endpoint, "status": status}
-            echo(f"webmention sent ({action['reason']}) "
-                 f"{action['target']} -> {endpoint}: {status}")
+            echo(f"      sent -> {endpoint}: {status}")
+            tally["sent"] += 1
         else:
-            echo(f"webmention FAILED {action['target']} -> {endpoint}: "
-                 f"{status} (will retry next deploy)")
+            echo(f"      FAILED -> {endpoint}: {status} (will retry next deploy)")
+            tally["failed"] += 1
+
+    if total:
+        summary = (f"send_webmentions: done — {tally['sent']} sent, "
+                   f"{tally['no endpoint']} without an endpoint, "
+                   f"{tally['failed']} failed")
+        if tally["removed"]:
+            summary += f", {tally['removed']} removal notice(s)"
+        echo(summary)
     return state
 
 
@@ -332,10 +351,17 @@ def run(root, mode="send", fetch=http_fetch, post=http_post, echo=print):
 
     actions = plan(state, posts)
     if mode == "dry-run":
+        by_reason = {}
         for action in actions:
+            by_reason[action["reason"]] = by_reason.get(action["reason"], 0) + 1
             echo(f"would send ({action['reason']}): "
                  f"{SITE_URL}{action['source']} -> {action['target']}")
-        echo(f"send_webmentions: {len(actions)} pending")
+        breakdown = ", ".join(f"{count} {reason}"
+                              for reason, count in sorted(by_reason.items()))
+        summary = f"send_webmentions: {len(actions)} pending"
+        if breakdown:
+            summary += f" ({breakdown})"
+        echo(summary)
         return 0
 
     if not actions:
@@ -359,7 +385,9 @@ def main(argv=None):
     args = parser.parse_args(argv)
     mode = "baseline" if args.baseline else "dry-run" if args.dry_run else "send"
     root = pathlib.Path(__file__).resolve().parent.parent
-    return run(root, mode=mode)
+    # Flush each line so progress streams live under the deploy pipeline
+    # (stdout is block-buffered when piped, not line-buffered as at a TTY).
+    return run(root, mode=mode, echo=lambda *a: print(*a, flush=True))
 
 
 if __name__ == "__main__":

@@ -270,6 +270,31 @@ class TestApply:
         assert "https://example.org/a" not in \
             state["posts"]["/2026/01/01/a-post/"]["sent"]
 
+    def test_reports_progress_for_every_target_including_those_without_an_endpoint(self):
+        # The build's "Sending webmentions" step looked idle because a target
+        # with no endpoint (the common case) was recorded silently. Every
+        # processed target must now surface in the output.
+        lines = []
+        actions = [
+            {"source": "/2026/01/01/a-post/",
+             "target": "https://has.example/ep", "reason": "new"},
+            {"source": "/2026/01/01/a-post/",
+             "target": "https://none.example/x", "reason": "new"},
+        ]
+        posts = [{"path": "/2026/01/01/a-post/", "hash": "h1",
+                  "targets": ["https://has.example/ep",
+                              "https://none.example/x"]}]
+
+        def discover(target, fetch=None):
+            return "https://wm.example/ep" if "has.example" in target else None
+
+        sw.apply({"posts": {}}, posts, actions, discover=discover,
+                 post=lambda u, d: 202, echo=lines.append)
+        blob = "\n".join(lines)
+        assert "https://has.example/ep" in blob
+        assert "https://none.example/x" in blob, \
+            "a target with no webmention endpoint must still be reported"
+
     def test_removed_target_is_dropped_from_state_after_notification(self):
         state = {"posts": {"/2026/01/01/a-post/": {
             "content_hash": "old",
@@ -316,6 +341,17 @@ class TestRun:
         assert code == 0
         assert not (root / sw.STATE_FILE).exists()
         assert any("example.org/essay" in line for line in lines)
+
+    def test_dry_run_summary_breaks_pending_down_by_reason(self, tmp_path):
+        # `./webmentions.sh pending` leans on this: the count line should say
+        # not just how many are pending but why (all three here are new).
+        root = self.make_root(tmp_path)
+        lines = []
+        sw.run(root, mode="dry-run",
+               fetch=lambda url: pytest.fail("no network in dry-run"),
+               post=lambda u, d: pytest.fail("no network in dry-run"),
+               echo=lines.append)
+        assert any("3 pending" in line and "new" in line for line in lines)
 
     def test_send_updates_state_and_second_run_is_quiet(self, tmp_path):
         root = self.make_root(tmp_path)
