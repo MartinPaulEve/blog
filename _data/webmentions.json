@@ -1,5 +1,5 @@
 {
- "last_wm_id": 2029994,
+ "last_wm_id": 2030268,
  "targets": {
   "/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/": {
    "bookmarks": [],
@@ -51,7 +51,24 @@
    ],
    "replies": [],
    "reposts": []
+  },
+  "/2026/09/07/a-further-health-update/": {
+   "bookmarks": [],
+   "likes": [],
+   "mentions": [
+    {
+     "author_name": "Martin Paul Eve",
+     "author_url": "https://bsky.app/profile/eve.gd",
+     "avatar": "/images/webmentions/ff80432ff5fc382e.jpg",
+     "published": "2026-09-07T23:26:05+00:00",
+     "text": "eve.gd/2026/09/07/a...",
+     "url": "https://bsky.app/profile/did:plc:hnpt7ns2lecdujegbi6qkqqm/post/3muxnsnecqc2i",
+     "wm_id": 2030268
+    }
+   ],
+   "replies": [],
+   "reposts": []
   }
  },
- "updated": "2026-09-07T23:23:36+00:00"
+ "updated": "2026-09-08T07:14:02+00:00"
 }

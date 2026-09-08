@@ -2,6 +2,7 @@
 title: "A further health update..."
 layout: post
 date: 2026-09-07
+last_modified_at: 2026-09-08
 doi: https://doi.org/10.59348/nej6z-6k417
 categories:
 - Health
@@ -48,12 +49,14 @@ BK-virus nephropathy in a native kidney is an indescribably rare thing to happen
 ### Hip replacement and muscle atrophy (2024)
 By 2024, the rheumatoid arthritis had caused severe damage to my right hip, such that I could not walk at all. This was, obviously, extremely debilitating and so, with help from friends and family, I opted to have a hip replacement that year. I made progress on the recovery, but I also began to experience muscle atrophy -- MELAS? -- and my weight loss began. I should also mention that around this time the haemophilia department discovered that I have a coagulopathy of unidentified origin. That is, it's not clear in the blood test results what's going on, but they observed a problematic bleeding disorder.
 
+## The Present
+
 ### Chronic norovirus (January 2026-) [content warning: discusses bowels]
 In January 2026, my bowel habit, which had been truly severe dysmotility and constipation for years, suddenly reversed and I experienced extreme uncontrolled diarrhoea all night, every night. This sent my electrolyte levels all over the place, which are closely monitored during dialysis. We tested and found that I had norovirus and campylobacter as well as the antibiotic resistant infection CPE. They rechecked a month and a bit later and the norovirus was still there.
 
 In normal patients, norovirus is self-clearing and disappears within a few days. But mine began in January this year and it is now September. By this point I had lost over 20kg of weight and I was never a large person in the first place.
 
-## The Present
+### IV feeding (Total Parenteral Nutrition)
 In May of this year, I was moved to an intravenous feeding mechanism called IDPN, which stands for Intradialytic Parenteral Nutrition. This basically means giving the patient some intravenous calories when they have dialysis. This meant I could not do dialysis at home anymore though and had to move to going into a centre three times a week. At the same time, I was given an antiviral called ribavirin to try to clear the norovirus. Neither of these approaches succeeded. I continued to lose weight and the norovirus has not yet left me.
 
 On 10 August 2026, I was admitted to the acute renal ward at Kent and Canterbury Hospital for Total Parenteral Nutrition (TPN). This consists of total nutritional replacement using intravenous feeding via a PICC line (a Peripherally Inserted Central Catheter) that goes into your arm, up through your neck, and down into the large vessels in your chest. This has stopped me losing weight, though any gain of weight has been extremely slow and I have now been in hospital for a month.

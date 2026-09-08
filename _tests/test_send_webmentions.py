@@ -141,6 +141,21 @@ class TestEndpointDiscovery:
 
         assert sw.discover_endpoint("https://example.org/x", fetch) is None
 
+    def test_discover_malformed_target_url_is_none(self):
+        # A post link with a literal space (an un-encoded URL like a PDF
+        # filename) makes http.client raise InvalidURL, which subclasses
+        # HTTPException — neither OSError nor ValueError. Discovery must
+        # swallow it and return None, or one bad link aborts the whole
+        # send pass and no webmentions ever go out.
+        import http.client
+
+        def fetch(url):
+            raise http.client.InvalidURL(
+                "URL can't contain control characters")
+
+        assert sw.discover_endpoint(
+            "https://eve.gd/Publications/a b - c.pdf", fetch) is None
+
 
 class TestCollectPosts:
     def make_site(self, tmp_path):

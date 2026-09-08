@@ -22,6 +22,7 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import http.client
 import json
 import pathlib
 import re
@@ -178,7 +179,12 @@ def discover_endpoint(target, fetch=http_fetch):
     """Resolve a target's webmention endpoint (header first, then HTML)."""
     try:
         status, headers, body, final_url = fetch(target)
-    except (OSError, ValueError):
+    except (OSError, ValueError, http.client.HTTPException):
+        # http.client.HTTPException covers InvalidURL (raised for a target
+        # whose path carries a literal space or other control character,
+        # e.g. an un-encoded PDF link) — it subclasses neither OSError nor
+        # ValueError, so without it one malformed link aborts the whole
+        # send pass before any state is written.
         return None
     if status >= 400:
         return None

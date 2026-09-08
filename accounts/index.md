@@ -71,6 +71,8 @@ This page is the canonical list of my accounts and public keys around the web. I
 <li><span class="account-service">Categories</span> <span class="account-handle">{{ site.categories | size }}</span></li>
 <li><span class="account-service">Tags</span> <span class="account-handle">{{ site.tags | size }}</span></li>
 <li><span class="account-service">Page generated</span> <span class="account-handle">{{ site.time | date: "%-d %B %Y" }}</span></li>
+<li><span class="account-service">Photos of me</span> <a class="account-handle" href="/pictures/">/pictures</a>
+<span class="account-note">Images of me released under CC BY 4.0 for anyone to re-use.</span></li>
 <li><span class="account-service">human.json</span> <a class="account-handle" href="/human.json">/human.json</a>
 <span class="account-note">Human-authorship declaration and vouches; see also the <a href="/ai/">AI use policy</a>.</span></li>
 </ul>
