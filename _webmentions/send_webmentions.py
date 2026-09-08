@@ -43,6 +43,10 @@ MAX_FETCH_BYTES = 500_000
 
 BODY_START = re.compile(r'<div class="post-body[^"]*">')
 DIV_TAG = re.compile(r"<div\b[^>]*>|</div>")
+# The post sidebar directly follows the post body in the layout; it carries
+# chrome (share-intent buttons, the Last.fm widget) that must never count as
+# content, so it doubles as a hard end-of-content boundary.
+SIDEBAR_MARKER = '<aside class="post-sidebar"'
 
 
 _SSL_CONTEXT = None
@@ -89,19 +93,32 @@ def http_post(url, data):
 
 
 def extract_post_body(html):
-    """The inner HTML of the post-body div, or None when absent."""
+    """The inner HTML of the post-body div, or None when absent.
+
+    Capped at the post sidebar: an unclosed <div> in a hand-written post
+    (there are two decades of them) offsets the depth scan so it overruns
+    the real post-body close and swallows the sidebar, whose share buttons
+    and Last.fm widget would then be collected as outbound targets. The
+    sidebar is a firm content boundary, so trim there regardless of how the
+    div scan lands.
+    """
     match = BODY_START.search(html)
     if not match:
         return None
+    body = None
     depth = 1
     for tag in DIV_TAG.finditer(html, match.end()):
         if tag.group().startswith("</"):
             depth -= 1
             if depth == 0:
-                return html[match.end():tag.start()]
+                body = html[match.end():tag.start()]
+                break
         else:
             depth += 1
-    return None
+    if body is None:  # never balanced: fall back to the rest of the page
+        body = html[match.end():]
+    cut = body.find(SIDEBAR_MARKER)
+    return body[:cut] if cut != -1 else body
 
 
 class _LinkCollector(HTMLParser):

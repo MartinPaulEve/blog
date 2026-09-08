@@ -12,11 +12,13 @@ This page is the canonical list of my accounts and public keys around the web. I
 <div class="accounts-grid">
 
 <section class="account-box">
-<h2 class="account-box-title">Social</h2>
+<h2 class="account-box-title">Social / Personal</h2>
 <ul>
 <li><span class="account-service">Bluesky</span> <a class="account-handle" href="https://bsky.app/profile/eve.gd">@eve.gd</a></li>
 <li><span class="account-service">Mastodon</span> <a class="account-handle" href="https://hcommons.social/@mpe">@mpe@hcommons.social</a></li>
 <li><span class="account-service">LinkedIn</span> <a class="account-handle" href="https://uk.linkedin.com/in/martin-eve-382303378">Martin Eve</a></li>
+<li><span class="account-service">Photos of me</span> <a class="account-handle" href="/pictures/">/pictures</a>
+<span class="account-note">Images of me released under CC BY 4.0 for anyone to re-use.</span></li>
 </ul>
 </section>
 
@@ -31,15 +33,18 @@ This page is the canonical list of my accounts and public keys around the web. I
 <section class="account-box">
 <h2 class="account-box-title">Scholarship</h2>
 <ul>
-<li><span class="account-service">ORCID</span> <a class="account-handle" href="https://orcid.org/0000-0002-5589-8511">0000-0002-5589-8511</a></li>
-<li><span class="account-service">Google Scholar</span> <a class="account-handle" href="https://scholar.google.com/citations?user=-HFP0GsAAAAJ">my profile</a></li>
+<li><span class="account-service">ORCID</span> <a class="account-handle" href="https://orcid.org/0000-0002-5589-8511">0000-0002-5589-8511</a>
+<span class="account-note">Scholarly identifier.</span></li>
+<li><span class="account-service">Google Scholar</span> <a class="account-handle" href="https://scholar.google.com/citations?user=-HFP0GsAAAAJ">my profile</a>
+<span class="account-note">Dubious metricisation service that misses major chunks of work.</span></li>
 <li><span class="account-service">Knowledge Commons</span> <a class="account-handle" href="https://hcommons.org/members/martin_eve/">martin_eve</a> 
-<span class="account-note">The open networking platform for scholars in all disciplines.</span></li>
+<span class="account-note">The open networking platform for scholars in all disciplines, of which I am Associate Director.</span></li>
 <li><span class="account-service">KC Works</span> <a class="account-handle" href="https://works.hcommons.org/search?q=metadata.creators.person_or_org.name%3A%22Eve%2C%20Martin%20Paul%22">my works</a> 
-<span class="account-note">The Knowledge Commons repository.</span></li>
+<span class="account-note">The Knowledge Commons repository and my deposits therein.</span></li>
 <li><span class="account-service">BIROn</span> <a class="account-handle" href="https://eprints.bbk.ac.uk/view/people/Eve=3AMartin_Paul=3A=3A.html">my deposits</a>
-<span class="account-note">Birkbeck's institutional repository.</span></li>
-<li><span class="account-service">Birkbeck</span> <a class="account-handle" href="https://www.bbk.ac.uk/our-staff/8727147/martin-paul-eve">my staff profile</a></li>
+<span class="account-note">Birkbeck's institutional repository and my deposits therein.</span></li>
+<li><span class="account-service">Birkbeck</span> <a class="account-handle" href="https://www.bbk.ac.uk/our-staff/8727147/martin-paul-eve">my staff profile</a>
+<span class="account-note">Institutional profile at Birkbeck.</span></li>
 </ul>
 </section>
 
@@ -71,8 +76,6 @@ This page is the canonical list of my accounts and public keys around the web. I
 <li><span class="account-service">Categories</span> <span class="account-handle">{{ site.categories | size }}</span></li>
 <li><span class="account-service">Tags</span> <span class="account-handle">{{ site.tags | size }}</span></li>
 <li><span class="account-service">Page generated</span> <span class="account-handle">{{ site.time | date: "%-d %B %Y" }}</span></li>
-<li><span class="account-service">Photos of me</span> <a class="account-handle" href="/pictures/">/pictures</a>
-<span class="account-note">Images of me released under CC BY 4.0 for anyone to re-use.</span></li>
 <li><span class="account-service">human.json</span> <a class="account-handle" href="/human.json">/human.json</a>
 <span class="account-note">Human-authorship declaration and vouches; see also the <a href="/ai/">AI use policy</a>.</span></li>
 </ul>
@@ -81,16 +84,22 @@ This page is the canonical list of my accounts and public keys around the web. I
 <section class="account-box account-box--wide">
 <h2 class="account-box-title">Projects &amp; sites</h2>
 <ul>
-<li><span class="account-service">Open Library of Humanities</span> <a class="account-handle" href="https://openlibhums.org">openlibhums.org</a>
-<span class="account-note">With <a href="https://www.drcarolineedwards.com/">Professor Caroline Edwards</a>, I co-founded the OLH and was its CEO for ten years. We built a not-for-profit, sustainable model for open access to scholarship without author or reader fees.</span></li>
+<li><span class="account-service">COPIM/Open Book Futures</span> <a class="account-handle" href="https://copim.pub/">copim.pub</a>
+<span class="account-note">I was a Co-I on the COPIM project and supported the work on Opening the Future at Birkbeck during the Open Book Futures phase.</span></li>
+<li><span class="account-service">Fluke.FM</span> <a class="account-handle" href="https://fluke.fm">fluke.fm</a>
+<span class="account-note">I built and run this fansite for the electronic band, Fluke.</span></li>
 <li><span class="account-service">Janeway</span> <a class="account-handle" href="https://janeway.systems">janeway.systems</a>
 <span class="account-note">Co-founder of this journal-publishing platform; I wrote the original codebase <a href="https://doi.org/10.1629/uksg.396">with Andy Byers</a>.</span></li>
+<li><span class="account-service">Knowledge Commons</span> <a class="account-handle" href="https://hcommons.org">hcommons.org</a>
+<span class="account-note">Associate Director for Platform Development of this digital scholarly platform based at Michigan State University..</span></li>
+<li><span class="account-service">Opening the Future</span> <a class="account-handle" href="https://openingthefuture.net/">openingthefuture.net</a>
+<span class="account-note">An economic sustainability model for existing presses, with a backlist, to make their future publications openly accessible, without author fees. Designed and run [with Tom Grady and others](https://doi.org/10.5281/zenodo.6907707). In use by Central European University Press, Liverpool University Press, Michigan State University Press, Boydell & Brewer, and Basler Afrika Bibliographien.</span></li>
 <li><span class="account-service">Open Book Collective</span> <a class="account-handle" href="https://openbookcollective.org">openbookcollective.org</a>
 <span class="account-note">I built this website, as part of my work with DQ Programming LLP.</span></li>
 <li><span class="account-service">Open Journals Collective</span> <a class="account-handle" href="https://openjournalscollective.org">openjournalscollective.org</a>
 <span class="account-note">I built this website, as part of DQ Programming LLP.</span></li>
-<li><span class="account-service">Fluke.FM</span> <a class="account-handle" href="https://fluke.fm">fluke.fm</a>
-<span class="account-note">I built and run this fansite for the electronic band, Fluke.</span></li>
+<li><span class="account-service">Open Library of Humanities</span> <a class="account-handle" href="https://openlibhums.org">openlibhums.org</a>
+<span class="account-note">With <a href="https://www.drcarolineedwards.com/">Professor Caroline Edwards</a>, I co-founded the OLH and was its CEO for ten years, based at Birkbeck, University of London. We built a not-for-profit, sustainable model for open access to scholarship without author or reader fees.</span></li>
 </ul>
 </section>
 

@@ -46,6 +46,45 @@ class TestExtractPostBody:
     def test_page_without_post_body_is_none(self):
         assert sw.extract_post_body("<html><body><p>hi</p></body></html>") is None
 
+    def test_unbalanced_body_div_does_not_leak_sidebar_chrome(self):
+        # A 20-year-old post with an unclosed <div> offsets the div-depth
+        # scan so it overruns the real post-body close and swallows the
+        # sidebar. Its share buttons (Bluesky/Facebook intents) and the
+        # Last.fm widget must not be collected as content links.
+        html = (
+            '<div class="post-content"><div class="container">'
+            '<div class="post-body e-content">'
+            '<p><a href="https://real.example/essay">essay</a></p>'
+            '<div class="stray">an unclosed div in old content'
+            '</div>'  # this closes post-body, but depth is now off by one
+            '<aside class="post-sidebar">'
+            '<a href="https://bsky.app/intent/compose?text=x">share</a>'
+            '<a href="https://www.facebook.com/sharer/sharer.php?u=y">fb</a>'
+            '<a href="https://www.last.fm/user/MartinPaulEve">lastfm</a>'
+            '</aside>'
+            '</div></div>'
+        )
+        body = sw.extract_post_body(html)
+        assert "https://real.example/essay" in body
+        assert "bsky.app/intent" not in body
+        assert "sharer.php" not in body
+        assert "last.fm" not in body
+
+    def test_reference_links_before_the_sidebar_are_kept(self):
+        html = (
+            '<div class="post-body e-content">'
+            '<p>body</p>'
+            '<ol class="post-references-list">'
+            '<li><a href="https://cited.example/work">cited</a></li></ol>'
+            '</div>'
+            '<aside class="post-sidebar">'
+            '<a href="https://bsky.app/intent/compose?text=x">share</a>'
+            '</aside>'
+        )
+        body = sw.extract_post_body(html)
+        assert "https://cited.example/work" in body
+        assert "bsky.app/intent" not in body
+
 
 class TestBodyLinks:
     def test_finds_absolute_links_in_document_order(self):
