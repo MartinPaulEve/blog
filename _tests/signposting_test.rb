@@ -40,6 +40,36 @@ class SignpostingArchivedAtTest < Minitest::Test
   end
 end
 
+# Behaviour tests for the combined repository-deposit lookup: a post's
+# front-matter `kcworks:` and `biron:` values together make up the
+# schema.org archivedAt value — either alone stays a scalar, both make a
+# list (KC Works first), neither stays absent.
+class SignpostingDepositsTest < Minitest::Test
+  KC = "https://works.hcommons.org/records/abc12-xyz34".freeze
+  BIRON = "https://eprints.bbk.ac.uk/id/eprint/57592/".freeze
+
+  def test_no_deposits_is_nil
+    assert_nil Signposting.deposits({})
+    assert_nil Signposting.deposits("kcworks" => "", "biron" => nil)
+  end
+
+  def test_kcworks_alone_is_scalar
+    assert_equal KC, Signposting.deposits("kcworks" => KC)
+  end
+
+  def test_biron_alone_is_scalar
+    assert_equal BIRON, Signposting.deposits("biron" => BIRON)
+  end
+
+  def test_both_make_a_list_kcworks_first
+    assert_equal [KC, BIRON], Signposting.deposits("kcworks" => KC, "biron" => BIRON)
+  end
+
+  def test_list_valued_keys_are_flattened
+    assert_equal [KC, BIRON], Signposting.deposits("kcworks" => [KC], "biron" => [BIRON])
+  end
+end
+
 # Behaviour tests for the last_modified_at -> dateModified normalisation:
 # absent and blank values stay absent; Date objects and ISO strings come
 # through as YYYY-MM-DD; datetime strings are truncated to the date.

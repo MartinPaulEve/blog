@@ -231,6 +231,13 @@ module Signposting
     urls.length == 1 ? urls.first : urls
   end
 
+  # All repository deposits of a document — front-matter `kcworks:` (KC
+  # Works) and `biron:` (BIROn, the Birkbeck institutional repository) —
+  # combined into one schema.org-ready archivedAt value.
+  def self.deposits(data)
+    archived_at(Array(data["kcworks"]) + Array(data["biron"]))
+  end
+
   CSL_ACCEPT = "application/vnd.citationstyles.csl+json".freeze
   USER_AGENT = "eve.gd-signposting (https://eve.gd; mailto:martin@eve.gd)".freeze
 
@@ -672,9 +679,9 @@ module Jekyll
         data["dateModified"] = modified
       end
       data["identifier"] = doc.data["doi"] if doc.data["doi"]
-      # A repository deposit of this post (front-matter `kcworks:`), e.g. on
-      # KC Works, advertised as the place the post is archived.
-      if (archived = Signposting.archived_at(doc.data["kcworks"]))
+      # Repository deposits of this post (front-matter `kcworks:` and
+      # `biron:`), advertised as the places the post is archived.
+      if (archived = Signposting.deposits(doc.data))
         data["archivedAt"] = archived
       end
       if (pdf = doc.data["pdf_url"])
