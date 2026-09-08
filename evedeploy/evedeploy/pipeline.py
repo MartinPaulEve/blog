@@ -1,7 +1,8 @@
 """The deployment pipeline: everything newdeploy.sh did, step by step.
 
 Order of operations (faithful to the shell script):
-resize covers → sequoia dry-run → confirmation gate → sequoia publish →
+resize covers → sequoia dry-run → confirmation gate (skipped when the dry
+run reports nothing new to publish) → sequoia publish →
 refresh CV from ../eprintsToCV → fetch webmentions (so the build renders
 fresh mentions) → fetch Last.fm stats (so the sidebar widget renders fresh
 listening data) → stamp pending Rogue Scholar links from earlier deploys →
@@ -97,9 +98,26 @@ def resize_covers(root: Path, run=default_run, enabled: bool = True) -> bool:
     return True
 
 
-def sequoia_dry_run(run=default_run) -> None:
-    """Preview the ATProto publish without writing anything."""
-    _step(run, ["sequoia", "publish", "--dry-run"], name="sequoia dry run")
+NOTHING_TO_PUBLISH = re.compile(r"nothing to publish", re.IGNORECASE)
+
+
+def sequoia_dry_run(run=default_run, echo=print) -> bool:
+    """Preview the ATProto publish without writing anything.
+
+    Returns True when the preview has something to publish, False when it
+    reports the repo is up to date. The captured preview is echoed so the
+    operator still sees exactly what would go out before deciding.
+    """
+    try:
+        result = run(["sequoia", "publish", "--dry-run"], capture=True)
+    except subprocess.CalledProcessError as exc:
+        raise DeployError(
+            f"sequoia dry run failed (exit {exc.returncode})") from exc
+    output = ((getattr(result, "stdout", "") or "")
+              + (getattr(result, "stderr", "") or ""))
+    if output.strip():
+        echo(output.rstrip("\n"))
+    return not NOTHING_TO_PUBLISH.search(output)
 
 
 def sequoia_publish(run=default_run) -> None:
@@ -375,14 +393,20 @@ def deploy(
         echo("    (skipped)")
 
     echo("==> Sequoia dry run — nothing is published yet")
-    sequoia_dry_run(run=run)
+    pending = sequoia_dry_run(run=run, echo=echo)
 
-    if confirm is None or not confirm():
-        echo(
-            "Aborted — nothing published. Local build/resize changes are "
-            "left uncommitted."
-        )
-        return False
+    # Only gate on the irreversible ATProto publish. When the dry run shows
+    # nothing new to publish there is nothing to guard, so proceed without
+    # prompting (edits still build and ship); otherwise honour the gate.
+    if pending:
+        if confirm is None or not confirm():
+            echo(
+                "Aborted — nothing published. Local build/resize changes are "
+                "left uncommitted."
+            )
+            return False
+    else:
+        echo("    Nothing new to publish to ATProto — no confirmation needed.")
 
     echo("==> Publishing to ATProto")
     sequoia_publish(run=run)

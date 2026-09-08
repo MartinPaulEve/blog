@@ -18,6 +18,7 @@ from evedeploy.pipeline import (
     resize_covers,
     rsync_site,
     send_webmentions,
+    sequoia_dry_run,
     serve_site,
     stamp_roguescholar_ids,
 )
@@ -224,6 +225,28 @@ class TestFetchWebmentions:
         assert fetch_webmentions(root, run=run, echo=lambda *a, **k: None,
                                  present=lambda p: False) is False
         assert run.calls == []
+
+
+class TestSequoiaDryRun:
+    def test_up_to_date_reports_nothing_pending(self):
+        run = FakeRun({"sequoia publish":
+                       (0, "All posts are up to date. Nothing to publish.")})
+        assert sequoia_dry_run(run=run, echo=lambda *a: None) is False
+
+    def test_pending_posts_report_something_to_publish(self):
+        run = FakeRun({"sequoia publish": (0, "Would publish: 2026-09-08-new")})
+        assert sequoia_dry_run(run=run, echo=lambda *a: None) is True
+
+    def test_the_preview_is_echoed_for_the_operator(self):
+        run = FakeRun({"sequoia publish": (0, "Would publish: 2026-09-08-new")})
+        lines = []
+        sequoia_dry_run(run=run, echo=lines.append)
+        assert any("2026-09-08-new" in line for line in lines)
+
+    def test_failure_raises_deploy_error(self):
+        run = FakeRun({"sequoia publish": 3})
+        with pytest.raises(DeployError):
+            sequoia_dry_run(run=run, echo=lambda *a: None)
 
 
 class TestFetchLastfm:
@@ -548,6 +571,36 @@ class TestDeploy:
         assert publishes == [["sequoia", "publish", "--dry-run"]]
         assert "jekyll build" not in run.commands()
         assert "rsync -avz" not in run.commands()
+
+    def test_nothing_to_publish_skips_the_confirmation_prompt(self, root):
+        # When the dry run reports the repo is up to date there is no
+        # irreversible publish to guard, so the deploy proceeds without
+        # asking — but still builds and ships any edits.
+        run = FakeRun({"sequoia publish":
+                       (0, "All posts are up to date. Nothing to publish."),
+                       "git diff": 1})
+        asked = []
+        kwargs = self.deploy_kwargs(
+            root, run, confirm=lambda: asked.append(True) or True)
+        result = deploy(**kwargs)
+        assert result is True
+        assert asked == [], "must not prompt when nothing is pending"
+        assert "jekyll build" in run.commands()
+        assert "rsync -avz" in run.commands()
+
+    def test_pending_posts_still_prompt(self, root):
+        # Something to publish → the gate is honoured; declining aborts.
+        run = FakeRun({"sequoia publish": (0, "Would publish: 2026-09-08-new")})
+        asked = []
+
+        def confirm():
+            asked.append(True)
+            return False
+
+        result = deploy(**self.deploy_kwargs(root, run, confirm=confirm))
+        assert asked == [True], "must prompt when a post is pending"
+        assert result is False
+        assert "jekyll build" not in run.commands()
 
     def test_full_deploy_runs_steps_in_script_order(self, root):
         run = FakeRun({"git diff": 1})
