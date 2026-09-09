@@ -50,8 +50,9 @@ module PdfPages
   # class tokens carry no styling at all), so every piece of markup it adds
   # is normalised away here — otherwise merely receiving a mention would
   # re-render every PDF on the site. The rel="human-json" head link is
-  # print-invisible in the same way, as is the site footer (print CSS sets
-  # .footer to display:none), so footer link changes don't re-render either.
+  # print-invisible in the same way, as are the site header with its nav
+  # (print CSS sets .header to display:none) and the site footer (.footer
+  # likewise), so navigation and footer link changes don't re-render either.
   def self.normalize_html(html)
     html.to_s
         .gsub(/\?v=\d+/, "")
@@ -62,6 +63,7 @@ module PdfPages
         .gsub(%r{[ \t]*<link rel="alternate" type="application/activity\+json"[^>]*>\n?}, "")
         .gsub(%r{[ \t]*<link rel="stylesheet" href="/assets/css/webmentions\.css[^>]*>\n?}, "")
         .gsub(%r{\n*[ \t]*<section class="post-webmentions">.*?</section>\n*}m, "\n")
+        .gsub(%r{<header class="header">.*?</header>}m, "")
         .gsub(%r{<footer class="footer">.*?</footer>}m, "")
         .gsub(' h-entry"', '"')
         .gsub(' p-name"', '"')

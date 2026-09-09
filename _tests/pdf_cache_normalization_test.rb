@@ -43,6 +43,19 @@ class PdfCacheNormalizationTest < Minitest::Test
     assert_equal PdfPages.content_hash(BASE), PdfPages.content_hash(with_link)
   end
 
+  def test_site_header_changes_do_not_change_the_hash
+    with_old = BASE.sub(
+      "<body>",
+      '<body><header class="header"><a href="mailto:martin@eve.gd">Contact</a></header>'
+    )
+    with_new = BASE.sub(
+      "<body>",
+      '<body><header class="header"><a href="/accounts/">Contact</a></header>'
+    )
+    assert_equal PdfPages.content_hash(with_old), PdfPages.content_hash(with_new)
+    assert_equal PdfPages.content_hash(BASE), PdfPages.content_hash(with_new)
+  end
+
   def test_body_content_changes_do_change_the_hash
     changed = BASE.sub("Hello.", "Goodbye.")
     refute_equal PdfPages.content_hash(BASE), PdfPages.content_hash(changed)
