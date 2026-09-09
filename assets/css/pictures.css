@@ -1,0 +1,140 @@
+/* Card grid for the /pictures re-use page. Uses the site's design tokens
+   (card, border, code and button variables) so it follows the light and
+   dark themes without any colours of its own. Kept out of the PDF cache
+   key's stylesheet set (see _plugins/pdf_pages.rb STYLESHEETS); the print
+   rules below govern how the page appears in its archival PDF. */
+
+.pictures-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.picture-card {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.picture-card:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+}
+
+.picture-preview {
+    display: block;
+    line-height: 0;
+    background: var(--surface-alt);
+}
+
+.picture-preview img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: 50% 30%;
+}
+
+.picture-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 0.6rem;
+    padding: 1rem 1.25rem 1.25rem;
+}
+
+.picture-description {
+    margin: 0;
+    font-weight: 600;
+    color: var(--text-primary);
+    line-height: 1.35;
+}
+
+.picture-meta {
+    margin: 0;
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+}
+
+.picture-credit {
+    margin: 0;
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    line-height: 1.5;
+    color: var(--text-secondary);
+    background: var(--code-bg);
+    border: 1px solid var(--border-light);
+    border-radius: 6px;
+    padding: 0.6rem 0.75rem;
+    overflow-wrap: anywhere;
+}
+
+.picture-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: auto;
+}
+
+.picture-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.45rem 0.9rem;
+    border-radius: 2rem;
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+.picture-btn-primary {
+    background-color: var(--btn-bg);
+    border: 2px solid var(--btn-bg);
+    color: #fff;
+}
+
+.picture-btn-primary:hover {
+    background-color: var(--btn-bg-hover);
+    border-color: var(--btn-bg-hover);
+    color: #fff;
+}
+
+.picture-btn-secondary {
+    background-color: var(--bg-white);
+    border: 2px solid var(--border-color);
+    color: var(--text-primary);
+}
+
+.picture-btn-secondary:hover {
+    border-color: var(--accent-primary);
+    color: var(--accent-primary);
+}
+
+.picture-copy.is-copied {
+    border-color: var(--accent-primary);
+    color: var(--accent-primary);
+}
+
+/* The archival PDF keeps the previews and credits but drops the
+   interactive chrome, and prints each card whole. */
+@media print {
+    .picture-card {
+        break-inside: avoid;
+    }
+
+    .picture-actions {
+        display: none;
+    }
+}

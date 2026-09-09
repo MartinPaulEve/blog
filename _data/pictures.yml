@@ -1,0 +1,51 @@
+# Images offered for re-use on /pictures/. Managed by
+# ./pictures.sh (add/edit/remove/list); do not edit by hand.
+- file: /images/02.png
+  description: A picture of me on the seafront
+  credit: 'Photo: Martin Paul Eve, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)'
+  preview: /images/pictures-previews/02.jpg
+  width: 3456
+  height: 2304
+  filesize: 4876556
+- file: /images/01.png
+  description: A picture of me in front of a white wall
+  credit: 'Photo: Martin Paul Eve, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)'
+  preview: /images/pictures-previews/01.jpg
+  width: 2355
+  height: 1800
+  filesize: 1764257
+- file: /images/Martin_Paul_Eve2.png
+  description: An informal headshot with a blue-green background
+  credit: 'Photo: Martin Paul Eve, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)'
+  preview: /images/pictures-previews/Martin_Paul_Eve2.jpg
+  width: 580
+  height: 706
+  filesize: 426517
+- file: /images/eve_bald.jpeg
+  description: A headshot on a train
+  credit: 'Photo: Martin Paul Eve, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)'
+  preview: /images/pictures-previews/eve_bald.jpg
+  width: 2048
+  height: 2031
+  filesize: 1032929
+- file: /images/Pub.png
+  description: An informal image in a flat cap
+  credit: 'Photo: Martin Paul Eve, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)'
+  preview: /images/pictures-previews/Pub.jpg
+  width: 986
+  height: 1073
+  filesize: 1625281
+- file: /images/NewFlatCap.jpg
+  description: Another informal image in a flat cap
+  credit: 'Photo: Martin Paul Eve, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)'
+  preview: /images/pictures-previews/NewFlatCap.jpg
+  width: 3456
+  height: 4608
+  filesize: 3411827
+- file: /images/Grayscale_Suit.png
+  description: A greyscale image in a suit
+  credit: 'Photo: Martin Paul Eve, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)'
+  preview: /images/pictures-previews/Grayscale_Suit.jpg
+  width: 1252
+  height: 1260
+  filesize: 954998
