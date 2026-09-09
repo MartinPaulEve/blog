@@ -1,5 +1,5 @@
 {
- "last_wm_id": 2030341,
+ "last_wm_id": 2030744,
  "targets": {
   "/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/": {
    "bookmarks": [],
@@ -87,7 +87,24 @@
      "wm_id": 2030341
     }
    ]
+  },
+  "/2026/09/09/crossref-member-practices-feedback-without-digital-preservation-there-is-no-digital-persistence/": {
+   "bookmarks": [],
+   "likes": [],
+   "mentions": [
+    {
+     "author_name": "Martin Paul Eve",
+     "author_url": "https://bsky.app/profile/eve.gd",
+     "avatar": "/images/webmentions/ff80432ff5fc382e.jpg",
+     "published": "2026-09-09T18:33:32+00:00",
+     "text": "Crossref Member Practices feedback: without digital preservation, there is no digital persistence eve.gd/2026/09/09/c...",
+     "url": "https://bsky.app/profile/did:plc:hnpt7ns2lecdujegbi6qkqqm/post/3mv46fekq4s26",
+     "wm_id": 2030744
+    }
+   ],
+   "replies": [],
+   "reposts": []
   }
  },
- "updated": "2026-09-09T18:04:43+00:00"
+ "updated": "2026-09-09T20:20:06+00:00"
 }
