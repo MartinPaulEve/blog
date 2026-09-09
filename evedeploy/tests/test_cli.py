@@ -18,10 +18,10 @@ def deploy_spy(monkeypatch):
     seen = {}
 
     def fake_deploy(root, message, resize=True, confirm=None, echo=None,
-                    wait_roguescholar=True):
+                    wait_roguescholar=True, sequoia=True):
         seen.update(
             root=root, message=message, resize=resize, confirm=confirm,
-            wait_roguescholar=wait_roguescholar,
+            wait_roguescholar=wait_roguescholar, sequoia=sequoia,
         )
         return True
 
@@ -96,6 +96,16 @@ class TestMain:
         CliRunner().invoke(
             main, ["--root", str(blog_root), "--yes", "--no-rs-wait", "msg"])
         assert deploy_spy["wait_roguescholar"] is False
+
+    def test_sequoia_is_on_by_default(self, blog_root, deploy_spy):
+        CliRunner().invoke(
+            main, ["--root", str(blog_root), "--yes", "msg"])
+        assert deploy_spy["sequoia"] is True
+
+    def test_no_sequoia_flag_disables_the_publish(self, blog_root, deploy_spy):
+        CliRunner().invoke(
+            main, ["--root", str(blog_root), "--yes", "--no-sequoia", "msg"])
+        assert deploy_spy["sequoia"] is False
 
     def test_yes_flag_confirms_without_prompting(self, blog_root, deploy_spy):
         CliRunner().invoke(main, ["--root", str(blog_root), "--yes"])

@@ -376,6 +376,7 @@ def deploy(
     echo=print,
     which=shutil.which,
     wait_roguescholar: bool = True,
+    sequoia: bool = True,
 ) -> bool:
     """Run the whole pipeline; returns True on deploy, False when aborted.
 
@@ -383,33 +384,44 @@ def deploy(
     return aborts with nothing published. ``wait_roguescholar`` controls the
     tail: after the site is live, poll Rogue Scholar for the records of any
     posts deposited this run, and fold the stamp/rebuild/rsync that used to
-    need a second deploy into this one.
+    need a second deploy into this one. ``sequoia`` controls the ATProto
+    publish: when False the dry run, confirmation gate and publish are all
+    skipped (and the tool need not be installed) — nothing is gated, since
+    the gate exists only to guard that irreversible publish.
     """
     root = Path(root)
-    check_preflight(run=run, which=which)
+    if sequoia:
+        check_preflight(run=run, which=which)
 
     echo("==> Checking cover image sizes")
     if not resize_covers(root, run=run, enabled=resize):
         echo("    (skipped)")
 
-    echo("==> Sequoia dry run — nothing is published yet")
-    pending = sequoia_dry_run(run=run, echo=echo)
+    if sequoia:
+        echo("==> Sequoia dry run — nothing is published yet")
+        pending = sequoia_dry_run(run=run, echo=echo)
 
-    # Only gate on the irreversible ATProto publish. When the dry run shows
-    # nothing new to publish there is nothing to guard, so proceed without
-    # prompting (edits still build and ship); otherwise honour the gate.
-    if pending:
-        if confirm is None or not confirm():
+        # Only gate on the irreversible ATProto publish. When the dry run
+        # shows nothing new to publish there is nothing to guard, so proceed
+        # without prompting (edits still build and ship); otherwise honour
+        # the gate.
+        if pending:
+            if confirm is None or not confirm():
+                echo(
+                    "Aborted — nothing published. Local build/resize changes "
+                    "are left uncommitted."
+                )
+                return False
+        else:
             echo(
-                "Aborted — nothing published. Local build/resize changes are "
-                "left uncommitted."
+                "    Nothing new to publish to ATProto — no confirmation "
+                "needed."
             )
-            return False
-    else:
-        echo("    Nothing new to publish to ATProto — no confirmation needed.")
 
-    echo("==> Publishing to ATProto")
-    sequoia_publish(run=run)
+        echo("==> Publishing to ATProto")
+        sequoia_publish(run=run)
+    else:
+        echo("==> Skipping Sequoia/ATProto publish (--no-sequoia)")
 
     echo("==> Refreshing CV")
     if not refresh_cv(root):

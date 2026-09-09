@@ -602,6 +602,30 @@ class TestDeploy:
         assert result is False
         assert "jekyll build" not in run.commands()
 
+    def test_no_sequoia_skips_dry_run_publish_and_gate(self, root):
+        # sequoia=False must run no sequoia command at all, and with no
+        # irreversible ATProto publish to guard there is nothing to
+        # confirm — but the site still builds and ships.
+        run = FakeRun({"git diff": 1})
+        asked = []
+        kwargs = self.deploy_kwargs(
+            root, run, confirm=lambda: asked.append(True) or True)
+        result = deploy(sequoia=False, **kwargs)
+        assert result is True
+        assert "sequoia publish" not in run.commands()
+        assert asked == [], "must not prompt when sequoia is skipped"
+        assert "jekyll build" in run.commands()
+        assert "rsync -avz" in run.commands()
+
+    def test_no_sequoia_needs_no_sequoia_on_path(self, root):
+        # The preflight exists only to guard the sequoia publish, so a
+        # sequoia-less deploy must not demand the tool be installed.
+        run = FakeRun({"git diff": 1})
+        kwargs = self.deploy_kwargs(root, run)
+        kwargs["which"] = lambda name: None
+        result = deploy(sequoia=False, **kwargs)
+        assert result is True
+
     def test_full_deploy_runs_steps_in_script_order(self, root):
         run = FakeRun({"git diff": 1})
         result = deploy(**self.deploy_kwargs(root, run))

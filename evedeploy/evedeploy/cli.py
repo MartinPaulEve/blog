@@ -59,7 +59,14 @@ def find_root(start: Path) -> Path:
     help="Skip waiting for Rogue Scholar to harvest new posts after the "
     "rsync (the next deploy stamps their links instead).",
 )
-def main(message, no_resize, yes, root, build_only, no_server, no_rs_wait):
+@click.option(
+    "--no-sequoia",
+    is_flag=True,
+    help="Skip the Sequoia/ATProto publish step (dry run, confirmation "
+    "gate and publish); everything else still builds and deploys.",
+)
+def main(message, no_resize, yes, root, build_only, no_server, no_rs_wait,
+         no_sequoia):
     """Build, publish and deploy the eve.gd blog."""
     print_banner()
 
@@ -103,6 +110,7 @@ def main(message, no_resize, yes, root, build_only, no_server, no_rs_wait):
             confirm=confirm,
             echo=click.echo,
             wait_roguescholar=not no_rs_wait,
+            sequoia=not no_sequoia,
         )
     except DeployError as exc:
         raise click.ClickException(str(exc)) from exc
