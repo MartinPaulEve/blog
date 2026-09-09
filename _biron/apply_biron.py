@@ -75,7 +75,31 @@ def _normalize_path(path_or_url):
         return None
     path = re.sub(r"^https?://[^/]+", "", path_or_url.strip())
     path = path.split("#", 1)[0].split("?", 1)[0]
-    return unquote(path).rstrip("/").lower()
+    prev = None
+    while path != prev:  # BIROn official_urls are sometimes double-encoded
+        prev = path
+        path = unquote(prev)
+    return _dashed_hex(path.rstrip("/").lower())
+
+
+def _dashed_hex(path):
+    """Spell non-ASCII characters as dashed hex UTF-8 bytes (ά → -ce-ac).
+
+    This is the transformation the blog's slugifier applied to Greek
+    post titles (percent signs became hyphens, runs of hyphens
+    collapsed), so eprint URLs holding literal or percent-encoded Greek
+    compare equal to the ASCII-only post filenames.
+    """
+    if path.isascii():
+        return path
+    out = []
+    for ch in path:
+        if ord(ch) < 128:
+            out.append(ch)
+        else:
+            out.append("".join(f"-{b:02x}" for b in ch.encode("utf-8")))
+    path = re.sub(r"-{2,}", "-", "".join(out))
+    return re.sub(r"(^|/)-+|-+(?=/|$)", r"\1", path)
 
 
 def _slug(path):
