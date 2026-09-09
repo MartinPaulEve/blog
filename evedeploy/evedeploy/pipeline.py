@@ -221,6 +221,49 @@ def kcworks_deposit_new(root: Path, run=default_run, echo=print,
     return [post for post in pending if post not in still]
 
 
+def biron_deposit_new(root: Path, run=default_run, echo=print,
+                      present=None) -> bool:
+    """Deposit posts new to BIROn; returns True when the backfill ran.
+
+    Wraps ``./biron.sh backfill``, which SWORD-deposits every post
+    without a ``biron:`` front-matter key that is neither pending in
+    the _biron/deposited.yml ledger nor listed in _biron/skip.yml
+    (attaching the built PDF, so this must run after the jekyll build).
+    Deposits land in the repository's review queue, so nothing is
+    stamped back here — the _biron fetch sweep adds the biron: key once
+    the record goes live. Skipped until BIRON_USERNAME appears in .env;
+    tolerant: a BIROn outage must never block a deploy.
+    """
+    root = Path(root)
+    exists = present or (lambda relative: (root / relative).is_file())
+    if not exists("biron.sh"):
+        return False
+    env_path = root / ".env"
+    if not env_path.is_file() or "BIRON_USERNAME" not in env_path.read_text():
+        echo("    (skipped: no BIRON_USERNAME in .env)")
+        return False
+    try:
+        run(["./biron.sh", "backfill"], cwd=root)
+    except subprocess.CalledProcessError:
+        echo("ERROR: BIROn deposit failed; the next deploy will retry.")
+        return False
+    return True
+
+
+def commit_biron_ledger(root: Path, run=default_run) -> bool:
+    """Commit the pending-deposit ledger if the backfill changed it."""
+    _step(run, ["git", "add", "_biron/deposited.yml"], name="git add",
+          cwd=root)
+    staged = run(["git", "diff", "--cached", "--quiet"], cwd=root, check=False)
+    if staged.returncode == 0:
+        return False
+    _step(run, ["git", "commit", "-m",
+                "chore(biron): record pending BIROn deposits"],
+          name="git commit", cwd=root)
+    _step(run, ["git", "push"], name="git push", cwd=root)
+    return True
+
+
 def git_commit_push(root: Path, message: str, run=default_run) -> bool:
     """Stage everything; commit and push if there is anything to commit.
 
@@ -514,6 +557,16 @@ def deploy(
                     "chore(identifiers): stamp Rogue Scholar record links",
                     run=run)
                 rsync_site(root, run=run)
+
+    # BIROn deposits ride SWORD into the repository's review queue; the
+    # attached PDF is the final built edition from this run, and the
+    # biron: key arrives later via the _biron sweep once records go live.
+    echo("==> Depositing new posts to BIROn")
+    if biron_deposit_new(root, run=run, echo=echo):
+        if commit_biron_ledger(root, run=run):
+            echo("    deposit ledger committed")
+    else:
+        echo("    (skipped or failed; continuing)")
 
     echo("==> Done.")
     return True

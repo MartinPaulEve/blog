@@ -5,6 +5,7 @@ import pytest
 
 from evedeploy.pipeline import (
     DeployError,
+    biron_deposit_new,
     build_site,
     check_preflight,
     commit_sent_state,
@@ -387,6 +388,54 @@ class TestKcworksDepositNew:
                                    echo=lambda *a, **k: None,
                                    present=lambda p: False) == []
         assert run.calls == []
+
+
+class TestBironDepositNew:
+    def _enable(self, root):
+        (root / "biron.sh").write_text("# biron driver")
+        (root / ".env").write_text(
+            "WEBMENTION_IO_TOKEN=test-token\n"
+            "BIRON_USERNAME=user\nBIRON_PASSWORD=pass\n")
+
+    def test_runs_backfill_through_the_driver(self, root):
+        self._enable(root)
+        run = FakeRun()
+        assert biron_deposit_new(root, run=run,
+                                 echo=lambda *a, **k: None) is True
+        assert run.calls[0]["cmd"] == ["./biron.sh", "backfill"]
+        assert run.calls[0]["cwd"] == root
+
+    def test_skipped_without_credentials_in_env(self, root):
+        (root / "biron.sh").write_text("# biron driver")
+        run = FakeRun()
+        assert biron_deposit_new(root, run=run,
+                                 echo=lambda *a, **k: None) is False
+        assert run.calls == []
+
+    def test_skipped_when_driver_absent(self, root):
+        run = FakeRun()
+        assert biron_deposit_new(root, run=run, echo=lambda *a, **k: None,
+                                 present=lambda p: False) is False
+        assert run.calls == []
+
+    def test_failure_is_reported_as_an_error_and_does_not_raise(self, root):
+        self._enable(root)
+        run = FakeRun({"./biron.sh backfill": 1})
+        lines = []
+        assert biron_deposit_new(root, run=run, echo=lines.append) is False
+        assert any("error" in line.lower() for line in lines)
+        assert any("biron" in line.lower() for line in lines)
+
+    def test_deploy_runs_the_backfill_after_shipping(self, root):
+        self._enable(root)
+        run = FakeRun({"git diff": 1})
+        result = deploy(root=root, message="msg", confirm=lambda: True,
+                        run=run, echo=lambda *a, **k: None,
+                        which=lambda name: None, sequoia=False)
+        assert result is True
+        cmds = run.commands()
+        assert "./biron.sh backfill" in cmds
+        assert cmds.index("./biron.sh backfill") > cmds.index("rsync -avz")
 
 
 class TestSendWebmentions:
