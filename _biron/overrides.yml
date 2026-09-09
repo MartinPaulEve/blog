@@ -4,3 +4,6 @@
 2018-06-03-transparency-agendas-are-used-to-legislate-against-consortial-open-access-models.md: 22630
 2019-07-30-thinking-through-citation-resolution-and-proposals-for-consumer-driven-doi-like-metadata-repositories.md: 28389
 2023-07-28-rules-vs-principles-in-posi.md: 52882
+# 21129's official_url misspells its slug as "toby-jones"; the post and
+# the deposit title both say Toby Young, so the URL can never match.
+2018-02-06-who-was-responsible-for-the-toby-young-ofs-debacle.md: 21129

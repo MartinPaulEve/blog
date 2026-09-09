@@ -5,7 +5,7 @@
 - duplicate official_url /2016/12/06/five-un-busted-aspects-of-the-tef on eprints [17578, 17598]; keeping 17578
 - duplicate official_url /2019/10/14/i-have-won-the-2019-philip-leverhulme-prizei-have-won-the-2019-philip-leverhulme-prizei-have-won-the-2019-philip-leverhulme-prize on eprints [29464, 29637]; keeping 29464
 
-## Posts with no BIROn eprint (40)
+## Posts with no BIROn eprint (38)
 
 - `2007-05-23-string-fromcharcode-encoder.md` — String.fromCharCode Encoder — [search BIROn](https://eprints.bbk.ac.uk/cgi/search?q=String.fromCharCode+Encoder)
 - `2008-12-07-ssh-key-based-password-less-login.md` — SSH Key Based, Password Less Login — [search BIROn](https://eprints.bbk.ac.uk/cgi/search?q=SSH+Key+Based%2C+Password+Less+Login)
@@ -14,9 +14,7 @@
 - `2011-11-02-complaint-over-the-closure-of-the-british-library-to-accomodate-a-visit-from-the-queen.md` — Complaint over the closure of the British Library to accomodate a visit from — [search BIROn](https://eprints.bbk.ac.uk/cgi/search?q=Complaint+over+the+closure+of+the+British+Library+to+accomodate+a+visit+from)
 - `2011-12-07-support-war-child-and-see-laurent-gardnerbooka-shadeleftfield-live-april-2012.md` — **Support War Child** and see Laurent Gardner/Booka Shade/Leftfield live April — [search BIROn](https://eprints.bbk.ac.uk/cgi/search?q=%2A%2ASupport+War+Child%2A%2A+and+see+Laurent+Gardner%2FBooka+Shade%2FLeftfield+live+April)
 - `2012-03-09-for-attn-david-cameron-and-andrew-lansley.md` — For ATTN: David Cameron and Andrew Lansley — [search BIROn](https://eprints.bbk.ac.uk/cgi/search?q=For+ATTN%3A+David+Cameron+and+Andrew+Lansley)
-- `2016-11-19-next-book-project-the-aesthetics-of-metadata-redaction-reference-the-archive-in-contemporary-fictionnredaction-reference-the-archive-in-contemporary-fiction.md` — Next book project: The Aesthetics of Metadata: Redaction, Reference, & the — [search BIROn](https://eprints.bbk.ac.uk/cgi/search?q=Next+book+project%3A+The+Aesthetics+of+Metadata%3A+Redaction%2C+Reference%2C+%26+the)
 - `2017-11-20-my-autoimmune-diseases-are-attacking-my-ears-and-i-am-losing-my-hearing.md` — My autoimmune diseases are attacking my ears and I am losing my hearing — [search BIROn](https://eprints.bbk.ac.uk/cgi/search?q=My+autoimmune+diseases+are+attacking+my+ears+and+I+am+losing+my+hearing)
-- `2018-02-06-who-was-responsible-for-the-toby-young-ofs-debacle.md` — Who was actually responsible for the Toby Young OfS debacle? — [search BIROn](https://eprints.bbk.ac.uk/cgi/search?q=Who+was+actually+responsible+for+the+Toby+Young+OfS+debacle%3F)
 - `2018-10-14-m-audio-trigger-finger-pro-synchronisation-problems.md` — M-Audio Trigger Finger Pro synchronisation problems — [search BIROn](https://eprints.bbk.ac.uk/cgi/search?q=M-Audio+Trigger+Finger+Pro+synchronisation+problems)
 - `2019-04-06-a-missing-audio-hardware-device.md` — A missing audio hardware device — [search BIROn](https://eprints.bbk.ac.uk/cgi/search?q=A+missing+audio+hardware+device)
 - `2019-04-26-the-learning-experience-out-today-on-tici-taci-and-my-book-has-gone-to-print-at-stanford-university-press.md` — The Learning Experience out today on Tici Taci and my book has gone to print — [search BIROn](https://eprints.bbk.ac.uk/cgi/search?q=The+Learning+Experience+out+today+on+Tici+Taci+and+my+book+has+gone+to+print)
@@ -48,11 +46,9 @@
 - `2026-09-07-a-further-health-update.md` — A further health update... — [search BIROn](https://eprints.bbk.ac.uk/cgi/search?q=A+further+health+update...)
 - `2026-09-09-crossref-member-practices-feedback-without-digital-preservation-there-is-no-digital-persistence.md` — Crossref Member Practices feedback: without digital preservation, there is no digital persistence — [search BIROn](https://eprints.bbk.ac.uk/cgi/search?q=Crossref+Member+Practices+feedback%3A+without+digital+preservation%2C+there+is+no+digital+persistence)
 
-## Blog-side eprints claimed by no post (6)
+## Blog-side eprints claimed by no post (4)
 
 - [17134](https://eprints.bbk.ac.uk/id/eprint/17134/) — LUKS encrypting multiple partitions on Debian/Ubuntu with a single passphrase — https://eve.gd/2012/11/02/luks-encrypting-multiple-partitions-on-debianubuntu-with-a-single-passphrase
-- [17251](https://eprints.bbk.ac.uk/id/eprint/17251/) — Next book project: The Aesthetics of Metadata: Redaction, Reference, & the Archive in Contemporary Fiction — https://eve.gd/2016/11/19/next-book-project-the-aesthetics-of-metadata-redaction-reference--the-archive-in-contemporary-fictionnredaction-reference--the-archive-in-contemporary-fiction
 - [17598](https://eprints.bbk.ac.uk/id/eprint/17598/) — Five un-busted aspects of the TEF — https://eve.gd/2016/12/06/five-un-busted-aspects-of-the-tef
-- [21129](https://eprints.bbk.ac.uk/id/eprint/21129/) — Who was actually responsible for the Toby Young OfS debacle? — https://eve.gd/2018/02/06/who-was-responsible-for-the-toby-jones-ofs-debacle
 - [26049](https://eprints.bbk.ac.uk/id/eprint/26049/) — Helping learned societies explore Plan S-compliant business models - A proposal — (no official_url)
 - [29637](https://eprints.bbk.ac.uk/id/eprint/29637/) — I have won the 2019 Philip Leverhulme Prize — https://eve.gd/2019/10/14/i-have-won-the-2019-philip-leverhulme-prizei-have-won-the-2019-philip-leverhulme-prizei-have-won-the-2019-philip-leverhulme-prize

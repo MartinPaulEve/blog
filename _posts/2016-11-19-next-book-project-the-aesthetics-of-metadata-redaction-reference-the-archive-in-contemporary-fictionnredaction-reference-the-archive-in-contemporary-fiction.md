@@ -12,6 +12,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7matwxec
 categories:
 - Literature
 kcworks: https://works.hcommons.org/records/ddjxc-vaa27
+biron: https://eprints.bbk.ac.uk/id/eprint/17251/
 references:
 - http://doi.org/10.16995/olh.82 # Eve, Cloud Atlas Version Variants OLH article
 - http://dx.doi.org/10.7766/alluvium.v5.1.04 # Eve aesthetics of metadata Alluvium article 2016
