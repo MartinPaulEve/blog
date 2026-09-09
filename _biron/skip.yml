@@ -1,0 +1,5 @@
+# Posts never to deposit to BIROn. biron-backfill (and the evedeploy
+# step that wraps it) excludes every filename listed here. Add posts
+# that should stay blog-only — review `./biron.sh backfill --dry-run`
+# and move anything unwanted into this list before a live backfill.
+[]

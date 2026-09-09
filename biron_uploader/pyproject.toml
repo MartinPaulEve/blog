@@ -1,0 +1,39 @@
+[project]
+name = "biron-uploader"
+version = "1.0.0"
+description = "Deposit eve.gd blog posts to BIROn (Birkbeck ePrints) over SWORD with markdown and PDF attachments"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "requests>=2.32",
+    "pyyaml>=6.0",
+    "kcworks-uploader",
+]
+
+[project.scripts]
+biron-probe = "biron_uploader.cli:probe_main"
+biron-upload = "biron_uploader.cli:main"
+biron-backfill = "biron_uploader.cli:backfill_main"
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+]
+
+[tool.uv.sources]
+kcworks-uploader = { path = "../kcworks_uploader" }
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["biron_uploader"]
+
+[tool.commitizen]
+version = "1.0.0"
+version_files = [
+    "__version__.py",
+    "pyproject.toml:version"
+]
+update_changelog_on_bump = true

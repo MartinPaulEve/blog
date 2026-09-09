@@ -1,0 +1,166 @@
+import pytest
+from biron_uploader.client import (
+    BironClient,
+    BironError,
+    parse_deposit_receipt,
+    parse_service_document,
+)
+
+BASE = "https://eprints.example.org"
+
+SERVICE_DOCUMENT = b"""<?xml version="1.0" encoding="utf-8"?>
+<service xmlns="http://www.w3.org/2007/app"
+         xmlns:atom="http://www.w3.org/2005/Atom"
+         xmlns:sword="http://purl.org/net/sword/">
+  <sword:version>1.3</sword:version>
+  <workspace>
+    <atom:title>Birkbeck Institutional Research Online</atom:title>
+    <collection href="https://eprints.example.org/sword-app/deposit/inbox">
+      <atom:title>Repository Inbox</atom:title>
+      <accept>application/zip</accept>
+      <sword:acceptPackaging q="1.0">http://eprints.org/ep2/data/2.0</sword:acceptPackaging>
+      <sword:acceptPackaging q="0.8">http://purl.org/net/sword-types/METSDSpaceSIP</sword:acceptPackaging>
+    </collection>
+    <collection href="https://eprints.example.org/sword-app/deposit/buffer">
+      <atom:title>Under Review</atom:title>
+      <sword:acceptPackaging q="1.0">http://eprints.org/ep2/data/2.0</sword:acceptPackaging>
+    </collection>
+  </workspace>
+</service>
+"""
+
+DEPOSIT_ENTRY = b"""<?xml version="1.0" encoding="utf-8"?>
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom"
+            xmlns:sword="http://purl.org/net/sword/">
+  <atom:id>https://eprints.example.org/id/eprint/58012</atom:id>
+  <atom:title>A post</atom:title>
+  <sword:treatment>Deposited into the inbox</sword:treatment>
+</atom:entry>
+"""
+
+
+class FakeResponse:
+    def __init__(self, status_code, body=b"", headers=None):
+        self.status_code = status_code
+        self.content = body
+        self.text = body.decode("utf-8", "replace")
+        self.headers = headers or {}
+
+
+class FakeSession:
+    """Routes (METHOD, url) to canned responses; records what was sent."""
+
+    def __init__(self, responses=None):
+        self.responses = dict(responses or {})
+        self.sent = []
+
+    def _handle(self, method, url, **kwargs):
+        self.sent.append((method, url, kwargs))
+        canned = self.responses.get((method, url))
+        if isinstance(canned, list):
+            response = canned.pop(0)
+        else:
+            response = canned
+        return response or FakeResponse(200)
+
+    def get(self, url, **kwargs):
+        return self._handle("GET", url, **kwargs)
+
+    def post(self, url, **kwargs):
+        return self._handle("POST", url, **kwargs)
+
+
+# --- parsers ---------------------------------------------------------------
+
+
+def test_parse_service_document_lists_collections():
+    collections = parse_service_document(SERVICE_DOCUMENT)
+    assert collections == [
+        {
+            "href": "https://eprints.example.org/sword-app/deposit/inbox",
+            "title": "Repository Inbox",
+            "packaging": [
+                "http://eprints.org/ep2/data/2.0",
+                "http://purl.org/net/sword-types/METSDSpaceSIP",
+            ],
+        },
+        {
+            "href": "https://eprints.example.org/sword-app/deposit/buffer",
+            "title": "Under Review",
+            "packaging": ["http://eprints.org/ep2/data/2.0"],
+        },
+    ]
+
+
+def test_parse_deposit_receipt_prefers_location_header():
+    receipt = parse_deposit_receipt(
+        {"Location": "https://eprints.example.org/id/eprint/59001"},
+        DEPOSIT_ENTRY,
+    )
+    assert receipt == {
+        "eprintid": 59001,
+        "url": "https://eprints.example.org/id/eprint/59001/",
+    }
+
+
+def test_parse_deposit_receipt_falls_back_to_atom_id():
+    receipt = parse_deposit_receipt({}, DEPOSIT_ENTRY)
+    assert receipt == {
+        "eprintid": 58012,
+        "url": "https://eprints.example.org/id/eprint/58012/",
+    }
+
+
+def test_parse_deposit_receipt_without_any_id_raises():
+    with pytest.raises(BironError):
+        parse_deposit_receipt({}, b"<html>login page</html>")
+
+
+# --- client ----------------------------------------------------------------
+
+
+def make_client(session, **kwargs):
+    kwargs.setdefault("sleep", lambda s: None)
+    return BironClient("user", "pass", base_url=BASE, session=session, **kwargs)
+
+
+def test_service_document_uses_basic_auth():
+    session = FakeSession(
+        {("GET", f"{BASE}/sword-app/servicedocument"): FakeResponse(200, SERVICE_DOCUMENT)}
+    )
+    collections = make_client(session).service_document()
+    assert [c["title"] for c in collections] == ["Repository Inbox", "Under Review"]
+    _method, _url, kwargs = session.sent[0]
+    assert kwargs["auth"] == ("user", "pass")
+
+
+def test_deposit_posts_eprints_xml_package():
+    url = f"{BASE}/sword-app/deposit/inbox"
+    session = FakeSession({("POST", url): FakeResponse(201, DEPOSIT_ENTRY)})
+    receipt = make_client(session).deposit(url, b"<eprints/>")
+    assert receipt["eprintid"] == 58012
+    _method, _sent_url, kwargs = session.sent[0]
+    assert kwargs["data"] == b"<eprints/>"
+    assert kwargs["auth"] == ("user", "pass")
+    headers = kwargs["headers"]
+    assert headers["X-Packaging"] == "http://eprints.org/ep2/data/2.0"
+    assert headers["Content-Type"].startswith("application/xml")
+
+
+def test_auth_failure_raises_with_status():
+    session = FakeSession(
+        {("GET", f"{BASE}/sword-app/servicedocument"): FakeResponse(401, b"denied")}
+    )
+    with pytest.raises(BironError) as exc:
+        make_client(session).service_document()
+    assert "401" in str(exc.value)
+
+
+def test_transient_error_is_retried():
+    url = f"{BASE}/sword-app/deposit/inbox"
+    session = FakeSession(
+        {("POST", url): [FakeResponse(503, b"busy"), FakeResponse(201, DEPOSIT_ENTRY)]}
+    )
+    receipt = make_client(session).deposit(url, b"<eprints/>")
+    assert receipt["eprintid"] == 58012
+    assert len(session.sent) == 2
