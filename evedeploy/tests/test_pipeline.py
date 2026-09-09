@@ -1,3 +1,4 @@
+import os
 import subprocess
 
 import pytest
@@ -432,6 +433,21 @@ class TestBuildAndRsync:
         jekyll_build(root, run=run)
         assert run.calls[0]["cmd"] == ["jekyll", "build"]
         assert run.calls[0]["cwd"] == root
+
+    def test_jekyll_build_silences_the_nix_gemfile_deprecation(
+            self, root, monkeypatch):
+        # The nix-wrapped jekyll runs Bundler.setup against its own read-only
+        # Gemfile, which still uses the legacy :mingw/:mswin platform symbols.
+        # We can't edit that file, so the build must quiet the deprecation.
+        monkeypatch.delenv("BUNDLE_SILENCE_DEPRECATIONS", raising=False)
+        jekyll_build(root, run=FakeRun())
+        assert os.environ.get("BUNDLE_SILENCE_DEPRECATIONS") == "true"
+
+    def test_jekyll_build_respects_an_existing_silence_setting(
+            self, root, monkeypatch):
+        monkeypatch.setenv("BUNDLE_SILENCE_DEPRECATIONS", "false")
+        jekyll_build(root, run=FakeRun())
+        assert os.environ.get("BUNDLE_SILENCE_DEPRECATIONS") == "false"
 
     def test_rsync_pushes_site_dir_to_server(self, root):
         run = FakeRun()

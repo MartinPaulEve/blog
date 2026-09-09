@@ -12,21 +12,24 @@ This page is the canonical list of my accounts and public keys around the web. I
 <div class="accounts-grid">
 
 <section class="account-box">
-<h2 class="account-box-title">Social / Personal</h2>
+<h2 class="account-box-title">Email</h2>
 <ul>
-<li><span class="account-service">Bluesky</span> <a class="account-handle" href="https://bsky.app/profile/eve.gd">@eve.gd</a></li>
-<li><span class="account-service">Mastodon</span> <a class="account-handle" href="https://hcommons.social/@mpe">@mpe@hcommons.social</a></li>
-<li><span class="account-service">LinkedIn</span> <a class="account-handle" href="https://uk.linkedin.com/in/martin-eve-382303378">Martin Eve</a></li>
-<li><span class="account-service">Photos of me</span> <a class="account-handle" href="/pictures/">/pictures</a>
-<span class="account-note">Images of me released under CC BY 4.0 for anyone to re-use.</span></li>
+<li><span class="account-service">Contacts and email policy</span> <a class="account-handle" href="/contact/">/contact</a>
+<span class="account-note">More on my email addresses and policies around contact.</span></li>	
+<li><span class="account-service">Personal</span> <a class="account-handle" href="mailto:martin@eve.gd">martin@eve.gd</a></li>
+<li><span class="account-service">Birkbeck</span> <a class="account-handle" href="mailto:martin.eve@bbk.ac.uk">martin.eve@bbk.ac.uk</a></li>
+<li><span class="account-service">Michigan State</span> <a class="account-handle" href="mailto:eve@msu.edu">eve@msu.edu</a></li>
 </ul>
 </section>
 
 <section class="account-box">
-<h2 class="account-box-title">Code</h2>
+<h2 class="account-box-title">Social / Personal</h2>
 <ul>
-<li><span class="account-service">GitHub</span> <a class="account-handle" href="https://github.com/MartinPaulEve">MartinPaulEve</a></li>
-<li><span class="account-service">GitLab</span> <a class="account-handle" href="https://gitlab.com/MartinPaulEve">MartinPaulEve</a></li>
+<li><span class="account-service">Openly licensed photos of me</span> <a class="account-handle" href="/pictures/">/pictures</a>
+<span class="account-note">Images of me released under CC BY 4.0 for re-use.</span></li>
+<li><span class="account-service">Bluesky</span> <a class="account-handle" href="https://bsky.app/profile/eve.gd">@eve.gd</a></li>
+<li><span class="account-service">Mastodon</span> <a class="account-handle" href="https://hcommons.social/@mpe">@mpe@hcommons.social</a></li>
+<li><span class="account-service">LinkedIn</span> <a class="account-handle" href="https://uk.linkedin.com/in/martin-eve-382303378">martin-eve-382303378</a></li>
 </ul>
 </section>
 
@@ -49,6 +52,14 @@ This page is the canonical list of my accounts and public keys around the web. I
 </section>
 
 <section class="account-box">
+<h2 class="account-box-title">Code</h2>
+<ul>
+<li><span class="account-service">GitHub</span> <a class="account-handle" href="https://github.com/MartinPaulEve">MartinPaulEve</a></li>
+<li><span class="account-service">GitLab</span> <a class="account-handle" href="https://gitlab.com/MartinPaulEve">MartinPaulEve</a></li>
+</ul>
+</section>
+
+<section class="account-box">
 <h2 class="account-box-title">Music</h2>
 <ul>
 <li><span class="account-service">Bandcamp</span> <a class="account-handle" href="https://coursecorrection.bandcamp.com">Course Correction</a>
@@ -57,15 +68,6 @@ This page is the canonical list of my accounts and public keys around the web. I
 <span class="account-note">The label my solo releases appear on.</span></li>
 <li><span class="account-service">Last.fm</span> <a class="account-handle" href="https://www.last.fm/user/MartinPaulEve">MartinPaulEve</a>
 <span class="account-note">Scrobbles of what I listen to; the listening stats in the post sidebar come from here.</span></li>
-</ul>
-</section>
-
-<section class="account-box">
-<h2 class="account-box-title">Email</h2>
-<ul>
-<li><span class="account-service">Personal</span> <a class="account-handle" href="mailto:martin@eve.gd">martin@eve.gd</a></li>
-<li><span class="account-service">Birkbeck</span> <a class="account-handle" href="mailto:martin.eve@bbk.ac.uk">martin.eve@bbk.ac.uk</a></li>
-<li><span class="account-service">Michigan State</span> <a class="account-handle" href="mailto:eve@msu.edu">eve@msu.edu</a></li>
 </ul>
 </section>
 

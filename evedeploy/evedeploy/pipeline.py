@@ -19,6 +19,7 @@ the pipeline is unit-testable without touching the real system.
 
 from __future__ import annotations
 
+import os
 import re
 import shutil
 import subprocess
@@ -148,7 +149,13 @@ def jekyll_build(root: Path, run=default_run) -> None:
     its own bundle incl. jekyll-feed; bundler would demand a local gem
     install. No --incremental: it skips pages that iterate site.posts
     (feed.xml, feed_all.xml), leaving them stale when a post is added.
+
+    That Nix jekyll runs its own Bundler.setup against a read-only nix-store
+    Gemfile which still declares the legacy :mingw/:mswin/:x64_mingw platform
+    symbols, so every build prints a Bundler deprecation we cannot fix at the
+    source. Silence it here (respecting an explicit override).
     """
+    os.environ.setdefault("BUNDLE_SILENCE_DEPRECATIONS", "true")
     _step(run, ["jekyll", "build"], name="jekyll build", cwd=root)
 
 

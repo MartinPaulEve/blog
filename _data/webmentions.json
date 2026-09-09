@@ -1,5 +1,5 @@
 {
- "last_wm_id": 2030268,
+ "last_wm_id": 2030341,
  "targets": {
   "/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/": {
    "bookmarks": [],
@@ -64,11 +64,30 @@
      "text": "eve.gd/2026/09/07/a...",
      "url": "https://bsky.app/profile/did:plc:hnpt7ns2lecdujegbi6qkqqm/post/3muxnsnecqc2i",
      "wm_id": 2030268
+    },
+    {
+     "author_name": "Martin Paul Eve",
+     "author_url": "https://bsky.app/profile/eve.gd",
+     "avatar": "/images/webmentions/ff80432ff5fc382e.jpg",
+     "published": "2026-09-08T09:09:27+00:00",
+     "text": "If you would ever like a distraction, I wrote a cathartic self-indulgent blog post last night that explains all my health problems clearly, where they come from and why I seem to have so many of them. It also explains what's happening at the moment with my current treatment.\n\neve.gd/2026/09/07/a...",
+     "url": "https://bsky.app/profile/did:plc:hnpt7ns2lecdujegbi6qkqqm/post/3muyofrlq5s2a",
+     "wm_id": 2030316
     }
    ],
    "replies": [],
-   "reposts": []
+   "reposts": [
+    {
+     "author_name": "Ronald Snijder",
+     "author_url": "https://bsky.app/profile/ronaldsnijder.bsky.social",
+     "avatar": "/images/webmentions/0f0325f24790a52b.jpg",
+     "published": "2026-09-08T11:59:04+00:00",
+     "text": "Shared a post by   \n    bsky.brid.gy/web/did:plc:hn...\n    \n    \n  \nIf you would ever like a distraction, I wrote a cathartic self-indulgent blog post last night that explains all my health problems clearly, where they come from and why I seem to have so many of them. It also explains what's happening at the moment with my current treatment.\n\neve.gd/2026/09/07/a...",
+     "url": "https://bsky.app/profile/did:plc:hnpt7ns2lecdujegbi6qkqqm/post/3muyofrlq5s2a#reposted_by_did:plc:gue576tnnl3k6gdwhs7akdnz",
+     "wm_id": 2030341
+    }
+   ]
   }
  },
- "updated": "2026-09-08T08:38:48+00:00"
+ "updated": "2026-09-09T17:02:46+00:00"
 }

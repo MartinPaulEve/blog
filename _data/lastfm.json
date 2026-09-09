@@ -1,9 +1,9 @@
 {
  "last_played": {
-  "artist": "Fluke",
+  "artist": "Faff",
   "now_playing": false,
-  "track": "Groovy Feeling",
-  "url": "https://www.last.fm/music/Fluke/_/Groovy+Feeling"
+  "track": "A Few Good Days (Fluke Remix)",
+  "url": "https://www.last.fm/music/Faff/_/A+Few+Good+Days+(Fluke+Remix)"
  },
  "top_artist": {
   "artist": "Fluke",
@@ -11,12 +11,12 @@
   "url": "https://www.last.fm/music/Fluke"
  },
  "top_track": {
-  "artist": "Fluke",
+  "artist": "Faff",
   "playcount": 1,
-  "track": "Atom Bomb",
-  "url": "https://www.last.fm/music/Fluke/_/Atom+Bomb"
+  "track": "A Few Good Days (Fluke Remix)",
+  "url": "https://www.last.fm/music/Faff/_/A+Few+Good+Days+(Fluke+Remix)"
  },
- "updated": "2026-09-08T08:38:49+00:00",
+ "updated": "2026-09-09T17:02:47+00:00",
  "url": "https://www.last.fm/user/MartinPaulEve",
  "user": "MartinPaulEve"
 }
