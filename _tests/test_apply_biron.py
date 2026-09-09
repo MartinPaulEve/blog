@@ -301,6 +301,17 @@ def test_unrelated_greek_posts_do_not_cross_match():
     assert mapping[posts[1]["file"]] is None
 
 
+def test_hyphen_runs_collapse_like_the_slugifier():
+    # "Reference, & the Archive" lost its ampersand at slugification,
+    # leaving -- in the deposit URL but a single hyphen in the filename.
+    posts = [_post("2016-11-19-next-book-project-reference-the-archive.md")]
+    eprints = [
+        _eprint(17251, url="https://eve.gd/2016/11/19/next-book-project-reference--the-archive/")
+    ]
+    mapping, _ = apply_biron.build_mapping(posts, eprints)
+    assert mapping[posts[0]["file"]] == "https://eprints.bbk.ac.uk/id/eprint/17251/"
+
+
 def test_url_fragment_ignored():
     posts = [_post("2025-01-08-getting-kc-works-running-locally.md")]
     eprints = [
