@@ -16,6 +16,7 @@ references:
 - https://doi.org/10.64000/1y3ve-3pw05
 - https://doi.org/10.31274/jlsc.16288
 kcworks: https://works.hcommons.org/records/bvrq2-wy298
+roguescholar: https://rogue-scholar.org/records/1677e-amg16
 ---
 Crossref [have been asking for feedback on their new member practices](https://doi.org/10.64000/1y3ve-3pw05). Here is what I have sent them: 
 
