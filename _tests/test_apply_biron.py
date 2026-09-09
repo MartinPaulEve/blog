@@ -232,6 +232,75 @@ def test_percent_encoded_urls_match():
     assert mapping["2015-01-02-café-post.md"] == "https://eprints.bbk.ac.uk/id/eprint/500/"
 
 
+def test_double_encoded_greek_url_matches_dashed_hex_slug():
+    # BIROn official_urls are sometimes double percent-encoded (%25ce%25ac…),
+    # while the blog's slugifier spelled Greek titles as dashed hex UTF-8
+    # bytes with the word-separator hyphens collapsed.
+    posts = [
+        _post("2012-01-06-adorno-terminology-ce-ac-ce-bb-ce-bb-ce-bf-ce-b3-ce-ad-ce-bd-ce-bf-cf-82.md")
+    ]
+    eprints = [
+        _eprint(
+            17386,
+            url="https://eve.gd/2012/01/06/adorno-terminology-"
+            "%25ce%25ac%25ce%25bb%25ce%25bb%25ce%25bf-"
+            "%25ce%25b3%25ce%25ad%25ce%25bd%25ce%25bf%25cf%2582/",
+            title="Adorno terminology: άλλο γένος",
+        )
+    ]
+    mapping, anomalies = apply_biron.build_mapping(posts, eprints)
+    assert mapping[posts[0]["file"]] == "https://eprints.bbk.ac.uk/id/eprint/17386/"
+    assert anomalies == []
+
+
+def test_literal_greek_url_matches_dashed_hex_slug():
+    posts = [
+        _post("2012-01-06-adorno-terminology-ce-ac-ce-bb-ce-bb-ce-bf-ce-b3-ce-ad-ce-bd-ce-bf-cf-82.md")
+    ]
+    eprints = [_eprint(17386, url="https://eve.gd/2012/01/06/adorno-terminology-άλλο-γένος/")]
+    mapping, _ = apply_biron.build_mapping(posts, eprints)
+    assert mapping[posts[0]["file"]] == "https://eprints.bbk.ac.uk/id/eprint/17386/"
+
+
+def test_mixed_greek_and_ascii_with_three_byte_char():
+    # χωρισμός contains ό (U+1F79), a three-byte UTF-8 sequence (e1 bd b9),
+    # followed by a plain-ASCII gloss in the slug.
+    posts = [
+        _post(
+            "2012-01-06-adorno-terminology-cf-87-cf-89-cf-81-ce-b9-cf-83-"
+            "ce-bc-e1-bd-b9-cf-82-chorismos.md"
+        )
+    ]
+    eprints = [
+        _eprint(
+            17038,
+            url="https://eve.gd/2012/01/06/adorno-terminology-"
+            "%25cf%2587%25cf%2589%25cf%2581%25ce%25b9%25cf%2583"
+            "%25ce%25bc%25e1%25bd%25b9%25cf%2582-chorismos/",
+        )
+    ]
+    mapping, _ = apply_biron.build_mapping(posts, eprints)
+    assert mapping[posts[0]["file"]] == "https://eprints.bbk.ac.uk/id/eprint/17038/"
+
+
+def test_unrelated_greek_posts_do_not_cross_match():
+    posts = [
+        _post("2012-01-06-adorno-terminology-ce-ac-ce-bb-ce-bb-ce-bf-ce-b3-ce-ad-ce-bd-ce-bf-cf-82.md"),
+        _post("2012-01-07-adorno-terminology-ce-b8-ce-ad-cf-83-ce-b5-ce-b9.md"),
+    ]
+    eprints = [
+        _eprint(
+            17386,
+            url="https://eve.gd/2012/01/06/adorno-terminology-"
+            "%25ce%25ac%25ce%25bb%25ce%25bb%25ce%25bf-"
+            "%25ce%25b3%25ce%25ad%25ce%25bd%25ce%25bf%25cf%2582/",
+        )
+    ]
+    mapping, _ = apply_biron.build_mapping(posts, eprints)
+    assert mapping[posts[0]["file"]] == "https://eprints.bbk.ac.uk/id/eprint/17386/"
+    assert mapping[posts[1]["file"]] is None
+
+
 def test_url_fragment_ignored():
     posts = [_post("2025-01-08-getting-kc-works-running-locally.md")]
     eprints = [
