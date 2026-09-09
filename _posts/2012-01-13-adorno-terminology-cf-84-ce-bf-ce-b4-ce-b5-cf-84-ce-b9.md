@@ -21,6 +21,7 @@ wordpress_id: 1829
 wordpress_url: https://www.martineve.com/2012/01/13/adorno-terminology-%cf%84%ce%bf%ce%b4%ce%b5-%cf%84%ce%b9/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mizlpjl2n"
 kcworks: https://works.hcommons.org/records/vhvnq-qst45
+biron: https://eprints.bbk.ac.uk/id/eprint/17066/
 references:
 - author:
   - S. Marc Cohen

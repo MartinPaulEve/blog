@@ -40,6 +40,7 @@ wordpress_id: 1739
 wordpress_url: https://www.martineve.com/2012/01/10/adorno-terminology-%ce%b5%cf%80%ce%bf%cf%87%ce%b7-misprint-of-%ce%b1%cf%80%ce%bf%cf%87%ce%ae/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mj276cg2p"
 kcworks: https://works.hcommons.org/records/g9bqf-86a41
+biron: https://eprints.bbk.ac.uk/id/eprint/17244/
 references:
 - date: '2005-05-11'
   title: Epoché
