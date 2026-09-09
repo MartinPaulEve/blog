@@ -312,6 +312,27 @@ def test_url_fragment_ignored():
     )
 
 
+# --- unclaimed_blog_eprints ------------------------------------------------
+
+
+def test_unclaimed_lists_blog_deposits_no_post_took():
+    eprints = [
+        _eprint(100, url="https://eve.gd/2015/01/02/some-post/"),
+        _eprint(200, url="https://eve.gd/2016/01/02/other-post/"),
+        _eprint(300, doi="10.1234/journal-article"),
+        dict(_eprint(400), publication="eve.gd"),
+    ]
+    mapping = {"2015-01-02-some-post.md": "https://eprints.bbk.ac.uk/id/eprint/100/"}
+    out = apply_biron.unclaimed_blog_eprints(mapping, eprints)
+    assert [e["eprintid"] for e in out] == [200, 400]
+
+
+def test_unclaimed_empty_when_everything_matched():
+    eprints = [_eprint(100, url="https://eve.gd/2015/01/02/some-post/")]
+    mapping = {"2015-01-02-some-post.md": "https://eprints.bbk.ac.uk/id/eprint/100/"}
+    assert apply_biron.unclaimed_blog_eprints(mapping, eprints) == []
+
+
 # --- apply_overrides -------------------------------------------------------
 
 

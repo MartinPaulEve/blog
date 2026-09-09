@@ -20,6 +20,7 @@ import re
 import ssl
 import sys
 import urllib.request
+from urllib.parse import quote_plus
 
 import yaml
 
@@ -35,7 +36,13 @@ except ImportError:
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 
-from apply_biron import FRONT_MATTER_RE, POSTS_DIR, apply_overrides, build_mapping
+from apply_biron import (
+    FRONT_MATTER_RE,
+    POSTS_DIR,
+    apply_overrides,
+    build_mapping,
+    unclaimed_blog_eprints,
+)
 
 EXPORT_URL = (
     "https://eprints.bbk.ac.uk/cgi/exportview?format=JSON&_action_export_redir=Export"
@@ -82,6 +89,8 @@ def extract_eprints(feed):
                 "url": url,
                 "doi": doi,
                 "title": d.get("title"),
+                "publication": d.get("publication"),
+                "official_url": (d.get("official_url") or "").strip() or None,
             }
         )
     return eprints
@@ -93,14 +102,60 @@ def load_posts():
         with open(path, encoding="utf-8") as f:
             text = f.read()
         m = FRONT_MATTER_RE.match(text)
-        doi = None
+        doi = title = None
         if m:
             dm = re.search(r"^doi:\s*(\S+)\s*$", m.group(1), re.MULTILINE)
             doi = dm.group(1) if dm else None
+            tm = re.search(r"^title:\s*(.+?)\s*$", m.group(1), re.MULTILINE)
+            title = tm.group(1).strip("'\"") if tm else None
         fname = os.path.basename(path)
         year, month, day, slug = fname[:-3].split("-", 3)
-        posts.append({"file": fname, "doi": doi, "path": f"/{year}/{month}/{day}/{slug}"})
+        posts.append(
+            {
+                "file": fname,
+                "doi": doi,
+                "path": f"/{year}/{month}/{day}/{slug}",
+                "title": title,
+            }
+        )
     return posts
+
+
+SEARCH_URL = "https://eprints.bbk.ac.uk/cgi/search?q="
+
+
+def render_anomalies(anomalies, mapping, titles, unclaimed):
+    """Render anomalies.md: matching notes, unmatched posts (with titles
+    and a BIROn search link), and unclaimed blog-side eprints — so missed
+    matches can be reviewed by eye across the last two sections."""
+    notes = [a for a in anomalies if not a.endswith("no BIROn eprint found")]
+    unmatched = sorted(f for f, v in mapping.items() if not v)
+
+    lines = ["# BIROn matching anomalies", ""]
+
+    lines += [f"## Matching notes ({len(notes)})", ""]
+    lines += [f"- {n}" for n in notes] or ["None."]
+    lines.append("")
+
+    lines += [f"## Posts with no BIROn eprint ({len(unmatched)})", ""]
+    for fname in unmatched:
+        title = titles.get(fname) or "(no title)"
+        search = SEARCH_URL + quote_plus(title)
+        lines.append(f"- `{fname}` — {title} — [search BIROn]({search})")
+    if not unmatched:
+        lines.append("None.")
+    lines.append("")
+
+    lines += [f"## Blog-side eprints claimed by no post ({len(unclaimed)})", ""]
+    for e in unclaimed:
+        url = e.get("official_url") or "(no official_url)"
+        title = e.get("title") or "(no title)"
+        lines.append(f"- [{e['eprintid']}]({e['uri'].rstrip('/')}/) — {title} — {url}")
+    if not unclaimed:
+        lines.append("None.")
+    lines.append("")
+
+    return "\n".join(lines)
 
 
 def main(argv=None):
@@ -126,16 +181,14 @@ def main(argv=None):
     with open(os.path.join(HERE, "mapping.yml"), "w", encoding="utf-8") as f:
         yaml.safe_dump(mapping, f, allow_unicode=True, sort_keys=True, width=1000)
 
+    titles = {p["file"]: p["title"] for p in posts}
+    unclaimed = unclaimed_blog_eprints(mapping, eprints)
     with open(os.path.join(HERE, "anomalies.md"), "w", encoding="utf-8") as f:
-        f.write("# BIROn matching anomalies\n\n")
-        if anomalies:
-            f.writelines(f"- {a}\n" for a in anomalies)
-        else:
-            f.write("None.\n")
+        f.write(render_anomalies(anomalies, mapping, titles, unclaimed))
 
     matched = sum(1 for v in mapping.values() if v)
     print(f"matched: {matched}/{len(posts)}")
-    print(f"anomalies: {len(anomalies)} (see _biron/anomalies.md)")
+    print(f"anomalies: {len(anomalies)}; unclaimed eprints: {len(unclaimed)} (see _biron/anomalies.md)")
     return 0
 
 

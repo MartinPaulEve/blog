@@ -190,6 +190,24 @@ def build_mapping(posts, eprints):
     return mapping, anomalies
 
 
+def unclaimed_blog_eprints(mapping, eprints):
+    """Return blog-side eprints that no post claimed, oldest first.
+
+    Blog-side means the deposit carries an eve.gd official_url or names
+    eve.gd as its publication; journal articles matched only by DOI are
+    not expected to correspond to posts and are excluded. This is the
+    review queue for missed matches.
+    """
+    claimed = {v for v in mapping.values() if v}
+    unclaimed = [
+        e
+        for e in eprints
+        if (e.get("url") or e.get("publication") == "eve.gd")
+        and _biron_url(e) not in claimed
+    ]
+    return sorted(unclaimed, key=lambda e: e["eprintid"])
+
+
 def apply_overrides(mapping, overrides, eprints):
     """Return mapping with hand-curated `{file: eprintid}` overrides applied.
 
