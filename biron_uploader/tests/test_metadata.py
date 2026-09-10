@@ -69,8 +69,20 @@ def test_creator_and_subject():
         == "Martin Paul"
     )
     assert creator.find(f"{{{EP2_NS}}}staffid").text == "ubmeve001"
+    assert creator.find(f"{{{EP2_NS}}}id").text == "martin.eve@bbk.ac.uk"
+    assert creator.find(f"{{{EP2_NS}}}orcid").text == "0000-0002-5589-8511"
     subject = tree.find(f".//{{{EP2_NS}}}subjects/{{{EP2_NS}}}item")
     assert subject.text == "CACC"
+
+
+def test_dates_compound_carries_the_published_date():
+    # BIROn's workflow reads the published date from the dates compound,
+    # not the legacy top-level date field (both are sent, matching the
+    # hand-corrected record 57893).
+    tree = build_tree(make_post())
+    item = tree.find(f".//{{{EP2_NS}}}dates/{{{EP2_NS}}}item")
+    assert item.find(f"{{{EP2_NS}}}date").text == "2026-08-28"
+    assert item.find(f"{{{EP2_NS}}}date_type").text == "published"
 
 
 def test_doi_becomes_id_number_when_present_only():

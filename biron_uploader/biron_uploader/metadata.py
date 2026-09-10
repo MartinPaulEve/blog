@@ -14,7 +14,13 @@ from kcworks_uploader.posts import Post, first_paragraph
 
 EP2_NS = "http://eprints.org/ep2/data/2.0"
 SUBJECT = "CACC"
-CREATOR = {"family": "Eve", "given": "Martin Paul", "staffid": "ubmeve001"}
+CREATOR = {
+    "family": "Eve",
+    "given": "Martin Paul",
+    "id": "martin.eve@bbk.ac.uk",
+    "orcid": "0000-0002-5589-8511",
+    "staffid": "ubmeve001",
+}
 
 
 def _el(parent, name, text=None):
@@ -69,11 +75,18 @@ def build_eprint_xml(post: Post, url: str, status: str | None = None) -> bytes:
     name = _el(item, "name")
     _el(name, "family", CREATOR["family"])
     _el(name, "given", CREATOR["given"])
+    _el(item, "id", CREATOR["id"])
     _el(item, "staffid", CREATOR["staffid"])
+    _el(item, "orcid", CREATOR["orcid"])
     _el(_el(ep, "subjects"), "item", SUBJECT)
 
     _el(ep, "date", post.date)
     _el(ep, "date_type", "published")
+    # BIROn's workflow reads the published date from this compound; the
+    # legacy fields above keep parity with the older records.
+    dates_item = _el(_el(ep, "dates"), "item")
+    _el(dates_item, "date", post.date)
+    _el(dates_item, "date_type", "published")
     _el(ep, "ispublished", "pub")
     _el(ep, "refereed", "FALSE")
     _el(ep, "publication", "eve.gd")
