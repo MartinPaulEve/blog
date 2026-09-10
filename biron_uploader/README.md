@@ -5,9 +5,16 @@ Online, an EPrints 3.3 repository) over SWORD 1.3 with the built PDF
 edition and the markdown source attached, mirroring the metadata of the
 blog posts already in the repository.
 
-The Microsoft SSO on the BIROn web UI does not apply to the SWORD API,
-which uses HTTP Basic auth (`BIRON_USERNAME` / `BIRON_PASSWORD`,
-supplied via the blog's `.env` through `./biron.sh`).
+BIROn authenticates everything through Microsoft SSO (Shibboleth), and
+its machine-facing Basic-auth fallback validates nothing by default.
+Until the systems team enables Basic auth for a deposit account
+(`BIRON_USERNAME` / `BIRON_PASSWORD`), authenticate with a logged-in
+browser session instead: sign in to BIROn, copy the Cookie header from
+any request (F12 → Network), and set `BIRON_COOKIE=eprints_session=…`
+in the blog's `.env`. The session cookie is accepted on the `/id/`
+CRUD endpoint (and possibly `/sword-app/`); `./biron.sh probe` reports
+which, and prints the `BIRON_COLLECTION` override to use when only the
+CRUD endpoint is open.
 
 Commands (all via `./biron.sh` from the blog root):
 

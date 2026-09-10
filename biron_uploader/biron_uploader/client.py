@@ -92,22 +92,48 @@ class BironClient:
 
     def __init__(
         self,
-        username: str,
-        password: str,
+        username: str | None = None,
+        password: str | None = None,
         base_url: str = BASE_URL,
         session=None,
         max_retries: int = 3,
         sleep=time.sleep,
+        cookie: str | None = None,
     ):
+        if not cookie and not (username and password):
+            raise ValueError(
+                "BironClient needs a session cookie or username+password"
+            )
         self.base_url = base_url.rstrip("/")
         self._auth = (username, password)
+        self._cookie = cookie
         self._session = session if session is not None else requests.Session()
         self._max_retries = max_retries
         self._sleep = sleep
 
+    def _credentials(self, kwargs: dict) -> dict:
+        """Fold our credentials into request kwargs (cookie beats Basic)."""
+        if self._cookie:
+            kwargs.setdefault("headers", {})["Cookie"] = self._cookie
+        else:
+            kwargs["auth"] = self._auth
+        return kwargs
+
+    def contents_status(self) -> int:
+        """The HTTP status of GET /id/contents with our credentials.
+
+        A cheap authentication probe for the CRUD endpoint, which sits
+        behind EPrints' standard auth chain (session cookie accepted)
+        even when /sword-app only parses Basic credentials.
+        """
+        response = self._session.get(
+            f"{self.base_url}/id/contents", **self._credentials({})
+        )
+        return response.status_code
+
     def _send(self, method: str, url: str, **kwargs):
         """Issue a request, retrying rate limits and transient errors."""
-        kwargs["auth"] = self._auth
+        kwargs = self._credentials(kwargs)
         for attempt in range(self._max_retries + 1):
             response = getattr(self._session, method)(url, **kwargs)
             if (
@@ -136,14 +162,20 @@ class BironClient:
     def deposit(self, collection_url: str, xml: bytes) -> dict:
         """POST an EPrints XML package to a collection.
 
-        Returns the parsed deposit receipt ``{"eprintid", "url"}``.
+        /sword-app collections read the X-Packaging header; the /id/
+        CRUD endpoint keys its import plugin off the Content-Type
+        instead. Returns the parsed receipt ``{"eprintid", "url"}``.
         """
+        if "/id/" in collection_url:
+            content_type = "application/vnd.eprints.data+xml"
+        else:
+            content_type = "application/xml; charset=utf-8"
         response = self._send(
             "post",
             collection_url,
             data=xml,
             headers={
-                "Content-Type": "application/xml; charset=utf-8",
+                "Content-Type": content_type,
                 "X-Packaging": PACKAGING,
             },
         )

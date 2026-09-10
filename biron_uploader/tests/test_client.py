@@ -1,4 +1,5 @@
 import pytest
+
 from biron_uploader.client import (
     BironClient,
     BironError,
@@ -145,6 +146,48 @@ def test_deposit_posts_eprints_xml_package():
     headers = kwargs["headers"]
     assert headers["X-Packaging"] == "http://eprints.org/ep2/data/2.0"
     assert headers["Content-Type"].startswith("application/xml")
+
+
+def test_cookie_auth_sends_cookie_header_instead_of_basic():
+    session = FakeSession(
+        {("GET", f"{BASE}/sword-app/servicedocument"): FakeResponse(200, SERVICE_DOCUMENT)}
+    )
+    client = BironClient(
+        base_url=BASE, session=session, sleep=lambda s: None,
+        cookie="eprints_session=abc123",
+    )
+    client.service_document()
+    _method, _url, kwargs = session.sent[0]
+    assert kwargs["headers"]["Cookie"] == "eprints_session=abc123"
+    assert kwargs.get("auth") is None
+
+
+def test_client_requires_some_credential():
+    with pytest.raises(ValueError):
+        BironClient(base_url=BASE)
+
+
+def test_deposit_to_id_contents_uses_eprints_data_content_type():
+    # The CRUD endpoint keys the import plugin off the Content-Type,
+    # unlike /sword-app which reads X-Packaging.
+    url = f"{BASE}/id/contents"
+    session = FakeSession({("POST", url): FakeResponse(201, DEPOSIT_ENTRY)})
+    make_client(session).deposit(url, b"<eprints/>")
+    _method, _url, kwargs = session.sent[0]
+    assert kwargs["headers"]["Content-Type"].startswith(
+        "application/vnd.eprints.data+xml"
+    )
+
+
+def test_contents_status_reports_the_http_code_without_raising():
+    session = FakeSession(
+        {("GET", f"{BASE}/id/contents"): FakeResponse(401, b"denied")}
+    )
+    assert make_client(session).contents_status() == 401
+    session = FakeSession(
+        {("GET", f"{BASE}/id/contents"): FakeResponse(200, b"<feed/>")}
+    )
+    assert make_client(session).contents_status() == 200
 
 
 def test_auth_failure_raises_with_status():

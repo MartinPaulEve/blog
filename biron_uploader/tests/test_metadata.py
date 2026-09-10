@@ -2,8 +2,9 @@ import base64
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
-from biron_uploader.metadata import EP2_NS, build_eprint_xml
 from kcworks_uploader.posts import Post
+
+from biron_uploader.metadata import EP2_NS, build_eprint_xml
 
 URL = "https://eve.gd/2026/08/28/a-post/"
 

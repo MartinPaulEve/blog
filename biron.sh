@@ -16,8 +16,16 @@
 # record is live. _biron/deposited.yml tracks in-flight deposits so they
 # are not resent; _biron/skip.yml lists posts never to deposit.
 #
-# probe, deposit and backfill need BIRON_USERNAME and BIRON_PASSWORD in
-# .env; dry-run does not.
+# probe, deposit and backfill need credentials in .env; dry-run does not.
+# BIROn's auth is Microsoft SSO (Shibboleth), so until the systems team
+# enables Basic auth for a deposit account, use a browser session:
+# sign in to BIROn, copy the Cookie header value from any request in
+# dev tools (F12 -> Network), and set
+#   BIRON_COOKIE=eprints_session=...
+# (BIRON_USERNAME/BIRON_PASSWORD Basic auth is also supported, and used
+# only when no cookie is set.) If probe reports SWORD closed but the
+# CRUD endpoint usable, also set
+#   BIRON_COLLECTION=https://eprints.bbk.ac.uk/id/contents
 
 cd "$(dirname "$0")"
 

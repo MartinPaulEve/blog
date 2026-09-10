@@ -84,11 +84,17 @@ def posts_to_deposit(repo_root: Path) -> list[Path]:
 
 
 def _client_from_env(base_url: str) -> BironClient:
+    cookie = os.environ.get("BIRON_COOKIE")
     username = os.environ.get("BIRON_USERNAME")
     password = os.environ.get("BIRON_PASSWORD")
-    if not username or not password:
-        sys.exit("BIRON_USERNAME and BIRON_PASSWORD must be set (see .env)")
-    return BironClient(username, password, base_url=base_url)
+    if cookie:
+        return BironClient(base_url=base_url, cookie=cookie)
+    if username and password:
+        return BironClient(username, password, base_url=base_url)
+    sys.exit(
+        "set BIRON_COOKIE (a logged-in browser session, e.g. "
+        "'eprints_session=...') or BIRON_USERNAME/BIRON_PASSWORD in .env"
+    )
 
 
 def _collection_url(args) -> str:
@@ -115,16 +121,30 @@ def probe_main(argv=None):
     parser.add_argument("--base-url", default=BASE_URL)
     args = parser.parse_args(argv)
     client = _client_from_env(args.base_url)
+
+    sword_ok = False
     try:
         collections = client.service_document()
     except BironError as exc:
-        sys.exit(f"service document request failed: {exc}")
-    print(f"Authenticated against {args.base_url}. Deposit collections:")
-    for coll in collections:
-        packaging = ", ".join(coll["packaging"]) or "(none listed)"
-        print(f"  {coll['title']}: {coll['href']}")
-        print(f"    packaging: {packaging}")
-    return 0
+        print(f"SWORD service document: FAILED ({exc})".rstrip())
+    else:
+        sword_ok = True
+        print(f"SWORD authenticated against {args.base_url}. Collections:")
+        for coll in collections:
+            packaging = ", ".join(coll["packaging"]) or "(none listed)"
+            print(f"  {coll['title']}: {coll['href']}")
+            print(f"    packaging: {packaging}")
+
+    status = client.contents_status()
+    verdict = "usable" if status == 200 else "not usable"
+    print(f"CRUD endpoint {args.base_url}/id/contents: HTTP {status} ({verdict})")
+    if not sword_ok and status == 200:
+        print(
+            "SWORD is closed but CRUD accepts these credentials — set\n"
+            f"  BIRON_COLLECTION={args.base_url}/id/contents\n"
+            "in .env to deposit through it."
+        )
+    return 0 if sword_ok or status == 200 else 1
 
 
 def main(argv=None):
