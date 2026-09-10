@@ -8,6 +8,7 @@
 #   ./newdeploy.sh --no-sequoia ["commit message"]   # skip the ATProto publish
 #   ./newdeploy.sh --build-only   # local build + preview server, no deploy
 #   ./newdeploy.sh --build-only --no-server   # build only, no server
+#   ./newdeploy.sh --quick        # jekyll build + rsync only (short thoughts)
 
 cd "$(dirname "$0")"
 # --env-file: the pipeline's webmention steps need $WEBMENTION_IO_TOKEN.

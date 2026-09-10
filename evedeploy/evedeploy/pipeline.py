@@ -221,6 +221,23 @@ def kcworks_deposit_new(root: Path, run=default_run, echo=print,
     return [post for post in pending if post not in still]
 
 
+def quick_deploy(root: Path, run=default_run, echo=print) -> bool:
+    """Build the site and rsync it — nothing else.
+
+    The fast path for short thoughts: no cover resize, no identifier
+    sweeps or feed fetches, no ATProto publish, no git work, no
+    repository deposits. The PDF and OG caches keep the build brisk and
+    rsync ships only what changed.
+    """
+    root = Path(root)
+    echo("==> Building site")
+    jekyll_build(root, run=run)
+    echo("==> Deploying to server")
+    rsync_site(root, run=run)
+    echo("==> Done.")
+    return True
+
+
 def biron_deposit_new(root: Path, run=default_run, echo=print,
                       present=None) -> bool:
     """Deposit posts new to BIROn; returns True when the backfill ran.

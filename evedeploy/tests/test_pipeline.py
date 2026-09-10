@@ -16,6 +16,7 @@ from evedeploy.pipeline import (
     jekyll_build,
     kcworks_deposit_new,
     posts_missing_marker,
+    quick_deploy,
     refresh_cv,
     resize_covers,
     rsync_site,
@@ -388,6 +389,26 @@ class TestKcworksDepositNew:
                                    echo=lambda *a, **k: None,
                                    present=lambda p: False) == []
         assert run.calls == []
+
+
+class TestQuickDeploy:
+    def test_builds_then_rsyncs(self, root):
+        run = FakeRun()
+        assert quick_deploy(root, run=run, echo=lambda *a, **k: None) is True
+        cmds = run.commands()
+        assert "jekyll build" in cmds
+        assert "rsync -avz" in cmds
+        assert cmds.index("jekyll build") < cmds.index("rsync -avz")
+
+    def test_touches_nothing_else(self, root):
+        # No sequoia, git, deposits, or feed fetches — a thought must
+        # ship in seconds without any repository or publishing work.
+        run = FakeRun()
+        quick_deploy(root, run=run, echo=lambda *a, **k: None)
+        joined = " ".join(" ".join(call["cmd"]) for call in run.calls)
+        for forbidden in ("sequoia", "git", "kcworks", "biron",
+                          "webmention", "lastfm", "resize"):
+            assert forbidden not in joined
 
 
 class TestBironDepositNew:

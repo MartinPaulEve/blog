@@ -13,6 +13,7 @@ from evedeploy.pipeline import (
     DeployError,
     build_site,
     deploy,
+    quick_deploy,
     serve_site,
 )
 
@@ -65,8 +66,14 @@ def find_root(start: Path) -> Path:
     help="Skip the Sequoia/ATProto publish step (dry run, confirmation "
     "gate and publish); everything else still builds and deploys.",
 )
+@click.option(
+    "--quick",
+    is_flag=True,
+    help="Fast path: jekyll build + rsync only — no resize, sequoia, "
+    "git, deposits or feed fetches (used after posting a short thought).",
+)
 def main(message, no_resize, yes, root, build_only, no_server, no_rs_wait,
-         no_sequoia):
+         no_sequoia, quick):
     """Build, publish and deploy the eve.gd blog."""
     print_banner()
 
@@ -75,6 +82,13 @@ def main(message, no_resize, yes, root, build_only, no_server, no_rs_wait,
             root = find_root(Path.cwd())
         except FileNotFoundError as exc:
             raise click.ClickException(str(exc)) from exc
+
+    if quick:
+        try:
+            quick_deploy(root=root, echo=click.echo)
+        except DeployError as exc:
+            raise click.ClickException(str(exc)) from exc
+        return
 
     if build_only:
         try:
