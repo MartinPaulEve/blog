@@ -87,7 +87,7 @@
     <link rel="stylesheet" href="/assets/css/thoughts.css?v={{ site.time | date: '%s' }}">
     <section class="home-thought">
         <div class="container">
-            <span class="home-thought-kicker">Short thought</span>
+            <a class="home-thought-kicker" href="/thoughts/">Short thought</a>
             <p class="home-thought-text">{{ thought.text | linkify_urls }}</p>
             <a class="home-thought-link" href="/thoughts/#t{{ thought.id }}">
                 <time datetime="{{ thought.date }}">{{ thought.date | date: "%-d %B %Y" }}</time> &middot; all thoughts &rarr;
