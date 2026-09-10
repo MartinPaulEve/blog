@@ -70,6 +70,9 @@ class FakeSession:
     def post(self, url, **kwargs):
         return self._handle("POST", url, **kwargs)
 
+    def put(self, url, **kwargs):
+        return self._handle("PUT", url, **kwargs)
+
 
 # --- parsers ---------------------------------------------------------------
 
@@ -182,37 +185,88 @@ def test_deposit_to_id_contents_uses_eprints_data_content_type():
     assert kwargs["headers"]["In-Progress"] == "false"
 
 
-def test_deposit_uploads_files_raw_after_creating_the_eprint():
+DOCUMENT_ENTRY = b"""<?xml version="1.0" encoding="utf-8"?>
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+  <atom:id>https://eprints.example.org/id/document/91</atom:id>
+</atom:entry>
+"""
+
+
+def test_deposit_creates_documents_from_xml_then_puts_raw_content():
     # BIROn's importer corrupts base64 payloads (strips + and / before
-    # decoding), so files go up as raw binary POSTs to the new eprint's
-    # /contents — a decode-free path.
+    # decoding), so each document is created from metadata XML (carrying
+    # the required security field) and its bytes arrive as a raw PUT —
+    # a decode-free path.
     create_url = f"{BASE}/id/contents"
-    files_url = f"{BASE}/id/eprint/58012/contents"
+    doc_create_url = f"{BASE}/id/eprint/58012/contents"
+    content_url = f"{BASE}/id/document/91/contents"
     session = FakeSession(
         {
             ("POST", create_url): FakeResponse(201, DEPOSIT_ENTRY),
-            ("POST", files_url): FakeResponse(201, b""),
+            ("POST", doc_create_url): FakeResponse(201, DOCUMENT_ENTRY),
+            ("PUT", content_url): FakeResponse(204, b""),
         }
     )
     receipt = make_client(session).deposit(
         create_url,
         b"<eprints/>",
-        files=[
-            ("post.pdf", "application/pdf", b"%PDF-raw"),
-            ("post.md", "text/plain", b"# markdown"),
+        documents=[
+            {
+                "xml": b"<documents/>",
+                "filename": "post.pdf",
+                "mime": "application/pdf",
+                "data": b"%PDF-raw",
+            }
         ],
     )
     assert receipt["eprintid"] == 58012
-    uploads = [s for s in session.sent if s[1] == files_url]
-    assert len(uploads) == 2
-    _method, _url, kwargs = uploads[0]
-    assert kwargs["data"] == b"%PDF-raw"
-    assert kwargs["headers"]["Content-Type"] == "application/pdf"
-    assert kwargs["headers"]["Content-Disposition"] == (
+    doc_posts = [s for s in session.sent if s[1] == doc_create_url]
+    (post_call,) = doc_posts
+    assert post_call[2]["data"] == b"<documents/>"
+    assert post_call[2]["headers"]["Content-Type"] == (
+        "application/vnd.eprints.data+xml"
+    )
+    (put_call,) = [s for s in session.sent if s[1] == content_url]
+    assert put_call[0] == "PUT"
+    assert put_call[2]["data"] == b"%PDF-raw"
+    assert put_call[2]["headers"]["Content-Type"] == "application/pdf"
+    assert put_call[2]["headers"]["Content-Disposition"] == (
         'attachment; filename="post.pdf"'
     )
-    _method, _url, kwargs = uploads[1]
-    assert kwargs["data"] == b"# markdown"
+
+
+def make_live_session(initial_status: bytes):
+    status_xml = (
+        b"<?xml version='1.0' encoding='utf-8'?>"
+        b"<eprints xmlns='http://eprints.org/ep2/data/2.0'><eprint>"
+        b"<eprint_status>" + initial_status + b"</eprint_status>"
+        b"</eprint></eprints>"
+    )
+    return FakeSession(
+        {
+            ("POST", f"{BASE}/id/contents"): FakeResponse(201, DEPOSIT_ENTRY),
+            ("GET", f"{BASE}/id/eprint/58012"): FakeResponse(200, status_xml),
+            ("PUT", f"{BASE}/id/eprint/58012"): FakeResponse(200, b""),
+        }
+    )
+
+
+def test_make_live_puts_the_record_when_not_yet_archived():
+    session = make_live_session(b"inbox")
+    make_client(session).deposit(
+        f"{BASE}/id/contents", b"<eprints/>", make_live=True
+    )
+    (put_call,) = [s for s in session.sent if s[0] == "PUT"]
+    assert put_call[1] == f"{BASE}/id/eprint/58012"
+    assert put_call[2]["data"] == b"<eprints/>"
+
+
+def test_make_live_skips_the_put_when_already_archived():
+    session = make_live_session(b"archive")
+    make_client(session).deposit(
+        f"{BASE}/id/contents", b"<eprints/>", make_live=True
+    )
+    assert [s for s in session.sent if s[0] == "PUT"] == []
 
 
 EPRINT_STATUS_XML = b"""<?xml version='1.0' encoding='utf-8'?>

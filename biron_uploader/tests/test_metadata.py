@@ -3,7 +3,11 @@ from pathlib import Path
 
 from kcworks_uploader.posts import Post
 
-from biron_uploader.metadata import EP2_NS, build_eprint_xml
+from biron_uploader.metadata import (
+    EP2_NS,
+    build_document_xml,
+    build_eprint_xml,
+)
 
 URL = "https://eve.gd/2026/08/28/a-post/"
 
@@ -73,6 +77,28 @@ def test_doi_becomes_id_number_when_present_only():
     assert field(build_tree(make_post()), "id_number") == "10.59348/mjvdw-w0051"
     tree = build_tree(make_post(doi=None))
     assert tree.find(f".//{{{EP2_NS}}}id_number") is None
+
+
+def test_eprint_status_included_when_asked():
+    tree = ET.fromstring(build_eprint_xml(make_post(), URL, status="archive"))
+    assert field(tree, "eprint_status") == "archive"
+    tree = build_tree(make_post())
+    assert tree.find(f".//{{{EP2_NS}}}eprint_status") is None
+
+
+def test_document_xml_carries_the_required_fields():
+    xml = build_document_xml("a-post.pdf", "application/pdf", 1)
+    tree = ET.fromstring(xml)
+    doc = tree.find(f"{{{EP2_NS}}}document")
+    assert doc.find(f"{{{EP2_NS}}}security").text == "public"
+    assert doc.find(f"{{{EP2_NS}}}content").text == "published"
+    assert doc.find(f"{{{EP2_NS}}}language").text == "en"
+    assert doc.find(f"{{{EP2_NS}}}license").text == "cc_by_4"
+    assert doc.find(f"{{{EP2_NS}}}main").text == "a-post.pdf"
+    assert doc.find(f"{{{EP2_NS}}}mime_type").text == "application/pdf"
+    assert doc.find(f"{{{EP2_NS}}}placement").text == "1"
+    # no inline file payloads — content arrives as a separate raw PUT
+    assert tree.find(f".//{{{EP2_NS}}}data") is None
 
 
 def test_no_documents_are_embedded_in_the_metadata():

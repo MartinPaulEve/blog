@@ -177,15 +177,26 @@ class BironClient:
             return None
         return None if status is None else status.text
 
-    def deposit(self, collection_url: str, xml: bytes, files=None) -> dict:
-        """Create an eprint from metadata XML, then upload its files.
+    def deposit(
+        self,
+        collection_url: str,
+        xml: bytes,
+        documents=None,
+        make_live: bool = False,
+    ) -> dict:
+        """Create an eprint from metadata XML, then attach its documents.
 
         /sword-app collections read the X-Packaging header; the /id/
         CRUD endpoint keys its import plugin off the Content-Type
-        instead. ``files`` is ``[(filename, mime, bytes)]``, each sent
-        as a raw binary POST to the new eprint's /contents — never as
-        inline base64, which BIROn's importer corrupts. Returns the
-        parsed receipt ``{"eprintid", "url"}``.
+        instead. With ``make_live``, a record the server parked in the
+        workarea is PUT back (same XML, carrying eprint_status archive)
+        while it is still documentless, so nothing can be wiped.
+
+        ``documents`` is ``[{"xml", "filename", "mime", "data"}]``:
+        each document is created from its metadata XML (carrying the
+        required security field) and its bytes arrive as a raw PUT —
+        never as inline base64, which BIROn's importer corrupts.
+        Returns the parsed receipt ``{"eprintid", "url"}``.
         """
         headers = {"X-Packaging": PACKAGING}
         if "/id/" in collection_url:
@@ -195,23 +206,38 @@ class BironClient:
             headers["In-Progress"] = "false"
         else:
             headers["Content-Type"] = "application/xml; charset=utf-8"
-        response = self._send(
-            "post",
-            collection_url,
-            data=xml,
-            headers=headers,
-        )
+        response = self._send("post", collection_url, data=xml, headers=headers)
         receipt = parse_deposit_receipt(response.headers, response.content)
+        eprint_url = f"{self.base_url}/id/eprint/{receipt['eprintid']}"
 
-        for filename, mime, data in files or []:
+        if make_live and self.eprint_status(receipt["eprintid"]) != "archive":
             self._send(
+                "put",
+                eprint_url,
+                data=xml,
+                headers={"Content-Type": "application/vnd.eprints.data+xml"},
+            )
+
+        for document in documents or []:
+            created = self._send(
                 "post",
-                f"{self.base_url}/id/eprint/{receipt['eprintid']}/contents",
-                data=data,
+                f"{eprint_url}/contents",
+                data=document["xml"],
                 headers={
-                    "Content-Type": mime,
-                    "Content-Disposition": f'attachment; filename="{filename}"',
+                    "Content-Type": "application/vnd.eprints.data+xml",
                     "In-Progress": "false",
+                },
+            )
+            doc = parse_deposit_receipt(created.headers, created.content)
+            self._send(
+                "put",
+                f"{self.base_url}/id/document/{doc['eprintid']}/contents",
+                data=document["data"],
+                headers={
+                    "Content-Type": document["mime"],
+                    "Content-Disposition": (
+                        f'attachment; filename="{document["filename"]}"'
+                    ),
                 },
             )
         return receipt

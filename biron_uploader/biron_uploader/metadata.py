@@ -24,7 +24,27 @@ def _el(parent, name, text=None):
     return el
 
 
-def build_eprint_xml(post: Post, url: str) -> bytes:
+def build_document_xml(filename: str, mime_type: str, placement: int) -> bytes:
+    """The metadata XML for one document (its bytes arrive separately).
+
+    Carries the required security (Visible to) field plus the same
+    licence and visibility the existing blog deposits use.
+    """
+    ET.register_namespace("", EP2_NS)
+    root = ET.Element(f"{{{EP2_NS}}}documents")
+    doc = ET.SubElement(root, f"{{{EP2_NS}}}document")
+    _el(doc, "language", "en")
+    _el(doc, "placement", str(placement))
+    _el(doc, "format", "text")
+    _el(doc, "license", "cc_by_4")
+    _el(doc, "content", "published")
+    _el(doc, "security", "public")
+    _el(doc, "main", filename)
+    _el(doc, "mime_type", mime_type)
+    return ET.tostring(root, encoding="utf-8", xml_declaration=True)
+
+
+def build_eprint_xml(post: Post, url: str, status: str | None = None) -> bytes:
     """The metadata-only EPrints XML (ep2 data 2.0) for a deposit.
 
     Deliberately carries no documents: BIROn's importer corrupts base64
@@ -37,6 +57,8 @@ def build_eprint_xml(post: Post, url: str) -> bytes:
     root = ET.Element(f"{{{EP2_NS}}}eprints")
     ep = ET.SubElement(root, f"{{{EP2_NS}}}eprint")
 
+    if status:
+        _el(ep, "eprint_status", status)
     _el(ep, "type", "article")
     _el(ep, "title", post.title)
     abstract = first_paragraph(post.body)

@@ -130,15 +130,19 @@ def test_collection_falls_back_to_crud_when_service_document_fails(monkeypatch):
 
 
 class FakeClient:
-    def __init__(self):
+    def __init__(self, status="archive"):
         self.deposits = []
+        self.status = status
 
-    def deposit(self, collection_url, xml, files=None):
-        self.deposits.append((collection_url, xml, files))
+    def deposit(self, collection_url, xml, documents=None, make_live=False):
+        self.deposits.append((collection_url, xml, documents, make_live))
         return {"eprintid": 58012, "url": "https://eprints.bbk.ac.uk/id/eprint/58012/"}
 
+    def eprint_status(self, eprintid):
+        return self.status
 
-def test_deposit_post_sends_metadata_and_raw_files(tmp_path):
+
+def test_deposit_post_sends_metadata_and_documents_for_live_publication(tmp_path):
     repo = make_repo(tmp_path)
     post_path = add_post(repo, "2026-09-01-eligible.md")
     client = FakeClient()
@@ -146,14 +150,57 @@ def test_deposit_post_sends_metadata_and_raw_files(tmp_path):
         client, post_path, "https://eprints.bbk.ac.uk/id/contents"
     )
     assert receipt["eprintid"] == 58012
-    collection_url, xml, files = client.deposits[0]
+    collection_url, xml, documents, make_live = client.deposits[0]
     assert collection_url.endswith("/id/contents")
     assert b"https://eve.gd/2026/09/01/eligible/" in xml
-    assert b"<data" not in xml  # no base64 payloads in the record XML
-    names = [name for name, mime, data in files]
+    assert b"<data" not in xml  # no base64 payloads anywhere
+    assert make_live is True
+    names = [d["filename"] for d in documents]
     assert names == ["2026-09-01-eligible.pdf", "2026-09-01-eligible.md"]
-    assert files[0][1] == "application/pdf"
-    assert files[0][2] == b"%PDF-fake"
+    assert documents[0]["mime"] == "application/pdf"
+    assert documents[0]["data"] == b"%PDF-fake"
+    assert b"<data" not in documents[0]["xml"]
+    assert b"public" in documents[0]["xml"]  # the required Visible-to field
+
+
+# --- finalise: stamp or ledger ---------------------------------------------
+
+
+STUB_APPLY_BIRON = '''
+def insert_biron(text, biron=None):
+    return text.replace("---\\n\\n", f"biron: {biron}\\n---\\n\\n", 1)
+'''
+
+
+def test_finalise_stamps_the_post_when_the_record_is_live(tmp_path):
+    repo = make_repo(tmp_path)
+    post_path = add_post(repo, "2026-09-01-eligible.md")
+    (repo / "_biron" / "apply_biron.py").write_text(STUB_APPLY_BIRON)
+    line = cli.finalise(
+        FakeClient(status="archive"),
+        post_path,
+        {"eprintid": 58012, "url": "https://eprints.bbk.ac.uk/id/eprint/58012/"},
+        "https://eprints.bbk.ac.uk",
+    )
+    assert "biron: https://eprints.bbk.ac.uk/id/eprint/58012/" in post_path.read_text()
+    assert "58012" in line and "live" in line.lower()
+    assert load_ledger(repo / "_biron" / "deposited.yml") == {}
+
+
+def test_finalise_ledgers_the_post_when_still_in_review(tmp_path):
+    repo = make_repo(tmp_path)
+    post_path = add_post(repo, "2026-09-01-eligible.md")
+    line = cli.finalise(
+        FakeClient(status="buffer"),
+        post_path,
+        {"eprintid": 58012, "url": "https://eprints.bbk.ac.uk/id/eprint/58012/"},
+        "https://eprints.bbk.ac.uk",
+    )
+    assert "biron:" not in post_path.read_text()
+    assert load_ledger(repo / "_biron" / "deposited.yml") == {
+        "2026-09-01-eligible.md": 58012
+    }
+    assert "buffer" in line
 
 
 # --- deposit reporting -----------------------------------------------------

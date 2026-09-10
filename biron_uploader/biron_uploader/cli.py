@@ -10,6 +10,7 @@ the repository's SWORD inbox.
 """
 
 import argparse
+import importlib.util
 import os
 import re
 import sys
@@ -26,7 +27,7 @@ from kcworks_uploader.posts import (
 
 from .client import BASE_URL, PACKAGING, BironClient, BironError
 from .ledger import load_ledger, prune_ledger, record_deposit
-from .metadata import build_eprint_xml
+from .metadata import build_document_xml, build_eprint_xml
 
 LEDGER_PATH = "_biron/deposited.yml"
 SKIP_PATH = "_biron/skip.yml"
@@ -58,8 +59,19 @@ def deposit_post(
         (pdf.name, "application/pdf", pdf.read_bytes()),
         (post_path.name, "text/plain", post_path.read_bytes()),
     ]
-    xml = build_eprint_xml(post, canonical_url(slug))
-    return client.deposit(collection_url, xml, files=files)
+    xml = build_eprint_xml(post, canonical_url(slug), status="archive")
+    documents = [
+        {
+            "xml": build_document_xml(filename, mime, placement),
+            "filename": filename,
+            "mime": mime,
+            "data": data,
+        }
+        for placement, (filename, mime, data) in enumerate(files, 1)
+    ]
+    return client.deposit(
+        collection_url, xml, documents=documents, make_live=True
+    )
 
 
 def posts_to_deposit(repo_root: Path) -> list[Path]:
@@ -180,6 +192,42 @@ def _describe(receipt: dict, status: str | None, base_url: str) -> str:
     return f"Deposited: {receipt['url']}"
 
 
+def _stamp_biron(repo_root: Path, post_path: Path, biron_url: str) -> None:
+    """Write the biron: front-matter key using _biron's insertion logic."""
+    spec = importlib.util.spec_from_file_location(
+        "apply_biron", Path(repo_root) / "_biron" / "apply_biron.py"
+    )
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    text = post_path.read_text(encoding="utf-8")
+    post_path.write_text(
+        module.insert_biron(text, biron=biron_url), encoding="utf-8"
+    )
+
+
+def finalise(client, post_path: Path, receipt: dict, base_url: str) -> str:
+    """Stamp the post when its record went live; ledger it otherwise.
+
+    Live records get the biron: key immediately (the link resolves right
+    away); anything still in review goes into deposited.yml so it is not
+    resent, and the _biron sweep stamps it once approved.
+    """
+    post_path = Path(post_path)
+    repo_root = post_path.parent.parent
+    status = client.eprint_status(receipt["eprintid"])
+    if status == "archive":
+        _stamp_biron(
+            repo_root,
+            post_path,
+            f"{base_url}/id/eprint/{receipt['eprintid']}/",
+        )
+        return _describe(receipt, status, base_url) + " — biron: link stamped"
+    record_deposit(
+        repo_root / LEDGER_PATH, post_path.name, receipt["eprintid"]
+    )
+    return _describe(receipt, status, base_url)
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description="Deposit one post to BIROn")
     parser.add_argument("post", type=Path)
@@ -207,10 +255,7 @@ def main(argv=None):
     client = _client_from_env(args.base_url)
     collection = _resolve_collection(client, args)
     receipt = deposit_post(client, args.post, collection, pdf_path=args.pdf)
-    record_deposit(
-        args.post.parent.parent / LEDGER_PATH, args.post.name, receipt["eprintid"]
-    )
-    print(_describe(receipt, client.eprint_status(receipt["eprintid"]), args.base_url))
+    print(finalise(client, args.post, receipt, args.base_url))
     return 0
 
 
@@ -251,13 +296,5 @@ def backfill_main(argv=None):
             continue
         except BironError as exc:
             sys.exit(f"FAILED {path.name}: {exc}")
-        record_deposit(args.root / LEDGER_PATH, path.name, receipt["eprintid"])
-        print(
-            f"{path.name}: "
-            + _describe(
-                receipt,
-                client.eprint_status(receipt["eprintid"]),
-                args.base_url,
-            )
-        )
+        print(f"{path.name}: " + finalise(client, path, receipt, args.base_url))
     return 0
