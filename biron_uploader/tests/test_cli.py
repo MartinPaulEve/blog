@@ -133,21 +133,56 @@ class FakeClient:
     def __init__(self):
         self.deposits = []
 
-    def deposit(self, collection_url, xml):
-        self.deposits.append((collection_url, xml))
+    def deposit(self, collection_url, xml, files=None):
+        self.deposits.append((collection_url, xml, files))
         return {"eprintid": 58012, "url": "https://eprints.bbk.ac.uk/id/eprint/58012/"}
 
 
-def test_deposit_post_sends_pdf_and_markdown(tmp_path):
+def test_deposit_post_sends_metadata_and_raw_files(tmp_path):
     repo = make_repo(tmp_path)
     post_path = add_post(repo, "2026-09-01-eligible.md")
     client = FakeClient()
     receipt = deposit_post(
-        client, post_path, "https://eprints.bbk.ac.uk/sword-app/deposit/inbox"
+        client, post_path, "https://eprints.bbk.ac.uk/id/contents"
     )
     assert receipt["eprintid"] == 58012
-    collection_url, xml = client.deposits[0]
-    assert collection_url.endswith("/deposit/inbox")
-    assert b"2026-09-01-eligible.md" in xml
-    assert b"2026-09-01-eligible.pdf" in xml
+    collection_url, xml, files = client.deposits[0]
+    assert collection_url.endswith("/id/contents")
     assert b"https://eve.gd/2026/09/01/eligible/" in xml
+    assert b"<data" not in xml  # no base64 payloads in the record XML
+    names = [name for name, mime, data in files]
+    assert names == ["2026-09-01-eligible.pdf", "2026-09-01-eligible.md"]
+    assert files[0][1] == "application/pdf"
+    assert files[0][2] == b"%PDF-fake"
+
+
+# --- deposit reporting -----------------------------------------------------
+
+
+def test_describe_live_record_uses_the_public_url():
+    line = cli._describe(
+        {"eprintid": 58012, "url": "https://eprints.bbk.ac.uk/id/eprint/58012/"},
+        "archive",
+        "https://eprints.bbk.ac.uk",
+    )
+    assert "https://eprints.bbk.ac.uk/58012/" in line
+    assert "live" in line.lower()
+
+
+def test_describe_pending_record_uses_the_workflow_url():
+    line = cli._describe(
+        {"eprintid": 58012, "url": "https://eprints.bbk.ac.uk/id/eprint/58012/"},
+        "inbox",
+        "https://eprints.bbk.ac.uk",
+    )
+    assert "eprintid=58012" in line
+    assert "inbox" in line
+
+
+def test_describe_unknown_status_falls_back_to_the_receipt_url():
+    line = cli._describe(
+        {"eprintid": 58012, "url": "https://eprints.bbk.ac.uk/id/eprint/58012/"},
+        None,
+        "https://eprints.bbk.ac.uk",
+    )
+    assert "https://eprints.bbk.ac.uk/id/eprint/58012/" in line

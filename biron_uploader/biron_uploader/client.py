@@ -159,12 +159,33 @@ class BironClient:
         )
         return parse_service_document(response.content)
 
-    def deposit(self, collection_url: str, xml: bytes) -> dict:
-        """POST an EPrints XML package to a collection.
+    def eprint_status(self, eprintid: int) -> str | None:
+        """The eprint_status of a record, or None when unreadable."""
+        response = self._session.get(
+            f"{self.base_url}/id/eprint/{eprintid}",
+            **self._credentials(
+                {"headers": {"Accept": "application/vnd.eprints.data+xml"}}
+            ),
+        )
+        if response.status_code != 200:
+            return None
+        try:
+            status = ET.fromstring(response.content).find(
+                ".//{http://eprints.org/ep2/data/2.0}eprint_status"
+            )
+        except ET.ParseError:
+            return None
+        return None if status is None else status.text
+
+    def deposit(self, collection_url: str, xml: bytes, files=None) -> dict:
+        """Create an eprint from metadata XML, then upload its files.
 
         /sword-app collections read the X-Packaging header; the /id/
         CRUD endpoint keys its import plugin off the Content-Type
-        instead. Returns the parsed receipt ``{"eprintid", "url"}``.
+        instead. ``files`` is ``[(filename, mime, bytes)]``, each sent
+        as a raw binary POST to the new eprint's /contents — never as
+        inline base64, which BIROn's importer corrupts. Returns the
+        parsed receipt ``{"eprintid", "url"}``.
         """
         headers = {"X-Packaging": PACKAGING}
         if "/id/" in collection_url:
@@ -180,4 +201,17 @@ class BironClient:
             data=xml,
             headers=headers,
         )
-        return parse_deposit_receipt(response.headers, response.content)
+        receipt = parse_deposit_receipt(response.headers, response.content)
+
+        for filename, mime, data in files or []:
+            self._send(
+                "post",
+                f"{self.base_url}/id/eprint/{receipt['eprintid']}/contents",
+                data=data,
+                headers={
+                    "Content-Type": mime,
+                    "Content-Disposition": f'attachment; filename="{filename}"',
+                    "In-Progress": "false",
+                },
+            )
+        return receipt

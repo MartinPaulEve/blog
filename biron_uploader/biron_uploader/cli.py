@@ -58,8 +58,8 @@ def deposit_post(
         (pdf.name, "application/pdf", pdf.read_bytes()),
         (post_path.name, "text/plain", post_path.read_bytes()),
     ]
-    xml = build_eprint_xml(post, canonical_url(slug), files)
-    return client.deposit(collection_url, xml)
+    xml = build_eprint_xml(post, canonical_url(slug))
+    return client.deposit(collection_url, xml, files=files)
 
 
 def posts_to_deposit(repo_root: Path) -> list[Path]:
@@ -162,6 +162,24 @@ def probe_main(argv=None):
     return 0 if sword_ok or status == 200 else 1
 
 
+def _describe(receipt: dict, status: str | None, base_url: str) -> str:
+    """A human line for where the deposit landed, with a URL that works.
+
+    The /id/eprint/NNN form only resolves once a record is public, so
+    pending records get the workflow view URL instead.
+    """
+    eprintid = receipt["eprintid"]
+    if status == "archive":
+        return f"Deposited live: {base_url}/{eprintid}/"
+    if status in ("inbox", "buffer"):
+        return (
+            f"Deposited to {status} (awaiting review): "
+            f"{base_url}/cgi/users/home?screen=EPrint::View"
+            f"&eprintid={eprintid}"
+        )
+    return f"Deposited: {receipt['url']}"
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description="Deposit one post to BIROn")
     parser.add_argument("post", type=Path)
@@ -192,7 +210,7 @@ def main(argv=None):
     record_deposit(
         args.post.parent.parent / LEDGER_PATH, args.post.name, receipt["eprintid"]
     )
-    print(f"Deposited: {receipt['url']} (awaiting review)")
+    print(_describe(receipt, client.eprint_status(receipt["eprintid"]), args.base_url))
     return 0
 
 
@@ -234,5 +252,12 @@ def backfill_main(argv=None):
         except BironError as exc:
             sys.exit(f"FAILED {path.name}: {exc}")
         record_deposit(args.root / LEDGER_PATH, path.name, receipt["eprintid"])
-        print(f"deposited {path.name} -> {receipt['url']}")
+        print(
+            f"{path.name}: "
+            + _describe(
+                receipt,
+                client.eprint_status(receipt["eprintid"]),
+                args.base_url,
+            )
+        )
     return 0

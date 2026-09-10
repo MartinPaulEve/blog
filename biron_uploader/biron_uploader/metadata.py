@@ -8,7 +8,6 @@ Culture and Communication), and two CC BY 4.0 public documents — the
 built PDF edition and the markdown source.
 """
 
-import base64
 import xml.etree.ElementTree as ET
 
 from kcworks_uploader.posts import Post, first_paragraph
@@ -25,17 +24,14 @@ def _el(parent, name, text=None):
     return el
 
 
-def build_eprint_xml(
-    post: Post,
-    url: str,
-    files: list[tuple[str, str, bytes]],
-) -> bytes:
-    """The EPrints XML (ep2 data 2.0) payload for a SWORD deposit.
+def build_eprint_xml(post: Post, url: str) -> bytes:
+    """The metadata-only EPrints XML (ep2 data 2.0) for a deposit.
 
-    ``files`` is a list of (filename, mime_type, content) attachments;
-    each becomes its own public, published, CC BY 4.0 document with the
-    file embedded base64. The DOI becomes id_number when the post has
-    one; the abstract is the post's first paragraph when it has one.
+    Deliberately carries no documents: BIROn's importer corrupts base64
+    file payloads (it strips + and / before decoding), so attachments
+    are uploaded separately as raw binary POSTs to the new eprint's
+    /contents. The DOI becomes id_number when the post has one; the
+    abstract is the post's first paragraph when it has one.
     """
     ET.register_namespace("", EP2_NS)
     root = ET.Element(f"{{{EP2_NS}}}eprints")
@@ -64,22 +60,5 @@ def build_eprint_xml(
         _el(ep, "id_number", post.doi)
     _el(ep, "oa_status", "gold")
     _el(ep, "full_text_status", "public")
-
-    documents = _el(ep, "documents")
-    for placement, (filename, mime_type, content) in enumerate(files, 1):
-        doc = _el(documents, "document")
-        _el(doc, "language", "en")
-        _el(doc, "placement", str(placement))
-        _el(doc, "format", "text")
-        _el(doc, "license", "cc_by_4")
-        _el(doc, "content", "published")
-        _el(doc, "security", "public")
-        _el(doc, "main", filename)
-        _el(doc, "mime_type", mime_type)
-        file_el = _el(_el(doc, "files"), "file")
-        _el(file_el, "filename", filename)
-        _el(file_el, "mime_type", mime_type)
-        data = _el(file_el, "data", base64.b64encode(content).decode("ascii"))
-        data.set("encoding", "base64")
 
     return ET.tostring(root, encoding="utf-8", xml_declaration=True)

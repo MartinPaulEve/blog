@@ -182,6 +182,60 @@ def test_deposit_to_id_contents_uses_eprints_data_content_type():
     assert kwargs["headers"]["In-Progress"] == "false"
 
 
+def test_deposit_uploads_files_raw_after_creating_the_eprint():
+    # BIROn's importer corrupts base64 payloads (strips + and / before
+    # decoding), so files go up as raw binary POSTs to the new eprint's
+    # /contents — a decode-free path.
+    create_url = f"{BASE}/id/contents"
+    files_url = f"{BASE}/id/eprint/58012/contents"
+    session = FakeSession(
+        {
+            ("POST", create_url): FakeResponse(201, DEPOSIT_ENTRY),
+            ("POST", files_url): FakeResponse(201, b""),
+        }
+    )
+    receipt = make_client(session).deposit(
+        create_url,
+        b"<eprints/>",
+        files=[
+            ("post.pdf", "application/pdf", b"%PDF-raw"),
+            ("post.md", "text/plain", b"# markdown"),
+        ],
+    )
+    assert receipt["eprintid"] == 58012
+    uploads = [s for s in session.sent if s[1] == files_url]
+    assert len(uploads) == 2
+    _method, _url, kwargs = uploads[0]
+    assert kwargs["data"] == b"%PDF-raw"
+    assert kwargs["headers"]["Content-Type"] == "application/pdf"
+    assert kwargs["headers"]["Content-Disposition"] == (
+        'attachment; filename="post.pdf"'
+    )
+    _method, _url, kwargs = uploads[1]
+    assert kwargs["data"] == b"# markdown"
+
+
+EPRINT_STATUS_XML = b"""<?xml version='1.0' encoding='utf-8'?>
+<eprints xmlns='http://eprints.org/ep2/data/2.0'>
+  <eprint><eprint_status>archive</eprint_status></eprint>
+</eprints>
+"""
+
+
+def test_eprint_status_reads_the_record():
+    session = FakeSession(
+        {("GET", f"{BASE}/id/eprint/58012"): FakeResponse(200, EPRINT_STATUS_XML)}
+    )
+    assert make_client(session).eprint_status(58012) == "archive"
+
+
+def test_eprint_status_is_none_when_unreadable():
+    session = FakeSession(
+        {("GET", f"{BASE}/id/eprint/58012"): FakeResponse(404, b"gone")}
+    )
+    assert make_client(session).eprint_status(58012) is None
+
+
 def test_contents_status_reports_the_http_code_without_raising():
     session = FakeSession(
         {("GET", f"{BASE}/id/contents"): FakeResponse(401, b"denied")}
