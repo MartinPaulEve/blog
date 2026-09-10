@@ -1,0 +1,123 @@
+/* Short thoughts (_data/thoughts.yml): sidebar widget, homepage block,
+   and the /thoughts/ list page.
+   Deliberately OUTSIDE the PDF-hashed stylesheet set (blog-post.css,
+   styles.css): the latest thought changes between deploys and must not
+   disturb the PDF cache key — see _plugins/pdf_pages.rb. */
+
+/* --- sidebar widget ----------------------------------------------------- */
+
+.thought-widget {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.thought-widget .thought-text {
+    margin: 0 0 0.5rem;
+    overflow-wrap: break-word;
+}
+
+.thought-widget .thought-permalink {
+    display: inline-block;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-decoration: underline;
+}
+
+.thought-widget .thought-permalink:hover {
+    color: var(--accent-secondary);
+}
+
+.thought-images {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin: 0.5rem 0;
+}
+
+.thought-images img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.thought-widget .thought-images img {
+    max-height: 8rem;
+    width: auto;
+}
+
+/* --- homepage block ------------------------------------------------------ */
+
+.home-thought {
+    padding: 1.5rem 0 2.5rem;
+}
+
+.home-thought-kicker {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    display: block;
+    margin-bottom: 0.4rem;
+}
+
+.home-thought-text {
+    font-family: var(--font-serif);
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    max-width: 42rem;
+    margin: 0 0 0.4rem;
+    overflow-wrap: break-word;
+}
+
+.home-thought-link {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-decoration: none;
+}
+
+.home-thought-link:hover {
+    color: var(--accent-secondary);
+    text-decoration: underline;
+}
+
+/* --- /thoughts/ list page ------------------------------------------------ */
+
+.thoughts-list {
+    max-width: 42rem;
+}
+
+.thought-entry {
+    padding: 1.25rem 0;
+    border-bottom: 1px solid var(--border-color, #e5e5e5);
+}
+
+.thought-entry:last-child {
+    border-bottom: none;
+}
+
+.thought-entry .thought-text {
+    margin: 0 0 0.5rem;
+    overflow-wrap: break-word;
+}
+
+.thought-entry .thought-images img {
+    max-height: 20rem;
+    width: auto;
+}
+
+.thought-meta {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+.thought-meta a {
+    color: var(--text-muted);
+    text-decoration: underline;
+}
+
+.thought-meta a:hover {
+    color: var(--accent-secondary);
+}

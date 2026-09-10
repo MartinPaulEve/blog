@@ -79,6 +79,23 @@
         </div>
     </section>
 
+    {% comment %} The most recent short thought — deliberately quiet,
+    tucked under the recent-writing grid. Raw text via linkify_urls;
+    thoughts.css stays out of the PDF-hashed stylesheet set. {% endcomment %}
+    {% assign thought = site.data.thoughts | first %}
+    {% if thought %}
+    <link rel="stylesheet" href="/assets/css/thoughts.css?v={{ site.time | date: '%s' }}">
+    <section class="home-thought">
+        <div class="container">
+            <span class="home-thought-kicker">Short thought</span>
+            <p class="home-thought-text">{{ thought.text | linkify_urls }}</p>
+            <a class="home-thought-link" href="/thoughts/#t{{ thought.id }}">
+                <time datetime="{{ thought.date }}">{{ thought.date | date: "%-d %B %Y" }}</time> &middot; all thoughts &rarr;
+            </a>
+        </div>
+    </section>
+    {% endif %}
+
     <!-- Latest book -->
     <section class="feature-book">
         <div class="container feature-book-inner">

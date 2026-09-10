@@ -1,0 +1,29 @@
+{% comment %}
+  The most recent short thought (_data/thoughts.yml, written by
+  ./thought.sh). The text is the author's raw writing: linkify_urls
+  escapes it and makes bare URLs clickable, nothing more.
+
+  Like the Last.fm widget, every scrap of this markup stays inside the
+  post sidebar — which pdf_pages.rb strips from the PDF cache key — and
+  the stylesheet is linked here rather than in _head.html, so posting a
+  thought never re-renders the archival PDFs. thoughts.css must likewise
+  stay out of the PDF-hashed stylesheet set (blog-post.css, styles.css).
+{% endcomment %}
+{% assign thought = site.data.thoughts | first %}
+{% if thought %}
+<link rel="stylesheet" href="/assets/css/thoughts.css?v={{ site.time | date: '%s' }}">
+<div class="sidebar-widget thought-widget h-entry">
+    <h3>Short thought</h3>
+    <p class="thought-text e-content">{{ thought.text | linkify_urls }}</p>
+    {% if thought.images %}
+    <div class="thought-images">
+        {% for image in thought.images %}
+        <img src="{{ image.src }}" alt="{{ image.alt | escape }}" loading="lazy">
+        {% endfor %}
+    </div>
+    {% endif %}
+    <a class="thought-permalink u-url" href="/thoughts/#t{{ thought.id }}">
+        <time class="dt-published" datetime="{{ thought.date }}">{{ thought.date | date: "%-d %B %Y, %H:%M" }}</time>
+    </a>
+</div>
+{% endif %}
