@@ -166,17 +166,18 @@ class BironClient:
         CRUD endpoint keys its import plugin off the Content-Type
         instead. Returns the parsed receipt ``{"eprintid", "url"}``.
         """
+        headers = {"X-Packaging": PACKAGING}
         if "/id/" in collection_url:
-            content_type = "application/vnd.eprints.data+xml"
+            headers["Content-Type"] = "application/vnd.eprints.data+xml"
+            # SWORD2 semantics: the deposit is complete, not a work in
+            # progress to be held in the depositor's workarea.
+            headers["In-Progress"] = "false"
         else:
-            content_type = "application/xml; charset=utf-8"
+            headers["Content-Type"] = "application/xml; charset=utf-8"
         response = self._send(
             "post",
             collection_url,
             data=xml,
-            headers={
-                "Content-Type": content_type,
-                "X-Packaging": PACKAGING,
-            },
+            headers=headers,
         )
         return parse_deposit_receipt(response.headers, response.content)

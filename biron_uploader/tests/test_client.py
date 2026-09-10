@@ -177,6 +177,9 @@ def test_deposit_to_id_contents_uses_eprints_data_content_type():
     assert kwargs["headers"]["Content-Type"].startswith(
         "application/vnd.eprints.data+xml"
     )
+    # SWORD2 semantics: the deposit is complete, not a work in progress
+    # to be held in the depositor's workarea.
+    assert kwargs["headers"]["In-Progress"] == "false"
 
 
 def test_contents_status_reports_the_http_code_without_raising():

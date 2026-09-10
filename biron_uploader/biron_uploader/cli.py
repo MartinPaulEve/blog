@@ -24,7 +24,7 @@ from kcworks_uploader.posts import (
     post_slug,
 )
 
-from .client import BASE_URL, BironClient, BironError
+from .client import BASE_URL, PACKAGING, BironClient, BironError
 from .ledger import load_ledger, prune_ledger, record_deposit
 from .metadata import build_eprint_xml
 
@@ -97,12 +97,27 @@ def _client_from_env(base_url: str) -> BironClient:
     )
 
 
-def _collection_url(args) -> str:
-    return (
-        args.collection
-        or os.environ.get("BIRON_COLLECTION")
-        or f"{args.base_url.rstrip('/')}/sword-app/deposit/inbox"
-    )
+def _resolve_collection(client, args, echo=print) -> str:
+    """The deposit collection URL: explicit setting, else discovered.
+
+    --collection and $BIRON_COLLECTION win; otherwise the service
+    document's first collection accepting EPrints XML packaging is
+    used (BIROn advertises /id/contents there), falling back to the
+    CRUD endpoint when the service document is unreadable.
+    """
+    explicit = args.collection or os.environ.get("BIRON_COLLECTION")
+    if explicit:
+        return explicit
+    fallback = f"{args.base_url.rstrip('/')}/id/contents"
+    try:
+        collections = client.service_document()
+    except BironError as exc:
+        echo(f"(service document unreadable, using {fallback}: {exc})")
+        return fallback
+    for collection in collections:
+        if PACKAGING in collection["packaging"]:
+            return collection["href"]
+    return collections[0]["href"] if collections else fallback
 
 
 def _common_args(parser):
@@ -155,8 +170,9 @@ def main(argv=None):
     args = parser.parse_args(argv)
 
     slug = post_slug(args.post)
-    collection = _collection_url(args)
     if args.dry_run:
+        explicit = args.collection or os.environ.get("BIRON_COLLECTION")
+        collection = explicit or "(discovered from the service document)"
         post = parse_post(args.post)
         try:
             pdf = args.pdf or find_pdf(args.post.parent.parent, slug)
@@ -171,6 +187,7 @@ def main(argv=None):
         return 0
 
     client = _client_from_env(args.base_url)
+    collection = _resolve_collection(client, args)
     receipt = deposit_post(client, args.post, collection, pdf_path=args.pdf)
     record_deposit(
         args.post.parent.parent / LEDGER_PATH, args.post.name, receipt["eprintid"]
@@ -207,7 +224,7 @@ def backfill_main(argv=None):
         return 0
 
     client = _client_from_env(args.base_url)
-    collection = _collection_url(args)
+    collection = _resolve_collection(client, args)
     for path in pending:
         try:
             receipt = deposit_post(client, path, collection)

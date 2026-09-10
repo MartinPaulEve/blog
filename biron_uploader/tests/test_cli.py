@@ -1,5 +1,6 @@
 import textwrap
 
+from biron_uploader import cli
 from biron_uploader.cli import deposit_post, posts_to_deposit
 from biron_uploader.ledger import load_ledger, prune_ledger, record_deposit
 
@@ -76,6 +77,53 @@ def test_posts_to_deposit_works_without_ledger_or_skip_files(tmp_path):
     repo = make_repo(tmp_path)
     eligible = add_post(repo, "2026-09-01-eligible.md")
     assert posts_to_deposit(repo) == [eligible]
+
+
+# --- collection resolution -------------------------------------------------
+
+
+class Args:
+    collection = None
+    base_url = "https://eprints.example.org"
+
+
+def test_explicit_collection_wins(monkeypatch):
+    monkeypatch.setenv("BIRON_COLLECTION", "https://x.example/id/contents")
+    args = Args()
+    assert cli._resolve_collection(None, args) == "https://x.example/id/contents"
+    args.collection = "https://y.example/sword-app/deposit/inbox"
+    assert cli._resolve_collection(None, args) == (
+        "https://y.example/sword-app/deposit/inbox"
+    )
+
+
+def test_collection_discovered_from_service_document(monkeypatch):
+    monkeypatch.delenv("BIRON_COLLECTION", raising=False)
+
+    class FakeClient:
+        def service_document(self):
+            return [
+                {"href": "https://e.example/zips", "title": "Zips",
+                 "packaging": ["application/zip"]},
+                {"href": "https://e.example/id/contents", "title": "Eprints",
+                 "packaging": ["http://eprints.org/ep2/data/2.0"]},
+            ]
+
+    assert cli._resolve_collection(FakeClient(), Args()) == (
+        "https://e.example/id/contents"
+    )
+
+
+def test_collection_falls_back_to_crud_when_service_document_fails(monkeypatch):
+    monkeypatch.delenv("BIRON_COLLECTION", raising=False)
+
+    class FailingClient:
+        def service_document(self):
+            raise cli.BironError("401")
+
+    assert cli._resolve_collection(FailingClient(), Args()) == (
+        "https://eprints.example.org/id/contents"
+    )
 
 
 # --- deposit_post ----------------------------------------------------------
