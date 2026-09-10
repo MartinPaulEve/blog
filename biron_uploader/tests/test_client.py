@@ -115,9 +115,63 @@ def test_parse_deposit_receipt_falls_back_to_atom_id():
     }
 
 
+def test_parse_deposit_receipt_handles_contents_location_suffix():
+    # BIROn answers document creation with Location .../NNN/contents and
+    # an un-namespaced <entry> body.
+    receipt = parse_deposit_receipt(
+        {"Location": "https://eprints.example.org/id/document/2191159/contents"},
+        b"",
+    )
+    assert receipt == {
+        "eprintid": 2191159,
+        "url": "https://eprints.example.org/id/document/2191159/",
+    }
+
+
+def test_parse_deposit_receipt_reads_unnamespaced_entries():
+    body = (
+        b'<?xml version="1.0" encoding="utf-8" ?>\n<entry>\n'
+        b"  <id>https://eprints.example.org/id/document/2191159</id>\n"
+        b"  <title>  Text</title>\n</entry>"
+    )
+    receipt = parse_deposit_receipt({}, body)
+    assert receipt["eprintid"] == 2191159
+
+
+def test_parse_deposit_receipt_falls_back_to_body_when_location_is_odd():
+    receipt = parse_deposit_receipt(
+        {"Location": "https://eprints.example.org/cgi/somewhere"},
+        DEPOSIT_ENTRY,
+    )
+    assert receipt["eprintid"] == 58012
+
+
 def test_parse_deposit_receipt_without_any_id_raises():
     with pytest.raises(BironError):
         parse_deposit_receipt({}, b"<html>login page</html>")
+
+
+def test_document_step_failure_names_the_created_eprint():
+    create_url = f"{BASE}/id/contents"
+    doc_create_url = f"{BASE}/id/eprint/58012/contents"
+    session = FakeSession(
+        {
+            ("POST", create_url): FakeResponse(201, DEPOSIT_ENTRY),
+            ("POST", doc_create_url): FakeResponse(400, b"bad document"),
+        }
+    )
+    with pytest.raises(BironError) as exc:
+        make_client(session).deposit(
+            create_url,
+            b"<eprints/>",
+            documents=[
+                {"xml": b"<documents/>", "filename": "a.pdf",
+                 "mime": "application/pdf", "data": b"x"}
+            ],
+        )
+    message = str(exc.value)
+    assert "58012" in message
+    assert "delete" in message.lower()
 
 
 # --- client ----------------------------------------------------------------

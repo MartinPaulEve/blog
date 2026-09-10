@@ -45,30 +45,33 @@ def parse_service_document(xml: bytes) -> list[dict]:
 
 
 def parse_deposit_receipt(headers: dict, body: bytes) -> dict:
-    """The new eprint's identity from a SWORD deposit response.
+    """The new object's identity from a SWORD/CRUD deposit response.
 
     Returns ``{"eprintid", "url"}`` where url is the canonical
-    https://eprints.bbk.ac.uk/id/eprint/NNNNN/ form. The id is taken
-    from the Location header when present, else from the Atom entry id.
+    /id/<dataset>/NNNNN/ form. The id comes from the Location header or
+    the entry id in the body — BIROn variously answers with a Location
+    carrying a /contents suffix and with un-namespaced <entry> bodies,
+    so both are normalized.
     """
     candidates = []
     if headers.get("Location"):
         candidates.append(headers["Location"])
-    else:
-        try:
-            atom_id = ET.fromstring(body).find(f"{ATOM_NS}id")
-        except ET.ParseError:
-            atom_id = None
-        if atom_id is not None and atom_id.text:
-            candidates.append(atom_id.text)
+    try:
+        root = ET.fromstring(body)
+    except ET.ParseError:
+        root = None
+    if root is not None:
+        for tag in (f"{ATOM_NS}id", "id"):
+            entry_id = root.find(tag)
+            if entry_id is not None and entry_id.text:
+                candidates.append(entry_id.text)
 
     for candidate in candidates:
-        m = EPRINT_URL_RE.match(candidate.strip())
+        candidate = candidate.strip().rstrip("/")
+        candidate = candidate.removesuffix("/contents")
+        m = re.search(r"/(\d+)$", candidate)
         if m:
-            return {
-                "eprintid": int(m.group(1)),
-                "url": candidate.strip().rstrip("/") + "/",
-            }
+            return {"eprintid": int(m.group(1)), "url": candidate + "/"}
     raise BironError(
         "deposit response carried no eprint id "
         f"(Location: {headers.get('Location')!r}; body starts "
@@ -218,26 +221,33 @@ class BironClient:
                 headers={"Content-Type": "application/vnd.eprints.data+xml"},
             )
 
-        for document in documents or []:
-            created = self._send(
-                "post",
-                f"{eprint_url}/contents",
-                data=document["xml"],
-                headers={
-                    "Content-Type": "application/vnd.eprints.data+xml",
-                    "In-Progress": "false",
-                },
-            )
-            doc = parse_deposit_receipt(created.headers, created.content)
-            self._send(
-                "put",
-                f"{self.base_url}/id/document/{doc['eprintid']}/contents",
-                data=document["data"],
-                headers={
-                    "Content-Type": document["mime"],
-                    "Content-Disposition": (
-                        f'attachment; filename="{document["filename"]}"'
-                    ),
-                },
-            )
+        try:
+            for document in documents or []:
+                created = self._send(
+                    "post",
+                    f"{eprint_url}/contents",
+                    data=document["xml"],
+                    headers={
+                        "Content-Type": "application/vnd.eprints.data+xml",
+                        "In-Progress": "false",
+                    },
+                )
+                doc = parse_deposit_receipt(created.headers, created.content)
+                self._send(
+                    "put",
+                    f"{self.base_url}/id/document/{doc['eprintid']}/contents",
+                    data=document["data"],
+                    headers={
+                        "Content-Type": document["mime"],
+                        "Content-Disposition": (
+                            f'attachment; filename="{document["filename"]}"'
+                        ),
+                    },
+                )
+        except BironError as exc:
+            raise BironError(
+                f"eprint {receipt['eprintid']} was created but attaching "
+                f"{document['filename']} failed — delete the record "
+                f"({receipt['url']}) before retrying. Cause: {exc}"
+            ) from exc
         return receipt
