@@ -1,5 +1,5 @@
 {
- "last_wm_id": 2030744,
+ "last_wm_id": 2030773,
  "targets": {
   "/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/": {
    "bookmarks": [],
@@ -103,8 +103,18 @@
     }
    ],
    "replies": [],
-   "reposts": []
+   "reposts": [
+    {
+     "author_name": "Terence Eden",
+     "author_url": "https://bsky.app/profile/edent.tel",
+     "avatar": "/images/webmentions/bfa1852ad9799f00.jpg",
+     "published": "2026-09-09T22:34:41+00:00",
+     "text": "Shared a post by   \n    bsky.brid.gy/web/did:plc:hn...\n    \n    \n  \nCrossref Member Practices feedback: without digital preservation, there is no digital persistence eve.gd/2026/09/09/c...",
+     "url": "https://bsky.app/profile/did:plc:hnpt7ns2lecdujegbi6qkqqm/post/3mv46fekq4s26#reposted_by_did:plc:i6misxex577k4q6o7gloen4s",
+     "wm_id": 2030773
+    }
+   ]
   }
  },
- "updated": "2026-09-09T20:20:06+00:00"
+ "updated": "2026-09-10T09:01:11+00:00"
 }
