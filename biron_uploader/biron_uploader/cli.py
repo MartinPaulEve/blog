@@ -25,6 +25,7 @@ from kcworks_uploader.posts import (
     post_slug,
 )
 
+from . import cookiejar
 from .client import BASE_URL, PACKAGING, BironClient, BironError
 from .ledger import load_ledger, prune_ledger, record_deposit
 from .metadata import build_document_xml, build_eprint_xml
@@ -95,18 +96,58 @@ def posts_to_deposit(repo_root: Path) -> list[Path]:
     ]
 
 
-def _client_from_env(base_url: str) -> BironClient:
-    cookie = os.environ.get("BIRON_COOKIE")
+def _resolve_cookie(root: Path) -> tuple[str | None, str | None]:
+    """The session cookie and its source ("env" or "file").
+
+    An explicit BIRON_COOKIE value wins; "auto"/"browser" (or no
+    setting) defers to the harvested .biron_cookie file.
+    """
+    env = (os.environ.get("BIRON_COOKIE") or "").strip()
+    if env and env.lower() not in ("auto", "browser"):
+        return env, "env"
+    file_cookie = cookiejar.read_cookie_file(root)
+    if file_cookie:
+        return file_cookie, "file"
+    return None, None
+
+
+def _ensure_client(base_url: str, root: Path, echo=print) -> BironClient:
+    """A client with working credentials, refreshing the cookie if stale.
+
+    Cookie-based sessions are verified against /id/contents; a stale
+    harvested cookie triggers a silent headless re-login through the
+    dedicated browser profile. Basic credentials are used as-is.
+    """
+    cookie, source = _resolve_cookie(root)
     username = os.environ.get("BIRON_USERNAME")
     password = os.environ.get("BIRON_PASSWORD")
+
     if cookie:
-        return BironClient(base_url=base_url, cookie=cookie)
-    if username and password:
+        client = BironClient(base_url=base_url, cookie=cookie)
+        if client.contents_status() == 200:
+            return client
+        if source == "env":
+            sys.exit(
+                "the BIRON_COOKIE in .env is stale — replace it, or set "
+                "BIRON_COOKIE=auto and run ./biron.sh login"
+            )
+        echo("BIROn session stale; refreshing through the browser profile…")
+    elif username and password:
         return BironClient(username, password, base_url=base_url)
-    sys.exit(
-        "set BIRON_COOKIE (a logged-in browser session, e.g. "
-        "'eprints_session=...') or BIRON_USERNAME/BIRON_PASSWORD in .env"
-    )
+    else:
+        echo("No BIROn session on file; attempting a headless login…")
+
+    try:
+        cookie = cookiejar.harvest(root, headless=True, echo=echo)
+    except cookiejar.LoginError as exc:
+        sys.exit(f"BIROn login needed: {exc}")
+    client = BironClient(base_url=base_url, cookie=cookie)
+    if client.contents_status() != 200:
+        sys.exit(
+            "the freshly harvested session was rejected — run "
+            "./biron.sh login and sign in interactively"
+        )
+    return client
 
 
 def _resolve_collection(client, args, echo=print) -> str:
@@ -141,13 +182,36 @@ def _common_args(parser):
     parser.add_argument("--dry-run", action="store_true")
 
 
+def login_main(argv=None):
+    parser = argparse.ArgumentParser(
+        description="Log in to BIROn in a controlled browser and store the "
+        "session cookie"
+    )
+    parser.add_argument(
+        "--headless",
+        action="store_true",
+        help="silent refresh through the persisted Microsoft session "
+        "(no window; fails when an interactive sign-in is required)",
+    )
+    parser.add_argument("--root", type=Path, default=Path("."))
+    parser.add_argument("--timeout", type=float, default=None)
+    args = parser.parse_args(argv)
+    try:
+        cookiejar.harvest(args.root, headless=args.headless, timeout=args.timeout)
+    except cookiejar.LoginError as exc:
+        sys.exit(str(exc))
+    print("Done — verify with: ./biron.sh probe")
+    return 0
+
+
 def probe_main(argv=None):
     parser = argparse.ArgumentParser(
         description="Check BIROn SWORD credentials and list deposit collections"
     )
     parser.add_argument("--base-url", default=BASE_URL)
+    parser.add_argument("--root", type=Path, default=Path("."))
     args = parser.parse_args(argv)
-    client = _client_from_env(args.base_url)
+    client = _ensure_client(args.base_url, args.root)
 
     sword_ok = False
     try:
@@ -252,7 +316,7 @@ def main(argv=None):
         print(f"  attachments: {args.post.name}, {pdf_note}")
         return 0
 
-    client = _client_from_env(args.base_url)
+    client = _ensure_client(args.base_url, args.post.parent.parent)
     collection = _resolve_collection(client, args)
     receipt = deposit_post(client, args.post, collection, pdf_path=args.pdf)
     print(finalise(client, args.post, receipt, args.base_url))
@@ -286,7 +350,7 @@ def backfill_main(argv=None):
             print(f"  {path.name}")
         return 0
 
-    client = _client_from_env(args.base_url)
+    client = _ensure_client(args.base_url, args.root)
     collection = _resolve_collection(client, args)
     for path in pending:
         try:

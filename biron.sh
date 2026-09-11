@@ -4,6 +4,8 @@
 # (wraps the biron_uploader app). Run after a real deploy so the attached
 # PDF is the final built edition. Commands:
 #
+#   ./biron.sh login                                  # browser sign-in, store cookie
+#   ./biron.sh login --headless                       # silent cookie refresh
 #   ./biron.sh probe                                  # check credentials
 #   ./biron.sh dry-run _posts/YYYY-MM-DD-slug.md      # record summary, no network
 #   ./biron.sh deposit _posts/YYYY-MM-DD-slug.md      # deposit one post
@@ -16,16 +18,17 @@
 # record is live. _biron/deposited.yml tracks in-flight deposits so they
 # are not resent; _biron/skip.yml lists posts never to deposit.
 #
-# probe, deposit and backfill need credentials in .env; dry-run does not.
-# BIROn's auth is Microsoft SSO (Shibboleth), so until the systems team
-# enables Basic auth for a deposit account, use a browser session:
-# sign in to BIROn, copy the Cookie header value from any request in
-# dev tools (F12 -> Network), and set
-#   BIRON_COOKIE=eprints_session=...
-# (BIRON_USERNAME/BIRON_PASSWORD Basic auth is also supported, and used
-# only when no cookie is set.) If probe reports SWORD closed but the
-# CRUD endpoint usable, also set
-#   BIRON_COLLECTION=https://eprints.bbk.ac.uk/id/contents
+# BIROn's auth is Microsoft SSO (Shibboleth), and its session cookie
+# never touches the browser's on-disk store — so `login` drives a
+# dedicated Chromium profile: sign in once interactively and the cookie
+# lands in .biron_cookie (gitignored). Afterwards the persisted
+# Microsoft session usually renews it SILENTLY: probe/deposit/backfill
+# detect a stale cookie and re-harvest headlessly on their own; `login
+# --headless` does the same by hand. Set BIRON_COOKIE=auto in .env so
+# the evedeploy step knows deposits are configured (a literal cookie
+# value still works as a manual override, and BIRON_USERNAME/
+# BIRON_PASSWORD Basic auth remains supported if the systems team ever
+# enables it).
 
 cd "$(dirname "$0")"
 
@@ -38,6 +41,9 @@ cmd="${1:-}"
 shift || true
 
 case "$cmd" in
+    login)
+        exec uv run --env-file .env --project biron_uploader biron-login "$@"
+        ;;
     probe)
         exec uv run --env-file .env --project biron_uploader biron-probe "$@"
         ;;

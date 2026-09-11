@@ -2,6 +2,7 @@ import textwrap
 
 from biron_uploader import cli
 from biron_uploader.cli import deposit_post, posts_to_deposit
+from biron_uploader.cookiejar import write_cookie_file
 from biron_uploader.ledger import load_ledger, prune_ledger, record_deposit
 
 POST = textwrap.dedent(
@@ -201,6 +202,76 @@ def test_finalise_ledgers_the_post_when_still_in_review(tmp_path):
         "2026-09-01-eligible.md": 58012
     }
     assert "buffer" in line
+
+
+# --- cookie resolution and refresh -----------------------------------------
+
+
+def test_cookie_resolution_prefers_explicit_env(monkeypatch, tmp_path):
+    monkeypatch.setenv("BIRON_COOKIE", "name=explicit")
+    write_cookie_file(tmp_path, "name=fromfile")
+    assert cli._resolve_cookie(tmp_path) == ("name=explicit", "env")
+
+
+def test_cookie_resolution_auto_defers_to_the_harvested_file(monkeypatch, tmp_path):
+    write_cookie_file(tmp_path, "name=fromfile")
+    monkeypatch.setenv("BIRON_COOKIE", "auto")
+    assert cli._resolve_cookie(tmp_path) == ("name=fromfile", "file")
+    monkeypatch.delenv("BIRON_COOKIE")
+    assert cli._resolve_cookie(tmp_path) == ("name=fromfile", "file")
+
+
+def test_cookie_resolution_empty(monkeypatch, tmp_path):
+    monkeypatch.delenv("BIRON_COOKIE", raising=False)
+    assert cli._resolve_cookie(tmp_path) == (None, None)
+
+
+class FakeStatusClient:
+    def __init__(self, username=None, password=None, base_url=None,
+                 cookie=None, statuses=None):
+        self.cookie = cookie
+        self.username = username
+        self._statuses = statuses or {}
+
+    def contents_status(self):
+        return self._statuses.get(self.cookie, 401)
+
+
+def test_ensure_client_refreshes_a_stale_harvested_cookie(monkeypatch, tmp_path):
+    monkeypatch.delenv("BIRON_COOKIE", raising=False)
+    monkeypatch.delenv("BIRON_USERNAME", raising=False)
+    write_cookie_file(tmp_path, "name=stale")
+    statuses = {"name=stale": 401, "name=fresh": 200}
+    monkeypatch.setattr(
+        cli, "BironClient",
+        lambda **kwargs: FakeStatusClient(statuses=statuses, **kwargs),
+    )
+    harvests = []
+
+    def fake_harvest(root, headless=False, echo=print):
+        harvests.append(headless)
+        write_cookie_file(root, "name=fresh")
+        return "name=fresh"
+
+    monkeypatch.setattr(cli.cookiejar, "harvest", fake_harvest)
+    client = cli._ensure_client("https://e.example", tmp_path, echo=lambda *a: None)
+    assert client.cookie == "name=fresh"
+    assert harvests == [True]
+
+
+def test_ensure_client_accepts_a_working_cookie_without_harvesting(monkeypatch, tmp_path):
+    monkeypatch.delenv("BIRON_COOKIE", raising=False)
+    write_cookie_file(tmp_path, "name=good")
+    monkeypatch.setattr(
+        cli, "BironClient",
+        lambda **kwargs: FakeStatusClient(statuses={"name=good": 200}, **kwargs),
+    )
+    monkeypatch.setattr(
+        cli.cookiejar, "harvest",
+        lambda *a, **k: (_ for _ in ()).throw(AssertionError("must not harvest")),
+    )
+    client = cli._ensure_client("https://e.example", tmp_path, echo=lambda *a: None)
+    assert client.cookie == "name=good"
 
 
 # --- deposit reporting -----------------------------------------------------

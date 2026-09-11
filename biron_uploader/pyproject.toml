@@ -7,6 +7,7 @@ requires-python = ">=3.12"
 dependencies = [
     "requests>=2.32",
     "pyyaml>=6.0",
+    "websocket-client>=1.7",
     "kcworks-uploader",
 ]
 
@@ -14,6 +15,7 @@ dependencies = [
 biron-probe = "biron_uploader.cli:probe_main"
 biron-upload = "biron_uploader.cli:main"
 biron-backfill = "biron_uploader.cli:backfill_main"
+biron-login = "biron_uploader.cli:login_main"
 
 [dependency-groups]
 dev = [

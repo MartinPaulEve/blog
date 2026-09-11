@@ -5,16 +5,20 @@ Online, an EPrints 3.3 repository) over SWORD 1.3 with the built PDF
 edition and the markdown source attached, mirroring the metadata of the
 blog posts already in the repository.
 
-BIROn authenticates everything through Microsoft SSO (Shibboleth), and
-its machine-facing Basic-auth fallback validates nothing by default.
-Until the systems team enables Basic auth for a deposit account
-(`BIRON_USERNAME` / `BIRON_PASSWORD`), authenticate with a logged-in
-browser session instead: sign in to BIROn, copy the Cookie header from
-any request (F12 → Network), and set `BIRON_COOKIE=eprints_session=…`
-in the blog's `.env`. The session cookie is accepted on the `/id/`
-CRUD endpoint (and possibly `/sword-app/`); `./biron.sh probe` reports
-which, and prints the `BIRON_COLLECTION` override to use when only the
-CRUD endpoint is open.
+BIROn authenticates everything through Microsoft SSO (Shibboleth), its
+machine-facing Basic-auth fallback validates nothing, and the EPrints
+session cookie is session-only (never in the browser's on-disk store).
+So the tool drives its own login: `./biron.sh login` opens a dedicated
+Chromium profile for the Microsoft sign-in and stores the harvested
+cookie in `.biron_cookie` (gitignored). After that first interactive
+run, the Microsoft session persisted in the profile usually completes
+the redirect loop unattended — probe/deposit/backfill verify the
+cookie before use and silently re-harvest it headlessly when stale
+(`./biron.sh login --headless` does the same by hand). Set
+`BIRON_COOKIE=auto` in `.env` so the evedeploy deposit step knows it
+is configured; a literal `BIRON_COOKIE=secure_eprints_session…=value`
+remains a manual override, and `BIRON_USERNAME`/`BIRON_PASSWORD` Basic
+auth is still supported should the systems team ever enable it.
 
 Commands (all via `./biron.sh` from the blog root):
 
