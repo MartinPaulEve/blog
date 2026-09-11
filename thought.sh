@@ -16,6 +16,8 @@
 #   ./thought.sh --no-post              # blog only, no syndication
 #   ./thought.sh --no-deploy            # do not build/rsync afterwards
 #   ./thought.sh probe                  # check both services' credentials
+#   ./thought.sh import-bluesky --dry-run  # preview a Bluesky back-import
+#   ./thought.sh import-bluesky            # back-import old Bluesky posts
 #
 # Needs BLUESKY_APP_PASSWORD and MASTODON_ACCESS_TOKEN in .env (see
 # thought_composer/README.md for where to create them).
@@ -26,6 +28,10 @@ case "${1:-}" in
     probe)
         shift
         exec uv run --env-file .env --project thought_composer thought-probe "$@"
+        ;;
+    import-bluesky)
+        shift
+        exec uv run --env-file .env --project thought_composer thought-import-bluesky "$@"
         ;;
     help | -h | --help)
         sed -n 's/^#   \([^ ].*\)/\1/p' "$0"

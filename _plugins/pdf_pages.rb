@@ -29,6 +29,15 @@ module PdfPages
     SCOPE_LAYOUTS.include?(layout.to_s)
   end
 
+  # Whether a document should get a PDF edition: pretty URL, in-scope
+  # layout, and not opted out with `pdf: false` front matter (used by
+  # /thoughts/, which holds thousands of entries and changes with every
+  # thought — rendering it would bloat and churn the cache).
+  def self.wants_pdf?(url, data)
+    url.to_s.end_with?("/") && scope_layout?(data["layout"]) &&
+      data["pdf"] != false
+  end
+
   # Same slug convention as the OG card images, so every derivative of a page
   # shares one name.
   def self.slug(url)
@@ -178,7 +187,7 @@ module Jekyll
     def self.documents(site)
       docs = site.posts.docs + site.pages
       docs.select do |doc|
-        doc.url.to_s.end_with?("/") && PdfPages.scope_layout?(doc.data["layout"])
+        PdfPages.wants_pdf?(doc.url, doc.data)
       end
     end
   end

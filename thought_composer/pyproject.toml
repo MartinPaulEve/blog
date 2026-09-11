@@ -15,6 +15,7 @@ dependencies = [
 [project.scripts]
 thought = "thought_composer.cli:main"
 thought-probe = "thought_composer.cli:probe_main"
+thought-import-bluesky = "thought_composer.importer:main"
 
 [dependency-groups]
 dev = [

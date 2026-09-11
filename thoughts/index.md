@@ -4,6 +4,7 @@ title: Short Thoughts
 excerpt: "Short thoughts — micro-posts syndicated to Bluesky and Mastodon."
 og_card_image: mpe.png
 regenerate: true
+pdf: false
 ---
 
 <link rel="stylesheet" href="/assets/css/thoughts.css?v={{ site.time | date: '%s' }}">
