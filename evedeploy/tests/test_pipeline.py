@@ -418,19 +418,31 @@ class TestBironDepositNew:
             "WEBMENTION_IO_TOKEN=test-token\n"
             "BIRON_USERNAME=user\nBIRON_PASSWORD=pass\n")
 
-    def test_runs_backfill_through_the_driver(self, root):
+    def test_runs_backfill_then_update_through_the_driver(self, root):
         self._enable(root)
         run = FakeRun()
         assert biron_deposit_new(root, run=run,
-                                 echo=lambda *a, **k: None) is True
+                                 echo=lambda *a, **k: None) == []
         assert run.calls[0]["cmd"] == ["./biron.sh", "backfill"]
         assert run.calls[0]["cwd"] == root
+        assert run.calls[1]["cmd"] == ["./biron.sh", "update"]
+
+    def test_reports_the_posts_the_backfill_stamped(self, root):
+        self._enable(root)
+        make_post(root, "2026-01-01-a.md")
+        run = stamping(FakeRun(), root,
+                       lambda cmd: cmd[0] == "./biron.sh",
+                       "2026-01-01-a.md", "biron: https://eprints/1/",
+                       once=True)
+        stamped = biron_deposit_new(root, run=run,
+                                    echo=lambda *a, **k: None)
+        assert stamped == ["_posts/2026-01-01-a.md"]
 
     def test_skipped_without_credentials_in_env(self, root):
         (root / "biron.sh").write_text("# biron driver")
         run = FakeRun()
         assert biron_deposit_new(root, run=run,
-                                 echo=lambda *a, **k: None) is False
+                                 echo=lambda *a, **k: None) == []
         assert run.calls == []
 
     def test_cookie_auto_configuration_enables_the_step(self, root):
@@ -440,20 +452,20 @@ class TestBironDepositNew:
         (root / ".env").write_text("BIRON_COOKIE=auto\n")
         run = FakeRun()
         assert biron_deposit_new(root, run=run,
-                                 echo=lambda *a, **k: None) is True
+                                 echo=lambda *a, **k: None) == []
         assert run.calls[0]["cmd"] == ["./biron.sh", "backfill"]
 
     def test_skipped_when_driver_absent(self, root):
         run = FakeRun()
         assert biron_deposit_new(root, run=run, echo=lambda *a, **k: None,
-                                 present=lambda p: False) is False
+                                 present=lambda p: False) == []
         assert run.calls == []
 
     def test_failure_is_reported_as_an_error_and_does_not_raise(self, root):
         self._enable(root)
-        run = FakeRun({"./biron.sh backfill": 1})
+        run = FakeRun({"./biron.sh backfill": 1, "./biron.sh update": 1})
         lines = []
-        assert biron_deposit_new(root, run=run, echo=lines.append) is False
+        assert biron_deposit_new(root, run=run, echo=lines.append) == []
         assert any("error" in line.lower() for line in lines)
         assert any("biron" in line.lower() for line in lines)
 
@@ -466,7 +478,26 @@ class TestBironDepositNew:
         assert result is True
         cmds = run.commands()
         assert "./biron.sh backfill" in cmds
+        assert "./biron.sh update" in cmds
         assert cmds.index("./biron.sh backfill") > cmds.index("rsync -avz")
+
+    def test_deploy_reships_when_biron_stamps_a_post(self, root):
+        # A new post's biron: link is stamped during the deposit, so the
+        # site must rebuild, commit and rsync again to render it.
+        self._enable(root)
+        make_post(root, "2026-01-01-a.md")
+        run = stamping(FakeRun({"git diff": 1}), root,
+                       lambda cmd: cmd[0] == "./biron.sh",
+                       "2026-01-01-a.md", "biron: https://eprints/1/",
+                       once=True)
+        result = deploy(root=root, message="msg", confirm=lambda: True,
+                        run=run, echo=lambda *a, **k: None,
+                        which=lambda name: None, sequoia=False)
+        assert result is True
+        cmds = run.inner.commands()
+        assert cmds.count("jekyll build") == 2
+        assert cmds.count("rsync -avz") == 2
+        assert "git commit" in cmds
 
 
 class TestSendWebmentions:

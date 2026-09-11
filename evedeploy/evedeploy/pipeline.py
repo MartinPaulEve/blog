@@ -239,39 +239,43 @@ def quick_deploy(root: Path, run=default_run, echo=print) -> bool:
 
 
 def biron_deposit_new(root: Path, run=default_run, echo=print,
-                      present=None) -> bool:
-    """Deposit posts new to BIROn; returns True when the backfill ran.
+                      present=None) -> list:
+    """Sync posts to BIROn; returns those newly stamped with a link.
 
-    Wraps ``./biron.sh backfill``, which SWORD-deposits every post
-    without a ``biron:`` front-matter key that is neither pending in
-    the _biron/deposited.yml ledger nor listed in _biron/skip.yml
-    (attaching the built PDF, so this must run after the jekyll build).
-    Deposits land in the repository's review queue, so nothing is
-    stamped back here — the _biron fetch sweep adds the biron: key once
-    the record goes live. Skipped until some BIRON_ setting appears in
-    .env (BIRON_COOKIE=auto for browser-session auth, or
-    BIRON_USERNAME/BIRON_PASSWORD); tolerant: a BIROn outage must never
-    block a deploy.
+    Runs ``./biron.sh backfill`` (deposits every post without a
+    ``biron:`` key straight into the live archive and stamps the link
+    into its front matter) then ``./biron.sh update`` (replaces the
+    records of posts changed since their last shipment — EPrints has no
+    versioning, so updates overwrite in place, same id and URL). Both
+    attach the built PDF, so this must run after the jekyll build.
+    Skipped until some BIRON_ setting appears in .env (BIRON_COOKIE=auto
+    for browser-session auth, or BIRON_USERNAME/BIRON_PASSWORD);
+    tolerant: a BIROn outage must never block a deploy.
     """
     root = Path(root)
     exists = present or (lambda relative: (root / relative).is_file())
     if not exists("biron.sh"):
-        return False
+        return []
     env_path = root / ".env"
     if not env_path.is_file() or "BIRON_" not in env_path.read_text():
         echo("    (skipped: no BIRON_ configuration in .env)")
-        return False
+        return []
+    pending = posts_missing_marker(root, "biron:")
     try:
         run(["./biron.sh", "backfill"], cwd=root)
     except subprocess.CalledProcessError:
         echo("ERROR: BIROn deposit failed; the next deploy will retry.")
-        return False
-    return True
+    try:
+        run(["./biron.sh", "update"], cwd=root)
+    except subprocess.CalledProcessError:
+        echo("ERROR: BIROn update failed; the next deploy will retry.")
+    still = set(posts_missing_marker(root, "biron:"))
+    return [post for post in pending if post not in still]
 
 
 def commit_biron_ledger(root: Path, run=default_run) -> bool:
-    """Commit the pending-deposit ledger if the backfill changed it."""
-    _step(run, ["git", "add", "_biron/deposited.yml"], name="git add",
+    """Commit the BIROn ledgers if the sync pass changed them."""
+    _step(run, ["git", "add", "_biron"], name="git add",
           cwd=root)
     staged = run(["git", "diff", "--cached", "--quiet"], cwd=root, check=False)
     if staged.returncode == 0:
@@ -577,15 +581,20 @@ def deploy(
                     run=run)
                 rsync_site(root, run=run)
 
-    # BIROn deposits ride SWORD into the repository's review queue; the
-    # attached PDF is the final built edition from this run, and the
-    # biron: key arrives later via the _biron sweep once records go live.
-    echo("==> Depositing new posts to BIROn")
-    if biron_deposit_new(root, run=run, echo=echo):
-        if commit_biron_ledger(root, run=run):
-            echo("    deposit ledger committed")
-    else:
-        echo("    (skipped or failed; continuing)")
+    # BIROn deposits go straight into the live archive with the final
+    # built PDF from this run; new posts get their biron: link stamped
+    # into the front matter, so the site reships to render it. Updates
+    # replace changed posts' records in place (no site-visible change).
+    echo("==> Syncing posts to BIROn")
+    biron_stamped = biron_deposit_new(root, run=run, echo=echo)
+    if biron_stamped:
+        echo("==> Rebuilding with the new BIROn links")
+        jekyll_build(root, run=run)
+        git_commit_push(
+            root, "chore(biron): stamp BIROn record links", run=run)
+        rsync_site(root, run=run)
+    elif commit_biron_ledger(root, run=run):
+        echo("    BIROn ledger committed")
 
     echo("==> Done.")
     return True
