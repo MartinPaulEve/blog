@@ -6,6 +6,7 @@ sweep once the record is public. Between those two moments this ledger
 (post filename -> eprintid) is what stops a redeposit.
 """
 
+import hashlib
 from pathlib import Path
 
 import yaml
@@ -31,6 +32,28 @@ def record_deposit(path: Path, filename: str, eprintid: int) -> None:
     ledger = load_ledger(path)
     ledger[filename] = eprintid
     _write(path, ledger)
+
+
+def file_digest(path: Path) -> str:
+    """The sha256 hex digest of a file's bytes."""
+    return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+
+
+def load_shipped(path: Path) -> dict:
+    """The shipped-content ledger {filename: sha256}; {} when absent.
+
+    Records what each deposited post's file hashed to when its BIROn
+    record was last written, so `biron-update` can detect changed posts
+    without querying the repository.
+    """
+    return load_ledger(path)
+
+
+def record_shipped(path: Path, filename: str, digest: str) -> None:
+    """Set one post's shipped digest, creating the file when needed."""
+    shipped = load_shipped(path)
+    shipped[filename] = digest
+    _write(path, shipped)
 
 
 def prune_ledger(path: Path, stamped: set[str]) -> list[str]:

@@ -186,6 +186,10 @@ def test_finalise_stamps_the_post_when_the_record_is_live(tmp_path):
     assert "biron: https://eprints.bbk.ac.uk/id/eprint/58012/" in post_path.read_text()
     assert "58012" in line and "live" in line.lower()
     assert load_ledger(repo / "_biron" / "deposited.yml") == {}
+    from biron_uploader.ledger import file_digest, load_shipped
+    assert load_shipped(repo / "_biron" / "shipped.yml") == {
+        post_path.name: file_digest(post_path)
+    }
 
 
 def test_finalise_ledgers_the_post_when_still_in_review(tmp_path):
@@ -202,6 +206,87 @@ def test_finalise_ledgers_the_post_when_still_in_review(tmp_path):
         "2026-09-01-eligible.md": 58012
     }
     assert "buffer" in line
+
+
+# --- update: shipped ledger and staleness -----------------------------------
+
+
+def test_shipped_ledger_round_trip(tmp_path):
+    from biron_uploader.ledger import file_digest, load_shipped, record_shipped
+
+    path = tmp_path / "shipped.yml"
+    assert load_shipped(path) == {}
+    record_shipped(path, "a.md", "abc123")
+    record_shipped(path, "b.md", "def456")
+    assert load_shipped(path) == {"a.md": "abc123", "b.md": "def456"}
+    sample = tmp_path / "sample.txt"
+    sample.write_bytes(b"hello")
+    assert file_digest(sample) == (
+        "2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824"
+    )
+
+
+def test_eprintid_extracted_from_the_biron_marker(tmp_path):
+    repo = make_repo(tmp_path)
+    path = add_post(repo, "2026-09-02-already-stamped.md", POST_WITH_BIRON)
+    assert cli._biron_eprintid(path) == 1
+    plain = add_post(repo, "2026-09-01-eligible.md")
+    assert cli._biron_eprintid(plain) is None
+
+
+def test_update_pass_baselines_unknown_posts_without_touching_biron(tmp_path, capsys):
+    from biron_uploader.ledger import load_shipped
+
+    repo = make_repo(tmp_path)
+    add_post(repo, "2026-09-02-already-stamped.md", POST_WITH_BIRON)
+    result = cli.update_main(["--root", str(repo)])
+    assert result == 0
+    shipped = load_shipped(repo / "_biron" / "shipped.yml")
+    assert "2026-09-02-already-stamped.md" in shipped
+    assert "baselined" in capsys.readouterr().out
+
+
+def test_update_pass_updates_changed_posts_and_refreshes_the_digest(
+    tmp_path, monkeypatch
+):
+    from biron_uploader.ledger import file_digest, load_shipped, record_shipped
+
+    repo = make_repo(tmp_path)
+    path = add_post(repo, "2026-09-02-already-stamped.md", POST_WITH_BIRON)
+    record_shipped(repo / "_biron" / "shipped.yml", path.name, "stale-digest")
+
+    updates = []
+
+    class FakeUpdateClient:
+        def update(self, eprintid, xml, documents=None):
+            updates.append((eprintid, xml, [d["filename"] for d in documents]))
+            return {"eprintid": eprintid, "url": f"https://e/{eprintid}/"}
+
+    monkeypatch.setattr(cli, "_ensure_client", lambda *a, **k: FakeUpdateClient())
+    result = cli.update_main(["--root", str(repo)])
+    assert result == 0
+    (update,) = updates
+    assert update[0] == 1
+    assert "2026-09-02-already-stamped.pdf" in update[2]
+    shipped = load_shipped(repo / "_biron" / "shipped.yml")
+    assert shipped[path.name] == file_digest(path)
+
+
+def test_update_pass_dry_run_reports_but_does_not_touch(tmp_path, monkeypatch, capsys):
+    from biron_uploader.ledger import load_shipped, record_shipped
+
+    repo = make_repo(tmp_path)
+    path = add_post(repo, "2026-09-02-already-stamped.md", POST_WITH_BIRON)
+    record_shipped(repo / "_biron" / "shipped.yml", path.name, "stale-digest")
+    monkeypatch.setattr(
+        cli, "_ensure_client",
+        lambda *a, **k: (_ for _ in ()).throw(AssertionError("no network on dry-run")),
+    )
+    assert cli.update_main(["--root", str(repo), "--dry-run"]) == 0
+    assert path.name in capsys.readouterr().out
+    assert load_shipped(repo / "_biron" / "shipped.yml") == {
+        path.name: "stale-digest"
+    }
 
 
 # --- cookie resolution and refresh -----------------------------------------

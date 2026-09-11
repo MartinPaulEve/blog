@@ -11,12 +11,19 @@
 #   ./biron.sh deposit _posts/YYYY-MM-DD-slug.md      # deposit one post
 #   ./biron.sh backfill --dry-run                     # list posts not deposited
 #   ./biron.sh backfill                               # deposit them all
+#   ./biron.sh update --dry-run                       # list changed posts
+#   ./biron.sh update                                 # replace their records in place
 #
-# Deposits go to the SWORD inbox (override with $BIRON_COLLECTION or
-# --collection) and await the repository's review workflow; the biron:
-# front-matter key is stamped later by the _biron fetch sweep once the
-# record is live. _biron/deposited.yml tracks in-flight deposits so they
-# are not resent; _biron/skip.yml lists posts never to deposit.
+# Deposits are created live in the archive (collection discovered from
+# the service document; override with $BIRON_COLLECTION or --collection)
+# and the biron: front-matter key is stamped into the post immediately.
+# `update` replaces a changed post's record in place — same eprintid,
+# same URL — since EPrints has no versioning; staleness is detected via
+# the content hashes in _biron/shipped.yml (posts deposited before this
+# pipeline are baselined as current on first run, never rewritten).
+# _biron/deposited.yml tracks any deposit parked in review;
+# _biron/skip.yml lists posts never to deposit. evedeploy runs backfill
+# and update automatically at the end of every deploy.
 #
 # BIROn's auth is Microsoft SSO (Shibboleth), and its session cookie
 # never touches the browser's on-disk store — so `login` drives a
@@ -55,6 +62,9 @@ case "$cmd" in
         ;;
     backfill)
         exec uv run --env-file .env --project biron_uploader biron-backfill "$@"
+        ;;
+    update)
+        exec uv run --env-file .env --project biron_uploader biron-update "$@"
         ;;
     -h|--help|help)
         usage 0

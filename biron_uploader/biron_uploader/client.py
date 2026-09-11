@@ -180,6 +180,75 @@ class BironClient:
             return None
         return None if status is None else status.text
 
+    def _attach_documents(
+        self, receipt: dict, documents, advice: str = "delete the record"
+    ) -> None:
+        """Create each document from XML, then PUT its bytes raw."""
+        eprint_url = f"{self.base_url}/id/eprint/{receipt['eprintid']}"
+        try:
+            for document in documents or []:
+                created = self._send(
+                    "post",
+                    f"{eprint_url}/contents",
+                    data=document["xml"],
+                    headers={
+                        "Content-Type": "application/vnd.eprints.data+xml",
+                        "In-Progress": "false",
+                    },
+                )
+                doc = parse_deposit_receipt(created.headers, created.content)
+                self._send(
+                    "put",
+                    f"{self.base_url}/id/document/{doc['eprintid']}/contents",
+                    data=document["data"],
+                    headers={
+                        "Content-Type": document["mime"],
+                        "Content-Disposition": (
+                            f'attachment; filename="{document["filename"]}"'
+                        ),
+                    },
+                )
+        except BironError as exc:
+            raise BironError(
+                f"eprint {receipt['eprintid']} exists but attaching "
+                f"{document['filename']} failed — {advice} "
+                f"({receipt['url']}) before retrying. Cause: {exc}"
+            ) from exc
+
+    def update(self, eprintid: int, xml: bytes, documents=None) -> dict:
+        """Replace an existing record in place: same id, same URL.
+
+        EPrints has no versioning, so an updated post overwrites its
+        record: existing documents are deleted, the metadata is PUT
+        afresh (carrying eprint_status archive so the record stays
+        live), and the current attachments are added. Returns
+        ``{"eprintid", "url"}``.
+        """
+        eprint_url = f"{self.base_url}/id/eprint/{eprintid}"
+        current = self._send(
+            "get",
+            eprint_url,
+            headers={"Accept": "application/vnd.eprints.data+xml"},
+        )
+        docids = [
+            docid.text
+            for docid in ET.fromstring(current.content).iter(
+                "{http://eprints.org/ep2/data/2.0}docid"
+            )
+            if docid.text
+        ]
+        for docid in docids:
+            self._send("delete", f"{self.base_url}/id/document/{docid}")
+        self._send(
+            "put",
+            eprint_url,
+            data=xml,
+            headers={"Content-Type": "application/vnd.eprints.data+xml"},
+        )
+        receipt = {"eprintid": int(eprintid), "url": f"{eprint_url}/"}
+        self._attach_documents(receipt, documents, advice="check the record")
+        return receipt
+
     def deposit(
         self,
         collection_url: str,
@@ -221,33 +290,5 @@ class BironClient:
                 headers={"Content-Type": "application/vnd.eprints.data+xml"},
             )
 
-        try:
-            for document in documents or []:
-                created = self._send(
-                    "post",
-                    f"{eprint_url}/contents",
-                    data=document["xml"],
-                    headers={
-                        "Content-Type": "application/vnd.eprints.data+xml",
-                        "In-Progress": "false",
-                    },
-                )
-                doc = parse_deposit_receipt(created.headers, created.content)
-                self._send(
-                    "put",
-                    f"{self.base_url}/id/document/{doc['eprintid']}/contents",
-                    data=document["data"],
-                    headers={
-                        "Content-Type": document["mime"],
-                        "Content-Disposition": (
-                            f'attachment; filename="{document["filename"]}"'
-                        ),
-                    },
-                )
-        except BironError as exc:
-            raise BironError(
-                f"eprint {receipt['eprintid']} was created but attaching "
-                f"{document['filename']} failed — delete the record "
-                f"({receipt['url']}) before retrying. Cause: {exc}"
-            ) from exc
+        self._attach_documents(receipt, documents)
         return receipt

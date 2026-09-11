@@ -73,6 +73,9 @@ class FakeSession:
     def put(self, url, **kwargs):
         return self._handle("PUT", url, **kwargs)
 
+    def delete(self, url, **kwargs):
+        return self._handle("DELETE", url, **kwargs)
+
 
 # --- parsers ---------------------------------------------------------------
 
@@ -287,6 +290,62 @@ def test_deposit_creates_documents_from_xml_then_puts_raw_content():
     assert put_call[2]["headers"]["Content-Disposition"] == (
         'attachment; filename="post.pdf"'
     )
+
+
+EPRINT_WITH_DOCS_XML = b"""<?xml version='1.0' encoding='utf-8'?>
+<eprints xmlns='http://eprints.org/ep2/data/2.0'>
+  <eprint id='https://eprints.example.org/id/eprint/58012'>
+    <eprint_status>archive</eprint_status>
+    <documents>
+      <document id='https://eprints.example.org/id/document/91'>
+        <docid>91</docid>
+      </document>
+      <document id='https://eprints.example.org/id/document/92'>
+        <docid>92</docid>
+      </document>
+    </documents>
+  </eprint>
+</eprints>
+"""
+
+
+def test_update_replaces_metadata_and_documents_in_place():
+    eprint_url = f"{BASE}/id/eprint/58012"
+    session = FakeSession(
+        {
+            ("GET", eprint_url): FakeResponse(200, EPRINT_WITH_DOCS_XML),
+            ("DELETE", f"{BASE}/id/document/91"): FakeResponse(200, b""),
+            ("DELETE", f"{BASE}/id/document/92"): FakeResponse(200, b""),
+            ("PUT", eprint_url): FakeResponse(200, b""),
+            ("POST", f"{eprint_url}/contents"): FakeResponse(201, DOCUMENT_ENTRY),
+            ("PUT", f"{BASE}/id/document/91/contents"): FakeResponse(204, b""),
+        }
+    )
+    receipt = make_client(session).update(
+        58012,
+        b"<eprints/>",
+        documents=[
+            {
+                "xml": b"<documents/>",
+                "filename": "post.pdf",
+                "mime": "application/pdf",
+                "data": b"%PDF-new",
+            }
+        ],
+    )
+    assert receipt == {"eprintid": 58012, "url": f"{BASE}/id/eprint/58012/"}
+    operations = [(s[0], s[1]) for s in session.sent]
+    # old documents removed before the metadata PUT and re-attachment
+    assert operations.index(("DELETE", f"{BASE}/id/document/91")) < (
+        operations.index(("PUT", eprint_url))
+    )
+    assert ("DELETE", f"{BASE}/id/document/92") in operations
+    put_call = next(s for s in session.sent if s[:2] == ("PUT", eprint_url))
+    assert put_call[2]["data"] == b"<eprints/>"
+    content_put = next(
+        s for s in session.sent if s[1] == f"{BASE}/id/document/91/contents"
+    )
+    assert content_put[2]["data"] == b"%PDF-new"
 
 
 def make_live_session(initial_status: bytes):

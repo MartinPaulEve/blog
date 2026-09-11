@@ -27,12 +27,21 @@ from kcworks_uploader.posts import (
 
 from . import cookiejar
 from .client import BASE_URL, PACKAGING, BironClient, BironError
-from .ledger import load_ledger, prune_ledger, record_deposit
+from .ledger import (
+    file_digest,
+    load_ledger,
+    load_shipped,
+    prune_ledger,
+    record_deposit,
+    record_shipped,
+)
 from .metadata import build_document_xml, build_eprint_xml
 
 LEDGER_PATH = "_biron/deposited.yml"
+SHIPPED_PATH = "_biron/shipped.yml"
 SKIP_PATH = "_biron/skip.yml"
 MARKER_RE = re.compile(r"^biron:", re.MULTILINE)
+BIRON_LINK_RE = re.compile(r"^biron:\s*\S*?/(\d+)/?\s*$", re.MULTILINE)
 
 
 def _has_marker(path: Path) -> bool:
@@ -40,17 +49,8 @@ def _has_marker(path: Path) -> bool:
     return bool(match and MARKER_RE.search(match.group(1)))
 
 
-def deposit_post(
-    client,
-    post_path: Path,
-    collection_url: str,
-    pdf_path: Path | None = None,
-) -> dict:
-    """Build the record for one post and deposit it.
-
-    Attaches the built PDF edition and the markdown source. Returns the
-    deposit receipt ``{"eprintid", "url"}``.
-    """
+def _build_payload(post_path: Path, pdf_path: Path | None = None):
+    """The (metadata XML, documents) for one post's record."""
     post_path = Path(post_path)
     post = parse_post(post_path)
     slug = post_slug(post_path)
@@ -70,6 +70,21 @@ def deposit_post(
         }
         for placement, (filename, mime, data) in enumerate(files, 1)
     ]
+    return xml, documents
+
+
+def deposit_post(
+    client,
+    post_path: Path,
+    collection_url: str,
+    pdf_path: Path | None = None,
+) -> dict:
+    """Build the record for one post and deposit it.
+
+    Attaches the built PDF edition and the markdown source. Returns the
+    deposit receipt ``{"eprintid", "url"}``.
+    """
+    xml, documents = _build_payload(post_path, pdf_path)
     return client.deposit(
         collection_url, xml, documents=documents, make_live=True
     )
@@ -182,6 +197,80 @@ def _common_args(parser):
     parser.add_argument("--dry-run", action="store_true")
 
 
+def _biron_eprintid(path: Path) -> int | None:
+    """The eprint id from a post's biron: front-matter link, if any."""
+    match = FRONT_MATTER_RE.match(path.read_text(encoding="utf-8"))
+    if not match:
+        return None
+    link = BIRON_LINK_RE.search(match.group(1))
+    return int(link.group(1)) if link else None
+
+
+def update_main(argv=None):
+    """Refresh BIROn records for posts changed since their deposit.
+
+    EPrints has no versioning, so a changed post's record is replaced
+    in place (same eprintid, same URL). Staleness is detected against
+    the shipped-content ledger; deposited posts the ledger has never
+    seen (the pre-pipeline backlog) are baselined as current rather
+    than blindly rewritten.
+    """
+    parser = argparse.ArgumentParser(
+        description="Refresh BIROn records for posts changed since deposit"
+    )
+    parser.add_argument("--root", type=Path, default=Path("."))
+    _common_args(parser)
+    args = parser.parse_args(argv)
+
+    shipped_path = args.root / SHIPPED_PATH
+    shipped = load_shipped(shipped_path)
+    baselined, stale = [], []
+    for path in sorted((args.root / "_posts").glob("*.md")):
+        eprintid = _biron_eprintid(path)
+        if eprintid is None:
+            continue
+        digest = file_digest(path)
+        if path.name not in shipped:
+            baselined.append((path, digest))
+        elif shipped[path.name] != digest:
+            stale.append((path, eprintid))
+
+    if args.dry_run:
+        print(
+            f"Would baseline {len(baselined)} post(s); "
+            f"would update {len(stale)}:"
+        )
+        for path, eprintid in stale:
+            print(f"  {path.name} -> eprint {eprintid}")
+        return 0
+
+    for path, digest in baselined:
+        record_shipped(shipped_path, path.name, digest)
+    if baselined:
+        print(
+            f"baselined {len(baselined)} post(s) "
+            "(existing records assumed current)"
+        )
+    if not stale:
+        if not baselined:
+            print("Nothing to update.")
+        return 0
+
+    client = _ensure_client(args.base_url, args.root)
+    for path, eprintid in stale:
+        try:
+            xml, documents = _build_payload(path)
+            receipt = client.update(eprintid, xml, documents=documents)
+        except FileNotFoundError as exc:
+            print(f"SKIPPED {path.name}: {exc}", file=sys.stderr)
+            continue
+        except BironError as exc:
+            sys.exit(f"FAILED {path.name}: {exc}")
+        record_shipped(shipped_path, path.name, file_digest(path))
+        print(f"updated {path.name} -> {receipt['url']}")
+    return 0
+
+
 def login_main(argv=None):
     parser = argparse.ArgumentParser(
         description="Log in to BIROn in a controlled browser and store the "
@@ -284,6 +373,9 @@ def finalise(client, post_path: Path, receipt: dict, base_url: str) -> str:
             repo_root,
             post_path,
             f"{base_url}/id/eprint/{receipt['eprintid']}/",
+        )
+        record_shipped(
+            repo_root / SHIPPED_PATH, post_path.name, file_digest(post_path)
         )
         return _describe(receipt, status, base_url) + " — biron: link stamped"
     record_deposit(
