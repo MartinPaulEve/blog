@@ -248,16 +248,18 @@ def biron_deposit_new(root: Path, run=default_run, echo=print,
     (attaching the built PDF, so this must run after the jekyll build).
     Deposits land in the repository's review queue, so nothing is
     stamped back here — the _biron fetch sweep adds the biron: key once
-    the record goes live. Skipped until BIRON_USERNAME appears in .env;
-    tolerant: a BIROn outage must never block a deploy.
+    the record goes live. Skipped until some BIRON_ setting appears in
+    .env (BIRON_COOKIE=auto for browser-session auth, or
+    BIRON_USERNAME/BIRON_PASSWORD); tolerant: a BIROn outage must never
+    block a deploy.
     """
     root = Path(root)
     exists = present or (lambda relative: (root / relative).is_file())
     if not exists("biron.sh"):
         return False
     env_path = root / ".env"
-    if not env_path.is_file() or "BIRON_USERNAME" not in env_path.read_text():
-        echo("    (skipped: no BIRON_USERNAME in .env)")
+    if not env_path.is_file() or "BIRON_" not in env_path.read_text():
+        echo("    (skipped: no BIRON_ configuration in .env)")
         return False
     try:
         run(["./biron.sh", "backfill"], cwd=root)

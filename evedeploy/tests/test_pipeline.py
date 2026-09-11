@@ -433,6 +433,16 @@ class TestBironDepositNew:
                                  echo=lambda *a, **k: None) is False
         assert run.calls == []
 
+    def test_cookie_auto_configuration_enables_the_step(self, root):
+        # Session-cookie auth: BIRON_COOKIE=auto (no username) must count
+        # as configured.
+        (root / "biron.sh").write_text("# biron driver")
+        (root / ".env").write_text("BIRON_COOKIE=auto\n")
+        run = FakeRun()
+        assert biron_deposit_new(root, run=run,
+                                 echo=lambda *a, **k: None) is True
+        assert run.calls[0]["cmd"] == ["./biron.sh", "backfill"]
+
     def test_skipped_when_driver_absent(self, root):
         run = FakeRun()
         assert biron_deposit_new(root, run=run, echo=lambda *a, **k: None,
