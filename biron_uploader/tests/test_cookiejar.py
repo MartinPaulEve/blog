@@ -1,6 +1,7 @@
 
 from biron_uploader.cookiejar import (
     cookie_file_path,
+    launch_command,
     match_session_cookie,
     read_cookie_file,
     write_cookie_file,
@@ -29,6 +30,18 @@ def test_match_requires_the_right_domain_and_prefix():
         [{"name": "other_cookie", "domain": "eprints.bbk.ac.uk", "value": "x"}]
     ) is None
     assert match_session_cookie([]) is None
+
+
+def test_launch_command_permits_devtools_connections():
+    command = launch_command("chromium", "/tmp/profile", headless=True)
+    assert command[0] == "chromium"
+    assert "--user-data-dir=/tmp/profile" in command
+    assert "--remote-debugging-port=0" in command
+    # Chromium >= 111 rejects DevTools websockets from unlisted origins.
+    assert "--remote-allow-origins=*" in command
+    assert "--headless=new" in command
+    assert command[-1].startswith("https://eprints.bbk.ac.uk/")
+    assert "--headless=new" not in launch_command("chromium", "/p", headless=False)
 
 
 def test_cookie_file_round_trip(tmp_path):

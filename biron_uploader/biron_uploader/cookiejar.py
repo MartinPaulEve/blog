@@ -65,6 +65,26 @@ def match_session_cookie(cookies: list[dict]) -> str | None:
     return None
 
 
+def launch_command(chromium: str, profile_dir, headless: bool) -> list[str]:
+    """The Chromium invocation for a login run.
+
+    --remote-allow-origins is required by Chromium >= 111, which rejects
+    DevTools websocket connections from unlisted origins.
+    """
+    command = [
+        chromium,
+        f"--user-data-dir={profile_dir}",
+        "--remote-debugging-port=0",
+        "--remote-allow-origins=*",
+        "--no-first-run",
+        "--no-default-browser-check",
+    ]
+    if headless:
+        command.append("--headless=new")
+    command.append(LOGIN_URL)
+    return command
+
+
 def _browser_websocket_url(profile_dir: Path, deadline: float) -> str:
     """The CDP browser endpoint from Chromium's DevToolsActivePort file."""
     port_file = profile_dir / "DevToolsActivePort"
@@ -81,7 +101,9 @@ def _cdp_cookies(ws_url: str) -> list[dict]:
     """All browser cookies (session ones included) via one CDP call."""
     import websocket
 
-    connection = websocket.create_connection(ws_url, timeout=10)
+    connection = websocket.create_connection(
+        ws_url, timeout=10, suppress_origin=True
+    )
     try:
         for message_id, method in ((1, "Storage.getCookies"),
                                    (2, "Network.getAllCookies")):
@@ -119,16 +141,7 @@ def harvest(
     profile_dir.mkdir(parents=True, exist_ok=True)
     (profile_dir / "DevToolsActivePort").unlink(missing_ok=True)
 
-    command = [
-        chromium,
-        f"--user-data-dir={profile_dir}",
-        "--remote-debugging-port=0",
-        "--no-first-run",
-        "--no-default-browser-check",
-    ]
-    if headless:
-        command.append("--headless=new")
-    command.append(LOGIN_URL)
+    command = launch_command(chromium, profile_dir, headless)
 
     echo(
         "Waiting for the BIROn session cookie "
