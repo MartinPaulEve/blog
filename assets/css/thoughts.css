@@ -139,6 +139,11 @@ a.home-thought-kicker:hover {
     text-decoration: underline;
 }
 
+.thoughts-months a[aria-current="true"] {
+    color: var(--accent-secondary);
+    font-weight: 700;
+}
+
 .thoughts-months-sep {
     color: var(--text-muted);
 }
