@@ -65,11 +65,66 @@ def match_session_cookie(cookies: list[dict]) -> str | None:
     return None
 
 
-def launch_command(chromium: str, profile_dir, headless: bool) -> list[str]:
+DAILY_CONFIG_DIR = "~/.config/chromium"
+EXTENSION_IDS = (
+    "aeblfdkhhhdcdjpifhhbdiojplfjncoa",  # 1Password – Password Manager
+)
+
+
+def _version_key(directory: Path) -> tuple:
+    return tuple(
+        int(part) if part.isdigit() else 0
+        for part in directory.name.replace("_", ".").split(".")
+    )
+
+
+def find_extensions(config_dir=None) -> list[Path]:
+    """Installed password-manager extensions in the daily browser.
+
+    Returns the newest installed version directory of each known
+    extension (currently 1Password), for side-loading into the login
+    profile so credentials can be filled during the Microsoft sign-in.
+    """
+    config_dir = Path(config_dir or DAILY_CONFIG_DIR).expanduser()
+    found = []
+    for extension_id in EXTENSION_IDS:
+        versions = sorted(
+            config_dir.glob(f"*/Extensions/{extension_id}/*"),
+            key=_version_key,
+        )
+        if versions:
+            found.append(versions[-1])
+    return found
+
+
+def prepare_profile(profile_dir, config_dir=None) -> None:
+    """Copy native-messaging manifests into the login profile.
+
+    The 1Password extension talks to the desktop app through a
+    per-user-data-dir manifest; without a copy, the side-loaded
+    extension cannot unlock via the app.
+    """
+    config_dir = Path(config_dir or DAILY_CONFIG_DIR).expanduser()
+    source = config_dir / "NativeMessagingHosts"
+    if not source.is_dir():
+        return
+    target = Path(profile_dir) / "NativeMessagingHosts"
+    target.mkdir(parents=True, exist_ok=True)
+    for manifest in source.glob("*.json"):
+        (target / manifest.name).write_text(
+            manifest.read_text(encoding="utf-8"), encoding="utf-8"
+        )
+
+
+def launch_command(
+    chromium: str, profile_dir, headless: bool, extensions=()
+) -> list[str]:
     """The Chromium invocation for a login run.
 
     --remote-allow-origins is required by Chromium >= 111, which rejects
-    DevTools websocket connections from unlisted origins.
+    DevTools websocket connections from unlisted origins. Extensions are
+    only side-loaded headful — they exist to let the user fill the
+    Microsoft sign-in, and headless runs are non-interactive anyway.
     """
     command = [
         chromium,
@@ -81,6 +136,10 @@ def launch_command(chromium: str, profile_dir, headless: bool) -> list[str]:
     ]
     if headless:
         command.append("--headless=new")
+    elif extensions:
+        command.append(
+            "--load-extension=" + ",".join(str(e) for e in extensions)
+        )
     command.append(LOGIN_URL)
     return command
 
@@ -140,8 +199,11 @@ def harvest(
     ).expanduser()
     profile_dir.mkdir(parents=True, exist_ok=True)
     (profile_dir / "DevToolsActivePort").unlink(missing_ok=True)
+    prepare_profile(profile_dir)
 
-    command = launch_command(chromium, profile_dir, headless)
+    command = launch_command(
+        chromium, profile_dir, headless, extensions=find_extensions()
+    )
 
     echo(
         "Waiting for the BIROn session cookie "
