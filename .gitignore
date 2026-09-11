@@ -34,3 +34,6 @@ _lastfm/fetch_error.json
 
 # BIROn harvested session cookie (written by ./biron.sh login)
 .biron_cookie
+
+# thoughts DB backups (kept local only)
+.thoughts-backup-*.yml
