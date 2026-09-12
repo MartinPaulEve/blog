@@ -4,6 +4,13 @@
 # must escape it (never interpret it as HTML or markdown) while making
 # bare URLs clickable and preserving line breaks. The `linkify_urls`
 # Liquid filter does exactly that and nothing more.
+#
+# Thoughts beginning "TIL:" also feed /til/. The `til_entries` filter
+# selects them from the data and rewrites each text for display there:
+# the prefix goes, and a leading "about"/"that" goes with it (the next
+# word taking its capital). The stored text is never touched — the
+# rewrite happens on a copy at render time, so /thoughts/ and the
+# syndicated posts keep the original wording.
 
 require "cgi"
 
@@ -39,6 +46,26 @@ module ThoughtsFilter
     out << CGI.escape_html(text[last..] || "")
     out.gsub("\n", "<br>\n")
   end
+
+  TIL_PREFIX = /\ATIL:\s*/
+  TIL_LEADER = /\A(?:about|that)\s+/i
+
+  def self.til?(text)
+    text.to_s.match?(TIL_PREFIX)
+  end
+
+  def self.til_strip(text)
+    stripped = text.to_s.sub(TIL_PREFIX, "")
+    return stripped unless stripped =~ TIL_LEADER
+
+    stripped.sub(TIL_LEADER, "").sub(/\A[[:lower:]]/) { |c| c.upcase }
+  end
+
+  def self.til_entries(thoughts)
+    (thoughts || [])
+      .select { |thought| til?(thought["text"]) }
+      .map { |thought| thought.merge("text" => til_strip(thought["text"])) }
+  end
 end
 
 if defined?(Liquid)
@@ -46,6 +73,10 @@ if defined?(Liquid)
     module ThoughtsLiquidFilter
       def linkify_urls(input)
         ThoughtsFilter.linkify(input)
+      end
+
+      def til_entries(input)
+        ThoughtsFilter.til_entries(input)
       end
     end
   end
