@@ -18,6 +18,7 @@
 #   ./thought.sh probe                  # check both services' credentials
 #   ./thought.sh import-bluesky --dry-run  # preview a Bluesky back-import
 #   ./thought.sh import-bluesky            # back-import old Bluesky posts
+#   ./thought.sh import-twitter ARCHIVE    # back-import an X/Twitter archive (ZIP or folder)
 #
 # Needs BLUESKY_APP_PASSWORD and MASTODON_ACCESS_TOKEN in .env (see
 # thought_composer/README.md for where to create them).
@@ -32,6 +33,10 @@ case "${1:-}" in
     import-bluesky)
         shift
         exec uv run --env-file .env --project thought_composer thought-import-bluesky "$@"
+        ;;
+    import-twitter)
+        shift
+        exec uv run --env-file .env --project thought_composer thought-import-twitter "$@"
         ;;
     help | -h | --help)
         sed -n 's/^#   \([^ ].*\)/\1/p' "$0"

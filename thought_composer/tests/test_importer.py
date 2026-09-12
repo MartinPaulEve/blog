@@ -2,11 +2,15 @@ from datetime import UTC, datetime
 
 from thought_composer.importer import (
     assign_id,
+    build_thoughts,
     convert,
     existing_rkeys,
     expand_links,
+    is_announcement,
     merge_thoughts,
 )
+
+DID = "did:plc:me"
 
 
 def link_facet(byte_start, byte_end, uri):
@@ -104,6 +108,116 @@ def test_convert_finds_images_inside_record_with_media():
     thought = convert(make_record(embed=embed), "rkey123", "eve.gd")
     assert thought["image_blobs"] == [
         {"cid": "bafyxyz", "mime": "image/png", "alt": ""}
+    ]
+
+
+# --- announcement pruning ----------------------------------------------------
+
+
+def test_bare_own_domain_links_are_announcements():
+    assert is_announcement("https://eve.gd/2026/09/07/a-further-health-update/")
+    assert is_announcement("Here's how it's going.\n\nhttps://eve.gd/2026/08/17/x/")
+    assert is_announcement(
+        "Crossref Member Practices feedback: without digital preservation, "
+        "there is no digital persistence https://eve.gd/2026/09/09/x/"
+    )
+    assert is_announcement("New post: https://www.martineve.com/2014/01/01/y/")
+
+
+def test_substantive_posts_with_own_links_are_kept():
+    assert not is_announcement(
+        "If you would ever like a distraction, I wrote a cathartic "
+        "self-indulgent blog post last night that explains all of the "
+        "gruesome details of what my life has become in medical terms, "
+        "and how it might be fixed, and the various things that have to "
+        "be weighed against each other https://eve.gd/2026/09/07/x/"
+    )
+    assert not is_announcement("no links at all here")
+    assert not is_announcement("a link https://example.org/x elsewhere")
+
+
+# --- thread reconstruction ---------------------------------------------------
+
+
+def reply_record(text, created, parent_rkey, root_rkey, author_did=DID):
+    return make_record(
+        text=text,
+        createdAt=created,
+        reply={
+            "root": {"uri": f"at://{author_did}/app.bsky.feed.post/{root_rkey}"},
+            "parent": {"uri": f"at://{author_did}/app.bsky.feed.post/{parent_rkey}"},
+        },
+    )
+
+
+def test_self_thread_continuations_append_to_the_root():
+    posts = [
+        ("root1", make_record(text="Part one.",
+                              createdAt="2025-03-01T12:00:00.000Z")),
+        ("cont2", reply_record("Part three.", "2025-03-01T12:02:00.000Z",
+                               "cont1", "root1")),
+        ("cont1", reply_record("Part two.", "2025-03-01T12:01:00.000Z",
+                               "root1", "root1")),
+    ]
+    thoughts, stats = build_thoughts(posts, "eve.gd", DID, set())
+    (thought,) = thoughts
+    assert thought["text"] == "Part one.\n\nPart two.\n\nPart three."
+    assert thought["bluesky"].endswith("/root1")
+    assert stats["threaded"] == 2
+
+
+def test_replies_to_other_accounts_are_dropped():
+    posts = [
+        ("r1", reply_record("@someone no, I disagree",
+                            "2025-03-01T12:00:00.000Z",
+                            "theirs", "theirs", author_did="did:plc:other")),
+    ]
+    thoughts, stats = build_thoughts(posts, "eve.gd", DID, set())
+    assert thoughts == []
+    assert stats["replies"] == 1
+
+
+def test_continuations_of_syndicated_composer_threads_are_dropped():
+    # The composer already stored the full unsplit text, so its thread
+    # continuations must not be re-appended.
+    posts = [
+        ("cont1", reply_record("Second segment.", "2025-03-01T12:01:00.000Z",
+                               "root1", "root1")),
+    ]
+    thoughts, stats = build_thoughts(posts, "eve.gd", DID, {"root1"})
+    assert thoughts == []
+    assert stats["replies"] == 1
+
+
+def test_pruned_announcement_drops_its_whole_thread():
+    posts = [
+        ("root1", make_record(text="https://eve.gd/2026/09/07/x/",
+                              createdAt="2025-03-01T12:00:00.000Z")),
+        ("cont1", reply_record("More on that.", "2025-03-01T12:01:00.000Z",
+                               "root1", "root1")),
+    ]
+    thoughts, stats = build_thoughts(posts, "eve.gd", DID, set())
+    assert thoughts == []
+    assert stats["announcements"] == 1
+
+
+def test_thread_continuation_images_merge_into_the_root():
+    embed = {
+        "$type": "app.bsky.embed.images",
+        "images": [{"alt": "late image",
+                    "image": {"mimeType": "image/png",
+                              "ref": {"$link": "bafylate"}}}],
+    }
+    posts = [
+        ("root1", make_record(text="Part one.",
+                              createdAt="2025-03-01T12:00:00.000Z")),
+        ("cont1", reply_record("Part two.", "2025-03-01T12:01:00.000Z",
+                               "root1", "root1")),
+    ]
+    posts[1][1]["embed"] = embed
+    thoughts, _ = build_thoughts(posts, "eve.gd", DID, set())
+    assert thoughts[0]["image_blobs"] == [
+        {"cid": "bafylate", "mime": "image/png", "alt": "late image"}
     ]
 
 

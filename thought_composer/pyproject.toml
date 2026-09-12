@@ -16,6 +16,7 @@ dependencies = [
 thought = "thought_composer.cli:main"
 thought-probe = "thought_composer.cli:probe_main"
 thought-import-bluesky = "thought_composer.importer:main"
+thought-import-twitter = "thought_composer.twitter_archive:main"
 
 [dependency-groups]
 dev = [

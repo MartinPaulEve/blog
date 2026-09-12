@@ -11,6 +11,7 @@ thoughts; URLs that Bluesky truncated for display are restored to their
 full form from the link facets.
 """
 
+import re
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -19,6 +20,10 @@ import requests
 PUBLIC_APPVIEW = "https://public.api.bsky.app"
 PLC_DIRECTORY = "https://plc.directory"
 TIMEOUT = 30
+OWN_DOMAINS_RE = re.compile(
+    r"https?://(www\.)?(eve\.gd|martineve\.com)\S*", re.IGNORECASE
+)
+ANNOUNCEMENT_LEFTOVER = 120
 
 
 class ImportError_(RuntimeError):
@@ -50,6 +55,73 @@ def expand_links(text: str, facets: list | None) -> str:
         if raw[start:end].decode("utf-8", "replace") != uri:
             raw = raw[:start] + uri.encode("utf-8") + raw[end:]
     return raw.decode("utf-8")
+
+
+def is_announcement(text: str) -> bool:
+    """Whether a post is just a link to the blog (title + URL at most).
+
+    Own-domain links with fewer than ANNOUNCEMENT_LEFTOVER characters of
+    other text are share-my-post announcements, not thoughts.
+    """
+    if not OWN_DOMAINS_RE.search(text):
+        return False
+    leftover = OWN_DOMAINS_RE.sub("", text).strip()
+    return len(leftover) < ANNOUNCEMENT_LEFTOVER
+
+
+def _own_post_rkey(reference: dict | None, did: str) -> str | None:
+    uri = (reference or {}).get("uri", "")
+    prefix = f"at://{did}/app.bsky.feed.post/"
+    return uri[len(prefix):] if uri.startswith(prefix) else None
+
+
+def build_thoughts(posts, handle: str, did: str, known: set[str]):
+    """(thoughts, stats) from raw (rkey, record) pairs.
+
+    Top-level posts become thoughts (announcements pruned); replies to
+    the author's own threads are appended chronologically to their root
+    thought (text and images), and replies to anyone else are dropped.
+    """
+    stats = {"known": 0, "replies": 0, "announcements": 0, "threaded": 0}
+    roots: dict[str, dict] = {}
+    continuations: dict[str, list[dict]] = {}
+
+    for rkey, record in posts:
+        if rkey in known:
+            stats["known"] += 1
+            continue
+        if record.get("reply"):
+            continue
+        thought = convert(record, rkey, handle)
+        if is_announcement(thought["text"]):
+            stats["announcements"] += 1
+            continue
+        roots[rkey] = thought
+
+    for rkey, record in posts:
+        reply = record.get("reply")
+        if not reply:
+            continue
+        root_rkey = _own_post_rkey(reply.get("root"), did)
+        parent_rkey = _own_post_rkey(reply.get("parent"), did)
+        if root_rkey is None or parent_rkey is None or root_rkey not in roots:
+            stats["replies"] += 1
+            continue
+        record = dict(record)
+        record.pop("reply")
+        continuations.setdefault(root_rkey, []).append(
+            convert(record, rkey, handle)
+        )
+        stats["threaded"] += 1
+
+    for root_rkey, chain in continuations.items():
+        target = roots[root_rkey]
+        for continuation in sorted(chain, key=lambda c: c["date"]):
+            target["text"] += "\n\n" + continuation["text"]
+            target["image_blobs"] += continuation["image_blobs"]
+
+    thoughts = sorted(roots.values(), key=lambda thought: thought["date"])
+    return thoughts, stats
 
 
 def existing_rkeys(thoughts: list[dict]) -> set[str]:
@@ -196,22 +268,13 @@ def main(argv=None):
     posts = fetch_all_posts(pds, did)
     print(f"records fetched: {len(posts)}")
 
-    candidates = []
-    skipped_replies = skipped_known = 0
-    for rkey, record in posts:
-        if rkey in known:
-            skipped_known += 1
-            continue
-        thought = convert(record, rkey, args.handle)
-        if thought is None:
-            skipped_replies += 1
-            continue
-        candidates.append(thought)
-    candidates.sort(key=lambda thought: thought["date"])
+    candidates, stats = build_thoughts(posts, args.handle, did, known)
     print(
         f"to import: {len(candidates)} "
-        f"(skipped {skipped_replies} replies, "
-        f"{skipped_known} already-syndicated)"
+        f"(threaded {stats['threaded']} self-replies into their roots; "
+        f"skipped {stats['replies']} replies, "
+        f"{stats['announcements']} blog-announcement posts, "
+        f"{stats['known']} already-syndicated)"
     )
     if args.dry_run:
         for thought in candidates:

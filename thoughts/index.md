@@ -43,6 +43,7 @@ pdf: false
                 </a>
                 {% if thought.bluesky %}&middot; <a href="{{ thought.bluesky }}" class="u-syndication" rel="syndication">Bluesky</a>{% endif %}
                 {% if thought.mastodon %}&middot; <a href="{{ thought.mastodon }}" class="u-syndication" rel="syndication">Mastodon</a>{% endif %}
+                {% if thought.twitter %}&middot; <a href="{{ thought.twitter }}" class="u-syndication" rel="syndication">Twitter</a>{% endif %}
             </footer>
         </article>
         {% endfor %}
