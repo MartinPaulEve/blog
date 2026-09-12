@@ -102,4 +102,4 @@ owner:
   orcid: 0000-0002-5589-8511
 
 include: [".htaccess", "ttr", ".well-known"]
-exclude: ["lib", "config.rb", "Capfile", "_config.yml", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "*.sh", "zotero.md", "ACCESSIBILITY.md", "mailthought"]
+exclude: ["lib", "config.rb", "Capfile", "_config.yml", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "*.sh", "zotero.md", "ACCESSIBILITY.md", "mailthought", "thought_composer", "evedeploy", "biron_uploader", "kcworks_uploader", "build_info", "make_og.py", "renamecovers.py", "resize_covers.py", "kcworks-backfill.log", "kcworks-update.log"]
