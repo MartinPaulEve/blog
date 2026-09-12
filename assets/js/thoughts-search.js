@@ -107,6 +107,25 @@
         }
     }
 
+    // The site-wide script.js intercepts every a[href^="#"] click with
+    // preventDefault and a smooth scroll, so the hash never changes and
+    // hashchange alone cannot drive the month switcher. Handle the nav
+    // clicks directly: switch the month, record the hash in history
+    // (back/forward then replays via hashchange below), and scroll.
+    links.forEach(function (link) {
+        link.addEventListener("click", function () {
+            var id = link.getAttribute("href").slice(1);
+            showMonth(id);
+            if (window.history && history.pushState) {
+                history.pushState(null, "", "#" + id);
+            }
+            var section = document.getElementById(id);
+            if (section) {
+                section.scrollIntoView();
+            }
+        });
+    });
+
     window.addEventListener("hashchange", function () {
         if (!searchTerms().length) {
             selectFromHash();
