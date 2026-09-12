@@ -13,6 +13,8 @@ pdf: false
 {% if months == empty %}
 <p>No thoughts yet.</p>
 {% else %}
+<p class="thoughts-crosslink"><a href="/til/">Just the TILs &rarr;</a></p>
+
 <div class="thoughts-search">
     <input type="search" id="thought-search" placeholder="Search thoughts…" aria-label="Search thoughts" autocomplete="off">
     <p class="thoughts-search-count" id="thought-search-count" hidden></p>

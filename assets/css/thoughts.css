@@ -91,7 +91,31 @@ a.home-thought-kicker:hover {
     text-decoration: underline;
 }
 
+.home-thought-sep {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
 /* --- /thoughts/ list page ------------------------------------------------ */
+
+/* Sibling-page switch (/thoughts/ <-> /til/), styled like the month nav. */
+.thoughts-crosslink {
+    max-width: 42rem;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    margin: 0 0 1rem;
+}
+
+.thoughts-crosslink a {
+    color: var(--text-muted);
+    text-decoration: none;
+}
+
+.thoughts-crosslink a:hover {
+    color: var(--accent-secondary);
+    text-decoration: underline;
+}
 
 .thoughts-search {
     max-width: 42rem;

@@ -92,6 +92,8 @@
             <a class="home-thought-link" href="/thoughts/#t{{ thought.id }}">
                 <time datetime="{{ thought.date }}">{{ thought.date | date: "%-d %B %Y" }}</time> &middot; all thoughts &rarr;
             </a>
+            <span class="home-thought-sep" aria-hidden="true">&middot;</span>
+            <a class="home-thought-link" href="/til/">TILs &rarr;</a>
         </div>
     </section>
     {% endif %}
