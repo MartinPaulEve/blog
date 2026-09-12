@@ -1,3 +1,13 @@
+- id: '20260912181843'
+  date: '2026-09-12T18:18:43.496273+01:00'
+  text: "TIL: Landlock is a security mod for the Linux kernel that allows programs to restrict their own network/filesystem axx (and other capabilities), at startup, so that if a malicious actor runs code in their context, the blast radius is contained. https://docs.kernel.org/userspace-api/landlock.html \n\nThere are various python interfaces to Landlock, but they do not seem well maintained. https://github.com/Edward-Knight/landlock https://github.com/SebastienWae/py-landlock"
+  bluesky: https://bsky.app/profile/eve.gd/post/3mvdlmgo24f24
+  mastodon: https://hcommons.social/@mpe/117259208459217796
+- id: '20260912150356'
+  date: '2026-09-12T15:03:56.799117+01:00'
+  text: "Does anyone know of any digital dead man's switch system that will:\n\n1. Perform heartbeat checkins (I'm alive!)\n2. On fail, after grace period, perform third-party verification of death (He's alive!)\n3. On fail (I'm dead. Rats.):\n  a. Email documents to people\n  b. Hit a webhook\n\n?"
+  bluesky: https://bsky.app/profile/eve.gd/post/3mvdaq4oerk24
+  mastodon: https://hcommons.social/@mpe/117258442490273403
 - id: '20260911234801'
   date: '2026-09-11T23:48:01.929855+01:00'
   text: I only just learned, today, about the Institutional Books initiative. Very impressive. https://institutional.org/ https://arxiv.org/abs/2506.08300 https://bsky.app/profile/did:plc:rhqszhuocjmdrtklvxwuyxbv/post/3muz6zb2gtc2j
