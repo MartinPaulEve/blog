@@ -16,15 +16,25 @@
     <dl class="lastfm-stats">
         {% if site.data.lastfm.last_played %}
         <dt>{% if site.data.lastfm.last_played.now_playing %}Now playing{% else %}Last played{% endif %}</dt>
-        <dd>{{ site.data.lastfm.last_played.track | escape }} <span class="lastfm-artist">by {{ site.data.lastfm.last_played.artist | escape }}</span></dd>
+        <dd>{{ site.data.lastfm.last_played.track | escape }} <span class="lastfm-artist">by {% if site.data.lastfm.last_played.artist_url %}<a href="{{ site.data.lastfm.last_played.artist_url }}">{{ site.data.lastfm.last_played.artist | escape }}</a>{% else %}{{ site.data.lastfm.last_played.artist | escape }}{% endif %}</span></dd>
+        {% endif %}
+        {% if site.data.lastfm.recent_plays %}
+        <dt>Recent plays</dt>
+        <dd>
+            <ul class="lastfm-recent">
+                {% for play in site.data.lastfm.recent_plays %}
+                <li>{{ play.track | escape }} <span class="lastfm-artist">by {% if play.artist_url %}<a href="{{ play.artist_url }}">{{ play.artist | escape }}</a>{% else %}{{ play.artist | escape }}{% endif %}</span></li>
+                {% endfor %}
+            </ul>
+        </dd>
         {% endif %}
         {% if site.data.lastfm.top_track %}
         <dt>Most played track</dt>
-        <dd>{{ site.data.lastfm.top_track.track | escape }} <span class="lastfm-artist">by {{ site.data.lastfm.top_track.artist | escape }}</span></dd>
+        <dd>{{ site.data.lastfm.top_track.track | escape }} <span class="lastfm-artist">by {% if site.data.lastfm.top_track.artist_url %}<a href="{{ site.data.lastfm.top_track.artist_url }}">{{ site.data.lastfm.top_track.artist | escape }}</a>{% else %}{{ site.data.lastfm.top_track.artist | escape }}{% endif %}</span></dd>
         {% endif %}
         {% if site.data.lastfm.top_artist %}
         <dt>Most played band</dt>
-        <dd>{{ site.data.lastfm.top_artist.artist | escape }}</dd>
+        <dd>{% if site.data.lastfm.top_artist.url %}<a class="lastfm-artist-link" href="{{ site.data.lastfm.top_artist.url }}">{{ site.data.lastfm.top_artist.artist | escape }}</a>{% else %}{{ site.data.lastfm.top_artist.artist | escape }}{% endif %}</dd>
         {% endif %}
     </dl>
     <a class="lastfm-source" href="{{ site.data.lastfm.url }}">Scrobbled on Last.fm</a>

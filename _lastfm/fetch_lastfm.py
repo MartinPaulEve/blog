@@ -14,9 +14,16 @@ The data file is a small snapshot the sidebar widget renders at build time:
 
     {"updated": "...", "user": "MartinPaulEve",
      "url": "https://www.last.fm/user/MartinPaulEve",
-     "last_played": {"track": ..., "artist": ..., "url": ..., "now_playing": false},
-     "top_track": {"track": ..., "artist": ..., "url": ..., "playcount": 1},
+     "last_played": {"track": ..., "artist": ..., "artist_url": ...,
+                     "url": ..., "now_playing": false},
+     "recent_plays": [{"track": ..., "artist": ..., "artist_url": ...,
+                       "url": ...}, ...],
+     "top_track": {"track": ..., "artist": ..., "artist_url": ...,
+                   "url": ..., "playcount": 1},
      "top_artist": {"artist": ..., "url": ..., "playcount": 1}}
+
+The recent plays are a random sample of the last RECENT_LIMIT scrobbles,
+at most one track per artist, re-drawn on every fetch.
 
 No artwork is fetched or hotlinked: the widget is text-only, so serving the
 site keeps adding no third-party requests.
@@ -27,6 +34,7 @@ from __future__ import annotations
 import json
 import os
 import pathlib
+import random
 import ssl
 import sys
 import urllib.error
@@ -40,6 +48,8 @@ PROFILE_URL = f"https://www.last.fm/user/{USER}"
 DATA_FILE = "_data/lastfm.json"
 ERROR_FILE = "_lastfm/fetch_error.json"
 TIMEOUT = 30
+RECENT_LIMIT = 50
+RECENT_SAMPLE = 5
 
 
 def load_env_key(root):
@@ -104,6 +114,17 @@ def _artist_name(artist):
     return str(artist or "")
 
 
+def _artist_url(artist):
+    """The artist's Last.fm page, built from the name when the payload
+    carries none (plain user.getrecenttracks artists are just a #text)."""
+    if isinstance(artist, dict) and artist.get("url"):
+        return artist["url"]
+    name = _artist_name(artist)
+    if not name:
+        return ""
+    return "https://www.last.fm/music/" + urllib.parse.quote_plus(name)
+
+
 def parse_last_played(payload):
     """The most recent scrobble from a user.getrecenttracks payload."""
     entries = _tracks(payload, "recenttracks", "track")
@@ -113,8 +134,48 @@ def parse_last_played(payload):
     playing = first.get("@attr", {}).get("nowplaying") == "true"
     return {"track": first.get("name", ""),
             "artist": _artist_name(first.get("artist")),
+            "artist_url": _artist_url(first.get("artist")),
             "url": first.get("url", ""),
             "now_playing": playing}
+
+
+def parse_recent_plays(payload, count=RECENT_SAMPLE, exclude=None, rng=random):
+    """A random sample of recent scrobbles, at most one track per artist.
+
+    Now-playing entries and the `exclude` track (the one already shown as
+    "last played") are left out; the same artist with a different track
+    stays eligible.
+    """
+    excluded = None
+    if exclude:
+        excluded = (exclude.get("track", "").casefold(),
+                    exclude.get("artist", "").casefold())
+    pool, seen_tracks = [], set()
+    for entry in _tracks(payload, "recenttracks", "track"):
+        if entry.get("@attr", {}).get("nowplaying") == "true":
+            continue
+        name = entry.get("name", "")
+        artist = _artist_name(entry.get("artist"))
+        if not name or not artist:
+            continue
+        key = (name.casefold(), artist.casefold())
+        if key == excluded or key in seen_tracks:
+            continue
+        seen_tracks.add(key)
+        pool.append({"track": name, "artist": artist,
+                     "artist_url": _artist_url(entry.get("artist")),
+                     "url": entry.get("url", "")})
+    rng.shuffle(pool)
+    plays, seen_artists = [], set()
+    for play in pool:
+        artist_key = play["artist"].casefold()
+        if artist_key in seen_artists:
+            continue
+        seen_artists.add(artist_key)
+        plays.append(play)
+        if len(plays) >= count:
+            break
+    return plays
 
 
 def parse_top_track(payload):
@@ -125,6 +186,7 @@ def parse_top_track(payload):
     first = entries[0]
     return {"track": first.get("name", ""),
             "artist": _artist_name(first.get("artist")),
+            "artist_url": _artist_url(first.get("artist")),
             "url": first.get("url", ""),
             "playcount": int(first.get("playcount", 0))}
 
@@ -140,8 +202,8 @@ def parse_top_artist(payload):
             "playcount": int(first.get("playcount", 0))}
 
 
-def build_store(last_played, top_track, top_artist, now):
-    """The _data/lastfm.json document; sections that are None are omitted."""
+def build_store(last_played, top_track, top_artist, recent_plays, now):
+    """The _data/lastfm.json document; sections that are empty are omitted."""
     store = {"updated": now, "user": USER, "url": PROFILE_URL}
     if last_played:
         store["last_played"] = last_played
@@ -149,10 +211,12 @@ def build_store(last_played, top_track, top_artist, now):
         store["top_track"] = top_track
     if top_artist:
         store["top_artist"] = top_artist
+    if recent_plays:
+        store["recent_plays"] = recent_plays
     return store
 
 
-def run(root, key=None, get=http_get_json, echo=print):
+def run(root, key=None, get=http_get_json, echo=print, rng=random):
     """Fetch all three stats and write the data file; returns an exit code.
 
     All-or-nothing: any endpoint failing leaves the existing data file in
@@ -166,7 +230,9 @@ def run(root, key=None, get=http_get_json, echo=print):
         return 0
 
     try:
-        recent = get(api_url("user.getrecenttracks", key, limit=1))
+        # extended=1 makes each artist a full object carrying its page URL.
+        recent = get(api_url("user.getrecenttracks", key,
+                             limit=RECENT_LIMIT, extended=1))
         top_tracks = get(api_url("user.gettoptracks", key,
                                  period="overall", limit=1))
         top_artists = get(api_url("user.gettopartists", key,
@@ -184,16 +250,19 @@ def run(root, key=None, get=http_get_json, echo=print):
         return 1
 
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
-    store = build_store(parse_last_played(recent),
+    last_played = parse_last_played(recent)
+    store = build_store(last_played,
                         parse_top_track(top_tracks),
-                        parse_top_artist(top_artists), now)
+                        parse_top_artist(top_artists),
+                        parse_recent_plays(recent, exclude=last_played,
+                                           rng=rng), now)
     data_path = root / DATA_FILE
     data_path.parent.mkdir(parents=True, exist_ok=True)
     data_path.write_text(
         json.dumps(store, indent=1, ensure_ascii=False, sort_keys=True) + "\n")
     (root / ERROR_FILE).unlink(missing_ok=True)
     echo(f"fetch_lastfm: wrote {DATA_FILE} "
-         f"({', '.join(k for k in ('last_played', 'top_track', 'top_artist') if k in store) or 'no stats'})")
+         f"({', '.join(k for k in ('last_played', 'top_track', 'top_artist', 'recent_plays') if k in store) or 'no stats'})")
     return 0
 
 
