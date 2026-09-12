@@ -13,7 +13,7 @@
 {% if thought %}
 <link rel="stylesheet" href="/assets/css/thoughts.css?v={{ site.time | date: '%s' }}">
 <div class="sidebar-widget thought-widget h-entry">
-    <h3>Short thought</h3>
+    <h3><a class="thought-heading-link" href="/thoughts/">Short thought</a></h3>
     <p class="thought-text e-content">{{ thought.text | linkify_urls }}</p>
     {% if thought.images %}
     <div class="thought-images">
