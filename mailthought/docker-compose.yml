@@ -1,0 +1,51 @@
+# mailthought on Coolify: point a Docker Compose resource at the blog
+# repository with base directory /mailthought, attach a domain to port
+# 8080 (Mailgun needs a public HTTPS endpoint for the route), and set
+# the environment below in the Coolify UI — secrets never live in this
+# file. The /data volume holds the blog clone, its build caches (the
+# expensive first build happens once), drafts and the job queue.
+
+services:
+  mailthought:
+    build: .
+    restart: unless-stopped
+    init: true
+    ports:
+      - "8080:8080"
+    volumes:
+      - mailthought-data:/data
+    environment:
+      # --- required ---------------------------------------------------
+      - ALLOWED_SENDERS=${ALLOWED_SENDERS}            # comma-separated From addresses allowed to publish
+      - MAILGUN_API_KEY=${MAILGUN_API_KEY}            # sending key (Mailgun: API Security)
+      - MAILGUN_SIGNING_KEY=${MAILGUN_SIGNING_KEY}    # HTTP webhook signing key (Mailgun: Webhooks)
+      - MAILGUN_DOMAIN=${MAILGUN_DOMAIN}              # e.g. mg.eve.gd
+      - MAIL_FROM=${MAIL_FROM}                        # e.g. Thoughts <thoughts@mg.eve.gd>
+      - GIT_SSH_KEY=${GIT_SSH_KEY}                    # private key of a write deploy key on the repo
+      - RSYNC_HOST=${RSYNC_HOST}                      # real hostname behind evedeploy's "reclaim" alias
+      # --- social (the thought CLI skips a service whose token is unset)
+      - BLUESKY_APP_PASSWORD=${BLUESKY_APP_PASSWORD:-}
+      - MASTODON_ACCESS_TOKEN=${MASTODON_ACCESS_TOKEN:-}
+      # --- optional overrides ------------------------------------------
+      - MAILGUN_API_BASE=${MAILGUN_API_BASE:-https://api.mailgun.net}
+      - REQUIRE_AUTH=${REQUIRE_AUTH:-true}            # SPF+DKIM must both pass
+      - GIT_REPO_URL=${GIT_REPO_URL:-git@github.com:MartinPaulEve/blog.git}
+      - GIT_USER_NAME=${GIT_USER_NAME:-Martin Paul Eve}
+      - GIT_USER_EMAIL=${GIT_USER_EMAIL:-martin@eve.gd}
+      - RSYNC_SSH_KEY=${RSYNC_SSH_KEY:-}              # falls back to GIT_SSH_KEY
+      - RSYNC_USER=${RSYNC_USER:-evegd}
+      - RSYNC_PORT=${RSYNC_PORT:-22}
+      - KNOWN_HOSTS=${KNOWN_HOSTS:-}                  # pinned host keys for the rsync server
+      - BLUESKY_IDENTIFIER=${BLUESKY_IDENTIFIER:-}
+      - MASTODON_BASE_URL=${MASTODON_BASE_URL:-}
+      - JEKYLL_SKIP_PDFS=${JEKYLL_SKIP_PDFS:-1}       # PDFs re-render on Martin's machine, not here
+      - TZ=${TZ:-Europe/London}
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:8080/healthz"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+
+volumes:
+  mailthought-data:
