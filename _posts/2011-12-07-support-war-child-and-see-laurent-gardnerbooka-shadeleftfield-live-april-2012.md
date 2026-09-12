@@ -22,6 +22,7 @@ wordpress_id: 1670
 wordpress_url: https://www.martineve.com/?p=1670
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mje4gie2h"
 kcworks: https://works.hcommons.org/records/4zpms-enj56
+biron: https://eprints.bbk.ac.uk/id/eprint/57902/
 references:
 - http://www.warchild.org/ # War Child International charity website
 ---

@@ -16,6 +16,7 @@ references:
 - https://doi.org/10.64000/1y3ve-3pw05
 - https://doi.org/10.31274/jlsc.16288
 kcworks: https://works.hcommons.org/records/bvrq2-wy298
+biron: https://eprints.bbk.ac.uk/id/eprint/57893/
 roguescholar: https://rogue-scholar.org/records/1677e-amg16
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mv4diflfno2r"
 ---

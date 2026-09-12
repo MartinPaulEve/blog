@@ -21,6 +21,7 @@ wordpress_id: 1576
 wordpress_url: https://www.martineve.com/?p=1576
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjgjpc72q"
 kcworks: https://works.hcommons.org/records/j66se-g9p22
+biron: https://eprints.bbk.ac.uk/id/eprint/57901/
 references:
 - author: Ian Tester
   title: Ian Tester

@@ -19,6 +19,7 @@ wordpress_id: 1950
 wordpress_url: https://www.martineve.com/?p=1950
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miqdkpx2r"
 kcworks: https://works.hcommons.org/records/p2fnh-xy274
+biron: https://eprints.bbk.ac.uk/id/eprint/57903/
 references:
 - author: Denis Campbell
   date: '2012-03-09'

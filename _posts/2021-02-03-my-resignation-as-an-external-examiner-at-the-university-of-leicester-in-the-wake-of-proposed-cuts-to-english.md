@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m3ua7o3
 categories:
 - Higher Education
 kcworks: https://works.hcommons.org/records/11nmf-4bt87
+biron: https://eprints.bbk.ac.uk/id/eprint/57910/
 ---
 
 Today I have written to the University of Leicester [tendering my resignation as an external examiner](/images/Resignation.pdf).

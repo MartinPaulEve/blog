@@ -14,6 +14,7 @@ image:
   title: "A Fresenius Agilia IV medical pump"
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3muuxfo6pu32c"
 kcworks: https://works.hcommons.org/records/32tzs-qah90
+biron: https://eprints.bbk.ac.uk/id/eprint/57932/
 roguescholar: https://rogue-scholar.org/records/skem5-vy512
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3muuxfo6pu32c
 ---

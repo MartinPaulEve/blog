@@ -17,6 +17,7 @@ categories:
 - Health
 - Personal
 kcworks: https://works.hcommons.org/records/7dnxk-67x75
+biron: https://eprints.bbk.ac.uk/id/eprint/57927/
 ---
 Another personal post, on being in hospital and suffering. And so, after a substantial wait, the IV feeding for which I had been waiting started. The feed itself looks like the worst kind of science fiction matrix food goop that you can imagine. Of course, the advantage is that I don't need to eat it. It's going straight to source.
 

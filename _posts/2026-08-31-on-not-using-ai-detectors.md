@@ -4,6 +4,7 @@ layout: post
 date: 2026-08-31
 doi: https://doi.org/10.59348/hxwam-6hk75
 kcworks: https://works.hcommons.org/records/j99vy-66m60
+biron: https://eprints.bbk.ac.uk/id/eprint/57930/
 roguescholar: https://rogue-scholar.org/records/26jfx-f4w16
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mufm2bxodp24
 image:

@@ -13,6 +13,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvqzpul
 categories:
 - Technology
 kcworks: https://works.hcommons.org/records/vwhre-gq536
+biron: https://eprints.bbk.ac.uk/id/eprint/57918/
 references:
 - title: 'GitHub - fosrl/pangolin: Modern networking and security platform providing secure access and connectivity to apps, infrastructure, and AI workloads. Connect and protect your users.'
   type: SoftwareSourceCode

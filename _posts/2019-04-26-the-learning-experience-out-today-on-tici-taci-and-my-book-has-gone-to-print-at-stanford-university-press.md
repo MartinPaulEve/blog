@@ -16,6 +16,7 @@ categories:
 - Music
 - Publications
 kcworks: https://works.hcommons.org/records/4k8rt-nqj10
+biron: https://eprints.bbk.ac.uk/id/eprint/57907/
 references:
 - https://www.junodownload.com/products/marti…ce/4112383-02/ # The Learning Experience release on Juno Download
 - title: Martin Eve - The Learning Experience

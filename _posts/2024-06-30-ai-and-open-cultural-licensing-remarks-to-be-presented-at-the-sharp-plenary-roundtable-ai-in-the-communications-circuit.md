@@ -16,6 +16,7 @@ categories:
 - Copyright and Licensing
 - Conferences
 kcworks: https://works.hcommons.org/records/1s4g9-4xz76
+biron: https://eprints.bbk.ac.uk/id/eprint/57913/
 ---
 
 Some remarks that will be presented at the SHARP plenary roundtable: AI in the Communications Circuit.

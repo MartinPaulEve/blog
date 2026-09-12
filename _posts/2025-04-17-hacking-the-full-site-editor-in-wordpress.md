@@ -14,6 +14,7 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvtlk2w
 categories:
 - Programming
 kcworks: https://works.hcommons.org/records/xbr03-8rf22
+biron: https://eprints.bbk.ac.uk/id/eprint/57917/
 references:
 - title: Knowledge Commons
   type: WebSite
