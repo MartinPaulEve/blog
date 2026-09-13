@@ -7,16 +7,19 @@ pdf: false
 comments: false
 ---
 
-This is a [now page](https://nownownow.com/about): a snapshot of what
-I'm up to at the moment, assembled from this site's streams every time
-it rebuilds — so it is current as of {{ site.time | date: "%-d %B %Y" }}.
+This is a [now page](https://nownownow.com/about): a snapshot of whatI'm up to at the moment, assembled from this site's streams every time it rebuilds — so it is current as of {{ site.time | date: "%-d %B %Y" }}.
 
-{% comment %}
-  Hand-written sections go anywhere in this file as ordinary Markdown —
-  right here is a good spot (current projects, reading, life news).
-  The Liquid-tagged blocks below are the automated sections; leave
-  those intact and write around them.
-{% endcomment %}
+## Knowledge Commons
+
+I am currently working on upgrading BuddyPress across our networks. This is quite a substantial task because our plugins hook to a specific version of this.
+
+I am also onboarding a set of new institutions who particularly want to use our KC Works repository. This is satisfying work, reaching out to libraries.
+
+## Research
+
+In my research professor role, I am currently writing a book for the MIT Press about the dark web. 
+
+I am also writing a somewhat more secret (for now) book about contemporary healthcare and its embroilment in AI technologies.
 
 ## Writing
 
@@ -28,7 +31,7 @@ The most recent long-form pieces:
 {% endfor %}
 </ul>
 
-## Thinking
+## Short Thoughts
 
 {% assign thought = site.data.thoughts | first %}
 {% if thought %}
@@ -66,5 +69,4 @@ Listening stats appear here once the site has Last.fm data.
 
 ---
 
-For who I am and what I do more permanently, see [about](/about/),
-[accounts](/accounts/), or the [CV](/cv) <i class="fa-solid fa-file-pdf" aria-hidden="true"></i><span class="sr-only">(PDF)</span>.
+For who I am and what I do more permanently, see [about](/about/), [accounts](/accounts/), or my [CV](/cv) <i class="fa-solid fa-file-pdf" aria-hidden="true"></i><span class="sr-only">(PDF)</span>.

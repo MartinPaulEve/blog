@@ -31,7 +31,7 @@ Automated output is checked by me before it appears on the site. The publication
 
 Automated and AI outputs on this site, including the auto-populated BIROn publications feed, are reviewed by a human before publication. That human is me, Martin Paul Eve.
 
-The review process works like this: the automated feed proposes entries drawn from BIROn; I review those entries for accuracy and appropriateness; and only reviewed content is published. I am accountable for all content on this site, whether written by hand or drawn from an automated feed.
+The review process for the CV, for instance, works like this: the automated feed proposes entries drawn from BIROn; I review those entries for accuracy and appropriateness; and only reviewed content is published. I am accountable for all content on this site, whether written by hand or drawn from an automated feed.
 
 ## How the publications feed is ordered and audited
 
