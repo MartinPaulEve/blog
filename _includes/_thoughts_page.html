@@ -1,0 +1,65 @@
+{% comment %}
+  Shared body for /thoughts/ (newest month, page.thoughts_index true)
+  and the generated /thoughts/<YYYY-MM>/ pages. The thoughts_pages
+  plugin injects page.month, page.month_display, page.month_thoughts
+  and page.thoughts_nav. Search spans the whole archive by fetching
+  /thoughts/search.json on first use (thoughts-search.js).
+{% endcomment %}
+<link rel="stylesheet" href="/assets/css/thoughts.css?v={{ site.time | date: '%s' }}">
+
+{% if page.thoughts_index %}
+<p class="thoughts-crosslink"><a href="/til/">Just the TILs &rarr;</a></p>
+{% else %}
+<p class="thoughts-crosslink"><a href="/thoughts/">Newest thoughts &rarr;</a></p>
+{% endif %}
+
+<div class="thoughts-search">
+    <input type="search" id="thought-search" placeholder="Search thoughts…" aria-label="Search thoughts" autocomplete="off">
+    <p class="thoughts-search-count" id="thought-search-count" hidden></p>
+</div>
+
+<nav class="thoughts-months" aria-label="Thoughts by month">
+{% for m in page.thoughts_nav %}    <a href="{{ m.url }}"{% if m.name == page.month %} aria-current="true"{% endif %}>{{ m.name }}</a>{% unless forloop.last %} <span class="thoughts-months-sep" aria-hidden="true">|</span>{% endunless %}
+{% endfor %}</nav>
+
+<div class="thoughts-list h-feed">
+    <section class="thoughts-month" id="m{{ page.month }}">
+        <h2 class="thoughts-month-title">{{ page.month_display }}</h2>
+        {% for thought in page.month_thoughts %}
+        <article class="thought-entry h-entry" id="t{{ thought.id }}">
+            <p class="thought-text e-content">{{ thought.text | linkify_urls }}</p>
+            {% if thought.images %}
+            <div class="thought-images">
+                {% for image in thought.images %}
+                <img src="{{ image.src }}" alt="{{ image.alt | escape }}" loading="lazy">
+                {% endfor %}
+            </div>
+            {% endif %}
+            <footer class="thought-meta">
+                <a class="u-url" href="{{ thought.id | thought_month_url }}#t{{ thought.id }}">
+                    <time class="dt-published" datetime="{{ thought.date }}">{{ thought.date | date: "%-d %B %Y, %H:%M" }}</time>
+                </a>
+                {% if thought.bluesky %}&middot; <a href="{{ thought.bluesky }}" class="u-syndication" rel="syndication">Bluesky</a>{% endif %}
+                {% if thought.mastodon %}&middot; <a href="{{ thought.mastodon }}" class="u-syndication" rel="syndication">Mastodon</a>{% endif %}
+                {% if thought.twitter %}&middot; <a href="{{ thought.twitter }}" class="u-syndication" rel="syndication">Twitter</a>{% endif %}
+            </footer>
+        </article>
+        {% endfor %}
+    </section>
+</div>
+
+<div class="thoughts-list" id="thought-search-results" hidden></div>
+
+<script>
+/* Legacy permalinks: /thoughts/#t<id> (and any #t hash on the wrong
+   month page) redirect to the month page the id encodes. */
+(function () {
+    var match = /^#t((\d{4})(\d{2})\d{8})$/.exec(location.hash);
+    if (!match || document.getElementById("t" + match[1])) { return; }
+    var path = "/thoughts/" + match[2] + "-" + match[3] + "/";
+    if (location.pathname !== path) {
+        location.replace(path + location.hash);
+    }
+})();
+</script>
+<script src="/assets/js/thoughts-search.js?v={{ site.time | date: '%s' }}" defer></script>

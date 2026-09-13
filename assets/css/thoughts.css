@@ -244,3 +244,21 @@ a.home-thought-kicker:hover {
 .thought-meta a:hover {
     color: var(--accent-secondary);
 }
+
+.thoughts-more {
+    display: block;
+    margin: 1.5rem auto;
+    padding: 0.6rem 1.5rem;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    background: var(--bg-white, #fff);
+    border: 1px solid var(--border-color, #d9d4cc);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.thoughts-more:hover {
+    color: var(--accent-secondary);
+    border-color: var(--accent-secondary, #8c0d20);
+}

@@ -54,5 +54,5 @@ pdf: false
 {% endfor %}
 </div>
 
-<script src="/assets/js/thoughts-search.js?v={{ site.time | date: '%s' }}" defer></script>
+<script src="/assets/js/til-search.js?v={{ site.time | date: '%s' }}" defer></script>
 {% endif %}
