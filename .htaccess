@@ -51,6 +51,11 @@ AuthName eve.gd
 # internal rewrite, not a redirect, so the URL in the bar stays /cv).
 RewriteRule ^cv/?$ /c-v/Eve-CV.pdf [L]
 
+# /about/Eve-CV.pdf was a stale duplicate the deploy pipeline never
+# refreshed (only c-v/Eve-CV.pdf is kept current); send old bookmarks
+# to the canonical address permanently.
+RewriteRule ^about/Eve-CV\.pdf$ /cv [R=301,L]
+
 RewriteCond %{HTTP_HOST} ^martineve.com$ [OR]
 RewriteCond %{HTTP_HOST} ^eve.gd$ [OR]
 RewriteCond %{HTTP_HOST} ^www.martineve.com$
