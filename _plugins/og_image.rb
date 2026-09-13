@@ -26,6 +26,13 @@ module OgImage
     SCOPE_LAYOUTS.include?(layout.to_s)
   end
 
+  # Whether a page should get a card: an in-scope layout, and not opted
+  # out with `og_card: false` front matter (used by the generated
+  # per-month thoughts pages).
+  def self.wants_card?(layout, data)
+    scope_layout?(layout) && data["og_card"] != false
+  end
+
   def self.button_label(is_post)
     is_post ? "Read post" : "Read more"
   end
@@ -250,7 +257,7 @@ module Jekyll
     def documents(site)
       pairs = site.posts.docs.map { |d| [d, true] }
       site.pages.each do |p|
-        pairs << [p, false] if OgImage.scope_layout?(p.data["layout"])
+        pairs << [p, false] if OgImage.wants_card?(p.data["layout"], p.data)
       end
       pairs
     end
