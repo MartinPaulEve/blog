@@ -1,0 +1,10 @@
+/* Page-scoped fixes for /about. The publications list is generated
+   upstream by eprintsToCV from the BIROn feed, so its long unbroken
+   DOI URLs cannot be edited here — let them wrap mid-URL instead of
+   widening the viewport on mobile. Linked from the page body with a
+   ?v= buster (pdf_pages strips ?v= from the cache key), and outside
+   the PDF-hashed stylesheet set like the other page-scoped sheets. */
+
+.post-body a {
+    overflow-wrap: anywhere;
+}

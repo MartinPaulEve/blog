@@ -67,4 +67,4 @@ Listening stats appear here once the site has Last.fm data.
 ---
 
 For who I am and what I do more permanently, see [about](/about/),
-[accounts](/accounts/), or the [CV](/c-v/).
+[accounts](/accounts/), or the [CV](/cv) <i class="fa-solid fa-file-pdf" aria-hidden="true"></i><span class="sr-only">(PDF)</span>.

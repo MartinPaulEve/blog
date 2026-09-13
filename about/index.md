@@ -6,9 +6,11 @@ title: About Martin Eve
 tags: [about, Martin Eve]
 modified: 2015-02-04T20:53:07.573882-04:00
 comments: false
+alias: [/c-v/index.html]
 image:
   feature: header_about.jpg
 ---
+<link href="/assets/css/about.css?v={{ site.time | date: '%s' }}" rel="stylesheet">
 <div style="margin: 0 0 1.5rem;"><strong><a href="/cv">Download my full CV</a> <i class="fa-solid fa-file-pdf" aria-hidden="true"></i><span class="sr-only">(PDF)</span></strong> &mdash; the complete academic record as a single document.</div>
 
 <span itemscope itemtype="http://schema.org/Person" itemid="https://www.martineve.com">Martin Paul Eve is the <a href="/profile"><span itemprop="honorificprefix">Professor</span> of Literature, Technology and Publishing</a> at <a href="https://www.bbk.ac.uk">Birkbeck, University of London</a> and the Associate Director for Platform Development at <a href="https://hcommons.org/">Knowledge Commons</a> at <a href="https://meshresearch.commons.msu.edu/">MESH Research</a> at <a href="https://www.msu.edu">Michigan State University</a>. Martin was also Visiting Professor of Digital Humanities at <a href="https://www.shu.ac.uk">Sheffield Hallam University</a> from 2019 until 2022. Previously he was a Senior Lecturer at Birkbeck, a Lecturer in English at the <a href="http://www.lincoln.ac.uk">University of Lincoln, UK</a>, and an Associate Tutor/Lecturer at the <a href="http://www.sussex.ac.uk">University of Sussex</a>, where he <a href="http://sro.sussex.ac.uk/40841/">completed his <span itemprop="honorificSuffix">Ph.D.</span></a></span>. From 2023-2024, Martin was a Principal R&D Developer at <a href="https://crossref.org">Crossref</a>. Martin was an external examiner/validator for MPhil degrees at the <a href="https://cam.ac.uk">University of Cambridge</a> from 2022-2025.
