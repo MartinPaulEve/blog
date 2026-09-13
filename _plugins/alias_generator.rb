@@ -46,7 +46,9 @@ module Jekyll
 
     def process_pages
       @site.pages.each do |page|
-        generate_aliases(page.destination('').gsub(/index\.(html|htm)$/, ''), page.data['alias'])
+        # page.url, not destination(''): the latter is a filesystem path,
+        # which would bake the build directory into the redirect target.
+        generate_aliases(page.url.gsub(/index\.(html|htm)$/, ''), page.data['alias'])
       end
     end
 
