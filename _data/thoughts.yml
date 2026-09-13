@@ -1,3 +1,27 @@
+- id: '20260912232746'
+  date: '2026-09-12T23:27:46.104282+01:00'
+  text: 'Parchment damage assessment: a review of methods, multimodal workflows, and a transparent reporting framework https://www.nature.com/articles/s40494-026-02899-5
+
+
+    I thought about the "meaning" of damage in Theses on the Metaphors of Digital-Textual History (Stanford University Press, 2024), pp 51-2.'
+  bluesky: https://bsky.app/profile/eve.gd/post/3mve4v3kyt62r
+  mastodon: https://hcommons.social/@mpe/117260423736686260
+- id: '20260912231525'
+  date: '2026-09-12T23:15:25.592960+01:00'
+  text: 'Lots to ponder here, not least how sovereignty might shape a "coherent, well-resourced, globally distributed system" https://katinamagazine.org/content/article/open-knowledge/2026/how-to-build-a-sovereign-global-knowledge-commons
+
+
+    The thread I am tugging at: whose sovereignty? Every distributed node has sovereignty over its info and data and then you presumably have the regional level above that and then the national level and then the international level. How does the hierarchy feed down? Or does basically the open license just mean that sovereignty is guaranteed, at all levels? Presumably there are _constraints_ on, say, individual journals who would be forced to conform to specific standards and practices so that they can fit in the relocation scheme to safeguard material? That may not be bad, but is it sovereignty for them?
+
+
+    Also, cool: "The necessary infrastructure exists and already operates at a global scale. The Public Knowledge Project’s (PKP) Open Journal Systems (OJS) and Birkbeck’s Janeway are open-source journal management software used by tens of thousands of journals worldwide."'
+  bluesky: https://bsky.app/profile/eve.gd/post/3mve46wntqu2c
+  mastodon: https://hcommons.social/@mpe/117260375056084207
+- id: '20260912225433'
+  date: '2026-09-12T22:54:33.152653+01:00'
+  text: "This draws a dichotomy between LLMs (acts on training data) & AI (says doesn't exist). Claims the 10% kill-all-humans stuff is false b/c LLMs can't do things spontaneously. But that kind of massacre IS in the training data, via SF! https://pluralistic.net/2026/09/12/god-in-the-box/#llms-are-fake\n\n  I mean: Terminator 2, 35 years old now."
+  bluesky: https://bsky.app/profile/eve.gd/post/3mve2zozp7o2c
+  mastodon: https://hcommons.social/@mpe/117260293261563014
 - id: '20260912181843'
   date: '2026-09-12T18:18:43.496273+01:00'
   text: "TIL: Landlock is a security mod for the Linux kernel that allows programs to restrict their own network/filesystem axx (and other capabilities), at startup, so that if a malicious actor runs code in their context, the blast radius is contained. https://docs.kernel.org/userspace-api/landlock.html \n\nThere are various python interfaces to Landlock, but they do not seem well maintained. https://github.com/Edward-Knight/landlock https://github.com/SebastienWae/py-landlock"
