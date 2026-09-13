@@ -262,3 +262,36 @@ a.home-thought-kicker:hover {
     color: var(--accent-secondary);
     border-color: var(--accent-secondary, #8c0d20);
 }
+
+/* The widget heading row: title left, the /thoughts path right in the
+   mono idiom. The container query drops the path when the widget is
+   too narrow to carry both comfortably. */
+.thought-widget {
+    container-type: inline-size;
+}
+
+.thought-heading {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.75rem;
+}
+
+.thought-heading-url {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.thought-heading-url:hover {
+    color: var(--accent-secondary);
+    text-decoration: underline;
+}
+
+@container (max-width: 15rem) {
+    .thought-heading-url {
+        display: none;
+    }
+}
