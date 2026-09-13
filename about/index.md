@@ -9,6 +9,8 @@ comments: false
 image:
   feature: header_about.jpg
 ---
+<div style="margin: 0 0 1.5rem;"><strong><a href="/cv">Download my full CV</a> <i class="fa-solid fa-file-pdf" aria-hidden="true"></i><span class="sr-only">(PDF)</span></strong> &mdash; the complete academic record as a single document.</div>
+
 <span itemscope itemtype="http://schema.org/Person" itemid="https://www.martineve.com">Martin Paul Eve is the <a href="/profile"><span itemprop="honorificprefix">Professor</span> of Literature, Technology and Publishing</a> at <a href="https://www.bbk.ac.uk">Birkbeck, University of London</a> and the Associate Director for Platform Development at <a href="https://hcommons.org/">Knowledge Commons</a> at <a href="https://meshresearch.commons.msu.edu/">MESH Research</a> at <a href="https://www.msu.edu">Michigan State University</a>. Martin was also Visiting Professor of Digital Humanities at <a href="https://www.shu.ac.uk">Sheffield Hallam University</a> from 2019 until 2022. Previously he was a Senior Lecturer at Birkbeck, a Lecturer in English at the <a href="http://www.lincoln.ac.uk">University of Lincoln, UK</a>, and an Associate Tutor/Lecturer at the <a href="http://www.sussex.ac.uk">University of Sussex</a>, where he <a href="http://sro.sussex.ac.uk/40841/">completed his <span itemprop="honorificSuffix">Ph.D.</span></a></span>. From 2023-2024, Martin was a Principal R&D Developer at <a href="https://crossref.org">Crossref</a>. Martin was an external examiner/validator for MPhil degrees at the <a href="https://cam.ac.uk">University of Cambridge</a> from 2022-2025.
 
 Broadly speaking, Martin's work centres on understanding different registers of knowledge and how they manifest in writing. Martin studies how literary reading techniques can be used to provide us with access to a set of differing epistemologies that all take inscriptive forms: historical, scientistic, digito-factual, visual media, and literary knowledges. This work is spread between criticism of contemporary American and British fiction, histories and philosophies of technology, evaluative cultures in the academy, television studies, science fiction approaches, and technological mutations in scholarly publishing. He is the author or editor of ten scholarly books.
@@ -21,7 +23,7 @@ In 2019, Martin was awarded the Philip Leverhulme Prize for Literary Studies by 
 
 Martin is also the developer of several digital humanities/computational projects, perhaps most notably the now-defunct automatic JATS typesetter, meTypeset.
 
-You can download a [PDF version](Eve-CV.pdf) of this CV.
+You can download a [PDF version](/cv) <i class="fa-solid fa-file-pdf" aria-hidden="true"></i><span class="sr-only">(PDF)</span> of this CV.
 
 <h3>Research Supervision</h3>
 Martin would welcome Ph.D. proposals from candidates working in any of the following areas:

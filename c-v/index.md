@@ -19,7 +19,7 @@ In 2019, Martin was awarded the Philip Leverhulme Prize for Literary Studies by 
 
 Martin is also the developer of several digital humanities/computational projects.
 
-You can download a [PDF version](Eve-CV.pdf) of this CV.
+You can download a [PDF version](/cv) <i class="fa-solid fa-file-pdf" aria-hidden="true"></i><span class="sr-only">(PDF)</span> of this CV.
 
 <h3>Research Supervision</h3>
 Martin would welcome Ph.D. proposals from candidates working in any of the following areas:

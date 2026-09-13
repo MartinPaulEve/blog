@@ -47,6 +47,10 @@ deny from all
 </Limit>
 AuthName eve.gd
 
+# The CV lives at a memorable address: /cv serves the PDF itself (an
+# internal rewrite, not a redirect, so the URL in the bar stays /cv).
+RewriteRule ^cv/?$ /c-v/Eve-CV.pdf [L]
+
 RewriteCond %{HTTP_HOST} ^martineve.com$ [OR]
 RewriteCond %{HTTP_HOST} ^eve.gd$ [OR]
 RewriteCond %{HTTP_HOST} ^www.martineve.com$

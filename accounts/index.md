@@ -36,6 +36,8 @@ This page is the canonical list of my accounts and public keys around the web. I
 <section class="account-box">
 <h2 class="account-box-title">Scholarship</h2>
 <ul>
+<li><span class="account-service">CV</span> <a class="account-handle" href="/cv">/cv <i class="fa-solid fa-file-pdf" aria-hidden="true"></i><span class="sr-only">(PDF)</span></a>
+<span class="account-note">My full curriculum vitae &mdash; the link goes straight to a PDF.</span></li>
 <li><span class="account-service">ORCID</span> <a class="account-handle" href="https://orcid.org/0000-0002-5589-8511">0000-0002-5589-8511</a>
 <span class="account-note">Scholarly identifier.</span></li>
 <li><span class="account-service">Google Scholar</span> <a class="account-handle" href="https://scholar.google.com/citations?user=-HFP0GsAAAAJ">my profile</a>
