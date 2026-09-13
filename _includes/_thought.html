@@ -22,7 +22,7 @@
         {% endfor %}
     </div>
     {% endif %}
-    <a class="thought-permalink u-url" href="/thoughts/#t{{ thought.id }}">
+    <a class="thought-permalink u-url" href="{{ thought.id | thought_month_url }}#t{{ thought.id }}">
         <time class="dt-published" datetime="{{ thought.date }}">{{ thought.date | date: "%-d %B %Y, %H:%M" }}</time>
     </a>
 </div>

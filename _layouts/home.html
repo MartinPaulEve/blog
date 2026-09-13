@@ -89,7 +89,7 @@
         <div class="container">
             <a class="home-thought-kicker" href="/thoughts/">Short thought</a>
             <p class="home-thought-text">{{ thought.text | linkify_urls }}</p>
-            <a class="home-thought-link" href="/thoughts/#t{{ thought.id }}">
+            <a class="home-thought-link" href="{{ thought.id | thought_month_url }}#t{{ thought.id }}">
                 <time datetime="{{ thought.date }}">{{ thought.date | date: "%-d %B %Y" }}</time> &middot; all thoughts &rarr;
             </a>
             <span class="home-thought-sep" aria-hidden="true">&middot;</span>
