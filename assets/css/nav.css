@@ -1,0 +1,11 @@
+/* Path-style main nav: the labels are the URLs themselves (/about,
+   /now, /posts…), set in the mono idiom the sidebar established.
+   Linked from _navigation.html inside the PDF-stripped header;
+   deliberately outside the PDF-hashed stylesheet set (styles.css,
+   blog-post.css), so nav styling never re-renders the archival PDFs. */
+
+.nav-desktop .nav-link,
+.nav-desktop .btn {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+}
