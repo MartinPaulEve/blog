@@ -11,6 +11,13 @@ This is a [now page](https://nownownow.com/about): a snapshot of what
 I'm up to at the moment, assembled from this site's streams every time
 it rebuilds — so it is current as of {{ site.time | date: "%-d %B %Y" }}.
 
+{% comment %}
+  Hand-written sections go anywhere in this file as ordinary Markdown —
+  right here is a good spot (current projects, reading, life news).
+  The Liquid-tagged blocks below are the automated sections; leave
+  those intact and write around them.
+{% endcomment %}
+
 ## Writing
 
 The most recent long-form pieces:
