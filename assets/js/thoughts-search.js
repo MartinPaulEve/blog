@@ -177,6 +177,20 @@
         time.textContent = entry.display;
         link.appendChild(time);
         footer.appendChild(link);
+        [["b", "Bluesky"], ["m", "Mastodon"], ["x", "Twitter"]]
+            .forEach(function (pair) {
+                var url = entry[pair[0]];
+                if (!url) {
+                    return;
+                }
+                footer.appendChild(document.createTextNode(" · "));
+                var syndication = document.createElement("a");
+                syndication.href = url;
+                syndication.className = "u-syndication";
+                syndication.rel = "syndication";
+                syndication.textContent = pair[1];
+                footer.appendChild(syndication);
+            });
         article.appendChild(footer);
         return article;
     }

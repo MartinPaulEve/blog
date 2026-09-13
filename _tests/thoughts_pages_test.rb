@@ -78,4 +78,27 @@ class ThoughtsPagesTest < Minitest::Test
                  index[0]["i"]
     refute index[1].key?("i")
   end
+
+  def test_search_index_carries_syndication_urls_only_when_present
+    syndicated = thought(id: "20120516182000",
+                         date: "2012-05-16T18:20:00+01:00")
+    syndicated["twitter"] =
+      "https://twitter.com/martin_eve/status/739895949816926209"
+    syndicated["bluesky"] =
+      "https://bsky.app/profile/eve.gd/post/3mve4v3kyt62r"
+    syndicated["mastodon"] =
+      "https://hcommons.social/@mpe/117260423736686260"
+    bare = thought(id: "20120601090000", date: "2012-06-01T09:00:00+01:00")
+    index = ThoughtsPages.search_index([syndicated, bare])
+
+    assert_equal "https://bsky.app/profile/eve.gd/post/3mve4v3kyt62r",
+                 index[0]["b"]
+    assert_equal "https://hcommons.social/@mpe/117260423736686260",
+                 index[0]["m"]
+    assert_equal "https://twitter.com/martin_eve/status/739895949816926209",
+                 index[0]["x"]
+    refute index[1].key?("b")
+    refute index[1].key?("m")
+    refute index[1].key?("x")
+  end
 end

@@ -57,7 +57,10 @@ module ThoughtsPages
 
   # The whole-archive search payload: one compact hash per thought —
   # id, ISO date ("d"), untouched text ("t") and, only when present,
-  # image [src, alt] pairs ("i").
+  # image [src, alt] pairs ("i") and the syndicated copies' URLs
+  # ("b"luesky, "m"astodon, "x" for twitter; "t" is the text).
+  SYNDICATION_KEYS = { "bluesky" => "b", "mastodon" => "m", "twitter" => "x" }.freeze
+
   def self.search_index(thoughts)
     (thoughts || []).map do |thought|
       entry = {
@@ -68,6 +71,9 @@ module ThoughtsPages
       images = thought["images"]
       unless images.nil? || images.empty?
         entry["i"] = images.map { |image| [image["src"].to_s, image["alt"].to_s] }
+      end
+      SYNDICATION_KEYS.each do |source, key|
+        entry[key] = thought[source] if thought[source]
       end
       entry
     end
