@@ -1,0 +1,22 @@
+{% comment %}
+  Little wayfinding box: the site's secondary pages, label left and
+  path right in the mono idiom the thought widget's /thoughts link
+  established. Sits right under the author bio on posts and first on
+  plain pages.
+
+  Like the other sidebar widgets, every scrap of this markup stays
+  inside the post sidebar — which pdf_pages.rb strips from the PDF
+  cache key — and the stylesheet is linked here rather than in
+  _head.html, so sidebar-nav.css must likewise stay out of the
+  PDF-hashed stylesheet set (blog-post.css, styles.css).
+{% endcomment %}
+<link rel="stylesheet" href="/assets/css/sidebar-nav.css?v={{ site.time | date: '%s' }}">
+<nav class="sidebar-widget sidebar-nav" aria-label="Around this site">
+    <h3>Getting Around</h3>
+    <ul class="sidebar-nav-list">
+        <li><a href="/thoughts/"><span class="sidebar-nav-label">Short thoughts</span> <span class="sidebar-nav-path">/thoughts</span></a></li>
+        <li><a href="/til/"><span class="sidebar-nav-label">Today I learned</span> <span class="sidebar-nav-path">/til</span></a></li>
+        <li><a href="/now/"><span class="sidebar-nav-label">What I&rsquo;m up to</span> <span class="sidebar-nav-path">/now</span></a></li>
+        <li><a href="/accounts/"><span class="sidebar-nav-label">Accounts</span> <span class="sidebar-nav-path">/accounts</span></a></li>
+    </ul>
+</nav>
