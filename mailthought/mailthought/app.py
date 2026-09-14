@@ -6,7 +6,7 @@ the inbox on disk *before* the 200 goes back — an accepted email must
 survive a crash. The actual work happens on a single background worker
 so concurrent emails cannot interleave git operations or builds.
 Rejections are 406 (Mailgun: permanent failure, do not retry) and are
-never answered by email.
+never answered by email; the reason goes to the app log only.
 """
 
 import json
@@ -14,6 +14,7 @@ import os
 import queue
 import shutil
 import threading
+import time
 import traceback
 import uuid
 from pathlib import Path
@@ -148,23 +149,37 @@ def create_app(config: Config | None = None, enqueue=None) -> Flask:
     @app.post("/inbound")
     def inbound():
         form = request.form
+
+        def reject(reason, detail):
+            app.logger.warning("inbound rejected (%s): %s", reason, detail)
+            return {"status": "rejected", "reason": reason}, 406
+
         if not security.verify_signature(
             config.mailgun_signing_key,
             form.get("timestamp", ""),
             form.get("token", ""),
             form.get("signature", ""),
         ):
-            return {"status": "rejected", "reason": "signature"}, 406
+            return reject(
+                "signature",
+                "timestamp=%r server_now=%d"
+                % (form.get("timestamp", ""), time.time()),
+            )
         if tokens.seen_before(form.get("token", "")):
-            return {"status": "rejected", "reason": "replay"}, 406
+            return reject("replay", "token=%r" % form.get("token", "")[:8])
         if not security.sender_allowed(
             form.get("from", ""), config.allowed_senders
         ):
-            return {"status": "rejected", "reason": "sender"}, 406
-        if config.require_auth and not security.is_authenticated(
-            security.auth_results(form.get("message-headers", ""))
-        ):
-            return {"status": "rejected", "reason": "authentication"}, 406
+            return reject(
+                "sender",
+                "from=%r" % security.sender_address(form.get("from", "")),
+            )
+        verdicts = security.auth_results(form.get("message-headers", ""))
+        if config.require_auth and not security.is_authenticated(verdicts):
+            return reject(
+                "authentication",
+                "spf=%r dkim=%r" % (verdicts["spf"], verdicts["dkim"]),
+            )
 
         message_id = extract.header_value(
             form.get("message-headers"), "Message-Id"
