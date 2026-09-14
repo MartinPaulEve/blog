@@ -121,11 +121,14 @@ Classification (in order):
 
 Body extraction:
 
-- Prefer Mailgun `stripped-text` (quotes and signatures already removed).
-  Empty → `stripped-html`/`body-html` converted to text with `<a href>`
-  URLs preserved inline (dedup when the anchor text is the URL). Last
-  resort: `body-plain` minus everything after a `^-- $` line or a known
-  mobile signoff ("Sent from my iPhone" etc.).
+- Prefer Mailgun `stripped-text` (quotes and any signature Mailgun
+  recognised already removed). Empty → `stripped-html`/`body-html`
+  converted to text with `<a href>` URLs preserved inline (dedup when
+  the anchor text is the URL). Last resort: `body-plain`.
+- Every path then drops everything after a signature delimiter line
+  (`--` with or without the RFC 3676 trailing space) or a known mobile
+  signoff ("Sent from my iPhone" etc.) — Mailgun misses the
+  space-less `--` form.
 - Text is otherwise never altered (repo ethos): CRLF→LF and outer trim
   only. RFC 3676 format=flowed unwrapping only when the message declares it.
 - For a POST reply, the body (beyond the POST line) is ignored — the draft

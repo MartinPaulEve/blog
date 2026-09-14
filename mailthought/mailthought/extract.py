@@ -84,15 +84,17 @@ def classify(subject: str, body: str) -> Action:
 def select_body(form) -> str:
     """The thought text from a parsed Mailgun POST (a form mapping).
 
-    Preference order: stripped-text (Mailgun already removed quotes and
-    the signature block) → stripped-html/body-html rendered to text
-    with link URLs preserved → body-plain with our own signature
-    stripping. Whatever the source, the result is CRLF-normalised,
-    flowed-unwrapped when declared, and outer-trimmed.
+    Preference order: stripped-text (Mailgun already removed quotes
+    and any signature it recognised) → stripped-html/body-html
+    rendered to text with link URLs preserved → body-plain. Our own
+    signature stripping runs on every path: Mailgun misses delimiters
+    like a bare "--" without the RFC 3676 trailing space. Whatever the
+    source, the result is CRLF-normalised, flowed-unwrapped when
+    declared, and outer-trimmed.
     """
     stripped = (form.get("stripped-text") or "").replace("\r\n", "\n")
     if stripped.strip():
-        return stripped.strip()
+        return strip_signature(stripped).strip()
 
     html = form.get("stripped-html") or form.get("body-html") or ""
     if html.strip():

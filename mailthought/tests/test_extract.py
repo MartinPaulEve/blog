@@ -103,6 +103,21 @@ class TestSelectBody:
         form = {"stripped-text": "line one\r\nline two\r\n\r\n"}
         assert select_body(form) == "line one\nline two"
 
+    def test_stripped_text_signature_missed_by_mailgun_is_removed(self):
+        # Mailgun only strips signatures it recognises; a bare "--"
+        # delimiter (no trailing space) sails through in stripped-text.
+        form = {
+            "stripped-text": (
+                "Thank you all for your kind comments.\n"
+                "\n"
+                "--\n"
+                "\n"
+                "[MSU Spartan helmet logo] Martin Paul Eve\n"
+                "Technical Lead, Knowledge Commons\n"
+            )
+        }
+        assert select_body(form) == "Thank you all for your kind comments."
+
     def test_html_used_when_no_plain_text(self):
         form = {
             "stripped-html": (
