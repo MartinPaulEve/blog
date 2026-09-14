@@ -83,6 +83,28 @@ class TestOutputParsing:
         assert result.status == "310/300 · will thread into 2 posts"
         assert result.posts == ["first part\nstill first", "second part"]
 
+    def test_dry_run_segments_when_services_split_differently(self):
+        stdout = (
+            "517/300 · will thread as 2 posts on Bluesky · 1 post on Mastodon\n"
+            "--- Bluesky post 1 ---\n"
+            "first bluesky part\n"
+            "--- Bluesky post 2 ---\n"
+            "second bluesky part\n"
+            "--- Mastodon post 1 ---\n"
+            "the whole thing in one\n"
+        )
+        result = parse_dry_run_output(stdout)
+        assert result.posts == [
+            "first bluesky part",
+            "second bluesky part",
+            "the whole thing in one",
+        ]
+        assert result.labels == [
+            "Bluesky post 1",
+            "Bluesky post 2",
+            "Mastodon post 1",
+        ]
+
     def test_publish_success_with_both_services(self):
         result = parse_publish_output(STORED_OK)
         assert result.ok

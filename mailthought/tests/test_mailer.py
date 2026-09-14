@@ -90,6 +90,24 @@ class TestDryRunReport:
         assert "POST" in body
         assert "reply" in body.lower()
 
+    def test_service_split_report_previews_every_labelled_post(self):
+        result = DryRunResult(
+            status="517/300 · will thread as 2 posts on Bluesky · "
+                   "1 post on Mastodon",
+            posts=["first bluesky part", "second bluesky part",
+                   "the whole thing in one"],
+            labels=["Bluesky post 1", "Bluesky post 2", "Mastodon post 1"],
+        )
+        subject, body = dry_run_report("a1b2c3d4", result, image_count=0)
+        assert "2 post(s)" in subject
+        assert "Bluesky post 1 of 2" in body
+        assert "Bluesky post 2 of 2" in body
+        assert "Mastodon post 1 of 1" in body
+        assert "first bluesky part" in body
+        assert "second bluesky part" in body
+        assert "the whole thing in one" in body
+        assert "single post" not in body
+
     def test_single_post_report_reads_naturally(self):
         result = DryRunResult(status="5/300 · posts as a single post",
                               posts=["hi"])

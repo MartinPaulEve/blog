@@ -53,15 +53,28 @@ def dry_run_report(draft_id: str, result, image_count: int) -> tuple:
     The subject carries the draft id ("Thought draft [mt-…]: N post(s),
     M image(s)"); the body says how the thought threads, how many
     images ride on the first post, previews every post, and explains
-    the reply-with-POST step.
+    the reply-with-POST step. When Bluesky and Mastodon split
+    differently the preview blocks carry the CLI's service labels and
+    the subject counts the Bluesky posts.
     """
-    count = len(result.posts)
+    labels = getattr(result, "labels", None) or []
+    totals = {
+        "Bluesky": sum(label.startswith("Bluesky") for label in labels),
+        "Mastodon": sum(label.startswith("Mastodon") for label in labels),
+    }
+    per_service = any(totals.values())
+    count = totals["Bluesky"] if per_service else len(result.posts)
     subject = (
         f"Thought draft [mt-{draft_id}]: {count} post(s), "
         f"{image_count} image(s)"
     )
     lines = ["Here is what this thought would do.", ""]
-    if count > 1:
+    if per_service:
+        lines.append(
+            f"It will thread as {totals['Bluesky']} post(s) on Bluesky "
+            f"and {totals['Mastodon']} post(s) on Mastodon."
+        )
+    elif count > 1:
         lines.append(f"It will be split into {count} posts (a thread).")
     else:
         lines.append("It will go out as a single post.")
@@ -76,7 +89,11 @@ def dry_run_report(draft_id: str, result, image_count: int) -> tuple:
     lines.append("")
     lines.append("Preview:")
     for number, segment in enumerate(result.posts, 1):
-        lines.append(f"--- post {number} of {count} ---")
+        if per_service:
+            label = labels[number - 1]
+            lines.append(f"--- {label} of {totals[label.split()[0]]} ---")
+        else:
+            lines.append(f"--- post {number} of {count} ---")
         lines.append(segment)
     lines.append("")
     lines.append(POST_INSTRUCTIONS)

@@ -113,7 +113,9 @@ Classification (in order):
    case-insensitive) → dry run. Report email subject:
    `Thought draft [mt-<id>]: <N> post(s), <M> image(s)`; body states the
    thread split, image count, and a per-post preview (the CLI's
-   `--- post N ---` blocks); ends with reply-with-POST instructions.
+   `--- post N ---` blocks, or its `--- Bluesky/Mastodon post N ---`
+   blocks when the services split differently, in which case N counts
+   the Bluesky posts); ends with reply-with-POST instructions.
 3. Otherwise → publish immediately. The subject is discarded (thoughts have
    no titles); only the body is the thought.
 

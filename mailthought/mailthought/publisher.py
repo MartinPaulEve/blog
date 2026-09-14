@@ -29,7 +29,9 @@ THOUGHT_BASE = [
 ]
 
 STORED_RE = re.compile(r"^Stored thought (\d+) \((\d+) post\(s\)\)\.")
-POST_MARKER_RE = re.compile(r"^--- post \d+ ---$")
+# The CLI prints plain "--- post N ---" markers when Bluesky and
+# Mastodon split identically, service-labelled ones when they differ.
+POST_MARKER_RE = re.compile(r"^--- ((?:Bluesky |Mastodon )?post \d+) ---$")
 
 IMAGE_EXTENSIONS = {
     "image/jpeg": ".jpg",
@@ -55,6 +57,7 @@ class PublishResult:
 class DryRunResult:
     status: str
     posts: list = field(default_factory=list)
+    labels: list = field(default_factory=list)
 
 
 def default_run(cmd, cwd=None, check=True):
@@ -87,21 +90,27 @@ def thought_command(
 
 
 def parse_dry_run_output(stdout: str) -> DryRunResult:
-    """The status line and per-post segments from `thought --dry-run`."""
+    """The status line and per-post segments from `thought --dry-run`.
+
+    ``labels`` carries each segment's marker text ("post 1" or
+    "Bluesky post 1"), parallel to ``posts``.
+    """
     lines = (stdout or "").splitlines()
     status = lines[0].strip() if lines else ""
-    posts = []
+    posts, labels = [], []
     current = None
     for line in lines[1:]:
-        if POST_MARKER_RE.match(line.strip()):
+        marker = POST_MARKER_RE.match(line.strip())
+        if marker:
             if current is not None:
                 posts.append("\n".join(current).strip("\n"))
+            labels.append(marker.group(1))
             current = []
         elif current is not None:
             current.append(line)
     if current is not None:
         posts.append("\n".join(current).strip("\n"))
-    return DryRunResult(status=status, posts=posts)
+    return DryRunResult(status=status, posts=posts, labels=labels)
 
 
 def parse_publish_output(stdout: str) -> PublishResult:
