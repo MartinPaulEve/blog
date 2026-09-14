@@ -28,7 +28,12 @@ THOUGHT_BASE = [
     "--project", "thought_composer", "thought",
 ]
 
-STORED_RE = re.compile(r"^Stored thought (\d+) \((\d+) post\(s\)\)\.")
+# The CLI's success line: "(N post(s))" historically, "(N Bluesky
+# post(s), M Mastodon)" since the per-service split. Group 2 is the
+# (Bluesky) post count either way.
+STORED_RE = re.compile(
+    r"^Stored thought (\d+) \((\d+) (?:Bluesky )?post\(s\)(?:, \d+ Mastodon)?\)\."
+)
 # The CLI prints plain "--- post N ---" markers when Bluesky and
 # Mastodon split identically, service-labelled ones when they differ.
 POST_MARKER_RE = re.compile(r"^--- ((?:Bluesky |Mastodon )?post \d+) ---$")

@@ -113,6 +113,24 @@ class TestOutputParsing:
         assert result.bluesky == "https://bsky.app/profile/eve.gd/post/3abc"
         assert result.mastodon == "https://hcommons.social/@mpe/117"
 
+    def test_publish_success_with_per_service_stored_line(self):
+        stdout = (
+            "==> Building site\n"
+            "Stored thought 20260914212148 (2 Bluesky post(s), 1 Mastodon).\n"
+            "Bluesky: https://bsky.app/profile/eve.gd/post/3mviwrxqacf2g\n"
+            "Mastodon: https://hcommons.social/@mpe/117271253911793383\n"
+        )
+        result = parse_publish_output(stdout)
+        assert result.ok
+        assert result.thought_id == "20260914212148"
+        assert result.posts == 2
+        assert result.bluesky == (
+            "https://bsky.app/profile/eve.gd/post/3mviwrxqacf2g"
+        )
+        assert result.mastodon == (
+            "https://hcommons.social/@mpe/117271253911793383"
+        )
+
     def test_partial_syndication_failure_is_still_a_success(self):
         stdout = (
             "Stored thought 20260912190000 (1 post(s)).\n"

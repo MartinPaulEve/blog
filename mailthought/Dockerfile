@@ -53,8 +53,13 @@ RUN uv sync --frozen --no-dev
 COPY entrypoint.sh /app/entrypoint.sh
 RUN chmod +x /app/entrypoint.sh
 
+# JEKYLL_NO_BUNDLER_REQUIRE: the clone's Gemfile.lock pins gem versions
+# from Martin's Nix environment that the image doesn't carry; without
+# this, jekyll's launcher runs Bundler.setup against that lockfile and
+# dies with GemNotFound. Plain-jekyll is the ethos here anyway.
 ENV TZ=Europe/London \
     JEKYLL_SKIP_PDFS=1 \
+    JEKYLL_NO_BUNDLER_REQUIRE=true \
     BUNDLE_SILENCE_DEPRECATIONS=true \
     DATA_DIR=/data
 
