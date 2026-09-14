@@ -23,7 +23,7 @@ from . import bluesky as bluesky_module
 from . import mastodon as mastodon_module
 from .linkcard import fetch_card
 from .store import add_thought, load_image_file, save_image, set_syndication
-from .text import find_links, split_thread, status_line
+from .text import find_links, split_thread, split_thread_mastodon, status_line
 
 
 def _bluesky_client():
@@ -74,18 +74,21 @@ def store_thought(root: Path, text: str, images: list[dict]) -> dict:
 def syndicate(
     root: Path,
     entry: dict,
-    segments: list[str],
+    bluesky_segments: list[str],
+    mastodon_segments: list[str],
     images: list[dict],
     echo=print,
 ) -> dict:
-    """Post the thread to Bluesky and Mastodon; record the URLs.
+    """Post to Bluesky and Mastodon; record the URLs.
 
-    Each service is tried independently — one failing must not stop the
-    other, or the blog publish. Returns {"bluesky": url, "mastodon":
-    url} with None for any service that failed or lacks credentials.
+    Each service gets its own thread split (Bluesky's 300-grapheme
+    limit threads sooner than Mastodon's character limit). Each is
+    tried independently — one failing must not stop the other, or the
+    blog publish. Returns {"bluesky": url, "mastodon": url} with None
+    for any service that failed or lacks credentials.
     """
     card = None
-    links = find_links(" ".join(segments))
+    links = find_links(" ".join(bluesky_segments))
     if links and not images:
         card = fetch_card(links[0]["url"])
 
@@ -97,7 +100,7 @@ def syndicate(
     else:
         try:
             urls = client.post_thread(
-                segments, images=images or None, card=card
+                bluesky_segments, images=images or None, card=card
             )
             result["bluesky"] = urls[0]
             echo(f"Bluesky: {urls[0]}")
@@ -115,7 +118,9 @@ def syndicate(
                 )
                 for image in images[:4]
             ]
-            urls = client.post_thread(segments, media_ids=media_ids or None)
+            urls = client.post_thread(
+                mastodon_segments, media_ids=media_ids or None
+            )
             result["mastodon"] = urls[0]
             echo(f"Mastodon: {urls[0]}")
         except Exception as exc:  # noqa: BLE001 — one service down must not stop the rest
@@ -174,23 +179,35 @@ def main(argv=None):
             return 1
         tui.ask_alt_text(images)
 
-    segments = split_thread(text)
-    if not segments:
+    bluesky_segments = split_thread(text)
+    mastodon_segments = split_thread_mastodon(text)
+    if not bluesky_segments:
         print("Empty thought; nothing to do.")
         return 1
 
     if args.dry_run:
         print(status_line(text, images=len(images)))
-        for number, segment in enumerate(segments, 1):
-            print(f"--- post {number} ---")
-            print(segment)
+        if bluesky_segments == mastodon_segments:
+            for number, segment in enumerate(bluesky_segments, 1):
+                print(f"--- post {number} ---")
+                print(segment)
+        else:
+            for number, segment in enumerate(bluesky_segments, 1):
+                print(f"--- Bluesky post {number} ---")
+                print(segment)
+            for number, segment in enumerate(mastodon_segments, 1):
+                print(f"--- Mastodon post {number} ---")
+                print(segment)
         return 0
 
     entry = store_thought(args.root, text, images)
-    print(f"Stored thought {entry['id']} ({len(segments)} post(s)).")
+    print(
+        f"Stored thought {entry['id']} ({len(bluesky_segments)} Bluesky "
+        f"post(s), {len(mastodon_segments)} Mastodon)."
+    )
 
     if not args.no_post:
-        syndicate(args.root, entry, segments, images)
+        syndicate(args.root, entry, bluesky_segments, mastodon_segments, images)
 
     if not args.no_deploy:
         deploy = subprocess.run(

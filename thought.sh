@@ -6,7 +6,8 @@
 # pastes an image from the clipboard, Ctrl+C cancels. The thought is
 # stored untouched in _data/thoughts.yml (feeding /thoughts/, the post
 # sidebar and the homepage), cross-posted to Bluesky and Mastodon
-# (threading automatically when it runs long), and shipped with the
+# (each threading on its own limit when it runs long — Mastodon's
+# 1,000 characters means it often goes out whole), and shipped with the
 # quick deploy (jekyll build + rsync only — no Sequoia, no git work).
 #
 #   ./thought.sh                        # compose, post, quick-deploy

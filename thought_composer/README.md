@@ -4,8 +4,12 @@ The eve.gd "short thought" tool: an interactive terminal composer with a
 live Bluesky character count (300 graphemes), link facets and preview
 cards, image attachments (pasted from the clipboard or given as files),
 and cross-posting to Bluesky (@eve.gd) and Mastodon (@mpe@hcommons.social)
-— threading automatically when a thought runs over the limit, without
-ever altering the words.
+— threading automatically when a thought runs over a limit, without
+ever altering the words. Each service threads against its own limit:
+Bluesky at 300 graphemes, Mastodon at its instance's character limit
+(hcommons.social allows 1,000, URLs counting as 23; override with
+`MASTODON_CHARACTER_LIMIT` in `.env`) — so a thought that threads on
+Bluesky often posts to Mastodon whole.
 
 The thought itself is stored untouched in `_data/thoughts.yml`, which
 feeds /thoughts/, the post sidebar widget, and the homepage block. After

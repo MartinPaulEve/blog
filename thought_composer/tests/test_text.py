@@ -1,9 +1,11 @@
 from thought_composer.text import (
     BLUESKY_LIMIT,
+    MASTODON_LIMIT,
     find_links,
     grapheme_length,
     mastodon_length,
     split_thread,
+    split_thread_mastodon,
     status_line,
 )
 
@@ -105,6 +107,39 @@ def test_no_counters_or_ellipses_are_added():
         assert "/" not in segment  # no "1/3" style markers
 
 
+# --- Mastodon thread splitting ---------------------------------------------
+
+
+def test_text_over_bluesky_but_under_mastodon_stays_whole_for_mastodon():
+    words = " ".join(f"word{i}" for i in range(80))  # ~550 chars
+    assert len(split_thread(words)) > 1
+    assert split_thread_mastodon(words) == [words]
+
+
+def test_mastodon_split_respects_its_own_limit():
+    words = " ".join(f"word{i}" for i in range(300))  # well over 1000 chars
+    segments = split_thread_mastodon(words)
+    assert len(segments) > 1
+    for segment in segments:
+        assert mastodon_length(segment) <= MASTODON_LIMIT
+    assert "".join(words.split()) == "".join(
+        "".join(segment.split()) for segment in segments
+    )
+
+
+def test_mastodon_split_counts_urls_as_23():
+    url = "https://example.org/" + "a" * 600
+    text = f"see {url} for details"
+    assert split_thread_mastodon(text) == [text]
+
+
+def test_mastodon_single_oversized_token_is_hard_split():
+    token = "x" * 1500
+    segments = split_thread_mastodon(token)
+    assert [len(s) for s in segments] == [1000, 500]
+    assert "".join(segments) == token
+
+
 # --- status line -----------------------------------------------------------
 
 
@@ -117,6 +152,18 @@ def test_status_line_fits_one_post():
 def test_status_line_announces_threading():
     line = status_line(" ".join(f"word{i}" for i in range(80)))
     assert "thread" in line.lower()
+
+
+def test_status_line_shows_each_service_count_when_threading():
+    line = status_line(" ".join(f"word{i}" for i in range(80)))
+    assert "2 posts on Bluesky" in line
+    assert "1 post on Mastodon" in line
+
+
+def test_status_line_counts_mastodon_thread_too():
+    line = status_line(" ".join(f"word{i}" for i in range(300)))
+    assert "on Bluesky" in line
+    assert "3 posts on Mastodon" in line
 
 
 def test_status_line_counts_images():
