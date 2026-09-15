@@ -254,7 +254,10 @@ class TestPublish:
         assert result.warnings  # the deploy failure is reported
 
 
-def make_job(tmp_path, kind, text="a thought", draft_id=None, images=()):
+def make_job(
+    tmp_path, kind, text="a thought", draft_id=None, images=(),
+    needs_auth=False,
+):
     job_dir = tmp_path / "inbox" / "job-1"
     job_dir.mkdir(parents=True, exist_ok=True)
     image_entries = []
@@ -274,6 +277,7 @@ def make_job(tmp_path, kind, text="a thought", draft_id=None, images=()):
         "text": text,
         "images": image_entries,
         "dir": str(job_dir),
+        "needs_auth": needs_auth,
     }
 
 
@@ -388,3 +392,71 @@ class TestProcessJob:
         process_job(job, config, run=fake, send=send)
         (mail,) = send.sent
         assert "Empty thought" in mail["body"]
+
+
+class TestDeferredAuth:
+    """Jobs accepted before DKIM could be checked (Mailgun's webhook
+    deadline is ~10s; its Events API lags) are verified here, in the
+    worker, before anything runs."""
+
+    def test_publishes_once_dkim_passes(self, config, tmp_path):
+        fake = FakeRun(lambda cmd: (
+            (0, STORED_OK) if cmd[0] == "uv"
+            else (1, "") if cmd[:3] == ["git", "diff", "--cached"]
+            else (0, "")
+        ))
+        send = SendCollector()
+        job = make_job(tmp_path, "publish", needs_auth=True)
+        process_job(
+            job, config, run=fake, send=send,
+            fetch_mime=lambda config, message_id: b"THE STORED MIME",
+            verify_dkim=lambda raw, domain: (
+                raw == b"THE STORED MIME" and domain == "eve.gd"
+            ),
+        )
+        (mail,) = send.sent
+        assert "https://bsky.app" in mail["body"]
+
+    def test_dkim_failure_drops_the_job_silently(self, config, tmp_path):
+        fake = FakeRun()
+        send = SendCollector()
+        job = make_job(tmp_path, "publish", needs_auth=True)
+        process_job(
+            job, config, run=fake, send=send,
+            fetch_mime=lambda config, message_id: b"THE STORED MIME",
+            verify_dkim=lambda raw, domain: False,
+        )
+        assert fake.calls == []
+        assert send.sent == []
+
+    def test_unretrievable_message_reports_failure_and_runs_nothing(
+        self, config, tmp_path
+    ):
+        fake = FakeRun()
+        send = SendCollector()
+        job = make_job(tmp_path, "dry_run", needs_auth=True)
+        process_job(
+            job, config, run=fake, send=send,
+            fetch_mime=lambda config, message_id: None,
+            verify_dkim=lambda raw, domain: True,
+        )
+        assert fake.calls == []
+        (mail,) = send.sent
+        assert "not published" in mail["body"]
+
+    def test_verified_jobs_are_untouched_by_the_gate(self, config, tmp_path):
+        # needs_auth False must never consult the fallback machinery.
+        fake = FakeRun(lambda cmd: (
+            (0, STORED_OK) if cmd[0] == "uv"
+            else (1, "") if cmd[:3] == ["git", "diff", "--cached"]
+            else (0, "")
+        ))
+        send = SendCollector()
+        job = make_job(tmp_path, "publish")
+        process_job(
+            job, config, run=fake, send=send,
+            fetch_mime=lambda config, message_id: None,
+            verify_dkim=lambda raw, domain: False,
+        )
+        (mail,) = send.sent
+        assert "https://bsky.app" in mail["body"]

@@ -289,6 +289,49 @@ class TestStoredMessageMime:
             is None
         )
 
+    def test_forward_only_routes_have_no_stored_events(self, config):
+        # A forward()-only route never emits a "stored" event — the
+        # storage block rides on accepted/failed events instead — so
+        # the lookup must not restrict the search by event type. This
+        # fake models real Mailgun behaviour for such routes: an
+        # event-filtered query finds nothing.
+        def get(url, **kwargs):
+            if "/events" in url:
+                params = kwargs.get("params") or {}
+                if "event" in params:
+                    return FakeResponse(payload={"items": []})
+                return FakeResponse(
+                    payload={
+                        "items": [
+                            {
+                                "event": "failed",
+                                "storage": {"url": [self.STORAGE_URL]},
+                            }
+                        ]
+                    }
+                )
+            if url == self.STORAGE_URL:
+                return FakeResponse(payload={"body-mime": "RAW MIME BYTES"})
+            return FakeResponse(status_code=404)
+
+        assert (
+            stored_message_mime(
+                config, "<m1@eve.gd>", get=get, sleep=lambda s: None
+            )
+            == b"RAW MIME BYTES"
+        )
+
+    def test_storage_url_may_be_a_list(self, config):
+        # failed events carry storage.url as a list of URLs; stored
+        # events carry a plain string. Both shapes must work.
+        get = self.fake_get([{"storage": {"url": [self.STORAGE_URL]}}])
+        assert (
+            stored_message_mime(
+                config, "<m1@eve.gd>", get=get, sleep=lambda s: None
+            )
+            == b"RAW MIME BYTES"
+        )
+
     def test_waits_out_the_events_api_lag_before_giving_up(self, config):
         # The Events API can lag reception by well over a few seconds;
         # the lookup must keep polling for a minute or two (via the

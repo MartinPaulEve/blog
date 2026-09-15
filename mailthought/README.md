@@ -37,7 +37,10 @@ A mail publishes only if all of these hold:
    size limit (roughly 512 KB, so any mail with a photo attached); when
    both verdicts are *absent* for that reason, the gateway fetches the
    stored raw message back from Mailgun and verifies DKIM itself,
-   requiring a signature domain aligned with the From domain. A
+   requiring a signature domain aligned with the From domain. If the
+   stored message is not queryable within Mailgun's ~10-second webhook
+   deadline, the mail is accepted provisionally and the background
+   worker performs that verification before anything publishes. A
    present-but-failing verdict is always a rejection;
 4. the Message-Id has not been processed before.
 

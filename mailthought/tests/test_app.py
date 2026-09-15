@@ -276,23 +276,39 @@ class TestAuthFallback:
         assert client.post("/inbound", data=form).status_code == 406
         assert jobs == []
 
-    def test_unretrievable_stored_message_asks_mailgun_to_retry(self, config):
-        # 503 (not 406) so Mailgun redelivers once the stored event is
-        # queryable; the retry must not trip the replay or dedupe guards.
-        available = {"mime": None}
+    def test_unretrievable_stored_message_defers_verification(self, config):
+        # Mailgun's webhook deadline is ~10s and its Events API lags,
+        # so when the stored message is not queryable yet the mail is
+        # accepted provisionally and the job carries needs_auth for
+        # the worker to verify before anything publishes.
         client, jobs = self.build(
             config,
-            fetch_mime=lambda config, message_id: available["mime"],
+            fetch_mime=lambda config, message_id: None,
             verify_dkim=lambda raw, domain: True,
         )
-        form = inbound_form(config, spf=None, dkim=None, token="tok-first")
-        assert client.post("/inbound", data=form).status_code == 503
-        assert jobs == []
+        form = inbound_form(config, spf=None, dkim=None, subject="--dry run")
+        response = client.post("/inbound", data=form)
+        assert response.status_code == 200
+        assert response.get_json()["status"] == "queued"
+        (job,) = jobs
+        assert job["needs_auth"] is True
+        assert job["kind"] == "dry_run"
 
-        available["mime"] = b"THE STORED MIME"
-        retry = inbound_form(config, spf=None, dkim=None, token="tok-retry")
-        assert client.post("/inbound", data=retry).status_code == 200
-        assert len(jobs) == 1
+    def test_inline_verification_does_not_mark_the_job(self, config):
+        client, jobs = self.build(
+            config,
+            fetch_mime=lambda config, message_id: b"THE STORED MIME",
+            verify_dkim=lambda raw, domain: True,
+        )
+        client.post("/inbound", data=inbound_form(config, spf=None, dkim=None))
+        (job,) = jobs
+        assert job["needs_auth"] is False
+
+    def test_fully_verdicted_mail_does_not_mark_the_job(self, harness):
+        client, jobs, config = harness
+        client.post("/inbound", data=inbound_form(config))
+        (job,) = jobs
+        assert job["needs_auth"] is False
 
     def test_absent_verdicts_without_a_message_id_are_rejected(self, config):
         # No Message-Id means the stored message can never be looked

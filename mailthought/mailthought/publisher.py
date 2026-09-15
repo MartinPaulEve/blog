@@ -20,11 +20,17 @@ import tempfile
 from dataclasses import dataclass, field
 from pathlib import Path
 
-from . import drafts, mailer
+from . import drafts, mailer, security
 
 logger = logging.getLogger(__name__)
 
 COMMIT_MESSAGE = "chore(thoughts): add {thought_id} via mail gateway"
+
+# Polling budget for deferred DKIM verification: the worker can afford
+# to wait out the Events API's ingestion lag (unlike the webhook,
+# which Mailgun abandons after ~10s).
+VERIFY_FETCH_ATTEMPTS = 31  # ~5 minutes at 10s spacing
+VERIFY_FETCH_DELAY = 10.0
 
 THOUGHT_BASE = [
     "uv", "run", "--env-file", ".env",
@@ -235,13 +241,25 @@ def publish(
     return result
 
 
-def process_job(job: dict, config, run=default_run, send=None) -> None:
+def process_job(
+    job: dict,
+    config,
+    run=default_run,
+    send=None,
+    fetch_mime=None,
+    verify_dkim=None,
+) -> None:
     """Execute one persisted inbox job and mail the outcome back.
 
     ``job`` is the dict app.py persisted before returning 200:
     {"kind", "sender", "message_id", "subject", "text", "draft_id",
-    "images": [{"path", "mime", "alt", "filename"}]}. ``send`` is
-    mailer.send_email-shaped, injectable for tests.
+    "images": [{"path", "mime", "alt", "filename"}], "needs_auth"}.
+    A needs_auth job was accepted before DKIM could be checked (the
+    webhook could not retrieve the stored message within Mailgun's
+    deadline) and must pass direct DKIM verification here before any
+    of the pipeline runs. ``send`` is mailer.send_email-shaped;
+    ``fetch_mime``/``verify_dkim`` are security-function-shaped — all
+    injectable for tests.
     """
     send = send or mailer.send_email
     to = job["sender"]
@@ -253,6 +271,37 @@ def process_job(job: dict, config, run=default_run, send=None) -> None:
         logger.info(
             "reply %r to %r %s",
             subject, to, "sent" if delivered else "FAILED to send",
+        )
+
+    if job.get("needs_auth"):
+        fetch = fetch_mime or _fetch_stored_mime
+        verify = verify_dkim or security.dkim_authenticated
+        raw_mime = fetch(config, job.get("message_id") or "")
+        if raw_mime is None:
+            logger.error(
+                "job %s: stored message %r never became retrievable "
+                "from Mailgun; dropping the job and notifying the "
+                "sender", job.get("id"), job.get("message_id"),
+            )
+            reply(mailer.failure_notice(
+                "The original email could not be retrieved from "
+                "Mailgun to verify its authenticity. (Large messages "
+                "skip Mailgun's own SPF/DKIM checks, so the gateway "
+                "re-checks them against Mailgun's stored copy of the "
+                "message.)"
+            ))
+            return
+        from_domain = to.rsplit("@", 1)[-1]
+        if not verify(raw_mime, from_domain):
+            logger.warning(
+                "job %s: deferred DKIM verification failed for %r "
+                "(%d bytes of stored MIME); dropping silently",
+                job.get("id"), from_domain, len(raw_mime),
+            )
+            return
+        logger.info(
+            "job %s: deferred DKIM verification passed for %r",
+            job.get("id"), from_domain,
         )
 
     def log_outcome(result):
@@ -322,6 +371,13 @@ def process_job(job: dict, config, run=default_run, send=None) -> None:
         reply(mailer.receipt(result))
     else:
         reply(mailer.failure_notice(result.error or "unknown failure"))
+
+
+def _fetch_stored_mime(config, message_id: str) -> bytes | None:
+    return security.stored_message_mime(
+        config, message_id,
+        attempts=VERIFY_FETCH_ATTEMPTS, delay=VERIFY_FETCH_DELAY,
+    )
 
 
 def _job_images(job: dict) -> list:

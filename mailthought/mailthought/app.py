@@ -49,6 +49,7 @@ def persist_job(
     text: str,
     images: list,
     draft_id: str | None = None,
+    needs_auth: bool = False,
 ) -> dict:
     """Write a job durably to the inbox; returns the job dict.
 
@@ -81,6 +82,7 @@ def persist_job(
         "text": text,
         "images": entries,
         "dir": str(job_dir),
+        "needs_auth": needs_auth,
     }
     (job_dir / "job.json").write_text(
         json.dumps(job, ensure_ascii=False), encoding="utf-8"
@@ -170,7 +172,14 @@ def create_app(
     and are injectable for tests.
     """
     config = config or load_config(os.environ)
-    fetch_mime = fetch_mime or security.stored_message_mime
+    # Mailgun abandons the webhook POST after ~10s ("context deadline
+    # exceeded"), so the in-request fetch gets one short-timeout try;
+    # anything slower is the worker's business via needs_auth.
+    fetch_mime = fetch_mime or (
+        lambda config, message_id: security.stored_message_mime(
+            config, message_id, attempts=1, timeout=5.0
+        )
+    )
     verify_dkim = verify_dkim or security.dkim_authenticated
     for directory in (config.inbox_dir, config.state_dir, config.drafts_dir):
         directory.mkdir(parents=True, exist_ok=True)
@@ -253,6 +262,7 @@ def create_app(
             "Mailgun auth verdicts: spf=%r dkim=%r",
             verdicts["spf"], verdicts["dkim"],
         )
+        needs_auth = False
         if config.require_auth and not security.is_authenticated(verdicts):
             if verdicts["spf"] or verdicts["dkim"]:
                 return reject(
@@ -276,27 +286,29 @@ def create_app(
                 )
             raw_mime = fetch_mime(config, message_id)
             if raw_mime is None:
-                app.logger.warning(
-                    "stored message %r still not retrievable after "
-                    "polling; answering 503 so Mailgun redelivers",
-                    message_id,
+                # The Events API has not indexed the message yet, and
+                # Mailgun's ~10s webhook deadline leaves no room to
+                # wait — accept provisionally; the worker verifies
+                # DKIM before anything publishes.
+                app.logger.info(
+                    "stored message %r not queryable yet; deferring "
+                    "DKIM verification to the worker", message_id,
                 )
-                return {
-                    "status": "retry",
-                    "reason": "stored message not yet available",
-                }, 503
-            from_domain = sender.rsplit("@", 1)[-1]
-            if not verify_dkim(raw_mime, from_domain):
-                return reject(
-                    "authentication",
-                    f"direct DKIM verification failed for domain "
-                    f"{from_domain!r} ({len(raw_mime)} bytes of stored "
-                    f"MIME)",
+                needs_auth = True
+            else:
+                from_domain = sender.rsplit("@", 1)[-1]
+                if not verify_dkim(raw_mime, from_domain):
+                    return reject(
+                        "authentication",
+                        f"direct DKIM verification failed for domain "
+                        f"{from_domain!r} ({len(raw_mime)} bytes of "
+                        f"stored MIME)",
+                    )
+                app.logger.info(
+                    "authenticated via direct DKIM verification for %r "
+                    "(%d bytes of stored MIME)",
+                    from_domain, len(raw_mime),
                 )
-            app.logger.info(
-                "authenticated via direct DKIM verification for %r "
-                "(%d bytes of stored MIME)", from_domain, len(raw_mime),
-            )
 
         if message_id and messages.seen_before(message_id):
             app.logger.info(
@@ -319,12 +331,14 @@ def create_app(
             text=body,
             images=images,
             draft_id=action.draft_id,
+            needs_auth=needs_auth,
         )
         enqueue(job)
         app.logger.info(
             "queued job %s: kind=%s draft_id=%r text=%d chars, "
-            "%d image(s) kept",
+            "%d image(s) kept%s",
             job["id"], action.kind, action.draft_id, len(body), len(images),
+            " (pending DKIM verification)" if needs_auth else "",
         )
         return {"status": "queued", "id": job["id"]}, 200
 

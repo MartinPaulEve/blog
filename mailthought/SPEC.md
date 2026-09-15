@@ -175,11 +175,19 @@ Publishing (worker, one job at a time):
   Mailgun (Events API lookup by Message-Id, then the storage URL) and
   verifying DKIM directly with dkimpy; a signature only counts when its
   d= domain aligns with the From domain (equal or subdomain). Explicit
-  verdict failures are never rescued by the fallback. The Events API can
-  lag reception by minutes, so the lookup polls for up to ~2 minutes
-  in-request; only then does it answer 503 so Mailgun redelivers later
-  (safe to hold the connection: 8 gunicorn threads, and a crossed-wires
-  redelivery is caught by the Message-Id ledger).
+  verdict failures are never rescued by the fallback. Two Mailgun
+  realities shape the mechanics: (1) a forward()-only route never emits
+  a "stored" event, so the events query filters by message-id only and
+  takes the storage URL from whatever event carries one (failed events
+  hold storage.url as a list); (2) Mailgun abandons the webhook POST
+  after ~10s ("context deadline exceeded"), so the webhook makes one
+  short-timeout fetch attempt, and if the Events API has not indexed
+  the message yet the mail is accepted provisionally with a needs_auth
+  flag — the worker then polls for up to ~5 minutes and verifies DKIM
+  before any of the pipeline runs. A deferred verification failure
+  drops the job silently (log only, as with any rejection); a message
+  that never becomes retrievable drops the job and emails the
+  (allowlisted) sender a failure notice.
 - Rejected mail → HTTP 406 (Mailgun: permanent, no retry), no reply email
   ever (no backscatter). Transient faults → 5xx so Mailgun retries.
 - Outbound replies go only to the validated sender, threaded via

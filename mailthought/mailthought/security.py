@@ -135,18 +135,20 @@ def stored_message_mime(
     get=None,
     attempts: int = 13,
     delay: float = 10.0,
+    timeout: float = 15.0,
     sleep=None,
 ) -> bytes | None:
     """The raw MIME of a stored inbound message, or None.
 
     Mailgun stores every received message for a few days; this looks
     the message up in the Events API by Message-Id and retrieves the
-    raw MIME from the storage URL the stored event carries. None means
-    "not retrievable right now" — the caller decides whether that is
-    a retry-later or a rejection. The Events API can lag reception by
-    minutes, so the lookup polls for around two of them (the defaults:
-    twelve ``delay``-second waits between thirteen attempts) — far
-    better than bouncing to Mailgun's ~10-minute redelivery cycle.
+    raw MIME from the storage URL. The events query must NOT filter by
+    event type: a forward()-only route never emits a "stored" event —
+    the storage block rides on its accepted/failed events instead (and
+    failed events carry storage.url as a list, not a string). None
+    means "not retrievable right now" — the caller decides whether
+    that is a retry-later or a rejection. ``attempts``/``delay`` set
+    the polling budget for the Events API's ingestion lag.
     """
     get = get or requests.get
     sleep = sleep or time.sleep
@@ -164,8 +166,8 @@ def stored_message_mime(
             events = get(
                 events_url,
                 auth=auth,
-                params={"event": "stored", "message-id": clean_id},
-                timeout=15,
+                params={"message-id": clean_id},
+                timeout=timeout,
             )
             items = (
                 events.json().get("items", [])
@@ -174,20 +176,17 @@ def stored_message_mime(
             )
         except Exception as exc:  # noqa: BLE001 — an API hiccup is just "not yet"
             logger.info(
-                "stored-event lookup for %r (attempt %d/%d) failed: %s",
+                "event lookup for %r (attempt %d/%d) failed: %s",
                 clean_id, attempt + 1, attempts, exc,
             )
             items = []
-        for item in items:
-            url = (item.get("storage") or {}).get("url") or ""
-            if not url:
-                continue
+        for url in _storage_urls(items):
             try:
                 stored = get(
                     url,
                     auth=auth,
                     headers={"Accept": "message/rfc2822"},
-                    timeout=30,
+                    timeout=timeout * 2,
                 )
                 if stored.status_code != 200:
                     logger.info(
@@ -202,6 +201,18 @@ def stored_message_mime(
             if mime:
                 return mime.encode() if isinstance(mime, str) else mime
     return None
+
+
+def _storage_urls(items: list) -> list:
+    """Every storage URL found across a list of Mailgun events."""
+    urls = []
+    for item in items:
+        url = (item.get("storage") or {}).get("url") or ""
+        if isinstance(url, list):
+            urls.extend(part for part in url if part)
+        elif url:
+            urls.append(url)
+    return urls
 
 
 def dkim_authenticated(
