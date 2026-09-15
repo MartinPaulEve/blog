@@ -7,12 +7,14 @@ suspicious must come back 406 with no side effects at all.
 import dataclasses
 import io
 import json
+import logging
 import time
 
 import pytest
 from conftest import sign, signed_fields
 
 from mailthought.app import (
+    HealthzLogFilter,
     create_app,
     load_pending_jobs,
     persist_job,
@@ -311,6 +313,24 @@ class TestHealth:
         response = client.get("/healthz")
         assert response.status_code == 200
         assert response.get_json()["ok"] is True
+
+
+class TestHealthzLogFilter:
+    """Health-check pings must not drown the access log."""
+
+    def record(self, message):
+        return logging.LogRecord(
+            name="gunicorn.access", level=logging.INFO, pathname="",
+            lineno=0, msg=message, args=(), exc_info=None,
+        )
+
+    def test_health_check_lines_are_dropped(self):
+        line = '10.0.1.7 - - [15/Sep/2026] "GET /healthz HTTP/1.1" 200 12'
+        assert not HealthzLogFilter().filter(self.record(line))
+
+    def test_real_requests_are_kept(self):
+        line = '10.0.1.7 - - [15/Sep/2026] "POST /inbound HTTP/1.1" 200 45'
+        assert HealthzLogFilter().filter(self.record(line))
 
 
 class TestJobPersistence:

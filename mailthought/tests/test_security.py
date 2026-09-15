@@ -289,6 +289,21 @@ class TestStoredMessageMime:
             is None
         )
 
+    def test_waits_out_the_events_api_lag_before_giving_up(self, config):
+        # The Events API can lag reception by well over a few seconds;
+        # the lookup must keep polling for a minute or two (via the
+        # injected sleep) rather than bounce to Mailgun's much slower
+        # redelivery cycle.
+        slept = []
+        get = self.fake_get([])
+        assert (
+            stored_message_mime(
+                config, "<m1@eve.gd>", get=get, sleep=slept.append
+            )
+            is None
+        )
+        assert 60 <= sum(slept) <= 300
+
     def test_retries_the_lookup_before_giving_up(self, config):
         calls = []
 

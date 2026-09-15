@@ -32,6 +32,14 @@ TOKEN_TTL_SECONDS = 3600
 MESSAGE_TTL_SECONDS = 7 * 86400
 
 
+class HealthzLogFilter(logging.Filter):
+    """Drops /healthz access-log lines: Coolify pings the endpoint
+    constantly and the noise buries the deliveries worth reading."""
+
+    def filter(self, record):
+        return "/healthz" not in record.getMessage()
+
+
 def persist_job(
     inbox_dir: Path,
     kind: str,
@@ -183,6 +191,12 @@ def create_app(
         level=logging.INFO,
         format="[%(asctime)s] %(levelname)s in %(module)s: %(message)s",
     )
+    access_log = logging.getLogger("gunicorn.access")
+    if not any(
+        isinstance(existing, HealthzLogFilter)
+        for existing in access_log.filters
+    ):
+        access_log.addFilter(HealthzLogFilter())
     app = Flask(__name__)
     app.logger.setLevel(logging.INFO)
 
@@ -263,8 +277,9 @@ def create_app(
             raw_mime = fetch_mime(config, message_id)
             if raw_mime is None:
                 app.logger.warning(
-                    "stored message %r not retrievable yet; answering "
-                    "503 so Mailgun redelivers", message_id,
+                    "stored message %r still not retrievable after "
+                    "polling; answering 503 so Mailgun redelivers",
+                    message_id,
                 )
                 return {
                     "status": "retry",

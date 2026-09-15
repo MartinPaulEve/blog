@@ -133,7 +133,8 @@ def stored_message_mime(
     config,
     message_id: str,
     get=None,
-    attempts: int = 3,
+    attempts: int = 13,
+    delay: float = 10.0,
     sleep=None,
 ) -> bytes | None:
     """The raw MIME of a stored inbound message, or None.
@@ -142,8 +143,10 @@ def stored_message_mime(
     the message up in the Events API by Message-Id and retrieves the
     raw MIME from the storage URL the stored event carries. None means
     "not retrievable right now" — the caller decides whether that is
-    a retry-later or a rejection. The Events API lags reception by a
-    few seconds, hence the in-request retries.
+    a retry-later or a rejection. The Events API can lag reception by
+    minutes, so the lookup polls for around two of them (the defaults:
+    twelve ``delay``-second waits between thirteen attempts) — far
+    better than bouncing to Mailgun's ~10-minute redelivery cycle.
     """
     get = get or requests.get
     sleep = sleep or time.sleep
@@ -156,7 +159,7 @@ def stored_message_mime(
     auth = ("api", config.mailgun_api_key)
     for attempt in range(attempts):
         if attempt:
-            sleep(2)
+            sleep(delay)
         try:
             events = get(
                 events_url,

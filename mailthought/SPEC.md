@@ -175,9 +175,11 @@ Publishing (worker, one job at a time):
   Mailgun (Events API lookup by Message-Id, then the storage URL) and
   verifying DKIM directly with dkimpy; a signature only counts when its
   d= domain aligns with the From domain (equal or subdomain). Explicit
-  verdict failures are never rescued by the fallback. If the stored
-  message is not queryable yet (Events API lag), answer 503 so Mailgun
-  redelivers later.
+  verdict failures are never rescued by the fallback. The Events API can
+  lag reception by minutes, so the lookup polls for up to ~2 minutes
+  in-request; only then does it answer 503 so Mailgun redelivers later
+  (safe to hold the connection: 8 gunicorn threads, and a crossed-wires
+  redelivery is caught by the Message-Id ledger).
 - Rejected mail → HTTP 406 (Mailgun: permanent, no retry), no reply email
   ever (no backscatter). Transient faults → 5xx so Mailgun retries.
 - Outbound replies go only to the validated sender, threaded via
