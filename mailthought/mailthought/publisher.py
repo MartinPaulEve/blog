@@ -13,6 +13,7 @@ shaped, evedeploy style) so the whole pipeline is unit-testable
 without touching git, uv or the network.
 """
 
+import logging
 import re
 import subprocess
 import tempfile
@@ -20,6 +21,8 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 from . import drafts, mailer
+
+logger = logging.getLogger(__name__)
 
 COMMIT_MESSAGE = "chore(thoughts): add {thought_id} via mail gateway"
 
@@ -246,11 +249,33 @@ def process_job(job: dict, config, run=default_run, send=None) -> None:
 
     def reply(pair):
         subject, body = pair
-        send(config, to, subject, body, in_reply_to=in_reply_to)
+        delivered = send(config, to, subject, body, in_reply_to=in_reply_to)
+        logger.info(
+            "reply %r to %r %s",
+            subject, to, "sent" if delivered else "FAILED to send",
+        )
+
+    def log_outcome(result):
+        if result.ok:
+            logger.info(
+                "published thought %s (%d post(s), bluesky=%s, "
+                "mastodon=%s, pushed=%s)",
+                result.thought_id, result.posts,
+                result.bluesky or "no", result.mastodon or "no",
+                result.pushed,
+            )
+            for warning in result.warnings:
+                logger.warning("publish warning: %s", warning)
+        else:
+            logger.error("publish failed: %s", result.error)
 
     kind = job.get("kind")
 
     if kind == "bad_reply":
+        logger.info(
+            "job %s: reply about draft %r had no POST first line",
+            job.get("id"), job.get("draft_id"),
+        )
         reply(mailer.bad_reply_notice(job.get("draft_id") or "unknown"))
         return
 
@@ -264,6 +289,10 @@ def process_job(job: dict, config, run=default_run, send=None) -> None:
             text=job.get("text", ""), images=images,
             sender=to, message_id=job.get("message_id", ""),
         )
+        logger.info(
+            "job %s: dry run saved as draft %s (%d post(s), %d image(s))",
+            job.get("id"), draft_id, len(result.posts), len(images),
+        )
         reply(mailer.dry_run_report(draft_id, result, image_count=len(images)))
         return
 
@@ -271,9 +300,14 @@ def process_job(job: dict, config, run=default_run, send=None) -> None:
         draft_id = job.get("draft_id") or ""
         draft = drafts.load_draft(config.drafts_dir, draft_id)
         if draft is None:
+            logger.warning(
+                "job %s: draft %r not found (expired or already "
+                "published)", job.get("id"), draft_id,
+            )
             reply(mailer.missing_draft_notice(draft_id))
             return
         result = publish(config.blog_dir, draft["text"], draft["images"], run=run)
+        log_outcome(result)
         if result.ok:
             drafts.delete_draft(config.drafts_dir, draft_id)
             reply(mailer.receipt(result))
@@ -283,6 +317,7 @@ def process_job(job: dict, config, run=default_run, send=None) -> None:
 
     images = _job_images(job)
     result = publish(config.blog_dir, job.get("text", ""), images, run=run)
+    log_outcome(result)
     if result.ok:
         reply(mailer.receipt(result))
     else:

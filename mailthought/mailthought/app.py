@@ -10,12 +10,12 @@ never answered by email; the reason goes to the app log only.
 """
 
 import json
+import logging
 import os
 import queue
 import shutil
 import threading
 import time
-import traceback
 import uuid
 from pathlib import Path
 
@@ -23,6 +23,8 @@ from flask import Flask, request
 
 from . import extract, publisher, security
 from .config import Config, load_config
+
+logger = logging.getLogger(__name__)
 
 # Webhook tokens only need to outlive the signature tolerance window;
 # Message-Ids guard against slow route retries and keep the week.
@@ -106,16 +108,35 @@ def start_worker(config: Config, process=publisher.process_job):
     tests can observe ordering without running the pipeline.
     """
     jobs: queue.Queue = queue.Queue()
-    for job in load_pending_jobs(config.inbox_dir):
+    pending = load_pending_jobs(config.inbox_dir)
+    if pending:
+        logger.info(
+            "re-queueing %d job(s) left over from a previous run",
+            len(pending),
+        )
+    for job in pending:
         jobs.put(job)
 
     def drain():
         while True:
             job = jobs.get()
+            logger.info(
+                "worker: starting job %s (kind=%s, %d image(s), from=%r)",
+                job.get("id"), job.get("kind"),
+                len(job.get("images") or []), job.get("sender"),
+            )
+            started = time.monotonic()
             try:
                 process(job, config)
-            except Exception:  # noqa: BLE001 — one bad job must not stop the queue
-                traceback.print_exc()
+                logger.info(
+                    "worker: job %s finished in %.1fs",
+                    job.get("id"), time.monotonic() - started,
+                )
+            except Exception:  # one bad job must not stop the queue
+                logger.exception(
+                    "worker: job %s failed after %.1fs",
+                    job.get("id"), time.monotonic() - started,
+                )
             finally:
                 clear_job(job)
                 jobs.task_done()
@@ -125,13 +146,24 @@ def start_worker(config: Config, process=publisher.process_job):
     return jobs.put, thread
 
 
-def create_app(config: Config | None = None, enqueue=None) -> Flask:
+def create_app(
+    config: Config | None = None,
+    enqueue=None,
+    fetch_mime=None,
+    verify_dkim=None,
+) -> Flask:
     """Build the Flask app; config defaults to the environment.
 
     ``enqueue`` is called with each accepted job dict; when omitted, a
-    real worker thread is started.
+    real worker thread is started. ``fetch_mime`` and ``verify_dkim``
+    are the direct-DKIM fallback used when Mailgun's SPF/DKIM verdict
+    headers are absent (large messages skip its spam scan); they
+    default to the real Mailgun-storage fetch and dkimpy verification
+    and are injectable for tests.
     """
     config = config or load_config(os.environ)
+    fetch_mime = fetch_mime or security.stored_message_mime
+    verify_dkim = verify_dkim or security.dkim_authenticated
     for directory in (config.inbox_dir, config.state_dir, config.drafts_dir):
         directory.mkdir(parents=True, exist_ok=True)
     if enqueue is None:
@@ -144,14 +176,41 @@ def create_app(config: Config | None = None, enqueue=None) -> Flask:
         config.state_dir / "messages.json", ttl_seconds=MESSAGE_TTL_SECONDS
     )
 
+    # INFO-level logging throughout, so successful deliveries leave a
+    # trail too, not only rejections. basicConfig is a no-op when a
+    # handler already exists; the format matches Flask's own.
+    logging.basicConfig(
+        level=logging.INFO,
+        format="[%(asctime)s] %(levelname)s in %(module)s: %(message)s",
+    )
     app = Flask(__name__)
+    app.logger.setLevel(logging.INFO)
 
     @app.post("/inbound")
     def inbound():
         form = request.form
+        sender = security.sender_address(form.get("from", ""))
+        subject = form.get("subject", "")
+        message_id = extract.header_value(
+            form.get("message-headers"), "Message-Id"
+        ) or form.get("Message-Id", "")
+        app.logger.info(
+            "inbound POST: from=%r subject=%r message_id=%r bytes=%s "
+            "attachments=%s",
+            sender, subject, message_id, request.content_length,
+            [
+                f"{request.files[name].filename} "
+                f"({request.files[name].mimetype})"
+                for name in sorted(request.files)
+            ] or "none",
+        )
 
         def reject(reason, detail):
-            app.logger.warning("inbound rejected (%s): %s", reason, detail)
+            app.logger.warning(
+                "inbound rejected (%s): %s [from=%r subject=%r "
+                "message_id=%r]",
+                reason, detail, sender, subject, message_id,
+            )
             return {"status": "rejected", "reason": reason}, 406
 
         if not security.verify_signature(
@@ -170,39 +229,88 @@ def create_app(config: Config | None = None, enqueue=None) -> Flask:
         if not security.sender_allowed(
             form.get("from", ""), config.allowed_senders
         ):
-            return reject(
-                "sender",
-                "from=%r" % security.sender_address(form.get("from", "")),
-            )
+            return reject("sender", "from=%r" % sender)
+        app.logger.info(
+            "signature verified, sender %r allowed", sender
+        )
+
         verdicts = security.auth_results(form.get("message-headers", ""))
+        app.logger.info(
+            "Mailgun auth verdicts: spf=%r dkim=%r",
+            verdicts["spf"], verdicts["dkim"],
+        )
         if config.require_auth and not security.is_authenticated(verdicts):
-            return reject(
-                "authentication",
-                "spf=%r dkim=%r" % (verdicts["spf"], verdicts["dkim"]),
+            if verdicts["spf"] or verdicts["dkim"]:
+                return reject(
+                    "authentication",
+                    "spf=%r dkim=%r" % (verdicts["spf"], verdicts["dkim"]),
+                )
+            # Both verdicts absent: Mailgun's spam scan (which stamps
+            # them) skips messages over its size limit — typically mail
+            # with image attachments — so verify DKIM ourselves against
+            # the stored copy of the message.
+            app.logger.info(
+                "verdict headers absent (message likely exceeded "
+                "Mailgun's spam-scan size limit); falling back to "
+                "direct DKIM verification of the stored message"
+            )
+            if not message_id:
+                return reject(
+                    "authentication",
+                    "verdicts absent and no Message-Id to retrieve the "
+                    "stored message by",
+                )
+            raw_mime = fetch_mime(config, message_id)
+            if raw_mime is None:
+                app.logger.warning(
+                    "stored message %r not retrievable yet; answering "
+                    "503 so Mailgun redelivers", message_id,
+                )
+                return {
+                    "status": "retry",
+                    "reason": "stored message not yet available",
+                }, 503
+            from_domain = sender.rsplit("@", 1)[-1]
+            if not verify_dkim(raw_mime, from_domain):
+                return reject(
+                    "authentication",
+                    f"direct DKIM verification failed for domain "
+                    f"{from_domain!r} ({len(raw_mime)} bytes of stored "
+                    f"MIME)",
+                )
+            app.logger.info(
+                "authenticated via direct DKIM verification for %r "
+                "(%d bytes of stored MIME)", from_domain, len(raw_mime),
             )
 
-        message_id = extract.header_value(
-            form.get("message-headers"), "Message-Id"
-        ) or form.get("Message-Id", "")
         if message_id and messages.seen_before(message_id):
+            app.logger.info(
+                "duplicate delivery of %r acknowledged without "
+                "re-queueing", message_id,
+            )
             return {"status": "duplicate"}, 200
 
         body = extract.select_body(form)
-        action = extract.classify(form.get("subject", ""), body)
+        action = extract.classify(subject, body)
         images = extract.collect_images(
             request.files, form.get("content-id-map")
         )
         job = persist_job(
             config.inbox_dir,
             kind=action.kind,
-            sender=security.sender_address(form.get("from", "")),
+            sender=sender,
             message_id=message_id,
-            subject=form.get("subject", ""),
+            subject=subject,
             text=body,
             images=images,
             draft_id=action.draft_id,
         )
         enqueue(job)
+        app.logger.info(
+            "queued job %s: kind=%s draft_id=%r text=%d chars, "
+            "%d image(s) kept",
+            job["id"], action.kind, action.draft_id, len(body), len(images),
+        )
         return {"status": "queued", "id": job["id"]}, 200
 
     @app.get("/healthz")

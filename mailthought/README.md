@@ -32,7 +32,13 @@ A mail publishes only if all of these hold:
    timestamp, replay-guarded token);
 2. the From address is in `ALLOWED_SENDERS`;
 3. Mailgun's SPF **and** DKIM verdicts on the message are both Pass
-   (`REQUIRE_AUTH=false` disables this, e.g. while testing);
+   (`REQUIRE_AUTH=false` disables this, e.g. while testing). Mailgun's
+   spam scan stamps those verdict headers and skips messages over its
+   size limit (roughly 512 KB, so any mail with a photo attached); when
+   both verdicts are *absent* for that reason, the gateway fetches the
+   stored raw message back from Mailgun and verifies DKIM itself,
+   requiring a signature domain aligned with the From domain. A
+   present-but-failing verdict is always a rejection;
 4. the Message-Id has not been processed before.
 
 Anything else is answered 406 (Mailgun stops retrying) and never gets

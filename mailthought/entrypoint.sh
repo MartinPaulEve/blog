@@ -88,8 +88,10 @@ chmod 600 "$BLOG_DIR/.env"
 
 # --- serve -----------------------------------------------------------
 # One worker process: create_app starts the single pipeline thread, and
-# builds/git must never run concurrently.
+# builds/git must never run concurrently. Access log to stdout so every
+# request (and its status code) shows up in the runtime logs.
 exec uv run --project /app gunicorn \
     --workers 1 --threads 8 --timeout 120 \
     --bind 0.0.0.0:8080 \
+    --access-logfile - --log-level info \
     "mailthought.app:create_app()"

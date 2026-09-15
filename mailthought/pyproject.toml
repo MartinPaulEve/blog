@@ -5,6 +5,7 @@ description = "Email-to-thought gateway for eve.gd: Mailgun inbound webhook that
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "dkimpy>=1.1.8",
     "flask>=3.0",
     "gunicorn>=22.0",
     "requests>=2.32",

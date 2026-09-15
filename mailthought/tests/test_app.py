@@ -31,7 +31,7 @@ def inbound_form(
     message_id="<m1@eve.gd>",
     signature_fields=None,
 ):
-    headers = [["Message-Id", message_id]]
+    headers = [["Message-Id", message_id]] if message_id else []
     if spf is not None:
         headers.append(["X-Mailgun-Spf", spf])
     if dkim is not None:
@@ -55,8 +55,15 @@ def inbound_form(
 
 @pytest.fixture
 def harness(config):
+    # The direct-DKIM fallback (used when Mailgun's verdicts are
+    # absent) denies by default so no test accidentally leans on it.
     jobs = []
-    app = create_app(config, enqueue=jobs.append)
+    app = create_app(
+        config,
+        enqueue=jobs.append,
+        fetch_mime=lambda config, message_id: b"RAW MIME",
+        verify_dkim=lambda raw, domain: False,
+    )
     return app.test_client(), jobs, config
 
 
@@ -212,6 +219,89 @@ class TestRejection:
     def test_empty_post_is_rejected_not_a_crash(self, harness):
         client, jobs, _config = harness
         assert client.post("/inbound", data={}).status_code == 406
+        assert jobs == []
+
+
+class TestAuthFallback:
+    """Absent Mailgun verdicts (large mail skips its spam scan) fall
+    back to fetching the stored MIME and verifying DKIM directly."""
+
+    def build(self, config, fetch_mime, verify_dkim):
+        jobs = []
+        app = create_app(
+            config,
+            enqueue=jobs.append,
+            fetch_mime=fetch_mime,
+            verify_dkim=verify_dkim,
+        )
+        return app.test_client(), jobs
+
+    def test_absent_verdicts_with_passing_dkim_are_queued(self, config):
+        # The verifier only passes when handed the fetched MIME and the
+        # sender's own domain — proof the fallback is wired correctly.
+        client, jobs = self.build(
+            config,
+            fetch_mime=lambda config, message_id: b"THE STORED MIME",
+            verify_dkim=lambda raw, domain: (
+                raw == b"THE STORED MIME" and domain == "eve.gd"
+            ),
+        )
+        response = client.post(
+            "/inbound", data=inbound_form(config, spf=None, dkim=None)
+        )
+        assert response.status_code == 200
+        assert response.get_json()["status"] == "queued"
+        (job,) = jobs
+        assert job["text"] == "a thought"
+
+    def test_absent_verdicts_with_failing_dkim_are_rejected(self, config):
+        client, jobs = self.build(
+            config,
+            fetch_mime=lambda config, message_id: b"THE STORED MIME",
+            verify_dkim=lambda raw, domain: False,
+        )
+        form = inbound_form(config, spf=None, dkim=None)
+        assert client.post("/inbound", data=form).status_code == 406
+        assert jobs == []
+
+    def test_explicit_verdict_failure_is_never_rescued_by_dkim(self, config):
+        client, jobs = self.build(
+            config,
+            fetch_mime=lambda config, message_id: b"THE STORED MIME",
+            verify_dkim=lambda raw, domain: True,
+        )
+        form = inbound_form(config, spf="Fail", dkim="Pass")
+        assert client.post("/inbound", data=form).status_code == 406
+        assert jobs == []
+
+    def test_unretrievable_stored_message_asks_mailgun_to_retry(self, config):
+        # 503 (not 406) so Mailgun redelivers once the stored event is
+        # queryable; the retry must not trip the replay or dedupe guards.
+        available = {"mime": None}
+        client, jobs = self.build(
+            config,
+            fetch_mime=lambda config, message_id: available["mime"],
+            verify_dkim=lambda raw, domain: True,
+        )
+        form = inbound_form(config, spf=None, dkim=None, token="tok-first")
+        assert client.post("/inbound", data=form).status_code == 503
+        assert jobs == []
+
+        available["mime"] = b"THE STORED MIME"
+        retry = inbound_form(config, spf=None, dkim=None, token="tok-retry")
+        assert client.post("/inbound", data=retry).status_code == 200
+        assert len(jobs) == 1
+
+    def test_absent_verdicts_without_a_message_id_are_rejected(self, config):
+        # No Message-Id means the stored message can never be looked
+        # up, so retrying is pointless: reject outright.
+        client, jobs = self.build(
+            config,
+            fetch_mime=lambda config, message_id: b"THE STORED MIME",
+            verify_dkim=lambda raw, domain: True,
+        )
+        form = inbound_form(config, spf=None, dkim=None, message_id=None)
+        assert client.post("/inbound", data=form).status_code == 406
         assert jobs == []
 
 

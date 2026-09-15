@@ -9,12 +9,20 @@ someone else's infrastructure fails these). Nothing here sends mail;
 rejected requests must stay silent to avoid backscatter.
 """
 
+import email
 import hashlib
 import hmac
 import json
+import logging
+import re
 import time
 from email.utils import parseaddr
 from pathlib import Path
+
+import dkim
+import requests
+
+logger = logging.getLogger(__name__)
 
 # Verdict headers Mailgun stamps on received messages (values such as
 # "Pass", "Neutral", "Fail", "SoftFail").
@@ -118,6 +126,121 @@ def is_authenticated(results: dict) -> bool:
     return (
         results.get("spf", "").lower() == "pass"
         and results.get("dkim", "").lower() == "pass"
+    )
+
+
+def stored_message_mime(
+    config,
+    message_id: str,
+    get=None,
+    attempts: int = 3,
+    sleep=None,
+) -> bytes | None:
+    """The raw MIME of a stored inbound message, or None.
+
+    Mailgun stores every received message for a few days; this looks
+    the message up in the Events API by Message-Id and retrieves the
+    raw MIME from the storage URL the stored event carries. None means
+    "not retrievable right now" — the caller decides whether that is
+    a retry-later or a rejection. The Events API lags reception by a
+    few seconds, hence the in-request retries.
+    """
+    get = get or requests.get
+    sleep = sleep or time.sleep
+    clean_id = (message_id or "").strip().strip("<>")
+    if not clean_id:
+        return None
+    events_url = (
+        f"{config.mailgun_api_base}/v3/{config.mailgun_domain}/events"
+    )
+    auth = ("api", config.mailgun_api_key)
+    for attempt in range(attempts):
+        if attempt:
+            sleep(2)
+        try:
+            events = get(
+                events_url,
+                auth=auth,
+                params={"event": "stored", "message-id": clean_id},
+                timeout=15,
+            )
+            items = (
+                events.json().get("items", [])
+                if events.status_code == 200
+                else []
+            )
+        except Exception as exc:  # noqa: BLE001 — an API hiccup is just "not yet"
+            logger.info(
+                "stored-event lookup for %r (attempt %d/%d) failed: %s",
+                clean_id, attempt + 1, attempts, exc,
+            )
+            items = []
+        for item in items:
+            url = (item.get("storage") or {}).get("url") or ""
+            if not url:
+                continue
+            try:
+                stored = get(
+                    url,
+                    auth=auth,
+                    headers={"Accept": "message/rfc2822"},
+                    timeout=30,
+                )
+                if stored.status_code != 200:
+                    logger.info(
+                        "storage fetch for %r answered %s",
+                        clean_id, stored.status_code,
+                    )
+                    continue
+                mime = stored.json().get("body-mime") or ""
+            except Exception as exc:  # noqa: BLE001 — a fetch hiccup is just "not yet"
+                logger.info("storage fetch for %r failed: %s", clean_id, exc)
+                continue
+            if mime:
+                return mime.encode() if isinstance(mime, str) else mime
+    return None
+
+
+def dkim_authenticated(
+    raw_mime: bytes, from_domain: str, dnsfunc=None
+) -> bool:
+    """True when the raw message carries a valid, aligned DKIM signature.
+
+    A signature only counts if its d= domain aligns with the From
+    address's domain (equal, or one a subdomain of the other) — a valid
+    signature from an unrelated domain proves nothing about the From
+    header. ``dnsfunc`` is injectable for tests; None uses live DNS.
+    """
+    if not raw_mime or not from_domain:
+        return False
+    wanted = from_domain.strip().lower().rstrip(".")
+    signatures = (
+        email.message_from_bytes(raw_mime).get_all("DKIM-Signature") or []
+    )
+    kwargs = {"dnsfunc": dnsfunc} if dnsfunc is not None else {}
+    for index, header in enumerate(signatures):
+        match = re.search(r"\bd\s*=\s*([^;\s]+)", str(header))
+        signer = match.group(1).strip().lower().rstrip(".") if match else ""
+        if not signer or not _domains_aligned(signer, wanted):
+            continue
+        try:
+            if dkim.DKIM(raw_mime).verify(idx=index, **kwargs):
+                return True
+        except Exception as exc:  # noqa: BLE001 — a broken signature is just a non-pass
+            logger.info(
+                "DKIM signature %d (d=%r) did not verify: %s",
+                index, signer, exc,
+            )
+            continue
+    return False
+
+
+def _domains_aligned(signer: str, from_domain: str) -> bool:
+    """Relaxed alignment: equal, or one a subdomain of the other."""
+    return (
+        signer == from_domain
+        or from_domain.endswith("." + signer)
+        or signer.endswith("." + from_domain)
     )
 
 

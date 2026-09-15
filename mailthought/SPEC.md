@@ -168,6 +168,16 @@ Publishing (worker, one job at a time):
 - Anti-spoof: Mailgun's SPF and DKIM verdicts on the inbound message must
   both be Pass (header names confirmed against current Mailgun docs at
   implementation time). `REQUIRE_AUTH=false` escape hatch, default true.
+- Anti-spoof fallback: Mailgun's spam scan (which stamps those verdict
+  headers) skips messages over its size limit (~512 KB — any mail with a
+  photo attached), leaving both verdicts absent. Absent — as opposed to
+  failing — verdicts fall back to fetching the stored raw MIME from
+  Mailgun (Events API lookup by Message-Id, then the storage URL) and
+  verifying DKIM directly with dkimpy; a signature only counts when its
+  d= domain aligns with the From domain (equal or subdomain). Explicit
+  verdict failures are never rescued by the fallback. If the stored
+  message is not queryable yet (Events API lag), answer 503 so Mailgun
+  redelivers later.
 - Rejected mail → HTTP 406 (Mailgun: permanent, no retry), no reply email
   ever (no backscatter). Transient faults → 5xx so Mailgun retries.
 - Outbound replies go only to the validated sender, threaded via
