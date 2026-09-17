@@ -3,7 +3,6 @@ archive: https://wayback.archive-it.org/22123/20241101171236/https://eve.gd/2025
 date: 2025-10-04
 last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/hqabg-q5h89
-atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvqzpul2p
 image:
   feature: header_pangolin.png
 layout: post
@@ -13,6 +12,8 @@ atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvqzpul
 categories:
 - Technology
 kcworks: https://works.hcommons.org/records/vwhre-gq536
+roguescholar: https://rogue-scholar.org/records/06f64-2c069
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvqzpul2p
 biron: https://eprints.bbk.ac.uk/id/eprint/57918/
 references:
 - title: 'GitHub - fosrl/pangolin: Modern networking and security platform providing secure access and connectivity to apps, infrastructure, and AI workloads. Connect and protect your users.'
