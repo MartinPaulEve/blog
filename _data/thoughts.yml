@@ -1,3 +1,14 @@
+- id: '20260917212700'
+  date: '2026-09-17T21:27:00.850235+01:00'
+  text: 'On Monday, ridiculously, I thought "I hope that I don''t die before Friday, because that''s when the new Fluke remixes album is out"! It arrived in the post today early and I am listening now.
+
+
+    To get it to hospital, where I have no CD drive, I asked my wife to open the parcel, put the cd in the portable USB CD drive attached to one of my home servers (w/ video call instructions!), and boot the server. Then I SSHed in, ran the ripper, and pulled it down here using scp. Then I copied to my phone over USB cable. Dedication.
+
+
+    I thought it was worth doing a day early in case the night goes wrong!'
+  bluesky: https://bsky.app/profile/eve.gd/post/3mvqihzityy2z
+  mastodon: https://hcommons.social/@mpe/117288261489428781
 - id: '20260917195630'
   date: '2026-09-17T19:56:30.816158+01:00'
   text: The Anthropic class action lawsuit has obviously been hammered with Qs about what foreign taxpayers should do when they have no US SSN or TIN. There's now an update site where you can upload a W-8BEN form. Shame they didn't think of this beforehand.
