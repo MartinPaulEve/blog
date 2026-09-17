@@ -34,6 +34,7 @@ references:
     url: https://digitalcollections.nypl.org/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mvqo6aiwy724"
 kcworks: https://works.hcommons.org/records/4srbz-s5p17
+biron: https://eprints.bbk.ac.uk/id/eprint/57967/
 ---
 I think often on this, on preservation, from [Thomas Jefferson (slave owner) in 1791](https://founders.archives.gov/documents/Jefferson/01-19-02-0059): “let us save what remains: not by vaults and locks which fence them from the public eye and use”. It's a well-known, perhaps overused quotation. Jefferson goes on to speak of a solution for preservation that is “a multiplication of copies, as shall place them beyond the reach of accident”. It's our basic principle, nominally enshrined in LOCKSS: Lots Of Copies Keeps Stuff Safe. 
 
