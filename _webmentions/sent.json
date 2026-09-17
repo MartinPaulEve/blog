@@ -17043,6 +17043,23 @@
   "/2026/09/07/a-further-health-update/": {
    "content_hash": "de4c1eab882fa681b14287de57768925203a996885afaf89503ffa994e4481e1",
    "sent": {}
+  },
+  "/2026/09/09/crossref-member-practices-feedback-without-digital-preservation-there-is-no-digital-persistence/": {
+   "content_hash": "9b8360cb45823c7628ee86b87919660ac055e6d44ae4befdad039188d341abc2",
+   "sent": {}
+  },
+  "/2026/09/17/vaults-and-locks-that-fence-them-from-the-public-eye-and-use/": {
+   "content_hash": "f2f7a2e042a3aa71974b3ed8695109833fac017410d3529002245fdad3dc2ccc",
+   "sent": {
+    "https://digitalcollections.nypl.org/items/f83dd840-c62e-012f-e53b-58d385a7bc34": {
+     "at": "2026-09-17T22:33:19+00:00",
+     "endpoint": null
+    },
+    "https://founders.archives.gov/documents/Jefferson/01-19-02-0059": {
+     "at": "2026-09-17T22:33:19+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
