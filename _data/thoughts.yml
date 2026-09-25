@@ -1,3 +1,8 @@
+- id: '20260925081859'
+  date: '2026-09-25T08:18:59.614120+01:00'
+  text: 'TIL: the browser''s compositor thread won''t stop visual rendering in the case of JS blocking https://kciter.so/posts/the-expensive-main-thread/en/'
+  bluesky: https://bsky.app/profile/eve.gd/post/3mwda6d545f2x
+  mastodon: https://hcommons.social/@mpe/117330461006976137
 - id: '20260924090928'
   date: '2026-09-24T09:09:28.946265+01:00'
   text: 'I can''t say how angry I am. My rheum dept at a London hospital called me to say my rheumatoid arthritis med had been changed. They hadn''t discussed with me! But worse: I''d already failed this medication in 2023. It does not work for me. Had they not read my notes?
