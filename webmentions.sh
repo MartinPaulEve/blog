@@ -7,12 +7,16 @@
 #   ./webmentions.sh pending     # list what WOULD be sent, and why (no sends)
 #   ./webmentions.sh send        # discover endpoints and send for real
 #   ./webmentions.sh baseline    # record current posts as sent, sending nothing
+#   ./webmentions.sh pending --only-thoughts   # short thoughts only (any cmd)
 #
 # `pending` (the default) is offline and safe: it just diffs the built _site
 # against the sent ledger (_webmentions/sent.json) and prints the plan with a
 # per-reason breakdown. `send` needs network access and is what the deploy
 # pipeline runs automatically; `baseline` seeds the ledger without sending
-# (used once at set-up). Extra flags pass straight through.
+# (used once at set-up). Extra flags pass straight through — notably
+# --only-thoughts, which restricts a pass to the short thoughts on the
+# /thoughts/<YYYY-MM>/ pages (the quick deploy after a thought runs exactly
+# that, so a thought that links somewhere mentions it within seconds).
 
 cd "$(dirname "$0")"
 

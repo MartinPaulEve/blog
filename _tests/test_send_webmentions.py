@@ -196,6 +196,102 @@ class TestEndpointDiscovery:
             "https://eve.gd/Publications/a b - c.pdf", fetch) is None
 
 
+THOUGHT_MONTH_PAGE = """<html><head><title>Sept</title></head><body>
+<div class="thoughts-list h-feed">
+<section class="thoughts-month" id="m2026-09">
+<article class="thought-entry h-entry" id="t20260926202653">
+    <p class="thought-text e-content">Nix desktop <a href="https://itsfoss.com/news/dawo/">https://itsfoss.com/news/dawo/</a> and <a href="https://eve.gd/self/">https://eve.gd/self/</a></p>
+    <footer class="thought-meta">
+        <a class="u-url" href="/thoughts/2026-09/#t20260926202653"><time class="dt-published" datetime="2026-09-26T20:26:53+01:00">26 September 2026</time></a>
+        &middot; <a href="https://bsky.app/profile/eve.gd/post/abc" class="u-syndication" rel="syndication">Bluesky</a>
+        &middot; <a href="https://hcommons.social/@mpe/1" class="u-syndication" rel="syndication">Mastodon</a>
+    </footer>
+</article>
+<article class="thought-entry h-entry" id="t20260923100254">
+    <p class="thought-text e-content">No links here, just words.</p>
+    <footer class="thought-meta"><a class="u-url" href="/thoughts/2026-09/#t20260923100254">x</a> &middot; <a href="https://bsky.app/profile/eve.gd/post/def" class="u-syndication" rel="syndication">Bluesky</a></footer>
+</article>
+<article class="thought-entry h-entry" id="t20260920190325">
+    <p class="thought-text e-content">Old: <a href="https://old.example/page">https://old.example/page</a></p>
+    <footer class="thought-meta"><a class="u-url" href="/thoughts/2026-09/#t20260920190325">x</a></footer>
+</article>
+</section>
+</div>
+</body></html>
+"""
+
+OLD_MONTH_PAGE = """<html><body>
+<article class="thought-entry h-entry" id="t20250101120000">
+    <p class="thought-text e-content"><a href="https://ancient.example/">https://ancient.example/</a></p>
+</article>
+</body></html>
+"""
+
+
+def make_thoughts_site(site_dir):
+    site_dir = pathlib.Path(site_dir)
+    month = site_dir / "thoughts" / "2026-09"
+    month.mkdir(parents=True)
+    month.joinpath("index.html").write_text(THOUGHT_MONTH_PAGE)
+    old = site_dir / "thoughts" / "2025-01"
+    old.mkdir(parents=True)
+    old.joinpath("index.html").write_text(OLD_MONTH_PAGE)
+    # The index duplicates the newest month; search.json is data.
+    site_dir.joinpath("thoughts", "index.html").write_text(THOUGHT_MONTH_PAGE)
+    site_dir.joinpath("thoughts", "search.json").write_text("[]")
+    return site_dir
+
+
+class TestCollectThoughts:
+    def test_thought_source_is_the_month_page_fragment(self, tmp_path):
+        thoughts = sw.collect_thoughts(make_thoughts_site(tmp_path / "_site"),
+                                       since="20260921")
+        assert [t["path"] for t in thoughts] == [
+            "/thoughts/2026-09/#t20260926202653"]
+
+    def test_targets_come_from_the_thought_text_only(self, tmp_path):
+        # Syndication links in the footer (Bluesky/Mastodon) and self
+        # links are chrome, not something the thought mentions.
+        thought = sw.collect_thoughts(make_thoughts_site(tmp_path / "_site"),
+                                      since="20260921")[0]
+        assert thought["targets"] == ["https://itsfoss.com/news/dawo/"]
+
+    def test_hash_tracks_the_thought_text(self, tmp_path):
+        thought = sw.collect_thoughts(make_thoughts_site(tmp_path / "_site"),
+                                      since="20260921")[0]
+        expected = sw.content_hash(
+            'Nix desktop <a href="https://itsfoss.com/news/dawo/">'
+            'https://itsfoss.com/news/dawo/</a> and '
+            '<a href="https://eve.gd/self/">https://eve.gd/self/</a>')
+        assert thought["hash"] == expected
+
+    def test_thoughts_before_the_adoption_date_are_never_collected(self, tmp_path):
+        # Two decades of imported thoughts must not webmention the web;
+        # only ids on/after the cutoff count, older months included.
+        thoughts = sw.collect_thoughts(make_thoughts_site(tmp_path / "_site"),
+                                       since="20260920190325")
+        assert [t["path"] for t in thoughts] == [
+            "/thoughts/2026-09/#t20260926202653",
+            "/thoughts/2026-09/#t20260920190325"]
+        assert not any("ancient" in target for t in thoughts
+                       for target in t["targets"])
+
+    def test_default_cutoff_is_the_adoption_date(self, tmp_path):
+        thoughts = sw.collect_thoughts(make_thoughts_site(tmp_path / "_site"))
+        assert all(t["path"].split("#t")[1] >= sw.THOUGHTS_SINCE
+                   for t in thoughts)
+        assert sw.THOUGHTS_SINCE >= "20260921"
+
+    def test_link_free_thoughts_are_not_recorded(self, tmp_path):
+        thoughts = sw.collect_thoughts(make_thoughts_site(tmp_path / "_site"),
+                                       since="20260921")
+        assert not any("20260923100254" in t["path"] for t in thoughts)
+
+    def test_no_thoughts_dir_is_fine(self, tmp_path):
+        (tmp_path / "_site").mkdir()
+        assert sw.collect_thoughts(tmp_path / "_site") == []
+
+
 class TestCollectPosts:
     def make_site(self, tmp_path):
         post = tmp_path / "_site" / "2026" / "01" / "01" / "a-post"
@@ -391,6 +487,60 @@ class TestRun:
                post=lambda u, d: pytest.fail("no network in dry-run"),
                echo=lines.append)
         assert any("3 pending" in line and "new" in line for line in lines)
+
+    def test_thoughts_are_sent_alongside_posts(self, tmp_path):
+        root = self.make_root(tmp_path)
+        make_thoughts_site(root / "_site")
+        sends = []
+
+        def fetch(url):
+            return (200, {"Link": '<https://wm.example/ep>; rel="webmention"'},
+                    "", url)
+
+        def post(url, data):
+            sends.append((data["source"], data["target"]))
+            return 202
+
+        assert sw.run(root, mode="send", fetch=fetch, post=post,
+                      echo=lambda *a: None) == 0
+        assert ("https://eve.gd/thoughts/2026-09/#t20260926202653",
+                "https://itsfoss.com/news/dawo/") in sends
+        assert ("https://eve.gd/2026/01/01/a-post/",
+                "https://example.org/essay") in sends
+        state = json.loads((root / sw.STATE_FILE).read_text())
+        assert "/thoughts/2026-09/#t20260926202653" in state["posts"]
+
+    def test_only_thoughts_leaves_posts_alone(self, tmp_path):
+        # The quick deploy after a thought must not scan or send for the
+        # whole post archive; posts stay with the full deploy.
+        root = self.make_root(tmp_path)
+        make_thoughts_site(root / "_site")
+        sends = []
+
+        def fetch(url):
+            return (200, {"Link": '<https://wm.example/ep>; rel="webmention"'},
+                    "", url)
+
+        def post(url, data):
+            sends.append(data["source"])
+            return 202
+
+        assert sw.run(root, mode="send", fetch=fetch, post=post,
+                      echo=lambda *a: None, only_thoughts=True) == 0
+        assert sends == ["https://eve.gd/thoughts/2026-09/#t20260926202653"]
+        state = json.loads((root / sw.STATE_FILE).read_text())
+        assert "/2026/01/01/a-post/" not in state["posts"]
+
+    def test_only_thoughts_dry_run_lists_thought_sources(self, tmp_path):
+        root = self.make_root(tmp_path)
+        make_thoughts_site(root / "_site")
+        lines = []
+        assert sw.run(root, mode="dry-run",
+                      fetch=lambda url: pytest.fail("no network"),
+                      post=lambda u, d: pytest.fail("no network"),
+                      echo=lines.append, only_thoughts=True) == 0
+        assert any("#t20260926202653" in line for line in lines)
+        assert not any("a-post" in line for line in lines)
 
     def test_send_updates_state_and_second_run_is_quiet(self, tmp_path):
         root = self.make_root(tmp_path)

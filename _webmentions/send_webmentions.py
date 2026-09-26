@@ -7,7 +7,11 @@ Run from the blog root after the built _site is live (stdlib only):
 
 Walks the built _site's post pages, pulls every external link out of each
 post body, discovers each target's webmention endpoint and POSTs
-source+target to it. _webmentions/sent.json records what was sent against a
+source+target to it. Short thoughts (the per-month /thoughts/<YYYY-MM>/
+pages) are sources too: each h-entry article is one source, addressed as
+the month page plus its #t<id> fragment, so receivers can find the exact
+entry; --only-thoughts restricts a pass to them (the quick deploy after a
+thought uses this so it never rescans the post archive). _webmentions/sent.json records what was sent against a
 hash of the post body, so a deploy never re-sends anything: a post only
 notifies its targets again when its content actually changes (updates), and
 targets dropped from an updated post get a final notification so the far end
@@ -15,7 +19,9 @@ can delete the stale mention (per the Webmention spec).
 
 --baseline records the current state of every post as already-sent without
 any network traffic: run once at adoption so years of archives don't blast
-mentions at the whole web.
+mentions at the whole web. Thoughts need no baseline: ids before
+THOUGHTS_SINCE (the adoption date) are never collected at all, which also
+keeps 27k imported entries out of the ledger.
 """
 
 from __future__ import annotations
@@ -47,6 +53,16 @@ DIV_TAG = re.compile(r"<div\b[^>]*>|</div>")
 # chrome (share-intent buttons, the Last.fm widget) that must never count as
 # content, so it doubles as a hard end-of-content boundary.
 SIDEBAR_MARKER = '<aside class="post-sidebar"'
+
+# Thoughts are compact local timestamps (YYYYMMDDHHMMSS) and a month page
+# is /thoughts/<YYYY-MM>/, so the id alone locates its entry. The layout
+# renders each entry as an article with the text in an e-content <p>; the
+# footer's syndication links (Bluesky/Mastodon) are chrome, never targets.
+THOUGHTS_DIR = "thoughts"
+THOUGHT_ARTICLE = re.compile(
+    r'<article class="thought-entry h-entry" id="t(\d{14})">')
+THOUGHT_TEXT = re.compile(
+    r'<p class="thought-text e-content">(.*?)</p>', re.DOTALL)
 
 
 _SSL_CONTEXT = None
@@ -234,6 +250,63 @@ def collect_posts(site_dir):
     return posts
 
 
+# Thoughts posted from this local timestamp on send webmentions; earlier
+# ones (two decades of imports) are never even collected. Set at adoption
+# on 2026-09-26 to the start of that week.
+THOUGHTS_SINCE = "20260921000000"
+
+
+def extract_thoughts(html):
+    """[(id, text_html)] for every thought entry on a month page.
+
+    The text is the escaped, linkified inner HTML of the e-content
+    paragraph (what a receiver will see), which doubles as the entry's
+    revision content for the ledger hash.
+    """
+    entries = []
+    starts = list(THOUGHT_ARTICLE.finditer(html))
+    for index, start in enumerate(starts):
+        end = starts[index + 1].start() if index + 1 < len(starts) else len(html)
+        text = THOUGHT_TEXT.search(html, start.end(), end)
+        if text is None:
+            continue
+        entries.append((start.group(1), text.group(1)))
+    return entries
+
+
+def thought_path(thought_id):
+    """Source path for a thought id: its month page plus fragment."""
+    return f"/{THOUGHTS_DIR}/{thought_id[:4]}-{thought_id[4:6]}/#t{thought_id}"
+
+
+def collect_thoughts(site_dir, since=THOUGHTS_SINCE):
+    """Built thought entries as [{"path", "hash", "targets"}], like posts.
+
+    Only entries with an id at or after ``since`` and at least one
+    eligible target are returned: link-free thoughts have nothing to
+    mention and would only pad the ledger.
+    """
+    site_dir = pathlib.Path(site_dir)
+    since = str(since).ljust(14, "0")
+    thoughts = []
+    for index in sorted(site_dir.glob(
+            f"{THOUGHTS_DIR}/[0-9][0-9][0-9][0-9]-[0-9][0-9]/index.html")):
+        month = index.parent.name.replace("-", "")
+        if month < since[:6]:
+            continue
+        html = index.read_text(encoding="utf-8", errors="replace")
+        for thought_id, text in extract_thoughts(html):
+            if thought_id < since:
+                continue
+            targets = [url for url in body_links(text) if eligible(url)]
+            if not targets:
+                continue
+            thoughts.append({"path": thought_path(thought_id),
+                             "hash": content_hash(text),
+                             "targets": targets})
+    return thoughts
+
+
 def plan(state, posts):
     """Actions to take as [{"source": path, "target": url, "reason": ...}].
 
@@ -341,7 +414,8 @@ def apply(state, posts, actions, discover=discover_endpoint, post=http_post,
     return state
 
 
-def run(root, mode="send", fetch=http_fetch, post=http_post, echo=print):
+def run(root, mode="send", fetch=http_fetch, post=http_post, echo=print,
+        only_thoughts=False):
     """Collect, plan and execute; returns a process exit code."""
     root = pathlib.Path(root)
     site_dir = root / "_site"
@@ -349,7 +423,8 @@ def run(root, mode="send", fetch=http_fetch, post=http_post, echo=print):
         echo("send_webmentions: no _site build found; run jekyll build first")
         return 1
 
-    posts = collect_posts(site_dir)
+    posts = [] if only_thoughts else collect_posts(site_dir)
+    posts += collect_thoughts(site_dir)
     state_path = root / STATE_FILE
     state = {"posts": {}}
     if state_path.is_file():
@@ -399,12 +474,16 @@ def main(argv=None):
                        help="record current posts as sent without sending")
     group.add_argument("--dry-run", action="store_true",
                        help="print the send plan without sending")
+    parser.add_argument("--only-thoughts", action="store_true",
+                        help="consider short thoughts only, not posts "
+                             "(the quick deploy's post-thought pass)")
     args = parser.parse_args(argv)
     mode = "baseline" if args.baseline else "dry-run" if args.dry_run else "send"
     root = pathlib.Path(__file__).resolve().parent.parent
     # Flush each line so progress streams live under the deploy pipeline
     # (stdout is block-buffered when piped, not line-buffered as at a TTY).
-    return run(root, mode=mode, echo=lambda *a: print(*a, flush=True))
+    return run(root, mode=mode, echo=lambda *a: print(*a, flush=True),
+               only_thoughts=args.only_thoughts)
 
 
 if __name__ == "__main__":
