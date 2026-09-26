@@ -119,7 +119,9 @@ healthcheck).
 - Each publish is `git pull --rebase` → thought CLI → `git commit`
   (`chore(thoughts): add <id> via mail gateway`) → `git push`, so your
   local checkout picks thoughts up with a plain pull. A rejected push
-  is rebased and retried once.
+  is rebased and retried once. The commit carries the thought, its
+  images and the outgoing-webmention ledger (`_webmentions/sent.json`)
+  that the quick deploy's post-rsync send pass updates.
 - `JEKYLL_SKIP_PDFS=1` in the container: the PDF pass is skipped (the
   rsync never deletes, so the PDFs your machine deployed stay live);
   thoughts pages opt out of PDFs anyway.

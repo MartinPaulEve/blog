@@ -219,7 +219,11 @@ def publish(
             "will reach the site with the next deploy."
         )
 
-    add_paths = ["_data/thoughts.yml"] + (["assets/thoughts"] if images else [])
+    # The quick deploy's webmention pass updates the sent ledger; it must
+    # travel with the thought or it dirties the clone for every later pull.
+    add_paths = ["_data/thoughts.yml", "_webmentions/sent.json"]
+    if images:
+        add_paths.append("assets/thoughts")
     run(["git", "add", "-A", "--", *add_paths], cwd=blog_dir, check=False)
     staged = run(["git", "diff", "--cached", "--quiet"], cwd=blog_dir, check=False)
     if staged.returncode != 0:  # non-zero: something is staged

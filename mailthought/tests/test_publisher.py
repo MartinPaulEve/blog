@@ -202,6 +202,16 @@ class TestPublish:
         assert commit[-1] == "chore(thoughts): add 20260912190000 via mail gateway"
         assert ["git", "push"] in cmds
 
+    def test_sent_webmentions_ledger_is_committed_with_the_thought(self, tmp_path):
+        # The quick deploy sends the thought's webmentions and updates
+        # the ledger; left unstaged it would dirty the clone and break
+        # every later `git pull --rebase`.
+        fake = FakeRun(self.make_handler([]))
+        publish(tmp_path / "blog", "a thought", [], run=fake,
+                workdir=tmp_path / "work")
+        add = next(c for c in fake.commands() if c[:2] == ["git", "add"])
+        assert "_webmentions/sent.json" in add
+
     def test_image_bytes_reach_the_cli_as_files(self, tmp_path):
         seen = []
         fake = FakeRun(self.make_handler(seen))
