@@ -222,18 +222,24 @@ def kcworks_deposit_new(root: Path, run=default_run, echo=print,
 
 
 def quick_deploy(root: Path, run=default_run, echo=print) -> bool:
-    """Build the site and rsync it — nothing else.
+    """Build the site, rsync it, and mention what the new thought links to.
 
     The fast path for short thoughts: no cover resize, no identifier
     sweeps or feed fetches, no ATProto publish, no git work, no
     repository deposits. The PDF and OG caches keep the build brisk and
-    rsync ships only what changed.
+    rsync ships only what changed. The one thing that follows the rsync
+    is the thoughts-only webmention pass (receivers fetch the live
+    source page, so it cannot come earlier); the ledger it writes is
+    left for the caller to commit alongside the thought itself.
     """
     root = Path(root)
     echo("==> Building site")
     jekyll_build(root, run=run)
     echo("==> Deploying to server")
     rsync_site(root, run=run)
+    echo("==> Sending the thought's webmentions")
+    if not send_webmentions(root, run=run, echo=echo, only_thoughts=True):
+        echo("    (skipped or failed; continuing)")
     echo("==> Done.")
     return True
 
@@ -302,7 +308,8 @@ def git_commit_push(root: Path, message: str, run=default_run) -> bool:
 
 
 def _webmention_step(root: Path, script: str, warning: str,
-                     run=default_run, echo=print, present=None) -> bool:
+                     run=default_run, echo=print, present=None,
+                     args=()) -> bool:
     """Run a data-fetch script as a tolerant pipeline step.
 
     Returns True when the script ran cleanly, False when it was skipped (no
@@ -317,7 +324,7 @@ def _webmention_step(root: Path, script: str, warning: str,
     if (root / ".env").is_file():
         cmd += ["--env-file", ".env"]  # carries the API tokens
     try:
-        run(cmd + [script], cwd=root)
+        run(cmd + [script, *args], cwd=root)
     except subprocess.CalledProcessError:
         echo(warning)
         return False
@@ -340,12 +347,18 @@ def fetch_lastfm(root: Path, run=default_run, echo=print, present=None) -> bool:
         run=run, echo=echo, present=present)
 
 
-def send_webmentions(root: Path, run=default_run, echo=print, present=None) -> bool:
-    """Send outbound webmentions once the site is live; tolerant step."""
+def send_webmentions(root: Path, run=default_run, echo=print, present=None,
+                     only_thoughts: bool = False) -> bool:
+    """Send outbound webmentions once the site is live; tolerant step.
+
+    ``only_thoughts`` restricts the pass to short thoughts (the quick
+    deploy's case: one new entry, no rescan of the post archive).
+    """
     return _webmention_step(
         root, "_webmentions/send_webmentions.py",
         "WARNING: webmention send failed; unsent mentions retry next deploy.",
-        run=run, echo=echo, present=present)
+        run=run, echo=echo, present=present,
+        args=("--only-thoughts",) if only_thoughts else ())
 
 
 def commit_sent_state(root: Path, run=default_run) -> bool:

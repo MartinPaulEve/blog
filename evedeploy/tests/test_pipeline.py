@@ -407,8 +407,32 @@ class TestQuickDeploy:
         quick_deploy(root, run=run, echo=lambda *a, **k: None)
         joined = " ".join(" ".join(call["cmd"]) for call in run.calls)
         for forbidden in ("sequoia", "git", "kcworks", "biron",
-                          "webmention", "lastfm", "resize"):
+                          "fetch_webmentions", "lastfm", "resize"):
             assert forbidden not in joined
+
+    def test_sends_thought_webmentions_after_the_rsync(self, root):
+        # A thought that links somewhere should mention it — but only
+        # once the page is live (receivers fetch the source), and only
+        # for thoughts: the post archive stays with the full deploy.
+        run = FakeRun()
+        quick_deploy(root, run=run, echo=lambda *a, **k: None)
+        cmds = run.commands()
+        send = next(c for c in run.calls
+                    if "_webmentions/send_webmentions.py" in c["cmd"])
+        assert "--only-thoughts" in send["cmd"]
+        assert run.calls.index(send) > cmds.index("rsync -avz")
+
+    def test_send_failure_does_not_fail_the_quick_deploy(self, root):
+        run = FakeRun({"uv run": 1})
+        lines = []
+        assert quick_deploy(root, run=run, echo=lines.append) is True
+        assert any("webmention" in line.lower() for line in lines)
+
+    def test_send_is_skipped_without_the_script(self, root):
+        (root / "_webmentions" / "send_webmentions.py").unlink()
+        run = FakeRun()
+        assert quick_deploy(root, run=run, echo=lambda *a, **k: None) is True
+        assert "uv run" not in run.commands()
 
 
 class TestBironDepositNew:
@@ -518,6 +542,18 @@ class TestSendWebmentions:
         lines = []
         assert send_webmentions(root, run=run, echo=lines.append) is False
         assert any("webmention" in line.lower() for line in lines)
+
+    def test_only_thoughts_restricts_the_script(self, root):
+        run = FakeRun()
+        assert send_webmentions(root, run=run, echo=lambda *a, **k: None,
+                                only_thoughts=True) is True
+        assert run.calls[0]["cmd"][-2:] == [
+            "_webmentions/send_webmentions.py", "--only-thoughts"]
+
+    def test_full_send_passes_no_restriction(self, root):
+        run = FakeRun()
+        send_webmentions(root, run=run, echo=lambda *a, **k: None)
+        assert "--only-thoughts" not in run.calls[0]["cmd"]
 
 
 class TestCommitSentState:

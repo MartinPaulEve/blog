@@ -14,7 +14,11 @@ Bluesky often posts to Mastodon whole.
 The thought itself is stored untouched in `_data/thoughts.yml`, which
 feeds /thoughts/, the post sidebar widget, and the homepage block. After
 posting, the tool runs the quick deploy (`evedeploy --quick`: jekyll
-build + rsync only — no Sequoia, no git, no deposits).
+build + rsync, then a thoughts-only webmention pass — no Sequoia, no
+git, no deposits). A thought that links to a page sends that page a
+webmention from its /thoughts/<YYYY-MM>/#t<id> entry once it is live;
+the sent ledger (`_webmentions/sent.json`) is committed by the next
+full deploy.
 
 Run via `./thought.sh` from the blog root:
 
