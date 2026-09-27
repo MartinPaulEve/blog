@@ -17223,6 +17223,15 @@
      "status": 202
     }
    }
+  },
+  "/thoughts/2026-09/#t20260927082516": {
+   "content_hash": "71a7fc68b0a556982b8f88b5278cf9b41fca2738c35669d91af908b9000ca477",
+   "sent": {
+    "https://www.theguardian.com/technology/2026/sep/24/construction-largest-supercomputer-delayed": {
+     "at": "2026-09-27T07:26:07+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
