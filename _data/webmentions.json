@@ -1,5 +1,5 @@
 {
- "last_wm_id": 2030773,
+ "last_wm_id": 2033350,
  "targets": {
   "/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/": {
    "bookmarks": [],
@@ -114,7 +114,34 @@
      "wm_id": 2030773
     }
    ]
+  },
+  "/2026/09/17/vaults-and-locks-that-fence-them-from-the-public-eye-and-use/": {
+   "bookmarks": [],
+   "likes": [],
+   "mentions": [
+    {
+     "author_name": "Martin Paul Eve",
+     "author_url": "https://bsky.app/profile/eve.gd",
+     "avatar": "/images/webmentions/ff80432ff5fc382e.jpg",
+     "published": "2026-09-17T22:41:50+00:00",
+     "text": "Vaults and locks that fence them from the public eye and use (Thomas Jefferson and open digital preservation) eve.gd/2026/09/17/v...",
+     "url": "https://bsky.app/profile/did:plc:hnpt7ns2lecdujegbi6qkqqm/post/3mvqpyppx7c2q",
+     "wm_id": 2033256
+    }
+   ],
+   "replies": [],
+   "reposts": [
+    {
+     "author_name": "Martin Paul Eve",
+     "author_url": "https://bsky.app/profile/eve.gd",
+     "avatar": "/images/webmentions/ff80432ff5fc382e.jpg",
+     "published": "2026-09-18T07:54:59+00:00",
+     "text": "Shared a post by   \n    \n    bsky.brid.gy/web/did:plc:hn...\n    \n    \n  \nVaults and locks that fence them from the public eye and use (Thomas Jefferson and open digital preservation) eve.gd/2026/09/17/v...",
+     "url": "https://bsky.app/profile/did:plc:hnpt7ns2lecdujegbi6qkqqm/post/3mvqpyppx7c2q#reposted_by_did:plc:hnpt7ns2lecdujegbi6qkqqm",
+     "wm_id": 2033350
+    }
+   ]
   }
  },
- "updated": "2026-09-17T22:37:11+00:00"
+ "updated": "2026-09-27T19:56:36+00:00"
 }
