@@ -1,3 +1,8 @@
+- id: '20261005082716'
+  date: '2026-10-05T08:27:16.674678+01:00'
+  text: 'TIL: There''s a great list of free, human-made, royalty-free images at https://humancode.us/2026/08/28/royalty-free-images'
+  bluesky: https://bsky.app/profile/eve.gd/post/3mx4fcexcry24
+  mastodon: https://hcommons.social/@mpe/117387116769207431
 - id: '20261004084454'
   date: '2026-10-04T08:44:54.579083+01:00'
   text: 'TIL: TimeLord can generate seed values for Python''s pseudo-random number generator to generate specific phrases. It works backwards from the desired result. https://github.com/frazerpearce/TimeLord'
