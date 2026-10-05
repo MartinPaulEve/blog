@@ -18,7 +18,26 @@ module ThoughtsFilter
   URL_RE = %r{https?://[^\s<]+}
   TRAILING_PUNCTUATION = /[.,;:!?…'"”’]\z/
 
+  EXTERNAL_ATTRS = ' target="_blank" rel="noopener"'
+  EXTERNAL_HINT = '<span class="sr-only"> (opens in new tab)</span>'
+
   def self.linkify(text)
+    linkify_with(text) { |url| %(<a href="#{url}">#{url}</a>) }.gsub("\n", "<br>\n")
+  end
+
+  # Image credits are stored as plain text in front matter and must never be
+  # rewritten there; at render time any bare URL in the credit becomes a
+  # link that opens in a new tab, matching the caption's existing title link.
+  def self.linkify_external(text)
+    linkify_with(text) do |url|
+      %(<a href="#{url}"#{EXTERNAL_ATTRS}>#{url}#{EXTERNAL_HINT}</a>)
+    end
+  end
+
+  # Escape the whole text and hand each bare URL (already escaped, with
+  # trailing punctuation and unbalanced parens left outside) to the block,
+  # which returns the anchor markup to emit in its place.
+  def self.linkify_with(text)
     text = text.to_s
     out = +""
     last = 0
@@ -37,14 +56,12 @@ module ThoughtsFilter
           break
         end
       end
-      escaped_url = CGI.escape_html(url)
       out << CGI.escape_html(text[last...match.begin(0)])
-      out << %(<a href="#{escaped_url}">#{escaped_url}</a>)
+      out << yield(CGI.escape_html(url))
       out << CGI.escape_html(trail)
       last = match.begin(0) + match[0].length
     end
     out << CGI.escape_html(text[last..] || "")
-    out.gsub("\n", "<br>\n")
   end
 
   TIL_PREFIX = /\ATIL:\s*/
@@ -73,6 +90,10 @@ if defined?(Liquid)
     module ThoughtsLiquidFilter
       def linkify_urls(input)
         ThoughtsFilter.linkify(input)
+      end
+
+      def linkify_urls_external(input)
+        ThoughtsFilter.linkify_external(input)
       end
 
       def til_entries(input)

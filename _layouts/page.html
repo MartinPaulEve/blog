@@ -38,7 +38,7 @@
                     {% if page.image.credit %}
                     <div class="featured-image">
                         <div class="image-attribution">
-                            Image: <a href="{{ page.image.creditlink }}" target="_blank" rel="noopener">{{ page.image.title }}<span class="sr-only"> (opens in new tab)</span></a> ({{ page.image.credit }})
+                            Image: <a href="{{ page.image.creditlink }}" target="_blank" rel="noopener">{{ page.image.title }}<span class="sr-only"> (opens in new tab)</span></a> ({{ page.image.credit | linkify_urls_external }})
                         </div>
                     </div>
                     {% endif %}
