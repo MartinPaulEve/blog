@@ -602,9 +602,21 @@ class TestBuildAndRsync:
         assert run.calls[0]["cmd"] == [
             "rsync",
             "-avz",
+            "--checksum",
+            "--omit-dir-times",
             f"{root}/_site/",
             "evegd@reclaim:/home/evegd/blog/_site/",
         ]
+
+    def test_rsync_lists_only_content_changes(self, root):
+        # Every build rewrites every file, so a timestamp-based quick check
+        # would list (and resend) the whole site; comparing content keeps
+        # the deploy log to the files that actually changed.
+        run = FakeRun()
+        rsync_site(root, run=run)
+        cmd = run.calls[0]["cmd"]
+        assert "--checksum" in cmd
+        assert "--omit-dir-times" in cmd
 
 
 class TestBuildSite:

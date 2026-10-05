@@ -375,10 +375,22 @@ def commit_sent_state(root: Path, run=default_run) -> bool:
 
 
 def rsync_site(root: Path, run=default_run) -> None:
-    """Push the built _site to the server."""
+    """Push the built _site to the server.
+
+    Every build rewrites every file, so rsync's default timestamp check
+    would list and resend the whole site; comparing content (and ignoring
+    directory times) keeps the log to the files that actually changed.
+    """
     _step(
         run,
-        ["rsync", "-avz", f"{root}/_site/", RSYNC_TARGET],
+        [
+            "rsync",
+            "-avz",
+            "--checksum",
+            "--omit-dir-times",
+            f"{root}/_site/",
+            RSYNC_TARGET,
+        ],
         name="rsync to server",
     )
 
