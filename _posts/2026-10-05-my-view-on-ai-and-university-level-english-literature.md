@@ -82,6 +82,7 @@ references:
     type: Blog
     url: https://ernestopriego.com/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mx4gedp4x425"
+kcworks: https://works.hcommons.org/records/z12f1-1yv23
 ---
 It is bad that I have started writing this post because, for reasons you will see below, I am worried about how much time we spend talking about AI, even as I recognise that politics requires work and attention. And AI is certainly political. I am also aware that many great minds have already put their heads together on the matter of artificial intelligence, at the moment powered by LLMs (Large Language Models). Groups such as [the MLA Task Force On AI](https://www.mla.org/About-Us/Governance/Committees/Committee-Listings/Professional-Issues/MLA-Task-Force-on-AI-in-Research-and-Teaching) reads like an all-star lineup. In the UK, the [English Association](https://englishassociation.ac.uk/ai-in-english-studies/) and [University English](https://universityenglish.ac.uk/action-on-ai/) have also been active.
 
@@ -103,7 +104,7 @@ But I do not think that AI use should be encouraged or permitted in much of our 
 
 ## Two Important Upfront Caveats
 
-**But: an important note**. Students often now **will not know when they are using AI**. It is now so baked into major grim Microsoft and Apple software as the default way of working that, as you say Anna, their spelling and grammar tools, even, are all now based on AI. And they will not know that even they should disclose this via our policy. Interestingly, LibreOffice, the major free open source competitor to Microsoft Word, has a stance of [no AI by default](https://blog.documentfoundation.org/blog/2026/09/03/yes-no-ai-is-now-a-feature/).
+**But: an important note**. Students often now **will not know when they are using AI**. It is now so baked into major grim Microsoft and Apple software as the default way of working that their spelling and grammar tools, even, are all now based on AI. And they will not know that even they should disclose this via our policy. Interestingly, LibreOffice, the major free open source competitor to Microsoft Word, has a stance of [no AI by default](https://blog.documentfoundation.org/blog/2026/09/03/yes-no-ai-is-now-a-feature/).
 
 Another similar case: many disability assistance tools use large language models underneath. So, for example, I use a voice to text system to help me type when my rheumatoid arthritis symptoms are too severe for my hands to work. This synthesizes my voice and then uses the likelihood prediction of the LLM based on the sound input to work out what word I probably said. This feels slightly different because, yes, it's a generative tool and it can make corrections. So it is using an AI system to change things. It also inserts punctuation. But it is a different way of working that tries to express what you said, rather than expressing something for you. 
 
@@ -119,7 +120,7 @@ Furthermore, to **understand key theories and references**, you need a reliable 
 
 ## Disciplinary Legacy
 
-Obviously, I am a big fan of digital access to research. The only way that I can read and write interesting academic material in my current medical hospital admission is via digital access to research. But that is very different to using LLMs or "AI" to structure that interaction. I have spent years learning research techniques to find the correct path through our secondary literature, as have all of us here.
+Obviously, I am a big fan of digital access to research. The only way that I can read and write interesting academic material in my current medical hospital admission is via digital access to research. But that is very different to using LLMs or "AI" to structure that interaction. I have spent years learning research techniques to find the correct path through our secondary literature.
 
 That is something that we need to teach our students. I strongly feel that permitting AI, even in these limited areas, is not the way to pass on the skills and knowledge of our discipline to a cohort of students.
 

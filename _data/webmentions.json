@@ -1,5 +1,5 @@
 {
- "last_wm_id": 2033350,
+ "last_wm_id": 2037965,
  "targets": {
   "/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/": {
    "bookmarks": [],
@@ -141,7 +141,24 @@
      "wm_id": 2033350
     }
    ]
+  },
+  "/2026/10/05/my-view-on-ai-and-university-level-english-literature/": {
+   "bookmarks": [],
+   "likes": [],
+   "mentions": [
+    {
+     "author_name": "Martin Paul Eve",
+     "author_url": "https://bsky.app/profile/eve.gd",
+     "avatar": "/images/webmentions/ff80432ff5fc382e.jpg",
+     "published": "2026-10-05T08:41:04+00:00",
+     "text": "This is the political economic trade-off in our space: politics (time devoted to critiquing AI, developing policies for handling it) vs. pleasure (reading and teaching literature). And that’s what AI, along with every other bureaucratic incursion, ends up taking away from us.\n\neve.gd/2026/10/05/m...",
+     "url": "https://bsky.app/profile/did:plc:hnpt7ns2lecdujegbi6qkqqm/post/3mx4jfurj3k2h",
+     "wm_id": 2037965
+    }
+   ],
+   "replies": [],
+   "reposts": []
   }
  },
- "updated": "2026-10-05T08:18:25+00:00"
+ "updated": "2026-10-05T18:28:25+00:00"
 }
