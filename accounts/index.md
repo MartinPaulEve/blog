@@ -5,7 +5,7 @@ tags: [accounts, contact, identity]
 comments: false
 ---
 
-<link href="/assets/css/accounts.css?v={{ site.time | date: '%s' }}" rel="stylesheet" type="text/css">
+<link href="/assets/css/accounts.css?v={{ '/assets/css/accounts.css' | asset_version }}" rel="stylesheet" type="text/css">
 
 This page is the canonical list of my accounts and public keys around the web. If you come across an account claiming to be me that is not listed here or on my [contact page](/contact/), it probably isn't me. This site also publishes a machine-readable declaration of human authorship at [/human.json](/human.json).
 

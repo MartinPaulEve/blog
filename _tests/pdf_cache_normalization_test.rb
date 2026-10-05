@@ -16,6 +16,11 @@ class PdfCacheNormalizationTest < Minitest::Test
     BASE.sub("</head>", "#{line}\n</head>")
   end
 
+  def test_content_hash_asset_stamps_do_not_change_the_hash
+    with_hex = BASE.sub("?v=123", "?v=3fa9c0de12")
+    assert_equal PdfPages.content_hash(BASE), PdfPages.content_hash(with_hex)
+  end
+
   def test_human_json_link_does_not_change_the_hash
     with_link = with_head_line('<link rel="human-json" href="/human.json">')
     assert_equal PdfPages.content_hash(BASE), PdfPages.content_hash(with_link)

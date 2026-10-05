@@ -64,7 +64,7 @@ module PdfPages
   # likewise), so navigation and footer link changes don't re-render either.
   def self.normalize_html(html)
     html.to_s
-        .gsub(/\?v=\d+/, "")
+        .gsub(/\?v=[0-9a-f]+/, "")
         .gsub(%r{<aside class="post-sidebar">.*?</aside>}m, "")
         .gsub(%r{<p class="post-description post-pdf">.*?</p>}m, "")
         .gsub(%r{<p class="post-description post-categories">.*?</p>}m, "")

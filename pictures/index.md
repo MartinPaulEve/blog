@@ -9,7 +9,7 @@ image:
   feature: header_new.jpg
 
 ---
-<link href="/assets/css/pictures.css?v={{ site.time | date: '%s' }}" rel="stylesheet" type="text/css">
+<link href="/assets/css/pictures.css?v={{ '/assets/css/pictures.css' | asset_version }}" rel="stylesheet" type="text/css">
 
 The below images of me are released under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/) and can be re-used anywhere under the terms of that license. Click an image to view the full-size original, or use the download button beneath it. Each card carries a suggested credit line that you can copy with one click.
 
@@ -32,4 +32,4 @@ The below images of me are released under a [Creative Commons Attribution 4.0 In
 {% endfor %}
 </div>
 
-<script src="/assets/js/pictures.js?v={{ site.time | date: '%s' }}" defer></script>
+<script src="/assets/js/pictures.js?v={{ '/assets/js/pictures.js' | asset_version }}" defer></script>

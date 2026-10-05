@@ -10,7 +10,7 @@
   PDF-hashed stylesheet set (blog-post.css, styles.css).
 {% endcomment %}
 {% if site.data.lastfm %}
-<link rel="stylesheet" href="/assets/css/lastfm.css?v={{ site.time | date: '%s' }}">
+<link rel="stylesheet" href="/assets/css/lastfm.css?v={{ '/assets/css/lastfm.css' | asset_version }}">
 <div class="sidebar-widget lastfm-widget">
     <h3>Listening</h3>
     <dl class="lastfm-stats">

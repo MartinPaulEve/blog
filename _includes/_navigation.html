@@ -5,7 +5,7 @@
   out of the PDF-hashed stylesheet set (styles.css, blog-post.css) —
   editing those re-renders every archival PDF.
 {% endcomment %}
-<link rel="stylesheet" href="/assets/css/nav.css?v={{ site.time | date: '%s' }}">
+<link rel="stylesheet" href="/assets/css/nav.css?v={{ '/assets/css/nav.css' | asset_version }}">
 <div class="brand">
     <a href="/" class="logo">Martin Paul Eve</a>
     <span class="mouse-mark mouse-mark--logo" aria-hidden="true"></span>

@@ -7,7 +7,7 @@ regenerate: true
 pdf: false
 ---
 
-<link rel="stylesheet" href="/assets/css/thoughts.css?v={{ site.time | date: '%s' }}">
+<link rel="stylesheet" href="/assets/css/thoughts.css?v={{ '/assets/css/thoughts.css' | asset_version }}">
 
 {% assign tils = site.data.thoughts | til_entries %}
 {% assign months = tils | group_by_exp: "thought", "thought.date | slice: 0, 7" %}
@@ -54,5 +54,5 @@ pdf: false
 {% endfor %}
 </div>
 
-<script src="/assets/js/til-search.js?v={{ site.time | date: '%s' }}" defer></script>
+<script src="/assets/js/til-search.js?v={{ '/assets/js/til-search.js' | asset_version }}" defer></script>
 {% endif %}
