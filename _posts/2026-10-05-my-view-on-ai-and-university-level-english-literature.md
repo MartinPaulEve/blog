@@ -5,6 +5,7 @@ date: 2026-10-05
 doi: https://doi.org/10.59348/3kh8w-q1d96
 roguescholar: https://rogue-scholar.org/records/xtmsg-hnm05
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mx4gedp4x425
+biron: https://eprints.bbk.ac.uk/id/eprint/58014/
 categories:
 - Literature
 - Artificial Intelligence
