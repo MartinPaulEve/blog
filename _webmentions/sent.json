@@ -17341,6 +17341,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-10/#t20261007125450": {
+   "content_hash": "1d8a9b5d8f399717e4d7c82ba0b1af6c707052cdfc4df0eb3f363f57396266ef",
+   "sent": {
+    "https://adamkotsko.substack.com/p/no-risk-no-reward": {
+     "at": "2026-10-07T11:55:48+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
