@@ -23,6 +23,9 @@ activitypub:
 safe: false
 redirects: true
 permalink:   /:year/:month/:day/:title/
+# Pinned so builds stamp the same post dates (and URLs) on every machine,
+# whatever zone the host or container runs in.
+timezone:    Europe/London
 markdown:    kramdown
 highlighter: rouge
 sass:
