@@ -1,5 +1,5 @@
 {
- "last_wm_id": 2037965,
+ "last_wm_id": 2038328,
  "targets": {
   "/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/": {
    "bookmarks": [],
@@ -157,8 +157,18 @@
     }
    ],
    "replies": [],
-   "reposts": []
+   "reposts": [
+    {
+     "author_name": "Sarah May",
+     "author_url": "https://bsky.app/profile/sarahmay1.bsky.social",
+     "avatar": "/images/webmentions/75ad329413424875.jpg",
+     "published": "2026-10-07T06:57:38+00:00",
+     "text": "Shared a post by \n  \n  bsky.brid.gy/web/did:plc:hn...\n\n  This is the political economic trade-off in our space: politics (time devoted to critiquing AI, developing policies for handling it) vs. pleasure (reading and teaching literature). And that’s what AI, along with every other bureaucratic incursion, ends up taking away from us.\n\neve.gd/2026/10/05/m...",
+     "url": "https://bsky.app/profile/did:plc:hnpt7ns2lecdujegbi6qkqqm/post/3mx4jfurj3k2h#reposted_by_did:plc:ekxy7poagajkdk5sl3ywa7zv",
+     "wm_id": 2038328
+    }
+   ]
   }
  },
- "updated": "2026-10-05T18:28:25+00:00"
+ "updated": "2026-10-08T21:27:00+00:00"
 }
