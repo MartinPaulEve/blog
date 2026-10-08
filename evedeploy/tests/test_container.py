@@ -40,6 +40,16 @@ def mounts_of(cmd):
     return out
 
 
+def all_mounts_of(cmd):
+    """[(source, destination)] for every -v/--volume flag, duplicates kept."""
+    out = []
+    for i, tok in enumerate(cmd):
+        if tok in ("-v", "--volume"):
+            parts = cmd[i + 1].split(":")
+            out.append((parts[0], parts[1]))
+    return out
+
+
 def env_of(cmd):
     """{NAME: value} for every -e/--env flag."""
     out = {}
@@ -151,6 +161,24 @@ class TestAgentSockets:
         env = {"SSH_AUTH_SOCK": str(generic)}
         found = agent_sockets(HOME, env=env, exists=exists_in(bw, generic))
         assert found == [bw, generic]
+
+    def test_inside_an_ssh_session_the_forwarded_agent_wins(self):
+        # Remote session: nobody can approve the desktop agents' prompts,
+        # so the agent forwarded from the operator's own machine comes first.
+        bw = HOME / ".bitwarden-ssh-agent.sock"
+        forwarded = Path("/tmp/ssh-XXXXab12/agent.4242")
+        env = {"SSH_AUTH_SOCK": str(forwarded),
+               "SSH_CONNECTION": "10.0.0.2 51234 10.0.0.9 22"}
+        found = agent_sockets(HOME, env=env, exists=exists_in(bw, forwarded))
+        assert found == [forwarded, bw]
+
+    def test_explicit_override_beats_the_forwarded_agent(self):
+        forwarded = Path("/tmp/ssh-XXXXab12/agent.4242")
+        mine = Path("/run/user/1000/my-agent.sock")
+        env = {"SSH_AUTH_SOCK": str(forwarded), "SSH_CONNECTION": "x",
+               "EVEDEPLOY_SSH_AGENT": str(mine)}
+        found = agent_sockets(HOME, env=env, exists=exists_in(forwarded, mine))
+        assert found[0] == mine
 
     def test_duplicates_collapse(self):
         bw = HOME / ".bitwarden-ssh-agent.sock"
@@ -326,22 +354,36 @@ class TestRunCommand:
         cmd = run_command(**base_kwargs, shell=True)
         assert cmd[image_index(cmd, IMAGE) + 1:] == ["bash"]
 
-    def test_agent_sockets_are_mounted_at_their_host_paths(self, base_kwargs):
-        bw = HOME / ".bitwarden-ssh-agent.sock"
-        op = HOME / ".1password/agent.sock"
-        mounts = mounts_of(run_command(**base_kwargs, sockets=[bw, op]))
-        assert mounts[str(bw)][0] == str(bw)
-        assert mounts[str(op)][0] == str(op)
+    def test_chosen_agent_is_mounted_at_its_host_path(self, base_kwargs):
+        forwarded = Path("/tmp/ssh-XXXXab12/agent.4242")
+        mounts = all_mounts_of(run_command(**base_kwargs, agent=forwarded))
+        assert (str(forwarded), str(forwarded)) in mounts
 
-    def test_first_agent_socket_becomes_ssh_auth_sock(self, base_kwargs):
+    def test_chosen_agent_also_answers_at_the_desktop_agents_paths(
+            self, base_kwargs):
+        # ~/.ssh/config pins IdentityAgent to a desktop agent's socket; the
+        # chosen agent has to be what those lines reach inside the container.
+        forwarded = Path("/tmp/ssh-XXXXab12/agent.4242")
+        mounts = all_mounts_of(run_command(**base_kwargs, agent=forwarded))
+        assert (str(forwarded), str(HOME / ".bitwarden-ssh-agent.sock")) in mounts
+        assert (str(forwarded), str(HOME / ".1password/agent.sock")) in mounts
+
+    def test_only_the_chosen_agent_is_mounted(self, base_kwargs):
         bw = HOME / ".bitwarden-ssh-agent.sock"
-        op = HOME / ".1password/agent.sock"
-        env = env_of(run_command(**base_kwargs, sockets=[bw, op]))
+        mounts = all_mounts_of(run_command(**base_kwargs, agent=bw))
+        sources = {src for src, _ in mounts if src.endswith(".sock") or "/agent." in src}
+        assert sources == {str(bw)}
+
+    def test_chosen_agent_becomes_ssh_auth_sock(self, base_kwargs):
+        bw = HOME / ".bitwarden-ssh-agent.sock"
+        env = env_of(run_command(**base_kwargs, agent=bw))
         assert env["SSH_AUTH_SOCK"] == str(bw)
 
-    def test_no_agent_means_no_ssh_auth_sock(self, base_kwargs):
-        env = env_of(run_command(**base_kwargs, sockets=[]))
-        assert "SSH_AUTH_SOCK" not in env
+    def test_no_agent_means_no_ssh_auth_sock_and_no_agent_mounts(
+            self, base_kwargs):
+        cmd = run_command(**base_kwargs, agent=None)
+        assert "SSH_AUTH_SOCK" not in env_of(cmd)
+        assert not any("agent" in src for src, _ in all_mounts_of(cmd))
 
     def test_identity_files_are_mounted_read_only_at_their_host_paths(
             self, base_kwargs):

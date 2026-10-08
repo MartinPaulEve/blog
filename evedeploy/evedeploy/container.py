@@ -14,8 +14,10 @@ bind-mounted read-write where it lives (so `.env`, the PDF/OG caches and
 and the git config are mounted read-only at their host paths (from their
 resolved locations: home-manager symlinks them into /nix/store) so `Host`
 aliases and `IdentityFile` lines keep resolving, sequoia's credential
-store is mounted read-write, and every SSH agent socket found is mounted
-at its real path too. Git commit signing is redirected to plain
+store is mounted read-write, and one SSH agent socket is mounted at its
+real path and at the desktop agents' paths (so IdentityAgent lines in the
+ssh config reach it): inside an SSH session the forwarded agent, else
+the desktop agent. Git commit signing is redirected to plain
 `ssh-keygen` (the host's signing wrapper is a host-specific binary); it
 signs with the key the agent offers. uid/gid are passed to the
 entrypoint, which creates a matching user so files written into the repo
@@ -110,16 +112,26 @@ def _dedupe(paths):
 
 
 def agent_sockets(home, env=None, exists=None) -> list:
-    """Existing SSH agent sockets, most preferred first."""
+    """Existing SSH agent sockets, most preferred first.
+
+    $EVEDEPLOY_SSH_AGENT always wins. Inside an SSH session (SSH_CONNECTION
+    set) the operator is remote and cannot approve a desktop agent's
+    prompt, so the agent forwarded from their own machine ($SSH_AUTH_SOCK)
+    comes next; otherwise the desktop agents do, with $SSH_AUTH_SOCK last
+    (on a desktop it is often a gpg/byobu agent without the deploy key).
+    """
     env = os.environ if env is None else env
     exists = exists or (lambda p: Path(p).exists())
     home = Path(home)
     candidates = []
     if env.get("EVEDEPLOY_SSH_AGENT"):
         candidates.append(Path(env["EVEDEPLOY_SSH_AGENT"]))
+    forwarded = Path(env["SSH_AUTH_SOCK"]) if env.get("SSH_AUTH_SOCK") else None
+    if forwarded and env.get("SSH_CONNECTION"):
+        candidates.append(forwarded)
     candidates += [home / name for name in KNOWN_AGENTS]
-    if env.get("SSH_AUTH_SOCK"):
-        candidates.append(Path(env["SSH_AUTH_SOCK"]))
+    if forwarded:
+        candidates.append(forwarded)
     return _dedupe([p for p in candidates if exists(p)])
 
 
@@ -207,7 +219,7 @@ def native_command(args) -> list:
 
 
 def run_command(runtime, image, root, home, uid, gid, args, *, tty,
-                env=None, sockets=(), identity_files=(), extra_mounts=(),
+                env=None, agent=None, identity_files=(), extra_mounts=(),
                 state_dirs=(), shell=False, timezone=None) -> list:
     """The full `<runtime> run ...` argv for one evedeploy invocation."""
     env = os.environ if env is None else env
@@ -235,10 +247,15 @@ def run_command(runtime, image, root, home, uid, gid, args, *, tty,
     for extra in extra_mounts:
         mount(extra, ro=True)
     mount("/etc/hosts", ro=True)
-    for sock in sockets:
-        mount(sock)
-    if sockets:
-        setenv("SSH_AUTH_SOCK", str(sockets[0]))
+    if agent:
+        # One agent answers everywhere: at its own path, as SSH_AUTH_SOCK,
+        # and at every desktop agent's path, because ~/.ssh/config pins
+        # IdentityAgent to those and would otherwise bypass the choice.
+        mount(agent)
+        for alias in KNOWN_AGENTS:
+            if home / alias != Path(agent):
+                mount(agent, home / alias)
+        setenv("SSH_AUTH_SOCK", str(agent))
     mount(UV_CACHE_VOLUME, UV_CACHE_DIR)
     setenv("UV_CACHE_DIR", UV_CACHE_DIR)
 
@@ -305,7 +322,8 @@ def main(argv=None, exec_=os.execvp) -> int:
     cmd = run_command(
         runtime, tag, root, home, os.getuid(), os.getgid(),
         opts.passthrough, tty=sys.stdin.isatty() and sys.stdout.isatty(),
-        sockets=agent_sockets(home), identity_files=identity,
+        agent=next(iter(agent_sockets(home)), None),
+        identity_files=identity,
         extra_mounts=extra, state_dirs=state, shell=opts.shell,
         timezone=host_timezone())
     exec_(cmd[0], cmd)

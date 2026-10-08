@@ -32,12 +32,16 @@ change (the tag is a digest of those files). What the container sees:
   lines and your git identity keep working;
 - `~/.config/sequoia` (the ATProto credentials sequoia stores), read-write
   so refreshed tokens persist;
-- every SSH agent socket it can find, mounted at its host path:
-  `$EVEDEPLOY_SSH_AGENT` if set, then `~/.bitwarden-ssh-agent.sock`,
-  `~/.1password/agent.sock`, then `$SSH_AUTH_SOCK`. The first one found
-  becomes the container's `SSH_AUTH_SOCK`, and commit signing is
-  redirected to plain `ssh-keygen`, which signs with the key that agent
-  offers (the host's signing wrapper is host-specific);
+- one SSH agent socket: `$EVEDEPLOY_SSH_AGENT` if set; otherwise, inside
+  an SSH session (where nobody can approve a desktop agent's prompt), the
+  agent forwarded from your own machine (`$SSH_AUTH_SOCK`); otherwise
+  `~/.bitwarden-ssh-agent.sock`, then `~/.1password/agent.sock`, then
+  `$SSH_AUTH_SOCK`. It is mounted at its own path, becomes the
+  container's `SSH_AUTH_SOCK`, and is also mounted at the desktop agents'
+  paths, so `IdentityAgent` lines in `~/.ssh/config` that point at
+  1Password or Bitwarden reach the chosen agent instead. Commit signing
+  is redirected to plain `ssh-keygen`, which signs with the key that
+  agent offers (the host's signing wrapper is host-specific);
 - `/etc/hosts`, read-only, so the rsync target alias resolves;
 - `../eprintsToCV/output`, read-only, when that sibling checkout exists;
 - a named volume (`evedeploy-uv-cache`) for uv's download cache.
