@@ -82,7 +82,6 @@ references:
     type: Blog
     url: https://ernestopriego.com/
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mx4gedp4x425"
-kcworks: https://works.hcommons.org/records/z12f1-1yv23
 ---
 It is bad that I have started writing this post because, for reasons you will see below, I am worried about how much time we spend talking about AI, even as I recognise that politics requires work and attention. And AI is certainly political. I am also aware that many great minds have already put their heads together on the matter of artificial intelligence, at the moment powered by LLMs (Large Language Models). Groups such as [the MLA Task Force On AI](https://www.mla.org/About-Us/Governance/Committees/Committee-Listings/Professional-Issues/MLA-Task-Force-on-AI-in-Research-and-Teaching) reads like an all-star lineup. In the UK, the [English Association](https://englishassociation.ac.uk/ai-in-english-studies/) and [University English](https://universityenglish.ac.uk/action-on-ai/) have also been active.
 
