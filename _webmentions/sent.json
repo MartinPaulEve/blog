@@ -17350,6 +17350,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-10/#t20261008201744": {
+   "content_hash": "8de3ca0e5db98158cf4a8e522b80f1b397d21245653f1b5e2218e4a920eaca23",
+   "sent": {
+    "https://www.publicbooks.org/the-golden-age-of-tv/": {
+     "at": "2026-10-08T19:19:06+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
