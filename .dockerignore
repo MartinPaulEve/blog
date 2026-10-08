@@ -1,0 +1,6 @@
+# The image bakes in only the gem set and the entrypoint; the repository
+# itself is bind-mounted at run time. Keep the build context tiny.
+*
+!Gemfile
+!Gemfile.lock
+!evedeploy/container/
