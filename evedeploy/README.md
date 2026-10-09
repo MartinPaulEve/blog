@@ -71,6 +71,44 @@ would shift every PDF cache key), and `_config.yml` pins
 system zone and a UTC container shifts dates and can move a midnight post
 to a different day's URL.
 
+## Building on a remote host
+
+Set `REMOTE_BUILD_HOST=<ssh host>` in `.env` (and, optionally,
+`REMOTE_BUILD_DIR`, default `~/build/martineve/blog`) and `./deploy.sh`
+splits the run in two, for connections too thin to rsync the site:
+
+1. **Here:** cover resize, CV refresh (the `../eprintsToCV` sibling is
+   local), commit and push. `.env` and the BIROn cookie are copied to the
+   host; sequoia's credential store is seeded only if the host has none.
+2. **On the host:** clone on first use, reset the checkout to the pushed
+   branch, then `./deploy.sh --local --no-resize --no-cv …` — the same
+   container image, built there on first use — for everything else:
+   Sequoia (its confirmation gate reaches your terminal through `ssh -t`),
+   feed fetches, build, KC Works, commit and push, rsync, webmentions, the
+   Rogue Scholar wait, BIROn.
+3. **Here again:** `git pull --ff-only` collects whatever the host
+   committed (deposit stamps, the webmention ledger).
+
+Your SSH agent is forwarded (`ssh -A`), so the host signs commits and
+reaches the deploy server with this machine's keys; the host needs a
+`Host reclaim` entry in its own `~/.ssh/config` that uses that key, and
+GitHub's host key in its `known_hosts`. `./deploy.sh --remote-check`
+tries every hop and reports. `--local` runs everything here regardless;
+`--build-only` always stays local. `./thought.sh` goes through the same
+hand-off (`--quick`), committing the thought first.
+
+### The build cache across machines
+
+The deploy server is the canonical PDF/OG cache: the PDFs it serves are
+byte-for-byte the `.pdf_cache` renders, the OG cards likewise, and the
+PDF content hashes are mirrored to `~/blog/.pdf_cache/` there after
+every ship. Each build pulls all three into `.pdf_cache`/`.og_cache`
+first (incremental, never deleting, never overwriting a newer local
+file), so a cache hit means "the live PDF already matches this page"
+whichever machine last built. `--no-cache-sync` skips both the pull and
+the hash push (say, to avoid a large pull right after a print-CSS change
+re-rendered every PDF elsewhere).
+
 ## Usage
 
 From the blog root (or anywhere inside it):

@@ -21,11 +21,28 @@ from __future__ import annotations
 
 import os
 import re
+import shlex
 import shutil
 import subprocess
 from pathlib import Path
 
 RSYNC_TARGET = "evegd@reclaim:/home/evegd/blog/_site/"
+# The deploy server doubles as the canonical build cache: the PDFs it
+# serves are byte-for-byte the .pdf_cache renders, the OG cards likewise,
+# and the PDF content hashes (which decide whether a page re-renders) are
+# kept beside them in a directory of their own. Any build machine pulls
+# all three before building, so an unchanged page never re-renders or
+# re-ships no matter which machine last built it.
+CACHE_SERVER = "evegd@reclaim:/home/evegd/blog"
+REMOTE_PDF_DIR = f"{CACHE_SERVER}/_site/PDF/"
+REMOTE_OG_DIR = f"{CACHE_SERVER}/_site/images/og/"
+REMOTE_HASH_DIR = f"{CACHE_SERVER}/.pdf_cache/"
+PDF_CACHE = ".pdf_cache"
+OG_CACHE = ".og_cache"
+# Where a remote build host keeps its checkout (REMOTE_BUILD_DIR overrides).
+DEFAULT_REMOTE_DIR = "~/build/martineve/blog"
+# What the short-thought quick path commits before handing off remotely.
+THOUGHT_PATHS = ("_data/thoughts.yml", "assets/thoughts")
 CV_SOURCE_DIR = Path("../eprintsToCV/output")
 MIN_NODE_MAJOR = 19
 PREVIEW_PORT = 8000
@@ -221,7 +238,8 @@ def kcworks_deposit_new(root: Path, run=default_run, echo=print,
     return [post for post in pending if post not in still]
 
 
-def quick_deploy(root: Path, run=default_run, echo=print) -> bool:
+def quick_deploy(root: Path, run=default_run, echo=print,
+                 cache_sync: bool = True, commit_ledger: bool = False) -> bool:
     """Build the site, rsync it, and mention what the new thought links to.
 
     The fast path for short thoughts: no cover resize, no identifier
@@ -230,16 +248,24 @@ def quick_deploy(root: Path, run=default_run, echo=print) -> bool:
     rsync ships only what changed. The one thing that follows the rsync
     is the thoughts-only webmention pass (receivers fetch the live
     source page, so it cannot come earlier); the ledger it writes is
-    left for the caller to commit alongside the thought itself.
+    left for the caller to commit alongside the thought itself — unless
+    ``commit_ledger`` asks for it to be committed and pushed here (the
+    remote build host's case: its checkout is reset on every run, so
+    anything left uncommitted there would be lost).
     """
     root = Path(root)
+    if cache_sync:
+        echo("==> Pulling the build cache from the server")
+        pull_build_cache(root, run=run, echo=echo)
     echo("==> Building site")
     jekyll_build(root, run=run)
     echo("==> Deploying to server")
-    rsync_site(root, run=run)
+    ship_site(root, run=run, echo=echo, cache_sync=cache_sync)
     echo("==> Sending the thought's webmentions")
     if not send_webmentions(root, run=run, echo=echo, only_thoughts=True):
         echo("    (skipped or failed; continuing)")
+    if commit_ledger and commit_sent_state(root, run=run):
+        echo("    sent-webmentions ledger committed")
     echo("==> Done.")
     return True
 
@@ -395,6 +421,65 @@ def rsync_site(root: Path, run=default_run) -> None:
     )
 
 
+def _cache_rsync(run, source, destination, extra=()) -> bool:
+    """One tolerant cache transfer; False on failure, never fatal."""
+    result = run(["rsync", "-az", "--update", *extra, source, destination],
+                 check=False)
+    return result.returncode == 0
+
+
+def pull_build_cache(root: Path, run=default_run, echo=print) -> bool:
+    """Converge the local PDF/OG caches on the server's copies.
+
+    Three pulls, none deleting anything local and none overwriting a
+    newer local file (a render from a local preview build survives):
+    the served PDFs and their content hashes into .pdf_cache, the served
+    OG cards into .og_cache. Returns False (after a warning) when any
+    pull fails — the build then just renders what it cannot find.
+    """
+    root = Path(root)
+    pdf_cache = root / PDF_CACHE
+    og_cache = root / OG_CACHE
+    pdf_cache.mkdir(exist_ok=True)
+    og_cache.mkdir(exist_ok=True)
+    ok = True
+    for source, destination in ((REMOTE_PDF_DIR, pdf_cache),
+                                (REMOTE_HASH_DIR, pdf_cache),
+                                (REMOTE_OG_DIR, og_cache)):
+        if not _cache_rsync(run, source, f"{destination}/"):
+            echo(f"WARNING: build cache pull from {source} failed; "
+                 "missing pages will render afresh.")
+            ok = False
+    return ok
+
+
+def push_cache_hashes(root: Path, run=default_run, echo=print) -> bool:
+    """Record this build's PDF content hashes on the server.
+
+    Only the .hash files travel (the PDFs themselves are already there,
+    shipped with the site). Tolerant: a failure just means the next
+    machine to build re-renders the pages this one changed.
+    """
+    root = Path(root)
+    pdf_cache = root / PDF_CACHE
+    if not pdf_cache.is_dir():
+        return False
+    ok = _cache_rsync(run, f"{pdf_cache}/", REMOTE_HASH_DIR,
+                      extra=("--include=*.hash", "--exclude=*"))
+    if not ok:
+        echo("WARNING: build cache hash push failed; the next build on "
+             "another machine may re-render recently changed pages.")
+    return ok
+
+
+def ship_site(root: Path, run=default_run, echo=print,
+              cache_sync: bool = True) -> None:
+    """rsync the site, then record its PDF hashes on the server."""
+    rsync_site(root, run=run)
+    if cache_sync:
+        push_cache_hashes(root, run=run, echo=echo)
+
+
 def build_site(
     root: Path,
     resize: bool = True,
@@ -475,6 +560,8 @@ def deploy(
     which=shutil.which,
     wait_roguescholar: bool = True,
     sequoia: bool = True,
+    cache_sync: bool = True,
+    cv: bool = True,
 ) -> bool:
     """Run the whole pipeline; returns True on deploy, False when aborted.
 
@@ -485,7 +572,11 @@ def deploy(
     need a second deploy into this one. ``sequoia`` controls the ATProto
     publish: when False the dry run, confirmation gate and publish are all
     skipped (and the tool need not be installed) — nothing is gated, since
-    the gate exists only to guard that irreversible publish.
+    the gate exists only to guard that irreversible publish. ``cache_sync``
+    pulls the server's PDF/OG caches before the first build and records
+    the new PDF hashes after each ship; ``cv`` controls the CV refresh
+    (off on a remote build host, where the sibling checkout is absent
+    and the CV files arrive committed from the local phase).
     """
     root = Path(root)
     if sequoia:
@@ -521,12 +612,13 @@ def deploy(
     else:
         echo("==> Skipping Sequoia/ATProto publish (--no-sequoia)")
 
-    echo("==> Refreshing CV")
-    if not refresh_cv(root):
-        echo(
-            f"WARNING: {CV_SOURCE_DIR}/martin_paul_eve.{{pdf,html}} not "
-            "found; keeping existing CV files."
-        )
+    if cv:
+        echo("==> Refreshing CV")
+        if not refresh_cv(root):
+            echo(
+                f"WARNING: {CV_SOURCE_DIR}/martin_paul_eve.{{pdf,html}} not "
+                "found; keeping existing CV files."
+            )
 
     echo("==> Fetching webmentions")
     if not fetch_webmentions(root, run=run, echo=echo):
@@ -547,6 +639,11 @@ def deploy(
     else:
         echo("    (none pending or not yet harvested)")
 
+    if cache_sync:
+        echo("==> Pulling the build cache from the server")
+        if pull_build_cache(root, run=run, echo=echo):
+            echo("    caches converged")
+
     echo("==> Building site")
     jekyll_build(root, run=run)
 
@@ -566,7 +663,7 @@ def deploy(
         echo("Nothing new to commit — working tree clean.")
 
     echo("==> Deploying to server")
-    rsync_site(root, run=run)
+    ship_site(root, run=run, echo=echo, cache_sync=cache_sync)
 
     # Only now can mentions go out: receivers verify the live source page.
     echo("==> Sending outbound webmentions")
@@ -604,7 +701,7 @@ def deploy(
                     root,
                     "chore(identifiers): stamp Rogue Scholar record links",
                     run=run)
-                rsync_site(root, run=run)
+                ship_site(root, run=run, echo=echo, cache_sync=cache_sync)
 
     # BIROn deposits go straight into the live archive with the final
     # built PDF from this run; new posts get their biron: link stamped
@@ -617,9 +714,174 @@ def deploy(
         jekyll_build(root, run=run)
         git_commit_push(
             root, "chore(biron): stamp BIROn record links", run=run)
-        rsync_site(root, run=run)
+        ship_site(root, run=run, echo=echo, cache_sync=cache_sync)
     elif commit_biron_ledger(root, run=run):
         echo("    BIROn ledger committed")
 
     echo("==> Done.")
     return True
+
+
+
+# --- remote build host -----------------------------------------------------
+
+def _git_out(run, args, cwd) -> str:
+    result = run(["git", *args], cwd=cwd, check=False, capture=True)
+    return (getattr(result, "stdout", "") or "").strip()
+
+
+def commit_thought(root: Path, run=default_run) -> bool:
+    """Commit and push a freshly stored short thought (and its images)."""
+    present = [p for p in THOUGHT_PATHS if (Path(root) / p).exists()]
+    if not present:
+        return False
+    _step(run, ["git", "add", *present], name="git add", cwd=root)
+    staged = run(["git", "diff", "--cached", "--quiet"], cwd=root, check=False)
+    if staged.returncode == 0:
+        return False
+    _step(run, ["git", "commit", "-m", "fix(thought): add thought"],
+          name="git commit", cwd=root)
+    _step(run, ["git", "push"], name="git push", cwd=root)
+    return True
+
+
+def _remote_prepare_script(remote_dir: str, origin: str, branch: str) -> str:
+    """Shell for the host: clone on first use, then track the pushed branch.
+
+    The checkout is a build slave — every run resets it hard to what was
+    just pushed, so nothing is ever edited there by hand.
+    """
+    return (
+        f"set -e; mkdir -p $(dirname {remote_dir}); "
+        f"if [ ! -d {remote_dir}/.git ]; then "
+        f"git clone {shlex.quote(origin)} {remote_dir}; fi; "
+        f"cd {remote_dir} && git fetch origin && "
+        f"git checkout -q {shlex.quote(branch)} 2>/dev/null || "
+        f"git checkout -q -b {shlex.quote(branch)} "
+        f"origin/{shlex.quote(branch)}; "
+        f"git reset --hard origin/{shlex.quote(branch)}"
+    )
+
+
+def _ssh(run, host, script, name, tty=False, agent=False, check=True):
+    cmd = ["ssh"]
+    if agent:
+        cmd.append("-A")
+    if tty:
+        cmd.append("-t")
+    cmd += [host, script]
+    if not check:
+        return run(cmd, check=False)
+    return _step(run, cmd, name=name)
+
+
+def _copy_to_host(run, host, source: Path, destination: str, name: str):
+    _step(run, ["scp", "-q", str(source), f"{host}:{destination}"],
+          name=name)
+
+
+def remote_deploy(root: Path, host: str, remote_dir: str, message, args,
+                  run=default_run, echo=print, resize: bool = True,
+                  quick: bool = False, home=None) -> bool:
+    """Prepare locally, push, then run the pipeline on the build host.
+
+    For a low-bandwidth operator: everything that needs local resources or
+    shrinks what has to travel happens here (cover resize, CV refresh, the
+    commit and push — or, on the quick path, just committing the thought);
+    everything heavy (Sequoia, feed fetches, the build, deposits, rsync,
+    webmentions, the Rogue Scholar wait, BIROn) runs on ``host`` in its
+    checkout at ``remote_dir``, via that checkout's own deploy.sh and so
+    inside the same container image. Secrets that git does not carry
+    (.env, the BIROn cookie) are copied across first; sequoia's
+    credential store is seeded only when the host has none, so refreshed
+    tokens there are never clobbered. The run streams to this terminal
+    (a TTY, for the ATProto gate) with the local SSH agent forwarded, so
+    the host signs commits and reaches the deploy server with this
+    machine's keys. Afterwards a fast-forward pull collects whatever the
+    host committed (deposit stamps, the webmention ledger).
+    """
+    root = Path(root)
+    home = Path(home) if home else Path.home()
+
+    if quick:
+        echo("==> Committing the thought")
+        if not commit_thought(root, run=run):
+            echo("    (nothing new to commit)")
+    else:
+        echo("==> Checking cover image sizes")
+        if not resize_covers(root, run=run, enabled=resize):
+            echo("    (skipped)")
+        echo("==> Refreshing CV")
+        if not refresh_cv(root):
+            echo(
+                f"WARNING: {CV_SOURCE_DIR}/martin_paul_eve.{{pdf,html}} not "
+                "found; keeping existing CV files."
+            )
+        echo("==> Committing and pushing")
+        if not git_commit_push(root, message, run=run):
+            echo("Nothing new to commit — working tree clean.")
+
+    branch = _git_out(run, ["rev-parse", "--abbrev-ref", "HEAD"], root) or "main"
+    origin = _git_out(run, ["remote", "get-url", "origin"], root)
+    echo(f"==> Preparing {host}:{remote_dir} ({branch})")
+    _ssh(run, host, _remote_prepare_script(remote_dir, origin, branch),
+         name="remote checkout", agent=True)
+
+    echo("==> Copying secrets to the build host")
+    for name in (".env", ".biron_cookie"):
+        if (root / name).is_file():
+            _copy_to_host(run, host, root / name, f"{remote_dir}/{name}",
+                          name=f"copy {name}")
+    sequoia = home / ".config" / "sequoia" / "credentials.json"
+    if sequoia.is_file():
+        probe = _ssh(run, host, "test -f ~/.config/sequoia/credentials.json",
+                     name="sequoia probe", check=False)
+        if probe.returncode != 0:
+            _ssh(run, host, "mkdir -p ~/.config/sequoia", name="sequoia dir")
+            _copy_to_host(run, host, sequoia, "~/.config/sequoia/credentials.json",
+                          name="copy sequoia credentials")
+
+    remote_args = ["--local", "--no-resize", "--no-cv", *args]
+    if message:
+        remote_args.append(message)
+    script = (f"cd {remote_dir} && ./deploy.sh "
+              + " ".join(shlex.quote(a) for a in remote_args))
+    echo(f"==> Running the pipeline on {host}")
+    try:
+        _ssh(run, host, script, name="remote build", tty=True, agent=True)
+    except DeployError as exc:
+        raise DeployError(f"remote build on {host} failed: {exc}") from exc
+
+    echo("==> Pulling what the build host committed")
+    _step(run, ["git", "pull", "--ff-only"], name="git pull", cwd=root)
+    echo("==> Done.")
+    return True
+
+
+def remote_check(root: Path, host: str, remote_dir: str, run=default_run,
+                 echo=print) -> bool:
+    """Try every hop a remote build needs and report each; True if all pass.
+
+    Nothing is changed anywhere. The GitHub check is ssh's `-T` handshake,
+    which exits 1 on success (GitHub offers no shell), so that one passes
+    on exit 0 or 1.
+    """
+    checks = [
+        ("ssh to the build host", "true", {0}),
+        ("docker on the build host", "command -v docker >/dev/null", {0}),
+        ("checkout present (cloned on first run if not)",
+         f"test -d {remote_dir}/.git", {0}),
+        ("build host -> deploy server (reclaim) via forwarded agent",
+         "ssh -o BatchMode=yes evegd@reclaim true", {0}),
+        ("build host -> github.com via forwarded agent",
+         "ssh -o BatchMode=yes -T git@github.com", {0, 1}),
+    ]
+    all_ok = True
+    for label, script, good in checks:
+        result = run(["ssh", "-A", host, script], check=False)
+        ok = result.returncode in good
+        all_ok = all_ok and ok
+        echo(f"{'OK  ' if ok else 'FAIL'} {label}")
+    echo("All checks passed." if all_ok else
+         "Some checks failed; fix those before a remote deploy.")
+    return all_ok

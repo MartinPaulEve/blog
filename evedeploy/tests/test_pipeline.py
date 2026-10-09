@@ -16,8 +16,12 @@ from evedeploy.pipeline import (
     jekyll_build,
     kcworks_deposit_new,
     posts_missing_marker,
+    pull_build_cache,
+    push_cache_hashes,
     quick_deploy,
     refresh_cv,
+    remote_check,
+    remote_deploy,
     resize_covers,
     rsync_site,
     send_webmentions,
@@ -976,3 +980,310 @@ class TestDeploy:
         run = FakeRun({"jekyll build": 1})
         with pytest.raises(DeployError, match="jekyll"):
             deploy(**self.deploy_kwargs(root, run))
+
+
+# --- build-cache convergence and the remote build host ---------------------
+
+class ScriptedRun:
+    """A subprocess.run stand-in scripted by substrings of the command.
+
+    ``outcomes`` maps a substring of the joined command to a returncode
+    (or a (returncode, stdout) pair); the first matching entry wins and
+    unmatched commands succeed.
+    """
+
+    def __init__(self, outcomes=None):
+        self.calls = []
+        self.outcomes = outcomes or {}
+
+    def __call__(self, cmd, cwd=None, check=True, capture=False):
+        joined = " ".join(cmd)
+        self.calls.append({"cmd": list(cmd), "cwd": cwd, "check": check})
+        outcome = 0
+        for needle, scripted in self.outcomes.items():
+            if needle in joined:
+                outcome = scripted
+                break
+        stdout = ""
+        if isinstance(outcome, tuple):
+            outcome, stdout = outcome
+        if check and outcome != 0:
+            raise subprocess.CalledProcessError(outcome, cmd)
+        result = subprocess.CompletedProcess(cmd, outcome)
+        result.stdout = stdout
+        return result
+
+    def joined(self):
+        return [" ".join(call["cmd"]) for call in self.calls]
+
+    def index_of(self, needle):
+        return next(i for i, c in enumerate(self.joined()) if needle in c)
+
+
+def rsync_calls(run):
+    return [c for c in run.calls if c["cmd"][0] == "rsync"]
+
+
+class TestPullBuildCache:
+    def test_pulls_pdfs_hashes_and_og_cards_into_the_local_caches(self, root):
+        run = ScriptedRun()
+        assert pull_build_cache(root, run=run) is True
+        destinations = [c["cmd"][-1] for c in rsync_calls(run)]
+        assert str(root / ".pdf_cache") + "/" in destinations
+        assert str(root / ".og_cache") + "/" in destinations
+        sources = [c["cmd"][-2] for c in rsync_calls(run)]
+        assert any(s.endswith("_site/PDF/") for s in sources)
+        assert any(s.endswith("_site/images/og/") for s in sources)
+        assert any(s.endswith(".pdf_cache/") for s in sources)
+
+    def test_never_deletes_local_cache_entries(self, root):
+        run = ScriptedRun()
+        pull_build_cache(root, run=run)
+        for call in rsync_calls(run):
+            assert not any(a.startswith("--delete") for a in call["cmd"])
+
+    def test_a_failed_pull_is_reported_not_fatal(self, root):
+        run = ScriptedRun({"_site/PDF/": 23})
+        echoed = []
+        assert pull_build_cache(root, run=run, echo=echoed.append) is False
+        assert any("cache" in line.lower() for line in echoed)
+
+    def test_creates_the_cache_directories_first(self, root):
+        pull_build_cache(root, run=ScriptedRun())
+        assert (root / ".pdf_cache").is_dir()
+        assert (root / ".og_cache").is_dir()
+
+
+class TestPushCacheHashes:
+    def test_ships_only_hash_files_to_the_server_cache_directory(self, root):
+        cache = root / ".pdf_cache"
+        cache.mkdir()
+        (cache / "a-post.pdf").write_bytes(b"%PDF")
+        (cache / "a-post.hash").write_text("abc")
+        run = ScriptedRun()
+        assert push_cache_hashes(root, run=run) is True
+        (call,) = rsync_calls(run)
+        assert call["cmd"][-2] == str(cache) + "/"
+        assert call["cmd"][-1].endswith("/.pdf_cache/")
+        assert "--include=*.hash" in call["cmd"]
+        assert "--exclude=*" in call["cmd"]
+
+    def test_a_failed_push_is_reported_not_fatal(self, root):
+        (root / ".pdf_cache").mkdir()
+        run = ScriptedRun({"rsync": 12})
+        echoed = []
+        assert push_cache_hashes(root, run=run, echo=echoed.append) is False
+        assert echoed
+
+    def test_nothing_to_push_without_a_cache(self, root):
+        run = ScriptedRun()
+        assert push_cache_hashes(root, run=run) is False
+        assert rsync_calls(run) == []
+
+
+class TestDeployCacheSync:
+    def test_pulls_the_cache_before_the_first_build(self, root):
+        run = ScriptedRun({"node -p": (0, "24\n"),
+                           "sequoia publish --dry-run": (0, "nothing to publish")})
+        deploy(root, "msg", run=run, echo=lambda *_: None,
+               which=lambda n: f"/bin/{n}", wait_roguescholar=False)
+        assert run.index_of("_site/PDF/") < run.index_of("jekyll build")
+
+    def test_pushes_the_hashes_after_shipping_the_site(self, root):
+        (root / ".pdf_cache").mkdir()
+        run = ScriptedRun({"node -p": (0, "24\n"),
+                           "sequoia publish --dry-run": (0, "nothing to publish")})
+        deploy(root, "msg", run=run, echo=lambda *_: None,
+               which=lambda n: f"/bin/{n}", wait_roguescholar=False)
+        ship = run.index_of("evegd@reclaim:/home/evegd/blog/_site/")
+        push = run.index_of("--include=*.hash")
+        assert ship < push
+
+    def test_cache_sync_can_be_switched_off(self, root):
+        (root / ".pdf_cache").mkdir()
+        run = ScriptedRun({"node -p": (0, "24\n"),
+                           "sequoia publish --dry-run": (0, "nothing to publish")})
+        deploy(root, "msg", run=run, echo=lambda *_: None,
+               which=lambda n: f"/bin/{n}", wait_roguescholar=False,
+               cache_sync=False)
+        assert not any("_site/PDF/" in c or "--include=*.hash" in c
+                       for c in run.joined())
+
+    def test_cv_refresh_can_be_skipped_silently(self, root):
+        run = ScriptedRun({"node -p": (0, "24\n"),
+                           "sequoia publish --dry-run": (0, "nothing to publish")})
+        echoed = []
+        deploy(root, "msg", run=run, echo=echoed.append,
+               which=lambda n: f"/bin/{n}", wait_roguescholar=False, cv=False)
+        assert not any("CV" in line for line in echoed)
+
+
+class TestQuickDeployCacheSync:
+    def test_pulls_before_building_and_pushes_hashes_after_the_rsync(self, root):
+        (root / ".pdf_cache").mkdir()
+        run = ScriptedRun()
+        quick_deploy(root, run=run, echo=lambda *_: None)
+        assert run.index_of("_site/PDF/") < run.index_of("jekyll build")
+        assert run.index_of("blog/_site/") < run.index_of("--include=*.hash")
+
+    def test_commits_and_pushes_the_ledger_when_asked(self, root):
+        run = ScriptedRun({"git diff --cached": 1})
+        quick_deploy(root, run=run, echo=lambda *_: None, commit_ledger=True)
+        assert any(c.startswith("git commit") for c in run.joined())
+        assert any(c.startswith("git push") for c in run.joined())
+
+    def test_leaves_the_ledger_uncommitted_by_default(self, root):
+        run = ScriptedRun({"git diff --cached": 1})
+        quick_deploy(root, run=run, echo=lambda *_: None)
+        assert not any(c.startswith("git commit") for c in run.joined())
+
+
+@pytest.fixture
+def remote_root(root, tmp_path):
+    (root / ".biron_cookie").write_text("session=1")
+    (root / "_data").mkdir()
+    (root / "_data" / "thoughts.yml").write_text("- id: t1\n")
+    home = tmp_path / "home"
+    (home / ".config" / "sequoia").mkdir(parents=True)
+    (home / ".config" / "sequoia" / "credentials.json").write_text("{}")
+    return root, home
+
+
+class TestRemoteDeploy:
+    HOST = "waldorf"
+    DIR = "~/build/martineve/blog"
+
+    def run_full(self, root, home, run, **kw):
+        return remote_deploy(root, host=self.HOST, remote_dir=self.DIR,
+                             message="Publish now", args=["--no-sequoia"],
+                             run=run, echo=lambda *_: None, home=home, **kw)
+
+    def test_pushes_then_builds_remotely_then_pulls(self, remote_root):
+        root, home = remote_root
+        run = ScriptedRun({"git diff --cached": 1})
+        assert self.run_full(root, home, run) is True
+        push = run.index_of("git push")
+        remote = run.index_of("./deploy.sh")
+        pull = run.index_of("git pull --ff-only")
+        assert push < remote < pull
+
+    def test_remote_run_targets_the_host_directory_with_a_tty_and_agent(
+            self, remote_root):
+        root, home = remote_root
+        run = ScriptedRun()
+        self.run_full(root, home, run)
+        cmd = run.calls[run.index_of("./deploy.sh")]["cmd"]
+        assert cmd[0] == "ssh"
+        assert "-t" in cmd and "-A" in cmd
+        assert self.HOST in cmd
+        script = cmd[-1]
+        assert self.DIR in script
+        assert "--local" in script
+        assert "--no-resize" in script and "--no-cv" in script
+        assert "--no-sequoia" in script
+        assert "'Publish now'" in script or '"Publish now"' in script
+
+    def test_remote_checkout_is_cloned_once_and_reset_to_the_pushed_branch(
+            self, remote_root):
+        root, home = remote_root
+        run = ScriptedRun({"git rev-parse --abbrev-ref HEAD": (0, "main\n"),
+                           "git remote get-url origin":
+                               (0, "git@github.com:me/blog.git\n")})
+        self.run_full(root, home, run)
+        prep = next(c for c in run.joined()
+                    if c.startswith("ssh") and "git clone" in c)
+        assert "git@github.com:me/blog.git" in prep
+        assert "reset --hard origin/main" in prep
+        assert run.index_of("git clone") < run.index_of("./deploy.sh")
+
+    def test_secrets_are_copied_to_the_host(self, remote_root):
+        root, home = remote_root
+        run = ScriptedRun()
+        self.run_full(root, home, run)
+        copies = [c for c in run.joined() if c.startswith("scp")]
+        assert any(str(root / ".env") in c and f"{self.HOST}:" in c
+                   for c in copies)
+        assert any(str(root / ".biron_cookie") in c for c in copies)
+
+    def test_sequoia_credentials_seed_the_host_only_when_it_has_none(
+            self, remote_root):
+        root, home = remote_root
+        run = ScriptedRun({"test -f": 1})
+        self.run_full(root, home, run)
+        assert any("credentials.json" in c for c in run.joined()
+                   if c.startswith("scp"))
+
+        run = ScriptedRun({"test -f": 0})
+        self.run_full(root, home, run)
+        assert not any("credentials.json" in c for c in run.joined()
+                       if c.startswith("scp"))
+
+    def test_runs_the_local_preparation_steps(self, remote_root):
+        root, home = remote_root
+        run = ScriptedRun()
+        self.run_full(root, home, run)
+        assert any("resize_covers.py" in c for c in run.joined())
+
+    def test_resize_can_be_skipped(self, remote_root):
+        root, home = remote_root
+        run = ScriptedRun()
+        self.run_full(root, home, run, resize=False)
+        assert not any("resize_covers.py" in c for c in run.joined())
+
+    def test_commits_with_the_given_message(self, remote_root):
+        root, home = remote_root
+        run = ScriptedRun({"git diff --cached": 1})
+        self.run_full(root, home, run)
+        assert any(c == "git commit -m Publish now" for c in run.joined())
+
+    def test_a_failed_remote_run_is_fatal_and_skips_the_pull(self, remote_root):
+        root, home = remote_root
+        run = ScriptedRun({"./deploy.sh": 1})
+        with pytest.raises(DeployError, match="remote"):
+            self.run_full(root, home, run)
+        assert not any("git pull" in c for c in run.joined())
+
+    def test_a_failed_push_stops_before_touching_the_host(self, remote_root):
+        root, home = remote_root
+        run = ScriptedRun({"git diff --cached": 1, "git push": 1})
+        with pytest.raises(DeployError):
+            self.run_full(root, home, run)
+        assert not any(c.startswith("ssh") for c in run.joined())
+
+    def test_quick_mode_commits_the_thought_and_runs_the_quick_path(
+            self, remote_root):
+        root, home = remote_root
+        run = ScriptedRun({"git diff --cached": 1})
+        assert remote_deploy(root, host=self.HOST, remote_dir=self.DIR,
+                             message=None, args=["--quick"], run=run,
+                             echo=lambda *_: None, home=home,
+                             quick=True) is True
+        adds = [c for c in run.joined() if c.startswith("git add")]
+        assert adds and all("_data/thoughts.yml" in c for c in adds)
+        assert not any("resize_covers.py" in c for c in run.joined())
+        script = run.calls[run.index_of("./deploy.sh")]["cmd"][-1]
+        assert "--quick" in script and "--local" in script
+        assert run.index_of("git push") < run.index_of("./deploy.sh")
+        assert run.index_of("./deploy.sh") < run.index_of("git pull --ff-only")
+
+
+class TestRemoteCheck:
+    def test_all_hops_good_is_true(self, root):
+        echoed = []
+        assert remote_check(root, host="waldorf", remote_dir="~/b",
+                            run=ScriptedRun(), echo=echoed.append) is True
+        assert echoed
+
+    def test_a_failing_hop_is_false_but_every_hop_is_still_tried(self, root):
+        run = ScriptedRun({"reclaim": 255})
+        echoed = []
+        assert remote_check(root, host="waldorf", remote_dir="~/b",
+                            run=run, echo=echoed.append) is False
+        assert any("reclaim" in line for line in echoed)
+        assert any("docker" in c for c in run.joined())
+        assert any("github.com" in c for c in run.joined())
+
+    def test_github_handshake_exit_one_counts_as_success(self, root):
+        run = ScriptedRun({"git@github.com": (1, "successfully authenticated")})
+        assert remote_check(root, host="waldorf", remote_dir="~/b",
+                            run=run, echo=lambda *_: None) is True
