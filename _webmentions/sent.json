@@ -17359,6 +17359,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-10/#t20261009002443": {
+   "content_hash": "a54af6d773f78490fce36cecfef5ccabe148ee55dd0a0fab8e0bbdb173b38412",
+   "sent": {
+    "https://www.theguardian.com/us-news/2026/oct/08/hegseth-fort-hood-shooter-public-execution": {
+     "at": "2026-10-09T06:14:42+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
