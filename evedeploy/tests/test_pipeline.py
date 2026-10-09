@@ -1266,6 +1266,17 @@ class TestRemoteDeploy:
         assert run.index_of("git push") < run.index_of("./deploy.sh")
         assert run.index_of("./deploy.sh") < run.index_of("git pull --ff-only")
 
+    def test_remote_checkout_uses_the_forwarded_agent_for_git(self, remote_root):
+        # Same trap as the check: the host's config steers non-TTY ssh to a
+        # local agent, and git's clone/fetch run without a TTY.
+        root, home = remote_root
+        run = ScriptedRun()
+        self.run_full(root, home, run)
+        prep = next(c for c in run.joined()
+                    if c.startswith("ssh") and "git clone" in c)
+        assert "GIT_SSH_COMMAND=" in prep
+        assert "IdentityAgent=$SSH_AUTH_SOCK" in prep
+
 
 class TestRemoteCheck:
     def test_all_hops_good_is_true(self, root):

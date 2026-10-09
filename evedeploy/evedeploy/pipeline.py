@@ -749,9 +749,13 @@ def _remote_prepare_script(remote_dir: str, origin: str, branch: str) -> str:
     """Shell for the host: clone on first use, then track the pushed branch.
 
     The checkout is a build slave — every run resets it hard to what was
-    just pushed, so nothing is ever edited there by hand.
+    just pushed, so nothing is ever edited there by hand. git's ssh is
+    pinned to the forwarded agent: this runs without a TTY, and the
+    host's own ssh config may steer such sessions to a desktop agent of
+    its own that cannot sign (see remote_check).
     """
     return (
+        'export GIT_SSH_COMMAND="ssh -o IdentityAgent=$SSH_AUTH_SOCK"; '
         f"set -e; mkdir -p $(dirname {remote_dir}); "
         f"if [ ! -d {remote_dir}/.git ]; then "
         f"git clone {shlex.quote(origin)} {remote_dir}; fi; "
