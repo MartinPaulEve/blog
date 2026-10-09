@@ -864,17 +864,21 @@ def remote_check(root: Path, host: str, remote_dir: str, run=default_run,
 
     Nothing is changed anywhere. The GitHub check is ssh's `-T` handshake,
     which exits 1 on success (GitHub offers no shell), so that one passes
-    on exit 0 or 1.
+    on exit 0 or 1. The two onward hops pin the forwarded agent
+    explicitly: the host's own ssh config may steer sessions without a
+    TTY (which these are) to a desktop agent of its own, which cannot
+    sign. The real run is unaffected — inside the container the forwarded
+    agent answers at the desktop agents' paths too — but the check must
+    exercise the agent the run will actually use.
     """
+    hop = "ssh -o BatchMode=yes -o IdentityAgent=$SSH_AUTH_SOCK"
     checks = [
         ("ssh to the build host", "true", {0}),
         ("docker on the build host", "command -v docker >/dev/null", {0}),
-        ("checkout present (cloned on first run if not)",
-         f"test -d {remote_dir}/.git", {0}),
         ("build host -> deploy server (reclaim) via forwarded agent",
-         "ssh -o BatchMode=yes evegd@reclaim true", {0}),
+         f"{hop} evegd@reclaim true", {0}),
         ("build host -> github.com via forwarded agent",
-         "ssh -o BatchMode=yes -T git@github.com", {0, 1}),
+         f"{hop} -T git@github.com", {0, 1}),
     ]
     all_ok = True
     for label, script, good in checks:
@@ -882,6 +886,11 @@ def remote_check(root: Path, host: str, remote_dir: str, run=default_run,
         ok = result.returncode in good
         all_ok = all_ok and ok
         echo(f"{'OK  ' if ok else 'FAIL'} {label}")
+    # Informational: the first real run clones the checkout itself.
+    present = run(["ssh", "-A", host, f"test -d {remote_dir}/.git"],
+                  check=False).returncode == 0
+    echo(f"{'OK  ' if present else 'note'} checkout {remote_dir} "
+         f"{'present' if present else 'not yet cloned (the first run clones it)'}")
     echo("All checks passed." if all_ok else
          "Some checks failed; fix those before a remote deploy.")
     return all_ok

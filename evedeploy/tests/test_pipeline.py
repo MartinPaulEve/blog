@@ -1287,3 +1287,22 @@ class TestRemoteCheck:
         run = ScriptedRun({"git@github.com": (1, "successfully authenticated")})
         assert remote_check(root, host="waldorf", remote_dir="~/b",
                             run=run, echo=lambda *_: None) is True
+
+    def test_hop_checks_use_the_forwarded_agent_not_the_hosts_default(self, root):
+        # The host's own ssh config may steer non-TTY sessions to a local
+        # desktop agent (waldorf's does: a 1Password socket), which then
+        # refuses to sign; the check must exercise the forwarded agent.
+        run = ScriptedRun()
+        remote_check(root, host="waldorf", remote_dir="~/b", run=run,
+                     echo=lambda *_: None)
+        hops = [c for c in run.joined() if "reclaim" in c or "github.com" in c]
+        assert hops
+        assert all("IdentityAgent=$SSH_AUTH_SOCK" in c for c in hops)
+
+    def test_a_missing_checkout_is_reported_but_is_not_a_failure(self, root):
+        # The first real run clones it; its absence must not block that run.
+        run = ScriptedRun({"test -d": 1})
+        echoed = []
+        assert remote_check(root, host="waldorf", remote_dir="~/b", run=run,
+                            echo=echoed.append) is True
+        assert any("clone" in line.lower() for line in echoed)

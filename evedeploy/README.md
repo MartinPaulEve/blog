@@ -90,12 +90,16 @@ splits the run in two, for connections too thin to rsync the site:
    committed (deposit stamps, the webmention ledger).
 
 Your SSH agent is forwarded (`ssh -A`), so the host signs commits and
-reaches the deploy server with this machine's keys; the host needs a
-`Host reclaim` entry in its own `~/.ssh/config` that uses that key, and
-GitHub's host key in its `known_hosts`. `./deploy.sh --remote-check`
-tries every hop and reports. `--local` runs everything here regardless;
-`--build-only` always stays local. `./thought.sh` goes through the same
-hand-off (`--quick`), committing the thought first.
+reaches the deploy server with this machine's keys; the host needs the
+deploy server's and GitHub's host keys in its `known_hosts`. Inside the
+host's container the forwarded agent is mounted at the desktop agents'
+paths as well, so an `IdentityAgent` line in the host's own
+`~/.ssh/config` (waldorf steers sessions without a TTY to a 1Password
+socket) still reaches it. `./deploy.sh --remote-check` tries every hop
+and reports, pinning the forwarded agent for the same reason. `--local`
+runs everything here regardless; `--build-only` always stays local.
+`./thought.sh` goes through the same hand-off (`--quick`), committing
+the thought first.
 
 ### The build cache across machines
 
