@@ -17,6 +17,7 @@
 #   ./thought.sh --no-post              # blog only, no syndication
 #   ./thought.sh --no-deploy            # do not build/rsync afterwards
 #   ./thought.sh probe                  # check both services' credentials
+#   ./thought.sh resyndicate ID         # post a stored thought to the service(s) it never reached
 #   ./thought.sh import-bluesky --dry-run  # preview a Bluesky back-import
 #   ./thought.sh import-bluesky            # back-import old Bluesky posts
 #   ./thought.sh import-twitter ARCHIVE    # back-import an X/Twitter archive (ZIP or folder)
@@ -30,6 +31,10 @@ case "${1:-}" in
     probe)
         shift
         exec uv run --env-file .env --project thought_composer thought-probe "$@"
+        ;;
+    resyndicate)
+        shift
+        exec uv run --env-file .env --project thought_composer thought-resyndicate "$@"
         ;;
     import-bluesky)
         shift

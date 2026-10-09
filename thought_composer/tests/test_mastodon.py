@@ -1,6 +1,7 @@
 import json
 
 import pytest
+import requests
 
 from thought_composer.mastodon import MastodonClient, MastodonError
 
@@ -30,6 +31,8 @@ class FakeSession:
         canned = self.responses.get((method, url))
         if isinstance(canned, list):
             canned = canned.pop(0)
+        if isinstance(canned, Exception):
+            raise canned
         return canned or FakeResponse(200, {})
 
     def get(self, url, **kwargs):
@@ -103,3 +106,42 @@ def test_error_response_raises():
     )
     with pytest.raises(MastodonError):
         make_client(session).post_thread(["hello"])
+
+
+# --- media upload resilience on a lossy link --------------------------------
+
+
+
+def test_upload_media_retries_after_a_connection_level_failure():
+    # A tethered link corrupting a TLS record surfaces as an SSLError (a
+    # ConnectionError); the upload should simply be tried again.
+    session = FakeSession(
+        {("POST", MEDIA_URL): [
+            requests.exceptions.SSLError("bad record mac"),
+            FakeResponse(200, {"id": "314"}),
+        ]}
+    )
+    assert make_client(session).upload_media(b"png", "image/png") == "314"
+    posts = [s for s in session.sent if s[0] == "POST"]
+    assert len(posts) == 2
+
+
+def test_upload_media_gives_up_after_a_bounded_number_of_attempts():
+    session = FakeSession(
+        {("POST", MEDIA_URL): [
+            requests.exceptions.ConnectionError("down")] * 10}
+    )
+    with pytest.raises(requests.exceptions.ConnectionError):
+        make_client(session).upload_media(b"png", "image/png")
+    posts = [s for s in session.sent if s[0] == "POST"]
+    assert 2 <= len(posts) <= 5
+
+
+def test_upload_media_does_not_retry_a_rejected_upload():
+    session = FakeSession(
+        {("POST", MEDIA_URL): [FakeResponse(422, {"error": "too big"})]}
+    )
+    with pytest.raises(MastodonError):
+        make_client(session).upload_media(b"png", "image/png")
+    posts = [s for s in session.sent if s[0] == "POST"]
+    assert len(posts) == 1
