@@ -17368,6 +17368,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-10/#t20261009214627": {
+   "content_hash": "4b6d8bb63a1b761b212aafec9e50f3c28c7c7b44f0aedee187cb8af0503ef1e9",
+   "sent": {
+    "https://sheets.works/data-viz/holding-up-the-internet": {
+     "at": "2026-10-09T20:47:25+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
