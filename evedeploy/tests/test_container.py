@@ -16,7 +16,10 @@ from evedeploy.container import (
     agent_sockets,
     detect_runtime,
     ensure_image,
+    env_value,
     git_config_files,
+    host_entry,
+    hosts_file_for,
     host_timezone,
     image_tag,
     native_command,
@@ -596,3 +599,129 @@ class TestMain:
         code = container.main(["--quick"], exec_=lambda *a: None)
         assert code != 0
         assert "runtime" in capsys.readouterr().err
+
+
+# --- the remote build host's name inside the container -------------------
+
+
+class TestEnvValue:
+    def test_reads_a_plain_assignment(self, tmp_path):
+        env = tmp_path / ".env"
+        env.write_text("FOO=1\nREMOTE_BUILD_HOST=waldorf\n")
+        assert env_value(env, "REMOTE_BUILD_HOST") == "waldorf"
+
+    def test_strips_quotes_and_whitespace(self, tmp_path):
+        env = tmp_path / ".env"
+        env.write_text('REMOTE_BUILD_HOST = "waldorf" \n')
+        assert env_value(env, "REMOTE_BUILD_HOST") == "waldorf"
+
+    def test_ignores_comments_and_commented_out_lines(self, tmp_path):
+        env = tmp_path / ".env"
+        env.write_text("# REMOTE_BUILD_HOST=old\nREMOTE_BUILD_HOST=waldorf # live\n")
+        assert env_value(env, "REMOTE_BUILD_HOST") == "waldorf"
+
+    def test_missing_key_or_file_gives_none(self, tmp_path):
+        env = tmp_path / ".env"
+        env.write_text("FOO=1\n")
+        assert env_value(env, "REMOTE_BUILD_HOST") is None
+        assert env_value(tmp_path / "absent", "REMOTE_BUILD_HOST") is None
+
+    def test_empty_value_gives_none(self, tmp_path):
+        env = tmp_path / ".env"
+        env.write_text("REMOTE_BUILD_HOST=\n")
+        assert env_value(env, "REMOTE_BUILD_HOST") is None
+
+
+class TestHostEntry:
+    RESOLVES = {"waldorf": "100.64.128.23",
+                "waldorf.example.net": "100.64.128.23"}
+
+    def resolve(self, name):
+        if name not in self.RESOLVES:
+            raise OSError("no such host")
+        return self.RESOLVES[name]
+
+    def test_resolves_the_name_ssh_will_actually_use(self):
+        # `Host waldorf` may map to another HostName; that is what the
+        # ssh inside the container looks up.
+        entry = host_entry("waldorf", ssh_hostname=lambda n: "waldorf.example.net",
+                           resolve=self.resolve, hosts_text="")
+        assert entry == "100.64.128.23 waldorf.example.net"
+
+    def test_plain_name_maps_to_itself(self):
+        entry = host_entry("waldorf", ssh_hostname=lambda n: n,
+                           resolve=self.resolve, hosts_text="")
+        assert entry == "100.64.128.23 waldorf"
+
+    def test_no_host_configured_gives_none(self):
+        assert host_entry(None, ssh_hostname=lambda n: n,
+                          resolve=self.resolve, hosts_text="") is None
+
+    def test_ip_literals_need_no_entry(self):
+        assert host_entry("100.64.128.23", ssh_hostname=lambda n: n,
+                          resolve=self.resolve, hosts_text="") is None
+        assert host_entry("waldorf", ssh_hostname=lambda n: "100.64.128.23",
+                          resolve=self.resolve, hosts_text="") is None
+
+    def test_names_already_in_etc_hosts_need_no_entry(self):
+        hosts = "127.0.0.1 localhost\n100.64.128.23 waldorf waldorf.lan\n"
+        assert host_entry("waldorf", ssh_hostname=lambda n: n,
+                          resolve=self.resolve, hosts_text=hosts) is None
+
+    def test_a_commented_hosts_line_does_not_count(self):
+        hosts = "#100.64.128.23 waldorf\n"
+        entry = host_entry("waldorf", ssh_hostname=lambda n: n,
+                           resolve=self.resolve, hosts_text=hosts)
+        assert entry == "100.64.128.23 waldorf"
+
+    def test_unresolvable_name_gives_none(self):
+        assert host_entry("nowhere", ssh_hostname=lambda n: n,
+                          resolve=self.resolve, hosts_text="") is None
+
+    def test_ssh_hostname_failure_falls_back_to_the_name(self):
+        def broken(name):
+            raise OSError("no ssh")
+        entry = host_entry("waldorf", ssh_hostname=broken,
+                           resolve=self.resolve, hosts_text="")
+        assert entry == "100.64.128.23 waldorf"
+
+
+class TestHostsFileFor:
+    def test_without_an_entry_the_system_hosts_file_is_used(self, tmp_path):
+        path = hosts_file_for(tmp_path / "home", entry=None,
+                              system_hosts=tmp_path / "hosts")
+        assert path == tmp_path / "hosts"
+
+    def test_with_an_entry_an_augmented_copy_is_written_under_home(
+            self, tmp_path):
+        system = tmp_path / "hosts"
+        system.write_text("127.0.0.1 localhost\n")
+        home = tmp_path / "home"
+        path = hosts_file_for(home, entry="100.64.128.23 waldorf",
+                              system_hosts=system)
+        assert path != system
+        assert str(path).startswith(str(home))
+        text = path.read_text()
+        assert "127.0.0.1 localhost" in text
+        assert text.rstrip().endswith("100.64.128.23 waldorf")
+
+    def test_the_copy_is_rewritten_each_time(self, tmp_path):
+        system = tmp_path / "hosts"
+        system.write_text("127.0.0.1 localhost\n")
+        home = tmp_path / "home"
+        hosts_file_for(home, entry="10.0.0.1 waldorf", system_hosts=system)
+        path = hosts_file_for(home, entry="10.0.0.2 waldorf", system_hosts=system)
+        assert "10.0.0.1" not in path.read_text()
+        assert "10.0.0.2 waldorf" in path.read_text()
+
+
+class TestRunCommandHosts:
+    def test_a_given_hosts_file_is_mounted_as_etc_hosts(self, base_kwargs):
+        mounts = mounts_of(run_command(**base_kwargs,
+                                       hosts="/home/someone/.cache/evedeploy/hosts"))
+        assert mounts["/home/someone/.cache/evedeploy/hosts"] == ("/etc/hosts", "ro")
+        assert "/etc/hosts" not in mounts
+
+    def test_default_is_the_system_hosts_file(self, base_kwargs):
+        mounts = mounts_of(run_command(**base_kwargs))
+        assert mounts["/etc/hosts"] == ("/etc/hosts", "ro")
