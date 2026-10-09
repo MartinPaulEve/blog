@@ -17377,6 +17377,16 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-10/#t20261009224745": {
+   "content_hash": "465d37d8a485fcea625589693cc0edf0f7331b560d1adae58736f5d3b2ac750c",
+   "sent": {
+    "https://kfitz.info/in-the-wake/": {
+     "at": "2026-10-09T21:48:42+00:00",
+     "endpoint": "https://webmention.io/kfitz.info/webmention",
+     "status": 201
+    }
+   }
   }
  }
 }

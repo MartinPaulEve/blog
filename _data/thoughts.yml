@@ -1,3 +1,11 @@
+- id: '20261009224745'
+  date: '2026-10-09T22:47:45.727606+01:00'
+  text: 'kfitz - In the Wake https://kfitz.info/in-the-wake/
+
+
+    Adapted: In the early hours of October 2, ET, we discovered clear evidence that we were experiencing a malicious intrusion. I initiated an immediate shutdown of the platform, a rotation of all of our access keys, and a revocation of our CILogon authorization keys.'
+  bluesky: https://bsky.app/profile/eve.gd/post/3mxhxaokfql2o
+  mastodon: https://hcommons.social/@mpe/117413149414171157
 - id: '20261009214627'
   date: '2026-10-09T21:46:27.312599+01:00'
   text: The people holding up the internet https://sheets.works/data-viz/holding-up-the-internet
