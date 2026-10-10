@@ -1178,8 +1178,7 @@ class TestRemoteDeploy:
         assert self.HOST in cmd
         script = cmd[-1]
         assert self.DIR in script
-        assert "--local" in script
-        assert "--no-resize" in script and "--no-cv" in script
+        assert "--remote-phase" in script
         assert "--no-sequoia" in script
         assert "'Publish now'" in script or '"Publish now"' in script
 
@@ -1262,7 +1261,7 @@ class TestRemoteDeploy:
         assert adds and all("_data/thoughts.yml" in c for c in adds)
         assert not any("resize_covers.py" in c for c in run.joined())
         script = run.calls[run.index_of("./deploy.sh")]["cmd"][-1]
-        assert "--quick" in script and "--local" in script
+        assert "--quick" in script and "--remote-phase" in script
         assert run.index_of("git push") < run.index_of("./deploy.sh")
         assert run.index_of("./deploy.sh") < run.index_of("git pull --ff-only")
 

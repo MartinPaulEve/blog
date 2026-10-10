@@ -22,8 +22,9 @@
 # checkout; default ~/build/martineve/blog), only the local preparation —
 # cover resize, CV refresh, commit and push — runs here; the host then
 # pulls the branch and runs the rest (Sequoia, feeds, build, deposits,
-# rsync, webmentions, BIROn) through its own copy of this script, so
-# inside the same container image, with this machine's SSH agent
+# rsync, webmentions, BIROn) through its own copy of this script
+# (--remote-phase, under a REMOTE BUILD SERVER banner), so inside the
+# same container image, with this machine's SSH agent
 # forwarded for signing and for reaching the deploy server. For when the
 # connection here is too thin to rsync the site. The deploy server also
 # holds the canonical PDF/OG build cache, pulled before every build, so

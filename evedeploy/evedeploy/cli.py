@@ -8,7 +8,7 @@ from pathlib import Path
 
 import click
 
-from evedeploy.banner import print_banner
+from evedeploy.banner import REMOTE_WORDS, print_banner
 from evedeploy.pipeline import (
     DEFAULT_REMOTE_DIR,
     PREVIEW_PORT,
@@ -83,6 +83,12 @@ def find_root(start: Path) -> Path:
     "(what the remote build host itself runs).",
 )
 @click.option(
+    "--remote-phase",
+    is_flag=True,
+    help="What the remote build host runs: --local, --no-resize and --no-cv "
+    "together, under the REMOTE BUILD SERVER wordmark.",
+)
+@click.option(
     "--remote-check",
     "check_remote",
     is_flag=True,
@@ -101,7 +107,8 @@ def find_root(start: Path) -> Path:
     help="Skip the CV refresh from ../eprintsToCV.",
 )
 def main(message, no_resize, yes, root, build_only, no_server, no_rs_wait,
-         no_sequoia, quick, local, check_remote, no_cache_sync, no_cv):
+         no_sequoia, quick, local, remote_phase, check_remote, no_cache_sync,
+         no_cv):
     """Build, publish and deploy the eve.gd blog.
 
     With REMOTE_BUILD_HOST set (in .env), everything but the local
@@ -109,7 +116,9 @@ def main(message, no_resize, yes, root, build_only, no_server, no_rs_wait,
     --local or --build-only is given. REMOTE_BUILD_DIR names the host's
     checkout (default: ~/build/martineve/blog).
     """
-    print_banner()
+    if remote_phase:
+        local, no_resize, no_cv = True, True, True
+    print_banner(words=REMOTE_WORDS if remote_phase else None)
 
     if root is None:
         try:

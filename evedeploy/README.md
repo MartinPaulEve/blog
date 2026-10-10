@@ -81,8 +81,10 @@ splits the run in two, for connections too thin to rsync the site:
    local), commit and push. `.env` and the BIROn cookie are copied to the
    host; sequoia's credential store is seeded only if the host has none.
 2. **On the host:** clone on first use, reset the checkout to the pushed
-   branch, then `./deploy.sh --local --no-resize --no-cv …` — the same
-   container image, built there on first use — for everything else:
+   branch, then `./deploy.sh --remote-phase …` (local run, no resize or
+   CV step, a REMOTE BUILD SERVER wordmark so the two halves of the
+   output tell apart) — the same container image, built there on first
+   use — for everything else:
    Sequoia (its confirmation gate reaches your terminal through `ssh -t`),
    feed fetches, build, KC Works, commit and push, rsync, webmentions, the
    Rogue Scholar wait, BIROn.

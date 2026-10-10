@@ -21,8 +21,20 @@ _GLYPHS = {
     ".": ["  ", "  ", "  ", "  ", "██"],
     "G": [" █████", "██    ", "██ ███", "██  ██", " ████ "],
     "D": ["█████ ", "██  ██", "██  ██", "██  ██", "█████ "],
+    "R": ["█████ ", "██  ██", "█████ ", "██  ██", "██  ██"],
+    "M": ["██  ██", "██████", "██████", "██  ██", "██  ██"],
+    "O": [" ████ ", "██  ██", "██  ██", "██  ██", " ████ "],
+    "T": ["██████", "  ██  ", "  ██  ", "  ██  ", "  ██  "],
+    "B": ["█████ ", "██  ██", "█████ ", "██  ██", "█████ "],
+    "U": ["██  ██", "██  ██", "██  ██", "██  ██", " ████ "],
+    "I": ["██████", "  ██  ", "  ██  ", "  ██  ", "██████"],
+    "L": ["██    ", "██    ", "██    ", "██    ", "██████"],
+    "S": [" █████", "██    ", " ████ ", "    ██", "█████ "],
 }
 _WORD = "EVE.GD"
+# The remote build host's wordmark: stacked, since one line of it would
+# overrun an 80-column terminal.
+REMOTE_WORDS = ("REMOTE", "BUILD", "SERVER")
 _ROWS = 5
 
 # Vertical gradient stops, cyan → aqua → green, one colour per wordmark row.
@@ -40,17 +52,21 @@ _TAGLINE = "build, publish and deploy the blog"
 _RESET = "\x1b[0m"
 
 
-def render_banner(color: bool = True) -> str:
+def render_banner(color: bool = True, words=None) -> str:
     """Return the multi-line block-pixel banner as a string.
 
     When ``color`` is true each wordmark row is wrapped in a 24-bit ANSI
     colour from the cyan→green gradient; when false the plain block art is
-    returned.
+    returned. ``words`` stacks several wordmarks (one blank line apart,
+    each painted with the full gradient); the default is the site's.
     """
     lines = []
-    for row in range(_ROWS):
-        cells = " ".join(_GLYPHS[ch][row] for ch in _WORD)
-        lines.append(_rgb(_GRADIENT[row], cells, color))
+    for index, word in enumerate(words or (_WORD,)):
+        if index:
+            lines.append("")
+        for row in range(_ROWS):
+            cells = " ".join(_GLYPHS[ch][row] for ch in word)
+            lines.append(_rgb(_GRADIENT[row], cells, color))
 
     tagline = _rgb(_TAGLINE_RGB, f"evedeploy · {_TAGLINE}", color)
     version = _rgb(_VERSION_RGB, f"v{__version__}", color)
@@ -58,7 +74,7 @@ def render_banner(color: bool = True) -> str:
     return "\n".join([*lines, "", footer]) + "\n"
 
 
-def print_banner(stream=None, color: bool | None = None) -> None:
+def print_banner(stream=None, color: bool | None = None, words=None) -> None:
     """Paint the banner to the given stream (stderr by default).
 
     The stderr default is resolved at call time, not definition time, so
@@ -68,7 +84,7 @@ def print_banner(stream=None, color: bool | None = None) -> None:
         stream = sys.stderr
     if color is None:
         color = _supports_color(stream)
-    stream.write(render_banner(color=color))
+    stream.write(render_banner(color=color, words=words))
     stream.flush()
 
 

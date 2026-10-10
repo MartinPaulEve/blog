@@ -794,8 +794,10 @@ def remote_deploy(root: Path, host: str, remote_dir: str, message, args,
     commit and push — or, on the quick path, just committing the thought);
     everything heavy (Sequoia, feed fetches, the build, deposits, rsync,
     webmentions, the Rogue Scholar wait, BIROn) runs on ``host`` in its
-    checkout at ``remote_dir``, via that checkout's own deploy.sh and so
-    inside the same container image. Secrets that git does not carry
+    checkout at ``remote_dir``, via that checkout's own deploy.sh (with
+    ``--remote-phase``: run here, skip the resize and CV steps done on
+    this side, wear the remote wordmark) and so inside the same container
+    image. Secrets that git does not carry
     (.env, the BIROn cookie) are copied across first; sequoia's
     credential store is seeded only when the host has none, so refreshed
     tokens there are never clobbered. The run streams to this terminal
@@ -845,7 +847,7 @@ def remote_deploy(root: Path, host: str, remote_dir: str, message, args,
             _copy_to_host(run, host, sequoia, "~/.config/sequoia/credentials.json",
                           name="copy sequoia credentials")
 
-    remote_args = ["--local", "--no-resize", "--no-cv", *args]
+    remote_args = ["--remote-phase", *args]
     if message:
         remote_args.append(message)
     script = (f"cd {remote_dir} && ./deploy.sh "

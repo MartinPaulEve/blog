@@ -322,3 +322,51 @@ class TestCacheAndCvFlags:
     def test_no_cv_flag(self, blog_root, deploy_spy):
         CliRunner().invoke(main, ["--root", str(blog_root), "--yes", "--no-cv"])
         assert deploy_spy["cv"] is False
+
+
+@pytest.fixture
+def banner_spy(monkeypatch):
+    seen = {}
+
+    def fake_banner(stream=None, color=None, words=None):
+        seen["words"] = words
+
+    monkeypatch.setattr(cli, "print_banner", fake_banner)
+    return seen
+
+
+class TestRemotePhase:
+    def test_remote_phase_runs_here_with_the_host_side_flags(
+            self, blog_root, deploy_spy, remote_spy, monkeypatch):
+        monkeypatch.setenv("REMOTE_BUILD_HOST", "waldorf")
+        result = CliRunner().invoke(
+            main, ["--root", str(blog_root), "--remote-phase", "--yes"])
+        assert result.exit_code == 0, result.output
+        assert deploy_spy["root"] == blog_root
+        assert deploy_spy["resize"] is False
+        assert deploy_spy["cv"] is False
+        assert "host" not in remote_spy
+
+    def test_remote_phase_shows_the_remote_build_server_wordmark(
+            self, blog_root, deploy_spy, banner_spy):
+        CliRunner().invoke(
+            main, ["--root", str(blog_root), "--remote-phase", "--yes"])
+        assert banner_spy["words"] == ("REMOTE", "BUILD", "SERVER")
+
+    def test_ordinary_runs_keep_the_eve_gd_wordmark(
+            self, blog_root, deploy_spy, banner_spy):
+        CliRunner().invoke(main, ["--root", str(blog_root), "--yes"])
+        assert banner_spy["words"] in (None, ("EVE.GD",))
+
+    def test_remote_phase_quick_commits_the_ledger(
+            self, blog_root, banner_spy, monkeypatch):
+        seen = {}
+
+        def fake_quick(root, echo=None, cache_sync=True, commit_ledger=False):
+            seen.update(commit_ledger=commit_ledger)
+            return True
+
+        monkeypatch.setattr(cli, "quick_deploy", fake_quick)
+        CliRunner().invoke(
+            main, ["--root", str(blog_root), "--remote-phase", "--quick"])
+        assert seen["commit_ledger"] is True
