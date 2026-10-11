@@ -37,3 +37,6 @@ _lastfm/fetch_error.json
 
 # thoughts DB backups (kept local only)
 .thoughts-backup-*.yml
+
+# Generated gemtext edition (pushed to smol.pub by _smolpub/sync_smolpub.py)
+_smolpub/out/
