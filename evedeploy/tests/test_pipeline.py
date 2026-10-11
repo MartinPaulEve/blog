@@ -1316,3 +1316,118 @@ class TestRemoteCheck:
         assert remote_check(root, host="waldorf", remote_dir="~/b", run=run,
                             echo=echoed.append) is True
         assert any("clone" in line.lower() for line in echoed)
+
+
+# --- smol.pub mirror ---------------------------------------------------------
+
+from evedeploy.pipeline import sync_smolpub  # noqa: E402
+
+
+def write_ledger(root, *slugs):
+    data = root / "_data"
+    data.mkdir(exist_ok=True)
+    (data / "smolpub.yml").write_text(
+        "".join(f"{s}:\n  slug: {s}\n  hash: h\n  synced: '2026-10-11'\n" for s in slugs))
+
+
+def ledger_writing(inner, root, *slugs):
+    """Wrap a run callable: write the ledger when the sync script runs."""
+    def run(cmd, cwd=None, check=True, capture=False):
+        result = inner(cmd, cwd=cwd, check=check, capture=capture)
+        if any("sync_smolpub" in part for part in cmd):
+            write_ledger(root, *slugs)
+        return result
+    run.inner = inner
+    return run
+
+
+class TestSyncSmolpub:
+    def test_runs_the_sync_script_with_the_env_file(self, root):
+        (root / "_smolpub").mkdir()
+        (root / "_smolpub" / "sync_smolpub.py").write_text("# sync")
+        run = FakeRun()
+        sync_smolpub(root, run=run, echo=lambda *a, **k: None)
+        cmd = run.calls[0]["cmd"]
+        assert cmd[:2] == ["uv", "run"]
+        assert "--env-file" in cmd and ".env" in cmd
+        assert cmd[-1] == "_smolpub/sync_smolpub.py"
+        assert run.calls[0]["cwd"] == root
+
+    def test_returns_the_slugs_new_to_the_ledger(self, root):
+        (root / "_smolpub").mkdir()
+        (root / "_smolpub" / "sync_smolpub.py").write_text("# sync")
+        write_ledger(root, "old")
+        run = ledger_writing(FakeRun(), root, "old", "fresh")
+        assert sync_smolpub(root, run=run, echo=lambda *a, **k: None) == ["fresh"]
+
+    def test_nothing_new_returns_an_empty_list(self, root):
+        (root / "_smolpub").mkdir()
+        (root / "_smolpub" / "sync_smolpub.py").write_text("# sync")
+        write_ledger(root, "old")
+        run = ledger_writing(FakeRun(), root, "old")
+        assert sync_smolpub(root, run=run, echo=lambda *a, **k: None) == []
+
+    def test_failure_is_reported_and_does_not_raise(self, root):
+        (root / "_smolpub").mkdir()
+        (root / "_smolpub" / "sync_smolpub.py").write_text("# sync")
+        run = FakeRun({"uv run": 1})
+        lines = []
+        assert sync_smolpub(root, run=run, echo=lines.append) == []
+        assert any("smol.pub" in line for line in lines)
+
+    def test_skipped_when_script_absent(self, root):
+        run = FakeRun()
+        assert sync_smolpub(root, run=run, echo=lambda *a, **k: None) == []
+        assert run.calls == []
+
+
+class TestDeploySmolpub:
+    def kwargs(self, root, run):
+        return {"root": root, "message": "msg", "confirm": lambda: True,
+                "run": run, "echo": lambda *a, **k: None,
+                "which": lambda n: f"/bin/{n}", "wait_roguescholar": False,
+                "cache_sync": False}
+
+    def with_script(self, root):
+        (root / "_smolpub").mkdir()
+        (root / "_smolpub" / "sync_smolpub.py").write_text("# sync")
+
+    def test_sync_runs_after_the_build_and_before_the_commit(self, root):
+        self.with_script(root)
+        run = ScriptedRun({"node -p": (0, "24\n"),
+                           "sequoia publish --dry-run": (0, "nothing to publish")})
+        deploy(**self.kwargs(root, run))
+        sync = run.index_of("_smolpub/sync_smolpub.py")
+        assert run.index_of("jekyll build") < sync < run.index_of("git add")
+
+    def test_first_time_posts_trigger_a_rebuild(self, root):
+        self.with_script(root)
+        inner = ScriptedRun({"node -p": (0, "24\n"),
+                             "sequoia publish --dry-run": (0, "nothing to publish")})
+        run = ledger_writing(inner, root, "fresh")
+        deploy(**self.kwargs(root, run))
+        builds = [i for i, c in enumerate(inner.calls)
+                  if c["cmd"][:2] == ["jekyll", "build"]]
+        sync = inner.index_of("_smolpub/sync_smolpub.py")
+        assert any(i > sync for i in builds)
+
+    def test_no_new_posts_means_no_extra_build(self, root):
+        self.with_script(root)
+        write_ledger(root, "old")
+        inner = ScriptedRun({"node -p": (0, "24\n"),
+                             "sequoia publish --dry-run": (0, "nothing to publish")})
+        run = ledger_writing(inner, root, "old")
+        deploy(**self.kwargs(root, run))
+        builds = [i for i, c in enumerate(inner.calls)
+                  if c["cmd"][:2] == ["jekyll", "build"]]
+        assert len(builds) == 1
+
+    def test_ledger_is_committed_with_the_deploy(self, root):
+        self.with_script(root)
+        inner = ScriptedRun({"node -p": (0, "24\n"),
+                             "sequoia publish --dry-run": (0, "nothing to publish")})
+        run = ledger_writing(inner, root, "fresh")
+        deploy(**self.kwargs(root, run))
+        adds = [c["cmd"] for c in inner.calls if c["cmd"][:2] == ["git", "add"]]
+        assert any("_data/smolpub.yml" in cmd or "-A" in cmd or "." in cmd
+                   for cmd in adds)

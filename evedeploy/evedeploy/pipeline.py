@@ -387,6 +387,34 @@ def send_webmentions(root: Path, run=default_run, echo=print, present=None,
         args=("--only-thoughts",) if only_thoughts else ())
 
 
+SMOLPUB_SYNC = "_smolpub/sync_smolpub.py"
+SMOLPUB_LEDGER = "_data/smolpub.yml"
+_LEDGER_KEY = re.compile(r"^(['\"]?)(\S.*?)\1:\s*$")
+
+
+def _ledger_slugs(root: Path) -> list:
+    """Top-level keys of the smol.pub ledger (the URL slugs already mirrored)."""
+    ledger = Path(root) / SMOLPUB_LEDGER
+    if not ledger.is_file():
+        return []
+    return [m.group(2) for m in map(_LEDGER_KEY.match, ledger.read_text().splitlines()) if m]
+
+
+def sync_smolpub(root: Path, run=default_run, echo=print, present=None) -> list:
+    """Mirror new/changed posts to smol.pub; returns the slugs mirrored for
+    the first time (their pages need a rebuild to render the gem.eve.gd
+    links). Tolerant: smol.pub being down never blocks a deploy, and a
+    partial run still reports what it managed, since the ledger is written
+    per post."""
+    root = Path(root)
+    before = set(_ledger_slugs(root))
+    _webmention_step(
+        root, SMOLPUB_SYNC,
+        "WARNING: smol.pub sync failed or incomplete; the next deploy retries.",
+        run=run, echo=echo, present=present)
+    return [slug for slug in _ledger_slugs(root) if slug not in before]
+
+
 def commit_sent_state(root: Path, run=default_run) -> bool:
     """Commit the sent-webmentions ledger if the send pass changed it."""
     _step(run, ["git", "add", "_webmentions/sent.json"], name="git add", cwd=root)
@@ -657,6 +685,17 @@ def deploy(
         jekyll_build(root, run=run)
     else:
         echo("    (no new posts)")
+
+    # The gemtext mirror reads the built pages, and a post's first trip to
+    # smol.pub adds it to the ledger the layout consults for the gem.eve.gd
+    # links, so those posts need one more build before the site ships.
+    echo("==> Mirroring posts to smol.pub")
+    mirrored = sync_smolpub(root, run=run, echo=echo)
+    if mirrored:
+        echo(f"==> Rebuilding with the smol.pub links ({len(mirrored)} new)")
+        jekyll_build(root, run=run)
+    else:
+        echo("    (nothing new)")
 
     echo("==> Committing and pushing")
     if not git_commit_push(root, message, run=run):
