@@ -17387,6 +17387,15 @@
      "status": 201
     }
    }
+  },
+  "/thoughts/2026-10/#t20261011134941": {
+   "content_hash": "d909fa6a1e46bb4f50ee970bfebe0bced54e6e018369fb14753f9e2dd7e78eb0",
+   "sent": {
+    "https://www.thebritishacademy.ac.uk/publications/debating-open-access/": {
+     "at": "2026-10-11T12:51:17+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
