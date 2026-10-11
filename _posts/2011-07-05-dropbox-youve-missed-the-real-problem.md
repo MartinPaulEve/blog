@@ -107,6 +107,7 @@ wordpress_url: https://www.martineve.com/?p=1277
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk74ovg2p"
 kcworks: https://works.hcommons.org/records/0635j-46150
 biron: https://eprints.bbk.ac.uk/id/eprint/17202/
+smolpub: dropbox-youve-missed-the-real-problem
 references:
 - date: 2008-04
   title: Royalty-free, perpetual, irrevocable, non-exclusive, transferable licenses

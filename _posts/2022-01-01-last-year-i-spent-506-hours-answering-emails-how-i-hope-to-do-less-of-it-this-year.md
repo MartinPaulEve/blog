@@ -21,6 +21,7 @@ categories:
 - Personal
 kcworks: https://works.hcommons.org/records/ky5c0-sfn67
 biron: https://eprints.bbk.ac.uk/id/eprint/47164/
+smolpub: last-year-i-spent-506-hours-answering-emails-how-i-hope-to-do-less-of-it-this-year
 references:
 - title: Sentenc.es - A Disciplined Way To Deal With Email
   type: WebPage

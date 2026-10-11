@@ -17,6 +17,7 @@ categories:
 - Conferences
 kcworks: https://works.hcommons.org/records/ksf8h-1yr74
 biron: https://eprints.bbk.ac.uk/id/eprint/27635/
+smolpub: text-of-digital-library-futures-keynote-cambridge-21st-may-2019
 references:
 - author: Martin Paul Eve
   date: '2019-05-21'

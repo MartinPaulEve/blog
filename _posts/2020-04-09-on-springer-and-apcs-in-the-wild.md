@@ -15,6 +15,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/erysv-jsc34
 biron: https://eprints.bbk.ac.uk/id/eprint/31624/
+smolpub: on-springer-and-apcs-in-the-wild
 references:
 - title: A better understanding of APC funding sources could accelerate the transition to open access
   type: Report

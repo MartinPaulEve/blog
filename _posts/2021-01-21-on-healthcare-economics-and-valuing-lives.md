@@ -16,6 +16,7 @@ categories:
 - Health
 kcworks: https://works.hcommons.org/records/ftxre-xrh97
 biron: https://eprints.bbk.ac.uk/id/eprint/42673/
+smolpub: on-healthcare-economics-and-valuing-lives
 references:
 - author: Clea Skopeliti
   date: '2021-01-17'

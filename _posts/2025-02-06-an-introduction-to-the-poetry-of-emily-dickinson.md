@@ -14,6 +14,7 @@ categories:
 - Literature
 kcworks: https://works.hcommons.org/records/st1e8-ddh77
 biron: https://eprints.bbk.ac.uk/id/eprint/54957/
+smolpub: an-introduction-to-the-poetry-of-emily-dickinson
 ---
 
 This text is derived from a lecture I gave to first-year undergraduates about a decade ago. It was languishing on my computer and I thought it better to put it out there for general educational benefit, in case it helps anyone starting out with her poetry. I am, of course, by no means a Dickinson specialist, but this may prove a mode condensed introduction than, say, the excellent _Cambridge Companion to Emily Dickinson_, which was a guide to everything that is here. I also note that the formatting of the poems may be "off" here. I would recommend finding the originals for study alongside this.

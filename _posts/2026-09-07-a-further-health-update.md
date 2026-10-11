@@ -17,6 +17,7 @@ references:
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3muxlwhoiku2e"
 kcworks: https://works.hcommons.org/records/xef6m-cfy70
 biron: https://eprints.bbk.ac.uk/id/eprint/57894/
+smolpub: a-further-health-update
 roguescholar: https://rogue-scholar.org/records/zy623-wxs36
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3muxlwhoiku2e
 ---

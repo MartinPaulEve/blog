@@ -33,6 +33,7 @@ wordpress_url: http://pro.grammatic.org/post-stringfromcharcode-encoder-21.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mno7ewq2f"
 kcworks: https://works.hcommons.org/records/zve2f-qx071
 biron: https://eprints.bbk.ac.uk/id/eprint/57897/
+smolpub: string-fromcharcode-encoder
 ---
 
 <p>Enter JavaScript in the box below and press "encode":<br/></p>

@@ -16,6 +16,7 @@ categories:
 - Higher Education
 kcworks: https://works.hcommons.org/records/7vyj1-gzy56
 biron: https://eprints.bbk.ac.uk/id/eprint/21974/
+smolpub: the-oa-mandate
 references:
 - http://www.hefce.ac.uk/media/HEFCE,2014/Content/Pubs/2016/201636/HEFCE2016_36.pdf # HEFCE 2016 announcement on OA monograph mandate REF
 - http://doi.org/10.1629/uksg.392 # Eve et al. cost study on humanities OA monographs UKSG

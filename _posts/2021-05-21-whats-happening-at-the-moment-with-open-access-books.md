@@ -15,6 +15,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/7rd8m-sdx81
 biron: https://eprints.bbk.ac.uk/id/eprint/44391/
+smolpub: whats-happening-at-the-moment-with-open-access-books
 references:
 - https://doi.org/10.1629/uksg.392 # Eve article on OA book BPC distributional economics
 ---

@@ -14,6 +14,7 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/jxwqj-qfz78
 biron: https://eprints.bbk.ac.uk/id/eprint/51730/
+smolpub: converting-excel-date-serial-numbers-to-python-datetime-format
 ---
 
 Excel stores dates in a very odd way: a serial number of days since 1900.

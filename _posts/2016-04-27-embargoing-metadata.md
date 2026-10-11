@@ -13,6 +13,7 @@ categories:
 - Scholarly Communications
 kcworks: https://works.hcommons.org/records/stqef-jy427
 biron: https://eprints.bbk.ac.uk/id/eprint/16974/
+smolpub: embargoing-metadata
 references:
 - http://www.hefce.ac.uk/rsrch/oa/FAQ/#discovery5 # HEFCE open access FAQ metadata embargo provision
 ---

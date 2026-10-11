@@ -12,6 +12,7 @@ categories:
 - Personal
 kcworks: https://works.hcommons.org/records/sdmrp-7gj19
 biron: https://eprints.bbk.ac.uk/id/eprint/57904/
+smolpub: my-autoimmune-diseases-are-attacking-my-ears-and-i-am-losing-my-hearing
 ---
 
 This is partly a therapeutic post to get this off my chest and partly a post to which I can point friends and colleagues to avoid re-explaining everything every time.

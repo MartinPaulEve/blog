@@ -87,6 +87,7 @@ wordpress_url: https://www.martineve.com/?p=1459
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjwzk732n"
 kcworks: https://works.hcommons.org/records/5k6w6-zxg84
 biron: https://eprints.bbk.ac.uk/id/eprint/17013/
+smolpub: is-it-worth-presenting-at-postgraduate-conferences
 references:
 - author: Jonathan Greene
   title: Jonathan Greene

@@ -15,6 +15,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/7dx3e-vwn68
 biron: https://eprints.bbk.ac.uk/id/eprint/17250/
+smolpub: a-few-initial-notes-on-david-golumbias-marxism-and-open-access-in-the-humanities
 references:
 - author: David Golumbia
   date: '2016-09-16'

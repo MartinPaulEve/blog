@@ -14,6 +14,7 @@ categories:
 - Thomas Pynchon
 kcworks: https://works.hcommons.org/records/167hq-prv95
 biron: https://eprints.bbk.ac.uk/id/eprint/30724/
+smolpub: a-hypothesis-kernel-function-density-estimation-and-graphing-may-predict-literary-critical-attention
 references:
 - title: 'GitHub - davidmcclure/textplot: (Mental) maps of texts with kernel density estimation and force-directed networks.'
   type: SoftwareSourceCode

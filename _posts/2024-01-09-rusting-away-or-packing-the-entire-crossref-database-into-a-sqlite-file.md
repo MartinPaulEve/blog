@@ -16,6 +16,7 @@ categories:
 - Scholarly Communications
 kcworks: https://works.hcommons.org/records/m0841-h8s04
 biron: https://eprints.bbk.ac.uk/id/eprint/52895/
+smolpub: rusting-away-or-packing-the-entire-crossref-database-into-a-sqlite-file
 references:
 - title: rustsqlitepacker
   type: SoftwareSourceCode

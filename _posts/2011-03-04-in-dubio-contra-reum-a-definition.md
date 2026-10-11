@@ -72,6 +72,7 @@ wordpress_url: https://www.martineve.com/?p=810
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkkb26h2i"
 kcworks: https://works.hcommons.org/records/729gv-7kx56
 biron: https://eprints.bbk.ac.uk/id/eprint/17004/
+smolpub: in-dubio-contra-reum-a-definition
 ---
 
 <p><i>Featured image by <a href="http://www.flickr.com/photos/peroshenka/">Пероша</a> under a CC-BY-NC license.</i></p>

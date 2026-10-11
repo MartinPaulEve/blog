@@ -14,6 +14,7 @@ categories:
 - Health
 kcworks: https://works.hcommons.org/records/n02xy-4a487
 biron: https://eprints.bbk.ac.uk/id/eprint/49020/
+smolpub: its-tricky
 ---
 
 The title of this post refers not to the classic 1987 single by Run-DMC but, instead, to the trickiness of rheumatoid arthritis and vasculitis as multisystem inflammatory disorders with a range of diverse outcomes.

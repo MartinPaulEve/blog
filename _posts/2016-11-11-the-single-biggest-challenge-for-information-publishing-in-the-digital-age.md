@@ -14,6 +14,7 @@ categories:
 - Scholarly Communications
 kcworks: https://works.hcommons.org/records/bnnmk-vf247
 biron: https://eprints.bbk.ac.uk/id/eprint/17067/
+smolpub: the-single-biggest-challenge-for-information-publishing-in-the-digital-age
 ---
 
 A fragment of thought:

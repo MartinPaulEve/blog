@@ -17,6 +17,7 @@ categories:
 - Scholarly Communications
 kcworks: https://works.hcommons.org/records/jnvfs-6ea31
 biron: https://eprints.bbk.ac.uk/id/eprint/54734/
+smolpub: evaluating-document-similarity-detection-approaches
 references:
 - title: Louche Cannon
   type: WebSite

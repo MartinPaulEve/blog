@@ -20,6 +20,7 @@ title: Tied to the mast? A response to RMS's principles for loyal computers
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdjgljj2u"
 kcworks: https://works.hcommons.org/records/s0bsy-nsh89
 biron: https://eprints.bbk.ac.uk/id/eprint/17193/
+smolpub: tied-to-the-mast-a-response-to-rmss-principles-for-loyal-computers
 references:
 - author: Richard M. Stallman
   title: What Does It Mean for Your Computer to Be Loyal?

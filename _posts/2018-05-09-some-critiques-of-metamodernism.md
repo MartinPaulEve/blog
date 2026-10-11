@@ -12,6 +12,7 @@ categories:
 - Literature
 kcworks: https://works.hcommons.org/records/79aks-wcn90
 biron: https://eprints.bbk.ac.uk/id/eprint/22353/
+smolpub: some-critiques-of-metamodernism
 references:
 - author: Martin Paul Eve
   date: 2012-10

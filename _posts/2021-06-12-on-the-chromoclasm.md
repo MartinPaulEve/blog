@@ -16,6 +16,7 @@ categories:
 - Literature
 kcworks: https://works.hcommons.org/records/espj9-9rv65
 biron: https://eprints.bbk.ac.uk/id/eprint/44710/
+smolpub: on-the-chromoclasm
 references:
 - title: Black
   type: Book

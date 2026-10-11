@@ -13,6 +13,7 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/wx467-5s570
 biron: https://eprints.bbk.ac.uk/id/eprint/20638/
+smolpub: my-2017-academic-year-in-review
 references:
 - title: Person
   type: WebPage

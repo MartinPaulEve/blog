@@ -16,6 +16,7 @@ categories:
 - Scholarly Communications
 kcworks: https://works.hcommons.org/records/espb4-tk929
 biron: https://eprints.bbk.ac.uk/id/eprint/31338/
+smolpub: i4oc-open-citations-implementation-in-janeway
 references:
 - title: A web-based platform for publishing journals, preprints, conference proceedings, and books
   type: SoftwareSourceCode

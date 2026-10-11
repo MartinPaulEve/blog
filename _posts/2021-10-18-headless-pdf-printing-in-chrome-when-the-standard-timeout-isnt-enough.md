@@ -15,6 +15,7 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/pp6nj-k4n19
 biron: https://eprints.bbk.ac.uk/id/eprint/46776/
+smolpub: headless-pdf-printing-in-chrome-when-the-standard-timeout-isnt-enough
 references:
 - https://www.npmjs.com/package/html-pdf-chrome # html-pdf-chrome npm package
 - title: GitHub - MartinPaulEve/cv

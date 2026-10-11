@@ -24,6 +24,7 @@ wordpress_url: https://www.martineve.com/?p=2654
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgu7ei32h"
 kcworks: https://works.hcommons.org/records/tx3h7-7kx77
 biron: https://eprints.bbk.ac.uk/id/eprint/17456/
+smolpub: exposing-xml-data-for-orbit
 references:
 - https://www.pynchon.net/owap/issue/view/1 # Orbit journal Issue 1
 - title: Journal Publishing Tag Set Tag Library version 3.0

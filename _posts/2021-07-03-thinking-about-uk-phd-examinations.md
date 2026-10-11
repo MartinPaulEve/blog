@@ -15,6 +15,7 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/vvmh1-j8223
 biron: https://eprints.bbk.ac.uk/id/eprint/44977/
+smolpub: thinking-about-uk-phd-examinations
 references:
 - author: Martin Paul Eve
   date: '2018-08-29'

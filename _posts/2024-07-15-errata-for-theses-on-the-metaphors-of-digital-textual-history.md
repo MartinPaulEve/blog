@@ -14,6 +14,7 @@ categories:
 - Publications
 kcworks: https://works.hcommons.org/records/xc6gc-60455
 biron: https://eprints.bbk.ac.uk/id/eprint/53829/
+smolpub: errata-for-theses-on-the-metaphors-of-digital-textual-history
 ---
 
 It's always frustrating to find errors in a work that has already gone to press/been through peer review, but unfortunately my friend Pete Christian has unearthed a few minor mistakes that I want to put out here. Thanks to Pete, who also says that none of this detail affects the overall argument of the text.

@@ -24,6 +24,7 @@ wordpress_url: http://pro.grammatic.org/post-bypass-aspnet-xss-protection-in-int
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnu3nll2n"
 kcworks: https://works.hcommons.org/records/d80dx-kh043
 biron: https://eprints.bbk.ac.uk/id/eprint/16785/
+smolpub: bypass-asp-net-xss-protection-in-internet-explorer
 references:
 - http://www.site.com/JS.js # Example malicious script payload URL
 ---

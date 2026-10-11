@@ -24,6 +24,7 @@ wordpress_url: https://www.martineve.com/?p=2996
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mf2mskc2q"
 kcworks: https://works.hcommons.org/records/f1q12-35b14
 biron: https://eprints.bbk.ac.uk/id/eprint/16927/
+smolpub: ann-wordsworth-critical-theory-faculty-contingency-and-the-university-in-ruins
 references:
 - date: '2013-09-22'
   title: Ann Wordsworth obituary

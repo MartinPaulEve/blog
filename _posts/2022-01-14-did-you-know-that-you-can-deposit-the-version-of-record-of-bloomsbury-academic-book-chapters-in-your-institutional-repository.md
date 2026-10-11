@@ -17,6 +17,7 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/mradx-m1s49
 biron: https://eprints.bbk.ac.uk/id/eprint/47268/
+smolpub: did-you-know-that-you-can-deposit-the-version-of-record-of-bloomsbury-academic-book-chapters-in-your-institutional-repository
 references:
 - author: Martin Paul Eve
   date: '2019-04-03'

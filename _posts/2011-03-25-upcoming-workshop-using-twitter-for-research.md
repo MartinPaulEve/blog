@@ -27,6 +27,7 @@ wordpress_url: https://www.martineve.com/?p=911
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkij47h2r"
 kcworks: https://works.hcommons.org/records/acbc4-x7726
 biron: https://eprints.bbk.ac.uk/id/eprint/17105/
+smolpub: upcoming-workshop-using-twitter-for-research
 references:
 - title: Scheduled RDP workshops and events
   type: WebPage

@@ -15,6 +15,7 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/ebwdr-0vp80
 biron: https://eprints.bbk.ac.uk/id/eprint/51188/
+smolpub: on-application-observability-in-serverless-cloud-contexts
 references:
 - title: Instrument your FastAPI with Prometheus metrics.
   type: SoftwareSourceCode

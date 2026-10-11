@@ -20,6 +20,7 @@ title: 'CaSSius: a PDF typesetter using CSS regions (via polyfill)'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcfgfg22a"
 kcworks: https://works.hcommons.org/records/bp2dw-ry662
 biron: https://eprints.bbk.ac.uk/id/eprint/17395/
+smolpub: cassius-a-pdf-typesetter-using-css-regions-via-polyfill
 references:
 - title: 'CaSSius: a CSS-regions-based PDF typesetter for scholarly communications'
   type: SoftwareSourceCode

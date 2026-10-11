@@ -18,6 +18,7 @@ title: 'Ph.D. criterion: to ''merit publication'''
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbugdbt2p"
 kcworks: https://works.hcommons.org/records/54afq-yd126
 biron: https://eprints.bbk.ac.uk/id/eprint/17206/
+smolpub: phd-criterion-to-merit-publication
 references:
 - title: 'PolEcon of OA Publishing: What are the assets of a journal?'
   type: BlogPosting

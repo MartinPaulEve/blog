@@ -76,6 +76,7 @@ categories:
 - Scholarly Communications
 kcworks: https://works.hcommons.org/records/4dh37-nkf15
 biron: https://eprints.bbk.ac.uk/id/eprint/57924/
+smolpub: fair-and-square-making-a-static-site-support-fair-signposting
 ---
 
 After my [previous post about Zotero ingest](/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/), I wondered what else I might be able to do to make this scholarly (and personal) blog more accessible, navigable, harvestable, and ingestable. One thing that occurred to me, that I had not implemented, is that I might make this blog `FAIR`. That is: [Findable, Accessible, Interoperable, and Reusable](https://www.go-fair.org/fair-principles/).

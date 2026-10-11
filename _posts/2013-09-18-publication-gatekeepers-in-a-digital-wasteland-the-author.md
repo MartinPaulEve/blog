@@ -25,6 +25,7 @@ wordpress_url: https://www.martineve.com/?p=2895
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgawde52p"
 kcworks: https://works.hcommons.org/records/61wvd-ssn82
 biron: https://eprints.bbk.ac.uk/id/eprint/17501/
+smolpub: publication-gatekeepers-in-a-digital-wasteland-the-author
 references:
 - http://eprints.lincoln.ac.uk/11595/ # Gatekeepers in a digital wasteland Lincoln eprints
 ---

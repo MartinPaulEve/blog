@@ -22,6 +22,7 @@ wordpress_url: http://pro.grammatic.org/post-fixing-scp-completion-in-ubuntu-910
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mme35ml2n"
 kcworks: https://works.hcommons.org/records/31h61-hnx42
 biron: https://eprints.bbk.ac.uk/id/eprint/16836/
+smolpub: fixing-scp-completion-in-ubuntu-9-10
 references:
 - title: 'Bug #449349 "regression for completing remote files/dirs over ssh..."'
   type: WebPage

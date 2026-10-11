@@ -16,6 +16,7 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/211tv-2sq14
 biron: https://eprints.bbk.ac.uk/id/eprint/19213/
+smolpub: on-ecrs-and-non-portability-of-outputs
 references:
 - http://blog.hefce.ac.uk/2017/07/20/the-portability-or-non-portability-of-research/ # HEFCE blog: Sweeney on REF2021 output non-portability
 ---

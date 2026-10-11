@@ -26,6 +26,7 @@ wordpress_url: https://www.martineve.com/?p=1910
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mirsbrh2i"
 kcworks: https://works.hcommons.org/records/11amv-1bj15
 biron: https://eprints.bbk.ac.uk/id/eprint/17353/
+smolpub: conference-paper-thomas-pynchon-david-foster-wallace-and-twenty-first-century-utopianism-16-18-july-2012-university-of-lincoln
 references:
 - http://www.lincoln.ac.uk/home/campuslife/whatson/eventsconferences/event%20name,8029,en.html # What Happens Now conference at Lincoln
 - author: Steve Rhodes

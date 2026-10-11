@@ -15,6 +15,7 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/b56f2-1cr06
 biron: https://eprints.bbk.ac.uk/id/eprint/53172/
+smolpub: preservation-as-a-memento-mori-and-matter-of-ethics
 ---
 
 When training PhD students and other postgraduates, we often have a section on publication. It covers the basic background process, the rudiments of peer review, and what to expect. There is often, also, a lengthy discussion of ensuring that you publish in the place that will do most for your career. What is the _prestige_ status of the journal, for instance? While open access is often now part of these conversations, not least because of the UK’s REF, it is sometimes framed as a _threat_ to this individual advancement.

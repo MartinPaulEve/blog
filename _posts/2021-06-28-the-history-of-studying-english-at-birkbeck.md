@@ -17,6 +17,7 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/gp5x3-0sp17
 biron: https://eprints.bbk.ac.uk/id/eprint/44939/
+smolpub: the-history-of-studying-english-at-birkbeck
 references:
 - title: History of the English department
   type: WebPage

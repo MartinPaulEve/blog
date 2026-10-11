@@ -15,6 +15,7 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/fy8ep-y2733
 biron: https://eprints.bbk.ac.uk/id/eprint/48846/
+smolpub: running-django-apps-on-amazon-ecsecr-using-fargate
 references:
 - title: GitHub - MartinPaulEve/django-fargate
   type: SoftwareSourceCode

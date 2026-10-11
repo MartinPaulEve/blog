@@ -13,6 +13,7 @@ categories:
 - Personal
 kcworks: https://works.hcommons.org/records/3xvg7-fjj59
 biron: https://eprints.bbk.ac.uk/id/eprint/17100/
+smolpub: i-am-currently-off-work-having-suffered-cerebral-vasculitis-and-a-stroke
 references:
 - date: '2016-03-17'
   title: Against Academic Identity

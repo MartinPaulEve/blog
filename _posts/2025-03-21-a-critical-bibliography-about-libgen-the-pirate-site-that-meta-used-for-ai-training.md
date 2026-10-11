@@ -5,6 +5,7 @@ last_modified_at: 2026-09-06
 doi: https://doi.org/10.59348/65tfk-v7p63
 kcworks: https://works.hcommons.org/records/1dt4t-rme11
 biron: https://eprints.bbk.ac.uk/id/eprint/55215/
+smolpub: a-critical-bibliography-about-libgen-the-pirate-site-that-meta-used-for-ai-training
 roguescholar: https://rogue-scholar.org/records/1yq72-ffj50
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvybnql2p
 image:

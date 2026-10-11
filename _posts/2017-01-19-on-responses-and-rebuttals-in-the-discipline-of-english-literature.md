@@ -12,6 +12,7 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/098t9-13m24
 biron: https://eprints.bbk.ac.uk/id/eprint/17970/
+smolpub: on-responses-and-rebuttals-in-the-discipline-of-english-literature
 references:
 - https://doi.org/10.1086/662755 # Critical Inquiry article: reply to critics on literary studies
 - title: Responses & Comments

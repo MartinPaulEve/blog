@@ -17,6 +17,7 @@ categories:
 - Piracy and Shadow Libraries
 kcworks: https://works.hcommons.org/records/7jdk6-1xe81
 biron: https://eprints.bbk.ac.uk/id/eprint/46997/
+smolpub: today-is-the-publication-of-my-eighth-book-warez-the-infrastructure-and-aesthetics-of-piracy
 references:
 - author: Martin Paul Eve
   date: '2021-12-15'

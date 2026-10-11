@@ -24,6 +24,7 @@ wordpress_url: https://www.martineve.com/?p=943
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkfn3n22i"
 kcworks: https://works.hcommons.org/records/510fw-s6p12
 biron: https://eprints.bbk.ac.uk/id/eprint/17343/
+smolpub: conference-paper-e2-80-9cthe-drivers-whip-is-an-evil-thing-e2-80-9d-enlightenment-as-mass-enslavement-in-the-works-of-thomas-pynchon-2011-06-17-university-of-portsmouth
 ---
 
 <p>An announcement that I will be speaking at the "Enslavement: Colonial Appropriations, Apparitions, Remembrances, 1750-Present Day" conference at the University of Portsmouth on the 17th of June.</p>

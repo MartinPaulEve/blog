@@ -15,6 +15,7 @@ categories:
 - Higher Education
 kcworks: https://works.hcommons.org/records/1033c-eax47
 biron: https://eprints.bbk.ac.uk/id/eprint/17167/
+smolpub: stern-and-ref-assessing-the-past-to-fund-the-future
 references:
 - https://figshare.com/articles/Excellence_R_Us_University_Research_and_the_Fetishisation_of_Excellence/3413821 # Eve, Excellence R Us figshare paper
 ---

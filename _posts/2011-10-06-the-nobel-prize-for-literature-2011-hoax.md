@@ -30,6 +30,7 @@ wordpress_url: https://www.martineve.com/?p=1525
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjtmvdc2s"
 kcworks: https://works.hcommons.org/records/4nfwx-14m55
 biron: https://eprints.bbk.ac.uk/id/eprint/17083/
+smolpub: the-nobel-prize-for-literature-2011-hoax
 references:
 - http://www.nobelprizeliterature.org # Fake Nobel Prize Literature hoax site
 ---

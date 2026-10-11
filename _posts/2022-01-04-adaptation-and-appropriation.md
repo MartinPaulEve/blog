@@ -15,6 +15,7 @@ categories:
 - Literature
 kcworks: https://works.hcommons.org/records/ww3ra-a5b26
 biron: https://eprints.bbk.ac.uk/id/eprint/47175/
+smolpub: adaptation-and-appropriation
 references:
 - author: Adam Roberts
   date: '2021-03-31'

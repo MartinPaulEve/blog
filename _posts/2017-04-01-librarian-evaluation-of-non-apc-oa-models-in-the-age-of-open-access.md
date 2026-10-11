@@ -14,6 +14,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/egy3c-0tc31
 biron: https://eprints.bbk.ac.uk/id/eprint/18519/
+smolpub: librarian-evaluation-of-non-apc-oa-models-in-the-age-of-open-access
 ---
 
 One of the things we have to contend with at the Open Library of Humanities is the fact that libraries will evaluate our performance and decide whether or not to renew their subscriptions/memberships. This makes sense and is only to be expected.

@@ -92,6 +92,7 @@ wordpress_url: https://www.martineve.com/?p=795
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkl4svd2h"
 kcworks: https://works.hcommons.org/records/79pb4-de891
 biron: https://eprints.bbk.ac.uk/id/eprint/17493/
+smolpub: prisoner-rights-overcriminalisation-and-reform-in-democracy
 references:
 - author: Still Burning
   title: Still Burning

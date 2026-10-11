@@ -16,6 +16,7 @@ categories:
 - Technology
 kcworks: https://works.hcommons.org/records/3ypsz-e6395
 biron: https://eprints.bbk.ac.uk/id/eprint/46996/
+smolpub: what-if-downloads-are-not-actually-non-rivalrous
 references:
 - https://doi.org/10.1016/j.joule.2019.02.007 # Joule study on annual Bitcoin energy consumption
 - https://doi.org/10.1016/j.resconrec.2021.105901 # Study on Bitcoin carbon footprint vs Bangladesh

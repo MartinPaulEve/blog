@@ -12,6 +12,7 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/bvtn0-0ty24
 biron: https://eprints.bbk.ac.uk/id/eprint/19155/
+smolpub: mediating-forms-and-free-thinking-or-on-selecting-journals
 references:
 - author: Martin Paul Eve
   date: '2017-07-05'

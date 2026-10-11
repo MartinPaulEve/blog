@@ -14,6 +14,7 @@ categories:
 - Higher Education
 kcworks: https://works.hcommons.org/records/g7nrf-79670
 biron: https://eprints.bbk.ac.uk/id/eprint/27780/
+smolpub: opting-out-of-league-tables-is-of-course-a-type-of-prestige-game
 ---
 
 Birkbeck, University of London, my institution, has [pulled out of all national league tables](http://www.bbk.ac.uk/news/league-tables). I think this is a good move.

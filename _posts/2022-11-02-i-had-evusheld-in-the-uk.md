@@ -15,6 +15,7 @@ categories:
 - Politics
 kcworks: https://works.hcommons.org/records/0q226-jct86
 biron: https://eprints.bbk.ac.uk/id/eprint/50195/
+smolpub: i-had-evusheld-in-the-uk
 ---
 
 As many of you know, I have been involved for the past few months in a campaign to get Evusheld – a protective/prophylactic drug for immunocompromised people who do not respond well to Covid vaccines – available on the NHS in the UK. We have not succeeded on that front yet and I am not giving up.

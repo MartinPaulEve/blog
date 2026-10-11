@@ -16,6 +16,7 @@ categories:
 - Higher Education
 kcworks: https://works.hcommons.org/records/bwt1g-62243
 biron: https://eprints.bbk.ac.uk/id/eprint/53742/
+smolpub: a-few-notes-on-the-ref-oa-mandate-for-books
 references:
 - https://doi.org/10.1629/uksg.392 # Eve et al, costing the REF OA book mandate, UKSG 2017
 - date: '2024-06-17'

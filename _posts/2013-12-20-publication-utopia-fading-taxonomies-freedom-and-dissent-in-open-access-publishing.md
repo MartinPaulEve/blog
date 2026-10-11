@@ -25,6 +25,7 @@ wordpress_url: https://www.martineve.com/?p=2960
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mftodxl2q"
 kcworks: https://works.hcommons.org/records/zyqne-dcy72
 biron: https://eprints.bbk.ac.uk/id/eprint/17228/
+smolpub: publication-utopia-fading-taxonomies-freedom-and-dissent-in-open-access-publishing
 references:
 - title: jimmussell.com
   type: WebSite

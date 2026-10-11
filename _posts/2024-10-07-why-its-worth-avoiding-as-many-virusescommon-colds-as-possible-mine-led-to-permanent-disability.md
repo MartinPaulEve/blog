@@ -17,6 +17,7 @@ categories:
 - Personal
 kcworks: https://works.hcommons.org/records/dp3sb-3gr06
 biron: https://eprints.bbk.ac.uk/id/eprint/54350/
+smolpub: why-its-worth-avoiding-as-many-virusescommon-colds-as-possible-mine-led-to-permanent-disability
 references:
 - author: Ryan O'Hare
   date: '2022-05-03'

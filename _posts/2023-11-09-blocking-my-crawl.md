@@ -16,6 +16,7 @@ categories:
 - Scholarly Communications
 kcworks: https://works.hcommons.org/records/8ajm5-sa006
 biron: https://eprints.bbk.ac.uk/id/eprint/52891/
+smolpub: blocking-my-crawl
 references:
 - title: 'GitHub - infosimples/detect-headless: Access https://infosimples.github.io/detect-headless to run several headless detection tests against your browser.'
   type: SoftwareSourceCode

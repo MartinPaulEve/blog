@@ -26,6 +26,7 @@ wordpress_url: http://www.martineve.com/?p=195
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlqmsci2p"
 kcworks: https://works.hcommons.org/records/z682f-10023
 biron: https://eprints.bbk.ac.uk/id/eprint/17284/
+smolpub: notes-and-presentation-from-my-open-access-talk
 references:
 - title: Deed - Attribution-NonCommercial-ShareAlike 3.0 Unported
   type: WebPage

@@ -16,6 +16,7 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/gznwp-z3t60
 biron: https://eprints.bbk.ac.uk/id/eprint/27704/
+smolpub: what-size-should-my-music-studio-be
 references:
 - title: acousticsize
   type: SoftwareSourceCode

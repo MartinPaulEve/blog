@@ -23,6 +23,7 @@ wordpress_url: https://www.martineve.com/?p=2659
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgt37at2h"
 kcworks: https://works.hcommons.org/records/m7jea-wjs39
 biron: https://eprints.bbk.ac.uk/id/eprint/17369/
+smolpub: im-appearing-before-the-house-of-commons-bis-select-committee-into-open-access
 references:
 - http://www.parliament.uk/business/committees/committees-a-z/commons-select/business-innovation-and-skills/ # UK Parliament BIS Select Committee open access inquiry
 ---

@@ -22,6 +22,7 @@ wordpress_url: https://www.martineve.com/?p=3114
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mf4xvtr2s"
 kcworks: https://works.hcommons.org/records/hdmv7-sqm50
 biron: https://eprints.bbk.ac.uk/id/eprint/17378/
+smolpub: two-free-copies-of-pynchon-and-philosophy-to-win-andor-a-25-discount
 references:
 - http://www.pynchoninpublic.com # Pynchon in Public Day website
 ---

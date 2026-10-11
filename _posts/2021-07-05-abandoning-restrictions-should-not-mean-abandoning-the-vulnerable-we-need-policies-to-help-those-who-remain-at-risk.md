@@ -17,6 +17,7 @@ categories:
 - Politics
 kcworks: https://works.hcommons.org/records/wwsa0-nzz91
 biron: https://eprints.bbk.ac.uk/id/eprint/45220/
+smolpub: abandoning-restrictions-should-not-mean-abandoning-the-vulnerable-we-need-policies-to-help-those-who-remain-at-risk
 references:
 - https://www.health.org.uk/news-and-comment/news/6-out-of-10-people-who-have-died-from-covid-19-are-disabled # Health Foundation: 60% COVID deaths were disabled people
 - author: Michael Savage

@@ -16,6 +16,7 @@ title: '''It''s not about stifling academic freedom'''
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc77age2r"
 kcworks: https://works.hcommons.org/records/f19v4-9dn31
 biron: https://eprints.bbk.ac.uk/id/eprint/17118/
+smolpub: its-not-about-stifling-academic-freedom
 references:
 - title: Education Reform Act 1988
   type: WebPage

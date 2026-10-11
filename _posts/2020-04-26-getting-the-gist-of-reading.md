@@ -15,6 +15,7 @@ categories:
 - Literature
 kcworks: https://works.hcommons.org/records/9k7np-nsa33
 biron: https://eprints.bbk.ac.uk/id/eprint/31751/
+smolpub: getting-the-gist-of-reading
 references:
 - https://doi.org/10.1086/684635 # History of Humanities article on object of study
 - https://unsplash.com/photos/o4c2zoVhjSw # Road Trip with Raj Unsplash photo

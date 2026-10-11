@@ -21,6 +21,7 @@ wordpress_url: https://www.martineve.com/?p=2457
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhnroyt2h"
 kcworks: https://works.hcommons.org/records/c128c-3kv72
 biron: https://eprints.bbk.ac.uk/id/eprint/17044/
+smolpub: notes-on-adornos-the-essay-as-form
 references:
 - title: User:Jjshapiro
   type: WebPage

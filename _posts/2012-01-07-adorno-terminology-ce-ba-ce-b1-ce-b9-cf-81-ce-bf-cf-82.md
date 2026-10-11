@@ -22,6 +22,7 @@ wordpress_url: https://www.martineve.com/2012/01/07/adorno-terminology-%ce%ba%ce
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mj2ofh42h"
 kcworks: https://works.hcommons.org/records/gxcdq-rfz10
 biron: https://eprints.bbk.ac.uk/id/eprint/17269/
+smolpub: adorno-terminology-ce-ba-ce-b1-ce-b9-cf-81-ce-bf-cf-82
 references:
 - title: Aeschines, Against Ctesiphon, section 79
   type: WebPage

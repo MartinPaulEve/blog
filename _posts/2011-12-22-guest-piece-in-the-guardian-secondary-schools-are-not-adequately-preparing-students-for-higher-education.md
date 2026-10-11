@@ -208,6 +208,7 @@ wordpress_url: https://www.martineve.com/?p=1698
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjc3doh2f"
 kcworks: https://works.hcommons.org/records/nqfqy-w2r54
 biron: https://eprints.bbk.ac.uk/id/eprint/17034/
+smolpub: guest-piece-in-the-guardian-secondary-schools-are-not-adequately-preparing-students-for-higher-education
 references:
 - author: Martin Paul Eve
   date: '2011-12-22'

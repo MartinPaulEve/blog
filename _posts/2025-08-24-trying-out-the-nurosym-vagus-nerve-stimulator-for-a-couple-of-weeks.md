@@ -16,6 +16,7 @@ categories:
 - Technology
 kcworks: https://works.hcommons.org/records/31r21-h6m71
 biron: https://eprints.bbk.ac.uk/id/eprint/56104/
+smolpub: trying-out-the-nurosym-vagus-nerve-stimulator-for-a-couple-of-weeks
 references:
 - https://www.ifm.org/podcast/vagus-nerve-parasympathetic-response # IFM podcast on vagus nerve parasympathetic response
 - author:

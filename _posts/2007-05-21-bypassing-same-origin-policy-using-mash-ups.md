@@ -24,6 +24,7 @@ wordpress_url: http://pro.grammatic.org/post-bypassing-same-origin-policy-using-
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnp4lhu2h"
 kcworks: https://works.hcommons.org/records/p2wtb-sc956
 biron: https://eprints.bbk.ac.uk/id/eprint/16796/
+smolpub: bypassing-same-origin-policy-using-mash-ups
 references:
 - title: GNUCITIZEN
   type: WebSite

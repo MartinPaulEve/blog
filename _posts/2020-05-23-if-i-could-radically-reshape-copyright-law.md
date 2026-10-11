@@ -16,6 +16,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/0me6a-mdr88
 biron: https://eprints.bbk.ac.uk/id/eprint/32008/
+smolpub: if-i-could-radically-reshape-copyright-law
 references:
 - https://unsplash.com/photos/Tzm3Oyu_6sk # Bank Phrom Unsplash photo
 ---

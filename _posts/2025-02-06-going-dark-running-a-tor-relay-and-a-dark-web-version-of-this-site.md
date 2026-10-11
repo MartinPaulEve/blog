@@ -14,6 +14,7 @@ categories:
 - Information Security
 kcworks: https://works.hcommons.org/records/4g9ep-jrb09
 biron: https://eprints.bbk.ac.uk/id/eprint/54958/
+smolpub: going-dark-running-a-tor-relay-and-a-dark-web-version-of-this-site
 ---
 
 Dark times at the moment. Authoritarianism is on the rise everywhere and censorship regimes become ever more common. None of the material on my blog is particularly sensitive. Some two decades out-of-date information security stuff, posts about English literature, some posts about health, and posts about scholarly communication. It's not really the kind of stuff that will get me in trouble. Nonetheless, I am troubled by the rise of privacy invading regimes worldwide and I wanted to do something about this.

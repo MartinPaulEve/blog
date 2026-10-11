@@ -15,6 +15,7 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/0kask-bz691
 biron: https://eprints.bbk.ac.uk/id/eprint/55172/
+smolpub: testing-1-2-3-on-software-testing-and-why-its-interesting-even-to-non-developersnon-coders
 references:
 - title: knowledge-commons-profiles test suite
   type: SoftwareSourceCode

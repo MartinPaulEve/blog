@@ -15,6 +15,7 @@ kcworks: https://works.hcommons.org/records/vwhre-gq536
 roguescholar: https://rogue-scholar.org/records/06f64-2c069
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvqzpul2p
 biron: https://eprints.bbk.ac.uk/id/eprint/57918/
+smolpub: pangolin-newt-gerbil-and-custom-ports
 references:
 - title: 'GitHub - fosrl/pangolin: Modern networking and security platform providing secure access and connectivity to apps, infrastructure, and AI workloads. Connect and protect your users.'
   type: SoftwareSourceCode

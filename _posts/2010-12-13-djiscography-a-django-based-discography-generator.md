@@ -25,6 +25,7 @@ wordpress_url: http://www.martineve.com/?p=466
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlixeqt2s"
 kcworks: https://works.hcommons.org/records/h17dt-3wy60
 biron: https://eprints.bbk.ac.uk/id/eprint/16958/
+smolpub: djiscography-a-django-based-discography-generator
 references:
 - http://code.google.com/p/djiscography/ # Djiscography Google Code repository
 ---

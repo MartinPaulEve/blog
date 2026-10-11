@@ -16,6 +16,7 @@ categories:
 - Health
 kcworks: https://works.hcommons.org/records/67swt-28919
 biron: https://eprints.bbk.ac.uk/id/eprint/48849/
+smolpub: how-you-can-help-people-still-shielding
 references:
 - title: WriteToThem
   type: WebSite

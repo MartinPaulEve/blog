@@ -16,6 +16,7 @@ categories:
 - Personal
 kcworks: https://works.hcommons.org/records/4w42m-m9w61
 biron: https://eprints.bbk.ac.uk/id/eprint/53703/
+smolpub: how-long-have-i-got-doc
 references:
 - author:
   - Preeti Rout

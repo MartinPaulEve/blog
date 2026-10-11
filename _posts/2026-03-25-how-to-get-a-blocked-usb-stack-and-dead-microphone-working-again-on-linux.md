@@ -17,6 +17,7 @@ categories:
 - Linux
 kcworks: https://works.hcommons.org/records/80ymh-tjt29
 biron: https://eprints.bbk.ac.uk/id/eprint/57923/
+smolpub: how-to-get-a-blocked-usb-stack-and-dead-microphone-working-again-on-linux
 ---
 
 I have been having an intermittent problem where my microphone just drops out arbitrarily on Linux and I can't access it anymore. It turns out that this was actually due to a dodgy USB hub inside the motherboard of my computer. 

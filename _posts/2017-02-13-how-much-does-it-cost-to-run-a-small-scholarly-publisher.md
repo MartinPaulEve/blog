@@ -15,6 +15,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/bqwtr-g5m25
 biron: https://eprints.bbk.ac.uk/id/eprint/18161/
+smolpub: how-much-does-it-cost-to-run-a-small-scholarly-publisher
 references:
 - https://www.openlibhums.org # Open Library of Humanities website
 ---

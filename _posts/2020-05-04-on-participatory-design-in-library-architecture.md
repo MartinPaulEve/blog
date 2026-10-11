@@ -16,6 +16,7 @@ categories:
 - Scholarly Communications
 kcworks: https://works.hcommons.org/records/twz4f-kcs41
 biron: https://eprints.bbk.ac.uk/id/eprint/31847/
+smolpub: on-participatory-design-in-library-architecture
 references:
 - https://doi.org/10.1080/01930826.2014.915166 # Journal of Library Administration article on library design
 ---

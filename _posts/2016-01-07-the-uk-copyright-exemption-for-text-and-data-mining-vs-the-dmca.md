@@ -17,6 +17,7 @@ title: The UK copyright exemption for text and data mining vs. the DMCA and EUCD
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbuyefm2a"
 kcworks: https://works.hcommons.org/records/01s71-78212
 biron: https://eprints.bbk.ac.uk/id/eprint/17357/
+smolpub: the-uk-copyright-exemption-for-text-and-data-mining-vs-the-dmca
 references:
 - https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/375954/Research.pdf # UK government guidance PDF on copyright exemption for research
 - author: Contributors to Wikimedia projects

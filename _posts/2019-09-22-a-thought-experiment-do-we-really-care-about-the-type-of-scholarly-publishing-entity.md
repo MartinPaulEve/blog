@@ -16,6 +16,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/qffb2-8jj77
 biron: https://eprints.bbk.ac.uk/id/eprint/29047/
+smolpub: a-thought-experiment-do-we-really-care-about-the-type-of-scholarly-publishing-entity
 references:
 - https://jhupbooks.press.jhu.edu/title/generous-thinking # Fitzpatrick, Generous Thinking, JHU Press
 - author: Contributors to Wikimedia projects

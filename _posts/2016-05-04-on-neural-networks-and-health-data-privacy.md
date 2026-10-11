@@ -16,6 +16,7 @@ categories:
 - Artificial Intelligence
 kcworks: https://works.hcommons.org/records/t906p-11693
 biron: https://eprints.bbk.ac.uk/id/eprint/17332/
+smolpub: on-neural-networks-and-health-data-privacy
 references:
 - title: Your privacy
   type: WebPage

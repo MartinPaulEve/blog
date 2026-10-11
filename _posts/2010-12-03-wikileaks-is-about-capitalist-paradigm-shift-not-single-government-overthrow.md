@@ -23,6 +23,7 @@ wordpress_url: http://www.martineve.com/?p=454
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mljk7ck2a"
 kcworks: https://works.hcommons.org/records/ebvya-e1179
 biron: https://eprints.bbk.ac.uk/id/eprint/16962/
+smolpub: wikileaks-is-about-capitalist-paradigm-shift-not-single-government-overthrow
 references:
 - date: '2010-12-03'
   title: Julian Assange answers your questions

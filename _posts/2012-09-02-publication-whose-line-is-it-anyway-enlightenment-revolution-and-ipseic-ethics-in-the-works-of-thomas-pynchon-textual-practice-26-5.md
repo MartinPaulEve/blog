@@ -24,6 +24,7 @@ wordpress_url: https://www.martineve.com/?p=2333
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhusxx22s"
 kcworks: https://works.hcommons.org/records/9krhc-dp796
 biron: https://eprints.bbk.ac.uk/id/eprint/17224/
+smolpub: publication-whose-line-is-it-anyway-enlightenment-revolution-and-ipseic-ethics-in-the-works-of-thomas-pynchon-textual-practice-26-5
 references:
 - http://dx.doi.org/10.1080/0950236X.2012.709877 # Eve, Pynchon ipseic ethics, Textual Practice 26:5
 ---

@@ -16,6 +16,7 @@ categories:
 - Personal
 kcworks: https://works.hcommons.org/records/jktj6-enc79
 biron: https://eprints.bbk.ac.uk/id/eprint/46861/
+smolpub: all-ten-of-my-books-now-are-or-will-be-when-published-open-access
 references:
 - https://global.oup.com/academic/product/the-digital-humanities-and-literary-studies-9780198850489?lang=en&cc=gb # Eve, Digital Humanities and Literary Studies, Oxford UP
 - author: Martin Paul Eve

@@ -14,6 +14,7 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/mbtk0-w8b63
 biron: https://eprints.bbk.ac.uk/id/eprint/42405/
+smolpub: an-anecdote-on-editing
 ---
 
 My Ph.D. supervisors were not particularly hands on. This was not slacking on their part -- it suited me just fine and they could see that I had the thesis project in hand.

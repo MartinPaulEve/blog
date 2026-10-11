@@ -17,6 +17,7 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/pcvdd-hhw64
 biron: https://eprints.bbk.ac.uk/id/eprint/28811/
+smolpub: when-infrastructural-support-clashes-with-dora-and-good-research-assessment-practices
 references:
 - author: Jeff Pooley
   date: '2019-09-03'

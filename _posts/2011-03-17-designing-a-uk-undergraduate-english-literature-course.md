@@ -30,6 +30,7 @@ wordpress_url: https://www.martineve.com/?p=854
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkiyt2x2i"
 kcworks: https://works.hcommons.org/records/eq8fk-fpw87
 biron: https://eprints.bbk.ac.uk/id/eprint/17305/
+smolpub: designing-a-uk-undergraduate-english-literature-course
 references:
 - author: Sarah Ross
   title: Sarah Ross

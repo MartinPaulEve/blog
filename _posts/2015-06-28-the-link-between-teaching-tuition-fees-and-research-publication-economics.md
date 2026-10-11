@@ -19,6 +19,7 @@ title: The link between teaching, tuition fees and research publication economic
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mclkzjm2t"
 kcworks: https://works.hcommons.org/records/53qsq-kny77
 biron: https://eprints.bbk.ac.uk/id/eprint/17025/
+smolpub: the-link-between-teaching-tuition-fees-and-research-publication-economics
 references:
 - http://dx.doi.org/10.1017/CBO9781316161012.004 # Eve, Open Access and the Humanities chapter on symbolic economy
 ---

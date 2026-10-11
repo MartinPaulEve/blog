@@ -12,6 +12,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/h3mg5-c8y87
 biron: https://eprints.bbk.ac.uk/id/eprint/17199/
+smolpub: but-the-public-dont-need-access-to-humanities-research
 references:
 - http://doi.org/10.16995/olh.82 # Eve, Cloud Atlas Version Variants OLH article
 ---

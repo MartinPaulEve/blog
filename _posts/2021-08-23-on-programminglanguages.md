@@ -16,6 +16,7 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/tvfm9-vsn04
 biron: https://eprints.bbk.ac.uk/id/eprint/45831/
+smolpub: on-programminglanguages
 references:
 - author: Martin Paul Eve
   date: '2021-08-22'

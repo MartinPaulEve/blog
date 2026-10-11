@@ -23,6 +23,7 @@ wordpress_url: https://www.martineve.com/?p=2815
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgdwhcz2i"
 kcworks: https://works.hcommons.org/records/ekj2y-1bz30
 biron: https://eprints.bbk.ac.uk/id/eprint/17108/
+smolpub: reports-from-the-frontline-of-humanities-oa-in-japan
 ---
 
 <p>This week I had the privilege of visiting Japan for the first time to speak with SPARC Japan (in Tokyo) about developments in open access for the humanities.</p>

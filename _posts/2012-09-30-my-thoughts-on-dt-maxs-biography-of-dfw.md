@@ -21,6 +21,7 @@ wordpress_url: https://www.martineve.com/?p=2420
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhrddta2o"
 kcworks: https://works.hcommons.org/records/qtc3q-n3412
 biron: https://eprints.bbk.ac.uk/id/eprint/16967/
+smolpub: my-thoughts-on-dt-maxs-biography-of-dfw
 references:
 - author: Steve Rhodes
   title: Steve Rhodes

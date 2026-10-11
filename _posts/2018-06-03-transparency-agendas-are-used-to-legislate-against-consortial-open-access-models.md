@@ -16,6 +16,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/mjkzn-w0077
 biron: https://eprints.bbk.ac.uk/id/eprint/22630/
+smolpub: transparency-agendas-are-used-to-legislate-against-consortial-open-access-models
 references:
 - author: Peter Suber
   date: '2003'

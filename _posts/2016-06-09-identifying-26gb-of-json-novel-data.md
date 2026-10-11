@@ -15,6 +15,7 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/aqa1z-dft26
 biron: https://eprints.bbk.ac.uk/id/eprint/17508/
+smolpub: identifying-26gb-of-json-novel-data
 ---
 
 For part of one of my current research projects I have a pretty large (26GB) corpus of digitized JSON novels. I'm interested in ingesting these and then performing various methods of authorship attribution to them using delta, nearest shrunken centroid and other techniques.

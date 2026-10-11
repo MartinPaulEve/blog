@@ -15,6 +15,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/zw2wv-wce84
 biron: https://eprints.bbk.ac.uk/id/eprint/46087/
+smolpub: the-proliferation-of-business-models-for-open-access-books
 references:
 - http://doi.org/10.1629/uksg.392 # UKSG article on BPC distribution across institutions
 - title: Opening the Future

@@ -15,6 +15,7 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/e2vq5-yqw18
 biron: https://eprints.bbk.ac.uk/id/eprint/51187/
+smolpub: a-data-pipeline-with-apache-airflow-and-dask
 references:
 - title: Martin Eve
   type: WebPage

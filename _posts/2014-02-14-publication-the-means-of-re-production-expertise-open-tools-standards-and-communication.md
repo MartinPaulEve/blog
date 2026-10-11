@@ -25,6 +25,7 @@ wordpress_url: https://www.martineve.com/?p=3013
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfpe7352p"
 kcworks: https://works.hcommons.org/records/jevrx-vrc96
 biron: https://eprints.bbk.ac.uk/id/eprint/16983/
+smolpub: publication-the-means-of-re-production-expertise-open-tools-standards-and-communication
 references:
 - http://www.mdpi.com/2304-6775/2/1/38 # MDPI journal page for Means of Re-production article
 - http://eprints.lincoln.ac.uk/13297 # Lincoln repository record for Means of Re-production

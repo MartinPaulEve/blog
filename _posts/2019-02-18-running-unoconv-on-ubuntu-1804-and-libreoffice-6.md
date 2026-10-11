@@ -14,6 +14,7 @@ categories:
 - Linux
 kcworks: https://works.hcommons.org/records/jg77d-tdc50
 biron: https://eprints.bbk.ac.uk/id/eprint/26297/
+smolpub: running-unoconv-on-ubuntu-1804-and-libreoffice-6
 ---
 
 I've been having some serious problems running unoconv, the document conversion tool, on Ubuntu 18.04 using Libreoffice 6. This has been blocking the test suite (and basic functionality) in meTypeset from working.

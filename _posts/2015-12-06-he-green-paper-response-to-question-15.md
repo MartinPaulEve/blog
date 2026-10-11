@@ -17,6 +17,7 @@ title: 'HE Green Paper: response to question 15'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc2crjm2a"
 kcworks: https://works.hcommons.org/records/hqe7k-0vh21
 biron: https://eprints.bbk.ac.uk/id/eprint/17431/
+smolpub: he-green-paper-response-to-question-15
 references:
 - date: '2015-12-01'
   title: 'College fraud claim: Minister defends regulation'

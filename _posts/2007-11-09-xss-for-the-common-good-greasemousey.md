@@ -35,6 +35,7 @@ wordpress_url: http://pro.grammatic.org/post-xss-for-the-common-good--greasemous
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mn7y4la2f"
 kcworks: https://works.hcommons.org/records/90a1s-12560
 biron: https://eprints.bbk.ac.uk/id/eprint/16812/
+smolpub: xss-for-the-common-good-greasemousey
 references:
 - title: Mozilla XML Namespace
   type: WebPage

@@ -16,6 +16,7 @@ categories:
 - Technology
 kcworks: https://works.hcommons.org/records/571h2-cc647
 biron: https://eprints.bbk.ac.uk/id/eprint/27323/
+smolpub: running-the-presonus-quantum-interfaces-on-windows-7
 references:
 - title: 'Quantum: Connecting to Windows 10 computer'
   type: TechArticle

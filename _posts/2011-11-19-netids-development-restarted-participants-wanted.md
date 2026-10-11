@@ -25,6 +25,7 @@ wordpress_url: https://www.martineve.com/2011/11/19/netids-development-restarted
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjfeyhk2u"
 kcworks: https://works.hcommons.org/records/97k2z-cw217
 biron: https://eprints.bbk.ac.uk/id/eprint/17404/
+smolpub: netids-development-restarted-participants-wanted
 references:
 - title: .NET Intrusion Detection System
   type: SoftwareSourceCode

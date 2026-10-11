@@ -22,6 +22,7 @@ wordpress_url: http://pro.grammatic.org/post-righttoleft-and-lefttoright-charact
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mn6vwrs2q"
 kcworks: https://works.hcommons.org/records/4b7h6-d8886
 biron: https://eprints.bbk.ac.uk/id/eprint/16814/
+smolpub: right-to-left-and-left-to-right-characters
 ---
 
 <p>There's been a fair bit of discussion going on at <a href="http://sla.ckers.org/forum/read.php?3,16741">slackers</a> on the security implications of the Unicode characters U+202D and U+202E which switch the left-to-right and right-to-left encoding of the following text.</p>

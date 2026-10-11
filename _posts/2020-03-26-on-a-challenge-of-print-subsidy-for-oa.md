@@ -15,6 +15,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/a64b1-rxp57
 biron: https://eprints.bbk.ac.uk/id/eprint/31469/
+smolpub: on-a-challenge-of-print-subsidy-for-oa
 references:
 - https://www.openlibhums.org # Open Library of Humanities homepage
 ---

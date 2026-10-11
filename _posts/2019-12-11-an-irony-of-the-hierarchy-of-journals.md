@@ -12,6 +12,7 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/9xgz4-mxz85
 biron: https://eprints.bbk.ac.uk/id/eprint/30264/
+smolpub: an-irony-of-the-hierarchy-of-journals
 references:
 - https://richardpoynder.co.uk/PLoS_ONE.pdf # Poynder, PLoS ONE Open Access and Scholarly Publishing
 ---

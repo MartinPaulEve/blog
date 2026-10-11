@@ -18,6 +18,7 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/r5pat-8ph38
 biron: https://eprints.bbk.ac.uk/id/eprint/57922/
+smolpub: too-much-publishing
 ---
 
 It turns out that there is a very long genealogy of saying that there is too much work/scholarship, or too many books, published. I was having an email conversation with Jan Erik Frantsvåg, who is an absolute legend in the scholarly communications world, because of his work on the Tromsø Munin Conferences every year, and he asked about this question. On this subject, I really recommend reading Blair, Ann, _Too Much to Know: Managing Scholarly Information before the Modern Age_ (Yale University Press, 2010), which traces the story well (and from which all of this post is derived; I am not professing any novelty, here).

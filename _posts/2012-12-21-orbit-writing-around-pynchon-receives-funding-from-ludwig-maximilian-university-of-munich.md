@@ -24,6 +24,7 @@ wordpress_url: https://www.martineve.com/?p=2545
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mh7ivso2p"
 kcworks: https://works.hcommons.org/records/p2ywh-n7s78
 biron: https://eprints.bbk.ac.uk/id/eprint/16936/
+smolpub: orbit-writing-around-pynchon-receives-funding-from-ludwig-maximilian-university-of-munich
 references:
 - title: Home - LMU Munich
   type: WebPage

@@ -86,6 +86,7 @@ wordpress_url: https://www.martineve.com/?p=1714
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjbujvp2f"
 kcworks: https://works.hcommons.org/records/1fcmq-vms21
 biron: https://eprints.bbk.ac.uk/id/eprint/17274/
+smolpub: 2012-year-of-the-phd-completion-guardian-higher-education-top-10-posts-of-2011
 references:
 - author: Kerry Eustice
   date: '2011-12-28'

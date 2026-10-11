@@ -14,6 +14,7 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/3eamf-t9453
 biron: https://eprints.bbk.ac.uk/id/eprint/42402/
+smolpub: some-reflections-on-the-professionalization-of-my-disciplines
 ---
 
 The disciplines that have had it hardest for unwanted appropriation and assumed specialization this year have undoubtedly been various strands of medicine, virology, immunology, and epidemiology. Just going to put it out there, up front, that the notes here are nothing compared to the attempted popular seizure of expertise to which these disciplines have been subjected.

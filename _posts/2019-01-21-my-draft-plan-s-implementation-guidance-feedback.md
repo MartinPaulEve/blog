@@ -16,6 +16,7 @@ categories:
 - Copyright and Licensing
 kcworks: https://works.hcommons.org/records/fjva5-bxv42
 biron: https://eprints.bbk.ac.uk/id/eprint/25965/
+smolpub: my-draft-plan-s-implementation-guidance-feedback
 references:
 - http://dx.doi.org/10.1017/CBO9781316161012 # Eve, Open Access and the Humanities Cambridge UP
 ---

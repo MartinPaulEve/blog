@@ -16,6 +16,7 @@ categories:
 - Scholarly Communications
 kcworks: https://works.hcommons.org/records/q0d8y-20k90
 biron: https://eprints.bbk.ac.uk/id/eprint/55015/
+smolpub: getting-external-access-to-buddypresss-notifications-for-knowledge-commons
 references:
 - title: Knowledge Commons
   type: WebSite

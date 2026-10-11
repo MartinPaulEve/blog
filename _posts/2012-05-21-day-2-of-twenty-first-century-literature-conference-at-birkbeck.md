@@ -23,6 +23,7 @@ wordpress_url: https://www.martineve.com/?p=2106
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mif6lss2a"
 kcworks: https://works.hcommons.org/records/qnsym-28t44
 biron: https://eprints.bbk.ac.uk/id/eprint/17472/
+smolpub: day-2-of-twenty-first-century-literature-conference-at-birkbeck
 references:
 - date: '2007-10-30'
   title: Cell phone novel

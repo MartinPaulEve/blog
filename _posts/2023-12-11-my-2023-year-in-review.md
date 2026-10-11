@@ -16,6 +16,7 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/ad7wz-1fr37
 biron: https://eprints.bbk.ac.uk/id/eprint/52893/
+smolpub: my-2023-year-in-review
 references:
 - title: Crossref Labs API
   type: WebSite

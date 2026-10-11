@@ -13,6 +13,7 @@ categories:
 - Literature
 kcworks: https://works.hcommons.org/records/2pj5b-q5y25
 biron: https://eprints.bbk.ac.uk/id/eprint/17126/
+smolpub: the-faber-finds-edition-of-rex-warners-the-professor
 references:
 - title: Faber Finds & the new business of POD
   type: BlogPosting

@@ -16,6 +16,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/ckdam-qae04
 biron: https://eprints.bbk.ac.uk/id/eprint/17465/
+smolpub: arguments-counter-arguments-and-political-alignments-for-and-against-open-access
 references:
 - title: Open Access (the book)
   type: WebPage

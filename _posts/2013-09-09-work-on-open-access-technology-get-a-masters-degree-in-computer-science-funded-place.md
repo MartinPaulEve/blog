@@ -27,6 +27,7 @@ wordpress_url: https://www.martineve.com/?p=2887
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgbtrp72i"
 kcworks: https://works.hcommons.org/records/4a4w5-j6d58
 biron: https://eprints.bbk.ac.uk/id/eprint/17181/
+smolpub: work-on-open-access-technology-get-a-masters-degree-in-computer-science-funded-place
 references:
 - http://www.lincoln.ac.uk/home/course/cmsresms/fundedplace/ # Lincoln University funded MSc place details
 - title: 'GitHub - MartinPaulEve/meTypeset: meTypeset is a tool to convert from Microsoft Word .docx format to NLM/JATS-XML for scholarly/scientific article typesetting.'

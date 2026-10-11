@@ -15,6 +15,7 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/vvdms-97d28
 biron: https://eprints.bbk.ac.uk/id/eprint/48845/
+smolpub: resizing-image-uploads-in-django
 references:
 - https://pypi.org/project/resize-image/ # resize-image Python package on PyPI
 ---

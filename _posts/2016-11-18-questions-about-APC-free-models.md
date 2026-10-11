@@ -15,6 +15,7 @@ categories:
 - Conferences
 kcworks: https://works.hcommons.org/records/j6949-hj740
 biron: https://eprints.bbk.ac.uk/id/eprint/17152/
+smolpub: questions-about-apc-free-models
 ---
 
 I'm here at the Kansas University conference on "Envisioning a world beyond Article/Book Processing Charges". One of the first things we were asked to do was a two-minute lightning talk on what we don't yet know about a world beyond APCs. I thought that I would share my questions here, for posterity:

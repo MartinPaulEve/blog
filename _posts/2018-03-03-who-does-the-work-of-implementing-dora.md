@@ -12,6 +12,7 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/4xq42-ygr86
 biron: https://eprints.bbk.ac.uk/id/eprint/21458/
+smolpub: who-does-the-work-of-implementing-dora
 references:
 - title: DORA
   type: WebSite

@@ -14,6 +14,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/hdgyr-8te76
 biron: https://eprints.bbk.ac.uk/id/eprint/18609/
+smolpub: on-consortial-oa-funding-models-and-renewals
 ---
 
 Consortial OA funding models such as Knowledge Unlatched, the Open Library of Humanities, and others are non-classical economic setups. They are susceptible to free riders. These models have worked thus far because:

@@ -16,6 +16,7 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/cae4m-5de48
 biron: https://eprints.bbk.ac.uk/id/eprint/16993/
+smolpub: cassius-now-supports-full-headless-pdf-creation-from-jats
 references:
 - title: 'CaSSius: a CSS-regions-based PDF typesetter for scholarly communications'
   type: SoftwareSourceCode

@@ -16,6 +16,7 @@ categories:
 - Artificial Intelligence
 kcworks: https://works.hcommons.org/records/cn6qz-8rc52
 biron: https://eprints.bbk.ac.uk/id/eprint/52888/
+smolpub: creating-a-voice-activated-ai-responder-in-python
 references:
 - title: seance4d/seance4d/seance4d/main.py at main · MartinPaulEve/seance4d
   type: SoftwareSourceCode

@@ -101,6 +101,7 @@ wordpress_url: http://www.martineve.com/?p=442
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mllb36j2q"
 kcworks: https://works.hcommons.org/records/y72yg-xer49
 biron: https://eprints.bbk.ac.uk/id/eprint/17022/
+smolpub: fixing-headphone-jack-on-toshiba-satellite-c650d-under-ubuntu-linux-maverick
 references:
 - title: 'Bug #680844 "[Conexant CX20585] Headphone jack doesn''t work"'
   type: WebPage

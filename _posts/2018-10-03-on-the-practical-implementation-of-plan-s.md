@@ -15,6 +15,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/2tdhh-2t504
 biron: https://eprints.bbk.ac.uk/id/eprint/24126/
+smolpub: on-the-practical-implementation-of-plan-s
 references:
 - author: Martin Paul Eve
   date: '2018-09-05'

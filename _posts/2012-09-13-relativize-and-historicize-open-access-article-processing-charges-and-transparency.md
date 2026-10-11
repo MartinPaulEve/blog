@@ -23,6 +23,7 @@ wordpress_url: https://www.martineve.com/?p=2404
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhrys7k2a"
 kcworks: https://works.hcommons.org/records/5xxkw-c6e54
 biron: https://eprints.bbk.ac.uk/id/eprint/16914/
+smolpub: relativize-and-historicize-open-access-article-processing-charges-and-transparency
 references:
 - http://www.humanitiesdirectory.com/index.php/humanitiesdirectory # Humanities Directory open-access journal
 ---

@@ -14,6 +14,7 @@ categories:
 - Health
 kcworks: https://works.hcommons.org/records/cymzz-17f15
 biron: https://eprints.bbk.ac.uk/id/eprint/50288/
+smolpub: how-do-you-get-access-to-antivirals-on-the-nhs-cdmu-system-and-does-it-work
 ---
 
 So, after three years of shielding, I got Covid. I contracted it at hospital (or on my way there). How do I know? Because I don't go anywhere else. I thought, though, that it might be useful to document my experience of getting antiviral treatments for Covid as an extremely clinically vulnerable individual.

@@ -15,6 +15,7 @@ categories:
 - Higher Education
 kcworks: https://works.hcommons.org/records/11nmf-4bt87
 biron: https://eprints.bbk.ac.uk/id/eprint/57910/
+smolpub: my-resignation-as-an-external-examiner-at-the-university-of-leicester-in-the-wake-of-proposed-cuts-to-english
 ---
 
 Today I have written to the University of Leicester [tendering my resignation as an external examiner](/images/Resignation.pdf).

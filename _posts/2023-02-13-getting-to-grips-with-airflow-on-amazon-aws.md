@@ -12,6 +12,7 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/3z22w-qc916
 biron: https://eprints.bbk.ac.uk/id/eprint/51189/
+smolpub: getting-to-grips-with-airflow-on-amazon-aws
 references:
 - title: virtual_python_plugin.py
   type: SoftwareSourceCode

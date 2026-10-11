@@ -16,6 +16,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/v4cvb-gx732
 biron: https://eprints.bbk.ac.uk/id/eprint/41055/
+smolpub: backlist-to-the-future-a-new-business-model-for-university-presses-and-open-access-books
 references:
 - author: Martin Paul Eve
   date: '2020-10-22'

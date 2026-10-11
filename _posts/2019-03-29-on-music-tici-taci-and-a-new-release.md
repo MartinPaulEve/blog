@@ -17,6 +17,7 @@ categories:
 - Personal
 kcworks: https://works.hcommons.org/records/a6v4j-tby97
 biron: https://eprints.bbk.ac.uk/id/eprint/26967/
+smolpub: on-music-tici-taci-and-a-new-release
 references:
 - https://musicbrainz.org/label/62db3e96-423a-4e9d-bf66-7a017f1dfc73 # Tici Taci label on MusicBrainz
 - https://www.junodownload.com/products/the-long-champs-opsimath-eremite/4080306-02/ # Opsimath and Eremite by The Long Champs on Juno

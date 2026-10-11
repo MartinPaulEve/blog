@@ -17,6 +17,7 @@ categories:
 - Higher Education
 kcworks: https://works.hcommons.org/records/4zm6e-pxp51
 biron: https://eprints.bbk.ac.uk/id/eprint/44313/
+smolpub: while-the-government-introduces-new-freedom-of-speech-rules-at-universities-the-biggest-threat-to-academic-freedom-remains-their-insistence-on-the-financial-destabilization-of-institutions
 references:
 - https://bills.parliament.uk/Publications/41479/Documents/212/21012.pdf # UK Higher Education (Freedom of Speech) Bill PDF
 - author: Mikey Smith

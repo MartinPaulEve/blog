@@ -15,6 +15,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/a9hmy-zrn09
 biron: https://eprints.bbk.ac.uk/id/eprint/29638/
+smolpub: a-brief-note-on-the-rhs-plan-s-report
 references:
 - title: Plan S and History Journals
   type: WebPage

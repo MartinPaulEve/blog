@@ -16,6 +16,7 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/371ad-87f56
 biron: https://eprints.bbk.ac.uk/id/eprint/18133/
+smolpub: on-automatically-detecting-parenthetical-citations
 references:
 - title: 'GitHub - MartinPaulEve/meTypeset: meTypeset is a tool to convert from Microsoft Word .docx format to NLM/JATS-XML for scholarly/scientific article typesetting.'
   type: SoftwareSourceCode

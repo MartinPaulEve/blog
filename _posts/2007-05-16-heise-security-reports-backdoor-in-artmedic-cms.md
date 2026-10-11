@@ -23,6 +23,7 @@ wordpress_url: http://pro.grammatic.org/post-heise-security-reports-backdoor-in-
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnqz7ub2i"
 kcworks: https://works.hcommons.org/records/3a6pr-69053
 biron: https://eprints.bbk.ac.uk/id/eprint/16792/
+smolpub: heise-security-reports-backdoor-in-artmedic-cms
 references:
 - http://www.heise-security.co.uk/news/89835 # Heise Security report on Artmedic CMS backdoor
 - http://www.artmedic-cms.de/ # Artmedic CMS official site

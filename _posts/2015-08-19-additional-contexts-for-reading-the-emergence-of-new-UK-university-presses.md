@@ -20,6 +20,7 @@ title: Additional contexts for reading the emergence of new UK university presse
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcd7tm22a"
 kcworks: https://works.hcommons.org/records/1ftqp-9c264
 biron: https://eprints.bbk.ac.uk/id/eprint/17179/
+smolpub: additional-contexts-for-reading-the-emergence-of-new-uk-university-presses
 references:
 - http://www.thebookseller.com/blogs/anthony-cond-309360 # Anthony Cond piece in The Bookseller on OA presses
 - http://www.hefce.ac.uk/pubs/rereports/year/2015/monographs/ # HEFCE Crossick Report on OA monographs

@@ -22,6 +22,7 @@ wordpress_url: https://www.martineve.com/2012/05/21/beware-the-next-wave-of-acad
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mifbyal2h"
 kcworks: https://works.hcommons.org/records/bbt0j-skm95
 biron: https://eprints.bbk.ac.uk/id/eprint/17144/
+smolpub: beware-the-next-wave-of-academic-publishing-grimness-apps
 references:
 - title: Digital rights management
   type: WebPage

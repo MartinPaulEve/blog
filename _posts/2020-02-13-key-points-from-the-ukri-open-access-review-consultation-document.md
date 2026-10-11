@@ -14,6 +14,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/4ksvw-mrw08
 biron: https://eprints.bbk.ac.uk/id/eprint/30936/
+smolpub: key-points-from-the-ukri-open-access-review-consultation-document
 ---
 
 These are my notes on [The UKRI Open Access Review Consultation Document](https://www.ukri.org/files/funding/oa/open-access-review-consultation/).

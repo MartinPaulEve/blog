@@ -15,6 +15,7 @@ categories:
 - Technology
 kcworks: https://works.hcommons.org/records/mdb7b-s2613
 biron: https://eprints.bbk.ac.uk/id/eprint/43871/
+smolpub: moog-minitaur-the-editor-and-exclusive-usb-lock
 ---
 
 I love my Moog Minitaur synth. It's a great little bass station that packs a punch. However, I have been facing some issues using its full functionality.

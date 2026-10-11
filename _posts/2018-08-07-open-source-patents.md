@@ -16,6 +16,7 @@ categories:
 - Publishing Technology
 kcworks: https://works.hcommons.org/records/f2gg2-6ya18
 biron: https://eprints.bbk.ac.uk/id/eprint/23469/
+smolpub: open-source-patents
 references:
 - title: A web-based platform for publishing journals, preprints, conference proceedings, and books
   type: SoftwareSourceCode

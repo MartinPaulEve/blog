@@ -21,6 +21,7 @@ wordpress_url: http://pro.grammatic.org/post-csrf-being-used-in-latest-ipb-vuln-
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mndlmmm2i"
 kcworks: https://works.hcommons.org/records/tyt77-7sy08
 biron: https://eprints.bbk.ac.uk/id/eprint/16804/
+smolpub: csrf-being-used-in-latest-ipb-vuln-what-about-php-web-request
 ---
 
 <p>I was interested to see in a XSS/CSRF exploit the following lines:</p>

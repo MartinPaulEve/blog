@@ -16,6 +16,7 @@ categories:
 - Copyright and Licensing
 kcworks: https://works.hcommons.org/records/ke6nx-fvz07
 biron: https://eprints.bbk.ac.uk/id/eprint/54302/
+smolpub: are-metadata-facts
 references:
 - author: Martin Paul Eve
   title: Theses on the Metaphors of Digital-Textual History

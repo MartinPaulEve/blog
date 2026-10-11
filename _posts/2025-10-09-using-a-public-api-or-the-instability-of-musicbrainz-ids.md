@@ -16,6 +16,7 @@ categories:
 - Music
 kcworks: https://works.hcommons.org/records/pg8m5-52v55
 biron: https://eprints.bbk.ac.uk/id/eprint/57919/
+smolpub: using-a-public-api-or-the-instability-of-musicbrainz-ids
 references:
 - title: tici taci
   type: WebSite

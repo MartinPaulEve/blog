@@ -15,6 +15,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/9q24b-8yw18
 biron: https://eprints.bbk.ac.uk/id/eprint/31932/
+smolpub: on-business-model-generation
 references:
 - author: Rupert Gatti
   date: '2015-10-15'

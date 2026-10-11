@@ -14,6 +14,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/0dfrk-m6141
 biron: https://eprints.bbk.ac.uk/id/eprint/29069/
+smolpub: an-expensive-way-to-do-society-oa
 ---
 
 A Learned Society spoke to me last week about what they could do to move to an open-access model. They currently receive about 100,000 EUR per year from their subscription/hybrid-OA publisher but were willing to jettison this (!) if they could go OA with no author fees.

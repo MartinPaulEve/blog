@@ -15,6 +15,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/ycvap-4nz59
 biron: https://eprints.bbk.ac.uk/id/eprint/47262/
+smolpub: open-access-is-building-a-one-time-shared-international-library-collection
 references:
 - title: Opening the Future
   type: WebSite

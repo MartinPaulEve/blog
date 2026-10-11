@@ -23,6 +23,7 @@ wordpress_url: https://www.martineve.com/?p=2444
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhpchnm2t"
 kcworks: https://works.hcommons.org/records/p9kkm-zs929
 biron: https://eprints.bbk.ac.uk/id/eprint/17267/
+smolpub: new-orbit-review-american-postmodernist-fiction-and-the-past-by-theophilus-savvas
 references:
 - http://dx.doi.org/10.7766/orbit.v1.2.40 # Orbit review of Savvas American Postmodernist Fiction DOI
 ---

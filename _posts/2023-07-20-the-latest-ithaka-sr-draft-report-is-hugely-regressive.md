@@ -16,6 +16,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/jxfjr-b6q45
 biron: https://eprints.bbk.ac.uk/id/eprint/51633/
+smolpub: the-latest-ithaka-sr-draft-report-is-hugely-regressive
 references:
 - author: Kimberly Lutz
   date: '2023-07-17'

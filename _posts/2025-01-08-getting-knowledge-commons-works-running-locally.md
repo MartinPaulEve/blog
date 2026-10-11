@@ -16,6 +16,7 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/qfbbm-pqy84
 biron: https://eprints.bbk.ac.uk/id/eprint/54786/
+smolpub: getting-knowledge-commons-works-running-locally
 references:
 - https://pypi.org/simple # PyPI simple package index
 - title: The next-generation research repository for Knowledge Commons

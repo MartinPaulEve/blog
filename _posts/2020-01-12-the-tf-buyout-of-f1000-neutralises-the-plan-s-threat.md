@@ -14,6 +14,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/3c3ws-6xa64
 biron: https://eprints.bbk.ac.uk/id/eprint/30574/
+smolpub: the-tf-buyout-of-f1000-neutralises-the-plan-s-threat
 ---
 
 I am tempted to think that Taylor & Francis's acquisition of F1000 should be critiqued on grounds of yet more gross for-profit consolidation in the scholarly publishing ecosystem. I believe this is true. But funders won't care. The EU wants to maintain its stance of market non-interference and I do not believe that the for-profit status of such entities bothers others like Wellcome or Gates.

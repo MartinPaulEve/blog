@@ -21,6 +21,7 @@ wordpress_url: https://www.martineve.com/?p=1493
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjvnawh2q"
 kcworks: https://works.hcommons.org/records/fzjy5-gnb93
 biron: https://eprints.bbk.ac.uk/id/eprint/17080/
+smolpub: words-in-memory-of-troy-davis
 references:
 - author: Andrew Cohen
   date: '2011-09-19'

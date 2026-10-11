@@ -24,6 +24,7 @@ wordpress_url: https://www.martineve.com/?p=2150
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7midtdzc2s"
 kcworks: https://works.hcommons.org/records/rbx4m-ky748
 biron: https://eprints.bbk.ac.uk/id/eprint/17309/
+smolpub: the-part-of-the-open-access-debate-that-is-irritatingly-ignored
 references:
 - author: Paul Jump
   date: '2012-06-28'

@@ -15,6 +15,7 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/70nrr-9ky81
 biron: https://eprints.bbk.ac.uk/id/eprint/49026/
+smolpub: open-peer-review-and-its-rhythms
 references:
 - title: Leading Generously
   type: WebSite

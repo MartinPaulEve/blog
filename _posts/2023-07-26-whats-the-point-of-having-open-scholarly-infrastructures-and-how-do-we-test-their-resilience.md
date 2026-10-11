@@ -16,6 +16,7 @@ categories:
 - Scholarly Communications
 kcworks: https://works.hcommons.org/records/nmm4t-9zv16
 biron: https://eprints.bbk.ac.uk/id/eprint/51638/
+smolpub: whats-the-point-of-having-open-scholarly-infrastructures-and-how-do-we-test-their-resilience
 references:
 - title: The Principles of Open Scholarly Infrastructure (v2.0, 2025)
   type: WebSite
