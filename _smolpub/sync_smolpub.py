@@ -15,10 +15,12 @@ Each post's built page under _site (the post-body div, so every era of
 markup, Liquid tag and footnote has already been rendered by Jekyll) is
 converted to gemtext, written to _smolpub/out/<slug>.gmi, and POSTed to
 smol.pub through the same form endpoints its smolpub.sh uses. The token is
-SMOL_PUB_KEY (environment or .env). _data/smolpub.yml records the content
-hash of everything pushed, so only new or changed posts are sent, and the
-post layout reads the same file to decide whether to show the gem.eve.gd
-links.
+SMOL_PUB_KEY (environment or .env). _smolpub/synced.yml records the content
+hash of everything pushed, so only new or changed posts are sent. A
+published post gets a `smolpub: <slug>` key stamped into its front matter
+(beside kcworks:/biron:/roguescholar:), which is what the post layout uses
+to show the gem.eve.gd links; posts in the ledger but missing the key are
+stamped on any run, so the stamp self-heals without network access.
 """
 
 from __future__ import annotations
@@ -47,7 +49,7 @@ UPDATE_URL = f"{API_HOST}/posts/{{slug}}/update"
 TIMEOUT = 30
 DEFAULT_SITE = "_site"
 DEFAULT_OUT = "_smolpub/out"
-DEFAULT_LEDGER = "_data/smolpub.yml"
+DEFAULT_LEDGER = "_smolpub/synced.yml"
 
 BODY_START = re.compile(r'<div class="post-body[^"]*">')
 TITLE_RE = re.compile(r'<h1 class="post-title[^"]*">(.*?)</h1>', re.DOTALL)
@@ -673,6 +675,71 @@ def content_hash(text):
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
 
 
+# --- front-matter stamping ----------------------------------------------------------
+
+FRONT_MATTER_RE = re.compile(r"\A---\n(.*?\n)---\n", re.DOTALL)
+SMOLPUB_LINE_RE = re.compile(r"^smolpub:[^\n]*\n", re.MULTILINE)
+ANCHOR_RES = [re.compile(rf"^{key}:[^\n]*\n", re.MULTILINE)
+              for key in ("biron", "kcworks", "doi")]
+
+
+def stamp_front_matter(text, slug):
+    """Post file text with ``smolpub: <slug>`` set in its front matter.
+
+    Targeted text manipulation, never YAML re-serialisation (which would
+    mangle comments, smart quotes and unquoted timestamps elsewhere). The
+    key goes after biron:, else kcworks:, else doi:, else at the end of the
+    front matter, so the identifier lines stay grouped; an existing value
+    is replaced, making the stamp idempotent.
+    """
+    if "\r" in text:
+        raise ValueError("CRLF/CR line endings; refusing to edit")
+    m = FRONT_MATTER_RE.match(text)
+    if not m:
+        raise ValueError("no front matter found")
+    fm = SMOLPUB_LINE_RE.sub("", m.group(1))
+    at = len(fm)
+    for anchor_re in ANCHOR_RES:
+        anchor = anchor_re.search(fm)
+        if anchor:
+            at = anchor.end()
+            break
+    fm = fm[:at] + f"smolpub: {slug}\n" + fm[at:]
+    return text[: m.start(1)] + fm + text[m.end(1):]
+
+
+def source_post(posts_dir, url_slug):
+    """The Markdown file for a URL slug, or None."""
+    posts = pathlib.Path(posts_dir)
+    if not posts.is_dir():
+        return None
+    for path in posts.glob(f"*-{url_slug}.md"):
+        if re.fullmatch(rf"\d{{4}}-\d{{2}}-\d{{2}}-{re.escape(url_slug)}\.md", path.name):
+            return path
+    return None
+
+
+def is_stamped(text, slug):
+    m = FRONT_MATTER_RE.match(text)
+    return bool(m) and f"\nsmolpub: {slug}\n" in "\n" + m.group(1)
+
+
+def stamp_post(posts_dir, url_slug, slug, echo=print):
+    """Stamp the source post if it exists and is not already stamped."""
+    path = source_post(posts_dir, url_slug)
+    if path is None:
+        return False
+    text = path.read_text(encoding="utf-8")
+    if is_stamped(text, slug):
+        return False
+    try:
+        path.write_text(stamp_front_matter(text, slug), encoding="utf-8")
+    except ValueError as exc:
+        echo(f"  WARNING: not stamping {path.name}: {exc}")
+        return False
+    return True
+
+
 # --- planning and publishing --------------------------------------------------------
 
 
@@ -848,6 +915,13 @@ def main(argv=None, http=post_form, env=None, today=None):
         for doc in planned:
             print(f"  would push {doc['slug']}")
         return 0
+
+    # Posts already mirrored carry their slug in the front matter; restore
+    # any that lost it (needs no network, so it runs before the token check).
+    repaired = sum(stamp_post(root / args.posts, doc["url_slug"], doc["slug"])
+                   for doc in documents if doc["url_slug"] in ledger)
+    if repaired:
+        print(f"stamped smolpub: into {repaired} already-mirrored post(s)")
     if not planned:
         return 0
 
@@ -870,6 +944,7 @@ def main(argv=None, http=post_form, env=None, today=None):
         ledger = update_ledger(ledger, doc["url_slug"], doc["slug"],
                                content_hash(doc["content"]), stamp)
         _save_ledger(ledger_path, ledger)
+        stamp_post(root / args.posts, doc["url_slug"], doc["slug"])
         print(f"  {outcome} {doc['slug']}")
         if args.sleep and index + 1 < len(planned):
             time.sleep(args.sleep)

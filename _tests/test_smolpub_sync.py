@@ -404,9 +404,16 @@ def test_content_hash_is_stable_and_content_sensitive():
 # --- collecting built posts --------------------------------------------------
 
 
-def make_site(tmp_path, *posts, extra_pages=()):
+def make_site(tmp_path, *posts, extra_pages=(), sources=True):
     site = tmp_path / "_site"
     for (y, m, d, slug, title) in posts:
+        if sources:
+            posts_dir = tmp_path / "_posts"
+            posts_dir.mkdir(exist_ok=True)
+            (posts_dir / f"{y}-{m}-{d}-{slug}.md").write_text(
+                f"---\ntitle: {title}\nlayout: post\ndate: {y}-{m}-{d}\n"
+                f"doi: https://doi.org/10.1/{slug}\nkcworks: https://works/{slug}\n"
+                f"---\n\n{title} body\n")
         page = site / y / m / d / slug
         page.mkdir(parents=True)
         (page / "index.html").write_text(
@@ -587,7 +594,7 @@ def test_dry_run_writes_gemtext_files_and_touches_nothing_else(tmp_path, monkeyp
     assert code == 0
     assert (tmp_path / "_smolpub" / "out" / "a.gmi").read_text().startswith("# A\n\n")
     assert http.calls == []
-    assert not (tmp_path / "_data" / "smolpub.yml").exists()
+    assert not (tmp_path / "_smolpub" / "synced.yml").exists()
 
 
 def test_real_run_pushes_new_posts_and_writes_the_ledger(tmp_path, monkeypatch):
@@ -597,7 +604,7 @@ def test_real_run_pushes_new_posts_and_writes_the_ledger(tmp_path, monkeypatch):
     assert sm.main([], http=http, env={"SMOL_PUB_KEY": "tok"}) == 0
     assert sorted(c["fields"]["slug"] for c in http.calls) == ["a", "b-x"]
     import yaml
-    ledger = yaml.safe_load((tmp_path / "_data" / "smolpub.yml").read_text())
+    ledger = yaml.safe_load((tmp_path / "_smolpub" / "synced.yml").read_text())
     assert set(ledger) == {"a", "B_x"}
     assert ledger["B_x"]["slug"] == "b-x"
     assert ledger["a"]["hash"]
@@ -645,7 +652,7 @@ def test_failed_push_leaves_that_post_out_of_the_ledger_and_exits_nonzero(tmp_pa
     code = sm.main([], http=Flaky({}), env={"SMOL_PUB_KEY": "tok"})
     assert code != 0
     import yaml
-    ledger = yaml.safe_load((tmp_path / "_data" / "smolpub.yml").read_text())
+    ledger = yaml.safe_load((tmp_path / "_smolpub" / "synced.yml").read_text())
     assert set(ledger) == {"a"}
 
 
@@ -666,7 +673,8 @@ def test_text_lines_starting_with_a_quote_marker_are_left_alone():
 
 
 def test_collect_posts_skips_built_pages_whose_source_post_is_gone(tmp_path):
-    site = make_site(tmp_path, ("2024", "01", "09", "a", "A"), ("2015", "02", "06", "stale", "S"))
+    site = make_site(tmp_path, ("2024", "01", "09", "a", "A"), ("2015", "02", "06", "stale", "S"),
+                     sources=False)
     posts = tmp_path / "_posts"
     posts.mkdir()
     (posts / "2024-01-09-a.md").write_text("---\ntitle: A\n---\nbody\n")
@@ -674,7 +682,8 @@ def test_collect_posts_skips_built_pages_whose_source_post_is_gone(tmp_path):
 
 
 def test_collect_posts_without_a_posts_dir_takes_every_built_post(tmp_path):
-    site = make_site(tmp_path, ("2024", "01", "09", "a", "A"), ("2015", "02", "06", "b", "B"))
+    site = make_site(tmp_path, ("2024", "01", "09", "a", "A"), ("2015", "02", "06", "b", "B"),
+                     sources=False)
     assert len(sm.collect_posts(site, posts_dir=tmp_path / "nowhere")) == 2
 
 
@@ -703,3 +712,104 @@ def test_document_web_link_is_percent_encoded():
     doc = sm.render_document({**META, "url": "https://eve.gd/2021/08/19/s-gerät/"}, "x")
     assert "=> https://eve.gd/2021/08/19/s-ger%C3%A4t/ " in doc
     assert "gerät/ Read" not in doc
+
+
+# --- front-matter stamping ----------------------------------------------------
+
+
+FM_FULL = """---
+title: "A post"
+layout: post
+date: 2026-08-28
+doi: https://doi.org/10.59348/mjvdw-w0051
+roguescholar: https://rogue-scholar.org/records/26jfx-f4w16
+kcworks: https://works.hcommons.org/records/83n59-ana25
+biron: https://eprints.bbk.ac.uk/id/eprint/57592/
+image:
+  feature: metadatatiles.jpg
+---
+
+Body mentioning biron: and smolpub: inline.
+"""
+
+FM_DOI_ONLY = """---
+title: "Older"
+date: 2007-05-15
+doi: https://doi.org/10.59348/2zhsq-kgd29
+comments: []
+---
+
+Old body.
+"""
+
+
+def test_stamp_inserts_smolpub_key_after_the_biron_line():
+    out = sm.stamp_front_matter(FM_FULL, "a-post")
+    lines = out.splitlines()
+    biron = lines.index("biron: https://eprints.bbk.ac.uk/id/eprint/57592/")
+    assert lines[biron + 1] == "smolpub: a-post"
+
+
+def test_stamp_falls_back_to_kcworks_then_doi_then_end_of_front_matter():
+    out = sm.stamp_front_matter(FM_DOI_ONLY, "older")
+    lines = out.splitlines()
+    assert lines[lines.index("doi: https://doi.org/10.59348/2zhsq-kgd29") + 1] == "smolpub: older"
+    out = sm.stamp_front_matter("---\ntitle: x\n---\n\nBody.\n", "x")
+    assert out == "---\ntitle: x\nsmolpub: x\n---\n\nBody.\n"
+
+
+def test_stamp_is_idempotent_and_replaces_an_existing_value():
+    once = sm.stamp_front_matter(FM_FULL, "a-post")
+    assert sm.stamp_front_matter(once, "a-post") == once
+    changed = sm.stamp_front_matter(once, "renamed")
+    assert changed.split("---")[1].count("smolpub:") == 1
+    assert "smolpub: renamed" in changed
+
+
+def test_stamp_leaves_body_and_other_front_matter_untouched():
+    out = sm.stamp_front_matter(FM_FULL, "a-post")
+    assert "Body mentioning biron: and smolpub: inline." in out
+    assert "  feature: metadatatiles.jpg" in out
+    assert out.count("---\n") == 2
+
+
+def test_stamp_refuses_text_without_front_matter():
+    with pytest.raises(ValueError):
+        sm.stamp_front_matter("No front matter here.\n", "x")
+
+
+def test_real_run_stamps_the_source_post_after_a_successful_push(tmp_path, monkeypatch):
+    make_site(tmp_path, ("2024", "01", "09", "a", "A"), ("2016", "02", "18", "B_x", "B"))
+    monkeypatch.chdir(tmp_path)
+    assert sm.main([], http=FakeHttp({"/posts/save": 302}), env={"SMOL_PUB_KEY": "tok"}) == 0
+    a = (tmp_path / "_posts" / "2024-01-09-a.md").read_text()
+    b = (tmp_path / "_posts" / "2016-02-18-B_x.md").read_text()
+    assert "smolpub: a\n" in a.split("---")[1]
+    assert "smolpub: b-x\n" in b.split("---")[1]
+
+
+def test_dry_run_does_not_stamp(tmp_path, monkeypatch):
+    make_site(tmp_path, ("2024", "01", "09", "a", "A"))
+    monkeypatch.chdir(tmp_path)
+    sm.main(["--dry-run"], http=FakeHttp({}), env={})
+    assert "smolpub:" not in (tmp_path / "_posts" / "2024-01-09-a.md").read_text()
+
+
+def test_failed_push_leaves_the_post_unstamped(tmp_path, monkeypatch):
+    make_site(tmp_path, ("2024", "01", "09", "a", "A"))
+    monkeypatch.chdir(tmp_path)
+    sm.main([], http=FakeHttp({}), env={"SMOL_PUB_KEY": "tok"})
+    assert "smolpub:" not in (tmp_path / "_posts" / "2024-01-09-a.md").read_text()
+
+
+def test_posts_already_in_the_ledger_but_unstamped_get_stamped_without_a_push(tmp_path, monkeypatch):
+    make_site(tmp_path, ("2024", "01", "09", "a", "A"))
+    monkeypatch.chdir(tmp_path)
+    http = FakeHttp({"/posts/save": 302})
+    sm.main([], http=http, env={"SMOL_PUB_KEY": "tok"})
+    post = tmp_path / "_posts" / "2024-01-09-a.md"
+    post.write_text(post.read_text().replace("smolpub: a\n", ""))
+    sent = len(http.calls)
+    assert sm.main([], http=http, env={}) == 0   # no token needed: nothing to push
+    assert len(http.calls) == sent
+    assert "smolpub: a\n" in post.read_text()

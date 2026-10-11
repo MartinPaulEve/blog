@@ -16,14 +16,14 @@ Success looks like:
 - `uv run --env-file .env _smolpub/sync_smolpub.py --dry-run` converts all
   1,007 posts to gemtext under `_smolpub/out/` without touching the network.
 - A real run pushes only posts that are new or whose text changed since the
-  last run, and records what it pushed in `_data/smolpub.yml`.
+  last run, and records what it pushed in `_smolpub/synced.yml`.
 - `./deploy.sh` runs the sync after the Jekyll build, rebuilds when a post was
   pushed for the first time (so its links render), and never fails a deploy
   because smol.pub is down.
 - A post page shows "View this item on https://gem.eve.gd" and "View this
-  item on gemini://gem.eve.gd" once the post is on smol.pub, and nothing
-  before, with no PDF re-renders (the links live in the paragraph the PDF
-  cache key already ignores).
+  item on gemini://gem.eve.gd" once the post is on smol.pub (its front
+  matter carries `smolpub: <slug>`), and nothing before, with no PDF
+  re-renders (the links live in the paragraph the PDF cache key ignores).
 
 ## Design
 
@@ -72,10 +72,12 @@ smol.pub's API is the one its `smolpub.sh` uses: a multipart form POST of
 exists, and `POST /posts/<slug>/update` replaces it. The token is
 `SMOL_PUB_KEY` in the environment or `.env`.
 
-`_data/smolpub.yml` is the ledger: URL slug → `{slug, hash, synced}`. The
+`_smolpub/synced.yml` is the ledger: URL slug → `{slug, hash, synced}`. The
 hash is of the gemtext content, so an unchanged post is never re-sent and an
-edit is. Being under `_data`, the ledger is what the post layout consults to
-decide whether to show the two links.
+edit is. A published post also gets `smolpub: <slug>` stamped into its front
+matter, beside the other identifier keys, and that key is what the post
+layout consults to show the two links. Posts in the ledger that lack the key
+are re-stamped on any run, with no network access needed.
 
 ## Commands
 
@@ -93,7 +95,7 @@ cd evedeploy && uv run pytest                                  # pipeline
 ```
 _smolpub/sync_smolpub.py   converter + API client + CLI (stdlib + pyyaml)
 _smolpub/out/<slug>.gmi    generated documents (gitignored)
-_data/smolpub.yml          ledger, committed by the deploy
+_smolpub/synced.yml          ledger, committed by the deploy
 _tests/test_smolpub_sync.py
 evedeploy/evedeploy/pipeline.py  sync_smolpub() step
 _layouts/post.html         the two links

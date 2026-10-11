@@ -388,31 +388,22 @@ def send_webmentions(root: Path, run=default_run, echo=print, present=None,
 
 
 SMOLPUB_SYNC = "_smolpub/sync_smolpub.py"
-SMOLPUB_LEDGER = "_data/smolpub.yml"
-_LEDGER_KEY = re.compile(r"^(['\"]?)(\S.*?)\1:\s*$")
-
-
-def _ledger_slugs(root: Path) -> list:
-    """Top-level keys of the smol.pub ledger (the URL slugs already mirrored)."""
-    ledger = Path(root) / SMOLPUB_LEDGER
-    if not ledger.is_file():
-        return []
-    return [m.group(2) for m in map(_LEDGER_KEY.match, ledger.read_text().splitlines()) if m]
 
 
 def sync_smolpub(root: Path, run=default_run, echo=print, present=None) -> list:
-    """Mirror new/changed posts to smol.pub; returns the slugs mirrored for
-    the first time (their pages need a rebuild to render the gem.eve.gd
-    links). Tolerant: smol.pub being down never blocks a deploy, and a
-    partial run still reports what it managed, since the ledger is written
-    per post."""
+    """Mirror new/changed posts to smol.pub; returns the posts stamped with
+    a ``smolpub:`` key by this run (their pages need a rebuild to render
+    the gem.eve.gd links). Tolerant: smol.pub being down never blocks a
+    deploy, and a partial run still reports what it managed, since each
+    post is stamped as soon as it is published."""
     root = Path(root)
-    before = set(_ledger_slugs(root))
+    pending = posts_missing_marker(root, "smolpub:")
     _webmention_step(
         root, SMOLPUB_SYNC,
         "WARNING: smol.pub sync failed or incomplete; the next deploy retries.",
         run=run, echo=echo, present=present)
-    return [slug for slug in _ledger_slugs(root) if slug not in before]
+    still = set(posts_missing_marker(root, "smolpub:"))
+    return [post for post in pending if post not in still]
 
 
 def commit_sent_state(root: Path, run=default_run) -> bool:
@@ -687,8 +678,9 @@ def deploy(
         echo("    (no new posts)")
 
     # The gemtext mirror reads the built pages, and a post's first trip to
-    # smol.pub adds it to the ledger the layout consults for the gem.eve.gd
-    # links, so those posts need one more build before the site ships.
+    # smol.pub stamps a smolpub: key into its front matter (the layout's
+    # cue for the gem.eve.gd links), so those posts need one more build
+    # before the site ships.
     echo("==> Mirroring posts to smol.pub")
     mirrored = sync_smolpub(root, run=run, echo=echo)
     if mirrored:
