@@ -17396,6 +17396,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-10/#t20261012071553": {
+   "content_hash": "4ce7d6aa7cb644cb91f62df30842107fc74323809a4c989b66764c10c8069794",
+   "sent": {
+    "https://www.openbookpublishers.com/books/10.11647/OBP.0528": {
+     "at": "2026-10-12T06:17:06+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
