@@ -17405,6 +17405,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-10/#t20261013070058": {
+   "content_hash": "11a35545e8dfa479ef630569664d59d9b289dfb49ca61ec5b2f7ab701e45268f",
+   "sent": {
+    "https://www.theguardian.com/society/2026/oct/13/women-autoimmune-conditions-psychological-misdiagnosis-cambridge-study": {
+     "at": "2026-10-13T06:02:08+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
