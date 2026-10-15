@@ -17441,6 +17441,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-10/#t20261015122449": {
+   "content_hash": "fbec6d050cca11be09a69af0cccb2b873ede09fd64fc124a28483cd3390e2c9f",
+   "sent": {
+    "https://www.bbk.ac.uk/events/event/65932/intelligence-computation-or-symbolic-form-in-person": {
+     "at": "2026-10-15T11:26:03+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
