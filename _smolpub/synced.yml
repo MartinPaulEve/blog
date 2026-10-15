@@ -342,6 +342,10 @@ an-open-library-of-humanities-adeline-koh-interviews-me-at-the-chronicles-profha
   hash: 5d258509e093e54321c0187ad9b7ed09f1101f705610d6044b684cd41812b2a9
   slug: an-open-library-of-humanities-adeline-koh-interviews-me-at-the-chronicles-profhacker
   synced: '2026-10-11'
+an-update-from-day-68-in-hospital:
+  hash: 9bc1eb2b64a1ef630c89490673d6197f98fc04cc5594af8d0e6b2745a5c43050
+  slug: an-update-from-day-68-in-hospital
+  synced: '2026-10-15'
 an-update-on-my-warez-book:
   hash: 5e51fe029e1b6af7178ddecd2a73a24f9ef694b85c6a498ce39ca94c914e55b2
   slug: an-update-on-my-warez-book
@@ -503,7 +507,7 @@ bis-metrics-and-non-selective-qr-allocation:
   slug: bis-metrics-and-non-selective-qr-allocation
   synced: '2026-10-11'
 bitmask-values-for-wtbllook-wval-attribute-in-ooxml:
-  hash: 6a143b663d47c6054a3bff2422ebf94a8a50618d45794bfdfa3d48be26be176d
+  hash: 62f64cb4a3384f170f72dd8c851b85bd202f5f805c3a6cf5927c4635963ec9a8
   slug: bitmask-values-for-wtbllook-wval-attribute-in-ooxml
   synced: '2026-10-15'
 blocking-my-crawl:
@@ -855,11 +859,11 @@ day-2-of-twenty-first-century-literature-conference-at-birkbeck:
   slug: day-2-of-twenty-first-century-literature-conference-at-birkbeck
   synced: '2026-10-11'
 dear-publisher-2:
-  hash: 2f66481cc6574a54229c487e56e7132d52a9a592262bf74fa8eae4e04613f7f0
+  hash: 4b9994085699379a0b33f205fe56aeb3fc16cf9b175174937734d077f2d90f1e
   slug: dear-publisher-2
   synced: '2026-10-15'
 dear-top-journal-1-year-and-4-months-to-review-is-too-long:
-  hash: ffe9328a057a18447a3f7575904b4c96518ef0409981a761ab0b7f718bc65d44
+  hash: cab94168d0e65f74c289da26a7ccac883ae744155fd6f84b778f212a99f3f3a5
   slug: dear-top-journal-1-year-and-4-months-to-review-is-too-long
   synced: '2026-10-15'
 dear-walt:
@@ -867,7 +871,7 @@ dear-walt:
   slug: dear-walt
   synced: '2026-10-11'
 debugging-metypeset-using-a-git-filesystem:
-  hash: b3f346ecffa3764367530cce0139720c6ef832df024f076df4050574b91cb05e
+  hash: e63211f6d08050d4520c2784f4f533f83ec4ae70f20609c3ae8b871ab02f44d0
   slug: debugging-metypeset-using-a-git-filesystem
   synced: '2026-10-15'
 define-impact:
@@ -891,7 +895,7 @@ designing-an-open-source-oa-toolchain-for-books:
   slug: designing-an-open-source-oa-toolchain-for-books
   synced: '2026-10-11'
 determining-glyph-availability-for-fop:
-  hash: 22dbb584c0aaa388021d7d72807d6342dee61e65736f091278d6b493dff1d405
+  hash: 2359179d8a05588d872f7b460fd1b0ec1cf8e9a33d19d6c862febec222293d62
   slug: determining-glyph-availability-for-fop
   synced: '2026-10-15'
 dialectic-of-enlightenment-2011:
@@ -967,7 +971,7 @@ dual-stage-sql-injection-attacks:
   slug: dual-stage-sql-injection-attacks
   synced: '2026-10-11'
 dumping-jats-from-zotero:
-  hash: ecf9cb7b10bd2a39be34ad73b7bb6319957cf18249c529eb6ee144b57bfb2271
+  hash: 3af277dc43927479820d3ac7c56cf94626190399c79db090c0b6cd811b058bf1
   slug: dumping-jats-from-zotero
   synced: '2026-10-15'
 e-books-copyright-infringement-theft-materiality-and-the-virtual:
@@ -983,7 +987,7 @@ embargoing-metadata:
   slug: embargoing-metadata
   synced: '2026-10-11'
 enabling-a-triple-head-3-monitor-setup-on-linux-mint-16-petra-with-two-nvidia-cards:
-  hash: 520211d8ee8e1fb92f3d1bf45c471cb35f3ec2fb8866673d5f6db50233d16ae2
+  hash: 30729763504c1bcf8a8b962e910ab9ceb8ac88ce6b9ca187407157ee87f76756
   slug: enabling-a-triple-head-3-monitor-setup-on-linux-mint-16-petra-with-two-nvidia-cards
   synced: '2026-10-15'
 encrypted-partition-recovery-on-ubuntu-10-10:
@@ -1163,7 +1167,7 @@ ftp-url-fastsnap-parsing-in-net:
   slug: ftp-url-fastsnap-parsing-in-net
   synced: '2026-10-11'
 full-response-to-science-metrix-report-on-gold-oa-citation-rates:
-  hash: 3481cba7e8881ffb5cd15c2b974d0e67c6c04b56b382adcadf27778477b5603e
+  hash: ef6bf5947354ecda72468a99ebe6eee82ebd4dcc66a9a1adb47cb8a528ee7f9b
   slug: full-response-to-science-metrix-report-on-gold-oa-citation-rates
   synced: '2026-10-15'
 funding-for-the-open-library-of-humanities-from-the-andrew-w-mellon-foundation:
@@ -1235,7 +1239,7 @@ google-scholar-will-count-a-blog-post-as-an-article-if-its-cited-a-preservation-
   slug: google-scholar-will-count-a-blog-post-as-an-article-if-its-cited-a-preservation-suggesstion
   synced: '2026-10-11'
 gov-and-rcuk-responses-to-open-access-inquiry-eradicating-non-disclosure-clauses:
-  hash: d82d6185cf3c69c6be0699942a656952f1e67ce25dee02fb46d28f438262a2d9
+  hash: c335fe8bd0bcc454655800b2adea87829ce75864dd4046028ff84f210373b797
   slug: gov-and-rcuk-responses-to-open-access-inquiry-eradicating-non-disclosure-clauses
   synced: '2026-10-15'
 guardian-qa-summary-life-after-a-phd:
@@ -1275,7 +1279,7 @@ happy-85th-birthday-michel-foucault:
   slug: happy-85th-birthday-michel-foucault
   synced: '2026-10-11'
 has-the-licensing-battle-been-deferred-in-the-latest-hefce-document:
-  hash: 5a07e25ca52ced04340de99b906db14c30c7935a9c3ef9190d8100dfde001cc7
+  hash: f6f6022cdf8e643a1d4875bb8b7651d2be3e3f0968634e4ad8e29cb822b209e1
   slug: has-the-licensing-battle-been-deferred-in-the-latest-hefce-document
   synced: '2026-10-15'
 have-you-read-david-mitchells-cloud-atlas-if-so-which-of-the-two-very-different-versions:
@@ -1411,7 +1415,7 @@ hefce-ref2020-ir-deposit-and-embargoes:
   slug: hefce-ref2020-ir-deposit-and-embargoes
   synced: '2026-10-11'
 hefce-the-state-of-open-access-in-the-uk-and-post-2014-ref:
-  hash: c11a837dda2ddf7777dfa61df5cc0898897fda14bcbacb8cd8bcfa00be1c68f8
+  hash: 4acc53166d3b3ad79f835cc29d90fc7150428d858c5ff7761b442164a3f3680a
   slug: hefce-the-state-of-open-access-in-the-uk-and-post-2014-ref
   synced: '2026-10-15'
 hefces-post-2014-open-access-policy-the-short-what-you-need-to-know-version:
@@ -1791,7 +1795,7 @@ joe-ortons-defaced-books-at-the-islington-museum:
   slug: joe-ortons-defaced-books-at-the-islington-museum
   synced: '2026-10-11'
 joining-the-uk-national-monographs-strategy-expert-panel:
-  hash: 3cc0be4bdaa0715b30b39b4671fc735297dfa1413c831e32fe5f29178b205d21
+  hash: 4b977bb8f228070dc01f91476b694a86b55d196db90610fb6e99d88530b363ec
   slug: joining-the-uk-national-monographs-strategy-expert-panel
   synced: '2026-10-15'
 jottings-on-academic-freedom-and-plan-s:
@@ -2095,7 +2099,7 @@ my-new-book-literature-against-criticism-is-published-today:
   slug: my-new-book-literature-against-criticism-is-published-today
   synced: '2026-10-11'
 my-personal-response-to-the-ttip-consultation:
-  hash: d25777a54bea8f7ee3bd2f435e480490234b7256f94ba0b16faa212fc2413e30
+  hash: 659ac1e2b807820e998a52a63ce7a7a4505104b08447e30d1dffab34d7c7e75f
   slug: my-personal-response-to-the-ttip-consultation
   synced: '2026-10-15'
 my-recent-work-at-berfrois:
@@ -2459,7 +2463,7 @@ open-access-monographs-and-the-ref-after-ref-2021:
   slug: open-access-monographs-and-the-ref-after-ref-2021
   synced: '2026-10-11'
 open-access-monographs-and-working-for-publishers-for-free:
-  hash: 0a1594d97ff5431ef3ce5eaa3057496d3a5598920d6e0c546ea6d85f4c6c8912
+  hash: c16861872713eeb27cc0ab0e3bd5999585a145cdca03708de1849b68a3bea0bb
   slug: open-access-monographs-and-working-for-publishers-for-free
   synced: '2026-10-15'
 open-access-monographs-misrepresented:
@@ -2727,7 +2731,7 @@ publication-the-botnet-webs-of-hegemonyzombies-who-publish-in-zombies-in-the-aca
   slug: publication-the-botnet-webs-of-hegemonyzombies-who-publish-in-zombies-in-the-academy-bristol-intellect-2013
   synced: '2026-10-11'
 publication-the-means-of-re-production-expertise-open-tools-standards-and-communication:
-  hash: 46e1063bd68cf6b0172e2fd607c14a10c1988c4bf2ebfb2414e817becaba45d6
+  hash: 0abefb34e0b228f0bb6145252e4cc9ef1688a61f23cd6c78871e98f089f80d5a
   slug: publication-the-means-of-re-production-expertise-open-tools-standards-and-communication
   synced: '2026-10-15'
 publication-thomas-pynchon-david-foster-wallace-and-the-problems-of-metamodernism-post-millennial-post-postmodernism:
@@ -2859,7 +2863,7 @@ reloading-sqlite-databases-in-django-when-there-have-been-external-changes:
   slug: reloading-sqlite-databases-in-django-when-there-have-been-external-changes
   synced: '2026-10-11'
 rendering-mathml-in-xslfo-to-pdf-using-fop:
-  hash: f730bdb5fb0d37a7aa9b9af4ff71b2279d86879e4ce0bf44dd82e25ca30203b2
+  hash: adce487507c24809949e310cc2c1ec83582934295515bdc66a2fd477fd5e080c
   slug: rendering-mathml-in-xslfo-to-pdf-using-fop
   synced: '2026-10-15'
 replacing-openvpn-with-wireguard-including-on-synology-devices:
@@ -3187,7 +3191,7 @@ sxsw-panel-vote-to-get-open-access-on-the-agenda:
   slug: sxsw-panel-vote-to-get-open-access-on-the-agenda
   synced: '2026-10-11'
 symposium-on-david-mitchell-9th-may-london:
-  hash: 0760b05e3484d7329ae0893b49c8d272f63b0d777856bbf6a5756f8d64887d63
+  hash: c5e6841fbda1e9575b94e1c24a0b4c9ec08b6bd80619db57afe1958d2bc6a8d7
   slug: symposium-on-david-mitchell-9th-may-london
   synced: '2026-10-15'
 talawas-waiting-for-godot:
@@ -3295,7 +3299,7 @@ the-current-state-of-evusheld-tixagevimabcilgavimab-in-the-uk:
   slug: the-current-state-of-evusheld-tixagevimabcilgavimab-in-the-uk
   synced: '2026-10-11'
 the-democracy-we-do-not-want:
-  hash: a37c9f36b9dff959cb33f2288a39fc4e036730e34487b4d349291f0a569ea85f
+  hash: 43a501d4fc86aeb430225cb28fe61baf142e4e4b488a5efa04ee0cb53b962a63
   slug: the-democracy-we-do-not-want
   synced: '2026-10-15'
 the-edited-collection-and-its-discontents:
@@ -3487,7 +3491,7 @@ the-supervisory-frustrations-of-ahrc-dtps:
   slug: the-supervisory-frustrations-of-ahrc-dtps
   synced: '2026-10-11'
 the-tax-his-land-meme-and-its-discontents-me:
-  hash: 3b2396d23439f231d66662c72f8e38341e8a20fee77045362707a8996e92294d
+  hash: 3bc1231e903467413db87264d2f6847ab61e5863c5c97847cc938ab52d0a943b
   slug: the-tax-his-land-meme-and-its-discontents-me
   synced: '2026-10-15'
 the-tender-document-for-the-european-commissions-open-access-platform-asks-for-an-awful-lot:
@@ -3907,7 +3911,7 @@ who-knows-where-the-time-goes:
   slug: who-knows-where-the-time-goes
   synced: '2026-10-11'
 who-owns-a-prezi:
-  hash: 530f0fc4424d5a283b2ce746db155ba0e8f45f1fa7becde1408ff7ab82926b13
+  hash: e842f4284c5d88be1892fa34330d54838f47dfe4ce75492cfe445758288f065a
   slug: who-owns-a-prezi
   synced: '2026-10-15'
 who-was-responsible-for-the-toby-young-ofs-debacle:
@@ -3983,7 +3987,7 @@ words-in-memory-of-troy-davis:
   slug: words-in-memory-of-troy-davis
   synced: '2026-10-11'
 work-on-open-access-technology-get-a-masters-degree-in-computer-science-funded-place:
-  hash: a7a1cd26b92dac20b10802a1c2c5b900788e55407785e3729b6db44e3afdc7ce
+  hash: d79c8726597a765104add5687bf8ac2f927b82108a72eeff4c77dcb64194f567
   slug: work-on-open-access-technology-get-a-masters-degree-in-computer-science-funded-place
   synced: '2026-10-15'
 wp-aspxrewriter-alpha-test:

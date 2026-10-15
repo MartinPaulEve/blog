@@ -11,6 +11,9 @@ image:
   creditlink: "https://pixabay.com/vectors/electrocardiogram-ecg-heartbeat-36732/"
   feature: vitals.png
   title: "Heart rhythm monitor with ECG line illustration"
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mxvm5gqsad2r"
+kcworks: https://works.hcommons.org/records/k3r7x-39g32
+smolpub: an-update-from-day-68-in-hospital
 ---
 
 Here's an update on my health, at Day 68 in hospital.

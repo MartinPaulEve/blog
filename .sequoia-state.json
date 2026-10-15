@@ -906,11 +906,11 @@
       "lastPublished": "2026-09-09T20:07:44.962Z",
       "slug": "a-bibliography-on-the-interestingim-interested-in"
     },
-    "_posts/2021-08-19-thomas-pynchon-from-s-ger\u00e4t-to-y-ger\u00e4t.md": {
+    "_posts/2021-08-19-thomas-pynchon-from-s-gerät-to-y-gerät.md": {
       "contentHash": "f6c97a5bef594d5d083ce0bb2c2c02a1d62155e014a4dc70cd059ed7f6eb3bf9",
       "atUri": "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2na7zc2e",
       "lastPublished": "2026-09-09T20:07:47.096Z",
-      "slug": "thomas-pynchon-from-s-ger\u00e4t-to-y-ger\u00e4t"
+      "slug": "thomas-pynchon-from-s-gerät-to-y-gerät"
     },
     "_posts/2021-08-07-notes-on-nicholas-gaskills-chromographia-american-literature-and-the-modernization-of-color.md": {
       "contentHash": "fcc3ce660ea574e94e6c9ded52665c2aaf516326d06f0abc55be905152fe3c9f",
@@ -918,11 +918,11 @@
       "lastPublished": "2026-09-09T20:07:49.123Z",
       "slug": "notes-on-nicholas-gaskills-chromographia-american-literature-and-the-modernization-of-color"
     },
-    "_posts/2021-08-02-some-incomplete-notes-on-les-encres-noires-au-moyen-\u00e2ge.md": {
+    "_posts/2021-08-02-some-incomplete-notes-on-les-encres-noires-au-moyen-âge.md": {
       "contentHash": "fb01dea319b98620a7ad9bbaf4a223746fbe32948ed041cd824a7c06f2d9b512",
       "atUri": "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7m2uc2gc2h",
       "lastPublished": "2026-09-09T20:07:50.119Z",
-      "slug": "some-incomplete-notes-on-les-encres-noires-au-moyen-\u00e2ge"
+      "slug": "some-incomplete-notes-on-les-encres-noires-au-moyen-âge"
     },
     "_posts/2021-07-28-mesh-on-a-budget-converting-rbr50-to-rbs50-units-and-using-lbr20-for-4g-fallback.md": {
       "contentHash": "bd91aa8a1f4d75508115a144414ccb6a0e37e7dc0edc860d2dba5c3d310d1d6e",
@@ -6041,6 +6041,12 @@
       "atUri": "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mx4gedp4x425",
       "lastPublished": "2026-10-08T21:26:59.022Z",
       "slug": "my-view-on-ai-and-university-level-english-literature"
+    },
+    "_posts/2026-10-15-an-update-from-day-68-in-hospital.md": {
+      "contentHash": "1287d3de224f8a2a4437d1f60955f4224d5ccc2045273c3055f887556ca5a93c",
+      "atUri": "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mxvm5gqsad2r",
+      "lastPublished": "2026-10-15T08:06:35.985Z",
+      "slug": "an-update-from-day-68-in-hospital"
     }
   },
   "publication": {
