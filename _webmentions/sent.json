@@ -17396,6 +17396,51 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-10/#t20261012071553": {
+   "content_hash": "4ce7d6aa7cb644cb91f62df30842107fc74323809a4c989b66764c10c8069794",
+   "sent": {
+    "https://www.openbookpublishers.com/books/10.11647/OBP.0528": {
+     "at": "2026-10-12T06:17:06+00:00",
+     "endpoint": null
+    }
+   }
+  },
+  "/thoughts/2026-10/#t20261013070058": {
+   "content_hash": "11a35545e8dfa479ef630569664d59d9b289dfb49ca61ec5b2f7ab701e45268f",
+   "sent": {
+    "https://www.theguardian.com/society/2026/oct/13/women-autoimmune-conditions-psychological-misdiagnosis-cambridge-study": {
+     "at": "2026-10-13T06:02:08+00:00",
+     "endpoint": null
+    }
+   }
+  },
+  "/thoughts/2026-10/#t20261013074129": {
+   "content_hash": "17a9b0afb086b8593aff338d4669626b39d6e876c92906790e084934459032ec",
+   "sent": {
+    "https://www.reddit.com/r/doctorsUK/s/7GDTqzLvnU": {
+     "at": "2026-10-13T06:42:34+00:00",
+     "endpoint": null
+    }
+   }
+  },
+  "/thoughts/2026-10/#t20261013090610": {
+   "content_hash": "09fbe9a91e5105cd44159b815e8c06e49b0f09a469f2de18d262af308c1622d2",
+   "sent": {
+    "https://openfatigue.ai/": {
+     "at": "2026-10-13T08:07:17+00:00",
+     "endpoint": null
+    }
+   }
+  },
+  "/thoughts/2026-10/#t20261014112711": {
+   "content_hash": "1e421a2082376bb4e928f43511c234b32f477d226415516c5509890151d1b4a4",
+   "sent": {
+    "https://www.openlibhums.org/news/1025/": {
+     "at": "2026-10-14T10:28:20+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
