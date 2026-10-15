@@ -118,6 +118,9 @@ def main(message, no_resize, yes, root, build_only, no_server, no_rs_wait,
     """
     if remote_phase:
         local, no_resize, no_cv = True, True, True
+        # No one can see a sign-in window on the build host: the BIROn
+        # uploader must use the cookie the caller shipped, never a browser.
+        os.environ["BIRON_NO_BROWSER"] = "1"
     print_banner(words=REMOTE_WORDS if remote_phase else None)
 
     if root is None:

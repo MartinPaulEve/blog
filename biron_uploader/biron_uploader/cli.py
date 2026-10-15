@@ -131,7 +131,10 @@ def _ensure_client(base_url: str, root: Path, echo=print) -> BironClient:
 
     Cookie-based sessions are verified against /id/contents; a stale
     harvested cookie triggers a silent headless re-login through the
-    dedicated browser profile. Basic credentials are used as-is.
+    dedicated browser profile — unless BIRON_NO_BROWSER is set (a remote
+    build host, where the cookie arrives from the caller and nobody could
+    see a sign-in window), which turns a stale session into a clear
+    failure instead. Basic credentials are used as-is.
     """
     cookie, source = _resolve_cookie(root)
     username = os.environ.get("BIRON_USERNAME")
@@ -152,6 +155,12 @@ def _ensure_client(base_url: str, root: Path, echo=print) -> BironClient:
     else:
         echo("No BIROn session on file; attempting a headless login…")
 
+    if os.environ.get("BIRON_NO_BROWSER"):
+        sys.exit(
+            "BIROn session missing or stale and no browser may be opened "
+            "here (BIRON_NO_BROWSER) — run ./biron.sh login on the machine "
+            "that starts the deploy, which ships the cookie to this host"
+        )
     try:
         cookie = cookiejar.harvest(root, headless=True, echo=echo)
     except cookiejar.LoginError as exc:

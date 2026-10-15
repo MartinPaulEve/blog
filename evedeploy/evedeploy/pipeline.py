@@ -305,6 +305,39 @@ def biron_deposit_new(root: Path, run=default_run, echo=print,
     return [post for post in pending if post not in still]
 
 
+def refresh_biron_session(root: Path, run=default_run, echo=print,
+                          present=None) -> bool:
+    """Renew the BIROn session cookie on this machine; True when it is fresh.
+
+    BIROn signs in through Microsoft SSO in a browser, which only the
+    operator's own machine can show, so before a remote build the cookie
+    is renewed here and shipped to the host as a file. The dedicated
+    browser profile usually renews it silently (``login --headless``);
+    when that fails the visible sign-in window is opened instead. Skipped
+    without a biron.sh or a BIRON_ setting in .env; a failed login is a
+    warning (the host then skips BIROn deposits for this run).
+    """
+    root = Path(root)
+    exists = present or (lambda relative: (root / relative).is_file())
+    if not exists("biron.sh"):
+        return False
+    env_path = root / ".env"
+    if not env_path.is_file() or "BIRON_" not in env_path.read_text():
+        return False
+    try:
+        run(["./biron.sh", "login", "--headless"], cwd=root)
+        return True
+    except subprocess.CalledProcessError:
+        echo("    silent refresh failed; sign in to BIROn in the browser window")
+    try:
+        run(["./biron.sh", "login"], cwd=root)
+        return True
+    except subprocess.CalledProcessError:
+        echo("WARNING: BIROn login failed; the build host will skip BIROn "
+             "deposits this run (they retry next deploy).")
+        return False
+
+
 def commit_biron_ledger(root: Path, run=default_run) -> bool:
     """Commit the BIROn ledgers if the sync pass changed them."""
     _step(run, ["git", "add", "_biron"], name="git add",
@@ -857,6 +890,9 @@ def remote_deploy(root: Path, host: str, remote_dir: str, message, args,
         echo("==> Committing and pushing")
         if not git_commit_push(root, message, run=run):
             echo("Nothing new to commit — working tree clean.")
+        echo("==> Refreshing the BIROn session for the build host")
+        if not refresh_biron_session(root, run=run, echo=echo):
+            echo("    (skipped or failed)")
 
     branch = _git_out(run, ["rev-parse", "--abbrev-ref", "HEAD"], root) or "main"
     origin = _git_out(run, ["remote", "get-url", "origin"], root)

@@ -35,7 +35,10 @@
 # the evedeploy step knows deposits are configured (a literal cookie
 # value still works as a manual override, and BIRON_USERNAME/
 # BIRON_PASSWORD Basic auth remains supported if the systems team ever
-# enables it).
+# enables it). With REMOTE_BUILD_HOST set, ./deploy.sh renews the cookie
+# here (silently, or via the visible sign-in) before handing off, and the
+# build host runs with BIRON_NO_BROWSER=1 so a stale cookie there fails
+# plainly instead of trying to open a browser nobody can see.
 
 cd "$(dirname "$0")"
 

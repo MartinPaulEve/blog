@@ -370,3 +370,32 @@ class TestRemotePhase:
         CliRunner().invoke(
             main, ["--root", str(blog_root), "--remote-phase", "--quick"])
         assert seen["commit_ledger"] is True
+
+
+class TestRemotePhaseBrowserGuard:
+    def test_remote_phase_forbids_browser_logins_for_the_run(
+            self, blog_root, monkeypatch):
+        import os
+        monkeypatch.delenv("BIRON_NO_BROWSER", raising=False)
+        seen = {}
+
+        def fake_deploy(root, message, **kwargs):
+            seen["no_browser"] = os.environ.get("BIRON_NO_BROWSER")
+            return True
+
+        monkeypatch.setattr(cli, "deploy", fake_deploy)
+        CliRunner().invoke(main, ["--root", str(blog_root), "--remote-phase", "--yes"])
+        assert seen["no_browser"] == "1"
+
+    def test_local_runs_leave_browser_logins_allowed(self, blog_root, monkeypatch):
+        import os
+        monkeypatch.delenv("BIRON_NO_BROWSER", raising=False)
+        seen = {}
+
+        def fake_deploy(root, message, **kwargs):
+            seen["no_browser"] = os.environ.get("BIRON_NO_BROWSER")
+            return True
+
+        monkeypatch.setattr(cli, "deploy", fake_deploy)
+        CliRunner().invoke(main, ["--root", str(blog_root), "--yes"])
+        assert seen["no_browser"] is None

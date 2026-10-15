@@ -1,5 +1,7 @@
 import textwrap
 
+import pytest
+
 from biron_uploader import cli
 from biron_uploader.cli import deposit_post, posts_to_deposit
 from biron_uploader.cookiejar import write_cookie_file
@@ -389,3 +391,35 @@ def test_describe_unknown_status_falls_back_to_the_receipt_url():
         "https://eprints.bbk.ac.uk",
     )
     assert "https://eprints.bbk.ac.uk/id/eprint/58012/" in line
+
+
+def test_ensure_client_never_opens_a_browser_when_told_not_to(monkeypatch, tmp_path):
+    """On a remote build host no one can see the sign-in window: a stale
+    cookie must fail with a pointer to the calling machine, not a harvest."""
+    monkeypatch.delenv("BIRON_COOKIE", raising=False)
+    monkeypatch.delenv("BIRON_USERNAME", raising=False)
+    monkeypatch.setenv("BIRON_NO_BROWSER", "1")
+    write_cookie_file(tmp_path, "name=stale")
+    monkeypatch.setattr(
+        cli, "BironClient",
+        lambda **kwargs: FakeStatusClient(statuses={"name=stale": 401}, **kwargs),
+    )
+    harvests = []
+    monkeypatch.setattr(cli.cookiejar, "harvest",
+                        lambda *a, **k: harvests.append(True) or "name=fresh")
+    with pytest.raises(SystemExit) as excinfo:
+        cli._ensure_client("https://e.example", tmp_path, echo=lambda *a: None)
+    assert harvests == []
+    assert "login" in str(excinfo.value).lower()
+
+
+def test_ensure_client_without_any_cookie_and_no_browser_exits_cleanly(monkeypatch, tmp_path):
+    monkeypatch.delenv("BIRON_COOKIE", raising=False)
+    monkeypatch.delenv("BIRON_USERNAME", raising=False)
+    monkeypatch.setenv("BIRON_NO_BROWSER", "1")
+    harvests = []
+    monkeypatch.setattr(cli.cookiejar, "harvest",
+                        lambda *a, **k: harvests.append(True) or "name=fresh")
+    with pytest.raises(SystemExit):
+        cli._ensure_client("https://e.example", tmp_path, echo=lambda *a: None)
+    assert harvests == []

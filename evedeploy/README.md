@@ -61,7 +61,13 @@ Launcher-only switches (consumed by `deploy.sh`, never forwarded):
 What stays on the host: `./biron.sh login` (an interactive browser
 sign-in; the cookie it stores in the repo is what the container uses)
 and `sequoia auth` (its OAuth flow opens a browser; the credentials it
-writes to `~/.config/sequoia` are what the container reads).
+writes to `~/.config/sequoia` are what the container reads). With a
+remote build host the same holds for the calling machine: before the
+hand-off, `./deploy.sh` renews the BIROn cookie here (silently through
+the persisted browser profile, else via the visible sign-in window) and
+ships the file across, and the remote phase runs with
+`BIRON_NO_BROWSER=1` so a stale cookie there fails plainly rather than
+trying to open a browser nobody can see.
 
 Two things the image does to match the Nix-built site byte for byte:
 `Gemfile` includes `liquid-c`, because Jekyll loads it whenever it is
