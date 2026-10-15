@@ -13,6 +13,8 @@ image:
   title: "Heart rhythm monitor with ECG line illustration"
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mxvm5gqsad2r"
 kcworks: https://works.hcommons.org/records/k3r7x-39g32
+roguescholar: https://rogue-scholar.org/records/ew6hn-bc568
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mxvm5gqsad2r
 smolpub: an-update-from-day-68-in-hospital
 ---
 
