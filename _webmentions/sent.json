@@ -17450,6 +17450,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-10/#t20261016081812": {
+   "content_hash": "c944b4f0f62c3268fc1264888015689405f64fe715f7876393446bc74824b997",
+   "sent": {
+    "https://lwn.net/SubscriberLink/1099594/be20382b54a9b4cd/": {
+     "at": "2026-10-16T07:20:20+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
