@@ -17459,6 +17459,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-10/#t20261016084438": {
+   "content_hash": "c2874e4d24c5579e830d28432087f22fd93cc76baba8d57ad53d0e5f377cbf94",
+   "sent": {
+    "https://www.theguardian.com/music/2026/oct/15/richard-thompson-hippies-thugs-and-heroes-interview": {
+     "at": "2026-10-16T07:46:25+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
