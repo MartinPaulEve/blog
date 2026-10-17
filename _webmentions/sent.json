@@ -17468,6 +17468,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-10/#t20261017183119": {
+   "content_hash": "ad62d6db4c10c287afdc56f6333e232cceaf827ab1fa29ea4c5540835ff8aefa",
+   "sent": {
+    "https://www.politico.com/news/2026/10/16/anthropic-ai-safety-01124654": {
+     "at": "2026-10-17T17:32:29+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
