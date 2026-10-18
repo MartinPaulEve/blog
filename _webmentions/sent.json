@@ -17477,6 +17477,16 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-10/#t20261018084818": {
+   "content_hash": "187b2062163be3a634a32a21aa1783bb4b9ae98ff21f7a951ce42aea230b9690",
+   "sent": {
+    "https://aaronparecki.com/2026/07/29/19/solving-missing-trust-anchor-in-dynamic-client-registration-with-cimd": {
+     "at": "2026-10-18T07:49:27+00:00",
+     "endpoint": "https://webmention.io/aaronpk/webmention",
+     "status": 201
+    }
+   }
   }
  }
 }
