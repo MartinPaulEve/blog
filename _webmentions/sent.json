@@ -17496,6 +17496,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-10/#t20261018140802": {
+   "content_hash": "f2407ae8a3c1a55bb4b98b3d10463700de0f0540007ad59461b0e609f7b31858",
+   "sent": {
+    "https://dukeupress.wordpress.com/2026/10/15/michel-foucault-centennial/": {
+     "at": "2026-10-18T13:09:18+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
