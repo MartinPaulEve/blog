@@ -17514,6 +17514,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-10/#t20261020120916": {
+   "content_hash": "470e70145ffed432647fc61456b5ee153744576352bcba6662e423c9144da544",
+   "sent": {
+    "https://www.openaccessweek.org/theme-profiles/open-journals-collective": {
+     "at": "2026-10-20T11:10:31+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
