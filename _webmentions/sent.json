@@ -17523,6 +17523,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-10/#t20261026065606": {
+   "content_hash": "6787f07f37a5b520bff8e52f5e58256cb56b584c4e128a19488ad258306feedf",
+   "sent": {
+    "https://latestartrek.substack.com/p/star-trek-the-undutchovend-country": {
+     "at": "2026-10-26T06:57:15+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
