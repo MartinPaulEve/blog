@@ -17541,6 +17541,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-10/#t20261027193652": {
+   "content_hash": "3a1b2d2958227b687c43093653c17f51334502651649da8df374e3d5d1cca624",
+   "sent": {
+    "https://www.theguardian.com/politics/2026/oct/27/judith-clark-shabana-mahmood-visa-weather-underground": {
+     "at": "2026-10-27T19:38:03+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
