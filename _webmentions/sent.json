@@ -17532,6 +17532,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-10/#t20261027140749": {
+   "content_hash": "18b3f37694c1170c4cba1e6e278355c1c13dac28386f917eb1c1baebf3463841",
+   "sent": {
+    "https://latestartrek.substack.com/p/walter-koenig-rip": {
+     "at": "2026-10-27T14:09:08+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
