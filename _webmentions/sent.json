@@ -17550,6 +17550,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-10/#t20261030073154": {
+   "content_hash": "666393a4f676bf8ff90ff351b62691c0be4866619fd2fb931a7c9bf876978908",
+   "sent": {
+    "https://www.theguardian.com/commentisfree/2026/oct/29/british-library-reading-rooms-co-working-space-national-library": {
+     "at": "2026-10-30T07:33:03+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
