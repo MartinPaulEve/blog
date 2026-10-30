@@ -7,7 +7,7 @@ comments: false
 
 ## Before we start
 
-<blockquote>If you write to me, please consider that I now receive an abundance of messages which appear to be well written and well researched inquiries by people who have spent a lot of time reading my website and reviewing my research interests. If you would like me to respond, please consider how I might distinguish your message from all these others under this proliferation of messages engendered by AI.</blockquote>
+<blockquote>If you write to me, please consider that I now receive an abundance of messages which appear to be well written and well researched inquiries by people who have spent a lot of time reading my website and reviewing my research interests. If you would like me to respond, please consider how I might distinguish your message from all these others, under this proliferation of AI-generated messages.</blockquote>
 
 ## Get in touch
 
