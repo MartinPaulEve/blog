@@ -5,6 +5,10 @@ tags: [contact]
 comments: false
 ---
 
+## Before we start
+
+<blockquote>If you write to me, please consider that I now receive an abundance of messages which appear to be well written and well researched inquiries by people who have spent a lot of time reading my website and reviewing my research interests. If you would like me to respond, please consider how I might distinguish your message from all these others under this proliferation of messages engendered by AI.</blockquote>
+
 ## Get in touch
 
 I am Martin Paul Eve, Professor of Literature, Technology and Publishing at Birkbeck, University of London, and Technical Lead of Knowledge Commons at MESH Research, Michigan State University. I am the person responsible for this website and for responding to enquiries about it.
@@ -36,3 +40,7 @@ If something on this site is wrong, unclear, or you wish to raise a concern, I w
 ## Appeals
 
 If I make a decision you disagree with, such as declining a correction request or a request to amend content, you can ask me to reconsider it. Please reply to my message, or email me at <a href="mailto:martin@eve.gd?subject=Request%20to%20reconsider">martin@eve.gd</a> with the subject line "Request to reconsider", and set out why you think the decision should change and any new information I should take into account. I will review your request afresh and reply within 10 working days with my reconsidered decision and the reasons for it.
+
+## Credit
+
+The statement on AI abundance is derived from a similar declaration by [Tom Stafford](https://tomstafford.github.io/) whom I would like to credit for this.
