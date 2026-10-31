@@ -17586,6 +17586,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-10/#t20261031190107": {
+   "content_hash": "a2ec13e14129a043f1650de0f779fc78f627b989ad9958acbd97d11fcc7e8c71",
+   "sent": {
+    "https://www.avclub.com/nbc-gatsby-police-procedural": {
+     "at": "2026-10-31T19:02:19+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
