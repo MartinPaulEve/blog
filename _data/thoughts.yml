@@ -1,3 +1,8 @@
+- id: '20261031144107'
+  date: '2026-10-31T14:41:07.167116+00:00'
+  text: 'TIL: If you send email from an apex on Fastmail (x@y.com) to a subdomain (z.x@y.com), there''s no DNS and FM assumes it is the MX. You can turn this off under subdomain routing.'
+  bluesky: https://bsky.app/profile/eve.gd/post/3mz6jnzrnk22w
+  mastodon: https://hcommons.social/@mpe/117536042591949481
 - id: '20261031140607'
   date: '2026-10-31T14:06:07.170382+00:00'
   text: Switched from Proton to Fastmail. I won't use a provider that behaves so badly. Using imapsync remotely, on my home PC to spare mobile bandwidth, to copy across all my old emails.
