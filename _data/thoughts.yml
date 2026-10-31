@@ -1,3 +1,8 @@
+- id: '20261031145416'
+  date: '2026-10-31T14:54:16.495114+00:00'
+  text: Worth looking twice at the ALT text... 😂 https://ftrain.com/bsky-3mz4cwdaslc2a
+  bluesky: https://bsky.app/profile/eve.gd/post/3mz6kfm4feq2x
+  mastodon: https://hcommons.social/@mpe/117536094456023068
 - id: '20261031144107'
   date: '2026-10-31T14:41:07.167116+00:00'
   text: 'TIL: If you send email from an apex on Fastmail (x@y.com) to a subdomain (z.x@y.com), there''s no DNS and FM assumes it is the MX. You can turn this off under subdomain routing.'
