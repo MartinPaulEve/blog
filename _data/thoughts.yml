@@ -1,3 +1,8 @@
+- id: '20261031140607'
+  date: '2026-10-31T14:06:07.170382+00:00'
+  text: Switched from Proton to Fastmail. I won't use a provider that behaves so badly. Using imapsync remotely, on my home PC to spare mobile bandwidth, to copy across all my old emails.
+  bluesky: https://bsky.app/profile/eve.gd/post/3mz6hph6h462z
+  mastodon: https://hcommons.social/@mpe/117535904976219149
 - id: '20261030211511'
   date: '2026-10-30T21:15:11.134484+00:00'
   text: How curl was accidentally Turing-complete for nine months https://seriot.ch/computation/curl.html
