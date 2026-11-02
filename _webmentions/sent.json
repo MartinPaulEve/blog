@@ -17595,6 +17595,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-11/#t20261102081215": {
+   "content_hash": "557a34e031afa484b4daaf0c739167079df0e7201202dd8ef2ad18c9c1ef84e8",
+   "sent": {
+    "https://latestartrek.substack.com/p/patrick-stewart-1940-2026": {
+     "at": "2026-11-02T08:13:25+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
