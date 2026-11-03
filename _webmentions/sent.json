@@ -17604,6 +17604,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-11/#t20261103160356": {
+   "content_hash": "dd48e67e36e87a5ee31be76447410ae52f15e5b40ff27367f9abd14d0cbbc75e",
+   "sent": {
+    "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html?unlocked_article_code=1.NlE.DRGq.VPQn4HhqJ1aK&smid=url-share": {
+     "at": "2026-11-03T16:05:54+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
