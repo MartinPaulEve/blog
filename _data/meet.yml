@@ -1,0 +1,7 @@
+# JaaS (8x8 Jitsi as a Service) tenant settings for the /meet page and
+# ./meet.sh. Nothing here is secret: the AppID appears in every JaaS embed
+# and the key ID is the public half of the kid header. The private key
+# stays out of the repo (JAAS_PRIVATE_KEY_FILE in .env).
+app_id: vpaas-magic-cookie-044b49bc83a54cadb80c8e9f9c50affd
+key_id: REPLACE_WITH_KEY_ID   # from the JaaS console: API Keys → the key's ID
+host_name: Martin Paul Eve

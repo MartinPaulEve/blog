@@ -42,3 +42,7 @@ _lastfm/fetch_error.json
 
 # Generated gemtext edition (pushed to smol.pub by _smolpub/sync_smolpub.py)
 _smolpub/out/
+
+# JaaS / Jitsi private key for ./meet.sh (never commit a key)
+*.pem
+*.key

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include _head.html %}
+    {% comment %}
+      Sidebar-free shell for the /meet video-call page: the site header
+      and footer around a container that the Jitsi iframe fills. Kept as
+      its own layout so page.html and the PDF/OG pipelines are untouched;
+      meet.css is linked only here, so it stays out of the PDF-hashed
+      stylesheet set (see _plugins/pdf_pages.rb).
+    {% endcomment %}
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="/assets/css/meet.css?v={{ '/assets/css/meet.css' | asset_version }}">
+</head>
+<body class="meet-page">
+<!-- Header -->
+<header class="header">
+    <div class="container header-content">
+        {% include _navigation.html %}
+    </div>
+</header>
+
+<main id="main" class="meet-main">
+    <div class="container meet-container">
+        {{ content }}
+    </div>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+    {% include _footer.html %}
+</footer>
+
+<script src="/assets/js/script.js"></script>
+</body>
+</html>
