@@ -46,3 +46,4 @@ _smolpub/out/
 # JaaS / Jitsi private key for ./meet.sh (never commit a key)
 *.pem
 *.key
+*.pk

@@ -185,6 +185,19 @@ class TestLoadConfig:
         with pytest.raises(meet.ConfigError, match="jaas.pem"):
             meet.load_config(self.write_data(tmp_path), {"JAAS_PRIVATE_KEY_FILE": str(tmp_path / "jaas.pem")})
 
+    def test_key_file_that_is_not_a_pem_private_key_is_a_clear_error(self, tmp_path):
+        key_file = tmp_path / "jaas.pk"
+        key_file.write_text("this is not a key", encoding="utf-8")
+        with pytest.raises(meet.ConfigError, match="PEM"):
+            meet.load_config(self.write_data(tmp_path), {"JAAS_PRIVATE_KEY_FILE": str(key_file)})
+
+    def test_pk_extension_is_fine_when_the_contents_are_pem(self, tmp_path, keypair):
+        private_pem, _ = keypair
+        key_file = tmp_path / "jaas.pk"
+        key_file.write_bytes(private_pem)
+        cfg = meet.load_config(self.write_data(tmp_path), {"JAAS_PRIVATE_KEY_FILE": str(key_file)})
+        assert cfg["private_key_pem"] == private_pem
+
     def test_placeholder_key_id_is_a_clear_error(self, tmp_path, keypair):
         private_pem, _ = keypair
         key_file = tmp_path / "jaas.pem"

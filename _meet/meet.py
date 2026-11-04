@@ -124,6 +124,7 @@ def load_config(data_file, env):
         raise ConfigError(f"private key file not found: {key_file}")
     with open(key_file, "rb") as f:
         private_key_pem = f.read()
+    check_private_key(private_key_pem, key_file)
     return {
         "app_id": str(data["app_id"]),
         "key_id": str(data["key_id"]),
@@ -131,6 +132,23 @@ def load_config(data_file, env):
         "host_email": data.get("host_email"),
         "private_key_pem": private_key_pem,
     }
+
+
+def check_private_key(pem, key_file):
+    """Raise ConfigError unless the bytes are a PEM private key.
+
+    The JaaS console downloads the key as a .pk file; the extension is
+    irrelevant, the contents must be PEM (BEGIN ... PRIVATE KEY).
+    """
+    from cryptography.hazmat.primitives import serialization
+
+    try:
+        serialization.load_pem_private_key(pem, password=None)
+    except (ValueError, TypeError) as exc:
+        raise ConfigError(
+            f"{key_file} is not a PEM private key (expected a "
+            "'-----BEGIN PRIVATE KEY-----' block, as downloaded from the JaaS console)"
+        ) from exc
 
 
 def copy_to_clipboard(text):
