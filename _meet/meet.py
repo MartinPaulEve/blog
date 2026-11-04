@@ -180,7 +180,13 @@ def copy_to_clipboard(text):
     for cmd in (["wl-copy"], ["xclip", "-selection", "clipboard"], ["pbcopy"]):
         if shutil.which(cmd[0]):
             try:
-                subprocess.run(cmd, input=text.encode("utf-8"), check=True, timeout=5)
+                # wl-copy forks a child that keeps serving the clipboard; it
+                # must not inherit our stdout or anything piping this
+                # script's output would wait on it forever.
+                subprocess.run(
+                    cmd, input=text.encode("utf-8"), check=True, timeout=5,
+                    stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
+                )
                 return True
             except (subprocess.SubprocessError, OSError):
                 return False

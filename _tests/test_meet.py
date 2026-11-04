@@ -5,8 +5,10 @@
 
 import datetime
 import io
+import os
 import pathlib
 import re
+import subprocess
 import sys
 
 import jwt as pyjwt
@@ -286,3 +288,29 @@ class TestCli:
     def test_bad_room_name_fails_cleanly(self, env):
         code, _ = self.run(["new", "--room", "has space"], env)
         assert code != 0
+
+
+class TestCopyToClipboard:
+    def test_returns_false_when_no_clipboard_tool_exists(self, monkeypatch):
+        monkeypatch.setattr(meet.shutil, "which", lambda name: None)
+        assert meet.copy_to_clipboard("hello") is False
+
+    def test_does_not_hang_a_caller_reading_its_output(self, tmp_path):
+        """wl-copy forks a child that keeps serving the clipboard; if that
+        child inherits our stdout, anything piping meet.py's output waits
+        forever. Run the helper with a fake wl-copy that does the same and
+        require it to finish promptly with its stdout captured."""
+        fake = tmp_path / "wl-copy"
+        fake.write_text("#!/bin/sh\ncat >/dev/null\n(sleep 30) &\nexit 0\n")
+        fake.chmod(0o755)
+        env = dict(os.environ, PATH=f"{tmp_path}:{os.environ.get('PATH', '')}")
+        here = str(pathlib.Path(meet.__file__).parent)
+        code = (
+            f"import sys; sys.path.insert(0, {here!r}); import meet; "
+            "print('copied' if meet.copy_to_clipboard('hello') else 'not copied')"
+        )
+        result = subprocess.run(
+            [sys.executable, "-c", code], check=False, env=env,
+            capture_output=True, text=True, timeout=10,
+        )
+        assert result.stdout.strip() == "copied"
