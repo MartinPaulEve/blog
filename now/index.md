@@ -7,7 +7,7 @@ pdf: false
 comments: false
 ---
 
-This is a [now page](https://nownownow.com/about): a snapshot of whatI'm up to at the moment, assembled from this site's streams every time it rebuilds — so it is current as of {{ site.time | date: "%-d %B %Y" }}.
+This is a [now page](https://nownownow.com/about): a snapshot of what I'm up to at the moment, assembled from this site's streams every time it rebuilds — so it is current as of {{ site.time | date: "%-d %B %Y" }}.
 
 ## Hospital
 
