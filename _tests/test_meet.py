@@ -100,6 +100,15 @@ class TestBuildClaims:
         c = self.claims(hours=1000)
         assert c["exp"] - c["nbf"] <= meet.MAX_HOURS * 3600 + 120
 
+    def test_guest_claims_are_not_moderator_and_carry_no_identity(self):
+        c = self.claims(moderator=False)
+        user = c["context"]["user"]
+        assert user["moderator"] == "false"
+        assert "name" not in user
+        assert "id" not in user
+        assert "email" not in user
+        assert c["room"] == "room-one"
+
     def test_premium_features_are_off(self):
         features = self.claims()["context"]["features"]
         assert features
@@ -126,6 +135,16 @@ class TestSign:
         assert header["kid"] == f"{APP_ID}/{KEY_ID}"
         assert header["typ"] == "JWT"
 
+    def test_key_id_already_prefixed_with_the_app_id_is_not_doubled(self, keypair):
+        private_pem, _ = keypair
+        claims = meet.build_claims(APP_ID, "room-one", "Martin", NOW, 2)
+        header = pyjwt.get_unverified_header(meet.sign(claims, private_pem, APP_ID, f"{APP_ID}/{KEY_ID}"))
+        assert header["kid"] == f"{APP_ID}/{KEY_ID}"
+
+    def test_kid_for_a_key_id_is_exposed_for_diagnostics(self):
+        assert meet.kid_for(APP_ID, KEY_ID) == f"{APP_ID}/{KEY_ID}"
+        assert meet.kid_for(APP_ID, f"{APP_ID}/{KEY_ID}") == f"{APP_ID}/{KEY_ID}"
+
     def test_token_from_the_wrong_key_does_not_verify(self, keypair):
         private_pem, _ = keypair
         other = rsa.generate_private_key(public_exponent=65537, key_size=2048)
@@ -140,20 +159,25 @@ class TestSign:
 
 
 class TestBuildLinks:
-    def test_guest_link_carries_only_the_room_in_the_fragment(self):
+    def test_guest_link_carries_the_room_and_guest_token_in_the_fragment(self):
+        links = meet.build_links("https://eve.gd", "room-one", host_jwt="HOST", guest_jwt="GUEST")
+        assert links["guest"] == "https://eve.gd/meet/#room=room-one&jwt=GUEST"
+
+    def test_host_link_carries_the_host_token_and_the_guest_token_to_share(self):
+        links = meet.build_links("https://eve.gd", "room-one", host_jwt="HOST", guest_jwt="GUEST")
+        assert links["host"] == "https://eve.gd/meet/#room=room-one&jwt=HOST&guest=GUEST"
+
+    def test_host_link_without_a_guest_token_has_no_guest_parameter(self):
+        links = meet.build_links("https://eve.gd", "room-one", host_jwt="HOST")
+        assert links["host"] == "https://eve.gd/meet/#room=room-one&jwt=HOST"
+
+    def test_links_without_tokens_carry_only_the_room(self):
         links = meet.build_links("https://eve.gd", "room-one")
         assert links["guest"] == "https://eve.gd/meet/#room=room-one"
-
-    def test_host_link_adds_the_token_to_the_fragment(self):
-        links = meet.build_links("https://eve.gd", "room-one", jwt="TOKEN")
-        assert links["host"] == "https://eve.gd/meet/#room=room-one&jwt=TOKEN"
-        assert links["guest"] == "https://eve.gd/meet/#room=room-one"
-
-    def test_no_host_link_without_a_token(self):
-        assert meet.build_links("https://eve.gd", "room-one").get("host") is None
+        assert links["host"] is None
 
     def test_nothing_goes_in_the_query_string(self):
-        links = meet.build_links("https://eve.gd/", "room-one", jwt="TOKEN")
+        links = meet.build_links("https://eve.gd/", "room-one", host_jwt="HOST", guest_jwt="GUEST")
         assert "?" not in links["host"]
         assert "?" not in links["guest"]
         assert "//meet" not in links["guest"]
@@ -224,15 +248,25 @@ class TestCli:
         code = meet.main(argv, env={k: v for k, v in env.items() if not k.startswith("_")}, out=out)
         return code, out.getvalue()
 
-    def test_new_prints_a_host_and_a_guest_link(self, env):
+    def tokens(self, text, room):
+        return re.findall(r"https://eve\.gd/meet/#room=" + room + r"&jwt=([^&\s]+)", text)
+
+    def test_new_prints_a_moderator_host_link_and_a_guest_link(self, env):
         code, text = self.run(["new", "--room", "family-call", "--hours", "2"], env)
         assert code == 0
-        host = re.search(r"https://eve\.gd/meet/#room=family-call&jwt=(\S+)", text)
-        assert host
-        assert "https://eve.gd/meet/#room=family-call" in text
-        decoded = pyjwt.decode(host.group(1), env["_public_pem"], algorithms=["RS256"], audience="jitsi")
-        assert decoded["room"] == "family-call"
-        assert decoded["context"]["user"]["moderator"] == "true"
+        tokens = self.tokens(text, "family-call")
+        assert len(tokens) == 2
+        roles = {}
+        for token in tokens:
+            decoded = pyjwt.decode(token, env["_public_pem"], algorithms=["RS256"], audience="jitsi")
+            assert decoded["room"] == "family-call"
+            roles[decoded["context"]["user"]["moderator"]] = decoded
+        assert set(roles) == {"true", "false"}
+        assert roles["true"]["context"]["user"]["name"] == "Martin"
+
+    def test_new_reports_the_kid_it_signed_with(self, env):
+        _, text = self.run(["new", "--room", "family-call"], env)
+        assert f"{APP_ID}/{KEY_ID}" in text
 
     def test_new_without_room_mints_a_random_one(self, env):
         code, text = self.run(["new"], env)
@@ -241,11 +275,13 @@ class TestCli:
         assert len(rooms) == 1
         assert ROOM_RE.match(rooms.pop())
 
-    def test_guest_link_needs_no_key(self, env, tmp_path):
-        code, text = self.run(["guest-link", "family-call"], {"JAAS_PRIVATE_KEY_FILE": str(tmp_path / "missing.pem")})
+    def test_guest_link_mints_a_fresh_non_moderator_token(self, env):
+        code, text = self.run(["guest-link", "family-call"], env)
         assert code == 0
-        assert "https://eve.gd/meet/#room=family-call" in text
-        assert "jwt=" not in text
+        tokens = self.tokens(text, "family-call")
+        assert len(tokens) == 1
+        decoded = pyjwt.decode(tokens[0], env["_public_pem"], algorithms=["RS256"], audience="jitsi")
+        assert decoded["context"]["user"]["moderator"] == "false"
 
     def test_bad_room_name_fails_cleanly(self, env):
         code, _ = self.run(["new", "--room", "has space"], env)

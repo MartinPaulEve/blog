@@ -1,11 +1,12 @@
 /* /meet — private Jitsi (8x8 JaaS) calls from a static page.
  *
  * Everything that matters arrives in the URL fragment, which browsers
- * never send to the server: `room` (the secret, random room name) and,
- * for the host only, `jwt` (a moderator token signed locally by
- * ./meet.sh). Without a usable room nothing from 8x8 is loaded at all.
- * With one, the JaaS loader is injected and the call fills the frame;
- * a host additionally gets a bar showing the guest link to share.
+ * never send to the server: `room` (the random room name) and `jwt`, a
+ * token signed locally by ./meet.sh — a moderator token for the host, a
+ * plain one for guests, since the tenant refuses unauthenticated joins.
+ * Without a usable room nothing from 8x8 is loaded at all. With one, the
+ * JaaS loader is injected and the call fills the frame; a moderator
+ * additionally gets a bar showing the guest link to share.
  */
 (function () {
     'use strict';
@@ -21,12 +22,28 @@
         return {
             room: ROOM_RE.test(room) ? room : null,
             jwt: params.get('jwt') || null,
+            guest: params.get('guest') || null,
             name: (params.get('name') || '').trim() || null
         };
     }
 
-    function guestLink(room) {
-        return location.origin + location.pathname + '#room=' + room;
+    /* Pure: true when the token's payload claims moderator rights. This
+       only decides whether to show the invite bar; 8x8 verifies the
+       signature, not us. */
+    function isModeratorToken(token) {
+        try {
+            var payload = token.split('.')[1].replace(/-/g, '+').replace(/_/g, '/');
+            var claims = JSON.parse(atob(payload));
+            return !!(claims.context && claims.context.user &&
+                String(claims.context.user.moderator) === 'true');
+        } catch (e) {
+            return false;
+        }
+    }
+
+    function guestLink(room, guestToken) {
+        return location.origin + location.pathname + '#room=' + room +
+            '&jwt=' + guestToken;
     }
 
     function setStatus(title, text, link) {
@@ -49,11 +66,10 @@
         box.hidden = false;
     }
 
-    function showInviteBar(room) {
+    function showInviteBar(link) {
         var bar = document.getElementById('meet-invite');
         var code = document.getElementById('meet-invite-link');
         var button = document.getElementById('meet-invite-copy');
-        var link = guestLink(room);
         code.textContent = link;
         button.addEventListener('click', function () {
             var done = function () {
@@ -109,9 +125,9 @@
 
         var api = new window.JitsiMeetExternalAPI(JAAS_DOMAIN, options);
 
-        /* The moderator token is now inside the iframe; take it off the
-           address bar so a screenshot or shared tab cannot leak it. The
-           invite bar keeps the guest link to hand. */
+        /* The token is now inside the iframe; take it off the address bar
+           so a screenshot or shared tab cannot leak it. The invite bar
+           keeps the guest link to hand for the host. */
         if (invite.jwt && window.history && history.replaceState) {
             history.replaceState(null, '', location.pathname + '#room=' + invite.room);
         }
@@ -142,7 +158,9 @@
                and, crucially, load nothing from 8x8. */
             return;
         }
-        if (invite.jwt) { showInviteBar(invite.room); }
+        if (invite.jwt && isModeratorToken(invite.jwt) && invite.guest) {
+            showInviteBar(guestLink(invite.room, invite.guest));
+        }
         loadJaas(appId, function () { startCall(appId, invite); });
     }
 

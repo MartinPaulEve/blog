@@ -5,8 +5,9 @@ private key, and that key must never ship with a static site. So this
 tool runs locally: it signs a moderator token, puts it in the URL
 fragment of a host link (fragments never reach the server or its logs)
 and prints a token-free guest link whose secret is the random room name.
-Guests who arrive before the host see 8x8's "waiting for a moderator"
-screen, so nobody can start a call on the tenant without the key.
+The guest link carries a room-scoped non-moderator token of its own, so
+the tenant can refuse unauthenticated joins outright and nobody can open
+or enter a room without a link signed by the key.
 
 Run through ./meet.sh, which supplies the uv incantation:
 
@@ -56,17 +57,20 @@ def validate_room(name):
     return room
 
 
-def build_claims(app_id, room, host_name, now, hours, email=None):
-    """Return the JaaS JWT payload for a moderator of one specific room."""
+def build_claims(app_id, room, host_name, now, hours, email=None, moderator=True):
+    """Return the JaaS JWT payload for one specific room.
+
+    A moderator token names the host; a guest token carries no identity
+    at all, so each guest picks their own name on the prejoin screen.
+    """
     hours = max(0, min(float(hours), MAX_HOURS))
     start = int(now.timestamp())
-    user = {
-        "id": str(uuid.uuid4()),
-        "name": host_name,
-        "moderator": "true",
-    }
-    if email:
-        user["email"] = email
+    user = {"moderator": "true" if moderator else "false"}
+    if moderator:
+        user["id"] = str(uuid.uuid4())
+        user["name"] = host_name
+        if email:
+            user["email"] = email
     return {
         "aud": "jitsi",
         "iss": "chat",
@@ -81,6 +85,18 @@ def build_claims(app_id, room, host_name, now, hours, email=None):
     }
 
 
+def kid_for(app_id, key_id):
+    """Return the JWT kid header: app_id/key_id.
+
+    The JaaS console shows a key's ID already prefixed with the AppID and
+    a slash, so accept that form too rather than doubling the prefix.
+    """
+    key_id = str(key_id).strip()
+    prefix = app_id + "/"
+    key_id = key_id.removeprefix(prefix)
+    return f"{app_id}/{key_id}"
+
+
 def sign(claims, private_key_pem, app_id, key_id):
     """Return the RS256-signed token with the tenant's kid header."""
     import jwt
@@ -89,16 +105,24 @@ def sign(claims, private_key_pem, app_id, key_id):
         claims,
         private_key_pem,
         algorithm="RS256",
-        headers={"kid": f"{app_id}/{key_id}", "typ": "JWT"},
+        headers={"kid": kid_for(app_id, key_id), "typ": "JWT"},
     )
 
 
-def build_links(site_url, room, jwt=None):
-    """Return the guest link and, when a token is given, the host link."""
+def build_links(site_url, room, host_jwt=None, guest_jwt=None):
+    """Return the guest link and, when a host token is given, the host link.
+
+    Tokens ride in the fragment, which browsers never send to the server.
+    """
     base = site_url.rstrip("/") + MEET_PATH + "#room=" + room
     links = {"guest": base, "host": None}
-    if jwt:
-        links["host"] = base + "&jwt=" + jwt
+    if guest_jwt:
+        links["guest"] = base + "&jwt=" + guest_jwt
+    if host_jwt:
+        links["host"] = base + "&jwt=" + host_jwt
+        if guest_jwt:
+            # So the host's page can show the guest link to share.
+            links["host"] += "&guest=" + guest_jwt
     return links
 
 
@@ -181,25 +205,34 @@ def build_parser():
     new.add_argument("--name", help="display name for the host (default from _data/meet.yml)")
     new.add_argument("--open", action="store_true", help="open the host link in the browser")
 
-    guest = sub.add_parser("guest-link", help="reprint the guest link for a room")
+    guest = sub.add_parser("guest-link", help="mint a fresh guest link for an existing room")
     guest.add_argument("room")
+    guest.add_argument("--hours", type=float, default=DEFAULT_HOURS,
+                       help=f"guest token lifetime in hours (default {DEFAULT_HOURS}, max {MAX_HOURS})")
     return parser
+
+
+def mint(cfg, room, hours, moderator, host_name=None):
+    """Return (token, claims) for the room, as host or as guest."""
+    now = datetime.datetime.now(datetime.UTC)
+    claims = build_claims(
+        cfg["app_id"], room, host_name or cfg["host_name"], now, hours,
+        email=cfg.get("host_email"), moderator=moderator,
+    )
+    return sign(claims, cfg["private_key_pem"], cfg["app_id"], cfg["key_id"]), claims
 
 
 def cmd_new(args, env, out):
     cfg = load_config(DATA_FILE, env)
     room = validate_room(args.room) if args.room else random_room()
-    now = datetime.datetime.now(datetime.UTC)
-    claims = build_claims(
-        cfg["app_id"], room, args.name or cfg["host_name"], now, args.hours,
-        email=cfg.get("host_email"),
-    )
-    token = sign(claims, cfg["private_key_pem"], cfg["app_id"], cfg["key_id"])
-    links = build_links(SITE_URL, room, jwt=token)
+    host_token, claims = mint(cfg, room, args.hours, moderator=True, host_name=args.name)
+    guest_token, _ = mint(cfg, room, args.hours, moderator=False)
+    links = build_links(SITE_URL, room, host_jwt=host_token, guest_jwt=guest_token)
     expires = datetime.datetime.fromtimestamp(claims["exp"], datetime.UTC)
 
     print(f"Room: {room}", file=out)
-    print(f"Host token valid until {expires:%Y-%m-%d %H:%M} UTC", file=out)
+    print(f"Tokens valid until {expires:%Y-%m-%d %H:%M} UTC", file=out)
+    print(f"Signed with kid {kid_for(cfg['app_id'], cfg['key_id'])}", file=out)
     print(file=out)
     print("GUEST link — share this with the people you want on the call:", file=out)
     print(f"  {links['guest']}", file=out)
@@ -218,8 +251,15 @@ def cmd_new(args, env, out):
 
 
 def cmd_guest_link(args, env, out):
+    cfg = load_config(DATA_FILE, env)
     room = validate_room(args.room)
-    print(build_links(SITE_URL, room)["guest"], file=out)
+    guest_token, claims = mint(cfg, room, args.hours, moderator=False)
+    expires = datetime.datetime.fromtimestamp(claims["exp"], datetime.UTC)
+    links = build_links(SITE_URL, room, guest_jwt=guest_token)
+    print(f"Guest link for {room}, valid until {expires:%Y-%m-%d %H:%M} UTC:", file=out)
+    print(f"  {links['guest']}", file=out)
+    if copy_to_clipboard(links["guest"]):
+        print("(copied to the clipboard)", file=out)
     return 0
 
 
