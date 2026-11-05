@@ -17613,6 +17613,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-11/#t20261105092724": {
+   "content_hash": "b87a76d3c8a2d5b388aa9536196462790c1adafe7f84cbfb9f8a60201f41e7cf",
+   "sent": {
+    "https://www.theguardian.com/books/2026/nov/04/china-mieville-wins-10000-goldsmiths-prize-for-the-rouse": {
+     "at": "2026-11-05T09:28:38+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
