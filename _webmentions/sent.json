@@ -17641,6 +17641,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-11/#t20261105215955": {
+   "content_hash": "a81af248397da72dd0b678bf6e099e4e33f852ca4b8546236e4000cc582759f3",
+   "sent": {
+    "https://www.nytimes.com/2026/11/05/us/california-death-row-newsom-commutation.html?unlocked_article_code=1.OFE.c3ec.vkctLUr70wW-&smid=url-share": {
+     "at": "2026-11-05T22:01:16+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
