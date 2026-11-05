@@ -17622,6 +17622,16 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-11/#t20261105135109": {
+   "content_hash": "1ca4f5e50a0d67e202d1330f260611f7cb5ca094f9a4edc5092b41837d49e061",
+   "sent": {
+    "https://blog.nlnetlabs.nl/maintaining-the-love-for-coding-in-the-time-of-ai/": {
+     "at": "2026-11-05T13:52:22+00:00",
+     "endpoint": "https://blog.nlnetlabs.nl/webmentions/receive/",
+     "status": 202
+    }
+   }
   }
  }
 }
