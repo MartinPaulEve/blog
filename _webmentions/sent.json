@@ -17632,6 +17632,15 @@
      "status": 202
     }
    }
+  },
+  "/thoughts/2026-11/#t20261105193104": {
+   "content_hash": "bf85828be8a68672c94ae6523d4ee58a7dfacd564f183b7ccd11cd560f1b99cf",
+   "sent": {
+    "https://www.researchprofessionalnews.com/rr-news-europe-infrastructure-2026-11-has-open-access-hit-the-wall/": {
+     "at": "2026-11-05T19:32:39+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
