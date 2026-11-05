@@ -2,7 +2,8 @@
 #
 # thought.sh — post a short thought (wraps the thought_composer app).
 # Opens an interactive composer with a live Bluesky character count
-# (300 graphemes); Enter posts, Alt+Enter inserts a newline, Ctrl+P
+# (300 graphemes); Enter posts, Alt+Enter inserts a newline, Ctrl+V
+# pastes the clipboard (text, or an image when it holds no text), Ctrl+P
 # pastes an image from the clipboard, Ctrl+C cancels. The thought is
 # stored untouched in _data/thoughts.yml (feeding /thoughts/, the post
 # sidebar and the homepage), cross-posted to Bluesky and Mastodon
