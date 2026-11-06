@@ -17650,6 +17650,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-11/#t20261106175242": {
+   "content_hash": "aa128dc81270b163ebe5bbd53a066efd4102c53f53e93bca5a01e79d2eb9b0d4",
+   "sent": {
+    "https://www.theguardian.com/culture/2026/nov/06/russell-brand-barrister-ian-winter-reports-himself-bar-watchdog-confronting-sunday-times-journalist": {
+     "at": "2026-11-06T17:53:55+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
