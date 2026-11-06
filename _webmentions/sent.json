@@ -17659,6 +17659,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-11/#t20261106193717": {
+   "content_hash": "e501403a78ce1e70dc3ff99f501050e6a57e482a67bce9adc2d20bf37a901d8b",
+   "sent": {
+    "https://www.bbc.co.uk/news/articles/c6x2w4ej245ko?utm_source=firefox-newtab-en-gb": {
+     "at": "2026-11-06T19:38:33+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
