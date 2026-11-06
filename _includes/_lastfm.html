@@ -38,5 +38,6 @@
         {% endif %}
     </dl>
     <a class="lastfm-source" href="{{ site.data.lastfm.url }}">Scrobbled on Last.fm</a>
+    {% if site.data.listening %}<a class="lastfm-source" href="/listening/">Everything I've played &rarr;</a>{% endif %}
 </div>
 {% endif %}

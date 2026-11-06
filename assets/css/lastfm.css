@@ -68,3 +68,8 @@
 .lastfm-source:hover {
     color: var(--accent-secondary);
 }
+
+/* Two footer links (the profile, the /listening log) sit side by side. */
+.lastfm-source + .lastfm-source {
+    margin-left: 0.75rem;
+}

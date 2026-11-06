@@ -1,0 +1,53 @@
+{% comment %}
+  Shared body for /listening/ (newest month, page.listening_index true)
+  and the generated /listening/<YYYY-MM>/ pages. The listening_pages
+  plugin injects page.month, page.month_display, page.month_plays and
+  page.listening_nav. The search box, month nav, month title and
+  "show more" button reuse the /thoughts/ chrome (thoughts.css); the
+  play rows are listening.css's own. Search spans the whole log by
+  fetching /listening/search.json on first use (listening-search.js).
+  A track played several times in a row is one row with a ×n count.
+{% endcomment %}
+<link rel="stylesheet" href="/assets/css/thoughts.css?v={{ '/assets/css/thoughts.css' | asset_version }}">
+<link rel="stylesheet" href="/assets/css/listening.css?v={{ '/assets/css/listening.css' | asset_version }}">
+
+<div class="thoughts-crosslink">{% if page.listening_index %}{{ page.play_count }} entries, newest first. {% else %}<a href="/listening/">Latest listening &rarr;</a> {% endif %}Scrobbled on <a href="{{ site.data.listening.url }}">Last.fm</a>; a track on repeat counts once.</div>
+
+<div class="thoughts-search">
+    <input type="search" id="listening-search" placeholder="Search tracks, artists, albums…" aria-label="Search the listening log" autocomplete="off">
+    <p class="thoughts-search-count" id="listening-search-count" hidden></p>
+</div>
+
+<nav class="thoughts-months" aria-label="Listening by month">
+{% for m in page.listening_nav %}    <a href="{{ m.url }}"{% if m.name == page.month %} aria-current="true"{% endif %}>{{ m.name }}</a>{% unless forloop.last %} <span class="thoughts-months-sep" aria-hidden="true">|</span>{% endunless %}
+{% endfor %}</nav>
+
+<div class="thoughts-list listening-month-list">
+    <section class="thoughts-month" id="m{{ page.month }}">
+        <h2 class="thoughts-month-title">{{ page.month_display }}</h2>
+        {% assign previous_day = "" %}
+        {% for play in page.month_plays %}
+        {% assign day = play.date | slice: 0, 10 %}
+        {% if day != previous_day %}
+        {% unless forloop.first %}</ol>{% endunless %}
+        <h3 class="listening-day">{{ play.date | date: "%A %-d %B" }}</h3>
+        <ol class="listening-plays">
+        {% endif %}
+        {% assign previous_day = day %}
+            <li class="play" id="s{{ play.ts }}">
+                <a class="play-time" href="/listening/{{ play.date | slice: 0, 7 }}/#s{{ play.ts }}"><time datetime="{{ play.date }}">{{ play.date | date: "%H:%M" }}</time></a>
+                <span class="play-what">
+                    <a class="play-track" href="{{ play.url }}">{{ play.track | escape }}</a>
+                    <span class="play-artist">by <a href="{{ play.artist_url }}">{{ play.artist | escape }}</a></span>
+                    {% if play.album %}<span class="play-album">on {{ play.album | escape }}</span>{% endif %}
+                    {% if play.n %}<span class="play-count" title="Played {{ play.n }} times in a row">&times;{{ play.n }}</span>{% endif %}
+                </span>
+            </li>
+        {% if forloop.last %}</ol>{% endif %}
+        {% endfor %}
+    </section>
+</div>
+
+<div class="thoughts-list" id="listening-search-results" hidden></div>
+
+<script src="/assets/js/listening-search.js?v={{ '/assets/js/listening-search.js' | asset_version }}" defer></script>

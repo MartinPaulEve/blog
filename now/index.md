@@ -68,7 +68,7 @@ See [Today I Learned](/til/) for the small things I pick up along the way.
 {% if site.data.lastfm %}
 {% if site.data.lastfm.last_played %}{% if site.data.lastfm.last_played.now_playing %}Right now:{% else %}Most recently:{% endif %} *{{ site.data.lastfm.last_played.track }}* by {{ site.data.lastfm.last_played.artist }}.{% endif %}
 {% if site.data.lastfm.top_artist %}The band I have played most lately is [{{ site.data.lastfm.top_artist.artist }}]({{ site.data.lastfm.top_artist.url }}).{% endif %}
-[Scrobbled on Last.fm]({{ site.data.lastfm.url }}).
+[Scrobbled on Last.fm]({{ site.data.lastfm.url }}){% if site.data.listening %}; the [full log is at /listening](/listening/){% endif %}.
 {% else %}
 Listening stats appear here once the site has Last.fm data.
 {% endif %}
