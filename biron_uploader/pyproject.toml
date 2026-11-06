@@ -17,6 +17,8 @@ biron-upload = "biron_uploader.cli:main"
 biron-backfill = "biron_uploader.cli:backfill_main"
 biron-login = "biron_uploader.cli:login_main"
 biron-update = "biron_uploader.cli:update_main"
+biron-pending = "biron_uploader.cli:pending_main"
+biron-session = "biron_uploader.cli:session_main"
 
 [dependency-groups]
 dev = [

@@ -3,6 +3,9 @@
     biron-probe                     # check credentials, list collections
     biron-upload [--dry-run] POST   # deposit one post
     biron-backfill [--dry-run]      # deposit every post not yet in BIROn
+    biron-update [--dry-run]        # refresh records of changed posts
+    biron-pending                   # what the next deploy would send
+    biron-session                   # make sure a session is on file first
 
 Credentials come from BIRON_USERNAME and BIRON_PASSWORD (the .env file
 via biron.sh). The deposit collection defaults to BIRON_COLLECTION or
@@ -215,6 +218,29 @@ def _biron_eprintid(path: Path) -> int | None:
     return int(link.group(1)) if link else None
 
 
+def stale_posts(root: Path) -> tuple[list, list]:
+    """Deposited posts the shipped ledger has not seen, and those changed.
+
+    Returns ``(baselined, stale)``: ``baselined`` pairs each post the
+    ledger does not know with its current digest (its record is assumed
+    current); ``stale`` pairs each post whose digest differs from the
+    ledger with its eprintid (its record needs replacing).
+    """
+    root = Path(root)
+    shipped = load_shipped(root / SHIPPED_PATH)
+    baselined, stale = [], []
+    for path in sorted((root / "_posts").glob("*.md")):
+        eprintid = _biron_eprintid(path)
+        if eprintid is None:
+            continue
+        digest = file_digest(path)
+        if path.name not in shipped:
+            baselined.append((path, digest))
+        elif shipped[path.name] != digest:
+            stale.append((path, eprintid))
+    return baselined, stale
+
+
 def update_main(argv=None):
     """Refresh BIROn records for posts changed since their deposit.
 
@@ -232,17 +258,7 @@ def update_main(argv=None):
     args = parser.parse_args(argv)
 
     shipped_path = args.root / SHIPPED_PATH
-    shipped = load_shipped(shipped_path)
-    baselined, stale = [], []
-    for path in sorted((args.root / "_posts").glob("*.md")):
-        eprintid = _biron_eprintid(path)
-        if eprintid is None:
-            continue
-        digest = file_digest(path)
-        if path.name not in shipped:
-            baselined.append((path, digest))
-        elif shipped[path.name] != digest:
-            stale.append((path, eprintid))
+    baselined, stale = stale_posts(args.root)
 
     if args.dry_run:
         print(
@@ -277,6 +293,135 @@ def update_main(argv=None):
             sys.exit(f"FAILED {path.name}: {exc}")
         record_shipped(shipped_path, path.name, file_digest(path))
         print(f"updated {path.name} -> {receipt['url']}")
+    return 0
+
+
+EXIT_SKIPPED = 3
+
+
+def pending_work(root: Path) -> dict:
+    """What the next deploy would send to BIROn, without touching the network.
+
+    ``deposit`` lists the posts backfill would create records for;
+    ``update`` the (post, eprintid) pairs whose records update would
+    replace. Both are decided from the working tree and the ledgers
+    alone, so this is safe to ask before any sign-in.
+    """
+    root = Path(root)
+    _, stale = stale_posts(root)
+    return {"deposit": posts_to_deposit(root), "update": stale}
+
+
+def _report_pending(work: dict) -> None:
+    if work["deposit"]:
+        print(f"Would deposit {len(work['deposit'])} post(s):")
+        for path in work["deposit"]:
+            print(f"  {path.name}")
+    if work["update"]:
+        print(f"Would update {len(work['update'])} record(s):")
+        for path, eprintid in work["update"]:
+            print(f"  {path.name} -> eprint {eprintid}")
+
+
+def pending_main(argv=None):
+    """List pending BIROn work; exit 0 when there is any, 1 when there is none."""
+    parser = argparse.ArgumentParser(
+        description="List what the next deploy would send to BIROn "
+        "(exit 0 if anything, 1 if nothing)"
+    )
+    parser.add_argument("--root", type=Path, default=Path("."))
+    args = parser.parse_args(argv)
+    work = pending_work(args.root)
+    if not (work["deposit"] or work["update"]):
+        print("Nothing pending for BIROn.")
+        return 1
+    _report_pending(work)
+    return 0
+
+
+def _cookie_works(base_url: str, cookie: str) -> bool:
+    return BironClient(base_url=base_url, cookie=cookie).contents_status() == 200
+
+
+def session_main(argv=None):
+    """Make sure a usable BIROn session is on file if the deploy will need one.
+
+    The one call a deploy makes before handing off to a build host that
+    cannot open a browser. In order: nothing pending means no session
+    is needed (exit 0 at once, no network); Basic credentials need no
+    cookie; a cookie that BIROn still accepts is kept; a stale or
+    missing one is renewed silently through the persisted browser
+    profile; only when that fails does the sign-in window open — where
+    pressing C abandons it (exit EXIT_SKIPPED, 3) so the deploy can
+    carry on without BIROn. Any other failure exits 1. BIRON_NO_BROWSER
+    forbids both browser runs, as on a build host.
+    """
+    parser = argparse.ArgumentParser(
+        description="Ensure a BIROn session is on file when the deploy "
+        "has something to send"
+    )
+    parser.add_argument("--root", type=Path, default=Path("."))
+    parser.add_argument("--base-url", default=BASE_URL)
+    parser.add_argument("--timeout", type=float, default=None,
+                        help="seconds to wait for the interactive sign-in")
+    args = parser.parse_args(argv)
+    root = args.root
+
+    work = pending_work(root)
+    if not (work["deposit"] or work["update"]):
+        print("Nothing pending for BIROn; no session needed.")
+        return 0
+    _report_pending(work)
+
+    if os.environ.get("BIRON_USERNAME") and os.environ.get("BIRON_PASSWORD"):
+        print("BIROn uses BIRON_USERNAME/BIRON_PASSWORD; no browser session needed.")
+        return 0
+
+    cookie, source = _resolve_cookie(root)
+    if cookie and _cookie_works(args.base_url, cookie):
+        print("BIROn session on file still works.")
+        return 0
+    if cookie and source == "env":
+        print(
+            "the BIRON_COOKIE in .env is stale — replace it, or set "
+            "BIRON_COOKIE=auto and run ./biron.sh login",
+            file=sys.stderr,
+        )
+        return 1
+    if os.environ.get("BIRON_NO_BROWSER"):
+        print(
+            "BIROn session missing or stale and no browser may be opened "
+            "here (BIRON_NO_BROWSER) — run ./biron.sh session on the "
+            "machine that starts the deploy",
+            file=sys.stderr,
+        )
+        return 1
+
+    print(f"BIROn session {'stale' if cookie else 'missing'}; "
+          "refreshing silently through the browser profile…")
+    try:
+        cookie = cookiejar.harvest(root, headless=True)
+    except cookiejar.LoginError as exc:
+        print(f"silent refresh failed ({exc}); opening the sign-in window")
+        try:
+            cookie = cookiejar.harvest(
+                root, headless=False, timeout=args.timeout
+            )
+        except cookiejar.LoginSkipped:
+            print("continuing without a BIROn session; "
+                  "the deposits retry on the next deploy")
+            return EXIT_SKIPPED
+        except cookiejar.LoginError as exc:
+            print(f"BIROn sign-in failed: {exc}", file=sys.stderr)
+            return 1
+    if not _cookie_works(args.base_url, cookie):
+        print(
+            "the freshly harvested session was rejected by BIROn — run "
+            "./biron.sh login and sign in interactively",
+            file=sys.stderr,
+        )
+        return 1
+    print("BIROn session ready.")
     return 0
 
 

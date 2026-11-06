@@ -423,3 +423,170 @@ def test_ensure_client_without_any_cookie_and_no_browser_exits_cleanly(monkeypat
     with pytest.raises(SystemExit):
         cli._ensure_client("https://e.example", tmp_path, echo=lambda *a: None)
     assert harvests == []
+
+
+# --- pending work and the session step ------------------------------------
+
+from biron_uploader.cli import pending_work
+from biron_uploader.cookiejar import LoginError, LoginSkipped
+from biron_uploader.ledger import file_digest, record_shipped
+
+
+def with_eprint(number):
+    return POST_WITH_BIRON.replace("eprint/1/", f"eprint/{number}/")
+
+
+def test_pending_work_lists_new_and_changed_posts(tmp_path):
+    repo = make_repo(tmp_path)
+    new = add_post(repo, "2026-01-01-new.md")
+    current = add_post(repo, "2026-01-02-current.md", with_eprint(2))
+    changed = add_post(repo, "2026-01-03-changed.md", with_eprint(3))
+    add_post(repo, "2026-01-04-unseen.md", with_eprint(4))
+    shipped = repo / "_biron" / "shipped.yml"
+    record_shipped(shipped, current.name, file_digest(current))
+    record_shipped(shipped, changed.name, "0" * 64)
+    work = pending_work(repo)
+    assert [p.name for p in work["deposit"]] == [new.name]
+    assert [(p.name, e) for p, e in work["update"]] == [(changed.name, 3)]
+
+
+def test_pending_work_honours_skip_and_the_review_ledger(tmp_path):
+    repo = make_repo(tmp_path)
+    skipped = add_post(repo, "2026-01-01-skipped.md")
+    parked = add_post(repo, "2026-01-02-parked.md")
+    (repo / "_biron" / "skip.yml").write_text(f"- {skipped.name}\n")
+    record_deposit(repo / "_biron" / "deposited.yml", parked.name, 9)
+    work = pending_work(repo)
+    assert work["deposit"] == []
+    assert work["update"] == []
+
+
+def test_pending_main_exit_status_says_whether_there_is_work(tmp_path, capsys):
+    repo = make_repo(tmp_path)
+    assert cli.pending_main(["--root", str(repo)]) == 1
+    new = add_post(repo, "2026-01-01-new.md")
+    assert cli.pending_main(["--root", str(repo)]) == 0
+    assert new.name in capsys.readouterr().out
+
+
+class HarvestScript:
+    """cookiejar.harvest stand-in scripted per mode: a cookie, or an error."""
+
+    def __init__(self, headless=None, headful=None):
+        self.outcomes = {True: headless, False: headful}
+        self.calls = []
+
+    def __call__(self, root, headless=False, **kwargs):
+        self.calls.append(headless)
+        outcome = self.outcomes[headless]
+        if isinstance(outcome, Exception):
+            raise outcome
+        if outcome is None:
+            raise AssertionError(f"unexpected harvest(headless={headless})")
+        write_cookie_file(root, outcome)
+        return outcome
+
+
+def must_not_build_client(**kwargs):
+    raise AssertionError("no client should be built")
+
+
+@pytest.fixture
+def session_repo(tmp_path, monkeypatch):
+    repo = make_repo(tmp_path)
+    add_post(repo, "2026-01-01-new.md")
+    for name in ("BIRON_COOKIE", "BIRON_USERNAME", "BIRON_PASSWORD",
+                 "BIRON_NO_BROWSER"):
+        monkeypatch.delenv(name, raising=False)
+    return repo
+
+
+def install(monkeypatch, harvest, statuses=None):
+    monkeypatch.setattr(cli.cookiejar, "harvest", harvest)
+    monkeypatch.setattr(
+        cli, "BironClient",
+        lambda **kwargs: FakeStatusClient(statuses=statuses or {}, **kwargs),
+    )
+
+
+def test_session_is_not_needed_when_nothing_is_pending(tmp_path, monkeypatch):
+    repo = make_repo(tmp_path)
+    harvest = HarvestScript()
+    monkeypatch.setattr(cli.cookiejar, "harvest", harvest)
+    monkeypatch.setattr(cli, "BironClient", must_not_build_client)
+    assert cli.session_main(["--root", str(repo)]) == 0
+    assert harvest.calls == []
+
+
+def test_session_keeps_a_cookie_that_still_works(session_repo, monkeypatch):
+    write_cookie_file(session_repo, "name=good")
+    harvest = HarvestScript()
+    install(monkeypatch, harvest, {"name=good": 200})
+    assert cli.session_main(["--root", str(session_repo)]) == 0
+    assert harvest.calls == []
+
+
+def test_session_refreshes_a_stale_cookie_silently(session_repo, monkeypatch):
+    write_cookie_file(session_repo, "name=stale")
+    harvest = HarvestScript(headless="name=fresh")
+    install(monkeypatch, harvest, {"name=stale": 401, "name=fresh": 200})
+    assert cli.session_main(["--root", str(session_repo)]) == 0
+    assert harvest.calls == [True]
+
+
+def test_session_opens_the_window_when_the_silent_refresh_fails(
+        session_repo, monkeypatch):
+    harvest = HarvestScript(headless=LoginError("sign-in needed"),
+                            headful="name=fresh")
+    install(monkeypatch, harvest, {"name=fresh": 200})
+    assert cli.session_main(["--root", str(session_repo)]) == 0
+    assert harvest.calls == [True, False]
+
+
+def test_session_reports_a_keyboard_skip(session_repo, monkeypatch):
+    harvest = HarvestScript(headless=LoginError("sign-in needed"),
+                            headful=LoginSkipped("continuing without BIROn"))
+    install(monkeypatch, harvest)
+    assert cli.session_main(["--root", str(session_repo)]) == cli.EXIT_SKIPPED
+    assert cli.EXIT_SKIPPED not in (0, 1)
+
+
+def test_session_fails_when_the_sign_in_is_abandoned(session_repo, monkeypatch):
+    harvest = HarvestScript(headless=LoginError("sign-in needed"),
+                            headful=LoginError("no cookie after 300s"))
+    install(monkeypatch, harvest)
+    assert cli.session_main(["--root", str(session_repo)]) == 1
+
+
+def test_session_rejects_a_fresh_cookie_biron_will_not_accept(
+        session_repo, monkeypatch):
+    harvest = HarvestScript(headless="name=odd")
+    install(monkeypatch, harvest, {"name=odd": 401})
+    assert cli.session_main(["--root", str(session_repo)]) == 1
+
+
+def test_session_never_opens_a_browser_when_told_not_to(
+        session_repo, monkeypatch):
+    monkeypatch.setenv("BIRON_NO_BROWSER", "1")
+    harvest = HarvestScript(headless="name=fresh")
+    install(monkeypatch, harvest)
+    assert cli.session_main(["--root", str(session_repo)]) == 1
+    assert harvest.calls == []
+
+
+def test_session_with_a_stale_explicit_cookie_fails_without_a_browser(
+        session_repo, monkeypatch):
+    monkeypatch.setenv("BIRON_COOKIE", "name=literal")
+    harvest = HarvestScript(headless="name=fresh")
+    install(monkeypatch, harvest, {"name=literal": 401})
+    assert cli.session_main(["--root", str(session_repo)]) == 1
+    assert harvest.calls == []
+
+
+def test_session_with_basic_credentials_needs_no_cookie(session_repo, monkeypatch):
+    monkeypatch.setenv("BIRON_USERNAME", "user")
+    monkeypatch.setenv("BIRON_PASSWORD", "pass")
+    harvest = HarvestScript()
+    install(monkeypatch, harvest)
+    assert cli.session_main(["--root", str(session_repo)]) == 0
+    assert harvest.calls == []

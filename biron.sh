@@ -13,6 +13,8 @@
 #   ./biron.sh backfill                               # deposit them all
 #   ./biron.sh update --dry-run                       # list changed posts
 #   ./biron.sh update                                 # replace their records in place
+#   ./biron.sh pending                                # what the next deploy would send (exit 1: nothing)
+#   ./biron.sh session                                # ensure a session if anything is pending
 #
 # Deposits are created live in the archive (collection discovered from
 # the service document; override with $BIRON_COLLECTION or --collection)
@@ -35,10 +37,14 @@
 # the evedeploy step knows deposits are configured (a literal cookie
 # value still works as a manual override, and BIRON_USERNAME/
 # BIRON_PASSWORD Basic auth remains supported if the systems team ever
-# enables it). With REMOTE_BUILD_HOST set, ./deploy.sh renews the cookie
-# here (silently, or via the visible sign-in) before handing off, and the
-# build host runs with BIRON_NO_BROWSER=1 so a stale cookie there fails
-# plainly instead of trying to open a browser nobody can see.
+# enables it). With REMOTE_BUILD_HOST set, ./deploy.sh runs `session`
+# here on the host, outside its container, before handing off: nothing
+# pending means no sign-in at all; otherwise a cookie BIROn still
+# accepts is kept, a stale one is renewed silently, and only then does
+# the sign-in window open — press C there to continue the deploy without
+# BIROn (exit 3; the deposits retry next time). The build host runs with
+# BIRON_NO_BROWSER=1 so a stale cookie there fails plainly instead of
+# trying to open a browser nobody can see.
 
 cd "$(dirname "$0")"
 
@@ -68,6 +74,12 @@ case "$cmd" in
         ;;
     update)
         exec uv run --env-file .env --project biron_uploader biron-update "$@"
+        ;;
+    pending)
+        exec uv run --env-file .env --project biron_uploader biron-pending "$@"
+        ;;
+    session)
+        exec uv run --env-file .env --project biron_uploader biron-session "$@"
         ;;
     -h|--help|help)
         usage 0
