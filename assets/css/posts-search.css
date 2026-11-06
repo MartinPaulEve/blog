@@ -1,0 +1,47 @@
+/* Full-text search box on /posts/ (post-index layout only).
+   Kept out of blog-post.css so the archive's search chrome never touches
+   the PDF-hashed stylesheet set — see _plugins/pdf_pages.rb. Mirrors the
+   .thoughts-search idiom in thoughts.css. */
+
+/* .post-content .container becomes a two-column grid at >=1024px
+   (blog-post.css); span the row so the list drops below, not beside. */
+.posts-search {
+    grid-column: 1 / -1;
+    max-width: 42rem;
+    margin: 0 0 1.5rem;
+}
+
+.posts-search input {
+    width: 100%;
+    padding: 0.6rem 0.9rem;
+    font-family: inherit;
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    background: var(--bg-white, #fff);
+    border: 1px solid var(--border-color, #d9d4cc);
+    border-radius: 6px;
+}
+
+.posts-search input:focus {
+    outline: none;
+    border-color: var(--accent-secondary, #8c0d20);
+}
+
+.posts-search-count {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin: 0.5rem 0 0;
+}
+
+/* Filtered-out archive entries and the year headings left with none. */
+#post-archive [hidden] {
+    display: none !important;
+}
+
+@media (min-width: 1024px) {
+    /* The grid's own row gap separates the box from the list. */
+    .posts-search {
+        margin-bottom: 0;
+    }
+}

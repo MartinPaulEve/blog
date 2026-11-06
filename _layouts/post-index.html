@@ -3,6 +3,7 @@
 <head>
     {% include _head.html %}
     <link rel="stylesheet" href="/assets/css/blog-post.css?v={{ '/assets/css/blog-post.css' | asset_version }}">
+    <link rel="stylesheet" href="/assets/css/posts-search.css?v={{ '/assets/css/posts-search.css' | asset_version }}">
     {% include _signposting.html %}
 </head>
 <body>
@@ -30,7 +31,14 @@
         <!-- Post Content -->
         <div class="post-content">
             <div class="container">
-                <div class="post-body">
+                {% comment %} Whole-archive full-text search: posts-search.js
+                fetches /posts/search.json (built by _plugins/posts_search.rb)
+                on the first keystroke and hides the entries that do not match. {% endcomment %}
+                <div class="posts-search">
+                    <input type="search" id="post-search" placeholder="Search the full text of every post…" aria-label="Search the full text of every post" autocomplete="off">
+                    <p class="posts-search-count" id="post-search-count" aria-live="polite" hidden></p>
+                </div>
+                <div class="post-body" id="post-archive">
                     {% comment %} Years are h2 and post titles h3 so the heading outline
                     nests correctly (year > posts); classes preserve the original sizes. {% endcomment %}
                     {% for post in site.posts %}
@@ -78,5 +86,6 @@
     });
 </script>
 <script src="/assets/js/script.js"></script>
+<script src="/assets/js/posts-search.js?v={{ '/assets/js/posts-search.js' | asset_version }}" defer></script>
 </body>
 </html>
