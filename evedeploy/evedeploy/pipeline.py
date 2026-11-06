@@ -5,7 +5,7 @@ resize covers → sequoia dry-run → confirmation gate (skipped when the dry
 run reports nothing new to publish) → sequoia publish →
 refresh CV from ../eprintsToCV → fetch webmentions (so the build renders
 fresh mentions) → fetch Last.fm stats (so the sidebar widget renders fresh
-listening data) → stamp pending Rogue Scholar links from earlier deploys →
+listening data and the /listening log gains the latest plays) → stamp pending Rogue Scholar links from earlier deploys →
 jekyll build → deposit new posts to KC Works and rebuild so their record
 links render → git commit + push → rsync the built _site to the server →
 send outbound webmentions (receivers verify the live source page, so this
@@ -405,7 +405,7 @@ def fetch_webmentions(root: Path, run=default_run, echo=print, present=None) -> 
 
 
 def fetch_lastfm(root: Path, run=default_run, echo=print, present=None) -> bool:
-    """Pull Last.fm listening stats into _data before the build; tolerant step."""
+    """Pull Last.fm stats and the play log into _data before the build; tolerant step."""
     return _webmention_step(
         root, "_lastfm/fetch_lastfm.py",
         "ERROR: Last.fm fetch failed; building with existing data.",

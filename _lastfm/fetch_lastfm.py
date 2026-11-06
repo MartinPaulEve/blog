@@ -25,6 +25,9 @@ The data file is a small snapshot the sidebar widget renders at build time:
 The recent plays are a random sample of the last RECENT_LIMIT scrobbles,
 at most one track per artist, re-drawn on every fetch.
 
+The same run keeps _data/listening.json, the full play log behind the
+/listening/ pages, up to date (see the listening-log section below).
+
 No artwork is fetched or hotlinked: the widget is text-only, so serving the
 site keeps adding no third-party requests.
 """
@@ -241,12 +244,7 @@ def run(root, key=None, get=http_get_json, echo=print, rng=random):
         echo(f"fetch_lastfm: fetch failed: {exc}")
         # Leave a sentinel for _plugins/lastfm_check.rb, which reports the
         # failure in every build's output until a fetch succeeds again.
-        error_path = root / ERROR_FILE
-        error_path.parent.mkdir(parents=True, exist_ok=True)
-        error_path.write_text(json.dumps(
-            {"error": str(exc),
-             "at": datetime.now(timezone.utc).isoformat(timespec="seconds")},
-            ensure_ascii=False) + "\n")
+        _write_error(root, str(exc))
         return 1
 
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
@@ -260,10 +258,184 @@ def run(root, key=None, get=http_get_json, echo=print, rng=random):
     data_path.parent.mkdir(parents=True, exist_ok=True)
     data_path.write_text(
         json.dumps(store, indent=1, ensure_ascii=False, sort_keys=True) + "\n")
-    (root / ERROR_FILE).unlink(missing_ok=True)
     echo(f"fetch_lastfm: wrote {DATA_FILE} "
          f"({', '.join(k for k in ('last_played', 'top_track', 'top_artist', 'recent_plays') if k in store) or 'no stats'})")
+
+    if not sync_listening(root, key, get=get, echo=echo):
+        _write_error(root, "listening log sync failed")
+        return 1
+    (root / ERROR_FILE).unlink(missing_ok=True)
     return 0
+
+
+def _write_error(root, message):
+    """Leave the sentinel _plugins/lastfm_check.rb reports on every build."""
+    error_path = pathlib.Path(root) / ERROR_FILE
+    error_path.parent.mkdir(parents=True, exist_ok=True)
+    error_path.write_text(json.dumps(
+        {"error": message,
+         "at": datetime.now(timezone.utc).isoformat(timespec="seconds")},
+        ensure_ascii=False) + "\n")
+
+
+# --- the full listening log (_data/listening.json) -------------------------
+#
+# Every scrobble, newest first, for the /listening/ pages:
+#
+#     {"updated": "...", "user": ..., "url": ..., "through": <unix ts>,
+#      "plays": [{"ts": <unix ts>, "date": "<ISO, local zone>",
+#                 "track": ..., "artist": ..., "artist_url": ..., "url": ...,
+#                 "album": ...(when known), "n": <plays>(when > 1)}, ...]}
+#
+# A track played several times in a row is one entry carrying "n", the
+# count, under the timestamp of its first play. "through" is the newest
+# scrobble ever folded in: the next sync asks Last.fm only for plays
+# after it, so a run can keep growing across deploys. Dates are local
+# (TZ, Europe/London in the deploy container) so the month pages split
+# where the calendar does.
+
+LISTENING_FILE = "_data/listening.json"
+PAGE_LIMIT = 200
+
+
+def _play_key(play):
+    return (play.get("track", "").casefold(), play.get("artist", "").casefold())
+
+
+def parse_scrobbles(payload, tz=None):
+    """Every dated play in a user.getrecenttracks page, in payload order.
+
+    The now-playing entry has no timestamp and is skipped; ``tz`` is the
+    zone the ISO date is written in (None: the local zone).
+    """
+    plays = []
+    for entry in _tracks(payload, "recenttracks", "track"):
+        if entry.get("@attr", {}).get("nowplaying") == "true":
+            continue
+        try:
+            ts = int((entry.get("date") or {}).get("uts", ""))
+        except (TypeError, ValueError):
+            continue
+        name = entry.get("name", "")
+        artist = _artist_name(entry.get("artist"))
+        if not name or not artist:
+            continue
+        when = datetime.fromtimestamp(ts, timezone.utc).astimezone(tz)
+        play = {"ts": ts,
+                "date": when.isoformat(timespec="seconds"),
+                "track": name,
+                "artist": artist,
+                "artist_url": _artist_url(entry.get("artist")),
+                "url": entry.get("url", "")}
+        album = entry.get("album")
+        album = album.get("#text", "") if isinstance(album, dict) else str(album or "")
+        if album:
+            play["album"] = album
+        plays.append(play)
+    return plays
+
+
+def merge_plays(plays, fresh, through=0):
+    """Fold fresh plays into the newest-first log; returns (plays, through).
+
+    Only plays after ``through`` count, each timestamp once. Taken oldest
+    first, a play of the same track (case-insensitively, same artist) as
+    the log's newest entry extends that entry's run (``n``) instead of
+    adding a line; anything else goes on the front.
+    """
+    plays = [dict(play) for play in plays]
+    seen = set()
+    for play in sorted(fresh, key=lambda play: play["ts"]):
+        ts = play["ts"]
+        if ts <= through or ts in seen:
+            continue
+        seen.add(ts)
+        if plays and _play_key(plays[0]) == _play_key(play):
+            plays[0]["n"] = plays[0].get("n", 1) + 1
+        else:
+            plays.insert(0, {k: v for k, v in play.items() if k != "n"})
+        through = ts
+    return plays, through
+
+
+def fetch_scrobbles(key, get=http_get_json, since=0):
+    """Every raw recent-tracks entry after ``since``, across all pages.
+
+    Pages run newest first; ``since`` is Last.fm's exclusive ``from``.
+    A page without paging attributes is taken to be the only one.
+    """
+    params = {"limit": PAGE_LIMIT, "extended": 1}
+    if since:
+        params["from"] = since
+    entries = []
+    page, total_pages = 1, 1
+    while page <= total_pages:
+        payload = get(api_url("user.getrecenttracks", key, page=page, **params))
+        entries.extend(_tracks(payload, "recenttracks", "track"))
+        attr = payload.get("recenttracks", {}).get("@attr", {}) if isinstance(
+            payload, dict) else {}
+        try:
+            total_pages = int(attr.get("totalPages", 1))
+        except (TypeError, ValueError):
+            total_pages = 1
+        page += 1
+    return entries
+
+
+def load_listening(root):
+    """The stored log, or an empty one when the file is absent.
+
+    A corrupt file raises (ValueError) rather than reading as empty: an
+    empty log would be refilled from scratch and silently overwrite it.
+    """
+    path = pathlib.Path(root) / LISTENING_FILE
+    if not path.is_file():
+        return {"plays": [], "through": 0}
+    log = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(log, dict):
+        raise ValueError(f"{LISTENING_FILE} is not a JSON object")
+    log.setdefault("plays", [])
+    log.setdefault("through", 0)
+    return log
+
+
+def sync_listening(root, key, get=http_get_json, echo=print, tz=None,
+                   now=None):
+    """Bring the listening log up to date; True unless the fetch failed.
+
+    Fetches only what Last.fm has after the log's ``through`` and folds
+    it in. Nothing new leaves the file untouched (so a deploy with no
+    listening in between commits nothing here); a failed fetch or an
+    unreadable log leaves the file alone and reports.
+    """
+    root = pathlib.Path(root)
+    try:
+        log = load_listening(root)
+        fresh = parse_scrobbles(
+            {"recenttracks": {"track": fetch_scrobbles(
+                key, get=get, since=log["through"])}}, tz=tz)
+    except (RuntimeError, OSError, ValueError) as exc:
+        echo(f"fetch_lastfm: listening log sync failed: {exc}")
+        return False
+    plays, through = merge_plays(log["plays"], fresh, log["through"])
+    if through == log["through"] and plays == log["plays"]:
+        echo(f"fetch_lastfm: {LISTENING_FILE} already current "
+             f"({len(plays)} entries)")
+        return True
+    log.update({
+        "updated": now or datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "user": USER,
+        "url": PROFILE_URL,
+        "through": through,
+        "plays": plays,
+    })
+    path = root / LISTENING_FILE
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(log, indent=1, ensure_ascii=False) + "\n",
+                    encoding="utf-8")
+    echo(f"fetch_lastfm: wrote {LISTENING_FILE} "
+         f"(+{len(fresh)} play(s), {len(plays)} entries)")
+    return True
 
 
 def main(argv=None):

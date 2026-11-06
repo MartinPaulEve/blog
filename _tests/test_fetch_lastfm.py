@@ -393,3 +393,328 @@ class TestRun:
                       echo=lambda *a, **kw: None)
         assert code == 1
         assert json.loads(data.read_text()) == {"user": "old"}
+
+
+# --- the full listening log ------------------------------------------------
+
+import datetime
+
+UTC = datetime.timezone.utc
+
+
+def iso(ts, tz=UTC):
+    return datetime.datetime.fromtimestamp(ts, tz).isoformat(timespec="seconds")
+
+
+def scrobble(ts, name, artist, album="An Album", extended=True, playing=False):
+    slug = artist.replace(" ", "+")
+    if extended:
+        artist_field = {"name": artist, "url": f"https://www.last.fm/music/{slug}"}
+    else:
+        artist_field = {"mbid": "", "#text": artist}
+    track = {
+        "artist": artist_field,
+        "name": name,
+        "album": {"mbid": "", "#text": album},
+        "url": f"https://www.last.fm/music/{slug}/_/{name.replace(' ', '+')}",
+        "date": {"uts": str(ts), "#text": "whenever"},
+    }
+    if playing:
+        track["@attr"] = {"nowplaying": "true"}
+        track.pop("date")
+    return track
+
+
+def scrobbles_payload(tracks, page=1, total_pages=1):
+    return {"recenttracks": {
+        "track": tracks,
+        "@attr": {"page": str(page), "totalPages": str(total_pages),
+                  "total": str(len(tracks)), "perPage": "200"},
+    }}
+
+
+def play(ts, name, artist="Fluke", **extra):
+    slug = artist.replace(" ", "+")
+    entry = {"ts": ts, "date": iso(ts), "track": name, "artist": artist,
+             "artist_url": f"https://www.last.fm/music/{slug}",
+             "url": f"https://www.last.fm/music/{slug}/_/{name.replace(' ', '+')}"}
+    entry.update(extra)
+    return entry
+
+
+class TestParseScrobbles:
+    def test_maps_each_play_with_its_timestamp_and_date(self):
+        payload = scrobbles_payload([scrobble(1757200000, "Atom Bomb", "Fluke")])
+        [got] = lf.parse_scrobbles(payload, tz=UTC)
+        assert got == {
+            "ts": 1757200000,
+            "date": iso(1757200000),
+            "track": "Atom Bomb",
+            "artist": "Fluke",
+            "artist_url": "https://www.last.fm/music/Fluke",
+            "url": "https://www.last.fm/music/Fluke/_/Atom+Bomb",
+            "album": "An Album",
+        }
+
+    def test_dates_are_written_in_the_given_zone(self):
+        london = datetime.timezone(datetime.timedelta(hours=1))
+        payload = scrobbles_payload([scrobble(1757200000, "Atom Bomb", "Fluke")])
+        [got] = lf.parse_scrobbles(payload, tz=london)
+        assert got["date"] == iso(1757200000, london)
+        assert got["date"].endswith("+01:00")
+
+    def test_keeps_the_payload_order(self):
+        payload = scrobbles_payload([scrobble(300, "C", "X"), scrobble(200, "B", "X"),
+                                     scrobble(100, "A", "X")])
+        assert [p["track"] for p in lf.parse_scrobbles(payload, tz=UTC)] == ["C", "B", "A"]
+
+    def test_skips_the_track_playing_right_now(self):
+        payload = scrobbles_payload([scrobble(0, "Live", "X", playing=True),
+                                     scrobble(100, "A", "X")])
+        assert [p["track"] for p in lf.parse_scrobbles(payload, tz=UTC)] == ["A"]
+
+    def test_a_blank_album_is_left_out(self):
+        payload = scrobbles_payload([scrobble(100, "A", "X", album="")])
+        [got] = lf.parse_scrobbles(payload, tz=UTC)
+        assert "album" not in got
+
+    def test_builds_the_artist_url_when_the_payload_has_none(self):
+        payload = scrobbles_payload([scrobble(100, "A", "The Prodigy", extended=False)])
+        [got] = lf.parse_scrobbles(payload, tz=UTC)
+        assert got["artist_url"] == "https://www.last.fm/music/The+Prodigy"
+
+    def test_empty_or_malformed_is_an_empty_list(self):
+        assert lf.parse_scrobbles(scrobbles_payload([]), tz=UTC) == []
+        assert lf.parse_scrobbles({}, tz=UTC) == []
+        assert lf.parse_scrobbles({"recenttracks": {"track": scrobble(100, "A", "X")}},
+                                  tz=UTC)[0]["track"] == "A"
+
+
+class TestMergePlays:
+    def test_fresh_plays_are_logged_newest_first(self):
+        plays, through = lf.merge_plays([], [play(100, "A"), play(200, "B")])
+        assert [p["track"] for p in plays] == ["B", "A"]
+        assert through == 200
+
+    def test_the_order_fresh_plays_arrive_in_does_not_matter(self):
+        plays, _ = lf.merge_plays([], [play(200, "B"), play(100, "A")])
+        assert [p["track"] for p in plays] == ["B", "A"]
+
+    def test_the_same_track_several_times_in_a_row_is_one_entry_with_a_count(self):
+        fresh = [play(100, "A"), play(200, "A"), play(300, "A"), play(400, "B")]
+        plays, through = lf.merge_plays([], fresh)
+        assert plays == [play(400, "B"), play(100, "A", n=3)]
+        assert through == 400
+
+    def test_a_repeat_separated_by_another_track_is_logged_again(self):
+        fresh = [play(100, "A"), play(200, "B"), play(300, "A")]
+        plays, _ = lf.merge_plays([], fresh)
+        assert plays == [play(300, "A"), play(200, "B"), play(100, "A")]
+
+    def test_a_run_continues_across_syncs(self):
+        log = [play(100, "A", n=2)]
+        plays, through = lf.merge_plays(log, [play(300, "A")], through=200)
+        assert plays == [play(100, "A", n=3)]
+        assert through == 300
+
+    def test_matching_ignores_case(self):
+        fresh = [play(100, "Atom Bomb", "Fluke"), play(200, "atom bomb", "FLUKE")]
+        plays, _ = lf.merge_plays([], fresh)
+        assert len(plays) == 1
+        assert plays[0]["n"] == 2
+
+    def test_a_different_artist_with_the_same_title_is_a_different_track(self):
+        fresh = [play(100, "Blue", "X"), play(200, "Blue", "Y")]
+        plays, _ = lf.merge_plays([], fresh)
+        assert len(plays) == 2
+
+    def test_plays_already_covered_by_through_are_ignored(self):
+        log = [play(100, "A")]
+        plays, through = lf.merge_plays(
+            log, [play(100, "A"), play(50, "Z"), play(200, "C")], through=100)
+        assert plays == [play(200, "C"), play(100, "A")]
+        assert through == 200
+
+    def test_duplicate_timestamps_count_once(self):
+        plays, _ = lf.merge_plays([], [play(100, "A"), play(100, "A")])
+        assert plays == [play(100, "A")]
+
+    def test_nothing_new_leaves_the_log_and_through_alone(self):
+        log = [play(100, "A")]
+        assert lf.merge_plays(log, [], through=100) == ([play(100, "A")], 100)
+
+
+class PagedGet:
+    """A fake API serving a recent-tracks history in pages; records queries."""
+
+    def __init__(self, pages, fail=False):
+        self.pages = pages  # list of track lists, page 1 first
+        self.queries = []
+        self.fail = fail
+
+    def __call__(self, url):
+        query = dict(urllib_parse_qsl(url.split("?", 1)[1]))
+        self.queries.append(query)
+        if self.fail:
+            raise OSError("boom")
+        if query["method"] == "user.gettoptracks":
+            return top_tracks_payload()
+        if query["method"] == "user.gettopartists":
+            return top_artists_payload()
+        assert query["method"] == "user.getrecenttracks"
+        if query.get("limit") != str(lf.PAGE_LIMIT):
+            return multi_recent_payload()  # the sidebar widget's own fetch
+        page = int(query.get("page", 1))
+        if not self.pages:
+            return scrobbles_payload([], page=1, total_pages=0)
+        return scrobbles_payload(self.pages[page - 1], page=page,
+                                 total_pages=len(self.pages))
+
+    def log_queries(self):
+        return [q for q in self.queries
+                if q["method"] == "user.getrecenttracks"
+                and q.get("limit") == str(lf.PAGE_LIMIT)]
+
+
+class TestFetchScrobbles:
+    def test_walks_every_page_newest_first(self):
+        get = PagedGet([[scrobble(300, "C", "X")], [scrobble(200, "B", "X")],
+                        [scrobble(100, "A", "X")]])
+        tracks = lf.fetch_scrobbles("k", get=get)
+        assert [t["name"] for t in tracks] == ["C", "B", "A"]
+        assert [q["page"] for q in get.log_queries()] == ["1", "2", "3"]
+
+    def test_asks_for_full_pages_with_artist_details(self):
+        get = PagedGet([[scrobble(100, "A", "X")]])
+        lf.fetch_scrobbles("k", get=get)
+        [query] = get.log_queries()
+        assert query["limit"] == "200"
+        assert query["extended"] == "1"
+
+    def test_asks_only_for_plays_after_since(self):
+        get = PagedGet([[scrobble(100, "A", "X")]])
+        lf.fetch_scrobbles("k", get=get, since=1757200000)
+        assert all(q["from"] == "1757200000" for q in get.log_queries())
+
+    def test_no_since_means_the_whole_history(self):
+        get = PagedGet([[scrobble(100, "A", "X")]])
+        lf.fetch_scrobbles("k", get=get)
+        assert all("from" not in q for q in get.log_queries())
+
+    def test_an_empty_history_is_an_empty_list(self):
+        assert lf.fetch_scrobbles("k", get=PagedGet([])) == []
+
+    def test_a_page_without_paging_attributes_is_the_only_page(self):
+        get = lambda url: {"recenttracks": {"track": [scrobble(100, "A", "X")]}}
+        assert [t["name"] for t in lf.fetch_scrobbles("k", get=get)] == ["A"]
+
+
+class TestLoadListening:
+    def test_missing_file_is_an_empty_log(self, tmp_path):
+        log = lf.load_listening(tmp_path)
+        assert log["plays"] == []
+        assert log["through"] == 0
+
+    def test_reads_plays_and_through_back(self, tmp_path):
+        path = tmp_path / lf.LISTENING_FILE
+        path.parent.mkdir(parents=True)
+        path.write_text(json.dumps({"plays": [play(100, "A")], "through": 100}))
+        log = lf.load_listening(tmp_path)
+        assert log["plays"] == [play(100, "A")]
+        assert log["through"] == 100
+
+    def test_a_corrupt_file_is_an_error_not_a_fresh_start(self, tmp_path):
+        path = tmp_path / lf.LISTENING_FILE
+        path.parent.mkdir(parents=True)
+        path.write_text("{not json")
+        import pytest
+        with pytest.raises(ValueError):
+            lf.load_listening(tmp_path)
+
+
+def read_log(root):
+    return json.loads((root / lf.LISTENING_FILE).read_text())
+
+
+class TestSyncListening:
+    def test_first_sync_backfills_the_whole_history(self, tmp_path):
+        get = PagedGet([[scrobble(300, "C", "X"), scrobble(200, "B", "X")],
+                        [scrobble(100, "A", "X")]])
+        assert lf.sync_listening(tmp_path, "k", get=get, tz=UTC,
+                                 echo=lambda *a: None, now="2026-11-06T12:00:00+00:00")
+        log = read_log(tmp_path)
+        assert [p["track"] for p in log["plays"]] == ["C", "B", "A"]
+        assert log["through"] == 300
+        assert log["updated"] == "2026-11-06T12:00:00+00:00"
+        assert log["user"] == lf.USER
+        assert log["url"] == lf.PROFILE_URL
+        assert all("from" not in q for q in get.log_queries())
+
+    def test_later_syncs_fetch_only_newer_plays_and_extend_the_log(self, tmp_path):
+        first = PagedGet([[scrobble(100, "A", "X")]])
+        lf.sync_listening(tmp_path, "k", get=first, tz=UTC, echo=lambda *a: None)
+        second = PagedGet([[scrobble(300, "C", "X"), scrobble(200, "B", "X")]])
+        assert lf.sync_listening(tmp_path, "k", get=second, tz=UTC,
+                                 echo=lambda *a: None)
+        assert all(q["from"] == "100" for q in second.log_queries())
+        log = read_log(tmp_path)
+        assert [p["track"] for p in log["plays"]] == ["C", "B", "A"]
+        assert log["through"] == 300
+
+    def test_a_run_of_one_track_is_collapsed(self, tmp_path):
+        get = PagedGet([[scrobble(300, "A", "X"), scrobble(200, "A", "X"),
+                         scrobble(100, "A", "X")]])
+        lf.sync_listening(tmp_path, "k", get=get, tz=UTC, echo=lambda *a: None)
+        log = read_log(tmp_path)
+        assert len(log["plays"]) == 1
+        assert log["plays"][0]["n"] == 3
+        assert log["plays"][0]["ts"] == 100
+
+    def test_nothing_new_leaves_the_file_untouched(self, tmp_path):
+        lf.sync_listening(tmp_path, "k", get=PagedGet([[scrobble(100, "A", "X")]]),
+                          tz=UTC, echo=lambda *a: None, now="first")
+        before = (tmp_path / lf.LISTENING_FILE).read_text()
+        assert lf.sync_listening(tmp_path, "k", get=PagedGet([]), tz=UTC,
+                                 echo=lambda *a: None, now="second")
+        assert (tmp_path / lf.LISTENING_FILE).read_text() == before
+
+    def test_a_failed_fetch_leaves_the_log_untouched_and_is_false(self, tmp_path):
+        lf.sync_listening(tmp_path, "k", get=PagedGet([[scrobble(100, "A", "X")]]),
+                          tz=UTC, echo=lambda *a: None)
+        before = (tmp_path / lf.LISTENING_FILE).read_text()
+        lines = []
+        assert lf.sync_listening(tmp_path, "k", get=PagedGet([], fail=True),
+                                 tz=UTC, echo=lines.append) is False
+        assert (tmp_path / lf.LISTENING_FILE).read_text() == before
+        assert lines
+
+    def test_a_corrupt_log_is_reported_not_overwritten(self, tmp_path):
+        path = tmp_path / lf.LISTENING_FILE
+        path.parent.mkdir(parents=True)
+        path.write_text("{not json")
+        assert lf.sync_listening(tmp_path, "k", get=PagedGet([[scrobble(1, "A", "X")]]),
+                                 tz=UTC, echo=lambda *a: None) is False
+        assert path.read_text() == "{not json"
+
+
+class TestRunWithTheLog:
+    def test_a_full_run_writes_the_widget_data_and_the_log(self, tmp_path):
+        get = PagedGet([[scrobble(200, "B", "X"), scrobble(100, "A", "X")]])
+        assert lf.run(tmp_path, key="k", get=get, echo=lambda *a, **kw: None) == 0
+        assert (tmp_path / lf.DATA_FILE).exists()
+        assert [p["track"] for p in read_log(tmp_path)["plays"]] == ["B", "A"]
+        assert not (tmp_path / lf.ERROR_FILE).exists()
+
+    def test_a_failed_log_sync_keeps_the_widget_data_and_flags_the_error(self, tmp_path):
+        class WidgetOnly(PagedGet):
+            def __call__(self, url):
+                if f"limit={lf.PAGE_LIMIT}" in url:
+                    raise OSError("history down")
+                return super().__call__(url)
+
+        code = lf.run(tmp_path, key="k", get=WidgetOnly([]),
+                      echo=lambda *a, **kw: None)
+        assert code == 1
+        assert (tmp_path / lf.DATA_FILE).exists()
+        assert not (tmp_path / lf.LISTENING_FILE).exists()
+        assert (tmp_path / lf.ERROR_FILE).exists()
