@@ -305,17 +305,25 @@ def biron_deposit_new(root: Path, run=default_run, echo=print,
     return [post for post in pending if post not in still]
 
 
+# ./biron.sh session's exit status when the sign-in was abandoned at the
+# keyboard (press C): carry on, deposits retry next deploy.
+BIRON_SESSION_SKIPPED = 3
+
+
 def refresh_biron_session(root: Path, run=default_run, echo=print,
                           present=None) -> bool:
-    """Renew the BIROn session cookie on this machine; True when it is fresh.
+    """Settle the BIROn session on this machine; True when the host can deposit.
 
     BIROn signs in through Microsoft SSO in a browser, which only the
-    operator's own machine can show, so before a remote build the cookie
-    is renewed here and shipped to the host as a file. The dedicated
-    browser profile usually renews it silently (``login --headless``);
-    when that fails the visible sign-in window is opened instead. Skipped
-    without a biron.sh or a BIRON_ setting in .env; a failed login is a
-    warning (the host then skips BIROn deposits for this run).
+    operator's own machine can show, so before a remote build the
+    session is settled here and the cookie shipped to the host as a
+    file. ``./biron.sh session`` does the whole dance: with nothing
+    pending for BIROn it needs no session at all; a cookie BIROn still
+    accepts is kept; a stale one is renewed silently through the
+    persisted browser profile; only then does the sign-in window open,
+    where C continues without BIROn. Skipped without a biron.sh or a
+    BIRON_ setting in .env; a skip or failure is a warning (the host then
+    skips BIROn deposits for this run and they retry next time).
     """
     root = Path(root)
     exists = present or (lambda relative: (root / relative).is_file())
@@ -324,18 +332,16 @@ def refresh_biron_session(root: Path, run=default_run, echo=print,
     env_path = root / ".env"
     if not env_path.is_file() or "BIRON_" not in env_path.read_text():
         return False
-    try:
-        run(["./biron.sh", "login", "--headless"], cwd=root)
+    result = run(["./biron.sh", "session"], cwd=root, check=False)
+    if result.returncode == 0:
         return True
-    except subprocess.CalledProcessError:
-        echo("    silent refresh failed; sign in to BIROn in the browser window")
-    try:
-        run(["./biron.sh", "login"], cwd=root)
-        return True
-    except subprocess.CalledProcessError:
-        echo("WARNING: BIROn login failed; the build host will skip BIROn "
-             "deposits this run (they retry next deploy).")
-        return False
+    if result.returncode == BIRON_SESSION_SKIPPED:
+        echo("    continuing without BIROn; the build host will skip its "
+             "deposits this run (they retry next deploy)")
+    else:
+        echo("WARNING: BIROn session step failed; the build host will skip "
+             "BIROn deposits this run (they retry next deploy).")
+    return False
 
 
 def commit_biron_ledger(root: Path, run=default_run) -> bool:
@@ -850,7 +856,8 @@ def _copy_to_host(run, host, source: Path, destination: str, name: str):
 
 def remote_deploy(root: Path, host: str, remote_dir: str, message, args,
                   run=default_run, echo=print, resize: bool = True,
-                  quick: bool = False, home=None) -> bool:
+                  quick: bool = False, home=None,
+                  biron_login: bool = True) -> bool:
     """Prepare locally, push, then run the pipeline on the build host.
 
     For a low-bandwidth operator: everything that needs local resources or
@@ -861,7 +868,10 @@ def remote_deploy(root: Path, host: str, remote_dir: str, message, args,
     checkout at ``remote_dir``, via that checkout's own deploy.sh (with
     ``--remote-phase``: run here, skip the resize and CV steps done on
     this side, wear the remote wordmark) and so inside the same container
-    image. Secrets that git does not carry
+    image. The BIROn session is settled here first (see
+    refresh_biron_session) unless ``biron_login`` is False because the
+    container launcher already did it on the host, where a browser can
+    actually be shown. Secrets that git does not carry
     (.env, the BIROn cookie) are copied across first; sequoia's
     credential store is seeded only when the host has none, so refreshed
     tokens there are never clobbered. The run streams to this terminal
@@ -890,9 +900,10 @@ def remote_deploy(root: Path, host: str, remote_dir: str, message, args,
         echo("==> Committing and pushing")
         if not git_commit_push(root, message, run=run):
             echo("Nothing new to commit — working tree clean.")
-        echo("==> Refreshing the BIROn session for the build host")
-        if not refresh_biron_session(root, run=run, echo=echo):
-            echo("    (skipped or failed)")
+        if biron_login:
+            echo("==> Settling the BIROn session for the build host")
+            if not refresh_biron_session(root, run=run, echo=echo):
+                echo("    (no session for this run)")
 
     branch = _git_out(run, ["rev-parse", "--abbrev-ref", "HEAD"], root) or "main"
     origin = _git_out(run, ["remote", "get-url", "origin"], root)

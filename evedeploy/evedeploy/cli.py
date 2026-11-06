@@ -106,9 +106,16 @@ def find_root(start: Path) -> Path:
     is_flag=True,
     help="Skip the CV refresh from ../eprintsToCV.",
 )
+@click.option(
+    "--no-biron-login",
+    is_flag=True,
+    help="Before a remote hand-off, do not settle the BIROn session here "
+    "(deploy.sh passes this when it already did so on the host, outside "
+    "the container, where the sign-in window can be shown).",
+)
 def main(message, no_resize, yes, root, build_only, no_server, no_rs_wait,
          no_sequoia, quick, local, remote_phase, check_remote, no_cache_sync,
-         no_cv):
+         no_cv, no_biron_login):
     """Build, publish and deploy the eve.gd blog.
 
     With REMOTE_BUILD_HOST set (in .env), everything but the local
@@ -161,7 +168,7 @@ def main(message, no_resize, yes, root, build_only, no_server, no_rs_wait,
             remote_deploy(
                 root, host=host, remote_dir=remote_dir, message=message,
                 args=forwarded, echo=click.echo, resize=not no_resize,
-                quick=quick,
+                quick=quick, biron_login=not no_biron_login,
             )
         except DeployError as exc:
             raise click.ClickException(str(exc)) from exc

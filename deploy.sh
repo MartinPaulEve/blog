@@ -26,7 +26,11 @@
 # (--remote-phase, under a REMOTE BUILD SERVER banner), so inside the
 # same container image, with this machine's SSH agent
 # forwarded for signing and for reaching the deploy server. For when the
-# connection here is too thin to rsync the site. The deploy server also
+# connection here is too thin to rsync the site. Before a full remote
+# deploy the launcher also runs ./biron.sh session on this host, outside
+# the container, since the BIROn sign-in is a browser window: nothing
+# pending for BIROn means no sign-in; press C there to carry on without
+# BIROn rather than Ctrl+C, which aborts the deploy. The deploy server also
 # holds the canonical PDF/OG build cache, pulled before every build, so
 # unchanged pages never re-render or re-ship whichever machine builds.
 #

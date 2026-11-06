@@ -6,6 +6,7 @@ environment rather than asserting on flag order, so the implementation can
 move flags around freely as long as the container sees the same world.
 """
 
+import subprocess
 from pathlib import Path
 
 import pytest
@@ -18,6 +19,8 @@ from evedeploy.container import (
     ensure_image,
     env_value,
     git_config_files,
+    host_biron_session,
+    needs_host_biron_session,
     host_entry,
     hosts_file_for,
     host_timezone,
@@ -599,6 +602,157 @@ class TestMain:
         code = container.main(["--quick"], exec_=lambda *a: None)
         assert code != 0
         assert "runtime" in capsys.readouterr().err
+
+
+# --- the BIROn session, settled on the host before the container runs ----
+
+
+def biron_repo(tmp_path, env="REMOTE_BUILD_HOST=waldorf\nBIRON_COOKIE=auto\n",
+               driver=True):
+    if driver:
+        (tmp_path / "biron.sh").write_text("# biron driver")
+    (tmp_path / ".env").write_text(env)
+    return tmp_path
+
+
+class TestNeedsHostBironSession:
+    def test_a_full_remote_deploy_needs_it(self, tmp_path):
+        root = biron_repo(tmp_path)
+        assert needs_host_biron_session(["Publish now"], root) is True
+        assert needs_host_biron_session(["--no-sequoia", "Publish now"], root)
+        assert needs_host_biron_session([], root) is True
+
+    @pytest.mark.parametrize("flag", ["--quick", "--build-only", "--local",
+                                      "--remote-phase", "--remote-check",
+                                      "--help"])
+    def test_other_runs_do_not(self, tmp_path, flag):
+        root = biron_repo(tmp_path)
+        assert needs_host_biron_session([flag, "Publish now"], root) is False
+
+    def test_without_a_remote_host_the_pipeline_handles_it_itself(self, tmp_path):
+        root = biron_repo(tmp_path, env="BIRON_COOKIE=auto\n")
+        assert needs_host_biron_session(["Publish now"], root) is False
+
+    def test_without_biron_configuration_nothing_is_needed(self, tmp_path):
+        root = biron_repo(tmp_path, env="REMOTE_BUILD_HOST=waldorf\n")
+        assert needs_host_biron_session(["Publish now"], root) is False
+
+    def test_without_the_driver_script_nothing_is_needed(self, tmp_path):
+        root = biron_repo(tmp_path, driver=False)
+        assert needs_host_biron_session(["Publish now"], root) is False
+
+    def test_without_an_env_file_nothing_is_needed(self, tmp_path):
+        (tmp_path / "biron.sh").write_text("# biron driver")
+        assert needs_host_biron_session(["Publish now"], tmp_path) is False
+
+
+class RecordingRun:
+    """A subprocess.run stand-in returning a scripted exit status."""
+
+    def __init__(self, returncode=0, error=None):
+        self.returncode = returncode
+        self.error = error
+        self.calls = []
+
+    def __call__(self, cmd, cwd=None, **kwargs):
+        self.calls.append({"cmd": list(cmd), "cwd": cwd})
+        if self.error:
+            raise self.error
+        return subprocess.CompletedProcess(cmd, self.returncode)
+
+
+class TestHostBironSession:
+    def test_runs_the_session_command_in_the_repo(self, tmp_path):
+        run = RecordingRun()
+        assert host_biron_session(tmp_path, run=run, echo=lambda *_: None) is True
+        assert run.calls == [{"cmd": ["./biron.sh", "session"], "cwd": tmp_path}]
+
+    def test_a_keyboard_skip_is_reported_and_tolerated(self, tmp_path):
+        lines = []
+        run = RecordingRun(returncode=3)
+        assert host_biron_session(tmp_path, run=run, echo=lines.append) is False
+        assert any("BIROn" in line for line in lines)
+
+    def test_a_failure_is_reported_and_tolerated(self, tmp_path):
+        lines = []
+        run = RecordingRun(returncode=1)
+        assert host_biron_session(tmp_path, run=run, echo=lines.append) is False
+        assert any("BIROn" in line for line in lines)
+
+    def test_a_missing_host_toolchain_is_tolerated(self, tmp_path):
+        lines = []
+        run = RecordingRun(error=FileNotFoundError("uv"))
+        assert host_biron_session(tmp_path, run=run, echo=lines.append) is False
+        assert any("BIROn" in line for line in lines)
+
+
+class TestMainBironSession:
+    def repo(self, tmp_path, monkeypatch, env):
+        (tmp_path / "evedeploy" / "container").mkdir(parents=True)
+        (tmp_path / "evedeploy" / "container" / "Dockerfile").write_text("FROM x")
+        (tmp_path / "evedeploy" / "container" / "entrypoint.sh").write_text("#!/bin/sh")
+        (tmp_path / "Gemfile").write_text("")
+        (tmp_path / "Gemfile.lock").write_text("")
+        (tmp_path / "biron.sh").write_text("# biron driver")
+        (tmp_path / ".env").write_text(env)
+        monkeypatch.setattr(container, "repo_root", lambda: tmp_path)
+        monkeypatch.setattr(container, "detect_runtime", lambda **kw: "docker")
+        monkeypatch.setattr(container, "ensure_image", lambda *a, **kw: None)
+        monkeypatch.setattr(container, "host_entry", lambda *a, **kw: None)
+        order = []
+        monkeypatch.setattr(
+            container, "host_biron_session",
+            lambda root, **kw: order.append(("biron", root)) or True)
+        seen = {}
+
+        def fake_exec(prog, argv):
+            order.append(("exec", prog))
+            seen["prog"], seen["argv"] = prog, argv
+
+        return order, seen, fake_exec
+
+    FULL = "REMOTE_BUILD_HOST=waldorf\nBIRON_COOKIE=auto\n"
+
+    def test_a_full_remote_deploy_settles_biron_here_first(
+            self, monkeypatch, tmp_path):
+        order, seen, fake_exec = self.repo(tmp_path, monkeypatch, self.FULL)
+        container.main(["--no-sequoia", "Publish now"], exec_=fake_exec)
+        assert order == [("biron", tmp_path), ("exec", "docker")]
+        assert "--no-biron-login" in seen["argv"]
+        assert seen["argv"][-1] == "Publish now"
+        assert "--no-sequoia" in seen["argv"]
+
+    def test_the_container_still_runs_when_the_session_fails(
+            self, monkeypatch, tmp_path):
+        _, seen, fake_exec = self.repo(tmp_path, monkeypatch, self.FULL)
+        monkeypatch.setattr(container, "host_biron_session",
+                            lambda root, **kw: False)
+        container.main(["Publish now"], exec_=fake_exec)
+        assert seen["prog"] == "docker"
+        assert "--no-biron-login" in seen["argv"]
+
+    def test_a_quick_deploy_leaves_biron_alone(self, monkeypatch, tmp_path):
+        order, seen, fake_exec = self.repo(tmp_path, monkeypatch, self.FULL)
+        container.main(["--quick"], exec_=fake_exec)
+        assert order == [("exec", "docker")]
+        assert "--no-biron-login" not in seen["argv"]
+
+    def test_a_local_deploy_leaves_it_to_the_pipeline(self, monkeypatch, tmp_path):
+        order, seen, fake_exec = self.repo(tmp_path, monkeypatch, self.FULL)
+        container.main(["--local", "--yes"], exec_=fake_exec)
+        assert order == [("exec", "docker")]
+        assert "--no-biron-login" not in seen["argv"]
+
+    def test_native_mode_leaves_it_to_the_pipeline(self, monkeypatch, tmp_path):
+        order, seen, fake_exec = self.repo(tmp_path, monkeypatch, self.FULL)
+        container.main(["--native", "Publish now"], exec_=fake_exec)
+        assert order == [("exec", "uv")]
+        assert "--no-biron-login" not in seen["argv"]
+
+    def test_a_shell_never_touches_biron(self, monkeypatch, tmp_path):
+        order, _, fake_exec = self.repo(tmp_path, monkeypatch, self.FULL)
+        container.main(["--shell"], exec_=fake_exec)
+        assert order == [("exec", "docker")]
 
 
 # --- the remote build host's name inside the container -------------------

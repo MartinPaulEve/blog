@@ -202,10 +202,11 @@ def remote_spy(monkeypatch):
     seen = {}
 
     def fake_remote(root, host, remote_dir, message, args, run=None,
-                    echo=None, resize=True, quick=False, home=None):
+                    echo=None, resize=True, quick=False, home=None,
+                    biron_login=True):
         seen.update(root=root, host=host, remote_dir=remote_dir,
                     message=message, args=list(args), resize=resize,
-                    quick=quick)
+                    quick=quick, biron_login=biron_login)
         return True
 
     monkeypatch.setattr(cli, "remote_deploy", fake_remote, raising=False)
@@ -282,6 +283,22 @@ class TestRemoteBuildHost:
             main, ["--root", str(blog_root), "--yes", "--no-rs-wait"])
         assert "--yes" in remote_spy["args"]
         assert "--no-rs-wait" in remote_spy["args"]
+
+    def test_the_pipeline_settles_the_biron_session_by_default(
+            self, blog_root, remote_spy, monkeypatch):
+        monkeypatch.setenv("REMOTE_BUILD_HOST", "waldorf")
+        CliRunner().invoke(main, ["--root", str(blog_root)])
+        assert remote_spy["biron_login"] is True
+
+    def test_no_biron_login_means_the_launcher_already_did_it(
+            self, blog_root, remote_spy, monkeypatch):
+        monkeypatch.setenv("REMOTE_BUILD_HOST", "waldorf")
+        result = CliRunner().invoke(
+            main, ["--root", str(blog_root), "--no-biron-login", "Hello"])
+        assert result.exit_code == 0, result.output
+        assert remote_spy["biron_login"] is False
+        assert remote_spy["message"] == "Hello"
+        assert "--no-biron-login" not in remote_spy["args"]
 
     def test_without_a_host_the_deploy_is_local(
             self, blog_root, deploy_spy, remote_spy, monkeypatch):

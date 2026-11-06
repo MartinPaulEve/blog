@@ -66,6 +66,20 @@ LAUNCHER_FLAGS = {
     "--shell": "shell",
     "--rebuild-image": "rebuild_image",
 }
+# The BIROn sign-in is a browser window, which the container cannot show
+# (and its persisted Microsoft session lives in a host profile the
+# container never sees), so before a full remote deploy the launcher runs
+# ./biron.sh session on the host and tells evedeploy not to try again.
+# Runs with any of these flags never need that: they stay local (the
+# pipeline then opens the browser itself, on this same host) or never
+# deposit at all.
+BIRON_DRIVER = "biron.sh"
+BIRON_SESSION_FREE_FLAGS = frozenset({
+    "--quick", "--build-only", "--local", "--remote-phase",
+    "--remote-check", "--help", "-h",
+})
+BIRON_NO_LOGIN_FLAG = "--no-biron-login"
+BIRON_SESSION_SKIPPED = 3
 
 
 class LauncherError(RuntimeError):
@@ -291,6 +305,49 @@ def run_command(runtime, image, root, home, uid, gid, args, *, tty,
     return cmd
 
 
+def needs_host_biron_session(args, root) -> bool:
+    """Whether this run must settle the BIROn session here, outside the container.
+
+    Only a full deploy handed to a remote build host (REMOTE_BUILD_HOST
+    in .env) with BIROn configured (a BIRON_ setting in .env and the
+    biron.sh driver present) qualifies.
+    """
+    root = Path(root)
+    if any(arg in BIRON_SESSION_FREE_FLAGS for arg in args):
+        return False
+    if not (root / BIRON_DRIVER).is_file():
+        return False
+    env = root / ".env"
+    if not env_value(env, "REMOTE_BUILD_HOST"):
+        return False
+    return "BIRON_" in env.read_text(encoding="utf-8")
+
+
+def host_biron_session(root, run=subprocess.run, echo=print) -> bool:
+    """Run ./biron.sh session on the host; True when the host can deposit.
+
+    Whatever happens the deploy goes on: a sign-in abandoned at the
+    keyboard (exit 3), a failed sign-in or a host without the uploader's
+    toolchain all just mean the build host skips BIROn deposits this run
+    (they retry next deploy).
+    """
+    echo("==> Settling the BIROn session on this machine")
+    try:
+        result = run(["./" + BIRON_DRIVER, "session"], cwd=root)
+    except OSError as exc:
+        echo(f"    WARNING: could not run ./{BIRON_DRIVER} here ({exc}); "
+             "the build host will skip BIROn deposits this run.")
+        return False
+    if result.returncode == 0:
+        return True
+    if result.returncode == BIRON_SESSION_SKIPPED:
+        echo("    continuing without BIROn; the deposits retry on the next deploy")
+    else:
+        echo(f"    WARNING: BIROn session step failed (exit {result.returncode}); "
+             "the build host will skip BIROn deposits this run.")
+    return False
+
+
 def env_value(path, key):
     """The value of ``key`` in a .env file, or None (absent, empty, no file)."""
     path = Path(path)
@@ -436,6 +493,11 @@ def main(argv=None, exec_=os.execvp) -> int:
         print(f"Error: {exc}", file=sys.stderr)
         return 1
 
+    args = list(opts.passthrough)
+    if not opts.shell and needs_host_biron_session(args, root):
+        host_biron_session(root)
+        args = [BIRON_NO_LOGIN_FLAG, *args]
+
     home = Path.home()
     extra = [p for p in [(root / CV_SOURCE_DIR).resolve()] if p.is_dir()]
     identity = ssh_mounts(home) + [
@@ -445,7 +507,7 @@ def main(argv=None, exec_=os.execvp) -> int:
         home, host_entry(env_value(root / ".env", "REMOTE_BUILD_HOST")))
     cmd = run_command(
         runtime, tag, root, home, os.getuid(), os.getgid(),
-        opts.passthrough, tty=sys.stdin.isatty() and sys.stdout.isatty(),
+        args, tty=sys.stdin.isatty() and sys.stdout.isatty(),
         agent=next(iter(agent_sockets(home)), None),
         identity_files=identity,
         extra_mounts=extra, state_dirs=state, shell=opts.shell,

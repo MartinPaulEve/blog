@@ -62,12 +62,22 @@ What stays on the host: `./biron.sh login` (an interactive browser
 sign-in; the cookie it stores in the repo is what the container uses)
 and `sequoia auth` (its OAuth flow opens a browser; the credentials it
 writes to `~/.config/sequoia` are what the container reads). With a
-remote build host the same holds for the calling machine: before the
-hand-off, `./deploy.sh` renews the BIROn cookie here (silently through
-the persisted browser profile, else via the visible sign-in window) and
-ships the file across, and the remote phase runs with
-`BIRON_NO_BROWSER=1` so a stale cookie there fails plainly rather than
-trying to open a browser nobody can see.
+remote build host the same holds for the calling machine: before a full
+deploy's hand-off, `./deploy.sh` runs `./biron.sh session` here on the
+host, outside the container (which has no display and never sees the
+persisted browser profile), and passes `--no-biron-login` inside so the
+pipeline does not try again. That step first asks whether anything is
+pending for BIROn at all (`./biron.sh pending`, a local check); with
+nothing to deposit or update it needs no session and ends at once.
+Otherwise a cookie BIROn still accepts is kept, a stale one is renewed
+silently through the browser profile, and only then does the sign-in
+window open — press **C** in the terminal to continue the deploy
+without BIROn (the deposits retry next time; Ctrl+C would abort the
+whole deploy). The cookie file is shipped across, and the remote phase
+runs with `BIRON_NO_BROWSER=1` so a stale cookie there fails plainly
+rather than trying to open a browser nobody can see. `--quick` deploys
+never touch BIROn, and `--native` runs leave the step to the pipeline,
+which then runs on this same host anyway.
 
 Two things the image does to match the Nix-built site byte for byte:
 `Gemfile` includes `liquid-c`, because Jekyll loads it whenever it is
@@ -83,9 +93,11 @@ Set `REMOTE_BUILD_HOST=<ssh host>` in `.env` (and, optionally,
 `REMOTE_BUILD_DIR`, default `~/build/martineve/blog`) and `./deploy.sh`
 splits the run in two, for connections too thin to rsync the site:
 
-1. **Here:** cover resize, CV refresh (the `../eprintsToCV` sibling is
-   local), commit and push. `.env` and the BIROn cookie are copied to the
-   host; sequoia's credential store is seeded only if the host has none.
+1. **Here:** the BIROn session step (on the host, outside the container,
+   only when something is pending for BIROn), then cover resize, CV
+   refresh (the `../eprintsToCV` sibling is local), commit and push.
+   `.env` and the BIROn cookie are copied to the host; sequoia's
+   credential store is seeded only if the host has none.
 2. **On the host:** clone on first use, reset the checkout to the pushed
    branch, then `./deploy.sh --remote-phase …` (local run, no resize or
    CV step, a REMOTE BUILD SERVER wordmark so the two halves of the

@@ -19,6 +19,7 @@ from evedeploy.pipeline import (
     pull_build_cache,
     push_cache_hashes,
     quick_deploy,
+    refresh_biron_session,
     refresh_cv,
     remote_check,
     remote_deploy,
@@ -1410,10 +1411,55 @@ class TestDeploySmolpub:
         assert len(builds) == 1
 
 
+class TestRefreshBironSession:
+    """One call to ./biron.sh session does it all: nothing pending means no
+    session is needed, a working cookie is kept, a stale one is renewed
+    silently, and only then does the sign-in window open (with a key to
+    continue without BIROn)."""
+
+    def configured(self, root):
+        (root / "biron.sh").write_text("# biron driver")
+        (root / ".env").write_text("BIRON_COOKIE=auto\n")
+        return root
+
+    def test_a_ready_or_unneeded_session_is_true(self, root):
+        self.configured(root)
+        run = ScriptedRun()
+        assert refresh_biron_session(root, run=run, echo=lambda *_: None) is True
+        assert run.joined() == ["./biron.sh session"]
+        assert run.calls[0]["cwd"] == root
+
+    def test_a_keyboard_skip_is_false_and_says_so(self, root):
+        self.configured(root)
+        lines = []
+        run = ScriptedRun({"./biron.sh session": 3})
+        assert refresh_biron_session(root, run=run, echo=lines.append) is False
+        assert any("BIROn" in line for line in lines)
+
+    def test_a_failed_session_is_false_and_warns(self, root):
+        self.configured(root)
+        lines = []
+        run = ScriptedRun({"./biron.sh session": 1})
+        assert refresh_biron_session(root, run=run, echo=lines.append) is False
+        assert any("BIROn" in line for line in lines)
+
+    def test_without_configuration_nothing_runs(self, root):
+        (root / "biron.sh").write_text("# biron driver")
+        run = ScriptedRun()
+        assert refresh_biron_session(root, run=run, echo=lambda *_: None) is False
+        assert run.calls == []
+
+    def test_without_the_driver_nothing_runs(self, root):
+        (root / ".env").write_text("BIRON_COOKIE=auto\n")
+        run = ScriptedRun()
+        assert refresh_biron_session(root, run=run, echo=lambda *_: None) is False
+        assert run.calls == []
+
+
 class TestRemoteDeployBironSession:
-    """The BIROn sign-in needs a visible browser, so the cookie is refreshed
+    """The BIROn sign-in needs a visible browser, so the session is settled
     on the calling machine before the hand-off and the host only ever
-    receives the file."""
+    receives the cookie file."""
     HOST = "waldorf"
     DIR = "~/build/martineve/blog"
 
@@ -1426,37 +1472,31 @@ class TestRemoteDeployBironSession:
                              message="Publish now", args=["--no-sequoia"],
                              run=run, echo=lambda *_: None, home=home, **kw)
 
-    def test_silent_refresh_runs_before_the_cookie_is_copied(self, remote_root):
+    def biron_calls(self, run):
+        return [c for c in run.joined() if c.startswith("./biron.sh")]
+
+    def test_session_step_runs_before_the_cookie_is_copied(self, remote_root):
         root, home = remote_root
         self.with_biron(root)
         run = ScriptedRun()
         self.run_full(root, home, run)
-        refresh = run.index_of("./biron.sh login --headless")
+        session = run.index_of("./biron.sh session")
         copy = next(i for i, c in enumerate(run.joined())
                     if c.startswith("scp") and ".biron_cookie" in c)
-        assert refresh < copy
-        assert run.calls[refresh]["cwd"] == root
+        assert session < copy
+        assert run.calls[session]["cwd"] == root
 
-    def test_interactive_login_follows_a_failed_silent_refresh(self, remote_root):
-        root, home = remote_root
-        self.with_biron(root)
-        run = ScriptedRun({"./biron.sh login --headless": 1})
-        self.run_full(root, home, run)
-        logins = [c for c in run.joined() if c.startswith("./biron.sh login")]
-        assert logins == ["./biron.sh login --headless", "./biron.sh login"]
-
-    def test_working_silent_refresh_needs_no_interactive_login(self, remote_root):
+    def test_the_session_step_is_the_only_biron_call(self, remote_root):
         root, home = remote_root
         self.with_biron(root)
         run = ScriptedRun()
         self.run_full(root, home, run)
-        logins = [c for c in run.joined() if c.startswith("./biron.sh login")]
-        assert logins == ["./biron.sh login --headless"]
+        assert self.biron_calls(run) == ["./biron.sh session"]
 
-    def test_failed_logins_warn_but_the_hand_off_continues(self, remote_root):
+    def test_a_keyboard_skip_warns_but_the_hand_off_continues(self, remote_root):
         root, home = remote_root
         self.with_biron(root)
-        run = ScriptedRun({"./biron.sh login": 1})
+        run = ScriptedRun({"./biron.sh session": 3})
         lines = []
         remote_deploy(root, host=self.HOST, remote_dir=self.DIR,
                       message="Publish now", args=[], run=run,
@@ -1464,16 +1504,37 @@ class TestRemoteDeployBironSession:
         assert any("BIROn" in line for line in lines)
         assert any("--remote-phase" in c for c in run.joined())
 
-    def test_no_biron_configuration_means_no_login_attempt(self, remote_root):
+    def test_a_failed_session_warns_but_the_hand_off_continues(self, remote_root):
+        root, home = remote_root
+        self.with_biron(root)
+        run = ScriptedRun({"./biron.sh session": 1})
+        lines = []
+        remote_deploy(root, host=self.HOST, remote_dir=self.DIR,
+                      message="Publish now", args=[], run=run,
+                      echo=lines.append, home=home)
+        assert any("BIROn" in line for line in lines)
+        assert any("--remote-phase" in c for c in run.joined())
+
+    def test_no_biron_configuration_means_no_session_step(self, remote_root):
         root, home = remote_root
         (root / "biron.sh").write_text("# biron driver")
         run = ScriptedRun()
         self.run_full(root, home, run)
-        assert not any(c.startswith("./biron.sh") for c in run.joined())
+        assert self.biron_calls(run) == []
 
     def test_quick_hand_off_does_not_touch_the_session(self, remote_root):
         root, home = remote_root
         self.with_biron(root)
         run = ScriptedRun()
         self.run_full(root, home, run, quick=True)
-        assert not any(c.startswith("./biron.sh") for c in run.joined())
+        assert self.biron_calls(run) == []
+
+    def test_a_session_the_launcher_settled_is_not_refreshed_again(
+            self, remote_root):
+        root, home = remote_root
+        self.with_biron(root)
+        run = ScriptedRun()
+        self.run_full(root, home, run, biron_login=False)
+        assert self.biron_calls(run) == []
+        assert any(c.startswith("scp") and ".biron_cookie" in c
+                   for c in run.joined())
