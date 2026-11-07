@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="/assets/css/thoughts.css?v={{ '/assets/css/thoughts.css' | asset_version }}">
 <link rel="stylesheet" href="/assets/css/listening.css?v={{ '/assets/css/listening.css' | asset_version }}">
 
-<div class="thoughts-crosslink">{% if page.listening_index %}{{ page.play_count }} entries, newest first. {% else %}<a href="/listening/">Latest listening &rarr;</a> {% endif %}Scrobbled on <a href="{{ site.data.listening.url }}">Last.fm</a>; a track on repeat counts once.</div>
+<div class="thoughts-crosslink">{% if page.listening_index %}{{ page.play_count }} entries, newest first. {% else %}<a href="/listening/">Latest listening &rarr;</a> {% endif %}Scrobbled on <a href="{{ site.data.listening.url }}">Last.fm</a>; a track on repeat counts once. <a href="/listening/feed.atom">Feed</a></div>
 
 <div class="thoughts-search">
     <input type="search" id="listening-search" placeholder="Search tracks, artists, albums…" aria-label="Search the listening log" autocomplete="off">

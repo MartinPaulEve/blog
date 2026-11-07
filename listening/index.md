@@ -5,6 +5,7 @@ excerpt: "Everything I listen to, scrobbled from Last.fm: a chronological log by
 og_card_image: mpe.png
 regenerate: true
 pdf: false
+feed: /listening/feed.atom
 ---
 
 {% if page.month_plays %}

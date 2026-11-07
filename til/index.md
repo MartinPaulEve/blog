@@ -5,6 +5,7 @@ excerpt: "Today I learned — TIL micro-posts drawn from the short thoughts stre
 og_card_image: mpe.png
 regenerate: true
 pdf: false
+feed: /til/feed.atom
 ---
 
 <link rel="stylesheet" href="/assets/css/thoughts.css?v={{ '/assets/css/thoughts.css' | asset_version }}">
@@ -14,7 +15,7 @@ pdf: false
 {% if months == empty %}
 <p>No TILs yet.</p>
 {% else %}
-<p class="thoughts-crosslink"><a href="/thoughts/">All short thoughts &rarr;</a></p>
+<p class="thoughts-crosslink"><a href="/thoughts/">All short thoughts &rarr;</a> &middot; <a href="/til/feed.atom">Feed</a></p>
 
 <div class="thoughts-search">
     <input type="search" id="thought-search" placeholder="Search TILs…" aria-label="Search TILs" autocomplete="off">

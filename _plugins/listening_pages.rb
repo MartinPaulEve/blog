@@ -76,6 +76,7 @@ if defined?(Jekyll)
                        "scrobbled from Last.fm.",
           "og_card" => false,
           "pdf" => false,
+          "feed" => "/#{ListeningPages::BASE_DIR}/feed.atom",
           "month" => month,
           "month_display" => display,
           "month_plays" => entries,
@@ -90,6 +91,7 @@ if defined?(Jekyll)
         self.content = JSON.generate(ListeningPages.search_index(plays))
         self.data = {
           "layout" => nil,
+          "render_with_liquid" => false,
           "sitemap" => false,
           "pdf" => false,
           "og_card" => false,
