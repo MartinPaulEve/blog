@@ -17677,6 +17677,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-11/#t20261107184321": {
+   "content_hash": "12f8e2511136333185e50224fb6dffcf5a9cb8aba634f42c334e6867a8b131dc",
+   "sent": {
+    "https://latestartrek.substack.com/p/the-galileo-seven-trope": {
+     "at": "2026-11-07T18:44:42+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
