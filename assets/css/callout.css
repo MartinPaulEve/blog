@@ -1,0 +1,171 @@
+/* Callout quotations (_plugins/callouts.rb).
+   A big, bold pull-quote that interrupts the text column. Deliberately
+   OUTSIDE the PDF-hashed stylesheet set (blog-post.css, styles.css) — see
+   _plugins/pdf_pages.rb — and linked from inside the post content only when
+   a callout is present.
+
+   Aesthetic: the site's signature near-black band carrying a thick brand-red
+   rule and an oversized red quotation mark, with the quote itself set large
+   in the display serif (Fraunces). Dark mode swaps the band for the elevated
+   card surface so it still lifts off the page. */
+
+.post-body blockquote.callout {
+    --callout-bg: #0b0b0b;
+    --callout-fg: #ffffff;
+    --callout-muted: #d6d0c6;
+    --callout-rule: var(--accent-deco, #b3122a);
+
+    position: relative;
+    margin: 3rem 0;
+    padding: 3.1rem 2.25rem 2.25rem 2.5rem;
+    background-color: var(--callout-bg);
+    color: var(--callout-fg);
+    border-left: 12px solid var(--callout-rule);
+    border-radius: 0;
+    font-family: var(--font-serif, 'Fraunces', Georgia, serif);
+    font-style: normal;
+    overflow: hidden;
+}
+
+/* Oversized opening quotation mark, bleeding off the top-left corner.
+   Purely decorative: the alt-text slot after the slash keeps it out of the
+   accessibility tree in browsers that honour it. */
+.post-body blockquote.callout::before {
+    content: "\201C" / "";
+    position: absolute;
+    top: -0.08em;
+    left: 0.55rem;
+    font-family: var(--font-serif, 'Fraunces', Georgia, serif);
+    font-size: 8.5rem;
+    font-weight: 900;
+    line-height: 1;
+    color: var(--callout-rule);
+    opacity: 0.85;
+    pointer-events: none;
+}
+
+/* A short red rule under the quote, ending the block with intent. */
+.post-body blockquote.callout::after {
+    content: "";
+    display: block;
+    width: 4.5rem;
+    height: 4px;
+    margin-top: 1.5rem;
+    background-color: var(--callout-rule);
+}
+
+.post-body blockquote.callout p {
+    position: relative;
+    margin: 0 0 1rem;
+    color: var(--callout-fg);
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(1.35rem, 1.1rem + 1vw, 1.75rem);
+    line-height: 1.35;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-wrap: balance;
+}
+
+.post-body blockquote.callout p:last-child {
+    margin-bottom: 0;
+}
+
+.post-body blockquote.callout a {
+    color: inherit;
+    text-decoration-color: var(--callout-rule);
+    text-decoration-thickness: 2px;
+}
+
+.post-body blockquote.callout strong,
+.post-body blockquote.callout em {
+    color: inherit;
+}
+
+/* Attribution: a <cite> line, set in the site's mono eyebrow style. */
+.post-body blockquote.callout cite {
+    display: block;
+    margin-top: 1.25rem;
+    font-family: var(--font-mono, ui-monospace, monospace);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.78rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--callout-muted);
+}
+
+.post-body blockquote.callout cite::before {
+    content: "\2014\00a0";
+    color: var(--callout-rule);
+}
+
+/* A paragraph that holds only the attribution should not carry quote sizing. */
+.post-body blockquote.callout p:has(> cite:only-child) {
+    margin-top: -0.25rem;
+    font-size: 1rem;
+}
+
+.post-body blockquote.callout p:has(> cite:only-child) cite {
+    margin-top: 0;
+}
+
+/* Dark mode: the page is already near-black, so lift the block onto the
+   elevated card surface and let the red rule do the shouting. */
+[data-theme="dark"] .post-body blockquote.callout {
+    --callout-bg: var(--card-bg, #202024);
+    --callout-fg: var(--text-primary, #f2efe9);
+    --callout-muted: var(--text-secondary, #b3ada3);
+    --callout-rule: #e63946;
+    box-shadow: 0 0 0 1px var(--card-border, #2e2e30);
+}
+
+@media (max-width: 767px) {
+    .post-body blockquote.callout {
+        margin: 2.25rem 0;
+        padding: 2.5rem 1.25rem 1.75rem 1.5rem;
+        border-left-width: 8px;
+    }
+
+    .post-body blockquote.callout::before {
+        font-size: 6rem;
+        left: 0.3rem;
+    }
+}
+
+/* Print / PDF edition: no solid ink field, but keep the weight — heavy
+   black rules top and bottom, the big quotation mark in black, and the
+   large serif setting. Overrides blog-post.css's generic print blockquote. */
+@media print {
+    .post-body blockquote.callout {
+        background: none !important;
+        color: #000 !important;
+        border-left: 8px solid #000;
+        border-top: 3px solid #000;
+        border-bottom: 3px solid #000;
+        padding: 1.5rem 1.25rem 1.25rem 1.75rem;
+        margin: 1.75rem 0;
+        box-shadow: none;
+        overflow: visible;
+        page-break-inside: avoid;
+    }
+
+    .post-body blockquote.callout::before {
+        color: #000;
+        opacity: 0.15;
+    }
+
+    .post-body blockquote.callout::after {
+        content: none;
+    }
+
+    .post-body blockquote.callout p {
+        color: #000 !important;
+        font-size: 15pt;
+    }
+
+    .post-body blockquote.callout cite,
+    .post-body blockquote.callout cite::before {
+        color: #000;
+    }
+}
