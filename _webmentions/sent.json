@@ -17695,6 +17695,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-11/#t20261108050930": {
+   "content_hash": "eea5daedf27fb953922d69d6b390e8a8b5b24a2343daaee5be6966c20a859432",
+   "sent": {
+    "https://www.theguardian.com/society/2026/nov/06/like-the-danes-we-need-to-pay-for-the-society-we-want": {
+     "at": "2026-11-08T05:12:31+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
