@@ -70,3 +70,50 @@ class PdfCacheNormalizationTest < Minitest::Test
     refute_equal PdfPages.content_hash(BASE, "a{}"), PdfPages.content_hash(BASE, "b{}")
   end
 end
+
+class PdfCacheAnchorNormalizationTest < Minitest::Test
+  # Paragraph/heading anchors (_plugins/paragraph_anchors.rb) are hidden in
+  # print, so neither their markup, their generated ids nor their assets may
+  # move a PDF's cache key.
+  PLAIN = <<~HTML
+    <html><head>
+    <link rel="stylesheet" href="/assets/css/blog-post.css?v=1">
+    </head><body><article>
+    <h2 id="intro">Intro</h2>
+    <p>Hello.</p>
+    <p class="note">Aside.</p>
+    </article></body></html>
+  HTML
+
+  ANCHORED = <<~HTML
+    <html><head>
+    <link rel="stylesheet" href="/assets/css/blog-post.css?v=1">
+    <link rel="stylesheet" href="/assets/css/anchors.css?v=abc123">
+    </head><body><article>
+    <h2 id="intro">Intro<a class="anchor-link" href="#intro" aria-label="Link to this heading"></a></h2>
+    <p id="p-3f9a1c2b7d">Hello.<a class="anchor-link" href="#p-3f9a1c2b7d" aria-label="Link to this paragraph"></a></p>
+    <p class="note" id="p-00ff00ff00-2">Aside.<a class="anchor-link" href="#p-00ff00ff00-2" aria-label="Link to this paragraph"></a></p>
+    <script src="/assets/js/anchors.js?v=abc123"></script>
+    </article></body></html>
+  HTML
+
+  def test_anchor_markup_ids_and_assets_do_not_change_the_hash
+    assert_equal PdfPages.content_hash(PLAIN), PdfPages.content_hash(ANCHORED)
+  end
+
+  def test_generated_heading_ids_do_not_change_the_hash
+    bare = PLAIN.sub('<h2 id="intro">', "<h2>")
+    generated = PLAIN.sub('<h2 id="intro">', '<h2 id="h-9a8b7c6d5e">')
+    assert_equal PdfPages.content_hash(bare), PdfPages.content_hash(generated)
+  end
+
+  def test_authored_ids_still_count_as_content
+    changed = PLAIN.sub('id="intro"', 'id="introduction"')
+    refute_equal PdfPages.content_hash(PLAIN), PdfPages.content_hash(changed)
+  end
+
+  def test_anchored_text_changes_still_change_the_hash
+    changed = ANCHORED.sub("Hello.", "Goodbye.")
+    refute_equal PdfPages.content_hash(ANCHORED), PdfPages.content_hash(changed)
+  end
+end

@@ -1,0 +1,125 @@
+/* Paragraph and heading anchor links (_plugins/paragraph_anchors.rb).
+   Deliberately OUTSIDE the PDF-hashed stylesheet set (blog-post.css,
+   styles.css) — see _plugins/pdf_pages.rb, which also strips the <link>
+   to this file and the anchor markup from every cache key.
+
+   Each <p> and heading in a post ends with an empty <a class="anchor-link">.
+   It sits inline after the last word, invisible until the paragraph is
+   hovered or the link itself is focused, and shows a "#" in the brand red.
+   Clicking it copies the fragment URL (assets/js/anchors.js) and shows a
+   brief "Link copied" tag; right-click → Copy Link works regardless. */
+
+.post-body .anchor-link {
+    position: relative;
+    display: inline-block;
+    width: 1em;
+    margin-left: 0.35em;
+    vertical-align: baseline;
+    text-decoration: none;
+    font-family: var(--font-mono, ui-monospace, monospace);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.85em;
+    line-height: 1;
+    color: var(--accent-primary, #8c0d20);
+    opacity: 0;
+    transition: opacity 120ms ease-in-out;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.post-body .anchor-link::before {
+    content: "#";
+}
+
+.post-body p:hover > .anchor-link,
+.post-body h1:hover > .anchor-link,
+.post-body h2:hover > .anchor-link,
+.post-body h3:hover > .anchor-link,
+.post-body h4:hover > .anchor-link,
+.post-body h5:hover > .anchor-link,
+.post-body h6:hover > .anchor-link,
+.post-body .anchor-link:focus-visible,
+.post-body .anchor-link.is-copied {
+    opacity: 1;
+}
+
+.post-body .anchor-link:hover,
+.post-body .anchor-link:focus-visible {
+    color: var(--accent-deco, #b3122a);
+}
+
+.post-body .anchor-link:focus-visible {
+    outline: 2px solid var(--focus-ring, #e63946);
+    outline-offset: 2px;
+    border-radius: 2px;
+}
+
+/* Confirmation tag, hung just above the "#" after a successful copy. */
+.post-body .anchor-link::after {
+    content: "Link copied";
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 0.45em);
+    transform: translateX(-50%) translateY(0.25em);
+    padding: 0.3em 0.6em;
+    background-color: #0b0b0b;
+    color: #fff;
+    font-family: var(--font-mono, ui-monospace, monospace);
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    border-left: 3px solid var(--accent-deco, #b3122a);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 120ms ease-in-out, transform 120ms ease-in-out;
+}
+
+.post-body .anchor-link.is-copied::after {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+
+[data-theme="dark"] .post-body .anchor-link::after {
+    background-color: var(--card-bg, #202024);
+    box-shadow: 0 0 0 1px var(--card-border, #2e2e30);
+}
+
+/* Inside the near-black callout band the red reads fine, but the copied
+   tag needs to lift off the band. */
+.post-body blockquote.callout .anchor-link::after {
+    background-color: #fff;
+    color: #0b0b0b;
+}
+
+/* A paragraph arrived at via its fragment gets a brief red rule so the
+   reader can see which one the link meant. Only for generated ids: kramdown
+   heading ids already sit under a visible heading. */
+.post-body p:target:not(.callout p) {
+    animation: anchor-target-fade 2.4s ease-out 1;
+}
+
+@keyframes anchor-target-fade {
+    0%   { box-shadow: -0.75rem 0 0 0 var(--accent-deco, #b3122a); }
+    70%  { box-shadow: -0.75rem 0 0 0 var(--accent-deco, #b3122a); }
+    100% { box-shadow: -0.75rem 0 0 0 transparent; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .post-body .anchor-link,
+    .post-body .anchor-link::after {
+        transition: none;
+    }
+
+    .post-body p:target:not(.callout p) {
+        animation: none;
+        box-shadow: -0.75rem 0 0 0 var(--accent-deco, #b3122a);
+    }
+}
+
+@media print {
+    .post-body .anchor-link {
+        display: none !important;
+    }
+}
