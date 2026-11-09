@@ -121,6 +121,7 @@ references:
     name: emacs-devel mailing list archive
     type: WebSite
     url: https://lists.gnu.org/archive/html/emacs-devel/
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mzuk6uswvj24"
 ---
 Asahi Linux is an incredible project. A group of extremely talented low-level hardware reverse engineers have spent years figuring out in reverse how Apple's System on Chip (SoC) ARM64 devices work; how they can bring up an environment suitable for the Linux kernel on such devices; and then how the peripheral components, designed from scratch uniquely for Apple, work on these M series devices.
 
