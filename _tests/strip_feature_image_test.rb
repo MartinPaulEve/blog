@@ -90,4 +90,44 @@ class StripFeatureImageTest < Minitest::Test
     assert_includes out, "<p>"
     assert_includes out, "</p>"
   end
+
+  # Paragraph anchor links (_plugins/paragraph_anchors.rb) are empty <a>
+  # elements pointing at a fragment; they are not image wrappers and must
+  # survive the clean-up of emptied wrappers.
+  def test_keeps_empty_fragment_anchors_on_text_paragraphs
+    text_para = '<p id="p-1">Text<a class="anchor-link" href="#p-1" aria-label="Link to this paragraph"></a></p>'
+    html = text_para + '<p><img src="/images/oa.png" alt="oa"></p>'
+    out = StripFeatureImage.strip(html, "oa.png")
+
+    refute_includes out, "oa.png"
+    assert_includes out, text_para
+  end
+
+  # The feature image's own paragraph still disappears entirely, even when
+  # it carries a trailing anchor link.
+  def test_removes_image_paragraph_even_with_a_trailing_anchor
+    html = '<p>Before</p><p id="p-2"><img src="/images/oa.png" alt="oa"><a class="anchor-link" href="#p-2" aria-label="Link to this paragraph"></a></p><p>After</p>'
+    out = StripFeatureImage.strip(html, "oa.png")
+
+    refute_includes out, "<img"
+    refute_includes out, "p-2"
+    assert_equal '<p>Before</p><p>After</p>', out
+  end
+
+  # The same holds when the image was itself wrapped in a link.
+  def test_removes_linked_image_paragraph_with_a_trailing_anchor
+    html = '<p id="p-3"><a href="/images/oa.png"><img src="/images/oa.png" alt="oa"></a><a class="anchor-link" href="#p-3" aria-label="Link to this paragraph"></a></p><p>After</p>'
+    out = StripFeatureImage.strip(html, "oa.png")
+
+    assert_equal '<p>After</p>', out
+  end
+
+  # An emptied non-fragment wrapper link is still cleaned away.
+  def test_still_removes_emptied_non_fragment_anchors
+    html = '<p><a href="https://example.org/"><img src="/images/oa.png" alt="oa"></a></p><p id="p-4">Text<a class="anchor-link" href="#p-4"></a></p>'
+    out = StripFeatureImage.strip(html, "oa.png")
+
+    refute_includes out, "example.org"
+    assert_includes out, '<p id="p-4">Text<a class="anchor-link" href="#p-4"></a></p>'
+  end
 end

@@ -17,9 +17,12 @@ module StripFeatureImage
     out = html.to_s.gsub(img, "")
 
     # Collapse the now-empty wrappers left behind, but only when whitespace-only:
-    # anchors first (they sit inside paragraphs), then paragraphs.
-    out = out.gsub(/<a\b[^>]*>\s*<\/a>/i, "")
-    out.gsub(/<p\b[^>]*>\s*<\/p>/i, "")
+    # anchors first (they sit inside paragraphs), then paragraphs. An empty
+    # anchor whose href is a fragment is not an image wrapper but a paragraph
+    # anchor link (_plugins/paragraph_anchors.rb) and stays; a paragraph left
+    # holding nothing but such anchors was the image's own and goes with it.
+    out = out.gsub(/<a\b(?![^>]*\bhref=["']#)[^>]*>\s*<\/a>/i, "")
+    out.gsub(/<p\b[^>]*>(?:\s*<a\b[^>]*\bhref=["']#[^>]*>\s*<\/a>)*\s*<\/p>/i, "")
   end
 end
 
