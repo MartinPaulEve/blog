@@ -1,0 +1,62 @@
+/* Blockquote attributions (_plugins/quote_attributions.rb).
+   Deliberately OUTSIDE the PDF-hashed stylesheet set (blog-post.css,
+   styles.css) — see _plugins/pdf_pages.rb — and linked from inside the post
+   content only when a blockquote contains a <cite>.
+
+   A <cite> at the end of a quotation becomes its attribution line: a brand-
+   red dash, then the source set small in the site's mono eyebrow style, so
+   it reads unmistakably as "who said this" rather than as part of the
+   quote. Callout quotes (callout.css) carry their own matching version. */
+
+.post-body blockquote cite {
+    display: block;
+    margin-top: 0.75rem;
+    font-family: var(--font-mono, ui-monospace, monospace);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.78rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent-primary, #8c0d20);
+}
+
+.post-body blockquote cite::before {
+    content: "\2014\00a0";
+    color: var(--accent-deco, #b3122a);
+}
+
+/* The paragraph's hover anchor (anchors.css) follows the <cite> in the
+   markup; as the cite is a block it would otherwise open an empty line of
+   its own. Pin it to the end of the attribution line instead. */
+.post-body blockquote p:has(> cite) {
+    position: relative;
+}
+
+.post-body blockquote cite + .anchor-link {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-left: 0;
+}
+
+/* A paragraph holding only the attribution sits closer to the quote. */
+.post-body blockquote p:has(> cite:only-child) {
+    margin-top: -0.5rem;
+}
+
+.post-body blockquote p:has(> cite:only-child) cite {
+    margin-top: 0;
+}
+
+/* Inside the near-black callout band, the softer tone from callout.css
+   stays in charge; only the dash is shared. */
+.post-body blockquote.callout cite {
+    color: var(--callout-muted, #d6d0c6);
+}
+
+@media print {
+    .post-body blockquote cite,
+    .post-body blockquote cite::before {
+        color: #000;
+    }
+}
