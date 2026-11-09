@@ -16,7 +16,9 @@
     --callout-rule: var(--accent-deco, #b3122a);
 
     position: relative;
-    margin: 3rem 0;
+    /* Indented from the text column so the block reads as a set-in quotation;
+       the indent shrinks with the viewport (see the media queries below). */
+    margin: 3rem 0 3rem 3rem;
     padding: 3.1rem 2.25rem 2.25rem 2.5rem;
     background-color: var(--callout-bg);
     color: var(--callout-fg);
@@ -120,9 +122,15 @@
     box-shadow: 0 0 0 1px var(--card-border, #2e2e30);
 }
 
+@media (max-width: 1023px) {
+    .post-body blockquote.callout {
+        margin-left: 1.75rem;
+    }
+}
+
 @media (max-width: 767px) {
     .post-body blockquote.callout {
-        margin: 2.25rem 0;
+        margin: 2.25rem 0 2.25rem 0.75rem;
         padding: 2.5rem 1.25rem 1.75rem 1.5rem;
         border-left-width: 8px;
     }
@@ -144,7 +152,7 @@
         border-top: 3px solid #000;
         border-bottom: 3px solid #000;
         padding: 1.5rem 1.25rem 1.25rem 1.75rem;
-        margin: 1.75rem 0;
+        margin: 1.75rem 0 1.75rem 2rem;
         box-shadow: none;
         overflow: visible;
         page-break-inside: avoid;
