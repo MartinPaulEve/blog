@@ -40,7 +40,8 @@
 .post-body h5:hover > .anchor-link,
 .post-body h6:hover > .anchor-link,
 .post-body .anchor-link:focus-visible,
-.post-body .anchor-link.is-copied {
+.post-body .anchor-link.is-copied,
+.post-body .anchor-link.is-failed {
     opacity: 1;
 }
 
@@ -76,7 +77,12 @@
     transition: opacity 120ms ease-in-out, transform 120ms ease-in-out;
 }
 
-.post-body .anchor-link.is-copied::after {
+.post-body .anchor-link.is-failed::after {
+    content: "Couldn't copy";
+}
+
+.post-body .anchor-link.is-copied::after,
+.post-body .anchor-link.is-failed::after {
     opacity: 1;
     transform: translateX(-50%) translateY(0);
 }
