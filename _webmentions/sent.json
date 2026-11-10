@@ -17795,6 +17795,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-11/#t20261110095435": {
+   "content_hash": "9752f627235d5f0a9b95e1484ada5ad4884a5e9d7a9278a663dc4baf86d3e0de",
+   "sent": {
+    "https://decolonialdigitalsocialsciences.org/index.php/ddss/en/scientific-board": {
+     "at": "2026-11-10T09:55:50+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
