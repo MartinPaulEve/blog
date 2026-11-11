@@ -1,8 +1,10 @@
-import pytest
+import json
 
-from kcworks_uploader.client import KCWorksClient, KCWorksError
+import pytest
+from kcworks_uploader.client import KCWorksClient, KCWorksConflict, KCWorksError
 
 BASE = "https://works.example.org/api"
+IMPORT_URL = f"{BASE}/import/evegd-blog-posts"
 
 
 class FakeResponse:
@@ -48,55 +50,188 @@ class FakeSession:
         return self._handle("GET", url, **kwargs)
 
 
-class TestCreateDraft:
-    def test_returns_created_draft_json(self):
-        draft = {"id": "abc12-xyz34", "links": {"self": "..."}}
-        session = FakeSession(
-            {("POST", f"{BASE}/records"): FakeResponse(201, draft)}
-        )
-        client = KCWorksClient(BASE, "tok", session=session)
-        assert client.create_draft({"metadata": {}}) == draft
 
-    def test_sends_bearer_token(self):
+
+def imported(record_id="abc12-xyz34", files=("post.md", "post.pdf")):
+    """A successful import response for one work."""
+    return {
+        "status": "success",
+        "data": [
+            {
+                "item_index": 0,
+                "record_id": record_id,
+                "record_url": f"https://works.example.org/records/{record_id}",
+                "files": {name: ["success", []] for name in files},
+                "collection_id": "coll-uuid",
+                "errors": [],
+                "metadata": {"id": record_id},
+            }
+        ],
+        "errors": [],
+        "message": "All records were successfully imported.",
+    }
+
+
+@pytest.fixture
+def files(tmp_path):
+    md = tmp_path / "post.md"
+    md.write_text("hello")
+    pdf = tmp_path / "post.pdf"
+    pdf.write_bytes(b"%PDF-1.4 body")
+    return [md, pdf]
+
+
+RECORD = {"metadata": {"title": "A post"}, "files": {"enabled": True}}
+
+
+class TestImportWork:
+    def run(self, files, responses=None, **kwargs):
         session = FakeSession(
-            {("POST", f"{BASE}/records"): FakeResponse(201, {"id": "x"})}
+            responses
+            if responses is not None
+            else {("POST", IMPORT_URL): FakeResponse(201, imported())}
         )
-        KCWorksClient(BASE, "sekrit", session=session).create_draft({})
+        client = KCWorksClient(
+            BASE, "tok", session=session, sleep=lambda seconds: None
+        )
+        result = client.import_work("evegd-blog-posts", RECORD, files, **kwargs)
+        return result, session
+
+    def test_returns_the_created_work(self, files):
+        result, _ = self.run(files)
+        assert result["record_id"] == "abc12-xyz34"
+        assert result["record_url"] == (
+            "https://works.example.org/records/abc12-xyz34"
+        )
+        assert result["collection_id"] == "coll-uuid"
+        assert set(result["files"]) == {"post.md", "post.pdf"}
+
+    def test_posts_to_the_collection_import_endpoint(self, files):
+        _, session = self.run(files)
+        assert list(session.sent) == [("POST", IMPORT_URL)]
+
+    def test_sends_bearer_token(self, files):
+        session = FakeSession(
+            {("POST", IMPORT_URL): FakeResponse(201, imported())}
+        )
+        KCWorksClient(BASE, "sekrit", session=session).import_work(
+            "evegd-blog-posts", RECORD, files
+        )
         assert session.headers["Authorization"] == "Bearer sekrit"
 
-    def test_server_rejection_raises_kcworks_error(self):
-        session = FakeSession(
-            {
-                ("POST", f"{BASE}/records"): FakeResponse(
-                    400, {"message": "A validation error occurred."}
-                )
-            }
-        )
-        client = KCWorksClient(BASE, "tok", session=session)
-        with pytest.raises(KCWorksError, match="validation error"):
-            client.create_draft({})
+    def test_transmits_every_file_by_name_and_content(self, files):
+        _, session = self.run(files)
+        parts = session.sent[("POST", IMPORT_URL)]["files"]
+        sent = {
+            (field, part[0], part[1]) for field, part in parts
+        }
+        assert sent == {
+            ("files", "post.md", b"hello"),
+            ("files", "post.pdf", b"%PDF-1.4 body"),
+        }
 
+    def test_metadata_part_is_a_json_array_holding_the_record(self, files):
+        _, session = self.run(files)
+        form = session.sent[("POST", IMPORT_URL)]["data"]
+        assert json.loads(form["metadata"]) == [RECORD]
 
-class TestUpdateDraft:
-    def test_returns_updated_draft_json(self):
-        updated = {"id": "abc", "files": {"default_preview": "post.pdf"}}
-        session = FakeSession(
-            {("PUT", f"{BASE}/records/abc/draft"): FakeResponse(200, updated)}
-        )
-        client = KCWorksClient(BASE, "tok", session=session)
-        assert client.update_draft("abc", {"metadata": {}}) == updated
+    def test_review_is_not_required_by_default(self, files):
+        _, session = self.run(files)
+        form = session.sent[("POST", IMPORT_URL)]["data"]
+        assert form["review_required"] == "false"
 
-    def test_server_rejection_raises_kcworks_error(self):
-        session = FakeSession(
-            {
-                ("PUT", f"{BASE}/records/abc/draft"): FakeResponse(
-                    400, {"message": "bad update"}
-                )
-            }
-        )
+    def test_review_can_be_requested(self, files):
+        _, session = self.run(files, review_required=True)
+        form = session.sent[("POST", IMPORT_URL)]["data"]
+        assert form["review_required"] == "true"
+
+    def test_owners_are_not_emailed(self, files):
+        _, session = self.run(files)
+        form = session.sent[("POST", IMPORT_URL)]["data"]
+        assert form["notify_record_owners"] == "false"
+
+    def test_missing_file_is_reported_before_contacting_the_server(
+        self, tmp_path
+    ):
+        session = FakeSession()
         client = KCWorksClient(BASE, "tok", session=session)
-        with pytest.raises(KCWorksError, match="bad update"):
-            client.update_draft("abc", {})
+        with pytest.raises(FileNotFoundError):
+            client.import_work(
+                "evegd-blog-posts", RECORD, [tmp_path / "missing.pdf"]
+            )
+        assert session.sent == {}
+
+    def test_validation_errors_surface_in_the_error(self, files):
+        rejection = {
+            "status": "error",
+            "message": "No records were successfully imported.",
+            "data": [],
+            "errors": [
+                {
+                    "item_index": 0,
+                    "record_id": None,
+                    "record_url": None,
+                    "errors": [
+                        {"field": "title", "message": "Required field missing."}
+                    ],
+                    "files": {},
+                    "metadata": {},
+                }
+            ],
+        }
+        with pytest.raises(KCWorksError, match="Required field missing"):
+            self.run(
+                files, {("POST", IMPORT_URL): FakeResponse(400, rejection)}
+            )
+
+    def test_forbidden_token_raises(self, files):
+        forbidden = {
+            "status": "error",
+            "message": "The user does not have the necessary permissions.",
+        }
+        with pytest.raises(KCWorksError, match="permissions"):
+            self.run(
+                files, {("POST", IMPORT_URL): FakeResponse(403, forbidden)}
+            )
+
+    def test_conflict_carries_the_existing_record_location(self, files):
+        existing = "https://works.example.org/records/old11-old11"
+        with pytest.raises(KCWorksConflict) as info:
+            self.run(
+                files,
+                {
+                    ("POST", IMPORT_URL): FakeResponse(
+                        409,
+                        {"status": "error", "message": "already exists"},
+                        headers={"Location": existing},
+                    )
+                },
+            )
+        assert info.value.location == existing
+        assert isinstance(info.value, KCWorksError)
+
+    def test_conflict_without_location(self, files):
+        with pytest.raises(KCWorksConflict) as info:
+            self.run(
+                files,
+                {
+                    ("POST", IMPORT_URL): FakeResponse(
+                        409, {"status": "error", "message": "already exists"}
+                    )
+                },
+            )
+        assert info.value.location is None
+
+    def test_empty_success_data_is_an_error(self, files):
+        with pytest.raises(KCWorksError):
+            self.run(
+                files,
+                {
+                    ("POST", IMPORT_URL): FakeResponse(
+                        201, {"status": "success", "data": [], "errors": []}
+                    )
+                },
+            )
 
 
 class TestPublishDraft:
@@ -127,46 +262,6 @@ class TestPublishDraft:
             client.publish_draft("abc")
 
 
-class TestUploadFiles:
-    def test_returns_committed_file_keys(self, tmp_path):
-        md = tmp_path / "post.md"
-        md.write_text("hello")
-        pdf = tmp_path / "post.pdf"
-        pdf.write_bytes(b"%PDF-1.4")
-        client = KCWorksClient(BASE, "tok", session=FakeSession())
-        assert client.upload_files("abc", [md, pdf]) == [
-            "post.md",
-            "post.pdf",
-        ]
-
-    def test_transmits_file_contents(self, tmp_path):
-        pdf = tmp_path / "post.pdf"
-        pdf.write_bytes(b"%PDF-1.4 body")
-        session = FakeSession()
-        client = KCWorksClient(BASE, "tok", session=session)
-        client.upload_files("abc", [pdf])
-        sent = session.sent[
-            ("PUT", f"{BASE}/records/abc/draft/files/post.pdf/content")
-        ]
-        assert sent["data"] == b"%PDF-1.4 body"
-
-    def test_failed_commit_raises_kcworks_error(self, tmp_path):
-        md = tmp_path / "post.md"
-        md.write_text("hello")
-        session = FakeSession(
-            {
-                (
-                    "POST",
-                    f"{BASE}/records/abc/draft/files/post.md/commit",
-                ): FakeResponse(500, {"message": "boom"})
-            }
-        )
-        client = KCWorksClient(
-            BASE, "tok", session=session, sleep=lambda seconds: None
-        )
-        with pytest.raises(KCWorksError, match="boom"):
-            client.upload_files("abc", [md])
-
 
 class SequencedFakeSession(FakeSession):
     """FakeSession whose routed responses are lists consumed in order.
@@ -184,14 +279,15 @@ class SequencedFakeSession(FakeSession):
         return super()._handle(method, url, **kwargs)
 
 
+
+
 class TestRateLimitRetries:
-    def test_request_succeeds_after_a_429(self):
-        draft = {"id": "abc12-xyz34"}
+    def test_import_succeeds_after_a_429(self, files):
         session = SequencedFakeSession(
             {
-                ("POST", f"{BASE}/records"): [
+                ("POST", IMPORT_URL): [
                     FakeResponse(429, {"message": "rate limit exceeded"}),
-                    FakeResponse(201, draft),
+                    FakeResponse(201, imported()),
                 ]
             }
         )
@@ -199,19 +295,20 @@ class TestRateLimitRetries:
         client = KCWorksClient(
             BASE, "tok", session=session, sleep=naps.append
         )
-        assert client.create_draft({"metadata": {}}) == draft
+        result = client.import_work("evegd-blog-posts", RECORD, files)
+        assert result["record_id"] == "abc12-xyz34"
         assert naps  # the client waited before retrying
 
     def test_retry_after_header_sets_the_wait(self):
         session = SequencedFakeSession(
             {
-                ("POST", f"{BASE}/records"): [
+                ("GET", f"{BASE}/records/rec1"): [
                     FakeResponse(
                         429,
                         {"message": "slow down"},
                         headers={"Retry-After": "17"},
                     ),
-                    FakeResponse(201, {"id": "x"}),
+                    FakeResponse(200, {"id": "rec1"}),
                 ]
             }
         )
@@ -219,13 +316,13 @@ class TestRateLimitRetries:
         client = KCWorksClient(
             BASE, "tok", session=session, sleep=naps.append
         )
-        client.create_draft({})
+        client.get_record("rec1")
         assert naps == [17.0]
 
-    def test_persistent_429_raises_after_retries(self):
+    def test_persistent_429_raises_after_retries(self, files):
         session = SequencedFakeSession(
             {
-                ("POST", f"{BASE}/records"): [
+                ("POST", IMPORT_URL): [
                     FakeResponse(429, {"message": "rate limit exceeded"})
                 ]
             }
@@ -234,7 +331,7 @@ class TestRateLimitRetries:
             BASE, "tok", session=session, sleep=lambda seconds: None
         )
         with pytest.raises(KCWorksError, match="429"):
-            client.create_draft({})
+            client.import_work("evegd-blog-posts", RECORD, files)
 
     def test_transient_503_is_retried(self):
         session = SequencedFakeSession(
@@ -252,21 +349,21 @@ class TestRateLimitRetries:
 
     def test_successful_request_never_waits(self):
         session = FakeSession(
-            {("POST", f"{BASE}/records"): FakeResponse(201, {"id": "x"})}
+            {("GET", f"{BASE}/records/rec1"): FakeResponse(200, {"id": "rec1"})}
         )
         naps = []
         client = KCWorksClient(
             BASE, "tok", session=session, sleep=naps.append
         )
-        client.create_draft({})
+        client.get_record("rec1")
         assert naps == []
 
-    def test_client_errors_are_not_retried(self):
+    def test_client_errors_are_not_retried(self, files):
         session = SequencedFakeSession(
             {
-                ("POST", f"{BASE}/records"): [
+                ("POST", IMPORT_URL): [
                     FakeResponse(400, {"message": "validation error"}),
-                    FakeResponse(201, {"id": "should-not-be-reached"}),
+                    FakeResponse(201, imported()),
                 ]
             }
         )
@@ -274,7 +371,7 @@ class TestRateLimitRetries:
             BASE, "tok", session=session, sleep=lambda seconds: None
         )
         with pytest.raises(KCWorksError, match="validation error"):
-            client.create_draft({})
+            client.import_work("evegd-blog-posts", RECORD, files)
 
 
 class TestCollections:
@@ -373,61 +470,3 @@ class TestUploadCollectionLogo:
         assert sent["headers"]["Content-Type"] == "application/octet-stream"
 
 
-class TestNewVersion:
-    def test_posts_to_the_versions_endpoint(self):
-        session = FakeSession(
-            {
-                ("POST", f"{BASE}/records/abc12/versions"): FakeResponse(
-                    201, {"id": "new34-ver56"}
-                )
-            }
-        )
-        client = KCWorksClient(BASE, "tok", session=session)
-        assert client.new_version("abc12")["id"] == "new34-ver56"
-        assert ("POST", f"{BASE}/records/abc12/versions") in session.sent
-
-
-class TestListDraftFiles:
-    def test_returns_the_entries_list(self):
-        session = FakeSession(
-            {
-                ("GET", f"{BASE}/records/abc12/draft/files"): FakeResponse(
-                    200, {"entries": [{"key": "a.md"}, {"key": "a.pdf"}]}
-                )
-            }
-        )
-        client = KCWorksClient(BASE, "tok", session=session)
-        assert client.list_draft_files("abc12") == [
-            {"key": "a.md"},
-            {"key": "a.pdf"},
-        ]
-
-
-class TestReserveDoi:
-    def test_posts_to_the_draft_pids_endpoint(self):
-        session = FakeSession(
-            {
-                ("POST", f"{BASE}/records/abc12/draft/pids/doi"): FakeResponse(
-                    201,
-                    {"pids": {"doi": {"identifier": "10.17613/x1", "provider": "datacite"}}},
-                )
-            }
-        )
-        client = KCWorksClient(BASE, "tok", session=session)
-        result = client.reserve_doi("abc12")
-        assert result["pids"]["doi"]["identifier"] == "10.17613/x1"
-
-
-class TestDeleteDraftPid:
-    def test_deletes_the_scheme_and_tolerates_no_content(self):
-        session = FakeSession(
-            {
-                ("DELETE", f"{BASE}/records/abc12/draft/pids/doi"): FakeResponse(
-                    204, None
-                )
-            }
-        )
-        session.delete = lambda url, **kw: session._handle("DELETE", url, **kw)
-        client = KCWorksClient(BASE, "tok", session=session)
-        assert client.delete_draft_pid("abc12", "doi") == {}
-        assert ("DELETE", f"{BASE}/records/abc12/draft/pids/doi") in session.sent

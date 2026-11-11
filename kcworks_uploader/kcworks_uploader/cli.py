@@ -1,4 +1,10 @@
-"""Command-line entry point: upload one blog post to KC Works as a draft."""
+"""Command-line entry points: deposit blog posts in KC Works.
+
+Deposits use the streamlined import API, which creates, attaches files
+to, publishes and collects a work in a single request. Publishing a
+hand-made draft and managing the collection still go through the
+ordinary records and communities endpoints.
+"""
 
 import argparse
 import json
@@ -9,9 +15,12 @@ from datetime import UTC, datetime
 from pathlib import Path
 from urllib.parse import urlparse
 
-from .client import KCWorksClient, KCWorksError
+import yaml
+
+from .client import KCWorksClient, KCWorksConflict, KCWorksError
 from .metadata import build_metadata
 from .posts import (
+    FRONT_MATTER_RE,
     blog_collection,
     canonical_url,
     deposited_records,
@@ -26,6 +35,10 @@ from .posts import (
 
 DEFAULT_BASE_URL = "https://works.hcommons.org/api"
 TOKEN_ENV_VAR = "KCWORKS_API_TOKEN"
+NO_COLLECTION = (
+    "No collection: the import API deposits into a collection, so pass "
+    "--collection or set kcworks_collection in the blog's _config.yml."
+)
 
 
 def draft_id_from_url(value: str) -> str:
@@ -45,6 +58,38 @@ def api_base_from_url(value: str) -> str | None:
         return None
     parsed = urlparse(value)
     return f"{parsed.scheme}://{parsed.netloc}/api"
+
+
+def _no_token() -> int:
+    print(
+        f"No API token given: pass --token or set ${TOKEN_ENV_VAR}.",
+        file=sys.stderr,
+    )
+    return 2
+
+
+def _add_token_and_base(parser, base_help=None) -> None:
+    parser.add_argument(
+        "--token",
+        default=os.environ.get(TOKEN_ENV_VAR),
+        help=f"KC Works API token (default: ${TOKEN_ENV_VAR})",
+    )
+    parser.add_argument(
+        "--base-url",
+        default=DEFAULT_BASE_URL,
+        help=base_help or f"KC Works API base URL (default: {DEFAULT_BASE_URL})",
+    )
+
+
+def _add_collection_option(parser) -> None:
+    parser.add_argument(
+        "--collection",
+        default=None,
+        help=(
+            "collection to import into (default: kcworks_collection from "
+            "the blog's _config.yml)"
+        ),
+    )
 
 
 def publish_main(argv=None) -> int:
@@ -89,11 +134,7 @@ def publish_main(argv=None) -> int:
     args = parser.parse_args(argv)
 
     if not args.token:
-        print(
-            f"No API token given: pass --token or set ${TOKEN_ENV_VAR}.",
-            file=sys.stderr,
-        )
-        return 2
+        return _no_token()
 
     draft_id = draft_id_from_url(args.draft)
     base_url = (
@@ -132,18 +173,11 @@ def _live_url(base_url: str, record_id: str, published: dict) -> str:
     return f"{root}/records/{record_id}"
 
 
-def deposit_url(base_url: str, draft_id: str) -> str:
-    """The browser URL where a draft can be reviewed and edited."""
-    root = base_url.rstrip("/")
-    root = root.removesuffix("/api")
-    return f"{root}/uploads/{draft_id}"
-
-
 def collection_payload(slug: str, title: str, description: str = "") -> dict:
     """The community JSON for creating the blog's KC Works collection.
 
     review_policy "open" lets the collection's own curators publish into it
-    without a review queue, so the uploader's inclusions complete directly.
+    without a review queue, so the uploader's imports complete directly.
     """
     payload = {
         "slug": slug,
@@ -239,20 +273,11 @@ def collection_main(argv=None) -> int:
         help="collection slug (default: kcworks_collection in _config.yml)",
     )
     for command in (create, backfill, logo):
-        command.add_argument(
-            "--token",
-            default=os.environ.get(TOKEN_ENV_VAR),
-            help=f"KC Works API token (default: ${TOKEN_ENV_VAR})",
-        )
-        command.add_argument("--base-url", default=DEFAULT_BASE_URL)
+        _add_token_and_base(command)
     args = parser.parse_args(argv)
 
     if not args.token:
-        print(
-            f"No API token given: pass --token or set ${TOKEN_ENV_VAR}.",
-            file=sys.stderr,
-        )
-        return 2
+        return _no_token()
 
     blog_root = find_blog_root(Path.cwd())
     configured = blog_collection(blog_root) if blog_root else None
@@ -316,72 +341,95 @@ def collection_main(argv=None) -> int:
     return 1 if failures else 0
 
 
-def upload_post(
-    post_path: Path,
-    client,
-    include_doi: bool = True,
-    pdf_path: Path | None = None,
-    live: bool = False,
-    collection: str | None = None,
-) -> dict:
-    """Create a KC Works draft for a post and attach its markdown and PDF.
-
-    With live=True the draft is also published — and, when a collection is
-    given, included in it (drafts leave inclusion for publish time).
-    Returns {"id", "edit_url", "files", "record", "published"} plus
-    "live_url" and "collection" when published.
-    """
+def _post_files(post_path: Path, pdf_path: Path | None = None) -> list[Path]:
+    """The files deposited for a post: its markdown source and PDF edition."""
     post_path = Path(post_path)
-    post = parse_post(post_path)
-    slug = post_slug(post_path)
     if pdf_path is not None:
         pdf = Path(pdf_path)
     else:
-        pdf = find_pdf(post_path.parent.parent, slug)
-    record = build_metadata(
-        post,
+        pdf = find_pdf(post_path.parent.parent, post_slug(post_path))
+    return [post_path, pdf]
+
+
+def _post_record(post_path: Path, files: list[Path], include_doi: bool) -> dict:
+    post_path = Path(post_path)
+    slug = post_slug(post_path)
+    return build_metadata(
+        parse_post(post_path),
         canonical_url(slug),
         include_doi=include_doi,
-        pdf_filename=pdf.name,
+        files=files,
+        source_id=slug,
     )
 
-    draft = client.create_draft(record)
-    files = client.upload_files(draft["id"], [post_path, pdf])
-    # Re-assert files.default_preview now the PDF exists on the draft; the
-    # server ignores it during creation, when there are no files yet.
-    updated = client.update_draft(draft["id"], record)
-    result = {
-        "id": draft["id"],
-        "edit_url": deposit_url(client.base_url, draft["id"]),
-        "files": files,
-        "record": updated,
-        "published": False,
+
+def _import(client, collection: str, record: dict, files: list[Path]) -> dict:
+    """Import one work; shape the outcome as {"id", "live_url", "files",
+    "record", "collection", "existing"}.
+
+    A 409 that names the existing work (its Location) is treated as a
+    deposit that already happened, so callers can record it; one without
+    a Location is an error.
+    """
+    try:
+        imported = client.import_work(collection, record, files)
+    except KCWorksConflict as exc:
+        if not exc.location:
+            raise
+        return {
+            "id": draft_id_from_url(exc.location),
+            "live_url": exc.location,
+            "files": [],
+            "record": {},
+            "collection": collection,
+            "existing": True,
+        }
+    return {
+        "id": imported["record_id"],
+        "live_url": imported.get("record_url")
+        or _live_url(client.base_url, imported["record_id"], {}),
+        "files": [
+            path.name
+            for path in files
+            if path.name in (imported.get("files") or {})
+        ]
+        or [path.name for path in files],
+        "record": imported.get("metadata") or {},
+        "collection": imported.get("collection_id") or collection,
+        "existing": False,
     }
-    if live:
-        published = client.publish_draft(draft["id"])
-        result["record"] = published
-        result["published"] = True
-        result["live_url"] = _live_url(
-            client.base_url, draft["id"], published
-        )
-        if collection:
-            resolved = client.get_collection(collection)["id"]
-            result["collection"] = include_in_collection(
-                client, draft["id"], resolved
-            )
-    return result
+
+
+def upload_post(
+    post_path: Path,
+    client,
+    collection: str,
+    include_doi: bool = True,
+    pdf_path: Path | None = None,
+) -> dict:
+    """Deposit a post in KC Works: one import request creates the work,
+    attaches the markdown source and PDF edition, publishes it and
+    places it in the collection.
+
+    Returns {"id", "live_url", "files", "record", "collection",
+    "existing"}; existing is True when KC Works reported the work was
+    already there (and live_url is that work).
+    """
+    files = _post_files(post_path, pdf_path)
+    record = _post_record(post_path, files, include_doi)
+    return _import(client, collection, record, files)
 
 
 def backfill_main(argv=None) -> int:
     """Entry point: deposit and publish every post not yet in KC Works.
 
     Works through every post without a kcworks: front-matter record,
-    publishing each (with its markdown and PDF) into the configured
-    collection, stamping the new record URL back into the post, and
-    appending a JSON line per outcome to the log so failures can be
-    reviewed afterwards. Waits --delay seconds between deposits to stay
-    within the server's rate limits. Re-running resumes automatically:
-    stamped posts are no longer pending.
+    importing each (with its markdown and PDF) straight into the
+    configured collection, stamping the new record URL back into the
+    post, and appending a JSON line per outcome to the log so failures
+    can be reviewed afterwards. Waits --delay seconds between deposits
+    to stay within the server's rate limits. Re-running resumes
+    automatically: stamped posts are no longer pending.
     """
     parser = argparse.ArgumentParser(
         prog="kcworks-backfill",
@@ -417,25 +465,8 @@ def backfill_main(argv=None) -> int:
             "(default: kcworks-backfill.log)"
         ),
     )
-    parser.add_argument(
-        "--token",
-        default=os.environ.get(TOKEN_ENV_VAR),
-        help=f"KC Works API token (default: ${TOKEN_ENV_VAR})",
-    )
-    parser.add_argument("--base-url", default=DEFAULT_BASE_URL)
-    parser.add_argument(
-        "--collection",
-        default=None,
-        help=(
-            "collection to include published records in (default: "
-            "kcworks_collection from the blog's _config.yml)"
-        ),
-    )
-    parser.add_argument(
-        "--no-collection",
-        action="store_true",
-        help="publish without including the records in any collection",
-    )
+    _add_token_and_base(parser)
+    _add_collection_option(parser)
     parser.add_argument(
         "--no-doi",
         action="store_true",
@@ -461,38 +492,25 @@ def backfill_main(argv=None) -> int:
         print("Nothing to deposit: every post has a kcworks: record.")
         return 0
     if not args.token:
-        print(
-            f"No API token given: pass --token or set ${TOKEN_ENV_VAR}.",
-            file=sys.stderr,
-        )
+        return _no_token()
+    collection = effective_collection(
+        find_blog_root(Path.cwd()), args.collection, False
+    )
+    if not collection:
+        print(NO_COLLECTION, file=sys.stderr)
         return 2
 
     client = KCWorksClient(args.base_url, args.token)
-    collection = effective_collection(
-        find_blog_root(Path.cwd()), args.collection, args.no_collection
-    )
-    collection_id = None
-    if collection:
-        try:
-            collection_id = client.get_collection(collection)["id"]
-        except KCWorksError as exc:
-            print(
-                f"Cannot resolve collection {collection!r}: {exc}",
-                file=sys.stderr,
-            )
-            return 2
-
     total = len(pending)
-    published = 0
+    published = existing = 0
     failures: list[tuple[str, str]] = []
-    inclusion_failures = 0
     interrupted = False
     try:
         for index, path in enumerate(pending, start=1):
             entry = {"time": _utc_now(), "post": path.name}
             try:
                 result = upload_post(
-                    path, client, include_doi=not args.no_doi, live=True
+                    path, client, collection, include_doi=not args.no_doi
                 )
             except (KCWorksError, FileNotFoundError, ValueError) as exc:
                 failures.append((path.name, str(exc)))
@@ -500,22 +518,19 @@ def backfill_main(argv=None) -> int:
                 print(f"[{index}/{total}] FAILED    {path.name}: {exc}")
             else:
                 record_deposit(path, result["live_url"])
-                published += 1
+                status = "existing" if result["existing"] else "published"
+                if result["existing"]:
+                    existing += 1
+                else:
+                    published += 1
                 entry.update(
-                    status="published",
+                    status=status,
                     id=result["id"],
                     live_url=result["live_url"],
+                    collection=result["collection"],
                 )
-                if collection_id:
-                    try:
-                        entry["collection"] = include_in_collection(
-                            client, result["id"], collection_id
-                        )
-                    except KCWorksError as exc:
-                        inclusion_failures += 1
-                        entry["collection"] = f"failed: {exc}"
                 print(
-                    f"[{index}/{total}] published {path.name} "
+                    f"[{index}/{total}] {status:<9} {path.name} "
                     f"-> {result['live_url']}"
                 )
             _append_log(args.log, entry)
@@ -527,26 +542,17 @@ def backfill_main(argv=None) -> int:
 
     print(
         f"\nDone: {published} published, {len(failures)} failed"
-        + (
-            f", {inclusion_failures} collection inclusion(s) failed"
-            if inclusion_failures
-            else ""
-        )
+        + (f", {existing} already in KC Works" if existing else "")
     )
     if failures:
         print("Failed posts:")
         for name, error in failures:
             print(f"  {name}: {error}")
         print("Re-run the backfill to retry them.")
-    if inclusion_failures:
-        print(
-            "Retry the failed inclusions with: "
-            "./kcworks.sh collection backfill"
-        )
     print(f"Log: {args.log}")
     if interrupted:
         return 130
-    return 1 if failures or inclusion_failures else 0
+    return 1 if failures else 0
 
 
 def needs_update(record: dict, last_modified: str) -> bool:
@@ -561,75 +567,29 @@ def needs_update(record: dict, last_modified: str) -> bool:
     return updated < str(last_modified)[:10]
 
 
-def update_post(post_path: Path, client) -> dict:
-    """Publish a new version of a post's KC Works deposit with fresh files.
+def update_post(post_path: Path, client, collection: str) -> dict:
+    """Bring a post's KC Works deposit up to date with fresh files.
 
-    Creates a new-version draft of the record in the post's kcworks:
-    entry, re-derives the record metadata — asking KC Works to mint a
-    managed DOI for the version, since the post's own external DOI
-    belongs to the original and cannot be reused — uploads the current
-    markdown and PDF, publishes, and returns {"id", "live_url",
-    "record"}.
+    Re-imports the post with the same DOI pid and import-recid
+    identifier as its original deposit: the import API matches the
+    existing work on those, applies the changed metadata and reconciles
+    the attached files against the current markdown and PDF. Returns
+    {"id", "live_url", "record"} for the work KC Works reports back
+    (which may differ from the stamped record if an earlier version
+    carried the DOI).
     """
-    post_path = Path(post_path)
-    post = parse_post(post_path)
-    slug = post_slug(post_path)
-    pdf = find_pdf(post_path.parent.parent, slug)
-    record = build_metadata(
-        post,
-        canonical_url(slug),
-        include_doi=False,
-        pdf_filename=pdf.name,
-    )
-
-    url = _kcworks_url(post_path)
-    if not url:
-        raise ValueError(f"{post_path} has no kcworks: deposit to version")
-    draft = client.new_version(draft_id_from_url(url))
-    # KC Works requires a DOI with a concrete identifier on every
-    # published record, and an external DOI cannot be reused across
-    # versions (the post's own DOI stays on the original) — so reserve a
-    # KC Works-minted DOI on the draft, unless a retry finds one already
-    # reserved, and carry it through every subsequent draft update.
-    pids = draft.get("pids") or {}
-    doi = pids.get("doi") or {}
-    if doi.get("identifier") and doi.get("provider") != "external":
-        record["pids"] = pids  # a prior run's reservation: keep it
-    else:
-        # Draft PUTs are lenient, so failed runs can leave a malformed or
-        # external doi pid behind; it blocks reservation until removed.
-        # Schema-only debris has no PID row, making the delete endpoint
-        # 404 — clearing pids by (lenient) PUT covers that case.
-        if doi:
-            try:
-                client.delete_draft_pid(draft["id"], "doi")
-            except KCWorksError:
-                pass
-            record["pids"] = {}
-            client.update_draft(draft["id"], record)
-        reserved = client.reserve_doi(draft["id"])
-        record["pids"] = reserved.get("pids") or {}
-    client.update_draft(draft["id"], record)
-    # A retry after a failed publish finds files already on the draft;
-    # upload only what is missing.
-    existing = {entry.get("key") for entry in client.list_draft_files(draft["id"])}
-    missing = [p for p in (post_path, pdf) if p.name not in existing]
-    if missing:
-        client.upload_files(draft["id"], missing)
-    client.update_draft(draft["id"], record)
-    published = client.publish_draft(draft["id"])
-    return {
-        "id": draft["id"],
-        "live_url": _live_url(client.base_url, draft["id"], published),
-        "record": published,
-    }
+    files = _post_files(post_path)
+    record = _post_record(post_path, files, include_doi=True)
+    result = _import(client, collection, record, files)
+    if result["existing"]:
+        raise KCWorksError(
+            f"KC Works refused to update the existing work at "
+            f"{result['live_url']}"
+        )
+    return result
 
 
 def _kcworks_url(post_path: Path) -> str | None:
-    import yaml
-
-    from .posts import FRONT_MATTER_RE
-
     match = FRONT_MATTER_RE.match(Path(post_path).read_text(encoding="utf-8"))
     if not match:
         return None
@@ -638,13 +598,13 @@ def _kcworks_url(post_path: Path) -> str | None:
 
 
 def update_main(argv=None) -> int:
-    """Entry point: publish new deposit versions for modified posts."""
+    """Entry point: refresh the deposits of modified posts."""
     parser = argparse.ArgumentParser(
         prog="kcworks-update",
         description=(
-            "Publish a new version of the KC Works deposit for posts whose "
-            "last_modified_at postdates the deposited record, attaching the "
-            "current markdown and PDF."
+            "Re-import the KC Works deposit for posts whose "
+            "last_modified_at postdates the deposited record, so the "
+            "work carries the current metadata, markdown and PDF."
         ),
     )
     parser.add_argument(
@@ -663,12 +623,8 @@ def update_main(argv=None) -> int:
         "--log", type=Path, default=Path("kcworks-update.log"),
         help="JSON-lines log (default: kcworks-update.log)",
     )
-    parser.add_argument(
-        "--token",
-        default=os.environ.get(TOKEN_ENV_VAR),
-        help=f"KC Works API token (default: ${TOKEN_ENV_VAR})",
-    )
-    parser.add_argument("--base-url", default=DEFAULT_BASE_URL)
+    _add_token_and_base(parser)
+    _add_collection_option(parser)
     parser.add_argument(
         "--dry-run", action="store_true",
         help="list candidate posts without contacting KC Works",
@@ -692,10 +648,12 @@ def update_main(argv=None) -> int:
         print("Nothing to update: no post has both kcworks: and last_modified_at.")
         return 0
     if not args.token:
-        print(
-            f"No API token given: pass --token or set ${TOKEN_ENV_VAR}.",
-            file=sys.stderr,
-        )
+        return _no_token()
+    collection = effective_collection(
+        find_blog_root(Path.cwd()), args.collection, False
+    )
+    if not collection:
+        print(NO_COLLECTION, file=sys.stderr)
         return 2
 
     client = KCWorksClient(args.base_url, args.token)
@@ -711,7 +669,7 @@ def update_main(argv=None) -> int:
                 entry.update(status="fresh")
                 print(f"[{index}/{total}] fresh     {path.name}")
                 continue
-            result = update_post(path, client)
+            result = update_post(path, client, collection)
         except (KCWorksError, FileNotFoundError, ValueError) as exc:
             failures.append((path.name, str(exc)))
             entry.update(status="failed", error=str(exc))
@@ -748,21 +706,13 @@ def main(argv=None) -> int:
     parser = argparse.ArgumentParser(
         prog="kcworks-upload",
         description=(
-            "Upload a blog post to KC Works as a draft record, attaching "
-            "the markdown source and the built PDF edition."
+            "Deposit a blog post in KC Works: one import request creates "
+            "the work with the markdown source and built PDF edition "
+            "attached, publishes it and places it in the blog collection."
         ),
     )
     parser.add_argument("post", type=Path, help="path to the _posts/*.md file")
-    parser.add_argument(
-        "--token",
-        default=os.environ.get(TOKEN_ENV_VAR),
-        help=f"KC Works API token (default: ${TOKEN_ENV_VAR})",
-    )
-    parser.add_argument(
-        "--base-url",
-        default=DEFAULT_BASE_URL,
-        help=f"KC Works API base URL (default: {DEFAULT_BASE_URL})",
-    )
+    _add_token_and_base(parser)
     parser.add_argument(
         "--pdf",
         type=Path,
@@ -776,21 +726,9 @@ def main(argv=None) -> int:
     parser.add_argument(
         "--live",
         action="store_true",
-        help="publish immediately instead of leaving a draft for review",
+        help=argparse.SUPPRESS,  # imports always publish; kept for old scripts
     )
-    parser.add_argument(
-        "--collection",
-        default=None,
-        help=(
-            "collection to include the published record in (default: "
-            "kcworks_collection from the blog's _config.yml)"
-        ),
-    )
-    parser.add_argument(
-        "--no-collection",
-        action="store_true",
-        help="do not include the published record in any collection",
-    )
+    _add_collection_option(parser)
     parser.add_argument(
         "--dry-run",
         action="store_true",
@@ -799,60 +737,48 @@ def main(argv=None) -> int:
     args = parser.parse_args(argv)
 
     if args.dry_run:
-        post = parse_post(args.post)
-        slug = post_slug(args.post)
         try:
-            pdf = args.pdf or find_pdf(args.post.parent.parent, slug)
-            pdf_note = f"Would attach: {args.post.name}, {pdf}"
+            files = _post_files(args.post, args.pdf)
+            note = "Would attach: " + ", ".join(str(f) for f in files)
         except FileNotFoundError as exc:
-            pdf = Path(f"{slug}.pdf")
-            pdf_note = f"Warning: {exc}"
-        record = build_metadata(
-            post,
-            canonical_url(slug),
-            include_doi=not args.no_doi,
-            pdf_filename=pdf.name,
-        )
+            files = [Path(args.post)]
+            note = f"Warning: {exc}"
+        record = _post_record(args.post, files, include_doi=not args.no_doi)
         print(json.dumps(record, indent=2))
-        print(pdf_note, file=sys.stderr)
+        print(note, file=sys.stderr)
         return 0
 
     if not args.token:
-        print(
-            f"No API token given: pass --token or set ${TOKEN_ENV_VAR}.",
-            file=sys.stderr,
-        )
+        return _no_token()
+    collection = effective_collection(
+        find_blog_root(Path(args.post).resolve().parent), args.collection, False
+    )
+    if not collection:
+        print(NO_COLLECTION, file=sys.stderr)
         return 2
 
     client = KCWorksClient(args.base_url, args.token)
-    collection = effective_collection(
-        find_blog_root(Path(args.post).resolve().parent),
-        args.collection,
-        args.no_collection,
-    )
     try:
         result = upload_post(
             args.post,
             client,
+            collection,
             include_doi=not args.no_doi,
             pdf_path=args.pdf,
-            live=args.live,
-            collection=collection,
         )
     except (KCWorksError, FileNotFoundError, ValueError) as exc:
         print(f"Error: {exc}", file=sys.stderr)
         return 1
 
-    print(f"Draft created: {result['id']}")
-    print(f"Attached: {', '.join(result['files'])}")
-    if result["published"]:
-        print(f"Published live at: {result['live_url']}")
-        record_deposit(args.post, result["live_url"])
-        print("Recorded kcworks: in the post's front matter.")
-        if result.get("collection"):
-            print(f"Collection: {collection} ({result['collection']})")
+    if result["existing"]:
+        print(f"Already in KC Works: {result['live_url']}")
     else:
-        print(f"Review and publish at: {result['edit_url']}")
+        print(f"Imported: {result['id']}")
+        print(f"Attached: {', '.join(result['files'])}")
+        print(f"Published live at: {result['live_url']}")
+        print(f"Collection: {collection} ({result['collection']})")
+    record_deposit(args.post, result["live_url"])
+    print("Recorded kcworks: in the post's front matter.")
     return 0
 
 

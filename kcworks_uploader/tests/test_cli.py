@@ -1,16 +1,17 @@
 import json
+from pathlib import Path
 
 import pytest
-
-from kcworks_uploader import cli
 from kcworks_uploader.cli import (
     api_base_from_url,
-    deposit_url,
     draft_id_from_url,
     main,
     publish_main,
     upload_post,
 )
+from kcworks_uploader.client import KCWorksConflict, KCWorksError
+
+from kcworks_uploader import cli
 
 POST_TEXT = """---
 title: "A test post"
@@ -22,12 +23,18 @@ tags:
 The opening paragraph of the post.
 """
 
+LIVE_URL = "https://works.hcommons.org/records/abc12-xyz34"
+
 
 @pytest.fixture
 def repo(tmp_path):
-    """A miniature blog repo: _posts plus a cached PDF for the post."""
+    """A miniature blog repo: _config.yml naming the collection, _posts,
+    and a cached PDF for the post."""
     (tmp_path / "_posts").mkdir()
     (tmp_path / ".pdf_cache").mkdir()
+    (tmp_path / "_config.yml").write_text(
+        "kcworks_collection: evegd-blog-posts\n"
+    )
     post = tmp_path / "_posts" / "2026-08-28-a-test-post.md"
     post.write_text(POST_TEXT)
     (tmp_path / ".pdf_cache" / "2026-08-28-a-test-post.pdf").write_bytes(
@@ -36,28 +43,48 @@ def repo(tmp_path):
     return tmp_path
 
 
+def imported(record_id="abc12-xyz34", paths=()):
+    """The per-work entry the import API returns on success."""
+    return {
+        "item_index": 0,
+        "record_id": record_id,
+        "record_url": f"https://works.hcommons.org/records/{record_id}",
+        "files": {Path(p).name: ["success", []] for p in paths},
+        "collection_id": "coll-uuid",
+        "errors": [],
+        "metadata": {"id": record_id},
+    }
+
+
 class FakeClient:
-    def __init__(self, base_url="https://works.hcommons.org/api"):
+    """A stand-in for KCWorksClient's import surface.
+
+    Records every import_work call; answers with a canned success (or
+    raises ``error`` when given)."""
+
+    def __init__(
+        self,
+        base_url="https://works.hcommons.org/api",
+        record_id="abc12-xyz34",
+        error=None,
+    ):
         self.base_url = base_url
-        self.record = None
-        self.uploaded = None
-        self.updated_record = None
+        self.record_id = record_id
+        self.error = error
         self.calls = []
+        self.imports = []
 
-    def create_draft(self, record):
-        self.calls.append("create")
-        self.record = record
-        return {"id": "abc12-xyz34", "links": {}}
+    def import_work(self, collection, record, paths, review_required=False):
+        self.calls.append("import")
+        paths = [Path(p) for p in paths]
+        self.imports.append((collection, record, paths, review_required))
+        if self.error:
+            raise self.error
+        return imported(self.record_id, paths)
 
-    def upload_files(self, draft_id, paths):
-        self.calls.append("upload")
-        self.uploaded = (draft_id, list(paths))
-        return [p.name for p in paths]
-
-    def update_draft(self, draft_id, record):
-        self.calls.append("update")
-        self.updated_record = record
-        return {"id": draft_id, "files": dict(record.get("files", {}))}
+    @property
+    def record(self):
+        return self.imports[-1][1]
 
     def publish_draft(self, draft_id):
         self.calls.append("publish")
@@ -67,13 +94,6 @@ class FakeClient:
                 "self_html": f"https://works.hcommons.org/records/{draft_id}"
             },
         }
-
-
-class TestDepositUrl:
-    def test_derives_uploads_page_from_api_base(self):
-        assert deposit_url("https://works.hcommons.org/api", "abc12") == (
-            "https://works.hcommons.org/uploads/abc12"
-        )
 
 
 class TestDraftIdFromUrl:
@@ -106,23 +126,47 @@ class TestApiBaseFromUrl:
         assert api_base_from_url("abc12-xyz34") is None
 
 
+
+
 class TestUploadPost:
-    def test_returns_draft_id_edit_url_and_file_keys(self, repo):
+    def run(self, repo, client=None, **kwargs):
+        client = client or FakeClient()
         result = upload_post(
-            repo / "_posts" / "2026-08-28-a-test-post.md", FakeClient()
+            repo / "_posts" / "2026-08-28-a-test-post.md",
+            client,
+            kwargs.pop("collection", "evegd-blog-posts"),
+            **kwargs,
         )
+        return result, client
+
+    def test_returns_record_id_live_url_and_file_keys(self, repo):
+        result, _ = self.run(repo)
         assert result["id"] == "abc12-xyz34"
-        assert result["edit_url"] == (
-            "https://works.hcommons.org/uploads/abc12-xyz34"
-        )
+        assert result["live_url"] == LIVE_URL
         assert result["files"] == [
             "2026-08-28-a-test-post.md",
             "2026-08-28-a-test-post.pdf",
         ]
+        assert result["existing"] is False
+
+    def test_imports_into_the_given_collection(self, repo):
+        result, client = self.run(repo, collection="evegd-blog-posts")
+        assert client.imports[0][0] == "evegd-blog-posts"
+        assert result["collection"] == "coll-uuid"
+
+    def test_sends_the_markdown_source_and_the_cached_pdf(self, repo):
+        _, client = self.run(repo)
+        assert client.imports[0][2] == [
+            repo / "_posts" / "2026-08-28-a-test-post.md",
+            repo / ".pdf_cache" / "2026-08-28-a-test-post.pdf",
+        ]
+
+    def test_never_asks_for_review(self, repo):
+        _, client = self.run(repo)
+        assert client.imports[0][3] is False
 
     def test_record_carries_post_metadata(self, repo):
-        client = FakeClient()
-        upload_post(repo / "_posts" / "2026-08-28-a-test-post.md", client)
+        _, client = self.run(repo)
         md = client.record["metadata"]
         assert md["title"] == "A test post"
         assert {
@@ -130,65 +174,74 @@ class TestUploadPost:
             "scheme": "url",
         } in md["identifiers"]
 
+    def test_record_is_keyed_by_the_post_slug_for_reimports(self, repo):
+        _, client = self.run(repo)
+        assert {
+            "identifier": "2026-08-28-a-test-post",
+            "scheme": "import-recid",
+        } in client.record["metadata"]["identifiers"]
+
+    def test_record_names_the_author_as_owner(self, repo):
+        _, client = self.run(repo)
+        owners = client.record["parent"]["access"]["owned_by"]
+        assert owners[0]["email"] == "martin.eve@bbk.ac.uk"
+
+    def test_record_lists_both_files_with_sizes(self, repo):
+        _, client = self.run(repo)
+        entries = client.record["files"]["entries"]
+        assert entries["2026-08-28-a-test-post.pdf"]["size"] == len(b"%PDF-1.4")
+        assert entries["2026-08-28-a-test-post.md"]["size"] == len(POST_TEXT)
+
     def test_pdf_is_the_default_preview_file(self, repo):
-        client = FakeClient()
-        upload_post(repo / "_posts" / "2026-08-28-a-test-post.md", client)
+        _, client = self.run(repo)
         assert client.record["files"]["default_preview"] == (
             "2026-08-28-a-test-post.pdf"
         )
 
-    def test_default_preview_reasserted_after_files_exist(self, repo):
-        # InvenioRDM drops default_preview at creation time (the file does
-        # not exist yet), so the draft must be updated again after the
-        # uploads are committed for the Files tab to honour it.
-        client = FakeClient()
-        result = upload_post(
-            repo / "_posts" / "2026-08-28-a-test-post.md", client
-        )
-        assert client.calls == ["create", "upload", "update"]
-        assert client.updated_record["files"]["default_preview"] == (
-            "2026-08-28-a-test-post.pdf"
-        )
-        assert result["record"]["files"]["default_preview"] == (
-            "2026-08-28-a-test-post.pdf"
-        )
+    def test_doi_is_an_external_pid_by_default(self, repo):
+        _, client = self.run(repo)
+        assert client.record["pids"]["doi"] == {
+            "identifier": "10.59348/abcde-f0123",
+            "provider": "external",
+        }
 
     def test_include_doi_false_omits_pids(self, repo):
-        client = FakeClient()
-        upload_post(
-            repo / "_posts" / "2026-08-28-a-test-post.md",
-            client,
-            include_doi=False,
-        )
+        _, client = self.run(repo, include_doi=False)
         assert "pids" not in client.record
 
-    def test_missing_pdf_raises(self, repo):
+    def test_explicit_pdf_path_is_used(self, repo):
+        other = repo / "other.pdf"
+        other.write_bytes(b"%PDF-1.7 other")
+        result, client = self.run(repo, pdf_path=other)
+        assert client.imports[0][2][1] == other
+        assert result["files"] == ["2026-08-28-a-test-post.md", "other.pdf"]
+
+    def test_missing_pdf_raises_before_any_import(self, repo):
         (repo / ".pdf_cache" / "2026-08-28-a-test-post.pdf").unlink()
+        client = FakeClient()
         with pytest.raises(FileNotFoundError):
-            upload_post(
-                repo / "_posts" / "2026-08-28-a-test-post.md", FakeClient()
-            )
+            self.run(repo, client)
+        assert client.calls == []
 
+    def test_conflict_resolves_to_the_existing_record(self, repo):
+        existing = "https://works.hcommons.org/records/old11-old11"
+        client = FakeClient(
+            error=KCWorksConflict("already exists", location=existing)
+        )
+        result, _ = self.run(repo, client)
+        assert result["id"] == "old11-old11"
+        assert result["live_url"] == existing
+        assert result["existing"] is True
 
-class TestUploadPostLive:
-    def test_live_publishes_after_the_preview_update(self, repo):
-        client = FakeClient()
-        result = upload_post(
-            repo / "_posts" / "2026-08-28-a-test-post.md", client, live=True
-        )
-        assert client.calls == ["create", "upload", "update", "publish"]
-        assert result["published"] is True
-        assert result["live_url"] == (
-            "https://works.hcommons.org/records/abc12-xyz34"
-        )
+    def test_conflict_without_a_location_is_an_error(self, repo):
+        client = FakeClient(error=KCWorksConflict("already exists"))
+        with pytest.raises(KCWorksError):
+            self.run(repo, client)
 
-    def test_draft_remains_the_default(self, repo):
-        client = FakeClient()
-        result = upload_post(
-            repo / "_posts" / "2026-08-28-a-test-post.md", client
-        )
-        assert "publish" not in client.calls
-        assert result["published"] is False
+    def test_server_errors_propagate(self, repo):
+        client = FakeClient(error=KCWorksError("HTTP 403: permissions"))
+        with pytest.raises(KCWorksError, match="permissions"):
+            self.run(repo, client)
 
 
 class TestPublishMain:
@@ -236,14 +289,42 @@ class TestPublishMain:
         assert "token" in capsys.readouterr().err.lower()
 
 
+
+
 class TestMain:
-    def test_dry_run_prints_record_without_uploading(self, repo, capsys):
+    def test_dry_run_prints_record_without_uploading(
+        self, repo, capsys, monkeypatch
+    ):
+        monkeypatch.setattr(
+            cli,
+            "KCWorksClient",
+            lambda *a, **k: pytest.fail("dry-run must not touch the network"),
+        )
         rc = main(
             [str(repo / "_posts" / "2026-08-28-a-test-post.md"), "--dry-run"]
         )
         out = capsys.readouterr().out
         assert rc == 0
-        assert "textDocument-blogPost" in out
+        record = json.loads(out[out.index("{") : out.rindex("}") + 1])
+        assert record["metadata"]["resource_type"]["id"] == (
+            "textDocument-blogPost"
+        )
+        assert record["parent"]["access"]["owned_by"][0]["full_name"] == (
+            "Martin Paul Eve"
+        )
+        assert "2026-08-28-a-test-post.pdf" in record["files"]["entries"]
+
+    def test_dry_run_without_a_pdf_still_prints_the_record(
+        self, repo, capsys
+    ):
+        (repo / ".pdf_cache" / "2026-08-28-a-test-post.pdf").unlink()
+        rc = main(
+            [str(repo / "_posts" / "2026-08-28-a-test-post.md"), "--dry-run"]
+        )
+        captured = capsys.readouterr()
+        assert rc == 0
+        assert "textDocument-blogPost" in captured.out
+        assert "PDF" in captured.err
 
     def test_missing_token_is_an_error(self, repo, capsys, monkeypatch):
         monkeypatch.delenv("KCWORKS_API_TOKEN", raising=False)
@@ -251,32 +332,81 @@ class TestMain:
         assert rc == 2
         assert "token" in capsys.readouterr().err.lower()
 
-    def test_live_deposit_stamps_record_url_into_post(
+    def test_deposit_publishes_and_stamps_record_url_into_post(
         self, repo, capsys, monkeypatch
     ):
         client = FakeClient()
         monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
-        monkeypatch.chdir(repo)
         post = repo / "_posts" / "2026-08-28-a-test-post.md"
-        rc = main([str(post), "--live", "--token", "tok"])
+        rc = main([str(post), "--token", "tok"])
         assert rc == 0
-        assert (
-            "\nkcworks: https://works.hcommons.org/records/abc12-xyz34\n"
-            in post.read_text()
-        )
-        assert "front matter" in capsys.readouterr().out.lower()
+        assert f"\nkcworks: {LIVE_URL}\n" in post.read_text()
+        out = capsys.readouterr().out
+        assert LIVE_URL in out
+        assert "front matter" in out.lower()
+        assert client.imports[0][0] == "evegd-blog-posts"
 
-    def test_draft_deposit_leaves_the_post_untouched(
-        self, repo, capsys, monkeypatch
+    def test_collection_comes_from_the_blog_config_by_default(
+        self, repo, monkeypatch
     ):
         client = FakeClient()
         monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
-        monkeypatch.chdir(repo)
+        monkeypatch.chdir("/")
+        post = repo / "_posts" / "2026-08-28-a-test-post.md"
+        assert main([str(post), "--token", "tok"]) == 0
+        assert client.imports[0][0] == "evegd-blog-posts"
+
+    def test_collection_override(self, repo, monkeypatch):
+        client = FakeClient()
+        monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
+        post = repo / "_posts" / "2026-08-28-a-test-post.md"
+        rc = main([str(post), "--token", "tok", "--collection", "other-coll"])
+        assert rc == 0
+        assert client.imports[0][0] == "other-coll"
+
+    def test_no_collection_configured_is_an_error(
+        self, repo, capsys, monkeypatch
+    ):
+        (repo / "_config.yml").write_text("title: no collection here\n")
+        client = FakeClient()
+        monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
+        post = repo / "_posts" / "2026-08-28-a-test-post.md"
+        rc = main([str(post), "--token", "tok"])
+        assert rc == 2
+        assert "collection" in capsys.readouterr().err.lower()
+        assert client.calls == []
+        assert "kcworks:" not in post.read_text()
+
+    def test_server_error_leaves_the_post_untouched(
+        self, repo, capsys, monkeypatch
+    ):
+        client = FakeClient(error=KCWorksError("HTTP 403: permissions"))
+        monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
         post = repo / "_posts" / "2026-08-28-a-test-post.md"
         before = post.read_text()
         rc = main([str(post), "--token", "tok"])
-        assert rc == 0
+        assert rc == 1
         assert post.read_text() == before
+        assert "permissions" in capsys.readouterr().err
+
+    def test_existing_record_is_stamped_too(self, repo, capsys, monkeypatch):
+        existing = "https://works.hcommons.org/records/old11-old11"
+        client = FakeClient(
+            error=KCWorksConflict("already exists", location=existing)
+        )
+        monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
+        post = repo / "_posts" / "2026-08-28-a-test-post.md"
+        rc = main([str(post), "--token", "tok"])
+        assert rc == 0
+        assert f"kcworks: {existing}" in post.read_text()
+        assert "already" in capsys.readouterr().out.lower()
+
+    def test_live_flag_is_still_accepted(self, repo, monkeypatch):
+        client = FakeClient()
+        monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
+        post = repo / "_posts" / "2026-08-28-a-test-post.md"
+        assert main([str(post), "--live", "--token", "tok"]) == 0
+        assert client.calls == ["import"]
 
 
 class FakeCollectionClient(FakeClient):
@@ -408,43 +538,9 @@ class TestEffectiveCollection:
         (repo / "_config.yml").write_text("kcworks_collection: from-config\n")
         assert cli.effective_collection(repo, None, True) is None
 
-    def test_no_config_gives_none(self, repo):
-        assert cli.effective_collection(repo, None, False) is None
+    def test_no_config_gives_none(self, tmp_path):
+        assert cli.effective_collection(tmp_path, None, False) is None
 
-
-class TestUploadPostCollection:
-    def test_live_upload_lands_in_the_collection(self, repo):
-        client = FakeCollectionClient()
-        result = upload_post(
-            repo / "_posts" / "2026-08-28-a-test-post.md",
-            client,
-            live=True,
-            collection="evegd-blog-posts",
-        )
-        assert result["collection"] == "included"
-        assert client.calls.index("publish") < client.calls.index("include")
-
-    def test_draft_upload_leaves_the_collection_for_publish_time(self, repo):
-        client = FakeCollectionClient()
-        result = upload_post(
-            repo / "_posts" / "2026-08-28-a-test-post.md",
-            client,
-            live=False,
-            collection="evegd-blog-posts",
-        )
-        assert "collection" not in result
-        assert "include" not in client.calls
-
-    def test_no_collection_means_no_inclusion(self, repo):
-        client = FakeCollectionClient()
-        result = upload_post(
-            repo / "_posts" / "2026-08-28-a-test-post.md",
-            client,
-            live=True,
-            collection=None,
-        )
-        assert "collection" not in result
-        assert "include" not in client.calls
 
 
 class TestPublishMainCollection:
@@ -553,15 +649,21 @@ def backfill_repo(tmp_path):
     return tmp_path
 
 
-class TestBackfillMain:
-    LIVE_URL = "https://works.hcommons.org/records/abc12-xyz34"
 
+
+class TestBackfillMain:
     def run(self, monkeypatch, repo, client, argv=()):
         monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
         monkeypatch.chdir(repo)
         return cli.backfill_main(
             ["--token", "tok", "--delay", "0", *argv]
         )
+
+    def log_entries(self, repo):
+        return [
+            json.loads(line)
+            for line in (repo / "kcworks-backfill.log").read_text().splitlines()
+        ]
 
     def test_dry_run_lists_pending_posts_without_a_token(
         self, backfill_repo, capsys, monkeypatch
@@ -582,52 +684,65 @@ class TestBackfillMain:
     def test_publishes_and_stamps_every_pending_post(
         self, backfill_repo, capsys, monkeypatch
     ):
-        client = FakeCollectionClient()
+        client = FakeClient()
         code = self.run(monkeypatch, backfill_repo, client)
         assert code == 0
         for name in ("2026-01-01-first", "2026-02-02-second"):
             text = (backfill_repo / "_posts" / f"{name}.md").read_text()
-            assert f"kcworks: {self.LIVE_URL}" in text
+            assert f"kcworks: {LIVE_URL}" in text
             assert f"Body of {name}." in text
         assert (
             backfill_repo / "_posts" / "2025-12-31-deposited.md"
         ).read_text().count("kcworks:") == 1
-        assert client.calls.count("publish") == 2
+        assert client.calls == ["import", "import"]
 
     def test_records_land_in_the_configured_collection(
         self, backfill_repo, monkeypatch
     ):
-        client = FakeCollectionClient()
+        client = FakeClient()
         assert self.run(monkeypatch, backfill_repo, client) == 0
-        assert client.included == [
-            ("abc12-xyz34", "coll-uuid"),
-            ("abc12-xyz34", "coll-uuid"),
+        assert [i[0] for i in client.imports] == [
+            "evegd-blog-posts",
+            "evegd-blog-posts",
         ]
+
+    def test_collection_override(self, backfill_repo, monkeypatch):
+        client = FakeClient()
+        code = self.run(
+            monkeypatch, backfill_repo, client, ["--collection", "other"]
+        )
+        assert code == 0
+        assert {i[0] for i in client.imports} == {"other"}
+
+    def test_no_collection_configured_is_an_error(
+        self, backfill_repo, capsys, monkeypatch
+    ):
+        (backfill_repo / "_config.yml").write_text("title: none\n")
+        client = FakeClient()
+        assert self.run(monkeypatch, backfill_repo, client) == 2
+        assert "collection" in capsys.readouterr().err.lower()
+        assert client.calls == []
 
     def test_every_outcome_is_logged_as_json_lines(
         self, backfill_repo, monkeypatch
     ):
-        client = FakeCollectionClient()
+        client = FakeClient()
         self.run(monkeypatch, backfill_repo, client)
-        entries = [
-            json.loads(line)
-            for line in (backfill_repo / "kcworks-backfill.log")
-            .read_text()
-            .splitlines()
-        ]
+        entries = self.log_entries(backfill_repo)
         assert [e["post"] for e in entries] == [
             "2026-01-01-first.md",
             "2026-02-02-second.md",
         ]
         assert all(e["status"] == "published" for e in entries)
-        assert all(e["live_url"] == self.LIVE_URL for e in entries)
+        assert all(e["live_url"] == LIVE_URL for e in entries)
+        assert all(e["collection"] == "coll-uuid" for e in entries)
         assert all(e["time"] for e in entries)
 
     def test_failure_is_logged_and_the_run_continues(
         self, backfill_repo, capsys, monkeypatch
     ):
         (backfill_repo / ".pdf_cache" / "2026-01-01-first.pdf").unlink()
-        client = FakeCollectionClient()
+        client = FakeClient()
         code = self.run(monkeypatch, backfill_repo, client)
         assert code == 1
         first = (backfill_repo / "_posts" / "2026-01-01-first.md").read_text()
@@ -635,13 +750,8 @@ class TestBackfillMain:
         second = (
             backfill_repo / "_posts" / "2026-02-02-second.md"
         ).read_text()
-        assert f"kcworks: {self.LIVE_URL}" in second
-        entries = [
-            json.loads(line)
-            for line in (backfill_repo / "kcworks-backfill.log")
-            .read_text()
-            .splitlines()
-        ]
+        assert f"kcworks: {LIVE_URL}" in second
+        entries = self.log_entries(backfill_repo)
         assert entries[0]["status"] == "failed"
         assert "PDF" in entries[0]["error"]
         assert entries[1]["status"] == "published"
@@ -649,17 +759,43 @@ class TestBackfillMain:
         assert "2026-01-01-first.md" in out
         assert "1 failed" in out
 
+    def test_server_rejection_is_logged_with_its_message(
+        self, backfill_repo, monkeypatch
+    ):
+        client = FakeClient(error=KCWorksError("HTTP 400: Required field missing."))
+        code = self.run(monkeypatch, backfill_repo, client)
+        assert code == 1
+        entries = self.log_entries(backfill_repo)
+        assert [e["status"] for e in entries] == ["failed", "failed"]
+        assert "Required field missing" in entries[0]["error"]
+
+    def test_existing_record_conflict_stamps_the_post(
+        self, backfill_repo, monkeypatch
+    ):
+        existing = "https://works.hcommons.org/records/old11-old11"
+        client = FakeClient(
+            error=KCWorksConflict("already exists", location=existing)
+        )
+        code = self.run(monkeypatch, backfill_repo, client, ["--limit", "1"])
+        assert code == 0
+        assert f"kcworks: {existing}" in (
+            backfill_repo / "_posts" / "2026-01-01-first.md"
+        ).read_text()
+        entry = self.log_entries(backfill_repo)[0]
+        assert entry["status"] == "existing"
+        assert entry["live_url"] == existing
+
     def test_waits_between_deposits(self, backfill_repo, monkeypatch):
         naps = []
         monkeypatch.setattr(cli.time, "sleep", naps.append)
-        client = FakeCollectionClient()
+        client = FakeClient()
         monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
         monkeypatch.chdir(backfill_repo)
         cli.backfill_main(["--token", "tok", "--delay", "7"])
         assert naps == [7.0]
 
     def test_limit_caps_the_run(self, backfill_repo, monkeypatch):
-        client = FakeCollectionClient()
+        client = FakeClient()
         code = self.run(monkeypatch, backfill_repo, client, ["--limit", "1"])
         assert code == 0
         assert "kcworks:" in (
@@ -677,28 +813,6 @@ class TestBackfillMain:
         assert cli.backfill_main([]) == 2
         assert "token" in capsys.readouterr().err.lower()
 
-    def test_inclusion_failure_still_stamps_the_published_post(
-        self, backfill_repo, capsys, monkeypatch
-    ):
-        client = FakeCollectionClient(
-            inclusion={
-                "processed": [],
-                "errors": [{"message": "Permission denied"}],
-            }
-        )
-        code = self.run(
-            monkeypatch, backfill_repo, client, ["--limit", "1"]
-        )
-        assert code == 1
-        assert "kcworks:" in (
-            backfill_repo / "_posts" / "2026-01-01-first.md"
-        ).read_text()
-        entry = json.loads(
-            (backfill_repo / "kcworks-backfill.log").read_text().splitlines()[0]
-        )
-        assert entry["status"] == "published"
-        assert "failed" in entry["collection"]
-
     def test_nothing_pending_is_a_clean_no_op(
         self, backfill_repo, capsys, monkeypatch
     ):
@@ -707,10 +821,10 @@ class TestBackfillMain:
             path.write_text(
                 path.read_text().replace(
                     "---\nBody",
-                    f"kcworks: {self.LIVE_URL}\n---\nBody",
+                    f"kcworks: {LIVE_URL}\n---\nBody",
                 )
             )
-        client = FakeCollectionClient()
+        client = FakeClient()
         assert self.run(monkeypatch, backfill_repo, client) == 0
         assert client.calls == []
 
@@ -758,52 +872,23 @@ The opening paragraph of the post.
 """
 
 
-class FakeVersionClient(FakeClient):
-    """FakeClient plus the record/versioning surface for update flows."""
+
+
+class FakeUpdateClient(FakeClient):
+    """FakeClient plus the record lookup the update flow starts with."""
 
     def __init__(
         self,
         record_updated="2026-09-01T10:00:00.000000+00:00",
-        draft_files=(),
-        draft_pids=None,
-        delete_pid_error=False,
+        record_id="new33-new44",
+        error=None,
     ):
-        super().__init__()
+        super().__init__(record_id=record_id, error=error)
         self.record_updated = record_updated
-        self.draft_files = list(draft_files)
-        self.draft_pids = draft_pids
-        self.delete_pid_error = delete_pid_error
-
-    def new_version(self, record_id):
-        self.calls.append("new_version")
-        self.versioned = record_id
-        draft = {"id": "new33-new44", "links": {}}
-        if self.draft_pids:
-            draft["pids"] = self.draft_pids
-        return draft
-
-    def reserve_doi(self, draft_id):
-        self.calls.append("reserve_doi")
-        return {
-            "pids": {
-                "doi": {"identifier": "10.17613/mint1", "provider": "datacite"}
-            }
-        }
-
-    def delete_draft_pid(self, draft_id, scheme="doi"):
-        self.calls.append("delete_pid")
-        if self.delete_pid_error:
-            raise cli.KCWorksError(
-                "KC Works returned HTTP 404: The persistent identifier does not exist."
-            )
-        return {}
-
-    def list_draft_files(self, draft_id):
-        self.calls.append("list_files")
-        return [{"key": key} for key in self.draft_files]
 
     def get_record(self, record_id):
         self.calls.append("get_record")
+        self.looked_up = record_id
         return {"id": record_id, "updated": self.record_updated}
 
 
@@ -825,11 +910,16 @@ class TestNeedsUpdate:
         assert cli.needs_update({}, "2026-09-06") is True
 
 
+
+
 class TestUpdateMain:
     @pytest.fixture
     def updated_repo(self, tmp_path):
         (tmp_path / "_posts").mkdir()
         (tmp_path / ".pdf_cache").mkdir()
+        (tmp_path / "_config.yml").write_text(
+            "kcworks_collection: evegd-blog-posts\n"
+        )
         post = tmp_path / "_posts" / "2026-08-28-a-test-post.md"
         post.write_text(UPDATED_POST_TEXT)
         (tmp_path / ".pdf_cache" / "2026-08-28-a-test-post.pdf").write_bytes(
@@ -837,126 +927,102 @@ class TestUpdateMain:
         )
         return tmp_path
 
-    def test_stale_deposit_gets_a_new_published_version(
+    def run(self, monkeypatch, repo, client, argv=()):
+        monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
+        monkeypatch.chdir(repo)
+        post = repo / "_posts" / "2026-08-28-a-test-post.md"
+        return cli.update_main([str(post), "--token", "tok", *argv]), post
+
+    def test_stale_deposit_is_reimported_and_restamped(
         self, updated_repo, capsys, monkeypatch
     ):
-        client = FakeVersionClient()
-        monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
-        monkeypatch.chdir(updated_repo)
-        post = updated_repo / "_posts" / "2026-08-28-a-test-post.md"
-        rc = cli.update_main([str(post), "--token", "tok"])
+        client = FakeUpdateClient()
+        rc, post = self.run(monkeypatch, updated_repo, client)
         assert rc == 0
-        assert "new_version" in client.calls
-        assert "publish" in client.calls
+        assert client.looked_up == "old11-old22"
+        assert client.calls == ["get_record", "import"]
         text = post.read_text()
         assert "kcworks: https://works.hcommons.org/records/new33-new44\n" in text
         assert "old11-old22" not in text
 
-    def test_new_version_reserves_a_kcworks_managed_doi(
-        self, updated_repo, capsys, monkeypatch
+    def test_reimport_targets_the_configured_collection(
+        self, updated_repo, monkeypatch
     ):
-        # KC Works requires a DOI with a concrete identifier, and an
-        # external DOI cannot be reused across versions, so the flow
-        # reserves a minted DOI on the draft and carries it through
-        # every subsequent draft update.
-        client = FakeVersionClient()
-        monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
-        monkeypatch.chdir(updated_repo)
-        post = updated_repo / "_posts" / "2026-08-28-a-test-post.md"
-        cli.update_main([str(post), "--token", "tok"])
-        assert "reserve_doi" in client.calls
-        assert client.updated_record["pids"]["doi"]["identifier"] == "10.17613/mint1"
+        client = FakeUpdateClient()
+        self.run(monkeypatch, updated_repo, client)
+        assert client.imports[0][0] == "evegd-blog-posts"
 
-    def test_a_malformed_pid_left_by_a_failed_run_is_replaced(
-        self, updated_repo, capsys, monkeypatch
+    def test_reimport_keeps_the_identifiers_that_match_the_record(
+        self, updated_repo, monkeypatch
     ):
-        # Draft PUTs are lenient: earlier failed attempts can leave a
-        # provider-only doi pid on the version draft, which blocks a new
-        # reservation. The flow must delete it and reserve cleanly.
-        # The schema debris has no real PID row behind it, so the delete
-        # endpoint 404s; the flow must fall back to clearing pids by PUT.
-        client = FakeVersionClient(
-            draft_pids={"doi": {"provider": "datacite", "client": "datacite"}},
-            delete_pid_error=True,
-        )
-        monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
-        monkeypatch.chdir(updated_repo)
-        post = updated_repo / "_posts" / "2026-08-28-a-test-post.md"
-        rc = cli.update_main([str(post), "--token", "tok"])
-        assert rc == 0
-        assert "delete_pid" in client.calls
-        assert "reserve_doi" in client.calls
-        assert client.updated_record["pids"]["doi"]["identifier"] == "10.17613/mint1"
+        # The import API matches an existing work by its DOI pid and the
+        # import-recid identifier, then updates it in place -- so both
+        # must be sent exactly as the original deposit sent them.
+        client = FakeUpdateClient()
+        self.run(monkeypatch, updated_repo, client)
+        record = client.record
+        assert record["pids"]["doi"] == {
+            "identifier": "10.59348/abcde-f0123",
+            "provider": "external",
+        }
+        assert {
+            "identifier": "2026-08-28-a-test-post",
+            "scheme": "import-recid",
+        } in record["metadata"]["identifiers"]
 
-    def test_an_external_doi_left_on_the_draft_is_replaced(
-        self, updated_repo, capsys, monkeypatch
+    def test_reimport_sends_the_current_markdown_and_pdf(
+        self, updated_repo, monkeypatch
     ):
-        # An external DOI cannot publish on a new version; it must give
-        # way to a minted one.
-        client = FakeVersionClient(
-            draft_pids={
-                "doi": {"identifier": "10.59348/abcde-f0123", "provider": "external"}
-            }
-        )
-        monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
-        monkeypatch.chdir(updated_repo)
-        post = updated_repo / "_posts" / "2026-08-28-a-test-post.md"
-        rc = cli.update_main([str(post), "--token", "tok"])
-        assert rc == 0
-        assert "delete_pid" in client.calls
-        assert client.updated_record["pids"]["doi"]["identifier"] == "10.17613/mint1"
-
-    def test_resume_keeps_an_already_reserved_doi(
-        self, updated_repo, capsys, monkeypatch
-    ):
-        # A retry after a failed publish finds the reservation already on
-        # the version draft; it must not reserve again.
-        client = FakeVersionClient(
-            draft_pids={
-                "doi": {"identifier": "10.17613/prior7", "provider": "datacite"}
-            }
-        )
-        monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
-        monkeypatch.chdir(updated_repo)
-        post = updated_repo / "_posts" / "2026-08-28-a-test-post.md"
-        rc = cli.update_main([str(post), "--token", "tok"])
-        assert rc == 0
-        assert "reserve_doi" not in client.calls
-        assert client.updated_record["pids"]["doi"]["identifier"] == "10.17613/prior7"
-
-    def test_resume_skips_files_already_on_the_draft(
-        self, updated_repo, capsys, monkeypatch
-    ):
-        # A failed publish leaves a version draft with files attached; the
-        # retry must not try to upload them again.
-        client = FakeVersionClient(
-            draft_files=["2026-08-28-a-test-post.md", "2026-08-28-a-test-post.pdf"]
-        )
-        monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
-        monkeypatch.chdir(updated_repo)
-        post = updated_repo / "_posts" / "2026-08-28-a-test-post.md"
-        rc = cli.update_main([str(post), "--token", "tok"])
-        assert rc == 0
-        assert "upload" not in client.calls
-        assert "publish" in client.calls
+        client = FakeUpdateClient()
+        self.run(monkeypatch, updated_repo, client)
+        assert [p.name for p in client.imports[0][2]] == [
+            "2026-08-28-a-test-post.md",
+            "2026-08-28-a-test-post.pdf",
+        ]
+        assert client.record["metadata"]["dates"] == [
+            {"date": "2026-09-06", "type": {"id": "updated"}}
+        ]
 
     def test_fresh_deposit_is_skipped(
         self, updated_repo, capsys, monkeypatch
     ):
-        client = FakeVersionClient(record_updated="2026-09-07T00:00:00+00:00")
+        client = FakeUpdateClient(record_updated="2026-09-07T00:00:00+00:00")
         monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
         monkeypatch.chdir(updated_repo)
         post = updated_repo / "_posts" / "2026-08-28-a-test-post.md"
         before = post.read_text()
-        rc = cli.update_main([str(post), "--token", "tok"])
+        rc, _ = self.run(monkeypatch, updated_repo, client)
         assert rc == 0
-        assert "new_version" not in client.calls
+        assert "import" not in client.calls
         assert post.read_text() == before
+
+    def test_failed_reimport_is_logged_and_leaves_the_stamp(
+        self, updated_repo, capsys, monkeypatch
+    ):
+        client = FakeUpdateClient(error=KCWorksConflict("refused"))
+        rc, post = self.run(monkeypatch, updated_repo, client)
+        assert rc == 1
+        assert "old11-old22" in post.read_text()
+        entry = json.loads(
+            (updated_repo / "kcworks-update.log").read_text().splitlines()[0]
+        )
+        assert entry["status"] == "failed"
+        assert "refused" in entry["error"]
+
+    def test_no_collection_configured_is_an_error(
+        self, updated_repo, capsys, monkeypatch
+    ):
+        (updated_repo / "_config.yml").write_text("title: none\n")
+        client = FakeUpdateClient()
+        rc, _ = self.run(monkeypatch, updated_repo, client)
+        assert rc == 2
+        assert "collection" in capsys.readouterr().err.lower()
+        assert client.calls == []
 
     def test_dry_run_contacts_nothing_and_changes_nothing(
         self, updated_repo, capsys, monkeypatch
     ):
-        client = FakeVersionClient()
+        client = FakeUpdateClient()
         monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
         monkeypatch.chdir(updated_repo)
         post = updated_repo / "_posts" / "2026-08-28-a-test-post.md"
@@ -969,7 +1035,7 @@ class TestUpdateMain:
     def test_post_without_kcworks_or_lastmod_is_skipped(
         self, repo, capsys, monkeypatch
     ):
-        client = FakeVersionClient()
+        client = FakeUpdateClient()
         monkeypatch.setattr(cli, "KCWorksClient", lambda *a, **k: client)
         monkeypatch.chdir(repo)
         post = repo / "_posts" / "2026-08-28-a-test-post.md"
