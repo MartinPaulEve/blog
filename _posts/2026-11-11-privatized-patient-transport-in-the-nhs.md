@@ -3,6 +3,8 @@ title: "Privatized Patient Transport in the NHS"
 layout: post
 date: 2026-11-11
 doi: https://doi.org/10.59348/xf29n-ycd32
+roguescholar: https://rogue-scholar.org/records/bf2f9-q6e98
+atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3n2243b7wco2p
 biron: https://eprints.bbk.ac.uk/id/eprint/58159/
 categories:
 - Health
