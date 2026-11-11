@@ -11,6 +11,7 @@ image:
   creditlink: "https://pixabay.com/users/akuptsova-1176597/"
   feature: ambulance2026.jpg
   title: "A set of hospital ambulances; representative only -- not a UK ambulances"
+atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3n2243b7wco2p"
 ---
 
 I am being discharged from hospital today after three months admission. But my transport home is now *over 4.5hrs late* and I am *not yet even allocated a vehicle*. I remain taking up a bed on the ward at the expense of the NHS. Meanwhile, this is what private outsourcing of transport does to the NHS:
