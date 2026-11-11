@@ -17822,6 +17822,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-11/#t20261111181125": {
+   "content_hash": "cc443204eb0ea0413a712b6ecafc48258fc97abc5da03880613b654fffe261eb",
+   "sent": {
+    "https://aupresses.org/news/paul-yamazaki-named-2026-aupresses-stand-up-award-winner/": {
+     "at": "2026-11-11T18:12:43+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
