@@ -549,3 +549,132 @@ class TestRequestLog:
         client = KCWorksClient(BASE, "tok", session=session, log=lines.append)
         client.import_work("evegd-blog-posts", RECORD, files)
         assert any("post.pdf" in line for line in lines)
+
+
+class TestRequestLogDetail:
+    """The trace carries enough to diagnose a failure: headers both
+    ways, the form fields and JSON sent, the files attached, and the
+    response body."""
+
+    TOKEN = "sekrit-token-123"
+
+    def run(self, files, response=None, **kwargs):
+        lines = []
+        session = FakeSession(
+            {
+                ("POST", IMPORT_URL): response
+                or FakeResponse(
+                    201,
+                    imported(),
+                    headers={
+                        "Content-Type": "application/json",
+                        "X-Request-Id": "req-9",
+                    },
+                )
+            }
+        )
+        client = KCWorksClient(
+            BASE,
+            self.TOKEN,
+            session=session,
+            sleep=lambda s: None,
+            log=lines.append,
+            **kwargs,
+        )
+        try:
+            client.import_work("evegd-blog-posts", RECORD, files)
+        except KCWorksError:
+            pass
+        return "\n".join(lines)
+
+    def test_request_headers_are_logged_with_the_token_redacted(self, files):
+        trace = self.run(files)
+        assert "Accept: application/json" in trace
+        assert "Authorization: Bearer" in trace
+        assert self.TOKEN not in trace
+
+    def test_form_fields_are_logged(self, files):
+        trace = self.run(files)
+        assert "review_required: false" in trace
+        assert "notify_record_owners: false" in trace
+
+    def test_submitted_json_is_logged_in_full(self, files):
+        trace = self.run(files)
+        assert '"title": "A post"' in trace
+        assert '"enabled": true' in trace
+
+    def test_attached_files_are_logged_with_size_and_type(self, files):
+        trace = self.run(files)
+        assert "post.pdf" in trace
+        assert str(len(b"%PDF-1.4 body")) in trace
+        assert "application/octet-stream" in trace
+
+    def test_response_headers_are_logged(self, files):
+        trace = self.run(files)
+        assert "X-Request-Id: req-9" in trace
+
+    def test_response_body_is_logged(self, files):
+        trace = self.run(files)
+        assert "https://works.example.org/records/abc12-xyz34" in trace
+
+    def test_non_json_response_body_is_logged_as_text(self, files):
+        gateway = FakeResponse(502, None)
+        gateway.text = "<html><body>502 Bad Gateway</body></html>"
+        trace = self.run(files, response=gateway, max_retries=0)
+        assert "502 Bad Gateway" in trace
+
+    def test_json_bodies_are_logged_for_plain_requests(self):
+        lines = []
+        session = FakeSession(
+            {
+                (
+                    "POST",
+                    f"{BASE}/records/rec1/communities",
+                ): FakeResponse(200, {"processed": []})
+            }
+        )
+        client = KCWorksClient(BASE, "tok", session=session, log=lines.append)
+        client.add_to_collection("rec1", "coll-uuid")
+        trace = "\n".join(lines)
+        assert '"id": "coll-uuid"' in trace
+        assert '"processed": []' in trace
+
+    def test_nothing_is_built_without_a_logger(self, files):
+        session = FakeSession(
+            {("POST", IMPORT_URL): FakeResponse(201, imported())}
+        )
+        client = KCWorksClient(BASE, "tok", session=session)
+        assert client.import_work("evegd-blog-posts", RECORD, files)
+
+    def test_request_detail_is_shown_once_across_retries(self, files):
+        lines = []
+        session = SequencedFakeSession(
+            {
+                ("POST", IMPORT_URL): [
+                    FakeResponse(429, {"message": "slow down"}),
+                    FakeResponse(201, imported()),
+                ]
+            }
+        )
+        client = KCWorksClient(
+            BASE, "tok", session=session, sleep=lambda s: None, log=lines.append
+        )
+        client.import_work("evegd-blog-posts", RECORD, files)
+        trace = "\n".join(lines)
+        assert trace.count('"title": "A post"') == 1
+        assert trace.count("Request headers:") == 1
+        posts = [line for line in lines if line.startswith("POSTing to")]
+        assert len(posts) == 2
+        assert "retry 1 of" in posts[1]
+
+    def test_response_cookies_are_redacted(self, files):
+        trace = self.run(
+            files,
+            response=FakeResponse(
+                201,
+                imported(),
+                headers={"Set-Cookie": "csrftoken=verysecretvalue; Path=/"},
+            ),
+        )
+        assert "Set-Cookie" in trace
+        assert "verysecretvalue" not in trace

@@ -15,6 +15,8 @@ import requests
 
 RETRY_STATUSES = {429, 500, 502, 503, 504}
 IMPORT_TIMEOUT = (30, 900)  # connect, read: a PDF upload can take a while
+TRACE_BODY_LIMIT = 20_000  # characters of a response body shown in a trace
+REDACTED_HEADERS = {"authorization", "cookie", "set-cookie"}
 
 
 class KCWorksError(RuntimeError):
@@ -58,6 +60,61 @@ class KCWorksClient:
         if self._log is not None:
             self._log(message)
 
+    def _trace_request(
+        self, verb: str, url: str, kwargs: dict, attempt: int = 0
+    ) -> None:
+        """Describe an outgoing request: headers (secrets redacted), form
+        fields with any JSON pretty-printed, attached files, raw bodies.
+        A retry resends the same request, so only its line is shown."""
+        if self._log is None:
+            return
+        if attempt:
+            self._trace(
+                f"{verb}ing to {url} (retry {attempt} of {self._max_retries}; "
+                "same request as above)"
+            )
+            return
+        headers = {**self._session.headers, **(kwargs.get("headers") or {})}
+        self._trace(f"{verb}ing to {url}")
+        self._trace("Request headers:" + _format_headers(headers))
+        files = kwargs.get("files")
+        if files:
+            lines = []
+            for field, part in files:
+                name, content, *rest = part
+                kind = rest[0] if rest else "unknown type"
+                lines.append(
+                    f"    {field}: {name} ({len(content)} bytes, {kind})"
+                )
+            self._trace("Attached files:\n" + "\n".join(lines))
+        data = kwargs.get("data")
+        if isinstance(data, dict):
+            lines = []
+            for key, value in data.items():
+                lines.append(f"    {key}: {_pretty(value)}")
+            self._trace("Form fields:\n" + "\n".join(lines))
+        elif isinstance(data, (bytes, bytearray)):
+            self._trace(f"Request body: {len(data)} bytes")
+        if kwargs.get("json") is not None:
+            self._trace("Request JSON:\n" + _indent(json.dumps(kwargs["json"], indent=2)))
+
+    def _trace_response(self, response) -> None:
+        """Describe a response: status, headers, and its body (JSON
+        pretty-printed, otherwise text, cut off past TRACE_BODY_LIMIT)."""
+        if self._log is None:
+            return
+        self._trace(
+            f"Response: HTTP {response.status_code}"
+            + _format_headers(getattr(response, "headers", {}) or {})
+        )
+        try:
+            body = json.dumps(response.json(), indent=2)
+        except ValueError:
+            body = getattr(response, "text", "") or ""
+        if len(body) > TRACE_BODY_LIMIT:
+            body = body[:TRACE_BODY_LIMIT] + f"\n… [{len(body)} characters in all]"
+        self._trace("Response body:\n" + _indent(body) if body else "Response body: (empty)")
+
     def _request(self, method: str, url: str, **kwargs):
         """Issue a request, retrying rate limits and transient errors;
         return the final response unexamined.
@@ -66,8 +123,9 @@ class KCWorksClient:
         retry decision is reported as it happens."""
         verb = method.upper()
         for attempt in range(self._max_retries + 1):
-            self._trace(f"{verb}ing to {url}")
+            self._trace_request(verb, url, kwargs, attempt)
             response = getattr(self._session, method)(url, **kwargs)
+            self._trace_response(response)
             status = response.status_code
             if status in RETRY_STATUSES and attempt < self._max_retries:
                 delay = _retry_delay(response, attempt)
@@ -209,6 +267,37 @@ class KCWorksClient:
             data=Path(path).read_bytes(),
             headers={"Content-Type": "application/octet-stream"},
         )
+
+
+def _format_headers(headers) -> str:
+    """Headers one per indented line, secret-bearing values redacted."""
+    lines = []
+    for key, value in dict(headers).items():
+        name = str(key).lower()
+        if name == "authorization" and " " in str(value):
+            value = f"{str(value).split(' ')[0]} ***"  # keep the scheme
+        elif name in REDACTED_HEADERS:
+            value = "***"
+        lines.append(f"    {key}: {value}")
+    return ("\n" + "\n".join(lines)) if lines else " (none)"
+
+
+def _pretty(value) -> str:
+    """A form value for the trace: JSON pretty-printed when it parses,
+    otherwise as-is."""
+    if isinstance(value, str):
+        try:
+            parsed = json.loads(value)
+        except ValueError:
+            return value
+        if isinstance(parsed, (dict, list)):
+            return "\n" + _indent(json.dumps(parsed, indent=2), 8)
+    return str(value)
+
+
+def _indent(text: str, spaces: int = 4) -> str:
+    pad = " " * spaces
+    return "\n".join(pad + line for line in text.splitlines())
 
 
 def _detail(response) -> str:

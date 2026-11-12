@@ -135,6 +135,10 @@ uv run --env-file ../.env kcworks-publish https://works.hcommons.org/uploads/<id
 Options for `kcworks-upload`:
 
 - `--dry-run` — print the record JSON and the files that would be attached.
+- `--debug` — trace the deposit to stdout as it happens: each request
+  with its headers (token redacted), form fields including the full
+  record JSON, attached files, and each response's status, headers and
+  body, plus every retry decision. Start here when a deposit fails.
 - `--collection SLUG` — import into this collection instead of the
   configured one.
 - `--no-doi` — omit the post's front-matter DOI from the record's `pids`
