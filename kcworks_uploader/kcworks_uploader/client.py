@@ -45,24 +45,52 @@ class KCWorksClient:
         session=None,
         max_retries: int = 4,
         sleep=time.sleep,
+        log=None,
     ):
         self.base_url = base_url.rstrip("/")
+        self._log = log
         self._session = session if session is not None else requests.Session()
         self._session.headers["Authorization"] = f"Bearer {token}"
         self._max_retries = max_retries
         self._sleep = sleep
 
+    def _trace(self, message: str) -> None:
+        if self._log is not None:
+            self._log(message)
+
     def _request(self, method: str, url: str, **kwargs):
         """Issue a request, retrying rate limits and transient errors;
-        return the final response unexamined."""
+        return the final response unexamined.
+
+        With a ``log`` callable, each attempt, its outcome and every
+        retry decision is reported as it happens."""
+        verb = method.upper()
         for attempt in range(self._max_retries + 1):
+            self._trace(f"{verb}ing to {url}")
             response = getattr(self._session, method)(url, **kwargs)
-            if (
-                response.status_code not in RETRY_STATUSES
-                or attempt == self._max_retries
-            ):
-                return response
-            self._sleep(_retry_delay(response, attempt))
+            status = response.status_code
+            if status in RETRY_STATUSES and attempt < self._max_retries:
+                delay = _retry_delay(response, attempt)
+                self._trace(
+                    f"FAILED to {verb} to {url}. The error was HTTP {status}: "
+                    f"{_detail(response)}. This will be retried in {delay:g}s."
+                )
+                self._sleep(delay)
+                continue
+            if status in RETRY_STATUSES:
+                self._trace(
+                    f"FAILED to {verb} to {url}. The error was HTTP {status}: "
+                    f"{_detail(response)}. Giving up after "
+                    f"{self._max_retries} retries."
+                )
+            elif status >= 400:
+                self._trace(
+                    f"{verb} to {url} rejected with HTTP {status}: "
+                    f"{_detail(response)}"
+                )
+            else:
+                self._trace(f"HTTP {status} from {url}")
+            return response
         raise AssertionError("unreachable")
 
     def _send(self, method: str, url: str, **kwargs) -> dict:
@@ -92,10 +120,13 @@ class KCWorksClient:
         for path in paths:
             if not path.is_file():
                 raise FileNotFoundError(f"No such file to import: {path}")
-        parts = [
-            ("files", (path.name, path.read_bytes(), "application/octet-stream"))
-            for path in paths
-        ]
+        parts = []
+        for path in paths:
+            content = path.read_bytes()
+            self._trace(f"Attaching {path.name} ({len(content)} bytes)")
+            parts.append(
+                ("files", (path.name, content, "application/octet-stream"))
+            )
         form = {
             "metadata": json.dumps([record]),
             "review_required": "true" if review_required else "false",

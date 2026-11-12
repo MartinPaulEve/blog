@@ -470,3 +470,82 @@ class TestUploadCollectionLogo:
         assert sent["headers"]["Content-Type"] == "application/octet-stream"
 
 
+
+
+class TestRequestLog:
+    """A ``log`` callable receives a line per request and per retry."""
+
+    def test_default_client_logs_nothing_and_works(self, files):
+        session = FakeSession(
+            {("POST", IMPORT_URL): FakeResponse(201, imported())}
+        )
+        client = KCWorksClient(BASE, "tok", session=session)
+        assert client.import_work("evegd-blog-posts", RECORD, files)
+
+    def test_successful_request_logs_the_post_and_its_status(self, files):
+        lines = []
+        session = FakeSession(
+            {("POST", IMPORT_URL): FakeResponse(201, imported())}
+        )
+        client = KCWorksClient(BASE, "tok", session=session, log=lines.append)
+        client.import_work("evegd-blog-posts", RECORD, files)
+        assert any("POST" in line and IMPORT_URL in line for line in lines)
+        assert any("201" in line for line in lines)
+        assert not any("retried" in line.lower() for line in lines)
+
+    def test_retry_is_logged_with_the_error_and_the_wait(self, files):
+        lines = []
+        session = SequencedFakeSession(
+            {
+                ("POST", IMPORT_URL): [
+                    FakeResponse(
+                        429,
+                        {"message": "rate limit exceeded"},
+                        headers={"Retry-After": "5"},
+                    ),
+                    FakeResponse(201, imported()),
+                ]
+            }
+        )
+        client = KCWorksClient(
+            BASE, "tok", session=session, sleep=lambda s: None, log=lines.append
+        )
+        client.import_work("evegd-blog-posts", RECORD, files)
+        retry = [line for line in lines if "retried" in line.lower()]
+        assert len(retry) == 1
+        assert IMPORT_URL in retry[0]
+        assert "429" in retry[0] and "rate limit exceeded" in retry[0]
+        assert "5" in retry[0]
+        assert lines.index(retry[0]) < len(lines) - 1  # the retry follows
+
+    def test_final_failure_is_logged_without_a_retry_promise(self, files):
+        lines = []
+        session = SequencedFakeSession(
+            {("POST", IMPORT_URL): [FakeResponse(503, {"message": "down"})]}
+        )
+        client = KCWorksClient(
+            BASE, "tok", session=session, sleep=lambda s: None, log=lines.append
+        )
+        with pytest.raises(KCWorksError):
+            client.import_work("evegd-blog-posts", RECORD, files)
+        assert "503" in lines[-1] and "down" in lines[-1]
+        assert "retried" not in lines[-1].lower()
+
+    def test_rejections_are_logged(self, files):
+        lines = []
+        session = FakeSession(
+            {("POST", IMPORT_URL): FakeResponse(403, {"message": "no perms"})}
+        )
+        client = KCWorksClient(BASE, "tok", session=session, log=lines.append)
+        with pytest.raises(KCWorksError):
+            client.import_work("evegd-blog-posts", RECORD, files)
+        assert any("403" in line and "no perms" in line for line in lines)
+
+    def test_files_being_sent_are_logged(self, files):
+        lines = []
+        session = FakeSession(
+            {("POST", IMPORT_URL): FakeResponse(201, imported())}
+        )
+        client = KCWorksClient(BASE, "tok", session=session, log=lines.append)
+        client.import_work("evegd-blog-posts", RECORD, files)
+        assert any("post.pdf" in line for line in lines)

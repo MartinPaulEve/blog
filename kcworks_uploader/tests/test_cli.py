@@ -1,4 +1,5 @@
 import json
+import re
 from pathlib import Path
 
 import pytest
@@ -649,6 +650,43 @@ def backfill_repo(tmp_path):
     return tmp_path
 
 
+
+
+class TestDebugLogger:
+    def test_lines_are_timestamped_and_written(self):
+        out = []
+        log = cli.debug_logger(out.append)
+        log("POSTing to https://x")
+        assert len(out) == 1
+        assert re.match(r"\[\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}\] POSTing to https://x$", out[0])
+
+
+class TestDebugFlag:
+    def capture_client(self, monkeypatch):
+        seen = {}
+
+        def factory(*args, **kwargs):
+            seen.update(kwargs)
+            return FakeClient()
+
+        monkeypatch.setattr(cli, "KCWorksClient", factory)
+        return seen
+
+    def test_debug_hands_the_client_a_stdout_logger(
+        self, repo, capsys, monkeypatch
+    ):
+        seen = self.capture_client(monkeypatch)
+        post = repo / "_posts" / "2026-08-28-a-test-post.md"
+        assert main([str(post), "--token", "tok", "--debug"]) == 0
+        seen["log"]("POSTing to https://x")
+        out = capsys.readouterr().out
+        assert re.search(r"^\[\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}\] POSTing to https://x$", out, re.MULTILINE)
+
+    def test_without_debug_the_client_gets_no_logger(self, repo, monkeypatch):
+        seen = self.capture_client(monkeypatch)
+        post = repo / "_posts" / "2026-08-28-a-test-post.md"
+        assert main([str(post), "--token", "tok"]) == 0
+        assert seen.get("log") is None
 
 
 class TestBackfillMain:

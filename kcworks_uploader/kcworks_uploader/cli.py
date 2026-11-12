@@ -693,6 +693,17 @@ def update_main(argv=None) -> int:
     return 1 if failures else 0
 
 
+def debug_logger(write=print):
+    """A client ``log`` callable that stamps each line with the local
+    time and writes it out."""
+
+    def log(message: str) -> None:
+        stamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        write(f"[{stamp}] {message}")
+
+    return log
+
+
 def _utc_now() -> str:
     return datetime.now(UTC).isoformat(timespec="seconds")
 
@@ -730,6 +741,11 @@ def main(argv=None) -> int:
     )
     _add_collection_option(parser)
     parser.add_argument(
+        "--debug",
+        action="store_true",
+        help="trace every request and retry to stdout as it happens",
+    )
+    parser.add_argument(
         "--dry-run",
         action="store_true",
         help="print the record JSON without contacting KC Works",
@@ -757,7 +773,11 @@ def main(argv=None) -> int:
         print(NO_COLLECTION, file=sys.stderr)
         return 2
 
-    client = KCWorksClient(args.base_url, args.token)
+    client = KCWorksClient(
+        args.base_url,
+        args.token,
+        log=debug_logger() if args.debug else None,
+    )
     try:
         result = upload_post(
             args.post,
