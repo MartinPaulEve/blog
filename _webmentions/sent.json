@@ -17831,6 +17831,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-11/#t20261113112143": {
+   "content_hash": "091400256ca2bf2cbf70b5b81b9d7ecc0e190410bb986bc5317f0ac81a0e4ce4",
+   "sent": {
+    "https://latestartrek.substack.com/p/consider-the-space-dinosaur": {
+     "at": "2026-11-13T11:23:00+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
