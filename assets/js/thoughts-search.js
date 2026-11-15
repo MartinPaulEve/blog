@@ -177,7 +177,8 @@
         time.textContent = entry.display;
         link.appendChild(time);
         footer.appendChild(link);
-        [["b", "Bluesky"], ["m", "Mastodon"], ["x", "Twitter"]]
+        [["b", "Bluesky"], ["m", "Mastodon"], ["x", "Twitter"],
+         ["bd", "Bluesky (duplicate)"], ["md", "Mastodon (duplicate)"]]
             .forEach(function (pair) {
                 var url = entry[pair[0]];
                 if (!url) {

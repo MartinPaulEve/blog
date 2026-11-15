@@ -54,6 +54,8 @@
                 {% if entry.bluesky %}&middot; <a href="{{ entry.bluesky }}" rel="syndication">Bluesky</a>{% endif %}
                 {% if entry.mastodon %}&middot; <a href="{{ entry.mastodon }}" rel="syndication">Mastodon</a>{% endif %}
                 {% if entry.twitter %}&middot; <a href="{{ entry.twitter }}" rel="syndication">Twitter</a>{% endif %}
+                {% if entry.bluesky_duplicate %}&middot; <a href="{{ entry.bluesky_duplicate }}" rel="syndication">Bluesky (duplicate)</a>{% endif %}
+                {% if entry.mastodon_duplicate %}&middot; <a href="{{ entry.mastodon_duplicate }}" rel="syndication">Mastodon (duplicate)</a>{% endif %}
             </footer>
         </article>
         {% when "listening" %}

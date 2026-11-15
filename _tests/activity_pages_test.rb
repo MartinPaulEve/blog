@@ -74,6 +74,26 @@ class ActivityPagesTest < Minitest::Test
     assert got.end_with?("…")
   end
 
+  def test_thought_entry_and_index_carry_duplicate_syndication_links
+    merged = thought(bluesky: "https://bsky.app/x")
+    merged["mastodon"] = "https://hcommons.social/@mpe/1"
+    merged["bluesky_duplicate"] = "https://bsky.app/y"
+    merged["mastodon_duplicate"] = "https://hcommons.social/@mpe/2"
+    entry = ActivityPages.thought_entry(merged)
+    assert_equal "https://bsky.app/x", entry["bluesky"]
+    assert_equal "https://bsky.app/y", entry["bluesky_duplicate"]
+    assert_equal "https://hcommons.social/@mpe/2", entry["mastodon_duplicate"]
+
+    indexed = ActivityPages.search_index([entry])[0]
+    assert_equal "https://bsky.app/x", indexed["b"]
+    assert_equal "https://bsky.app/y", indexed["bd"]
+    assert_equal "https://hcommons.social/@mpe/2", indexed["md"]
+
+    plain = ActivityPages.search_index([ActivityPages.thought_entry(thought)])[0]
+    refute plain.key?("bd")
+    refute plain.key?("md")
+  end
+
   def test_thought_entry_links_to_its_month_page
     entry = ActivityPages.thought_entry(thought(bluesky: "https://bsky.app/x"))
     assert_equal "thought", entry["kind"]

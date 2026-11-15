@@ -58,8 +58,13 @@ module ThoughtsPages
   # The whole-archive search payload: one compact hash per thought —
   # id, ISO date ("d"), untouched text ("t") and, only when present,
   # image [src, alt] pairs ("i") and the syndicated copies' URLs
-  # ("b"luesky, "m"astodon, "x" for twitter; "t" is the text).
-  SYNDICATION_KEYS = { "bluesky" => "b", "mastodon" => "m", "twitter" => "x" }.freeze
+  # ("b"luesky, "m"astodon, "x" for twitter; "t" is the text). A thought
+  # accidentally syndicated twice keeps the second copy's URLs under
+  # *_duplicate keys ("bd"/"md") so the social record stays linked.
+  SYNDICATION_KEYS = {
+    "bluesky" => "b", "mastodon" => "m", "twitter" => "x",
+    "bluesky_duplicate" => "bd", "mastodon_duplicate" => "md",
+  }.freeze
 
   def self.search_index(thoughts)
     (thoughts || []).map do |thought|

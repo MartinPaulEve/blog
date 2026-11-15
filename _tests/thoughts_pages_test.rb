@@ -79,6 +79,28 @@ class ThoughtsPagesTest < Minitest::Test
     refute index[1].key?("i")
   end
 
+  def test_search_index_carries_duplicate_syndication_urls_under_their_own_keys
+    merged = thought(id: "20261114203758",
+                     date: "2026-11-14T20:37:58.037352+00:00")
+    merged["bluesky"] = "https://bsky.app/profile/eve.gd/post/3n2ce4zj64j2w"
+    merged["mastodon"] = "https://hcommons.social/@mpe/117616718222634086"
+    merged["bluesky_duplicate"] =
+      "https://bsky.app/profile/eve.gd/post/3n2cfxlxers2q"
+    merged["mastodon_duplicate"] =
+      "https://hcommons.social/@mpe/117616847033447599"
+    bare = thought(id: "20120601090000", date: "2012-06-01T09:00:00+01:00")
+    index = ThoughtsPages.search_index([merged, bare])
+
+    assert_equal "https://bsky.app/profile/eve.gd/post/3n2ce4zj64j2w",
+                 index[0]["b"]
+    assert_equal "https://bsky.app/profile/eve.gd/post/3n2cfxlxers2q",
+                 index[0]["bd"]
+    assert_equal "https://hcommons.social/@mpe/117616847033447599",
+                 index[0]["md"]
+    refute index[1].key?("bd")
+    refute index[1].key?("md")
+  end
+
   def test_search_index_carries_syndication_urls_only_when_present
     syndicated = thought(id: "20120516182000",
                          date: "2012-05-16T18:20:00+01:00")

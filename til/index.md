@@ -48,6 +48,8 @@ feed: /til/feed.atom
                 {% if thought.bluesky %}&middot; <a href="{{ thought.bluesky }}" class="u-syndication" rel="syndication">Bluesky</a>{% endif %}
                 {% if thought.mastodon %}&middot; <a href="{{ thought.mastodon }}" class="u-syndication" rel="syndication">Mastodon</a>{% endif %}
                 {% if thought.twitter %}&middot; <a href="{{ thought.twitter }}" class="u-syndication" rel="syndication">Twitter</a>{% endif %}
+                {% if thought.bluesky_duplicate %}&middot; <a href="{{ thought.bluesky_duplicate }}" class="u-syndication" rel="syndication">Bluesky (duplicate)</a>{% endif %}
+                {% if thought.mastodon_duplicate %}&middot; <a href="{{ thought.mastodon_duplicate }}" class="u-syndication" rel="syndication">Mastodon (duplicate)</a>{% endif %}
             </footer>
         </article>
         {% endfor %}
