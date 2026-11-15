@@ -23,7 +23,8 @@ full deploy.
 Run via `./thought.sh` from the blog root:
 
 - `./thought.sh` — open the composer (Enter posts, Alt+Enter newline,
-  Ctrl+P pastes an image from the clipboard, Ctrl+C cancels).
+  Ctrl+V pastes the clipboard — text at the cursor, or an image when it
+  holds no text — Ctrl+P pastes an image, Ctrl+C cancels).
 - `./thought.sh --image shot.png` — attach an image file (repeatable).
 - `./thought.sh --text "..."` — skip the TUI.
 - `./thought.sh --dry-run --text "..."` — show how it would thread.

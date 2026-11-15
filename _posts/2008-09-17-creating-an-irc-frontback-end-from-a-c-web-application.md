@@ -26,6 +26,7 @@ wordpress_url: http://pro.grammatic.org/post-creating-an-irc-frontbackend-from-a
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmov5lk2a"
 kcworks: https://works.hcommons.org/records/xr32s-jfs42
 biron: https://eprints.bbk.ac.uk/id/eprint/16828/
+smolpub: creating-an-irc-frontback-end-from-a-c-web-application
 references:
 - http://www.yoursite.com/webservice.asmx # Placeholder SOAP web service endpoint in code
 - http://www.yoursite.com/IrcMessage # Placeholder SOAP action URL in code snippet

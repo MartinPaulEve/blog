@@ -15,6 +15,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/gnjev-pjp32
 biron: https://eprints.bbk.ac.uk/id/eprint/50193/
+smolpub: small-publishers-and-subscribe-to-open
 references:
 - date: '2022-08-18'
   title: Say Hello to Anno

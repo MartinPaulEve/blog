@@ -23,6 +23,7 @@ wordpress_url: https://www.martineve.com/2011/11/07/simon-f-davies-open-educatio
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjg47iu2h"
 kcworks: https://works.hcommons.org/records/j84sz-dph80
 biron: https://eprints.bbk.ac.uk/id/eprint/17354/
+smolpub: simon-f-davies-open-educational-resource-on-literary-terms
 references:
 - https://twitter.com/#!/SFD85 # Simon F. Davies Twitter profile
 - http://www.puckrelpublishing.com/literary_terms.html # Davies Literary Terms guide on Puckrel Publishing

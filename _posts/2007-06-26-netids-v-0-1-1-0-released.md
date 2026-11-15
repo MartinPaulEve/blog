@@ -27,6 +27,7 @@ wordpress_url: http://pro.grammatic.org/post-netids-v0110-released-32.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnco7hi2f"
 kcworks: https://works.hcommons.org/records/fv44e-p5k56
 biron: https://eprints.bbk.ac.uk/id/eprint/16806/
+smolpub: netids-v-0-1-1-0-released
 references:
 - http://code.google.com/p/dotnetids/ # dotnetids Google Code project homepage
 ---

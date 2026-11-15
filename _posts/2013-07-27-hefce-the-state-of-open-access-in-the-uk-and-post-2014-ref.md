@@ -24,6 +24,7 @@ wordpress_url: https://www.martineve.com/?p=2769
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mglxwro2e"
 kcworks: https://works.hcommons.org/records/w902m-4nb30
 biron: https://eprints.bbk.ac.uk/id/eprint/17376/
+smolpub: hefce-the-state-of-open-access-in-the-uk-and-post-2014-ref
 references:
 - http://www.hefce.ac.uk/media/hefce/content/pubs/2013/201316/Consultation%20on%20open%20access%20in%20the%20post-2014%20Research%20Excellence%20Framework.pdf # HEFCE consultation PDF on open access post-2014 REF
 ---

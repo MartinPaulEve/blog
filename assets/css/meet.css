@@ -1,0 +1,94 @@
+/* The /meet video-call page: a status box for people without an invite,
+   a one-line invite bar the host sees, and a tall frame for the Jitsi
+   iframe. Uses the site's design tokens so it follows light and dark
+   themes. Linked only from _layouts/meet.html, so it stays out of the
+   PDF cache key's stylesheet set (see _plugins/pdf_pages.rb). */
+
+/* 5rem top clears the fixed site header, as .post-header does. */
+.meet-main {
+    padding: 5rem 0 2rem;
+}
+
+/* The flex/block displays below would otherwise beat the browser's own
+   [hidden] rule, so restate it for the pieces the script toggles. */
+.meet-status[hidden],
+.meet-invite[hidden],
+.meet-frame[hidden] {
+    display: none;
+}
+
+.meet-status {
+    max-width: 40rem;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 8px;
+}
+
+.meet-status h1 {
+    margin-top: 0;
+}
+
+.meet-status p:last-child {
+    margin-bottom: 0;
+}
+
+.meet-invite {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    margin: 0 0 0.75rem;
+    padding: 0.6rem 0.9rem;
+    background: var(--surface-alt);
+    border: 1px solid var(--card-border);
+    border-radius: 8px;
+    font-size: 0.9rem;
+}
+
+.meet-invite-label {
+    color: var(--text-secondary);
+}
+
+.meet-invite-link {
+    flex: 1 1 14rem;
+    min-width: 0;
+    overflow-wrap: anywhere;
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+}
+
+.meet-invite-copy {
+    padding: 0.3rem 0.8rem;
+    font-size: 0.85rem;
+}
+
+.meet-frame {
+    width: 100%;
+    height: calc(100vh - 9rem);
+    min-height: 32rem;
+    background: var(--surface-alt);
+    border: 1px solid var(--card-border);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.meet-frame iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+@media (max-width: 640px) {
+    .meet-main {
+        padding-top: 4.5rem;
+    }
+
+    .meet-frame {
+        height: calc(100vh - 7rem);
+        min-height: 24rem;
+        border-radius: 4px;
+    }
+}

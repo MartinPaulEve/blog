@@ -18,6 +18,7 @@ title: 'Undergraduates, digital humanities, and visualization: looking back on m
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbsrex32p"
 kcworks: https://works.hcommons.org/records/w6dqm-r6x16
 biron: https://eprints.bbk.ac.uk/id/eprint/17016/
+smolpub: looking-back-on-my-early-visualizations-of-gravitys-rainbow
 references:
 - author: Nadine Leese
   date: '2016-02-13'

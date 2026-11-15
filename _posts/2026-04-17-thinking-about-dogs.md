@@ -4,6 +4,7 @@ date: 2026-04-17
 doi: https://doi.org/10.59348/1mp5y-ae341
 kcworks: https://works.hcommons.org/records/d2wby-92d36
 biron: https://eprints.bbk.ac.uk/id/eprint/57246/
+smolpub: thinking-about-dogs
 roguescholar: https://rogue-scholar.org/records/y1fhe-ygd41
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7luwbm5m2i
 image:

@@ -23,6 +23,7 @@ wordpress_url: http://pro.grammatic.org/post-rsnake--jeremiah-grossmans-book-rel
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnpklpl2p"
 kcworks: https://works.hcommons.org/records/g2z7y-f7f28
 biron: https://eprints.bbk.ac.uk/id/eprint/16795/
+smolpub: rsnake-jeremiah-grossmans-book-released
 references:
 - http://www.amazon.com/dp/1597491543 # XSS Attacks book on Amazon
 ---

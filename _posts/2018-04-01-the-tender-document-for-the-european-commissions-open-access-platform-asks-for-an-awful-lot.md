@@ -17,6 +17,7 @@ categories:
 - Publishing Technology
 kcworks: https://works.hcommons.org/records/ekk18-8e641
 biron: https://eprints.bbk.ac.uk/id/eprint/21977/
+smolpub: the-tender-document-for-the-european-commissions-open-access-platform-asks-for-an-awful-lot
 references:
 - https://www.quora.com/Does-Amazon-EC2-have-an-uptime-guarantee-Do-they-have-SLA-Can-it-be-used-for-a-production-environment-for-a-site-that-needs-to-be-up-most-of-the-time # Quora thread on Amazon EC2 uptime guarantee SLA
 ---

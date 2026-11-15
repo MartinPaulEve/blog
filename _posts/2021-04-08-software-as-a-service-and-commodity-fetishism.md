@@ -16,6 +16,7 @@ categories:
 - Philosophy
 kcworks: https://works.hcommons.org/records/k19d9-1ef60
 biron: https://eprints.bbk.ac.uk/id/eprint/43872/
+smolpub: software-as-a-service-and-commodity-fetishism
 references:
 - author: Jon Porter
   date: '2019-09-17'

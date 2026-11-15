@@ -21,6 +21,7 @@ wordpress_url: http://new.martineve.com/?p=9
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlthllc2p"
 kcworks: https://works.hcommons.org/records/jphv1-r1v36
 biron: https://eprints.bbk.ac.uk/id/eprint/16930/
+smolpub: plagiarism-by-semiotexte-translations
 references:
 - title: Grub Street Revisited
   type: WebPage

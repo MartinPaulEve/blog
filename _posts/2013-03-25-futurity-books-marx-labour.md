@@ -25,6 +25,7 @@ wordpress_url: https://www.martineve.com/?p=2637
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgw3gdo2e"
 kcworks: https://works.hcommons.org/records/0z7d6-zqe74
 biron: https://eprints.bbk.ac.uk/id/eprint/17081/
+smolpub: futurity-books-marx-labour
 references:
 - https://www.openlibhums.org # Open Library of the Humanities website
 ---

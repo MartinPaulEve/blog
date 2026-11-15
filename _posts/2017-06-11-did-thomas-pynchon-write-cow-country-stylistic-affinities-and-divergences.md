@@ -13,6 +13,7 @@ categories:
 - Digital Humanities
 kcworks: https://works.hcommons.org/records/3dvxd-8dv22
 biron: https://eprints.bbk.ac.uk/id/eprint/18884/
+smolpub: did-thomas-pynchon-write-cow-country-stylistic-affinities-and-divergences
 references:
 - author: Nate Jones
   date: '2015-09-10'

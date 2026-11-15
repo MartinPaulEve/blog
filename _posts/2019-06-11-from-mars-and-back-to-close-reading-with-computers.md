@@ -15,6 +15,7 @@ categories:
 - Digital Humanities
 kcworks: https://works.hcommons.org/records/96qk6-34y28
 biron: https://eprints.bbk.ac.uk/id/eprint/27784/
+smolpub: from-mars-and-back-to-close-reading-with-computers
 ---
 
 In the acknowledgements to _Close Reading with Computers_, I write:

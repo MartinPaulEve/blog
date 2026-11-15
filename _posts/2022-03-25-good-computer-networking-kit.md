@@ -15,6 +15,7 @@ categories:
 - Technology
 kcworks: https://works.hcommons.org/records/tc93x-r6s93
 biron: https://eprints.bbk.ac.uk/id/eprint/48056/
+smolpub: good-computer-networking-kit
 references:
 - https://www.marvell.com/products/ethernet-adapters-and-controllers/fastlinq-edge-ethernet-controllers.html # Marvell FastLinQ edge Ethernet controllers product page
 ---

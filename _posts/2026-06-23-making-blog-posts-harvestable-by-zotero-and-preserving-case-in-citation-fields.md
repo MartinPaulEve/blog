@@ -4,6 +4,7 @@ date: 2026-06-23
 doi: https://doi.org/10.59348/vrt01-f3b49
 kcworks: https://works.hcommons.org/records/8pgtg-6ta28
 biron: https://eprints.bbk.ac.uk/id/eprint/57592/
+smolpub: making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields
 roguescholar: https://rogue-scholar.org/records/11809-0cg45
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7luqkzkm2a
 image:

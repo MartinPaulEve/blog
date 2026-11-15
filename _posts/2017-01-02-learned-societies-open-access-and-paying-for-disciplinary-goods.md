@@ -16,6 +16,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/hqcb0-2hz87
 biron: https://eprints.bbk.ac.uk/id/eprint/17825/
+smolpub: learned-societies-open-access-and-paying-for-disciplinary-goods
 references:
 - author: Martin Paul Eve
   date: '2016-10-26'

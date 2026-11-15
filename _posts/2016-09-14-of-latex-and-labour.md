@@ -16,6 +16,7 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/6xhrc-6a564
 biron: https://eprints.bbk.ac.uk/id/eprint/17164/
+smolpub: of-latex-and-labour
 references:
 - http://www.danielallington.net/2016/09/the-latex-fetish/ # Daniel Allington blog post the LaTeX fetish
 - date: '2016-05-01'

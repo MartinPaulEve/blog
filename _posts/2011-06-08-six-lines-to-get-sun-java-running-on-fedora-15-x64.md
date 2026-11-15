@@ -46,6 +46,7 @@ wordpress_url: https://www.martineve.com/?p=1146
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkc5pf72p"
 kcworks: https://works.hcommons.org/records/ynzjg-97c91
 biron: https://eprints.bbk.ac.uk/id/eprint/17053/
+smolpub: six-lines-to-get-sun-java-running-on-fedora-15-x64
 references:
 - date: '2010-09-07'
   title: Install Oracle Java 7u79/80 on Fedora 24/23, CentOS/RHEL 7.2/6.8/5.11

@@ -14,6 +14,7 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/cg8fm-wwm50
 biron: https://eprints.bbk.ac.uk/id/eprint/17359/
+smolpub: hypothesis-v0814-error-oserror-errno-2-no-such-file-or-directory
 ---
 
 If you are attempting to build the dev setup for hypothes.is v0.8.14 and are receiving the error "OSError: [Errno 2] No such file or directory" whenever you request pages on the dev site, you need to install compass.

@@ -59,6 +59,7 @@ wordpress_url: https://www.martineve.com/?p=1449
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjyu33j2o"
 kcworks: https://works.hcommons.org/records/sgw8b-kpv21
 biron: https://eprints.bbk.ac.uk/id/eprint/17510/
+smolpub: installing-zotero-on-ubuntu-oneiric-11-10beta
 references:
 - http://archive.canonical.com/ubuntu # Canonical Ubuntu package archive
 - title: 'Firefox: The fast, private browser that keeps you safe'

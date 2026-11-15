@@ -24,6 +24,7 @@ wordpress_url: https://www.martineve.com/?p=2496
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhmrfsd2h"
 kcworks: https://works.hcommons.org/records/gzy38-tje87
 biron: https://eprints.bbk.ac.uk/id/eprint/17310/
+smolpub: on-orcid-accreditation-structures-and-altmetrics
 references:
 - title: ORCID
   type: WebPage

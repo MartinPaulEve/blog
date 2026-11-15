@@ -4,6 +4,7 @@ date: '2026-07-10'
 doi: https://doi.org/10.59348/r3x69-k5d70
 kcworks: https://works.hcommons.org/records/a4vce-d3a56
 biron: https://eprints.bbk.ac.uk/id/eprint/57720/
+smolpub: investigating-atproto-here-and-for-knowledge-commons
 roguescholar: https://rogue-scholar.org/records/5jfay-xjh33
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mqcjjtkq4c2e
 image:

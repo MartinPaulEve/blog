@@ -15,6 +15,7 @@ categories:
 - Thomas Pynchon
 kcworks: https://works.hcommons.org/records/zzprm-nvb80
 biron: https://eprints.bbk.ac.uk/id/eprint/45488/
+smolpub: thomas-pynchon-from-s-gerat-to-y-gerat
 references:
 - author: Contributors to Wikimedia projects
   date: '2003-03-06'

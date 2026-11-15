@@ -14,6 +14,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/2y7dd-neb06
 biron: https://eprints.bbk.ac.uk/id/eprint/42711/
+smolpub: the-open-library-of-humanities-and-brexit-vat-position
 ---
 
 This morning I had to have a call with our accountants that I was somewhat dreading: does Brexit have tax implications for the Open Library of Humanities, a company limited by guarantee with charitable objects (a UK charity)?

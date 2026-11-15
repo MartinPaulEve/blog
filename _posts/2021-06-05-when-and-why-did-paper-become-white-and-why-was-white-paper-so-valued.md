@@ -15,6 +15,7 @@ categories:
 - Literature
 kcworks: https://works.hcommons.org/records/zc28w-z7p15
 biron: https://eprints.bbk.ac.uk/id/eprint/44609/
+smolpub: when-and-why-did-paper-become-white-and-why-was-white-paper-so-valued
 references:
 - https://eprints.bbk.ac.uk/id/eprint/31744/ # Eve, Paper Thin, Birkbeck repository eprint
 - https://www.umasspress.com/9781625344748/the-intimacy-of-paper-in-early-and-nineteenth-century-american-literature/ # Barber, The Intimacy of Paper in American Literature

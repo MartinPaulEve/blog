@@ -25,6 +25,7 @@ wordpress_url: https://www.martineve.com/?p=1645
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjem7ik2u"
 kcworks: https://works.hcommons.org/records/9pa75-k1v16
 biron: https://eprints.bbk.ac.uk/id/eprint/17116/
+smolpub: forthcoming-workshops-academic-websites-protecting-your-assets
 references:
 - title: Scheduled RDP workshops and events
   type: WebPage

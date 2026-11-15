@@ -16,6 +16,7 @@ categories:
 - Literature
 kcworks: https://works.hcommons.org/records/rw7tr-cpd34
 biron: https://eprints.bbk.ac.uk/id/eprint/45379/
+smolpub: notes-on-nicholas-gaskills-chromographia-american-literature-and-the-modernization-of-color
 references:
 - author: Martin Paul Eve
   date: '2021-08-03'

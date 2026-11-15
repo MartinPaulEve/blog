@@ -14,6 +14,7 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/6s9c6-tk289
 biron: https://eprints.bbk.ac.uk/id/eprint/46088/
+smolpub: why-lower-tier-journals-might-contain-better-work
 ---
 
 I was reflecting this morning on the following propositions:

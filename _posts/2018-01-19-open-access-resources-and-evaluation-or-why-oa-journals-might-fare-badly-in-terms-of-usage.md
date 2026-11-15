@@ -16,6 +16,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/xz6sn-k7y07
 biron: https://eprints.bbk.ac.uk/id/eprint/20898/
+smolpub: open-access-resources-and-evaluation-or-why-oa-journals-might-fare-badly-in-terms-of-usage
 references:
 - author: Bill McKibben
   date: '2017-08-08'

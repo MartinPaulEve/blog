@@ -16,6 +16,7 @@ categories:
 - Literature
 kcworks: https://works.hcommons.org/records/dvqnz-7bd66
 biron: https://eprints.bbk.ac.uk/id/eprint/17145/
+smolpub: my-new-book-literature-against-criticism-is-published-today
 references:
 - http://eprints.bbk.ac.uk/id/document/29014 # Literature Against Criticism free PDF download Birkbeck
 - author: Martin Paul Eve

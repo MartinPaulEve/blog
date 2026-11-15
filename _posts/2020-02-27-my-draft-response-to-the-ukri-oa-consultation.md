@@ -15,6 +15,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/tnkgh-nms44
 biron: https://eprints.bbk.ac.uk/id/eprint/31100/
+smolpub: my-draft-response-to-the-ukri-oa-consultation
 references:
 - https://www.universitiesuk.ac.uk/policy-and-analysis/reports/Documents/2019/Fullstopp-Final-October-2019.pdf # UUK Fullstopp report 2019
 - https://doi.org/10.1629/uksg.392 # Insights UKSG article on REF and OA

@@ -17,6 +17,7 @@ categories:
 - Conferences
 kcworks: https://works.hcommons.org/records/1s4g9-4xz76
 biron: https://eprints.bbk.ac.uk/id/eprint/57913/
+smolpub: ai-and-open-cultural-licensing-remarks-to-be-presented-at-the-sharp-plenary-roundtable-ai-in-the-communications-circuit
 ---
 
 Some remarks that will be presented at the SHARP plenary roundtable: AI in the Communications Circuit.

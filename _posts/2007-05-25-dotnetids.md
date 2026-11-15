@@ -26,6 +26,7 @@ wordpress_url: http://pro.grammatic.org/post-dotnetids-24.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mngur3c2q"
 kcworks: https://works.hcommons.org/records/2m0dy-6sm18
 biron: https://eprints.bbk.ac.uk/id/eprint/16799/
+smolpub: dotnetids
 references:
 - http://code.google.com/p/dotnetids/ # dotnetids Google Code project homepage
 ---

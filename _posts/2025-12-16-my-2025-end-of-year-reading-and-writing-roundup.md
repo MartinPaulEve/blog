@@ -19,6 +19,7 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/847jf-9hr48
 biron: https://eprints.bbk.ac.uk/id/eprint/56706/
+smolpub: my-2025-end-of-year-reading-and-writing-roundup
 references:
 - title: Knowledge Commons
   type: WebSite

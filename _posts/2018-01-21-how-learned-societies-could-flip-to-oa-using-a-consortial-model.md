@@ -15,6 +15,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/jzg9n-3hy72
 biron: https://eprints.bbk.ac.uk/id/eprint/20953/
+smolpub: how-learned-societies-could-flip-to-oa-using-a-consortial-model
 ---
 
 Let's assume that we have a Learned Society that fulfills the following conditions:

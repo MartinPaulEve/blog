@@ -15,6 +15,7 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/xehv9-qfy44
 biron: https://eprints.bbk.ac.uk/id/eprint/52890/
+smolpub: connecting-to-aws-opensearch-serverless-using-python
 references:
 - title: Low-level Python client
   type: TechArticle

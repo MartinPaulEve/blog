@@ -80,6 +80,7 @@ wordpress_url: https://www.martineve.com/?p=924
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkhkmlj2e"
 kcworks: https://works.hcommons.org/records/1qg49-sj831
 biron: https://eprints.bbk.ac.uk/id/eprint/17001/
+smolpub: installing-zotero-on-ubuntu-natty-11-04beta
 references:
 - http://archive.canonical.com/ubuntu # Canonical Ubuntu archive repository
 - title: Zotero

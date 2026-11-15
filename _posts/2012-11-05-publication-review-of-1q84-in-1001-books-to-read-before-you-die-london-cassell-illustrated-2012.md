@@ -24,6 +24,7 @@ wordpress_url: https://www.martineve.com/?p=2478
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhn3gur2i"
 kcworks: https://works.hcommons.org/records/bz4nm-9jt92
 biron: https://eprints.bbk.ac.uk/id/eprint/17241/
+smolpub: publication-review-of-1q84-in-1001-books-to-read-before-you-die-london-cassell-illustrated-2012
 references:
 - author: Peter Boxall
   title: 1001 Books You Must Read Before You Die

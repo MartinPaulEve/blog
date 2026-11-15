@@ -13,7 +13,9 @@ _asset_bundler_cache
 # Generated Open Graph image cache (regenerated locally; served copies live in _site)
 .og_cache/
 
-.sequoia-state.json
+# .sequoia-state.json (what Sequoia has published to ATProto) is tracked on
+# purpose: the remote build host publishes from a fresh checkout and must
+# know what is already live, and its updates come back with the deploy commit.
 
 # Local accessibility worklist — deliberately never committed
 ACCESSIBILITY.md
@@ -38,3 +40,11 @@ _lastfm/fetch_error.json
 
 # thoughts DB backups (kept local only)
 .thoughts-backup-*.yml
+
+# Generated gemtext edition (pushed to smol.pub by _smolpub/sync_smolpub.py)
+_smolpub/out/
+
+# JaaS / Jitsi private key for ./meet.sh (never commit a key)
+*.pem
+*.key
+*.pk

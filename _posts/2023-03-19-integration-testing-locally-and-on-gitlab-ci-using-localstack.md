@@ -15,6 +15,7 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/4vxgp-gfh77
 biron: https://eprints.bbk.ac.uk/id/eprint/51190/
+smolpub: integration-testing-locally-and-on-gitlab-ci-using-localstack
 references:
 - https://pypi.org/project/pytest-localstack/ # pytest-localstack PyPI package
 - title: aws_utils.py

@@ -15,6 +15,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/6e2f7-axg10
 biron: https://eprints.bbk.ac.uk/id/eprint/42518/
+smolpub: on-the-costs-of-scholarly-communications-and-the-discourse-of-fairness
 references:
 - author: William Davies
   date: '2016-11-26'

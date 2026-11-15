@@ -15,6 +15,7 @@ categories:
 - Conferences
 kcworks: https://works.hcommons.org/records/kvfxb-6x084
 biron: https://eprints.bbk.ac.uk/id/eprint/43870/
+smolpub: questions-and-answers-from-uksg-on-opening-the-future
 ---
 
 <b>Do you think that the Subscribe-To-Open model could be applied to new academic presses who have no backlist?</b>

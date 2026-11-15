@@ -24,6 +24,7 @@ wordpress_url: https://www.martineve.com/?p=2923
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mfvgrn52p"
 kcworks: https://works.hcommons.org/records/xbpej-jd825
 biron: https://eprints.bbk.ac.uk/id/eprint/17064/
+smolpub: some-diagrams-of-jennifer-egan-novels
 references:
 - title: 'Literature Off the Page: The Cultural and Political Work of American Writing'
   type: WebSite

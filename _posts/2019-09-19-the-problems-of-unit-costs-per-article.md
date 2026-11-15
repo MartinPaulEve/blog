@@ -15,6 +15,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/h5cm7-mk428
 biron: https://eprints.bbk.ac.uk/id/eprint/29032/
+smolpub: the-problems-of-unit-costs-per-article
 references:
 - https://doi.org/10.3998/3336451.0021.101 # Pinter landscape study on monograph costs
 - author: Rupert Gatti

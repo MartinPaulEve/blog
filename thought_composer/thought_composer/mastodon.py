@@ -6,6 +6,12 @@ import requests
 
 BASE_URL = "https://hcommons.social"
 PROCESSING_POLLS = 30
+# A media upload is the one large transfer here, and a lossy link (a
+# tethered phone, say) can corrupt a TLS record mid-way — surfacing as an
+# SSLError "bad record mac", a ConnectionError. Those are worth a few
+# retries; a rejected upload (an HTTP error) is not.
+UPLOAD_ATTEMPTS = 3
+UPLOAD_RETRY_DELAY = 2.0
 
 
 class MastodonError(RuntimeError):
@@ -50,13 +56,26 @@ class MastodonClient:
         return data["acct"]
 
     def upload_media(self, data: bytes, mime: str, alt: str = "") -> str:
-        """Upload one attachment; return its media id once processed."""
-        response = self._session.post(
-            f"{self.base_url}/api/v2/media",
-            headers=self._headers,
-            files={"file": ("attachment", data, mime)},
-            data={"description": alt},
-        )
+        """Upload one attachment; return its media id once processed.
+
+        Connection-level failures (SSL errors, resets, timeouts) are
+        retried a bounded number of times; the server's answer, once it
+        arrives, is taken as final.
+        """
+        for attempt in range(1, UPLOAD_ATTEMPTS + 1):
+            try:
+                response = self._session.post(
+                    f"{self.base_url}/api/v2/media",
+                    headers=self._headers,
+                    files={"file": ("attachment", data, mime)},
+                    data={"description": alt},
+                )
+                break
+            except (requests.exceptions.ConnectionError,
+                    requests.exceptions.Timeout):
+                if attempt == UPLOAD_ATTEMPTS:
+                    raise
+                self._sleep(UPLOAD_RETRY_DELAY * attempt)
         if response.status_code == 202:
             media_id = response.json()["id"]
             for _ in range(PROCESSING_POLLS):

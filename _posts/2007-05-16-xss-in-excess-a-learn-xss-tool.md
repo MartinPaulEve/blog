@@ -24,6 +24,7 @@ wordpress_url: http://pro.grammatic.org/post-xss-in-excess-a-learnxss-tool-14.as
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnrk2we2s"
 kcworks: https://works.hcommons.org/records/60fys-daz74
 biron: https://eprints.bbk.ac.uk/id/eprint/16790/
+smolpub: xss-in-excess-a-learn-xss-tool
 references:
 - http://wasjournal.blogspot.com/2007/05/xss-in-excess.html # kishord WAS Journal post on XSS in eXceSS tool
 - http://mario.heideri.ch/ # .mario's security blog

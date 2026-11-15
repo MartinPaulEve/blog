@@ -15,6 +15,7 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/5g9qg-bx340
 biron: https://eprints.bbk.ac.uk/id/eprint/17132/
+smolpub: continuing-javascript-execution-after-total-dom-body-replacement-using-dom-mutation-observers
 ---
 
 As part of the translation platform we're building, I needed to implement the following workflow:

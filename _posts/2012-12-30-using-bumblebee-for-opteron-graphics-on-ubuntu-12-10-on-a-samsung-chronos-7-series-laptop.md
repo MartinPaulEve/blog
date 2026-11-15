@@ -24,6 +24,7 @@ wordpress_url: https://www.martineve.com/?p=2563
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mh7ece32h"
 kcworks: https://works.hcommons.org/records/7cvwm-85s65
 biron: https://eprints.bbk.ac.uk/id/eprint/17110/
+smolpub: using-bumblebee-for-opteron-graphics-on-ubuntu-12-10-on-a-samsung-chronos-7-series-laptop
 references:
 - title: Troubleshooting
   type: WebPage

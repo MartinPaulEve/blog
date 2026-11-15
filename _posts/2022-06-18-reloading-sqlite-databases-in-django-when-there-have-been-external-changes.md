@@ -14,6 +14,7 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/r8556-wvx34
 biron: https://eprints.bbk.ac.uk/id/eprint/48851/
+smolpub: reloading-sqlite-databases-in-django-when-there-have-been-external-changes
 ---
 
 My backup application, django-caretaker, has to reload the SQLite database after it has run the import procedure. Basically, we're using an external tool to recreate (delete and replace) the original SQL file on disk. But Django won't always reload this.

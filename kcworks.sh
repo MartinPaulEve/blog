@@ -1,36 +1,39 @@
 #!/usr/bin/env bash
 #
 # kcworks.sh — driver for KC Works deposits of blog posts (wraps the
-# kcworks_uploader app). Run after a real deploy so the attached PDF is the
-# final built edition. Commands:
+# kcworks_uploader app, which uses KC Works' streamlined import API: one
+# request creates, publishes and collects a work with its files). Run
+# after a real deploy so the attached PDF is the final built edition.
+# Commands:
 #
 #   ./kcworks.sh dry-run _posts/YYYY-MM-DD-slug.md    # record JSON, no network
-#   ./kcworks.sh deposit _posts/YYYY-MM-DD-slug.md    # draft (the default)
-#   ./kcworks.sh deposit --live _posts/YYYY-MM-DD-slug.md   # publish now
-#   ./kcworks.sh publish <uploads-url-or-record-id>   # publish a draft
+#   ./kcworks.sh deposit _posts/YYYY-MM-DD-slug.md    # import, publish, stamp
 #   ./kcworks.sh update --dry-run                     # list stale deposits
-#   ./kcworks.sh update                               # new versions for them
+#   ./kcworks.sh update                               # re-import them
 #   ./kcworks.sh backfill --dry-run                   # list posts not deposited
-#   ./kcworks.sh backfill                             # deposit+publish them all
+#   ./kcworks.sh backfill                             # deposit them all
+#   ./kcworks.sh publish <uploads-url-or-record-id>   # publish a hand-made draft
 #   ./kcworks.sh collection create --title "..."      # one-time: make it
 #   ./kcworks.sh collection backfill                  # deposits -> collection
 #   ./kcworks.sh collection logo <image>              # set collection icon
 #
-# Published records land in the collection named by kcworks_collection in
-# _config.yml (opt out per run with --no-collection).
+# Deposits are imported straight into the collection named by
+# kcworks_collection in _config.yml (override per run with --collection);
+# there is no draft stage, so a deposit is live when the command returns.
 #
 # Other kcworks-upload flags (--no-doi, --pdf PATH, --base-url URL, --token)
-# pass straight through. deposit and publish need $KCWORKS_API_TOKEN (or
-# --token); dry-run does not.
+# pass straight through. Everything but dry-run needs $KCWORKS_API_TOKEN
+# (or --token), and the token's user must curate the collection.
 #
-# deposit --live and backfill stamp the published record URL into the post's
-# front matter automatically:
+# deposit, backfill and update stamp the published record URL into the
+# post's front matter automatically:
 #
 #     kcworks: https://works.hcommons.org/records/<id>
 #
-# After `publish` (which takes a record id, not a post path), add that line
-# by hand. The signposting plugin emits it as archivedAt in the post's
-# metadata.json, linking the blog and repository records in both directions.
+# After `publish` (which takes a record id, not a post path), add that
+# line by hand. The signposting plugin emits it as archivedAt in the
+# post's metadata.json, linking the blog and repository records in both
+# directions.
 
 cd "$(dirname "$0")"
 

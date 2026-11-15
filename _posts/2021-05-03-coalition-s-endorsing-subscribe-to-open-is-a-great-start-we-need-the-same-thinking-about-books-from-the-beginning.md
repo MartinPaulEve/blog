@@ -16,6 +16,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/tpm86-pyc67
 biron: https://eprints.bbk.ac.uk/id/eprint/44081/
+smolpub: coalition-s-endorsing-subscribe-to-open-is-a-great-start-we-need-the-same-thinking-about-books-from-the-beginning
 references:
 - title: cOAlition S endorses the Subscribe to Open (S2O) model of funding open access
   type: WebPage

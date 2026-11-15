@@ -17,6 +17,7 @@ categories:
 - Artificial Intelligence
 kcworks: https://works.hcommons.org/records/xwjge-jf129
 biron: https://eprints.bbk.ac.uk/id/eprint/57916/
+smolpub: rage-against-the-machine-the-politics-of-open-access-large-language-models-and-the-reaction-against-open
 references:
 - https://doi.org/10.4000/rfsic.3220 # Moore, genealogy of open access, RFSIC 2017
 - author: Tim Sherratt

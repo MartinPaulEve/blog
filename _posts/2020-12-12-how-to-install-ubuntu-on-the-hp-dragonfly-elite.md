@@ -15,6 +15,7 @@ categories:
 - Linux
 kcworks: https://works.hcommons.org/records/0g0zg-3zz18
 biron: https://eprints.bbk.ac.uk/id/eprint/42103/
+smolpub: how-to-install-ubuntu-on-the-hp-dragonfly-elite
 references:
 - author: Jim Salter
   date: '2020-01-27'

@@ -265,6 +265,12 @@
     margin: 0;
 }
 
+/* Multi-paragraph quotations keep a gap between their paragraphs; the
+   zeroed margin above is for the quote's edges, not its interior. */
+.post-body blockquote p + p {
+    margin-top: 1rem;
+}
+
 /* Tables.
    Header row uses a fixed near-black band in both themes to match the site's
    signature black bands; body cells follow the theme variables. */

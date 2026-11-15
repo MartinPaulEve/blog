@@ -15,6 +15,7 @@ categories:
 - Artificial Intelligence
 kcworks: https://works.hcommons.org/records/xvs3p-0qh26
 biron: https://eprints.bbk.ac.uk/id/eprint/22976/
+smolpub: the-real-ethics-of-ai-are-about-the-labour-underpinning-it
 references:
 - author: Safiya Umoja Noble
   title: Algorithms of Oppression

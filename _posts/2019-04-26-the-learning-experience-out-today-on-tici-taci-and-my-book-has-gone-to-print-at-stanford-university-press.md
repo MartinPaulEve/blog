@@ -17,6 +17,7 @@ categories:
 - Publications
 kcworks: https://works.hcommons.org/records/4k8rt-nqj10
 biron: https://eprints.bbk.ac.uk/id/eprint/57907/
+smolpub: the-learning-experience-out-today-on-tici-taci-and-my-book-has-gone-to-print-at-stanford-university-press
 references:
 - https://www.junodownload.com/products/marti…ce/4112383-02/ # The Learning Experience release on Juno Download
 - title: Martin Eve - The Learning Experience

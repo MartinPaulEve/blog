@@ -21,6 +21,7 @@ wordpress_url: http://new.martineve.com/?p=13
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mltrxfm2i"
 kcworks: https://works.hcommons.org/records/dvbs1-fdf09
 biron: https://eprints.bbk.ac.uk/id/eprint/16909/
+smolpub: international-pynchon-week-2010-day-3
 ---
 
 <p>          <b>09:00-10:30 Session IX&nbsp; chair: Sascha P&ouml;hlmann

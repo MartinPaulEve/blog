@@ -25,6 +25,7 @@ wordpress_url: https://www.martineve.com/?p=1222
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk7pjfs2a"
 kcworks: https://works.hcommons.org/records/6y102-65c26
 biron: https://eprints.bbk.ac.uk/id/eprint/16971/
+smolpub: enslavement-conference-portsmouth-17th-june-2011
 references:
 - date: '2004-09-28'
   title: Zong Massacre

@@ -25,6 +25,7 @@ wordpress_url: https://eve.gd/?p=2189
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mib7bqa2o"
 kcworks: https://works.hcommons.org/records/9yne3-3ae47
 biron: https://eprints.bbk.ac.uk/id/eprint/16981/
+smolpub: starting-an-open-access-journal-a-step-by-step-guide-part-2
 references:
 - title: OJS User Guide
   type: TechArticle

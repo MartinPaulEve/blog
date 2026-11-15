@@ -15,6 +15,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/ejtbm-gwd26
 biron: https://eprints.bbk.ac.uk/id/eprint/25879/
+smolpub: comments-on-the-interim-royal-historical-society-response-to-plan-s
 references:
 - http://openlibhums.org # Open Library of Humanities website
 - title: Open Research

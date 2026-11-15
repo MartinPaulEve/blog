@@ -15,6 +15,7 @@ categories:
 - Literature
 kcworks: https://works.hcommons.org/records/gh4f2-5sr82
 biron: https://eprints.bbk.ac.uk/id/eprint/47188/
+smolpub: ancient-west
 references:
 - https://doi.org/10.2307/20538565 # JSTOR article on novel in antiquity
 ---

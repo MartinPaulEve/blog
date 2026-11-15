@@ -16,6 +16,7 @@ categories:
 - Conferences
 kcworks: https://works.hcommons.org/records/76knm-kyf77
 biron: https://eprints.bbk.ac.uk/id/eprint/57912/
+smolpub: begin-at-the-beginning-the-king-said-very-gravely-serious-openings-and-subversive-epigraphs-in-the-novels-of-thomas-pynchon
 ---
 
 People often think that reading a novel is a very linear activity. You start at the start and proceed through the text. As in most media forms, though, the beginning of any novel is really not truly its beginning.

@@ -24,6 +24,7 @@ wordpress_url: https://www.martineve.com/?p=2708
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgqn37h2i"
 kcworks: https://works.hcommons.org/records/ye0p6-rdg72
 biron: https://eprints.bbk.ac.uk/id/eprint/17265/
+smolpub: fixing-mpd-segfault-on-ubuntu-12-10-on-arm-devices-mele-pandaboard-etc
 references:
 - title: 'Bug #989846 "libmad causes mpd to seg fault on update"'
   type: WebPage

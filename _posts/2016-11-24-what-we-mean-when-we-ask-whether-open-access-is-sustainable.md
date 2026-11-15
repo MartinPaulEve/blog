@@ -14,6 +14,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/2sd09-fss41
 biron: https://eprints.bbk.ac.uk/id/eprint/17539/
+smolpub: what-we-mean-when-we-ask-whether-open-access-is-sustainable
 ---
 
 The most frequent question that is asked in scholarly communication circles about gold open access is whether a business model is sustainable and/or scalable.

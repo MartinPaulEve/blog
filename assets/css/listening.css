@@ -1,0 +1,120 @@
+/* The /listening/ play log (_data/listening.json): the rows of tracks
+   under each day heading. The page chrome (search box, month nav, month
+   title, "show more") comes from thoughts.css. Deliberately OUTSIDE the
+   PDF-hashed stylesheet set (blog-post.css, styles.css): the log changes
+   on every deploy — see _plugins/pdf_pages.rb. */
+
+.listening-day {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin: 1.5rem 0 0.5rem;
+    scroll-margin-top: 5rem;
+}
+
+/* Doubled selector: the page layout indents every list in the body
+   (.post-body ol), and these rows carry their own frame instead. */
+.listening-plays,
+.post-body .listening-plays {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-primary);
+    border: 1px solid var(--border-color, #d9d4cc);
+    border-radius: 1rem;
+    box-shadow: var(--shadow-sm);
+}
+
+.play {
+    display: flex;
+    gap: 1rem;
+    align-items: baseline;
+    padding: 0.6rem 1.25rem;
+    border-top: 1px solid var(--border-color, #d9d4cc);
+    scroll-margin-top: 5rem;
+}
+
+.play:first-child {
+    border-top: 0;
+}
+
+.play:target {
+    box-shadow: inset 3px 0 0 var(--accent-secondary);
+}
+
+.play-time {
+    flex: 0 0 3.2rem;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-decoration: none;
+}
+
+.play-time:hover {
+    color: var(--accent-secondary);
+    text-decoration: underline;
+}
+
+/* Search results are not under a day heading, so their time carries the
+   date too and gets the room for it. */
+.play-time.play-time-full {
+    flex-basis: 10rem;
+}
+
+.play-what {
+    flex: 1 1 auto;
+    min-width: 0;
+    overflow-wrap: break-word;
+}
+
+.play-track {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.play-track:hover {
+    color: var(--accent-secondary);
+    text-decoration: underline;
+}
+
+.play-artist,
+.play-album {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+.play-artist a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.play-artist a:hover {
+    color: var(--accent-secondary);
+}
+
+.play-count {
+    display: inline-block;
+    margin-left: 0.35rem;
+    padding: 0 0.4rem;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: var(--text-secondary);
+    border: 1px solid var(--border-color, #d9d4cc);
+    border-radius: 999px;
+    vertical-align: 0.1em;
+}
+
+@media (max-width: 40rem) {
+    .play {
+        flex-direction: column;
+        gap: 0.1rem;
+    }
+
+    .play-time,
+    .play-time.play-time-full {
+        flex-basis: auto;
+    }
+}

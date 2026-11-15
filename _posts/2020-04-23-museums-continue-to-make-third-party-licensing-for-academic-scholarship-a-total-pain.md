@@ -17,6 +17,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/y51kv-pbq33
 biron: https://eprints.bbk.ac.uk/id/eprint/31731/
+smolpub: museums-continue-to-make-third-party-licensing-for-academic-scholarship-a-total-pain
 references:
 - https://unsplash.com/photos/Fj9CrYkxlqM # Brett Jordan Unsplash photo
 ---

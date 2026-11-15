@@ -17,6 +17,7 @@ title: My response to the HE Green Paper
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbv3qwe2t"
 kcworks: https://works.hcommons.org/records/wgjfh-hv377
 biron: https://eprints.bbk.ac.uk/id/eprint/17352/
+smolpub: my-response-to-the-he-green-paper
 references:
 - title: Chooser
   type: WebPage

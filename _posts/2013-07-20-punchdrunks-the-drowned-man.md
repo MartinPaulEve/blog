@@ -21,6 +21,7 @@ wordpress_url: https://www.martineve.com/?p=2757
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgmjzuc2a"
 kcworks: https://works.hcommons.org/records/317cj-dar86
 biron: https://eprints.bbk.ac.uk/id/eprint/17056/
+smolpub: punchdrunks-the-drowned-man
 references:
 - date: '2013-07-16'
   title: 'Punchdrunk: The Drowned Man'

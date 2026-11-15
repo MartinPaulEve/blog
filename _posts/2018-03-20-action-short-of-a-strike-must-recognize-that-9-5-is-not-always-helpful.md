@@ -12,6 +12,7 @@ categories:
 - Higher Education
 kcworks: https://works.hcommons.org/records/638qn-ra769
 biron: https://eprints.bbk.ac.uk/id/eprint/21770/
+smolpub: action-short-of-a-strike-must-recognize-that-9-5-is-not-always-helpful
 references:
 - date: '2018-03-19'
   title: Uni of Kent UCU (@UoK_UCU) on X

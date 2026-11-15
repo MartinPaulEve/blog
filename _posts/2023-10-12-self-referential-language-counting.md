@@ -16,6 +16,7 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/egfm6-xwj29
 biron: https://eprints.bbk.ac.uk/id/eprint/52889/
+smolpub: self-referential-language-counting
 references:
 - title: '2839: Language Acquisition'
   type: WebPage

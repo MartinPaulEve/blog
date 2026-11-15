@@ -15,6 +15,7 @@ title: A world reimagined without the university
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mbqtem42r"
 kcworks: https://works.hcommons.org/records/91tc7-2sh70
 biron: https://eprints.bbk.ac.uk/id/eprint/17424/
+smolpub: rethinking
 ---
 
 I'm at a workshop in Madrid organized by FORCE11. The first exercise was to imagine a world where universities did not exist, their hierarchies and power were abolished, but we still knew what we know. What would we build?

@@ -14,6 +14,7 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/09qxk-hf796
 biron: https://eprints.bbk.ac.uk/id/eprint/56849/
+smolpub: wordpress-loading-theme-assets-of-a-different-theme-to-that-selected
 ---
 
 Today's tech anomaly was odd. I'm working on a new WordPress theme and obviously WordPress has to load its assets like the CSS file and the JavaScript file. I just added some new code to the home page template and suddenly my CSS was not loading. In fact it was pointing to the next theme in the list, Blockbase, and loading its CSS. Nothing I could do with caching resolved this in the slightest.

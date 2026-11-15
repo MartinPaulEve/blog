@@ -26,6 +26,7 @@ wordpress_url: https://www.martineve.com/?p=3139
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mf2f3ie2p"
 kcworks: https://works.hcommons.org/records/97c82-xkx16
 biron: https://eprints.bbk.ac.uk/id/eprint/17030/
+smolpub: typesetting-jats-bibliographies-using-csl-and-zotero
 references:
 - title: 'GitHub - MartinPaulEve/meCite: meCite is a modular, extensible, regular-expression-based citation parsing library'
   type: SoftwareSourceCode

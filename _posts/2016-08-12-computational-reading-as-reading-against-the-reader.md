@@ -13,6 +13,7 @@ categories:
 - Literature
 kcworks: https://works.hcommons.org/records/xmqg1-4g578
 biron: https://eprints.bbk.ac.uk/id/eprint/16994/
+smolpub: computational-reading-as-reading-against-the-reader
 references:
 - https://twitter.com/Ted_Underwood/status/756135378742943744 # Ted Underwood tweet on computational reading challenge
 ---

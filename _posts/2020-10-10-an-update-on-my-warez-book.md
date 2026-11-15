@@ -16,6 +16,7 @@ categories:
 - Piracy and Shadow Libraries
 kcworks: https://works.hcommons.org/records/g2qwk-k9s78
 biron: https://eprints.bbk.ac.uk/id/eprint/40993/
+smolpub: an-update-on-my-warez-book
 references:
 - https://doi.org/10.1111/criq.12359 # Eve, Digitizator writing labour computers Critical Quarterly 2017
 - https://unsplash.com/photos/1PtM6b85sdw # Ahmed Adly Unsplash photo

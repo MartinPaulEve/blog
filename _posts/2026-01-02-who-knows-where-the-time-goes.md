@@ -19,6 +19,7 @@ categories:
 - Personal
 kcworks: https://works.hcommons.org/records/xmte5-4sp15
 biron: https://eprints.bbk.ac.uk/id/eprint/57920/
+smolpub: who-knows-where-the-time-goes
 ---
 
 How much time do you spend performing various activities? In 2022, I spent 506 hours answering email, or 63 full work-day's worth of time. At that point, my reading for pleasure had dropped to virtually nil and I just thought: this is not how I want to spend my time. After a radical reorganization of my life and work, I wanted to see how well I have done this year.

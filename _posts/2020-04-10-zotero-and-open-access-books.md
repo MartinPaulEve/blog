@@ -15,6 +15,7 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/9q7z5-30v21
 biron: https://eprints.bbk.ac.uk/id/eprint/31631/
+smolpub: zotero-and-open-access-books
 ---
 
 This bank holiday, I wanted to spend some time playing around with Zotero's automatic ingest of open access books. There are some problems with this.

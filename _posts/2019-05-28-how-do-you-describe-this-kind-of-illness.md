@@ -15,6 +15,7 @@ categories:
 - Personal
 kcworks: https://works.hcommons.org/records/z0v1e-60f34
 biron: https://eprints.bbk.ac.uk/id/eprint/27674/
+smolpub: how-do-you-describe-this-kind-of-illness
 ---
 
 The autoimmune conditions from which I suffer are a total pain to describe under the general frameworks within which most people understand illness.

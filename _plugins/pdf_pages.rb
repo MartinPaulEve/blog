@@ -62,6 +62,9 @@ module PdfPages
   # print-invisible in the same way, as are the site header with its nav
   # (print CSS sets .header to display:none) and the site footer (.footer
   # likewise), so navigation and footer link changes don't re-render either.
+  # The per-paragraph anchor links (_plugins/paragraph_anchors.rb) are
+  # display:none in print, so their markup, their generated ids and their
+  # stylesheet/script tags are normalised away as well.
   def self.normalize_html(html)
     html.to_s
         .gsub(/\?v=[0-9a-f]+/, "")
@@ -71,6 +74,10 @@ module PdfPages
         .gsub(%r{[ \t]*<link rel="(?:webmention|pingback|me|human-json)"[^>]*>\n?}, "")
         .gsub(%r{[ \t]*<link rel="alternate" type="application/activity\+json"[^>]*>\n?}, "")
         .gsub(%r{[ \t]*<link rel="stylesheet" href="/assets/css/webmentions\.css[^>]*>\n?}, "")
+        .gsub(%r{[ \t]*<link rel="stylesheet" href="/assets/css/anchors\.css[^>]*>\n?}, "")
+        .gsub(%r{[ \t]*<script src="/assets/js/anchors\.js[^>]*></script>\n?}, "")
+        .gsub(%r{<a class="anchor-link" href="#[^"]*"[^>]*></a>}, "")
+        .gsub(/ id="[ph]-[0-9a-f]{10}(?:-\d+)?"/, "")
         .gsub(%r{\n*[ \t]*<section class="post-webmentions">.*?</section>\n*}m, "\n")
         .gsub(%r{<header class="header">.*?</header>}m, "")
         .gsub(%r{<footer class="footer">.*?</footer>}m, "")

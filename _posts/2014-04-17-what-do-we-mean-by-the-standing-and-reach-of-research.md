@@ -21,6 +21,7 @@ wordpress_url: https://www.martineve.com/?p=3092
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mf7bmak2u"
 kcworks: https://works.hcommons.org/records/h3hj5-7em06
 biron: https://eprints.bbk.ac.uk/id/eprint/16959/
+smolpub: what-do-we-mean-by-the-standing-and-reach-of-research
 references:
 - author: Martin Paul Eve
   date: '2014-04-17'

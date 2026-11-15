@@ -17,6 +17,7 @@ title: 'HE Green Paper: response to question 1'
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc4gz4g2s"
 kcworks: https://works.hcommons.org/records/mgr5j-9g213
 biron: https://eprints.bbk.ac.uk/id/eprint/17275/
+smolpub: he-green-paper-response-to-question-1
 references:
 - author: Richard Garner
   date: '2015-02-03'

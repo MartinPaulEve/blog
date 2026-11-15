@@ -15,6 +15,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/0h136-bqr61
 biron: https://eprints.bbk.ac.uk/id/eprint/47444/
+smolpub: notes-on-plan-s-for-shock
 references:
 - https://doi.org/10.5334/bcq # Laakso and Pells, Plan S for Shock (Ubiquity Press, 2022)
 - author: Peter Suber

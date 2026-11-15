@@ -15,6 +15,7 @@ categories:
 - Information Security
 kcworks: https://works.hcommons.org/records/dsv5c-mdn41
 biron: https://eprints.bbk.ac.uk/id/eprint/48843/
+smolpub: lastpass-cli-cant-login-using-master-password
 references:
 - author: mjbroekman
   date: '2021-05-18'

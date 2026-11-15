@@ -22,6 +22,7 @@ title: '"A Web of Rights": Roundtable and Conversation at the British Library (F
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdcruw32p"
 kcworks: https://works.hcommons.org/records/ftwat-dx244
 biron: https://eprints.bbk.ac.uk/id/eprint/16998/
+smolpub: a-web-of-rights-roundtable-and-conversation-at-the-british-library-feb-19th-2015-bldigital
 ---
 
 <p>This event will debate how and in what ways the web has complicated, enhanced, and changed the rights of citizens for better or for worse.</p>

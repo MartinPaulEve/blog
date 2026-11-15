@@ -19,6 +19,7 @@ wordpress_url: https://www.martineve.com/?p=3118
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mf4ufkt2q"
 kcworks: https://works.hcommons.org/records/annfw-kte18
 biron: https://eprints.bbk.ac.uk/id/eprint/16953/
+smolpub: the-tax-his-land-meme-and-its-discontents-me
 ---
 
 <p>There's a meme going around at the moment (or at least internet post, if not a meme), which I think is pretty insidious. It reads as follows:</p>

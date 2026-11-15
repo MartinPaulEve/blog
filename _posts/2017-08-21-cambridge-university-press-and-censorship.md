@@ -13,6 +13,7 @@ categories:
 - Politics
 kcworks: https://works.hcommons.org/records/q595j-qns40
 biron: https://eprints.bbk.ac.uk/id/eprint/19497/
+smolpub: cambridge-university-press-and-censorship
 references:
 - author: Elizabeth Redden
   date: '2017-08-20'

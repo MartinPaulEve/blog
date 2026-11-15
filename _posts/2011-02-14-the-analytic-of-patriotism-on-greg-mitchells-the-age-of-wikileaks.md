@@ -35,6 +35,7 @@ wordpress_url: https://www.martineve.com/?p=767
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkp4ygz2q"
 kcworks: https://works.hcommons.org/records/dee4z-6qx82
 biron: https://eprints.bbk.ac.uk/id/eprint/17345/
+smolpub: the-analytic-of-patriotism-on-greg-mitchells-the-age-of-wikileaks
 references:
 - http://www.thenation.com/blogs/media-fix # The Nation Media Fix blog liveblogging WikiLeaks
 ---

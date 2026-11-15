@@ -12,6 +12,7 @@ categories:
 - Copyright and Licensing
 kcworks: https://works.hcommons.org/records/0dkbc-5rc08
 biron: https://eprints.bbk.ac.uk/id/eprint/17935/
+smolpub: thinking-more-about-eu-law-and-uk-copyright-exemptions
 references:
 - https://www.martineve.com/2016/01/07/the-uk-copyright-exemption-for-text-and-data-mining-vs-the-dmca/ # Eve blog post on UK text mining copyright exemption vs DMCA
 ---

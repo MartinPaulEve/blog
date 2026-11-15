@@ -24,6 +24,7 @@ wordpress_url: https://www.martineve.com/?p=2357
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhtwum72f"
 kcworks: https://works.hcommons.org/records/m5te1-31q55
 biron: https://eprints.bbk.ac.uk/id/eprint/17137/
+smolpub: conference-on-china-mieville-weird-council
 references:
 - http://www.ies.sas.ac.uk/events/ies-conferences/Mieville # IES Weird Council conference registration page
 - title: Dr Caroline Edwards

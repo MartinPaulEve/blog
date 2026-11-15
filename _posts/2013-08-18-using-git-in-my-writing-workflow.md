@@ -25,6 +25,7 @@ wordpress_url: https://www.martineve.com/?p=2808
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mges67k2u"
 kcworks: https://works.hcommons.org/records/jfd2s-enj44
 biron: https://eprints.bbk.ac.uk/id/eprint/17513/
+smolpub: using-git-in-my-writing-workflow
 references:
 - author: Newell Hampson-Jones
   title: Newell Hampson-Jones (@theNHJ) on X

@@ -2,7 +2,8 @@
 #
 # thought.sh — post a short thought (wraps the thought_composer app).
 # Opens an interactive composer with a live Bluesky character count
-# (300 graphemes); Enter posts, Alt+Enter inserts a newline, Ctrl+P
+# (300 graphemes); Enter posts, Alt+Enter inserts a newline, Ctrl+V
+# pastes the clipboard (text, or an image when it holds no text), Ctrl+P
 # pastes an image from the clipboard, Ctrl+C cancels. The thought is
 # stored untouched in _data/thoughts.yml (feeding /thoughts/, the post
 # sidebar and the homepage), cross-posted to Bluesky and Mastodon
@@ -17,6 +18,7 @@
 #   ./thought.sh --no-post              # blog only, no syndication
 #   ./thought.sh --no-deploy            # do not build/rsync afterwards
 #   ./thought.sh probe                  # check both services' credentials
+#   ./thought.sh resyndicate ID         # post a stored thought to the service(s) it never reached
 #   ./thought.sh import-bluesky --dry-run  # preview a Bluesky back-import
 #   ./thought.sh import-bluesky            # back-import old Bluesky posts
 #   ./thought.sh import-twitter ARCHIVE    # back-import an X/Twitter archive (ZIP or folder)
@@ -30,6 +32,10 @@ case "${1:-}" in
     probe)
         shift
         exec uv run --env-file .env --project thought_composer thought-probe "$@"
+        ;;
+    resyndicate)
+        shift
+        exec uv run --env-file .env --project thought_composer thought-resyndicate "$@"
         ;;
     import-bluesky)
         shift

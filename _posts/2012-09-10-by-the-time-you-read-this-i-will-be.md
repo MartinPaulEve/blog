@@ -21,6 +21,7 @@ wordpress_url: https://www.martineve.com/?p=2377
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhs7rvx2f"
 kcworks: https://works.hcommons.org/records/r54km-xk261
 biron: https://eprints.bbk.ac.uk/id/eprint/17027/
+smolpub: by-the-time-you-read-this-i-will-be
 ---
 
 <p>in my Ph.D. viva.</p>

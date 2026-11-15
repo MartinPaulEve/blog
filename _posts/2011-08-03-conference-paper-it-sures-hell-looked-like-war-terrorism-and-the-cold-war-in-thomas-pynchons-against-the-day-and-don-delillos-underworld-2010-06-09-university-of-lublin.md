@@ -26,6 +26,7 @@ wordpress_url: https://www.martineve.com/?p=1387
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mk3ij5y2f"
 kcworks: https://works.hcommons.org/records/8qj99-e3z39
 biron: https://eprints.bbk.ac.uk/id/eprint/16945/
+smolpub: conference-paper-it-sures-hell-looked-like-war-terrorism-and-the-cold-war-in-thomas-pynchons-against-the-day-and-don-delillos-underworld-2010-06-09-university-of-lublin
 references:
 - author: evan p. cordes
   title: evan p. cordes

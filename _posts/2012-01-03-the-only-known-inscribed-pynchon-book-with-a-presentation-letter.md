@@ -26,6 +26,7 @@ wordpress_url: https://www.martineve.com/2012/01/03/the-only-known-inscribed-pyn
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjbrae72i"
 kcworks: https://works.hcommons.org/records/twxkp-1rk76
 biron: https://eprints.bbk.ac.uk/id/eprint/17335/
+smolpub: the-only-known-inscribed-pynchon-book-with-a-presentation-letter
 references:
 - author: jonhoward
   title: jonhoward

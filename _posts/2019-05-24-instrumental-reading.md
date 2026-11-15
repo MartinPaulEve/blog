@@ -16,6 +16,7 @@ categories:
 - Literature
 kcworks: https://works.hcommons.org/records/1sfgg-2e534
 biron: https://eprints.bbk.ac.uk/id/eprint/27644/
+smolpub: instrumental-reading
 references:
 - title: 'Generous Thinking: The University and the Public Good'
   type: WebPage

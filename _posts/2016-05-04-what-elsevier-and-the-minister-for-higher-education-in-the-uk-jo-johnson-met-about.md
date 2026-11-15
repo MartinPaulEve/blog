@@ -17,6 +17,7 @@ categories:
 - Politics
 kcworks: https://works.hcommons.org/records/aw21d-wxz57
 biron: https://eprints.bbk.ac.uk/id/eprint/17336/
+smolpub: what-elsevier-and-the-minister-for-higher-education-in-the-uk-jo-johnson-met-about
 references:
 - author: Sarah Shaffi
   date: '2015-09-24'

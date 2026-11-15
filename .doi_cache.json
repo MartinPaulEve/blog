@@ -54977,5 +54977,202 @@
       ]
     },
     "subtype": "blog"
+  },
+  "10.59348/3kh8w-q1d96": {
+    "institution": [
+      {
+        "name": "Front Matter"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          6
+        ]
+      ],
+      "date-time": "2026-10-06T03:50:50Z",
+      "timestamp": 1791258650114,
+      "version": "4.1.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          4
+        ]
+      ]
+    },
+    "group-title": "Martin Paul Eve",
+    "reference-count": 1,
+    "publisher": "Front Matter",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              4
+            ]
+          ],
+          "date-time": "2026-10-04T00:00:00Z",
+          "timestamp": 1791072000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              4
+            ]
+          ],
+          "date-time": "2026-10-04T00:00:00Z",
+          "timestamp": 1791072000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "abstract": "<jats:p>It is bad that I have started writing this post because, for reasons you will see below, I am worried about how much time we spend talking about AI, even as I recognise that politics requires work and attention. And AI is certainly political.</jats:p>",
+    "DOI": "10.59348/3kh8w-q1d96",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          5
+        ]
+      ],
+      "date-time": "2026-10-05T07:30:15Z",
+      "timestamp": 1791185415000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "My View on AI and University-Level English Literature",
+    "prefix": "10.59348",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5589-8511",
+        "authenticated-orcid": false,
+        "given": "Martin Paul",
+        "family": "Eve",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Birkbeck, University of London, English and Humanities"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "31795",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Eve, M. P. (2017). The Great Automatic Grammatizator: writing, labour, computers. Critical Quarterly, 59(3), 39–54.",
+        "DOI": "10.1111/criq.12359"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://eve.gd/2026/10/05/my-view-on-ai-and-university-level-english-literature/",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://rogue-scholar.org/api/records/xtmsg-hnm05/files/10.59348_3kh8w-q1d96.pdf/content",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          6
+        ]
+      ],
+      "date-time": "2026-10-06T03:00:09Z",
+      "timestamp": 1791255609000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://eve.gd/2026/10/05/my-view-on-ai-and-university-level-english-literature/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          4
+        ]
+      ]
+    },
+    "references-count": 1,
+    "version": {
+      "version": "v1"
+    },
+    "URL": "http://dx.doi.org/10.59348/3kh8w-q1d96",
+    "relation": {
+      "is-version-of": [
+        {
+          "id-type": "doi",
+          "id": "10.59348/0fen1-32d81",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.59348/0fen1-32d81",
+          "asserted-by": "object"
+        }
+      ],
+      "is-part-of": [
+        {
+          "id-type": "doi",
+          "id": "10.59348/eve",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          4
+        ]
+      ]
+    },
+    "subtype": "blog"
   }
 }

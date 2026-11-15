@@ -23,6 +23,7 @@ wordpress_url: http://pro.grammatic.org/post-a-bad-day-for-browsers-25.aspx
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mngf45i2f"
 kcworks: https://works.hcommons.org/records/z4115-gpm02
 biron: https://eprints.bbk.ac.uk/id/eprint/16800/
+smolpub: a-bad-day-for-browsers
 references:
 - author: Michal Zalewski
   title: Assorted browser vulnerabilities

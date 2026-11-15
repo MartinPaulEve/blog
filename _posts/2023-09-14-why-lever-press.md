@@ -16,6 +16,7 @@ categories:
 - Publications
 kcworks: https://works.hcommons.org/records/t5p6h-awr30
 biron: https://eprints.bbk.ac.uk/id/eprint/52886/
+smolpub: why-lever-press
 references:
 - title: About Lever Press
   type: WebPage

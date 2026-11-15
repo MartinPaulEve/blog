@@ -12,6 +12,7 @@ categories:
 - Literature
 kcworks: https://works.hcommons.org/records/yg8p9-53n33
 biron: https://eprints.bbk.ac.uk/id/eprint/43136/
+smolpub: the-social-network-of-the-london-review-of-books
 ---
 
 I have, this afternoon (on a day off -- I know, I know) been playing around with the _LRB_ archive, looking for fun patterns in the chain of "who reviews whom". Some preliminary thoughts...

@@ -17,6 +17,7 @@ title: 'Jo Johnson: your proposals for British higher education will not yield t
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mc6jeco2o"
 kcworks: https://works.hcommons.org/records/jfap0-nj143
 biron: https://eprints.bbk.ac.uk/id/eprint/16946/
+smolpub: jo-johnson-your-proposals-for-british-higher-education-will-not-yield-the-competitiveness-you-seek
 references:
 - author: Paul Goodman
   date: '2015-10-30'

@@ -21,6 +21,7 @@ wordpress_url: https://www.martineve.com/?p=1020
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkdzz472r"
 kcworks: https://works.hcommons.org/records/99ajz-q6v23
 biron: https://eprints.bbk.ac.uk/id/eprint/16905/
+smolpub: guardian-qa-summary-life-after-a-phd
 references:
 - author: Eliza Anyangwe
   date: '2011-04-27'

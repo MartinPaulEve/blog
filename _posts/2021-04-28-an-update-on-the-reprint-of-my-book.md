@@ -16,6 +16,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/9830s-ge236
 biron: https://eprints.bbk.ac.uk/id/eprint/44082/
+smolpub: an-update-on-the-reprint-of-my-book
 references:
 - author: Martin Paul Eve
   date: '2016-10-17'

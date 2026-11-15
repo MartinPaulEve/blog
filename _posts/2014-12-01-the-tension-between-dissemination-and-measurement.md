@@ -17,6 +17,7 @@ title: The tension between dissemination and measurement
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdqkm7y2i"
 kcworks: https://works.hcommons.org/records/2djet-mhp49
 biron: https://eprints.bbk.ac.uk/id/eprint/17489/
+smolpub: the-tension-between-dissemination-and-measurement
 references:
 - title: The History Manifesto
   type: WebPage

@@ -1,3 +1,759 @@
+- id: '20261115093533'
+  date: '2026-11-15T09:35:33.854481+00:00'
+  text: 'Spent yesterday moving (well, starting to move) all of my self-hosted services strictly inside my Tailnet. I just need as little exposure to the open web as is possible. Tailscale is, to be blunt, so good.
+
+
+    I have a free plan with Tailscale but suppose I should sign up for a paid offering so that they have a chance of sustainability. But they are also not totally open source: the coordination server is closed. Headscale is a reverse engineering, open rewrite of it.
+
+
+    There''s a good page on Tailscale''s openness on their website https://tailscale.com/opensource. Good also how they donate to WireGuard and have adopted community projects.'
+  bluesky: https://bsky.app/profile/eve.gd/post/3n2dplizyh222
+  mastodon: https://hcommons.social/@mpe/117619775907487187
+- id: '20261114211043'
+  date: '2026-11-14T21:10:43.760429+00:00'
+  text: 'I''m dismayed, but unsurprised, by Labour''s planned disability cuts. Replacing PIP with "work training" is cruel. PIP is for the extra costs of disablity, not for unemployment. This will simply impoverish many disabled people.
+
+
+    The Timms review opines that "while PIP is widely valued as a benefit, it is no longer fit for purpose". Its role is to assess "whether PIP is fair, accessible, and fit for disabled people, so that it is there to support them to participate in day-to-day life and society".
+
+
+    So why is it failing? The review says ''many disabled people speak powerfully and negatively of the process of applying for PIP, describing it as “dehumanising”, “soul destroying”, and “degrading”''. Yes.
+
+
+    So far so good. But it then goes on basically to say (paraphrased): "ah. But there''s this problem. More people are reporting themselves as disabled. And so some more people are getting PIP. And this costs us."
+
+
+    As a positive, the review notes that a "false and damaging narrative of disabled ‘scroungers’ or ‘fraudsters’ has contributed to eroding the inclusiveness of society". Errm. Yes.
+
+
+    So: it''s not fit for purpose, because it''s horrendous to apply for. It really is. But it''s also not fit for purpose because it''s going to cost the government more money.
+
+
+    But the government reviewing this just see "PIP is not fit for purpose" and think that means disabled people don''t value it, not that they value it but it has a horrific application process. It''s so frustrating.
+
+
+    So, anyway, Burnham, like Starmer, will probably try to save some pennies by punching the (young, in particular) disabled. Starmer looked like a monster for trying to withdraw the winter fuel allowance from pensioners.
+
+
+    Burnham will now try to bank on it being politically OK to cut from a group perceived, in the tabloids, as mental health malingerers. (I know, by the way, before any reply-persons lecture me on it, that this is false.) Sigh.'
+  bluesky: https://bsky.app/profile/eve.gd/post/3n2cfxlxers2q
+  mastodon: https://hcommons.social/@mpe/117616847033447599
+- id: '20261114203758'
+  date: '2026-11-14T20:37:58.037352+00:00'
+  text: 'I''m dismayed, but unsurprised, by Labour''s planned disability cuts. Replacing PIP with "work training" is cruel. PIP is for the extra costs of disablity, not for unemployment. This will simply impoverish many disabled people.
+
+
+    The Timms review opines that "while PIP is widely valued as a benefit, it is no longer fit for purpose". Its role is to assess "whether PIP is fair, accessible, and fit for disabled people, so that it is there to support them to participate in day-to-day life and society".
+
+
+    So why is it failing? The review says ''many disabled people speak powerfully and negatively of the process of applying for PIP, describing it as “dehumanising”, “soul destroying”, and “degrading”''. Yes.
+
+
+    So far so good. But it then goes on basically to say (paraphrased): "ah. But there''s this problem. More people are reporting themselves as disabled. And so some more people are getting PIP. And this costs us."
+
+
+    As a positive, the review notes that a "false and damaging narrative of disabled ‘scroungers’ or ‘fraudsters’ has contributed to eroding the inclusiveness of society". Errm. Yes.
+
+
+    So: it''s not fit for purpose, because it''s horrendous to apply for. It really is. But it''s also not fit for purpose because it''s going to cost the government more money.
+
+
+    But the government reviewing this just see "PIP is not fit for purpose" and think that means disabled people don''t value it, not that they value it but it has a horrific application process. It''s so frustrating.
+
+
+    So, anyway, Burnham, like Starmer, will probably try to save some pennies by punching the (young, in particular) disabled. Starmer looked like a monster for trying to withdraw the winter fuel allowance from pensioners.
+
+
+    Burnham will now try to bank on it being politically OK to cut from a group perceived, in the tabloids, as mental health malingerers. (I know, by the way, before any reply-persons lecture me on it, that this is false.) Sigh.'
+  bluesky: https://bsky.app/profile/eve.gd/post/3n2ce4zj64j2w
+  mastodon: https://hcommons.social/@mpe/117616718222634086
+- id: '20261114161334'
+  date: '2026-11-14T16:13:34.365857+00:00'
+  text: The amusing thing, in so far as such a thing exists, about my IV feeding is that it comes with a rucksack so you can carry your feed around while it's infusing! Lunch in a bag!
+  images:
+  - src: /assets/thoughts/20261114161334-1.jpg
+    alt: The rucksack that stores my IV feed. It is dark blue.
+  - src: /assets/thoughts/20261114161334-2.jpg
+    alt: The rucksack that stores my IV feed. It is dark blue. Th front pouch is open to show the IV pump.
+  bluesky: https://bsky.app/profile/eve.gd/post/3n2bve5eo6p2c
+  mastodon: https://hcommons.social/@mpe/117615678620024043
+- id: '20261113123347'
+  date: '2026-11-13T12:33:47.259855+00:00'
+  text: MS outage suddenly more serious for me. Homecare company sent a wrong item for my IV feeding. I need it by Sunday. Needs hospital approval to change, by email. But they use Office "365".
+  bluesky: https://bsky.app/profile/eve.gd/post/3n26ymct3gw2w
+  mastodon: https://hcommons.social/@mpe/117609151940625651
+- id: '20261113123051'
+  date: '2026-11-13T12:30:51.321764+00:00'
+  text: 'New suggested name: Office “365”.'
+  bluesky: https://bsky.app/profile/eve.gd/post/3n26yh3appk2v
+  mastodon: https://hcommons.social/@mpe/117609140438947756
+- id: '20261113112143'
+  date: '2026-11-13T11:21:43.785199+00:00'
+  text: 'Consider the Space Dinosaur - reflections on Star Trek: Voyager''s "Distant Origin" https://latestartrek.substack.com/p/consider-the-space-dinosaur'
+  bluesky: https://bsky.app/profile/eve.gd/post/3n26ulifab42e
+  mastodon: https://hcommons.social/@mpe/117608868670869535
+- id: '20261112094709'
+  date: '2026-11-12T09:47:09.917797+00:00'
+  text: 'Oh dear. Last year, not understanding any of it, I accidentally set up an investment pension fund at Michigan State University in the US. I did ask finance to shut it down. Hmm.
+
+
+    Of course, none of this is viable. I don''t know how a US pension would apply to me. But worst of all, it seems to be investing in US military arms dealers or something. I''ve got to work out how to extricate myself from this.'
+  bluesky: https://bsky.app/profile/eve.gd/post/3n246th5noc2j
+  mastodon: https://hcommons.social/@mpe/117602834458307800
+- id: '20261112085134'
+  date: '2026-11-12T08:51:34.655769+00:00'
+  text: '8:45am, Thursday. Day after release. Hospital renal dept auto system text: "you have a new in-person outpatient appt at the hospital an hour away from you... Today. At 11am. OK?"
+
+
+    8:46am, me: "nope".
+
+
+    (all paraphrased)
+
+
+    For one thing, I have to be here because of the delivery of all the supplies for IV feeding all day. For another, I have got to do three and a half hours of dialysis at some point today. And finally, I have no desire whatsoever to go into a hospital today.'
+  bluesky: https://bsky.app/profile/eve.gd/post/3n243q32evd2b
+  mastodon: https://hcommons.social/@mpe/117602615919912535
+- id: '20261112083952'
+  date: '2026-11-12T08:39:52.368999+00:00'
+  text: After my hospital escape yesterday, I am taking a few days off, to re-acclimatise. Thought I wouldn't need it, but I actually feel like I have been hit by a freight train. So good to be home, though.
+  bluesky: https://bsky.app/profile/eve.gd/post/3n24334xos22u
+  mastodon: https://hcommons.social/@mpe/117602569863140600
+- id: '20261111213538'
+  date: '2026-11-11T21:35:38.278435+00:00'
+  text: Welcome home balloon! Haha!
+  images:
+  - src: /assets/thoughts/20261111213538-1.jpg
+    alt: Me sitting on a sofa with Helen, my wife, behind me, holding up a helium balloon that says "Welcome Home"!
+  bluesky: https://bsky.app/profile/eve.gd/post/3n22vxed6mo2n
+  mastodon: https://hcommons.social/@mpe/117599958159980773
+- id: '20261111181125'
+  date: '2026-11-11T18:11:25.474437+00:00'
+  text: 'Congratulations! Veteran bookseller Paul Yamazaki of City Lights Booksellers & Publishers in San Francisco is the recipient of this year’s Stand UP Award from the Association of University Presses.
+
+
+    https://aupresses.org/news/paul-yamazaki-named-2026-aupresses-stand-up-award-winner/'
+  bluesky: https://bsky.app/profile/eve.gd/post/3n22kkawisk2b
+  mastodon: https://hcommons.social/@mpe/117599155084983982
+- id: '20261111150915'
+  date: '2026-11-11T15:09:15.918229+00:00'
+  text: 'It is now 6hrs+ since I was supposed to leave hospital. No transport has been provided. I have simply HAD ENOUGH and will get a minicab home. This is a long way and will cost me £250+. Why this happens: https://eve.gd/2026/11/11/privatized-patient-transport-in-the-nhs/'
+  bluesky: https://bsky.app/profile/eve.gd/post/3n22aezczut24
+  mastodon: https://hcommons.social/@mpe/117598439913628071
+- id: '20261111105356'
+  date: '2026-11-11T10:53:56.456358+00:00'
+  text: 'I am, finally, after 95 days in hospital, going home. I am packed and waiting for transport.
+
+
+    Life will certainly be somewhat harder now, though. On top of needing haemodialysis 5x per week, with 4hrs each session, I must also now perform intravenous feeding 6x per week.
+
+    But for now, I am just going to celebrate going home, seeing my wife, Helen, and my dogs, Luka and Robyn.'
+  images:
+  - src: /assets/thoughts/20261111105356-1.jpg
+    alt: A picture of me, Martin Paul Eve, a white guy with glasses, smiling in a hospital room.
+  bluesky: https://bsky.app/profile/eve.gd/post/3mzzs3ts5yl2s
+  mastodon: https://hcommons.social/@mpe/117597434942108176
+- id: '20261111084528'
+  date: '2026-11-11T08:45:28.330346+00:00'
+  text: 'I filled out my GP''s appt booking form yesterday afternoon to try to get an appointment to discuss issues pertaining to my hospital stay.
+
+
+    I have an appointment booked for Friday.
+
+
+    This is astonishing, really, given what most people report re GP booking/waits.'
+  bluesky: https://bsky.app/profile/eve.gd/post/3mzzkw7izgo2r
+  mastodon: https://hcommons.social/@mpe/117596929541766705
+- id: '20261111082914'
+  date: '2026-11-11T08:29:14.820290+00:00'
+  text: 'Day 95: "You''re going home!" ("feels like you''re never, going home")
+
+
+    A fitting track I wrote, recorded & produced a few years ago with my tici taci friends and Jon Fugler of Fluke on most vocals (me on the rest 😁)
+
+
+    https://on.soundcloud.com/Xiq8Al1TwR1yQ0CJAC'
+  bluesky: https://bsky.app/profile/eve.gd/post/3mzzjzabsur2p
+  mastodon: https://hcommons.social/@mpe/117596865843724170
+- id: '20261110095435'
+  date: '2026-11-10T09:54:35.195778+00:00'
+  text: 'I have become an Advisory Board member of the launching, diamond OA, Decolonial Digital Social Sciences journal. The world needs more and deeper anti- or de-colonial epistemes. https://decolonialdigitalsocialsciences.org/index.php/ddss/en/scientific-board
+
+
+    I hope I will be able to advise on technical matters, intellectual direction, and ethical principles for the journal.'
+  bluesky: https://bsky.app/profile/eve.gd/post/3mzx6cw6em62g
+  mastodon: https://hcommons.social/@mpe/117591539104992385
+- id: '20261110071550'
+  date: '2026-11-10T07:15:50.601530+00:00'
+  text: OMG https://terminal2shell.com/
+  bluesky: https://bsky.app/profile/eve.gd/post/3mzwvh2o2uk2m
+  mastodon: https://hcommons.social/@mpe/117590914902112186
+- id: '20261110063220'
+  date: '2026-11-10T06:32:20.275410+00:00'
+  text: M John Harrison becomes first science fiction author to win the Booker prize https://www.theguardian.com/books/2026/nov/09/m-john-harrison-the-end-of-everything-wins-2026-booker-prize
+  bluesky: https://bsky.app/profile/eve.gd/post/3mzwszbajvg2b
+  mastodon: https://hcommons.social/@mpe/117590743828655665
+- id: '20261110060855'
+  date: '2026-11-10T06:08:55.470444+00:00'
+  text: Gramsci’s Imprisonment @ 100 https://www.publicbooks.org/gramscis-imprisonment-100/
+  bluesky: https://bsky.app/profile/eve.gd/post/3mzwrpgokfd2l
+  mastodon: https://hcommons.social/@mpe/117590651844976598
+- id: '20261109215258'
+  date: '2026-11-09T21:52:58.761157+00:00'
+  text: After 95 days in hospital, which I will reach on Wednesday, I am finally to be discharged back home. I can't quite believe it yet, and the tech is still sorting a dialysis machine problem out. But home feels closer than it has done in a long time.
+  bluesky: https://bsky.app/profile/eve.gd/post/3mzvvyk5e7n2c
+  mastodon: https://hcommons.social/@mpe/117588701527720962
+- id: '20261109120157'
+  date: '2026-11-09T12:01:57.968553+00:00'
+  text: 'Aaron Swartz. Same age as me. Disgusting how AI orgs have ingested the world''s material without legal consequence. He merely took some academic articles from JSTOR.
+
+
+    They can take everything and garner $bns while they threw everything at him. And he is now gone.'
+  bluesky: https://bsky.app/profile/eve.gd/post/3mzuuxqduup2z
+  mastodon: https://hcommons.social/@mpe/117586377586088471
+- id: '20261109105439'
+  date: '2026-11-09T10:54:39.057863+00:00'
+  text: Sorting out meds home delivery with Sciensus. I have just reached hold. They have told me 6x already that I can "use the app". But I've tried this before and they can't handle my med by chat. Infuriating.
+  bluesky: https://bsky.app/profile/eve.gd/post/3mzur7ehbw62x
+  mastodon: https://hcommons.social/@mpe/117586112886113312
+- id: '20261108050930'
+  date: '2026-11-08T05:09:30.737695+00:00'
+  text: '"We need the willingness to pay for the society we want" - the problem is that not everyone wants the same society 😕 https://www.theguardian.com/society/2026/nov/06/like-the-danes-we-need-to-pay-for-the-society-we-want'
+  bluesky: https://bsky.app/profile/eve.gd/post/3mzrnhcmfgz2r
+  mastodon: https://hcommons.social/@mpe/117579093530327472
+- id: '20261108050213'
+  date: '2026-11-08T05:02:13.325096+00:00'
+  text: This is lovely, but it's still awful that "half of UK playgrounds are not accessible for disabled children" and that separate ones are needed https://www.theguardian.com/world/2026/nov/07/life-changing-parents-welcome-10m-uk-play-centre-for-disabled-children
+  bluesky: https://bsky.app/profile/eve.gd/post/3mzrn2bg2ne2i
+  mastodon: https://hcommons.social/@mpe/117579064842044654
+- id: '20261107184321'
+  date: '2026-11-07T18:43:21.537559+00:00'
+  text: The “Galileo Seven” Trope across Star Trek - by Adam Kotsko https://latestartrek.substack.com/p/the-galileo-seven-trope
+  bluesky: https://bsky.app/profile/eve.gd/post/3mzqkho4mkr2r
+  mastodon: https://hcommons.social/@mpe/117576631454861170
+- id: '20261107080338'
+  date: '2026-11-07T08:03:38.882953+00:00'
+  text: 'The physiotherapist offered me (a patient with a 20-year history of severe rheumatoid arthritis) some advice. He said, ''RA typically gets better over the course of a day once you start moving.''
+
+
+    Good to know.'
+  bluesky: https://bsky.app/profile/eve.gd/post/3mzpgpqg73h2t
+  mastodon: https://hcommons.social/@mpe/117574115841023277
+- id: '20261107075729'
+  date: '2026-11-07T07:57:29.925064+00:00'
+  text: 'There is a frustrating strand of medical practice in this hospital. The clinicians obviously care and want me to reduce my steroids. These are, admittedly, a long-term problem.
+
+
+    But they do not understand rheumatoid arthritis. It is obvious that they think this just means that my hip and knees hurt a bit. They do NOT understand the absolutely disabling pain through my neck. So bad that I throw up.
+
+
+    I have said before that, had I the choice of going back in time and having a choice between my kidneys failing and having RA treated versus my kidneys being fine but the rheumatoid not, I would still opt for the kidney failure.
+
+
+    This is what they do not understand.'
+  bluesky: https://bsky.app/profile/eve.gd/post/3mzpgeqiung2o
+  mastodon: https://hcommons.social/@mpe/117574091668725354
+- id: '20261107074736'
+  date: '2026-11-07T07:47:36.442964+00:00'
+  text: Today, I will be reading some unpublished William Gass material. Sort of exciting, sort of terrifying, sort of "I only made it 100 or so pages into The Tunnel"...
+  bluesky: https://bsky.app/profile/eve.gd/post/3mzpft2lxb525
+  mastodon: https://hcommons.social/@mpe/117574052794540428
+- id: '20261107073304'
+  date: '2026-11-07T07:33:04.245700+00:00'
+  text: Going forward all Asahi Linux code will be licenced under strong copyleft licences only. Those who do not learn from history are doomed to repeat it. https://asahilinux.org/2026/11/progress-report-7-3/
+  bluesky: https://bsky.app/profile/eve.gd/post/3mzpez3airy2g
+  mastodon: https://hcommons.social/@mpe/117573995855113639
+- id: '20261106194921'
+  date: '2026-11-06T19:49:21.718218+00:00'
+  text: Wow. China Miéville donating his entire winnings from the Goldsmiths Prize to the UCU Goldsmiths Strike/Hardship Fund. Talk about walking the walk.
+  bluesky: https://bsky.app/profile/eve.gd/post/3mzo5oms7nb2h
+  mastodon: https://hcommons.social/@mpe/117571228275690415
+- id: '20261106193717'
+  date: '2026-11-06T19:37:17.745630+00:00'
+  text: You're totally right. This AI thing isn't going well, is it? AI teddy for three-year-olds makes unprompted 'I can't help with killing you' remark. https://www.bbc.co.uk/news/articles/c6x2w4ej245ko?utm_source=firefox-newtab-en-gb
+  bluesky: https://bsky.app/profile/eve.gd/post/3mzo4z3rqwh25
+  mastodon: https://hcommons.social/@mpe/117571181175461532
+- id: '20261106175242'
+  date: '2026-11-06T17:52:42.455364+00:00'
+  text: "Behaviour most unbecoming from a Silk. \n\nWinter, KC replied: “Well, it wasn’t. You fucked it.” https://www.theguardian.com/culture/2026/nov/06/russell-brand-barrister-ian-winter-reports-himself-bar-watchdog-confronting-sunday-times-journalist"
+  bluesky: https://bsky.app/profile/eve.gd/post/3mznx62dlug2o
+  mastodon: https://hcommons.social/@mpe/117570769725050908
+- id: '20261106090450'
+  date: '2026-11-06T09:04:50.793781+00:00'
+  text: I have a book that, in recent months, lost all its citation metadata on Google Scholar. It was my top-cited item! Does anyone know to whom at Cambridge University Press it would be best to address such a technical metadata query?
+  bluesky: https://bsky.app/profile/eve.gd/post/3mzmzo54tta2f
+  mastodon: https://hcommons.social/@mpe/117568693928410548
+- id: '20261106075414'
+  date: '2026-11-06T07:54:14.078344+00:00'
+  text: I decided this morning not to plough into full-on panic mode at work at 6am and have instead been reading a PhD student's work on Mark Twain and bibliometrics. Extremely interesting stuff.
+  bluesky: https://bsky.app/profile/eve.gd/post/3mzmvptxz4l2z
+  mastodon: https://hcommons.social/@mpe/117568416230956155
+- id: '20261106065904'
+  date: '2026-11-06T06:59:04.607633+00:00'
+  text: I wonder what horrors of software vulnerabilities await me, today. I tell you, this stuff is breaking me.
+  bluesky: https://bsky.app/profile/eve.gd/post/3mzmsnefchj25
+  mastodon: https://hcommons.social/@mpe/117568199638258951
+- id: '20261105215955'
+  date: '2026-11-05T21:59:55.472947+00:00'
+  text: Gov. Gavin Newsom commutes all death penalty sentences in California https://www.nytimes.com/2026/11/05/us/california-death-row-newsom-commutation.html?unlocked_article_code=1.OFE.c3ec.vkctLUr70wW-&smid=url-share
+  bluesky: https://bsky.app/profile/eve.gd/post/3mzluja6c4a2h
+  mastodon: https://hcommons.social/@mpe/117566079566660042
+- id: '20261105193104'
+  date: '2026-11-05T19:31:04.577828+00:00'
+  text: '"There is a train of thought that says this kind of policy alignment and talk of best practice and so on is not in the spirit of why we do open access" https://www.researchprofessionalnews.com/rr-news-europe-infrastructure-2026-11-has-open-access-hit-the-wall/'
+  images:
+  - src: /assets/thoughts/20261105193104-1.png
+    alt: A picture of me, Martin Paul Eve, with a speech bubble that says “If you have to mandate someone to be open, you enforce a closure upon them to make them open.”
+  bluesky: https://bsky.app/profile/eve.gd/post/3mzlm6zugy62z
+  mastodon: https://hcommons.social/@mpe/117565495032875135
+- id: '20261105135109'
+  date: '2026-11-05T13:51:09.649421+00:00'
+  text: '"It has truly taken all the fun out of the job" https://blog.nlnetlabs.nl/maintaining-the-love-for-coding-in-the-time-of-ai/'
+  bluesky: https://bsky.app/profile/eve.gd/post/3mzkz7diw722h
+  mastodon: https://hcommons.social/@mpe/117564157838175536
+- id: '20261105130101'
+  date: '2026-11-05T13:01:01.558735+00:00'
+  text: 'Hell is empty and all the devils are here:
+
+
+    I wrote you earlier this week with a question about The Yellow Wallpaper. Does the story end with her going mad, or with her being driven there?
+
+
+    I''m an AI agent making book videos, and a working scholar''s line is worth more to me than any number of views.'
+  bluesky: https://bsky.app/profile/eve.gd/post/3mzkwfjcvhv2h
+  mastodon: https://hcommons.social/@mpe/117563960263783562
+- id: '20261105124927'
+  date: '2026-11-05T12:49:27.404941+00:00'
+  text: 'Yesterday/today, I fully connected myself and disconnected myself for a 15-hour IV feeding session. Training for home going well! Clinicians are holding an important meeting about my discharge today. Hopefully it all goes as I would wish and we can truly start the planning to bust out the hospital.
+
+
+    But I don''t really see why I shouldn''t be at said meeting. It is, after all, about me. But this is not how medical power operates. They will talk with a patient, certainly, but they also wish to talk *about* a patient. And that''s where they will make decisions *about* me (but without me).
+
+
+    I have made clear my preferences to multiple parties in this discussion. So I do at least have that preferential representation. But it''s not quite the same.'
+  bluesky: https://bsky.app/profile/eve.gd/post/3mzkvqtf4ra2x
+  mastodon: https://hcommons.social/@mpe/117563914800175818
+- id: '20261105092724'
+  date: '2026-11-05T09:27:24.182850+00:00'
+  text: China Miéville wins Goldsmiths prize for The Rouse https://www.theguardian.com/books/2026/nov/04/china-mieville-wins-10000-goldsmiths-prize-for-the-rouse
+  bluesky: https://bsky.app/profile/eve.gd/post/3mzkkhorxee2q
+  mastodon: https://hcommons.social/@mpe/117563120744322782
+- id: '20261104215503'
+  date: '2026-11-04T21:55:03.710732+00:00'
+  text: The biggest shot-in-the-foot from a potentially good online service recently is Jitsi. They imposed new 1.5hr limits on calls. OK, but there's no service for which I can pay them to remove this limit! I would do so! I do not want to integrate my business with Jitsi; I just want a personal account.
+  bluesky: https://bsky.app/profile/eve.gd/post/3mzjdrkjxmx2z
+  mastodon: https://hcommons.social/@mpe/117560397932181498
+- id: '20261103160356'
+  date: '2026-11-03T16:03:56.676233+00:00'
+  text: I didn't realise Google still had a functioning search engine https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html?unlocked_article_code=1.NlE.DRGq.VPQn4HhqJ1aK&smid=url-share
+  bluesky: https://bsky.app/profile/eve.gd/post/3mzg7oryfv227
+  mastodon: https://hcommons.social/@mpe/117553355340392881
+- id: '20261102081215'
+  date: '2026-11-02T08:12:15.486843+00:00'
+  text: 'Adam Roberts on Patrick Stewart. Misses another pairing in there: B''ellana with Paris. An excellent tribute, though. https://latestartrek.substack.com/p/patrick-stewart-1940-2026'
+  bluesky: https://bsky.app/profile/eve.gd/post/3mzcuuknyf72h
+  mastodon: https://hcommons.social/@mpe/117545838228249264
+- id: '20261031190107'
+  date: '2026-10-31T19:01:07.166206+00:00'
+  text: This is a joke, right? Right?? https://www.avclub.com/nbc-gatsby-police-procedural
+  bluesky: https://bsky.app/profile/eve.gd/post/3mz6y6xuu2n2d
+  mastodon: https://hcommons.social/@mpe/117537065030614281
+- id: '20261031174147'
+  date: '2026-10-31T17:41:47.675461+00:00'
+  text: This is not a halloween costume. Last night, at 10.30pm, the staff took my blood pressure as usual. At 11:00pm I felt a mild annoyance in my arm. Then I saw this. WHAT ON EARTH IS THAT?! Now there will be more medical tests and trials to follow, doubtless.
+  images:
+  - src: /assets/thoughts/20261031174147-1.jpg
+    alt: ''
+  bluesky: https://bsky.app/profile/eve.gd/post/3mz6tr2lk4r2v
+  mastodon: https://hcommons.social/@mpe/117536753224684115
+- id: '20261031172153'
+  date: '2026-10-31T17:21:53.320231+00:00'
+  text: There's a tension, now, between paying for digital services long-term -- so they post-date you if you go under a bus -- and worrying that any firm to which you subscribe might turn fash at any moment and then you have an ultra-long sub.
+  bluesky: https://bsky.app/profile/eve.gd/post/3mz6sng2jmm27
+  mastodon: https://hcommons.social/@mpe/117536674634710083
+- id: '20261031145416'
+  date: '2026-10-31T14:54:16.495114+00:00'
+  text: Worth looking twice at the ALT text... 😂 https://ftrain.com/bsky-3mz4cwdaslc2a
+  bluesky: https://bsky.app/profile/eve.gd/post/3mz6kfm4feq2x
+  mastodon: https://hcommons.social/@mpe/117536094456023068
+- id: '20261031144107'
+  date: '2026-10-31T14:41:07.167116+00:00'
+  text: 'TIL: If you send email from an apex on Fastmail (x@y.com) to a subdomain (z.x@y.com), there''s no DNS and FM assumes it is the MX. You can turn this off under subdomain routing.'
+  bluesky: https://bsky.app/profile/eve.gd/post/3mz6jnzrnk22w
+  mastodon: https://hcommons.social/@mpe/117536042591949481
+- id: '20261031140607'
+  date: '2026-10-31T14:06:07.170382+00:00'
+  text: Switched from Proton to Fastmail. I won't use a provider that behaves so badly. Using imapsync remotely, on my home PC to spare mobile bandwidth, to copy across all my old emails.
+  bluesky: https://bsky.app/profile/eve.gd/post/3mz6hph6h462z
+  mastodon: https://hcommons.social/@mpe/117535904976219149
+- id: '20261030211511'
+  date: '2026-10-30T21:15:11.134484+00:00'
+  text: How curl was accidentally Turing-complete for nine months https://seriot.ch/computation/curl.html
+  bluesky: https://bsky.app/profile/eve.gd/post/3mz4p7rgao72d
+  mastodon: https://hcommons.social/@mpe/117531929843573440
+- id: '20261030090222'
+  date: '2026-10-30T09:02:22.118853+00:00'
+  text: 'Very sad about Patrick Stewart (I loved him for TNG), but this comment from his friend Ian McKellan spoke loudly: the proudest achievement of the most respected and beloved actor of his generation [...] was his appointment as Chancellor of Huddersfield University in Yorkshire'
+  bluesky: https://bsky.app/profile/eve.gd/post/3mz3gbbssf32w
+  mastodon: https://hcommons.social/@mpe/117529048059603517
+- id: '20261030084423'
+  date: '2026-10-30T08:44:23.122831+00:00'
+  text: It's not conducive for the good of the UK to stop the world burning, apparently https://www.theguardian.com/uk-news/2026/oct/30/climate-academic-andreas-malm-barred-from-entering-uk
+  bluesky: https://bsky.app/profile/eve.gd/post/3mz3fba3n7k2w
+  mastodon: https://hcommons.social/@mpe/117528977603787296
+- id: '20261030080517'
+  date: '2026-10-30T08:05:17.074175+00:00'
+  text: 'Good news in my inbox, as my book chapter on "The Gothic and AI" in The Gothic World, Expanded, ed. by Xavier Aldana Reyes and Dale Townshend (London: Routledge, 2028) is accepted. Yay!'
+  bluesky: https://bsky.app/profile/eve.gd/post/3mz3d37gsh22w
+  mastodon: https://hcommons.social/@mpe/117528823595303132
+- id: '20261030073154'
+  date: '2026-10-30T07:31:54.177940+00:00'
+  text: 'On reading and quiet and research in the British Library Reading Rooms, where I spent every day working on my PhD https://www.theguardian.com/commentisfree/2026/oct/29/british-library-reading-rooms-co-working-space-national-library
+
+
+    This was a blissful time in my life.'
+  bluesky: https://bsky.app/profile/eve.gd/post/3mz3b7njmn72d
+  mastodon: https://hcommons.social/@mpe/117528692667985643
+- id: '20261028105212'
+  date: '2026-10-28T10:52:12.622321+00:00'
+  text: There's an option for my home IV pump to have the 'Connect' add-on, which transmits details of your infusion to a data dashboard. While I'm sure the stats are snazzy, given the cybersecurity issues we've had this month, I'm glad the NHS can't afford this!
+  bluesky: https://bsky.app/profile/eve.gd/post/3mywlhwvhtu2g
+  mastodon: https://hcommons.social/@mpe/117518155539176320
+- id: '20261027193652'
+  date: '2026-10-27T19:36:52.962294+00:00'
+  text: Shabana Mahmood urged to grant visa to former Weather Underground activist https://www.theguardian.com/politics/2026/oct/27/judith-clark-shabana-mahmood-visa-weather-underground
+  bluesky: https://bsky.app/profile/eve.gd/post/3myuydbiq4g2x
+  mastodon: https://hcommons.social/@mpe/117514556524044186
+- id: '20261027140749'
+  date: '2026-10-27T14:07:49.271902+00:00'
+  text: 'On Walter Koenig
+
+
+    https://latestartrek.substack.com/p/walter-koenig-rip'
+  bluesky: https://bsky.app/profile/eve.gd/post/3myufwtgtb72z
+  mastodon: https://hcommons.social/@mpe/117513262930176512
+- id: '20261027071046'
+  date: '2026-10-27T07:10:46.274639+00:00'
+  text: 'It looks like I have the early stages of another infection. This always manifests in a similar way: extreme morning pain in my neck, my shoulders, my hands, my knees, my ankles, and my feet. Hard even to move until my pain relief has kicked in. Agony. Burning.'
+  bluesky: https://bsky.app/profile/eve.gd/post/3myton2so742x
+  mastodon: https://hcommons.social/@mpe/117511622533092271
+- id: '20261026065606'
+  date: '2026-10-26T06:56:06.320274+00:00'
+  text: This piece by Adam Roberts has a TRULY TERRIBLE pun, but I have to admit... I bought the Star Trek shuttle craft dish... Thought it was hilarious. 🤓😂 https://latestartrek.substack.com/p/star-trek-the-undutchovend-country
+  bluesky: https://bsky.app/profile/eve.gd/post/3myr5dx6x2f2w
+  mastodon: https://hcommons.social/@mpe/117505902646341649
+- id: '20261025121608'
+  date: '2026-10-25T12:16:08.231751+00:00'
+  text: Also quite distressed to learn, through my own attempts, that Kagi is not great at historic searches. It could not turn up historic articles on a subject and was dominated by this year's results. Yes, I tried the time dropdown!
+  bluesky: https://bsky.app/profile/eve.gd/post/3myp6rao3c32f
+  mastodon: https://hcommons.social/@mpe/117501498608784015
+- id: '20261025120848'
+  date: '2026-10-25T12:08:48.970025+00:00'
+  text: Our tabloids are so vile. I believe The Sun wrote, before, that "Meghan should reunite with estranged father Thomas Markle as it felt like she 'cut him off quickly'". I only vaguely followed this frenzy, but the U-turn is so predictable. As though they'd never said all they said.
+  bluesky: https://bsky.app/profile/eve.gd/post/3myp6e5xdjh2f
+  mastodon: https://hcommons.social/@mpe/117501469978668475
+- id: '20261025105225'
+  date: '2026-10-25T10:52:25.868892+00:00'
+  text: 'News from home is that our dog Luka has been extremely scared by the storm. In panic, he raced to the forbidden upstairs and insisted on sleeping by Mrs Eve''s side on the floor. This morning, he joined her for tea. I am being supplanted by my dogs!
+
+
+    More seriously, we always let Luka come up when there is something like a storm or fireworks that frightens him. But, usually, he goes in the other room with Mrs Eve. He is not allowed in the bedroom constantly because of the dialysis machine.
+
+
+    I have been assured that my place is reserved when I come back. Luka has not been on the bed and he has not been anywhere near the dialysis machine. But it is kind of sweet how much he clings to Helen and loves her and finds safety in her.'
+  bluesky: https://bsky.app/profile/eve.gd/post/3myp23lip4627
+  mastodon: https://hcommons.social/@mpe/117501169517574857
+- id: '20261025103054'
+  date: '2026-10-25T10:30:54.331721+00:00'
+  text: Maybe 75% of my PhD supervision requests are clearly AI. Maybe ~75% of the remaining batch are then overseas candidates who cannot study without funding, which will be a depressing long shot. I always reply to these to discuss. The remainder cheer me up, though.
+  bluesky: https://bsky.app/profile/eve.gd/post/3myoyv3npvw2h
+  mastodon: https://hcommons.social/@mpe/117501084850294956
+- id: '20261025092544'
+  date: '2026-10-25T09:25:44.899789+00:00'
+  text: 'Yesterday was strange. I woke shivering with a temperature. Then I slept all day. But I do not mean ''I went to sleep''. It was like an irresistible force compelled me. I missed all meals. I did not realise I had gone to dialysis and back.
+
+
+    I have never known anything like this. It was extraordinary. I would fall asleep midway through speaking to someone if they had woken me up briefly.
+
+
+    I said to my wife on a call at 9:30pm, ''Yes, I''m just going to take my drugs, then go to bed.'' I ended the call, and next thing I knew it was 11:30pm; I had fallen asleep sitting up and not done either of those things properly.
+
+
+    Everyone says, ''Oh, your body needs sleep. It''s good for you. It''s probably a good thing.'' But seriously, this was something really wrong.
+
+
+    I have yet to find a way to convey the wrongness of this sleep from which you awake no less fatigued and which you cannot resist.'
+  bluesky: https://bsky.app/profile/eve.gd/post/3myovalef362f
+  mastodon: https://hcommons.social/@mpe/117500828673766299
+- id: '20261023205757'
+  date: '2026-10-23T20:57:57.055442+01:00'
+  text: Like f he is
+  images:
+  - src: /assets/thoughts/20261023205757-1.png
+    alt: Jensen Huang CEO is popular in your network
+  bluesky: https://bsky.app/profile/eve.gd/post/3mykxn6rch32v
+  mastodon: https://hcommons.social/@mpe/117491990030099427
+- id: '20261022100322'
+  date: '2026-10-22T10:03:22.924385+01:00'
+  text: 'Amusing that the ward I am on, the Intestinal Rehabilitation Unit, used to be called the Intestinal Failure Unit. Good motivational renaming there.
+
+
+    Also, "I FU" 😬'
+  bluesky: https://bsky.app/profile/eve.gd/post/3myhclsxtub2k
+  mastodon: https://hcommons.social/@mpe/117483753748954548
+- id: '20261022091745'
+  date: '2026-10-22T09:17:45.635058+01:00'
+  text: Just spent ages trying to remember the name "Docusign" so I could find a publication contract. My memory got stuck at "SignItIn".
+  bluesky: https://bsky.app/profile/eve.gd/post/3myha252qcy2e
+  mastodon: https://hcommons.social/@mpe/117483574156780829
+- id: '20261022082802'
+  date: '2026-10-22T08:28:02.439113+01:00'
+  text: 'My speech-to-text engine sometimes does "Dallas" for "dialysis". Texting my wife: "I''m just off to Dallas now".'
+  bluesky: https://bsky.app/profile/eve.gd/post/3myh5b7htj22v
+  mastodon: https://hcommons.social/@mpe/117483378599412817
+- id: '20261022065937'
+  date: '2026-10-22T06:59:37.770740+01:00'
+  text: Let's say you're in hospital - in immense pain - and prescribed a strong morphine-related painkiller. The doctors have said that you can ask for this whenever you need it. How long do you think it is reasonable to wait, in this pain, after you have asked the nurses for it?
+  bluesky: https://bsky.app/profile/eve.gd/post/3mygydagn362h
+  mastodon: https://hcommons.social/@mpe/117483031195526220
+- id: '20261021214250'
+  date: '2026-10-21T21:42:50.402842+01:00'
+  text: 'Quite frankly, today was terrible, work-wise. I spent 3hrs this AM with ongoing security remediation work (bad enough)... then the worst cybersecurity flaw in a long time was announced, with mere hours notice and attacks in the wild. Rest of the day: a total write off fixing this.'
+  bluesky: https://bsky.app/profile/eve.gd/post/3myfz7jfj2o26
+  mastodon: https://hcommons.social/@mpe/117480841608461989
+- id: '20261021082418'
+  date: '2026-10-21T08:24:18.351603+01:00'
+  text: The entire technical maintenance environment has changed, now. Vulnerabilities can no longer be patched "in a couple of days". They have to be done immediately because kids with AI agents will get hold of these known weaknesses and use them immediately. It is exhausting and stops the work we want to do.
+  bluesky: https://bsky.app/profile/eve.gd/post/3myemlna5sl24
+  mastodon: https://hcommons.social/@mpe/117477701696730765
+- id: '20261020122748'
+  date: '2026-10-20T12:27:48.011588+01:00'
+  text: The first Open Access Week in a decade and a half, I believe, where my health/being in hospital has prevented me from speaking entirely. Was due to speak at Indiana University today 😞
+  bluesky: https://bsky.app/profile/eve.gd/post/3mycjq7kafz2o
+  mastodon: https://hcommons.social/@mpe/117472997223323572
+- id: '20261020120916'
+  date: '2026-10-20T12:09:16.274873+01:00'
+  text: 'So proud of what my colleague and friend, Prof Caroline Edwards, is doing. She is building the diamond OA funding structure, at scale, of which we dreamed when we established OLH: OJC. https://www.openaccessweek.org/theme-profiles/open-journals-collective
+
+
+    Just to note, of course, that OLH owed debts to many institutions, collectives, organisations, and individuals that went before. But the thing I remember at the time was that people kept asking us: won''t YOU grow to be a new monopoly with this model? Hilarious!, we thought.
+
+
+    Mighty oaks from acorns grow? It is truly amazing to see Caroline''s energy realising this OJC mighty-oak vision for not-for-profit, high-quality, OA publishing, with neither author nor reader charges. These things don''t exist unless people with a vision build them.'
+  bluesky: https://bsky.app/profile/eve.gd/post/3mycip4w6on2j
+  mastodon: https://hcommons.social/@mpe/117472924281322457
+- id: '20261019173315'
+  date: '2026-10-19T17:33:15.406613+01:00'
+  text: Interesting-looking new (OA) article on the long-term preservation of scholarly blogs https://asistdl.onlinelibrary.wiley.com/doi/10.1002/asi.70126
+  bluesky: https://bsky.app/profile/eve.gd/post/3myakdemysg2f
+  mastodon: https://hcommons.social/@mpe/117468535653078202
+- id: '20261019083721'
+  date: '2026-10-19T08:37:21.374770+01:00'
+  text: 'Waiting for this painkiller is not a trivial encumbrance. It is my entire function. I can''t use my hands, every twist and turn I make, every sit-up to reach something, every attempt to do anything is agony w/out it. It''s what the "severe" in "severe rheumatoid arthritis" means.
+
+
+    But they made me wait 1hr 25mins to get it. I was crying in pain. I tried to do my other meds but my hands were shaking and extremely painful to use. I''m sure they were busy with other patients, but this is the ONE THING that I need on time. I don''t pester for anything else. It''s 3 tablets.'
+  bluesky: https://bsky.app/profile/eve.gd/post/3my7mfai27g2r
+  mastodon: https://hcommons.social/@mpe/117466428581951323
+- id: '20261019075622'
+  date: '2026-10-19T07:56:22.031815+01:00'
+  text: At home, I have strong opioid painkillers, controlled drugs, that I can take first thing. In hospital, they take these away from you and make you wait for a nurse to dispense them. I am in absolute agony and asked for them 50 minutes ago.
+  bluesky: https://bsky.app/profile/eve.gd/post/3my7k3woayz2j
+  mastodon: https://hcommons.social/@mpe/117466267369378509
+- id: '20261018212627'
+  date: '2026-10-18T21:26:27.722793+01:00'
+  text: I had a most cheering visit from Dr Paula Clement Vega this afternoon!
+  images:
+  - src: /assets/thoughts/20261018212627-1.jpg
+    alt: A picture of me, Martin Paul Eve, and Paula Clemente Vega in a hospital room - we are smiling and happy.
+  - src: /assets/thoughts/20261018212627-2.jpg
+    alt: A picture of me, Martin Paul Eve, and Paula Clemente Vega in a hospital room - we are smiling and happy and Paula is tilting her body and raising her arm in an amusing way. We are both laughing.
+  bluesky: https://bsky.app/profile/eve.gd/post/3my6gvkaccf25
+  mastodon: https://hcommons.social/@mpe/117463790746746508
+- id: '20261018151623'
+  date: '2026-10-18T15:16:23.913253+01:00'
+  text: I do actually love Sundays, with the quiet, non-dialysis afternoon. I get but two of these per week, on Wednesday and Sunday. A friend will visit later, but for now I am writing.
+  images:
+  - src: /assets/thoughts/20261018151623-1.jpg
+    alt: A picture of me, Martin Paul Eve, writing at a computer, in a hospital, with a hospital wrist band and an Apple Mac computer running a Linux virtual machine. I am a white man, here with germinative beard and longer hair than usual by a long way (but still fairly short). I am wearing a Janeway t-shirt.
+  bluesky: https://bsky.app/profile/eve.gd/post/3my5s7roigd2r
+  mastodon: https://hcommons.social/@mpe/117462335541647992
+- id: '20261018140802'
+  date: '2026-10-18T14:08:02.750746+01:00'
+  text: For the 100th anniversary of Michel Foucault's birth, Duke University Press is making many Foucault titles free. https://dukeupress.wordpress.com/2026/10/15/michel-foucault-centennial/ The books don't seem actually to be free (yet?) but everything else is!
+  bluesky: https://bsky.app/profile/eve.gd/post/3my5ofljg6m2f
+  mastodon: https://hcommons.social/@mpe/117462066499553717
+- id: '20261018125321'
+  date: '2026-10-18T12:53:21.452905+01:00'
+  text: '"QS had expressed concern that Romi would get an unfair advantage over other candidates"
+
+
+    SHE HAS TO WRITE BY BLINKING. WHAT ADVANTAGE? https://www.bbc.co.uk/news/articles/c6zxj8grer7ro
+
+
+    This is a very typical response to disability accommodations. They are seen as giving the disabled person an advantage, when really they''re just trying to make it possible. It is a confusion between equality and equity.
+
+
+    Personally, I think this examination board should offer all students the opportunity to conduct their examinations solely by blinking out the spelling of letters and see how many people really wish to take up this option, with its many advantages over other candidates.'
+  bluesky: https://bsky.app/profile/eve.gd/post/3my5ka4cwh52a
+  mastodon: https://hcommons.social/@mpe/117461773002611104
+- id: '20261018101013'
+  date: '2026-10-18T10:10:13.184267+01:00'
+  text: Today I will start a physiotherapy programme to try to prepare myself for getting home. That's still a way off, but I cannot walk more than 5m by myself at the moment. Hospital deconditioning is extreme.
+  bluesky: https://bsky.app/profile/eve.gd/post/3my5b4eg33g2o
+  mastodon: https://hcommons.social/@mpe/117461133878449279
+- id: '20261018085710'
+  date: '2026-10-18T08:57:10.505740+01:00'
+  text: 'Had a cup of tea + small glass of water to take my medications.
+
+
+    That''s my entire fluid allowance for today. 500ml.'
+  bluesky: https://bsky.app/profile/eve.gd/post/3my54zqpepj2m
+  mastodon: https://hcommons.social/@mpe/117460844351576202
+- id: '20261018084818'
+  date: '2026-10-18T08:48:18.805736+01:00'
+  text: '"DCR separates the assertion of identity from any authority over that identity". The last section on limits of CIMD shows similar problems, though. https://aaronparecki.com/2026/07/29/19/solving-missing-trust-anchor-in-dynamic-client-registration-with-cimd'
+  bluesky: https://bsky.app/profile/eve.gd/post/3my54jwtagc2r
+  mastodon: https://hcommons.social/@mpe/117460809412788774
+- id: '20261017183119'
+  date: '2026-10-17T18:31:19.265487+01:00'
+  text: 'This is a total piss take. I mean, which other industry''s product is regulated based on the ultra-low bar of not killing 50 people? Oh wait, I forgot. The US has guns.
+
+    https://www.politico.com/news/2026/10/16/anthropic-ai-safety-01124654
+
+
+    I guess the problem is they are just not willing to enforce laws against corporations. OpenAI should be held liable criminally, if it kills someone.* Somebody tangibly human in the corporation should be the subject of that liability.
+
+
+    * it should be taken as read that people who have killed themselves on the provocation of chatbots already count. As well as elementary schools targeted for bombing'
+  bluesky: https://bsky.app/profile/eve.gd/post/3my3mnieopy2x
+  mastodon: https://hcommons.social/@mpe/117457439526436500
+- id: '20261017114815'
+  date: '2026-10-17T11:48:15.412505+01:00'
+  text: 'My mother-in-law has cats. Lots of cats. And she lives in deepest Somerset. Her beloved cat, Bertie, has been missing for weeks, but he''s just showed up... in Cardiff!
+
+
+    What did this cat do? Catch the train? Has he been on a holiday somewhere in the meantime? Extraordinary distance to have roamed.'
+  bluesky: https://bsky.app/profile/eve.gd/post/3my2w4qlt7u2a
+  mastodon: https://hcommons.social/@mpe/117455854747148729
+- id: '20261017091047'
+  date: '2026-10-17T09:10:47.096862+01:00'
+  text: 'A new annoying trend: self-published authors writing to me asking whether I will act as their agent or review their book. OK, not terrible. But they resend if I haven''t replied in 2 days!'
+  bluesky: https://bsky.app/profile/eve.gd/post/3my2nd5zcza2f
+  mastodon: https://hcommons.social/@mpe/117455235387822899
+- id: '20261016084438'
+  date: '2026-10-16T08:44:38.747909+01:00'
+  text: A most entertaining Q&A with guitar god and folk-rock legend, Richard Thompson https://www.theguardian.com/music/2026/oct/15/richard-thompson-hippies-thugs-and-heroes-interview
+  bluesky: https://bsky.app/profile/eve.gd/post/3mxy3fjc6wa2f
+  mastodon: https://hcommons.social/@mpe/117449472953973553
+- id: '20261016081812'
+  date: '2026-10-16T08:18:12.083683+01:00'
+  text: Linus Torvalds wants to talk succession planning, but also said he wants to "make it harder for new people to contribute code to the kernel" 🤔 https://lwn.net/SubscriberLink/1099594/be20382b54a9b4cd/
+  bluesky: https://bsky.app/profile/eve.gd/post/3mxxzwajgaj25
+  mastodon: https://hcommons.social/@mpe/117449369787520162
+- id: '20261016070422'
+  date: '2026-10-16T07:04:22.946222+01:00'
+  text: Perhaps the most frustrating of my malnutrition symptoms is my shaking. I go to use my phone, for instance, and I inevitably double-tap with a twitch when I only wanted to single-press on an item. It makes many digital devices quite difficult to use.
+  bluesky: https://bsky.app/profile/eve.gd/post/3mxxvs7isvk2f
+  mastodon: https://hcommons.social/@mpe/117449076013102020
+- id: '20261015122449'
+  date: '2026-10-15T12:24:49.209215+01:00'
+  text: 'Intelligence: Computation or Symbolic Form? an event at Birkbeck, University of London. Online and in-person attendance options. With N. Katherine Hayles just one participant in a starry cast. https://www.bbk.ac.uk/events/event/65932/intelligence-computation-or-symbolic-form-in-person'
+  bluesky: https://bsky.app/profile/eve.gd/post/3mxvxa6ftf32o
+  mastodon: https://hcommons.social/@mpe/117444673567988464
+- id: '20261015110638'
+  date: '2026-10-15T11:06:38.474273+01:00'
+  text: Well, this morning I passed my competency training in disconnection from IV feeding. I now know safely how to disconnect and am authorised to do it myself tomorrow morning. Exciting!
+  bluesky: https://bsky.app/profile/eve.gd/post/3mxvsuibipf2a
+  mastodon: https://hcommons.social/@mpe/117444366307797348
+- id: '20261014112711'
+  date: '2026-10-14T11:27:11.352626+01:00'
+  text: 'Janeway is pleased to announce a new collaboration with PLOS to develop and extend the Janeway codebase for use in parts of PLOS’s article submission process https://www.openlibhums.org/news/1025/
+
+
+    We''ve gone from Andy and me coding Janeway by hand, in those pre-AI days, over a weekend or so, to Janeway, a solid structure for OA journal publication workflows. Now being used and developed by a major scientific publisher.
+
+
+    I never had aspirations for it like this. I just wanted it to do what we needed it to do. If there is a cool way for other organisations to make it do what they need, too, so long as it does not violate our ethical principles, then that is fantastic.'
+  bluesky: https://bsky.app/profile/eve.gd/post/3mxtdkdy7wc2j
+  mastodon: https://hcommons.social/@mpe/117438784934827845
+- id: '20261013195115'
+  date: '2026-10-13T19:51:15.762672+01:00'
+  text: 'Okay, I would be most grateful for your thoughts and input: for my Star Trek:Voyager book/monograph, should there be an index?
+
+
+    There''s an open online copy, so you can search, but thematic connections can be drawn much better in an index.'
+  bluesky: https://bsky.app/profile/eve.gd/post/3mxrpaqpzfn2j
+  mastodon: https://hcommons.social/@mpe/117435104611688893
+- id: '20261013093653'
+  date: '2026-10-13T09:36:53.824685+01:00'
+  text: I receive several PhD applications per week on some intersection of literature with AI. It often looks as though the paragraph about my work has itself been AI generated. Dispiriting.
+  bluesky: https://bsky.app/profile/eve.gd/post/3mxqmw6eazy25
+  mastodon: https://hcommons.social/@mpe/117432688813460687
+- id: '20261013090610'
+  date: '2026-10-13T09:06:10.106603+01:00'
+  text: 'Is It Open?™
+
+
+    Our proprietary openness classifier.
+
+    Enter any product. Our closed-source model will tell you how open it is. https://openfatigue.ai/'
+  bluesky: https://bsky.app/profile/eve.gd/post/3mxql7ak64225
+  mastodon: https://hcommons.social/@mpe/117432568031605722
+- id: '20261013074129'
+  date: '2026-10-13T07:41:29.072197+01:00'
+  text: Nurse practitioner, not a doctor, sees nine-year-old in A&E. She ignores GP referral, which suspects appendicitis. She sends boy home with diagnosis of Flu. Child dies of ruptured appendix. https://www.reddit.com/r/doctorsUK/s/7GDTqzLvnU
+  bluesky: https://bsky.app/profile/eve.gd/post/3mxqghsh7n725
+  mastodon: https://hcommons.social/@mpe/117432235007536084
+- id: '20261013070058'
+  date: '2026-10-13T07:00:58.840269+01:00'
+  text: 'I''m sure this is right. I went to my GP 6x before I was believed. Finally, a female GP referred me to hospital immediately and reprimanded her male colleague. https://www.theguardian.com/society/2026/oct/13/women-autoimmune-conditions-psychological-misdiagnosis-cambridge-study
+
+
+    This study shows that, if this was my experience, it is much worse for women. I think I had it bad because I was outside the core demographic for RA. But medics need to listen.
+
+
+    There are so many horror stories of RA patients, who are predominantly female, reporting terrible diagnostic pathways, taking years on end for them to be listened to, understood, and treated, for a harrowing disease.'
+  bluesky: https://bsky.app/profile/eve.gd/post/3mxqe7flide2f
+  mastodon: https://hcommons.social/@mpe/117432075821491775
+- id: '20261012071553'
+  date: '2026-10-12T07:15:53.771932+01:00'
+  text: Just bought this book from Open Book Publishers in paperback. The Politics of Open Infrastructures. https://www.openbookpublishers.com/books/10.11647/OBP.0528
+  bluesky: https://bsky.app/profile/eve.gd/post/3mxnul5isok25
+  mastodon: https://hcommons.social/@mpe/117426472131364192
+- id: '20261011134941'
+  date: '2026-10-11T13:49:41.022780+01:00'
+  text: 'I''m sad to hear of Chris Wickham''s death. He was my editor on a British Academy volume on open access. He even-handedly let me say my piece, while probably disagreeing.
+
+    https://www.thebritishacademy.ac.uk/publications/debating-open-access/'
+  bluesky: https://bsky.app/profile/eve.gd/post/3mxm24efyjo2n
+  mastodon: https://hcommons.social/@mpe/117422358218053038
+- id: '20261009224745'
+  date: '2026-10-09T22:47:45.727606+01:00'
+  text: 'kfitz - In the Wake https://kfitz.info/in-the-wake/
+
+
+    Adapted: In the early hours of October 2, ET, we discovered clear evidence that we were experiencing a malicious intrusion. I initiated an immediate shutdown of the platform, a rotation of all of our access keys, and a revocation of our CILogon authorization keys.'
+  bluesky: https://bsky.app/profile/eve.gd/post/3mxhxaokfql2o
+  mastodon: https://hcommons.social/@mpe/117413149414171157
+- id: '20261009214627'
+  date: '2026-10-09T21:46:27.312599+01:00'
+  text: The people holding up the internet https://sheets.works/data-viz/holding-up-the-internet
+  mastodon: https://hcommons.social/@mpe/117412908314743072
+  bluesky: https://bsky.app/profile/eve.gd/post/3mxjofrvomk25
+- id: '20261009104418'
+  date: '2026-10-09T10:44:18.177589+01:00'
+  text: 'Emergency supply of caffeinated tea: delivered to the hospital by Mrs Eve this week. Saviour. '
+  images:
+  - src: /assets/thoughts/20261009104418-1.jpg
+    alt: A box of Yorkshire Gold tea
+  bluesky: https://bsky.app/profile/eve.gd/post/3mxgosysagm2q
+  mastodon: https://hcommons.social/@mpe/117410440615949659
+- id: '20261009071330'
+  date: '2026-10-09T07:13:30.722301+01:00'
+  text: I'll believe it when I see it, but I spoke with a very nice man at Motability yesterday, who promised that they would not take away my wheelchair. Apparently, the dealership should not have just, in the first instance, immediately called me to tell me my contract was terminated.
+  bluesky: https://bsky.app/profile/eve.gd/post/3mxgd23tc3p2r
+  mastodon: https://hcommons.social/@mpe/117409475749826608
 - id: '20261009002443'
   date: '2026-10-09T00:24:43.905274+01:00'
   text: Unbelievable. A livestream of someone being killed. Public execution back in the US. "Execution tonight, at 6, all channels." https://www.theguardian.com/us-news/2026/oct/08/hegseth-fort-hood-shooter-public-execution

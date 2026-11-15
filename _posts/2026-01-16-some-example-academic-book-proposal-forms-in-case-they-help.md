@@ -18,6 +18,7 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/n6aza-hb115
 biron: https://eprints.bbk.ac.uk/id/eprint/56848/
+smolpub: some-example-academic-book-proposal-forms-in-case-they-help
 references:
 - author: Lisa Janicke Hinchliffe
   date: '2026-01-14'

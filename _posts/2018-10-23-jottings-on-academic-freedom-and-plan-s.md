@@ -16,6 +16,7 @@ categories:
 - Higher Education
 kcworks: https://works.hcommons.org/records/hdcsk-rym79
 biron: https://eprints.bbk.ac.uk/id/eprint/24817/
+smolpub: jottings-on-academic-freedom-and-plan-s
 references:
 - author: Stuart Shieber
   date: '2009-05-28'

@@ -16,6 +16,7 @@ categories:
 - Health
 kcworks: https://works.hcommons.org/records/zfwfn-abt48
 biron: https://eprints.bbk.ac.uk/id/eprint/30274/
+smolpub: the-new-ref-individual-circumstances-setup-the-good-and-the-bad
 references:
 - https://www.researchprofessional.com/0/rr/news/uk/ref-2014/2019/12/REF-staff-circumstances-rules-criticised.html # Research Fortnight on REF staff circumstances rules
 ---

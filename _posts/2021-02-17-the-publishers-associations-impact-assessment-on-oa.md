@@ -16,6 +16,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/f3qd5-9m584
 biron: https://eprints.bbk.ac.uk/id/eprint/43089/
+smolpub: the-publishers-associations-impact-assessment-on-oa
 references:
 - date: '2021-02-17'
   title: Economic Impact Assessment

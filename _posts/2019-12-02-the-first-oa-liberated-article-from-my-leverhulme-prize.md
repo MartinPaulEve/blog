@@ -17,6 +17,7 @@ categories:
 - Literature
 kcworks: https://works.hcommons.org/records/ty77b-42e39
 biron: https://eprints.bbk.ac.uk/id/eprint/30118/
+smolpub: the-first-oa-liberated-article-from-my-leverhulme-prize
 references:
 - https://eprints.bbk.ac.uk/12246/1/02_Eve_with_logo.pdf # Eve, Pynchon and Foster Wallace article, Birkbeck eprint
 ---

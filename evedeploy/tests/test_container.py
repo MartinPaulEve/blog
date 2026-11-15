@@ -6,6 +6,7 @@ environment rather than asserting on flag order, so the implementation can
 move flags around freely as long as the container sees the same world.
 """
 
+import subprocess
 from pathlib import Path
 
 import pytest
@@ -16,7 +17,12 @@ from evedeploy.container import (
     agent_sockets,
     detect_runtime,
     ensure_image,
+    env_value,
     git_config_files,
+    host_biron_session,
+    needs_host_biron_session,
+    host_entry,
+    hosts_file_for,
     host_timezone,
     image_tag,
     native_command,
@@ -596,3 +602,280 @@ class TestMain:
         code = container.main(["--quick"], exec_=lambda *a: None)
         assert code != 0
         assert "runtime" in capsys.readouterr().err
+
+
+# --- the BIROn session, settled on the host before the container runs ----
+
+
+def biron_repo(tmp_path, env="REMOTE_BUILD_HOST=waldorf\nBIRON_COOKIE=auto\n",
+               driver=True):
+    if driver:
+        (tmp_path / "biron.sh").write_text("# biron driver")
+    (tmp_path / ".env").write_text(env)
+    return tmp_path
+
+
+class TestNeedsHostBironSession:
+    def test_a_full_remote_deploy_needs_it(self, tmp_path):
+        root = biron_repo(tmp_path)
+        assert needs_host_biron_session(["Publish now"], root) is True
+        assert needs_host_biron_session(["--no-sequoia", "Publish now"], root)
+        assert needs_host_biron_session([], root) is True
+
+    @pytest.mark.parametrize("flag", ["--quick", "--build-only", "--local",
+                                      "--remote-phase", "--remote-check",
+                                      "--help"])
+    def test_other_runs_do_not(self, tmp_path, flag):
+        root = biron_repo(tmp_path)
+        assert needs_host_biron_session([flag, "Publish now"], root) is False
+
+    def test_without_a_remote_host_the_pipeline_handles_it_itself(self, tmp_path):
+        root = biron_repo(tmp_path, env="BIRON_COOKIE=auto\n")
+        assert needs_host_biron_session(["Publish now"], root) is False
+
+    def test_without_biron_configuration_nothing_is_needed(self, tmp_path):
+        root = biron_repo(tmp_path, env="REMOTE_BUILD_HOST=waldorf\n")
+        assert needs_host_biron_session(["Publish now"], root) is False
+
+    def test_without_the_driver_script_nothing_is_needed(self, tmp_path):
+        root = biron_repo(tmp_path, driver=False)
+        assert needs_host_biron_session(["Publish now"], root) is False
+
+    def test_without_an_env_file_nothing_is_needed(self, tmp_path):
+        (tmp_path / "biron.sh").write_text("# biron driver")
+        assert needs_host_biron_session(["Publish now"], tmp_path) is False
+
+
+class RecordingRun:
+    """A subprocess.run stand-in returning a scripted exit status."""
+
+    def __init__(self, returncode=0, error=None):
+        self.returncode = returncode
+        self.error = error
+        self.calls = []
+
+    def __call__(self, cmd, cwd=None, **kwargs):
+        self.calls.append({"cmd": list(cmd), "cwd": cwd})
+        if self.error:
+            raise self.error
+        return subprocess.CompletedProcess(cmd, self.returncode)
+
+
+class TestHostBironSession:
+    def test_runs_the_session_command_in_the_repo(self, tmp_path):
+        run = RecordingRun()
+        assert host_biron_session(tmp_path, run=run, echo=lambda *_: None) is True
+        assert run.calls == [{"cmd": ["./biron.sh", "session"], "cwd": tmp_path}]
+
+    def test_a_keyboard_skip_is_reported_and_tolerated(self, tmp_path):
+        lines = []
+        run = RecordingRun(returncode=3)
+        assert host_biron_session(tmp_path, run=run, echo=lines.append) is False
+        assert any("BIROn" in line for line in lines)
+
+    def test_a_failure_is_reported_and_tolerated(self, tmp_path):
+        lines = []
+        run = RecordingRun(returncode=1)
+        assert host_biron_session(tmp_path, run=run, echo=lines.append) is False
+        assert any("BIROn" in line for line in lines)
+
+    def test_a_missing_host_toolchain_is_tolerated(self, tmp_path):
+        lines = []
+        run = RecordingRun(error=FileNotFoundError("uv"))
+        assert host_biron_session(tmp_path, run=run, echo=lines.append) is False
+        assert any("BIROn" in line for line in lines)
+
+
+class TestMainBironSession:
+    def repo(self, tmp_path, monkeypatch, env):
+        (tmp_path / "evedeploy" / "container").mkdir(parents=True)
+        (tmp_path / "evedeploy" / "container" / "Dockerfile").write_text("FROM x")
+        (tmp_path / "evedeploy" / "container" / "entrypoint.sh").write_text("#!/bin/sh")
+        (tmp_path / "Gemfile").write_text("")
+        (tmp_path / "Gemfile.lock").write_text("")
+        (tmp_path / "biron.sh").write_text("# biron driver")
+        (tmp_path / ".env").write_text(env)
+        monkeypatch.setattr(container, "repo_root", lambda: tmp_path)
+        monkeypatch.setattr(container, "detect_runtime", lambda **kw: "docker")
+        monkeypatch.setattr(container, "ensure_image", lambda *a, **kw: None)
+        monkeypatch.setattr(container, "host_entry", lambda *a, **kw: None)
+        order = []
+        monkeypatch.setattr(
+            container, "host_biron_session",
+            lambda root, **kw: order.append(("biron", root)) or True)
+        seen = {}
+
+        def fake_exec(prog, argv):
+            order.append(("exec", prog))
+            seen["prog"], seen["argv"] = prog, argv
+
+        return order, seen, fake_exec
+
+    FULL = "REMOTE_BUILD_HOST=waldorf\nBIRON_COOKIE=auto\n"
+
+    def test_a_full_remote_deploy_settles_biron_here_first(
+            self, monkeypatch, tmp_path):
+        order, seen, fake_exec = self.repo(tmp_path, monkeypatch, self.FULL)
+        container.main(["--no-sequoia", "Publish now"], exec_=fake_exec)
+        assert order == [("biron", tmp_path), ("exec", "docker")]
+        assert "--no-biron-login" in seen["argv"]
+        assert seen["argv"][-1] == "Publish now"
+        assert "--no-sequoia" in seen["argv"]
+
+    def test_the_container_still_runs_when_the_session_fails(
+            self, monkeypatch, tmp_path):
+        _, seen, fake_exec = self.repo(tmp_path, monkeypatch, self.FULL)
+        monkeypatch.setattr(container, "host_biron_session",
+                            lambda root, **kw: False)
+        container.main(["Publish now"], exec_=fake_exec)
+        assert seen["prog"] == "docker"
+        assert "--no-biron-login" in seen["argv"]
+
+    def test_a_quick_deploy_leaves_biron_alone(self, monkeypatch, tmp_path):
+        order, seen, fake_exec = self.repo(tmp_path, monkeypatch, self.FULL)
+        container.main(["--quick"], exec_=fake_exec)
+        assert order == [("exec", "docker")]
+        assert "--no-biron-login" not in seen["argv"]
+
+    def test_a_local_deploy_leaves_it_to_the_pipeline(self, monkeypatch, tmp_path):
+        order, seen, fake_exec = self.repo(tmp_path, monkeypatch, self.FULL)
+        container.main(["--local", "--yes"], exec_=fake_exec)
+        assert order == [("exec", "docker")]
+        assert "--no-biron-login" not in seen["argv"]
+
+    def test_native_mode_leaves_it_to_the_pipeline(self, monkeypatch, tmp_path):
+        order, seen, fake_exec = self.repo(tmp_path, monkeypatch, self.FULL)
+        container.main(["--native", "Publish now"], exec_=fake_exec)
+        assert order == [("exec", "uv")]
+        assert "--no-biron-login" not in seen["argv"]
+
+    def test_a_shell_never_touches_biron(self, monkeypatch, tmp_path):
+        order, _, fake_exec = self.repo(tmp_path, monkeypatch, self.FULL)
+        container.main(["--shell"], exec_=fake_exec)
+        assert order == [("exec", "docker")]
+
+
+# --- the remote build host's name inside the container -------------------
+
+
+class TestEnvValue:
+    def test_reads_a_plain_assignment(self, tmp_path):
+        env = tmp_path / ".env"
+        env.write_text("FOO=1\nREMOTE_BUILD_HOST=waldorf\n")
+        assert env_value(env, "REMOTE_BUILD_HOST") == "waldorf"
+
+    def test_strips_quotes_and_whitespace(self, tmp_path):
+        env = tmp_path / ".env"
+        env.write_text('REMOTE_BUILD_HOST = "waldorf" \n')
+        assert env_value(env, "REMOTE_BUILD_HOST") == "waldorf"
+
+    def test_ignores_comments_and_commented_out_lines(self, tmp_path):
+        env = tmp_path / ".env"
+        env.write_text("# REMOTE_BUILD_HOST=old\nREMOTE_BUILD_HOST=waldorf # live\n")
+        assert env_value(env, "REMOTE_BUILD_HOST") == "waldorf"
+
+    def test_missing_key_or_file_gives_none(self, tmp_path):
+        env = tmp_path / ".env"
+        env.write_text("FOO=1\n")
+        assert env_value(env, "REMOTE_BUILD_HOST") is None
+        assert env_value(tmp_path / "absent", "REMOTE_BUILD_HOST") is None
+
+    def test_empty_value_gives_none(self, tmp_path):
+        env = tmp_path / ".env"
+        env.write_text("REMOTE_BUILD_HOST=\n")
+        assert env_value(env, "REMOTE_BUILD_HOST") is None
+
+
+class TestHostEntry:
+    RESOLVES = {"waldorf": "100.64.128.23",
+                "waldorf.example.net": "100.64.128.23"}
+
+    def resolve(self, name):
+        if name not in self.RESOLVES:
+            raise OSError("no such host")
+        return self.RESOLVES[name]
+
+    def test_resolves_the_name_ssh_will_actually_use(self):
+        # `Host waldorf` may map to another HostName; that is what the
+        # ssh inside the container looks up.
+        entry = host_entry("waldorf", ssh_hostname=lambda n: "waldorf.example.net",
+                           resolve=self.resolve, hosts_text="")
+        assert entry == "100.64.128.23 waldorf.example.net"
+
+    def test_plain_name_maps_to_itself(self):
+        entry = host_entry("waldorf", ssh_hostname=lambda n: n,
+                           resolve=self.resolve, hosts_text="")
+        assert entry == "100.64.128.23 waldorf"
+
+    def test_no_host_configured_gives_none(self):
+        assert host_entry(None, ssh_hostname=lambda n: n,
+                          resolve=self.resolve, hosts_text="") is None
+
+    def test_ip_literals_need_no_entry(self):
+        assert host_entry("100.64.128.23", ssh_hostname=lambda n: n,
+                          resolve=self.resolve, hosts_text="") is None
+        assert host_entry("waldorf", ssh_hostname=lambda n: "100.64.128.23",
+                          resolve=self.resolve, hosts_text="") is None
+
+    def test_names_already_in_etc_hosts_need_no_entry(self):
+        hosts = "127.0.0.1 localhost\n100.64.128.23 waldorf waldorf.lan\n"
+        assert host_entry("waldorf", ssh_hostname=lambda n: n,
+                          resolve=self.resolve, hosts_text=hosts) is None
+
+    def test_a_commented_hosts_line_does_not_count(self):
+        hosts = "#100.64.128.23 waldorf\n"
+        entry = host_entry("waldorf", ssh_hostname=lambda n: n,
+                           resolve=self.resolve, hosts_text=hosts)
+        assert entry == "100.64.128.23 waldorf"
+
+    def test_unresolvable_name_gives_none(self):
+        assert host_entry("nowhere", ssh_hostname=lambda n: n,
+                          resolve=self.resolve, hosts_text="") is None
+
+    def test_ssh_hostname_failure_falls_back_to_the_name(self):
+        def broken(name):
+            raise OSError("no ssh")
+        entry = host_entry("waldorf", ssh_hostname=broken,
+                           resolve=self.resolve, hosts_text="")
+        assert entry == "100.64.128.23 waldorf"
+
+
+class TestHostsFileFor:
+    def test_without_an_entry_the_system_hosts_file_is_used(self, tmp_path):
+        path = hosts_file_for(tmp_path / "home", entry=None,
+                              system_hosts=tmp_path / "hosts")
+        assert path == tmp_path / "hosts"
+
+    def test_with_an_entry_an_augmented_copy_is_written_under_home(
+            self, tmp_path):
+        system = tmp_path / "hosts"
+        system.write_text("127.0.0.1 localhost\n")
+        home = tmp_path / "home"
+        path = hosts_file_for(home, entry="100.64.128.23 waldorf",
+                              system_hosts=system)
+        assert path != system
+        assert str(path).startswith(str(home))
+        text = path.read_text()
+        assert "127.0.0.1 localhost" in text
+        assert text.rstrip().endswith("100.64.128.23 waldorf")
+
+    def test_the_copy_is_rewritten_each_time(self, tmp_path):
+        system = tmp_path / "hosts"
+        system.write_text("127.0.0.1 localhost\n")
+        home = tmp_path / "home"
+        hosts_file_for(home, entry="10.0.0.1 waldorf", system_hosts=system)
+        path = hosts_file_for(home, entry="10.0.0.2 waldorf", system_hosts=system)
+        assert "10.0.0.1" not in path.read_text()
+        assert "10.0.0.2 waldorf" in path.read_text()
+
+
+class TestRunCommandHosts:
+    def test_a_given_hosts_file_is_mounted_as_etc_hosts(self, base_kwargs):
+        mounts = mounts_of(run_command(**base_kwargs,
+                                       hosts="/home/someone/.cache/evedeploy/hosts"))
+        assert mounts["/home/someone/.cache/evedeploy/hosts"] == ("/etc/hosts", "ro")
+        assert "/etc/hosts" not in mounts
+
+    def test_default_is_the_system_hosts_file(self, base_kwargs):
+        mounts = mounts_of(run_command(**base_kwargs))
+        assert mounts["/etc/hosts"] == ("/etc/hosts", "ro")

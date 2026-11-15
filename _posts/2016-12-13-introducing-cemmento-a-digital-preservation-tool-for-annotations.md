@@ -16,6 +16,7 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/eqhga-pm816
 biron: https://eprints.bbk.ac.uk/id/eprint/17627/
+smolpub: introducing-cemmento-a-digital-preservation-tool-for-annotations
 references:
 - title: cemmento
   type: SoftwareSourceCode

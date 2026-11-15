@@ -5,6 +5,7 @@ date: 2026-08-28
 doi: https://doi.org/10.59348/mjvdw-w0051
 kcworks: https://works.hcommons.org/records/83n59-ana25
 biron: https://eprints.bbk.ac.uk/id/eprint/57929/
+smolpub: repository-metadata-contain-ontological-ambiguities-that-fold-into-flat-hierarchies
 roguescholar: https://rogue-scholar.org/records/9ghn2-5j664
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mu56pop6m52k
 image:

@@ -16,6 +16,7 @@ categories:
 - Literature
 kcworks: https://works.hcommons.org/records/w3nh8-q3f22
 biron: https://eprints.bbk.ac.uk/id/eprint/26128/
+smolpub: how-to-read-a-blank-page
 references:
 - https://doi.org/10.1080/00111619.2019.1568960 # Eve article on redaction in contemporary fiction
 - author: Martin Paul Eve

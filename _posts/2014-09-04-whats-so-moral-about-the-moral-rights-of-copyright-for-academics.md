@@ -25,6 +25,7 @@ wordpress_url: https://www.martineve.com/?p=3203
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7meuodsh2a"
 kcworks: https://works.hcommons.org/records/y4wrk-w9z35
 biron: https://eprints.bbk.ac.uk/id/eprint/17328/
+smolpub: whats-so-moral-about-the-moral-rights-of-copyright-for-academics
 references:
 - title: Open Access (the book)
   type: WebPage

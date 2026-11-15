@@ -12,6 +12,7 @@ categories:
 - Politics
 kcworks: https://works.hcommons.org/records/89agb-90g77
 biron: https://eprints.bbk.ac.uk/id/eprint/52892/
+smolpub: land-of-hope-and-tolerance
 references:
 - author: Larry Elliott
   date: '2023-12-05'

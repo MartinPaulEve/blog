@@ -24,6 +24,7 @@ wordpress_url: http://www.martineve.com/?p=555
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkw64ki2p"
 kcworks: https://works.hcommons.org/records/45wpy-r4k96
 biron: https://eprints.bbk.ac.uk/id/eprint/16966/
+smolpub: publication-e2-80-98local-transcendence-postmodern-historiography-and-the-database-by-alan-liu-e2-80-99-textual-practice-24-6-december-2010
 references:
 - http://www.informaworld.com/smpp/content~db=all~content=a930064208~frm=titlelink # Textual Practice journal article page informaworld
 - title: Deed - Attribution-ShareAlike 3.0 Unported

@@ -16,6 +16,7 @@ categories:
 - Digital Humanities
 kcworks: https://works.hcommons.org/records/qdgxf-pna67
 biron: https://eprints.bbk.ac.uk/id/eprint/53840/
+smolpub: theses-on-the-metaphors-of-digital-textual-history-is-out-today
 references:
 - title: Theses on the Metaphors of Digital-Textual History
   type: Book

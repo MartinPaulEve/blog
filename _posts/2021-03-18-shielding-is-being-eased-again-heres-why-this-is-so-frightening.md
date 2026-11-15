@@ -15,6 +15,7 @@ categories:
 - Politics
 kcworks: https://works.hcommons.org/records/fk923-r3827
 biron: https://eprints.bbk.ac.uk/id/eprint/43692/
+smolpub: shielding-is-being-eased-again-heres-why-this-is-so-frightening
 ---
 
 Non-vulnerable people perhaps don't understand why the government advice to shielders is so frightening. I think I can give a flavour though:

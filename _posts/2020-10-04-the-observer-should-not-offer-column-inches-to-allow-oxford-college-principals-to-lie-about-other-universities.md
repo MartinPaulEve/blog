@@ -16,6 +16,7 @@ categories:
 - Higher Education
 kcworks: https://works.hcommons.org/records/ns786-vpk46
 biron: https://eprints.bbk.ac.uk/id/eprint/40994/
+smolpub: the-observer-should-not-offer-column-inches-to-allow-oxford-college-principals-to-lie-about-other-universities
 references:
 - author: Will Hutton
   date: '2020-10-04'

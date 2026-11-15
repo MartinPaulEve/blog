@@ -17,6 +17,7 @@ categories:
 - Information Security
 kcworks: https://works.hcommons.org/records/tgrv9-tbt87
 biron: https://eprints.bbk.ac.uk/id/eprint/51639/
+smolpub: we-are-terrible-at-online-identity-management-or-using-emails-as-an-identifier-was-a-bad-move
 references:
 - title: ORCID
   type: WebSite

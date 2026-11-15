@@ -16,6 +16,7 @@ categories:
 - Higher Education
 kcworks: https://works.hcommons.org/records/78z8p-p9f77
 biron: https://eprints.bbk.ac.uk/id/eprint/30952/
+smolpub: open-access-monographs-and-the-ref-after-ref-2021
 references:
 - https://www.universitiesuk.ac.uk/policy-and-analysis/reports/Pages/open-access-monographs-evidence-review.aspx # UUK Open Access Monographs Working Group report
 ---

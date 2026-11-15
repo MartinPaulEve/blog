@@ -15,6 +15,7 @@ categories:
 - Copyright and Licensing
 kcworks: https://works.hcommons.org/records/va8pv-2zy47
 biron: https://eprints.bbk.ac.uk/id/eprint/53866/
+smolpub: boycott-routledge-over-ai-training-its-probably-in-the-contract
 ---
 
 There's a movement at the moment on social media where angry academic authors are gathering with the intent to boycott Routledge, who are apparently distributing academic works for training in AI.

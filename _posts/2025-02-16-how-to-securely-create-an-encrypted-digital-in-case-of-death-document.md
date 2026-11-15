@@ -15,6 +15,7 @@ categories:
 - Information Security
 kcworks: https://works.hcommons.org/records/y6gxm-vyy12
 biron: https://eprints.bbk.ac.uk/id/eprint/55002/
+smolpub: how-to-securely-create-an-encrypted-digital-in-case-of-death-document
 references:
 - author: Ross Naylor
   date: '2025-03-12'

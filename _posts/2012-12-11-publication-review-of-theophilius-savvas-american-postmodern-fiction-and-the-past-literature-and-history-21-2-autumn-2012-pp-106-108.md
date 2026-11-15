@@ -24,6 +24,7 @@ wordpress_url: https://www.martineve.com/?p=2522
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhl6e4i2o"
 kcworks: https://works.hcommons.org/records/frmkx-7qd60
 biron: https://eprints.bbk.ac.uk/id/eprint/17347/
+smolpub: publication-review-of-theophilius-savvas-american-postmodern-fiction-and-the-past-literature-and-history-21-2-autumn-2012-pp-106-108
 ---
 
 <p>My review of Theophilius Savvas' <i>American Postmodern Fiction and the Past</i> is now out in <a href="http://dx.doi.org/10.7227/L&U38;H.21.2.6"><i>Literature and History</i>, 21, 2 (Autumn 2012), pp. 106-108</a>.</p>

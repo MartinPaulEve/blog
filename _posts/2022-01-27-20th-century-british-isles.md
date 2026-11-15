@@ -15,6 +15,7 @@ categories:
 - Literature
 kcworks: https://works.hcommons.org/records/6x66e-46183
 biron: https://eprints.bbk.ac.uk/id/eprint/47443/
+smolpub: 20th-century-british-isles
 references:
 - https://doi.org/10.1017/9781108649865.008 # Chapter on British Isles 20th-century novel in Cambridge volume
 ---

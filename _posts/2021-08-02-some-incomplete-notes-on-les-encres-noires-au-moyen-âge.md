@@ -15,6 +15,7 @@ categories:
 - Literature
 kcworks: https://works.hcommons.org/records/7k8az-w9g71
 biron: https://eprints.bbk.ac.uk/id/eprint/45340/
+smolpub: some-incomplete-notes-on-les-encres-noires-au-moyen-age
 references:
 - author: Martin Paul Eve
   date: '2021-07-21'

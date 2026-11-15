@@ -15,6 +15,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/13ctm-xjk49
 biron: https://eprints.bbk.ac.uk/id/eprint/32326/
+smolpub: reading-the-democratisation-myth-and-thinking-through-decolonial-oa
 references:
 - https://doi.org/10.31235/osf.io/hw7at # SocArXiv preprint on OA and solidification of epistemic injustices
 ---

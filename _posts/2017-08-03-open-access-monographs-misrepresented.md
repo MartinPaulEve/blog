@@ -15,6 +15,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/pjc55-a7106
 biron: https://eprints.bbk.ac.uk/id/eprint/19294/
+smolpub: open-access-monographs-misrepresented
 references:
 - date: '2017-08-03'
   title: Open to adaptation

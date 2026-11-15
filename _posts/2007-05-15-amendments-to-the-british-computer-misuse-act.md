@@ -24,6 +24,7 @@ wordpress_url: http://pro.grammatic.org/post-amendments-to-the-british-computer-
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mntm2c32p"
 kcworks: https://works.hcommons.org/records/0x8zd-7k572
 biron: https://eprints.bbk.ac.uk/id/eprint/16786/
+smolpub: amendments-to-the-british-computer-misuse-act
 references:
 - title: Changes in the British Computer Misuse Act
   type: BlogPosting

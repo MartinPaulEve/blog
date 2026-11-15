@@ -30,6 +30,7 @@ wordpress_url: https://www.martineve.com/2012/04/05/new-york-times-writes-about-
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miibnsh2f"
 kcworks: https://works.hcommons.org/records/zw0hg-56w56
 biron: https://eprints.bbk.ac.uk/id/eprint/17019/
+smolpub: new-york-times-writes-about-my-ph-d-thesis-work
 references:
 - title: Pynchon, Philosophy, Ethics
   type: BlogPosting

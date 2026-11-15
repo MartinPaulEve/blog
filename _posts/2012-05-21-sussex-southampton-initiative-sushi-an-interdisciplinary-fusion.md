@@ -24,6 +24,7 @@ wordpress_url: https://www.martineve.com/2012/05/21/sussex-southampton-initiativ
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miezdut2h"
 kcworks: https://works.hcommons.org/records/5qbdj-xbe75
 biron: https://eprints.bbk.ac.uk/id/eprint/17246/
+smolpub: sussex-southampton-initiative-sushi-an-interdisciplinary-fusion
 references:
 - author: Betsy Weber
   title: Betsy Weber

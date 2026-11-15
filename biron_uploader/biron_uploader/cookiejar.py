@@ -12,9 +12,12 @@ interaction. The harvested cookie is written to ``.biron_cookie``
 (gitignored) at the blog root.
 """
 
+import contextlib
 import json
 import os
+import select
 import subprocess
+import sys
 import time
 from pathlib import Path
 
@@ -27,6 +30,68 @@ PROFILE_DIR = "~/.local/state/biron-browser"
 
 class LoginError(RuntimeError):
     """The browser login did not produce a session cookie."""
+
+
+class LoginSkipped(LoginError):
+    """The operator pressed the continue key rather than finish signing in."""
+
+
+# Keys that abandon a visible sign-in and carry on without BIROn.
+CONTINUE_KEYS = ("c", "C")
+
+
+def _terminal_fd(stream):
+    """The file descriptor of ``stream`` when it is a terminal, else None."""
+    try:
+        return stream.fileno() if stream.isatty() else None
+    except (AttributeError, ValueError, OSError):
+        return None
+
+
+def read_keypress(stream=None):
+    """One pending keystroke from a terminal, or None (no key, no TTY).
+
+    Non-blocking: meant to be polled while waiting for something else.
+    Single keys only arrive without Enter while the terminal is in
+    cbreak mode — see ``single_key_terminal``.
+    """
+    fd = _terminal_fd(sys.stdin if stream is None else stream)
+    if fd is None:
+        return None
+    ready, _, _ = select.select([fd], [], [], 0)
+    if not ready:
+        return None
+    return os.read(fd, 1).decode("utf-8", errors="ignore") or None
+
+
+@contextlib.contextmanager
+def single_key_terminal(stream=None):
+    """Put the terminal into cbreak mode for the block (Ctrl+C still works)."""
+    fd = _terminal_fd(sys.stdin if stream is None else stream)
+    if fd is None:
+        yield
+        return
+    import termios
+    import tty
+
+    saved = termios.tcgetattr(fd)
+    try:
+        tty.setcbreak(fd)
+        yield
+    finally:
+        termios.tcsetattr(fd, termios.TCSADRAIN, saved)
+
+
+def _pause(interval: float, keypress) -> bool:
+    """Wait ``interval`` seconds; True if a continue key arrived meanwhile."""
+    end = time.monotonic() + interval
+    while True:
+        if keypress is not None and keypress() in CONTINUE_KEYS:
+            return True
+        remaining = end - time.monotonic()
+        if remaining <= 0:
+            return False
+        time.sleep(min(0.25, remaining))
 
 
 def cookie_file_path(root: Path) -> Path:
@@ -144,14 +209,25 @@ def launch_command(
     return command
 
 
-def _browser_websocket_url(profile_dir: Path, deadline: float) -> str:
-    """The CDP browser endpoint from Chromium's DevToolsActivePort file."""
-    port_file = profile_dir / "DevToolsActivePort"
+def browser_websocket_url(profile_dir: Path, deadline: float,
+                          process=None) -> str:
+    """The CDP browser endpoint from Chromium's DevToolsActivePort file.
+
+    A browser that exits before writing the file (no display, a profile
+    already in use) fails the wait at once rather than at the deadline.
+    """
+    port_file = Path(profile_dir) / "DevToolsActivePort"
     while time.monotonic() < deadline:
         if port_file.is_file():
             lines = port_file.read_text().splitlines()
             if len(lines) >= 2:
                 return f"ws://127.0.0.1:{lines[0].strip()}{lines[1].strip()}"
+        if process is not None and process.poll() is not None:
+            raise LoginError(
+                "the browser exited before exposing a DevTools endpoint "
+                "(no display here, or another Chromium is already using "
+                "the biron profile?)"
+            )
         time.sleep(0.2)
     raise LoginError("Chromium did not expose a DevTools endpoint in time")
 
@@ -185,15 +261,23 @@ def harvest(
     timeout: float | None = None,
     chromium: str | None = None,
     echo=print,
+    keypress=None,
+    interval: float = 2.0,
 ) -> str:
     """Drive a Chromium login and return (and store) the session cookie.
 
     Headful mode waits up to five minutes for the user to finish the
-    Microsoft sign-in; headless mode gives the silent redirect loop 45
-    seconds. Raises LoginError when no cookie appears in time.
+    Microsoft sign-in — or to press C, which abandons the sign-in and
+    raises LoginSkipped so the caller can carry on without BIROn;
+    headless mode gives the silent redirect loop 45 seconds and never
+    reads the keyboard. ``keypress`` (a no-arg callable returning the
+    pending key or None) and ``interval`` (seconds between cookie polls)
+    exist for tests. Raises LoginError when no cookie appears in time or
+    the browser dies.
     """
     chromium = chromium or os.environ.get("BIRON_BROWSER", "chromium")
     timeout = timeout or (45 if headless else 300)
+    keypress = None if headless else (keypress or read_keypress)
     profile_dir = Path(
         os.environ.get("BIRON_BROWSER_PROFILE", PROFILE_DIR)
     ).expanduser()
@@ -210,24 +294,33 @@ def harvest(
         + ("(silent Microsoft redirect)…" if headless
            else "— complete the Microsoft sign-in in the browser window…")
     )
+    if not headless:
+        echo("    press C to continue without BIROn "
+             "(the deposits retry on the next deploy)")
     deadline = time.monotonic() + timeout
     process = subprocess.Popen(
         command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL
     )
+    terminal = single_key_terminal() if not headless else contextlib.nullcontext()
     try:
-        ws_url = _browser_websocket_url(profile_dir, deadline)
-        while time.monotonic() < deadline:
-            if process.poll() is not None:
-                raise LoginError(
-                    "the browser exited before a session cookie appeared "
-                    "(is another Chromium already using the biron profile?)"
-                )
-            cookie = match_session_cookie(_cdp_cookies(ws_url))
-            if cookie:
-                path = write_cookie_file(root, cookie)
-                echo(f"Session cookie stored in {path}")
-                return cookie
-            time.sleep(2)
+        with terminal:
+            ws_url = browser_websocket_url(profile_dir, deadline, process)
+            while time.monotonic() < deadline:
+                if process.poll() is not None:
+                    raise LoginError(
+                        "the browser exited before a session cookie appeared "
+                        "(is another Chromium already using the biron profile?)"
+                    )
+                cookie = match_session_cookie(_cdp_cookies(ws_url))
+                if cookie:
+                    path = write_cookie_file(root, cookie)
+                    echo(f"Session cookie stored in {path}")
+                    return cookie
+                if _pause(interval, keypress):
+                    raise LoginSkipped(
+                        "sign-in abandoned at the keyboard; continuing "
+                        "without a BIROn session"
+                    )
         raise LoginError(
             "no session cookie after "
             f"{int(timeout)}s — "

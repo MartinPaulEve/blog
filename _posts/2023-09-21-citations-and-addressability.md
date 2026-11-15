@@ -15,6 +15,7 @@ categories:
 - Scholarly Communications
 kcworks: https://works.hcommons.org/records/887yh-tk550
 biron: https://eprints.bbk.ac.uk/id/eprint/52887/
+smolpub: citations-and-addressability
 references:
 - title: The Footnote
   type: Book

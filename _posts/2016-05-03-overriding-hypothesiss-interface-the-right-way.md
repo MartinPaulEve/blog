@@ -15,6 +15,7 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/49ba0-2cf32
 biron: https://eprints.bbk.ac.uk/id/eprint/17062/
+smolpub: overriding-hypothesiss-interface-the-right-way
 references:
 - title: Hypothesis
   type: WebPage

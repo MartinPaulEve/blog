@@ -21,6 +21,7 @@ wordpress_url: https://www.martineve.com/?p=2298
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mhvahmj2e"
 kcworks: https://works.hcommons.org/records/dh5fs-fv073
 biron: https://eprints.bbk.ac.uk/id/eprint/17447/
+smolpub: brief-interviews-with-hideous-men-live-stage-version-at-the-ica
 references:
 - author: Steve Rhodes
   title: Steve Rhodes

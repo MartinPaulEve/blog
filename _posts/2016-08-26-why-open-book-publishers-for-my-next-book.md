@@ -16,6 +16,7 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/bca6z-7j171
 biron: https://eprints.bbk.ac.uk/id/eprint/17506/
+smolpub: why-open-book-publishers-for-my-next-book
 references:
 - author: Martin Paul Eve
   date: '2016-10-17'

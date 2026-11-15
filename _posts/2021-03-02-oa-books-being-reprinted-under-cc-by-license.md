@@ -16,6 +16,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/rg17j-a8874
 biron: https://eprints.bbk.ac.uk/id/eprint/43256/
+smolpub: oa-books-being-reprinted-under-cc-by-license
 references:
 - https://www.bookdepository.com/Literature-Against-Criticism-Martin-Paul-Eve/9781013288265?ref=grid-view&qid=1614677493139&sr=1-3 # Book Depository: Eve, Literature Against Criticism reprint
 - author: Martin Paul Eve

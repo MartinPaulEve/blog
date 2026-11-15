@@ -21,6 +21,7 @@ wordpress_url: https://www.martineve.com/?p=707
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkr7bf42h"
 kcworks: https://works.hcommons.org/records/krmby-6wa81
 biron: https://eprints.bbk.ac.uk/id/eprint/17330/
+smolpub: sa4qe-2011-spreading-the-word-of-russell-hoban
 references:
 - title: About SA4QE
   type: WebPage

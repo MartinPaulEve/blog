@@ -15,6 +15,7 @@ categories:
 - Technology
 kcworks: https://works.hcommons.org/records/eqh61-4ga94
 biron: https://eprints.bbk.ac.uk/id/eprint/45489/
+smolpub: replacing-openvpn-with-wireguard-including-on-synology-devices
 references:
 - title: 'GitHub - gravitl/netmaker: Netmaker makes networks with WireGuard. Netmaker automates fast, secure, and distributed virtual networks.'
   type: SoftwareSourceCode

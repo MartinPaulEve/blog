@@ -27,6 +27,7 @@ wordpress_url: http://pro.grammatic.org/post-netids-can-now-detect-fragmented-xs
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnfei532a"
 kcworks: https://works.hcommons.org/records/5xtdf-e8d93
 biron: https://eprints.bbk.ac.uk/id/eprint/16802/
+smolpub: netids-can-now-detect-fragmented-xss
 references:
 - http://code.google.com/p/dotnetids # .NETIDS Google Code project page
 ---

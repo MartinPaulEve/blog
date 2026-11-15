@@ -24,6 +24,7 @@ wordpress_url: https://www.martineve.com/?p=2782
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mgggzox2f"
 kcworks: https://works.hcommons.org/records/ym7m1-rsh71
 biron: https://eprints.bbk.ac.uk/id/eprint/17337/
+smolpub: determining-glyph-availability-for-fop
 references:
 - title: 'FileFormat.Info: The Digital Rosetta Stone'
   type: WebSite

@@ -18,6 +18,7 @@ title: Vint Cerf on Digital Preservation at AAUP 2015
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mcne5o62o"
 kcworks: https://works.hcommons.org/records/k4ae7-7mv96
 biron: https://eprints.bbk.ac.uk/id/eprint/17039/
+smolpub: vint-cerf-on-digital-preservation-at-aaup-2015
 references:
 - author: Contributors to Wikimedia projects
   date: '2001-12-17'

@@ -16,6 +16,7 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/7f8ze-81y33
 biron: https://eprints.bbk.ac.uk/id/eprint/54733/
+smolpub: my-academic-year-in-review
 references:
 - date: '2024-11-26'
   title: Act now to stop millions of research papers from disappearing

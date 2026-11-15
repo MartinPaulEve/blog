@@ -16,6 +16,7 @@ categories:
 - Scholarly Communications
 kcworks: https://works.hcommons.org/records/598cd-v7c62
 biron: https://eprints.bbk.ac.uk/id/eprint/27753/
+smolpub: old-traditions-and-new-technologies
 ---
 
 It has been a pretty epic editing process and one that I would not be in a hurry to repeat any time soon, but I am pleased to say that the volume that I am editing with Jonathan Gray is pretty much ready to go back to The MIT Press and should be done this month. Below is the chapter table of contents for _Old Traditions and New Technologies: The Pasts, Presents, and Futures of Open Scholarly Communications_. The book should be open access when it finally gets there.

@@ -16,6 +16,7 @@ categories:
 - Philosophy
 kcworks: https://works.hcommons.org/records/wkanc-1nz13
 biron: https://eprints.bbk.ac.uk/id/eprint/17824/
+smolpub: the-rivalrous-parts-of-non-rivalrous-digital-forms
 references:
 - author: Peter Suber
   date: '2009-11-02'

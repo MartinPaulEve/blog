@@ -15,6 +15,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/z706r-a6a69
 biron: https://eprints.bbk.ac.uk/id/eprint/31785/
+smolpub: is-the-money-in-the-system
 references:
 - https://openlibhums.org/plugins/supporters/ # OLH institutional supporters list
 - https://www.openlibhums.org/news/370/ # OLH blog post on library OA support

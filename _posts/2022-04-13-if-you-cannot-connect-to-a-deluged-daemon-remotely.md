@@ -14,6 +14,7 @@ categories:
 - Linux
 kcworks: https://works.hcommons.org/records/zmbdt-2a742
 biron: https://eprints.bbk.ac.uk/id/eprint/48055/
+smolpub: if-you-cannot-connect-to-a-deluged-daemon-remotely
 ---
 
 I had a setup of deluge running on a remote box as a daemon. I had verified the credentials were all OK, the port forwarding was setup, the daemon was running and listening. But I couldn't connect remotely.

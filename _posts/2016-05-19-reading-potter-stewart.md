@@ -12,6 +12,7 @@ categories:
 - Philosophy
 kcworks: https://works.hcommons.org/records/v33qr-v2t52
 biron: https://eprints.bbk.ac.uk/id/eprint/17008/
+smolpub: reading-potter-stewart
 references:
 - author: Contributors to Wikimedia projects
   date: '2004-05-17'

@@ -16,6 +16,7 @@ categories:
 - Philosophy
 kcworks: https://works.hcommons.org/records/3t82f-45y40
 biron: https://eprints.bbk.ac.uk/id/eprint/45487/
+smolpub: a-bibliography-on-the-interestingim-interested-in
 references:
 - author: Martin Paul Eve
   date: '2021-08-19'

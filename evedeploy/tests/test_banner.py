@@ -69,3 +69,36 @@ class TestPrintBanner:
         stream = io.StringIO()
         print_banner(stream=stream)
         assert not ANSI_RE.search(stream.getvalue())
+
+
+class TestStackedWords:
+    REMOTE = ("REMOTE", "BUILD", "SERVER")
+
+    def test_default_wordmark_is_still_eve_gd(self):
+        assert render_banner(color=False).splitlines()[4] == \
+            "██████   ██   ██████ ██  ████  █████ "
+
+    def test_words_stack_as_five_row_blocks_with_a_gap_between(self):
+        art = render_banner(color=False, words=self.REMOTE).splitlines()
+        # three words × 5 rows, two blank separators, then the blank + footer
+        assert art[5] == "" and art[11] == ""
+        assert all("██" in row for row in art[0:5] + art[6:11] + art[12:17])
+        assert art[17] == "" and "evedeploy" in art[18]
+
+    def test_each_word_spells_itself(self):
+        art = render_banner(color=False, words=self.REMOTE).splitlines()
+        # Bottom rows: R E M O T E / B U I L D / S E R V E R
+        assert art[4] == "██  ██ ██████ ██  ██  ████    ██   ██████"
+        assert art[10] == "█████   ████  ██████ ██████ █████ "
+        assert art[16] == "█████  ██████ ██  ██   ██   ██████ ██  ██"
+
+    def test_every_word_gets_the_full_gradient(self):
+        art = render_banner(color=True, words=self.REMOTE).splitlines()
+        for start in (0, 6, 12):
+            for row, (r, g, b) in zip(art[start:start + 5], SNAFFLE_GRADIENT):
+                assert row.startswith(f"\x1b[38;2;{r};{g};{b}m")
+
+    def test_print_banner_takes_the_words(self):
+        stream = io.StringIO()
+        print_banner(stream=stream, color=False, words=("BUILD",))
+        assert stream.getvalue().splitlines()[4] == "█████   ████  ██████ ██████ █████ "

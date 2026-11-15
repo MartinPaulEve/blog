@@ -107,6 +107,7 @@ if defined?(Jekyll)
                        "micro-posts syndicated to Bluesky and Mastodon.",
           "og_card" => false,
           "pdf" => false,
+          "feed" => "/#{ThoughtsPages::BASE_DIR}/feed.atom",
           "month" => month,
           "month_display" => display,
           "month_thoughts" => entries,
@@ -121,6 +122,7 @@ if defined?(Jekyll)
         self.content = JSON.generate(ThoughtsPages.search_index(thoughts))
         self.data = {
           "layout" => nil,
+          "render_with_liquid" => false,
           "sitemap" => false,
           "pdf" => false,
           "og_card" => false,

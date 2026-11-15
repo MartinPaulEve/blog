@@ -15,6 +15,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/c5e0g-zqm59
 biron: https://eprints.bbk.ac.uk/id/eprint/17462/
+smolpub: paying-it-forward-to-fund-scholarly-communications
 references:
 - author: Alison Mudditt
   date: '2016-08-24'

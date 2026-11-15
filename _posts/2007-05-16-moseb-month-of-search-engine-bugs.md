@@ -23,6 +23,7 @@ wordpress_url: http://pro.grammatic.org/post-moseb-month-of-search-engine-bugs-1
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mnqkccz2i"
 kcworks: https://works.hcommons.org/records/9pvjn-rc163
 biron: https://eprints.bbk.ac.uk/id/eprint/16793/
+smolpub: moseb-month-of-search-engine-bugs
 references:
 - title: MOSEB
   type: WebPage

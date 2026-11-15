@@ -67,6 +67,7 @@ wordpress_url: https://www.martineve.com/?p=865
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkjmvpy2f"
 kcworks: https://works.hcommons.org/records/y9v95-wyp66
 biron: https://eprints.bbk.ac.uk/id/eprint/17471/
+smolpub: things-to-do-when-you-get-a-new-android-phone
 references:
 - title: Alpha
   type: WebPage

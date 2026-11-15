@@ -15,6 +15,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/v4bcg-j1526
 biron: https://eprints.bbk.ac.uk/id/eprint/18323/
+smolpub: on-the-economics-of-flipping-subscription-journals
 references:
 - https://www.openlibhums.org # Open Library of Humanities website
 ---

@@ -26,6 +26,7 @@ wordpress_url: http://pro.grammatic.org/post-building-a-robust-ssl-crcverified-s
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmqmk222a"
 kcworks: https://works.hcommons.org/records/mgqpy-zpe53
 biron: https://eprints.bbk.ac.uk/id/eprint/16825/
+smolpub: building-a-robust-ssl-crc-verified-serverclient-solution-in-the-net-framework-with-c
 ---
 
 <p>Quite a lengthy post here with a lot of code in the hope that my experience of building an integrity-checking SSL (text-only for now) communication system will be of use to somebody else.</p>

@@ -1,7 +1,11 @@
 """The interactive composer: a prompt with a live Bluesky-limit count.
 
-Enter posts, Alt+Enter inserts a newline, Ctrl+P pastes an image from
-the clipboard, Ctrl+C (or Ctrl+D on an empty prompt) cancels. The
+Enter posts, Alt+Enter inserts a newline, Ctrl+V pastes the clipboard
+(text at the cursor, or an image when it holds no text), Ctrl+P pastes
+an image from the clipboard, Ctrl+C (or Ctrl+D on an empty prompt)
+cancels. Ctrl+V is bound explicitly because terminals only paste on
+Ctrl+Shift+V and hand a bare Ctrl+V to the application, which broke
+tools that type by sending Ctrl+V. The
 bottom toolbar shows the grapheme count against the 300 limit, how the
 thought will post (one post or a thread), and the attachments.
 """
@@ -18,8 +22,8 @@ def compose(images: list[dict]) -> str | None:
     """Run the composer; return the text, or None when cancelled.
 
     ``images`` is a mutable list of ``{"data", "mime", "alt"}`` dicts:
-    entries attached via --image are shown, and Ctrl+P appends pasted
-    clipboard images to it live.
+    entries attached via --image are shown, and Ctrl+P (or Ctrl+V on an
+    image-only clipboard) appends pasted clipboard images to it live.
     """
     bindings = KeyBindings()
 
@@ -31,18 +35,30 @@ def compose(images: list[dict]) -> str | None:
     def _newline(event):
         event.current_buffer.insert_text("\n")
 
-    @bindings.add("c-p")
-    def _paste_image(event):
+    def attach_clipboard_image() -> bool:
         pasted = clipboard.paste_image()
         if pasted:
             data, mime = pasted
             images.append({"data": data, "mime": mime, "alt": ""})
+        return bool(pasted)
+
+    @bindings.add("c-p")
+    def _paste_image(event):
+        attach_clipboard_image()
+
+    @bindings.add("c-v")
+    def _paste_clipboard(event):
+        text = clipboard.paste_text()
+        if text:
+            event.current_buffer.insert_text(text)
+        else:
+            attach_clipboard_image()
 
     def toolbar():
         text = get_app().current_buffer.text
         return (
             f" {status_line(text, images=len(images))}"
-            "  —  Enter posts · Alt+Enter newline · Ctrl+P paste image"
+            "  —  Enter posts · Alt+Enter newline · Ctrl+V paste · Ctrl+P paste image"
         )
 
     session = PromptSession(

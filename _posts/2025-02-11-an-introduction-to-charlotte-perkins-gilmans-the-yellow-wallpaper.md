@@ -15,6 +15,7 @@ categories:
 - Literature
 kcworks: https://works.hcommons.org/records/8h0p8-jga53
 biron: https://eprints.bbk.ac.uk/id/eprint/57914/
+smolpub: an-introduction-to-charlotte-perkins-gilmans-the-yellow-wallpaper
 references:
 - https://doi.org/10.2307/463825 # Treichler, escaping the sentence, Yellow Wallpaper, Tulsa Studies 1984
 - http://online.wsj.com/article/SB10001424127887324216004578483391664789414.html # McHugh, DSM-5 a manual run amok, Wall Street Journal 2013

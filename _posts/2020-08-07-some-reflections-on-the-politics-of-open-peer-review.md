@@ -16,6 +16,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/qwb8t-esd39
 biron: https://eprints.bbk.ac.uk/id/eprint/32824/
+smolpub: some-reflections-on-the-politics-of-open-peer-review
 references:
 - title: Introduction, AHR Open Review
   type: WebPage

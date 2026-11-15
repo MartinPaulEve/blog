@@ -16,6 +16,7 @@ categories:
 - Higher Education
 kcworks: https://works.hcommons.org/records/bbt41-58x76
 biron: https://eprints.bbk.ac.uk/id/eprint/40557/
+smolpub: rapid-response-grants-and-disciplinary-boundaries
 references:
 - author: Sophie Inge
   date: '2020-08-21'

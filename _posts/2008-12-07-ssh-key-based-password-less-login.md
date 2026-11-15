@@ -35,6 +35,7 @@ wordpress_url: http://pro.grammatic.org/post-ssh-key-based-password-less-login-6
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mmnb4ly2r"
 kcworks: https://works.hcommons.org/records/fj167-91n89
 biron: https://eprints.bbk.ac.uk/id/eprint/57898/
+smolpub: ssh-key-based-password-less-login
 ---
 
 <p>It can be very handy to be able to login to an SSH shell without supplying a password. Here's how.</p>

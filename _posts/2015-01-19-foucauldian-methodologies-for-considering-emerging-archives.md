@@ -19,6 +19,7 @@ title: Foucauldian methodologies for considering emerging archives?
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mdcvah62o"
 kcworks: https://works.hcommons.org/records/8tqwr-q0e91
 biron: https://eprints.bbk.ac.uk/id/eprint/17285/
+smolpub: foucauldian-methodologies-for-considering-emerging-archives
 references:
 - author: Martin Paul Eve
   title: 'Pynchon and Philosophy: Wittgenstein, Foucault and Adorno'

@@ -1,0 +1,49 @@
+/* The /activity/ log: the kind kicker on each card and the few things
+   the mixed cards need beyond thoughts.css and listening.css. Deliberately
+   OUTSIDE the PDF-hashed stylesheet set (blog-post.css, styles.css): the
+   log changes on every deploy — see _plugins/pdf_pages.rb. */
+
+.activity-kicker {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 0.4rem;
+}
+
+.activity-post .activity-kicker {
+    color: var(--kicker-red, var(--accent-secondary));
+}
+
+.activity-post-title {
+    font-family: var(--font-serif);
+    font-size: 1.2rem;
+    margin: 0 0 0.4rem;
+}
+
+.activity-post-title a {
+    color: var(--text-secondary);
+    text-decoration: none;
+}
+
+.activity-post-title a:hover {
+    color: var(--accent-secondary);
+    text-decoration: underline;
+}
+
+/* The play rows sit inside a card already, so they shed their own frame. */
+.activity-plays,
+.post-body .activity-plays {
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    background: transparent;
+    margin-bottom: 0.5rem;
+}
+
+.activity-plays .play {
+    padding-left: 0;
+    padding-right: 0;
+}

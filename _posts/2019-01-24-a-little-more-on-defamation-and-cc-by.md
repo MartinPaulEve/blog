@@ -16,6 +16,7 @@ categories:
 - Open Access
 kcworks: https://works.hcommons.org/records/dmnna-axs79
 biron: https://eprints.bbk.ac.uk/id/eprint/25993/
+smolpub: a-little-more-on-defamation-and-cc-by
 references:
 - title: Legal Code - Attribution 4.0 International
   type: WebPage

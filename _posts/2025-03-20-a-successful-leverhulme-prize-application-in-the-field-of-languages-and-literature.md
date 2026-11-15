@@ -16,6 +16,7 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/jtdmv-a4m43
 biron: https://eprints.bbk.ac.uk/id/eprint/57915/
+smolpub: a-successful-leverhulme-prize-application-in-the-field-of-languages-and-literature
 references:
 - author: Martin Paul Eve
   date: '2019-03-20'

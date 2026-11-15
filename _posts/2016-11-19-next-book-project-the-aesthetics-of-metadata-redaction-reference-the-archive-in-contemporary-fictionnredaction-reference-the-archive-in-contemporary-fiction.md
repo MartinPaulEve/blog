@@ -13,6 +13,7 @@ categories:
 - Literature
 kcworks: https://works.hcommons.org/records/ddjxc-vaa27
 biron: https://eprints.bbk.ac.uk/id/eprint/17251/
+smolpub: next-book-project-the-aesthetics-of-metadata-redaction-reference-the-archive-in-contemporary-fictionnredaction-reference-the-archive-in-contemporary-fiction
 references:
 - http://doi.org/10.16995/olh.82 # Eve, Cloud Atlas Version Variants OLH article
 - http://dx.doi.org/10.7766/alluvium.v5.1.04 # Eve aesthetics of metadata Alluvium article 2016

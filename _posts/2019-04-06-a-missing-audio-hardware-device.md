@@ -12,6 +12,7 @@ categories:
 - Technology
 kcworks: https://works.hcommons.org/records/h4bne-6pr73
 biron: https://eprints.bbk.ac.uk/id/eprint/57906/
+smolpub: a-missing-audio-hardware-device
 ---
 
 On Mac OSX there is a really neat feature: the ability to create an "aggregate audio device" that chains multiple soundcards into a single virtual device. This essentially lets you expand your inputs and outputs indefinitely. You can do a similar thing with Jack on Linux and with ASIO4All on Windows, although with variable levels of success.

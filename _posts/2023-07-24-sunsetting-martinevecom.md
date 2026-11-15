@@ -12,6 +12,7 @@ categories:
 - Personal
 kcworks: https://works.hcommons.org/records/xvn30-mv479
 biron: https://eprints.bbk.ac.uk/id/eprint/51634/
+smolpub: sunsetting-martinevecom
 references:
 - title: 'Hypertext Style: Cool URIs don''t change.'
   type: TechArticle

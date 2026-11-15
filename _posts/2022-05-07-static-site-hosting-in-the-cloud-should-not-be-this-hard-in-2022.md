@@ -15,6 +15,7 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/vtv2j-mc553
 biron: https://eprints.bbk.ac.uk/id/eprint/48847/
+smolpub: static-site-hosting-in-the-cloud-should-not-be-this-hard-in-2022
 references:
 - title: Cloudcraft – Draw AWS diagrams
   type: WebSite

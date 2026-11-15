@@ -15,6 +15,7 @@ categories:
 - Technology
 kcworks: https://works.hcommons.org/records/jsxp5-cq418
 biron: https://eprints.bbk.ac.uk/id/eprint/45308/
+smolpub: mesh-on-a-budget-converting-rbr50-to-rbs50-units-and-using-lbr20-for-4g-fallback
 references:
 - https://www.reddit.com/r/HomeNetworking/comments/e53qp6/convert_orbi_rbr50_router_to_orbi_rbs50_satellite/ # Reddit thread on converting RBR50 to satellite
 - title: RBR50 / RBS50 Firmware Version 2.1.4.16

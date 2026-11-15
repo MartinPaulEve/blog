@@ -24,6 +24,7 @@ wordpress_url: https://www.martineve.com/?p=1191
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mkabdrp2r"
 kcworks: https://works.hcommons.org/records/yst06-rhy79
 biron: https://eprints.bbk.ac.uk/id/eprint/16988/
+smolpub: excursions-vol-2-issue-1-virus-2011
 references:
 - title: 'Excursions: An interdisciplinary journal'
   type: WebSite

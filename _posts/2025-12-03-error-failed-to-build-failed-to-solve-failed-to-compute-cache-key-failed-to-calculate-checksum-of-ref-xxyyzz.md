@@ -15,6 +15,7 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/0hfs1-msn69
 biron: https://eprints.bbk.ac.uk/id/eprint/56604/
+smolpub: error-failed-to-build-failed-to-solve-failed-to-compute-cache-key-failed-to-calculate-checksum-of-ref-xxyyzz
 ---
 
 Another annoying error that you can get, during a docker build, that basically does not explain what's going on is something like:

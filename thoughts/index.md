@@ -5,6 +5,7 @@ excerpt: "Short thoughts — micro-posts syndicated to Bluesky and Mastodon."
 og_card_image: mpe.png
 regenerate: true
 pdf: false
+feed: /thoughts/feed.atom
 ---
 
 {% if page.month_thoughts %}

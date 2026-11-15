@@ -23,6 +23,7 @@ wordpress_url: https://eve.gd/?p=2209
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mi7m3xh2r"
 kcworks: https://works.hcommons.org/records/1x2zq-xa446
 biron: https://eprints.bbk.ac.uk/id/eprint/16947/
+smolpub: starting-an-open-access-journal-a-step-by-step-guide-part-4
 references:
 - title: 'Excursions: An interdisciplinary journal'
   type: WebSite

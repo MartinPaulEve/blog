@@ -11,6 +11,7 @@ categories:
 - Academia
 kcworks: https://works.hcommons.org/records/95dch-btj34
 biron: https://eprints.bbk.ac.uk/id/eprint/30918/
+smolpub: writing-a-data-management-plan
 ---
 
 I am often asked for advice on writing data management plans in the humanities, so thought I would share my advice on this more generally. The first thing you need to do is to work out what "data" you are likely to collect or generate. Note that any manuscript you are writing should be considered as a digital data object.

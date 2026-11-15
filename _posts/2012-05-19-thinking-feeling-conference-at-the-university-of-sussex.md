@@ -24,6 +24,7 @@ wordpress_url: https://www.martineve.com/2012/05/19/thinking-feeling-conference-
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7miffglj2e"
 kcworks: https://works.hcommons.org/records/p1p6j-qqh04
 biron: https://eprints.bbk.ac.uk/id/eprint/17204/
+smolpub: thinking-feeling-conference-at-the-university-of-sussex
 references:
 - author: Charlie Phillips
   title: Charlie Phillips

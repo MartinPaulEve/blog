@@ -14,6 +14,7 @@ categories:
 - Higher Education
 kcworks: https://works.hcommons.org/records/hspv7-txe94
 biron: https://eprints.bbk.ac.uk/id/eprint/17304/
+smolpub: on-the-ownership-portability-and-accreditation-of-research
 ---
 
 One of the aspects of the Stern review that has attracted the most attention from my Twitter stream is the non-portability of research outputs. What this means is that institutions cannot poach staff from elsewhere and use their outputs to return to REF.

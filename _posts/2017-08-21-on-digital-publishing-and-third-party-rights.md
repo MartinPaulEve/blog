@@ -14,6 +14,7 @@ categories:
 - Copyright and Licensing
 kcworks: https://works.hcommons.org/records/dd5b5-p7r78
 biron: https://eprints.bbk.ac.uk/id/eprint/19496/
+smolpub: on-digital-publishing-and-third-party-rights
 ---
 
 I'm currently handling a difficult case where a poetry publisher is demanding a royalty for citation of text within a work of literary criticism. They want to know how many "copies" we are "printing" so they can charge us.

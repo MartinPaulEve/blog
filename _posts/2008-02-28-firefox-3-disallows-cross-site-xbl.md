@@ -26,6 +26,7 @@ wordpress_url: http://pro.grammatic.org/post-firefox-3-disallows-crosssite-xbl-4
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mn5b2jb2o"
 kcworks: https://works.hcommons.org/records/90p60-fd427
 biron: https://eprints.bbk.ac.uk/id/eprint/16821/
+smolpub: firefox-3-disallows-cross-site-xbl
 references:
 - title: Mozilla XML Namespace
   type: WebPage

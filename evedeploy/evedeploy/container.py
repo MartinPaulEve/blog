@@ -27,8 +27,11 @@ stay owned by the operator.
 from __future__ import annotations
 
 import hashlib
+import ipaddress
 import os
+import re
 import shutil
+import socket
 import subprocess
 import sys
 from dataclasses import dataclass, field
@@ -51,6 +54,10 @@ SEQUOIA_STATE = Path(".config/sequoia")
 # preference for commit signing (the generic SSH_AUTH_SOCK comes last: on a
 # desktop it is often a gpg/byobu agent without the deploy key).
 KNOWN_AGENTS = (".bitwarden-ssh-agent.sock", ".1password/agent.sock")
+# Where the launcher keeps the augmented hosts file it hands the container
+# when the remote build host's name only resolves on the host (Tailscale
+# MagicDNS and other resolved-side tricks do not survive into a container).
+HOSTS_CACHE = Path(".cache") / "evedeploy" / "hosts"
 # Host variables that may shape the run; forwarded only when set.
 PASSTHROUGH_ENV = ("TERM", "COLORTERM", "JEKYLL_SKIP_PDFS",
                    "BUNDLE_SILENCE_DEPRECATIONS", "NO_COLOR")
@@ -59,6 +66,20 @@ LAUNCHER_FLAGS = {
     "--shell": "shell",
     "--rebuild-image": "rebuild_image",
 }
+# The BIROn sign-in is a browser window, which the container cannot show
+# (and its persisted Microsoft session lives in a host profile the
+# container never sees), so before a full remote deploy the launcher runs
+# ./biron.sh session on the host and tells evedeploy not to try again.
+# Runs with any of these flags never need that: they stay local (the
+# pipeline then opens the browser itself, on this same host) or never
+# deposit at all.
+BIRON_DRIVER = "biron.sh"
+BIRON_SESSION_FREE_FLAGS = frozenset({
+    "--quick", "--build-only", "--local", "--remote-phase",
+    "--remote-check", "--help", "-h",
+})
+BIRON_NO_LOGIN_FLAG = "--no-biron-login"
+BIRON_SESSION_SKIPPED = 3
 
 
 class LauncherError(RuntimeError):
@@ -220,8 +241,14 @@ def native_command(args) -> list:
 
 def run_command(runtime, image, root, home, uid, gid, args, *, tty,
                 env=None, agent=None, identity_files=(), extra_mounts=(),
-                state_dirs=(), shell=False, timezone=None) -> list:
-    """The full `<runtime> run ...` argv for one evedeploy invocation."""
+                state_dirs=(), shell=False, timezone=None,
+                hosts="/etc/hosts") -> list:
+    """The full `<runtime> run ...` argv for one evedeploy invocation.
+
+    ``hosts`` is the file to mount as the container's /etc/hosts: the
+    system's own, or the launcher's augmented copy naming the remote
+    build host (see host_entry).
+    """
     env = os.environ if env is None else env
     root, home = Path(root), Path(home)
     cmd = [runtime, "run", "--rm", "-i", "--init",
@@ -246,7 +273,7 @@ def run_command(runtime, image, root, home, uid, gid, args, *, tty,
         mount(state)
     for extra in extra_mounts:
         mount(extra, ro=True)
-    mount("/etc/hosts", ro=True)
+    mount(hosts, "/etc/hosts", ro=True)
     if agent:
         # One agent answers everywhere: at its own path, as SSH_AUTH_SOCK,
         # and at every desktop agent's path, because ~/.ssh/config pins
@@ -276,6 +303,158 @@ def run_command(runtime, image, root, home, uid, gid, args, *, tty,
     cmd.append(image)
     cmd.extend(["bash"] if shell else native_command(args))
     return cmd
+
+
+def needs_host_biron_session(args, root) -> bool:
+    """Whether this run must settle the BIROn session here, outside the container.
+
+    Only a full deploy handed to a remote build host (REMOTE_BUILD_HOST
+    in .env) with BIROn configured (a BIRON_ setting in .env and the
+    biron.sh driver present) qualifies.
+    """
+    root = Path(root)
+    if any(arg in BIRON_SESSION_FREE_FLAGS for arg in args):
+        return False
+    if not (root / BIRON_DRIVER).is_file():
+        return False
+    env = root / ".env"
+    if not env_value(env, "REMOTE_BUILD_HOST"):
+        return False
+    return "BIRON_" in env.read_text(encoding="utf-8")
+
+
+def host_biron_session(root, run=subprocess.run, echo=print) -> bool:
+    """Run ./biron.sh session on the host; True when the host can deposit.
+
+    Whatever happens the deploy goes on: a sign-in abandoned at the
+    keyboard (exit 3), a failed sign-in or a host without the uploader's
+    toolchain all just mean the build host skips BIROn deposits this run
+    (they retry next deploy).
+    """
+    echo("==> Settling the BIROn session on this machine")
+    try:
+        result = run(["./" + BIRON_DRIVER, "session"], cwd=root)
+    except OSError as exc:
+        echo(f"    WARNING: could not run ./{BIRON_DRIVER} here ({exc}); "
+             "the build host will skip BIROn deposits this run.")
+        return False
+    if result.returncode == 0:
+        return True
+    if result.returncode == BIRON_SESSION_SKIPPED:
+        echo("    continuing without BIROn; the deposits retry on the next deploy")
+    else:
+        echo(f"    WARNING: BIROn session step failed (exit {result.returncode}); "
+             "the build host will skip BIROn deposits this run.")
+    return False
+
+
+def env_value(path, key):
+    """The value of ``key`` in a .env file, or None (absent, empty, no file)."""
+    path = Path(path)
+    if not path.is_file():
+        return None
+    pattern = re.compile(rf"^\s*{re.escape(key)}\s*=\s*(.*?)\s*$")
+    value = None
+    for line in path.read_text(encoding="utf-8").splitlines():
+        match = pattern.match(line)
+        if not match:
+            continue
+        raw = match.group(1)
+        if raw[:1] in ("'", '"') and raw.count(raw[0]) >= 2:
+            raw = raw[1:raw.index(raw[0], 1)]
+        else:
+            raw = raw.split("#", 1)[0].strip()
+        value = raw or None
+    return value
+
+
+def _is_ip(text) -> bool:
+    try:
+        ipaddress.ip_address(text)
+        return True
+    except ValueError:
+        return False
+
+
+def _in_hosts(hosts_text, name) -> bool:
+    for line in hosts_text.splitlines():
+        line = line.split("#", 1)[0]
+        if name in line.split()[1:]:
+            return True
+    return False
+
+
+def ssh_hostname(name, run=subprocess.run) -> str:
+    """What ssh would connect to for ``name``: the HostName its config maps
+    the alias to, or the name itself."""
+    result = run(["ssh", "-G", name], capture_output=True, text=True,
+                 check=False)
+    for line in (result.stdout or "").splitlines():
+        key, _, value = line.partition(" ")
+        if key == "hostname" and value.strip():
+            return value.strip()
+    return name
+
+
+def resolve_host(name) -> str:
+    """One IPv4/IPv6 address for ``name`` as the host resolves it."""
+    return socket.getaddrinfo(name, None)[0][4][0]
+
+
+def host_entry(name, ssh_hostname=ssh_hostname, resolve=resolve_host,
+               hosts_text=None):
+    """An ``ADDRESS HOSTNAME`` hosts line for the remote build host, or None.
+
+    None when there is no host, when ssh will dial an address literal
+    anyway, when the system hosts file already names it, or when the host
+    cannot resolve it either (then the container's error is the honest
+    one). Otherwise the address the host resolves is pinned for the name
+    ssh will look up, so the ``Host`` block (identity file, agent,
+    IdentitiesOnly) still matches inside the container — dialling the
+    address instead would offer every key the agent holds and trip the
+    server's authentication limit.
+    """
+    if not name or _is_ip(name):
+        return None
+    try:
+        hostname = ssh_hostname(name) or name
+    except OSError:
+        hostname = name
+    if _is_ip(hostname):
+        return None
+    if hosts_text is None:
+        try:
+            hosts_text = Path("/etc/hosts").read_text(encoding="utf-8")
+        except OSError:
+            hosts_text = ""
+    if _in_hosts(hosts_text, hostname):
+        return None
+    try:
+        address = resolve(hostname)
+    except OSError:
+        return None
+    return f"{address} {hostname}"
+
+
+def hosts_file_for(home, entry, system_hosts=Path("/etc/hosts")) -> Path:
+    """The file to mount as the container's /etc/hosts.
+
+    Without an entry, the system's own file. With one, a fresh copy of the
+    system file plus that line, kept under ~/.cache/evedeploy.
+    """
+    system_hosts = Path(system_hosts)
+    if not entry:
+        return system_hosts
+    target = Path(home) / HOSTS_CACHE
+    target.parent.mkdir(parents=True, exist_ok=True)
+    try:
+        base = system_hosts.read_text(encoding="utf-8")
+    except OSError:
+        base = ""
+    if base and not base.endswith("\n"):
+        base += "\n"
+    target.write_text(base + entry + "\n", encoding="utf-8")
+    return target
 
 
 def ensure_image(runtime, tag, root, run=subprocess.run, rebuild=False,
@@ -314,21 +493,29 @@ def main(argv=None, exec_=os.execvp) -> int:
         print(f"Error: {exc}", file=sys.stderr)
         return 1
 
+    args = list(opts.passthrough)
+    if not opts.shell and needs_host_biron_session(args, root):
+        host_biron_session(root)
+        args = [BIRON_NO_LOGIN_FLAG, *args]
+
     home = Path.home()
     extra = [p for p in [(root / CV_SOURCE_DIR).resolve()] if p.is_dir()]
     identity = ssh_mounts(home) + [
         (cfg.resolve(), cfg) for cfg in git_config_files(home)]
     state = [d for d in [home / SEQUOIA_STATE] if d.is_dir()]
+    hosts = hosts_file_for(
+        home, host_entry(env_value(root / ".env", "REMOTE_BUILD_HOST")))
     cmd = run_command(
         runtime, tag, root, home, os.getuid(), os.getgid(),
-        opts.passthrough, tty=sys.stdin.isatty() and sys.stdout.isatty(),
+        args, tty=sys.stdin.isatty() and sys.stdout.isatty(),
         agent=next(iter(agent_sockets(home)), None),
         identity_files=identity,
         extra_mounts=extra, state_dirs=state, shell=opts.shell,
-        timezone=host_timezone())
+        timezone=host_timezone(), hosts=str(hosts))
     exec_(cmd[0], cmd)
     return 0
 
 
 if __name__ == "__main__":
     sys.exit(main())
+

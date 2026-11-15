@@ -17,6 +17,7 @@ categories:
 - Digital Humanities
 kcworks: https://works.hcommons.org/records/gbvpd-qgz82
 biron: https://eprints.bbk.ac.uk/id/eprint/31610/
+smolpub: close-reading-with-computers-is-now-open-access-at-stanford-university-press
 references:
 - author: Martin Paul Eve
   date: '2019-01-01'

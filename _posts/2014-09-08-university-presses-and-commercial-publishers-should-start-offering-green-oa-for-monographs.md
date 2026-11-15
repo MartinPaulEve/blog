@@ -25,6 +25,7 @@ wordpress_url: https://www.martineve.com/?p=3222
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7meogm7s2q"
 kcworks: https://works.hcommons.org/records/c0488-fjy50
 biron: https://eprints.bbk.ac.uk/id/eprint/17368/
+smolpub: university-presses-and-commercial-publishers-should-start-offering-green-oa-for-monographs
 references:
 - http://www.sherpa.ac.uk/romeo/ # SHERPA/RoMEO journal publisher OA policies
 - author: Sierra Williams

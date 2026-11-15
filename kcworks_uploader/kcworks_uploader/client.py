@@ -1,19 +1,39 @@
-"""A minimal KC Works (InvenioRDM) API client for draft records."""
+"""A minimal KC Works (InvenioRDM) API client.
 
+Deposits go through the streamlined import API, which creates, attaches
+files to, publishes and collects a work in one request. The ordinary
+records and communities endpoints are kept only for what the import API
+has no equivalent of: publishing a hand-made draft, reading a record,
+and managing the blog's collection.
+"""
+
+import json
 import time
 from pathlib import Path
 
 import requests
 
 RETRY_STATUSES = {429, 500, 502, 503, 504}
+IMPORT_TIMEOUT = (30, 900)  # connect, read: a PDF upload can take a while
+TRACE_BODY_LIMIT = 20_000  # characters of a response body shown in a trace
+REDACTED_HEADERS = {"authorization", "cookie", "set-cookie"}
 
 
 class KCWorksError(RuntimeError):
     """An API request that the KC Works server rejected."""
 
 
+class KCWorksConflict(KCWorksError):
+    """An import the server refused because the work already exists
+    (HTTP 409); ``location`` is the existing record's URL when given."""
+
+    def __init__(self, message: str, location: str | None = None):
+        super().__init__(message)
+        self.location = location
+
+
 class KCWorksClient:
-    """Talks to the KC Works records API with a bearer token.
+    """Talks to the KC Works API with a bearer token.
 
     Rate limiting (429) and transient server errors (5xx) are retried
     with a backoff wait — honouring the Retry-After header when the
@@ -27,65 +47,170 @@ class KCWorksClient:
         session=None,
         max_retries: int = 4,
         sleep=time.sleep,
+        log=None,
     ):
         self.base_url = base_url.rstrip("/")
+        self._log = log
         self._session = session if session is not None else requests.Session()
         self._session.headers["Authorization"] = f"Bearer {token}"
         self._max_retries = max_retries
         self._sleep = sleep
 
-    def _send(self, method: str, url: str, **kwargs) -> dict:
-        """Issue a request, retrying rate limits and transient errors."""
+    def _trace(self, message: str) -> None:
+        if self._log is not None:
+            self._log(message)
+
+    def _trace_request(
+        self, verb: str, url: str, kwargs: dict, attempt: int = 0
+    ) -> None:
+        """Describe an outgoing request: headers (secrets redacted), form
+        fields with any JSON pretty-printed, attached files, raw bodies.
+        A retry resends the same request, so only its line is shown."""
+        if self._log is None:
+            return
+        if attempt:
+            self._trace(
+                f"{verb}ing to {url} (retry {attempt} of {self._max_retries}; "
+                "same request as above)"
+            )
+            return
+        headers = {**self._session.headers, **(kwargs.get("headers") or {})}
+        self._trace(f"{verb}ing to {url}")
+        self._trace("Request headers:" + _format_headers(headers))
+        files = kwargs.get("files")
+        if files:
+            lines = []
+            for field, part in files:
+                name, content, *rest = part
+                kind = rest[0] if rest else "unknown type"
+                lines.append(
+                    f"    {field}: {name} ({len(content)} bytes, {kind})"
+                )
+            self._trace("Attached files:\n" + "\n".join(lines))
+        data = kwargs.get("data")
+        if isinstance(data, dict):
+            lines = []
+            for key, value in data.items():
+                lines.append(f"    {key}: {_pretty(value)}")
+            self._trace("Form fields:\n" + "\n".join(lines))
+        elif isinstance(data, (bytes, bytearray)):
+            self._trace(f"Request body: {len(data)} bytes")
+        if kwargs.get("json") is not None:
+            self._trace("Request JSON:\n" + _indent(json.dumps(kwargs["json"], indent=2)))
+
+    def _trace_response(self, response) -> None:
+        """Describe a response: status, headers, and its body (JSON
+        pretty-printed, otherwise text, cut off past TRACE_BODY_LIMIT)."""
+        if self._log is None:
+            return
+        self._trace(
+            f"Response: HTTP {response.status_code}"
+            + _format_headers(getattr(response, "headers", {}) or {})
+        )
+        try:
+            body = json.dumps(response.json(), indent=2)
+        except ValueError:
+            body = getattr(response, "text", "") or ""
+        if len(body) > TRACE_BODY_LIMIT:
+            body = body[:TRACE_BODY_LIMIT] + f"\n… [{len(body)} characters in all]"
+        self._trace("Response body:\n" + _indent(body) if body else "Response body: (empty)")
+
+    def _request(self, method: str, url: str, **kwargs):
+        """Issue a request, retrying rate limits and transient errors;
+        return the final response unexamined.
+
+        With a ``log`` callable, each attempt, its outcome and every
+        retry decision is reported as it happens."""
+        verb = method.upper()
         for attempt in range(self._max_retries + 1):
+            self._trace_request(verb, url, kwargs, attempt)
             response = getattr(self._session, method)(url, **kwargs)
-            if (
-                response.status_code not in RETRY_STATUSES
-                or attempt == self._max_retries
-            ):
-                return self._checked(response)
-            self._sleep(_retry_delay(response, attempt))
+            self._trace_response(response)
+            status = response.status_code
+            if status in RETRY_STATUSES and attempt < self._max_retries:
+                delay = _retry_delay(response, attempt)
+                self._trace(
+                    f"FAILED to {verb} to {url}. The error was HTTP {status}: "
+                    f"{_detail(response)}. This will be retried in {delay:g}s."
+                )
+                self._sleep(delay)
+                continue
+            if status in RETRY_STATUSES:
+                self._trace(
+                    f"FAILED to {verb} to {url}. The error was HTTP {status}: "
+                    f"{_detail(response)}. Giving up after "
+                    f"{self._max_retries} retries."
+                )
+            elif status >= 400:
+                self._trace(
+                    f"{verb} to {url} rejected with HTTP {status}: "
+                    f"{_detail(response)}"
+                )
+            else:
+                self._trace(f"HTTP {status} from {url}")
+            return response
         raise AssertionError("unreachable")
 
-    def create_draft(self, record: dict) -> dict:
-        """POST the record JSON to /records; return the created draft JSON."""
-        return self._send("post", f"{self.base_url}/records", json=record)
+    def _send(self, method: str, url: str, **kwargs) -> dict:
+        """Issue a request and return its JSON, raising on rejection."""
+        return self._checked(self._request(method, url, **kwargs))
 
-    def update_draft(self, draft_id: str, record: dict) -> dict:
-        """PUT the record JSON to an existing draft; return the updated JSON.
+    def import_work(
+        self,
+        collection: str,
+        record: dict,
+        paths: list[Path],
+        review_required: bool = False,
+    ) -> dict:
+        """POST a work and its files to the streamlined import API.
 
-        Needed to set files.default_preview: the server drops it at
-        creation time because the file does not exist yet, so the draft
-        must be updated again once the uploads are committed.
+        One multipart request to /import/{collection} creates the record,
+        attaches every file, publishes it and places it in the collection
+        (bypassing review unless review_required). Returns the work's
+        entry from the response's data array: record_id, record_url,
+        files, collection_id, errors and the full metadata.
+
+        File contents are sent as bytes so a rate-limited request can be
+        retried safely. A 409 raises KCWorksConflict carrying the
+        existing work's Location, when the server gives one.
         """
-        return self._send(
-            "put", f"{self.base_url}/records/{draft_id}/draft", json=record
+        paths = [Path(path) for path in paths]
+        for path in paths:
+            if not path.is_file():
+                raise FileNotFoundError(f"No such file to import: {path}")
+        parts = []
+        for path in paths:
+            content = path.read_bytes()
+            self._trace(f"Attaching {path.name} ({len(content)} bytes)")
+            parts.append(
+                ("files", (path.name, content, "application/octet-stream"))
+            )
+        form = {
+            "metadata": json.dumps([record]),
+            "review_required": "true" if review_required else "false",
+            "notify_record_owners": "false",
+        }
+        response = self._request(
+            "post",
+            f"{self.base_url}/import/{collection}",
+            files=parts,
+            data=form,
+            headers={"Accept": "application/json"},
+            timeout=IMPORT_TIMEOUT,
         )
-
-    def list_draft_files(self, draft_id: str) -> list:
-        """GET a draft's files listing; return its entries."""
-        data = self._send(
-            "get", f"{self.base_url}/records/{draft_id}/draft/files"
-        )
-        return data.get("entries", [])
-
-    def delete_draft_pid(self, draft_id: str, scheme: str = "doi") -> dict:
-        """DELETE a scheme's pid from a draft (e.g. a stale doi entry)."""
-        return self._send(
-            "delete", f"{self.base_url}/records/{draft_id}/draft/pids/{scheme}"
-        )
-
-    def reserve_doi(self, draft_id: str) -> dict:
-        """POST /records/{id}/draft/pids/doi — reserve a managed DOI;
-        return the updated draft JSON (pids.doi carries the identifier)."""
-        return self._send(
-            "post", f"{self.base_url}/records/{draft_id}/draft/pids/doi"
-        )
-
-    def new_version(self, record_id: str) -> dict:
-        """POST /records/{id}/versions; return the new-version draft JSON."""
-        return self._send(
-            "post", f"{self.base_url}/records/{record_id}/versions"
-        )
+        if response.status_code == 409:
+            raise KCWorksConflict(
+                f"KC Works returned HTTP 409: {_detail(response)}",
+                location=response.headers.get("Location"),
+            )
+        payload = self._checked(response)
+        works = payload.get("data") or []
+        if not works:
+            raise KCWorksError(
+                "KC Works import returned no work: "
+                f"{payload.get('message') or payload}"
+            )
+        return works[0]
 
     def publish_draft(self, draft_id: str) -> dict:
         """POST the publish action for a draft; return the published record."""
@@ -94,39 +219,12 @@ class KCWorksClient:
             f"{self.base_url}/records/{draft_id}/draft/actions/publish",
         )
 
-    def upload_files(self, draft_id: str, paths: list[Path]) -> list[str]:
-        """Attach files to a draft: initiate, upload content, commit each.
-
-        Returns the list of committed file keys. Contents are sent as
-        bytes so a rate-limited upload can be safely retried.
-        """
-        paths = [Path(path) for path in paths]
-        files_url = f"{self.base_url}/records/{draft_id}/draft/files"
-        self._send(
-            "post", files_url, json=[{"key": path.name} for path in paths]
-        )
-        for path in paths:
-            self._send(
-                "put",
-                f"{files_url}/{path.name}/content",
-                data=path.read_bytes(),
-                headers={"Content-Type": "application/octet-stream"},
-            )
-            self._send("post", f"{files_url}/{path.name}/commit")
-        return [path.name for path in paths]
-
     @staticmethod
     def _checked(response) -> dict:
         if response.status_code not in (200, 201, 202, 204):
-            try:
-                payload = response.json()
-                detail = str(payload.get("message") or payload)
-                if payload.get("errors"):
-                    detail += f" — {payload['errors']}"
-            except ValueError:
-                detail = response.text
             raise KCWorksError(
-                f"KC Works returned HTTP {response.status_code}: {detail}"
+                f"KC Works returned HTTP {response.status_code}: "
+                f"{_detail(response)}"
             )
         try:
             return response.json()
@@ -169,6 +267,72 @@ class KCWorksClient:
             data=Path(path).read_bytes(),
             headers={"Content-Type": "application/octet-stream"},
         )
+
+
+def _format_headers(headers) -> str:
+    """Headers one per indented line, secret-bearing values redacted."""
+    lines = []
+    for key, value in dict(headers).items():
+        name = str(key).lower()
+        if name == "authorization" and " " in str(value):
+            value = f"{str(value).split(' ')[0]} ***"  # keep the scheme
+        elif name in REDACTED_HEADERS:
+            value = "***"
+        lines.append(f"    {key}: {value}")
+    return ("\n" + "\n".join(lines)) if lines else " (none)"
+
+
+def _pretty(value) -> str:
+    """A form value for the trace: JSON pretty-printed when it parses,
+    otherwise as-is."""
+    if isinstance(value, str):
+        try:
+            parsed = json.loads(value)
+        except ValueError:
+            return value
+        if isinstance(parsed, (dict, list)):
+            return "\n" + _indent(json.dumps(parsed, indent=2), 8)
+    return str(value)
+
+
+def _indent(text: str, spaces: int = 4) -> str:
+    pad = " " * spaces
+    return "\n".join(pad + line for line in text.splitlines())
+
+
+def _detail(response) -> str:
+    """A readable account of an error response: its message plus any
+    per-work or per-field errors it lists."""
+    try:
+        payload = response.json()
+    except ValueError:
+        return response.text
+    if not isinstance(payload, dict):
+        return str(payload)
+    detail = str(payload.get("message") or payload)
+    problems = _flatten_errors(payload.get("errors") or [])
+    if problems:
+        detail += " — " + "; ".join(problems)
+    return detail
+
+
+def _flatten_errors(errors) -> list[str]:
+    """Error entries as strings, descending into the import API's
+    per-work ``errors`` lists and field/message pairs."""
+    flat = []
+    for error in errors:
+        if isinstance(error, dict):
+            if isinstance(error.get("errors"), list):
+                flat.extend(_flatten_errors(error["errors"]))
+                continue
+            if "message" in error:
+                field = error.get("field")
+                flat.append(
+                    f"{field}: {error['message']}" if field else str(error["message"])
+                )
+                continue
+        flat.append(str(error))
+    return flat
 
 
 def _retry_delay(response, attempt: int) -> float:

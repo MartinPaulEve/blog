@@ -6,6 +6,7 @@
     thought --dry-run --text "…"  # show how it would thread, touch nothing
     thought --no-post --no-deploy # keep it local
     thought-probe                 # check both services' credentials
+    thought-resyndicate ID        # post a stored thought to the service(s) it never reached
 
 Credentials come from BLUESKY_APP_PASSWORD and MASTODON_ACCESS_TOKEN
 (the .env file via thought.sh); BLUESKY_IDENTIFIER and
@@ -22,7 +23,13 @@ from pathlib import Path
 from . import bluesky as bluesky_module
 from . import mastodon as mastodon_module
 from .linkcard import fetch_card
-from .store import add_thought, load_image_file, save_image, set_syndication
+from .store import (
+    add_thought,
+    load_image_file,
+    load_thoughts,
+    save_image,
+    set_syndication,
+)
 from .text import find_links, split_thread, split_thread_mastodon, status_line
 
 
@@ -45,6 +52,9 @@ def _mastodon_client():
         os.environ.get("MASTODON_BASE_URL", mastodon_module.BASE_URL),
         token,
     )
+
+
+SERVICES = ("bluesky", "mastodon")
 
 
 def store_thought(root: Path, text: str, images: list[dict]) -> dict:
@@ -78,6 +88,7 @@ def syndicate(
     mastodon_segments: list[str],
     images: list[dict],
     echo=print,
+    services=SERVICES,
 ) -> dict:
     """Post to Bluesky and Mastodon; record the URLs.
 
@@ -85,7 +96,8 @@ def syndicate(
     limit threads sooner than Mastodon's character limit). Each is
     tried independently — one failing must not stop the other, or the
     blog publish. Returns {"bluesky": url, "mastodon": url} with None
-    for any service that failed or lacks credentials.
+    for any service that failed, lacks credentials or was left out of
+    ``services``.
     """
     card = None
     links = find_links(" ".join(bluesky_segments))
@@ -94,37 +106,39 @@ def syndicate(
 
     result = {"bluesky": None, "mastodon": None}
 
-    client = _bluesky_client()
-    if client is None:
-        echo("Bluesky: no BLUESKY_APP_PASSWORD set; skipped.")
-    else:
-        try:
-            urls = client.post_thread(
-                bluesky_segments, images=images or None, card=card
-            )
-            result["bluesky"] = urls[0]
-            echo(f"Bluesky: {urls[0]}")
-        except Exception as exc:  # noqa: BLE001 — one service down must not stop the rest
-            echo(f"WARNING: Bluesky post failed: {exc}")
-
-    client = _mastodon_client()
-    if client is None:
-        echo("Mastodon: no MASTODON_ACCESS_TOKEN set; skipped.")
-    else:
-        try:
-            media_ids = [
-                client.upload_media(
-                    image["data"], image["mime"], alt=image.get("alt", "")
+    if "bluesky" in services:
+        client = _bluesky_client()
+        if client is None:
+            echo("Bluesky: no BLUESKY_APP_PASSWORD set; skipped.")
+        else:
+            try:
+                urls = client.post_thread(
+                    bluesky_segments, images=images or None, card=card
                 )
-                for image in images[:4]
-            ]
-            urls = client.post_thread(
-                mastodon_segments, media_ids=media_ids or None
-            )
-            result["mastodon"] = urls[0]
-            echo(f"Mastodon: {urls[0]}")
-        except Exception as exc:  # noqa: BLE001 — one service down must not stop the rest
-            echo(f"WARNING: Mastodon post failed: {exc}")
+                result["bluesky"] = urls[0]
+                echo(f"Bluesky: {urls[0]}")
+            except Exception as exc:  # noqa: BLE001 — one service down must not stop the rest
+                echo(f"WARNING: Bluesky post failed: {exc}")
+
+    if "mastodon" in services:
+        client = _mastodon_client()
+        if client is None:
+            echo("Mastodon: no MASTODON_ACCESS_TOKEN set; skipped.")
+        else:
+            try:
+                media_ids = [
+                    client.upload_media(
+                        image["data"], image["mime"], alt=image.get("alt", "")
+                    )
+                    for image in images[:4]
+                ]
+                urls = client.post_thread(
+                    mastodon_segments, media_ids=media_ids or None
+                )
+                result["mastodon"] = urls[0]
+                echo(f"Mastodon: {urls[0]}")
+            except Exception as exc:  # noqa: BLE001 — one service down must not stop the rest
+                echo(f"WARNING: Mastodon post failed: {exc}")
 
     if result["bluesky"] or result["mastodon"]:
         set_syndication(
@@ -134,6 +148,62 @@ def syndicate(
             mastodon=result["mastodon"],
         )
     return result
+
+
+def resyndicate(root: Path, thought_id: str, services=None, echo=print) -> dict:
+    """Post a stored thought to the services it never reached.
+
+    For a thought whose syndication partly failed (a flaky link during
+    the image upload, a service outage): re-reads the entry and its
+    images from the blog, re-splits the text per service, and posts to
+    each service in ``services`` (default: both) that the entry has no
+    link for yet. Already-syndicated services are never re-posted, so
+    this is safe to run repeatedly. Returns the links gained; raises
+    KeyError for an unknown id.
+    """
+    root = Path(root)
+    entry = next((t for t in load_thoughts(root) if t["id"] == thought_id), None)
+    if entry is None:
+        raise KeyError(f"no thought with id {thought_id}")
+    wanted = [s for s in (services or SERVICES) if s in SERVICES]
+    missing = [s for s in wanted if not entry.get(s)]
+    if not missing:
+        echo(f"Thought {thought_id} already has its {' and '.join(wanted)} link(s).")
+        return {}
+
+    images = []
+    for image in entry.get("images", []):
+        data, mime = load_image_file(root / image["src"].lstrip("/"))
+        images.append({"data": data, "mime": mime, "alt": image.get("alt", "")})
+
+    text = entry["text"]
+    result = syndicate(
+        root, entry, split_thread(text), split_thread_mastodon(text), images,
+        echo=echo, services=missing,
+    )
+    return {service: url for service, url in result.items() if url}
+
+
+def resyndicate_main(argv=None):
+    parser = argparse.ArgumentParser(
+        description="Post a stored thought to the service(s) it never reached"
+    )
+    parser.add_argument("id", help="the thought id (the YYYYMMDDHHMMSS key)")
+    parser.add_argument(
+        "--service", action="append", choices=SERVICES,
+        help="only this service (repeatable; default: whichever is missing)",
+    )
+    parser.add_argument("--root", type=Path, default=Path("."))
+    args = parser.parse_args(argv)
+    try:
+        gained = resyndicate(args.root, args.id, services=args.service)
+    except KeyError as exc:
+        print(f"ERROR: {exc.args[0]}", file=sys.stderr)
+        return 1
+    if gained:
+        print(f"Recorded {', '.join(gained)} link(s) on thought {args.id}; "
+              "commit _data/thoughts.yml to keep them.")
+    return 0
 
 
 def _parser():
@@ -259,3 +329,4 @@ def probe_main(argv=None):
             print(f"Mastodon: FAILED — {exc}")
             failed = True
     return 1 if failed else 0
+

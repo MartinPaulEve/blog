@@ -11,6 +11,7 @@ categories:
 - Literature
 kcworks: https://works.hcommons.org/records/3tmb7-yrp05
 biron: https://eprints.bbk.ac.uk/id/eprint/18603/
+smolpub: the-folio-society-edition-of-riddley-walker
 ---
 
 Cheap it is not, but the <a href="www.foliosociety.com/book/RDW/riddley-walker">Folio Society Edition of Russell Hoban's <i>Riddley Walker</i></a> is a beautiful item to behold.

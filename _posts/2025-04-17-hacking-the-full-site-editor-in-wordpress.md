@@ -15,6 +15,7 @@ categories:
 - Programming
 kcworks: https://works.hcommons.org/records/xbr03-8rf22
 biron: https://eprints.bbk.ac.uk/id/eprint/57917/
+smolpub: hacking-the-full-site-editor-in-wordpress
 references:
 - title: Knowledge Commons
   type: WebSite

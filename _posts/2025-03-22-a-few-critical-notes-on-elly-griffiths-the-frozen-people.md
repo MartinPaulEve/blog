@@ -4,6 +4,7 @@ date: 2025-03-22
 doi: https://doi.org/10.59348/ebtbq-5jn10
 kcworks: https://works.hcommons.org/records/pqj0q-gdr59
 biron: https://eprints.bbk.ac.uk/id/eprint/55224/
+smolpub: a-few-critical-notes-on-elly-griffiths-the-frozen-people
 roguescholar: https://rogue-scholar.org/records/ex20h-85t63
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7lvwedse2a
 image:

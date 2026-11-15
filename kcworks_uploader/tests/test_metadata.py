@@ -1,7 +1,6 @@
 from pathlib import Path
 
 import pytest
-
 from kcworks_uploader.metadata import build_metadata
 from kcworks_uploader.posts import Post
 
@@ -54,12 +53,8 @@ class TestRecordShape:
         assert record["files"] == {"enabled": True}
         assert record["access"] == {"record": "public", "files": "public"}
 
-    def test_pdf_filename_becomes_default_preview(self, post):
-        record = build_metadata(post, URL, pdf_filename="post.pdf")
-        assert record["files"] == {
-            "enabled": True,
-            "default_preview": "post.pdf",
-        }
+    def test_without_files_only_enabled_is_set(self, post):
+        assert build_metadata(post, URL)["files"] == {"enabled": True}
 
 
 class TestBlogDetails:
@@ -167,3 +162,95 @@ class TestUpdatedDate:
     def test_no_last_modified_means_no_dates_key(self, post):
         record = build_metadata(post, URL)
         assert "dates" not in record["metadata"]
+
+
+class TestOwner:
+    def test_author_owns_the_work(self, post):
+        owners = build_metadata(post, URL)["parent"]["access"]["owned_by"]
+        assert len(owners) == 1
+        owner = owners[0]
+        assert owner["full_name"] == "Martin Paul Eve"
+        assert owner["email"] == "martin.eve@bbk.ac.uk"
+        assert {"identifier": "martin_eve", "scheme": "kc_username"} in (
+            owner["identifiers"]
+        )
+        assert {"identifier": "0000-0002-5589-8511", "scheme": "orcid"} in (
+            owner["identifiers"]
+        )
+
+    def test_owner_is_the_creator(self, post):
+        record = build_metadata(post, URL)
+        creator = record["metadata"]["creators"][0]["person_or_org"]
+        owner = record["parent"]["access"]["owned_by"][0]
+        creator_ids = {
+            (i["scheme"], i["identifier"]) for i in creator["identifiers"]
+        }
+        owner_ids = {(i["scheme"], i["identifier"]) for i in owner["identifiers"]}
+        assert owner_ids <= creator_ids
+        assert owner["full_name"] == (
+            f"{creator['given_name']} {creator['family_name']}"
+        )
+
+
+@pytest.fixture
+def paths(tmp_path):
+    md = tmp_path / "2026-08-28-repository-metadata.md"
+    md.write_text("---\ntitle: x\n---\nhello")
+    pdf = tmp_path / "2026-08-28-repository-metadata.pdf"
+    pdf.write_bytes(b"%PDF-1.4 body")
+    return [md, pdf]
+
+
+class TestFileEntries:
+    def test_entries_carry_key_and_size(self, post, paths):
+        record = build_metadata(post, URL, files=paths)
+        assert record["files"]["entries"] == {
+            "2026-08-28-repository-metadata.md": {
+                "key": "2026-08-28-repository-metadata.md",
+                "size": paths[0].stat().st_size,
+            },
+            "2026-08-28-repository-metadata.pdf": {
+                "key": "2026-08-28-repository-metadata.pdf",
+                "size": paths[1].stat().st_size,
+            },
+        }
+
+    def test_files_stay_enabled(self, post, paths):
+        assert build_metadata(post, URL, files=paths)["files"]["enabled"]
+
+    def test_pdf_is_the_default_preview(self, post, paths):
+        record = build_metadata(post, URL, files=paths)
+        assert record["files"]["default_preview"] == (
+            "2026-08-28-repository-metadata.pdf"
+        )
+
+    def test_no_pdf_means_no_default_preview(self, post, paths):
+        record = build_metadata(post, URL, files=paths[:1])
+        assert "default_preview" not in record["files"]
+
+    def test_missing_file_has_a_key_but_no_size(self, post, tmp_path):
+        record = build_metadata(post, URL, files=[tmp_path / "gone.pdf"])
+        assert record["files"]["entries"] == {"gone.pdf": {"key": "gone.pdf"}}
+
+
+class TestSourceId:
+    def test_source_id_is_an_import_recid_identifier(self, post):
+        record = build_metadata(
+            post, URL, source_id="2026-08-28-repository-metadata"
+        )
+        assert {
+            "identifier": "2026-08-28-repository-metadata",
+            "scheme": "import-recid",
+        } in record["metadata"]["identifiers"]
+
+    def test_canonical_url_identifier_is_kept_alongside(self, post):
+        record = build_metadata(post, URL, source_id="slug")
+        assert {"identifier": URL, "scheme": "url"} in (
+            record["metadata"]["identifiers"]
+        )
+
+    def test_no_source_id_means_no_import_recid(self, post):
+        schemes = {
+            i["scheme"] for i in build_metadata(post, URL)["metadata"]["identifiers"]
+        }
+        assert "import-recid" not in schemes

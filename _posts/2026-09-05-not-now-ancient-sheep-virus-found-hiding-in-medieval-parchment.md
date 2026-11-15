@@ -18,6 +18,7 @@ references:
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3muryvfaafi24"
 kcworks: https://works.hcommons.org/records/3deyv-nm119
 biron: https://eprints.bbk.ac.uk/id/eprint/57931/
+smolpub: not-now-ancient-sheep-virus-found-hiding-in-medieval-parchment
 roguescholar: https://rogue-scholar.org/records/e9nww-03n64
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3muryvfaafi24
 ---

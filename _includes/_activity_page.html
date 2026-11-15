@@ -1,0 +1,87 @@
+{% comment %}
+  Shared body for /activity/ (newest month, page.activity_index true)
+  and the generated /activity/<YYYY-MM>/ pages. The activity_pages
+  plugin injects page.month, page.month_display, page.month_entries
+  (posts, thoughts, TILs and "listening" groups of consecutive plays,
+  newest first) and page.activity_nav. Chrome (search box, month nav,
+  month title, cards, "show more") comes from thoughts.css, the play rows
+  from listening.css, the kind kickers from activity.css. Search spans
+  the whole log by fetching /activity/search.json on first use
+  (activity-search.js).
+{% endcomment %}
+<link rel="stylesheet" href="/assets/css/thoughts.css?v={{ '/assets/css/thoughts.css' | asset_version }}">
+<link rel="stylesheet" href="/assets/css/listening.css?v={{ '/assets/css/listening.css' | asset_version }}">
+<link rel="stylesheet" href="/assets/css/activity.css?v={{ '/assets/css/activity.css' | asset_version }}">
+
+<div class="thoughts-crosslink">{% if page.activity_index %}{{ page.entry_count }} entries across <a href="/posts/">posts</a>, <a href="/thoughts/">short thoughts</a>, <a href="/til/">TILs</a> and <a href="/listening/">listening</a>, newest first.{% else %}<a href="/activity/">Latest activity &rarr;</a>{% endif %} <a href="/activity/feed.atom">Feed</a></div>
+
+<div class="thoughts-search">
+    <input type="search" id="activity-search" placeholder="Search everything…" aria-label="Search all activity" autocomplete="off">
+    <p class="thoughts-search-count" id="activity-search-count" hidden></p>
+</div>
+
+<nav class="thoughts-months" aria-label="Activity by month">
+{% for m in page.activity_nav %}    <a href="{{ m.url }}"{% if m.name == page.month %} aria-current="true"{% endif %}>{{ m.name }}</a>{% unless forloop.last %} <span class="thoughts-months-sep" aria-hidden="true">|</span>{% endunless %}
+{% endfor %}</nav>
+
+<div class="thoughts-list activity-month-list">
+    <section class="thoughts-month" id="m{{ page.month }}">
+        <h2 class="thoughts-month-title">{{ page.month_display }}</h2>
+        {% for entry in page.month_entries %}
+        {% case entry.kind %}
+        {% when "post" %}
+        <article class="thought-entry activity-entry activity-post">
+            <span class="activity-kicker">Post</span>
+            <h3 class="activity-post-title"><a href="{{ entry.url }}">{{ entry.title | escape }}</a></h3>
+            {% if entry.excerpt != "" %}<p class="thought-text">{{ entry.excerpt | escape }}</p>{% endif %}
+            <footer class="thought-meta">
+                <a href="{{ entry.url }}"><time datetime="{{ entry.date }}">{{ entry.date | date: "%-d %B %Y" }}</time></a>
+            </footer>
+        </article>
+        {% when "thought" or "til" %}
+        <article class="thought-entry activity-entry activity-{{ entry.kind }}">
+            <span class="activity-kicker">{% if entry.kind == "til" %}Today I learned{% else %}Short thought{% endif %}</span>
+            <p class="thought-text">{{ entry.text | linkify_urls }}</p>
+            {% if entry.images %}
+            <div class="thought-images">
+                {% for image in entry.images %}
+                <img src="{{ image.src }}" alt="{{ image.alt | escape }}" loading="lazy">
+                {% endfor %}
+            </div>
+            {% endif %}
+            <footer class="thought-meta">
+                <a href="{{ entry.url }}"><time datetime="{{ entry.date }}">{{ entry.date | date: "%-d %B %Y, %H:%M" }}</time></a>
+                {% if entry.bluesky %}&middot; <a href="{{ entry.bluesky }}" rel="syndication">Bluesky</a>{% endif %}
+                {% if entry.mastodon %}&middot; <a href="{{ entry.mastodon }}" rel="syndication">Mastodon</a>{% endif %}
+                {% if entry.twitter %}&middot; <a href="{{ entry.twitter }}" rel="syndication">Twitter</a>{% endif %}
+            </footer>
+        </article>
+        {% when "listening" %}
+        <article class="thought-entry activity-entry activity-listening">
+            <span class="activity-kicker">Listening</span>
+            <ol class="listening-plays activity-plays">
+                {% for play in entry.plays %}
+                <li class="play">
+                    <a class="play-time" href="{{ play.url }}"><time datetime="{{ play.date }}">{{ play.date | date: "%H:%M" }}</time></a>
+                    <span class="play-what">
+                        <a class="play-track" href="{{ play.track_url }}">{{ play.track | escape }}</a>
+                        <span class="play-artist">by <a href="{{ play.artist_url }}">{{ play.artist | escape }}</a></span>
+                        {% if play.album %}<span class="play-album">on {{ play.album | escape }}</span>{% endif %}
+                        {% if play.n %}<span class="play-count" title="Played {{ play.n }} times in a row">&times;{{ play.n }}</span>{% endif %}
+                    </span>
+                </li>
+                {% endfor %}
+            </ol>
+            <footer class="thought-meta">
+                <a href="{{ entry.url }}"><time datetime="{{ entry.date }}">{{ entry.date | date: "%-d %B %Y" }}</time></a>
+                &middot; {{ entry.count }} {% if entry.count == 1 %}play{% else %}plays{% endif %}
+            </footer>
+        </article>
+        {% endcase %}
+        {% endfor %}
+    </section>
+</div>
+
+<div class="thoughts-list" id="activity-search-results" hidden></div>
+
+<script src="/assets/js/activity-search.js?v={{ '/assets/js/activity-search.js' | asset_version }}" defer></script>

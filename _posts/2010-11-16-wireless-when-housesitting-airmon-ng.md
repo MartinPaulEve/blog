@@ -26,6 +26,7 @@ wordpress_url: http://www.martineve.com/?p=408
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlo5ysc2a"
 kcworks: https://works.hcommons.org/records/es7v9-a3002
 biron: https://eprints.bbk.ac.uk/id/eprint/16976/
+smolpub: wireless-when-housesitting-airmon-ng
 references:
 - author: PreciousJohnDoe
   date: '2008-12-01'

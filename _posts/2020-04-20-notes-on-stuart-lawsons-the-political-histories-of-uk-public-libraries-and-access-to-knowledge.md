@@ -16,6 +16,7 @@ categories:
 - Politics
 kcworks: https://works.hcommons.org/records/14xwj-ysr29
 biron: https://eprints.bbk.ac.uk/id/eprint/31705/
+smolpub: notes-on-stuart-lawsons-the-political-histories-of-uk-public-libraries-and-access-to-knowledge
 references:
 - https://mitpress.mit.edu/books/reassembling-scholarly-communications # MIT Press Reassembling Scholarly Communications book
 - author: Lawson, Stuart Andrew

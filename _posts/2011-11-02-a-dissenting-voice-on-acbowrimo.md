@@ -184,6 +184,7 @@ wordpress_url: https://www.martineve.com/2011/11/02/a-dissenting-voice-on-acbowr
 atUri: "at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mjgd2jj2o"
 kcworks: https://works.hcommons.org/records/g4ts5-w7236
 biron: https://eprints.bbk.ac.uk/id/eprint/17356/
+smolpub: a-dissenting-voice-on-acbowrimo
 references:
 - title: PhD2Published
   type: WebSite
