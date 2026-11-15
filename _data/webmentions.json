@@ -1,5 +1,5 @@
 {
- "last_wm_id": 2041016,
+ "last_wm_id": 2050164,
  "targets": {
   "/2026/06/23/making-blog-posts-harvestable-by-zotero-and-preserving-case-in-citation-fields/": {
    "bookmarks": [],
@@ -185,7 +185,24 @@
    ],
    "replies": [],
    "reposts": []
+  },
+  "/2026/11/11/privatized-patient-transport-in-the-nhs/": {
+   "bookmarks": [],
+   "likes": [],
+   "mentions": [],
+   "replies": [],
+   "reposts": [
+    {
+     "author_name": "bri watson 🐝",
+     "author_url": "https://bsky.app/profile/brimwats.com",
+     "avatar": "/images/webmentions/35be6d374c6cfcc1.jpg",
+     "published": "2026-11-11T19:18:40+00:00",
+     "text": "Shared a post by \n  \n  bsky.brid.gy/web/did:plc:hn...\n\n  It is now 6hrs+ since I was supposed to leave hospital. No transport has been provided. I have simply HAD ENOUGH and will get a minicab home. This is a long way and will cost me £250+. Why this happens: https://eve.gd/2026/11/11/privatized-patient-transport-in-the-nhs/",
+     "url": "https://bsky.app/profile/did:plc:hnpt7ns2lecdujegbi6qkqqm/post/3n22aezczut24#reposted_by_did:plc:gcaqhtcpce77p7xnaop2b2j5",
+     "wm_id": 2050164
+    }
+   ]
   }
  },
- "updated": "2026-11-11T14:10:57+00:00"
+ "updated": "2026-11-15T18:22:14+00:00"
 }

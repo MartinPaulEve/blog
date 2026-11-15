@@ -1,41 +1,41 @@
 {
  "last_played": {
-  "artist": "Fluke",
-  "artist_url": "https://www.last.fm/music/Fluke",
-  "now_playing": false,
-  "track": "Bullet (Nick Warren & Nicolás Rada Remix)",
-  "url": "https://www.last.fm/music/Fluke/_/Bullet+(Nick+Warren+&+Nicol%C3%A1s+Rada+Remix)"
+  "artist": "Alabama 3",
+  "artist_url": "https://www.last.fm/music/Alabama+3",
+  "now_playing": true,
+  "track": "Deadmen Don't Tell No Tales",
+  "url": "https://www.last.fm/music/Alabama+3/_/Deadmen+Don%27t+Tell+No+Tales"
  },
  "recent_plays": [
   {
-   "artist": "Rich Lane",
-   "artist_url": "https://www.last.fm/music/Rich+Lane",
-   "track": "Dumb It Down",
-   "url": "https://www.last.fm/music/Rich+Lane/_/Dumb+It+Down"
-  },
-  {
    "artist": "Fluke",
    "artist_url": "https://www.last.fm/music/Fluke",
-   "track": "Groovy Feeling (Faff remix)",
-   "url": "https://www.last.fm/music/Fluke/_/Groovy+Feeling+(Faff+remix)"
-  },
-  {
-   "artist": "Tina Turner",
-   "artist_url": "https://www.last.fm/music/Tina+Turner",
-   "track": "You Know Who (Is Doing You Know What)",
-   "url": "https://www.last.fm/music/Tina+Turner/_/You+Know+Who+(Is+Doing+You+Know+What)"
+   "track": "Bullet (Nick Warren & Nicolás Rada Remix)",
+   "url": "https://www.last.fm/music/Fluke/_/Bullet+(Nick+Warren+&+Nicol%C3%A1s+Rada+Remix)"
   },
   {
    "artist": "Future Bones",
    "artist_url": "https://www.last.fm/music/Future+Bones",
-   "track": "Trailer",
-   "url": "https://www.last.fm/music/Future+Bones/_/Trailer"
+   "track": "Pain Killer (Original Mix)",
+   "url": "https://www.last.fm/music/Future+Bones/_/Pain+Killer+(Original+Mix)"
   },
   {
-   "artist": "Faff",
-   "artist_url": "https://www.last.fm/music/Faff",
-   "track": "A Few Good Days (Fluke Remix)",
-   "url": "https://www.last.fm/music/Faff/_/A+Few+Good+Days+(Fluke+Remix)"
+   "artist": "Alabama 3",
+   "artist_url": "https://www.last.fm/music/Alabama+3",
+   "track": "Country Boy (I Love This City)",
+   "url": "https://www.last.fm/music/Alabama+3/_/Country+Boy+(I+Love+This+City)"
+  },
+  {
+   "artist": "40 Thieves (feat. Alona)",
+   "artist_url": "https://www.last.fm/music/40+Thieves+(feat.+Alona)",
+   "track": "Let Me Show You (dub mix)",
+   "url": "https://www.last.fm/music/40+Thieves+(feat.+Alona)/_/Let+Me+Show+You+(dub+mix)"
+  },
+  {
+   "artist": "Rich Lane",
+   "artist_url": "https://www.last.fm/music/Rich+Lane",
+   "track": "Sweat Out The Suicide",
+   "url": "https://www.last.fm/music/Rich+Lane/_/Sweat+Out+The+Suicide"
   }
  ],
  "top_artist": {
@@ -50,7 +50,7 @@
   "track": "Tosh (Steve Cobby redux)",
   "url": "https://www.last.fm/music/Fluke/_/Tosh+(Steve+Cobby+redux)"
  },
- "updated": "2026-11-11T14:10:58+00:00",
+ "updated": "2026-11-15T18:22:16+00:00",
  "url": "https://www.last.fm/user/MartinPaulEve",
  "user": "MartinPaulEve"
 }
