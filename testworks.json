@@ -1,0 +1,123 @@
+{
+  "access": {
+    "record": "public",
+    "files": "public"
+  },
+  "files": {
+    "enabled": true,
+    "default_preview": "2026-11-11-privatized-patient-transport-in-the-nhs.pdf",
+    "entries": {
+      "2026-11-11-privatized-patient-transport-in-the-nhs.md": {
+        "key": "2026-11-11-privatized-patient-transport-in-the-nhs.md",
+        "size": 2835
+      },
+      "2026-11-11-privatized-patient-transport-in-the-nhs.pdf": {
+        "key": "2026-11-11-privatized-patient-transport-in-the-nhs.pdf",
+        "size": 833825
+      }
+    }
+  },
+  "metadata": {
+    "resource_type": {
+      "id": "textDocument-blogPost"
+    },
+    "title": "Privatized Patient Transport in the NHS",
+    "publication_date": "2026-11-11",
+    "publisher": "Martin Paul Eve",
+    "languages": [
+      {
+        "id": "eng"
+      }
+    ],
+    "creators": [
+      {
+        "person_or_org": {
+          "type": "personal",
+          "name": "Eve, Martin Paul",
+          "family_name": "Eve",
+          "given_name": "Martin Paul",
+          "identifiers": [
+            {
+              "identifier": "martin_eve",
+              "scheme": "kc_username"
+            },
+            {
+              "identifier": "0000-0002-5589-8511",
+              "scheme": "orcid"
+            },
+            {
+              "identifier": "martin.eve@bbk.ac.uk",
+              "scheme": "email"
+            }
+          ]
+        },
+        "role": {
+          "id": "author"
+        },
+        "affiliations": [
+          {
+            "name": "Birkbeck, University of London"
+          },
+          {
+            "name": "Michigan State University"
+          }
+        ]
+      }
+    ],
+    "rights": [
+      {
+        "id": "cc-by-4.0"
+      }
+    ],
+    "identifiers": [
+      {
+        "identifier": "https://eve.gd/2026/11/11/privatized-patient-transport-in-the-nhs/",
+        "scheme": "url"
+      },
+      {
+        "identifier": "2026-11-11-privatized-patient-transport-in-the-nhs",
+        "scheme": "import-recid"
+      }
+    ],
+    "description": "I am being discharged from hospital today after three months admission. But my transport home is now over 4.5hrs late and I am not yet even allocated a vehicle. I remain taking up a bed on the ward at the expense of the NHS. Meanwhile, this is what private outsourcing of transport does to the NHS:"
+  },
+  "custom_fields": {
+    "journal:journal": {
+      "title": "eve.gd: Martin Paul Eve"
+    },
+    "kcr:publication_url": "https://eve.gd",
+    "imprint:imprint": {
+      "place": "United Kingdom"
+    },
+    "kcr:ai_usage": {
+      "ai_used": true,
+      "ai_description": "All words written in this post were written by hand, by a human (the author). No generative AI was used in the production of the writing. The technical infrastructure that builds the blog and PDFs was assisted by AI coding from Claude. The full AI usage policy is available here: https://eve.gd/ai/"
+    }
+  },
+  "parent": {
+    "access": {
+      "owned_by": [
+        {
+          "full_name": "Martin Paul Eve",
+          "email": "martin.eve@bbk.ac.uk",
+          "identifiers": [
+            {
+              "identifier": "martin_eve",
+              "scheme": "kc_username"
+            },
+            {
+              "identifier": "0000-0002-5589-8511",
+              "scheme": "orcid"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "pids": {
+    "doi": {
+      "identifier": "10.59348/xf29n-ycd32",
+      "provider": "external"
+    }
+  }
+}
