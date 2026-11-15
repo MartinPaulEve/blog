@@ -1,3 +1,14 @@
+- id: '20261115093533'
+  date: '2026-11-15T09:35:33.854481+00:00'
+  text: 'Spent yesterday moving (well, starting to move) all of my self-hosted services strictly inside my Tailnet. I just need as little exposure to the open web as is possible. Tailscale is, to be blunt, so good.
+
+
+    I have a free plan with Tailscale but suppose I should sign up for a paid offering so that they have a chance of sustainability. But they are also not totally open source: the coordination server is closed. Headscale is a reverse engineering, open rewrite of it.
+
+
+    There''s a good page on Tailscale''s openness on their website https://tailscale.com/opensource. Good also how they donate to WireGuard and have adopted community projects.'
+  bluesky: https://bsky.app/profile/eve.gd/post/3n2dplizyh222
+  mastodon: https://hcommons.social/@mpe/117619775907487187
 - id: '20261114211043'
   date: '2026-11-14T21:10:43.760429+00:00'
   text: 'I''m dismayed, but unsurprised, by Labour''s planned disability cuts. Replacing PIP with "work training" is cruel. PIP is for the extra costs of disablity, not for unemployment. This will simply impoverish many disabled people.

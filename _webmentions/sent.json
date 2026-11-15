@@ -17840,6 +17840,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-11/#t20261115093533": {
+   "content_hash": "6ff6fae563201c04b20cc830093984bd07864b403e645f0783391be69dcd4968",
+   "sent": {
+    "https://tailscale.com/opensource": {
+     "at": "2026-11-15T09:36:51+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
