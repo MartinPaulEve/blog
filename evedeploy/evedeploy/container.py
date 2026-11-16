@@ -75,7 +75,7 @@ LAUNCHER_FLAGS = {
 # deposit at all.
 BIRON_DRIVER = "biron.sh"
 BIRON_SESSION_FREE_FLAGS = frozenset({
-    "--quick", "--build-only", "--local", "--remote-phase",
+    "--quick", "--listens", "--build-only", "--local", "--remote-phase",
     "--remote-check", "--help", "-h",
 })
 BIRON_NO_LOGIN_FLAG = "--no-biron-login"

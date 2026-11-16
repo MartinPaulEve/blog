@@ -43,6 +43,9 @@ OG_CACHE = ".og_cache"
 DEFAULT_REMOTE_DIR = "~/build/martineve/blog"
 # What the short-thought quick path commits before handing off remotely.
 THOUGHT_PATHS = ("_data/thoughts.yml", "assets/thoughts")
+# What the listens path commits after a sync (the error sentinel,
+# _lastfm/fetch_error.json, is gitignored).
+LASTFM_DATA_PATHS = ("_data/lastfm.json", "_data/listening.json")
 CV_SOURCE_DIR = Path("../eprintsToCV/output")
 MIN_NODE_MAJOR = 19
 PREVIEW_PORT = 8000
@@ -266,6 +269,54 @@ def quick_deploy(root: Path, run=default_run, echo=print,
         echo("    (skipped or failed; continuing)")
     if commit_ledger and commit_sent_state(root, run=run):
         echo("    sent-webmentions ledger committed")
+    echo("==> Done.")
+    return True
+
+
+def commit_listening_data(root: Path, run=default_run) -> bool:
+    """Commit and push the Last.fm data files if the sync changed them."""
+    _step(run, ["git", "add", "--", *LASTFM_DATA_PATHS], name="git add",
+          cwd=root)
+    staged = run(["git", "diff", "--cached", "--quiet", "--",
+                  *LASTFM_DATA_PATHS], cwd=root, check=False)
+    if staged.returncode == 0:
+        return False
+    _step(run, ["git", "commit", "-m",
+                "chore(lastfm): sync recent listens"],
+          name="git commit", cwd=root)
+    _step(run, ["git", "push"], name="git push", cwd=root)
+    return True
+
+
+def listens_deploy(root: Path, run=default_run, echo=print,
+                   cache_sync: bool = True, commit_data: bool = False) -> bool:
+    """Fetch recent Last.fm listens, build the site and rsync it.
+
+    The fast path for syncing the listening pages: no cover resize, no
+    sequoia, no git prep, no deposits, no webmentions. A failed (or
+    absent) fetch is fatal — the run exists only to ship fresh listening
+    data, so without it there is nothing to deploy. ``commit_data``
+    commits and pushes the refreshed data files afterwards (the remote
+    build host's case: its checkout is reset every run, and losing
+    _data/listening.json's high-water mark would leave the log stuck).
+    """
+    root = Path(root)
+    echo("==> Fetching Last.fm listens")
+    if not fetch_lastfm(root, run=run, echo=echo):
+        raise DeployError(
+            "Last.fm fetch failed or unavailable; nothing to sync.")
+    if cache_sync:
+        echo("==> Pulling the build cache from the server")
+        pull_build_cache(root, run=run, echo=echo)
+    echo("==> Building site")
+    jekyll_build(root, run=run)
+    echo("==> Deploying to server")
+    ship_site(root, run=run, echo=echo, cache_sync=cache_sync)
+    if commit_data:
+        if commit_listening_data(root, run=run):
+            echo("    listening data committed")
+        else:
+            echo("    (no data changes to commit)")
     echo("==> Done.")
     return True
 
@@ -856,13 +907,15 @@ def _copy_to_host(run, host, source: Path, destination: str, name: str):
 
 def remote_deploy(root: Path, host: str, remote_dir: str, message, args,
                   run=default_run, echo=print, resize: bool = True,
-                  quick: bool = False, home=None,
+                  quick: bool = False, listens: bool = False, home=None,
                   biron_login: bool = True) -> bool:
     """Prepare locally, push, then run the pipeline on the build host.
 
     For a low-bandwidth operator: everything that needs local resources or
     shrinks what has to travel happens here (cover resize, CV refresh, the
-    commit and push — or, on the quick path, just committing the thought);
+    commit and push — on the quick path just committing the thought, and
+    on the listens path nothing at all: the Last.fm fetch, build and data
+    commit all happen on the host);
     everything heavy (Sequoia, feed fetches, the build, deposits, rsync,
     webmentions, the Rogue Scholar wait, BIROn) runs on ``host`` in its
     checkout at ``remote_dir``, via that checkout's own deploy.sh (with
@@ -883,7 +936,11 @@ def remote_deploy(root: Path, host: str, remote_dir: str, message, args,
     root = Path(root)
     home = Path(home) if home else Path.home()
 
-    if quick:
+    if listens:
+        # Nothing to prepare here: the fetch, build and data commit all
+        # happen on the host; the closing pull collects its data commit.
+        echo("==> Nothing to prepare locally for a listens sync")
+    elif quick:
         echo("==> Committing the thought")
         if not commit_thought(root, run=run):
             echo("    (nothing new to commit)")

@@ -15,6 +15,7 @@ from evedeploy.pipeline import (
     DeployError,
     build_site,
     deploy,
+    listens_deploy,
     quick_deploy,
     remote_check,
     remote_deploy,
@@ -77,6 +78,13 @@ def find_root(start: Path) -> Path:
     "git, deposits or feed fetches (used after posting a short thought).",
 )
 @click.option(
+    "--listens",
+    is_flag=True,
+    help="Sync recent Last.fm listens only: fetch the stats and play "
+    "log, jekyll build + rsync — no resize, sequoia, deposits, "
+    "webmentions or feed fetches.",
+)
+@click.option(
     "--local",
     is_flag=True,
     help="Run the pipeline here even when REMOTE_BUILD_HOST is set "
@@ -114,8 +122,8 @@ def find_root(start: Path) -> Path:
     "the container, where the sign-in window can be shown).",
 )
 def main(message, no_resize, yes, root, build_only, no_server, no_rs_wait,
-         no_sequoia, quick, local, remote_phase, check_remote, no_cache_sync,
-         no_cv, no_biron_login):
+         no_sequoia, quick, listens, local, remote_phase, check_remote,
+         no_cache_sync, no_cv, no_biron_login):
     """Build, publish and deploy the eve.gd blog.
 
     With REMOTE_BUILD_HOST set (in .env), everything but the local
@@ -152,6 +160,8 @@ def main(message, no_resize, yes, root, build_only, no_server, no_rs_wait,
         forwarded = []
         if quick:
             forwarded.append("--quick")
+        if listens:
+            forwarded.append("--listens")
         if yes:
             forwarded.append("--yes")
         if no_rs_wait:
@@ -160,7 +170,7 @@ def main(message, no_resize, yes, root, build_only, no_server, no_rs_wait,
             forwarded.append("--no-sequoia")
         if no_cache_sync:
             forwarded.append("--no-cache-sync")
-        if message is None and not quick:
+        if message is None and not quick and not listens:
             message = datetime.now().astimezone().strftime(
                 "Publish %Y-%m-%d %H:%M"
             )
@@ -168,8 +178,17 @@ def main(message, no_resize, yes, root, build_only, no_server, no_rs_wait,
             remote_deploy(
                 root, host=host, remote_dir=remote_dir, message=message,
                 args=forwarded, echo=click.echo, resize=not no_resize,
-                quick=quick, biron_login=not no_biron_login,
+                quick=quick, listens=listens,
+                biron_login=not no_biron_login,
             )
+        except DeployError as exc:
+            raise click.ClickException(str(exc)) from exc
+        return
+
+    if listens:
+        try:
+            listens_deploy(root=root, echo=click.echo,
+                           cache_sync=not no_cache_sync, commit_data=local)
         except DeployError as exc:
             raise click.ClickException(str(exc)) from exc
         return

@@ -202,11 +202,11 @@ def remote_spy(monkeypatch):
     seen = {}
 
     def fake_remote(root, host, remote_dir, message, args, run=None,
-                    echo=None, resize=True, quick=False, home=None,
-                    biron_login=True):
+                    echo=None, resize=True, quick=False, listens=False,
+                    home=None, biron_login=True):
         seen.update(root=root, host=host, remote_dir=remote_dir,
                     message=message, args=list(args), resize=resize,
-                    quick=quick, biron_login=biron_login)
+                    quick=quick, listens=listens, biron_login=biron_login)
         return True
 
     monkeypatch.setattr(cli, "remote_deploy", fake_remote, raising=False)
@@ -269,6 +269,15 @@ class TestRemoteBuildHost:
         assert result.exit_code == 0, result.output
         assert remote_spy["quick"] is True
         assert "--quick" in remote_spy["args"]
+
+    def test_listens_goes_remote_too(self, blog_root, remote_spy, monkeypatch):
+        monkeypatch.setenv("REMOTE_BUILD_HOST", "waldorf")
+        result = CliRunner().invoke(
+            main, ["--root", str(blog_root), "--listens"])
+        assert result.exit_code == 0, result.output
+        assert remote_spy["listens"] is True
+        assert "--listens" in remote_spy["args"]
+        assert remote_spy["message"] is None
 
     def test_no_resize_is_honoured_remotely(
             self, blog_root, remote_spy, monkeypatch):
@@ -339,6 +348,53 @@ class TestCacheAndCvFlags:
     def test_no_cv_flag(self, blog_root, deploy_spy):
         CliRunner().invoke(main, ["--root", str(blog_root), "--yes", "--no-cv"])
         assert deploy_spy["cv"] is False
+
+
+@pytest.fixture
+def listens_spy(monkeypatch):
+    seen = {}
+
+    def fake_listens(root, echo=None, cache_sync=True, commit_data=False):
+        seen.update(root=root, cache_sync=cache_sync, commit_data=commit_data)
+        return True
+
+    monkeypatch.setattr(cli, "listens_deploy", fake_listens, raising=False)
+    return seen
+
+
+class TestListens:
+    def test_listens_runs_the_listens_path_and_nothing_else(
+            self, blog_root, deploy_spy, listens_spy, monkeypatch):
+        monkeypatch.delenv("REMOTE_BUILD_HOST", raising=False)
+        result = CliRunner().invoke(
+            main, ["--root", str(blog_root), "--listens"])
+        assert result.exit_code == 0, result.output
+        assert Path(listens_spy["root"]) == blog_root
+        assert listens_spy["commit_data"] is False
+        assert deploy_spy == {}
+
+    def test_needs_no_confirmation_or_message(
+            self, blog_root, listens_spy, monkeypatch):
+        # No --yes and no stdin: a listens sync must never prompt.
+        monkeypatch.delenv("REMOTE_BUILD_HOST", raising=False)
+        result = CliRunner().invoke(
+            main, ["--root", str(blog_root), "--listens"])
+        assert result.exit_code == 0, result.output
+
+    def test_no_cache_sync_is_honoured(
+            self, blog_root, listens_spy, monkeypatch):
+        monkeypatch.delenv("REMOTE_BUILD_HOST", raising=False)
+        CliRunner().invoke(
+            main, ["--root", str(blog_root), "--listens", "--no-cache-sync"])
+        assert listens_spy["cache_sync"] is False
+
+    def test_remote_phase_listens_commits_the_data(
+            self, blog_root, listens_spy):
+        # The build host's checkout is reset every run: the refreshed
+        # listening log must be committed there to survive.
+        CliRunner().invoke(
+            main, ["--root", str(blog_root), "--remote-phase", "--listens"])
+        assert listens_spy["commit_data"] is True
 
 
 @pytest.fixture

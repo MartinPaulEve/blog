@@ -622,9 +622,9 @@ class TestNeedsHostBironSession:
         assert needs_host_biron_session(["--no-sequoia", "Publish now"], root)
         assert needs_host_biron_session([], root) is True
 
-    @pytest.mark.parametrize("flag", ["--quick", "--build-only", "--local",
-                                      "--remote-phase", "--remote-check",
-                                      "--help"])
+    @pytest.mark.parametrize("flag", ["--quick", "--listens", "--build-only",
+                                      "--local", "--remote-phase",
+                                      "--remote-check", "--help"])
     def test_other_runs_do_not(self, tmp_path, flag):
         root = biron_repo(tmp_path)
         assert needs_host_biron_session([flag, "Publish now"], root) is False

@@ -14,6 +14,7 @@
 #   ./deploy.sh --build-only   # local build + preview server, no deploy
 #   ./deploy.sh --build-only --no-server   # build only, no server
 #   ./deploy.sh --quick        # jekyll build + rsync only (short thoughts)
+#   ./deploy.sh --listens      # sync recent Last.fm listens: fetch + build + rsync
 #   ./deploy.sh --local ...    # ignore REMOTE_BUILD_HOST, run it all here
 #   ./deploy.sh --remote-check # verify every hop a remote build needs
 #   ./deploy.sh --no-cache-sync ...   # skip the server cache pull/push

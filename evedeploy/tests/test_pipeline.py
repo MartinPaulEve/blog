@@ -8,6 +8,7 @@ from evedeploy.pipeline import (
     biron_deposit_new,
     build_site,
     check_preflight,
+    commit_listening_data,
     commit_sent_state,
     deploy,
     fetch_lastfm,
@@ -15,6 +16,7 @@ from evedeploy.pipeline import (
     git_commit_push,
     jekyll_build,
     kcworks_deposit_new,
+    listens_deploy,
     posts_missing_marker,
     pull_build_cache,
     push_cache_hashes,
@@ -438,6 +440,41 @@ class TestQuickDeploy:
         run = FakeRun()
         assert quick_deploy(root, run=run, echo=lambda *a, **k: None) is True
         assert "uv run" not in run.commands()
+
+
+class TestListensDeploy:
+    def test_fetches_then_builds_then_rsyncs(self, root):
+        run = FakeRun()
+        assert listens_deploy(root, run=run, echo=lambda *a, **k: None) is True
+        cmds = run.commands()
+        fetch = next(i for i, call in enumerate(run.calls)
+                     if "_lastfm/fetch_lastfm.py" in call["cmd"])
+        assert fetch < cmds.index("jekyll build") < cmds.index("rsync -avz")
+
+    def test_touches_nothing_else(self, root):
+        # No sequoia, git, deposits, webmentions or resize — listens must
+        # ship in seconds with only the fetch, the build and the rsync.
+        run = FakeRun()
+        listens_deploy(root, run=run, echo=lambda *a, **k: None)
+        joined = " ".join(" ".join(call["cmd"]) for call in run.calls)
+        for forbidden in ("sequoia", "git", "kcworks", "biron",
+                          "webmentions", "resize"):
+            assert forbidden not in joined
+
+    def test_fetch_failure_stops_before_the_build(self, root):
+        # Shipping without fresh data would be pointless: the whole run
+        # exists to sync the listens, so a failed fetch is fatal.
+        run = FakeRun({"uv run": 1})
+        with pytest.raises(DeployError):
+            listens_deploy(root, run=run, echo=lambda *a, **k: None)
+        assert "jekyll build" not in run.commands()
+
+    def test_missing_fetcher_script_is_fatal_too(self, root):
+        (root / "_lastfm" / "fetch_lastfm.py").unlink()
+        run = FakeRun()
+        with pytest.raises(DeployError):
+            listens_deploy(root, run=run, echo=lambda *a, **k: None)
+        assert "jekyll build" not in run.commands()
 
 
 class TestBironDepositNew:
@@ -1139,6 +1176,43 @@ class TestQuickDeployCacheSync:
         assert not any(c.startswith("git commit") for c in run.joined())
 
 
+class TestListensDeployCacheSyncAndCommit:
+    def test_pulls_the_cache_before_building(self, root):
+        (root / ".pdf_cache").mkdir()
+        run = ScriptedRun()
+        listens_deploy(root, run=run, echo=lambda *_: None)
+        assert run.index_of("_site/PDF/") < run.index_of("jekyll build")
+
+    def test_cache_sync_can_be_switched_off(self, root):
+        (root / ".pdf_cache").mkdir()
+        run = ScriptedRun()
+        listens_deploy(root, run=run, echo=lambda *_: None, cache_sync=False)
+        assert not any("_site/PDF/" in c or "--include=*.hash" in c
+                       for c in run.joined())
+
+    def test_commits_and_pushes_the_data_when_asked(self, root):
+        # The remote build host's case: its checkout is reset every run,
+        # so an uncommitted listening log would lose its high-water mark.
+        run = ScriptedRun({"git diff --cached": 1})
+        listens_deploy(root, run=run, echo=lambda *_: None, commit_data=True)
+        adds = [c for c in run.joined() if c.startswith("git add")]
+        assert adds and all("_data/lastfm.json" in c
+                            and "_data/listening.json" in c for c in adds)
+        assert any(c.startswith("git commit") for c in run.joined())
+        assert any(c.startswith("git push") for c in run.joined())
+
+    def test_leaves_the_data_uncommitted_by_default(self, root):
+        run = ScriptedRun({"git diff --cached": 1})
+        listens_deploy(root, run=run, echo=lambda *_: None)
+        assert not any(c.startswith("git commit") for c in run.joined())
+
+    def test_a_clean_tree_commits_nothing(self, root):
+        run = ScriptedRun()  # git diff --cached exits 0: nothing staged
+        assert commit_listening_data(root, run=run) is False
+        assert not any(c.startswith(("git commit", "git push"))
+                       for c in run.joined())
+
+
 @pytest.fixture
 def remote_root(root, tmp_path):
     (root / ".biron_cookie").write_text("session=1")
@@ -1265,6 +1339,25 @@ class TestRemoteDeploy:
         assert "--quick" in script and "--remote-phase" in script
         assert run.index_of("git push") < run.index_of("./deploy.sh")
         assert run.index_of("./deploy.sh") < run.index_of("git pull --ff-only")
+
+    def test_listens_mode_skips_local_prep_and_forwards_the_flag(
+            self, remote_root):
+        # Nothing to prepare here: the fetch, build and data commit all
+        # happen on the host; the closing pull collects its data commit.
+        root, home = remote_root
+        run = ScriptedRun()
+        assert remote_deploy(root, host=self.HOST, remote_dir=self.DIR,
+                             message=None, args=["--listens"], run=run,
+                             echo=lambda *_: None, home=home,
+                             listens=True) is True
+        remote = run.index_of("./deploy.sh")
+        joined = run.joined()
+        assert not any(c.startswith(("git add", "git commit"))
+                       for c in joined[:remote])
+        assert not any("resize_covers.py" in c for c in joined)
+        script = run.calls[remote]["cmd"][-1]
+        assert "--listens" in script and "--remote-phase" in script
+        assert remote < run.index_of("git pull --ff-only")
 
     def test_remote_checkout_uses_the_forwarded_agent_for_git(self, remote_root):
         # Same trap as the check: the host's config steers non-TTY ssh to a
