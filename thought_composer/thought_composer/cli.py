@@ -280,11 +280,10 @@ def main(argv=None):
         syndicate(args.root, entry, bluesky_segments, mastodon_segments, images)
 
     if not args.no_deploy:
+        # Through the container launcher, not the host toolchain: the
+        # host need not carry the locked gem set at all.
         deploy = subprocess.run(
-            [
-                "uv", "run", "--env-file", ".env",
-                "--project", "evedeploy", "evedeploy", "--quick",
-            ],
+            ["./deploy.sh", "--quick"],
             cwd=args.root,
             check=False,
         )

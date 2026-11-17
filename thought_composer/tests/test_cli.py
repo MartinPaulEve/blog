@@ -1,4 +1,5 @@
 import io
+import types
 
 import pytest
 from PIL import Image
@@ -126,6 +127,39 @@ def test_syndicate_sends_each_service_its_own_segments(root, monkeypatch):
     )
     assert received["bluesky"] == ["part one", "part two"]
     assert received["mastodon"] == ["part one part two"]
+
+
+# --- the quick deploy step ------------------------------------------------
+
+
+class FakeDeployRun:
+    """Stand-in for subprocess.run that records the deploy invocation."""
+
+    def __init__(self, returncode=0):
+        self.returncode = returncode
+        self.commands = []
+
+    def __call__(self, command, **kwargs):
+        self.commands.append({"command": command, "kwargs": kwargs})
+        return types.SimpleNamespace(returncode=self.returncode)
+
+
+def test_deploy_runs_the_containerised_deploy_script(root, monkeypatch):
+    fake = FakeDeployRun(returncode=0)
+    monkeypatch.setattr(cli.subprocess, "run", fake)
+    assert cli.main(["--text", "hi", "--no-post", "--root", str(root)]) == 0
+    (call,) = fake.commands
+    assert call["command"] == ["./deploy.sh", "--quick"]
+    assert call["kwargs"]["cwd"] == root
+
+
+def test_failed_deploy_reports_and_returns_nonzero(root, monkeypatch, capsys):
+    fake = FakeDeployRun(returncode=1)
+    monkeypatch.setattr(cli.subprocess, "run", fake)
+    assert cli.main(["--text", "hi", "--no-post", "--root", str(root)]) == 1
+    (call,) = fake.commands
+    assert call["command"] == ["./deploy.sh", "--quick"]
+    assert "./deploy.sh --quick" in capsys.readouterr().err
 
 
 # --- resyndicating a stored thought --------------------------------------
