@@ -1,3 +1,13 @@
+- id: '20261116211743'
+  date: '2026-11-16T21:17:43.784643+00:00'
+  text: One UI trait that annoys me is when an app gives you a list of icons to perform actions on something you've selected, but I have no idea what these icons are supposed to convey. For instance, in Outlook, I have no idea how I mark a message as spam.
+  bluesky: https://bsky.app/profile/eve.gd/post/3n2hhbxo3ar2z
+  mastodon: https://hcommons.social/@mpe/117628199114181115
+- id: '20261116201414'
+  date: '2026-11-16T20:14:14.400088+00:00'
+  text: UK full assoc to FP10 hasn't been budgeted. Would need huge cuts to research & QR. One scenario sees deficit costing 55% of QR. That could bankrupt several universities. https://science.works/writing/what-will-fp10-cost-the-uk/
+  bluesky: https://bsky.app/profile/eve.gd/post/3n2hdqhu2s32q
+  mastodon: https://hcommons.social/@mpe/117627949639819208
 - id: '20261115093533'
   date: '2026-11-15T09:35:33.854481+00:00'
   text: 'Spent yesterday moving (well, starting to move) all of my self-hosted services strictly inside my Tailnet. I just need as little exposure to the open web as is possible. Tailscale is, to be blunt, so good.

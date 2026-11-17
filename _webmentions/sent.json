@@ -17849,6 +17849,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-11/#t20261116201414": {
+   "content_hash": "a8ad71fc5501a87e25c26f45dc7971181a7bd8a66b3118873f3e9268549608ce",
+   "sent": {
+    "https://science.works/writing/what-will-fp10-cost-the-uk/": {
+     "at": "2026-11-16T20:15:35+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
