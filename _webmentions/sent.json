@@ -17858,6 +17858,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-11/#t20261117215514": {
+   "content_hash": "13aa536febb704fe5812c473c9dc0d6ea95410b27a2c799a7cddccbc94902353",
+   "sent": {
+    "https://www.theguardian.com/society/2026/nov/17/neet-alan-milburn-report-young-people-not-in-education-employment-or-training": {
+     "at": "2026-11-17T21:56:38+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
