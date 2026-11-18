@@ -1,24 +1,12 @@
 {
  "last_played": {
-  "artist": "Alabama 3",
-  "artist_url": "https://www.last.fm/music/Alabama+3",
-  "now_playing": true,
-  "track": "Deadmen Don't Tell No Tales",
-  "url": "https://www.last.fm/music/Alabama+3/_/Deadmen+Don%27t+Tell+No+Tales"
+  "artist": "Voodoo Child",
+  "artist_url": "https://www.last.fm/music/Voodoo+Child",
+  "now_playing": false,
+  "track": "Strings",
+  "url": "https://www.last.fm/music/Voodoo+Child/_/Strings"
  },
  "recent_plays": [
-  {
-   "artist": "Fluke",
-   "artist_url": "https://www.last.fm/music/Fluke",
-   "track": "Bullet (Nick Warren & Nicolás Rada Remix)",
-   "url": "https://www.last.fm/music/Fluke/_/Bullet+(Nick+Warren+&+Nicol%C3%A1s+Rada+Remix)"
-  },
-  {
-   "artist": "Future Bones",
-   "artist_url": "https://www.last.fm/music/Future+Bones",
-   "track": "Pain Killer (Original Mix)",
-   "url": "https://www.last.fm/music/Future+Bones/_/Pain+Killer+(Original+Mix)"
-  },
   {
    "artist": "Alabama 3",
    "artist_url": "https://www.last.fm/music/Alabama+3",
@@ -26,16 +14,28 @@
    "url": "https://www.last.fm/music/Alabama+3/_/Country+Boy+(I+Love+This+City)"
   },
   {
-   "artist": "40 Thieves (feat. Alona)",
-   "artist_url": "https://www.last.fm/music/40+Thieves+(feat.+Alona)",
-   "track": "Let Me Show You (dub mix)",
-   "url": "https://www.last.fm/music/40+Thieves+(feat.+Alona)/_/Let+Me+Show+You+(dub+mix)"
+   "artist": "Fluke",
+   "artist_url": "https://www.last.fm/music/Fluke",
+   "track": "Atom Bomb (Daniel Avery Nuclear Summer Remix)",
+   "url": "https://www.last.fm/music/Fluke/_/Atom+Bomb+(Daniel+Avery+Nuclear+Summer+Remix)"
+  },
+  {
+   "artist": "Future Bones",
+   "artist_url": "https://www.last.fm/music/Future+Bones",
+   "track": "What U Want",
+   "url": "https://www.last.fm/music/Future+Bones/_/What+U+Want"
   },
   {
    "artist": "Rich Lane",
    "artist_url": "https://www.last.fm/music/Rich+Lane",
-   "track": "Sweat Out The Suicide",
-   "url": "https://www.last.fm/music/Rich+Lane/_/Sweat+Out+The+Suicide"
+   "track": "Dumb It Down",
+   "url": "https://www.last.fm/music/Rich+Lane/_/Dumb+It+Down"
+  },
+  {
+   "artist": "Yuksek and Fatnotronic",
+   "artist_url": "https://www.last.fm/music/Yuksek+and+Fatnotronic",
+   "track": "Bateu",
+   "url": "https://www.last.fm/music/Yuksek+and+Fatnotronic/_/Bateu"
   }
  ],
  "top_artist": {
@@ -50,7 +50,7 @@
   "track": "Tosh (Steve Cobby redux)",
   "url": "https://www.last.fm/music/Fluke/_/Tosh+(Steve+Cobby+redux)"
  },
- "updated": "2026-11-15T18:22:16+00:00",
+ "updated": "2026-11-16T12:25:12+00:00",
  "url": "https://www.last.fm/user/MartinPaulEve",
  "user": "MartinPaulEve"
 }
