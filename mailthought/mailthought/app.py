@@ -159,28 +159,13 @@ def start_worker(config: Config, process=publisher.process_job):
 def create_app(
     config: Config | None = None,
     enqueue=None,
-    fetch_mime=None,
-    verify_dkim=None,
 ) -> Flask:
     """Build the Flask app; config defaults to the environment.
 
     ``enqueue`` is called with each accepted job dict; when omitted, a
-    real worker thread is started. ``fetch_mime`` and ``verify_dkim``
-    are the direct-DKIM fallback used when Mailgun's SPF/DKIM verdict
-    headers are absent (large messages skip its spam scan); they
-    default to the real Mailgun-storage fetch and dkimpy verification
-    and are injectable for tests.
+    real worker thread is started.
     """
     config = config or load_config(os.environ)
-    # Mailgun abandons the webhook POST after ~10s ("context deadline
-    # exceeded"), so the in-request fetch gets one short-timeout try;
-    # anything slower is the worker's business via needs_auth.
-    fetch_mime = fetch_mime or (
-        lambda config, message_id: security.stored_message_mime(
-            config, message_id, attempts=1, timeout=5.0
-        )
-    )
-    verify_dkim = verify_dkim or security.dkim_authenticated
     for directory in (config.inbox_dir, config.state_dir, config.drafts_dir):
         directory.mkdir(parents=True, exist_ok=True)
     if enqueue is None:
@@ -271,44 +256,27 @@ def create_app(
                 )
             # Both verdicts absent: Mailgun's spam scan (which stamps
             # them) skips messages over its size limit — typically mail
-            # with image attachments — so verify DKIM ourselves against
-            # the stored copy of the message.
-            app.logger.info(
-                "verdict headers absent (message likely exceeded "
-                "Mailgun's spam-scan size limit); falling back to "
-                "direct DKIM verification of the stored message"
-            )
+            # with image attachments. DKIM must then be verified
+            # against Mailgun's stored copy of the message, but that
+            # fetch cannot happen here: Mailgun abandons the webhook
+            # POST after ~10s and the Events API lookup plus the
+            # multi-megabyte MIME download can take longer, which
+            # would turn every large mail into a timed-out, endlessly
+            # retried delivery. Accept provisionally instead; the
+            # worker (whose polling budget is minutes) verifies DKIM
+            # before anything publishes.
             if not message_id:
                 return reject(
                     "authentication",
                     "verdicts absent and no Message-Id to retrieve the "
                     "stored message by",
                 )
-            raw_mime = fetch_mime(config, message_id)
-            if raw_mime is None:
-                # The Events API has not indexed the message yet, and
-                # Mailgun's ~10s webhook deadline leaves no room to
-                # wait — accept provisionally; the worker verifies
-                # DKIM before anything publishes.
-                app.logger.info(
-                    "stored message %r not queryable yet; deferring "
-                    "DKIM verification to the worker", message_id,
-                )
-                needs_auth = True
-            else:
-                from_domain = sender.rsplit("@", 1)[-1]
-                if not verify_dkim(raw_mime, from_domain):
-                    return reject(
-                        "authentication",
-                        f"direct DKIM verification failed for domain "
-                        f"{from_domain!r} ({len(raw_mime)} bytes of "
-                        f"stored MIME)",
-                    )
-                app.logger.info(
-                    "authenticated via direct DKIM verification for %r "
-                    "(%d bytes of stored MIME)",
-                    from_domain, len(raw_mime),
-                )
+            app.logger.info(
+                "verdict headers absent (message likely exceeded "
+                "Mailgun's spam-scan size limit); deferring DKIM "
+                "verification of the stored message to the worker"
+            )
+            needs_auth = True
 
         if message_id and messages.seen_before(message_id):
             app.logger.info(

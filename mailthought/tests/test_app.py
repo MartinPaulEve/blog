@@ -57,15 +57,8 @@ def inbound_form(
 
 @pytest.fixture
 def harness(config):
-    # The direct-DKIM fallback (used when Mailgun's verdicts are
-    # absent) denies by default so no test accidentally leans on it.
     jobs = []
-    app = create_app(
-        config,
-        enqueue=jobs.append,
-        fetch_mime=lambda config, message_id: b"RAW MIME",
-        verify_dkim=lambda raw, domain: False,
-    )
+    app = create_app(config, enqueue=jobs.append)
     return app.test_client(), jobs, config
 
 
@@ -190,7 +183,7 @@ class TestRejection:
         assert jobs == []
 
     @pytest.mark.parametrize(
-        "spf,dkim", [("Fail", "Pass"), ("Pass", "Fail"), (None, None)]
+        "spf,dkim", [("Fail", "Pass"), ("Pass", "Fail"), (None, "Fail")]
     )
     def test_unauthenticated_mail_rejected(self, harness, spf, dkim):
         client, jobs, config = harness
@@ -224,85 +217,41 @@ class TestRejection:
         assert jobs == []
 
 
-class TestAuthFallback:
-    """Absent Mailgun verdicts (large mail skips its spam scan) fall
-    back to fetching the stored MIME and verifying DKIM directly."""
+class TestAuthDeferral:
+    """Absent Mailgun verdicts (large mail — typically an image —
+    skips its spam scan) must NOT be verified inside the webhook:
+    Mailgun abandons the POST after ~10s and the stored-message fetch
+    plus DKIM check can take longer, so the mail is accepted
+    provisionally and the worker verifies before anything publishes."""
 
-    def build(self, config, fetch_mime, verify_dkim):
+    def test_absent_verdicts_are_deferred_to_the_worker(self, config):
         jobs = []
-        app = create_app(
-            config,
-            enqueue=jobs.append,
-            fetch_mime=fetch_mime,
-            verify_dkim=verify_dkim,
-        )
-        return app.test_client(), jobs
-
-    def test_absent_verdicts_with_passing_dkim_are_queued(self, config):
-        # The verifier only passes when handed the fetched MIME and the
-        # sender's own domain — proof the fallback is wired correctly.
-        client, jobs = self.build(
-            config,
-            fetch_mime=lambda config, message_id: b"THE STORED MIME",
-            verify_dkim=lambda raw, domain: (
-                raw == b"THE STORED MIME" and domain == "eve.gd"
-            ),
-        )
+        app = create_app(config, enqueue=jobs.append)
+        client = app.test_client()
         response = client.post(
             "/inbound", data=inbound_form(config, spf=None, dkim=None)
         )
         assert response.status_code == 200
         assert response.get_json()["status"] == "queued"
         (job,) = jobs
+        assert job["needs_auth"] is True
         assert job["text"] == "a thought"
 
-    def test_absent_verdicts_with_failing_dkim_are_rejected(self, config):
-        client, jobs = self.build(
-            config,
-            fetch_mime=lambda config, message_id: b"THE STORED MIME",
-            verify_dkim=lambda raw, domain: False,
-        )
-        form = inbound_form(config, spf=None, dkim=None)
-        assert client.post("/inbound", data=form).status_code == 406
-        assert jobs == []
-
-    def test_explicit_verdict_failure_is_never_rescued_by_dkim(self, config):
-        client, jobs = self.build(
-            config,
-            fetch_mime=lambda config, message_id: b"THE STORED MIME",
-            verify_dkim=lambda raw, domain: True,
-        )
-        form = inbound_form(config, spf="Fail", dkim="Pass")
-        assert client.post("/inbound", data=form).status_code == 406
-        assert jobs == []
-
-    def test_unretrievable_stored_message_defers_verification(self, config):
-        # Mailgun's webhook deadline is ~10s and its Events API lags,
-        # so when the stored message is not queryable yet the mail is
-        # accepted provisionally and the job carries needs_auth for
-        # the worker to verify before anything publishes.
-        client, jobs = self.build(
-            config,
-            fetch_mime=lambda config, message_id: None,
-            verify_dkim=lambda raw, domain: True,
-        )
+    def test_deferred_classification_still_happens(self, config):
+        jobs = []
+        app = create_app(config, enqueue=jobs.append)
+        client = app.test_client()
         form = inbound_form(config, spf=None, dkim=None, subject="--dry run")
-        response = client.post("/inbound", data=form)
-        assert response.status_code == 200
-        assert response.get_json()["status"] == "queued"
+        assert client.post("/inbound", data=form).status_code == 200
         (job,) = jobs
         assert job["needs_auth"] is True
         assert job["kind"] == "dry_run"
 
-    def test_inline_verification_does_not_mark_the_job(self, config):
-        client, jobs = self.build(
-            config,
-            fetch_mime=lambda config, message_id: b"THE STORED MIME",
-            verify_dkim=lambda raw, domain: True,
-        )
-        client.post("/inbound", data=inbound_form(config, spf=None, dkim=None))
-        (job,) = jobs
-        assert job["needs_auth"] is False
+    def test_explicit_verdict_failure_is_rejected_outright(self, harness):
+        client, jobs, config = harness
+        form = inbound_form(config, spf="Fail", dkim="Pass")
+        assert client.post("/inbound", data=form).status_code == 406
+        assert jobs == []
 
     def test_fully_verdicted_mail_does_not_mark_the_job(self, harness):
         client, jobs, config = harness
@@ -312,12 +261,10 @@ class TestAuthFallback:
 
     def test_absent_verdicts_without_a_message_id_are_rejected(self, config):
         # No Message-Id means the stored message can never be looked
-        # up, so retrying is pointless: reject outright.
-        client, jobs = self.build(
-            config,
-            fetch_mime=lambda config, message_id: b"THE STORED MIME",
-            verify_dkim=lambda raw, domain: True,
-        )
+        # up, so the worker could never verify it: reject outright.
+        jobs = []
+        app = create_app(config, enqueue=jobs.append)
+        client = app.test_client()
         form = inbound_form(config, spf=None, dkim=None, message_id=None)
         assert client.post("/inbound", data=form).status_code == 406
         assert jobs == []
