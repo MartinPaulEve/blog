@@ -139,7 +139,12 @@ Images:
 - Attachments with an image MIME type in thought_composer's supported set
   (jpeg/png/gif/webp), plus inline `cid:` images referenced from the HTML,
   in received order, capped at 4 (the Bluesky limit, as the CLI does).
-  Filename becomes default alt text (extension stripped).
+  Filename becomes default alt text (extension stripped), overridable
+  per image by a trailing block of directive lines in the body —
+  `alt: …` (= `alt1: …`) for the first image, `alt2: …` for the
+  second, and so on (1-indexed, case-insensitive, stripped from the
+  published text; a later duplicate wins, indexes beyond the attached
+  images are ignored).
 - Placement follows the existing pipeline: stored under `assets/thoughts/`,
   embedded on the **first post** of the thread on both services.
 

@@ -30,6 +30,9 @@ SIGNATURE_LINE_RE = re.compile(
     r"^(?:-- ?|Sent from my .+|Get Outlook for .+|Sent via .+)$"
 )
 
+# A trailing alt-text directive line: "alt: …" or "altN: …" (N ≥ 1).
+ALT_DIRECTIVE_RE = re.compile(r"^alt([1-9]\d*)?:(.*)$", re.IGNORECASE)
+
 # Image types thought_composer's store accepts (see store.MIME_EXTENSIONS).
 IMAGE_MIMES = frozenset(
     {"image/jpeg", "image/png", "image/gif", "image/webp"}
@@ -256,6 +259,37 @@ def collect_images(files, content_id_map: str | None = None) -> list:
         if len(images) == MAX_IMAGES:
             break
     return images
+
+
+def split_alt_directives(text: str) -> tuple:
+    """Split trailing alt-text directives off a thought body.
+
+    A directive is a line like "alt: a red gate" (the first image) or
+    "alt2: …", "alt3: …" (the second, third image — 1-indexed; "alt:"
+    means "alt1:"). Only an unbroken block of such lines at the very
+    end of the body counts, so prose that happens to start a line with
+    "alt:" higher up is left alone. Matching is case-insensitive, a
+    later duplicate wins, and each value is whitespace-trimmed.
+
+    Returns ``(clean_text, {index: alt})`` with the directive lines
+    removed from the text.
+    """
+    lines = (text or "").split("\n")
+    boundary = len(lines)
+    for index in range(len(lines) - 1, -1, -1):
+        stripped = lines[index].strip()
+        if not stripped:
+            continue
+        if ALT_DIRECTIVE_RE.match(stripped):
+            boundary = index
+            continue
+        break
+    alts = {}
+    for line in lines[boundary:]:
+        match = ALT_DIRECTIVE_RE.match(line.strip())
+        if match:
+            alts[int(match.group(1) or 1)] = match.group(2).strip()
+    return "\n".join(lines[:boundary]).rstrip(), alts
 
 
 def _content_type(message_headers: str | None) -> str:

@@ -286,10 +286,14 @@ def create_app(
             return {"status": "duplicate"}, 200
 
         body = extract.select_body(form)
+        body, alt_overrides = extract.split_alt_directives(body)
         action = extract.classify(subject, body)
         images = extract.collect_images(
             request.files, form.get("content-id-map")
         )
+        for index, alt in alt_overrides.items():
+            if 1 <= index <= len(images):
+                images[index - 1]["alt"] = alt
         job = persist_job(
             config.inbox_dir,
             kind=action.kind,

@@ -14,6 +14,7 @@ from mailthought.extract import (
     first_line_is_post,
     html_to_text,
     select_body,
+    split_alt_directives,
     strip_signature,
     unwrap_flowed,
     wants_dry_run,
@@ -255,3 +256,62 @@ class TestCollectImages:
 
     def test_no_attachments_is_fine(self):
         assert collect_images({}) == []
+
+
+class TestSplitAltDirectives:
+    def test_text_without_directives_is_untouched(self):
+        text = "a thought about gates"
+        assert split_alt_directives(text) == (text, {})
+
+    def test_bare_alt_means_the_first_image(self):
+        clean, alts = split_alt_directives(
+            "a thought\n\nalt: a red garden gate"
+        )
+        assert clean == "a thought"
+        assert alts == {1: "a red garden gate"}
+
+    def test_explicit_alt1_is_the_first_image_too(self):
+        clean, alts = split_alt_directives("a thought\nalt1: the gate")
+        assert clean == "a thought"
+        assert alts == {1: "the gate"}
+
+    def test_numbered_directives_index_their_images(self):
+        clean, alts = split_alt_directives(
+            "a thought\n\nalt: first\nalt2: second\nalt3: third"
+        )
+        assert clean == "a thought"
+        assert alts == {1: "first", 2: "second", 3: "third"}
+
+    def test_directive_matching_is_case_insensitive(self):
+        clean, alts = split_alt_directives("a thought\n\nAlt: The Gate")
+        assert clean == "a thought"
+        assert alts == {1: "The Gate"}
+
+    def test_blank_lines_between_directives_are_fine(self):
+        clean, alts = split_alt_directives(
+            "a thought\n\nalt: first\n\nalt2: second\n"
+        )
+        assert clean == "a thought"
+        assert alts == {1: "first", 2: "second"}
+
+    def test_only_the_trailing_block_counts(self):
+        # An "alt:" line mid-thought is prose, not a directive.
+        text = "alt: is a strange word\nto start a line with"
+        assert split_alt_directives(text) == (text, {})
+
+    def test_a_later_duplicate_wins(self):
+        _, alts = split_alt_directives("t\n\nalt: one\nalt: two")
+        assert alts == {1: "two"}
+
+    def test_alt_values_are_trimmed(self):
+        _, alts = split_alt_directives("t\n\nalt:   padded value  ")
+        assert alts == {1: "padded value"}
+
+    def test_alt_zero_is_not_a_directive(self):
+        text = "a thought\nalt0: nonsense"
+        assert split_alt_directives(text) == (text, {})
+
+    def test_a_directives_only_body_empties_the_text(self):
+        clean, alts = split_alt_directives("alt: just the picture")
+        assert clean == ""
+        assert alts == {1: "just the picture"}

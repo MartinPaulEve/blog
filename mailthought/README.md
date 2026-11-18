@@ -111,7 +111,13 @@ healthcheck).
   email path can never drift from the local path.
 - Images are stored under `assets/thoughts/` and embedded on the
   **first post** of the thread on both services; an attachment's
-  filename (minus extension) becomes its alt text.
+  filename (minus extension) becomes its alt text unless the email
+  ends with alt directives — lines like `alt: a red garden gate`
+  (first image; `alt1:` works too), `alt2: …`, `alt3: …` for later
+  images, 1-indexed in attachment order. The directive lines are
+  stripped from the published text; matching is case-insensitive and
+  only an unbroken block of such lines at the very end of the body
+  counts, so prose mentioning "alt:" earlier on is left alone.
 - Body text is never rewritten: CRLF normalisation, outer trim,
   signature removal and RFC 3676 flowed unwrapping only. Plain text is
   preferred (Mailgun's `stripped-text`); HTML-only mail is converted

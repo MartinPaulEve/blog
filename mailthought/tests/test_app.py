@@ -270,6 +270,46 @@ class TestAuthDeferral:
         assert jobs == []
 
 
+class TestAltDirectives:
+    def test_trailing_alt_line_names_the_first_image(self, harness):
+        client, jobs, config = harness
+        data = inbound_form(config, text="a thought\n\nalt: a red garden gate")
+        data["attachment-1"] = (io.BytesIO(b"JPG"), "gate.jpg", "image/jpeg")
+        client.post("/inbound", data=data)
+        (job,) = jobs
+        assert job["text"] == "a thought"
+        assert job["images"][0]["alt"] == "a red garden gate"
+
+    def test_numbered_alts_map_to_their_images(self, harness):
+        client, jobs, config = harness
+        data = inbound_form(
+            config, text="a thought\n\nalt2: the second picture"
+        )
+        data["attachment-1"] = (io.BytesIO(b"A"), "first.jpg", "image/jpeg")
+        data["attachment-2"] = (io.BytesIO(b"B"), "second.png", "image/png")
+        client.post("/inbound", data=data)
+        (job,) = jobs
+        # The first image keeps its filename-stem default.
+        assert job["images"][0]["alt"] == "first"
+        assert job["images"][1]["alt"] == "the second picture"
+
+    def test_alt_for_a_missing_image_is_ignored(self, harness):
+        client, jobs, config = harness
+        data = inbound_form(config, text="a thought\n\nalt3: nothing there")
+        data["attachment-1"] = (io.BytesIO(b"A"), "only.jpg", "image/jpeg")
+        client.post("/inbound", data=data)
+        (job,) = jobs
+        assert job["text"] == "a thought"
+        assert job["images"][0]["alt"] == "only"
+
+    def test_directives_are_stripped_even_without_images(self, harness):
+        client, jobs, config = harness
+        data = inbound_form(config, text="a thought\n\nalt: stray")
+        client.post("/inbound", data=data)
+        (job,) = jobs
+        assert job["text"] == "a thought"
+
+
 class TestHealth:
     def test_healthz_reports_ok(self, harness):
         client, _, _ = harness
