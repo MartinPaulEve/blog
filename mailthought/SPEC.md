@@ -200,10 +200,20 @@ Publishing (worker, one job at a time):
   text with no text/plain part to check fails closed). A forged
   parsed POST therefore cannot ride on a genuine message's
   verification; an unbound job is dropped with a failure notice.
-  Known accepted risk: an attacker who can flood the gateway with
-  Mailgun-accepted spoofed mail can evict stash entries (FIFO cap)
-  and delay the worker — a denial of service that drops thoughts
-  with a notice, never a publish bypass. Mailgun
+  Known accepted risks: (a) an attacker who can flood the gateway
+  with Mailgun-accepted spoofed mail can evict stash entries (FIFO
+  cap) and delay the worker — a denial of service that drops thoughts
+  with a notice, never a publish bypass; (b) text and image binding
+  is by containment, not equality — deliberately, because the job
+  text is legitimately a trimmed subset of the raw body (Mailgun
+  strips signatures/quotes with logic the gateway does not have; the
+  gateway strips alt directives), so equality or a reimplemented
+  pipeline would routinely drop genuine thoughts. The residual risk
+  containment leaves open is only publication of a *truncated*
+  portion of the genuine sender's own in-flight message by an
+  attacker who already cleared every other bar (Mailgun-accepted
+  spoofed From, reused unguessable Message-Id, a won seconds-wide
+  race, matching Subject) — never attacker-authored content. Mailgun
   realities shape the mechanics: (1) Mailgun's storage API cannot be
   relied on — message retrieval answers 405 ("Message retrieval
   disabled for domain") on plans without retention, so store() is NOT
