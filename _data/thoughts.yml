@@ -1,3 +1,11 @@
+- id: '20261119191337'
+  date: '2026-11-19T19:13:37.578190+00:00'
+  text: "Had a terrible day of being very sick. \n\nBut then booked this to cheer myself up. Oh yes."
+  images:
+  - src: /assets/thoughts/20261119191337-1.jpg
+    alt: 'A booking confirmation to see Doctor Who: The Impossible Planet and The Satan Pit in the cinema!'
+  bluesky: https://bsky.app/profile/eve.gd/post/3n2orqteyvm2q
+  mastodon: https://hcommons.social/@mpe/117644698157587008
 - id: '20261119160757'
   date: '2026-11-19T16:07:57.056276+00:00'
   text: Excellent blog post by Kathleen Fitzpatrick on the free-for-all, sustained-by-some models https://kfitz.info/free-sustainable/
