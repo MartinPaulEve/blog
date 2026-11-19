@@ -160,6 +160,7 @@ def stored_message_mime(
     )
     auth = ("api", config.mailgun_api_key)
     saw_not_found = False
+    reported = set()  # storage URLs already logged with a curl command
     for attempt in range(attempts):
         if attempt:
             sleep(delay)
@@ -181,7 +182,15 @@ def stored_message_mime(
                 clean_id, attempt + 1, attempts, exc,
             )
             items = []
-        for url in _storage_urls(items):
+        candidates = storage_candidates(items)
+        if candidates and not reported:
+            logger.info(
+                "events for %r carry %d storage URL(s) from event type(s) "
+                "%s — a route whose store() ran must also show a 'stored' "
+                "event here", clean_id, len(candidates),
+                sorted({event for event, _ in candidates}),
+            )
+        for event, url in candidates:
             try:
                 stored = get(
                     url,
@@ -192,10 +201,19 @@ def stored_message_mime(
                 if stored.status_code != 200:
                     if stored.status_code == 404:
                         saw_not_found = True
-                    logger.info(
-                        "storage fetch for %r answered %s",
-                        clean_id, stored.status_code,
-                    )
+                    if url not in reported:
+                        reported.add(url)
+                        logger.info(
+                            "storage fetch for %r (%s event) answered %s — "
+                            "test it by hand with: %s",
+                            clean_id, event, stored.status_code,
+                            retrieval_curl(url),
+                        )
+                    else:
+                        logger.info(
+                            "storage fetch for %r (%s event) answered %s",
+                            clean_id, event, stored.status_code,
+                        )
                     continue
                 mime = stored.json().get("body-mime") or ""
             except Exception as exc:  # noqa: BLE001 — a fetch hiccup is just "not yet"
@@ -206,25 +224,40 @@ def stored_message_mime(
     if saw_not_found:
         logger.warning(
             "every storage fetch for %r answered 404: Mailgun events "
-            "carry storage URLs but no stored copy exists. A route "
-            "with only a forward() action never keeps the message — "
-            "add store() to the route in the Mailgun dashboard "
-            "(Receiving -> Routes) for DKIM verification of large "
-            "mail to work", clean_id,
+            "carry storage URLs but no stored copy was retrievable. "
+            "Either the matched route has no store() action, or its "
+            "store() never ran (check which route actually matched, "
+            "and that the events above include a 'stored' event — "
+            "only store() emits one). Inspect the raw events with: "
+            "curl -sS --user \"api:$MAILGUN_API_KEY\" '%s?message-id=%s'",
+            clean_id, events_url, clean_id,
         )
     return None
 
 
-def _storage_urls(items: list) -> list:
-    """Every storage URL found across a list of Mailgun events."""
-    urls = []
+def retrieval_curl(url: str) -> str:
+    """A copy-pasteable curl equivalent of a storage fetch.
+
+    The API key is referenced as $MAILGUN_API_KEY so the command is
+    safe to log; export the real key before running it.
+    """
+    return (
+        "curl -sS --user \"api:$MAILGUN_API_KEY\" "
+        f"-H 'Accept: message/rfc2822' '{url}'"
+    )
+
+
+def storage_candidates(items: list) -> list:
+    """(event type, storage URL) pairs found across Mailgun events."""
+    pairs = []
     for item in items:
+        event = str(item.get("event") or "?")
         url = (item.get("storage") or {}).get("url") or ""
         if isinstance(url, list):
-            urls.extend(part for part in url if part)
+            pairs.extend((event, part) for part in url if part)
         elif url:
-            urls.append(url)
-    return urls
+            pairs.append((event, url))
+    return pairs
 
 
 def dkim_authenticated(

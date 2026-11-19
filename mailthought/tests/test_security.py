@@ -10,8 +10,10 @@ from mailthought.security import (
     auth_results,
     dkim_authenticated,
     is_authenticated,
+    retrieval_curl,
     sender_address,
     sender_allowed,
+    storage_candidates,
     stored_message_mime,
     verify_signature,
 )
@@ -221,6 +223,26 @@ class TestDkimAuthenticated:
         assert dkim_authenticated(signed, "", dnsfunc=dkim_dns) is False
 
 
+class TestRetrievalCurl:
+    """The copy-pasteable curl command logged for manual retrieval."""
+
+    URL = (
+        "https://storage-europe-west1.api.mailgun.net/v3/domains/"
+        "mg.eve.gd/messages/KEY123"
+    )
+
+    def test_command_fetches_the_given_url_as_raw_mime(self):
+        command = retrieval_curl(self.URL)
+        assert command.startswith("curl")
+        assert self.URL in command
+        assert "Accept: message/rfc2822" in command
+
+    def test_command_authenticates_without_embedding_the_key(self):
+        command = retrieval_curl(self.URL)
+        assert "api:$MAILGUN_API_KEY" in command
+        assert "key-" not in command
+
+
 class FakeResponse:
     def __init__(self, status_code=200, payload=None):
         self.status_code = status_code
@@ -346,6 +368,22 @@ class TestStoredMessageMime:
             is None
         )
         assert 60 <= sum(slept) <= 300
+
+    def test_candidates_pair_event_types_with_urls(self):
+        items = [
+            {"event": "accepted", "storage": {"url": self.STORAGE_URL}},
+            {"event": "failed", "storage": {"url": [self.STORAGE_URL, ""]}},
+            {"event": "delivered"},
+        ]
+        assert storage_candidates(items) == [
+            ("accepted", self.STORAGE_URL),
+            ("failed", self.STORAGE_URL),
+        ]
+
+    def test_candidates_tolerate_a_missing_event_type(self):
+        assert storage_candidates([{"storage": {"url": self.STORAGE_URL}}]) == [
+            ("?", self.STORAGE_URL)
+        ]
 
     def test_retries_the_lookup_before_giving_up(self, config):
         calls = []
