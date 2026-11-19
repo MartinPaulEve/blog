@@ -17867,6 +17867,16 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-11/#t20261119160757": {
+   "content_hash": "b0a439ccd9056f85bb1cb7d392c663450813a3cb539cfefe61522147ad0419ff",
+   "sent": {
+    "https://kfitz.info/free-sustainable/": {
+     "at": "2026-11-19T19:21:04+00:00",
+     "endpoint": "https://webmention.io/kfitz.info/webmention",
+     "status": 201
+    }
+   }
   }
  }
 }
