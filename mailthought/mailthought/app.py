@@ -9,6 +9,7 @@ Rejections are 406 (Mailgun: permanent failure, do not retry) and are
 never answered by email; the reason goes to the app log only.
 """
 
+import email as email_parser
 import json
 import logging
 import os
@@ -177,6 +178,7 @@ def create_app(
     messages = security.SeenLedger(
         config.state_dir / "messages.json", ttl_seconds=MESSAGE_TTL_SECONDS
     )
+    mime_stash = security.MimeStash(config.mime_dir)
 
     # INFO-level logging throughout, so successful deliveries leave a
     # trail too, not only rejections. basicConfig is a no-op when a
@@ -257,24 +259,22 @@ def create_app(
             # Both verdicts absent: Mailgun's spam scan (which stamps
             # them) skips messages over its size limit — typically mail
             # with image attachments. DKIM must then be verified
-            # against Mailgun's stored copy of the message, but that
-            # fetch cannot happen here: Mailgun abandons the webhook
-            # POST after ~10s and the Events API lookup plus the
-            # multi-megabyte MIME download can take longer, which
-            # would turn every large mail into a timed-out, endlessly
-            # retried delivery. Accept provisionally instead; the
-            # worker (whose polling budget is minutes) verifies DKIM
-            # before anything publishes.
+            # against the raw message, which the route's second
+            # forward action POSTs to /inbound/mime. Accept
+            # provisionally; the worker (whose polling budget is
+            # minutes, unlike this webhook's ~10s deadline) waits for
+            # that copy and verifies DKIM before anything publishes.
             if not message_id:
                 return reject(
                     "authentication",
-                    "verdicts absent and no Message-Id to retrieve the "
-                    "stored message by",
+                    "verdicts absent and no Message-Id to match a raw "
+                    "MIME copy by",
                 )
             app.logger.info(
                 "verdict headers absent (message likely exceeded "
                 "Mailgun's spam-scan size limit); deferring DKIM "
-                "verification of the stored message to the worker"
+                "verification to the worker, which will use the raw "
+                "copy POSTed to /inbound/mime"
             )
             needs_auth = True
 
@@ -313,6 +313,47 @@ def create_app(
             " (pending DKIM verification)" if needs_auth else "",
         )
         return {"status": "queued", "id": job["id"]}, 200
+
+    @app.post("/inbound/mime")
+    def inbound_mime():
+        """The route's second forward action: the raw MIME copy.
+
+        A forward URL ending in "mime" makes Mailgun POST the full raw
+        message (body-mime); it is stashed on disk so the worker can
+        verify DKIM locally — Mailgun's storage API is disabled on
+        some plans, so the gateway cannot rely on retrieval.
+        """
+        form = request.form
+        if not security.verify_signature(
+            config.mailgun_signing_key,
+            form.get("timestamp", ""),
+            form.get("token", ""),
+            form.get("signature", ""),
+        ):
+            app.logger.warning("mime POST rejected: bad signature")
+            return {"status": "rejected", "reason": "signature"}, 406
+        if tokens.seen_before(form.get("token", "")):
+            app.logger.warning("mime POST rejected: replayed token")
+            return {"status": "rejected", "reason": "replay"}, 406
+        raw = (form.get("body-mime") or "").encode()
+        message_id = (
+            email_parser.message_from_bytes(raw).get("Message-Id", "")
+            if raw
+            else ""
+        )
+        if not message_id:
+            # Nothing to match it to; a 406 would only make Mailgun
+            # flag the route as broken.
+            app.logger.info(
+                "mime POST carried no Message-Id; acknowledged and dropped"
+            )
+            return {"status": "ignored"}, 200
+        mime_stash.save(message_id, raw)
+        app.logger.info(
+            "raw MIME for %r stashed for DKIM verification (%d bytes)",
+            message_id, len(raw),
+        )
+        return {"status": "stashed"}, 200
 
     @app.get("/healthz")
     def healthz():

@@ -55,6 +55,29 @@ def inbound_form(
     return form
 
 
+def mime_form(
+    config,
+    message_id="<m1@eve.gd>",
+    token="tok-mime-0001",
+    signature_fields=None,
+):
+    id_header = f"Message-Id: {message_id}\r\n" if message_id else ""
+    raw = (
+        "From: Martin Eve <martin@eve.gd>\r\n"
+        f"{id_header}"
+        "Subject: hello\r\n"
+        "\r\n"
+        "a thought\r\n"
+    )
+    form = {"recipient": "thought@mg.eve.gd", "body-mime": raw}
+    form.update(
+        signature_fields
+        if signature_fields is not None
+        else signed_fields(config.mailgun_signing_key, token=token)
+    )
+    return form, raw.encode()
+
+
 @pytest.fixture
 def harness(config):
     jobs = []
@@ -128,6 +151,49 @@ class TestAcceptance:
         data["attachment-1"] = (io.BytesIO(b"%PDF"), "paper.pdf", "application/pdf")
         client.post("/inbound", data=data)
         assert jobs[0]["images"] == []
+
+
+class TestMimeEndpoint:
+    """The raw-MIME forward target that fills the verification stash."""
+
+    def stash(self, config):
+        from mailthought.security import MimeStash
+
+        return MimeStash(config.mime_dir)
+
+    def test_signed_mime_post_is_stashed_by_message_id(self, harness):
+        client, _jobs, config = harness
+        form, raw = mime_form(config)
+        response = client.post("/inbound/mime", data=form)
+        assert response.status_code == 200
+        assert self.stash(config).load("<m1@eve.gd>") == raw
+
+    def test_forged_signature_stashes_nothing(self, harness):
+        client, _jobs, config = harness
+        form, _raw = mime_form(
+            config,
+            signature_fields={
+                "timestamp": str(int(time.time())),
+                "token": "tok-mime-2",
+                "signature": "0" * 64,
+            },
+        )
+        response = client.post("/inbound/mime", data=form)
+        assert response.status_code == 406
+        assert self.stash(config).load("<m1@eve.gd>") is None
+
+    def test_replayed_token_stashes_nothing_new(self, harness):
+        client, _jobs, config = harness
+        form, _raw = mime_form(config, token="tok-mime-3")
+        assert client.post("/inbound/mime", data=form).status_code == 200
+        assert client.post("/inbound/mime", data=form).status_code == 406
+
+    def test_mime_without_a_message_id_is_acknowledged(self, harness):
+        # Nothing can be matched to it, but a 406 would make Mailgun
+        # mark the route broken; acknowledge and drop.
+        client, _jobs, config = harness
+        form, _raw = mime_form(config, message_id=None, token="tok-mime-4")
+        assert client.post("/inbound/mime", data=form).status_code == 200
 
 
 class TestRejection:

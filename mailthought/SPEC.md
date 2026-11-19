@@ -97,7 +97,7 @@ mailthought/
     publisher.py     → worker: git pull/commit/push, thought CLI invocation,
                        CLI output parsing (id, post count, service URLs)
     mailer.py        → outbound Mailgun (dry-run report, receipts, failures)
-    app.py           → Flask app factory: POST /inbound, GET /healthz
+    app.py           → Flask app factory: POST /inbound, POST /inbound/mime, GET /healthz
   tests/             → pytest unit tests, one file per module, all
                        network/subprocess/filesystem side effects mocked
 ```
@@ -177,28 +177,31 @@ Publishing (worker, one job at a time):
   headers) skips messages over its size limit (observed to catch even a
   ~150 KB mail with one image — treat any mail with an attachment as
   skipping it), leaving both verdicts absent. Absent — as opposed to
-  failing — verdicts fall back to fetching the stored raw MIME from
-  Mailgun (Events API lookup by Message-Id, then the storage URL) and
-  verifying DKIM directly with dkimpy; a signature only counts when its
-  d= domain aligns with the From domain (equal or subdomain). Explicit
-  verdict failures are never rescued by the fallback. Three Mailgun
-  realities shape the mechanics: (1) the route MUST carry a store()
-  action — only store() keeps a copy of the message, so on a
-  forward()-only route every storage URL answers 404 forever and large
-  mail can never be verified (the failure notice and a log warning
-  both call this out); (2) a forward()-only route never emits
-  a "stored" event, so the events query filters by message-id only and
-  takes the storage URL from whatever event carries one (failed events
-  hold storage.url as a list); (3) Mailgun abandons the webhook POST
-  after ~10s ("context deadline exceeded"), while the Events API
-  lookup plus the multi-megabyte MIME download can take longer than
-  that — so the webhook never fetches at all. Absent-verdict mail with
-  a Message-Id is accepted provisionally with a needs_auth flag, and
-  the worker then polls for up to ~5 minutes and verifies DKIM before
-  any of the pipeline runs. A deferred verification failure
-  drops the job silently (log only, as with any rejection); a message
-  that never becomes retrievable drops the job and emails the
-  (allowlisted) sender a failure notice.
+  failing — verdicts fall back to verifying DKIM directly with dkimpy
+  against the raw message; a signature only counts when its d= domain
+  aligns with the From domain (equal or subdomain). Explicit verdict
+  failures are never rescued by the fallback. The raw copy arrives via
+  the route's second forward action, `forward(".../inbound/mime")` — a
+  forward URL ending in "mime" makes Mailgun POST the raw MIME
+  (body-mime field) instead of the parsed message. That POST passes
+  the same HMAC-signature and token-replay checks, is keyed by the
+  Message-Id parsed from the MIME itself (hashed into the filename),
+  and lands in a TTL-pruned stash on the state volume. Mailgun
+  realities shape the mechanics: (1) Mailgun's storage API cannot be
+  relied on — message retrieval answers 405 ("Message retrieval
+  disabled for domain") on plans without retention, so store() is NOT
+  part of the route; the Events-API/storage-URL fetch survives only as
+  a one-shot fallback when no mime POST ever arrives (storage URLs
+  ride on accepted/failed events, failed events hold storage.url as a
+  list). (2) Mailgun abandons a webhook POST after ~10s ("context
+  deadline exceeded"), so verification never happens in the webhook:
+  absent-verdict mail with a Message-Id is accepted provisionally with
+  a needs_auth flag, and the worker polls the stash for up to ~2
+  minutes and verifies DKIM before any of the pipeline runs. A
+  deferred verification failure drops the job silently (log only, as
+  with any rejection); a job whose raw copy never arrives is dropped
+  with a failure notice to the (allowlisted) sender naming the missing
+  /inbound/mime forward action.
 - Rejected mail → HTTP 406 (Mailgun: permanent, no retry), no reply email
   ever (no backscatter). Transient faults → 5xx so Mailgun retries.
 - Outbound replies go only to the validated sender, threaded via

@@ -42,6 +42,10 @@ class Config:
     def state_dir(self) -> Path:
         return self.data_dir / "state"
 
+    @property
+    def mime_dir(self) -> Path:
+        return self.data_dir / "state" / "mime"
+
 
 def load_config(env: Mapping[str, str]) -> Config:
     """Build a Config from an environment mapping.

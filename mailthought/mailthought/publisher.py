@@ -26,11 +26,12 @@ logger = logging.getLogger(__name__)
 
 COMMIT_MESSAGE = "chore(thoughts): add {thought_id} via mail gateway"
 
-# Polling budget for deferred DKIM verification: the worker can afford
-# to wait out the Events API's ingestion lag (unlike the webhook,
-# which Mailgun abandons after ~10s).
-VERIFY_FETCH_ATTEMPTS = 31  # ~5 minutes at 10s spacing
-VERIFY_FETCH_DELAY = 10.0
+# Polling budget for deferred DKIM verification: the raw MIME copy is
+# POSTed to /inbound/mime by the route's second forward action,
+# normally within seconds of the parsed POST; two minutes covers
+# Mailgun delivering the two forwards far apart.
+VERIFY_FETCH_ATTEMPTS = 25  # ~2 minutes at 5s spacing
+VERIFY_FETCH_DELAY = 5.0
 
 THOUGHT_BASE = [
     "uv", "run", "--env-file", ".env",
@@ -283,23 +284,24 @@ def process_job(
         raw_mime = fetch(config, job.get("message_id") or "")
         if raw_mime is None:
             logger.error(
-                "job %s: stored message %r never became retrievable "
-                "from Mailgun; dropping the job and notifying the "
+                "job %s: no raw copy of message %r ever arrived for "
+                "verification; dropping the job and notifying the "
                 "sender", job.get("id"), job.get("message_id"),
             )
             reply(mailer.failure_notice(
-                "The original email could not be retrieved from "
-                "Mailgun to verify its authenticity. (Large messages "
-                "skip Mailgun's own SPF/DKIM checks, so the gateway "
-                "re-checks them against Mailgun's stored copy of the "
-                "message.)\n\n"
+                "No raw copy of the original email arrived to verify "
+                "its authenticity. (Large messages skip Mailgun's own "
+                "SPF/DKIM checks, so the gateway re-checks the raw "
+                "message itself.)\n\n"
                 "If this happens on every email with an attachment, "
-                "the Mailgun route is almost certainly missing a "
-                "store() action: a route that only has forward() "
-                "never keeps a copy of the message, so every storage "
-                "fetch answers 404. Edit the route in the Mailgun "
-                "dashboard (Receiving -> Routes) and add store() "
-                "alongside the forward() action."
+                "the Mailgun route is missing its second forward "
+                "action: edit the route in the Mailgun dashboard "
+                "(Receiving -> Routes) and add "
+                "forward(\"https://<gateway-domain>/inbound/mime\") "
+                "alongside the existing forward() — a forward URL "
+                "ending in \"mime\" makes Mailgun deliver the raw "
+                "message. (The gateway no longer relies on store(): "
+                "message retrieval is disabled on some Mailgun plans.)"
             ))
             return
         from_domain = to.rsplit("@", 1)[-1]
@@ -385,7 +387,7 @@ def process_job(
 
 
 def _fetch_stored_mime(config, message_id: str) -> bytes | None:
-    return security.stored_message_mime(
+    return security.verification_mime(
         config, message_id,
         attempts=VERIFY_FETCH_ATTEMPTS, delay=VERIFY_FETCH_DELAY,
     )

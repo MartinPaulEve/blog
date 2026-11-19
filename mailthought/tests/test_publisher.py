@@ -454,13 +454,14 @@ class TestDeferredAuth:
         (mail,) = send.sent
         assert "not published" in mail["body"]
 
-    def test_unretrievable_message_notice_names_the_store_action(
+    def test_unretrievable_message_notice_names_the_mime_forward(
         self, config, tmp_path
     ):
-        # Storage URLs on a forward()-only route answer 404 forever —
-        # Mailgun only keeps a copy when the route also has store() —
-        # so the notice must point the operator at the route fix, not
-        # just report a mystery failure.
+        # The raw copy for DKIM verification arrives via the route's
+        # second forward action (a URL ending in "mime") — Mailgun's
+        # storage API is disabled on some plans — so the notice must
+        # point the operator at that route fix, not just report a
+        # mystery failure.
         send = SendCollector()
         job = make_job(tmp_path, "publish", needs_auth=True)
         process_job(
@@ -469,7 +470,8 @@ class TestDeferredAuth:
             verify_dkim=lambda raw, domain: True,
         )
         (mail,) = send.sent
-        assert "store()" in mail["body"]
+        assert "/inbound/mime" in mail["body"]
+        assert "forward" in mail["body"].lower()
         assert "route" in mail["body"].lower()
 
     def test_verified_jobs_are_untouched_by_the_gate(self, config, tmp_path):

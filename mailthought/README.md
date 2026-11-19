@@ -37,11 +37,12 @@ A mail publishes only if all of these hold:
    size limit — in practice even a ~150 KB mail with one image skips
    it, so expect any mail with an attachment to arrive without
    verdicts. When both verdicts are *absent* for that reason, the mail
-   is accepted provisionally and the background worker fetches the
-   stored raw message back from Mailgun (which is why the route needs
-   its store() action) and verifies DKIM itself before anything
-   publishes, requiring a signature domain aligned with the From
-   domain. A present-but-failing verdict is always a rejection;
+   is accepted provisionally and the background worker verifies DKIM
+   itself against the raw message — which the route's second forward
+   action POSTs to `/inbound/mime` (that POST passes the same
+   signature and replay checks) — requiring a signature domain
+   aligned with the From domain. A present-but-failing verdict is
+   always a rejection;
 4. the Message-Id has not been processed before.
 
 Anything else is answered 406 (Mailgun stops retrying) and never gets
@@ -58,13 +59,15 @@ a reply email, so the address cannot be used for backscatter.
    - do **not** put these on eve.gd itself, only on the subdomain.
 3. Receiving → Create Route:
    - expression: `match_recipient("thought@mg.eve.gd")`
-   - action: `forward("https://<your-coolify-domain>/inbound")`,
-     `store()` and `stop()` — store() is **required**: mail with an
+   - actions: `forward("https://<your-coolify-domain>/inbound")`,
+     `forward("https://<your-coolify-domain>/inbound/mime")` and
+     `stop()` — the second forward is **required**: mail with an
      attachment skips Mailgun's SPF/DKIM scan, so the gateway verifies
-     DKIM against Mailgun's stored copy of the message, and a route
-     without store() keeps no copy (every storage fetch answers 404
-     and the thought fails with a "could not be retrieved" notice).
-     Stored copies expire on Mailgun's side after ~3 days.
+     DKIM against the raw message itself, and a forward URL ending in
+     "mime" is how Mailgun delivers that raw copy. (The gateway does
+     not use `store()`: message retrieval from Mailgun's storage is
+     disabled on some plans — it answers 405 — so stored copies cannot
+     be relied on.)
 4. Collect the two secrets: the sending **API key** (Settings → API
    Security) and the **HTTP webhook signing key** (Sending →
    Webhooks). They are different keys; the gateway needs both.

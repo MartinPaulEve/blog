@@ -6,6 +6,7 @@ import dkim
 from conftest import sign
 
 from mailthought.security import (
+    MimeStash,
     SeenLedger,
     auth_results,
     dkim_authenticated,
@@ -15,6 +16,7 @@ from mailthought.security import (
     sender_allowed,
     storage_candidates,
     stored_message_mime,
+    verification_mime,
     verify_signature,
 )
 
@@ -221,6 +223,114 @@ class TestDkimAuthenticated:
         assert dkim_authenticated(b"", "eve.gd", dnsfunc=dkim_dns) is False
         signed = dkim_sign(DKIM_MESSAGE)
         assert dkim_authenticated(signed, "", dnsfunc=dkim_dns) is False
+
+
+class TestMimeStash:
+    """Local raw-MIME copies delivered by the route's mime forward."""
+
+    RAW = b"From: martin@eve.gd\r\nMessage-Id: <m1@eve.gd>\r\n\r\nhi\r\n"
+
+    def test_round_trips_raw_mime(self, tmp_path):
+        stash = MimeStash(tmp_path / "mime")
+        stash.save("<m1@eve.gd>", self.RAW)
+        assert stash.load("<m1@eve.gd>") == self.RAW
+
+    def test_angle_brackets_do_not_change_the_key(self, tmp_path):
+        stash = MimeStash(tmp_path / "mime")
+        stash.save("<m1@eve.gd>", self.RAW)
+        assert stash.load("m1@eve.gd") == self.RAW
+
+    def test_unknown_message_id_loads_none(self, tmp_path):
+        stash = MimeStash(tmp_path / "mime")
+        assert stash.load("<missing@eve.gd>") is None
+
+    def test_expired_copies_are_gone(self, tmp_path):
+        stash = MimeStash(tmp_path / "mime", ttl_seconds=100)
+        stash.save("<m1@eve.gd>", self.RAW, now=1000.0)
+        assert stash.load("<m1@eve.gd>", now=2000.0) is None
+
+    def test_hostile_message_ids_cannot_escape_the_directory(self, tmp_path):
+        stash = MimeStash(tmp_path / "mime")
+        stash.save("../../evil", self.RAW)
+        assert stash.load("../../evil") == self.RAW
+        outside = [
+            path
+            for path in tmp_path.rglob("*")
+            if path.is_file() and (tmp_path / "mime") not in path.parents
+        ]
+        assert outside == []
+
+
+class ArrivingStash:
+    """A stash whose copy appears after a given number of load calls."""
+
+    def __init__(self, raw: bytes, after: int):
+        self.raw = raw
+        self.after = after
+        self.calls = 0
+
+    def load(self, message_id, now=None):
+        self.calls += 1
+        return self.raw if self.calls > self.after else None
+
+
+class TestVerificationMime:
+    """Local stash first; Mailgun's storage API only as a fallback."""
+
+    RAW = b"From: martin@eve.gd\r\n\r\nhi\r\n"
+
+    def test_returns_the_stashed_copy_without_waiting(self, config, tmp_path):
+        stash = MimeStash(tmp_path / "mime")
+        stash.save("<m1@eve.gd>", self.RAW)
+        slept = []
+        assert (
+            verification_mime(
+                config, "<m1@eve.gd>", stash=stash, sleep=slept.append
+            )
+            == self.RAW
+        )
+        assert slept == []
+
+    def test_waits_for_a_copy_that_arrives_late(self, config):
+        stash = ArrivingStash(self.RAW, after=3)
+        assert (
+            verification_mime(
+                config, "<m1@eve.gd>", stash=stash, sleep=lambda s: None
+            )
+            == self.RAW
+        )
+
+    def test_falls_back_to_the_storage_api(self, config, tmp_path):
+        storage_url = TestStoredMessageMime.STORAGE_URL
+
+        def get(url, **kwargs):
+            if "/events" in url:
+                return FakeResponse(
+                    payload={"items": [{"storage": {"url": storage_url}}]}
+                )
+            return FakeResponse(payload={"body-mime": "RAW MIME BYTES"})
+
+        assert (
+            verification_mime(
+                config, "<m1@eve.gd>",
+                stash=MimeStash(tmp_path / "mime"),
+                attempts=2, sleep=lambda s: None, get=get,
+            )
+            == b"RAW MIME BYTES"
+        )
+
+    def test_returns_none_when_nothing_ever_arrives(self, config, tmp_path):
+        def get(url, **kwargs):
+            return FakeResponse(status_code=404, payload={"items": []})
+
+        assert (
+            verification_mime(
+                config, "<m1@eve.gd>",
+                stash=MimeStash(tmp_path / "mime"),
+                attempts=2, sleep=lambda s: None, get=get,
+            )
+            is None
+        )
 
 
 class TestRetrievalCurl:

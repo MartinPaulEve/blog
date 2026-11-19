@@ -14,6 +14,7 @@ import hashlib
 import hmac
 import json
 import logging
+import os
 import re
 import time
 from email.utils import parseaddr
@@ -233,6 +234,90 @@ def stored_message_mime(
             clean_id, events_url, clean_id,
         )
     return None
+
+
+# Raw MIME copies only need to outlive the worker's verification
+# polling window; a day is generous.
+MIME_STASH_TTL_SECONDS = 86400
+
+
+class MimeStash:
+    """Raw MIME copies POSTed to /inbound/mime, keyed by Message-Id.
+
+    The Mailgun route's second forward action (a URL ending in "mime")
+    delivers the full raw message; the webhook writes it here and the
+    worker reads it back for DKIM verification. Message-Ids are hashed
+    into filenames, so hostile ids cannot escape the directory.
+    """
+
+    def __init__(self, path: Path, ttl_seconds: int = MIME_STASH_TTL_SECONDS):
+        self.path = Path(path)
+        self.ttl_seconds = ttl_seconds
+
+    def _file(self, message_id: str) -> Path:
+        clean = (message_id or "").strip().strip("<>")
+        digest = hashlib.sha256(clean.encode()).hexdigest()
+        return self.path / f"{digest}.eml"
+
+    def save(self, message_id: str, raw: bytes, now: float | None = None) -> None:
+        now = now if now is not None else time.time()
+        self.path.mkdir(parents=True, exist_ok=True)
+        for stale in self.path.glob("*.eml"):
+            try:
+                if now - stale.stat().st_mtime >= self.ttl_seconds:
+                    stale.unlink()
+            except OSError:
+                continue
+        target = self._file(message_id)
+        target.write_bytes(raw)
+        os.utime(target, (now, now))
+
+    def load(self, message_id: str, now: float | None = None) -> bytes | None:
+        now = now if now is not None else time.time()
+        target = self._file(message_id)
+        try:
+            if now - target.stat().st_mtime >= self.ttl_seconds:
+                return None
+            return target.read_bytes()
+        except OSError:
+            return None
+
+
+def verification_mime(
+    config,
+    message_id: str,
+    stash=None,
+    attempts: int = 25,
+    delay: float = 5.0,
+    sleep=None,
+    get=None,
+) -> bytes | None:
+    """Raw MIME for deferred DKIM verification, or None.
+
+    Polls the local stash (filled by the route's forward to
+    /inbound/mime) first — that copy normally arrives within seconds
+    of the parsed webhook POST. Only if it never shows up is Mailgun's
+    storage API tried once, for deployments whose plan still allows
+    message retrieval.
+    """
+    stash = stash if stash is not None else MimeStash(config.mime_dir)
+    sleep = sleep or time.sleep
+    for attempt in range(attempts):
+        if attempt:
+            sleep(delay)
+        raw = stash.load(message_id)
+        if raw is not None:
+            return raw
+    logger.warning(
+        "no raw MIME copy of %r ever arrived at /inbound/mime — check "
+        "that the Mailgun route has a second forward action whose URL "
+        "ends in /inbound/mime. Trying Mailgun's storage API as a "
+        "fallback (it answers 405 on plans without message retrieval)",
+        message_id,
+    )
+    return stored_message_mime(
+        config, message_id, get=get, attempts=1, sleep=sleep
+    )
 
 
 def retrieval_curl(url: str) -> str:
