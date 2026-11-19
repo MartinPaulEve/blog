@@ -454,6 +454,24 @@ class TestDeferredAuth:
         (mail,) = send.sent
         assert "not published" in mail["body"]
 
+    def test_unretrievable_message_notice_names_the_store_action(
+        self, config, tmp_path
+    ):
+        # Storage URLs on a forward()-only route answer 404 forever —
+        # Mailgun only keeps a copy when the route also has store() —
+        # so the notice must point the operator at the route fix, not
+        # just report a mystery failure.
+        send = SendCollector()
+        job = make_job(tmp_path, "publish", needs_auth=True)
+        process_job(
+            job, config, run=FakeRun(), send=send,
+            fetch_mime=lambda config, message_id: None,
+            verify_dkim=lambda raw, domain: True,
+        )
+        (mail,) = send.sent
+        assert "store()" in mail["body"]
+        assert "route" in mail["body"].lower()
+
     def test_verified_jobs_are_untouched_by_the_gate(self, config, tmp_path):
         # needs_auth False must never consult the fallback machinery.
         fake = FakeRun(lambda cmd: (

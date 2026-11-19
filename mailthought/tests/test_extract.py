@@ -315,3 +315,8 @@ class TestSplitAltDirectives:
         clean, alts = split_alt_directives("alt: just the picture")
         assert clean == ""
         assert alts == {1: "just the picture"}
+
+    def test_uppercase_numbered_directives_match_too(self):
+        clean, alts = split_alt_directives("a thought\n\nALT2: Shouted")
+        assert clean == "a thought"
+        assert alts == {2: "Shouted"}

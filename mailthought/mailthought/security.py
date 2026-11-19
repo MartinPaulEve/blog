@@ -159,6 +159,7 @@ def stored_message_mime(
         f"{config.mailgun_api_base}/v3/{config.mailgun_domain}/events"
     )
     auth = ("api", config.mailgun_api_key)
+    saw_not_found = False
     for attempt in range(attempts):
         if attempt:
             sleep(delay)
@@ -189,6 +190,8 @@ def stored_message_mime(
                     timeout=timeout * 2,
                 )
                 if stored.status_code != 200:
+                    if stored.status_code == 404:
+                        saw_not_found = True
                     logger.info(
                         "storage fetch for %r answered %s",
                         clean_id, stored.status_code,
@@ -200,6 +203,15 @@ def stored_message_mime(
                 continue
             if mime:
                 return mime.encode() if isinstance(mime, str) else mime
+    if saw_not_found:
+        logger.warning(
+            "every storage fetch for %r answered 404: Mailgun events "
+            "carry storage URLs but no stored copy exists. A route "
+            "with only a forward() action never keeps the message — "
+            "add store() to the route in the Mailgun dashboard "
+            "(Receiving -> Routes) for DKIM verification of large "
+            "mail to work", clean_id,
+        )
     return None
 
 

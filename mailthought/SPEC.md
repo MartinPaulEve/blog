@@ -174,17 +174,22 @@ Publishing (worker, one job at a time):
   both be Pass (header names confirmed against current Mailgun docs at
   implementation time). `REQUIRE_AUTH=false` escape hatch, default true.
 - Anti-spoof fallback: Mailgun's spam scan (which stamps those verdict
-  headers) skips messages over its size limit (~512 KB — any mail with a
-  photo attached), leaving both verdicts absent. Absent — as opposed to
+  headers) skips messages over its size limit (observed to catch even a
+  ~150 KB mail with one image — treat any mail with an attachment as
+  skipping it), leaving both verdicts absent. Absent — as opposed to
   failing — verdicts fall back to fetching the stored raw MIME from
   Mailgun (Events API lookup by Message-Id, then the storage URL) and
   verifying DKIM directly with dkimpy; a signature only counts when its
   d= domain aligns with the From domain (equal or subdomain). Explicit
-  verdict failures are never rescued by the fallback. Two Mailgun
-  realities shape the mechanics: (1) a forward()-only route never emits
+  verdict failures are never rescued by the fallback. Three Mailgun
+  realities shape the mechanics: (1) the route MUST carry a store()
+  action — only store() keeps a copy of the message, so on a
+  forward()-only route every storage URL answers 404 forever and large
+  mail can never be verified (the failure notice and a log warning
+  both call this out); (2) a forward()-only route never emits
   a "stored" event, so the events query filters by message-id only and
   takes the storage URL from whatever event carries one (failed events
-  hold storage.url as a list); (2) Mailgun abandons the webhook POST
+  hold storage.url as a list); (3) Mailgun abandons the webhook POST
   after ~10s ("context deadline exceeded"), while the Events API
   lookup plus the multi-megabyte MIME download can take longer than
   that — so the webhook never fetches at all. Absent-verdict mail with

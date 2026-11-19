@@ -292,7 +292,14 @@ def process_job(
                 "Mailgun to verify its authenticity. (Large messages "
                 "skip Mailgun's own SPF/DKIM checks, so the gateway "
                 "re-checks them against Mailgun's stored copy of the "
-                "message.)"
+                "message.)\n\n"
+                "If this happens on every email with an attachment, "
+                "the Mailgun route is almost certainly missing a "
+                "store() action: a route that only has forward() "
+                "never keeps a copy of the message, so every storage "
+                "fetch answers 404. Edit the route in the Mailgun "
+                "dashboard (Receiving -> Routes) and add store() "
+                "alongside the forward() action."
             ))
             return
         from_domain = to.rsplit("@", 1)[-1]
