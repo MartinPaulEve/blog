@@ -61,11 +61,13 @@ def mime_form(
     token="tok-mime-0001",
     sender="Martin Eve <martin@eve.gd>",
     signature_fields=None,
+    extra_header="",
 ):
     id_header = f"Message-Id: {message_id}\r\n" if message_id else ""
     raw = (
         f"From: {sender}\r\n"
         f"{id_header}"
+        f"{extra_header}"
         "Subject: hello\r\n"
         "\r\n"
         "a thought\r\n"
@@ -198,6 +200,29 @@ class TestMimeEndpoint:
         )
         response = client.post("/inbound/mime", data=form)
         assert response.status_code == 406
+        assert self.stash(config).load("<m1@eve.gd>") is None
+
+    def test_duplicate_message_id_headers_stash_nothing(self, harness):
+        # Two Message-Id headers mean two parsers can disagree about
+        # which one names the message; refuse the ambiguity outright.
+        client, _jobs, config = harness
+        form, _raw = mime_form(
+            config,
+            extra_header="Message-Id: <m2@eve.gd>\r\n",
+            token="tok-mime-6",
+        )
+        assert client.post("/inbound/mime", data=form).status_code == 406
+        assert self.stash(config).load("<m1@eve.gd>") is None
+        assert self.stash(config).load("<m2@eve.gd>") is None
+
+    def test_duplicate_from_headers_stash_nothing(self, harness):
+        client, _jobs, config = harness
+        form, _raw = mime_form(
+            config,
+            extra_header="From: second@evil.example\r\n",
+            token="tok-mime-7",
+        )
+        assert client.post("/inbound/mime", data=form).status_code == 406
         assert self.stash(config).load("<m1@eve.gd>") is None
 
     def test_mime_without_a_message_id_is_acknowledged(self, harness):

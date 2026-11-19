@@ -324,6 +324,8 @@ def process_job(
         if not binder(
             raw_mime, job.get("sender", ""), job.get("text", ""),
             [image["data"] for image in _job_images(job)],
+            message_id=job.get("message_id", ""),
+            subject=job.get("subject", ""),
         ):
             logger.warning(
                 "job %s: verified message %r does not match the queued "

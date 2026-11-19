@@ -423,7 +423,7 @@ class TestDeferredAuth:
             verify_dkim=lambda raw, domain: (
                 raw == b"THE STORED MIME" and domain == "eve.gd"
             ),
-            bind=lambda raw, sender, text, images: True,
+            bind=lambda *args, **kwargs: True,
         )
         (mail,) = send.sent
         assert "https://bsky.app" in mail["body"]
@@ -439,6 +439,8 @@ class TestDeferredAuth:
 
         message = MIMEMultipart()
         message["From"] = "Martin Eve <martin@eve.gd>"
+        message["Message-Id"] = "<original@eve.gd>"
+        message["Subject"] = "s"
         message.attach(MIMEText("a thought", "plain"))
         attachment = MIMEImage(b"JPGBYTES", "jpeg")
         attachment.add_header(
@@ -478,7 +480,7 @@ class TestDeferredAuth:
             job, config, run=fake, send=send,
             fetch_mime=lambda config, message_id: b"THE STORED MIME",
             verify_dkim=lambda raw, domain: True,
-            bind=lambda raw, sender, text, images: False,
+            bind=lambda *args, **kwargs: False,
         )
         assert fake.calls == []
         (mail,) = send.sent

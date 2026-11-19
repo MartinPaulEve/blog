@@ -10,6 +10,7 @@ rejected requests must stay silent to avoid backscatter.
 """
 
 import email
+import email.header
 import hashlib
 import hmac
 import json
@@ -374,22 +375,38 @@ def storage_candidates(items: list) -> list:
 
 
 def content_bound(
-    raw_mime: bytes, sender: str, text: str, images: list
+    raw_mime: bytes,
+    sender: str,
+    text: str,
+    images: list,
+    message_id: str = "",
+    subject: str = "",
 ) -> bool:
     """True when the job's content is present in the verified message.
 
     DKIM proves the raw message is authentic; this proves the content
     about to be published came from *that* message rather than from a
-    second, forged delivery reusing its Message-Id: the raw From must
-    be the job's sender, every job image's bytes must be an attachment
-    of the raw message, and the job text must appear in its text/plain
-    body (whitespace-insensitively; HTML-only mail has no text/plain
-    part and skips the text check).
+    second, forged delivery reusing its Message-Id: the raw message
+    must carry exactly one From and at most one Message-Id (two
+    parsers must never be able to disagree about identity headers),
+    its From must be the job's sender, its Message-Id and Subject must
+    be the job's, every job image's bytes must be an attachment of the
+    raw message, and the job text must appear in its text/plain body
+    (whitespace-insensitively). Non-empty job text with no text/plain
+    part to check it against fails closed.
     """
     if not raw_mime:
         return False
     message = email.message_from_bytes(raw_mime)
+    if duplicated_identity_headers(message):
+        return False
     if sender_address(message.get("From", "")) != (sender or "").strip().lower():
+        return False
+    if _clean_id(message.get("Message-Id", "")) != _clean_id(message_id):
+        return False
+    if _collapse(_decoded_header(message.get("Subject", ""))) != _collapse(
+        subject
+    ):
         return False
     plain_parts, attachment_blobs = [], []
     for part in message.walk():
@@ -410,9 +427,34 @@ def content_bound(
         if blob not in attachment_blobs:
             return False
     wanted = _collapse(text)
-    if wanted and plain_parts:
+    if wanted:
+        if not plain_parts:
+            return False
         return wanted in _collapse("\n".join(plain_parts))
     return True
+
+
+def duplicated_identity_headers(message) -> bool:
+    """True when From or Message-Id appears more than once — parsers
+    disagree about which occurrence counts, so such mail is refused."""
+    return (
+        len(message.get_all("From") or []) > 1
+        or len(message.get_all("Message-Id") or []) > 1
+    )
+
+
+def _clean_id(message_id: str) -> str:
+    return (message_id or "").strip().strip("<>")
+
+
+def _decoded_header(value: str) -> str:
+    """An RFC 2047 header decoded to text (Mailgun's parsed form)."""
+    try:
+        return str(
+            email.header.make_header(email.header.decode_header(value or ""))
+        )
+    except Exception:  # noqa: BLE001 — a malformed header compares as-is
+        return value or ""
 
 
 def _collapse(text: str) -> str:

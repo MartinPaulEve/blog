@@ -189,13 +189,21 @@ Publishing (worker, one job at a time):
   parsed from the MIME (hashed into the filename), and lands in a
   TTL-pruned, file-count-capped stash on the state volume where the
   first copy for a Message-Id wins — a later, differing delivery
-  reusing the id cannot replace it. After DKIM passes, the worker
-  additionally binds the job to the verified message (the raw From
-  must be the job's sender, every job image must be an attachment of
-  the raw message byte for byte, and the job text must appear in its
-  text/plain body whitespace-insensitively), so a forged parsed POST
-  cannot ride on a genuine message's verification; an unbound job is
-  dropped with a failure notice. Mailgun
+  reusing the id cannot replace it. Raw mail carrying more than one
+  From or Message-Id header is refused outright (two parsers must
+  never be able to disagree about identity headers). After DKIM
+  passes, the worker additionally binds the job to the verified
+  message: the raw From must be the job's sender, the raw Message-Id
+  and Subject must be the job's, every job image must be an
+  attachment of the raw message byte for byte, and the job text must
+  appear in its text/plain body whitespace-insensitively (non-empty
+  text with no text/plain part to check fails closed). A forged
+  parsed POST therefore cannot ride on a genuine message's
+  verification; an unbound job is dropped with a failure notice.
+  Known accepted risk: an attacker who can flood the gateway with
+  Mailgun-accepted spoofed mail can evict stash entries (FIFO cap)
+  and delay the worker — a denial of service that drops thoughts
+  with a notice, never a publish bypass. Mailgun
   realities shape the mechanics: (1) Mailgun's storage API cannot be
   relied on — message retrieval answers 405 ("Message retrieval
   disabled for domain") on plans without retention, so store() is NOT

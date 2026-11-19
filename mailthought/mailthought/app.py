@@ -336,7 +336,13 @@ def create_app(
             app.logger.warning("mime POST rejected: replayed token")
             return {"status": "rejected", "reason": "replay"}, 406
         raw = (form.get("body-mime") or "").encode()
-        headers = email_parser.message_from_bytes(raw) if raw else {}
+        headers = email_parser.message_from_bytes(raw or b"")
+        if security.duplicated_identity_headers(headers):
+            app.logger.warning(
+                "mime POST rejected: more than one From or Message-Id "
+                "header (parsers would disagree about which counts)"
+            )
+            return {"status": "rejected", "reason": "duplicate-headers"}, 406
         if not security.sender_allowed(
             headers.get("From", ""), config.allowed_senders
         ):

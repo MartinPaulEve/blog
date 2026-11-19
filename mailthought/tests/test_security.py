@@ -1,5 +1,6 @@
 """security: webhook signature, replay ledger, allowlist, SPF/DKIM verdicts."""
 
+import email as email_lib
 import json
 
 import dkim
@@ -298,6 +299,10 @@ def mime_message(
     sender="Martin Eve <martin@eve.gd>",
     text="a thought",
     image: bytes | None = None,
+    message_id="<m1@eve.gd>",
+    subject="",
+    extra_headers=(),
+    html_only=False,
 ) -> bytes:
     """A small multipart message shaped like real inbound mail."""
     from email.mime.image import MIMEImage
@@ -307,8 +312,13 @@ def mime_message(
     message = MIMEMultipart()
     message["From"] = sender
     message["To"] = "thought@mg.eve.gd"
-    message["Message-Id"] = "<m1@eve.gd>"
-    message.attach(MIMEText(text, "plain"))
+    if message_id:
+        message["Message-Id"] = message_id
+    if subject:
+        message["Subject"] = subject
+    for name, value in extra_headers:
+        message[name] = value
+    message.attach(MIMEText(text, "html" if html_only else "plain"))
     if image is not None:
         attachment = MIMEImage(image, "jpeg")
         attachment.add_header(
@@ -318,30 +328,71 @@ def mime_message(
     return message.as_bytes()
 
 
+# The allowlisted sender, derived from the fixture message's own From
+# header rather than restated.
+SENDER = sender_address(
+    email_lib.message_from_bytes(DKIM_MESSAGE)["From"]
+)
+
+
+def bound(raw, text="a thought", images=(), sender=SENDER,
+          message_id="<m1@eve.gd>", subject=""):
+    return content_bound(
+        raw, sender, text, list(images),
+        message_id=message_id, subject=subject,
+    )
+
+
 class TestContentBound:
     """The verified raw message must be the message being published."""
 
     IMG = b"\xff\xd8JPGBYTES"
 
-    def test_matching_sender_text_and_image_bind(self):
+    def test_matching_content_binds(self):
         raw = mime_message(image=self.IMG)
-        assert content_bound(
-            raw, "martin@eve.gd", "a thought", [self.IMG]
-        ) is True
+        assert bound(raw, images=[self.IMG]) is True
+
+    def test_a_different_message_id_does_not_bind(self):
+        raw = mime_message(message_id="<other@eve.gd>")
+        assert bound(raw) is False
+
+    def test_a_different_subject_does_not_bind(self):
+        raw = mime_message(subject="genuine subject")
+        assert bound(raw, subject="--dry run") is False
+
+    def test_matching_subjects_bind(self):
+        raw = mime_message(subject="--dry run")
+        assert bound(raw, subject="--dry run") is True
+
+    def test_duplicate_from_headers_do_not_bind(self):
+        raw = mime_message(extra_headers=[("From", "second@evil.example")])
+        assert bound(raw) is False
+
+    def test_duplicate_message_id_headers_do_not_bind(self):
+        raw = mime_message(extra_headers=[("Message-Id", "<m2@eve.gd>")])
+        assert bound(raw) is False
+
+    def test_text_that_cannot_be_checked_fails_closed(self):
+        # HTML-only mail has no text/plain part to check the job text
+        # against; binding must refuse rather than wave it through.
+        raw = mime_message(text="<p>a <b>thought</b></p>", html_only=True)
+        assert bound(raw) is False
+
+    def test_html_only_mail_with_no_job_text_binds(self):
+        raw = mime_message(text="<p>pic</p>", html_only=True, image=self.IMG)
+        assert bound(raw, text="", images=[self.IMG]) is True
 
     def test_a_different_from_address_does_not_bind(self):
         raw = mime_message(sender="Mallory <mallory@evil.example>")
-        assert content_bound(raw, "martin@eve.gd", "a thought", []) is False
+        assert bound(raw) is False
 
     def test_text_absent_from_the_message_does_not_bind(self):
         raw = mime_message(text="something else entirely")
-        assert content_bound(raw, "martin@eve.gd", "a thought", []) is False
+        assert bound(raw) is False
 
     def test_an_image_absent_from_the_message_does_not_bind(self):
         raw = mime_message(image=self.IMG)
-        assert content_bound(
-            raw, "martin@eve.gd", "a thought", [b"OTHER BYTES"]
-        ) is False
+        assert bound(raw, images=[b"OTHER BYTES"]) is False
 
     def test_job_text_may_be_a_trimmed_prefix_of_the_body(self):
         # Alt directives and signatures are stripped from the job text;
@@ -349,23 +400,10 @@ class TestContentBound:
         raw = mime_message(
             text="a  thought\r\nwith lines\r\nalt: a red gate\r\n-- \r\nsig"
         )
-        assert content_bound(
-            raw, "martin@eve.gd", "a thought with lines", []
-        ) is True
-
-    def test_html_only_mail_binds_on_sender_and_attachments(self):
-        from email.mime.multipart import MIMEMultipart
-        from email.mime.text import MIMEText
-
-        message = MIMEMultipart()
-        message["From"] = "martin@eve.gd"
-        message.attach(MIMEText("<p>a <b>thought</b></p>", "html"))
-        assert content_bound(
-            message.as_bytes(), "martin@eve.gd", "a thought", []
-        ) is True
+        assert bound(raw, text="a thought with lines") is True
 
     def test_an_empty_raw_message_does_not_bind(self):
-        assert content_bound(b"", "martin@eve.gd", "a thought", []) is False
+        assert bound(b"") is False
 
 
 class ArrivingStash:
