@@ -59,11 +59,12 @@ def mime_form(
     config,
     message_id="<m1@eve.gd>",
     token="tok-mime-0001",
+    sender="Martin Eve <martin@eve.gd>",
     signature_fields=None,
 ):
     id_header = f"Message-Id: {message_id}\r\n" if message_id else ""
     raw = (
-        "From: Martin Eve <martin@eve.gd>\r\n"
+        f"From: {sender}\r\n"
         f"{id_header}"
         "Subject: hello\r\n"
         "\r\n"
@@ -187,6 +188,17 @@ class TestMimeEndpoint:
         form, _raw = mime_form(config, token="tok-mime-3")
         assert client.post("/inbound/mime", data=form).status_code == 200
         assert client.post("/inbound/mime", data=form).status_code == 406
+
+    def test_disallowed_from_in_the_mime_stashes_nothing(self, harness):
+        client, _jobs, config = harness
+        form, _raw = mime_form(
+            config,
+            sender="Mallory <mallory@evil.example>",
+            token="tok-mime-5",
+        )
+        response = client.post("/inbound/mime", data=form)
+        assert response.status_code == 406
+        assert self.stash(config).load("<m1@eve.gd>") is None
 
     def test_mime_without_a_message_id_is_acknowledged(self, harness):
         # Nothing can be matched to it, but a 406 would make Mailgun

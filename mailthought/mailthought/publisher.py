@@ -253,6 +253,7 @@ def process_job(
     send=None,
     fetch_mime=None,
     verify_dkim=None,
+    bind=None,
 ) -> None:
     """Execute one persisted inbox job and mail the outcome back.
 
@@ -316,6 +317,28 @@ def process_job(
             "job %s: deferred DKIM verification passed for %r",
             job.get("id"), from_domain,
         )
+        # DKIM proved the raw message genuine; now prove the queued
+        # content came from that very message, not from a second
+        # delivery reusing its Message-Id.
+        binder = bind or security.content_bound
+        if not binder(
+            raw_mime, job.get("sender", ""), job.get("text", ""),
+            [image["data"] for image in _job_images(job)],
+        ):
+            logger.warning(
+                "job %s: verified message %r does not match the queued "
+                "content; dropping the job and notifying the sender",
+                job.get("id"), job.get("message_id"),
+            )
+            reply(mailer.failure_notice(
+                "The authenticated copy of the original email does "
+                "not match the content that was queued for "
+                "publishing, so nothing was published. This either "
+                "means someone tried to forge an email reusing your "
+                "message's Message-Id, or the gateway mis-parsed an "
+                "unusual message format."
+            ))
+            return
 
     def log_outcome(result):
         if result.ok:

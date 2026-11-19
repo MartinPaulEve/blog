@@ -336,11 +336,18 @@ def create_app(
             app.logger.warning("mime POST rejected: replayed token")
             return {"status": "rejected", "reason": "replay"}, 406
         raw = (form.get("body-mime") or "").encode()
-        message_id = (
-            email_parser.message_from_bytes(raw).get("Message-Id", "")
-            if raw
-            else ""
-        )
+        headers = email_parser.message_from_bytes(raw) if raw else {}
+        if not security.sender_allowed(
+            headers.get("From", ""), config.allowed_senders
+        ):
+            # Gate parity with /inbound: only allowlisted senders may
+            # fill the stash the worker verifies against.
+            app.logger.warning(
+                "mime POST rejected: from=%r not allowlisted",
+                security.sender_address(headers.get("From", "")),
+            )
+            return {"status": "rejected", "reason": "sender"}, 406
+        message_id = headers.get("Message-Id", "")
         if not message_id:
             # Nothing to match it to; a 406 would only make Mailgun
             # flag the route as broken.

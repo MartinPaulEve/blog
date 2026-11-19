@@ -9,6 +9,7 @@ from mailthought.security import (
     MimeStash,
     SeenLedger,
     auth_results,
+    content_bound,
     dkim_authenticated,
     is_authenticated,
     retrieval_curl,
@@ -259,6 +260,112 @@ class TestMimeStash:
             if path.is_file() and (tmp_path / "mime") not in path.parents
         ]
         assert outside == []
+
+
+class TestMimeStashFirstWriteWins:
+    """A Message-Id's first raw copy must survive later, differing
+    deliveries — otherwise a forger could replace the genuine copy
+    after it arrives."""
+
+    RAW = b"From: martin@eve.gd\r\n\r\ngenuine\r\n"
+    FORGED = b"From: martin@eve.gd\r\n\r\nforged\r\n"
+
+    def test_a_differing_second_copy_does_not_replace_the_first(
+        self, tmp_path
+    ):
+        stash = MimeStash(tmp_path / "mime")
+        stash.save("<m1@eve.gd>", self.RAW, now=1000.0)
+        stash.save("<m1@eve.gd>", self.FORGED, now=1001.0)
+        assert stash.load("<m1@eve.gd>", now=1002.0) == self.RAW
+
+    def test_an_identical_redelivery_is_harmless(self, tmp_path):
+        stash = MimeStash(tmp_path / "mime")
+        stash.save("<m1@eve.gd>", self.RAW, now=1000.0)
+        stash.save("<m1@eve.gd>", self.RAW, now=1001.0)
+        assert stash.load("<m1@eve.gd>", now=1002.0) == self.RAW
+
+    def test_the_stash_is_capped_dropping_the_oldest(self, tmp_path):
+        stash = MimeStash(tmp_path / "mime", max_files=2)
+        stash.save("<a@eve.gd>", self.RAW, now=1000.0)
+        stash.save("<b@eve.gd>", self.RAW, now=1001.0)
+        stash.save("<c@eve.gd>", self.RAW, now=1002.0)
+        assert stash.load("<a@eve.gd>", now=1003.0) is None
+        assert stash.load("<b@eve.gd>", now=1003.0) == self.RAW
+        assert stash.load("<c@eve.gd>", now=1003.0) == self.RAW
+
+
+def mime_message(
+    sender="Martin Eve <martin@eve.gd>",
+    text="a thought",
+    image: bytes | None = None,
+) -> bytes:
+    """A small multipart message shaped like real inbound mail."""
+    from email.mime.image import MIMEImage
+    from email.mime.multipart import MIMEMultipart
+    from email.mime.text import MIMEText
+
+    message = MIMEMultipart()
+    message["From"] = sender
+    message["To"] = "thought@mg.eve.gd"
+    message["Message-Id"] = "<m1@eve.gd>"
+    message.attach(MIMEText(text, "plain"))
+    if image is not None:
+        attachment = MIMEImage(image, "jpeg")
+        attachment.add_header(
+            "Content-Disposition", "attachment", filename="gate.jpg"
+        )
+        message.attach(attachment)
+    return message.as_bytes()
+
+
+class TestContentBound:
+    """The verified raw message must be the message being published."""
+
+    IMG = b"\xff\xd8JPGBYTES"
+
+    def test_matching_sender_text_and_image_bind(self):
+        raw = mime_message(image=self.IMG)
+        assert content_bound(
+            raw, "martin@eve.gd", "a thought", [self.IMG]
+        ) is True
+
+    def test_a_different_from_address_does_not_bind(self):
+        raw = mime_message(sender="Mallory <mallory@evil.example>")
+        assert content_bound(raw, "martin@eve.gd", "a thought", []) is False
+
+    def test_text_absent_from_the_message_does_not_bind(self):
+        raw = mime_message(text="something else entirely")
+        assert content_bound(raw, "martin@eve.gd", "a thought", []) is False
+
+    def test_an_image_absent_from_the_message_does_not_bind(self):
+        raw = mime_message(image=self.IMG)
+        assert content_bound(
+            raw, "martin@eve.gd", "a thought", [b"OTHER BYTES"]
+        ) is False
+
+    def test_job_text_may_be_a_trimmed_prefix_of_the_body(self):
+        # Alt directives and signatures are stripped from the job text;
+        # whitespace is reflowed. The remainder must still bind.
+        raw = mime_message(
+            text="a  thought\r\nwith lines\r\nalt: a red gate\r\n-- \r\nsig"
+        )
+        assert content_bound(
+            raw, "martin@eve.gd", "a thought with lines", []
+        ) is True
+
+    def test_html_only_mail_binds_on_sender_and_attachments(self):
+        from email.mime.multipart import MIMEMultipart
+        from email.mime.text import MIMEText
+
+        message = MIMEMultipart()
+        message["From"] = "martin@eve.gd"
+        message.attach(MIMEText("<p>a <b>thought</b></p>", "html"))
+        assert content_bound(
+            message.as_bytes(), "martin@eve.gd", "a thought", []
+        ) is True
+
+    def test_an_empty_raw_message_does_not_bind(self):
+        assert content_bound(b"", "martin@eve.gd", "a thought", []) is False
 
 
 class ArrivingStash:

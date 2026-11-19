@@ -237,8 +237,10 @@ def stored_message_mime(
 
 
 # Raw MIME copies only need to outlive the worker's verification
-# polling window; a day is generous.
+# polling window; a day is generous. The file cap bounds disk use
+# against a flood of signed-but-forged deliveries.
 MIME_STASH_TTL_SECONDS = 86400
+MIME_STASH_MAX_FILES = 256
 
 
 class MimeStash:
@@ -250,9 +252,15 @@ class MimeStash:
     into filenames, so hostile ids cannot escape the directory.
     """
 
-    def __init__(self, path: Path, ttl_seconds: int = MIME_STASH_TTL_SECONDS):
+    def __init__(
+        self,
+        path: Path,
+        ttl_seconds: int = MIME_STASH_TTL_SECONDS,
+        max_files: int = MIME_STASH_MAX_FILES,
+    ):
         self.path = Path(path)
         self.ttl_seconds = ttl_seconds
+        self.max_files = max_files
 
     def _file(self, message_id: str) -> Path:
         clean = (message_id or "").strip().strip("<>")
@@ -269,6 +277,26 @@ class MimeStash:
             except OSError:
                 continue
         target = self._file(message_id)
+        if target.exists():
+            # First write wins: a later, differing copy for the same
+            # Message-Id would let a forger replace the genuine raw
+            # message after it arrived. (Identical bytes are just a
+            # Mailgun redelivery.)
+            try:
+                if target.read_bytes() != raw:
+                    logger.warning(
+                        "a differing raw MIME copy for %r arrived after "
+                        "the first; keeping the first (possible "
+                        "Message-Id reuse)", message_id,
+                    )
+            except OSError:
+                pass
+            return
+        survivors = sorted(
+            self.path.glob("*.eml"), key=lambda path: path.stat().st_mtime
+        )
+        for oldest in survivors[: max(0, len(survivors) - self.max_files + 1)]:
+            oldest.unlink(missing_ok=True)
         target.write_bytes(raw)
         os.utime(target, (now, now))
 
@@ -343,6 +371,54 @@ def storage_candidates(items: list) -> list:
         elif url:
             pairs.append((event, url))
     return pairs
+
+
+def content_bound(
+    raw_mime: bytes, sender: str, text: str, images: list
+) -> bool:
+    """True when the job's content is present in the verified message.
+
+    DKIM proves the raw message is authentic; this proves the content
+    about to be published came from *that* message rather than from a
+    second, forged delivery reusing its Message-Id: the raw From must
+    be the job's sender, every job image's bytes must be an attachment
+    of the raw message, and the job text must appear in its text/plain
+    body (whitespace-insensitively; HTML-only mail has no text/plain
+    part and skips the text check).
+    """
+    if not raw_mime:
+        return False
+    message = email.message_from_bytes(raw_mime)
+    if sender_address(message.get("From", "")) != (sender or "").strip().lower():
+        return False
+    plain_parts, attachment_blobs = [], []
+    for part in message.walk():
+        if part.is_multipart():
+            continue
+        payload = part.get_payload(decode=True) or b""
+        if part.get_content_type() == "text/plain" and "attachment" not in str(
+            part.get("Content-Disposition") or ""
+        ):
+            charset = part.get_content_charset() or "utf-8"
+            try:
+                plain_parts.append(payload.decode(charset, "replace"))
+            except LookupError:
+                plain_parts.append(payload.decode("utf-8", "replace"))
+        else:
+            attachment_blobs.append(payload)
+    for blob in images:
+        if blob not in attachment_blobs:
+            return False
+    wanted = _collapse(text)
+    if wanted and plain_parts:
+        return wanted in _collapse("\n".join(plain_parts))
+    return True
+
+
+def _collapse(text: str) -> str:
+    """Whitespace-insensitive comparison form (flowed unwrapping,
+    CRLF normalisation and trailing-line stripping all preserve it)."""
+    return " ".join((text or "").split())
 
 
 def dkim_authenticated(

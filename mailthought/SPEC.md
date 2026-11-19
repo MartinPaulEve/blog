@@ -184,9 +184,18 @@ Publishing (worker, one job at a time):
   the route's second forward action, `forward(".../inbound/mime")` — a
   forward URL ending in "mime" makes Mailgun POST the raw MIME
   (body-mime field) instead of the parsed message. That POST passes
-  the same HMAC-signature and token-replay checks, is keyed by the
-  Message-Id parsed from the MIME itself (hashed into the filename),
-  and lands in a TTL-pruned stash on the state volume. Mailgun
+  the same HMAC-signature, token-replay and sender-allowlist checks
+  (the From parsed from the MIME itself), is keyed by the Message-Id
+  parsed from the MIME (hashed into the filename), and lands in a
+  TTL-pruned, file-count-capped stash on the state volume where the
+  first copy for a Message-Id wins — a later, differing delivery
+  reusing the id cannot replace it. After DKIM passes, the worker
+  additionally binds the job to the verified message (the raw From
+  must be the job's sender, every job image must be an attachment of
+  the raw message byte for byte, and the job text must appear in its
+  text/plain body whitespace-insensitively), so a forged parsed POST
+  cannot ride on a genuine message's verification; an unbound job is
+  dropped with a failure notice. Mailgun
   realities shape the mechanics: (1) Mailgun's storage API cannot be
   relied on — message retrieval answers 405 ("Message retrieval
   disabled for domain") on plans without retention, so store() is NOT

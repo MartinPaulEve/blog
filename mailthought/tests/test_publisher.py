@@ -423,9 +423,67 @@ class TestDeferredAuth:
             verify_dkim=lambda raw, domain: (
                 raw == b"THE STORED MIME" and domain == "eve.gd"
             ),
+            bind=lambda raw, sender, text, images: True,
         )
         (mail,) = send.sent
         assert "https://bsky.app" in mail["body"]
+
+    def test_publishes_a_genuine_message_under_the_real_binding(
+        self, config, tmp_path
+    ):
+        # End to end through the default content binding: the raw MIME
+        # really contains the job's sender, text and image.
+        from email.mime.image import MIMEImage
+        from email.mime.multipart import MIMEMultipart
+        from email.mime.text import MIMEText
+
+        message = MIMEMultipart()
+        message["From"] = "Martin Eve <martin@eve.gd>"
+        message.attach(MIMEText("a thought", "plain"))
+        attachment = MIMEImage(b"JPGBYTES", "jpeg")
+        attachment.add_header(
+            "Content-Disposition", "attachment", filename="gate.jpg"
+        )
+        message.attach(attachment)
+        raw = message.as_bytes()
+
+        fake = FakeRun(lambda cmd: (
+            (0, STORED_OK) if cmd[0] == "uv"
+            else (1, "") if cmd[:3] == ["git", "diff", "--cached"]
+            else (0, "")
+        ))
+        send = SendCollector()
+        job = make_job(
+            tmp_path, "publish", needs_auth=True,
+            images=[("gate.jpg", "image/jpeg", b"JPGBYTES")],
+        )
+        process_job(
+            job, config, run=fake, send=send,
+            fetch_mime=lambda config, message_id: raw,
+            verify_dkim=lambda raw_mime, domain: True,
+        )
+        (mail,) = send.sent
+        assert "https://bsky.app" in mail["body"]
+
+    def test_unbound_content_is_dropped_with_a_notice(self, config, tmp_path):
+        # DKIM passing proves the raw message is genuine; it does not
+        # prove the queued job came from it. A mismatch must never
+        # publish — it is either a forged delivery reusing the
+        # Message-Id or a parsing defect, and the (allowlisted) sender
+        # is told either way.
+        fake = FakeRun()
+        send = SendCollector()
+        job = make_job(tmp_path, "publish", needs_auth=True)
+        process_job(
+            job, config, run=fake, send=send,
+            fetch_mime=lambda config, message_id: b"THE STORED MIME",
+            verify_dkim=lambda raw, domain: True,
+            bind=lambda raw, sender, text, images: False,
+        )
+        assert fake.calls == []
+        (mail,) = send.sent
+        assert "not published" in mail["body"]
+        assert "match" in mail["body"].lower()
 
     def test_dkim_failure_drops_the_job_silently(self, config, tmp_path):
         fake = FakeRun()

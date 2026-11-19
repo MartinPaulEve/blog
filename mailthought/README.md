@@ -40,9 +40,10 @@ A mail publishes only if all of these hold:
    is accepted provisionally and the background worker verifies DKIM
    itself against the raw message — which the route's second forward
    action POSTs to `/inbound/mime` (that POST passes the same
-   signature and replay checks) — requiring a signature domain
-   aligned with the From domain. A present-but-failing verdict is
-   always a rejection;
+   signature, replay and allowlist checks) — requiring a signature
+   domain aligned with the From domain, and then checks that the
+   queued sender, text and images actually appear in the verified
+   message. A present-but-failing verdict is always a rejection;
 4. the Message-Id has not been processed before.
 
 Anything else is answered 406 (Mailgun stops retrying) and never gets
