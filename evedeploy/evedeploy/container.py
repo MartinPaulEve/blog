@@ -480,7 +480,9 @@ def main(argv=None, exec_=os.execvp) -> int:
     root = repo_root()
     os.chdir(root)
 
-    if opts.native:
+    # EVEDEPLOY_NATIVE covers environments that carry the toolchain but
+    # no container runtime (the mailthought gateway image sets it).
+    if opts.native or os.environ.get("EVEDEPLOY_NATIVE"):
         cmd = native_command(opts.passthrough)
         exec_(cmd[0], cmd)
         return 0

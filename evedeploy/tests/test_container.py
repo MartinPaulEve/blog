@@ -570,6 +570,31 @@ class TestMain:
         assert seen["prog"] == "uv"
         assert seen["argv"] == native_command(["--quick"])
 
+    def test_env_var_forces_native_mode(self, monkeypatch, tmp_path):
+        # Environments without a container runtime but with the full
+        # toolchain (the mailthought gateway image) opt in via env.
+        seen = {}
+
+        def fake_exec(prog, argv):
+            seen["prog"], seen["argv"] = prog, argv
+
+        monkeypatch.setattr(container, "repo_root", lambda: tmp_path)
+        monkeypatch.setenv("EVEDEPLOY_NATIVE", "1")
+        container.main(["--quick"], exec_=fake_exec)
+        assert seen["prog"] == "uv"
+        assert seen["argv"] == native_command(["--quick"])
+
+    def test_empty_env_var_keeps_container_mode(self, monkeypatch, tmp_path):
+        monkeypatch.setattr(container, "repo_root", lambda: tmp_path)
+        monkeypatch.setenv("EVEDEPLOY_NATIVE", "")
+
+        def no_runtime(**kw):
+            raise LauncherError("no container runtime found")
+
+        monkeypatch.setattr(container, "detect_runtime", no_runtime)
+        code = container.main(["--quick"], exec_=lambda *a: None)
+        assert code != 0
+
     def test_container_mode_execs_the_runtime(self, monkeypatch, tmp_path):
         seen = {}
 

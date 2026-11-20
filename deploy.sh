@@ -41,7 +41,9 @@
 #   ./deploy.sh --shell        # a bash prompt inside the container
 #   ./deploy.sh --rebuild-image ...   # force a fresh image build first
 #
-# Environment: EVEDEPLOY_RUNTIME=docker|podman picks the runtime;
+# Environment: EVEDEPLOY_NATIVE=1 behaves like --native (for hosts that
+# carry the toolchain but no container runtime, e.g. the mailthought
+# gateway image); EVEDEPLOY_RUNTIME=docker|podman picks the runtime;
 # EVEDEPLOY_SSH_AGENT=/path/to/agent.sock names the agent to sign with
 # (default: Bitwarden's, then 1Password's, then $SSH_AUTH_SOCK).
 

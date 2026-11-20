@@ -57,10 +57,15 @@ RUN chmod +x /app/entrypoint.sh
 # from Martin's Nix environment that the image doesn't carry; without
 # this, jekyll's launcher runs Bundler.setup against that lockfile and
 # dies with GemNotFound. Plain-jekyll is the ethos here anyway.
+# EVEDEPLOY_NATIVE: the thought CLI runs the quick deploy through
+# ./deploy.sh, whose launcher wants Docker/Podman — neither exists in
+# here. This image carries the deploy toolchain itself, so the launcher
+# must exec evedeploy natively instead.
 ENV TZ=Europe/London \
     JEKYLL_SKIP_PDFS=1 \
     JEKYLL_NO_BUNDLER_REQUIRE=true \
     BUNDLE_SILENCE_DEPRECATIONS=true \
+    EVEDEPLOY_NATIVE=1 \
     DATA_DIR=/data
 
 EXPOSE 8080
