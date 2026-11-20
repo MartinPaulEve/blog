@@ -8,34 +8,34 @@
  },
  "recent_plays": [
   {
-   "artist": "The Long Champs",
-   "artist_url": "https://www.last.fm/music/The+Long+Champs",
-   "track": "Y Llwynog (Rich Lane Remix)",
-   "url": "https://www.last.fm/music/The+Long+Champs/_/Y+Llwynog+(Rich+Lane+Remix)"
-  },
-  {
-   "artist": "Chug Norris feat. Patricia Enot",
-   "artist_url": "https://www.last.fm/music/Chug+Norris+feat.+Patricia+Enot",
-   "track": "Default Love Network",
-   "url": "https://www.last.fm/music/Chug+Norris+feat.+Patricia+Enot/_/Default+Love+Network"
+   "artist": "Somerville & Wilson",
+   "artist_url": "https://www.last.fm/music/Somerville+&+Wilson",
+   "track": "Red Wasps (feat Romin remix - Future Bones)",
+   "url": "https://www.last.fm/music/Somerville+&+Wilson/_/Red+Wasps+(feat+Romin+remix+-+Future+Bones)"
   },
   {
    "artist": "Fluke",
    "artist_url": "https://www.last.fm/music/Fluke",
-   "track": "The Bells (Eames remix)",
-   "url": "https://www.last.fm/music/Fluke/_/The+Bells+(Eames+remix)"
+   "track": "Atom Bomb (Daniel Avery Nuclear Summer Remix)",
+   "url": "https://www.last.fm/music/Fluke/_/Atom+Bomb+(Daniel+Avery+Nuclear+Summer+Remix)"
   },
   {
-   "artist": "Voodoo Child",
-   "artist_url": "https://www.last.fm/music/Voodoo+Child",
-   "track": "Gotta Be Loose In Your Mind",
-   "url": "https://www.last.fm/music/Voodoo+Child/_/Gotta+Be+Loose+In+Your+Mind"
+   "artist": "Tronik Youth",
+   "artist_url": "https://www.last.fm/music/Tronik+Youth",
+   "track": "Suicide Doors (Future Bones remix)",
+   "url": "https://www.last.fm/music/Tronik+Youth/_/Suicide+Doors+(Future+Bones+remix)"
   },
   {
-   "artist": "Shunt Voltage",
-   "artist_url": "https://www.last.fm/music/Shunt+Voltage",
-   "track": "Scapeism",
-   "url": "https://www.last.fm/music/Shunt+Voltage/_/Scapeism"
+   "artist": "Black Fades",
+   "artist_url": "https://www.last.fm/music/Black+Fades",
+   "track": "UnOriginal",
+   "url": "https://www.last.fm/music/Black+Fades/_/UnOriginal"
+  },
+  {
+   "artist": "The Oddness",
+   "artist_url": "https://www.last.fm/music/The+Oddness",
+   "track": "Drop and Roll",
+   "url": "https://www.last.fm/music/The+Oddness/_/Drop+and+Roll"
   }
  ],
  "top_artist": {
@@ -50,7 +50,7 @@
   "track": "Tosh (Steve Cobby redux)",
   "url": "https://www.last.fm/music/Fluke/_/Tosh+(Steve+Cobby+redux)"
  },
- "updated": "2026-11-20T15:25:50+00:00",
+ "updated": "2026-11-20T15:27:19+00:00",
  "url": "https://www.last.fm/user/MartinPaulEve",
  "user": "MartinPaulEve"
 }
