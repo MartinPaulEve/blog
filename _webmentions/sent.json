@@ -17877,6 +17877,15 @@
      "status": 201
     }
    }
+  },
+  "/thoughts/2026-11/#t20261119224749": {
+   "content_hash": "efcd21aedae739b3ba39ea548206e09186e4717738a4c6c1e4aaba806e8f6dbf",
+   "sent": {
+    "https://www.science.org/doi/10.1126/sciadv.aee0802": {
+     "at": "2026-11-20T13:04:50+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
