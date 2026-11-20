@@ -11,7 +11,7 @@ This is a [now page](https://nownownow.com/about): a snapshot of what I'm up to 
 
 ## Hospital
 
-I was discharge from 3 months in hospital on the 11th of November. I am now having haemodialysis five days a week and total parental nutrition (or IV feeding) for severe malnutrition due to chronic norovirus as well as CPO and E. coli, all at home. I am still working but I remain slightly slower than usual as my rheumatoid arthritis has also decided to flare.
+I was discharged from 3 months in hospital on the 11th of November. I am now having haemodialysis five days a week and total parental nutrition (or IV feeding) for severe malnutrition due to chronic norovirus as well as CPO and E. coli, all at home. I am still working but I remain slightly slower than usual as my rheumatoid arthritis has also decided to flare.
 
 ## Knowledge Commons
 
