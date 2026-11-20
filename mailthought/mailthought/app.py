@@ -195,6 +195,14 @@ def create_app(
         access_log.addFilter(HealthzLogFilter())
     app = Flask(__name__)
     app.logger.setLevel(logging.INFO)
+    # Mailgun POSTs the raw message to /inbound/mime as an ordinary
+    # form field (body-mime), and Werkzeug caps non-file form fields
+    # at 500KB by default — a mail with a photo sails past that and
+    # the POST dies as a 413 before any handler runs. Mailgun's own
+    # message cap is 25MB; allow that plus headroom, and bound the
+    # whole request so the gateway still refuses the truly absurd.
+    app.config["MAX_FORM_MEMORY_SIZE"] = 32 * 1024 * 1024
+    app.config["MAX_CONTENT_LENGTH"] = 64 * 1024 * 1024
 
     @app.post("/inbound")
     def inbound():

@@ -62,6 +62,7 @@ def mime_form(
     sender="Martin Eve <martin@eve.gd>",
     signature_fields=None,
     extra_header="",
+    body="a thought",
 ):
     id_header = f"Message-Id: {message_id}\r\n" if message_id else ""
     raw = (
@@ -70,7 +71,7 @@ def mime_form(
         f"{extra_header}"
         "Subject: hello\r\n"
         "\r\n"
-        "a thought\r\n"
+        f"{body}\r\n"
     )
     form = {"recipient": "thought@mg.eve.gd", "body-mime": raw}
     form.update(
@@ -167,6 +168,17 @@ class TestMimeEndpoint:
     def test_signed_mime_post_is_stashed_by_message_id(self, harness):
         client, _jobs, config = harness
         form, raw = mime_form(config)
+        response = client.post("/inbound/mime", data=form)
+        assert response.status_code == 200
+        assert self.stash(config).load("<m1@eve.gd>") == raw
+
+    def test_a_multi_megabyte_mime_body_is_still_stashed(self, harness):
+        # The raw MIME of a mail with a photo runs to several MB, and
+        # Mailgun sends it as an ordinary form field — which Werkzeug
+        # caps at 500KB by default, bouncing the POST with a 413
+        # before the handler runs.
+        client, _jobs, config = harness
+        form, raw = mime_form(config, body="x" * (5 * 1024 * 1024))
         response = client.post("/inbound/mime", data=form)
         assert response.status_code == 200
         assert self.stash(config).load("<m1@eve.gd>") == raw
