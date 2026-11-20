@@ -11,13 +11,13 @@ This is a [now page](https://nownownow.com/about): a snapshot of what I'm up to 
 
 ## Hospital
 
-I am currently in hospital and extremely unwell. I am having haemodialysis five days a week and total parental nutrition or IV feeding for severe malnutrition due to chronic norovirus as well as CPO and E. coli. I am still working but slower than usual.
+I was discharge from 3 months in hospital on the 11th of November. I am now having haemodialysis five days a week and total parental nutrition (or IV feeding) for severe malnutrition due to chronic norovirus as well as CPO and E. coli, all at home. I am still working but I remain slightly slower than usual as my rheumatoid arthritis has also decided to flare.
 
 ## Knowledge Commons
 
 I am currently working on the theming system for our entire suite of apps. The underlying architectural question is: how can we build an engine that will give a unified look to our apps that run on different stacks, different languages, different ways of doing things. It's going to be an interesting project but it's on a deadline.
 
-I am also onboarding a set of new institutions who particularly want to use our KC Works repository. This is satisfying work, reaching out to libraries.
+I am also onboarding a set of new institutions who particularly want to use our KC Works repository. This is satisfying work, reaching out to libraries and writing import routines from their old repos.
 
 ## Formal Research
 
@@ -25,7 +25,7 @@ In my research professor role, I am currently writing a book for the MIT Press a
 
 My book on _Star Trek: Voyager_ has gone into production and I expect a copyedited version of the manuscript to be with me by the end of November!
 
-I am also writing a somewhat more secret (for now) book about contemporary healthcare and its embroilment in AI technologies.
+I have two revisions to make on a journal article and several book chapters.
 
 ## Writing on Eve.gd
 
