@@ -17912,6 +17912,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-11/#t20261121094103": {
+   "content_hash": "996ee3f2f8ce58114e889e3e44c20f8db0978885ba7649853f79a2533ef9532b",
+   "sent": {
+    "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/": {
+     "at": "2026-11-21T09:42:17+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
