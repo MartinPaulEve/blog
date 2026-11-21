@@ -17886,6 +17886,23 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-11/#t20261121081708": {
+   "content_hash": "40427dcb706915ef68a41ab554d97a30c6daa197cd5d058dfad6688cedfeb1bd",
+   "sent": {
+    "https://alpo.ge/lean.tar.gz.part01": {
+     "at": "2026-11-21T08:18:27+00:00",
+     "endpoint": null
+    },
+    "https://alpo.ge/lean.tar.gz.part14": {
+     "at": "2026-11-21T08:18:27+00:00",
+     "endpoint": null
+    },
+    "https://alpo.ge/remark.pdf": {
+     "at": "2026-11-21T08:18:27+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
