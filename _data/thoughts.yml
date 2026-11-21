@@ -1,3 +1,14 @@
+- id: '20261121155331'
+  date: '2026-11-21T15:53:31.688153+00:00'
+  text: 'We''re rewatching the Craig Bond films and are now on Marc Forster''s Quantum of Solace. I *hate* the cinematography of the chases and fights. All quick-cut shaky-camera no-macro dizzying circuits. Genuinely makes me feel sick!
+
+
+    The Tosca scene, for example, is just terribly confusing and pretentious. The intro car-chase is nonsensical. I couldn''t work out a thing when Bond was chasing the defector early on. It becomes more coherent after that.'
+  images:
+  - src: /assets/thoughts/20261121155331-1.jpg
+    alt: Poster for Quantum of Solace featuring Olga Kurylenko and Daniel Craig looking stylish
+  bluesky: https://bsky.app/profile/eve.gd/post/3n2thiuan462g
+  mastodon: https://hcommons.social/@mpe/117655235927930811
 - id: '20261121132854'
   date: '2026-11-21T13:28:54.120557+00:00'
   text: I'm finally doing the geeky thing I wanted to do for ages and installing NixOS on my main machine. I know the result of this will be a total day of pain fixing it and that it will result in a non-bootable state, but what the heck? 😂
