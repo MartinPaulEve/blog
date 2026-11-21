@@ -17903,6 +17903,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-11/#t20261121091040": {
+   "content_hash": "aba3174a3251630e525fad698fc339484f60f2e42b321f4651dc74f1124627ee",
+   "sent": {
+    "https://slopstrap.mikelacher.com/": {
+     "at": "2026-11-21T09:11:53+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
