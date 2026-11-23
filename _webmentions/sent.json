@@ -17921,6 +17921,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-11/#t20261123132557": {
+   "content_hash": "5804e42aed4a5d037b8ffa3bf64be8862073336e5224b065830dbca8744fd375",
+   "sent": {
+    "https://www.theguardian.com/society/2026/nov/22/nhs-savings-hospitals-trusts-england-cuts": {
+     "at": "2026-11-23T13:27:12+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
