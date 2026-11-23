@@ -17886,6 +17886,50 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-11/#t20261121081708": {
+   "content_hash": "40427dcb706915ef68a41ab554d97a30c6daa197cd5d058dfad6688cedfeb1bd",
+   "sent": {
+    "https://alpo.ge/lean.tar.gz.part01": {
+     "at": "2026-11-21T08:18:27+00:00",
+     "endpoint": null
+    },
+    "https://alpo.ge/lean.tar.gz.part14": {
+     "at": "2026-11-21T08:18:27+00:00",
+     "endpoint": null
+    },
+    "https://alpo.ge/remark.pdf": {
+     "at": "2026-11-21T08:18:27+00:00",
+     "endpoint": null
+    }
+   }
+  },
+  "/thoughts/2026-11/#t20261121091040": {
+   "content_hash": "aba3174a3251630e525fad698fc339484f60f2e42b321f4651dc74f1124627ee",
+   "sent": {
+    "https://slopstrap.mikelacher.com/": {
+     "at": "2026-11-21T09:11:53+00:00",
+     "endpoint": null
+    }
+   }
+  },
+  "/thoughts/2026-11/#t20261121094103": {
+   "content_hash": "996ee3f2f8ce58114e889e3e44c20f8db0978885ba7649853f79a2533ef9532b",
+   "sent": {
+    "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/": {
+     "at": "2026-11-21T09:42:17+00:00",
+     "endpoint": null
+    }
+   }
+  },
+  "/thoughts/2026-11/#t20261123132557": {
+   "content_hash": "5804e42aed4a5d037b8ffa3bf64be8862073336e5224b065830dbca8744fd375",
+   "sent": {
+    "https://www.theguardian.com/society/2026/nov/22/nhs-savings-hospitals-trusts-england-cuts": {
+     "at": "2026-11-23T13:27:12+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }

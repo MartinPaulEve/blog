@@ -7,6 +7,7 @@ roguescholar: https://rogue-scholar.org/records/wqhp0-1vx72
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mzuk6uswvj24
 kcworks: https://works.hcommons.org/records/5p98p-h1213
 biron: https://eprints.bbk.ac.uk/id/eprint/58129/
+smolpub: unspoken-agreements-circling-vultures-and-asahi-linux
 categories:
 - Technology
 - Copyright and Licensing

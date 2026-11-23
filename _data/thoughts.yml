@@ -1,3 +1,82 @@
+- id: '20261123132557'
+  date: '2026-11-23T13:25:57.107074+00:00'
+  text: Twenty-seven of those trusts are in such dire financial straits that they have rated lack of money as the biggest threat they face. Six have given that danger a rating of 25 – the highest possible score – in their risk register. https://www.theguardian.com/society/2026/nov/22/nhs-savings-hospitals-trusts-england-cuts
+  bluesky: https://bsky.app/profile/eve.gd/post/3n2ya6tbjb72n
+  mastodon: https://hcommons.social/@mpe/117665980258992639
+- id: '20261123121308'
+  date: '2026-11-23T12:13:08.994242+00:00'
+  text: After last-year's near-miss, I have designated this week as "buy a Christmas tree week"! https://eve.gd/2025/12/21/2000-christmas-trees-sold-by-the-14th-december/
+  bluesky: https://bsky.app/profile/eve.gd/post/3n2y44p2c7p2q
+  mastodon: https://hcommons.social/@mpe/117665694092561373
+- id: '20261123114624'
+  date: '2026-11-23T11:46:24.069232+00:00'
+  text: 'The pump for my intravenous feeding has a 10-minute idle warning. When it has been unused for 10 minutes, it begins to beep at you. This is designed to stop people forgetting it is still powered on.
+
+
+    It is really not helpful when you are trying to do a procedure, though, and it starts beeping at you when you are halfway through a complex hygiene operation. Just don''t hurry people who are learning and trying to do this right!'
+  bluesky: https://bsky.app/profile/eve.gd/post/3n2y2ms2sax2q
+  mastodon: https://hcommons.social/@mpe/117665588811728160
+- id: '20261122103033'
+  date: '2026-11-22T10:30:33.150664+00:00'
+  text: 'This morning, I have been editing transcriptions of previously unpublished material by William H. Gass that will be forthcoming in Orbit next month. Very exciting!
+
+
+    But several very taboo racial slurs are used rhetorically in one of the pieces, and we must consider how to handle these. My urge is to redact because, although it blunts the intended shock, the countervailing offense may be far greater. There is also the practical matter that including such terms may have us barred from discovery systems.
+
+
+    I should add that the terms are used, however misguidedly it may now seem, in the context of an anti-racist activism from the 1960s. These are the kind of things that we have to discuss with transcribers, editors, and the Estate. Editorial work!'
+  bluesky: https://bsky.app/profile/eve.gd/post/3n2vfwana5o22
+  mastodon: https://hcommons.social/@mpe/117659628226904714
+- id: '20261121155331'
+  date: '2026-11-21T15:53:31.688153+00:00'
+  text: 'We''re rewatching the Craig Bond films and are now on Marc Forster''s Quantum of Solace. I *hate* the cinematography of the chases and fights. All quick-cut shaky-camera no-macro dizzying circuits. Genuinely makes me feel sick!
+
+
+    The Tosca scene, for example, is just terribly confusing and pretentious. The intro car-chase is nonsensical. I couldn''t work out a thing when Bond was chasing the defector early on. It becomes more coherent after that.'
+  images:
+  - src: /assets/thoughts/20261121155331-1.jpg
+    alt: Poster for Quantum of Solace featuring Olga Kurylenko and Daniel Craig looking stylish
+  bluesky: https://bsky.app/profile/eve.gd/post/3n2thiuan462g
+  mastodon: https://hcommons.social/@mpe/117655235927930811
+- id: '20261121132854'
+  date: '2026-11-21T13:28:54.120557+00:00'
+  text: I'm finally doing the geeky thing I wanted to do for ages and installing NixOS on my main machine. I know the result of this will be a total day of pain fixing it and that it will result in a non-bootable state, but what the heck? 😂
+  bluesky: https://bsky.app/profile/eve.gd/post/3n2t7gae4o224
+  mastodon: https://hcommons.social/@mpe/117654667155262154
+- id: '20261121101037'
+  date: '2026-11-21T10:10:37.203886+00:00'
+  text: 'There''s a phrase the young people use these days, ''fuck around and find out'', meaning, as I understand it, face the consequences of your actions. It''s a small sign, but this week, while doing my medical procedures (dialysis and IV feeding), I got a bit of the find-out phase.
+
+
+    I have had to take corticosteroids for 20 years due to severe progressive rheumatoid arthritis. The steroid-sparing agents, biologics, have not done enough to bring the dose down.
+
+
+    I decided that I needed to use the supposedly prime years of my life as well as I could, and so took the high-dose steroids, knowing there would later be consequences.
+
+
+    I now have extremely thin skin as a result, and I keep splitting my skin just from daily activities. This will sound ridiculous and trivial, but when I put the hand gel on to sanitise my hands, my god, it stings! Sadly, a small reminder that I have not escaped consequences.'
+  bluesky: https://bsky.app/profile/eve.gd/post/3n2sudofp6q2z
+  mastodon: https://hcommons.social/@mpe/117653887498628628
+- id: '20261121094103'
+  date: '2026-11-21T09:41:03.782037+00:00'
+  text: "A thread about scholcomms in mathematics. Here is the hurried announcement by Masullo revealing that he had a draft proof of the Riemann hypo, and it had been in months-long review. https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/\n\nSo, the AI proof will probably be correct with its Lean verifications. But this work from Masullo would mean that humans would actually understand it. The former gives us just an answer. The latter understanding.\n\nThat said, it's not going to be something *I* can or will ever understand, but that's true of many research topics in many fields. But I do not feel happy that we cede human understanding of these phenomena.\n\nI should also note that the AI proof was guided by an advanced mathematician who knew how to ask the correct questions. It wasn't just \"Claude: solve the Riemann hypothesis\". \n\nMathematics now has to contend with what a pipeline will look like for producing new junior research mathematicians,\
+    \ given that Claude can seemingly prove anything they might work on. Tim Gowers has been writing and thinking on this.\n\nBut Alpöge’s AI proof was announced and explained in the most horrible way. It reads like a 12-year-old has just discovered a dinosaur skeleton in the back garden. It conveys infantile excitement, with no community verification or responsibility beyond the computational proof.\n\nIs a future intention to \"write it properly\" enough? Alpöge has been on a quest to destroy the longstanding formal system of mathematical verification and publication for a long time.\n\nHe writes: \"the last solo paper of mine to be published in a journal is from the year i finished undergrad. that is certainly deliberate, though it hurt my career. i decided they must be defeated\".\n\nGiven the writing, even here, on his website, I can see why he did not like submitting to publications requiring proper writing.\n\nBut what we have here is supposedly an announcement of the greatest mathematical\
+    \ proof result in goodness knows how long, in a four-page PDF posted on a website full of cat photos. Surely this is the gravitas befitting a 150-year-old mathematics problem.\n\nAlso: the only reason anybody found this PDF was because the author was already a known figure and at Anthropic. Anybody else posting a four-page PDF claiming to solve the greatest problem in mathematics would be thought a crank, and their work ignored. Discovery by celebrity.\n\nThere will be no indexing of this document by libraries. It will not be ingested into formal digital preservation systems. It all seems deeply problematic to me."
+  bluesky: https://bsky.app/profile/eve.gd/post/3n2ssothao32q
+  mastodon: https://hcommons.social/@mpe/117653771380016322
+- id: '20261121091040'
+  date: '2026-11-21T09:10:40.195320+00:00'
+  text: "Slopstrap — Make your site look hastily vibecoded.\n\n\"It's not just a CSS framework — it's a load-bearing accelerant to make anything look like it was made by an LLM\" \U0001F602 \n\nhttps://slopstrap.mikelacher.com/"
+  bluesky: https://bsky.app/profile/eve.gd/post/3n2sqyi35ca2r
+  mastodon: https://hcommons.social/@mpe/117653651747544125
+- id: '20261121081708'
+  date: '2026-11-21T08:17:08.245490+00:00'
+  text: 'Anthropic mathematician posts claimed computational proof for The Riemann Hypothesis, the greatest unsolved problem in number theory in the last two centuries. https://alpo.ge/remark.pdf
+
+
+    https://alpo.ge/lean.tar.gz.part01, . . . , https://alpo.ge/lean.tar.gz.part14.'
+  bluesky: https://bsky.app/profile/eve.gd/post/3n2snyquyw72q
+  mastodon: https://hcommons.social/@mpe/117653441240611541
 - id: '20261120130328'
   date: '2026-11-20T13:03:28.751447+00:00'
   text: At least when you can't eat food for real, there's always IV feeding. Oh joy!
