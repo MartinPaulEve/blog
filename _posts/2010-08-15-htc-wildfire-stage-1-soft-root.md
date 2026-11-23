@@ -258,9 +258,12 @@ doi: https://doi.org/10.59348/vvye0-qq070
 roguescholar: https://rogue-scholar.org/records/qhxp8-jja45
 atproto: at://did:plc:hnpt7ns2lecdujegbi6qkqqm/site.standard.document/3mq7mlte6aa2r
 image:
-  feature: geek.png
+  credit: "Image by Martin Paul Eve"
+  creditlink: "https://eve.gd"
+  feature: "superuser_request-300x225.jpg"
+  title: "A softrooted HTC Wildfire"
 layout: post
-ogImage: images/geek.png
+ogImage: "superuser_request-300x225.jpg"
 published: true
 status: publish
 tags:
@@ -279,25 +282,58 @@ references:
 - http://forum.xda-developers.com/showthread.php?t=682828 # XDA Developers HTC Wildfire root thread
 ---
 
-<p><img src="https://www.martineve.com/wp-content/uploads/2010/08/superuser_request-300x225.jpg" alt="An HTC Wildfire displaying an Android Superuser permission request, beside a handwritten note reading Martin Eve" width="500" height="375"/><br />
-<b>UPDATE 2013-06-30: I'm afraid that I've had to remove the below files as my host thinks they are a virus. Great. Anyway, this method has easily been surpassed by now.</b></p>
-<p>This is a break from my customary blog posts on Thomas Pynchon and my university research to present a sample of one my other research interests in the realm of computer science and information security.
+# Soft Rooting an HTC Wildfire
+
+UPDATE 2013-06-30: I'm afraid that I've had to remove the below files as my host thinks they are a virus. Great. Anyway, this method has easily been surpassed by now.
+
+This is a break from my customary blog posts on Thomas Pynchon and my university research to present a sample of one my other research interests in the realm of computer science and information security.
 Google has, for a fair while now, been distributing their stripped down version of the Linux operating system -- Android -- on mobile devices. These devices are capable of running as fully fledged Linux distributions but for the fact that manufacturers lock down the phones and make it incredibly difficult to gain administrative priveleges on the devices.
+
 As such, I have begun investigating ways by which to circumvent this ridiculous restriction of users' rights on their own devices; as the recent US Supreme Court ruling sensibly decreed: the devices are owned by the end-users, the end-users should be able to control what is run on such systems and circumventing the protection mechanisms on a device one owns is neither illegal, nor protected by the DMCA.
 Recently, a group dubbed "The Android Exploid Crew" released an extremely clever piece of code for the Android operating system which exploits the hotplug system. Essentially, it manages to install itself as a callback function upon enable/disable of any hotplug device (wifi/bluetooth) which is executed with escalated priveleges. The original exploit copies itself to a new binary in /system/bin, the flash-memory filesystem which has been remounted read-write, and which is owned by the root account and has the setuid bit set.
+
 Now: the recent HTC device, the Wildfire (codenamed: Buzz), has an interesting system of protection on the flash memory -- NAND protection. This means that, despite the read-write remount of the /system filesystem, any write to this area will result in the system spiralling out of memory, refusing the write and then rebooting. Obviously, this means that the exploit, in its original form, results in a crash and reboot.
+
 I have now modified this exploit to perform differently so that it will work on the Wildfire.
+
 I anticipate that the best usage for my work is as follows, which I may attempt to implement if I have time:
-Setup application (can we run at startup?) checks for existence of /system/bin/su <br />If not existent, it unpacks su binary and exploid binary to /sqlite_stmt_journals <br />Runs exploit <br />Rebind mount /dev/block/mtdblock3 to /sqlite_stmt_journals/binmount <br />Symlinks all binaries from /sqlite_stmt_journals/binmount/bin to /sqlite_stmt_journals/newbin <br />Copies su to /sqlite_stmt_journals/newbin <br />Chmods/chowns /sqlite_stmt_journals/newbin to a safe combo <br />Mounts /sqlite_stmt_journals/newbin over the top of /system/bin <br />su will now function correctly
+
+* Setup application (can we run at startup?) checks for existence of /system/bin/su 
+* If not existent, it unpacks su binary and exploid binary to /sqlite_stmt_journals
+* Runs exploit 
+* Rebind mount /dev/block/mtdblock3 to /sqlite_stmt_journals/binmount 
+* Symlinks all binaries from /sqlite_stmt_journals/binmount/bin to /sqlite_stmt_journals/newbin 
+* Copies su to /sqlite_stmt_journals/newbin 
+* Chmods/chowns /sqlite_stmt_journals/newbin to a safe combo 
+* Mounts /sqlite_stmt_journals/newbin over the top of /system/bin 
+* su will now function correctly
+
 Anyway, I have achieved all this manually and now have at /system/bin/ the su binary and, linked into this, the Superuser.apk application!
-Obligatory screenshot of barnacle wifi tether requesting superuser permissions attached.
-So, anyway, to reproduce this, grab these files (source at the end of the post if you want to recompile):
-<a href="http://www.martineve.com/wildfirestage1root/su">http://www.martineve.com/wildfirestage1root/su</a> <br /><a href="http://www.martineve.com/wildfirestage1root/busybox">http://www.martineve.com/wildfirestage1root/busybox</a> <br /><a href="http://www.martineve.com/wildfirestage1root/Superuser.apk">http://www.martineve.com/wildfirestage1root/Superuser.apk</a> <br /><a href="http://www.martineve.com/wildfirestage1root/exploid">http://www.martineve.com/wildfirestage1root/exploid</a>
+
+So, anyway, to reproduce this, grab these files (SORRY. *NO LONGER AVAILABLE*.):
+
 ANY STEPS YOU TAKE FROM HEREON ARE YOUR OWN UNDERTAKING. I ACCEPT NO RESPONSIBILITY FOR A BRICKED DEVICE, EVEN THOUGH I PERSONALLY HAD NO PROBLEMS.
-Setup adb <br />Push all the files to /sqlite_stmt_journals/ <br />Execute:
-adb shell <br />cd /sqlite_stmt_journals <br />./exploid
+
+```
+Setup adb 
+Push all the files to /sqlite_stmt_journals/
+Execute:
+adb shell 
+cd /sqlite_stmt_journals 
+./exploid
 Toggle your wifi on and off
 Back at shell, execute:
-mkdir binmount <br />mkdir newbin <br />chmod 755 ./busybox <br />./exploid <br />./busybox mount -r -t yaffs2 /dev/block/mtdblock3 ./binmount <br />./busybox ln -s /sqlite_stmt_journals/binmount/bin/* /sqlite_stmt_journals/newbin/ <br />./busybox cp ./su ./newbin/ <br />./busybox mount --bind /sqlite_stmt_journals/newbin /system/bin <br />./busybox cp ./Superuser.apk /data/app/ <br />./busybox rm ./exploid <br />./busybox rm ./su
+mkdir binmount
+mkdir newbin
+chmod 755
+./busybox 
+./exploid 
+./busybox mount -r -t yaffs2 /dev/block/mtdblock3 ./binmount 
+./busybox ln -s /sqlite_stmt_journals/binmount/bin/* /sqlite_stmt_journals/newbin/ 
+./busybox cp ./su ./newbin/ 
+./busybox mount --bind /sqlite_stmt_journals/newbin /system/bin 
+./busybox cp ./Superuser.apk /data/app/ 
+./busybox rm ./exploid 
+./busybox rm ./su
+```
 You now have a rooted HTC Wildfire... until you reboot.
-Source files: <br /><a href="http://www.martineve.com/wildfirestage1root/exploid.c">http://www.martineve.com/wildfirestage1root/exploid.c</a> <br /><a href="http://www.martineve.com/wildfirestage1root/makefile">http://www.martineve.com/wildfirestage1root/makefile</a> <br /><a href="http://forum.xda-developers.com/showthread.php?t=682828">http://forum.xda-developers.com/showthread.php?t=682828</a></p>
