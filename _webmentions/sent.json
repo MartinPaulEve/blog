@@ -17906,6 +17906,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-11/#t20261124103949": {
+   "content_hash": "306a5508423872f056737ead9ba93ac3ab5aaed8f28e9d59748638be281645c3",
+   "sent": {
+    "https://ploum.net/2026-11-24-androidification.html": {
+     "at": "2026-11-24T10:41:10+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
