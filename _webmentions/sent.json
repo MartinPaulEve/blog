@@ -17924,6 +17924,16 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-11/#t20261125164320": {
+   "content_hash": "3820cb4995ac39ee7eb9ad94b0012747df55834902de8ecb0c7f991347352ecd",
+   "sent": {
+    "https://shkspr.mobi/blog/2026/11/book-review-slow-gods-by-claire-north/": {
+     "at": "2026-11-25T16:44:42+00:00",
+     "endpoint": "https://shkspr.mobi/blog/wp-json/webmention/1.0/endpoint",
+     "status": 200
+    }
+   }
   }
  }
 }
