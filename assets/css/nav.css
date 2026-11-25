@@ -9,3 +9,13 @@
     font-family: var(--font-mono);
     font-size: 0.85rem;
 }
+
+/* Between the desktop breakpoint and a comfortably wide bar, the six path
+   links, the bubble, the theme toggle and the mouse do not fit at the full
+   2rem gap: the toggle and mouse get pushed off the right-hand edge.
+   Tighten the gap there so the whole bar stays in view. */
+@media (min-width: 768px) and (max-width: 1099px) {
+    .nav-desktop {
+        gap: 1.1rem;
+    }
+}
