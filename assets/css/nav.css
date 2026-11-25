@@ -10,12 +10,23 @@
     font-size: 0.85rem;
 }
 
-/* Between the desktop breakpoint and a comfortably wide bar, the six path
-   links, the bubble, the theme toggle and the mouse do not fit at the full
-   2rem gap: the toggle and mouse get pushed off the right-hand edge.
-   Tighten the gap there so the whole bar stays in view. */
-@media (min-width: 768px) and (max-width: 1099px) {
+/* Seven path links, the bubble, the theme toggle and the mouse do not fit
+   beside the name at the full 2rem gap until the bar is about 1200px wide:
+   below that the name wraps and, narrower still, the toggle and mouse are
+   pushed off the right-hand edge. So the gap is fluid: it grows with the
+   viewport from a single-space 0.5rem up to the full 2rem. 58rem is the
+   room everything except the nine gaps needs, allowing for the extra
+   right-hand padding the homepage header carries. */
+@media (min-width: 768px) {
     .nav-desktop {
-        gap: 1.1rem;
+        gap: clamp(0.5rem, calc((100vw - 58rem) / 9), 2rem);
+    }
+}
+
+/* At the narrowest desktop widths even the minimum gap is not enough, so
+   the bubble gives up some of its side padding. */
+@media (min-width: 768px) and (max-width: 899px) {
+    .nav-desktop .btn {
+        padding-inline: 1rem;
     }
 }
