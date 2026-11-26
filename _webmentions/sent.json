@@ -17934,6 +17934,16 @@
      "status": 200
     }
    }
+  },
+  "/thoughts/2026-11/#t20261126124503": {
+   "content_hash": "813e93a22e9126f4c3a410e630e94b8c1b3528d6171c588a56510bb675f6e375",
+   "sent": {
+    "https://shkspr.mobi/blog/2026/11/ogp-image-format-support-on-major-sites-and-apps/": {
+     "at": "2026-11-26T12:46:20+00:00",
+     "endpoint": "https://shkspr.mobi/blog/wp-json/webmention/1.0/endpoint",
+     "status": 200
+    }
+   }
   }
  }
 }
