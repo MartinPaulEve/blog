@@ -1,3 +1,11 @@
+- id: '20261127210711'
+  date: '2026-11-27T21:07:11.666735+00:00'
+  text: Luka. Close of a long week.
+  images:
+  - src: /assets/thoughts/20261127210711-1.jpg
+    alt: My dog Luka. A black husky sized dog with a grey mane/face.
+  bluesky: https://bsky.app/profile/eve.gd/post/3n3d3tbosus2t
+  mastodon: https://hcommons.social/@mpe/117690443285998699
 - id: '20261127110919'
   date: '2026-11-27T11:09:19.995334+00:00'
   text: Calif demonstrates Tor Browser de-anonymization exploit against v15.0.22 https://calif.io/research/tortilla-with-onion
