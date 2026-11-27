@@ -17924,6 +17924,44 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-11/#t20261125164320": {
+   "content_hash": "3820cb4995ac39ee7eb9ad94b0012747df55834902de8ecb0c7f991347352ecd",
+   "sent": {
+    "https://shkspr.mobi/blog/2026/11/book-review-slow-gods-by-claire-north/": {
+     "at": "2026-11-25T16:44:42+00:00",
+     "endpoint": "https://shkspr.mobi/blog/wp-json/webmention/1.0/endpoint",
+     "status": 200
+    }
+   }
+  },
+  "/thoughts/2026-11/#t20261126124503": {
+   "content_hash": "813e93a22e9126f4c3a410e630e94b8c1b3528d6171c588a56510bb675f6e375",
+   "sent": {
+    "https://shkspr.mobi/blog/2026/11/ogp-image-format-support-on-major-sites-and-apps/": {
+     "at": "2026-11-26T12:46:20+00:00",
+     "endpoint": "https://shkspr.mobi/blog/wp-json/webmention/1.0/endpoint",
+     "status": 200
+    }
+   }
+  },
+  "/thoughts/2026-11/#t20261126195144": {
+   "content_hash": "8b83e1a9516f75b0ec6411e9fae65f65353605d490d50f77e6ffcd9b02027474",
+   "sent": {
+    "https://www.theguardian.com/books/2026/nov/25/the-british-library-is-wrong-to-repurpose-its-reading-rooms": {
+     "at": "2026-11-26T19:53:01+00:00",
+     "endpoint": null
+    }
+   }
+  },
+  "/thoughts/2026-11/#t20261126200912": {
+   "content_hash": "bfed7b15b4cc48e4dc2bcf4e55af4849923fdefb172501d2595cb48d45130855",
+   "sent": {
+    "https://www.theguardian.com/artanddesign/2026/nov/26/ron-athey-extreme-performance-artist-scrotum-stapler": {
+     "at": "2026-11-26T20:10:27+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
