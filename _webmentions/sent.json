@@ -17962,6 +17962,15 @@
      "endpoint": null
     }
    }
+  },
+  "/thoughts/2026-11/#t20261127110919": {
+   "content_hash": "03af68e76d8e9094af0525615425b8fc39cbca0d254f56ea0a2bdb7d8f92c33b",
+   "sent": {
+    "https://calif.io/research/tortilla-with-onion": {
+     "at": "2026-11-27T11:10:39+00:00",
+     "endpoint": null
+    }
+   }
   }
  }
 }
